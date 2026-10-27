@@ -1,0 +1,110 @@
+{
+  "_nota": "Catalogo delle città del Veneto. 'stato': disponibile (dati pronti), in_preparazione. 'anteprima': monumenti gratuiti (id dei luoghi). I pacchetti a pagamento arriveranno dal server dopo l'acquisto.",
+  "versione": 1,
+  "gratuito": "Servizi pratici completi, 10 monumenti di anteprima, linee dei mezzi con orario teorico",
+  "citta": [
+    {
+      "id": "venezia",
+      "nome": "Venezia",
+      "provincia": "Venezia",
+      "stato": "disponibile",
+      "anteprima": [
+        "piazza-san-marco",
+        "ponte-rialto",
+        "palazzo-ducale",
+        "basilica-san-marco",
+        "stazione",
+        "piazzale-roma",
+        "accademia",
+        "frari",
+        "salute",
+        "guggenheim"
+      ],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "verona",
+      "nome": "Verona",
+      "provincia": "Verona",
+      "stato": "disponibile",
+      "anteprima": [
+        "arena-di-verona",
+        "ponte-pietra",
+        "piazza-delle-erbe",
+        "duomo-di-verona",
+        "basilica-di-san-zeno-maggiore",
+        "museo-di-castelvecchio",
+        "museo-lapidario-maffeiano",
+        "museo-archeologico-al-teatro-romano",
+        "palazzo-della-ragione",
+        "palazzo-del-capitanio"
+      ],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "padova",
+      "nome": "Padova",
+      "provincia": "Padova",
+      "stato": "disponibile",
+      "anteprima": [
+        "basilica-di-sant-antonio",
+        "basilica-di-santa-giustina",
+        "musei-civici-agli-eremitani",
+        "museo-della-natura-e-dell-uomo",
+        "palazzo-della-ragione",
+        "palazzo-del-bo",
+        "ponte-molino",
+        "ponte-san-lorenzo",
+        "prato-della-valle",
+        "piazza-delle-erbe"
+      ],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "treviso",
+      "nome": "Treviso",
+      "provincia": "Treviso",
+      "stato": "in_preparazione",
+      "anteprima": [],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "vicenza",
+      "nome": "Vicenza",
+      "provincia": "Vicenza",
+      "stato": "in_preparazione",
+      "anteprima": [],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "rovigo",
+      "nome": "Rovigo",
+      "provincia": "Rovigo",
+      "stato": "in_preparazione",
+      "anteprima": [],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    },
+    {
+      "id": "belluno",
+      "nome": "Belluno",
+      "provincia": "Belluno",
+      "stato": "in_preparazione",
+      "anteprima": [],
+      "pacchetto": null,
+      "sku": null,
+      "dimensione_mb": null
+    }
+  ]
+}
