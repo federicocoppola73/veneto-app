@@ -1,16 +1,900 @@
 {
-  "file": [
-    {
-      "path": "dati/luoghi.json",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json"
-    },
-    {
-      "path": "dati/mappa.json",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/mappa.json"
-    },
-    {
-      "path": "mappa/mappa-padova.webp",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/mappa/mappa-padova.webp"
-    }
-  ]
+ "file": [
+  {
+   "path": "assets/luoghi/basilica-di-sant-antonio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-sant-antonio.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-antonio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-sant-antonio_2.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-antonio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-sant-antonio_3.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-antonio_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-sant-antonio_4.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-giustina.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-giustina.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-giustina_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-giustina_2.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-giustina_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-giustina_3.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-giustina_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-giustina_4.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-maria-del-carmine.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-maria-del-carmine.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-maria-del-carmine_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-maria-del-carmine_2.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-maria-del-carmine_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-maria-del-carmine_3.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-santa-maria-del-carmine_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/basilica-di-santa-maria-del-carmine_4.webp"
+  },
+  {
+   "path": "assets/luoghi/battistero-della-cattedrale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/battistero-della-cattedrale.webp"
+  },
+  {
+   "path": "assets/luoghi/battistero-della-cattedrale_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/battistero-della-cattedrale_2.webp"
+  },
+  {
+   "path": "assets/luoghi/battistero-della-cattedrale_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/battistero-della-cattedrale_3.webp"
+  },
+  {
+   "path": "assets/luoghi/battistero-della-cattedrale_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/battistero-della-cattedrale_4.webp"
+  },
+  {
+   "path": "assets/luoghi/caffe-pedrocchi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/caffe-pedrocchi.webp"
+  },
+  {
+   "path": "assets/luoghi/caffe-pedrocchi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/caffe-pedrocchi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/caffe-pedrocchi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/caffe-pedrocchi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/caffe-pedrocchi_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/caffe-pedrocchi_4.webp"
+  },
+  {
+   "path": "assets/luoghi/cappella-degli-scrovegni.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/cappella-degli-scrovegni.webp"
+  },
+  {
+   "path": "assets/luoghi/cappella-degli-scrovegni_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/cappella-degli-scrovegni_2.webp"
+  },
+  {
+   "path": "assets/luoghi/cappella-degli-scrovegni_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/cappella-degli-scrovegni_3.webp"
+  },
+  {
+   "path": "assets/luoghi/cappella-degli-scrovegni_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/cappella-degli-scrovegni_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-degli-eremitani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-degli-eremitani.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-degli-eremitani_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-degli-eremitani_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-degli-eremitani_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-degli-eremitani_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-degli-eremitani_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-degli-eremitani_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-canziano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-canziano.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-canziano_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-canziano_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-canziano_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-canziano_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-canziano_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-canziano_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-daniele.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-daniele.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-daniele_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-daniele_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-daniele_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-daniele_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-daniele_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-daniele_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-francesco-grande.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-francesco-grande.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-francesco-grande_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-francesco-grande_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-francesco-grande_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-francesco-grande_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-francesco-grande_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-francesco-grande_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-gaetano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-gaetano.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-gaetano_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-gaetano_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-gaetano_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-gaetano_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-gaetano_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-gaetano_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-nicolo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-nicolo.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-nicolo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-nicolo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-nicolo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-nicolo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-san-nicolo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-san-nicolo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-santa-sofia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-santa-sofia.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-santa-sofia_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-santa-sofia_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-santa-sofia_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-santa-sofia_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-di-santa-sofia_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/chiesa-di-santa-sofia_4.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-padova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/duomo-di-padova.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-padova_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/duomo-di-padova_2.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-padova_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/duomo-di-padova_3.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-padova_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/duomo-di-padova_4.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-dell-arena.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardini-dell-arena.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-dell-arena_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardini-dell-arena_2.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-dell-arena_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardini-dell-arena_3.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-dell-arena_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardini-dell-arena_4.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-della-rotonda.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardino-della-rotonda.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-della-rotonda_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardino-della-rotonda_2.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-della-rotonda_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardino-della-rotonda_3.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-della-rotonda_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardino-della-rotonda_4.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-treves-de-bonfili.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardino-treves-de-bonfili.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-e-odeo-cornaro.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/loggia-e-odeo-cornaro.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-e-odeo-cornaro_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/loggia-e-odeo-cornaro_2.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-e-odeo-cornaro_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/loggia-e-odeo-cornaro_3.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-e-odeo-cornaro_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/loggia-e-odeo-cornaro_4.webp"
+  },
+  {
+   "path": "assets/luoghi/musei-civici-agli-eremitani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musei-civici-agli-eremitani.webp"
+  },
+  {
+   "path": "assets/luoghi/musei-civici-agli-eremitani_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musei-civici-agli-eremitani_2.webp"
+  },
+  {
+   "path": "assets/luoghi/musei-civici-agli-eremitani_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musei-civici-agli-eremitani_3.webp"
+  },
+  {
+   "path": "assets/luoghi/musei-civici-agli-eremitani_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musei-civici-agli-eremitani_4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-bottacin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/museo-bottacin.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-bottacin_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/museo-bottacin_2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-bottacin_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/museo-bottacin_3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-bottacin_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/museo-bottacin_4.webp"
+  },
+  {
+   "path": "assets/luoghi/musme-museo-di-storia-della-medicina.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musme-museo-di-storia-della-medicina.webp"
+  },
+  {
+   "path": "assets/luoghi/musme-museo-di-storia-della-medicina_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musme-museo-di-storia-della-medicina_2.webp"
+  },
+  {
+   "path": "assets/luoghi/orto-botanico-di-padova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/orto-botanico-di-padova.webp"
+  },
+  {
+   "path": "assets/luoghi/orto-botanico-di-padova_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/orto-botanico-di-padova_2.webp"
+  },
+  {
+   "path": "assets/luoghi/orto-botanico-di-padova_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/orto-botanico-di-padova_3.webp"
+  },
+  {
+   "path": "assets/luoghi/orto-botanico-di-padova_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/orto-botanico-di-padova_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-cavalli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-cavalli.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-cavalli_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-cavalli_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-cavalli_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-cavalli_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-cavalli_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-cavalli_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-bo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-del-bo.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-bo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-del-bo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-bo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-del-bo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-bo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-del-bo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-cassa-di-risparmio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-cassa-di-risparmio.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-cassa-di-risparmio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-cassa-di-risparmio_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-cassa-di-risparmio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-cassa-di-risparmio_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-cassa-di-risparmio_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-cassa-di-risparmio_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-ragione.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-ragione_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-ragione_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-della-ragione_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-liviano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-liviano.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-liviano_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-liviano_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-liviano_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-liviano_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-liviano_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-liviano_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maldura.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-maldura.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maldura_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-maldura_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maldura_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-maldura_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maldura_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-maldura_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-moroni.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-moroni.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-moroni_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-moroni_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-moroni_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-moroni_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-moroni_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-moroni_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zabarella.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zabarella.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zabarella_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zabarella_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zabarella_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zabarella_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zabarella_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zabarella_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/palazzo-zuckermann-museo-di-arti-applicate-e-decorative_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-antenore.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-antenore.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-antenore_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-antenore_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-antenore_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-antenore_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-antenore_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-antenore_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-dei-signori.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-dei-signori_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-dei-signori_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-dei-signori_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-del-santo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-del-santo.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-del-santo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-del-santo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-del-santo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-del-santo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-del-santo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-del-santo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-della-frutta.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-della-frutta.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-della-frutta_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-della-frutta_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-della-frutta_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-della-frutta_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-della-frutta_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-della-frutta_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-delle-erbe.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-delle-erbe_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-delle-erbe_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-delle-erbe_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-duomo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-duomo.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-duomo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-duomo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-duomo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-duomo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-duomo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-duomo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-eremitani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-eremitani.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-eremitani_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-eremitani_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-eremitani_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-eremitani_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-garibaldi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-garibaldi.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-garibaldi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-garibaldi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-garibaldi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-garibaldi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-garibaldi_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/piazza-garibaldi_4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-corvo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-corvo.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-corvo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-corvo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-corvo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-corvo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-corvo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-corvo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-delle-torricelle.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-delle-torricelle.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-delle-torricelle_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-delle-torricelle_2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-delle-torricelle_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-delle-torricelle_3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-delle-torricelle_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-delle-torricelle_4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-molino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-molino.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-molino_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-molino_2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-molino_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-molino_3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-molino_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-molino_4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-lorenzo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-san-lorenzo.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-lorenzo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-san-lorenzo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-lorenzo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-san-lorenzo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-lorenzo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ponte-san-lorenzo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-altinate.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-altinate.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-altinate_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-altinate_2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-altinate_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-altinate_3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-altinate_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-altinate_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-molino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-molino.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-molino_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-molino_2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-molino_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-molino_3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-molino_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-molino_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-savonarola.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-savonarola.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-savonarola_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-savonarola_2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-savonarola_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-savonarola_3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-savonarola_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/porta-savonarola_4.webp"
+  },
+  {
+   "path": "assets/luoghi/prato-della-valle.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/prato-della-valle.webp"
+  },
+  {
+   "path": "assets/luoghi/prato-della-valle_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/prato-della-valle_2.webp"
+  },
+  {
+   "path": "assets/luoghi/prato-della-valle_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/prato-della-valle_3.webp"
+  },
+  {
+   "path": "assets/luoghi/prato-della-valle_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/prato-della-valle_4.webp"
+  },
+  {
+   "path": "assets/luoghi/specola-osservatorio-astronomico.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico.webp"
+  },
+  {
+   "path": "assets/luoghi/specola-osservatorio-astronomico_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_2.webp"
+  },
+  {
+   "path": "assets/luoghi/specola-osservatorio-astronomico_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_3.webp"
+  },
+  {
+   "path": "assets/luoghi/specola-osservatorio-astronomico_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_4.webp"
+  },
+  {
+   "path": "assets/luoghi/statua-del-gattamelata.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/statua-del-gattamelata.webp"
+  },
+  {
+   "path": "assets/luoghi/statua-del-gattamelata_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/statua-del-gattamelata_2.webp"
+  },
+  {
+   "path": "assets/luoghi/statua-del-gattamelata_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/statua-del-gattamelata_3.webp"
+  },
+  {
+   "path": "assets/luoghi/statua-del-gattamelata_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/statua-del-gattamelata_4.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-verdi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/teatro-verdi.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-verdi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/teatro-verdi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-verdi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/teatro-verdi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-antenore.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/tomba-di-antenore.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-antenore_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/tomba-di-antenore_2.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-antenore_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/tomba-di-antenore_3.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-antenore_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/tomba-di-antenore_4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-degli-anziani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-degli-anziani.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-degli-anziani_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-degli-anziani_2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-degli-anziani_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-degli-anziani_3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-degli-anziani_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-degli-anziani_4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-orologio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-dell-orologio.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-orologio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-dell-orologio_2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-orologio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-dell-orologio_3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-orologio_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/torre-dell-orologio_4.webp"
+  },
+  {
+   "path": "assets/mappa-padova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/mappa-padova.webp"
+  },
+  {
+   "path": "dati/aguzza.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/aguzza.json"
+  },
+  {
+   "path": "dati/app.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/app.json"
+  },
+  {
+   "path": "dati/autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/autobus.json"
+  },
+  {
+   "path": "dati/cibi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/cibi.json"
+  },
+  {
+   "path": "dati/citta.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/citta.json"
+  },
+  {
+   "path": "dati/curiosita.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/curiosita.json"
+  },
+  {
+   "path": "dati/eventi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/eventi.json"
+  },
+  {
+   "path": "dati/immagini.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json"
+  },
+  {
+   "path": "dati/itinerari.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/itinerari.json"
+  },
+  {
+   "path": "dati/luoghi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json"
+  },
+  {
+   "path": "dati/mappa.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/mappa.json"
+  },
+  {
+   "path": "dati/orari_autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/orari_autobus.json"
+  },
+  {
+   "path": "dati/orari_vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/orari_vaporetti.json"
+  },
+  {
+   "path": "dati/principali.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/principali.json"
+  },
+  {
+   "path": "dati/rete.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/rete.json"
+  },
+  {
+   "path": "dati/servizi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/servizi.json"
+  },
+  {
+   "path": "dati/vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/vaporetti.json"
+  },
+  {
+   "path": "mappa/mappa-padova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/mappa/mappa-padova.webp"
+  }
+ ]
 }

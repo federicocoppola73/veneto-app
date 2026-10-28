@@ -11,7 +11,7 @@ import MotoreApp from './motore/App';
 import { caricaCitta } from './motore/src/apriCitta';
 
 // città che si aprono nel motore unico (stesso codice, dati del loro pacchetto)
-const MOTORE_CITTA = ['venezia', 'verona'];
+const MOTORE_CITTA = ['venezia', 'verona', 'padova'];
 import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';

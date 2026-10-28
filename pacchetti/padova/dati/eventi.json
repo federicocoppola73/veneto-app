@@ -1,0 +1,181 @@
+{
+  "_nota": "Eventi di Padova. Generato da strumenti/calendario.py a partire da eventi.xlsx (solo le righe con PUBBLICARE = S).",
+  "eventi": [
+    {
+      "nome": "Padova Jazz Festival 2026",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-10-22",
+      "fine": "2026-11-08",
+      "luogo": "Teatro Verdi",
+      "luogoId": "teatro-verdi",
+      "descrizione": {
+        "it": "Festival di jazz con 16 concerti in vari luoghi della città, tra cui Teatro Verdi, Sala dei Giganti al Liviano e Gran Teatro Geox.",
+        "en": "Jazz festival with 16 concerts in various places in the city, including Teatro Verdi, the Sala dei Giganti at Liviano and the Gran Teatro Geox.",
+        "fr": "Festival de jazz avec 16 concerts dans différents lieux de la ville, dont le Teatro Verdi, la Sala dei Giganti au Liviano et le Gran Teatro Geox.",
+        "de": "Jazzfestival mit 16 Konzerten an verschiedenen Orten der Stadt, darunter das Teatro Verdi, die Sala dei Giganti im Liviano und das Gran Teatro Geox.",
+        "es": "Festival de jazz con 16 conciertos en distintos lugares de la ciudad, entre ellos el Teatro Verdi, la Sala dei Giganti del Liviano y el Gran Teatro Geox."
+      },
+      "link": "https://www.turismopadova.it/en/events/padova-jazz-festival-2026/"
+    },
+    {
+      "nome": "Brunori Sas",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-10-23",
+      "fine": "2026-10-23",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto del cantautore Brunori Sas al Gran Teatro Geox.",
+        "en": "Concert by singer-songwriter Brunori Sas at the Gran Teatro Geox.",
+        "fr": "Concert de chanteur-auteur Brunori Sas au Gran Teatro Geox.",
+        "de": "Konzert von Liedermacher Brunori Sas im Gran Teatro Geox.",
+        "es": "Concierto de cantautor Brunori Sas en el Gran Teatro Geox."
+      },
+      "link": "https://songkick.com/pt/concerts/42885630-brunori-sas-at-gran-teatro-geox"
+    },
+    {
+      "nome": "Mr.Rain",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-10-29",
+      "fine": "2026-10-29",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Mr.Rain al Gran Teatro Geox.",
+        "en": "Concert by Mr.Rain at the Gran Teatro Geox.",
+        "fr": "Concert de Mr.Rain au Gran Teatro Geox.",
+        "de": "Konzert von Mr.Rain im Gran Teatro Geox.",
+        "es": "Concierto de Mr.Rain en el Gran Teatro Geox."
+      },
+      "link": "https://www.songkick.com/concerts/43058449-mrrain-at-gran-teatro-geox"
+    },
+    {
+      "nome": "Fabio Concato",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-05",
+      "fine": "2026-11-05",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Fabio Concato al Gran Teatro Geox.",
+        "en": "Concert by Fabio Concato at the Gran Teatro Geox.",
+        "fr": "Concert de Fabio Concato au Gran Teatro Geox.",
+        "de": "Konzert von Fabio Concato im Gran Teatro Geox.",
+        "es": "Concierto de Fabio Concato en el Gran Teatro Geox."
+      },
+      "link": "https://songkick.com/concerts/43145339-fabio-concato-at-gran-teatro-geox"
+    },
+    {
+      "nome": "Pagliacci",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-11-20",
+      "fine": "2026-11-22",
+      "luogo": "Teatro Verdi",
+      "luogoId": "teatro-verdi",
+      "descrizione": {
+        "it": "Opera di Leoncavallo, parte della stagione lirica 2026 del Teatro Verdi.",
+        "en": "Opera by Leoncavallo, part of the 2026 opera season at the Teatro Verdi.",
+        "fr": "Opéra de Leoncavallo, dans la saison lyrique 2026 du Teatro Verdi.",
+        "de": "Oper von Leoncavallo, Teil der Opernsaison 2026 im Teatro Verdi.",
+        "es": "Ópera de Leoncavallo, parte de la temporada lírica 2026 del Teatro Verdi."
+      },
+      "link": "https://www.turismopadova.it/en/events/padua-opera-season-2/"
+    },
+    {
+      "nome": "Arisa",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-14",
+      "fine": "2026-12-14",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Arisa al Gran Teatro Geox.",
+        "en": "Concert by Arisa at the Gran Teatro Geox.",
+        "fr": "Concert de Arisa au Gran Teatro Geox.",
+        "de": "Konzert von Arisa im Gran Teatro Geox.",
+        "es": "Concierto de Arisa en el Gran Teatro Geox."
+      },
+      "link": "https://songkick.com/concerts/43074599-arisa-at-gran-teatro-geox"
+    },
+    {
+      "nome": "La Traviata",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-12-28",
+      "fine": "2026-12-31",
+      "luogo": "Teatro Verdi",
+      "luogoId": "teatro-verdi",
+      "descrizione": {
+        "it": "Opera di Verdi, parte della stagione lirica 2026 del Teatro Verdi.",
+        "en": "Opera by Verdi, part of the 2026 opera season at the Teatro Verdi.",
+        "fr": "Opéra de Verdi, dans la saison lyrique 2026 du Teatro Verdi.",
+        "de": "Oper von Verdi, Teil der Opernsaison 2026 im Teatro Verdi.",
+        "es": "Ópera de Verdi, parte de la temporada lírica 2026 del Teatro Verdi."
+      },
+      "link": "https://www.turismopadova.it/en/events/padua-opera-season-2/"
+    },
+    {
+      "nome": "Concerto di Capodanno",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-01-01",
+      "fine": "2027-01-01",
+      "luogo": "Teatro Verdi",
+      "luogoId": "teatro-verdi",
+      "descrizione": {
+        "it": "Concerto di Capodanno con arie e valzer di Offenbach, Puccini, Strauss e Verdi, che chiude la stagione lirica.",
+        "en": "New Year's concert with arias and waltzes by Offenbach, Puccini, Strauss and Verdi, closing the opera season.",
+        "fr": "Concert du Nouvel An avec airs et valses d'Offenbach, Puccini, Strauss et Verdi, qui clôt la saison lyrique.",
+        "de": "Neujahrskonzert mit Arien und Walzern von Offenbach, Puccini, Strauss und Verdi, zum Abschluss der Opernsaison.",
+        "es": "Concierto de Año Nuevo con arias y valses de Offenbach, Puccini, Strauss y Verdi, que cierra la temporada lírica."
+      },
+      "link": "https://www.mentelocale.it/padova/135447-concerto-di-capodanno.htm"
+    }
+  ]
+}

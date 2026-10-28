@@ -1,0 +1,79 @@
+{
+ "expo": {
+  "name": "Padova",
+  "slug": "monumenti-padova",
+  "scheme": "padovamonumenti",
+  "version": "1.0.3",
+  "orientation": "default",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "backgroundColor": "#aad3df",
+  "android": {
+   "package": "com.monumenti.verona",
+   "adaptiveIcon": {
+    "foregroundImage": "./assets/adaptive-icon.png",
+    "backgroundColor": "#0f3d5e"
+   },
+   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.RECORD_AUDIO"
+   ],
+   "intentFilters": [
+    {
+     "action": "VIEW",
+     "autoVerify": true,
+     "data": [
+      {
+       "scheme": "https",
+       "host": "fcdeveloperapps.github.io",
+       "pathPrefix": "/verona/"
+      }
+     ],
+     "category": [
+      "BROWSABLE",
+      "DEFAULT"
+     ]
+    }
+   ]
+  },
+  "ios": {
+   "bundleIdentifier": "com.monumenti.verona",
+   "supportsTablet": true,
+   "infoPlist": {
+    "NSLocationWhenInUseUsageDescription": "La posizione serve a mostrarti sulla mappa e a indicarti i monumenti più vicini. Non viene salvata né inviata."
+   }
+  },
+  "plugins": [
+   [
+    "expo-location",
+    {
+     "locationWhenInUsePermission": "La posizione serve a mostrarti sulla mappa e a indicarti i monumenti più vicini. Non viene salvata né inviata."
+    }
+   ],
+   "expo-sharing",
+   [
+    "expo-image-picker",
+    {
+     "photosPermission": "La foto serve solo per creare la cartolina del luogo. Non viene salvata né inviata.",
+     "cameraPermission": "La fotocamera serve solo per scattare la foto della cartolina del luogo. La foto non viene salvata né inviata."
+    }
+   ],
+   [
+    "expo-media-library",
+    {
+     "savePhotosPermission": "La cartolina viene salvata nelle foto del telefono. Non viene inviata a nessuno.",
+     "photosPermission": "Serve per salvare la cartolina nelle foto. Non viene inviata a nessuno."
+    }
+   ]
+  ],
+  "owner": "fc.developer",
+  "extra": {
+   "eas": {
+    "projectId": "2b151b5b-5450-4c50-9614-79529e4e6b74"
+   }
+  }
+ }
+}
