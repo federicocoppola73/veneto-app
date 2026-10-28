@@ -29,11 +29,20 @@ export async function installa(id) {
   if (!citta?.pacchetto) throw new Error('Pacchetto non ancora disponibile');
   const elenco = await (await fetch(citta.pacchetto)).json();
   const cartella = RADICE + id + '/';
-  for (const file of elenco.file) {
-    const destinazione = cartella + file.path;
-    await FileSystem.makeDirectoryAsync(destinazione.slice(0, destinazione.lastIndexOf('/') + 1), { intermediates: true });
-    const risultato = await FileSystem.downloadAsync(file.url, destinazione);
-    if (risultato.status !== 200) throw new Error(`Download fallito: ${file.path}`);
+  // Cartelle create una volta sola, poi file scaricati a gruppi di 6 in parallelo (più veloce)
+  const cartelle = new Set(elenco.file.map((f) => (cartella + f.path).slice(0, (cartella + f.path).lastIndexOf('/') + 1)));
+  for (const c of cartelle) {
+    await FileSystem.makeDirectoryAsync(c, { intermediates: true });
+  }
+  const PARALLELI = 6;
+  for (let i = 0; i < elenco.file.length; i += PARALLELI) {
+    const gruppo = elenco.file.slice(i, i + PARALLELI);
+    await Promise.all(
+      gruppo.map(async (file) => {
+        const risultato = await FileSystem.downloadAsync(file.url, cartella + file.path);
+        if (risultato.status !== 200) throw new Error(`Download fallito: ${file.path}`);
+      })
+    );
   }
   const stato = await leggiStato();
   return salvaStato({
