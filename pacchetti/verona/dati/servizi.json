@@ -10199,12 +10199,6 @@
    ]
   },
   {
-   "id": "parcheggi-15",
-   "tipo": "parcheggi",
-   "lat": 45.440014,
-   "lon": 10.958134
-  },
-  {
    "id": "parcheggi-16",
    "tipo": "parcheggi",
    "lat": 45.436552,
@@ -10284,12 +10278,6 @@
    "lon": 10.994427,
    "nome": "Tribunale",
    "pagamento": true
-  },
-  {
-   "id": "parcheggi-22",
-   "tipo": "parcheggi",
-   "lat": 45.432235,
-   "lon": 10.965454
   },
   {
    "id": "parcheggi-23",
@@ -10372,18 +10360,6 @@
    }
   },
   {
-   "id": "parcheggi-26",
-   "tipo": "parcheggi",
-   "lat": 45.419236,
-   "lon": 10.958037,
-   "linee": [
-    "23",
-    "24",
-    "62",
-    "98"
-   ]
-  },
-  {
    "id": "parcheggi-27",
    "tipo": "parcheggi",
    "lat": 45.418012,
@@ -10400,32 +10376,6 @@
     "93",
     "97"
    ]
-  },
-  {
-   "id": "parcheggi-28",
-   "tipo": "parcheggi",
-   "lat": 45.404502,
-   "lon": 10.987421,
-   "linee": [
-    "62"
-   ]
-  },
-  {
-   "id": "parcheggi-29",
-   "tipo": "parcheggi",
-   "lat": 45.404111,
-   "lon": 10.991224,
-   "disabili": true,
-   "linee": [
-    "41",
-    "93"
-   ]
-  },
-  {
-   "id": "parcheggi-30",
-   "tipo": "parcheggi",
-   "lat": 45.401811,
-   "lon": 11.002897
   },
   {
    "id": "parcheggi-31",

@@ -102,6 +102,8 @@ function MappaZoomabile(
     pulsantiExtra,
     tessere,
     dimensioneTessera = 512,
+    margineBordo = 0.5, // quanto si può spostare la mappa oltre il bordo dell'immagine (0 = niente)
+    sfondo = '#aad3df', // colore dietro la mappa, visibile solo se si sposta oltre il bordo
   },
   ref
 ) {
@@ -146,7 +148,7 @@ function MappaZoomabile(
     s = limita(s, ZOOM_MIN, ZOOM_MAX);
     // Limita lo spostamento: quando la mappa è ingrandita si può portare al centro
     // dello schermo anche un luogo vicino al bordo (oltre il bordo si vede solo "laguna")
-    const margine = Math.min(1, s - 1) * 0.5;
+    const margine = Math.min(1, s - 1) * margineBordo;
     const maxX = Math.max(0, (base.w * s - area.w) / 2) + area.w * margine;
     const maxY = Math.max(0, (base.h * s - area.h) / 2) + area.h * margine;
     x = limita(x, -maxX, maxX);
@@ -454,7 +456,7 @@ function MappaZoomabile(
     <View style={styles.esterno}>
     <View
       ref={contenitoreRef}
-      style={styles.contenitore}
+      style={[styles.contenitore, { backgroundColor: sfondo }]}
       onLayout={(e) => {
         const { width, height } = e.nativeEvent.layout;
         setArea({ w: width, h: height });

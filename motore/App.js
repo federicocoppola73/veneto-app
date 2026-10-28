@@ -359,17 +359,15 @@ function Schermata() {
   };
 
   // ---- Ricerca, schede e filtri ----
+  // il luogo scelto si illumina e la mappa si centra su di lui; la scheda si apre solo se la tocchi
   const scegliDaRicerca = (id) => {
     setIdEvidenziato(id);
     const punto = tuttiIPunti.find((p) => p.id === id);
     if (punto) mappaRef.current?.centraSu(punto);
-    // dopo lo spostamento della mappa si apre anche la scheda del luogo
-    setTimeout(() => setIdSelezionato(id), 650);
   };
 
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
-    setIdEvidenziato(null);
   }, []);
 
   const cambiaFiltro = (nuove) => {
@@ -696,6 +694,8 @@ function Schermata() {
           ref={mappaRef}
           evidenziato={lampadina ? `lampadina:${lampadina.id}` : idEvidenziato || (prossima ? prossima.id : null)}
           sorgente={immagineMappa}
+          margineBordo={nomeCitta() === 'Venezia' ? 0.5 : 0}
+          sfondo={nomeCitta() === 'Venezia' ? undefined : '#f3f0e8'}
           larghezzaImmagine={configMappa.larghezza}
           altezzaImmagine={configMappa.altezza}
           punti={puntiMappa}
