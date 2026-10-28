@@ -37,7 +37,8 @@ function notifiche() {
   caricato = true;
   // In Expo Go (Android) expo-notifications non si carica: lì gli avvisi semplicemente non ci sono.
   // Nella versione installata dallo store invece funzionano.
-  if (Platform.OS === 'web' || Constants.executionEnvironment === ExecutionEnvironment.StoreClient) return null;
+  // Expo Go (appOwnership 'expo') non ha il codice nativo delle notifiche: non lo carichiamo affatto
+  if (Platform.OS === 'web' || Constants.appOwnership === 'expo' || Constants.executionEnvironment === ExecutionEnvironment.StoreClient) return null;
   try {
     Notifications = require('expo-notifications');
     if (!Notifications?.setNotificationHandler) throw new Error('modulo notifiche assente');
@@ -131,7 +132,12 @@ function quandoPicco(picco, consegna, t) {
  * Le notifiche già programmate vengono sempre cancellate e rifatte, così seguono la previsione più recente.
  */
 export async function programmaAvvisi(marea, pref, t) {
-  const Notifications = notifiche();
+  let Notifications = null;
+  try {
+    Notifications = notifiche();
+  } catch (e) {
+    return; // notifiche non disponibili: l'app continua senza avvisi
+  }
   if (!Notifications) return;
   try {
     await Notifications.cancelAllScheduledNotificationsAsync();
