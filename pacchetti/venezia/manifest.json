@@ -3,6 +3,14 @@
     {
       "path": "dati/luoghi.json",
       "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/luoghi.json"
+    },
+    {
+      "path": "dati/mappa.json",
+      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/mappa.json"
+    },
+    {
+      "path": "mappa/mappa-venezia.webp",
+      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/mappa/mappa-venezia.webp"
     }
   ]
 }

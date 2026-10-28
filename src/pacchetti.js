@@ -68,3 +68,13 @@ export async function datiCitta(id) {
     return null;
   }
 }
+
+// Mappa di una città installata: punti di riferimento e percorso dell'immagine sul telefono
+export async function datiMappa(id) {
+  try {
+    const m = JSON.parse(await FileSystem.readAsStringAsync(RADICE + id + '/dati/mappa.json'));
+    return { ...m, uri: RADICE + id + '/mappa/' + m.immagine };
+  } catch {
+    return null;
+  }
+}

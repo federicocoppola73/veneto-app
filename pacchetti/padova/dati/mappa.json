@@ -1,0 +1,50 @@
+{
+  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
+  "immagine": "mappa-padova.webp",
+  "larghezza": 2563,
+  "altezza": 2323,
+  "punti_riferimento": [
+    {
+      "nome": "Angolo nord-ovest",
+      "latitudine": 45.425,
+      "longitudine": 11.85,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo nord-est",
+      "latitudine": 45.425,
+      "longitudine": 11.905,
+      "x": 2563.2,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo sud-ovest",
+      "latitudine": 45.39,
+      "longitudine": 11.85,
+      "x": 0.0,
+      "y": 2323.3
+    },
+    {
+      "nome": "Angolo sud-est",
+      "latitudine": 45.39,
+      "longitudine": 11.905,
+      "x": 2563.2,
+      "y": 2323.3
+    },
+    {
+      "nome": "Centro",
+      "latitudine": 45.4075,
+      "longitudine": 11.8775,
+      "x": 1281.6,
+      "y": 1161.8
+    },
+    {
+      "nome": "Prato della Valle",
+      "latitudine": 45.3977,
+      "longitudine": 11.8749,
+      "x": 1160.4,
+      "y": 1812.3
+    }
+  ]
+}

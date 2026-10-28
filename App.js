@@ -4,10 +4,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
-import { attiva, datiCitta, installa, leggiStato, rimuovi } from './src/pacchetti';
-import { etichettaStato, etichette, LINGUE, testi } from './src/lingue';
-import ListaLuoghi from './src/schermate/ListaLuoghi';
-import DettaglioLuogo from './src/schermate/DettaglioLuogo';
+import { attiva, datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { etichettaStato, LINGUE, testi } from './src/lingue';
+import CittaApp from './src/schermate/CittaApp';
 
 const CHIAVE_LINGUA = 'lingua';
 
@@ -28,8 +27,8 @@ export default function App() {
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
   const [luoghiAttiva, setLuoghiAttiva] = useState(null);
-  const [vista, setVista] = useState('home'); // 'home' | 'lista' | 'dettaglio'
-  const [luogoId, setLuogoId] = useState(null);
+  const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
+  const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const t = testi(lingua);
 
   useEffect(() => {
@@ -40,6 +39,21 @@ export default function App() {
       })
       .catch(() => {});
   }, []);
+
+  useEffect(() => {
+    if (!cittaAperta) {
+      setDatiAperti(null);
+      return;
+    }
+    Promise.all([datiCitta(cittaAperta), datiMappa(cittaAperta)]).then(([dati, mappa]) => {
+      if (!dati || !mappa) {
+        Alert.alert(t.errore, t.riprova);
+        setCittaAperta(null);
+        return;
+      }
+      setDatiAperti({ luoghi: dati.luoghi, mappa });
+    });
+  }, [cittaAperta]);
 
   useEffect(() => {
     if (!stato.attiva) {
@@ -68,15 +82,17 @@ export default function App() {
   const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
   const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
-  if (vista !== 'home' && luoghiAttiva) {
-    const luogo = luoghiAttiva.luoghi.find((l) => l.id === luogoId);
+  if (cittaAperta && datiAperti) {
     return (
       <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
-        {vista === 'dettaglio' && luogo ? (
-          <DettaglioLuogo luogo={luogo} lingua={lingua} t={t} onIndietro={() => setVista('lista')} />
-        ) : (
-          <ListaLuoghi luoghi={luoghiAttiva.luoghi} lingua={lingua} t={t} onApri={(id) => { setLuogoId(id); setVista('dettaglio'); }} onIndietro={() => setVista('home')} />
-        )}
+        <CittaApp
+          nome={cittaPerId(cittaAperta)?.nome}
+          luoghi={datiAperti.luoghi}
+          mappa={datiAperti.mappa}
+          lingua={lingua}
+          t={t}
+          onIndietro={() => setCittaAperta(null)}
+        />
       </SafeAreaView>
     );
   }
@@ -105,8 +121,8 @@ export default function App() {
           <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
           <Text style={styles.attivaTesto}>{numeroLuoghi} {t.luoghi}</Text>
           {luoghiAttiva ? (
-            <Pressable style={[styles.bottone, styles.bottoneLuoghi]} onPress={() => setVista('lista')}>
-              <Text style={styles.testoBottone}>{etichette(lingua).luoghi} →</Text>
+            <Pressable style={[styles.bottone, styles.bottoneLuoghi]} onPress={() => setCittaAperta(stato.attiva)}>
+              <Text style={styles.testoBottone}>{t.apri} →</Text>
             </Pressable>
           ) : null}
         </View>
@@ -138,6 +154,7 @@ export default function App() {
                 <ActivityIndicator />
               ) : installata ? (
                 <View style={styles.azioni}>
+                  <Pressable style={styles.bottone} onPress={() => setCittaAperta(item.id)}><Text style={styles.testoBottone}>{t.apri}</Text></Pressable>
                   {!attivaOra && <Pressable style={styles.bottone} onPress={() => esegui(item.id, attiva)}><Text style={styles.testoBottone}>{t.attiva}</Text></Pressable>}
                   <Pressable style={[styles.bottone, styles.bottoneSecondario]} onPress={() => esegui(item.id, rimuovi)}><Text style={styles.testoSecondario}>{t.elimina}</Text></Pressable>
                 </View>

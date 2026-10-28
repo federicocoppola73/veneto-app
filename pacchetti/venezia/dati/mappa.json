@@ -1,0 +1,43 @@
+{
+  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
+  "immagine": "mappa-venezia.webp",
+  "larghezza": 2959,
+  "altezza": 2741,
+  "punti_riferimento": [
+    {
+      "nome": "Angolo nord-ovest",
+      "latitudine": 45.503,
+      "longitudine": 12.3,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo nord-est",
+      "latitudine": 45.503,
+      "longitudine": 12.427,
+      "x": 2959.3,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo sud-ovest",
+      "latitudine": 45.4205,
+      "longitudine": 12.3,
+      "x": 0.0,
+      "y": 2740.8
+    },
+    {
+      "nome": "Angolo sud-est",
+      "latitudine": 45.4205,
+      "longitudine": 12.427,
+      "x": 2959.3,
+      "y": 2740.8
+    },
+    {
+      "nome": "Centro",
+      "latitudine": 45.461749999999995,
+      "longitudine": 12.3635,
+      "x": 1479.7,
+      "y": 1370.9
+    }
+  ]
+}

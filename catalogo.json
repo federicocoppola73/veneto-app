@@ -41,7 +41,7 @@
         "palazzo-della-ragione",
         "palazzo-del-capitanio"
       ],
-      "pacchetto": null,
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/manifest.json",
       "sku": null,
       "dimensione_mb": null
     },
@@ -62,7 +62,7 @@
         "prato-della-valle",
         "piazza-delle-erbe"
       ],
-      "pacchetto": null,
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/manifest.json",
       "sku": null,
       "dimensione_mb": null
     },
