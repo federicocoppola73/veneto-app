@@ -61,7 +61,8 @@ const COLORE_PARTENZA = '#0f3d5e';
 const COLORE_TRATTO_UTENTE = '#2563eb'; // percorso dalla posizione dell'utente alla prossima tappa
 const ARRIVATO_M = 40; // entro questa distanza dalla tappa l'utente "è arrivato"
 const ARRIVATO_M_ACQUA = 70; // in vaporetto i palazzi si vedono dal centro del canale
-const SERVIZI_PER_ID = Object.fromEntries(SERVIZI.map((s) => [s.id, s]));
+// i servizi della città si leggono al momento del tocco (i dati si caricano dopo l'avvio)
+const servizioPerId = (id) => SERVIZI.find((s) => s.id === id) || null;
 // Sui telefoni l'app resta in verticale; sui tablet (lato corto ≥ 600 punti) si può ruotare
 const E_TABLET = Math.min(Dimensions.get('screen').width, Dimensions.get('screen').height) >= 600;
 
@@ -546,7 +547,7 @@ function Schermata() {
       const curiosita = CURIOSITA.find((c) => c.id === id.slice('lampadina:'.length));
       if (curiosita?.luogo_id) setIdSelezionato(curiosita.luogo_id);
     }
-    else if (SERVIZI_PER_ID[id]) setIdServizio(id);
+    else if (servizioPerId(id)) setIdServizio(id);
     else setIdSelezionato(id);
   }, []);
 
@@ -608,7 +609,7 @@ function Schermata() {
   const selezionato = tuttiILuoghi.find((l) => l.id === idSelezionato) || null;
   const attivo = posizione.stato === 'attivo' || posizione.stato === 'ricerca';
 
-  const servizioScelto = idServizio ? SERVIZI_PER_ID[idServizio] : null;
+  const servizioScelto = idServizio ? servizioPerId(idServizio) : null;
   const pulsanteServizi = (
     <Pressable
       style={[stilePulsanteMappa, (pannelloServizi || serviziVisibili.length > 0) && styles.pulsanteServiziAttivo]}
