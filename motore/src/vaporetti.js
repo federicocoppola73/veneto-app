@@ -95,21 +95,31 @@ export function fermataVicina(lat, lon, massimo = 150) {
  * capolinea (per le circolari si dice "circolare") e prossima fermata, così si capisce da che parte va
  * anche quando i due capolinea sono vicini (es. linea 2: S. Marco Giardinetti / S. Marco-San Zaccaria).
  */
-export function direzioniDallaFermata(linea, fermataId) {
+export function direzioniDallaFermata(linea, fermataIds) {
+  const ids = [].concat(fermataIds); // una fermata, o le paline con lo stesso nome (es. Piazza Bra Arena)
   return linea.direzioni
     .map((d) => {
+      const fermataId = ids.find((id) => d.fermate.includes(id));
+      if (!fermataId) return null;
       const pos = d.fermate.indexOf(fermataId);
-      if (pos < 0) return null;
       if (!d.circolare && pos === d.fermate.length - 1) return null;
       const prossima = d.fermate[pos + 1];
       return {
         ...d,
+        fermataId, // la palina di questa direzione: da qui si leggono partenze e orari
         posizione: pos,
         capolinea: nomeFermata(d.fermate[d.fermate.length - 1]),
         prossima: nomeFermata(prossima),
       };
     })
     .filter(Boolean);
+}
+
+// paline dell'autobus con lo stesso nome della fermata (es. due Piazza Bra Arena): si mostrano come un'unica fermata
+export function fermateStessoNome(id) {
+  const f = FERMATE[id];
+  if (!f || !id.startsWith('autobus-')) return [id];
+  return Object.keys(DATI_AUTOBUS.fermate).filter((k) => DATI_AUTOBUS.fermate[k].nome === f.nome);
 }
 
 // pagina degli orari ACTV della linea (una per direzione); per le linee senza pagina propria, l'elenco generale

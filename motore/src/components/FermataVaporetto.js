@@ -3,6 +3,7 @@ import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-na
 import {
   coloreSchema,
   direzioniDallaFermata,
+  fermateStessoNome,
   lineaVaporetto,
   lineeAutobusDellaFermata,
   lineeDellaFermata,
@@ -65,7 +66,8 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
   const linea = lineaVaporetto(idLinea);
   // le linee di bus sono dell'ATV (Verona), quelle del vaporetto dell'ACTV (Venezia)
   const gestore = /^(AUT|TRAM)-/.test(idLinea || '') ? 'ATV' : 'ACTV';
-  const direzioni = useMemo(() => (linea ? direzioniDallaFermata(linea, fermataId) : []), [linea, fermataId]);
+  const paline = useMemo(() => fermateStessoNome(fermataId), [fermataId]);
+  const direzioni = useMemo(() => (linea ? direzioniDallaFermata(linea, paline) : []), [linea, paline]);
   const [indiceDirezione, setIndiceDirezione] = useState(0);
   const direzione = direzioni[Math.min(indiceDirezione, direzioni.length - 1)];
   const scorrimento = useRef(null);
@@ -75,11 +77,11 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
   const [infoAperta, setInfoAperta] = useState(false); // riquadro (i): avvisi ACTV e note sui dati
 
   const partenze = useMemo(
-    () => (direzione ? prossimePartenze(fermataId, idLinea, direzione.direzione, adesso) : []),
+    () => (direzione ? prossimePartenze(direzione?.fermataId || fermataId, idLinea, direzione.direzione, adesso) : []),
     [fermataId, idLinea, direzione, adesso]
   );
   const orario = useMemo(
-    () => (direzione && vista === 'orari' ? orarioDelGiorno(fermataId, idLinea, direzione.direzione, adesso, giornoOrario) : null),
+    () => (direzione && vista === 'orari' ? orarioDelGiorno(direzione?.fermataId || fermataId, idLinea, direzione.direzione, adesso, giornoOrario) : null),
     // l'orario completo cambia solo con il giorno: basta ricalcolarlo all'apertura e quando cambia la scelta
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [fermataId, idLinea, direzione, vista, giornoOrario]
