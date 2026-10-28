@@ -152,19 +152,6 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
             {nomeFermata(fermataId)}
           </Text>
         </View>
-        {linea ? (
-          <Pressable
-            onPress={() => setInfoAperta((a) => !a)}
-            style={[styles.info, infoAperta && styles.infoAttiva]}
-            hitSlop={8}
-            testID="info-actv"
-            accessibilityRole="button"
-            accessibilityLabel={t('vap_info')}
-            accessibilityState={{ expanded: infoAperta }}
-          >
-            <Text style={[styles.testoInfo, infoAperta && { color: '#fff' }]}>i</Text>
-          </Pressable>
-        ) : null}
       </View>
 
       {linee.length + lineeBus.length === 0 ? (
@@ -322,6 +309,21 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
               <Text style={styles.testoIntestazione}>{t('vap_linea')}</Text>
               <TarghettaLinea linea={linea} piccola />
               {linea.notturna ? <Text style={styles.notturna}>🌙 {t('vap_notturna')}</Text> : null}
+                    <View style={{ marginLeft: 'auto' }}>
+              {linea ? (
+                <Pressable
+                  onPress={() => setInfoAperta((a) => !a)}
+                  style={[styles.info, infoAperta && styles.infoAttiva]}
+                  hitSlop={8}
+                  testID="info-actv"
+                  accessibilityRole="button"
+                  accessibilityLabel={t('vap_info')}
+                  accessibilityState={{ expanded: infoAperta }}
+                >
+                  <Text style={[styles.testoInfo, infoAperta && { color: '#fff' }]}>i</Text>
+                </Pressable>
+              ) : null}
+              </View>
             </View>
             <ScrollView key="schema" ref={scorrimento} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 6 }}>
               {schema.fermate.map((id, i) => {
