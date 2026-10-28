@@ -67,9 +67,15 @@ def main():
     per_nome = {}
     for s in fermate_servizi.values():
         per_nome.setdefault(chiave(s.get('nome', '')), []).append(s['id'])
-    def id_fermata(nome):
+    # per ogni fermata, le coppie (linea, direzione) che la servono (da orari_fermate.json)
+    righe_per_fermata = {fid: {(r['linea'], r['direzione']) for r in d.get('linee', [])} for fid, d in fermate_src.items()}
+    def id_fermata(nome, linea, direzione):
         ids = per_nome.get(chiave(nome), [])
-        return ids[0] if len(ids) == 1 else None
+        if len(ids) == 1:
+            return ids[0]
+        # nomi uguali (es. due Piazza Bra Arena): la fermata giusta è quella che serve questa linea e direzione
+        ok = [i for i in ids if (linea, direzione) in righe_per_fermata.get(i, set())]
+        return ok[0] if ok else None
 
     linee_out = []
     fermata_linee = {}
@@ -87,7 +93,7 @@ def main():
             fermate_ids = []
             for nome in corsa['fermate']:
                 totale_nomi += 1
-                fid = id_fermata(nome)
+                fid = id_fermata(nome, linea, nome_dir)
                 if fid is None:
                     non_trovate += 1
                     continue
