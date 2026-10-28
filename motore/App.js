@@ -565,6 +565,7 @@ function Schermata() {
     if (!pos) return;
     const p = proietta(pos.lat, pos.lon);
     setIdCuriosita(null);
+    setPannelloCuriosita(false);
     setLampadina({ id: c.id, titolo: testoLocalizzato(c.titolo, lingua), x: p.x, y: p.y });
     mappaRef.current?.centraSu({ x: p.x, y: p.y });
   };
@@ -873,14 +874,9 @@ function Schermata() {
         <PannelloCuriosita
           t={t}
           lingua={lingua}
-          onApriCuriosita={(id) => {
-            setPannelloCuriosita(false);
-            setIdCuriosita(id);
-          }}
-          onApriCibo={(id) => {
-            setPannelloCuriosita(false);
-            setIdCibo(id);
-          }}
+          // la scheda si apre sopra l'elenco: X e back tornano all'elenco
+          onApriCuriosita={(id) => setIdCuriosita(id)}
+          onApriCibo={(id) => setIdCibo(id)}
           onChiudi={() => setPannelloCuriosita(false)}
         />
       )}
@@ -894,6 +890,7 @@ function Schermata() {
           onPortami={posizioneCuriosita(curiositaAperta, luoghiTuttiPerId) ? portami : null}
           onApriLuogo={(luogoId) => {
             setIdCuriosita(null);
+            setPannelloCuriosita(false);
             setIdSelezionato(luogoId);
           }}
         />
