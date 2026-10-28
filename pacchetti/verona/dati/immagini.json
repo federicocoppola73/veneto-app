@@ -26,6 +26,7 @@
   "duomo-di-verona": 3,
   "galleria-d-arte-moderna-achille-forti": 3,
   "giardini-cesare-lombroso": 3,
+  "giardini-pradaval": 0,
   "giardino-giusti": 3,
   "loggia-del-consiglio": 3,
   "mura-e-fortificazioni": 3,
@@ -83,7 +84,18 @@
   "torre-del-gardello": 3,
   "torre-dell-abbazia": 2
  },
- "cibi": [],
+ "cibi": [
+  "gnocchi-verona",
+  "lesso-con-peara",
+  "nadalin",
+  "pastissada-de-caval",
+  "polenta-e-renga",
+  "risini-veronesi",
+  "risotto-amarone",
+  "risotto-isolana",
+  "risotto-tastasal",
+  "tortellini-valeggio"
+ ],
  "aguzza": [
   "aguzza/basilica-san-zeno-leoni-protiro.webp",
   "aguzza/castel-san-pietro-panorama.webp",

@@ -30,7 +30,7 @@ export default function SchedaCuriosita({ curiosita: c, t, lingua, onChiudi, onP
         </View>
 
         <ScrollView contentContainerStyle={styles.corpo}>
-          <Text style={styles.etichetta}>💡 {t('cur_curiosita').toUpperCase()}{c.sestiere ? ` · ${c.sestiere.toUpperCase()}` : ''}</Text>
+          <Text style={styles.etichetta}>💡 {t('cur_curiosita').toUpperCase()}{c.sestiere ? ` - ${c.sestiere.toUpperCase()}` : ''}</Text>
           <Text style={styles.titolo}>{testoLocalizzato(c.titolo, lingua)}</Text>
           <Text style={styles.testo}>{testoLocalizzato(c.testo, lingua)}</Text>
 

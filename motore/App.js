@@ -13,7 +13,7 @@ import RicercaLuoghi from './src/components/RicercaLuoghi';
 import FiltroCategorie from './src/components/FiltroCategorie';
 import VicinoATe from './src/components/VicinoATe';
 import WidgetMeteoMarea from './src/components/WidgetMeteoMarea';
-import { haMarea } from './src/citta';
+import { haMarea, nomeCitta } from './src/citta';
 import Calendario from './src/components/Calendario';
 import Preferiti from './src/components/Preferiti';
 const DATI_EVENTI = datiProxy('eventi.json');
@@ -46,7 +46,7 @@ import { DIMENSIONE_TESSERA, TESSERE } from './src/tessere';
 import { immagine } from './src/risorse';
 import { datiProxy } from './src/dati';
 
-const IMMAGINE_MAPPA = immagine('mappa-venezia.webp');
+const MAPPA = datiProxy('mappa.json'); // immagine della mappa della città attiva
 const ALTEZZA_BARRA_STATO = Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44;
 // All'avvio la mappa è centrata sul centro storico (tra Rialto e San Marco)
 // luoghi principali: il loro nome compare sulla mappa prima degli altri (principali.json)
@@ -106,6 +106,7 @@ function Schermata() {
   const adesso = useAdesso();
   const mappaRef = useRef(null);
   const t = useMemo(() => traduttore(lingua), [lingua]);
+  const immagineMappa = useMemo(() => immagine(MAPPA.immagine || 'mappa-venezia.webp'), []);
   const posizione = usePosizione();
   const { preferiti, cambia: cambiaPreferito, aggiungiMolti: aggiungiPreferiti } = usePreferiti(); // luoghi del cuore
   const { visitati: luoghiVisitati, cambia: cambiaVisitato, aggiungi: aggiungiVisitato } = useVisitati(); // "Ci sono stato"
@@ -694,7 +695,7 @@ function Schermata() {
         <MappaZoomabile
           ref={mappaRef}
           evidenziato={lampadina ? `lampadina:${lampadina.id}` : idEvidenziato || (prossima ? prossima.id : null)}
-          sorgente={IMMAGINE_MAPPA}
+          sorgente={immagineMappa}
           larghezzaImmagine={configMappa.larghezza}
           altezzaImmagine={configMappa.altezza}
           punti={puntiMappa}
@@ -725,7 +726,7 @@ function Schermata() {
               {pulsantePosizione}
             </>
           }
-          tessere={TESSERE}
+          tessere={nomeCitta() === 'Venezia' ? TESSERE : undefined}
           dimensioneTessera={DIMENSIONE_TESSERA}
         />
         {!itinerario && !soloCuore && !soloVisitati && selezionate.length === 0 && (
