@@ -24,7 +24,7 @@ async function salvaStato(stato) {
 }
 
 // Scarica tutti i file del pacchetto e rende la città installata (e attiva, se è la prima)
-export async function installa(id) {
+export async function installa(id, onProgresso) {
   const citta = cittaPerId(id);
   if (!citta?.pacchetto) throw new Error('Pacchetto non ancora disponibile');
   const elenco = await (await fetch(citta.pacchetto)).json();
@@ -43,6 +43,7 @@ export async function installa(id) {
         if (risultato.status !== 200) throw new Error(`Download fallito: ${file.path}`);
       })
     );
+    onProgresso?.(Math.min(i + PARALLELI, elenco.file.length), elenco.file.length);
   }
   const stato = await leggiStato();
   return salvaStato({

@@ -29,6 +29,7 @@ export default function App() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
+  const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
   const [luoghiAttiva, setLuoghiAttiva] = useState(null);
   const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
@@ -86,12 +87,14 @@ export default function App() {
 
   async function esegui(id, azione) {
     setOccupata(id);
+    setProgresso(null);
     try {
-      setStato(await azione(id));
+      setStato(await azione(id, (fatti, totale) => setProgresso({ id, fatti, totale })));
     } catch (e) {
       Alert.alert(t.errore, e.message || t.riprova);
     } finally {
       setOccupata(null);
+      setProgresso(null);
     }
   }
 
@@ -171,7 +174,11 @@ export default function App() {
                 </Text>
               </View>
               {impegnata ? (
-                <ActivityIndicator />
+                progresso && progresso.id === item.id ? (
+                  <Text style={styles.percentuale}>{Math.round((progresso.fatti / progresso.totale) * 100)}%</Text>
+                ) : (
+                  <ActivityIndicator />
+                )
               ) : installata ? (
                 <View style={styles.azioni}>
                   <Pressable style={styles.bottone} onPress={() => setCittaAperta(item.id)}><Text style={styles.testoBottone}>{t.apri}</Text></Pressable>
@@ -220,4 +227,5 @@ const styles = StyleSheet.create({
   bottoneSecondario: { backgroundColor: '#f1f5f9' },
   testoSecondario: { color: '#334155', fontWeight: '700', fontSize: 13 },
   nonDisponibile: { fontSize: 12, color: '#94a3b8', fontWeight: '700' },
+  percentuale: { fontSize: 15, fontWeight: '800', color: '#1d4ed8', minWidth: 48, textAlign: 'right' },
 });
