@@ -75,6 +75,11 @@ def main():
             return ids[0]
         # nomi uguali (es. due Piazza Bra Arena): la fermata giusta è quella che serve questa linea e direzione
         ok = [i for i in ids if (linea, direzione) in righe_per_fermata.get(i, set())]
+        if not ok:
+            # nel feed la direzione delle righe orario spesso non è il nome della corsa (es. la stazione):
+            # si prende la palina che ha almeno un orario di questa linea, quella con più orari
+            per_linea = [i for i in ids if any(l == linea for l, _ in righe_per_fermata.get(i, set()))]
+            ok = sorted(per_linea, key=lambda i: -sum(1 for l, _ in righe_per_fermata[i] if l == linea))
         return ok[0] if ok else None
 
     linee_out = []

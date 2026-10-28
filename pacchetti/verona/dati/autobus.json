@@ -36,6 +36,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -77,7 +78,8 @@
       "autobus-276",
       "autobus-281",
       "autobus-307",
-      "autobus-298"
+      "autobus-298",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -109,7 +111,8 @@
       "autobus-303",
       "autobus-307",
       "autobus-281",
-      "autobus-279"
+      "autobus-279",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -135,6 +138,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -180,6 +184,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -216,7 +221,8 @@
       "autobus-337",
       "autobus-365",
       "autobus-389",
-      "autobus-393"
+      "autobus-393",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -255,7 +261,8 @@
       "autobus-303",
       "autobus-307",
       "autobus-281",
-      "autobus-279"
+      "autobus-279",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -278,6 +285,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -339,6 +347,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -367,6 +376,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -399,7 +409,8 @@
       "autobus-337",
       "autobus-365",
       "autobus-389",
-      "autobus-393"
+      "autobus-393",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -421,7 +432,8 @@
       "autobus-276",
       "autobus-281",
       "autobus-307",
-      "autobus-298"
+      "autobus-298",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -440,6 +452,7 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -474,7 +487,8 @@
       "autobus-303",
       "autobus-307",
       "autobus-281",
-      "autobus-279"
+      "autobus-279",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -500,11 +514,13 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
       "autobus-337",
       "autobus-305",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -525,11 +541,13 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
       "autobus-337",
       "autobus-305",
+      "autobus-251",
       "autobus-247",
       "autobus-230",
       "autobus-288",
@@ -566,6 +584,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -607,6 +626,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -643,7 +663,8 @@
       "autobus-276",
       "autobus-281",
       "autobus-307",
-      "autobus-298"
+      "autobus-298",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -673,6 +694,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -702,7 +724,8 @@
       "autobus-337",
       "autobus-365",
       "autobus-389",
-      "autobus-393"
+      "autobus-393",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -758,6 +781,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-68",
@@ -799,6 +824,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -808,9 +834,12 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-68",
+      "autobus-55",
       "autobus-53"
      ],
      "richiesta": []
@@ -829,7 +858,8 @@
       "autobus-557",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -860,6 +890,7 @@
       "autobus-493",
       "autobus-515",
       "autobus-557",
+      "autobus-569",
       "autobus-548",
       "autobus-537",
       "autobus-549",
@@ -878,6 +909,7 @@
       "autobus-493",
       "autobus-515",
       "autobus-557",
+      "autobus-569",
       "autobus-548",
       "autobus-537",
       "autobus-549",
@@ -912,7 +944,8 @@
       "autobus-436",
       "autobus-493",
       "autobus-515",
-      "autobus-557"
+      "autobus-557",
+      "autobus-569"
      ],
      "richiesta": []
     }
@@ -932,6 +965,7 @@
      "circolare": false,
      "fermate": [
       "autobus-599",
+      "autobus-602",
       "autobus-600",
       "autobus-581",
       "autobus-569",
@@ -939,6 +973,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -948,6 +983,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-68",
@@ -967,13 +1004,15 @@
      "circolare": false,
      "fermate": [
       "autobus-599",
+      "autobus-602",
       "autobus-600",
       "autobus-581",
       "autobus-569",
       "autobus-557",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -1002,7 +1041,8 @@
       "autobus-252",
       "autobus-274",
       "autobus-312",
-      "autobus-341"
+      "autobus-341",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -1014,7 +1054,8 @@
       "autobus-569",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -1050,6 +1091,7 @@
       "autobus-493",
       "autobus-515",
       "autobus-557",
+      "autobus-569",
       "autobus-548",
       "autobus-600",
       "autobus-602",
@@ -1089,6 +1131,7 @@
       "autobus-493",
       "autobus-515",
       "autobus-557",
+      "autobus-569",
       "autobus-548",
       "autobus-600",
       "autobus-602",
@@ -1137,6 +1180,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-86",
       "autobus-71",
       "autobus-41",
@@ -1175,6 +1220,7 @@
       "autobus-407",
       "autobus-419",
       "autobus-433",
+      "autobus-444",
       "autobus-448",
       "autobus-446",
       "autobus-445",
@@ -1266,7 +1312,8 @@
       "autobus-234",
       "autobus-213",
       "autobus-175",
-      "autobus-150"
+      "autobus-150",
+      "autobus-116"
      ],
      "richiesta": []
     },
@@ -1296,6 +1343,7 @@
       "autobus-407",
       "autobus-419",
       "autobus-433",
+      "autobus-444",
       "autobus-448",
       "autobus-446",
       "autobus-445",
@@ -1334,6 +1382,7 @@
       "autobus-407",
       "autobus-419",
       "autobus-433",
+      "autobus-444",
       "autobus-448",
       "autobus-446",
       "autobus-445",
@@ -1398,6 +1447,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-86",
       "autobus-73",
       "autobus-62",
@@ -1613,7 +1664,8 @@
       "autobus-557",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -1629,7 +1681,8 @@
       "autobus-557",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -1644,6 +1697,7 @@
       "autobus-489",
       "autobus-528",
       "autobus-557",
+      "autobus-569",
       "autobus-519",
       "autobus-507",
       "autobus-490",
@@ -1680,7 +1734,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -1688,6 +1744,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -1716,14 +1773,17 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -1779,7 +1839,8 @@
       "autobus-155",
       "autobus-147",
       "autobus-137",
-      "autobus-109"
+      "autobus-109",
+      "autobus-116"
      ],
      "richiesta": []
     }
@@ -1863,7 +1924,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -1871,6 +1934,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -1905,14 +1969,17 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -2043,14 +2110,17 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -2075,7 +2145,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -2083,6 +2155,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -2117,6 +2190,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2161,6 +2236,7 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-157",
       "autobus-185",
       "autobus-213",
@@ -2193,6 +2269,7 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-157",
       "autobus-185",
       "autobus-213",
@@ -2200,7 +2277,8 @@
       "autobus-252",
       "autobus-274",
       "autobus-312",
-      "autobus-341"
+      "autobus-341",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2208,6 +2286,7 @@
      "direzione": 3,
      "circolare": false,
      "fermate": [
+      "autobus-116",
       "autobus-157",
       "autobus-185",
       "autobus-213",
@@ -2238,6 +2317,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2246,7 +2327,8 @@
       "autobus-234",
       "autobus-213",
       "autobus-175",
-      "autobus-150"
+      "autobus-150",
+      "autobus-116"
      ],
      "richiesta": []
     },
@@ -2254,6 +2336,7 @@
      "direzione": 5,
      "circolare": false,
      "fermate": [
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2286,6 +2369,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2323,6 +2408,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2348,6 +2435,7 @@
       "autobus-82",
       "autobus-76",
       "autobus-60",
+      "autobus-34",
       "autobus-36",
       "autobus-28"
      ],
@@ -2362,7 +2450,9 @@
       "autobus-591",
       "autobus-574",
       "autobus-543",
-      "autobus-487"
+      "autobus-487",
+      "autobus-463",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2375,7 +2465,9 @@
       "autobus-591",
       "autobus-574",
       "autobus-543",
-      "autobus-487"
+      "autobus-487",
+      "autobus-463",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2383,6 +2475,7 @@
      "direzione": 10,
      "circolare": false,
      "fermate": [
+      "autobus-116",
       "autobus-157",
       "autobus-185",
       "autobus-213",
@@ -2441,6 +2534,7 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-157",
       "autobus-185",
       "autobus-213",
@@ -2448,7 +2542,8 @@
       "autobus-252",
       "autobus-274",
       "autobus-312",
-      "autobus-341"
+      "autobus-341",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2469,10 +2564,12 @@
      "fermate": [
       "autobus-345",
       "autobus-298",
+      "autobus-320",
       "autobus-406",
       "autobus-407",
       "autobus-419",
       "autobus-436",
+      "autobus-558",
       "autobus-554"
      ],
      "richiesta": []
@@ -2505,7 +2602,8 @@
       "autobus-521",
       "autobus-534",
       "autobus-545",
-      "autobus-568"
+      "autobus-568",
+      "autobus-558"
      ],
      "richiesta": []
     },
@@ -2517,7 +2615,8 @@
       "autobus-545",
       "autobus-534",
       "autobus-508",
-      "autobus-489"
+      "autobus-489",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2547,7 +2646,9 @@
       "autobus-266",
       "autobus-331",
       "autobus-313",
-      "autobus-298"
+      "autobus-298",
+      "autobus-320",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2560,6 +2661,7 @@
       "autobus-303",
       "autobus-313",
       "autobus-331",
+      "autobus-266",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -2579,6 +2681,7 @@
       "autobus-303",
       "autobus-313",
       "autobus-331",
+      "autobus-266",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -2600,7 +2703,8 @@
       "autobus-77",
       "autobus-103",
       "autobus-159",
-      "autobus-198"
+      "autobus-198",
+      "autobus-266"
      ],
      "richiesta": []
     },
@@ -2619,7 +2723,9 @@
       "autobus-266",
       "autobus-331",
       "autobus-313",
-      "autobus-298"
+      "autobus-298",
+      "autobus-320",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2663,6 +2769,7 @@
       "autobus-543",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-351",
       "autobus-333",
@@ -2684,7 +2791,8 @@
       "autobus-561",
       "autobus-543",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2737,7 +2845,8 @@
       "autobus-561",
       "autobus-543",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2827,6 +2936,7 @@
       "autobus-582",
       "autobus-559",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -2856,7 +2966,8 @@
       "autobus-252",
       "autobus-274",
       "autobus-312",
-      "autobus-341"
+      "autobus-341",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -2899,7 +3010,8 @@
       "autobus-592",
       "autobus-582",
       "autobus-559",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2962,6 +3074,7 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-156",
       "autobus-189",
       "autobus-234",
@@ -3071,7 +3184,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-134",
       "autobus-123",
       "autobus-113",
@@ -3108,7 +3223,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-134",
       "autobus-123",
       "autobus-113",
@@ -3183,7 +3300,8 @@
       "autobus-189",
       "autobus-213",
       "autobus-175",
-      "autobus-150"
+      "autobus-150",
+      "autobus-116"
      ],
      "richiesta": []
     },
@@ -3365,6 +3483,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-228",
       "autobus-200",
       "autobus-161",
@@ -3498,7 +3617,8 @@
       "autobus-466",
       "autobus-496",
       "autobus-444",
-      "autobus-433"
+      "autobus-433",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -3519,11 +3639,13 @@
       "autobus-314",
       "autobus-338",
       "autobus-369",
+      "autobus-406",
       "autobus-407",
       "autobus-419",
       "autobus-433",
       "autobus-462",
       "autobus-496",
+      "autobus-466",
       "autobus-442",
       "autobus-429",
       "autobus-431",
@@ -3548,7 +3670,8 @@
       "autobus-307",
       "autobus-314",
       "autobus-338",
-      "autobus-369"
+      "autobus-369",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -3592,6 +3715,7 @@
      "circolare": false,
      "fermate": [
       "autobus-323",
+      "autobus-284",
       "autobus-228",
       "autobus-200",
       "autobus-161",
@@ -3646,6 +3770,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -3682,6 +3807,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -3724,6 +3850,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -3762,7 +3889,8 @@
       "autobus-337",
       "autobus-365",
       "autobus-389",
-      "autobus-393"
+      "autobus-393",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -3793,6 +3921,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -3816,7 +3945,8 @@
       "autobus-276",
       "autobus-281",
       "autobus-307",
-      "autobus-298"
+      "autobus-298",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -3913,6 +4043,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -3922,6 +4053,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87"
      ],
      "richiesta": []
@@ -3942,7 +4075,8 @@
       "autobus-252",
       "autobus-274",
       "autobus-312",
-      "autobus-341"
+      "autobus-341",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -3961,7 +4095,8 @@
       "autobus-524",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -3999,6 +4134,7 @@
       "autobus-407",
       "autobus-419",
       "autobus-433",
+      "autobus-444",
       "autobus-448",
       "autobus-446",
       "autobus-445",
@@ -4038,6 +4174,7 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-132",
       "autobus-152",
       "autobus-160",
@@ -4081,7 +4218,8 @@
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     },
@@ -4108,7 +4246,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-134",
       "autobus-123",
       "autobus-113",
@@ -4141,6 +4281,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -4183,7 +4324,8 @@
       "autobus-337",
       "autobus-365",
       "autobus-389",
-      "autobus-393"
+      "autobus-393",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -4217,6 +4359,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -4255,11 +4398,13 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
       "autobus-337",
       "autobus-305",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -4293,11 +4438,13 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
       "autobus-337",
       "autobus-305",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -4352,7 +4499,9 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -4360,6 +4509,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -4404,7 +4554,9 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -4412,6 +4564,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-257",
       "autobus-269",
       "autobus-278",
@@ -4463,6 +4616,7 @@
       "autobus-407",
       "autobus-419",
       "autobus-433",
+      "autobus-444",
       "autobus-448",
       "autobus-446",
       "autobus-445",
@@ -4502,6 +4656,7 @@
       "autobus-331",
       "autobus-313",
       "autobus-298",
+      "autobus-320",
       "autobus-406",
       "autobus-407",
       "autobus-463",
@@ -4527,7 +4682,8 @@
       "autobus-77",
       "autobus-103",
       "autobus-159",
-      "autobus-198"
+      "autobus-198",
+      "autobus-266"
      ],
      "richiesta": []
     },
@@ -4543,11 +4699,13 @@
       "autobus-559",
       "autobus-528",
       "autobus-487",
+      "autobus-463",
       "autobus-406",
       "autobus-320",
       "autobus-303",
       "autobus-313",
       "autobus-331",
+      "autobus-266",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -4570,11 +4728,13 @@
       "autobus-559",
       "autobus-528",
       "autobus-487",
+      "autobus-463",
       "autobus-406",
       "autobus-320",
       "autobus-303",
       "autobus-313",
       "autobus-331",
+      "autobus-266",
       "autobus-103",
       "autobus-198",
       "autobus-159",
@@ -4596,7 +4756,9 @@
       "autobus-582",
       "autobus-559",
       "autobus-528",
-      "autobus-487"
+      "autobus-487",
+      "autobus-463",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -4616,6 +4778,7 @@
       "autobus-331",
       "autobus-313",
       "autobus-298",
+      "autobus-320",
       "autobus-406",
       "autobus-407",
       "autobus-463",
@@ -4675,6 +4838,7 @@
       "autobus-522",
       "autobus-536",
       "autobus-557",
+      "autobus-569",
       "autobus-574",
       "autobus-591",
       "autobus-595",
@@ -4716,7 +4880,8 @@
       "autobus-524",
       "autobus-522",
       "autobus-536",
-      "autobus-557"
+      "autobus-557",
+      "autobus-569"
      ],
      "richiesta": []
     },
@@ -4732,6 +4897,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -4741,6 +4907,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-68",
@@ -4771,6 +4939,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -4779,7 +4948,8 @@
       "autobus-234",
       "autobus-213",
       "autobus-175",
-      "autobus-150"
+      "autobus-150",
+      "autobus-116"
      ],
      "richiesta": []
     },
@@ -4799,6 +4969,7 @@
       "autobus-509",
       "autobus-493",
       "autobus-479",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -4808,6 +4979,8 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-68",
@@ -4932,6 +5105,8 @@
       "autobus-331",
       "autobus-313",
       "autobus-298",
+      "autobus-320",
+      "autobus-406",
       "autobus-381",
       "autobus-347",
       "autobus-312",
@@ -5044,7 +5219,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-134",
       "autobus-123",
       "autobus-113",
@@ -5092,7 +5269,9 @@
       "autobus-213",
       "autobus-175",
       "autobus-150",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-134",
       "autobus-123",
       "autobus-113",
@@ -5158,6 +5337,7 @@
       "autobus-493",
       "autobus-515",
       "autobus-543",
+      "autobus-569",
       "autobus-548",
       "autobus-537",
       "autobus-549",
@@ -5179,7 +5359,8 @@
       "autobus-543",
       "autobus-509",
       "autobus-493",
-      "autobus-479"
+      "autobus-479",
+      "autobus-406"
      ],
      "richiesta": []
     }
@@ -5213,6 +5394,7 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
+      "autobus-406",
       "autobus-407",
       "autobus-419",
       "autobus-433",
@@ -5248,6 +5430,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -5279,6 +5462,7 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -5317,8 +5501,10 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
-      "autobus-307"
+      "autobus-307",
+      "autobus-320"
      ],
      "richiesta": []
     },
@@ -5337,8 +5523,10 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
-      "autobus-307"
+      "autobus-307",
+      "autobus-320"
      ],
      "richiesta": []
     },
@@ -5355,6 +5543,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5373,6 +5562,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5391,6 +5581,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5409,6 +5600,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-25",
       "autobus-8",
@@ -5434,7 +5626,8 @@
       "autobus-405",
       "autobus-347",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -5454,7 +5647,8 @@
      "fermate": [
       "autobus-303",
       "autobus-333",
-      "autobus-341"
+      "autobus-341",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -5464,7 +5658,8 @@
      "fermate": [
       "autobus-303",
       "autobus-333",
-      "autobus-341"
+      "autobus-341",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -5474,7 +5669,8 @@
      "fermate": [
       "autobus-303",
       "autobus-333",
-      "autobus-341"
+      "autobus-341",
+      "autobus-405"
      ],
      "richiesta": []
     }
@@ -5502,6 +5698,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5520,6 +5717,7 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
       "autobus-307",
       "autobus-333"
@@ -5536,6 +5734,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5554,6 +5753,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5572,6 +5772,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5596,6 +5797,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5611,7 +5813,8 @@
       "autobus-53",
       "autobus-68",
       "autobus-87",
-      "autobus-106"
+      "autobus-106",
+      "autobus-137"
      ],
      "richiesta": []
     }
@@ -5645,6 +5848,7 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
       "autobus-307",
       "autobus-333"
@@ -5669,6 +5873,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5718,9 +5923,11 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
       "autobus-307",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -5743,6 +5950,7 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
       "autobus-307",
       "autobus-333"
@@ -5768,6 +5976,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5786,6 +5995,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5827,9 +6037,11 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-225",
       "autobus-281",
       "autobus-307",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -5858,6 +6070,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-6"
      ],
@@ -5933,7 +6146,8 @@
       "autobus-198",
       "autobus-266",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -5945,7 +6159,8 @@
       "autobus-77",
       "autobus-128",
       "autobus-159",
-      "autobus-198"
+      "autobus-198",
+      "autobus-266"
      ],
      "richiesta": []
     },
@@ -5955,6 +6170,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -5969,6 +6185,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -5999,7 +6216,8 @@
       "autobus-198",
       "autobus-266",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -6015,6 +6233,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6029,6 +6248,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6043,6 +6263,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6061,6 +6282,7 @@
      "direzione": 6,
      "circolare": false,
      "fermate": [
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6077,7 +6299,8 @@
       "autobus-77",
       "autobus-128",
       "autobus-159",
-      "autobus-198"
+      "autobus-198",
+      "autobus-266"
      ],
      "richiesta": []
     },
@@ -6085,6 +6308,7 @@
      "direzione": 8,
      "circolare": false,
      "fermate": [
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6099,6 +6323,7 @@
      "fermate": [
       "autobus-217",
       "autobus-246",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6115,6 +6340,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6127,6 +6353,7 @@
      "direzione": 11,
      "circolare": false,
      "fermate": [
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6253,7 +6480,9 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
+      "autobus-174",
       "autobus-89",
       "autobus-56",
       "autobus-4"
@@ -6271,7 +6500,8 @@
       "autobus-198",
       "autobus-266",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -6281,6 +6511,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6295,6 +6526,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6309,6 +6541,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
       "autobus-159",
       "autobus-128",
@@ -6334,6 +6567,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-269",
       "autobus-286",
       "autobus-301",
@@ -6345,12 +6579,14 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
+      "autobus-107",
       "autobus-301",
       "autobus-286",
       "autobus-258",
       "autobus-266",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -6360,6 +6596,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-269",
       "autobus-286",
       "autobus-301",
@@ -6373,6 +6610,7 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-269",
       "autobus-286",
       "autobus-301",
@@ -6384,9 +6622,11 @@
      "direzione": 4,
      "circolare": false,
      "fermate": [
+      "autobus-107",
       "autobus-301",
       "autobus-286",
-      "autobus-258"
+      "autobus-258",
+      "autobus-266"
      ],
      "richiesta": []
     }
@@ -6405,6 +6645,7 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-107",
       "autobus-174",
       "autobus-198",
       "autobus-266",
@@ -6418,7 +6659,9 @@
      "fermate": [
       "autobus-405",
       "autobus-313",
+      "autobus-266",
       "autobus-198",
+      "autobus-174",
       "autobus-107"
      ],
      "richiesta": []
@@ -6441,7 +6684,8 @@
       "autobus-301",
       "autobus-286",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -6605,7 +6849,8 @@
       "autobus-352",
       "autobus-327",
       "autobus-313",
-      "autobus-333"
+      "autobus-333",
+      "autobus-405"
      ],
      "richiesta": []
     },
@@ -6907,7 +7152,8 @@
       "autobus-382",
       "autobus-352",
       "autobus-327",
-      "autobus-313"
+      "autobus-313",
+      "autobus-403"
      ],
      "richiesta": []
     }
@@ -6967,6 +7213,7 @@
       "autobus-579",
       "autobus-549",
       "autobus-482",
+      "autobus-449",
       "autobus-333",
       "autobus-313"
      ],
@@ -6980,7 +7227,8 @@
       "autobus-589",
       "autobus-579",
       "autobus-549",
-      "autobus-482"
+      "autobus-482",
+      "autobus-449"
      ],
      "richiesta": []
     },
@@ -6992,7 +7240,8 @@
       "autobus-589",
       "autobus-579",
       "autobus-549",
-      "autobus-482"
+      "autobus-482",
+      "autobus-449"
      ],
      "richiesta": []
     },
@@ -7064,6 +7313,7 @@
       "autobus-579",
       "autobus-549",
       "autobus-482",
+      "autobus-449",
       "autobus-333",
       "autobus-313"
      ],
@@ -7087,6 +7337,7 @@
       "autobus-581",
       "autobus-493",
       "autobus-479",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7155,6 +7406,8 @@
       "autobus-581",
       "autobus-539",
       "autobus-482",
+      "autobus-449",
+      "autobus-403",
       "autobus-333"
      ],
      "richiesta": []
@@ -7231,6 +7484,7 @@
       "autobus-581",
       "autobus-493",
       "autobus-479",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7407,6 +7661,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-482",
+      "autobus-449",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7433,6 +7689,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-482",
+      "autobus-449",
+      "autobus-403",
       "autobus-333"
      ],
      "richiesta": []
@@ -7484,6 +7742,8 @@
       "autobus-574",
       "autobus-543",
       "autobus-482",
+      "autobus-449",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7552,6 +7812,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7571,6 +7832,7 @@
       "autobus-502",
       "autobus-441",
       "autobus-433",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7583,6 +7845,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7600,6 +7863,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7622,6 +7886,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7639,6 +7904,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7658,6 +7924,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7671,6 +7938,7 @@
       "autobus-502",
       "autobus-441",
       "autobus-433",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7716,6 +7984,7 @@
       "autobus-502",
       "autobus-441",
       "autobus-433",
+      "autobus-403",
       "autobus-333",
       "autobus-313"
      ],
@@ -7728,6 +7997,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7745,6 +8015,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7756,6 +8027,7 @@
       "autobus-403",
       "autobus-433",
       "autobus-502",
+      "autobus-530",
       "autobus-553"
      ],
      "richiesta": []
@@ -7796,7 +8068,9 @@
     {
      "direzione": 2,
      "circolare": false,
-     "fermate": [],
+     "fermate": [
+      "autobus-461"
+     ],
      "richiesta": []
     },
     {
@@ -7901,7 +8175,8 @@
       "autobus-405",
       "autobus-351",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -7927,7 +8202,9 @@
       "autobus-303",
       "autobus-333",
       "autobus-341",
+      "autobus-405",
       "autobus-337",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -7942,7 +8219,9 @@
       "autobus-303",
       "autobus-333",
       "autobus-341",
+      "autobus-405",
       "autobus-337",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -7957,7 +8236,9 @@
       "autobus-303",
       "autobus-333",
       "autobus-341",
+      "autobus-405",
       "autobus-337",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -7972,7 +8253,9 @@
       "autobus-303",
       "autobus-333",
       "autobus-341",
+      "autobus-405",
       "autobus-337",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -7987,7 +8270,9 @@
       "autobus-303",
       "autobus-333",
       "autobus-341",
+      "autobus-405",
       "autobus-337",
+      "autobus-251",
       "autobus-254",
       "autobus-287",
       "autobus-288",
@@ -8016,7 +8301,8 @@
       "autobus-337",
       "autobus-351",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -8083,7 +8369,8 @@
       "autobus-337",
       "autobus-351",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -8109,7 +8396,8 @@
       "autobus-210",
       "autobus-337",
       "autobus-351",
-      "autobus-333"
+      "autobus-333",
+      "autobus-322"
      ],
      "richiesta": []
     }
@@ -8166,7 +8454,8 @@
       "autobus-337",
       "autobus-351",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -8225,7 +8514,8 @@
       "autobus-337",
       "autobus-351",
       "autobus-333",
-      "autobus-322"
+      "autobus-322",
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -8255,7 +8545,8 @@
       "autobus-116",
       "autobus-213",
       "autobus-274",
-      "autobus-312"
+      "autobus-312",
+      "autobus-320"
      ],
      "richiesta": []
     },
@@ -8272,7 +8563,8 @@
       "autobus-68",
       "autobus-87",
       "autobus-116",
-      "autobus-213"
+      "autobus-213",
+      "autobus-274"
      ],
      "richiesta": []
     },
@@ -8288,6 +8580,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-25",
       "autobus-8",
@@ -8307,6 +8600,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-25",
       "autobus-8",
@@ -8326,6 +8620,7 @@
       "autobus-87",
       "autobus-68",
       "autobus-53",
+      "autobus-42",
       "autobus-31",
       "autobus-25",
       "autobus-8",
@@ -9504,7 +9799,8 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-201"
+      "autobus-201",
+      "autobus-116"
      ],
      "richiesta": []
     }
@@ -9534,6 +9830,7 @@
      "circolare": false,
      "fermate": [
       "autobus-303",
+      "autobus-266",
       "autobus-286"
      ],
      "richiesta": []
@@ -9554,6 +9851,7 @@
      "circolare": false,
      "fermate": [
       "autobus-303",
+      "autobus-406",
       "autobus-493"
      ],
      "richiesta": []
@@ -9564,7 +9862,8 @@
      "fermate": [
       "autobus-479",
       "autobus-406",
-      "autobus-320"
+      "autobus-320",
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -9584,6 +9883,7 @@
      "circolare": false,
      "fermate": [
       "autobus-303",
+      "autobus-406",
       "autobus-493"
      ],
      "richiesta": []
@@ -9594,7 +9894,8 @@
      "fermate": [
       "autobus-479",
       "autobus-406",
-      "autobus-320"
+      "autobus-320",
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -9629,7 +9930,8 @@
      "direzione": 2,
      "circolare": false,
      "fermate": [
-      "autobus-320"
+      "autobus-320",
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -9656,7 +9958,8 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-320"
+      "autobus-320",
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -9675,7 +9978,9 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-487"
+      "autobus-487",
+      "autobus-463",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -9713,6 +10018,7 @@
       "autobus-292",
       "autobus-302",
       "autobus-319",
+      "autobus-427",
       "autobus-431",
       "autobus-443",
       "autobus-458",
@@ -9760,6 +10066,7 @@
      "circolare": false,
      "fermate": [
       "autobus-487",
+      "autobus-463",
       "autobus-406",
       "autobus-320",
       "autobus-303",
@@ -9785,6 +10092,8 @@
      "circolare": false,
      "fermate": [
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -9818,6 +10127,7 @@
      "fermate": [
       "autobus-543",
       "autobus-487",
+      "autobus-463",
       "autobus-320",
       "autobus-303",
       "autobus-313",
@@ -9831,6 +10141,7 @@
      "fermate": [
       "autobus-496",
       "autobus-433",
+      "autobus-406",
       "autobus-333"
      ],
      "richiesta": []
@@ -9867,6 +10178,8 @@
      "fermate": [
       "autobus-543",
       "autobus-487",
+      "autobus-463",
+      "autobus-406",
       "autobus-381",
       "autobus-351",
       "autobus-333",
@@ -9927,6 +10240,7 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-97",
       "autobus-87",
       "autobus-78",
       "autobus-70",
@@ -9943,6 +10257,7 @@
       "autobus-155",
       "autobus-147",
       "autobus-137",
+      "autobus-97",
       "autobus-87",
       "autobus-68",
       "autobus-53"
@@ -9959,6 +10274,7 @@
       "autobus-106",
       "autobus-130",
       "autobus-153",
+      "autobus-211",
       "autobus-313"
      ],
      "richiesta": []
@@ -9993,13 +10309,15 @@
       "autobus-87",
       "autobus-97",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     }
@@ -10019,7 +10337,8 @@
      "circolare": false,
      "fermate": [
       "autobus-223",
-      "autobus-251"
+      "autobus-251",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -10032,7 +10351,9 @@
       "autobus-298",
       "autobus-333",
       "autobus-351",
+      "autobus-406",
       "autobus-337",
+      "autobus-251",
       "autobus-223"
      ],
      "richiesta": []
@@ -10083,6 +10404,7 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-406",
       "autobus-393",
       "autobus-389",
       "autobus-365",
@@ -10098,7 +10420,8 @@
       "autobus-190",
       "autobus-238",
       "autobus-305",
-      "autobus-337"
+      "autobus-337",
+      "autobus-406"
      ],
      "richiesta": []
     },
@@ -10137,6 +10460,7 @@
      "fermate": [
       "autobus-5",
       "autobus-9",
+      "autobus-107",
       "autobus-151",
       "autobus-49",
       "autobus-56",
@@ -10219,7 +10543,8 @@
       "autobus-239",
       "autobus-241",
       "autobus-255",
-      "autobus-263"
+      "autobus-263",
+      "autobus-267"
      ],
      "richiesta": []
     }
@@ -10259,7 +10584,9 @@
       "autobus-158",
       "autobus-152",
       "autobus-132",
+      "autobus-116",
       "autobus-106",
+      "autobus-137",
       "autobus-147",
       "autobus-153",
       "autobus-211",
@@ -10267,6 +10594,7 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
+      "autobus-267",
       "autobus-235",
       "autobus-214",
       "autobus-191",
@@ -10602,7 +10930,8 @@
       "autobus-597",
       "autobus-574",
       "autobus-543",
-      "autobus-482"
+      "autobus-482",
+      "autobus-449"
      ],
      "richiesta": []
     },
@@ -10620,6 +10949,7 @@
       "autobus-574",
       "autobus-543",
       "autobus-482",
+      "autobus-449",
       "autobus-333",
       "autobus-313"
      ],
@@ -10632,6 +10962,7 @@
       "autobus-581",
       "autobus-539",
       "autobus-482",
+      "autobus-449",
       "autobus-333",
       "autobus-313"
      ],
