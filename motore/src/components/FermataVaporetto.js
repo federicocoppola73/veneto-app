@@ -137,8 +137,9 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
   const capolinea = (d) => (d.circolare ? `↻ ${t('vap_circolare')}` : `→ ${d.capolinea}`);
   const prossima = (d) => t('vap_prossima').replace('{nome}', d.prossima);
 
+  // Tutta la scheda scorre insieme (linee, partenze, fermate e orari): le liste interne non hanno più un'altezza propria
   return (
-    <View style={[styles.contenitore, altezza ? { height: altezza } : null]}>
+    <ScrollView nestedScrollEnabled style={[styles.contenitore, altezza ? { height: altezza } : null]} contentContainerStyle={{ paddingBottom: 16 }}>
       <View style={styles.testata}>
         {onIndietro ? (
           <Pressable onPress={onIndietro} style={styles.indietro} hitSlop={8} accessibilityLabel={t('vap_indietro')}>
@@ -281,7 +282,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
                   ))}
                 </View>
               </View>
-              <ScrollView key="orari" ref={scorrimentoOrario} style={styles.schema} contentContainerStyle={{ paddingVertical: 4 }}>
+              <ScrollView key="orari" ref={scorrimentoOrario} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 4 }}>
                 {orario === null ? (
                   <Text style={styles.vuotoOrario}>{t('vap_scaduti')}</Text>
                 ) : orario.length === 0 ? (
@@ -322,7 +323,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
               <TarghettaLinea linea={linea} piccola />
               {linea.notturna ? <Text style={styles.notturna}>🌙 {t('vap_notturna')}</Text> : null}
             </View>
-            <ScrollView key="schema" ref={scorrimento} style={styles.schema} contentContainerStyle={{ paddingVertical: 6 }}>
+            <ScrollView key="schema" ref={scorrimento} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 6 }}>
               {schema.fermate.map((id, i) => {
                 const qui = i === schema.qui;
                 const passata = i < schema.qui;
@@ -380,7 +381,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
           </View>
         </>
       ) : null}
-    </View>
+    </ScrollView>
   );
 }
 

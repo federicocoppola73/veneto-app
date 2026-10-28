@@ -112,7 +112,19 @@ export default function App() {
   const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
   if (cittaAperta === 'venezia') {
-    return motorePronto ? <MotoreApp onEsci={() => setCittaAperta(null)} /> : <ActivityIndicator style={{ flex: 1 }} />;
+    if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
+    return (
+      <View style={{ flex: 1, backgroundColor: '#1e3a8a' }}>
+        <SafeAreaView edges={['top']} style={{ backgroundColor: '#1e3a8a' }}>
+          <Pressable onPress={() => setCittaAperta(null)} style={{ paddingHorizontal: 14, paddingVertical: 8 }}>
+            <Text style={{ color: '#fff', fontWeight: '700', fontSize: 15 }}>← Città</Text>
+          </Pressable>
+        </SafeAreaView>
+        <View style={{ flex: 1 }}>
+          <MotoreApp />
+        </View>
+      </View>
+    );
   }
 
   if (cittaAperta && datiAperti) {
