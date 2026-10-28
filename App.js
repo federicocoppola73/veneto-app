@@ -1,18 +1,40 @@
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { CITTA, cittaPerId, etichettaStato, GRATUITO } from './src/catalogo';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { getLocales } from 'expo-localization';
+import { CITTA, cittaPerId } from './src/catalogo';
 import { attiva, datiCitta, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { etichettaStato, LINGUE, testi } from './src/lingue';
+
+const CHIAVE_LINGUA = 'lingua';
+
+// Lingua del telefono se supportata, altrimenti italiano; poi quella scelta dall'utente.
+function linguaIniziale() {
+  try {
+    const codice = getLocales()[0]?.languageCode;
+    return LINGUE.includes(codice) ? codice : 'it';
+  } catch {
+    return 'it';
+  }
+}
 
 // Gratuito sempre attivo; le città si scaricano, si attivano e si eliminano da qui.
 // I prezzi compariranno quando i prodotti saranno creati negli store.
 export default function App() {
+  const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
   const [luoghiAttiva, setLuoghiAttiva] = useState(null);
+  const t = testi(lingua);
 
   useEffect(() => {
     leggiStato().then(setStato);
+    AsyncStorage.getItem(CHIAVE_LINGUA)
+      .then((salvata) => {
+        if (salvata && LINGUE.includes(salvata)) setLingua(salvata);
+      })
+      .catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -23,12 +45,17 @@ export default function App() {
     datiCitta(stato.attiva).then(setLuoghiAttiva);
   }, [stato.attiva]);
 
+  function cambiaLingua(nuova) {
+    setLingua(nuova);
+    AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
+  }
+
   async function esegui(id, azione) {
     setOccupata(id);
     try {
       setStato(await azione(id));
     } catch (e) {
-      Alert.alert('Operazione non riuscita', e.message || 'Riprova più tardi.');
+      Alert.alert(t.errore, e.message || t.riprova);
     } finally {
       setOccupata(null);
     }
@@ -39,20 +66,36 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
-      <Text style={styles.titolo}>Veneto: Monumenti & altro</Text>
+      <Text style={styles.titolo}>{t.titolo}</Text>
+
+      <View style={styles.lingue}>
+        {LINGUE.map((codice) => (
+          <Pressable
+            key={codice}
+            onPress={() => cambiaLingua(codice)}
+            style={[styles.lingua, lingua === codice && styles.linguaAttiva]}
+          >
+            <Text style={[styles.testoLingua, lingua === codice && styles.testoLinguaAttiva]}>
+              {codice.toUpperCase()}
+            </Text>
+          </Pressable>
+        ))}
+      </View>
+
       {cittaAttiva ? (
         <View style={styles.attiva}>
-          <Text style={styles.attivaEtichetta}>Città attiva</Text>
+          <Text style={styles.attivaEtichetta}>{t.cittaAttiva}</Text>
           <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
-          <Text style={styles.attivaTesto}>{numeroLuoghi} luoghi</Text>
+          <Text style={styles.attivaTesto}>{numeroLuoghi} {t.luoghi}</Text>
         </View>
       ) : (
         <View style={styles.gratuito}>
-          <Text style={styles.gratuitoTitolo}>Gratuito</Text>
-          <Text style={styles.gratuitoTesto}>{GRATUITO}</Text>
+          <Text style={styles.gratuitoTitolo}>{t.gratuito}</Text>
+          <Text style={styles.gratuitoTesto}>{t.gratuitoTesto}</Text>
         </View>
       )}
-      <Text style={styles.sottotitolo}>Le città</Text>
+
+      <Text style={styles.sottotitolo}>{t.lePiazze}</Text>
       <FlatList
         data={CITTA}
         keyExtractor={(c) => c.id}
@@ -66,20 +109,20 @@ export default function App() {
               <View style={styles.cardTesto}>
                 <Text style={styles.nomeCitta}>{item.nome}</Text>
                 <Text style={styles.provincia}>
-                  {installata ? (attivaOra ? 'Attiva' : 'Installata') : etichettaStato(item.stato)}
+                  {installata ? (attivaOra ? t.attiva : t.installata) : etichettaStato(t, item.stato)}
                 </Text>
               </View>
               {impegnata ? (
                 <ActivityIndicator />
               ) : installata ? (
                 <View style={styles.azioni}>
-                  {!attivaOra && <Pressable style={styles.bottone} onPress={() => esegui(item.id, attiva)}><Text style={styles.testoBottone}>Attiva</Text></Pressable>}
-                  <Pressable style={[styles.bottone, styles.bottoneSecondario]} onPress={() => esegui(item.id, rimuovi)}><Text style={styles.testoSecondario}>Elimina</Text></Pressable>
+                  {!attivaOra && <Pressable style={styles.bottone} onPress={() => esegui(item.id, attiva)}><Text style={styles.testoBottone}>{t.attiva}</Text></Pressable>}
+                  <Pressable style={[styles.bottone, styles.bottoneSecondario]} onPress={() => esegui(item.id, rimuovi)}><Text style={styles.testoSecondario}>{t.elimina}</Text></Pressable>
                 </View>
               ) : item.pacchetto ? (
-                <Pressable style={styles.bottone} onPress={() => esegui(item.id, installa)}><Text style={styles.testoBottone}>Scarica</Text></Pressable>
+                <Pressable style={styles.bottone} onPress={() => esegui(item.id, installa)}><Text style={styles.testoBottone}>{t.scarica}</Text></Pressable>
               ) : (
-                <Text style={styles.nonDisponibile}>Non ancora</Text>
+                <Text style={styles.nonDisponibile}>{t.nonAncora}</Text>
               )}
             </View>
           );
@@ -92,6 +135,11 @@ export default function App() {
 const styles = StyleSheet.create({
   contenitore: { flex: 1, backgroundColor: '#f8fafc', paddingHorizontal: 16 },
   titolo: { fontSize: 24, fontWeight: '800', color: '#0f172a', marginTop: 8 },
+  lingue: { flexDirection: 'row', gap: 6, marginTop: 8 },
+  lingua: { flex: 1, alignItems: 'center', paddingVertical: 6, borderRadius: 8, backgroundColor: '#e2e8f0' },
+  linguaAttiva: { backgroundColor: '#1d4ed8' },
+  testoLingua: { fontSize: 12, fontWeight: '700', color: '#334155' },
+  testoLinguaAttiva: { color: '#fff' },
   gratuito: { backgroundColor: '#ecfdf5', borderRadius: 12, padding: 10, marginTop: 8 },
   gratuitoTitolo: { fontSize: 15, fontWeight: '700', color: '#065f46' },
   gratuitoTesto: { fontSize: 13, color: '#065f46', marginTop: 4 },
