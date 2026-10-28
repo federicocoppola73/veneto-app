@@ -1,43 +1,43 @@
 {
-  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
-  "immagine": "mappa-verona.png",
-  "larghezza": 2796,
-  "altezza": 2059,
-  "punti_riferimento": [
-    {
-      "nome": "Angolo nord-ovest",
-      "latitudine": 45.456,
-      "longitudine": 10.955,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "nome": "Angolo nord-est",
-      "latitudine": 45.456,
-      "longitudine": 11.015,
-      "x": 2796.2,
-      "y": 0.0
-    },
-    {
-      "nome": "Angolo sud-ovest",
-      "latitudine": 45.425,
-      "longitudine": 10.955,
-      "x": 0.0,
-      "y": 2059.0
-    },
-    {
-      "nome": "Angolo sud-est",
-      "latitudine": 45.425,
-      "longitudine": 11.015,
-      "x": 2796.2,
-      "y": 2059.0
-    },
-    {
-      "nome": "Centro",
-      "latitudine": 45.4405,
-      "longitudine": 10.985,
-      "x": 1398.1,
-      "y": 1029.6
-    }
-  ]
+ "_nota": "Verona: dati convertiti dal repository verona_app (main 8f9c823). mappa",
+ "immagine": "mappa-verona.webp",
+ "larghezza": 2796,
+ "altezza": 2059,
+ "punti_riferimento": [
+  {
+   "nome": "Angolo nord-ovest",
+   "latitudine": 45.456,
+   "longitudine": 10.955,
+   "x": 0.0,
+   "y": 0.0
+  },
+  {
+   "nome": "Angolo nord-est",
+   "latitudine": 45.456,
+   "longitudine": 11.015,
+   "x": 2796.2,
+   "y": 0.0
+  },
+  {
+   "nome": "Angolo sud-ovest",
+   "latitudine": 45.425,
+   "longitudine": 10.955,
+   "x": 0.0,
+   "y": 2059.0
+  },
+  {
+   "nome": "Angolo sud-est",
+   "latitudine": 45.425,
+   "longitudine": 11.015,
+   "x": 2796.2,
+   "y": 2059.0
+  },
+  {
+   "nome": "Centro",
+   "latitudine": 45.4405,
+   "longitudine": 10.985,
+   "x": 1398.1,
+   "y": 1029.6
+  }
+ ]
 }

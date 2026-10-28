@@ -1,0 +1,1033 @@
+{
+  "_nota": "Cosa mangiare: piatti tipici veronesi. Testi in 5 lingue; foto da aggiungere.",
+  "cibi": [
+    {
+      "id": "risotto-amarone",
+      "nome": "Risotto all'Amarone",
+      "portata": "primo",
+      "testo": {
+        "it": "Risotto mantecato con vino Amarone della Valpolicella, che lo colora di rosso intenso. È un piatto ricco, da fine inverno. Curiosità: il vino si aggiunge a metà cottura, così il risotto resta cremoso e l'alcol evapora.",
+        "en": "Creamy risotto cooked with Amarone della Valpolicella wine, which turns it a deep red. A rich dish for late winter. Curiosity: the wine is added halfway through cooking, so the risotto stays creamy and the alcohol evaporates.",
+        "fr": "Risotto crémeux cuit avec du vin Amarone della Valpolicella, qui le colore d'un rouge profond. Un plat riche de fin d'hiver. Curiosité : le vin est ajouté à mi-cuisson, pour que le risotto reste crémeux et que l'alcool s'évapore.",
+        "de": "Cremiges Risotto, gekocht mit Amarone della Valpolicella, der es tiefrot färbt. Ein reichhaltiges Gericht für den späten Winter. Kuriosität: Der Wein wird zur Hälfte der Garzeit zugegeben, damit das Risotto cremig bleibt und der Alkohol verdampft.",
+        "es": "Risotto cremoso cocinado con vino Amarone della Valpolicella, que lo tiñe de un rojo intenso. Un plato contundente de final de invierno. Curiosidad: el vino se añade a mitad de cocción, para que el risotto quede cremoso y el alcohol se evapore."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "40 min",
+          "en": "40 min",
+          "fr": "40 min",
+          "de": "40 Min.",
+          "es": "40 min"
+        },
+        "ingredienti": {
+          "it": [
+            "320 g di riso Vialone Nano o Carnaroli",
+            "1 bicchiere di Amarone della Valpolicella (circa 150 ml)",
+            "1 litro di brodo di carne",
+            "1 scalogno tritato",
+            "50 g di burro",
+            "50 g di Grana Padano grattugiato",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "320 g Vialone Nano or Carnaroli rice",
+            "1 glass of Amarone della Valpolicella (about 150 ml)",
+            "1 litre of meat stock",
+            "1 shallot, finely chopped",
+            "50 g butter",
+            "50 g grated Grana Padano",
+            "Salt and pepper to taste"
+          ],
+          "fr": [
+            "320 g de riz Vialone Nano ou Carnaroli",
+            "1 verre d'Amarone della Valpolicella (environ 150 ml)",
+            "1 litre de bouillon de viande",
+            "1 échalote hachée",
+            "50 g de beurre",
+            "50 g de Grana Padano râpé",
+            "Sel et poivre selon le goût"
+          ],
+          "de": [
+            "320 g Vialone-Nano- oder Carnaroli-Reis",
+            "1 Glas Amarone della Valpolicella (ca. 150 ml)",
+            "1 Liter Fleischbrühe",
+            "1 Schalotte, fein gehackt",
+            "50 g Butter",
+            "50 g geriebener Grana Padano",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "320 g de arroz Vialone Nano o Carnaroli",
+            "1 copa de Amarone della Valpolicella (unos 150 ml)",
+            "1 litro de caldo de carne",
+            "1 chalota picada",
+            "50 g de mantequilla",
+            "50 g de Grana Padano rallado",
+            "Sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Scalda il brodo e tienilo caldo.",
+            "Fai appassire lo scalogno in metà del burro.",
+            "Tosta il riso per un minuto, poi sfuma con l'Amarone e lascia evaporare.",
+            "Aggiungi il brodo un mestolo alla volta, mescolando, per circa 18 minuti.",
+            "Spegni, manteca con il burro restante e il Grana, e lascia riposare un minuto."
+          ],
+          "en": [
+            "Heat the stock and keep it hot.",
+            "Soften the shallot in half the butter.",
+            "Toast the rice for a minute, then deglaze with the Amarone and let it evaporate.",
+            "Add the stock a ladle at a time, stirring, for about 18 minutes.",
+            "Turn off the heat, mantecare with the remaining butter and the Grana, and rest for a minute."
+          ],
+          "fr": [
+            "Faites chauffer le bouillon et gardez-le au chaud.",
+            "Faites revenir l'échalote dans la moitié du beurre.",
+            "Faites torréfier le riz une minute, puis déglacez à l'Amarone et laissez réduire.",
+            "Ajoutez le bouillon une louche à la fois en remuant, environ 18 minutes.",
+            "Éteignez, mantecate avec le beurre restant et le Grana, puis laissez reposer une minute."
+          ],
+          "de": [
+            "Die Brühe erwärmen und warm halten.",
+            "Die Schalotte in der Hälfte der Butter weich dünsten.",
+            "Den Reis eine Minute anrösten, mit dem Amarone ablöschen und einkochen lassen.",
+            "Die Brühe nach und nach zugeben, dabei rühren, etwa 18 Minuten.",
+            "Vom Herd nehmen, mit der restlichen Butter und dem Grana mantecare, eine Minute ruhen lassen."
+          ],
+          "es": [
+            "Calienta el caldo y mantenlo caliente.",
+            "Rehoga la chalota en la mitad de la mantequilla.",
+            "Tuesta el arroz un minuto, desglasa con el Amarone y deja que se evapore.",
+            "Añade el caldo poco a poco, removiendo, durante unos 18 minutos.",
+            "Retira del fuego, mantecar con la mantequilla restante y el Grana, y deja reposar un minuto."
+          ]
+        }
+      }
+    },
+    {
+      "id": "lesso-con-peara",
+      "nome": "Lesso con pearà",
+      "portata": "secondo",
+      "testo": {
+        "it": "Bollito di carni miste (manzo, gallina, cotechino) servito con la pearà, salsa densa di pane grattugiato, midollo di manzo, brodo e abbondante pepe nero. Tipico della tradizione veronese, spesso nelle osterie e nelle feste. Curiosità: la pearà prende il nome dal pepe, che i veronesi chiamano «pearà».",
+        "en": "A boiled mix of meats (beef, hen, cotechino sausage) served with pearà, a thick sauce of breadcrumbs, beef marrow, stock and plenty of black pepper. A Veronese tradition, often served in trattorias and at celebrations. Curiosity: pearà takes its name from pepper, which is called «pearà» locally.",
+        "fr": "Un bouilli de viandes mélangées (bœuf, poule, cotechino) servi avec la pearà, une sauce épaisse de chapelure, moelle de bœuf, bouillon et beaucoup de poivre noir. Une tradition véronaise, souvent servie dans les osterie et lors des fêtes. Curiosité : la pearà tire son nom du poivre, appelé localement « pearà ».",
+        "de": "Gekochte Fleischauswahl (Rind, Huhn, Cotechino) mit Pearà, einer dicken Soße aus Semmelbröseln, Rindermark, Brühe und viel schwarzem Pfeffer. Eine Veroneser Tradition, oft in Osterien und zu Festen serviert. Kuriosität: Pearà ist nach dem Pfeffer benannt, der hier «pearà» heißt.",
+        "es": "Un hervido de carnes variadas (ternera, gallina, cotechino) servido con la pearà, una salsa espesa de pan rallado, médula de ternera, caldo y mucha pimienta negra. Una tradición veronesa, a menudo en las osterie y en las fiestas. Curiosidad: la pearà toma su nombre de la pimienta, que en Verona se llama «pearà»."
+      },
+      "ricetta": {
+        "porzioni": 6,
+        "preparazione": {
+          "it": "2 ore e mezza",
+          "en": "2.5 hours",
+          "fr": "2 h 30",
+          "de": "2,5 Std.",
+          "es": "2 h 30 min"
+        },
+        "ingredienti": {
+          "it": [
+            "800 g di polpa di manzo",
+            "1 gallina o pollo da brodo",
+            "1 cotechino",
+            "1 cipolla, 1 carota, 1 costa di sedano",
+            "100 g di pane raffermo grattugiato",
+            "50 g di midollo di manzo",
+            "Pepe nero in grani abbondante",
+            "Sale q.b."
+          ],
+          "en": [
+            "800 g beef topside",
+            "1 hen or stewing chicken",
+            "1 cotechino sausage",
+            "1 onion, 1 carrot, 1 celery stalk",
+            "100 g stale bread, grated",
+            "50 g beef marrow",
+            "Plenty of black peppercorns",
+            "Salt to taste"
+          ],
+          "fr": [
+            "800 g de tende de tranche de bœuf",
+            "1 poule ou poulet à bouillir",
+            "1 cotechino",
+            "1 oignon, 1 carotte, 1 branche de céleri",
+            "100 g de pain rassis râpé",
+            "50 g de moelle de bœuf",
+            "Beaucoup de grains de poivre noir",
+            "Sel selon le goût"
+          ],
+          "de": [
+            "800 g Rinderbraten (Tafelspitz)",
+            "1 Suppenhuhn",
+            "1 Cotechino",
+            "1 Zwiebel, 1 Karotte, 1 Stange Sellerie",
+            "100 g altes Brot, gerieben",
+            "50 g Rindermark",
+            "Viel schwarzer Pfefferkörner",
+            "Salz nach Geschmack"
+          ],
+          "es": [
+            "800 g de contra de ternera",
+            "1 gallina o pollo para caldo",
+            "1 cotechino",
+            "1 cebolla, 1 zanahoria, 1 tallo de apio",
+            "100 g de pan duro rallado",
+            "50 g de médula de ternera",
+            "Mucha pimienta negra en grano",
+            "Sal al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Cuoci le carni in acqua salata con verdure per circa 2 ore, aggiungendo il cotechino negli ultimi 45 minuti.",
+            "Tosta il pepe in grani in una padella e pestalo grossolanamente.",
+            "Scalda 300 ml di brodo, aggiungi il pane, il midollo fuso e il pepe, e mescola finché la salsa è densa.",
+            "Taglia le carni a fette e servile con la pearà calda."
+          ],
+          "en": [
+            "Cook the meats in salted water with vegetables for about 2 hours, adding the cotechino in the last 45 minutes.",
+            "Toast the peppercorns in a pan and crush them coarsely.",
+            "Warm 300 ml of stock, add the bread, melted marrow and pepper, and stir until thick.",
+            "Slice the meats and serve them with the warm pearà."
+          ],
+          "fr": [
+            "Faites cuire les viandes dans de l'eau salée avec les légumes environ 2 heures, en ajoutant le cotechino les 45 dernières minutes.",
+            "Faites torréfier les grains de poivre dans une poêle et concassez-les grossièrement.",
+            "Chauffez 300 ml de bouillon, ajoutez le pain, la moelle fondue et le poivre, et remuez jusqu'à obtenir une sauce épaisse.",
+            "Coupez les viandes en tranches et servez-les avec la pearà chaude."
+          ],
+          "de": [
+            "Die Fleischstücke mit Gemüse etwa 2 Stunden in Salzwasser kochen, den Cotechino in den letzten 45 Minuten dazugeben.",
+            "Die Pfefferkörner in einer Pfanne rösten und grob zerstoßen.",
+            "300 ml Brühe erwärmen, Brot, geschmolzenes Mark und Pfeffer zugeben und rühren, bis die Soße dick ist.",
+            "Das Fleisch in Scheiben schneiden und mit der warmen Pearà servieren."
+          ],
+          "es": [
+            "Cuece las carnes en agua con sal y verduras unas 2 horas, añadiendo el cotechino los últimos 45 minutos.",
+            "Tuesta los granos de pimienta en una sartén y machácalos gruesamente.",
+            "Calienta 300 ml de caldo, añade el pan, la médula derretida y la pimienta, y remueve hasta que espese.",
+            "Corta las carnes en lonchas y sírvelas con la pearà caliente."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastissada-de-caval",
+      "nome": "Pastissada de caval",
+      "portata": "secondo",
+      "testo": {
+        "it": "Stufato di carne di cavallo cotto lentamente nel vino rosso (Valpolicella) con verdure e spezie. Piatto della tradizione contadina veronese, tradizionalmente servito con polenta o gnocchi. Curiosità: il cavallo era a lungo un animale da lavoro, e la carne veniva consumata quando non serviva più.",
+        "en": "Horse meat stew slowly braised in red wine (Valpolicella) with vegetables and spices. A peasant tradition from Verona, traditionally served with polenta or gnocchi. Curiosity: horses were long working animals, and their meat was eaten once they were no longer needed for work.",
+        "fr": "Ragoût de viande de cheval braisé lentement dans du vin rouge (Valpolicella) avec des légumes et des épices. Un plat de la tradition paysanne véronaise, traditionnellement servi avec de la polenta ou des gnocchi. Curiosité : le cheval a longtemps été un animal de travail, et sa viande était consommée lorsqu'il ne servait plus.",
+        "de": "Pferdefleisch-Ragout, langsam in Rotwein (Valpolicella) mit Gemüse und Gewürzen geschmort. Ein Gericht der bäuerlichen Tradition Veronas, traditionell mit Polenta oder Gnocchi serviert. Kuriosität: Pferde waren lange Arbeitstiere, und ihr Fleisch wurde gegessen, wenn sie nicht mehr gebraucht wurden.",
+        "es": "Estofado de carne de caballo cocido lentamente en vino tinto (Valpolicella) con verduras y especias. Un plato de la tradición campesina veronesa, tradicionalmente servido con polenta o gnocchi. Curiosidad: el caballo fue durante mucho tiempo un animal de trabajo, y su carne se comía cuando ya no servía para trabajar."
+      },
+      "ricetta": {
+        "porzioni": 6,
+        "preparazione": {
+          "it": "3 ore",
+          "en": "3 hours",
+          "fr": "3 h",
+          "de": "3 Std.",
+          "es": "3 h"
+        },
+        "ingredienti": {
+          "it": [
+            "1 kg di carne di cavallo (spalla o girello)",
+            "1 bottiglia di vino rosso Valpolicella",
+            "1 cipolla, 1 carota, 1 costa di sedano",
+            "2 chiodi di garofano, 1 foglia di alloro, rosmarino",
+            "2 cucchiai di concentrato di pomodoro",
+            "Olio extravergine d'oliva, sale, pepe q.b."
+          ],
+          "en": [
+            "1 kg horse meat (shoulder or topside)",
+            "1 bottle of red Valpolicella wine",
+            "1 onion, 1 carrot, 1 celery stalk",
+            "2 cloves, 1 bay leaf, rosemary",
+            "2 tablespoons tomato paste",
+            "Extra virgin olive oil, salt and pepper to taste"
+          ],
+          "fr": [
+            "1 kg de viande de cheval (épaule ou tende de tranche)",
+            "1 bouteille de vin rouge Valpolicella",
+            "1 oignon, 1 carotte, 1 branche de céleri",
+            "2 clous de girofle, 1 feuille de laurier, romarin",
+            "2 cuillères à soupe de concentré de tomate",
+            "Huile d'olive extra vierge, sel et poivre selon le goût"
+          ],
+          "de": [
+            "1 kg Pferdefleisch (Schulter oder Tafelspitz)",
+            "1 Flasche Rotwein Valpolicella",
+            "1 Zwiebel, 1 Karotte, 1 Stange Sellerie",
+            "2 Nelken, 1 Lorbeerblatt, Rosmarin",
+            "2 EL Tomatenmark",
+            "Olivenöl extra vergine, Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "1 kg de carne de caballo (paletilla o contra)",
+            "1 botella de vino tinto Valpolicella",
+            "1 cebolla, 1 zanahoria, 1 tallo de apio",
+            "2 clavos de olor, 1 hoja de laurel, romero",
+            "2 cucharadas de concentrado de tomate",
+            "Aceite de oliva virgen extra, sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Taglia la carne a cubetti e rosolala in olio caldo a fuoco vivace.",
+            "Aggiungi il trito di cipolla, carota e sedano e falli appassire.",
+            "Versa il vino, aggiungi spezie, alloro, rosmarino e concentrato.",
+            "Cuoci a fuoco basso e coperto per circa 2 ore e mezza, mescolando ogni tanto e aggiungendo acqua se serve.",
+            "Regola di sale e pepe e servi con polenta."
+          ],
+          "en": [
+            "Cut the meat into cubes and brown it in hot oil over high heat.",
+            "Add the chopped onion, carrot and celery and soften them.",
+            "Pour in the wine, add the spices, bay, rosemary and tomato paste.",
+            "Cook covered over low heat for about 2.5 hours, stirring now and then and adding water if needed.",
+            "Adjust salt and pepper and serve with polenta."
+          ],
+          "fr": [
+            "Coupez la viande en cubes et faites-la dorer dans l'huile chaude à feu vif.",
+            "Ajoutez l'oignon, la carotte et le céleri hachés et faites-les revenir.",
+            "Versez le vin, ajoutez les épices, le laurier, le romarin et le concentré.",
+            "Laissez mijoter à couvert à feu doux environ 2 heures et demie, en remuant de temps en temps et en ajoutant de l'eau si besoin.",
+            "Rectifiez le sel et le poivre et servez avec de la polenta."
+          ],
+          "de": [
+            "Das Fleisch würfeln und in heißem Öl bei starker Hitze anbraten.",
+            "Zwiebel, Karotte und Sellerie fein hacken, dazugeben und weich dünsten.",
+            "Den Wein angießen, Gewürze, Lorbeer, Rosmarin und Tomatenmark zugeben.",
+            "Zugedeckt bei schwacher Hitze etwa 2,5 Stunden schmoren, ab und zu umrühren und bei Bedarf Wasser nachgießen.",
+            "Mit Salz und Pfeffer abschmecken und mit Polenta servieren."
+          ],
+          "es": [
+            "Corta la carne en cubos y dórala en aceite caliente a fuego vivo.",
+            "Añade la cebolla, la zanahoria y el apio picados y rehógalos.",
+            "Vierte el vino, añade las especias, el laurel, el romero y el concentrado.",
+            "Cuece tapado a fuego lento unas 2 horas y media, removiendo de vez en cuando y añadiendo agua si hace falta.",
+            "Ajusta la sal y la pimienta y sirve con polenta."
+          ]
+        }
+      }
+    },
+    {
+      "id": "risotto-tastasal",
+      "nome": "Risotto al tastasal",
+      "portata": "primo",
+      "testo": {
+        "it": "Risotto mantecato con tastasal, un salame fresco e speziato tipico della zona veronese, sbriciolato nel riso. Piatto semplice e saporito della cucina di campagna. Curiosità: il tastasal si prepara con carne di maiale tagliata a mano, che si «assaggia» (da qui il nome) prima di insaccarla.",
+        "en": "Risotto mantecato with tastasal, a fresh, spiced salami typical of the Verona area, crumbled into the rice. A simple, tasty country dish. Curiosity: tastasal is made from hand-cut pork that is «tasted» (hence the name) before being stuffed into the casing.",
+        "fr": "Risotto mantecato au tastasal, un salami frais et épicé typique de la région de Vérone, émietté dans le riz. Un plat campagnard simple et savoureux. Curiosité : le tastasal est fait de porc coupé à la main, que l'on « goûte » (d'où son nom) avant de l'embosser.",
+        "de": "Risotto mantecato mit Tastasal, einer frischen, gewürzten Salami aus der Gegend um Verona, in den Reis gebröckelt. Ein einfaches, schmackhaftes Landgericht. Kuriosität: Tastasal wird aus von Hand geschnittenem Schweinefleisch hergestellt, das man vor dem Füllen «probiert» (daher der Name).",
+        "es": "Risotto mantecato con tastasal, un salami fresco y especiado típico de la zona de Verona, desmenuzado en el arroz. Un plato campesino sencillo y sabroso. Curiosidad: el tastasal se hace con carne de cerdo cortada a mano, que se «prueba» (de ahí el nombre) antes de embutirla."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "35 min",
+          "en": "35 min",
+          "fr": "35 min",
+          "de": "35 Min.",
+          "es": "35 min"
+        },
+        "ingredienti": {
+          "it": [
+            "320 g di riso Vialone Nano",
+            "150 g di tastasal fresco",
+            "1 scalogno",
+            "1 litro di brodo",
+            "1 bicchiere di vino bianco secco",
+            "50 g di burro",
+            "60 g di Grana Padano grattugiato"
+          ],
+          "en": [
+            "320 g Vialone Nano rice",
+            "150 g fresh tastasal",
+            "1 shallot",
+            "1 litre of stock",
+            "1 glass of dry white wine",
+            "50 g butter",
+            "60 g grated Grana Padano"
+          ],
+          "fr": [
+            "320 g de riz Vialone Nano",
+            "150 g de tastasal frais",
+            "1 échalote",
+            "1 litre de bouillon",
+            "1 verre de vin blanc sec",
+            "50 g de beurre",
+            "60 g de Grana Padano râpé"
+          ],
+          "de": [
+            "320 g Vialone-Nano-Reis",
+            "150 g frischer Tastasal",
+            "1 Schalotte",
+            "1 Liter Brühe",
+            "1 Glas trockener Weißwein",
+            "50 g Butter",
+            "60 g geriebener Grana Padano"
+          ],
+          "es": [
+            "320 g de arroz Vialone Nano",
+            "150 g de tastasal fresco",
+            "1 chalota",
+            "1 litro de caldo",
+            "1 copa de vino blanco seco",
+            "50 g de mantequilla",
+            "60 g de Grana Padano rallado"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sbriciola il tastasal e fallo rosolare con lo scalogno tritato nel burro.",
+            "Tosta il riso per un minuto, sfuma con il vino e lascia evaporare.",
+            "Aggiungi il brodo caldo un mestolo alla volta per circa 17 minuti.",
+            "Manteca fuori dal fuoco con burro e Grana e servi subito."
+          ],
+          "en": [
+            "Crumble the tastasal and brown it with the chopped shallot in butter.",
+            "Toast the rice for a minute, deglaze with the wine and let it evaporate.",
+            "Add the hot stock a ladle at a time for about 17 minutes.",
+            "Mantecare off the heat with butter and Grana and serve at once."
+          ],
+          "fr": [
+            "Émiettez le tastasal et faites-le dorer avec l'échalote hachée dans le beurre.",
+            "Faites torréfier le riz une minute, déglacez au vin et laissez réduire.",
+            "Ajoutez le bouillon chaud une louche à la fois pendant environ 17 minutes.",
+            "Mantecate hors du feu avec le beurre et le Grana, et servez aussitôt."
+          ],
+          "de": [
+            "Den Tastasal zerbröseln und mit der fein gehackten Schalotte in Butter anbraten.",
+            "Den Reis eine Minute anrösten, mit dem Wein ablöschen und einkochen lassen.",
+            "Die heiße Brühe nach und nach etwa 17 Minuten zugeben.",
+            "Vom Herd nehmen, mit Butter und Grana mantecare und sofort servieren."
+          ],
+          "es": [
+            "Desmenuza el tastasal y dóralo con la chalota picada en mantequilla.",
+            "Tuesta el arroz un minuto, desglasa con el vino y deja que se evapore.",
+            "Añade el caldo caliente poco a poco durante unos 17 minutos.",
+            "Mantecar fuera del fuego con mantequilla y Grana y sirve enseguida."
+          ]
+        }
+      }
+    },
+    {
+      "id": "polenta-e-renga",
+      "nome": "Polenta e renga",
+      "portata": "secondo",
+      "testo": {
+        "it": "Polenta di mais accompagnata da aringa salata (renga), arrostita sulla brace o in padella e condita con olio e aglio. Piatto povero e tradizionale della cucina veneta, soprattutto nelle giornate di magro. Curiosità: la renga era un cibo economico e conservabile, arrivato in laguna e in pianura proprio perché si poteva trasportare a lungo.",
+        "en": "Cornmeal polenta served with salted herring (renga), grilled over embers or pan-fried and dressed with oil and garlic. A humble, traditional Veneto dish, especially on meatless days. Curiosity: herring was cheap and keeps well, so it travelled far inland and was a staple of the poor.",
+        "fr": "Polenta de maïs accompagnée de hareng salé (renga), grillé sur la braise ou poêlé et assaisonné d'huile et d'ail. Un plat modeste et traditionnel de la cuisine vénète, surtout les jours maigres. Curiosité : le hareng était bon marché et se conservait bien, il voyageait donc loin à l'intérieur des terres.",
+        "de": "Maisbrei (Polenta) mit gesalzenem Hering (Renga), über Glut gegrillt oder in der Pfanne gebraten und mit Öl und Knoblauch angemacht. Ein bescheidenes, traditionelles Gericht der venetischen Küche, besonders an fleischlosen Tagen. Kuriosität: Hering war billig und haltbar und kam daher weit ins Landesinnere; er war ein Grundnahrungsmittel der Armen.",
+        "es": "Polenta de maíz acompañada de arenque salado (renga), asado a la brasa o en sartén y aliñado con aceite y ajo. Un plato humilde y tradicional de la cocina véneta, sobre todo los días de abstinencia. Curiosidad: el arenque era barato y se conservaba bien, así que llegaba muy lejos tierra adentro y fue alimento básico de los pobres."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "1 ora",
+          "en": "1 hour",
+          "fr": "1 h",
+          "de": "1 Std.",
+          "es": "1 h"
+        },
+        "ingredienti": {
+          "it": [
+            "300 g di farina di mais per polenta",
+            "1,5 litri di acqua salata",
+            "2 arenghe salate (renga)",
+            "4 cucchiai di olio extravergine d'oliva",
+            "2 spicchi d'aglio",
+            "Prezzemolo tritato, pepe q.b."
+          ],
+          "en": [
+            "300 g cornmeal for polenta",
+            "1.5 litres of salted water",
+            "2 salted herrings (renga)",
+            "4 tablespoons extra virgin olive oil",
+            "2 garlic cloves",
+            "Chopped parsley, pepper to taste"
+          ],
+          "fr": [
+            "300 g de farine de maïs pour polenta",
+            "1,5 litre d'eau salée",
+            "2 harengs salés (renga)",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "2 gousses d'ail",
+            "Persil haché, poivre selon le goût"
+          ],
+          "de": [
+            "300 g Maismehl für Polenta",
+            "1,5 Liter Salzwasser",
+            "2 gesalzene Heringe (Renga)",
+            "4 EL Olivenöl extra vergine",
+            "2 Knoblauchzehen",
+            "Gehackte Petersilie, Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "300 g de harina de maíz para polenta",
+            "1,5 litros de agua salada",
+            "2 arenques salados (renga)",
+            "4 cucharadas de aceite de oliva virgen extra",
+            "2 dientes de ajo",
+            "Perejil picado, pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Porta l'acqua a ebollizione, versa la farina a pioggia e mescola con la frusta per 5 minuti, poi con il mestolo per 40 minuti, a fuoco basso.",
+            "Pulisci le arenghe, togli le lische e falle grigliare o rosolare nell'olio.",
+            "Trita aglio e prezzemolo e condisci le arenghe con olio, aglio e pepe.",
+            "Servi la polenta calda con le arenghe a fianco o sopra."
+          ],
+          "en": [
+            "Bring the water to the boil, sprinkle in the flour and whisk for 5 minutes, then stir with a wooden spoon over low heat for about 40 minutes.",
+            "Clean the herrings, remove the bones and grill or pan-fry them in oil.",
+            "Chop the garlic and parsley and dress the herrings with oil, garlic and pepper.",
+            "Serve the hot polenta with the herrings on the side or on top."
+          ],
+          "fr": [
+            "Portez l'eau à ébullition, versez la farine en pluie et fouettez 5 minutes, puis remuez à la cuillère de bois à feu doux pendant environ 40 minutes.",
+            "Nettoyez les harengs, retirez les arêtes et faites-les griller ou dorer dans l'huile.",
+            "Hachez l'ail et le persil et assaisonnez les harengs avec l'huile, l'ail et le poivre.",
+            "Servez la polenta chaude avec les harengs à côté ou par-dessus."
+          ],
+          "de": [
+            "Das Wasser zum Kochen bringen, das Mehl einrieseln lassen und 5 Minuten schlagen, dann bei schwacher Hitze etwa 40 Minuten mit dem Holzlöffel rühren.",
+            "Die Heringe säubern, die Gräten entfernen und in Öl grillen oder braten.",
+            "Knoblauch und Petersilie hacken und die Heringe mit Öl, Knoblauch und Pfeffer anmachen.",
+            "Die heiße Polenta mit den Heringen daneben oder darauf servieren."
+          ],
+          "es": [
+            "Lleva el agua a ebullición, vierte la harina en forma de lluvia y bate 5 minutos; luego remueve con cuchara de madera a fuego lento unos 40 minutos.",
+            "Limpia los arenques, quita las espinas y asa o dóralos en aceite.",
+            "Pica el ajo y el perejil y alíña los arenques con aceite, ajo y pimienta.",
+            "Sirve la polenta caliente con los arenques al lado o encima."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gnocchi-verona",
+      "nome": "Gnocchi di Verona (Venerdì Gnocolar)",
+      "portata": "primo",
+      "testo": {
+        "it": "Gli gnocchi di patate, serviti con burro e salvia, sugo di pomodoro o pastissada, sono il piatto simbolo del Carnevale veronese. Si mangiano soprattutto il Venerdì Gnocolar, l'ultimo venerdì di Carnevale, festa storica della città. Curiosità: nel 1531 una carestia causò rivolte in città; i ricchi sfamarono il popolo con gnocchi, e quel venerdì divenne la festa degli gnocchi. Ogni anno viene eletto il Papà del Gnoco, la maschera del Carnevale.",
+        "en": "Potato gnocchi, served with butter and sage, tomato sauce or pastissada, are the symbol dish of Verona's Carnival. They are eaten above all on Venerdì Gnocolar (Gnocchi Friday), the last Friday of Carnival and a historic festival of the city. Curiosity: in 1531 a famine caused riots; wealthy citizens fed the people gnocchi, and that Friday became the Friday of gnocchi. Each year a new Papà del Gnoco, the Carnival mask, is elected.",
+        "fr": "Les gnocchi de pomme de terre, servis au beurre et à la sauge, à la sauce tomate ou avec de la pastissada, sont le plat emblématique du Carnaval de Vérone. On les mange surtout le Venerdì Gnocolar (vendredi des gnocchi), le dernier vendredi du Carnaval, fête historique de la ville. Curiosité : en 1531, une famine provoqua des émeutes ; les riches nourrirent le peuple de gnocchi, et ce vendredi devint le vendredi des gnocchi. Chaque année est élu un nouveau Papà del Gnoco, le masque du Carnaval.",
+        "de": "Kartoffelgnocchi, mit Butter und Salbei, Tomatensoße oder Pastissada serviert, sind das Symbolgericht des Veroneser Karnevals. Man isst sie vor allem am Venerdì Gnocolar (Gnocchi-Freitag), dem letzten Freitag des Karnevals, einem historischen Fest der Stadt. Kuriosität: 1531 löste eine Hungersnot Unruhen aus; reiche Bürger speisten das Volk mit Gnocchi, und dieser Freitag wurde zum Gnocchi-Freitag. Jedes Jahr wird ein neuer Papà del Gnoco gewählt, die Karnevalsmaske.",
+        "es": "Los gnocchi de patata, servidos con mantequilla y salvia, salsa de tomate o pastissada, son el plato símbolo del Carnaval de Verona. Se comen sobre todo el Venerdì Gnocolar (viernes de los gnocchi), el último viernes de Carnaval, fiesta histórica de la ciudad. Curiosidad: en 1531 una hambruna provocó disturbios; los ricos alimentaron al pueblo con gnocchi, y ese viernes se convirtió en el de los gnocchi. Cada año se elige un nuevo Papà del Gnoco, la máscara del Carnaval."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "1 ora e 30",
+          "en": "1 h 30",
+          "fr": "1 h 30",
+          "de": "1 Std. 30 Min.",
+          "es": "1 h 30 min"
+        },
+        "ingredienti": {
+          "it": [
+            "1 kg di patate a pasta farinosa",
+            "200 g di farina 00 (circa)",
+            "1 uovo",
+            "Sale q.b.",
+            "Burro e salvia, oppure sugo di pomodoro, per condire",
+            "Grana Padano grattugiato"
+          ],
+          "en": [
+            "1 kg floury potatoes",
+            "About 200 g 00 flour",
+            "1 egg",
+            "Salt to taste",
+            "Butter and sage, or tomato sauce, to dress",
+            "Grated Grana Padano"
+          ],
+          "fr": [
+            "1 kg de pommes de terre farineuses",
+            "Environ 200 g de farine 00",
+            "1 œuf",
+            "Sel selon le goût",
+            "Beurre et sauge, ou sauce tomate, pour l'assaisonnement",
+            "Grana Padano râpé"
+          ],
+          "de": [
+            "1 kg mehlig kochende Kartoffeln",
+            "Ca. 200 g Mehl Typ 00",
+            "1 Ei",
+            "Salz nach Geschmack",
+            "Butter und Salbei oder Tomatensoße zum Anmachen",
+            "Geriebener Grana Padano"
+          ],
+          "es": [
+            "1 kg de patatas harinosas",
+            "Unos 200 g de harina 00",
+            "1 huevo",
+            "Sal al gusto",
+            "Mantequilla y salvia, o salsa de tomate, para aliñar",
+            "Grana Padano rallado"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Lessa le patate con la buccia, sbucciale ancora calde e schiacciale finemente.",
+            "Lascia raffreddare, poi aggiungi uovo, sale e farina poco alla volta fino a un impasto morbido.",
+            "Forma dei cordoncini, tagliali a tocchetti e rigali con i rebbi di una forchetta.",
+            "Cuoci in acqua bollente salata: quando salgono in superficie sono pronti.",
+            "Condisci con burro fuso e salvia o con sugo di pomodoro, spolverando con Grana."
+          ],
+          "en": [
+            "Boil the potatoes in their skins, peel while still hot and mash finely.",
+            "Let them cool, then add the egg, salt and flour little by little until you have a soft dough.",
+            "Roll into ropes, cut into small pieces and mark with the tines of a fork.",
+            "Cook in boiling salted water: they are ready when they rise to the surface.",
+            "Dress with melted butter and sage or tomato sauce, sprinkling with Grana."
+          ],
+          "fr": [
+            "Faites cuire les pommes de terre avec leur peau, pelez-les encore chaudes et écrasez-les finement.",
+            "Laissez refroidir, puis ajoutez l'œuf, le sel et la farine peu à peu jusqu'à obtenir une pâte souple.",
+            "Formez des cordons, coupez-les en petits morceaux et marquez-les avec les dents d'une fourchette.",
+            "Faites cuire dans l'eau bouillante salée : ils sont prêts quand ils remontent à la surface.",
+            "Assaisonnez avec du beurre fondu et de la sauge ou une sauce tomate, et saupoudrez de Grana."
+          ],
+          "de": [
+            "Die kochenden Kartoffeln mit Schale garen, noch heiß schälen und fein stampfen.",
+            "Abkühlen lassen, dann Ei, Salz und nach und nach Mehl zugeben, bis ein weicher Teig entsteht.",
+            "Zu Strängen rollen, in kleine Stücke schneiden und mit einer Gabel markieren.",
+            "In siedendem Salzwasser garen: fertig, wenn sie an die Oberfläche steigen.",
+            "Mit geschmolzener Butter und Salbei oder Tomatensoße anmachen und mit Grana bestreuen."
+          ],
+          "es": [
+            "Cuece las patatas con piel, pélalas aún calientes y tritúralas finamente.",
+            "Deja enfriar y añade el huevo, la sal y la harina poco a poco hasta obtener una masa blanda.",
+            "Forma cordones, córtalos en trozos pequeños y márcalos con los dientes de un tenedor.",
+            "Cuece en agua hirviendo con sal: están listos cuando suben a la superficie.",
+            "Alíñalos con mantequilla derretida y salvia o salsa de tomate, y espolvorea con Grana."
+          ]
+        },
+        "fonte": "https://www.europlan.it/en/blog/italian-carnival-recipes-specialities-of-verona"
+      }
+    },
+    {
+      "id": "nadalin",
+      "nome": "Nadalin",
+      "portata": "dolce",
+      "testo": {
+        "it": "Dolce lievitato a forma di stella, morbido e poco burroso, tipico del Natale veronese e antenato del pandoro. Si glassa con albume e mandorle e zucchero in granella. Curiosità: secondo la tradizione le origini risalgono al Duecento, quando un cuoco di una famiglia nobile creò un dolce a stella per celebrare lo splendore di Verona sotto gli Scaligeri.",
+        "en": "A leavened star-shaped sweet, soft and less buttery, typical of Verona's Christmas and the ancestor of pandoro. It is glazed with egg white, almonds and sugar granules. Curiosity: tradition dates its origins to the 13th century, when a cook of a noble family made a star-shaped cake to celebrate Verona under the Della Scala family.",
+        "fr": "Un gâteau levé en forme d'étoile, moelleux et peu beurré, typique de Noël à Vérone et ancêtre du pandoro. Il est glacé au blanc d'œuf, aux amandes et au sucre en grains. Curiosité : la tradition fait remonter ses origines au XIIIe siècle, quand un cuisinier d'une famille noble créa un gâteau en étoile pour célébrer Vérone sous les Della Scala.",
+        "de": "Ein hefeteig-süßes Gebäck in Sternform, weich und wenig buttrig, typisch für Weihnachten in Verona und Vorläufer des Pandoro. Es wird mit Eiweiß, Mandeln und Zuckerkristallen glasiert. Kuriosität: Der Überlieferung nach stammt es aus dem 13. Jahrhundert, als ein Koch einer adligen Familie einen Sternkuchen schuf, um Verona unter den Scaligeri zu feiern.",
+        "es": "Un dulce levado con forma de estrella, suave y poco mantecoso, típico de la Navidad veronesa y antecesor del pandoro. Se glasea con clara de huevo, almendras y azúcar granulado. Curiosidad: según la tradición, sus orígenes se remontan al siglo XIII, cuando un cocinero de una familia noble creó un pastel en forma de estrella para celebrar Verona bajo los Della Scala."
+      },
+      "ricetta": {
+        "porzioni": 10,
+        "preparazione": {
+          "it": "1 ora + 2 ore di lievitazione",
+          "en": "1 hour + 2 hours rising",
+          "fr": "1 h + 2 h de levée",
+          "de": "1 Std. + 2 Std. Gehzeit",
+          "es": "1 h + 2 h de levado"
+        },
+        "ingredienti": {
+          "it": [
+            "125 g di farina 00 e 200 g di farina Manitoba",
+            "30 g di farina di mandorle",
+            "80 g di zucchero",
+            "2 uova intere più 1 tuorlo",
+            "60 g di burro morbido",
+            "120 ml di latte",
+            "2 cucchiai di miele",
+            "Scorza di limone, semi di vaniglia, sale",
+            "Per il lievitino: 40 ml d'acqua tiepida, 10 g di lievito di birra"
+          ],
+          "en": [
+            "125 g 00 flour and 200 g Manitoba flour",
+            "30 g almond flour",
+            "80 g sugar",
+            "2 whole eggs plus 1 yolk",
+            "60 g softened butter",
+            "120 ml milk",
+            "2 tablespoons honey",
+            "Lemon zest, vanilla seeds, salt",
+            "For the starter: 40 ml warm water, 10 g fresh yeast"
+          ],
+          "fr": [
+            "125 g de farine 00 et 200 g de farine Manitoba",
+            "30 g de farine d'amande",
+            "80 g de sucre",
+            "2 œufs entiers plus 1 jaune",
+            "60 g de beurre mou",
+            "120 ml de lait",
+            "2 cuillères à soupe de miel",
+            "Zeste de citron, graines de vanille, sel",
+            "Pour le levain : 40 ml d'eau tiède, 10 g de levure fraîche"
+          ],
+          "de": [
+            "125 g Mehl Typ 00 und 200 g Manitoba-Mehl",
+            "30 g Mandelmehl",
+            "80 g Zucker",
+            "2 ganze Eier und 1 Eigelb",
+            "60 g weiche Butter",
+            "120 ml Milch",
+            "2 EL Honig",
+            "Zitronenschale, Vanillemark, Salz",
+            "Für den Vorteig: 40 ml lauwarmes Wasser, 10 g frische Hefe"
+          ],
+          "es": [
+            "125 g de harina 00 y 200 g de harina Manitoba",
+            "30 g de harina de almendra",
+            "80 g de azúcar",
+            "2 huevos enteros y 1 yema",
+            "60 g de mantequilla blanda",
+            "120 ml de leche",
+            "2 cucharadas de miel",
+            "Ralladura de limón, semillas de vainilla, sal",
+            "Para el prefermento: 40 ml de agua tibia, 10 g de levadura fresca"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sciogli il lievito nell'acqua tiepida, uniscilo a 30 g di ciascuna farina e fai lievitare il lievitino per almeno un'ora, fino al raddoppio.",
+            "Infondi la scorza di limone e i semi di vaniglia nel miele.",
+            "Impasta le farine con zucchero, sale, latte, uova, miele aromatizzato e lievitino; aggiungi il burro a poco a poco.",
+            "Lascia lievitare 2–3 ore, poi modella in uno stampo a stella e fai lievitare ancora fino al bordo.",
+            "Spennella con albume montato con la farina di mandorle e cospargi di zucchero in granella.",
+            "Cuoci a 170 °C in forno statico per 30–40 minuti, controllando con uno stecchino."
+          ],
+          "en": [
+            "Dissolve the yeast in warm water, mix with 30 g of each flour and let the starter rise for at least an hour, until doubled.",
+            "Steep the lemon zest and vanilla seeds in the honey.",
+            "Knead the flours with sugar, salt, milk, eggs, the flavoured honey and the starter; add the butter gradually.",
+            "Let rise 2–3 hours, shape in a low star mould and rise again until it reaches the rim.",
+            "Brush with egg white whisked with almond flour and sprinkle with sugar granules.",
+            "Bake at 170 °C in a static oven for 30–40 minutes, testing with a toothpick."
+          ],
+          "fr": [
+            "Dissolvez la levure dans l'eau tiède, mélangez à 30 g de chaque farine et laissez lever le levain au moins une heure, jusqu'à doubler.",
+            "Faites infuser le zeste de citron et les graines de vanille dans le miel.",
+            "Pétrissez les farines avec le sucre, le sel, le lait, les œufs, le miel aromatisé et le levain ; ajoutez le beurre peu à peu.",
+            "Laissez lever 2 à 3 heures, façonnez dans un moule en étoile et laissez encore lever jusqu'au bord.",
+            "Badigeonnez de blanc d'œuf fouetté avec la farine d'amande et saupoudrez de sucre en grains.",
+            "Cuisez à 170 °C en four statique 30 à 40 minutes, en contrôlant avec un pic."
+          ],
+          "de": [
+            "Die Hefe in lauwarmem Wasser auflösen, mit je 30 g Mehl mischen und den Vorteig mindestens eine Stunde gehen lassen, bis er sich verdoppelt.",
+            "Zitronenschale und Vanillemark im Honig ziehen lassen.",
+            "Die Mehle mit Zucker, Salz, Milch, Eiern, dem aromatisierten Honig und dem Vorteig verkneten; nach und nach die Butter zugeben.",
+            "2–3 Stunden gehen lassen, in eine flache Sternform geben und erneut gehen lassen, bis der Teig den Rand erreicht.",
+            "Mit Eiweiß bestreichen, das mit Mandelmehl geschlagen wurde, und mit Zuckerkristallen bestreuen.",
+            "Bei 170 °C Ober-/Unterhitze 30–40 Minuten backen und mit einem Holzstäbchen prüfen."
+          ],
+          "es": [
+            "Disuelve la levadura en el agua tibia, mézclala con 30 g de cada harina y deja levar el prefermento al menos una hora, hasta duplicar.",
+            "Infunde la ralladura de limón y las semillas de vainilla en la miel.",
+            "Amasa las harinas con el azúcar, la sal, la leche, los huevos, la miel aromatizada y el prefermento; añade la mantequilla poco a poco.",
+            "Deja levar 2–3 horas, moldea en un molde de estrella baja y vuelve a levar hasta el borde.",
+            "Pincela con clara batida con harina de almendra y espolvorea con azúcar granulado.",
+            "Hornea a 170 °C en horno estático 30–40 minutos, comprobando con un palillo."
+          ]
+        },
+        "fonte": "https://www.ricettedalmondo.it/nadalin.html"
+      }
+    },
+    {
+      "id": "risini-veronesi",
+      "nome": "Risini veronesi",
+      "portata": "dolce",
+      "testo": {
+        "it": "Crostatine dorate con guscio di frolla ripieno di crema di riso, tipiche delle pasticcerie veronesi e spesso servite a colazione. Il riso Vialone Nano, coltivato nella pianura veronese, tiene la forma e assorbe i sapori. Curiosità: le origini non sono ben documentate, ma è una delle colazioni più amate in città.",
+        "en": "Golden individual tarts with a shortcrust shell filled with rice cream, typical of Verona's pastry shops and often served at breakfast. Vialone Nano rice, grown in the Veronese plain, holds its shape and absorbs flavours. Curiosity: their origins are not well documented, but they are among the city's most loved breakfast treats.",
+        "fr": "Petites tartelettes dorées à croûte de pâte sablée garnies de crème de riz, typiques des pâtisseries véronaises et souvent servies au petit-déjeuner. Le riz Vialone Nano, cultivé dans la plaine véronaise, garde sa forme et absorbe les saveurs. Curiosité : leurs origines sont mal documentées, mais ce sont l'une des gourmandises du petit-déjeuner les plus appréciées de la ville.",
+        "de": "Goldene kleine Törtchen mit Mürbeteigschale, gefüllt mit Reiscreme, typisch für die Konditoreien Veronas und oft zum Frühstück serviert. Der Vialone-Nano-Reis aus der Veroneser Ebene behält seine Form und nimmt Aromen auf. Kuriosität: Ihr Ursprung ist nicht gut dokumentiert, aber sie gehören zu den beliebtesten Frühstücksleckereien der Stadt.",
+        "es": "Tartaletas doradas individuales con base de masa quebrada rellena de crema de arroz, típicas de las pastelerías veronesas y a menudo servidas en el desayuno. El arroz Vialone Nano, cultivado en la llanura veronesa, mantiene su forma y absorbe los sabores. Curiosidad: su origen no está bien documentado, pero se cuentan entre los desayunos más queridos de la ciudad."
+      },
+      "ricetta": {
+        "porzioni": 20,
+        "preparazione": {
+          "it": "2 ore (con riposo della frolla)",
+          "en": "2 hours (including resting the dough)",
+          "fr": "2 h (repos de la pâte compris)",
+          "de": "2 Std. (inkl. Ruhezeit des Teigs)",
+          "es": "2 h (con reposo de la masa)"
+        },
+        "ingredienti": {
+          "it": [
+            "200 g di pasta frolla",
+            "100 g di riso Vialone Nano",
+            "125 ml d'acqua e 250 ml di latte",
+            "80 g di burro, 80 g di zucchero",
+            "20 g di tuorli",
+            "200 g di crema pasticciera",
+            "Vaniglia e scorza di limone grattugiata, sale"
+          ],
+          "en": [
+            "200 g shortcrust pastry",
+            "100 g Vialone Nano rice",
+            "125 ml water and 250 ml milk",
+            "80 g butter, 80 g sugar",
+            "20 g egg yolks",
+            "200 g custard",
+            "Vanilla, grated lemon zest, salt"
+          ],
+          "fr": [
+            "200 g de pâte sablée",
+            "100 g de riz Vialone Nano",
+            "125 ml d'eau et 250 ml de lait",
+            "80 g de beurre, 80 g de sucre",
+            "20 g de jaunes d'œuf",
+            "200 g de crème pâtissière",
+            "Vanille, zeste de citron râpé, sel"
+          ],
+          "de": [
+            "200 g Mürbeteig",
+            "100 g Vialone-Nano-Reis",
+            "125 ml Wasser und 250 ml Milch",
+            "80 g Butter, 80 g Zucker",
+            "20 g Eigelb",
+            "200 g Konditorcreme",
+            "Vanille, geriebene Zitronenschale, Salz"
+          ],
+          "es": [
+            "200 g de masa quebrada",
+            "100 g de arroz Vialone Nano",
+            "125 ml de agua y 250 ml de leche",
+            "80 g de mantequilla, 80 g de azúcar",
+            "20 g de yemas",
+            "200 g de crema pastelera",
+            "Vainilla, ralladura de limón, sal"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Lavora la frolla con burro, zucchero, tuorli e scorza, poi aggiungi la farina; forma una palla e riposala in frigo per almeno 2 ore.",
+            "Cuoci il riso con acqua, latte, burro, zucchero, vaniglia e sale, aggiungendo latte se si asciuga troppo.",
+            "Lascia raffreddare il riso, poi incorporagli i tuorli e la crema pasticciera.",
+            "Stendi la frolla, foderare gli stampini e riempili senza esagerare: la crema sale in cottura.",
+            "Cuoci a 180–200 °C per 15–20 minuti, finché sono croccanti fuori e morbidi dentro."
+          ],
+          "en": [
+            "Work the shortcrust with butter, sugar, yolks and zest, then add the flour; form a ball and chill for at least 2 hours.",
+            "Cook the rice with water, milk, butter, sugar, vanilla and salt, adding milk if it dries out.",
+            "Let the rice cool, then mix in the yolks and custard.",
+            "Roll out the pastry, line the moulds and fill them without overfilling: the cream rises as it bakes.",
+            "Bake at 180–200 °C for 15–20 minutes, until crisp outside and soft inside."
+          ],
+          "fr": [
+            "Travaillez la pâte sablée avec le beurre, le sucre, les jaunes et le zeste, puis ajoutez la farine ; formez une boule et réfrigérez au moins 2 heures.",
+            "Faites cuire le riz avec l'eau, le lait, le beurre, le sucre, la vanille et le sel, en ajoutant du lait s'il sèche.",
+            "Laissez refroidir le riz, puis incorporez les jaunes et la crème pâtissière.",
+            "Étalez la pâte, garnissez les moules et remplissez-les sans excès : la crème gonfle à la cuisson.",
+            "Cuisez à 180–200 °C 15 à 20 minutes, jusqu'à être croustillants dehors et moelleux dedans."
+          ],
+          "de": [
+            "Den Mürbeteig mit Butter, Zucker, Eigelb und Schale verarbeiten, dann das Mehl zugeben; zu einer Kugel formen und mindestens 2 Stunden kühlen.",
+            "Den Reis mit Wasser, Milch, Butter, Zucker, Vanille und Salz garen, bei Bedarf Milch nachgießen.",
+            "Den Reis abkühlen lassen, dann Eigelb und Konditorcreme unterrühren.",
+            "Den Teig ausrollen, die Förmchen auskleiden und nicht zu voll füllen: Die Creme geht beim Backen auf.",
+            "Bei 180–200 °C 15–20 Minuten backen, bis sie außen knusprig und innen weich sind."
+          ],
+          "es": [
+            "Trabaja la masa quebrada con mantequilla, azúcar, yemas y ralladura, luego añade la harina; forma una bola y refrigera al menos 2 horas.",
+            "Cuece el arroz con agua, leche, mantequilla, azúcar, vainilla y sal, añadiendo leche si se seca.",
+            "Deja enfriar el arroz y luego incorpora las yemas y la crema pastelera.",
+            "Extiende la masa, forra los moldes y rellénalos sin pasarse: la crema sube al hornear.",
+            "Hornea a 180–200 °C durante 15–20 minutos, hasta que estén crujientes por fuera y tiernos por dentro."
+          ]
+        },
+        "fonte": "https://cesarine.com/en/blog/cesarine-cookbook/risini-rice-cake-recipe"
+      }
+    },
+    {
+      "id": "risotto-isolana",
+      "nome": "Risotto all'isolana",
+      "portata": "primo",
+      "testo": {
+        "it": "Risotto con salsiccia, pancetta o lardo e vino, tipico di Isola della Scala, il paese della pianura veronese famoso per il riso. Piatto di tradizione contadina, sostanzioso e cremoso. Curiosità: Isola della Scala è al centro di una delle zone risicole più importanti del Veneto, e il riso è il protagonista del suo territorio.",
+        "en": "A risotto with sausage, pancetta or lard and wine, typical of Isola della Scala, the Veronese plain town famous for its rice. A hearty, creamy peasant dish. Curiosity: Isola della Scala lies in one of the most important rice-growing areas of the Veneto, and rice is the star of its territory.",
+        "fr": "Un risotto avec saucisse, pancetta ou saindoux et vin, typique d'Isola della Scala, la commune de la plaine véronaise célèbre pour son riz. Un plat paysan consistant et crémeux. Curiosité : Isola della Scala se trouve dans l'une des zones rizicoles les plus importantes de la Vénétie, et le riz est la vedette de son territoire.",
+        "de": "Risotto mit Wurst, Pancetta oder Speck und Wein, typisch für Isola della Scala, die Gemeinde in der Veroneser Ebene, berühmt für ihren Reis. Ein deftiges, cremiges Bauerngericht. Kuriosität: Isola della Scala liegt in einem der wichtigsten Reisanbaugebiete des Veneto, und Reis ist der Star seines Territoriums.",
+        "es": "Un risotto con salchicha, panceta o lardo y vino, típico de Isola della Scala, la localidad de la llanura veronesa famosa por su arroz. Un plato campesino, contundente y cremoso. Curiosidad: Isola della Scala está en una de las zonas arroceras más importantes del Véneto, y el arroz es el protagonista de su territorio."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "40 min",
+          "en": "40 min",
+          "fr": "40 min",
+          "de": "40 Min.",
+          "es": "40 min"
+        },
+        "ingredienti": {
+          "it": [
+            "320 g di riso Vialone Nano",
+            "150 g di salsiccia fresca",
+            "50 g di pancetta affumicata a dadini",
+            "1 scalogno",
+            "1 bicchiere di vino rosso o bianco",
+            "1 litro di brodo",
+            "50 g di burro, 50 g di Grana Padano"
+          ],
+          "en": [
+            "320 g Vialone Nano rice",
+            "150 g fresh sausage",
+            "50 g smoked pancetta, diced",
+            "1 shallot",
+            "1 glass of red or white wine",
+            "1 litre of stock",
+            "50 g butter, 50 g Grana Padano"
+          ],
+          "fr": [
+            "320 g de riz Vialone Nano",
+            "150 g de saucisse fraîche",
+            "50 g de pancetta fumée en dés",
+            "1 échalote",
+            "1 verre de vin rouge ou blanc",
+            "1 litre de bouillon",
+            "50 g de beurre, 50 g de Grana Padano"
+          ],
+          "de": [
+            "320 g Vialone-Nano-Reis",
+            "150 g frische Wurst",
+            "50 g geräucherte Pancetta, gewürfelt",
+            "1 Schalotte",
+            "1 Glas Rot- oder Weißwein",
+            "1 Liter Brühe",
+            "50 g Butter, 50 g Grana Padano"
+          ],
+          "es": [
+            "320 g de arroz Vialone Nano",
+            "150 g de salchicha fresca",
+            "50 g de panceta ahumada en dados",
+            "1 chalota",
+            "1 copa de vino tinto o blanco",
+            "1 litro de caldo",
+            "50 g de mantequilla, 50 g de Grana Padano"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sgranare la salsiccia e rosolala con la pancetta e lo scalogno nel burro.",
+            "Tosta il riso nel fondo di cottura, sfuma con il vino e lascia evaporare.",
+            "Aggiungi il brodo caldo un mestolo alla volta per circa 17 minuti.",
+            "Manteca con il burro e il Grana fuori dal fuoco e servi."
+          ],
+          "en": [
+            "Crumble the sausage and brown it with the pancetta and shallot in butter.",
+            "Toast the rice in the pan, deglaze with the wine and let it evaporate.",
+            "Add the hot stock a ladle at a time for about 17 minutes.",
+            "Mantecare with butter and Grana off the heat and serve."
+          ],
+          "fr": [
+            "Émiettez la saucisse et faites-la dorer avec la pancetta et l'échalote dans le beurre.",
+            "Faites torréfier le riz dans la poêle, déglacez au vin et laissez réduire.",
+            "Ajoutez le bouillon chaud une louche à la fois pendant environ 17 minutes.",
+            "Mantecate hors du feu avec le beurre et le Grana, puis servez."
+          ],
+          "de": [
+            "Die Wurst zerbröseln und mit Pancetta und Schalotte in Butter anbraten.",
+            "Den Reis in der Pfanne anrösten, mit Wein ablöschen und einkochen lassen.",
+            "Die heiße Brühe nach und nach etwa 17 Minuten zugeben.",
+            "Vom Herd nehmen, mit Butter und Grana mantecare und servieren."
+          ],
+          "es": [
+            "Desmenuza la salchicha y dórala con la panceta y la chalota en mantequilla.",
+            "Tuesta el arroz en la sartén, desglasa con el vino y deja que se evapore.",
+            "Añade el caldo caliente poco a poco durante unos 17 minutos.",
+            "Mantecar fuera del fuego con mantequilla y Grana y servir."
+          ]
+        }
+      }
+    },
+    {
+      "id": "tortellini-valeggio",
+      "nome": "Tortellini di Valeggio sul Mincio",
+      "portata": "primo",
+      "testo": {
+        "it": "Piccoli tortellini ripieni di carne (manzo, maiale, a volte pollo, con formaggio e uova), serviti in brodo o, più spesso, con burro fuso e salvia. Tipici di Valeggio sul Mincio, paese del Parco del Mincio nel veronese. Curiosità: la tradizione vuole che il ripieno sia cotto prima di essere chiuso nella sfoglia, e che i tortellini si servano in brodo o «al burro e salvia» con parmigiano.",
+        "en": "Small tortellini filled with meat (beef, pork, sometimes chicken, with cheese and eggs), served in broth or, more often, with melted butter and sage. Typical of Valeggio sul Mincio, a town in the Mincio Park in the Verona province. Curiosity: tradition has it that the filling is cooked before being wrapped in the pasta, and the tortellini are served in broth or with butter and sage and Parmesan.",
+        "fr": "Petits tortellini fourrés de viande (bœuf, porc, parfois poulet, avec fromage et œufs), servis dans un bouillon ou, plus souvent, au beurre fondu et à la sauge. Typiques de Valeggio sul Mincio, commune du parc du Mincio dans la province de Vérone. Curiosité : la tradition veut que la farce soit cuite avant d'être enfermée dans la pâte, et que les tortellini soient servis dans le bouillon ou « au beurre et à la sauge » avec du parmesan.",
+        "de": "Kleine Tortellini mit Fleischfüllung (Rind, Schwein, manchmal Huhn, mit Käse und Eiern), in Brühe serviert oder, häufiger, mit zerlassener Butter und Salbei. Typisch für Valeggio sul Mincio, eine Gemeinde im Park des Mincio in der Provinz Verona. Kuriosität: Der Überlieferung nach wird die Füllung vor dem Einschlagen in den Teig gegart, und die Tortellini werden in Brühe oder «mit Butter und Salbei» und Parmesan serviert.",
+        "es": "Pequeños tortellini rellenos de carne (ternera, cerdo, a veces pollo, con queso y huevos), servidos en caldo o, más a menudo, con mantequilla derretida y salvia. Típicos de Valeggio sul Mincio, localidad del Parque del Mincio en la provincia de Verona. Curiosidad: la tradición dice que el relleno se cocina antes de envolverlo en la masa, y que los tortellini se sirven en caldo o «con mantequilla y salvia» y parmesano."
+      },
+      "ricetta": {
+        "porzioni": 6,
+        "preparazione": {
+          "it": "2 ore (con riposo della pasta)",
+          "en": "2 hours (including resting the pasta)",
+          "fr": "2 h (repos de la pâte compris)",
+          "de": "2 Std. (inkl. Ruhezeit)",
+          "es": "2 h (con reposo de la pasta)"
+        },
+        "ingredienti": {
+          "it": [
+            "Per la sfoglia: 300 g di farina 00, 3 uova",
+            "Per il ripieno: 150 g di manzo, 100 g di maiale, 50 g di lonza o pollo, 100 g di Parmigiano, 1 uovo",
+            "1 cipolla piccola, 1 carota, 1 costa di sedano, vino bianco",
+            "Per servire: 80 g di burro e foglie di salvia, Parmigiano"
+          ],
+          "en": [
+            "For the pasta: 300 g 00 flour, 3 eggs",
+            "For the filling: 150 g beef, 100 g pork, 50 g loin or chicken, 100 g Parmesan, 1 egg",
+            "1 small onion, 1 carrot, 1 celery stalk, white wine",
+            "To serve: 80 g butter and sage leaves, Parmesan"
+          ],
+          "fr": [
+            "Pour la pâte : 300 g de farine 00, 3 œufs",
+            "Pour la farce : 150 g de bœuf, 100 g de porc, 50 g de filet ou de poulet, 100 g de Parmesan, 1 œuf",
+            "1 petit oignon, 1 carotte, 1 branche de céleri, vin blanc",
+            "Pour servir : 80 g de beurre et feuilles de sauge, Parmesan"
+          ],
+          "de": [
+            "Für den Teig: 300 g Mehl Typ 00, 3 Eier",
+            "Für die Füllung: 150 g Rind, 100 g Schwein, 50 g Lende oder Huhn, 100 g Parmesan, 1 Ei",
+            "1 kleine Zwiebel, 1 Karotte, 1 Stange Sellerie, Weißwein",
+            "Zum Servieren: 80 g Butter und Salbeiblätter, Parmesan"
+          ],
+          "es": [
+            "Para la masa: 300 g de harina 00, 3 huevos",
+            "Para el relleno: 150 g de ternera, 100 g de cerdo, 50 g de lomo o pollo, 100 g de Parmesano, 1 huevo",
+            "1 cebolla pequeña, 1 zanahoria, 1 tallo de apio, vino blanco",
+            "Para servir: 80 g de mantequilla y hojas de salvia, Parmesano"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Impasta farina e uova, lascia riposare la pasta coperta per 30 minuti e stendila sottile.",
+            "Cuoci la carne con cipolla, carota, sedano e un po' di vino; tritala con il maiale cotto, il formaggio e l'uovo.",
+            "Taglia dischi di sfoglia, metti un po' di ripieno al centro, chiudi a mezzaluna e poi avvolgi intorno al dito formando il tortellino.",
+            "Cuoci in brodo leggero per pochi minuti oppure in acqua salata, scola e condisci con burro fuso e salvia e Parmigiano."
+          ],
+          "en": [
+            "Knead flour and eggs, rest the dough covered for 30 minutes and roll it thinly.",
+            "Cook the beef with onion, carrot, celery and a little wine; mince it with the cooked pork, the cheese and the egg.",
+            "Cut discs of pasta, place a little filling in the centre, fold into a half-moon and wrap around the finger to form the tortellino.",
+            "Cook in light broth for a few minutes or in salted water, drain and dress with melted butter, sage and Parmesan."
+          ],
+          "fr": [
+            "Pétrissez farine et œufs, laissez reposer la pâte couverte 30 minutes et étalez-la finement.",
+            "Faites cuire le bœuf avec l'oignon, la carotte, le céleri et un peu de vin ; hachez-le avec le porc cuit, le fromage et l'œuf.",
+            "Découpez des disques de pâte, mettez un peu de farce au centre, pliez en demi-lune et enroulez autour du doigt pour former le tortellino.",
+            "Faites cuire dans un bouillon léger quelques minutes ou dans l'eau salée, égouttez et assaisonnez de beurre fondu, sauge et Parmesan."
+          ],
+          "de": [
+            "Mehl und Eier verkneten, den Teig zugedeckt 30 Minuten ruhen lassen und dünn ausrollen.",
+            "Das Rindfleisch mit Zwiebel, Karotte, Sellerie und etwas Wein garen; mit dem gegarten Schweinefleisch, dem Käse und dem Ei fein hacken.",
+            "Teigkreise ausstechen, etwas Füllung in die Mitte geben, zu einem Halbmond falten und um den Finger wickeln.",
+            "Einige Minuten in leichter Brühe oder Salzwasser garen, abgießen und mit zerlassener Butter, Salbei und Parmesan anrichten."
+          ],
+          "es": [
+            "Amasa harina y huevos, deja reposar la masa tapada 30 minutos y extiéndela fina.",
+            "Cuece la ternera con cebolla, zanahoria, apio y un poco de vino; pícala con el cerdo cocido, el queso y el huevo.",
+            "Corta discos de masa, pon un poco de relleno en el centro, dobla en media luna y envuelve en el dedo para formar el tortellino.",
+            "Cuece en caldo ligero unos minutos o en agua con sal, escurre y alíñalos con mantequilla derretida, salvia y Parmesano."
+          ]
+        }
+      }
+    }
+  ]
+}

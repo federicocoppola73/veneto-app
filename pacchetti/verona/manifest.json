@@ -1,16 +1,1180 @@
 {
-  "file": [
-    {
-      "path": "dati/luoghi.json",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/luoghi.json"
-    },
-    {
-      "path": "dati/mappa.json",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/mappa.json"
-    },
-    {
-      "path": "mappa/mappa-verona.png",
-      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/mappa/mappa-verona.png"
-    }
-  ]
+ "file": [
+  {
+   "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/basilica-san-zeno-leoni-protiro.webp"
+  },
+  {
+   "path": "assets/aguzza/castel-san-pietro-panorama.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/castel-san-pietro-panorama.webp"
+  },
+  {
+   "path": "assets/aguzza/piazza-bra-vittorio-emanuele.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/piazza-bra-vittorio-emanuele.webp"
+  },
+  {
+   "path": "assets/aguzza/piazza-erbe-berlina.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/piazza-erbe-berlina.webp"
+  },
+  {
+   "path": "assets/aguzza/piazza-signori-dante.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/piazza-signori-dante.webp"
+  },
+  {
+   "path": "assets/aguzza/ponte-scaligero-merlature.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/ponte-scaligero-merlature.webp"
+  },
+  {
+   "path": "assets/aguzza/porta-leoni-resti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/porta-leoni-resti.webp"
+  },
+  {
+   "path": "assets/aguzza/san-bernardino-cappella-pellegrini.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/san-bernardino-cappella-pellegrini.webp"
+  },
+  {
+   "path": "assets/aguzza/san-zeno-oratorio-sasso.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/san-zeno-oratorio-sasso.webp"
+  },
+  {
+   "path": "assets/aguzza/santa-anastasia-gobbi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/aguzza/santa-anastasia-gobbi.webp"
+  },
+  {
+   "path": "assets/luoghi/arche-scaligere-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arche-scaligere-2.webp"
+  },
+  {
+   "path": "assets/luoghi/arche-scaligere-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arche-scaligere-3.webp"
+  },
+  {
+   "path": "assets/luoghi/arche-scaligere-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arche-scaligere-4.webp"
+  },
+  {
+   "path": "assets/luoghi/arche-scaligere.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arche-scaligere.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-gavi-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arco-dei-gavi-2.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-gavi-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arco-dei-gavi-3.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-gavi-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arco-dei-gavi-4.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-gavi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arco-dei-gavi.webp"
+  },
+  {
+   "path": "assets/luoghi/arena-di-verona-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arena-di-verona-2.webp"
+  },
+  {
+   "path": "assets/luoghi/arena-di-verona-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arena-di-verona-3.webp"
+  },
+  {
+   "path": "assets/luoghi/arena-di-verona-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arena-di-verona-4.webp"
+  },
+  {
+   "path": "assets/luoghi/arena-di-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arena-di-verona.webp"
+  },
+  {
+   "path": "assets/luoghi/arsenale-austriaco-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arsenale-austriaco-2.webp"
+  },
+  {
+   "path": "assets/luoghi/arsenale-austriaco-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arsenale-austriaco-3.webp"
+  },
+  {
+   "path": "assets/luoghi/arsenale-austriaco-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arsenale-austriaco-4.webp"
+  },
+  {
+   "path": "assets/luoghi/arsenale-austriaco.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/arsenale-austriaco.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-san-zeno-maggiore-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-san-zeno-maggiore-2.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-san-zeno-maggiore-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-san-zeno-maggiore-3.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-san-zeno-maggiore-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-san-zeno-maggiore-4.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-san-zeno-maggiore.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-san-zeno-maggiore.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-anastasia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-sant-anastasia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-anastasia-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-sant-anastasia-3.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-anastasia-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-sant-anastasia-4.webp"
+  },
+  {
+   "path": "assets/luoghi/basilica-di-sant-anastasia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/basilica-di-sant-anastasia.webp"
+  },
+  {
+   "path": "assets/luoghi/bastione-delle-maddalene-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/bastione-delle-maddalene-2.webp"
+  },
+  {
+   "path": "assets/luoghi/bastione-delle-maddalene-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/bastione-delle-maddalene-3.webp"
+  },
+  {
+   "path": "assets/luoghi/buso-del-gato.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/buso-del-gato.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-giulietta-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-giulietta-2.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-giulietta-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-giulietta-3.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-giulietta-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-giulietta-4.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-giulietta.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-giulietta.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-romeo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-romeo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-romeo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-romeo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-romeo-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-romeo-4.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-di-romeo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/casa-di-romeo.webp"
+  },
+  {
+   "path": "assets/luoghi/case-mazzanti-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/case-mazzanti-2.webp"
+  },
+  {
+   "path": "assets/luoghi/case-mazzanti-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/case-mazzanti-3.webp"
+  },
+  {
+   "path": "assets/luoghi/case-mazzanti-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/case-mazzanti-4.webp"
+  },
+  {
+   "path": "assets/luoghi/case-mazzanti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/case-mazzanti.webp"
+  },
+  {
+   "path": "assets/luoghi/castel-san-pietro-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/castel-san-pietro-2.webp"
+  },
+  {
+   "path": "assets/luoghi/castel-san-pietro-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/castel-san-pietro-3.webp"
+  },
+  {
+   "path": "assets/luoghi/castel-san-pietro-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/castel-san-pietro-4.webp"
+  },
+  {
+   "path": "assets/luoghi/castel-san-pietro.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/castel-san-pietro.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-procolo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/chiesa-san-procolo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-procolo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/chiesa-san-procolo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-procolo-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/chiesa-san-procolo-4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiostro-dell-abbazia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/chiostro-dell-abbazia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiostro-dell-abbazia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/chiostro-dell-abbazia.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/cimitero-monumentale-2.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/cimitero-monumentale-3.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/cimitero-monumentale-4.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/cimitero-monumentale.webp"
+  },
+  {
+   "path": "assets/luoghi/corte-sgarzerie-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/corte-sgarzerie-2.webp"
+  },
+  {
+   "path": "assets/luoghi/corte-sgarzerie-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/corte-sgarzerie-3.webp"
+  },
+  {
+   "path": "assets/luoghi/corte-sgarzerie-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/corte-sgarzerie-4.webp"
+  },
+  {
+   "path": "assets/luoghi/domus-mercatorum-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/domus-mercatorum-2.webp"
+  },
+  {
+   "path": "assets/luoghi/domus-mercatorum-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/domus-mercatorum-3.webp"
+  },
+  {
+   "path": "assets/luoghi/domus-mercatorum-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/domus-mercatorum-4.webp"
+  },
+  {
+   "path": "assets/luoghi/domus-mercatorum.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/domus-mercatorum.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-verona-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/duomo-di-verona-2.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-verona-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/duomo-di-verona-3.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-verona-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/duomo-di-verona-4.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-di-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/duomo-di-verona.webp"
+  },
+  {
+   "path": "assets/luoghi/galleria-d-arte-moderna-achille-forti-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/galleria-d-arte-moderna-achille-forti-2.webp"
+  },
+  {
+   "path": "assets/luoghi/galleria-d-arte-moderna-achille-forti-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/galleria-d-arte-moderna-achille-forti-3.webp"
+  },
+  {
+   "path": "assets/luoghi/galleria-d-arte-moderna-achille-forti-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/galleria-d-arte-moderna-achille-forti-4.webp"
+  },
+  {
+   "path": "assets/luoghi/galleria-d-arte-moderna-achille-forti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/galleria-d-arte-moderna-achille-forti.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-cesare-lombroso-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardini-cesare-lombroso-2.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-cesare-lombroso-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardini-cesare-lombroso-3.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-cesare-lombroso-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardini-cesare-lombroso-4.webp"
+  },
+  {
+   "path": "assets/luoghi/giardini-cesare-lombroso.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardini-cesare-lombroso.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-giusti-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardino-giusti-2.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-giusti-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardino-giusti-3.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-giusti-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardino-giusti-4.webp"
+  },
+  {
+   "path": "assets/luoghi/giardino-giusti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/giardino-giusti.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-del-consiglio-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/loggia-del-consiglio-2.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-del-consiglio-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/loggia-del-consiglio-3.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-del-consiglio-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/loggia-del-consiglio-4.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-del-consiglio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/loggia-del-consiglio.webp"
+  },
+  {
+   "path": "assets/luoghi/mura-e-fortificazioni-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/mura-e-fortificazioni-2.webp"
+  },
+  {
+   "path": "assets/luoghi/mura-e-fortificazioni-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/mura-e-fortificazioni-3.webp"
+  },
+  {
+   "path": "assets/luoghi/mura-e-fortificazioni-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/mura-e-fortificazioni-4.webp"
+  },
+  {
+   "path": "assets/luoghi/mura-e-fortificazioni.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/mura-e-fortificazioni.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-africano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-africano.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-al-teatro-romano-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-al-teatro-romano-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-al-teatro-romano-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-al-teatro-romano-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-al-teatro-romano-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-al-teatro-romano-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-al-teatro-romano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-al-teatro-romano.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-nazionale-di-verona-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-nazionale-di-verona-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-nazionale-di-verona-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-nazionale-di-verona-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-nazionale-di-verona-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-nazionale-di-verona-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-archeologico-nazionale-di-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-archeologico-nazionale-di-verona.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-degli-affreschi-g-b-cavalcaselle.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-castelvecchio-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-castelvecchio-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-castelvecchio-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-castelvecchio-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-castelvecchio-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-castelvecchio-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-castelvecchio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-castelvecchio.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-storia-naturale-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-storia-naturale-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-storia-naturale-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-storia-naturale-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-storia-naturale-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-storia-naturale-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-di-storia-naturale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-di-storia-naturale.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-lapidario-maffeiano-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-lapidario-maffeiano-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-lapidario-maffeiano-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-lapidario-maffeiano-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-lapidario-maffeiano-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-lapidario-maffeiano-4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-lapidario-maffeiano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-lapidario-maffeiano.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-miniscalchi-erizzo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-miniscalchi-erizzo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-miniscalchi-erizzo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-miniscalchi-erizzo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-miniscalchi-erizzo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/museo-miniscalchi-erizzo.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-barbieri-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-barbieri-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-barbieri-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-barbieri-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-barbieri-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-barbieri-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-barbieri.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-barbieri.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-bevilacqua-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-bevilacqua-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-bevilacqua-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-bevilacqua-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-bevilacqua-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-bevilacqua-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-bevilacqua.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-bevilacqua.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-canossa-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-canossa-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-canossa-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-canossa-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-canossa-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-canossa-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-canossa.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-canossa.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-capitanio-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-del-capitanio-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-capitanio-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-del-capitanio-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-capitanio-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-del-capitanio-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-del-capitanio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-del-capitanio.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-gran-guardia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-gran-guardia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-gran-guardia-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-gran-guardia-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-gran-guardia-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-gran-guardia-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-gran-guardia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-gran-guardia.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-ragione-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-ragione-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-ragione-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-della-ragione.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-della-ragione.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maffei-casa-museo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-maffei-casa-museo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maffei-casa-museo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-maffei-casa-museo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maffei-casa-museo-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-maffei-casa-museo-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-maffei-casa-museo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-maffei-casa-museo.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pompei-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-pompei-2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pompei-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-pompei-3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pompei-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-pompei-4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pompei.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/palazzo-pompei.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/pescheria-verona.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-bra-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-bra-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-bra-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-bra-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-bra-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-bra-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-bra.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-bra.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-dei-signori-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-dei-signori-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-dei-signori-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-dei-signori.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-dei-signori.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-delle-erbe-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-delle-erbe-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-delle-erbe-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-delle-erbe.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-indipendenza-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-indipendenza-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-indipendenza-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-indipendenza-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-indipendenza-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-indipendenza-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-indipendenza.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-indipendenza.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-san-zeno-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-san-zeno-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-san-zeno-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-san-zeno-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-san-zeno-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-san-zeno-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-san-zeno.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-san-zeno.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-sant-anastasia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-sant-anastasia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-sant-anastasia-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-sant-anastasia-3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-sant-anastasia-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-sant-anastasia-4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-sant-anastasia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/piazza-sant-anastasia.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-aleardi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-aleardi.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-della-vittoria-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-della-vittoria-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-della-vittoria-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-della-vittoria-3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-della-vittoria-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-della-vittoria-4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-della-vittoria.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-della-vittoria.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-garibaldi-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-garibaldi-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-garibaldi-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-garibaldi-3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-garibaldi-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-garibaldi-4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-garibaldi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-garibaldi.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-navi-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-navi-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-navi-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-navi-3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-navi-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-navi-4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-navi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-navi.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-pietra-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-pietra-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-pietra-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-pietra-3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-pietra-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-pietra-4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-pietra.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-pietra.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-francesco-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-san-francesco-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-san-francesco.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-san-francesco.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-scaligero-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-scaligero-2.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-scaligero-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-scaligero-3.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-scaligero-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-scaligero-4.webp"
+  },
+  {
+   "path": "assets/luoghi/ponte-scaligero.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/ponte-scaligero.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-borsari-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-borsari-2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-borsari-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-borsari-3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-borsari-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-borsari-4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-borsari.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-borsari.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-leoni-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-leoni-2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-leoni-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-leoni-3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-leoni-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-leoni-4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-leoni.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-leoni.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-nuova-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-nuova-2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-nuova-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-nuova-3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-nuova-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-nuova-4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-nuova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-nuova.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-palio-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-palio-2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-palio-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-palio-3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-palio-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-palio-4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-palio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/porta-palio.webp"
+  },
+  {
+   "path": "assets/luoghi/sacello-sante-teuteria-tosca-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sacello-sante-teuteria-tosca-2.webp"
+  },
+  {
+   "path": "assets/luoghi/sacello-sante-teuteria-tosca-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sacello-sante-teuteria-tosca-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-bernardino-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-bernardino-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-bernardino-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-bernardino-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-bernardino-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-bernardino-4.webp"
+  },
+  {
+   "path": "assets/luoghi/san-bernardino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-bernardino.webp"
+  },
+  {
+   "path": "assets/luoghi/san-fermo-maggiore-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-fermo-maggiore-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-fermo-maggiore-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-fermo-maggiore-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-fermo-maggiore-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-fermo-maggiore-4.webp"
+  },
+  {
+   "path": "assets/luoghi/san-fermo-maggiore.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-fermo-maggiore.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giorgio-in-braida-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giorgio-in-braida-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giorgio-in-braida-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giorgio-in-braida-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giorgio-in-braida-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giorgio-in-braida-4.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giorgio-in-braida.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giorgio-in-braida.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giovanni-in-valle-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giovanni-in-valle-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giovanni-in-valle-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giovanni-in-valle-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giovanni-in-valle-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giovanni-in-valle-4.webp"
+  },
+  {
+   "path": "assets/luoghi/san-giovanni-in-valle.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-giovanni-in-valle.webp"
+  },
+  {
+   "path": "assets/luoghi/san-lorenzo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-lorenzo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-lorenzo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-lorenzo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-lorenzo-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-lorenzo-4.webp"
+  },
+  {
+   "path": "assets/luoghi/san-lorenzo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-lorenzo.webp"
+  },
+  {
+   "path": "assets/luoghi/san-zeno-in-oratorio-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-zeno-in-oratorio-2.webp"
+  },
+  {
+   "path": "assets/luoghi/san-zeno-in-oratorio-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-zeno-in-oratorio-3.webp"
+  },
+  {
+   "path": "assets/luoghi/san-zeno-in-oratorio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/san-zeno-in-oratorio.webp"
+  },
+  {
+   "path": "assets/luoghi/sant-eufemia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sant-eufemia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/sant-eufemia-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sant-eufemia-3.webp"
+  },
+  {
+   "path": "assets/luoghi/sant-eufemia-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sant-eufemia-4.webp"
+  },
+  {
+   "path": "assets/luoghi/sant-eufemia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/sant-eufemia.webp"
+  },
+  {
+   "path": "assets/luoghi/santa-maria-in-organo-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santa-maria-in-organo-2.webp"
+  },
+  {
+   "path": "assets/luoghi/santa-maria-in-organo-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santa-maria-in-organo-3.webp"
+  },
+  {
+   "path": "assets/luoghi/santa-maria-in-organo-campanile.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santa-maria-in-organo-campanile.webp"
+  },
+  {
+   "path": "assets/luoghi/santa-maria-in-organo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santa-maria-in-organo.webp"
+  },
+  {
+   "path": "assets/luoghi/santi-apostoli-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santi-apostoli-2.webp"
+  },
+  {
+   "path": "assets/luoghi/santi-apostoli-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santi-apostoli-3.webp"
+  },
+  {
+   "path": "assets/luoghi/santi-apostoli-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santi-apostoli-4.webp"
+  },
+  {
+   "path": "assets/luoghi/santi-apostoli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/santi-apostoli.webp"
+  },
+  {
+   "path": "assets/luoghi/scalone-xvi-ottobre.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/scalone-xvi-ottobre.webp"
+  },
+  {
+   "path": "assets/luoghi/stazione-porta-nuova-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/stazione-porta-nuova-2.webp"
+  },
+  {
+   "path": "assets/luoghi/stazione-porta-nuova-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/stazione-porta-nuova-3.webp"
+  },
+  {
+   "path": "assets/luoghi/stazione-porta-nuova-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/stazione-porta-nuova-4.webp"
+  },
+  {
+   "path": "assets/luoghi/stazione-porta-nuova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/stazione-porta-nuova.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-romano-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/teatro-romano-2.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-romano-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/teatro-romano-3.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-romano-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/teatro-romano-4.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-romano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/teatro-romano.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-giulietta-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/tomba-di-giulietta-2.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-giulietta-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/tomba-di-giulietta-3.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-giulietta-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/tomba-di-giulietta-4.webp"
+  },
+  {
+   "path": "assets/luoghi/tomba-di-giulietta.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/tomba-di-giulietta.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dei-lamberti-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dei-lamberti-2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dei-lamberti-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dei-lamberti-3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dei-lamberti-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dei-lamberti-4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dei-lamberti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dei-lamberti.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-del-gardello-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-del-gardello-2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-del-gardello-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-del-gardello-3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-del-gardello-4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-del-gardello-4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-del-gardello.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-del-gardello.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-abbazia-2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dell-abbazia-2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-abbazia-3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dell-abbazia-3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dell-abbazia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/luoghi/torre-dell-abbazia.webp"
+  },
+  {
+   "path": "assets/mappa-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/mappa-verona.webp"
+  },
+  {
+   "path": "dati/aguzza.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/aguzza.json"
+  },
+  {
+   "path": "dati/app.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/app.json"
+  },
+  {
+   "path": "dati/autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/autobus.json"
+  },
+  {
+   "path": "dati/cibi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/cibi.json"
+  },
+  {
+   "path": "dati/curiosita.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/curiosita.json"
+  },
+  {
+   "path": "dati/eventi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/eventi.json"
+  },
+  {
+   "path": "dati/itinerari.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/itinerari.json"
+  },
+  {
+   "path": "dati/luoghi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/luoghi.json"
+  },
+  {
+   "path": "dati/mappa.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/mappa.json"
+  },
+  {
+   "path": "dati/orari_autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/orari_autobus.json"
+  },
+  {
+   "path": "dati/orari_vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/orari_vaporetti.json"
+  },
+  {
+   "path": "dati/principali.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/principali.json"
+  },
+  {
+   "path": "dati/rete.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/rete.json"
+  },
+  {
+   "path": "dati/servizi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/servizi.json"
+  },
+  {
+   "path": "dati/vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/vaporetti.json"
+  }
+ ]
 }

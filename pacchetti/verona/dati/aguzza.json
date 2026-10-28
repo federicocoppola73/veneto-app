@@ -1,0 +1,687 @@
+{
+ "_nota": "Verona: dati convertiti dal repository verona_app (main 8f9c823). aguzza.json da itinerari.json (domande in italiano)",
+ "itinerari": [
+  {
+   "id": "aguzza-la-vista-centro-architettura",
+   "titolo": {
+    "it": "Aguzza la vista - centro - architettura"
+   },
+   "tappe": [
+    "arena-di-verona",
+    "piazza-delle-erbe",
+    "arche-scaligere",
+    "torre-dei-lamberti",
+    "palazzo-della-ragione",
+    "duomo-di-verona",
+    "san-fermo-maggiore",
+    "ponte-scaligero",
+    "palazzo-del-capitanio"
+   ]
+  },
+  {
+   "id": "aguzza-la-vista-centro-altro",
+   "titolo": {
+    "it": "Aguzza la vista - centro - altro"
+   },
+   "tappe": [
+    "arena-di-verona",
+    "piazza-bra",
+    "piazza-delle-erbe",
+    "piazza-dei-signori",
+    "arche-scaligere",
+    "casa-di-giulietta",
+    "porta-borsari",
+    "porta-leoni",
+    "basilica-di-sant-anastasia",
+    "arco-dei-gavi",
+    "museo-di-castelvecchio"
+   ]
+  },
+  {
+   "id": "aguzza-la-vista-veronetta",
+   "titolo": {
+    "it": "Aguzza la vista - veronetta"
+   },
+   "tappe": [
+    "ponte-pietra",
+    "teatro-romano",
+    "museo-archeologico-al-teatro-romano",
+    "giardino-giusti",
+    "ponte-navi"
+   ]
+  },
+  {
+   "id": "aguzza-la-vista-san-zeno",
+   "titolo": {
+    "it": "Aguzza la vista - San Zeno"
+   },
+   "tappe": [
+    "basilica-di-san-zeno-maggiore",
+    "torre-dell-abbazia",
+    "san-zeno-in-oratorio",
+    "san-bernardino"
+   ]
+  }
+ ],
+ "domande": [
+  {
+   "luogo_id": "arena-di-verona",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "In quale epoca fu costruita l'Arena di Verona?"
+   },
+   "risposta": {
+    "it": "In epoca romana, nel I secolo d.C."
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "arena-di-verona",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale materiale caratterizza la parte superstite dell'anello esterno dell'Arena?"
+   },
+   "risposta": {
+    "it": "Pietra calcarea locale, tradizionalmente detta pietra della Valpantena"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "piazza-delle-erbe",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Come si chiama il manufatto medievale con funzione legata all'amministrazione della giustizia presente nella piazza?"
+   },
+   "risposta": {
+    "it": "La Berlina"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "arche-scaligere",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale forma caratterizza i monumenti funerari più elaborati delle Arche Scaligere?"
+   },
+   "risposta": {
+    "it": "Strutture gotiche sopraelevate con baldacchini"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "torre-dei-lamberti",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale mezzo consente di raggiungere la sommità della torre senza salire tutte le scale?"
+   },
+   "risposta": {
+    "it": "L'ascensore"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "palazzo-della-ragione",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Come si chiama la celebre scala monumentale nel cortile del palazzo?"
+   },
+   "risposta": {
+    "it": "Scala della Ragione"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "duomo-di-verona",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale stile caratterizza principalmente la struttura originaria del Duomo?"
+   },
+   "risposta": {
+    "it": "Romanico, con successive trasformazioni"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "san-fermo-maggiore",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale particolarità caratterizza il complesso di San Fermo?"
+   },
+   "risposta": {
+    "it": "La presenza di due chiese sovrapposte"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "ponte-scaligero",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale ponte fortificato è collegato al castello?"
+   },
+   "risposta": {
+    "it": "Ponte Scaligero"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "ponte-scaligero",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale caratteristica medievale si nota nelle sommità delle sue mura?"
+   },
+   "risposta": {
+    "it": "Le merlature"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "palazzo-del-capitanio",
+   "zona": "Centro storico",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale edificio storico della piazza è noto come Palazzo del Capitano?"
+   },
+   "risposta": {
+    "it": "Il palazzo storicamente legato alla funzione di capitano della città"
+   },
+   "itinerario": "aguzza-la-vista-centro-architettura",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "arena-di-verona",
+   "zona": "Centro storico",
+   "tema": "Curiosità",
+   "domanda": {
+    "it": "Quale grande evento culturale ospita ogni estate l'Arena?"
+   },
+   "risposta": {
+    "it": "Il Festival lirico areniano"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "piazza-bra",
+   "zona": "Centro storico",
+   "tema": "Storia",
+   "domanda": {
+    "it": "Da quale termine si ritiene possa derivare il nome «Bra»?"
+   },
+   "risposta": {
+    "it": "Dal termine longobardo breit, interpretato come «largo»"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "piazza-delle-erbe",
+   "zona": "Centro storico",
+   "tema": "Storia",
+   "domanda": {
+    "it": "Quale funzione aveva Piazza delle Erbe nella Verona romana?"
+   },
+   "risposta": {
+    "it": "Era il foro, centro della vita pubblica e commerciale"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "piazza-dei-signori",
+   "zona": "Centro storico",
+   "tema": "Personaggi",
+   "domanda": {
+    "it": "A quale poeta è dedicata la statua al centro della piazza?"
+   },
+   "risposta": {
+    "it": "Dante Alighieri"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "arche-scaligere",
+   "zona": "Centro storico",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Quale famiglia veronese è sepolta nelle Arche Scaligere?"
+   },
+   "risposta": {
+    "it": "La famiglia della Scala, detta anche degli Scaligeri"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "casa-di-giulietta",
+   "zona": "Centro storico",
+   "tema": "Letteratura",
+   "domanda": {
+    "it": "Quale tragedia di Shakespeare ha reso celebre questo luogo?"
+   },
+   "risposta": {
+    "it": "Romeo e Giulietta"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "casa-di-giulietta",
+   "zona": "Centro storico",
+   "tema": "Curiosità",
+   "domanda": {
+    "it": "La casa dimostra che Giulietta sia esistita realmente?"
+   },
+   "risposta": {
+    "it": "No, Giulietta è un personaggio letterario"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "porta-borsari",
+   "zona": "Centro storico",
+   "tema": "Archeologia",
+   "domanda": {
+    "it": "Che cosa era originariamente Porta Borsari?"
+   },
+   "risposta": {
+    "it": "Una porta monumentale della Verona romana"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "porta-leoni",
+   "zona": "Centro storico",
+   "tema": "Archeologia",
+   "domanda": {
+    "it": "Quali resti antichi si possono osservare nei pressi di Porta Leoni?"
+   },
+   "risposta": {
+    "it": "Resti della porta romana e delle strutture difensive"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "basilica-di-sant-anastasia",
+   "zona": "Centro storico",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Quali figure sostengono le acquasantiere all'ingresso della basilica?"
+   },
+   "risposta": {
+    "it": "Figure tradizionalmente chiamate «gobbi»"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "arco-dei-gavi",
+   "zona": "Centro storico",
+   "tema": "Archeologia",
+   "domanda": {
+    "it": "A quale epoca risale l'Arco dei Gavi?"
+   },
+   "risposta": {
+    "it": "All'epoca romana"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "piazza-bra",
+   "zona": "Centro storico",
+   "tema": "Monumenti",
+   "domanda": {
+    "it": "Quale sovrano è raffigurato nella statua al centro dei giardini della piazza?"
+   },
+   "risposta": {
+    "it": "Vittorio Emanuele II"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "museo-di-castelvecchio",
+   "zona": "Centro storico",
+   "tema": "Musei",
+   "domanda": {
+    "it": "Quale architetto curò il celebre allestimento museale del Novecento?"
+   },
+   "risposta": {
+    "it": "Carlo Scarpa"
+   },
+   "itinerario": "aguzza-la-vista-centro-altro",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "ponte-pietra",
+   "zona": "Veronetta",
+   "tema": "Ponti",
+   "domanda": {
+    "it": "Quale fiume attraversa Ponte Pietra?"
+   },
+   "risposta": {
+    "it": "L'Adige"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "ponte-pietra",
+   "zona": "Veronetta",
+   "tema": "Storia",
+   "domanda": {
+    "it": "A quale epoca risale l'origine del ponte?"
+   },
+   "risposta": {
+    "it": "All'epoca romana"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "teatro-romano",
+   "zona": "Veronetta",
+   "tema": "Archeologia",
+   "domanda": {
+    "it": "Su quale colle è costruito il Teatro Romano?"
+   },
+   "risposta": {
+    "it": "Sul colle di San Pietro"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "museo-archeologico-al-teatro-romano",
+   "zona": "Veronetta",
+   "tema": "Musei",
+   "domanda": {
+    "it": "In quale edificio storico è ospitata una parte del museo?"
+   },
+   "risposta": {
+    "it": "Nell'ex convento di San Girolamo"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "giardino-giusti",
+   "zona": "Veronetta",
+   "tema": "Giardini",
+   "domanda": {
+    "it": "Quale elemento scenografico si trova nella parte alta del giardino?"
+   },
+   "risposta": {
+    "it": "Il belvedere panoramico"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "giardino-giusti",
+   "zona": "Veronetta",
+   "tema": "Giardini",
+   "domanda": {
+    "it": "Quale tipologia di giardino storico si visita qui?"
+   },
+   "risposta": {
+    "it": "Un giardino all'italiana con siepi, statue e terrazzamenti"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "ponte-navi",
+   "zona": "Veronetta",
+   "tema": "Ponti",
+   "domanda": {
+    "it": "Quale fiume attraversa Ponte Navi?"
+   },
+   "risposta": {
+    "it": "L'Adige"
+   },
+   "itinerario": "aguzza-la-vista-veronetta",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "basilica-di-san-zeno-maggiore",
+   "zona": "San Zeno",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Quale materiale caratterizza le porte medievali della basilica?"
+   },
+   "risposta": {
+    "it": "Il bronzo"
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "basilica-di-san-zeno-maggiore",
+   "zona": "San Zeno",
+   "tema": "Curiosità",
+   "domanda": {
+    "it": "Quale santo, patrono di Verona, è legato alla basilica?"
+   },
+   "risposta": {
+    "it": "San Zeno"
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "basilica-di-san-zeno-maggiore",
+   "zona": "San Zeno",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Come si chiama il grande rosone circolare della facciata?"
+   },
+   "risposta": {
+    "it": "Ruota della Fortuna"
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "basilica-di-san-zeno-maggiore",
+   "zona": "San Zeno",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quali animali sostengono le colonne del protiro all'ingresso della basilica?"
+   },
+   "risposta": {
+    "it": "Due leoni in pietra."
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "torre-dell-abbazia",
+   "zona": "San Zeno",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale caratteristica medievale si nota nella parte superiore della torre?"
+   },
+   "risposta": {
+    "it": "Le merlature"
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "torre-dell-abbazia",
+   "zona": "San Zeno",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Quale soggetto è rappresentato in un affresco medievale della torre?"
+   },
+   "risposta": {
+    "it": "Un corteo di popoli che rende omaggio a un personaggio seduto in trono"
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "san-zeno-in-oratorio",
+   "zona": "San Zeno",
+   "tema": "Curiosità",
+   "domanda": {
+    "it": "Quale oggetto, secondo la tradizione, ricorda il luogo in cui San Zeno si sedeva a pescare vicino all'Adige?"
+   },
+   "risposta": {
+    "it": "Un sasso sul quale, secondo la tradizione, sedeva San Zeno mentre pescava."
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "san-bernardino",
+   "zona": "San Zeno",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale forma geometrica caratterizza la pianta della Cappella Pellegrini, progettata da Michele Sanmicheli?"
+   },
+   "risposta": {
+    "it": "La forma circolare."
+   },
+   "itinerario": "aguzza-la-vista-san-zeno",
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "castel-san-pietro",
+   "zona": "Collina di Castel San Pietro",
+   "tema": "Panorami",
+   "domanda": {
+    "it": "Quale panorama si ammira dal belvedere?"
+   },
+   "risposta": {
+    "it": "La città storica e l'ansa dell'Adige"
+   },
+   "itinerario": null,
+   "foto": {
+    "file": "aguzza/castel-san-pietro-panorama.webp",
+    "credits": "Foto propria"
+   },
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "porta-nuova",
+   "zona": "Cittadella e Porta Nuova",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale architetto progettò Porta Nuova nel XVI secolo?"
+   },
+   "risposta": {
+    "it": "Michele Sanmicheli"
+   },
+   "itinerario": null,
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "porta-palio",
+   "zona": "Borgo Milano e Stadio",
+   "tema": "Architettura",
+   "domanda": {
+    "it": "Quale architetto progettò Porta Palio?"
+   },
+   "risposta": {
+    "it": "Michele Sanmicheli"
+   },
+   "itinerario": null,
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "tomba-di-giulietta",
+   "zona": "Cittadella e Porta Nuova",
+   "tema": "Letteratura",
+   "domanda": {
+    "it": "A quale storia è collegato il luogo noto come Tomba di Giulietta?"
+   },
+   "risposta": {
+    "it": "Alla tragedia Romeo e Giulietta"
+   },
+   "itinerario": null,
+   "foto": null,
+   "da_verificare": false
+  },
+  {
+   "luogo_id": "san-giorgio-in-braida",
+   "zona": "Borgo Trento e Valdonega",
+   "tema": "Arte",
+   "domanda": {
+    "it": "Quale opera di Paolo Veronese è tradizionalmente associata alla chiesa?"
+   },
+   "risposta": {
+    "it": "Il martirio di San Giorgio — da verificare titolo e collocazione"
+   },
+   "itinerario": null,
+   "foto": null,
+   "da_verificare": true
+  }
+ ]
+}

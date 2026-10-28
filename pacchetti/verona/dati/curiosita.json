@@ -1,0 +1,231 @@
+{
+  "_nota": "Curiosità dell'app (da popolare). Testi in più lingue; collegate ai luoghi con luogo_id.",
+  "curiosita": [
+    {
+      "id": "porta-leoni",
+      "titolo": {
+        "it": "I leoni che hanno dato il nome alla porta",
+        "en": "The lions that gave the gate its name",
+        "fr": "Les lions qui ont donné son nom à la porte",
+        "de": "Die Löwen, die dem Tor seinen Namen gaben",
+        "es": "Los leones que dieron nombre a la puerta"
+      },
+      "luogo_id": "porta-leoni",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Antico accesso romano situato lungo il cardo massimo della Verona antica, questa porta deve il suo nome attuale a due leoni in pietra che un tempo ornavano un monumento funerario nelle vicinanze. Il sito offre una suggestiva stratificazione archeologica a cielo aperto, mostrando sia i resti della facciata in pietra di età imperiale, sia le fondamenta in mattoni di epoca repubblicana visibili sotto il livello stradale.",
+        "en": "An ancient Roman access point along the main north-south road of ancient Verona, this gate takes its current name from two stone lions that once adorned a nearby funerary monument. The site offers an atmospheric open-air archaeological stratification, showing both the stone façade remains from the imperial age and the brick foundations from the Republican era, visible below street level.",
+        "fr": "Ancien accès romain situé le long du cardo maximus de la Vérone antique, cette porte doit son nom actuel à deux lions de pierre qui ornaient autrefois un monument funéraire voisin. Le site offre une suggestive stratification archéologique à ciel ouvert, avec les vestiges de la façade en pierre de l'époque impériale et les fondations en briques de l'époque républicaine, visibles sous le niveau de la rue.",
+        "de": "Dieser antike römische Zugang entlang des cardo maximus des antiken Verona verdankt seinen heutigen Namen zwei Steinlöwen, die einst ein nahe gelegenes Grabmal schmückten. Die Stätte bietet eine stimmungsvolle archäologische Schichtung unter freiem Himmel: Reste der Steinfassade aus der Kaiserzeit und Ziegelfundamente aus republikanischer Zeit, die unter dem Straßenniveau sichtbar sind.",
+        "es": "Antigua entrada romana situada a lo largo del cardo máximo de la Verona antigua, esta puerta debe su nombre actual a dos leones de piedra que en su día adornaron un monumento funerario cercano. El lugar ofrece una sugerente estratificación arqueológica al aire libre, con los restos de la fachada de piedra de época imperial y los cimientos de ladrillo de la época republicana, visibles bajo el nivel de la calle."
+      }
+    },
+    {
+      "id": "arco-dei-gavi",
+      "titolo": {
+        "it": "Demolito e ricostruito",
+        "en": "Demolished and rebuilt",
+        "fr": "Démoli puis reconstruit",
+        "de": "Abgerissen und wieder aufgebaut",
+        "es": "Derribado y reconstruido"
+      },
+      "luogo_id": "arco-dei-gavi",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Raro e splendido esempio di arco monumentale privato romano, venne eretto nel I secolo d.C. dall'architetto Vitruvio Cerdo per celebrare l'importante famiglia veronese dei Gavi. Demolito dai soldati francesi nel 1805, è stato fedelmente ricostruito negli anni Trenta del Novecento di fianco a Castelvecchio, dove tuttora mostra la sua raffinata eleganza in pietra bianca.",
+        "en": "A rare and splendid example of a private Roman monumental arch, it was erected in the 1st century AD by the architect Vitruvius Cerdo to celebrate the important Veronese family of the Gavi. Demolished by French soldiers in 1805, it was faithfully rebuilt in the 1930s beside Castelvecchio, where it still displays its refined elegance in white stone.",
+        "fr": "Rare et splendide exemple d'arc monumental romain privé, il fut érigé au Ier siècle après J.-C. par l'architecte Vitruvius Cerdo pour célébrer l'importante famille véronaise des Gavi. Démoli par les soldats français en 1805, il a été fidèlement reconstruit dans les années 1930 à côté du Castelvecchio, où il montre encore sa raffinée élégance en pierre blanche.",
+        "de": "Ein seltenes und prächtiges Beispiel eines privaten römischen Monumentalbogens, der im 1. Jahrhundert n. Chr. vom Architekten Vitruvius Cerdo errichtet wurde, um die bedeutende veronesische Familie der Gavi zu ehren. 1805 von französischen Soldaten abgebrochen, wurde er in den 1930er-Jahren neben dem Castelvecchio originalgetreu wiederaufgebaut, wo er noch heute seine feine Eleganz aus weißem Stein zeigt.",
+        "es": "Raro y espléndido ejemplo de arco monumental romano de carácter privado, fue erigido en el siglo I d. C. por el arquitecto Vitruvio Cerdo para celebrar a la importante familia veronesa de los Gavi. Derribado por las tropas francesas en 1805, fue reconstruido fielmente en la década de 1930 junto al Castelvecchio, donde aún luce su refinada elegancia en piedra blanca."
+      }
+    },
+    {
+      "id": "torre-del-gardello",
+      "titolo": {
+        "it": "La torre dell'orologio a rintocchi",
+        "en": "The tower of the striking clock",
+        "fr": "La tour de l'horloge à sonnerie",
+        "de": "Der Turm der Schlaguhr",
+        "es": "La torre del reloj de campanadas"
+      },
+      "luogo_id": "torre-del-gardello",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Situata ad angolo tra Piazza delle Erbe e Corso Porta Borsari, questa massiccia torre in mattoni rossi fu fatta innalzare e merlare da Cansignorio della Scala nella seconda metà del Trecento. La sua importanza storica è legata al fatto che ospitò uno dei primi orologi pubblici a rintocchi d'Europa, la cui campana trecentesca è oggi custodita all'interno del Museo di Castelvecchio.",
+        "en": "Located at the corner between Piazza delle Erbe and Corso Porta Borsari, this massive red-brick tower was raised and crenellated by Cansignorio della Scala in the second half of the 14th century. Its historical importance lies in the fact that it housed one of the first public striking clocks in Europe, whose 14th-century bell is now preserved in the Castelvecchio Museum.",
+        "fr": "Située à l'angle entre la place des Herbes et le Corso Porta Borsari, cette massive tour de briques rouges fut élevée et crénelée par Cansignorio della Scala dans la seconde moitié du XIVe siècle. Son importance historique tient au fait qu'elle abritait l'une des premières horloges publiques à sonnerie d'Europe, dont la cloche du XIVe siècle est aujourd'hui conservée au musée de Castelvecchio.",
+        "de": "An der Ecke zwischen der Piazza delle Erbe und dem Corso Porta Borsari gelegen, wurde dieser massive Backsteinturm in der zweiten Hälfte des 14. Jahrhunderts von Cansignorio della Scala errichtet und mit Zinnen versehen. Seine historische Bedeutung liegt darin, dass hier eine der ersten öffentlichen Schlaguhren Europas untergebracht war; deren Glocke aus dem 14. Jahrhundert wird heute im Museum Castelvecchio aufbewahrt.",
+        "es": "Situada en la esquina entre la plaza de las Hierbas y el Corso Porta Borsari, esta maciza torre de ladrillo rojo fue levantada y almenada por Cansignorio della Scala en la segunda mitad del siglo XIV. Su importancia histórica radica en que albergó uno de los primeros relojes públicos de campanadas de Europa, cuya campana del siglo XIV se conserva hoy en el Museo de Castelvecchio."
+      }
+    },
+    {
+      "id": "cimitero-monumentale",
+      "titolo": {
+        "it": "Un museo di scultura all'aperto",
+        "en": "An open-air sculpture museum",
+        "fr": "Un musée de sculpture à ciel ouvert",
+        "de": "Ein Skulpturenmuseum unter freiem Himmel",
+        "es": "Un museo de escultura al aire libre"
+      },
+      "luogo_id": "cimitero-monumentale",
+      "sestiere": "Veronetta",
+      "testo": {
+        "it": "Progettato all'inizio dell'Ottocento dall'architetto Giuseppe Barbieri in stile neoclassico, questo luogo della memoria è a tutti gli effetti un museo di scultura a cielo aperto. Il complesso è caratterizzato da solenni chiostri con colonnati dorici che ospitano le tombe e le cappelle delle più illustri famiglie veronesi, oltre a monumenti scultorei di immenso valore artistico ed emotivo.",
+        "en": "Designed at the beginning of the 19th century by the architect Giuseppe Barbieri in a neoclassical style, this place of remembrance is in every sense an open-air sculpture museum. The complex is characterised by solemn cloisters with Doric colonnades that house the tombs and chapels of Verona's most illustrious families, as well as sculptural monuments of immense artistic and emotional value.",
+        "fr": "Conçu au début du XIXe siècle par l'architecte Giuseppe Barbieri dans un style néoclassique, ce lieu du souvenir est à tous égards un musée de sculpture à ciel ouvert. Le complexe se caractérise par de solennels cloîtres aux colonnades doriques qui abritent les tombes et les chapelles des familles les plus illustres de Vérone, ainsi que des monuments sculptés d'une immense valeur artistique et émotionnelle.",
+        "de": "Dieser Ort der Erinnerung wurde Anfang des 19. Jahrhunderts vom Architekten Giuseppe Barbieri im neoklassizistischen Stil entworfen und ist in jeder Hinsicht ein Skulpturenmuseum unter freiem Himmel. Die Anlage zeichnet sich durch feierliche Kreuzgänge mit dorischen Säulengängen aus, in denen die Gräber und Grabkapellen der angesehensten Familien Veronas stehen, dazu Skulpturendenkmäler von enormem künstlerischem und emotionalem Wert.",
+        "es": "Proyectado a comienzos del siglo XIX por el arquitecto Giuseppe Barbieri en estilo neoclásico, este lugar de memoria es, en todos los sentidos, un museo de escultura al aire libre. El conjunto se caracteriza por solemnes claustros con columnatas dóricas que albergan las tumbas y capillas de las familias más ilustres de Verona, además de monumentos escultóricos de inmenso valor artístico y emotivo."
+      }
+    },
+    {
+      "id": "corte-sgarzerie",
+      "titolo": {
+        "it": "Il Campidoglio romano sotto la loggia",
+        "en": "The Roman Capitolium under the loggia",
+        "fr": "Le Capitole romain sous la loggia",
+        "de": "Das römische Kapitol unter der Loggia",
+        "es": "El Capitolio romano bajo la logia"
+      },
+      "luogo_id": "corte-sgarzerie",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Area archeologica sotto una loggia trecentesca dei mercanti di lana, con i resti del Campidoglio romano, il grande edificio pubblico dell'antica Verona. È aperta solo nel fine settimana per poche ore, con ingresso gratuito; spesso ci sono visite guidate. Verificare gli orari prima di venire.",
+        "en": "An archaeological site beneath a 14th-century wool merchants' loggia, with the remains of the Roman Capitolium, the great public temple of ancient Verona. It is open only at weekends for a few hours, with free entry; guided visits are often offered. Check the opening times before you go.",
+        "fr": "Site archéologique sous une loggia du XIVe siècle des marchands de laine, avec les vestiges du Capitole romain, le grand édifice public de la Vérone antique. Ouvert seulement le week-end quelques heures, entrée gratuite ; des visites guidées sont souvent proposées. Vérifiez les horaires avant de venir.",
+        "de": "Archäologische Stätte unter einer Loggia der Wollhändler aus dem 14. Jahrhundert, mit Resten des römischen Kapitols, dem großen öffentlichen Gebäude des antiken Verona. Nur am Wochenende für wenige Stunden geöffnet, Eintritt frei; oft gibt es Führungen. Öffnungszeiten vorher prüfen.",
+        "es": "Yacimiento arqueológico bajo una logia del siglo XIV de los mercaderes de lana, con restos del Capitolio romano, el gran edificio público de la Verona antigua. Abierto solo los fines de semana durante pocas horas, con entrada gratuita; a menudo hay visitas guiadas. Consultar el horario antes de ir."
+      }
+    },
+    {
+      "id": "chiesa-san-procolo",
+      "titolo": {
+        "it": "Una chiesa che è stata anche teatro",
+        "en": "A church that was also a theatre",
+        "fr": "Une église qui fut aussi théâtre",
+        "de": "Eine Kirche, die auch Theater war",
+        "es": "Una iglesia que fue también teatro"
+      },
+      "luogo_id": "chiesa-san-procolo",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Piccola chiesa accanto alla basilica di San Zeno, costruita sulle fondamenta di una chiesa paleocristiana del V secolo e dedicata al quarto vescovo di Verona. Nell'Ottocento fu usata come teatro e negli anni Ottanta del Novecento è stata restaurata. In cripta restano tracce di una necropoli romana e affreschi che risalgono al Duecento. Spesso è chiusa: verificare prima di venire.",
+        "en": "A small church next to the Basilica of San Zeno, built over the foundations of a 5th-century early Christian church and dedicated to Verona's fourth bishop. In the 19th century it was used as a theatre, and it was restored in the 1980s. The crypt holds traces of a Roman necropolis and frescoes dating back to the 13th century. It is often closed: check before you go.",
+        "fr": "Petite église à côté de la basilique de Saint-Zénon, construite sur les fondations d'une église paléochrétienne du Ve siècle et dédiée au quatrième évêque de Vérone. Au XIXe siècle elle servit de théâtre ; elle a été restaurée dans les années 1980. La crypte conserve des traces d'une nécropole romaine et des fresques du XIIIe siècle. Elle est souvent fermée : vérifiez avant de venir.",
+        "de": "Kleine Kirche neben der Basilika San Zeno, über den Fundamenten einer frühchristlichen Kirche des 5. Jahrhunderts errichtet und dem vierten Bischof von Verona geweiht. Im 19. Jahrhundert diente sie als Theater; in den 1980er-Jahren wurde sie restauriert. In der Krypta gibt es Spuren einer römischen Nekropole und Fresken aus dem 13. Jahrhundert. Sie ist oft geschlossen: vorher prüfen.",
+        "es": "Pequeña iglesia junto a la basílica de San Zeno, construida sobre los cimientos de una iglesia paleocristiana del siglo V y dedicada al cuarto obispo de Verona. En el siglo XIX se usó como teatro y se restauró en los años ochenta. La cripta conserva restos de una necrópolis romana y frescos del siglo XIII. Suele estar cerrada: consultar antes de ir."
+      }
+    },
+    {
+      "id": "bastione-delle-maddalene",
+      "titolo": {
+        "it": "Le mura raccontate in una passeggiata",
+        "en": "The walls told on a walk",
+        "fr": "Les remparts racontés en promenade",
+        "de": "Die Mauern im Rundgang erzählt",
+        "es": "Las murallas contadas en un paseo"
+      },
+      "luogo_id": "bastione-delle-maddalene",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Bastione delle mura di Verona, oggi sede di un percorso espositivo gratuito sulla storia delle fortificazioni e dei monumenti della città, in italiano, inglese e tedesco. Aperto dal martedì alla domenica, 10–18; chiuso il lunedì.",
+        "en": "A bastion of Verona's city walls, now home to a free exhibition route on the history of the city's fortifications and monuments, in Italian, English and German. Open Tuesday to Sunday, 10:00–18:00; closed Monday.",
+        "fr": "Bastion des remparts de Vérone, aujourd'hui siège d'un parcours d'exposition gratuit sur l'histoire des fortifications et des monuments de la ville, en italien, anglais et allemand. Ouvert du mardi au dimanche, 10h–18h ; fermé le lundi.",
+        "de": "Bastion der Stadtmauern Veronas, heute Sitz einer kostenlosen Ausstellungsroute über die Geschichte der Befestigungen und Denkmäler der Stadt, auf Italienisch, Englisch und Deutsch. Geöffnet Dienstag bis Sonntag, 10–18 Uhr; montags geschlossen.",
+        "es": "Baluarte de las murallas de Verona, hoy sede de un recorrido expositivo gratuito sobre la historia de las fortificaciones y los monumentos de la ciudad, en italiano, inglés y alemán. Abierto de martes a domingo, 10–18; cerrado los lunes."
+      }
+    },
+    {
+      "id": "sacello-sante-teuteria-tosca",
+      "titolo": {
+        "it": "Un sacello nascosto dietro una chiesa",
+        "en": "A shrine hidden behind a church",
+        "fr": "Un sanctuaire caché derrière une église",
+        "de": "Ein Heiligtum hinter einer Kirche",
+        "es": "Un santuario escondido tras una iglesia"
+      },
+      "luogo_id": "sacello-sante-teuteria-tosca",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Piccolo sacello nel centro storico, dedicato alle sante Teuteria e Tosca, che si raggiunge entrando dalla chiesa dei Santi Apostoli. Si visita di solito nei giorni feriali ed è gratuito, ma spesso è chiuso: verificare prima di venire.",
+        "en": "A small shrine in the historic centre, dedicated to Saints Teuteria and Tosca, reached through the Church of the Holy Apostles. It is usually visited on weekdays and entry is free, but it is often closed: check before you go.",
+        "fr": "Petit sanctuaire du centre historique, dédié aux saintes Teuteria et Tosca, accessible par l'église des Saints-Apôtres. On le visite en semaine, l'entrée est gratuite, mais il est souvent fermé : vérifiez avant de venir.",
+        "de": "Kleines Heiligtum im historischen Zentrum, den Heiligen Teuteria und Tosca geweiht, zugänglich über die Kirche der Heiligen Apostel. Der Besuch ist meist werktags möglich, der Eintritt ist frei, doch oft ist es geschlossen: vorher prüfen.",
+        "es": "Pequeño santuario en el centro histórico, dedicado a las santas Teuteria y Tosca, al que se accede desde la iglesia de los Santos Apóstoles. Se visita normalmente entre semana, la entrada es gratuita, pero suele estar cerrado: consultar antes de ir."
+      }
+    },
+    {
+      "id": "pozzo-dell-amore",
+      "titolo": {
+        "it": "La leggenda del Pozzo dell'Amore",
+        "en": "The legend of the Pozzo dell'Amore",
+        "fr": "La légende du Puits de l'Amour",
+        "de": "Die Legende vom Brunnen der Liebe",
+        "es": "La leyenda del Pozo del Amor"
+      },
+      "luogo_id": "pozzo-dell-amore",
+      "sestiere": "Centro storico",
+      "testo": {
+        "it": "Secondo la leggenda, il giovane soldato Corrado di San Bonifazio si gettò nel pozzo dopo essere stato respinto da Isabella Donati, che poi lo seguì. È una storia popolare, non un fatto storico documentato.",
+        "en": "According to the legend, the young soldier Corrado di San Bonifazio threw himself into the well after being rejected by Isabella Donati, who then followed him. It is a popular story, not a documented historical fact.",
+        "fr": "Selon la légende, le jeune soldat Corrado di San Bonifazio se jeta dans le puits après avoir été repoussé par Isabella Donati, qui le suivit ensuite. C'est une histoire populaire, non un fait historique documenté.",
+        "de": "Der Legende nach warf sich der junge Soldat Corrado di San Bonifazio in den Brunnen, nachdem er von Isabella Donati abgewiesen worden war; sie folgte ihm daraufhin. Es ist eine volkstümliche Geschichte, kein dokumentiertes historisches Ereignis.",
+        "es": "Según la leyenda, el joven soldado Corrado di San Bonifazio se arrojó al pozo tras ser rechazado por Isabella Donati, que luego lo siguió. Es una historia popular, no un hecho histórico documentado."
+      }
+    },
+    {
+      "id": "scalone-xvi-ottobre",
+      "titolo": {
+        "it": "Una data nel nome",
+        "en": "A date in the name",
+        "fr": "Une date dans le nom",
+        "de": "Ein Datum im Namen",
+        "es": "Una fecha en el nombre"
+      },
+      "luogo_id": "scalone-xvi-ottobre",
+      "testo": {
+        "it": "La scalinata è intitolata al 16 ottobre 1866, giorno in cui Verona entrò a far parte del Regno d'Italia. I veronesi la chiamano «El Scalon».",
+        "en": "The staircase is named after 16 October 1866, the day Verona became part of the Kingdom of Italy. Veronese locals call it «El Scalon».",
+        "fr": "L'escalier porte le nom du 16 octobre 1866, jour où Vérone rejoignit le Royaume d'Italie. Les Véronais l'appellent « El Scalon ».",
+        "de": "Die Treppe trägt den Namen des 16. Oktober 1866, des Tages, an dem Verona Teil des Königreichs Italien wurde. Die Veroneser nennen sie „El Scalon“.",
+        "es": "La escalinata lleva el nombre del 16 de octubre de 1866, día en que Verona pasó a formar parte del Reino de Italia. Los veroneses la llaman «El Scalon»."
+      }
+    },
+    {
+      "id": "buso-del-gato",
+      "titolo": {
+        "it": "Il buso della gattaiola",
+        "en": "The cat-flap passage",
+        "fr": "Le passage de la chatière",
+        "de": "Der Durchgang der Katzenklappe",
+        "es": "El pasaje de la gatera"
+      },
+      "luogo_id": "buso-del-gato",
+      "sestiere": "Porto San Pancrazio",
+      "testo": {
+        "it": "Un angolo insolito, legato alla vita quotidiana del quartiere: il nome dialettale richiama la «gattaiola», l'apertura per i gatti.",
+        "en": "An unusual corner tied to the neighbourhood's everyday life: its dialect name recalls the «gattaiola», the opening made for cats.",
+        "fr": "Un coin insolite lié à la vie quotidienne du quartier : son nom dialectal rappelle la « gattaiola », l'ouverture pour les chats.",
+        "de": "Ein ungewöhnlicher Winkel, verbunden mit dem Alltagsleben des Viertels: Der mundartliche Name erinnert an die „gattaiola“, die Öffnung für Katzen.",
+        "es": "Un rincón insólito ligado a la vida cotidiana del barrio: su nombre en dialecto recuerda a la «gattaiola», la abertura para los gatos."
+      }
+    },
+    {
+      "id": "pescheria-verona",
+      "titolo": {
+        "it": "Il mercato sul fiume",
+        "en": "The market by the river",
+        "fr": "Le marché au bord du fleuve",
+        "de": "Der Markt am Fluss",
+        "es": "El mercado junto al río"
+      },
+      "luogo_id": "pescheria-verona",
+      "testo": {
+        "it": "Ricorda il rapporto tra mercati, fiume e attività quotidiane: un piccolo spazio storico vicino all'Adige, legato alla vita commerciale della città.",
+        "en": "It recalls the relationship between markets, river and everyday trade: a small historic space near the Adige, linked to the city's commercial life.",
+        "fr": "Il rappelle le lien entre marchés, fleuve et activités quotidiennes : un petit espace historique près de l'Adige, lié à la vie commerciale de la ville.",
+        "de": "Er erinnert an das Verhältnis zwischen Märkten, Fluss und Alltagsgeschäften: ein kleiner historischer Platz nahe der Etsch, verbunden mit dem Handelsleben der Stadt.",
+        "es": "Recuerda la relación entre mercados, río y actividades cotidianas: un pequeño espacio histórico cerca del Adigio, ligado a la vida comercial de la ciudad."
+      }
+    }
+  ]
+}
