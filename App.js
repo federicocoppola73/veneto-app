@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, FlatList, Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, FlatList, Platform, Pressable, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
 import { CITTA, cittaPerId, etichettaStato, GRATUITO } from './src/catalogo';
 import { attiva, datiCitta, installa, leggiStato, rimuovi } from './src/pacchetti';
 
@@ -38,8 +38,10 @@ export default function App() {
     ? luoghiAttiva.luoghi.slice(0, 10).map((l) => l.nome)
     : (cittaAttiva?.anteprima || []);
 
+  const spazioSopra = Platform.OS === 'android' ? (StatusBar.currentHeight || 24) : 0;
+
   return (
-    <SafeAreaView style={styles.contenitore}>
+    <SafeAreaView style={[styles.contenitore, { paddingTop: spazioSopra + 8 }]}>
       <Text style={styles.titolo}>Veneto: Monumenti & altro</Text>
       {cittaAttiva ? (
         <View style={styles.attiva}>
@@ -92,7 +94,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   contenitore: { flex: 1, backgroundColor: '#f8fafc', paddingHorizontal: 16 },
-  titolo: { fontSize: 24, fontWeight: '800', color: '#0f172a', marginTop: 12 },
+  titolo: { fontSize: 24, fontWeight: '800', color: '#0f172a' },
   gratuito: { backgroundColor: '#ecfdf5', borderRadius: 12, padding: 10, marginTop: 8 },
   gratuitoTitolo: { fontSize: 15, fontWeight: '700', color: '#065f46' },
   gratuitoTesto: { fontSize: 13, color: '#065f46', marginTop: 4 },
