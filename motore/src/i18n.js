@@ -49,6 +49,7 @@ const TESTI = {
     cat_palazzi: 'Palazzi',
     cat_ponti: 'Ponti',
     cat_piazze: 'Piazze/Campi',
+    cat_piazze_citta: 'Piazze',
     cat_giardini: 'Giardini',
     cat_altri: 'Altri',
     tutti: 'Tutti',
@@ -401,6 +402,7 @@ const TESTI = {
     cat_palazzi: 'Palaces',
     cat_ponti: 'Bridges',
     cat_piazze: 'Squares/Campi',
+    cat_piazze_citta: 'Squares',
     cat_giardini: 'Gardens',
     cat_altri: 'Other',
     tutti: 'All',
@@ -753,6 +755,7 @@ const TESTI = {
     cat_palazzi: 'Palais',
     cat_ponti: 'Ponts',
     cat_piazze: 'Places/Campi',
+    cat_piazze_citta: 'Places',
     cat_giardini: 'Jardins',
     cat_altri: 'Autres',
     tutti: 'Tous',
@@ -1105,6 +1108,7 @@ const TESTI = {
     cat_palazzi: 'Paläste',
     cat_ponti: 'Brücken',
     cat_piazze: 'Plätze/Campi',
+    cat_piazze_citta: 'Plätze',
     cat_giardini: 'Gärten',
     cat_altri: 'Sonstiges',
     tutti: 'Alle',
@@ -1457,6 +1461,7 @@ const TESTI = {
     cat_palazzi: 'Palacios',
     cat_ponti: 'Puentes',
     cat_piazze: 'Plazas/Campi',
+    cat_piazze_citta: 'Plazas',
     cat_giardini: 'Jardines',
     cat_altri: 'Otros',
     tutti: 'Todos',
@@ -1782,7 +1787,9 @@ export function traduttore(lingua) {
   // i testi nominano Venezia: nelle altre città si usa il nome della città attiva
   const nome = nomeCitta();
   const adatta = (testo) => (nome === 'Venezia' || typeof testo !== 'string' ? testo : testo.replace(/Venezia|Venice/g, nome));
-  const chiaveAdatta = (k) => (nome !== 'Venezia' && k === 'srv_vaporetto' ? 'srv_mezzi' : k);
+  // alcune voci hanno un testo diverso fuori da Venezia
+  const ALTERNATIVE = { srv_vaporetto: 'srv_mezzi', cat_piazze: 'cat_piazze_citta' };
+  const chiaveAdatta = (k) => (nome !== 'Venezia' && ALTERNATIVE[k] ? ALTERNATIVE[k] : k);
   return (chiave) => adatta(tabella[chiaveAdatta(chiave)] ?? TESTI[LINGUA_PREDEFINITA][chiaveAdatta(chiave)] ?? chiave);
 }
 
