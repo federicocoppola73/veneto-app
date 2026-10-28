@@ -5,7 +5,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
 import { attiva, datiCitta, installa, leggiStato, rimuovi } from './src/pacchetti';
-import { etichettaStato, LINGUE, testi } from './src/lingue';
+import { etichettaStato, etichette, LINGUE, testi } from './src/lingue';
+import ListaLuoghi from './src/schermate/ListaLuoghi';
+import DettaglioLuogo from './src/schermate/DettaglioLuogo';
 
 const CHIAVE_LINGUA = 'lingua';
 
@@ -26,6 +28,8 @@ export default function App() {
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
   const [luoghiAttiva, setLuoghiAttiva] = useState(null);
+  const [vista, setVista] = useState('home'); // 'home' | 'lista' | 'dettaglio'
+  const [luogoId, setLuogoId] = useState(null);
   const t = testi(lingua);
 
   useEffect(() => {
@@ -64,6 +68,19 @@ export default function App() {
   const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
   const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
+  if (vista !== 'home' && luoghiAttiva) {
+    const luogo = luoghiAttiva.luoghi.find((l) => l.id === luogoId);
+    return (
+      <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
+        {vista === 'dettaglio' && luogo ? (
+          <DettaglioLuogo luogo={luogo} lingua={lingua} t={t} onIndietro={() => setVista('lista')} />
+        ) : (
+          <ListaLuoghi luoghi={luoghiAttiva.luoghi} lingua={lingua} t={t} onApri={(id) => { setLuogoId(id); setVista('dettaglio'); }} onIndietro={() => setVista('home')} />
+        )}
+      </SafeAreaView>
+    );
+  }
+
   return (
     <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
       <Text style={styles.titolo}>{t.titolo}</Text>
@@ -87,6 +104,11 @@ export default function App() {
           <Text style={styles.attivaEtichetta}>{t.cittaAttiva}</Text>
           <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
           <Text style={styles.attivaTesto}>{numeroLuoghi} {t.luoghi}</Text>
+          {luoghiAttiva ? (
+            <Pressable style={[styles.bottone, styles.bottoneLuoghi]} onPress={() => setVista('lista')}>
+              <Text style={styles.testoBottone}>{etichette(lingua).luoghi} →</Text>
+            </Pressable>
+          ) : null}
         </View>
       ) : (
         <View style={styles.gratuito}>
@@ -147,6 +169,7 @@ const styles = StyleSheet.create({
   attivaEtichetta: { fontSize: 12, fontWeight: '700', color: '#1d4ed8' },
   attivaNome: { fontSize: 18, fontWeight: '800', color: '#0f172a', marginTop: 2 },
   attivaTesto: { fontSize: 13, color: '#334155', marginTop: 6 },
+  bottoneLuoghi: { alignSelf: 'flex-start', marginTop: 8 },
   sottotitolo: { fontSize: 14, fontWeight: '700', color: '#475569', marginTop: 10, marginBottom: 6 },
   lista: { gap: 6, paddingBottom: 24 },
   card: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#fff', borderRadius: 12, paddingVertical: 8, paddingHorizontal: 12, borderWidth: 1, borderColor: '#e2e8f0' },

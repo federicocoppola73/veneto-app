@@ -95,3 +95,37 @@ export const testi = (lingua) => TESTI[lingua] || TESTI.it;
 
 export const etichettaStato = (t, stato) =>
   stato === 'disponibile' ? t.disponibile : t.preparazione;
+
+// Etichette delle schermate dei luoghi
+const ETICHETTE = {
+  it: { luoghi: 'Luoghi', indietro: 'Indietro', tutte: 'Tutti', orari: 'Orari', chiuso: 'Chiuso', gratuito: 'Ingresso gratuito', pagamento: 'Ingresso a pagamento', sito: 'Sito web', fermata: 'Fermata', sestiere: 'Sestiere', wikipedia: 'Wikipedia', nota: 'Nota',
+    categorie: { chiese: 'Chiese', palazzi: 'Palazzi', altri: 'Altro', musei: 'Musei', ponti: 'Ponti', giardini: 'Giardini', piazze: 'Piazze' },
+    giorni: { lun: 'lun', mar: 'mar', mer: 'mer', gio: 'gio', ven: 'ven', sab: 'sab', dom: 'dom' } },
+  en: { luoghi: 'Places', indietro: 'Back', tutte: 'All', orari: 'Opening hours', chiuso: 'Closed', gratuito: 'Free entry', pagamento: 'Paid entry', sito: 'Website', fermata: 'Stop', sestiere: 'District', wikipedia: 'Wikipedia', nota: 'Note',
+    categorie: { chiese: 'Churches', palazzi: 'Palaces', altri: 'Other', musei: 'Museums', ponti: 'Bridges', giardini: 'Gardens', piazze: 'Squares' },
+    giorni: { lun: 'Mon', mar: 'Tue', mer: 'Wed', gio: 'Thu', ven: 'Fri', sab: 'Sat', dom: 'Sun' } },
+  fr: { luoghi: 'Lieux', indietro: 'Retour', tutte: 'Tous', orari: 'Horaires', chiuso: 'Fermé', gratuito: 'Entrée libre', pagamento: 'Entrée payante', sito: 'Site web', fermata: 'Arrêt', sestiere: 'Quartier', wikipedia: 'Wikipédia', nota: 'Remarque',
+    categorie: { chiese: 'Églises', palazzi: 'Palais', altri: 'Autres', musei: 'Musées', ponti: 'Ponts', giardini: 'Jardins', piazze: 'Places' },
+    giorni: { lun: 'lun', mar: 'mar', mer: 'mer', gio: 'jeu', ven: 'ven', sab: 'sam', dom: 'dim' } },
+  de: { luoghi: 'Orte', indietro: 'Zurück', tutte: 'Alle', orari: 'Öffnungszeiten', chiuso: 'Geschlossen', gratuito: 'Eintritt frei', pagamento: 'Eintritt kostenpflichtig', sito: 'Webseite', fermata: 'Haltestelle', sestiere: 'Stadtviertel', wikipedia: 'Wikipedia', nota: 'Hinweis',
+    categorie: { chiese: 'Kirchen', palazzi: 'Paläste', altri: 'Sonstiges', musei: 'Museen', ponti: 'Brücken', giardini: 'Gärten', piazze: 'Plätze' },
+    giorni: { lun: 'Mo', mar: 'Di', mer: 'Mi', gio: 'Do', ven: 'Fr', sab: 'Sa', dom: 'So' } },
+  es: { luoghi: 'Lugares', indietro: 'Atrás', tutte: 'Todos', orari: 'Horario', chiuso: 'Cerrado', gratuito: 'Entrada gratuita', pagamento: 'Entrada de pago', sito: 'Sitio web', fermata: 'Parada', sestiere: 'Barrio', wikipedia: 'Wikipedia', nota: 'Nota',
+    categorie: { chiese: 'Iglesias', palazzi: 'Palacios', altri: 'Otros', musei: 'Museos', ponti: 'Puentes', giardini: 'Jardines', piazze: 'Plazas' },
+    giorni: { lun: 'lun', mar: 'mar', mer: 'mié', gio: 'jue', ven: 'vie', sab: 'sáb', dom: 'dom' } },
+};
+
+export const etichette = (lingua) => ETICHETTE[lingua] || ETICHETTE.it;
+
+// Traduce un testo di giorni come "lun-sab" o "dom, lun" con le abbreviazioni della lingua
+export const traduciGiorni = (lingua, testo) => {
+  const e = etichette(lingua).giorni;
+  return String(testo).replace(/\b(lun|mar|mer|gio|ven|sab|dom)\b/g, (g) => e[g]);
+};
+
+// Testo nella lingua scelta, con ripiego sull'italiano
+export const testoLingua = (lingua, oggetto) => {
+  if (!oggetto) return '';
+  if (typeof oggetto === 'string') return oggetto;
+  return oggetto[lingua] || oggetto.it || '';
+};
