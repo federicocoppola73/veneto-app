@@ -18,151 +18,10 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-318",
-      "autobus-396",
-      "autobus-385",
-      "autobus-364",
-      "autobus-356",
-      "autobus-348",
-      "autobus-329",
-      "autobus-301",
-      "autobus-291",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-315",
-      "autobus-271",
-      "autobus-248",
-      "autobus-221",
-      "autobus-95",
-      "autobus-186",
-      "autobus-162",
-      "autobus-112",
-      "autobus-82",
-      "autobus-76",
-      "autobus-60",
-      "autobus-69",
-      "autobus-52"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-318",
-      "autobus-396",
-      "autobus-385",
-      "autobus-364",
-      "autobus-356",
-      "autobus-348",
-      "autobus-329",
-      "autobus-301",
-      "autobus-291",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-52",
       "autobus-69",
       "autobus-60",
       "autobus-76",
-      "autobus-82",
-      "autobus-95",
-      "autobus-112",
-      "autobus-162",
-      "autobus-186",
-      "autobus-221",
-      "autobus-248",
-      "autobus-262",
-      "autobus-306",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-318",
-      "autobus-396",
-      "autobus-385",
-      "autobus-364",
-      "autobus-356",
-      "autobus-348",
-      "autobus-329",
-      "autobus-301",
-      "autobus-291",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-315",
-      "autobus-271",
-      "autobus-248",
-      "autobus-221",
-      "autobus-95",
-      "autobus-186",
-      "autobus-162",
-      "autobus-112",
-      "autobus-82",
-      "autobus-79",
-      "autobus-91",
-      "autobus-92"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-79",
       "autobus-82",
       "autobus-95",
       "autobus-112",
@@ -202,27 +61,45 @@
      "richiesta": []
     },
     {
-     "direzione": 5,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-52",
-      "autobus-69",
-      "autobus-60",
-      "autobus-76",
-      "autobus-82",
-      "autobus-95",
-      "autobus-112",
-      "autobus-162",
-      "autobus-186",
-      "autobus-221",
-      "autobus-248",
-      "autobus-262",
-      "autobus-306",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
+      "autobus-318",
+      "autobus-396",
+      "autobus-385",
+      "autobus-364",
+      "autobus-356",
+      "autobus-348",
+      "autobus-329",
+      "autobus-301",
+      "autobus-291",
+      "autobus-282",
+      "autobus-273",
+      "autobus-253",
+      "autobus-258",
+      "autobus-267",
+      "autobus-276",
+      "autobus-281",
+      "autobus-307",
+      "autobus-298",
+      "autobus-406",
       "autobus-393",
-      "autobus-406"
+      "autobus-389",
+      "autobus-365",
+      "autobus-337",
+      "autobus-315",
+      "autobus-271",
+      "autobus-248",
+      "autobus-221",
+      "autobus-95",
+      "autobus-186",
+      "autobus-162",
+      "autobus-112",
+      "autobus-82",
+      "autobus-76",
+      "autobus-60",
+      "autobus-69",
+      "autobus-52"
      ],
      "richiesta": []
     }
@@ -239,91 +116,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-149",
-      "autobus-144",
-      "autobus-148",
-      "autobus-164",
-      "autobus-172",
-      "autobus-192",
-      "autobus-196",
-      "autobus-238",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-415",
-      "autobus-410",
-      "autobus-404",
-      "autobus-371",
-      "autobus-352",
-      "autobus-299",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-305",
-      "autobus-244",
-      "autobus-204",
-      "autobus-192",
-      "autobus-172",
-      "autobus-164",
-      "autobus-148",
-      "autobus-144",
-      "autobus-138",
-      "autobus-149"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-511",
-      "autobus-428",
-      "autobus-421",
-      "autobus-409",
-      "autobus-352",
-      "autobus-299",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-284",
-      "autobus-323"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
      "circolare": false,
      "fermate": [
       "autobus-149",
@@ -365,63 +157,13 @@
      "richiesta": []
     },
     {
-     "direzione": 4,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-286",
-      "autobus-304",
-      "autobus-330",
-      "autobus-334",
-      "autobus-391",
-      "autobus-418",
-      "autobus-432",
-      "autobus-465",
-      "autobus-492",
-      "autobus-511"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-149",
-      "autobus-144",
-      "autobus-148",
-      "autobus-164",
-      "autobus-172",
-      "autobus-192",
-      "autobus-196",
-      "autobus-238",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-511",
-      "autobus-428",
-      "autobus-421",
-      "autobus-409",
+      "autobus-415",
+      "autobus-410",
+      "autobus-404",
+      "autobus-371",
       "autobus-352",
       "autobus-299",
       "autobus-282",
@@ -433,7 +175,21 @@
       "autobus-281",
       "autobus-307",
       "autobus-298",
-      "autobus-406"
+      "autobus-406",
+      "autobus-393",
+      "autobus-389",
+      "autobus-365",
+      "autobus-337",
+      "autobus-305",
+      "autobus-244",
+      "autobus-204",
+      "autobus-192",
+      "autobus-172",
+      "autobus-164",
+      "autobus-148",
+      "autobus-144",
+      "autobus-138",
+      "autobus-149"
      ],
      "richiesta": []
     }
@@ -452,28 +208,14 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-259",
-      "autobus-217",
-      "autobus-188",
-      "autobus-173",
-      "autobus-167",
-      "autobus-99",
-      "autobus-107"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
+      "autobus-197",
+      "autobus-222",
+      "autobus-229",
+      "autobus-308",
       "autobus-300",
       "autobus-292",
-      "autobus-223",
-      "autobus-247",
+      "autobus-287",
+      "autobus-254",
       "autobus-251",
       "autobus-305",
       "autobus-337",
@@ -488,12 +230,24 @@
       "autobus-307",
       "autobus-281",
       "autobus-279",
-      "autobus-267"
+      "autobus-267",
+      "autobus-257",
+      "autobus-269",
+      "autobus-278",
+      "autobus-259",
+      "autobus-217",
+      "autobus-188",
+      "autobus-173",
+      "autobus-167",
+      "autobus-99",
+      "autobus-107",
+      "autobus-9",
+      "autobus-5"
      ],
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-5",
@@ -531,203 +285,6 @@
       "autobus-197"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-305",
-      "autobus-251",
-      "autobus-247",
-      "autobus-230",
-      "autobus-288",
-      "autobus-290",
-      "autobus-293",
-      "autobus-310",
-      "autobus-358"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-197",
-      "autobus-222",
-      "autobus-229",
-      "autobus-308",
-      "autobus-300",
-      "autobus-292",
-      "autobus-287",
-      "autobus-254",
-      "autobus-251",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-259",
-      "autobus-217",
-      "autobus-188",
-      "autobus-173",
-      "autobus-167",
-      "autobus-99",
-      "autobus-146",
-      "autobus-218",
-      "autobus-107"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-197",
-      "autobus-222",
-      "autobus-229",
-      "autobus-308",
-      "autobus-300",
-      "autobus-292",
-      "autobus-287",
-      "autobus-254",
-      "autobus-251",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-259",
-      "autobus-217",
-      "autobus-188",
-      "autobus-173",
-      "autobus-167",
-      "autobus-99",
-      "autobus-107",
-      "autobus-9",
-      "autobus-5"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-5",
-      "autobus-9",
-      "autobus-117",
-      "autobus-151",
-      "autobus-168",
-      "autobus-174",
-      "autobus-188",
-      "autobus-217",
-      "autobus-246",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-197",
-      "autobus-222",
-      "autobus-229",
-      "autobus-308",
-      "autobus-300",
-      "autobus-292",
-      "autobus-287",
-      "autobus-254",
-      "autobus-251",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-259",
-      "autobus-217",
-      "autobus-188",
-      "autobus-173",
-      "autobus-167",
-      "autobus-99",
-      "autobus-107",
-      "autobus-9",
-      "autobus-5"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-374",
-      "autobus-300",
-      "autobus-292",
-      "autobus-223",
-      "autobus-247",
-      "autobus-251",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -742,34 +299,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-6",
-      "autobus-8",
-      "autobus-14",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-381",
@@ -794,6 +323,34 @@
       "autobus-8",
       "autobus-3",
       "autobus-1"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-6",
+      "autobus-8",
+      "autobus-14",
+      "autobus-23",
+      "autobus-31",
+      "autobus-42",
+      "autobus-53",
+      "autobus-68",
+      "autobus-74",
+      "autobus-83",
+      "autobus-87",
+      "autobus-97",
+      "autobus-116",
+      "autobus-157",
+      "autobus-185",
+      "autobus-213",
+      "autobus-234",
+      "autobus-252",
+      "autobus-274",
+      "autobus-312",
+      "autobus-341"
      ],
      "richiesta": []
     }
@@ -848,25 +405,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-589",
-      "autobus-579",
-      "autobus-570",
-      "autobus-549",
-      "autobus-537",
-      "autobus-548",
-      "autobus-569",
-      "autobus-557",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-53",
       "autobus-55",
       "autobus-68",
@@ -895,57 +433,6 @@
       "autobus-537",
       "autobus-549",
       "autobus-570"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-436",
-      "autobus-493",
-      "autobus-515",
-      "autobus-557",
-      "autobus-569",
-      "autobus-548",
-      "autobus-537",
-      "autobus-549",
-      "autobus-570",
-      "autobus-579"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-53",
-      "autobus-55",
-      "autobus-68",
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-436",
-      "autobus-493",
-      "autobus-515",
-      "autobus-557",
-      "autobus-569"
      ],
      "richiesta": []
     }
@@ -1001,106 +488,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-599",
-      "autobus-602",
-      "autobus-600",
-      "autobus-581",
-      "autobus-569",
-      "autobus-557",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-1",
-      "autobus-6",
-      "autobus-8",
-      "autobus-14",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-557",
-      "autobus-569",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-515",
-      "autobus-557"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-515",
-      "autobus-557",
-      "autobus-569",
-      "autobus-548",
-      "autobus-600",
-      "autobus-602",
-      "autobus-599"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
      "circolare": false,
      "fermate": [
       "autobus-1",
@@ -1234,183 +621,6 @@
       "autobus-544"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-444",
-      "autobus-531",
-      "autobus-541",
-      "autobus-517",
-      "autobus-504",
-      "autobus-485",
-      "autobus-471",
-      "autobus-468",
-      "autobus-477",
-      "autobus-484",
-      "autobus-470",
-      "autobus-457",
-      "autobus-445",
-      "autobus-446",
-      "autobus-450",
-      "autobus-452",
-      "autobus-433"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-2",
-      "autobus-7",
-      "autobus-15",
-      "autobus-20",
-      "autobus-35",
-      "autobus-41",
-      "autobus-65",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-458",
-      "autobus-472",
-      "autobus-485",
-      "autobus-471",
-      "autobus-468",
-      "autobus-477",
-      "autobus-484",
-      "autobus-470",
-      "autobus-457",
-      "autobus-445",
-      "autobus-446",
-      "autobus-450",
-      "autobus-452",
-      "autobus-444",
-      "autobus-433",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-2",
-      "autobus-7",
-      "autobus-15",
-      "autobus-20",
-      "autobus-35",
-      "autobus-41",
-      "autobus-65",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-444",
-      "autobus-448",
-      "autobus-446",
-      "autobus-445",
-      "autobus-457",
-      "autobus-475",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-458"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-2",
-      "autobus-7",
-      "autobus-15",
-      "autobus-20",
-      "autobus-35",
-      "autobus-41",
-      "autobus-65",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-444",
-      "autobus-448",
-      "autobus-446",
-      "autobus-445",
-      "autobus-457",
-      "autobus-475",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-451",
-      "autobus-440"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -1466,66 +676,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-440",
-      "autobus-453",
-      "autobus-468",
-      "autobus-477",
-      "autobus-491",
-      "autobus-505",
-      "autobus-444",
-      "autobus-496",
-      "autobus-433"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-440",
-      "autobus-453",
-      "autobus-468",
-      "autobus-477",
-      "autobus-491",
-      "autobus-505",
-      "autobus-444",
-      "autobus-496",
-      "autobus-433"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-18",
-      "autobus-22",
-      "autobus-33",
-      "autobus-43",
-      "autobus-54",
-      "autobus-61",
-      "autobus-59",
-      "autobus-62",
-      "autobus-73",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
       "autobus-18",
       "autobus-22",
       "autobus-33",
@@ -1559,85 +709,6 @@
       "autobus-451",
       "autobus-440",
       "autobus-447"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-18",
-      "autobus-22",
-      "autobus-33",
-      "autobus-43",
-      "autobus-54",
-      "autobus-61",
-      "autobus-59",
-      "autobus-62",
-      "autobus-73",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-462",
-      "autobus-496",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-451",
-      "autobus-440",
-      "autobus-447"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-18",
-      "autobus-22",
-      "autobus-33",
-      "autobus-43",
-      "autobus-54",
-      "autobus-61",
-      "autobus-59",
-      "autobus-62",
-      "autobus-73",
-      "autobus-80",
-      "autobus-90",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-462",
-      "autobus-496",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-451",
-      "autobus-440"
      ],
      "richiesta": []
     }
@@ -1656,16 +727,18 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-464",
-      "autobus-490",
-      "autobus-513",
-      "autobus-519",
-      "autobus-569",
+      "autobus-406",
+      "autobus-407",
+      "autobus-419",
+      "autobus-436",
+      "autobus-489",
+      "autobus-528",
       "autobus-557",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
+      "autobus-569",
+      "autobus-519",
+      "autobus-507",
+      "autobus-490",
+      "autobus-464"
      ],
      "richiesta": []
     },
@@ -1683,25 +756,6 @@
       "autobus-493",
       "autobus-479",
       "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-436",
-      "autobus-489",
-      "autobus-528",
-      "autobus-557",
-      "autobus-569",
-      "autobus-519",
-      "autobus-507",
-      "autobus-490",
-      "autobus-464"
      ],
      "richiesta": []
     }
@@ -1759,38 +813,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-98",
-      "autobus-101",
-      "autobus-126",
-      "autobus-166",
-      "autobus-201",
-      "autobus-236",
-      "autobus-242",
-      "autobus-256",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-239",
-      "autobus-241",
-      "autobus-255",
-      "autobus-263",
-      "autobus-267"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-10",
       "autobus-17",
       "autobus-29",
@@ -1824,23 +846,6 @@
       "autobus-139",
       "autobus-101",
       "autobus-98"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-267",
-      "autobus-263",
-      "autobus-255",
-      "autobus-241",
-      "autobus-199",
-      "autobus-155",
-      "autobus-147",
-      "autobus-137",
-      "autobus-109",
-      "autobus-116"
      ],
      "richiesta": []
     }
@@ -1897,7 +902,9 @@
       "autobus-184",
       "autobus-215",
       "autobus-302",
-      "autobus-319"
+      "autobus-319",
+      "autobus-354",
+      "autobus-353"
      ],
      "richiesta": []
     },
@@ -1943,91 +950,6 @@
       "autobus-131",
       "autobus-89",
       "autobus-75"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-355",
-      "autobus-354",
-      "autobus-297",
-      "autobus-209",
-      "autobus-187",
-      "autobus-181",
-      "autobus-190",
-      "autobus-212",
-      "autobus-220",
-      "autobus-226",
-      "autobus-243",
-      "autobus-280",
-      "autobus-316",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-239",
-      "autobus-241",
-      "autobus-255",
-      "autobus-263",
-      "autobus-267"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-75",
-      "autobus-49",
-      "autobus-56",
-      "autobus-89",
-      "autobus-131",
-      "autobus-154",
-      "autobus-174",
-      "autobus-191",
-      "autobus-214",
-      "autobus-240",
-      "autobus-253",
-      "autobus-267",
-      "autobus-263",
-      "autobus-255",
-      "autobus-241",
-      "autobus-199",
-      "autobus-155",
-      "autobus-147",
-      "autobus-137",
-      "autobus-109",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-309",
-      "autobus-280",
-      "autobus-243",
-      "autobus-224",
-      "autobus-220",
-      "autobus-212",
-      "autobus-204",
-      "autobus-181",
-      "autobus-184",
-      "autobus-215",
-      "autobus-302",
-      "autobus-319",
-      "autobus-354",
-      "autobus-353"
      ],
      "richiesta": []
     }
@@ -2120,41 +1042,6 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
-      "autobus-267"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-180",
-      "autobus-179",
-      "autobus-177",
-      "autobus-181",
-      "autobus-190",
-      "autobus-212",
-      "autobus-220",
-      "autobus-226",
-      "autobus-243",
-      "autobus-280",
-      "autobus-316",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-239",
-      "autobus-241",
-      "autobus-255",
-      "autobus-263",
       "autobus-267",
       "autobus-235",
       "autobus-214",
@@ -2182,40 +1069,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-132",
-      "autobus-152",
-      "autobus-160",
-      "autobus-166",
-      "autobus-139",
-      "autobus-121",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-28",
@@ -2258,148 +1111,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-138",
-      "autobus-140",
-      "autobus-124",
-      "autobus-126",
-      "autobus-166",
-      "autobus-158",
-      "autobus-152",
-      "autobus-132",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-463",
-      "autobus-494",
-      "autobus-543",
-      "autobus-574",
-      "autobus-591",
-      "autobus-595",
-      "autobus-610"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-132",
-      "autobus-152",
-      "autobus-160",
-      "autobus-166",
-      "autobus-139",
-      "autobus-121",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-132",
-      "autobus-152",
-      "autobus-160",
-      "autobus-166",
-      "autobus-139",
-      "autobus-121",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148",
-      "autobus-144",
-      "autobus-129",
-      "autobus-95",
-      "autobus-91",
-      "autobus-79"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-597",
@@ -2438,112 +1150,6 @@
       "autobus-34",
       "autobus-36",
       "autobus-28"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-463",
-      "autobus-494",
-      "autobus-543",
-      "autobus-574",
-      "autobus-591",
-      "autobus-595",
-      "autobus-610"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-463",
-      "autobus-494",
-      "autobus-543",
-      "autobus-574",
-      "autobus-591",
-      "autobus-595",
-      "autobus-610"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 12,
-     "circolare": false,
-     "fermate": [
-      "autobus-28",
-      "autobus-34",
-      "autobus-46",
-      "autobus-60",
-      "autobus-76",
-      "autobus-82",
-      "autobus-95",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148",
-      "autobus-144",
-      "autobus-138",
-      "autobus-124",
-      "autobus-126",
-      "autobus-166",
-      "autobus-158",
-      "autobus-152",
-      "autobus-132",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2587,36 +1193,6 @@
       "autobus-303",
       "autobus-313",
       "autobus-345"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-436",
-      "autobus-489",
-      "autobus-521",
-      "autobus-534",
-      "autobus-545",
-      "autobus-568",
-      "autobus-558"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-558",
-      "autobus-545",
-      "autobus-534",
-      "autobus-508",
-      "autobus-489",
-      "autobus-406"
      ],
      "richiesta": []
     }
@@ -2671,63 +1247,6 @@
       "autobus-17"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-320",
-      "autobus-303",
-      "autobus-313",
-      "autobus-331",
-      "autobus-266",
-      "autobus-103",
-      "autobus-198",
-      "autobus-159",
-      "autobus-72",
-      "autobus-38",
-      "autobus-29",
-      "autobus-17"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-10",
-      "autobus-17",
-      "autobus-29",
-      "autobus-38",
-      "autobus-77",
-      "autobus-103",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-10",
-      "autobus-17",
-      "autobus-29",
-      "autobus-38",
-      "autobus-77",
-      "autobus-103",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266",
-      "autobus-331",
-      "autobus-313",
-      "autobus-298",
-      "autobus-320",
-      "autobus-406"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -2742,22 +1261,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-518",
-      "autobus-587",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-607",
@@ -2780,120 +1283,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-607",
-      "autobus-605",
-      "autobus-593",
-      "autobus-509",
-      "autobus-556",
-      "autobus-561",
-      "autobus-543",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-345",
-      "autobus-357",
-      "autobus-298",
-      "autobus-333",
-      "autobus-351",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-518",
-      "autobus-587",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-518",
-      "autobus-587",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-607",
-      "autobus-605",
-      "autobus-593",
-      "autobus-509",
-      "autobus-556",
-      "autobus-561",
-      "autobus-543",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-345",
-      "autobus-357",
-      "autobus-298",
-      "autobus-333",
-      "autobus-351",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-518",
-      "autobus-587",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-345",
-      "autobus-357",
-      "autobus-298",
-      "autobus-333",
-      "autobus-351",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-518",
-      "autobus-587",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-345",
@@ -2928,53 +1318,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-613",
-      "autobus-607",
-      "autobus-605",
-      "autobus-593",
-      "autobus-592",
-      "autobus-582",
-      "autobus-559",
-      "autobus-479",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-208",
-      "autobus-193",
-      "autobus-201",
-      "autobus-142",
-      "autobus-104",
-      "autobus-100"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-100",
-      "autobus-104",
-      "autobus-135",
-      "autobus-201",
-      "autobus-207",
-      "autobus-208",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-100",
       "autobus-104",
       "autobus-135",
@@ -3000,7 +1343,7 @@
      "richiesta": []
     },
     {
-     "direzione": 3,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-613",
@@ -3011,7 +1354,19 @@
       "autobus-582",
       "autobus-559",
       "autobus-479",
-      "autobus-406"
+      "autobus-406",
+      "autobus-381",
+      "autobus-347",
+      "autobus-312",
+      "autobus-274",
+      "autobus-252",
+      "autobus-234",
+      "autobus-208",
+      "autobus-193",
+      "autobus-201",
+      "autobus-142",
+      "autobus-104",
+      "autobus-100"
      ],
      "richiesta": []
     }
@@ -3028,44 +1383,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-557",
-      "autobus-561",
-      "autobus-572",
-      "autobus-587",
-      "autobus-580",
-      "autobus-568",
-      "autobus-503",
-      "autobus-497",
-      "autobus-488",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-439",
-      "autobus-379",
-      "autobus-401",
-      "autobus-340",
-      "autobus-324",
-      "autobus-316",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-132",
-      "autobus-152",
-      "autobus-142",
-      "autobus-104",
-      "autobus-100"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-100",
@@ -3100,6 +1417,44 @@
       "autobus-561",
       "autobus-543",
       "autobus-557"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-557",
+      "autobus-561",
+      "autobus-572",
+      "autobus-587",
+      "autobus-580",
+      "autobus-568",
+      "autobus-503",
+      "autobus-497",
+      "autobus-488",
+      "autobus-499",
+      "autobus-491",
+      "autobus-483",
+      "autobus-456",
+      "autobus-439",
+      "autobus-379",
+      "autobus-401",
+      "autobus-340",
+      "autobus-324",
+      "autobus-316",
+      "autobus-274",
+      "autobus-252",
+      "autobus-234",
+      "autobus-213",
+      "autobus-175",
+      "autobus-150",
+      "autobus-116",
+      "autobus-132",
+      "autobus-152",
+      "autobus-142",
+      "autobus-104",
+      "autobus-100"
      ],
      "richiesta": []
     }
@@ -3165,41 +1520,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-332",
-      "autobus-342",
-      "autobus-349",
-      "autobus-366",
-      "autobus-377",
-      "autobus-367",
-      "autobus-378",
-      "autobus-343",
-      "autobus-331",
-      "autobus-307",
-      "autobus-281",
-      "autobus-261",
-      "autobus-225",
-      "autobus-155",
-      "autobus-147",
-      "autobus-189",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-134",
-      "autobus-123",
-      "autobus-113",
-      "autobus-96",
-      "autobus-84",
-      "autobus-63"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-426",
       "autobus-422",
       "autobus-399",
@@ -3242,7 +1562,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-88",
@@ -3277,69 +1597,6 @@
       "autobus-332"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-332",
-      "autobus-342",
-      "autobus-349",
-      "autobus-366",
-      "autobus-377",
-      "autobus-367",
-      "autobus-378",
-      "autobus-343",
-      "autobus-331",
-      "autobus-307",
-      "autobus-281",
-      "autobus-261",
-      "autobus-225",
-      "autobus-155",
-      "autobus-147",
-      "autobus-189",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-63",
-      "autobus-84",
-      "autobus-96",
-      "autobus-113",
-      "autobus-123",
-      "autobus-137",
-      "autobus-109",
-      "autobus-116",
-      "autobus-156",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-261",
-      "autobus-281",
-      "autobus-307",
-      "autobus-313",
-      "autobus-331",
-      "autobus-378",
-      "autobus-367",
-      "autobus-377",
-      "autobus-363",
-      "autobus-349",
-      "autobus-342",
-      "autobus-332",
-      "autobus-350",
-      "autobus-362",
-      "autobus-399",
-      "autobus-422",
-      "autobus-426"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -3354,26 +1611,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-426",
-      "autobus-422",
-      "autobus-399",
-      "autobus-361",
-      "autobus-332",
-      "autobus-342",
-      "autobus-349",
-      "autobus-366",
-      "autobus-377",
-      "autobus-367",
-      "autobus-378",
-      "autobus-343",
-      "autobus-331"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-156",
@@ -3402,7 +1639,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-426",
@@ -3444,30 +1681,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-357",
-      "autobus-395",
-      "autobus-423",
-      "autobus-435",
-      "autobus-473",
-      "autobus-498",
-      "autobus-510",
-      "autobus-523",
-      "autobus-548",
-      "autobus-555",
-      "autobus-583",
-      "autobus-575",
-      "autobus-571"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-571",
       "autobus-575",
       "autobus-583",
@@ -3496,7 +1709,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-154",
@@ -3576,56 +1789,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-458",
-      "autobus-472",
-      "autobus-485",
-      "autobus-471",
-      "autobus-456",
-      "autobus-439",
-      "autobus-430",
-      "autobus-441",
-      "autobus-466",
-      "autobus-496",
-      "autobus-444",
-      "autobus-433",
-      "autobus-406",
-      "autobus-384",
-      "autobus-369",
-      "autobus-338",
-      "autobus-322",
-      "autobus-307",
-      "autobus-281",
-      "autobus-261",
-      "autobus-225",
-      "autobus-155",
-      "autobus-147"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-458",
-      "autobus-472",
-      "autobus-485",
-      "autobus-471",
-      "autobus-456",
-      "autobus-439",
-      "autobus-430",
-      "autobus-441",
-      "autobus-466",
-      "autobus-496",
-      "autobus-444",
-      "autobus-433",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
       "autobus-63",
       "autobus-84",
       "autobus-96",
@@ -3651,27 +1814,6 @@
       "autobus-431",
       "autobus-443",
       "autobus-458"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-63",
-      "autobus-84",
-      "autobus-96",
-      "autobus-113",
-      "autobus-123",
-      "autobus-153",
-      "autobus-211",
-      "autobus-261",
-      "autobus-281",
-      "autobus-307",
-      "autobus-314",
-      "autobus-338",
-      "autobus-369",
-      "autobus-406"
      ],
      "richiesta": []
     }
@@ -3890,29 +2032,6 @@
       "autobus-365",
       "autobus-389",
       "autobus-393",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-79",
-      "autobus-82",
-      "autobus-95",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148",
-      "autobus-164",
-      "autobus-196",
-      "autobus-238",
-      "autobus-262",
-      "autobus-306",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
       "autobus-406",
       "autobus-381",
       "autobus-351",
@@ -3928,25 +2047,6 @@
       "autobus-183",
       "autobus-170",
       "autobus-154"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-154",
-      "autobus-174",
-      "autobus-191",
-      "autobus-214",
-      "autobus-240",
-      "autobus-253",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406"
      ],
      "richiesta": []
     }
@@ -4058,47 +2158,6 @@
       "autobus-87"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-569",
-      "autobus-557",
-      "autobus-536",
-      "autobus-522",
-      "autobus-524",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -4113,43 +2172,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-98",
-      "autobus-101",
-      "autobus-126",
-      "autobus-166",
-      "autobus-158",
-      "autobus-152",
-      "autobus-132",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-444",
-      "autobus-448",
-      "autobus-446",
-      "autobus-445",
-      "autobus-457",
-      "autobus-475",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-451",
-      "autobus-440"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-440",
@@ -4182,6 +2204,43 @@
       "autobus-139",
       "autobus-101",
       "autobus-98"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-98",
+      "autobus-101",
+      "autobus-126",
+      "autobus-166",
+      "autobus-158",
+      "autobus-152",
+      "autobus-132",
+      "autobus-116",
+      "autobus-157",
+      "autobus-185",
+      "autobus-213",
+      "autobus-234",
+      "autobus-252",
+      "autobus-274",
+      "autobus-312",
+      "autobus-341",
+      "autobus-407",
+      "autobus-419",
+      "autobus-433",
+      "autobus-444",
+      "autobus-448",
+      "autobus-446",
+      "autobus-445",
+      "autobus-457",
+      "autobus-475",
+      "autobus-491",
+      "autobus-483",
+      "autobus-456",
+      "autobus-451",
+      "autobus-440"
      ],
      "richiesta": []
     }
@@ -4219,7 +2278,14 @@
       "autobus-241",
       "autobus-255",
       "autobus-263",
-      "autobus-267"
+      "autobus-267",
+      "autobus-103",
+      "autobus-198",
+      "autobus-159",
+      "autobus-72",
+      "autobus-38",
+      "autobus-29",
+      "autobus-17"
      ],
      "richiesta": []
     },
@@ -4257,40 +2323,6 @@
       "autobus-63"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-63",
-      "autobus-84",
-      "autobus-96",
-      "autobus-113",
-      "autobus-123",
-      "autobus-137",
-      "autobus-109",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-195",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-239",
-      "autobus-241",
-      "autobus-255",
-      "autobus-263",
-      "autobus-267",
-      "autobus-103",
-      "autobus-198",
-      "autobus-159",
-      "autobus-72",
-      "autobus-38",
-      "autobus-29",
-      "autobus-17"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -4305,32 +2337,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-180",
-      "autobus-179",
-      "autobus-177",
-      "autobus-184",
-      "autobus-197",
-      "autobus-222",
-      "autobus-229",
-      "autobus-308",
-      "autobus-300",
-      "autobus-292",
-      "autobus-287",
-      "autobus-254",
-      "autobus-251",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-180",
@@ -4377,47 +2383,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-318",
-      "autobus-396",
-      "autobus-385",
-      "autobus-364",
-      "autobus-356",
-      "autobus-348",
-      "autobus-329",
-      "autobus-301",
-      "autobus-291",
-      "autobus-282",
-      "autobus-273",
-      "autobus-253",
-      "autobus-258",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-305",
-      "autobus-251",
-      "autobus-254",
-      "autobus-287",
-      "autobus-288",
-      "autobus-290",
-      "autobus-229",
-      "autobus-222",
-      "autobus-216",
-      "autobus-197"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-318",
@@ -4528,58 +2494,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-458",
-      "autobus-472",
-      "autobus-485",
-      "autobus-471",
-      "autobus-456",
-      "autobus-439",
-      "autobus-430",
-      "autobus-441",
-      "autobus-457",
-      "autobus-445",
-      "autobus-446",
-      "autobus-450",
-      "autobus-452",
-      "autobus-444",
-      "autobus-433",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-285",
-      "autobus-256",
-      "autobus-242",
-      "autobus-237",
-      "autobus-201",
-      "autobus-158",
-      "autobus-152",
-      "autobus-132",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-147",
-      "autobus-153",
-      "autobus-211",
-      "autobus-239",
-      "autobus-241",
-      "autobus-255",
-      "autobus-263",
-      "autobus-267",
-      "autobus-257",
-      "autobus-269",
-      "autobus-278",
-      "autobus-259",
-      "autobus-217",
-      "autobus-188",
-      "autobus-141",
-      "autobus-154"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-75",
       "autobus-49",
       "autobus-56",
@@ -4675,22 +2589,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-10",
-      "autobus-17",
-      "autobus-29",
-      "autobus-38",
-      "autobus-77",
-      "autobus-103",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-607",
       "autobus-605",
       "autobus-593",
@@ -4713,83 +2611,6 @@
       "autobus-38",
       "autobus-29",
       "autobus-17"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-607",
-      "autobus-605",
-      "autobus-593",
-      "autobus-592",
-      "autobus-582",
-      "autobus-559",
-      "autobus-528",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-320",
-      "autobus-303",
-      "autobus-313",
-      "autobus-331",
-      "autobus-266",
-      "autobus-103",
-      "autobus-198",
-      "autobus-159",
-      "autobus-72",
-      "autobus-38",
-      "autobus-29",
-      "autobus-17"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-607",
-      "autobus-605",
-      "autobus-593",
-      "autobus-592",
-      "autobus-582",
-      "autobus-559",
-      "autobus-528",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-10",
-      "autobus-17",
-      "autobus-29",
-      "autobus-38",
-      "autobus-77",
-      "autobus-103",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266",
-      "autobus-331",
-      "autobus-313",
-      "autobus-298",
-      "autobus-320",
-      "autobus-406",
-      "autobus-407",
-      "autobus-463",
-      "autobus-494",
-      "autobus-525",
-      "autobus-564",
-      "autobus-582",
-      "autobus-592",
-      "autobus-593",
-      "autobus-605",
-      "autobus-607"
      ],
      "richiesta": []
     }
@@ -4806,6 +2627,48 @@
    "direzioni": [
     {
      "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-597",
+      "autobus-610",
+      "autobus-591",
+      "autobus-574",
+      "autobus-569",
+      "autobus-557",
+      "autobus-536",
+      "autobus-522",
+      "autobus-524",
+      "autobus-509",
+      "autobus-493",
+      "autobus-479",
+      "autobus-406",
+      "autobus-381",
+      "autobus-347",
+      "autobus-312",
+      "autobus-274",
+      "autobus-252",
+      "autobus-234",
+      "autobus-213",
+      "autobus-175",
+      "autobus-150",
+      "autobus-116",
+      "autobus-97",
+      "autobus-87",
+      "autobus-78",
+      "autobus-68",
+      "autobus-42",
+      "autobus-53",
+      "autobus-31",
+      "autobus-25",
+      "autobus-14",
+      "autobus-8",
+      "autobus-3",
+      "autobus-1"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-6",
@@ -4843,192 +2706,6 @@
       "autobus-591",
       "autobus-595",
       "autobus-610"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-1",
-      "autobus-6",
-      "autobus-8",
-      "autobus-14",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-515",
-      "autobus-524",
-      "autobus-522",
-      "autobus-536",
-      "autobus-557",
-      "autobus-569"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-569",
-      "autobus-557",
-      "autobus-536",
-      "autobus-522",
-      "autobus-524",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-97",
-      "autobus-87",
-      "autobus-78",
-      "autobus-68",
-      "autobus-42",
-      "autobus-53",
-      "autobus-31",
-      "autobus-25",
-      "autobus-14",
-      "autobus-8",
-      "autobus-3",
-      "autobus-1"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-569",
-      "autobus-557",
-      "autobus-536",
-      "autobus-522",
-      "autobus-524",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-610",
-      "autobus-591",
-      "autobus-574",
-      "autobus-569",
-      "autobus-557",
-      "autobus-536",
-      "autobus-522",
-      "autobus-524",
-      "autobus-509",
-      "autobus-493",
-      "autobus-479",
-      "autobus-406",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-97",
-      "autobus-87",
-      "autobus-78",
-      "autobus-68",
-      "autobus-42",
-      "autobus-53",
-      "autobus-31",
-      "autobus-25",
-      "autobus-14",
-      "autobus-8",
-      "autobus-3",
-      "autobus-1"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-6",
-      "autobus-8",
-      "autobus-14",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-74",
-      "autobus-83",
-      "autobus-87",
-      "autobus-97",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-406",
-      "autobus-407",
-      "autobus-467",
-      "autobus-493",
-      "autobus-515",
-      "autobus-524",
-      "autobus-522",
-      "autobus-536",
-      "autobus-557"
      ],
      "richiesta": []
     }
@@ -5141,56 +2818,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-88",
-      "autobus-19",
-      "autobus-48",
-      "autobus-16",
-      "autobus-24",
-      "autobus-39",
-      "autobus-44",
-      "autobus-81",
-      "autobus-96",
-      "autobus-113",
-      "autobus-123",
-      "autobus-137",
-      "autobus-109",
-      "autobus-116",
-      "autobus-157",
-      "autobus-185",
-      "autobus-213",
-      "autobus-234",
-      "autobus-252",
-      "autobus-274",
-      "autobus-312",
-      "autobus-341",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-315",
-      "autobus-271",
-      "autobus-248",
-      "autobus-221",
-      "autobus-212",
-      "autobus-204",
-      "autobus-192",
-      "autobus-172",
-      "autobus-164",
-      "autobus-148",
-      "autobus-144",
-      "autobus-129",
-      "autobus-95",
-      "autobus-82",
-      "autobus-79",
-      "autobus-91",
-      "autobus-92"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-79",
       "autobus-82",
       "autobus-95",
@@ -5238,46 +2865,52 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-79",
-      "autobus-82",
-      "autobus-95",
-      "autobus-118",
-      "autobus-111",
-      "autobus-148",
-      "autobus-164",
-      "autobus-172",
-      "autobus-192",
-      "autobus-196",
-      "autobus-212",
-      "autobus-221",
-      "autobus-248",
-      "autobus-262",
-      "autobus-306",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393",
-      "autobus-381",
-      "autobus-347",
-      "autobus-312",
-      "autobus-274",
-      "autobus-252",
-      "autobus-234",
-      "autobus-213",
-      "autobus-175",
-      "autobus-150",
-      "autobus-116",
-      "autobus-106",
-      "autobus-137",
-      "autobus-134",
-      "autobus-123",
-      "autobus-113",
+      "autobus-88",
+      "autobus-19",
+      "autobus-48",
+      "autobus-16",
+      "autobus-24",
+      "autobus-39",
+      "autobus-44",
+      "autobus-81",
       "autobus-96",
-      "autobus-84",
-      "autobus-63"
+      "autobus-113",
+      "autobus-123",
+      "autobus-137",
+      "autobus-109",
+      "autobus-116",
+      "autobus-157",
+      "autobus-185",
+      "autobus-213",
+      "autobus-234",
+      "autobus-252",
+      "autobus-274",
+      "autobus-312",
+      "autobus-341",
+      "autobus-393",
+      "autobus-389",
+      "autobus-365",
+      "autobus-337",
+      "autobus-315",
+      "autobus-271",
+      "autobus-248",
+      "autobus-221",
+      "autobus-212",
+      "autobus-204",
+      "autobus-192",
+      "autobus-172",
+      "autobus-164",
+      "autobus-148",
+      "autobus-144",
+      "autobus-129",
+      "autobus-95",
+      "autobus-82",
+      "autobus-79",
+      "autobus-91",
+      "autobus-92"
      ],
      "richiesta": []
     }
@@ -5379,72 +3012,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-5",
-      "autobus-9",
-      "autobus-117",
-      "autobus-151",
-      "autobus-168",
-      "autobus-174",
-      "autobus-191",
-      "autobus-214",
-      "autobus-240",
-      "autobus-253",
-      "autobus-267",
-      "autobus-276",
-      "autobus-281",
-      "autobus-307",
-      "autobus-298",
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-462",
-      "autobus-496",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-451",
-      "autobus-440"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-440",
-      "autobus-453",
-      "autobus-468",
-      "autobus-477",
-      "autobus-491",
-      "autobus-505",
-      "autobus-444",
-      "autobus-496",
-      "autobus-433",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-307",
-      "autobus-281",
-      "autobus-279",
-      "autobus-267",
-      "autobus-235",
-      "autobus-214",
-      "autobus-191",
-      "autobus-173",
-      "autobus-167",
-      "autobus-99",
-      "autobus-107"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-440",
       "autobus-453",
       "autobus-468",
@@ -5474,6 +3041,40 @@
       "autobus-5"
      ],
      "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-5",
+      "autobus-9",
+      "autobus-117",
+      "autobus-151",
+      "autobus-168",
+      "autobus-174",
+      "autobus-191",
+      "autobus-214",
+      "autobus-240",
+      "autobus-253",
+      "autobus-267",
+      "autobus-276",
+      "autobus-281",
+      "autobus-307",
+      "autobus-298",
+      "autobus-406",
+      "autobus-407",
+      "autobus-419",
+      "autobus-433",
+      "autobus-462",
+      "autobus-496",
+      "autobus-499",
+      "autobus-491",
+      "autobus-483",
+      "autobus-456",
+      "autobus-451",
+      "autobus-440"
+     ],
+     "richiesta": []
     }
    ]
   },
@@ -5490,21 +3091,18 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-3",
-      "autobus-8",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-87",
-      "autobus-106",
-      "autobus-130",
-      "autobus-153",
-      "autobus-225",
-      "autobus-281",
+      "autobus-333",
       "autobus-307",
-      "autobus-320"
+      "autobus-281",
+      "autobus-225",
+      "autobus-155",
+      "autobus-137",
+      "autobus-87",
+      "autobus-68",
+      "autobus-53",
+      "autobus-42",
+      "autobus-31",
+      "autobus-6"
      ],
      "richiesta": []
     },
@@ -5527,84 +3125,6 @@
       "autobus-281",
       "autobus-307",
       "autobus-320"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-333",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-25",
-      "autobus-8",
-      "autobus-3"
      ],
      "richiesta": []
     }
@@ -5635,38 +3155,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-405",
-      "autobus-347",
-      "autobus-333"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
       "autobus-303",
       "autobus-333",
       "autobus-341",
@@ -5689,25 +3177,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-333",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-6",
       "autobus-31",
       "autobus-42",
@@ -5725,23 +3194,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-333",
@@ -5756,65 +3209,6 @@
       "autobus-42",
       "autobus-31",
       "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-333",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-333",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-6",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-87",
-      "autobus-106",
-      "autobus-137"
      ],
      "richiesta": []
     }
@@ -5832,12 +3226,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
      "fermate": [
       "autobus-6",
       "autobus-31",
@@ -5856,13 +3244,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-307",
@@ -5875,26 +3257,6 @@
       "autobus-53",
       "autobus-42",
       "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
       "autobus-6"
      ],
      "richiesta": []
@@ -5914,6 +3276,25 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-405",
+      "autobus-307",
+      "autobus-281",
+      "autobus-225",
+      "autobus-155",
+      "autobus-137",
+      "autobus-87",
+      "autobus-68",
+      "autobus-53",
+      "autobus-42",
+      "autobus-31",
+      "autobus-6"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
       "autobus-6",
       "autobus-31",
       "autobus-42",
@@ -5929,82 +3310,6 @@
       "autobus-333",
       "autobus-405"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-6",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-87",
-      "autobus-106",
-      "autobus-130",
-      "autobus-153",
-      "autobus-225",
-      "autobus-281",
-      "autobus-307",
-      "autobus-333"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-137",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-6"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -6021,12 +3326,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
      "fermate": [
       "autobus-6",
       "autobus-31",
@@ -6046,19 +3345,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-405",
@@ -6074,12 +3361,6 @@
       "autobus-31",
       "autobus-6"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -6111,12 +3392,6 @@
       "autobus-333"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -6132,28 +3407,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-38",
-      "autobus-77",
-      "autobus-128",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266",
-      "autobus-313",
-      "autobus-333",
-      "autobus-405"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
      "fermate": [
       "autobus-38",
       "autobus-77",
@@ -6165,22 +3418,7 @@
      "richiesta": []
     },
     {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-405",
@@ -6224,12 +3462,6 @@
     {
      "direzione": 1,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
      "fermate": [
       "autobus-405",
       "autobus-313",
@@ -6239,140 +3471,6 @@
       "autobus-128",
       "autobus-72",
       "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-38",
-      "autobus-77",
-      "autobus-128",
-      "autobus-159",
-      "autobus-198",
-      "autobus-266"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [
-      "autobus-217",
-      "autobus-246",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38",
-      "autobus-29",
-      "autobus-17"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
-     "fermate": [
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 12,
-     "circolare": false,
-     "fermate": [
-      "autobus-38",
-      "autobus-77",
-      "autobus-128",
-      "autobus-159",
-      "autobus-198",
-      "autobus-284",
-      "autobus-323"
      ],
      "richiesta": []
     }
@@ -6422,12 +3520,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
      "fermate": [
       "autobus-38",
       "autobus-77",
@@ -6438,6 +3530,12 @@
       "autobus-313",
       "autobus-333"
      ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [],
      "richiesta": []
     }
    ]
@@ -6478,21 +3576,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-174",
-      "autobus-89",
-      "autobus-56",
-      "autobus-4"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-38",
       "autobus-77",
       "autobus-128",
@@ -6506,37 +3589,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
-      "autobus-159",
-      "autobus-128",
-      "autobus-72",
-      "autobus-38"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-405",
@@ -6589,46 +3642,6 @@
       "autobus-405"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-269",
-      "autobus-286",
-      "autobus-301",
-      "autobus-107"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-269",
-      "autobus-286",
-      "autobus-301",
-      "autobus-107"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-107",
-      "autobus-301",
-      "autobus-286",
-      "autobus-258",
-      "autobus-266"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -6645,11 +3658,12 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-107",
-      "autobus-174",
-      "autobus-198",
+      "autobus-405",
+      "autobus-313",
       "autobus-266",
-      "autobus-313"
+      "autobus-198",
+      "autobus-174",
+      "autobus-107"
      ],
      "richiesta": []
     },
@@ -6657,12 +3671,11 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-266",
-      "autobus-198",
+      "autobus-107",
       "autobus-174",
-      "autobus-107"
+      "autobus-198",
+      "autobus-266",
+      "autobus-313"
      ],
      "richiesta": []
     }
@@ -6692,12 +3705,6 @@
     {
      "direzione": 1,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
      "fermate": [
       "autobus-405",
       "autobus-313",
@@ -6705,28 +3712,6 @@
       "autobus-352",
       "autobus-383",
       "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-286",
-      "autobus-301"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327"
      ],
      "richiesta": []
     }
@@ -6744,7 +3729,13 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
+     "fermate": [
+      "autobus-397",
+      "autobus-382",
+      "autobus-352",
+      "autobus-327",
+      "autobus-313"
+     ],
      "richiesta": []
     },
     {
@@ -6757,65 +3748,6 @@
       "autobus-383",
       "autobus-397"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327",
-      "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -6835,17 +3767,6 @@
      "fermate": [
       "autobus-397",
       "autobus-382",
-      "autobus-301",
-      "autobus-286"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
       "autobus-352",
       "autobus-327",
       "autobus-313",
@@ -6855,7 +3776,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-405",
@@ -6864,54 +3785,6 @@
       "autobus-352",
       "autobus-383",
       "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-405",
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-269",
-      "autobus-286",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327"
      ],
      "richiesta": []
     }
@@ -6942,53 +3815,11 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
       "autobus-397",
       "autobus-382",
       "autobus-352",
       "autobus-327",
       "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327",
-      "autobus-313",
-      "autobus-333"
      ],
      "richiesta": []
     }
@@ -7019,64 +3850,11 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
       "autobus-397",
       "autobus-382",
       "autobus-352",
       "autobus-327",
       "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327"
      ],
      "richiesta": []
     }
@@ -7106,46 +3884,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-313",
-      "autobus-327",
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-352",
-      "autobus-383",
-      "autobus-397"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-397",
-      "autobus-382",
-      "autobus-352",
-      "autobus-327"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
      "circolare": false,
      "fermate": [
       "autobus-397",
@@ -7184,30 +3922,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-449",
-      "autobus-482",
-      "autobus-549",
-      "autobus-579",
-      "autobus-594"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
       "autobus-594",
       "autobus-589",
       "autobus-579",
@@ -7216,44 +3930,6 @@
       "autobus-449",
       "autobus-333",
       "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-594",
-      "autobus-589",
-      "autobus-579",
-      "autobus-549",
-      "autobus-482",
-      "autobus-449"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-594",
-      "autobus-589",
-      "autobus-579",
-      "autobus-549",
-      "autobus-482",
-      "autobus-449"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-449",
-      "autobus-482",
-      "autobus-549",
-      "autobus-579",
-      "autobus-594"
      ],
      "richiesta": []
     }
@@ -7271,18 +3947,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
      "fermate": [
       "autobus-449",
       "autobus-482",
@@ -7293,19 +3957,7 @@
      "richiesta": []
     },
     {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-594",
@@ -7335,75 +3987,6 @@
      "circolare": false,
      "fermate": [
       "autobus-581",
-      "autobus-493",
-      "autobus-479",
-      "autobus-403",
-      "autobus-333",
-      "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-581",
       "autobus-539",
       "autobus-482",
       "autobus-449",
@@ -7413,17 +3996,7 @@
      "richiesta": []
     },
     {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-581",
-      "autobus-493",
-      "autobus-479"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-403",
@@ -7459,28 +4032,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
       "autobus-581",
       "autobus-493",
       "autobus-479",
@@ -7488,12 +4039,6 @@
       "autobus-333",
       "autobus-313"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -7511,9 +4056,11 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
+      "autobus-581",
+      "autobus-493",
+      "autobus-479",
+      "autobus-333",
+      "autobus-313"
      ],
      "richiesta": []
     },
@@ -7525,50 +4072,6 @@
       "autobus-482",
       "autobus-548"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-581",
-      "autobus-493",
-      "autobus-479",
-      "autobus-333",
-      "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-581",
-      "autobus-493",
-      "autobus-479"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-449",
-      "autobus-482",
-      "autobus-548"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -7599,64 +4102,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-595"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-595"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-595"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-595"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
       "autobus-597",
       "autobus-574",
       "autobus-543",
@@ -7665,33 +4110,6 @@
       "autobus-403",
       "autobus-333",
       "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-595"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-574",
-      "autobus-543",
-      "autobus-482",
-      "autobus-449",
-      "autobus-403",
-      "autobus-333"
      ],
      "richiesta": []
     }
@@ -7710,32 +4128,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-593",
-      "autobus-605"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
       "autobus-607",
       "autobus-605",
       "autobus-593",
@@ -7750,7 +4142,7 @@
      "richiesta": []
     },
     {
-     "direzione": 4,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-403",
@@ -7759,38 +4151,7 @@
       "autobus-543",
       "autobus-574",
       "autobus-593",
-      "autobus-605",
-      "autobus-486"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-525",
-      "autobus-503",
-      "autobus-547",
-      "autobus-588",
-      "autobus-598"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-449",
-      "autobus-482",
-      "autobus-543",
-      "autobus-574",
-      "autobus-593",
-      "autobus-605",
-      "autobus-486"
+      "autobus-605"
      ],
      "richiesta": []
     }
@@ -7820,12 +4181,6 @@
     {
      "direzione": 1,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
      "fermate": [
       "autobus-553",
       "autobus-530",
@@ -7835,36 +4190,6 @@
       "autobus-403",
       "autobus-333",
       "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
      ],
      "richiesta": []
     }
@@ -7883,56 +4208,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-486"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
       "autobus-553",
       "autobus-530",
       "autobus-502",
@@ -7945,17 +4220,15 @@
      "richiesta": []
     },
     {
-     "direzione": 6,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-486"
+      "autobus-403",
+      "autobus-433",
+      "autobus-502",
+      "autobus-530",
+      "autobus-553"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -7972,12 +4245,6 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
      "fermate": [
       "autobus-553",
       "autobus-530",
@@ -7991,37 +4258,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-403",
-      "autobus-433",
-      "autobus-502",
-      "autobus-530",
-      "autobus-553"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-403",
@@ -8047,9 +4284,8 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-455",
-      "autobus-441",
-      "autobus-433"
+      "autobus-433",
+      "autobus-454"
      ],
      "richiesta": []
     },
@@ -8063,93 +4299,6 @@
       "autobus-333",
       "autobus-313"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-461"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-433",
-      "autobus-454"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-433",
-      "autobus-454"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-455",
-      "autobus-441",
-      "autobus-433"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [
-      "autobus-433",
-      "autobus-454"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [
-      "autobus-433",
-      "autobus-454"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
-     "fermate": [
-      "autobus-433",
-      "autobus-454"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 12,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -8182,89 +4331,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-292",
-      "autobus-287",
-      "autobus-254",
-      "autobus-251",
-      "autobus-337",
-      "autobus-405",
-      "autobus-351",
-      "autobus-333"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405",
-      "autobus-337",
-      "autobus-251",
-      "autobus-254",
-      "autobus-287",
-      "autobus-288",
-      "autobus-293"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405",
-      "autobus-337",
-      "autobus-251",
-      "autobus-254",
-      "autobus-287",
-      "autobus-288",
-      "autobus-293"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405",
-      "autobus-337",
-      "autobus-251",
-      "autobus-254",
-      "autobus-287",
-      "autobus-288",
-      "autobus-293"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-405",
-      "autobus-337",
-      "autobus-251",
-      "autobus-254",
-      "autobus-287",
-      "autobus-288",
-      "autobus-293"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
      "circolare": false,
      "fermate": [
       "autobus-303",
@@ -8319,20 +4385,6 @@
       "autobus-127"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-337",
-      "autobus-210",
-      "autobus-169",
-      "autobus-127"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -8373,33 +4425,6 @@
       "autobus-303"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-127",
-      "autobus-169",
-      "autobus-210",
-      "autobus-337",
-      "autobus-351",
-      "autobus-333"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-127",
-      "autobus-169",
-      "autobus-210",
-      "autobus-337",
-      "autobus-351",
-      "autobus-333",
-      "autobus-322"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -8429,24 +4454,6 @@
     {
      "direzione": 1,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
      "fermate": [
       "autobus-180",
       "autobus-177",
@@ -8456,20 +4463,6 @@
       "autobus-333",
       "autobus-322",
       "autobus-303"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-337",
-      "autobus-210",
-      "autobus-177",
-      "autobus-178"
      ],
      "richiesta": []
     }
@@ -8488,26 +4481,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-303",
-      "autobus-333",
-      "autobus-341",
-      "autobus-337",
-      "autobus-210",
-      "autobus-169",
-      "autobus-127"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-127",
       "autobus-169",
       "autobus-210",
@@ -8516,6 +4489,20 @@
       "autobus-333",
       "autobus-322",
       "autobus-303"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-303",
+      "autobus-333",
+      "autobus-341",
+      "autobus-337",
+      "autobus-210",
+      "autobus-169",
+      "autobus-127"
      ],
      "richiesta": []
     }
@@ -8552,64 +4539,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-3",
-      "autobus-8",
-      "autobus-23",
-      "autobus-31",
-      "autobus-42",
-      "autobus-53",
-      "autobus-68",
-      "autobus-87",
-      "autobus-116",
-      "autobus-213",
-      "autobus-274"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
-      "autobus-312",
-      "autobus-274",
-      "autobus-219",
-      "autobus-119",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-25",
-      "autobus-8",
-      "autobus-3"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
-      "autobus-312",
-      "autobus-274",
-      "autobus-219",
-      "autobus-119",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53",
-      "autobus-42",
-      "autobus-31",
-      "autobus-25",
-      "autobus-8",
-      "autobus-3"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
      "circolare": false,
      "fermate": [
       "autobus-320",
@@ -8673,24 +4602,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -8705,12 +4616,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -8734,42 +4639,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -8819,30 +4688,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -8863,30 +4708,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -8913,12 +4734,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -8942,42 +4757,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -8993,29 +4772,15 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
+     "fermate": [
+      "autobus-362"
+     ],
      "richiesta": []
     },
     {
      "direzione": 1,
      "circolare": false,
      "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
      "richiesta": []
     }
    ]
@@ -9044,14 +4809,6 @@
       "autobus-362"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -9067,7 +4824,9 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
+     "fermate": [
+      "autobus-362"
+     ],
      "richiesta": []
     },
     {
@@ -9076,20 +4835,6 @@
      "fermate": [
       "autobus-362"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -9113,36 +4858,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
      "circolare": false,
      "fermate": [
       "autobus-362"
@@ -9175,14 +4890,6 @@
       "autobus-362"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -9198,7 +4905,9 @@
     {
      "direzione": 0,
      "circolare": false,
-     "fermate": [],
+     "fermate": [
+      "autobus-362"
+     ],
      "richiesta": []
     },
     {
@@ -9207,36 +4916,6 @@
      "fermate": [
       "autobus-362"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -9261,12 +4940,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9287,18 +4960,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -9352,14 +5013,6 @@
       "autobus-362"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
     }
    ]
   },
@@ -9383,24 +5036,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9421,24 +5056,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -9469,20 +5086,6 @@
       "autobus-362"
      ],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9507,14 +5110,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
      "richiesta": []
     }
    ]
@@ -9562,12 +5157,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9588,12 +5177,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -9620,12 +5203,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9649,12 +5226,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -9675,24 +5246,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -9819,9 +5372,9 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-286",
+      "autobus-303",
       "autobus-266",
-      "autobus-303"
+      "autobus-286"
      ],
      "richiesta": []
     },
@@ -9829,9 +5382,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-303",
+      "autobus-286",
       "autobus-266",
-      "autobus-286"
+      "autobus-303"
      ],
      "richiesta": []
     }
@@ -9882,9 +5435,10 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-303",
+      "autobus-479",
       "autobus-406",
-      "autobus-493"
+      "autobus-320",
+      "autobus-303"
      ],
      "richiesta": []
     },
@@ -9892,10 +5446,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-479",
+      "autobus-303",
       "autobus-406",
-      "autobus-320",
-      "autobus-303"
+      "autobus-493"
      ],
      "richiesta": []
     }
@@ -9914,6 +5467,7 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-320",
       "autobus-303"
      ],
      "richiesta": []
@@ -9922,15 +5476,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-303"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-320",
       "autobus-303"
      ],
      "richiesta": []
@@ -9950,6 +5495,7 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
+      "autobus-320",
       "autobus-303"
      ],
      "richiesta": []
@@ -9958,7 +5504,6 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "autobus-320",
       "autobus-303"
      ],
      "richiesta": []
@@ -9976,34 +5521,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-487",
-      "autobus-463",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-525",
-      "autobus-503",
-      "autobus-496",
-      "autobus-462",
-      "autobus-448",
-      "autobus-446",
-      "autobus-488",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
      "circolare": false,
      "fermate": [
       "autobus-209",
@@ -10034,157 +5551,12 @@
      "richiesta": []
     },
     {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-298",
-      "autobus-333",
-      "autobus-351",
-      "autobus-406",
-      "autobus-407",
-      "autobus-419",
-      "autobus-433",
-      "autobus-462",
-      "autobus-496"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-543",
-      "autobus-524",
-      "autobus-549",
-      "autobus-579",
-      "autobus-594"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-320",
-      "autobus-303",
-      "autobus-313",
-      "autobus-331",
-      "autobus-378",
-      "autobus-367",
-      "autobus-377",
-      "autobus-363",
-      "autobus-349",
-      "autobus-342",
-      "autobus-332",
-      "autobus-350",
-      "autobus-362",
-      "autobus-399",
-      "autobus-422",
-      "autobus-426"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-315",
-      "autobus-271",
-      "autobus-248",
-      "autobus-221",
-      "autobus-203",
-      "autobus-186",
-      "autobus-162",
-      "autobus-124",
-      "autobus-101",
-      "autobus-98"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-525",
       "autobus-503",
       "autobus-547"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-320",
-      "autobus-303",
-      "autobus-313",
-      "autobus-331"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [
-      "autobus-496",
-      "autobus-433",
-      "autobus-406",
-      "autobus-333"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [
-      "autobus-525",
-      "autobus-503",
-      "autobus-496",
-      "autobus-462",
-      "autobus-448",
-      "autobus-446",
-      "autobus-488",
-      "autobus-499",
-      "autobus-491",
-      "autobus-483",
-      "autobus-456",
-      "autobus-439",
-      "autobus-427",
-      "autobus-297",
-      "autobus-209",
-      "autobus-187",
-      "autobus-169",
-      "autobus-143",
-      "autobus-127"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
-     "fermate": [
-      "autobus-543",
-      "autobus-487",
-      "autobus-463",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-313"
      ],
      "richiesta": []
     }
@@ -10201,28 +5573,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-315",
-      "autobus-271",
-      "autobus-248",
-      "autobus-221",
-      "autobus-203",
-      "autobus-186",
-      "autobus-162",
-      "autobus-139",
-      "autobus-98",
-      "autobus-101",
-      "autobus-53"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-374",
@@ -10249,57 +5599,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-267",
-      "autobus-241",
-      "autobus-155",
-      "autobus-147",
-      "autobus-137",
-      "autobus-97",
-      "autobus-87",
-      "autobus-68",
-      "autobus-53"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-53",
-      "autobus-68",
-      "autobus-87",
-      "autobus-106",
-      "autobus-130",
-      "autobus-153",
-      "autobus-211",
-      "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-53",
-      "autobus-121",
-      "autobus-140",
-      "autobus-162",
-      "autobus-186",
-      "autobus-212",
-      "autobus-238",
-      "autobus-305",
-      "autobus-337",
-      "autobus-365",
-      "autobus-389",
-      "autobus-393"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-55",
@@ -10336,16 +5636,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-223",
-      "autobus-251",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-345",
       "autobus-357",
       "autobus-298",
@@ -10359,7 +5649,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-223",
@@ -10371,21 +5661,6 @@
       "autobus-303",
       "autobus-313",
       "autobus-331"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-223",
-      "autobus-251",
-      "autobus-406",
-      "autobus-381",
-      "autobus-351",
-      "autobus-333",
-      "autobus-303",
-      "autobus-313"
      ],
      "richiesta": []
     }
@@ -10404,31 +5679,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-406",
-      "autobus-393",
-      "autobus-389",
-      "autobus-365",
-      "autobus-337",
-      "autobus-210"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-190",
-      "autobus-238",
-      "autobus-305",
-      "autobus-337",
-      "autobus-406"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
       "autobus-190",
       "autobus-238",
       "autobus-305",
@@ -10440,6 +5690,19 @@
       "autobus-303",
       "autobus-313",
       "autobus-331"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-406",
+      "autobus-393",
+      "autobus-389",
+      "autobus-365",
+      "autobus-337",
+      "autobus-210"
      ],
      "richiesta": []
     }
@@ -10524,18 +5787,6 @@
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "autobus-307",
-      "autobus-281",
-      "autobus-225",
-      "autobus-155",
-      "autobus-147"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [
       "autobus-106",
       "autobus-147",
       "autobus-153",
@@ -10545,6 +5796,18 @@
       "autobus-255",
       "autobus-263",
       "autobus-267"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-307",
+      "autobus-281",
+      "autobus-225",
+      "autobus-155",
+      "autobus-147"
      ],
      "richiesta": []
     }
@@ -10561,22 +5824,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-104",
-      "autobus-135",
-      "autobus-201",
-      "autobus-236",
-      "autobus-242",
-      "autobus-256",
-      "autobus-294",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-104",
@@ -10615,23 +5862,7 @@
      "richiesta": []
     },
     {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [
-      "autobus-104",
-      "autobus-135",
-      "autobus-201",
-      "autobus-236",
-      "autobus-242",
-      "autobus-256",
-      "autobus-294",
-      "autobus-312",
-      "autobus-341"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
+     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-49",
@@ -10660,22 +5891,6 @@
       "autobus-152",
       "autobus-142",
       "autobus-104"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [
-      "autobus-104",
-      "autobus-135",
-      "autobus-201",
-      "autobus-236",
-      "autobus-242",
-      "autobus-256",
-      "autobus-294",
-      "autobus-312",
-      "autobus-333"
      ],
      "richiesta": []
     }
@@ -10773,36 +5988,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -10826,30 +6011,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -10864,30 +6025,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -10911,52 +6048,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [
-      "autobus-486"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-574",
-      "autobus-543",
-      "autobus-482",
-      "autobus-449"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [
-      "autobus-597",
-      "autobus-574",
-      "autobus-543",
-      "autobus-482",
-      "autobus-449",
-      "autobus-333",
-      "autobus-313"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
      "circolare": false,
      "fermate": [
       "autobus-581",
@@ -10990,12 +6081,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -11010,38 +6095,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-362"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -11068,66 +6121,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -11148,42 +6141,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -11210,12 +6167,6 @@
      "circolare": false,
      "fermate": [],
      "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
     }
    ]
   },
@@ -11236,60 +6187,6 @@
     },
     {
      "direzione": 1,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
      "circolare": false,
      "fermate": [],
      "richiesta": []
@@ -11316,87 +6213,9 @@
     {
      "direzione": 1,
      "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 2,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 3,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 4,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 5,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 6,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 7,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 8,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 9,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 10,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 11,
-     "circolare": false,
      "fermate": [
       "autobus-607"
      ],
-     "richiesta": []
-    },
-    {
-     "direzione": 12,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 13,
-     "circolare": false,
-     "fermate": [],
-     "richiesta": []
-    },
-    {
-     "direzione": 14,
-     "circolare": false,
-     "fermate": [],
      "richiesta": []
     }
    ]
@@ -11412,20 +6231,6 @@
    "direzioni": [
     {
      "direzione": 0,
-     "circolare": false,
-     "fermate": [
-      "autobus-496",
-      "autobus-528",
-      "autobus-543",
-      "autobus-524",
-      "autobus-549",
-      "autobus-579",
-      "autobus-594"
-     ],
-     "richiesta": []
-    },
-    {
-     "direzione": 1,
      "circolare": false,
      "fermate": [
       "autobus-119",

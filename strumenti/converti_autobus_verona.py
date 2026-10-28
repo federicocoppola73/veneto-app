@@ -88,26 +88,47 @@ def main():
     non_trovate = 0
     totale_nomi = 0
     for linea, corse in linee_src.items():
+        # due sensi di marcia per linea (come sui PDF ATV): ogni percorso va nel senso del percorso più lungo
+        # che ha le stesse fermate in ordine avanti o indietro; le varianti dello stesso senso si fondono
+        unici = list(dict.fromkeys((c['direzione'], tuple(c['fermate'])) for c in corse))
         idx_dir = {}
         direzioni = []
-        for corsa in corse:
-            nome_dir = corsa['direzione']
-            if nome_dir in idx_dir:
-                continue
-            idx_dir[nome_dir] = len(direzioni)
-            fermate_ids = []
-            for nome in corsa['fermate']:
-                totale_nomi += 1
-                fid = id_fermata(nome, linea, nome_dir)
-                if fid is None:
-                    non_trovate += 1
-                    continue
-                if fid not in fermate_ids:
-                    fermate_ids.append(fid)
-                    fermata_linee.setdefault(fid, [])
-                    if f'AUT-{linea}' not in fermata_linee[fid]:
-                        fermata_linee[fid].append(f'AUT-{linea}')
-            direzioni.append({'direzione': len(direzioni), 'circolare': False, 'fermate': fermate_ids, 'richiesta': []})
+        if unici:
+            riferimento = max(unici, key=lambda k: len(k[1]))[1]
+            pos_rif = {n: i for i, n in enumerate(riferimento)}
+
+            def senso(fermate):
+                comuni = [pos_rif[n] for n in fermate if n in pos_rif]
+                avanti = sum(1 for a, b in zip(comuni, comuni[1:]) if b > a)
+                indietro = sum(1 for a, b in zip(comuni, comuni[1:]) if b < a)
+                return 0 if avanti >= indietro else 1
+
+            per_senso = {0: [], 1: []}
+            for nome_c, fermate_c in unici:
+                per_senso[senso(fermate_c)].append((nome_c, fermate_c))
+            sensi = [x for x in (0, 1) if per_senso[x]]
+            idx_senso = {x: i for i, x in enumerate(sensi)}
+            # ogni nome di corsa va nel senso della corsa più lunga che lo porta
+            senso_nome = {}
+            for nome_c, fermate_c in sorted(unici, key=lambda k: -len(k[1])):
+                senso_nome.setdefault(nome_c, senso(fermate_c))
+            for x in sensi:
+                nome_dir, fermate_dir = max(per_senso[x], key=lambda k: len(k[1]))
+                fermate_ids = []
+                for nome in fermate_dir:
+                    totale_nomi += 1
+                    fid = id_fermata(nome, linea, nome_dir)
+                    if fid is None:
+                        non_trovate += 1
+                        continue
+                    if fid not in fermate_ids:
+                        fermate_ids.append(fid)
+                        fermata_linee.setdefault(fid, [])
+                        if f'AUT-{linea}' not in fermata_linee[fid]:
+                            fermata_linee[fid].append(f'AUT-{linea}')
+                direzioni.append({'direzione': idx_senso[x], 'circolare': False, 'fermate': fermate_ids, 'richiesta': []})
+            for nome_c, x in senso_nome.items():
+                idx_dir[nome_c] = idx_senso[x]
         direzioni_per_linea[linea] = idx_dir
         url = URL_ORARI_ATV  # pagina generica ATV: i PDF per linea non sono chiari
         linee_out.append({
