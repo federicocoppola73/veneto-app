@@ -95,7 +95,7 @@ def main():
                     fermata_linee.setdefault(fid, [])
                     if f'AUT-{linea}' not in fermata_linee[fid]:
                         fermata_linee[fid].append(f'AUT-{linea}')
-            direzioni.append({'direzione': len(direzioni), 'circolare': False, 'fermate': fermate_ids, 'richiesta': False})
+            direzioni.append({'direzione': len(direzioni), 'circolare': False, 'fermate': fermate_ids, 'richiesta': []})
         direzioni_per_linea[linea] = idx_dir
         url = next((c.get('url', '') for c in corse if c.get('url')), '')
         linee_out.append({

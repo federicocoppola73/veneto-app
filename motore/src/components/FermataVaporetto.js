@@ -348,7 +348,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
                 const qui = i === schema.qui;
                 const passata = i < schema.qui;
                 const ultima = i === schema.fermate.length - 1;
-                const richiesta = direzione.richiesta.includes(id);
+                const richiesta = Array.isArray(direzione.richiesta) && direzione.richiesta.includes(id);
                 return (
                   <View key={`${id}-${i}`} style={[styles.riga, passata && styles.rigaPassata]}>
                     <View style={styles.colonnaBarra}>
