@@ -71,7 +71,7 @@ export default function App({ onEsci }) {
   return (
     <SafeAreaProvider>
       <Schermata />
-      {onEsci ? <Pressable onPress={onEsci} style={{ position: 'absolute', top: 40, left: 8, zIndex: 99, backgroundColor: '#ffffffdd', borderRadius: 8, paddingHorizontal: 10, paddingVertical: 6 }}><Text style={{ color: '#1d4ed8', fontWeight: '700' }}>← Città</Text></Pressable> : null}
+      {onEsci ? <Pressable onPress={onEsci} style={{ position: 'absolute', bottom: 64, left: 12, zIndex: 99, backgroundColor: '#1e3a8af0', borderRadius: 18, paddingHorizontal: 12, paddingVertical: 7 }}><Text style={{ color: '#fff', fontWeight: '700' }}>← Città</Text></Pressable> : null}
     </SafeAreaProvider>
   );
 }

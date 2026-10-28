@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
@@ -70,6 +70,16 @@ export default function App() {
       }
       setDatiAperti({ luoghi: dati.luoghi, mappa });
     });
+  }, [cittaAperta]);
+
+  // Tasto indietro di Android: se una città è aperta, torna all'elenco (il motore ha la precedenza)
+  useEffect(() => {
+    if (!cittaAperta) return undefined;
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      setCittaAperta(null);
+      return true;
+    });
+    return () => sub.remove();
   }, [cittaAperta]);
 
   useEffect(() => {

@@ -38,7 +38,9 @@ function notifiche() {
   // In Expo Go (Android) expo-notifications non si carica: lì gli avvisi semplicemente non ci sono.
   // Nella versione installata dallo store invece funzionano.
   // Expo Go (appOwnership 'expo') non ha il codice nativo delle notifiche: non lo carichiamo affatto
-  if (Platform.OS === 'web' || Constants.appOwnership === 'expo' || Constants.executionEnvironment === ExecutionEnvironment.StoreClient) return null;
+  // Il modulo esiste solo nelle build dello store: la variabile è impostata nel profilo di build (eas.json)
+  if (process.env.EXPO_PUBLIC_NOTIFICHE !== '1') return null;
+  if (Platform.OS === 'web' || Constants.executionEnvironment === ExecutionEnvironment.StoreClient) return null;
   try {
     Notifications = require('expo-notifications');
     if (!Notifications?.setNotificationHandler) throw new Error('modulo notifiche assente');
