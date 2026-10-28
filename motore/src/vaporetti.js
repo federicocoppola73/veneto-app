@@ -114,7 +114,7 @@ export function direzioniDallaFermata(linea, fermataId) {
 
 // pagina degli orari ACTV della linea (una per direzione); per le linee senza pagina propria, l'elenco generale
 export function urlOrariLinea(linea, direzione) {
-  if (linea.pdf) return linea.pdf; // autobus e tram: PDF ACTV della linea (autobus.json)
+  if (linea.pdf) return linea.pdf; // autobus e tram: pagina ATV con i percorsi e gli orari (autobus.json)
   if (!/^[0-9A-Z.]+$/.test(linea.id)) return URL_ORARI_NAVIGAZIONE;
   return `https://orari.actv.it/line.html?service=NAV&linename=${encodeURIComponent(linea.id)}&subsector=&direction=${direzione}`;
 }

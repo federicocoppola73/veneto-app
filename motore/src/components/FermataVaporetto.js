@@ -63,6 +63,8 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
     lineaIniziale && lineaVaporetto(lineaIniziale) ? lineaIniziale : (linee[0] || lineeBus[0])?.id
   );
   const linea = lineaVaporetto(idLinea);
+  // le linee di bus sono dell'ATV (Verona), quelle del vaporetto dell'ACTV (Venezia)
+  const gestore = /^(AUT|TRAM)-/.test(idLinea || '') ? 'ATV' : 'ACTV';
   const direzioni = useMemo(() => (linea ? direzioniDallaFermata(linea, fermataId) : []), [linea, fermataId]);
   const [indiceDirezione, setIndiceDirezione] = useState(0);
   const direzione = direzioni[Math.min(indiceDirezione, direzioni.length - 1)];
@@ -210,7 +212,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
           <View style={styles.riquadroPartenze} testID="prossime-partenze">
             <Text style={styles.titoloPartenze}>🕘 {t('vap_partenze')}</Text>
             {partenze === null ? (
-              <Text style={styles.vuotoPartenze}>{t('vap_scaduti')}</Text>
+              <Text style={styles.vuotoPartenze}>{t('vap_scaduti').replace('{gestore}', gestore)}</Text>
             ) : partenze.length === 0 ? (
               <Text style={styles.vuotoPartenze}>{t('vap_nessunaCorsa')}</Text>
             ) : (
@@ -271,7 +273,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
               </View>
               <ScrollView key="orari" ref={scorrimentoOrario} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 4 }}>
                 {orario === null ? (
-                  <Text style={styles.vuotoOrario}>{t('vap_scaduti')}</Text>
+                  <Text style={styles.vuotoOrario}>{t('vap_scaduti').replace('{gestore}', gestore)}</Text>
                 ) : orario.length === 0 ? (
                   <Text style={styles.vuotoOrario}>{t('vap_nessunaCorsa')}</Text>
                 ) : (
@@ -317,7 +319,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
                   hitSlop={8}
                   testID="info-actv"
                   accessibilityRole="button"
-                  accessibilityLabel={t('vap_info')}
+                  accessibilityLabel={t('vap_info').replace('{gestore}', gestore)}
                   accessibilityState={{ expanded: infoAperta }}
                 >
                   <Text style={[styles.testoInfo, infoAperta && { color: '#fff' }]}>i</Text>
@@ -328,14 +330,14 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
         {infoAperta && linea ? (
           <>
             <View style={styles.riquadroInfo} testID="riquadro-info">
-              <Text style={styles.titoloInfo}>ⓘ {t('vap_info')}</Text>
-              <Text style={styles.nota}>{t('vap_nota').replace('{data}', dataBreve(validitaOrariPer(idLinea)[1]))}</Text>
+              <Text style={styles.titoloInfo}>ⓘ {t('vap_info').replace('{gestore}', gestore)}</Text>
+              <Text style={styles.nota}>{t('vap_nota').replace('{gestore}', gestore).replace('{data}', dataBreve(validitaOrariPer(idLinea)[1]))}</Text>
               <Pressable
                 style={({ pressed }) => [styles.bottone, pressed && { opacity: 0.85 }]}
                 onPress={() => Linking.openURL(urlOrariLinea(linea, direzione?.direzione ?? 0)).catch(() => {})}
                 accessibilityRole="link"
               >
-                <Text style={styles.testoBottone}>🕘 {t('vap_orari').replace('{n}', linea.etichetta || linea.id)}</Text>
+                <Text style={styles.testoBottone}>🕘 {t('vap_orari').replace('{gestore}', gestore).replace('{n}', linea.etichetta || linea.id)}</Text>
               </Pressable>
               <Pressable onPress={() => setInfoAperta(false)} hitSlop={8} style={styles.chiudiInfo} testID="chiudi-info">
                 <Text style={styles.testoChiudiInfo}>{t('chiudi')}</Text>

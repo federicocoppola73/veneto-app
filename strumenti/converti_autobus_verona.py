@@ -15,6 +15,7 @@ import unicodedata
 
 VALIDITA = ['20261025', '20261124']  # dal feed ATV in orari_fermate.json
 COLORE_DEFAULT = '#0B6BB7'
+URL_ORARI_ATV = 'https://www.atv.verona.it/orari-urbani/dettaglio-percorsi-orari-pdf'
 # giorni di servizio: indice nella lista "servizi" di orari_autobus.json
 SERVIZI = [
     {'giorni': '1111100', 'da': VALIDITA[0], 'a': VALIDITA[1]},  # feriale: lun-ven
@@ -97,7 +98,7 @@ def main():
                         fermata_linee[fid].append(f'AUT-{linea}')
             direzioni.append({'direzione': len(direzioni), 'circolare': False, 'fermate': fermate_ids, 'richiesta': []})
         direzioni_per_linea[linea] = idx_dir
-        url = next((c.get('url', '') for c in corse if c.get('url')), '')
+        url = URL_ORARI_ATV  # pagina generica ATV: i PDF per linea non sono chiari
         linee_out.append({
             'id': f'AUT-{linea}', 'etichetta': linea, 'mezzo': 'autobus', 'colore': COLORE_DEFAULT,
             'testo': '#FFFFFF', 'notturna': False, 'pdf': url, 'direzioni': direzioni,
