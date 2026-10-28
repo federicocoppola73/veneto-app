@@ -139,7 +139,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
 
   // Tutta la scheda scorre insieme (linee, partenze, fermate e orari): le liste interne non hanno più un'altezza propria
   return (
-    <ScrollView nestedScrollEnabled style={[styles.contenitore, altezza ? { height: altezza } : null]} contentContainerStyle={{ paddingBottom: 16 }}>
+    <ScrollView nestedScrollEnabled keyboardShouldPersistTaps="handled" style={[styles.contenitore, altezza ? { height: altezza } : null]} contentContainerStyle={{ paddingBottom: 16 }}>
       <View style={styles.testata}>
         {onIndietro ? (
           <Pressable onPress={onIndietro} style={styles.indietro} hitSlop={8} accessibilityLabel={t('vap_indietro')}>
@@ -325,6 +325,24 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
               ) : null}
               </View>
             </View>
+        {infoAperta && linea ? (
+          <>
+            <View style={styles.riquadroInfo} testID="riquadro-info">
+              <Text style={styles.titoloInfo}>ⓘ {t('vap_info')}</Text>
+              <Text style={styles.nota}>{t('vap_nota').replace('{data}', dataBreve(validitaOrariPer(idLinea)[1]))}</Text>
+              <Pressable
+                style={({ pressed }) => [styles.bottone, pressed && { opacity: 0.85 }]}
+                onPress={() => Linking.openURL(urlOrariLinea(linea, direzione?.direzione ?? 0)).catch(() => {})}
+                accessibilityRole="link"
+              >
+                <Text style={styles.testoBottone}>🕘 {t('vap_orari').replace('{n}', linea.etichetta || linea.id)}</Text>
+              </Pressable>
+              <Pressable onPress={() => setInfoAperta(false)} hitSlop={8} style={styles.chiudiInfo} testID="chiudi-info">
+                <Text style={styles.testoChiudiInfo}>{t('chiudi')}</Text>
+              </Pressable>
+            </View>
+          </>
+        ) : null}
             <ScrollView key="schema" ref={scorrimento} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 6 }}>
               {schema.fermate.map((id, i) => {
                 const qui = i === schema.qui;
@@ -364,25 +382,6 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
         </>
       )}
 
-      {infoAperta && linea ? (
-        <>
-          <Pressable style={styles.velo} onPress={() => setInfoAperta(false)} accessibilityLabel={t('chiudi')} />
-          <View style={styles.riquadroInfo} testID="riquadro-info">
-            <Text style={styles.titoloInfo}>ⓘ {t('vap_info')}</Text>
-            <Text style={styles.nota}>{t('vap_nota').replace('{data}', dataBreve(validitaOrariPer(idLinea)[1]))}</Text>
-            <Pressable
-              style={({ pressed }) => [styles.bottone, pressed && { opacity: 0.85 }]}
-              onPress={() => Linking.openURL(urlOrariLinea(linea, direzione?.direzione ?? 0)).catch(() => {})}
-              accessibilityRole="link"
-            >
-              <Text style={styles.testoBottone}>🕘 {t('vap_orari').replace('{n}', linea.etichetta || linea.id)}</Text>
-            </Pressable>
-            <Pressable onPress={() => setInfoAperta(false)} hitSlop={8} style={styles.chiudiInfo} testID="chiudi-info">
-              <Text style={styles.testoChiudiInfo}>{t('chiudi')}</Text>
-            </Pressable>
-          </View>
-        </>
-      ) : null}
     </ScrollView>
   );
 }
@@ -415,10 +414,7 @@ const styles = StyleSheet.create({
   testoInfo: { fontSize: 17, fontWeight: '900', color: '#0B6BB7', fontStyle: 'italic', fontFamily: 'serif' },
   velo: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(15,23,42,0.25)', borderRadius: 12 },
   riquadroInfo: {
-    position: 'absolute',
-    top: 50,
-    left: 0,
-    right: 0,
+    marginTop: 8,
     backgroundColor: '#fff',
     borderRadius: 14,
     padding: 14,
