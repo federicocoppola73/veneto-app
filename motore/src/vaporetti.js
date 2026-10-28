@@ -40,6 +40,17 @@ export function lineeAutobusDellaFermata(id) {
   return DATI_AUTOBUS.linee.filter((l) => ids.includes(l.id));
 }
 
+// Fermate dell'autobus con almeno una linea, entro un raggio dal luogo, dalla più vicina:
+// per i luoghi che non hanno una fermata scritta a mano (es. Verona)
+export function fermateAutobusVicine(lat, lon, massimo = 300, quante = 3) {
+  if (lat == null || lon == null) return [];
+  return Object.entries(DATI_AUTOBUS.fermate)
+    .map(([id, f]) => ({ id, testo: f.nome, metri: distanzaMetri(lat, lon, f.lat, f.lon) }))
+    .filter((f) => f.metri <= massimo && lineeAutobusDellaFermata(f.id).length > 0)
+    .sort((a, b) => a.metri - b.metri)
+    .slice(0, quante);
+}
+
 /**
  * Le fermate scritte nel campo "fermata" di un luogo, abbinate alle fermate ACTV.
  * "Rialto / San Zaccaria" -> [{ testo: 'Rialto', id: 'rialto' }, { testo: 'San Zaccaria', id: 's-marco-san-zaccaria' }]

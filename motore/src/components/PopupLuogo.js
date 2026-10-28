@@ -19,7 +19,7 @@ import IconaCondividi from './IconaCondividi';
 import PulsanteCopia from './PulsanteCopia';
 import { testoLuogo } from '../copia';
 import { linkWikipedia } from '../wikipedia';
-import { fermateDelLuogo, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata } from '../vaporetti';
+import { fermateAutobusVicine, fermateDelLuogo, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata } from '../vaporetti';
 
 const MAX_TARGHETTE = 6; // targhette delle linee mostrate accanto al nome della fermata
 
@@ -235,7 +235,12 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             </View>
           )}
 
-          <FermateLuogo voce={luogo.fermata} t={t} onApri={setFermataAperta} />
+          <FermateLuogo
+            voce={luogo.fermata}
+            vicine={luogo.fermata ? [] : fermateAutobusVicine(luogo.latitudine, luogo.longitudine)}
+            t={t}
+            onApri={setFermataAperta}
+          />
 
           <View style={styles.bottoni}>
             <Pressable
@@ -273,17 +278,18 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
 }
 
 // Fermate del vaporetto del luogo: ognuna con le sue linee, si tocca per vedere linee e percorsi
-function FermateLuogo({ voce, t, onApri }) {
-  const fermate = fermateDelLuogo(voce);
+function FermateLuogo({ voce, vicine, t, onApri }) {
+  // con una fermata scritta nel luogo: le sue fermate del vaporetto; altrimenti le fermate dell'autobus vicine
+  const fermate = voce ? fermateDelLuogo(voce) : vicine.map((f) => ({ testo: f.testo, id: f.id }));
   if (fermate.length === 0) return null;
   return (
     <View style={styles.tabellaSemplice}>
-      <Text style={styles.titoloFermate}>⛴ {t('fermata')}</Text>
+      <Text style={styles.titoloFermate}>{voce ? `⛴ ${t('fermata')}` : `🚌 ${t('srv_autobus')}`}</Text>
       {fermate.map((f, i) => {
-        const linee = f.linea ? [lineaVaporetto(f.linea)].filter(Boolean) : lineeDellaFermata(f.id);
+        const linee = voce ? (f.linea ? [lineaVaporetto(f.linea)].filter(Boolean) : lineeDellaFermata(f.id)) : [];
         const separata = i > 0 && styles.fermataSeparata;
         const lineeBus = f.id && !f.linea ? lineeAutobusDellaFermata(f.id) : [];
-        if (!f.id || linee.length === 0) {
+        if (!f.id || (linee.length === 0 && lineeBus.length === 0)) {
           return (
             <Text key={f.testo} style={[styles.nomeFermataSemplice, separata]}>
               {f.testo}
