@@ -280,7 +280,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
 // Fermate del vaporetto del luogo: ognuna con le sue linee, si tocca per vedere linee e percorsi
 function FermateLuogo({ voce, vicine, t, onApri }) {
   // con una fermata scritta nel luogo: le sue fermate del vaporetto; altrimenti le fermate dell'autobus vicine
-  const fermate = voce ? fermateDelLuogo(voce) : vicine.map((f) => ({ testo: f.testo, id: f.id }));
+  const fermate = voce ? fermateDelLuogo(voce) : vicine.map((f) => ({ testo: f.testo, id: f.id, lineeBus: f.lineeBus }));
   if (fermate.length === 0) return null;
   return (
     <View style={styles.tabellaSemplice}>
@@ -288,17 +288,17 @@ function FermateLuogo({ voce, vicine, t, onApri }) {
       {fermate.map((f, i) => {
         const linee = voce ? (f.linea ? [lineaVaporetto(f.linea)].filter(Boolean) : lineeDellaFermata(f.id)) : [];
         const separata = i > 0 && styles.fermataSeparata;
-        const lineeBus = f.id && !f.linea ? lineeAutobusDellaFermata(f.id) : [];
+        const lineeBus = f.lineeBus || (f.id && !f.linea ? lineeAutobusDellaFermata(f.id) : []);
         if (!f.id || (linee.length === 0 && lineeBus.length === 0)) {
           return (
-            <Text key={f.testo} style={[styles.nomeFermataSemplice, separata]}>
+            <Text key={`${i}-${f.testo}`}style={[styles.nomeFermataSemplice, separata]}>
               {f.testo}
             </Text>
           );
         }
         return (
           <Pressable
-            key={f.testo}
+            key={`${i}-${f.testo}`}
             onPress={() => onApri({ id: f.id, linea: f.linea })}
             delayPressIn={0}
             testID={`fermata-${f.id}`}

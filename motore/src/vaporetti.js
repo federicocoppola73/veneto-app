@@ -42,13 +42,23 @@ export function lineeAutobusDellaFermata(id) {
 
 // Fermate dell'autobus con almeno una linea, entro un raggio dal luogo, dalla più vicina:
 // per i luoghi che non hanno una fermata scritta a mano (es. Verona)
+// Ogni linea compare una sola volta: alla fermata più vicina che la serve (le altre fermate della stessa linea si saltano)
 export function fermateAutobusVicine(lat, lon, massimo = 300, quante = 3) {
   if (lat == null || lon == null) return [];
-  return Object.entries(DATI_AUTOBUS.fermate)
+  const viste = new Set();
+  const risultato = [];
+  const candidate = Object.entries(DATI_AUTOBUS.fermate)
     .map(([id, f]) => ({ id, testo: f.nome, metri: distanzaMetri(lat, lon, f.lat, f.lon) }))
-    .filter((f) => f.metri <= massimo && lineeAutobusDellaFermata(f.id).length > 0)
-    .sort((a, b) => a.metri - b.metri)
-    .slice(0, quante);
+    .filter((f) => f.metri <= massimo)
+    .sort((a, b) => a.metri - b.metri);
+  for (const f of candidate) {
+    const nuove = lineeAutobusDellaFermata(f.id).filter((l) => !viste.has(l.id));
+    if (nuove.length === 0) continue;
+    nuove.forEach((l) => viste.add(l.id));
+    risultato.push({ ...f, lineeBus: nuove });
+    if (risultato.length === quante) break;
+  }
+  return risultato;
 }
 
 /**
