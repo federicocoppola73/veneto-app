@@ -151,7 +151,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
           </Pressable>
         ) : null}
         <View style={{ flex: 1 }}>
-          <Text style={styles.sopratitolo}>⛴ {t('fermata')}</Text>
+          <Text style={styles.sopratitolo}>{linee.length === 0 && /^autobus-/.test(fermataId || '') ? `🚌 ${t('srv_autobus_uno')}` : `⛴ ${t('fermata')}`}</Text>
           <Text style={styles.titolo} numberOfLines={1}>
             {nomeFermata(fermataId)}
           </Text>
