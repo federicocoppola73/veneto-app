@@ -37,7 +37,7 @@ import { COLORE_PERCORSO_ACQUA, ITINERARI, lunghezzaItinerario, testoLunghezza }
 import { CATEGORIE, coloreCategoria } from './src/categorie';
 import { distanzaMetri } from './src/distanza';
 import { creaProiezione } from './src/geo';
-import { linguaDelDispositivo, testoLocalizzato, traduttore } from './src/i18n';
+import { LINGUE, linguaDelDispositivo, testoLocalizzato, traduttore } from './src/i18n';
 import { usePosizione } from './src/posizione';
 import { usePreferiti, useVisitati } from './src/preferiti';
 import { calcolaItinerario, useItinerariUtente } from './src/itinerariUtente';
@@ -67,18 +67,19 @@ const servizioPerId = (id) => SERVIZI.find((s) => s.id === id) || null;
 const E_TABLET = Math.min(Dimensions.get('screen').width, Dimensions.get('screen').height) >= 600;
 
 // Spazi "sicuri" del telefono (barra di stato, tacca, tasti di navigazione di Android)
-export default function App({ onEsci }) {
+export default function App({ onEsci, lingua }) {
   return (
     <SafeAreaProvider>
-      <Schermata />
+      <Schermata linguaIniziale={lingua} />
       {onEsci ? <Pressable onPress={onEsci} style={{ position: 'absolute', bottom: 64, left: 12, zIndex: 99, backgroundColor: '#1e3a8af0', borderRadius: 18, paddingHorizontal: 12, paddingVertical: 7 }}><Text style={{ color: '#fff', fontWeight: '700' }}>← Città</Text></Pressable> : null}
     </SafeAreaProvider>
   );
 }
 
-function Schermata() {
+function Schermata({ linguaIniziale }) {
   const insets = useSafeAreaInsets();
-  const [lingua, setLingua] = useState(linguaDelDispositivo);
+  // la lingua del contenitore (o del telefono se mancante); si può cambiare anche dentro la città
+  const [lingua, setLingua] = useState(() => (LINGUE.some((l) => l.codice === linguaIniziale) ? linguaIniziale : linguaDelDispositivo()));
   const [selezionate, setSelezionate] = useState(CATEGORIE.map((c) => c.id)); // tipologie visibili
   const [soloCuore, setSoloCuore] = useState(false); // filtro "♥ Del cuore": solo i luoghi del cuore
   const [avvisoCuore, setAvvisoCuore] = useState(false); // messaggio se si tocca il filtro senza luoghi del cuore

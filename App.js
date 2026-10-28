@@ -124,7 +124,7 @@ export default function App() {
           </Pressable>
         </SafeAreaView>
         <View style={{ flex: 1 }}>
-          <MotoreApp />
+          <MotoreApp lingua={lingua} />
         </View>
       </View>
     );
