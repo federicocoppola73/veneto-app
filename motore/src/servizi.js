@@ -10,6 +10,7 @@ export const TIPI_SERVIZIO = [
   { id: 'ospedali', icona: 'H', colore: '#dc2626', chiave: 'srv_ospedali' },
   { id: 'vaporetto', icona: '⛴', colore: '#1e40af', chiave: 'srv_vaporetto' },
   { id: 'parcheggi', icona: 'P', colore: '#2563eb', chiave: 'srv_parcheggi' },
+  { id: 'autobus', icona: '🚌', colore: '#0B6BB7', chiave: 'srv_autobus' },
 ];
 
 export let SERVIZI = [];

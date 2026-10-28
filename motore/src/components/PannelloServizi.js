@@ -17,7 +17,7 @@ export default function PannelloServizi({ visibili, conteggi, onCambia, onChiudi
           <Text style={styles.chiudi}>✕</Text>
         </Pressable>
       </View>
-      {TIPI_SERVIZIO.map((tipo) => {
+      {TIPI_SERVIZIO.filter((tipo) => (conteggi[tipo.id] || 0) > 0).map((tipo) => {
         const attivo = visibili.includes(tipo.id);
         return (
           <Pressable

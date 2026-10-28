@@ -4,7 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { testoDistanza } from '../distanza';
 import { tipoServizio } from '../servizi';
 import { testoLocalizzato } from '../i18n';
-import { fermataVicina, lineeDellaFermata, URL_ORARI_NAVIGAZIONE } from '../vaporetti';
+import { fermataVicina, lineeAutobusDellaFermata, lineeDellaFermata, URL_ORARI_NAVIGAZIONE } from '../vaporetti';
 import FermataVaporetto, { TarghettaLinea } from './FermataVaporetto';
 
 /**
@@ -16,10 +16,10 @@ export default function SchedaServizio({ servizio, t, lingua, onChiudi, distanza
   const { height } = useWindowDimensions();
   // per le fermate del vaporetto: fermata ACTV corrispondente (la più vicina) e pannello linee aperto
   const fermataActv = useMemo(
-    () => (servizio?.tipo === 'vaporetto' ? fermataVicina(servizio.lat, servizio.lon) : null),
+    () => (servizio?.tipo === 'vaporetto' ? fermataVicina(servizio.lat, servizio.lon) : servizio?.tipo === 'autobus' ? servizio.id : null),
     [servizio]
   );
-  const lineeActv = fermataActv ? lineeDellaFermata(fermataActv) : [];
+  const lineeActv = fermataActv ? (servizio.tipo === 'autobus' ? lineeAutobusDellaFermata(fermataActv) : lineeDellaFermata(fermataActv)) : [];
   const [lineeAperte, setLineeAperte] = useState(false);
   useEffect(() => setLineeAperte(false), [servizio?.id]);
   if (!servizio) return null;
