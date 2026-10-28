@@ -1071,40 +1071,6 @@
    }
   },
   {
-   "id": "giardini-raggio-di-sole",
-   "nome": "Giardini Raggio di Sole",
-   "categoria": "giardini",
-   "sestiere": "Cittadella e Porta Nuova",
-   "latitudine": 45.431436,
-   "longitudine": 10.989343,
-   "descrizione": {
-    "it": "Giardini pubblici con ampi spazi verdi e percorsi per passeggiare e riposare.",
-    "en": "Public gardens with wide green spaces and paths for walking and resting.",
-    "fr": "Jardins publics avec de vastes espaces verts et des chemins pour se promener et se reposer.",
-    "de": "Öffentliche Gärten mit großen Grünflächen und Wegen zum Spazierengehen und Ausruhen.",
-    "es": "Jardines públicos con amplias zonas verdes y paseos para caminar y descansar."
-   },
-   "orari": [
-    {
-     "giorni": "lun-dom",
-     "ore": "08:30–21:00"
-    }
-   ],
-   "biglietto": {
-    "gratuito": true
-   },
-   "nota": {
-    "it": "Orario estivo.",
-    "en": "Summer hours.",
-    "fr": "Horaires d'été.",
-    "de": "Sommerzeiten.",
-    "es": "Horario de verano."
-   },
-   "wikipedia": {
-    "it": "https://it.wikipedia.org/wiki/Giardini_Raggio_di_Sole"
-   }
-  },
-  {
    "id": "arena-di-verona",
    "nome": "Arena di Verona",
    "categoria": "altri",
@@ -3870,9 +3836,9 @@
    "curiosita": true,
    "galleria": [
     {
-     "autore": "File:Corte Sgarzerie AB2.jpg: This Photo was taken by Andrea Bertozzi. Feel f…",
+     "autore": "Threecharlie",
      "licenza": "CC BY-SA 4.0",
-     "fonte": "https://commons.wikimedia.org/wiki/File:Corte_Sgarzerie_AB2_cropped.jpg"
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=138894072"
     },
     {
      "autore": "Mauzzan",
@@ -3884,7 +3850,12 @@
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/wiki/File:Public_archaeology_Verona_19.05.17_g_Corte_Sgarzerie.jpg"
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Andrea Bertozzi (derivato: Patafisik)",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=139022155"
+   }
   },
   {
    "id": "chiesa-san-procolo",
