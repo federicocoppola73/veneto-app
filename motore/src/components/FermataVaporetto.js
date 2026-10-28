@@ -139,7 +139,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
 
   // Tutta la scheda scorre insieme (linee, partenze, fermate e orari): le liste interne non hanno più un'altezza propria
   return (
-    <ScrollView nestedScrollEnabled keyboardShouldPersistTaps="handled" style={[styles.contenitore, altezza ? { height: altezza } : null]} contentContainerStyle={{ paddingBottom: 16 }}>
+    <ScrollView nestedScrollEnabled delaysContentTouches={false} keyboardShouldPersistTaps="handled" style={[styles.contenitore, altezza ? { height: altezza } : null]} contentContainerStyle={{ paddingBottom: 16 }}>
       <View style={styles.testata}>
         {onIndietro ? (
           <Pressable onPress={onIndietro} style={styles.indietro} hitSlop={8} accessibilityLabel={t('vap_indietro')}>

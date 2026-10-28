@@ -96,6 +96,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
         ) : (
         <ScrollView
           keyboardShouldPersistTaps="handled"
+          delaysContentTouches={false}
           contentContainerStyle={[styles.contenuto, { paddingBottom: 24 + insets.bottom }]}
           showsVerticalScrollIndicator={false}
         >
@@ -292,6 +293,7 @@ function FermateLuogo({ voce, t, onApri }) {
           <Pressable
             key={f.testo}
             onPress={() => onApri({ id: f.id, linea: f.linea })}
+            delayPressIn={0}
             testID={`fermata-${f.id}`}
             style={({ pressed }) => [styles.fermata, separata, pressed && { opacity: 0.6 }]}
             accessibilityRole="button"
