@@ -73,7 +73,8 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   );
 
   return (
-    <Modal visible transparent animationType="slide" onRequestClose={onChiudi} statusBarTranslucent supportedOrientations={["portrait", "landscape"]}>
+    // tasto indietro del telefono: se è aperta una fermata torna alla scheda del monumento, altrimenti chiude
+    <Modal visible transparent animationType="slide" onRequestClose={() => (fermataAperta ? setFermataAperta(null) : onChiudi())} statusBarTranslucent supportedOrientations={["portrait", "landscape"]}>
       <Pressable style={styles.sfondo} onPress={onChiudi} accessibilityLabel={t('chiudi')} />
       <View
         style={[
