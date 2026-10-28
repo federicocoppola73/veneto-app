@@ -1,5 +1,17 @@
 {
  "_nota": "Dati generali della città: nome nei testi e funzioni (marea solo a Venezia)",
  "nome": "Verona",
- "marea": false
+ "marea": false,
+ "centro": {
+  "latitudine": 45.4382,
+  "longitudine": 10.9927,
+  "zoom": 3
+ },
+ "riferimento": {
+  "latitudine": 45.4382,
+  "longitudine": 10.9927
+ },
+ "partenze": {
+  "stazione": "stazione-porta-nuova"
+ }
 }

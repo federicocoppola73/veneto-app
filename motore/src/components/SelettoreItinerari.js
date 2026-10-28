@@ -1,3 +1,4 @@
+import { partenzeCitta } from '../citta';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, Modal, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -181,7 +182,7 @@ export default function SelettoreItinerari({
 
         <Text style={styles.passo}>{t('daDoveParti')}</Text>
         <View style={styles.partenze}>
-          {PARTENZE.map((p) => {
+          {PARTENZE.filter((p) => p.id === 'posizione' || p.id in partenzeCitta()).map((p) => {
             const scelta = partenza === p.id;
             return (
               <Pressable

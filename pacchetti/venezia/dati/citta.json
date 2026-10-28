@@ -1,5 +1,18 @@
 {
  "_nota": "Dati generali della città: nome nei testi e funzioni (marea solo a Venezia)",
  "nome": "Venezia",
- "marea": true
+ "marea": true,
+ "centro": {
+  "latitudine": 45.4372,
+  "longitudine": 12.333,
+  "zoom": 3
+ },
+ "riferimento": {
+  "latitudine": 45.43405,
+  "longitudine": 12.3384
+ },
+ "partenze": {
+  "piazzale-roma": "piazzale-roma",
+  "stazione": "stazione"
+ }
 }

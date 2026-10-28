@@ -1,3 +1,4 @@
+import { partenzeCitta } from './citta';
 // Itinerari creati dall'utente: restano salvati sul telefono (AsyncStorage).
 // Percorsi e lunghezze si calcolano sul telefono, sulla rete pedonale del centro storico (src/rete.js),
 // e vengono salvati già pronti, nello stesso formato degli itinerari ufficiali (itinerari.json).
@@ -12,7 +13,6 @@ try {
   AsyncStorage = null;
 }
 const CHIAVE = 'itinerariUtente';
-const PARTENZE_FISSE = ['piazzale-roma', 'stazione']; // come negli itinerari ufficiali
 const FATTORE_LINEA = 1.3; // luoghi non raggiungibili a piedi (isole): linea d'aria +30%
 
 const arrotonda = (v) => Math.round(v * 1e5) / 1e5;
@@ -79,7 +79,7 @@ export function calcolaItinerario({ id, titolo, tappe }, luoghiPerId, cache = ne
     metri += tr.metri;
   }
   const partenze = {};
-  if (tappe.length) for (const p of PARTENZE_FISSE) partenze[p] = trattoTra(p, tappe[0], luoghiPerId, cache);
+  if (tappe.length) for (const [chiave, luogo] of Object.entries(partenzeCitta())) partenze[chiave] = trattoTra(luogo, tappe[0], luoghiPerId, cache);
   return { id, titolo, tappe, metri, tratti, partenze, nautico: false, utente: true };
 }
 

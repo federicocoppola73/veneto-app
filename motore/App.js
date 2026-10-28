@@ -13,7 +13,7 @@ import RicercaLuoghi from './src/components/RicercaLuoghi';
 import FiltroCategorie from './src/components/FiltroCategorie';
 import VicinoATe from './src/components/VicinoATe';
 import WidgetMeteoMarea from './src/components/WidgetMeteoMarea';
-import { haMarea, nomeCitta } from './src/citta';
+import { centroCitta, haMarea, nomeCitta, riferimentoCitta } from './src/citta';
 import Calendario from './src/components/Calendario';
 import Preferiti from './src/components/Preferiti';
 const DATI_EVENTI = datiProxy('eventi.json');
@@ -55,8 +55,6 @@ let PRINCIPALI = new Map();
 export function inizializzaPrincipali() {
   PRINCIPALI = new Map((datiPrincipali.luoghi || []).map((id, i) => [id, i + 1]));
 }
-const CENTRO_STORICO = { latitudine: 45.4372, longitudine: 12.333, zoom: 3 };
-const PIAZZA_SAN_MARCO = { latitudine: 45.43405, longitudine: 12.3384 };
 const LONTANO_M = 5000; // oltre questa distanza dal luogo più vicino l'utente "non è a Venezia"
 const NUMERO_VICINI = 3;
 const COLORE_PARTENZA = '#0f3d5e';
@@ -195,8 +193,9 @@ function Schermata() {
   }, [luoghi]);
 
   const vistaIniziale = useMemo(() => {
-    const p = proietta(CENTRO_STORICO.latitudine, CENTRO_STORICO.longitudine);
-    return { ...p, zoom: CENTRO_STORICO.zoom };
+    const c = centroCitta();
+    const p = proietta(c.latitudine, c.longitudine);
+    return { ...p, zoom: c.zoom };
   }, [proietta]);
 
   // ---- Posizione dell'utente ----
@@ -237,7 +236,7 @@ function Schermata() {
 
   const distanzaDaVenezia =
     coord && lontano
-      ? distanzaMetri(coord.latitudine, coord.longitudine, PIAZZA_SAN_MARCO.latitudine, PIAZZA_SAN_MARCO.longitudine)
+      ? distanzaMetri(coord.latitudine, coord.longitudine, riferimentoCitta().latitudine, riferimentoCitta().longitudine)
       : null;
 
   // ---- Percorsi a piedi veri dalla posizione dell'utente (rete pedonale nell'app, senza connessione) ----
