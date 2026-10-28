@@ -1,3 +1,4 @@
+import { haMarea } from '../citta';
 import React, { useMemo, useState } from 'react';
 import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -70,11 +71,13 @@ export default function Crediti({ luoghi, t }) {
               <Collegamento url="https://www.openstreetmap.org/copyright" />
             </Sezione>
 
+            {haMarea() && (
             <Sezione titolo={t('cr_marea')}>
               <Text style={styles.testo}>{t('cr_marea_testo')}</Text>
               <Collegamento url="https://dati.venezia.it/?q=content%2Fcpsm-dati-meteomarini-laguna-e-litorale-veneziano" etichetta="dati.venezia.it" />
               <Collegamento url="https://creativecommons.org/licenses/by/4.0/" etichetta="Creative Commons BY" />
             </Sezione>
+            )}
 
             <Sezione titolo={t('cr_vaporetto')}>
               <Text style={styles.testo}>{t('cr_vaporetto_testo')}</Text>

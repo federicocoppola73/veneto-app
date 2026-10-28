@@ -4,9 +4,12 @@ import { impostaDati } from './dati';
 import { impostaCartellaAssets } from './risorse';
 import { inizializzaCitta } from './avvio';
 
+// File che possono mancare nei pacchetti scaricati prima (si usa il valore predefinito)
+const FACOLTATIVI = ['immagini.json', 'citta.json'];
+
 // File JSON che il motore legge (nomi usati con datiProxy)
 export const NOMI_DATI = [
-  'aguzza.json', 'app.json', 'immagini.json', 'autobus.json', 'cibi.json', 'curiosita.json', 'eventi.json', 'itinerari.json',
+  'aguzza.json', 'app.json', 'citta.json', 'immagini.json', 'autobus.json', 'cibi.json', 'curiosita.json', 'eventi.json', 'itinerari.json',
   'luoghi.json', 'mappa.json', 'orari_autobus.json', 'orari_vaporetti.json', 'principali.json', 'rete.json',
   'servizi.json', 'vaporetti.json',
 ];
@@ -19,7 +22,7 @@ export async function caricaCitta(cartella) {
       impostaDati(nome, JSON.parse(testo));
     } catch (e) {
       // immagini.json manca nei pacchetti scaricati prima: la città si apre senza foto in più
-      if (nome !== 'immagini.json') throw e;
+      if (!FACOLTATIVI.includes(nome)) throw e;
       impostaDati(nome, {});
     }
   }

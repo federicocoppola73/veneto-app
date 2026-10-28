@@ -9,6 +9,9 @@ import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
 import { caricaCitta } from './motore/src/apriCitta';
+
+// città che si aprono nel motore unico (stesso codice, dati del loro pacchetto)
+const MOTORE_CITTA = ['venezia', 'verona'];
 import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
@@ -51,9 +54,9 @@ export default function App() {
       setMotorePronto(false);
       return;
     }
-    if (cittaAperta === 'venezia') {
-      // Venezia usa il motore completo, con i dati del suo pacchetto
-      const cartella = FileSystem.documentDirectory + 'citta/venezia/';
+    if (MOTORE_CITTA.includes(cittaAperta)) {
+      // le città del motore unico usano i dati del loro pacchetto
+      const cartella = FileSystem.documentDirectory + 'citta/' + cittaAperta + '/';
       caricaCitta(cartella)
         .then(() => setMotorePronto(true))
         .catch(() => {
@@ -111,7 +114,7 @@ export default function App() {
   const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
   const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
-  if (cittaAperta === 'venezia') {
+  if (MOTORE_CITTA.includes(cittaAperta)) {
     if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
     return (
       <View style={{ flex: 1, backgroundColor: '#1e3a8a' }}>

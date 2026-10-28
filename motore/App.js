@@ -13,6 +13,7 @@ import RicercaLuoghi from './src/components/RicercaLuoghi';
 import FiltroCategorie from './src/components/FiltroCategorie';
 import VicinoATe from './src/components/VicinoATe';
 import WidgetMeteoMarea from './src/components/WidgetMeteoMarea';
+import { haMarea } from './src/citta';
 import Calendario from './src/components/Calendario';
 import Preferiti from './src/components/Preferiti';
 const DATI_EVENTI = datiProxy('eventi.json');
@@ -787,7 +788,7 @@ function Schermata() {
         )}
       </View>
 
-      <WidgetMeteoMarea t={t} margineBasso={insets.bottom} />
+      {haMarea() && <WidgetMeteoMarea t={t} margineBasso={insets.bottom} />}
 
       <SelettoreItinerari
         visibile={selettoreAperto}

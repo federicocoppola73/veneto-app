@@ -1,3 +1,4 @@
+import { nomeCitta } from './citta';
 // Testi dell'interfaccia nelle lingue supportate.
 // Per aggiungere una lingua: aggiungila a LINGUE e a TESTI (stesse chiavi),
 // e aggiungi la descrizione (e le eventuali note) in quella lingua in luoghi.json.
@@ -1773,7 +1774,10 @@ const TESTI = {
 // Restituisce una funzione t('chiave') per la lingua scelta
 export function traduttore(lingua) {
   const tabella = TESTI[lingua] || TESTI[LINGUA_PREDEFINITA];
-  return (chiave) => tabella[chiave] ?? TESTI[LINGUA_PREDEFINITA][chiave] ?? chiave;
+  // i testi nominano Venezia: nelle altre città si usa il nome della città attiva
+  const nome = nomeCitta();
+  const adatta = (testo) => (nome === 'Venezia' || typeof testo !== 'string' ? testo : testo.replace(/Venezia|Venice/g, nome));
+  return (chiave) => adatta(tabella[chiave] ?? TESTI[LINGUA_PREDEFINITA][chiave] ?? chiave);
 }
 
 // Prende il testo nella lingua scelta da un campo multilingua del JSON
