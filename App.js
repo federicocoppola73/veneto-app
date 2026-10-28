@@ -7,6 +7,9 @@ import { CITTA, cittaPerId } from './src/catalogo';
 import { attiva, datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
+import MotoreApp from './motore/App';
+import { caricaCitta } from './motore/src/apriCitta';
+import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
 
@@ -29,6 +32,7 @@ export default function App() {
   const [luoghiAttiva, setLuoghiAttiva] = useState(null);
   const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
+  const [motorePronto, setMotorePronto] = useState(false);
   const t = testi(lingua);
 
   useEffect(() => {
@@ -43,6 +47,18 @@ export default function App() {
   useEffect(() => {
     if (!cittaAperta) {
       setDatiAperti(null);
+      setMotorePronto(false);
+      return;
+    }
+    if (cittaAperta === 'venezia') {
+      // Venezia usa il motore completo, con i dati del suo pacchetto
+      const cartella = FileSystem.documentDirectory + 'citta/venezia/';
+      caricaCitta(cartella)
+        .then(() => setMotorePronto(true))
+        .catch(() => {
+          Alert.alert(t.errore, t.riprova);
+          setCittaAperta(null);
+        });
       return;
     }
     Promise.all([datiCitta(cittaAperta), datiMappa(cittaAperta)]).then(([dati, mappa]) => {
@@ -81,6 +97,10 @@ export default function App() {
 
   const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
   const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
+
+  if (cittaAperta === 'venezia') {
+    return motorePronto ? <MotoreApp onEsci={() => setCittaAperta(null)} /> : <ActivityIndicator style={{ flex: 1 }} />;
+  }
 
   if (cittaAperta && datiAperti) {
     return (

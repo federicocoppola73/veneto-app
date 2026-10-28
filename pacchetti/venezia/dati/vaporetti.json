@@ -1,0 +1,1575 @@
+{
+ "_nota": "Generato da strumenti/vaporetti.py dal GTFS della navigazione ACTV (open data ACTV). Non modificare a mano.",
+ "validita": [
+  "2026-10-05",
+  "2027-10-04"
+ ],
+ "linee": [
+  {
+   "id": "1",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "ferrovia",
+      "riva-de-biasio",
+      "s-marcuola-casino",
+      "s-stae",
+      "ca-d-oro",
+      "rialto-mercato",
+      "rialto",
+      "s-silvestro",
+      "s-angelo",
+      "s-toma",
+      "ca-rezzonico",
+      "accademia",
+      "s-maria-del-giglio",
+      "salute",
+      "s-marco-vallaresso",
+      "s-marco-san-zaccaria",
+      "arsenale",
+      "giardini",
+      "s-elena",
+      "lido-s-m-e"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "lido-s-m-e",
+      "s-elena",
+      "giardini",
+      "arsenale",
+      "s-marco-san-zaccaria",
+      "s-marco-vallaresso",
+      "salute",
+      "s-maria-del-giglio",
+      "accademia",
+      "ca-rezzonico",
+      "s-toma",
+      "s-angelo",
+      "s-silvestro",
+      "rialto",
+      "rialto-mercato",
+      "ca-d-oro",
+      "s-stae",
+      "s-marcuola-casino",
+      "riva-de-biasio",
+      "ferrovia",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "colore": "#FF0000",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "s-giorgio",
+      "zitelle",
+      "redentore",
+      "giudecca-palanca",
+      "zattere",
+      "s-basilio",
+      "sacca-fisola",
+      "tronchetto",
+      "tronchetto-mercato",
+      "p-le-roma",
+      "ferrovia",
+      "s-marcuola-casino",
+      "rialto",
+      "s-toma",
+      "s-samuele",
+      "accademia",
+      "s-marco-giardinetti"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "s-marco-giardinetti",
+      "accademia",
+      "s-samuele",
+      "s-toma",
+      "rialto",
+      "s-marcuola-casino",
+      "ferrovia",
+      "p-le-roma",
+      "tronchetto-mercato",
+      "tronchetto",
+      "sacca-fisola",
+      "s-basilio",
+      "zattere",
+      "giudecca-palanca",
+      "redentore",
+      "zitelle",
+      "s-giorgio",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "2/",
+   "colore": "#FF0000",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "ferrovia",
+      "rialto"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "rialto",
+      "ferrovia",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "colore": "#F9A262",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "p-le-roma",
+      "ferrovia",
+      "murano-colonna",
+      "murano-faro",
+      "murano-navagero",
+      "murano-museo",
+      "murano-da-mula",
+      "murano-venier",
+      "ferrovia",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "4.1",
+   "colore": "#B43B96",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "murano-museo",
+      "murano-da-mula",
+      "murano-venier",
+      "murano-serenella",
+      "murano-colonna",
+      "cimitero-san-michele",
+      "f-te-nove",
+      "orto",
+      "s-alvise",
+      "crea",
+      "guglie",
+      "ferrovia",
+      "p-le-roma",
+      "s-marta",
+      "sacca-fisola",
+      "giudecca-palanca",
+      "redentore",
+      "zitelle",
+      "s-marco-san-zaccaria",
+      "arsenale",
+      "giardini-biennale",
+      "s-elena",
+      "certosa",
+      "s-pietro-di-castello",
+      "bacini-arsenale-nord",
+      "celestia",
+      "ospedale",
+      "f-te-nove",
+      "cimitero-san-michele",
+      "murano-colonna",
+      "murano-faro",
+      "murano-navagero",
+      "murano-museo"
+     ],
+     "richiesta": [
+      "certosa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4.2",
+   "colore": "#B43B96",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 1,
+     "circolare": true,
+     "fermate": [
+      "murano-museo",
+      "murano-navagero",
+      "murano-faro",
+      "murano-colonna",
+      "cimitero-san-michele",
+      "f-te-nove",
+      "ospedale",
+      "celestia",
+      "bacini-arsenale-nord",
+      "s-pietro-di-castello",
+      "certosa",
+      "s-elena",
+      "giardini-biennale",
+      "arsenale",
+      "s-marco-san-zaccaria",
+      "zitelle",
+      "redentore",
+      "giudecca-palanca",
+      "sacca-fisola",
+      "s-marta",
+      "p-le-roma",
+      "ferrovia",
+      "guglie",
+      "crea",
+      "s-alvise",
+      "orto",
+      "f-te-nove",
+      "cimitero-san-michele",
+      "murano-colonna",
+      "murano-serenella",
+      "murano-venier",
+      "murano-da-mula",
+      "murano-museo"
+     ],
+     "richiesta": [
+      "certosa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.1",
+   "colore": "#8FD2BF",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "lido-s-m-e",
+      "s-pietro-di-castello",
+      "bacini",
+      "celestia",
+      "ospedale",
+      "f-te-nove",
+      "orto",
+      "s-alvise",
+      "tre-archi",
+      "guglie",
+      "riva-de-biasio",
+      "ferrovia",
+      "p-le-roma",
+      "s-marta",
+      "zattere",
+      "s-marco-san-zaccaria",
+      "giardini-biennale",
+      "s-elena",
+      "lido-s-m-e"
+     ],
+     "richiesta": [
+      "bacini",
+      "celestia"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5.2",
+   "colore": "#8FD2BF",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 1,
+     "circolare": true,
+     "fermate": [
+      "lido-s-m-e",
+      "s-elena",
+      "giardini-biennale",
+      "s-marco-san-zaccaria",
+      "zattere",
+      "s-marta",
+      "p-le-roma",
+      "ferrovia",
+      "riva-de-biasio",
+      "guglie",
+      "tre-archi",
+      "s-alvise",
+      "orto",
+      "f-te-nove",
+      "ospedale",
+      "celestia",
+      "bacini",
+      "s-pietro-di-castello",
+      "lido-s-m-e"
+     ],
+     "richiesta": [
+      "celestia",
+      "bacini"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "colore": "#006BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "s-marta",
+      "s-basilio",
+      "zattere",
+      "spirito-santo",
+      "giardini-biennale",
+      "s-elena",
+      "lido-s-m-e"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "lido-s-m-e",
+      "s-elena",
+      "giardini-biennale",
+      "spirito-santo",
+      "zattere",
+      "s-basilio",
+      "s-marta",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "colore": "#009366",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "murano-navagero",
+      "murano-faro",
+      "murano-colonna",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "colore": "#948F03",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "burano",
+      "torcello"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "torcello",
+      "burano"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "colore": "#4DC8E9",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "lido-s-m-e",
+      "giardini",
+      "s-marco-giardinetti",
+      "zattere"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "zattere",
+      "s-servolo",
+      "lido-s-m-e"
+     ],
+     "richiesta": [
+      "s-servolo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12",
+   "colore": "#DAD635",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "treporti",
+      "burano",
+      "torcello",
+      "mazzorbo",
+      "murano-faro",
+      "f-te-nove"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "f-te-nove",
+      "murano-faro",
+      "mazzorbo",
+      "torcello",
+      "burano",
+      "treporti"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "13",
+   "colore": "#57419A",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "f-te-nove",
+      "murano-faro",
+      "vignole",
+      "lazzaretto-nuovo",
+      "s-erasmo-capannone",
+      "s-erasmo-chiesa",
+      "s-erasmo-punta-vela",
+      "treporti"
+     ],
+     "richiesta": [
+      "lazzaretto-nuovo"
+     ]
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "treporti",
+      "s-erasmo-punta-vela",
+      "s-erasmo-chiesa",
+      "s-erasmo-capannone",
+      "lazzaretto-nuovo",
+      "vignole",
+      "murano-faro",
+      "f-te-nove"
+     ],
+     "richiesta": [
+      "lazzaretto-nuovo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "14",
+   "colore": "#F37736",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "lido-s-m-e",
+      "punta-sabbioni",
+      "burano"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "burano",
+      "punta-sabbioni",
+      "lido-s-m-e",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "15",
+   "colore": "#DD7127",
+   "testo": "#D9D535",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "punta-sabbioni"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "punta-sabbioni",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "20",
+   "colore": "#C7AAD1",
+   "testo": "#000000",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "s-servolo",
+      "s-lazzaro",
+      "s-servolo",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "22",
+   "colore": "#C4C130",
+   "testo": "#00646A",
+   "notturna": false,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "punta-sabbioni",
+      "bacini",
+      "ospedale",
+      "f-te-nove",
+      "s-giobbe"
+     ],
+     "richiesta": [
+      "bacini"
+     ]
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "s-giobbe",
+      "f-te-nove",
+      "ospedale",
+      "punta-sabbioni"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "N",
+   "colore": "#25408D",
+   "testo": "#FFFFFF",
+   "notturna": true,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "lido-s-m-e",
+      "s-elena",
+      "giardini",
+      "s-marco-san-zaccaria",
+      "s-marco-vallaresso",
+      "accademia",
+      "s-samuele",
+      "s-toma",
+      "rialto",
+      "rialto-mercato",
+      "ca-d-oro",
+      "s-stae",
+      "s-marcuola-casino",
+      "riva-de-biasio",
+      "ferrovia",
+      "p-le-roma",
+      "tronchetto-mercato",
+      "tronchetto",
+      "sacca-fisola",
+      "s-basilio",
+      "zattere",
+      "giudecca-palanca",
+      "zattere",
+      "redentore",
+      "zitelle",
+      "s-giorgio",
+      "s-marco-san-zaccaria"
+     ],
+     "richiesta": [
+      "s-giorgio"
+     ]
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "s-marco-san-zaccaria",
+      "s-giorgio",
+      "zitelle",
+      "redentore",
+      "giudecca-palanca",
+      "zattere",
+      "giudecca-palanca",
+      "s-basilio",
+      "sacca-fisola",
+      "tronchetto",
+      "tronchetto-mercato",
+      "p-le-roma",
+      "ferrovia",
+      "riva-de-biasio",
+      "s-marcuola-casino",
+      "s-stae",
+      "ca-d-oro",
+      "rialto-mercato",
+      "rialto",
+      "s-toma",
+      "s-samuele",
+      "accademia",
+      "s-marco-vallaresso",
+      "s-marco-san-zaccaria",
+      "giardini",
+      "s-elena",
+      "lido-s-m-e"
+     ],
+     "richiesta": [
+      "s-giorgio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NLN",
+   "colore": "#25408D",
+   "testo": "#FFFFFF",
+   "notturna": true,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "f-te-nove",
+      "murano-faro",
+      "vignole",
+      "s-erasmo-capannone",
+      "mazzorbo",
+      "torcello",
+      "burano",
+      "treporti"
+     ],
+     "richiesta": [
+      "vignole",
+      "s-erasmo-capannone",
+      "torcello"
+     ]
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "treporti",
+      "burano",
+      "s-erasmo-punta-vela",
+      "s-erasmo-chiesa",
+      "s-erasmo-capannone",
+      "vignole",
+      "murano-faro",
+      "f-te-nove"
+     ],
+     "richiesta": [
+      "vignole"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NMU",
+   "colore": "#25408D",
+   "testo": "#FFFFFF",
+   "notturna": true,
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "f-te-nove",
+      "murano-colonna",
+      "murano-faro",
+      "murano-navagero",
+      "murano-museo",
+      "murano-da-mula",
+      "murano-venier",
+      "murano-serenella",
+      "murano-colonna",
+      "f-te-nove"
+     ],
+     "richiesta": []
+    }
+   ]
+  }
+ ],
+ "fermate": {
+  "accademia": {
+   "nome": "Accademia",
+   "lat": 45.431685,
+   "lon": 12.328614,
+   "linee": [
+    "1",
+    "2",
+    "N"
+   ]
+  },
+  "arsenale": {
+   "nome": "Arsenale",
+   "lat": 45.432835,
+   "lon": 12.348441,
+   "linee": [
+    "1",
+    "4.1",
+    "4.2"
+   ]
+  },
+  "bacini": {
+   "nome": "Bacini",
+   "lat": 45.439201,
+   "lon": 12.357294,
+   "linee": [
+    "5.1",
+    "5.2",
+    "22"
+   ]
+  },
+  "bacini-arsenale-nord": {
+   "nome": "Bacini - Arsenale Nord",
+   "lat": 45.439205,
+   "lon": 12.357293,
+   "linee": [
+    "4.1",
+    "4.2"
+   ]
+  },
+  "burano": {
+   "nome": "Burano",
+   "lat": 45.487621,
+   "lon": 12.416068,
+   "linee": [
+    "9",
+    "12",
+    "14",
+    "NLN"
+   ]
+  },
+  "ca-d-oro": {
+   "nome": "Ca' d'Oro",
+   "lat": 45.440563,
+   "lon": 12.333899,
+   "linee": [
+    "1",
+    "N"
+   ]
+  },
+  "ca-rezzonico": {
+   "nome": "Ca' Rezzonico",
+   "lat": 45.433285,
+   "lon": 12.327133,
+   "linee": [
+    "1"
+   ]
+  },
+  "celestia": {
+   "nome": "Celestia",
+   "lat": 45.439079,
+   "lon": 12.349659,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+   ]
+  },
+  "certosa": {
+   "nome": "Certosa",
+   "lat": 45.430523,
+   "lon": 12.367644,
+   "linee": [
+    "4.1",
+    "4.2"
+   ]
+  },
+  "cimitero-san-michele": {
+   "nome": "Cimitero San Michele",
+   "lat": 45.448673,
+   "lon": 12.345977,
+   "linee": [
+    "4.1",
+    "4.2"
+   ]
+  },
+  "crea": {
+   "nome": "Crea",
+   "lat": 45.445278,
+   "lon": 12.321106,
+   "linee": [
+    "4.1",
+    "4.2"
+   ]
+  },
+  "f-te-nove": {
+   "nome": "F.te Nove",
+   "lat": 45.443245,
+   "lon": 12.340457,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "12",
+    "13",
+    "22",
+    "NLN",
+    "NMU"
+   ]
+  },
+  "ferrovia": {
+   "nome": "Ferrovia",
+   "lat": 45.440618,
+   "lon": 12.32177,
+   "linee": [
+    "1",
+    "2",
+    "2/",
+    "3",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "N"
+   ]
+  },
+  "giardini": {
+   "nome": "Giardini",
+   "lat": 45.429804,
+   "lon": 12.354916,
+   "linee": [
+    "1",
+    "10",
+    "N"
+   ]
+  },
+  "giardini-biennale": {
+   "nome": "Giardini Biennale",
+   "lat": 45.428967,
+   "lon": 12.356015,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "6"
+   ]
+  },
+  "giudecca-palanca": {
+   "nome": "Giudecca Palanca",
+   "lat": 45.426874,
+   "lon": 12.325519,
+   "linee": [
+    "2",
+    "4.1",
+    "4.2",
+    "N"
+   ]
+  },
+  "guglie": {
+   "nome": "Guglie",
+   "lat": 45.444359,
+   "lon": 12.324317,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+   ]
+  },
+  "lazzaretto-nuovo": {
+   "nome": "Lazzaretto Nuovo",
+   "lat": 45.454956,
+   "lon": 12.386839,
+   "linee": [
+    "13"
+   ]
+  },
+  "lido-s-m-e": {
+   "nome": "Lido S.M.E.",
+   "lat": 45.417726,
+   "lon": 12.368239,
+   "linee": [
+    "1",
+    "5.1",
+    "5.2",
+    "6",
+    "10",
+    "14",
+    "N"
+   ]
+  },
+  "mazzorbo": {
+   "nome": "Mazzorbo",
+   "lat": 45.488094,
+   "lon": 12.409512,
+   "linee": [
+    "12",
+    "NLN"
+   ]
+  },
+  "murano-colonna": {
+   "nome": "Murano Colonna",
+   "lat": 45.451117,
+   "lon": 12.348875,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "7",
+    "NMU"
+   ]
+  },
+  "murano-da-mula": {
+   "nome": "Murano Da Mula",
+   "lat": 45.456116,
+   "lon": 12.351936,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "NMU"
+   ]
+  },
+  "murano-faro": {
+   "nome": "Murano Faro",
+   "lat": 45.45261,
+   "lon": 12.354442,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "7",
+    "12",
+    "13",
+    "NLN",
+    "NMU"
+   ]
+  },
+  "murano-museo": {
+   "nome": "Murano Museo",
+   "lat": 45.456116,
+   "lon": 12.355353,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "NMU"
+   ]
+  },
+  "murano-navagero": {
+   "nome": "Murano Navagero",
+   "lat": 45.454693,
+   "lon": 12.35658,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "7",
+    "NMU"
+   ]
+  },
+  "murano-serenella": {
+   "nome": "Murano Serenella",
+   "lat": 45.454853,
+   "lon": 12.347479,
+   "linee": [
+    "4.1",
+    "4.2",
+    "NMU"
+   ]
+  },
+  "murano-venier": {
+   "nome": "Murano Venier",
+   "lat": 45.457447,
+   "lon": 12.351191,
+   "linee": [
+    "3",
+    "4.1",
+    "4.2",
+    "NMU"
+   ]
+  },
+  "orto": {
+   "nome": "Orto",
+   "lat": 45.447674,
+   "lon": 12.332901,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+   ]
+  },
+  "ospedale": {
+   "nome": "Ospedale",
+   "lat": 45.44088,
+   "lon": 12.344753,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "22"
+   ]
+  },
+  "p-le-roma": {
+   "nome": "P.le Roma",
+   "lat": 45.439152,
+   "lon": 12.317739,
+   "linee": [
+    "1",
+    "2",
+    "2/",
+    "3",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "6",
+    "N"
+   ]
+  },
+  "punta-sabbioni": {
+   "nome": "Punta Sabbioni",
+   "lat": 45.447489,
+   "lon": 12.424508,
+   "linee": [
+    "14",
+    "15",
+    "22"
+   ]
+  },
+  "redentore": {
+   "nome": "Redentore",
+   "lat": 45.425579,
+   "lon": 12.332047,
+   "linee": [
+    "2",
+    "4.1",
+    "4.2",
+    "N"
+   ]
+  },
+  "rialto": {
+   "nome": "Rialto",
+   "lat": 45.43727,
+   "lon": 12.335071,
+   "linee": [
+    "1",
+    "2",
+    "2/",
+    "N"
+   ]
+  },
+  "rialto-mercato": {
+   "nome": "Rialto Mercato",
+   "lat": 45.439453,
+   "lon": 12.335298,
+   "linee": [
+    "1",
+    "N"
+   ]
+  },
+  "riva-de-biasio": {
+   "nome": "Riva de Biasio",
+   "lat": 45.441914,
+   "lon": 12.325373,
+   "linee": [
+    "1",
+    "5.1",
+    "5.2",
+    "N"
+   ]
+  },
+  "s-alvise": {
+   "nome": "S. Alvise",
+   "lat": 45.448704,
+   "lon": 12.329509,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+   ]
+  },
+  "s-angelo": {
+   "nome": "S. Angelo",
+   "lat": 45.435596,
+   "lon": 12.33035,
+   "linee": [
+    "1"
+   ]
+  },
+  "s-basilio": {
+   "nome": "S. Basilio",
+   "lat": 45.430534,
+   "lon": 12.320824,
+   "linee": [
+    "2",
+    "6",
+    "N"
+   ]
+  },
+  "s-elena": {
+   "nome": "S. Elena",
+   "lat": 45.425373,
+   "lon": 12.360674,
+   "linee": [
+    "1",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "6",
+    "N"
+   ]
+  },
+  "s-erasmo-capannone": {
+   "nome": "S. Erasmo Capannone",
+   "lat": 45.454636,
+   "lon": 12.388568,
+   "linee": [
+    "13",
+    "NLN"
+   ]
+  },
+  "s-erasmo-chiesa": {
+   "nome": "S. Erasmo Chiesa",
+   "lat": 45.459461,
+   "lon": 12.410089,
+   "linee": [
+    "13",
+    "NLN"
+   ]
+  },
+  "s-erasmo-punta-vela": {
+   "nome": "S. Erasmo Punta Vela",
+   "lat": 45.46838,
+   "lon": 12.42021,
+   "linee": [
+    "13",
+    "NLN"
+   ]
+  },
+  "s-giobbe": {
+   "nome": "S. Giobbe",
+   "lat": 45.446522,
+   "lon": 12.318007,
+   "linee": [
+    "22"
+   ]
+  },
+  "s-giorgio": {
+   "nome": "S. Giorgio",
+   "lat": 45.42947,
+   "lon": 12.342235,
+   "linee": [
+    "2",
+    "N"
+   ]
+  },
+  "s-lazzaro": {
+   "nome": "S. Lazzaro",
+   "lat": 45.412113,
+   "lon": 12.359925,
+   "linee": [
+    "20"
+   ]
+  },
+  "s-marco-giardinetti": {
+   "nome": "S. Marco Giardinetti",
+   "lat": 45.432446,
+   "lon": 12.338422,
+   "linee": [
+    "2",
+    "10"
+   ]
+  },
+  "s-marco-san-zaccaria": {
+   "nome": "S. Marco-San Zaccaria",
+   "lat": 45.433464,
+   "lon": 12.34334,
+   "linee": [
+    "1",
+    "2",
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "7",
+    "14",
+    "15",
+    "20",
+    "N"
+   ]
+  },
+  "s-marco-vallaresso": {
+   "nome": "S. Marco Vallaresso",
+   "lat": 45.432156,
+   "lon": 12.337398,
+   "linee": [
+    "1",
+    "N"
+   ]
+  },
+  "s-marcuola-casino": {
+   "nome": "S. Marcuola-Casinò",
+   "lat": 45.442478,
+   "lon": 12.328549,
+   "linee": [
+    "1",
+    "2",
+    "N"
+   ]
+  },
+  "s-maria-del-giglio": {
+   "nome": "S. Maria del Giglio",
+   "lat": 45.431431,
+   "lon": 12.332637,
+   "linee": [
+    "1"
+   ]
+  },
+  "s-marta": {
+   "nome": "S. Marta",
+   "lat": 45.433571,
+   "lon": 12.31126,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2",
+    "6"
+   ]
+  },
+  "s-pietro-di-castello": {
+   "nome": "S. Pietro di Castello",
+   "lat": 45.433834,
+   "lon": 12.361842,
+   "linee": [
+    "4.1",
+    "4.2",
+    "5.1",
+    "5.2"
+   ]
+  },
+  "s-samuele": {
+   "nome": "S. Samuele",
+   "lat": 45.433479,
+   "lon": 12.3276,
+   "linee": [
+    "2",
+    "N"
+   ]
+  },
+  "s-servolo": {
+   "nome": "S. Servolo",
+   "lat": 45.419621,
+   "lon": 12.355349,
+   "linee": [
+    "10",
+    "20"
+   ]
+  },
+  "s-silvestro": {
+   "nome": "S. Silvestro",
+   "lat": 45.43681,
+   "lon": 12.333188,
+   "linee": [
+    "1"
+   ]
+  },
+  "s-stae": {
+   "nome": "S. Stae",
+   "lat": 45.441746,
+   "lon": 12.330798,
+   "linee": [
+    "1",
+    "N"
+   ]
+  },
+  "s-toma": {
+   "nome": "S. Tomà",
+   "lat": 45.435216,
+   "lon": 12.328022,
+   "linee": [
+    "1",
+    "2",
+    "N"
+   ]
+  },
+  "sacca-fisola": {
+   "nome": "Sacca Fisola",
+   "lat": 45.428984,
+   "lon": 12.315987,
+   "linee": [
+    "2",
+    "4.1",
+    "4.2",
+    "N"
+   ]
+  },
+  "salute": {
+   "nome": "Salute",
+   "lat": 45.431171,
+   "lon": 12.334374,
+   "linee": [
+    "1"
+   ]
+  },
+  "spirito-santo": {
+   "nome": "Spirito Santo",
+   "lat": 45.42831,
+   "lon": 12.331958,
+   "linee": [
+    "6"
+   ]
+  },
+  "torcello": {
+   "nome": "Torcello",
+   "lat": 45.49509,
+   "lon": 12.412183,
+   "linee": [
+    "9",
+    "12",
+    "NLN"
+   ]
+  },
+  "tre-archi": {
+   "nome": "Tre Archi",
+   "lat": 45.446289,
+   "lon": 12.31978,
+   "linee": [
+    "5.1",
+    "5.2"
+   ]
+  },
+  "treporti": {
+   "nome": "Treporti",
+   "lat": 45.471558,
+   "lon": 12.447123,
+   "linee": [
+    "12",
+    "13",
+    "NLN"
+   ]
+  },
+  "tronchetto": {
+   "nome": "Tronchetto",
+   "lat": 45.440201,
+   "lon": 12.306441,
+   "linee": [
+    "2",
+    "N"
+   ]
+  },
+  "tronchetto-mercato": {
+   "nome": "Tronchetto Mercato",
+   "lat": 45.441368,
+   "lon": 12.30927,
+   "linee": [
+    "2",
+    "N"
+   ]
+  },
+  "vignole": {
+   "nome": "Vignole",
+   "lat": 45.443707,
+   "lon": 12.376256,
+   "linee": [
+    "13",
+    "NLN"
+   ]
+  },
+  "zattere": {
+   "nome": "Zattere",
+   "lat": 45.429206,
+   "lon": 12.32654,
+   "linee": [
+    "2",
+    "5.1",
+    "5.2",
+    "6",
+    "10",
+    "N"
+   ]
+  },
+  "zitelle": {
+   "nome": "Zitelle",
+   "lat": 45.426672,
+   "lon": 12.337791,
+   "linee": [
+    "2",
+    "4.1",
+    "4.2",
+    "N"
+   ]
+  }
+ },
+ "alias": {
+  "Accademia": "accademia",
+  "Arsenale": "arsenale",
+  "Burano": "burano",
+  "Ca' Rezzonico": "ca-rezzonico",
+  "Ca' d'Oro": "ca-d-oro",
+  "Celestia": "celestia",
+  "Cimitero": "cimitero-san-michele",
+  "Crea": "crea",
+  "Ferrovia": "ferrovia",
+  "Fondamente Nove": "f-te-nove",
+  "Giardini": "giardini",
+  "Giardini Biennale": "giardini-biennale",
+  "Giglio": "s-maria-del-giglio",
+  "Guglie": "guglie",
+  "Madonna dell'Orto": "orto",
+  "Mazzorbo": "mazzorbo",
+  "Murano Da Mula": "murano-da-mula",
+  "Murano Faro": "murano-faro",
+  "Murano Museo": "murano-museo",
+  "Ospedale": "ospedale",
+  "Palanca": "giudecca-palanca",
+  "Piazzale Roma": "p-le-roma",
+  "Redentore": "redentore",
+  "Rialto": "rialto",
+  "Rialto Mercato": "rialto-mercato",
+  "Riva de Biasio": "riva-de-biasio",
+  "Sacca Fisola": "sacca-fisola",
+  "Salute": "salute",
+  "San Basilio": "s-basilio",
+  "San Giorgio": "s-giorgio",
+  "San Marco": "s-marco-vallaresso",
+  "San Marco - Giardinetti": "s-marco-giardinetti",
+  "San Marco Vallaresso": "s-marco-vallaresso",
+  "San Marcuola": "s-marcuola-casino",
+  "San Pietro di Castello": "s-pietro-di-castello",
+  "San Samuele": "s-samuele",
+  "San Silvestro": "s-silvestro",
+  "San Stae": "s-stae",
+  "San Tomà": "s-toma",
+  "San Zaccaria": "s-marco-san-zaccaria",
+  "Sant'Alvise": "s-alvise",
+  "Sant'Angelo": "s-angelo",
+  "Sant'Elena": "s-elena",
+  "Santa Maria del Giglio": "s-maria-del-giglio",
+  "Torcello": "torcello",
+  "Tre Archi": "tre-archi",
+  "Zattere": "zattere",
+  "Zitelle": "zitelle"
+ },
+ "vociLinea": {
+  "Piazzale Roma … San Marco (ACTV 1)": {
+   "linea": "1",
+   "fermata": "p-le-roma"
+  }
+ }
+}

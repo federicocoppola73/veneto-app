@@ -1,0 +1,399 @@
+{
+  "_nota": "Curiosità dell'app (bozza). Dati non ancora usati dall'app: la schermata Curiosità verrà collegata in un secondo momento. Testi solo in italiano per ora.",
+  "curiosita": [
+    {
+      "id": "ponte-chiodo",
+      "titolo": {
+        "it": "Il ponte senza parapetti",
+        "en": "The bridge without railings",
+        "fr": "Le pont sans parapets",
+        "de": "Die Brücke ohne Geländer",
+        "es": "El puente sin barandillas"
+      },
+      "luogo_id": "ponte-chiodo",
+      "sestiere": "Cannaregio",
+      "vaporetto": {
+        "fermata": "Ca' d'Oro",
+        "linee": [
+          "1"
+        ]
+      },
+      "testo": {
+        "it": "Uno dei due soli ponti di Venezia ancora senza spallette, insieme al Ponte del Diavolo di Torcello. Prende il nome dalla famiglia Chiodo, che un tempo lo possedeva. È un ponte privato che porta agli ingressi di alcune case: guardalo dalla riva, con rispetto.",
+        "en": "One of only two bridges in Venice still without side railings (spallette), together with the Ponte del Diavolo on Torcello. It takes its name from the Chiodo family, who once owned it. It is a private bridge leading to the entrances of some houses: please admire it from the bank, respectfully.",
+        "fr": "L'un des deux seuls ponts de Venise encore sans parapets latéraux, avec le Ponte del Diavolo de Torcello. Il tire son nom de la famille Chiodo, qui en était propriétaire. C'est un pont privé qui mène à l'entrée de certaines maisons : admirez-le depuis la rive, avec respect.",
+        "de": "Eine von nur zwei Brücken in Venedig, die noch ohne seitliche Geländer sind, zusammen mit der Teufelsbrücke auf Torcello. Ihr Name stammt von der Familie Chiodo, der sie einst gehörte. Es ist eine Privatbrücke, die zu den Eingängen einiger Häuser führt: Bitte betrachten Sie sie vom Ufer aus, mit Respekt.",
+        "es": "Uno de los dos únicos puentes de Venecia que aún no tienen barandillas laterales, junto con el Puente del Diablo de Torcello. Toma su nombre de la familia Chiodo, que lo poseyó. Es un puente privado que lleva a las entradas de algunas casas: admíralo desde la orilla, con respeto."
+      },
+      "foto": {
+        "file": "I08_524_Ponte_Chiodo.jpg",
+        "autore": "Falk2",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:I08_524_Ponte_Chiodo.jpg"
+      }
+    },
+    {
+      "id": "ponte-diavolo",
+      "titolo": {
+        "it": "Il ponte del Diavolo",
+        "en": "The Devil's Bridge",
+        "fr": "Le pont du Diable",
+        "de": "Die Teufelsbrücke",
+        "es": "El Puente del Diablo"
+      },
+      "luogo_id": "ponte-diavolo",
+      "sestiere": "Torcello",
+      "vaporetto": {
+        "fermata": "Torcello",
+        "linee": [
+          "9",
+          "12",
+          "NLN"
+        ]
+      },
+      "testo": {
+        "it": "Costruito nel XV secolo, è uno dei due soli ponti della città ancora senza spallette, insieme a Ponte Chiodo. Dipinti del Settecento mostrano che un tempo tutti i ponti veneziani erano così.",
+        "en": "Built in the 15th century, it is one of only two bridges in the city still without side railings, together with Ponte Chiodo. Eighteenth-century paintings show that all Venetian bridges once looked like this.",
+        "fr": "Construit au XVe siècle, c'est l'un des deux seuls ponts de la ville encore sans parapets latéraux, avec le Ponte Chiodo. Des tableaux du XVIIIe siècle montrent que tous les ponts vénitiens étaient ainsi autrefois.",
+        "de": "Im 15. Jahrhundert erbaut, ist sie eine von nur zwei Brücken der Stadt ohne seitliche Geländer, zusammen mit der Brücke Chiodo. Gemälde des 18. Jahrhunderts zeigen, dass alle venezianischen Brücken einst so aussahen.",
+        "es": "Construido en el siglo XV, es uno de los dos únicos puentes de la ciudad que aún no tienen barandillas laterales, junto con el Ponte Chiodo. Pinturas del siglo XVIII muestran que todos los puentes venecianos eran así en su origen."
+      },
+      "foto": null
+    },
+    {
+      "id": "calle-varisco",
+      "titolo": {
+        "it": "La calle più stretta di Venezia",
+        "en": "The narrowest street in Venice",
+        "fr": "La rue la plus étroite de Venise",
+        "de": "Die schmalste Gasse Venedigs",
+        "es": "La calle más estrecha de Venecia"
+      },
+      "luogo_id": "calle-varisco",
+      "sestiere": "Cannaregio",
+      "larghezza_cm": 53,
+      "vaporetto": {
+        "fermata": "Fondamente Nove",
+        "linee": [
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "12",
+          "13",
+          "22",
+          "NLN",
+          "NMU"
+        ]
+      },
+      "testo": {
+        "it": "Appena 53 cm di larghezza: per passarci bisogna quasi andarci di profilo. Un vicolo intimo, perfetto per una foto.",
+        "en": "Just 53 cm wide: to get through you almost have to turn sideways. An intimate alley, perfect for a photo.",
+        "fr": "Seulement 53 cm de large : pour passer, il faut presque se tourner de profil. Une ruelle intime, parfaite pour une photo.",
+        "de": "Nur 53 cm breit: Zum Durchgehen muss man sich fast seitlich drehen. Eine intime Gasse, perfekt für ein Foto.",
+        "es": "Apenas 53 cm de ancho: para pasar casi hay que ir de perfil. Un callejón íntimo, perfecto para una foto."
+      },
+      "foto": {
+        "file": "Long Street View Narrowest Calle.jpg",
+        "autore": "Palita333",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Long_Street_View_Narrowest_Calle.jpg"
+      }
+    },
+    {
+      "id": "porta-blu",
+      "titolo": {
+        "it": "La porta azzurra",
+        "en": "The blue gate",
+        "fr": "La porte bleue",
+        "de": "Das blaue Tor",
+        "es": "La puerta azul"
+      },
+      "luogo_id": "porta-blu",
+      "sestiere": "Castello",
+      "vaporetto": {
+        "fermata": "San Zaccaria",
+        "linee": [
+          "1",
+          "2",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "7",
+          "14",
+          "15",
+          "20",
+          "N"
+        ]
+      },
+      "testo": {
+        "it": "Una porta color turchese consumato, con arco a sesto acuto in stile gotico veneziano e il numero civico 4879 dipinto. Si trova in un vicolo molto stretto: per la foto serve un po' di pazienza.",
+        "en": "A worn turquoise door, with a pointed Venetian Gothic arch and the house number 4879 painted on it. It sits in a very narrow alley: taking the photo takes a little patience.",
+        "fr": "Une porte turquoise usée, avec un arc en ogive de style gothique vénitien et le numéro 4879 peint dessus. Elle se trouve dans une ruelle très étroite : pour la photo, il faut un peu de patience.",
+        "de": "Ein verwittertes türkisfarbenes Tor mit einem spitzen Bogen im venezianischen Gotikstil und der aufgemalten Hausnummer 4879. Es steht in einer sehr engen Gasse: Für das Foto braucht man etwas Geduld.",
+        "es": "Una puerta turquesa desgastada, con arco apuntado de estilo gótico veneciano y el número 4879 pintado. Está en un callejón muy estrecho: para la foto hace falta un poco de paciencia."
+      },
+      "foto": null
+    },
+    {
+      "id": "teatro-italia",
+      "titolo": {
+        "it": "Ex Teatro Italia, oggi supermercato",
+        "en": "Former Teatro Italia, now a supermarket",
+        "fr": "Ancien Teatro Italia, aujourd'hui supermarché",
+        "de": "Ehemaliges Teatro Italia, heute ein Supermarkt",
+        "es": "Antiguo Teatro Italia, hoy supermercado"
+      },
+      "luogo_id": "teatro-italia",
+      "sestiere": "Cannaregio",
+      "vaporetto": {
+        "fermata": "S. Marcuola-Casinò",
+        "linee": [
+          "1",
+          "2",
+          "N"
+        ]
+      },
+      "testo": {
+        "it": "Inaugurato nel 1916 come teatro, poi cinema e sede di congressi universitari. Dopo anni di abbandono è stato restaurato (circa 4,5 milioni di euro) e riaperto nel 2016 come supermercato, con gli affreschi e le facciate in stile gotico conservati.",
+        "en": "Opened in 1916 as a theatre, then a cinema and a venue for university conferences. After years of neglect it was restored (about 4.5 million euros) and reopened in 2016 as a supermarket, keeping its frescoes and Gothic-style façades.",
+        "fr": "Inauguré en 1916 comme théâtre, il devint ensuite un cinéma puis un lieu de congrès universitaires. Après des années d'abandon, il a été restauré (environ 4,5 millions d'euros) et rouvert en 2016 comme supermarché, en conservant ses fresques et ses façades de style gothique.",
+        "de": "1916 als Theater eröffnet, danach Kino und Veranstaltungsort für Universitätskongresse. Nach Jahren des Verfalls wurde es restauriert (rund 4,5 Millionen Euro) und 2016 als Supermarkt wiedereröffnet; Fresken und Fassaden im gotischen Stil blieben erhalten.",
+        "es": "Inaugurado en 1916 como teatro, después fue cine y sede de congresos universitarios. Tras años de abandono se restauró (unos 4,5 millones de euros) y reabrió en 2016 como supermercado, conservando los frescos y las fachadas de estilo gótico."
+      },
+      "foto": null
+    },
+    {
+      "id": "palazzo-tetta",
+      "titolo": {
+        "it": "Il palazzo con l'acqua su tre lati",
+        "en": "The palace with water on three sides",
+        "fr": "Le palais entouré d'eau de trois côtés",
+        "de": "Der Palast mit Wasser auf drei Seiten",
+        "es": "El palacio con agua en tres lados"
+      },
+      "luogo_id": "palazzo-tetta",
+      "sestiere": "Castello",
+      "vaporetto": {
+        "fermata": "Ospedale",
+        "linee": [
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "22"
+        ]
+      },
+      "testo": {
+        "it": "Costruito intorno al XVII secolo dove il Rio de Santa Marina si divide in due canali: ha acqua su tre lati, una rarità anche a Venezia. Sulla riva si trovano pietre numerate lasciate da visitatori di tutto il mondo, e nessuno sa con certezza da dove vengano.",
+        "en": "Built around the 17th century where the Rio de Santa Marina splits into two canals: it has water on three sides, a rarity even in Venice. On the bank you can find numbered stones left by visitors from all over the world, and nobody knows for sure where they come from.",
+        "fr": "Construit vers le XVIIe siècle à l'endroit où le Rio de Santa Marina se divise en deux canaux : il est entouré d'eau sur trois côtés, une rareté même à Venise. Sur la rive, on trouve des pierres numérotées laissées par des visiteurs du monde entier, dont personne ne connaît vraiment l'origine.",
+        "de": "Um das 17. Jahrhundert erbaut, dort wo sich der Rio de Santa Marina in zwei Kanäle teilt: Es hat auf drei Seiten Wasser, eine Seltenheit selbst in Venedig. Am Ufer liegen nummerierte Steine, die Besucher aus aller Welt hinterlassen haben; niemand weiß genau, woher sie stammen.",
+        "es": "Construido hacia el siglo XVII donde el Rio de Santa Marina se divide en dos canales: tiene agua en tres lados, una rareza incluso en Venecia. En la orilla hay piedras numeradas dejadas por visitantes de todo el mundo, y nadie sabe con certeza de dónde vienen."
+      },
+      "foto": null
+    },
+    {
+      "id": "calle-della-morte",
+      "titolo": {
+        "it": "La Calle della Morte",
+        "en": "The Calle della Morte",
+        "fr": "La Calle della Morte",
+        "de": "Die Calle della Morte",
+        "es": "La Calle della Morte"
+      },
+      "sestiere": "Castello",
+      "latitudine": 45.435081571345464,
+      "longitudine": 12.34673909828325,
+      "testo": {
+        "it": "Nel sestiere di Castello esiste una calle chiamata Calle della Morte. Secondo la tradizione locale, sarebbe stata legata alla scomparsa di persone scomode per il governo della Repubblica di Venezia. La storia precisa del nome va trattata con cautela, perché i racconti tramandati non equivalgono necessariamente a fatti documentati.",
+        "en": "In the Castello sestiere there is an alley called Calle della Morte. According to local tradition, it was linked to the disappearance of people who were inconvenient for the government of the Republic of Venice. The exact history of the name should be treated with caution, as the tales handed down do not necessarily correspond to documented facts.",
+        "fr": "Dans le sestiere de Castello se trouve une ruelle appelée Calle della Morte. Selon la tradition locale, elle serait liée à la disparition de personnes gênantes pour le gouvernement de la République de Venise. L'histoire précise du nom doit être abordée avec prudence : les récits transmis ne correspondent pas forcément à des faits documentés.",
+        "de": "Im Sestiere Castello gibt es eine Gasse namens Calle della Morte. Der lokalen Überlieferung zufolge stand sie im Zusammenhang mit dem Verschwinden von Personen, die der Regierung der Republik Venedig unbequem waren. Die genaue Geschichte des Namens ist mit Vorsicht zu betrachten, denn die überlieferten Erzählungen entsprechen nicht unbedingt dokumentierten Tatsachen.",
+        "es": "En el sestiere de Castello hay una calle llamada Calle della Morte. Según la tradición local, estaría vinculada a la desaparición de personas incómodas para el gobierno de la República de Venecia. La historia precisa del nombre debe tratarse con cautela, porque los relatos transmitidos no equivalen necesariamente a hechos documentados."
+      },
+      "vaporetto": {
+        "fermata": "San Marco / San Zaccaria",
+        "linee": [
+          "1",
+          "2",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "7",
+          "14",
+          "15",
+          "20",
+          "N"
+        ]
+      }
+    },
+    {
+      "id": "chiesa-san-nicolo-mendicoli",
+      "titolo": {
+        "it": "La chiesa dei pescatori",
+        "en": "The fishermen's church",
+        "fr": "L'église des pêcheurs",
+        "de": "Die Kirche der Fischer",
+        "es": "La iglesia de los pescadores"
+      },
+      "luogo_id": "chiesa-san-nicolo-mendicoli",
+      "sestiere": "Dorsoduro",
+      "vaporetto": {
+        "fermata": "Zattere",
+        "linee": [
+          "2",
+          "5.1",
+          "5.2",
+          "6"
+        ]
+      },
+      "testo": {
+        "it": "Chiesa fuori dai percorsi turistici, nel quartiere dei Mendicoli, a due passi dalle Zattere. Il nome ricorda la comunità di pescatori e poveri che viveva qui; il santo patrono è San Nicola, protettore dei marinai. L'ingresso è libero: lasciare un'offerta è gradito.",
+        "en": "A church off the tourist routes, in the Mendicoli district close to the Zattere. The name recalls the community of fishermen and poor people who lived here; the patron saint is St Nicholas, protector of sailors. Entry is free; a donation is welcome.",
+        "fr": "Une église hors des circuits touristiques, dans le quartier des Mendicoli, près des Zattere. Son nom rappelle la communauté de pêcheurs et de pauvres qui vivait ici ; le saint patron est saint Nicolas, protecteur des marins. L'entrée est libre ; une offrande est bienvenue.",
+        "de": "Eine Kirche abseits der Touristenpfade im Viertel Mendicoli, nahe den Zattere. Der Name erinnert an die Gemeinschaft der Fischer und Armen, die hier lebte; Schutzpatron ist der heilige Nikolaus, Beschützer der Seeleute. Der Eintritt ist frei, eine Spende ist willkommen.",
+        "es": "Una iglesia fuera de los circuitos turísticos, en el barrio de Mendicoli, cerca de las Zattere. El nombre recuerda a la comunidad de pescadores y pobres que vivía aquí; el santo patrón es San Nicolás, protector de los marineros. La entrada es gratuita; se agradece una donación."
+      }
+    },
+    {
+      "id": "complesso-san-lazzaro-mendicanti",
+      "titolo": {
+        "it": "Un Veronese e un Tintoretto nascosti",
+        "en": "A hidden Veronese and Tintoretto",
+        "fr": "Un Véronèse et un Tintoret cachés",
+        "de": "Ein versteckter Veronese und Tintoretto",
+        "es": "Un Veronese y un Tintoretto escondidos"
+      },
+      "luogo_id": "complesso-san-lazzaro-mendicanti",
+      "sestiere": "Castello",
+      "vaporetto": {
+        "fermata": "Ospedale",
+        "linee": [
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "22"
+        ]
+      },
+      "testo": {
+        "it": "Chiesa e antico ospizio sulla Fondamenta dei Mendicanti, con il suo chiostro. Qui l'ospizio insegnava un mestiere agli uomini e alle ragazze con talento musicale: le ragazze diventarono famose per i concerti, e il padre di Vivaldi vi insegnò musica. All'interno ci sono opere di Veronese (Crocifissione) e Tintoretto (Sant'Orsola e le vergini). Il complesso è in parte un ospedale: entrare dall'ingresso della chiesa.",
+        "en": "A church and former hospice on the Fondamenta dei Mendicanti, with its cloister. The hospice taught men a trade and girls with musical talent, who became famous for their concerts; Vivaldi's father taught music here. Inside are works by Veronese (Crucifixion) and Tintoretto (St Ursula and the virgins). Part of the complex is a hospital: enter through the church door.",
+        "fr": "Église et ancien hospice sur la Fondamenta dei Mendicanti, avec son cloître. L'hospice enseignait un métier aux hommes et la musique aux jeunes filles douées, devenues célèbres pour leurs concerts ; le père de Vivaldi y enseigna la musique. À l'intérieur : une Crucifixion de Véronèse et sainte Ursule de Tintoret. Une partie du complexe est un hôpital : entrez par la porte de l'église.",
+        "de": "Kirche und ehemaliges Hospiz an der Fondamenta dei Mendicanti, mit Kreuzgang. Das Hospiz unterrichtete Männer in einem Handwerk und Mädchen mit musikalischem Talent, die durch ihre Konzerte berühmt wurden; Vivaldis Vater unterrichtete hier Musik. Im Inneren: eine Kreuzigung von Veronese und die heilige Ursula von Tintoretto. Ein Teil der Anlage ist ein Krankenhaus: Eintritt über die Kirchentür.",
+        "es": "Iglesia y antiguo hospicio en la Fondamenta dei Mendicanti, con su claustro. El hospicio enseñaba un oficio a los hombres y música a las chicas con talento, que se hicieron famosas por sus conciertos; el padre de Vivaldi enseñó música aquí. Dentro hay una Crucifixión de Veronese y Santa Úrsula de Tintoretto. Parte del complejo es un hospital: entra por la puerta de la iglesia."
+      }
+    },
+    {
+      "id": "isola-san-francesco-deserto",
+      "titolo": {
+        "it": "L'isola dei frati",
+        "en": "The friars' island",
+        "fr": "L'île des frères",
+        "de": "Die Insel der Mönche",
+        "es": "La isla de los frailes"
+      },
+      "luogo_id": "isola-san-francesco-deserto",
+      "sestiere": "Burano",
+      "vaporetto": {
+        "fermata": "Burano",
+        "linee": [
+          "9",
+          "12",
+          "14",
+          "NLN"
+        ]
+      },
+      "testo": {
+        "it": "Isola con il convento francescano, dove vivono alcuni frati. La visita è SOLO SU PRENOTAZIONE: telefonare al convento, +39 041 528 6863, che indica anche gli orari. Non c'è un vaporetto diretto: si arriva da Burano con un mezzo privato o un taxi acqueo (circa 15 minuti), oppure con un'escursione organizzata. La visita guidata dura circa un'ora, in italiano; ci sono opuscoli in inglese, francese e tedesco. La visita è gratuita con offerta libera. Orari: da martedì a domenica 9–11 e 15–17, chiuso il lunedì (da confermare con il convento).",
+        "en": "An island with a Franciscan convent, home to a few friars. Visits are BY BOOKING ONLY: call the convent, +39 041 528 6863, which also confirms the times. There is no direct vaporetto: reach it from Burano by private boat or water taxi (about 15 minutes), or on an organised tour. The guided visit lasts about an hour, in Italian; leaflets are available in English, French and German. Entry is free with a donation. Times: Tuesday to Sunday 9–11 and 15–17, closed Monday (to be confirmed with the convent).",
+        "fr": "Île avec un couvent franciscain, où vivent quelques frères. La visite se fait UNIQUEMENT SUR RÉSERVATION : appelez le couvent au +39 041 528 6863, qui indique aussi les horaires. Il n'y a pas de vaporetto direct : on y va depuis Burano en bateau privé ou en taxi d'eau (environ 15 minutes), ou avec une excursion organisée. La visite guidée dure environ une heure, en italien ; des dépliants existent en anglais, français et allemand. Entrée gratuite avec offrande. Horaires : du mardi au dimanche 9h–11h et 15h–17h, fermé le lundi (à confirmer avec le couvent).",
+        "de": "Insel mit einem Franziskanerkloster, in dem einige Mönche leben. Der Besuch ist NUR NACH VORHERIGER BUCHUNG möglich: Rufen Sie das Kloster an, +39 041 528 6863, das auch die Zeiten bestätigt. Es gibt kein direktes Vaporetto: Die Anreise erfolgt ab Burano mit einem Privatboot oder Wassertaxi (etwa 15 Minuten) oder mit einer organisierten Tour. Die Führung dauert etwa eine Stunde, auf Italienisch; Faltblätter gibt es auf Englisch, Französisch und Deutsch. Der Eintritt ist frei, eine Spende ist willkommen. Zeiten: Dienstag bis Sonntag 9–11 und 15–17 Uhr, montags geschlossen (beim Kloster zu bestätigen).",
+        "es": "Isla con un convento franciscano, donde viven algunos frailes. La visita es SOLO CON RESERVA: llame al convento, +39 041 528 6863, que también confirma los horarios. No hay vaporetto directo: se llega desde Burano en barco privado o taxi acuático (unos 15 minutos), o con una excursión organizada. La visita guiada dura unas dos horas en italiano... unos sesenta minutos; hay folletos en inglés, francés y alemán. Entrada gratuita con donación. Horario: de martes a domingo 9–11 y 15–17, cerrado los lunes (confirmar con el convento)."
+      }
+    },
+    {
+      "id": "complesso-ospedaletto",
+      "titolo": {
+        "it": "Un ospedale diventato galleria",
+        "en": "A hospital turned gallery",
+        "fr": "Un hôpital devenu galerie",
+        "de": "Ein Krankenhaus wird Galerie",
+        "es": "Un hospital convertido en galería"
+      },
+      "luogo_id": "ospedaletto",
+      "sestiere": "Castello",
+      "vaporetto": {
+        "fermata": "Ospedale",
+        "linee": [
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "22"
+        ]
+      },
+      "testo": {
+        "it": "Antico ospedale e chiesa nella Barbaria delle Tole, oggi spazio per mostre ed esposizioni. La visita è SU PRENOTAZIONE: chiamare il +39 041 309 6605 o scrivere al sito prima di venire. Orari: lunedì e da mercoledì a domenica 10–18, chiuso il martedì. Il biglietto varia con la mostra in corso: verificarlo al momento della prenotazione.",
+        "en": "A former hospital and church in Barbaria delle Tole, now a space for exhibitions. Visits are BY BOOKING: call +39 041 309 6605 or write through the website before going. Hours: Monday and Wednesday to Sunday 10–18, closed Tuesday. The ticket depends on the current exhibition: check when booking.",
+        "fr": "Ancien hôpital et église à la Barbaria delle Tole, aujourd'hui espace d'expositions. La visite se fait SUR RÉSERVATION : appelez le +39 041 309 6605 ou écrivez via le site avant de venir. Horaires : lundi et du mercredi au dimanche 10h–18h, fermé le mardi. Le billet dépend de l'exposition en cours : à vérifier lors de la réservation.",
+        "de": "Ehemaliges Krankenhaus und Kirche in der Barbaria delle Tole, heute Ausstellungsraum. Der Besuch ist NUR NACH BUCHUNG möglich: Rufen Sie +39 041 309 6605 an oder schreiben Sie über die Website, bevor Sie kommen. Öffnungszeiten: Montag sowie Mittwoch bis Sonntag 10–18 Uhr, dienstags geschlossen. Der Eintritt hängt von der aktuellen Ausstellung ab: bei der Buchung prüfen.",
+        "es": "Antiguo hospital e iglesia en la Barbaria delle Tole, hoy espacio de exposiciones. La visita es CON RESERVA: llame al +39 041 309 6605 o escriba a través de la web antes de ir. Horario: lunes y de miércoles a domingo 10–18, cerrado los martes. La entrada depende de la exposición en curso: consultarla al reservar."
+      }
+    },
+    {
+      "id": "isola-lazzaretto-nuovo",
+      "titolo": {
+        "it": "La prima isola della quarantena",
+        "en": "The first quarantine island",
+        "fr": "La première île de quarantaine",
+        "de": "Die erste Quarantäneinsel",
+        "es": "La primera isla de cuarentena"
+      },
+      "luogo_id": "isola-lazzaretto-nuovo",
+      "sestiere": "Torcello",
+      "vaporetto": {
+        "fermata": "Lazzaretto Nuovo",
+        "linee": [
+          "13"
+        ]
+      },
+      "testo": {
+        "it": "Isola della laguna nord, dove nel Cinquecento si mettevano in quarantena le navi e le merci sospette di peste. Oggi si visita con guida, in un ambiente naturale con uccelli e barene. La visita è SOLO SU PRENOTAZIONE, da fare in anticipo sul sito o con i gestori: i posti sono limitati. Orari e costo del biglietto non sono indicati qui: verificarli prima di partire. Portare repellente per zanzare.",
+        "en": "An island in the northern lagoon where ships and goods suspected of plague were quarantined in the 1500s. Today it is visited with a guide, in a natural setting with birds and salt marshes. Visits are BY BOOKING ONLY, made in advance through the official channels: places are limited. Opening times and the ticket price are not listed here: check them before you go. Bring insect repellent.",
+        "fr": "Île de la lagune nord où, au XVIe siècle, on mettait en quarantaine les navires et les marchandises suspectées de peste. Aujourd'hui on la visite avec un guide, dans un milieu naturel avec oiseaux et marais salants. La visite est UNIQUEMENT SUR RÉSERVATION, à faire à l'avance : les places sont limitées. Horaires et prix du billet non indiqués ici : à vérifier avant de partir. Prévoir un répulsif anti-moustiques.",
+        "de": "Insel in der nördlichen Lagune, wo im 16. Jahrhundert Schiffe und Waren mit Pestverdacht unter Quarantäne gestellt wurden. Heute besucht man sie mit einer Führung in einer Naturlandschaft mit Vögeln und Salzwiesen. Der Besuch ist NUR NACH BUCHUNG möglich, am besten rechtzeitig: Die Plätze sind begrenzt. Öffnungszeiten und Eintrittspreis sind hier nicht angegeben: vor der Reise prüfen. Mückenschutz mitnehmen.",
+        "es": "Isla de la laguna norte donde en el siglo XVI se ponían en cuarentena barcos y mercancías sospechosos de peste. Hoy se visita con guía, en un entorno natural con aves y salinas. La visita es SOLO CON RESERVA, con antelación: las plazas son limitadas. Horarios y precio de la entrada no indicados aquí: consultarlos antes de ir. Llevar repelente de mosquitos."
+      }
+    },
+    {
+      "id": "isola-san-servolo",
+      "titolo": {
+        "it": "L'isola dell'ex manicomio",
+        "en": "The island of the former asylum",
+        "fr": "L'île de l'ancien asile",
+        "de": "Die Insel der ehemaligen Anstalt",
+        "es": "La isla del antiguo manicomio"
+      },
+      "luogo_id": "isola-san-servolo",
+      "sestiere": "San Giorgio",
+      "vaporetto": {
+        "fermata": "S. Servolo",
+        "linee": [
+          "10",
+          "20"
+        ]
+      },
+      "testo": {
+        "it": "Isola che fu ospedale psichiatrico fino al 1978. Oggi ospita il Museo del Manicomio (la storia dell'ospedale psichiatrico), una farmacia antica e una biblioteca, oltre a sedi universitarie ed eventi. Si raggiunge con il vaporetto linea 20 (e linea 10) dalla zona di San Marco/San Zaccaria. Gli orari del museo e il biglietto non sono indicati qui: verificarli sul sito della Fondazione San Servolo prima di partire.",
+        "en": "An island that was a psychiatric hospital until 1978. Today it houses the Museum of the Asylum (the history of the psychiatric hospital), an antique pharmacy and a library, plus university venues and events. Reach it by vaporetto line 20 (and line 10) from San Marco/San Zaccaria. Museum hours and ticket price are not listed here: check the Fondazione San Servolo website before you go.",
+        "fr": "Île qui fut un hôpital psychiatrique jusqu'en 1978. Aujourd'hui elle abrite le Musée de l'asile (l'histoire de l'hôpital psychiatrique), une pharmacie ancienne et une bibliothèque, ainsi que des sites universitaires et des événements. On y va avec le vaporetto ligne 20 (et ligne 10) depuis San Marco/San Zaccaria. Horaires du musée et prix du billet non indiqués ici : à vérifier sur le site de la Fondazione San Servolo avant de partir.",
+        "de": "Insel, die bis 1978 eine psychiatrische Klinik war. Heute beherbergt sie das Museum der Anstalt (Geschichte der psychiatrischen Klinik), eine historische Apotheke und eine Bibliothek sowie Universitätsstandorte und Veranstaltungen. Anreise mit dem Vaporetto Linie 20 (und Linie 10) ab San Marco/San Zaccaria. Museumszeiten und Eintrittspreis sind hier nicht angegeben: vorher auf der Website der Fondazione San Servolo prüfen.",
+        "es": "Isla que fue hospital psiquiátrico hasta 1978. Hoy alberga el Museo del Manicomio (la historia del hospital psiquiátrico), una antigua farmacia y una biblioteca, además de sedes universitarias y eventos. Se llega con el vaporetto línea 20 (y línea 10) desde San Marco/San Zaccaria. Horario del museo y precio de la entrada no indicados aquí: consultar la web de la Fondazione San Servolo antes de ir."
+      }
+    }
+  ]
+}

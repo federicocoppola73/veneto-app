@@ -1,0 +1,2668 @@
+{
+  "_nota": "Generato da strumenti/aguzza_importa.py dal file Excel \"Aguzza la vista\". Non modificare a mano.",
+  "itinerari": [
+    {
+      "id": "ITINERARIO20",
+      "titolo": {
+        "it": "Aguzza la vista – San Marco",
+        "en": "Look closer – San Marco",
+        "fr": "Ouvrez l’œil – San Marco",
+        "de": "Genau hinsehen – San Marco",
+        "es": "Agudiza la vista – San Marco"
+      },
+      "tappe": [
+        "basilica-san-marco",
+        "palazzo-ducale",
+        "ponte-sospiri",
+        "contarini-bovolo",
+        "libreria-marciana",
+        "piazza-san-marco",
+        "palazzo-fortuny",
+        "palazzo-contarini-fasan",
+        "palazzo-labia",
+        "santa-maria-giglio",
+        "ferro-fini",
+        "palazzo-dario"
+      ]
+    },
+    {
+      "id": "ITINERARIO21",
+      "titolo": {
+        "it": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+        "en": "Look closer – Rialto, San Polo and Santa Croce",
+        "fr": "Ouvrez l’œil – Rialto, San Polo et Santa Croce",
+        "de": "Genau hinsehen – Rialto, San Polo und Santa Croce",
+        "es": "Agudiza la vista – Rialto, San Polo y Santa Croce"
+      },
+      "tappe": [
+        "ca-doro",
+        "ponte-rialto",
+        "ponte-tette",
+        "frari",
+        "pescheria",
+        "san-rocco",
+        "ca-da-mosto",
+        "san-giacometto",
+        "san-giacomo-orio",
+        "san-stae",
+        "palazzo-balbi",
+        "ca-pesaro",
+        "palazzo-mastelli"
+      ]
+    },
+    {
+      "id": "ITINERARIO22",
+      "titolo": {
+        "it": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+        "en": "Look closer – Dorsoduro, Zattere and Giudecca",
+        "fr": "Ouvrez l’œil – Dorsoduro, Zattere et Giudecca",
+        "de": "Genau hinsehen – Dorsoduro, Zattere und Giudecca",
+        "es": "Agudiza la vista – Dorsoduro, Zattere y Giudecca"
+      },
+      "tappe": [
+        "san-pantalon",
+        "ponte-pugni",
+        "ponte-accademia",
+        "salute",
+        "squero-san-trovaso",
+        "san-sebastiano",
+        "san-giorgio-maggiore",
+        "redentore",
+        "molino-stucky",
+        "gesuati",
+        "sant-eufemia",
+        "zitelle",
+        "zattere"
+      ]
+    },
+    {
+      "id": "ITINERARIO23",
+      "titolo": {
+        "it": "Aguzza la vista – Cannaregio",
+        "en": "Look closer – Cannaregio",
+        "fr": "Ouvrez l’œil – Cannaregio",
+        "de": "Genau hinsehen – Cannaregio",
+        "es": "Agudiza la vista – Cannaregio"
+      },
+      "tappe": [
+        "madonna-orto",
+        "campo-mori",
+        "fondamenta-misericordia",
+        "ghetto",
+        "gesuiti",
+        "san-marcuola",
+        "ca-doro",
+        "ca-da-mosto"
+      ]
+    },
+    {
+      "id": "ITINERARIO24",
+      "titolo": {
+        "it": "Aguzza la vista – Castello e Arsenale",
+        "en": "Look closer – Castello and Arsenale",
+        "fr": "Ouvrez l’œil – Castello et Arsenal",
+        "de": "Genau hinsehen – Castello und Arsenale",
+        "es": "Agudiza la vista – Castello y Arsenal"
+      },
+      "tappe": [
+        "campo-santi-giovanni-paolo",
+        "campo-santa-maria-formosa",
+        "arsenale",
+        "san-zaccaria",
+        "san-francesco-vigna",
+        "santa-maria-formosa",
+        "ospedaletto",
+        "san-giorgio-greci",
+        "san-martino-burano",
+        "san-pietro-castello",
+        "palazzo-grimani",
+        "schiavoni",
+        "querini-stampalia",
+        "acqua-alta",
+        "via-garibaldi",
+        "giardini-biennale",
+        "serra-giardini",
+        "giardino-carmelitani",
+        "labirinto-borges",
+        "parco-rimembranze"
+      ]
+    },
+    {
+      "id": "ITINERARIO25",
+      "titolo": {
+        "it": "Aguzza la vista – Ponti e percorsi urbani",
+        "en": "Look closer – Bridges and city walks",
+        "fr": "Ouvrez l’œil – Ponts et parcours urbains",
+        "de": "Genau hinsehen – Brücken und Stadtwege",
+        "es": "Agudiza la vista – Puentes y recorridos urbanos"
+      },
+      "tappe": [
+        "ponte-guglie",
+        "ponte-scalzi",
+        "ponte-liberta",
+        "ponte-accademia",
+        "ponte-pugni",
+        "ponte-rialto",
+        "tre-ponti-burano",
+        "ponte-diavolo"
+      ]
+    },
+    {
+      "id": "ITINERARIO26",
+      "titolo": {
+        "it": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+        "en": "Look closer – Museums and palaces with details to find inside",
+        "fr": "Ouvrez l’œil – Musées et palais, avec des détails à chercher à l’intérieur",
+        "de": "Genau hinsehen – Museen und Paläste mit Details zum Entdecken im Inneren",
+        "es": "Agudiza la vista – Museos y palacios con detalles que buscar en el interior"
+      },
+      "tappe": [
+        "palazzo-labia",
+        "palazzo-mocenigo",
+        "querini-stampalia",
+        "storia-naturale",
+        "san-rocco",
+        "museo-vetro",
+        "museo-merletto",
+        "accademia",
+        "guggenheim",
+        "palazzo-grassi",
+        "punta-dogana",
+        "san-giovanni-evangelista",
+        "casa-goldoni",
+        "scuola-carmini",
+        "misericordia",
+        "museo-navale",
+        "museo-ebraico"
+      ]
+    },
+    {
+      "id": "ITINERARIO27",
+      "titolo": {
+        "it": "Aguzza la vista – Murano, Burano e Torcello",
+        "en": "Look closer – Murano, Burano and Torcello",
+        "fr": "Ouvrez l’œil – Murano, Burano et Torcello",
+        "de": "Genau hinsehen – Murano, Burano und Torcello",
+        "es": "Agudiza la vista – Murano, Burano y Torcello"
+      },
+      "tappe": [
+        "santi-maria-donato",
+        "bepi-sua",
+        "torcello",
+        "trono-attila",
+        "venissa"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "luogo_id": "basilica-san-marco",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la facciata: riesci a individuare colonne di colori e materiali diversi?",
+        "en": "Look at the façade: can you spot columns of different colours and materials?",
+        "fr": "Observe la façade : arrives-tu à repérer des colonnes de couleurs et de matériaux différents ?",
+        "de": "Betrachte die Fassade: Kannst du Säulen unterschiedlicher Farben und Materialien erkennen?",
+        "es": "Observa la fachada: ¿consigues ver columnas de colores y materiales distintos?"
+      },
+      "risposta": {
+        "it": "Sì, sono presenti colonne e marmi di provenienze differenti.",
+        "en": "Yes, there are columns and marbles from different origins.",
+        "fr": "Oui, il y a des colonnes et des marbres de provenances différentes.",
+        "de": "Ja, es gibt Säulen und Marmorarten unterschiedlicher Herkunft.",
+        "es": "Sí, hay columnas y mármoles de procedencias diferentes."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "basilica-san-marco",
+      "zona": "San Marco",
+      "tema": "Pavimento",
+      "domanda": {
+        "it": "Se entri nella basilica, cerca il pavimento: quali motivi si alternano agli intarsi di marmo?",
+        "en": "Inside the basilica, look at the floor: which motifs alternate with the marble inlays?",
+        "fr": "Si tu entres dans la basilique, observe le sol : quels motifs alternent avec les incrustations de marbre ?",
+        "de": "Wenn du die Basilika betrittst, schau auf den Boden: Welche Motive wechseln sich mit den Marmoreinlagen ab?",
+        "es": "Si entras en la basílica, observa el suelo: ¿qué motivos se alternan con las incrustaciones de mármol?"
+      },
+      "risposta": {
+        "it": "Figure geometriche e motivi figurativi, tra cui animali.",
+        "en": "Geometric figures and figurative motifs, including animals.",
+        "fr": "Figures géométriques et motifs figuratifs, dont des animaux.",
+        "de": "Geometrische Figuren und figürliche Motive, darunter Tiere.",
+        "es": "Figuras geométricas y motivos figurativos, entre ellos animales."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-ducale",
+      "zona": "San Marco",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Nel cortile cerca due grandi vere da pozzo in bronzo. Che cosa le distingue dalle comuni fontane?",
+        "en": "In the courtyard, look for two large bronze well-heads. What sets them apart from ordinary fountains?",
+        "fr": "Dans la cour, cherche deux grandes margelles en bronze. Qu’est-ce qui les distingue des fontaines ordinaires ?",
+        "de": "Suche im Hof zwei große Brunnenköpfe aus Bronze. Was unterscheidet sie von gewöhnlichen Brunnen?",
+        "es": "En el patio, busca dos grandes brocales de bronce. ¿Qué los distingue de las fuentes corrientes?"
+      },
+      "risposta": {
+        "it": "Sono elaborati manufatti decorativi, con forme e rilievi ornamentali.",
+        "en": "They are elaborate decorative objects, with ornamental shapes and reliefs.",
+        "fr": "Ce sont des ouvrages décoratifs élaborés, avec des formes et des reliefs ornementaux.",
+        "de": "Es sind kunstvolle Zierobjekte mit ornamentalen Formen und Reliefs.",
+        "es": "Son elaborados objetos decorativos, con formas y relieves ornamentales."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-ducale",
+      "zona": "San Marco",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Cerca una delle “bocche di leone” utilizzate per raccogliere denunce: che forma ha l’apertura?",
+        "en": "Look for one of the “lions’ mouths” used to collect denunciations: what shape is the opening?",
+        "fr": "Cherche l’une des « bouches de lion » utilisées pour recueillir les dénonciations : quelle forme a l’ouverture ?",
+        "de": "Suche eines der „Löwenmäuler“, in die Anzeigen eingeworfen wurden: Welche Form hat die Öffnung?",
+        "es": "Busca una de las «bocas de león» usadas para recoger denuncias: ¿qué forma tiene la abertura?"
+      },
+      "risposta": {
+        "it": "È una fessura nella bocca di una figura scolpita.",
+        "en": "It is a slot in the mouth of a carved figure.",
+        "fr": "C’est une fente dans la bouche d’une figure sculptée.",
+        "de": "Es ist ein Schlitz im Mund einer geschnitzten Figur.",
+        "es": "Es una ranura en la boca de una figura tallada."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": {
+        "file": "aguzza/bocche-palazzo-ducale.webp",
+        "credits": null
+      }
+    },
+    {
+      "luogo_id": "palazzo-ducale",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva le colonne del cortile: i capitelli sono tutti uguali?",
+        "en": "Look at the courtyard columns: are all the capitals the same?",
+        "fr": "Observe les colonnes de la cour : les chapiteaux sont-ils tous identiques ?",
+        "de": "Betrachte die Säulen des Hofes: Sind alle Kapitelle gleich?",
+        "es": "Observa las columnas del patio: ¿son iguales todos los capiteles?"
+      },
+      "risposta": {
+        "it": "No, presentano decorazioni e motivi differenti.",
+        "en": "No, they have different decorations and motifs.",
+        "fr": "Non, ils présentent des décors et des motifs différents.",
+        "de": "Nein, sie haben unterschiedliche Verzierungen und Motive.",
+        "es": "No, presentan decoraciones y motivos diferentes."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-sospiri",
+      "zona": "San Marco",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Scruta la superficie esterna del ponte: riesci a trovare piccoli volti scolpiti?",
+        "en": "Scan the outer surface of the bridge: can you find small carved faces?",
+        "fr": "Scrute la surface extérieure du pont : arrives-tu à trouver de petits visages sculptés ?",
+        "de": "Betrachte die Außenfläche der Brücke: Kannst du kleine geschnitzte Gesichter finden?",
+        "es": "Examina la superficie exterior del puente: ¿consigues encontrar pequeños rostros tallados?"
+      },
+      "risposta": {
+        "it": "Sono presenti mascheroni e volti decorativi.",
+        "en": "There are mascarons and decorative faces.",
+        "fr": "Il y a des mascarons et des visages décoratifs.",
+        "de": "Es gibt Maskarone und dekorative Gesichter.",
+        "es": "Hay mascarones y rostros decorativos."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "contarini-bovolo",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Segui con lo sguardo la scala esterna: quale forma disegna salendo?",
+        "en": "Follow the external staircase with your eyes: what shape does it trace as it rises?",
+        "fr": "Suis des yeux l’escalier extérieur : quelle forme dessine-t-il en montant ?",
+        "de": "Folge mit dem Blick der Außentreppe: Welche Form zeichnet sie beim Aufsteigen?",
+        "es": "Sigue con la mirada la escalera exterior: ¿qué forma dibuja al subir?"
+      },
+      "risposta": {
+        "it": "Una spirale, scandita da archi sovrapposti.",
+        "en": "A spiral, marked by superimposed arches.",
+        "fr": "Une spirale, rythmée par des arcs superposés.",
+        "de": "Eine Spirale, gegliedert durch übereinanderliegende Bögen.",
+        "es": "Una espiral, marcada por arcos superpuestos."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "contarini-bovolo",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda i diversi livelli della scala: gli archi formano una linea continua o sono separati in fasce?",
+        "en": "Look at the different levels of the staircase: do the arches form a continuous line or are they separated into bands?",
+        "fr": "Observe les différents niveaux de l’escalier : les arcs forment-ils une ligne continue ou sont-ils séparés en bandes ?",
+        "de": "Betrachte die verschiedenen Ebenen der Treppe: Bilden die Bögen eine durchgehende Linie oder sind sie in Streifen getrennt?",
+        "es": "Observa los distintos niveles de la escalera: ¿los arcos forman una línea continua o están separados en franjas?"
+      },
+      "risposta": {
+        "it": "Sono organizzati in fasce sovrapposte lungo la spirale.",
+        "en": "They are arranged in superimposed bands along the spiral.",
+        "fr": "Ils sont organisés en bandes superposées le long de la spirale.",
+        "de": "Sie sind in übereinanderliegenden Streifen entlang der Spirale angeordnet.",
+        "es": "Están organizados en franjas superpuestas a lo largo de la espiral."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "libreria-marciana",
+      "zona": "San Marco",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Sulla balaustra superiore cerca le statue: che tipo di figure rappresentano?",
+        "en": "On the upper balustrade look for the statues: what kind of figures do they represent?",
+        "fr": "Sur la balustrade supérieure, cherche les statues : quel type de figures représentent-elles ?",
+        "de": "Suche auf der oberen Balustrade die Statuen: Welche Art von Figuren stellen sie dar?",
+        "es": "En la balaustrada superior busca las estatuas: ¿qué tipo de figuras representan?"
+      },
+      "risposta": {
+        "it": "Figure allegoriche e divinità della tradizione classica.",
+        "en": "Allegorical figures and deities from the classical tradition.",
+        "fr": "Figures allégoriques et divinités de la tradition classique.",
+        "de": "Allegorische Figuren und Gottheiten der klassischen Tradition.",
+        "es": "Figuras alegóricas y divinidades de la tradición clásica."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "libreria-marciana",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Confronta i livelli della facciata: le colonne hanno tutte lo stesso capitello?",
+        "en": "Compare the levels of the façade: do all the columns have the same capital?",
+        "fr": "Compare les niveaux de la façade : les colonnes ont-elles toutes le même chapiteau ?",
+        "de": "Vergleiche die Ebenen der Fassade: Haben alle Säulen dasselbe Kapitell?",
+        "es": "Compara los niveles de la fachada: ¿tienen todas las columnas el mismo capitel?"
+      },
+      "risposta": {
+        "it": "No, sono impiegati ordini architettonici differenti.",
+        "en": "No, different architectural orders are used.",
+        "fr": "Non, on y emploie des ordres architecturaux différents.",
+        "de": "Nein, es werden unterschiedliche architektonische Ordnungen verwendet.",
+        "es": "No, se emplean órdenes arquitectónicos diferentes."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "piazza-san-marco",
+      "zona": "San Marco",
+      "tema": "Urbanistica",
+      "domanda": {
+        "it": "Osserva lo spazio davanti alla basilica: come riconosci la piazza principale rispetto ai campi veneziani?",
+        "en": "Look at the space in front of the basilica: how do you recognise the main square as distinct from the Venetian campi?",
+        "fr": "Observe l’espace devant la basilique : comment reconnais-tu la place principale par rapport aux campi vénitiens ?",
+        "de": "Betrachte den Platz vor der Basilika: Woran erkennst du den Hauptplatz im Unterschied zu den venezianischen Campi?",
+        "es": "Observa el espacio frente a la basílica: ¿cómo reconoces la plaza principal frente a los campi venecianos?"
+      },
+      "risposta": {
+        "it": "È un grande spazio monumentale, delimitato dalle Procuratie e dagli edifici di San Marco.",
+        "en": "It is a large monumental space, bounded by the Procuratie and the buildings of St Mark’s.",
+        "fr": "C’est un grand espace monumental, délimité par les Procuratie et les bâtiments de Saint-Marc.",
+        "de": "Es ist ein großer monumentaler Raum, begrenzt von den Procuratie und den Bauten von San Marco.",
+        "es": "Es un gran espacio monumental, delimitado por las Procuratie y los edificios de San Marcos."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-fortuny",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca le finestre gotiche sulla facciata: quale forma ha la grande apertura centrale?",
+        "en": "Look for the Gothic windows on the façade: what shape is the large central opening?",
+        "fr": "Cherche les fenêtres gothiques de la façade : quelle forme a la grande ouverture centrale ?",
+        "de": "Suche die gotischen Fenster an der Fassade: Welche Form hat die große mittlere Öffnung?",
+        "es": "Busca las ventanas góticas de la fachada: ¿qué forma tiene la gran abertura central?"
+      },
+      "risposta": {
+        "it": "Una trifora, una finestra divisa in tre aperture.",
+        "en": "A trifora, a window divided into three openings.",
+        "fr": "Une trifore, une fenêtre divisée en trois ouvertures.",
+        "de": "Eine Dreifenstergruppe, ein in drei Öffnungen geteiltes Fenster.",
+        "es": "Una trifora, una ventana dividida en tres aberturas."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-contarini-fasan",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la facciata sul Canal Grande: riesci a individuare le finestre suddivise in quattro aperture?",
+        "en": "Look at the façade on the Grand Canal: can you find windows divided into four openings?",
+        "fr": "Observe la façade sur le Grand Canal : arrives-tu à repérer des fenêtres divisées en quatre ouvertures ?",
+        "de": "Betrachte die Fassade am Canal Grande: Kannst du Fenster finden, die in vier Öffnungen unterteilt sind?",
+        "es": "Observa la fachada sobre el Gran Canal: ¿consigues ver ventanas divididas en cuatro aberturas?"
+      },
+      "risposta": {
+        "it": "Le quadrifore, finestre gotiche articolate in quattro luci.",
+        "en": "Quadrifore, Gothic windows divided into four lights.",
+        "fr": "Les quadrifores, fenêtres gothiques divisées en quatre lumières.",
+        "de": "Vierfenstergruppen, gotische Fenster mit vier Lichtöffnungen.",
+        "es": "Cuatriforas, ventanas góticas divididas en cuatro luces."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-contarini-fasan",
+      "zona": "San Marco",
+      "tema": "Leggenda",
+      "domanda": {
+        "it": "Il palazzo è collegato dalla tradizione popolare a quale eroina shakespeariana?",
+        "en": "Popular tradition links the palace to which Shakespearean heroine?",
+        "fr": "La tradition populaire relie le palais à quelle héroïne shakespearienne ?",
+        "de": "Die Volkstradition verbindet den Palast mit welcher Shakespeare-Heldin?",
+        "es": "La tradición popular vincula el palacio a qué heroína shakespeariana?"
+      },
+      "risposta": {
+        "it": "A Desdemona, personaggio dell’Otello; è una leggenda, non una certezza storica.",
+        "en": "To Desdemona, character in Othello; it is a legend, not a historical certainty.",
+        "fr": "À Desdémone, personnage d’Othello ; c’est une légende, non une certitude historique.",
+        "de": "Desdemona, der Figur aus Othello; es ist eine Legende, keine historische Gewissheit.",
+        "es": "A Desdémona, personaje de Otelo; es una leyenda, no una certeza histórica."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-labia",
+      "zona": "San Marco / Cannaregio",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Se hai accesso agli interni, cerca il ciclo pittorico dedicato a una celebre coppia dell’antichità. Chi sono?",
+        "en": "If you have access to the interiors, look for the painted cycle dedicated to a famous couple of antiquity. Who are they?",
+        "fr": "Si tu as accès aux intérieurs, cherche le cycle peint consacré à un célèbre couple de l’Antiquité. Qui sont-ils ?",
+        "de": "Wenn du Zugang zu den Innenräumen hast, suche den Bildzyklus über ein berühmtes Paar der Antike. Wer sind sie?",
+        "es": "Si tienes acceso a los interiores, busca el ciclo pictórico dedicado a una célebre pareja de la Antigüedad. ¿Quiénes son?"
+      },
+      "risposta": {
+        "it": "Antonio e Cleopatra, raffigurati da Giambattista Tiepolo.",
+        "en": "Antony and Cleopatra, depicted by Giambattista Tiepolo.",
+        "fr": "Antoine et Cléopâtre, représentés par Giambattista Tiepolo.",
+        "de": "Antonius und Kleopatra, dargestellt von Giambattista Tiepolo.",
+        "es": "Antonio y Cleopatra, representados por Giambattista Tiepolo."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "santa-maria-giglio",
+      "zona": "San Marco",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Guarda la facciata: quali elementi raccontano la storia e le imprese della famiglia committente?",
+        "en": "Look at the façade: which elements tell the story and deeds of the family who commissioned it?",
+        "fr": "Observe la façade : quels éléments racontent l’histoire et les exploits de la famille commanditaire ?",
+        "de": "Betrachte die Fassade: Welche Elemente erzählen von der Geschichte und den Taten der Auftraggeberfamilie?",
+        "es": "Observa la fachada: ¿qué elementos cuentan la historia y las hazañas de la familia comitente?"
+      },
+      "risposta": {
+        "it": "I rilievi legati alla famiglia Barbaro e alle sue imprese militari.",
+        "en": "The reliefs linked to the Barbaro family and its military deeds.",
+        "fr": "Les reliefs liés à la famille Barbaro et à ses exploits militaires.",
+        "de": "Die Reliefs zur Familie Barbaro und ihren militärischen Taten.",
+        "es": "Los relieves vinculados a la familia Barbaro y a sus hazañas militares."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "ferro-fini",
+      "zona": "San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la facciata sul Canal Grande: quale elemento si ripete su più livelli?",
+        "en": "Look at the façade on the Grand Canal: which element repeats across several levels?",
+        "fr": "Observe la façade sur le Grand Canal : quel élément se répète sur plusieurs niveaux ?",
+        "de": "Betrachte die Fassade am Canal Grande: Welches Element wiederholt sich über mehrere Geschosse?",
+        "es": "Observa la fachada sobre el Gran Canal: ¿qué elemento se repite en varios niveles?"
+      },
+      "risposta": {
+        "it": "Le finestre, organizzate in file sovrapposte.",
+        "en": "Windows arranged in superimposed rows.",
+        "fr": "Des fenêtres disposées en rangées superposées.",
+        "de": "Fenster, in übereinanderliegenden Reihen angeordnet.",
+        "es": "Ventanas dispuestas en hileras superpuestas."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-dario",
+      "zona": "San Marco / Dorsoduro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca i piccoli elementi circolari decorativi sulla facciata: che forma hanno?",
+        "en": "Look for the small decorative circular elements on the façade: what shape are they?",
+        "fr": "Cherche les petits éléments circulaires décoratifs de la façade : quelle est leur forme ?",
+        "de": "Suche die kleinen runden Schmuckelemente an der Fassade: Welche Form haben sie?",
+        "es": "Busca los pequeños elementos circulares decorativos de la fachada: ¿qué forma tienen?"
+      },
+      "risposta": {
+        "it": "Medaglioni o tondi ornamentali.",
+        "en": "Ornamental medallions or roundels.",
+        "fr": "Médaillons ou tondi ornementaux.",
+        "de": "Schmuckmedaillons oder Rundbilder.",
+        "es": "Medallones o tondos ornamentales."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-dario",
+      "zona": "San Marco / Dorsoduro",
+      "tema": "Leggenda",
+      "domanda": {
+        "it": "Il palazzo è noto per una fama sinistra. Che cosa racconta la leggenda?",
+        "en": "The palace is known for a sinister reputation. What does the legend tell?",
+        "fr": "Le palais est connu pour une réputation sinistre. Que raconte la légende ?",
+        "de": "Der Palast ist für einen düsteren Ruf bekannt. Was erzählt die Legende?",
+        "es": "El palacio es conocido por una fama siniestra. ¿Qué cuenta la leyenda?"
+      },
+      "risposta": {
+        "it": "È considerato “maledetto” dalla tradizione popolare; è una credenza, non un fatto dimostrato.",
+        "en": "Popular tradition considers it ‘cursed’; it is a belief, not a proven fact.",
+        "fr": "La tradition populaire le considère comme « maudit » ; c’est une croyance, non un fait démontré.",
+        "de": "Die Volkstradition hält es für „verflucht“; das ist ein Glaube, keine belegte Tatsache.",
+        "es": "La tradición popular lo considera «maldito»; es una creencia, no un hecho demostrado."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": null
+    },
+    {
+      "luogo_id": "basilica-san-marco",
+      "zona": "San Marco",
+      "tema": "Sculture e dettagli",
+      "domanda": {
+        "it": "Cerca quattro figure in pietra rossa: come sono disposte e che gesto compiono?",
+        "en": "Look for four red stone figures: how are they arranged and what gesture do they make?",
+        "fr": "Cherche quatre figures en pierre rouge : comment sont-elles disposées et quel geste accomplissent-elles ?",
+        "de": "Suche vier Figuren aus rotem Stein: Wie sind sie angeordnet und welche Geste vollziehen sie?",
+        "es": "Busca cuatro figuras de piedra roja: ¿cómo están dispuestas y qué gesto hacen?"
+      },
+      "risposta": {
+        "it": "Sono quattro imperatori romani rappresentati a coppie, mentre si abbracciano.",
+        "en": "They are four Roman emperors shown in pairs, embracing each other.",
+        "fr": "Ce sont quatre empereurs romains représentés par deux, en train de s’étreindre.",
+        "de": "Es sind vier römische Kaiser, paarweise dargestellt, wie sie sich umarmen.",
+        "es": "Son cuatro emperadores romanos representados por parejas, abrazándose."
+      },
+      "itinerario": "Aguzza la vista – San Marco",
+      "foto": {
+        "file": "aguzza/tetrarchi-san-marco.webp",
+        "credits": null
+      }
+    },
+    {
+      "luogo_id": "ca-doro",
+      "zona": "Rialto / Cannaregio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la facciata sul Canal Grande: le due metà sono simmetriche?",
+        "en": "Look at the façade on the Grand Canal: are the two halves symmetrical?",
+        "fr": "Observe la façade sur le Grand Canal : les deux moitiés sont-elles symétriques ?",
+        "de": "Betrachte die Fassade am Canal Grande: Sind die beiden Hälften symmetrisch?",
+        "es": "Observa la fachada sobre el Gran Canal: ¿son simétricas las dos mitades?"
+      },
+      "risposta": {
+        "it": "No: un lato è caratterizzato da logge traforate, l’altro da una parete più compatta.",
+        "en": "No: one side is characterised by openwork loggias, the other by a more solid wall.",
+        "fr": "Non : un côté est marqué par des loggias ajourées, l’autre par un mur plus compact.",
+        "de": "Nein: Eine Seite ist von durchbrochenen Logien geprägt, die andere von einer kompakteren Wand.",
+        "es": "No: un lado se caracteriza por logias caladas y el otro por una pared más compacta."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-doro",
+      "zona": "Rialto / Cannaregio",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Se visiti il cortile, cerca la vera da pozzo in marmo: quali figure allegoriche vi sono scolpite?",
+        "en": "If you visit the courtyard, look for the marble well-head: which allegorical figures are carved on it?",
+        "fr": "Si tu visites la cour, cherche la margelle en marbre : quelles figures allégoriques y sont sculptées ?",
+        "de": "Wenn du den Hof besuchst, suche den Marmor-Brunnenkopf: Welche allegorischen Figuren sind darauf gemeißelt?",
+        "es": "Si visitas el patio, busca el brocal de mármol: ¿qué figuras alegóricas están talladas en él?"
+      },
+      "risposta": {
+        "it": "Giustizia, Fortezza e Carità.",
+        "en": "Justice, Fortitude and Charity.",
+        "fr": "Justice, Force et Charité.",
+        "de": "Gerechtigkeit, Tapferkeit und Nächstenliebe.",
+        "es": "Justicia, Fortaleza y Caridad."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-rialto",
+      "zona": "Rialto",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Attraversando il ponte, nota le file di negozi: dove sono collocati?",
+        "en": "As you cross the bridge, notice the rows of shops: where are they placed?",
+        "fr": "En traversant le pont, remarque les rangées de boutiques : où sont-elles placées ?",
+        "de": "Beim Überqueren der Brücke fallen die Ladenreihen auf: Wo sind sie angeordnet?",
+        "es": "Al cruzar el puente, fíjate en las hileras de tiendas: ¿dónde están colocadas?"
+      },
+      "risposta": {
+        "it": "Su entrambi i lati della rampa centrale.",
+        "en": "On both sides of the central ramp.",
+        "fr": "Des deux côtés de la rampe centrale.",
+        "de": "Auf beiden Seiten der zentralen Rampe.",
+        "es": "A ambos lados de la rampa central."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-tette",
+      "zona": "San Polo",
+      "tema": "Storia sociale",
+      "domanda": {
+        "it": "Il nome del ponte richiama la storia di quale attività presente nella zona?",
+        "en": "The bridge’s name recalls the history of which activity present in the area?",
+        "fr": "Le nom du pont rappelle l’histoire de quelle activité présente dans le quartier ?",
+        "de": "Der Name der Brücke erinnert an die Geschichte welcher Tätigkeit in der Gegend?",
+        "es": "El nombre del puente recuerda la historia de qué actividad presente en la zona?"
+      },
+      "risposta": {
+        "it": "La prostituzione, regolamentata nella zona delle Carampane; alcuni racconti popolari vanno distinti dai fatti documentati.",
+        "en": "Prostitution, regulated in the Carampane area; some popular tales must be distinguished from documented facts.",
+        "fr": "La prostitution, réglementée dans le quartier des Carampane ; certains récits populaires doivent être distingués des faits documentés.",
+        "de": "Die Prostitution, im Viertel Carampane reglementiert; einige Volkserzählungen sind von dokumentierten Fakten zu unterscheiden.",
+        "es": "La prostitución, regulada en la zona de las Carampane; algunos relatos populares deben distinguirse de los hechos documentados."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "frari",
+      "zona": "San Polo",
+      "tema": "Scultura funeraria",
+      "domanda": {
+        "it": "All’interno, cerca il monumento funebre di Antonio Canova: quale forma geometrica domina la composizione?",
+        "en": "Inside, look for Antonio Canova’s funerary monument: which geometric shape dominates the composition?",
+        "fr": "À l’intérieur, cherche le monument funéraire d’Antonio Canova : quelle forme géométrique domine la composition ?",
+        "de": "Suche im Inneren das Grabmal von Antonio Canova: Welche geometrische Form beherrscht die Komposition?",
+        "es": "Dentro, busca el monumento funerario de Antonio Canova: ¿qué forma geométrica domina la composición?"
+      },
+      "risposta": {
+        "it": "Una grande struttura piramidale.",
+        "en": "A large pyramid-shaped structure.",
+        "fr": "Une grande structure pyramidale.",
+        "de": "Eine große pyramidenförmige Konstruktion.",
+        "es": "Una gran estructura piramidal."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "pescheria",
+      "zona": "Rialto",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva il mercato del pesce: quale stile caratterizza l’edificio attuale?",
+        "en": "Look at the fish market: which style characterises the current building?",
+        "fr": "Observe le marché aux poissons : quel style caractérise le bâtiment actuel ?",
+        "de": "Betrachte die Fischmarkthalle: Welcher Stil prägt das heutige Gebäude?",
+        "es": "Observa la pescadería: ¿qué estilo caracteriza el edificio actual?"
+      },
+      "risposta": {
+        "it": "Il neogotico, con archi e dettagli decorativi.",
+        "en": "Neo-Gothic, with arches and decorative details.",
+        "fr": "Le néogothique, avec arcs et détails décoratifs.",
+        "de": "Die Neugotik, mit Bögen und dekorativen Details.",
+        "es": "El neogótico, con arcos y detalles decorativos."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-rocco",
+      "zona": "San Polo",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Se entri, cerca un dipinto di Tintoretto con una scena biblica: quale episodio riesci a riconoscere?",
+        "en": "If you enter, look for a Tintoretto painting with a biblical scene: which episode can you recognise?",
+        "fr": "Si tu entres, cherche un tableau du Tintoret avec une scène biblique : quel épisode reconnais-tu ?",
+        "de": "Wenn du eintrittst, suche ein Gemälde Tintorettos mit einer biblischen Szene: Welche Episode erkennst du?",
+        "es": "Si entras, busca una pintura de Tintoretto con una escena bíblica: ¿qué episodio reconoces?"
+      },
+      "risposta": {
+        "it": "La risposta dipende dall’opera scelta; conviene usare come riferimento un dipinto specifico del percorso visitabile.",
+        "en": "The answer depends on the chosen work; it is best to use as a reference a specific painting on the visitable route.",
+        "fr": "La réponse dépend de l’œuvre choisie ; mieux vaut prendre comme référence un tableau précis du parcours visitable.",
+        "de": "Die Antwort hängt vom gewählten Werk ab; als Bezug sollte ein bestimmtes Gemälde des begehbaren Rundgangs dienen.",
+        "es": "La respuesta depende de la obra elegida; conviene usar como referencia una pintura concreta del recorrido visitable."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-da-mosto",
+      "zona": "Rialto / Cannaregio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la facciata sul Canal Grande: quale elemento forma una sequenza di aperture ad arco?",
+        "en": "Look at the façade on the Grand Canal: which element forms a sequence of arched openings?",
+        "fr": "Observe la façade sur le Grand Canal : quel élément forme une succession d’ouvertures en arc ?",
+        "de": "Betrachte die Fassade am Canal Grande: Welches Element bildet eine Folge von Bogenöffnungen?",
+        "es": "Observa la fachada sobre el Gran Canal: ¿qué elemento forma una sucesión de aberturas en arco?"
+      },
+      "risposta": {
+        "it": "Il portico e le aperture della facciata veneto-bizantina.",
+        "en": "The portico and openings of the Veneto-Byzantine façade.",
+        "fr": "Le portique et les ouvertures de la façade vénéto-byzantine.",
+        "de": "Die Säulenhalle und die Öffnungen der venezianisch-byzantinischen Fassade.",
+        "es": "El pórtico y las aberturas de la fachada véneto-bizantina."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-da-mosto",
+      "zona": "Rialto / Cannaregio",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Il palazzo è tradizionalmente associato alla nascita di quale navigatore ed esploratore?",
+        "en": "The palace is traditionally associated with the birth of which navigator and explorer?",
+        "fr": "Le palais est traditionnellement associé à la naissance de quel navigateur et explorateur ?",
+        "de": "Der Palast wird traditionell mit der Geburt welches Seefahrers und Entdeckers in Verbindung gebracht?",
+        "es": "El palacio se asocia tradicionalmente con el nacimiento de qué navegante y explorador?"
+      },
+      "risposta": {
+        "it": "Alvise Cadamosto; l’associazione è tradizionale e va presentata con cautela.",
+        "en": "Alvise Cadamosto; the association is traditional and should be presented with caution.",
+        "fr": "Alvise Cadamosto ; l’association est traditionnelle et doit être présentée avec prudence.",
+        "de": "Alvise Cadamosto; die Zuordnung ist überliefert und sollte mit Vorsicht dargestellt werden.",
+        "es": "Alvise Cadamosto; la asociación es tradicional y debe presentarse con cautela."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-giacometto",
+      "zona": "Rialto",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la facciata: quale elemento coperto protegge l’ingresso?",
+        "en": "Look at the façade: which covered element protects the entrance?",
+        "fr": "Observe la façade : quel élément couvert protège l’entrée ?",
+        "de": "Betrachte die Fassade: Welches überdachte Element schützt den Eingang?",
+        "es": "Observa la fachada: ¿qué elemento cubierto protege la entrada?"
+      },
+      "risposta": {
+        "it": "Il portico.",
+        "en": "The portico.",
+        "fr": "Le portique.",
+        "de": "Die Säulenhalle.",
+        "es": "El pórtico."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-giacometto",
+      "zona": "Rialto",
+      "tema": "Orologi",
+      "domanda": {
+        "it": "Cerca l’orologio sulla facciata: dove si trova rispetto al portico?",
+        "en": "Look for the clock on the façade: where is it located in relation to the portico?",
+        "fr": "Cherche l’horloge sur la façade : où se trouve-t-elle par rapport au portique ?",
+        "de": "Suche die Uhr an der Fassade: Wo befindet sie sich im Verhältnis zur Säulenhalle?",
+        "es": "Busca el reloj de la fachada: ¿dónde está respecto al pórtico?"
+      },
+      "risposta": {
+        "it": "Sopra il portico, sulla facciata.",
+        "en": "Above the portico, on the façade.",
+        "fr": "Au-dessus du portique, sur la façade.",
+        "de": "Über der Säulenhalle, an der Fassade.",
+        "es": "Sobre el pórtico, en la fachada."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-giacomo-orio",
+      "zona": "Santa Croce",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Se entri, osserva le colonne della navata: hanno tutte lo stesso colore e la stessa forma?",
+        "en": "If you enter, look at the nave columns: do they all have the same colour and shape?",
+        "fr": "Si tu entres, observe les colonnes de la nef : ont-elles toutes la même couleur et la même forme ?",
+        "de": "Wenn du eintrittst, betrachte die Säulen des Mittelschiffs: Haben sie alle dieselbe Farbe und Form?",
+        "es": "Si entras, observa las columnas de la nave: ¿tienen todas el mismo color y la misma forma?"
+      },
+      "risposta": {
+        "it": "No, si distinguono per materiali e tipologie differenti.",
+        "en": "No, they differ in materials and types.",
+        "fr": "Non, ils se distinguent par des matériaux et des typologies différents.",
+        "de": "Nein, sie unterscheiden sich in Materialien und Typen.",
+        "es": "No, se distinguen por materiales y tipologías diferentes."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-stae",
+      "zona": "Santa Croce",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Guarda la facciata verso il Canal Grande: che cosa si nota sopra e ai lati dell’ingresso?",
+        "en": "Look at the façade facing the Grand Canal: what do you notice above and beside the entrance?",
+        "fr": "Observe la façade vers le Grand Canal : que remarque-t-on au-dessus et sur les côtés de l’entrée ?",
+        "de": "Betrachte die Fassade zum Canal Grande: Was fällt oberhalb und seitlich des Eingangs auf?",
+        "es": "Observa la fachada hacia el Gran Canal: ¿qué se nota encima y a los lados de la entrada?"
+      },
+      "risposta": {
+        "it": "Una ricca decorazione scultorea con statue e figure religiose.",
+        "en": "A rich sculptural decoration with statues and religious figures.",
+        "fr": "Un riche décor sculpté avec des statues et des figures religieuses.",
+        "de": "Eine reiche Skulpturenausstattung mit Statuen und religiösen Figuren.",
+        "es": "Una rica decoración escultórica con estatuas y figuras religiosas."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-balbi",
+      "zona": "Dorsoduro / Canal Grande",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la parte alta della facciata: quale decorazione corona il palazzo?",
+        "en": "Look at the upper part of the façade: which decoration crowns the palace?",
+        "fr": "Observe la partie haute de la façade : quel décor couronne le palais ?",
+        "de": "Betrachte den oberen Teil der Fassade: Welche Verzierung krönt den Palast?",
+        "es": "Observa la parte alta de la fachada: ¿qué decoración corona el palacio?"
+      },
+      "risposta": {
+        "it": "Elementi ornamentali barocchi sulla sommità.",
+        "en": "Baroque ornamental elements at the top.",
+        "fr": "Éléments ornementaux baroques au sommet.",
+        "de": "Barocke Schmuckelemente an der Spitze.",
+        "es": "Elementos ornamentales barrocos en la parte superior."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-pesaro",
+      "zona": "Santa Croce",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Cerca i volti e le figure scolpite nella facciata: dove si concentrano?",
+        "en": "Look for the faces and sculpted figures on the façade: where are they concentrated?",
+        "fr": "Cherche les visages et figures sculptés sur la façade : où se concentrent-ils ?",
+        "de": "Suche die Gesichter und Figuren an der Fassade: Wo konzentrieren sie sich?",
+        "es": "Busca los rostros y figuras esculpidos en la fachada: ¿dónde se concentran?"
+      },
+      "risposta": {
+        "it": "Intorno alle aperture e negli elementi decorativi della facciata barocca.",
+        "en": "Around the openings and in the decorative elements of the Baroque façade.",
+        "fr": "Autour des ouvertures et dans les éléments décoratifs de la façade baroque.",
+        "de": "Um die Öffnungen und in den Schmuckelementen der barocken Fassade.",
+        "es": "Alrededor de los vanos y en los elementos decorativos de la fachada barroca."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-mastelli",
+      "zona": "Cannaregio / Rialto",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Cerca il cammello scolpito sulla facciata: in quale posizione si trova?",
+        "en": "Look for the camel carved on the façade: where is it located?",
+        "fr": "Cherche le chameau sculpté sur la façade : à quel endroit se trouve-t-il ?",
+        "de": "Suche das Kamel an der Fassade: An welcher Stelle befindet es sich?",
+        "es": "Busca el camello tallado en la fachada: ¿en qué posición está?"
+      },
+      "risposta": {
+        "it": "È un rilievo inserito nella facciata del palazzo.",
+        "en": "It is a relief set into the palace façade.",
+        "fr": "C’est un bas-relief inséré dans la façade du palais.",
+        "de": "Es ist ein Relief, das in die Fassade des Palastes eingelassen ist.",
+        "es": "Es un relieve incrustado en la fachada del palacio."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": {
+        "file": "aguzza/camello-mastelli.webp",
+        "credits": null
+      }
+    },
+    {
+      "luogo_id": "san-pantalon",
+      "zona": "Dorsoduro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Guarda il soffitto: riesci a individuare le diverse tele che, viste insieme, sembrano formare un’unica scena?",
+        "en": "Look at the ceiling: can you spot the different canvases that, seen together, seem to form a single scene?",
+        "fr": "Observe le plafond : arrives-tu à repérer les différentes toiles qui, vues ensemble, semblent former une seule scène ?",
+        "de": "Betrachte die Decke: Erkennst du die einzelnen Leinwände, die zusammen eine einzige Szene zu bilden scheinen?",
+        "es": "Observa el techo: ¿consigues identificar los distintos lienzos que, vistos juntos, parecen formar una sola escena?"
+      },
+      "risposta": {
+        "it": "Il soffitto è composto da numerose tele unite in una grande composizione dedicata a San Pantaleone.",
+        "en": "The ceiling is made of numerous canvases joined into one large composition dedicated to Saint Pantaleon.",
+        "fr": "Le plafond est composé de nombreuses toiles réunies en une grande composition dédiée à saint Pantaléon.",
+        "de": "Die Decke besteht aus zahlreichen Leinwänden, die zu einer großen Komposition zu Ehren des heiligen Pantaleon vereint sind.",
+        "es": "El techo está formado por numerosos lienzos unidos en una gran composición dedicada a San Pantaleón."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-pugni",
+      "zona": "Dorsoduro",
+      "tema": "Tradizioni",
+      "domanda": {
+        "it": "Cerca le impronte di piedi in pietra sul ponte. A cosa servivano?",
+        "en": "Look for the stone footprints on the bridge. What were they for?",
+        "fr": "Cherche les empreintes de pieds en pierre sur le pont. À quoi servaient-elles ?",
+        "de": "Suche die steinernen Fußabdrücke auf der Brücke. Wozu dienten sie?",
+        "es": "Busca las huellas de pies de piedra en el puente. ¿Para qué servían?"
+      },
+      "risposta": {
+        "it": "Segnavano le posizioni dei contendenti nelle antiche sfide a pugni.",
+        "en": "They marked the positions of the contenders in the ancient fist fights.",
+        "fr": "Ils marquaient les positions des combattants lors des anciens combats à coups de poing.",
+        "de": "Sie markierten die Positionen der Kontrahenten bei den alten Faustkämpfen.",
+        "es": "Marcaban las posiciones de los contendientes en los antiguos combates a puñetazos."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-accademia",
+      "zona": "Dorsoduro",
+      "tema": "Paesaggio",
+      "domanda": {
+        "it": "Fermati sul ponte e guarda verso il bacino: quale grande cupola riconosci sullo sfondo?",
+        "en": "Stop on the bridge and look towards the basin: which great dome do you recognise in the background?",
+        "fr": "Arrête-toi sur le pont et regarde vers le bassin : quelle grande coupole reconnais-tu au fond ?",
+        "de": "Bleib auf der Brücke stehen und schau zum Becken: Welche große Kuppel erkennst du im Hintergrund?",
+        "es": "Detente en el puente y mira hacia la cuenca: ¿qué gran cúpula reconoces al fondo?"
+      },
+      "risposta": {
+        "it": "La cupola della Basilica di Santa Maria della Salute.",
+        "en": "The dome of the Basilica of Santa Maria della Salute.",
+        "fr": "La coupole de la basilique Santa Maria della Salute.",
+        "de": "Die Kuppel der Basilika Santa Maria della Salute.",
+        "es": "La cúpula de la Basílica de Santa Maria della Salute."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "salute",
+      "zona": "Dorsoduro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la base della grande cupola: quali elementi curvi sembrano sostenerla?",
+        "en": "Look at the base of the great dome: which curved elements seem to support it?",
+        "fr": "Observe la base de la grande coupole : quels éléments courbes semblent la soutenir ?",
+        "de": "Betrachte den Fuß der großen Kuppel: Welche gekrümmten Elemente scheinen sie zu tragen?",
+        "es": "Observa la base de la gran cúpula: ¿qué elementos curvos parecen sostenerla?"
+      },
+      "risposta": {
+        "it": "Le grandi volute a spirale che caratterizzano la composizione esterna.",
+        "en": "The large spiral scrolls that characterise the external composition.",
+        "fr": "Les grandes volutes en spirale qui caractérisent la composition extérieure.",
+        "de": "Die großen Spiralvoluten, die die äußere Komposition prägen.",
+        "es": "Las grandes volutas en espiral que caracterizan la composición exterior."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "squero-san-trovaso",
+      "zona": "Dorsoduro",
+      "tema": "Artigianato",
+      "domanda": {
+        "it": "Guarda l’edificio in legno vicino al cantiere: a quale tipo di casa ricorda?",
+        "en": "Look at the wooden building near the shipyard: what kind of house does it remind you of?",
+        "fr": "Observe le bâtiment en bois près du chantier : à quel type de maison fait-il penser ?",
+        "de": "Betrachte das Holzgebäude nahe der Werft: An welche Art Haus erinnert es?",
+        "es": "Observa el edificio de madera cerca del astillero: ¿a qué tipo de casa recuerda?"
+      },
+      "risposta": {
+        "it": "A uno chalet di montagna, aspetto insolito per Venezia.",
+        "en": "To a mountain chalet, an unusual look for Venice.",
+        "fr": "À un chalet de montagne, un aspect insolite pour Venise.",
+        "de": "An ein Berghaus, ein ungewöhnliches Aussehen für Venedig.",
+        "es": "A un chalet de montaña, un aspecto insólito para Venecia."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "squero-san-trovaso",
+      "zona": "Dorsoduro",
+      "tema": "Artigianato",
+      "domanda": {
+        "it": "Osserva l’area di lavoro: come possono essere portate le barche fuori dall’acqua per le riparazioni?",
+        "en": "Look at the work area: how can boats be brought out of the water for repairs?",
+        "fr": "Observe la zone de travail : comment les bateaux peuvent-ils être sortis de l’eau pour les réparations ?",
+        "de": "Betrachte den Arbeitsbereich: Wie können Boote zur Reparatur aus dem Wasser geholt werden?",
+        "es": "Observa la zona de trabajo: ¿cómo se sacan los barcos del agua para repararlos?"
+      },
+      "risposta": {
+        "it": "Attraverso lo scivolo inclinato dello squero.",
+        "en": "Through the sloping slipway of the squero.",
+        "fr": "En passant par la cale inclinée du squero.",
+        "de": "Über die geneigte Slipanlage des Squero.",
+        "es": "A través de la rampa inclinada del squero."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-sebastiano",
+      "zona": "Dorsoduro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Guarda il soffitto della navata: riesci a trovare Ester incoronata dal re Assuero?",
+        "en": "Look at the nave ceiling: can you find Esther crowned by King Ahasuerus?",
+        "fr": "Observe le plafond de la nef : arrives-tu à trouver Esther couronnée par le roi Assuérus ?",
+        "de": "Betrachte die Decke des Mittelschiffs: Kannst du Ester entdecken, wie sie von König Ahasveros gekrönt wird?",
+        "es": "Observa el techo de la nave: ¿consigues encontrar a Ester coronada por el rey Asuero?"
+      },
+      "risposta": {
+        "it": "È una delle tre grandi tele dipinte da Paolo Veronese tra il 1555 e il 1556, dedicate alla storia di Ester, l’eroina biblica che salvò il suo popolo. Le altre due raffigurano il ripudio di Vasti e il trionfo di Mardocheo.",
+        "en": "It is one of the three large canvases painted by Paolo Veronese between 1555 and 1556, devoted to the story of Esther, the biblical heroine who saved her people. The other two depict the repudiation of Vashti and the triumph of Mordecai.",
+        "fr": "C'est l'une des trois grandes toiles peintes par Paul Véronèse entre 1555 et 1556, consacrées à l'histoire d'Esther, l'héroïne biblique qui sauva son peuple. Les deux autres représentent la répudiation de Vashti et le triomphe de Mardochée.",
+        "de": "Es ist eines der drei großen Gemälde, die Paolo Veronese zwischen 1555 und 1556 schuf und die der Geschichte Ester gewidmet sind, der biblischen Heldin, die ihr Volk rettete. Die beiden anderen zeigen die Verstoßung der Vashti und den Triumph des Mordechai.",
+        "es": "Es uno de los tres grandes lienzos pintados por Paolo Veronés entre 1555 y 1556, dedicados a la historia de Ester, la heroína bíblica que salvó a su pueblo. Los otros dos representan el repudio de Vasti y el triunfo de Mardoqueo."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": {
+        "file": "aguzza/ester-san-sebastiano.webp",
+        "credits": null
+      }
+    },
+    {
+      "luogo_id": "san-giorgio-maggiore",
+      "zona": "Isola di San Giorgio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la facciata: riesci a distinguere i due frontoni classici sovrapposti?",
+        "en": "Look at the façade: can you distinguish the two superimposed classical pediments?",
+        "fr": "Observe la façade : arrives-tu à distinguer les deux frontons classiques superposés ?",
+        "de": "Betrachte die Fassade: Kannst du die beiden übereinander liegenden klassischen Giebel unterscheiden?",
+        "es": "Observa la fachada: ¿consigues distinguir los dos frontones clásicos superpuestos?"
+      },
+      "risposta": {
+        "it": "Sì, la composizione palladiana combina frontoni di dimensioni diverse.",
+        "en": "Yes, the Palladian composition combines pediments of different sizes.",
+        "fr": "Oui, la composition palladienne associe des frontons de tailles différentes.",
+        "de": "Ja, die palladianische Komposition verbindet Giebel unterschiedlicher Größe.",
+        "es": "Sí, la composición palladiana combina frontones de distinto tamaño."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "redentore",
+      "zona": "Giudecca",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Cerca l’edificio e prova a collegarlo alla sua origine: quale evento spinse Venezia a far costruire la chiesa?",
+        "en": "Look for the building and try to connect it to its origin: which event led Venice to build the church?",
+        "fr": "Cherche l’édifice et essaie de le relier à son origine : quel événement a poussé Venise à faire construire l’église ?",
+        "de": "Suche das Gebäude und verbinde es mit seinem Ursprung: Welches Ereignis veranlasste Venedig, die Kirche zu bauen?",
+        "es": "Busca el edificio e intenta relacionarlo con su origen: ¿qué suceso llevó a Venecia a construir la iglesia?"
+      },
+      "risposta": {
+        "it": "La peste del 1575–1577 e il voto della città per la sua fine.",
+        "en": "The plague of 1575–1577 and the city’s vow for its end.",
+        "fr": "La peste de 1575–1577 et le vœu de la ville pour sa fin.",
+        "de": "Die Pest von 1575–1577 und das Gelübde der Stadt für ihr Ende.",
+        "es": "La peste de 1575–1577 y el voto de la ciudad para ponerle fin."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "molino-stucky",
+      "zona": "Giudecca",
+      "tema": "Architettura industriale",
+      "domanda": {
+        "it": "Guarda il grande edificio in mattoni: quali dettagli gli danno un aspetto quasi fiabesco?",
+        "en": "Look at the large brick building: which details give it an almost fairy-tale look?",
+        "fr": "Observe le grand bâtiment en briques : quels détails lui donnent un aspect presque féerique ?",
+        "de": "Betrachte das große Ziegelgebäude: Welche Details verleihen ihm ein fast märchenhaftes Aussehen?",
+        "es": "Observa el gran edificio de ladrillo: ¿qué detalles le dan un aspecto casi de cuento?"
+      },
+      "risposta": {
+        "it": "Le torrette, le guglie e le finestre del complesso neogotico.",
+        "en": "The turrets, spires and windows of the neo-Gothic complex.",
+        "fr": "Les tourelles, flèches et fenêtres de l’ensemble néogothique.",
+        "de": "Die Türmchen, Spitzen und Fenster des neugotischen Ensembles.",
+        "es": "Las torrecillas, agujas y ventanas del conjunto neogótico."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "gesuati",
+      "zona": "Dorsoduro",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Guarda la facciata: quale elemento si ripete lungo il livello superiore?",
+        "en": "Look at the façade: which element repeats along the upper level?",
+        "fr": "Observe la façade : quel élément se répète au niveau supérieur ?",
+        "de": "Betrachte die Fassade: Welches Element wiederholt sich im oberen Geschoss?",
+        "es": "Observa la fachada: ¿qué elemento se repite en el nivel superior?"
+      },
+      "risposta": {
+        "it": "Statue e decorazioni scultoree che arricchiscono la facciata.",
+        "en": "Statues and sculptural decorations that enrich the façade.",
+        "fr": "Statues et décors sculptés qui enrichissent la façade.",
+        "de": "Statuen und Skulpturen, die die Fassade bereichern.",
+        "es": "Estatuas y decoraciones escultóricas que enriquecen la fachada."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "sant-eufemia",
+      "zona": "Giudecca",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la facciata: riesci a individuare le aperture ad arco che scandiscono l’edificio?",
+        "en": "Look at the façade: can you spot the arched openings that punctuate the building?",
+        "fr": "Observe la façade : arrives-tu à repérer les ouvertures en arc qui rythment le bâtiment ?",
+        "de": "Betrachte die Fassade: Kannst du die Bogenöffnungen erkennen, die das Gebäude gliedern?",
+        "es": "Observa la fachada: ¿consigues ver las aberturas en arco que marcan el ritmo del edificio?"
+      },
+      "risposta": {
+        "it": "Le aperture ad arco della facciata e del suo prospetto.",
+        "en": "The arched openings of the façade and its elevation.",
+        "fr": "Les ouvertures en arc de la façade et de son élévation.",
+        "de": "Die Bogenöffnungen der Fassade und ihres Aufrisses.",
+        "es": "Las aberturas en arco de la fachada y de su alzado."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "zitelle",
+      "zona": "Giudecca",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la facciata dal fronte del canale: quale forma geometrica domina il coronamento?",
+        "en": "Look at the façade from the canal side: which geometric shape dominates the crowning?",
+        "fr": "Observe la façade côté canal : quelle forme géométrique domine le couronnement ?",
+        "de": "Betrachte die Fassade von der Kanalseite: Welche geometrische Form beherrscht den Abschluss?",
+        "es": "Observa la fachada desde el canal: ¿qué forma geométrica domina el coronamiento?"
+      },
+      "risposta": {
+        "it": "Il frontone triangolare, tipico del linguaggio palladiano.",
+        "en": "The triangular pediment, typical of the Palladian language.",
+        "fr": "Le fronton triangulaire, typique du langage palladien.",
+        "de": "Der dreieckige Giebel, typisch für die palladianische Formensprache.",
+        "es": "El frontón triangular, típico del lenguaje palladiano."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "zattere",
+      "zona": "Dorsoduro",
+      "tema": "Paesaggio urbano",
+      "domanda": {
+        "it": "Passeggiando lungo la fondamenta, guarda verso il canale: quale isola si trova di fronte?",
+        "en": "Walking along the fondamenta, look towards the canal: which island lies opposite?",
+        "fr": "En marchant le long de la fondamenta, regarde vers le canal : quelle île se trouve en face ?",
+        "de": "Geh an der Fondamenta entlang und schau zum Kanal: Welche Insel liegt gegenüber?",
+        "es": "Paseando por la fondamenta, mira hacia el canal: ¿qué isla queda enfrente?"
+      },
+      "risposta": {
+        "it": "La Giudecca.",
+        "en": "La Giudecca.",
+        "fr": "La Giudecca.",
+        "de": "La Giudecca.",
+        "es": "La Giudecca."
+      },
+      "itinerario": "Aguzza la vista – Dorsoduro, Zattere e Giudecca",
+      "foto": null
+    },
+    {
+      "luogo_id": "madonna-orto",
+      "zona": "Cannaregio",
+      "tema": "Arte funeraria",
+      "domanda": {
+        "it": "Cerca una tomba famosa: quale artista veneziano è sepolto nella chiesa?",
+        "en": "Look for a famous tomb: which Venetian artist is buried in the church?",
+        "fr": "Cherche une tombe célèbre : quel artiste vénitien est enterré dans l'église ?",
+        "de": "Suche ein berühmtes Grab: Welcher venezianische Künstler ist in der Kirche begraben?",
+        "es": "Busca una tumba famosa: ¿qué artista veneciano está enterrado en la iglesia?"
+      },
+      "risposta": {
+        "it": "Jacopo Tintoretto.",
+        "en": "Jacopo Tintoretto.",
+        "fr": "Jacopo Tintoret.",
+        "de": "Jacopo Tintoretto.",
+        "es": "Jacopo Tintoretto."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "madonna-orto",
+      "zona": "Cannaregio",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Guarda la facciata: riesci a individuare statue collocate entro nicchie?",
+        "en": "Look at the façade: can you spot statues placed in niches?",
+        "fr": "Observe la façade : arrives-tu à repérer des statues placées dans des niches ?",
+        "de": "Betrachte die Fassade: Kannst du Statuen in Nischen entdecken?",
+        "es": "Observa la fachada: ¿consigues ver estatuas colocadas en hornacinas?"
+      },
+      "risposta": {
+        "it": "Statue di apostoli inserite nelle nicchie della facciata.",
+        "en": "Statues of apostles set into the niches of the façade.",
+        "fr": "Statues d’apôtres insérées dans les niches de la façade.",
+        "de": "Apostelstatuen, in die Nischen der Fassade eingestellt.",
+        "es": "Estatuas de apóstoles colocadas en las hornacinas de la fachada."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "campo-mori",
+      "zona": "Cannaregio",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Cerca le statue di pietra fissate agli angoli degli edifici. Quante figure principali riesci a individuare?",
+        "en": "Look for the stone statues fixed to the corners of the buildings. How many main figures can you make out?",
+        "fr": "Cherche les statues de pierre fixées aux angles des bâtiments. Combien de figures principales arrives-tu à repérer ?",
+        "de": "Suche die steinernen Statuen an den Gebäudeecken. Wie viele Hauptfiguren erkennst du?",
+        "es": "Busca las estatuas de piedra fijadas en las esquinas de los edificios. ¿Cuántas figuras principales consigues distinguir?"
+      },
+      "risposta": {
+        "it": "Le figure tradizionalmente associate ai mercanti Mastelli.",
+        "en": "The figures traditionally associated with the Mastelli merchants.",
+        "fr": "Les figures traditionnellement associées aux marchands Mastelli.",
+        "de": "Die Figuren, die traditionell mit den Kaufleuten Mastelli verbunden werden.",
+        "es": "Las figuras tradicionalmente asociadas a los mercaderes Mastelli."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "campo-mori",
+      "zona": "Cannaregio",
+      "tema": "Leggenda",
+      "domanda": {
+        "it": "La tradizione collega le statue del campo a una famiglia di mercanti. Quale nome ricorre?",
+        "en": "Tradition links the statues in the campo to a family of merchants. Which name recurs?",
+        "fr": "La tradition relie les statues du campo à une famille de marchands. Quel nom revient ?",
+        "de": "Die Überlieferung verbindet die Statuen auf dem Campo mit einer Kaufmannsfamilie. Welcher Name kehrt wieder?",
+        "es": "La tradición vincula las estatuas del campo a una familia de mercaderes. ¿Qué nombre se repite?"
+      },
+      "risposta": {
+        "it": "Mastelli; il racconto va inteso come tradizione locale.",
+        "en": "Mastelli; the story should be understood as local tradition.",
+        "fr": "Mastelli ; le récit doit être compris comme une tradition locale.",
+        "de": "Mastelli; die Erzählung ist als lokale Überlieferung zu verstehen.",
+        "es": "Mastelli; el relato debe entenderse como tradición local."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "fondamenta-misericordia",
+      "zona": "Cannaregio",
+      "tema": "Toponomastica",
+      "domanda": {
+        "it": "Cerca il nome della calle o della fondamenta scritto sul muro. Come si chiama la scritta tradizionale veneziana?",
+        "en": "Look for the name of the calle or fondamenta written on the wall. What is the traditional Venetian sign called?",
+        "fr": "Cherche le nom de la calle ou de la fondamenta écrit sur le mur. Comment s’appelle l’inscription traditionnelle vénitienne ?",
+        "de": "Suche den Namen der Calle oder Fondamenta an der Wand. Wie heißt die traditionelle venezianische Beschriftung?",
+        "es": "Busca el nombre de la calle o de la fondamenta escrito en la pared. ¿Cómo se llama la inscripción tradicional veneciana?"
+      },
+      "risposta": {
+        "it": "Nizioleto.",
+        "en": "Nizioleto.",
+        "fr": "Nizioleto.",
+        "de": "Nizioleto.",
+        "es": "Nizioleto."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "ghetto",
+      "zona": "Cannaregio",
+      "tema": "Memoria storica",
+      "domanda": {
+        "it": "Cerca una lapide commemorativa sulle pareti del Ghetto. Quale tipo di memoria conserva?",
+        "en": "Look for a memorial plaque on the walls of the Ghetto. What kind of memory does it preserve?",
+        "fr": "Cherche une plaque commémorative sur les murs du Ghetto. Quel type de mémoire conserve-t-elle ?",
+        "de": "Suche eine Gedenktafel an den Mauern des Ghettos. Welche Art von Erinnerung bewahrt sie?",
+        "es": "Busca una lápida conmemorativa en las paredes del Gueto. ¿Qué tipo de memoria conserva?"
+      },
+      "risposta": {
+        "it": "La memoria della comunità ebraica veneziana e delle persecuzioni subite.",
+        "en": "The memory of the Venetian Jewish community and the persecutions it suffered.",
+        "fr": "La mémoire de la communauté juive vénitienne et des persécutions subies.",
+        "de": "Die Erinnerung an die jüdische Gemeinde Venedigs und die erlittenen Verfolgungen.",
+        "es": "La memoria de la comunidad judía veneciana y de las persecuciones sufridas."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "gesuiti",
+      "zona": "Cannaregio",
+      "tema": "Decorazione",
+      "domanda": {
+        "it": "Osserva le pareti interne: quale effetto particolare creano i marmi decorativi?",
+        "en": "Look at the interior walls: what special effect do the decorative marbles create?",
+        "fr": "Observe les murs intérieurs : quel effet particulier créent les marbres décoratifs ?",
+        "de": "Betrachte die Innenwände: Welchen besonderen Effekt erzeugen die dekorativen Marmorarten?",
+        "es": "Observa las paredes interiores: ¿qué efecto especial crean los mármoles decorativos?"
+      },
+      "risposta": {
+        "it": "Sembrano drappeggi o tessuti, pur essendo realizzati in marmo.",
+        "en": "They look like drapery or fabric, although they are made of marble.",
+        "fr": "Ils ressemblent à des draperies ou à des tissus, bien qu’ils soient en marbre.",
+        "de": "Sie wirken wie Drapierungen oder Stoffe, obwohl sie aus Marmor gefertigt sind.",
+        "es": "Parecen paños o tejidos, aunque están hechos de mármol."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-marcuola",
+      "zona": "Cannaregio",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Se la chiesa è aperta, cerca un grande quadro dipinto da Tintoretto. Quale episodio riconosci?",
+        "en": "If the church is open, look for a large painting by Tintoretto. Which episode do you recognise?",
+        "fr": "Si l'église est ouverte, cherche un grand tableau du Tintoret. Quel épisode reconnais-tu ?",
+        "de": "Wenn die Kirche geöffnet ist, suche ein großes Gemälde Tintorettos. Welche Episode erkennst du?",
+        "es": "Si la iglesia está abierta, busca un gran cuadro de Tintoretto. ¿Qué episodio reconoces?"
+      },
+      "risposta": {
+        "it": "L’Ultima Cena.",
+        "en": "The Last Supper.",
+        "fr": "La Cène.",
+        "de": "Das Letzte Abendmahl.",
+        "es": "La Última Cena."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-doro",
+      "zona": "Cannaregio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Dal lato del Canal Grande, osserva la facciata: qual è il contrasto più evidente tra i due lati?",
+        "en": "From the Grand Canal side, look at the façade: what is the most obvious contrast between the two sides?",
+        "fr": "Du côté du Grand Canal, observe la façade : quel est le contraste le plus évident entre les deux côtés ?",
+        "de": "Betrachte die Fassade von der Seite des Canal Grande: Welcher Gegensatz zwischen den beiden Seiten ist am auffälligsten?",
+        "es": "Desde el lado del Gran Canal, observa la fachada: ¿cuál es el contraste más evidente entre los dos lados?"
+      },
+      "risposta": {
+        "it": "Il lato con logge aperte e quello con parete più piena e finestre più piccole.",
+        "en": "The side with open loggias and the one with a solider wall and smaller windows.",
+        "fr": "Le côté avec des loggias ouvertes et celui avec un mur plus plein et des fenêtres plus petites.",
+        "de": "Die Seite mit offenen Logien und die mit massiverer Wand und kleineren Fenstern.",
+        "es": "El lado con logias abiertas y el de pared más compacta y ventanas más pequeñas."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "ca-da-mosto",
+      "zona": "Cannaregio / Rialto",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca le aperture ad arco al piano inferiore: quale effetto producono sulla facciata?",
+        "en": "Look for the arched openings on the lower floor: what effect do they create on the façade?",
+        "fr": "Cherche les ouvertures en arc au rez-de-chaussée : quel effet produisent-elles sur la façade ?",
+        "de": "Suche die Bogenöffnungen im Erdgeschoss: Welche Wirkung haben sie auf die Fassade?",
+        "es": "Busca las aperturas en arco de la planta baja: ¿qué efecto producen en la fachada?"
+      },
+      "risposta": {
+        "it": "Formano un portico che alleggerisce il prospetto.",
+        "en": "They form a portico that lightens the façade.",
+        "fr": "Ils forment un portique qui allège la façade.",
+        "de": "Sie bilden eine Säulenhalle, die die Fassade auflockert.",
+        "es": "Forman un pórtico que aligera la fachada."
+      },
+      "itinerario": "Aguzza la vista – Cannaregio",
+      "foto": null
+    },
+    {
+      "luogo_id": "campo-santi-giovanni-paolo",
+      "zona": "Castello",
+      "tema": "Arredo urbano",
+      "domanda": {
+        "it": "Cerca la vera da pozzo nel campo: che cosa si trova al centro della sua struttura?",
+        "en": "Look for the well-head in the square: what is at the centre of its structure?",
+        "fr": "Cherche la margelle du campo : que trouve-t-on au centre de sa structure ?",
+        "de": "Suche den Brunnenkopf auf dem Campo: Was befindet sich in der Mitte seiner Konstruktion?",
+        "es": "Busca el brocal en el campo: ¿qué se encuentra en el centro de su estructura?"
+      },
+      "risposta": {
+        "it": "L’apertura del pozzo, circondata dal manufatto in pietra.",
+        "en": "The well opening, surrounded by the stone structure.",
+        "fr": "L’ouverture du puits, entourée de l’ouvrage en pierre.",
+        "de": "Die Brunnenöffnung, umgeben vom Steinbauwerk.",
+        "es": "La boca del pozo, rodeada por la obra de piedra."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "campo-santa-maria-formosa",
+      "zona": "Castello",
+      "tema": "Arredo urbano",
+      "domanda": {
+        "it": "Cerca la vera da pozzo del campo: riesci a leggere o individuare la data incisa?",
+        "en": "Look for the well-head in the square: can you read or find the date carved into it?",
+        "fr": "Cherche la margelle du campo : arrives-tu à lire ou à repérer la date gravée ?",
+        "de": "Suche den Brunnenkopf auf dem Campo: Kannst du das eingemeißelte Datum lesen oder finden?",
+        "es": "Busca el brocal del campo: ¿consigues leer o localizar la fecha grabada?"
+      },
+      "risposta": {
+        "it": "La data tradizionalmente indicata è 1755; da verificare sulla struttura.",
+        "en": "The traditionally given date is 1755; to be checked on the structure.",
+        "fr": "La date traditionnellement indiquée est 1755 ; à vérifier sur la structure.",
+        "de": "Das traditionell angegebene Datum ist 1755; am Bauwerk zu überprüfen.",
+        "es": "La fecha tradicionalmente indicada es 1755; hay que comprobarla en la estructura."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "arsenale",
+      "zona": "Castello",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Sopra l’ingresso monumentale cerca il leone alato: quale simbolo veneziano rappresenta?",
+        "en": "Above the monumental entrance look for the winged lion: which Venetian symbol does it represent?",
+        "fr": "Au-dessus de l’entrée monumentale, cherche le lion ailé : quel symbole vénitien représente-t-il ?",
+        "de": "Suche über dem monumentalen Eingang den geflügelten Löwen: Welches venezianische Symbol stellt er dar?",
+        "es": "Sobre la entrada monumental busca el león alado: ¿qué símbolo veneciano representa?"
+      },
+      "risposta": {
+        "it": "Il Leone di San Marco.",
+        "en": "The Lion of Saint Mark.",
+        "fr": "Le Lion de saint Marc.",
+        "de": "Der Markuslöwe.",
+        "es": "El León de San Marcos."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-zaccaria",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Se la cripta è accessibile, osserva le colonne: che cosa rende particolare questo spazio?",
+        "en": "If the crypt is accessible, look at the columns: what makes this space special?",
+        "fr": "Si la crypte est accessible, observe les colonnes : qu’est-ce qui rend cet espace particulier ?",
+        "de": "Wenn die Krypta zugänglich ist, betrachte die Säulen: Was macht diesen Raum besonders?",
+        "es": "Si la cripta es accesible, observa las columnas: ¿qué hace especial este espacio?"
+      },
+      "risposta": {
+        "it": "Le colonne e la struttura della cripta, in parte caratterizzata dall’acqua e dalla sua atmosfera sotterranea.",
+        "en": "The columns and the structure of the crypt, partly characterised by water and its underground atmosphere.",
+        "fr": "Les colonnes et la structure de la crypte, en partie marquées par l’eau et son atmosphère souterraine.",
+        "de": "Die Säulen und die Struktur der Krypta, teils geprägt vom Wasser und seiner unterirdischen Atmosphäre.",
+        "es": "Las columnas y la estructura de la cripta, en parte marcadas por el agua y su atmósfera subterránea."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-francesco-vigna",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la facciata: quale forma geometrica classica domina la parte superiore?",
+        "en": "Look at the façade: which classical geometric shape dominates the upper part?",
+        "fr": "Observe la façade : quelle forme géométrique classique domine la partie supérieure ?",
+        "de": "Betrachte die Fassade: Welche klassische geometrische Form beherrscht den oberen Teil?",
+        "es": "Observa la fachada: ¿qué forma geométrica clásica domina la parte superior?"
+      },
+      "risposta": {
+        "it": "Il frontone triangolare della facciata palladiana.",
+        "en": "The triangular pediment of the Palladian façade.",
+        "fr": "Le fronton triangulaire de la façade palladienne.",
+        "de": "Der dreieckige Giebel der palladianischen Fassade.",
+        "es": "El frontón triangular de la fachada palladiana."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "santa-maria-formosa",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "La chiesa ha due prospetti principali: riesci a individuarne uno rivolto verso il campo e uno verso il canale?",
+        "en": "The church has two main façades: can you find one facing the campo and one facing the canal?",
+        "fr": "L’église a deux façades principales : arrives-tu à en repérer une tournée vers le campo et une vers le canal ?",
+        "de": "Die Kirche hat zwei Hauptfassaden: Kannst du eine zum Campo und eine zum Kanal hin finden?",
+        "es": "La iglesia tiene dos fachadas principales: ¿consigues localizar una hacia el campo y otra hacia el canal?"
+      },
+      "risposta": {
+        "it": "Sì, presenta due facciate principali con caratteristiche differenti.",
+        "en": "Yes, it has two main façades with different characteristics.",
+        "fr": "Oui, elle présente deux façades principales aux caractéristiques différentes.",
+        "de": "Ja, sie hat zwei Hauptfassaden mit unterschiedlichen Merkmalen.",
+        "es": "Sí, tiene dos fachadas principales con características diferentes."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "ospedaletto",
+      "zona": "Castello",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Cerca il portale monumentale: quale elemento decorativo rende l’ingresso particolarmente elaborato?",
+        "en": "Look for the monumental portal: which decorative element makes the entrance especially elaborate?",
+        "fr": "Cherche le portail monumental : quel élément décoratif rend l’entrée particulièrement élaborée ?",
+        "de": "Suche das monumentale Portal: Welches Schmuckelement macht den Eingang besonders aufwendig?",
+        "es": "Busca el portal monumental: ¿qué elemento decorativo hace especialmente elaborada la entrada?"
+      },
+      "risposta": {
+        "it": "Il ricco apparato scultoreo che incornicia il portale.",
+        "en": "The rich sculptural apparatus framing the portal.",
+        "fr": "Le riche appareil sculpté qui encadre le portail.",
+        "de": "Der reiche Skulpturenschmuck, der das Portal umrahmt.",
+        "es": "El rico aparato escultórico que enmarca el portal."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-giorgio-greci",
+      "zona": "Castello",
+      "tema": "Arte sacra",
+      "domanda": {
+        "it": "Se entri, cerca l’iconostasi: dove si trova rispetto all’altare?",
+        "en": "If you enter, look for the iconostasis: where is it located relative to the altar?",
+        "fr": "Si tu entres, cherche l’iconostase : où se trouve-t-elle par rapport à l’autel ?",
+        "de": "Wenn du eintrittst, suche die Ikonostase: Wo befindet sie sich im Verhältnis zum Altar?",
+        "es": "Si entras, busca el iconostasio: ¿dónde se encuentra respecto al altar?"
+      },
+      "risposta": {
+        "it": "Tra la zona dei fedeli e il santuario.",
+        "en": "Between the area for the faithful and the sanctuary.",
+        "fr": "Entre l’espace des fidèles et le sanctuaire.",
+        "de": "Zwischen dem Bereich der Gläubigen und dem Presbyterium.",
+        "es": "Entre la zona de los fieles y el santuario."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-martino-burano",
+      "zona": "Castello",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Osserva il portale: riesci a trovare un rilievo figurativo inserito nella decorazione?",
+        "en": "Look at the portal: can you find a figurative relief set into the decoration?",
+        "fr": "Observe le portail : arrives-tu à trouver un bas-relief figuratif intégré au décor ?",
+        "de": "Betrachte das Portal: Kannst du ein figürliches Relief in der Verzierung finden?",
+        "es": "Observa el portal: ¿consigues encontrar un relieve figurativo integrado en la decoración?"
+      },
+      "risposta": {
+        "it": "Un dettaglio scultoreo del portale, da individuare sul posto.",
+        "en": "A sculptural detail of the portal, to be identified on site.",
+        "fr": "Un détail sculpté du portail, à repérer sur place.",
+        "de": "Ein Skulpturdetail des Portals, vor Ort zu finden.",
+        "es": "Un detalle escultórico del portal, por identificar in situ."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-pietro-castello",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda la chiesa e il campanile: sono uniti oppure separati?",
+        "en": "Look at the church and the bell tower: are they joined or separate?",
+        "fr": "Observe l’église et le clocher : sont-ils unis ou séparés ?",
+        "de": "Betrachte Kirche und Glockenturm: Sind sie verbunden oder getrennt?",
+        "es": "Observa la iglesia y el campanario: ¿están unidos o separados?"
+      },
+      "risposta": {
+        "it": "Il campanile è separato dal corpo della chiesa.",
+        "en": "The bell tower is separate from the body of the church.",
+        "fr": "Le clocher est séparé du corps de l’église.",
+        "de": "Der Glockenturm ist vom Kirchenkörper getrennt.",
+        "es": "El campanario está separado del cuerpo de la iglesia."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-pietro-castello",
+      "zona": "Castello",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Prima che San Marco diventasse la cattedrale cittadina, quale chiesa ricopriva quel ruolo?",
+        "en": "Before St Mark’s became the city’s cathedral, which church held that role?",
+        "fr": "Avant que Saint-Marc ne devienne la cathédrale de la ville, quelle église remplissait ce rôle ?",
+        "de": "Bevor San Marco zur Stadtkathedrale wurde, welche Kirche übernahm diese Rolle?",
+        "es": "Antes de que San Marcos fuera la catedral de la ciudad, ¿qué iglesia desempeñaba ese papel?"
+      },
+      "risposta": {
+        "it": "San Pietro di Castello.",
+        "en": "San Pietro di Castello.",
+        "fr": "San Pietro di Castello.",
+        "de": "San Pietro di Castello.",
+        "es": "San Pietro di Castello."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-grimani",
+      "zona": "Castello / San Marco",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Se visiti il museo, cerca la Tribuna: quale forma geometrica caratterizza la copertura luminosa?",
+        "en": "If you visit the museum, look for the Tribuna: which geometric shape characterises the light-filled roof?",
+        "fr": "Si tu visites le musée, cherche la Tribuna : quelle forme géométrique caractérise la couverture lumineuse ?",
+        "de": "Wenn du das Museum besuchst, suche die Tribuna: Welche geometrische Form prägt das lichtdurchlässige Dach?",
+        "es": "Si visitas el museo, busca la Tribuna: ¿qué forma geométrica caracteriza la cubierta luminosa?"
+      },
+      "risposta": {
+        "it": "Una struttura a piramide che termina nella luce proveniente dall’alto.",
+        "en": "A pyramid-shaped structure ending in the light coming from above.",
+        "fr": "Une structure pyramidale qui se termine par la lumière venue d’en haut.",
+        "de": "Eine pyramidenförmige Konstruktion, die im Licht von oben endet.",
+        "es": "Una estructura piramidal que termina en la luz que llega desde arriba."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-grimani",
+      "zona": "Castello / San Marco",
+      "tema": "Decorazione",
+      "domanda": {
+        "it": "Cerca la scala e gli ambienti decorati: quali elementi ti fanno capire che non si tratta di un palazzo veneziano ordinario?",
+        "en": "Look for the staircase and the decorated rooms: which elements tell you this is not an ordinary Venetian palace?",
+        "fr": "Cherche l’escalier et les salles décorées : quels éléments montrent qu’il ne s’agit pas d’un palais vénitien ordinaire ?",
+        "de": "Suche die Treppe und die verzierten Räume: Welche Elemente zeigen, dass es kein gewöhnlicher venezianischer Palast ist?",
+        "es": "Busca la escalera y las salas decoradas: ¿qué elementos indican que no es un palacio veneciano corriente?"
+      },
+      "risposta": {
+        "it": "Le decorazioni pittoriche e architettoniche di gusto classico.",
+        "en": "The painted and architectural decorations in a classical taste.",
+        "fr": "Les décors peints et architecturaux de goût classique.",
+        "de": "Die Malereien und architektonischen Verzierungen im klassischen Geschmack.",
+        "es": "Las decoraciones pictóricas y arquitectónicas de gusto clásico."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "schiavoni",
+      "zona": "Castello",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Nel ciclo di Carpaccio cerca San Giorgio che affronta il drago. Quale dettaglio del paesaggio compare accanto ai protagonisti?",
+        "en": "In Carpaccio’s cycle, look for Saint George facing the dragon. Which landscape detail appears beside the protagonists?",
+        "fr": "Dans le cycle de Carpaccio, cherche saint Georges face au dragon. Quel détail du paysage apparaît à côté des protagonistes ?",
+        "de": "Suche im Zyklus Carpaccios den heiligen Georg im Kampf mit dem Drachen. Welches Landschaftsdetail erscheint neben den Hauptfiguren?",
+        "es": "En el ciclo de Carpaccio, busca a San Jorge enfrentado al dragón. ¿Qué detalle del paisaje aparece junto a los protagonistas?"
+      },
+      "risposta": {
+        "it": "Piccoli elementi del paesaggio e della scena che accompagnano il combattimento.",
+        "en": "Small landscape and scene elements that accompany the fight.",
+        "fr": "Petits éléments du paysage et de la scène qui accompagnent le combat.",
+        "de": "Kleine Landschafts- und Szenenelemente, die den Kampf begleiten.",
+        "es": "Pequeños elementos del paisaje y de la escena que acompañan el combate."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "schiavoni",
+      "zona": "Castello",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Nel ciclo pittorico, osserva lo sfondo invece dei personaggi: riesci a individuare edifici o dettagli architettonici?",
+        "en": "In the painted cycle, look at the background rather than the figures: can you spot buildings or architectural details?",
+        "fr": "Dans le cycle peint, observe l’arrière-plan plutôt que les personnages : arrives-tu à repérer des édifices ou des détails architecturaux ?",
+        "de": "Betrachte im Bildzyklus den Hintergrund statt der Figuren: Erkennst du Gebäude oder architektonische Details?",
+        "es": "En el ciclo pictórico, observa el fondo en lugar de los personajes: ¿consigues identificar edificios o detalles arquitectónicos?"
+      },
+      "risposta": {
+        "it": "Sì, gli sfondi contengono architetture e particolari narrativi.",
+        "en": "Yes, the backgrounds contain architecture and narrative details.",
+        "fr": "Oui, les arrière-plans contiennent des architectures et des détails narratifs.",
+        "de": "Ja, die Hintergründe enthalten Architektur und erzählerische Details.",
+        "es": "Sí, los fondos contienen arquitecturas y detalles narrativos."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "querini-stampalia",
+      "zona": "Castello",
+      "tema": "Architettura contemporanea",
+      "domanda": {
+        "it": "Se visiti gli ambienti di Carlo Scarpa, cerca il rapporto tra acqua, pietra e luce. Quale di questi elementi entra nello spazio architettonico?",
+        "en": "If you visit Carlo Scarpa’s spaces, look at the relationship between water, stone and light. Which of these elements enters the architectural space?",
+        "fr": "Si tu visites les espaces de Carlo Scarpa, cherche le rapport entre eau, pierre et lumière. Lequel de ces éléments entre dans l’espace architectural ?",
+        "de": "Wenn du die Räume Carlo Scarpas besuchst, suche das Verhältnis von Wasser, Stein und Licht. Welches dieser Elemente dringt in den architektonischen Raum ein?",
+        "es": "Si visitas los espacios de Carlo Scarpa, busca la relación entre agua, piedra y luz. ¿Cuál de estos elementos entra en el espacio arquitectónico?"
+      },
+      "risposta": {
+        "it": "L’acqua è integrata nel progetto insieme ai materiali e alla luce.",
+        "en": "Water is integrated into the design together with materials and light.",
+        "fr": "L’eau est intégrée au projet avec les matériaux et la lumière.",
+        "de": "Das Wasser ist zusammen mit Materialien und Licht in den Entwurf integriert.",
+        "es": "El agua se integra en el proyecto junto con los materiales y la luz."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "acqua-alta",
+      "zona": "Castello",
+      "tema": "Libri e oggetti",
+      "domanda": {
+        "it": "Cerca i libri, sono raccolti dentro quale particolare contenitore?",
+        "en": "Look for the books: inside which particular container are they gathered?",
+        "fr": "Cherche les livres : dans quel contenant particulier sont-ils rassemblés ?",
+        "de": "Suche die Bücher: In welchem besonderen Behälter sind sie gesammelt?",
+        "es": "Busca los libros: ¿dentro de qué contenedor particular están reunidos?"
+      },
+      "risposta": {
+        "it": "Una gondola.",
+        "en": "A gondola.",
+        "fr": "Une gondole.",
+        "de": "Eine Gondel.",
+        "es": "Una góndola."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "via-garibaldi",
+      "zona": "Castello",
+      "tema": "Urbanistica",
+      "domanda": {
+        "it": "Passeggiando lungo la via, che cosa la rende diversa da molte calli veneziane?",
+        "en": "Walking along the street, what makes it different from many Venetian calli?",
+        "fr": "En parcourant la rue, qu’est-ce qui la rend différente de beaucoup de calli vénitiennes ?",
+        "de": "Was unterscheidet die Straße beim Entlanggehen von vielen venezianischen Calli?",
+        "es": "Paseando por la calle, ¿qué la hace diferente de muchas calli venecianas?"
+      },
+      "risposta": {
+        "it": "È una strada particolarmente larga, con un carattere urbano differente dalle calli strette.",
+        "en": "It is a particularly wide street, with an urban character different from the narrow calli.",
+        "fr": "C’est une rue particulièrement large, au caractère urbain différent des calli étroites.",
+        "de": "Es ist eine besonders breite Straße mit einem anderen städtischen Charakter als die engen Calli.",
+        "es": "Es una calle especialmente ancha, con un carácter urbano distinto al de las estrechas calli."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "giardini-biennale",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Passeggia tra i padiglioni: riesci a trovare due edifici nazionali con stili architettonici molto diversi?",
+        "en": "Stroll among the pavilions: can you find two national buildings with very different architectural styles?",
+        "fr": "Promène-toi parmi les pavillons : arrives-tu à trouver deux bâtiments nationaux aux styles architecturaux très différents ?",
+        "de": "Schlendere zwischen den Pavillons: Kannst du zwei nationale Gebäude mit sehr unterschiedlichen Stilen finden?",
+        "es": "Pasea entre los pabellones: ¿consigues encontrar dos edificios nacionales con estilos arquitectónicos muy distintos?"
+      },
+      "risposta": {
+        "it": "I padiglioni dei diversi Paesi presentano architetture e linguaggi differenti.",
+        "en": "The pavilions of different countries show different architectures and styles.",
+        "fr": "Les pavillons des différents pays présentent des architectures et des langages différents.",
+        "de": "Die Pavillons der verschiedenen Länder zeigen unterschiedliche Architekturen und Formensprachen.",
+        "es": "Los pabellones de los distintos países presentan arquitecturas y lenguajes diferentes."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "serra-giardini",
+      "zona": "Castello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osserva la struttura in vetro e metallo: che tipo di edificio è?",
+        "en": "Look at the glass and metal structure: what kind of building is it?",
+        "fr": "Observe la structure en verre et en métal : de quel type de bâtiment s’agit-il ?",
+        "de": "Betrachte die Konstruktion aus Glas und Metall: Was für ein Gebäude ist das?",
+        "es": "Observa la estructura de vidrio y metal: ¿qué tipo de edificio es?"
+      },
+      "risposta": {
+        "it": "Una serra, realizzata per ospitare piante destinate alla decorazione dei giardini.",
+        "en": "A greenhouse, built to house plants intended for decorating gardens.",
+        "fr": "Une serre, construite pour abriter des plantes destinées à décorer les jardins.",
+        "de": "Ein Gewächshaus, errichtet für Pflanzen zur Ausschmückung von Gärten.",
+        "es": "Un invernadero, construido para albergar plantas destinadas a decorar jardines."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "giardino-carmelitani",
+      "zona": "Cannaregio",
+      "tema": "Giardino",
+      "domanda": {
+        "it": "Se il giardino è visitabile, osserva il disegno degli spazi verdi: quale impressione comunica il percorso?",
+        "en": "If the garden is open to visitors, look at the layout of the green spaces: what impression does the path convey?",
+        "fr": "Si le jardin est visitable, observe le dessin des espaces verts : quelle impression le parcours communique-t-il ?",
+        "de": "Wenn der Garten besichtigt werden kann, betrachte die Anlage der Grünflächen: Welchen Eindruck vermittelt der Weg?",
+        "es": "Si el jardín es visitable, observa el diseño de los espacios verdes: ¿qué impresión transmite el recorrido?"
+      },
+      "risposta": {
+        "it": "Un’organizzazione raccolta e contemplativa, legata alla funzione spirituale del luogo.",
+        "en": "A quiet, contemplative arrangement, linked to the spiritual function of the place.",
+        "fr": "Une organisation recueillie et contemplative, liée à la fonction spirituelle du lieu.",
+        "de": "Eine stille, kontemplative Anordnung, die mit der spirituellen Funktion des Ortes verbunden ist.",
+        "es": "Una disposición recogida y contemplativa, ligada a la función espiritual del lugar."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "labirinto-borges",
+      "zona": "Isola di San Giorgio",
+      "tema": "Giardino",
+      "domanda": {
+        "it": "Osserva il labirinto dall’alto o nelle immagini: quale forma geometrica si ripete nel disegno dei percorsi?",
+        "en": "Look at the labyrinth from above or in images: which geometric shape repeats in the design of the paths?",
+        "fr": "Observe le labyrinthe d’en haut ou sur les images : quelle forme géométrique se répète dans le tracé des chemins ?",
+        "de": "Betrachte das Labyrinth von oben oder auf Bildern: Welche geometrische Form wiederholt sich im Wegeplan?",
+        "es": "Observa el laberinto desde arriba o en las imágenes: ¿qué forma geométrica se repite en el trazado de los caminos?"
+      },
+      "risposta": {
+        "it": "Linee e svolte geometriche che compongono il labirinto ispirato a Jorge Luis Borges.",
+        "en": "Lines and geometric turns that make up the labyrinth inspired by Jorge Luis Borges.",
+        "fr": "Lignes et virages géométriques qui composent le labyrinthe inspiré de Jorge Luis Borges.",
+        "de": "Linien und geometrische Wendungen, aus denen das von Jorge Luis Borges inspirierte Labyrinth besteht.",
+        "es": "Líneas y giros geométricos que componen el laberinto inspirado en Jorge Luis Borges."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "parco-rimembranze",
+      "zona": "Sant’Elena",
+      "tema": "Memoria storica",
+      "domanda": {
+        "it": "Cerca il monumento o la targa commemorativa nel parco: a quale tipo di memoria è dedicato?",
+        "en": "Look for the monument or memorial plaque in the park: what kind of memory is it dedicated to?",
+        "fr": "Cherche le monument ou la plaque commémorative du parc : à quel type de mémoire est-il consacré ?",
+        "de": "Suche das Denkmal oder die Gedenktafel im Park: Welcher Art des Gedenkens ist es gewidmet?",
+        "es": "Busca el monumento o la placa conmemorativa del parque: ¿a qué tipo de memoria está dedicado?"
+      },
+      "risposta": {
+        "it": "Alla memoria dei caduti; il testo preciso della targa va verificato sul posto.",
+        "en": "To the memory of the fallen; the exact wording of the plaque should be checked on site.",
+        "fr": "À la mémoire des morts au combat ; le texte exact de la plaque doit être vérifié sur place.",
+        "de": "Zum Gedenken an die Gefallenen; der genaue Wortlaut der Tafel sollte vor Ort überprüft werden.",
+        "es": "A la memoria de los caídos; el texto exacto de la placa debe verificarse in situ."
+      },
+      "itinerario": "Aguzza la vista – Castello e Arsenale",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-guglie",
+      "zona": "Cannaregio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda il parapetto: quale elemento appuntito dà il nome al ponte?",
+        "en": "Look at the parapet: which pointed element gives the bridge its name?",
+        "fr": "Observe le parapet : quel élément pointu donne son nom au pont ?",
+        "de": "Betrachte das Geländer: Welches spitze Element gibt der Brücke ihren Namen?",
+        "es": "Observa el pretil: ¿qué elemento puntiagudo da nombre al puente?"
+      },
+      "risposta": {
+        "it": "Le guglie decorative che si innalzano lungo il ponte.",
+        "en": "The decorative spires rising along the bridge.",
+        "fr": "Les flèches décoratives qui s’élèvent le long du pont.",
+        "de": "Die Zierspitzen, die sich entlang der Brücke erheben.",
+        "es": "Las agujas decorativas que se elevan a lo largo del puente."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-scalzi",
+      "zona": "Santa Croce / Cannaregio",
+      "tema": "Materiali",
+      "domanda": {
+        "it": "Osserva il ponte vicino alla stazione: quale pietra chiara riveste la struttura?",
+        "en": "Look at the bridge near the station: which pale stone clads the structure?",
+        "fr": "Observe le pont près de la gare : quelle pierre claire revêt la structure ?",
+        "de": "Betrachte die Brücke nahe dem Bahnhof: Welcher helle Stein verkleidet die Konstruktion?",
+        "es": "Observa el puente cerca de la estación: ¿qué piedra clara recubre la estructura?"
+      },
+      "risposta": {
+        "it": "Pietra d’Istria.",
+        "en": "Istrian stone.",
+        "fr": "Pierre d’Istrie.",
+        "de": "Istrischer Stein.",
+        "es": "Piedra de Istria."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-scalzi",
+      "zona": "Santa Croce / Cannaregio",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Cerca una vecchia immagine del ponte e confrontala con quello attuale: quale materiale caratterizzava il ponte precedente?",
+        "en": "Look for an old picture of the bridge and compare it with the current one: what material characterised the previous bridge?",
+        "fr": "Cherche une ancienne image du pont et compare-la avec l’actuel : quel matériau caractérisait le pont précédent ?",
+        "de": "Suche ein altes Bild der Brücke und vergleiche es mit der heutigen: Welches Material prägte die frühere Brücke?",
+        "es": "Busca una imagen antigua del puente y compárala con la actual: ¿qué material caracterizaba al puente anterior?"
+      },
+      "risposta": {
+        "it": "Il ponte precedente era in ferro; quello attuale in pietra fu inaugurato nel 1934.",
+        "en": "The previous bridge was iron; the current stone one was inaugurated in 1934.",
+        "fr": "Le pont précédent était en fer ; l’actuel, en pierre, a été inauguré en 1934.",
+        "de": "Die frühere Brücke war aus Eisen; die heutige Steinbrücke wurde 1934 eingeweiht.",
+        "es": "El puente anterior era de hierro; el actual, de piedra, se inauguró en 1934."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-liberta",
+      "zona": "Accesso a Venezia",
+      "tema": "Infrastrutture",
+      "domanda": {
+        "it": "Osserva il ponte lungo la laguna: quali due tipi di traffico collega alla città?",
+        "en": "Look at the bridge along the lagoon: which two kinds of traffic does it link to the city?",
+        "fr": "Observe le pont le long de la lagune : quels deux types de trafic relie-t-il à la ville ?",
+        "de": "Betrachte die Brücke entlang der Lagune: Welche zwei Verkehrsarten verbindet sie mit der Stadt?",
+        "es": "Observa el puente a lo largo de la laguna: ¿qué dos tipos de tráfico lo conectan con la ciudad?"
+      },
+      "risposta": {
+        "it": "Il traffico stradale e quello ferroviario, su infrastrutture parallele.",
+        "en": "Road and rail traffic, on parallel infrastructure.",
+        "fr": "Le trafic routier et ferroviaire, sur des infrastructures parallèles.",
+        "de": "Straßen- und Bahnverkehr auf parallelen Verkehrswegen.",
+        "es": "El tráfico rodado y ferroviario, sobre infraestructuras paralelas."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-accademia",
+      "zona": "Dorsoduro / San Marco",
+      "tema": "Paesaggio",
+      "domanda": {
+        "it": "Cerca la cupola che domina il panorama verso la laguna: quale chiesa riconosci?",
+        "en": "Look for the dome that dominates the view towards the lagoon: which church do you recognise?",
+        "fr": "Cherche la coupole qui domine le panorama vers la lagune : quelle église reconnais-tu ?",
+        "de": "Suche die Kuppel, die den Blick zur Lagune beherrscht: Welche Kirche erkennst du?",
+        "es": "Busca la cúpula que domina el panorama hacia la laguna: ¿qué iglesia reconoces?"
+      },
+      "risposta": {
+        "it": "La Basilica di Santa Maria della Salute.",
+        "en": "The Basilica of Santa Maria della Salute.",
+        "fr": "La basilique Santa Maria della Salute.",
+        "de": "Die Basilika Santa Maria della Salute.",
+        "es": "La Basílica de Santa Maria della Salute."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-pugni",
+      "zona": "Dorsoduro",
+      "tema": "Tradizioni",
+      "domanda": {
+        "it": "Cerca le impronte in pietra sul ponte: perché sono un dettaglio insolito?",
+        "en": "Look for the stone footprints on the bridge: why are they an unusual detail?",
+        "fr": "Cherche les empreintes en pierre sur le pont : pourquoi est-ce un détail inhabituel ?",
+        "de": "Suche die steinernen Abdrücke auf der Brücke: Warum sind sie ein ungewöhnliches Detail?",
+        "es": "Busca las huellas de piedra del puente: ¿por qué son un detalle insólito?"
+      },
+      "risposta": {
+        "it": "Ricordano le posizioni dei contendenti durante le antiche sfide a pugni.",
+        "en": "They recall the positions of the contenders during the ancient fist fights.",
+        "fr": "Elles rappellent les positions des combattants lors des anciens combats à coups de poing.",
+        "de": "Sie erinnern an die Positionen der Kontrahenten bei den alten Faustkämpfen.",
+        "es": "Recuerdan las posiciones de los contendientes en los antiguos combates a puñetazos."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-rialto",
+      "zona": "Rialto",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca le botteghe sul ponte: che cosa le rende diverse da quelle su un normale ponte pedonale?",
+        "en": "Look for the shops on the bridge: what makes them different from those on an ordinary footbridge?",
+        "fr": "Cherche les boutiques sur le pont : qu’est-ce qui les rend différentes de celles d’un pont piéton ordinaire ?",
+        "de": "Suche die Läden auf der Brücke: Was unterscheidet sie von denen auf einer gewöhnlichen Fußgängerbrücke?",
+        "es": "Busca las tiendas del puente: ¿qué las hace diferentes de las de un puente peatonal corriente?"
+      },
+      "risposta": {
+        "it": "Le botteghe sono integrate lungo i due lati della struttura.",
+        "en": "The shops are built into both sides of the structure.",
+        "fr": "Les boutiques sont intégrées des deux côtés de la structure.",
+        "de": "Die Läden sind auf beiden Seiten der Konstruktion eingebaut.",
+        "es": "Las tiendas se integran a ambos lados de la estructura."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "tre-ponti-burano",
+      "zona": "Burano",
+      "tema": "Urbanistica",
+      "domanda": {
+        "it": "Dal ponte, osserva la confluenza dei canali: quanti bracci d’acqua riesci a distinguere?",
+        "en": "From the bridge, look at the confluence of the canals: how many arms of water can you distinguish?",
+        "fr": "Depuis le pont, observe la confluence des canaux : combien de bras d’eau distingues-tu ?",
+        "de": "Betrachte von der Brücke aus den Zusammenfluss der Kanäle: Wie viele Wasserarme kannst du unterscheiden?",
+        "es": "Desde el puente, observa la confluencia de los canales: ¿cuántos brazos de agua distingues?"
+      },
+      "risposta": {
+        "it": "Tre bracci principali, da cui deriva il nome del ponte.",
+        "en": "Three main arms, from which the bridge takes its name.",
+        "fr": "Trois bras principaux, d’où le pont tire son nom.",
+        "de": "Drei Hauptarme, von denen die Brücke ihren Namen hat.",
+        "es": "Tres brazos principales, de los que el puente toma su nombre."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-diavolo",
+      "zona": "Torcello",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Guarda il ponte: quale elemento di protezione manca rispetto a molti ponti moderni?",
+        "en": "Look at the bridge: which protective element is missing compared with many modern bridges?",
+        "fr": "Observe le pont : quel élément de protection manque par rapport à beaucoup de ponts modernes ?",
+        "de": "Betrachte die Brücke: Welches Schutzelement fehlt im Vergleich zu vielen modernen Brücken?",
+        "es": "Observa el puente: ¿qué elemento de protección falta en comparación con muchos puentes modernos?"
+      },
+      "risposta": {
+        "it": "I parapetti.",
+        "en": "The parapets.",
+        "fr": "Les parapets.",
+        "de": "Die Geländer.",
+        "es": "Los pretiles."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-diavolo",
+      "zona": "Torcello",
+      "tema": "Leggenda",
+      "domanda": {
+        "it": "Il ponte è legato a una leggenda popolare. Quale figura soprannaturale compare nel suo nome?",
+        "en": "The bridge is linked to a popular legend. Which supernatural figure appears in its name?",
+        "fr": "Le pont est lié à une légende populaire. Quelle figure surnaturelle apparaît dans son nom ?",
+        "de": "Die Brücke ist mit einer Volkssage verbunden. Welche übernatürliche Gestalt steckt in ihrem Namen?",
+        "es": "El puente está ligado a una leyenda popular. ¿Qué figura sobrenatural aparece en su nombre?"
+      },
+      "risposta": {
+        "it": "Il diavolo; esistono diverse versioni della leggenda.",
+        "en": "The devil; there are several versions of the legend.",
+        "fr": "Le diable ; il existe plusieurs versions de la légende.",
+        "de": "Der Teufel; es gibt mehrere Versionen der Legende.",
+        "es": "El diablo; existen varias versiones de la leyenda."
+      },
+      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-labia",
+      "zona": "San Marco / Cannaregio",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Cerca il ciclo di Tiepolo dedicato ad Antonio e Cleopatra. Quale coppia storica vi è rappresentata?",
+        "en": "Look for Tiepolo’s cycle dedicated to Antony and Cleopatra. Which historical couple is depicted?",
+        "fr": "Cherche le cycle de Tiepolo consacré à Antoine et Cléopâtre. Quel couple historique y est représenté ?",
+        "de": "Suche den Zyklus Tiepolos über Antonius und Kleopatra. Welches historische Paar ist dargestellt?",
+        "es": "Busca el ciclo de Tiepolo dedicado a Antonio y Cleopatra. ¿Qué pareja histórica aparece representada?"
+      },
+      "risposta": {
+        "it": "Marco Antonio e Cleopatra.",
+        "en": "Mark Antony and Cleopatra.",
+        "fr": "Marc Antoine et Cléopâtre.",
+        "de": "Marcus Antonius und Kleopatra.",
+        "es": "Marco Antonio y Cleopatra."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-mocenigo",
+      "zona": "Santa Croce",
+      "tema": "Moda e costume",
+      "domanda": {
+        "it": "Cerca gli abiti storici esposti: quale dettaglio permette di distinguere un costume d’epoca da uno moderno?",
+        "en": "Look for the historical costumes on display: which detail lets you tell a period costume from a modern one?",
+        "fr": "Cherche les costumes historiques exposés : quel détail permet de distinguer un costume d’époque d’un vêtement moderne ?",
+        "de": "Suche die ausgestellten historischen Kostüme: Welches Detail lässt ein Kostüm aus der Epoche von einem modernen unterscheiden?",
+        "es": "Busca los trajes históricos expuestos: ¿qué detalle permite distinguir un traje de época de uno moderno?"
+      },
+      "risposta": {
+        "it": "Il taglio, la struttura e i materiali degli abiti storici.",
+        "en": "The cut, structure and materials of the historical garments.",
+        "fr": "La coupe, la structure et les matériaux des vêtements historiques.",
+        "de": "Schnitt, Aufbau und Materialien der historischen Kleidung.",
+        "es": "El corte, la estructura y los materiales de los trajes históricos."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-mocenigo",
+      "zona": "Santa Croce",
+      "tema": "Profumeria",
+      "domanda": {
+        "it": "Cerca gli strumenti legati alla produzione dei profumi: quale tipo di attività raccontano?",
+        "en": "Look for the tools linked to perfume making: what kind of activity do they tell of?",
+        "fr": "Cherche les outils liés à la fabrication des parfums : quel type d’activité racontent-ils ?",
+        "de": "Suche die Werkzeuge der Parfümherstellung: Von welcher Tätigkeit erzählen sie?",
+        "es": "Busca las herramientas relacionadas con la elaboración de perfumes: ¿qué tipo de actividad cuentan?"
+      },
+      "risposta": {
+        "it": "La lavorazione e la preparazione delle fragranze.",
+        "en": "The working and preparation of fragrances.",
+        "fr": "La fabrication et la préparation des parfums.",
+        "de": "Die Verarbeitung und Herstellung der Duftstoffe.",
+        "es": "La elaboración y preparación de las fragancias."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "querini-stampalia",
+      "zona": "Castello",
+      "tema": "Architettura contemporanea",
+      "domanda": {
+        "it": "Cerca un dettaglio progettato da Carlo Scarpa in cui l’acqua dialoga con la pietra. Quali materiali riconosci?",
+        "en": "Look for a detail designed by Carlo Scarpa where water meets stone. Which materials can you recognise?",
+        "fr": "Cherche un détail conçu par Carlo Scarpa où l’eau dialogue avec la pierre. Quels matériaux reconnais-tu ?",
+        "de": "Suche ein Detail von Carlo Scarpa, bei dem das Wasser mit dem Stein in Dialog tritt. Welche Materialien erkennst du?",
+        "es": "Busca un detalle diseñado por Carlo Scarpa en el que el agua dialoga con la piedra. ¿Qué materiales reconoces?"
+      },
+      "risposta": {
+        "it": "Acqua e pietra, integrati nel progetto architettonico.",
+        "en": "Water and stone, integrated into the architectural design.",
+        "fr": "Eau et pierre, intégrées au projet architectural.",
+        "de": "Wasser und Stein, in den architektonischen Entwurf integriert.",
+        "es": "Agua y piedra, integradas en el proyecto arquitectónico."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "storia-naturale",
+      "zona": "Santa Croce",
+      "tema": "Paleontologia",
+      "domanda": {
+        "it": "Cerca lo scheletro del dinosauro Ouranosaurus: quale tipo di reperto stai osservando?",
+        "en": "Look for the Ouranosaurus skeleton: what kind of find are you looking at?",
+        "fr": "Cherche le squelette d’Ouranosaurus : quel type de vestige observes-tu ?",
+        "de": "Suche das Skelett des Dinosauriers Ouranosaurus: Um welche Art Fund handelt es sich?",
+        "es": "Busca el esqueleto del dinosaurio Ouranosaurus: ¿qué tipo de hallazgo estás observando?"
+      },
+      "risposta": {
+        "it": "Uno scheletro ricostruito di dinosauro.",
+        "en": "A reconstructed dinosaur skeleton.",
+        "fr": "Un squelette de dinosaure reconstitué.",
+        "de": "Ein rekonstruiertes Dinosaurierskelett.",
+        "es": "Un esqueleto reconstruido de dinosaurio."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "storia-naturale",
+      "zona": "Santa Croce",
+      "tema": "Zoologia",
+      "domanda": {
+        "it": "Cerca una vetrina dedicata agli animali: quale caratteristica comune permette di raggruppare gli esemplari?",
+        "en": "Look for a display case dedicated to animals: what common feature groups the specimens together?",
+        "fr": "Cherche une vitrine consacrée aux animaux : quelle caractéristique commune regroupe les spécimens ?",
+        "de": "Suche eine Vitrine mit Tieren: Welches gemeinsame Merkmal fasst die Exemplare zusammen?",
+        "es": "Busca una vitrina dedicada a los animales: ¿qué característica común agrupa a los ejemplares?"
+      },
+      "risposta": {
+        "it": "La classificazione zoologica, per esempio per specie o gruppo animale.",
+        "en": "The zoological classification, for example by species or animal group.",
+        "fr": "La classification zoologique, par exemple par espèce ou groupe animal.",
+        "de": "Die zoologische Einteilung, etwa nach Art oder Tiergruppe.",
+        "es": "La clasificación zoológica, por ejemplo por especie o grupo animal."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-rocco",
+      "zona": "San Polo",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Cerca un’opera di Tintoretto con una scena biblica e individua un personaggio secondario, oltre ai protagonisti.",
+        "en": "Look for a Tintoretto work with a biblical scene and find a secondary figure besides the main characters.",
+        "fr": "Cherche une œuvre du Tintoret avec une scène biblique et repère un personnage secondaire, en plus des protagonistes.",
+        "de": "Suche ein Werk Tintorettos mit einer biblischen Szene und finde eine Nebenfigur neben den Hauptpersonen.",
+        "es": "Busca una obra de Tintoretto con una escena bíblica e identifica un personaje secundario, además de los protagonistas."
+      },
+      "risposta": {
+        "it": "La risposta dipende dal dipinto scelto; è meglio associare la sfida a un’opera specifica.",
+        "en": "The answer depends on the painting chosen; it is better to link the challenge to a specific work.",
+        "fr": "La réponse dépend du tableau choisi ; il vaut mieux associer le défi à une œuvre précise.",
+        "de": "Die Antwort hängt vom gewählten Gemälde ab; die Aufgabe sollte mit einem bestimmten Werk verknüpft werden.",
+        "es": "La respuesta depende de la pintura elegida; conviene vincular el desafío a una obra concreta."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "museo-vetro",
+      "zona": "Murano",
+      "tema": "Artigianato",
+      "domanda": {
+        "it": "Se è esposto, cerca un oggetto in vetro con sottili filamenti intrecciati. Quale tecnica può rappresentare?",
+        "en": "If it is on display, look for a glass object with thin intertwined filaments. Which technique might it represent?",
+        "fr": "S’il est exposé, cherche un objet en verre aux fins filaments entrelacés. Quelle technique peut-il représenter ?",
+        "de": "Falls es ausgestellt ist, suche ein Glasobjekt mit feinen verschlungenen Fäden. Welche Technik könnte es darstellen?",
+        "es": "Si está expuesto, busca un objeto de vidrio con finos filamentos entrelazados. ¿Qué técnica puede representar?"
+      },
+      "risposta": {
+        "it": "Una lavorazione decorativa come il reticello, se confermata dall’etichetta dell’opera.",
+        "en": "A decorative technique such as reticella, if confirmed by the work’s label.",
+        "fr": "Une technique décorative comme le reticello, si l’étiquette de l’œuvre le confirme.",
+        "de": "Eine dekorative Technik wie Reticella, sofern das Werkschild dies bestätigt.",
+        "es": "Una técnica decorativa como el reticella, si lo confirma la cartela de la obra."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "museo-merletto",
+      "zona": "Burano",
+      "tema": "Artigianato",
+      "domanda": {
+        "it": "Cerca un esempio di merletto ad ago: quale differenza presenta rispetto a un tessuto ricamato?",
+        "en": "Look for an example of needle lace: what difference does it show compared with an embroidered fabric?",
+        "fr": "Cherche un exemple de dentelle à l’aiguille : quelle différence présente-t-elle avec un tissu brodé ?",
+        "de": "Suche ein Beispiel für Nadelspitze: Worin unterscheidet sie sich von einem bestickten Stoff?",
+        "es": "Busca un ejemplo de encaje a la aguja: ¿qué diferencia presenta respecto a un tejido bordado?"
+      },
+      "risposta": {
+        "it": "Il merletto viene costruito con fili e punti formando una trama traforata, anziché decorare soltanto un tessuto già esistente.",
+        "en": "Lace is built up with threads and stitches to form an openwork mesh, rather than just decorating an existing fabric.",
+        "fr": "La dentelle se construit avec des fils et des points qui forment une trame ajourée, au lieu de simplement décorer un tissu existant.",
+        "de": "Spitze wird aus Fäden und Stichen aufgebaut und bildet ein durchbrochenes Gewebe, statt nur einen vorhandenen Stoff zu verzieren.",
+        "es": "El encaje se construye con hilos y puntos que forman una trama calada, en lugar de decorar solo un tejido ya existente."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "accademia",
+      "zona": "Dorsoduro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Scegli un dipinto veneziano esposto e cerca un dettaglio architettonico sullo sfondo. Quale edificio o forma riesci a riconoscere?",
+        "en": "Choose an exhibited Venetian painting and look for an architectural detail in the background. Which building or shape can you recognise?",
+        "fr": "Choisis un tableau vénitien exposé et cherche un détail architectural à l’arrière-plan. Quel bâtiment ou quelle forme reconnais-tu ?",
+        "de": "Wähle ein ausgestelltes venezianisches Gemälde und suche im Hintergrund ein architektonisches Detail. Welches Gebäude oder welche Form erkennst du?",
+        "es": "Elige una pintura veneciana expuesta y busca un detalle arquitectónico en el fondo. ¿Qué edificio o forma consigues reconocer?"
+      },
+      "risposta": {
+        "it": "Risposta variabile in base al dipinto selezionato.",
+        "en": "Answer varies depending on the selected painting.",
+        "fr": "Réponse variable selon le tableau sélectionné.",
+        "de": "Die Antwort variiert je nach gewähltem Gemälde.",
+        "es": "La respuesta varía según la pintura seleccionada."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "guggenheim",
+      "zona": "Dorsoduro",
+      "tema": "Arte moderna",
+      "domanda": {
+        "it": "Cerca un’opera astratta: quale forma geometrica riesci a individuare per prima?",
+        "en": "Look for an abstract work: which geometric shape do you spot first?",
+        "fr": "Cherche une œuvre abstraite : quelle forme géométrique repères-tu en premier ?",
+        "de": "Suche ein abstraktes Werk: Welche geometrische Form erkennst du zuerst?",
+        "es": "Busca una obra abstracta: ¿qué forma geométrica identificas primero?"
+      },
+      "risposta": {
+        "it": "Risposta variabile in base all’opera; può essere un cerchio, un triangolo, un rettangolo o una forma irregolare.",
+        "en": "Answer varies depending on the work; it can be a circle, a triangle, a rectangle or an irregular shape.",
+        "fr": "Réponse variable selon l’œuvre ; ce peut être un cercle, un triangle, un rectangle ou une forme irrégulière.",
+        "de": "Die Antwort hängt vom Werk ab; es kann ein Kreis, ein Dreieck, ein Rechteck oder eine unregelmäßige Form sein.",
+        "es": "La respuesta varía según la obra; puede ser un círculo, un triángulo, un rectángulo o una forma irregular."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "palazzo-grassi",
+      "zona": "San Marco",
+      "tema": "Arte contemporanea",
+      "domanda": {
+        "it": "Cerca un’opera contemporanea che dialoghi con l’architettura storica: quale contrasto noti?",
+        "en": "Look for a contemporary work that engages with historic architecture: what contrast do you notice?",
+        "fr": "Cherche une œuvre contemporaine qui dialogue avec l’architecture historique : quel contraste remarques-tu ?",
+        "de": "Suche ein zeitgenössisches Werk, das mit der historischen Architektur in Dialog tritt: Welchen Kontrast bemerkst du?",
+        "es": "Busca una obra contemporánea que dialogue con la arquitectura histórica: ¿qué contraste notas?"
+      },
+      "risposta": {
+        "it": "Il contrasto tra l’allestimento contemporaneo e gli ambienti storici del palazzo.",
+        "en": "The contrast between the contemporary displays and the historic rooms of the palace.",
+        "fr": "Le contraste entre la mise en scène contemporaine et les salles historiques du palais.",
+        "de": "Der Kontrast zwischen der zeitgenössischen Ausstellungsgestaltung und den historischen Räumen des Palastes.",
+        "es": "El contraste entre la museografía contemporánea y las salas históricas del palacio."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "punta-dogana",
+      "zona": "Dorsoduro",
+      "tema": "Architettura e arte",
+      "domanda": {
+        "it": "Osserva il vertice dell’edificio verso il bacino: quale elemento scultoreo si staglia in alto?",
+        "en": "Look at the top of the building facing the basin: which sculptural element stands out high up?",
+        "fr": "Observe le sommet du bâtiment vers le bassin : quel élément sculpté se détache en hauteur ?",
+        "de": "Betrachte den Gebäudegipfel zum Becken hin: Welches skulpturale Element hebt sich weit oben ab?",
+        "es": "Observa la cima del edificio hacia la cuenca: ¿qué elemento escultórico se recorta en lo alto?"
+      },
+      "risposta": {
+        "it": "Il gruppo scultoreo sulla sommità, con la sfera sostenuta da figure.",
+        "en": "The sculptural group at the top, with the sphere held up by figures.",
+        "fr": "Le groupe sculpté au sommet, avec la sphère soutenue par des figures.",
+        "de": "Die Skulpturengruppe an der Spitze, mit der Kugel, die von Figuren getragen wird.",
+        "es": "El grupo escultórico de la cima, con la esfera sostenida por figuras."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "san-giovanni-evangelista",
+      "zona": "San Polo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca la scala monumentale del complesso: quale elemento la rende riconoscibile?",
+        "en": "Look for the monumental staircase of the complex: what makes it recognisable?",
+        "fr": "Cherche l’escalier monumental de l’ensemble : qu’est-ce qui le rend reconnaissable ?",
+        "de": "Suche die monumentale Treppe des Komplexes: Was macht sie erkennbar?",
+        "es": "Busca la escalera monumental del conjunto: ¿qué elemento la hace reconocible?"
+      },
+      "risposta": {
+        "it": "La sua struttura scenografica e la decorazione architettonica.",
+        "en": "Its stage-like structure and architectural decoration.",
+        "fr": "Sa structure scénographique et son décor architectural.",
+        "de": "Seine szenografische Konstruktion und die architektonische Verzierung.",
+        "es": "Su estructura escenográfica y su decoración arquitectónica."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "casa-goldoni",
+      "zona": "San Polo",
+      "tema": "Memoria letteraria",
+      "domanda": {
+        "it": "Cerca una targa o un elemento informativo che ricordi il drammaturgo. Quale autore è associato alla casa?",
+        "en": "Look for a plaque or information panel commemorating the playwright. Which author is associated with the house?",
+        "fr": "Cherche une plaque ou un panneau d’information qui rappelle le dramaturge. Quel auteur est associé à la maison ?",
+        "de": "Suche eine Tafel oder Informationstafel zum Gedenken an den Dramatiker. Welcher Autor wird mit dem Haus in Verbindung gebracht?",
+        "es": "Busca una placa o un elemento informativo que recuerde al dramaturgo. ¿Qué autor se asocia a la casa?"
+      },
+      "risposta": {
+        "it": "Carlo Goldoni.",
+        "en": "Carlo Goldoni.",
+        "fr": "Carlo Goldoni.",
+        "de": "Carlo Goldoni.",
+        "es": "Carlo Goldoni."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "scuola-carmini",
+      "zona": "Dorsoduro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Se il percorso è visitabile, cerca un soffitto decorato con dipinti di Tiepolo. Quale elemento pittorico cattura lo sguardo?",
+        "en": "If the route is open, look for a ceiling decorated with Tiepolo paintings. Which painted element catches the eye?",
+        "fr": "Si le parcours est visitable, cherche un plafond décoré de peintures de Tiepolo. Quel élément peint attire le regard ?",
+        "de": "Wenn der Rundgang offen ist, suche eine Decke mit Gemälden Tiepolos. Welches gemalte Element fällt ins Auge?",
+        "es": "Si el recorrido está abierto, busca un techo decorado con pinturas de Tiepolo. ¿Qué elemento pintado atrae la mirada?"
+      },
+      "risposta": {
+        "it": "Le scene allegoriche e religiose del ciclo decorativo.",
+        "en": "The allegorical and religious scenes of the decorative cycle.",
+        "fr": "Les scènes allégoriques et religieuses du cycle décoratif.",
+        "de": "Die allegorischen und religiösen Szenen des Dekorationszyklus.",
+        "es": "Las escenas alegóricas y religiosas del ciclo decorativo."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "misericordia",
+      "zona": "Cannaregio",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Cerca i libri, sono raccolti dentro quale particolare contenitore?",
+        "en": "Look for the books: inside which particular container are they gathered?",
+        "fr": "Cherche les livres : dans quel contenant particulier sont-ils rassemblés ?",
+        "de": "Suche die Bücher: In welchem besonderen Behälter sind sie gesammelt?",
+        "es": "Busca los libros: ¿dentro de qué contenedor particular están reunidos?"
+      },
+      "risposta": {
+        "it": "La facciata ampia e il ritmo regolare delle aperture.",
+        "en": "The broad façade and the regular rhythm of the openings.",
+        "fr": "La façade large et le rythme régulier des ouvertures.",
+        "de": "Die breite Fassade und der regelmäßige Rhythmus der Öffnungen.",
+        "es": "La amplia fachada y el ritmo regular de los vanos."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "museo-navale",
+      "zona": "Castello",
+      "tema": "Storia marittima",
+      "domanda": {
+        "it": "Cerca un modello di imbarcazione: quale particolare ti permette di riconoscere la funzione della nave?",
+        "en": "Look for a boat model: which detail tells you what the ship was used for?",
+        "fr": "Cherche une maquette de bateau : quel détail permet de reconnaître la fonction du navire ?",
+        "de": "Suche ein Schiffsmodell: Welches Detail verrät dir, wofür das Schiff gebaut war?",
+        "es": "Busca un modelo de embarcación: ¿qué detalle te permite reconocer la función del barco?"
+      },
+      "risposta": {
+        "it": "La forma dello scafo, le vele, i remi o gli elementi di armamento, secondo il modello.",
+        "en": "The shape of the hull, the sails, the oars or the rigging elements, depending on the model.",
+        "fr": "La forme de la coque, les voiles, les rames ou les éléments de gréement, selon le modèle.",
+        "de": "Die Form des Rumpfes, die Segel, Riemen oder Takelelemente, je nach Modell.",
+        "es": "La forma del casco, las velas, los remos o los elementos de aparejo, según el modelo."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "museo-ebraico",
+      "zona": "Cannaregio",
+      "tema": "Memoria e cultura",
+      "domanda": {
+        "it": "Cerca un oggetto rituale esposto: quale materiale o decorazione lo rende riconoscibile?",
+        "en": "Look for a ritual object on display: which material or decoration makes it recognisable?",
+        "fr": "Cherche un objet rituel exposé : quel matériau ou quel décor le rend reconnaissable ?",
+        "de": "Suche ein ausgestelltes Ritualobjekt: Welches Material oder welche Verzierung macht es erkennbar?",
+        "es": "Busca un objeto ritual expuesto: ¿qué material o decoración lo hace reconocible?"
+      },
+      "risposta": {
+        "it": "Risposta variabile in base all’oggetto scelto e alla vetrina visitabile.",
+        "en": "Answer varies depending on the chosen object and the display case on view.",
+        "fr": "Réponse variable selon l’objet choisi et la vitrine visitable.",
+        "de": "Die Antwort hängt vom gewählten Objekt und der zugänglichen Vitrine ab.",
+        "es": "La respuesta varía según el objeto elegido y la vitrina visitable."
+      },
+      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
+      "foto": null
+    },
+    {
+      "luogo_id": "santi-maria-donato",
+      "zona": "Murano",
+      "tema": "Mosaico",
+      "domanda": {
+        "it": "Cerca il pavimento medievale: quali animali riesci a distinguere tra i mosaici?",
+        "en": "Look for the medieval floor: which animals can you make out among the mosaics?",
+        "fr": "Cherche le pavement médiéval : quels animaux distingues-tu parmi les mosaïques ?",
+        "de": "Suche den mittelalterlichen Fußboden: Welche Tiere erkennst du unter den Mosaiken?",
+        "es": "Busca el pavimento medieval: ¿qué animales distingues entre los mosaicos?"
+      },
+      "risposta": {
+        "it": "Animali e motivi figurativi, insieme a decorazioni geometriche.",
+        "en": "Animals and figurative motifs, together with geometric decorations.",
+        "fr": "Animaux et motifs figuratifs, avec des décors géométriques.",
+        "de": "Tiere und figürliche Motive, zusammen mit geometrischen Verzierungen.",
+        "es": "Animales y motivos figurativos, junto con decoraciones geométricas."
+      },
+      "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
+      "foto": null
+    },
+    {
+      "luogo_id": "bepi-sua",
+      "zona": "Burano",
+      "tema": "Colore e geometria",
+      "domanda": {
+        "it": "Guarda la facciata coloratissima: riesci a individuare tre forme geometriche diverse?",
+        "en": "Look at the brightly coloured façade: can you spot three different geometric shapes?",
+        "fr": "Observe la façade très colorée : arrives-tu à repérer trois formes géométriques différentes ?",
+        "de": "Betrachte die bunte Fassade: Kannst du drei verschiedene geometrische Formen erkennen?",
+        "es": "Observa la fachada muy colorida: ¿consigues identificar tres formas geométricas distintas?"
+      },
+      "risposta": {
+        "it": "Diverse forme geometriche ra cui cerchi, quadrati o triangoli.",
+        "en": "Various geometric shapes, including circles, squares or triangles.",
+        "fr": "Diverses formes géométriques, dont des cercles, des carrés ou des triangles.",
+        "de": "Verschiedene geometrische Formen, darunter Kreise, Quadrate oder Dreiecke.",
+        "es": "Diversas formas geométricas, entre ellas círculos, cuadrados o triángulos."
+      },
+      "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
+      "foto": null
+    },
+    {
+      "luogo_id": "torcello",
+      "zona": "Torcello",
+      "tema": "Mosaico",
+      "domanda": {
+        "it": "Se la basilica è visitabile, cerca il grande mosaico del Giudizio Universale. Quale figura domina la scena?",
+        "en": "If the basilica is open, look for the great mosaic of the Last Judgement. Which figure dominates the scene?",
+        "fr": "Si la basilique est visitable, cherche la grande mosaïque du Jugement dernier. Quelle figure domine la scène ?",
+        "de": "Wenn die Basilika besichtigt werden kann, suche das große Mosaik des Jüngsten Gerichts. Welche Figur beherrscht die Szene?",
+        "es": "Si la basílica es visitable, busca el gran mosaico del Juicio Final. ¿Qué figura domina la escena?"
+      },
+      "risposta": {
+        "it": "Cristo giudice, al centro della composizione.",
+        "en": "Christ as Judge, at the centre of the composition.",
+        "fr": "Le Christ juge, au centre de la composition.",
+        "de": "Christus als Richter, im Zentrum der Komposition.",
+        "es": "Cristo juez, en el centro de la composición."
+      },
+      "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
+      "foto": null
+    },
+    {
+      "luogo_id": "trono-attila",
+      "zona": "Torcello",
+      "tema": "Tradizione",
+      "domanda": {
+        "it": "Osserva il sedile di pietra: è davvero dimostrato che appartenesse ad Attila?",
+        "en": "Look at the stone seat: has it really been proven that it belonged to Attila?",
+        "fr": "Observe le siège de pierre : est-il vraiment prouvé qu’il ait appartenu à Attila ?",
+        "de": "Betrachte den Steinsitz: Ist wirklich belegt, dass er Attila gehörte?",
+        "es": "Observa el asiento de piedra: ¿está realmente demostrado que perteneciera a Atila?"
+      },
+      "risposta": {
+        "it": "No, il nome è tradizionale; non è dimostrato che sia stato il trono di Attila.",
+        "en": "No, the name is traditional; it is not proven that it was Attila’s throne.",
+        "fr": "Non, le nom est traditionnel ; il n’est pas prouvé qu’il s’agisse du trône d’Attila.",
+        "de": "Nein, der Name ist überliefert; es ist nicht belegt, dass es der Thron Attilas war.",
+        "es": "No, el nombre es tradicional; no está demostrado que fuera el trono de Atila."
+      },
+      "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
+      "foto": null
+    },
+    {
+      "luogo_id": "venissa",
+      "zona": "Mazzorbo",
+      "tema": "Vite e paesaggio",
+      "domanda": {
+        "it": "Cerca le vigne dell’isola: quale elemento distingue questo paesaggio agricolo da quello delle isole più densamente costruite?",
+        "en": "Look for the island’s vineyards: what distinguishes this farmland from the more densely built islands?",
+        "fr": "Cherche les vignes de l’île : qu’est-ce qui distingue ce paysage agricole de celui des îles plus densément bâties ?",
+        "de": "Suche die Weinberge der Insel: Was unterscheidet diese Agrarlandschaft von den dichter bebauten Inseln?",
+        "es": "Busca los viñedos de la isla: ¿qué distingue este paisaje agrícola del de las islas más densamente construidas?"
+      },
+      "risposta": {
+        "it": "Filari coltivati e spazi verdi aperti.",
+        "en": "Cultivated rows and open green spaces.",
+        "fr": "Rangées cultivées et espaces verts ouverts.",
+        "de": "Angebaute Reihen und offene Grünflächen.",
+        "es": "Hileras cultivadas y espacios verdes abiertos."
+      },
+      "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
+      "foto": null
+    }
+  ]
+}

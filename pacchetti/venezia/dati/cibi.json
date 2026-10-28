@@ -1,0 +1,1338 @@
+{
+  "_nota": "Cosa mangiare (bozza). Foto ancora da aggiungere.",
+  "cibi": [
+    {
+      "id": "sarde-in-saor",
+      "nome": "Sarde in saòr",
+      "portata": "cicchetto",
+      "testo": {
+        "it": "Sardine fritte, marinate con cipolla dorata, aceto e uvetta e pinoli. Si mangia freddo, spesso come cicchetto.",
+        "en": "Fried sardines marinated with golden onion, vinegar, raisins and pine nuts. Served cold, often as an early-afternoon cicchetto.",
+        "fr": "Sardines frites marinées avec des oignons dorés, du vinaigre, des raisins secs et des pignons. Se mangent froides, souvent comme cicchetto en début d'après-midi.",
+        "de": "Frittierte Sardinen, mariniert mit goldenen Zwiebeln, Essig, Rosinen und Pinienkernen. Kalt serviert, oft als Cicchetto am frühen Nachmittag.",
+        "es": "Sardinas fritas marinadas con cebolla dorada, vinagre, pasas y piñones. Se comen frías, a menudo como cicchetto a primera hora de la tarde."
+      },
+      "foto": {
+        "file": "Sarde in saòr.jpg",
+        "autore": "ezioman",
+        "licenza": "CC BY 2.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Sarde_in_sa%C3%B2r.jpg"
+      },
+      "ricetta": {
+        "fonte": "https://www.dissapore.com/ricette/sarde-in-saor/",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "20 min + almeno 2 ore di riposo (meglio una notte)",
+          "en": "20 min + at least 2 hours of rest (better overnight)",
+          "fr": "20 min + au moins 2 h de repos (mieux une nuit)",
+          "de": "20 Min. + mindestens 2 Std. Ruhezeit (besser über Nacht)",
+          "es": "20 min + al menos 2 horas de reposo (mejor una noche)"
+        },
+        "ingredienti": {
+          "it": [
+            "1 kg di sarde fresche di taglia grossa",
+            "2 kg di cipolle bianche",
+            "30 g di pinoli",
+            "30 g di uvetta",
+            "1 foglia di alloro",
+            "8 cucchiai di olio extravergine d'oliva",
+            "4 cucchiai di aceto di mele",
+            "Sale fino",
+            "Farina q.b.",
+            "1 litro di olio di semi per friggere"
+          ],
+          "en": [
+            "1 kg fresh large sardines",
+            "2 kg white onions",
+            "30 g pine nuts",
+            "30 g raisins",
+            "1 bay leaf",
+            "8 tbsp extra virgin olive oil",
+            "4 tbsp apple vinegar",
+            "Fine salt",
+            "Flour as needed",
+            "1 litre seed oil for frying"
+          ],
+          "fr": [
+            "1 kg de grosses sardines fraîches",
+            "2 kg d'oignons blancs",
+            "30 g de pignons",
+            "30 g de raisins secs",
+            "1 feuille de laurier",
+            "8 c. à soupe d'huile d'olive extra vierge",
+            "4 c. à soupe de vinaigre de pomme",
+            "Sel fin",
+            "Farine selon besoin",
+            "1 litre d'huile de graines pour friture"
+          ],
+          "de": [
+            "1 kg frische große Sardinen",
+            "2 kg weiße Zwiebeln",
+            "30 g Pinienkerne",
+            "30 g Rosinen",
+            "1 Lorbeerblatt",
+            "8 EL natives Olivenöl extra",
+            "4 EL Apfelessig",
+            "Feines Salz",
+            "Mehl nach Bedarf",
+            "1 Liter Speiseöl zum Frittieren"
+          ],
+          "es": [
+            "1 kg de sardinas frescas grandes",
+            "2 kg de cebollas blancas",
+            "30 g de piñones",
+            "30 g de pasas",
+            "1 hoja de laurel",
+            "8 cucharadas de aceite de oliva virgen extra",
+            "4 cucharadas de vinagre de manzana",
+            "Sal fina",
+            "Harina según necesidad",
+            "1 litro de aceite de semillas para freír"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Pulisci le sarde, togli testa e interiora, lavale e asciugale.",
+            "Infarinale leggermente e friggile fino a doratura; falle raffreddare su carta assorbente.",
+            "Stufa le cipolle affettate con olio, sale, alloro, uvetta e pinoli finché sono morbide; sfuma con l'aceto e fai evaporare il liquido.",
+            "Lascia raffreddare cipolle e sarde, altrimenti la carne si sfalda.",
+            "In una pirofila alterna strati di cipolle e sarde, finendo con le cipolle.",
+            "Fai riposare in frigorifero almeno due ore, o una notte, e servi a temperatura ambiente."
+          ],
+          "en": [
+            "Clean the sardines, removing head and guts; rinse and dry them.",
+            "Dust them lightly with flour and fry in the seed oil until golden. Drain on kitchen paper.",
+            "Braise the sliced onions with oil, salt, bay leaf, raisins and pine nuts until soft; deglaze with the vinegar and let the liquid evaporate.",
+            "Let the onions and the sardines cool: when hot, the flesh falls apart.",
+            "In an ovenproof dish, layer onions and sardines, finishing with onions.",
+            "Refrigerate for at least two hours, or overnight, and serve at room temperature."
+          ],
+          "fr": [
+            "Nettoyez les sardines en retirant la tête et les entrailles ; rincez-les et séchez-les.",
+            "Farinez-les légèrement et faites-les frire dans l'huile de graines jusqu'à ce qu'elles soient dorées. Égouttez sur du papier absorbant.",
+            "Faites étuver les oignons émincés avec l'huile, le sel, le laurier, les raisins et les pignons jusqu'à ce qu'ils soient tendres ; déglacez avec le vinaigre et laissez évaporer le liquide.",
+            "Laissez refroidir oignons et sardines : tièdes, la chair se défait.",
+            "Dans un plat allant au four, disposez en couches les oignons et les sardines, en terminant par les oignons.",
+            "Réfrigérez au moins deux heures, ou une nuit, et servez à température ambiante."
+          ],
+          "de": [
+            "Die Sardinen säubern, Kopf und Innereien entfernen; waschen und trocken tupfen.",
+            "Leicht mehlieren und im Speiseöl goldbraun frittieren. Auf Küchenpapier abtropfen lassen.",
+            "Die geschnittenen Zwiebeln mit Öl, Salz, Lorbeer, Rosinen und Pinienkernen weich schmoren; mit dem Essig ablöschen und die Flüssigkeit verdampfen lassen.",
+            "Zwiebeln und Sardinen abkühlen lassen: Warm würde das Fleisch zerfallen.",
+            "In einer Auflaufform abwechselnd Schichten Zwiebeln und Sardinen schichten, mit Zwiebeln abschließen.",
+            "Mindestens zwei Stunden, besser über Nacht, kalt stellen und bei Raumtemperatur servieren."
+          ],
+          "es": [
+            "Limpia las sardinas, quitando la cabeza y las vísceras; láveslas y sécalas.",
+            "Enharínalas ligeramente y fríelas en el aceite de semillas hasta que estén doradas. Escúrrelas sobre papel de cocina.",
+            "Rehoga cebollas cortadas con aceite, sal, laurel, pasas y piñones hasta que estén tiernas; desglasa con el vinagre y deja evaporar el líquido.",
+            "Deja enfriar cebollas y sardinas: si están calientes, la carne se deshace.",
+            "En una fuente para horno, alterna capas de cebolla y sardinas, terminando con cebolla.",
+            "Refrigera al menos dos horas, o una noche, y sirve a temperatura ambiente."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bigoli-in-salsa",
+      "nome": "Bigoli in salsa",
+      "portata": "primo",
+      "testo": {
+        "it": "Pasta fresca con acciughe e cipolla.",
+        "en": "Fresh pasta with anchovies and onion.",
+        "fr": "Pâtes fraîches aux anchois et à l'oignon.",
+        "de": "Frische Pasta mit Sardellen und Zwiebeln.",
+        "es": "Pasta fresca con anchoas y cebolla."
+      },
+      "foto": {
+        "file": "Bigoli with anchovy sauce at Ristorante Ribot, Venice.jpg",
+        "autore": "brownpau from Washington, DC",
+        "licenza": "CC BY 2.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Bigoli_with_anchovy_sauce_at_Ristorante_Ribot,_Venice.jpg"
+      },
+      "ricetta": {
+        "fonte": "https://www.dissapore.com/ricette/bigoli-in-salsa-alla-veneziana/",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "10 min + cottura della pasta",
+          "en": "10 min + cooking the pasta",
+          "fr": "10 min + cuisson des pâtes",
+          "de": "10 Min. + Garzeit der Nudeln",
+          "es": "10 min + cocción de la pasta"
+        },
+        "ingredienti": {
+          "it": [
+            "400 g di bigoli",
+            "2 cipolle bianche",
+            "20 ml di olio extravergine d'oliva",
+            "5 acciughe sotto sale",
+            "Sale grosso"
+          ],
+          "en": [
+            "400 g bigoli",
+            "2 white onions",
+            "20 ml extra virgin olive oil",
+            "5 salted anchovies",
+            "Coarse salt"
+          ],
+          "fr": [
+            "400 g de bigoli",
+            "2 oignons blancs",
+            "20 ml d'huile d'olive extra vierge",
+            "5 anchois salés",
+            "Gros sel"
+          ],
+          "de": [
+            "400 g Bigoli",
+            "2 weiße Zwiebeln",
+            "20 ml natives Olivenöl extra",
+            "5 gesalzene Sardellen",
+            "Grobes Salz"
+          ],
+          "es": [
+            "400 g de bigoli",
+            "2 cebollas blancas",
+            "20 ml de aceite de oliva virgen extra",
+            "5 anchoas en salazón",
+            "Sal gruesa"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Trita finemente le cipolle e falle stufare piano in padella con l'olio e il coperchio, fino a una crema morbida.",
+            "Dissala le acciughe, togli lisca e interiora, poi uniscile alla cipolla e mescola finché si sciolgono.",
+            "Cuoci i bigoli in abbondante acqua salata, scolali un minuto prima del tempo indicato e tieni da parte mezzo mestolo di acqua di cottura.",
+            "Salta la pasta nella padella con la salsa, aggiungi un po' di acqua di cottura per mantecare e servi subito."
+          ],
+          "en": [
+            "Finely chop the onions and stew them gently in a pan with the oil and a lid until they form a soft cream.",
+            "Desalt the anchovies, remove bones and guts, then add them to the onion and stir until they melt.",
+            "Cook the bigoli in plenty of salted water; drain them one minute before the time on the package and keep half a ladle of cooking water.",
+            "Toss the pasta in the pan with the sauce, add a little cooking water to make it creamy, and serve at once."
+          ],
+          "fr": [
+            "Hachez finement les oignons et faites-les mijoter doucement à la poêle avec l'huile et un couvercle, jusqu'à obtenir une crème moelleuse.",
+            "Dessalez les anchois, retirez arêtes et entrailles, puis ajoutez-les aux oignons et mélangez jusqu'à ce qu'ils fondent.",
+            "Faites cuire les bigoli dans beaucoup d'eau salée ; égouttez-les une minute avant le temps indiqué et gardez une demi-louche d'eau de cuisson.",
+            "Sautez les pâtes dans la poêle avec la sauce, ajoutez un peu d'eau de cuisson pour l'onctuosité et servez aussitôt."
+          ],
+          "de": [
+            "Die Zwiebeln fein hacken und mit Öl und Deckel bei kleiner Hitze in der Pfanne dünsten, bis eine weiche Creme entsteht.",
+            "Die Sardellen entsalzen, Gräten und Innereien entfernen, zu den Zwiebeln geben und unter Rühren zergehen lassen.",
+            "Die Bigoli in reichlich Salzwasser kochen; eine Minute vor der angegebenen Zeit abgießen und eine halbe Kelle Kochwasser aufheben.",
+            "Die Pasta mit der Soße in der Pfanne schwenken, etwas Kochwasser zum Binden hinzugeben und sofort servieren."
+          ],
+          "es": [
+            "Pica finamente las cebollas y rehógalas despacio en una sartén con el aceite y la tapa hasta obtener una crema suave.",
+            "Desala las anchoas, quita espinas y vísceras, añádelas a la cebolla y remueve hasta que se deshagan.",
+            "Cuece los bigoli en mucha agua con sal; escúrrelos un minuto antes del tiempo indicado y guarda medio cazo de agua de cocción.",
+            "Saltea la pasta en la sartén con la salsa, añade un poco de agua de cocción para ligarla y sirve enseguida."
+          ]
+        }
+      }
+    },
+    {
+      "id": "zaeti",
+      "nome": "Zaeti",
+      "portata": "dolce",
+      "testo": {
+        "it": "Biscotti di farina di mais gialla, burro, uova e uvetta ammollata nel rum o nella grappa, a forma di rombo. Friabili, si accompagnano al caffè o al vin santo.",
+        "en": "Biscuits of yellow cornmeal, butter, eggs and raisins soaked in rum or grappa, shaped as diamonds. Crumbly and crisp, they go well with coffee or vin santo.",
+        "fr": "Biscuits de farine de maïs jaune, beurre, œufs et raisins secs trempés dans le rhum ou la grappa, en forme de losange. Friables, ils accompagnent bien un café ou un vin santo.",
+        "de": "Kekse aus gelbem Maismehl, Butter, Eiern und in Rum oder Grappa eingelegten Rosinen, rautenförmig. Mürbe und knusprig; passen gut zu Kaffee oder Vin Santo.",
+        "es": "Galletas de harina de maíz amarilla, mantequilla, huevos y pasas remojadas en ron o grappa, con forma de rombo. Quebradizas, van bien con café o vin santo."
+      },
+      "ricetta": {
+        "fonte": "https://blog.giallozafferano.it/annatorte/ricetta-zaleti-o-zaeti-i-biscotti-veneziani/",
+        "porzioni": 8,
+        "preparazione": {
+          "it": "15 min + 15 min di cottura a 190 °C",
+          "en": "15 min + 15 min baking at 190 °C",
+          "fr": "15 min + 15 min de cuisson à 190 °C",
+          "de": "15 Min. + 15 Min. Backzeit bei 190 °C",
+          "es": "15 min + 15 min de horno a 190 °C"
+        },
+        "ingredienti": {
+          "it": [
+            "180 g di farina di mais fioretto",
+            "180 g di farina 00",
+            "120 g di burro",
+            "120 g di zucchero",
+            "80 g di uvetta",
+            "Grappa o rum q.b.",
+            "Un pizzico di sale",
+            "Mezza bustina di lievito in polvere per dolci",
+            "1 cucchiaino di scorza di limone",
+            "2 uova",
+            "1 tuorlo"
+          ],
+          "en": [
+            "180 g fine yellow cornmeal",
+            "180 g 00 flour",
+            "120 g butter",
+            "120 g sugar",
+            "80 g raisins",
+            "Grappa or rum as needed",
+            "A pinch of salt",
+            "Half a sachet of baking powder",
+            "1 teaspoon grated lemon zest",
+            "2 eggs",
+            "1 egg yolk"
+          ],
+          "fr": [
+            "180 g de farine de maïs fine",
+            "180 g de farine 00",
+            "120 g de beurre",
+            "120 g de sucre",
+            "80 g de raisins secs",
+            "Grappa ou rhum selon besoin",
+            "Une pincée de sel",
+            "Une demi-sachet de levure chimique",
+            "1 cuillère à café de zeste de citron râpé",
+            "2 œufs",
+            "1 jaune d'œuf"
+          ],
+          "de": [
+            "180 g feines gelbes Maismehl",
+            "180 g Mehl Typ 00",
+            "120 g Butter",
+            "120 g Zucker",
+            "80 g Rosinen",
+            "Grappa oder Rum nach Bedarf",
+            "Eine Prise Salz",
+            "Eine halbe Tüte Backpulver",
+            "1 TL geriebene Zitronenschale",
+            "2 Eier",
+            "1 Eigelb"
+          ],
+          "es": [
+            "180 g de harina de maíz fina amarilla",
+            "180 g de harina 00",
+            "120 g de mantequilla",
+            "120 g de azúcar",
+            "80 g de pasas",
+            "Grappa o ron según necesidad",
+            "Una pizca de sal",
+            "Medio sobre de levadura en polvo",
+            "1 cucharadita de ralladura de limón",
+            "2 huevos",
+            "1 yema de huevo"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Unisci le due farine con zucchero, sale e lievito.",
+            "Metti l'uvetta a bagno nella grappa o nel rum.",
+            "Lavora il burro a pezzetti con le dita fino a ottenere una sabbia grossolana, poi aggiungi uova, tuorlo e scorza di limone.",
+            "Strizza l'uvetta e incorporala all'impasto.",
+            "Forma cordoncini di circa 3 cm, tagliali a 4 cm e dai loro forma di rombo pizzicando i bordi.",
+            "Disponili distanziati su una teglia con carta forno e cuoci in forno statico a 190 °C per circa 15 minuti, finché sono asciutti ma ancora gialli."
+          ],
+          "en": [
+            "Mix the two flours with sugar, salt and baking powder.",
+            "Soak the raisins in grappa or rum.",
+            "Rub the butter into the flours with your fingertips until coarse sand, then add the eggs, yolk and lemon zest.",
+            "Squeeze the raisins and work them into the dough.",
+            "Shape into ropes about 3 cm thick, cut into 4 cm pieces and pinch the edges into diamond shapes.",
+            "Space them out on a tray lined with baking paper and bake in a static oven at 190 °C for about 15 minutes, until slightly puffed and dry but still yellow."
+          ],
+          "fr": [
+            "Mélangez les deux farines avec le sucre, le sel et la levure.",
+            "Faites tremper les raisins dans la grappa ou le rhum.",
+            "Incorporez le beurre aux farines du bout des doigts jusqu'à obtenir un sable grossier, puis ajoutez les œufs, le jaune et le zeste de citron.",
+            "Essorez les raisins et incorporez-les à la pâte.",
+            "Formez des cordons d'environ 3 cm, coupez-les en morceaux de 4 cm et pincez les bords pour leur donner une forme de losange.",
+            "Disposez-les espacés sur une plaque couverte de papier cuisson et cuisez au four statique à 190 °C pendant environ 15 minutes, jusqu'à ce qu'ils soient secs mais encore jaunes."
+          ],
+          "de": [
+            "Beide Mehle mit Zucker, Salz und Backpulver vermischen.",
+            "Die Rosinen in Grappa oder Rum einweichen.",
+            "Die Butter mit den Fingern in das Mehl einarbeiten, bis ein grober Sand entsteht; dann Eier, Eigelb und Zitronenschale dazugeben.",
+            "Die Rosinen ausdrücken und unter den Teig kneten.",
+            "Stränge von etwa 3 cm formen, in 4 cm lange Stücke schneiden und die Ränder zu Rauten zusammendrücken.",
+            "Mit Abstand auf einem mit Backpapier belegten Blech verteilen und im Ober-/Unterhitze-Ofen bei 190 °C etwa 15 Minuten backen, bis sie trocken, aber noch gelb sind."
+          ],
+          "es": [
+            "Mezcla las dos harinas con el azúcar, la sal y la levadura.",
+            "Pon las pasas en remojo en grappa o ron.",
+            "Frota la mantequilla con las harinas con las yemas de los dedos hasta obtener una arena gruesa; añade luego los huevos, la yema y la ralladura de limón.",
+            "Escurre las pasas y amásalas con la masa.",
+            "Forma cordones de unos 3 cm, córtalos en trozos de 4 cm y pellizca los bordes para darles forma de rombo.",
+            "Colócalos separados en una bandeja con papel de horno y hornea en horno estático a 190 °C unos 15 minutos, hasta que estén secos pero aún amarillos."
+          ]
+        }
+      },
+      "foto": {
+        "file": "zaeti.webp",
+        "autore": "Opera propria",
+        "licenza": "Opera propria",
+        "fonte": null
+      }
+    },
+    {
+      "id": "essi-buranelli",
+      "nome": "Essi buranelli",
+      "portata": "dolce",
+      "testo": {
+        "it": "Biscotti tipici di Burano: nella versione a S si chiamano essi (esse buranei), nella versione ad anello busolai o buranei. Sono friabili e si conservano a lungo.",
+        "en": "Biscuits from Burano: in the S shape they are called essi (esse buranei), in the ring shape busolai or buranei. Crumbly, and they keep for a long time.",
+        "fr": "Biscuits de Burano : en forme de S, on les appelle essi (esse buranei), en forme d'anneau busolai ou buranei. Friables, ils se conservent longtemps.",
+        "de": "Kekse aus Burano: In S-Form heißen sie essi (esse buranei), in Ringform busolai oder buranei. Mürbe und lange haltbar.",
+        "es": "Galletas de Burano: en forma de S se llaman essi (esse buranei), en forma de anillo busolai o buranei. Quebradizas y de larga conservación."
+      },
+      "foto": {
+        "file": "essi-buranelli.webp",
+        "autore": "Opera propria",
+        "licenza": "Opera propria",
+        "fonte": null
+      },
+      "ricetta": {
+        "fonte": "https://blog.giallozafferano.it/cucinoperpassione/buranei-busolai/",
+        "preparazione": {
+          "it": "10 min + 30 min di riposo + circa 20 min di cottura a 180 °C",
+          "en": "10 min + 30 min rest + about 20 min baking at 180 °C",
+          "fr": "10 min + 30 min de repos + environ 20 min de cuisson à 180 °C",
+          "de": "10 Min. + 30 Min. Ruhezeit + etwa 20 Min. Backzeit bei 180 °C",
+          "es": "10 min + 30 min de reposo + unos 20 min de horno a 180 °C"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di farina",
+            "6 tuorli",
+            "250 g di zucchero",
+            "150 g di burro a temperatura ambiente",
+            "1 bustina di vanillina",
+            "Rum q.b.",
+            "Un pizzico di sale",
+            "Scorza di 1 limone"
+          ],
+          "en": [
+            "500 g flour",
+            "6 egg yolks",
+            "250 g sugar",
+            "150 g butter at room temperature",
+            "1 sachet vanilla sugar",
+            "Rum as needed",
+            "A pinch of salt",
+            "Zest of 1 lemon"
+          ],
+          "fr": [
+            "500 g de farine",
+            "6 jaunes d'œufs",
+            "250 g de sucre",
+            "150 g de beurre à température ambiante",
+            "1 sachet de vanilline",
+            "Rhum selon besoin",
+            "Une pincée de sel",
+            "Zeste d'1 citron"
+          ],
+          "de": [
+            "500 g Mehl",
+            "6 Eigelb",
+            "250 g Zucker",
+            "150 g Butter, Zimmertemperatur",
+            "1 Päckchen Vanillin",
+            "Rum nach Bedarf",
+            "Eine Prise Salz",
+            "Schale von 1 Zitrone"
+          ],
+          "es": [
+            "500 g de harina",
+            "6 yemas de huevo",
+            "250 g de azúcar",
+            "150 g de mantequilla a temperatura ambiente",
+            "1 sobre de vainillina",
+            "Ron según necesidad",
+            "Una pizca de sal",
+            "Ralladura de 1 limón"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sbatti leggermente i tuorli con lo zucchero.",
+            "Disponi la farina a fontana, metti al centro il burro a pezzi e lavora con le mani, poi aggiungi il composto di uova, la vanillina, il rum e la scorza.",
+            "Impasta velocemente, forma una palla e lasciala riposare in frigorifero per almeno 30 minuti.",
+            "Scalda il forno statico a 180 °C con la teglia foderata di carta forno.",
+            "Ricava cordoncini di 25-30 cm e chiudili ad anello (busolai) oppure di circa 15 cm e dai loro la forma di una esse (essi).",
+            "Inforna per circa 20 minuti, finché sono dorati ma non scuri, e lasciali raffreddare nella teglia: induriscono man mano."
+          ],
+          "en": [
+            "Lightly beat the yolks with the sugar.",
+            "Make a well with the flour, put the butter in pieces in the middle and work with your hands, then add the egg mixture, vanilla, rum, salt and lemon zest, and knead quickly.",
+            "Form a ball, wrap it in cling film and refrigerate for at least 30 minutes.",
+            "Preheat the static oven to 180 °C with a tray lined with baking paper.",
+            "Roll out ropes 25–30 cm long and close them into rings (busolai), or about 15 cm long and shape them into an S (essi).",
+            "Bake for about 20 minutes, until golden but not dark, then let them cool on the tray: they harden as they cool."
+          ],
+          "fr": [
+            "Battez légèrement les jaunes avec le sucre.",
+            "Faites une fontaine avec la farine, mettez le beurre en morceaux au centre et travaillez à la main ; ajoutez le mélange d'œufs, la vanilline, le rhum, le sel et le zeste, puis pétrissez rapidement.",
+            "Formez une boule, filmez-la et réfrigérez-la au moins 30 minutes.",
+            "Préchauffez le four statique à 180 °C, avec une plaque couverte de papier cuisson.",
+            "Roulez des cordons de 25 à 30 cm et refermez-les en anneaux (busolai), ou de 15 cm environ et façonnez-les en S (essi).",
+            "Enfournez environ 20 minutes, jusqu'à ce qu'ils soient dorés sans être foncés, puis laissez-les refroidir sur la plaque : ils durcissent en refroidissant."
+          ],
+          "de": [
+            "Die Eigelbe mit dem Zucker leicht verrühren.",
+            "Das Mehl zu einem Berg aufhäufen, die Butter in Stücken in die Mitte geben und mit den Händen verarbeiten; dann die Eimischung, Vanillin, Rum, Salz und Zitronenschale dazugeben und schnell kneten.",
+            "Eine Kugel formen, in Frischhaltefolie wickeln und mindestens 30 Minuten kalt stellen.",
+            "Den Ofen auf 180 °C Ober-/Unterhitze vorheizen, ein Blech mit Backpapier belegen.",
+            "Stränge von 25–30 cm rollen und zu Ringen schließen (busolai), oder etwa 15 cm lang und zu einem S formen (essi).",
+            "Etwa 20 Minuten backen, bis sie goldgelb, aber nicht dunkel sind, und auf dem Blech abkühlen lassen: Sie werden beim Abkühlen fest."
+          ],
+          "es": [
+            "Bate ligeramente las yemas con el azúcar.",
+            "Haz un volcán con la harina, pon la mantequilla en trozos en el centro y trabaja con las manos; añade luego la mezcla de huevo, la vainillina, el ron, la sal y la ralladura, y amasa rápidamente.",
+            "Forma una bola, envuélvela en film y refrigera al menos 30 minutos.",
+            "Precalienta el horno estático a 180 °C con la bandeja cubierta de papel de horno.",
+            "Forma cordones de 25–30 cm y ciérralos en anillos (busolai), o de unos 15 cm y dales forma de S (essi).",
+            "Hornea unos 20 minutos, hasta que estén dorados pero no oscuros, y deja enfriar en la bandeja: se endurecen al enfriarse."
+          ]
+        },
+        "resa": {
+          "it": "circa 20 biscotti",
+          "en": "about 20 biscuits",
+          "fr": "environ 20 biscuits",
+          "de": "etwa 20 Kekse",
+          "es": "unas 20 galletas"
+        }
+      }
+    },
+    {
+      "id": "seppie-in-nero",
+      "nome": "Seppie in nero",
+      "portata": "secondo",
+      "testo": {
+        "it": "Seppie cotte nel proprio inchiostro, con cipolla, vino bianco e prezzemolo: si servono con la polenta.",
+        "en": "Cuttlefish braised in its own ink, with onion, white wine and parsley; served with polenta.",
+        "fr": "Seiches braisées dans leur propre encre, avec oignon, vin blanc et persil ; servies avec de la polenta.",
+        "de": "In der eigenen Tinte geschmorte Tintenfische mit Zwiebel, Weißwein und Petersilie; dazu Polenta.",
+        "es": "Sepia guisada en su propia tinta, con cebolla, vino blanco y perejil; se sirve con polenta."
+      },
+      "foto": {
+        "file": "Risotto Al Nero Di Seppia in Hong Kong.jpg",
+        "autore": "Ceeseven",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Risotto_Al_Nero_Di_Seppia_in_Hong_Kong.jpg"
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "1 h 15 min",
+          "en": "1 h 15 min",
+          "fr": "1 h 15 min",
+          "de": "1 Std. 15 Min.",
+          "es": "1 h 15 min"
+        },
+        "ingredienti": {
+          "it": [
+            "1 kg di seppie piccole con il loro inchiostro",
+            "1 cipolla bianca",
+            "1 spicchio d'aglio",
+            "4 cucchiai di olio extravergine d'oliva",
+            "100 ml di vino bianco",
+            "Prezzemolo tritato",
+            "Sale e pepe",
+            "Polenta, per servire"
+          ],
+          "en": [
+            "1 kg small cuttlefish with their ink",
+            "1 white onion",
+            "1 garlic clove",
+            "4 tablespoons extra virgin olive oil",
+            "100 ml white wine",
+            "Chopped parsley",
+            "Salt and pepper",
+            "Polenta, to serve"
+          ],
+          "fr": [
+            "1 kg de petites seiches avec leur encre",
+            "1 oignon blanc",
+            "1 gousse d'ail",
+            "4 cuillères à soupe d'huile d'olive extra vierge",
+            "100 ml de vin blanc",
+            "Persil haché",
+            "Sel et poivre",
+            "Polenta, pour servir"
+          ],
+          "de": [
+            "1 kg kleine Tintenfische mit ihrer Tinte",
+            "1 weiße Zwiebel",
+            "1 Knoblauchzehe",
+            "4 EL natives Olivenöl extra",
+            "100 ml Weißwein",
+            "Gehackte Petersilie",
+            "Salz und Pfeffer",
+            "Polenta zum Servieren"
+          ],
+          "es": [
+            "1 kg de sepias pequeñas con su tinta",
+            "1 cebolla blanca",
+            "1 diente de ajo",
+            "4 cucharadas de aceite de oliva virgen extra",
+            "100 ml de vino blanco",
+            "Perejil picado",
+            "Sal y pimienta",
+            "Polenta, para servir"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Pulisci le seppie, togli occhi, becco e osso; tieni da parte le sacche di inchiostro e taglia il corpo a striscioline.",
+            "Soffriggi la cipolla e l'aglio tritati nell'olio a fuoco dolce, senza farli dorare.",
+            "Unisci le seppie, alza la fiamma e falle rosolare un paio di minuti, poi sfuma con il vino bianco.",
+            "Scioglie l'inchiostro in un bicchiere d'acqua e versalo sulle seppie. Copri e cuoci a fuoco basso per 45-60 minuti, aggiungendo poca acqua calda se si asciuga.",
+            "Quando sono tenere, sala, pepa, aggiungi il prezzemolo e servi con la polenta."
+          ],
+          "en": [
+            "Clean the cuttlefish, removing eyes, beak and bone; keep the ink sacs aside and cut the bodies into strips.",
+            "Gently soften the chopped onion and garlic in the oil, without browning them.",
+            "Add the cuttlefish, raise the heat and brown them for a couple of minutes, then deglaze with the white wine.",
+            "Dissolve the ink in a glass of water and pour it over the cuttlefish. Cover and cook on low heat for 45–60 minutes, adding a little warm water if it dries out.",
+            "When tender, season with salt and pepper, add the parsley and serve with polenta."
+          ],
+          "fr": [
+            "Nettoyez les seiches en retirant les yeux, le bec et l'os ; réservez les poches d'encre et coupez les corps en lanières.",
+            "Faites revenir doucement l'oignon et l'ail hachés dans l'huile, sans les dorer.",
+            "Ajoutez les seiches, augmentez le feu et faites-les saisir quelques minutes, puis déglacez avec le vin blanc.",
+            "Diluez l'encre dans un verre d'eau et versez-la sur les seiches. Couvrez et cuisez à feu doux 45 à 60 minutes, en ajoutant un peu d'eau chaude si cela sèche.",
+            "Une fois tendres, salez, poivrez, ajoutez le persil et servez avec la polenta."
+          ],
+          "de": [
+            "Die Tintenfische putzen, Augen, Schnabel und Schulp entfernen; die Tintenbeutel beiseitelegen und die Körper in Streifen schneiden.",
+            "Die gehackte Zwiebel und den Knoblauch in dem Öl bei milder Hitze weich dünsten, ohne sie zu bräunen.",
+            "Die Tintenfische hinzufügen, die Hitze erhöhen und ein paar Minuten anbraten, dann mit dem Weißwein ablöschen.",
+            "Die Tinte in einem Glas Wasser auflösen und über die Tintenfische gießen. Zugedeckt bei schwacher Hitze 45 bis 60 Minuten garen, bei Bedarf etwas warmes Wasser nachgießen.",
+            "Wenn sie zart sind, mit Salz und Pfeffer würzen, die Petersilie hinzufügen und mit der Polenta servieren."
+          ],
+          "es": [
+            "Limpia las sepias, quitando ojos, pico y hueso; reserva las bolsas de tinta y corta el cuerpo en tiras.",
+            "Rehoga la cebolla y el ajo picados en el aceite a fuego suave, sin dorarlos.",
+            "Añade las sepias, sube el fuego y dóralas un par de minutos; desglasa con el vino blanco.",
+            "Disuelve la tinta en un vaso de agua y viértela sobre las sepias. Tapa y cuece a fuego lento de 45 a 60 minutos, añadiendo un poco de agua caliente si se seca.",
+            "Cuando estén tiernas, sazona con sal y pimienta, añade el perejil y sirve con la polenta."
+          ]
+        }
+      }
+    },
+    {
+      "id": "risotto-uvetta",
+      "nome": "Risotto di uvetta",
+      "portata": "primo",
+      "testo": {
+        "it": "Riso con uvetta ammorbidita, cipolla e brodo, mantecato con burro e formaggio.",
+        "en": "Rice with plumped raisins, onion and broth, finished with butter and cheese.",
+        "fr": "Riz aux raisins secs gonflés, oignon et bouillon, lié au beurre et au fromage.",
+        "de": "Reis mit eingeweichten Rosinen, Zwiebel und Brühe, mit Butter und Käse verfeinert.",
+        "es": "Arroz con pasas remojadas, cebolla y caldo, terminado con mantequilla y queso."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "30 min",
+          "en": "30 min",
+          "fr": "30 min",
+          "de": "30 Min.",
+          "es": "30 min"
+        },
+        "ingredienti": {
+          "it": [
+            "320 g di riso Carnaroli o Arborio",
+            "80 g di uvetta",
+            "1 cipolla bianca piccola",
+            "50 g di burro",
+            "1 litro di brodo vegetale caldo",
+            "50 g di Parmigiano Reggiano grattugiato",
+            "Un bicchiere di vino bianco secco (facoltativo)",
+            "Sale"
+          ],
+          "en": [
+            "320 g Carnaroli or Arborio rice",
+            "80 g raisins",
+            "1 small white onion",
+            "50 g butter",
+            "1 litre hot vegetable broth",
+            "50 g grated Parmigiano Reggiano",
+            "A glass of dry white wine (optional)",
+            "Salt"
+          ],
+          "fr": [
+            "320 g de riz Carnaroli ou Arborio",
+            "80 g de raisins secs",
+            "1 petit oignon blanc",
+            "50 g de beurre",
+            "1 litre de bouillon de légumes chaud",
+            "50 g de Parmigiano Reggiano râpé",
+            "Un verre de vin blanc sec (facultatif)",
+            "Sel"
+          ],
+          "de": [
+            "320 g Carnaroli- oder Arborioreis",
+            "80 g Rosinen",
+            "1 kleine weiße Zwiebel",
+            "50 g Butter",
+            "1 Liter heiße Gemüsebrühe",
+            "50 g geriebener Parmigiano Reggiano",
+            "Ein Glas trockener Weißwein (optional)",
+            "Salz"
+          ],
+          "es": [
+            "320 g de arroz Carnaroli o Arborio",
+            "80 g de pasas",
+            "1 cebolla blanca pequeña",
+            "50 g de mantequilla",
+            "1 litro de caldo vegetal caliente",
+            "50 g de Parmigiano Reggiano rallado",
+            "Un vaso de vino blanco seco (opcional)",
+            "Sal"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Ammorbidisci l'uvetta in acqua tiepida per 15 minuti, poi strizzala.",
+            "Fai appassire la cipolla tritata in 30 g di burro a fuoco dolce.",
+            "Tosta il riso per un minuto, sfuma con il vino se lo usi, poi aggiungi il brodo caldo un mestolo alla volta.",
+            "A metà cottura unisci l'uvetta, poi continua finché il riso è al dente.",
+            "Togli dal fuoco, manteca con il burro restante e il Parmigiano, e servi subito."
+          ],
+          "en": [
+            "Soften the raisins in lukewarm water for 15 minutes, then squeeze them dry.",
+            "Gently soften the chopped onion in 30 g of butter over low heat.",
+            "Toast the rice for a minute, deglaze with the wine if using, then add the hot broth a ladle at a time.",
+            "Halfway through cooking, add the raisins, then continue until the rice is al dente.",
+            "Take off the heat, stir in the remaining butter and the Parmigiano, and serve at once."
+          ],
+          "fr": [
+            "Faites ramollir les raisins dans de l'eau tiède pendant 15 minutes, puis essorez-les.",
+            "Faites suer l'oignon haché dans 30 g de beurre à feu doux.",
+            "Faites griller le riz une minute, déglacez avec le vin si vous l'utilisez, puis ajoutez le bouillon chaud une louche à la fois.",
+            "À mi-cuisson, ajoutez les raisins, puis poursuivez jusqu'à ce que le riz soit al dente.",
+            "Retirez du feu, incorporez le beurre restant et le Parmigiano, et servez aussitôt."
+          ],
+          "de": [
+            "Die Rosinen 15 Minuten in lauwarmem Wasser einweichen, dann ausdrücken.",
+            "Die gehackte Zwiebel in 30 g Butter bei milder Hitze weich dünsten.",
+            "Den Reis eine Minute rösten, mit dem Wein ablöschen, falls verwendet, und dann die heiße Brühe nach und nach hinzugeben.",
+            "Zur Hälfte der Garzeit die Rosinen hinzufügen und weitergaren, bis der Reis bissfest ist.",
+            "Vom Herd nehmen, mit der restlichen Butter und dem Parmigiano verrühren und sofort servieren."
+          ],
+          "es": [
+            "Ablanda las pasas en agua tibia durante 15 minutos y escúrrelas.",
+            "Rehoga la cebolla picada en 30 g de mantequilla a fuego suave.",
+            "Tuesta el arroz un minuto, desglasa con el vino si lo usas y añade el caldo caliente un cucharón a la vez.",
+            "A mitad de la cocción, añade las pasas y sigue hasta que el arroz esté al dente.",
+            "Retira del fuego, incorpora la mantequilla restante y el Parmigiano, y sirve enseguida."
+          ]
+        }
+      },
+      "foto": {
+        "file": "risotto-uvetta.webp",
+        "autore": "Opera propria",
+        "licenza": "Opera propria",
+        "fonte": null
+      }
+    },
+    {
+      "id": "nervetti",
+      "nome": "Nervetti consi",
+      "portata": "cicchetto",
+      "testo": {
+        "it": "Nervetti di manzo bolliti e conditi con cipolla, prezzemolo, olio e aceto: un cicchetto da osteria, da mangiare tiepido o freddo.",
+        "en": "Boiled beef tendons dressed with onion, parsley, oil and vinegar: an osteria cicchetto, served warm or cold.",
+        "fr": "Nerfs de bœuf bouillis assaisonnés d'oignon, de persil, d'huile et de vinaigre : un cicchetto d'osteria, à servir tiède ou froid.",
+        "de": "Gekochte Rinderknorpel mit Zwiebel, Petersilie, Öl und Essig angemacht: ein Cicchetto aus der Osteria, lauwarm oder kalt serviert.",
+        "es": "Nervios de ternera cocidos aliñados con cebolla, perejil, aceite y vinagre: un cicchetto de osteria, para tomar tibio o frío."
+      },
+      "foto": {
+        "file": "Nervitt 02.jpg",
+        "autore": "user:SWT666",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Nervitt_02.jpg"
+      },
+      "ricetta": {
+        "fonte": "https://www.scattidigusto.it/a-tavola-con-gli-avi-nervetti-di-manzo-delle-osterie-venete",
+        "preparazione": {
+          "it": "3 ore di cottura + 10 min di riposo",
+          "en": "3 hours cooking + 10 min rest",
+          "fr": "3 h de cuisson + 10 min de repos",
+          "de": "3 Std. Garzeit + 10 Min. Ruhezeit",
+          "es": "3 h de cocción + 10 min de reposo"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di nervetti di manzo",
+            "3 cipolle bianche",
+            "30 g di prezzemolo",
+            "1/4 di bicchiere di olio extravergine d'oliva",
+            "2 cucchiai di aceto di vino bianco",
+            "Mezzo cucchiaino di zucchero",
+            "Sale e pepe"
+          ],
+          "en": [
+            "500 g beef nervetti",
+            "3 white onions",
+            "30 g parsley",
+            "1/4 glass extra virgin olive oil",
+            "2 tablespoons white wine vinegar",
+            "Half a teaspoon of sugar",
+            "Salt and pepper"
+          ],
+          "fr": [
+            "500 g de nervets de bœuf",
+            "3 oignons blancs",
+            "30 g de persil",
+            "1/4 de verre d'huile d'olive extra vierge",
+            "2 cuillères à soupe de vinaigre de vin blanc",
+            "1/2 cuillère à café de sucre",
+            "Sel et poivre"
+          ],
+          "de": [
+            "500 g Rinderknorpel (Nervetti)",
+            "3 weiße Zwiebeln",
+            "30 g Petersilie",
+            "1/4 Glas natives Olivenöl extra",
+            "2 EL Weißweinessig",
+            "1/2 TL Zucker",
+            "Salz und Pfeffer"
+          ],
+          "es": [
+            "500 g de nervios de ternera",
+            "3 cebollas blancas",
+            "30 g de perejil",
+            "1/4 de vaso de aceite de oliva virgen extra",
+            "2 cucharadas de vinagre de vino blanco",
+            "Medio cucharadita de azúcar",
+            "Sal y pimienta"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Lava i nervetti, mettili in acqua bollente salata con un cucchiaio d'aceto e cuoci a fuoco moderato per almeno 3 ore, schiumando spesso.",
+            "Scolali, tagliali a pezzetti e mettili in una terrina.",
+            "Affetta sottilmente le cipolle, cospargile con lo zucchero, lasciale riposare 10 minuti, poi sciacquale e falle sgocciolare.",
+            "Unisci le cipolle ai nervetti con il prezzemolo tritato, l'olio, l'aceto, pepe e poco sale. Mescola e lascia riposare."
+          ],
+          "en": [
+            "Rinse the nervetti, put them in boiling salted water with a spoonful of vinegar and simmer gently for at least 3 hours, skimming often.",
+            "Drain, cut into small pieces and place in a bowl.",
+            "Slice the onions thinly, sprinkle with the sugar, leave for 10 minutes, then rinse and drain.",
+            "Add the onions to the nervetti with the chopped parsley, oil, vinegar, pepper and a little salt. Mix and let rest."
+          ],
+          "fr": [
+            "Rincez les nervets, plongez-les dans de l'eau bouillante salée avec une cuillère de vinaigre et laissez mijoter doucement au moins 3 heures, en écumant souvent.",
+            "Égouttez-les, coupez-les en morceaux et placez-les dans un saladier.",
+            "Émincez finement les oignons, saupoudrez-les de sucre, laissez reposer 10 minutes, puis rincez-les et égouttez-les.",
+            "Ajoutez les oignons aux nervets avec le persil haché, l'huile, le vinaigre, le poivre et un peu de sel. Mélangez et laissez reposer."
+          ],
+          "de": [
+            "Die Nervetti waschen, in kochendes Salzwasser mit einem Löffel Essig geben und mindestens 3 Stunden bei mittlerer Hitze garen, dabei oft abschäumen.",
+            "Abgießen, in kleine Stücke schneiden und in eine Schüssel geben.",
+            "Die Zwiebeln dünn schneiden, mit dem Zucker bestreuen, 10 Minuten ruhen lassen, dann abspülen und abtropfen lassen.",
+            "Die Zwiebeln mit der gehackten Petersilie, dem Öl, dem Essig, Pfeffer und etwas Salz zu den Nervetti geben. Gut mischen und ruhen lassen."
+          ],
+          "es": [
+            "Lava los nervios, ponlos en agua hirviendo con sal y una cucharada de vinagre, y cuécelos a fuego moderado al menos 3 horas, espumando a menudo.",
+            "Escúrrelos, córtalos en trozos y ponlos en un cuenco.",
+            "Corta las cebollas en láminas finas, espolvoréalas con el azúcar, déjalas reposar 10 minutos, luego enjuágalas y escúrrelas.",
+            "Añade las cebollas a los nervios con el perejil picado, el aceite, el vinagre, la pimienta y un poco de sal. Mezcla y deja reposar."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dolce-san-martino",
+      "nome": "Dolce di San Martino",
+      "portata": "dolce",
+      "testo": {
+        "it": "Biscotto di pasta frolla a forma di cavaliere con mantello e spada, decorato con zucchero a velo, cioccolatini e confetti colorati. Si mangia la sera dell'11 novembre, durante la festa di San Martino, e si trova nelle pasticcerie veneziane da fine ottobre.",
+        "en": "Shortbread biscuit shaped like a horseback knight with a cloak and sword, decorated with icing sugar, chocolates and coloured sweets. It is eaten on the evening of 11 November, for the feast of St Martin, and appears in Venetian pastry shops from late October.",
+        "fr": "Biscuit sablé en forme de chevalier à cheval, avec manteau et épée, décoré de sucre glace, de chocolats et de confiseries colorées. On le mange le soir du 11 novembre, pour la fête de saint Martin, et on le trouve dans les pâtisseries vénitiennes dès la fin octobre.",
+        "de": "Mürbeteiggebäck in Form eines berittenen Ritters mit Umhang und Schwert, verziert mit Puderzucker, Pralinen und bunten Zuckerperlen. Man isst es am Abend des 11. November zum Fest des heiligen Martin; in Venedigs Konditoreien gibt es es ab Ende Oktober.",
+        "es": "Galleta de pastafrola con forma de caballero a caballo, con capa y espada, decorada con azúcar glas, bombones y confites de colores. Se come la noche del 11 de noviembre, en la fiesta de San Martín, y se encuentra en las pastelerías venecianas desde finales de octubre."
+      },
+      "ricetta": {
+        "preparazione": {
+          "it": "",
+          "en": "",
+          "fr": "",
+          "de": "",
+          "es": ""
+        },
+        "ingredienti": {
+          "it": [],
+          "en": [],
+          "fr": [],
+          "de": [],
+          "es": []
+        },
+        "passaggi": {
+          "it": [],
+          "en": [],
+          "fr": [],
+          "de": [],
+          "es": []
+        }
+      },
+      "foto": {
+        "file": "dolce-san-martino.webp",
+        "autore": "Opera propria",
+        "licenza": "Opera propria",
+        "fonte": null
+      }
+    },
+    {
+      "id": "baccala-mantecato",
+      "nome": "Baccalà mantecato",
+      "portata": "cicchetto",
+      "testo": {
+        "it": "Baccalà ammollato, cotto nel latte e poi montato con olio d'oliva e aglio fino a ottenere una crema soffice. Si serve su fettine di polenta o pane abbrustolito, tipico cicchetto veneziano. Curiosità: il nome «mantecato» viene dal verbo mantecare, cioè montare: la cremosità si ottiene battendo a lungo il pesce con l'olio.",
+        "en": "Dried salt cod, soaked, poached in milk and then whipped with olive oil and garlic into a fluffy cream. Served on slices of polenta or toasted bread, it is a classic Venetian cicchetto. Curiosity: «mantecato» comes from the verb mantecare, to whip: the creaminess comes from beating the fish with oil for a long time.",
+        "fr": "Morue salée, dessalée, pochée dans le lait puis fouettée avec de l'huile d'olive et de l'ail jusqu'à obtenir une crème légère. Servie sur des tranches de polenta ou de pain grillé, c'est un cicchetto vénitien classique. Curiosité : « mantecato » vient du verbe mantecare, fouetter : l'onctuosité vient du battage prolongé du poisson avec l'huile.",
+        "de": "Gesalzener Stockfisch, eingeweicht, in Milch pochiert und dann mit Olivenöl und Knoblauch zu einer luftigen Creme aufgeschlagen. Serviert auf Polentascheiben oder geröstetem Brot, ein klassisches venezianisches Cicchetto. Kuriosität: «mantecato» kommt vom Verb mantecare, schlagen: Die Cremigkeit entsteht durch langes Schlagen des Fischs mit dem Öl.",
+        "es": "Bacalao salado, desalado, escalfado en leche y luego batido con aceite de oliva y ajo hasta obtener una crema esponjosa. Se sirve sobre rodajas de polenta o pan tostado; es un cicchetto veneciano clásico. Curiosidad: «mantecato» viene del verbo mantecare, batir: la cremosidad se logra batiendo mucho tiempo el pescado con el aceite."
+      },
+      "ricetta": {
+        "porzioni": 6,
+        "preparazione": {
+          "it": "1 ora + ammollo del baccalà (2 giorni)",
+          "en": "1 hour + 2 days soaking",
+          "fr": "1 h + 2 jours de trempage",
+          "de": "1 Std. + 2 Tage Einweichen",
+          "es": "1 h + 2 días de remojo"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di baccalà già ammollato (o 250 g secco)",
+            "500 ml di latte",
+            "2 spicchi d'aglio",
+            "250 ml di olio extravergine d'oliva",
+            "1 foglia di alloro",
+            "Prezzemolo tritato, pepe bianco",
+            "Polenta o pane abbrustolito per servire"
+          ],
+          "en": [
+            "500 g soaked salt cod (or 250 g dried)",
+            "500 ml milk",
+            "2 garlic cloves",
+            "250 ml extra virgin olive oil",
+            "1 bay leaf",
+            "Chopped parsley, white pepper",
+            "Polenta or toasted bread to serve"
+          ],
+          "fr": [
+            "500 g de morue dessalée (ou 250 g séchée)",
+            "500 ml de lait",
+            "2 gousses d'ail",
+            "250 ml d'huile d'olive extra vierge",
+            "1 feuille de laurier",
+            "Persil haché, poivre blanc",
+            "Polenta ou pain grillé pour servir"
+          ],
+          "de": [
+            "500 g eingeweichter Stockfisch (oder 250 g getrocknet)",
+            "500 ml Milch",
+            "2 Knoblauchzehen",
+            "250 ml Olivenöl extra vergine",
+            "1 Lorbeerblatt",
+            "Gehackte Petersilie, weißer Pfeffer",
+            "Polenta oder geröstetes Brot zum Servieren"
+          ],
+          "es": [
+            "500 g de bacalao desalado (o 250 g seco)",
+            "500 ml de leche",
+            "2 dientes de ajo",
+            "250 ml de aceite de oliva virgen extra",
+            "1 hoja de laurel",
+            "Perejil picado, pimienta blanca",
+            "Polenta o pan tostado para servir"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Ammolla il baccalà in acqua fredda per 2 giorni, cambiando l'acqua spesso; poi toglile spine e pelle.",
+            "Cuoci il baccalà nel latte con alloro e uno spicchio d'aglio a fuoco dolce per circa 15 minuti, senza bollire.",
+            "Scola il pesce e sfaldalo con una forchetta, togliendo eventuali spine.",
+            "Monta il baccalà con l'olio a filo, aggiungendo poco latte di cottura e aglio tritato, fino a una crema soffice.",
+            "Servi su polenta o pane abbrustolito con prezzemolo e pepe bianco."
+          ],
+          "en": [
+            "Soak the salt cod in cold water for 2 days, changing the water often; then remove bones and skin.",
+            "Poach the cod in the milk with bay and a garlic clove over low heat for about 15 minutes, without boiling.",
+            "Drain the fish and flake it with a fork, removing any bones.",
+            "Whip the cod with the oil in a thin stream, adding a little of the cooking milk and chopped garlic, until light and fluffy.",
+            "Serve on polenta or toasted bread with parsley and white pepper."
+          ],
+          "fr": [
+            "Faites dessaler la morue dans l'eau froide pendant 2 jours, en changeant souvent l'eau ; retirez ensuite arêtes et peau.",
+            "Pochez la morue dans le lait avec le laurier et une gousse d'ail à feu doux pendant environ 15 minutes, sans bouillir.",
+            "Égouttez le poisson et émiettez-le à la fourchette, en retirant les arêtes restantes.",
+            "Fouettez la morue avec l'huile en filet, en ajoutant un peu de lait de cuisson et l'ail haché, jusqu'à obtenir une crème légère.",
+            "Servez sur la polenta ou le pain grillé avec du persil et du poivre blanc."
+          ],
+          "de": [
+            "Den Stockfisch 2 Tage in kaltem Wasser wässern, das Wasser oft wechseln; dann Gräten und Haut entfernen.",
+            "Den Fisch mit Lorbeer und einer Knoblauchzehe bei schwacher Hitze etwa 15 Minuten in der Milch ziehen lassen, nicht kochen.",
+            "Den Fisch abgießen und mit der Gabel zerpflücken, dabei letzte Gräten entfernen.",
+            "Den Fisch mit dem Öl in dünnem Strahl aufschlagen, etwas Kochmilch und gehackten Knoblauch zugeben, bis eine luftige Creme entsteht.",
+            "Auf Polenta oder geröstetem Brot mit Petersilie und weißem Pfeffer servieren."
+          ],
+          "es": [
+            "Desala el bacalao en agua fría durante 2 días, cambiando el agua a menudo; luego quita espinas y piel.",
+            "Escalfa el bacalao en la leche con laurel y un diente de ajo a fuego lento unos 15 minutos, sin hervir.",
+            "Escurre el pescado y desmenúzalo con un tenedor, quitando las espinas que queden.",
+            "Bate el bacalao con el aceite en hilo fino, añadiendo un poco de leche de cocción y el ajo picado, hasta obtener una crema ligera.",
+            "Sirve sobre polenta o pan tostado con perejil y pimienta blanca."
+          ]
+        }
+      },
+      "foto": {
+        "file": "baccala-mantecato.webp",
+        "autore": "Benreis",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/User:Benreis"
+      }
+    },
+    {
+      "id": "risi-e-bisi",
+      "nome": "Risi e bisi",
+      "portata": "primo",
+      "testo": {
+        "it": "Risotto semplice con piselli freschi, cotto in brodo di prosciutto e mantecato con burro e Parmigiano. È il piatto della festa di San Marco (25 aprile) e il simbolo della primavera veneziana. Curiosità: il doge offriva un piatto di risi e bisi il 25 aprile, in occasione della festa del patrono, e la tradizione continua ancora oggi.",
+        "en": "A simple risotto with fresh peas, cooked in ham broth and mantecato with butter and Parmesan. It is the dish of the feast of Saint Mark (25 April) and a symbol of spring in Venice. Curiosity: on 25 April the Doge offered a dish of risi e bisi for the patron saint's feast, and the custom continues today.",
+        "fr": "Un risotto simple aux petits pois frais, cuit dans un bouillon de jambon et mantecato au beurre et au Parmesan. C'est le plat de la fête de saint Marc (25 avril) et le symbole du printemps vénitien. Curiosité : le 25 avril, le doge offrait un plat de risi e bisi pour la fête du patron, et la coutume perdure aujourd'hui.",
+        "de": "Ein einfaches Risotto mit frischen Erbsen, in Schinkenbrühe gegart und mit Butter und Parmesan mantecato. Es ist das Gericht zum Fest des heiligen Markus (25. April) und ein Symbol des venezianischen Frühlings. Kuriosität: Am 25. April bot der Doge zum Fest des Stadtpatrons ein Gericht Risi e bisi an, und der Brauch lebt bis heute fort.",
+        "es": "Un risotto sencillo con guisantes frescos, cocido en caldo de jamón y mantecado con mantequilla y Parmesano. Es el plato de la fiesta de san Marcos (25 de abril) y símbolo de la primavera veneciana. Curiosidad: el 25 de abril el dux ofrecía un plato de risi e bisi en la fiesta del patrón, y la costumbre sigue hoy."
+      },
+      "ricetta": {
+        "porzioni": 4,
+        "preparazione": {
+          "it": "45 min",
+          "en": "45 min",
+          "fr": "45 min",
+          "de": "45 Min.",
+          "es": "45 min"
+        },
+        "ingredienti": {
+          "it": [
+            "300 g di riso Vialone Nano o Carnaroli",
+            "500 g di piselli freschi (o 300 g surgelati)",
+            "1 litro di brodo leggero di carne o di prosciutto",
+            "50 g di pancetta affumicata",
+            "1 scalogno",
+            "50 g di burro, 50 g di Parmigiano grattugiato",
+            "Prezzemolo tritato, sale e pepe"
+          ],
+          "en": [
+            "300 g Vialone Nano or Carnaroli rice",
+            "500 g fresh peas (or 300 g frozen)",
+            "1 litre light meat or ham broth",
+            "50 g smoked pancetta",
+            "1 shallot",
+            "50 g butter, 50 g grated Parmesan",
+            "Chopped parsley, salt and pepper"
+          ],
+          "fr": [
+            "300 g de riz Vialone Nano ou Carnaroli",
+            "500 g de petits pois frais (ou 300 g surgelés)",
+            "1 litre de bouillon léger de viande ou de jambon",
+            "50 g de pancetta fumée",
+            "1 échalote",
+            "50 g de beurre, 50 g de Parmesan râpé",
+            "Persil haché, sel et poivre"
+          ],
+          "de": [
+            "300 g Vialone-Nano- oder Carnaroli-Reis",
+            "500 g frische Erbsen (oder 300 g TK)",
+            "1 Liter leichte Fleisch- oder Schinkenbrühe",
+            "50 g geräucherte Pancetta",
+            "1 Schalotte",
+            "50 g Butter, 50 g geriebener Parmesan",
+            "Gehackte Petersilie, Salz und Pfeffer"
+          ],
+          "es": [
+            "300 g de arroz Vialone Nano o Carnaroli",
+            "500 g de guisantes frescos (o 300 g congelados)",
+            "1 litro de caldo ligero de carne o jamón",
+            "50 g de panceta ahumada",
+            "1 chalota",
+            "50 g de mantequilla, 50 g de Parmesano rallado",
+            "Perejil picado, sal y pimienta"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Tieni il brodo caldo. Sgrana i piselli, tenendone da parte qualcuno per la fine.",
+            "Fai rosolare la pancetta e lo scalogno nel burro, poi aggiungi metà dei piselli e falli insaporire.",
+            "Tosta il riso per un minuto, poi aggiungi il brodo un mestolo alla volta per circa 16 minuti, unendo gli ultimi piselli a metà cottura.",
+            "Manteca fuori dal fuoco con burro e Parmigiano, aggiusta di sale e pepe e cospargi di prezzemolo."
+          ],
+          "en": [
+            "Keep the stock hot. Shell the peas, keeping a few aside for the end.",
+            "Brown the pancetta and shallot in butter, then add half the peas and let them flavour the pan.",
+            "Toast the rice for a minute, then add the stock a ladle at a time for about 16 minutes, adding the last peas halfway through.",
+            "Mantecare off the heat with butter and Parmesan, adjust salt and pepper and sprinkle with parsley."
+          ],
+          "fr": [
+            "Gardez le bouillon chaud. Écossez les petits pois en réservant quelques-uns pour la fin.",
+            "Faites dorer la pancetta et l'échalote dans le beurre, puis ajoutez la moitié des petits pois.",
+            "Faites torréfier le riz une minute, puis ajoutez le bouillon une louche à la fois pendant environ 16 minutes, en ajoutant les derniers petits pois à mi-cuisson.",
+            "Mantecate hors du feu avec le beurre et le Parmesan, rectifiez le sel et le poivre et saupoudrez de persil."
+          ],
+          "de": [
+            "Die Brühe heiß halten. Die Erbsen auspalen und einige für später beiseitelegen.",
+            "Pancetta und Schalotte in Butter anbraten, dann die Hälfte der Erbsen dazugeben und würzen lassen.",
+            "Den Reis eine Minute anrösten, dann die Brühe nach und nach etwa 16 Minuten zugeben, die restlichen Erbsen zur Halbzeit dazugeben.",
+            "Vom Herd nehmen, mit Butter und Parmesan mantecare, mit Salz und Pfeffer abschmecken und mit Petersilie bestreuen."
+          ],
+          "es": [
+            "Mantén el caldo caliente. Desgrana los guisantes, reservando algunos para el final.",
+            "Dora la panceta y la chalota en mantequilla, luego añade la mitad de los guisantes y déjalos aromatizar.",
+            "Tuesta el arroz un minuto, luego añade el caldo poco a poco durante unos 16 minutos, incorporando los últimos guisantes a mitad de cocción.",
+            "Mantecar fuera del fuego con mantequilla y Parmesano, ajusta sal y pimienta y espolvorea con perejil."
+          ]
+        }
+      },
+      "foto": {
+        "file": "risi-e-bisi.webp",
+        "autore": "Charles Haynes",
+        "licenza": "CC BY-SA 2.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=36179542"
+      }
+    },
+    {
+      "id": "fritole-veneziane",
+      "nome": "Fritole veneziane",
+      "portata": "dolce",
+      "testo": {
+        "it": "Frittelle dolci di pasta lievitata con uvetta, pinoli e scorza d'arancia, fritte nell'olio e spolverate di zucchero a velo. Si preparano soprattutto nel periodo di Carnevale. Curiosità: nel Settecento le fritole erano vendute nelle calli durante il Carnevale, e ancora oggi ogni pasticceria le prepara per le feste.",
+        "en": "Sweet fried dough balls with raisins, pine nuts and orange zest, fried in oil and dusted with icing sugar. They are made especially during Carnival. Curiosity: in the 18th century fritole were sold in the calli during Carnival, and every pastry shop still makes them for the festivities.",
+        "fr": "Beignets sucrés en pâte levée aux raisins secs, pignons et zeste d'orange, frits à l'huile et saupoudrés de sucre glace. On les prépare surtout pendant le Carnaval. Curiosité : au XVIIIe siècle, les fritole se vendaient dans les calli pendant le Carnaval, et chaque pâtisserie continue de les préparer pour les fêtes.",
+        "de": "Süße, frittierte Hefeteigbällchen mit Rosinen, Pinienkernen und Orangenschale, in Öl gebacken und mit Puderzucker bestreut. Sie werden vor allem während des Karnevals gemacht. Kuriosität: Im 18. Jahrhundert wurden Fritole während des Karnevals in den Gassen verkauft, und jede Konditorei bereitet sie noch heute zu den Festen zu.",
+        "es": "Buñuelos dulces de masa levada con pasas, piñones y piel de naranja, fritos en aceite y espolvoreados con azúcar glas. Se preparan sobre todo durante el Carnaval. Curiosidad: en el siglo XVIII se vendían fritole por las calli durante el Carnaval, y todas las pastelerías siguen haciéndolas en las fiestas."
+      },
+      "ricetta": {
+        "porzioni": 8,
+        "preparazione": {
+          "it": "1 ora + 2 ore di lievitazione",
+          "en": "1 hour + 2 hours rising",
+          "fr": "1 h + 2 h de levée",
+          "de": "1 Std. + 2 Std. Gehzeit",
+          "es": "1 h + 2 h de levado"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di farina 00",
+            "25 g di lievito di birra fresco",
+            "100 g di zucchero",
+            "2 uova",
+            "100 ml di latte tiepido",
+            "50 g di burro morbido",
+            "80 g di uvetta, 40 g di pinoli",
+            "Scorza grattugiata di 1 arancia, un pizzico di sale",
+            "Olio di semi per friggere, zucchero a velo"
+          ],
+          "en": [
+            "500 g 00 flour",
+            "25 g fresh brewer's yeast",
+            "100 g sugar",
+            "2 eggs",
+            "100 ml lukewarm milk",
+            "50 g softened butter",
+            "80 g raisins, 40 g pine nuts",
+            "Grated zest of 1 orange, a pinch of salt",
+            "Seed oil for frying, icing sugar"
+          ],
+          "fr": [
+            "500 g de farine 00",
+            "25 g de levure fraîche",
+            "100 g de sucre",
+            "2 œufs",
+            "100 ml de lait tiède",
+            "50 g de beurre mou",
+            "80 g de raisins secs, 40 g de pignons",
+            "Zeste râpé d'1 orange, une pincée de sel",
+            "Huile de pépins pour friture, sucre glace"
+          ],
+          "de": [
+            "500 g Mehl Typ 00",
+            "25 g frische Hefe",
+            "100 g Zucker",
+            "2 Eier",
+            "100 ml lauwarme Milch",
+            "50 g weiche Butter",
+            "80 g Rosinen, 40 g Pinienkerne",
+            "Geriebene Schale von 1 Orange, eine Prise Salz",
+            "Speiseöl zum Frittieren, Puderzucker"
+          ],
+          "es": [
+            "500 g de harina 00",
+            "25 g de levadura fresca",
+            "100 g de azúcar",
+            "2 huevos",
+            "100 ml de leche tibia",
+            "50 g de mantequilla blanda",
+            "80 g de pasas, 40 g de piñones",
+            "Ralladura de 1 naranja, una pizca de sal",
+            "Aceite de girasol para freír, azúcar glas"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sciogli il lievito nel latte tiepido con un cucchiaio di zucchero e metà della farina; lascia lievitare 20 minuti.",
+            "Aggiungi uova, zucchero, sale, scorza e burro, poi il resto della farina, fino a un impasto morbido e appiccicoso.",
+            "Fai lievitare coperto per circa 2 ore, fino al raddoppio.",
+            "Incorpora uvetta ammollata e pinoli, poi forma palline con due cucchiai.",
+            "Friggi in olio a 170 °C finché sono dorate, scolale su carta e spolvera con zucchero a velo."
+          ],
+          "en": [
+            "Dissolve the yeast in the lukewarm milk with a spoonful of sugar and half the flour; let it rise for 20 minutes.",
+            "Add eggs, sugar, salt, zest and butter, then the rest of the flour, until you have a soft, sticky dough.",
+            "Let it rise covered for about 2 hours, until doubled.",
+            "Fold in the soaked raisins and pine nuts, then shape into balls with two spoons.",
+            "Fry in oil at 170 °C until golden, drain on paper and dust with icing sugar."
+          ],
+          "fr": [
+            "Délayez la levure dans le lait tiède avec une cuillère de sucre et la moitié de la farine ; laissez lever 20 minutes.",
+            "Ajoutez les œufs, le sucre, le sel, le zeste et le beurre, puis le reste de la farine, jusqu'à obtenir une pâte souple et collante.",
+            "Laissez lever couvert environ 2 heures, jusqu'à doubler de volume.",
+            "Incorporez les raisins trempés et les pignons, puis formez des boules à l'aide de deux cuillères.",
+            "Faites frire dans l'huile à 170 °C jusqu'à ce qu'elles soient dorées, égouttez sur du papier et saupoudrez de sucre glace."
+          ],
+          "de": [
+            "Die Hefe mit der lauwarmen Milch, einem Löffel Zucker und der Hälfte des Mehls verrühren; 20 Minuten gehen lassen.",
+            "Eier, Zucker, Salz, Schale und Butter zugeben, dann das restliche Mehl, bis ein weicher, klebriger Teig entsteht.",
+            "Zugedeckt etwa 2 Stunden gehen lassen, bis sich der Teig verdoppelt.",
+            "Eingeweichte Rosinen und Pinienkerne unterheben, dann mit zwei Löffeln zu Bällchen formen.",
+            "Bei 170 °C in Öl goldgelb frittieren, auf Küchenpapier abtropfen lassen und mit Puderzucker bestäuben."
+          ],
+          "es": [
+            "Disuelve la levadura en la leche tibia con una cucharada de azúcar y la mitad de la harina; deja levar 20 minutos.",
+            "Añade los huevos, el azúcar, la sal, la ralladura y la mantequilla, y luego el resto de la harina, hasta obtener una masa blanda y pegajosa.",
+            "Deja levar tapado unas 2 horas, hasta duplicar.",
+            "Incorpora las pasas remojadas y los piñones, y forma bolitas con dos cucharas.",
+            "Fríe en aceite a 170 °C hasta que estén doradas, escurre sobre papel y espolvorea con azúcar glas."
+          ]
+        }
+      },
+      "foto": {
+        "file": "fritole-veneziane.webp",
+        "autore": "Beao",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/User:Beao"
+      }
+    },
+    {
+      "id": "galani-veneziani",
+      "nome": "Galani veneziani",
+      "portata": "dolce",
+      "testo": {
+        "it": "Strisce sottili di pasta fritta, croccanti e leggere, spolverate di zucchero a velo, tipiche del Carnevale veneziano (in altre zone si chiamano chiacchiere o frappe). Curiosità: il nome «galani» è legato alla forma sottile e arricciata, e a Venezia si regalavano durante il Carnevale.",
+        "en": "Thin crisp strips of fried dough, light and crunchy, dusted with icing sugar, typical of Venetian Carnival (elsewhere they are called chiacchiere or frappe). Curiosity: the name «galani» refers to their thin, curled shape, and in Venice they were given as gifts during Carnival.",
+        "fr": "De fines bandes de pâte frite, légères et croustillantes, saupoudrées de sucre glace, typiques du Carnaval vénitien (ailleurs on les appelle chiacchiere ou frappe). Curiosité : le nom « galani » renvoie à leur forme fine et frisée, et à Venise on les offrait pendant le Carnaval.",
+        "de": "Dünne, knusprige Teigstreifen aus der Pfanne, leicht und knusprig, mit Puderzucker bestreut, typisch für den venezianischen Karneval (anderswo heißen sie Chiacchiere oder Frappe). Kuriosität: Der Name «Galani» bezieht sich auf ihre dünne, gekräuselte Form, und in Venedig verschenkte man sie während des Karnevals.",
+        "es": "Tiras finas de masa frita, ligeras y crujientes, espolvoreadas con azúcar glas, típicas del Carnaval veneciano (en otras zonas se llaman chiacchiere o frappe). Curiosidad: el nombre «galani» se refiere a su forma fina y rizada, y en Venecia se regalaban durante el Carnaval."
+      },
+      "ricetta": {
+        "porzioni": 6,
+        "preparazione": {
+          "it": "1 ora + 1 ora di riposo",
+          "en": "1 hour + 1 hour rest",
+          "fr": "1 h + 1 h de repos",
+          "de": "1 Std. + 1 Std. Ruhezeit",
+          "es": "1 h + 1 h de reposo"
+        },
+        "ingredienti": {
+          "it": [
+            "250 g di farina 00",
+            "2 uova",
+            "30 g di zucchero",
+            "30 g di burro morbido",
+            "2 cucchiai di grappa o rhum (facoltativo)",
+            "Scorza di limone, un pizzico di sale",
+            "Olio di semi per friggere, zucchero a velo"
+          ],
+          "en": [
+            "250 g 00 flour",
+            "2 eggs",
+            "30 g sugar",
+            "30 g softened butter",
+            "2 tablespoons grappa or rum (optional)",
+            "Lemon zest, a pinch of salt",
+            "Seed oil for frying, icing sugar"
+          ],
+          "fr": [
+            "250 g de farine 00",
+            "2 œufs",
+            "30 g de sucre",
+            "30 g de beurre mou",
+            "2 cuillères à soupe de grappa ou de rhum (facultatif)",
+            "Zeste de citron, une pincée de sel",
+            "Huile de pépins pour friture, sucre glace"
+          ],
+          "de": [
+            "250 g Mehl Typ 00",
+            "2 Eier",
+            "30 g Zucker",
+            "30 g weiche Butter",
+            "2 EL Grappa oder Rum (optional)",
+            "Zitronenschale, eine Prise Salz",
+            "Speiseöl zum Frittieren, Puderzucker"
+          ],
+          "es": [
+            "250 g de harina 00",
+            "2 huevos",
+            "30 g de azúcar",
+            "30 g de mantequilla blanda",
+            "2 cucharadas de grappa o ron (opcional)",
+            "Ralladura de limón, una pizca de sal",
+            "Aceite para freír, azúcar glas"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Impasta farina, uova, zucchero, burro, scorza, sale e liquore fino a una pasta liscia.",
+            "Avvolgi la pasta nella pellicola e lasciala riposare per un'ora.",
+            "Stendila sottilissima con il mattarello o la macchina, e taglia strisce di circa 15 × 4 cm; fai un taglio al centro e passa un'estremità attraverso.",
+            "Friggi in olio caldo a 170 °C pochi secondi per lato, finché diventano dorate e croccanti.",
+            "Scola su carta e spolvera abbondantemente con zucchero a velo."
+          ],
+          "en": [
+            "Knead flour, eggs, sugar, butter, zest, salt and liqueur into a smooth dough.",
+            "Wrap in cling film and rest for one hour.",
+            "Roll very thin and cut strips about 15 × 4 cm; make a slit in the middle and pass one end through it.",
+            "Fry in oil at 170 °C for a few seconds per side, until golden and crisp.",
+            "Drain on paper and dust generously with icing sugar."
+          ],
+          "fr": [
+            "Pétrissez farine, œufs, sucre, beurre, zeste, sel et liqueur jusqu'à obtenir une pâte lisse.",
+            "Enveloppez-la dans du film et laissez reposer une heure.",
+            "Étalez très fin et découpez des bandes d'environ 15 × 4 cm ; faites une fente au centre et passez une extrémité à travers.",
+            "Faites frire dans l'huile à 170 °C quelques secondes de chaque côté, jusqu'à ce qu'elles soient dorées et croustillantes.",
+            "Égouttez sur du papier et saupoudrez généreusement de sucre glace."
+          ],
+          "de": [
+            "Mehl, Eier, Zucker, Butter, Schale, Salz und Likör zu einem glatten Teig verkneten.",
+            "In Frischhaltefolie einwickeln und eine Stunde ruhen lassen.",
+            "Sehr dünn ausrollen und etwa 15 × 4 cm große Streifen schneiden; in der Mitte einen Schlitz machen und ein Ende hindurchziehen.",
+            "In Öl bei 170 °C je Seite wenige Sekunden frittieren, bis sie goldgelb und knusprig sind.",
+            "Auf Küchenpapier abtropfen lassen und großzügig mit Puderzucker bestäuben."
+          ],
+          "es": [
+            "Amasa harina, huevos, azúcar, mantequilla, ralladura, sal y licor hasta obtener una masa lisa.",
+            "Envuelve en film y deja reposar una hora.",
+            "Extiende muy fina y corta tiras de unos 15 × 4 cm; haz una abertura en el centro y pasa un extremo por ella.",
+            "Fríe en aceite a 170 °C unos segundos por cada lado, hasta que estén doradas y crujientes.",
+            "Escurre sobre papel y espolvorea generosamente con azúcar glas."
+          ]
+        }
+      },
+      "foto": {
+        "file": "galani-veneziani.webp",
+        "autore": "Rollopack",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=51414568"
+      }
+    }
+  ]
+}

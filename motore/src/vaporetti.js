@@ -1,0 +1,115 @@
+// Linee del vaporetto ACTV: dati in vaporetti.json (generato da strumenti/vaporetti.py dal GTFS ACTV).
+const DATI = datiProxy('vaporetti.json');
+const DATI_AUTOBUS = datiProxy('autobus.json');
+import { distanzaMetri } from './distanza';
+import { datiProxy } from './dati';
+
+export const URL_ORARI_NAVIGAZIONE = 'https://avm.avmspa.it/it/content/orari-servizio-di-navigazione-0';
+export let VALIDITA_VAPORETTI = null;
+
+// autobus e tram che partono o arrivano a Piazzale Roma (autobus.json, da strumenti/autobus.py):
+// si vedono nella scheda di P.le Roma sotto i vaporetti, con lo stesso schema e gli stessi orari
+let TUTTE_LE_LINEE = [];
+let LINEE = {};
+let FERMATE = {};
+// Chiamata all'apertura della città: legge i dati del pacchetto
+export function inizializzaVaporetti() {
+  VALIDITA_VAPORETTI = DATI.validita;
+  TUTTE_LE_LINEE = [...DATI.linee, ...DATI_AUTOBUS.linee];
+  LINEE = Object.fromEntries(TUTTE_LE_LINEE.map((l) => [l.id, l]));
+  FERMATE = { ...DATI.fermate };
+  for (const [id, f] of Object.entries(DATI_AUTOBUS.fermate)) {
+    FERMATE[id] = FERMATE[id] || { ...f, linee: [] }; // solo il nome: le linee di bus sono in fermataLinee
+  }
+}
+
+export const lineaVaporetto = (id) => LINEE[id] || null;
+export const fermataVaporetto = (id) => FERMATE[id] || null;
+export const nomeFermata = (id) => FERMATE[id]?.nome || id;
+
+// linee dei vaporetti che fermano qui (1, 2, 3, ... notturne in fondo)
+export function lineeDellaFermata(id) {
+  const f = FERMATE[id];
+  if (!f) return [];
+  return DATI.linee.filter((l) => f.linee.includes(l.id));
+}
+
+// autobus e tram: solo alla fermata di Piazzale Roma, in una riga a parte
+export function lineeAutobusDellaFermata(id) {
+  const ids = DATI_AUTOBUS.fermataLinee[id] || [];
+  return DATI_AUTOBUS.linee.filter((l) => ids.includes(l.id));
+}
+
+/**
+ * Le fermate scritte nel campo "fermata" di un luogo, abbinate alle fermate ACTV.
+ * "Rialto / San Zaccaria" -> [{ testo: 'Rialto', id: 'rialto' }, { testo: 'San Zaccaria', id: 's-marco-san-zaccaria' }]
+ * Le voci speciali (es. l'itinerario sul Canal Grande) portano anche la linea da mostrare.
+ */
+export function fermateDelLuogo(voce) {
+  if (!voce) return [];
+  const speciale = DATI.vociLinea[voce];
+  if (speciale) return [{ testo: voce, id: speciale.fermata, linea: speciale.linea }];
+  return voce.split('/').map((p) => {
+    const testo = p.trim();
+    return { testo, id: DATI.alias[testo] || null };
+  });
+}
+
+// fermata ACTV più vicina a un punto (per le fermate del vaporetto di OpenStreetMap nei servizi)
+export function fermataVicina(lat, lon, massimo = 150) {
+  let migliore = null;
+  let minima = massimo;
+  for (const [id, f] of Object.entries(DATI.fermate)) {
+    const d = distanzaMetri(lat, lon, f.lat, f.lon);
+    if (d < minima) {
+      minima = d;
+      migliore = id;
+    }
+  }
+  return migliore;
+}
+
+/**
+ * Direzioni di una linea in cui si può salire a questa fermata, con l'etichetta da mostrare:
+ * capolinea (per le circolari si dice "circolare") e prossima fermata, così si capisce da che parte va
+ * anche quando i due capolinea sono vicini (es. linea 2: S. Marco Giardinetti / S. Marco-San Zaccaria).
+ */
+export function direzioniDallaFermata(linea, fermataId) {
+  return linea.direzioni
+    .map((d) => {
+      const pos = d.fermate.indexOf(fermataId);
+      if (pos < 0) return null;
+      if (!d.circolare && pos === d.fermate.length - 1) return null;
+      const prossima = d.fermate[pos + 1];
+      return {
+        ...d,
+        posizione: pos,
+        capolinea: nomeFermata(d.fermate[d.fermate.length - 1]),
+        prossima: nomeFermata(prossima),
+      };
+    })
+    .filter(Boolean);
+}
+
+// pagina degli orari ACTV della linea (una per direzione); per le linee senza pagina propria, l'elenco generale
+export function urlOrariLinea(linea, direzione) {
+  if (linea.pdf) return linea.pdf; // autobus e tram: PDF ACTV della linea (autobus.json)
+  if (!/^[0-9A-Z.]+$/.test(linea.id)) return URL_ORARI_NAVIGAZIONE;
+  return `https://orari.actv.it/line.html?service=NAV&linename=${encodeURIComponent(linea.id)}&subsector=&direction=${direzione}`;
+}
+
+// colore della linea nello schema: i colori molto chiari (giallo, verde acqua) vengono scuriti per vedersi sul bianco
+export function coloreSchema(hex) {
+  const n = parseInt(hex.slice(1), 16);
+  let r = (n >> 16) & 255;
+  let g = (n >> 8) & 255;
+  let b = n & 255;
+  const luce = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+  if (luce > 0.6) {
+    const k = 0.6 / luce;
+    r = Math.round(r * k);
+    g = Math.round(g * k);
+    b = Math.round(b * k);
+  }
+  return `#${((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1)}`;
+}

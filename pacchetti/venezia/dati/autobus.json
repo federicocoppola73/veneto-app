@@ -1,0 +1,5838 @@
+{
+ "_nota": "Generato da strumenti/autobus.py dal GTFS ACTV automobilistico (open data ACTV). Non modificare a mano.",
+ "validita": [
+  "2026-10-22",
+  "2027-10-21"
+ ],
+ "linee": [
+  {
+   "id": "AUT-12E",
+   "etichetta": "12E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-12.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "scorze-iv-novembre",
+      "scorze-roma",
+      "scorze-cercariolo",
+      "scorze-ortigara",
+      "scorze-guido-rossa",
+      "scorze-boschi",
+      "cappella",
+      "martellago-ariosto",
+      "martellago-guizza",
+      "peseggia-canove",
+      "peseggia",
+      "peseggia-vittorio-veneto",
+      "peseggia-perosi",
+      "gardigiano",
+      "gardigiano-mattarella",
+      "gardigiano-donato",
+      "mogliano-ghetto",
+      "mogliano-meucci",
+      "mogliano-terraglio",
+      "mogliano-ronzinella",
+      "mogliano-rimini",
+      "mogliano-marignana",
+      "mogliano-marocchesa",
+      "terraglio-gatta",
+      "terraglio-nigra",
+      "terraglio-ca-sagredo",
+      "terraglio-favorita",
+      "terraglio-terraglietto",
+      "terraglio-villa-salus",
+      "terraglio-borgo-pezzana",
+      "terraglio-peschiera",
+      "terraglio-teano",
+      "circonvallazione-olimpia",
+      "carducci-felisati",
+      "carducci-pascoli",
+      "cappuccina-bembo",
+      "cappuccina-sernaglia",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "rampa-cavalcavia-vempa",
+      "cappuccina-sernaglia",
+      "cappuccina-bembo",
+      "carducci-pascoli",
+      "circonvallazione-olimpia",
+      "circonvalazione-castellan",
+      "terraglio-teano",
+      "terraglio-peschiera",
+      "terraglio-borgo-pezzana",
+      "terraglio-villa-salus",
+      "terraglio-terraglietto",
+      "terraglio-favorita",
+      "terraglio-ca-sagredo",
+      "terraglio-nigra",
+      "terraglio-gatta",
+      "mogliano-marocchesa",
+      "mogliano-marignana",
+      "mogliano-rimini",
+      "mogliano-ronzinella",
+      "mogliano-terraglio",
+      "mogliano-centro",
+      "mogliano-meucci",
+      "mogliano-ghetto",
+      "gardigiano-donato",
+      "gardigiano-mattarella",
+      "gardigiano",
+      "peseggia-perosi",
+      "peseggia-vittorio-veneto",
+      "peseggia",
+      "peseggia-canove",
+      "martellago-guizza",
+      "martellago-ariosto",
+      "cappella",
+      "scorze-boschi",
+      "scorze-guido-rossa",
+      "scorze-ortigara",
+      "scorze-cercariolo",
+      "scorze-fermi",
+      "scorze-iv-novembre"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-12L",
+   "etichetta": "12L",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-12L.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "san-marco-forte-marghera",
+      "san-marco-boerio",
+      "san-marco-molmenti",
+      "san-marco-sansovino",
+      "san-marco-musatti",
+      "san-marco-cattaneo",
+      "san-marco-manuzio",
+      "27-ottobre-d4"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "27-ottobre-d4",
+      "mestre-centro-b4",
+      "san-marco-manuzio",
+      "san-marco-cattaneo",
+      "san-marco-musatti",
+      "san-marco-sansovino",
+      "san-marco-molmenti",
+      "san-marco-boerio",
+      "san-marco-forte-marghera",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-19",
+   "etichetta": "19",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-19.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "orlanda-appia",
+      "orlanda-cavergnago",
+      "orlanda-sabbadino",
+      "orlanda-bagaron",
+      "orlanda-tiburtina",
+      "gobbi-orlanda",
+      "gobbi-mirtilli",
+      "gobbi-mandarini",
+      "gobbi-ca-dolfin",
+      "gobbi-don-bosco",
+      "gobbi-vallenari",
+      "triestina-ulss-3",
+      "altinia-favaro-municipio",
+      "altinia-san-pietro",
+      "altinia-indri",
+      "altinia-ca-solaro",
+      "altinia-ca-rezzonico"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "altinia-ca-rezzonico",
+      "altinia-ca-solaro",
+      "altinia-indri",
+      "altinia-san-pietro",
+      "altinia-favaro-municipio",
+      "gobbi-san-dona",
+      "gobbi-vallenari",
+      "gobbi-don-bosco",
+      "gobbi-ca-dolfin",
+      "gobbi-mandarini",
+      "gobbi-mirtilli",
+      "gobbi-orlanda",
+      "orlanda-tiburtina",
+      "orlanda-bagaron",
+      "orlanda-sabbadino",
+      "orlanda-cavergnago",
+      "orlanda-appia",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-2",
+   "etichetta": "2",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-2.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "cavalcavia-vempa",
+      "stazione-mestre-fs-c4",
+      "piave-podgora",
+      "piave-fiume",
+      "piave-puccini",
+      "circonvallazione-olimpia",
+      "einaudi-castelvecchio",
+      "garibaldi-municipio",
+      "garibaldi-ognissanti",
+      "garibaldi-giardini",
+      "garibaldi-carpenedo",
+      "san-dona-falzarego",
+      "san-dona-val-gardena",
+      "pasqualigo-monte-rua",
+      "don-sturzo-pasqualigo",
+      "de-nicola-chiesa",
+      "don-sturzo-vallon"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "don-sturzo-vallon",
+      "don-sturzo-pasqualigo",
+      "pasqualigo-monte-rua",
+      "san-dona-val-gardena",
+      "san-dona-falzarego",
+      "garibaldi-carpenedo",
+      "garibaldi-giardini",
+      "garibaldi-ognissanti",
+      "garibaldi-municipio",
+      "belfredo-terraglio",
+      "circonvallazione-olimpia",
+      "piave-puccini",
+      "piave-fiume",
+      "piave-podgora",
+      "stazione-mestre-fs-c3",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-24",
+   "etichetta": "24",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-24.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "vespucci-san-giuseppe",
+      "pertini-vespucci",
+      "pertini-chiesa",
+      "pertini-foscari",
+      "bissuola-varrone",
+      "bissuola-esiodo",
+      "casona-bissuola",
+      "casona-marziale",
+      "casona-vallenari",
+      "san-dona-pergola",
+      "san-dona-pineta",
+      "san-dona-pasqualigo",
+      "san-dona-val-gardena",
+      "rielta-ca-rossa",
+      "rielta-parco-bissuola",
+      "casona-vallenari",
+      "casona-marziale",
+      "casona-bissuola",
+      "bissuola-esiodo",
+      "bissuola-varrone",
+      "pertini-foscari",
+      "pertini-chiesa",
+      "pertini-vespucci",
+      "vespucci-san-giuseppe",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-24H",
+   "etichetta": "24H",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-24H.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "vespucci-san-giuseppe",
+      "pertini-vespucci",
+      "pertini-chiesa",
+      "pertini-foscari",
+      "bissuola-varrone",
+      "bissuola-esiodo",
+      "casona-bissuola",
+      "casona-marziale",
+      "casona-vallenari",
+      "san-dona-pergola",
+      "san-dona-pineta",
+      "san-dona-pasqualigo",
+      "pasqualigo-monte-rua",
+      "pasqualigo-martiri",
+      "peron-baseggio",
+      "peron-saragat",
+      "ilaria-alpi-sfmr-ospedale",
+      "tosatto-impastato"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "tosatto-impastato",
+      "ilaria-alpi-sfmr-ospedale",
+      "peron-saragat",
+      "peron-baseggio",
+      "pasqualigo-martiri",
+      "pasqualigo-monte-rua",
+      "san-dona-val-gardena",
+      "rielta-ca-rossa",
+      "rielta-parco-bissuola",
+      "casona-vallenari",
+      "casona-marziale",
+      "casona-bissuola",
+      "bissuola-esiodo",
+      "bissuola-varrone",
+      "pertini-foscari",
+      "pertini-chiesa",
+      "pertini-vespucci",
+      "vespucci-san-giuseppe",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-4",
+   "etichetta": "4",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-4.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "corso-del-popolo-torino",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-mestrina",
+      "mestre-centro-b4",
+      "ca-rossa-bissuola",
+      "ca-rossa-volturno",
+      "ca-rossa-oberdan",
+      "ca-rossa-serravalle",
+      "san-dona-val-gardena",
+      "san-dona-pasqualigo",
+      "san-dona-pineta",
+      "san-dona-rielta",
+      "san-dona-cervino",
+      "san-dona-marmolada",
+      "altinia-favaro-municipio",
+      "altinia-san-pietro",
+      "altinia-indri",
+      "altinia-ca-solaro",
+      "altinia-ca-rezzonico"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "altinia-ca-rezzonico",
+      "altinia-ca-solaro",
+      "altinia-indri",
+      "altinia-san-pietro",
+      "san-dona-pastrello",
+      "san-dona-marmolada",
+      "san-dona-cervino",
+      "san-dona-rielta",
+      "san-dona-pineta",
+      "san-dona-pasqualigo",
+      "san-dona-val-gardena",
+      "ca-rossa-serravalle",
+      "ca-rossa-oberdan",
+      "ca-rossa-volturno",
+      "ca-rossa-bissuola",
+      "mestre-centro-b7",
+      "corso-del-popolo-mestrina",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-torino",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-43",
+   "etichetta": "43",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-43.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "forte-marghera-aretusa",
+      "forte-marghera-moretti",
+      "forte-marghera-millosevic",
+      "forte-marghera-hermada",
+      "ancona-carbonifera",
+      "ancona-torino",
+      "torino-rossetto",
+      "torino-universita",
+      "paganello-ticozzi",
+      "ca-marcello-rossetto",
+      "ca-marcello-cappuccina",
+      "favretti-mestre-fs-c2"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "favretti-mestre-fs-c2",
+      "ca-marcello-cappuccina",
+      "ca-marcello-rossetto",
+      "paganello-ticozzi",
+      "torino",
+      "torino-universita",
+      "torino-rossetto",
+      "ancona-torino",
+      "ancona-carbonifera",
+      "forte-marghera-hermada",
+      "forte-marghera-millosevic",
+      "forte-marghera-moretti",
+      "forte-marghera-aretusa",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-4DE",
+   "etichetta": "4DE",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-4D.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "noale",
+      "noale-ospedale",
+      "noale-dei-novale",
+      "noale-lancerotto",
+      "salzano-toscanigo",
+      "salzano-sogaretti",
+      "salzano-ponte-grasso",
+      "salzano-confalonieri",
+      "salzano-municipio",
+      "salzano-chiesa",
+      "salzano-de-gasperi",
+      "salzano-matteotti",
+      "mirano-luneo",
+      "mirano-boschette",
+      "mirano-mariutto",
+      "mirano-dante",
+      "mirano-caboto",
+      "mirano-parini",
+      "mirano-fossa",
+      "spinea-orgnano",
+      "spinea-rossignago",
+      "spinea-alfieri",
+      "spinea-giorgione",
+      "trieste-catene",
+      "paolucci-longhena",
+      "rizzardi-carrer",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "paolucci-longhena",
+      "trieste-catene",
+      "spinea-giorgione",
+      "spinea-centro",
+      "spinea-rossignago",
+      "spinea-orgnano",
+      "mirano-fossa",
+      "mirano-parini",
+      "mirano-caboto",
+      "mirano-dante",
+      "mirano-mariutto",
+      "mirano-boschette",
+      "mirano-luneo",
+      "salzano-matteotti",
+      "salzano-de-gasperi",
+      "salzano-chiesa",
+      "salzano-municipio",
+      "salzano-confalonieri",
+      "salzano-ponte-grasso",
+      "salzano-sogaretti",
+      "salzano-toscanigo",
+      "noale-lancerotto",
+      "noale-dei-novale",
+      "noale-ospedale",
+      "noale"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-4L",
+   "etichetta": "4L",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-4L.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "corso-del-popolo-torino",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-mestrina",
+      "mestre-centro-b1"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "mestre-centro-b1",
+      "corso-del-popolo-mestrina",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-torino",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-5",
+   "etichetta": "5",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-5.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "orlanda-appia",
+      "orlanda-cavergnago",
+      "orlanda-sabbadino",
+      "sabbadino-laguna",
+      "sabbadino-bagaron",
+      "sabbadino-passo-campalto",
+      "passo-campalto-orlanda",
+      "orlanda-casilina",
+      "orlanda-don-vecchi",
+      "orlanda-centro-ippico",
+      "orlanda-200",
+      "orlanda-piovega",
+      "orlanda-pinerolo",
+      "triestina-tessera",
+      "galilei-darsena",
+      "aeroporto-marco-polo"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "aeroporto-marco-polo",
+      "triestina-tessera",
+      "orlanda-pinerolo",
+      "orlanda-piovega",
+      "orlanda-200",
+      "orlanda-centro-ippico",
+      "orlanda-don-vecchi",
+      "orlanda-casilina",
+      "passo-campalto-orlanda",
+      "sabbadino-passo-campalto",
+      "sabbadino-bagaron",
+      "sabbadino-laguna",
+      "orlanda-sabbadino",
+      "orlanda-cavergnago",
+      "orlanda-appia",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-53E",
+   "etichetta": "53E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-53.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "stazione-padova",
+      "padova-fiera",
+      "padova-turazza",
+      "padova-san-lazzaro",
+      "padova-est",
+      "ponte-di-brenta-lago",
+      "ponte-di-brenta-centro",
+      "busa-di-vigonza-centro",
+      "vigonza-perarolo",
+      "perarolo-quartiere-pavan",
+      "capriccio-centro",
+      "stra-dante",
+      "stra-piazza-marconi",
+      "fiesso-barbariga",
+      "fiesso-pioghella",
+      "fiesso-d-artico-centro",
+      "fiesso-d-artico-bandiera",
+      "fiesso-piove",
+      "fiesso-gemito",
+      "dolo-ospedale",
+      "dolo-centro",
+      "dolo-manzoni",
+      "dolo-ca-tron",
+      "dolo-bandiera",
+      "dolo-civico-75",
+      "mira-albrizzi",
+      "mira-centro",
+      "mira-alighieri",
+      "mira-porte",
+      "mira-riscossa",
+      "oriago-sommo",
+      "oriago-stazione",
+      "oriago-centro",
+      "oriago-romagna",
+      "padana-civico-338",
+      "malcontenta-erba",
+      "malcontenta-iseo",
+      "malcontenta-fimon",
+      "malcontenta-chiesa",
+      "malcontenta-chimica",
+      "malcontenta-padana",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "27-ottobre-d3",
+      "corso-del-popolo-mestrina",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-torino",
+      "bandiera-durando",
+      "bandiera-cantore",
+      "bandiera-tommaseo",
+      "bandiera-ghega",
+      "bandiera-cruto",
+      "padana-avena",
+      "padana-del-luccio",
+      "padana-delle-trote",
+      "padana-stazione",
+      "padana-civico-338",
+      "oriago-romagna",
+      "oriago-centro",
+      "oriago-stazione",
+      "oriago-sommo",
+      "mira-riscossa",
+      "mira-porte",
+      "mira-alighieri",
+      "mira-centro",
+      "mira-albrizzi",
+      "dolo-civico-75",
+      "dolo-bandiera",
+      "dolo-ca-tron",
+      "dolo-manzoni",
+      "dolo-centro",
+      "dolo-ospedale",
+      "fiesso-gemito",
+      "fiesso-d-artico-piove",
+      "fiesso-d-artico-bandiera",
+      "fiesso-d-artico-centro",
+      "fiesso-d-artico-pioghella",
+      "fiesso-d-artico-barbariga",
+      "stra-piazza-marconi",
+      "stra-dante",
+      "capriccio-centro",
+      "perarolo-quartiere-pavan",
+      "vigonza-perarolo",
+      "busa-di-vigonza-centro",
+      "ponte-di-brenta-centro",
+      "ponte-di-brenta-lago",
+      "padova-est",
+      "padova-san-lazzaro",
+      "padova-turazza",
+      "padova-fiera",
+      "stazione-padova"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-54RE",
+   "etichetta": "54RE",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-54R.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "bojon-chiesa",
+      "bojon-corsivola",
+      "campolongo-zagallo",
+      "campolongo-sopracornio",
+      "cornio",
+      "premaore",
+      "camponogara-alighieri",
+      "camponogara-pascoli",
+      "camponogara-matteotti",
+      "camponogara-iv-novembre",
+      "camponogara-47",
+      "calcroci",
+      "calcroci-chiesa",
+      "camponogara-casino-rosso",
+      "dolo-marinelle",
+      "sanbruson-marco-polo",
+      "dolo-carrezzioi",
+      "dolo-ferrovia",
+      "mira-montessori",
+      "mira-campi",
+      "mira-piazza-vecchia",
+      "mira-25-aprile",
+      "romea-bastie",
+      "romea-ca-balletto",
+      "romea-malcanton",
+      "deposito-della-fisica",
+      "malcontenta-padana",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "bandiera-durando",
+      "bandiera-cantore",
+      "bandiera-tommaseo",
+      "bandiera-ghega",
+      "bandiera-cruto",
+      "padana-avena",
+      "malcontenta-padana",
+      "deposito-della-fisica",
+      "romea-malcanton",
+      "gambarare-ca-balletto",
+      "gambarare-bastie",
+      "mira-25-aprile",
+      "mira-piazza-vecchia",
+      "mira-campi",
+      "mira-montessori",
+      "sanbruson-ferrovia",
+      "sanbruson-carrezzioi",
+      "sanbruson-marco-polo",
+      "sambruson-marinelle",
+      "camponogara-casino-rosso",
+      "calcroci-cavour",
+      "camponogara-diedo",
+      "prozzolotogliatti",
+      "prozzolo-chiesa",
+      "camponogara-matteotti",
+      "camponogara-matteotti",
+      "camponogara-pascoli",
+      "camponogara-alighieri",
+      "premaore",
+      "cornio",
+      "campolongo-sopracornio",
+      "campolongo-zagallo",
+      "bojon-corsivola",
+      "bojon-chiesa"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-57E",
+   "etichetta": "57E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-57.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "bandiera-durando",
+      "bandiera-cantore",
+      "bandiera-tommaseo",
+      "bandiera-ghega",
+      "bandiera-cruto",
+      "padana-avena",
+      "padana-del-luccio",
+      "padana-delle-trote",
+      "padana-stazione",
+      "padana-civico-338",
+      "oriago-romagna",
+      "oriago-ferrovia",
+      "ghebba-rubaldi",
+      "ghebba-lusore",
+      "ghebba-malpaga",
+      "oraigo-adige",
+      "oriago-marche",
+      "borbiago-friuli",
+      "borbiago-sardegna",
+      "borbiago-milano",
+      "borbiago-centro",
+      "borbiago-boldani",
+      "mira-san-monte",
+      "caltana-sottopasso",
+      "marano",
+      "vetrego",
+      "scaltenigo-formigo",
+      "scaltenigo"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "mellaredo-cavinello",
+      "mellaredo-vivaldi",
+      "rivale-chiesa",
+      "rivale-bosco",
+      "pianiga-roma",
+      "pianiga-roma",
+      "pianiga-bosco",
+      "pianiga-accoppe",
+      "mirano-volpino",
+      "ballo-centro",
+      "ballo-stazione",
+      "ballo-borgo-zucchero",
+      "scaltenigo",
+      "scaltenigo-formigo",
+      "scaltenigo-porara",
+      "marano",
+      "marano-sottopasso",
+      "mira-san-monte",
+      "borbiago-boldani",
+      "borbiago",
+      "borbiago-milano",
+      "borbiago-sardegna",
+      "borbiago-friuli",
+      "oriago-marche",
+      "oriago-ferrovia",
+      "oriago-romagna",
+      "padana-civico-338",
+      "malcontenta-erba",
+      "malcontenta-iseo",
+      "malcontenta-fimon",
+      "malcontenta-chiesa",
+      "malcontenta-chimica",
+      "malcontenta-padana",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-58RE",
+   "etichetta": "58RE",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-58R.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "adria-fs",
+      "adria-marconi",
+      "adria-bindola",
+      "adria-sabbioni",
+      "adria-campelli",
+      "cavarzere-passetto",
+      "cavarzere-botta",
+      "cavarzere-ca-labia",
+      "cavarzere",
+      "cavarzere-margherita",
+      "cavarzere-ca-venier",
+      "cavarzere-coette-alte",
+      "pegolotte-piera",
+      "pegolotte",
+      "villa-del-bosco",
+      "corezzola-sasso",
+      "pontelongo-garibaldi",
+      "pontelongo-stazione",
+      "arzerello",
+      "arzarello-regionale-516",
+      "arzergrande",
+      "arzergrande-roma",
+      "arzergrande-vallonga",
+      "codevigo",
+      "rosara",
+      "lova",
+      "romea-canale-piccolo",
+      "lugo",
+      "romea-lughetto",
+      "romea-giare",
+      "romea-bastie",
+      "romea-ca-balletto",
+      "romea-malcanton",
+      "deposito-della-fisica",
+      "malcontenta-padana",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "bandiera-durando",
+      "bandiera-cantore",
+      "bandiera-tommaseo",
+      "bandiera-ghega",
+      "bandiera-cruto",
+      "padana-avena",
+      "malcontenta-padana",
+      "deposito-della-fisica",
+      "romea-malcanton",
+      "gambarare-ca-balletto",
+      "gambarare-bastie",
+      "romea-giare",
+      "romea-lughetto",
+      "lugo",
+      "romea-canale-piccolo",
+      "lova",
+      "rosara",
+      "santa-margherita",
+      "brenta-d-abba",
+      "treponti-lovo",
+      "correzzola-cantarana",
+      "correzzola-cantarana",
+      "monsole-venezia",
+      "stazione-pegolotte",
+      "pegolotte-piera",
+      "cavarzere-coette-alte",
+      "caverzere-ca-venier",
+      "cavarzere-margherita",
+      "cavarzere",
+      "cavarzere-ca-labia",
+      "cavarzere-botta",
+      "cavarzere-passetto",
+      "passetto-campelli",
+      "adria-sabbioni",
+      "adria-bindola",
+      "adria-marconi",
+      "adria-fs"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-5E",
+   "etichetta": "5E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-5.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "noale",
+      "noale-ospedale",
+      "noale-dei-novale",
+      "noale-ongari",
+      "noale-bacchiglione",
+      "noale-spagnolo",
+      "noale-livenza",
+      "noale-zona-industriale",
+      "robegano-monte-grappa",
+      "robegano-puccini",
+      "robegano-centro",
+      "robegano-25-aprile",
+      "maerne-civico-83",
+      "maerne-circonvallazione",
+      "maerne-mulino",
+      "maerne-rialto",
+      "maerne-chiesa",
+      "maerne-tasso",
+      "maerne-cimitero",
+      "olmo-calvi",
+      "olmo-papa-luciani",
+      "olmo-minzoni",
+      "olmo-giovanni-xxiii",
+      "olmo-pellico",
+      "selvanese-pleiadi",
+      "tito-selvanese",
+      "tito-castellana",
+      "zelarino-municipio",
+      "zelarino-chiesa",
+      "zelarino-carpaccio",
+      "castellana-marzenego",
+      "castellana-bellotto",
+      "castellana-piazzetta",
+      "castellana-cipressina",
+      "castellana-santa-chiara",
+      "einaudi-castelvecchio",
+      "garibaldi-municipio",
+      "mestre-centro-b7",
+      "forte-marghera-hermada",
+      "forte-marghera-millosevic",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "forte-marghera-millosevic",
+      "forte-marghera-hermada",
+      "mestre-centro-b4",
+      "garibaldi-municipio",
+      "belfredo-terraglio",
+      "castellana-santa-chiara",
+      "castellana-cipressina",
+      "castellana-bellotto",
+      "castellana-marzenego",
+      "zelarino-carpaccio",
+      "zelarino-chiesa",
+      "zelarino-municipio",
+      "tito-castellana",
+      "tito-selvanese",
+      "selvanese-pleiadi",
+      "olmo-pellico",
+      "olmo-giovanni-xxiii",
+      "olmo-minzoni",
+      "olmo-papa-luciani",
+      "olmo-calvi",
+      "maerne-cimitero",
+      "maerne-tasso",
+      "maerne-chiesa",
+      "maerne-rialto",
+      "maerne-mulino",
+      "maerne-circonvallazione",
+      "maerne-civico-83",
+      "robegano-25-aprile",
+      "robegano-centro",
+      "robegano-puccini",
+      "robegano-monte-grappa",
+      "noale-zona-industriale",
+      "noale-livenza",
+      "noale-spagnolo",
+      "noale-bacchiglione",
+      "noale-ongari",
+      "noale-dei-novale",
+      "noale-ospedale",
+      "noale"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-6",
+   "etichetta": "6",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-6.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "giovannacci-ulloa",
+      "lavelli-paolucci",
+      "sant-antonio-municipio",
+      "paleocapa-parmesan",
+      "trieste-eraclea",
+      "trieste-mazzorbo",
+      "trieste-bosco",
+      "trieste-parco",
+      "trieste-catene",
+      "trieste-robinie",
+      "trieste-miranese",
+      "miranese-san-giorgio",
+      "miranese-selenia",
+      "spinea-giorgione",
+      "sfmr-spinea"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "sfmr-spinea",
+      "spinea-giorgione",
+      "miranese-selenia",
+      "miranese-san-giorgio",
+      "trieste-miranese",
+      "trieste-robinie",
+      "trieste-catene",
+      "trieste-parco",
+      "trieste-bosco",
+      "trieste-eraclea",
+      "paleocapa-parmesan",
+      "canal-leone",
+      "sant-antonio-municipio",
+      "lavelli-paolucci",
+      "rizzardi-carrer",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-66",
+   "etichetta": "66",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-66.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "giovannacci-ulloa",
+      "paolucci-longhena",
+      "calvi-parmesan",
+      "trieste-eraclea",
+      "trieste-mazzorbo",
+      "trieste-bosco",
+      "trieste-parco",
+      "trieste-catene",
+      "trieste-robinie",
+      "trieste-miranese",
+      "miranese-san-giorgio",
+      "risorgimento-miranese"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "risorgimento-miranese",
+      "miranese-san-giorgio",
+      "trieste-miranese",
+      "trieste-robinie",
+      "trieste-catene",
+      "trieste-parco",
+      "trieste-bosco",
+      "trieste-eraclea",
+      "calvi-parmesan",
+      "paolucci-longhena",
+      "rizzardi-carrer",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-66E",
+   "etichetta": "66E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-66.pdf",
+   "direzioni": [
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "mellaredo-cavinello",
+      "mellaredo-vivaldi",
+      "rivale-chiesa",
+      "rivale-bosco",
+      "pianiga-roma",
+      "pianiga-roma",
+      "pianiga-bosco",
+      "pianiga-accoppe",
+      "ferrovia-pionca",
+      "cazzaghetto-arino",
+      "cazzaghetto-parolini",
+      "cazzaghetto-industriale",
+      "cazzago",
+      "cazzago-pascoli",
+      "dolo-municipio",
+      "dolo-manzoni",
+      "dolo-ca-tron",
+      "dolo-bandiera",
+      "dolo-civico-75",
+      "mira-albrizzi",
+      "mira-centro",
+      "mira-alighieri",
+      "mira-porte",
+      "mira-riscossa",
+      "oriago-sommo",
+      "oriago-stazione",
+      "oriago-centro",
+      "oriago-romagna",
+      "padana-civico-338",
+      "padana-stazione",
+      "padana-delle-trote",
+      "padana-del-luccio",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-67RE",
+   "etichetta": "67RE",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-67R.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "piove-di-sacco",
+      "piove-di-sacco-rotonda",
+      "campolongo-alto-adige",
+      "campolongo-8-marzo",
+      "campolongo",
+      "bojon-rivelli",
+      "bojon-chiesa",
+      "bojon-fs",
+      "bojon",
+      "campagna-lupia-lazzaretto",
+      "campagna-lupia",
+      "prozzolo",
+      "camponogara-diedo",
+      "calcroci-chiesa",
+      "camponogara-volta",
+      "lughetto-marzabotto",
+      "marghera-romea",
+      "romea-giare",
+      "romea-bastie",
+      "romea-ca-balletto",
+      "romea-malcanton",
+      "deposito-della-fisica",
+      "malcontenta-padana",
+      "padana-avena",
+      "bandiera-cruto",
+      "bandiera-ghega",
+      "bandiera-tommaseo",
+      "bandiera-cantore",
+      "bandiera-durando",
+      "bandiera-pila",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "bandiera-durando",
+      "bandiera-cantore",
+      "bandiera-tommaseo",
+      "bandiera-ghega",
+      "bandiera-cruto",
+      "padana-avena",
+      "malcontenta-padana",
+      "deposito-della-fisica",
+      "romea-malcanton",
+      "gambarare-ca-balletto",
+      "gambarare-bastie",
+      "romea-giare",
+      "marghera-romea",
+      "lughetto-marzabotto",
+      "camponogara-volta",
+      "calcroci-chiesa",
+      "camponogara-diedo",
+      "prozzolo",
+      "campagna-lupia",
+      "campagna-lupia-lazzaretto",
+      "bojon",
+      "bojon-fs",
+      "bojon-chiesa",
+      "bojon-rivelli",
+      "campolongo",
+      "campolongo-8-marzo",
+      "campolongo-alto-adige",
+      "piove-di-sacco-rotonda",
+      "piove-di-sacco"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-6E",
+   "etichetta": "6E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-6.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "scorze-iv-novembre",
+      "scorze-roma",
+      "scorze-municipio",
+      "scorze-venezia",
+      "scorze-moglianese",
+      "scorze-romagna",
+      "martellago-ca-longo",
+      "martellago-ca-combi",
+      "martellago-boschi",
+      "martellago-santo-stefano",
+      "martellago-vittoria",
+      "martellago-verdi",
+      "martellagotrento",
+      "martellago-fornace",
+      "martellago-pree",
+      "trivignano-park-p14",
+      "trivignano-botticelli",
+      "trivignano-park-b",
+      "trivignano-centro",
+      "trivignano-gozzoli",
+      "trivignano-lotto",
+      "zelarino-parolari",
+      "zelarino-municipio",
+      "zelarino-chiesa",
+      "zelarino-carpaccio",
+      "castellana-marzenego",
+      "castellana-bellotto",
+      "castellana-piazzetta",
+      "castellana-cipressina",
+      "castellana-santa-chiara",
+      "einaudi-castelvecchio",
+      "garibaldi-municipio",
+      "mestre-centro-b7",
+      "forte-marghera-hermada",
+      "forte-marghera-millosevic",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "forte-marghera-millosevic",
+      "forte-marghera-hermada",
+      "mestre-centro-b4",
+      "garibaldi-municipio",
+      "belfredo-terraglio",
+      "castellana-santa-chiara",
+      "castellana-cipressina",
+      "castellana-bellotto",
+      "castellana-marzenego",
+      "zelarino-carpaccio",
+      "zelarino-chiesa",
+      "zelarino-municipio",
+      "zelarino-parolari",
+      "trivignano-lotto",
+      "trivignano-gozzoli",
+      "trivignano-centro",
+      "trivignano-ca-lin",
+      "trivignano-botticelli",
+      "trivignano-park-p14",
+      "martellago-pree",
+      "martellago-fornace",
+      "martellago-trento",
+      "martellago-verdi",
+      "martellago-vittoria",
+      "martellago-santo-stefano",
+      "martellago-boschi",
+      "martellago-ca-combi",
+      "martellago-ca-longo",
+      "scorze-romagna",
+      "scorze-moglianese",
+      "scorze-cercariolo",
+      "scorze-fermi",
+      "scorze-iv-novembre"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-6L",
+   "etichetta": "6L",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-6L.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "giovannacci-ulloa",
+      "lavelli-paolucci",
+      "sant-antonio-municipio",
+      "piazza-mercato",
+      "rinascita-beccaria",
+      "correnti-capolinea"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "correnti-capolinea",
+      "rinascita-beccaria",
+      "piazza-mercato",
+      "sant-antonio-municipio",
+      "lavelli-paolucci",
+      "rizzardi-carrer",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-7",
+   "etichetta": "7",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-7.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "cavalcavia-vempa",
+      "cappuccina-sernaglia",
+      "cappuccina-bembo",
+      "carducci-pascoli",
+      "miranese-piave",
+      "miranese-vivaldi",
+      "miranese-monteverdi",
+      "miranese-giustizia",
+      "miranese-calucci",
+      "miranese-lazio",
+      "miranese-piemonte",
+      "miranese-pergine",
+      "miranese-ivancich",
+      "miranese-avanti",
+      "miranese-san-giorgio",
+      "miranese-selenia",
+      "spinea-giorgione",
+      "spinea-centro",
+      "spinea-rossignago",
+      "spinea-sanremo",
+      "spinea-villaggio-fiori",
+      "spinea-pozzuoli",
+      "spinea-desenzano",
+      "spinea-martiri"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "spinea-martiri",
+      "spinea-desenzano",
+      "spinea-pozzuoli",
+      "spinea-villaggio-fiori",
+      "spinea-sanremo",
+      "spinea-rossignago",
+      "spinea-alfieri",
+      "spinea-giorgione",
+      "miranese-selenia",
+      "miranese-san-giorgio",
+      "miranese-avanti",
+      "miranese-ivancich",
+      "miranese-pergine",
+      "miranese-piemonte",
+      "miranese-lazio",
+      "miranese-calucci",
+      "miranese-giustizia",
+      "miranese-monteverdi",
+      "miranese-vivaldi",
+      "carducci-felisati",
+      "carducci-pascoli",
+      "cappuccina-bembo",
+      "cappuccina-sernaglia",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-7DE",
+   "etichetta": "7DE",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-7D.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "mirano-matteotti",
+      "mirano-centro",
+      "ospedale-mirano",
+      "mirano-fossa",
+      "spinea-orgnano",
+      "spinea-rossignago",
+      "spinea-alfieri",
+      "spinea-giorgione",
+      "trieste-catene",
+      "paolucci-longhena",
+      "rizzardi-carrer",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "paolucci-longhena",
+      "trieste-catene",
+      "spinea-giorgione",
+      "spinea-centro",
+      "spinea-rossignago",
+      "spinea-orgnano",
+      "mirano-fossa",
+      "ospedale-mirano",
+      "mirano-centro",
+      "mirano-matteotti"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-7E",
+   "etichetta": "7E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-7.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "mirano-matteotti",
+      "mirano-perugino",
+      "mirano-grimani",
+      "mirano-gramsci",
+      "mirano-centro",
+      "mirano-pestrino",
+      "mirano-dante",
+      "ospedale-mirano",
+      "mirano-treviso",
+      "mirano-carducci",
+      "mirano-fossa",
+      "spinea-repubblica",
+      "spinea-orgnano",
+      "spinea-pozzuoli",
+      "spinea-villaggio-fiori",
+      "spinea-sanremo",
+      "spinea-rossignago",
+      "spinea-alfieri",
+      "spinea-giorgione",
+      "miranese-selenia",
+      "miranese-san-giorgio",
+      "miranese-avanti",
+      "miranese-ivancich",
+      "miranese-pergine",
+      "miranese-piemonte",
+      "miranese-lazio",
+      "miranese-calucci",
+      "miranese-giustizia",
+      "miranese-monteverdi",
+      "miranese-vivaldi",
+      "carducci-felisati",
+      "carducci-pascoli",
+      "cappuccina-bembo",
+      "cappuccina-sernaglia",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "rampa-cavalcavia-vempa",
+      "cappuccina-sernaglia",
+      "cappuccina-bembo",
+      "carducci-pascoli",
+      "miranese-piave",
+      "miranese-vivaldi",
+      "miranese-monteverdi",
+      "miranese-giustizia",
+      "miranese-calucci",
+      "miranese-lazio",
+      "miranese-piemonte",
+      "miranese-pergine",
+      "miranese-ivancich",
+      "miranese-avanti",
+      "miranese-san-giorgio",
+      "miranese-selenia",
+      "spinea-giorgione",
+      "spinea-centro",
+      "spinea-rossignago",
+      "spinea-villaggio-fiori",
+      "spinea-pozzuoli",
+      "spinea-san-remo",
+      "spinea-orgnano",
+      "spinea-repubblica",
+      "mirano-fossa",
+      "mirano-carducci",
+      "mirano-treviso",
+      "ospedale-mirano",
+      "mirano-dante",
+      "mirano-pestrino",
+      "mirano-centro",
+      "mirano-gramsci",
+      "mirano-grimani",
+      "mirano-matteotti"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-7L",
+   "etichetta": "7L",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-7L.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "cavalcavia-vempa",
+      "cappuccina-sernaglia",
+      "cappuccina-bembo",
+      "carducci-pascoli",
+      "miranese-piave",
+      "miranese-vivaldi",
+      "miranese-monteverdi",
+      "miranese-giustizia",
+      "miranese-calucci",
+      "miranese-lazio",
+      "calabria-campi-sportivi",
+      "mattuglie-perlan",
+      "mattuglie-dignano",
+      "calucci-quarnaro",
+      "gazzera-alta-volpi",
+      "asseggiano-pirano",
+      "asseggiano-morin",
+      "asseggiano-volta",
+      "asseggiano-morin",
+      "asseggiano-pirano",
+      "brendole-arsa",
+      "brendole-promontore",
+      "brendole"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "brendole",
+      "brendole-stignano",
+      "brendole-promontore",
+      "brendole-arsa",
+      "asseggiano-pirano",
+      "asseggiano-morin",
+      "asseggiano-volta",
+      "asseggiano-morin",
+      "asseggiano-pirano",
+      "gazzera-alta-chiesa",
+      "quarnaro-calucci",
+      "mattuglie-dignano",
+      "mattuglie-perlan",
+      "calabria-campi-sportivi",
+      "miranese-lazio",
+      "miranese-calucci",
+      "miranese-giustizia",
+      "miranese-monteverdi",
+      "miranese-vivaldi",
+      "carducci-felisati",
+      "carducci-pascoli",
+      "cappuccina-bembo",
+      "cappuccina-sernaglia",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-80",
+   "etichetta": "80",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-80.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "forte-marghera-aretusa",
+      "forte-marghera-moretti",
+      "forte-marghera-millosevic",
+      "forte-marghera-hermada",
+      "forte-marghera-gerlin",
+      "27-ottobre-d4",
+      "olivi",
+      "carducci-pascoli",
+      "circonvallazione-olimpia",
+      "belfredo-terraglio",
+      "castellana-santa-chiara",
+      "castellana-cipressina",
+      "castellana-bellotto",
+      "ospedale-dell-angelo-sfmr",
+      "castellana-marzenego",
+      "zelarino-carpaccio",
+      "zelarino-chiesa",
+      "zelarino-municipio",
+      "zelarino-parolari",
+      "trivignano-lotto",
+      "trivignano-gozzoli",
+      "trivignano-centro",
+      "trivignano-ca-lin",
+      "trivignano-botticelli",
+      "trivignano-park-p14",
+      "martellago-pree",
+      "martellago-fornace",
+      "martellago-trento",
+      "martellago-verdi",
+      "martellago-piazza-bertati",
+      "martellago"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "martellago",
+      "martellago-grimani",
+      "martellago-verdi",
+      "martellagotrento",
+      "martellago-fornace",
+      "martellago-pree",
+      "trivignano-park-p14",
+      "trivignano-botticelli",
+      "ca-lin-castellana",
+      "ca-lin-pitagora",
+      "ca-lin-eraclito",
+      "ca-lin-pitagora",
+      "ca-lin-castellana",
+      "trivignano-park-b",
+      "trivignano-centro",
+      "trivignano-gozzoli",
+      "trivignano-lotto",
+      "zelarino-parolari",
+      "zelarino-municipio",
+      "zelarino-chiesa",
+      "zelarino-carpaccio",
+      "castellana-marzenego",
+      "castellana-bellotto",
+      "castellana-piazzetta",
+      "castellana-cipressina",
+      "castellana-santa-chiara",
+      "circonvallazione-olimpia",
+      "carducci-pascoli",
+      "olivi",
+      "forte-marghera-gerlin",
+      "forte-marghera-hermada",
+      "forte-marghera-moretti",
+      "forte-marghera-aretusa",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-81F",
+   "etichetta": "81F",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-81F.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "giovannacci-ulloa",
+      "lavelli-paolucci",
+      "sant-antonio-municipio",
+      "paleocapa-parmesan",
+      "trieste-eraclea",
+      "agenzia-entrate"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-84",
+   "etichetta": "84",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-84.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "vespucci-san-giuseppe",
+      "vespucci-boerio",
+      "vespucci-gritti",
+      "vespucci-cattaneo",
+      "vespucci-pigafetta",
+      "vespucci-garigliano",
+      "ca-rossa-volturno",
+      "ca-rossa-oberdan",
+      "ca-rossa-serravalle",
+      "san-dona-val-gardena",
+      "san-dona-pasqualigo",
+      "san-dona-pineta",
+      "san-dona-rielta",
+      "san-dona-cervino",
+      "san-dona-marmolada",
+      "altinia-favaro-municipio",
+      "altinia-san-pietro",
+      "altinia-indri",
+      "altinia-ca-solaro",
+      "altinia-ca-rezzonico",
+      "altinia-ca-badoera",
+      "altinia-forte-cosenz",
+      "altinia-181",
+      "dese-litomarino",
+      "dese-centro",
+      "dese-cicogne",
+      "dese-fs"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "dese-fs",
+      "dese-cicogne",
+      "dese-centro",
+      "dese-litomarino",
+      "altinia-181",
+      "altinia-forte-cosenz",
+      "altinia-ca-badoera",
+      "altinia-ca-rezzonico",
+      "altinia-ca-solaro",
+      "altinia-indri",
+      "altinia-san-pietro",
+      "san-dona-pastrello",
+      "san-dona-marmolada",
+      "san-dona-cervino",
+      "san-dona-rielta",
+      "san-dona-pineta",
+      "san-dona-pasqualigo",
+      "san-dona-val-gardena",
+      "ca-rossa-serravalle",
+      "ca-rossa-oberdan",
+      "ca-rossa-volturno",
+      "vespucci-ca-rossa",
+      "vespucci-garigliano",
+      "vespucci-pigafetta",
+      "vespucci-cattaneo",
+      "vespucci-gritti",
+      "vespucci-boerio",
+      "vespucci-san-giuseppe",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-8E",
+   "etichetta": "8E",
+   "mezzo": "autobus",
+   "colore": "#393185",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://avm.avmspa.it/sites/default/files/attachments/pdf/ES/E-8.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "treviso",
+      "treviso-fs",
+      "treviso-san-zeno",
+      "treviso-loredan",
+      "treviso-san-lazzaro",
+      "treviso-ghirada",
+      "treviso-pindemonte",
+      "treviso-selvatico",
+      "frescada",
+      "dosson",
+      "preganziol-bandiera",
+      "ulss",
+      "preganziol-albrizzi",
+      "san-trovaso",
+      "le-grazie",
+      "preganziol-guizzetti",
+      "preganziol-baratta-nuova",
+      "preganziol-fratelli-cervi",
+      "preganziol-municipio",
+      "sambughe",
+      "campocroce",
+      "mogliano-buratti",
+      "mogliano-marconi",
+      "mogliano-centro",
+      "mogliano-ronzinella",
+      "mogliano-rimini",
+      "mogliano-marignana",
+      "mogliano-marocchesa",
+      "terraglio-gatta",
+      "terraglio-nigra",
+      "terraglio-ca-sagredo",
+      "terraglio-favorita",
+      "terraglio-terraglietto",
+      "terraglio-villa-salus",
+      "terraglio-borgo-pezzana",
+      "terraglio-peschiera",
+      "terraglio-teano",
+      "circonvallazione-olimpia",
+      "carducci-felisati",
+      "carducci-pascoli",
+      "cappuccina-bembo",
+      "cappuccina-sernaglia",
+      "cavalcavia-vempa",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-commercio",
+      "rampa-cavalcavia-vempa",
+      "cappuccina-sernaglia",
+      "cappuccina-bembo",
+      "carducci-pascoli",
+      "circonvallazione-olimpia",
+      "circonvalazione-castellan",
+      "terraglio-teano",
+      "terraglio-peschiera",
+      "terraglio-borgo-pezzana",
+      "terraglio-villa-salus",
+      "terraglio-terraglietto",
+      "terraglio-favorita",
+      "terraglio-ca-sagredo",
+      "terraglio-nigra",
+      "terraglio-gatta",
+      "mogliano-marocchesa",
+      "mogliano-marignana",
+      "mogliano-rimini",
+      "mogliano-ronzinella",
+      "mogliano-centro",
+      "mogliano-marconi",
+      "mogliano-buratti",
+      "campocroce",
+      "sambughe",
+      "preganziol-gabbin",
+      "preganziol-gambino",
+      "preganziol-fratelli-cervi",
+      "preganziol-baratta-nuova",
+      "preganziol-guizzetti",
+      "le-grazie",
+      "santrovaso",
+      "preganziol-albrizzi",
+      "ulss",
+      "preganziol-bandiera",
+      "dosson",
+      "frescada",
+      "treviso-selvatico",
+      "treviso-pindemonte",
+      "treviso-ghirada",
+      "treviso-san-lazzaro",
+      "treviso-loredan",
+      "treviso-san-zeno",
+      "treviso-fs",
+      "treviso"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-PK1",
+   "etichetta": "PK1",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/PK1.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "tronchetto-tronchetto-fer",
+      "tronchetto-vaporetti",
+      "tronchetto-mercato",
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "park-petroli",
+      "p-le-roma",
+      "tronchetto-mercato",
+      "tronchetto-tronchetto-fer"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-PM",
+   "etichetta": "PM",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-PM.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "marittima-cruise-termina",
+      "tronchetto"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "tronchetto",
+      "marittima-cruise-termina",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-N1",
+   "etichetta": "N1",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": true,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-N1.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "orlanda-san-giuliano",
+      "san-marco-forte-marghera",
+      "san-marco-boerio",
+      "san-marco-molmenti",
+      "san-marco-sansovino",
+      "san-marco-musatti",
+      "san-marco-cattaneo",
+      "san-marco-manuzio",
+      "mestre-centro-b2",
+      "olivi",
+      "carducci-pascoli",
+      "piave-puccini",
+      "piave-fiume",
+      "piave-podgora",
+      "stazione-mestre-fs-c3",
+      "cavalcavia-vempa",
+      "liberta-commercio",
+      "liberta-fincantieri",
+      "liberta-porto-marghera",
+      "liberta-righi",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "AUT-N2",
+   "etichetta": "N2",
+   "mezzo": "autobus",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": true,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-N2.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "p-le-roma",
+      "liberta-santa-chiara",
+      "liberta-righi",
+      "liberta-porto-marghera",
+      "liberta-fincantieri",
+      "durando-bellinato",
+      "giovannacci-ulloa",
+      "lavelli-paolucci",
+      "sant-antonio-municipio",
+      "rizzardi-carrer",
+      "corso-del-popolo-torino",
+      "corso-del-popolo-milano",
+      "corso-del-popolo-mestrina",
+      "mestre-centro-b4",
+      "san-marco-manuzio",
+      "san-marco-cattaneo",
+      "san-marco-musatti",
+      "san-marco-sansovino",
+      "san-marco-molmenti",
+      "san-marco-boerio",
+      "san-marco-forte-marghera",
+      "orlanda-san-giuliano",
+      "liberta-santa-chiara",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    }
+   ]
+  },
+  {
+   "id": "TRAM-T1",
+   "etichetta": "T1",
+   "mezzo": "tram",
+   "colore": "#E31E24",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://actv.avmspa.it/sites/default/files/attachments/pdf/UM/U-T_1.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "monte-celo-favaro",
+      "triestina-monte-cimon",
+      "san-dona-pastrello",
+      "san-dona-marmolada",
+      "san-dona-cervino",
+      "san-dona-rielta",
+      "san-dona-pineta",
+      "san-dona-pasqualigo",
+      "san-dona-val-gardena",
+      "ca-rossa-serravalle",
+      "ca-rossa-oberdan",
+      "ca-rossa-volturno",
+      "ca-rossa-bissuola",
+      "mestre-centro-a1",
+      "san-marco-manuzio",
+      "san-marco-cattaneo",
+      "san-marco-musatti",
+      "san-marco-sansovino",
+      "san-marco-molmenti",
+      "san-marco-boerio",
+      "san-marco-forte-marghera",
+      "orlanda-san-giuliano",
+      "p-le-roma"
+     ],
+     "richiesta": []
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "p-le-roma",
+      "orlanda-san-giuliano",
+      "san-marco-forte-marghera",
+      "san-marco-boerio",
+      "san-marco-molmenti",
+      "san-marco-sansovino",
+      "san-marco-musatti",
+      "san-marco-cattaneo",
+      "san-marco-manuzio",
+      "mestre-centro-a4",
+      "ca-rossa-bissuola",
+      "ca-rossa-volturno",
+      "ca-rossa-oberdan",
+      "ca-rossa-serravalle",
+      "san-dona-val-gardena",
+      "san-dona-pasqualigo",
+      "san-dona-pineta",
+      "san-dona-rielta",
+      "san-dona-cervino",
+      "san-dona-marmolada",
+      "san-dona-pastrello",
+      "triestina-monte-cimon",
+      "monte-celo-favaro"
+     ],
+     "richiesta": []
+    }
+   ]
+  }
+ ],
+ "fermate": {
+  "27-ottobre-d3": {
+   "nome": "27 Ottobre D3",
+   "lat": 45.492367,
+   "lon": 12.244761,
+   "linee": []
+  },
+  "27-ottobre-d4": {
+   "nome": "27 Ottobre D4",
+   "lat": 45.491821,
+   "lon": 12.246022,
+   "linee": []
+  },
+  "adria-bindola": {
+   "nome": "Adria Bindola",
+   "lat": 45.065649,
+   "lon": 12.057899,
+   "linee": []
+  },
+  "adria-campelli": {
+   "nome": "Adria Campelli",
+   "lat": 45.095024,
+   "lon": 12.057078,
+   "linee": []
+  },
+  "adria-fs": {
+   "nome": "Adria Fs",
+   "lat": 45.060307,
+   "lon": 12.052425,
+   "linee": []
+  },
+  "adria-marconi": {
+   "nome": "Adria Marconi",
+   "lat": 45.058051,
+   "lon": 12.059069,
+   "linee": []
+  },
+  "adria-sabbioni": {
+   "nome": "Adria Sabbioni",
+   "lat": 45.082075,
+   "lon": 12.058473,
+   "linee": []
+  },
+  "aeroporto-marco-polo": {
+   "nome": "Aeroporto MARCO POLO",
+   "lat": 45.504444,
+   "lon": 12.33909,
+   "linee": []
+  },
+  "altinia-181": {
+   "nome": "ALTINIA 181",
+   "lat": 45.526081,
+   "lon": 12.297092,
+   "linee": []
+  },
+  "altinia-ca-badoera": {
+   "nome": "Altinia Ca' Badoera",
+   "lat": 45.516413,
+   "lon": 12.284111,
+   "linee": []
+  },
+  "altinia-ca-rezzonico": {
+   "nome": "Altinia Ca' Rezzonico",
+   "lat": 45.514395,
+   "lon": 12.28341,
+   "linee": []
+  },
+  "altinia-ca-solaro": {
+   "nome": "Altinia Ca' Solaro",
+   "lat": 45.511454,
+   "lon": 12.282953,
+   "linee": []
+  },
+  "altinia-favaro-municipio": {
+   "nome": "Altinia Favaro Municipio",
+   "lat": 45.505304,
+   "lon": 12.28242,
+   "linee": []
+  },
+  "altinia-forte-cosenz": {
+   "nome": "Altinia Forte Cosenz",
+   "lat": 45.522158,
+   "lon": 12.288327,
+   "linee": []
+  },
+  "altinia-indri": {
+   "nome": "Altinia Indri",
+   "lat": 45.509865,
+   "lon": 12.282481,
+   "linee": []
+  },
+  "altinia-san-pietro": {
+   "nome": "Altinia San Pietro",
+   "lat": 45.507924,
+   "lon": 12.282288,
+   "linee": []
+  },
+  "ancona-carbonifera": {
+   "nome": "Ancona Carbonifera",
+   "lat": 45.48414,
+   "lon": 12.250708,
+   "linee": []
+  },
+  "ancona-torino": {
+   "nome": "Ancona Torino",
+   "lat": 45.482247,
+   "lon": 12.248734,
+   "linee": []
+  },
+  "arzarello-regionale-516": {
+   "nome": "Arzarello regionale 516",
+   "lat": 45.276924,
+   "lon": 12.030139,
+   "linee": []
+  },
+  "arzerello": {
+   "nome": "Arzerello",
+   "lat": 45.27537,
+   "lon": 12.028674,
+   "linee": []
+  },
+  "arzergrande": {
+   "nome": "Arzergrande",
+   "lat": 45.274723,
+   "lon": 12.046801,
+   "linee": []
+  },
+  "arzergrande-roma": {
+   "nome": "Arzergrande Roma",
+   "lat": 45.27393,
+   "lon": 12.056384,
+   "linee": []
+  },
+  "arzergrande-vallonga": {
+   "nome": "Arzergrande Vallonga",
+   "lat": 45.270802,
+   "lon": 12.075128,
+   "linee": []
+  },
+  "asseggiano-morin": {
+   "nome": "Asseggiano Morin",
+   "lat": 45.492925,
+   "lon": 12.213544,
+   "linee": []
+  },
+  "asseggiano-pirano": {
+   "nome": "Asseggiano Pirano",
+   "lat": 45.494515,
+   "lon": 12.216812,
+   "linee": []
+  },
+  "asseggiano-volta": {
+   "nome": "Asseggiano Volta",
+   "lat": 45.49268,
+   "lon": 12.208104,
+   "linee": []
+  },
+  "ballo-borgo-zucchero": {
+   "nome": "Ballo' Borgo Zucchero",
+   "lat": 45.46328,
+   "lon": 12.080031,
+   "linee": []
+  },
+  "ballo-centro": {
+   "nome": "Ballo' Centro",
+   "lat": 45.459791,
+   "lon": 12.068335,
+   "linee": []
+  },
+  "ballo-stazione": {
+   "nome": "Ballo' Stazione",
+   "lat": 45.459082,
+   "lon": 12.072442,
+   "linee": []
+  },
+  "bandiera-cantore": {
+   "nome": "Bandiera Cantore",
+   "lat": 45.472897,
+   "lon": 12.229985,
+   "linee": []
+  },
+  "bandiera-cruto": {
+   "nome": "Bandiera Cruto",
+   "lat": 45.461888,
+   "lon": 12.223533,
+   "linee": []
+  },
+  "bandiera-durando": {
+   "nome": "Bandiera Durando",
+   "lat": 45.477568,
+   "lon": 12.232645,
+   "linee": []
+  },
+  "bandiera-ghega": {
+   "nome": "Bandiera Ghega",
+   "lat": 45.464619,
+   "lon": 12.225147,
+   "linee": []
+  },
+  "bandiera-pila": {
+   "nome": "Bandiera Pila",
+   "lat": 45.479816,
+   "lon": 12.234122,
+   "linee": []
+  },
+  "bandiera-tommaseo": {
+   "nome": "Bandiera Tommaseo",
+   "lat": 45.46842,
+   "lon": 12.22738,
+   "linee": []
+  },
+  "belfredo-terraglio": {
+   "nome": "Belfredo Terraglio",
+   "lat": 45.497818,
+   "lon": 12.238463,
+   "linee": []
+  },
+  "bissuola-esiodo": {
+   "nome": "Bissuola Esiodo",
+   "lat": 45.494074,
+   "lon": 12.264151,
+   "linee": []
+  },
+  "bissuola-varrone": {
+   "nome": "Bissuola Varrone",
+   "lat": 45.493248,
+   "lon": 12.266058,
+   "linee": []
+  },
+  "bojon": {
+   "nome": "Bojon",
+   "lat": 45.337233,
+   "lon": 12.082509,
+   "linee": []
+  },
+  "bojon-chiesa": {
+   "nome": "Bojon Chiesa",
+   "lat": 45.338053,
+   "lon": 12.069784,
+   "linee": []
+  },
+  "bojon-corsivola": {
+   "nome": "Bojon Corsivola",
+   "lat": 45.342213,
+   "lon": 12.065592,
+   "linee": []
+  },
+  "bojon-fs": {
+   "nome": "Bojon FS",
+   "lat": 45.336759,
+   "lon": 12.081115,
+   "linee": []
+  },
+  "bojon-rivelli": {
+   "nome": "Bojon Rivelli",
+   "lat": 45.33822,
+   "lon": 12.06211,
+   "linee": []
+  },
+  "borbiago": {
+   "nome": "Borbiago",
+   "lat": 45.454647,
+   "lon": 12.15273,
+   "linee": []
+  },
+  "borbiago-boldani": {
+   "nome": "Borbiago Boldani",
+   "lat": 45.453241,
+   "lon": 12.144675,
+   "linee": []
+  },
+  "borbiago-centro": {
+   "nome": "Borbiago Centro",
+   "lat": 45.454521,
+   "lon": 12.151527,
+   "linee": []
+  },
+  "borbiago-friuli": {
+   "nome": "Borbiago Friuli",
+   "lat": 45.459221,
+   "lon": 12.164983,
+   "linee": []
+  },
+  "borbiago-milano": {
+   "nome": "Borbiago Milano",
+   "lat": 45.455919,
+   "lon": 12.156353,
+   "linee": []
+  },
+  "borbiago-sardegna": {
+   "nome": "Borbiago Sardegna",
+   "lat": 45.457491,
+   "lon": 12.159937,
+   "linee": []
+  },
+  "brendole": {
+   "nome": "Brendole",
+   "lat": 45.499485,
+   "lon": 12.213419,
+   "linee": []
+  },
+  "brendole-arsa": {
+   "nome": "Brendole Arsa",
+   "lat": 45.49662,
+   "lon": 12.219293,
+   "linee": []
+  },
+  "brendole-promontore": {
+   "nome": "Brendole Promontore",
+   "lat": 45.498726,
+   "lon": 12.217505,
+   "linee": []
+  },
+  "brendole-stignano": {
+   "nome": "Brendole Stignano",
+   "lat": 45.499364,
+   "lon": 12.214374,
+   "linee": []
+  },
+  "brenta-d-abba": {
+   "nome": "Brenta d'Abba'",
+   "lat": 45.229245,
+   "lon": 12.118605,
+   "linee": []
+  },
+  "busa-di-vigonza-centro": {
+   "nome": "Busa di Vigonza Centro",
+   "lat": 45.4281,
+   "lon": 11.952958,
+   "linee": []
+  },
+  "ca-lin-castellana": {
+   "nome": "Ca' Lin Castellana",
+   "lat": 45.530251,
+   "lon": 12.187931,
+   "linee": []
+  },
+  "ca-lin-eraclito": {
+   "nome": "Ca' Lin Eraclito",
+   "lat": 45.535576,
+   "lon": 12.191351,
+   "linee": []
+  },
+  "ca-lin-pitagora": {
+   "nome": "Ca' Lin Pitagora",
+   "lat": 45.532773,
+   "lon": 12.190231,
+   "linee": []
+  },
+  "ca-marcello-cappuccina": {
+   "nome": "Ca' Marcello Cappuccina",
+   "lat": 45.481673,
+   "lon": 12.237719,
+   "linee": []
+  },
+  "ca-marcello-rossetto": {
+   "nome": "Ca' Marcello Rossetto",
+   "lat": 45.478846,
+   "lon": 12.246247,
+   "linee": []
+  },
+  "ca-rossa-bissuola": {
+   "nome": "Ca' Rossa Bissuola",
+   "lat": 45.495968,
+   "lon": 12.248337,
+   "linee": []
+  },
+  "ca-rossa-oberdan": {
+   "nome": "Ca' Rossa Oberdan",
+   "lat": 45.500625,
+   "lon": 12.252576,
+   "linee": []
+  },
+  "ca-rossa-serravalle": {
+   "nome": "Ca' Rossa Serravalle",
+   "lat": 45.502718,
+   "lon": 12.254803,
+   "linee": []
+  },
+  "ca-rossa-volturno": {
+   "nome": "Ca' Rossa Volturno",
+   "lat": 45.498005,
+   "lon": 12.250076,
+   "linee": []
+  },
+  "calabria-campi-sportivi": {
+   "nome": "Calabria campi Sportivi",
+   "lat": 45.489304,
+   "lon": 12.210368,
+   "linee": []
+  },
+  "calcroci": {
+   "nome": "Calcroci",
+   "lat": 45.384989,
+   "lon": 12.09566,
+   "linee": []
+  },
+  "calcroci-cavour": {
+   "nome": "Calcroci Cavour",
+   "lat": 45.384208,
+   "lon": 12.097393,
+   "linee": []
+  },
+  "calcroci-chiesa": {
+   "nome": "Calcroci Chiesa",
+   "lat": 45.385212,
+   "lon": 12.099083,
+   "linee": []
+  },
+  "caltana-sottopasso": {
+   "nome": "Caltana Sottopasso",
+   "lat": 45.46286,
+   "lon": 12.122395,
+   "linee": []
+  },
+  "calucci-quarnaro": {
+   "nome": "Calucci Quarnaro",
+   "lat": 45.492123,
+   "lon": 12.218561,
+   "linee": []
+  },
+  "calvi-parmesan": {
+   "nome": "Calvi Parmesan",
+   "lat": 45.47809,
+   "lon": 12.219704,
+   "linee": []
+  },
+  "campagna-lupia": {
+   "nome": "Campagna Lupia",
+   "lat": 45.357233,
+   "lon": 12.091944,
+   "linee": []
+  },
+  "campagna-lupia-lazzaretto": {
+   "nome": "Campagna Lupia Lazzaretto",
+   "lat": 45.345968,
+   "lon": 12.087614,
+   "linee": []
+  },
+  "campocroce": {
+   "nome": "Campocroce",
+   "lat": 45.584234,
+   "lon": 12.224468,
+   "linee": []
+  },
+  "campolongo": {
+   "nome": "Campolongo",
+   "lat": 45.33098,
+   "lon": 12.048379,
+   "linee": []
+  },
+  "campolongo-8-marzo": {
+   "nome": "Campolongo 8 Marzo",
+   "lat": 45.323479,
+   "lon": 12.043771,
+   "linee": []
+  },
+  "campolongo-alto-adige": {
+   "nome": "Campolongo Alto Adige",
+   "lat": 45.315731,
+   "lon": 12.03818,
+   "linee": []
+  },
+  "campolongo-sopracornio": {
+   "nome": "Campolongo Sopracornio",
+   "lat": 45.353069,
+   "lon": 12.073277,
+   "linee": []
+  },
+  "campolongo-zagallo": {
+   "nome": "Campolongo Zagallo",
+   "lat": 45.348875,
+   "lon": 12.070339,
+   "linee": []
+  },
+  "camponogara-47": {
+   "nome": "Camponogara  47",
+   "lat": 45.383627,
+   "lon": 12.086284,
+   "linee": []
+  },
+  "camponogara-alighieri": {
+   "nome": "Camponogara Alighieri",
+   "lat": 45.36804,
+   "lon": 12.066436,
+   "linee": []
+  },
+  "camponogara-casino-rosso": {
+   "nome": "Camponogara Casino Rosso",
+   "lat": 45.396361,
+   "lon": 12.099907,
+   "linee": []
+  },
+  "camponogara-diedo": {
+   "nome": "Camponogara Diedo",
+   "lat": 45.377529,
+   "lon": 12.095999,
+   "linee": []
+  },
+  "camponogara-iv-novembre": {
+   "nome": "Camponogara IV Novembre",
+   "lat": 45.382528,
+   "lon": 12.078287,
+   "linee": []
+  },
+  "camponogara-matteotti": {
+   "nome": "Camponogara Matteotti",
+   "lat": 45.382616,
+   "lon": 12.076261,
+   "linee": []
+  },
+  "camponogara-pascoli": {
+   "nome": "Camponogara Pascoli",
+   "lat": 45.373775,
+   "lon": 12.068634,
+   "linee": []
+  },
+  "camponogara-volta": {
+   "nome": "Camponogara Volta",
+   "lat": 45.386286,
+   "lon": 12.115788,
+   "linee": []
+  },
+  "canal-leone": {
+   "nome": "Canal Leone",
+   "lat": 45.476574,
+   "lon": 12.222103,
+   "linee": []
+  },
+  "cappella": {
+   "nome": "Cappella",
+   "lat": 45.568424,
+   "lon": 12.146492,
+   "linee": []
+  },
+  "cappuccina-bembo": {
+   "nome": "Cappuccina Bembo",
+   "lat": 45.486652,
+   "lon": 12.238148,
+   "linee": []
+  },
+  "cappuccina-sernaglia": {
+   "nome": "Cappuccina Sernaglia",
+   "lat": 45.484049,
+   "lon": 12.236546,
+   "linee": []
+  },
+  "capriccio-centro": {
+   "nome": "Capriccio Centro",
+   "lat": 45.416481,
+   "lon": 11.993229,
+   "linee": []
+  },
+  "carducci-felisati": {
+   "nome": "Carducci Felisati",
+   "lat": 45.491543,
+   "lon": 12.237827,
+   "linee": []
+  },
+  "carducci-pascoli": {
+   "nome": "Carducci Pascoli",
+   "lat": 45.490975,
+   "lon": 12.239956,
+   "linee": []
+  },
+  "casona-bissuola": {
+   "nome": "Casona Bissuola",
+   "lat": 45.495382,
+   "lon": 12.263689,
+   "linee": []
+  },
+  "casona-marziale": {
+   "nome": "Casona Marziale",
+   "lat": 45.497355,
+   "lon": 12.265353,
+   "linee": []
+  },
+  "casona-vallenari": {
+   "nome": "Casona Vallenari",
+   "lat": 45.499659,
+   "lon": 12.26701,
+   "linee": []
+  },
+  "castellana-bellotto": {
+   "nome": "Castellana Bellotto",
+   "lat": 45.503258,
+   "lon": 12.221114,
+   "linee": []
+  },
+  "castellana-cipressina": {
+   "nome": "Castellana Cipressina",
+   "lat": 45.499724,
+   "lon": 12.227201,
+   "linee": []
+  },
+  "castellana-marzenego": {
+   "nome": "Castellana Marzenego",
+   "lat": 45.506976,
+   "lon": 12.217712,
+   "linee": []
+  },
+  "castellana-piazzetta": {
+   "nome": "Castellana Piazzetta",
+   "lat": 45.500656,
+   "lon": 12.225672,
+   "linee": []
+  },
+  "castellana-santa-chiara": {
+   "nome": "Castellana Santa Chiara",
+   "lat": 45.498354,
+   "lon": 12.232078,
+   "linee": []
+  },
+  "cavalcavia-vempa": {
+   "nome": "Cavalcavia Vempa",
+   "lat": 45.482129,
+   "lon": 12.237877,
+   "linee": []
+  },
+  "cavarzere": {
+   "nome": "Cavarzere",
+   "lat": 45.13232,
+   "lon": 12.081792,
+   "linee": []
+  },
+  "cavarzere-botta": {
+   "nome": "Cavarzere Botta",
+   "lat": 45.110935,
+   "lon": 12.06871,
+   "linee": []
+  },
+  "cavarzere-ca-labia": {
+   "nome": "Cavarzere Ca' Labia",
+   "lat": 45.125694,
+   "lon": 12.076876,
+   "linee": []
+  },
+  "cavarzere-ca-venier": {
+   "nome": "Cavarzere Ca' Venier",
+   "lat": 45.145435,
+   "lon": 12.065998,
+   "linee": []
+  },
+  "cavarzere-coette-alte": {
+   "nome": "Cavarzere Coette Alte",
+   "lat": 45.153336,
+   "lon": 12.057702,
+   "linee": []
+  },
+  "cavarzere-margherita": {
+   "nome": "Cavarzere Margherita",
+   "lat": 45.130751,
+   "lon": 12.078869,
+   "linee": []
+  },
+  "cavarzere-passetto": {
+   "nome": "Cavarzere Passetto",
+   "lat": 45.102842,
+   "lon": 12.059762,
+   "linee": []
+  },
+  "caverzere-ca-venier": {
+   "nome": "Caverzere  Ca' Venier",
+   "lat": 45.145145,
+   "lon": 12.066152,
+   "linee": []
+  },
+  "cazzaghetto-arino": {
+   "nome": "Cazzaghetto Arino",
+   "lat": 45.438786,
+   "lon": 12.048768,
+   "linee": []
+  },
+  "cazzaghetto-industriale": {
+   "nome": "Cazzaghetto Industriale",
+   "lat": 45.439964,
+   "lon": 12.063219,
+   "linee": []
+  },
+  "cazzaghetto-parolini": {
+   "nome": "Cazzaghetto Parolini",
+   "lat": 45.440023,
+   "lon": 12.05538,
+   "linee": []
+  },
+  "cazzago": {
+   "nome": "Cazzago",
+   "lat": 45.439174,
+   "lon": 12.074036,
+   "linee": []
+  },
+  "cazzago-pascoli": {
+   "nome": "Cazzago Pascoli",
+   "lat": 45.434433,
+   "lon": 12.074919,
+   "linee": []
+  },
+  "circonvalazione-castellan": {
+   "nome": "Circonvalazione Castellan",
+   "lat": 45.497604,
+   "lon": 12.236854,
+   "linee": []
+  },
+  "circonvallazione-olimpia": {
+   "nome": "Circonvallazione Olimpia",
+   "lat": 45.495659,
+   "lon": 12.235995,
+   "linee": []
+  },
+  "codevigo": {
+   "nome": "Codevigo",
+   "lat": 45.267792,
+   "lon": 12.102491,
+   "linee": []
+  },
+  "corezzola-sasso": {
+   "nome": "Corezzola Sasso",
+   "lat": 45.236298,
+   "lon": 12.023417,
+   "linee": []
+  },
+  "cornio": {
+   "nome": "Cornio",
+   "lat": 45.35642,
+   "lon": 12.066437,
+   "linee": []
+  },
+  "correnti-capolinea": {
+   "nome": "Correnti Capolinea",
+   "lat": 45.465778,
+   "lon": 12.222633,
+   "linee": []
+  },
+  "correzzola-cantarana": {
+   "nome": "Correzzola Cantarana",
+   "lat": 45.206646,
+   "lon": 12.094908,
+   "linee": []
+  },
+  "corso-del-popolo-mestrina": {
+   "nome": "Corso del Popolo Mestrina",
+   "lat": 45.490364,
+   "lon": 12.24452,
+   "linee": []
+  },
+  "corso-del-popolo-milano": {
+   "nome": "Corso del Popolo Milano",
+   "lat": 45.487774,
+   "lon": 12.242885,
+   "linee": []
+  },
+  "corso-del-popolo-torino": {
+   "nome": "Corso del Popolo Torino",
+   "lat": 45.484554,
+   "lon": 12.241136,
+   "linee": []
+  },
+  "de-nicola-chiesa": {
+   "nome": "De Nicola Chiesa",
+   "lat": 45.508907,
+   "lon": 12.257128,
+   "linee": []
+  },
+  "deposito-della-fisica": {
+   "nome": "Deposito della Fisica",
+   "lat": 45.446209,
+   "lon": 12.207263,
+   "linee": []
+  },
+  "dese-centro": {
+   "nome": "Dese centro",
+   "lat": 45.528919,
+   "lon": 12.304093,
+   "linee": []
+  },
+  "dese-cicogne": {
+   "nome": "Dese Cicogne",
+   "lat": 45.53184,
+   "lon": 12.303204,
+   "linee": []
+  },
+  "dese-fs": {
+   "nome": "Dese FS",
+   "lat": 45.537415,
+   "lon": 12.302074,
+   "linee": []
+  },
+  "dese-litomarino": {
+   "nome": "Dese Litomarino",
+   "lat": 45.526263,
+   "lon": 12.30263,
+   "linee": []
+  },
+  "dolo-bandiera": {
+   "nome": "Dolo Bandiera",
+   "lat": 45.427387,
+   "lon": 12.092853,
+   "linee": []
+  },
+  "dolo-ca-tron": {
+   "nome": "Dolo Ca' Tron",
+   "lat": 45.427014,
+   "lon": 12.086772,
+   "linee": []
+  },
+  "dolo-carrezzioi": {
+   "nome": "Dolo Carrezzioi",
+   "lat": 45.413639,
+   "lon": 12.106759,
+   "linee": []
+  },
+  "dolo-centro": {
+   "nome": "Dolo Centro",
+   "lat": 45.423706,
+   "lon": 12.074746,
+   "linee": []
+  },
+  "dolo-civico-75": {
+   "nome": "Dolo Civico 75",
+   "lat": 45.427477,
+   "lon": 12.104869,
+   "linee": []
+  },
+  "dolo-ferrovia": {
+   "nome": "Dolo Ferrovia",
+   "lat": 45.415527,
+   "lon": 12.120353,
+   "linee": []
+  },
+  "dolo-manzoni": {
+   "nome": "Dolo Manzoni",
+   "lat": 45.425563,
+   "lon": 12.081205,
+   "linee": []
+  },
+  "dolo-marinelle": {
+   "nome": "Dolo Marinelle",
+   "lat": 45.401253,
+   "lon": 12.100975,
+   "linee": []
+  },
+  "dolo-municipio": {
+   "nome": "Dolo Municipio",
+   "lat": 45.426283,
+   "lon": 12.074575,
+   "linee": []
+  },
+  "dolo-ospedale": {
+   "nome": "Dolo Ospedale",
+   "lat": 45.421232,
+   "lon": 12.072046,
+   "linee": []
+  },
+  "don-sturzo-pasqualigo": {
+   "nome": "Don Sturzo Pasqualigo",
+   "lat": 45.507397,
+   "lon": 12.260693,
+   "linee": []
+  },
+  "don-sturzo-vallon": {
+   "nome": "Don Sturzo Vallon",
+   "lat": 45.508545,
+   "lon": 12.255897,
+   "linee": []
+  },
+  "dosson": {
+   "nome": "Dosson",
+   "lat": 45.635727,
+   "lon": 12.240296,
+   "linee": []
+  },
+  "durando-bellinato": {
+   "nome": "Durando Bellinato",
+   "lat": 45.478432,
+   "lon": 12.231878,
+   "linee": []
+  },
+  "einaudi-castelvecchio": {
+   "nome": "Einaudi Castelvecchio",
+   "lat": 45.496544,
+   "lon": 12.239015,
+   "linee": []
+  },
+  "favretti-mestre-fs-c2": {
+   "nome": "Favretti MESTRE FS C2",
+   "lat": 45.48177,
+   "lon": 12.234852,
+   "linee": []
+  },
+  "ferrovia-pionca": {
+   "nome": "Ferrovia Pionca",
+   "lat": 45.442616,
+   "lon": 12.046093,
+   "linee": []
+  },
+  "fiesso-barbariga": {
+   "nome": "Fiesso Barbariga",
+   "lat": 45.412491,
+   "lon": 12.017076,
+   "linee": []
+  },
+  "fiesso-d-artico-bandiera": {
+   "nome": "Fiesso D'Artico Bandiera",
+   "lat": 45.417591,
+   "lon": 12.043486,
+   "linee": []
+  },
+  "fiesso-d-artico-barbariga": {
+   "nome": "Fiesso D'Artico Barbariga",
+   "lat": 45.412476,
+   "lon": 12.016622,
+   "linee": []
+  },
+  "fiesso-d-artico-centro": {
+   "nome": "Fiesso D'Artico Centro",
+   "lat": 45.416811,
+   "lon": 12.031685,
+   "linee": []
+  },
+  "fiesso-d-artico-pioghella": {
+   "nome": "Fiesso D'Artico Pioghella",
+   "lat": 45.415783,
+   "lon": 12.02336,
+   "linee": []
+  },
+  "fiesso-d-artico-piove": {
+   "nome": "Fiesso D'Artico Piove",
+   "lat": 45.418232,
+   "lon": 12.050324,
+   "linee": []
+  },
+  "fiesso-gemito": {
+   "nome": "Fiesso Gemito",
+   "lat": 45.419138,
+   "lon": 12.060191,
+   "linee": []
+  },
+  "fiesso-pioghella": {
+   "nome": "Fiesso Pioghella",
+   "lat": 45.41534,
+   "lon": 12.022698,
+   "linee": []
+  },
+  "fiesso-piove": {
+   "nome": "Fiesso Piove",
+   "lat": 45.418358,
+   "lon": 12.053442,
+   "linee": []
+  },
+  "forte-marghera-aretusa": {
+   "nome": "Forte Marghera Aretusa",
+   "lat": 45.47867,
+   "lon": 12.260656,
+   "linee": []
+  },
+  "forte-marghera-gerlin": {
+   "nome": "Forte Marghera Gerlin",
+   "lat": 45.488208,
+   "lon": 12.250146,
+   "linee": []
+  },
+  "forte-marghera-hermada": {
+   "nome": "Forte Marghera Hermada",
+   "lat": 45.484331,
+   "lon": 12.253756,
+   "linee": []
+  },
+  "forte-marghera-millosevic": {
+   "nome": "Forte Marghera Millosevic",
+   "lat": 45.482405,
+   "lon": 12.255588,
+   "linee": []
+  },
+  "forte-marghera-moretti": {
+   "nome": "Forte Marghera Moretti",
+   "lat": 45.481396,
+   "lon": 12.256525,
+   "linee": []
+  },
+  "frescada": {
+   "nome": "Frescada",
+   "lat": 45.640138,
+   "lon": 12.24079,
+   "linee": []
+  },
+  "galilei-darsena": {
+   "nome": "Galilei Darsena",
+   "lat": 45.503227,
+   "lon": 12.335668,
+   "linee": []
+  },
+  "gambarare-bastie": {
+   "nome": "Gambarare Bastie",
+   "lat": 45.420918,
+   "lon": 12.170952,
+   "linee": []
+  },
+  "gambarare-ca-balletto": {
+   "nome": "Gambarare Ca' Balletto",
+   "lat": 45.430035,
+   "lon": 12.184815,
+   "linee": []
+  },
+  "gardigiano": {
+   "nome": "Gardigiano",
+   "lat": 45.564192,
+   "lon": 12.197118,
+   "linee": []
+  },
+  "gardigiano-donato": {
+   "nome": "Gardigiano Donato",
+   "lat": 45.562423,
+   "lon": 12.208527,
+   "linee": []
+  },
+  "gardigiano-mattarella": {
+   "nome": "Gardigiano Mattarella",
+   "lat": 45.564186,
+   "lon": 12.20336,
+   "linee": []
+  },
+  "garibaldi-carpenedo": {
+   "nome": "Garibaldi  Carpenedo",
+   "lat": 45.504643,
+   "lon": 12.250198,
+   "linee": []
+  },
+  "garibaldi-giardini": {
+   "nome": "Garibaldi Giardini",
+   "lat": 45.502384,
+   "lon": 12.248626,
+   "linee": []
+  },
+  "garibaldi-municipio": {
+   "nome": "Garibaldi Municipio",
+   "lat": 45.496714,
+   "lon": 12.244635,
+   "linee": []
+  },
+  "garibaldi-ognissanti": {
+   "nome": "Garibaldi Ognissanti",
+   "lat": 45.499569,
+   "lon": 12.246658,
+   "linee": []
+  },
+  "gazzera-alta-chiesa": {
+   "nome": "Gazzera Alta Chiesa",
+   "lat": 45.49474,
+   "lon": 12.218385,
+   "linee": []
+  },
+  "gazzera-alta-volpi": {
+   "nome": "Gazzera Alta Volpi",
+   "lat": 45.494141,
+   "lon": 12.21945,
+   "linee": []
+  },
+  "ghebba-lusore": {
+   "nome": "Ghebba Lusore",
+   "lat": 45.460388,
+   "lon": 12.175241,
+   "linee": []
+  },
+  "ghebba-malpaga": {
+   "nome": "Ghebba Malpaga",
+   "lat": 45.4576,
+   "lon": 12.17393,
+   "linee": []
+  },
+  "ghebba-rubaldi": {
+   "nome": "Ghebba Rubaldi",
+   "lat": 45.462318,
+   "lon": 12.175601,
+   "linee": []
+  },
+  "giovannacci-ulloa": {
+   "nome": "Giovannacci Ulloa",
+   "lat": 45.479015,
+   "lon": 12.229121,
+   "linee": []
+  },
+  "gobbi-ca-dolfin": {
+   "nome": "Gobbi Ca' Dolfin",
+   "lat": 45.495884,
+   "lon": 12.287816,
+   "linee": []
+  },
+  "gobbi-don-bosco": {
+   "nome": "Gobbi Don Bosco",
+   "lat": 45.497614,
+   "lon": 12.286168,
+   "linee": []
+  },
+  "gobbi-mandarini": {
+   "nome": "Gobbi Mandarini",
+   "lat": 45.493926,
+   "lon": 12.291348,
+   "linee": []
+  },
+  "gobbi-mirtilli": {
+   "nome": "Gobbi Mirtilli",
+   "lat": 45.49175,
+   "lon": 12.293824,
+   "linee": []
+  },
+  "gobbi-orlanda": {
+   "nome": "Gobbi Orlanda",
+   "lat": 45.487845,
+   "lon": 12.294963,
+   "linee": []
+  },
+  "gobbi-san-dona": {
+   "nome": "Gobbi San Dona'",
+   "lat": 45.504223,
+   "lon": 12.282771,
+   "linee": []
+  },
+  "gobbi-vallenari": {
+   "nome": "Gobbi Vallenari",
+   "lat": 45.501737,
+   "lon": 12.284308,
+   "linee": []
+  },
+  "ilaria-alpi-sfmr-ospedale": {
+   "nome": "Ilaria Alpi SFMR ospedale",
+   "lat": 45.513329,
+   "lon": 12.226008,
+   "linee": []
+  },
+  "lavelli-paolucci": {
+   "nome": "Lavelli Paolucci",
+   "lat": 45.479036,
+   "lon": 12.22576,
+   "linee": []
+  },
+  "le-grazie": {
+   "nome": "Le Grazie",
+   "lat": 45.618963,
+   "lon": 12.238449,
+   "linee": []
+  },
+  "liberta-commercio": {
+   "nome": "Liberta' Commercio",
+   "lat": 45.479082,
+   "lon": 12.24116,
+   "linee": []
+  },
+  "liberta-fincantieri": {
+   "nome": "Liberta' Fincantieri",
+   "lat": 45.475094,
+   "lon": 12.251893,
+   "linee": []
+  },
+  "liberta-porto-marghera": {
+   "nome": "Liberta' Porto Marghera",
+   "lat": 45.471367,
+   "lon": 12.258069,
+   "linee": []
+  },
+  "liberta-righi": {
+   "nome": "Liberta' Righi",
+   "lat": 45.469952,
+   "lon": 12.263734,
+   "linee": []
+  },
+  "liberta-santa-chiara": {
+   "nome": "Liberta' Santa Chiara",
+   "lat": 45.440776,
+   "lon": 12.315666,
+   "linee": []
+  },
+  "lova": {
+   "nome": "Lova",
+   "lat": 45.327448,
+   "lon": 12.133989,
+   "linee": []
+  },
+  "lughetto-marzabotto": {
+   "nome": "Lughetto Marzabotto",
+   "lat": 45.387777,
+   "lon": 12.125588,
+   "linee": []
+  },
+  "lugo": {
+   "nome": "Lugo",
+   "lat": 45.367073,
+   "lon": 12.137863,
+   "linee": []
+  },
+  "maerne-chiesa": {
+   "nome": "Maerne Chiesa",
+   "lat": 45.523739,
+   "lon": 12.158183,
+   "linee": []
+  },
+  "maerne-cimitero": {
+   "nome": "Maerne Cimitero",
+   "lat": 45.521595,
+   "lon": 12.166811,
+   "linee": []
+  },
+  "maerne-circonvallazione": {
+   "nome": "Maerne Circonvallazione",
+   "lat": 45.531956,
+   "lon": 12.15069,
+   "linee": []
+  },
+  "maerne-civico-83": {
+   "nome": "Maerne Civico 83",
+   "lat": 45.534483,
+   "lon": 12.146883,
+   "linee": []
+  },
+  "maerne-mulino": {
+   "nome": "Maerne Mulino",
+   "lat": 45.530373,
+   "lon": 12.152439,
+   "linee": []
+  },
+  "maerne-rialto": {
+   "nome": "Maerne Rialto",
+   "lat": 45.527348,
+   "lon": 12.157339,
+   "linee": []
+  },
+  "maerne-tasso": {
+   "nome": "Maerne Tasso",
+   "lat": 45.523238,
+   "lon": 12.161933,
+   "linee": []
+  },
+  "malcontenta-chiesa": {
+   "nome": "Malcontenta Chiesa",
+   "lat": 45.437369,
+   "lon": 12.205299,
+   "linee": []
+  },
+  "malcontenta-chimica": {
+   "nome": "Malcontenta Chimica",
+   "lat": 45.446447,
+   "lon": 12.211775,
+   "linee": []
+  },
+  "malcontenta-erba": {
+   "nome": "Malcontenta Erba",
+   "lat": 45.445867,
+   "lon": 12.194458,
+   "linee": []
+  },
+  "malcontenta-fimon": {
+   "nome": "Malcontenta Fimon",
+   "lat": 45.439037,
+   "lon": 12.200026,
+   "linee": []
+  },
+  "malcontenta-iseo": {
+   "nome": "Malcontenta Iseo",
+   "lat": 45.442562,
+   "lon": 12.197075,
+   "linee": []
+  },
+  "malcontenta-padana": {
+   "nome": "Malcontenta Padana",
+   "lat": 45.450868,
+   "lon": 12.214014,
+   "linee": []
+  },
+  "marano": {
+   "nome": "Marano",
+   "lat": 45.465313,
+   "lon": 12.116321,
+   "linee": []
+  },
+  "marano-sottopasso": {
+   "nome": "Marano Sottopasso",
+   "lat": 45.462894,
+   "lon": 12.121987,
+   "linee": []
+  },
+  "marghera-romea": {
+   "nome": "Marghera Romea",
+   "lat": 45.390057,
+   "lon": 12.139026,
+   "linee": []
+  },
+  "marittima-cruise-termina": {
+   "nome": "Marittima (Cruise Termina",
+   "lat": 45.440041,
+   "lon": 12.312833,
+   "linee": []
+  },
+  "martellago": {
+   "nome": "Martellago",
+   "lat": 45.543739,
+   "lon": 12.16272,
+   "linee": []
+  },
+  "martellago-ariosto": {
+   "nome": "Martellago Ariosto",
+   "lat": 45.568075,
+   "lon": 12.152873,
+   "linee": []
+  },
+  "martellago-boschi": {
+   "nome": "Martellago Boschi",
+   "lat": 45.550594,
+   "lon": 12.146214,
+   "linee": []
+  },
+  "martellago-ca-combi": {
+   "nome": "Martellago Ca' Combi",
+   "lat": 45.554987,
+   "lon": 12.137412,
+   "linee": []
+  },
+  "martellago-ca-longo": {
+   "nome": "Martellago Ca' Longo",
+   "lat": 45.562279,
+   "lon": 12.129219,
+   "linee": []
+  },
+  "martellago-fornace": {
+   "nome": "Martellago Fornace",
+   "lat": 45.540983,
+   "lon": 12.17123,
+   "linee": []
+  },
+  "martellago-grimani": {
+   "nome": "Martellago Grimani",
+   "lat": 45.545868,
+   "lon": 12.15889,
+   "linee": []
+  },
+  "martellago-guizza": {
+   "nome": "Martellago Guizza",
+   "lat": 45.567718,
+   "lon": 12.160535,
+   "linee": []
+  },
+  "martellago-piazza-bertati": {
+   "nome": "Martellago Piazza Bertati",
+   "lat": 45.54586,
+   "lon": 12.157487,
+   "linee": []
+  },
+  "martellago-pree": {
+   "nome": "Martellago Pree",
+   "lat": 45.538302,
+   "lon": 12.175554,
+   "linee": []
+  },
+  "martellago-santo-stefano": {
+   "nome": "Martellago Santo Stefano",
+   "lat": 45.548008,
+   "lon": 12.15196,
+   "linee": []
+  },
+  "martellago-trento": {
+   "nome": "Martellago Trento",
+   "lat": 45.543392,
+   "lon": 12.167814,
+   "linee": []
+  },
+  "martellago-verdi": {
+   "nome": "Martellago Verdi",
+   "lat": 45.545574,
+   "lon": 12.162884,
+   "linee": []
+  },
+  "martellago-vittoria": {
+   "nome": "Martellago Vittoria",
+   "lat": 45.546692,
+   "lon": 12.157217,
+   "linee": []
+  },
+  "martellagotrento": {
+   "nome": "MartellagoTrento",
+   "lat": 45.543552,
+   "lon": 12.167504,
+   "linee": []
+  },
+  "mattuglie-dignano": {
+   "nome": "Mattuglie Dignano",
+   "lat": 45.490551,
+   "lon": 12.215933,
+   "linee": []
+  },
+  "mattuglie-perlan": {
+   "nome": "Mattuglie Perlan",
+   "lat": 45.490808,
+   "lon": 12.212374,
+   "linee": []
+  },
+  "mellaredo-cavinello": {
+   "nome": "Mellaredo Cavinello",
+   "lat": 45.459606,
+   "lon": 11.992663,
+   "linee": []
+  },
+  "mellaredo-vivaldi": {
+   "nome": "Mellaredo Vivaldi",
+   "lat": 45.459165,
+   "lon": 11.995911,
+   "linee": []
+  },
+  "mestre-centro-a1": {
+   "nome": "MESTRE CENTRO A1",
+   "lat": 45.49316,
+   "lon": 12.245396,
+   "linee": []
+  },
+  "mestre-centro-a4": {
+   "nome": "MESTRE CENTRO A4",
+   "lat": 45.493198,
+   "lon": 12.245523,
+   "linee": []
+  },
+  "mestre-centro-b1": {
+   "nome": "Mestre Centro B1",
+   "lat": 45.493416,
+   "lon": 12.245515,
+   "linee": []
+  },
+  "mestre-centro-b2": {
+   "nome": "MESTRE CENTRO B2",
+   "lat": 45.492989,
+   "lon": 12.245829,
+   "linee": []
+  },
+  "mestre-centro-b4": {
+   "nome": "MESTRE CENTRO B4",
+   "lat": 45.493073,
+   "lon": 12.246053,
+   "linee": []
+  },
+  "mestre-centro-b7": {
+   "nome": "MESTRE CENTRO B7",
+   "lat": 45.493145,
+   "lon": 12.245958,
+   "linee": []
+  },
+  "mira-25-aprile": {
+   "nome": "Mira 25 Aprile",
+   "lat": 45.417102,
+   "lon": 12.152228,
+   "linee": []
+  },
+  "mira-albrizzi": {
+   "nome": "Mira Albrizzi",
+   "lat": 45.432205,
+   "lon": 12.113926,
+   "linee": []
+  },
+  "mira-alighieri": {
+   "nome": "Mira Alighieri",
+   "lat": 45.436379,
+   "lon": 12.130879,
+   "linee": []
+  },
+  "mira-campi": {
+   "nome": "Mira Campi",
+   "lat": 45.419208,
+   "lon": 12.140754,
+   "linee": []
+  },
+  "mira-centro": {
+   "nome": "MIra centro",
+   "lat": 45.433414,
+   "lon": 12.121724,
+   "linee": []
+  },
+  "mira-montessori": {
+   "nome": "Mira Montessori",
+   "lat": 45.417853,
+   "lon": 12.132379,
+   "linee": []
+  },
+  "mira-piazza-vecchia": {
+   "nome": "Mira Piazza Vecchia",
+   "lat": 45.417309,
+   "lon": 12.147832,
+   "linee": []
+  },
+  "mira-porte": {
+   "nome": "Mira Porte",
+   "lat": 45.439945,
+   "lon": 12.140551,
+   "linee": []
+  },
+  "mira-riscossa": {
+   "nome": "Mira Riscossa",
+   "lat": 45.4419,
+   "lon": 12.146624,
+   "linee": []
+  },
+  "mira-san-monte": {
+   "nome": "Mira San Monte",
+   "lat": 45.456278,
+   "lon": 12.132396,
+   "linee": []
+  },
+  "miranese-avanti": {
+   "nome": "Miranese Avanti",
+   "lat": 45.484617,
+   "lon": 12.194549,
+   "linee": []
+  },
+  "miranese-calucci": {
+   "nome": "Miranese Calucci",
+   "lat": 45.485545,
+   "lon": 12.216096,
+   "linee": []
+  },
+  "miranese-giustizia": {
+   "nome": "Miranese Giustizia",
+   "lat": 45.486058,
+   "lon": 12.220538,
+   "linee": []
+  },
+  "miranese-ivancich": {
+   "nome": "Miranese Ivancich",
+   "lat": 45.484803,
+   "lon": 12.19768,
+   "linee": []
+  },
+  "miranese-lazio": {
+   "nome": "Miranese Lazio",
+   "lat": 45.485281,
+   "lon": 12.212544,
+   "linee": []
+  },
+  "miranese-monteverdi": {
+   "nome": "Miranese Monteverdi",
+   "lat": 45.490488,
+   "lon": 12.226084,
+   "linee": []
+  },
+  "miranese-pergine": {
+   "nome": "Miranese Pergine",
+   "lat": 45.484926,
+   "lon": 12.202718,
+   "linee": []
+  },
+  "miranese-piave": {
+   "nome": "Miranese Piave",
+   "lat": 45.492069,
+   "lon": 12.235269,
+   "linee": []
+  },
+  "miranese-piemonte": {
+   "nome": "Miranese Piemonte",
+   "lat": 45.484997,
+   "lon": 12.209153,
+   "linee": []
+  },
+  "miranese-san-giorgio": {
+   "nome": "Miranese San Giorgio",
+   "lat": 45.484587,
+   "lon": 12.188814,
+   "linee": []
+  },
+  "miranese-selenia": {
+   "nome": "Miranese Selenia",
+   "lat": 45.485689,
+   "lon": 12.182095,
+   "linee": []
+  },
+  "miranese-vivaldi": {
+   "nome": "Miranese Vivaldi",
+   "lat": 45.492128,
+   "lon": 12.230317,
+   "linee": []
+  },
+  "mirano-boschette": {
+   "nome": "Mirano Boschette",
+   "lat": 45.504143,
+   "lon": 12.109594,
+   "linee": []
+  },
+  "mirano-caboto": {
+   "nome": "Mirano Caboto",
+   "lat": 45.492125,
+   "lon": 12.119953,
+   "linee": []
+  },
+  "mirano-carducci": {
+   "nome": "Mirano Carducci",
+   "lat": 45.497552,
+   "lon": 12.124532,
+   "linee": []
+  },
+  "mirano-centro": {
+   "nome": "Mirano Centro",
+   "lat": 45.491409,
+   "lon": 12.109923,
+   "linee": []
+  },
+  "mirano-dante": {
+   "nome": "Mirano Dante",
+   "lat": 45.493091,
+   "lon": 12.115933,
+   "linee": []
+  },
+  "mirano-fossa": {
+   "nome": "Mirano Fossa",
+   "lat": 45.495281,
+   "lon": 12.13514,
+   "linee": []
+  },
+  "mirano-gramsci": {
+   "nome": "Mirano Gramsci",
+   "lat": 45.490354,
+   "lon": 12.105849,
+   "linee": []
+  },
+  "mirano-grimani": {
+   "nome": "Mirano Grimani",
+   "lat": 45.492206,
+   "lon": 12.102618,
+   "linee": []
+  },
+  "mirano-luneo": {
+   "nome": "Mirano Luneo",
+   "lat": 45.511395,
+   "lon": 12.11299,
+   "linee": []
+  },
+  "mirano-mariutto": {
+   "nome": "Mirano Mariutto",
+   "lat": 45.496027,
+   "lon": 12.112348,
+   "linee": []
+  },
+  "mirano-matteotti": {
+   "nome": "Mirano Matteotti",
+   "lat": 45.494654,
+   "lon": 12.093005,
+   "linee": []
+  },
+  "mirano-parini": {
+   "nome": "Mirano Parini",
+   "lat": 45.493729,
+   "lon": 12.125761,
+   "linee": []
+  },
+  "mirano-perugino": {
+   "nome": "Mirano Perugino",
+   "lat": 45.493114,
+   "lon": 12.096655,
+   "linee": []
+  },
+  "mirano-pestrino": {
+   "nome": "Mirano Pestrino",
+   "lat": 45.490817,
+   "lon": 12.113512,
+   "linee": []
+  },
+  "mirano-treviso": {
+   "nome": "Mirano Treviso",
+   "lat": 45.498305,
+   "lon": 12.118783,
+   "linee": []
+  },
+  "mirano-volpino": {
+   "nome": "Mirano Volpino",
+   "lat": 45.461935,
+   "lon": 12.052221,
+   "linee": []
+  },
+  "mogliano-buratti": {
+   "nome": "Mogliano Buratti",
+   "lat": 45.571027,
+   "lon": 12.235112,
+   "linee": []
+  },
+  "mogliano-centro": {
+   "nome": "Mogliano Centro",
+   "lat": 45.559935,
+   "lon": 12.23474,
+   "linee": []
+  },
+  "mogliano-ghetto": {
+   "nome": "Mogliano Ghetto",
+   "lat": 45.558266,
+   "lon": 12.220327,
+   "linee": []
+  },
+  "mogliano-marconi": {
+   "nome": "Mogliano Marconi",
+   "lat": 45.567032,
+   "lon": 12.235251,
+   "linee": []
+  },
+  "mogliano-marignana": {
+   "nome": "Mogliano Marignana",
+   "lat": 45.542688,
+   "lon": 12.236486,
+   "linee": []
+  },
+  "mogliano-marocchesa": {
+   "nome": "Mogliano Marocchesa",
+   "lat": 45.538095,
+   "lon": 12.238879,
+   "linee": []
+  },
+  "mogliano-meucci": {
+   "nome": "Mogliano Meucci",
+   "lat": 45.556343,
+   "lon": 12.229142,
+   "linee": []
+  },
+  "mogliano-rimini": {
+   "nome": "Mogliano Rimini",
+   "lat": 45.549471,
+   "lon": 12.234556,
+   "linee": []
+  },
+  "mogliano-ronzinella": {
+   "nome": "Mogliano Ronzinella",
+   "lat": 45.553639,
+   "lon": 12.234291,
+   "linee": []
+  },
+  "mogliano-terraglio": {
+   "nome": "Mogliano Terraglio",
+   "lat": 45.560276,
+   "lon": 12.234124,
+   "linee": []
+  },
+  "monsole-venezia": {
+   "nome": "Monsole Venezia",
+   "lat": 45.201487,
+   "lon": 12.0716,
+   "linee": []
+  },
+  "monte-celo-favaro": {
+   "nome": "Monte Celo Favaro",
+   "lat": 45.505918,
+   "lon": 12.290909,
+   "linee": []
+  },
+  "noale": {
+   "nome": "Noale",
+   "lat": 45.552937,
+   "lon": 12.067926,
+   "linee": []
+  },
+  "noale-bacchiglione": {
+   "nome": "Noale Bacchiglione",
+   "lat": 45.548285,
+   "lon": 12.083441,
+   "linee": []
+  },
+  "noale-dei-novale": {
+   "nome": "Noale Dei Novale",
+   "lat": 45.549868,
+   "lon": 12.076911,
+   "linee": []
+  },
+  "noale-lancerotto": {
+   "nome": "Noale Lancerotto",
+   "lat": 45.547168,
+   "lon": 12.0785,
+   "linee": []
+  },
+  "noale-livenza": {
+   "nome": "Noale Livenza",
+   "lat": 45.546496,
+   "lon": 12.094224,
+   "linee": []
+  },
+  "noale-ongari": {
+   "nome": "Noale Ongari",
+   "lat": 45.549192,
+   "lon": 12.078057,
+   "linee": []
+  },
+  "noale-ospedale": {
+   "nome": "Noale Ospedale",
+   "lat": 45.5527,
+   "lon": 12.07479,
+   "linee": []
+  },
+  "noale-spagnolo": {
+   "nome": "Noale Spagnolo",
+   "lat": 45.547415,
+   "lon": 12.088802,
+   "linee": []
+  },
+  "noale-zona-industriale": {
+   "nome": "Noale Zona Industriale",
+   "lat": 45.545395,
+   "lon": 12.100922,
+   "linee": []
+  },
+  "olivi": {
+   "nome": "Olivi",
+   "lat": 45.491652,
+   "lon": 12.241764,
+   "linee": []
+  },
+  "olmo-calvi": {
+   "nome": "Olmo Calvi",
+   "lat": 45.520343,
+   "lon": 12.17287,
+   "linee": []
+  },
+  "olmo-giovanni-xxiii": {
+   "nome": "Olmo Giovanni XXIII",
+   "lat": 45.517332,
+   "lon": 12.186242,
+   "linee": []
+  },
+  "olmo-minzoni": {
+   "nome": "Olmo Minzoni",
+   "lat": 45.518507,
+   "lon": 12.182278,
+   "linee": []
+  },
+  "olmo-papa-luciani": {
+   "nome": "Olmo Papa Luciani",
+   "lat": 45.519241,
+   "lon": 12.178049,
+   "linee": []
+  },
+  "olmo-pellico": {
+   "nome": "Olmo Pellico",
+   "lat": 45.516663,
+   "lon": 12.189267,
+   "linee": []
+  },
+  "oraigo-adige": {
+   "nome": "Oraigo Adige",
+   "lat": 45.456226,
+   "lon": 12.173573,
+   "linee": []
+  },
+  "oriago-centro": {
+   "nome": "Oriago Centro",
+   "lat": 45.451355,
+   "lon": 12.170829,
+   "linee": []
+  },
+  "oriago-ferrovia": {
+   "nome": "Oriago Ferrovia",
+   "lat": 45.454449,
+   "lon": 12.173324,
+   "linee": []
+  },
+  "oriago-marche": {
+   "nome": "Oriago Marche",
+   "lat": 45.456232,
+   "lon": 12.171356,
+   "linee": []
+  },
+  "oriago-romagna": {
+   "nome": "Oriago Romagna",
+   "lat": 45.453505,
+   "lon": 12.177318,
+   "linee": []
+  },
+  "oriago-sommo": {
+   "nome": "Oriago Sommo",
+   "lat": 45.446329,
+   "lon": 12.159648,
+   "linee": []
+  },
+  "oriago-stazione": {
+   "nome": "Oriago Stazione",
+   "lat": 45.449036,
+   "lon": 12.166099,
+   "linee": []
+  },
+  "orlanda-200": {
+   "nome": "ORLANDA 200",
+   "lat": 45.496923,
+   "lon": 12.316073,
+   "linee": []
+  },
+  "orlanda-appia": {
+   "nome": "Orlanda Appia",
+   "lat": 45.479939,
+   "lon": 12.270782,
+   "linee": []
+  },
+  "orlanda-bagaron": {
+   "nome": "Orlanda Bagaron",
+   "lat": 45.48542,
+   "lon": 12.287821,
+   "linee": []
+  },
+  "orlanda-casilina": {
+   "nome": "Orlanda Casilina",
+   "lat": 45.488833,
+   "lon": 12.301278,
+   "linee": []
+  },
+  "orlanda-cavergnago": {
+   "nome": "Orlanda Cavergnago",
+   "lat": 45.483076,
+   "lon": 12.276371,
+   "linee": []
+  },
+  "orlanda-centro-ippico": {
+   "nome": "Orlanda Centro Ippico",
+   "lat": 45.49431,
+   "lon": 12.311699,
+   "linee": []
+  },
+  "orlanda-don-vecchi": {
+   "nome": "Orlanda Don Vecchi",
+   "lat": 45.490485,
+   "lon": 12.304085,
+   "linee": []
+  },
+  "orlanda-pinerolo": {
+   "nome": "Orlanda Pinerolo",
+   "lat": 45.500803,
+   "lon": 12.322647,
+   "linee": []
+  },
+  "orlanda-piovega": {
+   "nome": "Orlanda Piovega",
+   "lat": 45.499138,
+   "lon": 12.319809,
+   "linee": []
+  },
+  "orlanda-sabbadino": {
+   "nome": "Orlanda Sabbadino",
+   "lat": 45.484486,
+   "lon": 12.282879,
+   "linee": []
+  },
+  "orlanda-san-giuliano": {
+   "nome": "Orlanda San Giuliano",
+   "lat": 45.474158,
+   "lon": 12.26854,
+   "linee": []
+  },
+  "orlanda-tiburtina": {
+   "nome": "Orlanda Tiburtina",
+   "lat": 45.486566,
+   "lon": 12.293605,
+   "linee": []
+  },
+  "ospedale-dell-angelo-sfmr": {
+   "nome": "Ospedale dell'Angelo SFMR",
+   "lat": 45.513295,
+   "lon": 12.225379,
+   "linee": []
+  },
+  "ospedale-mirano": {
+   "nome": "Ospedale Mirano",
+   "lat": 45.497841,
+   "lon": 12.115094,
+   "linee": []
+  },
+  "p-le-roma": {
+   "nome": "P.le Roma",
+   "lat": 45.438059,
+   "lon": 12.318821,
+   "linee": []
+  },
+  "padana-avena": {
+   "nome": "Padana Avena",
+   "lat": 45.456585,
+   "lon": 12.218234,
+   "linee": []
+  },
+  "padana-civico-338": {
+   "nome": "Padana Civico 338",
+   "lat": 45.451506,
+   "lon": 12.183149,
+   "linee": []
+  },
+  "padana-del-luccio": {
+   "nome": "Padana del Luccio",
+   "lat": 45.449146,
+   "lon": 12.203115,
+   "linee": []
+  },
+  "padana-delle-trote": {
+   "nome": "Padana delle Trote",
+   "lat": 45.448694,
+   "lon": 12.199499,
+   "linee": []
+  },
+  "padana-stazione": {
+   "nome": "Padana Stazione",
+   "lat": 45.448487,
+   "lon": 12.193034,
+   "linee": []
+  },
+  "padova-est": {
+   "nome": "Padova Est",
+   "lat": 45.420084,
+   "lon": 11.933768,
+   "linee": []
+  },
+  "padova-fiera": {
+   "nome": "Padova Fiera",
+   "lat": 45.413386,
+   "lon": 11.889355,
+   "linee": []
+  },
+  "padova-san-lazzaro": {
+   "nome": "Padova San Lazzaro",
+   "lat": 45.417578,
+   "lon": 11.925266,
+   "linee": []
+  },
+  "padova-turazza": {
+   "nome": "Padova Turazza",
+   "lat": 45.409243,
+   "lon": 11.902106,
+   "linee": []
+  },
+  "paganello-ticozzi": {
+   "nome": "Paganello Ticozzi",
+   "lat": 45.477134,
+   "lon": 12.250471,
+   "linee": []
+  },
+  "paleocapa-parmesan": {
+   "nome": "Paleocapa Parmesan",
+   "lat": 45.476954,
+   "lon": 12.220277,
+   "linee": []
+  },
+  "paolucci-longhena": {
+   "nome": "Paolucci Longhena",
+   "lat": 45.479793,
+   "lon": 12.224716,
+   "linee": []
+  },
+  "park-petroli": {
+   "nome": "Park Petroli",
+   "lat": 45.465397,
+   "lon": 12.266901,
+   "linee": []
+  },
+  "pasqualigo-martiri": {
+   "nome": "Pasqualigo Martiri",
+   "lat": 45.509407,
+   "lon": 12.26265,
+   "linee": []
+  },
+  "pasqualigo-monte-rua": {
+   "nome": "Pasqualigo Monte Rua",
+   "lat": 45.505644,
+   "lon": 12.260863,
+   "linee": []
+  },
+  "passetto-campelli": {
+   "nome": "Passetto Campelli",
+   "lat": 45.095409,
+   "lon": 12.056886,
+   "linee": []
+  },
+  "passo-campalto-orlanda": {
+   "nome": "Passo Campalto Orlanda",
+   "lat": 45.486078,
+   "lon": 12.295753,
+   "linee": []
+  },
+  "pegolotte": {
+   "nome": "Pegolotte",
+   "lat": 45.193722,
+   "lon": 12.039648,
+   "linee": []
+  },
+  "pegolotte-piera": {
+   "nome": "Pegolotte Piera",
+   "lat": 45.189188,
+   "lon": 12.038311,
+   "linee": []
+  },
+  "perarolo-quartiere-pavan": {
+   "nome": "Perarolo Quartiere Pavan",
+   "lat": 45.421871,
+   "lon": 11.979071,
+   "linee": []
+  },
+  "peron-baseggio": {
+   "nome": "Peron Baseggio",
+   "lat": 45.517528,
+   "lon": 12.231525,
+   "linee": []
+  },
+  "peron-saragat": {
+   "nome": "Peron Saragat",
+   "lat": 45.515202,
+   "lon": 12.231407,
+   "linee": []
+  },
+  "pertini-chiesa": {
+   "nome": "Pertini Chiesa",
+   "lat": 45.486109,
+   "lon": 12.270504,
+   "linee": []
+  },
+  "pertini-foscari": {
+   "nome": "Pertini Foscari",
+   "lat": 45.491009,
+   "lon": 12.269317,
+   "linee": []
+  },
+  "pertini-vespucci": {
+   "nome": "Pertini Vespucci",
+   "lat": 45.482056,
+   "lon": 12.26835,
+   "linee": []
+  },
+  "peseggia": {
+   "nome": "Peseggia",
+   "lat": 45.562162,
+   "lon": 12.180991,
+   "linee": []
+  },
+  "peseggia-canove": {
+   "nome": "Peseggia  Canove",
+   "lat": 45.562627,
+   "lon": 12.170958,
+   "linee": []
+  },
+  "peseggia-perosi": {
+   "nome": "Peseggia Perosi",
+   "lat": 45.563192,
+   "lon": 12.190746,
+   "linee": []
+  },
+  "peseggia-vittorio-veneto": {
+   "nome": "Peseggia  Vittorio Veneto",
+   "lat": 45.562489,
+   "lon": 12.185994,
+   "linee": []
+  },
+  "pianiga-accoppe": {
+   "nome": "Pianiga Accoppe'",
+   "lat": 45.453024,
+   "lon": 12.046966,
+   "linee": []
+  },
+  "pianiga-bosco": {
+   "nome": "Pianiga Bosco",
+   "lat": 45.455349,
+   "lon": 12.028543,
+   "linee": []
+  },
+  "pianiga-roma": {
+   "nome": "Pianiga Roma",
+   "lat": 45.456701,
+   "lon": 12.024146,
+   "linee": []
+  },
+  "piave-fiume": {
+   "nome": "Piave Fiume",
+   "lat": 45.487543,
+   "lon": 12.234271,
+   "linee": []
+  },
+  "piave-podgora": {
+   "nome": "Piave Podgora",
+   "lat": 45.484922,
+   "lon": 12.233234,
+   "linee": []
+  },
+  "piave-puccini": {
+   "nome": "Piave Puccini",
+   "lat": 45.490698,
+   "lon": 12.235466,
+   "linee": []
+  },
+  "piazza-mercato": {
+   "nome": "Piazza Mercato",
+   "lat": 45.473909,
+   "lon": 12.223715,
+   "linee": []
+  },
+  "piove-di-sacco": {
+   "nome": "Piove di Sacco",
+   "lat": 45.298333,
+   "lon": 12.034691,
+   "linee": []
+  },
+  "piove-di-sacco-rotonda": {
+   "nome": "Piove di Sacco Rotonda",
+   "lat": 45.303739,
+   "lon": 12.038511,
+   "linee": []
+  },
+  "ponte-di-brenta-centro": {
+   "nome": "Ponte di Brenta Centro",
+   "lat": 45.425223,
+   "lon": 11.946474,
+   "linee": []
+  },
+  "ponte-di-brenta-lago": {
+   "nome": "Ponte di Brenta Lago",
+   "lat": 45.42362,
+   "lon": 11.942574,
+   "linee": []
+  },
+  "pontelongo-garibaldi": {
+   "nome": "Pontelongo Garibaldi",
+   "lat": 45.24387,
+   "lon": 12.024399,
+   "linee": []
+  },
+  "pontelongo-stazione": {
+   "nome": "Pontelongo Stazione",
+   "lat": 45.251057,
+   "lon": 12.027088,
+   "linee": []
+  },
+  "preganziol-albrizzi": {
+   "nome": "Preganziol Albrizzi",
+   "lat": 45.628405,
+   "lon": 12.23971,
+   "linee": []
+  },
+  "preganziol-bandiera": {
+   "nome": "Preganziol  Bandiera",
+   "lat": 45.633823,
+   "lon": 12.239976,
+   "linee": []
+  },
+  "preganziol-baratta-nuova": {
+   "nome": "Preganziol  Baratta Nuova",
+   "lat": 45.610973,
+   "lon": 12.236671,
+   "linee": []
+  },
+  "preganziol-fratelli-cervi": {
+   "nome": "Preganziol Fratelli Cervi",
+   "lat": 45.605982,
+   "lon": 12.235831,
+   "linee": []
+  },
+  "preganziol-gabbin": {
+   "nome": "Preganziol Gabbin",
+   "lat": 45.601334,
+   "lon": 12.235251,
+   "linee": []
+  },
+  "preganziol-gambino": {
+   "nome": "Preganziol Gambino",
+   "lat": 45.604301,
+   "lon": 12.23562,
+   "linee": []
+  },
+  "preganziol-guizzetti": {
+   "nome": "Preganziol  Guizzetti",
+   "lat": 45.616058,
+   "lon": 12.237883,
+   "linee": []
+  },
+  "preganziol-municipio": {
+   "nome": "Preganziol Municipio",
+   "lat": 45.602211,
+   "lon": 12.235058,
+   "linee": []
+  },
+  "premaore": {
+   "nome": "Premaore",
+   "lat": 45.362558,
+   "lon": 12.068623,
+   "linee": []
+  },
+  "prozzolo": {
+   "nome": "Prozzolo",
+   "lat": 45.367523,
+   "lon": 12.094012,
+   "linee": []
+  },
+  "prozzolo-chiesa": {
+   "nome": "Prozzolo Chiesa",
+   "lat": 45.370831,
+   "lon": 12.086788,
+   "linee": []
+  },
+  "prozzolotogliatti": {
+   "nome": "ProzzoloTogliatti",
+   "lat": 45.368835,
+   "lon": 12.092979,
+   "linee": []
+  },
+  "quarnaro-calucci": {
+   "nome": "Quarnaro Calucci",
+   "lat": 45.492344,
+   "lon": 12.218122,
+   "linee": []
+  },
+  "rampa-cavalcavia-vempa": {
+   "nome": "Rampa Cavalcavia Vempa",
+   "lat": 45.482212,
+   "lon": 12.237875,
+   "linee": []
+  },
+  "rielta-ca-rossa": {
+   "nome": "Rielta Ca' Rossa",
+   "lat": 45.502201,
+   "lon": 12.255488,
+   "linee": []
+  },
+  "rielta-parco-bissuola": {
+   "nome": "Rielta Parco Bissuola",
+   "lat": 45.502338,
+   "lon": 12.260176,
+   "linee": []
+  },
+  "rinascita-beccaria": {
+   "nome": "Rinascita Beccaria",
+   "lat": 45.469932,
+   "lon": 12.22244,
+   "linee": []
+  },
+  "risorgimento-miranese": {
+   "nome": "Risorgimento Miranese",
+   "lat": 45.485134,
+   "lon": 12.187462,
+   "linee": []
+  },
+  "rivale-bosco": {
+   "nome": "Rivale Bosco",
+   "lat": 45.456116,
+   "lon": 12.012262,
+   "linee": []
+  },
+  "rivale-chiesa": {
+   "nome": "Rivale Chiesa",
+   "lat": 45.4573,
+   "lon": 12.005937,
+   "linee": []
+  },
+  "rizzardi-carrer": {
+   "nome": "Rizzardi Carrer",
+   "lat": 45.479492,
+   "lon": 12.231233,
+   "linee": []
+  },
+  "robegano-25-aprile": {
+   "nome": "Robegano 25 Aprile",
+   "lat": 45.537231,
+   "lon": 12.139228,
+   "linee": []
+  },
+  "robegano-centro": {
+   "nome": "Robegano Centro",
+   "lat": 45.541342,
+   "lon": 12.125074,
+   "linee": []
+  },
+  "robegano-monte-grappa": {
+   "nome": "Robegano Monte Grappa",
+   "lat": 45.543591,
+   "lon": 12.111434,
+   "linee": []
+  },
+  "robegano-puccini": {
+   "nome": "Robegano Puccini",
+   "lat": 45.542284,
+   "lon": 12.119307,
+   "linee": []
+  },
+  "romea-bastie": {
+   "nome": "Romea Bastie",
+   "lat": 45.41954,
+   "lon": 12.169064,
+   "linee": []
+  },
+  "romea-ca-balletto": {
+   "nome": "Romea Ca' Balletto",
+   "lat": 45.430428,
+   "lon": 12.185611,
+   "linee": []
+  },
+  "romea-canale-piccolo": {
+   "nome": "Romea Canale Piccolo",
+   "lat": 45.340117,
+   "lon": 12.135184,
+   "linee": []
+  },
+  "romea-giare": {
+   "nome": "Romea Giare",
+   "lat": 45.400891,
+   "lon": 12.147367,
+   "linee": []
+  },
+  "romea-lughetto": {
+   "nome": "Romea Lughetto",
+   "lat": 45.390304,
+   "lon": 12.139799,
+   "linee": []
+  },
+  "romea-malcanton": {
+   "nome": "Romea Malcanton",
+   "lat": 45.435499,
+   "lon": 12.193016,
+   "linee": []
+  },
+  "rosara": {
+   "nome": "Rosara",
+   "lat": 45.289926,
+   "lon": 12.119799,
+   "linee": []
+  },
+  "sabbadino-bagaron": {
+   "nome": "Sabbadino Bagaron",
+   "lat": 45.481987,
+   "lon": 12.291955,
+   "linee": []
+  },
+  "sabbadino-laguna": {
+   "nome": "Sabbadino Laguna",
+   "lat": 45.481869,
+   "lon": 12.287725,
+   "linee": []
+  },
+  "sabbadino-passo-campalto": {
+   "nome": "Sabbadino Passo Campalto",
+   "lat": 45.482883,
+   "lon": 12.296093,
+   "linee": []
+  },
+  "salzano-chiesa": {
+   "nome": "Salzano Chiesa",
+   "lat": 45.52133,
+   "lon": 12.104005,
+   "linee": []
+  },
+  "salzano-confalonieri": {
+   "nome": "Salzano Confalonieri",
+   "lat": 45.522925,
+   "lon": 12.092168,
+   "linee": []
+  },
+  "salzano-de-gasperi": {
+   "nome": "Salzano De Gasperi",
+   "lat": 45.521299,
+   "lon": 12.107874,
+   "linee": []
+  },
+  "salzano-matteotti": {
+   "nome": "Salzano Matteotti",
+   "lat": 45.516365,
+   "lon": 12.112167,
+   "linee": []
+  },
+  "salzano-municipio": {
+   "nome": "Salzano Municipio",
+   "lat": 45.52125,
+   "lon": 12.099016,
+   "linee": []
+  },
+  "salzano-ponte-grasso": {
+   "nome": "Salzano Ponte Grasso",
+   "lat": 45.526245,
+   "lon": 12.085835,
+   "linee": []
+  },
+  "salzano-sogaretti": {
+   "nome": "Salzano Sogaretti",
+   "lat": 45.532919,
+   "lon": 12.08306,
+   "linee": []
+  },
+  "salzano-toscanigo": {
+   "nome": "Salzano Toscanigo",
+   "lat": 45.542242,
+   "lon": 12.081801,
+   "linee": []
+  },
+  "sambruson-marinelle": {
+   "nome": "Sambruson Marinelle",
+   "lat": 45.401459,
+   "lon": 12.100911,
+   "linee": []
+  },
+  "sambughe": {
+   "nome": "Sambughe'",
+   "lat": 45.589911,
+   "lon": 12.234222,
+   "linee": []
+  },
+  "san-dona-cervino": {
+   "nome": "San Dona' Cervino",
+   "lat": 45.502575,
+   "lon": 12.274655,
+   "linee": []
+  },
+  "san-dona-falzarego": {
+   "nome": "San Dona' Falzarego",
+   "lat": 45.504425,
+   "lon": 12.253716,
+   "linee": []
+  },
+  "san-dona-marmolada": {
+   "nome": "San Dona' Marmolada",
+   "lat": 45.503031,
+   "lon": 12.277553,
+   "linee": []
+  },
+  "san-dona-pasqualigo": {
+   "nome": "San Dona' Pasqualigo",
+   "lat": 45.504133,
+   "lon": 12.261407,
+   "linee": []
+  },
+  "san-dona-pastrello": {
+   "nome": "San Dona' Pastrello",
+   "lat": 45.504398,
+   "lon": 12.281807,
+   "linee": []
+  },
+  "san-dona-pergola": {
+   "nome": "San Dona' Pergola",
+   "lat": 45.503067,
+   "lon": 12.267582,
+   "linee": []
+  },
+  "san-dona-pineta": {
+   "nome": "San Dona' Pineta",
+   "lat": 45.503351,
+   "lon": 12.265798,
+   "linee": []
+  },
+  "san-dona-rielta": {
+   "nome": "San Dona' Rielta",
+   "lat": 45.502574,
+   "lon": 12.271078,
+   "linee": []
+  },
+  "san-dona-val-gardena": {
+   "nome": "San Dona' Val Gardena",
+   "lat": 45.50363,
+   "lon": 12.257485,
+   "linee": []
+  },
+  "san-marco-boerio": {
+   "nome": "San Marco Boerio",
+   "lat": 45.481006,
+   "lon": 12.261837,
+   "linee": []
+  },
+  "san-marco-cattaneo": {
+   "nome": "San Marco Cattaneo",
+   "lat": 45.490144,
+   "lon": 12.251407,
+   "linee": []
+  },
+  "san-marco-forte-marghera": {
+   "nome": "San Marco Forte Marghera",
+   "lat": 45.478365,
+   "lon": 12.26549,
+   "linee": []
+  },
+  "san-marco-manuzio": {
+   "nome": "San Marco Manuzio",
+   "lat": 45.492422,
+   "lon": 12.24818,
+   "linee": []
+  },
+  "san-marco-molmenti": {
+   "nome": "San Marco Molmenti",
+   "lat": 45.482881,
+   "lon": 12.2596,
+   "linee": []
+  },
+  "san-marco-musatti": {
+   "nome": "San Marco Musatti",
+   "lat": 45.48774,
+   "lon": 12.254323,
+   "linee": []
+  },
+  "san-marco-sansovino": {
+   "nome": "San Marco Sansovino",
+   "lat": 45.485119,
+   "lon": 12.257112,
+   "linee": []
+  },
+  "san-trovaso": {
+   "nome": "San Trovaso",
+   "lat": 45.626785,
+   "lon": 12.239178,
+   "linee": []
+  },
+  "sanbruson-carrezzioi": {
+   "nome": "Sanbruson Carrezzioi",
+   "lat": 45.413757,
+   "lon": 12.107097,
+   "linee": []
+  },
+  "sanbruson-ferrovia": {
+   "nome": "Sanbruson Ferrovia",
+   "lat": 45.415409,
+   "lon": 12.119274,
+   "linee": []
+  },
+  "sanbruson-marco-polo": {
+   "nome": "Sanbruson Marco Polo",
+   "lat": 45.413372,
+   "lon": 12.1021,
+   "linee": []
+  },
+  "sant-antonio-municipio": {
+   "nome": "Sant'Antonio Municipio",
+   "lat": 45.476921,
+   "lon": 12.224925,
+   "linee": []
+  },
+  "santa-margherita": {
+   "nome": "Santa Margherita",
+   "lat": 45.245082,
+   "lon": 12.131982,
+   "linee": []
+  },
+  "santrovaso": {
+   "nome": "SanTrovaso",
+   "lat": 45.626827,
+   "lon": 12.239426,
+   "linee": []
+  },
+  "scaltenigo": {
+   "nome": "Scaltenigo",
+   "lat": 45.470346,
+   "lon": 12.081876,
+   "linee": []
+  },
+  "scaltenigo-formigo": {
+   "nome": "Scaltenigo Formigo",
+   "lat": 45.469761,
+   "lon": 12.093583,
+   "linee": []
+  },
+  "scaltenigo-porara": {
+   "nome": "Scaltenigo Porara",
+   "lat": 45.467953,
+   "lon": 12.107474,
+   "linee": []
+  },
+  "scorze-boschi": {
+   "nome": "Scorze' Boschi",
+   "lat": 45.568821,
+   "lon": 12.135746,
+   "linee": []
+  },
+  "scorze-cercariolo": {
+   "nome": "Scorze' Cercariolo",
+   "lat": 45.571379,
+   "lon": 12.110957,
+   "linee": []
+  },
+  "scorze-fermi": {
+   "nome": "Scorze' Fermi",
+   "lat": 45.574848,
+   "lon": 12.105686,
+   "linee": []
+  },
+  "scorze-guido-rossa": {
+   "nome": "Scorze' Guido Rossa",
+   "lat": 45.569069,
+   "lon": 12.127326,
+   "linee": []
+  },
+  "scorze-iv-novembre": {
+   "nome": "Scorze' IV Novembre",
+   "lat": 45.573151,
+   "lon": 12.104162,
+   "linee": []
+  },
+  "scorze-moglianese": {
+   "nome": "Scorze' Moglianese",
+   "lat": 45.568613,
+   "lon": 12.113895,
+   "linee": []
+  },
+  "scorze-municipio": {
+   "nome": "Scorze' Municipio",
+   "lat": 45.572069,
+   "lon": 12.108249,
+   "linee": []
+  },
+  "scorze-ortigara": {
+   "nome": "Scorze' Ortigara",
+   "lat": 45.569637,
+   "lon": 12.114534,
+   "linee": []
+  },
+  "scorze-roma": {
+   "nome": "Scorze' Roma",
+   "lat": 45.573881,
+   "lon": 12.107081,
+   "linee": []
+  },
+  "scorze-romagna": {
+   "nome": "Scorze' Romagna",
+   "lat": 45.565179,
+   "lon": 12.119737,
+   "linee": []
+  },
+  "scorze-venezia": {
+   "nome": "Scorze' Venezia",
+   "lat": 45.569928,
+   "lon": 12.110985,
+   "linee": []
+  },
+  "selvanese-pleiadi": {
+   "nome": "Selvanese Pleiadi",
+   "lat": 45.514784,
+   "lon": 12.199629,
+   "linee": []
+  },
+  "sfmr-spinea": {
+   "nome": "SFMR Spinea",
+   "lat": 45.490746,
+   "lon": 12.176368,
+   "linee": []
+  },
+  "spinea-alfieri": {
+   "nome": "Spinea Alfieri",
+   "lat": 45.489956,
+   "lon": 12.170092,
+   "linee": []
+  },
+  "spinea-centro": {
+   "nome": "Spinea Centro",
+   "lat": 45.490639,
+   "lon": 12.167435,
+   "linee": []
+  },
+  "spinea-desenzano": {
+   "nome": "Spinea Desenzano",
+   "lat": 45.488384,
+   "lon": 12.148276,
+   "linee": []
+  },
+  "spinea-giorgione": {
+   "nome": "Spinea Giorgione",
+   "lat": 45.486864,
+   "lon": 12.179434,
+   "linee": []
+  },
+  "spinea-martiri": {
+   "nome": "Spinea Martiri",
+   "lat": 45.492386,
+   "lon": 12.150491,
+   "linee": []
+  },
+  "spinea-orgnano": {
+   "nome": "Spinea Orgnano",
+   "lat": 45.496094,
+   "lon": 12.152477,
+   "linee": []
+  },
+  "spinea-pozzuoli": {
+   "nome": "Spinea Pozzuoli",
+   "lat": 45.488926,
+   "lon": 12.15017,
+   "linee": []
+  },
+  "spinea-repubblica": {
+   "nome": "Spinea Repubblica",
+   "lat": 45.496211,
+   "lon": 12.144736,
+   "linee": []
+  },
+  "spinea-rossignago": {
+   "nome": "Spinea Rossignago",
+   "lat": 45.492487,
+   "lon": 12.162449,
+   "linee": []
+  },
+  "spinea-san-remo": {
+   "nome": "Spinea San Remo",
+   "lat": 45.495647,
+   "lon": 12.156115,
+   "linee": []
+  },
+  "spinea-sanremo": {
+   "nome": "Spinea Sanremo",
+   "lat": 45.49489,
+   "lon": 12.158271,
+   "linee": []
+  },
+  "spinea-villaggio-fiori": {
+   "nome": "Spinea Villaggio Fiori",
+   "lat": 45.490796,
+   "lon": 12.152011,
+   "linee": []
+  },
+  "stazione-mestre-fs-c3": {
+   "nome": "Stazione MESTRE FS C3",
+   "lat": 45.482464,
+   "lon": 12.232773,
+   "linee": []
+  },
+  "stazione-mestre-fs-c4": {
+   "nome": "Stazione MESTRE FS C4",
+   "lat": 45.482567,
+   "lon": 12.232998,
+   "linee": []
+  },
+  "stazione-padova": {
+   "nome": "Stazione Padova",
+   "lat": 45.416431,
+   "lon": 11.88422,
+   "linee": []
+  },
+  "stazione-pegolotte": {
+   "nome": "Stazione Pegolotte",
+   "lat": 45.193236,
+   "lon": 12.041213,
+   "linee": []
+  },
+  "stra-dante": {
+   "nome": "Stra Dante",
+   "lat": 45.413826,
+   "lon": 12.001089,
+   "linee": []
+  },
+  "stra-piazza-marconi": {
+   "nome": "Stra Piazza Marconi",
+   "lat": 45.409786,
+   "lon": 12.005142,
+   "linee": []
+  },
+  "terraglio-borgo-pezzana": {
+   "nome": "Terraglio Borgo Pezzana",
+   "lat": 45.508602,
+   "lon": 12.238213,
+   "linee": []
+  },
+  "terraglio-ca-sagredo": {
+   "nome": "Terraglio Ca' Sagredo",
+   "lat": 45.526779,
+   "lon": 12.238737,
+   "linee": []
+  },
+  "terraglio-favorita": {
+   "nome": "Terraglio Favorita",
+   "lat": 45.52448,
+   "lon": 12.238625,
+   "linee": []
+  },
+  "terraglio-gatta": {
+   "nome": "Terraglio Gatta",
+   "lat": 45.535112,
+   "lon": 12.239284,
+   "linee": []
+  },
+  "terraglio-nigra": {
+   "nome": "Terraglio Nigra",
+   "lat": 45.530636,
+   "lon": 12.239014,
+   "linee": []
+  },
+  "terraglio-peschiera": {
+   "nome": "Terraglio Peschiera",
+   "lat": 45.505093,
+   "lon": 12.237904,
+   "linee": []
+  },
+  "terraglio-teano": {
+   "nome": "Terraglio Teano",
+   "lat": 45.501784,
+   "lon": 12.237587,
+   "linee": []
+  },
+  "terraglio-terraglietto": {
+   "nome": "Terraglio Terraglietto",
+   "lat": 45.517826,
+   "lon": 12.238373,
+   "linee": []
+  },
+  "terraglio-villa-salus": {
+   "nome": "Terraglio Villa Salus",
+   "lat": 45.513206,
+   "lon": 12.238244,
+   "linee": []
+  },
+  "tito-castellana": {
+   "nome": "Tito Castellana",
+   "lat": 45.51558,
+   "lon": 12.205005,
+   "linee": []
+  },
+  "tito-selvanese": {
+   "nome": "Tito Selvanese",
+   "lat": 45.513567,
+   "lon": 12.202576,
+   "linee": []
+  },
+  "torino": {
+   "nome": "Torino",
+   "lat": 45.477364,
+   "lon": 12.254822,
+   "linee": []
+  },
+  "torino-rossetto": {
+   "nome": "Torino Rossetto",
+   "lat": 45.480154,
+   "lon": 12.250231,
+   "linee": []
+  },
+  "torino-universita": {
+   "nome": "Torino Universita'",
+   "lat": 45.478454,
+   "lon": 12.253313,
+   "linee": []
+  },
+  "tosatto-impastato": {
+   "nome": "Tosatto Impastato",
+   "lat": 45.512245,
+   "lon": 12.227994,
+   "linee": []
+  },
+  "treponti-lovo": {
+   "nome": "Treponti Lovo",
+   "lat": 45.22024,
+   "lon": 12.113042,
+   "linee": []
+  },
+  "treviso": {
+   "nome": "Treviso",
+   "lat": 45.661823,
+   "lon": 12.245197,
+   "linee": []
+  },
+  "treviso-fs": {
+   "nome": "Treviso FS",
+   "lat": 45.660717,
+   "lon": 12.24549,
+   "linee": []
+  },
+  "treviso-ghirada": {
+   "nome": "Treviso Ghirada",
+   "lat": 45.648241,
+   "lon": 12.241943,
+   "linee": []
+  },
+  "treviso-loredan": {
+   "nome": "Treviso Loredan",
+   "lat": 45.654295,
+   "lon": 12.243253,
+   "linee": []
+  },
+  "treviso-pindemonte": {
+   "nome": "Treviso Pindemonte",
+   "lat": 45.64616,
+   "lon": 12.241568,
+   "linee": []
+  },
+  "treviso-san-lazzaro": {
+   "nome": "Treviso San Lazzaro",
+   "lat": 45.65178,
+   "lon": 12.242307,
+   "linee": []
+  },
+  "treviso-san-zeno": {
+   "nome": "Treviso San Zeno",
+   "lat": 45.656561,
+   "lon": 12.244861,
+   "linee": []
+  },
+  "treviso-selvatico": {
+   "nome": "Treviso Selvatico",
+   "lat": 45.643597,
+   "lon": 12.241217,
+   "linee": []
+  },
+  "trieste-bosco": {
+   "nome": "Trieste Bosco",
+   "lat": 45.477063,
+   "lon": 12.209445,
+   "linee": []
+  },
+  "trieste-catene": {
+   "nome": "Trieste Catene",
+   "lat": 45.477306,
+   "lon": 12.203064,
+   "linee": []
+  },
+  "trieste-eraclea": {
+   "nome": "Trieste Eraclea",
+   "lat": 45.47685,
+   "lon": 12.216026,
+   "linee": []
+  },
+  "trieste-mazzorbo": {
+   "nome": "Trieste Mazzorbo",
+   "lat": 45.476887,
+   "lon": 12.21186,
+   "linee": []
+  },
+  "trieste-miranese": {
+   "nome": "Trieste Miranese",
+   "lat": 45.482973,
+   "lon": 12.192982,
+   "linee": []
+  },
+  "trieste-parco": {
+   "nome": "Trieste Parco",
+   "lat": 45.477242,
+   "lon": 12.205792,
+   "linee": []
+  },
+  "trieste-robinie": {
+   "nome": "Trieste Robinie",
+   "lat": 45.477421,
+   "lon": 12.198624,
+   "linee": []
+  },
+  "triestina-monte-cimon": {
+   "nome": "Triestina Monte Cimon",
+   "lat": 45.505257,
+   "lon": 12.286103,
+   "linee": []
+  },
+  "triestina-tessera": {
+   "nome": "Triestina Tessera",
+   "lat": 45.503973,
+   "lon": 12.327889,
+   "linee": []
+  },
+  "triestina-ulss-3": {
+   "nome": "Triestina ulss 3",
+   "lat": 45.503998,
+   "lon": 12.285759,
+   "linee": []
+  },
+  "trivignano-botticelli": {
+   "nome": "Trivignano Botticelli",
+   "lat": 45.532832,
+   "lon": 12.18255,
+   "linee": []
+  },
+  "trivignano-ca-lin": {
+   "nome": "Trivignano Ca' Lin",
+   "lat": 45.529877,
+   "lon": 12.186795,
+   "linee": []
+  },
+  "trivignano-centro": {
+   "nome": "Trivignano Centro",
+   "lat": 45.527294,
+   "lon": 12.18997,
+   "linee": []
+  },
+  "trivignano-gozzoli": {
+   "nome": "Trivignano Gozzoli",
+   "lat": 45.525311,
+   "lon": 12.192765,
+   "linee": []
+  },
+  "trivignano-lotto": {
+   "nome": "Trivignano Lotto",
+   "lat": 45.523527,
+   "lon": 12.195829,
+   "linee": []
+  },
+  "trivignano-park-b": {
+   "nome": "Trivignano Park B",
+   "lat": 45.528473,
+   "lon": 12.188973,
+   "linee": []
+  },
+  "trivignano-park-p14": {
+   "nome": "Trivignano Park P14",
+   "lat": 45.534656,
+   "lon": 12.180226,
+   "linee": []
+  },
+  "tronchetto": {
+   "nome": "Tronchetto",
+   "lat": 45.442055,
+   "lon": 12.308325,
+   "linee": []
+  },
+  "tronchetto-mercato": {
+   "nome": "Tronchetto Mercato",
+   "lat": 45.443013,
+   "lon": 12.30777,
+   "linee": []
+  },
+  "tronchetto-tronchetto-fer": {
+   "nome": "Tronchetto Tronchetto Fer",
+   "lat": 45.439072,
+   "lon": 12.304393,
+   "linee": []
+  },
+  "tronchetto-vaporetti": {
+   "nome": "Tronchetto Vaporetti",
+   "lat": 45.44091,
+   "lon": 12.305601,
+   "linee": []
+  },
+  "ulss": {
+   "nome": "ULSS",
+   "lat": 45.630718,
+   "lon": 12.239697,
+   "linee": []
+  },
+  "vespucci-boerio": {
+   "nome": "Vespucci Boerio",
+   "lat": 45.483618,
+   "lon": 12.262683,
+   "linee": []
+  },
+  "vespucci-ca-rossa": {
+   "nome": "Vespucci Ca' Rossa",
+   "lat": 45.497002,
+   "lon": 12.250182,
+   "linee": []
+  },
+  "vespucci-cattaneo": {
+   "nome": "Vespucci Cattaneo",
+   "lat": 45.491135,
+   "lon": 12.254172,
+   "linee": []
+  },
+  "vespucci-garigliano": {
+   "nome": "Vespucci Garigliano",
+   "lat": 45.495949,
+   "lon": 12.25116,
+   "linee": []
+  },
+  "vespucci-gritti": {
+   "nome": "Vespucci Gritti",
+   "lat": 45.486194,
+   "lon": 12.259653,
+   "linee": []
+  },
+  "vespucci-pigafetta": {
+   "nome": "Vespucci Pigafetta",
+   "lat": 45.493631,
+   "lon": 12.252439,
+   "linee": []
+  },
+  "vespucci-san-giuseppe": {
+   "nome": "Vespucci San Giuseppe",
+   "lat": 45.480122,
+   "lon": 12.267,
+   "linee": []
+  },
+  "vetrego": {
+   "nome": "Vetrego",
+   "lat": 45.460748,
+   "lon": 12.101428,
+   "linee": []
+  },
+  "vigonza-perarolo": {
+   "nome": "Vigonza Perarolo",
+   "lat": 45.42642,
+   "lon": 11.963179,
+   "linee": []
+  },
+  "villa-del-bosco": {
+   "nome": "Villa Del Bosco",
+   "lat": 45.215567,
+   "lon": 12.032139,
+   "linee": []
+  },
+  "zelarino-carpaccio": {
+   "nome": "Zelarino Carpaccio",
+   "lat": 45.511051,
+   "lon": 12.213841,
+   "linee": []
+  },
+  "zelarino-chiesa": {
+   "nome": "Zelarino Chiesa",
+   "lat": 45.512585,
+   "lon": 12.211403,
+   "linee": []
+  },
+  "zelarino-municipio": {
+   "nome": "Zelarino Municipio",
+   "lat": 45.514598,
+   "lon": 12.208356,
+   "linee": []
+  },
+  "zelarino-parolari": {
+   "nome": "Zelarino Parolari",
+   "lat": 45.517568,
+   "lon": 12.203393,
+   "linee": []
+  }
+ },
+ "fermataLinee": {
+  "p-le-roma": [
+   "TRAM-T1",
+   "AUT-12E",
+   "AUT-12L",
+   "AUT-19",
+   "AUT-2",
+   "AUT-24",
+   "AUT-24H",
+   "AUT-4",
+   "AUT-43",
+   "AUT-4DE",
+   "AUT-4L",
+   "AUT-5",
+   "AUT-53E",
+   "AUT-54RE",
+   "AUT-57E",
+   "AUT-58RE",
+   "AUT-5E",
+   "AUT-6",
+   "AUT-66",
+   "AUT-67RE",
+   "AUT-6E",
+   "AUT-6L",
+   "AUT-7",
+   "AUT-7DE",
+   "AUT-7E",
+   "AUT-7L",
+   "AUT-80",
+   "AUT-81F",
+   "AUT-84",
+   "AUT-8E",
+   "AUT-N1",
+   "AUT-N2",
+   "AUT-PK1",
+   "AUT-PM"
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "_nota": "Luoghi principali (id di luoghi.json), in ordine di importanza: il loro nome compare sulla mappa prima degli altri e, se due nomi si sovrappongono, vince quello più in alto nella lista. Lista usata anche dalla futura versione free.",
+  "luoghi": [
+    "basilica-san-marco",
+    "ponte-rialto",
+    "stazione",
+    "piazzale-roma",
+    "palazzo-ducale",
+    "accademia",
+    "frari",
+    "salute",
+    "guggenheim",
+    "san-rocco",
+    "ca-doro",
+    "santi-giovanni-paolo"
+  ]
+}

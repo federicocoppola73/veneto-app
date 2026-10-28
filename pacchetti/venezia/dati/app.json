@@ -1,0 +1,87 @@
+{
+  "expo": {
+    "name": "Venezia",
+    "slug": "monumenti-venezia",
+    "scheme": "veneziamonumenti",
+    "version": "1.11.4",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#aad3df",
+    "android": {
+      "package": "com.monumenti.venezia",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f3d5e"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "fcdeveloperapps.github.io",
+              "pathPrefix": "/venezia/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.monumenti.venezia",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "La posizione serve a mostrarti sulla mappa e a indicarti i monumenti più vicini. Non viene salvata né inviata."
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "La posizione serve a mostrarti sulla mappa e a indicarti i monumenti più vicini. Non viene salvata né inviata."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "savePhotosPermission": "La cartolina viene salvata nelle foto del telefono. L'app non legge né invia le altre foto.",
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
+      "expo-sharing",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La foto serve solo per creare la cartolina del luogo. Non viene salvata né inviata.",
+          "cameraPermission": "La fotocamera serve solo per scattare la foto della cartolina del luogo. La foto non viene salvata né inviata."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
+    "owner": "fc.developer",
+    "extra": {
+      "eas": {
+        "projectId": "864df985-e70b-4957-b604-9c5673abccc4"
+      }
+    }
+  }
+}
