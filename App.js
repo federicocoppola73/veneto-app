@@ -35,9 +35,7 @@ export default function App() {
   }
 
   const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
-  const elencoAttiva = luoghiAttiva
-    ? luoghiAttiva.luoghi.slice(0, 10).map((l) => l.nome)
-    : (cittaAttiva?.anteprima || []);
+  const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
   return (
     <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
@@ -46,7 +44,7 @@ export default function App() {
         <View style={styles.attiva}>
           <Text style={styles.attivaEtichetta}>Città attiva</Text>
           <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
-          <Text style={styles.attivaTesto} numberOfLines={3}>{elencoAttiva.join(' · ')}</Text>
+          <Text style={styles.attivaTesto}>{numeroLuoghi} luoghi</Text>
         </View>
       ) : (
         <View style={styles.gratuito}>
