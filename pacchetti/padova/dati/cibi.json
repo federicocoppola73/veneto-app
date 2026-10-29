@@ -131,6 +131,12 @@
       "Saltea la pasta en la sartén del ragú durante 2-3 minutos, añadiendo un poco de caldo para una salsa cremosa. Ajusta de sal y pimienta y sirve enseguida."
      ]
     }
+   },
+   "foto": {
+    "file": "bigoli-al-ragu-di-anatra.webp",
+    "autore": "Dèsirèe Tonus",
+    "licenza": "CC BY-SA 2.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=196181758"
    }
   },
   {
@@ -467,6 +473,12 @@
       "Acompáñalo con pan casero y, si te gusta, un chorrito de aceite."
      ]
     }
+   },
+   "foto": {
+    "file": "prosciutto-veneto-berico-euganeo-dop.webp",
+    "autore": "Superchilum",
+    "licenza": "CC BY 4.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=141026035"
    }
   },
   {
@@ -644,6 +656,12 @@
       "Refrigera al menos 24 horas. Se conserva hasta dos días; también se puede congelar."
      ]
     }
+   },
+   "foto": {
+    "file": "torta-pazientina.webp",
+    "autore": "APPEPadova",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=191462921"
    }
   },
   {
@@ -774,123 +792,6 @@
       "Incorpora poco a poco la harina y la fécula tamizadas con la espátula, de abajo arriba, sin trabajar mucho la masa. Añade las almendras.",
       "Vierte la mezcla en la cubierta de hojaldre, cierra los bordes hacia dentro y hornea en horno estático a 175 °C durante unos 40 minutos.",
       "Deja enfriar y desmolda."
-     ]
-    }
-   }
-  },
-  {
-   "id": "cappone-alla-canevera",
-   "nome": "Cappone alla canevera",
-   "portata": "secondo",
-   "testo": {
-    "it": "Piatto padovano antico e laborioso: un cappone farcito con frutta e verdure, racchiuso in una vescica di maiale e cotto con una canna di bambù, la 'canevera'. Oggi è raro nei menu, ma resta nella tradizione.",
-    "en": "An ancient and laborious Paduan dish: a capon stuffed with fruit and vegetables, wrapped in a pig's bladder and cooked with a bamboo cane, the 'canevera'. Rare on menus today, it remains part of the tradition.",
-    "fr": "Plat padouan ancien et laborieux : un chapon farci de fruits et de légumes, enveloppé dans une vessie de porc et cuit avec une canne de bambou, la « canevera ». Rare sur les menus aujourd'hui, il reste dans la tradition.",
-    "de": "Ein altes und aufwendiges Gericht aus Padua: ein mit Obst und Gemüse gefüllter Kapaun, in eine Schweineblase gehüllt und mit einem Bambusrohr, der „Canevera“, gegart. Heute selten auf den Speisekarten, aber Teil der Tradition.",
-    "es": "Plato paduano antiguo y laborioso: un capón relleno de fruta y verduras, envuelto en una vejiga de cerdo y cocido con una caña de bambú, la «canevera». Hoy es raro en los menús, pero sigue en la tradición."
-   },
-   "ricetta": {
-    "fonte": "https://www.turismopadova.it/en/three-patented-padua-recipes/",
-    "porzioni": 6,
-    "preparazione": {
-     "it": "3 ore circa",
-     "en": "about 3 hours",
-     "fr": "environ 3 h",
-     "de": "etwa 3 Std.",
-     "es": "unas 3 horas"
-    },
-    "ingredienti": {
-     "it": [
-      "1 cappone di razza padovana (circa 2 kg)",
-      "2 carote",
-      "1 mela",
-      "1 costa di sedano",
-      "1 cipolla",
-      "3 chiodi di garofano",
-      "1 canna di bambù (la 'canevera')",
-      "1 vescica di maiale",
-      "Olio extravergine dei Colli Euganei",
-      "Sale"
-     ],
-     "en": [
-      "1 capon of the Paduan breed (about 2 kg)",
-      "2 carrots",
-      "1 apple",
-      "1 celery stalk",
-      "1 onion",
-      "3 cloves",
-      "1 bamboo cane (the 'canevera')",
-      "1 pig's bladder",
-      "Extra virgin olive oil from the Euganean Hills",
-      "Salt"
-     ],
-     "fr": [
-      "1 chapon de race padouane (environ 2 kg)",
-      "2 carottes",
-      "1 pomme",
-      "1 branche de céleri",
-      "1 oignon",
-      "3 clous de girofle",
-      "1 canne de bambou (la « canevera »)",
-      "1 vessie de porc",
-      "Huile d'olive extra vierge des Collines Euganéennes",
-      "Sel"
-     ],
-     "de": [
-      "1 Kapaun der Paduaner Rasse (etwa 2 kg)",
-      "2 Karotten",
-      "1 Apfel",
-      "1 Selleriestange",
-      "1 Zwiebel",
-      "3 Nelken",
-      "1 Bambusrohr (die „Canevera“)",
-      "1 Schweineblase",
-      "Olivenöl extra vergine aus den Colli Euganei",
-      "Salz"
-     ],
-     "es": [
-      "1 capón de raza paduana (unos 2 kg)",
-      "2 zanahorias",
-      "1 manzana",
-      "1 tallo de apio",
-      "1 cebolla",
-      "3 clavos de olor",
-      "1 caña de bambú (la «canevera»)",
-      "1 vejiga de cerdo",
-      "Aceite de oliva virgen extra de los Colli Euganei",
-      "Sal"
-     ]
-    },
-    "passaggi": {
-     "it": [
-      "Farcisci il cappone con carote, mela, sedano, cipolla e chiodi di garofano, tagliati a pezzi, e salalo.",
-      "Inseriscilo nella vescica di maiale insieme alla canna di bambù, chiudendo bene.",
-      "Bollilo per diverse ore, fino a cottura completa.",
-      "Servi 'in tocio', cioè con il fondo di cottura, condito con olio extravergine dei Colli Euganei."
-     ],
-     "en": [
-      "Stuff the capon with carrots, apple, celery, onion and cloves, cut into pieces, and salt it.",
-      "Place it in the pig's bladder together with the bamboo cane, sealing it well.",
-      "Boil for several hours, until fully cooked.",
-      "Serve 'in tocio', that is with its cooking liquid, dressed with extra virgin olive oil from the Euganean Hills."
-     ],
-     "fr": [
-      "Farcissez le chapon avec carottes, pomme, céleri, oignon et clous de girofle, coupés en morceaux, et salez.",
-      "Placez-le dans la vessie de porc avec la canne de bambou et fermez bien.",
-      "Faites bouillir plusieurs heures, jusqu'à cuisson complète.",
-      "Servez « in tocio », c'est-à-dire avec son jus de cuisson, assaisonné d'huile d'olive extra vierge des Collines Euganéennes."
-     ],
-     "de": [
-      "Den Kapaun mit Karotten, Apfel, Sellerie, Zwiebel und Nelken füllen, die in Stücke geschnitten sind, und salzen.",
-      "In die Schweineblase zusammen mit dem Bambusrohr geben und gut verschließen.",
-      "Mehrere Stunden kochen, bis er vollständig gar ist.",
-      "Servieren „in tocio“, also mit dem Kochfond und Olivenöl extra vergine aus den Colli Euganei."
-     ],
-     "es": [
-      "Rellena el capón con zanahorias, manzana, apio, cebolla y clavos, cortados en trozos, y sálalo.",
-      "Introdúcelo en la vejiga de cerdo junto con la caña de bambú y ciérrala bien.",
-      "Cuécelo varias horas, hasta que esté completamente hecho.",
-      "Sirve «in tocio», es decir, con su caldo de cocción, aliñado con aceite de oliva virgen extra de los Colli Euganei."
      ]
     }
    }
