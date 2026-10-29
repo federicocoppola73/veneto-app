@@ -23,6 +23,8 @@ FESTIVI = {'20261108', '20261208', '20261225', '20261226'}  # feste comandate ne
 URL_AZIENDA = 'https://www.fsbusitalia.it/content/fsbusitalia/it/veneto.html'
 URL_ORARI = 'https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanopd/'
 URL_EXTRA = 'http://fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/extrapd/'
+URL_COLLI = 'https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/colli/'
+LINEE_COLLI = {'A', 'AT', 'ATL', 'M', 'T', 'TL'}
 TRAM = {'SIR1'}  # linee tram nel feed Busitalia
 
 
@@ -37,7 +39,9 @@ def pdf_linea(etichetta):
         return URL_ORARI + f'Linea{etichetta}.pdf'
     if re.fullmatch(r'E\d{3}[A-Z]?', etichetta):
         return URL_EXTRA + f'{etichetta}.pdf'
-    return URL_AZIENDA  # altre linee (A, AT, M, T, SST...): nessun link per linea
+    if etichetta in LINEE_COLLI:
+        return URL_COLLI + f'Linea%20{etichetta}.pdf'
+    return URL_AZIENDA  # altre linee (SST, LIS, EA, EM): nessun link per linea
 
 
 def leggi(cartella, nome):
