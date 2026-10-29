@@ -270,7 +270,10 @@
         "it": "Lo stemma della città di Padova."
       },
       "itinerario": "aguzza-la-vista-centro",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/palazzo-moroni-stemma.webp",
+        "credits": "Stemma del Comune di Padova"
+      },
       "da_verificare": false
     },
     {
