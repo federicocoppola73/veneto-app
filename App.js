@@ -24,6 +24,7 @@ const COPERTINE = {
   treviso: require('./assets/copertine/treviso.jpg'),
   vicenza: require('./assets/copertine/vicenza.jpg'),
   rovigo: require('./assets/copertine/rovigo.jpg'),
+  belluno: require('./assets/copertine/belluno.jpg'),
 };
 
 const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
@@ -255,6 +256,8 @@ export default function App() {
                 Copertina di Vicenza: Alessandro Vecchi, da Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vicenza_panorama.jpg). Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
 
                 Copertina di Rovigo: Agenzia del Turismo del Veneto, pagina ufficiale Flickr. Licenza CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).
+
+                Copertina di Belluno: Jacobus, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
               </Text>
             </View>
           </View>
