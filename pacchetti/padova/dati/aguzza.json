@@ -1,6 +1,47 @@
 {
-  "_nota": "Padova: domande Aguzza la vista dal foglio Excel. 'zona' è il quartiere del foglio; gli itinerari si decidono dopo. Le risposte con 'da_verificare' sono da definire.",
-  "itinerari": [],
+  "_nota": "Padova: domande Aguzza la vista dal foglio Excel. Itinerari: 5, Santo e Prato, Eremitani. Il gruppo Centro e piazze non ha ancora un itinerario. Le risposte con 'da_verificare' sono da definire.",
+  "itinerari": [
+    {
+      "id": "aguzza-la-vista-itinerario-5",
+      "titolo": {
+        "it": "Aguzza la vista - Itinerario 5"
+      },
+      "tappe": [
+        "museo-della-natura-e-dell-uomo",
+        "palazzo-zuckermann-museo-di-arti-applicate-e-decorative",
+        "palazzo-del-bo",
+        "musme-museo-di-storia-della-medicina",
+        "chiesa-di-santa-sofia",
+        "orto-botanico-di-padova"
+      ]
+    },
+    {
+      "id": "aguzza-la-vista-santo-e-prato",
+      "titolo": {
+        "it": "Aguzza la vista - Santo e Prato"
+      },
+      "tappe": [
+        "museo-bottacin",
+        "loggia-e-odeo-cornaro",
+        "basilica-di-sant-antonio",
+        "basilica-di-santa-giustina",
+        "prato-della-valle",
+        "ponte-dei-quattro-papi"
+      ]
+    },
+    {
+      "id": "aguzza-la-vista-eremitani",
+      "titolo": {
+        "it": "Aguzza la vista - Eremitani"
+      },
+      "tappe": [
+        "basilica-di-santa-maria-del-carmine",
+        "cappella-degli-scrovegni",
+        "musei-civici-agli-eremitani",
+        "chiesa-degli-eremitani"
+      ]
+    }
+  ],
   "domande": [
     {
       "luogo_id": "basilica-di-sant-antonio",
@@ -12,7 +53,7 @@
       "risposta": {
         "it": "Il giglio, simbolo di purezza."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -26,7 +67,7 @@
       "risposta": {
         "it": "Gattamelata"
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -40,7 +81,7 @@
       "risposta": {
         "it": "Circolare."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -68,7 +109,7 @@
       "risposta": {
         "it": "Al centro."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
       "da_verificare": false
     },
@@ -82,7 +123,7 @@
       "risposta": {
         "it": "Ad arco."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
       "da_verificare": false
     },
@@ -110,7 +151,7 @@
       "risposta": {
         "it": "Sì, si possono osservare variazioni nella muratura; la risposta esatta dipende dal lato scelto."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": true
     },
@@ -152,7 +193,7 @@
       "risposta": {
         "it": "Chiesa degli Eremitani."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
       "da_verificare": false
     },
@@ -166,7 +207,7 @@
       "risposta": {
         "it": "Un fossile."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": false
     },
@@ -180,7 +221,7 @@
       "risposta": {
         "it": "Dipende dal modello scelto: specificare la parte del corpo nella scheda del quiz."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": true
     },
@@ -194,7 +235,7 @@
       "risposta": {
         "it": "Da definire scegliendo un dettaglio ben visibile nella foto di riferimento."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": true
     },
@@ -208,7 +249,7 @@
       "risposta": {
         "it": "Una moneta o una medaglia."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -250,7 +291,7 @@
       "risposta": {
         "it": "Il bue."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": false
     },
@@ -320,7 +361,7 @@
       "risposta": {
         "it": "Colonne."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -362,7 +403,7 @@
       "risposta": {
         "it": "Un canale."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     },
@@ -404,7 +445,7 @@
       "risposta": {
         "it": "Le piante."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-itinerario-5",
       "foto": null,
       "da_verificare": false
     },
@@ -418,7 +459,7 @@
       "risposta": {
         "it": "Giotto."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
       "da_verificare": false
     },
@@ -446,7 +487,7 @@
       "risposta": {
         "it": "Quello con la mano protesa in avanti"
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
       "da_verificare": false
     }
