@@ -540,6 +540,28 @@ function MappaZoomabile(
             const numerato = p.numero != null;
             const servizio = p.icona != null;
             const D = numerato ? DIMENSIONE_NUMERO : servizio ? DIMENSIONE_SERVIZIO : DIMENSIONE_MARKER;
+            if (p.posizioneSalvata) {
+              // luogo salvato dall'utente: pallino blu tipo "posizione" di Maps
+              return (
+                <Animated.View
+                  key={p.id}
+                  pointerEvents="none"
+                  style={[
+                    styles.marker,
+                    {
+                      width: 40,
+                      height: 40,
+                      left: p.x * base.rapporto - 20,
+                      top: p.y * base.rapporto - 20,
+                      transform: [{ scale: scalaInversa }],
+                    },
+                  ]}
+                >
+                  <View style={styles.posizioneSalvataAlone} />
+                  <View style={styles.posizioneSalvata} accessibilityLabel={p.etichetta} />
+                </Animated.View>
+              );
+            }
             if (p.lampadina) {
               // 💡 temporanea di una curiosità (vedi "Portami lì")
               return (
@@ -746,6 +768,22 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
   },
   iconaLampadina: { fontSize: 18, textAlign: 'center' },
+  posizioneSalvataAlone: { position: 'absolute', width: 40, height: 40, borderRadius: 20, backgroundColor: 'rgba(29,78,216,0.2)' },
+  posizioneSalvata: {
+    position: 'absolute',
+    left: 11,
+    top: 11,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
+    backgroundColor: '#1d4ed8',
+    borderWidth: 3,
+    borderColor: '#fff',
+    shadowColor: '#0f172a',
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    shadowOffset: { width: 0, height: 1 },
+  },
   numero: { color: '#fff', fontSize: 12, fontWeight: '800', lineHeight: 15, textAlign: 'center' },
   boxEtichetta: {
     position: 'absolute',

@@ -29,6 +29,8 @@ import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
 import SchedaCuriosita from './src/components/SchedaCuriosita';
 import SchedaCibo from './src/components/SchedaCibo';
+import SchedaLuogoSalvato from './src/components/SchedaLuogoSalvato';
+import { useLuoghiSalvati } from './src/luoghiSalvati';
 import { CIBI, CURIOSITA, posizioneCuriosita } from './src/curiosita';
 import { useAdesso } from './src/adesso';
 import { agganciaAllaRete, camminoVersoLuogo, metriVersoLuogo, percorsiDa } from './src/rete';
@@ -108,6 +110,9 @@ function Schermata({ linguaIniziale }) {
   const t = useMemo(() => traduttore(lingua), [lingua]);
   const immagineMappa = useMemo(() => immagine(MAPPA.immagine || 'mappa-venezia.webp'), []);
   const posizione = usePosizione();
+  const { luoghi: luoghiSalvati, aggiungi: aggiungiLuogo, cancella: cancellaLuogo } = useLuoghiSalvati(nomeCitta()); // 📍 Salvati
+  const [luogoSalvato, setLuogoSalvato] = useState(null); // luogo salvato selezionato, con la sua posizione sulla mappa
+  const [schedaLuogoSalvato, setSchedaLuogoSalvato] = useState(false); // finestrella del luogo salvato aperta
   const { preferiti, cambia: cambiaPreferito, aggiungiMolti: aggiungiPreferiti } = usePreferiti(); // luoghi del cuore
   const { visitati: luoghiVisitati, cambia: cambiaVisitato, aggiungi: aggiungiVisitato } = useVisitati(); // "Ci sono stato"
   useEffect(() => {
@@ -571,6 +576,28 @@ function Schermata({ linguaIniziale }) {
     mappaRef.current?.centraSu({ x: p.x, y: p.y });
   };
 
+  // 📍 Salvati: il luogo si centra sulla mappa con il pallino blu, e si apre la finestrella con i mezzi vicini
+  const scegliLuogoSalvato = (l) => {
+    const p = proietta(l.latitudine, l.longitudine);
+    setLuogoSalvato({ ...l, x: p.x, y: p.y });
+    setSchedaLuogoSalvato(true);
+    mappaRef.current?.centraSu({ x: p.x, y: p.y });
+  };
+  const salvaLuogo = (descrizione) => {
+    if (posizione.coordinate) aggiungiLuogo(descrizione, posizione.coordinate);
+  };
+  const cancellaLuogoSalvato = (id) => {
+    cancellaLuogo(id);
+    if (luogoSalvato?.id === id) {
+      setLuogoSalvato(null);
+      setSchedaLuogoSalvato(false);
+    }
+  };
+  const portamiLuogoSalvato = () => {
+    setSchedaLuogoSalvato(false);
+    if (luogoSalvato) mappaRef.current?.centraSu({ x: luogoSalvato.x, y: luogoSalvato.y });
+  };
+
   const puntiMappa = useMemo(
     () =>
       lampadina
@@ -587,6 +614,23 @@ function Schermata({ linguaIniziale }) {
           ]
         : punti,
     [punti, lampadina]
+  );
+  const puntiMappaConLuoghi = useMemo(
+    () =>
+      luogoSalvato
+        ? [
+            ...puntiMappa,
+            {
+              id: `luogo:${luogoSalvato.id}`,
+              etichetta: luogoSalvato.descrizione,
+              colore: '#1d4ed8',
+              x: luogoSalvato.x,
+              y: luogoSalvato.y,
+              posizioneSalvata: true,
+            },
+          ]
+        : puntiMappa,
+    [puntiMappa, luogoSalvato]
   );
 
   const pulsanteCuriosita = (
@@ -699,7 +743,7 @@ function Schermata({ linguaIniziale }) {
           sfondo={nomeCitta() === 'Venezia' ? undefined : '#f3f0e8'}
           larghezzaImmagine={configMappa.larghezza}
           altezzaImmagine={configMappa.altezza}
-          punti={puntiMappa}
+          punti={puntiMappaConLuoghi}
           percorso={percorsoMappa}
           onPressPunto={premiPunto}
           vistaIniziale={vistaIniziale}
@@ -721,6 +765,13 @@ function Schermata({ linguaIniziale }) {
                 onVediVisitati={mostraVisitatiSullaMappa}
                 onEsportaCuore={esportaCuore}
                 onImportaCuore={() => setImporta({ ricevuto: null, da: 'cuore' })}
+                luoghiSalvati={luoghiSalvati}
+                posizione={posizione}
+                onAttivaPosizione={posizione.attiva}
+                onImpostazioniPosizione={posizione.apriImpostazioni}
+                onSalvaLuogo={salvaLuogo}
+                onScegliLuogo={scegliLuogoSalvato}
+                onCancellaLuogo={cancellaLuogoSalvato}
               />
               {pulsanteCuriosita}
               {pulsanteServizi}
@@ -730,6 +781,14 @@ function Schermata({ linguaIniziale }) {
           tessere={nomeCitta() === 'Venezia' ? TESSERE : undefined}
           dimensioneTessera={DIMENSIONE_TESSERA}
         />
+        {schedaLuogoSalvato && luogoSalvato ? (
+          <SchedaLuogoSalvato
+            luogo={luogoSalvato}
+            t={t}
+            onChiudi={() => setSchedaLuogoSalvato(false)}
+            onPortami={portamiLuogoSalvato}
+          />
+        ) : null}
         {!itinerario && !soloCuore && !soloVisitati && selezionate.length === 0 && (
           <View style={styles.avvisoVuoto} pointerEvents="none">
             <Text style={styles.testoAvvisoVuoto}>{t('nessunaCategoria')}</Text>
