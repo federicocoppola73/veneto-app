@@ -1,4 +1,899 @@
 {
-  "_nota": "Cosa mangiare (da popolare). Piatti con testo in più lingue.",
-  "cibi": []
+ "_nota": "Cosa mangiare: piatti tipici padovani. Testi in 5 lingue; foto da aggiungere.",
+ "cibi": [
+  {
+   "id": "bigoli-al-ragu-di-anatra",
+   "nome": "Bigoli al ragù d'anatra",
+   "portata": "primo",
+   "testo": {
+    "it": "Pasta lunga e spessa tipica del Veneto, condita con un ragù di anatra cotto lentamente con erbe aromatiche e vino bianco. Un piatto da osteria, di sapore intenso.",
+    "en": "Thick, long pasta typical of the Veneto, dressed with a duck ragù slowly cooked with herbs and white wine. A hearty trattoria dish with an intense flavour.",
+    "fr": "Pâtes longues et épaisses typiques de la Vénétie, nappées d'un ragoût de canard mijoté lentement avec des herbes aromatiques et du vin blanc. Un plat de trattoria aux saveurs intenses.",
+    "de": "Dicke, lange Pasta aus dem Veneto, mit einem Entenragout, das langsam mit Kräutern und Weißwein geschmort wird. Ein herzhaftes Wirtshausgericht mit intensivem Geschmack.",
+    "es": "Pasta larga y gruesa, típica del Véneto, con un ragú de pato cocinado despacio con hierbas aromáticas y vino blanco. Un plato de trattoria de sabor intenso."
+   },
+   "ricetta": {
+    "fonte": "https://blog.giallozafferano.it/idolciditatam/bigoli-al-ragu-di-anatra/",
+    "porzioni": 4,
+    "preparazione": {
+     "it": "50 min",
+     "en": "50 min",
+     "fr": "50 min",
+     "de": "50 Min.",
+     "es": "50 min"
+    },
+    "ingredienti": {
+     "it": [
+      "500 g di bigoli (in alternativa pici o troccoli)",
+      "500 g di macinato di petto d'anatra",
+      "1/2 litro di brodo vegetale",
+      "1/2 bicchiere di vino bianco secco",
+      "5 foglie di salvia fresca",
+      "1 rametto di rosmarino",
+      "1 rametto di timo",
+      "1 spicchio d'aglio",
+      "3 cucchiai di trito di sedano, cipolla e carota",
+      "Olio extravergine d'oliva",
+      "Sale e pepe"
+     ],
+     "en": [
+      "500 g bigoli (or pici or troccoli)",
+      "500 g minced duck breast",
+      "1/2 litre vegetable stock",
+      "1/2 glass dry white wine",
+      "5 fresh sage leaves",
+      "1 sprig rosemary",
+      "1 sprig thyme",
+      "1 garlic clove",
+      "3 tablespoons finely chopped celery, onion and carrot",
+      "Extra virgin olive oil",
+      "Salt and pepper"
+     ],
+     "fr": [
+      "500 g de bigoli (ou pici ou troccoli)",
+      "500 g de chair de canard hachée (poitrine)",
+      "1/2 litre de bouillon de légumes",
+      "1/2 verre de vin blanc sec",
+      "5 feuilles de sauge fraîche",
+      "1 branche de romarin",
+      "1 branche de thym",
+      "1 gousse d'ail",
+      "3 c. à soupe de céleri, oignon et carotte finement hachés",
+      "Huile d'olive extra vierge",
+      "Sel et poivre"
+     ],
+     "de": [
+      "500 g Bigoli (alternativ Pici oder Troccoli)",
+      "500 g Entenbrustfleisch, gehackt",
+      "1/2 Liter Gemüsebrühe",
+      "1/2 Glas trockener Weißwein",
+      "5 frische Salbeiblätter",
+      "1 Zweig Rosmarin",
+      "1 Zweig Thymian",
+      "1 Knoblauchzehe",
+      "3 EL fein gehackter Sellerie, Zwiebel und Karotte",
+      "Olivenöl extra vergine",
+      "Salz und Pfeffer"
+     ],
+     "es": [
+      "500 g de bigoli (o pici o troccoli)",
+      "500 g de carne picada de pechuga de pato",
+      "1/2 litro de caldo vegetal",
+      "1/2 copa de vino blanco seco",
+      "5 hojas de salvia fresca",
+      "1 ramita de romero",
+      "1 ramita de tomillo",
+      "1 diente de ajo",
+      "3 cucharadas de apio, cebolla y zanahoria muy picados",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Prepara il brodo vegetale.",
+      "Trita finemente salvia, timo e rosmarino. In una padella antiaderente scalda un filo d'olio, unisci il trito di verdure, l'aglio e le erbe con mezzo bicchiere d'acqua, e fai stufare a fuoco medio finché l'acqua è evaporata.",
+      "Aggiungi la carne e rosolala bene.",
+      "Sfuma con il vino bianco e lascia evaporare; prosegui la cottura per circa 40 minuti, aggiungendo brodo se il ragù si asciuga.",
+      "Nel frattempo cuoci i bigoli in abbondante acqua salata e scolali al dente.",
+      "Versa la pasta nella padella del ragù, saltala per 2-3 minuti aggiungendo un goccio di brodo per una salsa cremosa. Regola di sale e pepe e servi subito."
+     ],
+     "en": [
+      "Prepare the vegetable stock.",
+      "Finely chop the sage, thyme and rosemary. In a non-stick pan warm a little oil, add the vegetable mix, the garlic and the herbs with half a glass of water, and braise over medium heat until the water has evaporated.",
+      "Add the meat and brown it well.",
+      "Deglaze with the white wine and let it evaporate; keep cooking for about 40 minutes, adding stock if the ragù dries out.",
+      "Meanwhile cook the bigoli in plenty of salted water and drain them al dente.",
+      "Toss the pasta in the ragù pan for 2-3 minutes, adding a splash of stock for a creamy sauce. Adjust salt and pepper and serve at once."
+     ],
+     "fr": [
+      "Préparez le bouillon de légumes.",
+      "Hachez finement la sauge, le thym et le romarin. Dans une poêle antiadhésive, faites chauffer un filet d'huile, ajoutez le hachis de légumes, l'ail et les herbes avec un demi-verre d'eau, et laissez mijoter à feu moyen jusqu'à évaporation de l'eau.",
+      "Ajoutez la viande et faites-la bien dorer.",
+      "Déglacez au vin blanc et laissez évaporer ; poursuivez la cuisson environ 40 minutes, en ajoutant du bouillon si le ragoût sèche.",
+      "Pendant ce temps, faites cuire les bigoli dans beaucoup d'eau salée et égouttez-les al dente.",
+      "Versez les pâtes dans la poêle du ragoût, sautez-les 2 à 3 minutes en ajoutant un peu de bouillon pour une sauce crémeuse. Rectifiez le sel et le poivre et servez aussitôt."
+     ],
+     "de": [
+      "Die Gemüsebrühe zubereiten.",
+      "Salbei, Thymian und Rosmarin fein hacken. In einer Antihaftpfanne etwas Öl erhitzen, das Gemüse, den Knoblauch und die Kräuter mit einem halben Glas Wasser zugeben und bei mittlerer Hitze schmoren, bis das Wasser verdunstet ist.",
+      "Das Fleisch zugeben und gut anbraten.",
+      "Mit dem Weißwein ablöschen und verdunsten lassen; etwa 40 Minuten weitergaren, bei Bedarf Brühe nachgießen.",
+      "Inzwischen die Bigoli in reichlich Salzwasser kochen und al dente abgießen.",
+      "Die Pasta 2–3 Minuten in der Ragout-Pfanne schwenken, mit etwas Brühe zu einer cremigen Sauce binden. Mit Salz und Pfeffer abschmecken und sofort servieren."
+     ],
+     "es": [
+      "Prepara el caldo vegetal.",
+      "Pica finamente la salvia, el tomillo y el romero. En una sartén antiadherente calienta un poco de aceite, añade la mezcla de verduras, el ajo y las hierbas con medio vaso de agua, y rehoga a fuego medio hasta que el agua se evapore.",
+      "Añade la carne y dórala bien.",
+      "Desglasa con el vino blanco y deja que se evapore; sigue cocinando unos 40 minutos, añadiendo caldo si el ragú se seca.",
+      "Mientras tanto cuece los bigoli en abundante agua con sal y escúrrelos al dente.",
+      "Saltea la pasta en la sartén del ragú durante 2-3 minutos, añadiendo un poco de caldo para una salsa cremosa. Ajusta de sal y pimienta y sirve enseguida."
+     ]
+    }
+   }
+  },
+  {
+   "id": "risotto-ricco-padovano",
+   "nome": "Risotto ricco alla padovana",
+   "portata": "primo",
+   "testo": {
+    "it": "Risotto ricco della tradizione padovana, preparato con frattaglie di pollo e tacchino, salsiccia e verdure. Un piatto robusto, da cucina casalinga.",
+    "en": "A rich risotto from the Padua tradition, made with chicken and turkey offal, sausage and vegetables. A hearty, home-style dish.",
+    "fr": "Un risotto riche de la tradition padouane, préparé avec des abats de poulet et de dinde, de la saucisse et des légumes. Un plat consistant, de cuisine familiale.",
+    "de": "Ein reichhaltiges Risotto der Paduaner Tradition, mit Geflügelinnereien von Huhn und Pute, Wurst und Gemüse. Ein kräftiges Gericht der Hausmannskost.",
+    "es": "Un risotto rico de la tradición paduana, preparado con menudillos de pollo y pavo, salchicha y verduras. Un plato contundente, de cocina casera."
+   },
+   "ricetta": {
+    "fonte": "https://www.turismopadova.it/en/three-patented-padua-recipes/",
+    "porzioni": 4,
+    "preparazione": {
+     "it": "1 ora e 30 min",
+     "en": "1 hour 30 min",
+     "fr": "1 h 30",
+     "de": "1 Std. 30 Min.",
+     "es": "1 hora y 30 min"
+    },
+    "ingredienti": {
+     "it": [
+      "300 g di riso Vialone Nano o Carnaroli",
+      "300 g di rovinassi (frattaglie di pollo e tacchino)",
+      "150 g di cuori di pollo",
+      "100 g di fegatini di pollo e tacchino",
+      "150 g di salsiccia",
+      "1 cipolla, 1 carota e 1 costa di sedano tritati",
+      "150 g di piselli",
+      "1/2 bicchiere di vino bianco",
+      "1 litro di brodo di pollo",
+      "40 g di Parmigiano grattugiato",
+      "30 g di burro",
+      "Olio extravergine d'oliva, sale e pepe"
+     ],
+     "en": [
+      "300 g Vialone Nano or Carnaroli rice",
+      "300 g rovinassi (chicken and turkey offal)",
+      "150 g chicken hearts",
+      "100 g chicken and turkey livers",
+      "150 g sausage",
+      "1 onion, 1 carrot and 1 celery stalk, chopped",
+      "150 g peas",
+      "1/2 glass white wine",
+      "1 litre chicken stock",
+      "40 g grated Parmesan",
+      "30 g butter",
+      "Extra virgin olive oil, salt and pepper"
+     ],
+     "fr": [
+      "300 g de riz Vialone Nano ou Carnaroli",
+      "300 g de rovinassi (abats de poulet et de dinde)",
+      "150 g de cœurs de poulet",
+      "100 g de foies de poulet et de dinde",
+      "150 g de saucisse",
+      "1 oignon, 1 carotte et 1 branche de céleri hachés",
+      "150 g de petits pois",
+      "1/2 verre de vin blanc",
+      "1 litre de bouillon de poulet",
+      "40 g de Parmesan râpé",
+      "30 g de beurre",
+      "Huile d'olive extra vierge, sel et poivre"
+     ],
+     "de": [
+      "300 g Vialone-Nano- oder Carnaroli-Reis",
+      "300 g Rovinassi (Innereien von Huhn und Pute)",
+      "150 g Hühnerherzen",
+      "100 g Hühner- und Putenleber",
+      "150 g Wurst",
+      "1 Zwiebel, 1 Karotte und 1 Selleriestange, gehackt",
+      "150 g Erbsen",
+      "1/2 Glas Weißwein",
+      "1 Liter Hühnerbrühe",
+      "40 g geriebener Parmesan",
+      "30 g Butter",
+      "Olivenöl extra vergine, Salz und Pfeffer"
+     ],
+     "es": [
+      "300 g de arroz Vialone Nano o Carnaroli",
+      "300 g de rovinassi (menudillos de pollo y pavo)",
+      "150 g de corazones de pollo",
+      "100 g de hígados de pollo y pavo",
+      "150 g de salchicha",
+      "1 cebolla, 1 zanahoria y 1 tallo de apio picados",
+      "150 g de guisantes",
+      "1/2 copa de vino blanco",
+      "1 litro de caldo de pollo",
+      "40 g de Parmesano rallado",
+      "30 g de mantequilla",
+      "Aceite de oliva virgen extra, sal y pimienta"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Pulisci le frattaglie e tagliale a pezzetti, insieme alla salsiccia.",
+      "Fai rosolare le frattaglie e la salsiccia in un filo d'olio con cipolla, carota e sedano tritati.",
+      "Sfuma con il vino bianco e lascia evaporare.",
+      "Aggiungi il riso e tostalo per un minuto.",
+      "Bagna con il brodo caldo un mestolo alla volta, unendo i piselli a metà cottura, fino a riso al dente.",
+      "Manteca con il burro e il Parmigiano, lascia riposare un minuto e servi."
+     ],
+     "en": [
+      "Clean the offal and cut it into small pieces, together with the sausage.",
+      "Brown the offal and sausage in a little oil with the chopped onion, carrot and celery.",
+      "Deglaze with the white wine and let it evaporate.",
+      "Add the rice and toast it for a minute.",
+      "Add the hot stock a ladle at a time, adding the peas halfway through, until the rice is al dente.",
+      "Mantecare with the butter and Parmesan, rest for a minute and serve."
+     ],
+     "fr": [
+      "Nettoyez les abats et coupez-les en petits morceaux, avec la saucisse.",
+      "Faites revenir les abats et la saucisse dans un peu d'huile avec l'oignon, la carotte et le céleri hachés.",
+      "Déglacez au vin blanc et laissez évaporer.",
+      "Ajoutez le riz et faites-le torréfier une minute.",
+      "Mouillez avec le bouillon chaud, une louche à la fois, en ajoutant les petits pois à mi-cuisson, jusqu'à ce que le riz soit al dente.",
+      "Mantecate avec le beurre et le Parmesan, laissez reposer une minute et servez."
+     ],
+     "de": [
+      "Die Innereien putzen und zusammen mit der Wurst in kleine Stücke schneiden.",
+      "Innereien und Wurst in etwas Öl mit Zwiebel, Karotte und Sellerie anbraten.",
+      "Mit dem Weißwein ablöschen und verdunsten lassen.",
+      "Den Reis zugeben und eine Minute anrösten.",
+      "Nach und nach mit der heißen Brühe aufgießen, die Erbsen nach der Hälfte der Garzeit zugeben, bis der Reis al dente ist.",
+      "Mit Butter und Parmesan mantecare, eine Minute ruhen lassen und servieren."
+     ],
+     "es": [
+      "Limpia los menudillos y córtalos en trozos pequeños, junto con la salchicha.",
+      "Dora los menudillos y la salchicha en un poco de aceite con la cebolla, la zanahoria y el apio picados.",
+      "Desglasa con el vino blanco y deja que se evapore.",
+      "Añade el arroz y tuéstalo un minuto.",
+      "Moja con el caldo caliente un cucharón cada vez, añadiendo los guisantes a mitad de cocción, hasta que el arroz esté al dente.",
+      "Mantecar con la mantequilla y el Parmesano, deja reposar un minuto y sirve."
+     ]
+    }
+   }
+  },
+  {
+   "id": "gran-bollito-padovano",
+   "nome": "Gran bollito alla padovana",
+   "portata": "secondo",
+   "testo": {
+    "it": "Piatto unico della cucina padovana: carni bollite a lungo con verdure e aromi, servite con salse e contorni. Una preparazione per le feste e le grandi tavolate.",
+    "en": "A one-pot feast of the Padua kitchen: meats boiled slowly with vegetables and aromatics, served with sauces and side dishes. A dish for festivals and big family tables.",
+    "fr": "Un plat complet de la cuisine padouane : des viandes bouillies longuement avec des légumes et des aromates, servies avec des sauces et des accompagnements. Un plat de fête et des grandes tablées.",
+    "de": "Ein Eintopf-Festmahl der Paduaner Küche: Fleisch wird lange mit Gemüse und Gewürzen gekocht und mit Saucen und Beilagen serviert. Ein Gericht für Feste und große Tafelrunden.",
+    "es": "Un plato completo de la cocina paduana: carnes cocidas largamente con verduras y aromáticas, servidas con salsas y guarniciones. Un plato de fiesta y de grandes mesas."
+   },
+   "ricetta": {
+    "fonte": "https://cittadellolio.it/2016/11/14/gran-bollito-lesso/?pdf=1559",
+    "porzioni": 10,
+    "preparazione": {
+     "it": "4 ore",
+     "en": "4 hours",
+     "fr": "4 h",
+     "de": "4 Std.",
+     "es": "4 horas"
+    },
+    "ingredienti": {
+     "it": [
+      "1 kg di manzo (bianco costato o garretto posteriore)",
+      "1 osso di manzo con midollo",
+      "1 gallina ruspante",
+      "Lingua salmistrata di vitello e musetto di maiale (facoltativi)",
+      "1 cipolla, 1 carota e 1 costa di sedano",
+      "Alloro, prezzemolo, chiodi di garofano, rosmarino e pepe in grani",
+      "3 litri d'acqua",
+      "15 g di sale grosso per kg di carne",
+      "Per servire: cren, salsa verde, pearà, mostarda, purè di patate"
+     ],
+     "en": [
+      "1 kg beef (bianco costato or hind shank)",
+      "1 beef bone with marrow",
+      "1 free-range hen",
+      "Salted calf tongue and pork snout (optional)",
+      "1 onion, 1 carrot and 1 celery stalk",
+      "Bay leaf, parsley, cloves, rosemary and peppercorns",
+      "3 litres water",
+      "15 g coarse salt per kg of meat",
+      "To serve: horseradish sauce (cren), salsa verde, pearà, mostarda, mashed potatoes"
+     ],
+     "fr": [
+      "1 kg de bœuf (bianco costato ou jarret arrière)",
+      "1 os de bœuf avec moelle",
+      "1 poule élevée en liberté",
+      "Langue de veau salée et museau de porc (facultatifs)",
+      "1 oignon, 1 carotte et 1 branche de céleri",
+      "Laurier, persil, clous de girofle, romarin et poivre en grains",
+      "3 litres d'eau",
+      "15 g de gros sel par kg de viande",
+      "Pour servir : cren (raifort), sauce verte, pearà, mostarda, purée de pommes de terre"
+     ],
+     "de": [
+      "1 kg Rindfleisch (bianco costato oder hintere Haxe)",
+      "1 Rinderknochen mit Mark",
+      "1 Freilandhuhn",
+      "Gepökelte Kalbszunge und Schweinerüssel (optional)",
+      "1 Zwiebel, 1 Karotte und 1 Selleriestange",
+      "Lorbeer, Petersilie, Nelken, Rosmarin und Pfefferkörner",
+      "3 Liter Wasser",
+      "15 g grobes Salz pro kg Fleisch",
+      "Zum Servieren: Kren, grüne Sauce, Pearà, Mostarda, Kartoffelpüree"
+     ],
+     "es": [
+      "1 kg de ternera (bianco costato o jarrete trasero)",
+      "1 hueso de ternera con tuétano",
+      "1 gallina de corral",
+      "Lengua de ternera salada y morro de cerdo (opcionales)",
+      "1 cebolla, 1 zanahoria y 1 tallo de apio",
+      "Laurel, perejil, clavos, romero y pimienta en grano",
+      "3 litros de agua",
+      "15 g de sal gruesa por kg de carne",
+      "Para servir: salsa de rábano picante (cren), salsa verde, pearà, mostarda, puré de patatas"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Porta l'acqua a ebollizione con le verdure e le erbe.",
+      "Immergi le carni e l'osso quando l'acqua bolle. Dopo circa un'ora abbassa la fiamma.",
+      "Aggiungi la gallina e prosegui a pentola semicoperta per almeno 3 ore, schiumando spesso.",
+      "Cuoci a parte la lingua e il musetto, se li usi.",
+      "Verifica la cottura con una forchetta: le carni sono pronte quando vi entra senza resistenza.",
+      "Taglia a pezzi, disponi su un carrello caldo e cospargi di sale grosso. Servi con le salse e i contorni."
+     ],
+     "en": [
+      "Bring the water to the boil with the vegetables and herbs.",
+      "Plunge the meats and the bone in once the water boils. After about an hour lower the heat.",
+      "Add the hen and continue, with the pot partly covered, for at least 3 hours, skimming often.",
+      "Cook the tongue and snout separately, if using them.",
+      "Check the doneness with a fork: the meats are ready when it slides in without resistance.",
+      "Cut into pieces, arrange on a warm trolley, sprinkle with coarse salt. Serve with the sauces and side dishes."
+     ],
+     "fr": [
+      "Portez l'eau à ébullition avec les légumes et les aromates.",
+      "Plongez les viandes et l'os quand l'eau bout. Après environ une heure, baissez le feu.",
+      "Ajoutez la poule et poursuivez, couvercle à moitié fermé, pendant au moins 3 heures, en écumant souvent.",
+      "Faites cuire à part la langue et le museau, si vous les utilisez.",
+      "Vérifiez la cuisson avec une fourchette : les viandes sont prêtes quand elle s'enfonce sans résistance.",
+      "Coupez en morceaux, disposez sur un chariot chaud et saupoudrez de gros sel. Servez avec les sauces et les accompagnements."
+     ],
+     "de": [
+      "Das Wasser mit dem Gemüse und den Kräutern zum Kochen bringen.",
+      "Wenn das Wasser kocht, Fleisch und Knochen hineingeben. Nach etwa einer Stunde die Hitze reduzieren.",
+      "Das Huhn zugeben und mit halb aufgelegtem Deckel mindestens 3 Stunden weitergaren, oft abschäumen.",
+      "Zunge und Rüssel, falls verwendet, separat garen.",
+      "Mit einer Gabel prüfen: Das Fleisch ist fertig, wenn die Gabel ohne Widerstand hineingleitet.",
+      "In Stücke schneiden, auf einem warmen Wagen anrichten und mit grobem Salz bestreuen. Mit Saucen und Beilagen servieren."
+     ],
+     "es": [
+      "Lleva el agua a ebullición con las verduras y las hierbas.",
+      "Cuando hierva, introduce las carnes y el hueso. Tras una hora aproximadamente, baja el fuego.",
+      "Añade la gallina y sigue cocinando, con la olla semitapada, al menos 3 horas, espumando a menudo.",
+      "Cocina aparte la lengua y el morro, si los usas.",
+      "Comprueba la cocción con un tenedor: la carne está lista cuando el tenedor entra sin resistencia.",
+      "Corta en trozos, dispón sobre un carrito caliente y espolvorea con sal gruesa. Sirve con las salsas y guarniciones."
+     ]
+    }
+   }
+  },
+  {
+   "id": "prosciutto-veneto-berico-euganeo-dop",
+   "nome": "Prosciutto Veneto Berico-Euganeo DOP",
+   "portata": "cicchetto",
+   "testo": {
+    "it": "Prosciutto crudo a denominazione d'origine protetta, prodotto tra i Colli Berici e i Colli Euganei. Ha un colore rosato, un grasso bianco e una marezzatura lieve, con un gusto dolce e sapido.",
+    "en": "Dry-cured ham with protected designation of origin, made between the Berici and Euganean Hills. Pink in colour, with white fat and light marbling, sweet and savoury in flavour.",
+    "fr": "Jambon cru à appellation d'origine protégée, produit entre les Collines Berici et Euganéennes. Couleur rosée, gras blanc et marbrure légère, goût doux et salé.",
+    "de": "Rohschinken mit geschützter Ursprungsbezeichnung, hergestellt zwischen den Colli Berici und den Colli Euganei. Rosafarben, mit weißem Fett und leichter Marmorierung, mild-würzig im Geschmack.",
+    "es": "Jamón crudo con denominación de origen protegida, elaborado entre los Colli Berici y los Colli Euganei. De color rosado, con grasa blanca y veteado ligero, sabor dulce y salado."
+   },
+   "ricetta": {
+    "fonte": "https://www.dissapore.com/spesa/cose-il-prosciutto-veneto-dop-tra-colli-berici-e-euganei/",
+    "porzioni": 4,
+    "preparazione": {
+     "it": "15 min",
+     "en": "15 min",
+     "fr": "15 min",
+     "de": "15 Min.",
+     "es": "15 min"
+    },
+    "ingredienti": {
+     "it": [
+      "200 g di Prosciutto Veneto Berico-Euganeo DOP",
+      "Pane casereccio",
+      "Olio extravergine d'oliva (facoltativo)"
+     ],
+     "en": [
+      "200 g Prosciutto Veneto Berico-Euganeo DOP",
+      "Country bread",
+      "Extra virgin olive oil (optional)"
+     ],
+     "fr": [
+      "200 g de Prosciutto Veneto Berico-Euganeo DOP",
+      "Pain de campagne",
+      "Huile d'olive extra vierge (facultatif)"
+     ],
+     "de": [
+      "200 g Prosciutto Veneto Berico-Euganeo DOP",
+      "Bauernbrot",
+      "Olivenöl extra vergine (optional)"
+     ],
+     "es": [
+      "200 g de Prosciutto Veneto Berico-Euganeo DOP",
+      "Pan casero",
+      "Aceite de oliva virgen extra (opcional)"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Taglia il prosciutto a fette sottilissime con un coltello lungo e ben affilato.",
+      "Servilo a temperatura ambiente, così il grasso si scioglie e il sapore si esprime meglio.",
+      "Accompagnalo con pane casereccio e, se ti piace, un filo d'olio."
+     ],
+     "en": [
+      "Slice the ham very thinly with a long, sharp knife.",
+      "Serve at room temperature, so the fat softens and the flavour comes through better.",
+      "Serve with country bread and, if you like, a drizzle of olive oil."
+     ],
+     "fr": [
+      "Coupez le jambon en tranches très fines avec un long couteau bien aiguisé.",
+      "Servez à température ambiante, pour que le gras fonde et que la saveur s'exprime mieux.",
+      "Accompagnez de pain de campagne et, si vous le souhaitez, d'un filet d'huile."
+     ],
+     "de": [
+      "Den Schinken mit einem langen, scharfen Messer in sehr dünne Scheiben schneiden.",
+      "Bei Raumtemperatur servieren, damit das Fett weich wird und sich der Geschmack besser entfaltet.",
+      "Mit Bauernbrot servieren und nach Belieben mit etwas Olivenöl beträufeln."
+     ],
+     "es": [
+      "Corta el jamón en lonchas muy finas con un cuchillo largo y bien afilado.",
+      "Sírvelo a temperatura ambiente, para que la grasa se ablande y el sabor se exprese mejor.",
+      "Acompáñalo con pan casero y, si te gusta, un chorrito de aceite."
+     ]
+    }
+   }
+  },
+  {
+   "id": "torta-pazientina",
+   "nome": "Torta pazientina",
+   "portata": "dolce",
+   "testo": {
+    "it": "Dolce padovano a più strati: due dischi di pasta frolla con in mezzo una soffice polentina, zabaione al Marsala e una bagna al rum. Ha origini antiche e si prepara con un giorno di anticipo.",
+    "en": "A Paduan layered cake: two discs of shortcrust pastry with a soft 'polentina' sponge, Marsala zabaglione and a rum syrup in between. It has ancient origins and is made a day ahead.",
+    "fr": "Gâteau padouan en couches : deux disques de pâte sablée enserrant une moelleuse polentina, un zabaione au Marsala et un sirop au rhum. Ses origines sont anciennes et elle se prépare la veille.",
+    "de": "Geschichteter Kuchen aus Padua: zwei Scheiben Mürbeteig mit einem weichen Polentina-Biskuit, Marsala-Zabaione und Rumsirup dazwischen. Er hat alte Ursprünge und wird einen Tag vorher zubereitet.",
+    "es": "Tarta paduana en capas: dos discos de pasta frola con un bizcocho suave de polentina, zabaglione al Marsala y almíbar de ron en medio. Tiene origen antiguo y se prepara con un día de antelación."
+   },
+   "ricetta": {
+    "fonte": "https://www.dissapore.com/ricette/torta-pazientina/",
+    "porzioni": 6,
+    "preparazione": {
+     "it": "60 min + 24 ore di riposo",
+     "en": "60 min + 24 hours resting",
+     "fr": "60 min + 24 h de repos",
+     "de": "60 Min. + 24 Std. Ruhezeit",
+     "es": "60 min + 24 horas de reposo"
+    },
+    "ingredienti": {
+     "it": [
+      "150 g di farina bianca",
+      "75 g di farina di mandorle",
+      "75 g di granella di nocciole",
+      "150 g di burro freddo a cubetti",
+      "150 g di zucchero semolato",
+      "3 albumi",
+      "4 uova",
+      "100 g di zucchero semolato (per la polentina)",
+      "90 g di fecola di mais",
+      "30 g di farina di mais fioretto",
+      "1/2 bustina di lievito vanigliato per dolci",
+      "1 pizzico di sale",
+      "4 tuorli e 3 uova intere (per lo zabaione)",
+      "250 ml di Marsala",
+      "50 g di fecola di patate",
+      "125 g di zucchero (per lo zabaione)",
+      "50 ml di rum e 100 ml di acqua con 50 g di zucchero (per la bagna)",
+      "Cioccolato fondente, mandorle a lamelle e granella di nocciole per decorare"
+     ],
+     "en": [
+      "150 g plain flour",
+      "75 g almond flour",
+      "75 g chopped hazelnuts",
+      "150 g cold butter, diced",
+      "150 g caster sugar",
+      "3 egg whites",
+      "4 eggs",
+      "100 g caster sugar (for the polentina)",
+      "90 g cornflour",
+      "30 g fine cornmeal",
+      "1/2 sachet vanilla baking powder",
+      "1 pinch salt",
+      "4 egg yolks and 3 whole eggs (for the zabaglione)",
+      "250 ml Marsala",
+      "50 g potato starch",
+      "125 g sugar (for the zabaglione)",
+      "50 ml rum, 100 ml water and 50 g sugar (for the syrup)",
+      "Dark chocolate, flaked almonds and chopped hazelnuts to decorate"
+     ],
+     "fr": [
+      "150 g de farine blanche",
+      "75 g de farine d'amandes",
+      "75 g de noisettes concassées",
+      "150 g de beurre froid en dés",
+      "150 g de sucre semoule",
+      "3 blancs d'œuf",
+      "4 œufs",
+      "100 g de sucre semoule (pour la polentina)",
+      "90 g de fécule de maïs",
+      "30 g de farine de maïs fine",
+      "1/2 sachet de levure vanillée",
+      "1 pincée de sel",
+      "4 jaunes et 3 œufs entiers (pour le zabaione)",
+      "250 ml de Marsala",
+      "50 g de fécule de pomme de terre",
+      "125 g de sucre (pour le zabaione)",
+      "50 ml de rhum, 100 ml d'eau et 50 g de sucre (pour le sirop)",
+      "Chocolat noir, amandes effilées et noisettes concassées pour décorer"
+     ],
+     "de": [
+      "150 g Weizenmehl",
+      "75 g Mandelmehl",
+      "75 g gehackte Haselnüsse",
+      "150 g kalte Butter, in Würfeln",
+      "150 g Zucker",
+      "3 Eiweiß",
+      "4 Eier",
+      "100 g Zucker (für die Polentina)",
+      "90 g Maisstärke",
+      "30 g feines Maismehl",
+      "1/2 Päckchen Vanille-Backpulver",
+      "1 Prise Salz",
+      "4 Eigelb und 3 ganze Eier (für die Zabaione)",
+      "250 ml Marsala",
+      "50 g Kartoffelstärke",
+      "125 g Zucker (für die Zabaione)",
+      "50 ml Rum, 100 ml Wasser und 50 g Zucker (für den Sirup)",
+      "Zartbitterschokolade, Mandelblättchen und gehackte Haselnüsse zum Verzieren"
+     ],
+     "es": [
+      "150 g de harina blanca",
+      "75 g de harina de almendra",
+      "75 g de avellanas troceadas",
+      "150 g de mantequilla fría en cubos",
+      "150 g de azúcar",
+      "3 claras de huevo",
+      "4 huevos",
+      "100 g de azúcar (para la polentina)",
+      "90 g de maicena",
+      "30 g de harina de maíz fina",
+      "1/2 sobre de levadura de repostería con vainilla",
+      "1 pizca de sal",
+      "4 yemas y 3 huevos enteros (para el zabaglione)",
+      "250 ml de Marsala",
+      "50 g de fécula de patata",
+      "125 g de azúcar (para el zabaglione)",
+      "50 ml de ron, 100 ml de agua y 50 g de azúcar (para el almíbar)",
+      "Chocolate negro, almendras laminadas y avellanas troceadas para decorar"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Impasta farina, farina di mandorle, granella di nocciole, burro, zucchero e sale fino a ottenere un composto che si sbriciola. Incorpora gli albumi montati a neve con una spatola.",
+      "Stendi l'impasto su due teglie, spesso al massimo 1 cm, e cuoci a 180 °C per 20 minuti. Lascia raffreddare e ricava due rettangoli di circa 15x20 cm.",
+      "Monta uova e zucchero con sale finché il composto è chiarissimo e forma un nastro. Aggiungi farine e lievito setacciati e versa in uno stampo tondo foderato di carta da forno.",
+      "Cuoci la polentina a 180 °C ventilato per circa 30 minuti, poi lasciala raffreddare completamente.",
+      "Prepara lo zabaione: sbatti uova, tuorli, zucchero e fecola a bagnomaria, poi aggiungi il Marsala e monta con la frusta elettrica.",
+      "Sciogli lo zucchero nella miscela di acqua e rum per la bagna.",
+      "Componi: una frolla sulla base, zabaione abbondante, la polentina bagnata, altro zabaione, la seconda frolla e ancora crema. Decora con cioccolato, mandorle e nocciole.",
+      "Metti in frigorifero per almeno 24 ore. Si conserva fino a due giorni; può anche essere congelata."
+     ],
+     "en": [
+      "Mix flour, almond flour, chopped hazelnuts, butter, sugar and salt into a crumbly dough. Fold in the stiffly beaten egg whites with a spatula.",
+      "Spread the dough on two trays, no more than 1 cm thick, and bake at 180 °C for 20 minutes. Let cool and cut two rectangles about 15x20 cm.",
+      "Whisk eggs and sugar with the salt until very pale and thick enough to form a ribbon. Add the sifted flours and baking powder, and pour into a round tin lined with baking paper.",
+      "Bake the polentina at 180 °C fan for about 30 minutes, then let it cool completely.",
+      "Make the zabaglione: whisk eggs, yolks, sugar and potato starch over a bain-marie, then add the Marsala and whisk with an electric beater.",
+      "Dissolve the sugar in the water and rum for the syrup.",
+      "Assemble: a pastry base, plenty of zabaglione, the soaked polentina, more zabaglione, the second pastry and more cream. Decorate with chocolate, almonds and hazelnuts.",
+      "Refrigerate for at least 24 hours. It keeps for up to two days; it can also be frozen."
+     ],
+     "fr": [
+      "Mélangez farine, farine d'amandes, noisettes concassées, beurre, sucre et sel pour obtenir une pâte friable. Incorporez les blancs battus en neige à la spatule.",
+      "Étalez la pâte sur deux plaques, sur 1 cm d'épaisseur maximum, et cuisez à 180 °C pendant 20 minutes. Laissez refroidir et découpez deux rectangles d'environ 15 x 20 cm.",
+      "Fouettez les œufs et le sucre avec le sel jusqu'à ce que le mélange soit très clair et forme un ruban. Ajoutez les farines et la levure tamisées et versez dans un moule rond chemisé de papier cuisson.",
+      "Cuisez la polentina à 180 °C en chaleur tournante pendant environ 30 minutes, puis laissez-la refroidir complètement.",
+      "Préparez le zabaione : fouettez œufs, jaunes, sucre et fécule au bain-marie, puis ajoutez le Marsala et fouettez au batteur électrique.",
+      "Faites dissoudre le sucre dans l'eau et le rhum pour le sirop.",
+      "Montez : une base de pâte, beaucoup de zabaione, la polentina imbibée, encore du zabaione, la seconde pâte et de la crème. Décorez de chocolat, d'amandes et de noisettes.",
+      "Réfrigérez au moins 24 heures. Elle se conserve deux jours ; elle peut aussi être congelée."
+     ],
+     "de": [
+      "Mehl, Mandelmehl, gehackte Haselnüsse, Butter, Zucker und Salz zu einem bröseligen Teig verarbeiten. Das steif geschlagene Eiweiß mit einem Spatel unterheben.",
+      "Den Teig auf zwei Bleche höchstens 1 cm dick streichen und 20 Minuten bei 180 °C backen. Abkühlen lassen und zwei Rechtecke von etwa 15 x 20 cm ausschneiden.",
+      "Eier und Zucker mit dem Salz schaumig schlagen, bis die Masse sehr hell ist und ein Band bildet. Die gesiebten Mehle und das Backpulver unterheben und in eine runde, mit Backpapier ausgelegte Form füllen.",
+      "Die Polentina bei 180 °C Umluft etwa 30 Minuten backen und vollständig abkühlen lassen.",
+      "Für die Zabaione Eier, Eigelb, Zucker und Stärke im Wasserbad aufschlagen, dann den Marsala zugeben und mit dem Handmixer schlagen.",
+      "Für den Sirup den Zucker in Wasser und Rum auflösen.",
+      "Schichten: Teigboden, viel Zabaione, die getränkte Polentina, wieder Zabaione, der zweite Teigboden und noch etwas Creme. Mit Schokolade, Mandeln und Haselnüssen verzieren.",
+      "Mindestens 24 Stunden kühl stellen. Sie hält sich bis zu zwei Tage und kann eingefroren werden."
+     ],
+     "es": [
+      "Mezcla harina, harina de almendra, avellanas troceadas, mantequilla, azúcar y sal hasta obtener una masa que se desmiga. Incorpora las claras montadas a punto de nieve con una espátula.",
+      "Extiende la masa en dos bandejas, de máximo 1 cm de grosor, y hornea a 180 °C durante 20 minutos. Deja enfriar y corta dos rectángulos de unos 15 x 20 cm.",
+      "Bate huevos y azúcar con la sal hasta que la mezcla esté muy clara y forme una cinta. Añade las harinas y la levadura tamizadas y vierte en un molde redondo forrado con papel de horno.",
+      "Hornea la polentina a 180 °C con ventilador durante unos 30 minutos y deja que se enfríe del todo.",
+      "Prepara el zabaglione: bate huevos, yemas, azúcar y fécula al baño maría, luego añade el Marsala y bate con la batidora eléctrica.",
+      "Disuelve el azúcar en el agua y el ron para el almíbar.",
+      "Monta: una base de pasta, zabaglione abundante, la polentina empapada, más zabaglione, la segunda base y un poco de crema. Decora con chocolate, almendras y avellanas.",
+      "Refrigera al menos 24 horas. Se conserva hasta dos días; también se puede congelar."
+     ]
+    }
+   }
+  },
+  {
+   "id": "dolce-del-santo",
+   "nome": "Dolce del Santo (o Pan del Santo)",
+   "portata": "dolce",
+   "testo": {
+    "it": "Dolce padovano dedicato a Sant'Antonio: un guscio di pasta sfoglia con confettura di albicocche, arance candite, uvetta e amaretti, e un ripieno soffice alle mandorle e al limone. Ricorda il pane che i frati distribuivano ai pellegrini.",
+    "en": "A Paduan cake dedicated to Saint Anthony: a puff pastry shell with apricot jam, candied orange, raisins and amaretti, and a soft filling with almonds and lemon. It recalls the bread the friars gave to pilgrims.",
+    "fr": "Gâteau padouan dédié à saint Antoine : une coque en pâte feuilletée avec confiture d'abricot, orange confite, raisins secs et amaretti, et une garniture moelleuse aux amandes et au citron. Il rappelle le pain que les frères distribuaient aux pèlerins.",
+    "de": "Padueaner Kuchen zu Ehren des heiligen Antonius: eine Hülle aus Blätterteig mit Aprikosenkonfitüre, kandierter Orange, Rosinen und Amaretti und einer weichen Füllung mit Mandeln und Zitrone. Er erinnert an das Brot, das die Mönche den Pilgern gaben.",
+    "es": "Tarta paduana dedicada a san Antonio: una cubierta de hojaldre con mermelada de albaricoque, naranja confitada, pasas y amaretti, y un relleno suave de almendra y limón. Recuerda al pan que los frailes repartían a los peregrinos."
+   },
+   "ricetta": {
+    "fonte": "https://blog.giallozafferano.it/manidipastafrolla/dolce-del-santo/",
+    "porzioni": 8,
+    "preparazione": {
+     "it": "30 min + 40 min di cottura",
+     "en": "30 min + 40 min baking",
+     "fr": "30 min + 40 min de cuisson",
+     "de": "30 Min. + 40 Min. Backzeit",
+     "es": "30 min + 40 min de horno"
+    },
+    "ingredienti": {
+     "it": [
+      "1 confezione di pasta sfoglia rettangolare",
+      "1 manciata di arance candite tritate",
+      "1 manciata di uvetta",
+      "Confettura di albicocche q.b.",
+      "Amaretti q.b.",
+      "125 g di uova (circa 3)",
+      "90 g di zucchero",
+      "75 g di farina 00",
+      "25 g di fecola di patate",
+      "30 g di mandorle tostate e tritate",
+      "Scorza di 1 limone e mezzo",
+      "1 pizzico di sale"
+     ],
+     "en": [
+      "1 rectangular pack of puff pastry",
+      "1 handful candied orange, chopped",
+      "1 handful raisins",
+      "Apricot jam to taste",
+      "Amaretti to taste",
+      "125 g eggs (about 3)",
+      "90 g sugar",
+      "75 g plain flour (type 00)",
+      "25 g potato starch",
+      "30 g almonds, toasted and roughly chopped",
+      "Zest of 1 and a half lemons",
+      "1 pinch salt"
+     ],
+     "fr": [
+      "1 pâte feuilletée rectangulaire",
+      "1 poignée d'orange confite hachée",
+      "1 poignée de raisins secs",
+      "Confiture d'abricot selon le goût",
+      "Amaretti selon le goût",
+      "125 g d'œufs (environ 3)",
+      "90 g de sucre",
+      "75 g de farine 00",
+      "25 g de fécule de pomme de terre",
+      "30 g d'amandes grillées et grossièrement hachées",
+      "Zeste de 1 citron et demi",
+      "1 pincée de sel"
+     ],
+     "de": [
+      "1 Packung rechteckiger Blätterteig",
+      "1 Handvoll gehackte kandierte Orange",
+      "1 Handvoll Rosinen",
+      "Aprikosenkonfitüre nach Belieben",
+      "Amaretti nach Belieben",
+      "125 g Eier (etwa 3)",
+      "90 g Zucker",
+      "75 g Mehl Type 00",
+      "25 g Kartoffelstärke",
+      "30 g Mandeln, geröstet und grob gehackt",
+      "Schale von 1,5 Zitronen",
+      "1 Prise Salz"
+     ],
+     "es": [
+      "1 paquete de hojaldre rectangular",
+      "1 puñado de naranja confitada picada",
+      "1 puñado de pasas",
+      "Mermelada de albaricoque al gusto",
+      "Amaretti al gusto",
+      "125 g de huevos (unos 3)",
+      "90 g de azúcar",
+      "75 g de harina 00",
+      "25 g de fécula de patata",
+      "30 g de almendras tostadas y troceadas",
+      "Ralladura de 1 limón y medio",
+      "1 pizca de sal"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Foderate una tortiera da 20 cm con la sfoglia, lasciando sporgere i bordi. Stendi sul fondo un velo di confettura di albicocche, poi arance candite, uvetta ammorbidita nell'acqua e amaretti sbriciolati.",
+      "Con lo sbattitore monta uova, zucchero, sale e scorza di limone per almeno 10 minuti, fino a un composto spumoso.",
+      "Unisci poco alla volta farina e fecola setacciate, mescolando dal basso verso l'alto con la spatola. Incorpora le mandorle.",
+      "Versa il composto nel guscio di sfoglia, richiudi verso l'interno i bordi e cuoci in forno statico a 175 °C per circa 40 minuti.",
+      "Lascia raffreddare e sforma."
+     ],
+     "en": [
+      "Line a 20 cm tin with the pastry, letting the edges overhang. Spread a thin layer of apricot jam on the base, then add candied orange, raisins softened in water and crumbled amaretti.",
+      "Whisk eggs, sugar, salt and lemon zest with an electric beater for at least 10 minutes, until frothy.",
+      "Gradually fold in the sifted flour and potato starch with a spatula, from the bottom upwards, without overworking. Fold in the almonds.",
+      "Pour the mixture into the pastry shell, fold the edges inwards and bake in a static oven at 175 °C for about 40 minutes.",
+      "Let it cool and turn out."
+     ],
+     "fr": [
+      "Garnissez un moule de 20 cm avec la pâte, en laissant dépasser les bords. Étalez sur le fond une fine couche de confiture d'abricot, puis ajoutez l'orange confite, les raisins ramollis dans l'eau et les amaretti émiettés.",
+      "Fouettez œufs, sucre, sel et zeste de citron au batteur électrique pendant au moins 10 minutes, jusqu'à obtenir une mousse.",
+      "Incorporez petit à petit la farine et la fécule tamisées, à la spatule, du bas vers le haut, sans trop travailler la pâte. Ajoutez les amandes.",
+      "Versez la préparation dans la coque, repliez les bords vers l'intérieur et enfournez à 175 °C, sole et voûte, pendant environ 40 minutes.",
+      "Laissez refroidir et démoulez."
+     ],
+     "de": [
+      "Eine 20-cm-Form mit dem Teig auskleiden und die Ränder überstehen lassen. Auf den Boden eine dünne Schicht Aprikosenkonfitüre streichen, dann kandierte Orange, in Wasser eingeweichte Rosinen und zerbröselte Amaretti geben.",
+      "Eier, Zucker, Salz und Zitronenschale mindestens 10 Minuten mit dem Handmixer schaumig schlagen.",
+      "Mehl und Stärke gesiebt nach und nach mit dem Spatel von unten nach oben unterheben, ohne den Teig zu kneten. Die Mandeln unterheben.",
+      "Die Masse in die Teighülle geben, die Ränder nach innen klappen und bei 175 °C Ober-/Unterhitze etwa 40 Minuten backen.",
+      "Abkühlen lassen und stürzen."
+     ],
+     "es": [
+      "Forra un molde de 20 cm con la hojaldre, dejando sobresalir los bordes. Extiende sobre la base una capa fina de mermelada de albaricoque y añade naranja confitada, pasas remojadas en agua y amaretti desmenuzados.",
+      "Bate huevos, azúcar, sal y ralladura de limón con la batidora eléctrica durante al menos 10 minutos, hasta que espume.",
+      "Incorpora poco a poco la harina y la fécula tamizadas con la espátula, de abajo arriba, sin trabajar mucho la masa. Añade las almendras.",
+      "Vierte la mezcla en la cubierta de hojaldre, cierra los bordes hacia dentro y hornea en horno estático a 175 °C durante unos 40 minutos.",
+      "Deja enfriar y desmolda."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cappone-alla-canevera",
+   "nome": "Cappone alla canevera",
+   "portata": "secondo",
+   "testo": {
+    "it": "Piatto padovano antico e laborioso: un cappone farcito con frutta e verdure, racchiuso in una vescica di maiale e cotto con una canna di bambù, la 'canevera'. Oggi è raro nei menu, ma resta nella tradizione.",
+    "en": "An ancient and laborious Paduan dish: a capon stuffed with fruit and vegetables, wrapped in a pig's bladder and cooked with a bamboo cane, the 'canevera'. Rare on menus today, it remains part of the tradition.",
+    "fr": "Plat padouan ancien et laborieux : un chapon farci de fruits et de légumes, enveloppé dans une vessie de porc et cuit avec une canne de bambou, la « canevera ». Rare sur les menus aujourd'hui, il reste dans la tradition.",
+    "de": "Ein altes und aufwendiges Gericht aus Padua: ein mit Obst und Gemüse gefüllter Kapaun, in eine Schweineblase gehüllt und mit einem Bambusrohr, der „Canevera“, gegart. Heute selten auf den Speisekarten, aber Teil der Tradition.",
+    "es": "Plato paduano antiguo y laborioso: un capón relleno de fruta y verduras, envuelto en una vejiga de cerdo y cocido con una caña de bambú, la «canevera». Hoy es raro en los menús, pero sigue en la tradición."
+   },
+   "ricetta": {
+    "fonte": "https://www.turismopadova.it/en/three-patented-padua-recipes/",
+    "porzioni": 6,
+    "preparazione": {
+     "it": "3 ore circa",
+     "en": "about 3 hours",
+     "fr": "environ 3 h",
+     "de": "etwa 3 Std.",
+     "es": "unas 3 horas"
+    },
+    "ingredienti": {
+     "it": [
+      "1 cappone di razza padovana (circa 2 kg)",
+      "2 carote",
+      "1 mela",
+      "1 costa di sedano",
+      "1 cipolla",
+      "3 chiodi di garofano",
+      "1 canna di bambù (la 'canevera')",
+      "1 vescica di maiale",
+      "Olio extravergine dei Colli Euganei",
+      "Sale"
+     ],
+     "en": [
+      "1 capon of the Paduan breed (about 2 kg)",
+      "2 carrots",
+      "1 apple",
+      "1 celery stalk",
+      "1 onion",
+      "3 cloves",
+      "1 bamboo cane (the 'canevera')",
+      "1 pig's bladder",
+      "Extra virgin olive oil from the Euganean Hills",
+      "Salt"
+     ],
+     "fr": [
+      "1 chapon de race padouane (environ 2 kg)",
+      "2 carottes",
+      "1 pomme",
+      "1 branche de céleri",
+      "1 oignon",
+      "3 clous de girofle",
+      "1 canne de bambou (la « canevera »)",
+      "1 vessie de porc",
+      "Huile d'olive extra vierge des Collines Euganéennes",
+      "Sel"
+     ],
+     "de": [
+      "1 Kapaun der Paduaner Rasse (etwa 2 kg)",
+      "2 Karotten",
+      "1 Apfel",
+      "1 Selleriestange",
+      "1 Zwiebel",
+      "3 Nelken",
+      "1 Bambusrohr (die „Canevera“)",
+      "1 Schweineblase",
+      "Olivenöl extra vergine aus den Colli Euganei",
+      "Salz"
+     ],
+     "es": [
+      "1 capón de raza paduana (unos 2 kg)",
+      "2 zanahorias",
+      "1 manzana",
+      "1 tallo de apio",
+      "1 cebolla",
+      "3 clavos de olor",
+      "1 caña de bambú (la «canevera»)",
+      "1 vejiga de cerdo",
+      "Aceite de oliva virgen extra de los Colli Euganei",
+      "Sal"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Farcisci il cappone con carote, mela, sedano, cipolla e chiodi di garofano, tagliati a pezzi, e salalo.",
+      "Inseriscilo nella vescica di maiale insieme alla canna di bambù, chiudendo bene.",
+      "Bollilo per diverse ore, fino a cottura completa.",
+      "Servi 'in tocio', cioè con il fondo di cottura, condito con olio extravergine dei Colli Euganei."
+     ],
+     "en": [
+      "Stuff the capon with carrots, apple, celery, onion and cloves, cut into pieces, and salt it.",
+      "Place it in the pig's bladder together with the bamboo cane, sealing it well.",
+      "Boil for several hours, until fully cooked.",
+      "Serve 'in tocio', that is with its cooking liquid, dressed with extra virgin olive oil from the Euganean Hills."
+     ],
+     "fr": [
+      "Farcissez le chapon avec carottes, pomme, céleri, oignon et clous de girofle, coupés en morceaux, et salez.",
+      "Placez-le dans la vessie de porc avec la canne de bambou et fermez bien.",
+      "Faites bouillir plusieurs heures, jusqu'à cuisson complète.",
+      "Servez « in tocio », c'est-à-dire avec son jus de cuisson, assaisonné d'huile d'olive extra vierge des Collines Euganéennes."
+     ],
+     "de": [
+      "Den Kapaun mit Karotten, Apfel, Sellerie, Zwiebel und Nelken füllen, die in Stücke geschnitten sind, und salzen.",
+      "In die Schweineblase zusammen mit dem Bambusrohr geben und gut verschließen.",
+      "Mehrere Stunden kochen, bis er vollständig gar ist.",
+      "Servieren „in tocio“, also mit dem Kochfond und Olivenöl extra vergine aus den Colli Euganei."
+     ],
+     "es": [
+      "Rellena el capón con zanahorias, manzana, apio, cebolla y clavos, cortados en trozos, y sálalo.",
+      "Introdúcelo en la vejiga de cerdo junto con la caña de bambú y ciérrala bien.",
+      "Cuécelo varias horas, hasta que esté completamente hecho.",
+      "Sirve «in tocio», es decir, con su caldo de cocción, aliñado con aceite de oliva virgen extra de los Colli Euganei."
+     ]
+    }
+   }
+  }
+ ]
 }
