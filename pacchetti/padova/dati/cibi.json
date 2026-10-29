@@ -894,6 +894,117 @@
      ]
     }
    }
+  },
+  {
+   "id": "caffe-alla-menta-pedrocchi",
+   "nome": "Caffè alla menta del Pedrocchi",
+   "portata": "dolce",
+   "testo": {
+    "it": "Caffè caldo con cacao, latte, panna montata e sciroppo alla menta, storica specialità del Caffè Pedrocchi di Padova. Ricorda il locale nato nel 1826, ritrovo degli intellettuali dell'epoca, voluto da Antonio Pedrocchi, figlio di Francesco.",
+    "en": "A hot coffee with cocoa, milk, whipped cream and mint syrup, a historic speciality of the Caffè Pedrocchi in Padua. It recalls the café founded in 1826 by Antonio Pedrocchi, son of Francesco, a meeting place for the intellectuals of the time.",
+    "fr": "Un café chaud au cacao, au lait, à la crème fouettée et au sirop de menthe, spécialité historique du Caffè Pedrocchi à Padoue. Il rappelle le café créé en 1826 par Antonio Pedrocchi, fils de Francesco, lieu de rencontre des intellectuels de l'époque.",
+    "de": "Heißer Kaffee mit Kakao, Milch, Schlagsahne und Minzsirup, eine historische Spezialität des Caffè Pedrocchi in Padua. Er erinnert an das 1826 von Antonio Pedrocchi, dem Sohn von Francesco, gegründete Café, ein Treffpunkt der Intellektuellen jener Zeit.",
+    "es": "Café caliente con cacao, leche, nata montada y sirope de menta, especialidad histórica del Caffè Pedrocchi de Padua. Recuerda al café fundado en 1826 por Antonio Pedrocchi, hijo de Francesco, punto de encuentro de los intelectuales de la época."
+   },
+   "ricetta": {
+    "porzioni": 1,
+    "preparazione": {
+     "it": "20 min",
+     "en": "20 min",
+     "fr": "20 min",
+     "de": "20 Min.",
+     "es": "20 min"
+    },
+    "ingredienti": {
+     "it": [
+      "50 g di panna",
+      "3 cucchiai di zucchero",
+      "2 cucchiai di cacao amaro in polvere",
+      "100 ml di latte",
+      "200 ml di caffè bollente",
+      "4 cucchiai di sciroppo alla menta",
+      "Foglioline di menta",
+      "Cacao amaro in polvere per decorare"
+     ],
+     "en": [
+      "50 g cream",
+      "3 tablespoons sugar",
+      "2 tablespoons unsweetened cocoa powder",
+      "100 ml milk",
+      "200 ml boiling coffee",
+      "4 tablespoons mint syrup",
+      "Mint leaves",
+      "Unsweetened cocoa powder to decorate"
+     ],
+     "fr": [
+      "50 g de crème",
+      "3 cuillères à soupe de sucre",
+      "2 cuillères à soupe de cacao amer en poudre",
+      "100 ml de lait",
+      "200 ml de café bouillant",
+      "4 cuillères à soupe de sirop de menthe",
+      "Feuilles de menthe",
+      "Cacao amer en poudre pour décorer"
+     ],
+     "de": [
+      "50 g Sahne",
+      "3 EL Zucker",
+      "2 EL ungesüßtes Kakaopulver",
+      "100 ml Milch",
+      "200 ml kochend heißer Kaffee",
+      "4 EL Minzsirup",
+      "Minzblättchen",
+      "Ungesüßtes Kakaopulver zum Verzieren"
+     ],
+     "es": [
+      "50 g de nata",
+      "3 cucharadas de azúcar",
+      "2 cucharadas de cacao amargo en polvo",
+      "100 ml de leche",
+      "200 ml de café muy caliente",
+      "4 cucharadas de sirope de menta",
+      "Hojitas de menta",
+      "Cacao amargo en polvo para decorar"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Monta la panna con 1 cucchiaio di zucchero.",
+      "Mescola lo zucchero restante con il cacao e 5 cucchiai di latte freddo.",
+      "Cuoci il latte con la miscela appena preparata, poi unisci tutto al caffè bollente e a 3 cucchiai di sciroppo alla menta.",
+      "Aggiungi la panna gradualmente, senza mescolare.",
+      "Decora versando sopra la panna lo sciroppo alla menta, con foglioline di menta e cacao in polvere."
+     ],
+     "en": [
+      "Whip the cream with 1 tablespoon of sugar.",
+      "Mix the remaining sugar with the cocoa and 5 tablespoons of cold milk.",
+      "Heat the milk with the mixture just prepared, then combine everything with the boiling coffee and 3 tablespoons of mint syrup.",
+      "Add the cream gradually, without stirring.",
+      "Decorate by pouring mint syrup over the cream, with mint leaves and cocoa powder."
+     ],
+     "fr": [
+      "Fouettez la crème avec 1 cuillère à soupe de sucre.",
+      "Mélangez le sucre restant avec le cacao et 5 cuillères à soupe de lait froid.",
+      "Faites chauffer le lait avec le mélange préparé, puis mélangez le tout au café bouillant et à 3 cuillères à soupe de sirop de menthe.",
+      "Ajoutez la crème petit à petit, sans remuer.",
+      "Décorez en versant le sirop de menthe sur la crème, avec des feuilles de menthe et du cacao en poudre."
+     ],
+     "de": [
+      "Die Sahne mit 1 EL Zucker schlagen.",
+      "Den restlichen Zucker mit dem Kakao und 5 EL kalter Milch verrühren.",
+      "Die Milch mit der frisch zubereiteten Mischung erwärmen, dann alles mit dem kochend heißen Kaffee und 3 EL Minzsirup vermengen.",
+      "Die Sahne nach und nach ohne Rühren hinzufügen.",
+      "Verzieren, indem man den Minzsirup über die Sahne gießt und Minzblättchen und Kakaopulver darüberstreut."
+     ],
+     "es": [
+      "Monta la nata con 1 cucharada de azúcar.",
+      "Mezcla el azúcar restante con el cacao y 5 cucharadas de leche fría.",
+      "Calienta la leche con la mezcla recién preparada, luego une todo al café muy caliente y a 3 cucharadas de sirope de menta.",
+      "Añade la nata poco a poco, sin remover.",
+      "Decora vertiendo el sirope de menta sobre la nata, con hojitas de menta y cacao en polvo."
+     ]
+    }
+   }
   }
  ]
 }
