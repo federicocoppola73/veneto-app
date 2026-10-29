@@ -295,13 +295,16 @@
       "zona": "Centro storico",
       "tema": "Colori",
       "domanda": {
-        "it": "Qual è il colore che dà il nome alla storica Sala Verde?"
+        "it": "Qual è il colore che dà il nome ad una delle storiche sale?"
       },
       "risposta": {
-        "it": "Verde."
+        "it": "Il verde: la Sala Verde"
       },
       "itinerario": "aguzza-la-vista-centro",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/caffe-pedrocchi-sala-verde.webp",
+        "credits": "Foto propria"
+      },
       "da_verificare": false
     },
     {
