@@ -158,12 +158,12 @@ export default function App() {
           <View style={styles.logo}>
             <View style={styles.logoInterno} />
           </View>
-          <Text style={styles.brand}>VENETO{'\n'}EXPERIENCE</Text>
+          <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>VENETO EXPERIENCE</Text>
           <View style={styles.badge}>
             <Text style={styles.badgeTesto}>Guida turistica</Text>
           </View>
         </View>
-        <Text style={styles.heroTitolo}>Il tuo viaggio comincia qui.</Text>
+        <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>Il tuo viaggio comincia qui.</Text>
         <Text style={styles.heroSottotitolo}>Scopri le città del Veneto nella tua lingua.</Text>
         <Pressable style={styles.lingua} onPress={() => setLinguaAperta(true)}>
           <Text style={styles.linguaEtichetta}>LINGUA / LANGUAGE</Text>
@@ -272,17 +272,17 @@ const GRIGIO = '#6b6b6b';
 const styles = StyleSheet.create({
   contenitore: { flex: 1, backgroundColor: '#fff' },
   lista: { paddingHorizontal: 16, paddingBottom: 40 },
-  colonne: { gap: 16 },
+  colonne: { justifyContent: 'space-between' },
 
   // Hero
   hero: { backgroundColor: VERDE, borderRadius: 24, padding: 20, marginTop: 8 },
   heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
   logo: { width: 44, height: 44, borderRadius: 22, borderWidth: 2, borderColor: CREMA, alignItems: 'center', justifyContent: 'center' },
   logoInterno: { width: 14, height: 14, borderWidth: 2, borderColor: CREMA, transform: [{ rotate: '45deg' }] },
-  brand: { flex: 1, color: '#fff', fontSize: 22, fontWeight: '700', letterSpacing: 0.3, lineHeight: 26 },
-  badge: { backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 18, paddingHorizontal: 14, paddingVertical: 7 },
-  badgeTesto: { color: '#fff', fontSize: 15, fontWeight: '500' },
-  heroTitolo: { color: '#fff', fontSize: 30, fontWeight: '700', lineHeight: 35, marginTop: 22, marginBottom: 10 },
+  brand: { flex: 1, color: '#fff', fontSize: 20, fontWeight: '700', letterSpacing: 0.3 },
+  badge: { backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5 },
+  badgeTesto: { color: '#fff', fontSize: 13, fontWeight: '500' },
+  heroTitolo: { color: '#fff', fontSize: 24, fontWeight: '700', lineHeight: 30, marginTop: 22, marginBottom: 10 },
   heroSottotitolo: { color: 'rgba(255,255,255,0.9)', fontSize: 17, marginBottom: 18 },
   lingua: { backgroundColor: '#fff', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 12 },
   linguaEtichetta: { color: GRIGIO, fontSize: 13, letterSpacing: 0.4 },
@@ -296,14 +296,14 @@ const styles = StyleSheet.create({
   sezioneConto: { color: GRIGIO, fontSize: 15 },
 
   // Card città
-  card: { flex: 1, marginBottom: 18 },
+  card: { width: '47%', marginBottom: 18 },
   immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
   immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
   segnalibro: { position: 'absolute', top: 10, right: 10, width: 46, height: 46, borderRadius: 23, backgroundColor: 'rgba(60,60,60,0.45)', alignItems: 'center', justifyContent: 'center' },
   segnalibroAttivo: { backgroundColor: 'rgba(31,61,54,0.9)' },
   segnalibroTesto: { color: '#fff', fontSize: 20 },
   nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
-  motto: { color: GRIGIO, fontSize: 16, marginTop: 4 },
+  motto: { color: GRIGIO, fontSize: 16, lineHeight: 21, marginTop: 4, minHeight: 42 },
   stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
   statoOk: { backgroundColor: '#dcf3e2' },
   statoTesto: { color: '#333', fontSize: 15 },

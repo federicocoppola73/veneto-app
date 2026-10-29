@@ -66,7 +66,8 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/manifest.json",
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Portici e università"
     },
     {
       "id": "treviso",
@@ -76,7 +77,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Canali, acque e osterie"
     },
     {
       "id": "vicenza",
@@ -96,7 +98,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Delta del Po e Polesine"
     },
     {
       "id": "belluno",
@@ -106,7 +109,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Dolomiti e Tiziano"
     }
   ]
 }
