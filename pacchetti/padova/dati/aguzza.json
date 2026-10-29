@@ -1,5 +1,5 @@
 {
-  "_nota": "Padova: domande Aguzza la vista dal foglio Excel. Itinerari: 5, Santo e Prato, Eremitani. Il gruppo Centro e piazze non ha ancora un itinerario. Le risposte con 'da_verificare' sono da definire.",
+  "_nota": "Padova: domande Aguzza la vista dal foglio Excel. Itinerari: Santo e Prato, Eremitani, Centro, Itinerario 4. Le risposte con 'da_verificare' sono da definire.",
   "itinerari": [
     {
       "id": "aguzza-la-vista-santo-e-prato",
@@ -28,9 +28,27 @@
       ]
     },
     {
-      "id": "aguzza-la-vista-itinerario-5",
+      "id": "aguzza-la-vista-centro",
       "titolo": {
-        "it": "Aguzza la vista - Itinerario 5"
+        "it": "Aguzza la vista - Centro"
+      },
+      "tappe": [
+        "palazzo-liviano",
+        "torre-dell-orologio",
+        "piazza-dei-signori",
+        "piazza-delle-erbe",
+        "palazzo-della-ragione",
+        "palazzo-moroni",
+        "canton-delle-busie",
+        "caffe-pedrocchi",
+        "ponte-san-lorenzo",
+        "palazzo-zabarella"
+      ]
+    },
+    {
+      "id": "aguzza-la-vista-itinerario-4",
+      "titolo": {
+        "it": "Aguzza la vista - Itinerario 4"
       },
       "tappe": [
         "museo-della-natura-e-dell-uomo",
@@ -114,20 +132,6 @@
       "da_verificare": false
     },
     {
-      "luogo_id": "chiesa-di-san-francesco-grande",
-      "zona": "Centro storico",
-      "tema": "Osservazione",
-      "domanda": {
-        "it": "Individua l'ingresso principale: quale elemento architettonico lo incornicia?"
-      },
-      "risposta": {
-        "it": "Il portale della chiesa; la risposta precisa va definita usando una foto di riferimento."
-      },
-      "itinerario": null,
-      "foto": null,
-      "da_verificare": true
-    },
-    {
       "luogo_id": "chiesa-di-santa-sofia",
       "zona": "Santa Sofia",
       "tema": "Architettura",
@@ -137,23 +141,9 @@
       "risposta": {
         "it": "Sì, si possono osservare variazioni nella muratura; la risposta esatta dipende dal lato scelto."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": true
-    },
-    {
-      "luogo_id": "chiesa-di-san-gaetano",
-      "zona": "Centro storico",
-      "tema": "Stile architettonico",
-      "domanda": {
-        "it": "Quale stile caratterizza principalmente la chiesa: barocco o gotico?"
-      },
-      "risposta": {
-        "it": "Barocco."
-      },
-      "itinerario": null,
-      "foto": null,
-      "da_verificare": false
     },
     {
       "luogo_id": "musei-civici-agli-eremitani",
@@ -179,7 +169,7 @@
       "risposta": {
         "it": "Un fossile."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": false
     },
@@ -193,7 +183,7 @@
       "risposta": {
         "it": "Dipende dal modello scelto: specificare la parte del corpo nella scheda del quiz."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": true
     },
@@ -207,7 +197,7 @@
       "risposta": {
         "it": "Da definire scegliendo un dettaglio ben visibile nella foto di riferimento."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": true
     },
@@ -235,7 +225,7 @@
       "risposta": {
         "it": "Rettangolare e molto allungata."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -249,7 +239,7 @@
       "risposta": {
         "it": ""
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": true
     },
@@ -263,7 +253,7 @@
       "risposta": {
         "it": "Il bue."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": false
     },
@@ -277,7 +267,7 @@
       "risposta": {
         "it": "Lo stemma della città di Padova."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -291,7 +281,7 @@
       "risposta": {
         "it": "Tito Livio."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -305,7 +295,7 @@
       "risposta": {
         "it": "Da definire in base alla fotografia selezionata."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": true
     },
@@ -319,7 +309,7 @@
       "risposta": {
         "it": "Verde."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -347,7 +337,7 @@
       "risposta": {
         "it": "Romana."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -375,7 +365,7 @@
       "risposta": {
         "it": "Palazzo della Ragione."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -389,7 +379,7 @@
       "risposta": {
         "it": "Un orologio astronomico."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": false
     },
@@ -403,7 +393,7 @@
       "risposta": {
         "it": "Le piante."
       },
-      "itinerario": "aguzza-la-vista-itinerario-5",
+      "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
       "da_verificare": false
     },
@@ -431,7 +421,7 @@
       "risposta": {
         "it": "Dipende dal simbolo individuato; registrare la risposta corretta per la foto utilizzata."
       },
-      "itinerario": null,
+      "itinerario": "aguzza-la-vista-centro",
       "foto": null,
       "da_verificare": true
     },
