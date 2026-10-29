@@ -298,7 +298,7 @@
         "it": "Qual è il colore che dà il nome ad una delle storiche sale?"
       },
       "risposta": {
-        "it": "Il verde: la Sala Verde"
+        "it": "Il verde."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": {
@@ -332,7 +332,10 @@
         "it": "Romana."
       },
       "itinerario": "aguzza-la-vista-centro",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/ponte-san-lorenzo-cripta.webp",
+        "credits": "Foto propria"
+      },
       "da_verificare": false
     },
     {
