@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, FlatList, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
@@ -155,12 +155,12 @@ export default function App() {
     <View>
       <View style={styles.hero}>
         <View style={styles.heroTop}>
-          <View style={styles.logo}>
-            <View style={styles.logoInterno} />
-          </View>
-          <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>VENETO EXPERIENCE</Text>
-          <View style={styles.badge}>
-            <Text style={styles.badgeTesto}>Guida turistica</Text>
+          <Image source={require('./assets/guida-veneto.png')} style={styles.logo} />
+          <View style={styles.testiHero}>
+            <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>VENETO EXPERIENCE</Text>
+            <View style={styles.badge}>
+              <Text style={styles.badgeTesto}>Guida turistica</Text>
+            </View>
           </View>
         </View>
         <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>Il tuo viaggio comincia qui.</Text>
@@ -277,10 +277,10 @@ const styles = StyleSheet.create({
   // Hero
   hero: { backgroundColor: VERDE, borderRadius: 24, padding: 20, marginTop: 8 },
   heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
-  logo: { width: 44, height: 44, borderRadius: 22, borderWidth: 2, borderColor: CREMA, alignItems: 'center', justifyContent: 'center' },
-  logoInterno: { width: 14, height: 14, borderWidth: 2, borderColor: CREMA, transform: [{ rotate: '45deg' }] },
-  brand: { flex: 1, color: '#fff', fontSize: 20, fontWeight: '700', letterSpacing: 0.3 },
-  badge: { backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5 },
+  logo: { width: 56, height: 56, borderRadius: 28 },
+  testiHero: { flex: 1, minWidth: 0 },
+  brand: { color: '#fff', fontFamily: 'serif', fontSize: 22, letterSpacing: 1.5 },
+  badge: { alignSelf: 'flex-start', backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
   badgeTesto: { color: '#fff', fontSize: 13, fontWeight: '500' },
   heroTitolo: { color: '#fff', fontSize: 24, fontWeight: '700', lineHeight: 30, marginTop: 22, marginBottom: 10 },
   heroSottotitolo: { color: 'rgba(255,255,255,0.9)', fontSize: 17, marginBottom: 18 },
