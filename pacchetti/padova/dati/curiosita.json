@@ -168,6 +168,69 @@
         "de": "Das Oratorium wurde 1397 auf den Ruinen einer 1390 niedergebrannten Kirche errichtet. Im Inneren malte Jacopo da Verona das Leben der Jungfrau Maria.",
         "es": "El oratorio se construyó en 1397 sobre las ruinas de una iglesia incendiada en 1390. En su interior, Jacopo da Verona pintó la vida de la Virgen María."
       }
+    },
+    {
+      "id": "canton-delle-busie",
+      "luogo_id": "canton-delle-busie",
+      "sestiere": "Centro",
+      "latitudine": 45.40762004581885,
+      "longitudine": 11.876045259657847,
+      "titolo": {
+        "it": "Il «angolo delle bugie»",
+        "en": "The «corner of lies»",
+        "fr": "Le « coin des mensonges »",
+        "de": "Die „Ecke der Lügen“",
+        "es": "El «rincón de las mentiras»"
+      },
+      "testo": {
+        "it": "In dialetto veneto il nome significa «angolo delle bugie». Un nome curioso per un angolo legato al commercio delle piazze.",
+        "en": "In Venetian dialect the name means «corner of lies». A curious name for a corner tied to the market life of the squares.",
+        "fr": "En dialecte vénitien, le nom signifie « coin des mensonges ». Un nom curieux pour un coin lié au commerce des places.",
+        "de": "Im venetischen Dialekt bedeutet der Name „Ecke der Lügen“. Ein kurioser Name für eine Ecke, die mit dem Handel auf den Plätzen verbunden ist.",
+        "es": "En dialecto véneto, el nombre significa «rincón de las mentiras». Un nombre curioso para un rincón ligado al comercio de las plazas."
+      }
+    },
+    {
+      "id": "cabina-a",
+      "luogo_id": "cabina-a",
+      "sestiere": "Centro",
+      "latitudine": 45.418869825385705,
+      "longitudine": 11.874774738758186,
+      "titolo": {
+        "it": "Una cabina di comando ferroviaria",
+        "en": "A railway control cabin",
+        "fr": "Une cabine de commande ferroviaire",
+        "de": "Eine Stellwerkskabine",
+        "es": "Una cabina de mando ferroviario"
+      },
+      "testo": {
+        "it": "Un'ex cabina di comando ferroviaria, conservata come testimonianza di come si gestivano gli scambi dei treni.",
+        "en": "A former railway control cabin, kept as a record of how train switches were managed.",
+        "fr": "Une ancienne cabine de commande ferroviaire, conservée pour témoigner de la manière dont on gérait les aiguillages des trains.",
+        "de": "Eine ehemalige Stellwerkskabine, erhalten als Zeugnis dafür, wie die Weichen der Züge bedient wurden.",
+        "es": "Antigua cabina de mando ferroviario, conservada como testimonio de cómo se gestionaban los cambios de vía de los trenes."
+      }
+    },
+    {
+      "id": "ponte-della-morte",
+      "luogo_id": "ponte-della-morte",
+      "sestiere": "Centro",
+      "latitudine": 45.40143816625463,
+      "longitudine": 11.876600509921213,
+      "titolo": {
+        "it": "Il ponte dal nome inquietante",
+        "en": "The bridge with the unsettling name",
+        "fr": "Le pont au nom inquiétant",
+        "de": "Die Brücke mit dem beunruhigenden Namen",
+        "es": "El puente de nombre inquietante"
+      },
+      "testo": {
+        "it": "L'origine del nome del ponte resta incerta: alcune leggende lo collegano ad antiche esecuzioni, altre a un cimitero vicino o a un crollo.",
+        "en": "The origin of the bridge's name is uncertain: some legends link it to ancient executions, others to a nearby cemetery or to a collapse.",
+        "fr": "L'origine du nom du pont reste incertaine : certaines légendes la relient à d'anciennes exécutions, d'autres à un cimetière voisin ou à un effondrement.",
+        "de": "Der Ursprung des Brückennamens ist ungewiss: Manche Legenden verbinden ihn mit alten Hinrichtungen, andere mit einem nahen Friedhof oder einem Einsturz.",
+        "es": "El origen del nombre del puente es incierto: algunas leyendas lo relacionan con antiguas ejecuciones, otras con un cementerio cercano o un derrumbe."
+      }
     }
   ]
 }
