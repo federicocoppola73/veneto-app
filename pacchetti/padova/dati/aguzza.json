@@ -1,5 +1,454 @@
 {
- "_nota": "Padova: domande Aguzza la vista da fare",
- "domande": [],
- "itinerari": []
+  "_nota": "Padova: domande Aguzza la vista dal foglio Excel. 'zona' è il quartiere del foglio; gli itinerari si decidono dopo. Le risposte con 'da_verificare' sono da definire.",
+  "itinerari": [],
+  "domande": [
+    {
+      "luogo_id": "basilica-di-sant-antonio",
+      "zona": "Santo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale fiore viene spesso raffigurato in mano a sant’Antonio nelle statue e nelle immagini sacre?"
+      },
+      "risposta": {
+        "it": "Il giglio, simbolo di purezza."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "basilica-di-sant-antonio",
+      "zona": "Santo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Sul sagrato della basilica si trova la statua equestre del condottiero Erasmo da Narni. Come viene chiamato comunemente questo personaggio?"
+      },
+      "risposta": {
+        "it": "Gattamelata"
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "basilica-di-santa-giustina",
+      "zona": "Prato della Valle",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma geometrica riconosci nella grande finestra circolare della facciata?"
+      },
+      "risposta": {
+        "it": "Circolare."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "duomo-di-padova",
+      "zona": "Duomo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Come si chiama l'edificio religioso adiacente alla cattedrale, famoso per i suoi affreschi medievali?"
+      },
+      "risposta": {
+        "it": "Battistero della Cattedrale."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "basilica-di-santa-maria-del-carmine",
+      "zona": "Carmine",
+      "tema": "Osservazione",
+      "domanda": {
+        "it": "Osservando la facciata, individua il portale principale: si trova al centro o su un lato?"
+      },
+      "risposta": {
+        "it": "Al centro."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-degli-eremitani",
+      "zona": "Eremitani",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma riconosci nelle aperture alte della facciata: circolare o ad arco?"
+      },
+      "risposta": {
+        "it": "Ad arco."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-di-san-francesco-grande",
+      "zona": "Centro storico",
+      "tema": "Osservazione",
+      "domanda": {
+        "it": "Individua l'ingresso principale: quale elemento architettonico lo incornicia?"
+      },
+      "risposta": {
+        "it": "Il portale della chiesa; la risposta precisa va definita usando una foto di riferimento."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "chiesa-di-santa-sofia",
+      "zona": "Santa Sofia",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Osservando la muratura esterna, riesci a distinguere materiali o colori differenti?"
+      },
+      "risposta": {
+        "it": "Sì, si possono osservare variazioni nella muratura; la risposta esatta dipende dal lato scelto."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "chiesa-di-san-gaetano",
+      "zona": "Centro storico",
+      "tema": "Stile architettonico",
+      "domanda": {
+        "it": "Quale stile caratterizza principalmente la chiesa: barocco o gotico?"
+      },
+      "risposta": {
+        "it": "Barocco."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-di-san-nicolo",
+      "zona": "Centro storico",
+      "tema": "Osservazione",
+      "domanda": {
+        "it": "Individua il portale d'ingresso: quale forma ha l'arco sopra la porta?"
+      },
+      "risposta": {
+        "it": "Da determinare sulla base della facciata fotografata."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "musei-civici-agli-eremitani",
+      "zona": "Eremitani",
+      "tema": "Orientamento",
+      "domanda": {
+        "it": "Quale chiesa dà il nome al complesso museale?"
+      },
+      "risposta": {
+        "it": "Chiesa degli Eremitani."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "museo-della-natura-e-dell-uomo",
+      "zona": "Centro universitario",
+      "tema": "Scienze naturali",
+      "domanda": {
+        "it": "Quale reperto è utile per studiare gli organismi del passato: un fossile o una moneta moderna?"
+      },
+      "risposta": {
+        "it": "Un fossile."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "musme-museo-di-storia-della-medicina",
+      "zona": "Zona ospedaliera",
+      "tema": "Anatomia",
+      "domanda": {
+        "it": "Quale parte del corpo riconosci nel modello anatomico mostrato nell'indizio?"
+      },
+      "risposta": {
+        "it": "Dipende dal modello scelto: specificare la parte del corpo nella scheda del quiz."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "palazzo-zuckermann-museo-di-arti-applicate-e-decorative",
+      "zona": "Corso del Popolo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale motivo decorativo si ripete sopra le finestre della facciata?"
+      },
+      "risposta": {
+        "it": "Da definire scegliendo un dettaglio ben visibile nella foto di riferimento."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "museo-bottacin",
+      "zona": "Prato della Valle",
+      "tema": "Numismatica",
+      "domanda": {
+        "it": "Quale oggetto può riportare un ritratto e un'iscrizione impressi sul metallo?"
+      },
+      "risposta": {
+        "it": "Una moneta o una medaglia."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-della-ragione",
+      "zona": "Piazze",
+      "tema": "Geometria",
+      "domanda": {
+        "it": "Qual è la forma generale del grande salone superiore?"
+      },
+      "risposta": {
+        "it": "Rettangolare e molto allungata."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "canton-delle-busie",
+      "zona": "Piazze",
+      "tema": "Simboli",
+      "domanda": {
+        "it": "Nel Medioevo, a Padova, persino le misure erano esposte in pubblico affinché mercanti e clienti potessero verificare che nessuno imbrogliasse. Riesci a trovarle sul muro?"
+      },
+      "risposta": {
+        "it": ""
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "palazzo-del-bo",
+      "zona": "Università",
+      "tema": "Simboli",
+      "domanda": {
+        "it": "Quale animale è associato al nome tradizionale del palazzo?"
+      },
+      "risposta": {
+        "it": "Il bue."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-moroni",
+      "zona": "Piazze",
+      "tema": "Simboli",
+      "domanda": {
+        "it": "Quale stemma identifica l'amministrazione comunale sulla facciata o nell'area istituzionale?"
+      },
+      "risposta": {
+        "it": "Lo stemma della città di Padova."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-liviano",
+      "zona": "Piazze / Università",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Quale personaggio storico rappresenta la scultura di Arturo Martini?"
+      },
+      "risposta": {
+        "it": "Tito Livio."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-zabarella",
+      "zona": "Centro storico",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Individua le aperture al piano terra: quale forma hanno quelle mostrate nella foto del palazzo?"
+      },
+      "risposta": {
+        "it": "Da definire in base alla fotografia selezionata."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "caffe-pedrocchi",
+      "zona": "Centro storico",
+      "tema": "Colori",
+      "domanda": {
+        "it": "Qual è il colore che dà il nome alla storica Sala Verde?"
+      },
+      "risposta": {
+        "it": "Verde."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "loggia-e-odeo-cornaro",
+      "zona": "Santo",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale elemento sostiene la struttura aperta della loggia: colonne o pareti completamente chiuse?"
+      },
+      "risposta": {
+        "it": "Colonne."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "ponte-molino",
+      "zona": "Ponte Molino / Centro",
+      "tema": "Geografia",
+      "domanda": {
+        "it": "Quale fiume attraversa il ponte?"
+      },
+      "risposta": {
+        "it": "Il Bacchiglione."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "ponte-san-lorenzo",
+      "zona": "Centro storico",
+      "tema": "Archeologia",
+      "domanda": {
+        "it": "A quale epoca è legata la storia del ponte antico: romana o contemporanea?"
+      },
+      "risposta": {
+        "it": "Romana."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "prato-della-valle",
+      "zona": "Prato della Valle",
+      "tema": "Orientamento",
+      "domanda": {
+        "it": "Che cosa circonda l'Isola Memmia: un canale o una strada sopraelevata?"
+      },
+      "risposta": {
+        "it": "Un canale."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "piazza-delle-erbe",
+      "zona": "Piazze",
+      "tema": "Orientamento",
+      "domanda": {
+        "it": "Quale storico palazzo si trova tra Piazza delle Erbe e Piazza della Frutta?"
+      },
+      "risposta": {
+        "it": "Palazzo della Ragione."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "piazza-dei-signori",
+      "zona": "Piazze",
+      "tema": "Orologio",
+      "domanda": {
+        "it": "Quale strumento puoi osservare sulla torre che domina la piazza?"
+      },
+      "risposta": {
+        "it": "Un orologio astronomico."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "orto-botanico-di-padova",
+      "zona": "Orto Botanico",
+      "tema": "Botanica",
+      "domanda": {
+        "it": "Che cosa si coltiva e si studia principalmente in un orto botanico?"
+      },
+      "risposta": {
+        "it": "Le piante."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "cappella-degli-scrovegni",
+      "zona": "Eremitani",
+      "tema": "Storia dell'arte",
+      "domanda": {
+        "it": "Quale artista realizzò il celebre ciclo di affreschi della cappella?"
+      },
+      "risposta": {
+        "it": "Giotto."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "torre-dell-orologio",
+      "zona": "Piazza dei Signori",
+      "tema": "Astronomia",
+      "domanda": {
+        "it": "Osservando il quadrante, individua un simbolo zodiacale: quale hai trovato?"
+      },
+      "risposta": {
+        "it": "Dipende dal simbolo individuato; registrare la risposta corretta per la foto utilizzata."
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "ponte-dei-quattro-papi",
+      "zona": "Prato della Valle",
+      "tema": "Simboli",
+      "domanda": {
+        "it": "Quale dei quattro papi sembra voler capire se sta per piovere?"
+      },
+      "risposta": {
+        "it": "Quello con la mano protesa in avanti"
+      },
+      "itinerario": null,
+      "foto": null,
+      "da_verificare": false
+    }
+  ]
 }
