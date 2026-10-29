@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, FlatList, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
-import { attiva, datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
@@ -16,6 +16,19 @@ import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
 
+const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
+
+// colore di sfondo provvisorio di ogni città (finché non ci sono le foto vere)
+const COLORI = {
+  venezia: '#2c6e8f',
+  verona: '#9c5b3a',
+  padova: '#5b7a3a',
+  treviso: '#3a6d6d',
+  vicenza: '#7a6a4a',
+  belluno: '#4a6a7a',
+  rovigo: '#6a5a7a',
+};
+
 // Lingua del telefono se supportata, altrimenti italiano; poi quella scelta dall'utente.
 function linguaIniziale() {
   try {
@@ -26,17 +39,17 @@ function linguaIniziale() {
   }
 }
 
-// Gratuito sempre attivo; le città si scaricano, si attivano e si eliminano da qui.
-// I prezzi compariranno quando i prodotti saranno creati negli store.
+// Gratuito sempre attivo; le città si scaricano, si aprono e si rimuovono da qui.
 export default function App() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
-  const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
+  const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
   const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
-  const [luoghiAttiva, setLuoghiAttiva] = useState(null);
   const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const [motorePronto, setMotorePronto] = useState(false);
+  const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
+  const [salvate, setSalvate] = useState([]); // segnalibri (solo in memoria per ora)
   const t = testi(lingua);
 
   useEffect(() => {
@@ -85,17 +98,13 @@ export default function App() {
     return () => sub.remove();
   }, [cittaAperta]);
 
-  useEffect(() => {
-    if (!stato.attiva) {
-      setLuoghiAttiva(null);
-      return;
-    }
-    datiCitta(stato.attiva).then(setLuoghiAttiva);
-  }, [stato.attiva]);
-
   function cambiaLingua(nuova) {
     setLingua(nuova);
     AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
+  }
+
+  function alternaSalvata(id) {
+    setSalvate((prima) => (prima.includes(id) ? prima.filter((x) => x !== id) : [...prima, id]));
   }
 
   async function esegui(id, azione) {
@@ -110,9 +119,6 @@ export default function App() {
       setProgresso(null);
     }
   }
-
-  const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
-  const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
   if (MOTORE_CITTA.includes(cittaAperta)) {
     if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
@@ -145,73 +151,87 @@ export default function App() {
     );
   }
 
-  return (
-    <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
-      <Text style={styles.titolo}>{t.titolo}</Text>
-
-      <View style={styles.lingue}>
-        {LINGUE.map((codice) => (
-          <Pressable
-            key={codice}
-            onPress={() => cambiaLingua(codice)}
-            style={[styles.lingua, lingua === codice && styles.linguaAttiva]}
-          >
-            <Text style={[styles.testoLingua, lingua === codice && styles.testoLinguaAttiva]}>
-              {codice.toUpperCase()}
-            </Text>
-          </Pressable>
-        ))}
+  const intestazione = (
+    <View>
+      <View style={styles.hero}>
+        <View style={styles.heroTop}>
+          <View style={styles.logo}>
+            <View style={styles.logoInterno} />
+          </View>
+          <Text style={styles.brand}>VENETO{'\n'}EXPERIENCE</Text>
+          <View style={styles.badge}>
+            <Text style={styles.badgeTesto}>Guida turistica</Text>
+          </View>
+        </View>
+        <Text style={styles.heroTitolo}>Il tuo viaggio comincia qui.</Text>
+        <Text style={styles.heroSottotitolo}>Scopri le città del Veneto nella tua lingua.</Text>
+        <Pressable style={styles.lingua} onPress={() => setLinguaAperta(true)}>
+          <Text style={styles.linguaEtichetta}>LINGUA / LANGUAGE</Text>
+          <View style={styles.linguaRiga}>
+            <Text style={styles.linguaValore}>{NOMI_LINGUE[lingua]}</Text>
+            <Text style={styles.chevron}>⌄</Text>
+          </View>
+        </Pressable>
       </View>
 
-      {cittaAttiva ? (
-        <View style={styles.attiva}>
-          <Text style={styles.attivaEtichetta}>{t.cittaAttiva}</Text>
-          <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
-          <Text style={styles.attivaTesto}>{numeroLuoghi} {t.luoghi}</Text>
-          {luoghiAttiva ? (
-            <Pressable style={[styles.bottone, styles.bottoneLuoghi]} onPress={() => setCittaAperta(stato.attiva)}>
-              <Text style={styles.testoBottone}>{t.apri} →</Text>
-            </Pressable>
-          ) : null}
-        </View>
-      ) : (
-        <View style={styles.gratuito}>
-          <Text style={styles.gratuitoTitolo}>{t.gratuito}</Text>
-          <Text style={styles.gratuitoTesto}>{t.gratuitoTesto}</Text>
-        </View>
-      )}
+      <View style={styles.sezione}>
+        <Text style={styles.sezioneTitolo}>Esplora le città</Text>
+        <Text style={styles.sezioneConto}>Veneto · {CITTA.length} destinazioni</Text>
+      </View>
+    </View>
+  );
 
-      <Text style={styles.sottotitolo}>{t.lePiazze}</Text>
+  return (
+    <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
       <FlatList
         data={CITTA}
         keyExtractor={(c) => c.id}
+        numColumns={2}
+        columnWrapperStyle={styles.colonne}
         contentContainerStyle={styles.lista}
+        ListHeaderComponent={intestazione}
         renderItem={({ item }) => {
           const installata = stato.installate.includes(item.id);
-          const attivaOra = stato.attiva === item.id;
           const impegnata = occupata === item.id;
+          const salvata = salvate.includes(item.id);
           return (
-            <View style={[styles.card, attivaOra && styles.cardAttiva]}>
-              <View style={styles.cardTesto}>
-                <Text style={styles.nomeCitta}>{item.nome}</Text>
-                <Text style={styles.provincia}>
-                  {installata ? (attivaOra ? t.attiva : t.installata) : etichettaStato(t, item.stato)}
+            <View style={styles.card}>
+              <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
+                <Text style={styles.immagineNome}>{item.nome}</Text>
+                <Pressable
+                  onPress={() => alternaSalvata(item.id)}
+                  style={[styles.segnalibro, salvata && styles.segnalibroAttivo]}
+                >
+                  <Text style={styles.segnalibroTesto}>{salvata ? '★' : '☆'}</Text>
+                </Pressable>
+              </View>
+              <Text style={styles.nomeCitta}>{item.nome}</Text>
+              <Text style={styles.motto}>{item.motto || item.provincia}</Text>
+              <View style={[styles.stato, installata && styles.statoOk]}>
+                <Text style={[styles.statoTesto, installata && styles.statoTestoOk]}>
+                  {installata ? t.installata : etichettaStato(t, item.stato)}
                 </Text>
               </View>
+
               {impegnata ? (
                 progresso && progresso.id === item.id ? (
                   <Text style={styles.percentuale}>{Math.round((progresso.fatti / progresso.totale) * 100)}%</Text>
                 ) : (
-                  <ActivityIndicator />
+                  <ActivityIndicator style={styles.attesa} />
                 )
               ) : installata ? (
-                <View style={styles.azioni}>
-                  <Pressable style={styles.bottone} onPress={() => setCittaAperta(item.id)}><Text style={styles.testoBottone}>{t.apri}</Text></Pressable>
-                  {!attivaOra && <Pressable style={styles.bottone} onPress={() => esegui(item.id, attiva)}><Text style={styles.testoBottone}>{t.attiva}</Text></Pressable>}
-                  <Pressable style={[styles.bottone, styles.bottoneSecondario]} onPress={() => esegui(item.id, rimuovi)}><Text style={styles.testoSecondario}>{t.elimina}</Text></Pressable>
-                </View>
+                <>
+                  <Pressable style={[styles.bottone, styles.bottoneApri]} onPress={() => setCittaAperta(item.id)}>
+                    <Text style={styles.testoApri}>{t.apriCitta} ↗</Text>
+                  </Pressable>
+                  <Pressable style={styles.rimuovi} onPress={() => esegui(item.id, rimuovi)}>
+                    <Text style={styles.testoRimuovi}>{t.rimuoviCitta}</Text>
+                  </Pressable>
+                </>
               ) : item.pacchetto ? (
-                <Pressable style={styles.bottone} onPress={() => esegui(item.id, installa)}><Text style={styles.testoBottone}>{t.scarica}</Text></Pressable>
+                <Pressable style={[styles.bottone, styles.bottoneScarica]} onPress={() => esegui(item.id, installa)}>
+                  <Text style={styles.testoScarica}>↓ {t.scaricaCitta}</Text>
+                </Pressable>
               ) : (
                 <Text style={styles.nonDisponibile}>{t.nonAncora}</Text>
               )}
@@ -219,38 +239,91 @@ export default function App() {
           );
         }}
       />
+
+      <Modal visible={linguaAperta} transparent animationType="fade" onRequestClose={() => setLinguaAperta(false)}>
+        <Pressable style={styles.velo} onPress={() => setLinguaAperta(false)}>
+          <View style={styles.menu}>
+            {LINGUE.map((codice) => (
+              <Pressable
+                key={codice}
+                style={styles.voceMenu}
+                onPress={() => {
+                  cambiaLingua(codice);
+                  setLinguaAperta(false);
+                }}
+              >
+                <Text style={[styles.voceMenuTesto, lingua === codice && styles.voceMenuAttiva]}>
+                  {NOMI_LINGUE[codice]}
+                </Text>
+              </Pressable>
+            ))}
+          </View>
+        </Pressable>
+      </Modal>
     </SafeAreaView>
   );
 }
 
+const VERDE = '#1f3d36';
+const CREMA = '#e9e1c7';
+const TESTO = '#1d1d1d';
+const GRIGIO = '#6b6b6b';
+
 const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: '#f8fafc', paddingHorizontal: 16 },
-  titolo: { fontSize: 24, fontWeight: '800', color: '#0f172a', marginTop: 8 },
-  lingue: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  lingua: { flex: 1, alignItems: 'center', paddingVertical: 6, borderRadius: 8, backgroundColor: '#e2e8f0' },
-  linguaAttiva: { backgroundColor: '#1d4ed8' },
-  testoLingua: { fontSize: 12, fontWeight: '700', color: '#334155' },
-  testoLinguaAttiva: { color: '#fff' },
-  gratuito: { backgroundColor: '#ecfdf5', borderRadius: 12, padding: 10, marginTop: 8 },
-  gratuitoTitolo: { fontSize: 15, fontWeight: '700', color: '#065f46' },
-  gratuitoTesto: { fontSize: 13, color: '#065f46', marginTop: 4 },
-  attiva: { backgroundColor: '#eff6ff', borderRadius: 12, padding: 10, marginTop: 8 },
-  attivaEtichetta: { fontSize: 12, fontWeight: '700', color: '#1d4ed8' },
-  attivaNome: { fontSize: 18, fontWeight: '800', color: '#0f172a', marginTop: 2 },
-  attivaTesto: { fontSize: 13, color: '#334155', marginTop: 6 },
-  bottoneLuoghi: { alignSelf: 'flex-start', marginTop: 8 },
-  sottotitolo: { fontSize: 14, fontWeight: '700', color: '#475569', marginTop: 10, marginBottom: 6 },
-  lista: { gap: 6, paddingBottom: 24 },
-  card: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#fff', borderRadius: 12, paddingVertical: 8, paddingHorizontal: 12, borderWidth: 1, borderColor: '#e2e8f0' },
-  cardAttiva: { borderColor: '#1d4ed8' },
-  cardTesto: { flex: 1 },
-  nomeCitta: { fontSize: 16, fontWeight: '700', color: '#0f172a' },
-  provincia: { fontSize: 12, color: '#64748b', marginTop: 0 },
-  azioni: { flexDirection: 'row', gap: 8 },
-  bottone: { backgroundColor: '#1d4ed8', borderRadius: 8, paddingHorizontal: 12, paddingVertical: 8 },
-  testoBottone: { color: '#fff', fontWeight: '700', fontSize: 13 },
-  bottoneSecondario: { backgroundColor: '#f1f5f9' },
-  testoSecondario: { color: '#334155', fontWeight: '700', fontSize: 13 },
-  nonDisponibile: { fontSize: 12, color: '#94a3b8', fontWeight: '700' },
-  percentuale: { fontSize: 15, fontWeight: '800', color: '#1d4ed8', minWidth: 48, textAlign: 'right' },
+  contenitore: { flex: 1, backgroundColor: '#fff' },
+  lista: { paddingHorizontal: 16, paddingBottom: 40 },
+  colonne: { gap: 16 },
+
+  // Hero
+  hero: { backgroundColor: VERDE, borderRadius: 24, padding: 20, marginTop: 8 },
+  heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
+  logo: { width: 44, height: 44, borderRadius: 22, borderWidth: 2, borderColor: CREMA, alignItems: 'center', justifyContent: 'center' },
+  logoInterno: { width: 14, height: 14, borderWidth: 2, borderColor: CREMA, transform: [{ rotate: '45deg' }] },
+  brand: { flex: 1, color: '#fff', fontSize: 22, fontWeight: '700', letterSpacing: 0.3, lineHeight: 26 },
+  badge: { backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 18, paddingHorizontal: 14, paddingVertical: 7 },
+  badgeTesto: { color: '#fff', fontSize: 15, fontWeight: '500' },
+  heroTitolo: { color: '#fff', fontSize: 30, fontWeight: '700', lineHeight: 35, marginTop: 22, marginBottom: 10 },
+  heroSottotitolo: { color: 'rgba(255,255,255,0.9)', fontSize: 17, marginBottom: 18 },
+  lingua: { backgroundColor: '#fff', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 12 },
+  linguaEtichetta: { color: GRIGIO, fontSize: 13, letterSpacing: 0.4 },
+  linguaRiga: { flexDirection: 'row', alignItems: 'center', marginTop: 4 },
+  linguaValore: { flex: 1, color: TESTO, fontSize: 19, fontWeight: '500' },
+  chevron: { color: TESTO, fontSize: 18 },
+
+  // Sezione città
+  sezione: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginTop: 26, marginBottom: 16, paddingHorizontal: 4 },
+  sezioneTitolo: { color: TESTO, fontSize: 24, fontWeight: '700' },
+  sezioneConto: { color: GRIGIO, fontSize: 15 },
+
+  // Card città
+  card: { flex: 1, marginBottom: 18 },
+  immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
+  immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
+  segnalibro: { position: 'absolute', top: 10, right: 10, width: 46, height: 46, borderRadius: 23, backgroundColor: 'rgba(60,60,60,0.45)', alignItems: 'center', justifyContent: 'center' },
+  segnalibroAttivo: { backgroundColor: 'rgba(31,61,54,0.9)' },
+  segnalibroTesto: { color: '#fff', fontSize: 20 },
+  nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
+  motto: { color: GRIGIO, fontSize: 16, marginTop: 4 },
+  stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
+  statoOk: { backgroundColor: '#dcf3e2' },
+  statoTesto: { color: '#333', fontSize: 15 },
+  statoTestoOk: { color: '#2f7a4b' },
+
+  bottone: { height: 54, borderRadius: 16, marginTop: 12, alignItems: 'center', justifyContent: 'center' },
+  bottoneApri: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#e4e4e4' },
+  testoApri: { color: TESTO, fontSize: 18, fontWeight: '500' },
+  bottoneScarica: { backgroundColor: VERDE },
+  testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500' },
+  rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
+  testoRimuovi: { color: GRIGIO, fontSize: 16 },
+  nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
+  attesa: { marginTop: 16 },
+  percentuale: { color: VERDE, fontSize: 16, fontWeight: '800', marginTop: 16 },
+
+  // Menu lingua
+  velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 32 },
+  menu: { backgroundColor: '#fff', borderRadius: 16, overflow: 'hidden' },
+  voceMenu: { paddingHorizontal: 20, paddingVertical: 16, borderBottomWidth: 1, borderBottomColor: '#eee' },
+  voceMenuTesto: { color: TESTO, fontSize: 18 },
+  voceMenuAttiva: { fontWeight: '700', color: VERDE },
 });
