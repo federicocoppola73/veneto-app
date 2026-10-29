@@ -1,427 +1,471 @@
 {
- "_nota": "Generato da strumenti/calendario.py da eventi.xlsx e contributo.xlsx. Non modificare a mano.",
- "annoContributo": 2027,
- "contributo": [
-  "2027-03-26",
-  "2027-03-27",
-  "2027-03-28",
-  "2027-03-29",
-  "2027-04-02",
-  "2027-04-03",
-  "2027-04-04",
-  "2027-04-09",
-  "2027-04-10",
-  "2027-04-11",
-  "2027-04-16",
-  "2027-04-17",
-  "2027-04-18",
-  "2027-04-23",
-  "2027-04-24",
-  "2027-04-25",
-  "2027-04-26",
-  "2027-04-27",
-  "2027-04-28",
-  "2027-04-29",
-  "2027-04-30",
-  "2027-05-01",
-  "2027-05-02",
-  "2027-05-07",
-  "2027-05-08",
-  "2027-05-09",
-  "2027-05-14",
-  "2027-05-15",
-  "2027-05-16",
-  "2027-05-21",
-  "2027-05-22",
-  "2027-05-23",
-  "2027-05-28",
-  "2027-05-29",
-  "2027-05-30",
-  "2027-05-31",
-  "2027-06-01",
-  "2027-06-02",
-  "2027-06-03",
-  "2027-06-04",
-  "2027-06-05",
-  "2027-06-06",
-  "2027-06-11",
-  "2027-06-12",
-  "2027-06-13",
-  "2027-06-18",
-  "2027-06-19",
-  "2027-06-20",
-  "2027-06-25",
-  "2027-06-26",
-  "2027-06-27",
-  "2027-07-02",
-  "2027-07-03",
-  "2027-07-04",
-  "2027-07-09",
-  "2027-07-10",
-  "2027-07-11",
-  "2027-07-16",
-  "2027-07-17",
-  "2027-07-18",
-  "2027-07-23",
-  "2027-07-24",
-  "2027-07-25",
-  "2027-07-30",
-  "2027-07-31",
-  "2027-08-01",
-  "2027-08-06",
-  "2027-08-07",
-  "2027-08-08",
-  "2027-08-13",
-  "2027-08-14",
-  "2027-08-15"
- ],
- "eventi": [
-  {
-   "nome": "1948-1958. Il vetro di Murano e la Biennale di Venezia",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-04-19",
-   "fine": "2026-11-22",
-   "luogo": "San Giorgio Maggiore",
-   "luogoId": "san-giorgio-maggiore",
-   "descrizione": {
-    "it": "Terzo capitolo della storia del vetro di Murano alla Biennale, dedicato agli anni 1948-1958.",
-    "en": "Third chapter of the story of Murano glass at the Biennale, devoted to the years 1948-1958.",
-    "fr": "Troisième chapitre de l'histoire du verre de Murano à la Biennale, consacré aux années 1948-1958.",
-    "de": "Drittes Kapitel der Geschichte des Muranoglases auf der Biennale, den Jahren 1948-1958 gewidmet.",
-    "es": "Tercer capítulo de la historia del vidrio de Murano en la Bienal, dedicado a los años 1948-1958."
-   },
-   "link": "https://lestanzedelvetro.org/"
-  },
-  {
-   "nome": "TransLucent. La forma della luce",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-09-10",
-   "fine": "2026-11-22",
-   "luogo": "Gallerie dell'Accademia",
-   "luogoId": "accademia",
-   "descrizione": {
-    "it": "Sculture in vetro di Leiko Ikemura in dialogo con i capolavori del museo.",
-    "en": "Glass sculptures by Leiko Ikemura in dialogue with the museum's masterpieces.",
-    "fr": "Sculptures en verre de Leiko Ikemura en dialogue avec les chefs-d'œuvre du musée.",
-    "de": "Glasskulpturen von Leiko Ikemura im Dialog mit den Meisterwerken des Museums.",
-    "es": "Esculturas de vidrio de Leiko Ikemura en diálogo con las obras maestras del museo."
-   },
-   "link": "https://www.gallerieaccademia.it/"
-  },
-  {
-   "nome": "Nel segno di Venezia. La donazione Favaretto Rubelli",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-09-23",
-   "fine": "2027-01-11",
-   "luogo": "Ca' Rezzonico",
-   "luogoId": "ca-rezzonico",
-   "descrizione": {
-    "it": "Disegni dei maestri veneziani donati da Alessandro Favaretto Rubelli.",
-    "en": "Drawings by Venetian masters donated by Alessandro Favaretto Rubelli.",
-    "fr": "Dessins des maîtres vénitiens donnés par Alessandro Favaretto Rubelli.",
-    "de": "Zeichnungen venezianischer Meister, eine Schenkung von Alessandro Favaretto Rubelli.",
-    "es": "Dibujos de maestros venecianos donados por Alessandro Favaretto Rubelli."
-   },
-   "link": "https://carezzonico.visitmuve.it/"
-  },
-  {
-   "nome": "Biennale Arte 2026: In Minor Keys",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-10-01",
-   "fine": "2026-11-22",
-   "luogo": "Giardini della Biennale",
-   "luogoId": "giardini-biennale",
-   "descrizione": {
-    "it": "La celebre mostra internazionale d'arte contemporanea.",
-    "en": "The famous international exhibition of contemporary art.",
-    "fr": "La célèbre exposition internationale d'art contemporain.",
-    "de": "Die berühmte internationale Ausstellung zeitgenössischer Kunst.",
-    "es": "La célebre exposición internacional de arte contemporáneo."
-   },
-   "link": "https://www.labiennale.org/"
-  },
-  {
-   "nome": "Festival Grandval, una nobile all'avanguardia",
-   "tipo": {
-    "it": "Musica",
-    "en": "Music",
-    "fr": "Musique",
-    "de": "Musik",
-    "es": "Música"
-   },
-   "inizio": "2026-10-01",
-   "fine": "2026-10-29",
-   "luogo": "Palazzetto Bru Zane",
-   "luogoId": "bru-zane",
-   "descrizione": {
-    "it": "Rassegna musicale e culturale.",
-    "en": "Music and cultural festival.",
-    "fr": "Festival de musique et de culture.",
-    "de": "Musik- und Kulturreihe.",
-    "es": "Ciclo de música y cultura."
-   },
-   "link": "https://www.classicalive.it/it/rassegne/grandval-una-nobile-allavanguardia/2026-2027/"
-  },
-  {
-   "nome": "Jenny Saville e Nicolás Lamas",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-10-01",
-   "fine": "2026-11-22",
-   "luogo": "Ca' Pesaro",
-   "luogoId": "ca-pesaro",
-   "descrizione": {
-    "it": "Personali e installazioni d'arte contemporanea.",
-    "en": "Solo shows and contemporary art installations.",
-    "fr": "Expositions personnelles et installations d'art contemporain.",
-    "de": "Einzelausstellungen und Installationen zeitgenössischer Kunst.",
-    "es": "Exposiciones individuales e instalaciones de arte contemporáneo."
-   },
-   "link": "https://capesaro.visitmuve.it/mostra/corpus-serialis/"
-  },
-  {
-   "nome": "Michael Armitage e Amar Kanwar",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-10-01",
-   "fine": "2027-01-10",
-   "luogo": "Palazzo Grassi",
-   "luogoId": "palazzo-grassi",
-   "descrizione": {
-    "it": "Mostra d'arte contemporanea.",
-    "en": "Contemporary art exhibition.",
-    "fr": "Exposition d'art contemporain.",
-    "de": "Ausstellung zeitgenössischer Kunst.",
-    "es": "Exposición de arte contemporáneo."
-   },
-   "link": "https://www.espoarte.net/arte/quartetto-veneziano-2-michael-armitage-e-amar-kanwar-a-palazzo-grassi/"
-  },
-  {
-   "nome": "Heinz Mack. Color in Forma",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-10-18",
-   "fine": "2026-11-22",
-   "luogo": "Palazzo Bembo",
-   "descrizione": {
-    "it": "Retrospettiva per il 95° compleanno dell'artista tedesco, protagonista del gruppo ZERO.",
-    "en": "Retrospective for the 95th birthday of the German artist, a leading figure of the ZERO group.",
-    "fr": "Rétrospective pour les 95 ans de l'artiste allemand, figure majeure du groupe ZERO.",
-    "de": "Retrospektive zum 95. Geburtstag des deutschen Künstlers, einer zentralen Figur der Gruppe ZERO.",
-    "es": "Retrospectiva por el 95 cumpleaños del artista alemán, protagonista del grupo ZERO."
-   },
-   "link": "https://www.finestresullarte.info/citta/venezia"
-  },
-  {
-   "nome": "Venicemarathon",
-   "tipo": {
-    "it": "Sport",
-    "en": "Sport",
-    "fr": "Sport",
-    "de": "Sport",
-    "es": "Deporte"
-   },
-   "inizio": "2026-10-25",
-   "fine": "2026-10-25",
-   "luogo": "Giardini della Marinaressa",
-   "luogoId": "giardini-marinaressa",
-   "descrizione": {
-    "it": "Maratona da Villa Pisani a Stra a Venezia lungo la Riviera del Brenta e il Ponte della Libertà; arrivo in Riva dei Sette Martiri dopo 14 ponti con rampe.",
-    "en": "Marathon from Villa Pisani in Stra to Venice along the Riviera del Brenta and the Ponte della Libertà; finish on the Riva dei Sette Martiri after 14 ramped bridges.",
-    "fr": "Marathon de la Villa Pisani à Stra jusqu'à Venise le long de la Riviera del Brenta et du Ponte della Libertà ; arrivée sur la Riva dei Sette Martiri après 14 ponts équipés de rampes.",
-    "de": "Marathon von der Villa Pisani in Stra nach Venedig entlang der Riviera del Brenta und über die Ponte della Libertà; Ziel an der Riva dei Sette Martiri nach 14 Brücken mit Rampen.",
-    "es": "Maratón desde Villa Pisani en Stra hasta Venecia por la Riviera del Brenta y el Ponte della Libertà; meta en la Riva dei Sette Martiri tras 14 puentes con rampas."
-   },
-   "link": "https://www.venicemarathon.it/"
-  },
-  {
-   "nome": "L'inizio ci assale. Luca Bertolo",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-11-05",
-   "fine": "2027-02-14",
-   "luogo": "Palazzetto Marcello",
-   "descrizione": {
-    "it": "Mostra di pittura di Luca Bertolo.",
-    "en": "Painting exhibition by Luca Bertolo.",
-    "fr": "Exposition de peinture de Luca Bertolo.",
-    "de": "Malereiausstellung von Luca Bertolo.",
-    "es": "Exposición de pintura de Luca Bertolo."
-   },
-   "link": "https://www.finestresullarte.info/citta/venezia"
-  },
-  {
-   "nome": "Festa di San Martino",
-   "tipo": {
-    "it": "Festa",
-    "en": "Festival",
-    "fr": "Fête",
-    "de": "Fest",
-    "es": "Fiesta"
-   },
-   "inizio": "2026-11-11",
-   "fine": "2026-11-11",
-   "luogo": "",
-   "descrizione": {
-    "it": "I bambini girano per calli e campi battendo pentole e coperchi e cantando la filastrocca di San Martino; nelle pasticcerie il dolce di pasta frolla a forma di santo a cavallo.",
-    "en": "Children roam the streets and squares banging pots and lids and singing the St Martin rhyme; pastry shops sell the shortbread cake shaped like the saint on horseback.",
-    "fr": "Les enfants parcourent calli et campi en tapant sur des casseroles et des couvercles et en chantant la comptine de la Saint-Martin ; les pâtisseries vendent le gâteau sablé en forme de saint à cheval.",
-    "de": "Kinder ziehen durch Gassen und Plätze, schlagen auf Töpfe und Deckel und singen das Martinslied; in den Konditoreien gibt es das Mürbeteiggebäck in Form des Heiligen zu Pferd.",
-    "es": "Los niños recorren calles y plazas golpeando ollas y tapas y cantando la canción de San Martín; en las pastelerías se vende el dulce de masa quebrada con forma de santo a caballo."
-   },
-   "link": "https://www.veneziaunica.it/"
-  },
-  {
-   "nome": "Fedora di Umberto Giordano",
-   "tipo": {
-    "it": "Opera",
-    "en": "Opera",
-    "fr": "Opéra",
-    "de": "Oper",
-    "es": "Ópera"
-   },
-   "inizio": "2026-11-13",
-   "fine": "2026-11-22",
-   "luogo": "Teatro La Fenice",
-   "descrizione": {
-    "it": "Inaugurazione della Stagione Lirica 2026-2027 del Teatro La Fenice.",
-    "en": "Opening of the 2026-2027 opera season at the Teatro La Fenice.",
-    "fr": "Ouverture de la saison lyrique 2026-2027 du Teatro La Fenice.",
-    "de": "Eröffnung der Opernsaison 2026-2027 des Teatro La Fenice.",
-    "es": "Inauguración de la temporada lírica 2026-2027 del Teatro La Fenice."
-   },
-   "link": "https://www.teatrolafenice.it/"
-  },
-  {
-   "nome": "Fucina degli Angeli. Peggy Guggenheim e il vetro artistico del Novecento",
-   "tipo": {
-    "it": "Mostra",
-    "en": "Exhibition",
-    "fr": "Exposition",
-    "de": "Ausstellung",
-    "es": "Exposición"
-   },
-   "inizio": "2026-11-14",
-   "fine": "2027-03-29",
-   "luogo": "Collezione Peggy Guggenheim",
-   "luogoId": "guggenheim",
-   "descrizione": {
-    "it": "Oltre 100 vetri, disegni e documenti della Fucina degli Angeli di Egidio Costantini, con opere ideate da Picasso, Calder, Léger e Fontana.",
-    "en": "Over 100 glass works, drawings and documents from Egidio Costantini's Fucina degli Angeli, with pieces designed by Picasso, Calder, Léger and Fontana.",
-    "fr": "Plus de 100 verres, dessins et documents de la Fucina degli Angeli d'Egidio Costantini, avec des œuvres conçues par Picasso, Calder, Léger et Fontana.",
-    "de": "Über 100 Glasobjekte, Zeichnungen und Dokumente der Fucina degli Angeli von Egidio Costantini, mit Werken nach Entwürfen von Picasso, Calder, Léger und Fontana.",
-    "es": "Más de 100 vidrios, dibujos y documentos de la Fucina degli Angeli de Egidio Costantini, con obras ideadas por Picasso, Calder, Léger y Fontana."
-   },
-   "link": "https://www.guggenheim-venice.it/"
-  },
-  {
-   "nome": "Festa della Madonna della Salute",
-   "tipo": {
-    "it": "Festa religiosa",
-    "en": "Religious feast",
-    "fr": "Fête religieuse",
-    "de": "Kirchliches Fest",
-    "es": "Fiesta religiosa"
-   },
-   "inizio": "2026-11-21",
-   "fine": "2026-11-21",
-   "luogo": "Basilica della Salute",
-   "luogoId": "salute",
-   "descrizione": {
-    "it": "La festa più sentita dai veneziani: pellegrinaggio alla basilica sul ponte votivo di barche costruito sul Canal Grande, candele alla Madonna e castradina.",
-    "en": "The feast Venetians hold dearest: a pilgrimage to the basilica across the votive bridge of boats built over the Grand Canal, candles for the Madonna and castradina (mutton stew).",
-    "fr": "La fête la plus chère aux Vénitiens : pèlerinage à la basilique par le pont votif de bateaux construit sur le Grand Canal, cierges à la Vierge et castradina (ragoût de mouton).",
-    "de": "Das Fest, das den Venezianern am meisten am Herzen liegt: Wallfahrt zur Basilika über die Votivbrücke aus Booten auf dem Canal Grande, Kerzen für die Madonna und Castradina (Hammeleintopf).",
-    "es": "La fiesta más sentida por los venecianos: peregrinación a la basílica por el puente votivo de barcas construido sobre el Gran Canal, velas a la Virgen y castradina (guiso de cordero)."
-   },
-   "link": "https://www.basilicasalutevenezia.it/"
-  },
-  {
-   "nome": "Messa di mezzanotte in Basilica di San Marco",
-   "tipo": {
-    "it": "Festa religiosa",
-    "en": "Religious feast",
-    "fr": "Fête religieuse",
-    "de": "Kirchliches Fest",
-    "es": "Fiesta religiosa"
-   },
-   "inizio": "2026-12-24",
-   "fine": "2026-12-24",
-   "luogo": "Basilica di San Marco",
-   "luogoId": "basilica-san-marco",
-   "descrizione": {
-    "it": "La messa della notte di Natale celebrata dal Patriarca nella basilica illuminata.",
-    "en": "Christmas Eve midnight Mass celebrated by the Patriarch in the illuminated basilica.",
-    "fr": "La messe de minuit de Noël célébrée par le Patriarche dans la basilique illuminée.",
-    "de": "Die Christmette, vom Patriarchen in der festlich beleuchteten Basilika gefeiert.",
-    "es": "La misa de medianoche de Navidad celebrada por el Patriarca en la basílica iluminada."
-   },
-   "link": "https://www.basilicasanmarco.it/"
-  },
-  {
-   "nome": "Concerto di Capodanno",
-   "tipo": {
-    "it": "Concerto",
-    "en": "Concert",
-    "fr": "Concert",
-    "de": "Konzert",
-    "es": "Concierto"
-   },
-   "inizio": "2026-12-29",
-   "fine": "2027-01-01",
-   "luogo": "Teatro La Fenice",
-   "descrizione": {
-    "it": "Il tradizionale concerto con orchestra e coro del Teatro La Fenice diretti da Gianandrea Noseda; il 1° gennaio in diretta TV.",
-    "en": "The traditional concert by the La Fenice orchestra and chorus conducted by Gianandrea Noseda; broadcast live on TV on 1 January.",
-    "fr": "Le traditionnel concert de l'orchestre et du chœur de La Fenice dirigés par Gianandrea Noseda ; retransmis en direct à la télévision le 1er janvier.",
-    "de": "Das traditionelle Konzert von Orchester und Chor des Teatro La Fenice unter Gianandrea Noseda; am 1. Januar live im Fernsehen.",
-    "es": "El tradicional concierto de la orquesta y el coro de La Fenice dirigidos por Gianandrea Noseda; el 1 de enero en directo por televisión."
-   },
-   "link": "https://www.teatrolafenice.it/en/event/new-years-concert-2027/"
-  }
- ]
+  "_nota": "Generato da strumenti/calendario.py da eventi.xlsx e contributo.xlsx. Non modificare a mano.",
+  "annoContributo": 2027,
+  "contributo": [
+    "2027-03-26",
+    "2027-03-27",
+    "2027-03-28",
+    "2027-03-29",
+    "2027-04-02",
+    "2027-04-03",
+    "2027-04-04",
+    "2027-04-09",
+    "2027-04-10",
+    "2027-04-11",
+    "2027-04-16",
+    "2027-04-17",
+    "2027-04-18",
+    "2027-04-23",
+    "2027-04-24",
+    "2027-04-25",
+    "2027-04-26",
+    "2027-04-27",
+    "2027-04-28",
+    "2027-04-29",
+    "2027-04-30",
+    "2027-05-01",
+    "2027-05-02",
+    "2027-05-07",
+    "2027-05-08",
+    "2027-05-09",
+    "2027-05-14",
+    "2027-05-15",
+    "2027-05-16",
+    "2027-05-21",
+    "2027-05-22",
+    "2027-05-23",
+    "2027-05-28",
+    "2027-05-29",
+    "2027-05-30",
+    "2027-05-31",
+    "2027-06-01",
+    "2027-06-02",
+    "2027-06-03",
+    "2027-06-04",
+    "2027-06-05",
+    "2027-06-06",
+    "2027-06-11",
+    "2027-06-12",
+    "2027-06-13",
+    "2027-06-18",
+    "2027-06-19",
+    "2027-06-20",
+    "2027-06-25",
+    "2027-06-26",
+    "2027-06-27",
+    "2027-07-02",
+    "2027-07-03",
+    "2027-07-04",
+    "2027-07-09",
+    "2027-07-10",
+    "2027-07-11",
+    "2027-07-16",
+    "2027-07-17",
+    "2027-07-18",
+    "2027-07-23",
+    "2027-07-24",
+    "2027-07-25",
+    "2027-07-30",
+    "2027-07-31",
+    "2027-08-01",
+    "2027-08-06",
+    "2027-08-07",
+    "2027-08-08",
+    "2027-08-13",
+    "2027-08-14",
+    "2027-08-15"
+  ],
+  "eventi": [
+    {
+      "nome": "1948-1958. Il vetro di Murano e la Biennale di Venezia",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-04-19",
+      "fine": "2026-11-22",
+      "luogo": "San Giorgio Maggiore",
+      "luogoId": "san-giorgio-maggiore",
+      "descrizione": {
+        "it": "Terzo capitolo della storia del vetro di Murano alla Biennale, dedicato agli anni 1948-1958.",
+        "en": "Third chapter of the story of Murano glass at the Biennale, devoted to the years 1948-1958.",
+        "fr": "Troisième chapitre de l'histoire du verre de Murano à la Biennale, consacré aux années 1948-1958.",
+        "de": "Drittes Kapitel der Geschichte des Muranoglases auf der Biennale, den Jahren 1948-1958 gewidmet.",
+        "es": "Tercer capítulo de la historia del vidrio de Murano en la Bienal, dedicado a los años 1948-1958."
+      },
+      "link": "https://lestanzedelvetro.org/"
+    },
+    {
+      "nome": "TransLucent. La forma della luce",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-09-10",
+      "fine": "2026-11-22",
+      "luogo": "Gallerie dell'Accademia",
+      "luogoId": "accademia",
+      "descrizione": {
+        "it": "Sculture in vetro di Leiko Ikemura in dialogo con i capolavori del museo.",
+        "en": "Glass sculptures by Leiko Ikemura in dialogue with the museum's masterpieces.",
+        "fr": "Sculptures en verre de Leiko Ikemura en dialogue avec les chefs-d'œuvre du musée.",
+        "de": "Glasskulpturen von Leiko Ikemura im Dialog mit den Meisterwerken des Museums.",
+        "es": "Esculturas de vidrio de Leiko Ikemura en diálogo con las obras maestras del museo."
+      },
+      "link": "https://www.gallerieaccademia.it/"
+    },
+    {
+      "nome": "Nel segno di Venezia. La donazione Favaretto Rubelli",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-09-23",
+      "fine": "2027-01-11",
+      "luogo": "Ca' Rezzonico",
+      "luogoId": "ca-rezzonico",
+      "descrizione": {
+        "it": "Disegni dei maestri veneziani donati da Alessandro Favaretto Rubelli.",
+        "en": "Drawings by Venetian masters donated by Alessandro Favaretto Rubelli.",
+        "fr": "Dessins des maîtres vénitiens donnés par Alessandro Favaretto Rubelli.",
+        "de": "Zeichnungen venezianischer Meister, eine Schenkung von Alessandro Favaretto Rubelli.",
+        "es": "Dibujos de maestros venecianos donados por Alessandro Favaretto Rubelli."
+      },
+      "link": "https://carezzonico.visitmuve.it/"
+    },
+    {
+      "nome": "Biennale Arte 2026: In Minor Keys",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-10-01",
+      "fine": "2026-11-22",
+      "luogo": "Giardini della Biennale",
+      "luogoId": "giardini-biennale",
+      "descrizione": {
+        "it": "La celebre mostra internazionale d'arte contemporanea.",
+        "en": "The famous international exhibition of contemporary art.",
+        "fr": "La célèbre exposition internationale d'art contemporain.",
+        "de": "Die berühmte internationale Ausstellung zeitgenössischer Kunst.",
+        "es": "La célebre exposición internacional de arte contemporáneo."
+      },
+      "link": "https://www.labiennale.org/"
+    },
+    {
+      "nome": "Festival Grandval, una nobile all'avanguardia",
+      "tipo": {
+        "it": "Musica",
+        "en": "Music",
+        "fr": "Musique",
+        "de": "Musik",
+        "es": "Música"
+      },
+      "inizio": "2026-10-01",
+      "fine": "2026-10-29",
+      "luogo": "Palazzetto Bru Zane",
+      "luogoId": "bru-zane",
+      "descrizione": {
+        "it": "Rassegna musicale e culturale.",
+        "en": "Music and cultural festival.",
+        "fr": "Festival de musique et de culture.",
+        "de": "Musik- und Kulturreihe.",
+        "es": "Ciclo de música y cultura."
+      },
+      "link": "https://www.classicalive.it/it/rassegne/grandval-una-nobile-allavanguardia/2026-2027/"
+    },
+    {
+      "nome": "Jenny Saville e Nicolás Lamas",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-10-01",
+      "fine": "2026-11-22",
+      "luogo": "Ca' Pesaro",
+      "luogoId": "ca-pesaro",
+      "descrizione": {
+        "it": "Personali e installazioni d'arte contemporanea.",
+        "en": "Solo shows and contemporary art installations.",
+        "fr": "Expositions personnelles et installations d'art contemporain.",
+        "de": "Einzelausstellungen und Installationen zeitgenössischer Kunst.",
+        "es": "Exposiciones individuales e instalaciones de arte contemporáneo."
+      },
+      "link": "https://capesaro.visitmuve.it/mostra/corpus-serialis/"
+    },
+    {
+      "nome": "Michael Armitage e Amar Kanwar",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-10-01",
+      "fine": "2027-01-10",
+      "luogo": "Palazzo Grassi",
+      "luogoId": "palazzo-grassi",
+      "descrizione": {
+        "it": "Mostra d'arte contemporanea.",
+        "en": "Contemporary art exhibition.",
+        "fr": "Exposition d'art contemporain.",
+        "de": "Ausstellung zeitgenössischer Kunst.",
+        "es": "Exposición de arte contemporáneo."
+      },
+      "link": "https://www.espoarte.net/arte/quartetto-veneziano-2-michael-armitage-e-amar-kanwar-a-palazzo-grassi/"
+    },
+    {
+      "nome": "Heinz Mack. Color in Forma",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-10-18",
+      "fine": "2026-11-22",
+      "luogo": "Palazzo Bembo",
+      "descrizione": {
+        "it": "Retrospettiva per il 95° compleanno dell'artista tedesco, protagonista del gruppo ZERO.",
+        "en": "Retrospective for the 95th birthday of the German artist, a leading figure of the ZERO group.",
+        "fr": "Rétrospective pour les 95 ans de l'artiste allemand, figure majeure du groupe ZERO.",
+        "de": "Retrospektive zum 95. Geburtstag des deutschen Künstlers, einer zentralen Figur der Gruppe ZERO.",
+        "es": "Retrospectiva por el 95 cumpleaños del artista alemán, protagonista del grupo ZERO."
+      },
+      "link": "https://www.finestresullarte.info/citta/venezia"
+    },
+    {
+      "nome": "Venicemarathon",
+      "tipo": {
+        "it": "Sport",
+        "en": "Sport",
+        "fr": "Sport",
+        "de": "Sport",
+        "es": "Deporte"
+      },
+      "inizio": "2026-10-25",
+      "fine": "2026-10-25",
+      "luogo": "Giardini della Marinaressa",
+      "luogoId": "giardini-marinaressa",
+      "descrizione": {
+        "it": "Maratona da Villa Pisani a Stra a Venezia lungo la Riviera del Brenta e il Ponte della Libertà; arrivo in Riva dei Sette Martiri dopo 14 ponti con rampe.",
+        "en": "Marathon from Villa Pisani in Stra to Venice along the Riviera del Brenta and the Ponte della Libertà; finish on the Riva dei Sette Martiri after 14 ramped bridges.",
+        "fr": "Marathon de la Villa Pisani à Stra jusqu'à Venise le long de la Riviera del Brenta et du Ponte della Libertà ; arrivée sur la Riva dei Sette Martiri après 14 ponts équipés de rampes.",
+        "de": "Marathon von der Villa Pisani in Stra nach Venedig entlang der Riviera del Brenta und über die Ponte della Libertà; Ziel an der Riva dei Sette Martiri nach 14 Brücken mit Rampen.",
+        "es": "Maratón desde Villa Pisani en Stra hasta Venecia por la Riviera del Brenta y el Ponte della Libertà; meta en la Riva dei Sette Martiri tras 14 puentes con rampas."
+      },
+      "link": "https://www.venicemarathon.it/"
+    },
+    {
+      "nome": "L'inizio ci assale. Luca Bertolo",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-11-05",
+      "fine": "2027-02-14",
+      "luogo": "Palazzetto Marcello",
+      "descrizione": {
+        "it": "Mostra di pittura di Luca Bertolo.",
+        "en": "Painting exhibition by Luca Bertolo.",
+        "fr": "Exposition de peinture de Luca Bertolo.",
+        "de": "Malereiausstellung von Luca Bertolo.",
+        "es": "Exposición de pintura de Luca Bertolo."
+      },
+      "link": "https://www.finestresullarte.info/citta/venezia"
+    },
+    {
+      "nome": "Festa di San Martino",
+      "tipo": {
+        "it": "Festa",
+        "en": "Festival",
+        "fr": "Fête",
+        "de": "Fest",
+        "es": "Fiesta"
+      },
+      "inizio": "2026-11-11",
+      "fine": "2026-11-11",
+      "luogo": "",
+      "descrizione": {
+        "it": "I bambini girano per calli e campi battendo pentole e coperchi e cantando la filastrocca di San Martino; nelle pasticcerie il dolce di pasta frolla a forma di santo a cavallo.",
+        "en": "Children roam the streets and squares banging pots and lids and singing the St Martin rhyme; pastry shops sell the shortbread cake shaped like the saint on horseback.",
+        "fr": "Les enfants parcourent calli et campi en tapant sur des casseroles et des couvercles et en chantant la comptine de la Saint-Martin ; les pâtisseries vendent le gâteau sablé en forme de saint à cheval.",
+        "de": "Kinder ziehen durch Gassen und Plätze, schlagen auf Töpfe und Deckel und singen das Martinslied; in den Konditoreien gibt es das Mürbeteiggebäck in Form des Heiligen zu Pferd.",
+        "es": "Los niños recorren calles y plazas golpeando ollas y tapas y cantando la canción de San Martín; en las pastelerías se vende el dulce de masa quebrada con forma de santo a caballo."
+      },
+      "link": "https://www.veneziaunica.it/"
+    },
+    {
+      "nome": "Fedora di Umberto Giordano",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-11-13",
+      "fine": "2026-11-22",
+      "luogo": "Teatro La Fenice",
+      "descrizione": {
+        "it": "Inaugurazione della Stagione Lirica 2026-2027 del Teatro La Fenice.",
+        "en": "Opening of the 2026-2027 opera season at the Teatro La Fenice.",
+        "fr": "Ouverture de la saison lyrique 2026-2027 du Teatro La Fenice.",
+        "de": "Eröffnung der Opernsaison 2026-2027 des Teatro La Fenice.",
+        "es": "Inauguración de la temporada lírica 2026-2027 del Teatro La Fenice."
+      },
+      "link": "https://www.teatrolafenice.it/"
+    },
+    {
+      "nome": "Fucina degli Angeli. Peggy Guggenheim e il vetro artistico del Novecento",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-11-14",
+      "fine": "2027-03-29",
+      "luogo": "Collezione Peggy Guggenheim",
+      "luogoId": "guggenheim",
+      "descrizione": {
+        "it": "Oltre 100 vetri, disegni e documenti della Fucina degli Angeli di Egidio Costantini, con opere ideate da Picasso, Calder, Léger e Fontana.",
+        "en": "Over 100 glass works, drawings and documents from Egidio Costantini's Fucina degli Angeli, with pieces designed by Picasso, Calder, Léger and Fontana.",
+        "fr": "Plus de 100 verres, dessins et documents de la Fucina degli Angeli d'Egidio Costantini, avec des œuvres conçues par Picasso, Calder, Léger et Fontana.",
+        "de": "Über 100 Glasobjekte, Zeichnungen und Dokumente der Fucina degli Angeli von Egidio Costantini, mit Werken nach Entwürfen von Picasso, Calder, Léger und Fontana.",
+        "es": "Más de 100 vidrios, dibujos y documentos de la Fucina degli Angeli de Egidio Costantini, con obras ideadas por Picasso, Calder, Léger y Fontana."
+      },
+      "link": "https://www.guggenheim-venice.it/"
+    },
+    {
+      "nome": "Festa della Madonna della Salute",
+      "tipo": {
+        "it": "Festa religiosa",
+        "en": "Religious feast",
+        "fr": "Fête religieuse",
+        "de": "Kirchliches Fest",
+        "es": "Fiesta religiosa"
+      },
+      "inizio": "2026-11-21",
+      "fine": "2026-11-21",
+      "luogo": "Basilica della Salute",
+      "luogoId": "salute",
+      "descrizione": {
+        "it": "La festa più sentita dai veneziani: pellegrinaggio alla basilica sul ponte votivo di barche costruito sul Canal Grande, candele alla Madonna e castradina.",
+        "en": "The feast Venetians hold dearest: a pilgrimage to the basilica across the votive bridge of boats built over the Grand Canal, candles for the Madonna and castradina (mutton stew).",
+        "fr": "La fête la plus chère aux Vénitiens : pèlerinage à la basilique par le pont votif de bateaux construit sur le Grand Canal, cierges à la Vierge et castradina (ragoût de mouton).",
+        "de": "Das Fest, das den Venezianern am meisten am Herzen liegt: Wallfahrt zur Basilika über die Votivbrücke aus Booten auf dem Canal Grande, Kerzen für die Madonna und Castradina (Hammeleintopf).",
+        "es": "La fiesta más sentida por los venecianos: peregrinación a la basílica por el puente votivo de barcas construido sobre el Gran Canal, velas a la Virgen y castradina (guiso de cordero)."
+      },
+      "link": "https://www.basilicasalutevenezia.it/"
+    },
+    {
+      "nome": "Mario Brunello - Bach e Scipriani",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-05",
+      "fine": "2026-12-05",
+      "luogo": "Auditorium Lo Squero",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Mario Brunello (violoncello) con musiche di Bach e Francesco Paolo Scipriani all'Auditorium Lo Squero, sabato alle 16:30.",
+        "en": "Concert by Mario Brunello (cello) with music by Bach and Francesco Paolo Scipriani at the Auditorium Lo Squero, Saturday at 4:30 pm.",
+        "fr": "Concert de Mario Brunello (violoncelle) avec des œuvres de Bach et Francesco Paolo Scipriani à l'Auditorium Lo Squero, le samedi à 16h30.",
+        "de": "Konzert von Mario Brunello (Violoncello) mit Werken von Bach und Francesco Paolo Scipriani im Auditorium Lo Squero, samstags um 16:30 Uhr.",
+        "es": "Concierto de Mario Brunello (violonchelo) con música de Bach y Francesco Paolo Scipriani en el Auditorium Lo Squero, sábados a las 16:30."
+      },
+      "link": "https://concertisticlassica.com/auditorium-lo-squero-di-venezia-la-stagione-di-concerti-2026/"
+    },
+    {
+      "nome": "Quartetto di Venezia - Paesaggi a quattro voci",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-12",
+      "fine": "2026-12-12",
+      "luogo": "Auditorium Lo Squero",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto del Quartetto di Venezia con musiche di Haydn, Schubert e Cacioppo all'Auditorium Lo Squero, sabato alle 16:30. Concerto conclusivo della stagione.",
+        "en": "Concert by the Quartetto di Venezia with music by Haydn, Schubert and Cacioppo at the Auditorium Lo Squero, Saturday at 4:30 pm. Final concert of the season.",
+        "fr": "Concert du Quartetto di Venezia avec des œuvres de Haydn, Schubert et Cacioppo à l'Auditorium Lo Squero, le samedi à 16h30. Concert final de la saison.",
+        "de": "Konzert des Quartetto di Venezia mit Werken von Haydn, Schubert und Cacioppo im Auditorium Lo Squero, samstags um 16:30 Uhr. Abschlusskonzert der Saison.",
+        "es": "Concierto del Quartetto di Venezia con música de Haydn, Schubert y Cacioppo en el Auditorium Lo Squero, sábados a las 16:30. Concierto final de la temporada."
+      },
+      "link": "https://concertisticlassica.com/auditorium-lo-squero-di-venezia-la-stagione-di-concerti-2026/"
+    },
+    {
+      "nome": "Messa di mezzanotte in Basilica di San Marco",
+      "tipo": {
+        "it": "Festa religiosa",
+        "en": "Religious feast",
+        "fr": "Fête religieuse",
+        "de": "Kirchliches Fest",
+        "es": "Fiesta religiosa"
+      },
+      "inizio": "2026-12-24",
+      "fine": "2026-12-24",
+      "luogo": "Basilica di San Marco",
+      "luogoId": "basilica-san-marco",
+      "descrizione": {
+        "it": "La messa della notte di Natale celebrata dal Patriarca nella basilica illuminata.",
+        "en": "Christmas Eve midnight Mass celebrated by the Patriarch in the illuminated basilica.",
+        "fr": "La messe de minuit de Noël célébrée par le Patriarche dans la basilique illuminée.",
+        "de": "Die Christmette, vom Patriarchen in der festlich beleuchteten Basilika gefeiert.",
+        "es": "La misa de medianoche de Navidad celebrada por el Patriarca en la basílica iluminada."
+      },
+      "link": "https://www.basilicasanmarco.it/"
+    },
+    {
+      "nome": "Concerto di Capodanno",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-29",
+      "fine": "2027-01-01",
+      "luogo": "Teatro La Fenice",
+      "descrizione": {
+        "it": "Il tradizionale concerto con orchestra e coro del Teatro La Fenice diretti da Gianandrea Noseda; il 1° gennaio in diretta TV.",
+        "en": "The traditional concert by the La Fenice orchestra and chorus conducted by Gianandrea Noseda; broadcast live on TV on 1 January.",
+        "fr": "Le traditionnel concert de l'orchestre et du chœur de La Fenice dirigés par Gianandrea Noseda ; retransmis en direct à la télévision le 1er janvier.",
+        "de": "Das traditionelle Konzert von Orchester und Chor des Teatro La Fenice unter Gianandrea Noseda; am 1. Januar live im Fernsehen.",
+        "es": "El tradicional concierto de la orquesta y el coro de La Fenice dirigidos por Gianandrea Noseda; el 1 de enero en directo por televisión."
+      },
+      "link": "https://www.teatrolafenice.it/en/event/new-years-concert-2027/"
+    }
+  ]
 }
