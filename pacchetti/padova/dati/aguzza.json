@@ -237,11 +237,14 @@
         "it": "Nel Medioevo, a Padova, persino le misure erano esposte in pubblico affinché mercanti e clienti potessero verificare che nessuno imbrogliasse. Riesci a trovarle sul muro?"
       },
       "risposta": {
-        "it": ""
+        "it": "Sono dei simboli strani sul muro."
       },
       "itinerario": "aguzza-la-vista-centro",
-      "foto": null,
-      "da_verificare": true
+      "foto": {
+        "file": "aguzza/canton-delle-busie-simboli.webp",
+        "credits": "Foto propria"
+      },
+      "da_verificare": false
     },
     {
       "luogo_id": "palazzo-del-bo",
