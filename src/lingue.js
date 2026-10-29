@@ -21,6 +21,9 @@ const TESTI = {
     elimina: 'Elimina',
     errore: 'Operazione non riuscita',
     riprova: 'Riprova più tardi.',
+    apriCitta: 'Apri città',
+    rimuoviCitta: 'Rimuovi città',
+    scaricaCitta: 'Scarica città',
   },
   en: {
     titolo: 'Veneto: Monuments & more',
@@ -39,6 +42,9 @@ const TESTI = {
     elimina: 'Remove',
     errore: 'Operation failed',
     riprova: 'Please try again later.',
+    apriCitta: 'Open city',
+    rimuoviCitta: 'Remove city',
+    scaricaCitta: 'Download city',
   },
   fr: {
     titolo: 'Vénétie : Monuments et plus',
@@ -57,6 +63,9 @@ const TESTI = {
     elimina: 'Supprimer',
     errore: 'Opération échouée',
     riprova: 'Réessayez plus tard.',
+    apriCitta: 'Ouvrir la ville',
+    rimuoviCitta: 'Retirer la ville',
+    scaricaCitta: 'Télécharger la ville',
   },
   de: {
     titolo: 'Venetien: Denkmäler & mehr',
@@ -75,6 +84,9 @@ const TESTI = {
     elimina: 'Entfernen',
     errore: 'Vorgang fehlgeschlagen',
     riprova: 'Bitte später erneut versuchen.',
+    apriCitta: 'Stadt öffnen',
+    rimuoviCitta: 'Stadt entfernen',
+    scaricaCitta: 'Stadt herunterladen',
   },
   es: {
     titolo: 'Véneto: Monumentos y más',
@@ -93,6 +105,9 @@ const TESTI = {
     elimina: 'Eliminar',
     errore: 'Operación no realizada',
     riprova: 'Inténtalo de nuevo más tarde.',
+    apriCitta: 'Abrir ciudad',
+    rimuoviCitta: 'Quitar ciudad',
+    scaricaCitta: 'Descargar ciudad',
   },
 };
 

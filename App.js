@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
-import { attiva, datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
@@ -16,6 +16,30 @@ import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
 
+// copertine delle città; senza foto resta il colore di sfondo
+const COPERTINE = {
+  venezia: require('./assets/copertine/venezia.jpg'),
+  verona: require('./assets/copertine/verona.png'),
+  padova: require('./assets/copertine/padova.png'),
+  treviso: require('./assets/copertine/treviso.jpg'),
+  vicenza: require('./assets/copertine/vicenza.jpg'),
+  rovigo: require('./assets/copertine/rovigo.jpg'),
+  belluno: require('./assets/copertine/belluno.jpg'),
+};
+
+const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
+
+// colore di sfondo provvisorio di ogni città (finché non ci sono le foto vere)
+const COLORI = {
+  venezia: '#2c6e8f',
+  verona: '#9c5b3a',
+  padova: '#5b7a3a',
+  treviso: '#3a6d6d',
+  vicenza: '#7a6a4a',
+  belluno: '#4a6a7a',
+  rovigo: '#6a5a7a',
+};
+
 // Lingua del telefono se supportata, altrimenti italiano; poi quella scelta dall'utente.
 function linguaIniziale() {
   try {
@@ -26,17 +50,17 @@ function linguaIniziale() {
   }
 }
 
-// Gratuito sempre attivo; le città si scaricano, si attivano e si eliminano da qui.
-// I prezzi compariranno quando i prodotti saranno creati negli store.
+// Gratuito sempre attivo; le città si scaricano, si aprono e si rimuovono da qui.
 export default function App() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
-  const [occupata, setOccupata] = useState(null); // id della città in download/eliminazione
+  const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
   const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
-  const [luoghiAttiva, setLuoghiAttiva] = useState(null);
   const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const [motorePronto, setMotorePronto] = useState(false);
+  const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
+  const [creditiAperti, setCreditiAperti] = useState(false); // pagina crediti
   const t = testi(lingua);
 
   useEffect(() => {
@@ -85,14 +109,6 @@ export default function App() {
     return () => sub.remove();
   }, [cittaAperta]);
 
-  useEffect(() => {
-    if (!stato.attiva) {
-      setLuoghiAttiva(null);
-      return;
-    }
-    datiCitta(stato.attiva).then(setLuoghiAttiva);
-  }, [stato.attiva]);
-
   function cambiaLingua(nuova) {
     setLingua(nuova);
     AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
@@ -110,9 +126,6 @@ export default function App() {
       setProgresso(null);
     }
   }
-
-  const cittaAttiva = stato.attiva ? cittaPerId(stato.attiva) : null;
-  const numeroLuoghi = luoghiAttiva ? luoghiAttiva.luoghi.length : (cittaAttiva?.anteprima?.length || 0);
 
   if (MOTORE_CITTA.includes(cittaAperta)) {
     if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
@@ -145,73 +158,85 @@ export default function App() {
     );
   }
 
-  return (
-    <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
-      <Text style={styles.titolo}>{t.titolo}</Text>
-
-      <View style={styles.lingue}>
-        {LINGUE.map((codice) => (
-          <Pressable
-            key={codice}
-            onPress={() => cambiaLingua(codice)}
-            style={[styles.lingua, lingua === codice && styles.linguaAttiva]}
-          >
-            <Text style={[styles.testoLingua, lingua === codice && styles.testoLinguaAttiva]}>
-              {codice.toUpperCase()}
-            </Text>
-          </Pressable>
-        ))}
+  const intestazione = (
+    <View>
+      <View style={styles.hero}>
+        <View style={styles.heroTop}>
+          <Image source={require('./assets/guida-veneto.png')} style={styles.logo} />
+          <View style={styles.testiHero}>
+            <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>VENETO EXPERIENCE</Text>
+            <View style={styles.badge}>
+              <Text style={styles.badgeTesto}>Guida turistica</Text>
+            </View>
+          </View>
+        </View>
+        <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>Il tuo viaggio comincia qui.</Text>
+        <Text style={styles.heroSottotitolo}>Scopri le città del Veneto nella tua lingua.</Text>
+        <Pressable style={styles.lingua} onPress={() => setLinguaAperta(true)}>
+          <Text style={styles.linguaEtichetta}>LINGUA / LANGUAGE</Text>
+          <View style={styles.linguaRiga}>
+            <Text style={styles.linguaValore}>{NOMI_LINGUE[lingua]}</Text>
+            <Text style={styles.chevron}>⌄</Text>
+          </View>
+        </Pressable>
       </View>
 
-      {cittaAttiva ? (
-        <View style={styles.attiva}>
-          <Text style={styles.attivaEtichetta}>{t.cittaAttiva}</Text>
-          <Text style={styles.attivaNome}>{cittaAttiva.nome}</Text>
-          <Text style={styles.attivaTesto}>{numeroLuoghi} {t.luoghi}</Text>
-          {luoghiAttiva ? (
-            <Pressable style={[styles.bottone, styles.bottoneLuoghi]} onPress={() => setCittaAperta(stato.attiva)}>
-              <Text style={styles.testoBottone}>{t.apri} →</Text>
-            </Pressable>
-          ) : null}
-        </View>
-      ) : (
-        <View style={styles.gratuito}>
-          <Text style={styles.gratuitoTitolo}>{t.gratuito}</Text>
-          <Text style={styles.gratuitoTesto}>{t.gratuitoTesto}</Text>
-        </View>
-      )}
+      <View style={styles.sezione}>
+        <Text style={styles.sezioneTitolo}>Esplora le città</Text>
+        <Text style={styles.sezioneConto}>Veneto · {CITTA.length} destinazioni</Text>
+      </View>
+    </View>
+  );
 
-      <Text style={styles.sottotitolo}>{t.lePiazze}</Text>
+  return (
+    <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
       <FlatList
         data={CITTA}
         keyExtractor={(c) => c.id}
+        numColumns={2}
+        columnWrapperStyle={styles.colonne}
         contentContainerStyle={styles.lista}
+        ListHeaderComponent={intestazione}
+        ListFooterComponent={
+          <Pressable onPress={() => setCreditiAperti(true)} style={styles.crediti}>
+            <Text style={styles.testoCrediti}>Crediti</Text>
+          </Pressable>
+        }
         renderItem={({ item }) => {
           const installata = stato.installate.includes(item.id);
-          const attivaOra = stato.attiva === item.id;
           const impegnata = occupata === item.id;
           return (
-            <View style={[styles.card, attivaOra && styles.cardAttiva]}>
-              <View style={styles.cardTesto}>
-                <Text style={styles.nomeCitta}>{item.nome}</Text>
-                <Text style={styles.provincia}>
-                  {installata ? (attivaOra ? t.attiva : t.installata) : etichettaStato(t, item.stato)}
+            <View style={styles.card}>
+              <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
+                {COPERTINE[item.id] ? <Image source={COPERTINE[item.id]} style={styles.copertina} /> : null}
+              </View>
+              <Text style={styles.nomeCitta}>{item.nome}</Text>
+              <Text style={styles.motto}>{item.motto || item.provincia}</Text>
+              <View style={[styles.stato, installata && styles.statoOk]}>
+                <Text style={[styles.statoTesto, installata && styles.statoTestoOk]}>
+                  {installata ? t.installata : etichettaStato(t, item.stato)}
                 </Text>
               </View>
+
               {impegnata ? (
                 progresso && progresso.id === item.id ? (
                   <Text style={styles.percentuale}>{Math.round((progresso.fatti / progresso.totale) * 100)}%</Text>
                 ) : (
-                  <ActivityIndicator />
+                  <ActivityIndicator style={styles.attesa} />
                 )
               ) : installata ? (
-                <View style={styles.azioni}>
-                  <Pressable style={styles.bottone} onPress={() => setCittaAperta(item.id)}><Text style={styles.testoBottone}>{t.apri}</Text></Pressable>
-                  {!attivaOra && <Pressable style={styles.bottone} onPress={() => esegui(item.id, attiva)}><Text style={styles.testoBottone}>{t.attiva}</Text></Pressable>}
-                  <Pressable style={[styles.bottone, styles.bottoneSecondario]} onPress={() => esegui(item.id, rimuovi)}><Text style={styles.testoSecondario}>{t.elimina}</Text></Pressable>
-                </View>
+                <>
+                  <Pressable style={[styles.bottone, styles.bottoneApri]} onPress={() => setCittaAperta(item.id)}>
+                    <Text style={styles.testoApri}>{t.apriCitta} ↗</Text>
+                  </Pressable>
+                  <Pressable style={styles.rimuovi} onPress={() => esegui(item.id, rimuovi)}>
+                    <Text style={styles.testoRimuovi}>{t.rimuoviCitta}</Text>
+                  </Pressable>
+                </>
               ) : item.pacchetto ? (
-                <Pressable style={styles.bottone} onPress={() => esegui(item.id, installa)}><Text style={styles.testoBottone}>{t.scarica}</Text></Pressable>
+                <Pressable style={[styles.bottone, styles.bottoneScarica]} onPress={() => esegui(item.id, installa)}>
+                  <Text style={styles.testoScarica}>↓ {t.scaricaCitta}</Text>
+                </Pressable>
               ) : (
                 <Text style={styles.nonDisponibile}>{t.nonAncora}</Text>
               )}
@@ -219,38 +244,113 @@ export default function App() {
           );
         }}
       />
+
+      <Modal visible={creditiAperti} transparent animationType="fade" onRequestClose={() => setCreditiAperti(false)}>
+        <Pressable style={styles.velo} onPress={() => setCreditiAperti(false)}>
+          <View style={styles.menu}>
+            <View style={styles.creditiBox}>
+              <Text style={styles.creditiTitolo}>Crediti</Text>
+              <Text style={styles.creditiTesto}>
+                Copertina di Treviso: Maddalena Addeo, da Wikimedia Commons (https://commons.wikimedia.org/wiki/User:Maddalena_Addeo). Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+                Copertina di Vicenza: Alessandro Vecchi, da Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vicenza_panorama.jpg). Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
+
+                Copertina di Rovigo: Agenzia del Turismo del Veneto, pagina ufficiale Flickr. Licenza CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).
+
+                Copertina di Belluno: Jacobus, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
+              </Text>
+            </View>
+          </View>
+        </Pressable>
+      </Modal>
+
+      <Modal visible={linguaAperta} transparent animationType="fade" onRequestClose={() => setLinguaAperta(false)}>
+        <Pressable style={styles.velo} onPress={() => setLinguaAperta(false)}>
+          <View style={styles.menu}>
+            {LINGUE.map((codice) => (
+              <Pressable
+                key={codice}
+                style={styles.voceMenu}
+                onPress={() => {
+                  cambiaLingua(codice);
+                  setLinguaAperta(false);
+                }}
+              >
+                <Text style={[styles.voceMenuTesto, lingua === codice && styles.voceMenuAttiva]}>
+                  {NOMI_LINGUE[codice]}
+                </Text>
+              </Pressable>
+            ))}
+          </View>
+        </Pressable>
+      </Modal>
     </SafeAreaView>
   );
 }
 
+const VERDE = '#1f3d36';
+const CREMA = '#e9e1c7';
+const TESTO = '#1d1d1d';
+const GRIGIO = '#6b6b6b';
+
 const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: '#f8fafc', paddingHorizontal: 16 },
-  titolo: { fontSize: 24, fontWeight: '800', color: '#0f172a', marginTop: 8 },
-  lingue: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  lingua: { flex: 1, alignItems: 'center', paddingVertical: 6, borderRadius: 8, backgroundColor: '#e2e8f0' },
-  linguaAttiva: { backgroundColor: '#1d4ed8' },
-  testoLingua: { fontSize: 12, fontWeight: '700', color: '#334155' },
-  testoLinguaAttiva: { color: '#fff' },
-  gratuito: { backgroundColor: '#ecfdf5', borderRadius: 12, padding: 10, marginTop: 8 },
-  gratuitoTitolo: { fontSize: 15, fontWeight: '700', color: '#065f46' },
-  gratuitoTesto: { fontSize: 13, color: '#065f46', marginTop: 4 },
-  attiva: { backgroundColor: '#eff6ff', borderRadius: 12, padding: 10, marginTop: 8 },
-  attivaEtichetta: { fontSize: 12, fontWeight: '700', color: '#1d4ed8' },
-  attivaNome: { fontSize: 18, fontWeight: '800', color: '#0f172a', marginTop: 2 },
-  attivaTesto: { fontSize: 13, color: '#334155', marginTop: 6 },
-  bottoneLuoghi: { alignSelf: 'flex-start', marginTop: 8 },
-  sottotitolo: { fontSize: 14, fontWeight: '700', color: '#475569', marginTop: 10, marginBottom: 6 },
-  lista: { gap: 6, paddingBottom: 24 },
-  card: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#fff', borderRadius: 12, paddingVertical: 8, paddingHorizontal: 12, borderWidth: 1, borderColor: '#e2e8f0' },
-  cardAttiva: { borderColor: '#1d4ed8' },
-  cardTesto: { flex: 1 },
-  nomeCitta: { fontSize: 16, fontWeight: '700', color: '#0f172a' },
-  provincia: { fontSize: 12, color: '#64748b', marginTop: 0 },
-  azioni: { flexDirection: 'row', gap: 8 },
-  bottone: { backgroundColor: '#1d4ed8', borderRadius: 8, paddingHorizontal: 12, paddingVertical: 8 },
-  testoBottone: { color: '#fff', fontWeight: '700', fontSize: 13 },
-  bottoneSecondario: { backgroundColor: '#f1f5f9' },
-  testoSecondario: { color: '#334155', fontWeight: '700', fontSize: 13 },
-  nonDisponibile: { fontSize: 12, color: '#94a3b8', fontWeight: '700' },
-  percentuale: { fontSize: 15, fontWeight: '800', color: '#1d4ed8', minWidth: 48, textAlign: 'right' },
+  contenitore: { flex: 1, backgroundColor: '#fff' },
+  lista: { paddingHorizontal: 16, paddingBottom: 40 },
+  colonne: { justifyContent: 'space-between' },
+
+  // Hero
+  hero: { backgroundColor: VERDE, borderRadius: 24, padding: 20, marginTop: 8 },
+  heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
+  logo: { width: 56, height: 56, borderRadius: 28 },
+  testiHero: { flex: 1, minWidth: 0 },
+  brand: { color: '#fff', fontFamily: 'serif', fontSize: 22, letterSpacing: 1.5 },
+  badge: { alignSelf: 'flex-start', backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
+  badgeTesto: { color: '#fff', fontSize: 13, fontWeight: '500' },
+  heroTitolo: { color: '#fff', fontSize: 24, fontWeight: '700', lineHeight: 30, marginTop: 22, marginBottom: 10 },
+  heroSottotitolo: { color: 'rgba(255,255,255,0.9)', fontSize: 17, marginBottom: 18 },
+  lingua: { backgroundColor: '#fff', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 12 },
+  linguaEtichetta: { color: GRIGIO, fontSize: 13, letterSpacing: 0.4 },
+  linguaRiga: { flexDirection: 'row', alignItems: 'center', marginTop: 4 },
+  linguaValore: { flex: 1, color: TESTO, fontSize: 19, fontWeight: '500' },
+  chevron: { color: TESTO, fontSize: 18 },
+
+  // Sezione città
+  sezione: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginTop: 26, marginBottom: 16, paddingHorizontal: 4 },
+  sezioneTitolo: { color: TESTO, fontSize: 24, fontWeight: '700' },
+  sezioneConto: { color: GRIGIO, fontSize: 15 },
+
+  // Card città
+  card: { width: '47%', marginBottom: 18 },
+  immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
+  copertina: { ...StyleSheet.absoluteFillObject, width: '100%', height: '100%' },
+  immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
+  crediti: { alignItems: 'center', paddingVertical: 20 },
+  testoCrediti: { color: GRIGIO, fontSize: 14, textDecorationLine: 'underline' },
+  creditiBox: { padding: 20 },
+  creditiTitolo: { color: TESTO, fontSize: 18, fontWeight: '700', marginBottom: 8 },
+  creditiTesto: { color: TESTO, fontSize: 14, lineHeight: 20 },
+  nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
+  motto: { color: GRIGIO, fontSize: 16, lineHeight: 21, marginTop: 4, minHeight: 42 },
+  stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
+  statoOk: { backgroundColor: '#dcf3e2' },
+  statoTesto: { color: '#333', fontSize: 15 },
+  statoTestoOk: { color: '#2f7a4b' },
+
+  bottone: { height: 54, borderRadius: 16, marginTop: 12, alignItems: 'center', justifyContent: 'center' },
+  bottoneApri: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#e4e4e4' },
+  testoApri: { color: TESTO, fontSize: 18, fontWeight: '500' },
+  bottoneScarica: { backgroundColor: VERDE },
+  testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500' },
+  rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
+  testoRimuovi: { color: GRIGIO, fontSize: 16 },
+  nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
+  attesa: { marginTop: 16 },
+  percentuale: { color: VERDE, fontSize: 16, fontWeight: '800', marginTop: 16 },
+
+  // Menu lingua
+  velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 32 },
+  menu: { backgroundColor: '#fff', borderRadius: 16, overflow: 'hidden' },
+  voceMenu: { paddingHorizontal: 20, paddingVertical: 16, borderBottomWidth: 1, borderBottomColor: '#eee' },
+  voceMenuTesto: { color: TESTO, fontSize: 18 },
+  voceMenuAttiva: { fontWeight: '700', color: VERDE },
 });

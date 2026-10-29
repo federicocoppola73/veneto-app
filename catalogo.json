@@ -7,6 +7,7 @@
       "id": "venezia",
       "nome": "Venezia",
       "provincia": "Venezia",
+      "motto": "Laguna, arte e storia",
       "stato": "disponibile",
       "anteprima": [
         "piazza-san-marco",
@@ -28,6 +29,7 @@
       "id": "verona",
       "nome": "Verona",
       "provincia": "Verona",
+      "motto": "Romanticismo e cultura",
       "stato": "disponibile",
       "anteprima": [
         "arena-di-verona",
@@ -64,7 +66,8 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/manifest.json",
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Portici e università"
     },
     {
       "id": "treviso",
@@ -74,7 +77,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Canali, acque e osterie"
     },
     {
       "id": "vicenza",
@@ -84,7 +88,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Palladio e architettura rinascimentale"
     },
     {
       "id": "rovigo",
@@ -94,7 +99,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Delta del Po e Polesine"
     },
     {
       "id": "belluno",
@@ -104,7 +110,8 @@
       "anteprima": [],
       "pacchetto": null,
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": null,
+      "motto": "Dolomiti e Tiziano"
     }
   ]
 }
