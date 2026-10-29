@@ -208,8 +208,8 @@ def main():
                 if lid not in fermata_linee[fid]:
                     fermata_linee[fid].append(lid)
             direzioni.append({'direzione': int(verso), 'circolare': False, 'fermate': ids, 'richiesta': []})
-        # le linee urbane si mostrano solo con il numero (U02 -> 02)
-        mostra = etichetta[1:] if etichetta.startswith('U') else etichetta
+        # le linee urbane si mostrano solo con il numero (U02 -> 2)
+        mostra = (etichetta[1:].lstrip('0') or etichetta[1:]) if etichetta.startswith('U') else etichetta
         linee_out.append({
             'id': lid, 'etichetta': mostra, 'mezzo': 'tram' if etichetta in TRAM else 'autobus',
             'colore': '#' + rt['route_color'] if rt.get('route_color') else COLORE_DEFAULT,
