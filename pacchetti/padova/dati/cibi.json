@@ -1005,6 +1005,112 @@
      ]
     }
    }
+  },
+  {
+   "id": "schizzotto-dei-colli-euganei",
+   "nome": "Schizzotto dei Colli Euganei (o schissotto)",
+   "portata": "cicchetto",
+   "testo": {
+    "it": "Pane rustico non lievitato, condito con grasso e un goccio di grappa, tipico della provincia di Padova, dei Colli Euganei e della Bassa Padovana. È riconosciuto come Prodotto Agroalimentare Tradizionale (PAT) del Veneto.",
+    "en": "A rustic unleavened bread flavoured with fat and a splash of grappa, typical of the Padua province, the Euganean Hills and the Bassa Padovana. It is recognised as a Traditional Agri-food Product (PAT) of the Veneto.",
+    "fr": "Pain rustique sans levain, parfumé à la graisse et à un trait de grappa, typique de la province de Padoue, des Collines Euganéennes et de la Basse Padouane. Il est reconnu comme Produit agroalimentaire traditionnel (PAT) de Vénétie.",
+    "de": "Rustikales ungesäuertes Brot, mit Fett und einem Schuss Grappa gewürzt, typisch für die Provinz Padua, die Colli Euganei und die Bassa Padovana. Es ist als Traditionelles Agrarlebensmittel (PAT) des Veneto anerkannt.",
+    "es": "Pan rústico sin levadura, condimentado con grasa y un chorrito de grappa, típico de la provincia de Padua, de los Colli Euganei y de la Bassa Padovana. Está reconocido como Producto Agroalimentario Tradicional (PAT) del Véneto."
+   },
+   "ricetta": {
+    "porzioni": 8,
+    "preparazione": {
+     "it": "30 min + 30 min di riposo + 40 min di cottura",
+     "en": "30 min + 30 min rest + 40 min baking",
+     "fr": "30 min + 30 min de repos + 40 min de cuisson",
+     "de": "30 Min. + 30 Min. Ruhezeit + 40 Min. Backzeit",
+     "es": "30 min + 30 min de reposo + 40 min de horno"
+    },
+    "ingredienti": {
+     "it": [
+      "500 g di farina 00",
+      "100 g di grasso d'oca o strutto (a temperatura ambiente)",
+      "1 bicchierino di grappa bianca (circa 30 ml)",
+      "150-180 ml di acqua tiepida (da regolare)",
+      "10 g di sale",
+      "1 pizzico di bicarbonato (facoltativo)"
+     ],
+     "en": [
+      "500 g plain flour (type 00)",
+      "100 g goose fat or lard (at room temperature)",
+      "1 small glass of white grappa (about 30 ml)",
+      "150-180 ml lukewarm water (to adjust)",
+      "10 g salt",
+      "1 pinch bicarbonate of soda (optional)"
+     ],
+     "fr": [
+      "500 g de farine 00",
+      "100 g de graisse d'oie ou de saindoux (à température ambiante)",
+      "1 petit verre de grappa blanche (environ 30 ml)",
+      "150-180 ml d'eau tiède (à ajuster)",
+      "10 g de sel",
+      "1 pincée de bicarbonate (facultatif)"
+     ],
+     "de": [
+      "500 g Mehl Type 00",
+      "100 g Gänseschmalz oder Schmalz (Zimmertemperatur)",
+      "1 kleines Glas weißer Grappa (etwa 30 ml)",
+      "150–180 ml lauwarmes Wasser (nach Bedarf)",
+      "10 g Salz",
+      "1 Prise Natron (optional)"
+     ],
+     "es": [
+      "500 g de harina 00",
+      "100 g de grasa de oca o manteca de cerdo (a temperatura ambiente)",
+      "1 copita de grappa blanca (unos 30 ml)",
+      "150-180 ml de agua tibia (según absorción)",
+      "10 g de sal",
+      "1 pizca de bicarbonato (opcional)"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Disponi la farina a fontana sulla spianatoia. Al centro aggiungi il grasso, il sale, il bicarbonato e la grappa.",
+      "Incorpora gli ingredienti con le dita, aggiungendo l'acqua tiepida poco alla volta, fino a ottenere un panetto compatto, liscio ed elastico, simile alla pasta per piadina.",
+      "Avvolgi l'impasto nella pellicola e lascialo riposare a temperatura ambiente per circa 30 minuti, per rilassare il glutine.",
+      "Stendi l'impasto su una teglia unta o foderata di carta forno, con uno spessore di circa 1,5-2 cm.",
+      "Pratica tagli diagonali profondi a formare rombi o scacchi e bucherella la superficie con i rebbi di una forchetta.",
+      "Cuoci in forno statico preriscaldato a 180-190 °C per 35-40 minuti, finché la superficie è ben dorata color nocciola."
+     ],
+     "en": [
+      "Arrange the flour in a well on the work surface. In the centre add the fat, salt, bicarbonate and grappa.",
+      "Work the ingredients with your fingers, adding the lukewarm water a little at a time, until you have a compact, smooth and elastic ball, similar to piadina dough.",
+      "Wrap the dough in cling film and let it rest at room temperature for about 30 minutes, to relax the gluten.",
+      "Spread the dough on an oiled or baking-paper-lined tray, to a thickness of about 1.5–2 cm.",
+      "Cut deep diagonal lines to form diamonds or a checkerboard, and prick the surface with the tines of a fork.",
+      "Bake in a static oven preheated to 180–190 °C for 35–40 minutes, until the surface is well browned, hazelnut coloured."
+     ],
+     "fr": [
+      "Disposez la farine en fontaine sur le plan de travail. Au centre, ajoutez la graisse, le sel, le bicarbonate et la grappa.",
+      "Incorporez les ingrédients du bout des doigts, en ajoutant l'eau tiède petit à petit, jusqu'à obtenir une boule compacte, lisse et élastique, semblable à la pâte à piadina.",
+      "Enveloppez la pâte dans du film et laissez-la reposer à température ambiante environ 30 minutes, pour détendre le gluten.",
+      "Étalez la pâte sur une plaque huilée ou recouverte de papier cuisson, sur une épaisseur d'environ 1,5 à 2 cm.",
+      "Faites des incisions diagonales profondes pour former des losanges ou un damier, et piquez la surface avec les dents d'une fourchette.",
+      "Enfournez à 180-190 °C, en chaleur statique préchauffée, pendant 35 à 40 minutes, jusqu'à ce que la surface soit bien dorée, couleur noisette."
+     ],
+     "de": [
+      "Das Mehl auf der Arbeitsfläche zu einem Berg aufschichten. In die Mitte Fett, Salz, Natron und Grappa geben.",
+      "Die Zutaten mit den Fingern verarbeiten und das lauwarme Wasser nach und nach zugeben, bis ein kompakter, glatter und elastischer Teig entsteht, ähnlich wie Piadina-Teig.",
+      "Den Teig in Frischhaltefolie wickeln und bei Raumtemperatur etwa 30 Minuten ruhen lassen, damit sich das Gluten entspannt.",
+      "Den Teig auf einem gefetteten oder mit Backpapier ausgelegten Blech etwa 1,5–2 cm dick ausrollen.",
+      "Tiefe diagonale Schnitte in Rauten oder Schachbrettmuster einritzen und die Oberfläche mit den Zinken einer Gabel einstechen.",
+      "Bei 180–190 °C Ober-/Unterhitze, vorgeheizt, 35–40 Minuten backen, bis die Oberfläche schön goldbraun und haselnussfarben ist."
+     ],
+     "es": [
+      "Dispón la harina en forma de volcán sobre la mesa de trabajo. En el centro añade la grasa, la sal, el bicarbonato y la grappa.",
+      "Incorpora los ingredientes con los dedos, añadiendo el agua tibia poco a poco, hasta obtener una masa compacta, lisa y elástica, parecida a la de piadina.",
+      "Envuelve la masa en film y déjala reposar a temperatura ambiente unos 30 minutos, para relajar el gluten.",
+      "Extiende la masa sobre una bandeja engrasada o forrada con papel de horno, con un grosor de unos 1,5-2 cm.",
+      "Haz cortes diagonales profundos para formar rombos o cuadros y pincha la superficie con los dientes de un tenedor.",
+      "Hornea en horno estático precalentado a 180-190 °C durante 35-40 minutos, hasta que la superficie esté bien dorada color avellana."
+     ]
+    }
+   }
   }
  ]
 }
