@@ -68,8 +68,8 @@
       "id": "porte-contarine",
       "luogo_id": "porte-contarine",
       "sestiere": "Centro",
-      "latitudine": 45.412372,
-      "longitudine": 11.878304,
+      "latitudine": 45.41245,
+      "longitudine": 11.877761,
       "titolo": {
         "it": "Il salto d'acqua che accendeva le luci",
         "en": "The water drop that lit the streets",
@@ -146,6 +146,27 @@
         "fr": "Ce monument funéraire de l'époque romaine est attribué au mythique Anténor, figure de la tradition liée aux origines de Padoue.",
         "de": "Dieses Grabmal aus römischer Zeit wird dem mythischen Antenor zugeschrieben, einer Gestalt der Überlieferung, die mit den Ursprüngen Paduas verbunden ist.",
         "es": "Este monumento funerario de época romana se atribuye al mítico Antenor, figura de la tradición vinculada a los orígenes de Padua."
+      }
+    },
+    {
+      "id": "oratorio-di-san-michele",
+      "luogo_id": "oratorio-di-san-michele",
+      "sestiere": "Centro",
+      "latitudine": 45.40150109918469,
+      "longitudine": 11.869093342461339,
+      "titolo": {
+        "it": "Affreschi per la Vergine",
+        "en": "Frescoes for the Virgin",
+        "fr": "Des fresques pour la Vierge",
+        "de": "Fresken für die Jungfrau",
+        "es": "Frescos para la Virgen"
+      },
+      "testo": {
+        "it": "L'oratorio sorse nel 1397 sulle rovine di una chiesa incendiata nel 1390. Al suo interno, Jacopo da Verona dipinse la vita della Vergine Maria.",
+        "en": "The oratory was built in 1397 on the ruins of a church burned in 1390. Inside, Jacopo da Verona painted the life of the Virgin Mary.",
+        "fr": "L'oratoire fut construit en 1397 sur les ruines d'une église incendiée en 1390. À l'intérieur, Jacopo da Verona peignit la vie de la Vierge Marie.",
+        "de": "Das Oratorium wurde 1397 auf den Ruinen einer 1390 niedergebrannten Kirche errichtet. Im Inneren malte Jacopo da Verona das Leben der Jungfrau Maria.",
+        "es": "El oratorio se construyó en 1397 sobre las ruinas de una iglesia incendiada en 1390. En su interior, Jacopo da Verona pintó la vida de la Virgen María."
       }
     }
   ]
