@@ -49,7 +49,6 @@ export default function App() {
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const [motorePronto, setMotorePronto] = useState(false);
   const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
-  const [salvate, setSalvate] = useState([]); // segnalibri (solo in memoria per ora)
   const t = testi(lingua);
 
   useEffect(() => {
@@ -101,10 +100,6 @@ export default function App() {
   function cambiaLingua(nuova) {
     setLingua(nuova);
     AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
-  }
-
-  function alternaSalvata(id) {
-    setSalvate((prima) => (prima.includes(id) ? prima.filter((x) => x !== id) : [...prima, id]));
   }
 
   async function esegui(id, azione) {
@@ -193,17 +188,10 @@ export default function App() {
         renderItem={({ item }) => {
           const installata = stato.installate.includes(item.id);
           const impegnata = occupata === item.id;
-          const salvata = salvate.includes(item.id);
           return (
             <View style={styles.card}>
               <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
                 <Text style={styles.immagineNome}>{item.nome}</Text>
-                <Pressable
-                  onPress={() => alternaSalvata(item.id)}
-                  style={[styles.segnalibro, salvata && styles.segnalibroAttivo]}
-                >
-                  <Text style={styles.segnalibroTesto}>{salvata ? '★' : '☆'}</Text>
-                </Pressable>
               </View>
               <Text style={styles.nomeCitta}>{item.nome}</Text>
               <Text style={styles.motto}>{item.motto || item.provincia}</Text>
@@ -299,9 +287,6 @@ const styles = StyleSheet.create({
   card: { width: '47%', marginBottom: 18 },
   immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
   immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
-  segnalibro: { position: 'absolute', top: 10, right: 10, width: 46, height: 46, borderRadius: 23, backgroundColor: 'rgba(60,60,60,0.45)', alignItems: 'center', justifyContent: 'center' },
-  segnalibroAttivo: { backgroundColor: 'rgba(31,61,54,0.9)' },
-  segnalibroTesto: { color: '#fff', fontSize: 20 },
   nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
   motto: { color: GRIGIO, fontSize: 16, lineHeight: 21, marginTop: 4, minHeight: 42 },
   stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
