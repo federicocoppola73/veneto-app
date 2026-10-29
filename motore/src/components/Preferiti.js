@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { coloreCategoria } from '../categorie';
 import { testoDistanza } from '../distanza';
 import { coloreApertura, statoApertura, testoAperturaBreve } from '../orari';
+import ListaLuoghiSalvati, { BLU_LUOGO } from './ListaLuoghiSalvati';
 
 export const ROSSO_CUORE = '#e11d48';
 export const GRIGIO_CUORE = '#9ca3af';
@@ -18,6 +19,8 @@ export const VERDE_VISITATO = '#16a34a'; // spunta "Ci sono stato"
  *        onScegli(id), onTogli(id), onTogliVisitato(id), stilePulsante (per metterlo tra i pulsanti della mappa),
  *        onVediMappa() / onVediVisitati() (pulsante "Vedi sulla mappa": accende il filtro corrispondente),
  *        onEsportaCuore(), onImportaCuore()
+ *        luoghiSalvati, posizione, onAttivaPosizione(), onImpostazioniPosizione(), onSalvaLuogo(descr), onScegliLuogo(luogo), onCancellaLuogo(id)
+ *   (terza scheda 📍 Salvati: luoghi salvati con la posizione attuale)
  */
 export default function Preferiti({
   preferiti,
@@ -34,18 +37,26 @@ export default function Preferiti({
   onVediVisitati,
   onEsportaCuore,
   onImportaCuore,
+  luoghiSalvati = [],
+  posizione = { stato: 'spento', puoiChiedere: true, coordinate: null },
+  onAttivaPosizione,
+  onImpostazioniPosizione,
+  onSalvaLuogo,
+  onScegliLuogo,
+  onCancellaLuogo,
 }) {
   const insets = useSafeAreaInsets();
   const [aperto, setAperto] = useState(false);
-  const [scheda, setScheda] = useState('cuore'); // 'cuore' | 'visitati'
+  const [scheda, setScheda] = useState('cuore'); // 'cuore' | 'visitati' | 'luoghi'
   const listaCuore = preferiti.map((id) => luoghiPerId[id]).filter(Boolean);
   const listaVisitati = visitati.map((id) => luoghiPerId[id]).filter(Boolean);
   const cuore = scheda === 'cuore';
   const lista = cuore ? listaCuore : listaVisitati;
-  const n = lista.length;
+  const luoghi = scheda === 'luoghi';
+  const n = luoghi ? luoghiSalvati.length : lista.length;
   const colore = cuore ? ROSSO_CUORE : VERDE_VISITATO;
   const simbolo = cuore ? '♥\uFE0E' : '✓\uFE0E';
-  const vediMappa = cuore ? onVediMappa : onVediVisitati;
+  const vediMappa = luoghi ? null : cuore ? onVediMappa : onVediVisitati;
   const togli = cuore ? onTogli : onTogliVisitato;
 
   const linguetta = (id, testo, numero, coloreAttivo, segno) => {
@@ -96,10 +107,25 @@ export default function Preferiti({
           <View style={styles.linguette}>
             {linguetta('cuore', t('filtroCuore'), listaCuore.length, ROSSO_CUORE, '♥\uFE0E')}
             {linguetta('visitati', t('filtroVisitati'), listaVisitati.length, VERDE_VISITATO, '✓\uFE0E')}
+            {linguetta('luoghi', t('filtroLuoghiSalvati'), luoghiSalvati.length, BLU_LUOGO, '📍')}
           </View>
 
           <ScrollView contentContainerStyle={{ paddingBottom: 24, gap: 8 }}>
-            {n === 0 ? (
+            {luoghi ? (
+              <ListaLuoghiSalvati
+                luoghi={luoghiSalvati}
+                posizione={posizione}
+                t={t}
+                onAttiva={onAttivaPosizione}
+                onImpostazioni={onImpostazioniPosizione}
+                onSalva={onSalvaLuogo}
+                onScegli={(l) => {
+                  setAperto(false);
+                  onScegliLuogo(l);
+                }}
+                onCancella={onCancellaLuogo}
+              />
+            ) : n === 0 ? (
               <View style={styles.vuoto}>
                 <Text style={[styles.cuoreVuoto, !cuore && { fontWeight: '800' }]}>{cuore ? '♡\uFE0E' : '✓\uFE0E'}</Text>
                 <Text style={styles.testoVuoto}>{cuore ? t('pref_vuoto') : t('vis_filtroVuoto')}</Text>

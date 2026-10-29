@@ -76,6 +76,15 @@ export function fermateDelLuogo(voce) {
   });
 }
 
+// Fermate del vaporetto con almeno una linea, entro un raggio dal punto: dalla più vicina
+export function fermateVaporettoVicine(lat, lon, massimo = 300) {
+  if (lat == null || lon == null) return [];
+  return Object.entries(DATI.fermate)
+    .map(([id, f]) => ({ id, testo: f.nome, metri: distanzaMetri(lat, lon, f.lat, f.lon), linee: lineeDellaFermata(id) }))
+    .filter((f) => f.metri <= massimo && f.linee.length > 0)
+    .sort((a, b) => a.metri - b.metri);
+}
+
 // fermata ACTV più vicina a un punto (per le fermate del vaporetto di OpenStreetMap nei servizi)
 export function fermataVicina(lat, lon, massimo = 150) {
   let migliore = null;
