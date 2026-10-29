@@ -19,6 +19,7 @@ const CHIAVE_LINGUA = 'lingua';
 // copertine delle città (foto reali); senza foto resta il colore di sfondo
 const COPERTINE = {
   venezia: require('./assets/copertine/venezia.jpg'),
+  verona: require('./assets/copertine/verona.jpg'),
 };
 
 const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
@@ -247,6 +248,8 @@ export default function App() {
               <Text style={styles.creditiTitolo}>Crediti</Text>
               <Text style={styles.creditiTesto}>
                 Copertina di Venezia: Wolfgang Moroder, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Foto originale: https://commons.wikimedia.org/w/index.php?curid=25556194
+
+                Copertina di Verona: K93, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Foto originale: https://commons.wikimedia.org/w/index.php?curid=28269034
               </Text>
             </View>
           </View>
