@@ -205,7 +205,6 @@ export default function App() {
             <View style={styles.card}>
               <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
                 {COPERTINE[item.id] ? <Image source={COPERTINE[item.id]} style={styles.copertina} /> : null}
-                <Text style={styles.immagineNome}>{item.nome}</Text>
               </View>
               <Text style={styles.nomeCitta}>{item.nome}</Text>
               <Text style={styles.motto}>{item.motto || item.provincia}</Text>
