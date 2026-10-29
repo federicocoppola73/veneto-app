@@ -1,4 +1,152 @@
 {
-  "_nota": "Curiosità dell'app (da popolare). Testi in più lingue; collegate ai luoghi con luogo_id.",
-  "curiosita": []
+  "_nota": "Curiosità dell'app. Testi in 5 lingue; ogni voce è collegata a un luogo con luogo_id. Sulla mappa la lampadina compare solo quando la curiosità è selezionata.",
+  "curiosita": [
+    {
+      "id": "la-specola",
+      "luogo_id": "la-specola",
+      "sestiere": "Centro",
+      "latitudine": 45.401834,
+      "longitudine": 11.868364,
+      "titolo": {
+        "it": "Una torre diventata osservatorio",
+        "en": "A tower turned into an observatory",
+        "fr": "Une tour devenue observatoire",
+        "de": "Ein Turm wird zur Sternwarte",
+        "es": "Una torre convertida en observatorio"
+      },
+      "testo": {
+        "it": "La Specola è nata come torre di difesa e per secoli è stata parte del Castello Carrarese. Solo nel Settecento è diventata un osservatorio astronomico, con lavori cominciati nel 1767.",
+        "en": "La Specola began as a defensive tower and for centuries was part of the Carrara Castle. Only in the 18th century did it become an astronomical observatory, with works starting in 1767.",
+        "fr": "La Specola est née comme tour défensive et a longtemps fait partie du château des Carrare. Ce n'est qu'au XVIIIe siècle qu'elle devint un observatoire astronomique, dont les travaux commencèrent en 1767.",
+        "de": "Die Specola entstand als Verteidigungsturm und war jahrhundertelang Teil der Carrara-Burg. Erst im 18. Jahrhundert wurde sie zur astronomischen Sternwarte; die Arbeiten begannen 1767.",
+        "es": "La Specola nació como torre defensiva y durante siglos formó parte del Castillo Carrarese. Solo en el siglo XVIII se convirtió en observatorio astronómico, con obras que comenzaron en 1767."
+      }
+    },
+    {
+      "id": "rifugio-antiaereo-di-palazzo-santo-stefano",
+      "luogo_id": "rifugio-antiaereo-di-palazzo-santo-stefano",
+      "sestiere": "Centro",
+      "latitudine": 45.4058,
+      "longitudine": 11.878,
+      "titolo": {
+        "it": "Rifugi nel chiostro",
+        "en": "Shelters in the cloister",
+        "fr": "Abris dans le cloître",
+        "de": "Schutzräume im Kreuzgang",
+        "es": "Refugios en el claustro"
+      },
+      "testo": {
+        "it": "Nel chiostro di Palazzo Santo Stefano sono stati individuati quattro rifugi costruiti durante la guerra per proteggere gli studenti del vicino Liceo Tito Livio.",
+        "en": "Four shelters were identified in the cloister of Palazzo Santo Stefano, built during the war to protect the students of the nearby Liceo Tito Livio.",
+        "fr": "Quatre abris ont été repérés dans le cloître du Palazzo Santo Stefano, construits pendant la guerre pour protéger les élèves du lycée Tito Livio voisin.",
+        "de": "Im Kreuzgang des Palazzo Santo Stefano wurden vier Schutzräume entdeckt, die während des Krieges die Schüler des nahen Liceo Tito Livio schützen sollten.",
+        "es": "En el claustro del Palazzo Santo Stefano se han identificado cuatro refugios, construidos durante la guerra para proteger a los estudiantes del cercano Liceo Tito Livio."
+      }
+    },
+    {
+      "id": "museo-del-precinema",
+      "luogo_id": "museo-del-precinema",
+      "sestiere": "Centro",
+      "latitudine": 45.397741,
+      "longitudine": 11.8749,
+      "titolo": {
+        "it": "Il cinema prima del cinema",
+        "en": "Cinema before cinema",
+        "fr": "Le cinéma avant le cinéma",
+        "de": "Kino vor dem Kino",
+        "es": "El cine antes del cine"
+      },
+      "testo": {
+        "it": "Tra gli oggetti del museo c'è una lanterna magica del 1790 circa, arrivata dalla Villa Medicea di Poggio a Caiano, con 108 vetrini panoramici su miti greci e romani.",
+        "en": "Among the museum's objects is a magic lantern from around 1790, which came from the Villa Medicea at Poggio a Caiano, with 108 panoramic slides on Greek and Roman myths.",
+        "fr": "Parmi les objets du musée figure une lanterne magique d'environ 1790, provenant de la villa Médicis de Poggio a Caiano, avec 108 plaques panoramiques en verre sur les mythes grecs et romains.",
+        "de": "Unter den Objekten des Museums befindet sich eine Laterna magica von um 1790, aus der Villa Medicea in Poggio a Caiano, mit 108 Panoramadias zu griechischen und römischen Mythen.",
+        "es": "Entre los objetos del museo hay una linterna mágica de hacia 1790, procedente de la Villa Medicea de Poggio a Caiano, con 108 vidrios panorámicos sobre mitos griegos y romanos."
+      }
+    },
+    {
+      "id": "porte-contarine",
+      "luogo_id": "porte-contarine",
+      "sestiere": "Centro",
+      "latitudine": 45.412372,
+      "longitudine": 11.878304,
+      "titolo": {
+        "it": "Il salto d'acqua che accendeva le luci",
+        "en": "The water drop that lit the streets",
+        "fr": "La chute d'eau qui allumait les lampes",
+        "de": "Das Wassergefälle, das Lampen speiste",
+        "es": "El desnivel de agua que encendía las farolas"
+      },
+      "testo": {
+        "it": "Il dislivello d'acqua alle Porte Contarine alimentò i primi lampioni elettrici della città, nel 1900. Accanto, una lapide dell'oratorio dei barcaioli riporta le tariffe di passaggio.",
+        "en": "The drop in water at the Porte Contarine powered the city's first electric street lamps, in 1900. Nearby, a plaque on the bargemen's oratory lists the tolls for passage.",
+        "fr": "Le dénivelé de l'eau aux Porte Contarine alimenta les premiers réverbères électriques de la ville, en 1900. À côté, une plaque de l'oratoire des mariniers indique les tarifs de passage.",
+        "de": "Das Wassergefälle an den Porte Contarine versorgte 1900 die ersten elektrischen Straßenlaternen der Stadt. Daneben nennt eine Tafel am Oratorium der Schiffer die Durchfahrtsgebühren.",
+        "es": "El desnivel de agua de las Porte Contarine alimentó en 1900 las primeras farolas eléctricas de la ciudad. Junto a ellas, una lápida del oratorio de los barqueros indica las tarifas de paso."
+      }
+    },
+    {
+      "id": "cimitero-ebraico-via-wiel",
+      "luogo_id": "cimitero-ebraico-via-wiel",
+      "sestiere": "Centro",
+      "latitudine": 45.412228,
+      "longitudine": 11.869505,
+      "titolo": {
+        "it": "Il cimitero più antico ancora in uso",
+        "en": "The oldest cemetery still in use",
+        "fr": "Le plus ancien cimetière encore utilisé",
+        "de": "Der älteste noch genutzte Friedhof",
+        "es": "El cementerio más antiguo aún en uso"
+      },
+      "testo": {
+        "it": "Tra le tombe del cimitero di via Wiel c'è quella di Meir Katzenellenbogen, nato a Praga nel 1473 e morto a Padova nel 1565, autore dei Responsa. Le tombe si visitano solo con guida.",
+        "en": "Among the graves in Via Wiel is that of Meir Katzenellenbogen, born in Prague in 1473 and died in Padua in 1565, author of the Responsa. The graves can be visited only with a guide.",
+        "fr": "Parmi les tombes de la via Wiel se trouve celle de Meir Katzenellenbogen, né à Prague en 1473 et mort à Padoue en 1565, auteur des Responsa. On ne peut visiter les tombes qu'avec un guide.",
+        "de": "Unter den Gräbern in der Via Wiel befindet sich das von Meir Katzenellenbogen, geboren 1473 in Prag und gestorben 1565 in Padua, Autor der Responsa. Die Gräber können nur mit Führung besucht werden.",
+        "es": "Entre las tumbas de la via Wiel está la de Meir Katzenellenbogen, nacido en Praga en 1473 y fallecido en Padua en 1565, autor de los Responsa. Las tumbas solo se pueden visitar con guía."
+      }
+    },
+    {
+      "id": "ponte-dei-quattro-papi",
+      "luogo_id": "ponte-dei-quattro-papi",
+      "sestiere": "Centro",
+      "latitudine": 45.397741,
+      "longitudine": 11.8749,
+      "titolo": {
+        "it": "Quattro papi e la pioggia",
+        "en": "Four popes and the rain",
+        "fr": "Quatre papes et la pluie",
+        "de": "Vier Päpste und der Regen",
+        "es": "Cuatro papas y la lluvia"
+      },
+      "testo": {
+        "it": "Secondo una lettura popolare e scherzosa, i quattro papi stanno discutendo in dialetto padovano se pioverà.",
+        "en": "According to a popular, playful reading, the four popes are debating in Padua's dialect whether it will rain.",
+        "fr": "Selon une lecture populaire et amusée, les quatre papes discutent en dialecte padouan de la pluie qui va tomber.",
+        "de": "Einer beliebten, augenzwinkernden Deutung zufolge diskutieren die vier Päpste im Paduaner Dialekt, ob es regnen wird.",
+        "es": "Según una lectura popular y jocosa, los cuatro papas debaten en dialecto paduano si lloverá."
+      }
+    },
+    {
+      "id": "tomba-di-antenore",
+      "luogo_id": "tomba-di-antenore",
+      "sestiere": "Centro",
+      "latitudine": 45.405976,
+      "longitudine": 11.878286,
+      "titolo": {
+        "it": "Una tomba romana per un eroe mitico",
+        "en": "A Roman tomb for a mythical hero",
+        "fr": "Une tombe romaine pour un héros mythique",
+        "de": "Ein römisches Grab für einen mythischen Helden",
+        "es": "Una tumba romana para un héroe mítico"
+      },
+      "testo": {
+        "it": "Il monumento funebre, di epoca romana, è attribuito al mitico Antenore, figura della tradizione legata alle origini di Padova.",
+        "en": "This Roman-era funeral monument is attributed to the mythical Antenor, a figure of tradition linked to the origins of Padua.",
+        "fr": "Ce monument funéraire de l'époque romaine est attribué au mythique Anténor, figure de la tradition liée aux origines de Padoue.",
+        "de": "Dieses Grabmal aus römischer Zeit wird dem mythischen Antenor zugeschrieben, einer Gestalt der Überlieferung, die mit den Ursprüngen Paduas verbunden ist.",
+        "es": "Este monumento funerario de época romana se atribuye al mítico Antenor, figura de la tradición vinculada a los orígenes de Padua."
+      }
+    }
+  ]
 }
