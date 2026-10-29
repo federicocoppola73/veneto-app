@@ -137,12 +137,49 @@ def main():
     def id_fermata(sid):
         return aggancio.get(sid) or f'gtfs-{sid}'
 
-    # direzioni per linea: la corsa più lunga per ciascun verso
+    def pos(sid):
+        return stops[sid]['pos'] if sid in stops else None
+
+    def direzioni_route(rid):
+        """Due versi per linea. Nel feed direction_id è sempre 0, quindi il verso si ricava dagli estremi:
+        il verso 0 è la corsa più lunga, il verso 1 la corsa che parte vicino al capolinea di arrivo del verso 0."""
+        ts = [t for t, tr in trips.items() if tr['route_id'] == rid and t in corse]
+        if not ts:
+            return {}, {}
+        ordine = {t: [sid for _, sid, _ in sorted(corse[t])] for t in ts}
+        t0 = max(ts, key=lambda t: len(ordine[t]))
+        f0, l0 = pos(ordine[t0][0]), pos(ordine[t0][-1])
+        rep = {'0': t0}
+        t1 = None
+        if f0 and l0:
+            cand = []
+            for t in ts:
+                f, l = pos(ordine[t][0]), pos(ordine[t][-1])
+                if f and l and distanza(f, l0) < 400 and distanza(l, f0) < 400:
+                    cand.append(t)
+            if cand:
+                t1 = max(cand, key=lambda t: len(ordine[t]))
+                rep['1'] = t1
+        assegna = {}
+        for t in ts:
+            f, l = pos(ordine[t][0]), pos(ordine[t][-1])
+            if not (f and l):
+                continue
+            costi = {'0': distanza(f, f0) + distanza(l, l0) if f0 and l0 else None}
+            if t1:
+                f1, l1 = pos(ordine[t1][0]), pos(ordine[t1][-1])
+                costi['1'] = distanza(f, f1) + distanza(l, l1)
+            validi = [(c, k) for k, c in costi.items() if c is not None]
+            if validi and min(validi)[0] < 1500:
+                assegna[t] = min(validi)[1]
+        return rep, assegna
+
+    # direzioni per linea: due versi per ciascuna linea
     linee_out, fermata_linee = [], defaultdict(list)
     fermate_out = {}
     usate = set()  # fermate usate da linee (id motore)
-    rep_per_linea = {}  # (route, dir) -> (trip_id, seq ids)
     nomi_linee = {}
+    verso_corsa = {}  # trip_id -> '0' o '1'
     for rid in sorted(rotte_vicine, key=lambda r: routes[r].get('route_short_name', r)):
         rt = routes[rid]
         etichetta = rt.get('route_short_name') or rid
@@ -150,11 +187,12 @@ def main():
         nomi_linee[rid] = etichetta
         lid = id_linea(etichetta)
         direzioni = []
+        rep, assegna = direzioni_route(rid)
+        verso_corsa.update(assegna)
         for verso in ('0', '1'):
-            cand = [(t, corse[t]) for t, tr in trips.items() if tr['route_id'] == rid and (tr.get('direction_id') or '0') == verso and t in corse]
-            if not cand:
+            if verso not in rep:
                 continue
-            t_best, seq_best = max(cand, key=lambda c: len(c[1]))
+            seq_best = corse[rep[verso]]
             ids = []
             for _, sid, _ in sorted(seq_best, key=lambda x: x[0]):
                 fid = id_fermata(sid)
@@ -170,9 +208,10 @@ def main():
                 if lid not in fermata_linee[fid]:
                     fermata_linee[fid].append(lid)
             direzioni.append({'direzione': int(verso), 'circolare': False, 'fermate': ids, 'richiesta': []})
-            rep_per_linea[(rid, verso)] = t_best
+        # le linee urbane si mostrano solo con il numero (U02 -> 02)
+        mostra = etichetta[1:] if etichetta.startswith('U') else etichetta
         linee_out.append({
-            'id': lid, 'etichetta': etichetta, 'mezzo': 'tram' if etichetta in TRAM else 'autobus',
+            'id': lid, 'etichetta': mostra, 'mezzo': 'tram' if etichetta in TRAM else 'autobus',
             'colore': '#' + rt['route_color'] if rt.get('route_color') else COLORE_DEFAULT,
             'testo': '#' + rt['route_text_color'] if rt.get('route_text_color') else '#FFFFFF',
             'notturna': False, 'pdf': pdf_linea(etichetta), 'direzioni': direzioni,
@@ -184,7 +223,9 @@ def main():
         tr = trips.get(t)
         if not tr or tr['route_id'] not in nomi_linee:
             continue
-        verso = tr.get('direction_id') or '0'
+        if t not in verso_corsa:
+            continue
+        verso = verso_corsa[t]
         lid = id_linea(nomi_linee[tr['route_id']])
         tipi = {tipo_giorno(d) for d in date_servizio.get(tr['service_id'], [])}
         if not tipi:
