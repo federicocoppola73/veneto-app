@@ -16,6 +16,11 @@ import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
 
+// copertine delle città (foto reali); senza foto resta il colore di sfondo
+const COPERTINE = {
+  venezia: require('./assets/copertine/venezia.jpg'),
+};
+
 const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
 
 // colore di sfondo provvisorio di ogni città (finché non ci sono le foto vere)
@@ -49,6 +54,7 @@ export default function App() {
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const [motorePronto, setMotorePronto] = useState(false);
   const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
+  const [creditiAperti, setCreditiAperti] = useState(false); // pagina crediti
   const t = testi(lingua);
 
   useEffect(() => {
@@ -185,12 +191,18 @@ export default function App() {
         columnWrapperStyle={styles.colonne}
         contentContainerStyle={styles.lista}
         ListHeaderComponent={intestazione}
+        ListFooterComponent={
+          <Pressable onPress={() => setCreditiAperti(true)} style={styles.crediti}>
+            <Text style={styles.testoCrediti}>Crediti</Text>
+          </Pressable>
+        }
         renderItem={({ item }) => {
           const installata = stato.installate.includes(item.id);
           const impegnata = occupata === item.id;
           return (
             <View style={styles.card}>
               <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
+                {COPERTINE[item.id] ? <Image source={COPERTINE[item.id]} style={styles.copertina} /> : null}
                 <Text style={styles.immagineNome}>{item.nome}</Text>
               </View>
               <Text style={styles.nomeCitta}>{item.nome}</Text>
@@ -227,6 +239,19 @@ export default function App() {
           );
         }}
       />
+
+      <Modal visible={creditiAperti} transparent animationType="fade" onRequestClose={() => setCreditiAperti(false)}>
+        <Pressable style={styles.velo} onPress={() => setCreditiAperti(false)}>
+          <View style={styles.menu}>
+            <View style={styles.creditiBox}>
+              <Text style={styles.creditiTitolo}>Crediti</Text>
+              <Text style={styles.creditiTesto}>
+                Copertina di Venezia: Wolfgang Moroder, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Foto originale: https://commons.wikimedia.org/w/index.php?curid=25556194
+              </Text>
+            </View>
+          </View>
+        </Pressable>
+      </Modal>
 
       <Modal visible={linguaAperta} transparent animationType="fade" onRequestClose={() => setLinguaAperta(false)}>
         <Pressable style={styles.velo} onPress={() => setLinguaAperta(false)}>
@@ -286,7 +311,13 @@ const styles = StyleSheet.create({
   // Card città
   card: { width: '47%', marginBottom: 18 },
   immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
+  copertina: { ...StyleSheet.absoluteFillObject, width: '100%', height: '100%' },
   immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
+  crediti: { alignItems: 'center', paddingVertical: 20 },
+  testoCrediti: { color: GRIGIO, fontSize: 14, textDecorationLine: 'underline' },
+  creditiBox: { padding: 20 },
+  creditiTitolo: { color: TESTO, fontSize: 18, fontWeight: '700', marginBottom: 8 },
+  creditiTesto: { color: TESTO, fontSize: 14, lineHeight: 20 },
   nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
   motto: { color: GRIGIO, fontSize: 16, lineHeight: 21, marginTop: 4, minHeight: 42 },
   stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
