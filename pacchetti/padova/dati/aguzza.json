@@ -41,8 +41,7 @@
         "palazzo-moroni",
         "canton-delle-busie",
         "caffe-pedrocchi",
-        "ponte-san-lorenzo",
-        "palazzo-zabarella"
+        "ponte-san-lorenzo"
       ]
     },
     {
@@ -289,20 +288,6 @@
       "da_verificare": false
     },
     {
-      "luogo_id": "palazzo-zabarella",
-      "zona": "Centro storico",
-      "tema": "Architettura",
-      "domanda": {
-        "it": "Individua le aperture al piano terra: quale forma hanno quelle mostrate nella foto del palazzo?"
-      },
-      "risposta": {
-        "it": "Da definire in base alla fotografia selezionata."
-      },
-      "itinerario": "aguzza-la-vista-centro",
-      "foto": null,
-      "da_verificare": true
-    },
-    {
       "luogo_id": "caffe-pedrocchi",
       "zona": "Centro storico",
       "tema": "Colori",
@@ -419,14 +404,14 @@
       "zona": "Piazza dei Signori",
       "tema": "Astronomia",
       "domanda": {
-        "it": "Osservando il quadrante, individua un simbolo zodiacale: quale hai trovato?"
+        "it": "Osserva il quadrante astronomico: quale segno zodiacale manca tra quelli raffigurati?\nA. Il Leone\nB. La Bilancia\nC. I Pesci\nD. Il Capricorno"
       },
       "risposta": {
-        "it": "Dipende dal simbolo individuato; registrare la risposta corretta per la foto utilizzata."
+        "it": "La Bilancia"
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
-      "da_verificare": true
+      "da_verificare": false
     },
     {
       "luogo_id": "ponte-dei-quattro-papi",
