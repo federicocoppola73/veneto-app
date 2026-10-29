@@ -21,6 +21,7 @@ const COPERTINE = {
   venezia: require('./assets/copertine/venezia.jpg'),
   verona: require('./assets/copertine/verona.png'),
   padova: require('./assets/copertine/padova.png'),
+  treviso: require('./assets/copertine/treviso.jpg'),
 };
 
 const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
