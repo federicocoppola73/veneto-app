@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Modal, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Alert, Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export const BLU_LUOGO = '#1d4ed8';
 
@@ -91,7 +91,7 @@ export default function ListaLuoghiSalvati({ luoghi, posizione, t, onAttiva, onI
       )}
 
       <Modal visible={scrivendo} transparent animationType="fade" onRequestClose={() => setScrivendo(false)}>
-        <View style={styles.velo}>
+        <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.velo} keyboardShouldPersistTaps="always">
           <View style={styles.finestra}>
             <TextInput
               value={testo}
@@ -112,7 +112,7 @@ export default function ListaLuoghiSalvati({ luoghi, posizione, t, onAttiva, onI
               </Pressable>
             </View>
           </View>
-        </View>
+        </ScrollView>
       </Modal>
     </View>
   );
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   descrizione: { flex: 1, color: '#0f172a', fontSize: 16, fontWeight: '700' },
   freccia: { color: '#94a3b8', fontSize: 24 },
   cancella: { alignSelf: 'flex-end', color: '#b91c1c', fontSize: 14, fontWeight: '700', paddingVertical: 2 },
-  velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 24 },
+  velo: { flexGrow: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 24 },
   finestra: { backgroundColor: '#fff', borderRadius: 16, padding: 16, gap: 14 },
   campo: { borderWidth: 1, borderColor: '#cbd5e1', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, fontSize: 16, color: '#0f172a' },
   azioniFinestra: { flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'center', gap: 18 },

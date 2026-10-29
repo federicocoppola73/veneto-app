@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { TarghettaLinea } from './FermataVaporetto';
 import { fermateAutobusVicine, fermateVaporettoVicine } from '../vaporetti';
 import { BLU_LUOGO } from './ListaLuoghiSalvati';
@@ -8,9 +8,14 @@ const RAGGIO = 300; // metri
 
 /**
  * Finestrella sulla mappa con un luogo salvato: descrizione, mezzi pubblici entro 300 m e "Portami lì".
- * props: luogo { descrizione, latitudine, longitudine }, t, onChiudi, onPortami
+ * "Portami lì" apre Google Maps con il percorso a piedi, come nelle schede dei servizi.
+ * props: luogo { descrizione, latitudine, longitudine }, t, onChiudi
  */
-export default function SchedaLuogoSalvato({ luogo, t, onChiudi, onPortami }) {
+export default function SchedaLuogoSalvato({ luogo, t, onChiudi }) {
+  const portami = () =>
+    Linking.openURL(
+      `https://www.google.com/maps/dir/?api=1&destination=${luogo.latitudine},${luogo.longitudine}&travelmode=walking`
+    ).catch(() => {});
   const { vaporetti, bus } = useMemo(
     () => ({
       vaporetti: fermateVaporettoVicine(luogo.latitudine, luogo.longitudine, RAGGIO),
@@ -56,8 +61,8 @@ export default function SchedaLuogoSalvato({ luogo, t, onChiudi, onPortami }) {
           ))}
         </ScrollView>
 
-        <Pressable onPress={onPortami} style={({ pressed }) => [styles.portami, pressed && { opacity: 0.85 }]} accessibilityRole="button">
-          <Text style={styles.testoPortami}>{t('ls_portami')}</Text>
+        <Pressable onPress={portami} style={({ pressed }) => [styles.portami, pressed && { opacity: 0.85 }]} accessibilityRole="button">
+          <Text style={styles.testoPortami}>🧭 {t('portamiLi')}</Text>
         </Pressable>
       </View>
     </View>

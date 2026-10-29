@@ -593,10 +593,6 @@ function Schermata({ linguaIniziale }) {
       setSchedaLuogoSalvato(false);
     }
   };
-  const portamiLuogoSalvato = () => {
-    setSchedaLuogoSalvato(false);
-    if (luogoSalvato) mappaRef.current?.centraSu({ x: luogoSalvato.x, y: luogoSalvato.y });
-  };
 
   const puntiMappa = useMemo(
     () =>
@@ -786,7 +782,6 @@ function Schermata({ linguaIniziale }) {
             luogo={luogoSalvato}
             t={t}
             onChiudi={() => setSchedaLuogoSalvato(false)}
-            onPortami={portamiLuogoSalvato}
           />
         ) : null}
         {!itinerario && !soloCuore && !soloVisitati && selezionate.length === 0 && (
