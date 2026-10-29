@@ -12,6 +12,7 @@ import datetime
 import json
 import math
 import os
+import re
 import sys
 from collections import defaultdict
 
@@ -21,6 +22,7 @@ COLORE_DEFAULT = '#bb7b68'
 FESTIVI = {'20261108', '20261208', '20261225', '20261226'}  # feste comandate nel periodo del feed
 URL_AZIENDA = 'https://www.fsbusitalia.it/content/fsbusitalia/it/veneto.html'
 URL_ORARI = 'https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanopd/'
+URL_EXTRA = 'http://fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/extrapd/'
 TRAM = {'SIR1'}  # linee tram nel feed Busitalia
 
 
@@ -33,7 +35,9 @@ def pdf_linea(etichetta):
         return URL_ORARI + f'{etichetta}.pdf'
     if etichetta.startswith('U'):
         return URL_ORARI + f'Linea{etichetta}.pdf'
-    return URL_AZIENDA  # extraurbane: nessun link per linea ancora
+    if re.fullmatch(r'E\d{3}[A-Z]?', etichetta):
+        return URL_EXTRA + f'{etichetta}.pdf'
+    return URL_AZIENDA  # altre linee (A, AT, M, T, SST...): nessun link per linea
 
 
 def leggi(cartella, nome):
