@@ -1,4 +1,181 @@
 {
-  "_nota": "Eventi di Verona: da caricare. Per ora l'elenco è vuoto.",
-  "eventi": []
+  "_nota": "Eventi di Verona: Teatro Filarmonico e altri spazi, da Fondazione Arena (ottobre 2026). Visite guidate e proiezioni escluse.",
+  "eventi": [
+    {
+      "nome": "Amelia al ballo e Jeu de Cartes",
+      "tipo": {
+        "it": "Opera e balletto",
+        "en": "Opera and ballet",
+        "fr": "Opéra et ballet",
+        "de": "Oper und Ballett",
+        "es": "Ópera y ballet"
+      },
+      "inizio": "2026-10-30",
+      "fine": "2026-11-01",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Amelia al ballo di Gian Carlo Menotti e Jeu de Cartes di Igor Stravinsky al Teatro Filarmonico.",
+        "en": "Amelia al ballo by Gian Carlo Menotti and Jeu de Cartes by Igor Stravinsky at the Teatro Filarmonico.",
+        "fr": "Amelia al ballo de Gian Carlo Menotti et Jeu de Cartes d'Igor Stravinsky au Teatro Filarmonico.",
+        "de": "Amelia al ballo von Gian Carlo Menotti und Jeu de Cartes von Igor Strawinsky im Teatro Filarmonico.",
+        "es": "Amelia al ballo de Gian Carlo Menotti y Jeu de Cartes de Ígor Stravinski en el Teatro Filarmonico."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/amelia-al-ballo-jeu-de-cartes/"
+    },
+    {
+      "nome": "Sinfonie n. 4 e 6 - Aspettando Beethoven",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-10-31",
+      "fine": "2026-10-31",
+      "luogo": "Sala Filarmonica",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto con le Sinfonie n. 4 e n. 6 di Beethoven nella Sala Filarmonica.",
+        "en": "Concert with Beethoven's Symphonies no. 4 and no. 6 in the Sala Filarmonica.",
+        "fr": "Concert avec les Symphonies n° 4 et n° 6 de Beethoven dans la Sala Filarmonica.",
+        "de": "Konzert mit Beethovens Sinfonien Nr. 4 und Nr. 6 in der Sala Filarmonica.",
+        "es": "Concierto con las Sinfonías n.º 4 y n.º 6 de Beethoven en la Sala Filarmonica."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/sinfonie-4-6-aspettando-beethoven/"
+    },
+    {
+      "nome": "Brahms Serenata",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-06",
+      "fine": "2026-11-07",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto con musiche di Brahms e Hummel al Teatro Filarmonico.",
+        "en": "Concert with music by Brahms and Hummel at the Teatro Filarmonico.",
+        "fr": "Concert avec des œuvres de Brahms et Hummel au Teatro Filarmonico.",
+        "de": "Konzert mit Werken von Brahms und Hummel im Teatro Filarmonico.",
+        "es": "Concierto con música de Brahms y Hummel en el Teatro Filarmonico."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/brahms-serenata/"
+    },
+    {
+      "nome": "Beethoven, Schubert - Quartetti per archi",
+      "tipo": {
+        "it": "Musica da camera",
+        "en": "Chamber music",
+        "fr": "Musique de chambre",
+        "de": "Kammermusik",
+        "es": "Música de cámara"
+      },
+      "inizio": "2026-11-08",
+      "fine": "2026-11-08",
+      "luogo": "Museo Nicolis",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Quartetti per archi di Beethoven e Schubert al Museo Nicolis.",
+        "en": "String quartets by Beethoven and Schubert at the Museo Nicolis.",
+        "fr": "Quatuors à cordes de Beethoven et Schubert au Museo Nicolis.",
+        "de": "Streichquartette von Beethoven und Schubert im Museo Nicolis.",
+        "es": "Cuartetos de cuerda de Beethoven y Schubert en el Museo Nicolis."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/beethoven-schubert-quartetti-per-archi/"
+    },
+    {
+      "nome": "Sinfonie n. 7 e 8 - Aspettando Beethoven",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-21",
+      "fine": "2026-11-21",
+      "luogo": "Sala Filarmonica",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto con le Sinfonie n. 7 e n. 8 di Beethoven nella Sala Filarmonica.",
+        "en": "Concert with Beethoven's Symphonies no. 7 and no. 8 in the Sala Filarmonica.",
+        "fr": "Concert avec les Symphonies n° 7 et n° 8 de Beethoven dans la Sala Filarmonica.",
+        "de": "Konzert mit Beethovens Sinfonien Nr. 7 und Nr. 8 in der Sala Filarmonica.",
+        "es": "Concierto con las Sinfonías n.º 7 y n.º 8 de Beethoven en la Sala Filarmonica."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/sinfonie-7-8-aspettando-beethoven/"
+    },
+    {
+      "nome": "La Bohème",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-11-22",
+      "fine": "2026-11-29",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Opera di Giacomo Puccini al Teatro Filarmonico.",
+        "en": "Opera by Giacomo Puccini at the Teatro Filarmonico.",
+        "fr": "Opéra de Giacomo Puccini au Teatro Filarmonico.",
+        "de": "Oper von Giacomo Puccini im Teatro Filarmonico.",
+        "es": "Ópera de Giacomo Puccini en el Teatro Filarmonico."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/la-boheme/"
+    },
+    {
+      "nome": "Mozart, Kreutzer - Duo e Settimino",
+      "tipo": {
+        "it": "Musica da camera",
+        "en": "Chamber music",
+        "fr": "Musique de chambre",
+        "de": "Kammermusik",
+        "es": "Música de cámara"
+      },
+      "inizio": "2026-11-29",
+      "fine": "2026-11-29",
+      "luogo": "Museo degli affreschi G.B. Cavalcaselle",
+      "luogoId": "museo-degli-affreschi-g-b-cavalcaselle",
+      "descrizione": {
+        "it": "Duo e Settimino di Mozart e Kreutzer al Museo degli affreschi.",
+        "en": "Duo and Septet by Mozart and Kreutzer at the Museo degli affreschi.",
+        "fr": "Duo et Septuor de Mozart et Kreutzer au Museo degli affreschi.",
+        "de": "Duo und Septett von Mozart und Kreutzer im Museo degli affreschi.",
+        "es": "Dúo y Septeto de Mozart y Kreutzer en el Museo degli affreschi."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/mozart-kreutzer-duo-e-settimino/"
+    },
+    {
+      "nome": "Il Lago dei Cigni",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2026-12-13",
+      "fine": "2026-12-31",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Balletto di Pëtr Il'ič Čajkovskij al Teatro Filarmonico.",
+        "en": "Ballet by Pyotr Ilyich Tchaikovsky at the Teatro Filarmonico.",
+        "fr": "Ballet de Piotr Ilitch Tchaïkovski au Teatro Filarmonico.",
+        "de": "Ballett von Pjotr Iljitsch Tschaikowski im Teatro Filarmonico.",
+        "es": "Ballet de Piotr Ilich Chaikovski en el Teatro Filarmonico."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/il-lago-dei-cigni/"
+    }
+  ]
 }
