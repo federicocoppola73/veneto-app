@@ -86,20 +86,6 @@
       "da_verificare": false
     },
     {
-      "luogo_id": "duomo-di-padova",
-      "zona": "Duomo",
-      "tema": "Architettura",
-      "domanda": {
-        "it": "Come si chiama l'edificio religioso adiacente alla cattedrale, famoso per i suoi affreschi medievali?"
-      },
-      "risposta": {
-        "it": "Battistero della Cattedrale."
-      },
-      "itinerario": null,
-      "foto": null,
-      "da_verificare": false
-    },
-    {
       "luogo_id": "basilica-di-santa-maria-del-carmine",
       "zona": "Carmine",
       "tema": "Osservazione",
@@ -168,20 +154,6 @@
       "itinerario": null,
       "foto": null,
       "da_verificare": false
-    },
-    {
-      "luogo_id": "chiesa-di-san-nicolo",
-      "zona": "Centro storico",
-      "tema": "Osservazione",
-      "domanda": {
-        "it": "Individua il portale d'ingresso: quale forma ha l'arco sopra la porta?"
-      },
-      "risposta": {
-        "it": "Da determinare sulla base della facciata fotografata."
-      },
-      "itinerario": null,
-      "foto": null,
-      "da_verificare": true
     },
     {
       "luogo_id": "musei-civici-agli-eremitani",
@@ -362,20 +334,6 @@
         "it": "Colonne."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
-      "foto": null,
-      "da_verificare": false
-    },
-    {
-      "luogo_id": "ponte-molino",
-      "zona": "Ponte Molino / Centro",
-      "tema": "Geografia",
-      "domanda": {
-        "it": "Quale fiume attraversa il ponte?"
-      },
-      "risposta": {
-        "it": "Il Bacchiglione."
-      },
-      "itinerario": null,
       "foto": null,
       "da_verificare": false
     },
