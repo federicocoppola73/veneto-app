@@ -68,6 +68,28 @@
       "link": "https://www.songkick.com/concerts/43058449-mrrain-at-gran-teatro-geox"
     },
     {
+      "nome": "Michele Bravi",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-03",
+      "fine": "2026-11-03",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Michele Bravi al Gran Teatro Geox.",
+        "en": "Concert by Michele Bravi at the Gran Teatro Geox.",
+        "fr": "Concert de Michele Bravi au Gran Teatro Geox.",
+        "de": "Konzert von Michele Bravi im Gran Teatro Geox.",
+        "es": "Concierto de Michele Bravi en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
       "nome": "Fabio Concato",
       "tipo": {
         "it": "Concerto",
@@ -90,6 +112,116 @@
       "link": "https://songkick.com/concerts/43145339-fabio-concato-at-gran-teatro-geox"
     },
     {
+      "nome": "Francesco Renga",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-06",
+      "fine": "2026-11-06",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Francesco Renga al Gran Teatro Geox.",
+        "en": "Concert by Francesco Renga at the Gran Teatro Geox.",
+        "fr": "Concert de Francesco Renga au Gran Teatro Geox.",
+        "de": "Konzert von Francesco Renga im Gran Teatro Geox.",
+        "es": "Concierto de Francesco Renga en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Mario Biondi",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-09",
+      "fine": "2026-11-09",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Mario Biondi al Gran Teatro Geox.",
+        "en": "Concert by Mario Biondi at the Gran Teatro Geox.",
+        "fr": "Concert de Mario Biondi au Gran Teatro Geox.",
+        "de": "Konzert von Mario Biondi im Gran Teatro Geox.",
+        "es": "Concierto de Mario Biondi en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Blue",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-12",
+      "fine": "2026-11-12",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Blue al Gran Teatro Geox.",
+        "en": "Concert by Blue at the Gran Teatro Geox.",
+        "fr": "Concert de Blue au Gran Teatro Geox.",
+        "de": "Konzert von Blue im Gran Teatro Geox.",
+        "es": "Concierto de Blue en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Formula 3",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-13",
+      "fine": "2026-11-13",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Formula 3 al Gran Teatro Geox.",
+        "en": "Concert by Formula 3 at the Gran Teatro Geox.",
+        "fr": "Concert de Formula 3 au Gran Teatro Geox.",
+        "de": "Konzert von Formula 3 im Gran Teatro Geox.",
+        "es": "Concierto de Formula 3 en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "22Simba",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-20",
+      "fine": "2026-11-20",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di 22Simba al Gran Teatro Geox.",
+        "en": "Concert by 22Simba at the Gran Teatro Geox.",
+        "fr": "Concert de 22Simba au Gran Teatro Geox.",
+        "de": "Konzert von 22Simba im Gran Teatro Geox.",
+        "es": "Concierto de 22Simba en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
       "nome": "Pagliacci",
       "tipo": {
         "it": "Opera",
@@ -110,6 +242,94 @@
         "es": "Ópera de Leoncavallo, parte de la temporada lírica 2026 del Teatro Verdi."
       },
       "link": "https://www.turismopadova.it/en/events/padua-opera-season-2/"
+    },
+    {
+      "nome": "Hans Zimmer Tribute by Ensemble Symphony Orchestra",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-21",
+      "fine": "2026-11-21",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Hans Zimmer Tribute by Ensemble Symphony Orchestra al Gran Teatro Geox.",
+        "en": "Concert by Hans Zimmer Tribute by Ensemble Symphony Orchestra at the Gran Teatro Geox.",
+        "fr": "Concert de Hans Zimmer Tribute by Ensemble Symphony Orchestra au Gran Teatro Geox.",
+        "de": "Konzert von Hans Zimmer Tribute by Ensemble Symphony Orchestra im Gran Teatro Geox.",
+        "es": "Concierto de Hans Zimmer Tribute by Ensemble Symphony Orchestra en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Malika Ayane",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-24",
+      "fine": "2026-11-24",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Malika Ayane al Gran Teatro Geox.",
+        "en": "Concert by Malika Ayane at the Gran Teatro Geox.",
+        "fr": "Concert de Malika Ayane au Gran Teatro Geox.",
+        "de": "Konzert von Malika Ayane im Gran Teatro Geox.",
+        "es": "Concierto de Malika Ayane en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Francesca Michielin",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-25",
+      "fine": "2026-11-25",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Francesca Michielin al Gran Teatro Geox.",
+        "en": "Concert by Francesca Michielin at the Gran Teatro Geox.",
+        "fr": "Concert de Francesca Michielin au Gran Teatro Geox.",
+        "de": "Konzert von Francesca Michielin im Gran Teatro Geox.",
+        "es": "Concierto de Francesca Michielin en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Madame",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-08",
+      "fine": "2026-12-08",
+      "luogo": "Gran Teatro Geox",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Madame al Gran Teatro Geox.",
+        "en": "Concert by Madame at the Gran Teatro Geox.",
+        "fr": "Concert de Madame au Gran Teatro Geox.",
+        "de": "Konzert von Madame im Gran Teatro Geox.",
+        "es": "Concierto de Madame en el Gran Teatro Geox."
+      },
+      "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
     },
     {
       "nome": "Arisa",
