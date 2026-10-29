@@ -20,6 +20,20 @@ AGGANCIO_M = 60
 COLORE_DEFAULT = '#bb7b68'
 FESTIVI = {'20261108', '20261208', '20261225', '20261226'}  # feste comandate nel periodo del feed
 URL_AZIENDA = 'https://www.fsbusitalia.it/content/fsbusitalia/it/veneto.html'
+URL_ORARI = 'https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanopd/'
+TRAM = {'SIR1'}  # linee tram nel feed Busitalia
+
+
+def id_linea(etichetta):
+    return f'TRAM-{etichetta}' if etichetta in TRAM else f'AUT-{etichetta}'
+
+
+def pdf_linea(etichetta):
+    if etichetta in TRAM:
+        return URL_ORARI + f'{etichetta}.pdf'
+    if etichetta.startswith('U'):
+        return URL_ORARI + f'Linea{etichetta}.pdf'
+    return URL_AZIENDA  # extraurbane: nessun link per linea ancora
 
 
 def leggi(cartella, nome):
@@ -126,7 +140,7 @@ def main():
         etichetta = rt.get('route_short_name') or rid
         etichetta = etichetta if etichetta not in nomi_linee.values() else f'{etichetta}-{rid}'
         nomi_linee[rid] = etichetta
-        lid = f'AUT-{etichetta}'
+        lid = id_linea(etichetta)
         direzioni = []
         for verso in ('0', '1'):
             cand = [(t, corse[t]) for t, tr in trips.items() if tr['route_id'] == rid and (tr.get('direction_id') or '0') == verso and t in corse]
@@ -150,10 +164,10 @@ def main():
             direzioni.append({'direzione': int(verso), 'circolare': False, 'fermate': ids, 'richiesta': []})
             rep_per_linea[(rid, verso)] = t_best
         linee_out.append({
-            'id': lid, 'etichetta': etichetta, 'mezzo': 'autobus',
+            'id': lid, 'etichetta': etichetta, 'mezzo': 'tram' if etichetta in TRAM else 'autobus',
             'colore': '#' + rt['route_color'] if rt.get('route_color') else COLORE_DEFAULT,
             'testo': '#' + rt['route_text_color'] if rt.get('route_text_color') else '#FFFFFF',
-            'notturna': False, 'pdf': URL_AZIENDA, 'direzioni': direzioni,
+            'notturna': False, 'pdf': pdf_linea(etichetta), 'direzioni': direzioni,
         })
 
     # orari: per fermata usata, linea, verso e tipo di giorno
@@ -163,7 +177,7 @@ def main():
         if not tr or tr['route_id'] not in nomi_linee:
             continue
         verso = tr.get('direction_id') or '0'
-        lid = f"AUT-{nomi_linee[tr['route_id']]}"
+        lid = id_linea(nomi_linee[tr['route_id']])
         tipi = {tipo_giorno(d) for d in date_servizio.get(tr['service_id'], [])}
         if not tipi:
             continue
