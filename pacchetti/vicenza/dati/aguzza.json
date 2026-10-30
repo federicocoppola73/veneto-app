@@ -354,6 +354,25 @@
       }
     },
     {
+      "luogo_id": "duomo-cattedrale-di-santa-maria-annunciata",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quali colori di marmo caratterizzano la facciata gotica?",
+        "en": "Which marble colours characterise the Gothic façade?",
+        "fr": "Quelles couleurs de marbre caractérisent la façade gothique ?",
+        "de": "Welche Marmorfarben prägen die gotische Fassade?",
+        "es": "¿Qué colores de mármol caracterizan la fachada gótica?"
+      },
+      "risposta": {
+        "it": "Bianco e rosso, disposti in fasce e decorazioni policrome.",
+        "en": "White and red, arranged in bands and polychrome decorations.",
+        "fr": "Blanc et rouge, disposés en bandes et en décors polychromes.",
+        "de": "Weiß und Rot, in Streifen angeordnet und mehrfarbig verziert.",
+        "es": "Blanco y rojo, dispuestos en franjas y decoraciones policromas."
+      }
+    },
+    {
       "luogo_id": "piazza-dei-signori",
       "zona": "Centro",
       "tema": "Dettaglio",
