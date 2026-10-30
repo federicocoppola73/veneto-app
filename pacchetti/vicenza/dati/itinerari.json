@@ -2,13 +2,13 @@
   "_nota": "Vicenza: itinerari consigliati. Lunghezza stimata (linea d'aria tra le tappe × 1,3); i percorsi lungo le strade si calcolano quando sarà pronta la rete pedonale.",
   "itinerari": [
     {
-      "id": "palladio",
+      "id": "palladio-classico",
       "titolo": {
-        "it": "Palladio",
-        "en": "Palladio",
-        "fr": "Palladio",
-        "de": "Palladio",
-        "es": "Palladio"
+        "it": "Palladio classico",
+        "en": "Classic Palladio",
+        "fr": "Palladio classique",
+        "de": "Klassisches Palladio",
+        "es": "Palladio clásico"
       },
       "tappe": [
         "basilica-palladiana",
@@ -22,6 +22,27 @@
         "palazzo-porto-breganze"
       ],
       "metri": 1681
+    },
+    {
+      "id": "palladio-nascosto",
+      "titolo": {
+        "it": "Palladio nascosto",
+        "en": "Hidden Palladio",
+        "fr": "Palladio caché",
+        "de": "Verborgenes Palladio",
+        "es": "Palladio escondido"
+      },
+      "tappe": [
+        "arco-delle-scalette",
+        "palazzo-civena-trissino",
+        "palazzo-iseppo-da-porto",
+        "palazzo-da-monte-migliorini",
+        "palazzo-capra",
+        "chiesa-di-santa-maria-nova",
+        "loggia-valmarana",
+        "casa-garzadori-bortolan"
+      ],
+      "metri": 4612
     }
   ]
 }
