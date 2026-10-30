@@ -49,6 +49,7 @@ import { immagine } from './src/risorse';
 import { datiProxy } from './src/dati';
 
 const MAPPA = datiProxy('mappa.json'); // immagine della mappa della città attiva
+const DATI_TESSERE = datiProxy('tessere.json'); // tessere dettagliate del pacchetto (se presenti)
 const ALTEZZA_BARRA_STATO = Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44;
 // All'avvio la mappa è centrata sul centro storico (tra Rialto e San Marco)
 // luoghi principali: il loro nome compare sulla mappa prima degli altri (principali.json)
@@ -109,6 +110,17 @@ function Schermata({ linguaIniziale }) {
   const mappaRef = useRef(null);
   const t = useMemo(() => traduttore(lingua), [lingua]);
   const immagineMappa = useMemo(() => immagine(MAPPA.immagine || 'mappa-venezia.webp'), []);
+  // tessere dettagliate: Venezia le ha nel codice, le altre città le leggono dal pacchetto (tessere.json)
+  const tessereCitta = useMemo(() => {
+    if (nomeCitta() === 'Venezia') return TESSERE;
+    if (!DATI_TESSERE.livelli) return undefined;
+    const out = {};
+    for (const [livello, chiavi] of Object.entries(DATI_TESSERE.livelli)) {
+      out[livello] = {};
+      for (const k of chiavi) out[livello][k] = immagine(`mappa/${livello}/${k}.webp`);
+    }
+    return out;
+  }, []);
   const posizione = usePosizione();
   const { luoghi: luoghiSalvati, aggiungi: aggiungiLuogo, cancella: cancellaLuogo } = useLuoghiSalvati(nomeCitta()); // 📍 Salvati
   const [luogoSalvato, setLuogoSalvato] = useState(null); // luogo salvato selezionato, con la sua posizione sulla mappa
@@ -774,7 +786,7 @@ function Schermata({ linguaIniziale }) {
               {pulsantePosizione}
             </>
           }
-          tessere={nomeCitta() === 'Venezia' ? TESSERE : undefined}
+          tessere={tessereCitta}
           dimensioneTessera={DIMENSIONE_TESSERA}
         />
         {schedaLuogoSalvato && luogoSalvato ? (
