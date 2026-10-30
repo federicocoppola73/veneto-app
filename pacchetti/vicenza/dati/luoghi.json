@@ -913,7 +913,24 @@
         "de": "Eintritt: Vollpreis 5 €, ermäßigt 3,50 €, Schulen 1 € (IAT, Datum nicht angegeben).\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Entradas: general 5 €, reducida 3,50 €, escolares 1 € (IAT, fecha no indicada).\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "sito": "https://www.museodiocesanovicenza.it"
+      "sito": "https://www.museodiocesanovicenza.it",
+      "immagine": {
+        "autore": "Krzysztof Golik",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Diocesan_Museum_in_Vicenza_(1).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Zairon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Museo_Diocesano_Gioiello_di_Vicenza_10.jpg"
+        },
+        {
+          "autore": "Zairon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Museo_Diocesano_Gioiello_di_Vicenza_11.jpg"
+        }
+      ]
     },
     {
       "id": "museo-del-gioiello",
