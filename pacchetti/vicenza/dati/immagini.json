@@ -1,6 +1,14 @@
 {
  "_nota": "Generato da strumenti/prepara_pacchetto.py: foto presenti in assets/",
- "luoghi": {},
+ "luoghi": {
+  "basilica-palladiana": 3,
+  "corso-palladio": 3,
+  "loggia-del-capitaniato": 3,
+  "palazzo-chiericati-museo-civico": 3,
+  "piazza-dei-signori": 3,
+  "santuario-di-monte-berico": 3,
+  "tempio-di-santa-corona": 0
+ },
  "cibi": [
   "asparago-bianco-bassano",
   "baccala-alla-vicentina",
