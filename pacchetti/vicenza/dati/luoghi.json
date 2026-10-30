@@ -738,7 +738,7 @@
    "id": "stazione",
    "nome": "Stazione",
    "categoria": "altri",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.5416,
    "longitudine": 11.54078,
    "descrizione": {
@@ -894,7 +894,7 @@
    "id": "ponte-san-michele",
    "nome": "Ponte San Michele",
    "categoria": "ponti",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.545761,
    "longitudine": 11.548331,
    "descrizione": {
@@ -920,7 +920,7 @@
    "id": "ponte-furo",
    "nome": "Ponte Furo",
    "categoria": "ponti",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.543362,
    "longitudine": 11.546844,
    "descrizione": {
@@ -946,7 +946,7 @@
    "id": "ponte-pusterla",
    "nome": "Ponte Pusterla",
    "categoria": "ponti",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.550795,
    "longitudine": 11.544628,
    "descrizione": {
@@ -972,7 +972,7 @@
    "id": "ca-doro-palazzo-da-schio",
    "nome": "Ca' d'Oro – Palazzo da Schio",
    "categoria": "palazzi",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.548558,
    "longitudine": 11.546664,
    "descrizione": {
@@ -995,7 +995,7 @@
    "id": "criptoportico-romano",
    "nome": "Criptoportico romano",
    "categoria": "altri",
-   "sestiere": "",
+   "sestiere": "Centro",
    "latitudine": 45.545586,
    "longitudine": 11.544201,
    "descrizione": {
