@@ -1,5 +1,661 @@
 {
- "_nota": "Vicenza: domande Aguzza la vista ancora da preparare.",
- "itinerari": [],
- "domande": []
+  "_nota": "Vicenza: domande 'Aguzza la vista' dal foglio info_vicenza (colonna foto esclusa). Traduzioni in quattro lingue.",
+  "itinerari": [
+    {
+      "id": "aguzza-cuore-monumentale",
+      "titolo": {
+        "it": "Aguzza la vista – Il cuore monumentale",
+        "en": "Look closer – The monumental heart",
+        "fr": "Ouvrez l'œil – Le cœur monumental",
+        "de": "Genau hinsehen – Das monumentale Herz",
+        "es": "Agudiza la vista – El corazón monumental"
+      },
+      "tappe": [
+        "basilica-palladiana",
+        "piazza-dei-signori",
+        "loggia-del-capitaniato",
+        "teatro-olimpico",
+        "palazzo-chiericati-museo-civico",
+        "palazzo-valmarana-braga",
+        "palladio-museum",
+        "gallerie-d-italia-palazzo-leoni-montanari",
+        "gallerie-di-palazzo-thiene",
+        "duomo-cattedrale-di-santa-maria-annunciata"
+      ]
+    },
+    {
+      "id": "aguzza-vicenza-da-scoprire",
+      "titolo": {
+        "it": "Aguzza la vista – Vicenza da scoprire",
+        "en": "Look closer – Vicenza to discover",
+        "fr": "Ouvrez l'œil – Vicence à découvrir",
+        "de": "Genau hinsehen – Vicenza entdecken",
+        "es": "Agudiza la vista – Vicenza por descubrir"
+      },
+      "tappe": [
+        "tempio-di-santa-corona",
+        "tempio-di-san-lorenzo",
+        "chiesa-di-santo-stefano",
+        "chiesa-di-santa-maria-in-araceli",
+        "torre-del-tormento",
+        "torrione-di-porta-castello",
+        "ponte-san-michele",
+        "ponte-furo",
+        "ponte-pusterla",
+        "parco-querini",
+        "giardini-salvi",
+        "porton-del-luzo"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "luogo_id": "basilica-palladiana",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale tipo di apertura si ripete lungo le logge della Basilica?",
+        "en": "Which type of opening repeats along the Basilica's loggias?",
+        "fr": "Quel type d'ouverture se répète le long des loggias de la Basilique ?",
+        "de": "Welche Öffnungsform wiederholt sich entlang der Logen der Basilika?",
+        "es": "¿Qué tipo de abertura se repite a lo largo de las logias de la Basílica?"
+      },
+      "risposta": {
+        "it": "La serliana, composta da un arco centrale e due aperture laterali architravate.",
+        "en": "The Serlian window, made of a central arch and two lintelled side openings.",
+        "fr": "La serlienne, composée d'un arc central et de deux ouvertures latérales à linteau.",
+        "de": "Die serlianische Öffnung, aus einem zentralen Bogen und zwei seitlichen Öffnungen mit Architrav.",
+        "es": "La serliana, formada por un arco central y dos aberturas laterales adinteladas."
+      }
+    },
+    {
+      "luogo_id": "piazza-dei-signori",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma ha la parte terminale della torre, sopra il corpo principale?",
+        "en": "What shape is the top of the tower, above the main body?",
+        "fr": "Quelle forme a la partie terminale de la tour, au-dessus du corps principal ?",
+        "de": "Welche Form hat der obere Abschluss des Turms über dem Hauptkörper?",
+        "es": "¿Qué forma tiene la parte final de la torre, sobre el cuerpo principal?"
+      },
+      "risposta": {
+        "it": "Ottagonale.",
+        "en": "Octagonal.",
+        "fr": "Octogonale.",
+        "de": "Achteckig.",
+        "es": "Octogonal."
+      }
+    },
+    {
+      "luogo_id": "piazza-dei-signori",
+      "zona": "Centro",
+      "tema": "Simboli",
+      "domanda": {
+        "it": "Quali due figure coronano le colonne monumentali della piazza?",
+        "en": "Which two figures crown the monumental columns of the square?",
+        "fr": "Quelles deux figures couronnent les colonnes monumentales de la place ?",
+        "de": "Welche zwei Figuren krönen die monumentalen Säulen des Platzes?",
+        "es": "¿Qué dos figuras coronan las columnas monumentales de la plaza?"
+      },
+      "risposta": {
+        "it": "Il Leone di San Marco e il Redentore.",
+        "en": "The Lion of Saint Mark and the Redeemer.",
+        "fr": "Le Lion de Saint-Marc et le Christ Rédempteur.",
+        "de": "Der Markuslöwe und der Erlöser.",
+        "es": "El León de San Marcos y el Redentor."
+      }
+    },
+    {
+      "luogo_id": "loggia-del-capitaniato",
+      "zona": "Centro",
+      "tema": "Materiali",
+      "domanda": {
+        "it": "Quale materiale e colore caratterizzano la facciata?",
+        "en": "What material and colour characterise the façade?",
+        "fr": "Quel matériau et quelle couleur caractérisent la façade ?",
+        "de": "Welches Material und welche Farbe prägen die Fassade?",
+        "es": "¿Qué material y color caracterizan la fachada?"
+      },
+      "risposta": {
+        "it": "Il laterizio rosso lasciato a vista.",
+        "en": "Exposed red brick.",
+        "fr": "La brique rouge laissée apparente.",
+        "de": "Roter Ziegel, der sichtbar belassen wurde.",
+        "es": "El ladrillo rojo dejado a la vista."
+      }
+    },
+    {
+      "luogo_id": "teatro-olimpico",
+      "zona": "Centro",
+      "tema": "Scenografia",
+      "domanda": {
+        "it": "Quante strade prospettiche si aprono dietro il proscenio?",
+        "en": "How many perspective streets open behind the proscenium?",
+        "fr": "Combien de rues en perspective s'ouvrent derrière le proscenium ?",
+        "de": "Wie viele perspektivische Straßen öffnen sich hinter dem Proszenium?",
+        "es": "¿Cuántas calles en perspectiva se abren detrás del proscenio?"
+      },
+      "risposta": {
+        "it": "Sette, raffiguranti le vie di Tebe.",
+        "en": "Seven, representing the streets of Thebes.",
+        "fr": "Sept, représentant les rues de Thèbes.",
+        "de": "Sieben, die Straßen Thebens darstellend.",
+        "es": "Siete, que representan las calles de Tebas."
+      }
+    },
+    {
+      "luogo_id": "teatro-olimpico",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quanti gradoni di legno compongono la cavea?",
+        "en": "How many wooden tiers make up the cavea?",
+        "fr": "Combien de gradins en bois composent la cavea ?",
+        "de": "Aus wie vielen Holzstufen besteht die Cavea?",
+        "es": "¿Cuántas gradas de madera componen la cávea?"
+      },
+      "risposta": {
+        "it": "Tredici.",
+        "en": "Thirteen.",
+        "fr": "Treize.",
+        "de": "Dreizehn.",
+        "es": "Trece."
+      }
+    },
+    {
+      "luogo_id": "teatro-olimpico",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Come si chiama la grande apertura arcuata al centro del proscenio?",
+        "en": "What is the large arched opening at the centre of the proscenium called?",
+        "fr": "Comment s'appelle la grande ouverture en arc au centre du proscenium ?",
+        "de": "Wie heißt die große Bogenöffnung in der Mitte des Proszeniums?",
+        "es": "¿Cómo se llama la gran abertura en arco en el centro del proscenio?"
+      },
+      "risposta": {
+        "it": "Porta Regia.",
+        "en": "Porta Regia.",
+        "fr": "Porta Regia.",
+        "de": "Porta Regia.",
+        "es": "Porta Regia."
+      }
+    },
+    {
+      "luogo_id": "palazzo-chiericati-museo-civico",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale elemento caratterizza i due livelli principali della facciata?",
+        "en": "Which element characterises the two main levels of the façade?",
+        "fr": "Quel élément caractérise les deux niveaux principaux de la façade ?",
+        "de": "Welches Element prägt die beiden Hauptgeschosse der Fassade?",
+        "es": "¿Qué elemento caracteriza los dos niveles principales de la fachada?"
+      },
+      "risposta": {
+        "it": "Le logge aperte, con colonne e portici.",
+        "en": "The open loggias, with columns and porticoes.",
+        "fr": "Les loggias ouvertes, avec colonnes et portiques.",
+        "de": "Die offenen Logien mit Säulen und Arkaden.",
+        "es": "Las logias abiertas, con columnas y pórticos."
+      }
+    },
+    {
+      "luogo_id": "palazzo-valmarana-braga",
+      "zona": "Centro",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Quali figure si trovano alle due estremità superiori della facciata?",
+        "en": "Which figures stand at the two upper ends of the façade?",
+        "fr": "Quelles figures se trouvent aux deux extrémités supérieures de la façade ?",
+        "de": "Welche Figuren stehen an den beiden oberen Enden der Fassade?",
+        "es": "¿Qué figuras se encuentran en los dos extremos superiores de la fachada?"
+      },
+      "risposta": {
+        "it": "Due soldati romani con le insegne della famiglia Valmarana.",
+        "en": "Two Roman soldiers bearing the insignia of the Valmarana family.",
+        "fr": "Deux soldats romains portant les insignes de la famille Valmarana.",
+        "de": "Zwei römische Soldaten mit den Wappenzeichen der Familie Valmarana.",
+        "es": "Dos soldados romanos con las insignias de la familia Valmarana."
+      }
+    },
+    {
+      "luogo_id": "palladio-museum",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Il portale principale è collocato al centro della facciata?",
+        "en": "Is the main portal placed at the centre of the façade?",
+        "fr": "Le portail principal est-il placé au centre de la façade ?",
+        "de": "Ist das Hauptportal in der Mitte der Fassade platziert?",
+        "es": "¿Está el portal principal colocado en el centro de la fachada?"
+      },
+      "risposta": {
+        "it": "No, è decentrato rispetto all'asse della facciata.",
+        "en": "No, it is off-centre with respect to the façade's axis.",
+        "fr": "Non, il est décentré par rapport à l'axe de la façade.",
+        "de": "Nein, es ist gegenüber der Achse der Fassade verschoben.",
+        "es": "No, está descentrado respecto al eje de la fachada."
+      }
+    },
+    {
+      "luogo_id": "palladio-museum",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale elemento del palazzo permette di riconoscere l'ingresso principale?",
+        "en": "Which element of the palace helps you recognise the main entrance?",
+        "fr": "Quel élément du palais permet de reconnaître l'entrée principale ?",
+        "de": "Woran erkennt man den Haupteingang des Palastes?",
+        "es": "¿Qué elemento del palacio permite reconocer la entrada principal?"
+      },
+      "risposta": {
+        "it": "Il portale d'ingresso, collocato in posizione decentrata rispetto alla facciata.",
+        "en": "The entrance portal, placed off-centre with respect to the façade.",
+        "fr": "Le portail d'entrée, placé en position décentrée par rapport à la façade.",
+        "de": "Am Eingangsportal, das gegenüber der Fassade seitlich versetzt liegt.",
+        "es": "El portal de entrada, colocado en posición descentrada respecto a la fachada."
+      }
+    },
+    {
+      "luogo_id": "gallerie-d-italia-palazzo-leoni-montanari",
+      "zona": "Centro",
+      "tema": "Arte",
+      "domanda": {
+        "it": "Quale importante raccolta di opere è custodita nel palazzo?",
+        "en": "Which important collection of works is kept in the palace?",
+        "fr": "Quelle importante collection d'œuvres est conservée dans le palais ?",
+        "de": "Welche bedeutende Sammlung wird im Palast aufbewahrt?",
+        "es": "¿Qué importante colección de obras se conserva en el palacio?"
+      },
+      "risposta": {
+        "it": "La collezione di icone russe.",
+        "en": "The collection of Russian icons.",
+        "fr": "La collection d'icônes russes.",
+        "de": "Die Sammlung russischer Ikonen.",
+        "es": "La colección de iconos rusos."
+      }
+    },
+    {
+      "luogo_id": "gallerie-d-italia-palazzo-leoni-montanari",
+      "zona": "Centro",
+      "tema": "Arte",
+      "domanda": {
+        "it": "Quale tipologia di opere costituisce una delle raccolte più caratteristiche del palazzo?",
+        "en": "Which type of works makes up one of the palace's most distinctive collections?",
+        "fr": "Quel type d'œuvres constitue l'une des collections les plus caractéristiques du palais ?",
+        "de": "Welche Art von Werken bildet eine der charakteristischsten Sammlungen des Palastes?",
+        "es": "¿Qué tipo de obras forma una de las colecciones más características del palacio?"
+      },
+      "risposta": {
+        "it": "Le icone russe.",
+        "en": "Russian icons.",
+        "fr": "Les icônes russes.",
+        "de": "Russische Ikonen.",
+        "es": "Los iconos rusos."
+      }
+    },
+    {
+      "luogo_id": "gallerie-di-palazzo-thiene",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale lavorazione della pietra caratterizza il rivestimento del piano terreno?",
+        "en": "Which stone treatment characterises the cladding of the ground floor?",
+        "fr": "Quel traitement de la pierre caractérise le revêtement du rez-de-chaussée ?",
+        "de": "Welche Steinbearbeitung prägt die Verkleidung des Erdgeschosses?",
+        "es": "¿Qué tratamiento de la piedra caracteriza el revestimiento de la planta baja?"
+      },
+      "risposta": {
+        "it": "Il bugnato.",
+        "en": "Rustication (bugnato).",
+        "fr": "Le bossage (bugnato).",
+        "de": "Die Bossenquaderung (Bugnato).",
+        "es": "El almohadillado (bugnato)."
+      }
+    },
+    {
+      "luogo_id": "gallerie-di-palazzo-thiene",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale materiale e colore caratterizzano le parti in bugnato della facciata?",
+        "en": "Which material and colour characterise the rusticated parts of the façade?",
+        "fr": "Quel matériau et quelle couleur caractérisent les parties en bossage de la façade ?",
+        "de": "Welches Material und welche Farbe prägen die Bossenquader der Fassade?",
+        "es": "¿Qué material y color caracterizan las partes almohadilladas de la fachada?"
+      },
+      "risposta": {
+        "it": "La pietra chiara, lavorata a bugnato.",
+        "en": "Light stone, worked in rustication.",
+        "fr": "La pierre claire, travaillée en bossage.",
+        "de": "Heller Stein, im Bossenquader bearbeitet.",
+        "es": "Piedra clara, trabajada en almohadillado."
+      }
+    },
+    {
+      "luogo_id": "duomo-cattedrale-di-santa-maria-annunciata",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quali due colori di pietra si alternano nella decorazione della facciata?",
+        "en": "Which two colours of stone alternate in the decoration of the façade?",
+        "fr": "Quelles deux couleurs de pierre alternent dans le décor de la façade ?",
+        "de": "Welche zwei Steinfarben wechseln sich in der Fassadengestaltung ab?",
+        "es": "¿Qué dos colores de piedra se alternan en la decoración de la fachada?"
+      },
+      "risposta": {
+        "it": "Bianco e rosso.",
+        "en": "White and red.",
+        "fr": "Blanc et rouge.",
+        "de": "Weiß und Rot.",
+        "es": "Blanco y rojo."
+      }
+    },
+    {
+      "luogo_id": "piazza-dei-signori",
+      "zona": "Centro",
+      "tema": "Dettaglio",
+      "domanda": {
+        "it": "Quale elemento circolare si può individuare sul quadrante dell'orologio della torre?",
+        "en": "Which circular element can be seen on the tower's clock face?",
+        "fr": "Quel élément circulaire peut-on repérer sur le cadran de l'horloge de la tour ?",
+        "de": "Welches runde Element erkennt man auf dem Zifferblatt der Turmuhr?",
+        "es": "¿Qué elemento circular se puede identificar en la esfera del reloj de la torre?"
+      },
+      "risposta": {
+        "it": "Il quadrante dell'orologio con le indicazioni delle ore.",
+        "en": "The clock dial showing the hours.",
+        "fr": "Le cadran de l'horloge avec les indications des heures.",
+        "de": "Das Zifferblatt der Uhr mit den Stundenangaben.",
+        "es": "La esfera del reloj con las indicaciones de las horas."
+      }
+    },
+    {
+      "luogo_id": "tempio-di-santa-corona",
+      "zona": "Centro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "In quale punto della chiesa si trova il Battesimo di Cristo di Giovanni Bellini?",
+        "en": "Where in the church is Giovanni Bellini's Baptism of Christ?",
+        "fr": "À quel endroit de l'église se trouve le Baptême du Christ de Giovanni Bellini ?",
+        "de": "An welcher Stelle der Kirche befindet sich Giovanni Bellinis Taufe Christi?",
+        "es": "¿En qué punto de la iglesia se encuentra el Bautismo de Cristo de Giovanni Bellini?"
+      },
+      "risposta": {
+        "it": "Al quinto altare della navata sinistra, detto altare Garzadori.",
+        "en": "At the fifth altar of the left nave, known as the Garzadori altar.",
+        "fr": "Au cinquième autel de la nef gauche, dit autel Garzadori.",
+        "de": "Am fünften Altar des linken Seitenschiffs, dem sogenannten Garzadori-Altar.",
+        "es": "En el quinto altar de la nave izquierda, llamado altar Garzadori."
+      }
+    },
+    {
+      "luogo_id": "tempio-di-santa-corona",
+      "zona": "Centro",
+      "tema": "Pittura",
+      "domanda": {
+        "it": "Chi ha dipinto l'Adorazione dei Magi conservata nella chiesa?",
+        "en": "Who painted the Adoration of the Magi kept in the church?",
+        "fr": "Qui a peint l'Adoration des Mages conservée dans l'église ?",
+        "de": "Wer hat die Anbetung der Könige gemalt, die in der Kirche aufbewahrt wird?",
+        "es": "¿Quién pintó la Adoración de los Magos que se conserva en la iglesia?"
+      },
+      "risposta": {
+        "it": "Paolo Veronese.",
+        "en": "Paolo Veronese.",
+        "fr": "Paolo Veronese.",
+        "de": "Paolo Veronese.",
+        "es": "Paolo Veronese."
+      }
+    },
+    {
+      "luogo_id": "tempio-di-san-lorenzo",
+      "zona": "Centro",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Quali tre figure sono rappresentate nella lunetta del portale principale?",
+        "en": "Which three figures are shown in the lunette of the main portal?",
+        "fr": "Quelles trois figures sont représentées dans le tympan du portail principal ?",
+        "de": "Welche drei Figuren sind im Bogenfeld des Hauptportals dargestellt?",
+        "es": "¿Qué tres figuras aparecen en la luneta del portal principal?"
+      },
+      "risposta": {
+        "it": "La Madonna con il Bambino, San Francesco e San Lorenzo.",
+        "en": "The Madonna and Child, Saint Francis and Saint Lawrence.",
+        "fr": "La Vierge à l'Enfant, saint François et saint Laurent.",
+        "de": "Die Madonna mit dem Kind, der heilige Franziskus und der heilige Laurentius.",
+        "es": "La Virgen con el Niño, san Francisco y san Lorenzo."
+      }
+    },
+    {
+      "luogo_id": "tempio-di-san-lorenzo",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma ha il rosone al centro della parte superiore della facciata?",
+        "en": "What shape is the rose window at the centre of the upper façade?",
+        "fr": "Quelle forme a la rosace au centre de la partie supérieure de la façade ?",
+        "de": "Welche Form hat das Rosenfenster in der Mitte des oberen Fassadenteils?",
+        "es": "¿Qué forma tiene el rosetón en el centro de la parte superior de la fachada?"
+      },
+      "risposta": {
+        "it": "Circolare.",
+        "en": "Circular.",
+        "fr": "Circulaire.",
+        "de": "Kreisrund.",
+        "es": "Circular."
+      }
+    },
+    {
+      "luogo_id": "chiesa-di-santo-stefano",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma geometrica ha la grande finestra superiore della facciata?",
+        "en": "What geometric shape is the large upper window of the façade?",
+        "fr": "Quelle forme géométrique a la grande fenêtre supérieure de la façade ?",
+        "de": "Welche geometrische Form hat das große obere Fenster der Fassade?",
+        "es": "¿Qué forma geométrica tiene la gran ventana superior de la fachada?"
+      },
+      "risposta": {
+        "it": "Circolare.",
+        "en": "Circular.",
+        "fr": "Circulaire.",
+        "de": "Kreisrund.",
+        "es": "Circular."
+      }
+    },
+    {
+      "luogo_id": "chiesa-di-santa-maria-in-araceli",
+      "zona": "Araceli",
+      "tema": "Scultura",
+      "domanda": {
+        "it": "Quante statue decorano la facciata della chiesa?",
+        "en": "How many statues decorate the church façade?",
+        "fr": "Combien de statues décorent la façade de l'église ?",
+        "de": "Wie viele Statuen schmücken die Kirchenfassade?",
+        "es": "¿Cuántas estatuas decoran la fachada de la iglesia?"
+      },
+      "risposta": {
+        "it": "Quindici.",
+        "en": "Fifteen.",
+        "fr": "Quinze.",
+        "de": "Fünfzehn.",
+        "es": "Quince."
+      }
+    },
+    {
+      "luogo_id": "chiesa-di-santa-maria-in-araceli",
+      "zona": "Araceli",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale forma geometrica caratterizza lo spazio interno della chiesa?",
+        "en": "What geometric shape characterises the church's interior space?",
+        "fr": "Quelle forme géométrique caractérise l'espace intérieur de l'église ?",
+        "de": "Welche geometrische Form prägt den Innenraum der Kirche?",
+        "es": "¿Qué forma geométrica caracteriza el espacio interior de la iglesia?"
+      },
+      "risposta": {
+        "it": "Ellittica.",
+        "en": "Elliptical.",
+        "fr": "Elliptique.",
+        "de": "Elliptisch.",
+        "es": "Elíptica."
+      }
+    },
+    {
+      "luogo_id": "torre-del-tormento",
+      "zona": "Centro",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Quale funzione aveva originariamente la torre nel Medioevo?",
+        "en": "What was the tower originally used for in the Middle Ages?",
+        "fr": "Quelle était la fonction originelle de la tour au Moyen Âge ?",
+        "de": "Welche Funktion hatte der Turm ursprünglich im Mittelalter?",
+        "es": "¿Para qué se usaba originalmente la torre en la Edad Media?"
+      },
+      "risposta": {
+        "it": "Era una prigione cittadina.",
+        "en": "It was a city prison.",
+        "fr": "C'était une prison municipale.",
+        "de": "Er war ein städtisches Gefängnis.",
+        "es": "Era una prisión municipal."
+      }
+    },
+    {
+      "luogo_id": "torrione-di-porta-castello",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Qual è la forma della torre osservandola dall'esterno?",
+        "en": "What shape is the tower when seen from the outside?",
+        "fr": "Quelle est la forme de la tour vue de l'extérieur ?",
+        "de": "Welche Form hat der Turm von außen betrachtet?",
+        "es": "¿Qué forma tiene la torre vista desde fuera?"
+      },
+      "risposta": {
+        "it": "Cilindrica.",
+        "en": "Cylindrical.",
+        "fr": "Cylindrique.",
+        "de": "Zylindrisch.",
+        "es": "Cilíndrica."
+      }
+    },
+    {
+      "luogo_id": "ponte-san-michele",
+      "zona": "Centro",
+      "tema": "Geografia urbana",
+      "domanda": {
+        "it": "Quale fiume attraversa il ponte?",
+        "en": "Which river does the bridge cross?",
+        "fr": "Quel fleuve traverse le pont ?",
+        "de": "Welchen Fluss überquert die Brücke?",
+        "es": "¿Qué río cruza el puente?"
+      },
+      "risposta": {
+        "it": "Il Retrone.",
+        "en": "The Retrone.",
+        "fr": "Le Retrone.",
+        "de": "Den Retrone.",
+        "es": "El Retrone."
+      }
+    },
+    {
+      "luogo_id": "ponte-furo",
+      "zona": "Centro",
+      "tema": "Geografia urbana",
+      "domanda": {
+        "it": "Quale elemento architettonico caratterizza il ponte?",
+        "en": "Which architectural feature characterises the bridge?",
+        "fr": "Quel élément architectural caractérise le pont ?",
+        "de": "Welches architektonische Merkmal prägt die Brücke?",
+        "es": "¿Qué elemento arquitectónico caracteriza el puente?"
+      },
+      "risposta": {
+        "it": "Le sue arcate in muratura.",
+        "en": "Its masonry arches.",
+        "fr": "Ses arches en maçonnerie.",
+        "de": "Ihre gemauerten Bögen.",
+        "es": "Sus arcos de mampostería."
+      }
+    },
+    {
+      "luogo_id": "ponte-pusterla",
+      "zona": "Centro",
+      "tema": "Geografia urbana",
+      "domanda": {
+        "it": "Quale fiume attraversa il ponte?",
+        "en": "Which river does the bridge cross?",
+        "fr": "Quel fleuve traverse le pont ?",
+        "de": "Welchen Fluss überquert die Brücke?",
+        "es": "¿Qué río cruza el puente?"
+      },
+      "risposta": {
+        "it": "Il Bacchiglione.",
+        "en": "The Bacchiglione.",
+        "fr": "Le Bacchiglione.",
+        "de": "Den Bacchiglione.",
+        "es": "El Bacchiglione."
+      }
+    },
+    {
+      "luogo_id": "parco-querini",
+      "zona": "Centro",
+      "tema": "Paesaggio",
+      "domanda": {
+        "it": "Che cosa si trova sull'isolotto al centro dello stagno?",
+        "en": "What stands on the islet in the middle of the pond?",
+        "fr": "Qu'y a-t-il sur l'îlot au centre de l'étang ?",
+        "de": "Was steht auf der Insel in der Mitte des Teichs?",
+        "es": "¿Qué hay en el islote en el centro del estanque?"
+      },
+      "risposta": {
+        "it": "Un tempietto.",
+        "en": "A small temple.",
+        "fr": "Un petit temple.",
+        "de": "Ein kleiner Tempel.",
+        "es": "Un templete."
+      }
+    },
+    {
+      "luogo_id": "giardini-salvi",
+      "zona": "Centro",
+      "tema": "Architettura",
+      "domanda": {
+        "it": "Quale loggia storica si affaccia sulla roggia Seriola?",
+        "en": "Which historic loggia overlooks the Seriola stream?",
+        "fr": "Quelle loggia historique donne sur la roggia Seriola ?",
+        "de": "Welche historische Loggia blickt auf die Roggia Seriola?",
+        "es": "¿Qué logia histórica da a la acequia Seriola?"
+      },
+      "risposta": {
+        "it": "La Loggia Valmarana.",
+        "en": "The Loggia Valmarana.",
+        "fr": "La Loggia Valmarana.",
+        "de": "Die Loggia Valmarana.",
+        "es": "La Loggia Valmarana."
+      }
+    },
+    {
+      "luogo_id": "porton-del-luzo",
+      "zona": "Centro",
+      "tema": "Architettura medievale",
+      "domanda": {
+        "it": "Quale simbolo si può riconoscere sulla struttura del Porton?",
+        "en": "Which symbol can be recognised on the structure of the Porton?",
+        "fr": "Quel symbole peut-on reconnaître sur la structure du Porton ?",
+        "de": "Welches Symbol erkennt man an der Struktur des Porton?",
+        "es": "¿Qué símbolo se puede reconocer en la estructura del Porton?"
+      },
+      "risposta": {
+        "it": "Il Leone di San Marco.",
+        "en": "The Lion of Saint Mark.",
+        "fr": "Le Lion de Saint-Marc.",
+        "de": "Der Markuslöwe.",
+        "es": "El León de San Marcos."
+      }
+    }
+  ]
 }
