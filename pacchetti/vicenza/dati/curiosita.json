@@ -1,0 +1,194 @@
+{
+ "_nota": "Luoghi segreti (💡) di Vicenza. Ogni voce rimanda a un luogo; compare sulla mappa solo se scelta dalla sezione luoghi segreti.",
+ "curiosita": [
+  {
+   "id": "porton-del-luzo",
+   "luogo_id": "porton-del-luzo",
+   "sestiere": "Centro storico",
+   "latitudine": 45.543544,
+   "longitudine": 11.548118,
+   "titolo": {
+    "it": "Il portone che dà il nome alla contrà",
+    "en": "The gate that gives its name to the street",
+    "fr": "La porte qui donne son nom à la rue",
+    "de": "Das Tor, das der Gasse seinen Namen gibt",
+    "es": "La puerta que da nombre a la calle"
+   },
+   "testo": {
+    "it": "Il nome della contrà ricorda l'antico portone. DA COMPLETARE",
+    "en": "The name of the street recalls the old gate. TO BE COMPLETED",
+    "fr": "Le nom de la rue rappelle l'ancienne porte. À COMPLÉTER",
+    "de": "Der Name der Gasse erinnert an das alte Tor. ZU ERGÄNZEN",
+    "es": "El nombre de la calle recuerda la antigua puerta. PENDIENTE DE COMPLETAR"
+   }
+  },
+  {
+   "id": "torre-del-tormento",
+   "luogo_id": "torre-del-tormento",
+   "sestiere": "Centro storico",
+   "latitudine": 45.546872,
+   "longitudine": 11.547121,
+   "titolo": {
+    "it": "La torre che fu prigione",
+    "en": "The tower that was a prison",
+    "fr": "La tour qui fut une prison",
+    "de": "Der Turm, der ein Gefängnis war",
+    "es": "La torre que fue prisión"
+   },
+   "testo": {
+    "it": "Per secoli la torre fu usata come prigione, e per questo prese il nome di Torre del Tormento. Si raggiunge passando sotto l'Arco degli Zavattieri, dal mercato delle ciabatte che si teneva lì sotto.",
+    "en": "For centuries the tower was used as a prison, which gave it the name Torre del Tormento. You reach it under the Arco degli Zavattieri, named after the slipper market held beneath it.",
+    "fr": "Pendant des siècles, la tour servit de prison, d'où son nom de Torre del Tormento. On y accède sous l'Arco degli Zavattieri, nommé d'après le marché aux pantoufles qui s'y tenait.",
+    "de": "Jahrhundertelang diente der Turm als Gefängnis, daher der Name Torre del Tormento. Man erreicht ihn unter dem Arco degli Zavattieri, benannt nach dem Pantoffelmarkt, der darunter stattfand.",
+    "es": "Durante siglos la torre fue usada como prisión, de ahí su nombre Torre del Tormento. Se llega bajo el Arco degli Zavattieri, llamado así por el mercado de zapatillas que se celebraba debajo."
+   }
+  },
+  {
+   "id": "torre-dei-coxina",
+   "luogo_id": "torre-dei-coxina",
+   "sestiere": "Centro storico",
+   "latitudine": 45.55024,
+   "longitudine": 11.54981,
+   "titolo": {
+    "it": "DA COMPLETARE",
+    "en": "TO BE COMPLETED",
+    "fr": "À COMPLÉTER",
+    "de": "ZU ERGÄNZEN",
+    "es": "PENDIENTE DE COMPLETAR"
+   },
+   "testo": {
+    "it": "DA COMPLETARE",
+    "en": "TO BE COMPLETED",
+    "fr": "À COMPLÉTER",
+    "de": "ZU ERGÄNZEN",
+    "es": "PENDIENTE DE COMPLETAR"
+   }
+  },
+  {
+   "id": "loggia-valmarana",
+   "luogo_id": "loggia-valmarana",
+   "sestiere": "Centro storico",
+   "latitudine": 45.546933,
+   "longitudine": 11.540186,
+   "titolo": {
+    "it": "Una loggia nel giardino",
+    "en": "A loggia in the garden",
+    "fr": "Une loggia dans le jardin",
+    "de": "Eine Loggia im Garten",
+    "es": "Una logia en el jardín"
+   },
+   "testo": {
+    "it": "La loggia si trova nei Giardini Salvi, accanto all'antica cinta muraria. Si attribuisce a un allievo di Palladio.",
+    "en": "The loggia stands in the Giardini Salvi, beside the old city walls. It is attributed to a pupil of Palladio.",
+    "fr": "La loggia se trouve dans les Giardini Salvi, à côté des anciennes murailles. On l'attribue à un élève de Palladio.",
+    "de": "Die Loggia steht in den Giardini Salvi, neben der alten Stadtmauer. Sie wird einem Schüler Palladios zugeschrieben.",
+    "es": "La logia está en los Giardini Salvi, junto a las antiguas murallas. Se atribuye a un discípulo de Palladio."
+   }
+  },
+  {
+   "id": "torre-dei-loschi",
+   "luogo_id": "torre-dei-loschi",
+   "sestiere": "DA VERIFICARE",
+   "latitudine": 45.545923,
+   "longitudine": 11.545328,
+   "titolo": {
+    "it": "DA COMPLETARE",
+    "en": "TO BE COMPLETED",
+    "fr": "À COMPLÉTER",
+    "de": "ZU ERGÄNZEN",
+    "es": "PENDIENTE DE COMPLETAR"
+   },
+   "testo": {
+    "it": "DA COMPLETARE: luogo non trovato",
+    "en": "TO BE COMPLETED: place not found",
+    "fr": "À COMPLÉTER : lieu non trouvé",
+    "de": "ZU ERGÄNZEN: Ort nicht gefunden",
+    "es": "PENDIENTE DE COMPLETAR: lugar no encontrado"
+   }
+  },
+  {
+   "id": "porta-san-bortolo",
+   "luogo_id": "porta-san-bortolo",
+   "sestiere": "San Bortolo",
+   "latitudine": 45.558087,
+   "longitudine": 11.54481,
+   "titolo": {
+    "it": "Una porta che ha visto i Veneziani",
+    "en": "A gate that saw the Venetians",
+    "fr": "Une porte qui a vu les Vénitiens",
+    "de": "Ein Tor, das die Venezianer gesehen hat",
+    "es": "Una puerta que vio a los venecianos"
+   },
+   "testo": {
+    "it": "La porta del quartiere San Bortolo fa parte delle mura cittadine. Secondo le fonti risale all'epoca veneziana, quando la città passò sotto il dominio di Venezia.",
+    "en": "The gate in the San Bortolo district is part of the city walls. Sources date it to the Venetian period, when the city came under Venetian rule.",
+    "fr": "La porte du quartier San Bortolo fait partie des murailles de la ville. Selon les sources, elle date de l'époque vénitienne, quand la ville passa sous la domination de Venise.",
+    "de": "Das Tor im Viertel San Bortolo ist Teil der Stadtmauer. Quellen datieren es in die venezianische Zeit, als die Stadt unter venezianische Herrschaft kam.",
+    "es": "La puerta del barrio San Bortolo forma parte de las murallas de la ciudad. Según las fuentes, es de la época veneciana, cuando la ciudad pasó al dominio de Venecia."
+   }
+  },
+  {
+   "id": "chiesa-di-santa-maria-in-araceli",
+   "luogo_id": "chiesa-di-santa-maria-in-araceli",
+   "sestiere": "Araceli",
+   "latitudine": 45.553179,
+   "longitudine": 11.549226,
+   "titolo": {
+    "it": "Una chiesa barocca attribuita a Guarini",
+    "en": "A Baroque church attributed to Guarini",
+    "fr": "Une église baroque attribuée à Guarini",
+    "de": "Eine barocke Kirche, Guarini zugeschrieben",
+    "es": "Una iglesia barroca atribuida a Guarini"
+   },
+   "testo": {
+    "it": "La chiesa di Santa Maria in Araceli è attribuita all'architetto Guarino Guarini. Verificare lo stato di apertura prima della visita.",
+    "en": "The church of Santa Maria in Araceli is attributed to the architect Guarino Guarini. Check whether it is open before visiting.",
+    "fr": "L'église de Santa Maria in Araceli est attribuée à l'architecte Guarino Guarini. Vérifier son ouverture avant la visite.",
+    "de": "Die Kirche Santa Maria in Araceli wird dem Architekten Guarino Guarini zugeschrieben. Vor dem Besuch den Öffnungsstatus prüfen.",
+    "es": "La iglesia de Santa Maria in Araceli se atribuye al arquitecto Guarino Guarini. Comprobar si está abierta antes de la visita."
+   }
+  },
+  {
+   "id": "porta-santa-lucia",
+   "luogo_id": "porta-santa-lucia",
+   "sestiere": "Centro storico",
+   "latitudine": 45.553027,
+   "longitudine": 11.551829,
+   "titolo": {
+    "it": "Il leone di San Marco sulla porta",
+    "en": "The Lion of Saint Mark on the gate",
+    "fr": "Le lion de Saint-Marc sur la porte",
+    "de": "Der Markuslöwe am Tor",
+    "es": "El león de San Marcos en la puerta"
+   },
+   "testo": {
+    "it": "Sulla porta di Santa Lucia c'è un bassorilievo del Leone di San Marco, che ricorda i secoli di dominio veneziano.",
+    "en": "On the Porta Santa Lucia is a bas-relief of the Lion of Saint Mark, a reminder of centuries of Venetian rule.",
+    "fr": "Sur la porte Santa Lucia se trouve un bas-relief du Lion de Saint-Marc, rappel de plusieurs siècles de domination vénitienne.",
+    "de": "Am Tor Santa Lucia befindet sich ein Relief des Markuslöwen, eine Erinnerung an Jahrhunderte venezianischer Herrschaft.",
+    "es": "En la Porta Santa Lucia hay un bajorrelieve del León de San Marcos, recuerdo de siglos de dominio veneciano."
+   }
+  },
+  {
+   "id": "oratorio-di-san-nicola-da-tolentino",
+   "luogo_id": "oratorio-di-san-nicola-da-tolentino",
+   "sestiere": "Centro storico",
+   "latitudine": 45.545807,
+   "longitudine": 11.548571,
+   "titolo": {
+    "it": "Un oratorio tutto dipinto",
+    "en": "An oratory covered in paintings",
+    "fr": "Un oratoire entièrement peint",
+    "de": "Ein ganz bemaltes Oratorium",
+    "es": "Un oratorio todo pintado"
+   },
+   "testo": {
+    "it": "Le pareti dell'oratorio sono decorate con tele del Seicento di scuola veneta, opera di diversi pittori.",
+    "en": "The walls of the oratory are decorated with 17th-century canvases of the Venetian school, by several painters.",
+    "fr": "Les murs de l'oratoire sont décorés de toiles du XVIIe siècle de l'école vénitienne, de plusieurs peintres.",
+    "de": "Die Wände des Oratoriums sind mit Gemälden des 17. Jahrhunderts der venezianischen Schule geschmückt, von mehreren Malern.",
+    "es": "Las paredes del oratorio están decoradas con lienzos del siglo XVII de la escuela veneciana, de varios pintores."
+   }
+  }
+ ]
+}

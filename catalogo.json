@@ -84,9 +84,20 @@
       "id": "vicenza",
       "nome": "Vicenza",
       "provincia": "Vicenza",
-      "stato": "in_preparazione",
-      "anteprima": [],
-      "pacchetto": null,
+      "stato": "disponibile",
+      "anteprima": [
+        "basilica-palladiana",
+        "teatro-olimpico",
+        "villa-la-rotonda",
+        "piazza-dei-signori",
+        "santuario-di-monte-berico",
+        "tempio-di-santa-corona",
+        "corso-palladio",
+        "duomo-cattedrale-di-santa-maria-annunciata",
+        "museo-del-gioiello",
+        "palladio-museum"
+      ],
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/pacchetti/vicenza/pacchetti/vicenza/manifest.json",
       "sku": null,
       "dimensione_mb": null,
       "motto": "Palladio e architettura rinascimentale"
