@@ -149,7 +149,7 @@
   },
   {
    "id": "tempio-di-santa-corona",
-   "nome": "Tempio di Santa Corona",
+   "nome": "Chiesa di Santa Corona",
    "categoria": "chiese",
    "sestiere": "Centro",
    "latitudine": 45.549368,
@@ -170,30 +170,6 @@
     "es": "Horario: mar–dom 10:00–18:00 (horarios de los monumentos de Vicenza, mayo 2026). Entradas: no encontrado: incluido en la Vicenza Card y la tarjeta 4 museos; precio de la entrada individual por verificar. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
    },
    "sito": "https://www.museicivicivicenza.it"
-  },
-  {
-   "id": "palazzo-barbaran-da-porto",
-   "nome": "Palazzo Barbaran da Porto",
-   "categoria": "palazzi",
-   "sestiere": "Centro",
-   "latitudine": 45.54835,
-   "longitudine": 11.545392,
-   "descrizione": {
-    "it": "Palazzo di Andrea Palladio, costruito tra il 1570 e il 1575, dove oggi ha sede il Palladio Museum.",
-    "en": "Palazzo by Andrea Palladio, built between 1570 and 1575, now home of the Palladio Museum.",
-    "fr": "Palais d'Andrea Palladio, construit entre 1570 et 1575, où se trouve aujourd'hui le Palladio Museum.",
-    "de": "Palast von Andrea Palladio, erbaut 1570 bis 1575, heute Sitz des Palladio Museum.",
-    "es": "Palacio de Andrea Palladio, construido entre 1570 y 1575, hoy sede del Palladio Museum."
-   },
-   "orari": [],
-   "nota": {
-    "it": "Orari: coincide con il Palladio Museum (Contrà Porti 11); vedi Palladio Museum. Biglietti: vedi Palladio Museum. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
-    "en": "Hours: same as the Palladio Museum (Contrà Porti 11); see Palladio Museum. Tickets: see Palladio Museum. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
-    "fr": "Horaires: identique au Palladio Museum (Contrà Porti 11) ; voir Palladio Museum. Billets: voir Palladio Museum. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
-    "de": "Öffnungszeiten: wie das Palladio Museum (Contrà Porti 11); siehe Palladio Museum. Eintritt: siehe Palladio Museum. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
-    "es": "Horario: igual que el Palladio Museum (Contrà Porti 11); ver Palladio Museum. Entradas: ver Palladio Museum. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-   },
-   "sito": "https://www.palladiomuseum.org/en/museum"
   },
   {
    "id": "loggia-del-capitaniato",
@@ -406,7 +382,7 @@
   },
   {
    "id": "museo-naturalistico-e-archeologico",
-   "nome": "Museo Naturalistico e Archeologico",
+   "nome": "Museo Naturalistico e Archeologico di Santa Corona",
    "categoria": "musei",
    "sestiere": "Centro",
    "latitudine": 45.550123,
@@ -532,17 +508,17 @@
   },
   {
    "id": "palladio-museum",
-   "nome": "Palladio Museum",
+   "nome": "Palazzo Barbaran da Porto – Palladio Museum",
    "categoria": "musei",
    "sestiere": "Centro",
    "latitudine": 45.54851,
    "longitudine": 11.545614,
    "descrizione": {
-    "it": "Museo dedicato alla vita e alle opere di Andrea Palladio, ospitato in Palazzo Barbaran da Porto, opera dell'architetto costruita tra il 1570 e il 1575.",
-    "en": "Museum dedicated to the life and works of Andrea Palladio, housed in Palazzo Barbaran da Porto, a building by the architect built between 1570 and 1575.",
-    "fr": "Musée consacré à la vie et aux œuvres d'Andrea Palladio, installé dans le Palazzo Barbaran da Porto, bâtiment de l'architecte construit entre 1570 et 1575.",
-    "de": "Museum zum Leben und Werk von Andrea Palladio, untergebracht im Palazzo Barbaran da Porto, einem Bau des Architekten aus den Jahren 1570 bis 1575.",
-    "es": "Museo dedicado a la vida y obra de Andrea Palladio, instalado en el Palazzo Barbaran da Porto, obra del arquitecto construida entre 1570 y 1575."
+    "it": "Palazzo Barbaran da Porto, opera di Andrea Palladio costruita tra il 1570 e il 1575, è la sede del Palladio Museum, dedicato alla vita e alle opere dell'architetto.",
+    "en": "Palazzo Barbaran da Porto, a work by Andrea Palladio built between 1570 and 1575, is the seat of the Palladio Museum, dedicated to the architect's life and works.",
+    "fr": "Le Palazzo Barbaran da Porto, œuvre d'Andrea Palladio construite entre 1570 et 1575, abrite le Palladio Museum, consacré à la vie et aux œuvres de l'architecte.",
+    "de": "Der Palazzo Barbaran da Porto, ein Werk Andrea Palladios aus den Jahren 1570 bis 1575, ist der Sitz des Palladio Museum, das dem Leben und Werk des Architekten gewidmet ist.",
+    "es": "El Palazzo Barbaran da Porto, obra de Andrea Palladio construida entre 1570 y 1575, es la sede del Palladio Museum, dedicado a la vida y obra del arquitecto."
    },
    "orari": [],
    "nota": {
