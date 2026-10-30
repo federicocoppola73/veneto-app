@@ -1,8 +1,3073 @@
 {
- "_nota": "Vicenza: nessun orario ancora",
- "validita": [],
- "servizi": [],
- "date": {},
+ "_nota": "Vicenza: orari urbani SVT, servizio invernale dal 7 settembre 2026 all'11 giugno 2027 (libretto PDF SVT). Solo le fermate indicate nel libretto. Verificare sul sito SVT.",
+ "validita": [
+  "20260907",
+  "20270611"
+ ],
+ "servizi": [
+  {
+   "giorni": "1111100",
+   "da": "20260907",
+   "a": "20270611"
+  },
+  {
+   "giorni": "0000010",
+   "da": "20260907",
+   "a": "20270611"
+  },
+  {
+   "giorni": "0000001",
+   "da": "20260907",
+   "a": "20270611"
+  },
+  {
+   "giorni": "1111100",
+   "da": "20260907",
+   "a": "20270611"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260907",
+   "a": "20270611"
+  }
+ ],
+ "date": {
+  "20261208": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20261225": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20261226": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270101": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270106": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270329": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270425": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270501": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20270602": {
+   "piu": [
+    2
+   ],
+   "meno": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "20260907": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20260908": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20260909": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261030": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261102": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261207": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261224": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261228": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261229": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261230": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20261231": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270104": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270105": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270208": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270209": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270210": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270211": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270212": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270325": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270326": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270330": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270429": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270430": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270609": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270610": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  },
+  "20270611": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    3
+   ]
+  }
+ },
  "capolinea": [],
- "orari": {}
+ "orari": {
+  "svt-via-moneta": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "8w,a0,ak,ax,b9,bj,bt,c3,cd,cn,cx,d7,dh,dr,e1,eb,el,ev,f5,ff,fp,fz,g9,gj,gt,h3,hd,hn,hx,i7,ih,ir,j1,jb,jl,jv,k5,kf,kp,kz,l9,lj,lt,m8,mi,mn,mx,n7,nh,nr,o1,ob,ol,ov,p5,pf,pp,pz,q9,qj,qt,r3,rd,rn,rx,s7,sh,sr,t1,tb,tl,tv,u5,uf,up,v0,vc,vo,w0,wd,ws,x7,xm,y6,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "9l,aa,b4,bj,bt,c3,cd,cn,d2,dc,dm,dw,e6,eg,eq,f0,fa,fk,fu,g4,ge,go,gy,h8,hi,hs,i2,ic,im,iw,j6,jg,jq,k0,ka,kk,ku,l4,le,lo,ly,m8,mi,ms,n2,nc,no,o1,ob,ol,ov,p5,pf,pp,pz,q9,qj,qt,r3,rd,rn,rx,s7,sh,sr,t1,tb,tl,tv,u5,uf,up,v0,vc,vo,w0,wd,ws,x7,xm,y6,yq"
+     ],
+     [
+      [
+       2
+      ],
+      "b4,by,cx,dr,el,ff,g9,h3,hx,ir,jl,kf,l9,m3,mx,nm,o6,oq,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,vy,wi,x2,xm,y6,yq"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9s,ac,am,b6,bg,bq,c1,cc,cm,cw,d6,dg,dq,e0,ea,ek,eu,f4,fe,fo,fy,g8,gi,gs,h2,hc,hm,hw,i6,ig,iq,j0,ja,jk,ju,k4,ke,ko,ky,l8,li,ls,m2,mc,mm,mw,n6,ng,nq,o0,oa,ok,ou,p4,pe,po,py,q8,qi,qs,r2,rc,rm,rw,s6,sg,sq,t0,ta,tk,tu,u4,ue,uo,uy,v8,vi,vr,w1,wb,wv,xf,xp,ye,yr"
+     ],
+     [
+      [
+       1
+      ],
+      "a9,b1,bn,c0,cg,cq,d0,da,dk,du,e4,ee,eo,ey,f8,fi,fs,g2,gc,gm,gw,h6,hg,hq,i0,ia,ik,iu,j4,je,jo,jy,k8,ki,ks,l2,lc,lm,lw,m6,mg,mq,n0,na,nk,nu,o4,oe,oo,oy,p8,pi,ps,q7,qm,qw,r6,rg,rq,s0,sa,sk,su,t4,te,to,ty,u8,ui,us,v2,vc,vm,vv,w3,wd,wn,wx,xh,xr,yg,yt"
+     ],
+     [
+      [
+       2
+      ],
+      "bu,ck,dj,ed,f6,g0,gv,hp,ii,jc,k7,l1,lu,mo,ne,ny,oh,p1,pl,q5,qq,r9,rt,sd,sy,th,u2,ul,v5,vq,w9,wt,xc,y1,yh"
+     ]
+    ]
+   }
+  },
+  "svt-stazione-fs": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "92,a6,aq,b3,bf,bq,c3,cd,cn,cx,d7,dh,dr,e1,eb,el,ev,f5,ff,fp,fz,g9,gj,gt,h3,hd,hn,hx,i7,ih,ir,j1,jb,jl,jv,k5,kf,kp,kz,l9,lj,lt,m3,mi,ms,mx,n7,nh,nr,o1,ob,ol,ov,p5,pf,pp,pz,q9,qj,qt,r3,rd,rn,rx,s7,sh,sr,t1,tb,tl,tv,u5,uf,up,uz,va,vm,vu,w6,wj,wy,xd,xs,yc,yw"
+     ],
+     [
+      [
+       1
+      ],
+      "9r,ag,ba,bq,c3,cd,ck,ct,dc,dm,dw,e6,eg,eq,f0,fa,fk,fu,g4,ge,go,gy,h8,hi,hs,i2,ic,im,iw,j6,jg,jq,k0,ka,kk,ku,l4,le,lo,ly,m8,mi,ms,n2,nc,nm,ny,ob,ol,ov,p5,pf,pp,pz,q9,qj,qt,r3,rd,rn,rx,s7,sh,sr,t1,tb,tl,tv,u5,uf,up,uz,va,vm,vy,w6,wj,wy,xd,xs,yc,yw"
+     ],
+     [
+      [
+       2
+      ],
+      "ba,c7,d6,e0,eu,fo,gi,hc,i6,j0,ju,ko,li,mc,n6,nv,of,oz,pj,q3,qn,r7,rr,sb,sv,tf,tz,uj,v3,vn,w4,wo,x8,xs,yc,yw"
+     ]
+    ]
+   },
+   "AUT-4": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9y,ai,b7,bw,cg,d0,dk,e4,eo,f8,fs,gc,gw,hg,i0,ik,j4,jo,k8,kn,l2,lm,m6,ml,n5,nk,o4,ot,pi,q2,qm,r6,rq,sa,su,te,ty,ui,v2,vm,w6,wq,xa,xu"
+     ],
+     [
+      [
+       1
+      ],
+      "9t,bc,br,c6,d0,du,eo,fi,gc,h6,i0,iu,jo,ki,ks,lc,m6,n0,nu,o9,oo,pi,qc,r6,s0,sf,su,to,ui,ux,vc,w6,x5"
+     ],
+     [
+      [
+       2
+      ],
+      "b0,c9,di,er,g0,h9,ii,jr,l0,ni,or,q0,r9,si,tr,v0,w9,xi"
+     ]
+    ]
+   },
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9e,9t,a8,as,bc,bs,c3,cd,cs,d7,dm,e1,eg,ev,fa,fp,g4,gj,gy,hd,hs,i7,im,j1,jg,jv,ka,kp,l4,le,lo,m3,md,ms,n7,nc,nr,o1,og,ov,pa,pp,q4,qj,qy,rd,rs,s7,sm,t1,tg,tv,ua,up,v4,vj,w6,wq,x5,xk,y4,yo"
+     ],
+     [
+      [
+       1
+      ],
+      "9e,a8,as,bc,bm,c3,ci,cv,dc,dw,eg,f0,fk,g4,go,h8,hs,ic,iw,jg,jv,ka,kp,l4,lo,m8,mn,n2,nh,nw,og,p0,pk,q4,qo,r8,rs,sc,sw,tb,tq,u5,uk,v4,vo,w6,wq,xk,y6,yq"
+     ],
+     [
+      [
+       2
+      ],
+      "b2,cb,dk,et,g2,hb,ik,jt,l2,mb,nk,ot,q2,rb,sk,tt,v2,wb,xk,yo"
+     ]
+    ]
+   },
+   "AUT-7": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,au,be,by,ch,cw,db,dq,e5,eg,f4,fo,g8,gs,hc,hw,ig,j0,jk,jz,ke,kt,l8,ln,m2,mh,mw,nb,nq,o5,ok,oz,pe,py,qi,r2,rm,s6,sq,ta,tu,ue,uy,vi,w2,ws,xm"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,bj,ch,db,e5,ez,ft,gn,hh,ib,j5,jz,kt,ln,mh,nb,o5,oz,pt,qn,rh,sb,t5,tz,ut,vn,wh,xb,xw"
+     ],
+     [
+      [
+       2
+      ],
+      "bl,cf,do,ex,g6,hf,io,jx,l6,mf,no,ox,q6,rf,so,tx,v6,wf,xt"
+     ]
+    ]
+   }
+  },
+  "svt-viale-giuriolo": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "97,9q,ab,av,b8,bk,bv,c8,ci,cs,d2,dc,dm,dw,e6,eg,eq,f0,fa,fk,fu,g4,ge,go,gy,h8,hi,hs,i2,ic,im,iw,j6,jg,jq,k0,ka,kk,ku,l4,le,lo,ly,m8,mn,mx,n2,nc,nm,nw,o6,og,oq,p0,pa,pk,pu,q4,qe,qo,qy,r8,ri,rs,s2,sc,sm,sw,t6,tg,tq,u0,ua,uk,uu,v4,vf,vr,vz,wb,wo,x3,xi,xx,yh,z1"
+     ],
+     [
+      [
+       1
+      ],
+      "9w,al,bf,bv,c8,ci,cp,cy,dh,dr,e1,eb,el,ev,f5,ff,fp,fz,g9,gj,gt,h3,hd,hn,hx,i7,ih,ir,j1,jb,jl,jv,k5,kf,kp,kz,l9,lj,lt,m3,md,mn,mx,n7,nh,nr,o3,og,oq,p0,pa,pk,pu,q4,qe,qo,qy,r8,ri,rs,s2,sc,sm,sw,t6,tg,tq,u0,ua,uk,uu,v4,vf,vr,w3,wb,wo,x3,xi,xx,yh,z1"
+     ],
+     [
+      [
+       2
+      ],
+      "be,cb,da,e4,ey,fs,gm,hg,ia,j4,jy,ks,lm,mg,na,nz,oj,p3,pn,q7,qr,rb,rv,sf,sz,tj,u3,un,v7,vr,w8,ws,xc,xw,yg,z0"
+     ]
+    ]
+   },
+   "AUT-2": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a5,az,bj,c3,cn,d7,dr,eb,ev,ff,fz,gj,h3,hn,i7,ir,jb,jv,kf,kz,lj,m3,mn,n7,nr,ob,ov,pf,pz,qj,r3,rn,s7,sr,tb,tv,uf,uz,vj,w3,wn,x7,xr,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "a5,az,bo,ci,d2,dr,eg,f5,fz,gt,hn,ih,jb,k5,kz,lj,m3,mx,nr,ob,p5,pz,qt,rn,sh,tb,u5,uz,vt,wn,xh,yb"
+     ],
+     [
+      [
+       2
+      ],
+      "bs,d6,ek,fy,hm,ja,ky,mm,oa,py,rm,ta,uy,wm,y0"
+     ]
+    ]
+   },
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9j,9y,ad,ax,bh,bx,c8,ci,cx,dc,dr,e6,el,f0,ff,fu,g9,go,h3,hi,hx,ic,ir,j6,jl,k0,kf,ku,l9,lj,lt,m8,mi,mx,nc,nh,nw,o6,ol,p0,pf,pu,q9,qo,r3,ri,rx,sc,sr,t6,tl,u0,uf,uu,v9,vo,wb,wv,xa,xp,y9,yt"
+     ],
+     [
+      [
+       1
+      ],
+      "9j,ad,ax,bh,br,c8,cn,d0,dh,e1,el,f5,fp,g9,gt,hd,hx,ih,j1,jl,k0,kf,ku,l9,lt,md,ms,n7,nm,o1,ol,p5,pp,q9,qt,rd,rx,sh,t1,tg,tv,ua,up,v9,vt,wb,wv,xp,yb,yv"
+     ],
+     [
+      [
+       2
+      ],
+      "b6,cf,do,ex,g6,hf,io,jx,l6,mf,no,ox,q6,rf,so,tx,v6,wf,xo,ys"
+     ]
+    ]
+   },
+   "AUT-7": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a5,az,bj,c3,cm,d1,dg,dv,ea,el,f9,ft,gd,gx,hh,i1,il,j5,jp,k4,kj,ky,ld,ls,m7,mm,n1,ng,nv,oa,op,p4,pj,q3,qn,r7,rr,sb,sv,tf,tz,uj,v3,vn,w7,wx,xr"
+     ],
+     [
+      [
+       1
+      ],
+      "af,bo,cm,dg,ea,f4,fy,gs,hm,ig,ja,k4,ky,ls,mm,ng,oa,p4,py,qs,rm,sg,ta,u4,uy,vs,wm,xg,y1"
+     ],
+     [
+      [
+       2
+      ],
+      "bp,cj,ds,f1,ga,hj,is,k1,la,mj,ns,p1,qa,rj,ss,u1,va,wj,xx"
+     ]
+    ]
+   },
+   "AUT-17": {
+    "0": [
+     [
+      [
+       0,
+       1
+      ],
+      "be,m8,nw"
+     ]
+    ]
+   }
+  },
+  "svt-bertesina": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,cg,d3,dx,jr,kl,lf,m9,n8,nx,oo,tr,vf,wc,x9"
+     ],
+     [
+      [
+       1
+      ],
+      "c0,cs,dj,kg,la,my,oo,tr,vf,x9"
+     ],
+     [
+      [
+       2
+      ],
+      "bx,fi,iu,m6,po,t0,wb,yg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "91,ac,au,be,c8,cs,dm,eg,ka,l4,ly,ms,nm,og,pa,ua,vy,ws"
+     ],
+     [
+      [
+       1
+      ],
+      "a5,b4,c8,cs,dm,ku,lo,nc,p5,ua,vy"
+     ],
+     [
+      [
+       2
+      ],
+      "cp,g1,jd,mk,no,qg,ts,x9"
+     ]
+    ]
+   }
+  },
+  "svt-bertesinella": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9m,el,ff,g9,h3,hx,ir,pf,r3,sr,yw,zg"
+     ],
+     [
+      [
+       1
+      ],
+      "fa,g4,gy,hs,im,jg,nw,pf,r3,sr,w6,yw,zg"
+     ],
+     [
+      [
+       2
+      ],
+      "zc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9n,9x,ff,g9,h3,hx,ir,jl,q9,rx,tl"
+     ],
+     [
+      [
+       1
+      ],
+      "9i,fp,gj,hd,i7,j1,k5,ol,q9,rx,tl,wx"
+     ],
+     [
+      [
+       2
+      ],
+      "b4"
+     ]
+    ]
+   }
+  },
+  "svt-settec": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a9,b6,bj,cl,df,e9,f3,fx,gr,hl,if,j9,k3,kx,lr,ml,nf,o9,p7,px,q7,qr,rl,rv,sf,t9,u3,ud,ux,vs,wo,xg,ya"
+     ],
+     [
+      [
+       1
+      ],
+      "a7,aw,c8,d2,du,ee,ey,fi,fs,gm,h6,hg,ia,iu,j4,jy,ki,ks,lm,lw,mg,na,nk,o4,p3,pn,px,q7,qr,rb,rl,rv,sf,sz,t9,u3,ud,un,ux,vs,wo,xg,ya"
+     ],
+     [
+      [
+       2
+      ],
+      "cn,eh,g4,ht,jg,l5,ms,oc,ov,q0,qk,ro,s7,tc,tv,v0,vj,x2,yq"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "r3,sr,v9"
+     ],
+     [
+      [
+       1
+      ],
+      "c3,d7,el,f5,fz,gt,hn,ih,jb,jv,kp,l9,mn,n7,ob,qj,r3,s7,sr,tv,v9,vj"
+     ],
+     [
+      [
+       2
+      ],
+      "fa,im,ob,pf,r3,sr,uf,w3,yq"
+     ]
+    ]
+   }
+  },
+  "svt-torri-di-quartesolo": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ad,ba,bn,cq,dk,ee,f8,g2,gw,hq,ik,je,k8,l2,lw,mq,nk,oe,pc,q2,qw,rq,sk,te,u8,v2,vw,ws,xk,ye"
+     ],
+     [
+      [
+       1
+      ],
+      "ab,b0,cd,d7,dz,fn,hb,iz,kx,lr,nf,o9,p8,q2,qw,rq,sk,te,u8,v2,vw,ws,xk,ye"
+     ],
+     [
+      [
+       2
+      ],
+      "cr,g8,jk,l9,mw,oz,qo,sb,tz,vn,x6"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ak,bo,ci,dc,e6,f0,fu,go,hi,ic,j6,k0,ku,lo,mi,nc,o6,p0,pu,qo,ri,sc,t6,u0,uu,vo,wi,xj,xw,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "ap,be,ci,dw,e6,g4,hs,jg,le,m8,nw,oq,pu,qo,ri,sc,t6,u0,uu,vo,wi,xj,xw,yq"
+     ],
+     [
+      [
+       2
+      ],
+      "dj,gv,k7,lv,n4,pw,rk,t8,uw,wk,xp"
+     ]
+    ]
+   }
+  },
+  "svt-lerino": {
+   "AUT-1": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "av,c6,de,e8,f2,fw,gq,hk,ie,j8,k2,kw,lq,mk,nj,o8,p2,pw,qq,rk,se,t8,u2,uw,vq,wl,y4"
+     ],
+     [
+      [
+       1
+      ],
+      "d7,ek,f4,gs,ig,k4,ls,mm,ng,p9,qx,sl,u9,vx,ww,y9"
+     ],
+     [
+      [
+       2
+      ],
+      "dv,h7,kj,nv,rb,un,ws,xv"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "az,bt,cx,dr,el,ff,g9,h3,hx,ir,jl,kf,l9,m3,mx,nw,ol,pf,q9,r3,rx,sr,tl,uf,v9,w3,wx,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "bj,d7,el,f5,gt,ih,k5,lt,mn,nh,pf,r3,sr,uf,w3,wx,yb"
+     ],
+     [
+      [
+       2
+      ],
+      "bo,eb,hn,kz,oq,s2,ve,x2,y1"
+     ]
+    ]
+   }
+  },
+  "svt-viale-della-pace-ederle": {
+   "AUT-1": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "96,9q,a0,ak,au,b4,be,bo,by,c8,ci,cs,d2,dc,dm,dw,e6,eg,eq,f0,fa,fk,fu,g4,ge,go,gy,h8,hi,hs,i2,ic,im,iw,j6,jg,jq,k0,ka,kk,ku,l4,le,lo,ly,m8,mi,ms,n2,nc,nm,nw,o6,og,oq,p0,pa,pk,pu,q4,qe,qo,qy,r8,ri,rs,s2,sc,sm,sw,t6,tg,tq,u0,ua,uk,uu,v4,ve,vo,vy,w8,wi,ws,x2,xc,xr,y4,yn,yy"
+     ],
+     [
+      [
+       1
+      ],
+      "9l,af,az,be,bo,by,c8,ci,cs,d2,dc,dm,dw,e6,eg,eq,f0,fa,fk,fu,g4,ge,go,gy,h8,hi,hs,i2,ic,im,iw,j6,jg,jq,k0,ka,kk,ku,l4,le,lo,ly,m8,mi,ms,n2,nc,nm,nw,o6,og,oq,p0,pf,pu,q4,qe,qo,qy,r8,ri,rs,s2,sc,sm,sw,t6,tg,tq,u0,ua,uk,uu,v4,ve,vo,vy,w8,wi,ws,x2,xc,xr,y4,yn,yy"
+     ],
+     [
+      [
+       2
+      ],
+      "b9,by,cx,dr,el,ff,g9,h3,hx,ir,jl,kf,l9,m3,ms,nc,nw,og,p0,pk,q4,qo,r8,rs,sc,sw,tg,u0,uk,v4,vo,w8,ws,xe,xh,xw,y9,yv"
+     ]
+    ]
+   }
+  },
+  "svt-piazza-xx-settembre": {
+   "AUT-1": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "9d,9x,a7,ar,b1,bb,bl,bv,c5,cf,cp,cz,d9,dj,dt,e3,ed,en,ex,f7,fh,fr,g1,gb,gl,gv,h5,hf,hp,hz,i9,ij,it,j3,jd,jn,jx,k7,kh,kr,l1,lb,ll,lv,m5,mf,mp,mz,n9,nj,nt,o3,od,on,ox,p7,ph,pr,q1,qb,ql,qv,r5,rf,rp,rz,s9,sj,st,t3,td,tn,tx,u7,uh,ur,v1,vb,vl,vv,w5,wf,wp,wz,x9,xj,xy,yb,yu,z5"
+     ],
+     [
+      [
+       1
+      ],
+      "9s,al,b6,bl,bv,c5,cf,cp,cz,d9,dj,dt,e3,ed,en,ex,f7,fh,fr,g1,gb,gl,gv,h5,hf,hp,hz,i9,ij,it,j3,jd,jn,jx,k7,kh,kr,l1,lb,ll,lv,m5,mf,mp,mz,n9,nj,nt,o3,od,on,ox,p7,pm,q1,qb,ql,qv,r5,rf,rp,rz,s9,sj,st,t3,td,tn,tx,u7,uh,ur,v1,vb,vl,vv,w5,wf,wp,wz,x9,xh,xy,yb,yu,z4"
+     ],
+     [
+      [
+       2
+      ],
+      "bh,c6,d5,dz,es,fm,gh,hb,i4,iy,jt,kn,lg,ma,n0,nk,o3,on,p7,pr,qc,qv,rf,rz,sk,t3,to,u7,ur,vc,vw,wf,wz,xl,xo,y4,yh,z2"
+     ]
+    ]
+   },
+   "AUT-7": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "9y,ai,b7,bx,cc,cr,d5,dl,e5,ep,f9,ft,gd,gx,hh,i1,il,j0,jf,ju,k9,ko,l3,li,lx,mc,mr,n6,nl,o0,of,oz,pj,q3,qn,r7,rr,sb,sv,tf,tz,uj,v3,vn,w7,wr,xb,xv"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,b9,bz,ct,dn,eh,fb,g5,gz,ht,in,jh,kb,l5,lz,mt,nn,oh,pb,q5,qz,rt,sn,th,ub,v5,vz,wt,xn"
+     ],
+     [
+      [
+       2
+      ],
+      "b2,ch,dl,eu,g3,hc,il,ju,l3,nl,ou,q3,rc,sl,tu,v3,wc,xq"
+     ]
+    ]
+   }
+  },
+  "svt-stazione-fs-piazzale": {
+   "AUT-2": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,au,be,by,ci,d2,dm,e6,eq,fa,fu,ge,gy,hi,i2,im,j6,jq,ka,ku,le,ly,mi,n2,nm,o6,oq,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,vy,wi,x2,xm,y6"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,au,bj,cd,cx,dm,eb,f0,fu,go,hi,ic,j6,k0,ku,le,ly,ms,nm,o6,p0,pu,qo,ri,sc,t6,u0,uu,vo,wi,xc,y6"
+     ],
+     [
+      [
+       2
+      ],
+      "bo,d2,eg,fu,hi,j6,ku,mi,o6,pu,ri,t6,uu,wi,xw"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aj,b3,bn,c6,cq,d7,dw,ee,f0,fk,g4,go,h8,hs,ic,iw,jg,k0,kk,l4,lo,m8,ms,nc,nw,og,p0,pk,q4,qo,r8,rs,sc,sw,tg,u0,uo,v4,vo,w8,ws,xh,xw,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "am,bg,cb,cx,di,e9,ey,fq,gk,he,i8,j2,jw,kl,l8,lx,mo,nd,o0,ot,pn,qk,re,s8,t2,tw,uq,vk,we,x8,y2,yv"
+     ],
+     [
+      [
+       2
+      ],
+      "ba,cu,e8,fm,h5,it,kh,m5,nt,ph,r5,st,uh,w5,xt"
+     ]
+    ]
+   },
+   "AUT-17": {
+    "0": [
+     [
+      [
+       0,
+       1
+      ],
+      "nr"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0,
+       1
+      ],
+      "cs,nm"
+     ]
+    ]
+   }
+  },
+  "svt-viale-rodolfi": {
+   "AUT-2": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a8,b2,bm,c6,cq,da,du,ee,ey,fi,g2,gm,h6,hq,ia,iu,je,jy,ki,l2,lm,m6,mq,na,nu,oe,oy,pi,q2,qm,r6,rq,sa,su,te,ty,ui,v2,vm,w6,wq,xa,xu,yf"
+     ],
+     [
+      [
+       1
+      ],
+      "a9,b4,br,cl,d7,dv,ej,f8,g2,gw,hq,ik,je,k8,l2,lm,m7,n3,nw,oe,p8,q2,qw,rq,sk,te,u8,v2,vw,wq,xk,ye"
+     ],
+     [
+      [
+       2
+      ],
+      "bv,d9,en,g1,hp,jd,l1,mp,od,q1,rp,td,v1,wp,y3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aa,au,be,bw,ch,cy,dm,e4,eq,fa,fu,ge,gy,hi,i2,im,j6,jq,ka,ku,le,ly,mi,n2,nm,o6,oq,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,vy,wi,x2,xm,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,b4,by,ci,d2,dw,el,fa,g4,gy,hs,im,jg,k5,ku,lj,m8,mx,nm,og,pa,q4,qy,rs,sm,tg,ua,v4,vy,ws,xm,yg"
+     ],
+     [
+      [
+       2
+      ],
+      "b2,cl,dz,fd,gw,ik,k8,lw,nk,p8,qw,sk,u8,vw,xk"
+     ]
+    ]
+   }
+  },
+  "svt-via-lago-di-fogliano": {
+   "AUT-2": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cg,dk,f8,fs,gc,gw,hg,i0,ik,j4,jo,ks,lw,oo,p8,ps,qc,qw,rg,s0,sk,t4,to,u8,us,vc,vw,wg,x0,xk,y4,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "et,fi,gc,h6,i0,iu,jo,lw,oo,pi,qc,r6,s0,su,to,ui,vc,w6,x0,xu,yo"
+     ],
+     [
+      [
+       2
+      ],
+      "c5,dj,ex,gb,hz,jn,lb,mz,on,qb,rz,tn,vb,wz,yd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a0,ak,b4,bo,c8,cs,dc,dw,eg,f0,fk,g4,go,h8,hs,ic,iw,jg,k0,kk,l4,lo,m8,ms,nc,nw,og,p0,pk,q4,qo,r8,rs,sc,sw,tg,u0,uk,v4,vo,w8,ws,xc,y6"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,au,bo,c8,cs,dm,eb,f0,fu,go,hi,ic,j6,jv,kk,l9,ly,mn,nc,o6,p0,pu,qo,ri,sc,t6,u0,uu,vo,wi,xc,y6"
+     ],
+     [
+      [
+       2
+      ],
+      "au,cd,dr,f5,go,ic,k0,lo,nc,p0,qo,sc,u0,vo,xc"
+     ]
+    ]
+   }
+  },
+  "svt-polegge": {
+   "AUT-2": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "an,bh,c4,d8,ec,ew,kg,lt,mo,n8,ns,oc"
+     ],
+     [
+      [
+       1
+      ],
+      "ar,bl,c9,d5,dr,ef,kq,lk,mq,np,oh"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "be,bw,cd,dk,eq,ku,ly,n2,nm,o6"
+     ],
+     [
+      [
+       1
+      ],
+      "be,bw,cd,dc,e1,eq,kz,lo,n2,nw,oq"
+     ]
+    ]
+   }
+  },
+  "svt-autostazione-svt": {
+   "AUT-3": {
+    "0": [
+     [
+      [
+       3
+      ],
+      "bj,c8,ci,cs,dm,e6,f0,go,ic,k0,kk,l4,lj,m3,mn,o1,pk,qy,sm"
+     ],
+     [
+      [
+       4
+      ],
+      "bj,cs,f0,go,ic,k0,l4,mn,o6,pp,r3,t6"
+     ]
+    ],
+    "1": [
+     [
+      [
+       3
+      ],
+      "c2,cm,db,dq,ek,ez,fe,g8,hw,jk,ko,l3,li,m7,mh,n6,nq,p4,qi,s5,tp"
+     ],
+     [
+      [
+       4
+      ],
+      "cm,ek,g8,hw,jk,ko,m7,nq,pe,qn,s6,ue"
+     ]
+    ]
+   },
+   "AUT-8": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,au,bo,cd,dc,e6,fa,gy,im,ka,l4,ly,mn,nr,o6,pa,r3,sm,tl,uf,v9,vy,wx,xr"
+     ],
+     [
+      [
+       1
+      ],
+      "af,b9,cn,dw,fk,h8,iw,kp,l9,md,nr,oq,pf,r3,sr,tq,uf,vy,wx"
+     ],
+     [
+      [
+       2
+      ],
+      "dc,go,k0,lo,nc,p0,qo,sc,u0,vo,xc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aq,bw,ct,ds,eh,eu,fl,gn,id,k1,l0,mc,my,nx,ow,pk,py,qp,t7,uv,vi,we,x8,xk,yh,zg"
+     ],
+     [
+      [
+       1
+      ],
+      "af,cc,db,er,fe,gz,in,kg,m7,nn,om,p4,q4,qu,si,u9,vf,wh,x8,yw"
+     ],
+     [
+      [
+       2
+      ],
+      "eu,i3,lf,n3,ou,qf,s6,tr,vi,x3,ym"
+     ]
+    ]
+   },
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "8w,9q,aa,af,ap,b4,c3,c8,d2,dc,e1,eb,ff,g9,go,hn,ic,iw,jq,kf,kk,l4,l9,lt,m3,mn,n2,n7,nm,ob,og,p0,pa,pu,qe,r3,r8,s2,s7,sw,t1,tq,ua,uf,v4,v9,w8,wi,wx,y6,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "8w,9q,aa,af,az,b4,c3,c8,d2,dc,e1,eb,ff,g9,go,hn,ic,iw,jq,kf,kk,l4,l9,lt,m3,mn,n2,n7,nm,nw,oq,pk,qe,rd,rx,sm,tb,u0,up,ve,w3,ws,xc,y6"
+     ],
+     [
+      [
+       2
+      ],
+      "bo,f0,ic,k0,lo,nc,pa,r8,t6,v4,x2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a8,b7,br,bt,ce,ct,dr,dw,eq,f1,fq,g0,h9,ht,id,jb,k1,kk,lf,m4,me,mo,my,nh,nx,oh,ov,pa,q0,q5,qp,r4,rj,sd,ss,t7,tm,tw,ul,uq,vd,vy,w4,wp,wt,xy,y5,ya,zg,zo"
+     ],
+     [
+      [
+       1
+      ],
+      "a8,b7,br,bt,co,ct,dr,dw,eq,f1,fq,g0,h9,ht,id,jb,k0,kk,lf,m4,me,mo,my,ni,np,oh,ov,pk,qa,re,s3,t2,tm,ub,v0,vp,wc,wz,xq,ya,ym,ze"
+     ],
+     [
+      [
+       2
+      ],
+      "cx,d3,g9,gf,jl,jr,ld,mv,ol,or,qj,qp,sh,sn,uf,ul,wd,wj,yb,yf"
+     ]
+    ]
+   },
+   "AUT-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,be,m8,nr,r3,v4"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,m8,nj,v4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c9,dg,ob,pq,t2,x0"
+     ],
+     [
+      [
+       1
+      ],
+      "c9,ob,pg,x0"
+     ]
+    ]
+   },
+   "AUT-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9l,c3,ly,nj,qy,uf"
+     ],
+     [
+      [
+       1
+      ],
+      "9l,c3,ly,nj,uf"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bs,e6,ob,pq,t5,wr"
+     ],
+     [
+      [
+       1
+      ],
+      "bs,e6,ob,pq,wr"
+     ]
+    ]
+   },
+   "AUT-18": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "b9,c3,cx,dr,el,ff,g9,h3,hx,ir,jl,kf,l9,nr,ol,pf,q9,r3,rx,sr,tl,uf,v9"
+     ],
+     [
+      [
+       3
+      ],
+      "dm,eg,mi,u5"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "bu,co,di,ec,f6,g0,gu,ho,ii,jc,k6,l0,lu,oc,p6,q0,qu,ro,si,tc,u6,v0,vu"
+     ],
+     [
+      [
+       3
+      ],
+      "e2,f0,n7,up"
+     ]
+    ]
+   },
+   "AUT-19": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cd,eb,gj,im,kk,mi,ol,qo,sr,uu,wx"
+     ],
+     [
+      [
+       1
+      ],
+      "eb,gj,im,kk,mi,ol,qo,sr,uu,wx"
+     ],
+     [
+      [
+       2
+      ],
+      "eb,gj,im,kk,mi,ol,qo,sr,uu,wx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "dr,g5,i8,kg,m8,o6,q9,sc,uf,wi,yl"
+     ],
+     [
+      [
+       1
+      ],
+      "g2,i5,kd,m6,o1,q7,sa,ud,wg,yl"
+     ],
+     [
+      [
+       2
+      ],
+      "g2,i5,kd,m6,o1,q7,sa,ud,wg"
+     ]
+    ]
+   }
+  },
+  "svt-parco-citt": {
+   "AUT-3": {
+    "0": [
+     [
+      [
+       3
+      ],
+      "bw,cr,d4,dm,dz,ej,fd,h1,ip,kd,kx,lh,lw,mg,n0,oe,px,rd,t0"
+     ],
+     [
+      [
+       4
+      ],
+      "bw,d5,fd,h1,ip,kd,lh,n0,oj,q2,rg,tj"
+     ]
+    ],
+    "1": [
+     [
+      [
+       3
+      ],
+      "bo,c8,cx,dc,e6,el,f0,fu,hi,j6,ka,kp,l4,lt,m3,ms,nc,oq,q4,rn,tb"
+     ],
+     [
+      [
+       4
+      ],
+      "c8,e6,fu,hi,j6,ka,lt,nc,p0,q9,rs,u0"
+     ]
+    ]
+   }
+  },
+  "svt-viale-astichello": {
+   "AUT-3": {
+    "1": [
+     [
+      [
+       3
+      ],
+      "br,cb,d0,df,e9,eo,f3,fx,hl,j9,kd,ks,l7,lw,m6,mv,nf,ot,q7,rs,te"
+     ],
+     [
+      [
+       4
+      ],
+      "cb,e9,fx,hl,j9,kd,lw,nf,p3,qc,rv,u3"
+     ]
+    ]
+   },
+   "AUT-11": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "at,bt,ct,e7,f1,g5,jr,lz,my,nx,ow,q5,qz,si,v5,wj,x8,ym"
+     ],
+     [
+      [
+       1
+      ],
+      "bt,e7,g5,jr,lz,my,nx,ow,q5,qz,si,v5,x8"
+     ],
+     [
+      [
+       2
+      ],
+      "oq,qo,sm,uk,wi,y6"
+     ]
+    ]
+   }
+  },
+  "svt-viale-ferrarin": {
+   "AUT-4": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9q,aa,az,bo,c8,cs,dc,dw,eg,f0,fk,g4,go,h8,hs,ic,iw,jg,k0,kf,ku,le,ly,md,mx,nc,nw,ol,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,vy,wi,x2,xm"
+     ],
+     [
+      [
+       1
+      ],
+      "9l,b4,bj,by,cs,dm,eg,fa,g4,gy,hs,im,jg,ka,kk,l4,ly,ms,nm,o1,og,pa,q4,qy,rs,s7,sm,tg,ua,up,v4,vy,wx"
+     ],
+     [
+      [
+       2
+      ],
+      "au,c3,dc,el,fu,h3,ic,jl,ku,nc,ol,pu,r3,sc,tl,uu,w3,xc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "at,bs,cc,cr,d6,dq,ea,eu,fe,fy,gi,h2,hm,i6,iq,ja,ju,ke,ky,li,m2,mm,n6,nl,o0,ok,p4,pj,py,qi,r2,rm,si,sx,ta,tw,ug,uy,vi,w2,wm,xb,xq,yz"
+     ],
+     [
+      [
+       1
+      ],
+      "an,bh,cb,d5,dk,dz,et,fn,gh,hb,i5,iz,jt,kn,lh,mb,mq,n5,nz,ot,pn,q2,qh,rb,s5,sz,tt,ud,un,vh,wg,x0,xc,xz"
+     ],
+     [
+      [
+       2
+      ],
+      "bk,ct,e2,fb,gk,ht,j2,kb,lk,o2,pb,qk,rt,t2,ub,vk,wt,y2"
+     ]
+    ]
+   }
+  },
+  "svt-via-giaretta": {
+   "AUT-4": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,ay,bn,cc,cw,dg,e0,ek,f4,fo,g8,gs,hc,hw,ig,j0,jk,k4,ko,l3,li,m2,mm,n1,nl,o0,ok,p9,py,qi,r2,rm,s6,sq,td,tu,ue,uy,vi,w2,wm,x6,xr,ya"
+     ],
+     [
+      [
+       1
+      ],
+      "a7,bq,c5,ck,de,e8,f2,fw,gq,hk,ie,j8,k2,kw,l6,lq,mk,ne,o8,on,p2,pw,qq,rk,se,st,t8,u2,uw,vb,vq,wk,xj"
+     ],
+     [
+      [
+       2
+      ],
+      "bc,cl,du,f3,gc,hl,iu,k3,lc,nu,p3,qc,rl,su,u3,vc,wl,xu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a5,b4,bo,c3,ci,d2,dm,e6,eq,fa,fu,ge,gy,hi,i2,im,j6,jq,ka,ku,le,ly,mi,mx,nc,nw,og,ov,pa,pu,qe,qy,rs,s7,sm,t6,tq,ua,uu,ve,vy,wn,x2,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,au,bo,ci,cx,dc,e6,f0,fu,go,hi,ic,j6,k0,ku,lo,m3,mi,nc,o6,p0,pf,pu,qo,ri,sc,t6,tq,u0,uu,vt,wd,wn,xc"
+     ],
+     [
+      [
+       2
+      ],
+      "ax,c6,df,eo,fx,h6,if,jo,kx,nf,oo,px,r6,sf,to,ux,w6,xf"
+     ]
+    ]
+   }
+  },
+  "svt-sant-agostino": {
+   "AUT-4": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ah,b1,bq,cz,dj,en,fr,hf,j3,kr,ll,m5,mp,no,o3,pc,r7,sv,tg,tx,v1,vl,wp,xu"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,bt,c8,dh,f5,gt,ih,k5,l9,lt,nh,oq,p5,qt,sh,sw,u5,ve,vt,xm"
+     ],
+     [
+      [
+       2
+      ],
+      "bf,co,dx,f6,gf,ho,ix,k6,lf,nx,p6,qf,ro,sx,u6,vf,wo,xx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a3,b1,bl,c1,cf,dj,e3,f7,gb,hz,jn,lb,mf,mu,nt,od,os,pr,s4,tn,u7,ur,vv,wk,wz"
+     ],
+     [
+      [
+       1
+      ],
+      "ar,cf,cu,e3,fr,hf,j3,kr,m0,mf,o3,pc,pr,rf,t3,tn,ur,wa,wk"
+     ],
+     [
+      [
+       2
+      ],
+      "au,c3,dc,el,fu,h3,ic,jl,ku,nc,ol,pu,r3,sc,tl,uu,w3,xc"
+     ]
+    ]
+   }
+  },
+  "svt-valmarana": {
+   "AUT-4": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,b7,c0,lv,mz,od,ri,t6,u7,vu"
+     ],
+     [
+      [
+       1
+      ],
+      "ai,cg,lj,p0,t6,vo"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "as,bc,c6,m6,nk,oj,rv,te,ui,wb"
+     ],
+     [
+      [
+       1
+      ],
+      "ak,cl,lr,p3,te,w1"
+     ]
+    ]
+   }
+  },
+  "svt-viale-venezia-stazione": {
+   "AUT-4": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "ad,bc,bw,cb,cq,da,du,ee,ey,fi,g2,gm,h6,hq,ia,iu,je,jy,ki,l2,lm,m6,mq,n5,nk,o4,oo,p3,pi,q2,qm,r6,s2,sh,su,tg,u0,ui,v2,vm,w6,wv,xa,yj"
+     ],
+     [
+      [
+       1
+      ],
+      "aa,b4,by,cs,d7,dm,eg,fa,g4,gy,hs,im,jg,ka,l4,ly,md,ms,nm,og,pa,pp,q4,qy,rs,sm,tg,u0,ua,v4,w3,wn,wx,xm"
+     ],
+     [
+      [
+       2
+      ],
+      "b5,ce,dn,ew,g5,he,in,jw,l5,nn,ow,q5,re,sn,tw,v5,we,xn"
+     ]
+    ]
+   }
+  },
+  "svt-villaggio-del-sole": {
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "96,9l,a0,ak,b4,bj,bt,c3,ci,cx,dc,dr,e6,el,f0,ff,fu,g9,go,h3,hi,hx,ic,ir,j6,jl,k0,kf,ku,l4,le,lt,m3,mi,mx,n2,nh,nr,o6,ol,p0,pf,pu,q9,qo,r3,ri,rx,sc,sr,t6,tl,u0,uf,uu,v9,vy,wi,wx,xc,xw,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "96,a0,ak,b4,be,bt,c8,cn,d2,dm,e6,eq,fa,fu,ge,gy,hi,i2,im,j6,jl,k0,kf,ku,le,ly,md,ms,n7,nm,o6,oq,pa,pu,qe,qy,ri,s2,sm,t1,tg,tv,ua,uu,ve,vy,wi,xc,xw,yg"
+     ],
+     [
+      [
+       2
+      ],
+      "au,c3,dc,el,fu,h3,ic,jl,ku,m3,nc,ol,pu,r3,sc,tl,uu,w3,xc,yg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9v,ak,b4,bo,c4,ce,cw,de,dv,eb,eo,f3,fd,fn,fx,ga,gp,h4,hj,hy,id,is,j7,jm,k6,kg,kv,la,lq,m4,mj,mt,n8,ni,nx,oc,or,pb,pq,q0,qa,qp,r6,rj,ry,sd,su,t7,tm,u1,ug,uv,vf,vz,wj,x3,xn,yc,z5"
+     ],
+     [
+      [
+       1
+      ],
+      "9x,ar,bg,c8,cn,d2,dh,dw,eb,eq,f5,fp,g4,gj,h3,hn,i7,ir,j6,jl,k5,kp,l9,lt,m6,mn,n7,nm,nz,oh,ov,pa,pp,q9,qo,r3,rn,s7,sr,tb,u0,up,v4,vj,vz,wc,wr,x6,xq,y3,yp"
+     ],
+     [
+      [
+       2
+      ],
+      "br,cw,e5,fe,gn,hw,j5,ke,li,nv,p9,qi,rw,t5,ue,vn,x1,yf"
+     ]
+    ]
+   }
+  },
+  "svt-bolzano-vicentino": {
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,bo,cp,dp,jy,l7,mb,na,o4,pd,qm,sp,ty,wg,xn"
+     ],
+     [
+      [
+       1
+      ],
+      "bo,d0,jt,lm,n5,ot,t9,vh,yg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ak,b9,c3,dh,eq,kk,lo,ms,nm,ol,pk,r8,tb,uu,wi,y1"
+     ],
+     [
+      [
+       1
+      ],
+      "az,bt,dh,k0,ly,nm,p0,tg,w3,yg"
+     ]
+    ]
+   }
+  },
+  "svt-lisiera": {
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9z,cp,dt,e8,en,f2,fh,fw,gb,gq,h5,hk,hz,ie,it,j8,k2,lb,ma,ne,od,on,pw,qq,rk,rz,st,u2,uw,vb,ws,y6,yq,za"
+     ],
+     [
+      [
+       1
+      ],
+      "9y,c8,d4,dy,ei,f2,fm,g6,gq,ha,hu,ie,iy,k2,ma,n9,o3,p2,pm,q6,qq,ra,ru,se,ti,tx,ur,vq,ws,xc,ys,za"
+     ],
+     [
+      [
+       2
+      ],
+      "bj,ct,e2,fb,gk,ht,j2,kb,lk,mt,o2,pb,qk,rt,t2,ub,vk,ws,y1,z5"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "as,bh,br,cb,cv,dp,ee,ey,ks,lw,mb,n0,nf,nu,oe,ot,pd,ps,qm,rg,sa,tj,ui,v2,w6,wq,xf,y9,yt"
+     ],
+     [
+      [
+       1
+      ],
+      "b7,bm,c1,cv,dp,eo,k8,l5,lm,m6,my,nu,oo,p8,to,vf,wb,x8,yo"
+     ],
+     [
+      [
+       2
+      ],
+      "ay,c2,db,ek,ft,h2,ib,jk,ko,n1,of,po,r2,sb,tk,ut,w7,xl"
+     ]
+    ]
+   }
+  },
+  "svt-via-degli-eroi-quinto-vic": {
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aw,c1,d2,kk,lt,ms,o1,pq,r9,tb,ul,vt,xu"
+     ],
+     [
+      [
+       1
+      ],
+      "ax,c2,dk,kl,l0,lu,ns,ug,we"
+     ]
+    ]
+   }
+  },
+  "svt-lanz": {
+   "AUT-5": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b2,c7,d8,kt,m2,n1,oa,rm,th,uy,vz,y3"
+     ],
+     [
+      [
+       1
+      ],
+      "b4,ca,dr,kt,m2,o0,uo,wr"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b9,cd,dw,m0,n4,o3,ov,rz,u7,vv,x4,yi"
+     ],
+     [
+      [
+       1
+      ],
+      "b4,cd,e6,ku,mn,o6,v4,wx"
+     ]
+    ]
+   }
+  },
+  "svt-quinto-vicentino": {
+   "AUT-5": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "bn,cr,ea,m7,nb,oa,p9,qi,s6,ue,w2,xb,yp"
+     ],
+     [
+      [
+       1
+      ],
+      "bi,cr,ek,l1,li,mu,ok,vb,x4"
+     ]
+    ]
+   }
+  },
+  "svt-anconetta": {
+   "AUT-5": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "95,9u,ae,ay,bd,bn,c5,cn,d4,dk,dx,ec,em,ew,f6,fj,fy,gd,gs,h7,hm,i1,ig,iv,ja,jp,k4,kj,kz,ld,ls,m2,mh,mr,n6,nl,o0,ok,oz,p9,pj,py,qf,qs,r7,rm,s3,sg,sv,ta,tp,u4,uo,v8,vs,wc,ww,xl,yf,yz"
+     ],
+     [
+      [
+       1
+      ],
+      "9a,a4,at,bd,bs,c7,cm,d1,dg,dv,ea,eu,f9,fo,g8,gs,hc,hw,ib,iq,ja,ju,ke,ky,lb,ls,mc,mr,n4,nm,o0,of,ou,pe,pt,q8,qs,rc,rw,sg,t5,tu,u9,uo,v8,vn,w2,wh,x1,xe,y0,yu"
+     ],
+     [
+      [
+       2
+      ],
+      "b3,c7,dg,ep,fy,h7,ig,jp,kt,n6,ok,pt,r7,sg,tp,uy,wc,xq"
+     ]
+    ]
+   }
+  },
+  "svt-viale-dell-ippodromo": {
+   "AUT-6": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9q,ak,b9,by,cx,e6,g9,hx,j6,ka,l9,m3,nm,ol,qt,rs,sr,tq,uu,vo,ws,xr"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,bo,dc,ff,h3,ir,kf,m3,nr,pf,r3,sr,uf,wi,y1"
+     ],
+     [
+      [
+       2
+      ],
+      "aa,dc,go,kk,nm,pk,ri,tg,ve,x2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b0,bp,ck,dh,ed,fz,hk,iw,kz,ll,n2,o1,pk,pw,sh,t8,uf,v6,wa,xh,y3,yx"
+     ],
+     [
+      [
+       1
+      ],
+      "ba,cy,f0,gp,id,kf,lp,nd,pf,qp,sd,u1,w8,xt,z7"
+     ],
+     [
+      [
+       2
+      ],
+      "b9,em,hy,lp,ow,qu,ss,uq,wo,y7"
+     ]
+    ]
+   }
+  },
+  "svt-maddalene": {
+   "AUT-6": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9y,as,bh,c8,d7,eg,gj,i7,jg,kk,lj,md,nz,ov,r6,s2,t4,u0,v4,vy,x2,y1"
+     ],
+     [
+      [
+       1
+      ],
+      "ab,bz,dp,fq,he,j4,kq,me,o4,pq,re,t2,us,wv,ye"
+     ],
+     [
+      [
+       2
+      ],
+      "ah,dj,gv,kr,nt,pr,rp,tn,vl,xa"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ar,bg,ca,d7,e3,fp,ha,im,kp,lb,mp,no,p7,pm,s7,sy,u5,uw,w0,x7,xt,yn"
+     ],
+     [
+      [
+       1
+      ],
+      "b1,cp,eq,gg,i4,k5,lg,n4,p5,qg,s4,ts,vy,xj,yx"
+     ],
+     [
+      [
+       2
+      ],
+      "b0,ec,ho,lf,om,qk,si,ug,we,xx"
+     ]
+    ]
+   }
+  },
+  "svt-via-martiri-delle-foibe": {
+   "AUT-6": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ay,bn,mj,o5"
+     ]
+    ]
+   }
+  },
+  "svt-costabissara": {
+   "AUT-6": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a8,b5,bu,ci,dh,eq,gt,jq,ku,lt,mr,oc,p5,rg,sc,te,ua,ve,w8,xc,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "al,c9,dz,g0,ho,je,l0,mo,oe,q0,ro,tc,v2,x5,yo"
+     ],
+     [
+      [
+       2
+      ],
+      "ar,dt,h5,l1,o3,q1,rz,tx,vv,xk"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ak,b9,c3,d0,dw,fi,h3,ki,l4,mg,nf,oy,pf,s0,sr,ty,up,vt,x0,xm,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "au,ci,ej,g9,hx,jy,l9,mx,oy,q9,rx,tl,vr,xc,yq"
+     ],
+     [
+      [
+       2
+      ],
+      "au,e6,hi,l9,og,qe,sc,ua,w8,xr"
+     ]
+    ]
+   }
+  },
+  "svt-via-del-carso": {
+   "AUT-7": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9q,ak,b4,bo,c3,ci,cx,dc,dr,e6,eq,fa,fu,ge,gy,hi,i2,im,j6,jl,k0,kf,ku,l9,lo,m3,mi,mx,nc,nr,o6,ol,p0,pk,q4,qo,r8,rs,sc,sw,tg,u0,uk,v4,vo,wi,xc"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,b9,c3,cx,dr,el,ff,g9,h3,hx,ir,jl,kf,l9,m3,mx,nr,ol,pf,q9,r3,rx,sr,tl,uf,v9,w3,wx,xm"
+     ],
+     [
+      [
+       2
+      ],
+      "b9,c3,dc,el,fu,h3,ic,jl,ku,m3,nc,ol,pu,r3,sc,tl,uu,w3,xh"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ac,aw,bl,cc,cr,d6,dj,e0,ek,f4,fo,g8,gs,hc,hw,ig,j0,jf,ju,k9,ko,l3,li,lx,mc,mr,n6,nl,o0,of,ou,pe,py,qi,r2,rm,s6,sq,ta,tu,ue,uy,vi,w2,wm,x6,xq,ya"
+     ],
+     [
+      [
+       1
+      ],
+      "aq,bp,cg,da,e4,ey,fs,gm,hg,ia,j4,jy,ks,lm,mg,na,o4,oy,ps,qm,rg,sa,t4,ty,us,vm,wg,xa,y4"
+     ],
+     [
+      [
+       2
+      ],
+      "bj,cz,e3,fc,gl,hu,j3,kc,ll,o3,pc,ql,ru,t3,uc,vl,wu,y8"
+     ]
+    ]
+   }
+  },
+  "svt-san-pio-x": {
+   "AUT-7": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,ba,bu,ce,cy,dd,ds,e7,em,ew,fl,g5,gp,h9,ht,id,ix,jh,k1,kg,kv,la,lp,m4,mj,my,nd,ns,o7,om,p1,pg,pv,qf,qz,rj,s3,sn,t7,tr,ub,uv,vf,vy,wj,x8,y2"
+     ],
+     [
+      [
+       1
+      ],
+      "aq,c0,cy,ds,em,fg,ga,h4,hy,is,jm,kg,la,m4,my,ns,om,pg,qa,r4,ry,ss,tm,ug,va,w4,wy,xs,yc"
+     ],
+     [
+      [
+       2
+      ],
+      "bz,ct,e2,fb,gk,ht,j2,kb,lk,mt,o2,pb,qk,rt,t2,ub,vk,wt,y7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9q,aa,az,bo,c3,ci,cx,dc,dw,eg,f0,fk,g4,go,h8,hs,ic,ir,j6,jl,k0,kf,ku,l9,lo,m3,mi,mx,nc,nr,o6,oq,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,vy,wi,x2,xm"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,az,bo,ci,dc,e6,f0,fu,go,hi,ic,j6,k0,ku,lo,mi,nc,o6,p0,pu,qo,ri,sc,t6,u0,uu,vo,wi,xc"
+     ],
+     [
+      [
+       2
+      ],
+      "au,c8,dc,el,fu,h3,ic,jl,ku,nc,ol,pu,r3,sc,tl,uu,w3,xh"
+     ]
+    ]
+   }
+  },
+  "svt-torri-di-arcugnano": {
+   "AUT-8": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cs,el,hd,kp,n2,o6,pp,ri,t1,xb"
+     ],
+     [
+      [
+       1
+      ],
+      "d2,jb,lo,pu,uu,xc"
+     ],
+     [
+      [
+       2
+      ],
+      "h2,ke,pe,sq,w1"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "be,ec,g5,lu,v0"
+     ],
+     [
+      [
+       1
+      ],
+      "bu,ct,ew,lp,om,tr,vz"
+     ],
+     [
+      [
+       2
+      ],
+      "ec,oc,ro,v0"
+     ]
+    ]
+   },
+   "AUT-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "mq,o4,rg,vj"
+     ],
+     [
+      [
+       1
+      ],
+      "mq,nw,vj"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bi,cn,nl,p4,sg,wm"
+     ],
+     [
+      [
+       1
+      ],
+      "bi,nl,ou,wm"
+     ]
+    ]
+   }
+  },
+  "svt-debba": {
+   "AUT-8": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ah,bb,c5,cz,dt,es,fr,hk,j3,kw,ll,mf,n9,od,on,pw,ru,t8,u2,uw,vq,wf,xi,y8"
+     ],
+     [
+      [
+       1
+      ],
+      "aw,bq,d9,ed,g1,hp,ji,l6,lv,mv,o8,p7,q1,rk,t8,u7,v1,wf,xj"
+     ],
+     [
+      [
+       2
+      ],
+      "dt,h9,kl,m5,nt,pl,r5,sx,uh,w6,xt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a5,b9,c8,d7,dw,e6,f0,fz,hs,jg,kf,lo,md,nc,ob,ov,pa,q4,sm,ua,uu,vt,wn,x5,xw,yv"
+     ],
+     [
+      [
+       1
+      ],
+      "9v,bo,cn,e6,eq,ge,i2,jv,lj,n2,o1,og,pf,q9,rx,tl,uu,vt,wn,yb"
+     ],
+     [
+      [
+       2
+      ],
+      "e6,hi,ku,mi,o6,pu,ri,t6,uu,wi,y1"
+     ]
+    ]
+   }
+  },
+  "svt-stadio": {
+   "AUT-9": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9l,af,b4,cd,dc,el,fk,hi,jg,kk,lj,mn,nm,ov,qo,sh,tg,uk,ve,xh"
+     ],
+     [
+      [
+       1
+      ],
+      "9l,b4,dc,fk,hi,jg,lj,nm,pk,ri,tg,ve,xh"
+     ],
+     [
+      [
+       2
+      ],
+      "nm,pk,ri,tg,ve,x2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b1,bw,cy,e8,f2,gb,ha,j8,l6,ma,ni,od,pg,ql,s9,u7,va,wa,x9,z7"
+     ],
+     [
+      [
+       1
+      ],
+      "b1,cy,f2,ha,j8,l6,ni,pg,ra,t8,va,x9,z7"
+     ],
+     [
+      [
+       2
+      ],
+      "p4,r2,t0,uy,ww,yk"
+     ]
+    ]
+   },
+   "AUT-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9q,af,be,cs,dm,ev,ih,kk,lj,md,nh,oq,pk,qt,tq,v4,vy,xh"
+     ],
+     [
+      [
+       1
+      ],
+      "af,cs,ev,ih,kk,lj,md,nh,oq,pk,qt,tq,vy"
+     ],
+     [
+      [
+       2
+      ],
+      "nm,pk,ri,tg,ve,x2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b1,c2,d2,eg,fa,ge,k0,m8,n7,o6,p5,qe,r8,sr,ve,ws,xh,yv"
+     ],
+     [
+      [
+       1
+      ],
+      "c2,eg,ge,k0,m8,n7,o6,p5,qe,r8,sr,ve,xh"
+     ],
+     [
+      [
+       2
+      ],
+      "oy,qw,su,us,wq,ye"
+     ]
+    ]
+   }
+  },
+  "svt-strada-sant-antonino": {
+   "AUT-9": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9w,aq,bf,co,dn,ew,fv,ht,jr,kv,lu,my,nx,p6,qz,ss,tr,uv,vp,xs"
+     ],
+     [
+      [
+       1
+      ],
+      "9w,bf,dn,fv,ht,jr,lu,nx,pv,rt,tr,vp,xs"
+     ],
+     [
+      [
+       2
+      ],
+      "nx,pv,rt,tr,vp,xd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ar,bl,cm,dw,eq,fz,gy,iw,ku,ly,n6,o1,p4,q9,rx,tv,uy,vy,wx,yv"
+     ],
+     [
+      [
+       1
+      ],
+      "ar,cm,eq,gy,iw,ku,n6,p4,qy,sw,uy,wx,yv"
+     ],
+     [
+      [
+       2
+      ],
+      "ot,qr,sp,un,wl,y9"
+     ]
+    ]
+   }
+  },
+  "svt-cresole": {
+   "AUT-9": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,au,bj,cu,dt,f2,g1,hz,jx,l1,m0,n4,o3,pc,r5,sy,tx,v1,vv,xy"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,bj,dt,g1,hz,jx,m0,o3,q1,rz,tx,vv,xy"
+     ],
+     [
+      [
+       2
+      ],
+      "o2,q0,ry,tw,vu,xi"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "an,bh,cg,dq,ek,ft,gs,iq,ko,ls,n0,nv,oy,q3,rr,tp,us,vs,wr,yp"
+     ],
+     [
+      [
+       1
+      ],
+      "an,cg,ek,gs,iq,ko,n0,oy,qs,sq,us,wr,yp"
+     ],
+     [
+      [
+       2
+      ],
+      "oo,qm,sk,ui,wg,y4"
+     ]
+    ]
+   }
+  },
+  "svt-caldogno": {
+   "AUT-9": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a7,b1,d2,e1,fa,g9,i7,k5,l9,nc,pk,rd,t6,v9,w3,y6"
+     ],
+     [
+      [
+       1
+      ],
+      "a7,e1,g9,i7,k5,q9,s7,w3,y6"
+     ],
+     [
+      [
+       2
+      ],
+      "oa,q8,s6,u4,w2,xq"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "af,b9,c7,dh,eb,fk,gj,ih,kf,lj,mr,nm,op,pu,ri,tg,uj,vj,wi,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "af,c7,eb,gj,ih,kf,mr,op,qj,sh,uj,wi,yg"
+     ],
+     [
+      [
+       2
+      ],
+      "og,qe,sc,ua,w8,xw"
+     ]
+    ]
+   }
+  },
+  "svt-park-stadio": {
+   "AUT-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "az,be,bo,by,c8,ci,cs,d2,dc,dm,dw,e6,eg,eq,f0,fa,fk,g4,go,h8,hn,i2,ih,iw,jb,jq,k5,kk,ku,l4,le,ly,mi,n2,nm,o1,og,ov,pa,pp,q4,qj,qy,ri,s2,sm,t1,tg,tv,ua,up,v4,vj,vy,wd,ws,x7,xr,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "az,be,bt,c8,cn,d2,dh,dw,eb,eq,f5,fk,g4,go,h8,hn,i2,ih,iw,jb,jq,k5,kk,ku,l4,le,ly,mi,n2,nm,o1,og,ov,pa,pp,q4,qj,qy,ri,s2,sm,t1,tg,tv,ua,up,v4,vj,vy,wd,ws,x7,xr,yb"
+     ],
+     [
+      [
+       2
+      ],
+      "f0,fo,gc,h0,ho,ic,j0,jo,kc,l0,lo,md,n2,no,oc,p0,po,qc,r0,ro,sc,t0,to,uc,v0,vo,w8,ws,xc,xw"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "be,bt,cd,cx,d7,dh,dr,e1,el,f5,fp,fz,h3,ih,iw,jq,k5,kz,l9,lt,md,mx,nh,og,ov,pp,q4,qy,rd,t1,tg,ua,up,vj,vy,ws,xm,y6,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "be,bt,c8,cn,d2,dh,dw,eb,eq,f5,fk,fz,gj,h3,hn,i2,ih,iw,jb,jq,k5,kk,kz,l9,lj,lt,md,mx,nh,o1,og,ov,pa,pp,q4,qj,qy,rd,rx,sh,t1,tg,tv,ua,up,v4,vj,vy,wd,ws,x7,xm,y6,yq"
+     ],
+     [
+      [
+       2
+      ],
+      "ff,g3,gr,hf,i3,ir,jf,k3,kr,lf,m3,ms,nh,o3,or,pf,q3,qr,rf,s3,sr,tf,u3,ur,vf,w3,wn,x7,xr,yb"
+     ]
+    ]
+   }
+  },
+  "svt-lev-degli-angeli": {
+   "AUT-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b2,bh,br,c1,cb,cl,cv,d5,df,dp,dz,e9,ej,et,f3,fd,fn,g7,gr,hb,hq,i5,ik,iz,je,jt,k8,kn,kx,l7,lh,m1,ml,n5,np,o4,oj,oy,pd,ps,q7,qm,r1,rl,s5,sp,t4,tj,ty,ud,us,v7,vm,w1,wg,wv,xa,xu,ye"
+     ],
+     [
+      [
+       1
+      ],
+      "b2,bh,bw,cb,cq,d5,dk,dz,ee,et,f8,fn,g7,gr,hb,hq,i5,ik,iz,je,jt,k8,kn,kx,l7,lh,m1,ml,n5,np,o4,oj,oy,pd,ps,q7,qm,r1,rl,s5,sp,t4,tj,ty,ud,us,v7,vm,w1,wg,wv,xa,xu,ye"
+     ],
+     [
+      [
+       2
+      ],
+      "f3,fr,gf,h3,hr,if,j3,jr,kf,l3,lr,mg,n5,nr,of,p3,pr,qf,r3,rr,sf,t3,tr,uf,v3,vr,wb,wv,xf,xz"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b2,bh,br,c1,cb,cl,cv,d5,df,dp,dz,e9,ej,et,f3,fd,fn,g7,gr,hb,hq,i5,ik,iz,je,jt,k8,kn,kx,l7,lh,m1,ml,n5,np,o4,oj,oy,pd,ps,q7,qm,r1,rl,s5,sp,t4,tj,ty,ud,us,v7,vm,w1,wg,wv,xa,xu,ye"
+     ],
+     [
+      [
+       1
+      ],
+      "b2,bh,bw,cb,cq,d5,dk,dz,ee,et,f8,fn,g7,gr,hb,hq,i5,ik,iz,je,jt,k8,kn,kx,l7,lh,m1,ml,n5,np,o4,oj,oy,pd,ps,q7,qm,r1,rl,s5,sp,t4,tj,ty,ud,us,v7,vm,w1,wg,wv,xa,xu,ye"
+     ],
+     [
+      [
+       2
+      ],
+      "f3,fr,gf,h3,hr,if,j3,jr,kf,l3,lr,mg,n5,nr,of,p3,pr,qf,r3,rr,sf,t3,tr,uf,v3,vr,wb,wv,xf,xz"
+     ]
+    ]
+   }
+  },
+  "svt-piazza-castello": {
+   "AUT-10": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "b6,bl,bv,c5,cf,cp,cz,d9,dj,dt,e3,ed,en,ex,f7,fh,fr,gb,gv,hf,hu,i9,io,j3,ji,jx,kc,kr,l1,lb,ll,m5,mp,n9,nt,o8,on,p2,ph,pw,qb,qq,r5,rp,s9,st,t8,tn,u2,uh,uw,vb,vq,w5,wk,wz,xe,xy,yi"
+     ],
+     [
+      [
+       1
+      ],
+      "b6,bl,c0,cf,cu,d9,do,e3,ei,ex,fc,fr,gb,gv,hf,hu,i9,io,j3,ji,jx,kc,kr,l1,lb,ll,m5,mp,n9,nt,o8,on,p2,ph,pw,qb,qq,r5,rp,s9,st,t8,tn,u2,uh,uw,vb,vq,w5,wk,wz,xe,xy,yi"
+     ],
+     [
+      [
+       2
+      ],
+      "f7,fv,gj,h7,hv,ij,j7,jv,kj,l7,lv,mk,n9,nv,oj,p7,pv,qj,r7,rv,sj,t7,tv,uj,v7,vv,wf,wz,xj,y3"
+     ]
+    ]
+   }
+  },
+  "svt-via-ettore-gallo": {
+   "AUT-10": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "c5,cp,ed,ex,fh,gl,hp,i4,jd,km,ll,o3,pc,ql,rz,sj,tx,v6,wf,x9"
+     ]
+    ]
+   }
+  },
+  "svt-cavazzale": {
+   "AUT-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a7,aw,bw,da,e4,fd,iz,l2,m1,mv,nz,p8,q2,rb,u8,vm,we,xv"
+     ],
+     [
+      [
+       1
+      ],
+      "aw,da,fd,iz,l2,m1,mv,nz,p8,q2,rb,u8,we"
+     ],
+     [
+      [
+       2
+      ],
+      "o3,q1,rz,tx,vv,xj"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ak,bj,ci,dw,eq,fu,jg,lo,mn,nm,ol,pu,qo,s7,uu,w8,wx,yb"
+     ],
+     [
+      [
+       1
+      ],
+      "bj,dw,fu,jg,lo,mn,nm,ol,pu,qo,s7,uu,wx"
+     ],
+     [
+      [
+       2
+      ],
+      "og,qe,sc,ua,w8,xw"
+     ]
+    ]
+   }
+  },
+  "svt-monticello-conte-otto": {
+   "AUT-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,b3,c4,di,ec,fl,j7,la,m9,n3,o7,pg,qa,rj,ug,vu,wk,xz"
+     ],
+     [
+      [
+       1
+      ],
+      "b3,di,fl,j7,la,m9,n3,o7,pg,qa,rj,ug,wk"
+     ],
+     [
+      [
+       2
+      ],
+      "ob,q9,s7,u5,w3,xr"
+     ]
+    ]
+   }
+  },
+  "svt-fiera": {
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9a,a4,ao,b3,cn,dr,eq,go,ir,k5,ku,lj,m8,nm,ov,pf,q9,ri,sh,tg,uu,vo,wx,yl"
+     ],
+     [
+      [
+       1
+      ],
+      "9a,a4,ao,bd,cn,dr,eq,go,ir,k5,ku,lj,m8,nm,ob,p5,qt,sc,tq,v4,wi,xr"
+     ],
+     [
+      [
+       2
+      ],
+      "c2,fe,iq,ke,nq,po,rm,tk,vi,xg"
+     ]
+    ]
+   }
+  },
+  "svt-ponte-alto": {
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "am,bb,ca,d9,e8,fm,gv,hu,j3,kr,lg,ma,mu,n9,nt,oi,ph,ql,rf,se,t3,tx,uh,vb,wf,x4,yn"
+     ],
+     [
+      [
+       1
+      ],
+      "am,bb,ca,d9,e8,fm,gv,hu,j3,kr,lg,ma,mu,n9,nt,pr,rk,st,u7,vl,wz,yd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a0,az,bj,c5,do,es,fr,hk,js,l6,lv,mf,n9,on,pr,qg,ra,sj,td,uh,vz,wo,xx,zb"
+     ],
+     [
+      [
+       1
+      ],
+      "a0,az,bj,cf,do,es,fr,hk,js,l6,lv,mf,n9,on,pc,q1,ru,td,ur,w4,xi,yh"
+     ],
+     [
+      [
+       2
+      ],
+      "cp,g1,jd,mk,od,qb,s9,u7,w5,xz"
+     ]
+    ]
+   }
+  },
+  "svt-creazzo": {
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "as,bh,ci,dh,eg,fu,h3,i2,jb,kz,lo,mi,n2,nh,o1,oq,pp,qt,rn,sm,tb,u5,up,vj,wl,xa,yt"
+     ],
+     [
+      [
+       1
+      ],
+      "as,bh,ci,dh,eg,fu,h3,i2,jb,kz,lo,mi,n2,nh,o1,pz,rs,t1,uf,vs,x5,yj"
+     ],
+     [
+      [
+       2
+      ],
+      "c2,fe,iq,m2,nq,po,rm,tk,vi,xg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9w,av,bf,c0,dj,en,fm,hf,jn,l1,lq,ma,n4,oi,pm,qb,r5,se,t8,uc,vu,wj,xs,z6"
+     ],
+     [
+      [
+       1
+      ],
+      "9w,av,bf,ca,dj,en,fm,hf,jn,l1,lq,ma,n4,oi,p7,pw,rp,t8,um,vz,xd,yc"
+     ]
+    ]
+   }
+  },
+  "svt-sovizzo": {
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ay,bn,cp,do,en,g1,ha,i9,ji,l6,lv,mp,n9,no,o8,ox,pw,r0,ru,st,ti,uc,uw,vp,wr,xg,yz"
+     ],
+     [
+      [
+       1
+      ],
+      "ay,bn,cp,do,en,g1,ha,i9,ji,l6,lv,mp,n9,no,o8,q6,rz,t8,um,vy,xb,yp"
+     ],
+     [
+      [
+       2
+      ],
+      "c7,fj,iv,m7,nv,pt,rr,tp,vn,xl"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9s,ar,bb,bv,de,ei,fh,ha,ji,kw,ll,m5,mz,od,ph,q6,r0,s9,t3,u7,vq,wf,xo,z2"
+     ],
+     [
+      [
+       1
+      ],
+      "9s,ar,bb,c5,de,ei,fh,ha,ji,kw,ll,m5,mz,od,p2,pr,rk,t3,uh,vv,x9,y8"
+     ],
+     [
+      [
+       2
+      ],
+      "ci,fu,j6,md,o6,q4,s2,u0,vy,xr"
+     ]
+    ]
+   }
+  },
+  "svt-altavilla-vicentina": {
+   "AUT-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b4,bu,cw,dv,eu,g8,hh,ig,jp,ld,m2,mw,ng,nv,of,p4,q3,r7,s1,t0,tp,uj,v3,vw,wx,xm,z5"
+     ],
+     [
+      [
+       1
+      ],
+      "b4,bu,cw,dv,eu,g8,hh,ig,jp,ld,m2,mw,ng,nv,of,qd,s6,tf,ut,w4,xh,yv"
+     ],
+     [
+      [
+       2
+      ],
+      "cf,fr,j3,kr,o3,q1,rz,tx,vv,xr"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b9,c3,d2,e1,f0,gj,hn,im,jv,lo,m8,n7,nr,o6,ol,pf,qe,rn,sh,t6,tv,up,v9,w3,xc,xr,z5"
+     ],
+     [
+      [
+       1
+      ],
+      "b9,c3,d2,e1,f0,gj,hn,im,jv,lo,m8,n2,nr,o6,ov,qo,sc,tl,uz,wd,xr,yv"
+     ],
+     [
+      [
+       2
+      ],
+      "ci,fu,j6,ku,o6,q4,s2,u0,vy,xr"
+     ]
+    ]
+   }
+  },
+  "svt-viale-della-scienza": {
+   "AUT-12": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "bf,cc,db,ea,f9,gs,hw,iv,k4,lx,mh,ng,o0,of,ou,po,qn,rw,sq,tf,u4,uy,vi,wa,xj,xy,zc"
+     ],
+     [
+      [
+       1
+      ],
+      "bf,cc,db,ea,f9,gs,hw,iv,k4,lx,mh,nb,o0,of,p4,qx,sl,tu,v8,wk,xy,z2"
+     ],
+     [
+      [
+       2
+      ],
+      "co,g0,jc,l0,oc,qa,s8,u6,w4,xz"
+     ]
+    ]
+   }
+  },
+  "svt-tormeno": {
+   "AUT-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "al,bp,ml,o2,re,vh"
+     ],
+     [
+      [
+       1
+      ],
+      "al,ml,nu,vh"
+     ]
+    ]
+   }
+  },
+  "svt-lago-di-fimon": {
+   "AUT-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "be,ci,nh,p0,sa,wg"
+     ],
+     [
+      [
+       1
+      ],
+      "be,nh,oq,wg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "be,ci,nh,p0,sc,wi"
+     ],
+     [
+      [
+       1
+      ],
+      "be,nh,oq,wi"
+     ]
+    ]
+   }
+  },
+  "svt-monteviale": {
+   "AUT-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a6,cp,mk,o7,rk,v1"
+     ],
+     [
+      [
+       1
+      ],
+      "a6,cp,mk,o7,v1"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b4,dm,nr,pa,sm,w8"
+     ],
+     [
+      [
+       1
+      ],
+      "b4,dm,nr,pa,w8"
+     ]
+    ]
+   }
+  },
+  "svt-gambugliano": {
+   "AUT-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aq,d9,n2,or,s2,vl"
+     ],
+     [
+      [
+       1
+      ],
+      "aq,d9,n2,or,vl"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "au,dc,nh,p0,sc,vy"
+     ],
+     [
+      [
+       1
+      ],
+      "au,dc,nh,p0,vy"
+     ]
+    ]
+   }
+  },
+  "svt-monte-berico": {
+   "AUT-18": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "bg,ca,d4,dy,es,fm,gg,ha,i4,iy,js,km,lg,ny,os,pm,qg,ra,s4,sy,ts,um,vg"
+     ],
+     [
+      [
+       3
+      ],
+      "dt,en,mp,uc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "bo,ci,dc,e6,f0,fu,go,hi,ic,j6,k0,ku,lo,o6,p0,pu,qo,ri,sc,t6,u0,uu,vo"
+     ],
+     [
+      [
+       3
+      ],
+      "dw,eq,mx,uf"
+     ]
+    ]
+   }
+  },
+  "svt-via-zamenhof": {
+   "AUT-19": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cs,eq,gy,j1,kz,mx,p0,r3,t6,v9,xc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "da,fo,hr,jz,lr,np,ps,rv,ty,w1,y6"
+     ]
+    ]
+   }
+  },
+  "svt-via-pola": {
+   "AUT-19": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d2,f0,ha,jd,la,n7,pa,rd,th,vj,xm"
+     ],
+     [
+      [
+       1
+      ],
+      "ev,h3,j6,l4,n2,p5,r8,tb,ve,xh"
+     ],
+     [
+      [
+       2
+      ],
+      "ev,h3,j6,l4,n2,p5,r8,tb,ve,xh"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "d2,ff,hi,jq,lj,nh,pk,rn,tq,vt,y1"
+     ],
+     [
+      [
+       1
+      ],
+      "ff,hi,jq,lj,nh,pk,rn,tq,vt,y1"
+     ],
+     [
+      [
+       2
+      ],
+      "ff,hi,jq,lj,nh,pk,rn,tq,vt"
+     ]
+    ]
+   }
+  },
+  "svt-park-mercato-nuovo": {
+   "AUT-20": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "be,bo,by,c8,ci,cs,d2,dc,dm,dw,e6,eg,eq,fa,fu,ge,gy,hi,i2,im,j6,jq,ka,ku,le,ly,mi,n2,nm,o6,oq,pa,pu,qe,qy,ri,s2,sm,t6,tq,ua,uu,ve,w3,ws"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bt,c3,cd,cn,cx,d7,dh,dr,e1,eb,el,ev,f5,fp,g9,gt,hd,hx,ih,j1,jl,k5,kp,l9,lt,md,mx,nh,o1,ol,p5,pp,q9,qt,rd,rx,sh,t1,tl,u5,up,v9,vt,wi,x7"
+     ]
+    ]
+   }
+  },
+  "svt-contr-cantarane": {
+   "AUT-20": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bm,bw,c6,cg,cq,d0,da,dk,du,e4,ee,eo,ey,fi,g2,gm,h6,hq,ia,iu,je,jy,ki,l2,lm,m6,mq,na,nu,oe,oy,pi,q2,qm,r6,rq,sa,su,te,ty,ui,v2,vm,wb,x0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bm,bw,c6,cg,cq,d0,da,dk,du,e4,ee,eo,ey,fi,g2,gm,h6,hq,ia,iu,je,jy,ki,l2,lm,m6,mq,na,nu,oe,oy,pi,q2,qm,r6,rq,sa,su,te,ty,ui,v2,vm,wb,x0"
+     ]
+    ]
+   }
+  },
+  "svt-park-cricoli": {
+   "AUT-30": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b9,bo,c0,cc,co,d0,dc,do,e0,ec,eo,f0,fc,fo,g0,gc,go,h4,ho,i4,ic,io,j0,jc,jo,k0,kc,ko,l0,lc,lo,m0,mo,nc,o0,oo,pc,q0,qc,qo,r0,rc,ro,s0,sc,sp,t2,te,to,u0,uo,vc,w0,wo,xc,xw,yg"
+     ],
+     [
+      [
+       1
+      ],
+      "b9,bo,c8,cs,dc,dw,eg,f0,fk,ge,gy,hi,i2,im,j6,jq,ka,ku,le,ly,mi,n2,nm,o6,oq,pa,pu,qe,qy,ri,sc,sw,tg,u0,uk,v4,vo,w8,ws,xc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "br,c6,ci,cu,d6,di,du,e6,ei,eu,f6,fi,fu,g6,gi,gu,h6,hm,i6,im,iu,j6,ji,ju,k6,ki,ku,l6,li,lu,m6,mi,n6,nu,oi,p6,pu,qi,qu,r6,ri,ru,s6,si,su,t7,tk,tw,u6,ui,v6,vu,wi,x6,xu,ye,yy"
+     ],
+     [
+      [
+       1
+      ],
+      "bm,c1,cl,d5,dp,e9,et,fd,fx,gr,hb,hv,if,iz,jj,k3,kn,l7,lr,mb,mv,nf,nz,oj,p3,pn,q7,qr,rb,rv,sp,t9,tt,ud,ux,vh,w1,wl,x5,xp"
+     ]
+    ]
+   }
+  },
+  "svt-ospedale": {
+   "AUT-30": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "be,bt,c5,ch,ct,d5,dh,dt,e5,eh,et,f5,fh,ft,g5,gh,gt,h9,ht,i9,ih,it,j5,jh,jt,k5,kh,kt,l5,lh,lt,m5,mt,nh,o5,ot,ph,q5,qh,qt,r5,rh,rt,s5,sh,su,t7,tj,tt,u5,ut,vh,w5,wt,xh,y1,yl"
+     ]
+    ]
+   }
+  },
+  "svt-contr-canove": {
+   "AUT-30": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bj,by,ca,cm,cy,da,dm,dy,ea,em,ey,fa,fm,fy,ga,gm,gy,he,hy,ie,im,iy,ja,jm,jy,ka,km,ky,la,lm,ly,ma,my,nm,oa,oy,pm,qa,qm,qy,ra,rm,ry,sa,sm,sz,tc,to,ty,ua,uy,vm,wa,wy,xm,y6,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "be,bt,cd,cx,dh,e1,el,f5,fp,gj,h3,hn,i7,ir,jb,jv,kf,kz,lj,m3,mn,n7,nr,ob,ov,pf,pz,qj,r3,rn,sh,t1,tl,u5,up,v9,vt,wd,wx,xh"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bj,by,ca,cm,cy,da,dm,dy,ea,em,ey,fa,fm,fy,ga,gm,gy,he,hy,ie,im,iy,ja,jm,jy,ka,km,ky,la,lm,ly,ma,my,nm,oa,oy,pm,qa,qm,qy,ra,rm,ry,sa,sm,sz,tc,to,ty,ua,uy,vm,wa,wy,xm,y6,yq"
+     ],
+     [
+      [
+       1
+      ],
+      "be,bt,cd,cx,dh,e1,el,f5,fp,gj,h3,hn,i7,ir,jb,jv,kf,kz,lj,m3,mn,n7,nr,ob,ov,pf,pz,qj,r3,rn,sh,t1,tl,u5,up,v9,vt,wd,wx,xh"
+     ]
+    ]
+   }
+  }
+ }
 }

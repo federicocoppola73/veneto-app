@@ -1,6 +1,9 @@
 {
- "_nota": "Vicenza: linee SVT urbane dalle relazioni bus di OpenStreetMap (© OpenStreetMap contributors, ODbL). Generato da strumenti/costruisci_autobus_vicenza.py.",
- "validita": [],
+ "_nota": "Vicenza: orari urbani SVT, servizio invernale dal 7 settembre 2026 all'11 giugno 2027 (libretto PDF SVT). Solo le fermate indicate nel libretto. Verificare sul sito SVT. Coordinate delle fermate © OpenStreetMap contributors (ODbL).",
+ "validita": [
+  "20260907",
+  "20270611"
+ ],
  "linee": [
   {
    "id": "AUT-1",
@@ -9,70 +12,37 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-1997585739",
-      "osm-4602188498",
-      "osm-4598117772",
-      "osm-4598117773",
-      "osm-4598117775",
-      "osm-4598117774",
-      "osm-4599992645",
-      "osm-4598117776",
-      "osm-4598117777",
-      "osm-4598117778",
-      "osm-4598117779",
-      "osm-4216257336",
-      "osm-2953816302",
-      "osm-4598178891",
-      "osm-4598178892",
-      "osm-2778238298",
-      "osm-3017961046",
-      "osm-4598178893",
-      "osm-4598178894",
-      "osm-3017961043",
-      "osm-3017961040",
-      "osm-3017961038",
-      "osm-3017961036",
-      "osm-3017961034",
-      "osm-4598178895"
+      "svt-via-moneta",
+      "svt-stazione-fs",
+      "svt-viale-giuriolo",
+      "svt-bertesina",
+      "svt-bertesinella",
+      "svt-settec",
+      "svt-torri-di-quartesolo",
+      "svt-lerino"
      ],
-     "titolo": "Via Moneta → Stanga"
+     "titolo": "Zona Pomari → Centro → Stanga → (Bertesinella → Bertesina → Lerino) Stanga → (Settecà → Torri di Quartesolo)"
     },
     {
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "osm-3017961033",
-      "osm-1177294540",
-      "osm-3017961035",
-      "osm-3017961037",
-      "osm-3017961039",
-      "osm-3017961041",
-      "osm-3017961042",
-      "osm-3017961044",
-      "osm-3017961045",
-      "osm-3017961047",
-      "osm-4404768989",
-      "osm-4598003501",
-      "osm-4598003503",
-      "osm-4598003504",
-      "osm-4598003505",
-      "osm-4598003506",
-      "osm-4598003507",
-      "osm-4598003508",
-      "osm-4598025901",
-      "osm-4598025902",
-      "osm-4598025903",
-      "osm-4598025904",
-      "osm-4598043973",
-      "osm-4598117771"
+      "svt-lerino",
+      "svt-torri-di-quartesolo",
+      "svt-settec",
+      "svt-bertesina",
+      "svt-bertesinella",
+      "svt-viale-della-pace-ederle",
+      "svt-piazza-xx-settembre",
+      "svt-via-moneta"
      ],
-     "titolo": "Viale della Pace → Via Moneta"
+     "titolo": "Torri Q.lo → Lerino → Bertesina → Stanga → Centro → Zona Pomari"
     }
    ]
   },
@@ -83,58 +53,30 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-4605730825",
-      "osm-4606058610",
-      "osm-4606058612",
-      "osm-4606129692",
-      "osm-4606129693",
-      "osm-4606129695",
-      "osm-4606129697",
-      "osm-4606129700",
-      "osm-4606178168",
-      "osm-4605854115",
-      "osm-4606226678",
-      "osm-4606226679",
-      "osm-4603380005",
-      "osm-4598003503",
-      "osm-1177294540",
-      "osm-4598043973",
-      "osm-3017961047",
-      "osm-4404768989",
-      "osm-4216257335"
+      "svt-stazione-fs-piazzale",
+      "svt-viale-giuriolo",
+      "svt-viale-rodolfi",
+      "svt-via-lago-di-fogliano",
+      "svt-polegge"
      ],
-     "titolo": "Laghetto → Stazione FS"
+     "titolo": "Stazione FS → Centro Storico → Via dei Laghi → Polegge"
     },
     {
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "osm-4605730825",
-      "osm-4216257335",
-      "osm-2953816302",
-      "osm-4598178891",
-      "osm-4598178892",
-      "osm-2778238298",
-      "osm-4603380004",
-      "osm-4606226680",
-      "osm-4606226677",
-      "osm-8079334444",
-      "osm-4606178171",
-      "osm-4606129699",
-      "osm-4606129698",
-      "osm-4606129696",
-      "osm-4606129694",
-      "osm-4606129691",
-      "osm-4606058611",
-      "osm-4606058609"
+      "svt-polegge",
+      "svt-via-lago-di-fogliano",
+      "svt-viale-rodolfi",
+      "svt-stazione-fs-piazzale"
      ],
-     "titolo": "Stazione FS → Laghetto"
+     "titolo": "Polegge → Via Lago Fogliano → Centro Storico → Stazione FS"
     }
    ]
   },
@@ -145,40 +87,61 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-4216257336",
-      "osm-4216257338",
-      "osm-4216257339",
-      "osm-2953821978",
-      "osm-8079334450",
-      "osm-8079334446",
-      "osm-4605854115",
-      "osm-9931403511",
-      "osm-9574717882",
-      "osm-9574747749",
-      "osm-4606487455",
-      "osm-4606487456"
+      "svt-autostazione-svt",
+      "svt-parco-citt"
      ],
-     "titolo": "Stazione FS → Parco Città"
+     "titolo": "Autostazione SVT → Cittadella Studi → Parco Città"
     },
     {
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "osm-4606487456",
-      "osm-9574787218",
-      "osm-9574779373",
-      "osm-8079334445",
-      "osm-4606893134",
-      "osm-8079334448",
-      "osm-4216257336"
+      "svt-parco-citt",
+      "svt-viale-astichello",
+      "svt-autostazione-svt"
      ],
-     "titolo": "Parco Città → Stazione FS"
+     "titolo": "Parco Città → Cittadella Studi → Autostazione SVT"
+    }
+   ]
+  },
+  {
+   "id": "AUT-4",
+   "etichetta": "4",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-viale-ferrarin",
+      "svt-stazione-fs",
+      "svt-via-giaretta",
+      "svt-sant-agostino",
+      "svt-valmarana"
+     ],
+     "titolo": "Via Ferrarin → Centro → Via Giaretta → S. Agostino → Nogarazza → Valmarana"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-valmarana",
+      "svt-sant-agostino",
+      "svt-via-giaretta",
+      "svt-viale-venezia-stazione",
+      "svt-viale-ferrarin"
+     ],
+     "titolo": "Valmarana → Nogarazza → S. Agostino → Via Giaretta → Centro → Via Ferrarin"
     }
    ]
   },
@@ -189,45 +152,66 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-4606893116",
-      "osm-4609353488",
-      "osm-4606893120",
-      "osm-4606893122",
-      "osm-4606893124",
-      "osm-4606893128",
-      "osm-4606893129",
-      "osm-4606893131",
-      "osm-8079334447",
-      "osm-8079334448",
-      "osm-4216257336",
-      "osm-2953816302",
-      "osm-4598178891",
-      "osm-4598178892",
-      "osm-2778238298",
-      "osm-4603380004",
-      "osm-4606893135",
-      "osm-4606893137",
-      "osm-4606893138",
-      "osm-1459813703",
-      "osm-1459813725",
-      "osm-1459813742",
-      "osm-1459813748",
-      "osm-4606893140",
-      "osm-4606893141",
-      "osm-4606893144",
-      "osm-4606893147",
-      "osm-4606893149",
-      "osm-4606893151",
-      "osm-4606873173",
-      "osm-4606873175"
+      "svt-villaggio-del-sole",
+      "svt-stazione-fs",
+      "svt-viale-giuriolo",
+      "svt-bolzano-vicentino",
+      "svt-lisiera",
+      "svt-via-degli-eroi-quinto-vic",
+      "svt-lanz"
      ],
-     "titolo": "Villaggio del Sole → Ospedaletto"
+     "titolo": "Villaggio del Sole → Anconetta → Ospedaletto → Lisiera / Bolzano Vicentino / Quinto Vicentino → Valproto → Lanzè"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-lanz",
+      "svt-quinto-vicentino",
+      "svt-bolzano-vicentino",
+      "svt-lisiera",
+      "svt-anconetta",
+      "svt-villaggio-del-sole"
+     ],
+     "titolo": "Lanzè → Valproto → Quinto Vicentino / Bolzano Vicentino → Lisiera → Ospedaletto → Anconetta → Villaggio del Sole"
+    }
+   ]
+  },
+  {
+   "id": "AUT-6",
+   "etichetta": "6",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-viale-dell-ippodromo",
+      "svt-maddalene",
+      "svt-via-martiri-delle-foibe",
+      "svt-costabissara"
+     ],
+     "titolo": "Via Ippodromo → Costabissara → Motta di Costabissara"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-costabissara",
+      "svt-maddalene",
+      "svt-viale-dell-ippodromo"
+     ],
+     "titolo": "Motta di Costabissara → Costabissara → Via Ippodromo"
     }
    ]
   },
@@ -238,92 +222,342 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-4602713903",
-      "osm-4603380026",
-      "osm-1521018924",
-      "osm-4603380022",
-      "osm-4603380020",
-      "osm-4603380018",
-      "osm-4603380016",
-      "osm-3017961041",
-      "osm-4603380013",
-      "osm-4603380012",
-      "osm-4603380010",
-      "osm-4603380009",
-      "osm-4603380006",
-      "osm-4603380005",
-      "osm-4380256973",
-      "osm-4598003503",
-      "osm-1177294540",
-      "osm-4598043973",
-      "osm-3017961047",
-      "osm-4598003504",
-      "osm-4598003505",
-      "osm-4216257339",
-      "osm-2953821978",
-      "osm-4603341112",
-      "osm-4603341110",
-      "osm-4603341108",
-      "osm-4603341106",
-      "osm-4603341103",
-      "osm-3353854197",
-      "osm-4603341101",
-      "osm-4603341099",
-      "osm-10291189122",
-      "osm-4603341096",
-      "osm-4602667393",
-      "osm-4602667391",
-      "osm-4602667389"
+      "svt-via-del-carso",
+      "svt-stazione-fs",
+      "svt-viale-giuriolo",
+      "svt-san-pio-x"
      ],
-     "titolo": "capolinea San Pio X → Via del Carso"
+     "titolo": "Via del Carso → Centro → San Pio X"
     },
     {
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "osm-4602667389",
-      "osm-4602667390",
-      "osm-4602667392",
-      "osm-4603341095",
-      "osm-4603341097",
-      "osm-4603341100",
-      "osm-4603341102",
-      "osm-620146430",
-      "osm-4603341104",
-      "osm-4603341105",
-      "osm-4603341109",
-      "osm-4603341111",
-      "osm-2953821979",
-      "osm-4216257340",
-      "osm-4603341113",
-      "osm-4216257335",
-      "osm-2953816302",
-      "osm-4598178891",
-      "osm-4598178892",
-      "osm-2778238298",
-      "osm-3017961045",
-      "osm-4603380004",
-      "osm-4603380007",
-      "osm-4603380008",
-      "osm-4603380011",
-      "osm-10291189121",
-      "osm-4603380014",
-      "osm-3017961040",
-      "osm-4603380017",
-      "osm-4603380019",
-      "osm-4603380021",
-      "osm-4603380023",
-      "osm-4603380025",
-      "osm-4603380027",
-      "osm-4602713903"
+      "svt-san-pio-x",
+      "svt-piazza-xx-settembre",
+      "svt-via-del-carso"
      ],
-     "titolo": "Via del Carso → capolinea San Pio X"
+     "titolo": "San Pio X → Centro → Via del Carso"
+    }
+   ]
+  },
+  {
+   "id": "AUT-8",
+   "etichetta": "8",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-torri-di-arcugnano",
+      "svt-debba"
+     ],
+     "titolo": "Autostazione SVT → Riviera Berica → Campedello → S. Croce Bigolina → Tormeno → (Torri di Arcugnano) → Longara → Debba → Lumignano"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-debba",
+      "svt-torri-di-arcugnano",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Lumignano → Debba → (Torri di Arcugnano) → Tormeno → Riviera Berica → Autostazione SVT"
+    }
+   ]
+  },
+  {
+   "id": "AUT-9",
+   "etichetta": "9",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-stadio",
+      "svt-strada-sant-antonino",
+      "svt-cresole",
+      "svt-caldogno"
+     ],
+     "titolo": "Via Stadio → Via Giuriolo → S. Antonino → Rettorgole → Cresole → Caldogno → Nordest"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-caldogno",
+      "svt-cresole",
+      "svt-strada-sant-antonino",
+      "svt-stadio"
+     ],
+     "titolo": "Nordest → Caldogno → Cresole → Rettorgole → S. Antonino → Via Stadio"
+    }
+   ]
+  },
+  {
+   "id": "AUT-10",
+   "etichetta": "10",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-park-stadio",
+      "svt-lev-degli-angeli"
+     ],
+     "titolo": "Park Stadio → Levà degli Angeli → Centro"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-lev-degli-angeli",
+      "svt-piazza-castello",
+      "svt-park-stadio",
+      "svt-via-ettore-gallo"
+     ],
+     "titolo": "Piazza Castello → Corso Palladio → Park Stadio → Tribunale"
+    }
+   ]
+  },
+  {
+   "id": "AUT-11",
+   "etichetta": "11",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-stadio",
+      "svt-cavazzale",
+      "svt-monticello-conte-otto"
+     ],
+     "titolo": "Via Stadio → Via Giuriolo → Cavazzale → Vigardolo → Monticello Conte Otto → Cavazzale"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-cavazzale",
+      "svt-viale-astichello",
+      "svt-stadio"
+     ],
+     "titolo": "Cavazzale → Saviabona → Via Stadio"
+    }
+   ]
+  },
+  {
+   "id": "AUT-12",
+   "etichetta": "12/14",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-fiera",
+      "svt-ponte-alto",
+      "svt-creazzo",
+      "svt-sovizzo",
+      "svt-altavilla-vicentina"
+     ],
+     "titolo": "Vicenza → Zona Industriale → Altavilla (Via Giovanni XXIII)"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-sovizzo",
+      "svt-creazzo",
+      "svt-ponte-alto",
+      "svt-altavilla-vicentina",
+      "svt-viale-della-scienza",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Altavilla (Via Giovanni XXIII) → Sovizzo → Creazzo → Vicenza"
+    }
+   ]
+  },
+  {
+   "id": "AUT-13",
+   "etichetta": "13",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-tormeno",
+      "svt-torri-di-arcugnano",
+      "svt-lago-di-fimon"
+     ],
+     "titolo": "Autostazione SVT → Riviera Berica → Campedello → S. Croce Bigolina → Tormeno → (Torri di Arcugnano) → Pianezze → Fimon → Lago di Fimon"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-lago-di-fimon",
+      "svt-torri-di-arcugnano",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Lago di Fimon → Fimon → Pianezze → Torri di Arcugnano → Autostazione SVT"
+    }
+   ]
+  },
+  {
+   "id": "AUT-16",
+   "etichetta": "16",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-monteviale",
+      "svt-gambugliano"
+     ],
+     "titolo": "Autostazione SVT → Biron → Monteviale → Gambugliano"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-gambugliano",
+      "svt-monteviale",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Gambugliano → Monteviale → Biron → Autostazione SVT"
+    }
+   ]
+  },
+  {
+   "id": "AUT-17",
+   "etichetta": "17",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-stazione-fs-piazzale",
+      "svt-viale-giuriolo"
+     ],
+     "titolo": "Via Giuriolo → Casale → S. Pietro Intrigogna"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-stazione-fs-piazzale"
+     ],
+     "titolo": "S. Pietro Intrigogna → Casale → Via Giuriolo → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-18",
+   "etichetta": "18",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-monte-berico"
+     ],
+     "titolo": "Stazione FS → Monte Berico"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-monte-berico",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Monte Berico → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-19",
+   "etichetta": "19",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-autostazione-svt",
+      "svt-via-zamenhof",
+      "svt-via-pola"
+     ],
+     "titolo": "Autostazione SVT → Via Zamenhof → Motorizzazione → Area Comm. Sportiva Torri Q."
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-via-pola",
+      "svt-via-zamenhof",
+      "svt-autostazione-svt"
+     ],
+     "titolo": "Area Comm. Sportiva Torri Q. → Motorizzazione → Via Zamenhof → Autostazione SVT"
     }
    ]
   },
@@ -334,38 +568,61 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
-   "pdf": "https://www.svt.vi.it",
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "osm-4603341098",
-      "osm-4603341096",
-      "osm-280814863",
-      "osm-4606893125",
-      "osm-4606893128",
-      "osm-4606893129",
-      "osm-4606893131",
-      "osm-6203475396",
-      "osm-6201424863",
-      "osm-6201424862",
-      "osm-2953821978",
-      "osm-4606893132",
-      "osm-4606893130",
-      "osm-4606893127",
-      "osm-4606893126",
-      "osm-6203475395",
-      "osm-6203475394",
-      "osm-4603341098"
+      "svt-park-mercato-nuovo",
+      "svt-contr-cantarane"
      ],
-     "titolo": "Park Quasimodo → Park Quasimodo"
+     "titolo": "Park Mercato → Contrà Cantarane"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-contr-cantarane",
+      "svt-park-mercato-nuovo"
+     ],
+     "titolo": "Contrà Cantarane → Park Mercato"
+    }
+   ]
+  },
+  {
+   "id": "AUT-30",
+   "etichetta": "30",
+   "mezzo": "autobus",
+   "colore": "#0B6BB7",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "svt-park-cricoli",
+      "svt-ospedale",
+      "svt-contr-canove"
+     ],
+     "titolo": "Park Cricoli → Contrà San Marco → Contrà Santa Corona"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "svt-contr-canove",
+      "svt-park-cricoli"
+     ],
+     "titolo": "Contrà Santa Corona → Contrà San Marco → Park Cricoli"
     }
    ]
   }
  ],
  "fermate": {
-  "osm-1997585739": {
+  "svt-via-moneta": {
    "nome": "Via Moneta",
    "lat": 45.54008,
    "lon": 11.508622,
@@ -373,1152 +630,279 @@
     "AUT-1"
    ]
   },
-  "osm-4602188498": {
-   "nome": "Viale Fermi (parco commerciale)",
-   "lat": 45.540083,
-   "lon": 11.50995,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117772": {
-   "nome": "Via Fermi (parcheggio)",
-   "lat": 45.538583,
-   "lon": 11.510965,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117773": {
-   "nome": "Viale San Lazzaro (centro giovanile)",
-   "lat": 45.536768,
-   "lon": 11.513585,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117775": {
-   "nome": "Viale San Lazzaro (angolo Via Monteverdi)",
-   "lat": 45.538206,
-   "lon": 11.517023,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117774": {
-   "nome": "Viale San Lazzaro (angolo Via Rosini)",
-   "lat": 45.539377,
-   "lon": 11.519915,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4599992645": {
-   "nome": "Viale Verona (rotatoria)",
-   "lat": 45.540651,
-   "lon": 11.523201,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117776": {
-   "nome": "Viale Verona (albergo)",
-   "lat": 45.542286,
-   "lon": 11.527335,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117777": {
-   "nome": "Via Moneta",
-   "lat": 45.54299,
-   "lon": 11.529034,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117778": {
-   "nome": "Corso Santi Felice e Fortunato (ospedale)",
-   "lat": 45.544454,
-   "lon": 11.532544,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598117779": {
-   "nome": "Corso Santi Felice e Fortunato (INPS)",
-   "lat": 45.545231,
-   "lon": 11.534849,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4216257336": {
+  "svt-stazione-fs": {
    "nome": "Stazione FS",
-   "lat": 45.541787,
-   "lon": 11.540426,
+   "lat": 45.541791,
+   "lon": 11.541657,
    "linee": [
     "AUT-1",
-    "AUT-3",
-    "AUT-5"
-   ]
-  },
-  "osm-2953816302": {
-   "nome": "Piazza Castello",
-   "lat": 45.545921,
-   "lon": 11.541421,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
+    "AUT-4",
     "AUT-5",
     "AUT-7"
    ]
   },
-  "osm-4598178891": {
-   "nome": "Porton del Luzzo",
-   "lat": 45.543544,
-   "lon": 11.54775,
+  "svt-viale-giuriolo": {
+   "nome": "Viale Giuriolo",
+   "lat": 45.546236,
+   "lon": 11.551953,
    "linee": [
     "AUT-1",
     "AUT-2",
     "AUT-5",
-    "AUT-7"
+    "AUT-7",
+    "AUT-17"
    ]
   },
-  "osm-4598178892": {
-   "nome": "Contrà Piarda",
-   "lat": 45.545194,
-   "lon": 11.551417,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
-    "AUT-5",
-    "AUT-7"
-   ]
-  },
-  "osm-2778238298": {
-   "nome": "Piazza Matteotti",
-   "lat": 45.548123,
-   "lon": 11.55013,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
-    "AUT-5",
-    "AUT-7"
-   ]
-  },
-  "osm-3017961046": {
-   "nome": "Piazza XX Settembre",
-   "lat": 45.550195,
-   "lon": 11.551289,
+  "svt-bertesina": {
+   "nome": "Bertesina",
+   "lat": 45.559093,
+   "lon": 11.601278,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-4598178893": {
-   "nome": "Corso Padova (angolo Contrà Porta Padova)",
-   "lat": 45.549004,
-   "lon": 11.555233,
+  "svt-bertesinella": {
+   "nome": "Bertesinella",
+   "lat": 45.543108,
+   "lon": 11.601769,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-4598178894": {
-   "nome": "Corso Padova 44",
-   "lat": 45.548379,
-   "lon": 11.55664,
+  "svt-settec": {
+   "nome": "Settecà",
+   "lat": 45.527664,
+   "lon": 11.600887,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-3017961043": {
-   "nome": "Corso Padova (angolo Via Albanese)",
-   "lat": 45.547239,
-   "lon": 11.559952,
+  "svt-torri-di-quartesolo": {
+   "nome": "Torri di Quartesolo",
+   "lat": 45.518669,
+   "lon": 11.623796,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-3017961040": {
-   "nome": "Viale della Pace (benzinaio)",
-   "lat": 45.543219,
-   "lon": 11.569967,
-   "linee": [
-    "AUT-1",
-    "AUT-7"
-   ]
-  },
-  "osm-3017961038": {
-   "nome": "Viale della Pace (angolo Via Belli)",
-   "lat": 45.541899,
-   "lon": 11.574124,
+  "svt-lerino": {
+   "nome": "Lerino",
+   "lat": 45.519053,
+   "lon": 11.641431,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-3017961036": {
-   "nome": "Viale della Pace (angolo Via Casermette)",
-   "lat": 45.541366,
-   "lon": 11.576459,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961034": {
-   "nome": "Viale della Pace (caserma)",
+  "svt-viale-della-pace-ederle": {
+   "nome": "Viale della Pace (Ederle)",
    "lat": 45.540425,
    "lon": 11.580559,
    "linee": [
     "AUT-1"
    ]
   },
-  "osm-4598178895": {
-   "nome": "Stanga",
-   "lat": 45.539471,
-   "lon": 11.583293,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961033": {
-   "nome": "Viale Camisano",
-   "lat": 45.540232,
-   "lon": 11.583828,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-1177294540": {
-   "nome": "Contrà Vittorio Veneto",
-   "lat": 45.550531,
-   "lon": 11.545861,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
-    "AUT-7"
-   ]
-  },
-  "osm-3017961035": {
-   "nome": "Viale della Pace (caserma)",
-   "lat": 45.540939,
-   "lon": 11.578756,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961037": {
-   "nome": "Viale della Pace (angolo Via Casermette)",
-   "lat": 45.54163,
-   "lon": 11.575786,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961039": {
-   "nome": "Viale della Pace (angolo Via Belli)",
-   "lat": 45.542179,
-   "lon": 11.573527,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961041": {
-   "nome": "Viale della Pace (benzinaio)",
-   "lat": 45.543343,
-   "lon": 11.570078,
-   "linee": [
-    "AUT-1",
-    "AUT-7"
-   ]
-  },
-  "osm-3017961042": {
-   "nome": "Corso Padova (angolo Via Albanese)",
-   "lat": 45.546807,
-   "lon": 11.561533,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961044": {
-   "nome": "Corso Padova (angolo Contrà Porta Padova)",
-   "lat": 45.549236,
-   "lon": 11.554854,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-3017961045": {
+  "svt-piazza-xx-settembre": {
    "nome": "Piazza XX Settembre",
-   "lat": 45.550286,
-   "lon": 11.551278,
+   "lat": 45.550195,
+   "lon": 11.551289,
    "linee": [
     "AUT-1",
     "AUT-7"
    ]
   },
-  "osm-3017961047": {
-   "nome": "Piazza Castello",
-   "lat": 45.546284,
-   "lon": 11.541265,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
-    "AUT-7"
-   ]
-  },
-  "osm-4404768989": {
-   "nome": "Corso Santi Felice e Fortunato",
-   "lat": 45.545593,
-   "lon": 11.536165,
-   "linee": [
-    "AUT-1",
-    "AUT-2"
-   ]
-  },
-  "osm-4598003501": {
-   "nome": "Corso Padova 53",
-   "lat": 45.54828,
-   "lon": 11.557317,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598003503": {
-   "nome": "Largo Goethe",
-   "lat": 45.550728,
-   "lon": 11.549048,
-   "linee": [
-    "AUT-1",
-    "AUT-2",
-    "AUT-7"
-   ]
-  },
-  "osm-4598003504": {
-   "nome": "Stazione FS",
+  "svt-stazione-fs-piazzale": {
+   "nome": "Stazione FS (piazzale)",
    "lat": 45.542256,
    "lon": 11.540533,
    "linee": [
-    "AUT-1",
-    "AUT-7"
-   ]
-  },
-  "osm-4598003505": {
-   "nome": "Piazzale Bologna",
-   "lat": 45.544776,
-   "lon": 11.538052,
-   "linee": [
-    "AUT-1",
-    "AUT-7"
-   ]
-  },
-  "osm-4598003506": {
-   "nome": "Corso Santi Felice e Fortunato (ospedale)",
-   "lat": 45.544196,
-   "lon": 11.531628,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598003507": {
-   "nome": "Viale Verona (albergo)",
-   "lat": 45.542664,
-   "lon": 11.527846,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598003508": {
-   "nome": "Viale Verona (rotatoria)",
-   "lat": 45.540984,
-   "lon": 11.523525,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598025901": {
-   "nome": "Viale San Lazzaro (angolo Via Rosini)",
-   "lat": 45.539758,
-   "lon": 11.520463,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598025902": {
-   "nome": "Viale San Lazzaro (angolo Via Monteverdi)",
-   "lat": 45.538402,
-   "lon": 11.517152,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598025903": {
-   "nome": "Viale San Lazzaro (centro giovanile)",
-   "lat": 45.537019,
-   "lon": 11.513802,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598025904": {
-   "nome": "Via Fermi (parcheggio)",
-   "lat": 45.537997,
-   "lon": 11.511498,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4598043973": {
-   "nome": "Contrada San Biagio",
-   "lat": 45.549697,
-   "lon": 11.542356,
-   "linee": [
-    "AUT-1",
     "AUT-2",
-    "AUT-7"
+    "AUT-17"
    ]
   },
-  "osm-4598117771": {
-   "nome": "Viale Fermi (parco commerciale)",
-   "lat": 45.540104,
-   "lon": 11.510076,
-   "linee": [
-    "AUT-1"
-   ]
-  },
-  "osm-4605730825": {
-   "nome": "Laghetto",
-   "lat": 45.575235,
-   "lon": 11.54431,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606058610": {
-   "nome": "Via Laghi (chiesa)",
-   "lat": 45.573169,
-   "lon": 11.544319,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606058612": {
-   "nome": "Via Laghi (angolo Via Iseo)",
-   "lat": 45.571412,
-   "lon": 11.543697,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129692": {
-   "nome": "Via Laghi (angolo Via Breganze)",
-   "lat": 45.56852,
-   "lon": 11.542981,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129693": {
-   "nome": "Via Laghi (angolo Via Magenta)",
-   "lat": 45.566717,
-   "lon": 11.543271,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129695": {
-   "nome": "Via Curtatone",
-   "lat": 45.564509,
-   "lon": 11.543448,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129697": {
-   "nome": "Via Mentana",
-   "lat": 45.563725,
-   "lon": 11.541862,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129700": {
-   "nome": "Via Lamarmora (caserma)",
-   "lat": 45.561131,
-   "lon": 11.541201,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606178168": {
-   "nome": "Via Lamarmora (hotel)",
-   "lat": 45.558623,
-   "lon": 11.541686,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4605854115": {
-   "nome": "Viale Bandiera",
-   "lat": 45.557951,
-   "lon": 11.545838,
-   "linee": [
-    "AUT-2",
-    "AUT-3"
-   ]
-  },
-  "osm-4606226678": {
-   "nome": "Ospedale",
-   "lat": 45.555426,
-   "lon": 11.54857,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606226679": {
-   "nome": "Viale Rodolfi (parco)",
+  "svt-viale-rodolfi": {
+   "nome": "Viale Rodolfi",
    "lat": 45.553146,
    "lon": 11.551469,
    "linee": [
     "AUT-2"
    ]
   },
-  "osm-4603380005": {
-   "nome": "Via IV Novembre",
-   "lat": 45.552091,
-   "lon": 11.553111,
-   "linee": [
-    "AUT-2",
-    "AUT-7"
-   ]
-  },
-  "osm-4216257335": {
-   "nome": "Stazione FS",
-   "lat": 45.541766,
-   "lon": 11.54021,
-   "linee": [
-    "AUT-2",
-    "AUT-7"
-   ]
-  },
-  "osm-4603380004": {
-   "nome": "Via IV Novembre",
-   "lat": 45.551278,
-   "lon": 11.552487,
-   "linee": [
-    "AUT-2",
-    "AUT-5",
-    "AUT-7"
-   ]
-  },
-  "osm-4606226680": {
-   "nome": "Viale Rodolfi (parco)",
-   "lat": 45.553223,
-   "lon": 11.551507,
+  "svt-via-lago-di-fogliano": {
+   "nome": "Via Lago di Fogliano",
+   "lat": 45.575218,
+   "lon": 11.54434,
    "linee": [
     "AUT-2"
    ]
   },
-  "osm-4606226677": {
-   "nome": "Viale Rodolfi (ospedale)",
-   "lat": 45.557054,
-   "lon": 11.548845,
+  "svt-polegge": {
+   "nome": "Polegge",
+   "lat": 45.591531,
+   "lon": 11.543998,
    "linee": [
     "AUT-2"
    ]
   },
-  "osm-8079334444": {
-   "nome": "Via Medici (benzinaio)",
-   "lat": 45.558766,
-   "lon": 11.544844,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606178171": {
-   "nome": "Via Castelfidaro",
-   "lat": 45.561888,
-   "lon": 11.543298,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129699": {
-   "nome": "Via Lamarmora (caserma)",
-   "lat": 45.562294,
-   "lon": 11.541136,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129698": {
-   "nome": "Via Mentana",
-   "lat": 45.563627,
-   "lon": 11.541509,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129696": {
-   "nome": "Via Curtatone",
-   "lat": 45.564666,
-   "lon": 11.543569,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129694": {
-   "nome": "Via Laghi (angolo Via Magenta)",
-   "lat": 45.566144,
-   "lon": 11.543527,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606129691": {
-   "nome": "Via Laghi (angolo Via Breganze)",
-   "lat": 45.569422,
-   "lon": 11.543177,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606058611": {
-   "nome": "Via Laghi (angolo Via Iseo)",
-   "lat": 45.571776,
-   "lon": 11.543951,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4606058609": {
-   "nome": "Via Laghi (chiesa)",
-   "lat": 45.573988,
-   "lon": 11.544882,
-   "linee": [
-    "AUT-2"
-   ]
-  },
-  "osm-4216257338": {
-   "nome": "Viale Roma",
-   "lat": 45.545441,
-   "lon": 11.540295,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-4216257339": {
-   "nome": "Piazzale Giusti",
-   "lat": 45.546114,
-   "lon": 11.53799,
+  "svt-autostazione-svt": {
+   "nome": "Autostazione SVT",
+   "lat": 45.5427,
+   "lon": 11.5392,
    "linee": [
     "AUT-3",
-    "AUT-7"
+    "AUT-8",
+    "AUT-12",
+    "AUT-13",
+    "AUT-16",
+    "AUT-18",
+    "AUT-19"
    ]
   },
-  "osm-2953821978": {
-   "nome": "Via Bonollo",
-   "lat": 45.547544,
-   "lon": 11.536896,
-   "linee": [
-    "AUT-3",
-    "AUT-7",
-    "AUT-20"
-   ]
-  },
-  "osm-8079334450": {
-   "nome": "Viale Mazzini (questura)",
-   "lat": 45.549779,
-   "lon": 11.5351,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-8079334446": {
-   "nome": "Viale D'Alviano",
-   "lat": 45.553284,
-   "lon": 11.537195,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-9931403511": {
-   "nome": "Viale Astichello (cimitero acattolico)",
-   "lat": 45.557325,
-   "lon": 11.552451,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-9574717882": {
-   "nome": "Viale Astichello (scuole)",
-   "lat": 45.559441,
-   "lon": 11.553627,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-9574747749": {
-   "nome": "Viale Astichello (Boscardin)",
-   "lat": 45.562942,
-   "lon": 11.556991,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-4606487455": {
-   "nome": "Stazione FS",
-   "lat": 45.560622,
-   "lon": 11.563686,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-4606487456": {
-   "nome": "Capolinea Parco Città",
+  "svt-parco-citt": {
+   "nome": "Parco Città",
    "lat": 45.558908,
    "lon": 11.566935,
    "linee": [
     "AUT-3"
    ]
   },
-  "osm-9574787218": {
-   "nome": "Viale Astichello (Boscardin)",
-   "lat": 45.562213,
-   "lon": 11.556616,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-9574779373": {
-   "nome": "Viale Astichello (scuole)",
-   "lat": 45.559432,
-   "lon": 11.553387,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-8079334445": {
-   "nome": "Viale D'Alviano",
-   "lat": 45.5537,
-   "lon": 11.537375,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-4606893134": {
-   "nome": "Viale Mazzini (questura)",
-   "lat": 45.55102,
-   "lon": 11.535053,
-   "linee": [
-    "AUT-3"
-   ]
-  },
-  "osm-8079334448": {
-   "nome": "Viale Milano",
-   "lat": 45.544008,
-   "lon": 11.536367,
+  "svt-viale-astichello": {
+   "nome": "Viale Astichello",
+   "lat": 45.559441,
+   "lon": 11.553627,
    "linee": [
     "AUT-3",
-    "AUT-5"
+    "AUT-11"
    ]
   },
-  "osm-4606893116": {
-   "nome": "Villaggio Del Sole",
+  "svt-viale-ferrarin": {
+   "nome": "Viale Ferrarin",
+   "lat": 45.560741,
+   "lon": 11.531122,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "svt-via-giaretta": {
+   "nome": "Via Giaretta",
+   "lat": 45.530926,
+   "lon": 11.52263,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "svt-sant-agostino": {
+   "nome": "Sant'Agostino",
+   "lat": 45.516487,
+   "lon": 11.510542,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "svt-valmarana": {
+   "nome": "Valmarana",
+   "lat": 45.504437,
+   "lon": 11.493575,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "svt-viale-venezia-stazione": {
+   "nome": "Viale Venezia (stazione)",
+   "lat": 45.54152,
+   "lon": 11.54445,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "svt-villaggio-del-sole": {
+   "nome": "Villaggio del Sole",
    "lat": 45.556095,
    "lon": 11.516055,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4609353488": {
-   "nome": "Via Colombo (chiesa)",
-   "lat": 45.556809,
-   "lon": 11.518804,
+  "svt-bolzano-vicentino": {
+   "nome": "Bolzano Vicentino",
+   "lat": 45.596656,
+   "lon": 11.638377,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893120": {
-   "nome": "Via Granatieri di Sardegna",
-   "lat": 45.554108,
-   "lon": 11.520175,
+  "svt-lisiera": {
+   "nome": "Lisiera",
+   "lat": 45.579888,
+   "lon": 11.611388,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893122": {
-   "nome": "Viale Giraldi (stazione elettrica)",
-   "lat": 45.552592,
-   "lon": 11.522848,
+  "svt-via-degli-eroi-quinto-vic": {
+   "nome": "Via degli Eroi (Quinto Vic.)",
+   "lat": 45.573358,
+   "lon": 11.628054,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893124": {
-   "nome": "Via Antonini (chiesa)",
-   "lat": 45.551248,
-   "lon": 11.523892,
+  "svt-lanz": {
+   "nome": "Lanzè",
+   "lat": 45.593966,
+   "lon": 11.636863,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893128": {
-   "nome": "Viale Framarin (angolo Via Mameli)",
-   "lat": 45.548493,
-   "lon": 11.528647,
-   "linee": [
-    "AUT-5",
-    "AUT-20"
-   ]
-  },
-  "osm-4606893129": {
-   "nome": "Viale Framarin (parcheggio)",
-   "lat": 45.549026,
-   "lon": 11.531425,
-   "linee": [
-    "AUT-5",
-    "AUT-20"
-   ]
-  },
-  "osm-4606893131": {
-   "nome": "Viale Framarin (teatro)",
-   "lat": 45.549143,
-   "lon": 11.53418,
-   "linee": [
-    "AUT-5",
-    "AUT-20"
-   ]
-  },
-  "osm-8079334447": {
-   "nome": "Viale Mazzini",
-   "lat": 45.546786,
-   "lon": 11.534454,
+  "svt-quinto-vicentino": {
+   "nome": "Quinto Vicentino",
+   "lat": 45.573095,
+   "lon": 11.625603,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893135": {
-   "nome": "Borgo Scroffa 12",
-   "lat": 45.553147,
-   "lon": 11.554325,
+  "svt-anconetta": {
+   "nome": "Anconetta",
+   "lat": 45.567689,
+   "lon": 11.569682,
    "linee": [
     "AUT-5"
    ]
   },
-  "osm-4606893137": {
-   "nome": "Borgo Scroffa",
-   "lat": 45.554397,
-   "lon": 11.555739,
+  "svt-viale-dell-ippodromo": {
+   "nome": "Viale dell'Ippodromo",
+   "lat": 45.544115,
+   "lon": 11.538109,
    "linee": [
-    "AUT-5"
+    "AUT-6"
    ]
   },
-  "osm-4606893138": {
-   "nome": "Viale Trieste (cimitero)",
-   "lat": 45.556282,
-   "lon": 11.557374,
+  "svt-maddalene": {
+   "nome": "Maddalene",
+   "lat": 45.569975,
+   "lon": 11.511572,
    "linee": [
-    "AUT-5"
+    "AUT-6"
    ]
   },
-  "osm-1459813703": {
-   "nome": "Viale Trieste (parco)",
-   "lat": 45.558643,
-   "lon": 11.559718,
+  "svt-via-martiri-delle-foibe": {
+   "nome": "Via Martiri delle Foibe",
+   "lat": 45.588505,
+   "lon": 11.489032,
    "linee": [
-    "AUT-5"
+    "AUT-6"
    ]
   },
-  "osm-1459813725": {
-   "nome": "Viale Trieste (benzinaio)",
-   "lat": 45.559858,
-   "lon": 11.562213,
+  "svt-costabissara": {
+   "nome": "Costabissara",
+   "lat": 45.585542,
+   "lon": 11.487744,
    "linee": [
-    "AUT-5"
+    "AUT-6"
    ]
   },
-  "osm-1459813742": {
-   "nome": "Viale Trieste (banca)",
-   "lat": 45.561861,
-   "lon": 11.564247,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-1459813748": {
-   "nome": "Viale Trieste (angolo Via Alpino)",
-   "lat": 45.563769,
-   "lon": 11.566116,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893140": {
-   "nome": "Viale Trieste (passaggio a livello)",
-   "lat": 45.565102,
-   "lon": 11.567525,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893141": {
-   "nome": "Viale Anconetta 49",
-   "lat": 45.567459,
-   "lon": 11.569625,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893144": {
-   "nome": "Viale Anconetta (angolo Via Garzadori)",
-   "lat": 45.570502,
-   "lon": 11.575036,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893147": {
-   "nome": "Strada Postumia (benzinaio)",
-   "lat": 45.572715,
-   "lon": 11.582278,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893149": {
-   "nome": "Strada Postumia 120",
-   "lat": 45.573711,
-   "lon": 11.585557,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606893151": {
-   "nome": "Strada Postumia (Aris)",
-   "lat": 45.57528,
-   "lon": 11.590615,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606873173": {
-   "nome": "Strada Postumia (parcheggio)",
-   "lat": 45.57623,
-   "lon": 11.593822,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4606873175": {
-   "nome": "Ospedaletto",
-   "lat": 45.578186,
-   "lon": 11.597111,
-   "linee": [
-    "AUT-5"
-   ]
-  },
-  "osm-4602713903": {
-   "nome": "San Pio X",
-   "lat": 45.547175,
-   "lon": 11.570454,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380026": {
-   "nome": "Via Piazzetta",
-   "lat": 45.547088,
-   "lon": 11.568499,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-1521018924": {
-   "nome": "Via Calvi",
-   "lat": 45.549314,
-   "lon": 11.568212,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380022": {
-   "nome": "Viale Giorgione",
-   "lat": 45.549237,
-   "lon": 11.57222,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380020": {
-   "nome": "Via dalla Scola (angolo Viale Giorgione)",
-   "lat": 45.547968,
-   "lon": 11.574525,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380018": {
-   "nome": "Via dalla Scola (angolo Via Pizzardi)",
-   "lat": 45.546204,
-   "lon": 11.573698,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380016": {
-   "nome": "Piazzetta Fabiani",
-   "lat": 45.544308,
-   "lon": 11.572454,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380013": {
-   "nome": "Via Quadri",
-   "lat": 45.547568,
-   "lon": 11.563118,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380012": {
-   "nome": "Via Pizzocaro (farmacia)",
-   "lat": 45.550228,
-   "lon": 11.562743,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380010": {
-   "nome": "Via Pizzocaro (angolo Viale Fusinieri)",
-   "lat": 45.55204,
-   "lon": 11.561291,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380009": {
-   "nome": "Via Maffei",
-   "lat": 45.550894,
-   "lon": 11.558371,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603380006": {
-   "nome": "Via Gallieno",
-   "lat": 45.552211,
-   "lon": 11.554712,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4380256973": {
-   "nome": "Piazza XX Settembre",
-   "lat": 45.550416,
-   "lon": 11.551063,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341112": {
-   "nome": "Via Cairoli (teatro)",
-   "lat": 45.547771,
-   "lon": 11.532807,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341110": {
-   "nome": "Via Cairoli (angolo Via dei Mille)",
-   "lat": 45.547709,
-   "lon": 11.530214,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341108": {
-   "nome": "Viale Mercato Nuovo",
-   "lat": 45.546459,
-   "lon": 11.526838,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341106": {
-   "nome": "Viale Mercato Nuovo (chiesa)",
-   "lat": 45.545649,
-   "lon": 11.52482,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341103": {
-   "nome": "Viale Mercato Nuovo",
-   "lat": 45.542886,
-   "lon": 11.519917,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-3353854197": {
-   "nome": "Via Rossini (angolo Via Albinoni)",
-   "lat": 45.54388,
-   "lon": 11.517237,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341101": {
-   "nome": "Via Corelli (parco)",
-   "lat": 45.544401,
-   "lon": 11.516245,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341099": {
-   "nome": "Via Corelli (scuola)",
-   "lat": 45.543575,
-   "lon": 11.514456,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-10291189122": {
-   "nome": "Via Pieropan",
-   "lat": 45.546469,
-   "lon": 11.511818,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4603341096": {
-   "nome": "Strada Cattane (angolo Via Quasimodo)",
-   "lat": 45.547704,
-   "lon": 11.51313,
-   "linee": [
-    "AUT-7",
-    "AUT-20"
-   ]
-  },
-  "osm-4602667393": {
-   "nome": "Via Cavalieri di Vittorio Veneto (centro sportivo)",
-   "lat": 45.548896,
-   "lon": 11.514756,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4602667391": {
-   "nome": "Via Cavalieri di Vittorio Veneto (supermercato)",
-   "lat": 45.552,
-   "lon": 11.517203,
-   "linee": [
-    "AUT-7"
-   ]
-  },
-  "osm-4602667389": {
+  "svt-via-del-carso": {
    "nome": "Via del Carso",
    "lat": 45.553117,
    "lon": 11.517294,
@@ -1526,875 +910,470 @@
     "AUT-7"
    ]
   },
-  "osm-4602667390": {
-   "nome": "Via Cavalieri di Vittorio Veneto (supermercato)",
-   "lat": 45.552369,
-   "lon": 11.517736,
+  "svt-san-pio-x": {
+   "nome": "San Pio X",
+   "lat": 45.547175,
+   "lon": 11.570454,
    "linee": [
     "AUT-7"
    ]
   },
-  "osm-4602667392": {
-   "nome": "Via Cavalieri di Vittorio Veneto (centro sportivo)",
-   "lat": 45.549089,
-   "lon": 11.514649,
+  "svt-torri-di-arcugnano": {
+   "nome": "Torri di Arcugnano",
+   "lat": 45.49606,
+   "lon": 11.55063,
    "linee": [
-    "AUT-7"
+    "AUT-8",
+    "AUT-13"
    ]
   },
-  "osm-4603341095": {
-   "nome": "Strada Cattane (angolo Via Quasimodo)",
-   "lat": 45.547842,
-   "lon": 11.513861,
+  "svt-debba": {
+   "nome": "Debba",
+   "lat": 45.49964,
+   "lon": 11.58946,
    "linee": [
-    "AUT-7"
+    "AUT-8"
    ]
   },
-  "osm-4603341097": {
-   "nome": "Via Pieropan",
-   "lat": 45.546434,
-   "lon": 11.511661,
+  "svt-stadio": {
+   "nome": "Stadio",
+   "lat": 45.541892,
+   "lon": 11.55769,
    "linee": [
-    "AUT-7"
+    "AUT-9",
+    "AUT-11"
    ]
   },
-  "osm-4603341100": {
-   "nome": "Via Corelli (scuola)",
-   "lat": 45.543695,
-   "lon": 11.514871,
+  "svt-strada-sant-antonino": {
+   "nome": "Strada Sant'Antonino",
+   "lat": 45.579695,
+   "lon": 11.53487,
    "linee": [
-    "AUT-7"
+    "AUT-9"
    ]
   },
-  "osm-4603341102": {
-   "nome": "Via Corelli (parco)",
-   "lat": 45.544308,
-   "lon": 11.516678,
+  "svt-cresole": {
+   "nome": "Cresole",
+   "lat": 45.597092,
+   "lon": 11.552474,
    "linee": [
-    "AUT-7"
+    "AUT-9"
    ]
   },
-  "osm-620146430": {
-   "nome": "Via Rossini (angolo Via Albinoni)",
-   "lat": 45.543183,
-   "lon": 11.517546,
+  "svt-caldogno": {
+   "nome": "Caldogno",
+   "lat": 45.61184,
+   "lon": 11.50758,
    "linee": [
-    "AUT-7"
+    "AUT-9"
    ]
   },
-  "osm-4603341104": {
-   "nome": "Viale Mercato Nuovo",
-   "lat": 45.544321,
-   "lon": 11.522983,
+  "svt-park-stadio": {
+   "nome": "Park Stadio",
+   "lat": 45.543047,
+   "lon": 11.558774,
    "linee": [
-    "AUT-7"
+    "AUT-10"
    ]
   },
-  "osm-4603341105": {
-   "nome": "Viale Mercato Nuovo (chiesa)",
-   "lat": 45.545441,
-   "lon": 11.524737,
+  "svt-lev-degli-angeli": {
+   "nome": "Levà degli Angeli",
+   "lat": 45.550021,
+   "lon": 11.550077,
    "linee": [
-    "AUT-7"
+    "AUT-10"
    ]
   },
-  "osm-4603341109": {
-   "nome": "Via Cairoli (angolo Via dei Mille)",
-   "lat": 45.54738,
-   "lon": 11.529534,
+  "svt-piazza-castello": {
+   "nome": "Piazza Castello",
+   "lat": 45.545921,
+   "lon": 11.541421,
    "linee": [
-    "AUT-7"
+    "AUT-10"
    ]
   },
-  "osm-4603341111": {
-   "nome": "Via Cairoli (teatro)",
-   "lat": 45.547722,
-   "lon": 11.532659,
+  "svt-via-ettore-gallo": {
+   "nome": "Via Ettore Gallo",
+   "lat": 45.541366,
+   "lon": 11.556151,
    "linee": [
-    "AUT-7"
+    "AUT-10"
    ]
   },
-  "osm-2953821979": {
-   "nome": "Via Bonollo",
-   "lat": 45.547484,
-   "lon": 11.536631,
+  "svt-cavazzale": {
+   "nome": "Cavazzale",
+   "lat": 45.59635,
+   "lon": 11.569843,
    "linee": [
-    "AUT-7"
+    "AUT-11"
    ]
   },
-  "osm-4216257340": {
-   "nome": "Piazzale Giusti",
-   "lat": 45.546632,
-   "lon": 11.537797,
+  "svt-monticello-conte-otto": {
+   "nome": "Monticello Conte Otto",
+   "lat": 45.59518,
+   "lon": 11.580579,
    "linee": [
-    "AUT-7"
+    "AUT-11"
    ]
   },
-  "osm-4603341113": {
-   "nome": "Piazzale Bologna",
-   "lat": 45.544378,
-   "lon": 11.537951,
+  "svt-fiera": {
+   "nome": "Fiera",
+   "lat": 45.530247,
+   "lon": 11.507033,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-4603380007": {
-   "nome": "Via Gallieno",
-   "lat": 45.551846,
-   "lon": 11.555003,
+  "svt-ponte-alto": {
+   "nome": "Ponte Alto",
+   "lat": 45.533484,
+   "lon": 11.505432,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-4603380008": {
-   "nome": "Via Maffei",
-   "lat": 45.550799,
-   "lon": 11.558419,
+  "svt-creazzo": {
+   "nome": "Creazzo",
+   "lat": 45.532053,
+   "lon": 11.478581,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-4603380011": {
-   "nome": "Via Pizzocaro (angolo Viale Fusinieri)",
-   "lat": 45.551726,
-   "lon": 11.561678,
+  "svt-sovizzo": {
+   "nome": "Sovizzo",
+   "lat": 45.533,
+   "lon": 11.45,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-10291189121": {
-   "nome": "Via Pizzocaro (farmacia)",
-   "lat": 45.550163,
-   "lon": 11.562534,
+  "svt-altavilla-vicentina": {
+   "nome": "Altavilla Vicentina",
+   "lat": 45.508429,
+   "lon": 11.470686,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-4603380014": {
-   "nome": "Via Quadri",
-   "lat": 45.547519,
-   "lon": 11.562909,
+  "svt-viale-della-scienza": {
+   "nome": "Viale della Scienza",
+   "lat": 45.525849,
+   "lon": 11.502396,
    "linee": [
-    "AUT-7"
+    "AUT-12"
    ]
   },
-  "osm-4603380017": {
-   "nome": "Piazzetta Fabiani",
-   "lat": 45.544456,
-   "lon": 11.572689,
+  "svt-tormeno": {
+   "nome": "Tormeno",
+   "lat": 45.503898,
+   "lon": 11.555054,
    "linee": [
-    "AUT-7"
+    "AUT-13"
    ]
   },
-  "osm-4603380019": {
-   "nome": "Via dalla Scola (angolo Via Pizzardi)",
-   "lat": 45.546747,
-   "lon": 11.574151,
+  "svt-lago-di-fimon": {
+   "nome": "Lago di Fimon",
+   "lat": 45.46944,
+   "lon": 11.54278,
    "linee": [
-    "AUT-7"
+    "AUT-13"
    ]
   },
-  "osm-4603380021": {
-   "nome": "Via dalla Scola (angolo Viale Giorgione)",
-   "lat": 45.548724,
-   "lon": 11.574488,
+  "svt-monteviale": {
+   "nome": "Monteviale",
+   "lat": 45.560525,
+   "lon": 11.458072,
    "linee": [
-    "AUT-7"
+    "AUT-16"
    ]
   },
-  "osm-4603380023": {
-   "nome": "Viale Giorgione",
-   "lat": 45.549731,
-   "lon": 11.570899,
+  "svt-gambugliano": {
+   "nome": "Gambugliano",
+   "lat": 45.583,
+   "lon": 11.433,
    "linee": [
-    "AUT-7"
+    "AUT-16"
    ]
   },
-  "osm-4603380025": {
-   "nome": "Via Calvi",
-   "lat": 45.549161,
-   "lon": 11.568043,
+  "svt-monte-berico": {
+   "nome": "Monte Berico",
+   "lat": 45.536,
+   "lon": 11.5492,
    "linee": [
-    "AUT-7"
+    "AUT-18"
    ]
   },
-  "osm-4603380027": {
-   "nome": "Via Piazzetta",
-   "lat": 45.547005,
-   "lon": 11.568776,
+  "svt-via-zamenhof": {
+   "nome": "Via Zamenhof",
+   "lat": 45.524944,
+   "lon": 11.59091,
    "linee": [
-    "AUT-7"
+    "AUT-19"
    ]
   },
-  "osm-4603341098": {
-   "nome": "Park Quasimodo",
-   "lat": 45.545857,
-   "lon": 11.51315,
+  "svt-via-pola": {
+   "nome": "Via Pola",
+   "lat": 45.511641,
+   "lon": 11.625447,
+   "linee": [
+    "AUT-19"
+   ]
+  },
+  "svt-park-mercato-nuovo": {
+   "nome": "Park Mercato Nuovo",
+   "lat": 45.546459,
+   "lon": 11.526838,
    "linee": [
     "AUT-20"
    ]
   },
-  "osm-280814863": {
-   "nome": "Via Battaglione Val Leogra",
-   "lat": 45.548934,
-   "lon": 11.519554,
+  "svt-contr-cantarane": {
+   "nome": "Contrà Cantarane",
+   "lat": 45.549329,
+   "lon": 11.540525,
    "linee": [
     "AUT-20"
    ]
   },
-  "osm-4606893125": {
-   "nome": "Via Antonini (angolo Via Ricasoli)",
-   "lat": 45.549198,
-   "lon": 11.525633,
+  "svt-park-cricoli": {
+   "nome": "Park Cricoli",
+   "lat": 45.563386,
+   "lon": 11.547835,
    "linee": [
-    "AUT-20"
+    "AUT-30"
    ]
   },
-  "osm-6203475396": {
-   "nome": "Porta Santa Croce",
-   "lat": 45.552098,
-   "lon": 11.537234,
+  "svt-ospedale": {
+   "nome": "Ospedale",
+   "lat": 45.555426,
+   "lon": 11.54857,
    "linee": [
-    "AUT-20"
+    "AUT-30"
    ]
   },
-  "osm-6201424863": {
-   "nome": "Corso Fogazzaro",
-   "lat": 45.55084,
-   "lon": 11.53908,
+  "svt-contr-canove": {
+   "nome": "Contrà Canove",
+   "lat": 45.550742,
+   "lon": 11.547781,
    "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-6201424862": {
-   "nome": "Piazzale Mutilato",
-   "lat": 45.547937,
-   "lon": 11.53999,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-4606893132": {
-   "nome": "Viale Framarin (teatro)",
-   "lat": 45.549209,
-   "lon": 11.533416,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-4606893130": {
-   "nome": "Viale Framarin (parcheggio)",
-   "lat": 45.549088,
-   "lon": 11.530982,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-4606893127": {
-   "nome": "Viale Framarin (angolo Via Mameli)",
-   "lat": 45.548455,
-   "lon": 11.528331,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-4606893126": {
-   "nome": "Via Antonini (angolo Via Ricasoli)",
-   "lat": 45.548712,
-   "lon": 11.526131,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-6203475395": {
-   "nome": "Via Battaglione Val Leogra",
-   "lat": 45.549274,
-   "lon": 11.519747,
-   "linee": [
-    "AUT-20"
-   ]
-  },
-  "osm-6203475394": {
-   "nome": "Strada Cattane",
-   "lat": 45.547601,
-   "lon": 11.515949,
-   "linee": [
-    "AUT-20"
+    "AUT-30"
    ]
   }
  },
  "fermataLinee": {
-  "osm-1997585739": [
+  "svt-via-moneta": [
    "AUT-1"
   ],
-  "osm-4602188498": [
-   "AUT-1"
-  ],
-  "osm-4598117772": [
-   "AUT-1"
-  ],
-  "osm-4598117773": [
-   "AUT-1"
-  ],
-  "osm-4598117775": [
-   "AUT-1"
-  ],
-  "osm-4598117774": [
-   "AUT-1"
-  ],
-  "osm-4599992645": [
-   "AUT-1"
-  ],
-  "osm-4598117776": [
-   "AUT-1"
-  ],
-  "osm-4598117777": [
-   "AUT-1"
-  ],
-  "osm-4598117778": [
-   "AUT-1"
-  ],
-  "osm-4598117779": [
-   "AUT-1"
-  ],
-  "osm-4216257336": [
+  "svt-stazione-fs": [
    "AUT-1",
-   "AUT-3",
-   "AUT-5"
-  ],
-  "osm-2953816302": [
-   "AUT-1",
-   "AUT-2",
+   "AUT-4",
    "AUT-5",
    "AUT-7"
   ],
-  "osm-4598178891": [
+  "svt-viale-giuriolo": [
    "AUT-1",
    "AUT-2",
    "AUT-5",
-   "AUT-7"
-  ],
-  "osm-4598178892": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-5",
-   "AUT-7"
-  ],
-  "osm-2778238298": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-5",
-   "AUT-7"
-  ],
-  "osm-3017961046": [
-   "AUT-1"
-  ],
-  "osm-4598178893": [
-   "AUT-1"
-  ],
-  "osm-4598178894": [
-   "AUT-1"
-  ],
-  "osm-3017961043": [
-   "AUT-1"
-  ],
-  "osm-3017961040": [
-   "AUT-1",
-   "AUT-7"
-  ],
-  "osm-3017961038": [
-   "AUT-1"
-  ],
-  "osm-3017961036": [
-   "AUT-1"
-  ],
-  "osm-3017961034": [
-   "AUT-1"
-  ],
-  "osm-4598178895": [
-   "AUT-1"
-  ],
-  "osm-3017961033": [
-   "AUT-1"
-  ],
-  "osm-1177294540": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-3017961035": [
-   "AUT-1"
-  ],
-  "osm-3017961037": [
-   "AUT-1"
-  ],
-  "osm-3017961039": [
-   "AUT-1"
-  ],
-  "osm-3017961041": [
-   "AUT-1",
-   "AUT-7"
-  ],
-  "osm-3017961042": [
-   "AUT-1"
-  ],
-  "osm-3017961044": [
-   "AUT-1"
-  ],
-  "osm-3017961045": [
-   "AUT-1",
-   "AUT-7"
-  ],
-  "osm-3017961047": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-4404768989": [
-   "AUT-1",
-   "AUT-2"
-  ],
-  "osm-4598003501": [
-   "AUT-1"
-  ],
-  "osm-4598003503": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-4598003504": [
-   "AUT-1",
-   "AUT-7"
-  ],
-  "osm-4598003505": [
-   "AUT-1",
-   "AUT-7"
-  ],
-  "osm-4598003506": [
-   "AUT-1"
-  ],
-  "osm-4598003507": [
-   "AUT-1"
-  ],
-  "osm-4598003508": [
-   "AUT-1"
-  ],
-  "osm-4598025901": [
-   "AUT-1"
-  ],
-  "osm-4598025902": [
-   "AUT-1"
-  ],
-  "osm-4598025903": [
-   "AUT-1"
-  ],
-  "osm-4598025904": [
-   "AUT-1"
-  ],
-  "osm-4598043973": [
-   "AUT-1",
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-4598117771": [
-   "AUT-1"
-  ],
-  "osm-4605730825": [
-   "AUT-2"
-  ],
-  "osm-4606058610": [
-   "AUT-2"
-  ],
-  "osm-4606058612": [
-   "AUT-2"
-  ],
-  "osm-4606129692": [
-   "AUT-2"
-  ],
-  "osm-4606129693": [
-   "AUT-2"
-  ],
-  "osm-4606129695": [
-   "AUT-2"
-  ],
-  "osm-4606129697": [
-   "AUT-2"
-  ],
-  "osm-4606129700": [
-   "AUT-2"
-  ],
-  "osm-4606178168": [
-   "AUT-2"
-  ],
-  "osm-4605854115": [
-   "AUT-2",
-   "AUT-3"
-  ],
-  "osm-4606226678": [
-   "AUT-2"
-  ],
-  "osm-4606226679": [
-   "AUT-2"
-  ],
-  "osm-4603380005": [
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-4216257335": [
-   "AUT-2",
-   "AUT-7"
-  ],
-  "osm-4603380004": [
-   "AUT-2",
-   "AUT-5",
-   "AUT-7"
-  ],
-  "osm-4606226680": [
-   "AUT-2"
-  ],
-  "osm-4606226677": [
-   "AUT-2"
-  ],
-  "osm-8079334444": [
-   "AUT-2"
-  ],
-  "osm-4606178171": [
-   "AUT-2"
-  ],
-  "osm-4606129699": [
-   "AUT-2"
-  ],
-  "osm-4606129698": [
-   "AUT-2"
-  ],
-  "osm-4606129696": [
-   "AUT-2"
-  ],
-  "osm-4606129694": [
-   "AUT-2"
-  ],
-  "osm-4606129691": [
-   "AUT-2"
-  ],
-  "osm-4606058611": [
-   "AUT-2"
-  ],
-  "osm-4606058609": [
-   "AUT-2"
-  ],
-  "osm-4216257338": [
-   "AUT-3"
-  ],
-  "osm-4216257339": [
-   "AUT-3",
-   "AUT-7"
-  ],
-  "osm-2953821978": [
-   "AUT-3",
    "AUT-7",
-   "AUT-20"
+   "AUT-17"
   ],
-  "osm-8079334450": [
-   "AUT-3"
+  "svt-bertesina": [
+   "AUT-1"
   ],
-  "osm-8079334446": [
-   "AUT-3"
+  "svt-bertesinella": [
+   "AUT-1"
   ],
-  "osm-9931403511": [
-   "AUT-3"
+  "svt-settec": [
+   "AUT-1"
   ],
-  "osm-9574717882": [
-   "AUT-3"
+  "svt-torri-di-quartesolo": [
+   "AUT-1"
   ],
-  "osm-9574747749": [
-   "AUT-3"
+  "svt-lerino": [
+   "AUT-1"
   ],
-  "osm-4606487455": [
-   "AUT-3"
+  "svt-viale-della-pace-ederle": [
+   "AUT-1"
   ],
-  "osm-4606487456": [
-   "AUT-3"
+  "svt-piazza-xx-settembre": [
+   "AUT-1",
+   "AUT-7"
   ],
-  "osm-9574787218": [
-   "AUT-3"
+  "svt-stazione-fs-piazzale": [
+   "AUT-2",
+   "AUT-17"
   ],
-  "osm-9574779373": [
-   "AUT-3"
+  "svt-viale-rodolfi": [
+   "AUT-2"
   ],
-  "osm-8079334445": [
-   "AUT-3"
+  "svt-via-lago-di-fogliano": [
+   "AUT-2"
   ],
-  "osm-4606893134": [
-   "AUT-3"
+  "svt-polegge": [
+   "AUT-2"
   ],
-  "osm-8079334448": [
+  "svt-autostazione-svt": [
    "AUT-3",
+   "AUT-8",
+   "AUT-12",
+   "AUT-13",
+   "AUT-16",
+   "AUT-18",
+   "AUT-19"
+  ],
+  "svt-parco-citt": [
+   "AUT-3"
+  ],
+  "svt-viale-astichello": [
+   "AUT-3",
+   "AUT-11"
+  ],
+  "svt-viale-ferrarin": [
+   "AUT-4"
+  ],
+  "svt-via-giaretta": [
+   "AUT-4"
+  ],
+  "svt-sant-agostino": [
+   "AUT-4"
+  ],
+  "svt-valmarana": [
+   "AUT-4"
+  ],
+  "svt-viale-venezia-stazione": [
+   "AUT-4"
+  ],
+  "svt-villaggio-del-sole": [
    "AUT-5"
   ],
-  "osm-4606893116": [
+  "svt-bolzano-vicentino": [
    "AUT-5"
   ],
-  "osm-4609353488": [
+  "svt-lisiera": [
    "AUT-5"
   ],
-  "osm-4606893120": [
+  "svt-via-degli-eroi-quinto-vic": [
    "AUT-5"
   ],
-  "osm-4606893122": [
+  "svt-lanz": [
    "AUT-5"
   ],
-  "osm-4606893124": [
+  "svt-quinto-vicentino": [
    "AUT-5"
   ],
-  "osm-4606893128": [
-   "AUT-5",
+  "svt-anconetta": [
+   "AUT-5"
+  ],
+  "svt-viale-dell-ippodromo": [
+   "AUT-6"
+  ],
+  "svt-maddalene": [
+   "AUT-6"
+  ],
+  "svt-via-martiri-delle-foibe": [
+   "AUT-6"
+  ],
+  "svt-costabissara": [
+   "AUT-6"
+  ],
+  "svt-via-del-carso": [
+   "AUT-7"
+  ],
+  "svt-san-pio-x": [
+   "AUT-7"
+  ],
+  "svt-torri-di-arcugnano": [
+   "AUT-8",
+   "AUT-13"
+  ],
+  "svt-debba": [
+   "AUT-8"
+  ],
+  "svt-stadio": [
+   "AUT-9",
+   "AUT-11"
+  ],
+  "svt-strada-sant-antonino": [
+   "AUT-9"
+  ],
+  "svt-cresole": [
+   "AUT-9"
+  ],
+  "svt-caldogno": [
+   "AUT-9"
+  ],
+  "svt-park-stadio": [
+   "AUT-10"
+  ],
+  "svt-lev-degli-angeli": [
+   "AUT-10"
+  ],
+  "svt-piazza-castello": [
+   "AUT-10"
+  ],
+  "svt-via-ettore-gallo": [
+   "AUT-10"
+  ],
+  "svt-cavazzale": [
+   "AUT-11"
+  ],
+  "svt-monticello-conte-otto": [
+   "AUT-11"
+  ],
+  "svt-fiera": [
+   "AUT-12"
+  ],
+  "svt-ponte-alto": [
+   "AUT-12"
+  ],
+  "svt-creazzo": [
+   "AUT-12"
+  ],
+  "svt-sovizzo": [
+   "AUT-12"
+  ],
+  "svt-altavilla-vicentina": [
+   "AUT-12"
+  ],
+  "svt-viale-della-scienza": [
+   "AUT-12"
+  ],
+  "svt-tormeno": [
+   "AUT-13"
+  ],
+  "svt-lago-di-fimon": [
+   "AUT-13"
+  ],
+  "svt-monteviale": [
+   "AUT-16"
+  ],
+  "svt-gambugliano": [
+   "AUT-16"
+  ],
+  "svt-monte-berico": [
+   "AUT-18"
+  ],
+  "svt-via-zamenhof": [
+   "AUT-19"
+  ],
+  "svt-via-pola": [
+   "AUT-19"
+  ],
+  "svt-park-mercato-nuovo": [
    "AUT-20"
   ],
-  "osm-4606893129": [
-   "AUT-5",
+  "svt-contr-cantarane": [
    "AUT-20"
   ],
-  "osm-4606893131": [
-   "AUT-5",
-   "AUT-20"
+  "svt-park-cricoli": [
+   "AUT-30"
   ],
-  "osm-8079334447": [
-   "AUT-5"
+  "svt-ospedale": [
+   "AUT-30"
   ],
-  "osm-4606893135": [
-   "AUT-5"
-  ],
-  "osm-4606893137": [
-   "AUT-5"
-  ],
-  "osm-4606893138": [
-   "AUT-5"
-  ],
-  "osm-1459813703": [
-   "AUT-5"
-  ],
-  "osm-1459813725": [
-   "AUT-5"
-  ],
-  "osm-1459813742": [
-   "AUT-5"
-  ],
-  "osm-1459813748": [
-   "AUT-5"
-  ],
-  "osm-4606893140": [
-   "AUT-5"
-  ],
-  "osm-4606893141": [
-   "AUT-5"
-  ],
-  "osm-4606893144": [
-   "AUT-5"
-  ],
-  "osm-4606893147": [
-   "AUT-5"
-  ],
-  "osm-4606893149": [
-   "AUT-5"
-  ],
-  "osm-4606893151": [
-   "AUT-5"
-  ],
-  "osm-4606873173": [
-   "AUT-5"
-  ],
-  "osm-4606873175": [
-   "AUT-5"
-  ],
-  "osm-4602713903": [
-   "AUT-7"
-  ],
-  "osm-4603380026": [
-   "AUT-7"
-  ],
-  "osm-1521018924": [
-   "AUT-7"
-  ],
-  "osm-4603380022": [
-   "AUT-7"
-  ],
-  "osm-4603380020": [
-   "AUT-7"
-  ],
-  "osm-4603380018": [
-   "AUT-7"
-  ],
-  "osm-4603380016": [
-   "AUT-7"
-  ],
-  "osm-4603380013": [
-   "AUT-7"
-  ],
-  "osm-4603380012": [
-   "AUT-7"
-  ],
-  "osm-4603380010": [
-   "AUT-7"
-  ],
-  "osm-4603380009": [
-   "AUT-7"
-  ],
-  "osm-4603380006": [
-   "AUT-7"
-  ],
-  "osm-4380256973": [
-   "AUT-7"
-  ],
-  "osm-4603341112": [
-   "AUT-7"
-  ],
-  "osm-4603341110": [
-   "AUT-7"
-  ],
-  "osm-4603341108": [
-   "AUT-7"
-  ],
-  "osm-4603341106": [
-   "AUT-7"
-  ],
-  "osm-4603341103": [
-   "AUT-7"
-  ],
-  "osm-3353854197": [
-   "AUT-7"
-  ],
-  "osm-4603341101": [
-   "AUT-7"
-  ],
-  "osm-4603341099": [
-   "AUT-7"
-  ],
-  "osm-10291189122": [
-   "AUT-7"
-  ],
-  "osm-4603341096": [
-   "AUT-7",
-   "AUT-20"
-  ],
-  "osm-4602667393": [
-   "AUT-7"
-  ],
-  "osm-4602667391": [
-   "AUT-7"
-  ],
-  "osm-4602667389": [
-   "AUT-7"
-  ],
-  "osm-4602667390": [
-   "AUT-7"
-  ],
-  "osm-4602667392": [
-   "AUT-7"
-  ],
-  "osm-4603341095": [
-   "AUT-7"
-  ],
-  "osm-4603341097": [
-   "AUT-7"
-  ],
-  "osm-4603341100": [
-   "AUT-7"
-  ],
-  "osm-4603341102": [
-   "AUT-7"
-  ],
-  "osm-620146430": [
-   "AUT-7"
-  ],
-  "osm-4603341104": [
-   "AUT-7"
-  ],
-  "osm-4603341105": [
-   "AUT-7"
-  ],
-  "osm-4603341109": [
-   "AUT-7"
-  ],
-  "osm-4603341111": [
-   "AUT-7"
-  ],
-  "osm-2953821979": [
-   "AUT-7"
-  ],
-  "osm-4216257340": [
-   "AUT-7"
-  ],
-  "osm-4603341113": [
-   "AUT-7"
-  ],
-  "osm-4603380007": [
-   "AUT-7"
-  ],
-  "osm-4603380008": [
-   "AUT-7"
-  ],
-  "osm-4603380011": [
-   "AUT-7"
-  ],
-  "osm-10291189121": [
-   "AUT-7"
-  ],
-  "osm-4603380014": [
-   "AUT-7"
-  ],
-  "osm-4603380017": [
-   "AUT-7"
-  ],
-  "osm-4603380019": [
-   "AUT-7"
-  ],
-  "osm-4603380021": [
-   "AUT-7"
-  ],
-  "osm-4603380023": [
-   "AUT-7"
-  ],
-  "osm-4603380025": [
-   "AUT-7"
-  ],
-  "osm-4603380027": [
-   "AUT-7"
-  ],
-  "osm-4603341098": [
-   "AUT-20"
-  ],
-  "osm-280814863": [
-   "AUT-20"
-  ],
-  "osm-4606893125": [
-   "AUT-20"
-  ],
-  "osm-6203475396": [
-   "AUT-20"
-  ],
-  "osm-6201424863": [
-   "AUT-20"
-  ],
-  "osm-6201424862": [
-   "AUT-20"
-  ],
-  "osm-4606893132": [
-   "AUT-20"
-  ],
-  "osm-4606893130": [
-   "AUT-20"
-  ],
-  "osm-4606893127": [
-   "AUT-20"
-  ],
-  "osm-4606893126": [
-   "AUT-20"
-  ],
-  "osm-6203475395": [
-   "AUT-20"
-  ],
-  "osm-6203475394": [
-   "AUT-20"
+  "svt-contr-canove": [
+   "AUT-30"
   ]
  }
 }
