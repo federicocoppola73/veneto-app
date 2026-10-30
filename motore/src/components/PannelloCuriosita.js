@@ -6,7 +6,7 @@ import { fotoCuriosita } from '../immaginiCuriosita';
 import { fotoCibo } from '../immaginiCibi';
 import { testoLocalizzato } from '../i18n';
 
-const PORTATE = ['cicchetto', 'primo', 'secondo', 'dolce'];
+const PORTATE = ['cicchetto', 'primo', 'secondo', 'contorno', 'dolce'];
 
 const ANTEPRIME = 3;
 

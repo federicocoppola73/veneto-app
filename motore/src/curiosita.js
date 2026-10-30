@@ -11,7 +11,7 @@ export function inizializzaCuriosita() {
   CIBI = DATI_CIBI.cibi;
 }
 // icona di segnaposto per i piatti senza foto (lista e cartolina)
-export const ICONE_PORTATA = { cicchetto: '🍤', primo: '🍝', secondo: '🐟', dolce: '🍪' };
+export const ICONE_PORTATA = { cicchetto: '🍤', primo: '🍝', secondo: '🐟', contorno: '🥗', dolce: '🍪' };
 
 // Coordinate di una curiosità: quelle proprie, oppure quelle del luogo collegato (luogo_id).
 export function posizioneCuriosita(c, luoghiPerId) {
