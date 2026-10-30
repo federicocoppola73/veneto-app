@@ -1,4 +1,993 @@
 {
- "_nota": "Cosa mangiare: piatti tipici vicentini, da preparare.",
- "cibi": []
+  "_nota": "Cosa mangiare: piatti tipici vicentini. Foto da aggiungere (assets/cibi/<id>.webp).",
+  "cibi": [
+    {
+      "id": "baccala-alla-vicentina",
+      "nome": "Baccalà alla vicentina",
+      "portata": "secondo",
+      "testo": {
+        "it": "Stoccafisso ammollato, cotto a fuoco lento con cipolla, acciughe, latte e olio fino a diventare una crema. Si serve caldo con polenta, simbolo della cucina vicentina.",
+        "en": "Soaked dried cod, slowly cooked with onion, anchovies, milk and oil until it turns creamy. Served hot with polenta, the symbol of Vicenza's cuisine.",
+        "fr": "Stockfish trempé, cuit lentement avec oignon, anchois, lait et huile jusqu'à obtenir une crème. Servi chaud avec de la polenta, symbole de la cuisine vicentine.",
+        "de": "Eingeweichter Stockfisch, langsam gegart mit Zwiebel, Sardellen, Milch und Öl, bis er cremig wird. Heiß serviert mit Polenta, dem Symbol der Vicentiner Küche.",
+        "es": "Bacalao seco remojado, cocinado a fuego lento con cebolla, anchoas, leche y aceite hasta formar una crema. Se sirve caliente con polenta, símbolo de la cocina vicentina."
+      },
+      "ricetta": {
+        "fonte": "https://www.ricettedalmondo.it/baccala-alla-vicentina.html",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "20 min + 3 giorni di ammollo; circa 1 ora di cottura",
+          "en": "20 min + 3 days of soaking; about 1 hour of cooking",
+          "fr": "20 min + 3 jours de trempage ; environ 1 h de cuisson",
+          "de": "20 Min. + 3 Tage Wässern; ca. 1 Std. Garzeit",
+          "es": "20 min + 3 días de remojo; alrededor de 1 hora de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "800 g di baccalà o stoccafisso ammollato",
+            "250 ml di latte intero",
+            "180 ml di olio extravergine d'oliva",
+            "100 g di cipolla bianca",
+            "3 filetti di acciuga sott'olio",
+            "20 g di Parmigiano grattugiato",
+            "Farina q.b.",
+            "Prezzemolo q.b.",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "800 g soaked dried cod (baccalà or stockfish)",
+            "250 ml whole milk",
+            "180 ml extra virgin olive oil",
+            "100 g white onion",
+            "3 anchovy fillets in oil",
+            "20 g grated Parmesan",
+            "Flour as needed",
+            "Parsley to taste",
+            "Salt and pepper to taste"
+          ],
+          "fr": [
+            "800 g de morue séchée trempée (baccalà ou stockfish)",
+            "250 ml de lait entier",
+            "180 ml d'huile d'olive extra vierge",
+            "100 g d'oignon blanc",
+            "3 filets d'anchois à l'huile",
+            "20 g de Parmesan râpé",
+            "Farine selon besoin",
+            "Persil selon goût",
+            "Sel et poivre selon goût"
+          ],
+          "de": [
+            "800 g eingeweichter Stockfisch (Baccalà)",
+            "250 ml Vollmilch",
+            "180 ml natives Olivenöl extra",
+            "100 g weiße Zwiebel",
+            "3 Sardellenfilets in Öl",
+            "20 g geriebener Parmesan",
+            "Mehl nach Bedarf",
+            "Petersilie nach Geschmack",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "800 g de bacalao remojado (baccalà o stoccafisso)",
+            "250 ml de leche entera",
+            "180 ml de aceite de oliva virgen extra",
+            "100 g de cebolla blanca",
+            "3 filetes de anchoa en aceite",
+            "20 g de Parmesano rallado",
+            "Harina según necesidad",
+            "Perejil al gusto",
+            "Sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Ammolla lo stoccafisso in acqua corrente per circa tre giorni, poi puliscilo con cura togliendo lische e pelle, e taglialo a pezzi.",
+            "Infarina i pezzi di baccalà.",
+            "In una casseruola scalda l'olio e soffriggi la cipolla tritata con le acciughe finché si sciolgono.",
+            "Aggiungi il baccalà, il latte, il prezzemolo tritato, sale e pepe.",
+            "Cuoci a fuoco basso per circa un'ora, mescolando spesso, finché il latte si riduce a crema.",
+            "Unisci il Parmigiano, amalgama e servi caldo con la polenta."
+          ],
+          "en": [
+            "Soak the stockfish in running water for about three days, then clean it carefully, removing bones and skin, and cut it into pieces.",
+            "Dust the cod pieces with flour.",
+            "In a pan heat the oil and sauté the chopped onion with the anchovies until they melt.",
+            "Add the cod, the milk, chopped parsley, salt and pepper.",
+            "Cook over low heat for about an hour, stirring often, until the milk reduces to a cream.",
+            "Stir in the Parmesan, mix well and serve hot with polenta."
+          ],
+          "fr": [
+            "Faites tremper la morue dans de l'eau courante pendant environ trois jours, puis nettoyez-la soigneusement en retirant arêtes et peau, et coupez-la en morceaux.",
+            "Farinez les morceaux de morue.",
+            "Dans une casserole, chauffez l'huile et faites revenir l'oignon haché avec les anchois jusqu'à ce qu'ils fondent.",
+            "Ajoutez la morue, le lait, le persil haché, le sel et le poivre.",
+            "Faites cuire à feu doux environ une heure, en remuant souvent, jusqu'à ce que le lait se réduise en crème.",
+            "Incorporez le Parmesan, mélangez et servez chaud avec de la polenta."
+          ],
+          "de": [
+            "Den Stockfisch etwa drei Tage in fließendem Wasser wässern, dann sorgfältig säubern, Gräten und Haut entfernen und in Stücke schneiden.",
+            "Die Fischstücke mit Mehl bestäuben.",
+            "In einem Topf das Öl erhitzen und die gehackte Zwiebel mit den Sardellen anschwitzen, bis diese zerfallen.",
+            "Den Stockfisch, die Milch, die gehackte Petersilie, Salz und Pfeffer hinzufügen.",
+            "Etwa eine Stunde bei schwacher Hitze garen und oft umrühren, bis die Milch zu einer Creme eingekocht ist.",
+            "Den Parmesan unterrühren, gut vermischen und heiß mit Polenta servieren."
+          ],
+          "es": [
+            "Remoje el bacalao en agua corriente durante unos tres días, después límpielo con cuidado quitando espinas y piel, y córtelo en trozos.",
+            "Enharine los trozos de bacalao.",
+            "En una cazuela caliente el aceite y sofría la cebolla picada con las anchoas hasta que se deshagan.",
+            "Añada el bacalao, la leche, el perejil picado, sal y pimienta.",
+            "Cocine a fuego lento durante una hora, removiendo a menudo, hasta que la leche se reduzca a crema.",
+            "Incorpore el Parmesano, mezcle bien y sirva caliente con polenta."
+          ]
+        }
+      }
+    },
+    {
+      "id": "capon-ala-canevera",
+      "nome": "Capòn ala canevèra",
+      "portata": "secondo",
+      "testo": {
+        "it": "Cappone bollito dentro una vescica di maiale, con una canna palustre (la canevèra) che fa da sfiato: il vapore e il fondo di cottura restano dentro, e a tavola si versa la salsa sulla carne. Una preparazione antica e di lunga cottura.",
+        "en": "Capon boiled inside a pig's bladder, with a marsh reed (the canevèra) acting as a vent: steam and cooking juices stay inside, and at the table the sauce is poured over the meat. An old preparation with long cooking.",
+        "fr": "Chapon bouilli dans une vessie de porc, avec un roseau des marais (la canevèra) servant d'évent : la vapeur et le jus de cuisson restent à l'intérieur, et à table on verse la sauce sur la viande. Une préparation ancienne et de longue cuisson.",
+        "de": "Kapaun, in einer Schweinsblase gekocht, mit einem Schilfrohr (der canevèra) als Entlüftung: Dampf und Bratensaft bleiben im Inneren, und bei Tisch wird die Soße über das Fleisch gegossen. Eine alte Zubereitung mit langer Garzeit.",
+        "es": "Capón hervido dentro de una vejiga de cerdo, con una caña de marisma (la canevèra) como respiradero: el vapor y el jugo de cocción quedan dentro, y en la mesa se vierte la salsa sobre la carne. Una preparación antigua de cocción larga."
+      },
+      "ricetta": {
+        "fonte": "https://visiteurope.com/en/experience/boiled-capon-with-vegetables",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "30 min + circa 3 ore di cottura",
+          "en": "30 min + about 3 hours of cooking",
+          "fr": "30 min + environ 3 h de cuisson",
+          "de": "30 Min. + ca. 3 Std. Garzeit",
+          "es": "30 min + unas 3 horas de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "1 cappone",
+            "1 vescica di maiale",
+            "1 canna palustre (canevèra) o di bambù",
+            "1 gambo di sedano",
+            "1 carota",
+            "1 cipolla",
+            "2 spicchi d'aglio",
+            "Alloro, rosmarino e pepe in grani",
+            "12 cl di olio extravergine d'oliva",
+            "Sale"
+          ],
+          "en": [
+            "1 capon",
+            "1 pig's bladder",
+            "1 marsh reed (canevèra) or bamboo cane",
+            "1 celery stalk",
+            "1 carrot",
+            "1 onion",
+            "2 garlic cloves",
+            "Bay leaf, rosemary and peppercorns",
+            "12 cl extra virgin olive oil",
+            "Salt"
+          ],
+          "fr": [
+            "1 chapon",
+            "1 vessie de porc",
+            "1 roseau des marais (canevèra) ou une canne de bambou",
+            "1 branche de céleri",
+            "1 carotte",
+            "1 oignon",
+            "2 gousses d'ail",
+            "Laurier, romarin et poivre en grains",
+            "12 cl d'huile d'olive extra vierge",
+            "Sel"
+          ],
+          "de": [
+            "1 Kapaun",
+            "1 Schweinsblase",
+            "1 Schilfrohr (canevèra) oder Bambusstab",
+            "1 Stange Sellerie",
+            "1 Karotte",
+            "1 Zwiebel",
+            "2 Knoblauchzehen",
+            "Lorbeer, Rosmarin und Pfefferkörner",
+            "12 cl natives Olivenöl extra",
+            "Salz"
+          ],
+          "es": [
+            "1 capón",
+            "1 vejiga de cerdo",
+            "1 caña de marisma (canevèra) o de bambú",
+            "1 tallo de apio",
+            "1 zanahoria",
+            "1 cebolla",
+            "2 dientes de ajo",
+            "Laurel, romero y pimienta en grano",
+            "12 cl de aceite de oliva virgen extra",
+            "Sal"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Elimina le interiora e pulisci il cappone; riempilo con le verdure tagliate a dadini, le erbe, sale, pepe e olio.",
+            "Lega le cosce con lo spago e inserisci la canevèra al centro.",
+            "Infila il cappone nella vescica di maiale, lasciando uscire un po' della canna come sfiato.",
+            "Metti tutto in una pentola con molta acqua salata e fai bollire per circa 3 ore.",
+            "Servi il cappone a pezzi, con la salsa che si è formata sul fondo della vescica."
+          ],
+          "en": [
+            "Remove the innards and clean the capon; fill it with vegetables cut into small cubes, herbs, salt, pepper and oil.",
+            "Tie the thighs with kitchen twine and insert the canevèra in the middle.",
+            "Put the capon into the pig's bladder, letting part of the cane stick out as a vent.",
+            "Place everything in a pot with plenty of salted water and boil for about 3 hours.",
+            "Serve the capon in pieces, with the sauce formed at the bottom of the bladder."
+          ],
+          "fr": [
+            "Retirez les abats et nettoyez le chapon ; farcissez-le de légumes coupés en petits dés, d'herbes, de sel, de poivre et d'huile.",
+            "Ficelez les cuisses et insérez la canevèra au centre.",
+            "Glissez le chapon dans la vessie de porc, en laissant dépasser un peu de la canne comme évent.",
+            "Mettez le tout dans une casserole d'eau salée abondante et faites bouillir environ 3 heures.",
+            "Servez le chapon en morceaux, avec la sauce formée au fond de la vessie."
+          ],
+          "de": [
+            "Innereien entfernen und den Kapaun säubern; mit in kleine Würfel geschnittenem Gemüse, Kräutern, Salz, Pfeffer und Öl füllen.",
+            "Die Keulen mit Küchengarn binden und die canevèra in die Mitte stecken.",
+            "Den Kapaun in die Schweinsblase stecken, wobei etwas vom Rohr als Entlüftung herausragt.",
+            "Alles in einen Topf mit viel gesalzenem Wasser geben und etwa 3 Stunden kochen.",
+            "Den Kapaun in Stücken servieren, mit der Soße, die sich am Boden der Blase gebildet hat."
+          ],
+          "es": [
+            "Quite las vísceras y limpie el capón; rellénelo con verduras cortadas en cubos pequeños, hierbas, sal, pimienta y aceite.",
+            "Ate los muslos con cuerda de cocina e inserte la canevèra en el centro.",
+            "Introduzca el capón en la vejiga de cerdo, dejando salir un poco la caña como respiradero.",
+            "Ponga todo en una olla con mucha agua salada y hierva durante unas 3 horas.",
+            "Sirva el capón en trozos, con la salsa que se ha formado en el fondo de la vejiga."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gargati-col-consiero",
+      "nome": "Gargati col consiéro",
+      "portata": "primo",
+      "testo": {
+        "it": "Gargati, pasta fresca all'uovo a tubetto rigato, condita con il consiéro: un ragù di carni (spesso lardo, pollo, maiale e vitello) con verdure di stagione, come piselli e asparagi in primavera.",
+        "en": "Gargati, short fresh egg pasta tubes with ridges, dressed with consiéro: a meat ragù (often lardo, chicken, pork and veal) with seasonal vegetables such as peas and asparagus in spring.",
+        "fr": "Gargati, petits tubes de pâte fraîche aux œufs et striés, nappés de consiéro : un ragoût de viandes (souvent lard, poulet, porc et veau) avec des légumes de saison, comme les petits pois et les asperges au printemps.",
+        "de": "Gargati, kurze, geriffelte Röhren aus frischem Eierteig, mit Consiéro serviert: ein Fleischragout (oft mit Lardo, Hähnchen, Schwein und Kalb) mit saisonalem Gemüse, im Frühling etwa Erbsen und Spargel.",
+        "es": "Gargati, tubos cortos de pasta fresca al huevo con estrías, aliñados con consiéro: un ragú de carnes (a menudo lardo, pollo, cerdo y ternera) con verduras de temporada, como guisantes y espárragos en primavera."
+      },
+      "ricetta": {
+        "fonte": "https://www.the-pasta-project.com/gargati-with-spring-ragu-il-consiero/",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "30 min + circa 45 min di cottura",
+          "en": "30 min + about 45 min of cooking",
+          "fr": "30 min + environ 45 min de cuisson",
+          "de": "30 Min. + ca. 45 Min. Garzeit",
+          "es": "30 min + unos 45 min de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "400 g di gargati (o altra pasta corta a tubetto)",
+            "120 g di filetto di maiale",
+            "120 g di filetto di vitello",
+            "120 g di petto di pollo",
+            "60 g di lardo (o guanciale)",
+            "1 carota, 1 cipolla e olio extravergine d'oliva",
+            "Piselli freschi e punte di asparagi (in primavera)",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "400 g gargati (or other short tube pasta)",
+            "120 g pork tenderloin",
+            "120 g veal tenderloin",
+            "120 g chicken breast",
+            "60 g lardo (or guanciale)",
+            "1 carrot, 1 onion and extra virgin olive oil",
+            "Fresh peas and asparagus tips (in spring)",
+            "Salt and pepper to taste"
+          ],
+          "fr": [
+            "400 g de gargati (ou une autre pâte courte à tubes)",
+            "120 g de filet de porc",
+            "120 g de filet de veau",
+            "120 g de blanc de poulet",
+            "60 g de lard (ou guanciale)",
+            "1 carotte, 1 oignon et de l'huile d'olive extra vierge",
+            "Petits pois frais et pointes d'asperges (au printemps)",
+            "Sel et poivre selon goût"
+          ],
+          "de": [
+            "400 g Gargati (oder andere kurze Röhrennudeln)",
+            "120 g Schweinefilet",
+            "120 g Kalbsfilet",
+            "120 g Hähnchenbrust",
+            "60 g Lardo (oder Guanciale)",
+            "1 Karotte, 1 Zwiebel und natives Olivenöl extra",
+            "Frische Erbsen und Spargelspitzen (im Frühling)",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "400 g de gargati (u otra pasta corta de tubo)",
+            "120 g de solomillo de cerdo",
+            "120 g de solomillo de ternera",
+            "120 g de pechuga de pollo",
+            "60 g de lardo (o guanciale)",
+            "1 zanahoria, 1 cebolla y aceite de oliva virgen extra",
+            "Guisantes frescos y puntas de espárrago (en primavera)",
+            "Sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Fai sciogliere il lardo tritato in padella con olio, carota e cipolla tritate.",
+            "Aggiungi le carni tagliate a dadini e falle rosolare.",
+            "Unisci i piselli e le punte di asparago tagliate a pezzetti e cuoci a fuoco dolce finché le verdure sono morbide.",
+            "Regola di sale e pepe.",
+            "Cuoci i gargati in acqua salata, scolali e condiscili con il consiéro."
+          ],
+          "en": [
+            "Melt the chopped lardo in a pan with oil, chopped carrot and onion.",
+            "Add the meat cut into small cubes and brown it.",
+            "Add the peas and the asparagus tips cut into pieces and cook over low heat until the vegetables are soft.",
+            "Season with salt and pepper.",
+            "Cook the gargati in salted water, drain them and toss them with the consiéro."
+          ],
+          "fr": [
+            "Faites fondre le lard haché dans une poêle avec l'huile, la carotte et l'oignon hachés.",
+            "Ajoutez la viande coupée en dés et faites-la dorer.",
+            "Ajoutez les petits pois et les pointes d'asperges coupées en morceaux, et cuisez à feu doux jusqu'à ce que les légumes soient tendres.",
+            "Salez et poivrez.",
+            "Faites cuire les gargati dans de l'eau salée, égouttez-les et enrobez-les de consiéro."
+          ],
+          "de": [
+            "Den gehackten Lardo mit Öl, gehackter Karotte und Zwiebel in der Pfanne ausbraten.",
+            "Das in Würfel geschnittene Fleisch dazugeben und anbraten.",
+            "Erbsen und die in Stücke geschnittenen Spargelspitzen hinzufügen und bei schwacher Hitze garen, bis das Gemüse weich ist.",
+            "Mit Salz und Pfeffer würzen.",
+            "Die Gargati in Salzwasser kochen, abgießen und mit dem Consiéro vermengen."
+          ],
+          "es": [
+            "Derrita el lardo picado en una sartén con aceite, zanahoria y cebolla picadas.",
+            "Añada la carne cortada en cubos y dórela.",
+            "Incorpore los guisantes y las puntas de espárrago cortadas en trozos, y cocine a fuego lento hasta que las verduras estén tiernas.",
+            "Salpimente al gusto.",
+            "Cueza los gargati en agua salada, escúrralos y mézclelos con el consiéro."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gnocchi-con-la-fioretta",
+      "nome": "Gnocchi con la fioretta",
+      "portata": "primo",
+      "testo": {
+        "it": "Gnocchi morbidi fatti con la fioretta, una ricotta semiliquida tipica della zona di Recoaro Terme, impastata con farina e uovo. Si condiscono con burro e salvia e con ricotta stagionata grattugiata.",
+        "en": "Soft gnocchi made with fioretta, a semi-liquid ricotta typical of the Recoaro Terme area, mixed with flour and egg. Dressed with butter and sage and grated aged ricotta.",
+        "fr": "Gnocchi moelleux à la fioretta, une ricotta semi-liquide typique de la région de Recoaro Terme, mélangée à de la farine et un œuf. Nappés de beurre et de sauge, et de ricotta affinée râpée.",
+        "de": "Weiche Gnocchi aus Fioretta, einem halbflüssigen Ricotta aus der Gegend um Recoaro Terme, mit Mehl und Ei vermengt. Mit Butter und Salbei sowie gerieben gereifter Ricotta serviert.",
+        "es": "Ñoquis suaves hechos con fioretta, una ricotta semilíquida típica de la zona de Recoaro Terme, mezclada con harina y huevo. Se aliñan con mantequilla y salvia y ricotta curada rallada."
+      },
+      "ricetta": {
+        "fonte": "https://cookpad.wasmer.app/eng/recipes/13963340",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "20 min",
+          "en": "20 min",
+          "fr": "20 min",
+          "de": "20 Min.",
+          "es": "20 min"
+        },
+        "ingredienti": {
+          "it": [
+            "250 g di fioretta (ricotta semiliquida)",
+            "300 g di farina 00",
+            "1 uovo",
+            "5 g di sale",
+            "50 g di burro",
+            "Foglie di salvia q.b.",
+            "Ricotta stagionata grattugiata q.b."
+          ],
+          "en": [
+            "250 g fioretta (semi-liquid ricotta)",
+            "300 g 00 flour",
+            "1 egg",
+            "5 g salt",
+            "50 g butter",
+            "Sage leaves to taste",
+            "Grated aged ricotta to taste"
+          ],
+          "fr": [
+            "250 g de fioretta (ricotta semi-liquide)",
+            "300 g de farine 00",
+            "1 œuf",
+            "5 g de sel",
+            "50 g de beurre",
+            "Feuilles de sauge selon goût",
+            "Ricotta affinée râpée selon goût"
+          ],
+          "de": [
+            "250 g Fioretta (halbflüssiger Ricotta)",
+            "300 g Mehl Typ 00",
+            "1 Ei",
+            "5 g Salz",
+            "50 g Butter",
+            "Salbeiblätter nach Geschmack",
+            "Gerieben gereifte Ricotta nach Geschmack"
+          ],
+          "es": [
+            "250 g de fioretta (ricotta semilíquida)",
+            "300 g de harina 00",
+            "1 huevo",
+            "5 g de sal",
+            "50 g de mantequilla",
+            "Hojas de salvia al gusto",
+            "Ricotta curada rallada al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Versa la fioretta in una ciotola e aggiungi la farina, l'uovo e un pizzico di sale.",
+            "Mescola con un cucchiaio di legno fino a ottenere un impasto morbido, che cada pesante dal cucchiaio.",
+            "Versa l'impasto a cucchiaiate nell'acqua bollente salata: quando i gnocchi salgono in superficie sono pronti.",
+            "Scolali e condiscili con il burro fuso con la salvia e la ricotta stagionata grattugiata."
+          ],
+          "en": [
+            "Pour the fioretta into a bowl and add the flour, egg and a pinch of salt.",
+            "Mix with a wooden spoon until you have a soft dough that drops heavily from the spoon.",
+            "Pour the dough by spoonfuls into boiling salted water: when the gnocchi rise to the surface they are ready.",
+            "Drain and toss with butter melted with sage and grated aged ricotta."
+          ],
+          "fr": [
+            "Versez la fioretta dans un bol, puis ajoutez la farine, l'œuf et une pincée de sel.",
+            "Mélangez avec une cuillère en bois jusqu'à obtenir une pâte souple qui tombe lourdement de la cuillère.",
+            "Versez la pâte à la cuillère dans de l'eau salée bouillante : quand les gnocchi remontent à la surface, ils sont prêts.",
+            "Égouttez et enrobez de beurre fondu avec la sauge et de ricotta affinée râpée."
+          ],
+          "de": [
+            "Die Fioretta in eine Schüssel geben und Mehl, Ei und eine Prise Salz hinzufügen.",
+            "Mit einem Holzlöffel zu einem weichen Teig verrühren, der schwer vom Löffel fällt.",
+            "Den Teig esslöffelweise in kochendes Salzwasser geben: Wenn die Gnocchi an die Oberfläche steigen, sind sie fertig.",
+            "Abgießen und mit mit Salbei aufgeschäumter Butter und gerieben gereifter Ricotta vermengen."
+          ],
+          "es": [
+            "Vierta la fioretta en un bol y añada la harina, el huevo y una pizca de sal.",
+            "Mezcle con una cuchara de madera hasta obtener una masa blanda que caiga pesada de la cuchara.",
+            "Vierta la masa por cucharadas en agua hirviendo con sal: cuando los ñoquis suban a la superficie, están listos.",
+            "Escúrralos y alíñelos con mantequilla derretida con salvia y ricotta curada rallada."
+          ]
+        }
+      }
+    },
+    {
+      "id": "risotto-piselli-lumignano",
+      "nome": "Risotto con i piselli di Lumignano",
+      "portata": "primo",
+      "testo": {
+        "it": "Risotto con i piselli di Lumignano, piccoli e dolci, detti bisi. Cucinato con pancetta, cipolla e brodo vegetale, è il primo primaverile per eccellenza del Veneto.",
+        "en": "Risotto with Lumignano peas, small and sweet, called bisi. Cooked with pancetta, onion and vegetable broth, it is the quintessential spring first course of the Veneto.",
+        "fr": "Risotto aux petits pois de Lumignano, petits et sucrés, appelés bisi. Cuisiné avec de la pancetta, de l'oignon et un bouillon de légumes, c'est le premier plat de printemps par excellence de la Vénétie.",
+        "de": "Risotto mit Erbsen aus Lumignano, klein und süß, Bisi genannt. Mit Pancetta, Zwiebel und Gemüsebrühe gekocht, ist es das typische Frühlingsgericht des Veneto schlechthin.",
+        "es": "Risotto con guisantes de Lumignano, pequeños y dulces, llamados bisi. Cocinado con pancetta, cebolla y caldo vegetal, es el primer plato de primavera por excelencia del Véneto."
+      },
+      "ricetta": {
+        "fonte": "https://www.ricettedalmondo.it/risi-e-bisi.html",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "25 min (con i piselli freschi)",
+          "en": "25 min (with fresh peas)",
+          "fr": "25 min (avec des petits pois frais)",
+          "de": "25 Min. (mit frischen Erbsen)",
+          "es": "25 min (con guisantes frescos)"
+        },
+        "ingredienti": {
+          "it": [
+            "350 g di riso vialone nano",
+            "1 kg di piselli freschi, con i baccelli",
+            "100 g di pancetta tesa",
+            "1 cipolla",
+            "1 l di brodo vegetale",
+            "Olio extravergine d'oliva q.b.",
+            "80 g di Parmigiano grattugiato",
+            "Prezzemolo q.b.",
+            "Sale q.b."
+          ],
+          "en": [
+            "350 g vialone nano rice",
+            "1 kg fresh peas, in their pods",
+            "100 g pancetta (sliced)",
+            "1 onion",
+            "1 l vegetable broth",
+            "Extra virgin olive oil to taste",
+            "80 g grated Parmesan",
+            "Parsley to taste",
+            "Salt to taste"
+          ],
+          "fr": [
+            "350 g de riz vialone nano",
+            "1 kg de petits pois frais, en cosses",
+            "100 g de pancetta tranchée",
+            "1 oignon",
+            "1 l de bouillon de légumes",
+            "Huile d'olive extra vierge selon besoin",
+            "80 g de Parmesan râpé",
+            "Persil selon goût",
+            "Sel selon goût"
+          ],
+          "de": [
+            "350 g Vialone-Nano-Reis",
+            "1 kg frische Erbsen, mit Schoten",
+            "100 g Pancetta (am Stück)",
+            "1 Zwiebel",
+            "1 l Gemüsebrühe",
+            "Natives Olivenöl extra nach Bedarf",
+            "80 g geriebener Parmesan",
+            "Petersilie nach Geschmack",
+            "Salz nach Geschmack"
+          ],
+          "es": [
+            "350 g de arroz vialone nano",
+            "1 kg de guisantes frescos, con sus vainas",
+            "100 g de pancetta en lonchas",
+            "1 cebolla",
+            "1 l de caldo vegetal",
+            "Aceite de oliva virgen extra al gusto",
+            "80 g de Parmesano rallado",
+            "Perejil al gusto",
+            "Sal al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Sgrana i piselli e tieni separati semi e baccelli. Fai bollire i baccelli nel brodo, poi frulla per ottenere una purea.",
+            "Rosola la cipolla tritata e la pancetta in olio, poi tosta il riso.",
+            "Unisci i piselli e la purea di piselli, poi cuoci aggiungendo brodo bollente man mano.",
+            "A fine cottura manteca con il Parmigiano e il prezzemolo tritato, poi servi."
+          ],
+          "en": [
+            "Shell the peas and keep the pods separate. Boil the pods in the broth, then blend them into a purée.",
+            "Brown the chopped onion and pancetta in oil, then toast the rice.",
+            "Add the peas and the pea purée, then cook, adding hot broth little by little.",
+            "At the end, stir in the Parmesan and chopped parsley, then serve."
+          ],
+          "fr": [
+            "Écossez les petits pois et gardez les cosses à part. Faites bouillir les cosses dans le bouillon, puis mixez pour obtenir une purée.",
+            "Faites revenir l'oignon haché et la pancetta dans l'huile, puis faites griller le riz.",
+            "Ajoutez les petits pois et la purée de petits pois, puis cuisez en ajoutant peu à peu du bouillon chaud.",
+            "En fin de cuisson, incorporez le Parmesan et le persil haché, puis servez."
+          ],
+          "de": [
+            "Die Erbsen auspulen und die Schoten separat aufbewahren. Die Schoten in der Brühe kochen und dann zu einem Püree pürieren.",
+            "Die gehackte Zwiebel und die Pancetta in Öl anbraten, dann den Reis rösten.",
+            "Erbsen und Erbsenpüree hinzufügen und garen, dabei nach und nach heiße Brühe zugießen.",
+            "Zum Schluss Parmesan und gehackte Petersilie unterziehen und servieren."
+          ],
+          "es": [
+            "Desgrane los guisantes y guarde las vainas por separado. Cueza las vainas en el caldo y triture para obtener un puré.",
+            "Dore la cebolla picada y la pancetta en aceite, y luego tueste el arroz.",
+            "Añada los guisantes y el puré de guisantes, y cocine añadiendo caldo caliente poco a poco.",
+            "Al final, incorpore el Parmesano y el perejil picado, y sirva."
+          ]
+        }
+      }
+    },
+    {
+      "id": "broccolo-fiolaro-creazzo",
+      "nome": "Broccolo fiolaro di Creazzo",
+      "portata": "contorno",
+      "testo": {
+        "it": "Broccolo invernale di Creazzo, con foglie e germogli teneri (i fioi). Si cucina in padella con aglio e olio, come contorno o per condire la pasta. È di stagione da novembre a marzo.",
+        "en": "Winter broccoli from Creazzo, with tender leaves and shoots (the fioi). Cooked in a pan with garlic and oil, as a side dish or to dress pasta. In season from November to March.",
+        "fr": "Brocoli d'hiver de Creazzo, aux feuilles et aux pousses tendres (les fioi). Cuit à la poêle avec ail et huile, en accompagnement ou pour assaisonner des pâtes. De saison de novembre à mars.",
+        "de": "Winterbrokkoli aus Creazzo mit zarten Blättern und Sprossen (den Fioi). In der Pfanne mit Knoblauch und Öl zubereitet, als Beilage oder zum Würzen von Nudeln. Saison von November bis März.",
+        "es": "Brócoli de invierno de Creazzo, con hojas y brotes tiernos (los fioi). Se cocina en sartén con ajo y aceite, como guarnición o para aliñar pasta. Temporada de noviembre a marzo."
+      },
+      "ricetta": {
+        "fonte": "https://blog.giallozafferano.it/cucinoperpassione/ricetta-broccolo-fiolaro-di-creazzo-in-padella/",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "10 min + 20 min di cottura",
+          "en": "10 min + 20 min of cooking",
+          "fr": "10 min + 20 min de cuisson",
+          "de": "10 Min. + 20 Min. Garzeit",
+          "es": "10 min + 20 min de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "2 cespi di broccolo fiolaro di Creazzo (circa 550 g)",
+            "1 spicchio d'aglio",
+            "Olio extravergine d'oliva q.b.",
+            "Sale q.b.",
+            "Peperoncino q.b. (facoltativo)"
+          ],
+          "en": [
+            "2 heads of Fiolaro broccoli from Creazzo (about 550 g)",
+            "1 garlic clove",
+            "Extra virgin olive oil to taste",
+            "Salt to taste",
+            "Chilli pepper to taste (optional)"
+          ],
+          "fr": [
+            "2 pieds de brocoli fiolaro de Creazzo (environ 550 g)",
+            "1 gousse d'ail",
+            "Huile d'olive extra vierge selon besoin",
+            "Sel selon goût",
+            "Piment selon goût (facultatif)"
+          ],
+          "de": [
+            "2 Köpfe Fiolaro-Brokkoli aus Creazzo (ca. 550 g)",
+            "1 Knoblauchzehe",
+            "Natives Olivenöl extra nach Bedarf",
+            "Salz nach Geschmack",
+            "Chili nach Geschmack (optional)"
+          ],
+          "es": [
+            "2 cabezas de brócoli fiolaro de Creazzo (unos 550 g)",
+            "1 diente de ajo",
+            "Aceite de oliva virgen extra al gusto",
+            "Sal al gusto",
+            "Guindilla al gusto (opcional)"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Pulisci il broccolo: elimina le foglie esterne più grandi e il gambo duro, tieni i germogli interni e le foglie tenere.",
+            "Lava e taglia il broccolo a pezzi.",
+            "In una padella scalda l'olio con l'aglio e il peperoncino, poi aggiungi il broccolo e un po' d'acqua.",
+            "Cuoci coperto a fuoco medio finché è tenero e aggiusta di sale."
+          ],
+          "en": [
+            "Clean the broccoli: remove the large outer leaves and the tough stalk, keeping the inner shoots and tender leaves.",
+            "Wash and cut the broccoli into pieces.",
+            "Heat the oil with the garlic and chilli in a pan, then add the broccoli and a little water.",
+            "Cook covered over medium heat until tender, and adjust the salt."
+          ],
+          "fr": [
+            "Nettoyez le brocoli : retirez les grandes feuilles extérieures et la tige dure, en gardant les pousses intérieures et les feuilles tendres.",
+            "Lavez et coupez le brocoli en morceaux.",
+            "Faites chauffer l'huile avec l'ail et le piment dans une poêle, puis ajoutez le brocoli et un peu d'eau.",
+            "Couvrez et cuisez à feu moyen jusqu'à ce qu'il soit tendre, puis salez."
+          ],
+          "de": [
+            "Den Brokkoli putzen: die großen äußeren Blätter und den harten Stiel entfernen, die inneren Sprossen und zarten Blätter behalten.",
+            "Den Brokkoli waschen und in Stücke schneiden.",
+            "Öl mit Knoblauch und Chili in der Pfanne erhitzen, dann Brokkoli und etwas Wasser hinzufügen.",
+            "Zugedeckt bei mittlerer Hitze garen, bis er weich ist, und nachsalzen."
+          ],
+          "es": [
+            "Limpie el brócoli: retire las hojas exteriores grandes y el tallo duro, conservando los brotes interiores y las hojas tiernas.",
+            "Lave el brócoli y córtelo en trozos.",
+            "Caliente el aceite con el ajo y la guindilla en una sartén, y añada el brócoli y un poco de agua.",
+            "Cocine tapado a fuego medio hasta que esté tierno, y ajuste de sal."
+          ]
+        }
+      }
+    },
+    {
+      "id": "torta-putana",
+      "nome": "Torta putana",
+      "portata": "dolce",
+      "testo": {
+        "it": "Dolce tipico di Vicenza, fatto con pane raffermo ammollato nel latte, mele, uvetta e grappa. Il nome, dall'origine controversa, risale a una leggenda legata a Piazza delle Erbe. Si conserva fuori dal frigorifero per 2-3 giorni.",
+        "en": "A typical Vicenza dessert made with stale bread soaked in milk, apples, raisins and grappa. Its name, of disputed origin, goes back to a legend linked to Piazza delle Erbe. It keeps out of the fridge for 2-3 days.",
+        "fr": "Dessert typique de Vicence, préparé avec du pain rassis trempé dans du lait, des pommes, des raisins secs et de la grappa. Son nom, d'origine controversée, remonte à une légende liée à la piazza delle Erbe. Elle se conserve hors du réfrigérateur 2 à 3 jours.",
+        "de": "Typische Nachspeise aus Vicenza mit altem Brot, in Milch eingeweicht, Äpfeln, Rosinen und Grappa. Der Name, dessen Herkunft umstritten ist, geht auf eine Legende am Piazza delle Erbe zurück. Sie hält sich 2–3 Tage außerhalb des Kühlschranks.",
+        "es": "Postre típico de Vicenza, hecho con pan duro remojado en leche, manzanas, pasas y grappa. Su nombre, de origen controvertido, se remonta a una leyenda ligada a la Piazza delle Erbe. Se conserva fuera de la nevera durante 2-3 días."
+      },
+      "ricetta": {
+        "fonte": "https://www.gustoblog.it/2025/02/23/torta-putana-vicentina",
+        "porzioni": 8,
+        "preparazione": {
+          "it": "30 min + almeno 1 ora di ammollo; circa 45-50 min di cottura",
+          "en": "30 min + at least 1 hour of soaking; about 45-50 min of baking",
+          "fr": "30 min + au moins 1 h de trempage ; environ 45-50 min de cuisson",
+          "de": "30 Min. + mind. 1 Std. Einweichen; ca. 45–50 Min. Backzeit",
+          "es": "30 min + al menos 1 hora de remojo; unos 45-50 min de horno"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di mollica di pane raffermo",
+            "600 ml di latte intero",
+            "100 g di uvetta",
+            "60 ml di grappa",
+            "4 mele",
+            "150 g di zucchero",
+            "5 uova",
+            "1 limone bio (scorza)",
+            "2 cucchiaini di lievito per dolci",
+            "70 g di farina 00",
+            "Zucchero semolato q.b. per la superficie"
+          ],
+          "en": [
+            "500 g stale bread crumb",
+            "600 ml whole milk",
+            "100 g raisins",
+            "60 ml grappa",
+            "4 apples",
+            "150 g sugar",
+            "5 eggs",
+            "1 organic lemon (zest)",
+            "2 teaspoons baking powder",
+            "70 g 00 flour",
+            "Caster sugar to finish"
+          ],
+          "fr": [
+            "500 g de mie de pain rassis",
+            "600 ml de lait entier",
+            "100 g de raisins secs",
+            "60 ml de grappa",
+            "4 pommes",
+            "150 g de sucre",
+            "5 œufs",
+            "1 citron bio (zeste)",
+            "2 cuillères à café de levure chimique",
+            "70 g de farine 00",
+            "Sucre semoule selon besoin"
+          ],
+          "de": [
+            "500 g altes Brot (Krume)",
+            "600 ml Vollmilch",
+            "100 g Rosinen",
+            "60 ml Grappa",
+            "4 Äpfel",
+            "150 g Zucker",
+            "5 Eier",
+            "1 Bio-Zitrone (Schale)",
+            "2 TL Backpulver",
+            "70 g Mehl Typ 00",
+            "Feinkristallzucker zum Bestreuen"
+          ],
+          "es": [
+            "500 g de miga de pan duro",
+            "600 ml de leche entera",
+            "100 g de pasas",
+            "60 ml de grappa",
+            "4 manzanas",
+            "150 g de azúcar",
+            "5 huevos",
+            "1 limón ecológico (ralladura)",
+            "2 cucharaditas de levadura para postres",
+            "70 g de harina 00",
+            "Azúcar semilla al gusto para la superficie"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Ammolla il pane a cubetti nel latte tiepido per almeno un'ora. Nel frattempo metti l'uvetta a bagno nella grappa.",
+            "Sbuccia e taglia le mele a cubetti.",
+            "Schiaccia o frulla il pane ammollato, poi unisci zucchero, uova, scorza di limone, farina e lievito.",
+            "Aggiungi l'uvetta con la grappa e le mele, e mescola bene.",
+            "Versa in una teglia da 24 cm imburrata, spolvera con zucchero semolato e cuoci a 180 °C per circa 45-50 minuti.",
+            "Servi tiepida."
+          ],
+          "en": [
+            "Soak the bread cubes in lukewarm milk for at least an hour. Meanwhile, soak the raisins in the grappa.",
+            "Peel and dice the apples.",
+            "Mash or blend the soaked bread, then add sugar, eggs, lemon zest, flour and baking powder.",
+            "Add the raisins with the grappa and the apples, and mix well.",
+            "Pour into a buttered 24 cm tin, sprinkle with caster sugar and bake at 180 °C for about 45-50 minutes.",
+            "Serve lukewarm."
+          ],
+          "fr": [
+            "Faites tremper les cubes de pain dans du lait tiède pendant au moins une heure. Pendant ce temps, faites macérer les raisins dans la grappa.",
+            "Pelez et coupez les pommes en dés.",
+            "Écrasez ou mixez le pain trempé, puis ajoutez le sucre, les œufs, le zeste de citron, la farine et la levure.",
+            "Ajoutez les raisins et la grappa, puis les pommes, et mélangez bien.",
+            "Versez dans un moule beurré de 24 cm, saupoudrez de sucre semoule et enfournez à 180 °C pendant environ 45-50 minutes.",
+            "Servez tiède."
+          ],
+          "de": [
+            "Die Brotwürfel mindestens eine Stunde in lauwarmer Milch einweichen. Inzwischen die Rosinen in der Grappa einlegen.",
+            "Die Äpfel schälen und würfeln.",
+            "Das eingeweichte Brot zerdrücken oder pürieren, dann Zucker, Eier, Zitronenschale, Mehl und Backpulver hinzufügen.",
+            "Rosinen mit Grappa und die Äpfel dazugeben und gut vermischen.",
+            "In eine gebutterte Form von 24 cm füllen, mit Feinkristallzucker bestreuen und bei 180 °C etwa 45–50 Minuten backen.",
+            "Lauwarm servieren."
+          ],
+          "es": [
+            "Remoje los cubos de pan en leche tibia durante al menos una hora. Mientras tanto, deje las pasas en remojo en la grappa.",
+            "Pele y corte las manzanas en cubos.",
+            "Aplaste o triture el pan remojado, y luego añada el azúcar, los huevos, la ralladura de limón, la harina y la levadura.",
+            "Añada las pasas con la grappa y las manzanas, y mezcle bien.",
+            "Vierta en un molde de 24 cm engrasado, espolvoree con azúcar semilla y hornee a 180 °C durante unos 45-50 minutos.",
+            "Sirva tibia."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sopressa-vicentina-dop",
+      "nome": "Sopressa Vicentina DOP",
+      "portata": "cicchetto",
+      "testo": {
+        "it": "Salume DOP della provincia di Vicenza, prodotto con carne di suini allevati nel Vicentino: un insaccato a grana medio-grossa, stagionato. Si gusta affettato, spesso con la polenta alla griglia.",
+        "en": "A PDO cured meat from the province of Vicenza, made with pork from pigs raised in the Vicenza area: a medium-coarse grain sausage, aged. Enjoyed sliced, often with grilled polenta.",
+        "fr": "Charcuterie AOP de la province de Vicence, faite avec de la viande de porcs élevés dans la région : un saucisson à grain moyen-gros, affiné. Dégustée en tranches, souvent avec de la polenta grillée.",
+        "de": "Geschützte Wurst (DOP) aus der Provinz Vicenza, aus Schweinefleisch von Tieren aus dem Vicentino hergestellt: eine gereifte Wurst mit mittel-grobem Korn. Aufgeschnitten genossen, oft mit gegrillter Polenta.",
+        "es": "Embutido DOP de la provincia de Vicenza, elaborado con carne de cerdos criados en el Vicentino: un embutido de grano medio-grueso, curado. Se degusta en lonchas, a menudo con polenta a la plancha."
+      },
+      "ricetta": {
+        "fonte": "https://www.thedailymeal.com/polenta-alla-griglia-con-sopr-ssa-vicentino",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "15 min",
+          "en": "15 min",
+          "fr": "15 min",
+          "de": "15 Min.",
+          "es": "15 min"
+        },
+        "ingredienti": {
+          "it": [
+            "4 tazze di polenta cotta (circa 1 l)",
+            "8 fette spesse di Soprèssa Vicentina",
+            "1 cespo di radicchio tagliato in quarti",
+            "Olio extravergine d'oliva q.b.",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "4 cups cooked polenta (about 1 l)",
+            "8 thick slices of Soprèssa Vicentina",
+            "1 head of radicchio, cut into quarters",
+            "Extra virgin olive oil to taste",
+            "Salt and pepper to taste"
+          ],
+          "fr": [
+            "4 tasses de polenta cuite (environ 1 l)",
+            "8 tranches épaisses de Soprèssa Vicentina",
+            "1 tête de radicchio coupée en quatre",
+            "Huile d'olive extra vierge selon besoin",
+            "Sel et poivre selon goût"
+          ],
+          "de": [
+            "4 Tassen gekochte Polenta (ca. 1 l)",
+            "8 dicke Scheiben Soprèssa Vicentina",
+            "1 Radicchio, in Viertel geschnitten",
+            "Natives Olivenöl extra nach Bedarf",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "4 tazas de polenta cocida (unos 1 l)",
+            "8 lonchas gruesas de Soprèssa Vicentina",
+            "1 cabeza de radicchio cortada en cuartos",
+            "Aceite de oliva virgen extra al gusto",
+            "Sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Versa la polenta cotta in una teglia, lasciala rassodare e tagliala a fette.",
+            "Scalda una griglia o una padella antiaderente e cuoci le fette di polenta con un filo d'olio.",
+            "Nella stessa padella scalda le fette di sopressa per pochi istanti.",
+            "Cuoci anche il radicchio tagliato in quarti.",
+            "Servi la polenta con la sopressa e il radicchio, condito con olio, sale e pepe."
+          ],
+          "en": [
+            "Pour the cooked polenta into a tray, let it firm up and cut into slices.",
+            "Heat a grill or non-stick pan and cook the polenta slices with a drizzle of oil.",
+            "In the same pan, warm the sopressa slices for a few moments.",
+            "Also cook the radicchio quarters.",
+            "Serve the polenta with the sopressa and radicchio, seasoned with oil, salt and pepper."
+          ],
+          "fr": [
+            "Versez la polenta cuite dans un plat, laissez-la raffermir et coupez-la en tranches.",
+            "Chauffez un gril ou une poêle antiadhésive et faites cuire les tranches de polenta avec un filet d'huile.",
+            "Dans la même poêle, réchauffez quelques instants les tranches de soprèssa.",
+            "Faites aussi cuire les quartiers de radicchio.",
+            "Servez la polenta avec la soprèssa et le radicchio, assaisonnés d'huile, de sel et de poivre."
+          ],
+          "de": [
+            "Die gekochte Polenta in eine Form geben, fest werden lassen und in Scheiben schneiden.",
+            "Einen Grill oder eine beschichtete Pfanne erhitzen und die Polentascheiben mit etwas Öl garen.",
+            "In derselben Pfanne die Soprèssa-Scheiben kurz erwärmen.",
+            "Auch die Radicchio-Viertel garen.",
+            "Die Polenta mit der Soprèssa und dem Radicchio servieren, mit Öl, Salz und Pfeffer gewürzt."
+          ],
+          "es": [
+            "Vierta la polenta cocida en una bandeja, déjela endurecer y córtela en rodajas.",
+            "Caliente una parrilla o una sartén antiadherente y cocine las rodajas de polenta con un hilo de aceite.",
+            "En la misma sartén, caliente un momento las lonchas de sopressa.",
+            "Cocine también los cuartos de radicchio.",
+            "Sirva la polenta con la sopressa y el radicchio, aliñados con aceite, sal y pimienta."
+          ]
+        }
+      }
+    },
+    {
+      "id": "asparago-bianco-bassano",
+      "nome": "Asparago bianco di Bassano",
+      "portata": "contorno",
+      "testo": {
+        "it": "Asparago bianco DOP coltivato nel bassanese, dal sapore dolce e amaro e dalla polpa tenera. Si serve lessato con olio, oppure alla bassanese, con una salsa di tuorli sodi, olio e aceto o limone.",
+        "en": "PDO white asparagus grown in the Bassano area, with a sweet and bitter taste and tender flesh. Served boiled with oil, or in the Bassano style, with a sauce of hard-boiled yolks, oil and vinegar or lemon.",
+        "fr": "Asperge blanche AOP cultivée dans la région de Bassano, au goût doux-amer et à la chair tendre. Servie bouillie avec de l'huile, ou à la bassanese, avec une sauce de jaunes d'œufs durs, d'huile et de vinaigre ou de citron.",
+        "de": "Geschützter weißer Spargel (DOP) aus der Gegend um Bassano, mit süß-bitterem Geschmack und zartem Fleisch. Gekocht mit Öl serviert, oder nach Art von Bassano mit einer Soße aus hartgekochtem Eigelb, Öl und Essig oder Zitrone.",
+        "es": "Espárrago blanco DOP cultivado en la zona de Bassano, de sabor dulce y amargo y pulpa tierna. Se sirve hervido con aceite, o a la bassanese, con una salsa de yemas cocidas, aceite y vinagre o limón."
+      },
+      "ricetta": {
+        "fonte": "https://www.ricetteregionali.net/pdf/ricette-regionali-venete-veneto-contorni-asparagi-alla-bassanese.pdf",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "15 min + 10-15 min di cottura",
+          "en": "15 min + 10-15 min of cooking",
+          "fr": "15 min + 10-15 min de cuisson",
+          "de": "15 Min. + 10–15 Min. Garzeit",
+          "es": "15 min + 10-15 min de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "1 kg di asparagi bianchi di Bassano",
+            "4 tuorli d'uovo sodi",
+            "5 cucchiai di olio extravergine d'oliva",
+            "Aceto di vino bianco o succo di limone q.b.",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "1 kg white asparagus from Bassano",
+            "4 hard-boiled egg yolks",
+            "5 tablespoons extra virgin olive oil",
+            "White wine vinegar or lemon juice to taste",
+            "Salt and pepper to taste"
+          ],
+          "fr": [
+            "1 kg d'asperges blanches de Bassano",
+            "4 jaunes d'œufs durs",
+            "5 cuillères à soupe d'huile d'olive extra vierge",
+            "Vinaigre de vin blanc ou jus de citron selon goût",
+            "Sel et poivre selon goût"
+          ],
+          "de": [
+            "1 kg weißer Spargel aus Bassano",
+            "4 hartgekochte Eigelb",
+            "5 EL natives Olivenöl extra",
+            "Weißweinessig oder Zitronensaft nach Geschmack",
+            "Salz und Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "1 kg de espárragos blancos de Bassano",
+            "4 yemas de huevo cocidas",
+            "5 cucharadas de aceite de oliva virgen extra",
+            "Vinagre de vino blanco o zumo de limón al gusto",
+            "Sal y pimienta al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Pulisci gli asparagi, eliminando la parte finale legnosa e sbucciando la base.",
+            "Legali in mazzetti e cuocili in acqua salata per 10-15 minuti, finché sono teneri.",
+            "Nel frattempo schiaccia i tuorli sodi con una forchetta.",
+            "Unisci olio, aceto o limone, sale e pepe, mescolando fino a ottenere una salsina.",
+            "Scola gli asparagi e servili caldi o tiepidi, conditi con la salsa."
+          ],
+          "en": [
+            "Clean the asparagus, removing the woody end and peeling the base.",
+            "Tie them in bundles and cook in salted water for 10-15 minutes, until tender.",
+            "Meanwhile, mash the hard-boiled yolks with a fork.",
+            "Add oil, vinegar or lemon, salt and pepper, mixing into a sauce.",
+            "Drain the asparagus and serve warm or lukewarm, dressed with the sauce."
+          ],
+          "fr": [
+            "Nettoyez les asperges en retirant la partie ligneuse du bout et en pelant la base.",
+            "Attachez-les en bottes et faites-les cuire dans de l'eau salée 10 à 15 minutes, jusqu'à ce qu'elles soient tendres.",
+            "Pendant ce temps, écrasez les jaunes durs à la fourchette.",
+            "Ajoutez l'huile, le vinaigre ou le citron, le sel et le poivre, en mélangeant pour obtenir une sauce.",
+            "Égouttez les asperges et servez-les tièdes ou chaudes, nappées de la sauce."
+          ],
+          "de": [
+            "Den Spargel putzen: das holzige Ende abschneiden und den Stiel schälen.",
+            "In Bündel binden und 10–15 Minuten in Salzwasser garen, bis er zart ist.",
+            "Inzwischen das Eigelb mit einer Gabel zerdrücken.",
+            "Öl, Essig oder Zitrone, Salz und Pfeffer unterrühren, bis eine Soße entsteht.",
+            "Den Spargel abgießen und warm oder lauwarm mit der Soße servieren."
+          ],
+          "es": [
+            "Limpie los espárragos, quitando la parte final leñosa y pelando la base.",
+            "Átelos en manojos y cuézalos en agua salada durante 10-15 minutos, hasta que estén tiernos.",
+            "Mientras tanto, aplaste las yemas cocidas con un tenedor.",
+            "Añada el aceite, el vinagre o el limón, la sal y la pimienta, mezclando hasta obtener una salsa.",
+            "Escurra los espárragos y sírvalos tibios o templados, aliñados con la salsa."
+          ]
+        }
+      }
+    }
+  ]
 }
