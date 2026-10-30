@@ -12,20 +12,21 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-via-moneta",
-      "svt-stazione-fs",
-      "svt-viale-giuriolo",
-      "svt-bertesina",
-      "svt-bertesinella",
-      "svt-settec",
-      "svt-torri-di-quartesolo",
-      "svt-lerino"
+      "autobus-svt-via-moneta",
+      "autobus-svt-stazione-fs",
+      "autobus-svt-viale-giuriolo",
+      "autobus-svt-bertesina",
+      "autobus-svt-bertesinella",
+      "autobus-svt-settec",
+      "autobus-svt-torri-di-quartesolo",
+      "autobus-svt-lerino"
      ],
      "titolo": "Zona Pomari → Centro → Stanga → (Bertesinella → Bertesina → Lerino) Stanga → (Settecà → Torri di Quartesolo)"
     },
@@ -33,14 +34,14 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-lerino",
-      "svt-torri-di-quartesolo",
-      "svt-settec",
-      "svt-bertesina",
-      "svt-bertesinella",
-      "svt-viale-della-pace-ederle",
-      "svt-piazza-xx-settembre",
-      "svt-via-moneta"
+      "autobus-svt-lerino",
+      "autobus-svt-torri-di-quartesolo",
+      "autobus-svt-settec",
+      "autobus-svt-bertesina",
+      "autobus-svt-bertesinella",
+      "autobus-svt-viale-della-pace-ederle",
+      "autobus-svt-piazza-xx-settembre",
+      "autobus-svt-via-moneta"
      ],
      "titolo": "Torri Q.lo → Lerino → Bertesina → Stanga → Centro → Zona Pomari"
     }
@@ -53,17 +54,18 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-stazione-fs-piazzale",
-      "svt-viale-giuriolo",
-      "svt-viale-rodolfi",
-      "svt-via-lago-di-fogliano",
-      "svt-polegge"
+      "autobus-svt-stazione-fs-piazzale",
+      "autobus-svt-viale-giuriolo",
+      "autobus-svt-viale-rodolfi",
+      "autobus-svt-via-lago-di-fogliano",
+      "autobus-svt-polegge"
      ],
      "titolo": "Stazione FS → Centro Storico → Via dei Laghi → Polegge"
     },
@@ -71,10 +73,10 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-polegge",
-      "svt-via-lago-di-fogliano",
-      "svt-viale-rodolfi",
-      "svt-stazione-fs-piazzale"
+      "autobus-svt-polegge",
+      "autobus-svt-via-lago-di-fogliano",
+      "autobus-svt-viale-rodolfi",
+      "autobus-svt-stazione-fs-piazzale"
      ],
      "titolo": "Polegge → Via Lago Fogliano → Centro Storico → Stazione FS"
     }
@@ -87,14 +89,15 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-parco-citt"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-parco-citt"
      ],
      "titolo": "Autostazione SVT → Cittadella Studi → Parco Città"
     },
@@ -102,9 +105,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-parco-citt",
-      "svt-viale-astichello",
-      "svt-autostazione-svt"
+      "autobus-svt-parco-citt",
+      "autobus-svt-viale-astichello",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Parco Città → Cittadella Studi → Autostazione SVT"
     }
@@ -117,17 +120,18 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-viale-ferrarin",
-      "svt-stazione-fs",
-      "svt-via-giaretta",
-      "svt-sant-agostino",
-      "svt-valmarana"
+      "autobus-svt-viale-ferrarin",
+      "autobus-svt-stazione-fs",
+      "autobus-svt-via-giaretta",
+      "autobus-svt-sant-agostino",
+      "autobus-svt-valmarana"
      ],
      "titolo": "Via Ferrarin → Centro → Via Giaretta → S. Agostino → Nogarazza → Valmarana"
     },
@@ -135,11 +139,11 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-valmarana",
-      "svt-sant-agostino",
-      "svt-via-giaretta",
-      "svt-viale-venezia-stazione",
-      "svt-viale-ferrarin"
+      "autobus-svt-valmarana",
+      "autobus-svt-sant-agostino",
+      "autobus-svt-via-giaretta",
+      "autobus-svt-viale-venezia-stazione",
+      "autobus-svt-viale-ferrarin"
      ],
      "titolo": "Valmarana → Nogarazza → S. Agostino → Via Giaretta → Centro → Via Ferrarin"
     }
@@ -152,19 +156,20 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-villaggio-del-sole",
-      "svt-stazione-fs",
-      "svt-viale-giuriolo",
-      "svt-bolzano-vicentino",
-      "svt-lisiera",
-      "svt-via-degli-eroi-quinto-vic",
-      "svt-lanz"
+      "autobus-svt-villaggio-del-sole",
+      "autobus-svt-stazione-fs",
+      "autobus-svt-viale-giuriolo",
+      "autobus-svt-bolzano-vicentino",
+      "autobus-svt-lisiera",
+      "autobus-svt-via-degli-eroi-quinto-vic",
+      "autobus-svt-lanz"
      ],
      "titolo": "Villaggio del Sole → Anconetta → Ospedaletto → Lisiera / Bolzano Vicentino / Quinto Vicentino → Valproto → Lanzè"
     },
@@ -172,12 +177,12 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-lanz",
-      "svt-quinto-vicentino",
-      "svt-bolzano-vicentino",
-      "svt-lisiera",
-      "svt-anconetta",
-      "svt-villaggio-del-sole"
+      "autobus-svt-lanz",
+      "autobus-svt-quinto-vicentino",
+      "autobus-svt-bolzano-vicentino",
+      "autobus-svt-lisiera",
+      "autobus-svt-anconetta",
+      "autobus-svt-villaggio-del-sole"
      ],
      "titolo": "Lanzè → Valproto → Quinto Vicentino / Bolzano Vicentino → Lisiera → Ospedaletto → Anconetta → Villaggio del Sole"
     }
@@ -190,16 +195,17 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-viale-dell-ippodromo",
-      "svt-maddalene",
-      "svt-via-martiri-delle-foibe",
-      "svt-costabissara"
+      "autobus-svt-viale-dell-ippodromo",
+      "autobus-svt-maddalene",
+      "autobus-svt-via-martiri-delle-foibe",
+      "autobus-svt-costabissara"
      ],
      "titolo": "Via Ippodromo → Costabissara → Motta di Costabissara"
     },
@@ -207,9 +213,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-costabissara",
-      "svt-maddalene",
-      "svt-viale-dell-ippodromo"
+      "autobus-svt-costabissara",
+      "autobus-svt-maddalene",
+      "autobus-svt-viale-dell-ippodromo"
      ],
      "titolo": "Motta di Costabissara → Costabissara → Via Ippodromo"
     }
@@ -222,16 +228,17 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-via-del-carso",
-      "svt-stazione-fs",
-      "svt-viale-giuriolo",
-      "svt-san-pio-x"
+      "autobus-svt-via-del-carso",
+      "autobus-svt-stazione-fs",
+      "autobus-svt-viale-giuriolo",
+      "autobus-svt-san-pio-x"
      ],
      "titolo": "Via del Carso → Centro → San Pio X"
     },
@@ -239,9 +246,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-san-pio-x",
-      "svt-piazza-xx-settembre",
-      "svt-via-del-carso"
+      "autobus-svt-san-pio-x",
+      "autobus-svt-piazza-xx-settembre",
+      "autobus-svt-via-del-carso"
      ],
      "titolo": "San Pio X → Centro → Via del Carso"
     }
@@ -254,15 +261,16 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-torri-di-arcugnano",
-      "svt-debba"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-torri-di-arcugnano",
+      "autobus-svt-debba"
      ],
      "titolo": "Autostazione SVT → Riviera Berica → Campedello → S. Croce Bigolina → Tormeno → (Torri di Arcugnano) → Longara → Debba → Lumignano"
     },
@@ -270,9 +278,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-debba",
-      "svt-torri-di-arcugnano",
-      "svt-autostazione-svt"
+      "autobus-svt-debba",
+      "autobus-svt-torri-di-arcugnano",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Lumignano → Debba → (Torri di Arcugnano) → Tormeno → Riviera Berica → Autostazione SVT"
     }
@@ -285,16 +293,17 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-stadio",
-      "svt-strada-sant-antonino",
-      "svt-cresole",
-      "svt-caldogno"
+      "autobus-svt-stadio",
+      "autobus-svt-strada-sant-antonino",
+      "autobus-svt-cresole",
+      "autobus-svt-caldogno"
      ],
      "titolo": "Via Stadio → Via Giuriolo → S. Antonino → Rettorgole → Cresole → Caldogno → Nordest"
     },
@@ -302,10 +311,10 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-caldogno",
-      "svt-cresole",
-      "svt-strada-sant-antonino",
-      "svt-stadio"
+      "autobus-svt-caldogno",
+      "autobus-svt-cresole",
+      "autobus-svt-strada-sant-antonino",
+      "autobus-svt-stadio"
      ],
      "titolo": "Nordest → Caldogno → Cresole → Rettorgole → S. Antonino → Via Stadio"
     }
@@ -318,14 +327,15 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-park-stadio",
-      "svt-lev-degli-angeli"
+      "autobus-svt-park-stadio",
+      "autobus-svt-lev-degli-angeli"
      ],
      "titolo": "Park Stadio → Levà degli Angeli → Centro"
     },
@@ -333,10 +343,10 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-lev-degli-angeli",
-      "svt-piazza-castello",
-      "svt-park-stadio",
-      "svt-via-ettore-gallo"
+      "autobus-svt-lev-degli-angeli",
+      "autobus-svt-piazza-castello",
+      "autobus-svt-park-stadio",
+      "autobus-svt-via-ettore-gallo"
      ],
      "titolo": "Piazza Castello → Corso Palladio → Park Stadio → Tribunale"
     }
@@ -349,15 +359,16 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-stadio",
-      "svt-cavazzale",
-      "svt-monticello-conte-otto"
+      "autobus-svt-stadio",
+      "autobus-svt-cavazzale",
+      "autobus-svt-monticello-conte-otto"
      ],
      "titolo": "Via Stadio → Via Giuriolo → Cavazzale → Vigardolo → Monticello Conte Otto → Cavazzale"
     },
@@ -365,9 +376,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-cavazzale",
-      "svt-viale-astichello",
-      "svt-stadio"
+      "autobus-svt-cavazzale",
+      "autobus-svt-viale-astichello",
+      "autobus-svt-stadio"
      ],
      "titolo": "Cavazzale → Saviabona → Via Stadio"
     }
@@ -380,18 +391,19 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-fiera",
-      "svt-ponte-alto",
-      "svt-creazzo",
-      "svt-sovizzo",
-      "svt-altavilla-vicentina"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-fiera",
+      "autobus-svt-ponte-alto",
+      "autobus-svt-creazzo",
+      "autobus-svt-sovizzo",
+      "autobus-svt-altavilla-vicentina"
      ],
      "titolo": "Vicenza → Zona Industriale → Altavilla (Via Giovanni XXIII)"
     },
@@ -399,12 +411,12 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-sovizzo",
-      "svt-creazzo",
-      "svt-ponte-alto",
-      "svt-altavilla-vicentina",
-      "svt-viale-della-scienza",
-      "svt-autostazione-svt"
+      "autobus-svt-sovizzo",
+      "autobus-svt-creazzo",
+      "autobus-svt-ponte-alto",
+      "autobus-svt-altavilla-vicentina",
+      "autobus-svt-viale-della-scienza",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Altavilla (Via Giovanni XXIII) → Sovizzo → Creazzo → Vicenza"
     }
@@ -417,16 +429,17 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-tormeno",
-      "svt-torri-di-arcugnano",
-      "svt-lago-di-fimon"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-tormeno",
+      "autobus-svt-torri-di-arcugnano",
+      "autobus-svt-lago-di-fimon"
      ],
      "titolo": "Autostazione SVT → Riviera Berica → Campedello → S. Croce Bigolina → Tormeno → (Torri di Arcugnano) → Pianezze → Fimon → Lago di Fimon"
     },
@@ -434,9 +447,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-lago-di-fimon",
-      "svt-torri-di-arcugnano",
-      "svt-autostazione-svt"
+      "autobus-svt-lago-di-fimon",
+      "autobus-svt-torri-di-arcugnano",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Lago di Fimon → Fimon → Pianezze → Torri di Arcugnano → Autostazione SVT"
     }
@@ -449,15 +462,16 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-monteviale",
-      "svt-gambugliano"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-monteviale",
+      "autobus-svt-gambugliano"
      ],
      "titolo": "Autostazione SVT → Biron → Monteviale → Gambugliano"
     },
@@ -465,9 +479,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-gambugliano",
-      "svt-monteviale",
-      "svt-autostazione-svt"
+      "autobus-svt-gambugliano",
+      "autobus-svt-monteviale",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Gambugliano → Monteviale → Biron → Autostazione SVT"
     }
@@ -480,14 +494,15 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-stazione-fs-piazzale",
-      "svt-viale-giuriolo"
+      "autobus-svt-stazione-fs-piazzale",
+      "autobus-svt-viale-giuriolo"
      ],
      "titolo": "Via Giuriolo → Casale → S. Pietro Intrigogna"
     },
@@ -495,7 +510,7 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-stazione-fs-piazzale"
+      "autobus-svt-stazione-fs-piazzale"
      ],
      "titolo": "S. Pietro Intrigogna → Casale → Via Giuriolo → Stazione FS"
     }
@@ -508,14 +523,15 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-monte-berico"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-monte-berico"
      ],
      "titolo": "Stazione FS → Monte Berico"
     },
@@ -523,8 +539,8 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-monte-berico",
-      "svt-autostazione-svt"
+      "autobus-svt-monte-berico",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Monte Berico → Stazione FS"
     }
@@ -537,15 +553,16 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-autostazione-svt",
-      "svt-via-zamenhof",
-      "svt-via-pola"
+      "autobus-svt-autostazione-svt",
+      "autobus-svt-via-zamenhof",
+      "autobus-svt-via-pola"
      ],
      "titolo": "Autostazione SVT → Via Zamenhof → Motorizzazione → Area Comm. Sportiva Torri Q."
     },
@@ -553,9 +570,9 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-via-pola",
-      "svt-via-zamenhof",
-      "svt-autostazione-svt"
+      "autobus-svt-via-pola",
+      "autobus-svt-via-zamenhof",
+      "autobus-svt-autostazione-svt"
      ],
      "titolo": "Area Comm. Sportiva Torri Q. → Motorizzazione → Via Zamenhof → Autostazione SVT"
     }
@@ -568,14 +585,15 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-park-mercato-nuovo",
-      "svt-contr-cantarane"
+      "autobus-svt-park-mercato-nuovo",
+      "autobus-svt-contr-cantarane"
      ],
      "titolo": "Park Mercato → Contrà Cantarane"
     },
@@ -583,8 +601,8 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-contr-cantarane",
-      "svt-park-mercato-nuovo"
+      "autobus-svt-contr-cantarane",
+      "autobus-svt-park-mercato-nuovo"
      ],
      "titolo": "Contrà Cantarane → Park Mercato"
     }
@@ -597,15 +615,16 @@
    "colore": "#0B6BB7",
    "testo": "#FFFFFF",
    "notturna": false,
+   "gestore": "SVT",
    "pdf": "https://www.svt.vi.it/sites/default/files/2026-10/invernale-2026-2027-urbano-vicenza-2026-10-08.pdf",
    "direzioni": [
     {
      "direzione": 0,
      "circolare": false,
      "fermate": [
-      "svt-park-cricoli",
-      "svt-ospedale",
-      "svt-contr-canove"
+      "autobus-svt-park-cricoli",
+      "autobus-svt-ospedale",
+      "autobus-svt-contr-canove"
      ],
      "titolo": "Park Cricoli → Contrà San Marco → Contrà Santa Corona"
     },
@@ -613,8 +632,8 @@
      "direzione": 1,
      "circolare": false,
      "fermate": [
-      "svt-contr-canove",
-      "svt-park-cricoli"
+      "autobus-svt-contr-canove",
+      "autobus-svt-park-cricoli"
      ],
      "titolo": "Contrà Santa Corona → Contrà San Marco → Park Cricoli"
     }
@@ -622,7 +641,7 @@
   }
  ],
  "fermate": {
-  "svt-via-moneta": {
+  "autobus-svt-via-moneta": {
    "nome": "Via Moneta",
    "lat": 45.54008,
    "lon": 11.508622,
@@ -630,7 +649,7 @@
     "AUT-1"
    ]
   },
-  "svt-stazione-fs": {
+  "autobus-svt-stazione-fs": {
    "nome": "Stazione FS",
    "lat": 45.541791,
    "lon": 11.541657,
@@ -641,7 +660,7 @@
     "AUT-7"
    ]
   },
-  "svt-viale-giuriolo": {
+  "autobus-svt-viale-giuriolo": {
    "nome": "Viale Giuriolo",
    "lat": 45.546236,
    "lon": 11.551953,
@@ -653,7 +672,7 @@
     "AUT-17"
    ]
   },
-  "svt-bertesina": {
+  "autobus-svt-bertesina": {
    "nome": "Bertesina",
    "lat": 45.559093,
    "lon": 11.601278,
@@ -661,7 +680,7 @@
     "AUT-1"
    ]
   },
-  "svt-bertesinella": {
+  "autobus-svt-bertesinella": {
    "nome": "Bertesinella",
    "lat": 45.543108,
    "lon": 11.601769,
@@ -669,7 +688,7 @@
     "AUT-1"
    ]
   },
-  "svt-settec": {
+  "autobus-svt-settec": {
    "nome": "Settecà",
    "lat": 45.527664,
    "lon": 11.600887,
@@ -677,7 +696,7 @@
     "AUT-1"
    ]
   },
-  "svt-torri-di-quartesolo": {
+  "autobus-svt-torri-di-quartesolo": {
    "nome": "Torri di Quartesolo",
    "lat": 45.518669,
    "lon": 11.623796,
@@ -685,7 +704,7 @@
     "AUT-1"
    ]
   },
-  "svt-lerino": {
+  "autobus-svt-lerino": {
    "nome": "Lerino",
    "lat": 45.519053,
    "lon": 11.641431,
@@ -693,7 +712,7 @@
     "AUT-1"
    ]
   },
-  "svt-viale-della-pace-ederle": {
+  "autobus-svt-viale-della-pace-ederle": {
    "nome": "Viale della Pace (Ederle)",
    "lat": 45.540425,
    "lon": 11.580559,
@@ -701,7 +720,7 @@
     "AUT-1"
    ]
   },
-  "svt-piazza-xx-settembre": {
+  "autobus-svt-piazza-xx-settembre": {
    "nome": "Piazza XX Settembre",
    "lat": 45.550195,
    "lon": 11.551289,
@@ -710,7 +729,7 @@
     "AUT-7"
    ]
   },
-  "svt-stazione-fs-piazzale": {
+  "autobus-svt-stazione-fs-piazzale": {
    "nome": "Stazione FS (piazzale)",
    "lat": 45.542256,
    "lon": 11.540533,
@@ -719,7 +738,7 @@
     "AUT-17"
    ]
   },
-  "svt-viale-rodolfi": {
+  "autobus-svt-viale-rodolfi": {
    "nome": "Viale Rodolfi",
    "lat": 45.553146,
    "lon": 11.551469,
@@ -727,7 +746,7 @@
     "AUT-2"
    ]
   },
-  "svt-via-lago-di-fogliano": {
+  "autobus-svt-via-lago-di-fogliano": {
    "nome": "Via Lago di Fogliano",
    "lat": 45.575218,
    "lon": 11.54434,
@@ -735,7 +754,7 @@
     "AUT-2"
    ]
   },
-  "svt-polegge": {
+  "autobus-svt-polegge": {
    "nome": "Polegge",
    "lat": 45.591531,
    "lon": 11.543998,
@@ -743,7 +762,7 @@
     "AUT-2"
    ]
   },
-  "svt-autostazione-svt": {
+  "autobus-svt-autostazione-svt": {
    "nome": "Autostazione SVT",
    "lat": 45.5427,
    "lon": 11.5392,
@@ -757,7 +776,7 @@
     "AUT-19"
    ]
   },
-  "svt-parco-citt": {
+  "autobus-svt-parco-citt": {
    "nome": "Parco Città",
    "lat": 45.558908,
    "lon": 11.566935,
@@ -765,7 +784,7 @@
     "AUT-3"
    ]
   },
-  "svt-viale-astichello": {
+  "autobus-svt-viale-astichello": {
    "nome": "Viale Astichello",
    "lat": 45.559441,
    "lon": 11.553627,
@@ -774,7 +793,7 @@
     "AUT-11"
    ]
   },
-  "svt-viale-ferrarin": {
+  "autobus-svt-viale-ferrarin": {
    "nome": "Viale Ferrarin",
    "lat": 45.560741,
    "lon": 11.531122,
@@ -782,7 +801,7 @@
     "AUT-4"
    ]
   },
-  "svt-via-giaretta": {
+  "autobus-svt-via-giaretta": {
    "nome": "Via Giaretta",
    "lat": 45.530926,
    "lon": 11.52263,
@@ -790,7 +809,7 @@
     "AUT-4"
    ]
   },
-  "svt-sant-agostino": {
+  "autobus-svt-sant-agostino": {
    "nome": "Sant'Agostino",
    "lat": 45.516487,
    "lon": 11.510542,
@@ -798,7 +817,7 @@
     "AUT-4"
    ]
   },
-  "svt-valmarana": {
+  "autobus-svt-valmarana": {
    "nome": "Valmarana",
    "lat": 45.504437,
    "lon": 11.493575,
@@ -806,7 +825,7 @@
     "AUT-4"
    ]
   },
-  "svt-viale-venezia-stazione": {
+  "autobus-svt-viale-venezia-stazione": {
    "nome": "Viale Venezia (stazione)",
    "lat": 45.54152,
    "lon": 11.54445,
@@ -814,7 +833,7 @@
     "AUT-4"
    ]
   },
-  "svt-villaggio-del-sole": {
+  "autobus-svt-villaggio-del-sole": {
    "nome": "Villaggio del Sole",
    "lat": 45.556095,
    "lon": 11.516055,
@@ -822,7 +841,7 @@
     "AUT-5"
    ]
   },
-  "svt-bolzano-vicentino": {
+  "autobus-svt-bolzano-vicentino": {
    "nome": "Bolzano Vicentino",
    "lat": 45.596656,
    "lon": 11.638377,
@@ -830,7 +849,7 @@
     "AUT-5"
    ]
   },
-  "svt-lisiera": {
+  "autobus-svt-lisiera": {
    "nome": "Lisiera",
    "lat": 45.579888,
    "lon": 11.611388,
@@ -838,7 +857,7 @@
     "AUT-5"
    ]
   },
-  "svt-via-degli-eroi-quinto-vic": {
+  "autobus-svt-via-degli-eroi-quinto-vic": {
    "nome": "Via degli Eroi (Quinto Vic.)",
    "lat": 45.573358,
    "lon": 11.628054,
@@ -846,7 +865,7 @@
     "AUT-5"
    ]
   },
-  "svt-lanz": {
+  "autobus-svt-lanz": {
    "nome": "Lanzè",
    "lat": 45.593966,
    "lon": 11.636863,
@@ -854,7 +873,7 @@
     "AUT-5"
    ]
   },
-  "svt-quinto-vicentino": {
+  "autobus-svt-quinto-vicentino": {
    "nome": "Quinto Vicentino",
    "lat": 45.573095,
    "lon": 11.625603,
@@ -862,7 +881,7 @@
     "AUT-5"
    ]
   },
-  "svt-anconetta": {
+  "autobus-svt-anconetta": {
    "nome": "Anconetta",
    "lat": 45.567689,
    "lon": 11.569682,
@@ -870,7 +889,7 @@
     "AUT-5"
    ]
   },
-  "svt-viale-dell-ippodromo": {
+  "autobus-svt-viale-dell-ippodromo": {
    "nome": "Viale dell'Ippodromo",
    "lat": 45.544115,
    "lon": 11.538109,
@@ -878,7 +897,7 @@
     "AUT-6"
    ]
   },
-  "svt-maddalene": {
+  "autobus-svt-maddalene": {
    "nome": "Maddalene",
    "lat": 45.569975,
    "lon": 11.511572,
@@ -886,7 +905,7 @@
     "AUT-6"
    ]
   },
-  "svt-via-martiri-delle-foibe": {
+  "autobus-svt-via-martiri-delle-foibe": {
    "nome": "Via Martiri delle Foibe",
    "lat": 45.588505,
    "lon": 11.489032,
@@ -894,7 +913,7 @@
     "AUT-6"
    ]
   },
-  "svt-costabissara": {
+  "autobus-svt-costabissara": {
    "nome": "Costabissara",
    "lat": 45.585542,
    "lon": 11.487744,
@@ -902,7 +921,7 @@
     "AUT-6"
    ]
   },
-  "svt-via-del-carso": {
+  "autobus-svt-via-del-carso": {
    "nome": "Via del Carso",
    "lat": 45.553117,
    "lon": 11.517294,
@@ -910,7 +929,7 @@
     "AUT-7"
    ]
   },
-  "svt-san-pio-x": {
+  "autobus-svt-san-pio-x": {
    "nome": "San Pio X",
    "lat": 45.547175,
    "lon": 11.570454,
@@ -918,7 +937,7 @@
     "AUT-7"
    ]
   },
-  "svt-torri-di-arcugnano": {
+  "autobus-svt-torri-di-arcugnano": {
    "nome": "Torri di Arcugnano",
    "lat": 45.49606,
    "lon": 11.55063,
@@ -927,7 +946,7 @@
     "AUT-13"
    ]
   },
-  "svt-debba": {
+  "autobus-svt-debba": {
    "nome": "Debba",
    "lat": 45.49964,
    "lon": 11.58946,
@@ -935,7 +954,7 @@
     "AUT-8"
    ]
   },
-  "svt-stadio": {
+  "autobus-svt-stadio": {
    "nome": "Stadio",
    "lat": 45.541892,
    "lon": 11.55769,
@@ -944,7 +963,7 @@
     "AUT-11"
    ]
   },
-  "svt-strada-sant-antonino": {
+  "autobus-svt-strada-sant-antonino": {
    "nome": "Strada Sant'Antonino",
    "lat": 45.579695,
    "lon": 11.53487,
@@ -952,7 +971,7 @@
     "AUT-9"
    ]
   },
-  "svt-cresole": {
+  "autobus-svt-cresole": {
    "nome": "Cresole",
    "lat": 45.597092,
    "lon": 11.552474,
@@ -960,7 +979,7 @@
     "AUT-9"
    ]
   },
-  "svt-caldogno": {
+  "autobus-svt-caldogno": {
    "nome": "Caldogno",
    "lat": 45.61184,
    "lon": 11.50758,
@@ -968,7 +987,7 @@
     "AUT-9"
    ]
   },
-  "svt-park-stadio": {
+  "autobus-svt-park-stadio": {
    "nome": "Park Stadio",
    "lat": 45.543047,
    "lon": 11.558774,
@@ -976,7 +995,7 @@
     "AUT-10"
    ]
   },
-  "svt-lev-degli-angeli": {
+  "autobus-svt-lev-degli-angeli": {
    "nome": "Levà degli Angeli",
    "lat": 45.550021,
    "lon": 11.550077,
@@ -984,7 +1003,7 @@
     "AUT-10"
    ]
   },
-  "svt-piazza-castello": {
+  "autobus-svt-piazza-castello": {
    "nome": "Piazza Castello",
    "lat": 45.545921,
    "lon": 11.541421,
@@ -992,7 +1011,7 @@
     "AUT-10"
    ]
   },
-  "svt-via-ettore-gallo": {
+  "autobus-svt-via-ettore-gallo": {
    "nome": "Via Ettore Gallo",
    "lat": 45.541366,
    "lon": 11.556151,
@@ -1000,7 +1019,7 @@
     "AUT-10"
    ]
   },
-  "svt-cavazzale": {
+  "autobus-svt-cavazzale": {
    "nome": "Cavazzale",
    "lat": 45.59635,
    "lon": 11.569843,
@@ -1008,7 +1027,7 @@
     "AUT-11"
    ]
   },
-  "svt-monticello-conte-otto": {
+  "autobus-svt-monticello-conte-otto": {
    "nome": "Monticello Conte Otto",
    "lat": 45.59518,
    "lon": 11.580579,
@@ -1016,7 +1035,7 @@
     "AUT-11"
    ]
   },
-  "svt-fiera": {
+  "autobus-svt-fiera": {
    "nome": "Fiera",
    "lat": 45.530247,
    "lon": 11.507033,
@@ -1024,7 +1043,7 @@
     "AUT-12"
    ]
   },
-  "svt-ponte-alto": {
+  "autobus-svt-ponte-alto": {
    "nome": "Ponte Alto",
    "lat": 45.533484,
    "lon": 11.505432,
@@ -1032,7 +1051,7 @@
     "AUT-12"
    ]
   },
-  "svt-creazzo": {
+  "autobus-svt-creazzo": {
    "nome": "Creazzo",
    "lat": 45.532053,
    "lon": 11.478581,
@@ -1040,7 +1059,7 @@
     "AUT-12"
    ]
   },
-  "svt-sovizzo": {
+  "autobus-svt-sovizzo": {
    "nome": "Sovizzo",
    "lat": 45.533,
    "lon": 11.45,
@@ -1048,7 +1067,7 @@
     "AUT-12"
    ]
   },
-  "svt-altavilla-vicentina": {
+  "autobus-svt-altavilla-vicentina": {
    "nome": "Altavilla Vicentina",
    "lat": 45.508429,
    "lon": 11.470686,
@@ -1056,7 +1075,7 @@
     "AUT-12"
    ]
   },
-  "svt-viale-della-scienza": {
+  "autobus-svt-viale-della-scienza": {
    "nome": "Viale della Scienza",
    "lat": 45.525849,
    "lon": 11.502396,
@@ -1064,7 +1083,7 @@
     "AUT-12"
    ]
   },
-  "svt-tormeno": {
+  "autobus-svt-tormeno": {
    "nome": "Tormeno",
    "lat": 45.503898,
    "lon": 11.555054,
@@ -1072,7 +1091,7 @@
     "AUT-13"
    ]
   },
-  "svt-lago-di-fimon": {
+  "autobus-svt-lago-di-fimon": {
    "nome": "Lago di Fimon",
    "lat": 45.46944,
    "lon": 11.54278,
@@ -1080,7 +1099,7 @@
     "AUT-13"
    ]
   },
-  "svt-monteviale": {
+  "autobus-svt-monteviale": {
    "nome": "Monteviale",
    "lat": 45.560525,
    "lon": 11.458072,
@@ -1088,7 +1107,7 @@
     "AUT-16"
    ]
   },
-  "svt-gambugliano": {
+  "autobus-svt-gambugliano": {
    "nome": "Gambugliano",
    "lat": 45.583,
    "lon": 11.433,
@@ -1096,7 +1115,7 @@
     "AUT-16"
    ]
   },
-  "svt-monte-berico": {
+  "autobus-svt-monte-berico": {
    "nome": "Monte Berico",
    "lat": 45.536,
    "lon": 11.5492,
@@ -1104,7 +1123,7 @@
     "AUT-18"
    ]
   },
-  "svt-via-zamenhof": {
+  "autobus-svt-via-zamenhof": {
    "nome": "Via Zamenhof",
    "lat": 45.524944,
    "lon": 11.59091,
@@ -1112,7 +1131,7 @@
     "AUT-19"
    ]
   },
-  "svt-via-pola": {
+  "autobus-svt-via-pola": {
    "nome": "Via Pola",
    "lat": 45.511641,
    "lon": 11.625447,
@@ -1120,7 +1139,7 @@
     "AUT-19"
    ]
   },
-  "svt-park-mercato-nuovo": {
+  "autobus-svt-park-mercato-nuovo": {
    "nome": "Park Mercato Nuovo",
    "lat": 45.546459,
    "lon": 11.526838,
@@ -1128,7 +1147,7 @@
     "AUT-20"
    ]
   },
-  "svt-contr-cantarane": {
+  "autobus-svt-contr-cantarane": {
    "nome": "Contrà Cantarane",
    "lat": 45.549329,
    "lon": 11.540525,
@@ -1136,7 +1155,7 @@
     "AUT-20"
    ]
   },
-  "svt-park-cricoli": {
+  "autobus-svt-park-cricoli": {
    "nome": "Park Cricoli",
    "lat": 45.563386,
    "lon": 11.547835,
@@ -1144,7 +1163,7 @@
     "AUT-30"
    ]
   },
-  "svt-ospedale": {
+  "autobus-svt-ospedale": {
    "nome": "Ospedale",
    "lat": 45.555426,
    "lon": 11.54857,
@@ -1152,7 +1171,7 @@
     "AUT-30"
    ]
   },
-  "svt-contr-canove": {
+  "autobus-svt-contr-canove": {
    "nome": "Contrà Canove",
    "lat": 45.550742,
    "lon": 11.547781,
@@ -1162,58 +1181,58 @@
   }
  },
  "fermataLinee": {
-  "svt-via-moneta": [
+  "autobus-svt-via-moneta": [
    "AUT-1"
   ],
-  "svt-stazione-fs": [
+  "autobus-svt-stazione-fs": [
    "AUT-1",
    "AUT-4",
    "AUT-5",
    "AUT-7"
   ],
-  "svt-viale-giuriolo": [
+  "autobus-svt-viale-giuriolo": [
    "AUT-1",
    "AUT-2",
    "AUT-5",
    "AUT-7",
    "AUT-17"
   ],
-  "svt-bertesina": [
+  "autobus-svt-bertesina": [
    "AUT-1"
   ],
-  "svt-bertesinella": [
+  "autobus-svt-bertesinella": [
    "AUT-1"
   ],
-  "svt-settec": [
+  "autobus-svt-settec": [
    "AUT-1"
   ],
-  "svt-torri-di-quartesolo": [
+  "autobus-svt-torri-di-quartesolo": [
    "AUT-1"
   ],
-  "svt-lerino": [
+  "autobus-svt-lerino": [
    "AUT-1"
   ],
-  "svt-viale-della-pace-ederle": [
+  "autobus-svt-viale-della-pace-ederle": [
    "AUT-1"
   ],
-  "svt-piazza-xx-settembre": [
+  "autobus-svt-piazza-xx-settembre": [
    "AUT-1",
    "AUT-7"
   ],
-  "svt-stazione-fs-piazzale": [
+  "autobus-svt-stazione-fs-piazzale": [
    "AUT-2",
    "AUT-17"
   ],
-  "svt-viale-rodolfi": [
+  "autobus-svt-viale-rodolfi": [
    "AUT-2"
   ],
-  "svt-via-lago-di-fogliano": [
+  "autobus-svt-via-lago-di-fogliano": [
    "AUT-2"
   ],
-  "svt-polegge": [
+  "autobus-svt-polegge": [
    "AUT-2"
   ],
-  "svt-autostazione-svt": [
+  "autobus-svt-autostazione-svt": [
    "AUT-3",
    "AUT-8",
    "AUT-12",
@@ -1222,157 +1241,157 @@
    "AUT-18",
    "AUT-19"
   ],
-  "svt-parco-citt": [
+  "autobus-svt-parco-citt": [
    "AUT-3"
   ],
-  "svt-viale-astichello": [
+  "autobus-svt-viale-astichello": [
    "AUT-3",
    "AUT-11"
   ],
-  "svt-viale-ferrarin": [
+  "autobus-svt-viale-ferrarin": [
    "AUT-4"
   ],
-  "svt-via-giaretta": [
+  "autobus-svt-via-giaretta": [
    "AUT-4"
   ],
-  "svt-sant-agostino": [
+  "autobus-svt-sant-agostino": [
    "AUT-4"
   ],
-  "svt-valmarana": [
+  "autobus-svt-valmarana": [
    "AUT-4"
   ],
-  "svt-viale-venezia-stazione": [
+  "autobus-svt-viale-venezia-stazione": [
    "AUT-4"
   ],
-  "svt-villaggio-del-sole": [
+  "autobus-svt-villaggio-del-sole": [
    "AUT-5"
   ],
-  "svt-bolzano-vicentino": [
+  "autobus-svt-bolzano-vicentino": [
    "AUT-5"
   ],
-  "svt-lisiera": [
+  "autobus-svt-lisiera": [
    "AUT-5"
   ],
-  "svt-via-degli-eroi-quinto-vic": [
+  "autobus-svt-via-degli-eroi-quinto-vic": [
    "AUT-5"
   ],
-  "svt-lanz": [
+  "autobus-svt-lanz": [
    "AUT-5"
   ],
-  "svt-quinto-vicentino": [
+  "autobus-svt-quinto-vicentino": [
    "AUT-5"
   ],
-  "svt-anconetta": [
+  "autobus-svt-anconetta": [
    "AUT-5"
   ],
-  "svt-viale-dell-ippodromo": [
+  "autobus-svt-viale-dell-ippodromo": [
    "AUT-6"
   ],
-  "svt-maddalene": [
+  "autobus-svt-maddalene": [
    "AUT-6"
   ],
-  "svt-via-martiri-delle-foibe": [
+  "autobus-svt-via-martiri-delle-foibe": [
    "AUT-6"
   ],
-  "svt-costabissara": [
+  "autobus-svt-costabissara": [
    "AUT-6"
   ],
-  "svt-via-del-carso": [
+  "autobus-svt-via-del-carso": [
    "AUT-7"
   ],
-  "svt-san-pio-x": [
+  "autobus-svt-san-pio-x": [
    "AUT-7"
   ],
-  "svt-torri-di-arcugnano": [
+  "autobus-svt-torri-di-arcugnano": [
    "AUT-8",
    "AUT-13"
   ],
-  "svt-debba": [
+  "autobus-svt-debba": [
    "AUT-8"
   ],
-  "svt-stadio": [
+  "autobus-svt-stadio": [
    "AUT-9",
    "AUT-11"
   ],
-  "svt-strada-sant-antonino": [
+  "autobus-svt-strada-sant-antonino": [
    "AUT-9"
   ],
-  "svt-cresole": [
+  "autobus-svt-cresole": [
    "AUT-9"
   ],
-  "svt-caldogno": [
+  "autobus-svt-caldogno": [
    "AUT-9"
   ],
-  "svt-park-stadio": [
+  "autobus-svt-park-stadio": [
    "AUT-10"
   ],
-  "svt-lev-degli-angeli": [
+  "autobus-svt-lev-degli-angeli": [
    "AUT-10"
   ],
-  "svt-piazza-castello": [
+  "autobus-svt-piazza-castello": [
    "AUT-10"
   ],
-  "svt-via-ettore-gallo": [
+  "autobus-svt-via-ettore-gallo": [
    "AUT-10"
   ],
-  "svt-cavazzale": [
+  "autobus-svt-cavazzale": [
    "AUT-11"
   ],
-  "svt-monticello-conte-otto": [
+  "autobus-svt-monticello-conte-otto": [
    "AUT-11"
   ],
-  "svt-fiera": [
+  "autobus-svt-fiera": [
    "AUT-12"
   ],
-  "svt-ponte-alto": [
+  "autobus-svt-ponte-alto": [
    "AUT-12"
   ],
-  "svt-creazzo": [
+  "autobus-svt-creazzo": [
    "AUT-12"
   ],
-  "svt-sovizzo": [
+  "autobus-svt-sovizzo": [
    "AUT-12"
   ],
-  "svt-altavilla-vicentina": [
+  "autobus-svt-altavilla-vicentina": [
    "AUT-12"
   ],
-  "svt-viale-della-scienza": [
+  "autobus-svt-viale-della-scienza": [
    "AUT-12"
   ],
-  "svt-tormeno": [
+  "autobus-svt-tormeno": [
    "AUT-13"
   ],
-  "svt-lago-di-fimon": [
+  "autobus-svt-lago-di-fimon": [
    "AUT-13"
   ],
-  "svt-monteviale": [
+  "autobus-svt-monteviale": [
    "AUT-16"
   ],
-  "svt-gambugliano": [
+  "autobus-svt-gambugliano": [
    "AUT-16"
   ],
-  "svt-monte-berico": [
+  "autobus-svt-monte-berico": [
    "AUT-18"
   ],
-  "svt-via-zamenhof": [
+  "autobus-svt-via-zamenhof": [
    "AUT-19"
   ],
-  "svt-via-pola": [
+  "autobus-svt-via-pola": [
    "AUT-19"
   ],
-  "svt-park-mercato-nuovo": [
+  "autobus-svt-park-mercato-nuovo": [
    "AUT-20"
   ],
-  "svt-contr-cantarane": [
+  "autobus-svt-contr-cantarane": [
    "AUT-20"
   ],
-  "svt-park-cricoli": [
+  "autobus-svt-park-cricoli": [
    "AUT-30"
   ],
-  "svt-ospedale": [
+  "autobus-svt-ospedale": [
    "AUT-30"
   ],
-  "svt-contr-canove": [
+  "autobus-svt-contr-canove": [
    "AUT-30"
   ]
  }

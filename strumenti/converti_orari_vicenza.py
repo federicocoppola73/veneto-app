@@ -173,7 +173,7 @@ def main():
             if nome not in mappa:
                 saltate[nome].add(t['linea'])
                 continue
-            fid = 'svt-' + re.sub(r'[^a-z0-9]+', '-', mappa[nome][0].lower()).strip('-')
+            fid = 'autobus-svt-' + re.sub(r'[^a-z0-9]+', '-', mappa[nome][0].lower()).strip('-')
             ids[fid] = mappa[nome]
             if fid in viste:  # stessa fermata ripetuta (arrivo a fine giro): tengo la prima
                 continue
@@ -210,7 +210,7 @@ def main():
             tit = bel_titolo(nomi_titolo[(lid, d)])
             direzioni.append({'direzione': d, 'circolare': False, 'fermate': fer, 'titolo': re.sub(r'\s+', ' ', tit)})
         linee_out.append({'id': lid, 'etichetta': '12/14' if lid == 'AUT-12' else lid[4:], 'mezzo': 'autobus',
-                          'colore': '#0B6BB7', 'testo': '#FFFFFF', 'notturna': False, 'pdf': PDF_URL,
+                          'colore': '#0B6BB7', 'testo': '#FFFFFF', 'notturna': False, 'gestore': 'SVT', 'pdf': PDF_URL,
                           'direzioni': direzioni})
 
     date = {}

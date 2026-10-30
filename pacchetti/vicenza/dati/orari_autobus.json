@@ -342,7 +342,7 @@
  },
  "capolinea": [],
  "orari": {
-  "svt-via-moneta": {
+  "autobus-svt-via-moneta": {
    "AUT-1": {
     "0": [
      [
@@ -386,7 +386,7 @@
     ]
    }
   },
-  "svt-stazione-fs": {
+  "autobus-svt-stazione-fs": {
    "AUT-1": {
     "0": [
      [
@@ -476,7 +476,7 @@
     ]
    }
   },
-  "svt-viale-giuriolo": {
+  "autobus-svt-viale-giuriolo": {
    "AUT-1": {
     "0": [
      [
@@ -577,7 +577,7 @@
     ]
    }
   },
-  "svt-bertesina": {
+  "autobus-svt-bertesina": {
    "AUT-1": {
     "0": [
      [
@@ -621,7 +621,7 @@
     ]
    }
   },
-  "svt-bertesinella": {
+  "autobus-svt-bertesinella": {
    "AUT-1": {
     "0": [
      [
@@ -665,7 +665,7 @@
     ]
    }
   },
-  "svt-settec": {
+  "autobus-svt-settec": {
    "AUT-1": {
     "0": [
      [
@@ -709,7 +709,7 @@
     ]
    }
   },
-  "svt-torri-di-quartesolo": {
+  "autobus-svt-torri-di-quartesolo": {
    "AUT-1": {
     "0": [
      [
@@ -753,7 +753,7 @@
     ]
    }
   },
-  "svt-lerino": {
+  "autobus-svt-lerino": {
    "AUT-1": {
     "0": [
      [
@@ -797,7 +797,7 @@
     ]
    }
   },
-  "svt-viale-della-pace-ederle": {
+  "autobus-svt-viale-della-pace-ederle": {
    "AUT-1": {
     "1": [
      [
@@ -821,7 +821,7 @@
     ]
    }
   },
-  "svt-piazza-xx-settembre": {
+  "autobus-svt-piazza-xx-settembre": {
    "AUT-1": {
     "1": [
      [
@@ -867,7 +867,7 @@
     ]
    }
   },
-  "svt-stazione-fs-piazzale": {
+  "autobus-svt-stazione-fs-piazzale": {
    "AUT-2": {
     "0": [
      [
@@ -931,7 +931,7 @@
     ]
    }
   },
-  "svt-viale-rodolfi": {
+  "autobus-svt-viale-rodolfi": {
    "AUT-2": {
     "0": [
      [
@@ -975,7 +975,7 @@
     ]
    }
   },
-  "svt-via-lago-di-fogliano": {
+  "autobus-svt-via-lago-di-fogliano": {
    "AUT-2": {
     "0": [
      [
@@ -1019,7 +1019,7 @@
     ]
    }
   },
-  "svt-polegge": {
+  "autobus-svt-polegge": {
    "AUT-2": {
     "0": [
      [
@@ -1051,7 +1051,7 @@
     ]
    }
   },
-  "svt-autostazione-svt": {
+  "autobus-svt-autostazione-svt": {
    "AUT-3": {
     "0": [
      [
@@ -1299,7 +1299,7 @@
     ]
    }
   },
-  "svt-parco-citt": {
+  "autobus-svt-parco-citt": {
    "AUT-3": {
     "0": [
      [
@@ -1331,7 +1331,7 @@
     ]
    }
   },
-  "svt-viale-astichello": {
+  "autobus-svt-viale-astichello": {
    "AUT-3": {
     "1": [
      [
@@ -1371,7 +1371,7 @@
     ]
    }
   },
-  "svt-viale-ferrarin": {
+  "autobus-svt-viale-ferrarin": {
    "AUT-4": {
     "0": [
      [
@@ -1415,7 +1415,7 @@
     ]
    }
   },
-  "svt-via-giaretta": {
+  "autobus-svt-via-giaretta": {
    "AUT-4": {
     "0": [
      [
@@ -1459,7 +1459,7 @@
     ]
    }
   },
-  "svt-sant-agostino": {
+  "autobus-svt-sant-agostino": {
    "AUT-4": {
     "0": [
      [
@@ -1503,7 +1503,7 @@
     ]
    }
   },
-  "svt-valmarana": {
+  "autobus-svt-valmarana": {
    "AUT-4": {
     "0": [
      [
@@ -1535,7 +1535,7 @@
     ]
    }
   },
-  "svt-viale-venezia-stazione": {
+  "autobus-svt-viale-venezia-stazione": {
    "AUT-4": {
     "1": [
      [
@@ -1559,7 +1559,7 @@
     ]
    }
   },
-  "svt-villaggio-del-sole": {
+  "autobus-svt-villaggio-del-sole": {
    "AUT-5": {
     "0": [
      [
@@ -1603,7 +1603,7 @@
     ]
    }
   },
-  "svt-bolzano-vicentino": {
+  "autobus-svt-bolzano-vicentino": {
    "AUT-5": {
     "0": [
      [
@@ -1635,7 +1635,7 @@
     ]
    }
   },
-  "svt-lisiera": {
+  "autobus-svt-lisiera": {
    "AUT-5": {
     "0": [
      [
@@ -1679,7 +1679,7 @@
     ]
    }
   },
-  "svt-via-degli-eroi-quinto-vic": {
+  "autobus-svt-via-degli-eroi-quinto-vic": {
    "AUT-5": {
     "0": [
      [
@@ -1697,7 +1697,7 @@
     ]
    }
   },
-  "svt-lanz": {
+  "autobus-svt-lanz": {
    "AUT-5": {
     "0": [
      [
@@ -1729,7 +1729,7 @@
     ]
    }
   },
-  "svt-quinto-vicentino": {
+  "autobus-svt-quinto-vicentino": {
    "AUT-5": {
     "1": [
      [
@@ -1747,7 +1747,7 @@
     ]
    }
   },
-  "svt-anconetta": {
+  "autobus-svt-anconetta": {
    "AUT-5": {
     "1": [
      [
@@ -1771,7 +1771,7 @@
     ]
    }
   },
-  "svt-viale-dell-ippodromo": {
+  "autobus-svt-viale-dell-ippodromo": {
    "AUT-6": {
     "0": [
      [
@@ -1815,7 +1815,7 @@
     ]
    }
   },
-  "svt-maddalene": {
+  "autobus-svt-maddalene": {
    "AUT-6": {
     "0": [
      [
@@ -1859,7 +1859,7 @@
     ]
    }
   },
-  "svt-via-martiri-delle-foibe": {
+  "autobus-svt-via-martiri-delle-foibe": {
    "AUT-6": {
     "0": [
      [
@@ -1871,7 +1871,7 @@
     ]
    }
   },
-  "svt-costabissara": {
+  "autobus-svt-costabissara": {
    "AUT-6": {
     "0": [
      [
@@ -1915,7 +1915,7 @@
     ]
    }
   },
-  "svt-via-del-carso": {
+  "autobus-svt-via-del-carso": {
    "AUT-7": {
     "0": [
      [
@@ -1959,7 +1959,7 @@
     ]
    }
   },
-  "svt-san-pio-x": {
+  "autobus-svt-san-pio-x": {
    "AUT-7": {
     "0": [
      [
@@ -2003,7 +2003,7 @@
     ]
    }
   },
-  "svt-torri-di-arcugnano": {
+  "autobus-svt-torri-di-arcugnano": {
    "AUT-8": {
     "0": [
      [
@@ -2077,7 +2077,7 @@
     ]
    }
   },
-  "svt-debba": {
+  "autobus-svt-debba": {
    "AUT-8": {
     "0": [
      [
@@ -2121,7 +2121,7 @@
     ]
    }
   },
-  "svt-stadio": {
+  "autobus-svt-stadio": {
    "AUT-9": {
     "0": [
      [
@@ -2207,7 +2207,7 @@
     ]
    }
   },
-  "svt-strada-sant-antonino": {
+  "autobus-svt-strada-sant-antonino": {
    "AUT-9": {
     "0": [
      [
@@ -2251,7 +2251,7 @@
     ]
    }
   },
-  "svt-cresole": {
+  "autobus-svt-cresole": {
    "AUT-9": {
     "0": [
      [
@@ -2295,7 +2295,7 @@
     ]
    }
   },
-  "svt-caldogno": {
+  "autobus-svt-caldogno": {
    "AUT-9": {
     "0": [
      [
@@ -2339,7 +2339,7 @@
     ]
    }
   },
-  "svt-park-stadio": {
+  "autobus-svt-park-stadio": {
    "AUT-10": {
     "0": [
      [
@@ -2383,7 +2383,7 @@
     ]
    }
   },
-  "svt-lev-degli-angeli": {
+  "autobus-svt-lev-degli-angeli": {
    "AUT-10": {
     "0": [
      [
@@ -2427,7 +2427,7 @@
     ]
    }
   },
-  "svt-piazza-castello": {
+  "autobus-svt-piazza-castello": {
    "AUT-10": {
     "1": [
      [
@@ -2451,7 +2451,7 @@
     ]
    }
   },
-  "svt-via-ettore-gallo": {
+  "autobus-svt-via-ettore-gallo": {
    "AUT-10": {
     "1": [
      [
@@ -2463,7 +2463,7 @@
     ]
    }
   },
-  "svt-cavazzale": {
+  "autobus-svt-cavazzale": {
    "AUT-11": {
     "0": [
      [
@@ -2507,7 +2507,7 @@
     ]
    }
   },
-  "svt-monticello-conte-otto": {
+  "autobus-svt-monticello-conte-otto": {
    "AUT-11": {
     "0": [
      [
@@ -2531,7 +2531,7 @@
     ]
    }
   },
-  "svt-fiera": {
+  "autobus-svt-fiera": {
    "AUT-12": {
     "0": [
      [
@@ -2555,7 +2555,7 @@
     ]
    }
   },
-  "svt-ponte-alto": {
+  "autobus-svt-ponte-alto": {
    "AUT-12": {
     "0": [
      [
@@ -2593,7 +2593,7 @@
     ]
    }
   },
-  "svt-creazzo": {
+  "autobus-svt-creazzo": {
    "AUT-12": {
     "0": [
      [
@@ -2631,7 +2631,7 @@
     ]
    }
   },
-  "svt-sovizzo": {
+  "autobus-svt-sovizzo": {
    "AUT-12": {
     "0": [
      [
@@ -2675,7 +2675,7 @@
     ]
    }
   },
-  "svt-altavilla-vicentina": {
+  "autobus-svt-altavilla-vicentina": {
    "AUT-12": {
     "0": [
      [
@@ -2719,7 +2719,7 @@
     ]
    }
   },
-  "svt-viale-della-scienza": {
+  "autobus-svt-viale-della-scienza": {
    "AUT-12": {
     "1": [
      [
@@ -2743,7 +2743,7 @@
     ]
    }
   },
-  "svt-tormeno": {
+  "autobus-svt-tormeno": {
    "AUT-13": {
     "0": [
      [
@@ -2761,7 +2761,7 @@
     ]
    }
   },
-  "svt-lago-di-fimon": {
+  "autobus-svt-lago-di-fimon": {
    "AUT-13": {
     "0": [
      [
@@ -2793,7 +2793,7 @@
     ]
    }
   },
-  "svt-monteviale": {
+  "autobus-svt-monteviale": {
    "AUT-16": {
     "0": [
      [
@@ -2825,7 +2825,7 @@
     ]
    }
   },
-  "svt-gambugliano": {
+  "autobus-svt-gambugliano": {
    "AUT-16": {
     "0": [
      [
@@ -2857,7 +2857,7 @@
     ]
    }
   },
-  "svt-monte-berico": {
+  "autobus-svt-monte-berico": {
    "AUT-18": {
     "0": [
      [
@@ -2889,7 +2889,7 @@
     ]
    }
   },
-  "svt-via-zamenhof": {
+  "autobus-svt-via-zamenhof": {
    "AUT-19": {
     "0": [
      [
@@ -2909,7 +2909,7 @@
     ]
    }
   },
-  "svt-via-pola": {
+  "autobus-svt-via-pola": {
    "AUT-19": {
     "0": [
      [
@@ -2953,7 +2953,7 @@
     ]
    }
   },
-  "svt-park-mercato-nuovo": {
+  "autobus-svt-park-mercato-nuovo": {
    "AUT-20": {
     "0": [
      [
@@ -2973,7 +2973,7 @@
     ]
    }
   },
-  "svt-contr-cantarane": {
+  "autobus-svt-contr-cantarane": {
    "AUT-20": {
     "0": [
      [
@@ -2993,7 +2993,7 @@
     ]
    }
   },
-  "svt-park-cricoli": {
+  "autobus-svt-park-cricoli": {
    "AUT-30": {
     "0": [
      [
@@ -3025,7 +3025,7 @@
     ]
    }
   },
-  "svt-ospedale": {
+  "autobus-svt-ospedale": {
    "AUT-30": {
     "0": [
      [
@@ -3037,7 +3037,7 @@
     ]
    }
   },
-  "svt-contr-canove": {
+  "autobus-svt-contr-canove": {
    "AUT-30": {
     "0": [
      [
