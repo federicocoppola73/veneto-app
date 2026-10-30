@@ -1,11 +1,19 @@
 // Itinerari a piedi e in vaporetto: dati in itinerari.json (generato da strumenti/itinerari.py a partire da itinerari.txt)
 const dati = datiProxy('itinerari.json');
+const datiLuoghi = datiProxy('luoghi.json');
 import { distanzaMetri, formattaDistanza } from './distanza';
 import { datiProxy } from './dati';
+import { calcolaItinerario } from './itinerariUtente';
 
 export let ITINERARI = [];
 export function inizializzaItinerari() {
-  ITINERARI = dati.itinerari || [];
+  // Gli itinerari senza percorsi salvati (per esempio Vicenza) li calcola il telefono sulla rete pedonale,
+  // così l'ordine delle tappe in itinerari.json resta quello giusto anche se si cambia la rete.
+  const perId = Object.fromEntries((datiLuoghi.luoghi || []).map((l) => [l.id, l]));
+  ITINERARI = (dati.itinerari || []).map((it) => {
+    if (it.tratti || it.nautico || !Array.isArray(it.tappe) || !it.tappe.length) return it;
+    return { ...calcolaItinerario(it, perId), id: it.id, titolo: it.titolo, utente: false, nautico: false };
+  });
 }
 
 // Punti di partenza tra cui l'utente sceglie prima dell'itinerario.
