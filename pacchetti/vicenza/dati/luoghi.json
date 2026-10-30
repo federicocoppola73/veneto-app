@@ -1498,6 +1498,75 @@
       "biglietto": {
         "gratuito": true
       }
+    },
+    {
+      "id": "casa-cogollo",
+      "nome": "Casa Cogollo",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.54917,
+      "longitudine": 11.54889,
+      "descrizione": {
+        "it": "Piccolo palazzo di Corso Palladio costruito nel 1559 e attribuito ad Andrea Palladio, senza documenti certi. Dal 1994 fa parte del sito UNESCO di Vicenza.",
+        "en": "Small palace on Corso Palladio, built in 1559 and attributed to Andrea Palladio, though without certain documents. Since 1994 it has been part of Vicenza's UNESCO site.",
+        "fr": "Petit palais du Corso Palladio, construit en 1559 et attribué à Andrea Palladio, sans documents certains. Depuis 1994, il fait partie du site UNESCO de Vicence.",
+        "de": "Kleiner Palast am Corso Palladio, 1559 erbaut und Andrea Palladio zugeschrieben, ohne sichere Dokumente. Seit 1994 gehört er zum UNESCO-Welterbe in Vicenza.",
+        "es": "Pequeño palacio en el Corso Palladio, construido en 1559 y atribuido a Andrea Palladio, aunque sin documentos seguros. Desde 1994 forma parte del sitio UNESCO de Vicenza."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      }
+    },
+    {
+      "id": "cappella-valmarana",
+      "nome": "Cappella Valmarana",
+      "categoria": "chiese",
+      "sestiere": "Centro",
+      "latitudine": 45.54938,
+      "longitudine": 11.54796,
+      "descrizione": {
+        "it": "Piccola cappella nella cripta della chiesa di Santa Corona, attribuita ad Andrea Palladio. Lo spazio quasi sotterraneo richiama il tablino delle case romane.",
+        "en": "Small chapel in the crypt of the church of Santa Corona, attributed to Andrea Palladio. The almost underground space recalls the tablinum of Roman houses.",
+        "fr": "Petite chapelle dans la crypte de l'église Santa Corona, attribuée à Andrea Palladio. Cet espace presque souterrain rappelle le tablinum des maisons romaines.",
+        "de": "Kleine Kapelle in der Krypta der Kirche Santa Corona, Andrea Palladio zugeschrieben. Der fast unterirdische Raum erinnert an das Tablinum römischer Häuser.",
+        "es": "Pequeña capilla en la cripta de la iglesia de Santa Corona, atribuida a Andrea Palladio. El espacio casi subterráneo recuerda al tablino de las casas romanas."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      }
+    },
+    {
+      "id": "palazzo-porto-breganze",
+      "nome": "Palazzo Porto Breganze",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.54612,
+      "longitudine": 11.54156,
+      "descrizione": {
+        "it": "Palazzo di Piazza Castello, progettato da Palladio intorno al 1571 e completato nel 1615 da Vincenzo Scamozzi.",
+        "en": "Palace in Piazza Castello, designed by Palladio around 1571 and completed in 1615 by Vincenzo Scamozzi.",
+        "fr": "Palais de la piazza Castello, conçu par Palladio vers 1571 et achevé en 1615 par Vincenzo Scamozzi.",
+        "de": "Palast am Piazza Castello, um 1571 von Palladio entworfen und 1615 von Vincenzo Scamozzi vollendet.",
+        "es": "Palacio de la Piazza Castello, diseñado por Palladio hacia 1571 y terminado en 1615 por Vincenzo Scamozzi."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      }
     }
   ]
 }

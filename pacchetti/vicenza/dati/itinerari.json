@@ -1,4 +1,27 @@
 {
- "_nota": "Vicenza: nessun itinerario per ora",
- "itinerari": []
+  "_nota": "Vicenza: itinerari consigliati. Lunghezza stimata (linea d'aria tra le tappe × 1,3); i percorsi lungo le strade si calcolano quando sarà pronta la rete pedonale.",
+  "itinerari": [
+    {
+      "id": "palladio",
+      "titolo": {
+        "it": "Palladio",
+        "en": "Palladio",
+        "fr": "Palladio",
+        "de": "Palladio",
+        "es": "Palladio"
+      },
+      "tappe": [
+        "basilica-palladiana",
+        "loggia-del-capitaniato",
+        "palazzo-chiericati-museo-civico",
+        "teatro-olimpico",
+        "casa-cogollo",
+        "cappella-valmarana",
+        "gallerie-di-palazzo-thiene",
+        "palazzo-valmarana-braga",
+        "palazzo-porto-breganze"
+      ],
+      "metri": 1681
+    }
+  ]
 }
