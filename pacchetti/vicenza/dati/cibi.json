@@ -988,6 +988,97 @@
           ]
         }
       }
+    },
+    {
+      "id": "pana",
+      "nome": "Panà",
+      "portata": "primo",
+      "testo": {
+        "it": "Minestra antichissima di riciclo tipica del Veneto: pane raffermo cotto a lungo in acqua e olio, fino a diventare una zuppa densa e cremosa.",
+        "en": "A very ancient recycling soup typical of the Veneto: stale bread cooked slowly in water and oil until it becomes a thick, creamy soup.",
+        "fr": "Soupe très ancienne, de récupération, typique de la Vénétie : du pain rassis cuit longuement dans de l'eau et de l'huile jusqu'à devenir une soupe épaisse et crémeuse.",
+        "de": "Uralte Resteverwertungssuppe, typisch für das Veneto: altes Brot wird langsam in Wasser und Öl gekocht, bis eine dicke, cremige Suppe entsteht.",
+        "es": "Sopa antiquísima de aprovechamiento, típica del Véneto: pan duro cocido a fuego lento en agua y aceite hasta convertirse en una sopa espesa y cremosa."
+      },
+      "ricetta": {
+        "porzioni": 2,
+        "preparazione": {
+          "it": "5 min + circa 2 ore di cottura",
+          "en": "5 min + about 2 hours of cooking",
+          "fr": "5 min + environ 2 h de cuisson",
+          "de": "5 Min. + ca. 2 Std. Garzeit",
+          "es": "5 min + unas 2 horas de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "250 g di pane raffermo",
+            "Acqua, la quantità dipende dal tipo di pane",
+            "1 filo di olio extravergine d'oliva",
+            "1 pizzico di sale",
+            "Formaggio grattugiato e pepe nero a piacere"
+          ],
+          "en": [
+            "250 g stale bread",
+            "Water, the amount depends on the type of bread",
+            "A drizzle of extra virgin olive oil",
+            "A pinch of salt",
+            "Grated cheese and black pepper to taste"
+          ],
+          "fr": [
+            "250 g de pain rassis",
+            "Eau, la quantité dépend du type de pain",
+            "Un filet d'huile d'olive extra vierge",
+            "Une pincée de sel",
+            "Fromage râpé et poivre noir selon goût"
+          ],
+          "de": [
+            "250 g altes Brot",
+            "Wasser, die Menge hängt von der Brotsorte ab",
+            "Ein Schuss natives Olivenöl extra",
+            "Eine Prise Salz",
+            "Geriebener Käse und schwarzer Pfeffer nach Geschmack"
+          ],
+          "es": [
+            "250 g de pan duro",
+            "Agua, la cantidad depende del tipo de pan",
+            "Un hilo de aceite de oliva virgen extra",
+            "Una pizca de sal",
+            "Queso rallado y pimienta negra al gusto"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Taglia il pane a fette e mettilo in una pentola di terracotta o di rame; ricoprilo un po' alla volta di acqua, in modo che il pane la assorba.",
+            "Aggiungi un pizzico di sale e un filo d'olio, poi metti sul fuoco a fiamma minima per lungo tempo, finché il pane si disfa e diventa una zuppa.",
+            "Più cuoce, più è buona: lasciala sul fuoco per almeno un'ora e mezza-due ore.",
+            "A fine cottura condisci con un filo d'olio e aggiungi, a piacere, formaggio grattugiato e pepe nero."
+          ],
+          "en": [
+            "Cut the bread into slices and put it in a terracotta or copper pot; cover it little by little with water, so the bread absorbs it.",
+            "Add a pinch of salt and a drizzle of oil, then put it on the heat at the lowest flame for a long time, until the bread breaks down and becomes a soup.",
+            "The longer it cooks, the better it gets: keep it on the heat for at least an hour and a half to two hours.",
+            "At the end, season with a drizzle of oil and add grated cheese and black pepper to taste."
+          ],
+          "fr": [
+            "Coupez le pain en tranches et placez-le dans une marmite en terre cuite ou en cuivre ; couvrez-le peu à peu d'eau, pour qu'il l'absorbe.",
+            "Ajoutez une pincée de sel et un filet d'huile, puis mettez sur le feu à feu très doux pendant longtemps, jusqu'à ce que le pain se défasse et devienne une soupe.",
+            "Plus elle cuit, meilleure elle est : laissez-la sur le feu au moins une heure et demie à deux heures.",
+            "En fin de cuisson, assaisonnez d'un filet d'huile et ajoutez, selon goût, du fromage râpé et du poivre noir."
+          ],
+          "de": [
+            "Das Brot in Scheiben schneiden und in einen Topf aus Terrakotta oder Kupfer geben; nach und nach mit Wasser bedecken, damit das Brot es aufnimmt.",
+            "Eine Prise Salz und einen Schuss Öl hinzufügen, dann bei kleinster Flamme lange auf den Herd stellen, bis das Brot zerfällt und eine Suppe entsteht.",
+            "Je länger sie kocht, desto besser: mindestens anderthalb bis zwei Stunden auf dem Herd lassen.",
+            "Am Ende mit einem Schuss Öl abschmecken und nach Belieben geriebenen Käse und schwarzen Pfeffer hinzufügen."
+          ],
+          "es": [
+            "Corte el pan en rebanadas y póngalo en una olla de barro o de cobre; cúbralo poco a poco con agua, para que el pan la absorba.",
+            "Añada una pizca de sal y un hilo de aceite, luego póngala al fuego a fuego mínimo durante mucho tiempo, hasta que el pan se deshaga y se convierta en sopa.",
+            "Cuanto más cocina, mejor queda: déjela al fuego al menos una hora y media o dos horas.",
+            "Al final aliñe con un hilo de aceite y añada, al gusto, queso rallado y pimienta negra."
+          ]
+        }
+      }
     }
   ]
 }
