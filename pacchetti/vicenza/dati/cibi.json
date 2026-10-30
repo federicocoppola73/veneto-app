@@ -997,7 +997,7 @@
     },
     {
       "id": "pana",
-      "nome": "Panà",
+      "nome": "Panà (panada)",
       "portata": "primo",
       "testo": {
         "it": "Minestra antichissima di riciclo tipica del Veneto: pane raffermo cotto a lungo in acqua e olio, fino a diventare una zuppa densa e cremosa.",
@@ -1084,6 +1084,12 @@
             "Al final aliñe con un hilo de aceite y añada, al gusto, queso rallado y pimienta negra."
           ]
         }
+      },
+      "foto": {
+        "file": "pana.webp",
+        "autore": "Immagine generata con AI",
+        "licenza": "—",
+        "fonte": ""
       }
     }
   ]
