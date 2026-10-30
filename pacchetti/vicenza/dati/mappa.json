@@ -1,8 +1,8 @@
 {
   "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
   "immagine": "mappa-vicenza.webp",
-  "larghezza": 2400,
-  "altezza": 1724,
+  "larghezza": 6000,
+  "altezza": 4311,
   "punti_riferimento": [
     {
       "nome": "Angolo nord-ovest",
@@ -15,7 +15,7 @@
       "nome": "Angolo nord-est",
       "latitudine": 45.6,
       "longitudine": 11.6458,
-      "x": 2400.0,
+      "x": 6000.0,
       "y": 0.0
     },
     {
@@ -23,21 +23,21 @@
       "latitudine": 45.4999,
       "longitudine": 11.4482,
       "x": 0.0,
-      "y": 1724.0
+      "y": 4311.0
     },
     {
       "nome": "Angolo sud-est",
       "latitudine": 45.4999,
       "longitudine": 11.6458,
-      "x": 2400.0,
-      "y": 1724.0
+      "x": 6000.0,
+      "y": 4311.0
     },
     {
       "nome": "Centro",
       "latitudine": 45.5488,
       "longitudine": 11.5479,
-      "x": 1210.9,
-      "y": 881.8
+      "x": 3027.3,
+      "y": 2205.0
     }
   ]
 }
