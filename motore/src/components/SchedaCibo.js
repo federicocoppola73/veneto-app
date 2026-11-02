@@ -37,7 +37,7 @@ export default function SchedaCibo({ cibo: c, t, lingua, onChiudi }) {
           {foto ? (
             <View>
               <Image source={foto} style={styles.foto} />
-              {c.foto ? <Text style={styles.credito}>Foto: {c.foto.autore} · {c.foto.licenza}</Text> : null}
+              {c.foto ? <Text style={styles.credito}>Foto: {c.foto.autore}{c.foto.licenza ? ` · ${c.foto.licenza}` : ''}</Text> : null}
             </View>
           ) : null}
           <View style={styles.rigaNome}>
