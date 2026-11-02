@@ -1025,7 +1025,78 @@
           "Completó su obra más famosa poco antes de morir: según el relato de su biógrafo Giovanni Niccolò Doglioni, Moderata Fonte terminó la segunda parte de Il merito delle donne el día antes de su muerte. El libro se publicó ocho años después."
         ]
       },
-      "luoghi": []
+      "luoghi": [
+        "ex-chiesa-santa-marta",
+        "frari",
+        "chiesa-san-basso",
+        "campo-san-zulian"
+      ],
+      "luoghiNote": {
+        "ex-chiesa-santa-marta": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Da bambina Modesta fu condotta nel monastero di Santa Marta, dove rimase fino all'età di nove anni. Qui manifestò precocemente la propria intelligenza e le proprie capacità di memoria. Il monastero si trovava nell'area di Santa Marta, a Dorsoduro. Il complesso religioso non esiste più nella sua forma originaria: oggi è possibile individuare l'area attraverso l'ex chiesa di Santa Marta, attualmente restaurata e utilizzata per attività culturali ed espositive.",
+            "en": "As a child Modesta was taken to the convent of Santa Marta, where she stayed until the age of nine. Here she early showed her intelligence and her memory. The convent stood in the Santa Marta area, in Dorsoduro. The religious complex no longer exists in its original form: the area can be identified today through the former church of Santa Marta, now restored and used for cultural and exhibition activities.",
+            "fr": "Enfant, Modesta fut conduite au monastère de Santa Marta, où elle resta jusqu'à l'âge de neuf ans. Elle y révéla précocement son intelligence et ses capacités de mémoire. Le monastère se trouvait dans le secteur de Santa Marta, à Dorsoduro. Le complexe religieux n'existe plus sous sa forme originelle : on peut aujourd'hui repérer le lieu grâce à l'ancienne église de Santa Marta, désormais restaurée et utilisée pour des activités culturelles et d'exposition.",
+            "de": "Als Kind wurde Modesta ins Kloster Santa Marta gebracht, wo sie bis zum Alter von neun Jahren blieb. Hier zeigte sie früh ihre Klugheit und ihre Gedächtnisleistung. Das Kloster lag im Gebiet von Santa Marta in Dorsoduro. Der Klosterkomplex existiert in seiner ursprünglichen Form nicht mehr: Das Gelände lässt sich heute an der ehemaligen Kirche Santa Marta erkennen, die restauriert ist und für kulturelle Veranstaltungen und Ausstellungen genutzt wird.",
+            "es": "De niña, Modesta fue llevada al monasterio de Santa Marta, donde permaneció hasta los nueve años. Aquí mostró pronto su inteligencia y su capacidad de memoria. El monasterio estaba en la zona de Santa Marta, en Dorsoduro. El complejo religioso ya no existe en su forma original: hoy se puede identificar la zona a través de la antigua iglesia de Santa Marta, restaurada y utilizada para actividades culturales y expositivas."
+          }
+        },
+        "frari": {
+          "tipo": {
+            "it": "Legame di memoria",
+            "en": "Memorial link",
+            "fr": "Lien de mémoire",
+            "de": "Erinnerungsbezug",
+            "es": "Vínculo de memoria"
+          },
+          "testo": {
+            "it": "Dopo la morte, Moderata Fonte fu sepolta nel chiostro del convento dei Frari, come ricorda il suo primo biografo e conferma la tradizione storica veneziana. Il convento francescano venne soppresso in epoca napoleonica e i suoi ambienti furono successivamente destinati all'Archivio di Stato di Venezia. Il chiostro della Santissima Trinità è ancora esistente e appartiene al complesso dell'Archivio.",
+            "en": "After her death, Moderata Fonte was buried in the cloister of the Frari convent, as her first biographer recalls and Venetian historical tradition confirms. The Franciscan convent was suppressed in the Napoleonic period and its spaces were later assigned to the State Archive of Venice. The Cloister of the Holy Trinity still exists and belongs to the Archive complex.",
+            "fr": "Après sa mort, Moderata Fonte fut enterrée dans le cloître du couvent des Frari, comme le rapporte son premier biographe et comme le confirme la tradition historique vénitienne. Le couvent franciscain fut supprimé à l'époque napoléonienne et ses espaces furent ensuite affectés aux Archives d'État de Venise. Le cloître de la Très Sainte Trinité existe toujours et fait partie du complexe des Archives.",
+            "de": "Nach ihrem Tod wurde Moderata Fonte im Kreuzgang des Frari-Klosters bestattet, wie ihr erster Biograf berichtet und die venezianische historische Überlieferung bestätigt. Das franziskanische Kloster wurde in napoleonischer Zeit aufgehoben, seine Räume später dem Staatsarchiv Venedig zugewiesen. Der Kreuzgang der Heiligen Dreifaltigkeit existiert noch und gehört zum Archivkomplex.",
+            "es": "Tras su muerte, Moderata Fonte fue enterrada en el claustro del convento de los Frari, como recuerda su primer biógrafo y confirma la tradición histórica veneciana. El convento franciscano fue suprimido en la época napoleónica y sus espacios se destinaron después al Archivo de Estado de Venecia. El claustro de la Santísima Trinidad sigue existiendo y pertenece al complejo del Archivo."
+          }
+        },
+        "chiesa-san-basso": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historischer Bezug",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "Il registro dei necrologi veneziani riporta la morte di Modesta Pozzo, moglie di Filippo Zorzi, nella parrocchia di San Basso il 2 novembre 1592. Il riferimento riguarda la parrocchia in cui risiedeva la famiglia: non dimostra che Modesta sia morta fisicamente all'interno della chiesa.",
+            "en": "The Venetian register of deaths records the death of Modesta Pozzo, wife of Filippo Zorzi, in the parish of San Basso on 2 November 1592. The reference concerns the parish where the family lived: it does not prove that Modesta died inside the church.",
+            "fr": "Le registre des décès vénitiens enregistre la mort de Modesta Pozzo, épouse de Filippo Zorzi, dans la paroisse de San Basso le 2 novembre 1592. Cette mention concerne la paroisse où résidait la famille : elle ne prouve pas que Modesta soit morte à l'intérieur de l'église.",
+            "de": "Das venezianische Totenregister verzeichnet den Tod von Modesta Pozzo, der Ehefrau von Filippo Zorzi, in der Pfarrei San Basso am 2. November 1592. Der Hinweis betrifft die Pfarrei, in der die Familie wohnte; er beweist nicht, dass Modesta in der Kirche selbst starb.",
+            "es": "El registro veneciano de defunciones anota la muerte de Modesta Pozzo, esposa de Filippo Zorzi, en la parroquia de San Basso el 2 de noviembre de 1592. La referencia se refiere a la parroquia donde residía la familia: no demuestra que Modesta muriera dentro de la iglesia."
+          }
+        },
+        "campo-san-zulian": {
+          "tipo": {
+            "it": "Legame indiretto",
+            "en": "Indirect link",
+            "fr": "Lien indirect",
+            "de": "Indirekter Bezug",
+            "es": "Vínculo indirecto"
+          },
+          "testo": {
+            "it": "Nel 1582 Moderata Fonte dichiarò di abitare nella parrocchia di San Zulian, nella casa dello zio Giovanni Nicolò Doglioni, notaio veneziano, al quale versava 40 ducati all'anno per le spese di mantenimento. La sua abitazione era quindi in quest'area, anche se non è stato possibile identificarne l'edificio preciso.",
+            "en": "In 1582 Moderata Fonte declared that she lived in the parish of San Zulian, in the house of her uncle Giovanni Nicolò Doglioni, a Venetian notary, to whom she paid 40 ducats a year for her keep. Her home was therefore in this area, although it has not been possible to identify the exact building.",
+            "fr": "En 1582, Moderata Fonte déclara habiter dans la paroisse de San Zulian, dans la maison de son oncle Giovanni Nicolò Doglioni, notaire vénitien, auquel elle versait 40 ducats par an pour son entretien. Sa demeure se trouvait donc dans ce secteur, bien qu'il n'ait pas été possible d'identifier le bâtiment exact.",
+            "de": "1582 erklärte Moderata Fonte, in der Pfarrei San Zulian im Haus ihres Onkels Giovanni Nicolò Doglioni zu wohnen, eines venezianischen Notars, dem sie 40 Dukaten im Jahr für ihren Unterhalt zahlte. Ihre Wohnung lag also in diesem Gebiet, auch wenn das genaue Gebäude nicht identifiziert werden konnte.",
+            "es": "En 1582, Moderata Fonte declaró que vivía en la parroquia de San Zulian, en la casa de su tío Giovanni Nicolò Doglioni, notario veneciano, al que pagaba 40 ducados al año por su manutención. Su vivienda estaba, pues, en esta zona, aunque no ha sido posible identificar el edificio exacto."
+          }
+        }
+      }
     }
   ]
 }
