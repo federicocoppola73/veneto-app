@@ -123,6 +123,14 @@ function AppRadice() {
     AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
   }
 
+  // chiede conferma prima di cancellare i dati di una città dal telefono
+  function confermaRimuovi(id) {
+    Alert.alert(t.rimuoviTitolo, t.rimuoviMessaggio, [
+      { text: t.annulla, style: 'cancel' },
+      { text: t.rimuovi, style: 'destructive', onPress: () => esegui(id, rimuovi) },
+    ]);
+  }
+
   async function esegui(id, azione) {
     setOccupata(id);
     setProgresso(null);
@@ -238,7 +246,7 @@ function AppRadice() {
                   <Pressable style={[styles.bottone, styles.bottoneApri]} onPress={() => setCittaAperta(item.id)}>
                     <Text style={styles.testoApri}>{t.apriCitta} ↗</Text>
                   </Pressable>
-                  <Pressable style={styles.rimuovi} onPress={() => esegui(item.id, rimuovi)}>
+                  <Pressable style={styles.rimuovi} onPress={() => confermaRimuovi(item.id)}>
                     <Text style={styles.testoRimuovi}>{t.rimuoviCitta}</Text>
                   </Pressable>
                 </>
