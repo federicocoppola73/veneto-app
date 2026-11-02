@@ -9799,6 +9799,43 @@
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
 }
+},
+{
+"id": "chiesa-san-lorenzo",
+"nome": "Chiesa di San Lorenzo",
+"categoria": "chiese",
+"latitudine": 45.437372508967385,
+"longitudine": 12.345460740611326,
+"sestiere": "Castello",
+"fermata": "San Zaccaria",
+"orari": [],
+"nota": {
+"it": "Temporaneamente chiusa al pubblico. Gli orari saranno aggiornati appena disponibili.",
+"en": "Temporarily closed to the public. Opening hours will be updated as soon as they are available.",
+"fr": "Temporairement fermée au public. Les horaires seront mis à jour dès qu'ils seront disponibles.",
+"de": "Vorübergehend für die Öffentlichkeit geschlossen. Die Öffnungszeiten werden aktualisiert, sobald sie feststehen.",
+"es": "Temporalmente cerrada al público. Los horarios se actualizarán en cuanto estén disponibles."
+},
+"personaggio": "marco-polo",
+"immagine": {
+"autore": "Didier Descouens",
+"licenza": "CC BY-SA 4.0"
+},
+"galleria": [
+{
+"autore": "Federico Coppola"
+},
+{
+"autore": "Federico Coppola"
+}
+],
+"descrizione": {
+"it": "Secondo la tradizione, Marco Polo fu sepolto in questa chiesa, nel sestiere di Castello. La sua tomba, tuttavia, non è stata identificata con certezza e non è oggi possibile indicare un punto preciso di sepoltura. La chiesa è quindi un luogo legato alla memoria e alla tradizione, non una tomba visitabile.",
+"en": "According to tradition, Marco Polo was buried in this church, in the Castello district. However, his tomb has not been identified with certainty, and today it is not possible to point to a precise burial place. The church is therefore a place tied to memory and tradition, not a tomb that can be visited.",
+"fr": "Selon la tradition, Marco Polo fut enterré dans cette église, dans le sestiere de Castello. Toutefois, sa tombe n'a pas été identifiée avec certitude, et il n'est pas possible aujourd'hui d'indiquer un emplacement précis. L'église est donc un lieu lié à la mémoire et à la tradition, et non un tombeau que l'on peut visiter.",
+"de": "Der Überlieferung nach wurde Marco Polo in dieser Kirche im Sestiere Castello bestattet. Sein Grab wurde jedoch nicht sicher identifiziert, und heute lässt sich keine genaue Grabstelle angeben. Die Kirche ist daher ein Ort der Erinnerung und der Tradition, kein besuchbares Grab.",
+"es": "Según la tradición, Marco Polo fue enterrado en esta iglesia, en el sestiere de Castello. Sin embargo, su tumba no ha sido identificada con certeza y hoy no es posible señalar un lugar preciso de sepultura. La iglesia es, por tanto, un lugar ligado a la memoria y a la tradición, no una tumba que se pueda visitar."
+}
 }
 ]
 }
