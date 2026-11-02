@@ -12,7 +12,8 @@
         "fr": "Compositeur et violoniste",
         "de": "Komponist und Geiger",
         "es": "Compositor y violinista"
-      }
+      },
+      "luoghi": []
     },
     {
       "id": "carlo-goldoni",
@@ -20,12 +21,87 @@
       "nascita": 1707,
       "morte": 1793,
       "professione": {
-        "it": "Drammaturgo e scrittore",
-        "en": "Playwright and writer",
-        "fr": "Dramaturge et écrivain",
-        "de": "Dramatiker und Schriftsteller",
-        "es": "Dramaturgo y escritor"
-      }
+        "it": "Drammaturgo e commediografo",
+        "en": "Playwright and comedy writer",
+        "fr": "Dramaturge et auteur de comédies",
+        "de": "Dramatiker und Komödienautor",
+        "es": "Dramaturgo y autor de comedias"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "25 febbraio 1707",
+        "en": "25 February 1707",
+        "fr": "25 février 1707",
+        "de": "25. Februar 1707",
+        "es": "25 de febrero de 1707"
+      },
+      "luogoMorte": {
+        "it": "Parigi",
+        "en": "Paris",
+        "fr": "Paris",
+        "de": "Paris",
+        "es": "París"
+      },
+      "dataMorte": {
+        "it": "6 febbraio 1793",
+        "en": "6 February 1793",
+        "fr": "6 février 1793",
+        "de": "6. Februar 1793",
+        "es": "6 de febrero de 1793"
+      },
+      "biografia": {
+        "it": "Carlo Goldoni nacque a Venezia nel 1707 ed è considerato uno dei più importanti commediografi italiani. Fin da bambino manifestò una grande passione per il teatro, che lo portò ad abbandonare progressivamente gli studi e la professione di avvocato per dedicarsi alla scrittura. Rinnovò profondamente la commedia italiana, sostituendo gradualmente i tradizionali canovacci della Commedia dell'Arte con testi scritti e personaggi più realistici, ispirati alla vita quotidiana. A Venezia compose alcune delle sue opere più celebri, tra cui La locandiera, I rusteghi e Le baruffe chiozzotte. Nel 1762 si trasferì a Parigi, dove continuò a lavorare per il teatro. Morì nella capitale francese nel 1793.",
+        "en": "Carlo Goldoni was born in Venice in 1707 and is considered one of the most important Italian comic playwrights. From childhood he had a great passion for the theatre, which led him to gradually abandon his studies and his law career to devote himself to writing. He profoundly renewed Italian comedy, gradually replacing the traditional scenarios of the Commedia dell'Arte with written texts and more realistic characters, inspired by everyday life. In Venice he wrote some of his most famous works, including La locandiera, I rusteghi and Le baruffe chiozzotte. In 1762 he moved to Paris, where he continued to work for the theatre. He died in the French capital in 1793.",
+        "fr": "Carlo Goldoni naquit à Venise en 1707 et est considéré comme l'un des plus importants auteurs de comédies italiens. Dès l'enfance, il éprouva une grande passion pour le théâtre, qui le conduisit à abandonner peu à peu ses études et son métier d'avocat pour se consacrer à l'écriture. Il renouvela profondément la comédie italienne, remplaçant progressivement les canevas traditionnels de la Commedia dell'Arte par des textes écrits et des personnages plus réalistes, inspirés de la vie quotidienne. À Venise, il composa certaines de ses œuvres les plus célèbres, dont La locandiera, I rusteghi et Le baruffe chiozzotte. En 1762, il s'installa à Paris, où il continua à travailler pour le théâtre. Il mourut dans la capitale française en 1793.",
+        "de": "Carlo Goldoni wurde 1707 in Venedig geboren und gilt als einer der bedeutendsten italienischen Komödiendichter. Schon als Kind zeigte er eine große Leidenschaft für das Theater, die ihn nach und nach dazu brachte, sein Studium und seinen Beruf als Advokat aufzugeben, um sich dem Schreiben zu widmen. Er erneuerte die italienische Komödie grundlegend, indem er die traditionellen Stegreifvorlagen der Commedia dell'Arte schrittweise durch ausgeschriebene Texte und realistischere, dem Alltag entnommene Figuren ersetzte. In Venedig schrieb er einige seiner berühmtesten Werke, darunter La locandiera, I rusteghi und Le baruffe chiozzotte. 1762 zog er nach Paris, wo er weiterhin für das Theater arbeitete. 1793 starb er in der französischen Hauptstadt.",
+        "es": "Carlo Goldoni nació en Venecia en 1707 y es considerado uno de los dramaturgos cómicos italianos más importantes. Desde niño sintió una gran pasión por el teatro, lo que lo llevó a abandonar poco a poco sus estudios y la profesión de abogado para dedicarse a escribir. Renovó profundamente la comedia italiana, sustituyendo gradualmente los tradicionales guiones de la Commedia dell'Arte por textos escritos y personajes más realistas, inspirados en la vida cotidiana. En Venecia compuso algunas de sus obras más célebres, entre ellas La locandiera, I rusteghi y Le baruffe chiozzotte. En 1762 se trasladó a París, donde siguió trabajando para el teatro. Murió en la capital francesa en 1793."
+      },
+      "curiosita": {
+        "it": [
+          "Una passione precocissima: a soli otto anni scrisse il suo primo canovaccio teatrale e si divertiva a organizzare spettacoli con piccoli teatrini di marionette.",
+          "Una fuga avventurosa: da ragazzo, mentre si trovava a Rimini per studiare filosofia, si unì di nascosto a una compagnia di comici in partenza via mare, raggiungendo il padre a Chioggia.",
+          "Una sfida incredibile: nel 1750 si impegnò a scrivere ben 16 commedie nuove in una sola stagione teatrale. Riuscì a mantenere la promessa, nonostante la grande fatica.",
+          "Un addio a Venezia: nel 1762 lasciò la città per trasferirsi a Parigi. Nonostante il successo ottenuto, gli ultimi anni furono segnati anche da difficoltà economiche.",
+          "Una vita raccontata da lui stesso: durante il soggiorno francese scrisse le sue Mémoires, un'autobiografia pubblicata in francese tra il 1787 e il 1788."
+        ],
+        "en": [
+          "A very early passion: at only eight he wrote his first theatre scenario and loved staging shows with little puppet theatres.",
+          "An adventurous escape: as a young man, while studying philosophy in Rimini, he secretly joined a troupe of actors leaving by sea, reaching his father in Chioggia.",
+          "An incredible challenge: in 1750 he committed to writing 16 new comedies in a single theatre season. He kept his promise, despite the great effort.",
+          "A farewell to Venice: in 1762 he left the city to move to Paris. Despite his success, his last years were also marked by financial difficulties.",
+          "A life told by himself: during his stay in France he wrote his Mémoires, an autobiography published in French between 1787 and 1788."
+        ],
+        "fr": [
+          "Une passion très précoce : à seulement huit ans, il écrivit son premier canevas théâtral et s'amusait à organiser des spectacles avec de petits théâtres de marionnettes.",
+          "Une fuite aventureuse : adolescent, alors qu'il étudiait la philosophie à Rimini, il rejoignit en secret une troupe de comédiens qui partait par la mer, et retrouva son père à Chioggia.",
+          "Un défi incroyable : en 1750, il s'engagea à écrire pas moins de 16 comédies nouvelles pendant une seule saison théâtrale. Il tint sa promesse, malgré un effort considérable.",
+          "Un adieu à Venise : en 1762, il quitta la ville pour s'installer à Paris. Malgré son succès, ses dernières années furent aussi marquées par des difficultés financières.",
+          "Une vie racontée par lui-même : pendant son séjour en France, il écrivit ses Mémoires, une autobiographie publiée en français entre 1787 et 1788."
+        ],
+        "de": [
+          "Eine frühe Leidenschaft: Mit nur acht Jahren schrieb er sein erstes Theaterszenario und veranstaltete gern Vorstellungen mit kleinen Marionettenbühnen.",
+          "Eine abenteuerliche Flucht: Als junger Mann, während er in Rimini Philosophie studierte, schloss er sich heimlich einer Schauspieltruppe an, die auf dem Seeweg abreiste, und erreichte so seinen Vater in Chioggia.",
+          "Eine unglaubliche Herausforderung: 1750 verpflichtete er sich, in einer einzigen Theatersaison 16 neue Komödien zu schreiben. Er hielt sein Versprechen, trotz der großen Anstrengung.",
+          "Ein Abschied von Venedig: 1762 verließ er die Stadt, um nach Paris zu ziehen. Trotz seines Erfolgs waren die letzten Jahre auch von finanziellen Schwierigkeiten geprägt.",
+          "Ein selbst erzähltes Leben: Während seines Aufenthalts in Frankreich schrieb er seine Mémoires, eine zwischen 1787 und 1788 auf Französisch veröffentlichte Autobiografie."
+        ],
+        "es": [
+          "Una pasión muy temprana: a los ocho años escribió su primer guion teatral y se divertía organizando espectáculos con pequeños teatros de marionetas.",
+          "Una fuga aventurera: de joven, mientras estudiaba filosofía en Rímini, se unió en secreto a una compañía de cómicos que partía por mar, y así llegó hasta su padre en Chioggia.",
+          "Un desafío increíble: en 1750 se comprometió a escribir nada menos que 16 comedias nuevas en una sola temporada teatral. Cumplió su promesa, a pesar del enorme esfuerzo.",
+          "Una despedida de Venecia: en 1762 dejó la ciudad para instalarse en París. A pesar del éxito, sus últimos años estuvieron marcados también por dificultades económicas.",
+          "Una vida contada por él mismo: durante su estancia en Francia escribió sus Mémoires, una autobiografía publicada en francés entre 1787 y 1788."
+        ]
+      },
+      "luoghi": [
+        "casa-goldoni"
+      ]
     },
     {
       "id": "marco-polo",
@@ -38,7 +114,8 @@
         "fr": "Explorateur et marchand",
         "de": "Entdecker und Kaufmann",
         "es": "Explorador y mercader"
-      }
+      },
+      "luoghi": []
     }
   ]
 }

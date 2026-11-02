@@ -28,6 +28,8 @@ import PannelloServizi from './src/components/PannelloServizi';
 import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
 import PannelloPersonaggi from './src/components/PannelloPersonaggi';
+import SchedaPersonaggio from './src/components/SchedaPersonaggio';
+import { personaggi } from './src/personaggi';
 import SchedaCuriosita from './src/components/SchedaCuriosita';
 import SchedaCibo from './src/components/SchedaCibo';
 import SchedaLuogoSalvato from './src/components/SchedaLuogoSalvato';
@@ -105,6 +107,7 @@ function Schermata({ linguaIniziale }) {
   const [idServizio, setIdServizio] = useState(null);
   const [pannelloCuriosita, setPannelloCuriosita] = useState(false); // pagina Curiosità e cibi
   const [pannelloPersonaggi, setPannelloPersonaggi] = useState(false); // pagina Personaggi famosi
+  const [personaggioAperto, setPersonaggioAperto] = useState(null); // id del personaggio di cui è aperta la scheda
   const [idCuriosita, setIdCuriosita] = useState(null); // scheda di una curiosità aperta
   const [idCibo, setIdCibo] = useState(null); // scheda di un piatto aperta
   const [lampadina, setLampadina] = useState(null); // 💡 temporanea sulla mappa dopo "Portami lì": { id, titolo, x, y }
@@ -386,8 +389,16 @@ function Schermata({ linguaIniziale }) {
     if (punto) mappaRef.current?.centraSu(punto);
   };
 
+  // se la scheda di un luogo è stata aperta da una scheda personaggio, alla chiusura si torna a quella
+  const ritornoPersonaggio = useRef(null);
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
+    if (ritornoPersonaggio.current) {
+      const id = ritornoPersonaggio.current;
+      ritornoPersonaggio.current = null;
+      setPersonaggioAperto(id);
+      setPannelloPersonaggi(true);
+    }
   }, []);
 
   const cambiaFiltro = (nuove) => {
@@ -964,7 +975,34 @@ function Schermata({ linguaIniziale }) {
       )}
 
       {pannelloPersonaggi && (
-        <PannelloPersonaggi t={t} lingua={lingua} onChiudi={() => setPannelloPersonaggi(false)} />
+        <PannelloPersonaggi
+          t={t}
+          lingua={lingua}
+          onChiudi={() => setPannelloPersonaggi(false)}
+          onScegli={(id) => setPersonaggioAperto(id)}
+        />
+      )}
+
+      {personaggioAperto && (
+        <SchedaPersonaggio
+          persona={personaggi().find((x) => x.id === personaggioAperto)}
+          luoghiPerId={luoghiPerId}
+          t={t}
+          lingua={lingua}
+          onChiudi={() => setPersonaggioAperto(null)}
+          onApriLuogo={(luogoId) => {
+            // la scheda del personaggio si chiude e si riapre alla chiusura della scheda del luogo
+            ritornoPersonaggio.current = personaggioAperto;
+            setPersonaggioAperto(null);
+            setPannelloPersonaggi(false);
+            apriTappa(luogoId);
+          }}
+          onCreaItinerario={(persona) => {
+            setPersonaggioAperto(null);
+            setPannelloPersonaggi(false);
+            setEditor({ titolo: persona.nome, tappe: (persona.luoghi || []).filter((id) => luoghiPerId[id]) });
+          }}
+        />
       )}
 
       {curiositaAperta && (

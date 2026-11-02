@@ -6,7 +6,7 @@ import { immagine } from '../risorse';
 import { testoLocalizzato } from '../i18n';
 
 // Pagina "Personaggi famosi": una card per personaggio (ritratto, nome, date, professione).
-export default function PannelloPersonaggi({ t, lingua, onChiudi }) {
+export default function PannelloPersonaggi({ t, lingua, onChiudi, onScegli }) {
   const insets = useSafeAreaInsets();
   const lista = personaggi();
 
@@ -25,7 +25,7 @@ export default function PannelloPersonaggi({ t, lingua, onChiudi }) {
           {lista.length === 0 ? (
             <Text style={styles.vuoto}>{t('pers_vuoto')}</Text>
           ) : (
-            lista.map((p) => <Card key={p.id} personaggio={p} lingua={lingua} />)
+            lista.map((p) => <Card key={p.id} personaggio={p} lingua={lingua} onPress={() => onScegli(p.id)} />)
           )}
         </ScrollView>
       </View>
@@ -33,7 +33,7 @@ export default function PannelloPersonaggi({ t, lingua, onChiudi }) {
   );
 }
 
-function Card({ personaggio: p, lingua }) {
+function Card({ personaggio: p, lingua, onPress }) {
   const iniziali = p.nome
     .split(' ')
     .map((parola) => parola[0])
@@ -42,7 +42,7 @@ function Card({ personaggio: p, lingua }) {
   const professione = testoLocalizzato(p.professione, lingua);
   const sintesi = testoLocalizzato(p.sintesi, lingua);
   return (
-    <View style={styles.card}>
+    <Pressable style={styles.card} onPress={onPress} accessibilityRole="button">
       {p.ritratto ? (
         <Image source={immagine(`personaggi/${p.id}.webp`)} style={styles.ritratto} />
       ) : (
@@ -58,7 +58,7 @@ function Card({ personaggio: p, lingua }) {
         <Text style={styles.professione}>{professione}</Text>
         {sintesi ? <Text style={styles.sintesi}>{sintesi}</Text> : null}
       </View>
-    </View>
+    </Pressable>
   );
 }
 
