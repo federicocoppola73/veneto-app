@@ -113,6 +113,9 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
                       </View>
                     ) : null}
                     <LuogoRiga luogo={luoghiPerId[id]} onPress={() => onApriLuogo(id)} />
+                    {luoghiPerId[id]?.descrizione ? (
+                      <Text style={styles.descrizioneLuogo}>{testoLocalizzato(luoghiPerId[id].descrizione, lingua)}</Text>
+                    ) : null}
                     {nota?.testo ? <Text style={styles.notaLuogo}>{testoLocalizzato(nota.testo, lingua)}</Text> : null}
                   </View>
                 );
@@ -210,6 +213,7 @@ const styles = StyleSheet.create({
   bloccoLuogo: { gap: 6, marginBottom: 4 },
   tipo: { alignSelf: 'flex-start', backgroundColor: '#ecfdf5', borderWidth: 1, borderColor: '#86efac', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
   tipoTesto: { fontSize: 12, fontWeight: '800', color: '#166534' },
+  descrizioneLuogo: { fontSize: 14, lineHeight: 20, color: '#334155', paddingHorizontal: 2 },
   notaLuogo: { fontSize: 13, lineHeight: 19, color: '#334155', paddingHorizontal: 2 },
   pulsante: { alignSelf: 'stretch', alignItems: 'center', backgroundColor: '#0f3d5e', borderRadius: 14, paddingVertical: 14, marginTop: 8 },
   pulsanteTesto: { fontSize: 15, fontWeight: '800', color: '#fff' },
