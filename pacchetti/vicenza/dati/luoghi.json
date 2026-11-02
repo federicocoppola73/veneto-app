@@ -1572,7 +1572,29 @@
       },
       "biglietto": {
         "gratuito": true
-      }
+      },
+      "immagine": {
+        "autore": "Claudio Gioseffi",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Ingresso_palazzo_Cordellina_Vicenza_2012.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Marcok",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Cordellina_Vicenza_atrio.jpg"
+        },
+        {
+          "autore": "Marcok",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Cordellina_Vicenza_corte_1.jpg"
+        },
+        {
+          "autore": "Marcok",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Cordellina_Vicenza_corte_2.jpg"
+        }
+      ]
     },
     {
       "id": "stazione",
