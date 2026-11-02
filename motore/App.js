@@ -659,7 +659,7 @@ function Schermata({ linguaIniziale }) {
       onPress={() => setPannelloPersonaggi(true)}
       accessibilityLabel={t('pers_titolo')}
     >
-      <Text style={styles.iconaServizi}>🎭</Text>
+      <Text style={styles.iconaServizi}>👤</Text>
     </Pressable>
   );
 
