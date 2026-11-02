@@ -9641,6 +9641,65 @@
 "licenza": "Pubblico dominio",
 "fonte": "https://commons.wikimedia.org/w/index.php?curid=19950802"
 }
+},
+{
+"id": "chiesa-santa-maria-della-pieta",
+"nome": "Chiesa di Santa Maria della Pietà",
+"categoria": "chiese",
+"latitudine": 45.43417,
+"longitudine": 12.345,
+"sestiere": "Castello",
+"fermata": "San Zaccaria",
+"sito": "https://www.pietavenezia.org",
+"orari": [
+{
+"giorni": "mar-dom",
+"ore": "10:30–13:00, 14:00–18:00"
+}
+],
+"chiuso": [
+"lun"
+],
+"immagine": {
+"autore": "Didier Descouens",
+"licenza": "CC BY-SA 4.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=19604106"
+},
+"galleria": [
+{
+"autore": "G.dallorto",
+"licenza": "Attribution"
+},
+{
+"autore": "Joanbanjo",
+"licenza": "CC BY-SA 3.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=19999769"
+},
+{
+"autore": "Gufo04152",
+"licenza": "CC BY-SA 4.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=200732406"
+},
+{
+"autore": "Gufo04152",
+"licenza": "CC BY-SA 4.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=200734803"
+}
+],
+"descrizione": {
+"it": "Vivaldi fu assunto nel 1703 come maestro di violino presso il Pio Ospedale della Pietà, dove insegnò e compose per le giovani musiciste dell'istituto. Anche se la chiesa attuale fu costruita dopo il periodo principale della sua attività.",
+"en": "In 1703 Vivaldi was hired as violin master at the Pio Ospedale della Pietà, where he taught and composed for the institute's young female musicians. Although the present church was built after the main period of his activity.",
+"fr": "En 1703, Vivaldi fut engagé comme maître de violon au Pio Ospedale della Pietà, où il enseigna et composa pour les jeunes musiciennes de l'institut. Bien que l'église actuelle ait été construite après la période principale de son activité.",
+"de": "1703 wurde Vivaldi als Violinlehrer am Pio Ospedale della Pietà angestellt, wo er für die jungen Musikerinnen des Instituts unterrichtete und komponierte. Auch wenn die heutige Kirche nach der Hauptzeit seines Wirkens gebaut wurde.",
+"es": "En 1703 Vivaldi fue contratado como maestro de violín en el Pio Ospedale della Pietà, donde enseñó y compuso para las jóvenes músicas del instituto. Aunque la iglesia actual se construyó después del periodo principal de su actividad."
+},
+"nota": {
+"it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+"en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+"fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+"de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+"es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+}
 }
 ]
 }
