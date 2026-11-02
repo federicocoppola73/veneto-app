@@ -1,0 +1,1896 @@
+{
+ "_nota": "Generato da estrazione OSM (estrai_vicenza.py). Dati © OpenStreetMap contributors (ODbL). Non modificare a mano.",
+ "servizi": [
+  {
+   "id": "farmacie-1",
+   "tipo": "farmacie",
+   "lat": 45.552823,
+   "lon": 11.553924,
+   "nome": "Farmacia Donadelli",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-2",
+   "tipo": "farmacie",
+   "lat": 45.564536,
+   "lon": 11.53938,
+   "nome": "Farmacia San Bortolo"
+  },
+  {
+   "id": "parcheggi-1",
+   "tipo": "parcheggi",
+   "lat": 45.54451,
+   "lon": 11.539103,
+   "nome": "Park Verdi",
+   "pagamento": true
+  },
+  {
+   "id": "ospedali-1",
+   "tipo": "ospedali",
+   "lat": 45.555665,
+   "lon": 11.546719,
+   "nome": "ingresso Palazzina Uffici dell'Ospedale"
+  },
+  {
+   "id": "ospedali-2",
+   "tipo": "ospedali",
+   "lat": 45.536063,
+   "lon": 11.524656,
+   "nome": "Guardia Medica - Servizio di continuità assistenziale",
+   "telefono": "+39 848800557"
+  },
+  {
+   "id": "farmacie-3",
+   "tipo": "farmacie",
+   "lat": 45.557749,
+   "lon": 11.521894,
+   "nome": "Farmacia del Sole"
+  },
+  {
+   "id": "farmacie-4",
+   "tipo": "farmacie",
+   "lat": 45.590928,
+   "lon": 11.527138,
+   "nome": "Farmacia Rettorgole",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-5",
+   "tipo": "farmacie",
+   "lat": 45.584985,
+   "lon": 11.486861,
+   "nome": "Farmacia Dallafina"
+  },
+  {
+   "id": "farmacie-6",
+   "tipo": "farmacie",
+   "lat": 45.570637,
+   "lon": 11.514134,
+   "nome": "Farmacia Tonello Claudia"
+  },
+  {
+   "id": "parcheggi-2",
+   "tipo": "parcheggi",
+   "lat": 45.554632,
+   "lon": 11.544062,
+   "nome": "Parcheggio San Francesco"
+  },
+  {
+   "id": "farmacie-7",
+   "tipo": "farmacie",
+   "lat": 45.564078,
+   "lon": 11.566601,
+   "nome": "Farmacia dott. Galvan",
+   "disabili": true,
+   "telefono": "+39 0444 301145"
+  },
+  {
+   "id": "acqua-1",
+   "tipo": "acqua",
+   "lat": 45.545761,
+   "lon": 11.541814
+  },
+  {
+   "id": "acqua-2",
+   "tipo": "acqua",
+   "lat": 45.546276,
+   "lon": 11.544429
+  },
+  {
+   "id": "acqua-3",
+   "tipo": "acqua",
+   "lat": 45.54887,
+   "lon": 11.54232
+  },
+  {
+   "id": "acqua-4",
+   "tipo": "acqua",
+   "lat": 45.549557,
+   "lon": 11.549617
+  },
+  {
+   "id": "acqua-5",
+   "tipo": "acqua",
+   "lat": 45.599759,
+   "lon": 11.567289
+  },
+  {
+   "id": "acqua-6",
+   "tipo": "acqua",
+   "lat": 45.59404,
+   "lon": 11.58238
+  },
+  {
+   "id": "farmacie-8",
+   "tipo": "farmacie",
+   "lat": 45.526855,
+   "lon": 11.563511
+  },
+  {
+   "id": "parcheggi-3",
+   "tipo": "parcheggi",
+   "lat": 45.563205,
+   "lon": 11.614703,
+   "nome": "Villa Tacchi"
+  },
+  {
+   "id": "farmacie-9",
+   "tipo": "farmacie",
+   "lat": 45.549991,
+   "lon": 11.54543,
+   "nome": "Farmacia Cegan",
+   "telefono": "+39 0444 545030"
+  },
+  {
+   "id": "acqua-7",
+   "tipo": "acqua",
+   "lat": 45.549923,
+   "lon": 11.544092
+  },
+  {
+   "id": "farmacie-10",
+   "tipo": "farmacie",
+   "lat": 45.546662,
+   "lon": 11.546637,
+   "nome": "Farmacia Al Redentor"
+  },
+  {
+   "id": "farmacie-11",
+   "tipo": "farmacie",
+   "lat": 45.546884,
+   "lon": 11.545948,
+   "nome": "Farmacia Dott. Doria"
+  },
+  {
+   "id": "acqua-8",
+   "tipo": "acqua",
+   "lat": 45.505145,
+   "lon": 11.57101
+  },
+  {
+   "id": "farmacie-12",
+   "tipo": "farmacie",
+   "lat": 45.542694,
+   "lon": 11.516561
+  },
+  {
+   "id": "acqua-9",
+   "tipo": "acqua",
+   "lat": 45.587683,
+   "lon": 11.528236
+  },
+  {
+   "id": "farmacie-13",
+   "tipo": "farmacie",
+   "lat": 45.520155,
+   "lon": 11.61551,
+   "nome": "Farmacia Stella al carro rosso",
+   "disabili": true
+  },
+  {
+   "id": "polizia-1",
+   "tipo": "polizia",
+   "lat": 45.548967,
+   "lon": 11.537549,
+   "nome": "Caserma M. Sasso"
+  },
+  {
+   "id": "polizia-2",
+   "tipo": "polizia",
+   "lat": 45.54964,
+   "lon": 11.539148,
+   "nome": "Polizia Municipale"
+  },
+  {
+   "id": "acqua-10",
+   "tipo": "acqua",
+   "lat": 45.537914,
+   "lon": 11.54933
+  },
+  {
+   "id": "acqua-11",
+   "tipo": "acqua",
+   "lat": 45.584067,
+   "lon": 11.479467
+  },
+  {
+   "id": "parcheggi-4",
+   "tipo": "parcheggi",
+   "lat": 45.545233,
+   "lon": 11.540024,
+   "nome": "Autorimessa Castello",
+   "pagamento": true
+  },
+  {
+   "id": "acqua-12",
+   "tipo": "acqua",
+   "lat": 45.586509,
+   "lon": 11.517051
+  },
+  {
+   "id": "acqua-13",
+   "tipo": "acqua",
+   "lat": 45.53188,
+   "lon": 11.47924
+  },
+  {
+   "id": "acqua-14",
+   "tipo": "acqua",
+   "lat": 45.53226,
+   "lon": 11.479999
+  },
+  {
+   "id": "farmacie-14",
+   "tipo": "farmacie",
+   "lat": 45.531753,
+   "lon": 11.479851,
+   "nome": "Farmacia Marson",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-15",
+   "tipo": "farmacie",
+   "lat": 45.547459,
+   "lon": 11.544274,
+   "nome": "Farmacia Cattaneo \"Al Casino\"",
+   "disabili": true
+  },
+  {
+   "id": "acqua-15",
+   "tipo": "acqua",
+   "lat": 45.534833,
+   "lon": 11.55718
+  },
+  {
+   "id": "acqua-16",
+   "tipo": "acqua",
+   "lat": 45.575986,
+   "lon": 11.55283
+  },
+  {
+   "id": "acqua-17",
+   "tipo": "acqua",
+   "lat": 45.577831,
+   "lon": 11.552289
+  },
+  {
+   "id": "acqua-18",
+   "tipo": "acqua",
+   "lat": 45.504664,
+   "lon": 11.569772
+  },
+  {
+   "id": "acqua-19",
+   "tipo": "acqua",
+   "lat": 45.599061,
+   "lon": 11.495458
+  },
+  {
+   "id": "farmacie-16",
+   "tipo": "farmacie",
+   "lat": 45.575717,
+   "lon": 11.544469,
+   "nome": "Farmacia Marson Ai Laghi",
+   "orari": "Mo-Fr 08:30-13:00,15:00-19:45; Sa 08:30-12:45,16:00-19:30",
+   "telefono": "+39 0444 922186"
+  },
+  {
+   "id": "acqua-20",
+   "tipo": "acqua",
+   "lat": 45.570612,
+   "lon": 11.499162
+  },
+  {
+   "id": "acqua-21",
+   "tipo": "acqua",
+   "lat": 45.579134,
+   "lon": 11.508609
+  },
+  {
+   "id": "acqua-22",
+   "tipo": "acqua",
+   "lat": 45.589049,
+   "lon": 11.492617,
+   "nome": "Casa dell'Acqua",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-17",
+   "tipo": "farmacie",
+   "lat": 45.545525,
+   "lon": 11.536052,
+   "nome": "Farmacia Carlassare"
+  },
+  {
+   "id": "parcheggi-5",
+   "tipo": "parcheggi",
+   "lat": 45.590519,
+   "lon": 11.623738,
+   "nome": "Magazzini Berton"
+  },
+  {
+   "id": "farmacie-18",
+   "tipo": "farmacie",
+   "lat": 45.54984,
+   "lon": 11.56304,
+   "nome": "Farmacia S. Andrea",
+   "telefono": "+39 0444 511692"
+  },
+  {
+   "id": "polizia-3",
+   "tipo": "polizia",
+   "lat": 45.53395,
+   "lon": 11.477395,
+   "nome": "Polizia Locale",
+   "telefono": "+390444340149"
+  },
+  {
+   "id": "farmacie-19",
+   "tipo": "farmacie",
+   "lat": 45.528824,
+   "lon": 11.488779,
+   "nome": "Mattiello"
+  },
+  {
+   "id": "farmacie-20",
+   "tipo": "farmacie",
+   "lat": 45.579469,
+   "lon": 11.611541,
+   "nome": "Farmacia Dal Zotto"
+  },
+  {
+   "id": "farmacie-21",
+   "tipo": "farmacie",
+   "lat": 45.59038,
+   "lon": 11.5574,
+   "nome": "Farmacia all'Angelo"
+  },
+  {
+   "id": "farmacie-22",
+   "tipo": "farmacie",
+   "lat": 45.598541,
+   "lon": 11.621717,
+   "nome": "Dispensa Farmaceutica"
+  },
+  {
+   "id": "farmacie-23",
+   "tipo": "farmacie",
+   "lat": 45.54847,
+   "lon": 11.54722,
+   "nome": "Farmacia Valeri"
+  },
+  {
+   "id": "acqua-23",
+   "tipo": "acqua",
+   "lat": 45.504877,
+   "lon": 11.556396
+  },
+  {
+   "id": "acqua-24",
+   "tipo": "acqua",
+   "lat": 45.525676,
+   "lon": 11.531219
+  },
+  {
+   "id": "acqua-25",
+   "tipo": "acqua",
+   "lat": 45.535166,
+   "lon": 11.546011
+  },
+  {
+   "id": "farmacie-24",
+   "tipo": "farmacie",
+   "lat": 45.569089,
+   "lon": 11.57087,
+   "nome": "Parafarmacia Trombetta"
+  },
+  {
+   "id": "acqua-26",
+   "tipo": "acqua",
+   "lat": 45.56021,
+   "lon": 11.45834
+  },
+  {
+   "id": "acqua-27",
+   "tipo": "acqua",
+   "lat": 45.554137,
+   "lon": 11.543461
+  },
+  {
+   "id": "farmacie-25",
+   "tipo": "farmacie",
+   "lat": 45.536828,
+   "lon": 11.629968,
+   "nome": "Farmacia Trombetta"
+  },
+  {
+   "id": "farmacie-26",
+   "tipo": "farmacie",
+   "lat": 45.54235,
+   "lon": 11.553333,
+   "nome": "Farmacia Santa Chiara"
+  },
+  {
+   "id": "farmacie-27",
+   "tipo": "farmacie",
+   "lat": 45.550002,
+   "lon": 11.549911
+  },
+  {
+   "id": "parcheggi-6",
+   "tipo": "parcheggi",
+   "lat": 45.547448,
+   "lon": 11.540096,
+   "nome": "Piazza del Mutilato",
+   "pagamento": true
+  },
+  {
+   "id": "acqua-28",
+   "tipo": "acqua",
+   "lat": 45.512103,
+   "lon": 11.464235,
+   "nome": "casetta dell'acqua",
+   "disabili": true
+  },
+  {
+   "id": "acqua-29",
+   "tipo": "acqua",
+   "lat": 45.582164,
+   "lon": 11.525174,
+   "disabili": true
+  },
+  {
+   "id": "acqua-30",
+   "tipo": "acqua",
+   "lat": 45.581757,
+   "lon": 11.524563,
+   "disabili": true
+  },
+  {
+   "id": "parcheggi-7",
+   "tipo": "parcheggi",
+   "lat": 45.546607,
+   "lon": 11.537,
+   "nome": "Garage Parise"
+  },
+  {
+   "id": "farmacie-28",
+   "tipo": "farmacie",
+   "lat": 45.549691,
+   "lon": 11.54119,
+   "nome": "Farmacia Cappellini"
+  },
+  {
+   "id": "farmacie-29",
+   "tipo": "farmacie",
+   "lat": 45.547107,
+   "lon": 11.537962,
+   "nome": "Parafarmacia"
+  },
+  {
+   "id": "farmacie-30",
+   "tipo": "farmacie",
+   "lat": 45.548438,
+   "lon": 11.542687,
+   "nome": "Farmacia dell'Ospedale"
+  },
+  {
+   "id": "acqua-31",
+   "tipo": "acqua",
+   "lat": 45.5821,
+   "lon": 11.531306
+  },
+  {
+   "id": "acqua-32",
+   "tipo": "acqua",
+   "lat": 45.575439,
+   "lon": 11.545359
+  },
+  {
+   "id": "acqua-33",
+   "tipo": "acqua",
+   "lat": 45.591744,
+   "lon": 11.496716
+  },
+  {
+   "id": "acqua-34",
+   "tipo": "acqua",
+   "lat": 45.588982,
+   "lon": 11.492512
+  },
+  {
+   "id": "farmacie-31",
+   "tipo": "farmacie",
+   "lat": 45.508266,
+   "lon": 11.470123,
+   "nome": "Farmacia Giara",
+   "telefono": "+39 0444 370574"
+  },
+  {
+   "id": "parcheggi-8",
+   "tipo": "parcheggi",
+   "lat": 45.545323,
+   "lon": 11.540554
+  },
+  {
+   "id": "acqua-35",
+   "tipo": "acqua",
+   "lat": 45.554371,
+   "lon": 11.541583
+  },
+  {
+   "id": "acqua-36",
+   "tipo": "acqua",
+   "lat": 45.530382,
+   "lon": 11.525085
+  },
+  {
+   "id": "farmacie-32",
+   "tipo": "farmacie",
+   "lat": 45.548424,
+   "lon": 11.556928,
+   "nome": "Farmacia Corso Padova",
+   "orari": "Mo-Sa 08:45-12:30,16:00-19:30"
+  },
+  {
+   "id": "acqua-37",
+   "tipo": "acqua",
+   "lat": 45.541994,
+   "lon": 11.5916
+  },
+  {
+   "id": "acqua-38",
+   "tipo": "acqua",
+   "lat": 45.5413,
+   "lon": 11.588404
+  },
+  {
+   "id": "polizia-4",
+   "tipo": "polizia",
+   "lat": 45.548536,
+   "lon": 11.547058,
+   "nome": "Agenzia delle Entrate - Direzione provinciale di Vicenza",
+   "disabili": true,
+   "telefono": "+39 0444 046111"
+  },
+  {
+   "id": "polizia-5",
+   "tipo": "polizia",
+   "lat": 45.542984,
+   "lon": 11.522746,
+   "nome": "Agenzia delle Entrate - Direzione provinciale di Vicenza - Ufficio Territoriale Vicenza 2"
+  },
+  {
+   "id": "acqua-39",
+   "tipo": "acqua",
+   "lat": 45.596892,
+   "lon": 11.451335
+  },
+  {
+   "id": "farmacie-33",
+   "tipo": "farmacie",
+   "lat": 45.549272,
+   "lon": 11.525541,
+   "nome": "Farmacia Marson",
+   "disabili": true,
+   "orari": "Mo-Sa 08:00-20:00",
+   "telefono": "+39 0444 571060"
+  },
+  {
+   "id": "acqua-40",
+   "tipo": "acqua",
+   "lat": 45.54116,
+   "lon": 11.617406
+  },
+  {
+   "id": "acqua-41",
+   "tipo": "acqua",
+   "lat": 45.550643,
+   "lon": 11.570919
+  },
+  {
+   "id": "farmacie-34",
+   "tipo": "farmacie",
+   "lat": 45.531203,
+   "lon": 11.593599,
+   "nome": "Farmacia Palladio",
+   "orari": "Mo-Fr 08:45-12:45,15:30-19:30, Sa 08:45-12:45; Su,PH off",
+   "telefono": "+39 0444 239287"
+  },
+  {
+   "id": "farmacie-35",
+   "tipo": "farmacie",
+   "lat": 45.565076,
+   "lon": 11.557328,
+   "nome": "Farmacia Saviabona"
+  },
+  {
+   "id": "farmacie-36",
+   "tipo": "farmacie",
+   "lat": 45.542472,
+   "lon": 11.601672,
+   "nome": "Cappellotto Mario"
+  },
+  {
+   "id": "parcheggi-9",
+   "tipo": "parcheggi",
+   "lat": 45.540435,
+   "lon": 11.556874,
+   "nome": "Park Borgoberga 2",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-10",
+   "tipo": "parcheggi",
+   "lat": 45.526911,
+   "lon": 11.505863,
+   "nome": "Park Fiera",
+   "pagamento": true
+  },
+  {
+   "id": "acqua-42",
+   "tipo": "acqua",
+   "lat": 45.582606,
+   "lon": 11.489513
+  },
+  {
+   "id": "acqua-43",
+   "tipo": "acqua",
+   "lat": 45.595033,
+   "lon": 11.452139
+  },
+  {
+   "id": "acqua-44",
+   "tipo": "acqua",
+   "lat": 45.581111,
+   "lon": 11.534191
+  },
+  {
+   "id": "acqua-45",
+   "tipo": "acqua",
+   "lat": 45.544413,
+   "lon": 11.464384
+  },
+  {
+   "id": "acqua-46",
+   "tipo": "acqua",
+   "lat": 45.558329,
+   "lon": 11.457611,
+   "nome": "Fontana della Donestra XVII sec."
+  },
+  {
+   "id": "acqua-47",
+   "tipo": "acqua",
+   "lat": 45.544643,
+   "lon": 11.60102
+  },
+  {
+   "id": "acqua-48",
+   "tipo": "acqua",
+   "lat": 45.542607,
+   "lon": 11.60193
+  },
+  {
+   "id": "acqua-49",
+   "tipo": "acqua",
+   "lat": 45.558058,
+   "lon": 11.601939,
+   "disabili": true
+  },
+  {
+   "id": "acqua-50",
+   "tipo": "acqua",
+   "lat": 45.516461,
+   "lon": 11.617713
+  },
+  {
+   "id": "acqua-51",
+   "tipo": "acqua",
+   "lat": 45.573187,
+   "lon": 11.62459
+  },
+  {
+   "id": "acqua-52",
+   "tipo": "acqua",
+   "lat": 45.519794,
+   "lon": 11.615763
+  },
+  {
+   "id": "acqua-53",
+   "tipo": "acqua",
+   "lat": 45.517554,
+   "lon": 11.624499
+  },
+  {
+   "id": "acqua-54",
+   "tipo": "acqua",
+   "lat": 45.522461,
+   "lon": 11.639787
+  },
+  {
+   "id": "acqua-55",
+   "tipo": "acqua",
+   "lat": 45.536551,
+   "lon": 11.631987
+  },
+  {
+   "id": "acqua-56",
+   "tipo": "acqua",
+   "lat": 45.523831,
+   "lon": 11.638949
+  },
+  {
+   "id": "acqua-57",
+   "tipo": "acqua",
+   "lat": 45.593067,
+   "lon": 11.478357
+  },
+  {
+   "id": "acqua-58",
+   "tipo": "acqua",
+   "lat": 45.544779,
+   "lon": 11.520339
+  },
+  {
+   "id": "acqua-59",
+   "tipo": "acqua",
+   "lat": 45.531052,
+   "lon": 11.545582
+  },
+  {
+   "id": "acqua-60",
+   "tipo": "acqua",
+   "lat": 45.530473,
+   "lon": 11.546399
+  },
+  {
+   "id": "acqua-61",
+   "tipo": "acqua",
+   "lat": 45.552716,
+   "lon": 11.548359
+  },
+  {
+   "id": "acqua-62",
+   "tipo": "acqua",
+   "lat": 45.589659,
+   "lon": 11.569351,
+   "disabili": true
+  },
+  {
+   "id": "acqua-63",
+   "tipo": "acqua",
+   "lat": 45.511974,
+   "lon": 11.563646
+  },
+  {
+   "id": "acqua-64",
+   "tipo": "acqua",
+   "lat": 45.504546,
+   "lon": 11.566077
+  },
+  {
+   "id": "acqua-65",
+   "tipo": "acqua",
+   "lat": 45.599857,
+   "lon": 11.533722
+  },
+  {
+   "id": "parcheggi-11",
+   "tipo": "parcheggi",
+   "lat": 45.530726,
+   "lon": 11.498499,
+   "nome": "Parcheggio"
+  },
+  {
+   "id": "acqua-66",
+   "tipo": "acqua",
+   "lat": 45.598373,
+   "lon": 11.457784
+  },
+  {
+   "id": "acqua-67",
+   "tipo": "acqua",
+   "lat": 45.544446,
+   "lon": 11.516921
+  },
+  {
+   "id": "bagni-1",
+   "tipo": "bagni",
+   "lat": 45.544581,
+   "lon": 11.516933
+  },
+  {
+   "id": "acqua-68",
+   "tipo": "acqua",
+   "lat": 45.542616,
+   "lon": 11.515941
+  },
+  {
+   "id": "acqua-69",
+   "tipo": "acqua",
+   "lat": 45.539085,
+   "lon": 11.537558,
+   "disabili": true
+  },
+  {
+   "id": "bagni-2",
+   "tipo": "bagni",
+   "lat": 45.533974,
+   "lon": 11.483945,
+   "disabili": true
+  },
+  {
+   "id": "acqua-70",
+   "tipo": "acqua",
+   "lat": 45.5811,
+   "lon": 11.483953
+  },
+  {
+   "id": "acqua-71",
+   "tipo": "acqua",
+   "lat": 45.547684,
+   "lon": 11.524015
+  },
+  {
+   "id": "acqua-72",
+   "tipo": "acqua",
+   "lat": 45.57037,
+   "lon": 11.511778
+  },
+  {
+   "id": "acqua-73",
+   "tipo": "acqua",
+   "lat": 45.549124,
+   "lon": 11.56994
+  },
+  {
+   "id": "acqua-74",
+   "tipo": "acqua",
+   "lat": 45.544853,
+   "lon": 11.567092
+  },
+  {
+   "id": "acqua-75",
+   "tipo": "acqua",
+   "lat": 45.546258,
+   "lon": 11.568815
+  },
+  {
+   "id": "acqua-76",
+   "tipo": "acqua",
+   "lat": 45.54371,
+   "lon": 11.57169
+  },
+  {
+   "id": "acqua-77",
+   "tipo": "acqua",
+   "lat": 45.542679,
+   "lon": 11.569541
+  },
+  {
+   "id": "farmacie-37",
+   "tipo": "farmacie",
+   "lat": 45.520204,
+   "lon": 11.486737
+  },
+  {
+   "id": "acqua-78",
+   "tipo": "acqua",
+   "lat": 45.546834,
+   "lon": 11.547094
+  },
+  {
+   "id": "acqua-79",
+   "tipo": "acqua",
+   "lat": 45.547056,
+   "lon": 11.569433,
+   "orari": "sunrise-sunset"
+  },
+  {
+   "id": "acqua-80",
+   "tipo": "acqua",
+   "lat": 45.548654,
+   "lon": 11.564399
+  },
+  {
+   "id": "acqua-81",
+   "tipo": "acqua",
+   "lat": 45.543045,
+   "lon": 11.543244
+  },
+  {
+   "id": "acqua-82",
+   "tipo": "acqua",
+   "lat": 45.543892,
+   "lon": 11.541278
+  },
+  {
+   "id": "acqua-83",
+   "tipo": "acqua",
+   "lat": 45.546049,
+   "lon": 11.540216
+  },
+  {
+   "id": "acqua-84",
+   "tipo": "acqua",
+   "lat": 45.530242,
+   "lon": 11.55895
+  },
+  {
+   "id": "acqua-85",
+   "tipo": "acqua",
+   "lat": 45.516799,
+   "lon": 11.449451
+  },
+  {
+   "id": "acqua-86",
+   "tipo": "acqua",
+   "lat": 45.513969,
+   "lon": 11.453161
+  },
+  {
+   "id": "acqua-87",
+   "tipo": "acqua",
+   "lat": 45.515654,
+   "lon": 11.455349
+  },
+  {
+   "id": "acqua-88",
+   "tipo": "acqua",
+   "lat": 45.54474,
+   "lon": 11.551106
+  },
+  {
+   "id": "acqua-89",
+   "tipo": "acqua",
+   "lat": 45.592444,
+   "lon": 11.568289
+  },
+  {
+   "id": "bagni-3",
+   "tipo": "bagni",
+   "lat": 45.531844,
+   "lon": 11.559456
+  },
+  {
+   "id": "farmacie-38",
+   "tipo": "farmacie",
+   "lat": 45.519188,
+   "lon": 11.641334,
+   "nome": "Farmacia Lerino Snc",
+   "orari": "Mo-Fr 08:30-13:00,15:30-19:30; Sa 08:45-12:45"
+  },
+  {
+   "id": "acqua-90",
+   "tipo": "acqua",
+   "lat": 45.539342,
+   "lon": 11.583587
+  },
+  {
+   "id": "acqua-91",
+   "tipo": "acqua",
+   "lat": 45.532856,
+   "lon": 11.59861
+  },
+  {
+   "id": "acqua-92",
+   "tipo": "acqua",
+   "lat": 45.512073,
+   "lon": 11.583723
+  },
+  {
+   "id": "ospedali-3",
+   "tipo": "ospedali",
+   "lat": 45.555129,
+   "lon": 11.545446,
+   "nome": "Pre-Triage"
+  },
+  {
+   "id": "acqua-93",
+   "tipo": "acqua",
+   "lat": 45.554481,
+   "lon": 11.558583
+  },
+  {
+   "id": "acqua-94",
+   "tipo": "acqua",
+   "lat": 45.55069,
+   "lon": 11.53287,
+   "orari": "24/7"
+  },
+  {
+   "id": "acqua-95",
+   "tipo": "acqua",
+   "lat": 45.558657,
+   "lon": 11.560146
+  },
+  {
+   "id": "acqua-96",
+   "tipo": "acqua",
+   "lat": 45.513898,
+   "lon": 11.486843
+  },
+  {
+   "id": "acqua-97",
+   "tipo": "acqua",
+   "lat": 45.513742,
+   "lon": 11.462448
+  },
+  {
+   "id": "acqua-98",
+   "tipo": "acqua",
+   "lat": 45.530971,
+   "lon": 11.467731
+  },
+  {
+   "id": "bagni-4",
+   "tipo": "bagni",
+   "lat": 45.568805,
+   "lon": 11.466306
+  },
+  {
+   "id": "polizia-6",
+   "tipo": "polizia",
+   "lat": 45.518264,
+   "lon": 11.483861,
+   "nome": "Stazione dei Carabinieri"
+  },
+  {
+   "id": "farmacie-39",
+   "tipo": "farmacie",
+   "lat": 45.546104,
+   "lon": 11.510299,
+   "nome": "Parafarmacia"
+  },
+  {
+   "id": "farmacie-40",
+   "tipo": "farmacie",
+   "lat": 45.546614,
+   "lon": 11.533676,
+   "nome": "Ortopedia Beni",
+   "orari": "Mo-Fr 08:30-13:30,15:00-19:00",
+   "telefono": "+39 0444 545390"
+  },
+  {
+   "id": "ospedali-4",
+   "tipo": "ospedali",
+   "lat": 45.557684,
+   "lon": 11.54324,
+   "nome": "Centro Raccolta Sangue"
+  },
+  {
+   "id": "ospedali-5",
+   "tipo": "ospedali",
+   "lat": 45.552041,
+   "lon": 11.534033,
+   "nome": "SE.FA.MO S.R.L.",
+   "disabili": true
+  },
+  {
+   "id": "acqua-99",
+   "tipo": "acqua",
+   "lat": 45.599644,
+   "lon": 11.497148,
+   "disabili": true
+  },
+  {
+   "id": "acqua-100",
+   "tipo": "acqua",
+   "lat": 45.531609,
+   "lon": 11.540523
+  },
+  {
+   "id": "acqua-101",
+   "tipo": "acqua",
+   "lat": 45.599921,
+   "lon": 11.496598
+  },
+  {
+   "id": "acqua-102",
+   "tipo": "acqua",
+   "lat": 45.535647,
+   "lon": 11.54514
+  },
+  {
+   "id": "farmacie-41",
+   "tipo": "farmacie",
+   "lat": 45.522966,
+   "lon": 11.609421,
+   "nome": "Farmacia Torri Della Dr.ssa Molin Daniela",
+   "orari": "Mo-Fr 08:45-12:30,15:30-19:30",
+   "telefono": "+39 0444381709"
+  },
+  {
+   "id": "acqua-103",
+   "tipo": "acqua",
+   "lat": 45.544266,
+   "lon": 11.572979
+  },
+  {
+   "id": "bagni-5",
+   "tipo": "bagni",
+   "lat": 45.594422,
+   "lon": 11.599996
+  },
+  {
+   "id": "acqua-104",
+   "tipo": "acqua",
+   "lat": 45.584593,
+   "lon": 11.456076
+  },
+  {
+   "id": "farmacie-42",
+   "tipo": "farmacie",
+   "lat": 45.526799,
+   "lon": 11.56325,
+   "nome": "Farmacia Campedello"
+  },
+  {
+   "id": "acqua-105",
+   "tipo": "acqua",
+   "lat": 45.513952,
+   "lon": 11.464046
+  },
+  {
+   "id": "acqua-106",
+   "tipo": "acqua",
+   "lat": 45.566771,
+   "lon": 11.459815
+  },
+  {
+   "id": "ospedali-6",
+   "tipo": "ospedali",
+   "lat": 45.598688,
+   "lon": 11.572368,
+   "nome": "Medicina di Gruppo MC8",
+   "telefono": "+3904441497890"
+  },
+  {
+   "id": "acqua-107",
+   "tipo": "acqua",
+   "lat": 45.593486,
+   "lon": 11.525445
+  },
+  {
+   "id": "acqua-108",
+   "tipo": "acqua",
+   "lat": 45.526485,
+   "lon": 11.481731
+  },
+  {
+   "id": "acqua-109",
+   "tipo": "acqua",
+   "lat": 45.592503,
+   "lon": 11.520678
+  },
+  {
+   "id": "acqua-110",
+   "tipo": "acqua",
+   "lat": 45.572572,
+   "lon": 11.54503
+  },
+  {
+   "id": "acqua-111",
+   "tipo": "acqua",
+   "lat": 45.526342,
+   "lon": 11.609733
+  },
+  {
+   "id": "acqua-112",
+   "tipo": "acqua",
+   "lat": 45.55659,
+   "lon": 11.518326
+  },
+  {
+   "id": "acqua-113",
+   "tipo": "acqua",
+   "lat": 45.548662,
+   "lon": 11.54217
+  },
+  {
+   "id": "bagni-6",
+   "tipo": "bagni",
+   "lat": 45.504251,
+   "lon": 11.624648
+  },
+  {
+   "id": "acqua-114",
+   "tipo": "acqua",
+   "lat": 45.509852,
+   "lon": 11.467089
+  },
+  {
+   "id": "acqua-115",
+   "tipo": "acqua",
+   "lat": 45.53555,
+   "lon": 11.544311
+  },
+  {
+   "id": "acqua-116",
+   "tipo": "acqua",
+   "lat": 45.570853,
+   "lon": 11.535231
+  },
+  {
+   "id": "acqua-117",
+   "tipo": "acqua",
+   "lat": 45.571477,
+   "lon": 11.533552
+  },
+  {
+   "id": "acqua-118",
+   "tipo": "acqua",
+   "lat": 45.571017,
+   "lon": 11.530459
+  },
+  {
+   "id": "acqua-119",
+   "tipo": "acqua",
+   "lat": 45.57555,
+   "lon": 11.533803
+  },
+  {
+   "id": "acqua-120",
+   "tipo": "acqua",
+   "lat": 45.504656,
+   "lon": 11.623429
+  },
+  {
+   "id": "bagni-7",
+   "tipo": "bagni",
+   "lat": 45.512194,
+   "lon": 11.483385
+  },
+  {
+   "id": "acqua-121",
+   "tipo": "acqua",
+   "lat": 45.545311,
+   "lon": 11.526415
+  },
+  {
+   "id": "farmacie-43",
+   "tipo": "farmacie",
+   "lat": 45.537887,
+   "lon": 11.515511,
+   "nome": "Farmacia San Lazzaro"
+  },
+  {
+   "id": "acqua-122",
+   "tipo": "acqua",
+   "lat": 45.591394,
+   "lon": 11.550777
+  },
+  {
+   "id": "acqua-123",
+   "tipo": "acqua",
+   "lat": 45.517347,
+   "lon": 11.456214
+  },
+  {
+   "id": "bagni-8",
+   "tipo": "bagni",
+   "lat": 45.594445,
+   "lon": 11.598214
+  },
+  {
+   "id": "acqua-124",
+   "tipo": "acqua",
+   "lat": 45.567498,
+   "lon": 11.572259
+  },
+  {
+   "id": "acqua-125",
+   "tipo": "acqua",
+   "lat": 45.543906,
+   "lon": 11.539387
+  },
+  {
+   "id": "acqua-126",
+   "tipo": "acqua",
+   "lat": 45.517166,
+   "lon": 11.455711
+  },
+  {
+   "id": "acqua-127",
+   "tipo": "acqua",
+   "lat": 45.598739,
+   "lon": 11.496655
+  },
+  {
+   "id": "acqua-128",
+   "tipo": "acqua",
+   "lat": 45.532191,
+   "lon": 11.52251
+  },
+  {
+   "id": "acqua-129",
+   "tipo": "acqua",
+   "lat": 45.542324,
+   "lon": 11.544671
+  },
+  {
+   "id": "acqua-130",
+   "tipo": "acqua",
+   "lat": 45.590794,
+   "lon": 11.492744
+  },
+  {
+   "id": "acqua-131",
+   "tipo": "acqua",
+   "lat": 45.54468,
+   "lon": 11.520043
+  },
+  {
+   "id": "bagni-9",
+   "tipo": "bagni",
+   "lat": 45.54137,
+   "lon": 11.540009,
+   "pagamento": true
+  },
+  {
+   "id": "acqua-132",
+   "tipo": "acqua",
+   "lat": 45.549101,
+   "lon": 11.541293
+  },
+  {
+   "id": "acqua-133",
+   "tipo": "acqua",
+   "lat": 45.599812,
+   "lon": 11.576462
+  },
+  {
+   "id": "acqua-134",
+   "tipo": "acqua",
+   "lat": 45.578325,
+   "lon": 11.533891
+  },
+  {
+   "id": "bagni-10",
+   "tipo": "bagni",
+   "lat": 45.578308,
+   "lon": 11.534432,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-11",
+   "tipo": "bagni",
+   "lat": 45.565795,
+   "lon": 11.528768,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-12",
+   "tipo": "bagni",
+   "lat": 45.565812,
+   "lon": 11.528769,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-13",
+   "tipo": "bagni",
+   "lat": 45.565829,
+   "lon": 11.52877,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-14",
+   "tipo": "bagni",
+   "lat": 45.568214,
+   "lon": 11.53539,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-15",
+   "tipo": "bagni",
+   "lat": 45.568212,
+   "lon": 11.535366,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-16",
+   "tipo": "bagni",
+   "lat": 45.568209,
+   "lon": 11.535342,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "ospedali-7",
+   "tipo": "ospedali",
+   "lat": 45.555916,
+   "lon": 11.550055,
+   "nome": "Centro prelievi ospedale Vicenza"
+  },
+  {
+   "id": "bagni-17",
+   "tipo": "bagni",
+   "lat": 45.578308,
+   "lon": 11.534446,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-18",
+   "tipo": "bagni",
+   "lat": 45.578308,
+   "lon": 11.53446,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-19",
+   "tipo": "bagni",
+   "lat": 45.570951,
+   "lon": 11.534648,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-20",
+   "tipo": "bagni",
+   "lat": 45.570946,
+   "lon": 11.534601,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "bagni-21",
+   "tipo": "bagni",
+   "lat": 45.570948,
+   "lon": 11.534625,
+   "nome": "Kobak smart toilet"
+  },
+  {
+   "id": "acqua-135",
+   "tipo": "acqua",
+   "lat": 45.545845,
+   "lon": 11.53216
+  },
+  {
+   "id": "acqua-136",
+   "tipo": "acqua",
+   "lat": 45.546369,
+   "lon": 11.533489
+  },
+  {
+   "id": "acqua-137",
+   "tipo": "acqua",
+   "lat": 45.54767,
+   "lon": 11.533097
+  },
+  {
+   "id": "acqua-138",
+   "tipo": "acqua",
+   "lat": 45.544707,
+   "lon": 11.525178
+  },
+  {
+   "id": "acqua-139",
+   "tipo": "acqua",
+   "lat": 45.5877,
+   "lon": 11.486024
+  },
+  {
+   "id": "acqua-140",
+   "tipo": "acqua",
+   "lat": 45.586569,
+   "lon": 11.486397
+  },
+  {
+   "id": "parcheggi-12",
+   "tipo": "parcheggi",
+   "lat": 45.563667,
+   "lon": 11.547705,
+   "nome": "Park Cricoli",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-13",
+   "tipo": "parcheggi",
+   "lat": 45.535881,
+   "lon": 11.544772,
+   "nome": "Piazzale della Vittoria",
+   "disabili": true
+  },
+  {
+   "id": "parcheggi-14",
+   "tipo": "parcheggi",
+   "lat": 45.565488,
+   "lon": 11.560611,
+   "nome": "Park Carabinieri"
+  },
+  {
+   "id": "parcheggi-15",
+   "tipo": "parcheggi",
+   "lat": 45.549974,
+   "lon": 11.548224,
+   "nome": "Parcheggio Canove",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-16",
+   "tipo": "parcheggi",
+   "lat": 45.555502,
+   "lon": 11.548536,
+   "nome": "Parcheggio Rodolfi Sud",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-17",
+   "tipo": "parcheggi",
+   "lat": 45.556856,
+   "lon": 11.548501,
+   "nome": "Parcheggio Rodolfi Nord",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-18",
+   "tipo": "parcheggi",
+   "lat": 45.545691,
+   "lon": 11.524391,
+   "nome": "Piazzale del Mercato Nuovo"
+  },
+  {
+   "id": "parcheggi-19",
+   "tipo": "parcheggi",
+   "lat": 45.533049,
+   "lon": 11.505884,
+   "nome": "Fiera di Vicenza - Parking 9"
+  },
+  {
+   "id": "parcheggi-20",
+   "tipo": "parcheggi",
+   "lat": 45.589299,
+   "lon": 11.492515,
+   "nome": "Piazza Robert Baden-Powell"
+  },
+  {
+   "id": "parcheggi-21",
+   "tipo": "parcheggi",
+   "lat": 45.548901,
+   "lon": 11.534036,
+   "nome": "Park Teatro di Vicenza"
+  },
+  {
+   "id": "parcheggi-22",
+   "tipo": "parcheggi",
+   "lat": 45.554412,
+   "lon": 11.521685,
+   "nome": "Via Brigata Sassari",
+   "disabili": true
+  },
+  {
+   "id": "parcheggi-23",
+   "tipo": "parcheggi",
+   "lat": 45.548733,
+   "lon": 11.549666,
+   "nome": "Park Matteotti",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-24",
+   "tipo": "parcheggi",
+   "lat": 45.551216,
+   "lon": 11.540446,
+   "nome": "Park Fogazzaro",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-25",
+   "tipo": "parcheggi",
+   "lat": 45.545744,
+   "lon": 11.548415,
+   "nome": "Piazzetta San Nicola"
+  },
+  {
+   "id": "parcheggi-26",
+   "tipo": "parcheggi",
+   "lat": 45.558263,
+   "lon": 11.546576,
+   "nome": "Parcheggio Bandiera",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-27",
+   "tipo": "parcheggi",
+   "lat": 45.565783,
+   "lon": 11.55777,
+   "nome": "Park Chiesa Via Saviabona"
+  },
+  {
+   "id": "parcheggi-28",
+   "tipo": "parcheggi",
+   "lat": 45.54262,
+   "lon": 11.558744,
+   "nome": "Park Stadio",
+   "pagamento": true
+  },
+  {
+   "id": "polizia-7",
+   "tipo": "polizia",
+   "lat": 45.565088,
+   "lon": 11.560586,
+   "nome": "Stazione di Polizia"
+  },
+  {
+   "id": "ospedali-8",
+   "tipo": "ospedali",
+   "lat": 45.55668,
+   "lon": 11.545823,
+   "nome": "Ospedale Civile di Vicenza \"San Bortolo\"",
+   "disabili": true
+  },
+  {
+   "id": "ospedali-9",
+   "tipo": "ospedali",
+   "lat": 45.557399,
+   "lon": 11.543543,
+   "nome": "Ospedale Civile di Vicenza \"San Bortolo\""
+  },
+  {
+   "id": "ospedali-10",
+   "tipo": "ospedali",
+   "lat": 45.548672,
+   "lon": 11.559382,
+   "nome": "Casa di cura Villa Berica"
+  },
+  {
+   "id": "ospedali-11",
+   "tipo": "ospedali",
+   "lat": 45.543623,
+   "lon": 11.545536,
+   "nome": "Casa di Cura privata Eretenia",
+   "disabili": true
+  },
+  {
+   "id": "bagni-22",
+   "tipo": "bagni",
+   "lat": 45.535593,
+   "lon": 11.54413,
+   "disabili": true
+  },
+  {
+   "id": "polizia-8",
+   "tipo": "polizia",
+   "lat": 45.548208,
+   "lon": 11.537692
+  },
+  {
+   "id": "polizia-9",
+   "tipo": "polizia",
+   "lat": 45.543152,
+   "lon": 11.550571,
+   "nome": "Guardia di Finanza Comando provinciale di Vicenza",
+   "telefono": "+390444323900"
+  },
+  {
+   "id": "ospedali-12",
+   "tipo": "ospedali",
+   "lat": 45.543246,
+   "lon": 11.531933,
+   "nome": "Complesso San Felice ULSS 8"
+  },
+  {
+   "id": "polizia-10",
+   "tipo": "polizia",
+   "lat": 45.542127,
+   "lon": 11.539921,
+   "nome": "Distaccamento Polizia Locale Campo Marzo"
+  },
+  {
+   "id": "polizia-11",
+   "tipo": "polizia",
+   "lat": 45.548979,
+   "lon": 11.537518
+  },
+  {
+   "id": "ospedali-13",
+   "tipo": "ospedali",
+   "lat": 45.513286,
+   "lon": 11.543463,
+   "nome": "Villa Margherita"
+  },
+  {
+   "id": "parcheggi-29",
+   "tipo": "parcheggi",
+   "lat": 45.545307,
+   "lon": 11.533316,
+   "nome": "Park Cattaneo",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-30",
+   "tipo": "parcheggi",
+   "lat": 45.511378,
+   "lon": 11.623299,
+   "nome": "Park CasaTua"
+  },
+  {
+   "id": "polizia-12",
+   "tipo": "polizia",
+   "lat": 45.55182,
+   "lon": 11.534692,
+   "nome": "Questura di Vicenza"
+  },
+  {
+   "id": "parcheggi-31",
+   "tipo": "parcheggi",
+   "lat": 45.583258,
+   "lon": 11.480527,
+   "nome": "Piazza Fante d'Italia"
+  },
+  {
+   "id": "parcheggi-32",
+   "tipo": "parcheggi",
+   "lat": 45.510681,
+   "lon": 11.466968,
+   "nome": "Parcheggio il Brolo"
+  },
+  {
+   "id": "parcheggi-33",
+   "tipo": "parcheggi",
+   "lat": 45.516165,
+   "lon": 11.484574,
+   "nome": "parcheggio pubblico"
+  },
+  {
+   "id": "parcheggi-34",
+   "tipo": "parcheggi",
+   "lat": 45.542979,
+   "lon": 11.643541,
+   "nome": "Parcheggio cimitero"
+  },
+  {
+   "id": "parcheggi-35",
+   "tipo": "parcheggi",
+   "lat": 45.571751,
+   "lon": 11.528308
+  },
+  {
+   "id": "parcheggi-36",
+   "tipo": "parcheggi",
+   "lat": 45.571924,
+   "lon": 11.52627
+  },
+  {
+   "id": "parcheggi-37",
+   "tipo": "parcheggi",
+   "lat": 45.543953,
+   "lon": 11.537371,
+   "nome": "Park Bologna",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-38",
+   "tipo": "parcheggi",
+   "lat": 45.525247,
+   "lon": 11.491965,
+   "nome": "Piazza S.Nicola"
+  },
+  {
+   "id": "polizia-13",
+   "tipo": "polizia",
+   "lat": 45.600005,
+   "lon": 11.527775
+  },
+  {
+   "id": "parcheggi-39",
+   "tipo": "parcheggi",
+   "lat": 45.564831,
+   "lon": 11.553166,
+   "nome": "Parcheggio bus scolastici"
+  },
+  {
+   "id": "parcheggi-40",
+   "tipo": "parcheggi",
+   "lat": 45.546293,
+   "lon": 11.550003,
+   "nome": "Park Barche",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-41",
+   "tipo": "parcheggi",
+   "lat": 45.563588,
+   "lon": 11.54677,
+   "nome": "Area Camper Park Cricoli Vicenza",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-42",
+   "tipo": "parcheggi",
+   "lat": 45.54169,
+   "lon": 11.538036,
+   "nome": "Park Stazione 1",
+   "pagamento": true,
+   "orari": "05:00-24:00"
+  },
+  {
+   "id": "parcheggi-43",
+   "tipo": "parcheggi",
+   "lat": 45.515909,
+   "lon": 11.60204,
+   "nome": "Park Casello Vicenza Est"
+  },
+  {
+   "id": "parcheggi-44",
+   "tipo": "parcheggi",
+   "lat": 45.515562,
+   "lon": 11.601706,
+   "nome": "Park Casello Vicenza Est"
+  },
+  {
+   "id": "parcheggi-45",
+   "tipo": "parcheggi",
+   "lat": 45.5463,
+   "lon": 11.521139,
+   "nome": "Park Farini"
+  },
+  {
+   "id": "ospedali-14",
+   "tipo": "ospedali",
+   "lat": 45.548841,
+   "lon": 11.57809,
+   "nome": "U.S. Army Health Center - Vicenza"
+  },
+  {
+   "id": "parcheggi-46",
+   "tipo": "parcheggi",
+   "lat": 45.5486,
+   "lon": 11.532747,
+   "nome": "Parcheggio del Teatro Comunale",
+   "pagamento": true
+  },
+  {
+   "id": "bagni-23",
+   "tipo": "bagni",
+   "lat": 45.544973,
+   "lon": 11.521407,
+   "disabili": true
+  },
+  {
+   "id": "parcheggi-47",
+   "tipo": "parcheggi",
+   "lat": 45.557971,
+   "lon": 11.548886,
+   "nome": "Parcheggio ULSS 8 ex motorizzazione"
+  },
+  {
+   "id": "polizia-14",
+   "tipo": "polizia",
+   "lat": 45.564649,
+   "lon": 11.561752,
+   "nome": "Comando Provinciale Carabinieri",
+   "telefono": "+3904442031"
+  },
+  {
+   "id": "bagni-24",
+   "tipo": "bagni",
+   "lat": 45.554287,
+   "lon": 11.549469
+  },
+  {
+   "id": "parcheggi-48",
+   "tipo": "parcheggi",
+   "lat": 45.560307,
+   "lon": 11.458343,
+   "nome": "Piazzetta Baruffato"
+  }
+ ]
+}

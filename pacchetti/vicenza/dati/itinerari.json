@@ -1,0 +1,48 @@
+{
+  "_nota": "Vicenza: itinerari consigliati. Percorsi e lunghezze si calcolano sul telefono, sulla rete pedonale (rete.json).",
+  "itinerari": [
+    {
+      "id": "palladio-classico",
+      "titolo": {
+        "it": "Palladio classico",
+        "en": "Classic Palladio",
+        "fr": "Palladio classique",
+        "de": "Klassisches Palladio",
+        "es": "Palladio clásico"
+      },
+      "tappe": [
+        "basilica-palladiana",
+        "loggia-del-capitaniato",
+        "palazzo-chiericati-museo-civico",
+        "teatro-olimpico",
+        "casa-cogollo",
+        "cappella-valmarana",
+        "gallerie-di-palazzo-thiene",
+        "palazzo-valmarana-braga",
+        "palazzo-porto-breganze"
+      ],
+      "metri": 1681
+    },
+    {
+      "id": "palladio-nascosto",
+      "titolo": {
+        "it": "Palladio nascosto",
+        "en": "Hidden Palladio",
+        "fr": "Palladio caché",
+        "de": "Verborgenes Palladio",
+        "es": "Palladio escondido"
+      },
+      "tappe": [
+        "arco-delle-scalette",
+        "palazzo-civena-trissino",
+        "casa-garzadori-bortolan",
+        "palazzo-da-monte-migliorini",
+        "palazzo-iseppo-da-porto",
+        "palazzo-capra",
+        "loggia-valmarana",
+        "chiesa-di-santa-maria-nova"
+      ],
+      "metri": 3219
+    }
+  ]
+}

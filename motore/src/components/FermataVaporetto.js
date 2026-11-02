@@ -64,8 +64,8 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
     lineaIniziale && lineaVaporetto(lineaIniziale) ? lineaIniziale : (linee[0] || lineeBus[0])?.id
   );
   const linea = lineaVaporetto(idLinea);
-  // le linee di bus sono dell'ATV (Verona), quelle del vaporetto dell'ACTV (Venezia)
-  const gestore = /^(AUT|TRAM)-/.test(idLinea || '') ? 'ATV' : 'ACTV';
+  // gestore indicato nella linea (es. SVT a Vicenza); altrimenti bus ATV (Verona), vaporetto ACTV (Venezia)
+  const gestore = linea?.gestore || (/^(AUT|TRAM)-/.test(idLinea || '') ? 'ATV' : 'ACTV');
   const paline = useMemo(() => fermateStessoNome(fermataId), [fermataId]);
   const direzioni = useMemo(() => (linea ? direzioniDallaFermata(linea, paline) : []), [linea, paline]);
   const [indiceDirezione, setIndiceDirezione] = useState(0);
@@ -171,7 +171,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
           )}
           {lineeBus.length > 0 && (
             <>
-              <Text style={styles.etichettaBus}>🚌 Autobus e tram</Text>
+              <Text style={styles.etichettaBus}>🚌 {t('srv_autobus')}</Text>
               <View style={styles.targhette}>
                 {lineeBus.map((l) => (
                   <TarghettaLinea key={l.id} linea={l} selezionata={l.id === idLinea} onPress={() => scegliLinea(l.id)} />

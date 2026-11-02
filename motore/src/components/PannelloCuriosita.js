@@ -6,7 +6,7 @@ import { fotoCuriosita } from '../immaginiCuriosita';
 import { fotoCibo } from '../immaginiCibi';
 import { testoLocalizzato } from '../i18n';
 
-const PORTATE = ['cicchetto', 'primo', 'secondo', 'dolce'];
+const PORTATE = ['cicchetto', 'primo', 'secondo', 'contorno', 'dolce'];
 
 // Pagina "Curiosità e cibi": due schede; ciascuna mostra il proprio elenco completo.
 export default function PannelloCuriosita({ t, lingua, onApriCuriosita, onApriCibo, onChiudi }) {

@@ -5,13 +5,13 @@ import { impostaCartellaAssets } from './risorse';
 import { inizializzaCitta } from './avvio';
 
 // File che possono mancare nei pacchetti scaricati prima (si usa il valore predefinito)
-const FACOLTATIVI = ['immagini.json', 'citta.json'];
+const FACOLTATIVI = ['immagini.json', 'citta.json', 'tessere.json'];
 
 // File JSON che il motore legge (nomi usati con datiProxy)
 export const NOMI_DATI = [
   'aguzza.json', 'app.json', 'citta.json', 'immagini.json', 'autobus.json', 'cibi.json', 'curiosita.json', 'eventi.json', 'itinerari.json',
   'luoghi.json', 'mappa.json', 'orari_autobus.json', 'orari_vaporetti.json', 'principali.json', 'rete.json',
-  'servizi.json', 'vaporetti.json',
+  'servizi.json', 'vaporetti.json', 'tessere.json',
 ];
 
 // cartella: percorso della città sul telefono, con le sottocartelle "dati" e "assets"
