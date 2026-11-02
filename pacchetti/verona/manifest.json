@@ -1271,6 +1271,10 @@
     {
       "path": "dati/personaggi.json",
       "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/personaggi.json"
+    },
+    {
+      "path": "assets/personaggi/dante-alighieri.webp",
+      "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/dante-alighieri.webp"
     }
   ]
 }

@@ -1,3 +1,115 @@
 {
-  "personaggi": []
+  "personaggi": [
+    {
+      "id": "dante-alighieri",
+      "nome": "Dante Alighieri",
+      "nascita": 1265,
+      "morte": 1321,
+      "professione": {
+        "it": "Poeta, scrittore e filosofo",
+        "en": "Poet, writer and philosopher",
+        "fr": "Poète, écrivain et philosophe",
+        "de": "Dichter, Schriftsteller und Philosoph",
+        "es": "Poeta, escritor y filósofo"
+      },
+      "luogoNascita": {
+        "it": "Firenze",
+        "en": "Florence",
+        "fr": "Florence",
+        "de": "Florenz",
+        "es": "Florencia"
+      },
+      "dataNascita": {
+        "it": "1265",
+        "en": "1265",
+        "fr": "1265",
+        "de": "1265",
+        "es": "1265"
+      },
+      "luogoMorte": {
+        "it": "Ravenna",
+        "en": "Ravenna",
+        "fr": "Ravenne",
+        "de": "Ravenna",
+        "es": "Rávena"
+      },
+      "dataMorte": {
+        "it": "14 settembre 1321",
+        "en": "14 September 1321",
+        "fr": "14 septembre 1321",
+        "de": "14. September 1321",
+        "es": "14 de septiembre de 1321"
+      },
+      "ritratto": {
+        "autore": "Dopo Sandro Botticelli",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Dante Alighieri è considerato uno dei maggiori poeti della letteratura mondiale e il padre della lingua italiana. Dopo essere stato esiliato da Firenze nel 1302, trovò ospitalità in diverse città italiane, tra cui Verona, dove soggiornò in due periodi distinti: inizialmente tra il 1303 e il 1304 presso Bartolomeo della Scala, fratello di Cangrande, e successivamente tra il 1312 e il 1318 presso lo stesso Cangrande I. A Verona trascorse complessivamente circa sette anni, trovando un ambiente favorevole alla propria attività intellettuale. Qui compose parte delle sue opere e dedicò a Cangrande una celebre epistola introduttiva al Paradiso.",
+        "en": "Dante Alighieri is considered one of the greatest poets of world literature and the father of the Italian language. After being exiled from Florence in 1302, he found hospitality in several Italian cities, including Verona, where he stayed in two separate periods: first between 1303 and 1304 with Bartolomeo della Scala, brother of Cangrande, and then between 1312 and 1318 with Cangrande I himself. In Verona he spent about seven years in total, finding an environment favourable to his intellectual work. Here he composed part of his works and dedicated to Cangrande a famous introductory epistle to the Paradiso.",
+        "fr": "Dante Alighieri est considéré comme l'un des plus grands poètes de la littérature mondiale et le père de la langue italienne. Après son exil de Florence en 1302, il trouva refuge dans plusieurs villes italiennes, dont Vérone, où il séjourna à deux reprises : d'abord entre 1303 et 1304 auprès de Bartolomeo della Scala, frère de Cangrande, puis entre 1312 et 1318 auprès de Cangrande I lui-même. À Vérone, il passa au total environ sept ans, dans un milieu propice à son activité intellectuelle. Il y composa une partie de ses œuvres et dédia à Cangrande une célèbre épître introductive au Paradis.",
+        "de": "Dante Alighieri gilt als einer der größten Dichter der Weltliteratur und als Vater der italienischen Sprache. Nachdem er 1302 aus Florenz verbannt worden war, fand er in mehreren italienischen Städten Aufnahme, darunter in Verona, wo er sich in zwei getrennten Zeiträumen aufhielt: zunächst 1303 und 1304 bei Bartolomeo della Scala, dem Bruder Cangrandes, und danach zwischen 1312 und 1318 bei Cangrande I. selbst. In Verona verbrachte er insgesamt etwa sieben Jahre und fand ein dem geistigen Schaffen förderliches Umfeld. Hier verfasste er einen Teil seiner Werke und widmete Cangrande ein berühmtes einleitendes Sendschreiben zum Paradies.",
+        "es": "Dante Alighieri es considerado uno de los mayores poetas de la literatura universal y el padre de la lengua italiana. Tras ser desterrado de Florencia en 1302, encontró acogida en varias ciudades italianas, entre ellas Verona, donde residió en dos periodos distintos: primero entre 1303 y 1304 con Bartolomeo della Scala, hermano de Cangrande, y después entre 1312 y 1318 con el propio Cangrande I. En Verona pasó en total unos siete años, en un ambiente favorable a su actividad intelectual. Aquí compuso parte de sus obras y dedicó a Cangrande una célebre epístola introductoria al Paraíso."
+      },
+      "curiosita": {
+        "it": [
+          "Dante trascorse a Verona quasi la metà degli anni del suo esilio.",
+          "Nel XVII canto del Paradiso cita Cangrande della Scala con parole di grande elogio.",
+          "Durante il soggiorno veronese ebbe modo di conoscere la corte scaligera e di frequentare un ambiente culturale particolarmente vivace.",
+          "Il suo rapporto con Verona è ricordato anche attraverso la celebre espressione «lo primo tuo refugio e 'l primo ostello», riferita alla città nel Paradiso.",
+          "Durante il soggiorno veronese dedicò a Cangrande la celebre epistola introduttiva al Paradiso."
+        ],
+        "en": [
+          "Dante spent almost half of his years of exile in Verona.",
+          "In canto XVII of the Paradiso he cites Cangrande della Scala with words of great praise.",
+          "During his stay in Verona he got to know the Scaliger court and frequented a particularly lively cultural milieu.",
+          "His bond with Verona is also remembered through the famous phrase «lo primo tuo refugio e 'l primo ostello», referring to the city in the Paradiso.",
+          "During his stay in Verona he dedicated to Cangrande the famous introductory epistle to the Paradiso."
+        ],
+        "fr": [
+          "Dante passa à Vérone presque la moitié des années de son exil.",
+          "Au chant XVII du Paradis, il cite Cangrande della Scala en termes très élogieux.",
+          "Pendant son séjour véronais, il eut l'occasion de connaître la cour des Scaliger et de fréquenter un milieu culturel particulièrement vivant.",
+          "Son lien avec Vérone est aussi rappelé par la célèbre expression « lo primo tuo refugio e 'l primo ostello », qui désigne la ville dans le Paradis.",
+          "Pendant son séjour à Vérone, il dédia à Cangrande la célèbre épître introductive au Paradis."
+        ],
+        "de": [
+          "Dante verbrachte fast die Hälfte seiner Exilsjahre in Verona.",
+          "Im XVII. Gesang des Paradieses erwähnt er Cangrande della Scala mit großem Lob.",
+          "Während seines Aufenthalts in Verona lernte er den Hof der Scaliger kennen und verkehrte in einem besonders lebhaften kulturellen Umfeld.",
+          "Seine Verbundenheit mit Verona wird auch durch den berühmten Ausspruch «lo primo tuo refugio e 'l primo ostello» erinnert, der im Paradies auf die Stadt bezogen ist.",
+          "Während seines Aufenthalts in Verona widmete er Cangrande das berühmte einleitende Sendschreiben zum Paradies."
+        ],
+        "es": [
+          "Dante pasó en Verona casi la mitad de los años de su destierro.",
+          "En el canto XVII del Paraíso cita a Cangrande della Scala con palabras de gran elogio.",
+          "Durante su estancia veronesa tuvo ocasión de conocer la corte de los Scaligeri y de frecuentar un ambiente cultural especialmente vivo.",
+          "Su relación con Verona se recuerda también en la célebre expresión «lo primo tuo refugio e 'l primo ostello», referida a la ciudad en el Paraíso.",
+          "Durante su estancia en Verona dedicó a Cangrande la célebre epístola introductoria al Paraíso."
+        ]
+      },
+      "luoghi": [
+        "piazza-dei-signori"
+      ],
+      "luoghiNote": {
+        "piazza-dei-signori": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "Al centro della piazza si trova la statua di Dante, realizzata da Ugo Zannoni e inaugurata nel 1865 in occasione del sesto centenario della nascita del poeta. La piazza, conosciuta anche come Piazza Dante, è diventata uno dei luoghi simbolo della sua memoria a Verona.",
+            "en": "In the centre of the square stands the statue of Dante, made by Ugo Zannoni and unveiled in 1865 for the sixth centenary of the poet's birth. The square, also known as Piazza Dante, has become one of the symbolic places of his memory in Verona.",
+            "fr": "Au centre de la place se dresse la statue de Dante, réalisée par Ugo Zannoni et inaugurée en 1865 à l'occasion du sixième centenaire de la naissance du poète. La place, également appelée Piazza Dante, est devenue l'un des lieux emblématiques de sa mémoire à Vérone.",
+            "de": "In der Mitte des Platzes steht die Dante-Statue von Ugo Zannoni, die 1865 zum sechshundertsten Geburtstag des Dichters enthüllt wurde. Der Platz, auch Piazza Dante genannt, ist zu einem der Symbolorte seines Andenkens in Verona geworden.",
+            "es": "En el centro de la plaza se alza la estatua de Dante, obra de Ugo Zannoni e inaugurada en 1865 con motivo del sexto centenario del nacimiento del poeta. La plaza, también conocida como Piazza Dante, se ha convertido en uno de los lugares emblemáticos de su memoria en Verona."
+          }
+        }
+      },
+      "collegati": []
+    }
+  ]
 }
