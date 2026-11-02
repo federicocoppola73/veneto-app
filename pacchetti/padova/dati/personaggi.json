@@ -737,7 +737,9 @@
       },
       "luoghi": [
         "basilica-di-sant-antonio",
-        "statua-del-gattamelata"
+        "statua-del-gattamelata",
+        "maglio-orto-botanico",
+        "casa-del-pesse"
       ],
       "luoghiNote": {
         "basilica-di-sant-antonio": {
@@ -770,6 +772,38 @@
             "fr": "Le monument équestre en bronze représente Erasmo da Narni, dit Gattamelata, condottiere au service de la République de Venise. C'est l'une des œuvres les plus célèbres de Donatello et l'un des symboles artistiques de Padoue.",
             "de": "Das Reiterdenkmal aus Bronze zeigt Erasmo da Narni, genannt Gattamelata, einen Condottiere im Dienst der Republik Venedig. Es ist eines der berühmtesten Werke Donatellos und eines der künstlerischen Wahrzeichen Paduas.",
             "es": "El monumento ecuestre de bronce representa a Erasmo da Narni, llamado Gattamelata, condotiero al servicio de la República de Venecia. Es una de las obras más célebres de Donatello y uno de los símbolos artísticos de Padua."
+          }
+        },
+        "maglio-orto-botanico": {
+          "tipo": {
+            "it": "Legame storico – attività",
+            "en": "Historical link – activity",
+            "fr": "Lien historique – activité",
+            "de": "Historischer Bezug – Tätigkeit",
+            "es": "Vínculo histórico – actividad"
+          },
+          "testo": {
+            "it": "In quest'area si trovava il Maglio, luogo tradizionalmente associato alle lavorazioni e alle fusioni in bronzo delle opere di Donatello. È un riferimento alla sua attività artigianale e produttiva in città.",
+            "en": "This area housed the Maglio, a place traditionally associated with the working and bronze casting of Donatello's works. It refers to his craft and productive activity in the city.",
+            "fr": "Ce secteur abritait le Maglio, lieu traditionnellement associé au travail et à la fonte du bronze pour les œuvres de Donatello. Il renvoie à son activité artisanale et productive dans la ville.",
+            "de": "Auf diesem Gelände befand sich das Maglio, ein Ort, der traditionell mit der Verarbeitung und dem Bronzeguss der Werke Donatellos verbunden wird. Er verweist auf seine handwerkliche und produktive Tätigkeit in der Stadt.",
+            "es": "En esta zona se encontraba el Maglio, lugar tradicionalmente asociado a la elaboración y la fundición en bronce de las obras de Donatello. Es una referencia a su actividad artesanal y productiva en la ciudad."
+          }
+        },
+        "casa-del-pesse": {
+          "tipo": {
+            "it": "Legame storico – abitazione",
+            "en": "Historical link – residence",
+            "fr": "Lien historique – habitation",
+            "de": "Historischer Bezug – Wohnsitz",
+            "es": "Vínculo histórico – vivienda"
+          },
+          "testo": {
+            "it": "Secondo le ricostruzioni storiche, Donatello abitò nella casa detta «del Pesse», situata in Piazza del Santo durante il suo soggiorno padovano.",
+            "en": "According to historical reconstructions, Donatello lived in the house known as «del Pesse», located in Piazza del Santo during his stay in Padua.",
+            "fr": "Selon les reconstitutions historiques, Donatello habita la maison dite « del Pesse », située sur la Piazza del Santo pendant son séjour padouan.",
+            "de": "Historischen Rekonstruktionen zufolge wohnte Donatello während seines Aufenthalts in Padua im sogenannten Haus «del Pesse» auf der Piazza del Santo.",
+            "es": "Según las reconstrucciones históricas, Donatello vivió en la casa llamada «del Pesse», situada en la Piazza del Santo durante su estancia en Padua."
           }
         }
       }
