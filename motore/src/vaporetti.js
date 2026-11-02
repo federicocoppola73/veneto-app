@@ -43,7 +43,7 @@ export function lineeAutobusDellaFermata(id) {
 // Fermate dell'autobus con almeno una linea, entro un raggio dal luogo, dalla più vicina:
 // per i luoghi che non hanno una fermata scritta a mano (es. Verona)
 // Ogni linea compare una sola volta: alla fermata più vicina che la serve (le altre fermate della stessa linea si saltano)
-export function fermateAutobusVicine(lat, lon, massimo = 300, quante = 3) {
+export function fermateAutobusVicine(lat, lon, massimo = 400, quante = 3) {
   if (lat == null || lon == null) return [];
   const viste = new Set();
   const risultato = [];
