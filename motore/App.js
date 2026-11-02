@@ -392,6 +392,8 @@ function Schermata({ linguaIniziale }) {
 
   // se la scheda di un luogo è stata aperta da una scheda personaggio, alla chiusura si torna a quella
   const ritornoPersonaggio = useRef(null);
+  // luogo da riaprire alla chiusura della scheda di un personaggio aperta dal luogo
+  const ritornoLuogo = useRef(null);
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
     if (ritornoPersonaggio.current) {
@@ -990,9 +992,15 @@ function Schermata({ linguaIniziale }) {
           luoghiPerId={luoghiTuttiPerId}
           t={t}
           lingua={lingua}
-          onChiudi={() => setPersonaggioAperto(null)}
+          onChiudi={() => {
+            setPersonaggioAperto(null);
+            const luogoId = ritornoLuogo.current;
+            ritornoLuogo.current = null;
+            if (luogoId) setIdSelezionato(luogoId);
+          }}
           onApriLuogo={(luogoId) => {
             // la scheda del personaggio si chiude e si riapre alla chiusura della scheda del luogo
+            ritornoLuogo.current = null;
             ritornoPersonaggio.current = personaggioAperto;
             setPersonaggioAperto(null);
             setPannelloPersonaggi(false);
@@ -1025,6 +1033,12 @@ function Schermata({ linguaIniziale }) {
 
       {selezionato && !selezionato.nonVisitabile && (
         <PopupLuogo
+          onPersonaggio={(id) => {
+            // il personaggio si apre sopra al luogo, e alla sua chiusura il luogo si riapre
+            ritornoLuogo.current = selezionato.id;
+            setIdSelezionato(null);
+            setPersonaggioAperto(id);
+          }}
           luogo={selezionato}
           lingua={lingua}
           t={t}

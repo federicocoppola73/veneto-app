@@ -26,7 +26,7 @@ const MAX_TARGHETTE = 6; // targhette delle linee mostrate accanto al nome della
 // Scheda del luogo: si apre dal basso quando si tocca un pallino sulla mappa
 // distanza: metri dall'utente (se la posizione è attiva); preferito / onPreferito: cuore dei luoghi del cuore;
 // visitato / onVisitato: spunta "Ci sono stato"
-export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, preferito, onPreferito, visitato, onVisitato }) {
+export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, preferito, onPreferito, visitato, onVisitato, onPersonaggio }) {
   const { width, height } = useWindowDimensions();
   // in orizzontale la scheda si apre di lato, così la mappa resta visibile
   const orizzontale = width > height;
@@ -173,7 +173,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
 
           <Text style={styles.descrizione}>{descrizione}</Text>
 
-          {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length ? (
+          {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length || (luogo.personaggio && onPersonaggio) ? (
             <View style={styles.riga}>
               {luogo.lo_sapevi_che?.length ? (
                 <Pressable
@@ -191,6 +191,15 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
                   accessibilityRole="button"
                 >
                   <Text style={styles.testoLoSapevi}>👁️ {t('aguzza')}</Text>
+                </Pressable>
+              ) : null}
+              {luogo.personaggio && onPersonaggio ? (
+                <Pressable
+                  onPress={() => onPersonaggio(luogo.personaggio)}
+                  style={({ pressed }) => [styles.loSapevi, pressed && { opacity: 0.85 }]}
+                  accessibilityRole="button"
+                >
+                  <Text style={styles.testoLoSapevi}>👤 {t('pers_breve')}</Text>
                 </Pressable>
               ) : null}
             </View>
