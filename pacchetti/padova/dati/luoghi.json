@@ -2151,8 +2151,14 @@
           "ore": "10:00–13:00"
         },
         {
-          "giorni": "sab-dom e festivi",
-          "ore": "16:00–19:00 (estate), 15:00–18:00 (inverno)"
+          "giorni": "sab-dom",
+          "ore": "16:00–19:00",
+          "periodo": "04-01/10-31"
+        },
+        {
+          "giorni": "sab-dom",
+          "ore": "15:00–18:00",
+          "periodo": "11-01/03-31"
         }
       ],
       "biglietto": {
