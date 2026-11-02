@@ -7,6 +7,9 @@ import { datiProxy } from '../dati';
 
 const IMMAGINI = datiProxy('immagini.json');
 
+// Sotto questo numero di luoghi non ha senso proporre un itinerario
+const MIN_TAPPE_ITINERARIO = 4;
+
 // Scheda di un personaggio: biografia, curiosità, luoghi collegati e (se più di uno) l'itinerario.
 // props: persona, luoghiPerId, t, lingua, onChiudi, onApriLuogo(id), onCreaItinerario(persona)
 export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, onChiudi, onApriLuogo, onCreaItinerario }) {
@@ -92,7 +95,7 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
             </>
           ) : null}
 
-          {luoghi.length > 1 ? (
+          {luoghi.length >= MIN_TAPPE_ITINERARIO ? (
             <Pressable style={styles.pulsante} onPress={() => onCreaItinerario(p)} accessibilityRole="button">
               <Text style={styles.pulsanteTesto}>{t('pers_crea_itinerario')}</Text>
             </Pressable>
