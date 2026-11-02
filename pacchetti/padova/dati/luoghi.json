@@ -4227,7 +4227,18 @@
       ],
       "wikipedia": {
         "en": "Scuola del Santo"
-      }
+      },
+      "orari": [
+        {
+          "giorni": "mar-dom",
+          "ore": "9:00–13:00·14:00–18:00"
+        }
+      ],
+      "biglietto": {
+        "intero": 3,
+        "ridotto": 2
+      },
+      "sito": "https://www.santantonio.org"
     },
     {
       "id": "chiesa-di-santa-caterina",
