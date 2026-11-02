@@ -85,7 +85,8 @@
       },
       "luoghi": [
         "piazza-dei-signori",
-        "palazzo-del-podesta"
+        "palazzo-del-podesta",
+        "biblioteca-capitolare"
       ],
       "luoghiNote": {
         "piazza-dei-signori": {
@@ -118,6 +119,22 @@
             "fr": "Le palais fut l'une des résidences des seigneurs della Scala. Selon la tradition historique, Dante y trouva l'hospitalité pendant son séjour à la cour scaligère. Le lien avec le poète est étroitement lié à la présence de Cangrande et de sa famille.",
             "de": "Der Palast war eine der Residenzen der Herren della Scala. Nach der historischen Überlieferung fand Dante hier während seines Aufenthalts am scaligerischen Hof Aufnahme. Die Verbindung zum Dichter ist eng mit der Anwesenheit Cangrandes und seiner Familie verknüpft.",
             "es": "El palacio fue una de las residencias de los señores della Scala. Según la tradición histórica, Dante encontró aquí hospedaje durante su estancia en la corte scaligera. La relación con el poeta está estrechamente ligada a la presencia de Cangrande y su familia."
+          }
+        },
+        "biblioteca-capitolare": {
+          "tipo": {
+            "it": "Legame diretto – frequentazione",
+            "en": "Direct link – study",
+            "fr": "Lien direct – fréquentation",
+            "de": "Direkter Bezug – Studium",
+            "es": "Vínculo directo – frecuentación"
+          },
+          "testo": {
+            "it": "Durante il soggiorno veronese Dante ebbe modo di consultare i testi antichi custoditi nella biblioteca, frequentando così uno dei principali centri culturali della città.",
+            "en": "During his stay in Verona, Dante had the chance to consult the ancient texts kept in the library, thus frequenting one of the city's main cultural centres.",
+            "fr": "Pendant son séjour à Vérone, Dante eut l'occasion de consulter les textes anciens conservés dans la bibliothèque, fréquentant ainsi l'un des principaux centres culturels de la ville.",
+            "de": "Während seines Aufenthalts in Verona konnte Dante in der Bibliothek die dort aufbewahrten alten Texte einsehen und verkehrte so in einem der wichtigsten kulturellen Zentren der Stadt.",
+            "es": "Durante su estancia en Verona, Dante tuvo ocasión de consultar los textos antiguos custodiados en la biblioteca, frecuentando así uno de los principales centros culturales de la ciudad."
           }
         }
       },
