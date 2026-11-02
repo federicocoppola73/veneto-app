@@ -10160,6 +10160,42 @@
           "licenza": "CC BY-SA 3.0"
         }
       ]
+    },
+    {
+      "id": "area-dei-biri",
+      "nome": "Area dei Biri",
+      "categoria": "altri",
+      "latitudine": 45.440754,
+      "longitudine": 12.340576,
+      "descrizione": {
+        "it": "Si ritiene che Tiziano abbia vissuto in questa zona dal 1531 fino alla morte, avvenuta nel 1576. Nei dintorni si trovano alcuni luoghi da visitare, tra cui il Teatro Malibran e la chiesa di Santa Maria dei Miracoli.",
+        "en": "Tiziano is thought to have lived in this area from 1531 until his death in 1576. Nearby there are some places worth visiting, including the Teatro Malibran and the church of Santa Maria dei Miracoli.",
+        "fr": "On pense que Tiziano a vécu dans ce secteur de 1531 jusqu'à sa mort en 1576. Dans les environs se trouvent plusieurs lieux à visiter, dont le théâtre Malibran et l'église Santa Maria dei Miracoli.",
+        "de": "Es wird angenommen, dass Tizian von 1531 bis zu seinem Tod im Jahr 1576 in diesem Gebiet lebte. In der Umgebung gibt es einige sehenswerte Orte, darunter das Teatro Malibran und die Kirche Santa Maria dei Miracoli.",
+        "es": "Se cree que Tiziano vivió en esta zona desde 1531 hasta su muerte en 1576. En los alrededores hay varios lugares que vale la pena visitar, entre ellos el Teatro Malibran y la iglesia de Santa Maria dei Miracoli."
+      },
+      "nonVisitabile": true,
+      "zona": {
+        "it": "Contrada di San Canciano",
+        "en": "San Canciano contrada",
+        "fr": "Contrada di San Canciano",
+        "de": "Contrada San Canciano",
+        "es": "Contrada de San Canciano"
+      },
+      "posizione": {
+        "it": "L'area dei Biri, in contrada San Canciano. È un'area storica: il riferimento indica la zona e non un edificio certo.",
+        "en": "The Biri area, in the San Canciano contrada. It is a historical area: the reference indicates the zone, not a certain building.",
+        "fr": "L'area dei Biri, dans la contrada di San Canciano. Il s'agit d'une zone historique : le repère désigne le secteur, et non un bâtiment certain.",
+        "de": "Das Gebiet der Biri in der Contrada San Canciano. Es handelt sich um ein historisches Gebiet: Der Hinweis bezeichnet das Viertel, nicht ein sicher bestimmbares Gebäude.",
+        "es": "El área de los Biri, en la contrada de San Canciano. Es un área histórica: la referencia indica la zona, no un edificio concreto."
+      },
+      "storia": {
+        "it": "Si ritiene che Tiziano abbia vissuto in questa zona dal 1531 fino alla morte, avvenuta nel 1576. Nei dintorni si trovano alcuni luoghi da visitare, tra cui il Teatro Malibran e la chiesa di Santa Maria dei Miracoli.",
+        "en": "Tiziano is thought to have lived in this area from 1531 until his death in 1576. Nearby there are some places worth visiting, including the Teatro Malibran and the church of Santa Maria dei Miracoli.",
+        "fr": "On pense que Tiziano a vécu dans ce secteur de 1531 jusqu'à sa mort en 1576. Dans les environs se trouvent plusieurs lieux à visiter, dont le théâtre Malibran et l'église Santa Maria dei Miracoli.",
+        "de": "Es wird angenommen, dass Tizian von 1531 bis zu seinem Tod im Jahr 1576 in diesem Gebiet lebte. In der Umgebung gibt es einige sehenswerte Orte, darunter das Teatro Malibran und die Kirche Santa Maria dei Miracoli.",
+        "es": "Se cree que Tiziano vivió en esta zona desde 1531 hasta su muerte en 1576. En los alrededores hay varios lugares que vale la pena visitar, entre ellos el Teatro Malibran y la iglesia de Santa Maria dei Miracoli."
+      }
     }
   ]
 }
