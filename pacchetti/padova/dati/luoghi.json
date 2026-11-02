@@ -4357,6 +4357,22 @@
         "ridotto": 2
       },
       "sito": "https://www.santantonio.org"
+    },
+    {
+      "id": "casa-del-petrarca",
+      "nome": "Casa del Petrarca",
+      "categoria": "piazze",
+      "latitudine": 45.406376490160895,
+      "longitudine": 11.871435878706077,
+      "personaggio": "francesco-petrarca",
+      "immagine": {
+        "autore": "Foto propria"
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria"
+        }
+      ]
     }
   ]
 }

@@ -1060,7 +1060,8 @@
       "luoghi": [
         "duomo-di-padova",
         "chiesa-degli-eremitani",
-        "basilica-di-sant-antonio"
+        "basilica-di-sant-antonio",
+        "casa-del-petrarca"
       ],
       "luoghiNote": {
         "duomo-di-padova": {
@@ -1109,6 +1110,22 @@
             "fr": "Pétrarque était présent le 15 février 1350 lors de la translation des reliques de saint Antoine dans l'arche actuelle.",
             "de": "Petrarca war am 15. Februar 1350 bei der Überführung der Reliquien des heiligen Antonius in den heutigen Schrein anwesend.",
             "es": "Petrarca estuvo presente el 15 de febrero de 1350 en la traslación de las reliquias de san Antonio al arca actual."
+          }
+        },
+        "casa-del-petrarca": {
+          "tipo": {
+            "it": "Legame diretto – abitazione",
+            "en": "Direct link – residence",
+            "fr": "Lien direct – habitation",
+            "de": "Direkter Bezug – Wohnsitz",
+            "es": "Vínculo directo – vivienda"
+          },
+          "testo": {
+            "it": "La casa venne concessa al poeta dopo la nomina a canonico della Cattedrale. È ancora visibile in via Dietro Duomo 28 e conserva parte della struttura medievale. È uno dei luoghi più importanti per raccontare il rapporto tra Petrarca e Padova.",
+            "en": "The house was granted to the poet after his appointment as canon of the Cathedral. It is still visible at Via Dietro Duomo 28 and retains part of its medieval structure. It is one of the most important places for telling the relationship between Petrarch and Padua.",
+            "fr": "La maison fut concédée au poète après sa nomination comme chanoine de la cathédrale. Elle est toujours visible au n° 28 de la via Dietro Duomo et conserve une partie de sa structure médiévale. C'est l'un des lieux les plus importants pour raconter la relation entre Pétrarque et Padoue.",
+            "de": "Das Haus wurde dem Dichter nach seiner Ernennung zum Domherrn überlassen. Es ist noch heute in der Via Dietro Duomo 28 zu sehen und bewahrt einen Teil seiner mittelalterlichen Struktur. Es ist einer der wichtigsten Orte, um die Beziehung zwischen Petrarca und Padua zu erzählen.",
+            "es": "La casa fue concedida al poeta tras su nombramiento como canónigo de la catedral. Todavía es visible en la vía Dietro Duomo 28 y conserva parte de su estructura medieval. Es uno de los lugares más importantes para contar la relación entre Petrarca y Padua."
           }
         }
       },
