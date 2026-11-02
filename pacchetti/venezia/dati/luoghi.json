@@ -10064,7 +10064,33 @@
 "de": "Als Kind wurde Modesta ins Kloster Santa Marta gebracht, wo sie bis zum Alter von neun Jahren blieb. Hier zeigte sie früh ihre Klugheit und ihre Gedächtnisleistung. Das Kloster lag im Gebiet von Santa Marta in Dorsoduro. Der Klosterkomplex existiert in seiner ursprünglichen Form nicht mehr: Das Gelände lässt sich heute an der ehemaligen Kirche Santa Marta erkennen, die restauriert ist und für kulturelle Veranstaltungen und Ausstellungen genutzt wird.",
 "es": "De niña, Modesta fue llevada al monasterio de Santa Marta, donde permaneció hasta los nueve años. Aquí mostró pronto su inteligencia y su capacidad de memoria. El monasterio estaba en la zona de Santa Marta, en Dorsoduro. El complejo religioso ya no existe en su forma original: hoy se puede identificar la zona a través de la antigua iglesia de Santa Marta, restaurada y utilizada para actividades culturales y expositivas."
 },
-"personaggio": "moderata-fonte"
+"nonVisitabile": true,
+"zona": {
+"it": "Dorsoduro, area di Santa Marta",
+"en": "Dorsoduro, Santa Marta area",
+"fr": "Dorsoduro, secteur de Santa Marta",
+"de": "Dorsoduro, Gebiet Santa Marta",
+"es": "Dorsoduro, zona de Santa Marta"
+},
+"posizione": {
+"it": "Il monastero si trovava nell'area di Santa Marta, a Dorsoduro. Il complesso religioso non esiste più nella sua forma originaria.",
+"en": "The convent stood in the Santa Marta area, in Dorsoduro. The religious complex no longer exists in its original form.",
+"fr": "Le monastère se trouvait dans le secteur de Santa Marta, à Dorsoduro. Le complexe religieux n'existe plus sous sa forme originelle.",
+"de": "Das Kloster lag im Gebiet von Santa Marta in Dorsoduro. Der Klosterkomplex existiert in seiner ursprünglichen Form nicht mehr.",
+"es": "El monasterio estaba en la zona de Santa Marta, en Dorsoduro. El complejo religioso ya no existe en su forma original."
+},
+"storia": {
+"it": "Da bambina Modesta fu condotta nel monastero di Santa Marta, dove rimase fino all'età di nove anni. Qui manifestò precocemente la propria intelligenza e le proprie capacità di memoria. Oggi l'ex chiesa, restaurata, è utilizzata per attività culturali ed espositive.",
+"en": "As a child Modesta was taken to the convent of Santa Marta, where she stayed until the age of nine. Here she early showed her intelligence and her memory. Today the former church, restored, is used for cultural and exhibition activities.",
+"fr": "Enfant, Modesta fut conduite au monastère de Santa Marta, où elle resta jusqu'à l'âge de neuf ans. Elle y révéla précocement son intelligence et ses capacités de mémoire. Aujourd'hui, l'ancienne église, restaurée, accueille des activités culturelles et d'exposition.",
+"de": "Als Kind wurde Modesta ins Kloster Santa Marta gebracht, wo sie bis zum Alter von neun Jahren blieb. Hier zeigte sie früh ihre Klugheit und ihre Gedächtnisleistung. Heute dient die restaurierte ehemalige Kirche kulturellen Veranstaltungen und Ausstellungen.",
+"es": "De niña, Modesta fue llevada al monasterio de Santa Marta, donde permaneció hasta los nueve años. Aquí mostró pronto su inteligencia y su capacidad de memoria. Hoy la antigua iglesia, restaurada, acoge actividades culturales y expositivas."
+},
+"immagine": {
+"autore": "Didier Descouens",
+"licenza": "CC BY-SA 3.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=19868762"
+}
 },
 {
 "id": "chiesa-san-basso",
