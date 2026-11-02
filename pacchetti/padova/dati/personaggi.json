@@ -143,6 +143,133 @@
           }
         }
       }
+    },
+    {
+      "id": "galileo-galilei",
+      "nome": "Galileo Galilei",
+      "nascita": 1564,
+      "morte": 1642,
+      "professione": {
+        "it": "Fisico, astronomo, matematico e filosofo",
+        "en": "Physicist, astronomer, mathematician and philosopher",
+        "fr": "Physicien, astronome, mathématicien et philosophe",
+        "de": "Physiker, Astronom, Mathematiker und Philosoph",
+        "es": "Físico, astrónomo, matemático y filósofo"
+      },
+      "luogoNascita": {
+        "it": "Pisa",
+        "en": "Pisa",
+        "fr": "Pise",
+        "de": "Pisa",
+        "es": "Pisa"
+      },
+      "dataNascita": {
+        "it": "15 febbraio 1564",
+        "en": "15 February 1564",
+        "fr": "15 février 1564",
+        "de": "15. Februar 1564",
+        "es": "15 de febrero de 1564"
+      },
+      "luogoMorte": {
+        "it": "Arcetri (Firenze)",
+        "en": "Arcetri (Florence)",
+        "fr": "Arcetri (Florence)",
+        "de": "Arcetri (Florenz)",
+        "es": "Arcetri (Florencia)"
+      },
+      "dataMorte": {
+        "it": "8 gennaio 1642",
+        "en": "8 January 1642",
+        "fr": "8 janvier 1642",
+        "de": "8. Januar 1642",
+        "es": "8 de enero de 1642"
+      },
+      "ritratto": {
+        "autore": "Justus Sustermans",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Galileo Galilei nacque a Pisa nel 1564. Dopo aver iniziato gli studi di medicina, si dedicò soprattutto alla matematica e alla filosofia naturale, sviluppando un approccio alla conoscenza basato sull'osservazione e sulla sperimentazione. Nel 1592 arrivò a Padova, dove ottenne la cattedra di matematica all'Università. Vi rimase fino al 1610, periodo che ricordò come uno dei più felici della propria vita. Durante questi diciotto anni svolse importanti ricerche sul movimento dei corpi, sulla meccanica e sull'astronomia, costruì e perfezionò strumenti scientifici e realizzò osservazioni che avrebbero cambiato profondamente la conoscenza dell'universo. Nel 1609 perfezionò il cannocchiale e lo utilizzò per osservare il cielo. L'anno successivo pubblicò il Sidereus Nuncius, nel quale descrisse, tra le altre scoperte, la superficie irregolare della Luna e i quattro principali satelliti di Giove. Nel 1610 lasciò Padova per trasferirsi a Firenze, entrando al servizio della corte dei Medici. Le sue idee sul sistema copernicano lo portarono successivamente a scontrarsi con le autorità ecclesiastiche. Morì ad Arcetri nel 1642.",
+        "en": "Galileo Galilei was born in Pisa in 1564. After beginning medical studies, he devoted himself above all to mathematics and natural philosophy, developing an approach to knowledge based on observation and experiment. In 1592 he arrived in Padua, where he obtained the chair of mathematics at the University. He stayed there until 1610, a period he remembered as one of the happiest of his life. During these eighteen years he carried out important research on the motion of bodies, on mechanics and on astronomy, built and improved scientific instruments, and made observations that would profoundly change our knowledge of the universe. In 1609 he perfected the telescope and used it to observe the sky. The following year he published the Sidereus Nuncius, in which he described, among other discoveries, the irregular surface of the Moon and the four main satellites of Jupiter. In 1610 he left Padua for Florence, entering the service of the Medici court. His ideas on the Copernican system later brought him into conflict with ecclesiastical authorities. He died at Arcetri in 1642.",
+        "fr": "Galilée naquit à Pise en 1564. Après avoir commencé des études de médecine, il se consacra surtout aux mathématiques et à la philosophie naturelle, développant une approche de la connaissance fondée sur l'observation et l'expérimentation. En 1592, il arriva à Padoue, où il obtint la chaire de mathématiques de l'université. Il y resta jusqu'en 1610, période qu'il se rappela comme l'une des plus heureuses de sa vie. Durant ces dix-huit années, il mena d'importantes recherches sur le mouvement des corps, sur la mécanique et sur l'astronomie, construisit et perfectionna des instruments scientifiques et réalisa des observations qui allaient profondément transformer la connaissance de l'univers. En 1609, il perfectionna la lunette et l'utilisa pour observer le ciel. L'année suivante, il publia le Sidereus Nuncius, où il décrivit, parmi d'autres découvertes, la surface irrégulière de la Lune et les quatre principaux satellites de Jupiter. En 1610, il quitta Padoue pour Florence, entrant au service de la cour des Médicis. Ses idées sur le système copernicien le conduisirent par la suite à s'opposer aux autorités ecclésiastiques. Il mourut à Arcetri en 1642.",
+        "de": "Galileo Galilei wurde 1564 in Pisa geboren. Nach einem Beginn des Medizinstudiums widmete er sich vor allem der Mathematik und der Naturphilosophie und entwickelte einen auf Beobachtung und Experiment gestützten Zugang zur Erkenntnis. 1592 kam er nach Padua, wo er den Lehrstuhl für Mathematik an der Universität erhielt. Dort blieb er bis 1610, eine Zeit, die er als eine der glücklichsten seines Lebens in Erinnerung behielt. In diesen achtzehn Jahren betrieb er wichtige Forschungen zur Bewegung der Körper, zur Mechanik und zur Astronomie, baute wissenschaftliche Instrumente und verbesserte sie und machte Beobachtungen, die unsere Kenntnis des Universums tiefgreifend verändern sollten. 1609 vervollkommnete er das Fernrohr und nutzte es, um den Himmel zu beobachten. Im folgenden Jahr veröffentlichte er den Sidereus Nuncius, in dem er unter anderem die unebene Oberfläche des Mondes und die vier großen Monde des Jupiter beschrieb. 1610 verließ er Padua und ging nach Florenz, wo er in den Dienst des Hofes der Medici trat. Seine Ideen zum kopernikanischen System brachten ihn später in Konflikt mit den kirchlichen Autoritäten. Er starb 1642 in Arcetri.",
+        "es": "Galileo Galilei nació en Pisa en 1564. Tras iniciar estudios de medicina, se dedicó sobre todo a las matemáticas y a la filosofía natural, desarrollando un enfoque del conocimiento basado en la observación y la experimentación. En 1592 llegó a Padua, donde obtuvo la cátedra de matemáticas de la universidad. Permaneció allí hasta 1610, un periodo que recordó como uno de los más felices de su vida. Durante esos dieciocho años llevó a cabo importantes investigaciones sobre el movimiento de los cuerpos, la mecánica y la astronomía, construyó y perfeccionó instrumentos científicos e hizo observaciones que cambiarían profundamente el conocimiento del universo. En 1609 perfeccionó el telescopio y lo utilizó para observar el cielo. Al año siguiente publicó el Sidereus Nuncius, en el que describió, entre otros descubrimientos, la superficie irregular de la Luna y los cuatro principales satélites de Júpiter. En 1610 dejó Padua para trasladarse a Florencia, entrando al servicio de la corte de los Médici. Sus ideas sobre el sistema copernicano le llevaron después a enfrentarse con las autoridades eclesiásticas. Murió en Arcetri en 1642."
+      },
+      "curiosita": {
+        "it": [
+          "Gli anni migliori: Galileo definì il periodo trascorso a Padova come i «diciotto anni migliori di tutta la mia età», ricordando la libertà di ricerca e l'ambiente intellettuale della città.",
+          "Un laboratorio in casa: durante il soggiorno padovano organizzò un laboratorio nella propria abitazione e si avvalse della collaborazione di un artigiano per la costruzione di strumenti.",
+          "Il cannocchiale: non inventò il primo cannocchiale, ma ne perfezionò il funzionamento e lo trasformò in uno strumento fondamentale per le osservazioni astronomiche.",
+          "I satelliti di Giove: nel gennaio 1610 osservò quattro piccoli corpi celesti che ruotavano attorno a Giove. Oggi sono conosciuti come satelliti galileiani: Io, Europa, Ganimede e Callisto.",
+          "Una cattedra controversa: a Palazzo del Bo è conservata una cattedra tradizionalmente associata a Galileo, ma non è certo che fosse utilizzata esclusivamente da lui."
+        ],
+        "en": [
+          "The best years: Galileo described the period spent in Padua as the «eighteen best years of my whole life», remembering the freedom of inquiry and the intellectual atmosphere of the city.",
+          "A workshop at home: during his stay in Padua he set up a workshop in his own house and relied on an artisan's help to build instruments.",
+          "The telescope: he did not invent the first telescope, but he improved its performance and turned it into a fundamental tool for astronomical observation.",
+          "Jupiter's moons: in January 1610 he observed four small celestial bodies orbiting Jupiter. They are known today as the Galilean moons: Io, Europa, Ganymede and Callisto.",
+          "A controversial chair: Palazzo del Bo keeps a chair traditionally associated with Galileo, but it is not certain that it was used exclusively by him."
+        ],
+        "fr": [
+          "Les meilleures années : Galilée définit la période passée à Padoue comme les « dix-huit meilleures années de toute ma vie », évoquant la liberté de recherche et le climat intellectuel de la ville.",
+          "Un laboratoire à la maison : pendant son séjour padouan, il installa un laboratoire dans sa propre demeure et s'appuya sur un artisan pour construire des instruments.",
+          "La lunette : il n'inventa pas la première lunette, mais en améliora le fonctionnement et en fit un instrument fondamental pour les observations astronomiques.",
+          "Les satellites de Jupiter : en janvier 1610, il observa quatre petits corps célestes qui tournaient autour de Jupiter. On les appelle aujourd'hui les satellites galiléens : Io, Europe, Ganymède et Callisto.",
+          "Une chaire controversée : au Palazzo del Bo est conservée une chaire traditionnellement associée à Galilée, mais rien ne prouve qu'elle ait été utilisée exclusivement par lui."
+        ],
+        "de": [
+          "Die besten Jahre: Galilei bezeichnete die Zeit in Padua als «die achtzehn besten Jahre meines ganzen Lebens» und erinnerte sich an die Freiheit der Forschung und das geistige Klima der Stadt.",
+          "Ein Labor zu Hause: Während seines Aufenthalts in Padua richtete er in seinem Haus ein Labor ein und ließ sich bei der Herstellung der Instrumente von einem Handwerker helfen.",
+          "Das Fernrohr: Er erfand das erste Fernrohr nicht, verbesserte aber seine Leistung und machte es zu einem grundlegenden Werkzeug der astronomischen Beobachtung.",
+          "Die Jupitermonde: Im Januar 1610 beobachtete er vier kleine Himmelskörper, die den Jupiter umkreisten. Heute sind sie als galileische Monde bekannt: Io, Europa, Ganymed und Kallisto.",
+          "Ein umstrittener Lehrstuhl: Im Palazzo del Bo wird ein Lehrstuhl aufbewahrt, der traditionell mit Galilei in Verbindung gebracht wird, doch ist nicht sicher, dass nur er ihn benutzte."
+        ],
+        "es": [
+          "Los mejores años: Galileo definió el periodo pasado en Padua como «los dieciocho mejores años de toda mi vida», recordando la libertad de investigación y el ambiente intelectual de la ciudad.",
+          "Un laboratorio en casa: durante su estancia en Padua organizó un laboratorio en su propia casa y contó con la colaboración de un artesano para construir instrumentos.",
+          "El telescopio: no inventó el primer telescopio, pero mejoró su funcionamiento y lo convirtió en un instrumento fundamental para las observaciones astronómicas.",
+          "Los satélites de Júpiter: en enero de 1610 observó cuatro pequeños cuerpos celestes que giraban alrededor de Júpiter. Hoy se conocen como satélites galileanos: Ío, Europa, Ganimedes y Calisto.",
+          "Una cátedra controvertida: en el Palazzo del Bo se conserva una cátedra tradicionalmente asociada a Galileo, pero no es seguro que la usara exclusivamente él."
+        ]
+      },
+      "luoghi": [
+        "palazzo-del-bo",
+        "chiesa-di-santa-sofia"
+      ],
+      "luoghiNote": {
+        "palazzo-del-bo": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui Galileo insegnò matematica dal 1592 al 1610. Nella Sala dei Quaranta è conservata una cattedra tradizionalmente attribuita allo scienziato, anche se non è dimostrato che fosse la sua postazione personale.",
+            "en": "Galileo taught mathematics here from 1592 to 1610. In the Sala dei Quaranta is a chair traditionally attributed to the scientist, although it has not been proven that it was his personal seat.",
+            "fr": "Galilée y enseigna les mathématiques de 1592 à 1610. Dans la Sala dei Quaranta se trouve une chaire traditionnellement attribuée au savant, bien qu'il ne soit pas prouvé qu'il s'agisse de son siège personnel.",
+            "de": "Hier lehrte Galilei von 1592 bis 1610 Mathematik. Im Sala dei Quaranta wird ein Lehrstuhl aufbewahrt, der traditionell dem Wissenschaftler zugeschrieben wird, auch wenn nicht belegt ist, dass es sein persönlicher Platz war.",
+            "es": "Aquí enseñó Galileo matemáticas desde 1592 hasta 1610. En la Sala dei Quaranta se conserva una cátedra atribuida tradicionalmente al científico, aunque no está demostrado que fuera su puesto personal."
+          }
+        },
+        "chiesa-di-santa-sofia": {
+          "tipo": {
+            "it": "Legame documentario",
+            "en": "Documentary link",
+            "fr": "Lien documentaire",
+            "de": "Dokumentarischer Bezug",
+            "es": "Vínculo documental"
+          },
+          "testo": {
+            "it": "Conserva il fonte battesimale proveniente dalla chiesa di Santa Caterina, dove fu battezzato il figlio di Galileo. È presente anche una copia del certificato di battesimo.",
+            "en": "It keeps the baptismal font from the church of Santa Caterina, where Galileo's son was baptised. A copy of the baptism certificate is also on display.",
+            "fr": "Elle conserve les fonts baptismaux provenant de l'église de Santa Caterina, où fut baptisé le fils de Galilée. Une copie du certificat de baptême y est également présente.",
+            "de": "Hier befindet sich das Taufbecken aus der Kirche Santa Caterina, wo Galileis Sohn getauft wurde. Außerdem ist eine Kopie der Taufurkunde zu sehen.",
+            "es": "Conserva la pila bautismal procedente de la iglesia de Santa Caterina, donde fue bautizado el hijo de Galileo. También se conserva una copia del certificado de bautismo."
+          }
+        }
+      }
     }
   ]
 }
