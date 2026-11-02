@@ -91,7 +91,8 @@
         "sant-antonio-di-padova",
         "giotto-di-bondone",
         "elena-cornaro-piscopia",
-        "donatello"
+        "donatello",
+        "francesco-petrarca"
       ],
       "sito": "https://www.santantonio.org/it/basilica",
       "wikipedia": {
@@ -1202,7 +1203,10 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "elena-cornaro-piscopia"
+      "personaggio": [
+        "elena-cornaro-piscopia",
+        "francesco-petrarca"
+      ]
     },
     {
       "id": "chiesa-degli-eremitani",
@@ -1278,7 +1282,10 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "andrea-mantegna"
+      "personaggio": [
+        "andrea-mantegna",
+        "francesco-petrarca"
+      ]
     },
     {
       "id": "chiesa-di-santa-sofia",
