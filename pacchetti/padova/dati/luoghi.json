@@ -4404,8 +4404,12 @@
       },
       "orari": [
         {
-          "giorni": "mar-dom",
+          "giorni": "lun-sab",
           "ore": "10:00–12:30"
+        },
+        {
+          "giorni": "dom",
+          "ore": "10:00–12:00"
         }
       ],
       "biglietto": {
