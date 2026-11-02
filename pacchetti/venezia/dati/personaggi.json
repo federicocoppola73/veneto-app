@@ -494,11 +494,145 @@
         ]
       },
       "luoghi": [
-        "san-rocco",
-        "madonna-orto",
         "casa-tintoretto",
-        "palazzo-ducale"
-      ]
+        "madonna-orto",
+        "san-rocco",
+        "palazzo-ducale",
+        "accademia",
+        "san-giorgio-maggiore",
+        "chiesa-san-polo",
+        "chiesa-san-trovaso"
+      ],
+      "luoghiNote": {
+        "casa-tintoretto": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Nel 1574 il pittore acquistò un palazzetto alle Fondamenta dei Mori, nel sestiere di Cannaregio, dove trasferì la famiglia e la bottega. Qui visse e lavorò fino alla morte. L'edificio è tradizionalmente identificato come la sua abitazione ed è riconoscibile anche per la vicinanza alla statua del cosiddetto «Moro» sulla facciata.",
+            "en": "In 1574 the painter bought a small palace on the Fondamenta dei Mori, in the Cannaregio district, where he moved his family and workshop. He lived and worked here until his death. The building is traditionally identified as his home and is recognisable also for its proximity to the so-called 'Moor' statue on the façade.",
+            "fr": "En 1574, le peintre acheta un petit palais sur les Fondamenta dei Mori, dans le sestiere de Cannaregio, où il installa sa famille et son atelier. Il y vécut et y travailla jusqu'à sa mort. Le bâtiment est traditionnellement identifié comme sa demeure et se reconnaît aussi à la proximité de la statue du « Maure » sur la façade.",
+            "de": "1574 kaufte der Maler einen kleinen Palast an den Fondamenta dei Mori im Sestiere Cannaregio, wohin er seine Familie und seine Werkstatt brachte. Hier lebte und arbeitete er bis zu seinem Tod. Das Gebäude gilt traditionell als sein Wohnhaus und ist auch an der Nähe zur sogenannten Mohrenstatue an der Fassade zu erkennen.",
+            "es": "En 1574 el pintor compró un palacete en las Fondamenta dei Mori, en el sestiere de Cannaregio, donde trasladó a su familia y su taller. Vivió y trabajó aquí hasta su muerte. El edificio se identifica tradicionalmente como su casa y se reconoce también por su cercanía a la estatua del llamado «Moro» en la fachada."
+          }
+        },
+        "madonna-orto": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "È uno dei luoghi più importanti per conoscere Tintoretto. La chiesa conserva alcune delle sue opere più significative, tra cui il Giudizio Universale, la Fabbricazione del vitello d'oro e la Presentazione della Vergine al Tempio. Qui si trova anche la sua tomba, nella cappella absidale.",
+            "en": "It is one of the most important places for getting to know Tintoretto. The church preserves some of his most significant works, including the Last Judgment, the Making of the Golden Calf and the Presentation of the Virgin in the Temple. His tomb is also here, in the apse chapel.",
+            "fr": "C'est l'un des lieux les plus importants pour connaître Tintoret. L'église conserve certaines de ses œuvres les plus significatives, dont le Jugement dernier, la Fabrication du veau d'or et la Présentation de la Vierge au Temple. On y trouve aussi sa tombe, dans la chapelle absidale.",
+            "de": "Es ist einer der wichtigsten Orte, um Tintoretto kennenzulernen. Die Kirche bewahrt einige seiner bedeutendsten Werke, darunter das Jüngste Gericht, die Herstellung des goldenen Kalbes und die Darstellung der Jungfrau im Tempel. Hier befindet sich auch sein Grab, in der Apsiskapelle.",
+            "es": "Es uno de los lugares más importantes para conocer a Tintoretto. La iglesia conserva algunas de sus obras más significativas, entre ellas el Juicio Final, la Fabricación del becerro de oro y la Presentación de la Virgen en el Templo. Aquí se encuentra también su tumba, en la capilla absidal."
+          }
+        },
+        "san-rocco": {
+          "tipo": {
+            "it": "Legame artistico",
+            "en": "Artistic link",
+            "fr": "Lien artistique",
+            "de": "Künstlerischer Bezug",
+            "es": "Vínculo artístico"
+          },
+          "testo": {
+            "it": "È probabilmente il luogo più rappresentativo della sua attività artistica. Tintoretto vi lavorò per oltre vent'anni, realizzando decine di grandi tele distribuite nelle diverse sale. Tra le più celebri si ricordano la Crocifissione, Cristo davanti a Pilato e i cicli dedicati alla vita di Cristo e della Vergine.",
+            "en": "It is probably the place that best represents his artistic activity. Tintoretto worked here for more than twenty years, producing dozens of large canvases spread across the different halls. Among the most famous are the Crucifixion, Christ before Pilate and the cycles devoted to the lives of Christ and the Virgin.",
+            "fr": "C'est sans doute le lieu le plus représentatif de son activité artistique. Tintoret y travailla pendant plus de vingt ans, réalisant des dizaines de grandes toiles réparties dans les différentes salles. Parmi les plus célèbres figurent la Crucifixion, le Christ devant Pilate et les cycles consacrés à la vie du Christ et de la Vierge.",
+            "de": "Dies ist wohl der Ort, der seine künstlerische Tätigkeit am besten verkörpert. Tintoretto arbeitete hier über zwanzig Jahre und schuf Dutzende großer Leinwände, verteilt auf die verschiedenen Säle. Zu den berühmtesten gehören die Kreuzigung, Christus vor Pilatus und die Zyklen zum Leben Christi und der Jungfrau.",
+            "es": "Es probablemente el lugar más representativo de su actividad artística. Tintoretto trabajó aquí durante más de veinte años, realizando decenas de grandes lienzos repartidos por las distintas salas. Entre los más célebres se recuerdan la Crucifixión, Cristo ante Pilato y los ciclos dedicados a la vida de Cristo y de la Virgen."
+          }
+        },
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Legame artistico",
+            "en": "Artistic link",
+            "fr": "Lien artistique",
+            "de": "Künstlerischer Bezug",
+            "es": "Vínculo artístico"
+          },
+          "testo": {
+            "it": "Tintoretto contribuì alla decorazione pittorica del Palazzo Ducale, realizzando importanti opere per le sale istituzionali. Il suo capolavoro più monumentale è il Paradiso, una gigantesca composizione che domina la Sala del Maggior Consiglio. Fu iniziata nel 1588 e realizzata anche con la collaborazione della bottega e dei figli.",
+            "en": "Tintoretto contributed to the painted decoration of the Doge's Palace, producing important works for the institutional halls. His most monumental masterpiece is the Paradise, a huge composition that dominates the Great Council Hall. It was begun in 1588 and also painted with the help of his workshop and sons.",
+            "fr": "Tintoret contribua à la décoration peinte du palais des Doges, réalisant d'importantes œuvres pour les salles institutionnelles. Son chef-d'œuvre le plus monumental est le Paradis, une immense composition qui domine la salle du Grand Conseil. Commencé en 1588, il fut réalisé avec la collaboration de son atelier et de ses fils.",
+            "de": "Tintoretto wirkte an der malerischen Ausstattung des Dogenpalastes mit und schuf bedeutende Werke für die Repräsentationssäle. Sein monumentalstes Meisterwerk ist das Paradies, eine riesige Komposition, die den Saal des Großen Rats beherrscht. Es wurde 1588 begonnen und auch mit Unterstützung seiner Werkstatt und seiner Söhne ausgeführt.",
+            "es": "Tintoretto colaboró en la decoración pictórica del Palacio Ducal, realizando obras importantes para las salas institucionales. Su obra maestra más monumental es el Paraíso, una gigantesca composición que domina la Sala del Gran Consejo. Se inició en 1588 y se realizó también con la colaboración de su taller y de sus hijos."
+          }
+        },
+        "accademia": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Artwork preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Qui è conservato il celebre Miracolo dello schiavo del 1548, uno dei dipinti che contribuirono a far conoscere Tintoretto in tutta Venezia. L'opera era stata commissionata dalla Scuola Grande di San Marco e rappresenta un episodio della vita di San Marco.",
+            "en": "Here is preserved the famous Miracle of the Slave of 1548, one of the paintings that helped make Tintoretto known throughout Venice. The work was commissioned by the Scuola Grande di San Marco and depicts an episode from the life of Saint Mark.",
+            "fr": "On y conserve le célèbre Miracle de l'esclave de 1548, l'un des tableaux qui firent connaître Tintoret dans toute Venise. L'œuvre fut commandée par la Scuola Grande di San Marco et représente un épisode de la vie de saint Marc.",
+            "de": "Hier wird das berühmte Wunder des Sklaven von 1548 aufbewahrt, eines der Gemälde, die Tintoretto in ganz Venedig bekannt machten. Das Werk wurde von der Scuola Grande di San Marco in Auftrag gegeben und zeigt eine Episode aus dem Leben des heiligen Markus.",
+            "es": "Aquí se conserva el célebre Milagro del esclavo de 1548, uno de los cuadros que dieron a conocer a Tintoretto en toda Venecia. La obra fue encargada por la Scuola Grande di San Marco y representa un episodio de la vida de san Marcos."
+          }
+        },
+        "san-giorgio-maggiore": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Artwork preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "La basilica conserva due importanti opere della fase finale della sua carriera: La caduta della manna e L'Ultima Cena, entrambe realizzate nel 1594. Quest'ultima è particolarmente interessante per la composizione dinamica e per il suggestivo uso della luce.",
+            "en": "The basilica preserves two important works from the final phase of his career: The Fall of the Manna and The Last Supper, both painted in 1594. The latter is particularly interesting for its dynamic composition and its striking use of light.",
+            "fr": "La basilique conserve deux œuvres importantes de la dernière phase de sa carrière : La Chute de la manne et La Cène, toutes deux réalisées en 1594. Cette dernière est particulièrement intéressante pour sa composition dynamique et son usage saisissant de la lumière.",
+            "de": "Die Basilika bewahrt zwei bedeutende Werke aus der letzten Phase seiner Laufbahn: Der Fall des Manna und Das Abendmahl, beide 1594 entstanden. Das Letztere ist besonders interessant durch seine dynamische Komposition und den eindrucksvollen Einsatz des Lichts.",
+            "es": "La basílica conserva dos obras importantes de la fase final de su carrera: La caída del maná y La Última Cena, ambas realizadas en 1594. Esta última es especialmente interesante por su composición dinámica y su sugestivo uso de la luz."
+          }
+        },
+        "chiesa-san-polo": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Artwork preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "La chiesa conserva una Ultima Cena di Tintoretto, realizzata nella seconda metà del Cinquecento. È un altro esempio della sua capacità di reinterpretare uno stesso soggetto religioso con soluzioni compositive e prospettiche differenti.",
+            "en": "The church holds a Last Supper by Tintoretto, painted in the second half of the sixteenth century. It is another example of his ability to reinterpret the same religious subject with different compositional and perspective solutions.",
+            "fr": "L'église conserve une Cène de Tintoret, réalisée dans la seconde moitié du XVIe siècle. C'est un autre exemple de sa capacité à réinterpréter un même sujet religieux par des solutions de composition et de perspective différentes.",
+            "de": "Die Kirche besitzt ein Abendmahl von Tintoretto, das in der zweiten Hälfte des 16. Jahrhunderts entstand. Es ist ein weiteres Beispiel für seine Fähigkeit, ein und dasselbe religiöse Thema mit unterschiedlichen kompositorischen und perspektivischen Lösungen neu zu deuten.",
+            "es": "La iglesia conserva una Última Cena de Tintoretto, realizada en la segunda mitad del siglo XVI. Es otro ejemplo de su capacidad para reinterpretar un mismo tema religioso con soluciones compositivas y perspectivas diferentes."
+          }
+        },
+        "chiesa-san-trovaso": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Artwork preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Qui è conservata Le tentazioni di Sant'Antonio, un'opera del 1577 attribuita a Tintoretto. Il dipinto racconta le prove affrontate dal santo attraverso una scena movimentata, con figure e dettagli che esprimono il caratteristico linguaggio drammatico del pittore.",
+            "en": "Here is preserved The Temptations of Saint Anthony, a work of 1577 attributed to Tintoretto. The painting tells of the trials faced by the saint through a lively scene, with figures and details that express the painter's characteristic dramatic language.",
+            "fr": "On y conserve Les Tentations de saint Antoine, une œuvre de 1577 attribuée à Tintoret. Le tableau raconte les épreuves du saint à travers une scène animée, avec des figures et des détails qui expriment le langage dramatique caractéristique du peintre.",
+            "de": "Hier wird Die Versuchung des heiligen Antonius aufbewahrt, ein 1577 entstandenes Werk, das Tintoretto zugeschrieben wird. Das Gemälde erzählt die Prüfungen des Heiligen in einer bewegten Szene, mit Figuren und Details, die die dramatische Sprache des Malers ausdrücken.",
+            "es": "Aquí se conserva Las tentaciones de san Antonio, obra de 1577 atribuida a Tintoretto. El cuadro narra las pruebas del santo en una escena animada, con figuras y detalles que expresan el característico lenguaje dramático del pintor."
+          }
+        }
+      }
     }
   ]
 }

@@ -13,6 +13,7 @@ import { GRIGIO_CUORE, ROSSO_CUORE, VERDE_VISITATO } from './Preferiti';
 import FermataVaporetto, { TarghettaLinea } from './FermataVaporetto';
 import CondividiLuogo from './CondividiLuogo';
 import LoSapeviChe from './LoSapeviChe';
+import { personaggi } from '../personaggi';
 import AguzzaLaVista from './AguzzaLaVista';
 import { domandePerLuogo } from '../aguzza';
 import IconaCondividi from './IconaCondividi';
@@ -42,6 +43,9 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   useEffect(() => setLoSapevi(false), [luogo?.id]);
   // domande "Aguzza la vista" del luogo aperto
   const [aguzza, setAguzza] = useState(false);
+  const [scegliPersonaggio, setScegliPersonaggio] = useState(false);
+  // un luogo può avere uno o più personaggi collegati
+  const personaggiLuogo = Array.isArray(luogo.personaggio) ? luogo.personaggio : luogo.personaggio ? [luogo.personaggio] : [];
   useEffect(() => setAguzza(false), [luogo?.id]);
   if (!luogo) return null;
 
@@ -173,7 +177,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
 
           <Text style={styles.descrizione}>{descrizione}</Text>
 
-          {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length || (luogo.personaggio && onPersonaggio) ? (
+          {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length || (personaggiLuogo.length && onPersonaggio) ? (
             <View style={styles.riga}>
               {luogo.lo_sapevi_che?.length ? (
                 <Pressable
@@ -193,9 +197,9 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
                   <Text style={styles.testoLoSapevi}>👁️ {t('aguzza')}</Text>
                 </Pressable>
               ) : null}
-              {luogo.personaggio && onPersonaggio ? (
+              {personaggiLuogo.length && onPersonaggio ? (
                 <Pressable
-                  onPress={() => onPersonaggio(luogo.personaggio)}
+                  onPress={() => (personaggiLuogo.length > 1 ? setScegliPersonaggio(true) : onPersonaggio(personaggiLuogo[0]))}
                   style={({ pressed }) => [styles.loSapevi, pressed && { opacity: 0.85 }]}
                   accessibilityRole="button"
                 >
@@ -281,6 +285,30 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
       </View>
       {condividi && <CondividiLuogo luogo={luogo} lingua={lingua} t={t} onChiudi={() => setCondividi(false)} />}
       {loSapevi && <LoSapeviChe voci={luogo.lo_sapevi_che} lingua={lingua} t={t} onChiudi={() => setLoSapevi(false)} />}
+      {scegliPersonaggio && (
+        <Modal visible transparent animationType="fade" onRequestClose={() => setScegliPersonaggio(false)}>
+          <Pressable style={styles.sceltaSfondo} onPress={() => setScegliPersonaggio(false)} />
+          <View style={styles.sceltaBox}>
+            <Text style={styles.sceltaTitolo}>{t('pers_titolo')}</Text>
+            {personaggiLuogo.map((id) => {
+              const nome = (personaggi().find((x) => x.id === id) || {}).nome || id;
+              return (
+                <Pressable
+                  key={id}
+                  style={styles.sceltaVoce}
+                  onPress={() => {
+                    setScegliPersonaggio(false);
+                    onPersonaggio(id);
+                  }}
+                  accessibilityRole="button"
+                >
+                  <Text style={styles.sceltaVoceTesto}>👤 {nome}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+        </Modal>
+      )}
       {aguzza && <AguzzaLaVista domande={domandePerLuogo(luogo.id)} lingua={lingua} t={t} onChiudi={() => setAguzza(false)} />}
     </Modal>
   );
@@ -347,6 +375,11 @@ function FermateLuogo({ voce, vicine, t, onApri }) {
 }
 
 const styles = StyleSheet.create({
+  sceltaSfondo: { flex: 1, backgroundColor: 'rgba(15,23,42,0.35)' },
+  sceltaBox: { position: 'absolute', left: 30, right: 30, top: '35%', backgroundColor: '#fbf7f0', borderRadius: 18, padding: 18, gap: 10 },
+  sceltaTitolo: { fontSize: 16, fontWeight: '800', color: '#0f3d5e' },
+  sceltaVoce: { backgroundColor: '#fff', borderRadius: 14, padding: 14 },
+  sceltaVoceTesto: { fontSize: 15, fontWeight: '700', color: '#0f172a' },
   sfondo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)' },
   scheda: {
     position: 'absolute',

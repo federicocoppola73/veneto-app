@@ -102,9 +102,20 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
           {luoghi.length ? (
             <>
               <Text style={styles.sottotitolo}>{t('pers_luoghi')}</Text>
-              {luoghi.map((id) => (
-                <LuogoRiga key={id} luogo={luoghiPerId[id]} onPress={() => onApriLuogo(id)} />
-              ))}
+              {luoghi.map((id) => {
+                const nota = p.luoghiNote?.[id];
+                return (
+                  <View key={id} style={styles.bloccoLuogo}>
+                    {nota ? (
+                      <View style={styles.tipo}>
+                        <Text style={styles.tipoTesto}>{testoLocalizzato(nota.tipo, lingua)}</Text>
+                      </View>
+                    ) : null}
+                    <LuogoRiga luogo={luoghiPerId[id]} onPress={() => onApriLuogo(id)} />
+                    {nota ? <Text style={styles.notaLuogo}>{testoLocalizzato(nota.testo, lingua)}</Text> : null}
+                  </View>
+                );
+              })}
             </>
           ) : null}
 
@@ -170,6 +181,10 @@ const styles = StyleSheet.create({
   nomeLuogo: { fontSize: 15, fontWeight: '700', color: '#0f172a' },
   sestiere: { fontSize: 12, color: '#475569', marginTop: 2 },
   freccia: { fontSize: 22, color: '#94a3b8' },
+  bloccoLuogo: { gap: 6, marginBottom: 4 },
+  tipo: { alignSelf: 'flex-start', backgroundColor: '#ecfdf5', borderWidth: 1, borderColor: '#86efac', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
+  tipoTesto: { fontSize: 12, fontWeight: '800', color: '#166534' },
+  notaLuogo: { fontSize: 13, lineHeight: 19, color: '#334155', paddingHorizontal: 2 },
   pulsante: { alignSelf: 'stretch', alignItems: 'center', backgroundColor: '#0f3d5e', borderRadius: 14, paddingVertical: 14, marginTop: 8 },
   pulsanteTesto: { fontSize: 15, fontWeight: '800', color: '#fff' },
 });

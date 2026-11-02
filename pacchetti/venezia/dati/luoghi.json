@@ -2617,7 +2617,10 @@
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
 },
-"personaggio": "giacomo-casanova"
+"personaggio": [
+"giacomo-casanova",
+"jacopo-tintoretto"
+]
 },
 {
 "id": "accademia",
@@ -9908,6 +9911,58 @@
 "fr": "Giacomo Casanova naquit à Venise, et une plaque dans la Calle Malipiero, l'ancienne Calle della Commedia, rappelle cet événement. C'est le lieu traditionnellement indiqué comme celui de sa naissance. Il faut toutefois préciser que la maison exacte fait débat parmi les chercheurs : certaines recherches ont également proposé la Calle delle Muneghe.",
 "de": "Giacomo Casanova wurde in Venedig geboren, und eine Gedenktafel in der Calle Malipiero, der früheren Calle della Commedia, erinnert an das Ereignis. Es ist der Ort, der traditionell als sein Geburtsort gilt. Allerdings ist das genaue Haus unter Gelehrten umstritten: Einige Untersuchungen haben auch die Calle delle Muneghe vorgeschlagen.",
 "es": "Giacomo Casanova nació en Venecia, y una placa en la Calle Malipiero, antigua Calle della Commedia, recuerda el acontecimiento. Es el lugar tradicionalmente señalado como su lugar de nacimiento. No obstante, conviene precisar que la casa exacta es objeto de debate entre los estudiosos: algunas investigaciones han propuesto también la Calle delle Muneghe."
+}
+},
+{
+"id": "chiesa-san-polo",
+"nome": "Chiesa di San Polo",
+"categoria": "chiese",
+"latitudine": 45.437056,
+"longitudine": 12.329722,
+"sestiere": "San Polo",
+"fermata": "San Tomà",
+"sito": "https://www.chorusvenezia.org",
+"orari": [
+{
+"giorni": "lun-sab",
+"ore": "10:30–16:30"
+}
+],
+"chiuso": [
+"dom"
+],
+"descrizione": {
+"it": "La chiesa conserva una Ultima Cena di Tintoretto, realizzata nella seconda metà del Cinquecento. È un altro esempio della sua capacità di reinterpretare uno stesso soggetto religioso con soluzioni compositive e prospettiche differenti.",
+"en": "The church holds a Last Supper by Tintoretto, painted in the second half of the sixteenth century. It is another example of his ability to reinterpret the same religious subject with different compositional and perspective solutions.",
+"fr": "L'église conserve une Cène de Tintoret, réalisée dans la seconde moitié du XVIe siècle. C'est un autre exemple de sa capacité à réinterpréter un même sujet religieux par des solutions de composition et de perspective différentes.",
+"de": "Die Kirche besitzt ein Abendmahl von Tintoretto, das in der zweiten Hälfte des 16. Jahrhunderts entstand. Es ist ein weiteres Beispiel für seine Fähigkeit, ein und dasselbe religiöse Thema mit unterschiedlichen kompositorischen und perspektivischen Lösungen neu zu deuten.",
+"es": "La iglesia conserva una Última Cena de Tintoretto, realizada en la segunda mitad del siglo XVI. Es otro ejemplo de su capacidad para reinterpretar un mismo tema religioso con soluciones compositivas y perspectivas diferentes."
+}
+},
+{
+"id": "chiesa-san-trovaso",
+"nome": "Chiesa di San Trovaso",
+"categoria": "chiese",
+"latitudine": 45.4308,
+"longitudine": 12.326,
+"sestiere": "Dorsoduro",
+"fermata": "Zattere",
+"sito": "https://www.chorusvenezia.org",
+"orari": [
+{
+"giorni": "lun-sab",
+"ore": "14:30–17:30"
+}
+],
+"chiuso": [
+"dom"
+],
+"descrizione": {
+"it": "Qui è conservata Le tentazioni di Sant'Antonio, un'opera del 1577 attribuita a Tintoretto. Il dipinto racconta le prove affrontate dal santo attraverso una scena movimentata, con figure e dettagli che esprimono il caratteristico linguaggio drammatico del pittore.",
+"en": "Here is preserved The Temptations of Saint Anthony, a work of 1577 attributed to Tintoretto. The painting tells of the trials faced by the saint through a lively scene, with figures and details that express the painter's characteristic dramatic language.",
+"fr": "On y conserve Les Tentations de saint Antoine, une œuvre de 1577 attribuée à Tintoret. Le tableau raconte les épreuves du saint à travers une scène animée, avec des figures et des détails qui expriment le langage dramatique caractéristique du peintre.",
+"de": "Hier wird Die Versuchung des heiligen Antonius aufbewahrt, ein 1577 entstandenes Werk, das Tintoretto zugeschrieben wird. Das Gemälde erzählt die Prüfungen des Heiligen in einer bewegten Szene, mit Figuren und Details, die die dramatische Sprache des Malers ausdrücken.",
+"es": "Aquí se conserva Las tentaciones de san Antonio, obra de 1577 atribuida a Tintoretto. El cuadro narra las pruebas del santo en una escena animada, con figuras y detalles que expresan el característico lenguaje dramático del pintor."
 }
 }
 ]
