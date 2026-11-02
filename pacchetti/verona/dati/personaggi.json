@@ -139,6 +139,129 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "cangrande-i-della-scala",
+      "nome": "Cangrande I della Scala",
+      "nascita": 1291,
+      "morte": 1329,
+      "professione": {
+        "it": "Signore di Verona e condottiero",
+        "en": "Lord of Verona and military leader",
+        "fr": "Seigneur de Vérone et chef militaire",
+        "de": "Herr von Verona und Heerführer",
+        "es": "Señor de Verona y condotiero"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "1291",
+        "en": "1291",
+        "fr": "1291",
+        "de": "1291",
+        "es": "1291"
+      },
+      "luogoMorte": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataMorte": {
+        "it": "22 luglio 1329",
+        "en": "22 July 1329",
+        "fr": "22 juillet 1329",
+        "de": "22. Juli 1329",
+        "es": "22 de julio de 1329"
+      },
+      "ritratto": {
+        "autore": "Borde Carlo",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Can Francesco della Scala, conosciuto come Cangrande I, fu uno dei più importanti signori della dinastia scaligera. Associato al governo della città nel 1308, divenne signore unico di Verona nel 1311. Durante il suo dominio estese il potere scaligero su numerose città dell'Italia settentrionale, contribuendo a rendere Verona uno dei principali centri politici e culturali del tempo. Fu anche un importante mecenate e accolse alla propria corte artisti, letterati e intellettuali. Tra i suoi ospiti più illustri vi fu Dante Alighieri, che gli dedicò la cantica del Paradiso.",
+        "en": "Can Francesco della Scala, known as Cangrande I, was one of the most important lords of the Scaliger dynasty. Associated with the government of the city in 1308, he became sole lord of Verona in 1311. During his rule he extended Scaliger power over many cities of northern Italy, helping to make Verona one of the leading political and cultural centres of the time. He was also an important patron and welcomed artists, men of letters and intellectuals to his court. Among his most illustrious guests was Dante Alighieri, who dedicated the Paradiso canticle to him.",
+        "fr": "Can Francesco della Scala, connu sous le nom de Cangrande Ier, fut l'un des seigneurs les plus importants de la dynastie scaligère. Associé au gouvernement de la ville en 1308, il devint seul seigneur de Vérone en 1311. Durant sa domination, il étendit le pouvoir scaligère à de nombreuses villes d'Italie du Nord, contribuant à faire de Vérone l'un des principaux centres politiques et culturels de son temps. Il fut aussi un important mécène et accueillit à sa cour artistes, lettrés et intellectuels. Parmi ses hôtes les plus illustres figura Dante Alighieri, qui lui dédia la cantica du Paradis.",
+        "de": "Can Francesco della Scala, bekannt als Cangrande I., war einer der bedeutendsten Herren der Dynastie der Scaliger. 1308 an der Stadtregierung beteiligt, wurde er 1311 alleiniger Herr von Verona. Während seiner Herrschaft dehnte er die Macht der Scaliger auf zahlreiche Städte Norditaliens aus und trug dazu bei, Verona zu einem der wichtigsten politischen und kulturellen Zentren seiner Zeit zu machen. Er war außerdem ein bedeutender Mäzen und nahm Künstler, Literaten und Intellektuelle an seinem Hof auf. Zu seinen berühmtesten Gästen zählte Dante Alighieri, der ihm die Cantica des Paradieses widmete.",
+        "es": "Can Francesco della Scala, conocido como Cangrande I, fue uno de los señores más importantes de la dinastía scaligera. Asociado al gobierno de la ciudad en 1308, se convirtió en señor único de Verona en 1311. Durante su dominio extendió el poder scaligero a numerosas ciudades del norte de Italia, contribuyendo a convertir Verona en uno de los principales centros políticos y culturales de la época. Fue también un importante mecenas y acogió en su corte a artistas, literatos e intelectuales. Entre sus huéspedes más ilustres estuvo Dante Alighieri, que le dedicó la cántica del Paraíso."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo soprannome, Cangrande, significa letteralmente «cane grande» e deriva dal nome Can Francesco.",
+          "Fu uno dei protagonisti delle lotte politiche e militari tra le signorie dell'Italia settentrionale.",
+          "Dante lo ricordò nel XVII canto del Paradiso, descrivendone le qualità e il futuro prestigio.",
+          "Morì improvvisamente a Treviso nel 1329, durante una campagna militare."
+        ],
+        "en": [
+          "His nickname, Cangrande, literally means «big dog» and derives from the name Can Francesco.",
+          "He was one of the protagonists of the political and military struggles among the lordships of northern Italy.",
+          "Dante remembered him in canto XVII of the Paradiso, describing his qualities and future prestige.",
+          "He died suddenly in Treviso in 1329, during a military campaign."
+        ],
+        "fr": [
+          "Son surnom, Cangrande, signifie littéralement « grand chien » et dérive du nom Can Francesco.",
+          "Il fut l'un des protagonistes des luttes politiques et militaires entre les seigneuries de l'Italie du Nord.",
+          "Dante le rappela au chant XVII du Paradis, en décrivant ses qualités et son prestige à venir.",
+          "Il mourut subitement à Trévise en 1329, au cours d'une campagne militaire."
+        ],
+        "de": [
+          "Sein Beiname Cangrande bedeutet wörtlich «großer Hund» und leitet sich vom Namen Can Francesco ab.",
+          "Er war einer der Protagonisten der politischen und militärischen Kämpfe zwischen den Herrschaften Norditaliens.",
+          "Dante erinnerte im XVII. Gesang des Paradieses an ihn und beschrieb seine Vorzüge und sein künftiges Ansehen.",
+          "Er starb 1329 plötzlich in Treviso, während eines Feldzugs."
+        ],
+        "es": [
+          "Su apodo, Cangrande, significa literalmente «perro grande» y deriva del nombre Can Francesco.",
+          "Fue uno de los protagonistas de las luchas políticas y militares entre las señorías del norte de Italia.",
+          "Dante lo recordó en el canto XVII del Paraíso, describiendo sus cualidades y su futuro prestigio.",
+          "Murió de forma repentina en Treviso en 1329, durante una campaña militar."
+        ]
+      },
+      "luoghi": [
+        "arche-scaligere",
+        "palazzo-del-podesta"
+      ],
+      "luoghiNote": {
+        "arche-scaligere": {
+          "tipo": {
+            "it": "Legame diretto – sepoltura",
+            "en": "Direct link – burial",
+            "fr": "Lien direct – sépulture",
+            "de": "Direkter Bezug – Grabmal",
+            "es": "Vínculo directo – sepultura"
+          },
+          "testo": {
+            "it": "Il monumentale complesso funerario della famiglia della Scala custodisce la tomba di Cangrande I. Il suo monumento equestre, collocato sopra l'ingresso della chiesa di Santa Maria Antica, è uno degli esempi più celebri della scultura funeraria gotica italiana.",
+            "en": "The monumental funerary complex of the della Scala family houses the tomb of Cangrande I. His equestrian monument, placed above the entrance to the church of Santa Maria Antica, is one of the most famous examples of Italian Gothic funerary sculpture.",
+            "fr": "Le complexe funéraire monumental de la famille della Scala abrite le tombeau de Cangrande Ier. Son monument équestre, placé au-dessus de l'entrée de l'église de Santa Maria Antica, est l'un des exemples les plus célèbres de la sculpture funéraire gothique italienne.",
+            "de": "Die monumentale Grabanlage der Familie della Scala birgt das Grab Cangrandes I. Sein Reiterdenkmal, das über dem Eingang der Kirche Santa Maria Antica steht, ist eines der berühmtesten Beispiele italienischer gotischer Grabskulptur.",
+            "es": "El monumental complejo funerario de la familia della Scala alberga la tumba de Cangrande I. Su monumento ecuestre, situado sobre la entrada de la iglesia de Santa Maria Antica, es uno de los ejemplos más célebres de la escultura funeraria gótica italiana."
+          }
+        },
+        "palazzo-del-podesta": {
+          "tipo": {
+            "it": "Legame diretto – residenza",
+            "en": "Direct link – residence",
+            "fr": "Lien direct – résidence",
+            "de": "Direkter Bezug – Residenz",
+            "es": "Vínculo directo – residencia"
+          },
+          "testo": {
+            "it": "Antica residenza scaligera, il palazzo fu uno dei centri del potere della famiglia della Scala. Cangrande vi risiedette e da questo complesso governò una parte importante dei suoi domini. È inoltre tradizionalmente associato all'ospitalità offerta a Dante.",
+            "en": "An ancient Scaliger residence, the palace was one of the centres of power of the della Scala family. Cangrande lived here and governed a major part of his domains from this complex. It is also traditionally associated with the hospitality offered to Dante.",
+            "fr": "Ancienne résidence scaligère, le palais fut l'un des centres du pouvoir de la famille della Scala. Cangrande y résida et gouverna depuis ce complexe une part importante de ses domaines. Il est en outre traditionnellement associé à l'hospitalité offerte à Dante.",
+            "de": "Als ehemalige Residenz der Scaliger war der Palast eines der Machtzentren der Familie della Scala. Cangrande wohnte hier und regierte von diesem Komplex aus einen wichtigen Teil seiner Herrschaftsgebiete. Außerdem wird der Palast traditionell mit der Gastfreundschaft in Verbindung gebracht, die Dante hier gewährt wurde.",
+            "es": "Antigua residencia scaligera, el palacio fue uno de los centros del poder de la familia della Scala. Cangrande vivió aquí y gobernó desde este complejo una parte importante de sus dominios. Además, se asocia tradicionalmente con la hospitalidad ofrecida a Dante."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
