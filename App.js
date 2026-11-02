@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
@@ -51,7 +51,16 @@ function linguaIniziale() {
 }
 
 // Gratuito sempre attivo; le città si scaricano, si aprono e si rimuovono da qui.
+// il provider degli spazi sicuri serve anche sul web, dove SafeAreaView lo richiede
 export default function App() {
+  return (
+    <SafeAreaProvider>
+      <AppRadice />
+    </SafeAreaProvider>
+  );
+}
+
+function AppRadice() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
