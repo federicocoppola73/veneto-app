@@ -9842,18 +9842,11 @@
 "id": "palazzo-malipiero",
 "nome": "Palazzo Malipiero",
 "categoria": "palazzi",
-"latitudine": 45.433097,
-"longitudine": 12.328017,
+"latitudine": 45.4332864615975,
+"longitudine": 12.328614441935631,
 "sestiere": "San Marco",
 "fermata": "San Samuele",
 "sito": "https://palazzomalipiero.it",
-"nota": {
-"it": "Orari non disponibili: verificare sul sito ufficiale prima della visita.",
-"en": "Opening hours not available: please check the official website before your visit.",
-"fr": "Horaires non disponibles : consultez le site officiel avant votre visite.",
-"de": "Öffnungszeiten nicht verfügbar: Bitte prüfen Sie vor dem Besuch die offizielle Website.",
-"es": "Horarios no disponibles: consulte el sitio oficial antes de la visita."
-},
 "personaggio": "giacomo-casanova",
 "immagine": {
 "autore": "Didier Descouens",
@@ -9879,6 +9872,42 @@
 "fr": "À partir de 1740, Casanova fréquenta assidûment le palais, grâce à la protection du sénateur Alvise II Malipiero, qui l'introduisit dans les milieux de la haute société vénitienne. Il y rencontra des personnes influentes et participa à de nombreuses conversations mondaines. La relation prit brusquement fin après une aventure sentimentale qui entraîna son éloignement.",
 "de": "Ab 1740 verkehrte Casanova regelmäßig im Palazzo, dank des Schutzes von Senator Alvise II Malipiero, der ihn in die Kreise der venezianischen Oberschicht einführte. Hier lernte er einflussreiche Persönlichkeiten kennen und besuchte zahlreiche gesellschaftliche Gespräche. Die Beziehung endete abrupt nach einer Liebesaffäre, die zu Casanovas Entfernung führte.",
 "es": "A partir de 1740 Casanova frecuentó asiduamente el palacio, gracias a la protección del senador Alvise II Malipiero, que lo introdujo en los ambientes de la alta sociedad veneciana. Aquí conoció a personas influyentes y asistió a numerosas tertulias mundanas. La relación se interrumpió bruscamente tras una aventura sentimental que provocó el alejamiento de Casanova."
+},
+"orari": [
+{
+"giorni": "mar-dom",
+"ore": "10:00–18:00"
+}
+],
+"chiuso": [
+"lun"
+]
+},
+{
+"id": "calle-malipiero",
+"nome": "Calle Malipiero",
+"categoria": "altri",
+"latitudine": 45.43347673420733,
+"longitudine": 12.328570023414967,
+"sestiere": "San Marco",
+"fermata": "San Samuele",
+"personaggio": "giacomo-casanova",
+"immagine": {
+"autore": "Adriano",
+"licenza": "CC BY-SA 3.0"
+},
+"galleria": [
+{
+"autore": "Adriano",
+"licenza": "CC BY-SA 3.0"
+}
+],
+"descrizione": {
+"it": "Giacomo Casanova nacque a Venezia e una targa in Calle Malipiero, l'antica Calle della Commedia, ricorda l'evento. È il luogo tradizionalmente indicato come quello della sua nascita. È però opportuno precisare che l'esatta abitazione è oggetto di discussione tra gli studiosi: alcune ricerche hanno proposto anche Calle delle Muneghe.",
+"en": "Giacomo Casanova was born in Venice, and a plaque in Calle Malipiero, the former Calle della Commedia, commemorates the event. It is the place traditionally identified as his birthplace. However, it should be noted that the exact house is debated among scholars: some research has also proposed Calle delle Muneghe.",
+"fr": "Giacomo Casanova naquit à Venise, et une plaque dans la Calle Malipiero, l'ancienne Calle della Commedia, rappelle cet événement. C'est le lieu traditionnellement indiqué comme celui de sa naissance. Il faut toutefois préciser que la maison exacte fait débat parmi les chercheurs : certaines recherches ont également proposé la Calle delle Muneghe.",
+"de": "Giacomo Casanova wurde in Venedig geboren, und eine Gedenktafel in der Calle Malipiero, der früheren Calle della Commedia, erinnert an das Ereignis. Es ist der Ort, der traditionell als sein Geburtsort gilt. Allerdings ist das genaue Haus unter Gelehrten umstritten: Einige Untersuchungen haben auch die Calle delle Muneghe vorgeschlagen.",
+"es": "Giacomo Casanova nació en Venecia, y una placa en la Calle Malipiero, antigua Calle della Commedia, recuerda el acontecimiento. Es el lugar tradicionalmente señalado como su lugar de nacimiento. No obstante, conviene precisar que la casa exacta es objeto de debate entre los estudiosos: algunas investigaciones han propuesto también la Calle delle Muneghe."
 }
 }
 ]
