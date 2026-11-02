@@ -4191,6 +4191,38 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       }
+    },
+    {
+      "id": "scuola-del-santo",
+      "nome": "Scuola del Santo – Scoletta",
+      "categoria": "chiese",
+      "latitudine": 45.40103746032886,
+      "longitudine": 11.880219750003887,
+      "descrizione": {
+        "it": "Fu costruita dopo la morte di Antonio come sede della confraternita dedicata al Santo, impegnata nell'assistenza ai bisognosi e nella conservazione della sua memoria. La Sala Priorale ospita un ciclo di diciotto scene della sua vita e dei suoi miracoli, con tre affreschi giovanili di Tiziano.",
+        "en": "It was built after Anthony's death as the seat of the confraternity dedicated to the Saint, committed to helping the needy and preserving his memory. The Sala Priorale houses a cycle of eighteen scenes from his life and miracles, including three early frescoes by Titian.",
+        "fr": "Elle fut construite après la mort d'Antoine pour accueillir la confrérie dédiée au Saint, engagée dans l'aide aux nécessiteux et la conservation de sa mémoire. La Sala Priorale abrite un cycle de dix-huit scènes de sa vie et de ses miracles, dont trois fresques de jeunesse du Titien.",
+        "de": "Sie wurde nach dem Tod des Antonius als Sitz der dem Heiligen geweihten Bruderschaft errichtet, die sich der Unterstützung Bedürftiger und der Bewahrung seines Andenkens widmete. Im Sala Priorale befindet sich ein Zyklus von achtzehn Szenen aus seinem Leben und seinen Wundern, darunter drei frühe Fresken Tizians.",
+        "es": "Se construyó después de la muerte de Antonio como sede de la cofradía dedicada al Santo, comprometida con la ayuda a los necesitados y la conservación de su memoria. La Sala Priorale alberga un ciclo de dieciocho escenas de su vida y sus milagros, con tres frescos juveniles de Tiziano."
+      },
+      "personaggio": "sant-antonio-di-padova",
+      "immagine": {
+        "autore": "Jörgens.Mi",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=194806015"
+      },
+      "galleria": [
+        {
+          "autore": "Armin Kleiner",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=194092651"
+        },
+        {
+          "autore": "Armin Kleiner",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=194092676"
+        }
+      ]
     }
   ]
 }

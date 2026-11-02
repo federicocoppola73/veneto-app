@@ -90,7 +90,8 @@
       },
       "luoghi": [
         "basilica-di-sant-antonio",
-        "santuario-dell-arcella"
+        "santuario-dell-arcella",
+        "scuola-del-santo"
       ],
       "luoghiNote": {
         "basilica-di-sant-antonio": {
@@ -123,6 +124,22 @@
             "fr": "Il s'élève à l'endroit où, selon la tradition historique, saint Antoine mourut le 13 juin 1231. Le sanctuaire conserve la cellule liée aux derniers moments de sa vie.",
             "de": "Es steht an dem Ort, an dem Antonius der historischen Überlieferung zufolge am 13. Juni 1231 starb. Im Heiligtum wird die Zelle aufbewahrt, die mit den letzten Augenblicken seines Lebens verbunden ist.",
             "es": "Se levanta en el lugar donde, según la tradición histórica, san Antonio murió el 13 de junio de 1231. En el santuario se conserva la celda asociada a los últimos momentos de su vida."
+          }
+        },
+        "scuola-del-santo": {
+          "tipo": {
+            "it": "Legame devozionale e commemorativo",
+            "en": "Devotional and commemorative link",
+            "fr": "Lien dévotionnel et commémoratif",
+            "de": "Devotionaler und gedenkender Bezug",
+            "es": "Vínculo devocional y conmemorativo"
+          },
+          "testo": {
+            "it": "Fu costruita dopo la morte di Antonio come sede della confraternita dedicata al Santo, impegnata nell'assistenza ai bisognosi e nella conservazione della sua memoria. La Sala Priorale ospita un ciclo di diciotto scene della sua vita e dei suoi miracoli, con tre affreschi giovanili di Tiziano.",
+            "en": "It was built after Anthony's death as the seat of the confraternity dedicated to the Saint, committed to helping the needy and preserving his memory. The Sala Priorale houses a cycle of eighteen scenes from his life and miracles, including three early frescoes by Titian.",
+            "fr": "Elle fut construite après la mort d'Antoine pour accueillir la confrérie dédiée au Saint, engagée dans l'aide aux nécessiteux et la conservation de sa mémoire. La Sala Priorale abrite un cycle de dix-huit scènes de sa vie et de ses miracles, dont trois fresques de jeunesse du Titien.",
+            "de": "Sie wurde nach dem Tod des Antonius als Sitz der dem Heiligen geweihten Bruderschaft errichtet, die sich der Unterstützung Bedürftiger und der Bewahrung seines Andenkens widmete. Im Sala Priorale befindet sich ein Zyklus von achtzehn Szenen aus seinem Leben und seinen Wundern, darunter drei frühe Fresken Tizians.",
+            "es": "Se construyó después de la muerte de Antonio como sede de la cofradía dedicada al Santo, comprometida con la ayuda a los necesitados y la conservación de su memoria. La Sala Priorale alberga un ciclo de dieciocho escenas de su vida y sus milagros, con tres frescos juveniles de Tiziano."
           }
         }
       }
