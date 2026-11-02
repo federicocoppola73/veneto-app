@@ -142,7 +142,19 @@
             "es": "Se construyó después de la muerte de Antonio como sede de la cofradía dedicada al Santo, comprometida con la ayuda a los necesitados y la conservación de su memoria. La Sala Priorale alberga un ciclo de dieciocho escenas de su vida y sus milagros, con tres frescos juveniles de Tiziano."
           }
         }
-      }
+      },
+      "collegati": [
+        {
+          "id": "giotto-di-bondone",
+          "testo": {
+            "it": "Giotto è legato alla Basilica di Sant'Antonio per alcuni affreschi conservati nella Sala capitolare, attribuiti al grande pittore fiorentino. Le opere testimoniano il ruolo di Padova come importante centro artistico nel Trecento e rappresentano una delle testimonianze della presenza di Giotto in città.",
+            "en": "Giotto is linked to the Basilica of Sant'Antonio through some frescoes preserved in the Sala capitolare, attributed to the great Florentine painter. The works bear witness to Padua's role as an important artistic centre in the fourteenth century and are one of the traces of Giotto's presence in the city.",
+            "fr": "Giotto est lié à la basilique Saint-Antoine par quelques fresques conservées dans la salle capitulaire, attribuées au grand peintre florentin. Ces œuvres témoignent du rôle de Padoue comme important centre artistique au XIVe siècle et constituent l'un des témoignages de la présence de Giotto dans la ville.",
+            "de": "Giotto ist mit der Basilika des heiligen Antonius durch einige Fresken verbunden, die im Kapitelsaal erhalten sind und dem großen florentinischen Maler zugeschrieben werden. Die Werke zeugen von Paduas Rolle als bedeutendem Kunstzentrum im 14. Jahrhundert und gehören zu den Zeugnissen von Giottos Anwesenheit in der Stadt.",
+            "es": "Giotto está vinculado a la basílica de San Antonio por algunos frescos conservados en la sala capitular, atribuidos al gran pintor florentino. Las obras dan testimonio del papel de Padua como importante centro artístico en el siglo XIV y son una de las huellas de la presencia de Giotto en la ciudad."
+          }
+        }
+      ]
     },
     {
       "id": "galileo-galilei",
@@ -447,7 +459,19 @@
             "es": "Aquí se conserva la Cruz pintada atribuida a Giotto, originalmente colocada en la Cappella degli Scrovegni. Es una referencia adicional para conocer la actividad del artista en Padua."
           }
         }
-      }
+      },
+      "collegati": [
+        {
+          "id": "sant-antonio-di-padova",
+          "testo": {
+            "it": "Giotto è legato a Sant'Antonio attraverso la Basilica a lui dedicata, dove nella Sala capitolare si conservano alcuni affreschi attribuiti al pittore. La presenza di queste opere testimonia l'attività artistica di Giotto a Padova anche al di fuori della celebre Cappella degli Scrovegni.",
+            "en": "Giotto is linked to Sant'Antonio through the Basilica dedicated to him, where some frescoes attributed to the painter are preserved in the Sala capitolare. The presence of these works testifies to Giotto's artistic activity in Padua beyond the famous Scrovegni Chapel.",
+            "fr": "Giotto est lié à Saint-Antoine par la basilique qui lui est dédiée, où la salle capitulaire conserve quelques fresques attribuées au peintre. La présence de ces œuvres témoigne de l'activité artistique de Giotto à Padoue, au-delà de la célèbre chapelle des Scrovegni.",
+            "de": "Giotto ist mit dem heiligen Antonius über die ihm geweihte Basilika verbunden, wo im Kapitelsaal einige dem Maler zugeschriebene Fresken erhalten sind. Die Präsenz dieser Werke belegt Giottos künstlerische Tätigkeit in Padua auch außerhalb der berühmten Cappella degli Scrovegni.",
+            "es": "Giotto está ligado a San Antonio a través de la basílica dedicada al Santo, donde en la sala capitular se conservan algunos frescos atribuidos al pintor. La presencia de estas obras atestigua la actividad artística de Giotto en Padua más allá de la célebre Cappella degli Scrovegni."
+          }
+        }
+      ]
     },
     {
       "id": "elena-cornaro-piscopia",
