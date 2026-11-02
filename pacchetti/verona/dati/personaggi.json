@@ -84,7 +84,8 @@
         ]
       },
       "luoghi": [
-        "piazza-dei-signori"
+        "piazza-dei-signori",
+        "palazzo-del-podesta"
       ],
       "luoghiNote": {
         "piazza-dei-signori": {
@@ -101,6 +102,22 @@
             "fr": "Au centre de la place se dresse la statue de Dante, réalisée par Ugo Zannoni et inaugurée en 1865 à l'occasion du sixième centenaire de la naissance du poète. La place, également appelée Piazza Dante, est devenue l'un des lieux emblématiques de sa mémoire à Vérone.",
             "de": "In der Mitte des Platzes steht die Dante-Statue von Ugo Zannoni, die 1865 zum sechshundertsten Geburtstag des Dichters enthüllt wurde. Der Platz, auch Piazza Dante genannt, ist zu einem der Symbolorte seines Andenkens in Verona geworden.",
             "es": "En el centro de la plaza se alza la estatua de Dante, obra de Ugo Zannoni e inaugurada en 1865 con motivo del sexto centenario del nacimiento del poeta. La plaza, también conocida como Piazza Dante, se ha convertido en uno de los lugares emblemáticos de su memoria en Verona."
+          }
+        },
+        "palazzo-del-podesta": {
+          "tipo": {
+            "it": "Legame diretto – soggiorno",
+            "en": "Direct link – stay",
+            "fr": "Lien direct – séjour",
+            "de": "Direkter Bezug – Aufenthalt",
+            "es": "Vínculo directo – estancia"
+          },
+          "testo": {
+            "it": "Il palazzo fu una delle residenze dei signori della Scala. Secondo la tradizione storica, qui Dante trovò ospitalità durante il soggiorno presso la corte scaligera. Il collegamento con il poeta è strettamente legato alla presenza di Cangrande e della sua famiglia.",
+            "en": "The palace was one of the residences of the Scaliger lords. According to historical tradition, Dante found hospitality here during his stay at the Scaliger court. The link with the poet is closely tied to the presence of Cangrande and his family.",
+            "fr": "Le palais fut l'une des résidences des seigneurs della Scala. Selon la tradition historique, Dante y trouva l'hospitalité pendant son séjour à la cour scaligère. Le lien avec le poète est étroitement lié à la présence de Cangrande et de sa famille.",
+            "de": "Der Palast war eine der Residenzen der Herren della Scala. Nach der historischen Überlieferung fand Dante hier während seines Aufenthalts am scaligerischen Hof Aufnahme. Die Verbindung zum Dichter ist eng mit der Anwesenheit Cangrandes und seiner Familie verknüpft.",
+            "es": "El palacio fue una de las residencias de los señores della Scala. Según la tradición histórica, Dante encontró aquí hospedaje durante su estancia en la corte scaligera. La relación con el poeta está estrechamente ligada a la presencia de Cangrande y su familia."
           }
         }
       },
