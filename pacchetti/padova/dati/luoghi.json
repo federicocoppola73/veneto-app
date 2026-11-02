@@ -4373,6 +4373,28 @@
           "autore": "Foto propria"
         }
       ]
+    },
+    {
+      "id": "reggia-carrarese",
+      "nome": "Reggia Carrarese",
+      "categoria": "palazzi",
+      "latitudine": 45.40742923985088,
+      "longitudine": 11.871031695192775,
+      "personaggio": "francesco-petrarca",
+      "immagine": {
+        "autore": "Palickap",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "galleria": [
+        {
+          "autore": "Rollroboter",
+          "licenza": "CC BY-SA 3.0"
+        },
+        {
+          "autore": "Guariento",
+          "licenza": "Pubblico dominio"
+        }
+      ]
     }
   ]
 }

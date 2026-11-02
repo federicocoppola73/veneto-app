@@ -1061,7 +1061,8 @@
         "duomo-di-padova",
         "chiesa-degli-eremitani",
         "basilica-di-sant-antonio",
-        "casa-del-petrarca"
+        "casa-del-petrarca",
+        "reggia-carrarese"
       ],
       "luoghiNote": {
         "duomo-di-padova": {
@@ -1126,6 +1127,22 @@
             "fr": "La maison fut concédée au poète après sa nomination comme chanoine de la cathédrale. Elle est toujours visible au n° 28 de la via Dietro Duomo et conserve une partie de sa structure médiévale. C'est l'un des lieux les plus importants pour raconter la relation entre Pétrarque et Padoue.",
             "de": "Das Haus wurde dem Dichter nach seiner Ernennung zum Domherrn überlassen. Es ist noch heute in der Via Dietro Duomo 28 zu sehen und bewahrt einen Teil seiner mittelalterlichen Struktur. Es ist einer der wichtigsten Orte, um die Beziehung zwischen Petrarca und Padua zu erzählen.",
             "es": "La casa fue concedida al poeta tras su nombramiento como canónigo de la catedral. Todavía es visible en la vía Dietro Duomo 28 y conserva parte de su estructura medieval. Es uno de los lugares más importantes para contar la relación entre Petrarca y Padua."
+          }
+        },
+        "reggia-carrarese": {
+          "tipo": {
+            "it": "Legame diretto – ambiente storico",
+            "en": "Direct link – historic setting",
+            "fr": "Lien direct – cadre historique",
+            "de": "Direkter Bezug – historisches Umfeld",
+            "es": "Vínculo directo – ambiente histórico"
+          },
+          "testo": {
+            "it": "Petrarca fu accolto a Padova da Jacopo II da Carrara e ospitato nella reggia della famiglia signorile. Il palazzo rappresentava il centro del potere politico e culturale dei Carraresi.",
+            "en": "Petrarch was welcomed to Padua by Jacopo II da Carrara and hosted in the palace of the lordly family. The building was the centre of political and cultural power of the Carrara.",
+            "fr": "Pétrarque fut accueilli à Padoue par Jacopo II da Carrara et logé dans le palais de la famille seigneuriale. Le bâtiment était le centre du pouvoir politique et culturel des Carrare.",
+            "de": "Petrarca wurde in Padua von Jacopo II. da Carrara empfangen und im Palast der herrschenden Familie untergebracht. Der Palast war das Zentrum der politischen und kulturellen Macht der Carrara.",
+            "es": "Petrarca fue acogido en Padua por Jacopo II da Carrara y alojado en el palacio de la familia señorial. El edificio era el centro del poder político y cultural de los Carrara."
           }
         }
       },
