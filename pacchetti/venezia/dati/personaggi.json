@@ -736,7 +736,19 @@
             "es": "Aquí se conserva Las tentaciones de san Antonio, obra de 1577 atribuida a Tintoretto. El cuadro narra las pruebas del santo en una escena animada, con figuras y detalles que expresan el característico lenguaje dramático del pintor."
           }
         }
-      }
+      },
+      "collegati": [
+        {
+          "id": "veronica-franco",
+          "testo": {
+            "it": "Tintoretto realizzò un ritratto di Veronica Franco. La poetessa gli dedicò la ventunesima lettera delle sue Lettere familiari, nella quale fa riferimento proprio al dipinto e affronta anche temi legati all'arte e alla rappresentazione della bellezza.",
+            "en": "Tintoretto painted a portrait of Veronica Franco. The poet dedicated to him the twenty-first letter of her Lettere familiari, in which she refers precisely to the painting and also addresses themes linked to art and the representation of beauty.",
+            "fr": "Tintoret réalisa un portrait de Veronica Franco. La poétesse lui dédia la vingt et unième lettre de ses Lettere familiari, où elle fait précisément référence au tableau et aborde aussi des thèmes liés à l'art et à la représentation de la beauté.",
+            "de": "Tintoretto malte ein Porträt von Veronica Franco. Die Dichterin widmete ihm den einundzwanzigsten Brief ihrer Lettere familiari, in dem sie sich gerade auf das Gemälde bezieht und auch Themen rund um Kunst und die Darstellung der Schönheit behandelt.",
+            "es": "Tintoretto realizó un retrato de Veronica Franco. La poetisa le dedicó la vigesimoprimera carta de sus Lettere familiari, en la que alude precisamente al cuadro y aborda también temas relacionados con el arte y la representación de la belleza."
+          }
+        }
+      ]
     },
     {
       "id": "veronica-franco",
@@ -915,7 +927,19 @@
             "es": "El círculo de Domenico Venier, frecuentado por Veronica, se reunía en uno de los palacios del Campo Santa Maria Formosa. No se sabe con certeza cuál era."
           }
         }
-      }
+      },
+      "collegati": [
+        {
+          "id": "jacopo-tintoretto",
+          "testo": {
+            "it": "Tintoretto realizzò un ritratto di Veronica Franco. La poetessa gli dedicò la ventunesima lettera delle sue Lettere familiari, nella quale fa riferimento proprio al dipinto e affronta anche temi legati all'arte e alla rappresentazione della bellezza.",
+            "en": "Tintoretto painted a portrait of Veronica Franco. The poet dedicated to him the twenty-first letter of her Lettere familiari, in which she refers precisely to the painting and also addresses themes linked to art and the representation of beauty.",
+            "fr": "Tintoret réalisa un portrait de Veronica Franco. La poétesse lui dédia la vingt et unième lettre de ses Lettere familiari, où elle fait précisément référence au tableau et aborde aussi des thèmes liés à l'art et à la représentation de la beauté.",
+            "de": "Tintoretto malte ein Porträt von Veronica Franco. Die Dichterin widmete ihm den einundzwanzigsten Brief ihrer Lettere familiari, in dem sie sich gerade auf das Gemälde bezieht und auch Themen rund um Kunst und die Darstellung der Schönheit behandelt.",
+            "es": "Tintoretto realizó un retrato de Veronica Franco. La poetisa le dedicó la vigesimoprimera carta de sus Lettere familiari, en la que alude precisamente al cuadro y aborda también temas relacionados con el arte y la representación de la belleza."
+          }
+        }
+      ]
     }
   ]
 }

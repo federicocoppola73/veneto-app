@@ -394,6 +394,8 @@ function Schermata({ linguaIniziale }) {
   const ritornoPersonaggio = useRef(null);
   // luogo da riaprire alla chiusura della scheda di un personaggio aperta dal luogo
   const ritornoLuogo = useRef(null);
+  // personaggio di partenza, quando si apre un personaggio collegato
+  const ritornoCollegato = useRef(null);
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
     if (ritornoPersonaggio.current) {
@@ -993,10 +995,20 @@ function Schermata({ linguaIniziale }) {
           t={t}
           lingua={lingua}
           onChiudi={() => {
+            const partenza = ritornoCollegato.current;
+            ritornoCollegato.current = null;
+            if (partenza) {
+              setPersonaggioAperto(partenza);
+              return;
+            }
             setPersonaggioAperto(null);
             const luogoId = ritornoLuogo.current;
             ritornoLuogo.current = null;
             if (luogoId) setIdSelezionato(luogoId);
+          }}
+          onApriPersonaggio={(id) => {
+            ritornoCollegato.current = personaggioAperto;
+            setPersonaggioAperto(id);
           }}
           onApriLuogo={(luogoId) => {
             // la scheda del personaggio si chiude e si riapre alla chiusura della scheda del luogo

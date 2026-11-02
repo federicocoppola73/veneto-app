@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { testoLocalizzato } from '../i18n';
 import { immagine } from '../risorse';
 import { datiProxy } from '../dati';
+import { personaggi } from '../personaggi';
 
 const IMMAGINI = datiProxy('immagini.json');
 
@@ -12,7 +13,7 @@ const MIN_TAPPE_ITINERARIO = 3;
 
 // Scheda di un personaggio: biografia, curiosità, luoghi collegati e (se più di uno) l'itinerario.
 // props: persona, luoghiPerId, t, lingua, onChiudi, onApriLuogo(id), onCreaItinerario(persona)
-export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, onChiudi, onApriLuogo, onCreaItinerario }) {
+export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, onChiudi, onApriLuogo, onCreaItinerario, onApriPersonaggio }) {
   const insets = useSafeAreaInsets();
   if (!p) return null;
   const luoghi = (p.luoghi || []).filter((id) => luoghiPerId[id]);
@@ -114,6 +115,31 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
                     <LuogoRiga luogo={luoghiPerId[id]} onPress={() => onApriLuogo(id)} />
                     {nota?.testo ? <Text style={styles.notaLuogo}>{testoLocalizzato(nota.testo, lingua)}</Text> : null}
                   </View>
+                );
+              })}
+            </>
+          ) : null}
+
+          {p.collegati?.length ? (
+            <>
+              <Text style={styles.sottotitolo}>{t('pers_collegati')}</Text>
+              {p.collegati.map((c) => {
+                const altro = personaggi().find((x) => x.id === c.id);
+                if (!altro) return null;
+                return (
+                  <Pressable key={c.id} style={styles.riga} onPress={() => onApriPersonaggio(c.id)} accessibilityRole="link">
+                    {altro.ritratto ? (
+                      <Image source={immagine(`personaggi/${altro.id}.webp`)} style={styles.miniatura} />
+                    ) : (
+                      <View style={styles.miniaturaVuota} />
+                    )}
+                    <View style={styles.testoRiga}>
+                      <Text style={styles.nomeLuogo}>{altro.nome}</Text>
+                      <Text style={styles.sestiere}>{testoLocalizzato(altro.professione, lingua)}</Text>
+                      <Text style={styles.notaLuogo}>{testoLocalizzato(c.testo, lingua)}</Text>
+                    </View>
+                    <Text style={styles.freccia}>›</Text>
+                  </Pressable>
                 );
               })}
             </>
