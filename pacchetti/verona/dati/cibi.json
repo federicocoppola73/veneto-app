@@ -1028,6 +1028,63 @@
           ]
         }
       }
+    },
+    {
+      "id": "monte-veronese",
+      "nome": "Monte Veronese",
+      "certificazione": "DOP",
+      "periodo": {
+        "it": "Prodotto tutto l'anno. Il latte intero si consuma fresco, dopo circa 25 giorni; il d'allevo richiede almeno 90 giorni di stagionatura.",
+        "en": "Produced all year round. Whole-milk cheese is eaten fresh after about 25 days; d'allevo needs at least 90 days of ageing.",
+        "fr": "Produit toute l'année. Le lait entier se consomme frais après environ 25 jours ; le d'allevo demande au moins 90 jours d'affinage.",
+        "de": "Ganzjährig produziert. Der Vollmilchkäse wird nach etwa 25 Tagen frisch gegessen; der d'allevo braucht mindestens 90 Tage Reifung.",
+        "es": "Se produce todo el año. El de leche entera se consume fresco tras unos 25 días; el d'allevo necesita al menos 90 días de maduración."
+      },
+      "testo": {
+        "it": "Formaggio a pasta semicotta prodotto con latte di vacca sulla Lessinia, sul Monte Baldo e nella fascia prealpina veronese. Esistono due tipologie: il «latte intero», dal sapore delicato e fresco, e il «d'allevo», prodotto con latte parzialmente scremato, più saporito con la stagionatura.",
+        "en": "Semi-cooked cheese made from cow's milk on the Lessinia, Monte Baldo and the pre-Alpine hills of Verona. Two types: 'latte intero' (whole milk), delicate and fresh, and 'd'allevo' (partly skimmed milk), richer in flavour as it ages.",
+        "fr": "Fromage à pâte semi-cuite au lait de vache, produit sur les Lessinia, le Monte Baldo et la bande préalpine véronaise. Deux types : « latte intero » (lait entier), délicat et frais, et « d'allevo » (lait partiellement écrémé), plus savoureux à mesure qu'il vieillit.",
+        "de": "Halbfester Käse aus Kuhmilch, hergestellt in der Lessinia, am Monte Baldo und im voralpinen Gebiet um Verona. Es gibt zwei Sorten: „latte intero“ (Vollmilch), mild und frisch, und „d'allevo“ (teilentrahmte Milch), das mit der Reifung kräftiger wird.",
+        "es": "Queso de pasta semicocida elaborado con leche de vaca en la Lessinia, el Monte Baldo y la franja prealpina veronesa. Hay dos tipos: «latte intero» (leche entera), de sabor delicado y fresco, y «d'allevo» (leche parcialmente desnatada), que gana sabor con la maduración."
+      }
+    },
+    {
+      "id": "marrone-di-san-zeno",
+      "nome": "Marrone di San Zeno",
+      "certificazione": "DOP",
+      "periodo": {
+        "it": "Autunno, di norma tra ottobre e novembre: a San Zeno di Montagna si tiene ogni anno la festa del marrone.",
+        "en": "Autumn, usually October and November: every year San Zeno di Montagna hosts the chestnut festival.",
+        "fr": "Automne, généralement d'octobre à novembre : chaque année, San Zeno di Montagna accueille la fête de la châtaigne.",
+        "de": "Herbst, meist Oktober und November: jedes Jahr findet in San Zeno di Montagna das Kastanienfest statt.",
+        "es": "Otoño, normalmente octubre y noviembre: cada año San Zeno di Montagna celebra la fiesta de la castaña."
+      },
+      "testo": {
+        "it": "Castagna pregiata coltivata sui rilievi della zona di San Zeno di Montagna, sul Monte Baldo, tra il lago di Garda e il fiume Adige. Apprezzata per il sapore dolce e la polpa consistente, cresce tra 250 e 900 metri di altitudine.",
+        "en": "A prized chestnut grown on the hills of San Zeno di Montagna, on Monte Baldo, between Lake Garda and the Adige river. Valued for its sweet flavour and firm flesh, it grows between 250 and 900 metres above sea level.",
+        "fr": "Châtaigne de qualité cultivée sur les coteaux de San Zeno di Montagna, sur le Monte Baldo, entre le lac de Garde et le fleuve Adige. Appréciée pour sa saveur douce et sa chair ferme, elle pousse entre 250 et 900 mètres d'altitude.",
+        "de": "Edle Kastanie von den Hügeln von San Zeno di Montagna am Monte Baldo, zwischen Gardasee und Etsch. Geschätzt für ihren süßen Geschmack und das feste Fruchtfleisch, wächst sie in 250 bis 900 Metern Höhe.",
+        "es": "Castaña de calidad cultivada en las colinas de San Zeno di Montagna, en el Monte Baldo, entre el lago de Garda y el río Adigio. Apreciada por su sabor dulce y su pulpa consistente, crece entre 250 y 900 metros de altitud."
+      }
+    },
+    {
+      "id": "pesca-di-verona",
+      "nome": "Pesca di Verona",
+      "certificazione": "IGP",
+      "periodo": {
+        "it": "Estate, con varietà a maturazione precoce, media e tardiva.",
+        "en": "Summer, with early, mid and late-ripening varieties.",
+        "fr": "Été, avec des variétés à maturation précoce, moyenne et tardive.",
+        "de": "Sommer, mit früh, mittel und spät reifenden Sorten.",
+        "es": "Verano, con variedades de maduración temprana, media y tardía."
+      },
+      "testo": {
+        "it": "Pesche e nettarine coltivate nella pianura veronese, caratterizzate da polpa succosa e profumo intenso. Il riconoscimento IGP risale al 2010 e la filiera è ripartita nel 2023 dopo una fase sperimentale.",
+        "en": "Peaches and nectarines grown on the Veronese plain, with juicy flesh and intense aroma. The IGP recognition dates back to 2010, and the supply chain restarted in 2023 after an experimental phase.",
+        "fr": "Pêches et nectarines cultivées dans la plaine véronaise, à la chair juteuse et au parfum intense. La reconnaissance IGP remonte à 2010 et la filière a repris en 2023, après une phase expérimentale.",
+        "de": "Pfirsiche und Nektarinen aus der Ebene um Verona, mit saftigem Fruchtfleisch und intensivem Aroma. Die IGP-Anerkennung stammt von 2010, die Lieferkette wurde nach einer Versuchsphase 2023 wieder aufgenommen.",
+        "es": "Melocotones y nectarinas cultivados en la llanura veronesa, de pulpa jugosa y aroma intenso. El reconocimiento IGP data de 2010 y la cadena se reactivó en 2023, tras una fase experimental."
+      }
     }
   ]
 }

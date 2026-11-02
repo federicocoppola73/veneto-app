@@ -58,6 +58,23 @@ export default function SchedaCibo({ cibo: c, t, lingua, onChiudi }) {
           {c.portata ? <Text style={styles.portata}>{t(`cur_portata_${c.portata}`)}</Text> : null}
           <Text style={styles.testo}>{testoLocalizzato(c.testo, lingua)}</Text>
 
+          {c.certificazione || c.periodo ? (
+            <View style={styles.info}>
+              {c.certificazione ? (
+                <Text style={styles.infoRiga}>
+                  <Text style={styles.infoEtichetta}>{t('cur_certificazione')}: </Text>
+                  {c.certificazione}
+                </Text>
+              ) : null}
+              {c.periodo ? (
+                <Text style={styles.infoRiga}>
+                  <Text style={styles.infoEtichetta}>{t('cur_periodo')}: </Text>
+                  {testoLocalizzato(c.periodo, lingua)}
+                </Text>
+              ) : null}
+            </View>
+          ) : null}
+
           {r && (
             <View style={styles.box}>
               <Text style={styles.boxTitolo}>{t('cur_ricetta')}</Text>
@@ -97,6 +114,9 @@ const styles = StyleSheet.create({
   titolo: { fontSize: 24, fontWeight: '800', color: '#0f3d5e' },
   portata: { alignSelf: 'flex-start', fontSize: 12, fontWeight: '700', color: '#166534', backgroundColor: '#ecfdf5', paddingHorizontal: 8, paddingVertical: 4, borderRadius: 999 },
   testo: { fontSize: 15, lineHeight: 22, color: '#334155' },
+  info: { backgroundColor: '#fff', borderRadius: 14, padding: 12, gap: 4 },
+  infoRiga: { fontSize: 14, lineHeight: 20, color: '#334155' },
+  infoEtichetta: { fontWeight: '800', color: '#0f3d5e' },
   box: { backgroundColor: '#fff', borderRadius: 14, padding: 14, gap: 6, marginTop: 4 },
   boxTitolo: { fontSize: 16, fontWeight: '800', color: '#0f172a' },
   meta: { fontSize: 12, color: '#475569' },

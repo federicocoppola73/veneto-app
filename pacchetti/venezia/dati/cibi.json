@@ -1333,6 +1333,75 @@
         "licenza": "CC BY-SA 4.0",
         "fonte": "https://commons.wikimedia.org/w/index.php?curid=51414568"
       }
+    },
+    {
+      "id": "moeche",
+      "nome": "Moeche",
+      "certificazione": "PAT",
+      "periodo": {
+        "it": "Due periodi: primavera (marzo–maggio) e autunno (settembre–novembre), quando i granchi sono in muta.",
+        "en": "Two periods: spring (March–May) and autumn (September–November), when the crabs are moulting.",
+        "fr": "Deux périodes : le printemps (mars–mai) et l'automne (septembre–novembre), lorsque les crabes muent.",
+        "de": "Zwei Zeiten: Frühling (März–Mai) und Herbst (September–November), wenn die Krabben sich häuten.",
+        "es": "Dos temporadas: primavera (marzo–mayo) y otoño (septiembre–noviembre), cuando los cangrejos mudan."
+      },
+      "testo": {
+        "it": "Piccoli granchi verdi della laguna veneziana, pescati durante la muta, quando il carapace è ancora morbido. Sono una specialità stagionale, tradizionalmente fritte. Moeca indica il maschio in muta: le femmine seguono un ciclo diverso.",
+        "en": "Small green crabs from the Venetian lagoon, caught during their moult, when the shell is still soft. A seasonal speciality, traditionally fried. Moeca refers to the male in moult: females follow a different moulting cycle.",
+        "fr": "Petits crabes verts de la lagune de Venise, pêchés pendant la mue, lorsque la carapace est encore molle. Une spécialité saisonnière, traditionnellement frite. Le terme moeca désigne le mâle en mue : les femelles suivent un cycle de mue différent.",
+        "de": "Kleine grüne Krabben aus der Lagune von Venedig, gefangen während der Häutung, wenn der Panzer noch weich ist. Eine saisonale Spezialität, traditionell frittiert. Moeca bezeichnet das Männchen in der Häutung; die Weibchen haben einen anderen Häutungszyklus.",
+        "es": "Pequeños cangrejos verdes de la laguna veneciana, pescados durante la muda, cuando el caparazón aún está blando. Una especialidad de temporada, tradicionalmente frita. Moeca designa al macho en muda: las hembras siguen un ciclo de muda diferente."
+      }
+    },
+    {
+      "id": "schie",
+      "nome": "Schie",
+      "certificazione": "PAT",
+      "testo": {
+        "it": "Piccoli gamberetti grigi della laguna, serviti tradizionalmente con polenta bianca, lessati o fritti. Sono uno dei piatti più caratteristici della cucina lagunare.",
+        "en": "Tiny grey shrimps from the lagoon, traditionally served with white polenta, either boiled or fried. One of the most characteristic dishes of lagoon cuisine.",
+        "fr": "Minuscules crevettes grises de la lagune, traditionnellement servies avec de la polenta blanche, bouillies ou frites. L'un des plats les plus caractéristiques de la cuisine lagunaire.",
+        "de": "Winzige graue Garnelen aus der Lagune, traditionell mit weißer Polenta serviert, gekocht oder frittiert. Eines der typischsten Gerichte der Lagunenküche.",
+        "es": "Pequeñas gambas grises de la laguna, tradicionalmente servidas con polenta blanca, hervidas o fritas. Uno de los platos más característicos de la cocina lagunar."
+      }
+    },
+    {
+      "id": "radicchio-di-chioggia",
+      "nome": "Radicchio di Chioggia",
+      "certificazione": "IGP",
+      "periodo": {
+        "it": "Precoce: dal 1° aprile al 15 luglio. Tardivo: dal 1° settembre al 15 marzo.",
+        "en": "Early type: 1 April – 15 July. Late type: 1 September – 15 March.",
+        "fr": "Type précoce : du 1er avril au 15 juillet. Type tardif : du 1er septembre au 15 mars.",
+        "de": "Frühe Sorte: 1. April – 15. Juli. Späte Sorte: 1. September – 15. März.",
+        "es": "Tipo temprano: del 1 de abril al 15 de julio. Tipo tardío: del 1 de septiembre al 15 de marzo."
+      },
+      "testo": {
+        "it": "Ortaggio dalla forma tondeggiante, con foglie rosse e nervature bianche. È coltivato anche nel territorio veneziano e si consuma crudo o cotto. Esistono due tipologie: precoce e tardiva.",
+        "en": "Round-shaped vegetable with red leaves and white ribs. It is also grown in the Venetian area and can be eaten raw or cooked. It comes in two types: early and late.",
+        "fr": "Légume de forme arrondie, aux feuilles rouges et aux nervures blanches. Cultivé aussi dans la région de Venise, il se mange cru ou cuit. Il existe deux types : précoce et tardif.",
+        "de": "Rundlicher Gemüsekopf mit roten Blättern und weißen Rippen. Er wird auch im Gebiet von Venedig angebaut und kann roh oder gekocht gegessen werden. Es gibt zwei Sorten: früh und spät.",
+        "es": "Hortaliza de forma redondeada, con hojas rojas y nervaduras blancas. Se cultiva también en la zona de Venecia y se consume crudo o cocido. Hay dos tipos: temprano y tardío."
+      }
+    },
+    {
+      "id": "castraure-di-santerasmo",
+      "nome": "Castraure di Sant'Erasmo",
+      "certificazione": "PAT",
+      "periodo": {
+        "it": "Da fine aprile, per circa 10–15 giorni all'anno.",
+        "en": "From the end of April, for about 10–15 days a year.",
+        "fr": "À partir de la fin avril, pendant environ 10 à 15 jours par an.",
+        "de": "Ab Ende April, für etwa 10–15 Tage im Jahr.",
+        "es": "Desde finales de abril, durante unos 10–15 días al año."
+      },
+      "testo": {
+        "it": "Sono i primi germogli apicali del carciofo violetto di Sant'Erasmo, raccolti a mano e molto teneri. Si mangiano crude e sono una primizia rara, disponibile per pochi giorni all'anno.",
+        "en": "The first apical shoots of the Sant'Erasmo violet artichoke, hand-picked and very tender. Eaten raw, they are a rare early delicacy, available for only a few days a year.",
+        "fr": "Les premiers bourgeons apicaux de l'artichaut violet de Sant'Erasmo, récoltés à la main et très tendres. On les mange crus : une primeur rare, disponible seulement quelques jours par an.",
+        "de": "Die ersten Seitentriebe der violetten Artischocke von Sant'Erasmo, von Hand geerntet und sehr zart. Sie werden roh gegessen und sind eine seltene Frühlingsdelikatesse, nur wenige Tage im Jahr erhältlich.",
+        "es": "Los primeros brotes apicales de la alcachofa violeta de Sant'Erasmo, recogidos a mano y muy tiernos. Se comen crudos y son una primicia rara, disponible solo unos pocos días al año."
+      }
     }
   ]
 }

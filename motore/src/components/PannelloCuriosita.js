@@ -8,15 +8,14 @@ import { testoLocalizzato } from '../i18n';
 
 const PORTATE = ['cicchetto', 'primo', 'secondo', 'dolce'];
 
-const ANTEPRIME = 3;
-
-// Pagina "Curiosità e cibi": due sezioni distinte, ciascuna con anteprime e "Vedi tutte".
+// Pagina "Curiosità e cibi": due schede; ciascuna mostra il proprio elenco completo.
 export default function PannelloCuriosita({ t, lingua, onApriCuriosita, onApriCibo, onChiudi }) {
   const insets = useSafeAreaInsets();
-  const [tuttiCuriosita, setTuttiCuriosita] = useState(false);
-  const [tuttiCibi, setTuttiCibi] = useState(false);
-  const curiositaVisibili = tuttiCuriosita ? CURIOSITA : CURIOSITA.slice(0, ANTEPRIME);
-  const cibiVisibili = tuttiCibi ? CIBI : CIBI.slice(0, ANTEPRIME);
+  const [scheda, setScheda] = useState('curiosita');
+  const schede = [
+    { id: 'curiosita', etichetta: `💡 ${t('cur_curiosita')}`, colore: '#b45309' },
+    { id: 'cibi', etichetta: `🍽 ${t('cur_cibi')}`, colore: '#15803d' },
+  ];
 
   return (
     <Modal visible transparent animationType="slide" onRequestClose={onChiudi} statusBarTranslucent>
@@ -29,53 +28,51 @@ export default function PannelloCuriosita({ t, lingua, onApriCuriosita, onApriCi
             <Text style={styles.chiudiTesto}>✕</Text>
           </Pressable>
         </View>
+        <View style={styles.schede}>
+          {schede.map((s) => {
+            const attiva = scheda === s.id;
+            return (
+              <Pressable
+                key={s.id}
+                onPress={() => setScheda(s.id)}
+                accessibilityRole="tab"
+                accessibilityState={{ selected: attiva }}
+                style={[styles.scheda, attiva && { borderBottomColor: s.colore }]}
+              >
+                <Text style={[styles.etichettaScheda, { color: attiva ? s.colore : '#64748b' }]}>{s.etichetta}</Text>
+              </Pressable>
+            );
+          })}
+        </View>
         <ScrollView contentContainerStyle={styles.contenuto}>
-          <View style={styles.sezione}>
-            <View style={styles.rigaSezione}>
-              <Text style={[styles.nomeSezione, { color: '#b45309' }]}>💡 {t('cur_curiosita')}</Text>
-              {CURIOSITA.length > ANTEPRIME && (
-                <Pressable onPress={() => setTuttiCuriosita((a) => !a)}>
-                  <Text style={styles.vediTutte}>
-                    {tuttiCuriosita ? t('cur_meno') : t('cur_vedi_tutte').replace('{n}', CURIOSITA.length)}
-                  </Text>
-                </Pressable>
-              )}
+          {scheda === 'curiosita' ? (
+            <View style={styles.sezione}>
+              {CURIOSITA.map((c) => (
+                <RigaElenco
+                  key={c.id}
+                  foto={fotoCuriosita(c)}
+                  titolo={testoLocalizzato(c.titolo, lingua)}
+                  sottotitolo={c.sestiere}
+                  onPress={() => onApriCuriosita(c.id)}
+                />
+              ))}
             </View>
-            {curiositaVisibili.map((c) => (
-              <RigaElenco
-                key={c.id}
-                foto={fotoCuriosita(c)}
-                titolo={testoLocalizzato(c.titolo, lingua)}
-                sottotitolo={c.sestiere}
-                onPress={() => onApriCuriosita(c.id)}
-              />
-            ))}
-          </View>
-
-          <View style={styles.sezione}>
-            <View style={styles.rigaSezione}>
-              <Text style={[styles.nomeSezione, { color: '#15803d' }]}>🍽 {t('cur_cibi')}</Text>
-              {CIBI.length > ANTEPRIME && (
-                <Pressable onPress={() => setTuttiCibi((a) => !a)}>
-                  <Text style={styles.vediTutte}>
-                    {tuttiCibi ? t('cur_meno') : t('cur_vedi_tutti').replace('{n}', CIBI.length)}
-                  </Text>
-                </Pressable>
-              )}
+          ) : (
+            <View style={styles.sezione}>
+              <Text style={styles.legenda}>{PORTATE.map((p) => t(`cur_portata_${p}`)).join('  ·  ')}</Text>
+              {CIBI.map((c) => (
+                <RigaElenco
+                  key={c.id}
+                  foto={fotoCibo(c)}
+                  icona={ICONE_PORTATA[c.portata]}
+                  titolo={c.nome}
+                  chip={c.portata ? t(`cur_portata_${c.portata}`) : c.certificazione || null}
+                  sottotitolo={anteprima(c.testo, lingua)}
+                  onPress={() => onApriCibo(c.id)}
+                />
+              ))}
             </View>
-            <Text style={styles.legenda}>{PORTATE.map((p) => t(`cur_portata_${p}`)).join('  ·  ')}</Text>
-            {cibiVisibili.map((c) => (
-              <RigaElenco
-                key={c.id}
-                foto={fotoCibo(c)}
-                icona={ICONE_PORTATA[c.portata]}
-                titolo={c.nome}
-                chip={c.portata ? t(`cur_portata_${c.portata}`) : null}
-                sottotitolo={anteprima(c.testo, lingua)}
-                onPress={() => onApriCibo(c.id)}
-              />
-            ))}
-          </View>
+          )}
         </ScrollView>
       </View>
     </Modal>
@@ -109,11 +106,11 @@ const styles = StyleSheet.create({
   titolo: { fontSize: 20, fontWeight: '800', color: '#0f3d5e' },
   chiudi: { width: 34, height: 34, borderRadius: 17, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center' },
   chiudiTesto: { fontSize: 16, color: '#0f172a' },
-  contenuto: { paddingHorizontal: 20, paddingBottom: 20, gap: 18 },
+  schede: { flexDirection: 'row', marginHorizontal: 20, marginBottom: 12, borderBottomWidth: 1, borderBottomColor: '#e2e8f0' },
+  scheda: { flex: 1, alignItems: 'center', paddingVertical: 10, borderBottomWidth: 3, borderBottomColor: 'transparent' },
+  etichettaScheda: { fontSize: 15, fontWeight: '800' },
+  contenuto: { paddingHorizontal: 20, paddingBottom: 20 },
   sezione: { gap: 10 },
-  rigaSezione: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  nomeSezione: { fontSize: 15, fontWeight: '800' },
-  vediTutte: { fontSize: 13, fontWeight: '700', color: '#0f3d5e' },
   riga: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: '#fff', borderRadius: 14, padding: 10 },
   miniatura: { width: 56, height: 56, borderRadius: 10 },
   miniaturaVuota: { width: 56, height: 56, borderRadius: 10, backgroundColor: '#ecfdf5', alignItems: 'center', justifyContent: 'center' },

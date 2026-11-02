@@ -15,6 +15,9 @@ export function testoCibo(c, lingua, t) {
   if (c.portata) righe.push(t(`cur_portata_${c.portata}`).replace(/^\S+\s/, ''));
   const testo = testoLocalizzato(c.testo, lingua);
   if (testo) righe.push('', testo);
+  if (c.certificazione) righe.push(`${t('cur_certificazione')}: ${c.certificazione}`);
+  const periodo = testoLocalizzato(c.periodo, lingua);
+  if (periodo) righe.push(`${t('cur_periodo')}: ${periodo}`);
   if (r) {
     const porzioni = r.resa ? testoLocalizzato(r.resa, lingua) : typeof r.porzioni === 'number' ? t('cur_persone').replace('{n}', r.porzioni) : r.porzioni;
     const preparazione = testoLocalizzato(r.preparazione, lingua);
