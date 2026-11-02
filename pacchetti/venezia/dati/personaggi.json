@@ -121,11 +121,18 @@
       "luoghiNote": {
         "basilica-san-marco": {
           "tipo": {
-            "it": "Legame indiretto",
-            "en": "Indirect link",
-            "fr": "Lien indirect",
-            "de": "Indirekter Bezug",
-            "es": "Vínculo indirecto"
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Il padre di Vivaldi, Giovanni Battista, era violinista nell'orchestra della Basilica. È un luogo utile per raccontare l'ambiente musicale nel quale crebbe Antonio, ma non va presentato come sede della sua attività stabile.",
+            "en": "Vivaldi's father, Giovanni Battista, was a violinist in the Basilica's orchestra. It is a useful place for describing the musical environment in which Antonio grew up, but it should not be presented as the seat of his stable activity.",
+            "fr": "Le père de Vivaldi, Giovanni Battista, était violoniste dans l'orchestre de la basilique. C'est un lieu utile pour évoquer le milieu musical dans lequel grandit Antonio, mais il ne doit pas être présenté comme le siège de son activité stable.",
+            "de": "Vivaldis Vater, Giovanni Battista, war Geiger im Orchester der Basilika. Der Ort eignet sich, um das musikalische Umfeld zu schildern, in dem Antonio aufwuchs, sollte aber nicht als Sitz seiner festen Tätigkeit dargestellt werden.",
+            "es": "El padre de Vivaldi, Giovanni Battista, era violinista en la orquesta de la basílica. Es un lugar útil para describir el ambiente musical en el que creció Antonio, pero no debe presentarse como sede de su actividad estable."
           }
         },
         "chiesa-santa-maria-della-pieta": {
@@ -135,6 +142,13 @@
             "fr": "Lien direct",
             "de": "Direkter Bezug",
             "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Vivaldi fu assunto nel 1703 come maestro di violino presso il Pio Ospedale della Pietà, dove insegnò e compose per le giovani musiciste dell'istituto. La chiesa attuale fu costruita dopo il periodo principale della sua attività: il legame riguarda soprattutto l'istituzione e il suo complesso storico.",
+            "en": "Vivaldi was hired in 1703 as violin master at the Pio Ospedale della Pietà, where he taught and composed for the young women musicians of the institution. The present church was built after the main period of his activity: the link concerns mainly the institution and its historic complex.",
+            "fr": "Vivaldi fut engagé en 1703 comme maître de violon au Pio Ospedale della Pietà, où il enseigna et composa pour les jeunes musiciennes de l'institution. L'église actuelle fut construite après la période principale de son activité : le lien concerne surtout l'institution et son ensemble historique.",
+            "de": "Vivaldi wurde 1703 als Violinlehrer am Pio Ospedale della Pietà eingestellt, wo er für die jungen Musikerinnen des Instituts unterrichtete und komponierte. Die heutige Kirche wurde nach der Hauptphase seiner Tätigkeit errichtet: Der Bezug betrifft vor allem die Institution und ihren historischen Komplex.",
+            "es": "Vivaldi fue contratado en 1703 como maestro de violín en el Pío Hospital de la Pietà, donde enseñó y compuso para las jóvenes musicistas de la institución. La iglesia actual se construyó después del periodo principal de su actividad: el vínculo se refiere sobre todo a la institución y a su conjunto histórico."
           }
         },
         "chiesa-san-giovanni-in-bragora": {
@@ -144,6 +158,13 @@
             "fr": "Lien direct",
             "de": "Direkter Bezug",
             "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui Vivaldi ricevette il battesimo. Una lapide all'interno della chiesa ricorda il legame con il compositore. È uno dei riferimenti più significativi per raccontare le sue origini veneziane.",
+            "en": "Vivaldi was baptised here. A plaque inside the church commemorates his link with the composer. It is one of the most significant references for telling his Venetian origins.",
+            "fr": "Vivaldi y reçut le baptême. Une plaque à l'intérieur de l'église rappelle le lien avec le compositeur. C'est l'un des repères les plus significatifs pour raconter ses origines vénitiennes.",
+            "de": "Hier wurde Vivaldi getauft. Eine Gedenktafel im Inneren der Kirche erinnert an die Verbindung mit dem Komponisten. Sie ist einer der bedeutendsten Bezugspunkte, um seine venezianische Herkunft zu erzählen.",
+            "es": "Aquí fue bautizado Vivaldi. Una lápida en el interior de la iglesia recuerda su vínculo con el compositor. Es uno de los referentes más significativos para contar sus orígenes venecianos."
           }
         }
       }
@@ -248,6 +269,13 @@
             "fr": "Lien direct",
             "de": "Direkter Bezug",
             "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "San Polo 2794. È la casa in cui nacque il 25 febbraio 1707 e dove trascorse parte dell'infanzia. Oggi ospita il museo dedicato alla sua vita e al teatro.",
+            "en": "San Polo 2794. This is the house where he was born on 25 February 1707 and where he spent part of his childhood. Today it houses the museum dedicated to his life and to the theatre.",
+            "fr": "San Polo 2794. C'est la maison où il naquit le 25 février 1707 et où il passa une partie de son enfance. Elle abrite aujourd'hui le musée consacré à sa vie et au théâtre.",
+            "de": "San Polo 2794. Hier wurde er am 25. Februar 1707 geboren, und hier verbrachte er einen Teil seiner Kindheit. Heute beherbergt das Haus das Museum, das seinem Leben und dem Theater gewidmet ist.",
+            "es": "San Polo 2794. Es la casa donde nació el 25 de febrero de 1707 y donde pasó parte de su infancia. Hoy alberga el museo dedicado a su vida y al teatro."
           }
         },
         "teatro-carlo-goldoni": {
@@ -257,6 +285,13 @@
             "fr": "Lien direct",
             "de": "Direkter Bezug",
             "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui Goldoni lavorò dal 1753 al 1762 per la famiglia Vendramin. È uno dei luoghi più importanti per comprendere la sua produzione teatrale veneziana. Il teatro esiste ancora oggi con il suo nome.",
+            "en": "Goldoni worked here from 1753 to 1762 for the Vendramin family. It is one of the most important places for understanding his theatrical output in Venice. The theatre still exists today under his name.",
+            "fr": "Goldoni y travailla de 1753 à 1762 pour la famille Vendramin. C'est l'un des lieux les plus importants pour comprendre sa production théâtrale vénitienne. Le théâtre existe encore aujourd'hui sous son nom.",
+            "de": "Goldoni arbeitete hier von 1753 bis 1762 für die Familie Vendramin. Es ist einer der wichtigsten Orte, um seine venezianische Theaterproduktion zu verstehen. Das Theater trägt noch heute seinen Namen.",
+            "es": "Goldoni trabajó aquí de 1753 a 1762 para la familia Vendramin. Es uno de los lugares más importantes para comprender su producción teatral veneciana. El teatro sigue existiendo hoy con su nombre."
           }
         }
       }
