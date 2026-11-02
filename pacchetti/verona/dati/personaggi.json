@@ -262,6 +262,200 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "michele-sanmicheli",
+      "nome": "Michele Sanmicheli",
+      "nascita": 1484,
+      "morte": 1559,
+      "professione": {
+        "it": "Architetto e ingegnere militare",
+        "en": "Architect and military engineer",
+        "fr": "Architecte et ingénieur militaire",
+        "de": "Architekt und Militäringenieur",
+        "es": "Arquitecto e ingeniero militar"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "1484/1488",
+        "en": "1484/1488",
+        "fr": "1484/1488",
+        "de": "1484/1488",
+        "es": "1484/1488"
+      },
+      "ritratto": {
+        "autore": "Giovanni Battista Cecchi",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Michele Sanmicheli fu uno dei più importanti architetti del Rinascimento italiano e protagonista della trasformazione urbanistica e militare di Verona nel Cinquecento. Dopo aver maturato esperienze a Roma, lavorò per la Repubblica di Venezia come ingegnere delle fortificazioni. A Verona progettò porte monumentali, palazzi e architetture religiose, introducendo un linguaggio architettonico ispirato all'antichità classica e alla grande tradizione rinascimentale. Le sue opere contribuirono profondamente a definire l'aspetto della città.",
+        "en": "Michele Sanmicheli was one of the most important architects of the Italian Renaissance and the driving force behind the urban and military transformation of Verona in the sixteenth century. After gaining experience in Rome, he worked for the Republic of Venice as an engineer of fortifications. In Verona he designed monumental gates, palaces and religious buildings, introducing an architectural language inspired by classical antiquity and the great Renaissance tradition. His works deeply shaped the appearance of the city.",
+        "fr": "Michele Sanmicheli fut l'un des plus importants architectes de la Renaissance italienne et l'acteur de la transformation urbaine et militaire de Vérone au XVIe siècle. Après avoir acquis de l'expérience à Rome, il travailla pour la République de Venise comme ingénieur des fortifications. À Vérone, il conçut des portes monumentales, des palais et des édifices religieux, introduisant un langage architectural inspiré de l'Antiquité classique et de la grande tradition de la Renaissance. Ses œuvres contribuèrent profondément à définir l'aspect de la ville.",
+        "de": "Michele Sanmicheli gehörte zu den bedeutendsten Architekten der italienischen Renaissance und prägte im 16. Jahrhundert maßgeblich den städtebaulichen und militärischen Wandel Veronas. Nach Erfahrungen in Rom arbeitete er für die Republik Venedig als Festungsingenieur. In Verona entwarf er monumentale Tore, Paläste und Sakralbauten und führte eine Formensprache ein, die von der klassischen Antike und der großen Renaissance-Tradition inspiriert war. Seine Werke prägten das Erscheinungsbild der Stadt nachhaltig.",
+        "es": "Michele Sanmicheli fue uno de los arquitectos más importantes del Renacimiento italiano y protagonista de la transformación urbanística y militar de Verona en el siglo XVI. Tras adquirir experiencia en Roma, trabajó para la República de Venecia como ingeniero de fortificaciones. En Verona proyectó puertas monumentales, palacios y edificios religiosos, introduciendo un lenguaje arquitectónico inspirado en la antigüedad clásica y en la gran tradición renacentista. Sus obras contribuyeron profundamente a definir el aspecto de la ciudad."
+      },
+      "curiosita": {
+        "it": [
+          "Lavorò per la Repubblica di Venezia come ingegnere militare e progettò importanti sistemi difensivi.",
+          "Le sue porte cittadine uniscono esigenze militari e soluzioni architettoniche monumentali.",
+          "Giorgio Vasari lo ricordò nelle sue Vite, riconoscendone il valore artistico.",
+          "Il suo linguaggio architettonico influenzò profondamente l'architettura veneta dei secoli successivi."
+        ],
+        "en": [
+          "He worked for the Republic of Venice as a military engineer and designed important defensive systems.",
+          "His city gates combine military needs with monumental architectural solutions.",
+          "Giorgio Vasari remembered him in his Lives, acknowledging his artistic value.",
+          "His architectural language deeply influenced Venetian architecture in the following centuries."
+        ],
+        "fr": [
+          "Il travailla pour la République de Venise comme ingénieur militaire et conçut d'importants systèmes défensifs.",
+          "Ses portes de ville allient exigences militaires et solutions architecturales monumentales.",
+          "Giorgio Vasari le rappela dans ses Vies, en reconnaissant sa valeur artistique.",
+          "Son langage architectural influença profondément l'architecture vénitienne des siècles suivants."
+        ],
+        "de": [
+          "Er arbeitete als Militäringenieur für die Republik Venedig und entwarf bedeutende Verteidigungsanlagen.",
+          "Seine Stadttore verbinden militärische Anforderungen mit monumentalen architektonischen Lösungen.",
+          "Giorgio Vasari erinnerte in seinen Viten an ihn und würdigte seinen künstlerischen Wert.",
+          "Seine architektonische Formensprache beeinflusste die venetische Architektur der folgenden Jahrhunderte nachhaltig."
+        ],
+        "es": [
+          "Trabajó para la República de Venecia como ingeniero militar y proyectó importantes sistemas defensivos.",
+          "Sus puertas urbanas unen exigencias militares y soluciones arquitectónicas monumentales.",
+          "Giorgio Vasari lo recordó en sus Vidas, reconociendo su valor artístico.",
+          "Su lenguaje arquitectónico influyó profundamente en la arquitectura véneta de los siglos siguientes."
+        ]
+      },
+      "luoghi": [
+        "porta-nuova",
+        "porta-palio",
+        "palazzo-bevilacqua",
+        "palazzo-canossa",
+        "palazzo-pompei",
+        "san-bernardino",
+        "san-giorgio-in-braida"
+      ],
+      "luoghiNote": {
+        "porta-nuova": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Costruita tra il 1532 e il 1540 su progetto di Sanmicheli, fu concepita principalmente come struttura militare, con murature robuste e soluzioni adatte alla difesa della città.",
+            "en": "Built between 1532 and 1540 to Sanmicheli's design, it was conceived mainly as a military structure, with sturdy walls and solutions suited to the city's defence.",
+            "fr": "Construite entre 1532 et 1540 d'après un projet de Sanmicheli, elle fut conçue avant tout comme un ouvrage militaire, avec des murailles robustes et des solutions adaptées à la défense de la ville.",
+            "de": "Zwischen 1532 und 1540 nach einem Entwurf Sanmichelis errichtet, war sie vor allem als Militärbauwerk konzipiert, mit robusten Mauern und Lösungen, die der Verteidigung der Stadt dienten.",
+            "es": "Construida entre 1532 y 1540 según un proyecto de Sanmicheli, fue concebida principalmente como estructura militar, con muros robustos y soluciones adecuadas para la defensa de la ciudad."
+          }
+        },
+        "porta-palio": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Realizzata tra il 1542 e il 1555, è una delle opere più importanti di Sanmicheli. Si distingue per la monumentalità della struttura e per il ricco linguaggio architettonico rinascimentale.",
+            "en": "Built between 1542 and 1555, it is one of Sanmicheli's most important works. It stands out for the monumental character of its structure and its rich Renaissance architectural language.",
+            "fr": "Réalisée entre 1542 et 1555, c'est l'une des œuvres les plus importantes de Sanmicheli. Elle se distingue par le caractère monumental de sa structure et par son riche langage architectural renaissant.",
+            "de": "Zwischen 1542 und 1555 errichtet, gehört sie zu Sanmichelis bedeutendsten Werken. Sie zeichnet sich durch die Monumentalität ihrer Struktur und ihre reiche Renaissance-Formensprache aus.",
+            "es": "Realizada entre 1542 y 1555, es una de las obras más importantes de Sanmicheli. Destaca por la monumentalidad de su estructura y por su rico lenguaje arquitectónico renacentista."
+          }
+        },
+        "palazzo-bevilacqua": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Uno dei più importanti palazzi rinascimentali progettati dall'architetto. La facciata è caratterizzata da un ricco apparato decorativo e da un'imponente composizione architettonica.",
+            "en": "One of the most important Renaissance palaces designed by the architect. The façade is marked by a rich decorative apparatus and an imposing architectural composition.",
+            "fr": "L'un des plus importants palais de la Renaissance conçus par l'architecte. La façade se caractérise par un riche décor et une composition architecturale imposante.",
+            "de": "Einer der bedeutendsten Renaissancepaläste des Architekten. Die Fassade zeichnet sich durch einen reichen Dekorapparat und eine imposante architektonische Komposition aus.",
+            "es": "Uno de los palacios renacentistas más importantes diseñados por el arquitecto. La fachada se caracteriza por un rico aparato decorativo y una imponente composición arquitectónica."
+          }
+        },
+        "palazzo-canossa": {
+          "tipo": {
+            "it": "Legame storico – attribuzione non certa",
+            "en": "Historical link – uncertain attribution",
+            "fr": "Lien historique – attribution incertaine",
+            "de": "Historischer Bezug – unsichere Zuschreibung",
+            "es": "Vínculo histórico – atribución incierta"
+          },
+          "testo": {
+            "it": "Edificio rinascimentale attribuito a Sanmicheli, caratterizzato da una facciata monumentale che testimonia la sua capacità di adattare i modelli classici alle esigenze dell'architettura civile veronese.",
+            "en": "Renaissance building attributed to Sanmicheli, marked by a monumental façade that shows his ability to adapt classical models to the needs of Veronese civic architecture.",
+            "fr": "Édifice de la Renaissance attribué à Sanmicheli, caractérisé par une façade monumentale qui témoigne de sa capacité à adapter les modèles classiques aux besoins de l'architecture civile véronaise.",
+            "de": "Dem Sanmicheli zugeschriebener Renaissancebau mit einer monumentalen Fassade, die zeigt, wie er klassische Vorbilder den Anforderungen der Veroneser Profanarchitektur anzupassen verstand.",
+            "es": "Edificio renacentista atribuido a Sanmicheli, caracterizado por una fachada monumental que muestra su capacidad para adaptar los modelos clásicos a las necesidades de la arquitectura civil veronesa."
+          }
+        },
+        "palazzo-pompei": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Progettato da Sanmicheli, oggi ospita il Museo di Storia Naturale. È uno degli esempi più rappresentativi della sua architettura civile.",
+            "en": "Designed by Sanmicheli, it today houses the Natural History Museum. It is one of the most representative examples of his civic architecture.",
+            "fr": "Conçu par Sanmicheli, il abrite aujourd'hui le Musée d'histoire naturelle. C'est l'un des exemples les plus représentatifs de son architecture civile.",
+            "de": "Von Sanmicheli entworfen, beherbergt er heute das Naturhistorische Museum. Er ist eines der repräsentativsten Beispiele seiner Profanarchitektur.",
+            "es": "Proyectado por Sanmicheli, hoy alberga el Museo de Historia Natural. Es uno de los ejemplos más representativos de su arquitectura civil."
+          }
+        },
+        "san-bernardino": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "La cappella, progettata da Sanmicheli, è uno degli esempi più raffinati della sua produzione religiosa e testimonia la sua conoscenza dell'architettura classica.",
+            "en": "The chapel, designed by Sanmicheli, is one of the most refined examples of his religious work and shows his knowledge of classical architecture.",
+            "fr": "La chapelle, conçue par Sanmicheli, est l'un des exemples les plus raffinés de sa production religieuse et témoigne de sa connaissance de l'architecture classique.",
+            "de": "Die von Sanmicheli entworfene Kapelle gehört zu den erlesensten Beispielen seines sakralen Schaffens und zeugt von seiner Kenntnis der klassischen Architektur.",
+            "es": "La capilla, proyectada por Sanmicheli, es uno de los ejemplos más refinados de su producción religiosa y muestra su conocimiento de la arquitectura clásica."
+          }
+        },
+        "san-giorgio-in-braida": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Sanmicheli intervenne nella progettazione della cupola e del campanile, contribuendo all'aspetto architettonico del complesso religioso.",
+            "en": "Sanmicheli took part in the design of the dome and bell tower, contributing to the architectural appearance of the religious complex.",
+            "fr": "Sanmicheli participa à la conception de la coupole et du clocher, contribuant à l'aspect architectural de l'ensemble religieux.",
+            "de": "Sanmicheli war an der Planung der Kuppel und des Glockenturms beteiligt und prägte so das architektonische Erscheinungsbild des Kirchenkomplexes.",
+            "es": "Sanmicheli intervino en el proyecto de la cúpula y del campanario, contribuyendo al aspecto arquitectónico del complejo religioso."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
