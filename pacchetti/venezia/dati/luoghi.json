@@ -9837,6 +9837,49 @@
 "de": "Der Überlieferung nach wurde Marco Polo in dieser Kirche im Sestiere Castello bestattet. Sein Grab wurde jedoch nicht sicher identifiziert, und heute lässt sich keine genaue Grabstelle angeben. Die Kirche ist daher ein Ort der Erinnerung und der Tradition, kein besuchbares Grab.",
 "es": "Según la tradición, Marco Polo fue enterrado en esta iglesia, en el sestiere de Castello. Sin embargo, su tumba no ha sido identificada con certeza y hoy no es posible señalar un lugar preciso de sepultura. La iglesia es, por tanto, un lugar ligado a la memoria y a la tradición, no una tumba que se pueda visitar."
 }
+},
+{
+"id": "palazzo-malipiero",
+"nome": "Palazzo Malipiero",
+"categoria": "palazzi",
+"latitudine": 45.433097,
+"longitudine": 12.328017,
+"sestiere": "San Marco",
+"fermata": "San Samuele",
+"sito": "https://palazzomalipiero.it",
+"nota": {
+"it": "Orari non disponibili: verificare sul sito ufficiale prima della visita.",
+"en": "Opening hours not available: please check the official website before your visit.",
+"fr": "Horaires non disponibles : consultez le site officiel avant votre visite.",
+"de": "Öffnungszeiten nicht verfügbar: Bitte prüfen Sie vor dem Besuch die offizielle Website.",
+"es": "Horarios no disponibles: consulte el sitio oficial antes de la visita."
+},
+"personaggio": "giacomo-casanova",
+"immagine": {
+"autore": "Didier Descouens",
+"licenza": "CC BY-SA 4.0"
+},
+"galleria": [
+{
+"autore": "Abxbay",
+"licenza": "CC BY-SA 4.0"
+},
+{
+"autore": "Abxbay",
+"licenza": "CC BY-SA 4.0"
+},
+{
+"autore": "Armin Kleiner",
+"licenza": "CC BY-SA 4.0"
+}
+],
+"descrizione": {
+"it": "A partire dal 1740 Casanova frequentò assiduamente il palazzo, grazie alla protezione del senatore Alvise II Malipiero, che lo introdusse negli ambienti dell'alta società veneziana. Qui conobbe persone influenti e frequentò numerose conversazioni mondane. Il rapporto si interruppe bruscamente dopo una vicenda sentimentale che provocò l'allontanamento di Casanova.",
+"en": "From 1740 Casanova frequented the palace assiduously, thanks to the protection of Senator Alvise II Malipiero, who introduced him to Venetian high society. Here he met influential people and attended many society gatherings. The relationship ended abruptly after a love affair that led to Casanova's removal.",
+"fr": "À partir de 1740, Casanova fréquenta assidûment le palais, grâce à la protection du sénateur Alvise II Malipiero, qui l'introduisit dans les milieux de la haute société vénitienne. Il y rencontra des personnes influentes et participa à de nombreuses conversations mondaines. La relation prit brusquement fin après une aventure sentimentale qui entraîna son éloignement.",
+"de": "Ab 1740 verkehrte Casanova regelmäßig im Palazzo, dank des Schutzes von Senator Alvise II Malipiero, der ihn in die Kreise der venezianischen Oberschicht einführte. Hier lernte er einflussreiche Persönlichkeiten kennen und besuchte zahlreiche gesellschaftliche Gespräche. Die Beziehung endete abrupt nach einer Liebesaffäre, die zu Casanovas Entfernung führte.",
+"es": "A partir de 1740 Casanova frecuentó asiduamente el palacio, gracias a la protección del senador Alvise II Malipiero, que lo introdujo en los ambientes de la alta sociedad veneciana. Aquí conoció a personas influyentes y asistió a numerosas tertulias mundanas. La relación se interrumpió bruscamente tras una aventura sentimental que provocó el alejamiento de Casanova."
+}
 }
 ]
 }
