@@ -4225,6 +4225,38 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=194092676"
         }
       ]
+    },
+    {
+      "id": "chiesa-di-santa-caterina",
+      "nome": "Chiesa di Santa Caterina",
+      "categoria": "chiese",
+      "latitudine": 45.40441331791773,
+      "longitudine": 11.884097063235094,
+      "descrizione": {
+        "it": "Qui fu battezzato Gianvincenzo, figlio di Galileo. Il riferimento è quindi alla vita familiare dello scienziato durante il soggiorno padovano, non alla sua attività scientifica.",
+        "en": "Here Gianvincenzo, Galileo's son, was baptised. The reference is therefore to the scientist's family life during his stay in Padua, not to his scientific work.",
+        "fr": "C'est ici que fut baptisé Gianvincenzo, fils de Galilée. Le lien concerne donc la vie familiale du savant pendant son séjour padouan, et non son activité scientifique.",
+        "de": "Hier wurde Gianvincenzo, der Sohn Galileis, getauft. Der Bezug betrifft also das Familienleben des Gelehrten während seines Aufenthalts in Padua, nicht seine wissenschaftliche Tätigkeit.",
+        "es": "Aquí fue bautizado Gianvincenzo, hijo de Galileo. La referencia es, por tanto, a la vida familiar del científico durante su estancia en Padua, y no a su actividad científica."
+      },
+      "personaggio": "galileo-galilei",
+      "immagine": {
+        "autore": "UrbisPatavii",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=21180135"
+      },
+      "galleria": [
+        {
+          "autore": "UrbisPatavii",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=21180134"
+        },
+        {
+          "autore": "UrbisPatavii",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=23964884"
+        }
+      ]
     }
   ]
 }

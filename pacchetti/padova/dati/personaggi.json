@@ -234,7 +234,8 @@
       },
       "luoghi": [
         "palazzo-del-bo",
-        "chiesa-di-santa-sofia"
+        "chiesa-di-santa-sofia",
+        "chiesa-di-santa-caterina"
       ],
       "luoghiNote": {
         "palazzo-del-bo": {
@@ -267,6 +268,22 @@
             "fr": "Elle conserve les fonts baptismaux provenant de l'église de Santa Caterina, où fut baptisé le fils de Galilée. Une copie du certificat de baptême y est également présente.",
             "de": "Hier befindet sich das Taufbecken aus der Kirche Santa Caterina, wo Galileis Sohn getauft wurde. Außerdem ist eine Kopie der Taufurkunde zu sehen.",
             "es": "Conserva la pila bautismal procedente de la iglesia de Santa Caterina, donde fue bautizado el hijo de Galileo. También se conserva una copia del certificado de bautismo."
+          }
+        },
+        "chiesa-di-santa-caterina": {
+          "tipo": {
+            "it": "Legame familiare",
+            "en": "Family link",
+            "fr": "Lien familial",
+            "de": "Familiärer Bezug",
+            "es": "Vínculo familiar"
+          },
+          "testo": {
+            "it": "Qui fu battezzato Gianvincenzo, figlio di Galileo. Il riferimento è quindi alla vita familiare dello scienziato durante il soggiorno padovano, non alla sua attività scientifica.",
+            "en": "Here Gianvincenzo, Galileo's son, was baptised. The reference is therefore to the scientist's family life during his stay in Padua, not to his scientific work.",
+            "fr": "C'est ici que fut baptisé Gianvincenzo, fils de Galilée. Le lien concerne donc la vie familiale du savant pendant son séjour padouan, et non son activité scientifique.",
+            "de": "Hier wurde Gianvincenzo, der Sohn Galileis, getauft. Der Bezug betrifft also das Familienleben des Gelehrten während seines Aufenthalts in Padua, nicht seine wissenschaftliche Tätigkeit.",
+            "es": "Aquí fue bautizado Gianvincenzo, hijo de Galileo. La referencia es, por tanto, a la vida familiar del científico durante su estancia en Padua, y no a su actividad científica."
           }
         }
       }
