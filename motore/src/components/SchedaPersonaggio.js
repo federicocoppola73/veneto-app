@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { testoLocalizzato } from '../i18n';
 import { immagine } from '../risorse';
@@ -89,6 +89,16 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
             </>
           ) : null}
 
+          {p.ascolta ? (
+            <>
+              <Text style={styles.sottotitolo}>{t('pers_ascolta')}</Text>
+              <Pressable onPress={() => Linking.openURL(p.ascolta.url).catch(() => {})} accessibilityRole="link" style={styles.ascolta}>
+                <Text style={styles.ascoltaTitolo}>▶ {testoLocalizzato(p.ascolta.titolo, lingua)}</Text>
+                <Text style={styles.ascoltaDescrizione}>{testoLocalizzato(p.ascolta.descrizione, lingua)}</Text>
+              </Pressable>
+            </>
+          ) : null}
+
           {luoghi.length ? (
             <>
               <Text style={styles.sottotitolo}>{t('pers_luoghi')}</Text>
@@ -150,6 +160,9 @@ const styles = StyleSheet.create({
   sottotitolo: { fontSize: 15, fontWeight: '800', color: '#0f172a', marginTop: 8 },
   testo: { fontSize: 15, lineHeight: 22, color: '#334155' },
   voce: { fontSize: 14, lineHeight: 20, color: '#334155' },
+  ascolta: { backgroundColor: '#fff', borderRadius: 14, padding: 12, gap: 4 },
+  ascoltaTitolo: { fontSize: 15, fontWeight: '800', color: '#b91c1c' },
+  ascoltaDescrizione: { fontSize: 13, lineHeight: 18, color: '#475569' },
   riga: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: '#fff', borderRadius: 14, padding: 10 },
   miniatura: { width: 48, height: 48, borderRadius: 10, backgroundColor: '#e2e8f0' },
   miniaturaVuota: { width: 48, height: 48, borderRadius: 10, backgroundColor: '#e0eef7' },
