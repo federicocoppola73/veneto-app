@@ -234,7 +234,8 @@
       },
       "luoghi": [
         "palazzo-del-bo",
-        "chiesa-di-santa-sofia"
+        "chiesa-di-santa-sofia",
+        "casa-di-galileo"
       ],
       "luoghiNote": {
         "palazzo-del-bo": {
@@ -267,6 +268,22 @@
             "fr": "Elle conserve les fonts baptismaux provenant de l'église de Santa Caterina, où fut baptisé le fils de Galilée. Une copie du certificat de baptême y est également présente.",
             "de": "Hier befindet sich das Taufbecken aus der Kirche Santa Caterina, wo Galileis Sohn getauft wurde. Außerdem ist eine Kopie der Taufurkunde zu sehen.",
             "es": "Conserva la pila bautismal procedente de la iglesia de Santa Caterina, donde fue bautizado el hijo de Galileo. También se conserva una copia del certificado de bautismo."
+          }
+        },
+        "casa-di-galileo": {
+          "tipo": {
+            "it": "Legame biografico",
+            "en": "Biographical link",
+            "fr": "Lien biographique",
+            "de": "Biografischer Bezug",
+            "es": "Vínculo biográfico"
+          },
+          "testo": {
+            "it": "È l'abitazione tradizionalmente identificata come la casa in cui Galileo visse dal 1601 al 1610. Qui avrebbe organizzato il proprio laboratorio e realizzato alcune delle sue ricerche e osservazioni. La precisa identificazione dell'edificio è stata oggetto di studi storici.",
+            "en": "It is the house traditionally identified as the one where Galileo lived from 1601 to 1610. Here he would have set up his workshop and carried out some of his research and observations. The exact identification of the building has been the subject of historical studies.",
+            "fr": "C'est la maison traditionnellement identifiée comme celle où Galilée vécut de 1601 à 1610. Il y aurait installé son laboratoire et mené certaines de ses recherches et observations. L'identification précise du bâtiment a fait l'objet d'études historiques.",
+            "de": "Es ist das Haus, das traditionell als jenes identifiziert wird, in dem Galilei von 1601 bis 1610 lebte. Hier soll er sein Labor eingerichtet und einige seiner Forschungen und Beobachtungen durchgeführt haben. Die genaue Identifizierung des Gebäudes ist Gegenstand historischer Untersuchungen gewesen.",
+            "es": "Es la vivienda identificada tradicionalmente como la casa en la que Galileo vivió desde 1601 hasta 1610. Aquí habría organizado su laboratorio y realizado algunas de sus investigaciones y observaciones. La identificación precisa del edificio ha sido objeto de estudios históricos."
           }
         }
       }
