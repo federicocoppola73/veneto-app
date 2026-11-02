@@ -38,7 +38,15 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
         <ScrollView contentContainerStyle={styles.corpo}>
           <View style={styles.intestazione}>
             {p.ritratto ? (
-              <Image source={immagine(`personaggi/${p.id}.webp`)} style={styles.ritratto} />
+              <View>
+                <Image source={immagine(`personaggi/${p.id}.webp`)} style={styles.ritratto} />
+                {p.ritratto.autore ? (
+                  <Text style={styles.credito}>
+                    {p.ritratto.autore}
+                    {p.ritratto.licenza ? ` · ${p.ritratto.licenza}` : ''}
+                  </Text>
+                ) : null}
+              </View>
             ) : (
               <View style={styles.ritrattoVuoto}>
                 <Text style={styles.iniziali}>{iniziali}</Text>
@@ -125,6 +133,7 @@ const styles = StyleSheet.create({
   corpo: { paddingHorizontal: 22, paddingBottom: 16, gap: 10 },
   intestazione: { flexDirection: 'row', alignItems: 'center', gap: 14 },
   ritratto: { width: 96, height: 96, borderRadius: 16, backgroundColor: '#e2e8f0' },
+  credito: { fontSize: 10, color: '#64748b', marginTop: 4, width: 96 },
   ritrattoVuoto: { width: 96, height: 96, borderRadius: 16, backgroundColor: '#e0eef7', alignItems: 'center', justifyContent: 'center' },
   iniziali: { fontSize: 28, fontWeight: '800', color: '#0f3d5e' },
   testoIntestazione: { flex: 1, minWidth: 0, gap: 3 },
