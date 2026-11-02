@@ -1,0 +1,51 @@
+{
+  "_nota": "Personaggi famosi. Ritratti in assets/personaggi/<id>.webp (da aggiungere, con campo \"ritratto\"). Biografia, luoghi collegati e itinerari da completare.",
+  "personaggi": [
+    {
+      "id": "antonio-vivaldi",
+      "nome": "Antonio Vivaldi",
+      "nascita": 1678,
+      "morte": 1741,
+      "professione": {
+        "it": "Compositore e violinista",
+        "en": "Composer and violinist",
+        "fr": "Compositeur et violoniste",
+        "de": "Komponist und Geiger",
+        "es": "Compositor y violinista"
+      }
+    },
+    {
+      "id": "carlo-goldoni",
+      "nome": "Carlo Goldoni",
+      "nascita": 1707,
+      "morte": 1793,
+      "professione": {
+        "it": "Drammaturgo e scrittore",
+        "en": "Playwright and writer",
+        "fr": "Dramaturge et écrivain",
+        "de": "Dramatiker und Schriftsteller",
+        "es": "Dramaturgo y escritor"
+      }
+    },
+    {
+      "id": "marco-polo",
+      "nome": "Marco Polo",
+      "nascita": 1254,
+      "morte": 1324,
+      "professione": {
+        "it": "Esploratore e mercante",
+        "en": "Explorer and merchant",
+        "fr": "Explorateur et marchand",
+        "de": "Entdecker und Kaufmann",
+        "es": "Explorador y mercader"
+      },
+      "sintesi": {
+        "it": "Legato alla Venezia medievale e alla tradizione dei viaggi.",
+        "en": "Linked to medieval Venice and the tradition of travel.",
+        "fr": "Lié à la Venise médiévale et à la tradition des voyages.",
+        "de": "Verbunden mit dem mittelalterlichen Venedig und der Tradition des Reisens.",
+        "es": "Vinculado a la Venecia medieval y a la tradición de los viajes."
+      }
+    }
+  ]
+}

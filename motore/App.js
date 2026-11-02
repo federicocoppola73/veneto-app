@@ -27,6 +27,7 @@ import GuidaItinerario from './src/components/GuidaItinerario';
 import PannelloServizi from './src/components/PannelloServizi';
 import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
+import PannelloPersonaggi from './src/components/PannelloPersonaggi';
 import SchedaCuriosita from './src/components/SchedaCuriosita';
 import SchedaCibo from './src/components/SchedaCibo';
 import SchedaLuogoSalvato from './src/components/SchedaLuogoSalvato';
@@ -103,6 +104,7 @@ function Schermata({ linguaIniziale }) {
   const [pannelloServizi, setPannelloServizi] = useState(false);
   const [idServizio, setIdServizio] = useState(null);
   const [pannelloCuriosita, setPannelloCuriosita] = useState(false); // pagina Curiosità e cibi
+  const [pannelloPersonaggi, setPannelloPersonaggi] = useState(false); // pagina Personaggi famosi
   const [idCuriosita, setIdCuriosita] = useState(null); // scheda di una curiosità aperta
   const [idCibo, setIdCibo] = useState(null); // scheda di un piatto aperta
   const [lampadina, setLampadina] = useState(null); // 💡 temporanea sulla mappa dopo "Portami lì": { id, titolo, x, y }
@@ -651,6 +653,16 @@ function Schermata({ linguaIniziale }) {
     </Pressable>
   );
 
+  const pulsantePersonaggi = (
+    <Pressable
+      style={stilePulsanteMappa}
+      onPress={() => setPannelloPersonaggi(true)}
+      accessibilityLabel={t('pers_titolo')}
+    >
+      <Text style={styles.iconaServizi}>🎭</Text>
+    </Pressable>
+  );
+
   const apriTappa = (id) => {
     const punto = tuttiIPunti.find((p) => p.id === id);
     if (punto) mappaRef.current?.centraSu(punto);
@@ -781,6 +793,7 @@ function Schermata({ linguaIniziale }) {
                 onScegliLuogo={scegliLuogoSalvato}
                 onCancellaLuogo={cancellaLuogoSalvato}
               />
+              {pulsantePersonaggi}
               {pulsanteCuriosita}
               {pulsanteServizi}
               {pulsantePosizione}
@@ -948,6 +961,10 @@ function Schermata({ linguaIniziale }) {
           onApriCibo={(id) => setIdCibo(id)}
           onChiudi={() => setPannelloCuriosita(false)}
         />
+      )}
+
+      {pannelloPersonaggi && (
+        <PannelloPersonaggi t={t} lingua={lingua} onChiudi={() => setPannelloPersonaggi(false)} />
       )}
 
       {curiositaAperta && (
