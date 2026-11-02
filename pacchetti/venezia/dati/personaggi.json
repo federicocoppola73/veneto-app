@@ -747,6 +747,16 @@
             "de": "Tintoretto malte ein Porträt von Veronica Franco. Die Dichterin widmete ihm den einundzwanzigsten Brief ihrer Lettere familiari, in dem sie sich gerade auf das Gemälde bezieht und auch Themen rund um Kunst und die Darstellung der Schönheit behandelt.",
             "es": "Tintoretto realizó un retrato de Veronica Franco. La poetisa le dedicó la vigesimoprimera carta de sus Lettere familiari, en la que alude precisamente al cuadro y aborda también temas relacionados con el arte y la representación de la belleza."
           }
+        },
+        {
+          "id": "tiziano-vecellio",
+          "testo": {
+            "it": "Furono due grandi protagonisti della pittura veneziana del Cinquecento. Le loro carriere si svolsero in parte negli stessi anni e i due artisti si confrontarono in un vivace panorama di commissioni e competizione artistica. Pur condividendo la centralità del colore, svilupparono linguaggi molto diversi: Tiziano privilegiò una pittura ricca di sfumature e intensità cromatica, mentre Tintoretto si distinse per il dinamismo delle composizioni, le prospettive audaci e i forti contrasti di luce.",
+            "en": "They were two great protagonists of sixteenth-century Venetian painting. Their careers partly overlapped, and the two artists confronted each other in a lively field of commissions and artistic rivalry. Although both placed colour at the centre of their work, they developed very different languages: Titian favoured a painting rich in nuance and chromatic intensity, while Tintoretto stood out for the dynamism of his compositions, his bold perspectives and his strong contrasts of light.",
+            "fr": "Ils furent deux grands protagonistes de la peinture vénitienne du XVIe siècle. Leurs carrières se déroulèrent en partie aux mêmes années, et les deux artistes se confrontèrent dans un paysage animé de commandes et de rivalité artistique. Bien qu'ils aient tous deux fait de la couleur le centre de leur art, ils développèrent des langages très différents : Titien privilégia une peinture riche en nuances et en intensité chromatique, tandis que le Tintoret se distingua par le dynamisme de ses compositions, ses perspectives audacieuses et ses forts contrastes de lumière.",
+            "de": "Sie waren zwei große Protagonisten der venezianischen Malerei des 16. Jahrhunderts. Ihre Laufbahnen verliefen zum Teil in denselben Jahren, und die beiden Künstler maßen sich in einem lebhaften Umfeld aus Aufträgen und künstlerischer Konkurrenz. Obwohl beide die Farbe ins Zentrum stellten, entwickelten sie sehr unterschiedliche Sprachen: Tizian bevorzugte eine an Nuancen und chromatischer Intensität reiche Malerei, während Tintoretto sich durch die Dynamik seiner Kompositionen, kühne Perspektiven und starke Lichtkontraste auszeichnete.",
+            "es": "Fueron dos grandes protagonistas de la pintura veneciana del siglo XVI. Sus carreras se desarrollaron en parte en los mismos años, y ambos artistas se enfrentaron en un vivo panorama de encargos y competencia artística. Aunque compartían la centralidad del color, desarrollaron lenguajes muy distintos: Tiziano privilegió una pintura rica en matices e intensidad cromática, mientras que Tintoretto se distinguió por el dinamismo de sus composiciones, las perspectivas audaces y los fuertes contrastes de luz."
+          }
         }
       ]
     },
@@ -1244,7 +1254,29 @@
       "ritratto": {
         "autore": "Tiziano",
         "licenza": "Pubblico dominio"
-      }
+      },
+      "collegati": [
+        {
+          "id": "giovanni-bellini",
+          "testo": {
+            "it": "Tiziano entrò in contatto con la bottega e l'ambiente artistico di Giovanni Bellini durante la sua formazione a Venezia. La pittura di Bellini, soprattutto per l'uso del colore e la sensibilità luministica, rappresentò un importante riferimento per il giovane Tiziano, che sviluppò in seguito uno stile personale, diventando uno dei maggiori protagonisti della pittura veneziana.",
+            "en": "Titian came into contact with the workshop and artistic circle of Giovanni Bellini during his training in Venice. Bellini's painting, above all for its use of colour and its sensitivity to light, was an important reference for the young Titian, who later developed a personal style and became one of the leading figures of Venetian painting.",
+            "fr": "Titien entra en contact avec l'atelier et le milieu artistique de Giovanni Bellini pendant sa formation à Venise. La peinture de Bellini, surtout par son usage de la couleur et sa sensibilité à la lumière, fut une référence importante pour le jeune Titien, qui développa ensuite un style personnel et devint l'un des grands protagonistes de la peinture vénitienne.",
+            "de": "Tizian kam während seiner Ausbildung in Venedig mit der Werkstatt und dem künstlerischen Umfeld Giovanni Bellinis in Berührung. Bellinis Malerei, vor allem durch den Umgang mit der Farbe und das Gespür für das Licht, war ein wichtiger Bezugspunkt für den jungen Tizian, der später einen eigenen Stil entwickelte und zu einer der großen Gestalten der venezianischen Malerei wurde.",
+            "es": "Tiziano entró en contacto con el taller y el ambiente artístico de Giovanni Bellini durante su formación en Venecia. La pintura de Bellini, sobre todo por el uso del color y la sensibilidad hacia la luz, fue una referencia importante para el joven Tiziano, que más tarde desarrolló un estilo personal y se convirtió en uno de los grandes protagonistas de la pintura veneciana."
+          }
+        },
+        {
+          "id": "jacopo-tintoretto",
+          "testo": {
+            "it": "Furono due grandi protagonisti della pittura veneziana del Cinquecento. Le loro carriere si svolsero in parte negli stessi anni e i due artisti si confrontarono in un vivace panorama di commissioni e competizione artistica. Pur condividendo la centralità del colore, svilupparono linguaggi molto diversi: Tiziano privilegiò una pittura ricca di sfumature e intensità cromatica, mentre Tintoretto si distinse per il dinamismo delle composizioni, le prospettive audaci e i forti contrasti di luce.",
+            "en": "They were two great protagonists of sixteenth-century Venetian painting. Their careers partly overlapped, and the two artists confronted each other in a lively field of commissions and artistic rivalry. Although both placed colour at the centre of their work, they developed very different languages: Titian favoured a painting rich in nuance and chromatic intensity, while Tintoretto stood out for the dynamism of his compositions, his bold perspectives and his strong contrasts of light.",
+            "fr": "Ils furent deux grands protagonistes de la peinture vénitienne du XVIe siècle. Leurs carrières se déroulèrent en partie aux mêmes années, et les deux artistes se confrontèrent dans un paysage animé de commandes et de rivalité artistique. Bien qu'ils aient tous deux fait de la couleur le centre de leur art, ils développèrent des langages très différents : Titien privilégia une peinture riche en nuances et en intensité chromatique, tandis que le Tintoret se distingua par le dynamisme de ses compositions, ses perspectives audacieuses et ses forts contrastes de lumière.",
+            "de": "Sie waren zwei große Protagonisten der venezianischen Malerei des 16. Jahrhunderts. Ihre Laufbahnen verliefen zum Teil in denselben Jahren, und die beiden Künstler maßen sich in einem lebhaften Umfeld aus Aufträgen und künstlerischer Konkurrenz. Obwohl beide die Farbe ins Zentrum stellten, entwickelten sie sehr unterschiedliche Sprachen: Tizian bevorzugte eine an Nuancen und chromatischer Intensität reiche Malerei, während Tintoretto sich durch die Dynamik seiner Kompositionen, kühne Perspektiven und starke Lichtkontraste auszeichnete.",
+            "es": "Fueron dos grandes protagonistas de la pintura veneciana del siglo XVI. Sus carreras se desarrollaron en parte en los mismos años, y ambos artistas se enfrentaron en un vivo panorama de encargos y competencia artística. Aunque compartían la centralidad del color, desarrollaron lenguajes muy distintos: Tiziano privilegió una pintura rica en matices e intensidad cromática, mientras que Tintoretto se distinguió por el dinamismo de sus composiciones, las perspectivas audaces y los fuertes contrastes de luz."
+          }
+        }
+      ]
     },
     {
       "id": "giambattista-tiepolo",
@@ -1651,7 +1683,19 @@
             "es": "Conserva la pala de altar que Bellini realizó hacia 1513, con los santos Cristóbal, Jerónimo y Luis de Tolosa."
           }
         }
-      }
+      },
+      "collegati": [
+        {
+          "id": "tiziano-vecellio",
+          "testo": {
+            "it": "Tiziano entrò in contatto con la bottega e l'ambiente artistico di Giovanni Bellini durante la sua formazione a Venezia. La pittura di Bellini, soprattutto per l'uso del colore e la sensibilità luministica, rappresentò un importante riferimento per il giovane Tiziano, che sviluppò in seguito uno stile personale, diventando uno dei maggiori protagonisti della pittura veneziana.",
+            "en": "Titian came into contact with the workshop and artistic circle of Giovanni Bellini during his training in Venice. Bellini's painting, above all for its use of colour and its sensitivity to light, was an important reference for the young Titian, who later developed a personal style and became one of the leading figures of Venetian painting.",
+            "fr": "Titien entra en contact avec l'atelier et le milieu artistique de Giovanni Bellini pendant sa formation à Venise. La peinture de Bellini, surtout par son usage de la couleur et sa sensibilité à la lumière, fut une référence importante pour le jeune Titien, qui développa ensuite un style personnel et devint l'un des grands protagonistes de la peinture vénitienne.",
+            "de": "Tizian kam während seiner Ausbildung in Venedig mit der Werkstatt und dem künstlerischen Umfeld Giovanni Bellinis in Berührung. Bellinis Malerei, vor allem durch den Umgang mit der Farbe und das Gespür für das Licht, war ein wichtiger Bezugspunkt für den jungen Tizian, der später einen eigenen Stil entwickelte und zu einer der großen Gestalten der venezianischen Malerei wurde.",
+            "es": "Tiziano entró en contacto con el taller y el ambiente artístico de Giovanni Bellini durante su formación en Venecia. La pintura de Bellini, sobre todo por el uso del color y la sensibilidad hacia la luz, fue una referencia importante para el joven Tiziano, que más tarde desarrolló un estilo personal y se convirtió en uno de los grandes protagonistas de la pintura veneciana."
+          }
+        }
+      ]
     }
   ]
 }
