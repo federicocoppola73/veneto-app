@@ -1440,6 +1440,201 @@
           }
         }
       }
+    },
+    {
+      "id": "giovanni-bellini",
+      "nome": "Giovanni Bellini",
+      "nascita": 1430,
+      "morte": 1516,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "circa 1430",
+        "en": "c. 1430",
+        "fr": "vers 1430",
+        "de": "um 1430",
+        "es": "hacia 1430"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "29 novembre 1516",
+        "en": "29 November 1516",
+        "fr": "29 novembre 1516",
+        "de": "29. November 1516",
+        "es": "29 de noviembre de 1516"
+      },
+      "ritratto": {
+        "autore": "Istituto Veneto di Scienze, Lettere ed Arti",
+        "licenza": "CC BY 4.0"
+      },
+      "biografia": {
+        "it": "Giovanni Bellini nacque a Venezia intorno al 1430, in una famiglia di artisti. Figlio del pittore Jacopo Bellini e fratello di Gentile, si formò nella bottega paterna e divenne uno dei protagonisti assoluti del Rinascimento veneziano. La sua pittura si distinse per la capacità di unire figure armoniose, paesaggi suggestivi e una straordinaria attenzione alla luce e al colore. Nel corso della sua lunga carriera contribuì a rinnovare profondamente la pittura veneziana, influenzando generazioni di artisti, tra cui Giorgione e Tiziano. Fu pittore ufficiale della Repubblica di Venezia e lavorò per importanti chiese, confraternite e famiglie della città. Morì a Venezia nel 1516, lasciando un'eredità artistica che avrebbe segnato tutta la pittura veneta successiva.",
+        "en": "Giovanni Bellini was born in Venice around 1430, into a family of artists. The son of the painter Jacopo Bellini and brother of Gentile, he trained in his father's workshop and became one of the leading figures of the Venetian Renaissance. His painting stood out for its ability to combine harmonious figures, evocative landscapes and an extraordinary attention to light and colour. Over his long career he profoundly renewed Venetian painting, influencing generations of artists, including Giorgione and Titian. He was official painter to the Republic of Venice and worked for important churches, confraternities and families of the city. He died in Venice in 1516, leaving an artistic legacy that would shape all later Venetian painting.",
+        "fr": "Giovanni Bellini naquit à Venise vers 1430, dans une famille d'artistes. Fils du peintre Jacopo Bellini et frère de Gentile, il se forma dans l'atelier paternel et devint l'une des figures majeures de la Renaissance vénitienne. Sa peinture se distingue par sa capacité à unir des figures harmonieuses, des paysages évocateurs et une attention extraordinaire à la lumière et à la couleur. Au long de sa carrière, il renouvela profondément la peinture vénitienne, influençant des générations d'artistes, dont Giorgione et Titien. Peintre officiel de la République de Venise, il travailla pour d'importantes églises, confréries et familles de la ville. Il mourut à Venise en 1516, laissant un héritage artistique qui marqua toute la peinture vénitienne suivante.",
+        "de": "Giovanni Bellini wurde um 1430 in Venedig in eine Künstlerfamilie hineingeboren. Als Sohn des Malers Jacopo Bellini und Bruder von Gentile lernte er in der Werkstatt des Vaters und wurde zu einer der führenden Gestalten der venezianischen Renaissance. Seine Malerei zeichnete sich durch harmonische Figuren, stimmungsvolle Landschaften und eine außergewöhnliche Aufmerksamkeit für Licht und Farbe aus. In seiner langen Laufbahn erneuerte er die venezianische Malerei grundlegend und beeinflusste Generationen von Künstlern, darunter Giorgione und Tizian. Er war offizieller Maler der Republik Venedig und arbeitete für bedeutende Kirchen, Bruderschaften und Familien der Stadt. 1516 starb er in Venedig und hinterließ ein künstlerisches Erbe, das die gesamte spätere venezianische Malerei prägte.",
+        "es": "Giovanni Bellini nació en Venecia hacia 1430, en una familia de artistas. Hijo del pintor Jacopo Bellini y hermano de Gentile, se formó en el taller paterno y se convirtió en una de las figuras principales del Renacimiento veneciano. Su pintura destacó por su capacidad para unir figuras armoniosas, paisajes sugerentes y una extraordinaria atención a la luz y al color. A lo largo de su larga carrera renovó profundamente la pintura veneciana, influyendo en generaciones de artistas, entre ellos Giorgione y Tiziano. Fue pintor oficial de la República de Venecia y trabajó para importantes iglesias, cofradías y familias de la ciudad. Murió en Venecia en 1516, dejando una herencia artística que marcó toda la pintura véneta posterior."
+      },
+      "curiosita": {
+        "it": [
+          "Una famiglia di pittori: suo padre Jacopo e suo fratello Gentile furono entrambi artisti importanti. Anche il cognato Andrea Mantegna ebbe un ruolo significativo nella sua formazione artistica.",
+          "Il soprannome Giambellino: è il nome con cui Giovanni Bellini è spesso ricordato nella tradizione storico-artistica.",
+          "Pittore della Serenissima: ricoprì il ruolo di pittore ufficiale della Repubblica di Venezia, realizzando anche ritratti dei dogi e opere per le istituzioni cittadine.",
+          "Una nuova pittura: contribuì a diffondere a Venezia l'uso della pittura a olio e una sensibilità nuova per la luce, il colore e la resa atmosferica.",
+          "Un maestro per le generazioni successive: nella sua bottega e nel suo ambiente artistico si formarono o entrarono in contatto con la sua pittura importanti artisti, tra cui Giorgione e Tiziano."
+        ],
+        "en": [
+          "A family of painters: his father Jacopo and his brother Gentile were both important artists. His brother-in-law Andrea Mantegna also played a significant role in his artistic training.",
+          "The nickname Giambellino: it is the name by which Giovanni Bellini is often remembered in art-historical tradition.",
+          "Painter of the Serenissima: he served as official painter to the Republic of Venice, also producing portraits of the doges and works for city institutions.",
+          "A new painting: he helped spread the use of oil painting in Venice and a new sensitivity to light, colour and atmospheric effect.",
+          "A master for later generations: in his workshop and artistic circle, important artists trained or came into contact with his painting, among them Giorgione and Titian."
+        ],
+        "fr": [
+          "Une famille de peintres : son père Jacopo et son frère Gentile furent tous deux des artistes importants. Son beau-frère Andrea Mantegna joua également un rôle significatif dans sa formation artistique.",
+          "Le surnom Giambellino : c'est le nom sous lequel Giovanni Bellini est souvent évoqué dans la tradition historico-artistique.",
+          "Peintre de la Sérénissime : il fut peintre officiel de la République de Venise, réalisant aussi des portraits de doges et des œuvres pour les institutions de la ville.",
+          "Une peinture nouvelle : il contribua à diffuser à Venise la peinture à l'huile et une sensibilité nouvelle à la lumière, à la couleur et au rendu atmosphérique.",
+          "Un maître pour les générations suivantes : dans son atelier et son milieu artistique, d'importants artistes se formèrent ou entrèrent en contact avec sa peinture, dont Giorgione et Titien."
+        ],
+        "de": [
+          "Eine Malerfamilie: Sein Vater Jacopo und sein Bruder Gentile waren beide bedeutende Künstler. Auch sein Schwager Andrea Mantegna spielte eine wichtige Rolle für seine künstlerische Ausbildung.",
+          "Der Beiname Giambellino: So wird Giovanni Bellini in der kunsthistorischen Überlieferung oft erinnert.",
+          "Maler der Serenissima: Er war offizieller Maler der Republik Venedig und schuf auch Dogenporträts sowie Werke für die städtischen Institutionen.",
+          "Eine neue Malerei: Er trug dazu bei, in Venedig die Ölmalerei und ein neues Gespür für Licht, Farbe und atmosphärische Wirkung zu verbreiten.",
+          "Ein Meister für die folgenden Generationen: In seiner Werkstatt und seinem künstlerischen Umfeld bildeten sich bedeutende Künstler aus oder kamen mit seiner Malerei in Berührung, darunter Giorgione und Tizian."
+        ],
+        "es": [
+          "Una familia de pintores: su padre Jacopo y su hermano Gentile fueron ambos artistas importantes. También su cuñado Andrea Mantegna tuvo un papel significativo en su formación artística.",
+          "El apodo Giambellino: es el nombre con el que Giovanni Bellini se recuerda a menudo en la tradición histórico-artística.",
+          "Pintor de la Serenísima: ejerció como pintor oficial de la República de Venecia, realizando también retratos de dogos y obras para las instituciones de la ciudad.",
+          "Una pintura nueva: contribuyó a difundir en Venecia la pintura al óleo y una sensibilidad nueva hacia la luz, el color y el efecto atmosférico.",
+          "Un maestro para las generaciones siguientes: en su taller y en su entorno artístico se formaron o entraron en contacto con su pintura artistas importantes, entre ellos Giorgione y Tiziano."
+        ]
+      },
+      "luoghi": [
+        "san-zaccaria",
+        "frari",
+        "santi-giovanni-paolo",
+        "san-francesco-vigna",
+        "accademia",
+        "querini-stampalia"
+      ],
+      "luoghiNote": {
+        "san-zaccaria": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva la celebre Pala di San Zaccaria del 1505, una delle opere più rappresentative della maturità artistica di Bellini.",
+            "en": "It holds the famous San Zaccaria Altarpiece of 1505, one of the most representative works of Bellini's mature period.",
+            "fr": "Elle conserve la célèbre Pala di San Zaccaria de 1505, l'une des œuvres les plus représentatives de la maturité artistique de Bellini.",
+            "de": "Hier befindet sich der berühmte Altar von San Zaccaria aus dem Jahr 1505, eines der bezeichnendsten Werke aus Bellinis Reifezeit.",
+            "es": "Conserva la célebre Pala de San Zaccaría de 1505, una de las obras más representativas de la madurez artística de Bellini."
+          }
+        },
+        "frari": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Custodisce il Trittico dei Frari, realizzato nel 1488 e considerato uno dei capolavori del pittore.",
+            "en": "It holds the Frari Triptych, painted in 1488 and considered one of the painter's masterpieces.",
+            "fr": "Elle abrite le Triptyque des Frari, réalisé en 1488 et considéré comme l'un des chefs-d'œuvre du peintre.",
+            "de": "Hier befindet sich das Frari-Triptychon, 1488 entstanden und als eines der Meisterwerke des Malers angesehen.",
+            "es": "Custodia el Tríptico de los Frari, realizado en 1488 y considerado una de las obras maestras del pintor."
+          }
+        },
+        "santi-giovanni-paolo": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Ospita il Polittico di San Vincenzo Ferrer, attribuito a Giovanni Bellini e databile intorno al 1464–1465.",
+            "en": "It houses the Polyptych of Saint Vincent Ferrer, attributed to Giovanni Bellini and datable to around 1464–1465.",
+            "fr": "Elle abrite le Polyptyque de saint Vincent Ferrier, attribué à Giovanni Bellini et daté d'environ 1464–1465.",
+            "de": "Hier befindet sich das Polyptychon des heiligen Vinzenz Ferrer, Giovanni Bellini zugeschrieben und um 1464–1465 datierbar.",
+            "es": "Alberga el Políptico de san Vicente Ferrer, atribuido a Giovanni Bellini y fechable hacia 1464–1465."
+          }
+        },
+        "san-francesco-vigna": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva una Madonna con Bambino, santi e donatore, opera di Bellini datata 1507.",
+            "en": "It holds a Madonna and Child with saints and a donor, a work by Bellini dated 1507.",
+            "fr": "Elle conserve une Vierge à l'Enfant avec des saints et un donateur, œuvre de Bellini datée de 1507.",
+            "de": "Hier befindet sich eine Madonna mit Kind, Heiligen und Stifter, ein auf 1507 datiertes Werk Bellinis.",
+            "es": "Conserva una Virgen con el Niño, santos y donante, obra de Bellini fechada en 1507."
+          }
+        },
+        "accademia": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conservano la Pala di San Giobbe, originariamente realizzata per la chiesa veneziana di San Giobbe.",
+            "en": "They hold the San Giobbe Altarpiece, originally painted for the Venetian church of San Giobbe.",
+            "fr": "On y conserve la Pala di San Giobbe, réalisée à l'origine pour l'église vénitienne de San Giobbe.",
+            "de": "Hier befindet sich der Altar von San Giobbe, ursprünglich für die venezianische Kirche San Giobbe geschaffen.",
+            "es": "Conservan la Pala de San Giobbe, realizada originalmente para la iglesia veneciana de San Giobbe."
+          }
+        },
+        "querini-stampalia": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva la Presentazione di Gesù al Tempio, attribuita a Bellini e datata intorno al 1469.",
+            "en": "It holds the Presentation of Jesus at the Temple, attributed to Bellini and dated to around 1469.",
+            "fr": "Elle conserve la Présentation de Jésus au Temple, attribuée à Bellini et datée d'environ 1469.",
+            "de": "Hier befindet sich die Darstellung Jesu im Tempel, Bellini zugeschrieben und um 1469 datiert.",
+            "es": "Conserva la Presentación de Jesús en el Templo, atribuida a Bellini y fechada hacia 1469."
+          }
+        }
+      }
     }
   ]
 }
