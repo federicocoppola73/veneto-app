@@ -533,7 +533,8 @@
       "luoghi": [
         "palazzo-ducale",
         "palazzo-malipiero",
-        "calle-malipiero"
+        "calle-malipiero",
+        "chiesa-di-san-samuele"
       ],
       "luoghiNote": {
         "palazzo-ducale": {
@@ -582,6 +583,22 @@
             "fr": "Giacomo Casanova naquit à Venise, et une plaque dans la Calle Malipiero, ancienne Calle della Commedia, rappelle l'événement. C'est le lieu traditionnellement indiqué comme celui de sa naissance. Il convient toutefois de préciser que la maison exacte fait débat parmi les spécialistes : certaines recherches ont également proposé la Calle delle Muneghe.",
             "de": "Giacomo Casanova wurde in Venedig geboren, und eine Gedenktafel in der Calle Malipiero, der früheren Calle della Commedia, erinnert an das Ereignis. Es ist der traditionell als Geburtsort angegebene Ort. Allerdings ist das genaue Haus unter Forschern umstritten: Einige Untersuchungen haben auch die Calle delle Muneghe vorgeschlagen.",
             "es": "Giacomo Casanova nació en Venecia, y una placa en la Calle Malipiero, antigua Calle della Commedia, recuerda el acontecimiento. Es el lugar tradicionalmente señalado como el de su nacimiento. Conviene precisar, sin embargo, que la casa exacta es objeto de debate entre los estudiosos: algunas investigaciones han propuesto también la Calle delle Muneghe."
+          }
+        },
+        "chiesa-di-san-samuele": {
+          "tipo": {
+            "it": "Legame biografico",
+            "en": "Biographical link",
+            "fr": "Lien biographique",
+            "de": "Biografischer Bezug",
+            "es": "Vínculo biográfico"
+          },
+          "testo": {
+            "it": "La chiesa è legata alla vita religiosa del giovane Casanova. Qui si trovava la parrocchia alla quale era affidato e presso il cui curato fu preparato alla carriera ecclesiastica. È inoltre indicata dalle ricostruzioni biografiche come luogo del suo battesimo.",
+            "en": "The church is linked to young Casanova's religious life. Here stood the parish to which he was entrusted, and with its parish priest he was prepared for an ecclesiastical career. Biographical reconstructions also indicate it as the place of his baptism.",
+            "fr": "L'église est liée à la vie religieuse du jeune Casanova. Se trouvait ici la paroisse à laquelle il était confié, et c'est auprès de son curé qu'il fut préparé à la carrière ecclésiastique. Les reconstitutions biographiques l'indiquent aussi comme le lieu de son baptême.",
+            "de": "Die Kirche ist mit dem religiösen Leben des jungen Casanova verbunden. Hier befand sich die Pfarrei, der er anvertraut war, und beim dortigen Pfarrer wurde er auf die kirchliche Laufbahn vorbereitet. Biografische Rekonstruktionen nennen sie außerdem als Ort seiner Taufe.",
+            "es": "La iglesia está ligada a la vida religiosa del joven Casanova. Aquí se encontraba la parroquia a la que estaba encomendado, y con su párroco se preparó para la carrera eclesiástica. Las reconstrucciones biográficas la señalan además como el lugar de su bautismo."
           }
         }
       }

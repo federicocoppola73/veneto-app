@@ -10253,6 +10253,41 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=65101473"
         }
       ]
+    },
+    {
+      "id": "chiesa-di-san-samuele",
+      "nome": "Chiesa di San Samuele",
+      "categoria": "chiese",
+      "latitudine": 45.433844090670604,
+      "longitudine": 12.329085186115693,
+      "descrizione": {
+        "it": "La chiesa è legata alla vita religiosa del giovane Casanova. Qui si trovava la parrocchia alla quale era affidato e presso il cui curato fu preparato alla carriera ecclesiastica. È inoltre indicata dalle ricostruzioni biografiche come luogo del suo battesimo.",
+        "en": "The church is linked to young Casanova's religious life. Here stood the parish to which he was entrusted, and with its parish priest he was prepared for an ecclesiastical career. Biographical reconstructions also indicate it as the place of his baptism.",
+        "fr": "L'église est liée à la vie religieuse du jeune Casanova. Se trouvait ici la paroisse à laquelle il était confié, et c'est auprès de son curé qu'il fut préparé à la carrière ecclésiastique. Les reconstitutions biographiques l'indiquent aussi comme le lieu de son baptême.",
+        "de": "Die Kirche ist mit dem religiösen Leben des jungen Casanova verbunden. Hier befand sich die Pfarrei, der er anvertraut war, und beim dortigen Pfarrer wurde er auf die kirchliche Laufbahn vorbereitet. Biografische Rekonstruktionen nennen sie außerdem als Ort seiner Taufe.",
+        "es": "La iglesia está ligada a la vida religiosa del joven Casanova. Aquí se encontraba la parroquia a la que estaba encomendado, y con su párroco se preparó para la carrera eclesiástica. Las reconstrucciones biográficas la señalan además como el lugar de su bautismo."
+      },
+      "personaggio": "giacomo-casanova",
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=37402575"
+      },
+      "galleria": [
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=77808028"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Adriano",
+          "licenza": "CC BY-SA 3.0"
+        }
+      ]
     }
   ]
 }
