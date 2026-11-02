@@ -777,7 +777,8 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "personaggio": "donatello"
     },
     {
       "id": "giardini-dell-arena",
@@ -2464,7 +2465,8 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "personaggio": "donatello"
     },
     {
       "id": "piazza-duomo",
@@ -4303,22 +4305,6 @@
       "wikipedia": {
         "en": "Santa Caterina d'Alessandria, Padua"
       }
-    },
-    {
-      "id": "maglio-orto-botanico",
-      "nome": "Maglio - Orto Botanico",
-      "categoria": "giardini",
-      "latitudine": 45.398559,
-      "longitudine": 11.880852,
-      "personaggio": "donatello"
-    },
-    {
-      "id": "casa-del-pesse",
-      "nome": "Casa del Pesse",
-      "categoria": "piazze",
-      "latitudine": 45.401429,
-      "longitudine": 11.879946,
-      "personaggio": "donatello"
     }
   ]
 }
