@@ -177,25 +177,6 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
 
           <Text style={styles.descrizione}>{descrizione}</Text>
 
-          {personaggiLuogo.map((idPersona) => {
-            const persona = personaggi().find((x) => x.id === idPersona);
-            const collegamento = persona?.luoghiNote?.[luogo.id];
-            if (!persona || !collegamento) return null;
-            return (
-              <View key={idPersona} style={styles.collegamento}>
-                {collegamento.tipo ? (
-                  <View style={styles.collegamentoTipo}>
-                    <Text style={styles.collegamentoTipoTesto}>{testoLocalizzato(collegamento.tipo, lingua)}</Text>
-                  </View>
-                ) : null}
-                <Text style={styles.collegamentoNome}>👤 {persona.nome}</Text>
-                {collegamento.testo ? (
-                  <Text style={styles.collegamentoTesto}>{testoLocalizzato(collegamento.testo, lingua)}</Text>
-                ) : null}
-              </View>
-            );
-          })}
-
           {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length || (personaggiLuogo.length && onPersonaggio) ? (
             <View style={styles.riga}>
               {luogo.lo_sapevi_che?.length ? (
@@ -498,11 +479,6 @@ const styles = StyleSheet.create({
     borderLeftColor: '#f59e0b',
   },
   testoNota: { fontSize: 14, lineHeight: 20, color: '#78350f' },
-  collegamento: { marginTop: 14, gap: 6, backgroundColor: '#f8fafc', borderRadius: 12, padding: 12, borderLeftWidth: 4, borderLeftColor: '#166534' },
-  collegamentoTipo: { alignSelf: 'flex-start', backgroundColor: '#ecfdf5', borderWidth: 1, borderColor: '#86efac', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
-  collegamentoTipoTesto: { fontSize: 12, fontWeight: '800', color: '#166534' },
-  collegamentoNome: { fontSize: 15, fontWeight: '800', color: '#0f172a' },
-  collegamentoTesto: { fontSize: 14, lineHeight: 20, color: '#334155' },
   testoNota: { fontSize: 14, lineHeight: 20, color: '#78350f' },
   tabella: { marginTop: 16, borderRadius: 12, backgroundColor: '#f1f5f9', padding: 14 },
   blocco: {},
