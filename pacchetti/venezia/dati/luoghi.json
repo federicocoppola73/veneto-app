@@ -9700,6 +9700,61 @@
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
 }
+},
+{
+"id": "chiesa-san-giovanni-in-bragora",
+"nome": "Chiesa di San Giovanni in Bragora",
+"categoria": "chiese",
+"latitudine": 45.4344,
+"longitudine": 12.347,
+"sestiere": "Castello",
+"fermata": "San Zaccaria",
+"orari": [
+{
+"giorni": "lun-sab",
+"ore": "9:00–12:00, 15:00–19:15"
+},
+{
+"giorni": "dom",
+"ore": "15:00–19:00"
+}
+],
+"chiuso": [],
+"immagine": {
+"autore": "Didier Descouens",
+"licenza": "CC BY-SA 4.0"
+},
+"galleria": [
+{
+"autore": "Maspez",
+"licenza": "CC0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=139465084"
+},
+{
+"autore": "bradhostetler",
+"licenza": "CC BY 2.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=157082323"
+},
+{
+"autore": "bradhostetler",
+"licenza": "CC BY 2.0",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=157082321"
+}
+],
+"descrizione": {
+"it": "Qui Vivaldi ricevette il battesimo. Una lapide all'interno della chiesa ricorda il legame con il compositore. È uno dei riferimenti più significativi per raccontare le sue origini veneziane.",
+"en": "Vivaldi was baptised here. A plaque inside the church commemorates his link with the composer. It is one of the most significant references for telling his Venetian origins.",
+"fr": "Vivaldi fut baptisé ici. Une plaque à l'intérieur de l'église rappelle le lien avec le compositeur. C'est l'un des repères les plus importants pour raconter ses origines vénitiennes.",
+"de": "Hier wurde Vivaldi getauft. Eine Gedenktafel im Inneren der Kirche erinnert an die Verbindung zum Komponisten. Sie ist einer der bedeutendsten Orte, um seine venezianischen Wurzeln zu erzählen.",
+"es": "Aquí fue bautizado Vivaldi. Una lápida en el interior de la iglesia recuerda su vínculo con el compositor. Es uno de los referentes más significativos para contar sus orígenes venecianos."
+},
+"nota": {
+"it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+"en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+"fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+"de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+"es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+}
 }
 ]
 }
