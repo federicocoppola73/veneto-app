@@ -74,7 +74,7 @@
       "orari": [
         {
           "giorni": "tutti",
-          "ore": "9:00–13:00 e 14:00–18:00"
+          "ore": "9:00–13:00·14:00–18:00"
         }
       ],
       "biglietto": {
@@ -90,7 +90,11 @@
       "personaggio": [
         "sant-antonio-di-padova",
         "giotto-di-bondone"
-      ]
+      ],
+      "sito": "https://www.santantonio.org/it/basilica",
+      "wikipedia": {
+        "en": "Basilica of Saint Anthony of Padua"
+      }
     },
     {
       "id": "musei-civici-agli-eremitani",
@@ -167,7 +171,11 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giotto-di-bondone"
+      "personaggio": "giotto-di-bondone",
+      "sito": "https://padovamusei.it",
+      "wikipedia": {
+        "en": "Musei Civici di Padova"
+      }
     },
     {
       "id": "museo-della-natura-e-dell-uomo",
@@ -318,7 +326,10 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giotto-di-bondone"
+      "personaggio": "giotto-di-bondone",
+      "wikipedia": {
+        "en": "Palazzo della Ragione, Padua"
+      }
     },
     {
       "id": "palazzo-del-bo",
@@ -888,7 +899,10 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giotto-di-bondone"
+      "personaggio": "giotto-di-bondone",
+      "wikipedia": {
+        "en": "Scrovegni Chapel"
+      }
     },
     {
       "id": "torre-dell-orologio",
