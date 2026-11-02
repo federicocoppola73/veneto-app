@@ -1072,7 +1072,8 @@
 "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-}
+},
+"personaggio": "veronica-franco"
 },
 {
 "id": "zitelle",
@@ -7390,7 +7391,8 @@
 "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-}
+},
+"personaggio": "veronica-franco"
 },
 {
 "id": "giardini-biennale",
@@ -8151,7 +8153,8 @@
 "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-}
+},
+"personaggio": "veronica-franco"
 },
 {
 "id": "molino-stucky",
@@ -10007,6 +10010,23 @@
 }
 ],
 "personaggio": "jacopo-tintoretto"
+},
+{
+"id": "area-san-giovanni-grisostomo",
+"nome": "Area di San Giovanni Grisostomo",
+"categoria": "altri",
+"latitudine": 45.43899,
+"longitudine": 12.33816,
+"sestiere": "San Marco",
+"fermata": "Rialto",
+"descrizione": {
+"it": "Nel luglio 1574 Veronica incontrò Enrico III di Francia in una casa situata nella zona di San Giovanni Grisostomo. L'episodio è riportato nella sua biografia, ma non conosciamo con certezza l'edificio esatto.",
+"en": "In July 1574 Veronica met Henry III of France in a house in the San Giovanni Grisostomo area. The episode is recorded in her biography, but the exact building is not known with certainty.",
+"fr": "En juillet 1574, Veronica rencontra Henri III de France dans une maison située dans le secteur de San Giovanni Grisostomo. L'épisode est rapporté dans sa biographie, mais l'édifice exact n'est pas connu avec certitude.",
+"de": "Im Juli 1574 traf Veronica Heinrich III. von Frankreich in einem Haus im Gebiet von San Giovanni Grisostomo. Die Episode ist in ihrer Biografie überliefert, das genaue Gebäude ist jedoch nicht sicher bekannt.",
+"es": "En julio de 1574, Veronica se encontró con Enrique III de Francia en una casa situada en la zona de San Giovanni Grisostomo. El episodio consta en su biografía, pero no conocemos con certeza el edificio exacto."
+},
+"personaggio": "veronica-franco"
 }
 ]
 }
