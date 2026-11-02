@@ -831,7 +831,8 @@
         "campo-santa-maria-formosa",
         "area-san-giovanni-grisostomo",
         "san-francesco-vigna",
-        "libreria-marciana"
+        "libreria-marciana",
+        "ca-venier"
       ],
       "luoghiNote": {
         "campo-santa-maria-formosa": {
@@ -896,6 +897,22 @@
             "fr": "La bibliothèque conserve un manuscrit poétique contenant des compositions de Veronica Franco. C'est un lien avec la conservation de sa production littéraire, et non un lieu qu'elle est connue avoir fréquenté personnellement.",
             "de": "Die Bibliothek bewahrt eine Gedichthandschrift mit Kompositionen von Veronica Franco auf. Sie verweist auf die Bewahrung ihres literarischen Werks, nicht auf einen Ort, den sie persönlich besucht hat.",
             "es": "La biblioteca conserva un manuscrito poético con composiciones de Veronica Franco. Es un vínculo con la conservación de su producción literaria, no un lugar que se sepa que frecuentara personalmente."
+          }
+        },
+        "ca-venier": {
+          "tipo": {
+            "it": "Legame indiretto",
+            "en": "Indirect link",
+            "fr": "Lien indirect",
+            "de": "Indirekter Bezug",
+            "es": "Vínculo indirecto"
+          },
+          "testo": {
+            "it": "Il circolo di Domenico Venier, frequentato da Veronica, si riuniva in uno dei palazzi di Campo Santa Maria Formosa. Non è certo quale fosse.",
+            "en": "Domenico Venier's circle, which Veronica frequented, met in one of the palaces of Campo Santa Maria Formosa. It is not certain which one it was.",
+            "fr": "Le cercle de Domenico Venier, fréquenté par Veronica, se réunissait dans l'un des palais du Campo Santa Maria Formosa. On ignore lequel avec certitude.",
+            "de": "Der Kreis um Domenico Venier, den Veronica besuchte, traf sich in einem der Paläste am Campo Santa Maria Formosa. Welcher es war, ist nicht sicher.",
+            "es": "El círculo de Domenico Venier, frecuentado por Veronica, se reunía en uno de los palacios del Campo Santa Maria Formosa. No se sabe con certeza cuál era."
           }
         }
       }
