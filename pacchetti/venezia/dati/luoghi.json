@@ -9760,6 +9760,45 @@
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
 },
 "personaggio": "antonio-vivaldi"
+},
+{
+"id": "teatro-malibran",
+"nome": "Teatro Malibran",
+"categoria": "altri",
+"latitudine": 45.43899,
+"longitudine": 12.33816,
+"sestiere": "Cannaregio",
+"fermata": "Rialto",
+"sito": "https://www.teatrolafenice.it/en/teatro-malibran",
+"personaggio": "marco-polo",
+"immagine": {
+"autore": "Van Der Meulen Christofle",
+"licenza": "CC0"
+},
+"galleria": [
+{
+"autore": "Wolfgang Moroder",
+"licenza": "CC BY-SA 3.0"
+},
+{
+"autore": "Andreas Praefcke",
+"licenza": "CC BY 3.0"
+}
+],
+"descrizione": {
+"it": "Il teatro sorge nell'area dove un tempo si trovava la residenza della famiglia Polo, distrutta da un incendio nel 1597. Inaugurato nel 1678, è oggi un importante teatro veneziano: racconta come il luogo legato a Marco Polo abbia cambiato funzione nel corso dei secoli.",
+"en": "The theatre stands on the site where the Polo family's residence once stood, destroyed by fire in 1597. Inaugurated in 1678, it is today one of Venice's major theatres: it shows how the place linked to Marco Polo has changed its function over the centuries.",
+"fr": "Le théâtre se dresse à l'emplacement de l'ancienne demeure de la famille Polo, détruite par un incendie en 1597. Inauguré en 1678, c'est aujourd'hui l'un des grands théâtres de Venise : il montre comment le lieu lié à Marco Polo a changé de fonction au fil des siècles.",
+"de": "Das Theater steht an der Stelle des einstigen Wohnsitzes der Familie Polo, der 1597 bei einem Brand zerstört wurde. 1678 eröffnet, ist es heute eines der bedeutendsten Theater Venedigs und zeigt, wie der mit Marco Polo verbundene Ort im Lauf der Jahrhunderte seine Funktion gewechselt hat.",
+"es": "El teatro se levanta en el lugar donde antiguamente se encontraba la residencia de la familia Polo, destruida por un incendio en 1597. Inaugurado en 1678, es hoy uno de los grandes teatros de Venecia: muestra cómo el lugar vinculado a Marco Polo ha cambiado de función a lo largo de los siglos."
+},
+"nota": {
+"it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+"en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+"fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+"de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+"es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+}
 }
 ]
 }
