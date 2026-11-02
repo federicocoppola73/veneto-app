@@ -10214,6 +10214,39 @@
         "autore": "Oursana",
         "licenza": "CC0 1.0"
       }
+    },
+    {
+      "id": "san-giovanni-crisostomo",
+      "nome": "Chiesa di San Giovanni Crisostomo",
+      "categoria": "chiese",
+      "latitudine": 45.439330344308296,
+      "longitudine": 12.337813624739884,
+      "sestiere": "Cannaregio",
+      "descrizione": {
+        "it": "Chiesa rinascimentale ricostruita alla fine del Quattrocento su progetto di Mauro Codussi. Vi si trova la pala d'altare di Giovanni Bellini, con i santi Cristoforo, Girolamo e Ludovico di Tolosa.",
+        "en": "Renaissance church rebuilt at the end of the fifteenth century to a design by Mauro Codussi. It houses the altarpiece by Giovanni Bellini, with Saints Christopher, Jerome and Louis of Toulouse.",
+        "fr": "Église Renaissance reconstruite à la fin du XVe siècle sur un projet de Mauro Codussi. Elle abrite le retable de Giovanni Bellini, avec les saints Christophe, Jérôme et Louis de Toulouse.",
+        "de": "Renaissancekirche, Ende des 15. Jahrhunderts nach einem Entwurf von Mauro Codussi neu erbaut. Hier befindet sich das Altarbild von Giovanni Bellini mit den Heiligen Christophorus, Hieronymus und Ludwig von Toulouse.",
+        "es": "Iglesia renacentista reconstruida a finales del siglo XV según proyecto de Mauro Codussi. Alberga la pala de Giovanni Bellini, con los santos Cristóbal, Jerónimo y Luis de Tolosa."
+      },
+      "personaggio": "giovanni-bellini",
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=16680725"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=10374842"
+        },
+        {
+          "autore": "Giovanni Bellini",
+          "licenza": "Pubblico dominio",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=12696809"
+        }
+      ]
     }
   ]
 }

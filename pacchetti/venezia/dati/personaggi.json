@@ -1535,7 +1535,8 @@
         "santi-giovanni-paolo",
         "san-francesco-vigna",
         "accademia",
-        "querini-stampalia"
+        "querini-stampalia",
+        "san-giovanni-crisostomo"
       ],
       "luoghiNote": {
         "san-zaccaria": {
@@ -1632,6 +1633,22 @@
             "fr": "Elle conserve la Présentation de Jésus au Temple, attribuée à Bellini et datée d'environ 1469.",
             "de": "Hier befindet sich die Darstellung Jesu im Tempel, Bellini zugeschrieben und um 1469 datiert.",
             "es": "Conserva la Presentación de Jesús en el Templo, atribuida a Bellini y fechada hacia 1469."
+          }
+        },
+        "san-giovanni-crisostomo": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva la pala d'altare realizzata da Bellini intorno al 1513, con i santi Cristoforo, Girolamo e Ludovico di Tolosa.",
+            "en": "It holds the altarpiece painted by Bellini around 1513, with Saints Christopher, Jerome and Louis of Toulouse.",
+            "fr": "Elle conserve le retable peint par Bellini vers 1513, avec les saints Christophe, Jérôme et Louis de Toulouse.",
+            "de": "Hier befindet sich das Altarbild, das Bellini um 1513 schuf, mit den Heiligen Christophorus, Hieronymus und Ludwig von Toulouse.",
+            "es": "Conserva la pala de altar que Bellini realizó hacia 1513, con los santos Cristóbal, Jerónimo y Luis de Tolosa."
           }
         }
       }
