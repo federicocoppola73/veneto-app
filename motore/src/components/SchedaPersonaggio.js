@@ -112,7 +112,7 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
                       </View>
                     ) : null}
                     <LuogoRiga luogo={luoghiPerId[id]} onPress={() => onApriLuogo(id)} />
-                    {nota ? <Text style={styles.notaLuogo}>{testoLocalizzato(nota.testo, lingua)}</Text> : null}
+                    {nota?.testo ? <Text style={styles.notaLuogo}>{testoLocalizzato(nota.testo, lingua)}</Text> : null}
                   </View>
                 );
               })}

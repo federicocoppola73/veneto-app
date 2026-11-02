@@ -15,7 +15,6 @@
       },
       "luoghi": [
         "basilica-san-marco",
-        "teatro-sant-angelo",
         "chiesa-santa-maria-della-pieta",
         "chiesa-san-giovanni-in-bragora"
       ],
@@ -118,6 +117,35 @@
           "de": "Die Vier Jahreszeiten – Der Frühling. Das berühmte Konzert in E-Dur RV 269, dessen Violinen den Vogelgesang, das fließende Wasser und das Erwachen der Natur nachzeichnen.",
           "es": "Las cuatro estaciones – La primavera. El célebre concierto en mi mayor RV 269, cuyos violines evocan el canto de los pájaros, el correr del agua y el despertar de la naturaleza."
         }
+      },
+      "luoghiNote": {
+        "basilica-san-marco": {
+          "tipo": {
+            "it": "Legame indiretto",
+            "en": "Indirect link",
+            "fr": "Lien indirect",
+            "de": "Indirekter Bezug",
+            "es": "Vínculo indirecto"
+          }
+        },
+        "chiesa-santa-maria-della-pieta": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        },
+        "chiesa-san-giovanni-in-bragora": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        }
       }
     },
     {
@@ -206,13 +234,31 @@
       },
       "luoghi": [
         "casa-goldoni",
-        "teatro-carlo-goldoni",
-        "teatro-san-samuele",
-        "teatro-sant-angelo"
+        "teatro-carlo-goldoni"
       ],
       "ritratto": {
         "autore": "Alessandro Longhi",
         "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "casa-goldoni": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        },
+        "teatro-carlo-goldoni": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        }
       }
     },
     {
@@ -308,6 +354,35 @@
           "El sobrenombre Milione: el nombre con el que se conoce el libro podría derivar de un apodo ya asociado a la familia Polo, quizá ligado al nombre Emilione. Su origen exacto se discute.",
           "No fue solo un explorador: de vuelta en Venecia siguió dedicándose al comercio. Sus descripciones abarcaban ciudades, pueblos, mercancías, distancias y costumbres de los territorios asiáticos."
         ]
+      },
+      "luoghiNote": {
+        "corte-milion": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        },
+        "teatro-malibran": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historischer Bezug",
+            "es": "Vínculo histórico"
+          }
+        },
+        "chiesa-san-lorenzo": {
+          "tipo": {
+            "it": "Legame di memoria",
+            "en": "Memorial link",
+            "fr": "Lien de mémoire",
+            "de": "Erinnerungsbezug",
+            "es": "Vínculo de memoria"
+          }
+        }
       }
     },
     {
@@ -403,7 +478,36 @@
         "palazzo-ducale",
         "palazzo-malipiero",
         "calle-malipiero"
-      ]
+      ],
+      "luoghiNote": {
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        },
+        "palazzo-malipiero": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        },
+        "calle-malipiero": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          }
+        }
+      }
     },
     {
       "id": "jacopo-tintoretto",
