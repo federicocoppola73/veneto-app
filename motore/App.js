@@ -987,7 +987,7 @@ function Schermata({ linguaIniziale }) {
       {personaggioAperto && (
         <SchedaPersonaggio
           persona={personaggi().find((x) => x.id === personaggioAperto)}
-          luoghiPerId={luoghiPerId}
+          luoghiPerId={luoghiTuttiPerId}
           t={t}
           lingua={lingua}
           onChiudi={() => setPersonaggioAperto(null)}
