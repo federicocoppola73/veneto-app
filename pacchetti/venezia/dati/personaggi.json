@@ -3,20 +3,99 @@
   "personaggi": [
     {
       "id": "antonio-vivaldi",
-      "nome": "Antonio Vivaldi",
+      "nome": "Antonio Lucio Vivaldi",
       "nascita": 1678,
       "morte": 1741,
       "professione": {
-        "it": "Compositore e violinista",
-        "en": "Composer and violinist",
-        "fr": "Compositeur et violoniste",
-        "de": "Komponist und Geiger",
-        "es": "Compositor y violinista"
+        "it": "Compositore, violinista e sacerdote",
+        "en": "Composer, violinist and priest",
+        "fr": "Compositeur, violoniste et prêtre",
+        "de": "Komponist, Geiger und Priester",
+        "es": "Compositor, violinista y sacerdote"
       },
       "luoghi": [],
       "ritratto": {
         "autore": "Unidentified painter",
         "licenza": "Pubblico dominio"
+      },
+      "soprannome": {
+        "it": "Il Prete Rosso",
+        "en": "The Red Priest",
+        "fr": "Le Prêtre roux",
+        "de": "Der Rote Priester",
+        "es": "El Cura Rojo"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "4 marzo 1678",
+        "en": "4 March 1678",
+        "fr": "4 mars 1678",
+        "de": "4. März 1678",
+        "es": "4 de marzo de 1678"
+      },
+      "luogoMorte": {
+        "it": "Vienna",
+        "en": "Vienna",
+        "fr": "Vienne",
+        "de": "Wien",
+        "es": "Viena"
+      },
+      "dataMorte": {
+        "it": "28 luglio 1741",
+        "en": "28 July 1741",
+        "fr": "28 juillet 1741",
+        "de": "28. Juli 1741",
+        "es": "28 de julio de 1741"
+      },
+      "biografia": {
+        "it": "Antonio Vivaldi nacque a Venezia il 4 marzo 1678. Figlio di un violinista, mostrò fin da giovane una spiccata attitudine per la musica e studiò violino, intraprendendo contemporaneamente la carriera ecclesiastica. Ordinato sacerdote nel 1703, nello stesso anno venne assunto come maestro di violino presso il Pio Ospedale della Pietà, istituzione veneziana nella quale insegnò e compose per molti anni. Considerato uno dei maggiori compositori del Barocco, scrisse centinaia di concerti, sonate e opere teatrali. La sua fama è legata soprattutto a Le quattro stagioni, pubblicate nel 1725. Negli ultimi anni si trasferì a Vienna, dove morì in condizioni economiche difficili il 28 luglio 1741.",
+        "en": "Antonio Vivaldi was born in Venice on 4 March 1678. The son of a violinist, he showed a marked aptitude for music from an early age, studied the violin and at the same time pursued an ecclesiastical career. Ordained a priest in 1703, that same year he was hired as violin master at the Pio Ospedale della Pietà, a Venetian institution where he taught and composed for many years. Regarded as one of the greatest Baroque composers, he wrote hundreds of concertos, sonatas and operas. His fame rests above all on The Four Seasons, published in 1725. In his last years he moved to Vienna, where he died in difficult financial circumstances on 28 July 1741.",
+        "fr": "Antonio Vivaldi naquit à Venise le 4 mars 1678. Fils d'un violoniste, il montra dès son jeune âge une aptitude marquée pour la musique, étudia le violon et poursuivit parallèlement une carrière ecclésiastique. Ordonné prêtre en 1703, la même année il fut engagé comme maître de violon au Pio Ospedale della Pietà, institution vénitienne où il enseigna et composa pendant de nombreuses années. Considéré comme l'un des plus grands compositeurs du baroque, il écrivit des centaines de concertos, de sonates et d'opéras. Sa renommée tient surtout aux Quatre Saisons, publiées en 1725. Dans ses dernières années, il s'installa à Vienne, où il mourut dans des conditions financières difficiles le 28 juillet 1741.",
+        "de": "Antonio Vivaldi wurde am 4. März 1678 in Venedig geboren. Als Sohn eines Geigers zeigte er früh eine ausgeprägte Begabung für die Musik, lernte Violine und verfolgte zugleich eine geistliche Laufbahn. 1703 zum Priester geweiht, wurde er im selben Jahr als Violinlehrer am Pio Ospedale della Pietà angestellt, einer Venezianer Einrichtung, an der er viele Jahre lehrte und komponierte. Als einer der bedeutendsten Komponisten des Barock schrieb er Hunderte von Konzerten, Sonaten und Opern. Sein Ruhm beruht vor allem auf den 1725 veröffentlichten Vier Jahreszeiten. In seinen letzten Jahren zog er nach Wien, wo er am 28. Juli 1741 unter schwierigen finanziellen Verhältnissen starb.",
+        "es": "Antonio Vivaldi nació en Venecia el 4 de marzo de 1678. Hijo de un violinista, mostró desde joven una notable aptitud para la música, estudió violín y siguió al mismo tiempo la carrera eclesiástica. Ordenado sacerdote en 1703, ese mismo año fue contratado como maestro de violín en el Pio Ospedale della Pietà, institución veneciana donde enseñó y compuso durante muchos años. Considerado uno de los grandes compositores del Barroco, escribió cientos de conciertos, sonatas y óperas. Su fama está ligada sobre todo a Las cuatro estaciones, publicadas en 1725. En sus últimos años se trasladó a Viena, donde murió en difíciles condiciones económicas el 28 de julio de 1741."
+      },
+      "curiosita": {
+        "it": [
+          "Il Prete Rosso: era chiamato così per il colore rosso dei suoi capelli, caratteristica che aveva ereditato dal padre, anch'egli soprannominato «Rossi».",
+          "Un padre musicista: suo padre Giovanni Battista era barbiere di professione, ma anche un abile violinista, tanto da entrare nell'orchestra della Basilica di San Marco.",
+          "Un'orchestra tutta al femminile: alla Pietà Vivaldi compose numerosi brani per le giovani ospiti dell'istituto, che ricevevano un'istruzione musicale e si esibivano in un'orchestra e in un coro molto apprezzati.",
+          "Le Quattro stagioni: i celebri concerti fanno parte della raccolta Il cimento dell'armonia e dell'invenzione, pubblicata ad Amsterdam nel 1725.",
+          "Un debutto operistico lontano da Venezia: la sua prima opera, Ottone in villa, venne rappresentata nel 1713 al Teatro delle Grazie di Vicenza, non a Venezia."
+        ],
+        "en": [
+          "The Red Priest: he was called this for the red colour of his hair, a trait he had inherited from his father, who was also nicknamed 'Rossi'.",
+          "A musician father: his father, Giovanni Battista, was a barber by trade but also a skilled violinist, to the point of joining the orchestra of St Mark's Basilica.",
+          "An all-female orchestra: at the Pietà Vivaldi composed many pieces for the young women of the institution, who received a musical education and performed in a much-admired orchestra and choir.",
+          "The Four Seasons: the famous concertos belong to the collection Il cimento dell'armonia e dell'invenzione, published in Amsterdam in 1725.",
+          "An opera debut away from Venice: his first opera, Ottone in villa, was staged in 1713 at the Teatro delle Grazie in Vicenza, not in Venice."
+        ],
+        "fr": [
+          "Le Prêtre roux : on l'appelait ainsi à cause de la couleur rousse de ses cheveux, un trait hérité de son père, lui aussi surnommé « Rossi ».",
+          "Un père musicien : son père, Giovanni Battista, était de profession barbier, mais aussi un habile violoniste, au point d'entrer dans l'orchestre de la basilique Saint-Marc.",
+          "Un orchestre entièrement féminin : à la Pietà, Vivaldi composa de nombreuses pièces pour les jeunes filles de l'institution, qui recevaient une formation musicale et se produisaient dans un orchestre et un chœur très appréciés.",
+          "Les Quatre Saisons : les célèbres concertos font partie du recueil Il cimento dell'armonia e dell'invenzione, publié à Amsterdam en 1725.",
+          "Des débuts à l'opéra loin de Venise : son premier opéra, Ottone in villa, fut représenté en 1713 au Teatro delle Grazie de Vicence, et non à Venise."
+        ],
+        "de": [
+          "Der Rote Priester: Man nannte ihn so wegen der roten Farbe seiner Haare, die er von seinem Vater geerbt hatte, der ebenfalls „Rossi“ genannt wurde.",
+          "Ein musikalischer Vater: Sein Vater Giovanni Battista war von Beruf Barbier, aber auch ein geschickter Geiger, so sehr, dass er in das Orchester der Markusbasilika aufgenommen wurde.",
+          "Ein reines Frauenorchester: An der Pietà komponierte Vivaldi zahlreiche Stücke für die jungen Frauen des Instituts, die eine musikalische Ausbildung erhielten und in einem hochgeschätzten Orchester und Chor auftraten.",
+          "Die Vier Jahreszeiten: Die berühmten Konzerte gehören zur Sammlung Il cimento dell'armonia e dell'invenzione, die 1725 in Amsterdam erschien.",
+          "Ein Operndebüt fernab von Venedig: Seine erste Oper, Ottone in villa, wurde 1713 im Teatro delle Grazie in Vicenza aufgeführt, nicht in Venedig."
+        ],
+        "es": [
+          "El Cura Rojo: se le llamaba así por el color rojo de su cabello, un rasgo heredado de su padre, que también tenía el apodo de «Rossi».",
+          "Un padre músico: su padre, Giovanni Battista, era barbero de profesión, pero también un hábil violinista, hasta el punto de entrar en la orquesta de la basílica de San Marcos.",
+          "Una orquesta solo de mujeres: en la Pietà, Vivaldi compuso numerosas piezas para las jóvenes del instituto, que recibían formación musical y actuaban en una orquesta y un coro muy apreciados.",
+          "Las cuatro estaciones: los célebres conciertos forman parte de la colección Il cimento dell'armonia e dell'invenzione, publicada en Ámsterdam en 1725.",
+          "Un debut operístico lejos de Venecia: su primera ópera, Ottone in villa, se representó en 1713 en el Teatro delle Grazie de Vicenza, no en Venecia."
+        ]
       }
     },
     {

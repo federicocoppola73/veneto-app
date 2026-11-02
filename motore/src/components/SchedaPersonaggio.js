@@ -59,6 +59,7 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
             )}
             <View style={styles.testoIntestazione}>
               <Text style={styles.nome}>{p.nome}</Text>
+              {p.soprannome ? <Text style={styles.soprannome}>{testoLocalizzato(p.soprannome, lingua)}</Text> : null}
               <Text style={styles.professione}>{professione}</Text>
               {nascita || morte ? (
                 <Text style={styles.date}>
@@ -144,6 +145,7 @@ const styles = StyleSheet.create({
   testoIntestazione: { flex: 1, minWidth: 0, gap: 3 },
   nome: { fontSize: 22, fontWeight: '800', color: '#0f3d5e' },
   professione: { fontSize: 14, color: '#334155' },
+  soprannome: { fontSize: 14, fontStyle: 'italic', color: '#475569' },
   date: { fontSize: 13, color: '#475569' },
   sottotitolo: { fontSize: 15, fontWeight: '800', color: '#0f172a', marginTop: 8 },
   testo: { fontSize: 15, lineHeight: 22, color: '#334155' },
