@@ -16,6 +16,8 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
   const insets = useSafeAreaInsets();
   if (!p) return null;
   const luoghi = (p.luoghi || []).filter((id) => luoghiPerId[id]);
+  // l'itinerario conta solo i luoghi visitabili
+  const visitabili = luoghi.filter((id) => !luoghiPerId[id].nonVisitabile);
   const curiosita = p.curiosita ? p.curiosita[lingua] || p.curiosita.it || [] : [];
   const biografia = testoLocalizzato(p.biografia, lingua);
   const professione = testoLocalizzato(p.professione, lingua);
@@ -95,8 +97,8 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
             </>
           ) : null}
 
-          {luoghi.length >= MIN_TAPPE_ITINERARIO ? (
-            <Pressable style={styles.pulsante} onPress={() => onCreaItinerario(p)} accessibilityRole="button">
+          {visitabili.length >= MIN_TAPPE_ITINERARIO ? (
+            <Pressable style={styles.pulsante} onPress={() => onCreaItinerario(p, visitabili)} accessibilityRole="button">
               <Text style={styles.pulsanteTesto}>{t('pers_crea_itinerario')}</Text>
             </Pressable>
           ) : null}

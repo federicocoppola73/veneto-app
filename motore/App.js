@@ -998,10 +998,10 @@ function Schermata({ linguaIniziale }) {
             setPannelloPersonaggi(false);
             apriTappa(luogoId);
           }}
-          onCreaItinerario={(persona) => {
+          onCreaItinerario={(persona, visitabili) => {
             setPersonaggioAperto(null);
             setPannelloPersonaggi(false);
-            setEditor({ titolo: persona.nome, tappe: (persona.luoghi || []).filter((id) => luoghiPerId[id]) });
+            setEditor({ titolo: persona.nome, tappe: visitabili });
           }}
         />
       )}
