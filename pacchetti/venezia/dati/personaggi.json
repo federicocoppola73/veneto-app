@@ -398,24 +398,45 @@
             "fr": "Lien direct",
             "de": "Direkter Bezug",
             "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "È il luogo più significativo da associare a Marco Polo. Dopo il ritorno in patria, la famiglia acquistò una grande abitazione nella zona di San Giovanni Grisostomo, vicino a Rialto. L'area è tradizionalmente identificata con la dimora dei Polo. Le antiche case furono distrutte da un incendio nel 1597 e successivamente sostituite da nuove costruzioni.",
+            "en": "This is the most significant place to associate with Marco Polo. After the family's return to their homeland, they bought a large house in the San Giovanni Grisostomo area, near Rialto. The area is traditionally identified with the Polo family home. The old houses were destroyed by a fire in 1597 and later replaced by new buildings.",
+            "fr": "C'est le lieu le plus significatif à associer à Marco Polo. Après le retour de la famille dans sa patrie, celle-ci acquit une grande demeure dans le quartier de San Giovanni Grisostomo, près du Rialto. Le secteur est traditionnellement identifié à la maison des Polo. Les anciennes maisons furent détruites par un incendie en 1597 puis remplacées par de nouvelles constructions.",
+            "de": "Dies ist der bedeutendste Ort, der mit Marco Polo verbunden werden kann. Nach der Rückkehr der Familie in die Heimat erwarb sie ein großes Haus im Gebiet von San Giovanni Grisostomo, nahe der Rialtobrücke. Das Gebiet wird traditionell mit dem Wohnsitz der Polo gleichgesetzt. Die alten Häuser wurden 1597 bei einem Brand zerstört und später durch Neubauten ersetzt.",
+            "es": "Es el lugar más significativo que asociar a Marco Polo. Tras el regreso de la familia a su patria, compraron una gran casa en la zona de San Giovanni Grisostomo, cerca de Rialto. La zona se identifica tradicionalmente con la morada de los Polo. Las antiguas casas fueron destruidas por un incendio en 1597 y después sustituidas por nuevas construcciones."
           }
         },
         "teatro-malibran": {
           "tipo": {
-            "it": "Legame storico",
-            "en": "Historical link",
-            "fr": "Lien historique",
-            "de": "Historischer Bezug",
-            "es": "Vínculo histórico"
+            "it": "Legame familiare documentato",
+            "en": "Documented family link",
+            "fr": "Lien familial documenté",
+            "de": "Dokumentierter familiärer Bezug",
+            "es": "Vínculo familiar documentado"
+          },
+          "testo": {
+            "it": "Il teatro fu costruito nell'area in cui sorgeva la residenza della famiglia Polo, dopo la distruzione delle antiche abitazioni. Inaugurato nel 1678, è oggi un importante teatro veneziano. È una tappa interessante perché permette di raccontare come il luogo associato alla famiglia di Marco Polo abbia cambiato funzione nel corso dei secoli.",
+            "en": "The theatre was built on the site of the Polo family residence, after the old houses had been destroyed. Opened in 1678, it is today an important Venetian theatre. It is an interesting stop because it shows how the place associated with Marco Polo's family has changed its function over the centuries.",
+            "fr": "Le théâtre fut construit à l'emplacement de la demeure de la famille Polo, après la destruction des anciennes maisons. Inauguré en 1678, il est aujourd'hui un important théâtre vénitien. C'est une étape intéressante car il montre comment le lieu lié à la famille de Marco Polo a changé de fonction au fil des siècles.",
+            "de": "Das Theater wurde auf dem Gelände errichtet, auf dem der Wohnsitz der Familie Polo stand, nachdem die alten Häuser zerstört worden waren. Es wurde 1678 eröffnet und ist heute ein bedeutendes Theater Venedigs. Der Ort ist interessant, weil er zeigt, wie sich die Funktion des mit der Familie Marco Polos verbundenen Ortes im Lauf der Jahrhunderte verändert hat.",
+            "es": "El teatro se construyó en el lugar donde se encontraba la residencia de la familia Polo, tras la destrucción de las antiguas casas. Inaugurado en 1678, es hoy un importante teatro veneciano. Es una parada interesante porque muestra cómo el lugar asociado a la familia de Marco Polo ha cambiado de función a lo largo de los siglos."
           }
         },
         "chiesa-san-lorenzo": {
           "tipo": {
-            "it": "Legame di memoria",
-            "en": "Memorial link",
-            "fr": "Lien de mémoire",
-            "de": "Erinnerungsbezug",
-            "es": "Vínculo de memoria"
+            "it": "Legame con il sito della dimora",
+            "en": "Link with the family home site",
+            "fr": "Lien avec le site de la demeure",
+            "de": "Bezug zum Standort des Wohnsitzes",
+            "es": "Vínculo con el lugar de la morada"
+          },
+          "testo": {
+            "it": "Secondo la tradizione, Marco Polo fu sepolto in questa chiesa, nel sestiere di Castello. La sua tomba, tuttavia, non è stata identificata con certezza e non è oggi possibile indicare un punto preciso di sepoltura. La chiesa è quindi un luogo legato alla memoria e alla tradizione, non una tomba visitabile.",
+            "en": "According to tradition, Marco Polo was buried in this church, in the Castello sestiere. His tomb, however, has not been identified with certainty, and today it is not possible to point to a precise burial place. The church is therefore a place linked to memory and tradition, not a tomb that can be visited.",
+            "fr": "Selon la tradition, Marco Polo fut enterré dans cette église, dans le sestiere de Castello. Sa tombe n'a toutefois pas été identifiée avec certitude, et il n'est pas possible aujourd'hui d'indiquer un emplacement précis. L'église est donc un lieu lié à la mémoire et à la tradition, non une tombe que l'on peut visiter.",
+            "de": "Der Überlieferung nach wurde Marco Polo in dieser Kirche im Sestiere Castello beigesetzt. Sein Grab ist jedoch nicht mit Sicherheit identifiziert, und ein genauer Begräbnisort lässt sich heute nicht angeben. Die Kirche ist daher ein mit Erinnerung und Tradition verbundener Ort und kein besuchbares Grab.",
+            "es": "Según la tradición, Marco Polo fue enterrado en esta iglesia, en el sestiere de Castello. Sin embargo, su tumba no se ha identificado con certeza y hoy no es posible señalar un punto preciso de enterramiento. La iglesia es, por tanto, un lugar ligado a la memoria y a la tradición, no una tumba visitable."
           }
         }
       }
