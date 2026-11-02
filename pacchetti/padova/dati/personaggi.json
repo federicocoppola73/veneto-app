@@ -899,7 +899,8 @@
       "luoghi": [
         "chiesa-degli-eremitani",
         "chiesa-di-santa-sofia",
-        "prato-della-valle"
+        "prato-della-valle",
+        "museo-antoniano"
       ],
       "luoghiNote": {
         "chiesa-degli-eremitani": {
@@ -948,6 +949,22 @@
             "fr": "Parmi les statues qui entourent l'île Memmia figure aussi celle qui est dédiée à Andrea Mantegna. Elle rappelle le souvenir que la ville conserve du peintre, et non un lieu de son activité.",
             "de": "Unter den Statuen, die die Isola Memmia umgeben, befindet sich auch die Andrea Mantegna gewidmete. Sie erinnert an das Andenken, das die Stadt dem Maler bewahrt, und ist kein Ort seiner Tätigkeit.",
             "es": "Entre las estatuas que rodean la Isola Memmia se encuentra también la dedicada a Andrea Mantegna. Es un recuerdo de la memoria que la ciudad conserva del pintor, no un lugar de su actividad."
+          }
+        },
+        "museo-antoniano": {
+          "tipo": {
+            "it": "Legame diretto – opera conservata",
+            "en": "Direct link – work preserved",
+            "fr": "Lien direct – œuvre conservée",
+            "de": "Direkter Bezug – erhaltenes Werk",
+            "es": "Vínculo directo – obra conservada"
+          },
+          "testo": {
+            "it": "Conserva la lunetta dipinta da Mantegna nel 1452 per il portale maggiore della Basilica del Santo, con le figure di Sant'Antonio e San Bernardino ai lati del monogramma di Cristo.",
+            "en": "It keeps the lunette painted by Mantegna in 1452 for the main portal of the Basilica del Santo, with the figures of Saint Anthony and Saint Bernardino on either side of the monogram of Christ.",
+            "fr": "Il conserve la lunette peinte par Mantegna en 1452 pour le portail principal de la basilique du Santo, avec les figures de saint Antoine et de saint Bernardin de part et d'autre du monogramme du Christ.",
+            "de": "Hier befindet sich die Lunette, die Mantegna 1452 für das Hauptportal der Basilika des Heiligen malte, mit den Figuren des heiligen Antonius und des heiligen Bernhardin zu beiden Seiten des Christusmonogramms.",
+            "es": "Conserva la luneta pintada por Mantegna en 1452 para el portal mayor de la basílica del Santo, con las figuras de san Antonio y san Bernardino a ambos lados del monograma de Cristo."
           }
         }
       }

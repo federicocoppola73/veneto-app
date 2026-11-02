@@ -4310,6 +4310,46 @@
       "wikipedia": {
         "en": "Santa Caterina d'Alessandria, Padua"
       }
+    },
+    {
+      "id": "museo-antoniano",
+      "nome": "Museo Antoniano",
+      "categoria": "musei",
+      "latitudine": 45.40033919706505,
+      "longitudine": 11.880105258182414,
+      "descrizione": {
+        "it": "Il Museo Antoniano, situato all'interno del complesso della Basilica di Sant'Antonio, custodisce opere d'arte, dipinti, sculture, paramenti sacri e preziosi oggetti legati alla storia della Basilica e al culto del Santo. Il percorso espositivo permette di scoprire secoli di arte e devozione, attraverso testimonianze di grande valore storico e artistico. Tra le opere conservate si trova anche la lunetta dipinta da Andrea Mantegna nel 1452 per il portale maggiore della Basilica, con Sant'Antonio e San Bernardino ai lati del monogramma di Cristo.",
+        "en": "The Museo Antoniano, located within the Basilica of Sant'Antonio complex, houses artworks, paintings, sculptures, sacred vestments and precious objects linked to the history of the Basilica and to the cult of the Saint. The exhibition route allows visitors to discover centuries of art and devotion, through testimonies of great historical and artistic value. Among the works preserved is also the lunette painted by Andrea Mantegna in 1452 for the main portal of the Basilica, with Saint Anthony and Saint Bernardino on either side of the monogram of Christ.",
+        "fr": "Le Musée antonien, situé dans le complexe de la basilique Saint-Antoine, conserve des œuvres d'art, des peintures, des sculptures, des vêtements liturgiques et des objets précieux liés à l'histoire de la basilique et au culte du Saint. Le parcours d'exposition permet de découvrir des siècles d'art et de dévotion, à travers des témoignages d'une grande valeur historique et artistique. Parmi les œuvres conservées figure aussi la lunette peinte par Andrea Mantegna en 1452 pour le portail principal de la basilique, avec saint Antoine et saint Bernardin de part et d'autre du monogramme du Christ.",
+        "de": "Das Museo Antoniano befindet sich im Komplex der Basilika des heiligen Antonius und bewahrt Kunstwerke, Gemälde, Skulpturen, liturgische Gewänder und kostbare Objekte, die mit der Geschichte der Basilika und der Verehrung des Heiligen verbunden sind. Der Ausstellungsrundgang lädt dazu ein, Jahrhunderte von Kunst und Frömmigkeit anhand von Zeugnissen von großem historischem und künstlerischem Wert zu entdecken. Zu den erhaltenen Werken gehört auch die Lunette, die Andrea Mantegna 1452 für das Hauptportal der Basilika malte, mit dem heiligen Antonius und dem heiligen Bernhardin zu beiden Seiten des Christusmonogramms.",
+        "es": "El Museo Antoniano, situado en el complejo de la basílica de San Antonio, custodia obras de arte, pinturas, esculturas, ornamentos sagrados y valiosos objetos relacionados con la historia de la basílica y el culto al Santo. El recorrido expositivo permite descubrir siglos de arte y devoción, a través de testimonios de gran valor histórico y artístico. Entre las obras conservadas se encuentra también la luneta pintada por Andrea Mantegna en 1452 para el portal mayor de la basílica, con san Antonio y san Bernardino a ambos lados del monograma de Cristo."
+      },
+      "personaggio": "andrea-mantegna",
+      "immagine": {
+        "autore": "Annika_of_Nine",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "galleria": [
+        {
+          "autore": "Annika_of_Nine",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Armin Kleiner",
+          "licenza": "CC BY-SA 4.0"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "mar-dom",
+          "ore": "9:00–13:00·14:00–18:00"
+        }
+      ],
+      "biglietto": {
+        "intero": 3,
+        "ridotto": 2
+      },
+      "sito": "https://www.santantonio.org"
     }
   ]
 }
