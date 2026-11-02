@@ -1,3 +1,131 @@
 {
-  "personaggi": []
+  "personaggi": [
+    {
+      "id": "sant-antonio-di-padova",
+      "nome": "Sant'Antonio di Padova",
+      "nascita": 1195,
+      "morte": 1231,
+      "professione": {
+        "it": "Frate francescano, sacerdote e predicatore",
+        "en": "Franciscan friar, priest and preacher",
+        "fr": "Frère franciscain, prêtre et prédicateur",
+        "de": "Franziskanermönch, Priester und Prediger",
+        "es": "Fraile franciscano, sacerdote y predicador"
+      },
+      "luogoNascita": {
+        "it": "Lisbona",
+        "en": "Lisbon",
+        "fr": "Lisbonne",
+        "de": "Lissabon",
+        "es": "Lisboa"
+      },
+      "dataNascita": {
+        "it": "1195",
+        "en": "1195",
+        "fr": "1195",
+        "de": "1195",
+        "es": "1195"
+      },
+      "luogoMorte": {
+        "it": "Padova (Arcella)",
+        "en": "Padua (Arcella)",
+        "fr": "Padoue (Arcella)",
+        "de": "Padua (Arcella)",
+        "es": "Padua (Arcella)"
+      },
+      "dataMorte": {
+        "it": "13 giugno 1231",
+        "en": "13 June 1231",
+        "fr": "13 juin 1231",
+        "de": "13. Juni 1231",
+        "es": "13 de junio de 1231"
+      },
+      "ritratto": {
+        "autore": "Guercino",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Sant'Antonio nacque a Lisbona, in Portogallo, nel 1195, con il nome di Fernando Martins de Bulhões. Da giovane entrò nell'Ordine degli Agostiniani, dedicandosi agli studi religiosi e alla predicazione. Nel 1220, dopo essere rimasto profondamente colpito dalla testimonianza di alcuni frati francescani martirizzati in Marocco, decise di entrare nell'Ordine fondato da Francesco d'Assisi e assunse il nome di Antonio. Dopo alcuni viaggi e un periodo dedicato all'insegnamento della teologia e alla predicazione, si affermò come uno dei più importanti predicatori del suo tempo. Arrivò a Padova negli ultimi anni della sua vita e vi svolse un'intensa attività religiosa e sociale. Nel 1231 intervenne anche a favore dei debitori insolventi, contribuendo a ottenere una modifica delle severe norme che li punivano. Provato dalle fatiche della predicazione, morì il 13 giugno 1231 presso l'Arcella, alle porte di Padova. Fu canonizzato da papa Gregorio IX il 30 maggio 1232, meno di un anno dopo la morte. La città iniziò subito la costruzione della grande basilica a lui dedicata, che ancora oggi custodisce le sue spoglie.",
+        "en": "Saint Anthony was born in Lisbon, Portugal, in 1195, under the name Fernando Martins de Bulhões. As a young man he joined the Order of Saint Augustine, devoting himself to religious study and preaching. In 1220, deeply moved by the witness of some Franciscan friars martyred in Morocco, he decided to join the Order founded by Francis of Assisi and took the name Anthony. After some journeys and a period devoted to teaching theology and preaching, he established himself as one of the most important preachers of his time. He reached Padua in the last years of his life and carried out an intense religious and social activity there. In 1231 he also intervened on behalf of insolvent debtors, helping to bring about a change to the harsh rules that punished them. Worn out by the labours of preaching, he died on 13 June 1231 at Arcella, on the outskirts of Padua. He was canonised by Pope Gregory IX on 30 May 1232, less than a year after his death. The city immediately began building the great basilica dedicated to him, which still today keeps his remains.",
+        "fr": "Saint Antoine naquit à Lisbonne, au Portugal, en 1195, sous le nom de Fernando Martins de Bulhões. Jeune, il entra dans l'ordre de Saint-Augustin, se consacrant aux études religieuses et à la prédication. En 1220, profondément ému par le témoignage de quelques frères franciscains martyrisés au Maroc, il décida d'entrer dans l'ordre fondé par François d'Assise et prit le nom d'Antoine. Après quelques voyages et une période consacrée à l'enseignement de la théologie et à la prédication, il s'imposa comme l'un des plus grands prédicateurs de son temps. Il arriva à Padoue dans les dernières années de sa vie et y déploya une intense activité religieuse et sociale. En 1231, il intervint aussi en faveur des débiteurs insolvables, contribuant à obtenir une modification des sévères règles qui les punissaient. Épuisé par les fatigues de la prédication, il mourut le 13 juin 1231 à l'Arcella, aux portes de Padoue. Il fut canonisé par le pape Grégoire IX le 30 mai 1232, moins d'un an après sa mort. La ville entreprit aussitôt la construction de la grande basilique qui lui est dédiée et qui conserve aujourd'hui encore ses restes.",
+        "de": "Sankt Antonius wurde 1195 in Lissabon in Portugal geboren, mit dem Namen Fernando Martins de Bulhões. Als junger Mann trat er in den Orden der Augustiner-Chorherren ein und widmete sich dem Studium der Theologie und der Predigt. 1220 entschloss er sich, tief beeindruckt vom Zeugnis einiger in Marokko gemarterter Franziskanerbrüder, in den von Franz von Assisi gegründeten Orden einzutreten, und nahm den Namen Antonius an. Nach einigen Reisen und einer Zeit der Lehre in Theologie und der Predigt wurde er zu einem der bedeutendsten Prediger seiner Zeit. In den letzten Jahren seines Lebens kam er nach Padua, wo er eine intensive religiöse und soziale Tätigkeit entfaltete. 1231 setzte er sich auch für zahlungsunfähige Schuldner ein und trug dazu bei, die strengen Strafbestimmungen gegen sie zu mildern. Erschöpft von den Mühen des Predigens starb er am 13. Juni 1231 in Arcella vor den Toren Paduas. Papst Gregor IX. sprach ihn am 30. Mai 1232 heilig, weniger als ein Jahr nach seinem Tod. Die Stadt begann sogleich mit dem Bau der großen Basilika, die ihm geweiht ist und seine sterblichen Überreste bis heute bewahrt.",
+        "es": "San Antonio nació en Lisboa, Portugal, en 1195, con el nombre de Fernando Martins de Bulhões. De joven ingresó en la Orden de San Agustín, dedicándose a los estudios religiosos y a la predicación. En 1220, profundamente impresionado por el testimonio de algunos frailes franciscanos martirizados en Marruecos, decidió entrar en la orden fundada por Francisco de Asís y tomó el nombre de Antonio. Tras algunos viajes y un periodo dedicado a la enseñanza de la teología y a la predicación, se consolidó como uno de los predicadores más importantes de su tiempo. Llegó a Padua en los últimos años de su vida y desarrolló allí una intensa actividad religiosa y social. En 1231 intervino también en favor de los deudores insolventes, contribuyendo a modificar las severas normas que los castigaban. Agotado por las fatigas de la predicación, murió el 13 de junio de 1231 en la Arcella, a las puertas de Padua. Fue canonizado por el papa Gregorio IX el 30 de mayo de 1232, menos de un año después de su muerte. La ciudad inició enseguida la construcción de la gran basílica dedicada a él, que hoy todavía custodia sus restos."
+      },
+      "curiosita": {
+        "it": [
+          "Un nome diverso: alla nascita si chiamava Fernando. Assunse il nome Antonio quando entrò nell'Ordine francescano.",
+          "Una canonizzazione rapidissima: fu proclamato santo il 30 maggio 1232, appena undici mesi dopo la morte.",
+          "Il Santo dei miracoli: numerosi racconti tramandano miracoli attribuiti alla sua intercessione. Tra i più celebri vi sono quello del neonato che avrebbe parlato per difendere l'onestà della madre e quello del piede riattaccato a un giovane.",
+          "La lingua incorrotta: durante la ricognizione delle reliquie del 1263, Bonaventura da Bagnoregio constatò che la lingua del Santo si era conservata in modo straordinario. È tuttora custodita tra le reliquie della basilica.",
+          "Dottore della Chiesa: nel 1946 papa Pio XII gli conferì il titolo di Dottore della Chiesa, con l'appellativo di Doctor Evangelicus, in riconoscimento della sua predicazione e del suo insegnamento teologico."
+        ],
+        "en": [
+          "A different name: at birth he was called Fernando. He took the name Anthony when he entered the Franciscan Order.",
+          "A very rapid canonisation: he was proclaimed a saint on 30 May 1232, just eleven months after his death.",
+          "The saint of miracles: many accounts hand down miracles attributed to his intercession. Among the most famous are that of the newborn who is said to have spoken to defend his mother's honesty, and that of the foot reattached to a young man.",
+          "The incorrupt tongue: during the examination of the relics in 1263, Bonaventure of Bagnoregio found that the Saint's tongue had been preserved in an extraordinary way. It is still kept among the basilica's relics.",
+          "Doctor of the Church: in 1946 Pope Pius XII conferred on him the title of Doctor of the Church, with the epithet Doctor Evangelicus, in recognition of his preaching and his theological teaching."
+        ],
+        "fr": [
+          "Un nom différent : à sa naissance il s'appelait Fernando. Il prit le nom d'Antoine en entrant dans l'ordre franciscain.",
+          "Une canonisation très rapide : il fut proclamé saint le 30 mai 1232, à peine onze mois après sa mort.",
+          "Le saint des miracles : de nombreux récits rapportent des miracles attribués à son intercession. Parmi les plus célèbres figurent celui du nouveau-né qui aurait parlé pour défendre l'honnêteté de sa mère, et celui du pied recollé à un jeune homme.",
+          "La langue incorrompue : lors de la reconnaissance des reliques de 1263, Bonaventure de Bagnoregio constata que la langue du Saint s'était conservée de façon extraordinaire. Elle est encore aujourd'hui conservée parmi les reliques de la basilique.",
+          "Docteur de l'Église : en 1946, le pape Pie XII lui conféra le titre de Docteur de l'Église, avec le surnom de Doctor Evangelicus, en reconnaissance de sa prédication et de son enseignement théologique."
+        ],
+        "de": [
+          "Ein anderer Name: Bei seiner Geburt hieß er Fernando. Er nahm den Namen Antonius an, als er in den Franziskanerorden eintrat.",
+          "Eine außergewöhnlich rasche Heiligsprechung: Er wurde bereits am 30. Mai 1232 heiliggesprochen, nur elf Monate nach seinem Tod.",
+          "Der Heilige der Wunder: Zahlreiche Berichte überliefern Wunder, die seiner Fürsprache zugeschrieben werden. Zu den berühmtesten gehören jenes des Neugeborenen, der angeblich sprach, um die Ehrbarkeit seiner Mutter zu verteidigen, und jenes des wieder angefügten Fußes eines jungen Mannes.",
+          "Die unverweste Zunge: Bei der Untersuchung der Reliquien im Jahr 1263 stellte Bonaventura von Bagnoregio fest, dass die Zunge des Heiligen außergewöhnlich gut erhalten war. Sie wird bis heute unter den Reliquien der Basilika aufbewahrt.",
+          "Kirchenlehrer: 1946 verlieh Papst Pius XII. ihm den Titel eines Kirchenlehrers mit dem Beinamen Doctor Evangelicus, in Anerkennung seiner Predigt und seiner theologischen Lehre."
+        ],
+        "es": [
+          "Un nombre distinto: al nacer se llamaba Fernando. Tomó el nombre de Antonio al ingresar en la Orden franciscana.",
+          "Una canonización rapidísima: fue proclamado santo el 30 de mayo de 1232, apenas once meses después de su muerte.",
+          "El santo de los milagros: numerosos relatos transmiten milagros atribuidos a su intercesión. Entre los más famosos están el del recién nacido que habría hablado para defender la honestidad de su madre y el del pie vuelto a unir a un joven.",
+          "La lengua incorrupta: durante el reconocimiento de las reliquias de 1263, Buenaventura de Bagnoregio comprobó que la lengua del Santo se había conservado de forma extraordinaria. Todavía hoy se custodia entre las reliquias de la basílica.",
+          "Doctor de la Iglesia: en 1946 el papa Pío XII le concedió el título de Doctor de la Iglesia, con el apelativo de Doctor Evangelicus, en reconocimiento de su predicación y de su enseñanza teológica."
+        ]
+      },
+      "luoghi": [
+        "basilica-di-sant-antonio",
+        "santuario-dell-arcella"
+      ],
+      "luoghiNote": {
+        "basilica-di-sant-antonio": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "È il principale luogo antoniano della città. Custodisce la tomba del Santo e le sue reliquie. La costruzione iniziò nel 1232, l'anno successivo alla sua morte. Al suo interno si trova anche la Cappella della Madonna Mora, parte superstite dell'antica chiesa di Santa Maria Mater Domini, dove Antonio visse, celebrò la messa e fu inizialmente sepolto.",
+            "en": "It is the main Antonine site in the city. It keeps the Saint's tomb and his relics. Construction began in 1232, the year after his death. Inside is also the Chapel of the Madonna Mora, a surviving part of the old church of Santa Maria Mater Domini, where Anthony lived, celebrated Mass and was first buried.",
+            "fr": "C'est le principal lieu antonien de la ville. Elle conserve le tombeau du Saint et ses reliques. La construction commença en 1232, l'année suivant sa mort. On y trouve aussi la chapelle de la Madonna Mora, partie subsistante de l'ancienne église de Santa Maria Mater Domini, où Antoine vécut, célébra la messe et fut d'abord enseveli.",
+            "de": "Sie ist der wichtigste antonianische Ort der Stadt. Hier ruhen das Grab des Heiligen und seine Reliquien. Der Bau begann 1232, ein Jahr nach seinem Tod. Im Inneren befindet sich auch die Cappella della Madonna Mora, ein erhaltener Teil der alten Kirche Santa Maria Mater Domini, wo Antonius lebte, die Messe feierte und zunächst beigesetzt wurde.",
+            "es": "Es el principal lugar antoniano de la ciudad. Custodia la tumba del Santo y sus reliquias. La construcción comenzó en 1232, el año siguiente a su muerte. En su interior se encuentra también la Capilla de la Madonna Mora, parte superviviente de la antigua iglesia de Santa Maria Mater Domini, donde Antonio vivió, celebró misa y fue enterrado al principio."
+          }
+        },
+        "santuario-dell-arcella": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Sorge nel luogo in cui, secondo la tradizione storica, Sant'Antonio morì il 13 giugno 1231. Nel santuario è conservata la cella associata agli ultimi momenti della sua vita.",
+            "en": "It stands on the spot where, according to historical tradition, Saint Anthony died on 13 June 1231. The sanctuary preserves the cell associated with the last moments of his life.",
+            "fr": "Il s'élève à l'endroit où, selon la tradition historique, saint Antoine mourut le 13 juin 1231. Le sanctuaire conserve la cellule liée aux derniers moments de sa vie.",
+            "de": "Es steht an dem Ort, an dem Antonius der historischen Überlieferung zufolge am 13. Juni 1231 starb. Im Heiligtum wird die Zelle aufbewahrt, die mit den letzten Augenblicken seines Lebens verbunden ist.",
+            "es": "Se levanta en el lugar donde, según la tradición histórica, san Antonio murió el 13 de junio de 1231. En el santuario se conserva la celda asociada a los últimos momentos de su vida."
+          }
+        }
+      }
+    }
+  ]
 }
