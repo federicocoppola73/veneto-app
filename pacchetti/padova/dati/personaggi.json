@@ -1150,6 +1150,146 @@
         "autore": "Autore sconosciuto",
         "licenza": "Pubblico dominio"
       }
+    },
+    {
+      "id": "tito-livio",
+      "nome": "Tito Livio",
+      "nascita": -59,
+      "morte": 17,
+      "professione": {
+        "it": "Storico e scrittore romano",
+        "en": "Roman historian and writer",
+        "fr": "Historien et écrivain romain",
+        "de": "Römischer Historiker und Schriftsteller",
+        "es": "Historiador y escritor romano"
+      },
+      "luogoNascita": {
+        "it": "Patavium (Padova)",
+        "en": "Patavium (Padua)",
+        "fr": "Patavium (Padoue)",
+        "de": "Patavium (Padua)",
+        "es": "Patavium (Padua)"
+      },
+      "dataNascita": {
+        "it": "59 a.C.",
+        "en": "59 BC",
+        "fr": "59 av. J.-C.",
+        "de": "59 v. Chr.",
+        "es": "59 a. C."
+      },
+      "luogoMorte": {
+        "it": "Roma",
+        "en": "Rome",
+        "fr": "Rome",
+        "de": "Rom",
+        "es": "Roma"
+      },
+      "dataMorte": {
+        "it": "17 d.C.",
+        "en": "17 AD",
+        "fr": "17 apr. J.-C.",
+        "de": "17 n. Chr.",
+        "es": "17 d. C."
+      },
+      "biografia": {
+        "it": "Tito Livio nacque a Patavium, l'antica Padova, nel 59 a.C. ed è considerato uno dei maggiori storici della letteratura latina. La sua opera più importante è Ab Urbe condita libri, una monumentale storia di Roma dalla sua fondazione fino all'età di Augusto. L'opera originaria era composta da 142 libri e rappresentava un progetto storiografico di enorme ambizione. Livio dedicò gran parte della propria vita alla scrittura di questa opera. Trascorse anche lunghi periodi a Roma, dove ebbe rapporti con l'ambiente culturale e politico dell'età augustea. Morì nel 17 d.C. La sua fama rimase viva nei secoli e Padova lo ha ricordato come uno dei suoi cittadini più illustri, dedicandogli monumenti e testimonianze commemorative.",
+        "en": "Titus Livius was born in Patavium, ancient Padua, in 59 BC and is considered one of the greatest historians of Latin literature. His most important work is Ab Urbe condita libri, a monumental history of Rome from its foundation to the age of Augustus. The original work consisted of 142 books and represented a historiographical project of enormous ambition. Livy devoted much of his life to writing this work. He also spent long periods in Rome, where he had contacts with the cultural and political circles of the Augustan age. He died in 17 AD. His fame remained alive over the centuries, and Padua has remembered him as one of its most illustrious citizens, dedicating monuments and commemorative testimonies to him.",
+        "fr": "Tite-Live naquit à Patavium, l'antique Padoue, en 59 av. J.-C. et il est considéré comme l'un des plus grands historiens de la littérature latine. Son œuvre majeure est Ab Urbe condita libri, une histoire monumentale de Rome depuis sa fondation jusqu'à l'époque d'Auguste. L'œuvre originale comptait 142 livres et représentait un projet historiographique d'une ambition immense. Live consacra une grande partie de sa vie à la rédaction de cette œuvre. Il passa aussi de longues périodes à Rome, où il fréquenta les milieux culturels et politiques de l'époque augustéenne. Il mourut en 17 apr. J.-C. Sa renommée resta vivante à travers les siècles, et Padoue le rappelle comme l'un de ses citoyens les plus illustres, lui dédiant monuments et témoignages commémoratifs.",
+        "de": "Titus Livius wurde 59 v. Chr. in Patavium, dem antiken Padua, geboren und gilt als einer der bedeutendsten Historiker der lateinischen Literatur. Sein wichtigstes Werk ist Ab Urbe condita libri, eine monumentale Geschichte Roms von der Gründung bis zur Zeit des Augustus. Das ursprüngliche Werk umfasste 142 Bücher und war ein historiographisches Projekt von gewaltigem Anspruch. Livius widmete einen Großteil seines Lebens der Abfassung dieses Werkes. Er verbrachte auch längere Zeit in Rom, wo er mit dem kulturellen und politischen Umfeld der augusteischen Zeit in Kontakt stand. Er starb 17 n. Chr. Sein Ruhm blieb über die Jahrhunderte lebendig, und Padua erinnert an ihn als einen seiner berühmtesten Bürger, dem es Denkmäler und Gedenkzeugnisse gewidmet hat.",
+        "es": "Tito Livio nació en Patavium, la antigua Padua, en el 59 a. C. y es considerado uno de los mayores historiadores de la literatura latina. Su obra más importante es Ab Urbe condita libri, una monumental historia de Roma desde su fundación hasta la época de Augusto. La obra original constaba de 142 libros y representaba un proyecto historiográfico de enorme ambición. Livio dedicó gran parte de su vida a escribir esta obra. Pasó también largos periodos en Roma, donde tuvo contacto con el ambiente cultural y político de la época augustea. Murió en el 17 d. C. Su fama se mantuvo viva a lo largo de los siglos, y Padua lo recuerda como uno de sus ciudadanos más ilustres, dedicándole monumentos y testimonios conmemorativos."
+      },
+      "curiosita": {
+        "it": [
+          "Un illustre padovano: nacque a Patavium nel 59 a.C., quando la città era un importante centro della regione veneta sotto il dominio romano.",
+          "Un'opera monumentale: la sua Ab Urbe condita era composta da 142 libri e raccontava la storia di Roma dalle origini fino all'età di Augusto.",
+          "Molti libri perduti: dell'opera originale si è conservato soltanto circa un quarto. Sono giunti fino a noi 35 libri completi, oltre ad alcuni frammenti e riassunti degli altri.",
+          "La storia di Roma: nella sua narrazione Livio mescolò ricostruzione storica, tradizioni, racconti leggendari e fonti precedenti, soprattutto per i periodi più antichi.",
+          "Una memoria ancora viva: a Padova il suo nome è ricordato da una statua a Prato della Valle e da un'opera dello scultore Arturo Martini conservata a Palazzo Liviano."
+        ],
+        "en": [
+          "An illustrious Paduan: he was born in Patavium in 59 BC, when the city was an important centre of the Veneto region under Roman rule.",
+          "A monumental work: his Ab Urbe condita consisted of 142 books and told the history of Rome from its origins to the age of Augustus.",
+          "Many lost books: only about a quarter of the original work survives. 35 complete books have come down to us, together with some fragments and summaries of the others.",
+          "The history of Rome: in his narrative Livy mixed historical reconstruction, traditions, legendary tales and earlier sources, especially for the most ancient periods.",
+          "A living memory: in Padua his name is remembered by a statue at Prato della Valle and by a work by the sculptor Arturo Martini kept in Palazzo Liviano."
+        ],
+        "fr": [
+          "Un illustre Padouan : il naquit à Patavium en 59 av. J.-C., alors que la ville était un centre important de la région vénète sous domination romaine.",
+          "Une œuvre monumentale : son Ab Urbe condita comptait 142 livres et racontait l'histoire de Rome depuis ses origines jusqu'à l'époque d'Auguste.",
+          "De nombreux livres perdus : de l'œuvre originale, il ne subsiste qu'environ un quart. 35 livres complets nous sont parvenus, ainsi que quelques fragments et résumés des autres.",
+          "L'histoire de Rome : dans son récit, Tite-Live mêla reconstruction historique, traditions, récits légendaires et sources antérieures, surtout pour les périodes les plus anciennes.",
+          "Une mémoire toujours vivante : à Padoue, son nom est rappelé par une statue au Prato della Valle et par une œuvre du sculpteur Arturo Martini conservée au palais Liviano."
+        ],
+        "de": [
+          "Ein berühmter Paduaner: Er wurde 59 v. Chr. in Patavium geboren, als die Stadt unter römischer Herrschaft ein bedeutendes Zentrum der Region Venetien war.",
+          "Ein monumentales Werk: Seine Ab Urbe condita umfasste 142 Bücher und erzählte die Geschichte Roms von den Anfängen bis zur Zeit des Augustus.",
+          "Viele verlorene Bücher: Vom ursprünglichen Werk ist nur etwa ein Viertel erhalten. 35 vollständige Bücher sind uns überliefert, dazu einige Fragmente und Zusammenfassungen der übrigen.",
+          "Die Geschichte Roms: In seiner Erzählung vermischte Livius historische Rekonstruktion, Überlieferungen, legendäre Erzählungen und ältere Quellen, vor allem für die frühesten Epochen.",
+          "Ein lebendiges Andenken: In Padua wird sein Name durch eine Statue am Prato della Valle und durch ein Werk des Bildhauers Arturo Martini erinnert, das im Palazzo Liviano aufbewahrt wird."
+        ],
+        "es": [
+          "Un ilustre paduano: nació en Patavium en el 59 a. C., cuando la ciudad era un importante centro de la región véneta bajo dominio romano.",
+          "Una obra monumental: su Ab Urbe condita constaba de 142 libros y narraba la historia de Roma desde sus orígenes hasta la época de Augusto.",
+          "Muchos libros perdidos: de la obra original se conserva solo alrededor de un cuarto. Han llegado hasta nosotros 35 libros completos, además de algunos fragmentos y resúmenes de los demás.",
+          "La historia de Roma: en su narración Livio mezcló reconstrucción histórica, tradiciones, relatos legendarios y fuentes anteriores, sobre todo para los periodos más antiguos.",
+          "Una memoria todavía viva: en Padua su nombre se recuerda con una estatua en el Prato della Valle y con una obra del escultor Arturo Martini conservada en el Palazzo Liviano."
+        ]
+      },
+      "luoghi": [
+        "palazzo-liviano",
+        "prato-della-valle",
+        "palazzo-della-ragione"
+      ],
+      "luoghiNote": {
+        "palazzo-liviano": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "All'interno del palazzo universitario si trova una statua di Tito Livio realizzata dallo scultore Arturo Martini nel 1942. L'opera celebra il grande storico nato nell'antica Patavium.",
+            "en": "Inside the university palace stands a statue of Livy by the sculptor Arturo Martini, made in 1942. The work celebrates the great historian born in ancient Patavium.",
+            "fr": "À l'intérieur du palais universitaire se trouve une statue de Tite-Live réalisée par le sculpteur Arturo Martini en 1942. L'œuvre célèbre le grand historien né dans l'antique Patavium.",
+            "de": "Im Universitätspalast steht eine Statue des Livius, die der Bildhauer Arturo Martini 1942 schuf. Das Werk würdigt den großen Historiker, der im antiken Patavium geboren wurde.",
+            "es": "Dentro del palacio universitario se encuentra una estatua de Tito Livio realizada por el escultor Arturo Martini en 1942. La obra honra al gran historiador nacido en la antigua Patavium."
+          }
+        },
+        "prato-della-valle": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "Nell'anello delle statue che circondano l'Isola Memmia si trova anche quella dedicata a Tito Livio, identificata con il numero 48 nell'elenco delle statue.",
+            "en": "In the ring of statues surrounding the Isola Memmia is also the one dedicated to Livy, numbered 48 in the list of statues.",
+            "fr": "Dans l'anneau de statues qui entourent l'île Memmia se trouve aussi celle consacrée à Tite-Live, numérotée 48 dans la liste des statues.",
+            "de": "Im Kranz der Statuen, die die Isola Memmia umgeben, steht auch die dem Livius gewidmete, in der Liste der Statuen unter der Nummer 48.",
+            "es": "En el anillo de estatuas que rodean la Isola Memmia se encuentra también la dedicada a Tito Livio, identificada con el número 48 en la lista de estatuas."
+          }
+        },
+        "palazzo-della-ragione": {
+          "tipo": {
+            "it": "Legame storico – attribuzione non certa",
+            "en": "Historical link – uncertain attribution",
+            "fr": "Lien historique – attribution incertaine",
+            "de": "Historischer Bezug – unsichere Zuschreibung",
+            "es": "Vínculo histórico – atribución incierta"
+          },
+          "testo": {
+            "it": "Sulla parete occidentale del Salone si trova una lapide tombale romana che in passato venne attribuita a Tito Livio. L'identificazione non è considerata una prova della sua sepoltura: è quindi un riferimento alla tradizione storica e alla memoria cittadina, non alla sua tomba.",
+            "en": "On the western wall of the Salone is a Roman tombstone that was once attributed to Livy. The identification is not considered proof of his burial: it is therefore a reference to historical tradition and to the city's memory, not to his tomb.",
+            "fr": "Sur le mur occidental du Salone se trouve une pierre tombale romaine qui fut jadis attribuée à Tite-Live. Cette identification n'est pas considérée comme une preuve de sa sépulture : il s'agit donc d'une référence à la tradition historique et à la mémoire de la ville, et non à sa tombe.",
+            "de": "An der Westwand des Salone befindet sich ein römischer Grabstein, der früher Livius zugeschrieben wurde. Diese Zuordnung gilt nicht als Beweis für sein Grab: Es handelt sich also um einen Verweis auf die historische Überlieferung und das Gedächtnis der Stadt, nicht auf sein Grab.",
+            "es": "En la pared occidental del Salone hay una lápida funeraria romana que en el pasado se atribuyó a Tito Livio. Esta identificación no se considera prueba de su sepultura: es, por tanto, una referencia a la tradición histórica y a la memoria de la ciudad, no a su tumba."
+          }
+        }
+      }
     }
   ]
 }
