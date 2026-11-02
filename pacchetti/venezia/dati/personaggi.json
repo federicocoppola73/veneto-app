@@ -1425,11 +1425,11 @@
         },
         "san-pietro-castello": {
           "tipo": {
-            "it": "Legame biografico",
-            "en": "Biographical link",
-            "fr": "Lien biographique",
-            "de": "Biografischer Bezug",
-            "es": "Vínculo biográfico"
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
           },
           "testo": {
             "it": "Qui Tiepolo ricevette il battesimo il 16 aprile 1696. È un riferimento biografico documentato, anche se non conserva un ciclo pittorico importante dell'artista.",
