@@ -29,6 +29,7 @@ import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
 import PannelloPersonaggi from './src/components/PannelloPersonaggi';
 import SchedaPersonaggio from './src/components/SchedaPersonaggio';
+import SchedaStorica from './src/components/SchedaStorica';
 import { personaggi } from './src/personaggi';
 import SchedaCuriosita from './src/components/SchedaCuriosita';
 import SchedaCibo from './src/components/SchedaCibo';
@@ -1022,7 +1023,7 @@ function Schermata({ linguaIniziale }) {
 
       {ciboAperto && <SchedaCibo cibo={ciboAperto} t={t} lingua={lingua} onChiudi={() => setIdCibo(null)} />}
 
-      {selezionato && (
+      {selezionato && !selezionato.nonVisitabile && (
         <PopupLuogo
           luogo={selezionato}
           lingua={lingua}
@@ -1034,6 +1035,10 @@ function Schermata({ linguaIniziale }) {
           visitato={luoghiVisitati.includes(selezionato.id)}
           onVisitato={cambiaVisitato}
         />
+      )}
+
+      {selezionato && selezionato.nonVisitabile && (
+        <SchedaStorica luogo={selezionato} t={t} lingua={lingua} onChiudi={chiudiScheda} />
       )}
     </View>
   );

@@ -9571,6 +9571,71 @@
 "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
 "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
 }
+},
+{
+"id": "teatro-san-samuele",
+"nome": "Antico Teatro San Samuele",
+"categoria": "altri",
+"latitudine": 45.4329,
+"longitudine": 12.3289,
+"sestiere": "San Marco",
+"nonVisitabile": true,
+"zona": {
+"it": "Campo San Samuele, sestiere di San Marco",
+"en": "Campo San Samuele, San Marco district",
+"fr": "Campo San Samuele, sestiere de San Marco",
+"de": "Campo San Samuele, Sestiere San Marco",
+"es": "Campo San Samuele, sestiere de San Marco"
+},
+"posizione": {
+"it": "Il teatro si trovava nella zona di Corte del Duca Sforza, lungo il Rio del Duca, tra San Samuele e Santo Stefano.",
+"en": "The theatre stood in the area of the Corte del Duca Sforza, along the Rio del Duca, between San Samuele and Santo Stefano.",
+"fr": "Le théâtre se trouvait dans la zone de la Corte del Duca Sforza, le long du Rio del Duca, entre San Samuele et Santo Stefano.",
+"de": "Das Theater lag im Gebiet der Corte del Duca Sforza, entlang des Rio del Duca, zwischen San Samuele und Santo Stefano.",
+"es": "El teatro se encontraba en la zona de la Corte del Duca Sforza, a lo largo del Rio del Duca, entre San Samuele y Santo Stefano."
+},
+"storia": {
+"it": "Fu costruito nel 1655 dalla famiglia Grimani. Goldoni vi lavorò con la compagnia di Giuseppe Imer. Dopo varie vicende, divenne Teatro Camploy e cessò definitivamente l'attività nel 1894.",
+"en": "It was built in 1655 by the Grimani family. Goldoni worked there with the company of Giuseppe Imer. After various vicissitudes it became the Teatro Camploy, and its activity ended for good in 1894.",
+"fr": "Il fut construit en 1655 par la famille Grimani. Goldoni y travailla avec la compagnie de Giuseppe Imer. Après diverses vicissitudes, il devint le Teatro Camploy et cessa définitivement son activité en 1894.",
+"de": "Es wurde 1655 von der Familie Grimani erbaut. Goldoni arbeitete hier mit der Truppe von Giuseppe Imer. Nach wechselvollen Jahren wurde es zum Teatro Camploy und stellte 1894 endgültig seinen Betrieb ein.",
+"es": "Fue construido en 1655 por la familia Grimani. Goldoni trabajó aquí con la compañía de Giuseppe Imer. Tras diversas vicisitudes, se convirtió en el Teatro Camploy y cesó definitivamente su actividad en 1894."
+},
+"immagine": {
+"autore": "Gabriele Bella",
+"licenza": "Pubblico dominio",
+"fonte": "https://commons.wikimedia.org/w/index.php?curid=135981300"
+}
+},
+{
+"id": "teatro-sant-angelo",
+"nome": "Antico Teatro Sant'Angelo",
+"categoria": "altri",
+"latitudine": 45.435562,
+"longitudine": 12.330688,
+"sestiere": "San Marco",
+"nonVisitabile": true,
+"zona": {
+"it": "Nei pressi di Palazzo Corner-Spinelli, sestiere di San Marco",
+"en": "Near Palazzo Corner-Spinelli, San Marco district",
+"fr": "Près du Palazzo Corner-Spinelli, sestiere de San Marco",
+"de": "In der Nähe des Palazzo Corner-Spinelli, Sestiere San Marco",
+"es": "Cerca del Palazzo Corner-Spinelli, sestiere de San Marco"
+},
+"posizione": {
+"it": "Il teatro sorgeva sul Canal Grande, accanto a Palazzo Corner-Spinelli, nella zona della Fondamenta del Teatro Sant'Angelo.",
+"en": "The theatre stood on the Grand Canal, beside Palazzo Corner-Spinelli, in the area of the Fondamenta del Teatro Sant'Angelo.",
+"fr": "Le théâtre se dressait sur le Grand Canal, à côté du Palazzo Corner-Spinelli, dans la zone de la Fondamenta del Teatro Sant'Angelo.",
+"de": "Das Theater stand am Canal Grande, neben dem Palazzo Corner-Spinelli, im Bereich der Fondamenta del Teatro Sant'Angelo.",
+"es": "El teatro se alzaba en el Canal Grande, junto al Palazzo Corner-Spinelli, en la zona de la Fondamenta del Teatro Sant'Angelo."
+},
+"storia": {
+"it": "Fu attivo dal 1677 al 1803. Goldoni collaborò qui con la compagnia di Girolamo Medebach, per la quale scrisse numerose commedie.",
+"en": "It was active from 1677 to 1803. Goldoni worked here with the company of Girolamo Medebach, for which he wrote numerous comedies.",
+"fr": "Il fut actif de 1677 à 1803. Goldoni y collabora avec la compagnie de Girolamo Medebach, pour laquelle il écrivit de nombreuses comédies.",
+"de": "Es war von 1677 bis 1803 in Betrieb. Goldoni arbeitete hier mit der Truppe von Girolamo Medebach zusammen, für die er zahlreiche Komödien schrieb.",
+"es": "Estuvo activo de 1677 a 1803. Goldoni colaboró aquí con la compañía de Girolamo Medebach, para la que escribió numerosas comedias."
+}
 }
 ]
 }
