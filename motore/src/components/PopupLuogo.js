@@ -20,7 +20,7 @@ import IconaCondividi from './IconaCondividi';
 import PulsanteCopia from './PulsanteCopia';
 import { testoLuogo } from '../copia';
 import { linkWikipedia } from '../wikipedia';
-import { fermateAutobusVicine, fermateDelLuogo, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata } from '../vaporetti';
+import { fermataSoloAutobus, fermateAutobusVicine, fermateDelLuogo, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata } from '../vaporetti';
 
 const MAX_TARGHETTE = 6; // targhette delle linee mostrate accanto al nome della fermata
 
@@ -338,9 +338,10 @@ function FermateLuogo({ voce, vicine, t, onApri }) {
   // con una fermata scritta nel luogo: le sue fermate del vaporetto; altrimenti le fermate dell'autobus vicine
   const fermate = voce ? fermateDelLuogo(voce) : vicine.map((f) => ({ testo: f.testo, id: f.id, lineeBus: f.lineeBus }));
   if (fermate.length === 0) return null;
+  const soloAutobus = fermate.every((f) => fermataSoloAutobus(f.id));
   return (
     <View style={styles.tabellaSemplice}>
-      <Text style={styles.titoloFermate}>{voce ? `⛴ ${t('fermata')}` : `🚌 ${t('srv_autobus')}`}</Text>
+      <Text style={styles.titoloFermate}>{voce && !soloAutobus ? `⛴ ${t('fermata')}` : `🚌 ${t('srv_autobus')}`}</Text>
       {fermate.map((f, i) => {
         const linee = voce ? (f.linea ? [lineaVaporetto(f.linea)].filter(Boolean) : lineeDellaFermata(f.id)) : [];
         const separata = i > 0 && styles.fermataSeparata;

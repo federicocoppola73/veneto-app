@@ -1,15 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import {
-  coloreSchema,
-  direzioniDallaFermata,
-  fermateStessoNome,
-  lineaVaporetto,
-  lineeAutobusDellaFermata,
-  lineeDellaFermata,
-  nomeFermata,
-  urlOrariLinea,
-} from '../vaporetti';
+import { coloreSchema, direzioniDallaFermata, fermateStessoNome, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata, nomeFermata, urlOrariLinea, fermataSoloAutobus } from '../vaporetti';
 import { minutiVenezia, orarioDelGiorno, prossimePartenze, validitaOrariPer } from '../orariVaporetti';
 import { useAdesso } from '../adesso';
 
@@ -151,7 +142,7 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
           </Pressable>
         ) : null}
         <View style={{ flex: 1 }}>
-          <Text style={styles.sopratitolo}>{linee.length === 0 && /^autobus-/.test(fermataId || '') ? `🚌 ${t('srv_autobus_uno')}` : `⛴ ${t('fermata')}`}</Text>
+          <Text style={styles.sopratitolo}>{fermataSoloAutobus(fermataId) ? `🚌 ${t('srv_autobus_uno')}` : `⛴ ${t('fermata')}`}</Text>
           <Text style={styles.titolo} numberOfLines={1}>
             {nomeFermata(fermataId)}
           </Text>

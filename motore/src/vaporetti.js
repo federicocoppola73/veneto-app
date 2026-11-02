@@ -125,6 +125,12 @@ export function direzioniDallaFermata(linea, fermataIds) {
 }
 
 // paline dell'autobus con lo stesso nome della fermata (es. due Piazza Bra Arena): si mostrano come un'unica fermata
+// Fermata che è solo dell'autobus: presente nei dati autobus e senza linee di vaporetto
+export function fermataSoloAutobus(id) {
+  if (!id) return false;
+  return !!DATI_AUTOBUS.fermate[id] && lineeDellaFermata(id).length === 0;
+}
+
 export function fermateStessoNome(id) {
   const f = FERMATE[id];
   if (!f || !id.startsWith('autobus-')) return [id];
