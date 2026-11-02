@@ -7,8 +7,8 @@ import { datiProxy } from '../dati';
 
 const IMMAGINI = datiProxy('immagini.json');
 
-// Sotto questo numero di luoghi non ha senso proporre un itinerario
-const MIN_TAPPE_ITINERARIO = 4;
+// Sotto questo numero di luoghi visitabili non ha senso proporre un itinerario
+const MIN_TAPPE_ITINERARIO = 3;
 
 // Scheda di un personaggio: biografia, curiosità, luoghi collegati e (se più di uno) l'itinerario.
 // props: persona, luoghiPerId, t, lingua, onChiudi, onApriLuogo(id), onCreaItinerario(persona)

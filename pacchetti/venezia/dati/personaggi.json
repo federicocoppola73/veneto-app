@@ -221,13 +221,92 @@
       "nascita": 1254,
       "morte": 1324,
       "professione": {
-        "it": "Esploratore e mercante",
-        "en": "Explorer and merchant",
-        "fr": "Explorateur et marchand",
-        "de": "Entdecker und Kaufmann",
-        "es": "Explorador y mercader"
+        "it": "Mercante, viaggiatore e scrittore",
+        "en": "Merchant, traveller and writer",
+        "fr": "Marchand, voyageur et écrivain",
+        "de": "Kaufmann, Reisender und Schriftsteller",
+        "es": "Mercader, viajero y escritor"
       },
-      "luoghi": []
+      "luoghi": [
+        "corte-milion"
+      ],
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "1254",
+        "en": "1254",
+        "fr": "1254",
+        "de": "1254",
+        "es": "1254"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "8 gennaio 1324",
+        "en": "8 January 1324",
+        "fr": "8 janvier 1324",
+        "de": "8. Januar 1324",
+        "es": "8 de enero de 1324"
+      },
+      "ritratto": {
+        "autore": "Salviati",
+        "licenza": "Pubblico dominio",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=52252778"
+      },
+      "biografia": {
+        "it": "Marco Polo nacque a Venezia nel 1254 in una famiglia di mercanti. Ancora adolescente, nel 1271 partì insieme al padre Niccolò e allo zio Matteo per un lungo viaggio verso l'Asia. Dopo aver attraversato regioni dell'Asia centrale, raggiunse la corte di Kublai Khan, imperatore mongolo, dove rimase per diversi anni svolgendo anche incarichi per il sovrano. Rientrò a Venezia nel 1295, dopo circa 24 anni di viaggio e permanenza in Oriente. Nel 1298, durante una prigionia a Genova, raccontò le proprie esperienze a Rustichello da Pisa, che le mise per iscritto in un'opera conosciuta come Il Milione. Il libro divenne uno dei più importanti resoconti medievali sull'Asia. Marco Polo morì a Venezia l'8 gennaio 1324.",
+        "en": "Marco Polo was born in Venice in 1254 into a family of merchants. Still a teenager, in 1271 he set out with his father Niccolò and his uncle Matteo on a long journey to Asia. After crossing regions of Central Asia, he reached the court of Kublai Khan, Mongol emperor, where he stayed for several years also carrying out assignments for the ruler. He returned to Venice in 1295, after about 24 years of travel and residence in the East. In 1298, while imprisoned in Genoa, he recounted his experiences to Rustichello of Pisa, who committed them to writing in a work known as Il Milione. The book became one of the most important medieval accounts of Asia. Marco Polo died in Venice on 8 January 1324.",
+        "fr": "Marco Polo naquit à Venise en 1254, dans une famille de marchands. Encore adolescent, il partit en 1271 avec son père Niccolò et son oncle Matteo pour un long voyage vers l'Asie. Après avoir traversé des régions d'Asie centrale, il atteignit la cour de Kubilai Khan, empereur mongol, où il resta plusieurs années en remplissant également des missions pour le souverain. Il rentra à Venise en 1295, après environ vingt-quatre ans de voyage et de séjour en Orient. En 1298, durant une captivité à Gênes, il raconta ses expériences à Rustichello de Pise, qui les mit par écrit dans une œuvre connue sous le nom de Il Milione. Le livre devint l'un des plus importants récits médiévaux sur l'Asie. Marco Polo mourut à Venise le 8 janvier 1324.",
+        "de": "Marco Polo wurde 1254 in Venedig in eine Kaufmannsfamilie geboren. Noch als Jugendlicher brach er 1271 mit seinem Vater Niccolò und seinem Onkel Matteo zu einer langen Reise nach Asien auf. Nach der Durchquerung Zentralasiens erreichte er den Hof des mongolischen Kaisers Kublai Khan, wo er mehrere Jahre blieb und auch Aufträge für den Herrscher ausführte. 1295 kehrte er nach Venedig zurück, nach rund 24 Jahren des Reisens und Lebens im Osten. Während einer Gefangenschaft in Genua erzählte er 1298 Rustichello von Pisa von seinen Erfahrungen, der sie in dem als Il Milione bekannten Werk niederschrieb. Das Buch wurde zu einem der bedeutendsten mittelalterlichen Berichte über Asien. Marco Polo starb am 8. Januar 1324 in Venedig.",
+        "es": "Marco Polo nació en Venecia en 1254 en una familia de mercaderes. Todavía adolescente, en 1271 partió con su padre Niccolò y su tío Matteo en un largo viaje hacia Asia. Tras atravesar regiones del Asia central, llegó a la corte de Kublai Kan, emperador mongol, donde permaneció varios años realizando también encargos para el soberano. Regresó a Venecia en 1295, tras unos 24 años de viaje y estancia en Oriente. En 1298, durante una prisión en Génova, relató sus experiencias a Rustichello de Pisa, quien las dejó por escrito en una obra conocida como Il Milione. El libro se convirtió en uno de los más importantes relatos medievales sobre Asia. Marco Polo murió en Venecia el 8 de enero de 1324."
+      },
+      "curiosita": {
+        "it": [
+          "Partì giovanissimo: quando iniziò il viaggio verso l'Oriente nel 1271 aveva circa 17 anni. Lo accompagnavano il padre e lo zio, che avevano già compiuto un precedente viaggio alla corte mongola.",
+          "Visse alla corte di un imperatore: Marco Polo raccontò di aver conquistato la fiducia di Kublai Khan e di aver svolto per lui diverse missioni in territori lontani.",
+          "Il Milione non fu scritto direttamente da lui: durante la prigionia a Genova raccontò i suoi viaggi a Rustichello da Pisa, autore e scrittore di romanzi cavallereschi, che li trascrisse in lingua franco-italiana.",
+          "Il soprannome Milione: il nome con cui è conosciuto il libro potrebbe derivare da un soprannome già associato alla famiglia Polo, forse legato al nome Emilione. L'origine esatta è discussa.",
+          "Non era soltanto un esploratore: tornato a Venezia continuò a occuparsi di commercio. Le sue descrizioni comprendevano città, popolazioni, merci, distanze e usanze dei territori asiatici."
+        ],
+        "en": [
+          "He left very young: when he began the journey to the East in 1271 he was about 17. He was accompanied by his father and uncle, who had already made an earlier journey to the Mongol court.",
+          "He lived at an emperor's court: Marco Polo recounted that he won the trust of Kublai Khan and carried out various missions for him in distant lands.",
+          "Il Milione was not written by him directly: during his imprisonment in Genoa he told his travels to Rustichello of Pisa, an author of chivalric romances, who transcribed them in Franco-Italian.",
+          "The nickname Milione: the name by which the book is known may derive from a nickname already associated with the Polo family, perhaps linked to the name Emilione. The exact origin is debated.",
+          "He was not only an explorer: back in Venice he went on dealing in trade. His descriptions covered cities, peoples, goods, distances and customs of the Asian lands."
+        ],
+        "fr": [
+          "Un départ très jeune : lorsqu'il entreprit le voyage vers l'Orient en 1271, il avait environ 17 ans. Il était accompagné de son père et de son oncle, qui avaient déjà effectué un premier voyage à la cour mongole.",
+          "Il vécut à la cour d'un empereur : Marco Polo raconta avoir gagné la confiance de Kubilai Khan et accompli pour lui plusieurs missions dans des terres lointaines.",
+          "Le Milione ne fut pas écrit directement par lui : pendant sa captivité à Gênes, il raconta ses voyages à Rustichello de Pise, auteur de romans de chevalerie, qui les transcrivit en franco-italien.",
+          "Le surnom Milione : le nom sous lequel le livre est connu pourrait dériver d'un surnom déjà associé à la famille Polo, peut-être lié au nom Emilione. L'origine exacte est discutée.",
+          "Il ne fut pas seulement un explorateur : rentré à Venise, il continua à s'occuper de commerce. Ses descriptions couvraient villes, populations, marchandises, distances et coutumes des territoires asiatiques."
+        ],
+        "de": [
+          "Früh aufgebrochen: Als er 1271 die Reise in den Osten antrat, war er etwa 17 Jahre alt. Ihn begleiteten sein Vater und sein Onkel, die bereits zuvor an den mongolischen Hof gereist waren.",
+          "Er lebte am Hof eines Kaisers: Marco Polo erzählte, sich das Vertrauen Kublai Khans erworben und für ihn verschiedene Aufträge in fernen Ländern ausgeführt zu haben.",
+          "Das Milione stammt nicht direkt von ihm: Während seiner Gefangenschaft in Genua erzählte er seine Reisen Rustichello von Pisa, einem Verfasser von Ritterromanen, der sie auf Franko-Italienisch niederschrieb.",
+          "Der Beiname Milione: Der Name, unter dem das Buch bekannt ist, könnte von einem bereits mit der Familie Polo verbundenen Spitznamen stammen, vielleicht mit dem Namen Emilione verknüpft. Der genaue Ursprung ist umstritten.",
+          "Er war nicht nur Entdecker: Zurück in Venedig betrieb er weiterhin Handel. Seine Beschreibungen umfassten Städte, Völker, Waren, Entfernungen und Bräuche der asiatischen Gebiete."
+        ],
+        "es": [
+          "Partió muy joven: cuando inició el viaje a Oriente en 1271 tenía unos 17 años. Lo acompañaban su padre y su tío, que ya habían realizado un viaje anterior a la corte mongola.",
+          "Vivió en la corte de un emperador: Marco Polo contó que se ganó la confianza de Kublai Kan y que realizó para él diversas misiones en tierras lejanas.",
+          "Il Milione no lo escribió él directamente: durante su prisión en Génova relató sus viajes a Rustichello de Pisa, autor de novelas de caballerías, quien los transcribió en franco-italiano.",
+          "El sobrenombre Milione: el nombre con el que se conoce el libro podría derivar de un apodo ya asociado a la familia Polo, quizá ligado al nombre Emilione. Su origen exacto se discute.",
+          "No fue solo un explorador: de vuelta en Venecia siguió dedicándose al comercio. Sus descripciones abarcaban ciudades, pueblos, mercancías, distancias y costumbres de los territorios asiáticos."
+        ]
+      }
     }
   ]
 }
