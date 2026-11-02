@@ -1178,11 +1178,11 @@
         "es": "59 a. C."
       },
       "luogoMorte": {
-        "it": "Roma",
-        "en": "Rome",
-        "fr": "Rome",
-        "de": "Rom",
-        "es": "Roma"
+        "it": "Patavium (l'antica Padova)",
+        "en": "Patavium (ancient Padua)",
+        "fr": "Patavium (l'antique Padoue)",
+        "de": "Patavium (das antike Padua)",
+        "es": "Patavium (la antigua Padua)"
       },
       "dataMorte": {
         "it": "17 d.C.",
@@ -1289,6 +1289,10 @@
             "es": "En la pared occidental del Salone hay una lápida funeraria romana que en el pasado se atribuyó a Tito Livio. Esta identificación no se considera prueba de su sepultura: es, por tanto, una referencia a la tradición histórica y a la memoria de la ciudad, no a su tumba."
           }
         }
+      },
+      "ritratto": {
+        "autore": "Luigi Baldin",
+        "licenza": "CC BY 4.0"
       }
     }
   ]
