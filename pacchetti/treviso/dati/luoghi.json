@@ -2295,6 +2295,53 @@
       "personaggio": [
         "giovanni-comisso"
       ]
+    },
+    {
+      "id": "liceo-ginnasio-antonio-canova",
+      "nome": "Liceo Ginnasio Antonio Canova",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.663499,
+      "longitudine": 12.23869,
+      "descrizione": {
+        "it": "Liceo classico statale di Treviso, nato in età napoleonica e intitolato ad Antonio Canova dal 1867. Ha sede in via Mura di San Teonisto 16, in un edificio neoclassico.",
+        "en": "State classical high school in Treviso, founded in the Napoleonic period and named after Antonio Canova since 1867. It is based at Via Mura di San Teonisto 16, in a neoclassical building.",
+        "fr": "Lycée classique d'État de Trévise, fondé à l'époque napoléonienne et portant le nom d'Antonio Canova depuis 1867. Il a son siège via Mura di San Teonisto 16, dans un bâtiment néoclassique.",
+        "de": "Staatliches humanistisches Gymnasium in Treviso, in napoleonischer Zeit gegründet und seit 1867 nach Antonio Canova benannt. Es befindet sich in der Via Mura di San Teonisto 16, in einem klassizistischen Gebäude.",
+        "es": "Liceo clásico estatal de Treviso, fundado en la época napoleónica y con el nombre de Antonio Canova desde 1867. Tiene sede en la Via Mura di San Teonisto 16, en un edificio neoclásico."
+      },
+      "nota": {
+        "it": "Non visitabile: sede scolastica, aperta solo a studenti e personale.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Not open to visitors: school premises.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Non ouvert aux visiteurs : locaux scolaires.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Nicht für Besucher geöffnet: Schulgebäude.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "No abierto a visitantes: instalaciones escolares.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "personaggio": [
+        "giovanni-comisso"
+      ]
+    },
+    {
+      "id": "parrocchia-di-santa-maria-del-rovere",
+      "nome": "Parrocchia di Santa Maria del Rovere",
+      "categoria": "chiese",
+      "sestiere": "Fuori le mura",
+      "latitudine": 45.6825,
+      "longitudine": 12.2529,
+      "descrizione": {
+        "it": "Chiesa parrocchiale del quartiere di Santa Maria del Rovere, nella periferia nord di Treviso. Le fonti d'archivio la datano alla seconda metà del Seicento. Qui Giovanni Comisso visse gli ultimi anni della sua vita.",
+        "en": "Parish church of the Santa Maria del Rovere district, in northern Treviso. Archival sources date it to the second half of the 17th century. Giovanni Comisso lived here in his final years.",
+        "fr": "Église paroissiale du quartier de Santa Maria del Rovere, dans la périphérie nord de Trévise. Les sources d'archives la datent de la seconde moitié du XVIIe siècle. Giovanni Comisso y vécut les dernières années de sa vie.",
+        "de": "Pfarrkirche des Viertels Santa Maria del Rovere am nördlichen Stadtrand von Treviso. Archivquellen datieren sie in die zweite Hälfte des 17. Jahrhunderts. Giovanni Comisso lebte hier in seinen letzten Lebensjahren.",
+        "es": "Iglesia parroquial del barrio de Santa Maria del Rovere, en la periferia norte de Treviso. Las fuentes de archivo la datan en la segunda mitad del siglo XVII. Giovanni Comisso vivió aquí los últimos años de su vida."
+      },
+      "nota": {
+        "it": "Orari delle messe e delle visite da verificare presso la parrocchia (tel. 0422 302814).\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Mass times and visiting hours to be checked with the parish (tel. +39 0422 302814).\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Horaires des messes et des visites à vérifier auprès de la paroisse (tél. +39 0422 302814).\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Gottesdienstzeiten und Besuchszeiten bei der Pfarrei prüfen (Tel. +39 0422 302814).\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Horarios de misas y visitas por verificar en la parroquia (tel. +39 0422 302814).\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      }
     }
   ]
 }
