@@ -138,7 +138,18 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "cangrande-i-della-scala",
+          "testo": {
+            "it": "Durante il suo soggiorno a Verona, Dante fu accolto alla corte di Cangrande I della Scala, signore della città, tra il 1312 e il 1318 circa. Il poeta trovò nella corte scaligera ospitalità e protezione durante gli anni dell'esilio. Nel Paradiso, dedicò a Cangrande parole di grande elogio nel XVII canto, riconoscendone il valore e la generosità.",
+            "en": "During his stay in Verona, Dante was welcomed at the court of Cangrande I della Scala, lord of the city, from about 1312 to 1318. The poet found hospitality and protection at the Scaliger court during the years of exile. In the Paradiso he paid great praise to Cangrande in canto XVII, recognising his worth and generosity.",
+            "fr": "Pendant son séjour à Vérone, Dante fut accueilli à la cour de Cangrande Ier della Scala, seigneur de la ville, entre 1312 et 1318 environ. Le poète trouva à la cour scaligère hospitalité et protection pendant les années d'exil. Dans le Paradis, il adressa à Cangrande de grands éloges au chant XVII, reconnaissant sa valeur et sa générosité.",
+            "de": "Während seines Aufenthalts in Verona wurde Dante etwa von 1312 bis 1318 am Hof Cangrandes I. della Scala, dem Herrn der Stadt, aufgenommen. Der Dichter fand am scaligerischen Hof Gastfreundschaft und Schutz in den Jahren des Exils. Im Paradies widmete er Cangrande im XVII. Gesang großes Lob und erkannte dabei seinen Wert und seine Großzügigkeit an.",
+            "es": "Durante su estancia en Verona, Dante fue acogido en la corte de Cangrande I della Scala, señor de la ciudad, entre 1312 y 1318 aproximadamente. El poeta encontró en la corte scaligera hospitalidad y protección durante los años del destierro. En el Paraíso, dedicó a Cangrande grandes elogios en el canto XVII, reconociendo su valía y su generosidad."
+          }
+        }
+      ]
     },
     {
       "id": "cangrande-i-della-scala",
@@ -261,7 +272,18 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "dante-alighieri",
+          "testo": {
+            "it": "Cangrande I della Scala ospitò Dante Alighieri alla corte veronese tra il 1312 e il 1318 circa, offrendogli protezione durante il suo esilio da Firenze. Il rapporto tra il signore scaligero e il poeta è ricordato anche nella Divina Commedia: nel XVII canto del Paradiso, Dante elogia Cangrande e ne celebra le virtù, lasciando una testimonianza letteraria del loro legame.",
+            "en": "Cangrande I della Scala hosted Dante Alighieri at the Veronese court between 1312 and 1318 or so, offering him protection during his exile from Florence. The bond between the Scaliger lord and the poet is also recalled in the Divine Comedy: in canto XVII of the Paradiso, Dante praises Cangrande and celebrates his virtues, leaving a literary testimony of their bond.",
+            "fr": "Cangrande Ier della Scala accueillit Dante Alighieri à la cour véronaise entre 1312 et 1318 environ, lui offrant protection pendant son exil de Florence. Le lien entre le seigneur scaligère et le poète est aussi rappelé dans la Divine Comédie : au chant XVII du Paradis, Dante loue Cangrande et célèbre ses vertus, laissant un témoignage littéraire de leur lien.",
+            "de": "Cangrande I. della Scala nahm Dante Alighieri zwischen etwa 1312 und 1318 am veroneser Hof auf und gewährte ihm während seines Exils aus Florenz Schutz. Die Verbindung zwischen dem scaligerischen Herrn und dem Dichter wird auch in der Göttlichen Komödie erinnert: Im XVII. Gesang des Paradieses lobt Dante Cangrande und preist dessen Tugenden, was ein literarisches Zeugnis ihrer Verbindung hinterlässt.",
+            "es": "Cangrande I della Scala acogió a Dante Alighieri en la corte veronesa entre 1312 y 1318 aproximadamente, ofreciéndole protección durante su destierro de Florencia. La relación entre el señor scaligero y el poeta también se recuerda en la Divina Comedia: en el canto XVII del Paraíso, Dante elogia a Cangrande y celebra sus virtudes, dejando un testimonio literario de su vínculo."
+          }
+        }
+      ]
     },
     {
       "id": "michele-sanmicheli",
