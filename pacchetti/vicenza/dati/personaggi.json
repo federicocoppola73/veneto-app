@@ -915,6 +915,129 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "francesco-maffei",
+      "nome": "Francesco Maffei",
+      "nascita": 1600,
+      "morte": 1660,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Vicenza",
+        "en": "Vicenza",
+        "fr": "Vicence",
+        "de": "Vicenza",
+        "es": "Vicenza"
+      },
+      "dataNascita": {
+        "it": "circa 1600",
+        "en": "circa 1600",
+        "fr": "vers 1600",
+        "de": "um 1600",
+        "es": "hacia 1600"
+      },
+      "luogoMorte": {
+        "it": "Padova",
+        "en": "Padua",
+        "fr": "Padoue",
+        "de": "Padua",
+        "es": "Padua"
+      },
+      "dataMorte": {
+        "it": "1660",
+        "en": "1660",
+        "fr": "1660",
+        "de": "1660",
+        "es": "1660"
+      },
+      "ritratto": {
+        "autore": "Francesco Maffei",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Francesco Maffei fu uno dei più importanti pittori veneti del Seicento. Nato a Vicenza intorno al 1600, si formò nell'ambiente artistico cittadino, entrando in contatto con la tradizione pittorica dei Maganza e con le opere di grandi maestri veneti come Paolo Veronese, Tintoretto e Jacopo Bassano. La sua pittura si distingue per la fantasia compositiva, i colori intensi e una pennellata vivace e dinamica. Lavorò soprattutto per chiese, confraternite e istituzioni religiose, realizzando pale d'altare, cicli decorativi e grandi composizioni sacre. A Vicenza lasciò numerose testimonianze della propria attività, tra cui le decorazioni dell'Odeo del Teatro Olimpico e le opere per l'Oratorio di San Nicola da Tolentino. Morì a Padova nel 1660, dove aveva continuato la propria attività artistica.",
+        "en": "Francesco Maffei was one of the most important Venetian painters of the seventeenth century. Born in Vicenza around 1600, he trained in the city's artistic milieu, coming into contact with the painting tradition of the Maganza family and with the works of great Venetian masters such as Paolo Veronese, Tintoretto and Jacopo Bassano. His painting stands out for its inventive compositions, intense colours and lively, dynamic brushwork. He worked mainly for churches, confraternities and religious institutions, producing altarpieces, decorative cycles and large sacred compositions. In Vicenza he left many traces of his activity, including the decorations of the Odeo of the Teatro Olimpico and the works for the Oratorio di San Nicola da Tolentino. He died in Padua in 1660, where he had continued his artistic work.",
+        "fr": "Francesco Maffei fut l'un des plus importants peintres vénitiens du XVIIe siècle. Né à Vicence vers 1600, il se forma dans le milieu artistique de la ville, au contact de la tradition picturale des Maganza et des œuvres de grands maîtres vénitiens comme Paolo Véronèse, le Tintoret et Jacopo Bassano. Sa peinture se distingue par la fantaisie des compositions, les couleurs intenses et une touche vive et dynamique. Il travailla surtout pour des églises, des confréries et des institutions religieuses, réalisant des retables, des cycles décoratifs et de grandes compositions sacrées. À Vicence, il laissa de nombreux témoignages de son activité, notamment les décors de l'Odéon du Teatro Olimpico et les œuvres de l'Oratoire de San Nicola da Tolentino. Il mourut à Padoue en 1660, où il avait poursuivi son activité artistique.",
+        "de": "Francesco Maffei war einer der bedeutendsten venezianischen Maler des 17. Jahrhunderts. Um 1600 in Vicenza geboren, wurde er im künstlerischen Umfeld der Stadt ausgebildet und kam mit der Malerei der Maganza sowie mit Werken großer venezianischer Meister wie Paolo Veronese, Tintoretto und Jacopo Bassano in Berührung. Seine Malerei zeichnet sich durch fantasievolle Kompositionen, intensive Farben und eine lebendige, dynamische Pinselführung aus. Er arbeitete vor allem für Kirchen, Bruderschaften und religiöse Institutionen und schuf Altarbilder, Dekorationszyklen und große sakrale Kompositionen. In Vicenza hinterließ er zahlreiche Zeugnisse seiner Tätigkeit, darunter die Ausmalung des Odeo des Teatro Olimpico und die Werke für das Oratorium San Nicola da Tolentino. Er starb 1660 in Padua, wo er seine künstlerische Arbeit fortgesetzt hatte.",
+        "es": "Francesco Maffei fue uno de los más importantes pintores venecianos del siglo XVII. Nacido en Vicenza hacia 1600, se formó en el ambiente artístico de la ciudad, entrando en contacto con la tradición pictórica de los Maganza y con las obras de grandes maestros venecianos como Paolo Veronese, Tintoretto y Jacopo Bassano. Su pintura destaca por la fantasía compositiva, los colores intensos y una pincelada viva y dinámica. Trabajó sobre todo para iglesias, cofradías e instituciones religiosas, realizando retablos, ciclos decorativos y grandes composiciones sagradas. En Vicenza dejó numerosos testimonios de su actividad, entre ellos las decoraciones del Odeo del Teatro Olimpico y las obras para el Oratorio de San Nicola da Tolentino. Murió en Padua en 1660, donde había seguido su actividad artística."
+      },
+      "curiosita": {
+        "it": [
+          "Fu inizialmente influenzato dalla pittura dei Maganza, ma sviluppò presto uno stile autonomo e riconoscibile.",
+          "Le sue opere si distinguono per i contrasti cromatici, le figure movimentate e le composizioni ricche di teatralità.",
+          "Lavorò anche per il Teatro Olimpico, dove realizzò un ciclo decorativo nell'Odeo insieme alla propria bottega.",
+          "Fu apprezzato dal pittore e scrittore Marco Boschini, che ne riconobbe il talento e ne celebrò la pittura."
+        ],
+        "en": [
+          "He was initially influenced by the painting of the Maganza, but soon developed an independent and recognisable style.",
+          "His works are distinguished by chromatic contrasts, animated figures and compositions full of theatricality.",
+          "He also worked for the Teatro Olimpico, where he created a decorative cycle in the Odeo together with his workshop.",
+          "He was appreciated by the painter and writer Marco Boschini, who recognised his talent and celebrated his painting."
+        ],
+        "fr": [
+          "Il fut d'abord influencé par la peinture des Maganza, mais développa rapidement un style autonome et reconnaissable.",
+          "Ses œuvres se distinguent par leurs contrastes chromatiques, ses figures animées et ses compositions riches de théâtralité.",
+          "Il travailla aussi pour le Teatro Olimpico, où il réalisa avec son atelier un cycle décoratif dans l'Odéon.",
+          "Il fut apprécié du peintre et écrivain Marco Boschini, qui reconnut son talent et célébra sa peinture."
+        ],
+        "de": [
+          "Er war zunächst von der Malerei der Maganza beeinflusst, entwickelte aber bald einen eigenständigen, unverwechselbaren Stil.",
+          "Seine Werke zeichnen sich durch Farbkontraste, bewegte Figuren und theatralische Kompositionen aus.",
+          "Er arbeitete auch für das Teatro Olimpico, wo er mit seiner Werkstatt einen Dekorationszyklus im Odeo schuf.",
+          "Der Maler und Schriftsteller Marco Boschini schätzte ihn, erkannte sein Talent und würdigte seine Malerei."
+        ],
+        "es": [
+          "Al principio fue influido por la pintura de los Maganza, pero pronto desarrolló un estilo propio y reconocible.",
+          "Sus obras se distinguen por los contrastes cromáticos, las figuras animadas y las composiciones llenas de teatralidad.",
+          "Trabajó también para el Teatro Olimpico, donde realizó con su taller un ciclo decorativo en el Odeo.",
+          "Fue apreciado por el pintor y escritor Marco Boschini, que reconoció su talento y celebró su pintura."
+        ]
+      },
+      "luoghi": [
+        "oratorio-di-san-nicola-da-tolentino",
+        "palazzo-chiericati-museo-civico"
+      ],
+      "luoghiNote": {
+        "oratorio-di-san-nicola-da-tolentino": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "È uno dei luoghi più importanti per conoscere Maffei. Qui realizzò diverse tele dedicate ai miracoli di San Nicola, tra cui opere datate 1626 e 1655–1657.",
+            "en": "It is one of the most important places for getting to know Maffei. Here he painted several canvases dedicated to the miracles of Saint Nicholas, including works dated 1626 and 1655–1657.",
+            "fr": "C'est l'un des lieux les plus importants pour connaître Maffei. Il y réalisa plusieurs toiles consacrées aux miracles de saint Nicolas, dont des œuvres datées de 1626 et de 1655–1657.",
+            "de": "Es ist einer der wichtigsten Orte, um Maffei kennenzulernen. Hier schuf er mehrere Leinwände mit den Wundern des heiligen Nikolaus, darunter Werke von 1626 und 1655–1657.",
+            "es": "Es uno de los lugares más importantes para conocer a Maffei. Aquí realizó varios lienzos dedicados a los milagros de San Nicolás, entre ellos obras fechadas en 1626 y 1655–1657."
+          }
+        },
+        "palazzo-chiericati-museo-civico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Conserva alcune opere provenienti dall'Oratorio delle Zitelle, dove Maffei realizzò un ciclo pittorico comprendente la Visitazione, il Riposo durante la fuga in Egitto e l'Assunzione.",
+            "en": "It holds some works from the Oratorio delle Zitelle, where Maffei painted a cycle comprising the Visitation, the Rest during the Flight into Egypt and the Assumption.",
+            "fr": "Il conserve quelques œuvres provenant de l'Oratoire delle Zitelle, où Maffei réalisa un cycle comprenant la Visitation, le Repos pendant la fuite en Égypte et l'Assomption.",
+            "de": "Es bewahrt einige Werke aus dem Oratorio delle Zitelle, wo Maffei einen Zyklus mit der Heimsuchung, der Ruhe auf der Flucht nach Ägypten und der Himmelfahrt Mariä malte.",
+            "es": "Conserva algunas obras procedentes del Oratorio delle Zitelle, donde Maffei realizó un ciclo pictórico con la Visitación, el Descanso durante la huida a Egipto y la Asunción."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }

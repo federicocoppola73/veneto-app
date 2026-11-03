@@ -330,7 +330,10 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Palazzo_Chiericati_Esterno_1.jpg"
         }
       ],
-      "personaggio": "andrea-palladio"
+      "personaggio": [
+        "andrea-palladio",
+        "francesco-maffei"
+      ]
     },
     {
       "id": "santuario-di-monte-berico",
@@ -1534,7 +1537,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:S_Nicola_da_Tolentino_oratory_in_Vicenza_(1).jpg"
         }
-      ]
+      ],
+      "personaggio": "francesco-maffei"
     },
     {
       "id": "chiesa-di-santo-stefano",
