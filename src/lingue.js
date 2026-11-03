@@ -28,6 +28,7 @@ const TESTI = {
     annulla: "Annulla",
     rimuovi: "Rimuovi",
     scaricaCitta: 'Scarica città',
+    nonChiudere: 'Download in corso. Non chiudere l\'app, altrimenti il download ricomincia da capo.',
   },
   en: {
     titolo: 'Veneto: Monuments & more',
@@ -53,6 +54,7 @@ const TESTI = {
     annulla: "Cancel",
     rimuovi: "Remove",
     scaricaCitta: 'Download city',
+    nonChiudere: 'Download in progress. Do not close the app, or the download starts again from the beginning.',
   },
   fr: {
     titolo: 'Vénétie : Monuments et plus',
@@ -78,6 +80,7 @@ const TESTI = {
     annulla: "Annuler",
     rimuovi: "Retirer",
     scaricaCitta: 'Télécharger la ville',
+    nonChiudere: 'Téléchargement en cours. Ne fermez pas l\'application, sinon le téléchargement recommence depuis le début.',
   },
   de: {
     titolo: 'Venetien: Denkmäler & mehr',
@@ -103,6 +106,7 @@ const TESTI = {
     annulla: "Abbrechen",
     rimuovi: "Entfernen",
     scaricaCitta: 'Stadt herunterladen',
+    nonChiudere: 'Download läuft. Schließe die App nicht, sonst beginnt der Download von vorn.',
   },
   es: {
     titolo: 'Véneto: Monumentos y más',
@@ -128,6 +132,7 @@ const TESTI = {
     annulla: "Cancelar",
     rimuovi: "Quitar",
     scaricaCitta: 'Descargar ciudad',
+    nonChiudere: 'Descarga en curso. No cierres la app, o la descarga empezará de nuevo.',
   },
 };
 

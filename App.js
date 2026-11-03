@@ -65,6 +65,7 @@ function AppRadice() {
   const [stato, setStato] = useState({ attiva: null, installate: [] });
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
   const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
+  const [scaricando, setScaricando] = useState(false); // avviso "non chiudere l'app" durante il download
   const [cittaAperta, setCittaAperta] = useState(null); // id della città aperta nel contenitore
   const [datiAperti, setDatiAperti] = useState(null); // { luoghi, mappa }
   const [motorePronto, setMotorePronto] = useState(false);
@@ -134,6 +135,7 @@ function AppRadice() {
   async function esegui(id, azione) {
     setOccupata(id);
     setProgresso(null);
+    setScaricando(azione === installa);
     try {
       setStato(await azione(id, (fatti, totale) => setProgresso({ id, fatti, totale })));
     } catch (e) {
@@ -141,6 +143,7 @@ function AppRadice() {
     } finally {
       setOccupata(null);
       setProgresso(null);
+      setScaricando(false);
     }
   }
 
@@ -262,6 +265,18 @@ function AppRadice() {
         }}
       />
 
+      <Modal visible={scaricando} transparent animationType="fade" onRequestClose={() => {}}>
+        <View style={styles.velo}>
+          <View style={[styles.menu, styles.avvisoScarica]}>
+            <ActivityIndicator style={{ marginBottom: 12 }} />
+            <Text style={styles.avvisoScaricaTesto}>{t.nonChiudere}</Text>
+            {progresso ? (
+              <Text style={styles.avvisoScaricaPerc}>{Math.round((progresso.fatti / progresso.totale) * 100)}%</Text>
+            ) : null}
+          </View>
+        </View>
+      </Modal>
+
       <Modal visible={creditiAperti} transparent animationType="fade" onRequestClose={() => setCreditiAperti(false)}>
         <Pressable style={styles.velo} onPress={() => setCreditiAperti(false)}>
           <View style={styles.menu}>
@@ -366,6 +381,9 @@ const styles = StyleSheet.create({
 
   // Menu lingua
   velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 32 },
+  avvisoScarica: { padding: 24, alignItems: 'center' },
+  avvisoScaricaTesto: { fontSize: 15, textAlign: 'center', color: '#0f172a', lineHeight: 21 },
+  avvisoScaricaPerc: { marginTop: 12, fontSize: 18, fontWeight: '700', color: '#0f3d5e' },
   menu: { backgroundColor: '#fff', borderRadius: 16, overflow: 'hidden' },
   voceMenu: { paddingHorizontal: 20, paddingVertical: 16, borderBottomWidth: 1, borderBottomColor: '#eee' },
   voceMenuTesto: { color: TESTO, fontSize: 18 },
