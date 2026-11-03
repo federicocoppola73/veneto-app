@@ -473,6 +473,139 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "scipione-maffei",
+      "nome": "Scipione Maffei",
+      "nascita": 1675,
+      "morte": 1755,
+      "professione": {
+        "it": "Storico, letterato ed erudito",
+        "en": "Historian, man of letters and scholar",
+        "fr": "Historien, homme de lettres et érudit",
+        "de": "Historiker, Literat und Gelehrter",
+        "es": "Historiador, literato y erudito"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "1 giugno 1675",
+        "en": "1 June 1675",
+        "fr": "1 juin 1675",
+        "de": "1. Juni 1675",
+        "es": "1 de junio de 1675"
+      },
+      "dataMorte": {
+        "it": "12 febbraio 1755",
+        "en": "12 February 1755",
+        "fr": "12 février 1755",
+        "de": "12. Februar 1755",
+        "es": "12 de febrero de 1755"
+      },
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Scipione Maffei fu uno dei più importanti studiosi e intellettuali italiani del Settecento. Nato a Verona da una famiglia nobile, si dedicò alla letteratura, alla storia, all'archeologia e allo studio delle antichità. Fu autore della Verona illustrata, un'opera monumentale dedicata alla storia della sua città. Tra i suoi contributi più importanti vi fu la creazione del Museo Lapidario Maffeiano, nato per raccogliere e conservare iscrizioni e reperti antichi. Si interessò anche al teatro e alla cultura classica, diventando una figura di riferimento dell'erudizione europea.",
+        "en": "Scipione Maffei was one of the most important Italian scholars and intellectuals of the eighteenth century. Born in Verona into a noble family, he devoted himself to literature, history, archaeology and the study of antiquities. He was the author of the Verona illustrata, a monumental work on the history of his city. Among his most important contributions was the creation of the Museo Lapidario Maffeiano, founded to gather and preserve ancient inscriptions and finds. He also took an interest in the theatre and classical culture, becoming a point of reference for European scholarship.",
+        "fr": "Scipione Maffei fut l'un des plus importants savants et intellectuels italiens du XVIIIe siècle. Né à Vérone dans une famille noble, il se consacra à la littérature, à l'histoire, à l'archéologie et à l'étude des antiquités. Il fut l'auteur de la Verona illustrata, une œuvre monumentale consacrée à l'histoire de sa ville. Parmi ses contributions les plus importantes figure la création du Musée lapidaire Maffeiano, né pour rassembler et conserver inscriptions et vestiges antiques. Il s'intéressa aussi au théâtre et à la culture classique, devenant une figure de référence de l'érudition européenne.",
+        "de": "Scipione Maffei gehörte im 18. Jahrhundert zu den bedeutendsten italienischen Gelehrten und Intellektuellen. Er wurde in Verona in eine adelige Familie hineingeboren und widmete sich Literatur, Geschichte, Archäologie und der Erforschung der Antike. Er war der Verfasser der Verona illustrata, eines monumentalen Werks zur Geschichte seiner Stadt. Zu seinen wichtigsten Leistungen gehörte die Gründung des Museo Lapidario Maffeiano, das antike Inschriften und Funde sammeln und bewahren sollte. Auch das Theater und die klassische Kultur interessierten ihn, und er wurde zu einer Bezugsfigur der europäischen Gelehrsamkeit.",
+        "es": "Scipione Maffei fue uno de los eruditos e intelectuales italianos más importantes del siglo XVIII. Nacido en Verona en una familia noble, se dedicó a la literatura, la historia, la arqueología y el estudio de las antigüedades. Fue autor de la Verona illustrata, una obra monumental dedicada a la historia de su ciudad. Entre sus aportaciones más importantes está la creación del Museo Lapidario Maffeiano, nacido para reunir y conservar inscripciones y hallazgos antiguos. También se interesó por el teatro y la cultura clásica, convirtiéndose en una figura de referencia de la erudición europea."
+      },
+      "curiosita": {
+        "it": [
+          "Nel 1712 scoprì alcuni importanti codici greci nella Biblioteca Capitolare di Verona.",
+          "Nel 1713 compose la tragedia Merope, che ottenne grande successo.",
+          "La sua opera Verona illustrata, pubblicata tra il 1728 e il 1732, è ancora oggi una fonte importante per la storia della città.",
+          "Il Museo Lapidario Maffeiano fu inaugurato nel 1745 e rappresenta una delle più antiche istituzioni museali pubbliche europee."
+        ],
+        "en": [
+          "In 1712 he discovered some important Greek codices in the Capitular Library of Verona.",
+          "In 1713 he composed the tragedy Merope, which was a great success.",
+          "His work Verona illustrata, published between 1728 and 1732, is still an important source for the history of the city.",
+          "The Museo Lapidario Maffeiano was inaugurated in 1745 and is one of the oldest public museum institutions in Europe."
+        ],
+        "fr": [
+          "En 1712, il découvrit d'importants codex grecs conservés dans la Bibliothèque capitulaire de Vérone.",
+          "En 1713, il composa la tragédie Mérope, qui connut un grand succès.",
+          "Son ouvrage Verona illustrata, publié entre 1728 et 1732, reste aujourd'hui une source importante pour l'histoire de la ville.",
+          "Le Musée lapidaire Maffeiano fut inauguré en 1745 et constitue l'une des plus anciennes institutions muséales publiques d'Europe."
+        ],
+        "de": [
+          "1712 entdeckte er bedeutende griechische Codices in der Kapitelsbibliothek von Verona.",
+          "1713 verfasste er die Tragödie Merope, die großen Erfolg hatte.",
+          "Sein zwischen 1728 und 1732 veröffentlichtes Werk Verona illustrata ist noch heute eine wichtige Quelle für die Geschichte der Stadt.",
+          "Das Museo Lapidario Maffeiano wurde 1745 eröffnet und zählt zu den ältesten öffentlichen Museumseinrichtungen Europas."
+        ],
+        "es": [
+          "En 1712 descubrió algunos importantes códices griegos en la Biblioteca Capitular de Verona.",
+          "En 1713 compuso la tragedia Merope, que obtuvo un gran éxito.",
+          "Su obra Verona illustrata, publicada entre 1728 y 1732, sigue siendo hoy una fuente importante para la historia de la ciudad.",
+          "El Museo Lapidario Maffeiano se inauguró en 1745 y es una de las instituciones museísticas públicas más antiguas de Europa."
+        ]
+      },
+      "luoghi": [
+        "museo-lapidario-maffeiano",
+        "biblioteca-capitolare",
+        "piazza-dei-signori"
+      ],
+      "luoghiNote": {
+        "museo-lapidario-maffeiano": {
+          "tipo": {
+            "it": "Legame diretto – fondazione",
+            "en": "Direct link – foundation",
+            "fr": "Lien direct – fondation",
+            "de": "Direkter Bezug – Gründung",
+            "es": "Vínculo directo – fundación"
+          },
+          "testo": {
+            "it": "È il luogo più importante legato a Maffei. Lo studioso raccolse e organizzò le iscrizioni antiche che formarono il nucleo del museo, contribuendo alla nascita di una delle più antiche collezioni pubbliche europee dedicate all'epigrafia.",
+            "en": "It is the most important place linked to Maffei. The scholar gathered and organised the ancient inscriptions that formed the nucleus of the museum, contributing to the birth of one of Europe's oldest public collections dedicated to epigraphy.",
+            "fr": "C'est le lieu le plus important lié à Maffei. L'érudit rassembla et organisa les inscriptions antiques qui formèrent le noyau du musée, contribuant à la naissance de l'une des plus anciennes collections publiques européennes consacrées à l'épigraphie.",
+            "de": "Es ist der wichtigste Ort, der mit Maffei verbunden ist. Der Gelehrte sammelte und ordnete die antiken Inschriften, die den Grundstock des Museums bildeten, und trug so zur Entstehung einer der ältesten öffentlichen europäischen Sammlungen für Epigraphik bei.",
+            "es": "Es el lugar más importante vinculado a Maffei. El erudito reunió y organizó las inscripciones antiguas que formaron el núcleo del museo, contribuyendo al nacimiento de una de las colecciones públicas europeas más antiguas dedicadas a la epigrafía."
+          }
+        },
+        "biblioteca-capitolare": {
+          "tipo": {
+            "it": "Legame diretto – scoperta",
+            "en": "Direct link – discovery",
+            "fr": "Lien direct – découverte",
+            "de": "Direkter Bezug – Entdeckung",
+            "es": "Vínculo directo – descubrimiento"
+          },
+          "testo": {
+            "it": "Nel 1712 Maffei individuò alcuni preziosi codici greci conservati nella biblioteca. Questa scoperta contribuì a orientare i suoi studi verso la paleografia e le lingue antiche.",
+            "en": "In 1712 Maffei identified some precious Greek codices kept in the library. This discovery helped steer his studies towards palaeography and ancient languages.",
+            "fr": "En 1712, Maffei repéra quelques précieux codex grecs conservés dans la bibliothèque. Cette découverte contribua à orienter ses études vers la paléographie et les langues anciennes.",
+            "de": "1712 entdeckte Maffei einige kostbare griechische Codices, die in der Bibliothek aufbewahrt wurden. Diese Entdeckung lenkte seine Studien auf die Paläographie und die alten Sprachen.",
+            "es": "En 1712 Maffei identificó algunos preciosos códices griegos conservados en la biblioteca. Este descubrimiento orientó sus estudios hacia la paleografía y las lenguas antiguas."
+          }
+        },
+        "piazza-dei-signori": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "Sull'arco che collega la piazza al volto Barbaro si trova la statua di Scipione Maffei, realizzata dallo scultore Giovanni Angelo Finali e commissionata dal Consiglio cittadino dopo la morte dell'erudito.",
+            "en": "On the arch that links the square to the Volto Barbaro stands the statue of Scipione Maffei, made by the sculptor Giovanni Angelo Finali and commissioned by the city council after the scholar's death.",
+            "fr": "Sur l'arc qui relie la place au Volto Barbaro se dresse la statue de Scipione Maffei, réalisée par le sculpteur Giovanni Angelo Finali et commandée par le conseil municipal après la mort de l'érudit.",
+            "de": "Auf dem Bogen, der den Platz mit dem Volto Barbaro verbindet, steht die Statue des Scipione Maffei, gefertigt vom Bildhauer Giovanni Angelo Finali und nach dem Tod des Gelehrten vom Stadtrat in Auftrag gegeben.",
+            "es": "En el arco que une la plaza con el Volto Barbaro se alza la estatua de Scipione Maffei, realizada por el escultor Giovanni Angelo Finali y encargada por el consejo municipal tras la muerte del erudito."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
