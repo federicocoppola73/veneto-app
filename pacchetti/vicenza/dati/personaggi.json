@@ -447,7 +447,12 @@
         ]
       },
       "luoghi": [
-        "teatro-olimpico"
+        "teatro-olimpico",
+        "palazzo-trissino-al-duomo",
+        "palazzo-trissino-al-corso",
+        "palazzo-valmarana-braga",
+        "portale-giardino-valmarana-castello",
+        "chiesa-di-santa-maria-della-misericordia"
       ],
       "luoghiNote": {
         "teatro-olimpico": {
@@ -464,6 +469,86 @@
             "fr": "Il réalisa les célèbres décors en perspective permanents et acheva le projet de théâtre conçu par Palladio.",
             "de": "Er schuf die berühmten dauerhaften perspektivischen Bühnenbilder und vollendete das von Palladio entworfene Theaterprojekt.",
             "es": "Realizó las célebres escenas en perspectiva permanentes y completó la obra teatral proyectada por Palladio."
+          }
+        },
+        "palazzo-trissino-al-duomo": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Edificio progettato da Scamozzi alla fine del Cinquecento.",
+            "en": "Building designed by Scamozzi at the end of the sixteenth century.",
+            "fr": "Bâtiment conçu par Scamozzi à la fin du XVIe siècle.",
+            "de": "Gebäude, das Scamozzi am Ende des 16. Jahrhunderts entwarf.",
+            "es": "Edificio proyectado por Scamozzi a finales del siglo XVI."
+          }
+        },
+        "palazzo-trissino-al-corso": {
+          "tipo": {
+            "it": "Legame storico – attribuzione non certa",
+            "en": "Historical link – uncertain attribution",
+            "fr": "Lien historique – attribution incertaine",
+            "de": "Historischer Bezug – unsichere Zuschreibung",
+            "es": "Vínculo histórico – atribución incierta"
+          },
+          "testo": {
+            "it": "Un'altra importante opera architettonica vicentina attribuita a Scamozzi.",
+            "en": "Another important Vicentine architectural work attributed to Scamozzi.",
+            "fr": "Une autre importante œuvre architecturale vicentine attribuée à Scamozzi.",
+            "de": "Ein weiteres bedeutendes Architekturwerk in Vicenza, das Scamozzi zugeschrieben wird.",
+            "es": "Otra importante obra arquitectónica vicentina atribuida a Scamozzi."
+          }
+        },
+        "palazzo-valmarana-braga": {
+          "tipo": {
+            "it": "Legame storico – attribuzione non certa",
+            "en": "Historical link – uncertain attribution",
+            "fr": "Lien historique – attribution incertaine",
+            "de": "Historischer Bezug – unsichere Zuschreibung",
+            "es": "Vínculo histórico – atribución incierta"
+          },
+          "testo": {
+            "it": "Intervento attribuito all'architetto, inserito nel suo catalogo delle opere.",
+            "en": "Work attributed to the architect, included in his catalogue of works.",
+            "fr": "Intervention attribuée à l'architecte, inscrite dans son catalogue d'œuvres.",
+            "de": "Dem Architekten zugeschriebene Maßnahme, in seinem Werkverzeichnis aufgeführt.",
+            "es": "Intervención atribuida al arquitecto, incluida en su catálogo de obras."
+          }
+        },
+        "portale-giardino-valmarana-castello": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Opera realizzata da Scamozzi.",
+            "en": "Work by Scamozzi.",
+            "fr": "Œuvre réalisée par Scamozzi.",
+            "de": "Werk von Scamozzi.",
+            "es": "Obra realizada por Scamozzi."
+          }
+        },
+        "chiesa-di-santa-maria-della-misericordia": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Edificio per il quale Scamozzi realizzò il progetto architettonico.",
+            "en": "Building for which Scamozzi drew up the architectural project.",
+            "fr": "Édifice pour lequel Scamozzi réalisa le projet architectural.",
+            "de": "Gebäude, für das Scamozzi den architektonischen Entwurf anfertigte.",
+            "es": "Edificio para el que Scamozzi realizó el proyecto arquitectónico."
           }
         }
       },

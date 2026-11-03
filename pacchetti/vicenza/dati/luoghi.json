@@ -1421,7 +1421,10 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Valmarana_Vicenza_facciata_2009-07-25_f01.jpg"
         }
       ],
-      "personaggio": "andrea-palladio"
+      "personaggio": [
+        "andrea-palladio",
+        "vincenzo-scamozzi"
+      ]
     },
     {
       "id": "villa-valmarana-ai-nani",
@@ -2881,6 +2884,106 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=37740660"
         }
       ]
+    },
+    {
+      "id": "palazzo-trissino-al-duomo",
+      "nome": "Palazzo Trissino al Duomo",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.546915,
+      "longitudine": 11.544098,
+      "personaggio": "vincenzo-scamozzi",
+      "descrizione": {
+        "it": "Palazzo Trissino al Duomo, conosciuto anche come Palazzo Trissino Trento, è un elegante edificio rinascimentale situato nei pressi della Cattedrale di Vicenza. Fu commissionato nel 1577 dal conte Pier Francesco Trissino all'architetto Vincenzo Scamozzi, che progettò un palazzo caratterizzato da un linguaggio architettonico classico e rigoroso. La facciata presenta due ordini sovrapposti e una grande serliana, elemento architettonico composto da un arco centrale affiancato da due aperture rettangolari, che domina il prospetto principale. Il palazzo fu ampliato nel Seicento da Giambattista Albanese, mantenendo l'impostazione originaria. È una delle testimonianze più significative dell'attività giovanile di Scamozzi a Vicenza.",
+        "en": "Palazzo Trissino al Duomo, also known as Palazzo Trissino Trento, is an elegant Renaissance building near Vicenza's Cathedral. It was commissioned in 1577 by Count Pier Francesco Trissino from the architect Vincenzo Scamozzi, who designed a palace with a classical and rigorous architectural language. The façade has two superimposed orders and a large serliana, an architectural element made of a central arch flanked by two rectangular openings, which dominates the main elevation. The palace was enlarged in the seventeenth century by Giambattista Albanese, keeping its original layout. It is one of the most significant testimonies to Scamozzi's early work in Vicenza.",
+        "fr": "Le palais Trissino au Duomo, aussi appelé palais Trissino Trento, est un élégant édifice Renaissance situé près de la cathédrale de Vicence. Commandé en 1577 par le comte Pier Francesco Trissino à l'architecte Vincenzo Scamozzi, il présente un langage architectural classique et rigoureux. La façade compte deux ordres superposés et une grande serlienne, élément architectural composé d'un arc central flanqué de deux ouvertures rectangulaires, qui domine le plan principal. Le palais fut agrandi au XVIIe siècle par Giambattista Albanese, en conservant sa conception d'origine. C'est l'un des témoignages les plus significatifs de l'activité de jeunesse de Scamozzi à Vicence.",
+        "de": "Der Palazzo Trissino al Duomo, auch Palazzo Trissino Trento genannt, ist ein eleganter Renaissancebau nahe dem Dom von Vicenza. Er wurde 1577 von Graf Pier Francesco Trissino bei dem Architekten Vincenzo Scamozzi in Auftrag gegeben, der einen Palast in klassisch strenger Formensprache entwarf. Die Fassade besitzt zwei übereinanderliegende Ordnungen und eine große Serliana, ein architektonisches Element aus einem mittleren Bogen, flankiert von zwei rechteckigen Öffnungen, das die Hauptfassade beherrscht. Der Palast wurde im 17. Jahrhundert von Giambattista Albanese erweitert, wobei der ursprüngliche Aufbau erhalten blieb. Er ist eines der bedeutendsten Zeugnisse von Scamozzis früher Tätigkeit in Vicenza.",
+        "es": "El Palazzo Trissino al Duomo, también conocido como Palazzo Trissino Trento, es un elegante edificio renacentista cerca de la catedral de Vicenza. Lo encargó en 1577 el conde Pier Francesco Trissino al arquitecto Vincenzo Scamozzi, que proyectó un palacio de lenguaje arquitectónico clásico y riguroso. La fachada presenta dos órdenes superpuestos y una gran serliana, elemento arquitectónico formado por un arco central flanqueado por dos aberturas rectangulares, que domina el frente principal. El palacio fue ampliado en el siglo XVII por Giambattista Albanese, manteniendo su planteamiento original. Es uno de los testimonios más significativos de la actividad juvenil de Scamozzi en Vicenza."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Non ho trovato orari di visita: il palazzo è visibile dalla strada.",
+        "en": "No visiting hours found: the palace is visible from the street.",
+        "fr": "Aucun horaire de visite trouvé : le palais est visible depuis la rue.",
+        "de": "Keine Besuchszeiten gefunden: Der Palast ist von der Straße aus sichtbar.",
+        "es": "No he encontrado horarios de visita: el palacio es visible desde la calle."
+      }
+    },
+    {
+      "id": "palazzo-trissino-al-corso",
+      "nome": "Palazzo Trissino al Corso",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.547767,
+      "longitudine": 11.545394,
+      "personaggio": "vincenzo-scamozzi",
+      "descrizione": {
+        "it": "Palazzo Trissino al Corso, conosciuto anche come Palazzo Trissino Baston, è uno dei più importanti edifici rinascimentali di Vicenza e dal 1901 ospita la sede istituzionale del Comune. Fu progettato da Vincenzo Scamozzi a partire dal 1588 per la famiglia Trissino e rappresenta una delle sue opere più significative. La facciata è caratterizzata da un elegante portico con colonne ioniche al piano terreno e da un piano superiore scandito da lesene e aperture regolari. Il palazzo si sviluppa attorno a un cortile interno e conserva ambienti di rappresentanza riccamente decorati, tra cui la Sala degli Stucchi. Nel corso dei secoli ha subito diversi interventi e restauri, anche in seguito ai bombardamenti della Seconda Guerra Mondiale.",
+        "en": "Palazzo Trissino al Corso, also known as Palazzo Trissino Baston, is one of Vicenza's most important Renaissance buildings and has housed the city's institutional seat since 1901. It was designed by Vincenzo Scamozzi from 1588 for the Trissino family and is one of his most significant works. The façade features an elegant portico with Ionic columns on the ground floor and an upper storey marked by pilasters and regular openings. The palace develops around an inner courtyard and retains richly decorated reception rooms, including the Sala degli Stucchi. Over the centuries it has undergone various interventions and restorations, including after the bombings of the Second World War.",
+        "fr": "Le palais Trissino au Corso, aussi appelé palais Trissino Baston, est l'un des plus importants édifices Renaissance de Vicence et abrite depuis 1901 le siège institutionnel de la commune. Conçu par Vincenzo Scamozzi à partir de 1588 pour la famille Trissino, il est l'une de ses œuvres les plus significatives. La façade présente un élégant portique à colonnes ioniques au rez-de-chaussée et un étage supérieur rythmé par des pilastres et des ouvertures régulières. Le palais se développe autour d'une cour intérieure et conserve des salles de représentation richement décorées, dont la Sala degli Stucchi. Au fil des siècles, il a subi différentes interventions et restaurations, notamment après les bombardements de la Seconde Guerre mondiale.",
+        "de": "Der Palazzo Trissino al Corso, auch Palazzo Trissino Baston genannt, gehört zu den bedeutendsten Renaissancebauten Vicenzas und beherbergt seit 1901 den Sitz der Stadtverwaltung. Er wurde ab 1588 von Vincenzo Scamozzi für die Familie Trissino entworfen und ist eines seiner bedeutendsten Werke. Die Fassade zeigt eine elegante Säulenhalle mit ionischen Säulen im Erdgeschoss und ein Obergeschoss, das durch Lisenen und regelmäßige Öffnungen gegliedert ist. Der Palast gruppiert sich um einen Innenhof und bewahrt reich geschmückte Repräsentationsräume, darunter die Sala degli Stucchi. Im Lauf der Jahrhunderte wurde er mehrfach umgebaut und restauriert, auch nach den Bombenangriffen des Zweiten Weltkriegs.",
+        "es": "El Palazzo Trissino al Corso, también conocido como Palazzo Trissino Baston, es uno de los edificios renacentistas más importantes de Vicenza y desde 1901 alberga la sede institucional del Ayuntamiento. Fue proyectado por Vincenzo Scamozzi a partir de 1588 para la familia Trissino y es una de sus obras más significativas. La fachada presenta un elegante pórtico con columnas jónicas en la planta baja y un piso superior marcado por pilastras y vanos regulares. El palacio se desarrolla alrededor de un patio interior y conserva salones de representación ricamente decorados, entre ellos la Sala degli Stucchi. A lo largo de los siglos ha sufrido diversas intervenciones y restauraciones, también tras los bombardeos de la Segunda Guerra Mundial."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Sede del Comune di Vicenza. Non ho trovato orari di visita: verificarli sul sito del Comune.",
+        "en": "Seat of the Comune di Vicenza. No visiting hours found: please check on the Comune's website.",
+        "fr": "Siège de la commune de Vicence. Aucun horaire de visite trouvé : à vérifier sur le site de la commune.",
+        "de": "Sitz der Stadtverwaltung von Vicenza. Keine Besuchszeiten gefunden: Bitte auf der Website der Gemeinde prüfen.",
+        "es": "Sede del Ayuntamiento de Vicenza. No he encontrado horarios de visita: verificarlos en la web del Ayuntamiento."
+      },
+      "sito": "https://www.comune.vicenza.it"
+    },
+    {
+      "id": "portale-giardino-valmarana-castello",
+      "nome": "Portale del giardino Valmarana al Castello",
+      "categoria": "altri",
+      "sestiere": "Centro",
+      "latitudine": 45.546299,
+      "longitudine": 11.539384,
+      "personaggio": "vincenzo-scamozzi",
+      "descrizione": {
+        "it": "Il Portale del giardino Valmarana al Castello è un'interessante testimonianza dell'architettura di Vincenzo Scamozzi a Vicenza. Realizzato alla fine del Cinquecento, intorno al 1592, costituiva l'ingresso monumentale a un giardino appartenuto alla famiglia Valmarana, situato nei pressi del Castello. Il portale si inserisce nel gusto rinascimentale per le architetture scenografiche e gli accessi monumentali, concepiti per valorizzare le dimore e i giardini delle famiglie nobiliari. Pur essendo un elemento architettonico di dimensioni contenute rispetto ai grandi palazzi cittadini, rappresenta un esempio significativo dell'attenzione di Scamozzi per il rapporto tra architettura e spazio urbano.",
+        "en": "The Portal of the Valmarana garden at the Castello is an interesting testimony to Vincenzo Scamozzi's architecture in Vicenza. Built at the end of the sixteenth century, around 1592, it was the monumental entrance to a garden owned by the Valmarana family, located near the Castello. The portal fits into the Renaissance taste for scenographic architecture and monumental entrances, designed to enhance the residences and gardens of noble families. Although a modest architectural element compared with the great city palaces, it is a significant example of Scamozzi's attention to the relationship between architecture and urban space.",
+        "fr": "Le portail du jardin Valmarana au Castello est un témoignage intéressant de l'architecture de Vincenzo Scamozzi à Vicence. Réalisé à la fin du XVIe siècle, vers 1592, il constituait l'entrée monumentale d'un jardin appartenant à la famille Valmarana, situé près du Castello. Le portail s'inscrit dans le goût renaissant pour les architectures scénographiques et les accès monumentaux, conçus pour mettre en valeur les demeures et les jardins des familles nobles. Bien que de dimensions modestes par rapport aux grands palais de la ville, il représente un exemple significatif de l'attention de Scamozzi pour le rapport entre architecture et espace urbain.",
+        "de": "Das Portal des Gartens der Valmarana am Castello ist ein interessantes Zeugnis der Architektur Vincenzo Scamozzis in Vicenza. Es entstand Ende des 16. Jahrhunderts, um 1592, und bildete den monumentalen Eingang zu einem Garten der Familie Valmarana in der Nähe des Castello. Das Portal fügt sich in den Renaissance-Geschmack für szenografische Architekturen und monumentale Zugänge ein, die die Wohnsitze und Gärten adliger Familien zur Geltung bringen sollten. Obwohl es im Vergleich zu den großen Stadtpalästen eher bescheiden ausfällt, ist es ein bedeutendes Beispiel für Scamozzis Interesse am Verhältnis von Architektur und städtischem Raum.",
+        "es": "El Portal del jardín Valmarana en el Castello es un interesante testimonio de la arquitectura de Vincenzo Scamozzi en Vicenza. Realizado a finales del siglo XVI, hacia 1592, constituía la entrada monumental a un jardín perteneciente a la familia Valmarana, situado cerca del Castello. El portal se inserta en el gusto renacentista por las arquitecturas escenográficas y los accesos monumentales, concebidos para realzar las residencias y los jardines de las familias nobles. Aunque es un elemento de dimensiones contenidas frente a los grandes palacios urbanos, representa un ejemplo significativo de la atención de Scamozzi a la relación entre arquitectura y espacio urbano."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Visibile dal giardino pubblico, ingresso gratuito. Non ho trovato orari specifici.",
+        "en": "Visible from the public garden, free entry. No specific hours found.",
+        "fr": "Visible depuis le jardin public, entrée gratuite. Aucun horaire spécifique trouvé.",
+        "de": "Vom öffentlichen Garten aus sichtbar, Eintritt frei. Keine spezifischen Öffnungszeiten gefunden.",
+        "es": "Visible desde el jardín público, entrada gratuita. No he encontrado horarios específicos."
+      },
+      "biglietto": {
+        "gratuito": true
+      }
+    },
+    {
+      "id": "chiesa-di-santa-maria-della-misericordia",
+      "nome": "Chiesa di Santa Maria della Misericordia",
+      "categoria": "chiese",
+      "sestiere": "Centro",
+      "latitudine": 45.547,
+      "longitudine": 11.548,
+      "personaggio": "vincenzo-scamozzi",
+      "descrizione": {
+        "it": "La Chiesa di Santa Maria della Misericordia si trova nel quartiere di Borgo Pusterla ed è legata alla storia delle antiche istituzioni assistenziali vicentine. L'edificio faceva parte di un complesso che comprendeva un ospedale destinato all'accoglienza e all'assistenza delle persone bisognose e, successivamente, un orfanotrofio. La chiesa, consacrata nel 1528, assunse l'aspetto attuale attraverso interventi e trasformazioni successive, ai quali contribuì anche l'architetto Vincenzo Scamozzi, autore del progetto della ricostruzione di fine Cinquecento. L'edificio presenta un impianto a navata unica e una facciata di gusto classico. Oggi è utilizzato dalla comunità cristiana ortodossa serba e costituisce una testimonianza della storia religiosa e sociale della città.",
+        "en": "The Church of Santa Maria della Misericordia stands in the Borgo Pusterla district and is linked to the history of Vicenza's ancient charitable institutions. The building was part of a complex that included a hospital for the reception and care of people in need and, later, an orphanage. The church, consecrated in 1528, took on its present appearance through later works and transformations, to which the architect Vincenzo Scamozzi also contributed, author of the project for the late sixteenth-century reconstruction. The building has a single-nave layout and a façade in the classical taste. Today it is used by the Serbian Orthodox Christian community and is a testimony to the religious and social history of the city.",
+        "fr": "L'église Santa Maria della Misericordia se trouve dans le quartier de Borgo Pusterla et est liée à l'histoire des anciennes institutions charitables de Vicence. L'édifice faisait partie d'un ensemble comprenant un hôpital destiné à l'accueil et à l'assistance des personnes dans le besoin, puis un orphelinat. L'église, consacrée en 1528, prit son aspect actuel à travers des interventions et transformations successives, auxquelles contribua aussi l'architecte Vincenzo Scamozzi, auteur du projet de reconstruction de la fin du XVIe siècle. Le bâtiment présente un plan à nef unique et une façade de goût classique. Aujourd'hui, il est utilisé par la communauté chrétienne orthodoxe serbe et témoigne de l'histoire religieuse et sociale de la ville.",
+        "de": "Die Kirche Santa Maria della Misericordia liegt im Viertel Borgo Pusterla und ist mit der Geschichte der alten karitativen Einrichtungen Vicenzas verbunden. Das Gebäude gehörte zu einem Komplex, der ein Hospital zur Aufnahme und Versorgung Bedürftiger und später ein Waisenhaus umfasste. Die 1528 geweihte Kirche erhielt ihr heutiges Aussehen durch spätere Eingriffe und Umbauten, zu denen auch der Architekt Vincenzo Scamozzi beitrug, der den Entwurf für den Wiederaufbau am Ende des 16. Jahrhunderts schuf. Das Gebäude hat einen einschiffigen Grundriss und eine Fassade im klassischen Stil. Heute wird es von der serbisch-orthodoxen christlichen Gemeinde genutzt und ist ein Zeugnis der religiösen und sozialen Geschichte der Stadt.",
+        "es": "La iglesia de Santa Maria della Misericordia se encuentra en el barrio de Borgo Pusterla y está ligada a la historia de las antiguas instituciones asistenciales de Vicenza. El edificio formaba parte de un complejo que incluía un hospital para la acogida y la asistencia de personas necesitadas y, después, un orfanato. La iglesia, consagrada en 1528, adquirió su aspecto actual mediante intervenciones y transformaciones posteriores, en las que contribuyó también el arquitecto Vincenzo Scamozzi, autor del proyecto de reconstrucción de finales del siglo XVI. El edificio tiene una planta de nave única y una fachada de gusto clásico. Hoy lo utiliza la comunidad cristiana ortodoxa serbia y es testimonio de la historia religiosa y social de la ciudad."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Oggi usata dalla comunità ortodossa serba. Non ho trovato orari di visita.",
+        "en": "Today used by the Serbian Orthodox community. No visiting hours found.",
+        "fr": "Aujourd'hui utilisée par la communauté orthodoxe serbe. Aucun horaire de visite trouvé.",
+        "de": "Heute von der serbisch-orthodoxen Gemeinde genutzt. Keine Besuchszeiten gefunden.",
+        "es": "Hoy la utiliza la comunidad ortodoxa serbia. No he encontrado horarios de visita."
+      }
     }
   ]
 }
