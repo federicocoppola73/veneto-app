@@ -1,0 +1,453 @@
+{
+ "_nota": "Nomi delle fermate nei PDF MOM -> [nome mostrato, lat, lon]; null = fuori mappa o posizione non certa. Coordinate da OpenStreetMap/Nominatim.",
+ "posizioni": {
+  "Aeroporto Canova": [
+   "Aeroporto Canova",
+   45.65524,
+   12.20576
+  ],
+  "Barrucchella": null,
+  "Bhr Treviso Hotel": [
+   "BHR Treviso Hotel",
+   45.66909,
+   12.1811
+  ],
+  "Biban": [
+   "Biban",
+   45.69178,
+   12.28378
+  ],
+  "C.Serena": [
+   "Caserma Serena",
+   45.64438,
+   12.25123
+  ],
+  "Cal di Breda": [
+   "Cal di Breda",
+   45.68508,
+   12.26089
+  ],
+  "Camalò": null,
+  "Caniz. Chiesa": [
+   "Canizzano Chiesa",
+   45.6408,
+   12.18487
+  ],
+  "Canton": null,
+  "Carbonera Cap.": [
+   "Carbonera Capolinea",
+   45.68484,
+   12.28594
+  ],
+  "Carità": [
+   "Carità",
+   45.71275,
+   12.25996
+  ],
+  "Casier": [
+   "Casier",
+   45.64209,
+   12.29579
+  ],
+  "Castagnole": [
+   "Castagnole",
+   45.68912,
+   12.18279
+  ],
+  "Castrette ULSS": null,
+  "Catena": null,
+  "Cendon di Silea": [
+   "Cendon di Silea",
+   45.63682,
+   12.32375
+  ],
+  "Cimitero": [
+   "Cimitero San Lazzaro",
+   45.648,
+   12.24165
+  ],
+  "Conscio": [
+   "Conscio",
+   45.62579,
+   12.273
+  ],
+  "Dosson Scuole": [
+   "Dosson Scuole",
+   45.63124,
+   12.26042
+  ],
+  "Dosson Torricelli": [
+   "Dosson Via Torricelli",
+   45.6337,
+   12.25765
+  ],
+  "Farmacia Zorza": [
+   "Farmacia Zorza",
+   45.65664,
+   12.245
+  ],
+  "Fontane Nuova": [
+   "Fontane Chiesa Nuova",
+   45.70664,
+   12.24811
+  ],
+  "Fontane Vecchia": [
+   "Fontane Chiesa Vecchia",
+   45.69073,
+   12.25394
+  ],
+  "Foro Boario": null,
+  "Gescal": null,
+  "ISRAA": null,
+  "Ist.Giorgi Terr.": null,
+  "Lancenigo Scuole": [
+   "Lancenigo Scuole",
+   45.70623,
+   12.25945
+  ],
+  "Lanzago": [
+   "Lanzago",
+   45.66138,
+   12.29091
+  ],
+  "Madonna Grande": null,
+  "Merlengo Capolinea": [
+   "Merlengo Capolinea",
+   45.71372,
+   12.19118
+  ],
+  "Mestre": null,
+  "Mestre Centro B3": null,
+  "Mignag.Chiesa": [
+   "Mignagola Chiesa",
+   45.68944,
+   12.32138
+  ],
+  "Mignagola Capol": null,
+  "Mignagola Scuole": null,
+  "Mogliano Centro": null,
+  "Mogliano FS": null,
+  "Mogliano Liceo": null,
+  "Ospedale": [
+   "Ospedale Ca' Foncello",
+   45.65949,
+   12.26006
+  ],
+  "P.Calvi": [
+   "Porta Calvi",
+   45.66396,
+   12.23725
+  ],
+  "P.Duomo": [
+   "Piazza Duomo",
+   45.66652,
+   12.24258
+  ],
+  "P.Signori": [
+   "Piazza dei Signori",
+   45.66552,
+   12.24599
+  ],
+  "P.Vittoria": [
+   "Piazza della Vittoria",
+   45.66341,
+   12.24297
+  ],
+  "P.le Burchiellati": [
+   "Piazzale Burchiellati",
+   45.66922,
+   12.24959
+  ],
+  "P.le Pistoia": [
+   "Piazzale Pistoia",
+   45.66884,
+   12.22447
+  ],
+  "P.toMargheraFS": null,
+  "P.zza Grano": null,
+  "Padernello Chi.": null,
+  "Padernello Via Sottana": null,
+  "Paderno": null,
+  "Paese": [
+   "Paese Municipio",
+   45.67244,
+   12.15528
+  ],
+  "Paese C.Comm.": [
+   "Paese Centro Commerciale",
+   45.6718,
+   12.17578
+  ],
+  "Paese Villa": null,
+  "Pezzan": [
+   "Pezzan",
+   45.69856,
+   12.29139
+  ],
+  "Ponzano Chiesa": [
+   "Ponzano Chiesa",
+   45.70959,
+   12.22262
+  ],
+  "Ponzano Villa": null,
+  "Porta Piave": [
+   "Piazza Matteotti",
+   45.66779,
+   12.25107
+  ],
+  "Porto di Fiera": null,
+  "Preganziol Centro": null,
+  "Preganziol FS": null,
+  "Preganziol Municipio": null,
+  "Quinto Capitello": [
+   "Quinto Via Capitello",
+   45.63946,
+   12.16375
+  ],
+  "Quinto Chiesa": [
+   "Quinto Chiesa",
+   45.64287,
+   12.16415
+  ],
+  "Quinto Municipio": [
+   "Quinto Municipio",
+   45.64537,
+   12.16592
+  ],
+  "Quinto Zecchina": [
+   "Quinto Via Zecchina",
+   45.63693,
+   12.164
+  ],
+  "Quinto v.Ciardi": [
+   "Quinto Via Ciardi",
+   45.64602,
+   12.16132
+  ],
+  "S.Angelo Chiesa": [
+   "Sant'Angelo Chiesa",
+   45.65027,
+   12.21306
+  ],
+  "S.Artemio": [
+   "Sant'Artemio Ippodromo",
+   45.69345,
+   12.25894
+  ],
+  "S.Artemio (Prov)": [
+   "Sant'Artemio Provincia",
+   45.69093,
+   12.26489
+  ],
+  "S.Cassiano": [
+   "San Cassiano",
+   45.65446,
+   12.15982
+  ],
+  "S.Elena di Silea": [
+   "Sant'Elena di Silea",
+   45.62878,
+   12.33535
+  ],
+  "S.Lazzaro": [
+   "San Lazzaro",
+   45.65177,
+   12.24236
+  ],
+  "S.Liberale": [
+   "San Liberale",
+   45.6793,
+   12.21822
+  ],
+  "S.Pelajo": null,
+  "S.Sisto": null,
+  "S.Sisto v.Piave": [
+   "San Sisto Via Piave",
+   45.71415,
+   12.27412
+  ],
+  "S.Zeno Scuole": [
+   "San Zeno Scuole",
+   45.65714,
+   12.23791
+  ],
+  "Sambughè": null,
+  "San Antonino": [
+   "Sant'Antonino",
+   45.65729,
+   12.25212
+  ],
+  "San Giacomo": [
+   "San Giacomo di Musestrelle",
+   45.70416,
+   12.33319
+  ],
+  "San Lazzaro": [
+   "San Lazzaro",
+   45.65177,
+   12.24236
+  ],
+  "San Paolo": null,
+  "San Tomaso": [
+   "Porta San Tomaso",
+   45.67026,
+   12.25103
+  ],
+  "San Vitale": null,
+  "Sant`Antonio": [
+   "Sant'Antonio",
+   45.71129,
+   12.22317
+  ],
+  "Santa Bona": [
+   "Santa Bona",
+   45.6828,
+   12.2218
+  ],
+  "Santa Cristina": null,
+  "Santa Maria del Rovere": [
+   "Santa Maria del Rovere",
+   45.68248,
+   12.25286
+  ],
+  "Santandrà": null,
+  "Scuole Manzoni": [
+   "Scuole Manzoni",
+   45.65859,
+   12.25086
+  ],
+  "Scuole Medie Villorba": null,
+  "Selvana": [
+   "Selvana",
+   45.67598,
+   12.26277
+  ],
+  "Settecomuni": [
+   "Settecomuni",
+   45.62377,
+   12.20536
+  ],
+  "Silea Chiesa": [
+   "Silea Chiesa",
+   45.65279,
+   12.29845
+  ],
+  "Silea Commerciale": null,
+  "Silea Z.Ind": null,
+  "Stab. Sebring": null,
+  "Stazione FS - Bandiera": [
+   "Stazione FS - Viale Bandiera",
+   45.66023,
+   12.24632
+  ],
+  "Stazione FS - D. Aosta": [
+   "Stazione FS - Via Duca d'Aosta",
+   45.66047,
+   12.24543
+  ],
+  "Stazione FS - De Gasperi": [
+   "Stazione FS - Via De Gasperi",
+   45.66038,
+   12.24424
+  ],
+  "Stazione FS - Via Roma": [
+   "Stazione FS - Via Roma",
+   45.66093,
+   12.24566
+  ],
+  "TV Via Cadorna": [
+   "Via Cadorna",
+   45.66305,
+   12.24424
+  ],
+  "Talponera": [
+   "Talponera",
+   45.71486,
+   12.18659
+  ],
+  "Treviso": null,
+  "Tribun. v.Appiani": [
+   "Tribunale Via Appiani",
+   45.66312,
+   12.23117
+  ],
+  "V.le Monfenera": [
+   "Viale Monfenera",
+   45.6698,
+   12.23601
+  ],
+  "Venezia P.le Roma": null,
+  "Via Ciardi 78": [
+   "Via Ciardi 78",
+   45.64786,
+   12.16105
+  ],
+  "Via Ciardi Piazzale": [
+   "Via Ciardi Piazzale",
+   45.64641,
+   12.16141
+  ],
+  "Via Lungo Sile Mattei": [
+   "Lungosile Mattei",
+   45.66197,
+   12.24459
+  ],
+  "Via Manzoni": [
+   "Via Manzoni",
+   45.66879,
+   12.24901
+  ],
+  "Via Montello": [
+   "Via Montello",
+   45.67203,
+   12.24844
+  ],
+  "Via Moro Cimitero": [
+   "Via Aldo Moro Cimitero",
+   45.64321,
+   12.2464
+  ],
+  "Via Treviso": [
+   "Silea Via Treviso",
+   45.65445,
+   12.28911
+  ],
+  "Viale Cairoli - Baracca": [
+   "Viale Cairoli - Baracca",
+   45.67017,
+   12.24645
+  ],
+  "Viale Luzzatti": [
+   "Viale Luzzatti",
+   45.67097,
+   12.24105
+  ],
+  "Villa Eden": null,
+  "Villa Franchetti": [
+   "Villa Franchetti",
+   45.62678,
+   12.23915
+  ],
+  "Villorba": null,
+  "loc.Castello": [
+   "Castello di Carbonera",
+   45.67635,
+   12.28026
+  ],
+  "via 1 Maggio": [
+   "Via Primo Maggio",
+   45.68461,
+   12.28622
+  ],
+  "via A.Moro": [
+   "Via Aldo Moro",
+   45.63762,
+   12.24925
+  ],
+  "via Zermanese": [
+   "Via Zermanese",
+   45.65244,
+   12.24962
+  ]
+ }
+}

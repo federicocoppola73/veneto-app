@@ -1,0 +1,1510 @@
+{
+ "_nota": "Treviso: orari urbani MOM (Mobilità di Marca), servizio invernale 2026/2027 dai PDF delle linee. Solo le fermate indicate negli orari. Verificare sul sito mobilitadimarca.it. Coordinate delle fermate © OpenStreetMap contributors (ODbL).",
+ "validita": [
+  "20260910",
+  "20270608"
+ ],
+ "linee": [
+  {
+   "id": "AUT-1",
+   "etichetta": "1",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/001_inv%20scol%20lu.ve%202026.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-ospedale-ca-foncello",
+      "autobus-mom-scuole-manzoni",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-lungosile-mattei",
+      "autobus-mom-piazza-matteotti",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-porta-san-tomaso",
+      "autobus-mom-santa-maria-del-rovere",
+      "autobus-mom-sant-artemio-ippodromo",
+      "autobus-mom-lancenigo-scuole",
+      "autobus-mom-carita"
+     ],
+     "titolo": "Ospedale → Stazione FS → P.Matteotti → S.M. delRovere → S.Artemio → Carità → Villorba"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-carita",
+      "autobus-mom-lancenigo-scuole",
+      "autobus-mom-sant-artemio-ippodromo",
+      "autobus-mom-santa-maria-del-rovere",
+      "autobus-mom-piazzale-burchiellati",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-viale-cairoli-baracca",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-ospedale-ca-foncello"
+     ],
+     "titolo": "Villorba → Carità → S.Artemio → S.M.Rovere → P.Matteotti → Stazione FS → Ospedale"
+    }
+   ]
+  },
+  {
+   "id": "AUT-3",
+   "etichetta": "3",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/003_inv%20scol%20lu.ve%202026.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-sant-elena-di-silea",
+      "autobus-mom-cendon-di-silea",
+      "autobus-mom-silea-chiesa",
+      "autobus-mom-lanzago",
+      "autobus-mom-silea-via-treviso",
+      "autobus-mom-piazza-matteotti",
+      "autobus-mom-via-manzoni",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-viale-cairoli-baracca",
+      "autobus-mom-stazione-fs-viale-bandiera"
+     ],
+     "titolo": "S.Elena → Silea → Stazione FS → Silea → S.Elena"
+    }
+   ]
+  },
+  {
+   "id": "AUT-4",
+   "etichetta": "4",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/L4%20FE%20SCO%20LV.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-carita",
+      "autobus-mom-fontane-chiesa-nuova",
+      "autobus-mom-fontane-chiesa-vecchia",
+      "autobus-mom-viale-luzzatti",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-sant-antonino",
+      "autobus-mom-casier"
+     ],
+     "titolo": "Carità → Fontane → Stazione FS → S.Antonino → Casier"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-casier",
+      "autobus-mom-sant-antonino",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-piazza-duomo",
+      "autobus-mom-viale-luzzatti",
+      "autobus-mom-fontane-chiesa-vecchia",
+      "autobus-mom-fontane-chiesa-nuova",
+      "autobus-mom-carita"
+     ],
+     "titolo": "Casier → S.Antonino → Stazione FS → Fontane → Carità"
+    }
+   ]
+  },
+  {
+   "id": "AUT-6",
+   "etichetta": "6",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/L6%20FE%20SCO%20LV.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-san-cassiano",
+      "autobus-mom-quinto-via-ciardi",
+      "autobus-mom-quinto-chiesa",
+      "autobus-mom-via-ciardi-piazzale",
+      "autobus-mom-quinto-municipio",
+      "autobus-mom-aeroporto-canova",
+      "autobus-mom-tribunale-via-appiani",
+      "autobus-mom-stazione-fs-via-de-gasperi",
+      "autobus-mom-piazza-duomo",
+      "autobus-mom-piazzale-pistoia",
+      "autobus-mom-quinto-via-zecchina",
+      "autobus-mom-via-ciardi-78"
+     ],
+     "titolo": "Quinto → S.Giuseppe → Stazione FS → S.Giuseppe → Quinto"
+    }
+   ]
+  },
+  {
+   "id": "AUT-7",
+   "etichetta": "7",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/7_INV%20SCOL%20LU-VE.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-sant-artemio-provincia",
+      "autobus-mom-cal-di-breda",
+      "autobus-mom-via-manzoni",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-viale-cairoli-baracca",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-stazione-fs-via-duca-d-aosta",
+      "autobus-mom-cimitero-san-lazzaro"
+     ],
+     "titolo": "S.Artemio → Stadio → P.Matteotti → Stazione FS → S.Lazzaro → S.Zeno"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-cimitero-san-lazzaro",
+      "autobus-mom-san-lazzaro",
+      "autobus-mom-san-zeno-scuole",
+      "autobus-mom-farmacia-zorza",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-lungosile-mattei",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-piazza-matteotti",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-cal-di-breda",
+      "autobus-mom-sant-artemio-provincia"
+     ],
+     "titolo": "S.Zeno → Stazione FS → P.Matteotti → Stadio → S.Artemio"
+    }
+   ]
+  },
+  {
+   "id": "AUT-8",
+   "etichetta": "8",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/008_inv%20scol%20lu.ve%202026.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-settecomuni",
+      "autobus-mom-villa-franchetti",
+      "autobus-mom-cimitero-san-lazzaro",
+      "autobus-mom-san-lazzaro",
+      "autobus-mom-farmacia-zorza",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-via-cadorna",
+      "autobus-mom-piazza-della-vittoria"
+     ],
+     "titolo": "Sambughè → S.Trovaso → Frescada → S.Lazzaro → Stazione FS → P.Vittoria"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-via-duca-d-aosta",
+      "autobus-mom-cimitero-san-lazzaro",
+      "autobus-mom-villa-franchetti",
+      "autobus-mom-settecomuni"
+     ],
+     "titolo": "P.Vittoria → Stazione FS → S.Lazzaro → Frescada → S.Trovaso → Sambughè"
+    }
+   ]
+  },
+  {
+   "id": "AUT-8E",
+   "etichetta": "8E",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/8E_FER.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-stazione-fs-via-duca-d-aosta",
+      "autobus-mom-cimitero-san-lazzaro",
+      "autobus-mom-villa-franchetti"
+     ],
+     "titolo": "Treviso → Preganziol → Mogliano → Mestre → Venezia"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-villa-franchetti",
+      "autobus-mom-cimitero-san-lazzaro",
+      "autobus-mom-san-lazzaro",
+      "autobus-mom-farmacia-zorza",
+      "autobus-mom-stazione-fs-via-roma"
+     ],
+     "titolo": "Venezia → Mestre → Mogliano → Preganziol → Treviso"
+    }
+   ]
+  },
+  {
+   "id": "AUT-9",
+   "etichetta": "9",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/9_scol%20LU-VE%2015.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-san-liberale",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-caserma-serena",
+      "autobus-mom-via-aldo-moro-cimitero",
+      "autobus-mom-via-aldo-moro",
+      "autobus-mom-dosson-via-torricelli",
+      "autobus-mom-via-zermanese",
+      "autobus-mom-dosson-scuole",
+      "autobus-mom-conscio"
+     ],
+     "titolo": "S.Paolo → S.Liberale → Viale Europa → P.Pio X → Stazione FS → Dosson → Conscio/Preganziol"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-conscio",
+      "autobus-mom-dosson-scuole",
+      "autobus-mom-via-zermanese",
+      "autobus-mom-dosson-via-torricelli",
+      "autobus-mom-via-aldo-moro",
+      "autobus-mom-caserma-serena",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-piazza-duomo",
+      "autobus-mom-viale-monfenera",
+      "autobus-mom-san-liberale"
+     ],
+     "titolo": "Conscio/Preganziol → Dosson → Stazione FS → P.Duomo → S.Liberale → S.Paolo"
+    }
+   ]
+  },
+  {
+   "id": "AUT-10",
+   "etichetta": "10",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/10_SCOL%20lu-ve%2020.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-san-giacomo-di-musestrelle",
+      "autobus-mom-pezzan",
+      "autobus-mom-mignagola-chiesa",
+      "autobus-mom-carbonera-capolinea",
+      "autobus-mom-via-primo-maggio",
+      "autobus-mom-biban",
+      "autobus-mom-castello-di-carbonera",
+      "autobus-mom-selvana",
+      "autobus-mom-piazza-matteotti",
+      "autobus-mom-viale-cairoli-baracca",
+      "autobus-mom-piazza-dei-signori",
+      "autobus-mom-stazione-fs-viale-bandiera"
+     ],
+     "titolo": "Mignagola → Carbonera → Selvana → Stazione FS → Selvana → Carbonera → Mignagola"
+    }
+   ]
+  },
+  {
+   "id": "AUT-11",
+   "etichetta": "11",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/L11.1%20FE%20SCO%20LV.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-paese-municipio",
+      "autobus-mom-paese-centro-commerciale",
+      "autobus-mom-bhr-treviso-hotel",
+      "autobus-mom-piazzale-pistoia",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-via-cadorna",
+      "autobus-mom-piazza-duomo"
+     ],
+     "titolo": "Padernello → Paese → P.le Pistoia → Stazione FS → P.Duomo → P.le Pistoia → Paese → Padernello"
+    }
+   ]
+  },
+  {
+   "id": "AUT-12",
+   "etichetta": "12",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/12_inv%20LUN-SAB%202026%204.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-carita",
+      "autobus-mom-san-sisto-via-piave"
+     ],
+     "titolo": "Carità → Catena → S.Sisto → Catena → Carità"
+    }
+   ]
+  },
+  {
+   "id": "AUT-21",
+   "etichetta": "21",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/L21%20FE%20SCO%20LV.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-paese-municipio",
+      "autobus-mom-castagnole",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-via-cadorna",
+      "autobus-mom-piazza-duomo",
+      "autobus-mom-piazzale-pistoia"
+     ],
+     "titolo": "Paese → Castagnole → P.le Pistoia → Stazione FS → P.Pio X → P.le Pistoia → Castagnole → Paese"
+    }
+   ]
+  },
+  {
+   "id": "AUT-55",
+   "etichetta": "55",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/2025-2026/URBTV/L55%20FE%20SCO%20LV.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-talponera",
+      "autobus-mom-merlengo-capolinea",
+      "autobus-mom-santa-bona",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-stazione-fs-via-duca-d-aosta",
+      "autobus-mom-sant-angelo-chiesa",
+      "autobus-mom-canizzano-chiesa",
+      "autobus-mom-quinto-via-capitello",
+      "autobus-mom-quinto-via-zecchina"
+     ],
+     "titolo": "Merlengo → S.Bona → Stazione FS → S.Zeno → S.Angelo → Canizzano → Quinto di Treviso"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-quinto-via-zecchina",
+      "autobus-mom-canizzano-chiesa",
+      "autobus-mom-sant-angelo-chiesa",
+      "autobus-mom-san-zeno-scuole",
+      "autobus-mom-stazione-fs-via-roma",
+      "autobus-mom-via-cadorna",
+      "autobus-mom-piazza-duomo",
+      "autobus-mom-santa-bona",
+      "autobus-mom-merlengo-capolinea",
+      "autobus-mom-talponera"
+     ],
+     "titolo": "Quinto di Treviso → Canizzano → S.Angelo → S.Zeno → Stazione FS → S.Bona → Merlengo"
+    }
+   ]
+  },
+  {
+   "id": "AUT-61",
+   "etichetta": "61",
+   "mezzo": "autobus",
+   "colore": "#E30613",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "MOM",
+   "pdf": "https://mobilitadimarca.it/files/filemanager/source/ORARI/SCOLASTICO%2026-27/URBTV/061_inv%20scol%20lu.ve%202026.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-mom-sant-antonio",
+      "autobus-mom-ponzano-chiesa",
+      "autobus-mom-viale-cairoli-baracca",
+      "autobus-mom-porta-calvi",
+      "autobus-mom-piazza-della-vittoria",
+      "autobus-mom-stazione-fs-viale-bandiera",
+      "autobus-mom-piazza-matteotti",
+      "autobus-mom-via-montello"
+     ],
+     "titolo": "Camalò → Ponzano → S.Pelajo → P.Calvi → Stazione FS → S.Pelajo → Ponzano → Camalò"
+    }
+   ]
+  }
+ ],
+ "fermate": {
+  "autobus-mom-ospedale-ca-foncello": {
+   "nome": "Ospedale Ca' Foncello",
+   "lat": 45.65949,
+   "lon": 12.26006,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-scuole-manzoni": {
+   "nome": "Scuole Manzoni",
+   "lat": 45.65859,
+   "lon": 12.25086,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-stazione-fs-via-roma": {
+   "nome": "Stazione FS - Via Roma",
+   "lat": 45.66093,
+   "lon": 12.24566,
+   "linee": [
+    "AUT-1",
+    "AUT-4",
+    "AUT-7",
+    "AUT-8",
+    "AUT-8E",
+    "AUT-9",
+    "AUT-11",
+    "AUT-21",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-lungosile-mattei": {
+   "nome": "Lungosile Mattei",
+   "lat": 45.66197,
+   "lon": 12.24459,
+   "linee": [
+    "AUT-1",
+    "AUT-7"
+   ]
+  },
+  "autobus-mom-piazza-matteotti": {
+   "nome": "Piazza Matteotti",
+   "lat": 45.66779,
+   "lon": 12.25107,
+   "linee": [
+    "AUT-1",
+    "AUT-3",
+    "AUT-7",
+    "AUT-10",
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-piazza-dei-signori": {
+   "nome": "Piazza dei Signori",
+   "lat": 45.66552,
+   "lon": 12.24599,
+   "linee": [
+    "AUT-1",
+    "AUT-3",
+    "AUT-7",
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-porta-san-tomaso": {
+   "nome": "Porta San Tomaso",
+   "lat": 45.67026,
+   "lon": 12.25103,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-santa-maria-del-rovere": {
+   "nome": "Santa Maria del Rovere",
+   "lat": 45.68248,
+   "lon": 12.25286,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-sant-artemio-ippodromo": {
+   "nome": "Sant'Artemio Ippodromo",
+   "lat": 45.69345,
+   "lon": 12.25894,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-lancenigo-scuole": {
+   "nome": "Lancenigo Scuole",
+   "lat": 45.70623,
+   "lon": 12.25945,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-carita": {
+   "nome": "Carità",
+   "lat": 45.71275,
+   "lon": 12.25996,
+   "linee": [
+    "AUT-1",
+    "AUT-4",
+    "AUT-12"
+   ]
+  },
+  "autobus-mom-piazzale-burchiellati": {
+   "nome": "Piazzale Burchiellati",
+   "lat": 45.66922,
+   "lon": 12.24959,
+   "linee": [
+    "AUT-1"
+   ]
+  },
+  "autobus-mom-viale-cairoli-baracca": {
+   "nome": "Viale Cairoli - Baracca",
+   "lat": 45.67017,
+   "lon": 12.24645,
+   "linee": [
+    "AUT-1",
+    "AUT-3",
+    "AUT-7",
+    "AUT-10",
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-stazione-fs-viale-bandiera": {
+   "nome": "Stazione FS - Viale Bandiera",
+   "lat": 45.66023,
+   "lon": 12.24632,
+   "linee": [
+    "AUT-1",
+    "AUT-3",
+    "AUT-4",
+    "AUT-7",
+    "AUT-9",
+    "AUT-10",
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-sant-elena-di-silea": {
+   "nome": "Sant'Elena di Silea",
+   "lat": 45.62878,
+   "lon": 12.33535,
+   "linee": [
+    "AUT-3"
+   ]
+  },
+  "autobus-mom-cendon-di-silea": {
+   "nome": "Cendon di Silea",
+   "lat": 45.63682,
+   "lon": 12.32375,
+   "linee": [
+    "AUT-3"
+   ]
+  },
+  "autobus-mom-silea-chiesa": {
+   "nome": "Silea Chiesa",
+   "lat": 45.65279,
+   "lon": 12.29845,
+   "linee": [
+    "AUT-3"
+   ]
+  },
+  "autobus-mom-lanzago": {
+   "nome": "Lanzago",
+   "lat": 45.66138,
+   "lon": 12.29091,
+   "linee": [
+    "AUT-3"
+   ]
+  },
+  "autobus-mom-silea-via-treviso": {
+   "nome": "Silea Via Treviso",
+   "lat": 45.65445,
+   "lon": 12.28911,
+   "linee": [
+    "AUT-3"
+   ]
+  },
+  "autobus-mom-via-manzoni": {
+   "nome": "Via Manzoni",
+   "lat": 45.66879,
+   "lon": 12.24901,
+   "linee": [
+    "AUT-3",
+    "AUT-7"
+   ]
+  },
+  "autobus-mom-fontane-chiesa-nuova": {
+   "nome": "Fontane Chiesa Nuova",
+   "lat": 45.70664,
+   "lon": 12.24811,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "autobus-mom-fontane-chiesa-vecchia": {
+   "nome": "Fontane Chiesa Vecchia",
+   "lat": 45.69073,
+   "lon": 12.25394,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "autobus-mom-viale-luzzatti": {
+   "nome": "Viale Luzzatti",
+   "lat": 45.67097,
+   "lon": 12.24105,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "autobus-mom-porta-calvi": {
+   "nome": "Porta Calvi",
+   "lat": 45.66396,
+   "lon": 12.23725,
+   "linee": [
+    "AUT-4",
+    "AUT-9",
+    "AUT-11",
+    "AUT-21",
+    "AUT-55",
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-piazza-della-vittoria": {
+   "nome": "Piazza della Vittoria",
+   "lat": 45.66341,
+   "lon": 12.24297,
+   "linee": [
+    "AUT-4",
+    "AUT-8",
+    "AUT-9",
+    "AUT-11",
+    "AUT-21",
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-sant-antonino": {
+   "nome": "Sant'Antonino",
+   "lat": 45.65729,
+   "lon": 12.25212,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "autobus-mom-casier": {
+   "nome": "Casier",
+   "lat": 45.64209,
+   "lon": 12.29579,
+   "linee": [
+    "AUT-4"
+   ]
+  },
+  "autobus-mom-piazza-duomo": {
+   "nome": "Piazza Duomo",
+   "lat": 45.66652,
+   "lon": 12.24258,
+   "linee": [
+    "AUT-4",
+    "AUT-6",
+    "AUT-9",
+    "AUT-11",
+    "AUT-21",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-san-cassiano": {
+   "nome": "San Cassiano",
+   "lat": 45.65446,
+   "lon": 12.15982,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-quinto-via-ciardi": {
+   "nome": "Quinto Via Ciardi",
+   "lat": 45.64602,
+   "lon": 12.16132,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-quinto-chiesa": {
+   "nome": "Quinto Chiesa",
+   "lat": 45.64287,
+   "lon": 12.16415,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-via-ciardi-piazzale": {
+   "nome": "Via Ciardi Piazzale",
+   "lat": 45.64641,
+   "lon": 12.16141,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-quinto-municipio": {
+   "nome": "Quinto Municipio",
+   "lat": 45.64537,
+   "lon": 12.16592,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-aeroporto-canova": {
+   "nome": "Aeroporto Canova",
+   "lat": 45.65524,
+   "lon": 12.20576,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-tribunale-via-appiani": {
+   "nome": "Tribunale Via Appiani",
+   "lat": 45.66312,
+   "lon": 12.23117,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-stazione-fs-via-de-gasperi": {
+   "nome": "Stazione FS - Via De Gasperi",
+   "lat": 45.66038,
+   "lon": 12.24424,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-piazzale-pistoia": {
+   "nome": "Piazzale Pistoia",
+   "lat": 45.66884,
+   "lon": 12.22447,
+   "linee": [
+    "AUT-6",
+    "AUT-11",
+    "AUT-21"
+   ]
+  },
+  "autobus-mom-quinto-via-zecchina": {
+   "nome": "Quinto Via Zecchina",
+   "lat": 45.63693,
+   "lon": 12.164,
+   "linee": [
+    "AUT-6",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-via-ciardi-78": {
+   "nome": "Via Ciardi 78",
+   "lat": 45.64786,
+   "lon": 12.16105,
+   "linee": [
+    "AUT-6"
+   ]
+  },
+  "autobus-mom-sant-artemio-provincia": {
+   "nome": "Sant'Artemio Provincia",
+   "lat": 45.69093,
+   "lon": 12.26489,
+   "linee": [
+    "AUT-7"
+   ]
+  },
+  "autobus-mom-cal-di-breda": {
+   "nome": "Cal di Breda",
+   "lat": 45.68508,
+   "lon": 12.26089,
+   "linee": [
+    "AUT-7"
+   ]
+  },
+  "autobus-mom-stazione-fs-via-duca-d-aosta": {
+   "nome": "Stazione FS - Via Duca d'Aosta",
+   "lat": 45.66047,
+   "lon": 12.24543,
+   "linee": [
+    "AUT-7",
+    "AUT-8",
+    "AUT-8E",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-cimitero-san-lazzaro": {
+   "nome": "Cimitero San Lazzaro",
+   "lat": 45.648,
+   "lon": 12.24165,
+   "linee": [
+    "AUT-7",
+    "AUT-8",
+    "AUT-8E"
+   ]
+  },
+  "autobus-mom-san-lazzaro": {
+   "nome": "San Lazzaro",
+   "lat": 45.65177,
+   "lon": 12.24236,
+   "linee": [
+    "AUT-7",
+    "AUT-8",
+    "AUT-8E"
+   ]
+  },
+  "autobus-mom-san-zeno-scuole": {
+   "nome": "San Zeno Scuole",
+   "lat": 45.65714,
+   "lon": 12.23791,
+   "linee": [
+    "AUT-7",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-farmacia-zorza": {
+   "nome": "Farmacia Zorza",
+   "lat": 45.65664,
+   "lon": 12.245,
+   "linee": [
+    "AUT-7",
+    "AUT-8",
+    "AUT-8E"
+   ]
+  },
+  "autobus-mom-settecomuni": {
+   "nome": "Settecomuni",
+   "lat": 45.62377,
+   "lon": 12.20536,
+   "linee": [
+    "AUT-8"
+   ]
+  },
+  "autobus-mom-villa-franchetti": {
+   "nome": "Villa Franchetti",
+   "lat": 45.62678,
+   "lon": 12.23915,
+   "linee": [
+    "AUT-8",
+    "AUT-8E"
+   ]
+  },
+  "autobus-mom-via-cadorna": {
+   "nome": "Via Cadorna",
+   "lat": 45.66305,
+   "lon": 12.24424,
+   "linee": [
+    "AUT-8",
+    "AUT-11",
+    "AUT-21",
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-san-liberale": {
+   "nome": "San Liberale",
+   "lat": 45.6793,
+   "lon": 12.21822,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-caserma-serena": {
+   "nome": "Caserma Serena",
+   "lat": 45.64438,
+   "lon": 12.25123,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-via-aldo-moro-cimitero": {
+   "nome": "Via Aldo Moro Cimitero",
+   "lat": 45.64321,
+   "lon": 12.2464,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-via-aldo-moro": {
+   "nome": "Via Aldo Moro",
+   "lat": 45.63762,
+   "lon": 12.24925,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-dosson-via-torricelli": {
+   "nome": "Dosson Via Torricelli",
+   "lat": 45.6337,
+   "lon": 12.25765,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-via-zermanese": {
+   "nome": "Via Zermanese",
+   "lat": 45.65244,
+   "lon": 12.24962,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-dosson-scuole": {
+   "nome": "Dosson Scuole",
+   "lat": 45.63124,
+   "lon": 12.26042,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-conscio": {
+   "nome": "Conscio",
+   "lat": 45.62579,
+   "lon": 12.273,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-viale-monfenera": {
+   "nome": "Viale Monfenera",
+   "lat": 45.6698,
+   "lon": 12.23601,
+   "linee": [
+    "AUT-9"
+   ]
+  },
+  "autobus-mom-san-giacomo-di-musestrelle": {
+   "nome": "San Giacomo di Musestrelle",
+   "lat": 45.70416,
+   "lon": 12.33319,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-pezzan": {
+   "nome": "Pezzan",
+   "lat": 45.69856,
+   "lon": 12.29139,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-mignagola-chiesa": {
+   "nome": "Mignagola Chiesa",
+   "lat": 45.68944,
+   "lon": 12.32138,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-carbonera-capolinea": {
+   "nome": "Carbonera Capolinea",
+   "lat": 45.68484,
+   "lon": 12.28594,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-via-primo-maggio": {
+   "nome": "Via Primo Maggio",
+   "lat": 45.68461,
+   "lon": 12.28622,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-biban": {
+   "nome": "Biban",
+   "lat": 45.69178,
+   "lon": 12.28378,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-castello-di-carbonera": {
+   "nome": "Castello di Carbonera",
+   "lat": 45.67635,
+   "lon": 12.28026,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-selvana": {
+   "nome": "Selvana",
+   "lat": 45.67598,
+   "lon": 12.26277,
+   "linee": [
+    "AUT-10"
+   ]
+  },
+  "autobus-mom-paese-municipio": {
+   "nome": "Paese Municipio",
+   "lat": 45.67244,
+   "lon": 12.15528,
+   "linee": [
+    "AUT-11",
+    "AUT-21"
+   ]
+  },
+  "autobus-mom-paese-centro-commerciale": {
+   "nome": "Paese Centro Commerciale",
+   "lat": 45.6718,
+   "lon": 12.17578,
+   "linee": [
+    "AUT-11"
+   ]
+  },
+  "autobus-mom-bhr-treviso-hotel": {
+   "nome": "BHR Treviso Hotel",
+   "lat": 45.66909,
+   "lon": 12.1811,
+   "linee": [
+    "AUT-11"
+   ]
+  },
+  "autobus-mom-san-sisto-via-piave": {
+   "nome": "San Sisto Via Piave",
+   "lat": 45.71415,
+   "lon": 12.27412,
+   "linee": [
+    "AUT-12"
+   ]
+  },
+  "autobus-mom-castagnole": {
+   "nome": "Castagnole",
+   "lat": 45.68912,
+   "lon": 12.18279,
+   "linee": [
+    "AUT-21"
+   ]
+  },
+  "autobus-mom-talponera": {
+   "nome": "Talponera",
+   "lat": 45.71486,
+   "lon": 12.18659,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-merlengo-capolinea": {
+   "nome": "Merlengo Capolinea",
+   "lat": 45.71372,
+   "lon": 12.19118,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-santa-bona": {
+   "nome": "Santa Bona",
+   "lat": 45.6828,
+   "lon": 12.2218,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-sant-angelo-chiesa": {
+   "nome": "Sant'Angelo Chiesa",
+   "lat": 45.65027,
+   "lon": 12.21306,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-canizzano-chiesa": {
+   "nome": "Canizzano Chiesa",
+   "lat": 45.6408,
+   "lon": 12.18487,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-quinto-via-capitello": {
+   "nome": "Quinto Via Capitello",
+   "lat": 45.63946,
+   "lon": 12.16375,
+   "linee": [
+    "AUT-55"
+   ]
+  },
+  "autobus-mom-sant-antonio": {
+   "nome": "Sant'Antonio",
+   "lat": 45.71129,
+   "lon": 12.22317,
+   "linee": [
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-ponzano-chiesa": {
+   "nome": "Ponzano Chiesa",
+   "lat": 45.70959,
+   "lon": 12.22262,
+   "linee": [
+    "AUT-61"
+   ]
+  },
+  "autobus-mom-via-montello": {
+   "nome": "Via Montello",
+   "lat": 45.67203,
+   "lon": 12.24844,
+   "linee": [
+    "AUT-61"
+   ]
+  }
+ },
+ "fermataLinee": {
+  "autobus-mom-ospedale-ca-foncello": [
+   "AUT-1"
+  ],
+  "autobus-mom-scuole-manzoni": [
+   "AUT-1"
+  ],
+  "autobus-mom-stazione-fs-via-roma": [
+   "AUT-1",
+   "AUT-4",
+   "AUT-7",
+   "AUT-8",
+   "AUT-8E",
+   "AUT-9",
+   "AUT-11",
+   "AUT-21",
+   "AUT-55"
+  ],
+  "autobus-mom-lungosile-mattei": [
+   "AUT-1",
+   "AUT-7"
+  ],
+  "autobus-mom-piazza-matteotti": [
+   "AUT-1",
+   "AUT-3",
+   "AUT-7",
+   "AUT-10",
+   "AUT-61"
+  ],
+  "autobus-mom-piazza-dei-signori": [
+   "AUT-1",
+   "AUT-3",
+   "AUT-7",
+   "AUT-10"
+  ],
+  "autobus-mom-porta-san-tomaso": [
+   "AUT-1"
+  ],
+  "autobus-mom-santa-maria-del-rovere": [
+   "AUT-1"
+  ],
+  "autobus-mom-sant-artemio-ippodromo": [
+   "AUT-1"
+  ],
+  "autobus-mom-lancenigo-scuole": [
+   "AUT-1"
+  ],
+  "autobus-mom-carita": [
+   "AUT-1",
+   "AUT-4",
+   "AUT-12"
+  ],
+  "autobus-mom-piazzale-burchiellati": [
+   "AUT-1"
+  ],
+  "autobus-mom-viale-cairoli-baracca": [
+   "AUT-1",
+   "AUT-3",
+   "AUT-7",
+   "AUT-10",
+   "AUT-61"
+  ],
+  "autobus-mom-stazione-fs-viale-bandiera": [
+   "AUT-1",
+   "AUT-3",
+   "AUT-4",
+   "AUT-7",
+   "AUT-9",
+   "AUT-10",
+   "AUT-61"
+  ],
+  "autobus-mom-sant-elena-di-silea": [
+   "AUT-3"
+  ],
+  "autobus-mom-cendon-di-silea": [
+   "AUT-3"
+  ],
+  "autobus-mom-silea-chiesa": [
+   "AUT-3"
+  ],
+  "autobus-mom-lanzago": [
+   "AUT-3"
+  ],
+  "autobus-mom-silea-via-treviso": [
+   "AUT-3"
+  ],
+  "autobus-mom-via-manzoni": [
+   "AUT-3",
+   "AUT-7"
+  ],
+  "autobus-mom-fontane-chiesa-nuova": [
+   "AUT-4"
+  ],
+  "autobus-mom-fontane-chiesa-vecchia": [
+   "AUT-4"
+  ],
+  "autobus-mom-viale-luzzatti": [
+   "AUT-4"
+  ],
+  "autobus-mom-porta-calvi": [
+   "AUT-4",
+   "AUT-9",
+   "AUT-11",
+   "AUT-21",
+   "AUT-55",
+   "AUT-61"
+  ],
+  "autobus-mom-piazza-della-vittoria": [
+   "AUT-4",
+   "AUT-8",
+   "AUT-9",
+   "AUT-11",
+   "AUT-21",
+   "AUT-61"
+  ],
+  "autobus-mom-sant-antonino": [
+   "AUT-4"
+  ],
+  "autobus-mom-casier": [
+   "AUT-4"
+  ],
+  "autobus-mom-piazza-duomo": [
+   "AUT-4",
+   "AUT-6",
+   "AUT-9",
+   "AUT-11",
+   "AUT-21",
+   "AUT-55"
+  ],
+  "autobus-mom-san-cassiano": [
+   "AUT-6"
+  ],
+  "autobus-mom-quinto-via-ciardi": [
+   "AUT-6"
+  ],
+  "autobus-mom-quinto-chiesa": [
+   "AUT-6"
+  ],
+  "autobus-mom-via-ciardi-piazzale": [
+   "AUT-6"
+  ],
+  "autobus-mom-quinto-municipio": [
+   "AUT-6"
+  ],
+  "autobus-mom-aeroporto-canova": [
+   "AUT-6"
+  ],
+  "autobus-mom-tribunale-via-appiani": [
+   "AUT-6"
+  ],
+  "autobus-mom-stazione-fs-via-de-gasperi": [
+   "AUT-6"
+  ],
+  "autobus-mom-piazzale-pistoia": [
+   "AUT-6",
+   "AUT-11",
+   "AUT-21"
+  ],
+  "autobus-mom-quinto-via-zecchina": [
+   "AUT-6",
+   "AUT-55"
+  ],
+  "autobus-mom-via-ciardi-78": [
+   "AUT-6"
+  ],
+  "autobus-mom-sant-artemio-provincia": [
+   "AUT-7"
+  ],
+  "autobus-mom-cal-di-breda": [
+   "AUT-7"
+  ],
+  "autobus-mom-stazione-fs-via-duca-d-aosta": [
+   "AUT-7",
+   "AUT-8",
+   "AUT-8E",
+   "AUT-55"
+  ],
+  "autobus-mom-cimitero-san-lazzaro": [
+   "AUT-7",
+   "AUT-8",
+   "AUT-8E"
+  ],
+  "autobus-mom-san-lazzaro": [
+   "AUT-7",
+   "AUT-8",
+   "AUT-8E"
+  ],
+  "autobus-mom-san-zeno-scuole": [
+   "AUT-7",
+   "AUT-55"
+  ],
+  "autobus-mom-farmacia-zorza": [
+   "AUT-7",
+   "AUT-8",
+   "AUT-8E"
+  ],
+  "autobus-mom-settecomuni": [
+   "AUT-8"
+  ],
+  "autobus-mom-villa-franchetti": [
+   "AUT-8",
+   "AUT-8E"
+  ],
+  "autobus-mom-via-cadorna": [
+   "AUT-8",
+   "AUT-11",
+   "AUT-21",
+   "AUT-55"
+  ],
+  "autobus-mom-san-liberale": [
+   "AUT-9"
+  ],
+  "autobus-mom-caserma-serena": [
+   "AUT-9"
+  ],
+  "autobus-mom-via-aldo-moro-cimitero": [
+   "AUT-9"
+  ],
+  "autobus-mom-via-aldo-moro": [
+   "AUT-9"
+  ],
+  "autobus-mom-dosson-via-torricelli": [
+   "AUT-9"
+  ],
+  "autobus-mom-via-zermanese": [
+   "AUT-9"
+  ],
+  "autobus-mom-dosson-scuole": [
+   "AUT-9"
+  ],
+  "autobus-mom-conscio": [
+   "AUT-9"
+  ],
+  "autobus-mom-viale-monfenera": [
+   "AUT-9"
+  ],
+  "autobus-mom-san-giacomo-di-musestrelle": [
+   "AUT-10"
+  ],
+  "autobus-mom-pezzan": [
+   "AUT-10"
+  ],
+  "autobus-mom-mignagola-chiesa": [
+   "AUT-10"
+  ],
+  "autobus-mom-carbonera-capolinea": [
+   "AUT-10"
+  ],
+  "autobus-mom-via-primo-maggio": [
+   "AUT-10"
+  ],
+  "autobus-mom-biban": [
+   "AUT-10"
+  ],
+  "autobus-mom-castello-di-carbonera": [
+   "AUT-10"
+  ],
+  "autobus-mom-selvana": [
+   "AUT-10"
+  ],
+  "autobus-mom-paese-municipio": [
+   "AUT-11",
+   "AUT-21"
+  ],
+  "autobus-mom-paese-centro-commerciale": [
+   "AUT-11"
+  ],
+  "autobus-mom-bhr-treviso-hotel": [
+   "AUT-11"
+  ],
+  "autobus-mom-san-sisto-via-piave": [
+   "AUT-12"
+  ],
+  "autobus-mom-castagnole": [
+   "AUT-21"
+  ],
+  "autobus-mom-talponera": [
+   "AUT-55"
+  ],
+  "autobus-mom-merlengo-capolinea": [
+   "AUT-55"
+  ],
+  "autobus-mom-santa-bona": [
+   "AUT-55"
+  ],
+  "autobus-mom-sant-angelo-chiesa": [
+   "AUT-55"
+  ],
+  "autobus-mom-canizzano-chiesa": [
+   "AUT-55"
+  ],
+  "autobus-mom-quinto-via-capitello": [
+   "AUT-55"
+  ],
+  "autobus-mom-sant-antonio": [
+   "AUT-61"
+  ],
+  "autobus-mom-ponzano-chiesa": [
+   "AUT-61"
+  ],
+  "autobus-mom-via-montello": [
+   "AUT-61"
+  ]
+ }
+}
