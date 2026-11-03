@@ -303,7 +303,8 @@
       },
       "luoghi": [
         "villa-trissino-cricoli",
-        "basilica-palladiana"
+        "basilica-palladiana",
+        "casa-natale-trissino"
       ],
       "luoghiNote": {
         "villa-trissino-cricoli": {
@@ -336,6 +337,22 @@
             "fr": "Trissino soutint le projet de Palladio pour la transformation du Palazzo della Ragione, contribuant à sa reconnaissance auprès des autorités de la ville.",
             "de": "Trissino unterstützte Palladios Projekt zur Umgestaltung des Palazzo della Ragione und trug dazu bei, dass er bei den städtischen Behörden Anerkennung fand.",
             "es": "Trissino apoyó el proyecto de Palladio para la transformación del Palazzo della Ragione, contribuyendo a su reconocimiento ante las autoridades de la ciudad."
+          }
+        },
+        "casa-natale-trissino": {
+          "tipo": {
+            "it": "Legame diretto – nascita",
+            "en": "Direct link – birth",
+            "fr": "Lien direct – naissance",
+            "de": "Direkter Bezug – Geburt",
+            "es": "Vínculo directo – nacimiento"
+          },
+          "testo": {
+            "it": "L'edificio in Corso Fogazzaro 15 è indicato da una lapide e da un medaglione commemorativo come luogo della sua nascita.",
+            "en": "The building at Corso Fogazzaro 15 is indicated by a plaque and a commemorative medallion as the place of his birth.",
+            "fr": "Le bâtiment du Corso Fogazzaro 15 est indiqué par une plaque et un médaillon commémoratif comme lieu de sa naissance.",
+            "de": "Das Gebäude in der Corso Fogazzaro 15 wird durch eine Gedenktafel und ein Medaillon als sein Geburtsort ausgewiesen.",
+            "es": "El edificio del Corso Fogazzaro 15 está señalado con una placa y un medallón conmemorativo como lugar de su nacimiento."
           }
         }
       },

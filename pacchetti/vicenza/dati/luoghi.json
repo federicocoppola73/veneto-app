@@ -2839,6 +2839,45 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=2530229"
         }
       ]
+    },
+    {
+      "id": "casa-natale-trissino",
+      "nome": "Casa natale di Gian Giorgio Trissino",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.547533,
+      "longitudine": 11.543697,
+      "personaggio": "gian-giorgio-trissino",
+      "descrizione": {
+        "it": "La famiglia Trissino è un'antica casata nobiliare del territorio vicentino. Di presunta origine germanica, la famiglia ricevette l'investitura feudale da parte sia del Sacro Romano Impero sia della Chiesa venendo insigniti del titolo di conte tra il X e l'XI secolo; i suoi domini comprendevano l'omonimo paese di Trissino, nell'attuale provincia di Vicenza, e i borghi vicini, come Valdagno, Cornedo Vicentino, Castelgomberto e Sarego, tanto che la Valle dell'Agno fu nota per diversi secoli come la Valle di Trissino.",
+        "en": "The Trissino family is an ancient noble lineage from the Vicenza area. Of presumed Germanic origin, the family received feudal investiture from both the Holy Roman Empire and the Church, and was granted the title of count between the 10th and 11th centuries. Its domains included the eponymous town of Trissino, in the present-day province of Vicenza, and nearby villages such as Valdagno, Cornedo Vicentino, Castelgomberto and Sarego, so much so that the Agno Valley was known for several centuries as the Valle di Trissino.",
+        "fr": "La famille Trissino est une ancienne lignée noble du territoire vicentin. D'origine présumée germanique, elle reçut l'investiture féodale tant de l'Empire romain germanique que de l'Église, et fut anoblie du titre de comte entre le Xe et le XIe siècle ; ses domaines comprenaient la commune éponyme de Trissino, dans l'actuelle province de Vicence, ainsi que les bourgs voisins comme Valdagno, Cornedo Vicentino, Castelgomberto et Sarego, au point que la vallée de l'Agno fut connue pendant plusieurs siècles sous le nom de vallée de Trissino.",
+        "de": "Die Familie Trissino ist ein altes Adelsgeschlecht aus dem Gebiet von Vicenza. Die vermutlich germanischen Ursprungs ist, erhielt die Familie Lehen sowohl vom Heiligen Römischen Reich als auch von der Kirche und wurde zwischen dem 10. und 11. Jahrhundert in den Grafenstand erhoben. Zu ihren Besitzungen gehörten der gleichnamige Ort Trissino in der heutigen Provinz Vicenza und benachbarte Orte wie Valdagno, Cornedo Vicentino, Castelgomberto und Sarego, sodass das Agno-Tal über mehrere Jahrhunderte als Valle di Trissino bekannt war.",
+        "es": "La familia Trissino es un antiguo linaje noble del territorio vicentino. De presunto origen germánico, recibió la investidura feudal tanto del Sacro Imperio Romano como de la Iglesia, y fue elevada al título de conde entre los siglos X y XI; sus dominios incluían la localidad homónima de Trissino, en la actual provincia de Vicenza, y pueblos cercanos como Valdagno, Cornedo Vicentino, Castelgomberto y Sarego, hasta el punto de que el valle del Agno fue conocido durante siglos como el Valle di Trissino."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile dall'esterno, dove si trova la lapide. Non risultano orari di visita. Ingresso gratuito.",
+        "en": "Visible from outside, where the plaque is. No visiting hours found. Free entry.",
+        "fr": "Visible de l'extérieur, où se trouve la plaque. Aucun horaire de visite trouvé. Entrée gratuite.",
+        "de": "Von außen sichtbar, dort befindet sich die Gedenktafel. Keine Besuchszeiten gefunden. Eintritt frei.",
+        "es": "Visible desde el exterior, donde está la placa. No se han encontrado horarios de visita. Entrada gratuita."
+      },
+      "immagine": {
+        "autore": "GeorgesB",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=20398552"
+      },
+      "galleria": [
+        {
+          "autore": "Shadowxfox, HansenBCN, Mess",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=37740660"
+        }
+      ]
     }
   ]
 }
