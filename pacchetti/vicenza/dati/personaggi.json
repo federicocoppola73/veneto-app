@@ -1001,7 +1001,8 @@
       },
       "luoghi": [
         "oratorio-di-san-nicola-da-tolentino",
-        "palazzo-chiericati-museo-civico"
+        "palazzo-chiericati-museo-civico",
+        "teatro-olimpico"
       ],
       "luoghiNote": {
         "oratorio-di-san-nicola-da-tolentino": {
@@ -1034,6 +1035,22 @@
             "fr": "Il conserve quelques œuvres provenant de l'Oratoire delle Zitelle, où Maffei réalisa un cycle comprenant la Visitation, le Repos pendant la fuite en Égypte et l'Assomption.",
             "de": "Es bewahrt einige Werke aus dem Oratorio delle Zitelle, wo Maffei einen Zyklus mit der Heimsuchung, der Ruhe auf der Flucht nach Ägypten und der Himmelfahrt Mariä malte.",
             "es": "Conserva algunas obras procedentes del Oratorio delle Zitelle, donde Maffei realizó un ciclo pictórico con la Visitación, el Descanso durante la huida a Egipto y la Asunción."
+          }
+        },
+        "teatro-olimpico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Odeo del Teatro Olimpico: tra il 1646 e il 1648 Maffei, con l'aiuto della bottega, realizzò un ciclo di ventotto figure dipinte a monocromo sulle pareti della sala, raffiguranti divinità e allegorie.",
+            "en": "Odeo of the Teatro Olimpico: between 1646 and 1648 Maffei, with the help of his workshop, painted a cycle of twenty-eight monochrome figures on the walls of the hall, depicting deities and allegories.",
+            "fr": "Odéon du Teatro Olimpico : entre 1646 et 1648, Maffei, avec l'aide de son atelier, réalisa un cycle de vingt-huit figures peintes en camaïeu sur les murs de la salle, représentant divinités et allégories.",
+            "de": "Odeo des Teatro Olimpico: Zwischen 1646 und 1648 schuf Maffei mit Hilfe seiner Werkstatt einen Zyklus von achtundzwanzig monochromen Figuren an den Wänden des Saals, die Gottheiten und Allegorien darstellen.",
+            "es": "Odeo del Teatro Olimpico: entre 1646 y 1648 Maffei, con la ayuda de su taller, realizó un ciclo de veintiocho figuras pintadas en monocromo en las paredes de la sala, con divinidades y alegorías."
           }
         }
       },
