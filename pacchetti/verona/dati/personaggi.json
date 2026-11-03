@@ -836,7 +836,9 @@
       },
       "luoghi": [
         "museo-di-castelvecchio",
-        "san-giorgio-in-braida"
+        "san-giorgio-in-braida",
+        "chiesa-di-san-paolo",
+        "giardini-della-giarina"
       ],
       "luoghiNote": {
         "museo-di-castelvecchio": {
@@ -869,6 +871,38 @@
             "fr": "Elle abrite le retable représentant le Martyre de saint Georges, peint par Véronèse en 1566. C'est l'un des témoignages les plus importants de sa production picturale conservée en ville.",
             "de": "Sie birgt das Altarbild mit dem Martyrium des heiligen Georg, das Veronese 1566 malte. Es ist eines der bedeutendsten erhaltenen Zeugnisse seines malerischen Schaffens in der Stadt.",
             "es": "Custodia la pala de altar que representa el Martirio de San Jorge, realizada por el Veronés en 1566. Es uno de los testimonios más importantes de su producción pictórica conservada en la ciudad."
+          }
+        },
+        "chiesa-di-san-paolo": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Preserved work",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "La chiesa conserva la Pala Marogna, opera del Veronese. Si trova nel quartiere di Veronetta, dove il pittore nacque e trascorse gli anni della sua formazione.",
+            "en": "The church holds the Pala Marogna, a work by Veronese. It stands in the Veronetta district, where the painter was born and spent the years of his training.",
+            "fr": "L'église conserve le Retable Marogna, œuvre de Véronèse. Elle se trouve dans le quartier de Veronetta, où le peintre naquit et passa les années de sa formation.",
+            "de": "Die Kirche bewahrt die Pala Marogna, ein Werk Veroneses. Sie liegt im Stadtteil Veronetta, wo der Maler geboren wurde und die Jahre seiner Ausbildung verbrachte.",
+            "es": "La iglesia conserva la Pala Marogna, obra del Veronés. Se encuentra en el barrio de Veronetta, donde el pintor nació y pasó los años de su formación."
+          }
+        },
+        "giardini-della-giarina": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "Nei giardini, tra Lungadige Teodorico e l'Interrato dell'Acqua Morta, si trova la statua dedicata al pittore, realizzata dallo scultore Romeo Cristani e collocata qui nel 1910.",
+            "en": "In the gardens, between Lungadige Teodorico and the Interrato dell'Acqua Morta, stands the statue dedicated to the painter, made by the sculptor Romeo Cristani and placed here in 1910.",
+            "fr": "Dans les jardins, entre le Lungadige Teodorico et l'Interrato dell'Acqua Morta, se dresse la statue dédiée au peintre, réalisée par le sculpteur Romeo Cristani et installée ici en 1910.",
+            "de": "In den Gärten, zwischen dem Lungadige Teodorico und dem Interrato dell'Acqua Morta, steht die dem Maler gewidmete Statue, die der Bildhauer Romeo Cristani schuf und 1910 hier aufstellte.",
+            "es": "En los jardines, entre el Lungadige Teodorico y el Interrato dell'Acqua Morta, se alza la estatua dedicada al pintor, realizada por el escultor Romeo Cristani y colocada aquí en 1910."
           }
         }
       },
