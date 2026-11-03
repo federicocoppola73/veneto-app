@@ -1,4 +1,303 @@
 {
- "_nota": "Eventi di Vicenza: da preparare.",
- "eventi": []
+  "_nota": "Eventi di Vicenza nei mesi novembre 2026 - aprile 2027, da programmi pubblici di teatri e circuiti (ottobre 2026). Le sale contrassegnate come da confermare vanno verificate.",
+  "eventi": [
+    {
+      "nome": "Maria Pia Timo - Una donna di primordine",
+      "tipo": {
+        "it": "Teatro",
+        "en": "Theatre",
+        "fr": "Théâtre",
+        "de": "Theater",
+        "es": "Teatro"
+      },
+      "inizio": "2026-11-05",
+      "fine": "2026-11-05",
+      "luogo": "Teatro San Marco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale di Maria Pia Timo al Teatro San Marco.",
+        "en": "Theatre show by Maria Pia Timo at Teatro San Marco.",
+        "fr": "Spectacle de théâtre de Maria Pia Timo au Teatro San Marco.",
+        "de": "Theaterstück von Maria Pia Timo im Teatro San Marco.",
+        "es": "Espectáculo teatral de Maria Pia Timo en el Teatro San Marco."
+      }
+    },
+    {
+      "nome": "ARTis - Festival dell'Arte",
+      "tipo": {
+        "it": "Festival",
+        "en": "Festival",
+        "fr": "Festival",
+        "de": "Festival",
+        "es": "Festival"
+      },
+      "inizio": "2026-11-09",
+      "fine": "2026-11-15",
+      "luogo": "Teatro Olimpico",
+      "luogoId": "teatro-olimpico",
+      "descrizione": {
+        "it": "Festival dell'arte con incontri, arte e fotografia nel Teatro Olimpico.",
+        "en": "Art festival with talks, art and photography at the Teatro Olimpico.",
+        "fr": "Festival d'art avec rencontres, art et photographie au Teatro Olimpico.",
+        "de": "Kunstfestival mit Gesprächen, Kunst und Fotografie im Teatro Olimpico.",
+        "es": "Festival de arte con encuentros, arte y fotografía en el Teatro Olimpico."
+      },
+      "link": "https://artisfestival.it/"
+    },
+    {
+      "nome": "Gloria - Il Musical",
+      "tipo": {
+        "it": "Musical",
+        "en": "Musical",
+        "fr": "Comédie musicale",
+        "de": "Musical",
+        "es": "Musical"
+      },
+      "inizio": "2026-11-20",
+      "fine": "2026-11-22",
+      "luogo": "Teatro Comunale Città di Vicenza",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Musical sul repertorio di Umberto Tozzi, con il pubblico invitato a cantare insieme.",
+        "en": "Musical on the songs of Umberto Tozzi, with the audience invited to sing along.",
+        "fr": "Comédie musicale sur le répertoire d'Umberto Tozzi, le public est invité à chanter.",
+        "de": "Musical zum Repertoire von Umberto Tozzi, das Publikum ist eingeladen mitzusingen.",
+        "es": "Musical sobre el repertorio de Umberto Tozzi, con el público invitado a cantar."
+      },
+      "link": "https://www.umbertotozzi.com/"
+    },
+    {
+      "nome": "Lo Schiaccianoci - Compagnia Roma City Ballet",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2027-01-01",
+      "fine": "2027-01-01",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Balletto di Čajkovskij con la Compagnia Roma City Ballet.",
+        "en": "Tchaikovsky ballet by the Roma City Ballet company.",
+        "fr": "Ballet de Tchaïkovski par la Compagnie Roma City Ballet.",
+        "de": "Tschaikowski-Ballett der Compagnia Roma City Ballet.",
+        "es": "Ballet de Chaikovski por la Compañía Roma City Ballet."
+      }
+    },
+    {
+      "nome": "Valeria Graci - Volevo essere io",
+      "tipo": {
+        "it": "Teatro",
+        "en": "Theatre",
+        "fr": "Théâtre",
+        "de": "Theater",
+        "es": "Teatro"
+      },
+      "inizio": "2027-01-23",
+      "fine": "2027-01-23",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale di Valeria Graci.",
+        "en": "Theatre show by Valeria Graci.",
+        "fr": "Spectacle de théâtre de Valeria Graci.",
+        "de": "Theaterstück von Valeria Graci.",
+        "es": "Espectáculo teatral de Valeria Graci."
+      }
+    },
+    {
+      "nome": "FRIDA Opera Musical",
+      "tipo": {
+        "it": "Musical",
+        "en": "Musical",
+        "fr": "Comédie musicale",
+        "de": "Musical",
+        "es": "Musical"
+      },
+      "inizio": "2027-01-30",
+      "fine": "2027-01-31",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Opera musical dedicata a Frida Kahlo, con due repliche.",
+        "en": "Musical opera about Frida Kahlo, with two performances.",
+        "fr": "Opéra-comédie consacré à Frida Kahlo, deux représentations.",
+        "de": "Musical-Oper über Frida Kahlo, zwei Vorstellungen.",
+        "es": "Ópera musical dedicada a Frida Kahlo, con dos funciones."
+      }
+    },
+    {
+      "nome": "Frozen - Elsa e il Castello di Ghiaccio",
+      "tipo": {
+        "it": "Spettacolo per famiglie",
+        "en": "Family show",
+        "fr": "Spectacle familial",
+        "de": "Familienvorstellung",
+        "es": "Espectáculo familiar"
+      },
+      "inizio": "2027-02-07",
+      "fine": "2027-02-07",
+      "luogo": "Teatro San Marco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Musical per tutta la famiglia tratto da Frozen, con due spettacoli.",
+        "en": "Family musical based on Frozen, with two shows.",
+        "fr": "Comédie musicale familiale tirée de Frozen, deux séances.",
+        "de": "Familien-Musical nach Frozen, zwei Vorstellungen.",
+        "es": "Musical familiar basado en Frozen, con dos funciones."
+      },
+      "link": "https://www.ticketone.it/event/frozen-elsa-e-il-castello-di-ghiaccio-teatro-san-marco-21277269/"
+    },
+    {
+      "nome": "Uno, nessuno, centomila",
+      "tipo": {
+        "it": "Spettacolo",
+        "en": "Show",
+        "fr": "Spectacle",
+        "de": "Show",
+        "es": "Espectáculo"
+      },
+      "inizio": "2027-02-21",
+      "fine": "2027-02-21",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale, con due repliche il 21 febbraio.",
+        "en": "Theatre show, two performances on 21 February.",
+        "fr": "Spectacle de théâtre, deux représentations le 21 février.",
+        "de": "Theaterstück, zwei Vorstellungen am 21. Februar.",
+        "es": "Espectáculo teatral, dos funciones el 21 de febrero."
+      }
+    },
+    {
+      "nome": "Pino e Gli Anticorpi",
+      "tipo": {
+        "it": "Spettacolo",
+        "en": "Show",
+        "fr": "Spectacle",
+        "de": "Show",
+        "es": "Espectáculo"
+      },
+      "inizio": "2027-03-06",
+      "fine": "2027-03-06",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Pino e Gli Anticorpi.",
+        "en": "Show by Pino e Gli Anticorpi.",
+        "fr": "Spectacle de Pino e Gli Anticorpi.",
+        "de": "Show von Pino e Gli Anticorpi.",
+        "es": "Espectáculo de Pino e Gli Anticorpi."
+      }
+    },
+    {
+      "nome": "Il lago dei cigni - Compagnia Almatanz",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2027-03-14",
+      "fine": "2027-03-14",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Balletto Il lago dei cigni della Compagnia Almatanz, con due spettacoli (ore 15.30 e 18.00).",
+        "en": "Swan Lake ballet by Compagnia Almatanz, two shows (3:30 pm and 6:00 pm).",
+        "fr": "Ballet Le Lac des cygnes par la Compagnie Almatanz, deux séances (15h30 et 18h).",
+        "de": "Ballett Schwanensee der Compagnia Almatanz, zwei Vorstellungen (15.30 und 18.00 Uhr).",
+        "es": "Ballet El lago de los cisnes de la Compañía Almatanz, dos funciones (15:30 y 18:00)."
+      }
+    },
+    {
+      "nome": "Amélie - Il Musical",
+      "tipo": {
+        "it": "Musical",
+        "en": "Musical",
+        "fr": "Comédie musicale",
+        "de": "Musical",
+        "es": "Musical"
+      },
+      "inizio": "2027-03-20",
+      "fine": "2027-03-21",
+      "luogo": "Teatro Comunale Città di Vicenza",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Musical Amélie con Giulia Ottonello, tre repliche tra il 20 e il 21 marzo.",
+        "en": "Amélie musical with Giulia Ottonello, performances on 20 and 21 March.",
+        "fr": "Comédie musicale Amélie avec Giulia Ottonello, représentations les 20 et 21 mars.",
+        "de": "Musical Amélie mit Giulia Ottonello, Vorstellungen am 20. und 21. März.",
+        "es": "Musical Amélie con Giulia Ottonello, funciones el 20 y el 21 de marzo."
+      },
+      "link": "https://www.amelieilmusical.it/"
+    },
+    {
+      "nome": "Wasabi - Shamzy",
+      "tipo": {
+        "it": "Cabaret",
+        "en": "Cabaret",
+        "fr": "Cabaret",
+        "de": "Kabarett",
+        "es": "Cabaret"
+      },
+      "inizio": "2027-03-21",
+      "fine": "2027-03-21",
+      "luogo": "Teatro San Marco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Cabaret e comicità con Shamzy al Teatro San Marco.",
+        "en": "Cabaret and comedy with Shamzy at Teatro San Marco.",
+        "fr": "Cabaret et humour avec Shamzy au Teatro San Marco.",
+        "de": "Kabarett und Comedy mit Shamzy im Teatro San Marco.",
+        "es": "Cabaret y humor con Shamzy en el Teatro San Marco."
+      }
+    },
+    {
+      "nome": "Giovanni Cacioppo - CompilaSHOWn",
+      "tipo": {
+        "it": "Spettacolo",
+        "en": "Show",
+        "fr": "Spectacle",
+        "de": "Show",
+        "es": "Espectáculo"
+      },
+      "inizio": "2027-03-26",
+      "fine": "2027-03-26",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Giovanni Cacioppo.",
+        "en": "Show by Giovanni Cacioppo.",
+        "fr": "Spectacle de Giovanni Cacioppo.",
+        "de": "Show von Giovanni Cacioppo.",
+        "es": "Espectáculo de Giovanni Cacioppo."
+      }
+    },
+    {
+      "nome": "Leonardo Manera - Corto circuito",
+      "tipo": {
+        "it": "Spettacolo",
+        "en": "Show",
+        "fr": "Spectacle",
+        "de": "Show",
+        "es": "Espectáculo"
+      },
+      "inizio": "2027-04-10",
+      "fine": "2027-04-10",
+      "luogo": "Vicenza (sala da confermare)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Leonardo Manera.",
+        "en": "Show by Leonardo Manera.",
+        "fr": "Spectacle de Leonardo Manera.",
+        "de": "Show von Leonardo Manera.",
+        "es": "Espectáculo de Leonardo Manera."
+      }
+    }
+  ]
 }

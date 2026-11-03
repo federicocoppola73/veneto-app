@@ -1,4 +1,426 @@
 {
- "_nota": "Eventi di Treviso: da preparare.",
- "eventi": []
+  "_nota": "Eventi di Treviso nei mesi novembre 2026 - maggio 2027, dalla stagione del Teatro Mario Del Monaco e da altre fonti pubbliche (ottobre 2026). Orari da verificare dove indicato.",
+  "eventi": [
+    {
+      "nome": "Mostra: La materia dei sogni. Radici dell'arte africana contemporanea",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-09-03",
+      "fine": "2027-01-15",
+      "luogo": "Museo di Santa Caterina",
+      "luogoId": "complesso-di-santa-caterina",
+      "descrizione": {
+        "it": "Mostra dedicata alle origini dell'arte africana contemporanea.",
+        "en": "Exhibition on the origins of contemporary African art.",
+        "fr": "Exposition consacrée aux origines de l'art africain contemporain.",
+        "de": "Ausstellung zu den Ursprüngen der zeitgenössischen afrikanischen Kunst.",
+        "es": "Exposición sobre los orígenes del arte africano contemporáneo."
+      }
+    },
+    {
+      "nome": "Gala Lirico - Premio Paolo Silveri, \"Le donne di Verdi\"",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-11-25",
+      "fine": "2026-11-25",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Gala lirico alle 20.00, dedicato alle figure femminili di Verdi.",
+        "en": "Opera gala at 8:00 pm, dedicated to Verdi's female characters.",
+        "fr": "Gala lyrique à 20h, consacré aux héroïnes de Verdi.",
+        "de": "Opern-Gala um 20 Uhr, den weiblichen Figuren Verdis gewidmet.",
+        "es": "Gala lírica a las 20:00, dedicada a las heroínas de Verdi."
+      }
+    },
+    {
+      "nome": "Pagliacci",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2026-12-04",
+      "fine": "2026-12-06",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Opera di Leoncavallo: turno A il 4 dicembre alle 20.00, turno C il 6 dicembre alle 16.00.",
+        "en": "Leoncavallo's opera: cast A on 4 December at 8:00 pm, cast C on 6 December at 4:00 pm.",
+        "fr": "Opéra de Leoncavallo : le 4 décembre à 20h, le 6 décembre à 16h.",
+        "de": "Oper von Leoncavallo: 4. Dezember um 20 Uhr, 6. Dezember um 16 Uhr.",
+        "es": "Ópera de Leoncavallo: el 4 de diciembre a las 20:00 y el 6 de diciembre a las 16:00."
+      }
+    },
+    {
+      "nome": "Il baule di Mozart",
+      "tipo": {
+        "it": "Spettacolo per famiglie",
+        "en": "Family show",
+        "fr": "Spectacle familial",
+        "de": "Familienvorstellung",
+        "es": "Espectáculo familiar"
+      },
+      "inizio": "2026-12-08",
+      "fine": "2026-12-08",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale-musicale per famiglie alle 17.30.",
+        "en": "Family musical-theatre show at 5:30 pm.",
+        "fr": "Spectacle théâtral et musical familial à 17h30.",
+        "de": "Familien-Theater-Musikstück um 17.30 Uhr.",
+        "es": "Espectáculo teatral-musical familiar a las 17:30."
+      }
+    },
+    {
+      "nome": "Una delle ultime sere di Carnovale",
+      "tipo": {
+        "it": "Prosa",
+        "en": "Drama",
+        "fr": "Théâtre",
+        "de": "Schauspiel",
+        "es": "Teatro"
+      },
+      "inizio": "2026-12-10",
+      "fine": "2026-12-13",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Commedia di Carlo Goldoni, tra le più celebri del suo repertorio tardo veneziano.",
+        "en": "Comedy by Carlo Goldoni, one of his best-known late Venetian plays.",
+        "fr": "Comédie de Carlo Goldoni, une de ses pièces vénitiennes tardives les plus célèbres.",
+        "de": "Komödie von Carlo Goldoni, eines seiner bekanntesten späten venezianischen Stücke.",
+        "es": "Comedia de Carlo Goldoni, una de sus obras venecianas tardías más famosas."
+      },
+      "link": "https://www.mentelocale.it/treviso/130502-una-delle-ultime-sere-di-carnovale.htm"
+    },
+    {
+      "nome": "Concerto di Natale - Vincent Bohanan & The Victorious Army",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-22",
+      "fine": "2026-12-22",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Natale alle 20.00 con gospel.",
+        "en": "Christmas concert at 8:00 pm with gospel music.",
+        "fr": "Concert de Noël à 20h avec du gospel.",
+        "de": "Weihnachtskonzert um 20 Uhr mit Gospel.",
+        "es": "Concierto de Navidad a las 20:00 con gospel."
+      }
+    },
+    {
+      "nome": "Giovani Promesse - Gocce Musicali per la Natura",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-01-19",
+      "fine": "2027-01-19",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto con giovani talenti, alle 20.45.",
+        "en": "Concert with young talents at 8:45 pm.",
+        "fr": "Concert de jeunes talents à 20h45.",
+        "de": "Konzert mit jungen Talenten um 20.45 Uhr.",
+        "es": "Concierto con jóvenes talentos a las 20:45."
+      }
+    },
+    {
+      "nome": "Recital violino e pianoforte - Kyoko Takezawa, Edoardo Maria Strabbioli",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-01-26",
+      "fine": "2027-01-26",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Recital di violino e pianoforte alle 20.00.",
+        "en": "Violin and piano recital at 8:00 pm.",
+        "fr": "Récital de violon et piano à 20h.",
+        "de": "Violin- und Klavierrecital um 20 Uhr.",
+        "es": "Recital de violín y piano a las 20:00."
+      }
+    },
+    {
+      "nome": "Altri Rami - Musica Nuova",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-02-02",
+      "fine": "2027-02-02",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Musica Nuova alle 20.00.",
+        "en": "Musica Nuova concert at 8:00 pm.",
+        "fr": "Concert de Musica Nuova à 20h.",
+        "de": "Konzert von Musica Nuova um 20 Uhr.",
+        "es": "Concierto de Musica Nuova a las 20:00."
+      }
+    },
+    {
+      "nome": "Il pipistrello",
+      "tipo": {
+        "it": "Operetta",
+        "en": "Operetta",
+        "fr": "Opérette",
+        "de": "Operette",
+        "es": "Opereta"
+      },
+      "inizio": "2027-02-07",
+      "fine": "2027-02-07",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Operetta alle 16.00, evento fuori abbonamento.",
+        "en": "Operetta at 4:00 pm, outside the subscription series.",
+        "fr": "Opérette à 16h, hors abonnement.",
+        "de": "Operette um 16 Uhr, außerhalb des Abonnements.",
+        "es": "Opereta a las 16:00, fuera de abono."
+      }
+    },
+    {
+      "nome": "Il cappello di paglia di Firenze",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2027-03-05",
+      "fine": "2027-03-07",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Opera di Nino Rota: turno A il 5 marzo alle 20.00, turno C il 7 marzo alle 16.00.",
+        "en": "Nino Rota's opera: cast A on 5 March at 8:00 pm, cast C on 7 March at 4:00 pm.",
+        "fr": "Opéra de Nino Rota : le 5 mars à 20h, le 7 mars à 16h.",
+        "de": "Oper von Nino Rota: 5. März um 20 Uhr, 7. März um 16 Uhr.",
+        "es": "Ópera de Nino Rota: el 5 de marzo a las 20:00 y el 7 de marzo a las 16:00."
+      }
+    },
+    {
+      "nome": "Saul (oratorio di Händel)",
+      "tipo": {
+        "it": "Oratorio",
+        "en": "Oratorio",
+        "fr": "Oratorio",
+        "de": "Oratorium",
+        "es": "Oratorio"
+      },
+      "inizio": "2027-03-16",
+      "fine": "2027-03-16",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Oratorio di Händel alle 20.00.",
+        "en": "Handel oratorio at 8:00 pm.",
+        "fr": "Oratorio de Haendel à 20h.",
+        "de": "Oratorium von Händel um 20 Uhr.",
+        "es": "Oratorio de Händel a las 20:00."
+      }
+    },
+    {
+      "nome": "Concerto di tango - Chamberjam Europe",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-03-24",
+      "fine": "2027-03-24",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di tango alle 20.00.",
+        "en": "Tango concert at 8:00 pm.",
+        "fr": "Concert de tango à 20h.",
+        "de": "Tango-Konzert um 20 Uhr.",
+        "es": "Concierto de tango a las 20:00."
+      }
+    },
+    {
+      "nome": "Raffaella Carrà Show",
+      "tipo": {
+        "it": "Spettacolo",
+        "en": "Show",
+        "fr": "Spectacle",
+        "de": "Show",
+        "es": "Espectáculo"
+      },
+      "inizio": "2027-03-27",
+      "fine": "2027-03-27",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Tributo a Raffaella Carrà. Orario da verificare: le fonti riportano 16.30 e 19.30.",
+        "en": "Tribute to Raffaella Carrà. Time to be confirmed: sources list 4:30 pm and 7:30 pm.",
+        "fr": "Hommage à Raffaella Carrà. Horaire à confirmer : 16h30 ou 19h30 selon les sources.",
+        "de": "Hommage an Raffaella Carrà. Uhrzeit noch zu bestätigen: 16.30 oder 19.30 Uhr.",
+        "es": "Homenaje a Raffaella Carrà. Hora por confirmar: las fuentes indican las 16:30 y las 19:30."
+      }
+    },
+    {
+      "nome": "Uno sguardo di Beethoven sul nostro futuro - Filippo Faes",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-04-06",
+      "fine": "2027-04-06",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto dedicato a Beethoven alle 20.00.",
+        "en": "Concert dedicated to Beethoven at 8:00 pm.",
+        "fr": "Concert consacré à Beethoven à 20h.",
+        "de": "Konzert zu Beethoven um 20 Uhr.",
+        "es": "Concierto dedicado a Beethoven a las 20:00."
+      }
+    },
+    {
+      "nome": "Recital pianistico - Arcadi Volodos",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-04-13",
+      "fine": "2027-04-13",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Recital pianistico alle 20.00.",
+        "en": "Piano recital at 8:00 pm.",
+        "fr": "Récital de piano à 20h.",
+        "de": "Klavierrecital um 20 Uhr.",
+        "es": "Recital de piano a las 20:00."
+      }
+    },
+    {
+      "nome": "Opus Avantra - Musica del Novecento",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-04-21",
+      "fine": "2027-04-21",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di musica del Novecento alle 20.00.",
+        "en": "Concert of 20th-century music at 8:00 pm.",
+        "fr": "Concert de musique du XXe siècle à 20h.",
+        "de": "Konzert mit Musik des 20. Jahrhunderts um 20 Uhr.",
+        "es": "Concierto de música del siglo XX a las 20:00."
+      }
+    },
+    {
+      "nome": "Treviso Suona Jazz Festival",
+      "tipo": {
+        "it": "Concerto jazz",
+        "en": "Jazz concert",
+        "fr": "Concert de jazz",
+        "de": "Jazzkonzert",
+        "es": "Concierto de jazz"
+      },
+      "inizio": "2027-04-30",
+      "fine": "2027-04-30",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto del festival jazz alle 20.45.",
+        "en": "Jazz festival concert at 8:45 pm.",
+        "fr": "Concert du festival de jazz à 20h45.",
+        "de": "Konzert des Jazzfestivals um 20.45 Uhr.",
+        "es": "Concierto del festival de jazz a las 20:45."
+      }
+    },
+    {
+      "nome": "La Scuola Napoletana tra Settecento e Ottocento",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-05-12",
+      "fine": "2027-05-12",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto dedicato alla scuola napoletana alle 20.00.",
+        "en": "Concert on the Neapolitan school at 8:00 pm.",
+        "fr": "Concert consacré à l'école napolitaine à 20h.",
+        "de": "Konzert zur neapolitanischen Schule um 20 Uhr.",
+        "es": "Concierto dedicado a la escuela napolitana a las 20:00."
+      }
+    },
+    {
+      "nome": "Treviso Suona Jazz Festival",
+      "tipo": {
+        "it": "Concerto jazz",
+        "en": "Jazz concert",
+        "fr": "Concert de jazz",
+        "de": "Jazzkonzert",
+        "es": "Concierto de jazz"
+      },
+      "inizio": "2027-05-22",
+      "fine": "2027-05-22",
+      "luogo": "Teatro Mario Del Monaco",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto del festival jazz alle 20.45.",
+        "en": "Jazz festival concert at 8:45 pm.",
+        "fr": "Concert du festival de jazz à 20h45.",
+        "de": "Konzert des Jazzfestivals um 20.45 Uhr.",
+        "es": "Concierto del festival de jazz a las 20:45."
+      }
+    }
+  ]
 }
