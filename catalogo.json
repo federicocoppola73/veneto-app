@@ -73,9 +73,20 @@
       "id": "treviso",
       "nome": "Treviso",
       "provincia": "Treviso",
-      "stato": "in_preparazione",
-      "anteprima": [],
-      "pacchetto": null,
+      "stato": "disponibile",
+      "anteprima": [
+        "piazza-dei-signori",
+        "cattedrale-di-san-pietro-apostolo",
+        "palazzo-dei-trecento",
+        "canale-dei-buranelli",
+        "isola-della-pescheria",
+        "fontana-delle-tette",
+        "chiesa-di-san-nicolo",
+        "porta-san-tomaso",
+        "calmaggiore",
+        "museo-luigi-bailo"
+      ],
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/manifest.json?v=1",
       "sku": null,
       "dimensione_mb": null,
       "motto": "Canali, acque e osterie"

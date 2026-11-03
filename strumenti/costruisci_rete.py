@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Costruisce la rete pedonale di una città dai dati OpenStreetMap (file .osm.pbf).
+"""Costruisce la rete pedonale di una città dai dati OpenStreetMap (file .osm.pbf oppure JSON di Overpass).
 
-Uso: python3 strumenti/costruisci_rete.py <file.osm.pbf> pacchetti/<città> <lat_min,lat_max,lon_min,lon_max>
+Uso: python3 strumenti/costruisci_rete.py <file.osm.pbf|overpass.json> pacchetti/<città> <lat_min,lat_max,lon_min,lon_max>
 
 Scrive pacchetti/<città>/dati/rete.json:
 - nodi: coordinate dei vertici in unità di 1e-5 grado, codificate come differenze (come si legge in motore/src/rete.js);
@@ -170,6 +170,25 @@ def leggi_pbf(percorso, bbox):
     return nodi, tenute
 
 
+def leggi_overpass(percorso, bbox):
+    """Come leggi_pbf, ma da un file JSON di Overpass (vie con 'nodes' e 'geometry')."""
+    la0, la1, lo0, lo1 = bbox
+    nodi, tenute = {}, []
+    for e in json.load(open(percorso, encoding='utf-8'))['elements']:
+        tags = e.get('tags', {})
+        if e['type'] != 'way' or tags.get('highway') not in STRADE_PEDONALI or tags.get('access') in ('no', 'private'):
+            continue
+        geo = e.get('geometry') or []
+        if len(geo) != len(e['nodes']):
+            continue
+        for r, g in zip(e['nodes'], geo):
+            if g:
+                nodi[r] = (g['lat'], g['lon'])
+        if any(g and la0 <= g['lat'] <= la1 and lo0 <= g['lon'] <= lo1 for g in geo):
+            tenute.append(e['nodes'])
+    return nodi, tenute
+
+
 def distanza(a, b):
     R = 6371000.0
     la1, lo1 = math.radians(a[0]), math.radians(a[1])
@@ -183,7 +202,7 @@ def main():
         sys.exit(__doc__)
     pbf, cartella, riquadro = sys.argv[1], sys.argv[2].rstrip('/'), sys.argv[3]
     bbox = tuple(float(x) for x in riquadro.split(','))
-    nodi_osm, vie = leggi_pbf(pbf, bbox)
+    nodi_osm, vie = (leggi_overpass if pbf.endswith('.json') else leggi_pbf)(pbf, bbox)
 
     # vertici della rete: id OSM -> indice; archi tra vertici consecutivi di ogni via
     indice = {}
@@ -212,11 +231,28 @@ def main():
     # luoghi del pacchetto: nodo della rete più vicino, entro MAX_AGGANCIO
     luoghi_file = json.load(open(os.path.join(cartella, 'dati', 'luoghi.json'), encoding='utf-8'))
     luoghi = luoghi_file['luoghi'] if isinstance(luoghi_file, dict) else luoghi_file
+    # solo i nodi della componente connessa più grande (evita pezzi isolati, es. cortili)
+    padre = list(range(len(coord)))
+
+    def radice(x):
+        while padre[x] != x:
+            padre[x] = padre[padre[x]]
+            x = padre[x]
+        return x
+    for x, y in archi:
+        padre[radice(x)] = radice(y)
+    conta = {}
+    for k in range(len(coord)):
+        conta[radice(k)] = conta.get(radice(k), 0) + 1
+    grande = max(conta, key=conta.get) if conta else None
+
     agganci = {}
     for l in luoghi:
         p = (l['latitudine'], l['longitudine'])
         migliore, dmin = None, float('inf')
         for k, c in enumerate(coord):
+            if radice(k) != grande:
+                continue
             d = distanza(p, c)
             if d < dmin:
                 migliore, dmin = k, d

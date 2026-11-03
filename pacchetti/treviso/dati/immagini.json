@@ -1,5 +1,5 @@
 {
- "_nota": "Foto dei luoghi in assets/luoghi (Wikimedia Commons, crediti in luoghi.json)",
+ "_nota": "Generato da strumenti/prepara_pacchetto.py: foto presenti in assets/",
  "luoghi": {
   "bastione-san-marco": 0,
   "battistero-di-san-giovanni-battista": 3,
@@ -38,5 +38,7 @@
   "rondella-di-santa-sofia": 3,
   "sala-del-capitolo-dei-domenicani": 3,
   "scuola-del-santissimo": 1
- }
+ },
+ "cibi": [],
+ "aguzza": []
 }
