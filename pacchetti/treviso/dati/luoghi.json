@@ -2276,8 +2276,8 @@
       "nome": "Biblioteca Comunale di Treviso",
       "categoria": "altri",
       "sestiere": "Centro storico",
-      "latitudine": 45.66751084,
-      "longitudine": 12.23807987,
+      "latitudine": 45.66763418535104,
+      "longitudine": 12.239486043537381,
       "descrizione": {
         "it": "Aperta al pubblico nel 1847, ha sede a Borgo Cavour, accanto al Museo Bailo. Conserva il Fondo Comisso, con lettere, taccuini e materiali dello scrittore trevigiano Giovanni Comisso, consultabili nella Sala Manoscritti.",
         "en": "Opened to the public in 1847, it is housed in Borgo Cavour, next to the Museo Bailo. It holds the Comisso Fund, with letters, notebooks and material by the Treviso writer Giovanni Comisso, which can be consulted in the Manuscripts Room.",
@@ -2286,14 +2286,24 @@
         "es": "Abierta al público en 1847, tiene sede en Borgo Cavour, junto al Museo Bailo. Conserva el Fondo Comisso, con cartas, cuadernos y materiales del escritor trevisano Giovanni Comisso, consultables en la Sala de Manuscritos."
       },
       "nota": {
-        "it": "Orari e servizi della biblioteca da verificare sul sito. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
-        "en": "Library hours and services to be checked on the website. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
-        "fr": "Horaires et services de la bibliothèque à vérifier sur le site. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
-        "de": "Öffnungszeiten und Dienste der Bibliothek auf der Website prüfen. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
-        "es": "Horarios y servicios de la biblioteca por verificar en la web. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+        "it": "Orari e coordinate forniti dalla redazione.",
+        "en": "Hours and coordinates provided by the editorial team.",
+        "fr": "Horaires et coordonnées fournis par la rédaction.",
+        "de": "Öffnungszeiten und Koordinaten von der Redaktion bereitgestellt.",
+        "es": "Horarios y coordenadas proporcionados por la redacción."
       },
       "personaggio": [
         "giovanni-comisso"
+      ],
+      "orari": [
+        {
+          "giorni": "lun-ven",
+          "ore": "9:00–13:00 · 14:30–18:00"
+        }
+      ],
+      "chiuso": [
+        "sab",
+        "dom"
       ]
     },
     {
@@ -2301,8 +2311,8 @@
       "nome": "Liceo Ginnasio Antonio Canova",
       "categoria": "altri",
       "sestiere": "Centro storico",
-      "latitudine": 45.663499,
-      "longitudine": 12.23869,
+      "latitudine": 45.66590304490393,
+      "longitudine": 12.239003001243388,
       "descrizione": {
         "it": "Liceo classico statale di Treviso, nato in età napoleonica e intitolato ad Antonio Canova dal 1867. Ha sede in via Mura di San Teonisto 16, in un edificio neoclassico.",
         "en": "State classical high school in Treviso, founded in the Napoleonic period and named after Antonio Canova since 1867. It is based at Via Mura di San Teonisto 16, in a neoclassical building.",
@@ -2326,8 +2336,8 @@
       "nome": "Parrocchia di Santa Maria del Rovere",
       "categoria": "chiese",
       "sestiere": "Fuori le mura",
-      "latitudine": 45.6825,
-      "longitudine": 12.2529,
+      "latitudine": 45.68290510973443,
+      "longitudine": 12.256740332632937,
       "descrizione": {
         "it": "Chiesa parrocchiale del quartiere di Santa Maria del Rovere, nella periferia nord di Treviso. Le fonti la datano al XVII secolo, dal 1650. Qui Giovanni Comisso visse gli ultimi anni della sua vita.",
         "en": "Parish church of the Santa Maria del Rovere district, in northern Treviso. Sources date it to the 17th century, from 1650. Giovanni Comisso lived here in his final years.",
@@ -2336,11 +2346,33 @@
         "es": "Iglesia parroquial del barrio de Santa Maria del Rovere, en la periferia norte de Treviso. Las fuentes la datan en el siglo XVII, desde 1650. Giovanni Comisso vivió aquí los últimos años de su vida."
       },
       "nota": {
-        "it": "Orari delle messe e delle visite da verificare presso la parrocchia (tel. 0422 302814).\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
-        "en": "Mass times and visiting hours to be checked with the parish (tel. +39 0422 302814).\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
-        "fr": "Horaires des messes et des visites à vérifier auprès de la paroisse (tél. +39 0422 302814).\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
-        "de": "Gottesdienstzeiten und Besuchszeiten bei der Pfarrei prüfen (Tel. +39 0422 302814).\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
-        "es": "Horarios de misas y visitas por verificar en la parroquia (tel. +39 0422 302814).\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+        "it": "Aperta durante le funzioni religiose (da controllare).\n\nOrari da verificare presso la parrocchia (tel. 0422 302814).",
+        "en": "Open during religious services (to be checked).",
+        "fr": "Ouverte pendant les offices religieux (à vérifier).",
+        "de": "Während der Gottesdienste geöffnet (bitte prüfen).",
+        "es": "Abierta durante los oficios religiosos (por verificar)."
+      }
+    },
+    {
+      "id": "museo-etnografico-case-piavone",
+      "nome": "Museo Etnografico Case Piavone",
+      "categoria": "musei",
+      "sestiere": "Fuori le mura",
+      "latitudine": 45.6883,
+      "longitudine": 12.2721,
+      "descrizione": {
+        "it": "Museo Etnografico Provinciale ospitato in un complesso rurale seicentesco, nel Parco naturale del fiume Storga alla periferia nord di Treviso. Il museo è co-gestito con il Gruppo Folcloristico e racconta le tradizioni popolari, comprese quelle legate all'attività di pesca.",
+        "en": "Provincial ethnographic museum housed in a 17th-century rural complex, in the Storga river natural park on the northern outskirts of Treviso. The museum is co-managed with the Gruppo Folcloristico and presents popular traditions, including those linked to fishing.",
+        "fr": "Musée ethnographique provincial installé dans un ensemble rural du XVIIe siècle, dans le parc naturel du fleuve Storga, à la périphérie nord de Trévise. Le musée est co-géré avec le Gruppo Folcloristico et présente les traditions populaires, dont celles liées à la pêche.",
+        "de": "Provinzielles Volkskundemuseum in einem ländlichen Gebäudekomplex aus dem 17. Jahrhundert, im Naturpark des Flusses Storga am nördlichen Stadtrand von Treviso. Das Museum wird gemeinsam mit der Gruppo Folcloristico betreut und zeigt Volksbräuche, darunter solche rund um die Fischerei.",
+        "es": "Museo etnográfico provincial alojado en un conjunto rural del siglo XVII, en el parque natural del río Storga, en la periferia norte de Treviso. El museo se gestiona junto con el Gruppo Folcloristico y muestra tradiciones populares, incluidas las relacionadas con la pesca."
+      },
+      "nota": {
+        "it": "Orari e biglietto da verificare: le fonti consultate riportano dati discordanti. Contattare il museo al numero 0422 308910 prima della visita.",
+        "en": "Opening hours and admission to be verified: the sources consulted give conflicting information. Contact the museum at +39 0422 308910 before your visit.",
+        "fr": "Horaires et tarifs à vérifier : les sources consultées donnent des informations contradictoires. Contacter le musée au +39 0422 308910 avant la visite.",
+        "de": "Öffnungszeiten und Eintritt bitte prüfen: Die konsultierten Quellen widersprechen sich. Vor dem Besuch das Museum unter +39 0422 308910 kontaktieren.",
+        "es": "Horarios y entrada por verificar: las fuentes consultadas dan datos contradictorios. Contacte con el museo en el +39 0422 308910 antes de la visita."
       }
     }
   ]
