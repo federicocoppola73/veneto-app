@@ -7,7 +7,7 @@ import { GRIGIO_CUORE, ROSSO_CUORE, VERDE_VISITATO } from './Preferiti';
  * Filtro a scelta multipla per tipologia.
  * - con tutte le tipologie attive, toccarne una mostra solo quella;
  * - poi ogni tocco aggiunge o toglie una tipologia;
- * - "Tutti" riattiva tutte le tipologie.
+ * - "Tutti" riattiva tutte le tipologie; se è già attivo diventa "Nessuno" (svuota la mappa) e di nuovo "Tutti".
  * - "♥ Del cuore" mostra solo i luoghi del cuore ed è esclusivo: con il cuore acceso le tipologie sono spente;
  *   toccando una tipologia (o "Tutti") si torna al filtro per tipologia.
  * - "✓ Visitati" funziona come il cuore, per i luoghi segnati con "Ci sono stato".
@@ -31,6 +31,10 @@ export default function FiltroCategorie({
 }) {
   const raccolta = soloCuore || soloVisitati; // un filtro personale acceso spegne le tipologie
   const tutte = !raccolta && selezionate.length === CATEGORIE.length;
+  const nessuna = !raccolta && selezionate.length === 0;
+
+  // "Tutti" diventa "Nessuno" (mappa vuota) se è già attivo; di nuovo "Nessuno" torna a "Tutti"
+  const tuttiOniNessuno = () => onCambia(tutte ? [] : CATEGORIE.map((c) => c.id));
 
   const tocca = (id) => {
     if (tutte || raccolta) return onCambia([id]);
@@ -94,12 +98,12 @@ export default function FiltroCategorie({
       {/* riga 2: "Tutti" e le tipologie */}
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.riga}>
         <Pressable
-          onPress={() => onCambia(CATEGORIE.map((c) => c.id))}
+          onPress={tuttiOniNessuno}
           style={[styles.chip, tutte ? styles.chipTuttiAttivo : styles.chipSpento]}
           accessibilityRole="button"
           accessibilityState={{ selected: tutte }}
         >
-          <Text style={[styles.testo, tutte ? styles.testoAttivo : styles.testoSpento]}>{t('tutti')}</Text>
+          <Text style={[styles.testo, tutte ? styles.testoAttivo : styles.testoSpento]}>{nessuna ? t('nessuno') : t('tutti')}</Text>
         </Pressable>
         {CATEGORIE.map((c) => {
           const attiva = !raccolta && selezionate.includes(c.id);
