@@ -15,8 +15,8 @@ export function domandePerLuogo(id) {
 export let ITINERARI_AGUZZA = [];
 export function inizializzaAguzza() {
   PER_LUOGO = {};
-  for (const d of dati.domande) {
+  for (const d of dati.domande || []) {
     (PER_LUOGO[d.luogo_id] = PER_LUOGO[d.luogo_id] || []).push(d);
   }
-  ITINERARI_AGUZZA = dati.itinerari.map((it) => ({ id: it.id, titolo: it.titolo, tappe: it.tappe }));
+  ITINERARI_AGUZZA = (dati.itinerari || []).map((it) => ({ id: it.id, titolo: it.titolo, tappe: it.tappe }));
 }
