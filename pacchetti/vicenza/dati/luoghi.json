@@ -3173,6 +3173,37 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=24545796"
         }
       ]
+    },
+    {
+      "id": "palazzetto-capra-lampertico",
+      "nome": "Palazzetto Capra Lampertico",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.54805,
+      "longitudine": 11.5462,
+      "personaggio": "ottone-calderari",
+      "descrizione": {
+        "it": "Il Palazzetto Capra Lampertico è un edificio storico situato nel centro di Vicenza, legato all'attività dell'architetto Ottone Calderari, uno dei principali interpreti della tradizione palladiana nel Settecento. La costruzione si inserisce nel contesto dell'architettura vicentina tra la fine del XVIII e l'inizio del XIX secolo, caratterizzata dalla ripresa dei modelli classici e da un'elegante ricerca di equilibrio nelle forme. Il palazzetto testimonia il contributo di Calderari alla trasformazione del centro storico cittadino e alla diffusione del gusto neoclassico.",
+        "en": "The Palazzetto Capra Lampertico is a historic building in the centre of Vicenza, linked to the work of the architect Ottone Calderari, one of the main interpreters of the Palladian tradition in the eighteenth century. The building belongs to Vicenza's architecture between the late eighteenth and early nineteenth centuries, marked by a revival of classical models and an elegant search for balance in form. The palazzetto bears witness to Calderari's contribution to the transformation of the historic centre and to the spread of neoclassical taste.",
+        "fr": "Le Palazzetto Capra Lampertico est un édifice historique situé au centre de Vicence, lié à l'œuvre de l'architecte Ottone Calderari, l'un des principaux interprètes de la tradition palladienne au XVIIIe siècle. La construction s'inscrit dans l'architecture vicentine de la fin du XVIIIe et du début du XIXe siècle, marquée par le retour aux modèles classiques et une recherche élégante d'équilibre des formes. Le palazzetto témoigne de la contribution de Calderari à la transformation du centre historique et à la diffusion du goût néoclassique.",
+        "de": "Das Palazzetto Capra Lampertico ist ein historisches Gebäude im Zentrum von Vicenza, das mit dem Werk des Architekten Ottone Calderari verbunden ist, einem der wichtigsten Vertreter der palladianischen Tradition im 18. Jahrhundert. Der Bau steht im Kontext der Vicentiner Architektur zwischen dem späten 18. und dem frühen 19. Jahrhundert, geprägt von der Wiederaufnahme klassischer Vorbilder und einer eleganten Suche nach formaler Ausgewogenheit. Das Palazzetto zeugt von Calderaris Beitrag zur Umgestaltung des historischen Zentrums und zur Verbreitung des klassizistischen Geschmacks.",
+        "es": "El Palazzetto Capra Lampertico es un edificio histórico situado en el centro de Vicenza, ligado a la obra del arquitecto Ottone Calderari, uno de los principales intérpretes de la tradición palladiana en el siglo XVIII. La construcción se inserta en la arquitectura vicentina entre finales del siglo XVIII y comienzos del XIX, caracterizada por la recuperación de los modelos clásicos y una elegante búsqueda de equilibrio en las formas. El palacete da testimonio de la contribución de Calderari a la transformación del centro histórico y a la difusión del gusto neoclásico."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile dalla strada. Non risultano orari di visita: è un palazzo privato. Ingresso gratuito dalla strada.",
+        "en": "Visible from the street. No visiting hours found: it is a private palace. Free entry from the street.",
+        "fr": "Visible depuis la rue. Aucun horaire de visite trouvé : c'est un palais privé. Entrée gratuite depuis la rue.",
+        "de": "Von der Straße aus sichtbar. Keine Besuchszeiten gefunden: Es ist ein Privatpalast. Eintritt von der Straße frei.",
+        "es": "Visible desde la calle. No se han encontrado horarios de visita: es un palacio privado. Entrada gratuita desde la calle."
+      },
+      "immagine": {
+        "autore": "Foto propria"
+      },
+      "galleria": []
     }
   ]
 }

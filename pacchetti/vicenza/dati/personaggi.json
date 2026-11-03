@@ -844,7 +844,8 @@
       },
       "luoghi": [
         "palazzo-cordellina",
-        "palazzo-loschi-zileri-dal-verme"
+        "palazzo-loschi-zileri-dal-verme",
+        "palazzetto-capra-lampertico"
       ],
       "luoghiNote": {
         "palazzo-cordellina": {
@@ -877,6 +878,22 @@
             "fr": "Conçu par Calderari vers 1780, il reprend des éléments de la tradition palladienne, réinterprétés avec un goût plus proche de la sensibilité du XVIIIe siècle.",
             "de": "Um 1780 von Calderari entworfen, greift er Elemente der palladianischen Tradition auf, die mit einem Geschmack neu interpretiert sind, der dem Empfinden des 18. Jahrhunderts näher steht.",
             "es": "Proyectado por Calderari hacia 1780, recoge elementos de la tradición palladiana, reinterpretados con un gusto más cercano a la sensibilidad del siglo XVIII."
+          }
+        },
+        "palazzetto-capra-lampertico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Opera di Calderari nel centro storico di Vicenza, testimonianza del suo contributo alla diffusione del gusto neoclassico in città.",
+            "en": "A work by Calderari in Vicenza's historic centre, a testimony to his contribution to spreading neoclassical taste in the city.",
+            "fr": "Œuvre de Calderari dans le centre historique de Vicence, témoignage de sa contribution à la diffusion du goût néoclassique dans la ville.",
+            "de": "Ein Werk Calderaris im historischen Zentrum von Vicenza, das seinen Beitrag zur Verbreitung des klassizistischen Geschmacks in der Stadt belegt.",
+            "es": "Obra de Calderari en el centro histórico de Vicenza, testimonio de su contribución a la difusión del gusto neoclásico en la ciudad."
           }
         }
       },
