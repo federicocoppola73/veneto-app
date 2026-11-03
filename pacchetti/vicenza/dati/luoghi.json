@@ -1363,7 +1363,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Carmini_Fianco-4.jpg"
         }
-      ]
+      ],
+      "personaggio": "alessandro-maganza"
     },
     {
       "id": "palazzo-valmarana-braga",
@@ -3243,6 +3244,54 @@
         "autore": "Foto propria"
       },
       "galleria": []
+    },
+    {
+      "id": "chiesa-di-san-pietro",
+      "nome": "Chiesa di San Pietro",
+      "categoria": "chiese",
+      "sestiere": "Centro",
+      "latitudine": 45.549179,
+      "longitudine": 11.553573,
+      "personaggio": "alessandro-maganza",
+      "descrizione": {
+        "it": "La Chiesa di San Pietro sorge nell'omonimo borgo di Vicenza e faceva parte di uno dei più antichi e importanti monasteri benedettini femminili del territorio. Le origini del complesso risalgono all'alto Medioevo, mentre l'edificio attuale è il risultato di numerosi interventi e trasformazioni avvenuti nei secoli. La chiesa presenta un interno a tre navate, arricchito da opere d'arte e altari di diverse epoche. Tra i dipinti si ricordano una Pietà di Alessandro Maganza, realizzata intorno al 1600, e altre opere legate alla sua famiglia e alla sua bottega. Accanto alla chiesa si trova l'Oratorio dei Boccalotti, costruito agli inizi del Quattrocento.",
+        "en": "The Church of San Pietro stands in the borgo of the same name in Vicenza and was part of one of the oldest and most important Benedictine convents for women in the area. The origins of the complex go back to the early Middle Ages, while the present building is the result of many works and transformations over the centuries. The church has a three-aisled interior, enriched by artworks and altars of different periods. Among the paintings are a Pietà by Alessandro Maganza, made around 1600, and other works linked to his family and workshop. Next to the church stands the Oratorio dei Boccalotti, built in the early fifteenth century.",
+        "fr": "L'église Saint-Pierre se dresse dans le faubourg du même nom à Vicence et faisait partie de l'un des plus anciens et plus importants monastères bénédictins féminins de la région. Les origines du complexe remontent au haut Moyen Âge, tandis que l'édifice actuel est le résultat de nombreuses interventions et transformations au fil des siècles. L'église présente un intérieur à trois nefs, enrichi d'œuvres d'art et d'autels d'époques diverses. Parmi les tableaux figurent une Pietà d'Alessandro Maganza, réalisée vers 1600, et d'autres œuvres liées à sa famille et à son atelier. À côté de l'église se trouve l'Oratoire dei Boccalotti, construit au début du XVe siècle.",
+        "de": "Die Kirche San Pietro liegt im gleichnamigen Borgo von Vicenza und gehörte zu einem der ältesten und bedeutendsten benediktinischen Frauenklöster der Region. Die Ursprünge der Anlage reichen bis ins frühe Mittelalter zurück, während das heutige Gebäude das Ergebnis zahlreicher Eingriffe und Umbauten im Lauf der Jahrhunderte ist. Die Kirche hat einen dreischiffigen Innenraum, der mit Kunstwerken und Altären verschiedener Epochen ausgestattet ist. Zu den Gemälden gehört eine um 1600 entstandene Pietà von Alessandro Maganza sowie weitere Werke aus dem Umkreis seiner Familie und Werkstatt. Neben der Kirche steht der Oratorio dei Boccalotti, der Anfang des 15. Jahrhunderts erbaut wurde.",
+        "es": "La iglesia de San Pietro se encuentra en el borgo del mismo nombre de Vicenza y formaba parte de uno de los monasterios benedictinos femeninos más antiguos e importantes del territorio. Los orígenes del conjunto se remontan a la alta Edad Media, mientras que el edificio actual es el resultado de numerosas intervenciones y transformaciones a lo largo de los siglos. La iglesia tiene un interior de tres naves, enriquecido con obras de arte y altares de distintas épocas. Entre las pinturas destaca una Piedad de Alessandro Maganza, realizada hacia 1600, y otras obras vinculadas a su familia y a su taller. Junto a la iglesia se encuentra el Oratorio dei Boccalotti, construido a comienzos del siglo XV."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Orari non trovati: verificarli prima della visita. Accanto alla chiesa c'è l'Oratorio dei Boccalotti, oggi chiuso al pubblico.",
+        "en": "Opening hours not found: please check before your visit. Next to the church is the Oratorio dei Boccalotti, currently closed to the public.",
+        "fr": "Horaires non trouvés : à vérifier avant la visite. À côté de l'église se trouve l'Oratoire dei Boccalotti, actuellement fermé au public.",
+        "de": "Öffnungszeiten nicht gefunden: Bitte vor dem Besuch prüfen. Neben der Kirche steht der Oratorio dei Boccalotti, derzeit für die Öffentlichkeit geschlossen.",
+        "es": "Horarios no encontrados: verificarlos antes de la visita. Junto a la iglesia está el Oratorio dei Boccalotti, actualmente cerrado al público."
+      }
+    },
+    {
+      "id": "chiesa-di-san-domenico",
+      "nome": "Chiesa di San Domenico",
+      "categoria": "chiese",
+      "sestiere": "Centro",
+      "latitudine": 45.550726,
+      "longitudine": 11.553937,
+      "personaggio": "alessandro-maganza",
+      "descrizione": {
+        "it": "La Chiesa di San Domenico, situata nell'omonima contrà a Vicenza, è un edificio di origine medievale, le cui prime strutture risalgono alla seconda metà del Duecento. Presenta un'impostazione gotica, con pianta rettangolare e un'unica navata. Nel corso dei secoli ha subito diversi interventi, che ne hanno arricchito l'apparato decorativo. Di particolare interesse è il soffitto ligneo a cassettoni, decorato con un ciclo di tredici tele realizzate da Alessandro Maganza tra il 1603 e il 1604, raffiguranti l'Incoronazione della Vergine, santi e profeti. Oggi la chiesa è annessa al Conservatorio di Musica Arrigo Pedrollo ed è utilizzata anche come auditorium per concerti ed eventi musicali.",
+        "en": "The Church of San Domenico, in the street of the same name in Vicenza, is a building of medieval origin, whose first structures date back to the second half of the thirteenth century. It has a Gothic layout, with a rectangular plan and a single nave. Over the centuries it underwent several interventions that enriched its decoration. Of particular interest is the coffered wooden ceiling, decorated with a cycle of thirteen canvases painted by Alessandro Maganza between 1603 and 1604, depicting the Coronation of the Virgin, saints and prophets. Today the church is attached to the Arrigo Pedrollo Conservatory of Music and is also used as an auditorium for concerts and musical events.",
+        "fr": "L'église Saint-Dominique, située dans la contrà du même nom à Vicence, est un édifice d'origine médiévale dont les premières structures remontent à la seconde moitié du XIIIe siècle. Elle présente une conception gothique, avec un plan rectangulaire et une seule nef. Au fil des siècles, elle a subi plusieurs interventions qui ont enrichi son décor. Particulièrement remarquable est le plafond en bois à caissons, orné d'un cycle de treize toiles réalisées par Alessandro Maganza entre 1603 et 1604, représentant le Couronnement de la Vierge, des saints et des prophètes. Aujourd'hui, l'église est rattachée au Conservatoire de musique Arrigo Pedrollo et sert aussi d'auditorium pour des concerts et des événements musicaux.",
+        "de": "Die Kirche San Domenico in der gleichnamigen Contrà in Vicenza ist ein Bau mittelalterlichen Ursprungs, dessen erste Strukturen in die zweite Hälfte des 13. Jahrhunderts zurückreichen. Sie hat eine gotische Anlage mit rechteckigem Grundriss und einem einzigen Schiff. Im Lauf der Jahrhunderte wurde sie mehrfach umgebaut, wodurch ihre Ausstattung bereichert wurde. Besonders sehenswert ist die hölzerne Kassettendecke, die mit einem Zyklus von dreizehn Leinwänden geschmückt ist, die Alessandro Maganza zwischen 1603 und 1604 malte und die die Krönung der Jungfrau sowie Heilige und Propheten zeigen. Heute ist die Kirche dem Konservatorium für Musik Arrigo Pedrollo angeschlossen und dient auch als Auditorium für Konzerte und musikalische Veranstaltungen.",
+        "es": "La iglesia de San Domenico, situada en la contrà del mismo nombre en Vicenza, es un edificio de origen medieval cuyas primeras estructuras se remontan a la segunda mitad del siglo XIII. Tiene una disposición gótica, con planta rectangular y una sola nave. A lo largo de los siglos sufrió varias intervenciones que enriquecieron su decoración. De especial interés es el techo de madera con casetones, decorado con un ciclo de trece lienzos pintados por Alessandro Maganza entre 1603 y 1604, que representan la Coronación de la Virgen, santos y profetas. Hoy la iglesia está unida al Conservatorio de Música Arrigo Pedrollo y se usa también como auditorio para conciertos y eventos musicales."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Orari non trovati: la chiesa è annessa al Conservatorio, verificare prima della visita.",
+        "en": "Opening hours not found: the church is attached to the Conservatory, please check before your visit.",
+        "fr": "Horaires non trouvés : l'église est rattachée au Conservatoire, à vérifier avant la visite.",
+        "de": "Öffnungszeiten nicht gefunden: Die Kirche ist dem Konservatorium angegliedert, bitte vor dem Besuch prüfen.",
+        "es": "Horarios no encontrados: la iglesia está unida al Conservatorio, verificarlos antes de la visita."
+      }
     }
   ]
 }

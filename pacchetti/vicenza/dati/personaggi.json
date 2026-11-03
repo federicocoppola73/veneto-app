@@ -1142,7 +1142,10 @@
       "luoghi": [
         "duomo-cattedrale-di-santa-maria-annunciata",
         "santuario-di-monte-berico",
-        "basilica-dei-santi-felice-e-fortunato"
+        "basilica-dei-santi-felice-e-fortunato",
+        "chiesa-di-s-croce-in-s-giacomo-maggiore-dei-carmini",
+        "chiesa-di-san-pietro",
+        "chiesa-di-san-domenico"
       ],
       "luoghiNote": {
         "duomo-cattedrale-di-santa-maria-annunciata": {
@@ -1191,6 +1194,54 @@
             "fr": "Elle conserve le tableau Saint Valentin guérit les malades, réalisé par Maganza vers 1584–1585 pour l'église homonyme de Vicence, aujourd'hui disparue.",
             "de": "Sie bewahrt das Gemälde Der heilige Valentin heilt Kranke, das Maganza um 1584–1585 für die gleichnamige Kirche in Vicenza schuf, die heute nicht mehr besteht.",
             "es": "Conserva el cuadro San Valentín sana a los enfermos, realizado por Maganza hacia 1584–1585 para la homónima iglesita vicentina, hoy desaparecida."
+          }
+        },
+        "chiesa-di-s-croce-in-s-giacomo-maggiore-dei-carmini": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Qui si trova la Pietà con santi, realizzata da Maganza intorno alla metà degli anni Ottanta del Cinquecento, una delle sue opere giovanili più apprezzate.",
+            "en": "Here stands the Pietà with saints, made by Maganza around the mid-1580s, one of his most appreciated early works.",
+            "fr": "Ici se trouve la Pietà aux saints, réalisée par Maganza vers le milieu des années 1580, l'une de ses œuvres de jeunesse les plus appréciées.",
+            "de": "Hier befindet sich die Pietà mit Heiligen, die Maganza um die Mitte der 1580er Jahre schuf, eines seiner geschätztesten Frühwerke.",
+            "es": "Aquí se encuentra la Piedad con santos, realizada por Maganza hacia mediados de los años ochenta del siglo XVI, una de sus obras juveniles más apreciadas."
+          }
+        },
+        "chiesa-di-san-pietro": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Vi si conserva una Pietà di Alessandro Maganza, realizzata intorno al 1600, e altre opere legate alla sua famiglia e alla sua bottega.",
+            "en": "It holds a Pietà by Alessandro Maganza, made around 1600, and other works linked to his family and workshop.",
+            "fr": "Elle conserve une Pietà d'Alessandro Maganza, réalisée vers 1600, et d'autres œuvres liées à sa famille et à son atelier.",
+            "de": "Hier befindet sich eine um 1600 entstandene Pietà von Alessandro Maganza sowie weitere Werke aus dem Umkreis seiner Familie und Werkstatt.",
+            "es": "Conserva una Piedad de Alessandro Maganza, realizada hacia 1600, y otras obras vinculadas a su familia y a su taller."
+          }
+        },
+        "chiesa-di-san-domenico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Il soffitto ligneo a cassettoni è decorato con un ciclo di tredici tele realizzate tra il 1603 e il 1604, con l'Incoronazione della Vergine, santi e profeti.",
+            "en": "The coffered wooden ceiling is decorated with a cycle of thirteen canvases painted between 1603 and 1604, with the Coronation of the Virgin, saints and prophets.",
+            "fr": "Le plafond en bois à caissons est orné d'un cycle de treize toiles réalisées entre 1603 et 1604, avec le Couronnement de la Vierge, des saints et des prophètes.",
+            "de": "Die hölzerne Kassettendecke ist mit einem Zyklus von dreizehn Leinwänden geschmückt, die zwischen 1603 und 1604 entstanden und die Krönung der Jungfrau, Heilige und Propheten zeigen.",
+            "es": "El techo de madera con casetones está decorado con un ciclo de trece lienzos realizados entre 1603 y 1604, con la Coronación de la Virgen, santos y profetas."
           }
         }
       },
