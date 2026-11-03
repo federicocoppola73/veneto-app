@@ -907,6 +907,130 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "emilio-salgari",
+      "nome": "Emilio Salgari",
+      "nascita": 1862,
+      "morte": 1911,
+      "professione": {
+        "it": "Scrittore e romanziere",
+        "en": "Writer and novelist",
+        "fr": "Écrivain et romancier",
+        "de": "Schriftsteller und Romancier",
+        "es": "Escritor y novelista"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "21 agosto 1862",
+        "en": "21 August 1862",
+        "fr": "21 août 1862",
+        "de": "21. August 1862",
+        "es": "21 de agosto de 1862"
+      },
+      "luogoMorte": {
+        "it": "Torino",
+        "en": "Turin",
+        "fr": "Turin",
+        "de": "Turin",
+        "es": "Turín"
+      },
+      "dataMorte": {
+        "it": "25 aprile 1911",
+        "en": "25 April 1911",
+        "fr": "25 avril 1911",
+        "de": "25. April 1911",
+        "es": "25 de abril de 1911"
+      },
+      "biografia": {
+        "it": "Emilio Salgari fu uno dei più celebri scrittori italiani di romanzi d'avventura. Nato a Verona, trascorse parte della sua infanzia in città e successivamente in Valpolicella. Dopo aver frequentato l'Istituto Nautico di Venezia, tornò a Verona e iniziò a lavorare come giornalista per alcuni quotidiani locali, tra cui La Nuova Arena e L'Arena. Divenne famoso per i suoi romanzi ambientati in terre lontane ed esotiche, tra cui le avventure di Sandokan e del Corsaro Nero. Nonostante la sua immaginazione fosse popolata da viaggi e avventure, nella realtà non fu un grande viaggiatore. Morì a Torino nel 1911.",
+        "en": "Emilio Salgari was one of the most celebrated Italian writers of adventure novels. Born in Verona, he spent part of his childhood in the city and later in the Valpolicella. After attending the Nautical Institute in Venice, he returned to Verona and began working as a journalist for several local newspapers, including La Nuova Arena and L'Arena. He became famous for his novels set in distant, exotic lands, including the adventures of Sandokan and the Black Corsair. Although his imagination was filled with voyages and adventures, in reality he was not a great traveller. He died in Turin in 1911.",
+        "fr": "Emilio Salgari fut l'un des écrivains italiens les plus célèbres de romans d'aventures. Né à Vérone, il passa une partie de son enfance dans la ville, puis en Valpolicella. Après avoir fréquenté l'Institut nautique de Venise, il revint à Vérone et commença à travailler comme journaliste pour plusieurs quotidiens locaux, dont La Nuova Arena et L'Arena. Il devint célèbre grâce à ses romans situés dans des terres lointaines et exotiques, dont les aventures de Sandokan et du Corsaire noir. Bien que son imagination fût peuplée de voyages et d'aventures, il ne fut pas un grand voyageur dans la réalité. Il mourut à Turin en 1911.",
+        "de": "Emilio Salgari gehörte zu den berühmtesten italienischen Autoren von Abenteuerromanen. In Verona geboren, verbrachte er einen Teil seiner Kindheit in der Stadt und später im Valpolicella. Nach dem Besuch des Nautischen Instituts in Venedig kehrte er nach Verona zurück und arbeitete als Journalist für mehrere lokale Zeitungen, darunter La Nuova Arena und L'Arena. Berühmt wurde er durch seine Romane über ferne, exotische Länder, darunter die Abenteuer des Sandokan und des Schwarzen Korsaren. Obwohl seine Fantasie von Reisen und Abenteuern erfüllt war, war er in Wirklichkeit kein großer Reisender. Er starb 1911 in Turin.",
+        "es": "Emilio Salgari fue uno de los escritores italianos de novela de aventuras más célebres. Nacido en Verona, pasó parte de su infancia en la ciudad y después en la Valpolicella. Tras cursar estudios en el Instituto Náutico de Venecia, volvió a Verona y comenzó a trabajar como periodista en varios diarios locales, entre ellos La Nuova Arena y L'Arena. Se hizo famoso por sus novelas ambientadas en tierras lejanas y exóticas, como las aventuras de Sandokán y del Corsario Negro. Aunque su imaginación estaba poblada de viajes y aventuras, en la realidad no fue un gran viajero. Murió en Turín en 1911."
+      },
+      "curiosita": {
+        "it": [
+          "È il creatore di Sandokan, uno dei personaggi più famosi della letteratura d'avventura italiana.",
+          "Scrisse oltre ottanta romanzi e numerosi racconti.",
+          "Non visitò mai molti dei luoghi esotici descritti nei suoi libri, che ricostruiva attraverso atlanti, enciclopedie e documentazione.",
+          "Lavorò come giornalista per il quotidiano veronese L'Arena.",
+          "I suoi romanzi hanno ispirato numerosi film, fumetti e serie televisive."
+        ],
+        "en": [
+          "He created Sandokan, one of the most famous characters in Italian adventure literature.",
+          "He wrote over eighty novels and numerous short stories.",
+          "He never visited many of the exotic places described in his books, which he reconstructed through atlases, encyclopaedias and documentation.",
+          "He worked as a journalist for the Veronese newspaper L'Arena.",
+          "His novels have inspired numerous films, comics and television series."
+        ],
+        "fr": [
+          "Il est le créateur de Sandokan, l'un des personnages les plus célèbres de la littérature d'aventures italienne.",
+          "Il écrivit plus de quatre-vingts romans et de nombreux récits.",
+          "Il ne visita jamais beaucoup des lieux exotiques décrits dans ses livres, qu'il reconstruisait à partir d'atlas, d'encyclopédies et de documentation.",
+          "Il travailla comme journaliste pour le quotidien véronais L'Arena.",
+          "Ses romans ont inspiré de nombreux films, bandes dessinées et séries télévisées."
+        ],
+        "de": [
+          "Er ist der Schöpfer des Sandokan, einer der berühmtesten Figuren der italienischen Abenteuerliteratur.",
+          "Er schrieb über achtzig Romane und zahlreiche Erzählungen.",
+          "Viele der exotischen Schauplätze, die er in seinen Büchern beschrieb, hat er nie besucht; er rekonstruierte sie anhand von Atlanten, Enzyklopädien und Dokumentationen.",
+          "Er arbeitete als Journalist für die Veroneser Zeitung L'Arena.",
+          "Seine Romane haben zahlreiche Filme, Comics und Fernsehserien inspiriert."
+        ],
+        "es": [
+          "Es el creador de Sandokán, uno de los personajes más famosos de la literatura de aventuras italiana.",
+          "Escribió más de ochenta novelas y numerosos relatos.",
+          "No visitó muchos de los lugares exóticos descritos en sus libros, que reconstruía a través de atlas, enciclopedias y documentación.",
+          "Trabajó como periodista para el diario veronés L'Arena.",
+          "Sus novelas han inspirado numerosas películas, cómics y series de televisión."
+        ]
+      },
+      "luoghi": [
+        "sant-eufemia",
+        "cimitero-monumentale"
+      ],
+      "luoghiNote": {
+        "sant-eufemia": {
+          "tipo": {
+            "it": "Legame diretto – battesimo",
+            "en": "Direct link – baptism",
+            "fr": "Lien direct – baptême",
+            "de": "Direkter Bezug – Taufe",
+            "es": "Vínculo directo – bautismo"
+          },
+          "testo": {
+            "it": "Emilio Salgari fu battezzato in questa chiesa il 7 settembre 1862, pochi giorni dopo la nascita. È uno dei luoghi più significativi per ricostruire i suoi primi giorni di vita a Verona.",
+            "en": "Emilio Salgari was baptised in this church on 7 September 1862, a few days after his birth. It is one of the most significant places for reconstructing his first days of life in Verona.",
+            "fr": "Emilio Salgari fut baptisé dans cette église le 7 septembre 1862, quelques jours après sa naissance. C'est l'un des lieux les plus significatifs pour reconstituer ses premiers jours de vie à Vérone.",
+            "de": "Emilio Salgari wurde am 7. September 1862, wenige Tage nach seiner Geburt, in dieser Kirche getauft. Sie ist einer der bedeutendsten Orte, um seine ersten Lebenstage in Verona nachzuvollziehen.",
+            "es": "Emilio Salgari fue bautizado en esta iglesia el 7 de septiembre de 1862, pocos días después de su nacimiento. Es uno de los lugares más significativos para reconstruir sus primeros días de vida en Verona."
+          }
+        },
+        "cimitero-monumentale": {
+          "tipo": {
+            "it": "Legame diretto – sepoltura",
+            "en": "Direct link – burial",
+            "fr": "Lien direct – sépulture",
+            "de": "Direkter Bezug – Grabmal",
+            "es": "Vínculo directo – sepultura"
+          },
+          "testo": {
+            "it": "Emilio Salgari è sepolto nel Cimitero Monumentale di Verona, insieme ad altre personalità che hanno contribuito alla storia e alla cultura cittadina.",
+            "en": "Emilio Salgari is buried in the Cimitero Monumentale of Verona, together with other personalities who contributed to the history and culture of the city.",
+            "fr": "Emilio Salgari est enterré dans le Cimetière monumental de Vérone, aux côtés d'autres personnalités qui ont contribué à l'histoire et à la culture de la ville.",
+            "de": "Emilio Salgari ist auf dem Cimitero Monumentale von Verona begraben, zusammen mit anderen Persönlichkeiten, die zur Geschichte und Kultur der Stadt beigetragen haben.",
+            "es": "Emilio Salgari está enterrado en el Cimitero Monumentale de Verona, junto a otras personalidades que contribuyeron a la historia y la cultura de la ciudad."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
