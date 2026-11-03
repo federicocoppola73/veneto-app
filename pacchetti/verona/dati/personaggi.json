@@ -1030,7 +1030,11 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [],
+      "ritratto": {
+        "autore": "Sconosciuto",
+        "licenza": "Pubblico dominio"
+      }
     }
   ]
 }
