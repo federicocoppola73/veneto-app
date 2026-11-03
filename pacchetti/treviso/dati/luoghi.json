@@ -2034,6 +2034,47 @@
         "es": "Visible desde fuera, desde la plaza de la catedral."
       },
       "curiosita": true
+    },
+    {
+      "id": "ponte-dante",
+      "nome": "Ponte Dante",
+      "categoria": "ponti",
+      "sestiere": "Centro storico",
+      "latitudine": 45.664336,
+      "longitudine": 12.25078,
+      "descrizione": {
+        "it": "Scavalca il Cagnan Grande nel punto in cui confluisce nel Sile. Il ponte in pietra era detto «dell'Impossibile» per le difficoltà incontrate nella costruzione, finché nel 1865, sesto centenario della nascita di Dante Alighieri, fu ribattezzato in suo onore. È il luogo del verso del Paradiso che nomina Treviso, «dove Sile e Cagnan s'accompagna», ricordato da una stele in marmo di Carrara dello scultore Luigi Borro, con il profilo del poeta.",
+        "en": "It crosses the Cagnan Grande at the point where it flows into the Sile. The stone bridge was known as the «Bridge of the Impossible» for the difficulties met in building it, until in 1865, the sixth centenary of Dante Alighieri's birth, it was renamed in his honour. It is the place of the verse in the Paradiso that names Treviso, «where Sile and Cagnan keep company», recalled by a Carrara marble stele by the sculptor Luigi Borro, showing the poet's profile.",
+        "fr": "Il enjambe le Cagnan Grande à l'endroit où il se jette dans le Sile. Le pont de pierre était appelé « de l'Impossible » à cause des difficultés rencontrées pour le construire, jusqu'à ce qu'en 1865, sixième centenaire de la naissance de Dante Alighieri, il soit rebaptisé en son honneur. C'est le lieu du vers du Paradis qui nomme Trévise, « là où le Sile et le Cagnan s'accompagnent », rappelé par une stèle en marbre de Carrare du sculpteur Luigi Borro, avec le profil du poète.",
+        "de": "Sie überspannt den Cagnan Grande dort, wo er in den Sile mündet. Die steinerne Brücke hieß wegen der Schwierigkeiten beim Bau «Brücke des Unmöglichen», bis sie 1865, zum 600. Geburtstag von Dante Alighieri, zu seinen Ehren umbenannt wurde. Hier steht der Vers aus dem Paradiso, der Treviso nennt, «dort, wo Sile und Cagnan sich gesellen», verewigt auf einer Stele aus Carrara-Marmor des Bildhauers Luigi Borro mit dem Profil des Dichters.",
+        "es": "Cruza el Cagnan Grande en el punto en que desemboca en el Sile. El puente de piedra se llamaba «del Imposible» por las dificultades de su construcción, hasta que en 1865, sexto centenario del nacimiento de Dante Alighieri, fue rebautizado en su honor. Es el lugar del verso del Paraíso que nombra Treviso, «allí donde Sile y Cagnan se acompañan», recordado por una estela de mármol de Carrara del escultor Luigi Borro, con el perfil del poeta."
+      },
+      "immagine": {
+        "autore": "Gary Houston",
+        "licenza": "CC0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Ponte-Dante-20050528-019.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ponte_Dante_-_2023-09-08_15-10-37_002.jpg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ponte_Dante_-_2023-09-08_15-10-37_004.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      }
     }
   ]
 }

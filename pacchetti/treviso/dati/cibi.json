@@ -1,4 +1,1053 @@
 {
-  "_nota": "Treviso: piatti tipici da preparare.",
-  "cibi": []
+  "_nota": "Cosa mangiare a Treviso: piatti e prodotti tipici dal foglio Cibi di Treviso_dati_app. Ricette riscritte da fonti indicate in 'fonte'; foto da Wikimedia Commons dove disponibili (assets/cibi/<id>.webp).",
+  "cibi": [
+    {
+      "id": "tiramisu",
+      "nome": "Tiramisù",
+      "portata": "dolce",
+      "testo": {
+        "it": "Secondo la ricostruzione più diffusa il tiramisù è nato a Treviso negli anni Sessanta, al ristorante Le Beccherie; la ricetta è stata depositata con atto notarile presso l'Accademia Italiana della Cucina nel 2010. Savoiardi bagnati nel caffè, crema di tuorli e mascarpone e cacao amaro in superficie: niente panna, niente liquori.",
+        "en": "According to the best-known account, tiramisù was born in Treviso in the 1960s at the restaurant Le Beccherie; the recipe was lodged by notarial deed with the Italian Academy of Cuisine in 2010. Ladyfingers dipped in coffee, a cream of egg yolks and mascarpone, and bitter cocoa on top: no cream, no liqueur.",
+        "fr": "Selon la version la plus répandue, le tiramisù est né à Trévise dans les années 1960, au restaurant Le Beccherie ; la recette a été déposée par acte notarié auprès de l'Académie italienne de la cuisine en 2010. Biscuits à la cuillère trempés dans le café, crème de jaunes d'œufs et mascarpone, cacao amer en surface : ni crème fraîche, ni liqueur.",
+        "de": "Nach der verbreitetsten Darstellung entstand das Tiramisù in den 1960er-Jahren in Treviso, im Restaurant Le Beccherie; das Rezept wurde 2010 notariell bei der Italienischen Akademie der Kochkunst hinterlegt. In Kaffee getauchte Löffelbiskuits, eine Creme aus Eigelb und Mascarpone und bitterer Kakao obenauf: keine Sahne, kein Likör.",
+        "es": "Según la versión más difundida, el tiramisú nació en Treviso en los años sesenta, en el restaurante Le Beccherie; la receta se depositó mediante acta notarial en la Academia Italiana de la Cocina en 2010. Bizcochos mojados en café, crema de yemas y mascarpone y cacao amargo por encima: sin nata ni licor."
+      },
+      "ricetta": {
+        "fonte": "https://www.dissapore.com/ricette/tiramisu-veneto/",
+        "porzioni": 6,
+        "preparazione": {
+          "it": "30 min + riposo in frigorifero",
+          "en": "30 min + chilling in the fridge",
+          "fr": "30 min + repos au réfrigérateur",
+          "de": "30 Min. + Ruhezeit im Kühlschrank",
+          "es": "30 min + reposo en la nevera"
+        },
+        "ingredienti": {
+          "it": [
+            "3 tuorli",
+            "125 g di zucchero",
+            "250 g di mascarpone",
+            "15 savoiardi (circa)",
+            "Caffè q.b., freddo",
+            "Cacao amaro in polvere q.b."
+          ],
+          "en": [
+            "3 egg yolks",
+            "125 g sugar",
+            "250 g mascarpone",
+            "About 15 ladyfingers",
+            "Cold coffee as needed",
+            "Bitter cocoa powder as needed"
+          ],
+          "fr": [
+            "3 jaunes d'œufs",
+            "125 g de sucre",
+            "250 g de mascarpone",
+            "15 biscuits à la cuillère environ",
+            "Café froid selon besoin",
+            "Cacao amer en poudre selon besoin"
+          ],
+          "de": [
+            "3 Eigelb",
+            "125 g Zucker",
+            "250 g Mascarpone",
+            "Etwa 15 Löffelbiskuits",
+            "Kalter Kaffee nach Bedarf",
+            "Bitterer Kakao nach Bedarf"
+          ],
+          "es": [
+            "3 yemas",
+            "125 g de azúcar",
+            "250 g de mascarpone",
+            "Unos 15 bizcochos de soletilla",
+            "Café frío, el necesario",
+            "Cacao amargo en polvo, el necesario"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Prepara il caffè e lascialo raffreddare in una ciotola.",
+            "Monta i tuorli con lo zucchero fino a ottenere una spuma, poi incorpora il mascarpone: la crema deve restare morbida.",
+            "Bagna metà dei savoiardi nel caffè, senza inzupparli troppo, e disponili in un piatto o in una teglia.",
+            "Copri con metà della crema, poi fai un secondo strato con i savoiardi rimasti, bagnati nello stesso modo, e la crema restante.",
+            "Setaccia il cacao amaro sulla superficie.",
+            "Tieni in frigorifero fino al momento di servire."
+          ],
+          "en": [
+            "Make the coffee and let it cool in a bowl.",
+            "Whisk the yolks with the sugar until foamy, then fold in the mascarpone: the cream should stay soft.",
+            "Dip half of the ladyfingers in the coffee, without soaking them too much, and arrange them in a dish.",
+            "Cover with half of the cream, then make a second layer with the remaining ladyfingers, dipped in the same way, and the rest of the cream.",
+            "Sift the bitter cocoa over the top.",
+            "Keep in the fridge until serving."
+          ],
+          "fr": [
+            "Prépare le café et laisse-le refroidir dans un bol.",
+            "Fouette les jaunes avec le sucre jusqu'à obtenir une mousse, puis incorpore le mascarpone : la crème doit rester souple.",
+            "Trempe la moitié des biscuits dans le café, sans trop les imbiber, et dispose-les dans un plat.",
+            "Recouvre de la moitié de la crème, puis fais une deuxième couche avec les biscuits restants, trempés de la même façon, et le reste de la crème.",
+            "Saupoudre de cacao amer à l'aide d'une passoire fine.",
+            "Réserve au réfrigérateur jusqu'au moment de servir."
+          ],
+          "de": [
+            "Kaffee zubereiten und in einer Schüssel abkühlen lassen.",
+            "Eigelb mit dem Zucker schaumig schlagen, dann den Mascarpone unterheben: Die Creme soll weich bleiben.",
+            "Die Hälfte der Löffelbiskuits in den Kaffee tauchen, nicht zu nass werden lassen, und in einer Form auslegen.",
+            "Mit der Hälfte der Creme bedecken, dann eine zweite Schicht mit den übrigen, ebenso getauchten Löffelbiskuits und der restlichen Creme machen.",
+            "Bitteren Kakao darübersieben.",
+            "Bis zum Servieren im Kühlschrank aufbewahren."
+          ],
+          "es": [
+            "Prepara el café y déjalo enfriar en un cuenco.",
+            "Bate las yemas con el azúcar hasta obtener una espuma e incorpora el mascarpone: la crema debe quedar suave.",
+            "Moja la mitad de los bizcochos en el café, sin empaparlos demasiado, y colócalos en una fuente.",
+            "Cubre con la mitad de la crema, haz una segunda capa con los bizcochos restantes, mojados igual, y termina con el resto de la crema.",
+            "Espolvorea el cacao amargo con un colador.",
+            "Guárdalo en la nevera hasta el momento de servir."
+          ]
+        }
+      },
+      "foto": {
+        "file": "tiramisu.webp",
+        "autore": "Sharon Chen",
+        "licenza": "CC BY 2.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Classic_Italian_Tiramisu-3_(29989504485).jpg"
+      }
+    },
+    {
+      "id": "radicchio-rosso-di-treviso",
+      "nome": "Radicchio rosso di Treviso",
+      "portata": "contorno",
+      "certificazione": "IGP",
+      "periodo": {
+        "it": "Il Precoce si raccoglie dal 1° settembre; il Tardivo dal 1° novembre, dopo almeno due brinate.",
+        "en": "The Precoce type is harvested from 1 September; the Tardivo from 1 November, after at least two frosts.",
+        "fr": "Le Précoce se récolte à partir du 1er septembre ; le Tardif à partir du 1er novembre, après au moins deux gelées.",
+        "de": "Die frühe Sorte (Precoce) wird ab dem 1. September geerntet, die späte (Tardivo) ab dem 1. November, nach mindestens zwei Frösten.",
+        "es": "El Precoce se recoge desde el 1 de septiembre; el Tardivo desde el 1 de noviembre, tras al menos dos heladas."
+      },
+      "testo": {
+        "it": "Cicoria dal rosso intenso con venature bianche e dal sapore amarognolo, riconosciuta IGP nel 1996 e coltivata tra le province di Treviso, Venezia e Padova. Esistono due tipi: il Precoce, dal cespo compatto, e il Tardivo, dalle foglie lunghe e sottili, la varietà più pregiata, detta anche «spadone», che prima della raccolta viene fatta imbianchire in acqua di falda. Si mangia crudo in insalata, grigliato, in padella o nel risotto.",
+        "en": "A deep-red chicory with white veins and a pleasantly bitter taste, recognised as PGI in 1996 and grown across the provinces of Treviso, Venice and Padua. There are two types: the Precoce, with a compact head, and the Tardivo, with long slender leaves, the most prized variety, also called «spadone», which is blanched in spring water before harvest. It is eaten raw in salads, grilled, pan-fried or in risotto.",
+        "fr": "Chicorée d'un rouge intense aux nervures blanches et au goût amer, reconnue IGP en 1996 et cultivée dans les provinces de Trévise, Venise et Padoue. Il en existe deux types : le Précoce, à la pomme compacte, et le Tardif, aux feuilles longues et fines, la variété la plus prisée, appelée aussi « spadone », qui est blanchie dans l'eau de nappe avant la récolte. Elle se mange crue en salade, grillée, poêlée ou en risotto.",
+        "de": "Eine tiefrote Zichorie mit weißen Adern und angenehm bitterem Geschmack, 1996 als g.g.A. anerkannt und in den Provinzen Treviso, Venedig und Padua angebaut. Es gibt zwei Sorten: den Precoce mit kompaktem Kopf und den Tardivo mit langen, schlanken Blättern, die wertvollste Sorte, auch «Spadone» genannt, die vor der Ernte in Quellwasser gebleicht wird. Man isst ihn roh als Salat, gegrillt, gebraten oder im Risotto.",
+        "es": "Achicoria de un rojo intenso con nervaduras blancas y sabor amargo, reconocida IGP en 1996 y cultivada en las provincias de Treviso, Venecia y Padua. Hay dos tipos: el Precoce, de cogollo compacto, y el Tardivo, de hojas largas y finas, la variedad más apreciada, llamada también «spadone», que antes de la cosecha se blanquea en agua de manantial. Se come cruda en ensalada, a la plancha, salteada o en risotto."
+      },
+      "foto": {
+        "file": "radicchio-rosso-di-treviso.webp",
+        "autore": "Qualcheduno",
+        "licenza": "CC0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Radicchio_rosso_tardivo_di_Treviso_IGP.jpg"
+      }
+    },
+    {
+      "id": "asparago-bianco-di-cimadolmo",
+      "nome": "Asparago bianco di Cimadolmo",
+      "portata": "contorno",
+      "certificazione": "IGP",
+      "periodo": {
+        "it": "Ortaggio primaverile: i primi turioni si raccolgono in marzo e la stagione prosegue in primavera.",
+        "en": "A spring vegetable: the first spears are picked in March and the season continues through spring.",
+        "fr": "Légume de printemps : les premiers turions se récoltent en mars et la saison se poursuit au printemps.",
+        "de": "Frühlingsgemüse: Die ersten Spargelstangen werden im März gestochen, die Saison dauert im Frühling an.",
+        "es": "Hortaliza de primavera: los primeros turiones se recogen en marzo y la temporada continúa en primavera."
+      },
+      "testo": {
+        "it": "Coltivato in undici comuni della provincia di Treviso lungo il corso del Piave, è stato il primo asparago europeo a ottenere l'IGP, nel 2002. I turioni sono completamente bianchi e dal sapore delicato; la raccolta comincia dal terzo anno dopo l'impianto. Ogni primavera a Cimadolmo gli è dedicata una festa. È ottimo lessato con uova sode, nel risotto o in frittata.",
+        "en": "Grown in eleven municipalities of the province of Treviso along the river Piave, it was the first European asparagus to obtain PGI status, in 2002. The spears are completely white with a delicate flavour; harvesting starts in the third year after planting. Every spring Cimadolmo holds a festival in its honour. It is excellent boiled with hard-boiled eggs, in risotto or in an omelette.",
+        "fr": "Cultivée dans onze communes de la province de Trévise le long du Piave, c'est la première asperge européenne à avoir obtenu l'IGP, en 2002. Les turions sont entièrement blancs et d'un goût délicat ; la récolte commence la troisième année après la plantation. Chaque printemps, une fête lui est consacrée à Cimadolmo. Elle est excellente bouillie avec des œufs durs, en risotto ou en omelette.",
+        "de": "In elf Gemeinden der Provinz Treviso entlang des Piave angebaut, war er 2002 der erste europäische Spargel mit g.g.A.-Status. Die Stangen sind ganz weiß und mild im Geschmack; geerntet wird ab dem dritten Jahr nach der Pflanzung. Jedes Frühjahr feiert Cimadolmo ihm zu Ehren ein Fest. Er schmeckt hervorragend gekocht mit hartgekochten Eiern, im Risotto oder im Omelett.",
+        "es": "Cultivado en once municipios de la provincia de Treviso a lo largo del Piave, fue el primer espárrago europeo en obtener la IGP, en 2002. Los turiones son completamente blancos y de sabor delicado; la cosecha empieza al tercer año de la plantación. Cada primavera Cimadolmo le dedica una fiesta. Es excelente hervido con huevo duro, en risotto o en tortilla."
+      }
+    },
+    {
+      "id": "sopa-coada",
+      "nome": "Sopa coada",
+      "portata": "secondo",
+      "testo": {
+        "it": "Il nome significa «zuppa covata»: piccione stufato e disossato, disposto a strati con pane raffermo, formaggio e brodo, e lasciato «covare» a lungo in forno finché il brodo quasi evapora. È uno dei piatti più antichi della cucina trevigiana; nel 2009 la ricetta ufficiale è stata depositata dalla delegazione di Treviso dell'Accademia Italiana della Cucina.",
+        "en": "The name means «brooded soup»: stewed, boned pigeon layered with stale bread, cheese and broth, then left to «brood» in the oven for hours until the broth has almost evaporated. It is one of the oldest dishes of Treviso cuisine; in 2009 the official recipe was lodged by the Treviso branch of the Italian Academy of Cuisine.",
+        "fr": "Le nom signifie « soupe couvée » : pigeon braisé et désossé, disposé en couches avec du pain rassis, du fromage et du bouillon, puis laissé « couver » longuement au four jusqu'à ce que le bouillon soit presque évaporé. C'est l'un des plats les plus anciens de la cuisine trévisane ; en 2009 la recette officielle a été déposée par la délégation de Trévise de l'Académie italienne de la cuisine.",
+        "de": "Der Name bedeutet «gebrütete Suppe»: geschmortes, entbeintes Taubenfleisch, mit altbackenem Brot, Käse und Brühe geschichtet und stundenlang im Ofen «ausgebrütet», bis die Brühe fast verdampft ist. Es ist eines der ältesten Gerichte der Küche von Treviso; 2009 hinterlegte die Delegation Treviso der Italienischen Akademie der Kochkunst das offizielle Rezept.",
+        "es": "El nombre significa «sopa empollada»: pichón estofado y deshuesado, dispuesto en capas con pan duro, queso y caldo, y dejado «empollar» largo rato en el horno hasta que el caldo casi se evapora. Es uno de los platos más antiguos de la cocina de Treviso; en 2009 la delegación de Treviso de la Academia Italiana de la Cocina depositó la receta oficial."
+      },
+      "ricetta": {
+        "fonte": "https://www.centocitta.it/index.cfm/pagina/Treviso/3722/Sopa-Coada",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "40 min + circa 5 ore di forno",
+          "en": "40 min + about 5 hours in the oven",
+          "fr": "40 min + environ 5 h de four",
+          "de": "40 Min. + etwa 5 Std. im Ofen",
+          "es": "40 min + unas 5 horas de horno"
+        },
+        "ingredienti": {
+          "it": [
+            "3 piccioni",
+            "12 fette di pane casereccio raffermo",
+            "150 g di parmigiano grattugiato",
+            "100 g di burro",
+            "2 bicchieri di vino bianco",
+            "1 l di brodo di carne",
+            "1 carota",
+            "1 cipolla",
+            "1 costa di sedano",
+            "Olio, sale e pepe q.b."
+          ],
+          "en": [
+            "3 pigeons",
+            "12 slices of stale country bread",
+            "150 g grated Parmesan",
+            "100 g butter",
+            "2 glasses of white wine",
+            "1 l meat broth",
+            "1 carrot",
+            "1 onion",
+            "1 celery stalk",
+            "Oil, salt and pepper as needed"
+          ],
+          "fr": [
+            "3 pigeons",
+            "12 tranches de pain de campagne rassis",
+            "150 g de parmesan râpé",
+            "100 g de beurre",
+            "2 verres de vin blanc",
+            "1 l de bouillon de viande",
+            "1 carotte",
+            "1 oignon",
+            "1 branche de céleri",
+            "Huile, sel et poivre selon besoin"
+          ],
+          "de": [
+            "3 Tauben",
+            "12 Scheiben altbackenes Landbrot",
+            "150 g geriebener Parmesan",
+            "100 g Butter",
+            "2 Gläser Weißwein",
+            "1 l Fleischbrühe",
+            "1 Karotte",
+            "1 Zwiebel",
+            "1 Stange Sellerie",
+            "Öl, Salz und Pfeffer nach Bedarf"
+          ],
+          "es": [
+            "3 pichones",
+            "12 rebanadas de pan rústico duro",
+            "150 g de parmesano rallado",
+            "100 g de mantequilla",
+            "2 vasos de vino blanco",
+            "1 l de caldo de carne",
+            "1 zanahoria",
+            "1 cebolla",
+            "1 rama de apio",
+            "Aceite, sal y pimienta, los necesarios"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Pulisci con cura i piccioni e tagliali in quattro.",
+            "Prepara un abbondante soffritto con sedano, cipolla, carota, olio e burro. Quando la cipolla comincia a imbiondire, rosola i piccioni.",
+            "Bagna con il vino e poi con qualche mestolo di brodo; sala, pepa e cuoci coperto a fuoco lento per circa mezz'ora.",
+            "Disossa i piccioni senza scomporli troppo. Taglia il pane a fette alte circa 1 cm e rosolalo nel burro.",
+            "In una terrina alterna strati di pane, piccione disossato, parmigiano e un po' di brodo (2 o 3 strati).",
+            "Copri tutto con il brodo e cuoci in forno a calore moderato per circa 5 ore, finché il brodo è quasi del tutto evaporato.",
+            "Servi caldissima, bagnando i piatti con il brodo rimasto."
+          ],
+          "en": [
+            "Clean the pigeons carefully and cut each into four.",
+            "Make a generous soffritto with celery, onion, carrot, oil and butter. When the onion starts to turn golden, brown the pigeons.",
+            "Add the wine and then a few ladles of broth; season and cook covered over low heat for about half an hour.",
+            "Bone the pigeons without breaking them up too much. Cut the bread into slices about 1 cm thick and brown it in butter.",
+            "In a dish alternate layers of bread, boned pigeon, Parmesan and a little broth (2 or 3 layers).",
+            "Cover everything with broth and bake at moderate heat for about 5 hours, until the broth has almost completely evaporated.",
+            "Serve piping hot, moistening the plates with the remaining broth."
+          ],
+          "fr": [
+            "Nettoie soigneusement les pigeons et coupe-les en quatre.",
+            "Prépare un généreux soffritto avec céleri, oignon, carotte, huile et beurre. Quand l'oignon commence à blondir, fais dorer les pigeons.",
+            "Mouille avec le vin puis quelques louches de bouillon ; sale, poivre et cuis à couvert à feu doux environ une demi-heure.",
+            "Désosse les pigeons sans trop les défaire. Coupe le pain en tranches d'environ 1 cm et fais-le dorer au beurre.",
+            "Dans une terrine, alterne des couches de pain, de pigeon désossé, de parmesan et un peu de bouillon (2 ou 3 couches).",
+            "Recouvre de bouillon et cuis au four à chaleur modérée pendant environ 5 heures, jusqu'à ce que le bouillon soit presque entièrement évaporé.",
+            "Sers très chaud en arrosant les assiettes du bouillon restant."
+          ],
+          "de": [
+            "Die Tauben sorgfältig putzen und vierteln.",
+            "Aus Sellerie, Zwiebel, Karotte, Öl und Butter ein reichliches Soffritto zubereiten. Wenn die Zwiebel goldgelb wird, die Tauben anbraten.",
+            "Mit dem Wein und dann mit einigen Kellen Brühe ablöschen; würzen und zugedeckt bei schwacher Hitze etwa eine halbe Stunde garen.",
+            "Die Tauben entbeinen, ohne sie zu sehr zu zerteilen. Das Brot in etwa 1 cm dicke Scheiben schneiden und in Butter anbraten.",
+            "In einer Form Schichten aus Brot, entbeinter Taube, Parmesan und etwas Brühe abwechseln (2 oder 3 Lagen).",
+            "Alles mit Brühe bedecken und bei mäßiger Hitze etwa 5 Stunden im Ofen garen, bis die Brühe fast ganz verdampft ist.",
+            "Sehr heiß servieren und die Teller mit der restlichen Brühe beträufeln."
+          ],
+          "es": [
+            "Limpia con cuidado los pichones y córtalos en cuatro.",
+            "Prepara un sofrito abundante con apio, cebolla, zanahoria, aceite y mantequilla. Cuando la cebolla empiece a dorarse, sella los pichones.",
+            "Añade el vino y luego unos cucharones de caldo; sala, pimienta y cuece tapado a fuego lento unos treinta minutos.",
+            "Deshuesa los pichones sin deshacerlos demasiado. Corta el pan en rebanadas de 1 cm y dóralo en mantequilla.",
+            "En una fuente alterna capas de pan, pichón deshuesado, parmesano y un poco de caldo (2 o 3 capas).",
+            "Cubre todo con caldo y hornea a calor moderado unas 5 horas, hasta que el caldo se haya evaporado casi por completo.",
+            "Sirve muy caliente, regando los platos con el caldo restante."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pasta-e-fasioi",
+      "nome": "Pasta e fasioi",
+      "portata": "primo",
+      "testo": {
+        "it": "Minestra contadina diffusa in tutto il Veneto, con molte varianti locali: fagioli borlotti (tradizionalmente quelli di Lamon IGP), pasta corta o tagliatelle spezzettate e un soffritto di lardo e verdure. Una parte dei fagioli viene frullata per rendere la minestra densa e cremosa. Si serve con un filo d'olio a crudo e una macinata di pepe.",
+        "en": "A country soup found throughout the Veneto, with many local variations: borlotti beans (traditionally those of Lamon PGI), short pasta or broken tagliatelle and a soffritto of lard and vegetables. Part of the beans is puréed to make the soup thick and creamy. It is served with a drizzle of raw olive oil and freshly ground pepper.",
+        "fr": "Soupe paysanne répandue dans toute la Vénétie, avec de nombreuses variantes locales : haricots borlotti (traditionnellement ceux de Lamon IGP), pâtes courtes ou tagliatelles brisées et un soffritto de lard et de légumes. Une partie des haricots est mixée pour rendre la soupe épaisse et onctueuse. Elle se sert avec un filet d'huile crue et un tour de moulin à poivre.",
+        "de": "Eine bäuerliche Suppe, die im ganzen Veneto verbreitet ist, mit vielen regionalen Varianten: Borlotti-Bohnen (traditionell die von Lamon g.g.A.), kurze Nudeln oder gebrochene Tagliatelle und ein Soffritto aus Speck und Gemüse. Ein Teil der Bohnen wird püriert, damit die Suppe dick und cremig wird. Serviert wird sie mit einem Schuss rohem Olivenöl und frisch gemahlenem Pfeffer.",
+        "es": "Sopa campesina difundida por todo el Véneto, con muchas variantes locales: alubias borlotti (tradicionalmente las de Lamon IGP), pasta corta o tagliatelle rotas y un sofrito de tocino y verduras. Parte de las alubias se tritura para que la sopa quede espesa y cremosa. Se sirve con un chorrito de aceite en crudo y pimienta recién molida."
+      },
+      "ricetta": {
+        "fonte": "https://blog.giallozafferano.it/ortaggichepassionebysara/pasta-e-fasoi/",
+        "porzioni": 6,
+        "preparazione": {
+          "it": "20 min + 12 ore di ammollo; circa 1 ora di cottura",
+          "en": "20 min + 12 hours of soaking; about 1 hour of cooking",
+          "fr": "20 min + 12 h de trempage ; environ 1 h de cuisson",
+          "de": "20 Min. + 12 Std. Einweichen; ca. 1 Std. Garzeit",
+          "es": "20 min + 12 horas de remojo; alrededor de 1 hora de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "300 g di fagioli borlotti secchi (di Lamon)",
+            "1,5 l di acqua",
+            "2 foglie di alloro",
+            "2 spicchi d'aglio",
+            "50 g di lardo o pancetta",
+            "1 carota",
+            "1 porro (o una cipolla)",
+            "1 costa di sedano",
+            "1 rametto di rosmarino",
+            "200 g di pasta (ditalini o tagliatelle spezzettate)",
+            "Sale q.b.",
+            "Olio extravergine e pepe per servire"
+          ],
+          "en": [
+            "300 g dried borlotti beans (from Lamon)",
+            "1.5 l water",
+            "2 bay leaves",
+            "2 garlic cloves",
+            "50 g lard or pancetta",
+            "1 carrot",
+            "1 leek (or an onion)",
+            "1 celery stalk",
+            "1 sprig of rosemary",
+            "200 g pasta (ditalini or broken tagliatelle)",
+            "Salt as needed",
+            "Extra virgin olive oil and pepper to serve"
+          ],
+          "fr": [
+            "300 g de haricots borlotti secs (de Lamon)",
+            "1,5 l d'eau",
+            "2 feuilles de laurier",
+            "2 gousses d'ail",
+            "50 g de lard ou de pancetta",
+            "1 carotte",
+            "1 poireau (ou un oignon)",
+            "1 branche de céleri",
+            "1 brin de romarin",
+            "200 g de pâtes (ditalini ou tagliatelles brisées)",
+            "Sel selon besoin",
+            "Huile d'olive vierge extra et poivre pour servir"
+          ],
+          "de": [
+            "300 g getrocknete Borlotti-Bohnen (aus Lamon)",
+            "1,5 l Wasser",
+            "2 Lorbeerblätter",
+            "2 Knoblauchzehen",
+            "50 g Speck oder Pancetta",
+            "1 Karotte",
+            "1 Lauch (oder eine Zwiebel)",
+            "1 Stange Sellerie",
+            "1 Zweig Rosmarin",
+            "200 g Nudeln (Ditalini oder gebrochene Tagliatelle)",
+            "Salz nach Bedarf",
+            "Natives Olivenöl extra und Pfeffer zum Servieren"
+          ],
+          "es": [
+            "300 g de alubias borlotti secas (de Lamon)",
+            "1,5 l de agua",
+            "2 hojas de laurel",
+            "2 dientes de ajo",
+            "50 g de tocino o panceta",
+            "1 zanahoria",
+            "1 puerro (o una cebolla)",
+            "1 rama de apio",
+            "1 ramita de romero",
+            "200 g de pasta (ditalini o tagliatelle rotas)",
+            "Sal, la necesaria",
+            "Aceite de oliva virgen extra y pimienta para servir"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Metti i fagioli in ammollo in acqua fredda per almeno 12 ore, cambiando l'acqua ogni tanto.",
+            "Scolali e cuocili con 1,5 l d'acqua, uno spicchio d'aglio e l'alloro: circa 20 minuti dal fischio in pentola a pressione, circa 1 ora in pentola normale. Spegni e lasciali nella loro acqua.",
+            "Trita lardo, aglio, carota, porro, sedano e rosmarino e fai rosolare il soffritto in padella.",
+            "Frulla circa metà dei fagioli con un mestolo della loro acqua.",
+            "Unisci ai fagioli interi e alla crema il soffritto, riporta a bollore e regola di sale.",
+            "Aggiungi la pasta e cuocila nel brodo.",
+            "Servi con un filo d'olio extravergine a crudo e una macinata di pepe."
+          ],
+          "en": [
+            "Soak the beans in cold water for at least 12 hours, changing the water now and then.",
+            "Drain them and cook with 1.5 l of water, one garlic clove and the bay leaves: about 20 minutes after the whistle in a pressure cooker, about 1 hour in a normal pot. Turn off the heat and leave them in their water.",
+            "Chop the lard, garlic, carrot, leek, celery and rosemary and brown the soffritto in a pan.",
+            "Blend about half of the beans with a ladle of their cooking water.",
+            "Add the soffritto to the whole beans and the purée, bring back to the boil and adjust the salt.",
+            "Add the pasta and cook it in the broth.",
+            "Serve with a drizzle of raw extra virgin olive oil and freshly ground pepper."
+          ],
+          "fr": [
+            "Mets les haricots à tremper dans l'eau froide pendant au moins 12 heures, en changeant l'eau de temps en temps.",
+            "Égoutte-les et cuis-les avec 1,5 l d'eau, une gousse d'ail et le laurier : environ 20 minutes après le sifflement en autocuiseur, environ 1 heure dans une casserole normale. Éteins et laisse-les dans leur eau.",
+            "Hache le lard, l'ail, la carotte, le poireau, le céleri et le romarin et fais revenir le soffritto à la poêle.",
+            "Mixe environ la moitié des haricots avec une louche de leur eau de cuisson.",
+            "Ajoute le soffritto aux haricots entiers et à la purée, ramène à ébullition et rectifie le sel.",
+            "Ajoute les pâtes et cuis-les dans le bouillon.",
+            "Sers avec un filet d'huile d'olive vierge extra crue et un tour de moulin à poivre."
+          ],
+          "de": [
+            "Die Bohnen mindestens 12 Stunden in kaltem Wasser einweichen und das Wasser zwischendurch wechseln.",
+            "Abgießen und mit 1,5 l Wasser, einer Knoblauchzehe und den Lorbeerblättern garen: im Schnellkochtopf etwa 20 Minuten ab dem Pfeifen, im normalen Topf etwa 1 Stunde. Herd ausschalten und die Bohnen im Kochwasser lassen.",
+            "Speck, Knoblauch, Karotte, Lauch, Sellerie und Rosmarin hacken und das Soffritto in der Pfanne anbraten.",
+            "Etwa die Hälfte der Bohnen mit einer Kelle Kochwasser pürieren.",
+            "Das Soffritto zu den ganzen Bohnen und dem Püree geben, wieder aufkochen und mit Salz abschmecken.",
+            "Die Nudeln hinzufügen und in der Brühe garen.",
+            "Mit einem Schuss rohem Olivenöl extra und frisch gemahlenem Pfeffer servieren."
+          ],
+          "es": [
+            "Pon las alubias en remojo en agua fría al menos 12 horas, cambiando el agua de vez en cuando.",
+            "Escúrrelas y cuécelas con 1,5 l de agua, un diente de ajo y el laurel: unos 20 minutos desde el silbido en olla a presión, alrededor de 1 hora en olla normal. Apaga y déjalas en su agua.",
+            "Pica el tocino, el ajo, la zanahoria, el puerro, el apio y el romero y sofríe el sofrito en una sartén.",
+            "Tritura aproximadamente la mitad de las alubias con un cucharón de su agua.",
+            "Añade el sofrito a las alubias enteras y al puré, vuelve a hervir y rectifica de sal.",
+            "Incorpora la pasta y cuécela en el caldo.",
+            "Sirve con un chorrito de aceite de oliva virgen extra en crudo y pimienta recién molida."
+          ]
+        }
+      },
+      "foto": {
+        "file": "pasta-e-fasioi.webp",
+        "autore": "valtercirillo",
+        "licenza": "CC0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_-_minestra.jpg"
+      }
+    },
+    {
+      "id": "frittata-con-schioppettini",
+      "nome": "Frittata con schioppettini",
+      "portata": "secondo",
+      "testo": {
+        "it": "Gli schioppettini sono i giovani germogli della silene (Silene vulgaris), un'erba spontanea di primavera che si raccoglie nei prati e ha moltissimi nomi locali: carletti, s'ciopetin, bubbolini… Appassiti in padella con cipolla e aglio, si uniscono alle uova sbattute con il parmigiano per una frittata semplice, dal sapore delicato e leggermente erbaceo.",
+        "en": "Schioppettini are the young shoots of bladder campion (Silene vulgaris), a wild spring herb picked in meadows that has countless local names: carletti, s'ciopetin, bubbolini… Wilted in a pan with onion and garlic, they are added to eggs beaten with Parmesan for a simple omelette with a delicate, slightly grassy flavour.",
+        "fr": "Les schioppettini sont les jeunes pousses de la silène enflée (Silene vulgaris), une herbe sauvage de printemps qui se cueille dans les prés et porte de très nombreux noms locaux : carletti, s'ciopetin, bubbolini… Fanées à la poêle avec de l'oignon et de l'ail, elles se mêlent aux œufs battus avec du parmesan pour une omelette simple, au goût délicat et légèrement herbacé.",
+        "de": "Schioppettini sind die jungen Triebe des Taubenkropf-Leimkrauts (Silene vulgaris), eines wilden Frühlingskrauts, das auf Wiesen gesammelt wird und unzählige lokale Namen hat: Carletti, S'ciopetin, Bubbolini… In der Pfanne mit Zwiebel und Knoblauch gedünstet, kommen sie zu den mit Parmesan verquirlten Eiern für ein einfaches Omelett mit mildem, leicht grasigem Geschmack.",
+        "es": "Los schioppettini son los brotes jóvenes de la colleja (Silene vulgaris), una hierba silvestre de primavera que se recoge en los prados y tiene muchísimos nombres locales: carletti, s'ciopetin, bubbolini… Marchitados en la sartén con cebolla y ajo, se mezclan con los huevos batidos con parmesano para una tortilla sencilla, de sabor delicado y ligeramente herbáceo."
+      },
+      "ricetta": {
+        "fonte": "https://www.dissapore.com/grande-notizia/diario-di-una-ricetta-frittata-con-i-carletti/",
+        "porzioni": 2,
+        "preparazione": {
+          "it": "10 min + circa 10 min di cottura",
+          "en": "10 min + about 10 min of cooking",
+          "fr": "10 min + environ 10 min de cuisson",
+          "de": "10 Min. + ca. 10 Min. Garzeit",
+          "es": "10 min + unos 10 min de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "6 uova",
+            "1 mazzetto di germogli di schioppettini (silene)",
+            "30 g di parmigiano grattugiato",
+            "2 cucchiai di cipolla tritata finissima",
+            "1 spicchio d'aglio",
+            "Olio extravergine d'oliva q.b.",
+            "Sale e pepe q.b."
+          ],
+          "en": [
+            "6 eggs",
+            "1 bunch of schioppettini shoots (bladder campion)",
+            "30 g grated Parmesan",
+            "2 tablespoons very finely chopped onion",
+            "1 garlic clove",
+            "Extra virgin olive oil as needed",
+            "Salt and pepper as needed"
+          ],
+          "fr": [
+            "6 œufs",
+            "1 bouquet de pousses de schioppettini (silène)",
+            "30 g de parmesan râpé",
+            "2 cuillères à soupe d'oignon très finement haché",
+            "1 gousse d'ail",
+            "Huile d'olive vierge extra selon besoin",
+            "Sel et poivre selon besoin"
+          ],
+          "de": [
+            "6 Eier",
+            "1 Bund Schioppettini-Triebe (Leimkraut)",
+            "30 g geriebener Parmesan",
+            "2 Esslöffel sehr fein gehackte Zwiebel",
+            "1 Knoblauchzehe",
+            "Natives Olivenöl extra nach Bedarf",
+            "Salz und Pfeffer nach Bedarf"
+          ],
+          "es": [
+            "6 huevos",
+            "1 manojo de brotes de schioppettini (collejas)",
+            "30 g de parmesano rallado",
+            "2 cucharadas de cebolla muy picada",
+            "1 diente de ajo",
+            "Aceite de oliva virgen extra, el necesario",
+            "Sal y pimienta, los necesarios"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Lava bene i germogli e lasciali un po' umidi.",
+            "In una padella con l'olio rosola la cipolla tritata e l'aglio schiacciato; quando la cipolla è dorata e l'aglio profumato, togli l'aglio.",
+            "Aggiungi i germogli, falli appassire per qualche minuto e spegni il fuoco.",
+            "Sbatti le uova con una forchetta, giusto il tempo di rompere i tuorli, senza montarle. Unisci parmigiano, pepe, un po' di sale e i germogli appassiti.",
+            "Scalda la padella, versa il composto, copri e cuoci 2-3 minuti, finché i bordi formano una leggera crosticina.",
+            "Rovescia la frittata su un piatto, rimettila in padella dall'altro lato e cuoci ancora per meno di 2 minuti. Servi subito."
+          ],
+          "en": [
+            "Wash the shoots well and leave them slightly damp.",
+            "In a pan with oil, brown the chopped onion and the crushed garlic; when the onion is golden and the garlic fragrant, remove the garlic.",
+            "Add the shoots, let them wilt for a few minutes and turn off the heat.",
+            "Beat the eggs with a fork, just enough to break the yolks, without whisking them. Add the Parmesan, pepper, a little salt and the wilted shoots.",
+            "Heat the pan, pour in the mixture, cover and cook for 2-3 minutes, until the edges form a light crust.",
+            "Slide the omelette onto a plate, put it back in the pan upside down and cook for less than 2 more minutes. Serve at once."
+          ],
+          "fr": [
+            "Lave bien les pousses et laisse-les un peu humides.",
+            "Dans une poêle avec l'huile, fais revenir l'oignon haché et l'ail écrasé ; quand l'oignon est doré et l'ail parfumé, retire l'ail.",
+            "Ajoute les pousses, laisse-les faner quelques minutes et éteins le feu.",
+            "Bats les œufs à la fourchette, juste assez pour rompre les jaunes, sans les monter. Ajoute le parmesan, le poivre, un peu de sel et les pousses fanées.",
+            "Chauffe la poêle, verse le mélange, couvre et cuis 2 à 3 minutes, jusqu'à ce que les bords forment une légère croûte.",
+            "Fais glisser l'omelette sur une assiette, remets-la dans la poêle côté inverse et cuis encore moins de 2 minutes. Sers aussitôt."
+          ],
+          "de": [
+            "Die Triebe gut waschen und leicht feucht lassen.",
+            "In einer Pfanne mit Öl die gehackte Zwiebel und den zerdrückten Knoblauch anbraten; wenn die Zwiebel goldgelb ist und der Knoblauch duftet, den Knoblauch entfernen.",
+            "Die Triebe hinzufügen, einige Minuten zusammenfallen lassen und die Hitze ausschalten.",
+            "Die Eier mit einer Gabel nur so lange verquirlen, bis die Dotter aufgebrochen sind, ohne sie aufzuschlagen. Parmesan, Pfeffer, etwas Salz und die gedünsteten Triebe unterrühren.",
+            "Die Pfanne erhitzen, die Masse eingießen, zudecken und 2-3 Minuten garen, bis die Ränder eine leichte Kruste bilden.",
+            "Das Omelett auf einen Teller gleiten lassen, mit der anderen Seite zurück in die Pfanne geben und weniger als 2 Minuten fertig garen. Sofort servieren."
+          ],
+          "es": [
+            "Lava bien los brotes y déjalos algo húmedos.",
+            "En una sartén con aceite sofríe la cebolla picada y el ajo aplastado; cuando la cebolla esté dorada y el ajo perfumado, retira el ajo.",
+            "Añade los brotes, déjalos marchitar unos minutos y apaga el fuego.",
+            "Bate los huevos con un tenedor, lo justo para romper las yemas, sin montarlos. Incorpora el parmesano, la pimienta, un poco de sal y los brotes marchitos.",
+            "Calienta la sartén, vierte la mezcla, tapa y cuece 2-3 minutos, hasta que los bordes formen una ligera costra.",
+            "Desliza la tortilla en un plato, devuélvela a la sartén por el otro lado y cuece menos de 2 minutos más. Sirve enseguida."
+          ]
+        }
+      },
+      "foto": {
+        "file": "frittata-con-schioppettini.webp",
+        "autore": "Albarubescens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Herb_%27frittata%27_and_boiled_easter_eggs.jpg"
+      }
+    },
+    {
+      "id": "fregolotta",
+      "nome": "Fregolotta",
+      "portata": "dolce",
+      "testo": {
+        "it": "Dolce tipico della Marca Trevigiana: un grande disco friabile di farina e zucchero impastati con la panna, che si spezza con le mani e non si taglia. Ricorda la sbrisolona mantovana; il nome viene da «fregola», in veneto «briciola». Esistono molte varianti, anche con mandorle, burro o uova.",
+        "en": "A typical dessert of the Marca Trevigiana: a large crumbly disc of flour and sugar worked with cream, which is broken by hand rather than cut. It resembles the sbrisolona of Mantua; the name comes from «fregola», Venetian for «crumb». There are many variations, including almonds, butter or eggs.",
+        "fr": "Dessert typique de la Marca Trevigiana : un grand disque friable de farine et de sucre travaillés avec de la crème, qui se rompt à la main et ne se coupe pas. Il rappelle la sbrisolona de Mantoue ; le nom vient de « fregola », « miette » en vénitien. Il existe de nombreuses variantes, avec amandes, beurre ou œufs.",
+        "de": "Typisches Dessert der Marca Trevigiana: eine große, mürbe Scheibe aus Mehl und Zucker, mit Sahne verarbeitet, die man mit den Händen bricht und nicht schneidet. Sie erinnert an die Sbrisolona aus Mantua; der Name kommt von «fregola», auf Venetisch «Krümel». Es gibt viele Varianten, auch mit Mandeln, Butter oder Eiern.",
+        "es": "Postre típico de la Marca Trevigiana: un gran disco quebradizo de harina y azúcar trabajados con nata, que se parte con las manos y no se corta. Recuerda a la sbrisolona de Mantua; el nombre viene de «fregola», «miga» en véneto. Existen muchas variantes, también con almendras, mantequilla o huevos."
+      },
+      "ricetta": {
+        "fonte": "https://old.true-italian.com/?p=6555",
+        "preparazione": {
+          "it": "Cottura circa 1 ora a 160 °C, poi raffreddamento",
+          "en": "About 1 hour of baking at 160 °C, then cooling",
+          "fr": "Cuisson environ 1 h à 160 °C, puis refroidissement",
+          "de": "Backzeit ca. 1 Std. bei 160 °C, danach Abkühlen",
+          "es": "Horneado unas 1 hora a 160 °C, luego enfriar"
+        },
+        "ingredienti": {
+          "it": [
+            "500 g di farina 00",
+            "150 g di zucchero",
+            "1 cucchiaino di sale",
+            "250 ml di panna fresca liquida",
+            "Burro per la teglia"
+          ],
+          "en": [
+            "500 g plain flour (type 00)",
+            "150 g sugar",
+            "1 teaspoon salt",
+            "250 ml fresh liquid cream",
+            "Butter for the tin"
+          ],
+          "fr": [
+            "500 g de farine 00",
+            "150 g de sucre",
+            "1 cuillère à café de sel",
+            "250 ml de crème fraîche liquide",
+            "Beurre pour le moule"
+          ],
+          "de": [
+            "500 g Mehl (Type 00)",
+            "150 g Zucker",
+            "1 Teelöffel Salz",
+            "250 ml frische flüssige Sahne",
+            "Butter für die Form"
+          ],
+          "es": [
+            "500 g de harina 00",
+            "150 g de azúcar",
+            "1 cucharadita de sal",
+            "250 ml de nata líquida fresca",
+            "Mantequilla para el molde"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Setaccia la farina con il sale in una ciotola capiente, aggiungi lo zucchero e mescola bene.",
+            "Versa la panna in una ciotola a parte e imburra una teglia.",
+            "Bagna le dita nella panna, prendi un po' del composto di farina e zucchero e strofinalo tra le mani: si formano briciole irregolari.",
+            "Lascia cadere le briciole direttamente nella teglia e ripeti fino a esaurire l'impasto.",
+            "Inforna a 160 °C per circa 1 ora.",
+            "Lascia raffreddare completamente prima di servire e spezza la torta con le mani."
+          ],
+          "en": [
+            "Sift the flour with the salt into a large bowl, add the sugar and mix well.",
+            "Pour the cream into a separate bowl and butter a baking tin.",
+            "Dip your fingers in the cream, take some of the flour and sugar mixture and rub it between your hands to form irregular crumbs.",
+            "Let the crumbs fall straight into the tin and repeat until all the mixture is used.",
+            "Bake at 160 °C for about 1 hour.",
+            "Let it cool completely before serving and break the cake apart by hand."
+          ],
+          "fr": [
+            "Tamise la farine avec le sel dans un grand saladier, ajoute le sucre et mélange bien.",
+            "Verse la crème dans un bol à part et beurre un moule.",
+            "Trempe les doigts dans la crème, prends un peu du mélange de farine et de sucre et frotte-le entre tes mains pour former des miettes irrégulières.",
+            "Laisse tomber les miettes directement dans le moule et répète jusqu'à épuisement de la préparation.",
+            "Enfourne à 160 °C pendant environ 1 heure.",
+            "Laisse refroidir complètement avant de servir et rompe le gâteau à la main."
+          ],
+          "de": [
+            "Das Mehl mit dem Salz in eine große Schüssel sieben, den Zucker hinzufügen und gut vermengen.",
+            "Die Sahne in eine separate Schüssel gießen und eine Form einfetten.",
+            "Die Finger in die Sahne tauchen, etwas von der Mehl-Zucker-Mischung nehmen und zwischen den Händen reiben, bis unregelmäßige Krümel entstehen.",
+            "Die Krümel direkt in die Form fallen lassen und wiederholen, bis alles verbraucht ist.",
+            "Bei 160 °C etwa 1 Stunde backen.",
+            "Vor dem Servieren vollständig abkühlen lassen und den Kuchen mit den Händen brechen."
+          ],
+          "es": [
+            "Tamiza la harina con la sal en un cuenco grande, añade el azúcar y mezcla bien.",
+            "Vierte la nata en un cuenco aparte y unta un molde con mantequilla.",
+            "Moja los dedos en la nata, coge un poco de la mezcla de harina y azúcar y frótala entre las manos hasta formar migas irregulares.",
+            "Deja caer las migas directamente en el molde y repite hasta terminar la masa.",
+            "Hornea a 160 °C durante aproximadamente 1 hora.",
+            "Deja enfriar por completo antes de servir y parte la tarta con las manos."
+          ]
+        }
+      }
+    },
+    {
+      "id": "castagnaccio",
+      "nome": "Castagnaccio",
+      "portata": "dolce",
+      "testo": {
+        "it": "Dolce povero d'autunno fatto con sola farina di castagne, acqua e olio, arricchito con uvetta, pinoli e un rametto di rosmarino. Nato negli Appennini toscani, si prepara oggi in molte zone d'Italia, Veneto compreso. Non contiene uova, burro né glutine, ed è una torta bassa, compatta e profumata.",
+        "en": "A humble autumn cake made only with chestnut flour, water and oil, enriched with raisins, pine nuts and a sprig of rosemary. Born in the Tuscan Apennines, it is now made in many parts of Italy, including the Veneto. It contains no eggs, butter or gluten, and is a low, dense, fragrant cake.",
+        "fr": "Gâteau pauvre d'automne fait uniquement de farine de châtaigne, d'eau et d'huile, enrichi de raisins secs, de pignons et d'un brin de romarin. Né dans les Apennins toscans, il se prépare aujourd'hui dans de nombreuses régions d'Italie, Vénétie comprise. Il ne contient ni œufs, ni beurre, ni gluten : c'est un gâteau bas, dense et parfumé.",
+        "de": "Ein einfacher Herbstkuchen nur aus Kastanienmehl, Wasser und Öl, verfeinert mit Rosinen, Pinienkernen und einem Rosmarinzweig. Im toskanischen Apennin entstanden, wird er heute in vielen Teilen Italiens gebacken, auch im Veneto. Er enthält weder Eier noch Butter noch Gluten und ist ein flacher, kompakter, duftender Kuchen.",
+        "es": "Dulce humilde de otoño hecho solo con harina de castañas, agua y aceite, enriquecido con pasas, piñones y una ramita de romero. Nacido en los Apeninos toscanos, hoy se prepara en muchas zonas de Italia, incluido el Véneto. No lleva huevos, mantequilla ni gluten, y es una tarta baja, compacta y aromática."
+      },
+      "ricetta": {
+        "fonte": "https://www.ricettedalmondo.it/castagnaccio.html",
+        "porzioni": 8,
+        "preparazione": {
+          "it": "15 min; 30-35 min di cottura",
+          "en": "15 min; 30-35 min of baking",
+          "fr": "15 min ; 30 à 35 min de cuisson",
+          "de": "15 Min.; 30-35 Min. Backzeit",
+          "es": "15 min; 30-35 min de horneado"
+        },
+        "ingredienti": {
+          "it": [
+            "250 g di farina di castagne",
+            "325 ml di acqua",
+            "20 g di zucchero (facoltativo)",
+            "40 g di uvetta",
+            "40 g di pinoli",
+            "1 pizzico di sale",
+            "1 rametto di rosmarino fresco",
+            "Olio extravergine d'oliva q.b. per la teglia"
+          ],
+          "en": [
+            "250 g chestnut flour",
+            "325 ml water",
+            "20 g sugar (optional)",
+            "40 g raisins",
+            "40 g pine nuts",
+            "1 pinch of salt",
+            "1 sprig of fresh rosemary",
+            "Extra virgin olive oil as needed for the tin"
+          ],
+          "fr": [
+            "250 g de farine de châtaigne",
+            "325 ml d'eau",
+            "20 g de sucre (facultatif)",
+            "40 g de raisins secs",
+            "40 g de pignons",
+            "1 pincée de sel",
+            "1 brin de romarin frais",
+            "Huile d'olive vierge extra selon besoin pour le moule"
+          ],
+          "de": [
+            "250 g Kastanienmehl",
+            "325 ml Wasser",
+            "20 g Zucker (optional)",
+            "40 g Rosinen",
+            "40 g Pinienkerne",
+            "1 Prise Salz",
+            "1 Zweig frischer Rosmarin",
+            "Natives Olivenöl extra nach Bedarf für die Form"
+          ],
+          "es": [
+            "250 g de harina de castañas",
+            "325 ml de agua",
+            "20 g de azúcar (opcional)",
+            "40 g de pasas",
+            "40 g de piñones",
+            "1 pizca de sal",
+            "1 ramita de romero fresco",
+            "Aceite de oliva virgen extra, el necesario, para el molde"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "In una ciotola mescola la farina di castagne, lo zucchero (se lo usi) e il sale; aggiungi l'acqua a poco a poco, lavorando con la frusta fino a ottenere una pastella liscia, densa e senza grumi.",
+            "Metti l'uvetta in ammollo in acqua calda per 10 minuti e strizzala. Tieni da parte un po' di uvetta e qualche pinolo per decorare e unisci il resto alla pastella.",
+            "Ungi con l'olio uno stampo da 20 cm e versaci l'impasto.",
+            "Distribuisci in superficie l'uvetta e i pinoli tenuti da parte e qualche ago di rosmarino.",
+            "Inforna a 180 °C, forno già caldo, per 30-35 minuti.",
+            "Sforna e lascia raffreddare completamente prima di servire."
+          ],
+          "en": [
+            "In a bowl mix the chestnut flour, the sugar (if using) and the salt; add the water a little at a time, whisking until you have a smooth, thick, lump-free batter.",
+            "Soak the raisins in hot water for 10 minutes and squeeze them dry. Set aside a few raisins and pine nuts for decoration and stir the rest into the batter.",
+            "Oil a 20 cm tin and pour in the batter.",
+            "Scatter the reserved raisins and pine nuts on top, along with a few rosemary needles.",
+            "Bake at 180 °C in a preheated oven for 30-35 minutes.",
+            "Take it out and let it cool completely before serving."
+          ],
+          "fr": [
+            "Dans un saladier, mélange la farine de châtaigne, le sucre (si tu en mets) et le sel ; ajoute l'eau peu à peu en fouettant jusqu'à obtenir une pâte lisse, épaisse et sans grumeaux.",
+            "Fais gonfler les raisins secs dans de l'eau chaude pendant 10 minutes et presse-les. Garde quelques raisins et pignons pour décorer et incorpore le reste à la pâte.",
+            "Huile un moule de 20 cm et verse-y la pâte.",
+            "Répartis dessus les raisins et les pignons réservés, ainsi que quelques aiguilles de romarin.",
+            "Enfourne à 180 °C, four préchauffé, pendant 30 à 35 minutes.",
+            "Sors le gâteau et laisse-le refroidir complètement avant de servir."
+          ],
+          "de": [
+            "In einer Schüssel Kastanienmehl, Zucker (falls verwendet) und Salz mischen; das Wasser nach und nach unter Rühren mit dem Schneebesen zugeben, bis ein glatter, dicker, klumpenfreier Teig entsteht.",
+            "Die Rosinen 10 Minuten in heißem Wasser einweichen und ausdrücken. Einige Rosinen und Pinienkerne zum Verzieren beiseitelegen, den Rest unter den Teig rühren.",
+            "Eine Form von 20 cm mit Öl einfetten und den Teig einfüllen.",
+            "Die beiseitegelegten Rosinen und Pinienkerne sowie einige Rosmarinnadeln darauf verteilen.",
+            "Im vorgeheizten Ofen bei 180 °C 30-35 Minuten backen.",
+            "Herausnehmen und vor dem Servieren vollständig abkühlen lassen."
+          ],
+          "es": [
+            "En un cuenco mezcla la harina de castañas, el azúcar (si lo usas) y la sal; añade el agua poco a poco, batiendo hasta obtener una masa lisa, espesa y sin grumos.",
+            "Pon las pasas en remojo en agua caliente 10 minutos y escúrrelas. Reserva unas pasas y unos piñones para decorar e incorpora el resto a la masa.",
+            "Unta con aceite un molde de 20 cm y vierte la masa.",
+            "Reparte por encima las pasas y los piñones reservados y unas agujas de romero.",
+            "Hornea a 180 °C, con el horno precalentado, durante 30-35 minutos.",
+            "Sácala del horno y deja enfriar por completo antes de servir."
+          ]
+        }
+      },
+      "foto": {
+        "file": "castagnaccio.webp",
+        "autore": "Gordon Joly",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Castagnaccio_with_pine_nuts.jpg"
+      }
+    },
+    {
+      "id": "sopressa-trevigiana",
+      "nome": "Sopressa trevigiana",
+      "portata": "secondo",
+      "periodo": {
+        "it": "Si trova tutto l'anno.",
+        "en": "Available all year round.",
+        "fr": "On en trouve toute l'année.",
+        "de": "Ganzjährig erhältlich.",
+        "es": "Se encuentra durante todo el año."
+      },
+      "testo": {
+        "it": "Salame di taglia medio-grande insaccato in budello naturale bovino legato con lo spago, dalle tipiche coste irregolari. Si trova tutto l'anno nei mercati, negli agriturismi e nei ristoranti della zona di produzione. Si gusta cruda a fette, magari con la polenta, oppure cotta alla griglia.",
+        "en": "A medium-to-large salami stuffed into natural beef casing tied with string, with the typical irregular ribs. It can be found all year round in the markets, farmhouses and restaurants of the production area. It is enjoyed raw in slices, perhaps with polenta, or grilled.",
+        "fr": "Salami de taille moyenne à grande, embossé dans un boyau naturel de bœuf ficelé, aux côtes irrégulières caractéristiques. On en trouve toute l'année sur les marchés, dans les fermes-auberges et les restaurants de la zone de production. Elle se déguste crue en tranches, peut-être avec de la polenta, ou grillée.",
+        "de": "Eine mittelgroße bis große Salami im mit Schnur gebundenen natürlichen Rinderdarm, mit den typischen unregelmäßigen Rippen. Sie ist das ganze Jahr auf den Märkten, in den Agriturismi und Restaurants des Erzeugungsgebiets erhältlich. Man isst sie roh in Scheiben, vielleicht mit Polenta, oder gegrillt.",
+        "es": "Salchichón de tamaño medio-grande embutido en tripa natural de vacuno atada con cordel, con las típicas costillas irregulares. Se encuentra todo el año en los mercados, agroturismos y restaurantes de la zona de producción. Se disfruta cruda en lonchas, quizá con polenta, o a la parrilla."
+      },
+      "foto": {
+        "file": "sopressa-trevigiana.webp",
+        "autore": "GhePeU",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Polenta_con_sopressa_e_funghi.jpg"
+      }
+    },
+    {
+      "id": "sopa-de-tripe",
+      "nome": "Sòpa de Trìpe a la Trevisana",
+      "portata": "primo",
+      "testo": {
+        "it": "Piatto della cucina contadina veneta: trippa di vitello tagliata a strisce e cotta a lungo con verdure, erbe aromatiche e pomodoro, in un brodo che si addensa lentamente. Si serve caldissima con parmigiano grattugiato e una macinata di pepe, di solito accompagnata da pane.",
+        "en": "A dish from Veneto country cooking: veal tripe cut into strips and cooked slowly with vegetables, herbs and tomato in a broth that thickens gently. It is served piping hot with grated Parmesan and freshly ground pepper, usually with bread.",
+        "fr": "Plat de la cuisine paysanne vénète : tripes de veau coupées en lanières et cuites longuement avec des légumes, des herbes aromatiques et de la tomate, dans un bouillon qui s'épaissit lentement. Il se sert très chaud avec du parmesan râpé et un tour de moulin à poivre, en général avec du pain.",
+        "de": "Ein Gericht der bäuerlichen Küche des Veneto: in Streifen geschnittene Kalbskutteln, lange gegart mit Gemüse, Kräutern und Tomate in einer Brühe, die langsam eindickt. Es wird sehr heiß mit geriebenem Parmesan und frisch gemahlenem Pfeffer serviert, meist mit Brot.",
+        "es": "Plato de la cocina campesina véneta: callos de ternera cortados en tiras y cocidos largo rato con verduras, hierbas aromáticas y tomate, en un caldo que se espesa lentamente. Se sirve muy caliente con parmesano rallado y pimienta recién molida, normalmente con pan."
+      },
+      "ricetta": {
+        "fonte": "https://blog.giallozafferano.it/cucinoperpassione/zuppa-di-trippa/",
+        "porzioni": 4,
+        "preparazione": {
+          "it": "20 min + 2 ore di cottura",
+          "en": "20 min + 2 hours of cooking",
+          "fr": "20 min + 2 h de cuisson",
+          "de": "20 Min. + 2 Std. Garzeit",
+          "es": "20 min + 2 horas de cocción"
+        },
+        "ingredienti": {
+          "it": [
+            "800 g di trippa riccia di vitello",
+            "1 cipolla",
+            "1 carota",
+            "1 costa di sedano",
+            "1 spicchio d'aglio",
+            "Alloro e salvia q.b.",
+            "2 rametti di rosmarino",
+            "400 g di polpa di pomodoro",
+            "4 cucchiai di olio extravergine d'oliva",
+            "1 l di brodo",
+            "Sale e pepe q.b.",
+            "Parmigiano grattugiato per servire"
+          ],
+          "en": [
+            "800 g curly veal tripe",
+            "1 onion",
+            "1 carrot",
+            "1 celery stalk",
+            "1 garlic clove",
+            "Bay leaves and sage as needed",
+            "2 sprigs of rosemary",
+            "400 g tomato pulp",
+            "4 tablespoons extra virgin olive oil",
+            "1 l broth",
+            "Salt and pepper as needed",
+            "Grated Parmesan to serve"
+          ],
+          "fr": [
+            "800 g de tripes de veau frisées",
+            "1 oignon",
+            "1 carotte",
+            "1 branche de céleri",
+            "1 gousse d'ail",
+            "Laurier et sauge selon besoin",
+            "2 brins de romarin",
+            "400 g de pulpe de tomate",
+            "4 cuillères à soupe d'huile d'olive vierge extra",
+            "1 l de bouillon",
+            "Sel et poivre selon besoin",
+            "Parmesan râpé pour servir"
+          ],
+          "de": [
+            "800 g krause Kalbskutteln",
+            "1 Zwiebel",
+            "1 Karotte",
+            "1 Stange Sellerie",
+            "1 Knoblauchzehe",
+            "Lorbeer und Salbei nach Bedarf",
+            "2 Zweige Rosmarin",
+            "400 g Tomatenfruchtfleisch",
+            "4 Esslöffel natives Olivenöl extra",
+            "1 l Brühe",
+            "Salz und Pfeffer nach Bedarf",
+            "Geriebener Parmesan zum Servieren"
+          ],
+          "es": [
+            "800 g de callos de ternera rizados",
+            "1 cebolla",
+            "1 zanahoria",
+            "1 rama de apio",
+            "1 diente de ajo",
+            "Laurel y salvia, los necesarios",
+            "2 ramitas de romero",
+            "400 g de pulpa de tomate",
+            "4 cucharadas de aceite de oliva virgen extra",
+            "1 l de caldo",
+            "Sal y pimienta, las necesarias",
+            "Parmesano rallado para servir"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Lava la trippa sotto l'acqua corrente, falla sgocciolare e tagliala a striscioline.",
+            "Trita finemente cipolla, aglio, carota e sedano e fai rosolare il tutto in una pentola con l'olio per alcuni minuti.",
+            "Aggiungi la trippa e falla rosolare insieme alle verdure per qualche minuto.",
+            "Unisci alloro, salvia, rosmarino, polpa di pomodoro e brodo. Copri e cuoci a fuoco basso per 2 ore.",
+            "Verso fine cottura regola di sale e pepe.",
+            "Togli salvia, alloro e rosmarino e servi nei piatti con parmigiano grattugiato e una macinata di pepe."
+          ],
+          "en": [
+            "Wash the tripe under running water, drain it and cut it into thin strips.",
+            "Finely chop the onion, garlic, carrot and celery and sauté them in a pot with the oil for a few minutes.",
+            "Add the tripe and brown it with the vegetables for a few minutes.",
+            "Add the bay, sage, rosemary, tomato pulp and broth. Cover and cook over low heat for 2 hours.",
+            "Towards the end of cooking, season with salt and pepper.",
+            "Remove the sage, bay and rosemary and serve in bowls with grated Parmesan and freshly ground pepper."
+          ],
+          "fr": [
+            "Lave les tripes sous l'eau courante, égoutte-les et coupe-les en fines lanières.",
+            "Hache finement l'oignon, l'ail, la carotte et le céleri et fais-les revenir dans une cocotte avec l'huile pendant quelques minutes.",
+            "Ajoute les tripes et fais-les dorer avec les légumes quelques minutes.",
+            "Ajoute laurier, sauge, romarin, pulpe de tomate et bouillon. Couvre et cuis à feu doux pendant 2 heures.",
+            "Vers la fin de la cuisson, rectifie le sel et le poivre.",
+            "Retire la sauge, le laurier et le romarin et sers dans des assiettes avec du parmesan râpé et un tour de moulin à poivre."
+          ],
+          "de": [
+            "Die Kutteln unter fließendem Wasser waschen, abtropfen lassen und in dünne Streifen schneiden.",
+            "Zwiebel, Knoblauch, Karotte und Sellerie fein hacken und in einem Topf mit dem Öl einige Minuten anbraten.",
+            "Die Kutteln hinzufügen und einige Minuten mit dem Gemüse anbraten.",
+            "Lorbeer, Salbei, Rosmarin, Tomatenfruchtfleisch und Brühe zugeben. Zudecken und bei schwacher Hitze 2 Stunden garen.",
+            "Gegen Ende der Garzeit mit Salz und Pfeffer abschmecken.",
+            "Salbei, Lorbeer und Rosmarin entfernen und in Tellern mit geriebenem Parmesan und frisch gemahlenem Pfeffer servieren."
+          ],
+          "es": [
+            "Lava los callos bajo el agua corriente, escúrrelos y córtalos en tiras finas.",
+            "Pica finamente la cebolla, el ajo, la zanahoria y el apio y sofríelos en una olla con el aceite unos minutos.",
+            "Añade los callos y sella junto con las verduras unos minutos.",
+            "Incorpora laurel, salvia, romero, pulpa de tomate y caldo. Tapa y cuece a fuego lento durante 2 horas.",
+            "Hacia el final de la cocción rectifica de sal y pimienta.",
+            "Retira la salvia, el laurel y el romero y sirve en platos con parmesano rallado y pimienta recién molida."
+          ]
+        }
+      }
+    },
+    {
+      "id": "risi-e-luganega",
+      "nome": "Risi e luganega trevisana",
+      "portata": "primo",
+      "testo": {
+        "it": "Un classico trevigiano. L'originale, racconta Giuseppe Maffioli, era una minestra in brodo con poco riso, nella quale la salsiccia bianca cedeva tutti i suoi umori e profumi; oggi si prepara più spesso come risotto «all'onda». La luganega «da riso» è un impasto di maiale aromatizzato con spezie, la «dosa» trevigiana.",
+        "en": "A Treviso classic. The original, as Giuseppe Maffioli tells it, was a broth soup with only a little rice, in which the white sausage gave up all its juices and aroma; today it is more often made as a «wavy» risotto. The luganega «for rice» is a pork mixture flavoured with spices, the Treviso «dosa».",
+        "fr": "Un classique de Trévise. À l'origine, raconte Giuseppe Maffioli, c'était une soupe au bouillon avec peu de riz, dans laquelle la saucisse blanche cédait tous ses sucs et ses parfums ; aujourd'hui on la prépare plus souvent en risotto « all'onda », fluide. La luganega « à riz » est une farce de porc aromatisée aux épices, la « dosa » trévisane.",
+        "de": "Ein Klassiker aus Treviso. Das Original war, wie Giuseppe Maffioli erzählt, eine Brühsuppe mit wenig Reis, in der die weiße Wurst all ihren Saft und ihr Aroma abgab; heute wird es meist als «all'onda», also cremig-flüssiger Risotto zubereitet. Die Luganega «für Reis» ist eine mit Gewürzen aromatisierte Schweinefleischmasse, die Trevisaner «Dosa».",
+        "es": "Un clásico de Treviso. El original, cuenta Giuseppe Maffioli, era una sopa en caldo con poco arroz, en la que la salchicha blanca cedía todos sus jugos y aromas; hoy se prepara más a menudo como risotto «all'onda», meloso. La luganega «para arroz» es una masa de cerdo aromatizada con especias, la «dosa» trevisana."
+      },
+      "ricetta": {
+        "fonte": "https://www.parcosile.it/pagina.php?id=52",
+        "porzioni": 4,
+        "ingredienti": {
+          "it": [
+            "300 g di luganega trevisana da riso",
+            "400 g di riso",
+            "1 cipolla tritata",
+            "Brodo vegetale q.b.",
+            "Vino rosso q.b.",
+            "Burro q.b.",
+            "Grana grattugiato q.b."
+          ],
+          "en": [
+            "300 g Treviso luganega «for rice»",
+            "400 g rice",
+            "1 chopped onion",
+            "Vegetable broth as needed",
+            "Red wine as needed",
+            "Butter as needed",
+            "Grated Grana cheese as needed"
+          ],
+          "fr": [
+            "300 g de luganega trévisane « à riz »",
+            "400 g de riz",
+            "1 oignon haché",
+            "Bouillon de légumes selon besoin",
+            "Vin rouge selon besoin",
+            "Beurre selon besoin",
+            "Grana râpé selon besoin"
+          ],
+          "de": [
+            "300 g Trevisaner Luganega «für Reis»",
+            "400 g Reis",
+            "1 gehackte Zwiebel",
+            "Gemüsebrühe nach Bedarf",
+            "Rotwein nach Bedarf",
+            "Butter nach Bedarf",
+            "Geriebener Grana nach Bedarf"
+          ],
+          "es": [
+            "300 g de luganega trevisana «para arroz»",
+            "400 g de arroz",
+            "1 cebolla picada",
+            "Caldo vegetal, el necesario",
+            "Vino tinto, el necesario",
+            "Mantequilla, la necesaria",
+            "Grana rallado, el necesario"
+          ]
+        },
+        "passaggi": {
+          "it": [
+            "Prepara un buon brodo vegetale (a volte il brodo serviva anche per cuocere la luganega).",
+            "Taglia la luganega a pezzetti e scottala in un tegame con la cipolla tritata, in modo da far uscire il suo grasso.",
+            "Unisci il riso e tostalo per pochi istanti.",
+            "Bagna con il vino rosso e lascialo evaporare.",
+            "Aggiungi il brodo e porta a cottura, lasciando il risotto «all'onda».",
+            "A fine cottura spegni e manteca con pochissimo burro e grana. Impiatta e lascia intiepidire prima di servire."
+          ],
+          "en": [
+            "Make a good vegetable broth (sometimes the broth was also used to cook the luganega).",
+            "Cut the luganega into small pieces and sear it in a pan with the chopped onion to release its fat.",
+            "Add the rice and toast it for a few moments.",
+            "Add the red wine and let it evaporate.",
+            "Add the broth and cook, leaving the risotto «all'onda» (loose and creamy).",
+            "At the end turn off the heat and stir in a very little butter and Grana. Plate it and let it cool slightly before serving."
+          ],
+          "fr": [
+            "Prépare un bon bouillon de légumes (parfois le bouillon servait aussi à cuire la luganega).",
+            "Coupe la luganega en petits morceaux et fais-la saisir dans une casserole avec l'oignon haché, pour en faire sortir le gras.",
+            "Ajoute le riz et fais-le nacrer quelques instants.",
+            "Mouille avec le vin rouge et laisse-le s'évaporer.",
+            "Ajoute le bouillon et cuis en laissant le risotto « all'onda » (fluide et crémeux).",
+            "En fin de cuisson, éteins et mante avec très peu de beurre et de grana. Dresse et laisse tiédir avant de servir."
+          ],
+          "de": [
+            "Eine gute Gemüsebrühe zubereiten (manchmal diente die Brühe auch zum Garen der Luganega).",
+            "Die Luganega in kleine Stücke schneiden und in einem Topf mit der gehackten Zwiebel anbraten, damit das Fett austritt.",
+            "Den Reis hinzufügen und kurz anrösten.",
+            "Mit dem Rotwein ablöschen und verdampfen lassen.",
+            "Die Brühe zugeben und garen, sodass der Risotto «all'onda» (cremig-flüssig) bleibt.",
+            "Am Ende vom Herd nehmen und mit sehr wenig Butter und Grana binden. Anrichten und vor dem Servieren leicht abkühlen lassen."
+          ],
+          "es": [
+            "Prepara un buen caldo vegetal (a veces el caldo servía también para cocer la luganega).",
+            "Corta la luganega en trozos pequeños y séllala en una cazuela con la cebolla picada para que suelte su grasa.",
+            "Añade el arroz y tuéstalo unos instantes.",
+            "Moja con el vino tinto y deja que se evapore.",
+            "Añade el caldo y cuece, dejando el risotto «all'onda» (meloso).",
+            "Al final apaga y manteca con muy poca mantequilla y grana. Emplata y deja templar antes de servir."
+          ]
+        }
+      }
+    }
+  ]
 }

@@ -32,6 +32,7 @@
   "piazza-dei-signori": 3,
   "piazza-indipendenza": 1,
   "piazza-san-vito": 3,
+  "ponte-dante": 2,
   "porta-altinia": 3,
   "porta-san-tomaso": 3,
   "porta-santi-quaranta": 3,
@@ -39,6 +40,13 @@
   "sala-del-capitolo-dei-domenicani": 3,
   "scuola-del-santissimo": 1
  },
- "cibi": [],
+ "cibi": [
+  "castagnaccio",
+  "frittata-con-schioppettini",
+  "pasta-e-fasioi",
+  "radicchio-rosso-di-treviso",
+  "sopressa-trevigiana",
+  "tiramisu"
+ ],
  "aguzza": []
 }

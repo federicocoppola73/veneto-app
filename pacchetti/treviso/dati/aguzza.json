@@ -1,5 +1,232 @@
 {
-  "_nota": "Treviso: itinerari 'Aguzza la vista' da preparare.",
-  "itinerari": [],
-  "domande": []
+  "_nota": "Treviso: domande 'Aguzza la vista' dal foglio Aguzza (Treviso_dati_app), tradotte in 5 lingue. da_verificare: risposta da controllare sul posto. Le foto delle risposte (foto) si aggiungono in assets/aguzza.",
+  "itinerari": [
+    {
+      "id": "aguzza-centro-storico",
+      "titolo": {
+        "it": "Aguzza la vista – Centro storico",
+        "en": "Look closer – Historic centre",
+        "fr": "Ouvrez l'œil – Centre historique",
+        "de": "Genau hinsehen – Altstadt",
+        "es": "Agudiza la vista – Centro histórico"
+      },
+      "tappe": [
+        "piazza-indipendenza",
+        "porta-san-tomaso",
+        "porta-santi-quaranta",
+        "cattedrale-di-san-pietro-apostolo",
+        "loggia-dei-cavalieri",
+        "fontana-delle-tette",
+        "chiesa-di-san-nicolo",
+        "sala-del-capitolo-dei-domenicani",
+        "ponte-dante",
+        "isola-della-pescheria"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "luogo_id": "piazza-indipendenza",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Che cosa calpesta con il piede la figura femminile in cima al monumento?",
+        "en": "What does the female figure at the top of the monument tread on with her foot?",
+        "fr": "Que foule du pied la figure féminine au sommet du monument ?",
+        "de": "Was tritt die weibliche Figur an der Spitze des Denkmals mit dem Fuß?",
+        "es": "¿Qué pisa con el pie la figura femenina en lo alto del monumento?"
+      },
+      "risposta": {
+        "it": "Una catena spezzata, simbolo della fine della sottomissione all'Austria.",
+        "en": "A broken chain, symbol of the end of subjection to Austria.",
+        "fr": "Une chaîne brisée, symbole de la fin de la soumission à l'Autriche.",
+        "de": "Eine zerbrochene Kette, Symbol für das Ende der Unterwerfung unter Österreich.",
+        "es": "Una cadena rota, símbolo del fin de la sumisión a Austria."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "porta-san-tomaso",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quale animale alato compare al centro della facciata esterna?",
+        "en": "Which winged animal appears in the centre of the outer façade?",
+        "fr": "Quel animal ailé apparaît au centre de la façade extérieure ?",
+        "de": "Welches geflügelte Tier ist in der Mitte der Außenfassade zu sehen?",
+        "es": "¿Qué animal alado aparece en el centro de la fachada exterior?"
+      },
+      "risposta": {
+        "it": "Il leone di San Marco, simbolo della Repubblica di Venezia.",
+        "en": "The lion of Saint Mark, symbol of the Republic of Venice.",
+        "fr": "Le lion de saint Marc, symbole de la République de Venise.",
+        "de": "Der Markuslöwe, Symbol der Republik Venedig.",
+        "es": "El león de San Marcos, símbolo de la República de Venecia."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "porta-santi-quaranta",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quanti archi si aprono nella facciata principale della porta?",
+        "en": "How many arches open in the main façade of the gate?",
+        "fr": "Combien d'arcs s'ouvrent dans la façade principale de la porte ?",
+        "de": "Wie viele Bögen öffnen sich in der Hauptfassade des Tores?",
+        "es": "¿Cuántos arcos se abren en la fachada principal de la puerta?"
+      },
+      "risposta": {
+        "it": "Tre: quello centrale è più ampio dei due laterali.",
+        "en": "Three: the central one is wider than the two side ones.",
+        "fr": "Trois : celui du centre est plus large que les deux latéraux.",
+        "de": "Drei: der mittlere ist breiter als die beiden seitlichen.",
+        "es": "Tres: el central es más ancho que los dos laterales."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "cattedrale-di-san-pietro-apostolo",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Che cosa tengono tra le zampe i due leoni di marmo ai lati della scalinata?",
+        "en": "What do the two marble lions at the sides of the staircase hold between their paws?",
+        "fr": "Que tiennent entre leurs pattes les deux lions de marbre de part et d'autre de l'escalier ?",
+        "de": "Was halten die beiden Marmorlöwen an den Seiten der Freitreppe zwischen den Pfoten?",
+        "es": "¿Qué sujetan entre las patas los dos leones de mármol a los lados de la escalinata?"
+      },
+      "risposta": {
+        "it": "Il leone di sinistra ha un serpente o drago, quello di destra una testa umana mozzata.",
+        "en": "The lion on the left has a serpent or dragon, the one on the right a severed human head.",
+        "fr": "Le lion de gauche tient un serpent ou un dragon, celui de droite une tête humaine coupée.",
+        "de": "Der linke Löwe hält eine Schlange oder einen Drachen, der rechte einen abgeschlagenen Menschenkopf.",
+        "es": "El león de la izquierda tiene una serpiente o dragón, el de la derecha una cabeza humana cortada."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "loggia-dei-cavalieri",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quanti archi a tutto sesto si aprono su ciascuno dei tre lati porticati?",
+        "en": "How many round arches open on each of the three arcaded sides?",
+        "fr": "Combien d'arcs en plein cintre s'ouvrent sur chacun des trois côtés à arcades ?",
+        "de": "Wie viele Rundbögen öffnen sich auf jeder der drei Arkadenseiten?",
+        "es": "¿Cuántos arcos de medio punto se abren en cada uno de los tres lados porticados?"
+      },
+      "risposta": {
+        "it": "Cinque archi per lato.",
+        "en": "Five arches on each side.",
+        "fr": "Cinq arcs de chaque côté.",
+        "de": "Fünf Bögen pro Seite.",
+        "es": "Cinco arcos por lado."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "fontana-delle-tette",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quali due bevande, secondo la tradizione, uscivano dai due getti della fontana durante le feste?",
+        "en": "Which two drinks, according to tradition, flowed from the fountain's two jets during celebrations?",
+        "fr": "Quelles deux boissons, selon la tradition, coulaient des deux jets de la fontaine lors des fêtes ?",
+        "de": "Welche zwei Getränke flossen der Überlieferung nach bei Festen aus den beiden Strahlen des Brunnens?",
+        "es": "¿Qué dos bebidas, según la tradición, salían de los dos chorros de la fuente durante las fiestas?"
+      },
+      "risposta": {
+        "it": "Vino bianco e vino rosso.",
+        "en": "White wine and red wine.",
+        "fr": "Du vin blanc et du vin rouge.",
+        "de": "Weißwein und Rotwein.",
+        "es": "Vino blanco y vino tinto."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "chiesa-di-san-nicolo",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Dove si trova il grande affresco raffigurante San Cristoforo?",
+        "en": "Where is the large fresco of Saint Christopher?",
+        "fr": "Où se trouve la grande fresque représentant saint Christophe ?",
+        "de": "Wo befindet sich das große Fresko des heiligen Christophorus?",
+        "es": "¿Dónde está el gran fresco que representa a San Cristóbal?"
+      },
+      "risposta": {
+        "it": "Sulla parete della navata destra.",
+        "en": "On the wall of the right aisle.",
+        "fr": "Sur le mur de la nef de droite.",
+        "de": "An der Wand des rechten Seitenschiffs.",
+        "es": "En la pared de la nave derecha."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "sala-del-capitolo-dei-domenicani",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quanti personaggi domenicani sono raffigurati nel ciclo di affreschi di Tomaso da Modena?",
+        "en": "How many Dominican figures are portrayed in Tomaso da Modena's fresco cycle?",
+        "fr": "Combien de personnages dominicains sont représentés dans le cycle de fresques de Tomaso da Modena ?",
+        "de": "Wie viele Dominikaner sind im Freskenzyklus von Tomaso da Modena dargestellt?",
+        "es": "¿Cuántos personajes dominicos están representados en el ciclo de frescos de Tomaso da Modena?"
+      },
+      "risposta": {
+        "it": "Quaranta, rappresentati nei loro studi e nelle loro attività.",
+        "en": "Forty, shown in their studies and at their activities.",
+        "fr": "Quarante, représentés dans leurs études et leurs activités.",
+        "de": "Vierzig, dargestellt bei ihrem Studium und ihren Tätigkeiten.",
+        "es": "Cuarenta, representados en sus estudios y actividades."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    },
+    {
+      "luogo_id": "ponte-dante",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quale poeta è raffigurato sulla stele commemorativa del ponte?",
+        "en": "Which poet is portrayed on the bridge's commemorative stele?",
+        "fr": "Quel poète est représenté sur la stèle commémorative du pont ?",
+        "de": "Welcher Dichter ist auf der Gedenkstele der Brücke dargestellt?",
+        "es": "¿Qué poeta aparece representado en la estela conmemorativa del puente?"
+      },
+      "risposta": {
+        "it": "Dante Alighieri, rappresentato con il capo cinto d'alloro.",
+        "en": "Dante Alighieri, shown with his head crowned with laurel.",
+        "fr": "Dante Alighieri, représenté la tête ceinte de laurier.",
+        "de": "Dante Alighieri, mit einem Lorbeerkranz um das Haupt dargestellt.",
+        "es": "Dante Alighieri, representado con la cabeza ceñida de laurel."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null,
+      "da_verificare": true
+    },
+    {
+      "luogo_id": "isola-della-pescheria",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Che cosa circonda completamente il piccolo isolotto su cui si svolge il mercato del pesce?",
+        "en": "What completely surrounds the small islet where the fish market is held?",
+        "fr": "Qu'est-ce qui entoure entièrement le petit îlot où se tient le marché aux poissons ?",
+        "de": "Was umgibt die kleine Insel, auf der der Fischmarkt stattfindet, vollständig?",
+        "es": "¿Qué rodea por completo el pequeño islote donde se celebra el mercado de pescado?"
+      },
+      "risposta": {
+        "it": "L'acqua del Cagnan.",
+        "en": "The water of the Cagnan.",
+        "fr": "L'eau du Cagnan.",
+        "de": "Das Wasser des Cagnan.",
+        "es": "El agua del Cagnan."
+      },
+      "itinerario": "aguzza-centro-storico",
+      "foto": null
+    }
+  ]
 }
