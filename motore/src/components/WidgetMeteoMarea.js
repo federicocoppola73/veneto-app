@@ -32,12 +32,13 @@ function quando(testo, t) {
 }
 
 /**
- * Barra in fondo allo schermo con meteo e marea di Venezia.
+ * Barra in fondo allo schermo con il meteo della città (e la marea, solo a Venezia).
  * Toccandola si apre il dettaglio (prossimi picchi di marea, vento, pioggia, avvisi di acqua alta).
  * Se è prevista acqua alta nelle prossime 48 ore, sopra la barra compare una striscia di avviso.
  */
 // margineBasso: altezza dei tasti di navigazione del telefono, per non finirci sotto
-export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
+// conMarea: false nelle città senza laguna (solo meteo); posizione: dove leggere il meteo
+export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0, conMarea = true, posizione }) {
   const [meteo, setMeteo] = useState(null);
   const [marea, setMarea] = useState(null);
   const [stato, setStato] = useState('caricamento'); // caricamento | ok | errore
@@ -51,13 +52,13 @@ export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
 
   const aggiorna = useCallback(async () => {
     setStato((s) => (s === 'ok' ? 'ok' : 'caricamento'));
-    const [m, ma] = await Promise.allSettled([leggiMeteo(), leggiMarea()]);
+    const [m, ma] = await Promise.allSettled([leggiMeteo(posizione), conMarea ? leggiMarea() : Promise.reject(new Error('senza marea'))]);
     if (m.status === 'fulfilled') setMeteo(m.value);
     if (ma.status === 'fulfilled') setMarea(ma.value);
     const qualcosa = m.status === 'fulfilled' || ma.status === 'fulfilled';
     setStato(qualcosa ? 'ok' : 'errore');
     if (qualcosa) ultimo.current = Date.now();
-  }, []);
+  }, [conMarea, posizione?.latitudine, posizione?.longitudine]);
 
   useEffect(() => {
     aggiorna();
@@ -74,11 +75,12 @@ export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
 
   // preferenze degli avvisi salvate sul telefono
   useEffect(() => {
+    if (!conMarea) return;
     leggiPreferenze().then(async (p) => {
       setPref(p);
       if (p.attiva && !(await permessoConcesso())) setNegato(true);
     });
-  }, []);
+  }, [conMarea]);
 
   // ricalcola le notifiche a ogni nuova previsione o cambio di preferenze/lingua
   useEffect(() => {
@@ -151,7 +153,7 @@ export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
       onLongPress={aggiorna}
       accessibilityRole="button"
       accessibilityState={{ expanded: aperto }}
-      accessibilityLabel={`${t('meteo')} ${meteo ? fmt(meteo.temperatura) + '°' : ''}, ${t('marea')} ${marea?.attuale ?? '–'} cm`}
+      accessibilityLabel={`${t('meteo')} ${meteo ? fmt(meteo.temperatura) + '°' : ''}${conMarea ? `, ${t('marea')} ${marea?.attuale ?? '–'} cm` : ''}`}
     >
       {!compatto && <View style={styles.maniglia} />}
       {/* Riga sempre visibile */}
@@ -167,6 +169,7 @@ export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
             </View>
           </View>
         )}
+        {conMarea ? (<>
         <View style={styles.separatore} />
         <View style={[styles.blocco, { flex: 1 }]}>
           <Text style={styles.icona}>🌊</Text>
@@ -198,6 +201,13 @@ export default function WidgetMeteoMarea({ t, compatto, margineBasso = 0 }) {
           <View style={[styles.badge, { backgroundColor: colore }]}>
             <Text style={styles.testoBadge}>{t(`mar_${classe}`)}</Text>
           </View>
+        )}
+        </>) : (
+          meteo && (
+            <View style={{ flex: 1 }}>
+              <Text style={styles.sotto} numberOfLines={1}>{`↑${fmt(meteo.massima)}°  ↓${fmt(meteo.minima)}°  ☔ ${fmt(meteo.pioggia)}%`}</Text>
+            </View>
+          )
         )}
         <Text style={styles.freccia}>{aperto ? '▾' : '▴'}</Text>
       </View>

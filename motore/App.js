@@ -899,7 +899,7 @@ function Schermata({ linguaIniziale }) {
         )}
       </View>
 
-      {haMarea() && <WidgetMeteoMarea t={t} margineBasso={insets.bottom} />}
+      <WidgetMeteoMarea t={t} margineBasso={insets.bottom} conMarea={haMarea()} posizione={riferimentoCitta()} />
 
       <SelettoreItinerari
         visibile={selettoreAperto}

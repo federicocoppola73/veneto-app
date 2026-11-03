@@ -2,14 +2,15 @@
 
 const VENEZIA = { latitudine: 45.4372, longitudine: 12.3326 };
 
-const URL_METEO =
+const urlMeteo = ({ latitudine, longitudine }) =>
   'https://api.open-meteo.com/v1/forecast' +
-  `?latitude=${VENEZIA.latitudine}&longitude=${VENEZIA.longitudine}` +
+  `?latitude=${latitudine}&longitude=${longitudine}` +
   '&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m,is_day' +
   '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&forecast_days=1&timezone=Europe%2FRome';
 
-export async function leggiMeteo() {
-  const risposta = await fetch(URL_METEO);
+// posizione: { latitudine, longitudine } della città attiva (predefinita: Venezia)
+export async function leggiMeteo(posizione = VENEZIA) {
+  const risposta = await fetch(urlMeteo(posizione?.latitudine != null ? posizione : VENEZIA));
   if (!risposta.ok) throw new Error(`HTTP ${risposta.status}`);
   const meteo = await risposta.json();
   const c = meteo.current || {};
