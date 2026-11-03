@@ -3129,6 +3129,50 @@
           "autore": "Foto propria"
         }
       ]
+    },
+    {
+      "id": "palazzo-loschi-zileri-dal-verme",
+      "nome": "Palazzo Loschi Zileri dal Verme",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.546858,
+      "longitudine": 11.542822,
+      "personaggio": "ottone-calderari",
+      "descrizione": {
+        "it": "Palazzo Loschi Zileri dal Verme è un elegante edificio settecentesco situato lungo Corso Palladio, di fronte alla chiesa di San Filippo Neri. Fu progettato intorno al 1780 dall'architetto vicentino Ottone Calderari per i fratelli Alfonso e Francesco Loschi, come raffinata reinterpretazione dei modelli architettonici palladiani. Il progetto originario, molto più ampio, venne realizzato soltanto in parte a causa degli elevati costi di costruzione. La facciata, caratterizzata da un'impostazione neoclassica e da un armonioso equilibrio di forme, testimonia il gusto elegante dell'architettura vicentina del Settecento. Una curiosità storica è la palla di cannone ancora visibile sulla facciata, ricordo degli scontri tra le truppe francesi e austriache avvenuti a Vicenza nel novembre del 1805. Il palazzo passò successivamente alla famiglia Zileri dal Verme, dalla quale deriva il nome attuale.",
+        "en": "Palazzo Loschi Zileri dal Verme is an elegant eighteenth-century building on Corso Palladio, opposite the church of San Filippo Neri. It was designed around 1780 by the Vicentine architect Ottone Calderari for the brothers Alfonso and Francesco Loschi, as a refined reinterpretation of Palladian architectural models. The original project, much larger, was only partly built because of high construction costs. The façade, with its neoclassical layout and harmonious balance of forms, reflects the elegant taste of eighteenth-century Vicentine architecture. A historical curiosity is the cannonball still visible on the façade, a reminder of the clashes between French and Austrian troops in Vicenza in November 1805. The palace later passed to the Zileri dal Verme family, from whom its current name derives.",
+        "fr": "Le palais Loschi Zileri dal Verme est un élégant édifice du XVIIIe siècle situé le long du Corso Palladio, face à l'église San Filippo Neri. Conçu vers 1780 par l'architecte vicentin Ottone Calderari pour les frères Alfonso et Francesco Loschi, il constitue une réinterprétation raffinée des modèles architecturaux palladiens. Le projet d'origine, beaucoup plus vaste, ne fut réalisé qu'en partie en raison des coûts de construction élevés. La façade, de conception néoclassique et d'un bel équilibre des formes, témoigne du goût raffiné de l'architecture vicentine du XVIIIe siècle. Une curiosité historique est le boulet de canon encore visible sur la façade, souvenir des combats entre troupes françaises et autrichiennes à Vicence en novembre 1805. Le palais passa ensuite à la famille Zileri dal Verme, dont il tire son nom actuel.",
+        "de": "Der Palazzo Loschi Zileri dal Verme ist ein eleganter Bau des 18. Jahrhunderts am Corso Palladio, gegenüber der Kirche San Filippo Neri. Er wurde um 1780 vom Vicentiner Architekten Ottone Calderari für die Brüder Alfonso und Francesco Loschi entworfen, als feinsinnige Neuinterpretation palladianischer Vorbilder. Der ursprüngliche, weit größere Entwurf wurde wegen der hohen Baukosten nur teilweise verwirklicht. Die Fassade mit ihrem klassizistischen Aufbau und ihrem harmonischen Gleichgewicht der Formen zeugt vom eleganten Geschmack der Vicentiner Architektur des 18. Jahrhunderts. Eine historische Kuriosität ist die Kanonenkugel, die noch heute an der Fassade zu sehen ist und an die Kämpfe zwischen französischen und österreichischen Truppen in Vicenza im November 1805 erinnert. Der Palast ging später an die Familie Zileri dal Verme über, von der sich der heutige Name ableitet.",
+        "es": "El Palazzo Loschi Zileri dal Verme es un elegante edificio del siglo XVIII situado en el Corso Palladio, frente a la iglesia de San Filippo Neri. Fue proyectado hacia 1780 por el arquitecto vicentino Ottone Calderari para los hermanos Alfonso y Francesco Loschi, como una refinada reinterpretación de los modelos arquitectónicos palladianos. El proyecto original, mucho más amplio, se realizó solo en parte debido a los elevados costes de construcción. La fachada, de disposición neoclásica y equilibrio armonioso de formas, refleja el elegante gusto de la arquitectura vicentina del siglo XVIII. Una curiosidad histórica es la bala de cañón todavía visible en la fachada, recuerdo de los combates entre tropas francesas y austriacas en Vicenza en noviembre de 1805. El palacio pasó después a la familia Zileri dal Verme, de la que deriva su nombre actual."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile dall'esterno. Non risultano orari di visita: il palazzo è privato e ospita attività private. Ingresso gratuito dalla strada.",
+        "en": "Visible from outside. No visiting hours found: the palace is private and houses private businesses. Free entry from the street.",
+        "fr": "Visible de l'extérieur. Aucun horaire de visite trouvé : le palais est privé et abrite des activités privées. Entrée gratuite depuis la rue.",
+        "de": "Von außen sichtbar. Keine Besuchszeiten gefunden: Der Palast ist privat und beherbergt private Betriebe. Eintritt von der Straße frei.",
+        "es": "Visible desde el exterior. No se han encontrado horarios de visita: el palacio es privado y alberga actividades privadas. Entrada gratuita desde la calle."
+      },
+      "immagine": {
+        "autore": "Geobia",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=42294802"
+      },
+      "galleria": [
+        {
+          "autore": "Claudio Gioseffi",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=23444172"
+        },
+        {
+          "autore": "Alain Rouiller",
+          "licenza": "CC BY-SA 2.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=24545796"
+        }
+      ]
     }
   ]
 }

@@ -843,7 +843,8 @@
         ]
       },
       "luoghi": [
-        "palazzo-cordellina"
+        "palazzo-cordellina",
+        "palazzo-loschi-zileri-dal-verme"
       ],
       "luoghiNote": {
         "palazzo-cordellina": {
@@ -860,6 +861,22 @@
             "fr": "L'une de ses œuvres les plus significatives. Conçu pour le juriste Carlo Cordellina, il ne fut réalisé qu'en partie par rapport au projet d'origine.",
             "de": "Eines seiner bedeutendsten Werke. Es wurde für den Rechtsgelehrten Carlo Cordellina entworfen, aber im Vergleich zum ursprünglichen Entwurf nur teilweise ausgeführt.",
             "es": "Una de sus obras más significativas. Fue proyectado para el jurisconsulto Carlo Cordellina, pero se realizó solo en parte respecto al proyecto original."
+          }
+        },
+        "palazzo-loschi-zileri-dal-verme": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Progettato da Calderari intorno al 1780, riprende elementi della tradizione palladiana, reinterpretati con un gusto più vicino alla sensibilità settecentesca.",
+            "en": "Designed by Calderari around 1780, it draws on Palladian traditions, reinterpreted with a taste closer to eighteenth-century sensibility.",
+            "fr": "Conçu par Calderari vers 1780, il reprend des éléments de la tradition palladienne, réinterprétés avec un goût plus proche de la sensibilité du XVIIIe siècle.",
+            "de": "Um 1780 von Calderari entworfen, greift er Elemente der palladianischen Tradition auf, die mit einem Geschmack neu interpretiert sind, der dem Empfinden des 18. Jahrhunderts näher steht.",
+            "es": "Proyectado por Calderari hacia 1780, recoge elementos de la tradición palladiana, reinterpretados con un gusto más cercano a la sensibilidad del siglo XVIII."
           }
         }
       },
