@@ -995,7 +995,8 @@
       "luoghi": [
         "sant-eufemia",
         "cimitero-monumentale",
-        "biblioteca-civica"
+        "biblioteca-civica",
+        "casa-natale-salgari"
       ],
       "luoghiNote": {
         "sant-eufemia": {
@@ -1044,6 +1045,22 @@
             "fr": "Devant l'entrée de la Bibliothèque civique, via Cappello, se dresse une statue en bronze dédiée à l'écrivain, réalisée par le sculpteur Sergio Pasetto.",
             "de": "Vor dem Eingang der Biblioteca Civica in der Via Cappello steht eine Bronzestatue, die dem Schriftsteller gewidmet ist und vom Bildhauer Sergio Pasetto geschaffen wurde.",
             "es": "Frente a la entrada de la Biblioteca Civica, en la via Cappello, se alza una estatua de bronce dedicada al escritor, obra del escultor Sergio Pasetto."
+          }
+        },
+        "casa-natale-salgari": {
+          "tipo": {
+            "it": "Legame diretto – nascita",
+            "en": "Direct link – birth",
+            "fr": "Lien direct – naissance",
+            "de": "Direkter Bezug – Geburt",
+            "es": "Vínculo directo – nacimiento"
+          },
+          "testo": {
+            "it": "Secondo la scheda turistica del Comune, qui Salgari nacque e trascorse l'infanzia. Una targa del 1959 ricorda la nascita.",
+            "en": "According to the Comune's tourist guide, Salgari was born and spent his childhood here. A plaque from 1959 commemorates his birth.",
+            "fr": "Selon le guide touristique de la commune, Salgari naquit ici et y passa son enfance. Une plaque de 1959 commémore sa naissance.",
+            "de": "Laut dem touristischen Stadtführer der Gemeinde kam Salgari hier zur Welt und verbrachte hier seine Kindheit. Eine Gedenktafel von 1959 erinnert an seine Geburt.",
+            "es": "Según la guía turística del Ayuntamiento, Salgari nació aquí y pasó aquí su infancia. Una placa de 1959 recuerda su nacimiento."
           }
         }
       },
