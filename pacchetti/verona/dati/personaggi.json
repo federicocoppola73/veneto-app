@@ -472,7 +472,21 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [],
+      "luogoMorte": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataMorte": {
+        "it": "1559",
+        "en": "1559",
+        "fr": "1559",
+        "de": "1559",
+        "es": "1559"
+      }
     },
     {
       "id": "scipione-maffei",
@@ -605,7 +619,14 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [],
+      "luogoMorte": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      }
     }
   ]
 }
