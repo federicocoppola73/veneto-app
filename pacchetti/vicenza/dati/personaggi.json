@@ -357,6 +357,117 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "vincenzo-scamozzi",
+      "nome": "Vincenzo Scamozzi",
+      "nascita": 1548,
+      "morte": 1616,
+      "professione": {
+        "it": "Architetto e trattatista",
+        "en": "Architect and theorist",
+        "fr": "Architecte et théoricien",
+        "de": "Architekt und Architekturtheoretiker",
+        "es": "Arquitecto y tratadista"
+      },
+      "luogoNascita": {
+        "it": "Vicenza",
+        "en": "Vicenza",
+        "fr": "Vicence",
+        "de": "Vicenza",
+        "es": "Vicenza"
+      },
+      "dataNascita": {
+        "it": "1548",
+        "en": "1548",
+        "fr": "1548",
+        "de": "1548",
+        "es": "1548"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "1616",
+        "en": "1616",
+        "fr": "1616",
+        "de": "1616",
+        "es": "1616"
+      },
+      "ritratto": {
+        "autore": "Domenichino",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Vincenzo Scamozzi nacque a Vicenza nel 1548 e si formò inizialmente sotto la guida del padre Giandomenico, anch'egli architetto. Studiò l'opera di Andrea Palladio, sviluppando successivamente un linguaggio architettonico personale. Lavorò in diverse città del Veneto e d'Italia, distinguendosi anche come teorico dell'architettura. Tra le sue opere più celebri figura il Teatro all'Antica di Sabbioneta. A Vicenza intervenne su importanti edifici e completò alcune opere lasciate incompiute da Palladio, tra cui il Teatro Olimpico.",
+        "en": "Vincenzo Scamozzi was born in Vicenza in 1548 and trained first under his father Giandomenico, himself an architect. He studied the work of Andrea Palladio, later developing a personal architectural language. He worked in several cities of the Veneto and Italy, and stood out as a theorist of architecture. Among his most celebrated works is the Teatro all'Antica in Sabbioneta. In Vicenza he intervened on important buildings and completed some works left unfinished by Palladio, including the Teatro Olimpico.",
+        "fr": "Vincenzo Scamozzi naquit à Vicence en 1548 et se forma d'abord auprès de son père Giandomenico, lui aussi architecte. Il étudia l'œuvre d'Andrea Palladio, développant ensuite un langage architectural personnel. Il travailla dans plusieurs villes de Vénétie et d'Italie, se distinguant aussi comme théoricien de l'architecture. Parmi ses œuvres les plus célèbres figure le Teatro all'Antica de Sabbioneta. À Vicence, il intervint sur d'importants édifices et acheva certaines œuvres laissées inachevées par Palladio, dont le Teatro Olimpico.",
+        "de": "Vincenzo Scamozzi wurde 1548 in Vicenza geboren und zunächst von seinem Vater Giandomenico, ebenfalls Architekt, ausgebildet. Er studierte das Werk Andrea Palladios und entwickelte später eine eigene architektonische Formensprache. Er arbeitete in mehreren Städten Venetiens und Italiens und zeichnete sich auch als Architekturtheoretiker aus. Zu seinen berühmtesten Werken gehört das Teatro all'Antica in Sabbioneta. In Vicenza war er an bedeutenden Gebäuden tätig und vollendete einige von Palladio unvollendet hinterlassene Werke, darunter das Teatro Olimpico.",
+        "es": "Vincenzo Scamozzi nació en Vicenza en 1548 y se formó inicialmente bajo la guía de su padre Giandomenico, también arquitecto. Estudió la obra de Andrea Palladio, desarrollando después un lenguaje arquitectónico personal. Trabajó en varias ciudades del Véneto y de Italia, destacando también como teórico de la arquitectura. Entre sus obras más célebres figura el Teatro all'Antica de Sabbioneta. En Vicenza intervino en importantes edificios y completó algunas obras dejadas inacabadas por Palladio, entre ellas el Teatro Olimpico."
+      },
+      "curiosita": {
+        "it": [
+          "Fu uno dei principali continuatori della tradizione architettonica palladiana.",
+          "Pubblicò nel 1615 il trattato L'idea dell'architettura universale.",
+          "Completò il Teatro Olimpico dopo la morte di Palladio, realizzandone le scenografie prospettiche.",
+          "Progettò il Teatro all'Antica di Sabbioneta, uno dei primi teatri stabili dell'età moderna.",
+          "Lavorò anche a Venezia, Padova e in numerose località del Veneto."
+        ],
+        "en": [
+          "He was one of the main continuators of the Palladian architectural tradition.",
+          "In 1615 he published the treatise L'idea dell'architettura universale.",
+          "He completed the Teatro Olimpico after Palladio's death, creating its perspective stage sets.",
+          "He designed the Teatro all'Antica in Sabbioneta, one of the first permanent theatres of the modern age.",
+          "He also worked in Venice, Padua and numerous localities of the Veneto."
+        ],
+        "fr": [
+          "Il fut l'un des principaux continuateurs de la tradition architecturale palladienne.",
+          "En 1615, il publia le traité L'idea dell'architettura universale.",
+          "Il acheva le Teatro Olimpico après la mort de Palladio, en réalisant ses décors en perspective.",
+          "Il conçut le Teatro all'Antica de Sabbioneta, l'un des premiers théâtres permanents de l'âge moderne.",
+          "Il travailla aussi à Venise, à Padoue et dans de nombreuses localités de Vénétie."
+        ],
+        "de": [
+          "Er war einer der wichtigsten Fortsetzer der palladianischen Bautradition.",
+          "1615 veröffentlichte er die Abhandlung L'idea dell'architettura universale.",
+          "Nach Palladios Tod vollendete er das Teatro Olimpico und schuf dessen perspektivische Bühnenbilder.",
+          "Er entwarf das Teatro all'Antica in Sabbioneta, eines der ersten festen Theater der Neuzeit.",
+          "Er arbeitete auch in Venedig, Padua und zahlreichen Orten Venetiens."
+        ],
+        "es": [
+          "Fue uno de los principales continuadores de la tradición arquitectónica palladiana.",
+          "En 1615 publicó el tratado L'idea dell'architettura universale.",
+          "Completó el Teatro Olimpico tras la muerte de Palladio, realizando sus escenografías en perspectiva.",
+          "Proyectó el Teatro all'Antica de Sabbioneta, uno de los primeros teatros estables de la edad moderna.",
+          "Trabajó también en Venecia, Padua y numerosas localidades del Véneto."
+        ]
+      },
+      "luoghi": [
+        "teatro-olimpico"
+      ],
+      "luoghiNote": {
+        "teatro-olimpico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Realizzò le celebri scene prospettiche permanenti e completò l'opera teatrale progettata da Palladio.",
+            "en": "He created the famous permanent perspective stage sets and completed the theatre project designed by Palladio.",
+            "fr": "Il réalisa les célèbres décors en perspective permanents et acheva le projet de théâtre conçu par Palladio.",
+            "de": "Er schuf die berühmten dauerhaften perspektivischen Bühnenbilder und vollendete das von Palladio entworfene Theaterprojekt.",
+            "es": "Realizó las célebres escenas en perspectiva permanentes y completó la obra teatral proyectada por Palladio."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }

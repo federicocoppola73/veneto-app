@@ -132,7 +132,10 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Interior_of_Teatro_Olimpico_(Vicenza)_scena_.jpg"
         }
       ],
-      "personaggio": "andrea-palladio"
+      "personaggio": [
+        "andrea-palladio",
+        "vincenzo-scamozzi"
+      ]
     },
     {
       "id": "villa-la-rotonda",
