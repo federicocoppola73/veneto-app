@@ -340,6 +340,117 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "arturo-martini",
+      "nome": "Arturo Martini",
+      "nascita": 1889,
+      "morte": 1947,
+      "professione": {
+        "it": "Scultore",
+        "en": "Sculptor",
+        "fr": "Sculpteur",
+        "de": "Bildhauer",
+        "es": "Escultor"
+      },
+      "luogoNascita": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataNascita": {
+        "it": "11 agosto 1889",
+        "en": "11 August 1889",
+        "fr": "11 août 1889",
+        "de": "11. August 1889",
+        "es": "11 de agosto de 1889"
+      },
+      "luogoMorte": {
+        "it": "Milano",
+        "en": "Milan",
+        "fr": "Milan",
+        "de": "Mailand",
+        "es": "Milán"
+      },
+      "dataMorte": {
+        "it": "22 marzo 1947",
+        "en": "22 March 1947",
+        "fr": "22 mars 1947",
+        "de": "22. März 1947",
+        "es": "22 de marzo de 1947"
+      },
+      "ritratto": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Arturo Martini è stato uno dei maggiori scultori italiani del Novecento. Nato a Treviso, si avvicinò all'arte frequentando la Scuola serale di arti e mestieri e lavorando inizialmente come apprendista in un laboratorio di oreficeria. Studiò e lavorò in diverse città europee, tra cui Monaco e Parigi, sviluppando uno stile personale che univa suggestioni classiche, etrusche e moderne. La sua produzione comprende sculture in terracotta, gesso, bronzo e pietra.",
+        "en": "Arturo Martini was one of the greatest Italian sculptors of the 20th century. Born in Treviso, he came to art by attending the evening school of arts and crafts and initially working as an apprentice in a goldsmith's workshop. He studied and worked in several European cities, including Munich and Paris, developing a personal style that combined classical, Etruscan and modern influences. His output includes sculptures in terracotta, plaster, bronze and stone.",
+        "fr": "Arturo Martini fut l'un des plus grands sculpteurs italiens du XXe siècle. Né à Trévise, il se rapprocha de l'art en fréquentant l'école du soir d'arts et métiers, travaillant d'abord comme apprenti dans un atelier d'orfèvrerie. Il étudia et travailla dans plusieurs villes européennes, dont Munich et Paris, et développa un style personnel alliant influences classiques, étrusques et modernes. Sa production comprend des sculptures en terre cuite, plâtre, bronze et pierre.",
+        "de": "Arturo Martini gehörte zu den größten italienischen Bildhauern des 20. Jahrhunderts. In Treviso geboren, kam er zur Kunst, indem er die Abendschule für Kunst und Handwerk besuchte und zunächst als Lehrling in einer Goldschmiedewerkstatt arbeitete. Er studierte und arbeitete in verschiedenen europäischen Städten, darunter München und Paris, und entwickelte einen persönlichen Stil, der klassische, etruskische und moderne Einflüsse verband. Sein Werk umfasst Skulpturen aus Terrakotta, Gips, Bronze und Stein.",
+        "es": "Arturo Martini fue uno de los mayores escultores italianos del siglo XX. Nacido en Treviso, se acercó al arte en la escuela nocturna de artes y oficios y trabajó al principio como aprendiz en un taller de orfebrería. Estudió y trabajó en varias ciudades europeas, entre ellas Múnich y París, y desarrolló un estilo personal que unía sugestiones clásicas, etruscas y modernas. Su producción incluye esculturas en terracota, yeso, bronce y piedra."
+      },
+      "curiosita": {
+        "it": [
+          "Fu amico del pittore Gino Rossi, con il quale condivise viaggi, esperienze artistiche e il desiderio di rinnovare il linguaggio dell'arte.",
+          "Nel 1909 soggiornò a Monaco di Baviera, esperienza che contribuì alla sua ricerca nel campo della ceramica.",
+          "Collaborò con la fornace Gregorj di Treviso, realizzando modelli per la produzione ceramica.",
+          "Sperimentò materiali molto diversi, dalla terracotta al bronzo, dal gesso alla pietra.",
+          "Nel 1945 scrisse La scultura lingua morta, un testo in cui espresse una profonda crisi nei confronti della scultura e del suo ruolo nel mondo moderno."
+        ],
+        "en": [
+          "He was a friend of the painter Gino Rossi, with whom he shared travels, artistic experiences and the wish to renew the language of art.",
+          "In 1909 he stayed in Munich, an experience that fed his research into ceramics.",
+          "He worked with the Gregorj kiln in Treviso, making models for ceramic production.",
+          "He experimented with very different materials, from terracotta to bronze, from plaster to stone.",
+          "In 1945 he wrote La scultura lingua morta (Sculpture, a Dead Language), a text expressing a deep crisis about sculpture and its role in the modern world."
+        ],
+        "fr": [
+          "Il fut l'ami du peintre Gino Rossi, avec qui il partagea voyages, expériences artistiques et le désir de renouveler le langage de l'art.",
+          "En 1909, il séjourna à Munich, une expérience qui nourrit sa recherche dans le domaine de la céramique.",
+          "Il collabora avec la fabrique Gregorj de Trévise, réalisant des modèles pour la production céramique.",
+          "Il expérimenta des matériaux très différents, de la terre cuite au bronze, du plâtre à la pierre.",
+          "En 1945, il écrivit La scultura lingua morta (La sculpture, langue morte), un texte exprimant une profonde crise à l'égard de la sculpture et de son rôle dans le monde moderne."
+        ],
+        "de": [
+          "Er war mit dem Maler Gino Rossi befreundet, mit dem er Reisen, künstlerische Erfahrungen und den Wunsch teilte, die Sprache der Kunst zu erneuern.",
+          "1909 hielt er sich in München auf; diese Erfahrung förderte seine Forschung im Bereich der Keramik.",
+          "Er arbeitete mit der Gregorj-Brennerei in Treviso zusammen und entwarf Modelle für die Keramikproduktion.",
+          "Er experimentierte mit sehr unterschiedlichen Materialien, von Terrakotta über Bronze bis zu Gips und Stein.",
+          "1945 schrieb er La scultura lingua morta (Die Skulptur, eine tote Sprache), einen Text, der eine tiefe Krise gegenüber der Bildhauerei und ihrer Rolle in der modernen Welt zum Ausdruck bringt."
+        ],
+        "es": [
+          "Fue amigo del pintor Gino Rossi, con quien compartió viajes, experiencias artísticas y el deseo de renovar el lenguaje del arte.",
+          "En 1909 residió en Múnich, una experiencia que contribuyó a su investigación en el campo de la cerámica.",
+          "Colaboró con el horno Gregorj de Treviso, realizando modelos para la producción cerámica.",
+          "Experimentó con materiales muy distintos, desde la terracota al bronce, desde el yeso a la piedra.",
+          "En 1945 escribió La scultura lingua morta (La escultura, lengua muerta), un texto en el que expresó una profunda crisis respecto a la escultura y a su papel en el mundo moderno."
+        ]
+      },
+      "luoghi": [
+        "museo-luigi-bailo"
+      ],
+      "luoghiNote": {
+        "museo-luigi-bailo": {
+          "tipo": {
+            "it": "Raccolta di opere",
+            "en": "Collection of works",
+            "fr": "Collection d'œuvres",
+            "de": "Werkbestand",
+            "es": "Colección de obras"
+          },
+          "testo": {
+            "it": "Conserva una raccolta molto importante delle sue opere, dalle prime produzioni alla maturità. Nel chiostro sud c'è la scultura Adamo ed Eva.",
+            "en": "Holds a very important collection of his works, from his early output to his maturity. In the south cloister stands the sculpture Adam and Eve.",
+            "fr": "Conserve une collection très importante de ses œuvres, de ses premières productions à sa maturité. Dans le cloître sud se trouve la sculpture Adam et Ève.",
+            "de": "Bewahrt eine sehr bedeutende Sammlung seiner Werke, von den frühen Arbeiten bis zur Reifezeit. Im Südkreuzgang steht die Skulptur Adam und Eva.",
+            "es": "Conserva una colección muy importante de sus obras, desde sus primeras producciones hasta la madurez. En el claustro sur está la escultura Adán y Eva."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
