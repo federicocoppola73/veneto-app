@@ -1,5 +1,5 @@
 {
- "_nota": "Generato da estrazione OSM (estrai_vicenza.py). Dati © OpenStreetMap contributors (ODbL). Non modificare a mano.",
+ "_nota": "Generato da estrazione OSM (estrai_vicenza.py). Dati © OpenStreetMap contributors (ODbL). Non modificare a mano. Fermate autobus SVT aggiunte da autobus.json (fermate con le linee).",
  "servizi": [
   {
    "id": "farmacie-1",
@@ -1891,6 +1891,674 @@
    "lat": 45.560307,
    "lon": 11.458343,
    "nome": "Piazzetta Baruffato"
+  },
+  {
+   "id": "autobus-svt-via-moneta",
+   "tipo": "autobus",
+   "lat": 45.54008,
+   "lon": 11.508622,
+   "nome": "Via Moneta",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-stazione-fs",
+   "tipo": "autobus",
+   "lat": 45.541791,
+   "lon": 11.541657,
+   "nome": "Stazione FS",
+   "linee": [
+    "1",
+    "4",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-giuriolo",
+   "tipo": "autobus",
+   "lat": 45.546236,
+   "lon": 11.551953,
+   "nome": "Viale Giuriolo",
+   "linee": [
+    "1",
+    "2",
+    "5",
+    "7",
+    "17"
+   ]
+  },
+  {
+   "id": "autobus-svt-bertesina",
+   "tipo": "autobus",
+   "lat": 45.559093,
+   "lon": 11.601278,
+   "nome": "Bertesina",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-bertesinella",
+   "tipo": "autobus",
+   "lat": 45.543108,
+   "lon": 11.601769,
+   "nome": "Bertesinella",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-settec",
+   "tipo": "autobus",
+   "lat": 45.527664,
+   "lon": 11.600887,
+   "nome": "Settecà",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-torri-di-quartesolo",
+   "tipo": "autobus",
+   "lat": 45.518669,
+   "lon": 11.623796,
+   "nome": "Torri di Quartesolo",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-lerino",
+   "tipo": "autobus",
+   "lat": 45.519053,
+   "lon": 11.641431,
+   "nome": "Lerino",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-della-pace-ederle",
+   "tipo": "autobus",
+   "lat": 45.540425,
+   "lon": 11.580559,
+   "nome": "Viale della Pace (Ederle)",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-svt-piazza-xx-settembre",
+   "tipo": "autobus",
+   "lat": 45.550195,
+   "lon": 11.551289,
+   "nome": "Piazza XX Settembre",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-svt-stazione-fs-piazzale",
+   "tipo": "autobus",
+   "lat": 45.542256,
+   "lon": 11.540533,
+   "nome": "Stazione FS (piazzale)",
+   "linee": [
+    "2",
+    "17"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-rodolfi",
+   "tipo": "autobus",
+   "lat": 45.553146,
+   "lon": 11.551469,
+   "nome": "Viale Rodolfi",
+   "linee": [
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-lago-di-fogliano",
+   "tipo": "autobus",
+   "lat": 45.575218,
+   "lon": 11.54434,
+   "nome": "Via Lago di Fogliano",
+   "linee": [
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-svt-polegge",
+   "tipo": "autobus",
+   "lat": 45.591531,
+   "lon": 11.543998,
+   "nome": "Polegge",
+   "linee": [
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-svt-autostazione-svt",
+   "tipo": "autobus",
+   "lat": 45.5427,
+   "lon": 11.5392,
+   "nome": "Autostazione SVT",
+   "linee": [
+    "3",
+    "8",
+    "12/14",
+    "13",
+    "16",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "id": "autobus-svt-parco-citt",
+   "tipo": "autobus",
+   "lat": 45.558908,
+   "lon": 11.566935,
+   "nome": "Parco Città",
+   "linee": [
+    "3"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-astichello",
+   "tipo": "autobus",
+   "lat": 45.559441,
+   "lon": 11.553627,
+   "nome": "Viale Astichello",
+   "linee": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-ferrarin",
+   "tipo": "autobus",
+   "lat": 45.560741,
+   "lon": 11.531122,
+   "nome": "Viale Ferrarin",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-giaretta",
+   "tipo": "autobus",
+   "lat": 45.530926,
+   "lon": 11.52263,
+   "nome": "Via Giaretta",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-svt-sant-agostino",
+   "tipo": "autobus",
+   "lat": 45.516487,
+   "lon": 11.510542,
+   "nome": "Sant'Agostino",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-svt-valmarana",
+   "tipo": "autobus",
+   "lat": 45.504437,
+   "lon": 11.493575,
+   "nome": "Valmarana",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-venezia-stazione",
+   "tipo": "autobus",
+   "lat": 45.54152,
+   "lon": 11.54445,
+   "nome": "Viale Venezia (stazione)",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-svt-villaggio-del-sole",
+   "tipo": "autobus",
+   "lat": 45.556095,
+   "lon": 11.516055,
+   "nome": "Villaggio del Sole",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-bolzano-vicentino",
+   "tipo": "autobus",
+   "lat": 45.596656,
+   "lon": 11.638377,
+   "nome": "Bolzano Vicentino",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-lisiera",
+   "tipo": "autobus",
+   "lat": 45.579888,
+   "lon": 11.611388,
+   "nome": "Lisiera",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-degli-eroi-quinto-vic",
+   "tipo": "autobus",
+   "lat": 45.573358,
+   "lon": 11.628054,
+   "nome": "Via degli Eroi (Quinto Vic.)",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-lanz",
+   "tipo": "autobus",
+   "lat": 45.593966,
+   "lon": 11.636863,
+   "nome": "Lanzè",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-quinto-vicentino",
+   "tipo": "autobus",
+   "lat": 45.573095,
+   "lon": 11.625603,
+   "nome": "Quinto Vicentino",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-anconetta",
+   "tipo": "autobus",
+   "lat": 45.567689,
+   "lon": 11.569682,
+   "nome": "Anconetta",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-dell-ippodromo",
+   "tipo": "autobus",
+   "lat": 45.544115,
+   "lon": 11.538109,
+   "nome": "Viale dell'Ippodromo",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-svt-maddalene",
+   "tipo": "autobus",
+   "lat": 45.569975,
+   "lon": 11.511572,
+   "nome": "Maddalene",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-martiri-delle-foibe",
+   "tipo": "autobus",
+   "lat": 45.588505,
+   "lon": 11.489032,
+   "nome": "Via Martiri delle Foibe",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-svt-costabissara",
+   "tipo": "autobus",
+   "lat": 45.585542,
+   "lon": 11.487744,
+   "nome": "Costabissara",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-del-carso",
+   "tipo": "autobus",
+   "lat": 45.553117,
+   "lon": 11.517294,
+   "nome": "Via del Carso",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-svt-san-pio-x",
+   "tipo": "autobus",
+   "lat": 45.547175,
+   "lon": 11.570454,
+   "nome": "San Pio X",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-svt-torri-di-arcugnano",
+   "tipo": "autobus",
+   "lat": 45.49606,
+   "lon": 11.55063,
+   "nome": "Torri di Arcugnano",
+   "linee": [
+    "8",
+    "13"
+   ]
+  },
+  {
+   "id": "autobus-svt-debba",
+   "tipo": "autobus",
+   "lat": 45.49964,
+   "lon": 11.58946,
+   "nome": "Debba",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-svt-stadio",
+   "tipo": "autobus",
+   "lat": 45.541892,
+   "lon": 11.55769,
+   "nome": "Stadio",
+   "linee": [
+    "9",
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-svt-strada-sant-antonino",
+   "tipo": "autobus",
+   "lat": 45.579695,
+   "lon": 11.53487,
+   "nome": "Strada Sant'Antonino",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-svt-cresole",
+   "tipo": "autobus",
+   "lat": 45.597092,
+   "lon": 11.552474,
+   "nome": "Cresole",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-svt-caldogno",
+   "tipo": "autobus",
+   "lat": 45.61184,
+   "lon": 11.50758,
+   "nome": "Caldogno",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-svt-park-stadio",
+   "tipo": "autobus",
+   "lat": 45.543047,
+   "lon": 11.558774,
+   "nome": "Park Stadio",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-svt-lev-degli-angeli",
+   "tipo": "autobus",
+   "lat": 45.550021,
+   "lon": 11.550077,
+   "nome": "Levà degli Angeli",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-svt-piazza-castello",
+   "tipo": "autobus",
+   "lat": 45.545921,
+   "lon": 11.541421,
+   "nome": "Piazza Castello",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-ettore-gallo",
+   "tipo": "autobus",
+   "lat": 45.541366,
+   "lon": 11.556151,
+   "nome": "Via Ettore Gallo",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-svt-cavazzale",
+   "tipo": "autobus",
+   "lat": 45.59635,
+   "lon": 11.569843,
+   "nome": "Cavazzale",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-svt-monticello-conte-otto",
+   "tipo": "autobus",
+   "lat": 45.59518,
+   "lon": 11.580579,
+   "nome": "Monticello Conte Otto",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-svt-fiera",
+   "tipo": "autobus",
+   "lat": 45.530247,
+   "lon": 11.507033,
+   "nome": "Fiera",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-ponte-alto",
+   "tipo": "autobus",
+   "lat": 45.533484,
+   "lon": 11.505432,
+   "nome": "Ponte Alto",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-creazzo",
+   "tipo": "autobus",
+   "lat": 45.532053,
+   "lon": 11.478581,
+   "nome": "Creazzo",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-sovizzo",
+   "tipo": "autobus",
+   "lat": 45.533,
+   "lon": 11.45,
+   "nome": "Sovizzo",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-altavilla-vicentina",
+   "tipo": "autobus",
+   "lat": 45.508429,
+   "lon": 11.470686,
+   "nome": "Altavilla Vicentina",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-viale-della-scienza",
+   "tipo": "autobus",
+   "lat": 45.525849,
+   "lon": 11.502396,
+   "nome": "Viale della Scienza",
+   "linee": [
+    "12/14"
+   ]
+  },
+  {
+   "id": "autobus-svt-tormeno",
+   "tipo": "autobus",
+   "lat": 45.503898,
+   "lon": 11.555054,
+   "nome": "Tormeno",
+   "linee": [
+    "13"
+   ]
+  },
+  {
+   "id": "autobus-svt-lago-di-fimon",
+   "tipo": "autobus",
+   "lat": 45.46944,
+   "lon": 11.54278,
+   "nome": "Lago di Fimon",
+   "linee": [
+    "13"
+   ]
+  },
+  {
+   "id": "autobus-svt-monteviale",
+   "tipo": "autobus",
+   "lat": 45.560525,
+   "lon": 11.458072,
+   "nome": "Monteviale",
+   "linee": [
+    "16"
+   ]
+  },
+  {
+   "id": "autobus-svt-gambugliano",
+   "tipo": "autobus",
+   "lat": 45.583,
+   "lon": 11.433,
+   "nome": "Gambugliano",
+   "linee": [
+    "16"
+   ]
+  },
+  {
+   "id": "autobus-svt-monte-berico",
+   "tipo": "autobus",
+   "lat": 45.536,
+   "lon": 11.5492,
+   "nome": "Monte Berico",
+   "linee": [
+    "18"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-zamenhof",
+   "tipo": "autobus",
+   "lat": 45.524944,
+   "lon": 11.59091,
+   "nome": "Via Zamenhof",
+   "linee": [
+    "19"
+   ]
+  },
+  {
+   "id": "autobus-svt-via-pola",
+   "tipo": "autobus",
+   "lat": 45.511641,
+   "lon": 11.625447,
+   "nome": "Via Pola",
+   "linee": [
+    "19"
+   ]
+  },
+  {
+   "id": "autobus-svt-park-mercato-nuovo",
+   "tipo": "autobus",
+   "lat": 45.546459,
+   "lon": 11.526838,
+   "nome": "Park Mercato Nuovo",
+   "linee": [
+    "20"
+   ]
+  },
+  {
+   "id": "autobus-svt-contr-cantarane",
+   "tipo": "autobus",
+   "lat": 45.549329,
+   "lon": 11.540525,
+   "nome": "Contrà Cantarane",
+   "linee": [
+    "20"
+   ]
+  },
+  {
+   "id": "autobus-svt-park-cricoli",
+   "tipo": "autobus",
+   "lat": 45.563386,
+   "lon": 11.547835,
+   "nome": "Park Cricoli",
+   "linee": [
+    "30"
+   ]
+  },
+  {
+   "id": "autobus-svt-ospedale",
+   "tipo": "autobus",
+   "lat": 45.555426,
+   "lon": 11.54857,
+   "nome": "Ospedale",
+   "linee": [
+    "30"
+   ]
+  },
+  {
+   "id": "autobus-svt-contr-canove",
+   "tipo": "autobus",
+   "lat": 45.550742,
+   "lon": 11.547781,
+   "nome": "Contrà Canove",
+   "linee": [
+    "30"
+   ]
   }
  ]
 }
