@@ -1,0 +1,173 @@
+{
+ "_nota": "Luoghi segreti (💡) di Treviso, dal foglio Curiosità. Ogni voce rimanda a un luogo; compare sulla mappa solo se scelta dalla sezione luoghi segreti.",
+ "curiosita": [
+  {
+   "id": "sala-del-capitolo-dei-domenicani",
+   "luogo_id": "sala-del-capitolo-dei-domenicani",
+   "sestiere": "Centro storico",
+   "latitudine": 45.662997,
+   "longitudine": 12.239584,
+   "titolo": {
+    "it": "I primi occhiali della storia dell'arte",
+    "en": "The first spectacles in art history",
+    "fr": "Les premières lunettes de l'histoire de l'art",
+    "de": "Die erste Brille der Kunstgeschichte",
+    "es": "Las primeras gafas de la historia del arte"
+   },
+   "testo": {
+    "it": "In questa sala del convento di San Nicolò si nasconde una curiosità davvero speciale: un affresco del Trecento raffigura un frate con quelli che sembrano occhiali da vista. È considerato una delle più antiche rappresentazioni di occhiali nella storia dell'arte!",
+    "en": "This hall of the San Nicolò convent hides a very special curiosity: a 14th-century fresco shows a friar wearing what look like reading glasses. It is considered one of the oldest depictions of spectacles in the history of art!",
+    "fr": "Cette salle du couvent de San Nicolò cache une curiosité vraiment spéciale : une fresque du XIVe siècle représente un frère portant ce qui ressemble à des lunettes de vue. C'est l'une des plus anciennes représentations de lunettes de l'histoire de l'art !",
+    "de": "Dieser Saal des Klosters San Nicolò birgt eine ganz besondere Kuriosität: Ein Fresko aus dem 14. Jahrhundert zeigt einen Mönch mit etwas, das wie eine Lesebrille aussieht. Es gilt als eine der ältesten Darstellungen einer Brille in der Kunstgeschichte!",
+    "es": "Esta sala del convento de San Nicolò esconde una curiosidad muy especial: un fresco del siglo XIV muestra a un fraile con lo que parecen gafas de ver. ¡Se considera una de las representaciones de gafas más antiguas de la historia del arte!"
+   }
+  },
+  {
+   "id": "porta-altinia",
+   "luogo_id": "porta-altinia",
+   "sestiere": "Centro storico",
+   "latitudine": 45.661475,
+   "longitudine": 12.247,
+   "titolo": {
+    "it": "La porta che guarda verso Altino",
+    "en": "The gate facing Altinum",
+    "fr": "La porte tournée vers Altinum",
+    "de": "Das Tor in Richtung Altinum",
+    "es": "La puerta que mira hacia Altino"
+   },
+   "testo": {
+    "it": "Meno famosa delle altre porte cittadine, Porta Altinia era uno degli accessi alla Treviso fortificata. Il suo nome ricorda l'antica città romana di Altino, verso la quale si dirigeva la strada che attraversava questa porta.",
+    "en": "Less famous than the other city gates, Porta Altinia was one of the entrances to fortified Treviso. Its name recalls the ancient Roman town of Altinum, towards which the road through this gate ran.",
+    "fr": "Moins célèbre que les autres portes de la ville, la Porta Altinia était l'un des accès à la Trévise fortifiée. Son nom rappelle l'ancienne ville romaine d'Altinum, vers laquelle se dirigeait la route qui passait par cette porte.",
+    "de": "Weniger bekannt als die anderen Stadttore, war die Porta Altinia einer der Zugänge zum befestigten Treviso. Ihr Name erinnert an die antike Römerstadt Altinum, zu der die Straße durch dieses Tor führte.",
+    "es": "Menos famosa que las otras puertas de la ciudad, la Porta Altinia era uno de los accesos a la Treviso fortificada. Su nombre recuerda la antigua ciudad romana de Altino, hacia la que se dirigía el camino que pasaba por esta puerta."
+   }
+  },
+  {
+   "id": "la-grande-sfera",
+   "luogo_id": "la-grande-sfera",
+   "sestiere": "Fuori le mura",
+   "latitudine": 45.6615879,
+   "longitudine": 12.245875,
+   "titolo": {
+    "it": "Una sfera d'arte davanti alle mura",
+    "en": "A sphere of art before the walls",
+    "fr": "Une sphère d'art devant les remparts",
+    "de": "Eine Kunstkugel vor den Mauern",
+    "es": "Una esfera de arte ante las murallas"
+   },
+   "testo": {
+    "it": "Una grande sfera metallica cattura lo sguardo nei pressi di Porta Altinia. Realizzata dallo scultore Toni Benetton, è un esempio curioso di come l'arte contemporanea possa inserirsi nel cuore di una città storica.",
+    "en": "A large metal sphere catches the eye near Porta Altinia. Made by the sculptor Toni Benetton, it is a curious example of how contemporary art can fit into the heart of a historic city.",
+    "fr": "Une grande sphère métallique attire le regard près de la Porta Altinia. Réalisée par le sculpteur Toni Benetton, c'est un exemple curieux de la façon dont l'art contemporain peut s'insérer au cœur d'une ville historique.",
+    "de": "Eine große Metallkugel zieht in der Nähe der Porta Altinia die Blicke auf sich. Vom Bildhauer Toni Benetton geschaffen, ist sie ein interessantes Beispiel dafür, wie sich zeitgenössische Kunst ins Herz einer historischen Stadt einfügen kann.",
+    "es": "Una gran esfera metálica llama la atención cerca de la Porta Altinia. Realizada por el escultor Toni Benetton, es un curioso ejemplo de cómo el arte contemporáneo puede integrarse en el corazón de una ciudad histórica."
+   }
+  },
+  {
+   "id": "centrale-idroelettrica-di-ponte-san-martino",
+   "luogo_id": "centrale-idroelettrica-di-ponte-san-martino",
+   "sestiere": "Centro storico",
+   "latitudine": 45.6626677,
+   "longitudine": 12.2453934,
+   "titolo": {
+    "it": "L'energia del Sile in pieno centro",
+    "en": "The Sile's energy in the city centre",
+    "fr": "L'énergie du Sile en plein centre",
+    "de": "Die Energie des Sile mitten in der Stadt",
+    "es": "La energía del Sile en pleno centro"
+   },
+   "testo": {
+    "it": "Nel centro storico di Treviso si nasconde un'antica centrale idroelettrica del 1917. Un luogo insolito che racconta come l'acqua dei fiumi cittadini, oltre a creare scorci suggestivi, sia stata sfruttata anche per produrre energia.",
+    "en": "Treviso's old town hides an old hydroelectric plant from 1917. An unusual place that shows how the water of the city's rivers, besides creating charming views, was also used to produce energy.",
+    "fr": "Le centre historique de Trévise cache une ancienne centrale hydroélectrique de 1917. Un lieu insolite qui raconte comment l'eau des rivières de la ville, en plus de créer de beaux points de vue, a aussi servi à produire de l'énergie.",
+    "de": "In der Altstadt von Treviso verbirgt sich ein altes Wasserkraftwerk von 1917. Ein ungewöhnlicher Ort, der zeigt, wie das Wasser der Stadtflüsse nicht nur malerische Ansichten schuf, sondern auch zur Energiegewinnung genutzt wurde.",
+    "es": "El casco antiguo de Treviso esconde una antigua central hidroeléctrica de 1917. Un lugar insólito que cuenta cómo el agua de los ríos de la ciudad, además de crear rincones sugerentes, se aprovechó también para producir energía."
+   }
+  },
+  {
+   "id": "palazzo-zuccareda",
+   "luogo_id": "palazzo-zuccareda",
+   "sestiere": "Centro storico",
+   "latitudine": 45.6674145,
+   "longitudine": 12.2440959,
+   "titolo": {
+    "it": "Dipinto anche sul retro",
+    "en": "Painted on the back too",
+    "fr": "Peint aussi à l'arrière",
+    "de": "Auch hinten bemalt",
+    "es": "Pintado también por detrás"
+   },
+   "testo": {
+    "it": "Questo palazzo cinquecentesco nasconde una particolarità poco conosciuta: non è decorata soltanto la facciata rivolta verso la strada, ma anche quella che si affaccia sul giardino. Un dettaglio che rivela quanto fosse importante l'apparato decorativo anche negli spazi privati.",
+    "en": "This 16th-century palace hides a little-known feature: not only the façade facing the street is decorated, but also the one overlooking the garden. A detail that shows how important decoration was even in private spaces.",
+    "fr": "Ce palais du XVIe siècle cache une particularité peu connue : non seulement la façade donnant sur la rue est décorée, mais aussi celle qui donne sur le jardin. Un détail qui révèle combien le décor comptait aussi dans les espaces privés.",
+    "de": "Dieser Palast aus dem 16. Jahrhundert birgt eine wenig bekannte Besonderheit: Nicht nur die Straßenfassade ist verziert, sondern auch die zum Garten. Ein Detail, das zeigt, wie wichtig die Dekoration auch in privaten Räumen war.",
+    "es": "Este palacio del siglo XVI esconde una particularidad poco conocida: no solo está decorada la fachada que da a la calle, sino también la que da al jardín. Un detalle que revela lo importante que era la decoración incluso en los espacios privados."
+   }
+  },
+  {
+   "id": "ex-chiesa-di-san-teonisto",
+   "luogo_id": "ex-chiesa-di-san-teonisto",
+   "sestiere": "Centro storico",
+   "latitudine": 45.663499,
+   "longitudine": 12.23869,
+   "titolo": {
+    "it": "Da chiesa a spazio per l'arte",
+    "en": "From church to art space",
+    "fr": "D'église à lieu d'art",
+    "de": "Von der Kirche zum Kunstraum",
+    "es": "De iglesia a espacio para el arte"
+   },
+   "testo": {
+    "it": "Un'antica chiesa trasformata in un moderno spazio culturale: San Teonisto unisce architettura storica e arte contemporanea. Al suo interno si possono ammirare anche grandi opere dell'artista Safet Zec, realizzate appositamente per questo luogo.",
+    "en": "An old church turned into a modern cultural space: San Teonisto combines historic architecture and contemporary art. Inside you can also admire large works by the artist Safet Zec, made specially for this place.",
+    "fr": "Une ancienne église transformée en espace culturel moderne : San Teonisto unit architecture historique et art contemporain. À l'intérieur, on peut aussi admirer de grandes œuvres de l'artiste Safet Zec, réalisées spécialement pour ce lieu.",
+    "de": "Eine alte Kirche, verwandelt in einen modernen Kulturort: San Teonisto verbindet historische Architektur und zeitgenössische Kunst. Innen sind auch große Werke des Künstlers Safet Zec zu sehen, eigens für diesen Ort geschaffen.",
+    "es": "Una antigua iglesia transformada en un moderno espacio cultural: San Teonisto une arquitectura histórica y arte contemporáneo. En su interior se pueden admirar también grandes obras del artista Safet Zec, realizadas expresamente para este lugar."
+   }
+  },
+  {
+   "id": "rondella-di-santa-sofia",
+   "luogo_id": "rondella-di-santa-sofia",
+   "sestiere": "Centro storico",
+   "latitudine": 45.6643631,
+   "longitudine": 12.2551666,
+   "titolo": {
+    "it": "Il torrione nascosto delle mura",
+    "en": "The hidden tower of the walls",
+    "fr": "La tour cachée des remparts",
+    "de": "Der versteckte Turm der Mauern",
+    "es": "El torreón escondido de las murallas"
+   },
+   "testo": {
+    "it": "Tra le fortificazioni rinascimentali di Treviso si nasconde la Rondella di Santa Sofia, una struttura difensiva meno conosciuta rispetto alle grandi porte della città. Fa parte di quel patrimonio sotterraneo e nascosto che racconta il passato militare di Treviso.",
+    "en": "Among Treviso's Renaissance fortifications hides the Rondella of Santa Sofia, a defensive structure less known than the great city gates. It is part of the underground, hidden heritage that tells of Treviso's military past.",
+    "fr": "Parmi les fortifications Renaissance de Trévise se cache la Rondella de Santa Sofia, une structure défensive moins connue que les grandes portes de la ville. Elle fait partie de ce patrimoine souterrain et caché qui raconte le passé militaire de Trévise.",
+    "de": "Unter den Renaissance-Befestigungen Trevisos verbirgt sich die Rondella di Santa Sofia, ein Verteidigungsbau, der weniger bekannt ist als die großen Stadttore. Sie gehört zu jenem unterirdischen, verborgenen Erbe, das von der militärischen Vergangenheit Trevisos erzählt.",
+    "es": "Entre las fortificaciones renacentistas de Treviso se esconde la Rondella de Santa Sofía, una estructura defensiva menos conocida que las grandes puertas de la ciudad. Forma parte de ese patrimonio subterráneo y oculto que cuenta el pasado militar de Treviso."
+   }
+  },
+  {
+   "id": "scuola-del-santissimo",
+   "luogo_id": "scuola-del-santissimo",
+   "sestiere": "Centro storico",
+   "latitudine": 45.66688,
+   "longitudine": 12.24345,
+   "titolo": {
+    "it": "Un Cristo di Tiziano accanto al Duomo",
+    "en": "A Titian Christ next to the Cathedral",
+    "fr": "Un Christ de Titien près de la cathédrale",
+    "de": "Ein Christus von Tizian neben dem Dom",
+    "es": "Un Cristo de Tiziano junto a la catedral"
+   },
+   "testo": {
+    "it": "Accanto al Battistero del Duomo si trova un piccolo edificio che custodisce una storia artistica interessante: nel Cinquecento Tiziano ricevette l'incarico di realizzare un dipinto raffigurante il Cristo Risorto per questa confraternita. Un legame con uno dei più grandi pittori veneti, spesso trascurato dai visitatori.",
+    "en": "Next to the Cathedral's Baptistery stands a small building with an interesting artistic story: in the 16th century Titian was commissioned to paint a Risen Christ for this confraternity. A link with one of the greatest Venetian painters, often overlooked by visitors.",
+    "fr": "À côté du baptistère de la cathédrale se trouve un petit bâtiment à l'histoire artistique intéressante : au XVIe siècle, Titien reçut la commande d'un Christ ressuscité pour cette confrérie. Un lien avec l'un des plus grands peintres vénitiens, souvent négligé par les visiteurs.",
+    "de": "Neben dem Baptisterium des Doms steht ein kleines Gebäude mit einer interessanten Kunstgeschichte: Im 16. Jahrhundert erhielt Tizian den Auftrag, für diese Bruderschaft einen Auferstandenen Christus zu malen. Eine Verbindung zu einem der größten venezianischen Maler, die Besucher oft übersehen.",
+    "es": "Junto al baptisterio de la catedral hay un pequeño edificio con una interesante historia artística: en el siglo XVI Tiziano recibió el encargo de pintar un Cristo resucitado para esta cofradía. Un vínculo con uno de los más grandes pintores vénetos, a menudo pasado por alto por los visitantes."
+   }
+  }
+ ]
+}

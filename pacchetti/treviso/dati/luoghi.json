@@ -1,0 +1,2039 @@
+{
+  "_nota": "Luoghi di Treviso, dal foglio Treviso_dati_app (Monumenti e Curiosità). Coordinate da Wikipedia/OpenStreetMap, foto da Wikimedia Commons. Orari e biglietti da verificare sui siti ufficiali.",
+  "categorie": [
+    "chiese",
+    "musei",
+    "palazzi",
+    "ponti",
+    "piazze",
+    "giardini",
+    "altri"
+  ],
+  "luoghi": [
+    {
+      "id": "piazza-dei-signori",
+      "nome": "Piazza dei Signori",
+      "categoria": "piazze",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6659,
+      "longitudine": 12.2455,
+      "descrizione": {
+        "it": "È il cuore della vita cittadina fin dal Medioevo. Sulla piazza si affacciano il Palazzo dei Trecento, sede del Consiglio comunale, il Palazzo del Podestà con la Torre Civica e il Palazzo Pretorio. Sotto i portici si aprono caffè e locali storici dove i trevigiani si ritrovano per l'aperitivo. Dalla piazza partono Calmaggiore verso il Duomo e le vie che portano alla Pescheria e ai Buranelli.",
+        "en": "It has been the heart of city life since the Middle Ages. The square is overlooked by the Palazzo dei Trecento, seat of the city council, the Palazzo del Podestà with the Civic Tower and the Palazzo Pretorio. Under the arcades are historic cafés where locals meet for an aperitif. From here Calmaggiore leads to the Cathedral and other streets lead to the Fish Market and the Buranelli canal.",
+        "fr": "C'est le cœur de la vie de la ville depuis le Moyen Âge. Sur la place donnent le Palazzo dei Trecento, siège du conseil municipal, le Palazzo del Podestà avec la Tour civique et le Palazzo Pretorio. Sous les arcades s'ouvrent des cafés historiques où les Trévisans se retrouvent pour l'apéritif. De la place partent la Calmaggiore vers la cathédrale et les rues qui mènent à la Pescheria et aux Buranelli.",
+        "de": "Seit dem Mittelalter ist er das Herz des städtischen Lebens. Am Platz stehen der Palazzo dei Trecento, Sitz des Stadtrats, der Palazzo del Podestà mit dem Bürgerturm und der Palazzo Pretorio. Unter den Arkaden laden historische Cafés zum Aperitif ein. Vom Platz führt die Calmaggiore zum Dom, andere Gassen zur Fischmarktinsel und zum Buranelli-Kanal.",
+        "es": "Es el corazón de la vida de la ciudad desde la Edad Media. A la plaza se asoman el Palazzo dei Trecento, sede del concejo municipal, el Palazzo del Podestà con la Torre Cívica y el Palazzo Pretorio. Bajo los soportales hay cafés históricos donde los trevisanos se reúnen para el aperitivo. Desde aquí la Calmaggiore lleva a la catedral y otras calles a la Pescheria y a los Buranelli."
+      },
+      "immagine": {
+        "autore": "kallerna",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_dei_Signori_Treviso_2025.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Gary Houston",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza-dei-Signori-Treviso-20050528-025.jpg"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4112TrevisoPzaDeiSignori.JPG"
+        },
+        {
+          "autore": "Aktron",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_Piazza_dei_Signori_06.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Piazza dei Signori (Treviso)",
+        "en": "Piazza dei Signori, Treviso"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La piazza della Berlina",
+            "en": "The square of the pillory",
+            "fr": "La place du pilori",
+            "de": "Der Platz des Prangers",
+            "es": "La plaza de la picota"
+          },
+          "testo": {
+            "it": "La piazza non ha sempre avuto questo nome: nei secoli è stata chiamata anche Piazza Maggiore, Piazza delle Catene e Piazza della Berlina. Quest'ultimo nome ricorda una pratica di pubblica umiliazione che si svolgeva proprio qui.",
+            "en": "The square has not always had this name: over the centuries it was also called Piazza Maggiore, Piazza delle Catene (of the Chains) and Piazza della Berlina (of the Pillory). The last name recalls a form of public humiliation that took place right here.",
+            "fr": "La place n'a pas toujours porté ce nom : au fil des siècles, elle s'est aussi appelée Piazza Maggiore, Piazza delle Catene (des Chaînes) et Piazza della Berlina (du Pilori). Ce dernier nom rappelle une pratique d'humiliation publique qui avait lieu ici même.",
+            "de": "Der Platz hieß nicht immer so: Im Laufe der Jahrhunderte wurde er auch Piazza Maggiore, Piazza delle Catene (der Ketten) und Piazza della Berlina (des Prangers) genannt. Der letzte Name erinnert an eine öffentliche Demütigung, die genau hier stattfand.",
+            "es": "La plaza no siempre ha tenido este nombre: a lo largo de los siglos se llamó también Piazza Maggiore, Piazza delle Catene (de las Cadenas) y Piazza della Berlina (de la Picota). Este último nombre recuerda una práctica de humillación pública que se realizaba justo aquí."
+          }
+        }
+      ]
+    },
+    {
+      "id": "palazzo-dei-trecento",
+      "nome": "Palazzo dei Trecento",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665729,
+      "longitudine": 12.245965,
+      "descrizione": {
+        "it": "Costruito tra la fine del XII secolo e il 1268 come sede delle assemblee del Comune, deve il nome al Consiglio dei Trecento che vi si riuniva. Il grande salone al primo piano conserva affreschi medievali e rinascimentali. Colpito dai bombardamenti del 7 aprile 1944, fu ricostruito con cura: una linea sulla facciata indica ancora fin dove arrivò la distruzione. Oggi ospita il Consiglio comunale; sotto il portico si trova la Fontana delle Tette originale.",
+        "en": "Built between the late 12th century and 1268 for the assemblies of the Commune, it takes its name from the Council of Three Hundred that met here. The great hall on the first floor keeps medieval and Renaissance frescoes. Hit by the bombing of 7 April 1944, it was carefully rebuilt: a line on the façade still shows how far the destruction reached. Today it houses the city council; the original Fontana delle Tette is under the portico.",
+        "fr": "Construit entre la fin du XIIe siècle et 1268 pour les assemblées de la Commune, il doit son nom au Conseil des Trois-Cents qui s'y réunissait. La grande salle du premier étage conserve des fresques médiévales et Renaissance. Touché par le bombardement du 7 avril 1944, il fut soigneusement reconstruit : une ligne sur la façade montre encore jusqu'où alla la destruction. Il accueille aujourd'hui le conseil municipal ; sous le portique se trouve la Fontana delle Tette originale.",
+        "de": "Zwischen dem späten 12. Jahrhundert und 1268 für die Versammlungen der Kommune errichtet, verdankt er seinen Namen dem Rat der Dreihundert, der hier tagte. Der große Saal im ersten Stock bewahrt mittelalterliche und Renaissance-Fresken. Beim Bombenangriff vom 7. April 1944 getroffen, wurde er sorgfältig wiederaufgebaut: Eine Linie an der Fassade zeigt noch, wie weit die Zerstörung reichte. Heute tagt hier der Stadtrat; unter dem Portikus steht die originale Fontana delle Tette.",
+        "es": "Construido entre finales del siglo XII y 1268 para las asambleas del Común, debe su nombre al Consejo de los Trescientos que se reunía aquí. El gran salón de la primera planta conserva frescos medievales y renacentistas. Alcanzado por el bombardeo del 7 de abril de 1944, fue reconstruido con esmero: una línea en la fachada aún muestra hasta dónde llegó la destrucción. Hoy alberga el concejo municipal; bajo el pórtico está la Fontana delle Tette original."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_dei_Signori_e_Palazzo_dei_Trecento.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4105TrevisoPalazzoTrecento.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4107TrevisoPalazzoTrecento.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4108TrevisoPalazzoTrecento.JPG"
+        }
+      ],
+      "nota": {
+        "it": "Visitabile solo in occasione di aperture straordinarie e visite guidate (per esempio le Giornate europee del patrimonio). Il portico al piano terra è sempre accessibile.",
+        "en": "Open only during special openings and guided tours (for example the European Heritage Days). The ground-floor portico is always accessible.",
+        "fr": "Visitable uniquement lors d'ouvertures exceptionnelles et de visites guidées (par exemple les Journées européennes du patrimoine). Le portique du rez-de-chaussée est toujours accessible.",
+        "de": "Nur bei Sonderöffnungen und Führungen zugänglich (zum Beispiel an den Europäischen Tagen des Denkmals). Der Portikus im Erdgeschoss ist immer zugänglich.",
+        "es": "Visitable solo en aperturas extraordinarias y visitas guiadas (por ejemplo, las Jornadas Europeas del Patrimonio). El pórtico de la planta baja siempre es accesible."
+      },
+      "sito": "https://www.comune.treviso.it",
+      "wikipedia": {
+        "it": "Palazzo dei Trecento",
+        "en": "Palazzo dei Trecento"
+      }
+    },
+    {
+      "id": "loggia-dei-cavalieri",
+      "nome": "Loggia dei Cavalieri",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665433,
+      "longitudine": 12.24699,
+      "descrizione": {
+        "it": "Costruita nel 1276 durante il governo del podestà Andrea da Perugia, è un raro esempio di architettura romanica civile: una piazza coperta aperta su tre lati da archi a tutto sesto. Era il luogo di ritrovo dei nobili, che qui conversavano, giocavano e trattavano affari. Le pareti interne conservano resti di affreschi con scene cavalleresche e storie della guerra di Troia. Oggi ospita eventi e manifestazioni cittadine.",
+        "en": "Built in 1276 under the podestà Andrea da Perugia, it is a rare example of Romanesque civic architecture: a covered square open on three sides by round arches. It was the meeting place of the nobility, who talked, played and did business here. The inner walls keep remains of frescoes with chivalric scenes and stories of the Trojan War. Today it hosts city events.",
+        "fr": "Construite en 1276 sous le podestat Andrea da Perugia, c'est un rare exemple d'architecture civile romane : une place couverte ouverte sur trois côtés par des arcs en plein cintre. C'était le lieu de rencontre des nobles, qui y conversaient, jouaient et traitaient leurs affaires. Les murs intérieurs gardent des restes de fresques avec des scènes chevaleresques et des histoires de la guerre de Troie. Elle accueille aujourd'hui des événements de la ville.",
+        "de": "1276 unter dem Podestà Andrea da Perugia erbaut, ist sie ein seltenes Beispiel romanischer Profanarchitektur: ein überdachter Platz, an drei Seiten durch Rundbögen geöffnet. Hier trafen sich die Adligen zum Plaudern, Spielen und Verhandeln. Die Innenwände zeigen Reste von Fresken mit ritterlichen Szenen und Geschichten des Trojanischen Krieges. Heute finden hier städtische Veranstaltungen statt.",
+        "es": "Construida en 1276 bajo el podestà Andrea da Perugia, es un raro ejemplo de arquitectura civil románica: una plaza cubierta abierta por tres lados con arcos de medio punto. Era el lugar de encuentro de los nobles, que aquí conversaban, jugaban y hacían negocios. Las paredes interiores conservan restos de frescos con escenas caballerescas e historias de la guerra de Troya. Hoy acoge eventos de la ciudad."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:La_Loggia_dei_Cavalieri_dietro.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:La_Loggia_dei_Cavalieri_interno.jpg"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:La_Loggia_dei_Cavalieri.jpg"
+        },
+        {
+          "autore": "Roberto Ribotta",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_Cavalieri_a_Treviso.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Loggia dei Cavalieri (Treviso)",
+        "en": "Loggia dei Cavalieri (Treviso)"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il ritrovo dei nobili",
+            "en": "The nobles' meeting place",
+            "fr": "Le rendez-vous des nobles",
+            "de": "Treffpunkt der Adligen",
+            "es": "El punto de encuentro de los nobles"
+          },
+          "testo": {
+            "it": "Nel Medioevo la Loggia era frequentata soprattutto dai membri delle famiglie nobili e aristocratiche. Le sue pareti erano decorate con affreschi che raffiguravano scene di vita cavalleresca.",
+            "en": "In the Middle Ages the Loggia was frequented mainly by members of noble and aristocratic families. Its walls were decorated with frescoes showing scenes of chivalric life.",
+            "fr": "Au Moyen Âge, la Loggia était surtout fréquentée par les membres des familles nobles et aristocratiques. Ses murs étaient ornés de fresques représentant des scènes de la vie chevaleresque.",
+            "de": "Im Mittelalter wurde die Loggia vor allem von Mitgliedern adliger und aristokratischer Familien besucht. Ihre Wände waren mit Fresken geschmückt, die Szenen des ritterlichen Lebens zeigten.",
+            "es": "En la Edad Media la Loggia era frecuentada sobre todo por miembros de familias nobles y aristocráticas. Sus paredes estaban decoradas con frescos que representaban escenas de la vida caballeresca."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mura-di-treviso",
+      "nome": "Mura di Treviso",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66285,
+      "longitudine": 12.2507,
+      "descrizione": {
+        "it": "Le mura rinascimentali, lunghe circa quattro chilometri, furono costruite dalla Repubblica di Venezia tra il 1509 e il 1518, durante la guerra della Lega di Cambrai, su progetto del frate domenicano Giovanni Giocondo. Cinte da fossati alimentati dal Sile e dal Botteniga, avevano dodici bastioni e tre porte monumentali: San Tomaso, Santi Quaranta e Altinia. Gran parte del circuito è ancora conservata e in molti tratti si può passeggiare sui terrapieni alberati, con vista sui tetti e sui canali.",
+        "en": "The Renaissance walls, about four kilometres long, were built by the Republic of Venice between 1509 and 1518, during the War of the League of Cambrai, to a design by the Dominican friar Giovanni Giocondo. Surrounded by moats fed by the Sile and the Botteniga, they had twelve bastions and three monumental gates: San Tomaso, Santi Quaranta and Altinia. Much of the circuit survives and in many stretches you can walk on the tree-lined ramparts, with views over roofs and canals.",
+        "fr": "Les remparts Renaissance, longs d'environ quatre kilomètres, furent construits par la République de Venise entre 1509 et 1518, pendant la guerre de la Ligue de Cambrai, sur un projet du frère dominicain Giovanni Giocondo. Entourés de fossés alimentés par le Sile et le Botteniga, ils comptaient douze bastions et trois portes monumentales : San Tomaso, Santi Quaranta et Altinia. Une grande partie de l'enceinte subsiste et sur de nombreux tronçons on peut se promener sur les terre-pleins arborés, avec vue sur les toits et les canaux.",
+        "de": "Die etwa vier Kilometer langen Renaissance-Mauern ließ die Republik Venedig zwischen 1509 und 1518 während des Krieges der Liga von Cambrai nach Plänen des Dominikanermönchs Giovanni Giocondo errichten. Von Gräben umgeben, die Sile und Botteniga speisten, hatten sie zwölf Bastionen und drei Prachttore: San Tomaso, Santi Quaranta und Altinia. Ein großer Teil ist erhalten, und auf vielen Abschnitten kann man auf den baumbestandenen Wällen spazieren, mit Blick über Dächer und Kanäle.",
+        "es": "Las murallas renacentistas, de unos cuatro kilómetros, fueron construidas por la República de Venecia entre 1509 y 1518, durante la guerra de la Liga de Cambrai, según el proyecto del fraile dominico Giovanni Giocondo. Rodeadas de fosos alimentados por el Sile y el Botteniga, tenían doce bastiones y tres puertas monumentales: San Tomaso, Santi Quaranta y Altinia. Gran parte del recinto se conserva y en muchos tramos se puede pasear por los terraplenes arbolados, con vistas a tejados y canales."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:MuraTreviso1.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_-_Porta_San_Tomaso_und_angrenzende_Stadtmauern_05.jpg"
+        },
+        {
+          "autore": "BluesBrother",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiuse_al_bastione_San_Paolo_-_Treviso.jpeg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:MuraTreviso2.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Mura di Treviso"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una difesa contro i cannoni",
+            "en": "A defence against cannons",
+            "fr": "Une défense contre les canons",
+            "de": "Ein Schutz gegen Kanonen",
+            "es": "Una defensa contra los cañones"
+          },
+          "testo": {
+            "it": "Le mura rinascimentali furono progettate per resistere alle nuove armi da fuoco. Per questo presentano terrapieni capaci di assorbire meglio l'impatto dei colpi di artiglieria.",
+            "en": "The Renaissance walls were designed to withstand the new firearms. That is why they have earth ramparts able to absorb the impact of artillery fire better.",
+            "fr": "Les remparts Renaissance furent conçus pour résister aux nouvelles armes à feu. C'est pourquoi ils comportent des terre-pleins capables de mieux absorber l'impact des tirs d'artillerie.",
+            "de": "Die Renaissance-Mauern wurden so geplant, dass sie den neuen Feuerwaffen standhielten. Deshalb haben sie Erdwälle, die den Aufprall von Artilleriegeschossen besser abfangen.",
+            "es": "Las murallas renacentistas se diseñaron para resistir las nuevas armas de fuego. Por eso tienen terraplenes capaces de absorber mejor el impacto de los disparos de artillería."
+          }
+        }
+      ]
+    },
+    {
+      "id": "porta-san-tomaso",
+      "nome": "Porta San Tomaso",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.669632,
+      "longitudine": 12.250692,
+      "descrizione": {
+        "it": "È la più monumentale delle porte cittadine, costruita nel 1518 su progetto di Guglielmo Bergamasco e dedicata al podestà Paolo Nani. La facciata esterna in pietra d'Istria, ricca di decorazioni, è dominata dal leone di San Marco; in cima, una cupola in legno e piombo regge la statua di San Paolo. Da qui partiva la strada verso il Friuli e le Alpi. All'interno si trova la sala d'armi, aperta in occasione di visite guidate.",
+        "en": "It is the most monumental of the city gates, built in 1518 to a design by Guglielmo Bergamasco and dedicated to the podestà Paolo Nani. The richly decorated outer façade in Istrian stone is dominated by the lion of Saint Mark; on top, a wooden and lead dome carries a statue of Saint Paul. The road to Friuli and the Alps started here. Inside is the armoury, open during guided tours.",
+        "fr": "C'est la plus monumentale des portes de la ville, construite en 1518 sur un projet de Guglielmo Bergamasco et dédiée au podestat Paolo Nani. La façade extérieure en pierre d'Istrie, richement décorée, est dominée par le lion de saint Marc ; au sommet, une coupole en bois et plomb porte la statue de saint Paul. D'ici partait la route vers le Frioul et les Alpes. À l'intérieur se trouve la salle d'armes, ouverte lors des visites guidées.",
+        "de": "Es ist das prächtigste Stadttor, 1518 nach Plänen von Guglielmo Bergamasco erbaut und dem Podestà Paolo Nani gewidmet. Die reich verzierte Außenfassade aus istrischem Stein wird vom Markuslöwen beherrscht; oben trägt eine Kuppel aus Holz und Blei die Statue des heiligen Paulus. Hier begann die Straße nach Friaul und in die Alpen. Innen liegt der Waffensaal, der bei Führungen geöffnet ist.",
+        "es": "Es la más monumental de las puertas de la ciudad, construida en 1518 según el proyecto de Guglielmo Bergamasco y dedicada al podestà Paolo Nani. La fachada exterior de piedra de Istria, muy decorada, está dominada por el león de San Marcos; arriba, una cúpula de madera y plomo sostiene la estatua de San Pablo. Desde aquí salía el camino hacia el Friuli y los Alpes. En su interior está la sala de armas, abierta en las visitas guiadas."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:PortaSanTomaso3.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_-_Porta_San_Tomaso_und_angrenzende_Stadtmauern_03.jpg"
+        },
+        {
+          "autore": "Roberto Ribotta",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Tommaso_a_Treviso.jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:PortaSanTomaso1.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "L'esterno è sempre visibile. La sala d'armi e gli ipogei del bastione si visitano solo in occasione delle aperture dell'associazione Treviso Sotterranea.",
+        "en": "The exterior is always visible. The armoury and the underground rooms of the bastion can only be visited during openings by the Treviso Sotterranea association.",
+        "fr": "L'extérieur est toujours visible. La salle d'armes et les souterrains du bastion ne se visitent que lors des ouvertures de l'association Treviso Sotterranea.",
+        "de": "Das Äußere ist jederzeit sichtbar. Waffensaal und unterirdische Räume der Bastion sind nur bei Öffnungen des Vereins Treviso Sotterranea zugänglich.",
+        "es": "El exterior siempre es visible. La sala de armas y los subterráneos del bastión solo se visitan en las aperturas de la asociación Treviso Sotterranea."
+      },
+      "wikipedia": {
+        "it": "Porta San Tomaso"
+      }
+    },
+    {
+      "id": "porta-santi-quaranta",
+      "nome": "Porta Santi Quaranta",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66703333,
+      "longitudine": 12.23496111,
+      "descrizione": {
+        "it": "Aperta nel 1517 sul lato occidentale delle mura, prende il nome dall'antica chiesa dei Santi Quaranta martiri che sorgeva nei pressi. Era l'ingresso per chi arrivava da Castelfranco e Vicenza. La facciata esterna, più sobria di quella di San Tomaso, è scandita da tre archi ed è decorata con il leone di San Marco. Accanto si apre il tratto di mura che porta verso il Bastione San Marco.",
+        "en": "Opened in 1517 on the western side of the walls, it takes its name from the old church of the Forty Holy Martyrs that stood nearby. It was the entrance for travellers from Castelfranco and Vicenza. The outer façade, plainer than San Tomaso, has three arches and is decorated with the lion of Saint Mark. Next to it begins the stretch of walls leading to the San Marco bastion.",
+        "fr": "Ouverte en 1517 sur le côté ouest des remparts, elle tient son nom de l'ancienne église des Quarante Saints Martyrs qui se trouvait à proximité. C'était l'entrée pour ceux qui venaient de Castelfranco et de Vicence. La façade extérieure, plus sobre que celle de San Tomaso, est rythmée par trois arcs et ornée du lion de saint Marc. À côté commence le tronçon de remparts qui mène au bastion San Marco.",
+        "de": "1517 an der Westseite der Mauern geöffnet, ist es nach der alten Kirche der Vierzig Märtyrer benannt, die in der Nähe stand. Hier kamen Reisende aus Castelfranco und Vicenza an. Die Außenfassade, schlichter als San Tomaso, hat drei Bögen und ist mit dem Markuslöwen geschmückt. Daneben beginnt der Mauerabschnitt zur Bastion San Marco.",
+        "es": "Abierta en 1517 en el lado occidental de las murallas, toma su nombre de la antigua iglesia de los Cuarenta Santos Mártires que estaba cerca. Era la entrada para quienes llegaban de Castelfranco y Vicenza. La fachada exterior, más sobria que la de San Tomaso, tiene tres arcos y está decorada con el león de San Marcos. A su lado empieza el tramo de murallas que lleva al bastión de San Marco."
+      },
+      "immagine": {
+        "autore": "Franco",
+        "licenza": "CC BY 2.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Santi_Quaranta.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Davide Busetto",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Santi_Quaranta_-_fronte.jpg"
+        },
+        {
+          "autore": "Berthgmn",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Santi_Quaranta_2.jpg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Porta_Santi_Quaranta_-_2023-09-28_18-00-11_001.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Porta Santi Quaranta"
+      }
+    },
+    {
+      "id": "fontana-delle-tette",
+      "nome": "Fontana delle Tette",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6663,
+      "longitudine": 12.245,
+      "descrizione": {
+        "it": "La fontana fu voluta nel 1559 dal podestà Alvise Da Ponte dopo un periodo di grave siccità: una statua femminile dal cui seno sgorgava l'acqua. Secondo la tradizione, nei giorni di festa e all'insediamento del nuovo podestà dai due getti usciva vino, bianco da una parte e rosso dall'altra, offerto a tutti per tre giorni. L'originale è conservato sotto il portico del Palazzo dei Trecento, mentre nel cortile di Calle del Podestà si trova una copia.",
+        "en": "The fountain was commissioned in 1559 by the podestà Alvise Da Ponte after a severe drought: a female statue with water flowing from her breasts. According to tradition, on feast days and when a new podestà took office, the two spouts poured wine, white from one and red from the other, offered to everyone for three days. The original is kept under the portico of the Palazzo dei Trecento, while a copy stands in the courtyard of Calle del Podestà.",
+        "fr": "La fontaine fut voulue en 1559 par le podestat Alvise Da Ponte après une grave sécheresse : une statue féminine dont l'eau jaillissait des seins. Selon la tradition, les jours de fête et à l'installation du nouveau podestat, les deux jets donnaient du vin, blanc d'un côté et rouge de l'autre, offert à tous pendant trois jours. L'original est conservé sous le portique du Palazzo dei Trecento, tandis qu'une copie se trouve dans la cour de la Calle del Podestà.",
+        "de": "Der Podestà Alvise Da Ponte ließ den Brunnen 1559 nach einer schweren Dürre errichten: eine Frauenstatue, aus deren Brüsten Wasser fließt. Der Überlieferung nach floss an Festtagen und beim Amtsantritt eines neuen Podestà Wein aus den beiden Strahlen, weiß aus dem einen und rot aus dem anderen, drei Tage lang für alle. Das Original steht unter dem Portikus des Palazzo dei Trecento, eine Kopie im Hof der Calle del Podestà.",
+        "es": "La fuente fue encargada en 1559 por el podestà Alvise Da Ponte tras una grave sequía: una estatua femenina de cuyos pechos manaba agua. Según la tradición, en los días de fiesta y cuando tomaba posesión un nuevo podestà, de los dos chorros salía vino, blanco de uno y tinto del otro, ofrecido a todos durante tres días. El original se conserva bajo el pórtico del Palazzo dei Trecento y una copia está en el patio de la Calle del Podestà."
+      },
+      "immagine": {
+        "autore": "Mitopoietico",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:La_Fontana_delle_Tette_con_la_targa_storica.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Mitopoietico",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:La_Fontana_delle_Tette_vista_di_fronte.jpg"
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Scuola_veneta,_protome_della_fontana_delle_tette,_in_pietra_d%27istria,_1559-60_ca._01.jpg"
+        },
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_-_Statuen_02.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Fontana delle Tette"
+      }
+    },
+    {
+      "id": "canale-dei-buranelli",
+      "nome": "Canale dei Buranelli",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66705,
+      "longitudine": 12.24625,
+      "descrizione": {
+        "it": "È uno degli scorci più fotografati di Treviso: un canale del Cagnan su cui si affacciano case con portici, balconi e facciate dipinte, con l'acqua che scorre sotto i ponticelli. Il nome ricorda i mercanti di Burano che, secondo la tradizione, vi avevano casa e magazzini per i loro commerci. La via pedonale che lo costeggia porta dalla zona di Piazza dei Signori alla Pescheria.",
+        "en": "It is one of the most photographed views of Treviso: a branch of the Cagnan lined with houses with porticoes, balconies and painted façades, with water flowing under small bridges. The name recalls the merchants from Burano who, according to tradition, had homes and warehouses here for their trade. The pedestrian street along it leads from Piazza dei Signori to the Fish Market.",
+        "fr": "C'est l'une des vues les plus photographiées de Trévise : un bras du Cagnan bordé de maisons à portiques, balcons et façades peintes, avec l'eau qui coule sous les petits ponts. Le nom rappelle les marchands de Burano qui, selon la tradition, y avaient maisons et entrepôts. La rue piétonne qui le longe mène de la Piazza dei Signori à la Pescheria.",
+        "de": "Einer der meistfotografierten Ausblicke Trevisos: ein Arm des Cagnan, gesäumt von Häusern mit Laubengängen, Balkonen und bemalten Fassaden, das Wasser fließt unter kleinen Brücken hindurch. Der Name erinnert an die Händler aus Burano, die hier der Überlieferung nach Häuser und Lager hatten. Die Fußgängergasse am Kanal führt von der Piazza dei Signori zur Fischmarktinsel.",
+        "es": "Es una de las vistas más fotografiadas de Treviso: un brazo del Cagnan bordeado de casas con soportales, balcones y fachadas pintadas, con el agua corriendo bajo pequeños puentes. El nombre recuerda a los mercaderes de Burano que, según la tradición, tenían aquí casas y almacenes. La calle peatonal que lo bordea lleva de la Piazza dei Signori a la Pescheria."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Il_canale_dei_Buranelli.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:BuranelliPonteRinaldi.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4150TrevisoCagnanBuranelli.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4281TrevisoCanaleBuranelli.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Canale dei Buranelli"
+      }
+    },
+    {
+      "id": "isola-della-pescheria",
+      "nome": "Isola della Pescheria",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666753,
+      "longitudine": 12.248259,
+      "descrizione": {
+        "it": "Questa piccola isola artificiale in mezzo al Cagnan Grande fu realizzata nel 1856 su progetto dell'architetto Francesco Bomben, per spostare il mercato del pesce in un luogo dove l'acqua corrente garantisse pulizia e igiene. Collegata alle rive da due ponticelli, ospita ancora il mercato del pesce al mattino. Nel resto della giornata, tra salici e mulini, è un luogo tranquillo dove sostare lungo l'acqua.",
+        "en": "This small artificial island in the middle of the Cagnan Grande was created in 1856 to a design by the architect Francesco Bomben, to move the fish market to a place where running water kept everything clean. Linked to the banks by two small bridges, it still hosts the fish market in the morning. The rest of the day, among willows and mills, it is a quiet spot by the water.",
+        "fr": "Cette petite île artificielle au milieu du Cagnan Grande fut aménagée en 1856 sur un projet de l'architecte Francesco Bomben, pour déplacer le marché aux poissons dans un lieu où l'eau courante garantissait propreté et hygiène. Reliée aux rives par deux petits ponts, elle accueille encore le marché aux poissons le matin. Le reste de la journée, entre saules et moulins, c'est un endroit paisible au bord de l'eau.",
+        "de": "Diese kleine künstliche Insel mitten im Cagnan Grande entstand 1856 nach Plänen des Architekten Francesco Bomben, um den Fischmarkt an einen Ort zu verlegen, an dem fließendes Wasser für Sauberkeit sorgte. Über zwei kleine Brücken mit den Ufern verbunden, findet hier noch vormittags der Fischmarkt statt. Den Rest des Tages ist sie zwischen Weiden und Mühlen ein ruhiger Ort am Wasser.",
+        "es": "Esta pequeña isla artificial en medio del Cagnan Grande se construyó en 1856 según el proyecto del arquitecto Francesco Bomben, para trasladar el mercado de pescado a un lugar donde el agua corriente garantizara limpieza e higiene. Unida a las orillas por dos pequeños puentes, aún acoge el mercado de pescado por la mañana. El resto del día, entre sauces y molinos, es un rincón tranquilo junto al agua."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Isola_della_Pescheria_vista_dal_Vicolo_del_Molinetto.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_04_Fischmarkt.jpg"
+        },
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_05_Fischmarkt.jpg"
+        },
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_06_Fischmarkt.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Isola della Pescheria"
+      }
+    },
+    {
+      "id": "canale-cagnan-grande",
+      "nome": "Canale Cagnan Grande",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6675,
+      "longitudine": 12.2474,
+      "descrizione": {
+        "it": "Il Cagnan Grande è il più importante dei canali in cui il Botteniga si divide entrando in città. Attraversa il centro da nord a sud, passa accanto all'Isola della Pescheria e alla Casa dei Carraresi e si getta nel Sile. Lungo le sue rive giravano un tempo decine di ruote di mulini, alcune delle quali sono ancora visibili. La Riva del Cagnan, dedicata allo scrittore Giovanni Comisso, è una delle passeggiate più suggestive del centro.",
+        "en": "The Cagnan Grande is the most important of the canals into which the Botteniga divides as it enters the city. It crosses the centre from north to south, passes the Fish Market island and the Casa dei Carraresi and flows into the Sile. Dozens of mill wheels once turned along its banks, and some are still visible. The Riva del Cagnan, dedicated to the writer Giovanni Comisso, is one of the most charming walks in the centre.",
+        "fr": "Le Cagnan Grande est le plus important des canaux dans lesquels le Botteniga se divise en entrant en ville. Il traverse le centre du nord au sud, passe près de l'île de la Pescheria et de la Casa dei Carraresi et se jette dans le Sile. Le long de ses rives tournaient autrefois des dizaines de roues de moulins, dont certaines sont encore visibles. La Riva del Cagnan, dédiée à l'écrivain Giovanni Comisso, est l'une des promenades les plus charmantes du centre.",
+        "de": "Der Cagnan Grande ist der wichtigste der Kanäle, in die sich der Botteniga beim Eintritt in die Stadt teilt. Er durchquert das Zentrum von Nord nach Süd, fließt an der Fischmarktinsel und der Casa dei Carraresi vorbei und mündet in den Sile. An seinen Ufern drehten sich einst Dutzende Mühlräder, einige sind noch zu sehen. Die Riva del Cagnan, dem Schriftsteller Giovanni Comisso gewidmet, ist einer der schönsten Spaziergänge im Zentrum.",
+        "es": "El Cagnan Grande es el más importante de los canales en que se divide el Botteniga al entrar en la ciudad. Cruza el centro de norte a sur, pasa junto a la isla de la Pescheria y la Casa dei Carraresi y desemboca en el Sile. En sus orillas giraban antaño decenas de ruedas de molino, algunas todavía visibles. La Riva del Cagnan, dedicada al escritor Giovanni Comisso, es uno de los paseos más bonitos del centro."
+      },
+      "immagine": {
+        "autore": "Krzysztof Golik",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Cagnan_Grando_in_Treviso_(1).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Mulino_presso_l%27Isola_della_Pescheria_sul_Canale_Cagnan.jpg"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Canale_Cagnan_e_Ponte_San_Francesco.jpg"
+        },
+        {
+          "autore": "Gary Houston",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Cagnan-Treviso-20050528-023.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Cagnan Grande"
+      }
+    },
+    {
+      "id": "fiume-botteniga",
+      "nome": "Fiume Botteniga",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.669359,
+      "longitudine": 12.246124,
+      "descrizione": {
+        "it": "Il Botteniga, chiamato anche Pegorile, nasce da risorgive a nord di Treviso ed entra in città sotto le mura settentrionali. Al Ponte de Pria si divide nei canali che attraversano il centro storico: il Cagnan Grande, i Buranelli e la Roggia. Per secoli le sue acque hanno mosso mulini e laboratori e, nel Cinquecento, hanno fatto parte del sistema difensivo della città. Il punto in cui si divide è uno dei luoghi più caratteristici di Treviso.",
+        "en": "The Botteniga, also called Pegorile, rises from springs north of Treviso and enters the city beneath the northern walls. At the Ponte de Pria it splits into the canals that cross the old town: the Cagnan Grande, the Buranelli and the Roggia. For centuries its waters drove mills and workshops and, in the 16th century, they were part of the city's defences. The point where it divides is one of the most characteristic places in Treviso.",
+        "fr": "Le Botteniga, appelé aussi Pegorile, naît de résurgences au nord de Trévise et entre en ville sous les remparts nord. Au Ponte de Pria, il se divise en canaux qui traversent le centre historique : le Cagnan Grande, les Buranelli et la Roggia. Pendant des siècles, ses eaux ont fait tourner moulins et ateliers et, au XVIe siècle, elles faisaient partie du système défensif de la ville. Le point où il se divise est l'un des lieux les plus caractéristiques de Trévise.",
+        "de": "Der Botteniga, auch Pegorile genannt, entspringt Quellen nördlich von Treviso und fließt unter der Nordmauer in die Stadt. Am Ponte de Pria teilt er sich in die Kanäle, die die Altstadt durchqueren: Cagnan Grande, Buranelli und Roggia. Jahrhundertelang trieb sein Wasser Mühlen und Werkstätten an und war im 16. Jahrhundert Teil der Stadtverteidigung. Die Stelle, an der er sich teilt, ist einer der typischsten Orte Trevisos.",
+        "es": "El Botteniga, también llamado Pegorile, nace de manantiales al norte de Treviso y entra en la ciudad bajo las murallas del norte. En el Ponte de Pria se divide en los canales que cruzan el casco antiguo: el Cagnan Grande, los Buranelli y la Roggia. Durante siglos sus aguas movieron molinos y talleres y, en el siglo XVI, formaron parte de las defensas de la ciudad. El punto donde se divide es uno de los lugares más característicos de Treviso."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_The_locks_of_Ponte_Pria_in_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Cagnan_e_Buranelli_viste_dal_Ponte_Fra_Giocondo.jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:ChiuseTreviso1.JPG"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:ChiuseTreviso2.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Botteniga"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "L'acqua come arma difensiva",
+            "en": "Water as a weapon of defence",
+            "fr": "L'eau comme arme défensive",
+            "de": "Wasser als Verteidigungswaffe",
+            "es": "El agua como arma defensiva"
+          },
+          "testo": {
+            "it": "Nel Cinquecento il Botteniga fu sfruttato come parte integrante delle difese cittadine. Il sistema di chiuse progettato da Fra' Giocondo permetteva di regolare le acque e, in caso di pericolo, allagare le campagne circostanti per ostacolare gli eserciti nemici.",
+            "en": "In the 16th century the Botteniga became an integral part of the city's defences. The system of sluices designed by Fra' Giocondo made it possible to control the water and, in case of danger, flood the surrounding countryside to hold back enemy armies.",
+            "fr": "Au XVIe siècle, le Botteniga fut intégré aux défenses de la ville. Le système d'écluses conçu par Fra' Giocondo permettait de régler les eaux et, en cas de danger, d'inonder les campagnes alentour pour freiner les armées ennemies.",
+            "de": "Im 16. Jahrhundert wurde der Botteniga Teil der Stadtverteidigung. Das von Fra' Giocondo entworfene Schleusensystem regelte das Wasser und konnte bei Gefahr das Umland fluten, um feindliche Heere aufzuhalten.",
+            "es": "En el siglo XVI el Botteniga pasó a formar parte de las defensas de la ciudad. El sistema de esclusas diseñado por Fra' Giocondo permitía regular las aguas y, en caso de peligro, inundar los campos de alrededor para frenar a los ejércitos enemigos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "calmaggiore",
+      "nome": "Calmaggiore",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666204,
+      "longitudine": 12.244414,
+      "descrizione": {
+        "it": "È la via principale di Treviso e collega Piazza dei Signori a Piazza del Duomo. Ricalca l'antico cardo massimo della città romana. È fiancheggiata da portici e da palazzi con facciate affrescate, che ricordano perché Treviso era chiamata \"urbs picta\", la città dipinta. Sotto i portici si susseguono negozi e caffè: è la passeggiata più amata dai trevigiani.",
+        "en": "It is the main street of Treviso and links Piazza dei Signori to Piazza del Duomo. It follows the ancient cardo maximus of the Roman town. It is lined with porticoes and buildings with frescoed façades, which explain why Treviso was called \"urbs picta\", the painted city. Under the arcades are shops and cafés: it is the locals' favourite stroll.",
+        "fr": "C'est la rue principale de Trévise et elle relie la Piazza dei Signori à la Piazza del Duomo. Elle suit l'ancien cardo maximus de la ville romaine. Elle est bordée de portiques et de palais aux façades peintes à fresque, qui rappellent pourquoi Trévise était appelée « urbs picta », la ville peinte. Sous les arcades se succèdent boutiques et cafés : c'est la promenade préférée des Trévisans.",
+        "de": "Sie ist die Hauptstraße Trevisos und verbindet die Piazza dei Signori mit der Piazza del Duomo. Sie folgt dem alten Cardo maximus der römischen Stadt. Gesäumt wird sie von Laubengängen und Palästen mit freskierten Fassaden, die erklären, warum Treviso „urbs picta“, die bemalte Stadt, genannt wurde. Unter den Arkaden reihen sich Geschäfte und Cafés: die beliebteste Flaniermeile der Trevisaner.",
+        "es": "Es la calle principal de Treviso y une la Piazza dei Signori con la Piazza del Duomo. Sigue el antiguo cardo máximo de la ciudad romana. Está flanqueada por soportales y palacios con fachadas pintadas al fresco, que explican por qué Treviso era llamada «urbs picta», la ciudad pintada. Bajo los soportales se suceden tiendas y cafés: es el paseo favorito de los trevisanos."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Calmaggiore_-_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Raf24",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Calmaggiore,_Treviso.jpg"
+        },
+        {
+          "autore": "Aqwis",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:TrevisoStreet.jpg"
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_calmaggiore_38,_portico.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Calmaggiore"
+      }
+    },
+    {
+      "id": "piazza-san-vito",
+      "nome": "Piazza San Vito",
+      "categoria": "piazze",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66662,
+      "longitudine": 12.24576,
+      "descrizione": {
+        "it": "Piccola piazza raccolta a pochi passi da Piazza dei Signori, su cui si affacciano le chiese unite di San Vito e Santa Lucia. Al centro si trova una fontana in pietra. È un angolo tranquillo del centro storico, da cui si raggiunge facilmente la Piazzetta del Monte di Pietà.",
+        "en": "A small, intimate square a few steps from Piazza dei Signori, overlooked by the joined churches of San Vito and Santa Lucia. In the middle stands a stone fountain. It is a quiet corner of the old town, from which the Piazzetta del Monte di Pietà is easily reached.",
+        "fr": "Petite place intime à quelques pas de la Piazza dei Signori, sur laquelle donnent les églises réunies de San Vito et Santa Lucia. Au centre se trouve une fontaine en pierre. C'est un coin tranquille du centre historique, d'où l'on rejoint facilement la Piazzetta del Monte di Pietà.",
+        "de": "Ein kleiner, ruhiger Platz wenige Schritte von der Piazza dei Signori, an dem die verbundenen Kirchen San Vito und Santa Lucia stehen. In der Mitte steht ein Steinbrunnen. Eine stille Ecke der Altstadt, von der aus man leicht die Piazzetta del Monte di Pietà erreicht.",
+        "es": "Pequeña plaza recogida a pocos pasos de la Piazza dei Signori, a la que se asoman las iglesias unidas de San Vito y Santa Lucía. En el centro hay una fuente de piedra. Es un rincón tranquilo del casco antiguo, desde el que se llega fácilmente a la Piazzetta del Monte di Pietà."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:PiazzaSanVito1.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4116TrevisoPzaSVito.JPG"
+        },
+        {
+          "autore": "Riccardo Speziari",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Fountain_1.jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:PiazzaSanVito2.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      }
+    },
+    {
+      "id": "piazza-indipendenza",
+      "nome": "Piazza Indipendenza",
+      "categoria": "piazze",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66559,
+      "longitudine": 12.246293,
+      "descrizione": {
+        "it": "Adiacente a Piazza dei Signori, dietro il Palazzo dei Trecento, la piazza è dominata dal Monumento all'Indipendenza, inaugurato nel 1875 per ricordare la resistenza di Treviso contro gli austriaci nel 1848. La statua femminile che lo sovrasta, chiamata dai trevigiani \"la Teresona\", rappresenta la Patria. Attorno si affacciano palazzi ottocenteschi e caffè con i tavolini all'aperto.",
+        "en": "Next to Piazza dei Signori, behind the Palazzo dei Trecento, the square is dominated by the Independence Monument, unveiled in 1875 to commemorate Treviso's resistance against the Austrians in 1848. The female statue on top, nicknamed \"la Teresona\" by locals, represents the Homeland. Around it are 19th-century buildings and cafés with outdoor tables.",
+        "fr": "À côté de la Piazza dei Signori, derrière le Palazzo dei Trecento, la place est dominée par le monument à l'Indépendance, inauguré en 1875 en souvenir de la résistance de Trévise contre les Autrichiens en 1848. La statue féminine qui le surmonte, surnommée « la Teresona » par les Trévisans, représente la Patrie. Autour se dressent des palais du XIXe siècle et des cafés avec terrasses.",
+        "de": "Neben der Piazza dei Signori, hinter dem Palazzo dei Trecento, wird der Platz vom Unabhängigkeitsdenkmal beherrscht, das 1875 zur Erinnerung an den Widerstand Trevisos gegen die Österreicher 1848 eingeweiht wurde. Die Frauenstatue an der Spitze, von den Einheimischen „la Teresona“ genannt, stellt das Vaterland dar. Ringsum stehen Gebäude des 19. Jahrhunderts und Cafés mit Tischen im Freien.",
+        "es": "Junto a la Piazza dei Signori, detrás del Palazzo dei Trecento, la plaza está dominada por el Monumento a la Independencia, inaugurado en 1875 para recordar la resistencia de Treviso contra los austriacos en 1848. La estatua femenina que lo corona, llamada «la Teresona» por los trevisanos, representa a la Patria. Alrededor hay palacios del siglo XIX y cafés con terraza."
+      },
+      "immagine": {
+        "autore": "Raf24",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Indipendenza,_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_dei_Trecento(Est).jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Monumento dell'indipendenza"
+      }
+    },
+    {
+      "id": "palazzo-del-podesta-e-torre-civica",
+      "nome": "Palazzo del Podestà e Torre Civica",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666077,
+      "longitudine": 12.245505,
+      "descrizione": {
+        "it": "Il Palazzo del Podestà fu la residenza del magistrato che governava la città per conto di Venezia. L'edificio attuale, sede della Prefettura, fu rifatto in forme neogotiche tra Otto e Novecento. Lo sovrasta la Torre Civica, alta circa 48 metri: è il punto più alto del centro e la sua campana scandiva la vita cittadina.",
+        "en": "The Palazzo del Podestà was the residence of the magistrate who governed the city on behalf of Venice. The present building, seat of the Prefecture, was remodelled in neo-Gothic style in the 19th and 20th centuries. It is topped by the Civic Tower, about 48 metres high: it is the highest point of the centre and its bell marked the rhythm of city life.",
+        "fr": "Le Palazzo del Podestà était la résidence du magistrat qui gouvernait la ville pour le compte de Venise. Le bâtiment actuel, siège de la Préfecture, fut refait dans un style néogothique entre le XIXe et le XXe siècle. Il est dominé par la Tour civique, haute d'environ 48 mètres : c'est le point le plus haut du centre et sa cloche rythmait la vie de la ville.",
+        "de": "Der Palazzo del Podestà war die Residenz des Magistrats, der die Stadt im Auftrag Venedigs regierte. Das heutige Gebäude, Sitz der Präfektur, wurde im 19. und 20. Jahrhundert neugotisch umgestaltet. Darüber erhebt sich der etwa 48 Meter hohe Bürgerturm: der höchste Punkt des Zentrums, dessen Glocke das Stadtleben bestimmte.",
+        "es": "El Palazzo del Podestà fue la residencia del magistrado que gobernaba la ciudad en nombre de Venecia. El edificio actual, sede de la Prefectura, se rehízo en estilo neogótico entre los siglos XIX y XX. Lo corona la Torre Cívica, de unos 48 metros: es el punto más alto del centro y su campana marcaba la vida de la ciudad."
+      },
+      "immagine": {
+        "autore": "Maddalena Addeo",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Civica_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Pvt pauline",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_di_Signori_in_Treviso.JPG"
+        },
+        {
+          "autore": "Aktron",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_v%C4%9B%C5%BE_na_n%C3%A1m%C4%9Bst%C3%AD.jpg"
+        },
+        {
+          "autore": "Szeder László",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:I-TV-Treviso14.JPG"
+        }
+      ],
+      "nota": {
+        "it": "Visitabile solo dall'esterno: è sede della Prefettura.",
+        "en": "Can only be seen from outside: it houses the Prefecture.",
+        "fr": "Visible uniquement de l'extérieur : c'est le siège de la Préfecture.",
+        "de": "Nur von außen zu besichtigen: Sitz der Präfektur.",
+        "es": "Solo se puede ver desde fuera: es la sede de la Prefectura."
+      },
+      "wikipedia": {
+        "it": "Torre civica (Treviso)"
+      }
+    },
+    {
+      "id": "monte-di-pieta-e-cappella-dei-rettori",
+      "nome": "Monte di Pietà e Cappella dei Rettori",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66598,
+      "longitudine": 12.2463,
+      "descrizione": {
+        "it": "Alle spalle del Palazzo del Podestà, sulla raccolta Piazzetta del Monte, sorge l'antica sede del Monte di Pietà, istituito dai Francescani nel 1496 per prestare denaro ai poveri contro un pegno e sottrarli all'usura. Al primo piano si trova la Cappella dei Rettori, uno degli ambienti più preziosi della città: pareti rivestite di cuoio dorato e decorazioni di Ludovico Fiumicelli e di Pozzoserrato. Il complesso appartiene alla Fondazione Cassamarca, che ne prevede l'apertura come museo.",
+        "en": "Behind the Palazzo del Podestà, on the small Piazzetta del Monte, stands the old seat of the Monte di Pietà, founded by the Franciscans in 1496 to lend money to the poor against a pledge and save them from usury. On the first floor is the Rectors' Chapel, one of the most precious rooms in the city: walls covered in gilded leather and decorations by Ludovico Fiumicelli and Pozzoserrato. The complex belongs to the Cassamarca Foundation, which plans to open it as a museum.",
+        "fr": "Derrière le Palazzo del Podestà, sur la petite Piazzetta del Monte, se dresse l'ancien siège du Mont-de-Piété, fondé par les Franciscains en 1496 pour prêter de l'argent aux pauvres contre un gage et les soustraire à l'usure. Au premier étage se trouve la chapelle des Recteurs, l'une des salles les plus précieuses de la ville : murs revêtus de cuir doré et décors de Ludovico Fiumicelli et de Pozzoserrato. Le complexe appartient à la Fondation Cassamarca, qui prévoit de l'ouvrir comme musée.",
+        "de": "Hinter dem Palazzo del Podestà, an der kleinen Piazzetta del Monte, steht der alte Sitz des Monte di Pietà, 1496 von den Franziskanern gegründet, um Armen gegen Pfand Geld zu leihen und sie vor Wucher zu schützen. Im ersten Stock liegt die Kapelle der Rektoren, einer der kostbarsten Räume der Stadt: Wände mit vergoldetem Leder und Dekorationen von Ludovico Fiumicelli und Pozzoserrato. Der Komplex gehört der Stiftung Cassamarca, die ihn als Museum öffnen will.",
+        "es": "Detrás del Palazzo del Podestà, en la recogida Piazzetta del Monte, se alza la antigua sede del Monte de Piedad, fundado por los franciscanos en 1496 para prestar dinero a los pobres a cambio de una prenda y librarlos de la usura. En la primera planta está la Capilla de los Rectores, una de las salas más valiosas de la ciudad: paredes revestidas de cuero dorado y decoraciones de Ludovico Fiumicelli y de Pozzoserrato. El conjunto pertenece a la Fundación Cassamarca, que prevé abrirlo como museo."
+      },
+      "nota": {
+        "it": "Finora visitabile solo in occasioni straordinarie; la Fondazione Cassamarca ne ha annunciato l'apertura come museo nel 2027.",
+        "en": "So far it can only be visited on special occasions; the Cassamarca Foundation has announced its opening as a museum in 2027.",
+        "fr": "Jusqu'ici visitable uniquement lors d'occasions exceptionnelles ; la Fondation Cassamarca a annoncé son ouverture comme musée en 2027.",
+        "de": "Bisher nur zu besonderen Anlässen zugänglich; die Stiftung Cassamarca hat die Eröffnung als Museum für 2027 angekündigt.",
+        "es": "Hasta ahora solo se visita en ocasiones especiales; la Fundación Cassamarca ha anunciado su apertura como museo en 2027."
+      }
+    },
+    {
+      "id": "ca-dei-ricchi",
+      "nome": "Ca' dei Ricchi",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665355,
+      "longitudine": 12.244642,
+      "descrizione": {
+        "it": "Elegante palazzo di origine medievale in Vicolo Barberia, a pochi passi da Piazza dei Signori. Conserva un bel cortile interno e facciate decorate da affreschi, testimonianza della Treviso \"città dipinta\". Restaurato, è stato a lungo sede di TRA – Treviso Ricerca Arte e ospita mostre, incontri ed eventi culturali.",
+        "en": "An elegant palace of medieval origin in Vicolo Barberia, a few steps from Piazza dei Signori. It keeps a fine inner courtyard and façades decorated with frescoes, a reminder of Treviso as the \"painted city\". Restored, it was long the home of TRA – Treviso Ricerca Arte and hosts exhibitions, talks and cultural events.",
+        "fr": "Élégant palais d'origine médiévale dans le Vicolo Barberia, à quelques pas de la Piazza dei Signori. Il conserve une belle cour intérieure et des façades ornées de fresques, témoignage de Trévise « ville peinte ». Restauré, il a longtemps abrité TRA – Treviso Ricerca Arte et accueille expositions, rencontres et événements culturels.",
+        "de": "Eleganter Palast mittelalterlichen Ursprungs im Vicolo Barberia, wenige Schritte von der Piazza dei Signori. Er bewahrt einen schönen Innenhof und freskierte Fassaden, Zeugnis der „bemalten Stadt“ Treviso. Restauriert, war er lange Sitz von TRA – Treviso Ricerca Arte und beherbergt Ausstellungen, Begegnungen und Kulturveranstaltungen.",
+        "es": "Elegante palacio de origen medieval en el Vicolo Barberia, a pocos pasos de la Piazza dei Signori. Conserva un bonito patio interior y fachadas decoradas con frescos, testimonio de la Treviso «ciudad pintada». Restaurado, fue durante años sede de TRA – Treviso Ricerca Arte y acoge exposiciones, encuentros y eventos culturales."
+      },
+      "immagine": {
+        "autore": "Phante",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ca%27_dei_Ricchi.jpeg"
+      },
+      "galleria": [
+        {
+          "autore": "Viaggiamocela",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ca%27_dei_Ricchi_-_2024-09-28_20-07-35_001.jpg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ca%27_dei_Ricchi_-_2023-09-14_17-58-35_001.jpeg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Ca%27_dei_Ricchi_-_2023-09-14_17-58-35_002.jpeg"
+        }
+      ],
+      "nota": {
+        "it": "Aperto durante mostre ed eventi; orari e ingresso variano a seconda del programma.",
+        "en": "Open during exhibitions and events; hours and admission vary with the programme.",
+        "fr": "Ouvert pendant les expositions et événements ; horaires et entrée varient selon le programme.",
+        "de": "Während Ausstellungen und Veranstaltungen geöffnet; Zeiten und Eintritt je nach Programm.",
+        "es": "Abierto durante exposiciones y eventos; horarios y entrada varían según el programa."
+      },
+      "wikipedia": {
+        "it": "Ca' dei Ricchi"
+      }
+    },
+    {
+      "id": "casa-dei-carraresi",
+      "nome": "Casa dei Carraresi",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666468,
+      "longitudine": 12.247581,
+      "descrizione": {
+        "it": "Edificio di origine duecentesca affacciato sul Cagnan e su Via Palestro, prende il nome dagli stemmi della famiglia da Carrara, signori di Padova che governarono Treviso alla fine del Trecento. Dal 1354 ospitava l'Osteria alla Croce, frequentata da mercanti e soldati. Restaurata nel 1987, è stata per decenni la sede delle grandi mostre della Fondazione Cassamarca; dall'ottobre 2026 accoglie stabilmente le collezioni d'arte della Fondazione.",
+        "en": "A 13th-century building overlooking the Cagnan and Via Palestro, it takes its name from the coats of arms of the da Carrara family, lords of Padua who ruled Treviso at the end of the 14th century. From 1354 it housed the Osteria alla Croce, an inn for merchants and soldiers. Restored in 1987, for decades it hosted the major exhibitions of the Cassamarca Foundation; since October 2026 it permanently houses the Foundation's art collections.",
+        "fr": "Bâtiment d'origine du XIIIe siècle donnant sur le Cagnan et la Via Palestro, il doit son nom aux armoiries de la famille da Carrara, seigneurs de Padoue qui gouvernèrent Trévise à la fin du XIVe siècle. Dès 1354, il abritait l'Osteria alla Croce, fréquentée par marchands et soldats. Restaurée en 1987, elle a accueilli pendant des décennies les grandes expositions de la Fondation Cassamarca ; depuis octobre 2026, elle abrite en permanence les collections d'art de la Fondation.",
+        "de": "Ein Gebäude aus dem 13. Jahrhundert am Cagnan und an der Via Palestro, benannt nach den Wappen der Familie da Carrara, Herren von Padua, die Treviso Ende des 14. Jahrhunderts regierten. Ab 1354 befand sich hier die Osteria alla Croce, Treffpunkt von Händlern und Soldaten. 1987 restauriert, war sie jahrzehntelang Ort der großen Ausstellungen der Stiftung Cassamarca; seit Oktober 2026 zeigt sie dauerhaft deren Kunstsammlungen.",
+        "es": "Edificio del siglo XIII que da al Cagnan y a la Via Palestro, toma su nombre de los escudos de la familia da Carrara, señores de Padua que gobernaron Treviso a finales del siglo XIV. Desde 1354 albergaba la Osteria alla Croce, frecuentada por mercaderes y soldados. Restaurada en 1987, durante décadas acogió las grandes exposiciones de la Fundación Cassamarca; desde octubre de 2026 alberga de forma permanente las colecciones de arte de la Fundación."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:CaDeiCarraresi3.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "BonBartolomeo at Italian Wikipedia",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Casa_dei_Carraresi.JPG"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:CaDeiCarraresi1.JPG"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:CaDeiCarraresi2.JPG"
+        }
+      ],
+      "nota": {
+        "it": "Riaperta il 2 ottobre 2026 con le collezioni permanenti della Fondazione Cassamarca: orari e biglietti sul sito della Fondazione.",
+        "en": "Reopened on 2 October 2026 with the permanent collections of the Cassamarca Foundation: hours and tickets on the Foundation's website.",
+        "fr": "Rouverte le 2 octobre 2026 avec les collections permanentes de la Fondation Cassamarca : horaires et billets sur le site de la Fondation.",
+        "de": "Am 2. Oktober 2026 mit den Dauersammlungen der Stiftung Cassamarca wiedereröffnet: Zeiten und Tickets auf der Website der Stiftung.",
+        "es": "Reabierta el 2 de octubre de 2026 con las colecciones permanentes de la Fundación Cassamarca: horarios y entradas en la web de la Fundación."
+      },
+      "sito": "https://www.fondazionecassamarca.it",
+      "wikipedia": {
+        "it": "Ca' dei Carraresi"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Un nome legato a una signoria",
+            "en": "A name linked to a ruling family",
+            "fr": "Un nom lié à une seigneurie",
+            "de": "Ein Name aus einer Herrschaft",
+            "es": "Un nombre ligado a un señorío"
+          },
+          "testo": {
+            "it": "Il nome richiama la famiglia da Carrara, che governò Treviso per alcuni anni nel Trecento. L'edificio, però, è più antico: le sue strutture risalgono alla prima metà del Duecento.",
+            "en": "The name recalls the da Carrara family, who ruled Treviso for a few years in the 14th century. The building, however, is older: its structures date back to the first half of the 13th century.",
+            "fr": "Le nom rappelle la famille da Carrara, qui gouverna Trévise quelques années au XIVe siècle. Le bâtiment est pourtant plus ancien : ses structures remontent à la première moitié du XIIIe siècle.",
+            "de": "Der Name erinnert an die Familie da Carrara, die Treviso im 14. Jahrhundert einige Jahre regierte. Das Gebäude ist jedoch älter: Seine Bausubstanz stammt aus der ersten Hälfte des 13. Jahrhunderts.",
+            "es": "El nombre recuerda a la familia da Carrara, que gobernó Treviso algunos años en el siglo XIV. Sin embargo, el edificio es más antiguo: sus estructuras se remontan a la primera mitad del siglo XIII."
+          }
+        }
+      ]
+    },
+    {
+      "id": "palazzo-bomben",
+      "nome": "Palazzo Bomben",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.667493,
+      "longitudine": 12.243551,
+      "descrizione": {
+        "it": "Palazzo cinquecentesco in Via Cornarotta, è dal 1987 la sede della Fondazione Benetton Studi Ricerche, che si occupa di paesaggio, giardini e storia del gioco. Il restauro, curato da Tobia Scarpa, ha recuperato gli ambienti antichi affiancandoli a spazi moderni per convegni, biblioteca e mostre. È uno dei centri culturali più attivi della città.",
+        "en": "A 16th-century palace in Via Cornarotta, since 1987 it has been the seat of the Fondazione Benetton Studi Ricerche, which studies landscape, gardens and the history of games. The restoration by Tobia Scarpa recovered the old rooms and added modern spaces for conferences, a library and exhibitions. It is one of the liveliest cultural centres in the city.",
+        "fr": "Palais du XVIe siècle dans la Via Cornarotta, il est depuis 1987 le siège de la Fondation Benetton Studi Ricerche, qui étudie le paysage, les jardins et l'histoire du jeu. La restauration de Tobia Scarpa a récupéré les salles anciennes en y ajoutant des espaces modernes pour congrès, bibliothèque et expositions. C'est l'un des centres culturels les plus actifs de la ville.",
+        "de": "Ein Palast aus dem 16. Jahrhundert in der Via Cornarotta, seit 1987 Sitz der Fondazione Benetton Studi Ricerche, die sich mit Landschaft, Gärten und der Geschichte des Spiels befasst. Die Restaurierung durch Tobia Scarpa hat die alten Räume bewahrt und moderne Bereiche für Tagungen, Bibliothek und Ausstellungen hinzugefügt. Eines der lebendigsten Kulturzentren der Stadt.",
+        "es": "Palacio del siglo XVI en la Via Cornarotta, desde 1987 es la sede de la Fundación Benetton Studi Ricerche, que estudia el paisaje, los jardines y la historia del juego. La restauración de Tobia Scarpa recuperó las salas antiguas y añadió espacios modernos para congresos, biblioteca y exposiciones. Es uno de los centros culturales más activos de la ciudad."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:PalazzoBomben1.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_palazzo_bomben,_portale_01.jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:PalazzoBomben2.JPG"
+        }
+      ],
+      "nota": {
+        "it": "Aperto in occasione di mostre, convegni ed eventi della Fondazione; la biblioteca segue orari propri (vedi sito).",
+        "en": "Open during the Foundation's exhibitions, conferences and events; the library has its own hours (see website).",
+        "fr": "Ouvert lors des expositions, congrès et événements de la Fondation ; la bibliothèque a ses propres horaires (voir site).",
+        "de": "Bei Ausstellungen, Tagungen und Veranstaltungen der Stiftung geöffnet; die Bibliothek hat eigene Öffnungszeiten (siehe Website).",
+        "es": "Abierto durante exposiciones, congresos y eventos de la Fundación; la biblioteca tiene su propio horario (ver web)."
+      },
+      "sito": "https://www.fbsr.it",
+      "wikipedia": {
+        "it": "Palazzo Bomben"
+      }
+    },
+    {
+      "id": "bastione-san-marco",
+      "nome": "Bastione San Marco",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66935,
+      "longitudine": 12.2372,
+      "descrizione": {
+        "it": "Costruito all'inizio del Cinquecento all'angolo nord-occidentale delle mura, è uno dei bastioni meglio conservati della città. Da qui parte il tratto più panoramico della passeggiata sulle mura, che corre lungo il lato nord fino a Porta San Tomaso, con vista sui tetti del centro e, nelle giornate limpide, sulle Prealpi.",
+        "en": "Built in the early 16th century at the north-west corner of the walls, it is one of the best-preserved bastions in the city. From here starts the most scenic stretch of the walk on the walls, which runs along the north side to Porta San Tomaso, with views over the rooftops and, on clear days, the Pre-Alps.",
+        "fr": "Construit au début du XVIe siècle à l'angle nord-ouest des remparts, c'est l'un des bastions les mieux conservés de la ville. D'ici part le tronçon le plus panoramique de la promenade sur les remparts, qui longe le côté nord jusqu'à la Porta San Tomaso, avec vue sur les toits et, par temps clair, sur les Préalpes.",
+        "de": "Anfang des 16. Jahrhunderts an der Nordwestecke der Mauern errichtet, ist sie eine der am besten erhaltenen Bastionen der Stadt. Hier beginnt der schönste Abschnitt des Spaziergangs auf den Mauern, entlang der Nordseite bis zur Porta San Tomaso, mit Blick über die Dächer und an klaren Tagen auf die Voralpen.",
+        "es": "Construido a principios del siglo XVI en la esquina noroeste de las murallas, es uno de los bastiones mejor conservados de la ciudad. Desde aquí parte el tramo más panorámico del paseo por las murallas, que recorre el lado norte hasta la Porta San Tomaso, con vistas a los tejados y, en días claros, a los Prealpes."
+      },
+      "immagine": {
+        "autore": "Phante",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Bastione_San_Marco.jpeg"
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      }
+    },
+    {
+      "id": "parco-delle-mura",
+      "nome": "Parco delle Mura",
+      "categoria": "giardini",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6689,
+      "longitudine": 12.2381,
+      "descrizione": {
+        "it": "I terrapieni delle mura rinascimentali sono diventati nel tempo una lunga fascia verde che abbraccia il centro storico. Il tratto alberato tra il Bastione San Marco e Viale Cairoli è il più frequentato: un parco lineare dove passeggiare, correre o sedersi all'ombra, con l'acqua dei fossati ai piedi delle mura.",
+        "en": "Over time the earthworks of the Renaissance walls have become a long green belt around the old town. The tree-lined stretch between the San Marco bastion and Viale Cairoli is the most popular: a linear park for walking, running or sitting in the shade, with the water of the moats at the foot of the walls.",
+        "fr": "Avec le temps, les terre-pleins des remparts Renaissance sont devenus une longue ceinture verte autour du centre historique. Le tronçon arboré entre le bastion San Marco et le Viale Cairoli est le plus fréquenté : un parc linéaire où se promener, courir ou s'asseoir à l'ombre, avec l'eau des fossés au pied des remparts.",
+        "de": "Die Wälle der Renaissance-Mauern sind im Laufe der Zeit zu einem langen Grüngürtel um die Altstadt geworden. Der baumbestandene Abschnitt zwischen der Bastion San Marco und dem Viale Cairoli ist am beliebtesten: ein linearer Park zum Spazieren, Laufen oder Ausruhen im Schatten, mit dem Wasser der Gräben am Fuß der Mauern.",
+        "es": "Con el tiempo, los terraplenes de las murallas renacentistas se han convertido en un largo cinturón verde alrededor del casco antiguo. El tramo arbolado entre el bastión de San Marco y el Viale Cairoli es el más concurrido: un parque lineal para pasear, correr o sentarse a la sombra, con el agua de los fosos al pie de las murallas."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      }
+    },
+    {
+      "id": "cattedrale-di-san-pietro-apostolo",
+      "nome": "Cattedrale di San Pietro Apostolo",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666487,
+      "longitudine": 12.243037,
+      "descrizione": {
+        "it": "Il Duomo di Treviso, dedicato a San Pietro Apostolo, sorge su un luogo di culto di età paleocristiana. L'edificio medievale fu quasi interamente ricostruito tra Settecento e Ottocento, con la facciata neoclassica preceduta da un pronao a sei colonne e sette cupole che coprono le navate. All'interno si trova la Cappella del Malchiostro, con l'Annunciazione di Tiziano e gli affreschi del Pordenone. Sotto il presbiterio si apre la cripta romanica, con una fitta selva di colonnine.",
+        "en": "Treviso Cathedral, dedicated to Saint Peter the Apostle, stands on an early Christian place of worship. The medieval building was almost entirely rebuilt in the 18th and 19th centuries, with a neoclassical façade fronted by a six-column portico and seven domes over the naves. Inside is the Malchiostro Chapel, with Titian's Annunciation and frescoes by Pordenone. Beneath the presbytery lies the Romanesque crypt, with a forest of small columns.",
+        "fr": "La cathédrale de Trévise, dédiée à saint Pierre apôtre, s'élève sur un lieu de culte paléochrétien. L'édifice médiéval fut presque entièrement reconstruit aux XVIIIe et XIXe siècles, avec une façade néoclassique précédée d'un pronaos à six colonnes et sept coupoles au-dessus des nefs. À l'intérieur se trouve la chapelle Malchiostro, avec l'Annonciation de Titien et les fresques du Pordenone. Sous le chœur s'ouvre la crypte romane, avec une forêt de colonnettes.",
+        "de": "Der Dom von Treviso, dem Apostel Petrus geweiht, steht an einer frühchristlichen Kultstätte. Der mittelalterliche Bau wurde im 18. und 19. Jahrhundert fast vollständig neu errichtet, mit einer klassizistischen Fassade, einem sechssäuligen Portikus und sieben Kuppeln über den Schiffen. Innen liegt die Cappella del Malchiostro mit Tizians Verkündigung und Fresken von Pordenone. Unter dem Presbyterium öffnet sich die romanische Krypta mit einem Wald kleiner Säulen.",
+        "es": "La catedral de Treviso, dedicada a San Pedro Apóstol, se levanta sobre un lugar de culto paleocristiano. El edificio medieval fue reconstruido casi por completo entre los siglos XVIII y XIX, con una fachada neoclásica precedida por un pórtico de seis columnas y siete cúpulas sobre las naves. En su interior está la capilla Malchiostro, con la Anunciación de Tiziano y frescos del Pordenone. Bajo el presbiterio se abre la cripta románica, con un bosque de columnillas."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Duomo_-_facciata.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_-_interior_-_Nave.jpg"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_-_Interior_-_Annunciation_by_Titian.jpg"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_exterior_lions_right.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "08:00–12:00·15:30–18:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "sito": "https://www.diocesitv.it",
+      "wikipedia": {
+        "it": "Duomo di Treviso",
+        "en": "Treviso Cathedral"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una cattedrale quasi completamente ricostruita",
+            "en": "An almost completely rebuilt cathedral",
+            "fr": "Une cathédrale presque entièrement reconstruite",
+            "de": "Ein fast vollständig neu erbauter Dom",
+            "es": "Una catedral casi totalmente reconstruida"
+          },
+          "testo": {
+            "it": "Nel Settecento l'edificio medievale fu quasi completamente demolito e ricostruito. Della struttura precedente restano la cripta e le cappelle absidali, mentre la facciata neoclassica fu completata nell'Ottocento.",
+            "en": "In the 18th century the medieval building was almost entirely demolished and rebuilt. Of the earlier structure only the crypt and the apse chapels remain, while the neoclassical façade was completed in the 19th century.",
+            "fr": "Au XVIIIe siècle, l'édifice médiéval fut presque entièrement démoli et reconstruit. De la structure précédente restent la crypte et les chapelles absidiales, tandis que la façade néoclassique fut achevée au XIXe siècle.",
+            "de": "Im 18. Jahrhundert wurde der mittelalterliche Bau fast vollständig abgerissen und neu errichtet. Vom Vorgängerbau sind die Krypta und die Apsiskapellen erhalten; die klassizistische Fassade wurde im 19. Jahrhundert vollendet.",
+            "es": "En el siglo XVIII el edificio medieval fue casi totalmente derribado y reconstruido. De la estructura anterior quedan la cripta y las capillas del ábside, mientras que la fachada neoclásica se terminó en el siglo XIX."
+          }
+        }
+      ]
+    },
+    {
+      "id": "battistero-di-san-giovanni-battista",
+      "nome": "Battistero di San Giovanni Battista",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666725,
+      "longitudine": 12.243208,
+      "descrizione": {
+        "it": "Accanto al Duomo, il Battistero di San Giovanni è uno dei pochi edifici romanici rimasti a Treviso, costruito tra l'XI e il XII secolo. La facciata in mattoni è semplice e severa; all'interno restano frammenti di affreschi del Duecento. Insieme al campanile incompiuto del Duomo e alla Scuola del Santissimo forma uno degli angoli più antichi della città.",
+        "en": "Next to the Cathedral, the Baptistery of Saint John is one of the few Romanesque buildings left in Treviso, built between the 11th and 12th centuries. Its brick façade is plain and austere; inside are fragments of 13th-century frescoes. Together with the Cathedral's unfinished bell tower and the Scuola del Santissimo it forms one of the oldest corners of the city.",
+        "fr": "À côté de la cathédrale, le baptistère Saint-Jean est l'un des rares édifices romans restés à Trévise, construit entre le XIe et le XIIe siècle. Sa façade en brique est simple et austère ; à l'intérieur subsistent des fragments de fresques du XIIIe siècle. Avec le campanile inachevé de la cathédrale et la Scuola del Santissimo, il forme l'un des coins les plus anciens de la ville.",
+        "de": "Neben dem Dom ist das Baptisterium San Giovanni einer der wenigen erhaltenen romanischen Bauten Trevisos, errichtet im 11. und 12. Jahrhundert. Die Backsteinfassade ist schlicht und streng; innen sind Freskenreste aus dem 13. Jahrhundert erhalten. Zusammen mit dem unvollendeten Glockenturm des Doms und der Scuola del Santissimo bildet es eine der ältesten Ecken der Stadt.",
+        "es": "Junto a la catedral, el baptisterio de San Juan es uno de los pocos edificios románicos que quedan en Treviso, construido entre los siglos XI y XII. Su fachada de ladrillo es sencilla y austera; en el interior quedan fragmentos de frescos del siglo XIII. Junto con el campanario inacabado de la catedral y la Scuola del Santissimo forma uno de los rincones más antiguos de la ciudad."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Battistero_di_San_Giovanni.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Krzysztof Golik",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:St_John_the_Baptist_church_in_Treviso_(2).jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:SanGiovanni2.JPG"
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_battistero,_interno_01.jpg"
+        }
+      ],
+      "nota": {
+        "it": "Aperto in orari limitati e in occasione delle aperture dell'associazione Chiese Aperte Treviso; l'esterno è sempre visibile.",
+        "en": "Open at limited times and during openings by the Chiese Aperte Treviso association; the exterior is always visible.",
+        "fr": "Ouvert à horaires limités et lors des ouvertures de l'association Chiese Aperte Treviso ; l'extérieur est toujours visible.",
+        "de": "Zu eingeschränkten Zeiten und bei Öffnungen des Vereins Chiese Aperte Treviso geöffnet; das Äußere ist jederzeit sichtbar.",
+        "es": "Abierto en horario limitado y en las aperturas de la asociación Chiese Aperte Treviso; el exterior siempre es visible."
+      },
+      "wikipedia": {
+        "it": "Chiesa di San Giovanni Battista (Treviso)"
+      }
+    },
+    {
+      "id": "chiesa-di-san-nicolo",
+      "nome": "Chiesa di San Nicolò",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.663239,
+      "longitudine": 12.239648,
+      "descrizione": {
+        "it": "È la chiesa più grande di Treviso, capolavoro del gotico domenicano. Fu iniziata nel 1303 grazie al domenicano trevigiano Niccolò Boccassino, poi papa Benedetto XI. L'interno a tre navate, altissimo e luminoso, conserva sulle colonne figure di santi dipinte da Tomaso da Modena e dalla sua scuola, e un gigantesco San Cristoforo affrescato. Accanto alla chiesa sorge l'antico convento, oggi Seminario vescovile, con la famosa Sala del Capitolo.",
+        "en": "It is the largest church in Treviso, a masterpiece of Dominican Gothic. It was begun in 1303 thanks to the Trevisan Dominican Niccolò Boccassino, later Pope Benedict XI. The tall, bright three-aisled interior keeps figures of saints painted on the columns by Tomaso da Modena and his school, and a gigantic fresco of Saint Christopher. Next to the church stands the old convent, now the Bishop's Seminary, with the famous Chapter Hall.",
+        "fr": "C'est la plus grande église de Trévise, chef-d'œuvre du gothique dominicain. Elle fut commencée en 1303 grâce au dominicain trévisan Niccolò Boccassino, devenu pape Benoît XI. L'intérieur à trois nefs, très haut et lumineux, conserve sur les colonnes des figures de saints peintes par Tomaso da Modena et son école, et un gigantesque saint Christophe à fresque. À côté de l'église se dresse l'ancien couvent, aujourd'hui séminaire épiscopal, avec la célèbre salle du Chapitre.",
+        "de": "Sie ist die größte Kirche Trevisos, ein Meisterwerk der Dominikanergotik. Begonnen wurde sie 1303 dank des aus Treviso stammenden Dominikaners Niccolò Boccassino, des späteren Papstes Benedikt XI. Das hohe, helle dreischiffige Innere bewahrt auf den Säulen Heiligenfiguren von Tomaso da Modena und seiner Schule sowie einen riesigen Christophorus als Fresko. Neben der Kirche steht das alte Kloster, heute Bischöfliches Seminar, mit dem berühmten Kapitelsaal.",
+        "es": "Es la iglesia más grande de Treviso, obra maestra del gótico dominico. Se empezó en 1303 gracias al dominico trevisano Niccolò Boccassino, luego papa Benedicto XI. El interior de tres naves, altísimo y luminoso, conserva en las columnas figuras de santos pintadas por Tomaso da Modena y su escuela, y un gigantesco San Cristóbal al fresco. Junto a la iglesia está el antiguo convento, hoy Seminario episcopal, con la famosa Sala del Capítulo."
+      },
+      "immagine": {
+        "autore": "Liridon",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Chiesa_di_San_Nicol%C3%B2_-_2023-09-09_12-20-44_002.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Triplec85",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Chiesa_di_San_Nicol%C3%B2_(Treviso)_02.jpg"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4183TrevisoSNicolo.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4185TrevisoSNicolo.JPG"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Aperta tutti i giorni al mattino e nel tardo pomeriggio, salvo durante le celebrazioni.",
+        "en": "Open every day in the morning and late afternoon, except during services.",
+        "fr": "Ouverte tous les jours le matin et en fin d'après-midi, sauf pendant les offices.",
+        "de": "Täglich vormittags und am späten Nachmittag geöffnet, außer während der Gottesdienste.",
+        "es": "Abierta todos los días por la mañana y a última hora de la tarde, salvo durante las celebraciones."
+      },
+      "wikipedia": {
+        "it": "Chiesa di San Nicolò (Treviso)"
+      }
+    },
+    {
+      "id": "chiesa-di-san-francesco",
+      "nome": "Chiesa di San Francesco",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.668302,
+      "longitudine": 12.247572,
+      "descrizione": {
+        "it": "Costruita dai Francescani tra il 1230 e il 1270 in stile di passaggio tra romanico e gotico, ha un'unica ampia navata coperta da un soffitto a carena di nave in legno. Soppressa da Napoleone e usata come caserma e stalla, fu riaperta al culto nel 1928. Custodisce affreschi della scuola di Tomaso da Modena e due sepolture illustri: quella di Pietro Alighieri, figlio di Dante, e la lapide di Francesca, figlia di Petrarca. Davanti alla chiesa si trova una statua bronzea di San Francesco.",
+        "en": "Built by the Franciscans between 1230 and 1270 in a style between Romanesque and Gothic, it has a single wide nave covered by a wooden ship's-keel ceiling. Suppressed by Napoleon and used as barracks and stables, it was reopened for worship in 1928. It keeps frescoes from the school of Tomaso da Modena and two illustrious burials: that of Pietro Alighieri, son of Dante, and the tombstone of Francesca, daughter of Petrarch. In front of the church stands a bronze statue of Saint Francis.",
+        "fr": "Construite par les Franciscains entre 1230 et 1270 dans un style de transition entre roman et gothique, elle a une seule large nef couverte d'un plafond en carène de navire en bois. Supprimée par Napoléon et utilisée comme caserne et écurie, elle fut rouverte au culte en 1928. Elle conserve des fresques de l'école de Tomaso da Modena et deux sépultures illustres : celle de Pietro Alighieri, fils de Dante, et la pierre tombale de Francesca, fille de Pétrarque. Devant l'église se dresse une statue en bronze de saint François.",
+        "de": "Von den Franziskanern zwischen 1230 und 1270 im Übergangsstil zwischen Romanik und Gotik erbaut, hat sie ein einziges weites Schiff mit einer hölzernen Schiffskieldecke. Von Napoleon aufgehoben und als Kaserne und Stall genutzt, wurde sie 1928 wieder geweiht. Sie bewahrt Fresken der Schule Tomasos da Modena und zwei berühmte Gräber: das von Pietro Alighieri, Sohn Dantes, und die Grabplatte Francescas, der Tochter Petrarcas. Vor der Kirche steht eine Bronzestatue des heiligen Franziskus.",
+        "es": "Construida por los franciscanos entre 1230 y 1270 en un estilo de transición entre románico y gótico, tiene una sola nave amplia cubierta por un techo de madera en forma de quilla de barco. Suprimida por Napoleón y usada como cuartel y establo, se reabrió al culto en 1928. Conserva frescos de la escuela de Tomaso da Modena y dos sepulturas ilustres: la de Pietro Alighieri, hijo de Dante, y la lápida de Francesca, hija de Petrarca. Delante de la iglesia hay una estatua de bronce de San Francisco."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_Convento_San_Francesco_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4135TrevisoSFrancesco.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4142TrevisoSFrancesco.JPG"
+        },
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4147TrevisoSFrancesco.JPG"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "07:00–18:30"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "wikipedia": {
+        "it": "Chiesa di San Francesco (Treviso)"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Le tombe legate a Dante e Petrarca",
+            "en": "Tombs linked to Dante and Petrarch",
+            "fr": "Des tombes liées à Dante et Pétrarque",
+            "de": "Gräber mit Bezug zu Dante und Petrarca",
+            "es": "Tumbas ligadas a Dante y Petrarca"
+          },
+          "testo": {
+            "it": "La chiesa conserva la tomba di Pietro Alighieri, figlio di Dante, morto a Treviso nel 1364. Qui si trova anche la sepoltura di Francesca, figlia di Francesco Petrarca.",
+            "en": "The church keeps the tomb of Pietro Alighieri, son of Dante, who died in Treviso in 1364. It is also the burial place of Francesca, daughter of Francesco Petrarca.",
+            "fr": "L'église conserve la tombe de Pietro Alighieri, fils de Dante, mort à Trévise en 1364. On y trouve aussi la sépulture de Francesca, fille de Francesco Petrarca.",
+            "de": "Die Kirche bewahrt das Grab von Pietro Alighieri, Sohn Dantes, der 1364 in Treviso starb. Hier liegt auch Francesca begraben, die Tochter Francesco Petrarcas.",
+            "es": "La iglesia conserva la tumba de Pietro Alighieri, hijo de Dante, muerto en Treviso en 1364. Aquí está también la sepultura de Francesca, hija de Francesco Petrarca."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chiesa-di-santa-lucia",
+      "nome": "Chiesa di Santa Lucia",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666271,
+      "longitudine": 12.245674,
+      "descrizione": {
+        "it": "Piccola chiesa gotica addossata a San Vito, quasi invisibile dall'esterno, fu costruita alla fine del Trecento per volere della Repubblica di Venezia. L'interno è uno scrigno completamente affrescato: pareti e volte sono coperte da pitture del Tre e Quattrocento, tra cui la Madonna del Pavejo, opera della scuola di Tomaso da Modena. Si entra passando dalla chiesa di San Vito.",
+        "en": "A small Gothic church joined to San Vito, almost invisible from outside, it was built at the end of the 14th century at the wish of the Republic of Venice. The interior is a jewel box entirely covered in frescoes: walls and vaults bear paintings from the 14th and 15th centuries, including the Madonna del Pavejo from the school of Tomaso da Modena. You enter through the church of San Vito.",
+        "fr": "Petite église gothique accolée à San Vito, presque invisible de l'extérieur, elle fut construite à la fin du XIVe siècle sur la volonté de la République de Venise. L'intérieur est un écrin entièrement couvert de fresques : murs et voûtes portent des peintures des XIVe et XVe siècles, dont la Madonna del Pavejo de l'école de Tomaso da Modena. On y entre par l'église San Vito.",
+        "de": "Eine kleine gotische Kirche, an San Vito angebaut und von außen kaum sichtbar, entstand Ende des 14. Jahrhunderts auf Wunsch der Republik Venedig. Das Innere ist ein vollständig freskiertes Schatzkästchen: Wände und Gewölbe tragen Malereien des 14. und 15. Jahrhunderts, darunter die Madonna del Pavejo aus der Schule Tomasos da Modena. Man betritt sie durch die Kirche San Vito.",
+        "es": "Pequeña iglesia gótica adosada a San Vito, casi invisible desde fuera, se construyó a finales del siglo XIV por voluntad de la República de Venecia. El interior es un joyero totalmente cubierto de frescos: paredes y bóvedas tienen pinturas de los siglos XIV y XV, entre ellas la Madonna del Pavejo, de la escuela de Tomaso da Modena. Se entra por la iglesia de San Vito."
+      },
+      "immagine": {
+        "autore": "Ffeeddee",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Santa_Lucia,_altare_(Treviso).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Fiore Silvestro Barbato from Napoli (NA), Italy",
+          "licenza": "CC BY-SA 2.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Santa_Lucia,_Madonna_del_pavejo_(Treviso).JPG"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiese_di_San_Vito_e_Santa_Lucia_(Treviso)_-_Viste_della_Piazza_San_vito.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "09:00–12:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "wikipedia": {
+        "it": "Chiesa di Santa Lucia (Treviso)"
+      }
+    },
+    {
+      "id": "chiesa-di-san-vito",
+      "nome": "Chiesa di San Vito",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666357,
+      "longitudine": 12.245463,
+      "descrizione": {
+        "it": "Di origine antichissima, fu una delle prime chiese della città e venne più volte rimaneggiata. La facciata si affaccia sull'omonima piazzetta; all'interno, a navata unica, conserva altari e dipinti di epoca barocca. Dalla chiesa si passa direttamente nella piccola Santa Lucia, interamente affrescata, e nell'antica cappella di Santa Maria delle Carceri, oggi sacrestia.",
+        "en": "Of very ancient origin, it was one of the first churches in the city and was altered several times. Its façade faces the small square of the same name; the single-nave interior keeps Baroque altars and paintings. From the church you pass directly into the small, fully frescoed Santa Lucia and into the old chapel of Santa Maria delle Carceri, now the sacristy.",
+        "fr": "D'origine très ancienne, ce fut l'une des premières églises de la ville et elle fut plusieurs fois remaniée. Sa façade donne sur la placette du même nom ; l'intérieur à nef unique conserve des autels et des tableaux baroques. De l'église, on passe directement dans la petite Santa Lucia, entièrement peinte à fresque, et dans l'ancienne chapelle Santa Maria delle Carceri, aujourd'hui sacristie.",
+        "de": "Sehr alten Ursprungs, war sie eine der ersten Kirchen der Stadt und wurde mehrmals umgebaut. Die Fassade blickt auf den gleichnamigen kleinen Platz; das einschiffige Innere bewahrt barocke Altäre und Gemälde. Von der Kirche gelangt man direkt in die kleine, vollständig freskierte Santa Lucia und in die alte Kapelle Santa Maria delle Carceri, heute Sakristei.",
+        "es": "De origen antiquísimo, fue una de las primeras iglesias de la ciudad y se reformó varias veces. Su fachada da a la placita del mismo nombre; el interior, de una sola nave, conserva altares y pinturas barrocas. Desde la iglesia se pasa directamente a la pequeña Santa Lucía, totalmente pintada al fresco, y a la antigua capilla de Santa Maria delle Carceri, hoy sacristía."
+      },
+      "immagine": {
+        "autore": "Krzysztof Golik",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Saint_Vitus_church_in_Treviso_(7).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Krzysztof Golik",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Saint_Vitus_church_in_Treviso_(1).jpg"
+        },
+        {
+          "autore": "Krzysztof Golik",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Saint_Vitus_church_in_Treviso_(4).jpg"
+        },
+        {
+          "autore": "Krzysztof Golik",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Saint_Vitus_church_in_Treviso_(2).jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "09:00–12:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "wikipedia": {
+        "it": "Chiesa di San Vito (Treviso)"
+      }
+    },
+    {
+      "id": "chiesa-di-santa-maria-maggiore",
+      "nome": "Chiesa di Santa Maria Maggiore",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665542,
+      "longitudine": 12.252879,
+      "descrizione": {
+        "it": "Chiamata dai trevigiani \"Madona Granda\", è il santuario mariano più amato della città. Ricostruita nel Quattrocento in forme gotico-veneziane e rinascimentali, custodisce un'immagine della Madonna ritenuta miracolosa, venerata in un elegante tempietto. Nella chiesa sono conservate anche le catene di San Girolamo Emiliani, che secondo la tradizione si sciolsero per intercessione della Vergine mentre era prigioniero.",
+        "en": "Called \"Madona Granda\" by locals, it is the city's most beloved Marian shrine. Rebuilt in the 15th century in Venetian Gothic and Renaissance style, it keeps an image of the Madonna believed to be miraculous, venerated in an elegant small temple. The church also holds the chains of Saint Jerome Emiliani, which according to tradition fell away through the Virgin's intercession while he was a prisoner.",
+        "fr": "Appelée « Madona Granda » par les Trévisans, c'est le sanctuaire marial le plus aimé de la ville. Reconstruite au XVe siècle dans un style gothique vénitien et Renaissance, elle conserve une image de la Vierge réputée miraculeuse, vénérée dans un élégant petit temple. L'église garde aussi les chaînes de saint Jérôme Émilien, qui selon la tradition se rompirent par l'intercession de la Vierge alors qu'il était prisonnier.",
+        "de": "Von den Einheimischen „Madona Granda“ genannt, ist sie das beliebteste Marienheiligtum der Stadt. Im 15. Jahrhundert im venezianisch-gotischen und Renaissancestil neu errichtet, bewahrt sie ein als wundertätig verehrtes Marienbild in einem eleganten Tempelchen. In der Kirche werden auch die Ketten des heiligen Hieronymus Ämiliani aufbewahrt, die sich der Überlieferung nach durch die Fürsprache Marias lösten, als er gefangen war.",
+        "es": "Llamada «Madona Granda» por los trevisanos, es el santuario mariano más querido de la ciudad. Reconstruida en el siglo XV en estilo gótico veneciano y renacentista, guarda una imagen de la Virgen considerada milagrosa, venerada en un elegante templete. La iglesia conserva también las cadenas de San Jerónimo Emiliani, que según la tradición se soltaron por intercesión de la Virgen cuando estaba prisionero."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:MadonnaGranda.JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:4266TrevisoSMariaMaggiore.JPG"
+        },
+        {
+          "autore": "HRavenspur",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Catene_San_Girolamo_2.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "08:00–19:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "wikipedia": {
+        "it": "Chiesa di Santa Maria Maggiore (Treviso)"
+      }
+    },
+    {
+      "id": "complesso-di-santa-caterina",
+      "nome": "Complesso di Santa Caterina",
+      "categoria": "musei",
+      "sestiere": "Centro storico",
+      "latitudine": 45.667028,
+      "longitudine": 12.250547,
+      "descrizione": {
+        "it": "L'antico convento dei Servi di Maria, con la chiesa di Santa Caterina e due chiostri, è oggi la sede principale dei Musei civici di Treviso. Il percorso comprende la sezione archeologica, con reperti dalla preistoria all'età romana, e la pinacoteca, con opere di Tomaso da Modena, Lorenzo Lotto, Tiziano e Jacopo Bassano. Nella chiesa è esposto il celebre ciclo di affreschi delle Storie di Sant'Orsola di Tomaso da Modena, salvato dalla demolizione della chiesa di Santa Margherita.",
+        "en": "The old convent of the Servants of Mary, with the church of Santa Caterina and two cloisters, is now the main seat of Treviso's Civic Museums. The visit includes the archaeological section, with finds from prehistory to Roman times, and the picture gallery, with works by Tomaso da Modena, Lorenzo Lotto, Titian and Jacopo Bassano. The church displays Tomaso da Modena's famous fresco cycle of the Stories of Saint Ursula, saved when the church of Santa Margherita was demolished.",
+        "fr": "L'ancien couvent des Servites de Marie, avec l'église Sainte-Catherine et deux cloîtres, est aujourd'hui le siège principal des Musées civiques de Trévise. Le parcours comprend la section archéologique, avec des objets de la préhistoire à l'époque romaine, et la pinacothèque, avec des œuvres de Tomaso da Modena, Lorenzo Lotto, Titien et Jacopo Bassano. Dans l'église est exposé le célèbre cycle de fresques des Histoires de sainte Ursule de Tomaso da Modena, sauvé lors de la démolition de l'église Santa Margherita.",
+        "de": "Das ehemalige Kloster der Serviten mit der Kirche Santa Caterina und zwei Kreuzgängen ist heute Hauptsitz der Städtischen Museen Trevisos. Der Rundgang umfasst die archäologische Abteilung mit Funden von der Vorgeschichte bis zur Römerzeit und die Gemäldegalerie mit Werken von Tomaso da Modena, Lorenzo Lotto, Tizian und Jacopo Bassano. In der Kirche ist der berühmte Freskenzyklus der Ursula-Legende von Tomaso da Modena ausgestellt, der beim Abriss der Kirche Santa Margherita gerettet wurde.",
+        "es": "El antiguo convento de los Siervos de María, con la iglesia de Santa Catalina y dos claustros, es hoy la sede principal de los Museos Cívicos de Treviso. El recorrido incluye la sección arqueológica, con hallazgos de la prehistoria a la época romana, y la pinacoteca, con obras de Tomaso da Modena, Lorenzo Lotto, Tiziano y Jacopo Bassano. En la iglesia se expone el célebre ciclo de frescos de las Historias de Santa Úrsula de Tomaso da Modena, salvado al demolerse la iglesia de Santa Margherita."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Il_Chiostro_piccolo_di_Chiesa_di_Santa_Caterina_dei_Servi_di_Maria.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Complesso_di_Santa_Caterina_-_Galleria_al_1%C2%B0_piano.jpg"
+        },
+        {
+          "autore": "Nicola Quirico",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiostro,_Complesso_di_santa_Caterina.jpg"
+        },
+        {
+          "autore": "Nicola Quirico",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Complesso_di_santa_Caterina_1.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "mar-dom",
+          "ore": "10:00–18:00"
+        }
+      ],
+      "biglietto": {
+        "intero": 6,
+        "ridotto": 4
+      },
+      "nota": {
+        "it": "Ultimo ingresso un'ora prima della chiusura. Biglietto cumulativo con il Museo Bailo: intero 10 €, ridotto 6 €. Ingresso gratuito per i minori di 18 anni.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Last entry one hour before closing. Combined ticket with the Bailo Museum: full 10 €, reduced 6 €. Free admission for under-18s.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Dernière entrée une heure avant la fermeture. Billet combiné avec le musée Bailo : plein tarif 10 €, réduit 6 €. Entrée gratuite pour les moins de 18 ans.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Letzter Einlass eine Stunde vor Schließung. Kombiticket mit dem Museo Bailo: 10 €, ermäßigt 6 €. Freier Eintritt unter 18 Jahren.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Última entrada una hora antes del cierre. Entrada combinada con el Museo Bailo: general 10 €, reducida 6 €. Entrada gratuita para menores de 18 años.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "sito": "https://www.museicivicitreviso.it",
+      "wikipedia": {
+        "it": "Complesso di Santa Caterina"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Gli affreschi ritrovati",
+            "en": "The rediscovered frescoes",
+            "fr": "Les fresques retrouvées",
+            "de": "Die wiederentdeckten Fresken",
+            "es": "Los frescos recuperados"
+          },
+          "testo": {
+            "it": "Prima di diventare museo, il complesso fu un convento dei Servi di Maria, costruito a partire dal 1346. Dopo essere stato utilizzato anche come caserma e magazzino militare, gli affreschi medievali tornarono alla luce durante i restauri del Novecento.",
+            "en": "Before becoming a museum, the complex was a convent of the Servants of Mary, built from 1346. After being used as barracks and a military warehouse, its medieval frescoes came back to light during 20th-century restorations.",
+            "fr": "Avant de devenir musée, le complexe fut un couvent des Servites de Marie, construit à partir de 1346. Après avoir servi de caserne et d'entrepôt militaire, ses fresques médiévales réapparurent lors des restaurations du XXe siècle.",
+            "de": "Bevor er Museum wurde, war der Komplex ein Servitenkloster, ab 1346 erbaut. Nach der Nutzung als Kaserne und Militärlager kamen die mittelalterlichen Fresken bei Restaurierungen im 20. Jahrhundert wieder zum Vorschein.",
+            "es": "Antes de ser museo, el conjunto fue un convento de los Siervos de María, construido a partir de 1346. Tras usarse también como cuartel y almacén militar, los frescos medievales salieron a la luz durante las restauraciones del siglo XX."
+          }
+        }
+      ]
+    },
+    {
+      "id": "museo-luigi-bailo",
+      "nome": "Museo Luigi Bailo",
+      "categoria": "musei",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66751084,
+      "longitudine": 12.23807987,
+      "descrizione": {
+        "it": "La più antica sede dei Musei civici, in Borgo Cavour, è dedicata all'arte dell'Ottocento e del Novecento. Riaperto nel 2015 dopo un restauro che ha dato all'edificio una nuova facciata bianca e luminosa, ospita la più importante raccolta al mondo di opere di Arturo Martini, il grande scultore trevigiano, insieme a dipinti di Gino Rossi, Guglielmo Ciardi e altri artisti veneti.",
+        "en": "The oldest seat of the Civic Museums, in Borgo Cavour, is devoted to 19th- and 20th-century art. Reopened in 2015 after a restoration that gave the building a new bright white façade, it houses the world's most important collection of works by Arturo Martini, the great sculptor from Treviso, along with paintings by Gino Rossi, Guglielmo Ciardi and other Venetian artists.",
+        "fr": "Le plus ancien siège des Musées civiques, dans le Borgo Cavour, est consacré à l'art des XIXe et XXe siècles. Rouvert en 2015 après une restauration qui a donné au bâtiment une nouvelle façade blanche et lumineuse, il abrite la plus importante collection au monde d'œuvres d'Arturo Martini, le grand sculpteur trévisan, ainsi que des tableaux de Gino Rossi, Guglielmo Ciardi et d'autres artistes vénètes.",
+        "de": "Der älteste Sitz der Städtischen Museen im Borgo Cavour ist der Kunst des 19. und 20. Jahrhunderts gewidmet. 2015 nach einer Restaurierung wiedereröffnet, die dem Gebäude eine neue helle weiße Fassade gab, beherbergt er die weltweit bedeutendste Sammlung von Werken Arturo Martinis, des großen Bildhauers aus Treviso, sowie Gemälde von Gino Rossi, Guglielmo Ciardi und anderen venetischen Künstlern.",
+        "es": "La sede más antigua de los Museos Cívicos, en el Borgo Cavour, está dedicada al arte de los siglos XIX y XX. Reabierto en 2015 tras una restauración que dio al edificio una nueva fachada blanca y luminosa, alberga la colección más importante del mundo de obras de Arturo Martini, el gran escultor trevisano, junto con pinturas de Gino Rossi, Guglielmo Ciardi y otros artistas vénetos."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Museo_Bailo.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Il_chiostro_sud_del_Museo_Luigi_Bailo.jpg"
+        },
+        {
+          "autore": "Musei Civici di Treviso",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Facciata_del_Museo_Luigi_Bailo.jpg"
+        },
+        {
+          "autore": "Marco Pedretti",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:BailoTreviso1.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "mar-dom",
+          "ore": "10:00–18:00"
+        }
+      ],
+      "biglietto": {
+        "intero": 6,
+        "ridotto": 4
+      },
+      "nota": {
+        "it": "Ultimo ingresso un'ora prima della chiusura. Biglietto cumulativo con il Museo Santa Caterina: intero 10 €, ridotto 6 €. Ingresso gratuito per i minori di 18 anni.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Last entry one hour before closing. Combined ticket with the Santa Caterina Museum: full 10 €, reduced 6 €. Free admission for under-18s.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Dernière entrée une heure avant la fermeture. Billet combiné avec le musée Santa Caterina : plein tarif 10 €, réduit 6 €. Entrée gratuite pour les moins de 18 ans.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Letzter Einlass eine Stunde vor Schließung. Kombiticket mit dem Museo Santa Caterina: 10 €, ermäßigt 6 €. Freier Eintritt unter 18 Jahren.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Última entrada una hora antes del cierre. Entrada combinada con el Museo Santa Caterina: general 10 €, reducida 6 €. Entrada gratuita para menores de 18 años.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "sito": "https://www.museicivicitreviso.it",
+      "wikipedia": {
+        "it": "Museo civico Luigi Bailo"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La collezione nata da un abate",
+            "en": "A collection born from an abbot",
+            "fr": "Une collection née d'un abbé",
+            "de": "Eine Sammlung, die ein Abt begründete",
+            "es": "Una colección nacida de un abad"
+          },
+          "testo": {
+            "it": "Il museo nacque grazie all'iniziativa dell'abate Luigi Bailo, che raccolse reperti archeologici, dipinti, sculture e materiali storici della città. La collezione fu aperta al pubblico nel 1888.",
+            "en": "The museum was born from the initiative of Abbot Luigi Bailo, who collected archaeological finds, paintings, sculptures and historical material about the city. The collection opened to the public in 1888.",
+            "fr": "Le musée naquit de l'initiative de l'abbé Luigi Bailo, qui rassembla objets archéologiques, tableaux, sculptures et documents historiques de la ville. La collection fut ouverte au public en 1888.",
+            "de": "Das Museum entstand auf Initiative des Abtes Luigi Bailo, der archäologische Funde, Gemälde, Skulpturen und historische Zeugnisse der Stadt sammelte. Die Sammlung wurde 1888 der Öffentlichkeit zugänglich gemacht.",
+            "es": "El museo nació por iniciativa del abad Luigi Bailo, que reunió hallazgos arqueológicos, pinturas, esculturas y materiales históricos de la ciudad. La colección se abrió al público en 1888."
+          }
+        }
+      ]
+    },
+    {
+      "id": "parco-di-villa-margherita",
+      "nome": "Parco di Villa Margherita",
+      "categoria": "giardini",
+      "sestiere": "Fuori le mura",
+      "latitudine": 45.688736,
+      "longitudine": 12.257297,
+      "descrizione": {
+        "it": "Il grande parco pubblico circonda Villa Manfrin, detta Villa Margherita, residenza settecentesca a nord del centro. Tra prati, alberi secolari, laghetti e viali, è uno dei polmoni verdi della città. Al suo interno si trova il Parco degli Alberi Parlanti, un percorso educativo per bambini dedicato alla natura, alla scienza e al cinema d'animazione.",
+        "en": "The large public park surrounds Villa Manfrin, known as Villa Margherita, an 18th-century residence north of the centre. With lawns, ancient trees, ponds and avenues, it is one of the city's green lungs. Inside is the Parco degli Alberi Parlanti (Talking Trees Park), an educational trail for children about nature, science and animated film.",
+        "fr": "Le grand parc public entoure la Villa Manfrin, dite Villa Margherita, demeure du XVIIIe siècle au nord du centre. Entre pelouses, arbres séculaires, étangs et allées, c'est l'un des poumons verts de la ville. À l'intérieur se trouve le Parco degli Alberi Parlanti (parc des Arbres parlants), un parcours éducatif pour enfants consacré à la nature, à la science et au cinéma d'animation.",
+        "de": "Der große öffentliche Park umgibt die Villa Manfrin, genannt Villa Margherita, einen Landsitz aus dem 18. Jahrhundert nördlich des Zentrums. Mit Wiesen, alten Bäumen, Teichen und Alleen ist er eine der grünen Lungen der Stadt. Darin liegt der Parco degli Alberi Parlanti (Park der sprechenden Bäume), ein Lernpfad für Kinder zu Natur, Wissenschaft und Zeichentrickfilm.",
+        "es": "El gran parque público rodea la Villa Manfrin, llamada Villa Margherita, residencia del siglo XVIII al norte del centro. Entre praderas, árboles centenarios, estanques y paseos, es uno de los pulmones verdes de la ciudad. En su interior está el Parco degli Alberi Parlanti (parque de los Árboles que Hablan), un recorrido educativo para niños sobre naturaleza, ciencia y cine de animación."
+      },
+      "immagine": {
+        "autore": "Vaghestelledellorsa, Paolo Steffan",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Villa_Manfrin_detta_Margherita_-_Foto_di_Paolo_Steffan.jpg"
+      },
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Parco pubblico ad ingresso libero, aperto di giorno con orari dei cancelli che cambiano secondo la stagione. Il Parco degli Alberi Parlanti ha orari e biglietti propri.",
+        "en": "Public park with free entry, open during the day with gate hours that change with the season. The Talking Trees Park has its own hours and tickets.",
+        "fr": "Parc public en accès libre, ouvert la journée avec des horaires des grilles qui varient selon la saison. Le parc des Arbres parlants a ses propres horaires et billets.",
+        "de": "Öffentlicher Park mit freiem Eintritt, tagsüber geöffnet; die Öffnungszeiten der Tore ändern sich je nach Jahreszeit. Der Park der sprechenden Bäume hat eigene Zeiten und Eintrittspreise.",
+        "es": "Parque público de entrada libre, abierto de día con horario de las verjas que cambia según la estación. El parque de los Árboles que Hablan tiene horarios y entradas propios."
+      },
+      "wikipedia": {
+        "it": "Villa Manfrin detta Margherita"
+      }
+    },
+    {
+      "id": "parco-dello-storga",
+      "nome": "Parco dello Storga",
+      "categoria": "giardini",
+      "sestiere": "Fuori le mura",
+      "latitudine": 45.6883,
+      "longitudine": 12.2721,
+      "descrizione": {
+        "it": "A nord-est della città, il Parco naturale dello Storga si estende attorno alle sorgenti del fiume Storga, affluente del Sile. Boschi, prati, rogge e risorgive creano un ambiente ricco di flora e fauna, attraversato da sentieri adatti a passeggiate e corsa. Nel parco si trovano anche le Case Piavone, sede del Museo etnografico provinciale.",
+        "en": "North-east of the city, the Storga Nature Park spreads around the springs of the Storga, a tributary of the Sile. Woods, meadows, streams and springs create an environment rich in plants and wildlife, crossed by paths for walking and running. The park also includes the Case Piavone, home of the provincial ethnographic museum.",
+        "fr": "Au nord-est de la ville, le parc naturel du Storga s'étend autour des sources du Storga, affluent du Sile. Bois, prairies, ruisseaux et résurgences créent un milieu riche en flore et faune, traversé par des sentiers pour la promenade et la course. Le parc comprend aussi les Case Piavone, siège du musée ethnographique provincial.",
+        "de": "Nordöstlich der Stadt erstreckt sich der Naturpark Storga um die Quellen der Storga, eines Nebenflusses des Sile. Wälder, Wiesen, Bäche und Quellen bilden einen artenreichen Lebensraum, durchzogen von Wegen zum Spazieren und Laufen. Im Park liegen auch die Case Piavone, Sitz des Ethnografischen Museums der Provinz.",
+        "es": "Al noreste de la ciudad, el Parque natural del Storga se extiende alrededor de los manantiales del Storga, afluente del Sile. Bosques, praderas, acequias y manantiales crean un ambiente rico en flora y fauna, atravesado por senderos para pasear y correr. En el parque están también las Case Piavone, sede del museo etnográfico provincial."
+      },
+      "immagine": {
+        "autore": "Giargiaro78",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Storga_Madonnetta.jpg"
+      },
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Parco pubblico ad ingresso libero, aperto di giorno; l'ingresso principale è in Via Cal di Breda, con parcheggio.",
+        "en": "Public park with free entry, open during the day; the main entrance is in Via Cal di Breda, with parking.",
+        "fr": "Parc public en accès libre, ouvert la journée ; l'entrée principale est Via Cal di Breda, avec parking.",
+        "de": "Öffentlicher Park mit freiem Eintritt, tagsüber geöffnet; Haupteingang in der Via Cal di Breda mit Parkplatz.",
+        "es": "Parque público de entrada libre, abierto de día; la entrada principal está en Via Cal di Breda, con aparcamiento."
+      },
+      "wikipedia": {
+        "it": "Parco dello Storga"
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Un passato tra risorgive e ospedale",
+            "en": "A past of springs and a hospital",
+            "fr": "Un passé entre résurgences et hôpital",
+            "de": "Zwischen Quellen und Krankenhaus",
+            "es": "Un pasado entre manantiales y hospital"
+          },
+          "testo": {
+            "it": "Il parco occupa un'area che in passato faceva parte dell'azienda agricola della Provincia e della colonia ergoterapica dell'ospedale psichiatrico di Sant'Artemio. Tra le sue particolarità naturali ci sono le risorgive, dove l'acqua riaffiora spontaneamente dal terreno.",
+            "en": "The park covers an area that once belonged to the Province's farm and to the work-therapy colony of the Sant'Artemio psychiatric hospital. Among its natural features are the springs, where water rises spontaneously from the ground.",
+            "fr": "Le parc occupe une zone qui faisait autrefois partie de l'exploitation agricole de la Province et de la colonie d'ergothérapie de l'hôpital psychiatrique de Sant'Artemio. Parmi ses particularités naturelles figurent les résurgences, où l'eau jaillit spontanément du sol.",
+            "de": "Der Park liegt auf einem Gelände, das früher zum landwirtschaftlichen Betrieb der Provinz und zur Arbeitstherapie-Kolonie der psychiatrischen Klinik Sant'Artemio gehörte. Zu seinen Naturbesonderheiten zählen die Quellen, an denen das Wasser von selbst aus dem Boden tritt.",
+            "es": "El parque ocupa una zona que antes formaba parte de la granja de la Provincia y de la colonia de terapia ocupacional del hospital psiquiátrico de Sant'Artemio. Entre sus particularidades naturales están los manantiales, donde el agua brota espontáneamente del suelo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sala-del-capitolo-dei-domenicani",
+      "nome": "Sala del Capitolo dei Domenicani",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.662997,
+      "longitudine": 12.239584,
+      "descrizione": {
+        "it": "Nell'antico convento domenicano di San Nicolò, oggi Seminario vescovile, la Sala del Capitolo conserva il ciclo di affreschi dipinto nel 1352 da Tomaso da Modena: quaranta frati illustri dell'Ordine, ritratti ciascuno nel proprio studio mentre legge, scrive o medita. Tra loro il cardinale Ugo di Provenza porta sul naso un paio di occhiali, una delle più antiche raffigurazioni di occhiali nella storia dell'arte. L'ingresso è in Piazzetta Benedetto XI, accanto alla chiesa di San Nicolò.",
+        "en": "In the old Dominican convent of San Nicolò, now the Bishop's Seminary, the Chapter Hall keeps the fresco cycle painted in 1352 by Tomaso da Modena: forty illustrious friars of the Order, each portrayed in his study reading, writing or meditating. Among them Cardinal Hugh of Provence wears a pair of glasses, one of the oldest depictions of spectacles in the history of art. The entrance is in Piazzetta Benedetto XI, next to the church of San Nicolò.",
+        "fr": "Dans l'ancien couvent dominicain de San Nicolò, aujourd'hui séminaire épiscopal, la salle du Chapitre conserve le cycle de fresques peint en 1352 par Tomaso da Modena : quarante frères illustres de l'Ordre, chacun représenté dans son cabinet en train de lire, d'écrire ou de méditer. Parmi eux, le cardinal Hugues de Provence porte une paire de lunettes, l'une des plus anciennes représentations de lunettes de l'histoire de l'art. L'entrée se trouve Piazzetta Benedetto XI, à côté de l'église San Nicolò.",
+        "de": "Im ehemaligen Dominikanerkloster San Nicolò, heute Bischöfliches Seminar, bewahrt der Kapitelsaal den 1352 von Tomaso da Modena gemalten Freskenzyklus: vierzig berühmte Brüder des Ordens, jeder in seiner Studierstube beim Lesen, Schreiben oder Nachdenken. Unter ihnen trägt Kardinal Hugo von der Provence eine Brille, eine der ältesten Darstellungen einer Brille in der Kunstgeschichte. Der Eingang liegt an der Piazzetta Benedetto XI, neben der Kirche San Nicolò.",
+        "es": "En el antiguo convento dominico de San Nicolò, hoy Seminario episcopal, la Sala del Capítulo conserva el ciclo de frescos pintado en 1352 por Tomaso da Modena: cuarenta frailes ilustres de la Orden, cada uno retratado en su estudio leyendo, escribiendo o meditando. Entre ellos, el cardenal Hugo de Provenza lleva unas gafas, una de las representaciones de gafas más antiguas de la historia del arte. La entrada está en la Piazzetta Benedetto XI, junto a la iglesia de San Nicolò."
+      },
+      "immagine": {
+        "autore": "Tommaso da Modena",
+        "licenza": "Pubblico dominio",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena,_ritratti_di_domenicani_(Ugo_di_Provenza)_1352_150cm,_treviso,_ex_convento_di_san_niccol%C3%B2,_sala_del_capitolo.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Morningfrost",
+          "licenza": "Pubblico dominio",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiostro_seminario_vescovile_Treviso.jpg"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:SeminarioTreviso1.JPG"
+        },
+        {
+          "autore": "Appo92",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:SeminarioTreviso2.JPG"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visitabile su richiesta presso il Seminario vescovile (Piazzetta Benedetto XI, 2) e durante le aperture di Chiese Aperte Treviso; ingresso libero.",
+        "en": "Can be visited on request at the Bishop's Seminary (Piazzetta Benedetto XI, 2) and during Chiese Aperte Treviso openings; free entry.",
+        "fr": "Visitable sur demande au séminaire épiscopal (Piazzetta Benedetto XI, 2) et lors des ouvertures de Chiese Aperte Treviso ; entrée libre.",
+        "de": "Auf Anfrage im Bischöflichen Seminar (Piazzetta Benedetto XI, 2) und bei Öffnungen von Chiese Aperte Treviso zu besichtigen; Eintritt frei.",
+        "es": "Visitable a petición en el Seminario episcopal (Piazzetta Benedetto XI, 2) y en las aperturas de Chiese Aperte Treviso; entrada libre."
+      },
+      "wikipedia": {
+        "it": "Convento di San Nicolò"
+      },
+      "curiosita": true
+    },
+    {
+      "id": "porta-altinia",
+      "nome": "Porta Altinia",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.661475,
+      "longitudine": 12.247,
+      "descrizione": {
+        "it": "Costruita nel 1514-1515, è la prima delle tre porte rinascimentali della città e si apre sul lato meridionale delle mura, verso il Sile. La sua architettura sobria, molto più semplice di quella di Porta San Tomaso, riflette le scarse risorse disponibili negli anni della guerra della Lega di Cambrai. Sulla facciata compare il leone di San Marco. Il nome ricorda l'antica città romana di Altino, verso cui portava la strada.",
+        "en": "Built in 1514-1515, it is the first of the city's three Renaissance gates and opens on the southern side of the walls, towards the Sile. Its plain design, much simpler than Porta San Tomaso, reflects the scarce resources available during the War of the League of Cambrai. The lion of Saint Mark appears on the façade. The name recalls the ancient Roman town of Altinum, where the road led.",
+        "fr": "Construite en 1514-1515, c'est la première des trois portes Renaissance de la ville ; elle s'ouvre sur le côté sud des remparts, vers le Sile. Son architecture sobre, bien plus simple que celle de la Porta San Tomaso, reflète les faibles ressources disponibles pendant la guerre de la Ligue de Cambrai. Sur la façade figure le lion de saint Marc. Le nom rappelle l'ancienne ville romaine d'Altinum, vers laquelle menait la route.",
+        "de": "1514-1515 erbaut, ist es das erste der drei Renaissance-Tore der Stadt und öffnet sich an der Südseite der Mauern zum Sile hin. Die schlichte Architektur, viel einfacher als die der Porta San Tomaso, spiegelt die knappen Mittel während des Krieges der Liga von Cambrai wider. An der Fassade erscheint der Markuslöwe. Der Name erinnert an die antike Römerstadt Altinum, zu der die Straße führte.",
+        "es": "Construida en 1514-1515, es la primera de las tres puertas renacentistas de la ciudad y se abre en el lado sur de las murallas, hacia el Sile. Su arquitectura sobria, mucho más sencilla que la de la Porta San Tomaso, refleja los escasos recursos disponibles durante la guerra de la Liga de Cambrai. En la fachada aparece el león de San Marcos. El nombre recuerda la antigua ciudad romana de Altino, adonde llevaba el camino."
+      },
+      "immagine": {
+        "autore": "Colbertaldo",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Altinia,_Treviso.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Porta_Altinia_-_2023-09-19_15-10-43_001.jpg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Porta_Altinia_-_2023-09-19_15-10-43_002.jpg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Porta_Altinia_-_2023-09-19_15-10-43_004.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Porta Altinia"
+      },
+      "curiosita": true
+    },
+    {
+      "id": "la-grande-sfera",
+      "nome": "La Grande Sfera",
+      "categoria": "altri",
+      "sestiere": "Fuori le mura",
+      "latitudine": 45.6615879,
+      "longitudine": 12.245875,
+      "descrizione": {
+        "it": "All'inizio di Via Roma, appena fuori Porta Altinia, al centro di un'aiuola si alza la Grande Sfera, scultura monumentale in metallo dell'artista trevigiano Toni Benetton (1910-1996), maestro della lavorazione del ferro. È uno dei suoi lavori più noti e accoglie chi arriva in città dalla stazione: un esempio di come l'arte contemporanea possa dialogare con le mura rinascimentali.",
+        "en": "At the start of Via Roma, just outside Porta Altinia, in the middle of a flowerbed stands the Great Sphere, a monumental metal sculpture by the Treviso-born artist Toni Benetton (1910-1996), a master of ironwork. It is one of his best-known works and welcomes those arriving from the station: an example of how contemporary art can speak with the Renaissance walls.",
+        "fr": "Au début de la Via Roma, juste à l'extérieur de la Porta Altinia, au centre d'un parterre se dresse la Grande Sphère, sculpture monumentale en métal de l'artiste trévisan Toni Benetton (1910-1996), maître du travail du fer. C'est l'une de ses œuvres les plus connues et elle accueille ceux qui arrivent de la gare : un exemple du dialogue entre art contemporain et remparts Renaissance.",
+        "de": "Am Anfang der Via Roma, gleich vor der Porta Altinia, erhebt sich mitten in einem Beet die Große Kugel, eine monumentale Metallskulptur des aus Treviso stammenden Künstlers Toni Benetton (1910-1996), eines Meisters der Eisenbearbeitung. Sie ist eines seiner bekanntesten Werke und empfängt alle, die vom Bahnhof kommen: ein Beispiel für den Dialog zwischen zeitgenössischer Kunst und Renaissance-Mauern.",
+        "es": "Al comienzo de la Via Roma, justo fuera de la Porta Altinia, en medio de un parterre se alza la Gran Esfera, escultura monumental de metal del artista trevisano Toni Benetton (1910-1996), maestro del trabajo del hierro. Es una de sus obras más conocidas y recibe a quien llega desde la estación: un ejemplo del diálogo entre el arte contemporáneo y las murallas renacentistas."
+      },
+      "immagine": {
+        "autore": "BluesBrother",
+        "licenza": "CC0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:La_grande_sfera_di_Toni_Benetton,_Treviso.jpeg"
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "wikipedia": {
+        "it": "Toni Benetton"
+      },
+      "curiosita": true
+    },
+    {
+      "id": "centrale-idroelettrica-di-ponte-san-martino",
+      "nome": "Centrale idroelettrica di Ponte San Martino",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6626677,
+      "longitudine": 12.2453934,
+      "descrizione": {
+        "it": "Sotto Ponte San Martino, sul ramo del Sile che attraversa il centro, si trova una piccola centrale idroelettrica costruita nel 1917, mentre la Prima guerra mondiale era ancora in corso. È un raro esempio di impianto collocato nel cuore di una città storica: una traversa sotto il ponte convoglia l'acqua verso due turbine. Automatizzata nel 1969, è ancora in funzione e produce energia pulita.",
+        "en": "Beneath Ponte San Martino, on the branch of the Sile that crosses the centre, is a small hydroelectric plant built in 1917, while the First World War was still going on. It is a rare example of a plant in the heart of a historic city: a weir under the bridge channels the water to two turbines. Automated in 1969, it still works and produces clean energy.",
+        "fr": "Sous le Ponte San Martino, sur le bras du Sile qui traverse le centre, se trouve une petite centrale hydroélectrique construite en 1917, alors que la Première Guerre mondiale était encore en cours. C'est un rare exemple d'installation au cœur d'une ville historique : un barrage sous le pont dirige l'eau vers deux turbines. Automatisée en 1969, elle fonctionne toujours et produit une énergie propre.",
+        "de": "Unter dem Ponte San Martino, am Arm des Sile, der das Zentrum durchquert, liegt ein kleines Wasserkraftwerk, 1917 erbaut, als der Erste Weltkrieg noch andauerte. Es ist ein seltenes Beispiel einer Anlage im Herzen einer historischen Stadt: Ein Wehr unter der Brücke leitet das Wasser zu zwei Turbinen. 1969 automatisiert, ist es noch in Betrieb und erzeugt saubere Energie.",
+        "es": "Bajo el Ponte San Martino, en el brazo del Sile que cruza el centro, hay una pequeña central hidroeléctrica construida en 1917, cuando la Primera Guerra Mundial aún estaba en curso. Es un raro ejemplo de instalación en el corazón de una ciudad histórica: un azud bajo el puente lleva el agua a dos turbinas. Automatizada en 1969, sigue en funcionamiento y produce energía limpia."
+      },
+      "immagine": {
+        "autore": "Aktron",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_most_Ponte_Martino.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Gafilkertenkele",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Sile_a_San_Martino.JPG"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_-_Il_Sile_visto_dal_Ponte_di_S._Martino_verso_ovest.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile solo dall'esterno, dal ponte e dalle rive.",
+        "en": "Visible only from outside, from the bridge and the banks.",
+        "fr": "Visible uniquement de l'extérieur, depuis le pont et les rives.",
+        "de": "Nur von außen zu sehen, von der Brücke und den Ufern aus.",
+        "es": "Visible solo desde fuera, desde el puente y las orillas."
+      },
+      "curiosita": true
+    },
+    {
+      "id": "palazzo-zuccareda",
+      "nome": "Palazzo Zuccareda",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6674145,
+      "longitudine": 12.2440959,
+      "descrizione": {
+        "it": "Palazzo cinquecentesco in Via Cornarotta, a pochi passi da Palazzo Bomben. La facciata sulla strada è decorata da affreschi e da una serie di tondi con busti di imperatori romani; la stessa decorazione prosegue, cosa insolita, anche sulla facciata interna verso il giardino, con altri sette tondi. È un bell'esempio della Treviso \"urbs picta\", la città dipinta.",
+        "en": "A 16th-century palace in Via Cornarotta, a few steps from Palazzo Bomben. The street façade is decorated with frescoes and a series of roundels with busts of Roman emperors; unusually, the same decoration continues on the inner façade facing the garden, with seven more roundels. It is a fine example of Treviso as \"urbs picta\", the painted city.",
+        "fr": "Palais du XVIe siècle dans la Via Cornarotta, à quelques pas du Palazzo Bomben. La façade sur rue est ornée de fresques et d'une série de médaillons avec des bustes d'empereurs romains ; chose insolite, le même décor se poursuit sur la façade intérieure côté jardin, avec sept autres médaillons. C'est un bel exemple de Trévise « urbs picta », la ville peinte.",
+        "de": "Ein Palast aus dem 16. Jahrhundert in der Via Cornarotta, wenige Schritte vom Palazzo Bomben. Die Straßenfassade ist mit Fresken und einer Reihe von Medaillons mit Büsten römischer Kaiser geschmückt; ungewöhnlicherweise setzt sich die Dekoration auf der Innenfassade zum Garten fort, mit sieben weiteren Medaillons. Ein schönes Beispiel für Treviso als „urbs picta“, die bemalte Stadt.",
+        "es": "Palacio del siglo XVI en la Via Cornarotta, a pocos pasos del Palazzo Bomben. La fachada a la calle está decorada con frescos y una serie de medallones con bustos de emperadores romanos; algo insólito, la misma decoración continúa en la fachada interior hacia el jardín, con otros siete medallones. Es un buen ejemplo de la Treviso «urbs picta», la ciudad pintada."
+      },
+      "nota": {
+        "it": "Palazzo privato, visibile dall'esterno; l'interno e il giardino si visitano solo in occasione di aperture straordinarie.",
+        "en": "Private palace, visible from outside; the interior and garden can only be visited during special openings.",
+        "fr": "Palais privé, visible de l'extérieur ; l'intérieur et le jardin ne se visitent que lors d'ouvertures exceptionnelles.",
+        "de": "Privatpalast, von außen zu sehen; Inneres und Garten nur bei Sonderöffnungen zugänglich.",
+        "es": "Palacio privado, visible desde fuera; el interior y el jardín solo se visitan en aperturas extraordinarias."
+      },
+      "curiosita": true
+    },
+    {
+      "id": "ex-chiesa-di-san-teonisto",
+      "nome": "Ex Chiesa di San Teonisto",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.663499,
+      "longitudine": 12.23869,
+      "descrizione": {
+        "it": "Chiesa del monastero benedettino femminile di San Teonisto, in Via San Nicolò, fu soppressa in epoca napoleonica e gravemente danneggiata dai bombardamenti del 1944. Acquistata e restaurata dalla Fondazione Benetton, è oggi uno spazio per concerti, incontri e mostre. Il Comune vi ha riportato le grandi tele seicentesche che un tempo la decoravano, e al suo interno si trovano anche opere dell'artista Safet Zec, realizzate appositamente per questo luogo.",
+        "en": "The church of the Benedictine convent of San Teonisto, in Via San Nicolò, was suppressed under Napoleon and badly damaged by the 1944 bombing. Bought and restored by the Benetton Foundation, it is now a venue for concerts, talks and exhibitions. The city returned the large 17th-century canvases that once decorated it, and inside there are also works by the artist Safet Zec, made specially for this place.",
+        "fr": "L'église du monastère bénédictin féminin de San Teonisto, Via San Nicolò, fut supprimée à l'époque napoléonienne et gravement endommagée par le bombardement de 1944. Achetée et restaurée par la Fondation Benetton, c'est aujourd'hui un lieu de concerts, de rencontres et d'expositions. La ville y a rapporté les grandes toiles du XVIIe siècle qui la décoraient autrefois, et on y trouve aussi des œuvres de l'artiste Safet Zec, réalisées spécialement pour ce lieu.",
+        "de": "Die Kirche des Benediktinerinnenklosters San Teonisto in der Via San Nicolò wurde unter Napoleon aufgehoben und beim Bombenangriff 1944 schwer beschädigt. Von der Benetton-Stiftung erworben und restauriert, ist sie heute Ort für Konzerte, Begegnungen und Ausstellungen. Die Stadt brachte die großen Gemälde des 17. Jahrhunderts zurück, die sie einst schmückten; zudem sind Werke des Künstlers Safet Zec zu sehen, eigens für diesen Ort geschaffen.",
+        "es": "La iglesia del monasterio benedictino femenino de San Teonisto, en la Via San Nicolò, fue suprimida en la época napoleónica y gravemente dañada por el bombardeo de 1944. Comprada y restaurada por la Fundación Benetton, hoy es un espacio para conciertos, encuentros y exposiciones. El Ayuntamiento devolvió los grandes lienzos del siglo XVII que antes la decoraban, y en su interior hay también obras del artista Safet Zec, realizadas expresamente para este lugar."
+      },
+      "immagine": {
+        "autore": "BluesBrother",
+        "licenza": "CC0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Teonisto_a_Treviso,_2022.jpeg"
+      },
+      "galleria": [
+        {
+          "autore": "BluesBrother",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Ex_Chiesa_di_San_Teonisto_a_Treviso,_2023.jpeg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "dom",
+          "ore": "15:00–19:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Aperta al pubblico la prima domenica del mese, ore 15-19, e in occasione di concerti ed eventi della Fondazione Benetton.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Open to the public on the first Sunday of the month, 3-7 pm, and during concerts and events of the Benetton Foundation.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Ouverte au public le premier dimanche du mois, de 15 h à 19 h, et lors des concerts et événements de la Fondation Benetton.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Am ersten Sonntag im Monat von 15 bis 19 Uhr sowie bei Konzerten und Veranstaltungen der Benetton-Stiftung geöffnet.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Abierta al público el primer domingo de cada mes, de 15 a 19 h, y durante conciertos y eventos de la Fundación Benetton.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "sito": "https://www.fbsr.it",
+      "wikipedia": {
+        "it": "Chiesa di San Teonisto"
+      },
+      "curiosita": true
+    },
+    {
+      "id": "rondella-di-santa-sofia",
+      "nome": "Rondella di Santa Sofia",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6643631,
+      "longitudine": 12.2551666,
+      "descrizione": {
+        "it": "All'angolo sud-orientale delle mura, vicino al Sile, lungo Viale Jacopo Tasso, si trova la Rondella (o Bastione) di Santa Sofia, un torrione cinquecentesco a pianta circolare. Nell'Ottocento la struttura fu trasformata e utilizzata come macello cittadino, il che ne ha modificato l'aspetto esterno. All'interno conserva ambienti sotterranei che raccontano il passato militare della città.",
+        "en": "At the south-east corner of the walls, near the Sile, along Viale Jacopo Tasso, stands the Rondella (or Bastion) of Santa Sofia, a round 16th-century tower. In the 19th century it was transformed and used as the city slaughterhouse, which changed its outer appearance. Inside it keeps underground rooms that tell of the city's military past.",
+        "fr": "À l'angle sud-est des remparts, près du Sile, le long du Viale Jacopo Tasso, se trouve la Rondella (ou bastion) de Santa Sofia, un tour circulaire du XVIe siècle. Au XIXe siècle, la structure fut transformée et utilisée comme abattoir de la ville, ce qui en a modifié l'aspect extérieur. À l'intérieur, elle conserve des salles souterraines qui racontent le passé militaire de la ville.",
+        "de": "An der Südostecke der Mauern, nahe dem Sile, am Viale Jacopo Tasso, steht die Rondella (oder Bastion) di Santa Sofia, ein runder Turm aus dem 16. Jahrhundert. Im 19. Jahrhundert wurde er umgebaut und als städtischer Schlachthof genutzt, was sein Äußeres veränderte. Innen bewahrt er unterirdische Räume, die von der militärischen Vergangenheit der Stadt erzählen.",
+        "es": "En la esquina sureste de las murallas, cerca del Sile, a lo largo del Viale Jacopo Tasso, se encuentra la Rondella (o bastión) de Santa Sofía, un torreón circular del siglo XVI. En el siglo XIX fue transformado y usado como matadero de la ciudad, lo que cambió su aspecto exterior. En su interior conserva espacios subterráneos que cuentan el pasado militar de la ciudad."
+      },
+      "immagine": {
+        "autore": "Phante",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Bastione_Santa_Sofia.jpeg"
+      },
+      "galleria": [
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Bastione_Santa_Sofia_-_2023-09-05_12-54-33_003.jpeg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Bastione_Santa_Sofia_-_2023-09-05_12-54-33_006.jpeg"
+        },
+        {
+          "autore": "Liridon",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Bastione_Santa_Sofia_-_2023-09-08_10-21-24_001.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "L'esterno è sempre visibile; l'interno si visita solo durante le aperture dell'associazione Treviso Sotterranea.",
+        "en": "The exterior is always visible; the interior can only be visited during openings by the Treviso Sotterranea association.",
+        "fr": "L'extérieur est toujours visible ; l'intérieur ne se visite que lors des ouvertures de l'association Treviso Sotterranea.",
+        "de": "Das Äußere ist jederzeit sichtbar; das Innere nur bei Öffnungen des Vereins Treviso Sotterranea.",
+        "es": "El exterior siempre es visible; el interior solo se visita en las aperturas de la asociación Treviso Sotterranea."
+      },
+      "curiosita": true
+    },
+    {
+      "id": "scuola-del-santissimo",
+      "nome": "Scuola del Santissimo",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66688,
+      "longitudine": 12.24345,
+      "descrizione": {
+        "it": "Accanto al Battistero di San Giovanni, di fronte al Duomo, sorge il piccolo edificio che fu sede della Scuola del Santissimo Sacramento, la confraternita che teneva i propri riti nella cattedrale. Nato come oratorio, passò al demanio dopo le soppressioni napoleoniche. Sulla parete esterna si trovano i resti di un Cristo risorto attribuito a Tiziano, che nel Cinquecento ricevette l'incarico dalla confraternita.",
+        "en": "Next to the Baptistery of Saint John, opposite the Cathedral, stands the small building that was the seat of the Scuola del Santissimo Sacramento, the confraternity that held its rites in the cathedral. Built as an oratory, it passed to the state after the Napoleonic suppressions. On the outer wall are the remains of a Risen Christ attributed to Titian, who received the commission from the confraternity in the 16th century.",
+        "fr": "À côté du baptistère Saint-Jean, face à la cathédrale, se dresse le petit bâtiment qui fut le siège de la Scuola del Santissimo Sacramento, la confrérie qui célébrait ses rites dans la cathédrale. Né comme oratoire, il passa à l'État après les suppressions napoléoniennes. Sur le mur extérieur se trouvent les restes d'un Christ ressuscité attribué à Titien, qui reçut la commande de la confrérie au XVIe siècle.",
+        "de": "Neben dem Baptisterium San Giovanni, gegenüber dem Dom, steht das kleine Gebäude, das Sitz der Scuola del Santissimo Sacramento war, der Bruderschaft, die ihre Riten im Dom feierte. Als Oratorium entstanden, fiel es nach den napoleonischen Aufhebungen an den Staat. An der Außenwand sind Reste eines Auferstandenen Christus erhalten, der Tizian zugeschrieben wird, der im 16. Jahrhundert den Auftrag der Bruderschaft erhielt.",
+        "es": "Junto al baptisterio de San Juan, frente a la catedral, se alza el pequeño edificio que fue sede de la Scuola del Santissimo Sacramento, la cofradía que celebraba sus ritos en la catedral. Nacido como oratorio, pasó al Estado tras las supresiones napoleónicas. En la pared exterior están los restos de un Cristo resucitado atribuido a Tiziano, que recibió el encargo de la cofradía en el siglo XVI."
+      },
+      "immagine": {
+        "autore": "Sailko",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_Scuola_del_Santissimo_Sacramento,_facciata_con_cristo_risorto_e_profeti_di_tiziano,_1517,_02.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Scuola_del_Santissimo_Sacramento.jpg"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile dall'esterno, dalla piazza del Duomo.",
+        "en": "Visible from outside, from the Cathedral square.",
+        "fr": "Visible de l'extérieur, depuis la place de la cathédrale.",
+        "de": "Von außen sichtbar, vom Domplatz aus.",
+        "es": "Visible desde fuera, desde la plaza de la catedral."
+      },
+      "curiosita": true
+    }
+  ]
+}
