@@ -1,3 +1,217 @@
 {
-  "personaggi": []
+  "personaggi": [
+    {
+      "id": "andrea-palladio",
+      "nome": "Andrea Palladio",
+      "nascita": 1508,
+      "morte": 1580,
+      "professione": {
+        "it": "Architetto",
+        "en": "Architect",
+        "fr": "Architecte",
+        "de": "Architekt",
+        "es": "Arquitecto"
+      },
+      "luogoNascita": {
+        "it": "Padova",
+        "en": "Padua",
+        "fr": "Padoue",
+        "de": "Padua",
+        "es": "Padua"
+      },
+      "dataNascita": {
+        "it": "1508",
+        "en": "1508",
+        "fr": "1508",
+        "de": "1508",
+        "es": "1508"
+      },
+      "luogoMorte": {
+        "it": "Maser",
+        "en": "Maser",
+        "fr": "Maser",
+        "de": "Maser",
+        "es": "Maser"
+      },
+      "dataMorte": {
+        "it": "1580",
+        "en": "1580",
+        "fr": "1580",
+        "de": "1580",
+        "es": "1580"
+      },
+      "ritratto": {
+        "autore": "Alessandro Maganza",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Andrea di Pietro della Gondola, conosciuto come Andrea Palladio, nacque a Padova nel 1508. Si trasferì a Vicenza a sedici anni, dove iniziò a lavorare come scalpellino. L'incontro con l'umanista Gian Giorgio Trissino fu determinante per la sua formazione: fu Trissino a introdurlo agli studi classici e a conferirgli il nome Palladio. Divenne uno dei maggiori architetti del Rinascimento e trasformò profondamente il volto di Vicenza con palazzi, edifici pubblici e ville. La sua architettura ebbe un'influenza internazionale, dando origine al cosiddetto palladianesimo.",
+        "en": "Andrea di Pietro della Gondola, known as Andrea Palladio, was born in Padua in 1508. He moved to Vicenza at the age of sixteen, where he began working as a stonemason. The encounter with the humanist Gian Giorgio Trissino was decisive for his training: it was Trissino who introduced him to classical studies and gave him the name Palladio. He became one of the greatest architects of the Renaissance and profoundly transformed the face of Vicenza with palaces, public buildings and villas. His architecture had an international influence, giving rise to what is known as Palladianism.",
+        "fr": "Andrea di Pietro della Gondola, connu sous le nom d'Andrea Palladio, naquit à Padoue en 1508. Il s'installa à Vicence à seize ans, où il commença à travailler comme tailleur de pierre. La rencontre avec l'humaniste Gian Giorgio Trissino fut déterminante pour sa formation : c'est Trissino qui l'initia aux études classiques et lui donna le nom de Palladio. Il devint l'un des plus grands architectes de la Renaissance et transforma profondément le visage de Vicence avec ses palais, ses édifices publics et ses villas. Son architecture eut une influence internationale, donnant naissance au courant dit palladianisme.",
+        "de": "Andrea di Pietro della Gondola, bekannt als Andrea Palladio, wurde 1508 in Padua geboren. Mit sechzehn Jahren zog er nach Vicenza, wo er als Steinmetz zu arbeiten begann. Entscheidend für seine Ausbildung war die Begegnung mit dem Humanisten Gian Giorgio Trissino: Trissino führte ihn in die klassischen Studien ein und gab ihm den Namen Palladio. Er wurde einer der bedeutendsten Architekten der Renaissance und prägte das Gesicht Vicenzas mit Palästen, öffentlichen Gebäuden und Villen tiefgreifend. Seine Architektur hatte internationalen Einfluss und führte zum sogenannten Palladianismus.",
+        "es": "Andrea di Pietro della Gondola, conocido como Andrea Palladio, nació en Padua en 1508. Se trasladó a Vicenza a los dieciséis años, donde empezó a trabajar como cantero. El encuentro con el humanista Gian Giorgio Trissino fue decisivo para su formación: fue Trissino quien lo introdujo en los estudios clásicos y le dio el nombre de Palladio. Se convirtió en uno de los grandes arquitectos del Renacimiento y transformó profundamente el aspecto de Vicenza con palacios, edificios públicos y villas. Su arquitectura tuvo una influencia internacional, dando origen al llamado palladianismo."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo vero cognome era della Gondola.",
+          "Il nome Palladio gli fu attribuito da Gian Giorgio Trissino.",
+          "Studiò e approfondì l'architettura romana antica attraverso i viaggi e i rilievi dei monumenti.",
+          "Nel 1570 pubblicò I quattro libri dell'architettura, opera che contribuì alla diffusione internazionale delle sue idee.",
+          "Nel 1994 Vicenza e le ville palladiane del Veneto sono entrate nella lista del Patrimonio Mondiale UNESCO."
+        ],
+        "en": [
+          "His real surname was della Gondola.",
+          "The name Palladio was given to him by Gian Giorgio Trissino.",
+          "He studied and deepened his knowledge of ancient Roman architecture through travels and surveys of monuments.",
+          "In 1570 he published I quattro libri dell'architettura, a work that helped spread his ideas internationally.",
+          "In 1994 Vicenza and the Palladian villas of the Veneto were inscribed on the UNESCO World Heritage List."
+        ],
+        "fr": [
+          "Son véritable nom de famille était della Gondola.",
+          "Le nom de Palladio lui fut donné par Gian Giorgio Trissino.",
+          "Il étudia et approfondit l'architecture romaine antique grâce à ses voyages et aux relevés des monuments.",
+          "En 1570 il publia I quattro libri dell'architettura, œuvre qui contribua à diffuser ses idées à l'échelle internationale.",
+          "En 1994 Vicence et les villas palladiennes de la Vénétie ont été inscrites sur la Liste du patrimoine mondial de l'UNESCO."
+        ],
+        "de": [
+          "Sein eigentlicher Familienname war della Gondola.",
+          "Den Namen Palladio gab ihm Gian Giorgio Trissino.",
+          "Er studierte die antike römische Architektur und vertiefte sein Wissen durch Reisen und Vermessungen der Monumente.",
+          "1570 veröffentlichte er I quattro libri dell'architettura, ein Werk, das zur internationalen Verbreitung seiner Ideen beitrug.",
+          "1994 wurden Vicenza und die palladianischen Villen Venetiens in die UNESCO-Welterbeliste aufgenommen."
+        ],
+        "es": [
+          "Su verdadero apellido era della Gondola.",
+          "El nombre Palladio le fue atribuido por Gian Giorgio Trissino.",
+          "Estudió y profundizó en la arquitectura romana antigua a través de viajes y de levantamientos de monumentos.",
+          "En 1570 publicó I quattro libri dell'architettura, obra que contribuyó a difundir sus ideas internacionalmente.",
+          "En 1994 Vicenza y las villas palladianas del Véneto entraron en la lista del Patrimonio Mundial de la UNESCO."
+        ]
+      },
+      "luoghi": [
+        "basilica-palladiana",
+        "teatro-olimpico",
+        "palazzo-chiericati-museo-civico",
+        "palladio-museum",
+        "loggia-del-capitaniato",
+        "palazzo-valmarana-braga",
+        "villa-trissino-cricoli"
+      ],
+      "luoghiNote": {
+        "basilica-palladiana": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Il suo progetto di trasformazione dell'antico Palazzo della Ragione, con le celebri logge in marmo bianco, è uno dei simboli della città.",
+            "en": "His project to transform the ancient Palazzo della Ragione, with its famous white marble loggias, is one of the city's symbols.",
+            "fr": "Son projet de transformation de l'ancien Palazzo della Ragione, avec ses célèbres loggias en marbre blanc, est l'un des symboles de la ville.",
+            "de": "Sein Umbau des alten Palazzo della Ragione mit den berühmten Logen aus weißem Marmor ist eines der Wahrzeichen der Stadt.",
+            "es": "Su proyecto de transformación del antiguo Palazzo della Ragione, con sus célebres logias de mármol blanco, es uno de los símbolos de la ciudad."
+          }
+        },
+        "teatro-olimpico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Ultima grande opera progettata da Palladio, completata dopo la sua morte da Vincenzo Scamozzi.",
+            "en": "The last great work designed by Palladio, completed after his death by Vincenzo Scamozzi.",
+            "fr": "La dernière grande œuvre conçue par Palladio, achevée après sa mort par Vincenzo Scamozzi.",
+            "de": "Das letzte große Werk Palladios, nach seinem Tod von Vincenzo Scamozzi vollendet.",
+            "es": "La última gran obra proyectada por Palladio, completada tras su muerte por Vincenzo Scamozzi."
+          }
+        },
+        "palazzo-chiericati-museo-civico": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Palazzo progettato per la famiglia Chiericati, oggi sede dei Musei Civici.",
+            "en": "Palace designed for the Chiericati family, today home to the Civic Museums.",
+            "fr": "Palais conçu pour la famille Chiericati, aujourd'hui siège des Musées civiques.",
+            "de": "Palast, entworfen für die Familie Chiericati, heute Sitz der Städtischen Museen.",
+            "es": "Palacio proyectado para la familia Chiericati, hoy sede de los Museos Cívicos."
+          }
+        },
+        "palladio-museum": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Una delle sue opere più importanti, oggi sede del Palladio Museum.",
+            "en": "One of his most important works, today home to the Palladio Museum.",
+            "fr": "L'une de ses œuvres les plus importantes, aujourd'hui siège du Palladio Museum.",
+            "de": "Eines seiner bedeutendsten Werke, heute Sitz des Palladio Museum.",
+            "es": "Una de sus obras más importantes, hoy sede del Palladio Museum."
+          }
+        },
+        "loggia-del-capitaniato": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Edificio progettato da Palladio e affacciato su Piazza dei Signori.",
+            "en": "Building designed by Palladio and overlooking Piazza dei Signori.",
+            "fr": "Bâtiment conçu par Palladio et donnant sur la Piazza dei Signori.",
+            "de": "Von Palladio entworfenes Gebäude mit Blick auf die Piazza dei Signori.",
+            "es": "Edificio proyectado por Palladio y con vistas a la Piazza dei Signori."
+          }
+        },
+        "palazzo-valmarana-braga": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Importante esempio della sua architettura monumentale.",
+            "en": "An important example of his monumental architecture.",
+            "fr": "Un important exemple de son architecture monumentale.",
+            "de": "Ein bedeutendes Beispiel seiner monumentalen Architektur.",
+            "es": "Un importante ejemplo de su arquitectura monumental."
+          }
+        },
+        "villa-trissino-cricoli": {
+          "tipo": {
+            "it": "Legame biografico",
+            "en": "Biographical link",
+            "fr": "Lien biographique",
+            "de": "Biografischer Bezug",
+            "es": "Vínculo biográfico"
+          },
+          "testo": {
+            "it": "Luogo fondamentale per la storia della sua formazione e del rapporto con Trissino.",
+            "en": "A key place for the story of his training and of his relationship with Trissino.",
+            "fr": "Lieu essentiel pour l'histoire de sa formation et de sa relation avec Trissino.",
+            "de": "Ein zentraler Ort für die Geschichte seiner Ausbildung und seines Verhältnisses zu Trissino.",
+            "es": "Lugar fundamental para la historia de su formación y de su relación con Trissino."
+          }
+        }
+      },
+      "collegati": []
+    }
+  ]
 }
