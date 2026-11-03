@@ -2,7 +2,7 @@ import React, { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, use
 import { Animated, Image, PanResponder, PixelRatio, Pressable, StyleSheet, Text, View } from 'react-native';
 
 const ZOOM_MIN = 1;
-const ZOOM_MAX = 16;
+const ZOOM_MAX = 40;
 const DIMENSIONE_MARKER = 22;
 const DIMENSIONE_NUMERO = 28; // pallini numerati delle tappe di un itinerario
 const DIMENSIONE_SERVIZIO = 20; // fontanelle, bagni, farmacie, vaporetto
