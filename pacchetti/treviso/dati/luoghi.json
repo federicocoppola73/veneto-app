@@ -2245,6 +2245,31 @@
         "tomaso-da-modena",
         "paris-bordon"
       ]
+    },
+    {
+      "id": "ca-da-noal-casa-robegan",
+      "nome": "Ca' da Noal – Casa Robegan",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6676,
+      "longitudine": 12.2405,
+      "descrizione": {
+        "it": "Via Canova ospita tre case tardomedievali: Ca' da Noal, con la facciata gotica veneziana, Casa Robegan, con dettagli affrescati rinascimentali, e Casa Karwath, di gusto neoclassico. Fanno parte dei Musei Civici e nel passato ospitarono il Museo della Casa Trevigiana.",
+        "en": "On Via Canova stand three late-medieval houses: Ca' da Noal, with its late-Venetian Gothic façade, Casa Robegan, with Renaissance frescoed details, and Casa Karwath, in the neoclassical style. They are part of the Musei Civici and once housed the Museum of the Trevisan House.",
+        "fr": "Via Canova réunit trois maisons de la fin du Moyen Âge : Ca' da Noal, à la façade gothique vénitienne tardive, Casa Robegan, aux détails Renaissance ornés de fresques, et Casa Karwath, de style néoclassique. Elles font partie des Musées civiques et ont autrefois abrité le Musée de la maison trévisane.",
+        "de": "An der Via Canova stehen drei spätmittelalterliche Häuser: Ca' da Noal mit spätvenezianisch-gotischer Fassade, Casa Robegan mit freskierten Renaissance-Details und Casa Karwath im klassizistischen Stil. Sie gehören zu den Städtischen Museen und beherbergten früher das Museum des Trevisaner Hauses.",
+        "es": "En la Via Canova se alzan tres casas de finales de la Edad Media: Ca' da Noal, con fachada gótica veneciana tardía, Casa Robegan, con detalles renacentistas pintados al fresco, y Casa Karwath, de estilo neoclásico. Forman parte de los Museos Cívicos y en el pasado albergaron el Museo de la Casa Trevisana."
+      },
+      "nota": {
+        "it": "Ca' da Noal: attualmente in attesa di restauro. Casa Robegan: aperta in occasione di mostre temporanee.",
+        "en": "Ca' da Noal: currently awaiting restoration. Casa Robegan: open for temporary exhibitions.",
+        "fr": "Ca' da Noal : actuellement en attente de restauration. Casa Robegan : ouverte à l'occasion d'expositions temporaires.",
+        "de": "Ca' da Noal: derzeit in Wartestellung für eine Restaurierung. Casa Robegan: geöffnet anlässlich von Wechselausstellungen.",
+        "es": "Ca' da Noal: actualmente a la espera de restauración. Casa Robegan: abierta con motivo de exposiciones temporales."
+      },
+      "personaggio": [
+        "arturo-martini"
+      ]
     }
   ]
 }

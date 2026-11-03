@@ -435,7 +435,8 @@
         ]
       },
       "luoghi": [
-        "museo-luigi-bailo"
+        "museo-luigi-bailo",
+        "ca-da-noal-casa-robegan"
       ],
       "luoghiNote": {
         "museo-luigi-bailo": {
@@ -452,6 +453,22 @@
             "fr": "Conserve une collection très importante de ses œuvres, de ses premières productions à sa maturité. Dans le cloître sud se trouve la sculpture Adam et Ève.",
             "de": "Bewahrt eine sehr bedeutende Sammlung seiner Werke, von den frühen Arbeiten bis zur Reifezeit. Im Südkreuzgang steht die Skulptur Adam und Eva.",
             "es": "Conserva una colección muy importante de sus obras, desde sus primeras producciones hasta la madurez. En el claustro sur está la escultura Adán y Eva."
+          }
+        },
+        "ca-da-noal-casa-robegan": {
+          "tipo": {
+            "it": "Luogo espositivo",
+            "en": "Exhibition venue",
+            "fr": "Lieu d'exposition",
+            "de": "Ausstellungsort",
+            "es": "Lugar expositivo"
+          },
+          "testo": {
+            "it": "Luogo collegato all'artista nel percorso dei Musei Civici, da considerare soprattutto come riferimento espositivo e culturale.",
+            "en": "Place linked to the artist in the Musei Civici route, mainly as an exhibition and cultural reference.",
+            "fr": "Lieu lié à l'artiste dans le parcours des Musées civiques, à considérer surtout comme repère d'exposition et culturel.",
+            "de": "Mit dem Künstler verbundener Ort im Rundgang der Städtischen Museen, vor allem als Ausstellungs- und Kulturort zu sehen.",
+            "es": "Lugar vinculado al artista en el recorrido de los Museos Cívicos, sobre todo como referencia expositiva y cultural."
           }
         }
       },
