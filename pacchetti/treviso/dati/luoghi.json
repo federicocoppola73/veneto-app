@@ -2360,13 +2360,37 @@
         "de": "Provinzielles Volkskundemuseum in einem ländlichen Gebäudekomplex aus dem 17. Jahrhundert, im Naturpark des Flusses Storga am nördlichen Stadtrand von Treviso. Das Museum wird gemeinsam mit der Gruppo Folcloristico betreut und zeigt Volksbräuche, darunter solche rund um die Fischerei.",
         "es": "Museo etnográfico provincial alojado en un conjunto rural del siglo XVII, en el parque natural del río Storga, en la periferia norte de Treviso. El museo se gestiona junto con el Gruppo Folcloristico y muestra tradiciones populares, incluidas las relacionadas con la pesca."
       },
-      "nota": {
-        "it": "Orari e biglietto da verificare: le fonti consultate riportano dati discordanti. Contattare il museo al numero 0422 308910 prima della visita.",
-        "en": "Opening hours and admission to be verified: the sources consulted give conflicting information. Contact the museum at +39 0422 308910 before your visit.",
-        "fr": "Horaires et tarifs à vérifier : les sources consultées donnent des informations contradictoires. Contacter le musée au +39 0422 308910 avant la visite.",
-        "de": "Öffnungszeiten und Eintritt bitte prüfen: Die konsultierten Quellen widersprechen sich. Vor dem Besuch das Museum unter +39 0422 308910 kontaktieren.",
-        "es": "Horarios y entrada por verificar: las fuentes consultadas dan datos contradictorios. Contacte con el museo en el +39 0422 308910 antes de la visita."
-      }
+      "orari": [
+        {
+          "giorni": "gio-dom",
+          "ore": "9:30–12:30 · 15:00–18:30"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "immagine": {
+        "autore": "foto propria",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "foto propria",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
