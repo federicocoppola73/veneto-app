@@ -187,6 +187,158 @@
           }
         }
       },
+      "collegati": [],
+      "luogoMorte": {
+        "it": "Modena",
+        "en": "Modena",
+        "fr": "Modène",
+        "de": "Modena",
+        "es": "Módena"
+      }
+    },
+    {
+      "id": "paris-bordon",
+      "nome": "Paris Bordon",
+      "nascita": 1500,
+      "morte": 1571,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataNascita": {
+        "it": "5 luglio 1500",
+        "en": "5 July 1500",
+        "fr": "5 juillet 1500",
+        "de": "5. Juli 1500",
+        "es": "5 de julio de 1500"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "19 gennaio 1571",
+        "en": "19 January 1571",
+        "fr": "19 janvier 1571",
+        "de": "19. Januar 1571",
+        "es": "19 de enero de 1571"
+      },
+      "ritratto": {
+        "autore": "Paris Bordone",
+        "licenza": "CC BY 3.0"
+      },
+      "biografia": {
+        "it": "Paris Bordon, conosciuto anche come Paride Bordone, fu un importante pittore del Rinascimento veneto. Nato a Treviso, si trasferì ancora giovane a Venezia, dove entrò nell'ambiente artistico di Tiziano, dal quale ricevette una forte influenza. La sua pittura si distingue per il colore luminoso, la ricchezza delle composizioni e l'eleganza delle figure. Lavorò anche per importanti committenti stranieri, tra cui la corte francese e i banchieri Fugger di Augusta.",
+        "en": "Paris Bordon, also known as Paride Bordone, was an important painter of the Venetian Renaissance. Born in Treviso, he moved to Venice while still young, where he entered Titian's artistic circle and received a strong influence from him. His painting stands out for its luminous colour, the richness of its compositions and the elegance of its figures. He also worked for important foreign patrons, including the French court and the Fugger bankers of Augsburg.",
+        "fr": "Paris Bordon, aussi appelé Paride Bordone, fut un important peintre de la Renaissance vénitienne. Né à Trévise, il s'installa à Venise dès sa jeunesse, où il entra dans le milieu artistique du Titien, dont il reçut une forte influence. Sa peinture se distingue par sa couleur lumineuse, la richesse de ses compositions et l'élégance de ses figures. Il travailla aussi pour d'importants commanditaires étrangers, dont la cour de France et les banquiers Fugger d'Augsbourg.",
+        "de": "Paris Bordon, auch Paride Bordone genannt, war einer der bedeutenden Maler der venezianischen Renaissance. Er wurde in Treviso geboren und zog schon als junger Mann nach Venedig, wo er in den Kreis Tizians eintrat und stark von ihm beeinflusst wurde. Seine Malerei zeichnet sich durch leuchtende Farben, reiche Kompositionen und elegante Figuren aus. Er arbeitete auch für bedeutende ausländische Auftraggeber, darunter den französischen Hof und die Fugger-Bankiers aus Augsburg.",
+        "es": "Paris Bordon, también conocido como Paride Bordone, fue un importante pintor del Renacimiento véneto. Nacido en Treviso, se trasladó a Venecia siendo aún joven, donde entró en el ambiente artístico de Tiziano, del que recibió una fuerte influencia. Su pintura se distingue por el color luminoso, la riqueza de las composiciones y la elegancia de las figuras. Trabajó también para importantes comitentes extranjeros, entre ellos la corte francesa y los banqueros Fugger de Augsburgo."
+      },
+      "curiosita": {
+        "it": [
+          "Fu battezzato a Treviso il 5 luglio 1500.",
+          "Secondo la tradizione biografica, fu allievo di Tiziano, anche se il rapporto tra i due artisti fu complesso.",
+          "Lavorò alla corte di Francesco I di Francia e per la ricca famiglia Fugger in Germania.",
+          "Il suo capolavoro più famoso è la Consegna dell'anello al Doge, oggi conservata alle Gallerie dell'Accademia di Venezia.",
+          "Una delle sue opere più importanti a Treviso è l'Adorazione dei pastori, conosciuta anche come pala Rover, trasferita nel Duomo nel 1829."
+        ],
+        "en": [
+          "He was baptised in Treviso on 5 July 1500.",
+          "According to the biographical tradition, he was a pupil of Titian, although the relationship between the two artists was complex.",
+          "He worked at the court of Francis I of France and for the wealthy Fugger family in Germany.",
+          "His most famous masterpiece is the Presentation of the Ring to the Doge, now in the Gallerie dell'Accademia in Venice.",
+          "One of his most important works in Treviso is the Adoration of the Shepherds, also known as the Rover altarpiece, moved to the cathedral in 1829."
+        ],
+        "fr": [
+          "Il fut baptisé à Trévise le 5 juillet 1500.",
+          "Selon la tradition biographique, il fut l'élève du Titien, même si la relation entre les deux artistes fut complexe.",
+          "Il travailla à la cour de François Ier de France et pour la riche famille Fugger en Allemagne.",
+          "Son chef-d'œuvre le plus célèbre est la Remise de l'anneau au doge, aujourd'hui conservée aux Gallerie dell'Accademia de Venise.",
+          "L'une de ses œuvres les plus importantes à Trévise est l'Adoration des bergers, aussi appelée retable Rover, transférée à la cathédrale en 1829."
+        ],
+        "de": [
+          "Er wurde am 5. Juli 1500 in Treviso getauft.",
+          "Nach der biografischen Überlieferung war er Schüler Tizians, auch wenn das Verhältnis zwischen beiden Künstlern kompliziert war.",
+          "Er arbeitete am Hof Franz I. von Frankreich und für die reiche Familie Fugger in Deutschland.",
+          "Sein berühmtestes Meisterwerk ist die Übergabe des Rings an den Dogen, heute in den Gallerie dell'Accademia in Venedig.",
+          "Eines seiner wichtigsten Werke in Treviso ist die Anbetung der Hirten, auch Altarbild Rover genannt, das 1829 in den Dom überführt wurde."
+        ],
+        "es": [
+          "Fue bautizado en Treviso el 5 de julio de 1500.",
+          "Según la tradición biográfica, fue discípulo de Tiziano, aunque la relación entre ambos artistas fue compleja.",
+          "Trabajó en la corte de Francisco I de Francia y para la rica familia Fugger en Alemania.",
+          "Su obra maestra más famosa es la Entrega del anillo al Dux, hoy conservada en las Gallerie dell'Accademia de Venecia.",
+          "Una de sus obras más importantes en Treviso es la Adoración de los pastores, conocida también como pala Rover, trasladada a la catedral en 1829."
+        ]
+      },
+      "luoghi": [
+        "cattedrale-di-san-pietro-apostolo",
+        "chiesa-di-san-francesco",
+        "museo-diocesano-di-treviso"
+      ],
+      "luoghiNote": {
+        "cattedrale-di-san-pietro-apostolo": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work kept here",
+            "fr": "Œuvre conservée",
+            "de": "Hier aufbewahrtes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva l'Adorazione dei pastori, nella cappella Malchiostro.",
+            "en": "Holds the Adoration of the Shepherds, in the Malchiostro chapel.",
+            "fr": "Conserve l'Adoration des bergers, dans la chapelle Malchiostro.",
+            "de": "Bewahrt die Anbetung der Hirten in der Malchiostro-Kapelle.",
+            "es": "Conserva la Adoración de los pastores, en la capilla Malchiostro."
+          }
+        },
+        "chiesa-di-san-francesco": {
+          "tipo": {
+            "it": "Collocazione originaria",
+            "en": "Original location",
+            "fr": "Emplacement d'origine",
+            "de": "Ursprünglicher Standort",
+            "es": "Ubicación original"
+          },
+          "testo": {
+            "it": "Collocazione originaria dell'Adorazione dei pastori, commissionata dalla famiglia Rover.",
+            "en": "Original location of the Adoration of the Shepherds, commissioned by the Rover family.",
+            "fr": "Emplacement d'origine de l'Adoration des bergers, commandée par la famille Rover.",
+            "de": "Ursprünglicher Standort der Anbetung der Hirten, in Auftrag gegeben von der Familie Rover.",
+            "es": "Ubicación original de la Adoración de los pastores, encargada por la familia Rover."
+          }
+        },
+        "museo-diocesano-di-treviso": {
+          "tipo": {
+            "it": "Opere conservate",
+            "en": "Works kept here",
+            "fr": "Œuvres conservées",
+            "de": "Hier aufbewahrte Werke",
+            "es": "Obras conservadas"
+          },
+          "testo": {
+            "it": "Conserva e presenta diverse opere di Paris Bordon, tra cui dipinti provenienti da chiese trevigiane.",
+            "en": "Holds and displays several works by Paris Bordon, including paintings from churches in the Treviso area.",
+            "fr": "Conserve et présente plusieurs œuvres de Paris Bordon, dont des tableaux provenant d'églises trévisanes.",
+            "de": "Bewahrt und präsentiert mehrere Werke von Paris Bordon, darunter Gemälde aus Kirchen in Treviso.",
+            "es": "Conserva y presenta varias obras de Paris Bordon, entre ellas pinturas procedentes de iglesias trevisanas."
+          }
+        }
+      },
       "collegati": []
     }
   ]
