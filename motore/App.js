@@ -184,12 +184,26 @@ function Schermata({ linguaIniziale }) {
   const puntiItinerario = useMemo(() => {
     if (!itinerario) return null;
     const perId = Object.fromEntries(tuttiIPunti.map((p) => [p.id, p]));
+    // un luogo curioso (nascosto sulla mappa) resta visibile se è una tappa dell'itinerario
+    for (const id of itinerario.tappe) {
+      const l = !perId[id] && luoghiTuttiPerId[id];
+      if (l) {
+        perId[id] = {
+          id: l.id,
+          etichetta: l.nome,
+          categoria: l.categoria,
+          principale: 0,
+          colore: coloreCategoria(l.categoria),
+          ...proietta(l.latitudine, l.longitudine),
+        };
+      }
+    }
     const tappe = itinerario.tappe.map((id, i) => ({ ...perId[id], numero: String(i + 1) }));
     if (partenzaFissa && !itinerario.tappe.includes(partenzaFissa)) {
       tappe.unshift({ ...perId[partenzaFissa], numero: '▶', colore: COLORE_PARTENZA });
     }
     return tappe.filter((p) => p.id);
-  }, [itinerario, partenzaFissa, tuttiIPunti]);
+  }, [itinerario, partenzaFissa, tuttiIPunti, luoghiTuttiPerId, proietta]);
 
   const percorso = useMemo(() => {
     if (!itinerario) return null;
@@ -228,9 +242,9 @@ function Schermata({ linguaIniziale }) {
   const distanze = useMemo(() => {
     if (!coord) return null;
     const d = {};
-    for (const l of luoghi) d[l.id] = distanzaMetri(coord.latitudine, coord.longitudine, l.latitudine, l.longitudine);
+    for (const l of tuttiILuoghi) d[l.id] = distanzaMetri(coord.latitudine, coord.longitudine, l.latitudine, l.longitudine);
     return d;
-  }, [coord, luoghi]);
+  }, [coord, tuttiILuoghi]);
 
   const lontano = distanze ? Math.min(...Object.values(distanze)) > LONTANO_M : false;
 
@@ -244,7 +258,7 @@ function Schermata({ linguaIniziale }) {
 
   const vicini = useMemo(() => {
     if (!distanze || lontano) return [];
-    return luoghi
+    return (itinerario ? tuttiILuoghi : luoghi)
       .filter((l) =>
         itinerario
           ? itinerario.tappe.includes(l.id)
@@ -257,7 +271,7 @@ function Schermata({ linguaIniziale }) {
       .map((l) => ({ luogo: l, metri: distanze[l.id] }))
       .sort((a, b) => a.metri - b.metri)
       .slice(0, orizzontale ? 2 : NUMERO_VICINI); // in orizzontale c'è meno spazio in altezza
-  }, [distanze, lontano, luoghi, selezionate, orizzontale, itinerario, soloCuore, preferiti, soloVisitati, luoghiVisitati]);
+  }, [distanze, lontano, luoghi, tuttiILuoghi, selezionate, orizzontale, itinerario, soloCuore, preferiti, soloVisitati, luoghiVisitati]);
 
   const distanzaDaVenezia =
     coord && lontano
