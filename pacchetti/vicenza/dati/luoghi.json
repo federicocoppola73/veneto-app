@@ -1542,7 +1542,8 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:S_Nicola_da_Tolentino_oratory_in_Vicenza_(1).jpg"
         }
       ],
-      "personaggio": "francesco-maffei"
+      "personaggio": "francesco-maffei",
+      "curiosita": true
     },
     {
       "id": "chiesa-di-santo-stefano",
@@ -1760,7 +1761,8 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:VicenzaSMariaAraceliFacciataStatue.jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "abbazia-di-sant-agostino",
@@ -1852,7 +1854,8 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:S.Lucia_leone-1.jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "porta-santa-croce",
@@ -2191,7 +2194,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Porton_del_Luzo_in_Vicenza_(2).jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "torre-del-tormento",
@@ -2236,7 +2240,8 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Tormento-5.jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "torre-dei-coxina",
@@ -2281,7 +2286,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Coxina_in_Vicenza_(4).jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "loggia-valmarana",
@@ -2347,7 +2353,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Loggia_Valmarana_(1).jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "torre-dei-loschi",
@@ -2392,7 +2399,8 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Torri_dei_Loschi_Vicenza.jpg"
         }
-      ]
+      ],
+      "curiosita": true
     },
     {
       "id": "porta-san-bortolo",
@@ -2422,7 +2430,8 @@
       "immagine": {
         "autore": "Claudio Gioseffi",
         "licenza": "CC BY-SA 3.0"
-      }
+      },
+      "curiosita": true
     },
     {
       "id": "casa-cogollo",
