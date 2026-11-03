@@ -994,7 +994,8 @@
       },
       "luoghi": [
         "sant-eufemia",
-        "cimitero-monumentale"
+        "cimitero-monumentale",
+        "biblioteca-civica"
       ],
       "luoghiNote": {
         "sant-eufemia": {
@@ -1027,6 +1028,22 @@
             "fr": "Emilio Salgari est enterré dans le Cimetière monumental de Vérone, aux côtés d'autres personnalités qui ont contribué à l'histoire et à la culture de la ville.",
             "de": "Emilio Salgari ist auf dem Cimitero Monumentale von Verona begraben, zusammen mit anderen Persönlichkeiten, die zur Geschichte und Kultur der Stadt beigetragen haben.",
             "es": "Emilio Salgari está enterrado en el Cimitero Monumentale de Verona, junto a otras personalidades que contribuyeron a la historia y la cultura de la ciudad."
+          }
+        },
+        "biblioteca-civica": {
+          "tipo": {
+            "it": "Legame commemorativo – statua",
+            "en": "Commemorative link – statue",
+            "fr": "Lien commémoratif – statue",
+            "de": "Gedenkbezug – Statue",
+            "es": "Vínculo conmemorativo – estatua"
+          },
+          "testo": {
+            "it": "Davanti all'ingresso della Biblioteca Civica, in via Cappello, si trova una statua in bronzo dedicata allo scrittore, realizzata dallo scultore Sergio Pasetto.",
+            "en": "In front of the entrance to the Biblioteca Civica, in via Cappello, stands a bronze statue dedicated to the writer, made by the sculptor Sergio Pasetto.",
+            "fr": "Devant l'entrée de la Bibliothèque civique, via Cappello, se dresse une statue en bronze dédiée à l'écrivain, réalisée par le sculpteur Sergio Pasetto.",
+            "de": "Vor dem Eingang der Biblioteca Civica in der Via Cappello steht eine Bronzestatue, die dem Schriftsteller gewidmet ist und vom Bildhauer Sergio Pasetto geschaffen wurde.",
+            "es": "Frente a la entrada de la Biblioteca Civica, en la via Cappello, se alza una estatua de bronce dedicada al escritor, obra del escultor Sergio Pasetto."
           }
         }
       },
