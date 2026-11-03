@@ -484,7 +484,8 @@
         "palazzo-trissino-al-corso",
         "palazzo-valmarana-braga",
         "portale-giardino-valmarana-castello",
-        "chiesa-di-santa-maria-della-misericordia"
+        "chiesa-di-santa-maria-della-misericordia",
+        "tempio-di-san-lorenzo"
       ],
       "luoghiNote": {
         "teatro-olimpico": {
@@ -581,6 +582,22 @@
             "fr": "Édifice pour lequel Scamozzi réalisa le projet architectural.",
             "de": "Gebäude, für das Scamozzi den architektonischen Entwurf anfertigte.",
             "es": "Edificio para el que Scamozzi realizó el proyecto arquitectónico."
+          }
+        },
+        "tempio-di-san-lorenzo": {
+          "tipo": {
+            "it": "Legame commemorativo – cenotafio",
+            "en": "Commemorative link – cenotaph",
+            "fr": "Lien commémoratif – cénotaphe",
+            "de": "Gedenkbezug – Kenotaph",
+            "es": "Vínculo conmemorativo – cenotafio"
+          },
+          "testo": {
+            "it": "Nella chiesa è conservato un cenotafio dedicato a Scamozzi, che ne celebra la memoria in uno dei più importanti edifici religiosi della città. Il monumento è commemorativo e non contiene le sue spoglie.",
+            "en": "The church houses a cenotaph dedicated to Scamozzi, which honours his memory in one of the city's most important religious buildings. The monument is commemorative and does not contain his remains.",
+            "fr": "L'église abrite un cénotaphe dédié à Scamozzi, qui honore sa mémoire dans l'un des édifices religieux les plus importants de la ville. Le monument est commémoratif et ne contient pas ses restes.",
+            "de": "In der Kirche befindet sich ein Kenotaph für Scamozzi, das sein Andenken in einem der bedeutendsten Sakralbauten der Stadt ehrt. Das Denkmal ist ein Gedenkmal und enthält nicht seine Gebeine.",
+            "es": "En la iglesia se conserva un cenotafio dedicado a Scamozzi, que honra su memoria en uno de los edificios religiosos más importantes de la ciudad. El monumento es conmemorativo y no contiene sus restos."
           }
         }
       },
