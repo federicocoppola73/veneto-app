@@ -1235,7 +1235,10 @@
       },
       "wikipedia": {
         "it": "Chiesa di San Nicolò (Treviso)"
-      }
+      },
+      "personaggio": [
+        "tomaso-da-modena"
+      ]
     },
     {
       "id": "chiesa-di-san-francesco",
@@ -1309,6 +1312,9 @@
             "es": "La iglesia conserva la tumba de Pietro Alighieri, hijo de Dante, muerto en Treviso en 1364. Aquí está también la sepultura de Francesca, hija de Francesco Petrarca."
           }
         }
+      ],
+      "personaggio": [
+        "tomaso-da-modena"
       ]
     },
     {
@@ -1360,7 +1366,10 @@
       },
       "wikipedia": {
         "it": "Chiesa di Santa Lucia (Treviso)"
-      }
+      },
+      "personaggio": [
+        "tomaso-da-modena"
+      ]
     },
     {
       "id": "chiesa-di-san-vito",
@@ -1543,6 +1552,9 @@
             "es": "Antes de ser museo, el conjunto fue un convento de los Siervos de María, construido a partir de 1346. Tras usarse también como cuartel y almacén militar, los frescos medievales salieron a la luz durante las restauraciones del siglo XX."
           }
         }
+      ],
+      "personaggio": [
+        "tomaso-da-modena"
       ]
     },
     {
@@ -1783,7 +1795,10 @@
       "wikipedia": {
         "it": "Convento di San Nicolò"
       },
-      "curiosita": true
+      "curiosita": true,
+      "personaggio": [
+        "tomaso-da-modena"
+      ]
     },
     {
       "id": "porta-altinia",
@@ -2175,6 +2190,53 @@
       "biglietto": {
         "gratuito": true
       }
+    },
+    {
+      "id": "museo-diocesano-di-treviso",
+      "nome": "Museo Diocesano di Treviso",
+      "categoria": "musei",
+      "sestiere": "Centro storico",
+      "latitudine": 45.6669,
+      "longitudine": 12.243,
+      "descrizione": {
+        "it": "Ospitato nelle Canoniche Vecchie, antica sede dei canonici della cattedrale, raccoglie reperti dal IV al XX secolo: sarcofagi trecenteschi, una pinacoteca e affreschi medievali, tra cui il Cristo passo di Tomaso da Modena e il martirio di Tommaso Becket. Dal museo si accede anche alla cripta della cattedrale.",
+        "en": "Housed in the Canoniche Vecchie, the former seat of the cathedral canons, it holds finds from the 4th to the 20th century: 14th-century sarcophagi, a picture gallery and medieval frescoes, including Tomaso da Modena's Christ Passus and the martyrdom of Thomas Becket. The cathedral crypt can also be reached from the museum.",
+        "fr": "Installé dans les Canoniche Vecchie, ancien siège des chanoines de la cathédrale, il réunit des vestiges du IVe au XXe siècle : sarcophages du XIVe siècle, une pinacothèque et des fresques médiévales, dont le Christ passo de Tomaso da Modena et le martyre de Thomas Becket. Depuis le musée, on accède aussi à la crypte de la cathédrale.",
+        "de": "Das Museum ist in den Canoniche Vecchie untergebracht, dem früheren Sitz der Domherren, und zeigt Funde vom 4. bis zum 20. Jahrhundert: Sarkophage aus dem 14. Jahrhundert, eine Gemäldesammlung und mittelalterliche Fresken, darunter der Christus passo von Tomaso da Modena und das Martyrium des Thomas Becket. Vom Museum aus gelangt man auch in die Krypta des Doms.",
+        "es": "Alojado en las Canoniche Vecchie, antigua sede de los canónigos de la catedral, reúne hallazgos del siglo IV al XX: sarcófagos del siglo XIV, una pinacoteca y frescos medievales, entre ellos el Cristo passo de Tomaso da Modena y el martirio de Tomás Becket. Desde el museo también se accede a la cripta de la catedral."
+      },
+      "orari": [
+        {
+          "giorni": "mar",
+          "ore": "15:00–18:00"
+        },
+        {
+          "giorni": "gio",
+          "ore": "15:00–18:00"
+        },
+        {
+          "giorni": "ven",
+          "ore": "15:00–18:00"
+        },
+        {
+          "giorni": "sab",
+          "ore": "15:00–18:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "sito": "https://www.diocesitv.it/museodiocesano",
+      "personaggio": [
+        "tomaso-da-modena"
+      ]
     }
   ]
 }

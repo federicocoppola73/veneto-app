@@ -1,0 +1,193 @@
+{
+  "personaggi": [
+    {
+      "id": "tomaso-da-modena",
+      "nome": "Tomaso da Modena",
+      "nascita": 1325,
+      "morte": 1379,
+      "professione": {
+        "it": "Pittore e miniatore",
+        "en": "Painter and miniaturist",
+        "fr": "Peintre et miniaturiste",
+        "de": "Maler und Miniaturmaler",
+        "es": "Pintor y miniaturista"
+      },
+      "luogoNascita": {
+        "it": "Modena",
+        "en": "Modena",
+        "fr": "Modène",
+        "de": "Modena",
+        "es": "Módena"
+      },
+      "dataNascita": {
+        "it": "1325/1326",
+        "en": "1325/1326",
+        "fr": "1325/1326",
+        "de": "1325/1326",
+        "es": "1325/1326"
+      },
+      "dataMorte": {
+        "it": "1379",
+        "en": "1379",
+        "fr": "1379",
+        "de": "1379",
+        "es": "1379"
+      },
+      "ritratto": {
+        "autore": "Didier Descouens",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Tomaso Barisini, conosciuto come Tomaso da Modena, fu uno dei più importanti pittori italiani del Trecento. Dopo la formazione nell'ambiente artistico emiliano, sviluppò uno stile personale caratterizzato da un'attenta osservazione della realtà, dalla vivacità espressiva dei volti e dalla capacità di rappresentare con grande naturalezza le figure umane. Soggiornò a lungo a Treviso, dove realizzò alcune delle sue opere più importanti, lasciando un'impronta significativa nella pittura trecentesca della città.",
+        "en": "Tomaso Barisini, known as Tomaso da Modena, was one of the most important Italian painters of the 14th century. After training in the artistic milieu of Emilia, he developed a personal style marked by close observation of reality, lively expressions on faces and a remarkable naturalness in depicting human figures. He stayed for a long time in Treviso, where he painted some of his most important works, leaving a lasting mark on the city's 14th-century painting.",
+        "fr": "Tomaso Barisini, connu sous le nom de Tomaso da Modena, fut l'un des plus grands peintres italiens du XIVe siècle. Après sa formation dans le milieu artistique émilien, il développa un style personnel, marqué par une observation attentive du réel, la vivacité expressive des visages et une grande naturalité dans la représentation des figures humaines. Il séjourna longtemps à Trévise, où il réalisa certaines de ses œuvres les plus importantes, laissant une empreinte profonde dans la peinture trecentesque de la ville.",
+        "de": "Tomaso Barisini, bekannt als Tomaso da Modena, war einer der bedeutendsten italienischen Maler des 14. Jahrhunderts. Nach seiner Ausbildung im emilianischen Künstlermilieu entwickelte er einen eigenen Stil, der sich durch genaue Beobachtung der Wirklichkeit, lebendigen Gesichtsausdruck und große Natürlichkeit in der Darstellung menschlicher Figuren auszeichnet. Er hielt sich lange in Treviso auf, wo er einige seiner wichtigsten Werke schuf und der Malerei der Stadt im 14. Jahrhundert einen bleibenden Stempel aufdrückte.",
+        "es": "Tomaso Barisini, conocido como Tomaso da Modena, fue uno de los pintores italianos más importantes del siglo XIV. Tras su formación en el ambiente artístico de Emilia, desarrolló un estilo personal marcado por la observación atenta de la realidad, la viveza expresiva de los rostros y una gran naturalidad al representar las figuras humanas. Residió largo tiempo en Treviso, donde realizó algunas de sus obras más importantes, dejando una huella significativa en la pintura trecentista de la ciudad."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo vero nome era Tomaso Barisini: la denominazione «da Modena» deriva dalla sua città d'origine.",
+          "Tra il 1348 e il 1358 circa soggiornò a lungo a Treviso, dove realizzò importanti cicli di affreschi.",
+          "Nel 1352 dipinse nella Sala del Capitolo di San Nicolò il celebre ciclo dei quaranta domenicani illustri.",
+          "I suoi personaggi sono caratterizzati da volti molto realistici, espressioni individuali e dettagli che sembrano anticipare una sensibilità più moderna.",
+          "Lavorò anche in Boemia, al castello di Karlštejn, per l'imperatore Carlo IV."
+        ],
+        "en": [
+          "His real name was Tomaso Barisini: the name «da Modena» comes from his home city.",
+          "Between about 1348 and 1358 he stayed for a long time in Treviso, where he painted important fresco cycles.",
+          "In 1352 he painted the famous cycle of the forty illustrious Dominicans in the Chapter House of San Nicolò.",
+          "His figures have very realistic faces, individual expressions and details that seem to anticipate a more modern sensitivity.",
+          "He also worked in Bohemia, at Karlštejn castle, for Emperor Charles IV."
+        ],
+        "fr": [
+          "Son vrai nom était Tomaso Barisini : le surnom « da Modena » vient de sa ville d'origine.",
+          "Entre 1348 et 1358 environ, il séjourna longtemps à Trévise, où il réalisa d'importants cycles de fresques.",
+          "En 1352, il peignit dans la salle capitulaire de San Nicolò le célèbre cycle des quarante dominicains illustres.",
+          "Ses personnages ont des visages très réalistes, des expressions individuelles et des détails qui semblent annoncer une sensibilité plus moderne.",
+          "Il travailla aussi en Bohême, au château de Karlštejn, pour l'empereur Charles IV."
+        ],
+        "de": [
+          "Sein eigentlicher Name war Tomaso Barisini; der Zusatz «da Modena» verweist auf seine Heimatstadt.",
+          "Etwa zwischen 1348 und 1358 hielt er sich lange in Treviso auf, wo er bedeutende Freskenzyklen schuf.",
+          "1352 malte er im Kapitelsaal von San Nicolò den berühmten Zyklus der vierzig berühmten Dominikaner.",
+          "Seine Figuren haben sehr realistische Gesichter, individuelle Ausdrücke und Details, die eine modernere Empfindsamkeit vorwegzunehmen scheinen.",
+          "Er arbeitete auch in Böhmen, auf Burg Karlstein, für Kaiser Karl IV."
+        ],
+        "es": [
+          "Su verdadero nombre era Tomaso Barisini: el apodo «da Modena» procede de su ciudad natal.",
+          "Entre 1348 y 1358, aproximadamente, residió largo tiempo en Treviso, donde realizó importantes ciclos de frescos.",
+          "En 1352 pintó en la Sala Capitular de San Nicolò el célebre ciclo de los cuarenta dominicos ilustres.",
+          "Sus personajes tienen rostros muy realistas, expresiones individuales y detalles que parecen anticipar una sensibilidad más moderna.",
+          "También trabajó en Bohemia, en el castillo de Karlštejn, para el emperador Carlos IV."
+        ]
+      },
+      "luoghi": [
+        "chiesa-di-san-nicolo",
+        "sala-del-capitolo-dei-domenicani",
+        "chiesa-di-santa-lucia",
+        "chiesa-di-san-francesco",
+        "complesso-di-santa-caterina",
+        "museo-diocesano-di-treviso"
+      ],
+      "luoghiNote": {
+        "chiesa-di-san-nicolo": {
+          "tipo": {
+            "it": "Opere pittoriche",
+            "en": "Paintings",
+            "fr": "Œuvres peintes",
+            "de": "Malerische Werke",
+            "es": "Obras pictóricas"
+          },
+          "testo": {
+            "it": "Affreschi sui pilastri della navata: San Gerolamo, Sant'Agnese e San Romualdo, con la sua bottega.",
+            "en": "Frescoes on the nave pillars: Saint Jerome, Saint Agnes and Saint Romuald, with his workshop.",
+            "fr": "Fresques sur les piliers de la nef : saint Jérôme, sainte Agnès et saint Romuald, avec son atelier.",
+            "de": "Fresken an den Schiffspfeilern: Hieronymus, Agnes und Romuald, mit seiner Werkstatt.",
+            "es": "Frescos en los pilares de la nave: San Jerónimo, Santa Inés y San Romualdo, con su taller."
+          }
+        },
+        "sala-del-capitolo-dei-domenicani": {
+          "tipo": {
+            "it": "Opera fondamentale",
+            "en": "Fundamental work",
+            "fr": "Œuvre majeure",
+            "de": "Hauptwerk",
+            "es": "Obra fundamental"
+          },
+          "testo": {
+            "it": "Ciclo dei quaranta domenicani illustri, dipinto nel 1352: li ritrae mentre studiano e copiano testi sacri. Vi compare anche la prima figura nota con gli occhiali.",
+            "en": "Cycle of the forty illustrious Dominicans, painted in 1352: they are shown studying and copying sacred texts. It also includes the earliest known figure wearing spectacles.",
+            "fr": "Cycle des quarante dominicains illustres, peint en 1352 : ils sont représentés en train d'étudier et de copier des textes sacrés. On y trouve aussi la plus ancienne figure connue portant des lunettes.",
+            "de": "Zyklus der vierzig berühmten Dominikaner, 1352 gemalt: Sie sind beim Studium und Abschreiben heiliger Texte dargestellt. Darin erscheint auch die früheste bekannte Figur mit einer Brille.",
+            "es": "Ciclo de los cuarenta dominicos ilustres, pintado en 1352: aparecen estudiando y copiando textos sagrados. Incluye además la figura más antigua conocida con gafas."
+          }
+        },
+        "chiesa-di-santa-lucia": {
+          "tipo": {
+            "it": "Affresco staccato",
+            "en": "Detached fresco",
+            "fr": "Fresque détachée",
+            "de": "Abgelöstes Fresko",
+            "es": "Fresco desprendido"
+          },
+          "testo": {
+            "it": "Affresco della Madonna del Pavegio con gli Angeli, nella cappella del Crocifisso.",
+            "en": "Fresco of the Madonna del Pavegio with Angels, in the Crucifix chapel.",
+            "fr": "Fresque de la Vierge du Pavegio avec des anges, dans la chapelle du Crucifix.",
+            "de": "Fresko der Madonna del Pavegio mit Engeln, in der Kreuzkapelle.",
+            "es": "Fresco de la Virgen del Pavegio con ángeles, en la capilla del Crucifijo."
+          }
+        },
+        "chiesa-di-san-francesco": {
+          "tipo": {
+            "it": "Opera pittorica",
+            "en": "Painting",
+            "fr": "Œuvre peinte",
+            "de": "Malerisches Werk",
+            "es": "Obra pictórica"
+          },
+          "testo": {
+            "it": "Madonna con Bambino e santi nella Cappella Giacomelli.",
+            "en": "Madonna and Child with saints in the Giacomelli Chapel.",
+            "fr": "Vierge à l'Enfant avec des saints dans la chapelle Giacomelli.",
+            "de": "Madonna mit Kind und Heiligen in der Giacomelli-Kapelle.",
+            "es": "Virgen con el Niño y santos en la capilla Giacomelli."
+          }
+        },
+        "complesso-di-santa-caterina": {
+          "tipo": {
+            "it": "Opere conservate",
+            "en": "Works kept here",
+            "fr": "Œuvres conservées",
+            "de": "Hier aufbewahrte Werke",
+            "es": "Obras conservadas"
+          },
+          "testo": {
+            "it": "Conserva gli affreschi staccati con le Storie di Sant'Orsola, provenienti dalla chiesa di Santa Margherita.",
+            "en": "Holds the detached frescoes with the Stories of Saint Ursula, from the church of Santa Margherita.",
+            "fr": "Conserve les fresques détachées des Histoires de sainte Ursule, provenant de l'église Santa Margherita.",
+            "de": "Bewahrt die abgelösten Fresken mit den Geschichten der heiligen Ursula aus der Kirche Santa Margherita.",
+            "es": "Conserva los frescos desprendidos con las Historias de Santa Úrsula, procedentes de la iglesia de Santa Margarita."
+          }
+        },
+        "museo-diocesano-di-treviso": {
+          "tipo": {
+            "it": "Opere conservate",
+            "en": "Works kept here",
+            "fr": "Œuvres conservées",
+            "de": "Hier aufbewahrte Werke",
+            "es": "Obras conservadas"
+          },
+          "testo": {
+            "it": "Conserva il Cristo passo, affresco della metà del Trecento proveniente dal Palazzo Vescovile.",
+            "en": "Holds the Christ Passus, a mid-14th-century fresco from the Bishop's Palace.",
+            "fr": "Conserve le Christ passo, fresque du milieu du XIVe siècle provenant du palais épiscopal.",
+            "de": "Bewahrt den Christus passo, ein Fresko aus der Mitte des 14. Jahrhunderts aus dem Bischofspalast.",
+            "es": "Conserva el Cristo passo, fresco de mediados del siglo XIV procedente del Palacio Episcopal."
+          }
+        }
+      },
+      "collegati": []
+    }
+  ]
+}
