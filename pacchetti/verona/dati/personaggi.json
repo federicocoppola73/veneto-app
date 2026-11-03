@@ -339,7 +339,8 @@
         "palazzo-canossa",
         "palazzo-pompei",
         "san-bernardino",
-        "san-giorgio-in-braida"
+        "san-giorgio-in-braida",
+        "porta-san-zeno"
       ],
       "luoghiNote": {
         "porta-nuova": {
@@ -452,6 +453,22 @@
             "fr": "Sanmicheli participa à la conception de la coupole et du clocher, contribuant à l'aspect architectural de l'ensemble religieux.",
             "de": "Sanmicheli war an der Planung der Kuppel und des Glockenturms beteiligt und prägte so das architektonische Erscheinungsbild des Kirchenkomplexes.",
             "es": "Sanmicheli intervino en el proyecto de la cúpula y del campanario, contribuyendo al aspecto arquitectónico del complejo religioso."
+          }
+        },
+        "porta-san-zeno": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Progettata da Sanmicheli, presenta un carattere prevalentemente monumentale e architettonico, diverso da quello più strettamente militare di Porta Nuova.",
+            "en": "Designed by Sanmicheli, it has a mainly monumental and architectural character, different from the more strictly military character of Porta Nuova.",
+            "fr": "Conçue par Sanmicheli, elle présente un caractère essentiellement monumental et architectural, différent de celui, plus strictement militaire, de la Porta Nuova.",
+            "de": "Von Sanmicheli entworfen, hat sie einen überwiegend monumentalen und architektonischen Charakter, der sich vom eher militärischen Charakter der Porta Nuova unterscheidet.",
+            "es": "Diseñada por Sanmicheli, tiene un carácter predominantemente monumental y arquitectónico, distinto del carácter más estrictamente militar de la Porta Nuova."
           }
         }
       },
