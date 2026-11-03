@@ -1,0 +1,5655 @@
+{
+ "_nota": "Generato da strumenti/servizi_osm.py con i dati OpenStreetMap. Dati © OpenStreetMap contributors (ODbL). Fermate degli autobus: solo quelle delle linee urbane, con le linee che vi fermano.",
+ "servizi": [
+  {
+   "id": "farmacie-1",
+   "tipo": "farmacie",
+   "lat": 45.625855,
+   "lon": 12.236589,
+   "nome": "Farmacia Santrovaso"
+  },
+  {
+   "id": "farmacie-2",
+   "tipo": "farmacie",
+   "lat": 45.628622,
+   "lon": 12.335444,
+   "nome": "Farmacia S. Elena"
+  },
+  {
+   "id": "farmacie-3",
+   "tipo": "farmacie",
+   "lat": 45.64216,
+   "lon": 12.195577,
+   "nome": "Dispensario farmaceutico"
+  },
+  {
+   "id": "farmacie-4",
+   "tipo": "farmacie",
+   "lat": 45.642312,
+   "lon": 12.294203,
+   "nome": "Farmacia Dodi"
+  },
+  {
+   "id": "farmacie-5",
+   "tipo": "farmacie",
+   "lat": 45.6434,
+   "lon": 12.163558
+  },
+  {
+   "id": "farmacie-6",
+   "tipo": "farmacie",
+   "lat": 45.647711,
+   "lon": 12.174354,
+   "nome": "Farmacia Comacchio"
+  },
+  {
+   "id": "farmacie-7",
+   "tipo": "farmacie",
+   "lat": 45.651965,
+   "lon": 12.242094,
+   "nome": "Farmacia Trevigiana"
+  },
+  {
+   "id": "farmacie-8",
+   "tipo": "farmacie",
+   "lat": 45.65374,
+   "lon": 12.291841,
+   "nome": "Farmacia Internazionale"
+  },
+  {
+   "id": "farmacie-9",
+   "tipo": "farmacie",
+   "lat": 45.653861,
+   "lon": 12.256011,
+   "nome": "Comunale N.5 Sant'Antonino"
+  },
+  {
+   "id": "farmacie-10",
+   "tipo": "farmacie",
+   "lat": 45.654621,
+   "lon": 12.254779,
+   "nome": "Farmacia Trevigiana"
+  },
+  {
+   "id": "farmacie-11",
+   "tipo": "farmacie",
+   "lat": 45.656681,
+   "lon": 12.245137,
+   "nome": "Farmacia Dalla Zorza"
+  },
+  {
+   "id": "farmacie-12",
+   "tipo": "farmacie",
+   "lat": 45.656706,
+   "lon": 12.224173,
+   "nome": "Farmacia Sant'Angelo"
+  },
+  {
+   "id": "farmacie-13",
+   "tipo": "farmacie",
+   "lat": 45.659201,
+   "lon": 12.217064,
+   "nome": "Farmacia San Giuseppe"
+  },
+  {
+   "id": "farmacie-14",
+   "tipo": "farmacie",
+   "lat": 45.662605,
+   "lon": 12.245038,
+   "nome": "Farmacia di Turno"
+  },
+  {
+   "id": "farmacie-15",
+   "tipo": "farmacie",
+   "lat": 45.663432,
+   "lon": 12.264002,
+   "nome": "Farmacia alla Fiera"
+  },
+  {
+   "id": "farmacie-16",
+   "tipo": "farmacie",
+   "lat": 45.66435,
+   "lon": 12.245495,
+   "nome": "Farmacia Millioni",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-17",
+   "tipo": "farmacie",
+   "lat": 45.665065,
+   "lon": 12.249243,
+   "nome": "Farmacia Patelli",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-18",
+   "tipo": "farmacie",
+   "lat": 45.665571,
+   "lon": 12.247386
+  },
+  {
+   "id": "farmacie-19",
+   "tipo": "farmacie",
+   "lat": 45.66574,
+   "lon": 12.252607,
+   "nome": "Santa Maria Maggiore SAS"
+  },
+  {
+   "id": "farmacie-20",
+   "tipo": "farmacie",
+   "lat": 45.66596,
+   "lon": 12.246541,
+   "nome": "Farmacia Graziati"
+  },
+  {
+   "id": "farmacie-21",
+   "tipo": "farmacie",
+   "lat": 45.666307,
+   "lon": 12.244297,
+   "nome": "Farmacia Calmaggiore",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-22",
+   "tipo": "farmacie",
+   "lat": 45.666394,
+   "lon": 12.226402,
+   "nome": "Farmacia Stiore"
+  },
+  {
+   "id": "farmacie-23",
+   "tipo": "farmacie",
+   "lat": 45.666976,
+   "lon": 12.242854,
+   "nome": "Fanoli"
+  },
+  {
+   "id": "farmacie-24",
+   "tipo": "farmacie",
+   "lat": 45.667026,
+   "lon": 12.235922,
+   "nome": "Farmacia Comunale N.8"
+  },
+  {
+   "id": "farmacie-25",
+   "tipo": "farmacie",
+   "lat": 45.667456,
+   "lon": 12.249935,
+   "nome": "Farmacia Sant'Agostino"
+  },
+  {
+   "id": "farmacie-26",
+   "tipo": "farmacie",
+   "lat": 45.669167,
+   "lon": 12.247775
+  },
+  {
+   "id": "farmacie-27",
+   "tipo": "farmacie",
+   "lat": 45.669199,
+   "lon": 12.261917,
+   "nome": "Farmacia Selvana"
+  },
+  {
+   "id": "farmacie-28",
+   "tipo": "farmacie",
+   "lat": 45.671804,
+   "lon": 12.328347,
+   "nome": "Farmacia Claudia Augusta"
+  },
+  {
+   "id": "farmacie-29",
+   "tipo": "farmacie",
+   "lat": 45.673276,
+   "lon": 12.256111,
+   "nome": "Comunale N.7 G. Marconi"
+  },
+  {
+   "id": "farmacie-30",
+   "tipo": "farmacie",
+   "lat": 45.677637,
+   "lon": 12.15595
+  },
+  {
+   "id": "farmacie-31",
+   "tipo": "farmacie",
+   "lat": 45.678235,
+   "lon": 12.218418,
+   "nome": "Farmacia Trevigiana"
+  },
+  {
+   "id": "farmacie-32",
+   "tipo": "farmacie",
+   "lat": 45.681513,
+   "lon": 12.252349
+  },
+  {
+   "id": "farmacie-33",
+   "tipo": "farmacie",
+   "lat": 45.682395,
+   "lon": 12.222372,
+   "nome": "Farmacia Santa Bona"
+  },
+  {
+   "id": "farmacie-34",
+   "tipo": "farmacie",
+   "lat": 45.68781,
+   "lon": 12.286883,
+   "nome": "Farmacia Dr.ssa Iellousheg Elisabetta"
+  },
+  {
+   "id": "farmacie-35",
+   "tipo": "farmacie",
+   "lat": 45.688619,
+   "lon": 12.183293
+  },
+  {
+   "id": "farmacie-36",
+   "tipo": "farmacie",
+   "lat": 45.692843,
+   "lon": 12.232487,
+   "nome": "Farmacia Callegari s.n.c.",
+   "disabili": true
+  },
+  {
+   "id": "farmacie-37",
+   "tipo": "farmacie",
+   "lat": 45.705853,
+   "lon": 12.246709
+  },
+  {
+   "id": "farmacie-38",
+   "tipo": "farmacie",
+   "lat": 45.71025,
+   "lon": 12.22227,
+   "nome": "Farmacia Trevigiana Comunale"
+  },
+  {
+   "id": "farmacie-39",
+   "tipo": "farmacie",
+   "lat": 45.712225,
+   "lon": 12.272935,
+   "nome": "Farmacia di Lancenigo Dr. Tonolo"
+  },
+  {
+   "id": "farmacie-40",
+   "tipo": "farmacie",
+   "lat": 45.713377,
+   "lon": 12.25853,
+   "nome": "Farmacia A Carità"
+  },
+  {
+   "id": "parcheggi-1",
+   "tipo": "parcheggi",
+   "lat": 45.63577,
+   "lon": 12.259968,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-2",
+   "tipo": "parcheggi",
+   "lat": 45.643813,
+   "lon": 12.16413,
+   "nome": "Piazzale Indipendenza"
+  },
+  {
+   "id": "parcheggi-3",
+   "tipo": "parcheggi",
+   "lat": 45.644592,
+   "lon": 12.284935,
+   "nome": "Varilù di Pavan Valter Sas"
+  },
+  {
+   "id": "parcheggi-4",
+   "tipo": "parcheggi",
+   "lat": 45.644882,
+   "lon": 12.247017,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-5",
+   "tipo": "parcheggi",
+   "lat": 45.647022,
+   "lon": 12.236368,
+   "nome": "Park Ghirada"
+  },
+  {
+   "id": "parcheggi-6",
+   "tipo": "parcheggi",
+   "lat": 45.648591,
+   "lon": 12.180882,
+   "nome": "Park gold aeroporto Treviso"
+  },
+  {
+   "id": "parcheggi-7",
+   "tipo": "parcheggi",
+   "lat": 45.648811,
+   "lon": 12.234459
+  },
+  {
+   "id": "parcheggi-8",
+   "tipo": "parcheggi",
+   "lat": 45.653128,
+   "lon": 12.198503,
+   "nome": "Park C",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-9",
+   "tipo": "parcheggi",
+   "lat": 45.654358,
+   "lon": 12.200783,
+   "nome": "Park D",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-10",
+   "tipo": "parcheggi",
+   "lat": 45.654941,
+   "lon": 12.205715,
+   "nome": "Park B",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-11",
+   "tipo": "parcheggi",
+   "lat": 45.655138,
+   "lon": 12.204446,
+   "nome": "Park A",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-12",
+   "tipo": "parcheggi",
+   "lat": 45.655709,
+   "lon": 12.202974,
+   "nome": "Park G",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-13",
+   "tipo": "parcheggi",
+   "lat": 45.655753,
+   "lon": 12.204146,
+   "nome": "Park F",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-14",
+   "tipo": "parcheggi",
+   "lat": 45.65714,
+   "lon": 12.202075,
+   "nome": "Park Low cost",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-15",
+   "tipo": "parcheggi",
+   "lat": 45.657144,
+   "lon": 12.262897,
+   "nome": "Parcheggio Cittadella Sanitaria | APCOA Parking",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-16",
+   "tipo": "parcheggi",
+   "lat": 45.657416,
+   "lon": 12.260648,
+   "nome": "Parcheggio P1"
+  },
+  {
+   "id": "parcheggi-17",
+   "tipo": "parcheggi",
+   "lat": 45.657493,
+   "lon": 12.203637,
+   "nome": "Park E",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-18",
+   "tipo": "parcheggi",
+   "lat": 45.657613,
+   "lon": 12.261707,
+   "nome": "Parcheggio P2"
+  },
+  {
+   "id": "parcheggi-19",
+   "tipo": "parcheggi",
+   "lat": 45.660006,
+   "lon": 12.266821,
+   "nome": "Piazzale Prato Fiera"
+  },
+  {
+   "id": "parcheggi-20",
+   "tipo": "parcheggi",
+   "lat": 45.660343,
+   "lon": 12.259763,
+   "nome": "Park Ospedale"
+  },
+  {
+   "id": "parcheggi-21",
+   "tipo": "parcheggi",
+   "lat": 45.661405,
+   "lon": 12.257839,
+   "nome": "Park Ospedale"
+  },
+  {
+   "id": "parcheggi-22",
+   "tipo": "parcheggi",
+   "lat": 45.661738,
+   "lon": 12.246853,
+   "nome": "Parking Altinia",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-23",
+   "tipo": "parcheggi",
+   "lat": 45.661799,
+   "lon": 12.252343,
+   "nome": "Parcheggio Dal Negro | APCOA Parking"
+  },
+  {
+   "id": "parcheggi-24",
+   "tipo": "parcheggi",
+   "lat": 45.662445,
+   "lon": 12.230472,
+   "nome": "Park Miani",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-25",
+   "tipo": "parcheggi",
+   "lat": 45.66272,
+   "lon": 12.32577
+  },
+  {
+   "id": "parcheggi-26",
+   "tipo": "parcheggi",
+   "lat": 45.663382,
+   "lon": 12.327964
+  },
+  {
+   "id": "parcheggi-27",
+   "tipo": "parcheggi",
+   "lat": 45.663422,
+   "lon": 12.242563,
+   "nome": "Piazza della Vittoria",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-28",
+   "tipo": "parcheggi",
+   "lat": 45.66373,
+   "lon": 12.251761,
+   "nome": "Park Piazza Garibaldi"
+  },
+  {
+   "id": "parcheggi-29",
+   "tipo": "parcheggi",
+   "lat": 45.665007,
+   "lon": 12.247622,
+   "nome": "Piazza Filodrammatici",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-30",
+   "tipo": "parcheggi",
+   "lat": 45.665275,
+   "lon": 12.227918
+  },
+  {
+   "id": "parcheggi-31",
+   "tipo": "parcheggi",
+   "lat": 45.665368,
+   "lon": 12.252449,
+   "nome": "Piazza Santa Maria Maggiore",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-32",
+   "tipo": "parcheggi",
+   "lat": 45.666145,
+   "lon": 12.238613,
+   "nome": "Cantarane"
+  },
+  {
+   "id": "parcheggi-33",
+   "tipo": "parcheggi",
+   "lat": 45.666187,
+   "lon": 12.242397,
+   "nome": "Piazza Duomo",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-34",
+   "tipo": "parcheggi",
+   "lat": 45.667507,
+   "lon": 12.251368,
+   "nome": "Piazza Giacomo Matteotti",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-35",
+   "tipo": "parcheggi",
+   "lat": 45.667947,
+   "lon": 12.247836,
+   "nome": "Piazza San Francesco",
+   "disabili": true,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-36",
+   "tipo": "parcheggi",
+   "lat": 45.669161,
+   "lon": 12.243638,
+   "nome": "Park Dentro le Mura"
+  },
+  {
+   "id": "parcheggi-37",
+   "tipo": "parcheggi",
+   "lat": 45.66933,
+   "lon": 12.247665,
+   "nome": "Dentro le Mura",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-38",
+   "tipo": "parcheggi",
+   "lat": 45.669447,
+   "lon": 12.249764,
+   "nome": "Piazzale Burchiellati",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-39",
+   "tipo": "parcheggi",
+   "lat": 45.669624,
+   "lon": 12.243523,
+   "nome": "Ex-Pattinodromo"
+  },
+  {
+   "id": "parcheggi-40",
+   "tipo": "parcheggi",
+   "lat": 45.669716,
+   "lon": 12.228504,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-41",
+   "tipo": "parcheggi",
+   "lat": 45.674695,
+   "lon": 12.160347,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-42",
+   "tipo": "parcheggi",
+   "lat": 45.679734,
+   "lon": 12.158748,
+   "nome": "Piazza Caduti di Nassyria"
+  },
+  {
+   "id": "parcheggi-43",
+   "tipo": "parcheggi",
+   "lat": 45.681028,
+   "lon": 12.30769,
+   "nome": "Piazza Giovanni Battista Cavarzerani"
+  },
+  {
+   "id": "parcheggi-44",
+   "tipo": "parcheggi",
+   "lat": 45.681781,
+   "lon": 12.213139,
+   "nome": "Park Stadio Monigo"
+  },
+  {
+   "id": "parcheggi-45",
+   "tipo": "parcheggi",
+   "lat": 45.688354,
+   "lon": 12.220463,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-46",
+   "tipo": "parcheggi",
+   "lat": 45.692051,
+   "lon": 12.264161,
+   "nome": "Parcheggio Provincia di Treviso"
+  },
+  {
+   "id": "parcheggi-47",
+   "tipo": "parcheggi",
+   "lat": 45.693446,
+   "lon": 12.230666,
+   "nome": "Piazzale Costituzione"
+  },
+  {
+   "id": "parcheggi-48",
+   "tipo": "parcheggi",
+   "lat": 45.695864,
+   "lon": 12.252024,
+   "nome": "Centro Fontane"
+  },
+  {
+   "id": "parcheggi-49",
+   "tipo": "parcheggi",
+   "lat": 45.706252,
+   "lon": 12.335607,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-50",
+   "tipo": "parcheggi",
+   "lat": 45.707903,
+   "lon": 12.169049,
+   "nome": "Park Gargantua's"
+  },
+  {
+   "id": "parcheggi-51",
+   "tipo": "parcheggi",
+   "lat": 45.708963,
+   "lon": 12.306224
+  },
+  {
+   "id": "parcheggi-52",
+   "tipo": "parcheggi",
+   "lat": 45.711787,
+   "lon": 12.257679,
+   "nome": "Park Piazza Aldo Moro"
+  },
+  {
+   "id": "parcheggi-53",
+   "tipo": "parcheggi",
+   "lat": 45.712789,
+   "lon": 12.273044,
+   "nome": "Via Piave - Pizzeria"
+  },
+  {
+   "id": "parcheggi-54",
+   "tipo": "parcheggi",
+   "lat": 45.713006,
+   "lon": 12.260001,
+   "nome": "Piazza Umberto I"
+  },
+  {
+   "id": "ospedali-1",
+   "tipo": "ospedali",
+   "lat": 45.658355,
+   "lon": 12.260716,
+   "nome": "Ospedale Regionale \"Ca'Foncello\"",
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-2",
+   "tipo": "ospedali",
+   "lat": 45.659185,
+   "lon": 12.260905,
+   "nome": "Ospedale Ca' Foncello Treviso",
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-3",
+   "tipo": "ospedali",
+   "lat": 45.659614,
+   "lon": 12.261092,
+   "nome": "Pronto Soccorso Ospedale \"Ca' Foncello\"",
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-4",
+   "tipo": "ospedali",
+   "lat": 45.661392,
+   "lon": 12.253401
+  },
+  {
+   "id": "ospedali-5",
+   "tipo": "ospedali",
+   "lat": 45.669872,
+   "lon": 12.222747,
+   "nome": "Madonnina"
+  },
+  {
+   "id": "ospedali-6",
+   "tipo": "ospedali",
+   "lat": 45.674807,
+   "lon": 12.251329,
+   "nome": "Ospedale generale di zona San Camillo",
+   "disabili": true
+  },
+  {
+   "id": "ospedali-7",
+   "tipo": "ospedali",
+   "lat": 45.698572,
+   "lon": 12.256032,
+   "nome": "Centro di Medicina",
+   "telefono": "+39 042 26 98 111"
+  },
+  {
+   "id": "acqua-1",
+   "tipo": "acqua",
+   "lat": 45.623931,
+   "lon": 12.321142
+  },
+  {
+   "id": "acqua-2",
+   "tipo": "acqua",
+   "lat": 45.624374,
+   "lon": 12.188805
+  },
+  {
+   "id": "acqua-3",
+   "tipo": "acqua",
+   "lat": 45.638392,
+   "lon": 12.319547
+  },
+  {
+   "id": "acqua-4",
+   "tipo": "acqua",
+   "lat": 45.640338,
+   "lon": 12.18858
+  },
+  {
+   "id": "acqua-5",
+   "tipo": "acqua",
+   "lat": 45.641139,
+   "lon": 12.184528
+  },
+  {
+   "id": "acqua-6",
+   "tipo": "acqua",
+   "lat": 45.642056,
+   "lon": 12.296306
+  },
+  {
+   "id": "acqua-7",
+   "tipo": "acqua",
+   "lat": 45.642184,
+   "lon": 12.29468
+  },
+  {
+   "id": "acqua-8",
+   "tipo": "acqua",
+   "lat": 45.642194,
+   "lon": 12.294722
+  },
+  {
+   "id": "acqua-9",
+   "tipo": "acqua",
+   "lat": 45.642326,
+   "lon": 12.235613
+  },
+  {
+   "id": "acqua-10",
+   "tipo": "acqua",
+   "lat": 45.643766,
+   "lon": 12.164531
+  },
+  {
+   "id": "acqua-11",
+   "tipo": "acqua",
+   "lat": 45.645,
+   "lon": 12.330806
+  },
+  {
+   "id": "acqua-12",
+   "tipo": "acqua",
+   "lat": 45.645083,
+   "lon": 12.167306
+  },
+  {
+   "id": "acqua-13",
+   "tipo": "acqua",
+   "lat": 45.645456,
+   "lon": 12.165995
+  },
+  {
+   "id": "acqua-14",
+   "tipo": "acqua",
+   "lat": 45.646717,
+   "lon": 12.164859
+  },
+  {
+   "id": "acqua-15",
+   "tipo": "acqua",
+   "lat": 45.647851,
+   "lon": 12.165043
+  },
+  {
+   "id": "acqua-16",
+   "tipo": "acqua",
+   "lat": 45.651944,
+   "lon": 12.219833
+  },
+  {
+   "id": "acqua-17",
+   "tipo": "acqua",
+   "lat": 45.653763,
+   "lon": 12.21728
+  },
+  {
+   "id": "acqua-18",
+   "tipo": "acqua",
+   "lat": 45.655018,
+   "lon": 12.160012
+  },
+  {
+   "id": "acqua-19",
+   "tipo": "acqua",
+   "lat": 45.655565,
+   "lon": 12.244064
+  },
+  {
+   "id": "acqua-20",
+   "tipo": "acqua",
+   "lat": 45.657395,
+   "lon": 12.278117
+  },
+  {
+   "id": "acqua-21",
+   "tipo": "acqua",
+   "lat": 45.657795,
+   "lon": 12.246024
+  },
+  {
+   "id": "acqua-22",
+   "tipo": "acqua",
+   "lat": 45.658482,
+   "lon": 12.268249
+  },
+  {
+   "id": "acqua-23",
+   "tipo": "acqua",
+   "lat": 45.658822,
+   "lon": 12.176915
+  },
+  {
+   "id": "acqua-24",
+   "tipo": "acqua",
+   "lat": 45.659703,
+   "lon": 12.280189
+  },
+  {
+   "id": "acqua-25",
+   "tipo": "acqua",
+   "lat": 45.660041,
+   "lon": 12.217687
+  },
+  {
+   "id": "acqua-26",
+   "tipo": "acqua",
+   "lat": 45.660528,
+   "lon": 12.218821
+  },
+  {
+   "id": "acqua-27",
+   "tipo": "acqua",
+   "lat": 45.661005,
+   "lon": 12.292415
+  },
+  {
+   "id": "acqua-28",
+   "tipo": "acqua",
+   "lat": 45.661119,
+   "lon": 12.238385
+  },
+  {
+   "id": "acqua-29",
+   "tipo": "acqua",
+   "lat": 45.661635,
+   "lon": 12.269251
+  },
+  {
+   "id": "acqua-30",
+   "tipo": "acqua",
+   "lat": 45.662274,
+   "lon": 12.207634,
+   "disabili": true
+  },
+  {
+   "id": "acqua-31",
+   "tipo": "acqua",
+   "lat": 45.66296,
+   "lon": 12.243082
+  },
+  {
+   "id": "acqua-32",
+   "tipo": "acqua",
+   "lat": 45.663429,
+   "lon": 12.1626
+  },
+  {
+   "id": "acqua-33",
+   "tipo": "acqua",
+   "lat": 45.663556,
+   "lon": 12.240619
+  },
+  {
+   "id": "acqua-34",
+   "tipo": "acqua",
+   "lat": 45.66357,
+   "lon": 12.259546
+  },
+  {
+   "id": "acqua-35",
+   "tipo": "acqua",
+   "lat": 45.663726,
+   "lon": 12.243093
+  },
+  {
+   "id": "acqua-36",
+   "tipo": "acqua",
+   "lat": 45.663836,
+   "lon": 12.152337
+  },
+  {
+   "id": "acqua-37",
+   "tipo": "acqua",
+   "lat": 45.663943,
+   "lon": 12.251408
+  },
+  {
+   "id": "acqua-38",
+   "tipo": "acqua",
+   "lat": 45.664188,
+   "lon": 12.256178
+  },
+  {
+   "id": "acqua-39",
+   "tipo": "acqua",
+   "lat": 45.664993,
+   "lon": 12.243531
+  },
+  {
+   "id": "acqua-40",
+   "tipo": "acqua",
+   "lat": 45.665311,
+   "lon": 12.249036
+  },
+  {
+   "id": "acqua-41",
+   "tipo": "acqua",
+   "lat": 45.665422,
+   "lon": 12.226358
+  },
+  {
+   "id": "acqua-42",
+   "tipo": "acqua",
+   "lat": 45.665647,
+   "lon": 12.243895
+  },
+  {
+   "id": "acqua-43",
+   "tipo": "acqua",
+   "lat": 45.665749,
+   "lon": 12.258526,
+   "disabili": true
+  },
+  {
+   "id": "acqua-44",
+   "tipo": "acqua",
+   "lat": 45.666249,
+   "lon": 12.244936
+  },
+  {
+   "id": "acqua-45",
+   "tipo": "acqua",
+   "lat": 45.666342,
+   "lon": 12.241924
+  },
+  {
+   "id": "acqua-46",
+   "tipo": "acqua",
+   "lat": 45.666564,
+   "lon": 12.245705
+  },
+  {
+   "id": "acqua-47",
+   "tipo": "acqua",
+   "lat": 45.666605,
+   "lon": 12.249056
+  },
+  {
+   "id": "acqua-48",
+   "tipo": "acqua",
+   "lat": 45.666768,
+   "lon": 12.254959
+  },
+  {
+   "id": "acqua-49",
+   "tipo": "acqua",
+   "lat": 45.666829,
+   "lon": 12.234238
+  },
+  {
+   "id": "acqua-50",
+   "tipo": "acqua",
+   "lat": 45.666855,
+   "lon": 12.244627
+  },
+  {
+   "id": "acqua-51",
+   "tipo": "acqua",
+   "lat": 45.667198,
+   "lon": 12.236283
+  },
+  {
+   "id": "acqua-52",
+   "tipo": "acqua",
+   "lat": 45.667413,
+   "lon": 12.24494
+  },
+  {
+   "id": "acqua-53",
+   "tipo": "acqua",
+   "lat": 45.667577,
+   "lon": 12.249056
+  },
+  {
+   "id": "acqua-54",
+   "tipo": "acqua",
+   "lat": 45.667678,
+   "lon": 12.243695
+  },
+  {
+   "id": "acqua-55",
+   "tipo": "acqua",
+   "lat": 45.667768,
+   "lon": 12.246436
+  },
+  {
+   "id": "acqua-56",
+   "tipo": "acqua",
+   "lat": 45.667828,
+   "lon": 12.249241
+  },
+  {
+   "id": "acqua-57",
+   "tipo": "acqua",
+   "lat": 45.668559,
+   "lon": 12.244931
+  },
+  {
+   "id": "acqua-58",
+   "tipo": "acqua",
+   "lat": 45.668577,
+   "lon": 12.234951
+  },
+  {
+   "id": "acqua-59",
+   "tipo": "acqua",
+   "lat": 45.668994,
+   "lon": 12.246072
+  },
+  {
+   "id": "acqua-60",
+   "tipo": "acqua",
+   "lat": 45.669156,
+   "lon": 12.248964
+  },
+  {
+   "id": "acqua-61",
+   "tipo": "acqua",
+   "lat": 45.669468,
+   "lon": 12.248972
+  },
+  {
+   "id": "acqua-62",
+   "tipo": "acqua",
+   "lat": 45.669505,
+   "lon": 12.248195
+  },
+  {
+   "id": "acqua-63",
+   "tipo": "acqua",
+   "lat": 45.66959,
+   "lon": 12.248936
+  },
+  {
+   "id": "acqua-64",
+   "tipo": "acqua",
+   "lat": 45.671328,
+   "lon": 12.240858
+  },
+  {
+   "id": "acqua-65",
+   "tipo": "acqua",
+   "lat": 45.672577,
+   "lon": 12.267113
+  },
+  {
+   "id": "acqua-66",
+   "tipo": "acqua",
+   "lat": 45.672681,
+   "lon": 12.153101,
+   "disabili": true
+  },
+  {
+   "id": "acqua-67",
+   "tipo": "acqua",
+   "lat": 45.672936,
+   "lon": 12.318321
+  },
+  {
+   "id": "acqua-68",
+   "tipo": "acqua",
+   "lat": 45.673152,
+   "lon": 12.25794
+  },
+  {
+   "id": "acqua-69",
+   "tipo": "acqua",
+   "lat": 45.673678,
+   "lon": 12.246598
+  },
+  {
+   "id": "acqua-70",
+   "tipo": "acqua",
+   "lat": 45.674667,
+   "lon": 12.21974
+  },
+  {
+   "id": "acqua-71",
+   "tipo": "acqua",
+   "lat": 45.675784,
+   "lon": 12.208612
+  },
+  {
+   "id": "acqua-72",
+   "tipo": "acqua",
+   "lat": 45.675974,
+   "lon": 12.210937
+  },
+  {
+   "id": "acqua-73",
+   "tipo": "acqua",
+   "lat": 45.676315,
+   "lon": 12.254807,
+   "disabili": true
+  },
+  {
+   "id": "acqua-74",
+   "tipo": "acqua",
+   "lat": 45.676836,
+   "lon": 12.21015
+  },
+  {
+   "id": "acqua-75",
+   "tipo": "acqua",
+   "lat": 45.6771,
+   "lon": 12.251123
+  },
+  {
+   "id": "acqua-76",
+   "tipo": "acqua",
+   "lat": 45.677208,
+   "lon": 12.284834
+  },
+  {
+   "id": "acqua-77",
+   "tipo": "acqua",
+   "lat": 45.678168,
+   "lon": 12.229952
+  },
+  {
+   "id": "acqua-78",
+   "tipo": "acqua",
+   "lat": 45.678682,
+   "lon": 12.232342
+  },
+  {
+   "id": "acqua-79",
+   "tipo": "acqua",
+   "lat": 45.682147,
+   "lon": 12.222972
+  },
+  {
+   "id": "acqua-80",
+   "tipo": "acqua",
+   "lat": 45.682817,
+   "lon": 12.240825
+  },
+  {
+   "id": "acqua-81",
+   "tipo": "acqua",
+   "lat": 45.683403,
+   "lon": 12.253148
+  },
+  {
+   "id": "acqua-82",
+   "tipo": "acqua",
+   "lat": 45.685982,
+   "lon": 12.205876
+  },
+  {
+   "id": "acqua-83",
+   "tipo": "acqua",
+   "lat": 45.686179,
+   "lon": 12.218783
+  },
+  {
+   "id": "acqua-84",
+   "tipo": "acqua",
+   "lat": 45.68663,
+   "lon": 12.216234,
+   "disabili": true
+  },
+  {
+   "id": "acqua-85",
+   "tipo": "acqua",
+   "lat": 45.68696,
+   "lon": 12.218303
+  },
+  {
+   "id": "acqua-86",
+   "tipo": "acqua",
+   "lat": 45.689457,
+   "lon": 12.182304
+  },
+  {
+   "id": "acqua-87",
+   "tipo": "acqua",
+   "lat": 45.691092,
+   "lon": 12.267005
+  },
+  {
+   "id": "acqua-88",
+   "tipo": "acqua",
+   "lat": 45.695639,
+   "lon": 12.227267
+  },
+  {
+   "id": "acqua-89",
+   "tipo": "acqua",
+   "lat": 45.696284,
+   "lon": 12.230086
+  },
+  {
+   "id": "acqua-90",
+   "tipo": "acqua",
+   "lat": 45.706491,
+   "lon": 12.247838
+  },
+  {
+   "id": "acqua-91",
+   "tipo": "acqua",
+   "lat": 45.706874,
+   "lon": 12.310941
+  },
+  {
+   "id": "acqua-92",
+   "tipo": "acqua",
+   "lat": 45.707917,
+   "lon": 12.244922
+  },
+  {
+   "id": "acqua-93",
+   "tipo": "acqua",
+   "lat": 45.708504,
+   "lon": 12.313581
+  },
+  {
+   "id": "acqua-94",
+   "tipo": "acqua",
+   "lat": 45.711909,
+   "lon": 12.257853
+  },
+  {
+   "id": "acqua-95",
+   "tipo": "acqua",
+   "lat": 45.716734,
+   "lon": 12.203549
+  },
+  {
+   "id": "polizia-1",
+   "tipo": "polizia",
+   "lat": 45.646116,
+   "lon": 12.16614
+  },
+  {
+   "id": "polizia-2",
+   "tipo": "polizia",
+   "lat": 45.65337,
+   "lon": 12.298872,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-3",
+   "tipo": "polizia",
+   "lat": 45.661448,
+   "lon": 12.233177,
+   "nome": "Carabinieri - Comando Gruppo Forestale Treviso"
+  },
+  {
+   "id": "polizia-4",
+   "tipo": "polizia",
+   "lat": 45.666017,
+   "lon": 12.245766,
+   "nome": "Prefettura"
+  },
+  {
+   "id": "polizia-5",
+   "tipo": "polizia",
+   "lat": 45.667499,
+   "lon": 12.244366,
+   "nome": "Carabinieri - Comando Provinciale Treviso"
+  },
+  {
+   "id": "polizia-6",
+   "tipo": "polizia",
+   "lat": 45.668591,
+   "lon": 12.229078,
+   "nome": "Questura"
+  },
+  {
+   "id": "polizia-7",
+   "tipo": "polizia",
+   "lat": 45.671961,
+   "lon": 12.257989,
+   "nome": "Centrale Polizia Locale"
+  },
+  {
+   "id": "polizia-8",
+   "tipo": "polizia",
+   "lat": 45.671974,
+   "lon": 12.257815,
+   "nome": "Comando Polizia Locale",
+   "disabili": true,
+   "telefono": "+39 0422 301140"
+  },
+  {
+   "id": "polizia-9",
+   "tipo": "polizia",
+   "lat": 45.67852,
+   "lon": 12.16129,
+   "nome": "Polizia Locale Paese"
+  },
+  {
+   "id": "polizia-10",
+   "tipo": "polizia",
+   "lat": 45.678663,
+   "lon": 12.250644
+  },
+  {
+   "id": "polizia-11",
+   "tipo": "polizia",
+   "lat": 45.679066,
+   "lon": 12.161658,
+   "nome": "Stazione Carabinieri Paese"
+  },
+  {
+   "id": "polizia-12",
+   "tipo": "polizia",
+   "lat": 45.688862,
+   "lon": 12.256553,
+   "nome": "Carabinieri - Comando per la Tutela Ambientale e Sicurezza Energetica Treviso"
+  },
+  {
+   "id": "polizia-13",
+   "tipo": "polizia",
+   "lat": 45.691142,
+   "lon": 12.266404,
+   "nome": "Nucleo Anti Sofisticazioni Carabinieri"
+  },
+  {
+   "id": "polizia-14",
+   "tipo": "polizia",
+   "lat": 45.710184,
+   "lon": 12.265634,
+   "nome": "Polizia locale"
+  },
+  {
+   "id": "polizia-15",
+   "tipo": "polizia",
+   "lat": 45.710952,
+   "lon": 12.255727,
+   "nome": "Stazione locale Carabinieri"
+  },
+  {
+   "id": "polizia-16",
+   "tipo": "polizia",
+   "lat": 45.713347,
+   "lon": 12.260304,
+   "nome": "Corpo Intercomunale di Polizia Locale di Villorba"
+  },
+  {
+   "id": "bagni-1",
+   "tipo": "bagni",
+   "lat": 45.650882,
+   "lon": 12.30867
+  },
+  {
+   "id": "bagni-2",
+   "tipo": "bagni",
+   "lat": 45.651474,
+   "lon": 12.288202
+  },
+  {
+   "id": "bagni-3",
+   "tipo": "bagni",
+   "lat": 45.651561,
+   "lon": 12.30834
+  },
+  {
+   "id": "bagni-4",
+   "tipo": "bagni",
+   "lat": 45.659865,
+   "lon": 12.246722,
+   "pagamento": true
+  },
+  {
+   "id": "autobus-via-conscio-civ-38",
+   "tipo": "autobus",
+   "lat": 45.617454,
+   "lon": 12.282108,
+   "nome": "Via Conscio - Civ. 38",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-conscio-bivio-via-visentin",
+   "tipo": "autobus",
+   "lat": 45.617999,
+   "lon": 12.281845,
+   "nome": "Via Conscio - Bivio Via Visentin",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-trattoria-sicilia",
+   "tipo": "autobus",
+   "lat": 45.618634,
+   "lon": 12.257113,
+   "nome": "Trattoria Sicilia",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-trattoria-sicilia-2",
+   "tipo": "autobus",
+   "lat": 45.618798,
+   "lon": 12.257375,
+   "nome": "Trattoria Sicilia",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-munari-2",
+   "tipo": "autobus",
+   "lat": 45.61897,
+   "lon": 12.215411,
+   "nome": "Bivio Via Munari",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-munari-3",
+   "tipo": "autobus",
+   "lat": 45.619078,
+   "lon": 12.215336,
+   "nome": "Bivio Via Munari",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-munari",
+   "tipo": "autobus",
+   "lat": 45.622438,
+   "lon": 12.213354,
+   "nome": "Bivio Via Munari",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-deposito-enel-2",
+   "tipo": "autobus",
+   "lat": 45.623721,
+   "lon": 12.278654,
+   "nome": "Deposito Enel",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-deposito-enel",
+   "tipo": "autobus",
+   "lat": 45.62375,
+   "lon": 12.278866,
+   "nome": "Deposito Enel",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-settecomuni",
+   "tipo": "autobus",
+   "lat": 45.62377,
+   "lon": 12.205361,
+   "nome": "Settecomuni",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-baratta-bivio-via-sponcioni-2",
+   "tipo": "autobus",
+   "lat": 45.62394,
+   "lon": 12.215064,
+   "nome": "Via Baratta - Bivio Via Sponcioni",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-baratta-bivio-via-sponcioni",
+   "tipo": "autobus",
+   "lat": 45.623952,
+   "lon": 12.215152,
+   "nome": "Via Baratta - Bivio Via Sponcioni",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-alta-2",
+   "tipo": "autobus",
+   "lat": 45.624017,
+   "lon": 12.258372,
+   "nome": "Bivio Via Alta",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-alta",
+   "tipo": "autobus",
+   "lat": 45.624222,
+   "lon": 12.258401,
+   "nome": "Bivio Via Alta",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-san-trovaso",
+   "tipo": "autobus",
+   "lat": 45.625076,
+   "lon": 12.229528,
+   "nome": "San Trovaso",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-san-trovaso-2",
+   "tipo": "autobus",
+   "lat": 45.625234,
+   "lon": 12.229342,
+   "nome": "San Trovaso",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bar-carraretto",
+   "tipo": "autobus",
+   "lat": 45.625684,
+   "lon": 12.238042,
+   "nome": "Bar Carraretto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-nazario-sauro-2",
+   "tipo": "autobus",
+   "lat": 45.625707,
+   "lon": 12.235065,
+   "nome": "Via Franchetti - Bivio Via Nazario Sauro",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bar-carraretto-2",
+   "tipo": "autobus",
+   "lat": 45.625758,
+   "lon": 12.238094,
+   "nome": "Bar Carraretto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-conscio-civ-2",
+   "tipo": "autobus",
+   "lat": 45.62579,
+   "lon": 12.272999,
+   "nome": "Via Conscio - Civ. 2",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-conscio-civ-4",
+   "tipo": "autobus",
+   "lat": 45.625824,
+   "lon": 12.272654,
+   "nome": "Via Conscio - Civ. 4",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-nazario-sauro",
+   "tipo": "autobus",
+   "lat": 45.62584,
+   "lon": 12.235095,
+   "nome": "Via Franchetti - Bivio Via Nazario Sauro",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-giurati-2",
+   "tipo": "autobus",
+   "lat": 45.626118,
+   "lon": 12.217851,
+   "nome": "Via Franchetti - Bivio Via Giurati",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-giurati",
+   "tipo": "autobus",
+   "lat": 45.626272,
+   "lon": 12.218316,
+   "nome": "Via Franchetti - Bivio Via Giurati",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-berto",
+   "tipo": "autobus",
+   "lat": 45.626314,
+   "lon": 12.225603,
+   "nome": "Via Franchetti - Bivio Via Berto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-franchetti-bivio-via-berto-2",
+   "tipo": "autobus",
+   "lat": 45.626556,
+   "lon": 12.225274,
+   "nome": "Via Franchetti - Bivio Via Berto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-villa-franchetti-2",
+   "tipo": "autobus",
+   "lat": 45.626782,
+   "lon": 12.239155,
+   "nome": "Villa Franchetti",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-villa-franchetti",
+   "tipo": "autobus",
+   "lat": 45.626817,
+   "lon": 12.239417,
+   "nome": "Villa Franchetti",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-gramsci-2",
+   "tipo": "autobus",
+   "lat": 45.627733,
+   "lon": 12.257768,
+   "nome": "Bivio Via Gramsci",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-bivio-per-casier-2",
+   "tipo": "autobus",
+   "lat": 45.628189,
+   "lon": 12.269528,
+   "nome": "Bivio Per Casier",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-franchetti-2",
+   "tipo": "autobus",
+   "lat": 45.628263,
+   "lon": 12.239384,
+   "nome": "Via Terraglio - Bivio Via Franchetti",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-via-gramsci",
+   "tipo": "autobus",
+   "lat": 45.628435,
+   "lon": 12.257565,
+   "nome": "Bivio Via Gramsci",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-franchetti",
+   "tipo": "autobus",
+   "lat": 45.628506,
+   "lon": 12.239551,
+   "nome": "Via Terraglio - Bivio Via Franchetti",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-bivio-per-casier",
+   "tipo": "autobus",
+   "lat": 45.628683,
+   "lon": 12.2693,
+   "nome": "Bivio Per Casier",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-officine-secco",
+   "tipo": "autobus",
+   "lat": 45.630654,
+   "lon": 12.239619,
+   "nome": "Officine Secco",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-officine-secco-2",
+   "tipo": "autobus",
+   "lat": 45.630795,
+   "lon": 12.239773,
+   "nome": "Officine Secco",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-dosson-scuole-2",
+   "tipo": "autobus",
+   "lat": 45.631243,
+   "lon": 12.260417,
+   "nome": "Dosson Scuole",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-dosson-scuole",
+   "tipo": "autobus",
+   "lat": 45.631365,
+   "lon": 12.260462,
+   "nome": "Dosson Scuole",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-torricelli",
+   "tipo": "autobus",
+   "lat": 45.6337,
+   "lon": 12.257651,
+   "nome": "Via Torricelli",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-al-bolognese",
+   "tipo": "autobus",
+   "lat": 45.633815,
+   "lon": 12.239968,
+   "nome": "Al Bolognese",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-al-bolognese-2",
+   "tipo": "autobus",
+   "lat": 45.633961,
+   "lon": 12.240153,
+   "nome": "Al Bolognese",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-dosson-via-peschiere",
+   "tipo": "autobus",
+   "lat": 45.634049,
+   "lon": 12.258174,
+   "nome": "Dosson - Via Peschiere",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-dosson-via-peschiere-2",
+   "tipo": "autobus",
+   "lat": 45.634069,
+   "lon": 12.258269,
+   "nome": "Dosson - Via Peschiere",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bar-centrale",
+   "tipo": "autobus",
+   "lat": 45.635013,
+   "lon": 12.255316,
+   "nome": "Via Roma - Bar Centrale",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bar-centrale-2",
+   "tipo": "autobus",
+   "lat": 45.63511,
+   "lon": 12.255329,
+   "nome": "Via Roma - Bar Centrale",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-guizzetti",
+   "tipo": "autobus",
+   "lat": 45.635361,
+   "lon": 12.251076,
+   "nome": "Via Roma - Bivio Via Guizzetti",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-guizzetti-2",
+   "tipo": "autobus",
+   "lat": 45.635461,
+   "lon": 12.250858,
+   "nome": "Via Roma - Bivio Via Guizzetti",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-mulinetto-2",
+   "tipo": "autobus",
+   "lat": 45.635628,
+   "lon": 12.240404,
+   "nome": "Mulinetto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-mulinetto",
+   "tipo": "autobus",
+   "lat": 45.635829,
+   "lon": 12.240203,
+   "nome": "Mulinetto",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-zecchina",
+   "tipo": "autobus",
+   "lat": 45.636933,
+   "lon": 12.164004,
+   "nome": "Quinto - Via Zecchina",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-de-gasperi",
+   "tipo": "autobus",
+   "lat": 45.63716,
+   "lon": 12.253477,
+   "nome": "Via Zermanese - Bivio Via De Gasperi",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-de-gasperi-2",
+   "tipo": "autobus",
+   "lat": 45.6373,
+   "lon": 12.253481,
+   "nome": "Via Zermanese - Bivio Via De Gasperi",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-fronte-civ-44",
+   "tipo": "autobus",
+   "lat": 45.637404,
+   "lon": 12.24928,
+   "nome": "Via Aldo Moro - Fronte Civ. 44",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-civ-44",
+   "tipo": "autobus",
+   "lat": 45.63762,
+   "lon": 12.249254,
+   "nome": "Via Aldo Moro - Civ. 44",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-marconi",
+   "tipo": "autobus",
+   "lat": 45.63818,
+   "lon": 12.164558,
+   "nome": "Quinto - Via Marconi",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-costamala-civ-25",
+   "tipo": "autobus",
+   "lat": 45.63827,
+   "lon": 12.147342,
+   "nome": "Via Costamala - Civ. 25",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-costamala-civ-25-2",
+   "tipo": "autobus",
+   "lat": 45.63828,
+   "lon": 12.14766,
+   "nome": "Via Costamala - Civ. 25",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-giorgione-civ-54",
+   "tipo": "autobus",
+   "lat": 45.638787,
+   "lon": 12.169433,
+   "nome": "Quinto - Via Giorgione civ. 54",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-civ-37",
+   "tipo": "autobus",
+   "lat": 45.638808,
+   "lon": 12.157147,
+   "nome": "Quinto - Via Costamala Civ. 37",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-civ-37-2",
+   "tipo": "autobus",
+   "lat": 45.638924,
+   "lon": 12.156616,
+   "nome": "Quinto - Via Costamala Civ. 37",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-bivio-via-everest",
+   "tipo": "autobus",
+   "lat": 45.638953,
+   "lon": 12.159835,
+   "nome": "Quinto - Via Costamala Bivio Via Everest",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-pascoli-2",
+   "tipo": "autobus",
+   "lat": 45.638961,
+   "lon": 12.252418,
+   "nome": "Via Zermanese - Bivio Via Pascoli",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-bivio-via-everest-2",
+   "tipo": "autobus",
+   "lat": 45.639035,
+   "lon": 12.159812,
+   "nome": "Quinto - Via Costamala Bivio Via Everest",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-pascoli",
+   "tipo": "autobus",
+   "lat": 45.639069,
+   "lon": 12.252288,
+   "nome": "Via Zermanese - Bivio Via Pascoli",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-giorgione-civ-61",
+   "tipo": "autobus",
+   "lat": 45.639151,
+   "lon": 12.169126,
+   "nome": "Quinto - Via Giorgione civ. 61",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-civ-7",
+   "tipo": "autobus",
+   "lat": 45.639246,
+   "lon": 12.162012,
+   "nome": "Quinto - Via Costamala Civ. 7",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-costamala-civ-8",
+   "tipo": "autobus",
+   "lat": 45.639364,
+   "lon": 12.161995,
+   "nome": "Quinto - Via Costamala Civ. 8",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-giorgione-civ-12",
+   "tipo": "autobus",
+   "lat": 45.639452,
+   "lon": 12.166621,
+   "nome": "Quinto - Via Giorgione Civ. 12",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-capitello",
+   "tipo": "autobus",
+   "lat": 45.639457,
+   "lon": 12.163753,
+   "nome": "Quinto - Via Capitello",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-bivio-via-manzoni-2",
+   "tipo": "autobus",
+   "lat": 45.639509,
+   "lon": 12.248078,
+   "nome": "Via Aldo Moro - Bivio via Manzoni",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-giorgione-civ-13",
+   "tipo": "autobus",
+   "lat": 45.63956,
+   "lon": 12.165958,
+   "nome": "Quinto - Via Giorgione Civ. 13",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-spigariola",
+   "tipo": "autobus",
+   "lat": 45.639653,
+   "lon": 12.175556,
+   "nome": "Quinto - Via Spigariola",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-spigariola-2",
+   "tipo": "autobus",
+   "lat": 45.639715,
+   "lon": 12.176203,
+   "nome": "Quinto - Via Spigariola",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-enoteca-2",
+   "tipo": "autobus",
+   "lat": 45.639871,
+   "lon": 12.240645,
+   "nome": "Enoteca",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-bivio-via-manzoni",
+   "tipo": "autobus",
+   "lat": 45.639998,
+   "lon": 12.247595,
+   "nome": "Via Aldo Moro - Bivio via Manzoni",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-bivio-via-cornare-2",
+   "tipo": "autobus",
+   "lat": 45.640221,
+   "lon": 12.178316,
+   "nome": "Strada di Canizzano - Bivio Via Cornare",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-bivio-via-cornare",
+   "tipo": "autobus",
+   "lat": 45.640246,
+   "lon": 12.178027,
+   "nome": "Strada di Canizzano - Bivio Via Cornare",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-cimitero-2",
+   "tipo": "autobus",
+   "lat": 45.640351,
+   "lon": 12.189423,
+   "nome": "Strada di Canizzano - Cimitero",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-cimitero",
+   "tipo": "autobus",
+   "lat": 45.640361,
+   "lon": 12.189011,
+   "nome": "Strada di Canizzano - Cimitero",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-enoteca",
+   "tipo": "autobus",
+   "lat": 45.640399,
+   "lon": 12.240907,
+   "nome": "Enoteca",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-civ-27",
+   "tipo": "autobus",
+   "lat": 45.640629,
+   "lon": 12.251854,
+   "nome": "Via Zermanese - Civ. 27",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-adige",
+   "tipo": "autobus",
+   "lat": 45.640751,
+   "lon": 12.251932,
+   "nome": "Via Zermanese - Bivio Via Adige",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-chiesa-2",
+   "tipo": "autobus",
+   "lat": 45.640804,
+   "lon": 12.184873,
+   "nome": "Strada di Canizzano - Chiesa",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-chiesa",
+   "tipo": "autobus",
+   "lat": 45.640878,
+   "lon": 12.184881,
+   "nome": "Strada di Canizzano - Chiesa",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-113",
+   "tipo": "autobus",
+   "lat": 45.641228,
+   "lon": 12.19104,
+   "nome": "Strada di Canizzano - Civ. 113",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-115",
+   "tipo": "autobus",
+   "lat": 45.641362,
+   "lon": 12.191348,
+   "nome": "Strada di Canizzano - Civ. 115",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-79a",
+   "tipo": "autobus",
+   "lat": 45.641855,
+   "lon": 12.19341,
+   "nome": "Strada di Canizzano - Civ. 79A",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-92",
+   "tipo": "autobus",
+   "lat": 45.641904,
+   "lon": 12.192856,
+   "nome": "Strada di Canizzano - Civ. 92",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-61",
+   "tipo": "autobus",
+   "lat": 45.641993,
+   "lon": 12.195783,
+   "nome": "Strada di Canizzano - Civ. 61",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-canizzano-civ-48",
+   "tipo": "autobus",
+   "lat": 45.642075,
+   "lon": 12.195635,
+   "nome": "Strada di Canizzano - Civ. 48",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-aeroporto-militare",
+   "tipo": "autobus",
+   "lat": 45.64251,
+   "lon": 12.199437,
+   "nome": "Aeroporto Militare",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-aeroporto-militare-2",
+   "tipo": "autobus",
+   "lat": 45.6426,
+   "lon": 12.199925,
+   "nome": "Aeroporto Militare",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-frescada-2",
+   "tipo": "autobus",
+   "lat": 45.643157,
+   "lon": 12.24105,
+   "nome": "Frescada",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-cimitero",
+   "tipo": "autobus",
+   "lat": 45.643208,
+   "lon": 12.2464,
+   "nome": "Via Aldo Moro - Cimitero",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-aldo-moro-cimitero-2",
+   "tipo": "autobus",
+   "lat": 45.643386,
+   "lon": 12.246548,
+   "nome": "Via Aldo Moro - Cimitero",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-frescada",
+   "tipo": "autobus",
+   "lat": 45.644202,
+   "lon": 12.24139,
+   "nome": "Frescada",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-caserma-serena",
+   "tipo": "autobus",
+   "lat": 45.644376,
+   "lon": 12.251227,
+   "nome": "Caserma Serena",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-caserma-serena-2",
+   "tipo": "autobus",
+   "lat": 45.644425,
+   "lon": 12.251468,
+   "nome": "Caserma Serena",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-caserma-serena-3",
+   "tipo": "autobus",
+   "lat": 45.644532,
+   "lon": 12.249925,
+   "nome": "Caserma Serena",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-caserma-serena-4",
+   "tipo": "autobus",
+   "lat": 45.644607,
+   "lon": 12.249856,
+   "nome": "Caserma Serena",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-189",
+   "tipo": "autobus",
+   "lat": 45.645083,
+   "lon": 12.20504,
+   "nome": "Via Sant'Angelo - Civ. 189",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-189-2",
+   "tipo": "autobus",
+   "lat": 45.645148,
+   "lon": 12.20538,
+   "nome": "Via Sant'Angelo - Civ. 189",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-quinto-municipio-2",
+   "tipo": "autobus",
+   "lat": 45.645368,
+   "lon": 12.16592,
+   "nome": "Quinto Municipio",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-localit-graziati",
+   "tipo": "autobus",
+   "lat": 45.6454,
+   "lon": 12.167925,
+   "nome": "Località Graziati",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-quinto-municipio",
+   "tipo": "autobus",
+   "lat": 45.645402,
+   "lon": 12.1661,
+   "nome": "Quinto Municipio",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-p-zza-resistenza-capolinea",
+   "tipo": "autobus",
+   "lat": 45.64573,
+   "lon": 12.159039,
+   "nome": "P.zza Resistenza Capolinea",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-pindemonte",
+   "tipo": "autobus",
+   "lat": 45.645934,
+   "lon": 12.241423,
+   "nome": "Via Terraglio - Bivio Via Pindemonte",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-ciardi-2",
+   "tipo": "autobus",
+   "lat": 45.64602,
+   "lon": 12.161323,
+   "nome": "Quinto Via Ciardi",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-quinto-via-ciardi",
+   "tipo": "autobus",
+   "lat": 45.646097,
+   "lon": 12.161022,
+   "nome": "Quinto Via Ciardi",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-pindemonte-2",
+   "tipo": "autobus",
+   "lat": 45.646427,
+   "lon": 12.241668,
+   "nome": "Via Terraglio - Bivio Via Pindemonte",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-quinto-al-gambero-2",
+   "tipo": "autobus",
+   "lat": 45.646496,
+   "lon": 12.170651,
+   "nome": "Quinto Al Gambero",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-quinto-al-gambero",
+   "tipo": "autobus",
+   "lat": 45.647062,
+   "lon": 12.173202,
+   "nome": "Quinto Al Gambero",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-vivai-vanin-2",
+   "tipo": "autobus",
+   "lat": 45.647947,
+   "lon": 12.176229,
+   "nome": "Vivai Vanin",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-vivai-vanin",
+   "tipo": "autobus",
+   "lat": 45.647958,
+   "lon": 12.176798,
+   "nome": "Vivai Vanin",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-san-lazzaro-cimitero",
+   "tipo": "autobus",
+   "lat": 45.648001,
+   "lon": 12.241653,
+   "nome": "San Lazzaro - Cimitero",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-159",
+   "tipo": "autobus",
+   "lat": 45.648311,
+   "lon": 12.20929,
+   "nome": "Via Sant'Angelo - Civ. 159",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-159-2",
+   "tipo": "autobus",
+   "lat": 45.648458,
+   "lon": 12.209859,
+   "nome": "Via Sant'Angelo - Civ. 159",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-san-lazzaro-cimitero-2",
+   "tipo": "autobus",
+   "lat": 45.648464,
+   "lon": 12.241953,
+   "nome": "San Lazzaro - Cimitero",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-caserma-boltar",
+   "tipo": "autobus",
+   "lat": 45.648607,
+   "lon": 12.251824,
+   "nome": "Caserma Boltar",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-san-lazzaro-cimitero-3",
+   "tipo": "autobus",
+   "lat": 45.648747,
+   "lon": 12.241737,
+   "nome": "San Lazzaro - Cimitero",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-caserma-boltar-2",
+   "tipo": "autobus",
+   "lat": 45.648793,
+   "lon": 12.25161,
+   "nome": "Caserma Boltar",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-fronte-off-berga",
+   "tipo": "autobus",
+   "lat": 45.64887,
+   "lon": 12.180529,
+   "nome": "Fronte Off. Berga",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-officine-berga",
+   "tipo": "autobus",
+   "lat": 45.649008,
+   "lon": 12.18057,
+   "nome": "Officine Berga",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-bivio-via-alda-negri",
+   "tipo": "autobus",
+   "lat": 45.649211,
+   "lon": 12.238541,
+   "nome": "Via Ghirada - Bivio Via Alda Negri",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-bivio-vianascimben",
+   "tipo": "autobus",
+   "lat": 45.649617,
+   "lon": 12.236701,
+   "nome": "Via Ghirada - Bivio ViaNascimben",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-conc-opel-silcar",
+   "tipo": "autobus",
+   "lat": 45.649889,
+   "lon": 12.184263,
+   "nome": "Conc. Opel Silcar",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-chiesa-vecchia",
+   "tipo": "autobus",
+   "lat": 45.650272,
+   "lon": 12.21306,
+   "nome": "Via Sant'Angelo - Chiesa Vecchia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-tratt-da-busato",
+   "tipo": "autobus",
+   "lat": 45.650579,
+   "lon": 12.187159,
+   "nome": "Tratt. Da Busato",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-chiesa-vecchia-2",
+   "tipo": "autobus",
+   "lat": 45.650675,
+   "lon": 12.213753,
+   "nome": "Via Sant'Angelo - Chiesa Vecchia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-ceramiche-pagnossin",
+   "tipo": "autobus",
+   "lat": 45.650944,
+   "lon": 12.187939,
+   "nome": "Ceramiche Pagnossin",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-san-lazzaro-2",
+   "tipo": "autobus",
+   "lat": 45.651773,
+   "lon": 12.242364,
+   "nome": "San Lazzaro",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-san-lazzaro",
+   "tipo": "autobus",
+   "lat": 45.651782,
+   "lon": 12.242205,
+   "nome": "San Lazzaro",
+   "linee": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-civ-161",
+   "tipo": "autobus",
+   "lat": 45.652439,
+   "lon": 12.249618,
+   "nome": "Via Zermanese - Civ. 161",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-civ-163",
+   "tipo": "autobus",
+   "lat": 45.652704,
+   "lon": 12.24946,
+   "nome": "Via Zermanese - Civ. 163",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-bivio-via-cavini",
+   "tipo": "autobus",
+   "lat": 45.652802,
+   "lon": 12.236723,
+   "nome": "Via Ghirada - Bivio Via Cavini",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-moncia",
+   "tipo": "autobus",
+   "lat": 45.653221,
+   "lon": 12.19443,
+   "nome": "Moncia",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-cavalcavia",
+   "tipo": "autobus",
+   "lat": 45.653274,
+   "lon": 12.216226,
+   "nome": "Via Sant'Angelo - Cavalcavia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-tratt-alla-moncia",
+   "tipo": "autobus",
+   "lat": 45.65335,
+   "lon": 12.195623,
+   "nome": "Tratt. Alla Moncia",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-cavalcavia-2",
+   "tipo": "autobus",
+   "lat": 45.653859,
+   "lon": 12.217486,
+   "nome": "Via Sant'Angelo - Cavalcavia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-loredan",
+   "tipo": "autobus",
+   "lat": 45.654102,
+   "lon": 12.243203,
+   "nome": "Via Terraglio - Bivio Via Loredan",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-bivio-via-mozzato",
+   "tipo": "autobus",
+   "lat": 45.654249,
+   "lon": 12.248425,
+   "nome": "Via Zermanese - Bivio Via Mozzato",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-loredan-2",
+   "tipo": "autobus",
+   "lat": 45.654529,
+   "lon": 12.243324,
+   "nome": "Via Terraglio - Bivio Via Loredan",
+   "linee": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-succursale-felissent",
+   "tipo": "autobus",
+   "lat": 45.654798,
+   "lon": 12.236311,
+   "nome": "Via Ghirada - Succursale Felissent",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-noalese-union-tour",
+   "tipo": "autobus",
+   "lat": 45.654815,
+   "lon": 12.200664,
+   "nome": "Noalese Union Tour",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-noalese-union-tour-2",
+   "tipo": "autobus",
+   "lat": 45.654936,
+   "lon": 12.2008,
+   "nome": "Noalese Union Tour",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-99",
+   "tipo": "autobus",
+   "lat": 45.654965,
+   "lon": 12.219172,
+   "nome": "Via Sant'Angelo - Civ. 99",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-treviso-airport",
+   "tipo": "autobus",
+   "lat": 45.654981,
+   "lon": 12.204461,
+   "nome": "Treviso Airport",
+   "linee": [
+    "A"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-99-2",
+   "tipo": "autobus",
+   "lat": 45.654981,
+   "lon": 12.219417,
+   "nome": "Via Sant'Angelo - Civ. 99",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-civ-109",
+   "tipo": "autobus",
+   "lat": 45.655135,
+   "lon": 12.248196,
+   "nome": "Via Zermanese - Civ. 109",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-aeroporto-canova",
+   "tipo": "autobus",
+   "lat": 45.655244,
+   "lon": 12.205756,
+   "nome": "Aeroporto Canova",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-aeroporto-canova-2",
+   "tipo": "autobus",
+   "lat": 45.65544,
+   "lon": 12.204557,
+   "nome": "Aeroporto Canova",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-ortopedia-2",
+   "tipo": "autobus",
+   "lat": 45.655901,
+   "lon": 12.236518,
+   "nome": "Via Ghirada - Ortopedia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirada-ortopedia",
+   "tipo": "autobus",
+   "lat": 45.656361,
+   "lon": 12.23686,
+   "nome": "Via Ghirada - Ortopedia",
+   "linee": [
+    "7",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-vicolo-sant-angelo-2",
+   "tipo": "autobus",
+   "lat": 45.656469,
+   "lon": 12.222397,
+   "nome": "Vicolo Sant'Angelo",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-terraglio-bivio-via-saccardo",
+   "tipo": "autobus",
+   "lat": 45.656606,
+   "lon": 12.244804,
+   "nome": "Via Terraglio - Bivio Via Saccardo",
+   "linee": [
+    "7",
+    "8",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-farmacia-zorza",
+   "tipo": "autobus",
+   "lat": 45.656636,
+   "lon": 12.245001,
+   "nome": "Farmacia Zorza",
+   "linee": [
+    "7",
+    "8",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-s-zeno-pasticceria-2",
+   "tipo": "autobus",
+   "lat": 45.656647,
+   "lon": 12.240393,
+   "nome": "Via S. Zeno - Pasticceria",
+   "linee": [
+    "7",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-vicolo-sant-angelo",
+   "tipo": "autobus",
+   "lat": 45.656702,
+   "lon": 12.223228,
+   "nome": "Vicolo Sant'Angelo",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-s-zeno-pasticceria",
+   "tipo": "autobus",
+   "lat": 45.656741,
+   "lon": 12.240256,
+   "nome": "Via S. Zeno - Pasticceria",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-bivio-via-col-di-lana",
+   "tipo": "autobus",
+   "lat": 45.657063,
+   "lon": 12.231036,
+   "nome": "Via Sant'Angelo - Bivio Via Col di Lana",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-bar-sile",
+   "tipo": "autobus",
+   "lat": 45.657103,
+   "lon": 12.227781,
+   "nome": "Via Sant'Angelo - Bar Sile",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-civ-9",
+   "tipo": "autobus",
+   "lat": 45.657136,
+   "lon": 12.23085,
+   "nome": "Via Sant'Angelo - Civ. 9",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-s-zeno-scuole-don-milani",
+   "tipo": "autobus",
+   "lat": 45.657138,
+   "lon": 12.237912,
+   "nome": "Via S. Zeno - Scuole Don Milani",
+   "linee": [
+    "7",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-sant-angelo-bar-sile-2",
+   "tipo": "autobus",
+   "lat": 45.657214,
+   "lon": 12.227699,
+   "nome": "Via Sant'Angelo - Bar Sile",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-s-zeno-scuole-don-milani-2",
+   "tipo": "autobus",
+   "lat": 45.657227,
+   "lon": 12.23795,
+   "nome": "Via S. Zeno - Scuole Don Milani",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-f-dogana",
+   "tipo": "autobus",
+   "lat": 45.657435,
+   "lon": 12.212554,
+   "nome": "f. Dogana",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-dogana",
+   "tipo": "autobus",
+   "lat": 45.657567,
+   "lon": 12.212549,
+   "nome": "Dogana",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-zermanese-28",
+   "tipo": "autobus",
+   "lat": 45.657636,
+   "lon": 12.248398,
+   "nome": "Via Zermanese 28",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-case-ferrovieri",
+   "tipo": "autobus",
+   "lat": 45.657892,
+   "lon": 12.24848,
+   "nome": "Case Ferrovieri",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-scuole-manzoni",
+   "tipo": "autobus",
+   "lat": 45.658592,
+   "lon": 12.250863,
+   "nome": "Scuole Manzoni",
+   "linee": [
+    "1",
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-fronte-asilo",
+   "tipo": "autobus",
+   "lat": 45.658715,
+   "lon": 12.215091,
+   "nome": "Fronte Asilo",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-asilo-s-giuseppe",
+   "tipo": "autobus",
+   "lat": 45.658782,
+   "lon": 12.215604,
+   "nome": "Asilo S. Giuseppe",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-chiesa-votiva",
+   "tipo": "autobus",
+   "lat": 45.659337,
+   "lon": 12.252779,
+   "nome": "Chiesa Votiva",
+   "linee": [
+    "1",
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-ospedale-regionale",
+   "tipo": "autobus",
+   "lat": 45.659494,
+   "lon": 12.260056,
+   "nome": "Ospedale Regionale",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-edicola-s-giuseppe",
+   "tipo": "autobus",
+   "lat": 45.659496,
+   "lon": 12.217278,
+   "nome": "Edicola S. Giuseppe",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-scarpa-chiesa-votiva",
+   "tipo": "autobus",
+   "lat": 45.659782,
+   "lon": 12.254408,
+   "nome": "Via Scarpa - Chiesa Votiva",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-stazione-fs-viale-fratelli-bandiera",
+   "tipo": "autobus",
+   "lat": 45.660226,
+   "lon": 12.246323,
+   "nome": "Stazione FS - Viale Fratelli Bandiera",
+   "linee": [
+    "1",
+    "9",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-treviso-fs-via-de-gasperi",
+   "tipo": "autobus",
+   "lat": 45.660376,
+   "lon": 12.244242,
+   "nome": "Treviso FS - Via De Gasperi",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-stazione-fs-piazzale-duca-d-aosta",
+   "tipo": "autobus",
+   "lat": 45.660469,
+   "lon": 12.245434,
+   "nome": "Stazione FS - Piazzale Duca d'Aosta",
+   "linee": [
+    "7",
+    "8",
+    "55",
+    "A"
+   ]
+  },
+  {
+   "id": "autobus-via-marchesan",
+   "tipo": "autobus",
+   "lat": 45.660578,
+   "lon": 12.254551,
+   "nome": "Via Marchesan",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-s-giuseppe-chiesa-2",
+   "tipo": "autobus",
+   "lat": 45.660696,
+   "lon": 12.218631,
+   "nome": "S. Giuseppe Chiesa",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-s-giuseppe-chiesa",
+   "tipo": "autobus",
+   "lat": 45.660792,
+   "lon": 12.219193,
+   "nome": "S. Giuseppe Chiesa",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-stazione-fs-via-roma",
+   "tipo": "autobus",
+   "lat": 45.66093,
+   "lon": 12.245659,
+   "nome": "Stazione FS - Via Roma",
+   "linee": [
+    "1",
+    "7",
+    "8",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-ponte-di-ferro-banca",
+   "tipo": "autobus",
+   "lat": 45.66144,
+   "lon": 12.23788,
+   "nome": "Ponte di Ferro Banca",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-lanzago",
+   "tipo": "autobus",
+   "lat": 45.661475,
+   "lon": 12.290913,
+   "nome": "Lanzago",
+   "linee": [
+    "3"
+   ]
+  },
+  {
+   "id": "autobus-v-le-f-lli-bandiera-croce-rossa-italiana",
+   "tipo": "autobus",
+   "lat": 45.661988,
+   "lon": 12.249984,
+   "nome": "V.le F.lli Bandiera - Croce Rossa Italiana",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-ponte-san-martino",
+   "tipo": "autobus",
+   "lat": 45.662041,
+   "lon": 12.245494,
+   "nome": "Via Roma - Ponte San Martino",
+   "linee": [
+    "1",
+    "6",
+    "7",
+    "8",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-v-le-f-lli-bandiera-croce-rossa-italiana-2",
+   "tipo": "autobus",
+   "lat": 45.662061,
+   "lon": 12.250533,
+   "nome": "V.le F.lli Bandiera - Croce Rossa Italiana",
+   "linee": [
+    "1",
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-ponte-san-martino",
+   "tipo": "autobus",
+   "lat": 45.6623,
+   "lon": 12.245162,
+   "nome": "Ponte San Martino",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-piazza-vittoria-istituto-riccati",
+   "tipo": "autobus",
+   "lat": 45.663054,
+   "lon": 12.242143,
+   "nome": "Piazza Vittoria - Istituto Riccati",
+   "linee": [
+    "8",
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-cadorna",
+   "tipo": "autobus",
+   "lat": 45.663054,
+   "lon": 12.244238,
+   "nome": "Via Cadorna",
+   "linee": [
+    "6",
+    "8",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-bar-verdi",
+   "tipo": "autobus",
+   "lat": 45.663105,
+   "lon": 12.232505,
+   "nome": "Bar Verdi",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-tribunale-appiani-2",
+   "tipo": "autobus",
+   "lat": 45.663117,
+   "lon": 12.231174,
+   "nome": "Tribunale Appiani",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-viale-verdi-5",
+   "tipo": "autobus",
+   "lat": 45.663262,
+   "lon": 12.234067,
+   "nome": "Viale Verdi 5",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-viale-verdi",
+   "tipo": "autobus",
+   "lat": 45.663265,
+   "lon": 12.233666,
+   "nome": "Viale Verdi",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-teatro-comunale",
+   "tipo": "autobus",
+   "lat": 45.66331,
+   "lon": 12.244626,
+   "nome": "Teatro Comunale",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-piazza-vittoria",
+   "tipo": "autobus",
+   "lat": 45.663408,
+   "lon": 12.242973,
+   "nome": "Piazza Vittoria",
+   "linee": [
+    "6",
+    "8",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-corso-del-popolo",
+   "tipo": "autobus",
+   "lat": 45.663589,
+   "lon": 12.24481,
+   "nome": "Corso Del Popolo",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-tribunale-appiani",
+   "tipo": "autobus",
+   "lat": 45.663952,
+   "lon": 12.231283,
+   "nome": "Tribunale Appiani",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-viale-cesare-battisti-porta-calvi",
+   "tipo": "autobus",
+   "lat": 45.663962,
+   "lon": 12.23725,
+   "nome": "Viale Cesare Battisti - Porta Calvi",
+   "linee": [
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-piazza-pio-x-2",
+   "tipo": "autobus",
+   "lat": 45.66429,
+   "lon": 12.241428,
+   "nome": "Piazza Pio X",
+   "linee": [
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-piazza-borsa",
+   "tipo": "autobus",
+   "lat": 45.664318,
+   "lon": 12.245552,
+   "nome": "Piazza Borsa",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-piazza-pio-x",
+   "tipo": "autobus",
+   "lat": 45.664815,
+   "lon": 12.240655,
+   "nome": "Piazza Pio X",
+   "linee": [
+    "6",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-cesare-battisti-istituto-zanotti",
+   "tipo": "autobus",
+   "lat": 45.664975,
+   "lon": 12.239445,
+   "nome": "Viale Cesare Battisti - Istituto Zanotti",
+   "linee": [
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-piazza-dei-signori",
+   "tipo": "autobus",
+   "lat": 45.665517,
+   "lon": 12.245992,
+   "nome": "Piazza Dei Signori",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-piazza-san-leonardo",
+   "tipo": "autobus",
+   "lat": 45.665939,
+   "lon": 12.248679,
+   "nome": "Piazza San Leonardo",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-cattaneo-19",
+   "tipo": "autobus",
+   "lat": 45.665988,
+   "lon": 12.225275,
+   "nome": "Via Cattaneo 19",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-piazza-san-leonardo-2",
+   "tipo": "autobus",
+   "lat": 45.666026,
+   "lon": 12.248363,
+   "nome": "Piazza San Leonardo",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-appiani-26",
+   "tipo": "autobus",
+   "lat": 45.666176,
+   "lon": 12.230521,
+   "nome": "Viale Appiani 26",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-v-le-montegrappa-n-25",
+   "tipo": "autobus",
+   "lat": 45.666281,
+   "lon": 12.228491,
+   "nome": "V.le Montegrappa n. 25",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-v-le-montegrappa-n-36",
+   "tipo": "autobus",
+   "lat": 45.666418,
+   "lon": 12.228624,
+   "nome": "V.le Montegrappa n. 36",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-piazza-duomo",
+   "tipo": "autobus",
+   "lat": 45.666522,
+   "lon": 12.242577,
+   "nome": "Piazza Duomo",
+   "linee": [
+    "6",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-v-le-xxiv-maggio",
+   "tipo": "autobus",
+   "lat": 45.666804,
+   "lon": 12.226551,
+   "nome": "V.le XXIV Maggio",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-manzoni-pescheria",
+   "tipo": "autobus",
+   "lat": 45.667392,
+   "lon": 12.249383,
+   "nome": "Via Manzoni Pescheria",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-piazza-matteotti-2",
+   "tipo": "autobus",
+   "lat": 45.667787,
+   "lon": 12.251073,
+   "nome": "Piazza Matteotti",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-fratelli-cairoli-porta-santi-quaranta-golfo",
+   "tipo": "autobus",
+   "lat": 45.667845,
+   "lon": 12.23424,
+   "nome": "Viale Fratelli Cairoli - Porta Santi Quaranta - Golfo",
+   "linee": [
+    "6",
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-piazza-matteotti",
+   "tipo": "autobus",
+   "lat": 45.667851,
+   "lon": 12.251015,
+   "nome": "Piazza Matteotti",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-borgo-cavalli-poliambulatorio",
+   "tipo": "autobus",
+   "lat": 45.668349,
+   "lon": 12.252299,
+   "nome": "Borgo Cavalli - Poliambulatorio",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-borgo-cavalli-poliambulatorio-2",
+   "tipo": "autobus",
+   "lat": 45.6685,
+   "lon": 12.252387,
+   "nome": "Borgo Cavalli - Poliambulatorio",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-nino-bixio",
+   "tipo": "autobus",
+   "lat": 45.668617,
+   "lon": 12.254729,
+   "nome": "Viale Nino Bixio",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-mercato-ortofrutticolo",
+   "tipo": "autobus",
+   "lat": 45.668665,
+   "lon": 12.224125,
+   "nome": "Mercato Ortofrutticolo",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-via-fra-giocondo",
+   "tipo": "autobus",
+   "lat": 45.66868,
+   "lon": 12.241997,
+   "nome": "Via Fra' Giocondo",
+   "linee": [
+    "6",
+    "9",
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-manzoni",
+   "tipo": "autobus",
+   "lat": 45.668788,
+   "lon": 12.249014,
+   "nome": "Via Manzoni",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-fra-giocondo-bivio-via-filippini",
+   "tipo": "autobus",
+   "lat": 45.669202,
+   "lon": 12.244654,
+   "nome": "Viale Fra' Giocondo - Bivio Via Filippini",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-piazzale-burchiellati",
+   "tipo": "autobus",
+   "lat": 45.66922,
+   "lon": 12.249594,
+   "nome": "Piazzale Burchiellati",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-fra-giocondo-varco-caccianiga",
+   "tipo": "autobus",
+   "lat": 45.669441,
+   "lon": 12.23752,
+   "nome": "Viale Fra' Giocondo - Varco Caccianiga",
+   "linee": [
+    "6",
+    "9",
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-v-le-monfenera-3",
+   "tipo": "autobus",
+   "lat": 45.669804,
+   "lon": 12.236006,
+   "nome": "V.le Monfenera 3",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-fratelli-cairoli-bar-bassanello",
+   "tipo": "autobus",
+   "lat": 45.669963,
+   "lon": 12.24327,
+   "nome": "Viale Fratelli Cairoli - Bar Bassanello",
+   "linee": [
+    "55",
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-v-le-monfenera-3-2",
+   "tipo": "autobus",
+   "lat": 45.670073,
+   "lon": 12.235704,
+   "nome": "V.le Monfenera 3",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-fratelli-cairoli-bivio-via-francesco-baracca",
+   "tipo": "autobus",
+   "lat": 45.670167,
+   "lon": 12.24645,
+   "nome": "Viale Fratelli Cairoli - Bivio Via Francesco Baracca",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-nino-bixio-civ-3",
+   "tipo": "autobus",
+   "lat": 45.670179,
+   "lon": 12.252782,
+   "nome": "Viale Nino BIxio - Civ. 3",
+   "linee": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-porta-san-tomaso",
+   "tipo": "autobus",
+   "lat": 45.67026,
+   "lon": 12.251025,
+   "nome": "Porta San Tomaso",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-porta-manzoni",
+   "tipo": "autobus",
+   "lat": 45.670514,
+   "lon": 12.248651,
+   "nome": "Via Montello - Porta Manzoni",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-porta-fra-giocondo",
+   "tipo": "autobus",
+   "lat": 45.670524,
+   "lon": 12.241199,
+   "nome": "Viale Luzzatti - Porta Fra' Giocondo",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-stadio-comunale",
+   "tipo": "autobus",
+   "lat": 45.670676,
+   "lon": 12.25512,
+   "nome": "Stadio Comunale",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-consultorio-famigliare",
+   "tipo": "autobus",
+   "lat": 45.670716,
+   "lon": 12.248761,
+   "nome": "Via Montello - Consultorio Famigliare",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-stadio-comunale-2",
+   "tipo": "autobus",
+   "lat": 45.670859,
+   "lon": 12.255301,
+   "nome": "Stadio Comunale",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-v-le-monfenera-23",
+   "tipo": "autobus",
+   "lat": 45.670921,
+   "lon": 12.23453,
+   "nome": "V.le Monfenera 23",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-farmacia",
+   "tipo": "autobus",
+   "lat": 45.670967,
+   "lon": 12.241047,
+   "nome": "Viale Luzzatti - Farmacia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-bar-monfenera",
+   "tipo": "autobus",
+   "lat": 45.671151,
+   "lon": 12.234197,
+   "nome": "Bar Monfenera",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-mantovani-2",
+   "tipo": "autobus",
+   "lat": 45.671593,
+   "lon": 12.225913,
+   "nome": "V.le Europa - Bivio Via Mantovani",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-mantovani",
+   "tipo": "autobus",
+   "lat": 45.671694,
+   "lon": 12.226024,
+   "nome": "V.le Europa - Bivio Via Mantovani",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto-2",
+   "tipo": "autobus",
+   "lat": 45.671755,
+   "lon": 12.250703,
+   "nome": "Viale Vittorio Veneto",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto",
+   "tipo": "autobus",
+   "lat": 45.67183,
+   "lon": 12.250539,
+   "nome": "Viale Vittorio Veneto",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-della-repubblica-autolavaggio",
+   "tipo": "autobus",
+   "lat": 45.671912,
+   "lon": 12.231377,
+   "nome": "Viale della Repubblica - Autolavaggio",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-della-repubblica-autolavaggio-2",
+   "tipo": "autobus",
+   "lat": 45.671955,
+   "lon": 12.231183,
+   "nome": "Viale della Repubblica - Autolavaggio",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-civ-18",
+   "tipo": "autobus",
+   "lat": 45.672028,
+   "lon": 12.248442,
+   "nome": "Via Montello - Civ. 18",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-civ-18-2",
+   "tipo": "autobus",
+   "lat": 45.67231,
+   "lon": 12.24797,
+   "nome": "Via Montello - Civ. 18",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-siora-andriana",
+   "tipo": "autobus",
+   "lat": 45.672599,
+   "lon": 12.256072,
+   "nome": "Via Siora Andriana",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-siora-andriana-2",
+   "tipo": "autobus",
+   "lat": 45.672742,
+   "lon": 12.256006,
+   "nome": "Via Siora Andriana",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-marconi-civ-9",
+   "tipo": "autobus",
+   "lat": 45.673376,
+   "lon": 12.253889,
+   "nome": "Via Marconi - Civ. 9",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-localit-chiodo-2",
+   "tipo": "autobus",
+   "lat": 45.673421,
+   "lon": 12.246901,
+   "nome": "Via Montello - Località Chiodo",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-bivio-via-aleardi",
+   "tipo": "autobus",
+   "lat": 45.673514,
+   "lon": 12.239452,
+   "nome": "Viale Luzzatti - Bivio Via Aleardi",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-marconi-civ-9-2",
+   "tipo": "autobus",
+   "lat": 45.673664,
+   "lon": 12.253929,
+   "nome": "Via Marconi - Civ. 9",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-montello-localit-chiodo",
+   "tipo": "autobus",
+   "lat": 45.673747,
+   "lon": 12.246416,
+   "nome": "Via Montello - Località Chiodo",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-bivio-via-vaccari",
+   "tipo": "autobus",
+   "lat": 45.673817,
+   "lon": 12.23939,
+   "nome": "Viale Luzzatti - Bivio Via Vaccari",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-zecchette-2",
+   "tipo": "autobus",
+   "lat": 45.674321,
+   "lon": 12.223433,
+   "nome": "V.le Europa - Bivio Via Zecchette",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-zecchette",
+   "tipo": "autobus",
+   "lat": 45.674322,
+   "lon": 12.223633,
+   "nome": "V.le Europa - Bivio Via Zecchette",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto-ospedale-san-camillo-2",
+   "tipo": "autobus",
+   "lat": 45.6745,
+   "lon": 12.250424,
+   "nome": "Viale Vittorio Veneto - Ospedale San Camillo",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto-ospedale-san-camillo",
+   "tipo": "autobus",
+   "lat": 45.674752,
+   "lon": 12.250587,
+   "nome": "Viale Vittorio Veneto - Ospedale San Camillo",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-bivio-via-bertolini-2",
+   "tipo": "autobus",
+   "lat": 45.675268,
+   "lon": 12.238347,
+   "nome": "Viale Luzzatti - Bivio Via Bertolini",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-luzzatti-bivio-via-bertolini",
+   "tipo": "autobus",
+   "lat": 45.6753,
+   "lon": 12.238496,
+   "nome": "Viale Luzzatti - Bivio Via Bertolini",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-ciardi-civ-4",
+   "tipo": "autobus",
+   "lat": 45.675794,
+   "lon": 12.253629,
+   "nome": "Via Ciardi - Civ. 4",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-provveditorato",
+   "tipo": "autobus",
+   "lat": 45.675813,
+   "lon": 12.246364,
+   "nome": "Strada di S. Pelaio - Provveditorato",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto-bivio-viale-brigata-marche-2",
+   "tipo": "autobus",
+   "lat": 45.676458,
+   "lon": 12.250745,
+   "nome": "Viale Vittorio Veneto - Bivio Viale Brigata Marche",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-ciardi-civ-11",
+   "tipo": "autobus",
+   "lat": 45.676506,
+   "lon": 12.253611,
+   "nome": "Via Ciardi - Civ. 11",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-provveditorato-2",
+   "tipo": "autobus",
+   "lat": 45.676527,
+   "lon": 12.247018,
+   "nome": "Strada di S. Pelaio - Provveditorato",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-vittorio-veneto-bivio-viale-brigata-marche",
+   "tipo": "autobus",
+   "lat": 45.676745,
+   "lon": 12.250693,
+   "nome": "Viale Vittorio Veneto - Bivio Viale Brigata Marche",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-vecchia-bivio-viale-della-repubblica",
+   "tipo": "autobus",
+   "lat": 45.676943,
+   "lon": 12.236206,
+   "nome": "Strada di Santa Bona Vecchia - Bivio Viale della Repubblica",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-vecchia-bivio-viale-della-repubblica-2",
+   "tipo": "autobus",
+   "lat": 45.677056,
+   "lon": 12.236245,
+   "nome": "Strada di Santa Bona Vecchia - Bivio Viale della Repubblica",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-vecchia-civ-18-2",
+   "tipo": "autobus",
+   "lat": 45.67726,
+   "lon": 12.234822,
+   "nome": "Strada di Santa Bona Vecchia - Civ. 18",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-vecchia-civ-18",
+   "tipo": "autobus",
+   "lat": 45.677414,
+   "lon": 12.234758,
+   "nome": "Strada di Santa Bona Vecchia - Civ. 18",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-del-galletto-hotel",
+   "tipo": "autobus",
+   "lat": 45.678253,
+   "lon": 12.230308,
+   "nome": "Strada del Galletto - Hotel",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-del-galletto-trattoria",
+   "tipo": "autobus",
+   "lat": 45.678494,
+   "lon": 12.23138,
+   "nome": "Strada del Galletto - Trattoria",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-bivio-via-feruglio",
+   "tipo": "autobus",
+   "lat": 45.678599,
+   "lon": 12.251393,
+   "nome": "Viale Brigata Treviso - Bivio Via Feruglio",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-tre-venezie",
+   "tipo": "autobus",
+   "lat": 45.678675,
+   "lon": 12.218077,
+   "nome": "Via Tre Venezie",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-tronconi-2",
+   "tipo": "autobus",
+   "lat": 45.67884,
+   "lon": 12.220083,
+   "nome": "V.le Europa - Bivio Via Tronconi",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-emilia-bar-rok",
+   "tipo": "autobus",
+   "lat": 45.678846,
+   "lon": 12.215901,
+   "nome": "Via Emilia - Bar Rok",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-istituti-fermi-e-luzzati-2",
+   "tipo": "autobus",
+   "lat": 45.678988,
+   "lon": 12.247575,
+   "nome": "Strada di S. Pelaio - Istituti Fermi e Luzzati",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-caserma-salsa-2",
+   "tipo": "autobus",
+   "lat": 45.679014,
+   "lon": 12.254738,
+   "nome": "Caserma Salsa",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-caserma-salsa",
+   "tipo": "autobus",
+   "lat": 45.679026,
+   "lon": 12.254627,
+   "nome": "Caserma Salsa",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-emilia-bar-rok-2",
+   "tipo": "autobus",
+   "lat": 45.679065,
+   "lon": 12.216153,
+   "nome": "Via Emilia - Bar Rok",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-bivio-via-feruglio-2",
+   "tipo": "autobus",
+   "lat": 45.679213,
+   "lon": 12.251822,
+   "nome": "Viale Brigata Treviso - Bivio Via Feruglio",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-istituti-fermi-e-luzzati",
+   "tipo": "autobus",
+   "lat": 45.679265,
+   "lon": 12.247697,
+   "nome": "Strada di S. Pelaio - Istituti Fermi e Luzzati",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-san-liberale",
+   "tipo": "autobus",
+   "lat": 45.679301,
+   "lon": 12.218223,
+   "nome": "San Liberale",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-europa-bivio-via-tronconi",
+   "tipo": "autobus",
+   "lat": 45.67944,
+   "lon": 12.219871,
+   "nome": "V.le Europa - Bivio Via Tronconi",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-via-ronchese-2",
+   "tipo": "autobus",
+   "lat": 45.679823,
+   "lon": 12.225972,
+   "nome": "Via Ronchese",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-ronchese",
+   "tipo": "autobus",
+   "lat": 45.680028,
+   "lon": 12.225541,
+   "nome": "Via Ronchese",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-teatro-sant-anna-2",
+   "tipo": "autobus",
+   "lat": 45.680595,
+   "lon": 12.252317,
+   "nome": "Viale Brigata Treviso - Teatro Sant'Anna",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-teatro-sant-anna",
+   "tipo": "autobus",
+   "lat": 45.680636,
+   "lon": 12.252162,
+   "nome": "Viale Brigata Treviso - Teatro Sant'Anna",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-salsa-bivio-via-ugo-bassi-2",
+   "tipo": "autobus",
+   "lat": 45.680781,
+   "lon": 12.255272,
+   "nome": "Via Salsa - Bivio Via Ugo Bassi",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-salsa-bivio-via-ugo-bassi",
+   "tipo": "autobus",
+   "lat": 45.680863,
+   "lon": 12.255413,
+   "nome": "Via Salsa - Bivio Via Ugo Bassi",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-fronte-civ-12",
+   "tipo": "autobus",
+   "lat": 45.681203,
+   "lon": 12.244344,
+   "nome": "Strada di S. Pelaio - Fronte Civ. 12",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-civ-12",
+   "tipo": "autobus",
+   "lat": 45.68128,
+   "lon": 12.244325,
+   "nome": "Strada di S. Pelaio - Civ. 12",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-bianchini",
+   "tipo": "autobus",
+   "lat": 45.681482,
+   "lon": 12.22304,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Bianchini",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-bianchini-2",
+   "tipo": "autobus",
+   "lat": 45.68156,
+   "lon": 12.222933,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Bianchini",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-germania-2",
+   "tipo": "autobus",
+   "lat": 45.681966,
+   "lon": 12.210706,
+   "nome": "V.le Nazioni Unite - Bivio V. Germania",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-strada-ovest",
+   "tipo": "autobus",
+   "lat": 45.682255,
+   "lon": 12.242006,
+   "nome": "Strada di S. Pelaio - Bivio Strada Ovest",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-v-le-olimpia",
+   "tipo": "autobus",
+   "lat": 45.682331,
+   "lon": 12.214075,
+   "nome": "V.le Olimpia",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-germania",
+   "tipo": "autobus",
+   "lat": 45.682376,
+   "lon": 12.210323,
+   "nome": "V.le Nazioni Unite - Bivio V. Germania",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-viale-della-repubblica",
+   "tipo": "autobus",
+   "lat": 45.68239,
+   "lon": 12.24207,
+   "nome": "Strada di S. Pelaio - Bivio Viale della Repubblica",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-santa-maria-del-rovere",
+   "tipo": "autobus",
+   "lat": 45.682481,
+   "lon": 12.252856,
+   "nome": "Viale Brigata Treviso - Santa Maria del Rovere",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-scuole-pascoli",
+   "tipo": "autobus",
+   "lat": 45.682505,
+   "lon": 12.255923,
+   "nome": "Scuole Pascoli",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-brigata-treviso-santa-maria-del-rovere-2",
+   "tipo": "autobus",
+   "lat": 45.682603,
+   "lon": 12.253079,
+   "nome": "Viale Brigata Treviso - Santa Maria del Rovere",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-scuole-pascoli-2",
+   "tipo": "autobus",
+   "lat": 45.682643,
+   "lon": 12.256075,
+   "nome": "Scuole Pascoli",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-coubertin-2",
+   "tipo": "autobus",
+   "lat": 45.682799,
+   "lon": 12.2218,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Coubertin",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-coubertin",
+   "tipo": "autobus",
+   "lat": 45.682825,
+   "lon": 12.221954,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Coubertin",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-v-le-italia-1",
+   "tipo": "autobus",
+   "lat": 45.683027,
+   "lon": 12.214747,
+   "nome": "V.le Italia 1",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-italia-2",
+   "tipo": "autobus",
+   "lat": 45.683145,
+   "lon": 12.214742,
+   "nome": "V.le Italia 2",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-monastero-di-clausura-2",
+   "tipo": "autobus",
+   "lat": 45.683452,
+   "lon": 12.239907,
+   "nome": "Strada di S. Pelaio - Monastero di Clausura",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-olanda",
+   "tipo": "autobus",
+   "lat": 45.683625,
+   "lon": 12.208591,
+   "nome": "V.le Nazioni Unite - Bivio V. Olanda",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-olanda-2",
+   "tipo": "autobus",
+   "lat": 45.683695,
+   "lon": 12.208627,
+   "nome": "V.le Nazioni Unite - Bivio V. Olanda",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-monastero-di-clausura",
+   "tipo": "autobus",
+   "lat": 45.684168,
+   "lon": 12.239185,
+   "nome": "Strada di S. Pelaio - Monastero di Clausura",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-salsa-civ-79",
+   "tipo": "autobus",
+   "lat": 45.684314,
+   "lon": 12.256623,
+   "nome": "Via Salsa - Civ. 79",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-salsa-civ-79-2",
+   "tipo": "autobus",
+   "lat": 45.684492,
+   "lon": 12.256777,
+   "nome": "Via Salsa - Civ. 79",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-italia-13",
+   "tipo": "autobus",
+   "lat": 45.684645,
+   "lon": 12.21333,
+   "nome": "Viale Italia 13",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-scuole-coletti-2",
+   "tipo": "autobus",
+   "lat": 45.684672,
+   "lon": 12.219607,
+   "nome": "Strada di Santa Bona Nuova - Scuole Coletti",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-italia-8",
+   "tipo": "autobus",
+   "lat": 45.684698,
+   "lon": 12.213405,
+   "nome": "Viale Italia 8",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-hotel-scala-2",
+   "tipo": "autobus",
+   "lat": 45.684725,
+   "lon": 12.254335,
+   "nome": "Viale Felissent - Hotel Scala",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-scuole-coletti",
+   "tipo": "autobus",
+   "lat": 45.685049,
+   "lon": 12.219276,
+   "nome": "Strada di Santa Bona Nuova - Scuole Coletti",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-strada-vecchia-2",
+   "tipo": "autobus",
+   "lat": 45.685275,
+   "lon": 12.237944,
+   "nome": "Strada di S. Pelaio - Bivio Via Strada Vecchia",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-biv-via-ghirlanda-2",
+   "tipo": "autobus",
+   "lat": 45.685293,
+   "lon": 12.259253,
+   "nome": "Biv. Via Ghirlanda",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-grecia",
+   "tipo": "autobus",
+   "lat": 45.68532,
+   "lon": 12.206408,
+   "nome": "V.le Nazioni Unite - Bivio V. Grecia",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-strada-vecchia",
+   "tipo": "autobus",
+   "lat": 45.685336,
+   "lon": 12.237697,
+   "nome": "Strada di S. Pelaio - Bivio Via Strada Vecchia",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-hotel-scala",
+   "tipo": "autobus",
+   "lat": 45.685349,
+   "lon": 12.254967,
+   "nome": "Viale Felissent - Hotel Scala",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-v-grecia-2",
+   "tipo": "autobus",
+   "lat": 45.685411,
+   "lon": 12.206423,
+   "nome": "V.le Nazioni Unite - Bivio V. Grecia",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-biv-via-ghirlanda",
+   "tipo": "autobus",
+   "lat": 45.685425,
+   "lon": 12.25931,
+   "nome": "Biv. Via Ghirlanda",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-italia-33",
+   "tipo": "autobus",
+   "lat": 45.687098,
+   "lon": 12.211212,
+   "nome": "Viale Italia 33",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-italia-37",
+   "tipo": "autobus",
+   "lat": 45.687242,
+   "lon": 12.211199,
+   "nome": "Viale Italia 37",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-viale-naz-unite-civ-99",
+   "tipo": "autobus",
+   "lat": 45.687568,
+   "lon": 12.206266,
+   "nome": "Viale Naz. Unite Civ. 99",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-v-le-nazioni-unite-bivio-borgo-furo",
+   "tipo": "autobus",
+   "lat": 45.687856,
+   "lon": 12.20684,
+   "nome": "V.le Nazioni Unite - Bivio Borgo Furo",
+   "linee": [
+    "9"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-tipografia-2",
+   "tipo": "autobus",
+   "lat": 45.687889,
+   "lon": 12.216064,
+   "nome": "Strada di Santa Bona Nuova - Tipografia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-tipografia",
+   "tipo": "autobus",
+   "lat": 45.6881,
+   "lon": 12.215629,
+   "nome": "Strada di Santa Bona Nuova - Tipografia",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-villa-margherita",
+   "tipo": "autobus",
+   "lat": 45.688478,
+   "lon": 12.256504,
+   "nome": "Viale Felissent - Villa Margherita",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-civ-56",
+   "tipo": "autobus",
+   "lat": 45.688508,
+   "lon": 12.235945,
+   "nome": "Strada di S. Pelaio - Civ. 56",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirlanda",
+   "tipo": "autobus",
+   "lat": 45.688604,
+   "lon": 12.260167,
+   "nome": "Via Ghirlanda",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-villa-margherita-2",
+   "tipo": "autobus",
+   "lat": 45.688846,
+   "lon": 12.256817,
+   "nome": "Viale Felissent - Villa Margherita",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-ghirlanda-2",
+   "tipo": "autobus",
+   "lat": 45.688972,
+   "lon": 12.260531,
+   "nome": "Via Ghirlanda",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-civ-56-2",
+   "tipo": "autobus",
+   "lat": 45.688997,
+   "lon": 12.235524,
+   "nome": "Strada di S. Pelaio - Civ. 56",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-scuole-toniolo",
+   "tipo": "autobus",
+   "lat": 45.68915,
+   "lon": 12.214285,
+   "nome": "Strada di Santa Bona Nuova - Scuole Toniolo",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-scuole-bianchetti",
+   "tipo": "autobus",
+   "lat": 45.689492,
+   "lon": 12.2139,
+   "nome": "Strada di Santa Bona Nuova - Scuole Bianchetti",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-sant-artemio",
+   "tipo": "autobus",
+   "lat": 45.690928,
+   "lon": 12.264887,
+   "nome": "Sant'Artemio",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-strada-dei-biscari-2",
+   "tipo": "autobus",
+   "lat": 45.691007,
+   "lon": 12.212936,
+   "nome": "Strada di Santa Bona Nuova - Bivio Strada dei Biscari",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-edicola",
+   "tipo": "autobus",
+   "lat": 45.691302,
+   "lon": 12.233431,
+   "nome": "Strada di S. Pelaio - Edicola",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-strada-dei-biscari",
+   "tipo": "autobus",
+   "lat": 45.691329,
+   "lon": 12.212837,
+   "nome": "Strada di Santa Bona Nuova - Bivio Strada dei Biscari",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-edicola-2",
+   "tipo": "autobus",
+   "lat": 45.69171,
+   "lon": 12.233185,
+   "nome": "Strada di S. Pelaio - Edicola",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-ai-palazzoni",
+   "tipo": "autobus",
+   "lat": 45.693284,
+   "lon": 12.211533,
+   "nome": "Strada di Santa Bona Nuova - Ai Palazzoni",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-ippodromo-sant-artemio-2",
+   "tipo": "autobus",
+   "lat": 45.693448,
+   "lon": 12.258937,
+   "nome": "Viale Felissent - Ippodromo Sant'Artemio",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-borgo-capriolo",
+   "tipo": "autobus",
+   "lat": 45.693489,
+   "lon": 12.211603,
+   "nome": "Strada di Santa Bona Nuova - Borgo Capriolo",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-piazzale-costituzione",
+   "tipo": "autobus",
+   "lat": 45.693696,
+   "lon": 12.231339,
+   "nome": "Strada di S. Pelaio - Piazzale Costituzione",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-ippodromo-sant-artemio",
+   "tipo": "autobus",
+   "lat": 45.693827,
+   "lon": 12.25914,
+   "nome": "Viale Felissent - Ippodromo Sant'Artemio",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-cartera",
+   "tipo": "autobus",
+   "lat": 45.693972,
+   "lon": 12.231259,
+   "nome": "Strada di S. Pelaio - Bivio Via Cartera",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-localit-barisella-2",
+   "tipo": "autobus",
+   "lat": 45.695009,
+   "lon": 12.211237,
+   "nome": "Strada di Santa Bona Nuova - Località Barisella",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-chiesa",
+   "tipo": "autobus",
+   "lat": 45.695414,
+   "lon": 12.228308,
+   "nome": "Strada di S. Pelaio - Chiesa",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-localit-barisella",
+   "tipo": "autobus",
+   "lat": 45.695467,
+   "lon": 12.210749,
+   "nome": "Strada di Santa Bona Nuova - Località Barisella",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-chiesa-2",
+   "tipo": "autobus",
+   "lat": 45.695518,
+   "lon": 12.228248,
+   "nome": "Strada di S. Pelaio - Chiesa",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-ai-marmi",
+   "tipo": "autobus",
+   "lat": 45.696733,
+   "lon": 12.226158,
+   "nome": "Strada di S. Pelaio - Ai Marmi",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-ai-marmi-2",
+   "tipo": "autobus",
+   "lat": 45.697035,
+   "lon": 12.226057,
+   "nome": "Strada di S. Pelaio - Ai Marmi",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-bivio-viale-della-repubblica-2",
+   "tipo": "autobus",
+   "lat": 45.697516,
+   "lon": 12.259169,
+   "nome": "Viale Felissent - Bivio Viale della Repubblica",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-bivio-viale-della-repubblica",
+   "tipo": "autobus",
+   "lat": 45.697568,
+   "lon": 12.258984,
+   "nome": "Viale Felissent - Bivio Viale della Repubblica",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-civ-230",
+   "tipo": "autobus",
+   "lat": 45.698213,
+   "lon": 12.207208,
+   "nome": "Strada di Santa Bona Nuova - Civ. 230",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-civ-230-2",
+   "tipo": "autobus",
+   "lat": 45.698313,
+   "lon": 12.207235,
+   "nome": "Strada di Santa Bona Nuova - Civ. 230",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-buca-dell-olio-2",
+   "tipo": "autobus",
+   "lat": 45.698965,
+   "lon": 12.224012,
+   "nome": "Strada di S. Pelaio - Bivio Via Buca dell'Olio",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-buca-dell-olio",
+   "tipo": "autobus",
+   "lat": 45.69905,
+   "lon": 12.224079,
+   "nome": "Strada di S. Pelaio - Bivio Via Buca dell'Olio",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-reinhart",
+   "tipo": "autobus",
+   "lat": 45.699399,
+   "lon": 12.205927,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Reinhart",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-reinhart-2",
+   "tipo": "autobus",
+   "lat": 45.700018,
+   "lon": 12.205179,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Reinhart",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-hotel-due-ragni-2",
+   "tipo": "autobus",
+   "lat": 45.700982,
+   "lon": 12.259214,
+   "nome": "Viale Felissent - Hotel Due Ragni",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-viale-felissent-hotel-due-ragni",
+   "tipo": "autobus",
+   "lat": 45.701048,
+   "lon": 12.259069,
+   "nome": "Viale Felissent - Hotel Due Ragni",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-granzetta-2",
+   "tipo": "autobus",
+   "lat": 45.701963,
+   "lon": 12.221695,
+   "nome": "Strada di S. Pelaio - Bivio Via Granzetta",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-s-pelaio-bivio-via-granzetta",
+   "tipo": "autobus",
+   "lat": 45.702129,
+   "lon": 12.221471,
+   "nome": "Strada di S. Pelaio - Bivio Via Granzetta",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-ponzano-2",
+   "tipo": "autobus",
+   "lat": 45.703093,
+   "lon": 12.204005,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Ponzano",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-strada-di-santa-bona-nuova-bivio-via-ponzano",
+   "tipo": "autobus",
+   "lat": 45.703334,
+   "lon": 12.204129,
+   "nome": "Strada di Santa Bona Nuova - Bivio Via Ponzano",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-marconi",
+   "tipo": "autobus",
+   "lat": 45.7039,
+   "lon": 12.220972,
+   "nome": "Ponzano - Via Marconi",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-marconi-2",
+   "tipo": "autobus",
+   "lat": 45.703906,
+   "lon": 12.221078,
+   "nome": "Ponzano - Via Marconi",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-istituti-lancenigo",
+   "tipo": "autobus",
+   "lat": 45.706234,
+   "lon": 12.259452,
+   "nome": "Via Roma - Istituti Lancenigo",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-istituti-lancenigo-2",
+   "tipo": "autobus",
+   "lat": 45.706525,
+   "lon": 12.259693,
+   "nome": "Via Roma - Istituti Lancenigo",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-colombera-civ-16",
+   "tipo": "autobus",
+   "lat": 45.706875,
+   "lon": 12.201913,
+   "nome": "Via Colombera - Civ. 16",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-livello-2",
+   "tipo": "autobus",
+   "lat": 45.707172,
+   "lon": 12.223244,
+   "nome": "Ponzano - Via Livello",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-colombera-civ-18",
+   "tipo": "autobus",
+   "lat": 45.707177,
+   "lon": 12.201735,
+   "nome": "Via Colombera - Civ. 18",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-livello",
+   "tipo": "autobus",
+   "lat": 45.707219,
+   "lon": 12.223153,
+   "nome": "Ponzano - Via Livello",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-villa-minelli",
+   "tipo": "autobus",
+   "lat": 45.708734,
+   "lon": 12.216939,
+   "nome": "Via Roma - Villa Minelli",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-rotonda",
+   "tipo": "autobus",
+   "lat": 45.708768,
+   "lon": 12.269355,
+   "nome": "Via Piave - Rotonda",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bar-da-frigo",
+   "tipo": "autobus",
+   "lat": 45.708978,
+   "lon": 12.216535,
+   "nome": "Via Roma - Bar Da Frigo",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-fronte-stabilimento-benetton",
+   "tipo": "autobus",
+   "lat": 45.708987,
+   "lon": 12.219438,
+   "nome": "Fronte Stabilimento Benetton",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-stabilimento-benetton",
+   "tipo": "autobus",
+   "lat": 45.709118,
+   "lon": 12.219439,
+   "nome": "Stabilimento Benetton",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-chiesa-2",
+   "tipo": "autobus",
+   "lat": 45.709592,
+   "lon": 12.222621,
+   "nome": "Ponzano - Via Chiesa",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-ponzano-via-chiesa",
+   "tipo": "autobus",
+   "lat": 45.709759,
+   "lon": 12.222381,
+   "nome": "Ponzano - Via Chiesa",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-merlengo-cimitero",
+   "tipo": "autobus",
+   "lat": 45.709914,
+   "lon": 12.200203,
+   "nome": "Merlengo - Cimitero",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-merlengo-cimitero-2",
+   "tipo": "autobus",
+   "lat": 45.709948,
+   "lon": 12.200434,
+   "nome": "Merlengo - Cimitero",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-carit",
+   "tipo": "autobus",
+   "lat": 45.710027,
+   "lon": 12.259585,
+   "nome": "Via Roma - Carità",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-civ-52",
+   "tipo": "autobus",
+   "lat": 45.710108,
+   "lon": 12.270662,
+   "nome": "Via Piave - Civ. 52",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-civ-52-2",
+   "tipo": "autobus",
+   "lat": 45.710304,
+   "lon": 12.271002,
+   "nome": "Via Piave - Civ. 52",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-carit-2",
+   "tipo": "autobus",
+   "lat": 45.710404,
+   "lon": 12.259772,
+   "nome": "Via Roma - Carità",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-della-libert-civ-6a-2",
+   "tipo": "autobus",
+   "lat": 45.710602,
+   "lon": 12.264221,
+   "nome": "Via della Libertà - Civ. 6A",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-della-libert-civ-6a",
+   "tipo": "autobus",
+   "lat": 45.710782,
+   "lon": 12.263738,
+   "nome": "Via della Libertà - Civ. 6A",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-mazzini-2",
+   "tipo": "autobus",
+   "lat": 45.711061,
+   "lon": 12.214444,
+   "nome": "Via Roma - Bivio Via Mazzini",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-mazzini",
+   "tipo": "autobus",
+   "lat": 45.711331,
+   "lon": 12.213991,
+   "nome": "Via Roma - Bivio Via Mazzini",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-morganella-ovest",
+   "tipo": "autobus",
+   "lat": 45.712647,
+   "lon": 12.203696,
+   "nome": "Via Morganella Ovest",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-carit-capolinea",
+   "tipo": "autobus",
+   "lat": 45.712746,
+   "lon": 12.259963,
+   "nome": "Carità - Capolinea",
+   "linee": [
+    "1",
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-morganella-ovest-2",
+   "tipo": "autobus",
+   "lat": 45.712756,
+   "lon": 12.203725,
+   "nome": "Via Morganella Ovest",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-pizzeria",
+   "tipo": "autobus",
+   "lat": 45.712853,
+   "lon": 12.272953,
+   "nome": "Via Piave - Pizzeria",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-carit-via-marconi",
+   "tipo": "autobus",
+   "lat": 45.713096,
+   "lon": 12.259758,
+   "nome": "Carità - Via Marconi",
+   "linee": [
+    "1"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-fratelli-bandiera",
+   "tipo": "autobus",
+   "lat": 45.713114,
+   "lon": 12.212396,
+   "nome": "Via Roma - Bivio Via Fratelli Bandiera",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-via-roma-bivio-via-fratelli-bandiera-2",
+   "tipo": "autobus",
+   "lat": 45.713303,
+   "lon": 12.212349,
+   "nome": "Via Roma - Bivio Via Fratelli Bandiera",
+   "linee": [
+    "61"
+   ]
+  },
+  {
+   "id": "autobus-merlengo-capolinea",
+   "tipo": "autobus",
+   "lat": 45.713718,
+   "lon": 12.191181,
+   "nome": "Merlengo - Capolinea",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-merlengo-chiesa-2",
+   "tipo": "autobus",
+   "lat": 45.714024,
+   "lon": 12.197274,
+   "nome": "Merlengo - Chiesa",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-civ-173-2",
+   "tipo": "autobus",
+   "lat": 45.714153,
+   "lon": 12.274122,
+   "nome": "Via Piave - Civ. 173",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-via-piave-civ-173",
+   "tipo": "autobus",
+   "lat": 45.714315,
+   "lon": 12.274115,
+   "nome": "Via Piave - Civ. 173",
+   "linee": [
+    "12"
+   ]
+  },
+  {
+   "id": "autobus-merlengo-chiesa",
+   "tipo": "autobus",
+   "lat": 45.714416,
+   "lon": 12.19656,
+   "nome": "Merlengo Chiesa",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-talponera-enel",
+   "tipo": "autobus",
+   "lat": 45.714856,
+   "lon": 12.186588,
+   "nome": "Via Talponera - ENEL",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-talponera-enel-2",
+   "tipo": "autobus",
+   "lat": 45.714939,
+   "lon": 12.186623,
+   "nome": "Via Talponera - ENEL",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-volpago-sud",
+   "tipo": "autobus",
+   "lat": 45.715148,
+   "lon": 12.200927,
+   "nome": "Via Volpago Sud",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-volpago-sud-2",
+   "tipo": "autobus",
+   "lat": 45.715157,
+   "lon": 12.201111,
+   "nome": "Via Volpago Sud",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-talponera-civ-90",
+   "tipo": "autobus",
+   "lat": 45.716014,
+   "lon": 12.181859,
+   "nome": "Via Talponera - Civ. 90",
+   "linee": [
+    "55"
+   ]
+  },
+  {
+   "id": "autobus-via-talponera-civ-90-2",
+   "tipo": "autobus",
+   "lat": 45.71612,
+   "lon": 12.181728,
+   "nome": "Via Talponera - Civ. 90",
+   "linee": [
+    "55"
+   ]
+  }
+ ]
+}
