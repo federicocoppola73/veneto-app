@@ -17,8 +17,6 @@ const LARGHEZZA_NOME = 120; // larghezza massima della scritta (come styles.etic
 const LARGHEZZA_CARATTERE = 6.3; // stima per il carattere 11 grassetto
 const ALTEZZA_RIGA = 14;
 const SPAZIO_TRA_NOMI = 2;
-const PALLINO_ZOOM_PIENO = 3; // fino a questo ingrandimento i pallini hanno la grandezza normale
-const PALLINO_MIN = 0.45; // grandezza minima dei pallini (proporzione) all'ingrandimento massimo
 const ZOOM_RICERCA = 4.5; // ingrandimento usato quando si sceglie un luogo dalla ricerca
 const RAGGIO_TOCCO = 26; // distanza massima (px) tra dito e pallino per aprire il luogo
 const MOVIMENTO_TAP = 10; // sotto questo spostamento (px) un tocco è un "tap", non un trascinamento
@@ -414,9 +412,6 @@ function MappaZoomabile(
     [punti, scalaNomi, base, evidenziato]
   );
   const scalaInversa = Animated.divide(1, scala); // i pallini restano della stessa grandezza
-  // Con l'ingrandimento i pallini dei luoghi si rimpiccioliscono (fino a PALLINO_MIN), così quelli
-  // vicini non si sovrappongono. Le scritte restano della stessa grandezza.
-  const scalaPallino = scala.interpolate({ inputRange: [1, PALLINO_ZOOM_PIENO, ZOOM_MAX], outputRange: [1, 1, PALLINO_MIN], extrapolate: 'clamp' });
 
   // Tessere dettagliate visibili: il livello dipende da quanto è ingrandita la mappa
   // (pixel reali dello schermo per ogni pixel dell'immagine base)
@@ -631,14 +626,13 @@ function MappaZoomabile(
                   nomiVisibili.has(p.id) && styles.markerConNome,
                 ]}
               >
-                <Animated.View
+                <View
                   style={[
                     styles.puntino,
                     { backgroundColor: p.colore },
                     numerato && styles.puntinoNumero,
                     p.spento && styles.puntinoSpento,
                     scelto && styles.puntinoScelto,
-                    { transform: [{ scale: numerato ? 1 : scalaPallino }] },
                   ]}
                   accessibilityLabel={p.etichetta}
                 >
@@ -647,7 +641,7 @@ function MappaZoomabile(
                   ) : (
                     <View style={styles.puntinoInterno} />
                   )}
-                </Animated.View>
+                </View>
                 {p.visitato && !numerato && (
                   <View style={styles.spuntaVisitato}>
                     <Text style={styles.testoSpuntaVisitato}>{'✓\uFE0E'}</Text>
