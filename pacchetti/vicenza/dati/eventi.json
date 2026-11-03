@@ -45,6 +45,50 @@
       "link": "https://artisfestival.it/"
     },
     {
+      "nome": "Non ho l'età - Mercato antiquariato, collezionismo e vintage",
+      "tipo": {
+        "it": "Mercato",
+        "en": "Market",
+        "fr": "Marché",
+        "de": "Markt",
+        "es": "Mercado"
+      },
+      "inizio": "2026-11-11",
+      "fine": "2026-11-11",
+      "luogo": "Centro storico di Vicenza (piazze e vie)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Mercato dell'antiquariato, del collezionismo e del vintage nelle piazze e vie del centro, come ogni seconda domenica del mese.",
+        "en": "Antiques, collectibles and vintage market across the squares and streets of the historic centre, held on the second Sunday of each month.",
+        "fr": "Marché de l'antiquité, des objets de collection et du vintage dans les places et rues du centre historique, le deuxième dimanche de chaque mois.",
+        "de": "Antiquitäten-, Sammler- und Vintage-Markt auf den Plätzen und Straßen der Altstadt, jeden zweiten Sonntag im Monat.",
+        "es": "Mercado de antigüedades, coleccionismo y vintage en las plazas y calles del centro histórico, el segundo domingo de cada mes."
+      },
+      "link": "https://www.comune.vicenza.it/vicenza/eventi/evento.php/210448"
+    },
+    {
+      "nome": "Vicenza Comics & Games",
+      "tipo": {
+        "it": "Fiera",
+        "en": "Fair",
+        "fr": "Salon",
+        "de": "Messe",
+        "es": "Feria"
+      },
+      "inizio": "2026-11-14",
+      "fine": "2026-11-15",
+      "luogo": "Fiera di Vicenza",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Fiera-festival dedicata a fumetti, manga, anime, videogiochi e cosplay, dalle 10 alle 19 entrambi i giorni.",
+        "en": "Fair and festival dedicated to comics, manga, anime, video games and cosplay, 10:00 to 19:00 both days.",
+        "fr": "Salon-festival consacré aux bandes dessinées, mangas, animés, jeux vidéo et cosplay, de 10h à 19h les deux jours.",
+        "de": "Messe und Festival für Comics, Manga, Anime, Videospiele und Cosplay, an beiden Tagen von 10 bis 19 Uhr.",
+        "es": "Feria y festival dedicados a cómics, manga, anime, videojuegos y cosplay, de 10:00 a 19:00 ambos días."
+      },
+      "link": "https://www.fieredelfumetto.it/vicenza-comics-games"
+    },
+    {
       "nome": "Gloria - Il Musical",
       "tipo": {
         "it": "Musical",
@@ -65,6 +109,28 @@
         "es": "Musical sobre el repertorio de Umberto Tozzi, con el público invitado a cantar."
       },
       "link": "https://www.umbertotozzi.com/"
+    },
+    {
+      "nome": "Non ho l'età - Mercato antiquariato, collezionismo e vintage",
+      "tipo": {
+        "it": "Mercato",
+        "en": "Market",
+        "fr": "Marché",
+        "de": "Markt",
+        "es": "Mercado"
+      },
+      "inizio": "2026-12-13",
+      "fine": "2026-12-13",
+      "luogo": "Centro storico di Vicenza (piazze e vie)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Edizione di dicembre, prevista per la seconda domenica del mese: data da confermare sul sito del Comune.",
+        "en": "December edition, expected on the second Sunday of the month: date to be confirmed on the city's website.",
+        "fr": "Édition de décembre, prévue le deuxième dimanche du mois : date à confirmer sur le site de la Ville.",
+        "de": "Dezember-Ausgabe, voraussichtlich am zweiten Sonntag des Monats: Termin auf der Website der Stadt bestätigen.",
+        "es": "Edición de diciembre, prevista para el segundo domingo del mes: fecha por confirmar en la web del Ayuntamiento."
+      },
+      "link": "https://www.comune.vicenza.it/vicenza/eventi/evento.php/210448"
     },
     {
       "nome": "Lo Schiaccianoci - Compagnia Roma City Ballet",
