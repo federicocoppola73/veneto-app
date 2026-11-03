@@ -211,7 +211,28 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "gian-giorgio-trissino",
+          "testo": {
+            "it": "Gian Giorgio Trissino ebbe un ruolo fondamentale nella formazione e nell'affermazione di Andrea Palladio. Dopo averne riconosciuto il talento, lo prese sotto la propria protezione, lo introdusse agli studi dell'architettura classica e lo accompagnò in alcuni viaggi a Roma per conoscere da vicino i monumenti antichi. Fu probabilmente Trissino ad attribuirgli il nome Palladio, con il quale sarebbe diventato famoso. Il loro incontro è tradizionalmente collocato nella Villa Trissino a Cricoli, anche se questo episodio non è documentato con certezza.",
+            "en": "Gian Giorgio Trissino played a key role in the training and rise of Andrea Palladio. After recognising his talent, he took him under his protection, introduced him to the study of classical architecture and accompanied him on some trips to Rome to see the ancient monuments at first hand. It was probably Trissino who gave him the name Palladio, under which he would become famous. Their meeting is traditionally placed at the Villa Trissino at Cricoli, although this episode is not documented with certainty.",
+            "fr": "Gian Giorgio Trissino joua un rôle essentiel dans la formation et l'essor d'Andrea Palladio. Après avoir reconnu son talent, il le prit sous sa protection, l'initia à l'étude de l'architecture classique et l'accompagna lors de voyages à Rome pour découvrir de près les monuments antiques. C'est probablement Trissino qui lui donna le nom de Palladio, sous lequel il devint célèbre. Leur rencontre est traditionnellement située à la villa Trissino de Cricoli, bien que cet épisode ne soit pas documenté avec certitude.",
+            "de": "Gian Giorgio Trissino spielte eine entscheidende Rolle für die Ausbildung und den Aufstieg Andrea Palladios. Nachdem er dessen Talent erkannt hatte, nahm er ihn unter seine Obhut, führte ihn in das Studium der klassischen Architektur ein und begleitete ihn auf Reisen nach Rom, um die antiken Monumente aus nächster Nähe kennenzulernen. Wahrscheinlich war es Trissino, der ihm den Namen Palladio gab, unter dem er berühmt werden sollte. Ihre Begegnung wird traditionell in der Villa Trissino in Cricoli angesiedelt, auch wenn dieser Vorfall nicht mit Sicherheit belegt ist.",
+            "es": "Gian Giorgio Trissino desempeñó un papel fundamental en la formación y el ascenso de Andrea Palladio. Tras reconocer su talento, lo tomó bajo su protección, lo introdujo en el estudio de la arquitectura clásica y lo acompañó en algunos viajes a Roma para conocer de cerca los monumentos antiguos. Fue probablemente Trissino quien le dio el nombre de Palladio, con el que llegaría a ser famoso. Su encuentro se sitúa tradicionalmente en la Villa Trissino de Cricoli, aunque este episodio no está documentado con certeza."
+          }
+        },
+        {
+          "id": "vincenzo-scamozzi",
+          "testo": {
+            "it": "Vincenzo Scamozzi fu uno dei principali architetti che raccolsero l'eredità artistica di Andrea Palladio. Più giovane di una generazione, studiò attentamente le sue opere e ne sviluppò alcuni principi architettonici secondo una visione personale. Dopo la morte di Palladio, nel 1580, Scamozzi fu incaricato di completare il Teatro Olimpico di Vicenza, progettando le celebri scenografie prospettiche delle Sette vie di Tebe, realizzate per l'inaugurazione del 1585. Il teatro rappresenta una delle testimonianze più importanti della continuità tra i due architetti.",
+            "en": "Vincenzo Scamozzi was one of the leading architects who inherited the artistic legacy of Andrea Palladio. A generation younger, he studied his works closely and developed some of his architectural principles in a personal way. After Palladio's death in 1580, Scamozzi was commissioned to complete the Teatro Olimpico in Vicenza, designing the famous perspective sets of the Seven Streets of Thebes, created for the inauguration in 1585. The theatre is one of the most important testimonies to the continuity between the two architects.",
+            "fr": "Vincenzo Scamozzi fut l'un des principaux architectes qui recueillirent l'héritage artistique d'Andrea Palladio. Plus jeune d'une génération, il étudia attentivement ses œuvres et développa certains de ses principes architecturaux selon une vision personnelle. Après la mort de Palladio, en 1580, Scamozzi fut chargé d'achever le Teatro Olimpico de Vicence, concevant les célèbres décors en perspective des Sept rues de Thèbes, réalisés pour l'inauguration de 1585. Le théâtre est l'un des témoignages les plus importants de la continuité entre les deux architectes.",
+            "de": "Vincenzo Scamozzi gehörte zu den wichtigsten Architekten, die das künstlerische Erbe Andrea Palladios übernahmen. Eine Generation jünger, studierte er dessen Werke genau und entwickelte einige seiner architektonischen Grundsätze auf eigene Weise. Nach Palladios Tod 1580 wurde Scamozzi beauftragt, das Teatro Olimpico in Vicenza zu vollenden, und entwarf die berühmten perspektivischen Bühnenbilder der Sieben Straßen von Theben, die zur Eröffnung 1585 entstanden. Das Theater ist eines der bedeutendsten Zeugnisse für die Kontinuität zwischen den beiden Architekten.",
+            "es": "Vincenzo Scamozzi fue uno de los principales arquitectos que recogieron el legado artístico de Andrea Palladio. Una generación más joven, estudió atentamente sus obras y desarrolló algunos de sus principios arquitectónicos según una visión personal. Tras la muerte de Palladio, en 1580, Scamozzi recibió el encargo de completar el Teatro Olimpico de Vicenza, diseñando las famosas escenografías en perspectiva de las Siete calles de Tebas, realizadas para la inauguración de 1585. El teatro es uno de los testimonios más importantes de la continuidad entre ambos arquitectos."
+          }
+        }
+      ]
     },
     {
       "id": "gian-giorgio-trissino",
@@ -356,7 +377,18 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "andrea-palladio",
+          "testo": {
+            "it": "Gian Giorgio Trissino riconobbe il talento del giovane Andrea della Gondola, futuro Andrea Palladio, e contribuì in modo decisivo alla sua formazione culturale e professionale. Lo introdusse allo studio dei trattati di architettura antica, lo accompagnò in alcuni viaggi di studio a Roma e lo mise in contatto con gli ambienti aristocratici e intellettuali vicentini. Fu inoltre probabilmente lui ad attribuirgli il nome Palladio. Il loro rapporto rappresenta uno degli incontri più importanti per la nascita dell'architettura palladiana.",
+            "en": "Gian Giorgio Trissino recognised the talent of the young Andrea della Gondola, the future Andrea Palladio, and made a decisive contribution to his cultural and professional training. He introduced him to the study of ancient architectural treatises, accompanied him on study trips to Rome and put him in touch with Vicentine aristocratic and intellectual circles. It was also probably he who gave him the name Palladio. Their relationship is one of the most important encounters in the birth of Palladian architecture.",
+            "fr": "Gian Giorgio Trissino reconnut le talent du jeune Andrea della Gondola, futur Andrea Palladio, et contribua de manière décisive à sa formation culturelle et professionnelle. Il l'initia à l'étude des traités d'architecture antique, l'accompagna lors de voyages d'études à Rome et le mit en relation avec les milieux aristocratiques et intellectuels vicentins. C'est probablement aussi lui qui lui donna le nom de Palladio. Leur relation constitue l'une des rencontres les plus importantes pour la naissance de l'architecture palladienne.",
+            "de": "Gian Giorgio Trissino erkannte das Talent des jungen Andrea della Gondola, des späteren Andrea Palladio, und trug entscheidend zu dessen kultureller und beruflicher Ausbildung bei. Er führte ihn in das Studium antiker Architekturtraktate ein, begleitete ihn auf Studienreisen nach Rom und brachte ihn mit den adligen und intellektuellen Kreisen Vicenzas in Kontakt. Wahrscheinlich war er es auch, der ihm den Namen Palladio gab. Ihre Beziehung gehört zu den wichtigsten Begegnungen für die Entstehung der palladianischen Architektur.",
+            "es": "Gian Giorgio Trissino reconoció el talento del joven Andrea della Gondola, futuro Andrea Palladio, y contribuyó de forma decisiva a su formación cultural y profesional. Lo introdujo en el estudio de los tratados de arquitectura antigua, lo acompañó en viajes de estudio a Roma y lo puso en contacto con los ambientes aristocráticos e intelectuales vicentinos. Fue probablemente también él quien le dio el nombre de Palladio. Su relación es uno de los encuentros más importantes para el nacimiento de la arquitectura palladiana."
+          }
+        }
+      ]
     },
     {
       "id": "vincenzo-scamozzi",
@@ -552,7 +584,18 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "andrea-palladio",
+          "testo": {
+            "it": "Andrea Palladio rappresentò un importante riferimento per la formazione e l'attività architettonica di Vincenzo Scamozzi. Pur sviluppando uno stile autonomo, Scamozzi studiò le opere e i principi del grande architetto vicentino, contribuendo alla prosecuzione della tradizione rinascimentale. Il loro legame è particolarmente evidente nel Teatro Olimpico: dopo la morte di Palladio, Scamozzi ne completò la costruzione e realizzò le scenografie prospettiche che ancora oggi caratterizzano il palcoscenico.",
+            "en": "Andrea Palladio was an important reference for the training and architectural work of Vincenzo Scamozzi. While developing an independent style, Scamozzi studied the works and principles of the great Vicentine architect, helping to continue the Renaissance tradition. Their link is especially evident in the Teatro Olimpico: after Palladio's death, Scamozzi completed its construction and created the perspective sets that still characterise the stage today.",
+            "fr": "Andrea Palladio fut une référence importante pour la formation et l'activité architecturale de Vincenzo Scamozzi. Tout en développant un style autonome, Scamozzi étudia les œuvres et les principes du grand architecte vicentin, contribuant à la prolongation de la tradition renaissante. Leur lien est particulièrement évident au Teatro Olimpico : après la mort de Palladio, Scamozzi en acheva la construction et réalisa les décors en perspective qui caractérisent encore aujourd'hui la scène.",
+            "de": "Andrea Palladio war ein wichtiger Bezugspunkt für die Ausbildung und die architektonische Tätigkeit Vincenzo Scamozzis. Während Scamozzi einen eigenständigen Stil entwickelte, studierte er die Werke und Grundsätze des großen Vicentiner Architekten und trug so zur Fortführung der Renaissance-Tradition bei. Ihre Verbindung zeigt sich besonders im Teatro Olimpico: Nach Palladios Tod vollendete Scamozzi den Bau und schuf die perspektivischen Bühnenbilder, die die Bühne bis heute prägen.",
+            "es": "Andrea Palladio fue una referencia importante para la formación y la actividad arquitectónica de Vincenzo Scamozzi. Aunque desarrolló un estilo propio, Scamozzi estudió las obras y los principios del gran arquitecto vicentino, contribuyendo a la prosecución de la tradición renacentista. Su vínculo es especialmente evidente en el Teatro Olimpico: tras la muerte de Palladio, Scamozzi completó su construcción y realizó las escenografías en perspectiva que aún hoy caracterizan el escenario."
+          }
+        }
+      ]
     }
   ]
 }
