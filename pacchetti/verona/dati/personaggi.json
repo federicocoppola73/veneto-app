@@ -750,6 +750,129 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "paolo-veronese",
+      "nome": "Paolo Caliari, detto il Veronese",
+      "nascita": 1528,
+      "morte": 1588,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "1528",
+        "en": "1528",
+        "fr": "1528",
+        "de": "1528",
+        "es": "1528"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "19 aprile 1588",
+        "en": "19 April 1588",
+        "fr": "19 avril 1588",
+        "de": "19. April 1588",
+        "es": "19 de abril de 1588"
+      },
+      "ritratto": {
+        "autore": "Paolo Veronese",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Paolo Caliari, conosciuto come il Veronese, fu uno dei più importanti pittori del Rinascimento italiano. Nato a Verona, si formò nella bottega del pittore Antonio Badile e sviluppò uno stile caratterizzato da colori luminosi, composizioni monumentali e grande ricchezza decorativa. Nel 1553 si trasferì a Venezia, dove raggiunse fama internazionale grazie alle sue grandi tele e decorazioni. Nonostante la sua carriera si sia svolta prevalentemente fuori Verona, la città natale conserva importanti testimonianze della sua attività artistica.",
+        "en": "Paolo Caliari, known as Veronese, was one of the most important painters of the Italian Renaissance. Born in Verona, he trained in the workshop of the painter Antonio Badile and developed a style marked by luminous colours, monumental compositions and great decorative richness. In 1553 he moved to Venice, where he achieved international fame thanks to his large canvases and decorations. Although his career unfolded mainly outside Verona, his native city preserves important traces of his artistic activity.",
+        "fr": "Paolo Caliari, connu sous le nom de Véronèse, fut l'un des plus grands peintres de la Renaissance italienne. Né à Vérone, il se forma dans l'atelier du peintre Antonio Badile et développa un style marqué par des couleurs lumineuses, des compositions monumentales et une grande richesse décorative. En 1553, il s'installa à Venise, où il acquit une renommée internationale grâce à ses grandes toiles et à ses décors. Bien que sa carrière se soit déroulée principalement hors de Vérone, sa ville natale conserve d'importants témoignages de son activité artistique.",
+        "de": "Paolo Caliari, bekannt als Veronese, war einer der bedeutendsten Maler der italienischen Renaissance. In Verona geboren, erlernte er das Handwerk in der Werkstatt des Malers Antonio Badile und entwickelte einen Stil, der von leuchtenden Farben, monumentalen Kompositionen und großem dekorativen Reichtum geprägt war. 1553 zog er nach Venedig, wo er dank seiner großformatigen Leinwände und Ausstattungen internationalen Ruhm erlangte. Obwohl sich seine Karriere vor allem außerhalb Veronas abspielte, bewahrt seine Geburtsstadt wichtige Zeugnisse seiner künstlerischen Tätigkeit.",
+        "es": "Paolo Caliari, conocido como el Veronés, fue uno de los pintores más importantes del Renacimiento italiano. Nacido en Verona, se formó en el taller del pintor Antonio Badile y desarrolló un estilo caracterizado por colores luminosos, composiciones monumentales y gran riqueza decorativa. En 1553 se trasladó a Venecia, donde alcanzó fama internacional gracias a sus grandes lienzos y decoraciones. Aunque su carrera se desarrolló principalmente fuera de Verona, su ciudad natal conserva importantes testimonios de su actividad artística."
+      },
+      "curiosita": {
+        "it": [
+          "Il soprannome «Veronese» deriva dalla sua città di nascita.",
+          "Fu uno dei principali protagonisti della pittura veneziana del Cinquecento insieme a Tiziano e Tintoretto.",
+          "Le sue opere sono caratterizzate da colori brillanti, architetture scenografiche e numerose figure.",
+          "Tra i suoi capolavori più celebri si ricordano le grandi Cene evangeliche e le decorazioni di Palazzo Ducale a Venezia."
+        ],
+        "en": [
+          "The nickname «Veronese» derives from his city of birth.",
+          "He was one of the leading protagonists of sixteenth-century Venetian painting together with Titian and Tintoretto.",
+          "His works are marked by brilliant colours, theatrical architectures and numerous figures.",
+          "Among his most famous masterpieces are the great Gospel Feasts (Cene evangeliche) and the decorations of the Doge's Palace in Venice."
+        ],
+        "fr": [
+          "Le surnom « Veronese » dérive de sa ville natale.",
+          "Il fut l'un des principaux protagonistes de la peinture vénitienne du XVIe siècle, aux côtés de Titien et du Tintoret.",
+          "Ses œuvres se distinguent par des couleurs éclatantes, des architectures scénographiques et de nombreuses figures.",
+          "Parmi ses chefs-d'œuvre les plus célèbres figurent les grands Repas évangéliques (Cene evangeliche) et les décors du Palais des Doges à Venise."
+        ],
+        "de": [
+          "Der Beiname «Veronese» leitet sich von seiner Geburtsstadt ab.",
+          "Zusammen mit Tizian und Tintoretto war er einer der führenden Protagonisten der venezianischen Malerei des 16. Jahrhunderts.",
+          "Seine Werke zeichnen sich durch leuchtende Farben, szenografische Architekturen und zahlreiche Figuren aus.",
+          "Zu seinen berühmtesten Meisterwerken zählen die großen Evangelischen Gastmähler (Cene evangeliche) und die Ausstattungen des Dogenpalastes in Venedig."
+        ],
+        "es": [
+          "El apodo «Veronés» deriva de su ciudad natal.",
+          "Fue uno de los principales protagonistas de la pintura veneciana del siglo XVI junto a Tiziano y Tintoretto.",
+          "Sus obras se caracterizan por colores brillantes, arquitecturas escenográficas y numerosas figuras.",
+          "Entre sus obras maestras más célebres se recuerdan las grandes Cenas evangélicas (Cene evangeliche) y las decoraciones del Palacio Ducal de Venecia."
+        ]
+      },
+      "luoghi": [
+        "museo-di-castelvecchio",
+        "san-giorgio-in-braida"
+      ],
+      "luoghiNote": {
+        "museo-di-castelvecchio": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Preserved work",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Il museo conserva importanti opere del Veronese, tra cui la Pala Bevilacqua Lazise e il Compianto su Cristo morto. È il principale punto di riferimento per ammirare la sua pittura a Verona.",
+            "en": "The museum holds important works by Veronese, including the Bevilacqua Lazise Altarpiece and the Lamentation over the Dead Christ. It is the main place to admire his painting in Verona.",
+            "fr": "Le musée conserve d'importantes œuvres de Véronèse, dont le Retable Bevilacqua Lazise et la Déploration sur le Christ mort. C'est le principal lieu où admirer sa peinture à Vérone.",
+            "de": "Das Museum bewahrt bedeutende Werke Veroneses, darunter den Altar Bevilacqua Lazise und die Beweinung Christi. Es ist der wichtigste Ort, um seine Malerei in Verona zu bewundern.",
+            "es": "El museo conserva importantes obras del Veronés, entre ellas la Pala Bevilacqua Lazise y el Planto sobre Cristo muerto. Es el principal punto de referencia para admirar su pintura en Verona."
+          }
+        },
+        "san-giorgio-in-braida": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Preserved work",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Custodisce la pala d'altare raffigurante il Martirio di San Giorgio, realizzata dal Veronese nel 1566. È una delle testimonianze più importanti della sua produzione pittorica conservata in città.",
+            "en": "It houses the altarpiece depicting the Martyrdom of Saint George, painted by Veronese in 1566. It is one of the most important examples of his painting preserved in the city.",
+            "fr": "Elle abrite le retable représentant le Martyre de saint Georges, peint par Véronèse en 1566. C'est l'un des témoignages les plus importants de sa production picturale conservée en ville.",
+            "de": "Sie birgt das Altarbild mit dem Martyrium des heiligen Georg, das Veronese 1566 malte. Es ist eines der bedeutendsten erhaltenen Zeugnisse seines malerischen Schaffens in der Stadt.",
+            "es": "Custodia la pala de altar que representa el Martirio de San Jorge, realizada por el Veronés en 1566. Es uno de los testimonios más importantes de su producción pictórica conservada en la ciudad."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
