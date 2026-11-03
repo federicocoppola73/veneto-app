@@ -704,7 +704,8 @@
       },
       "luoghi": [
         "villa-valmarana-ai-nani",
-        "piazza-san-lorenzo"
+        "piazza-san-lorenzo",
+        "casa-natale-fogazzaro"
       ],
       "luoghiNote": {
         "villa-valmarana-ai-nani": {
@@ -737,6 +738,22 @@
             "fr": "Ici se dresse le monument dédié au poète Giacomo Zanella, figure importante de la formation culturelle du jeune Fogazzaro et son professeur au lycée.",
             "de": "Hier steht das Denkmal für den Dichter Giacomo Zanella, eine wichtige Gestalt für die kulturelle Bildung des jungen Fogazzaro und sein Lehrer am Gymnasium.",
             "es": "Aquí se alza el monumento dedicado al poeta Giacomo Zanella, figura importante en la formación cultural del joven Fogazzaro y su profesor en el liceo."
+          }
+        },
+        "casa-natale-fogazzaro": {
+          "tipo": {
+            "it": "Legame diretto – nascita",
+            "en": "Direct link – birth",
+            "fr": "Lien direct – naissance",
+            "de": "Direkter Bezug – Geburt",
+            "es": "Vínculo directo – nacimiento"
+          },
+          "testo": {
+            "it": "Qui nacque Fogazzaro nel 1842, in Corso Fogazzaro 111. Una lapide sulla facciata ricorda la nascita.",
+            "en": "Fogazzaro was born here in 1842, at Corso Fogazzaro 111. A plaque on the façade commemorates his birth.",
+            "fr": "Fogazzaro naquit ici en 1842, au Corso Fogazzaro 111. Une plaque sur la façade rappelle sa naissance.",
+            "de": "Fogazzaro wurde 1842 hier geboren, in der Corso Fogazzaro 111. Eine Gedenktafel an der Fassade erinnert an seine Geburt.",
+            "es": "Fogazzaro nació aquí en 1842, en el Corso Fogazzaro 111. Una placa en la fachada recuerda su nacimiento."
           }
         }
       },

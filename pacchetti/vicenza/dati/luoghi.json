@@ -3093,6 +3093,41 @@
           "fonte": ""
         }
       ]
+    },
+    {
+      "id": "casa-natale-fogazzaro",
+      "nome": "Casa natale di Antonio Fogazzaro",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.549889,
+      "longitudine": 11.540353,
+      "personaggio": "antonio-fogazzaro",
+      "descrizione": {
+        "it": "Casa natale dello scrittore Antonio Fogazzaro, affacciata su Corso Fogazzaro 111 nel centro storico di Vicenza, dove lo scrittore nacque il 25 marzo 1842. Una lapide sulla facciata, posta dal Comune nel centenario della nascita, ricorda l'evento e lo definisce romanziere e poeta.",
+        "en": "Birthplace of the writer Antonio Fogazzaro, facing Corso Fogazzaro 111 in the historic centre of Vicenza, where the writer was born on 25 March 1842. A plaque on the façade, placed by the Comune for the centenary of his birth, commemorates the event and describes him as novelist and poet.",
+        "fr": "Maison natale de l'écrivain Antonio Fogazzaro, donnant sur le Corso Fogazzaro 111 dans le centre historique de Vicence, où l'écrivain naquit le 25 mars 1842. Une plaque sur la façade, posée par la commune pour le centenaire de sa naissance, rappelle l'événement et le désigne comme romancier et poète.",
+        "de": "Geburtshaus des Schriftstellers Antonio Fogazzaro am Corso Fogazzaro 111 im historischen Zentrum von Vicenza, wo der Schriftsteller am 25. März 1842 geboren wurde. Eine Gedenktafel an der Fassade, von der Gemeinde zum hundertsten Geburtstag angebracht, erinnert an das Ereignis und nennt ihn Romancier und Dichter.",
+        "es": "Casa natal del escritor Antonio Fogazzaro, frente al Corso Fogazzaro 111 en el centro histórico de Vicenza, donde el escritor nació el 25 de marzo de 1842. Una placa en la fachada, colocada por el Ayuntamiento con motivo del centenario de su nacimiento, recuerda el hecho y lo describe como novelista y poeta."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Visibile dall'esterno, dove si trova la lapide. Non risultano orari di visita. Ingresso gratuito.",
+        "en": "Visible from outside, where the plaque is. No visiting hours found. Free entry.",
+        "fr": "Visible de l'extérieur, où se trouve la plaque. Aucun horaire de visite trouvé. Entrée gratuite.",
+        "de": "Von außen sichtbar, dort befindet sich die Gedenktafel. Keine Besuchszeiten gefunden. Eintritt frei.",
+        "es": "Visible desde el exterior, donde está la placa. No se han encontrado horarios de visita. Entrada gratuita."
+      },
+      "immagine": {
+        "autore": "Foto propria"
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria"
+        }
+      ]
     }
   ]
 }
