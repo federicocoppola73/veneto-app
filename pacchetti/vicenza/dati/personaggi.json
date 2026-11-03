@@ -703,7 +703,8 @@
         ]
       },
       "luoghi": [
-        "villa-valmarana-ai-nani"
+        "villa-valmarana-ai-nani",
+        "piazza-san-lorenzo"
       ],
       "luoghiNote": {
         "villa-valmarana-ai-nani": {
@@ -720,6 +721,22 @@
             "fr": "Résidence fréquentée par Fogazzaro après son mariage avec Margherita Valmarana ; la villa et ses salles inspirèrent aussi quelques pages de Piccolo mondo moderno.",
             "de": "Residenz, die Fogazzaro nach seiner Heirat mit Margherita Valmarana besuchte; die Villa und ihre Räume inspirierten auch einige Seiten von Piccolo mondo moderno.",
             "es": "Residencia frecuentada por Fogazzaro tras su matrimonio con Margherita Valmarana; la villa y sus estancias inspiraron también algunas páginas de Piccolo mondo moderno."
+          }
+        },
+        "piazza-san-lorenzo": {
+          "tipo": {
+            "it": "Legame commemorativo – monumento",
+            "en": "Commemorative link – monument",
+            "fr": "Lien commémoratif – monument",
+            "de": "Gedenkbezug – Denkmal",
+            "es": "Vínculo conmemorativo – monumento"
+          },
+          "testo": {
+            "it": "Qui si trova il monumento dedicato al poeta Giacomo Zanella, figura importante per la formazione culturale del giovane Fogazzaro e suo insegnante al liceo.",
+            "en": "Here stands the monument to the poet Giacomo Zanella, an important figure in the cultural education of the young Fogazzaro and his teacher at secondary school.",
+            "fr": "Ici se dresse le monument dédié au poète Giacomo Zanella, figure importante de la formation culturelle du jeune Fogazzaro et son professeur au lycée.",
+            "de": "Hier steht das Denkmal für den Dichter Giacomo Zanella, eine wichtige Gestalt für die kulturelle Bildung des jungen Fogazzaro und sein Lehrer am Gymnasium.",
+            "es": "Aquí se alza el monumento dedicado al poeta Giacomo Zanella, figura importante en la formación cultural del joven Fogazzaro y su profesor en el liceo."
           }
         }
       },

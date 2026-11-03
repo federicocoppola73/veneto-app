@@ -3054,6 +3054,45 @@
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=38971158"
         }
       ]
+    },
+    {
+      "id": "piazza-san-lorenzo",
+      "nome": "Piazza San Lorenzo",
+      "categoria": "piazze",
+      "sestiere": "Centro",
+      "latitudine": 45.548444,
+      "longitudine": 11.542683,
+      "personaggio": "antonio-fogazzaro",
+      "descrizione": {
+        "it": "Piazza San Lorenzo è una delle piazze del centro storico di Vicenza, situata lungo Corso Antonio Fogazzaro e caratterizzata dalla presenza dell'omonima chiesa gotica. Lo spazio è arricchito dal monumento dedicato a Giacomo Zanella, poeta e sacerdote vicentino, e da Palazzo Repeta, elegante edificio settecentesco progettato da Francesco Muttoni e costruito tra il 1701 e il 1711. Al centro della piazza si trova una fontana con giochi d'acqua, che contribuisce a rendere l'area un piacevole punto d'incontro e di sosta. La piazza unisce così testimonianze artistiche e architettoniche di epoche diverse, in un angolo caratteristico della città.",
+        "en": "Piazza San Lorenzo is one of the squares in Vicenza's historic centre, on Corso Antonio Fogazzaro, marked by the Gothic church of the same name. The space is enriched by the monument to Giacomo Zanella, a Vicentine poet and priest, and by Palazzo Repeta, an elegant eighteenth-century building designed by Francesco Muttoni and built between 1701 and 1711. In the centre of the square there is a fountain with water jets, which makes the area a pleasant meeting and resting place. The square thus brings together artistic and architectural testimonies from different periods, in a distinctive corner of the city.",
+        "fr": "La place Saint-Laurent est l'une des places du centre historique de Vicence, située le long du Corso Antonio Fogazzaro et marquée par l'église gothique du même nom. L'espace est enrichi par le monument dédié à Giacomo Zanella, poète et prêtre vicentin, et par le palais Repeta, élégant édifice du XVIIIe siècle conçu par Francesco Muttoni et construit entre 1701 et 1711. Au centre de la place se trouve une fontaine à jets d'eau, qui fait de l'endroit un lieu agréable de rencontre et de halte. La place réunit ainsi des témoignages artistiques et architecturaux d'époques différentes, dans un coin caractéristique de la ville.",
+        "de": "Die Piazza San Lorenzo gehört zu den Plätzen der historischen Altstadt von Vicenza, liegt am Corso Antonio Fogazzaro und wird von der gleichnamigen gotischen Kirche geprägt. Der Platz wird durch das Denkmal für Giacomo Zanella, einen Dichter und Priester aus Vicenza, und den Palazzo Repeta bereichert, einen eleganten Bau des 18. Jahrhunderts von Francesco Muttoni, der zwischen 1701 und 1711 errichtet wurde. In der Mitte des Platzes steht ein Brunnen mit Wasserspielen, der den Ort zu einem angenehmen Treffpunkt und Rastplatz macht. Der Platz vereint so künstlerische und architektonische Zeugnisse verschiedener Epochen in einer charakteristischen Ecke der Stadt.",
+        "es": "La Piazza San Lorenzo es una de las plazas del centro histórico de Vicenza, situada a lo largo del Corso Antonio Fogazzaro y marcada por la iglesia gótica del mismo nombre. El espacio se enriquece con el monumento dedicado a Giacomo Zanella, poeta y sacerdote vicentino, y con el Palazzo Repeta, un elegante edificio del siglo XVIII proyectado por Francesco Muttoni y construido entre 1701 y 1711. En el centro de la plaza hay una fuente con juegos de agua, que convierte la zona en un agradable punto de encuentro y descanso. La plaza reúne así testimonios artísticos y arquitectónicos de épocas diferentes, en un rincón característico de la ciudad."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Piazza pubblica, accessibile in qualsiasi momento. Nella piazza si trova la chiesa di San Lorenzo, con i propri orari.",
+        "en": "Public square, open at any time. The church of San Lorenzo, with its own opening hours, stands in the square.",
+        "fr": "Place publique, accessible à tout moment. L'église Saint-Laurent, avec ses propres horaires, se trouve sur la place.",
+        "de": "Öffentlicher Platz, jederzeit zugänglich. Auf dem Platz steht die Kirche San Lorenzo mit eigenen Öffnungszeiten.",
+        "es": "Plaza pública, accesible en cualquier momento. En la plaza está la iglesia de San Lorenzo, con su propio horario."
+      },
+      "immagine": {
+        "autore": "Autore non indicato",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Geobia",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
