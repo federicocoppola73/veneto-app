@@ -2993,7 +2993,19 @@
       },
       "biglietto": {
         "gratuito": true
-      }
+      },
+      "immagine": {
+        "autore": "Autore non indicato",
+        "licenza": "CC BY 2.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=587847"
+      },
+      "galleria": [
+        {
+          "autore": "RatMan1234",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=51444553"
+        }
+      ]
     },
     {
       "id": "chiesa-di-santa-maria-della-misericordia",
