@@ -3204,6 +3204,37 @@
         "autore": "Foto propria"
       },
       "galleria": []
+    },
+    {
+      "id": "palazzo-bonin-schiavetto",
+      "nome": "Palazzo Bonin Schiavetto",
+      "categoria": "palazzi",
+      "sestiere": "Centro",
+      "latitudine": 45.547972,
+      "longitudine": 11.538284,
+      "personaggio": "ottone-calderari",
+      "descrizione": {
+        "it": "Palazzo Bonin Schiavetto è un elegante edificio storico situato all'angolo tra Contrà del Quartiere e Contrà Porta Nova, a Vicenza. Il palazzo deriva dalla ristrutturazione di preesistenti case della famiglia Bonin, realizzata nel 1773 su progetto dell'architetto Ottone Calderari. La facciata presenta un'impostazione settecentesca, ispirata ai principi dell'architettura classica, che riflette il gusto neoclassico e palladiano dell'epoca.",
+        "en": "Palazzo Bonin Schiavetto is an elegant historic building at the corner of Contrà del Quartiere and Contrà Porta Nova in Vicenza. The palace derives from the remodelling of earlier houses of the Bonin family, carried out in 1773 to a design by the architect Ottone Calderari. The façade has an eighteenth-century layout inspired by the principles of classical architecture, reflecting the neoclassical and Palladian taste of the period.",
+        "fr": "Le palais Bonin Schiavetto est un élégant édifice historique situé à l'angle de la Contrà del Quartiere et de la Contrà Porta Nova, à Vicence. Le palais résulte de la transformation d'anciennes maisons de la famille Bonin, réalisée en 1773 sur un projet de l'architecte Ottone Calderari. La façade présente une disposition du XVIIIe siècle, inspirée des principes de l'architecture classique, qui reflète le goût néoclassique et palladien de l'époque.",
+        "de": "Der Palazzo Bonin Schiavetto ist ein eleganter historischer Bau an der Ecke der Contrà del Quartiere und der Contrà Porta Nova in Vicenza. Der Palast geht auf den Umbau älterer Häuser der Familie Bonin zurück, der 1773 nach einem Entwurf des Architekten Ottone Calderari ausgeführt wurde. Die Fassade folgt einer Anlage des 18. Jahrhunderts, inspiriert von den Prinzipien der klassischen Architektur, und spiegelt den klassizistischen und palladianischen Geschmack der Zeit wider.",
+        "es": "El Palazzo Bonin Schiavetto es un elegante edificio histórico situado en la esquina de la Contrà del Quartiere y la Contrà Porta Nova, en Vicenza. El palacio procede de la reforma de antiguas casas de la familia Bonin, realizada en 1773 según un proyecto del arquitecto Ottone Calderari. La fachada presenta una disposición settecentesca, inspirada en los principios de la arquitectura clásica, que refleja el gusto neoclásico y palladiano de la época."
+      },
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Edificio privato, non visitabile internamente: la facciata è visibile dalla strada. Ingresso gratuito dalla strada.",
+        "en": "Private building, not visitable inside: the façade is visible from the street. Free entry from the street.",
+        "fr": "Édifice privé, intérieur non visitable : la façade est visible depuis la rue. Entrée gratuite depuis la rue.",
+        "de": "Privatgebäude, das Innere ist nicht zu besichtigen: Die Fassade ist von der Straße aus sichtbar. Eintritt von der Straße frei.",
+        "es": "Edificio privado, interior no visitable: la fachada es visible desde la calle. Entrada gratuita desde la calle."
+      },
+      "immagine": {
+        "autore": "Foto propria"
+      },
+      "galleria": []
     }
   ]
 }

@@ -845,7 +845,8 @@
       "luoghi": [
         "palazzo-cordellina",
         "palazzo-loschi-zileri-dal-verme",
-        "palazzetto-capra-lampertico"
+        "palazzetto-capra-lampertico",
+        "palazzo-bonin-schiavetto"
       ],
       "luoghiNote": {
         "palazzo-cordellina": {
@@ -894,6 +895,22 @@
             "fr": "Œuvre de Calderari dans le centre historique de Vicence, témoignage de sa contribution à la diffusion du goût néoclassique dans la ville.",
             "de": "Ein Werk Calderaris im historischen Zentrum von Vicenza, das seinen Beitrag zur Verbreitung des klassizistischen Geschmacks in der Stadt belegt.",
             "es": "Obra de Calderari en el centro histórico de Vicenza, testimonio de su contribución a la difusión del gusto neoclásico en la ciudad."
+          }
+        },
+        "palazzo-bonin-schiavetto": {
+          "tipo": {
+            "it": "Legame diretto – opera",
+            "en": "Direct link – work",
+            "fr": "Lien direct – œuvre",
+            "de": "Direkter Bezug – Werk",
+            "es": "Vínculo directo – obra"
+          },
+          "testo": {
+            "it": "Ristrutturazione di case preesistenti della famiglia Bonin, realizzata nel 1773 su suo progetto, con una facciata di impostazione settecentesca.",
+            "en": "Remodelling of earlier houses of the Bonin family, carried out in 1773 to his design, with an eighteenth-century façade.",
+            "fr": "Transformation d'anciennes maisons de la famille Bonin, réalisée en 1773 selon son projet, avec une façade de conception du XVIIIe siècle.",
+            "de": "Umbau älterer Häuser der Familie Bonin, 1773 nach seinem Entwurf ausgeführt, mit einer Fassade im Stil des 18. Jahrhunderts.",
+            "es": "Reforma de antiguas casas de la familia Bonin, realizada en 1773 según su proyecto, con una fachada de disposición settecentesca."
           }
         }
       },
