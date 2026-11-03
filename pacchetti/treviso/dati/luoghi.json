@@ -1606,7 +1606,7 @@
     },
     {
       "id": "parco-di-villa-margherita",
-      "nome": "Parco di Villa Margherita",
+      "nome": "Parco di Villa Manfrin (Villa Margherita)",
       "categoria": "giardini",
       "sestiere": "Fuori le mura",
       "latitudine": 45.688736,
@@ -1619,9 +1619,9 @@
         "es": "El gran parque público rodea la Villa Manfrin, llamada Villa Margherita, residencia del siglo XVIII al norte del centro. Entre praderas, árboles centenarios, estanques y paseos, es uno de los pulmones verdes de la ciudad. En su interior está el Parco degli Alberi Parlanti (parque de los Árboles que Hablan), un recorrido educativo para niños sobre naturaleza, ciencia y cine de animación."
       },
       "immagine": {
-        "autore": "Vaghestelledellorsa, Paolo Steffan",
-        "licenza": "CC BY-SA 3.0",
-        "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Villa_Manfrin_detta_Margherita_-_Foto_di_Paolo_Steffan.jpg"
+        "autore": "mieù",
+        "licenza": "",
+        "fonte": ""
       },
       "biglietto": {
         "gratuito": true
@@ -1635,7 +1635,24 @@
       },
       "wikipedia": {
         "it": "Villa Manfrin detta Margherita"
-      }
+      },
+      "galleria": [
+        {
+          "autore": "mieù",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "mieù",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "mieù",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     },
     {
       "id": "parco-dello-storga",
