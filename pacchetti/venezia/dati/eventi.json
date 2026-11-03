@@ -466,6 +466,28 @@
         "es": "El tradicional concierto de la orquesta y el coro de La Fenice dirigidos por Gianandrea Noseda; el 1 de enero en directo por televisión."
       },
       "link": "https://www.teatrolafenice.it/en/event/new-years-concert-2027/"
+    },
+    {
+      "nome": "Carnevale di Venezia 2027",
+      "tipo": {
+        "it": "Festival",
+        "en": "Festival",
+        "fr": "Festival",
+        "de": "Festival",
+        "es": "Festival"
+      },
+      "inizio": "2027-01-23",
+      "fine": "2027-02-09",
+      "luogo": "Venezia (vari luoghi)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Carnevale con maschere, balli e cene ufficiali. Le date sono ufficiali; il programma dettagliato non è ancora pubblicato.",
+        "en": "Carnival with masks, balls and official dinners. The dates are official; the detailed programme is not yet published.",
+        "fr": "Carnaval avec masques, bals et dîners officiels. Les dates sont officielles ; le programme détaillé n'est pas encore publié.",
+        "de": "Karneval mit Masken, Bällen und offiziellen Dinners. Die Termine sind offiziell; das detaillierte Programm ist noch nicht veröffentlicht.",
+        "es": "Carnaval con máscaras, bailes y cenas oficiales. Las fechas son oficiales; el programa detallado aún no está publicado."
+      },
+      "link": "https://carnevale.venezia.it/"
     }
   ]
 }

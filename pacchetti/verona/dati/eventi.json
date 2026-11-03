@@ -46,6 +46,28 @@
       "link": "https://www.arena.it/en/philharmonic-theatre-verona/sinfonie-4-6-aspettando-beethoven/"
     },
     {
+      "nome": "Fieracavalli",
+      "tipo": {
+        "it": "Fiera",
+        "en": "Fair",
+        "fr": "Salon",
+        "de": "Messe",
+        "es": "Feria"
+      },
+      "inizio": "2026-11-05",
+      "fine": "2026-11-08",
+      "luogo": "Veronafiere",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Fiera internazionale del cavallo e del mondo equestre, a Veronafiere.",
+        "en": "International horse fair and equestrian show, at Veronafiere.",
+        "fr": "Salon international du cheval et du monde équestre, à Veronafiere.",
+        "de": "Internationale Pferdemesse und Reitsport-Veranstaltung auf dem Veronafiere-Gelände.",
+        "es": "Feria internacional del caballo y del mundo ecuestre, en Veronafiere."
+      },
+      "link": "https://www.veronafiere.it"
+    },
+    {
       "nome": "Brahms Serenata",
       "tipo": {
         "it": "Concerto",
@@ -88,6 +110,28 @@
         "es": "Cuartetos de cuerda de Beethoven y Schubert en el Museo Nicolis."
       },
       "link": "https://www.arena.it/en/philharmonic-theatre-verona/beethoven-schubert-quartetti-per-archi/"
+    },
+    {
+      "nome": "Mercatini di Natale di Verona 2026",
+      "tipo": {
+        "it": "Mercato",
+        "en": "Market",
+        "fr": "Marché",
+        "de": "Markt",
+        "es": "Mercado"
+      },
+      "inizio": "2026-11-20",
+      "fine": "2026-12-26",
+      "luogo": "Piazza Bra, Piazza dei Signori e Piazza Sacco e Vanzetti",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Mercatini di Natale con casette in legno, artigianato, cibo e dolci tra Piazza Bra, Piazza dei Signori e l'area dell'Arsenale. Orari: dom-gio 11-21, ven-sab 11-23.",
+        "en": "Christmas markets with wooden huts, crafts, food and sweets across Piazza Bra, Piazza dei Signori and the Arsenale area. Hours: Sun-Thu 11-21, Fri-Sat 11-23.",
+        "fr": "Marchés de Noël avec chalets en bois, artisanat, restauration et douceurs sur la Piazza Bra, la Piazza dei Signori et la zone de l'Arsenale. Horaires : dim-jeu 11h-21h, ven-sam 11h-23h.",
+        "de": "Weihnachtsmärkte mit Holzhütten, Kunsthandwerk, Essen und Süßwaren auf der Piazza Bra, der Piazza dei Signori und dem Arsenale-Gelände. Öffnungszeiten: So-Do 11-21 Uhr, Fr-Sa 11-23 Uhr.",
+        "es": "Mercadillos navideños con casetas de madera, artesanía, comida y dulces entre la Piazza Bra, la Piazza dei Signori y la zona del Arsenale. Horario: dom-jue 11-21, vie-sáb 11-23."
+      },
+      "link": "https://www.nataleinpiazza.it"
     },
     {
       "nome": "Sinfonie n. 7 e 8 - Aspettando Beethoven",
@@ -176,6 +220,28 @@
         "es": "Ballet de Piotr Ilich Chaikovski en el Teatro Filarmonico."
       },
       "link": "https://www.arena.it/en/philharmonic-theatre-verona/il-lago-dei-cigni/"
+    },
+    {
+      "nome": "Bacanal del Gnoco - Venerdì Gnocolar",
+      "tipo": {
+        "it": "Tradizione",
+        "en": "Tradition",
+        "fr": "Tradition",
+        "de": "Brauchtum",
+        "es": "Tradición"
+      },
+      "inizio": "2027-02-05",
+      "fine": "2027-02-05",
+      "luogo": "Centro storico di Verona",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Giornata clou del Carnevale veronese, con sfilata dei carri e distribuzione di gnocchi.",
+        "en": "Highlight day of the Veronese Carnival, with a parade of floats and free gnocchi.",
+        "fr": "Journée phare du Carnaval de Vérone, avec défilé de chars et distribution de gnocchis.",
+        "de": "Höhepunkt des Karnevals in Verona mit Festwagenumzug und kostenloser Gnocchi-Verteilung.",
+        "es": "Día principal del Carnaval de Verona, con desfile de carrozas y reparto de gnocchi."
+      },
+      "link": "https://www.carnifest.com/the-verona-carnival-2027/"
     }
   ]
 }

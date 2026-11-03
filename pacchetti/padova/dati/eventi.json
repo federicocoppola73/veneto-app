@@ -134,6 +134,28 @@
       "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
     },
     {
+      "nome": "42ª Fiera Antiquaria di Padova",
+      "tipo": {
+        "it": "Fiera",
+        "en": "Fair",
+        "fr": "Salon",
+        "de": "Messe",
+        "es": "Feria"
+      },
+      "inizio": "2026-11-07",
+      "fine": "2026-11-15",
+      "luogo": "Fiera di Padova (PadovaFiere)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Fiera dell'antiquariato, dal 7 all'8 novembre e dal 12 al 15 novembre.",
+        "en": "Antiques fair, 7-8 November and 12-15 November.",
+        "fr": "Salon de l'antiquité, du 7 au 8 novembre et du 12 au 15 novembre.",
+        "de": "Antiquitätenmesse, 7.-8. November und 12.-15. November.",
+        "es": "Feria de antigüedades, del 7 al 8 de noviembre y del 12 al 15 de noviembre."
+      },
+      "link": "https://www.antiquariapadova.com/"
+    },
+    {
       "nome": "Mario Biondi",
       "tipo": {
         "it": "Concerto",
@@ -244,6 +266,28 @@
       "link": "https://www.turismopadova.it/en/events/padua-opera-season-2/"
     },
     {
+      "nome": "Gusto Fair",
+      "tipo": {
+        "it": "Fiera",
+        "en": "Fair",
+        "fr": "Salon",
+        "de": "Messe",
+        "es": "Feria"
+      },
+      "inizio": "2026-11-21",
+      "fine": "2026-11-23",
+      "luogo": "Fiera di Padova (PadovaFiere)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Fiera enogastronomica dedicata a food e beverage.",
+        "en": "Food and drink fair.",
+        "fr": "Salon de la gastronomie et des boissons.",
+        "de": "Messe für Gastronomie und Getränke.",
+        "es": "Feria de gastronomía y bebidas."
+      },
+      "link": "https://gustofair.it/"
+    },
+    {
       "nome": "Hans Zimmer Tribute by Ensemble Symphony Orchestra",
       "tipo": {
         "it": "Concerto",
@@ -308,6 +352,27 @@
         "es": "Concierto de Francesca Michielin en el Gran Teatro Geox."
       },
       "link": "https://www.musicadalpalco.com/2026/10/06/gran-teatro-geox-padova-2026-27/"
+    },
+    {
+      "nome": "Padova Inkshow",
+      "tipo": {
+        "it": "Fiera",
+        "en": "Fair",
+        "fr": "Salon",
+        "de": "Messe",
+        "es": "Feria"
+      },
+      "inizio": "2026-11-27",
+      "fine": "2026-11-29",
+      "luogo": "Fiera di Padova (PadovaFiere)",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Fiera-convention dedicata al mondo del tatuaggio.",
+        "en": "Fair and convention dedicated to tattooing.",
+        "fr": "Salon et convention consacrés au tatouage.",
+        "de": "Messe und Convention rund um Tätowierungen.",
+        "es": "Feria y convención dedicadas al mundo del tatuaje."
+      }
     },
     {
       "nome": "Madame",
