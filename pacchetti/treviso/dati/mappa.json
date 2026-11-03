@@ -1,0 +1,43 @@
+{
+  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
+  "immagine": "mappa-treviso.webp",
+  "larghezza": 8000,
+  "altezza": 5782,
+  "punti_riferimento": [
+    {
+      "nome": "Angolo nord-ovest",
+      "latitudine": 45.717,
+      "longitudine": 12.144,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo nord-est",
+      "latitudine": 45.717,
+      "longitudine": 12.342,
+      "x": 8000.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo sud-ovest",
+      "latitudine": 45.617,
+      "longitudine": 12.144,
+      "x": 0.0,
+      "y": 5782.0
+    },
+    {
+      "nome": "Angolo sud-est",
+      "latitudine": 45.617,
+      "longitudine": 12.342,
+      "x": 8000.0,
+      "y": 5782.0
+    },
+    {
+      "nome": "Centro",
+      "latitudine": 45.6664,
+      "longitudine": 12.2431,
+      "x": 4004.0,
+      "y": 2925.7
+    }
+  ]
+}
