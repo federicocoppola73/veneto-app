@@ -3262,11 +3262,11 @@
       },
       "orari": [],
       "nota": {
-        "it": "Orari non trovati: verificarli prima della visita. Accanto alla chiesa c'è l'Oratorio dei Boccalotti, oggi chiuso al pubblico.",
-        "en": "Opening hours not found: please check before your visit. Next to the church is the Oratorio dei Boccalotti, currently closed to the public.",
-        "fr": "Horaires non trouvés : à vérifier avant la visite. À côté de l'église se trouve l'Oratoire dei Boccalotti, actuellement fermé au public.",
-        "de": "Öffnungszeiten nicht gefunden: Bitte vor dem Besuch prüfen. Neben der Kirche steht der Oratorio dei Boccalotti, derzeit für die Öffentlichkeit geschlossen.",
-        "es": "Horarios no encontrados: verificarlos antes de la visita. Junto a la iglesia está el Oratorio dei Boccalotti, actualmente cerrado al público."
+        "it": "Ingresso gratuito. Apertura su appuntamento nei giorni feriali e nel fine settimana, salvo celebrazioni. Accanto alla chiesa c'è l'Oratorio dei Boccalotti, oggi chiuso al pubblico.",
+        "en": "Free entry. Opening by appointment on weekdays and at weekends, except during services. Next to the church is the Oratorio dei Boccalotti, currently closed to the public.",
+        "fr": "Entrée gratuite. Ouverture sur rendez-vous les jours de semaine et le week-end, sauf pendant les célébrations. À côté de l'église se trouve l'Oratoire dei Boccalotti, actuellement fermé au public.",
+        "de": "Eintritt frei. Öffnung nach Vereinbarung an Werktagen und am Wochenende, außer während Gottesdiensten. Neben der Kirche steht der Oratorio dei Boccalotti, derzeit für die Öffentlichkeit geschlossen.",
+        "es": "Entrada gratuita. Apertura con cita en días laborables y fines de semana, salvo celebraciones. Junto a la iglesia está el Oratorio dei Boccalotti, actualmente cerrado al público."
       },
       "immagine": {
         "autore": "Claudio Gioseffi",
@@ -3289,7 +3289,10 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=38206845"
         }
-      ]
+      ],
+      "biglietto": {
+        "gratuito": true
+      }
     },
     {
       "id": "chiesa-di-san-domenico",
@@ -3308,11 +3311,11 @@
       },
       "orari": [],
       "nota": {
-        "it": "Orari non trovati: la chiesa è annessa al Conservatorio, verificare prima della visita.",
-        "en": "Opening hours not found: the church is attached to the Conservatory, please check before your visit.",
-        "fr": "Horaires non trouvés : l'église est rattachée au Conservatoire, à vérifier avant la visite.",
-        "de": "Öffnungszeiten nicht gefunden: Die Kirche ist dem Konservatorium angegliedert, bitte vor dem Besuch prüfen.",
-        "es": "Horarios no encontrados: la iglesia está unida al Conservatorio, verificarlos antes de la visita."
+        "it": "Non visitabile con orari turistici regolari. L'accesso è possibile in occasione di concerti ed eventi, secondo le relative condizioni d'ingresso.",
+        "en": "Not open with regular tourist hours. Access is possible during concerts and events, according to their entry conditions.",
+        "fr": "Pas de visite touristique aux horaires habituels. L'accès est possible lors de concerts et d'événements, selon leurs conditions d'entrée.",
+        "de": "Keine regulären touristischen Öffnungszeiten. Der Zugang ist bei Konzerten und Veranstaltungen möglich, gemäß deren Eintrittsbedingungen.",
+        "es": "No visitable con horarios turísticos regulares. El acceso es posible durante conciertos y eventos, según sus condiciones de entrada."
       },
       "immagine": {
         "autore": "Foto propria"
@@ -3324,7 +3327,8 @@
         {
           "autore": "Foto propria"
         }
-      ]
+      ],
+      "biglietto": {}
     }
   ]
 }
