@@ -10,8 +10,9 @@ import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
 import { caricaCitta } from './motore/src/apriCitta';
 
-// città che si aprono nel motore unico (stesso codice, dati del loro pacchetto)
-const MOTORE_CITTA = ['venezia', 'verona', 'padova', 'vicenza'];
+// tutte le città si aprono nel motore unico (stesso codice, dati del loro pacchetto):
+// così una città nuova funziona appena è nel catalogo, senza cambiare l'app
+const apreNelMotore = (id) => !!id;
 import * as FileSystem from 'expo-file-system/legacy';
 
 const CHIAVE_LINGUA = 'lingua';
@@ -88,7 +89,7 @@ function AppRadice() {
       setMotorePronto(false);
       return;
     }
-    if (MOTORE_CITTA.includes(cittaAperta)) {
+    if (apreNelMotore(cittaAperta)) {
       // le città del motore unico usano i dati del loro pacchetto
       const cartella = FileSystem.documentDirectory + 'citta/' + cittaAperta + '/';
       caricaCitta(cartella)
@@ -147,7 +148,7 @@ function AppRadice() {
     }
   }
 
-  if (MOTORE_CITTA.includes(cittaAperta)) {
+  if (apreNelMotore(cittaAperta)) {
     if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
     return (
       <View style={{ flex: 1, backgroundColor: '#1e3a8a' }}>
