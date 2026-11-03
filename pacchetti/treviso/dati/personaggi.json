@@ -472,7 +472,140 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [
+        {
+          "id": "giovanni-comisso",
+          "testo": {
+            "it": "Amico di Comisso: si conobbero nel 1913, quando lo scrittore frequentava il liceo, e tra i due nacque un'amicizia importante.",
+            "en": "Friend of Comisso: they met in 1913, when the writer was at secondary school, and an important friendship grew between them.",
+            "fr": "Ami de Comisso : ils se rencontrèrent en 1913, alors que l'écrivain fréquentait le lycée, et une amitié importante naquit entre eux.",
+            "de": "Freund Comissos: Sie lernten sich 1913 kennen, als der Schriftsteller das Gymnasium besuchte, und es entstand eine wichtige Freundschaft.",
+            "es": "Amigo de Comisso: se conocieron en 1913, cuando el escritor cursaba el bachillerato, y entre ambos nació una amistad importante."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giovanni-comisso",
+      "nome": "Giovanni Comisso",
+      "nascita": 1895,
+      "morte": 1969,
+      "professione": {
+        "it": "Scrittore e giornalista",
+        "en": "Writer and journalist",
+        "fr": "Écrivain et journaliste",
+        "de": "Schriftsteller und Journalist",
+        "es": "Escritor y periodista"
+      },
+      "luogoNascita": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataNascita": {
+        "it": "3 ottobre 1895",
+        "en": "3 October 1895",
+        "fr": "3 octobre 1895",
+        "de": "3. Oktober 1895",
+        "es": "3 de octubre de 1895"
+      },
+      "luogoMorte": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataMorte": {
+        "it": "21 gennaio 1969",
+        "en": "21 January 1969",
+        "fr": "21 janvier 1969",
+        "de": "21. Januar 1969",
+        "es": "21 de enero de 1969"
+      },
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio (Italia)"
+      },
+      "biografia": {
+        "it": "Giovanni Comisso fu uno dei più importanti scrittori veneti del Novecento. Nato a Treviso, trascorse una vita ricca di viaggi ed esperienze: partecipò alla Prima guerra mondiale e all'impresa di Fiume, visse a Milano e Parigi e lavorò come libraio, commerciante d'arte e giornalista. Viaggiò in Europa e in Asia come inviato, raccontando le proprie esperienze in numerosi libri. La sua scrittura è caratterizzata da una forte sensibilità per il paesaggio, la natura e le esperienze personali. Morì nella sua città natale.",
+        "en": "Giovanni Comisso was one of the most important Venetian writers of the 20th century. Born in Treviso, he lived a life rich in travel and experience: he took part in the First World War and the Fiume enterprise, lived in Milan and Paris, and worked as a bookseller, art dealer and journalist. He travelled in Europe and Asia as a correspondent, recounting his experiences in many books. His writing is marked by a strong sensitivity to landscape, nature and personal experience. He died in his native city.",
+        "fr": "Giovanni Comisso fut l'un des plus grands écrivains vénitiens du XXe siècle. Né à Trévise, il mena une vie riche en voyages et en expériences : il prit part à la Première Guerre mondiale et à l'expédition de Fiume, vécut à Milan et à Paris, et travailla comme libraire, marchand d'art et journaliste. Il voyagea en Europe et en Asie comme envoyé spécial, racontant ses expériences dans de nombreux livres. Son écriture est marquée par une forte sensibilité au paysage, à la nature et à l'expérience personnelle. Il mourut dans sa ville natale.",
+        "de": "Giovanni Comisso war einer der bedeutendsten venetischen Schriftsteller des 20. Jahrhunderts. In Treviso geboren, führte er ein an Reisen und Erfahrungen reiches Leben: Er nahm am Ersten Weltkrieg und an der Fiume-Unternehmung teil, lebte in Mailand und Paris und arbeitete als Buchhändler, Kunsthändler und Journalist. Als Korrespondent reiste er durch Europa und Asien und erzählte seine Erlebnisse in zahlreichen Büchern. Sein Schreiben zeichnet sich durch große Sensibilität für Landschaft, Natur und persönliche Erfahrung aus. Er starb in seiner Geburtsstadt.",
+        "es": "Giovanni Comisso fue uno de los escritores véneto más importantes del siglo XX. Nacido en Treviso, vivió una vida llena de viajes y experiencias: participó en la Primera Guerra Mundial y en la empresa de Fiume, vivió en Milán y París y trabajó como librero, comerciante de arte y periodista. Viajó por Europa y Asia como enviado, contando sus experiencias en numerosos libros. Su escritura se caracteriza por una gran sensibilidad hacia el paisaje, la naturaleza y las vivencias personales. Murió en su ciudad natal."
+      },
+      "curiosita": {
+        "it": [
+          "Nel 1913, quando frequentava il liceo, conobbe lo scultore Arturo Martini: tra i due nacque un'amicizia importante.",
+          "Partecipò all'impresa di Fiume al seguito di Gabriele D'Annunzio.",
+          "Lavorò come libraio a Milano e commerciante d'arte a Parigi.",
+          "Vinse il Premio Strega nel 1955 con Un gatto attraversa la strada.",
+          "Nel 1958 pubblicò La mia casa di campagna, opera legata alla sua esperienza di vita nella campagna trevigiana."
+        ],
+        "en": [
+          "In 1913, while attending secondary school, he met the sculptor Arturo Martini: an important friendship grew between them.",
+          "He took part in the Fiume enterprise alongside Gabriele D'Annunzio.",
+          "He worked as a bookseller in Milan and as an art dealer in Paris.",
+          "He won the Strega Prize in 1955 with Un gatto attraversa la strada (A Cat Crosses the Street).",
+          "In 1958 he published La mia casa di campagna (My Country House), a book tied to his life in the Trevisan countryside."
+        ],
+        "fr": [
+          "En 1913, alors qu'il fréquentait le lycée, il rencontra le sculpteur Arturo Martini : une amitié importante naquit entre eux.",
+          "Il participa à l'expédition de Fiume aux côtés de Gabriele D'Annunzio.",
+          "Il travailla comme libraire à Milan et comme marchand d'art à Paris.",
+          "Il remporta le prix Strega en 1955 avec Un gatto attraversa la strada (Un chat traverse la rue).",
+          "En 1958, il publia La mia casa di campagna (Ma maison de campagne), une œuvre liée à sa vie dans la campagne trévisane."
+        ],
+        "de": [
+          "1913, während seiner Gymnasialzeit, lernte er den Bildhauer Arturo Martini kennen: Zwischen beiden entstand eine wichtige Freundschaft.",
+          "Er nahm an der Fiume-Unternehmung an der Seite Gabriele D'Annunzios teil.",
+          "Er arbeitete als Buchhändler in Mailand und als Kunsthändler in Paris.",
+          "1955 gewann er den Premio Strega mit Un gatto attraversa la strada (Eine Katze überquert die Straße).",
+          "1958 veröffentlichte er La mia casa di campagna (Mein Landhaus), ein Werk über sein Leben auf dem Land bei Treviso."
+        ],
+        "es": [
+          "En 1913, mientras cursaba el bachillerato, conoció al escultor Arturo Martini: entre ambos nació una amistad importante.",
+          "Participó en la empresa de Fiume junto a Gabriele D'Annunzio.",
+          "Trabajó como librero en Milán y como comerciante de arte en París.",
+          "Ganó el Premio Strega en 1955 con Un gatto attraversa la strada (Un gato cruza la calle).",
+          "En 1958 publicó La mia casa di campagna (Mi casa de campo), obra ligada a su vida en el campo trevisano."
+        ]
+      },
+      "luoghi": [
+        "biblioteca-comunale-di-treviso"
+      ],
+      "luoghiNote": {
+        "biblioteca-comunale-di-treviso": {
+          "tipo": {
+            "it": "Fondo archivistico",
+            "en": "Archive collection",
+            "fr": "Fonds d'archives",
+            "de": "Archivbestand",
+            "es": "Fondo de archivo"
+          },
+          "testo": {
+            "it": "Conserva il Fondo Comisso, con lettere, taccuini e materiali dello scrittore: da verificare la consistenza e la sede attuale del fondo.",
+            "en": "Holds the Comisso Fund, with letters, notebooks and material by the writer: the extent and current location of the fund still need to be checked.",
+            "fr": "Conserve le fonds Comisso, avec lettres, carnets et documents de l'écrivain : l'étendue et le lieu actuel du fonds restent à vérifier.",
+            "de": "Bewahrt den Nachlass Comisso mit Briefen, Notizbüchern und Materialien des Schriftstellers: Umfang und heutiger Standort des Bestands sind noch zu prüfen.",
+            "es": "Conserva el Fondo Comisso, con cartas, cuadernos y materiales del escritor: falta verificar la extensión y la sede actual del fondo."
+          }
+        }
+      },
+      "collegati": [
+        {
+          "id": "arturo-martini",
+          "testo": {
+            "it": "Conobbe Martini nel 1913, quando frequentava il liceo: tra i due nacque un'amicizia importante.",
+            "en": "He met Martini in 1913, while attending secondary school: an important friendship grew between them.",
+            "fr": "Il rencontra Martini en 1913, alors qu'il fréquentait le lycée : une amitié importante naquit entre eux.",
+            "de": "1913, während seiner Gymnasialzeit, lernte er Martini kennen: Zwischen beiden entstand eine wichtige Freundschaft.",
+            "es": "Conoció a Martini en 1913, mientras cursaba el bachillerato: entre ambos nació una amistad importante."
+          }
+        }
+      ]
     }
   ]
 }

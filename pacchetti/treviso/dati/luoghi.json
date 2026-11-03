@@ -2270,6 +2270,31 @@
       "personaggio": [
         "arturo-martini"
       ]
+    },
+    {
+      "id": "biblioteca-comunale-di-treviso",
+      "nome": "Biblioteca Comunale di Treviso",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66751084,
+      "longitudine": 12.23807987,
+      "descrizione": {
+        "it": "Aperta al pubblico nel 1847, ha sede a Borgo Cavour, accanto al Museo Bailo. Conserva il Fondo Comisso, con lettere, taccuini e materiali dello scrittore trevigiano Giovanni Comisso, consultabili nella Sala Manoscritti.",
+        "en": "Opened to the public in 1847, it is housed in Borgo Cavour, next to the Museo Bailo. It holds the Comisso Fund, with letters, notebooks and material by the Treviso writer Giovanni Comisso, which can be consulted in the Manuscripts Room.",
+        "fr": "Ouverte au public en 1847, elle a son siège à Borgo Cavour, à côté du musée Bailo. Elle conserve le fonds Comisso, avec lettres, carnets et documents de l'écrivain trévisan Giovanni Comisso, consultables dans la salle des manuscrits.",
+        "de": "Seit 1847 öffentlich zugänglich, befindet sie sich in der Borgo Cavour, neben dem Museo Bailo. Sie bewahrt den Nachlass Comisso mit Briefen, Notizbüchern und Materialien des Trevisaner Schriftstellers Giovanni Comisso, die im Handschriftensaal eingesehen werden können.",
+        "es": "Abierta al público en 1847, tiene sede en Borgo Cavour, junto al Museo Bailo. Conserva el Fondo Comisso, con cartas, cuadernos y materiales del escritor trevisano Giovanni Comisso, consultables en la Sala de Manuscritos."
+      },
+      "nota": {
+        "it": "Orari e servizi della biblioteca da verificare sul sito. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Library hours and services to be checked on the website. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Horaires et services de la bibliothèque à vérifier sur le site. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Öffnungszeiten und Dienste der Bibliothek auf der Website prüfen. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Horarios y servicios de la biblioteca por verificar en la web. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "personaggio": [
+        "giovanni-comisso"
+      ]
     }
   ]
 }
