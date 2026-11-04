@@ -1,0 +1,17 @@
+{
+ "_nota": "Belluno: dati generali della città.",
+ "nome": "Belluno",
+ "marea": false,
+ "centro": {
+  "latitudine": 46.1397,
+  "longitudine": 12.2167,
+  "zoom": 3
+ },
+ "riferimento": {
+  "latitudine": 46.1397,
+  "longitudine": 12.2167
+ },
+ "partenze": {
+  "stazione": "stazione-fs-belluno"
+ }
+}
