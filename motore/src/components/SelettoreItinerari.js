@@ -494,8 +494,10 @@ const styles = StyleSheet.create({
   nomeCarta: { flex: 1, fontSize: 15, fontWeight: '700', color: '#0f172a' },
   badgeTipo: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#e0ecf8', alignItems: 'center', justifyContent: 'center' },
   iconaTipo: { fontSize: 14 },
+  cartaCorpo: { flexDirection: 'row', gap: 10, alignItems: 'flex-start' },
+  cartaTestoColonna: { flex: 1, gap: 6 },
   fotoCarta: { borderRadius: 10, overflow: 'hidden' },
-  immagineCarta: { width: '100%', height: 170, borderRadius: 10, backgroundColor: '#e2e8f0' },
+  immagineCarta: { width: 96, height: 96, borderRadius: 10, backgroundColor: '#e2e8f0' },
   cartaIndirizzo: { fontSize: 13, color: '#475569' },
   cartaTesto: { fontSize: 14, color: '#334155', lineHeight: 20 },
   tappa: { flexDirection: 'row', alignItems: 'center', gap: 8 },
@@ -537,18 +539,22 @@ function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
           {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
           {censito ? <Text style={styles.freccia}>›</Text> : null}
         </View>
-        {foto ? (
-          <Pressable
-            onPress={() => setZoomAperto(true)}
-            accessibilityRole="imagebutton"
-            accessibilityLabel={`Ingrandisci: ${luogo.nome}`}
-            style={styles.fotoCarta}
-          >
-            <Image source={foto} style={styles.immagineCarta} resizeMode="cover" />
-          </Pressable>
-        ) : null}
-        {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
-        {descrizione ? <Text style={styles.cartaTesto}>{descrizione}</Text> : null}
+        <View style={styles.cartaCorpo}>
+          {foto ? (
+            <Pressable
+              onPress={() => setZoomAperto(true)}
+              accessibilityRole="imagebutton"
+              accessibilityLabel={`Ingrandisci: ${luogo.nome}`}
+              style={styles.fotoCarta}
+            >
+              <Image source={foto} style={styles.immagineCarta} resizeMode="cover" />
+            </Pressable>
+          ) : null}
+          <View style={styles.cartaTestoColonna}>
+            {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
+            {descrizione ? <Text style={styles.cartaTesto}>{descrizione}</Text> : null}
+          </View>
+        </View>
       </Pressable>
       {foto ? <VisualizzatoreFoto visibile={zoomAperto} sorgente={foto} onChiudi={() => setZoomAperto(false)} /> : null}
     </>
