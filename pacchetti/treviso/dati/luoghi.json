@@ -1188,7 +1188,8 @@
       },
       "wikipedia": {
         "it": "Chiesa di San Giovanni Battista (Treviso)"
-      }
+      },
+      "indirizzo": "Piazza Duomo"
     },
     {
       "id": "chiesa-di-san-nicolo",
@@ -2155,7 +2156,8 @@
         "de": "Von außen sichtbar, vom Domplatz aus.",
         "es": "Visible desde fuera, desde la plaza de la catedral."
       },
-      "curiosita": true
+      "curiosita": true,
+      "indirizzo": "Piazza Duomo"
     },
     {
       "id": "ponte-dante",
@@ -2308,7 +2310,8 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": ""
         }
-      ]
+      ],
+      "indirizzo": "Via Antonio Canova, 38"
     },
     {
       "id": "biblioteca-comunale-di-treviso",
@@ -2464,6 +2467,493 @@
           "fonte": ""
         }
       ]
+    },
+    {
+      "id": "museo-nazionale-collezione-salce",
+      "nome": "Museo Nazionale Collezione Salce",
+      "categoria": "musei",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665692,
+      "longitudine": 12.250518,
+      "descrizione": {
+        "it": "Il museo conserva una ricca raccolta di manifesti pubblicitari e di grafica italiana, con mostre temporanee che si alternano alla collezione. Ha due sedi a Treviso: San Gaetano, in via Carlo Alberto, e Santa Margherita, in via Reggimento Italia Libera.",
+        "en": "The museum holds a rich collection of Italian advertising posters and graphic design, with temporary exhibitions alongside the permanent displays. It has two sites in Treviso: San Gaetano, in Via Carlo Alberto, and Santa Margherita, in Via Reggimento Italia Libera.",
+        "fr": "Le musée conserve une riche collection d'affiches publicitaires et de graphisme italien, avec des expositions temporaires qui alternent avec les collections permanentes. Il possède deux sièges à Trévise : San Gaetano, via Carlo Alberto, et Santa Margherita, via Reggimento Italia Libera.",
+        "de": "Das Museum bewahrt eine reiche Sammlung italienischer Werbeplakate und Grafikdesigns; neben der Dauerausstellung gibt es wechselnde Sonderausstellungen. Es hat zwei Standorte in Treviso: San Gaetano in der Via Carlo Alberto und Santa Margherita in der Via Reggimento Italia Libera.",
+        "es": "El museo conserva una rica colección de carteles publicitarios y de diseño gráfico italiano, con exposiciones temporales que se alternan con la colección permanente. Tiene dos sedes en Treviso: San Gaetano, en la vía Carlo Alberto, y Santa Margherita, en la vía Reggimento Italia Libera."
+      },
+      "immagine": {
+        "autore": "Fliv",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=113700385"
+      },
+      "galleria": [
+        {
+          "autore": "Mataloni Giovanni Maria (1869 - 1944)",
+          "licenza": "Pubblico dominio",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=112968600"
+        },
+        {
+          "autore": "Kayosafe",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=113024663"
+        },
+        {
+          "autore": "Kayosafe",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=113046031"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "ven-dom",
+          "ore": "10:00–18:00 (la biglietteria chiude alle 17:30)"
+        }
+      ],
+      "biglietto": {
+        "intero": 10,
+        "ridotto": 6,
+        "ridotto_dopolavoro_ferroviario": 5,
+        "ridotto_fumetti_in_treviso": 3,
+        "agevolato_ue_18_25": 2
+      },
+      "nota": {
+        "it": "Biglietto unico, valido per le due sedi (San Gaetano e Santa Margherita): 10 €. Ridotto 6 € (Eventi e Card del trevigiano); 5 € con la tessera Dopolavoro Ferroviario (un ingresso per sede, valido 3 mesi); 3 € per gli iscritti all'associazione culturale Fumetti in Treviso; 2 € per cittadini UE di 18–25 anni con documento. Ingresso gratuito la prima domenica del mese: in quelle giornate non sono ammesse prenotazioni né l'accesso di gruppi.",
+        "en": "Single ticket valid for both sites (San Gaetano and Santa Margherita): €10. Reduced €6 (Eventi and Card del trevigiano); €5 with the Dopolavoro Ferroviario card (one entry per site, valid 3 months); €3 for members of the Fumetti in Treviso cultural association; €2 for EU citizens aged 18–25 with ID. Free admission on the first Sunday of the month: on those days bookings and group access are not allowed.",
+        "fr": "Billet unique valable pour les deux sites (San Gaetano et Santa Margherita) : 10 €. Tarif réduit 6 € (Eventi et Card del trevigiano) ; 5 € avec la carte Dopolavoro Ferroviario (une entrée par site, valable 3 mois) ; 3 € pour les membres de l'association culturelle Fumetti in Treviso ; 2 € pour les citoyens UE de 18 à 25 ans sur présentation d'une pièce d'identité. Entrée gratuite le premier dimanche du mois : ces jours-là, les réservations et l'accès des groupes ne sont pas autorisés.",
+        "de": "Einheitsticket für beide Standorte (San Gaetano und Santa Margherita): 10 €. Ermäßigt 6 € (Eventi und Card del trevigiano); 5 € mit der Dopolavoro-Ferroviario-Karte (ein Eintritt pro Standort, 3 Monate gültig); 3 € für Mitglieder des Kulturvereins Fumetti in Treviso; 2 € für EU-Bürger zwischen 18 und 25 Jahren mit Ausweis. Eintritt am ersten Sonntag im Monat frei: an diesen Tagen sind Reservierungen und Gruppenzugang nicht erlaubt.",
+        "es": "Entrada única válida para ambas sedes (San Gaetano y Santa Margherita): 10 €. Reducida 6 € (Eventi y Card del trevigiano); 5 € con la tarjeta Dopolavoro Ferroviario (una entrada por sede, válida 3 meses); 3 € para socios de la asociación cultural Fumetti in Treviso; 2 € para ciudadanos de la UE de 18 a 25 años con documento. Entrada gratuita el primer domingo de cada mes: esos días no se admiten reservas ni acceso de grupos."
+      },
+      "sito": "http://www.collezionesalce.beniculturali.it/",
+      "wikipedia": null
+    },
+    {
+      "id": "chiesa-di-san-leonardo",
+      "nome": "Chiesa di San Leonardo",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.665778,
+      "longitudine": 12.248775,
+      "descrizione": {
+        "it": "Chiesa dedicata a san Leonardo di Noblac, affacciata sull'omonima piazza di fronte a Ca' Spineda, nel centro storico tra il Quartiere Latino e piazza dei Signori. È nota soprattutto per l'altare di santa Rita da Cascia, meta di molti fedeli, e il soffitto è affrescato da Giovan Battista Canal.",
+        "en": "Church dedicated to Saint Leonard of Noblac, overlooking the square of the same name opposite Ca' Spineda, in the historic centre between the Latin Quarter and Piazza dei Signori. It is especially known for the altar of Saint Rita of Cascia, visited by many faithful, and its ceiling is frescoed by Giovan Battista Canal.",
+        "fr": "Église dédiée à saint Léonard de Noblac, donnant sur la place du même nom, face à la Ca' Spineda, dans le centre historique entre le Quartier Latin et la piazza dei Signori. Elle est surtout connue pour l'autel de sainte Rita de Cascia, très fréquenté, et son plafond est peint à fresque par Giovan Battista Canal.",
+        "de": "Kirche des heiligen Leonhard von Noblac an dem gleichnamigen Platz gegenüber der Ca' Spineda, im historischen Zentrum zwischen dem Quartiere Latino und der Piazza dei Signori. Bekannt ist sie vor allem durch den Altar der heiligen Rita von Cascia, den viele Gläubige besuchen; die Decke ist von Giovan Battista Canal al fresco gemalt.",
+        "es": "Iglesia dedicada a san Leonardo de Noblac, frente a la plaza del mismo nombre, enfrente de la Ca' Spineda, en el centro histórico entre el Quartiere Latino y la piazza dei Signori. Es conocida sobre todo por el altar de santa Rita de Casia, muy visitado, y su techo está pintado al fresco por Giovan Battista Canal."
+      },
+      "immagine": {
+        "autore": "Appo92",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=20121736"
+      },
+      "galleria": [
+        {
+          "autore": "Paolo Steffan",
+          "licenza": "CC BY 3.0",
+          "fonte": "https://www.urbipedia.org/hoja/Iglesia_de_San_Leonardo_(Treviso)"
+        },
+        {
+          "autore": "Viaggiamocela",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": null
+        },
+        {
+          "autore": "Viaggiamocela",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": null
+        }
+      ],
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Orari di apertura non trovati nelle fonti consultate: verificare prima della visita, anche presso la parrocchia (+39 0422 145 6298). Una recensione segnala visite guidate gratuite offerte da volontari all'interno.",
+        "en": "Opening hours were not found in the sources consulted: check before your visit, or contact the parish (+39 0422 145 6298). One review mentions free guided tours offered by volunteers inside.",
+        "fr": "Les horaires d'ouverture n'ont pas été trouvés dans les sources consultées : à vérifier avant la visite, ou auprès de la paroisse (+39 0422 145 6298). Un avis mentionne des visites guidées gratuites assurées par des bénévoles.",
+        "de": "Öffnungszeiten konnten in den geprüften Quellen nicht gefunden werden: bitte vor dem Besuch prüfen oder die Pfarrei kontaktieren (+39 0422 145 6298). Eine Bewertung erwähnt kostenlose Führungen durch Freiwillige.",
+        "es": "No se han encontrado horarios de apertura en las fuentes consultadas: consultar antes de la visita o contactar con la parroquia (+39 0422 145 6298). Una reseña menciona visitas guiadas gratuitas a cargo de voluntarios."
+      },
+      "sito": null,
+      "wikipedia": null
+    },
+    {
+      "id": "chiesa-di-sant-agostino",
+      "nome": "Chiesa di Sant'Agostino",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.667247,
+      "longitudine": 12.249793,
+      "descrizione": {
+        "it": "Chiesa dal caratteristico impianto ellittico, un caso unico in città. Fu costruita nel Settecento su progetto del padre somasco Francesco Vecellio, appartenente al vicino convento. Secondo le fonti consultate, fu anche sede della scuola dei calzolai.",
+        "en": "Church with a distinctive elliptical plan, unique in the city. It was built in the 18th century to a design by the Somascan friar Francesco Vecellio, who belonged to the nearby convent. According to the sources consulted, it was also the seat of the school of the cobblers.",
+        "fr": "Église au plan elliptique distinctif, unique en ville. Elle fut construite au XVIIIe siècle sur un projet du frère somasque François Vecellio, qui appartenait au couvent voisin. Selon les sources consultées, elle accueillit aussi l'école des cordonniers.",
+        "de": "Kirche mit einem markanten elliptischen Grundriss, der in der Stadt einzigartig ist. Sie entstand im 18. Jahrhundert nach einem Entwurf des somaskischen Paters Francesco Vecellio, der zum benachbarten Kloster gehörte. Den konsultierten Quellen zufolge war hier auch die Schule der Schuster untergebracht.",
+        "es": "Iglesia de planta elíptica distintiva, única en la ciudad. Se construyó en el siglo XVIII según un proyecto del padre somasco Francesco Vecellio, perteneciente al convento vecino. Según las fuentes consultadas, también fue sede de la escuela de los zapateros."
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Chiesa_Sant%27Agostino_-_Facade.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Francesco Bini",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": null
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": null
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": null
+        }
+      ],
+      "orari": [],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Orari non pubblicati nelle fonti consultate; la chiesa risulta spesso chiusa. Verificare prima della visita.",
+        "en": "Opening hours are not published in the sources consulted; the church is often closed. Check before your visit.",
+        "fr": "Les horaires ne sont pas publiés dans les sources consultées ; l'église est souvent fermée. Vérifiez avant la visite.",
+        "de": "Öffnungszeiten sind in den konsultierten Quellen nicht veröffentlicht; die Kirche ist oft geschlossen. Bitte vor dem Besuch prüfen.",
+        "es": "Los horarios no figuran en las fuentes consultadas; la iglesia suele estar cerrada. Conviene verificarlo antes de la visita."
+      },
+      "sito": null,
+      "wikipedia": null
+    },
+    {
+      "id": "teatro-mario-del-monaco",
+      "nome": "Teatro Comunale Mario Del Monaco",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.663496,
+      "longitudine": 12.24427,
+      "descrizione": {
+        "it": "Teatro dell'opera e della prosa di Treviso, con una sala a ferro di cavallo. Le sue origini risalgono alla fine del Seicento, quando si chiamava Teatro Onigo. Nel 2011 è stato intitolato al tenore Mario Del Monaco, che visse a Treviso dal 1975 fino alla morte nel 1982. Ospita stagioni di lirica, prosa e concerti.",
+        "en": "Treviso's opera and drama theatre, with a horseshoe-shaped auditorium. Its origins go back to the late 17th century, when it was called the Teatro Onigo. In 2011 it was named after the tenor Mario Del Monaco, who lived in Treviso from 1975 until his death in 1982. It hosts opera, drama and concert seasons.",
+        "fr": "Théâtre d'opéra et de théâtre de Trévise, avec une salle en fer à cheval. Ses origines remontent à la fin du XVIIe siècle, quand il s'appelait Teatro Onigo. En 2011, il a pris le nom du ténor Mario Del Monaco, qui vécut à Trévise de 1975 jusqu'à sa mort en 1982. Il accueille des saisons d'opéra, de théâtre et de concerts.",
+        "de": "Opern- und Schauspielhaus von Treviso mit einem hufeisenförmigen Zuschauerraum. Seine Ursprünge reichen bis ins späte 17. Jahrhundert zurück, als es Teatro Onigo hieß. 2011 wurde es nach dem Tenor Mario Del Monaco benannt, der von 1975 bis zu seinem Tod 1982 in Treviso lebte. Hier finden Opern-, Schauspiel- und Konzertspielzeiten statt.",
+        "es": "Teatro de ópera y de prosa de Treviso, con una sala en herradura. Sus orígenes se remontan a finales del siglo XVII, cuando se llamaba Teatro Onigo. En 2011 recibió el nombre del tenor Mario Del Monaco, que vivió en Treviso desde 1975 hasta su muerte en 1982. Acoge temporadas de ópera, teatro y conciertos."
+      },
+      "immagine": {
+        "autore": "MessereRiccardo",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=26177312"
+      },
+      "galleria": [
+        {
+          "autore": "MessereRiccardo",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=26184488"
+        },
+        {
+          "autore": "MessereRiccardo",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=26184484"
+        },
+        {
+          "autore": "MessereRiccardo",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=26184492"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "visite guidate, su prenotazione",
+          "ore": "10:00 · 11:00 · 12:00"
+        }
+      ],
+      "biglietto": {
+        "gratuito": false
+      },
+      "nota": {
+        "it": "Visite guidate gratuite, in italiano o inglese, con prenotazione obbligatoria (circa un'ora; giorni da confermare). I biglietti degli spettacoli hanno prezzo variabile e si acquistano in biglietteria o online. Un avviso del teatro indica la biglietteria chiusa la domenica e il lunedì: verificare gli orari (+39 0422 1520989).",
+        "en": "Free guided tours, in Italian or English, with mandatory booking (about one hour; days to be confirmed). Show tickets are priced by performance and can be bought at the box office or online. A theatre notice says the box office is closed on Sundays and Mondays: check the hours (+39 0422 1520989).",
+        "fr": "Visites guidées gratuites, en italien ou en anglais, sur réservation obligatoire (environ une heure ; jours à confirmer). Les billets des spectacles varient selon la représentation et s'achètent à la billetterie ou en ligne. Un avis du théâtre indique que la billetterie est fermée le dimanche et le lundi : vérifiez les horaires (+39 0422 1520989).",
+        "de": "Kostenlose Führungen auf Italienisch oder Englisch, Anmeldung erforderlich (ca. eine Stunde; Tage bitte bestätigen). Die Preise der Vorstellungen variieren; Karten gibt es an der Kasse oder online. Laut Hinweis des Theaters ist die Kasse sonntags und montags geschlossen: bitte Öffnungszeiten prüfen (+39 0422 1520989).",
+        "es": "Visitas guiadas gratuitas, en italiano o inglés, con reserva obligatoria (unos 60 minutos; días por confirmar). Las entradas de los espectáculos varían según la función y se compran en taquilla o en línea. Un aviso del teatro indica que la taquilla está cerrada los domingos y lunes: consulte los horarios (+39 0422 1520989)."
+      },
+      "sito": "https://www.teatrostabileveneto.it/",
+      "wikipedia": {
+        "en": "Teatro Mario Del Monaco"
+      }
+    },
+    {
+      "id": "chiesa-di-sant-andrea",
+      "nome": "Chiesa di Sant'Andrea",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.664412,
+      "longitudine": 12.247168,
+      "descrizione": {
+        "it": "Chiesa parrocchiale del centro storico, affacciata sull'omonima piazza. È un edificio di grandi dimensioni, con spazi usati anche per corsi e attività parrocchiali.",
+        "en": "Parish church in the historic centre, overlooking the square of the same name. It is a large building, whose spaces are also used for courses and parish activities.",
+        "fr": "Église paroissiale du centre historique, donnant sur la place du même nom. C'est un vaste édifice, dont les espaces servent aussi à des cours et à des activités paroissiales.",
+        "de": "Pfarrkirche im historischen Zentrum an dem gleichnamigen Platz. Das große Gebäude wird auch für Kurse und Gemeindeaktivitäten genutzt.",
+        "es": "Iglesia parroquial del centro histórico, frente a la plaza del mismo nombre. Es un edificio amplio, cuyos espacios también se usan para cursos y actividades parroquiales."
+      },
+      "immagine": {
+        "autore": "Phante",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=136870500"
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "Foto propria",
+          "fonte": null
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun",
+          "ore": "10:00–12:00"
+        },
+        {
+          "giorni": "mar, ven",
+          "ore": "15:00–17:00"
+        },
+        {
+          "giorni": "sab",
+          "ore": "14:30–19:00"
+        },
+        {
+          "giorni": "dom",
+          "ore": "09:00–12:00"
+        },
+        {
+          "giorni": "mer, gio",
+          "ore": "chiuso"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": {
+        "it": "Orari indicati da Google Maps, possono variare: verificare prima della visita.",
+        "en": "Hours taken from Google Maps; they may change. Check before your visit.",
+        "fr": "Horaires indiqués par Google Maps, susceptibles de changer : à vérifier avant la visite.",
+        "de": "Öffnungszeiten laut Google Maps; sie können sich ändern. Bitte vor dem Besuch prüfen.",
+        "es": "Horarios indicados por Google Maps, pueden cambiar: verificar antes de la visita."
+      },
+      "sito": null,
+      "wikipedia": null
+    },
+    {
+      "id": "ponte-de-pria",
+      "nome": "Ponte de Pria",
+      "categoria": "ponti",
+      "sestiere": "Centro storico",
+      "latitudine": 45.669228,
+      "longitudine": 12.246254,
+      "descrizione": {
+        "it": "Ponte in pietra a schiena d'asino sul Botteniga, che collega viale Frà Giocondo con viale Burchiellati. Poco distante il fiume entra in città e si divide nei canali Cagnan, Buranelli e Roggia, regolati da chiuse.",
+        "en": "Stone bridge with a humpback arch over the Botteniga, connecting Viale Frà Giocondo with Viale Burchiellati. Nearby the river enters the city and splits into the Cagnan, Buranelli and Roggia canals, controlled by sluice gates.",
+        "fr": "Pont de pierre à arche en dos d'âne sur le Botteniga, reliant le viale Frà Giocondo au viale Burchiellati. Tout près, la rivière entre dans la ville et se divise en canaux Cagnan, Buranelli et Roggia, réglés par des écluses.",
+        "de": "Steinbrücke mit einem Buckelbogen über den Botteniga, die den Viale Frà Giocondo mit dem Viale Burchiellati verbindet. In der Nähe fließt der Fluss in die Stadt und teilt sich in die Kanäle Cagnan, Buranelli und Roggia, die durch Schleusen reguliert werden.",
+        "es": "Puente de piedra de arco en lomo de asno sobre el Botteniga, que une el viale Frà Giocondo con el viale Burchiellati. Cerca, el río entra en la ciudad y se divide en los canales Cagnan, Buranelli y Roggia, regulados por esclusas."
+      },
+      "immagine": {
+        "autore": "Gafilkertenkele",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=18651411"
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "Foto propria",
+          "fonte": null
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/w/index.php?curid=96574231"
+        }
+      ],
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": null,
+      "sito": null,
+      "wikipedia": null
+    },
+    {
+      "id": "ex-convento-di-ognissanti",
+      "nome": "Ex Convento di Ognissanti",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66701384,
+      "longitudine": 12.24091661,
+      "indirizzo": "Via Riccati, 15/A",
+      "descrizione": {
+        "it": "Una piccola facciata quattrocentesca decorata con una finta tappezzeria di foglie, fiori e melagrane. Sull'arco della finestra si riconoscono le figure di Adamo ed Eva."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-di-via-riccati-15b",
+      "nome": "Casa di via Riccati, 15/B",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66694451,
+      "longitudine": 12.24119417,
+      "indirizzo": "Via Riccati, 15/B",
+      "descrizione": {
+        "it": "Sulla facciata si intravedono una scena della Giustizia di Traiano, attribuita a Pomponio Amalteo, e Venere con Amore entro una finta nicchia. Le pitture sono oggi molto deteriorate."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-dal-corno",
+      "nome": "Casa Dal Corno",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666524,
+      "longitudine": 12.242327,
+      "indirizzo": "Piazza Duomo",
+      "descrizione": {
+        "it": "Edificio quattrocentesco con facciate dipinte e bifore incorniciate da decorazioni in terracotta. Sulla finta tappezzeria spicca il monogramma di Cristo legato a san Bernardino."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-della-leda",
+      "nome": "Casa della Leda",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66694575,
+      "longitudine": 12.24411634,
+      "indirizzo": "Via Bianchetti, 14",
+      "descrizione": {
+        "it": "La facciata è decorata a graffito con putti, aquile e intrecci vegetali. Nella fascia sotto il tetto compare il mito di Leda e il cigno, da cui deriva il nome dell'edificio."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-dal-pra",
+      "nome": "Casa Dal Prà",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66626051,
+      "longitudine": 12.24444519,
+      "indirizzo": "Calmaggiore, 27",
+      "descrizione": {
+        "it": "Nel sottoportico si trova un affresco cinquecentesco con la Madonna col Bambino, sant'Antonio e san Francesco. Una testimonianza devozionale da osservare alzando lo sguardo. In un'altra decorazione del sottoportico si può notare il monogramma di San Bernardino."
+      },
+      "curiosita": true
+    },
+    {
+      "id": "affresco-calmaggiore-15",
+      "nome": "Affresco di Calmaggiore, 15",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66619559,
+      "longitudine": 12.24472361,
+      "indirizzo": "Calmaggiore, 15",
+      "descrizione": {
+        "it": "Un dipinto quattrocentesco raffigura la Madonna in trono tra san Giovanni Battista e san Girolamo. Nello stesso sottoportico si possono osservare anche decorazioni ornamentali emerse dalla rimozione di un intonaco più recente."
+      },
+      "curiosita": true
+    },
+    {
+      "id": "case-delle-zignoli",
+      "nome": "Case delle Zignoli",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66619703,
+      "longitudine": 12.24531412,
+      "indirizzo": "Calmaggiore, 4",
+      "descrizione": {
+        "it": "La facciata conserva importanti decorazioni pittoriche cinquecentesche, attribuite a Ludovico Pozzoserrato. È una delle cosiddette facciate d'autore di Treviso."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-federici",
+      "nome": "Casa Federici",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66622995,
+      "longitudine": 12.25292791,
+      "indirizzo": "Via Stangade, 12",
+      "descrizione": {
+        "it": "La facciata cinquecentesca racconta episodi mitologici: Cleopatra con le aspidi, la fuga di Enea da Troia e il suicidio di Didone. Le pitture sono attribuite a Pomponio Amalteo o alla sua scuola."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "facciata-via-sant-agostino-77-79",
+      "nome": "Facciata di via Sant'Agostino, 77-79",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66780461,
+      "longitudine": 12.25043118,
+      "indirizzo": "Via Sant'Agostino, 77-79",
+      "descrizione": {
+        "it": "Nella fascia sotto il tetto si riconoscono uno stemma gentilizio, putti e animali fantastici. Ai lati compaiono le figure adagiate di Venere e Marte, attribuite probabilmente a Ludovico Fiumicelli."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "casa-del-giudizio-di-paride",
+      "nome": "Casa del Giudizio di Paride",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66782231,
+      "longitudine": 12.2501418,
+      "indirizzo": "Via Sant'Agostino, 61",
+      "descrizione": {
+        "it": "La facciata conserva una composizione con Paride e le tre dee, accompagnata da un festoso gruppo di putti in monocromo giallo su fondo azzurro. La decorazione è databile alla prima metà del Cinquecento."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "madonna-con-bambino-e-santi",
+      "nome": "Madonna con Bambino e santi",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666247334492375,
+      "longitudine": 12.244928138772305,
+      "indirizzo": "Calmaggiore, 3",
+      "descrizione": {
+        "it": "Madonna in trono con il Bambino tra san Giovanni Battista e san Girolamo e San Francesco che riceve le stimmate."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
+    },
+    {
+      "id": "madonna-in-trono-san-giovanni-e-san-sebastiano",
+      "nome": "Madonna in trono tra san Giovanni Battista e san Sebastiano",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666263427619285,
+      "longitudine": 12.244466496444323,
+      "indirizzo": "Calmaggiore, 29",
+      "descrizione": {
+        "it": "Qui troviamo una composizione più unitaria: la Madonna in trono con il Bambino, affiancata da san Giovanni Battista e san Sebastiano."
+      },
+      "curiosita": true,
+      "tappa_fotografica": true
     }
   ]
 }

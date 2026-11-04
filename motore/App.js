@@ -922,6 +922,11 @@ function Schermata({ linguaIniziale }) {
         lunghezza={lunghezza}
         attivoId={idItinerario}
         onScegli={scegliItinerario}
+        onApriLuogo={(id) => {
+          // itinerario speciale: la scheda del luogo censito si apre dalla mappa, poi si torna all'itinerario
+          setSelettoreAperto(false);
+          apriTappa(id);
+        }}
         adesso={adesso}
         visitati={luoghiVisitati}
         onCrea={() => setEditor({ titolo: '', tappe: [] })}

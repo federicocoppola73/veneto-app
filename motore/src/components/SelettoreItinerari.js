@@ -45,6 +45,7 @@ export default function SelettoreItinerari({
   onElimina,
   onCondividi,
   apriId,
+  onApriLuogo,
 }) {
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
@@ -203,6 +204,21 @@ export default function SelettoreItinerari({
         {avvisoPosizione && <View style={styles.boxAvviso}>{avvisoPosizione}</View>}
 
         <Text style={[styles.passo, { marginTop: 18 }]}>{t('itin_leTappe')}</Text>
+        {aperto.tipo === 'speciale' ? (
+          <View style={styles.tappe}>
+            {aperto.tappe.map((id, i) => (
+              <CartaTappa
+                key={id}
+                luogo={luoghiPerId[id] || { id, nome: id }}
+                numero={i + 1}
+                lingua={lingua}
+                t={t}
+                visto={visitati.includes(id)}
+                onApri={onApriLuogo}
+              />
+            ))}
+          </View>
+        ) : (
         <View style={styles.tappe}>
           {aperto.tappe.map((id, i) => {
             const luogo = luoghiPerId[id];
@@ -227,6 +243,7 @@ export default function SelettoreItinerari({
             );
           })}
         </View>
+        )}
         <Text style={styles.nota}>{t('itin_nota')}</Text>
       </ScrollView>
       <View style={styles.piede}>
@@ -469,6 +486,11 @@ const styles = StyleSheet.create({
   testoEtichettaNautica: { fontSize: 12, fontWeight: '700', color: '#0369a1' },
   lunghezza: { fontSize: 14, fontWeight: '700', color: '#b45309' },
   tappe: { gap: 4 },
+  carta: { backgroundColor: '#fff', borderRadius: 12, padding: 12, borderWidth: 1, borderColor: '#e2e8f0', gap: 6 },
+  cartaTesta: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  cartaTipo: { fontSize: 11, fontWeight: '800', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.3 },
+  cartaIndirizzo: { fontSize: 13, color: '#475569' },
+  cartaTesto: { fontSize: 14, color: '#334155', lineHeight: 20 },
   tappa: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   numeroTappa: { width: 20, height: 20, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   testoNumeroTappa: { color: '#fff', fontSize: 11, fontWeight: '800' },
@@ -477,3 +499,40 @@ const styles = StyleSheet.create({
   contaTappe: { fontSize: 12, color: '#64748b', marginTop: 3 },
   nota: { fontSize: 12, color: '#64748b', lineHeight: 17, marginTop: 10 },
 });
+
+// Tappa di un itinerario "speciale": scheda con pallino numerato, tipo, indirizzo e descrizione.
+// Luogo censito: il tocco apre la sua scheda. Tappa fotografica (non censita): il tocco espande la descrizione.
+function CartaTappa({ luogo, numero, lingua, t, visto, onApri }) {
+  const [espansa, setEspansa] = useState(false);
+  const censito = !luogo.tappa_fotografica;
+  const testo = testoLocalizzato(luogo.descrizione, lingua);
+  return (
+    <Pressable
+      onPress={() => (censito ? onApri?.(luogo.id) : setEspansa((v) => !v))}
+      style={({ pressed }) => [styles.carta, pressed && { opacity: 0.85 }]}
+      accessibilityRole="button"
+    >
+      <View style={styles.cartaTesta}>
+        <View style={[styles.numeroTappa, { backgroundColor: coloreCategoria(luogo.categoria) }]}>
+          <Text style={styles.testoNumeroTappa}>{numero}</Text>
+        </View>
+        <View style={{ flex: 1 }}>
+          <Text style={styles.cartaTipo}>
+            {t(`cat_${luogo.categoria}`)} · {censito ? t('itin_censito') : t('itin_fotografica')}
+          </Text>
+          <Text style={styles.nomeTappa} numberOfLines={2}>
+            {luogo.nome}
+          </Text>
+        </View>
+        {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
+        {censito ? <Text style={styles.freccia}>›</Text> : null}
+      </View>
+      {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
+      {testo ? (
+        <Text style={styles.cartaTesto} numberOfLines={censito || espansa ? undefined : 3}>
+          {testo}
+        </Text>
+      ) : null}
+    </Pressable>
+  );
+}
