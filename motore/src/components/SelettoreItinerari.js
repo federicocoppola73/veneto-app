@@ -1,6 +1,6 @@
 import { partenzeCitta } from '../citta';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, Modal, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, Image, Modal, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { coloreCategoria } from '../categorie';
 import { formattaDistanza } from '../distanza';
@@ -8,6 +8,8 @@ import { testoLocalizzato } from '../i18n';
 import { iconaItinerario, PARTENZE, testoLunghezza } from '../itinerari';
 import { coloreApertura, statoApertura, testoAperturaBreve } from '../orari';
 import IconaCondividi from './IconaCondividi';
+import VisualizzatoreFoto from './VisualizzatoreFoto';
+import IMMAGINI from '../immagini';
 import CondividiItinerario from './CondividiItinerario';
 
 /**
@@ -492,6 +494,8 @@ const styles = StyleSheet.create({
   nomeCarta: { flex: 1, fontSize: 15, fontWeight: '700', color: '#0f172a' },
   badgeTipo: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#e0ecf8', alignItems: 'center', justifyContent: 'center' },
   iconaTipo: { fontSize: 14 },
+  fotoCarta: { borderRadius: 10, overflow: 'hidden' },
+  immagineCarta: { width: '100%', height: 170, borderRadius: 10, backgroundColor: '#e2e8f0' },
   cartaIndirizzo: { fontSize: 13, color: '#475569' },
   cartaTesto: { fontSize: 14, color: '#334155', lineHeight: 20 },
   tappa: { flexDirection: 'row', alignItems: 'center', gap: 8 },
@@ -504,34 +508,49 @@ const styles = StyleSheet.create({
 });
 
 // Tappa di un itinerario "speciale": pallino colorato con il numero, nome, icona del tipo,
-// indirizzo e il testo scritto per questo itinerario.
-// Luogo censito: il tocco apre la sua scheda. Tappa fotografica: per ora il tocco non fa nulla.
+// foto (tocco = ingrandisce), indirizzo e il testo scritto per questo itinerario.
+// Il tocco sul resto della card: luogo censito apre la sua scheda; tappa fotografica per ora niente.
 function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
+  const [zoomAperto, setZoomAperto] = useState(false);
   const censito = !luogo.tappa_fotografica;
   const descrizione = testoLocalizzato(testo, lingua);
   const tipo = censito ? t('itin_censito') : t('itin_fotografica');
+  const foto = IMMAGINI[luogo.id];
   return (
-    <Pressable
-      onPress={() => (censito ? onApri?.(luogo.id) : null)}
-      style={({ pressed }) => [styles.carta, pressed && censito && { opacity: 0.85 }]}
-      accessibilityRole="button"
-      accessibilityLabel={`${numero}. ${luogo.nome}. ${tipo}`}
-    >
-      <View style={styles.cartaTesta}>
-        <View style={[styles.numeroTappa, { backgroundColor: coloreCategoria(luogo.categoria) }]}>
-          <Text style={styles.testoNumeroTappa}>{numero}</Text>
+    <>
+      <Pressable
+        onPress={() => (censito ? onApri?.(luogo.id) : null)}
+        style={({ pressed }) => [styles.carta, pressed && censito && { opacity: 0.85 }]}
+        accessibilityRole="button"
+        accessibilityLabel={`${numero}. ${luogo.nome}. ${tipo}`}
+      >
+        <View style={styles.cartaTesta}>
+          <View style={[styles.numeroTappa, { backgroundColor: coloreCategoria(luogo.categoria) }]}>
+            <Text style={styles.testoNumeroTappa}>{numero}</Text>
+          </View>
+          <Text style={styles.nomeCarta} numberOfLines={2}>
+            {luogo.nome}
+          </Text>
+          <View style={styles.badgeTipo}>
+            <Text style={styles.iconaTipo}>{censito ? '🏛️' : '📷'}</Text>
+          </View>
+          {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
+          {censito ? <Text style={styles.freccia}>›</Text> : null}
         </View>
-        <Text style={styles.nomeCarta} numberOfLines={2}>
-          {luogo.nome}
-        </Text>
-        <View style={styles.badgeTipo}>
-          <Text style={styles.iconaTipo}>{censito ? '🏛️' : '📷'}</Text>
-        </View>
-        {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
-        {censito ? <Text style={styles.freccia}>›</Text> : null}
-      </View>
-      {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
-      {descrizione ? <Text style={styles.cartaTesto}>{descrizione}</Text> : null}
-    </Pressable>
+        {foto ? (
+          <Pressable
+            onPress={() => setZoomAperto(true)}
+            accessibilityRole="imagebutton"
+            accessibilityLabel={`Ingrandisci: ${luogo.nome}`}
+            style={styles.fotoCarta}
+          >
+            <Image source={foto} style={styles.immagineCarta} resizeMode="cover" />
+          </Pressable>
+        ) : null}
+        {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
+        {descrizione ? <Text style={styles.cartaTesto}>{descrizione}</Text> : null}
+      </Pressable>
+      {foto ? <VisualizzatoreFoto visibile={zoomAperto} sorgente={foto} onChiudi={() => setZoomAperto(false)} /> : null}
+    </>
   );
 }
