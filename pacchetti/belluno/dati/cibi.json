@@ -619,27 +619,125 @@
    "nome": "Pendolon (di Lamon)",
    "portata": "secondo",
    "testo": {
-    "it": "Piatto tradizionale di Lamon. Scheda da completare con il cuoco: la ricetta è da verificare.",
-    "en": "Traditional dish from Lamon. Entry to be completed with a cook: the recipe still needs checking.",
-    "fr": "Plat traditionnel de Lamon. Fiche à compléter avec un cuisinier : la recette reste à vérifier.",
-    "de": "Traditionelles Gericht aus Lamon. Eintrag mit einem Koch zu vervollständigen: das Rezept muss noch überprüft werden.",
-    "es": "Plato tradicional de Lamon. Ficha por completar con un cocinero: la receta debe verificarse."
+    "it": "Purea di patate e fagioli di Lamon, soffritta con cipolla e pancetta e rassodata a fuoco vivo fino a diventare compatta: piatto tradizionale dei pastori lamonesi.",
+    "en": "A purée of potatoes and Lamon beans, sautéed with onion and pancetta and firmed over high heat until compact: a traditional dish of the Lamon shepherds.",
+    "fr": "Purée de pommes de terre et de haricots de Lamon, sautée avec oignon et lard et raffermie à feu vif jusqu’à devenir compacte : plat traditionnel des bergers de Lamon.",
+    "de": "Kartoffel-Bohnen-Püree aus Lamon, mit Zwiebel und Speck angebraten und bei starker Hitze fest gerührt: ein traditionelles Gericht der Hirten von Lamon.",
+    "es": "Puré de patatas y judías de Lamon, salteado con cebolla y panceta y compactado a fuego vivo hasta quedar firme: plato tradicional de los pastores de Lamon."
    },
-   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
-   "foto": null
+   "foto": null,
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "1 ora circa (+ 12 ore di ammollo se fagioli secchi)",
+     "en": "About 1 hour (+ 12 hours soaking if dried beans)",
+     "fr": "Environ 1 h (+ 12 h de trempage si haricots secs)",
+     "de": "Ca. 1 Std. (+ 12 Std. Einweichen bei getrockneten Bohnen)",
+     "es": "Unos 1 h (+ 12 h de remojo si son judías secas)"
+    },
+    "ingredienti": {
+     "it": [
+      "1 kg di fagioli di Lamon (secchi o lessati)",
+      "3 kg di patate",
+      "1 cipolla piccola",
+      "100 g di pancetta a dadini",
+      "30 g di burro, lardo o pancetta per il soffritto",
+      "Sale e pepe q.b."
+     ],
+     "en": [
+      "1 kg Lamon beans (dried or cooked)",
+      "3 kg potatoes",
+      "1 small onion",
+      "100 g diced pancetta",
+      "30 g butter, lard or pancetta for the sauté",
+      "Salt and pepper as needed"
+     ],
+     "fr": [
+      "1 kg de haricots de Lamon (secs ou cuits)",
+      "3 kg de pommes de terre",
+      "1 petit oignon",
+      "100 g de lard de poitrine en dés",
+      "30 g de beurre, saindoux ou lard pour le sauté",
+      "Sel et poivre selon besoin"
+     ],
+     "de": [
+      "1 kg Fagioli di Lamon (getrocknet oder gekocht)",
+      "3 kg Kartoffeln",
+      "1 kleine Zwiebel",
+      "100 g gewürfelter Speck",
+      "30 g Butter, Schmalz oder Speck zum Andünsten",
+      "Salz und Pfeffer nach Bedarf"
+     ],
+     "es": [
+      "1 kg de judías de Lamon (secas o cocidas)",
+      "3 kg de patatas",
+      "1 cebolla pequeña",
+      "100 g de panceta en dados",
+      "30 g de mantequilla, manteca o panceta para el sofrito",
+      "Sal y pimienta al gusto"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Se usi fagioli secchi, falli ammollare in acqua fredda per almeno 12 ore, poi lessali fino a completa cottura.",
+      "Lessa le patate con la buccia, poi spellale.",
+      "Passa patate e fagioli insieme con il passaverdure o schiacciali bene fino a ottenere una purea omogenea.",
+      "In un paiolo fai soffriggere la cipolla tritata con il grasso scelto e la pancetta a dadini.",
+      "Unisci la purea al soffritto, aggiusta di sale e un pizzico di pepe.",
+      "Cuoci mescolando con energia per circa 10 minuti, finché l’impasto diventa sodo e compatto.",
+      "Versa tradizionalmente su un tagliere o un piatto di portata e servi a spicchi."
+     ],
+     "en": [
+      "If using dried beans, soak them in cold water for at least 12 hours, then boil until fully cooked.",
+      "Boil the potatoes in their skins, then peel them.",
+      "Pass potatoes and beans together through a food mill or mash well until smooth.",
+      "In a pot, sauté the chopped onion with the chosen fat and the diced pancetta.",
+      "Add the purée to the sauté, season with salt and a pinch of pepper.",
+      "Cook stirring vigorously for about 10 minutes, until the mixture is firm and compact.",
+      "Traditionally turn out onto a board or serving platter and serve in wedges."
+     ],
+     "fr": [
+      "Si tu utilises des haricots secs, fais-les tremper à l’eau froide au moins 12 heures, puis fais-les cuire complètement.",
+      "Fais cuire les pommes de terre avec la peau, puis épluche-les.",
+      "Passe ensemble pommes de terre et haricots au moulin à légumes ou écrase-les bien jusqu’à obtenir une purée lisse.",
+      "Dans une marmite, fais revenir l’oignon haché avec la matière grasse choisie et le lard en dés.",
+      "Ajoute la purée au sauté, assaisonne de sel et d’une pincée de poivre.",
+      "Cuis en remuant énergiquement environ 10 minutes, jusqu’à ce que la préparation soit ferme et compacte.",
+      "Traditionnellement, verse sur une planche ou un plat de service et sers en parts."
+     ],
+     "de": [
+      "Bei getrockneten Bohnen mindestens 12 Stunden in kaltem Wasser einweichen und dann vollständig garen.",
+      "Die Kartoffeln mit Schale kochen und anschließend schälen.",
+      "Kartoffeln und Bohnen gemeinsam durch ein Passiergerät drücken oder gut zerstampfen, bis ein glattes Püree entsteht.",
+      "In einem Topf die gehackte Zwiebel mit dem gewählten Fett und den Speckwürfeln andünsten.",
+      "Das Püree zum Andünsten geben, mit Salz und einer Prise Pfeffer würzen.",
+      "Etwa 10 Minuten kräftig rühren, bis die Masse fest und kompakt ist.",
+      "Traditionell auf ein Brett oder eine Servierplatte stürzen und in Stücken servieren."
+     ],
+     "es": [
+      "Si usas judías secas, déjalas en remojo en agua fría al menos 12 horas y luego cuécelas por completo.",
+      "Cuece las patatas con piel y luego pélalas.",
+      "Pasa patatas y judías juntas por el pasapurés o machácalas bien hasta obtener un puré homogéneo.",
+      "En una olla, sofríe la cebolla picada con la grasa elegida y la panceta en dados.",
+      "Añade el puré al sofrito, sazona con sal y una pizca de pimienta.",
+      "Cuece removiendo enérgicamente unos 10 minutos, hasta que la masa quede firme y compacta.",
+      "Tradicionalmente se vuelca sobre una tabla o una fuente y se sirve en porciones."
+     ]
+    },
+    "fonte": "fagiolodilamon.it, dolomiti.it"
+   }
   },
   {
    "id": "figadet",
    "nome": "Figadét",
    "portata": "secondo",
    "testo": {
-    "it": "Piatto tradizionale del Bellunese. Scheda da completare con il cuoco: la ricetta è da verificare.",
-    "en": "Traditional dish from the Belluno area. Entry to be completed with a cook: the recipe still needs checking.",
-    "fr": "Plat traditionnel du Bellunese. Fiche à compléter avec un cuisinier : la recette reste à vérifier.",
-    "de": "Traditionelles Gericht aus dem Gebiet von Belluno. Eintrag mit einem Koch zu vervollständigen: das Rezept muss noch überprüft werden.",
-    "es": "Plato tradicional del Bellunés. Ficha por completar con un cocinero: la receta debe verificarse."
+    "it": "Salume tradizionale della Valbelluna, preparato con fegato di maiale, carne magra di spalla e pancetta, insaccati in budello naturale. Ha un gusto intenso e caratteristico. Si consuma generalmente fresco, cotto in padella e accompagnato dalla polenta. Nella cucina locale è apprezzato anche con le verze agre, il cavolo fermentato.",
+    "en": "A traditional cured meat of the Valbelluna, made with pork liver, lean shoulder meat and pancetta, stuffed into natural casing. It has an intense and distinctive flavour. It is usually eaten fresh, pan-cooked and served with polenta. In local cooking it is also enjoyed with sauerkraut, fermented cabbage.",
+    "fr": "Charcuterie traditionnelle de la Valbelluna, préparée avec du foie de porc, de la viande maigre d’épaule et du lard, embossée dans un boyau naturel. Elle a un goût intense et caractéristique. On la consomme généralement fraîche, poêlée et accompagnée de polenta. Dans la cuisine locale, on l’apprécie aussi avec la choucroute de chou, le chou fermenté.",
+    "de": "Traditionelle Wurst aus dem Valbelluna, hergestellt aus Schweineleber, magerem Schulterfleisch und Speck, in Naturdarm gefüllt. Sie hat einen intensiven, charakteristischen Geschmack. Meist wird sie frisch verzehrt, in der Pfanne gebraten und mit Polenta serviert. In der lokalen Küche wird sie auch zu Sauerkraut, dem fermentierten Kohl, geschätzt.",
+    "es": "Embutido tradicional de la Valbelluna, elaborado con hígado de cerdo, carne magra de paletilla y panceta, embutido en tripa natural. Tiene un sabor intenso y característico. Suele consumirse fresco, hecho en sartén y acompañado de polenta. En la cocina local también se aprecia con verzas agrias, col fermentada."
    },
-   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
    "foto": null
   },
   {
@@ -647,42 +745,371 @@
    "nome": "Pan de Belùn",
    "portata": "dolce",
    "testo": {
-    "it": "Pane dolce tradizionale di Belluno, arricchito con frutta secca e frutta candita. Scheda da verificare con una fonte locale.",
-    "en": "Traditional sweet bread from Belluno, enriched with dried and candied fruit. Entry to be checked with a local source.",
-    "fr": "Pain sucré traditionnel de Belluno, enrichi de fruits secs et confits. Fiche à vérifier auprès d’une source locale.",
-    "de": "Traditionelles süßes Brot aus Belluno, mit Trockenobst und kandierten Früchten angereichert. Eintrag mit einer lokalen Quelle zu prüfen.",
-    "es": "Pan dulce tradicional de Belluno, enriquecido con fruta seca y confitada. Ficha por verificar con una fuente local."
+    "it": "Dolce rustico tradizionale delle Dolomiti Bellunesi: nonostante il nome, è a metà strada tra un pane speciale e una pasta frolla poco zuccherina. Impasto a base di farina di grano e di mais, arricchito con noci, nocciole, semi di papavero e spesso cioccolato fondente. Consistenza compatta e profumata, ottimo a colazione o con vini dolci.",
+    "en": "A traditional rustic sweet from the Bellunese Dolomites: despite its name, it sits halfway between a special bread and a lightly sweet shortcrust. Made with wheat and cornmeal, enriched with walnuts, hazelnuts, poppy seeds and often dark chocolate. Compact, fragrant texture, perfect for breakfast or with sweet wines.",
+    "fr": "Dessert rustique traditionnel des Dolomites bellunaises : malgré son nom, il se situe entre un pain spécial et une pâte sablée peu sucrée. Pâte à base de farine de blé et de maïs, enrichie de noix, de noisettes, de graines de pavot et souvent de chocolat noir. Texture compacte et parfumée, parfaite au petit-déjeuner ou avec des vins doux.",
+    "de": "Traditionelles rustikales Gebäck aus den Belluneser Dolomiten: trotz des Namens liegt es zwischen einem besonderen Brot und einem wenig gesüßten Mürbeteig. Teig aus Weizen- und Maismehl, angereichert mit Walnüssen, Haselnüssen, Mohnsamen und oft dunkler Schokolade. Kompakte, aromatische Konsistenz, ideal zum Frühstück oder zu süßen Weinen.",
+    "es": "Dulce rústico tradicional de las Dolomitas bellunesas: pese a su nombre, está a medio camino entre un pan especial y una masa quebrada poco azucarada. Masa de harina de trigo y de maíz, enriquecida con nueces, avellanas, semillas de amapola y a menudo chocolate negro. Textura compacta y aromática, perfecta para el desayuno o con vinos dulces."
    },
-   "nota": "Ricetta da verificare con una fonte locale.",
-   "foto": null
+   "foto": null,
+   "ricetta": {
+    "porzioni": 2,
+    "preparazione": {
+     "it": "30-35 min di cottura, più il raffreddamento",
+     "en": "30-35 min baking, plus cooling",
+     "fr": "30-35 min de cuisson, plus le refroidissement",
+     "de": "30-35 Min. Backzeit, plus Abkühlen",
+     "es": "30-35 min de horneado, más el enfriado"
+    },
+    "ingredienti": {
+     "it": [
+      "250 g di farina 0",
+      "150 g di farina di mais (ideale Mais Sponcio o fioretto fine)",
+      "100 g di zucchero",
+      "150 g di burro",
+      "3 uova intere",
+      "120 g di noci e nocciole tritate grossolanamente",
+      "20 g di semi di papavero (circa due cucchiai)",
+      "8 g di lievito per dolci (mezza bustina)",
+      "Una punta di cucchiaino di bicarbonato",
+      "2 cucchiai di gocce o scaglie di cioccolato fondente (facoltativo)"
+     ],
+     "en": [
+      "250 g type 0 flour",
+      "150 g cornmeal (ideally Mais Sponcio or fine cornmeal)",
+      "100 g sugar",
+      "150 g butter",
+      "3 whole eggs",
+      "120 g walnuts and hazelnuts, roughly chopped",
+      "20 g poppy seeds (about two tablespoons)",
+      "8 g baking powder (half a sachet)",
+      "A pinch of baking soda",
+      "2 tablespoons dark chocolate chips or shavings (optional)"
+     ],
+     "fr": [
+      "250 g de farine T0",
+      "150 g de farine de maïs (idéalement Mais Sponcio ou farine fine)",
+      "100 g de sucre",
+      "150 g de beurre",
+      "3 œufs entiers",
+      "120 g de noix et noisettes grossièrement hachées",
+      "20 g de graines de pavot (environ deux cuillères à soupe)",
+      "8 g de levure chimique (un demi-sachet)",
+      "Une pointe de bicarbonate",
+      "2 cuillères à soupe de pépites ou copeaux de chocolat noir (facultatif)"
+     ],
+     "de": [
+      "250 g Mehl Type 0",
+      "150 g Maismehl (ideal Mais Sponcio oder feines Maismehl)",
+      "100 g Zucker",
+      "150 g Butter",
+      "3 ganze Eier",
+      "120 g grob gehackte Walnüsse und Haselnüsse",
+      "20 g Mohnsamen (etwa zwei Esslöffel)",
+      "8 g Backpulver (ein halber Beutel)",
+      "Eine Prise Natron",
+      "2 EL dunkle Schokoladentropfen oder -raspel (optional)"
+     ],
+     "es": [
+      "250 g de harina 0",
+      "150 g de harina de maíz (ideal Mais Sponcio o fina)",
+      "100 g de azúcar",
+      "150 g de mantequilla",
+      "3 huevos enteros",
+      "120 g de nueces y avellanas picadas toscamente",
+      "20 g de semillas de amapola (unas dos cucharadas)",
+      "8 g de levadura para repostería (media bolsita)",
+      "Una pizca de bicarbonato",
+      "2 cucharadas de gotas o virutas de chocolate negro (opcional)"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Setaccia le due farine in una ciotola capiente, poi aggiungi zucchero, lievito, bicarbonato, semi di papavero e frutta secca tritata.",
+      "Fondi il burro a bagnomaria o nel microonde, lascialo intiepidire e sbatti leggermente le uova, poi uniscile al burro.",
+      "Versa i liquidi nella ciotola dei secchi, mescola con un cucchiaio e poi lavora brevemente a mano fino a ottenere un panetto compatto e omogeneo.",
+      "Dividi l’impasto in due parti e modella due pagnotte tonde e leggermente schiacciate; se vuoi, decorale premendo qualche noce intera.",
+      "Disponi le pagnotte su una teglia con carta da forno e cuoci in forno statico preriscaldato a 180 °C per circa 30-35 minuti, finché la superficie è dorata.",
+      "Lascia raffreddare completamente su una gratella prima di tagliare a fette. Si conserva per diversi giorni in un sacchetto chiuso."
+     ],
+     "en": [
+      "Sift the two flours into a large bowl, then add sugar, baking powder, baking soda, poppy seeds and the chopped nuts.",
+      "Melt the butter in a bain-marie or microwave, let it cool slightly, lightly beat the eggs and mix them into the butter.",
+      "Pour the liquids into the dry ingredients, stir with a spoon, then briefly work by hand into a compact, smooth dough.",
+      "Divide the dough in two and shape two round, slightly flattened loaves; decorate with a few whole walnuts if you like.",
+      "Place the loaves on a tray lined with baking paper and bake in a preheated static oven at 180 °C for about 30-35 minutes, until the surface is golden.",
+      "Let cool completely on a wire rack before slicing. Keeps for several days in a closed bag."
+     ],
+     "fr": [
+      "Tamise les deux farines dans un grand saladier, puis ajoute le sucre, la levure, le bicarbonate, les graines de pavot et les fruits secs hachés.",
+      "Fais fondre le beurre au bain-marie ou au micro-ondes, laisse-le tiédir, bats légèrement les œufs et incorpore-les au beurre.",
+      "Verse les liquides sur les ingrédients secs, mélange à la cuillère puis travaille brièvement à la main pour obtenir une pâte compacte et homogène.",
+      "Divise la pâte en deux et façonne deux miches rondes et légèrement aplaties ; décore avec quelques noix entières si tu le souhaites.",
+      "Dispose les miches sur une plaque couverte de papier cuisson et cuis au four statique préchauffé à 180 °C pendant environ 30-35 minutes, jusqu’à ce que la surface soit dorée.",
+      "Laisse refroidir complètement sur une grille avant de couper en tranches. Se conserve plusieurs jours dans un sac fermé."
+     ],
+     "de": [
+      "Die zwei Mehlsorten in einer großen Schüssel sieben, dann Zucker, Backpulver, Natron, Mohnsamen und die gehackten Nüsse zugeben.",
+      "Die Butter im Wasserbad oder in der Mikrowelle schmelzen, abkühlen lassen, die Eier leicht verquirlen und unter die Butter rühren.",
+      "Die flüssigen Zutaten zu den trockenen geben, zuerst mit einem Löffel vermengen und dann kurz mit der Hand zu einem kompakten, glatten Teig kneten.",
+      "Den Teig halbieren und zwei runde, leicht flache Laibe formen; nach Belieben mit einigen ganzen Walnüssen verzieren.",
+      "Die Laibe auf ein mit Backpapier belegtes Blech legen und bei 180 °C Ober-/Unterhitze etwa 30-35 Minuten backen, bis die Oberfläche goldbraun ist.",
+      "Vollständig auf einem Gitter abkühlen lassen, bevor in Scheiben geschnitten wird. Hält sich in einem verschlossenen Beutel mehrere Tage."
+     ],
+     "es": [
+      "Tamiza las dos harinas en un bol grande y añade el azúcar, la levadura, el bicarbonato, las semillas de amapola y los frutos secos picados.",
+      "Derrite la mantequilla al baño maría o en el microondas, déjala entibiar, bate ligeramente los huevos y mézclalos con la mantequilla.",
+      "Vierte los líquidos sobre los secos, mezcla con una cuchara y luego trabaja brevemente a mano hasta obtener una masa compacta y homogénea.",
+      "Divide la masa en dos y forma dos hogazas redondas y ligeramente aplastadas; si quieres, decóralas con algunas nueces enteras.",
+      "Coloca las hogazas en una bandeja con papel de horno y hornea en horno estático precalentado a 180 °C durante unos 30-35 minutos, hasta que la superficie esté dorada.",
+      "Deja enfriar del todo sobre una rejilla antes de cortar en rodajas. Se conserva varios días en una bolsa cerrada."
+     ]
+    },
+    "fonte": "rossellavenezia.com, balbinotilfornaio.it"
+   }
   },
   {
    "id": "carfogn",
    "nome": "Carfogn",
    "portata": "dolce",
    "testo": {
-    "it": "Dolce tradizionale del Bellunese. Scheda da completare: la ricetta è da verificare.",
-    "en": "Traditional sweet from the Belluno area. Entry to be completed: the recipe still needs checking.",
-    "fr": "Dessert traditionnel du Bellunese. Fiche à compléter : la recette reste à vérifier.",
-    "de": "Traditionelle Süßspeise aus dem Gebiet von Belluno. Eintrag zu vervollständigen: das Rezept muss noch überprüft werden.",
-    "es": "Dulce tradicional del Bellunés. Ficha por completar: la receta debe verificarse."
+    "it": "Dolce fritto tradizionale del Bellunese: sfoglia sottile ripiena di semi di papavero, marmellata di prugne, biscotti e cioccolato, fritta fino a formare bolle croccanti e spolverata di zucchero a velo.",
+    "en": "A traditional fried sweet from the Belluno area: a thin pasta sheet filled with poppy seeds, plum jam, biscuits and chocolate, fried until crisp bubbles form and dusted with icing sugar.",
+    "fr": "Dessert frit traditionnel du Bellunese : une fine pâte fourrée de graines de pavot, de confiture de prunes, de biscuits et de chocolat, frite jusqu’à former des bulles croustillantes et saupoudrée de sucre glace.",
+    "de": "Traditionelle frittierte Süßspeise aus dem Gebiet von Belluno: dünner Teig, gefüllt mit Mohnsamen, Pflaumenmarmelade, Keksen und Schokolade, frittiert, bis knusprige Blasen entstehen, und mit Puderzucker bestäubt.",
+    "es": "Dulce frito tradicional del Bellunés: masa fina rellena de semillas de amapola, mermelada de ciruela, galletas y chocolate, frita hasta formar burbujas crujientes y espolvoreada con azúcar glas."
    },
-   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
-   "foto": null
+   "foto": null,
+   "ricetta": {
+    "porzioni": 25,
+    "preparazione": {
+     "it": "circa 1 ora 30 min (ripieno da fare in anticipo + 30 min di riposo della sfoglia)",
+     "en": "about 1 h 30 min (filling made in advance + 30 min resting of the dough)",
+     "fr": "environ 1 h 30 (farce préparée à l’avance + 30 min de repos de la pâte)",
+     "de": "ca. 1 Std. 30 Min. (Füllung vorab + 30 Min. Ruhezeit des Teigs)",
+     "es": "unas 1 h 30 min (relleno preparado antes + 30 min de reposo de la masa)"
+    },
+    "ingredienti": {
+     "it": [
+      "300 g di farina 00",
+      "1 uovo intero + 1 tuorlo",
+      "50 g di burro fuso e intiepidito",
+      "2 cucchiai di zucchero",
+      "2 cucchiai di grappa bianca",
+      "50-80 ml di latte o acqua tiepida (q.b.)",
+      "1 pizzico di sale",
+      "150 g di semi di papavero macinati finemente",
+      "100 g di zucchero (per il ripieno)",
+      "3-4 cucchiai di marmellata di prugne o albicocche",
+      "50 g di biscotti secchi (tipo Oro Saiwa) o pane grattugiato, sbriciolati finissimi",
+      "50 g di cioccolato fondente o cacao amaro",
+      "1 bicchierino di grappa",
+      "Scorza grattugiata di 1 limone",
+      "Latte q.b. (circa mezzo bicchiere) per il ripieno",
+      "Olio di semi di arachidi o strutto per friggere",
+      "Zucchero a velo per guarnire"
+     ],
+     "en": [
+      "300 g 00 flour",
+      "1 whole egg + 1 yolk",
+      "50 g butter, melted and lukewarm",
+      "2 tablespoons sugar",
+      "2 tablespoons white grappa",
+      "50-80 ml lukewarm milk or water (as needed)",
+      "1 pinch of salt",
+      "150 g poppy seeds, finely ground",
+      "100 g sugar (for the filling)",
+      "3-4 generous tablespoons plum or apricot jam",
+      "50 g dry biscuits (such as Oro Saiwa) or breadcrumbs, very finely crumbled",
+      "50 g dark chocolate or bitter cocoa",
+      "1 small glass grappa",
+      "Grated zest of 1 lemon",
+      "About half a glass of milk, for the filling",
+      "Peanut oil or lard for frying",
+      "Icing sugar for dusting"
+     ],
+     "fr": [
+      "300 g de farine 00",
+      "1 œuf entier + 1 jaune",
+      "50 g de beurre fondu et tiède",
+      "2 cuillères à soupe de sucre",
+      "2 cuillères à soupe de grappa blanche",
+      "50-80 ml de lait ou d’eau tiède (si nécessaire)",
+      "1 pincée de sel",
+      "150 g de graines de pavot finement moulues",
+      "100 g de sucre (pour la farce)",
+      "3-4 cuillères à soupe bombées de confiture de prunes ou d’abricots",
+      "50 g de biscuits secs (type Oro Saiwa) ou de chapelure, très finement émiettés",
+      "50 g de chocolat noir ou de cacao amer",
+      "1 petit verre de grappa",
+      "Zeste râpé d’1 citron",
+      "Environ un demi-verre de lait, pour la farce",
+      "Huile d’arachide ou saindoux pour friture",
+      "Sucre glace pour la décoration"
+     ],
+     "de": [
+      "300 g Mehl Type 00",
+      "1 ganzes Ei + 1 Eigelb",
+      "50 g Butter, geschmolzen und lauwarm",
+      "2 EL Zucker",
+      "2 EL weiße Grappa",
+      "50-80 ml lauwarme Milch oder Wasser (nach Bedarf)",
+      "1 Prise Salz",
+      "150 g fein gemahlener Mohnsamen",
+      "100 g Zucker (für die Füllung)",
+      "3-4 gehäufte EL Pflaumen- oder Aprikosenmarmelade",
+      "50 g trockene Kekse (z. B. Oro Saiwa) oder Semmelbrösel, sehr fein zerbröselt",
+      "50 g dunkle Schokolade oder bitteres Kakaopulver",
+      "1 kleines Glas Grappa",
+      "Abgeriebene Schale von 1 Zitrone",
+      "Etwa ein halbes Glas Milch für die Füllung",
+      "Erdnussöl oder Schmalz zum Frittieren",
+      "Puderzucker zum Bestäuben"
+     ],
+     "es": [
+      "300 g de harina 00",
+      "1 huevo entero + 1 yema",
+      "50 g de mantequilla derretida y tibia",
+      "2 cucharadas de azúcar",
+      "2 cucharadas de grappa blanca",
+      "50-80 ml de leche o agua tibia (si hace falta)",
+      "1 pizca de sal",
+      "150 g de semillas de amapola muy finamente molidas",
+      "100 g de azúcar (para el relleno)",
+      "3-4 cucharadas colmadas de mermelada de ciruela o albaricoque",
+      "50 g de galletas secas (tipo Oro Saiwa) o pan rallado, desmenuzadas muy finas",
+      "50 g de chocolate negro o cacao amargo",
+      "1 copita de grappa",
+      "Ralladura de 1 limón",
+      "Medio vaso de leche aproximadamente, para el relleno",
+      "Aceite de cacahuete o manteca para freír",
+      "Azúcar glas para decorar"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Per il ripieno: scalda il latte con lo zucchero, versa i semi di papavero e cuoci a fuoco bassissimo per circa 5 minuti, mescolando, fino a ottenere una crema densa. Spegni e lascia intiepidire.",
+      "Unisci marmellata, biscotti sbriciolati, cioccolato, scorza di limone e grappa. Il composto deve essere morbido e compatto; aggiusta con un goccio di latte o con altri biscotti, poi lascia riposare.",
+      "Per la sfoglia: disponi la farina a fontana, metti al centro uova, zucchero, burro fuso, grappa e sale. Impasta energicamente, aggiungendo se serve un goccio di latte tiepido, fino a un panetto liscio ed elastico.",
+      "Avvolgi il panetto nella pellicola e lascialo riposare circa 30 minuti a temperatura ambiente.",
+      "Stendi la pasta sottilissima (1-2 mm). Disponi mucchietti di ripieno di circa un cucchiaino, distanziati tra loro. Ripiega la sfoglia sopra o sovrapponi un secondo foglio, fai uscire l’aria premendo intorno al ripieno e sigilla i bordi.",
+      "Taglia i dolci con una rotella dentellata, dando forma a mezzaluna o a rettangolo.",
+      "Friggi in olio o strutto caldo a 170-180 °C, poche unità alla volta, girandole fino a doratura. Scolale, asciugale su carta assorbente e spolverale di zucchero a velo quando sono ancora tiepide."
+     ],
+     "en": [
+      "For the filling: warm the milk with the sugar, add the ground poppy seeds and cook over very low heat for about 5 minutes, stirring, until a thick cream forms. Turn off the heat and let it cool slightly.",
+      "Add the jam, crumbled biscuits, chocolate, lemon zest and grappa. The mixture should be soft and compact; adjust with a splash of milk or more biscuits, then let it rest.",
+      "For the dough: mound the flour, put the eggs, sugar, melted butter, grappa and salt in the centre. Knead vigorously, adding a little lukewarm milk if needed, until smooth and elastic.",
+      "Wrap in cling film and rest for about 30 minutes at room temperature.",
+      "Roll the dough very thin (1-2 mm). Place spoonfuls of filling, about a heaped teaspoon each, spaced apart. Fold the sheet over or lay a second sheet on top, press out the air around the filling and seal the edges.",
+      "Cut the pastries with a fluted pastry wheel into half-moons or rectangles.",
+      "Fry in hot oil or lard at 170-180 °C, a few at a time, turning until golden. Drain on kitchen paper and dust with icing sugar while still warm."
+     ],
+     "fr": [
+      "Pour la farce : fais chauffer le lait avec le sucre, ajoute les graines de pavot moulues et cuis à feu très doux environ 5 minutes en remuant, jusqu’à obtenir une crème épaisse. Éteins et laisse tiédir.",
+      "Ajoute la confiture, les biscuits émiettés, le chocolat, le zeste de citron et la grappa. La préparation doit être souple et compacte ; ajuste avec un trait de lait ou d’autres biscuits, puis laisse reposer.",
+      "Pour la pâte : fais une fontaine avec la farine, mets au centre les œufs, le sucre, le beurre fondu, la grappa et le sel. Pétris énergiquement, en ajoutant un peu de lait tiède si besoin, jusqu’à obtenir une boule lisse et élastique.",
+      "Enveloppe la pâte dans du film et laisse reposer environ 30 minutes à température ambiante.",
+      "Étale la pâte très finement (1-2 mm). Dépose des petits tas de farce, environ une cuillère à café bombée, espacés. Replie la pâte ou pose une seconde feuille, chasse l’air autour de la farce et scelle les bords.",
+      "Découpe les gâteaux avec une roulette cannelée en demi-lunes ou en rectangles.",
+      "Fais frire dans l’huile ou le saindoux à 170-180 °C, quelques pièces à la fois, en retournant jusqu’à dorure. Égoutte sur du papier absorbant et saupoudre de sucre glace encore tièdes."
+     ],
+     "de": [
+      "Für die Füllung: die Milch mit dem Zucker erwärmen, den gemahlenen Mohn hinzufügen und etwa 5 Minuten bei sehr schwacher Hitze unter Rühren zu einer dicken Creme kochen. Vom Herd nehmen und etwas abkühlen lassen.",
+      "Marmelade, zerbröselte Kekse, Schokolade, Zitronenschale und Grappa unterrühren. Die Masse soll weich und kompakt sein; mit einem Schuss Milch oder mehr Keksen anpassen und ruhen lassen.",
+      "Für den Teig: Mehl kranzförmig anhäufen, Eier, Zucker, geschmolzene Butter, Grappa und Salz in die Mitte geben. Kräftig kneten, bei Bedarf etwas lauwarme Milch zugeben, bis ein glatter, elastischer Teig entsteht.",
+      "In Frischhaltefolie wickeln und etwa 30 Minuten bei Raumtemperatur ruhen lassen.",
+      "Den Teig sehr dünn ausrollen (1-2 mm). Kleine Häufchen Füllung, etwa einen gehäuften Teelöffel, mit Abstand verteilen. Den Teig darüberklappen oder ein zweites Blatt auflegen, die Luft um die Füllung herausdrücken und die Ränder verschließen.",
+      "Mit einem Teigrädchen in Halbmonde oder Rechtecke schneiden.",
+      "In heißem Öl oder Schmalz bei 170-180 °C portionsweise frittieren, wenden, bis sie goldbraun sind. Auf Küchenpapier abtropfen lassen und noch lauwarm mit Puderzucker bestäuben."
+     ],
+     "es": [
+      "Para el relleno: calienta la leche con el azúcar, añade las semillas de amapola molidas y cuece a fuego muy bajo unos 5 minutos, removiendo, hasta obtener una crema densa. Apaga y deja entibiar.",
+      "Añade la mermelada, las galletas desmenuzadas, el chocolate, la ralladura de limón y la grappa. La mezcla debe quedar blanda y compacta; ajusta con un chorrito de leche o más galletas y deja reposar.",
+      "Para la masa: haz una fuente con la harina y pon en el centro los huevos, el azúcar, la mantequilla derretida, la grappa y la sal. Amasa enérgicamente, añadiendo un poco de leche tibia si hace falta, hasta obtener una bola lisa y elástica.",
+      "Envuélvela en film y deja reposar unos 30 minutos a temperatura ambiente.",
+      "Extiende la masa muy fina (1-2 mm). Coloca montoncitos de relleno, de una cucharadita colmada, separados entre sí. Dobla la masa sobre sí misma o cubre con otra lámina, saca el aire alrededor del relleno y sella los bordes.",
+      "Corta los dulces con una rueda dentada, dándoles forma de media luna o rectángulo.",
+      "Fríelos en aceite o manteca caliente a 170-180 °C, de pocos en pocos, dándoles la vuelta hasta que estén dorados. Escúrrelos sobre papel absorbente y espolvoréalos con azúcar glas mientras aún están tibios."
+     ]
+    }
+   }
   },
   {
    "id": "kodinzon",
    "nome": "Kodinzon",
    "portata": "dolce",
    "testo": {
-    "it": "Dolce tradizionale del Bellunese. Scheda da completare: la ricetta è da verificare.",
-    "en": "Traditional sweet from the Belluno area. Entry to be completed: the recipe still needs checking.",
-    "fr": "Dessert traditionnel du Bellunese. Fiche à compléter : la recette reste à vérifier.",
-    "de": "Traditionelle Süßspeise aus dem Gebiet von Belluno. Eintrag zu vervollständigen: das Rezept muss noch überprüft werden.",
-    "es": "Dulce tradicional del Bellunés. Ficha por completar: la receta debe verificarse."
+    "it": "Antica conserva tradizionale del Bellunese fatta con un solo ingrediente, la mela: una sfoglia sottile, scura e gommosa, un tempo donata ai bambini a Natale e oggi apprezzata anche come snack naturale.",
+    "en": "An ancient traditional preserve from the Belluno area made with a single ingredient, apples: a thin, dark and chewy sheet, once given to children at Christmas and now enjoyed as a natural snack.",
+    "fr": "Ancienne conserve traditionnelle du Bellunese, faite d’un seul ingrédient, la pomme : une fine feuille sombre et élastique, autrefois offerte aux enfants à Noël et aujourd’hui appréciée comme en-cas naturel.",
+    "de": "Uralte traditionelle Konserve aus dem Gebiet von Belluno, nur aus einer Zutat hergestellt, dem Apfel: ein dünnes, dunkles und zähes Blatt, früher an Weihnachten an Kinder verschenkt und heute als natürlicher Snack geschätzt.",
+    "es": "Antigua conserva tradicional del Bellunés hecha con un solo ingrediente, la manzana: una lámina fina, oscura y gomosa, que antiguamente se regalaba a los niños en Navidad y hoy se disfruta como merienda natural."
    },
-   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
-   "foto": null
+   "foto": null,
+   "ricetta": {
+    "preparazione": {
+     "it": "circa 12-24 ore di essiccazione (più la cottura della purea)",
+     "en": "about 12-24 hours of drying (plus cooking the purée)",
+     "fr": "environ 12-24 h de séchage (plus la cuisson de la purée)",
+     "de": "ca. 12-24 Std. Trocknung (plus Kochen des Mus)",
+     "es": "unas 12-24 h de secado (más la cocción del puré)"
+    },
+    "ingredienti": {
+     "it": [
+      "8-10 kg di mele locali bellunesi a polpa asciutta e acidula (es. Rosetta, Renetta o Ferro Cesio), per circa 1 kg di prodotto finito"
+     ],
+     "en": [
+      "8-10 kg of local Belluno apples with dry, tart flesh (e.g. Rosetta, Renetta or Ferro Cesio), for about 1 kg of finished product"
+     ],
+     "fr": [
+      "8 à 10 kg de pommes locales du Bellunese à chair sèche et acidulée (ex. Rosetta, Renetta ou Ferro Cesio), pour environ 1 kg de produit fini"
+     ],
+     "de": [
+      "8-10 kg lokale Äpfel aus Belluno mit trockenem, säuerlichem Fruchtfleisch (z. B. Rosetta, Renetta oder Ferro Cesio), für etwa 1 kg fertiges Produkt"
+     ],
+     "es": [
+      "8-10 kg de manzanas locales del Bellunés de pulpa seca y ácida (p. ej. Rosetta, Renetta o Ferro Cesio), para unos 1 kg de producto terminado"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Sbuccia le mele, elimina il torsolo e tagliale a pezzetti. Cuoci a fuoco bassissimo, mescolando spesso, finché si sfaldano e l’acqua evapora (aggiungi un cucchiaio d’acqua solo all’inizio, se serve).",
+      "Passa la purea al passaverdura o frullala fino a ottenere un composto liscio, denso e finissimo.",
+      "Rivesti una teglia con carta da forno e stendi la purea calda in uno strato sottilissimo, di 2-3 mm.",
+      "Essicca a 50-60 °C per 12-24 ore in essiccatore, oppure in forno ventilato alla temperatura più bassa con lo sportello socchiuso, fino a ottenere una sfoglia asciutta al tatto, flessibile e gommosa che si stacca facilmente.",
+      "Staccala dalla carta e tagliala in strisce o barrette con un coltello affilato o forbici da cucina. Conservala in latta o in sacchetti chiusi, in un luogo fresco e asciutto."
+     ],
+     "en": [
+      "Peel the apples, remove the cores and cut into small pieces. Cook over very low heat, stirring often, until they break down and the water evaporates (add a spoonful of water only at the start, if needed).",
+      "Pass the purée through a food mill or blend until smooth, dense and very fine.",
+      "Line a baking tray with baking paper and spread the hot purée in a very thin layer, 2-3 mm thick.",
+      "Dry at 50-60 °C for 12-24 hours in a dehydrator, or in a fan oven at the lowest temperature with the door slightly open, until the sheet is dry to the touch, flexible and chewy and peels off easily.",
+      "Peel it off the paper and cut into strips or bars with a sharp knife or kitchen scissors. Store in tins or sealed bags, in a cool, dry place."
+     ],
+     "fr": [
+      "Épluche les pommes, retire le cœur et coupe-les en petits morceaux. Cuis à feu très doux, en remuant souvent, jusqu’à ce qu’elles se défassent et que l’eau s’évapore (ajoute une cuillère d’eau seulement au début si besoin).",
+      "Passe la purée au moulin à légumes ou mixe jusqu’à obtenir une préparation lisse, dense et très fine.",
+      "Recouvre une plaque de papier cuisson et étale la purée chaude en couche très fine, de 2-3 mm.",
+      "Fais sécher à 50-60 °C pendant 12-24 heures au déshydrateur, ou au four ventilé à la température la plus basse, porte légèrement entrouverte, jusqu’à obtenir une feuille sèche au toucher, souple et élastique qui se détache facilement.",
+      "Détache-la du papier et coupe-la en bandes ou barres avec un couteau bien aiguisé ou des ciseaux de cuisine. Conserve-la en boîte métallique ou en sachet fermé, dans un endroit frais et sec."
+     ],
+     "de": [
+      "Die Äpfel schälen, das Kernhaus entfernen und in kleine Stücke schneiden. Bei sehr schwacher Hitze unter häufigem Rühren garen, bis sie zerfallen und das Wasser verdampft ist (nur zu Beginn bei Bedarf einen Esslöffel Wasser zugeben).",
+      "Das Mus durch ein Passiergerät streichen oder pürieren, bis eine glatte, dichte und sehr feine Masse entsteht.",
+      "Ein Backblech mit Backpapier auslegen und das heiße Mus in einer sehr dünnen Schicht von 2-3 mm verstreichen.",
+      "Bei 50-60 °C 12-24 Stunden im Dörrgerät trocknen oder im Umluftofen bei niedrigster Temperatur mit leicht geöffneter Tür, bis das Blatt trocken, biegsam und zäh ist und sich leicht ablöst.",
+      "Vom Papier lösen und mit einem scharfen Messer oder einer Küchenschere in Streifen oder Riegel schneiden. In Dosen oder verschlossenen Beuteln an einem kühlen, trockenen Ort aufbewahren."
+     ],
+     "es": [
+      "Pela las manzanas, quita el corazón y córtalas en trozos pequeños. Cuece a fuego muy bajo, removiendo a menudo, hasta que se deshagan y el agua se evapore (añade una cucharada de agua solo al principio, si hace falta).",
+      "Pasa el puré por el pasapurés o tritúralo hasta obtener una mezcla lisa, densa y muy fina.",
+      "Cubre una bandeja con papel de horno y extiende el puré caliente en una capa muy fina, de 2-3 mm.",
+      "Seca a 50-60 °C durante 12-24 horas en deshidratador, o en horno de aire a la temperatura más baja con la puerta entreabierta, hasta que la lámina esté seca al tacto, flexible y gomosa y se despegue con facilidad.",
+      "Despégala del papel y córtala en tiras o barritas con un cuchillo afilado o tijeras de cocina. Consérvala en latas o bolsas cerradas, en un lugar fresco y seco."
+     ]
+    }
+   }
   },
   {
    "id": "fagiolo-di-lamon-igp",
