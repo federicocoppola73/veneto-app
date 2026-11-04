@@ -4,7 +4,7 @@ import { Animated, Image, PanResponder, PixelRatio, Pressable, StyleSheet, Text,
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 40;
 const DIMENSIONE_MARKER = 22;
-const DIMENSIONE_NUMERO = 28; // pallini numerati delle tappe di un itinerario
+const DIMENSIONE_NUMERO = 22; // pallini numerati delle tappe di un itinerario
 const DIMENSIONE_SERVIZIO = 20; // fontanelle, bagni, farmacie, vaporetto
 const SPESSORE_PERCORSO = 5; // linea dell'itinerario, in punti sullo schermo
 const DIMENSIONE_UTENTE = 34; // alone azzurro attorno alla posizione dell'utente
@@ -784,7 +784,7 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     shadowOffset: { width: 0, height: 1 },
   },
-  numero: { color: '#fff', fontSize: 12, fontWeight: '800', lineHeight: 15, textAlign: 'center' },
+  numero: { color: '#fff', fontSize: 10, fontWeight: '800', lineHeight: 12, textAlign: 'center' },
   boxEtichetta: {
     position: 'absolute',
     top: DIMENSIONE_MARKER + 2,
