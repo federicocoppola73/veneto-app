@@ -408,10 +408,19 @@ function Schermata({ linguaIniziale }) {
   const ritornoPersonaggio = useRef(null);
   // luogo da riaprire alla chiusura della scheda di un personaggio aperta dal luogo
   const ritornoLuogo = useRef(null);
+  // itinerario speciale da cui si è aperta la scheda di un luogo: alla chiusura si riapre il suo elenco
+  const ritornoItinerario = useRef(null);
   // personaggio di partenza, quando si apre un personaggio collegato
   const ritornoCollegato = useRef(null);
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
+    if (ritornoItinerario.current) {
+      const idItin = ritornoItinerario.current;
+      ritornoItinerario.current = null;
+      setApriItinerarioId(idItin);
+      setSelettoreAperto(true);
+      return;
+    }
     if (ritornoPersonaggio.current) {
       const id = ritornoPersonaggio.current;
       ritornoPersonaggio.current = null;
@@ -860,7 +869,7 @@ function Schermata({ linguaIniziale }) {
         {guida && itinerario ? (
           <GuidaItinerario
             itinerario={itinerario}
-            luoghiPerId={luoghiPerId}
+            luoghiPerId={luoghiTuttiPerId}
             lingua={lingua}
             t={t}
             posizione={posizione}
@@ -912,7 +921,7 @@ function Schermata({ linguaIniziale }) {
         onEsporta={itinerariUtente.length ? esportaItinerari : undefined}
         onImporta={() => setImporta({ ricevuto: null, da: 'itinerari' })}
         itinerari={tuttiItinerari}
-        luoghiPerId={luoghiPerId}
+        luoghiPerId={luoghiTuttiPerId}
         lingua={lingua}
         t={t}
         partenza={partenza}
@@ -922,8 +931,9 @@ function Schermata({ linguaIniziale }) {
         lunghezza={lunghezza}
         attivoId={idItinerario}
         onScegli={scegliItinerario}
-        onApriLuogo={(id) => {
-          // itinerario speciale: la scheda del luogo censito si apre dalla mappa, poi si torna all'itinerario
+        onApriLuogo={(id, idItin) => {
+          // itinerario speciale: la scheda del luogo si apre sopra; alla chiusura si torna all'elenco di quell'itinerario
+          ritornoItinerario.current = idItin;
           setSelettoreAperto(false);
           apriTappa(id);
         }}

@@ -45,7 +45,7 @@ export default function SelettoreItinerari({
   onElimina,
   onCondividi,
   apriId,
-  onApriLuogo,
+  onApriLuogo, // (id del luogo, id dell'itinerario): apre la scheda di un luogo censito
 }) {
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
@@ -211,10 +211,11 @@ export default function SelettoreItinerari({
                 key={id}
                 luogo={luoghiPerId[id] || { id, nome: id }}
                 numero={i + 1}
+                testo={aperto.testi?.[id]}
                 lingua={lingua}
                 t={t}
                 visto={visitati.includes(id)}
-                onApri={onApriLuogo}
+                onApri={(luogoId) => onApriLuogo?.(luogoId, aperto.id)}
               />
             ))}
           </View>
@@ -488,7 +489,9 @@ const styles = StyleSheet.create({
   tappe: { gap: 4 },
   carta: { backgroundColor: '#fff', borderRadius: 12, padding: 12, borderWidth: 1, borderColor: '#e2e8f0', gap: 6 },
   cartaTesta: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  cartaTipo: { fontSize: 11, fontWeight: '800', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.3 },
+  nomeCarta: { flex: 1, fontSize: 15, fontWeight: '700', color: '#0f172a' },
+  badgeTipo: { width: 28, height: 28, borderRadius: 14, backgroundColor: '#e0ecf8', alignItems: 'center', justifyContent: 'center' },
+  iconaTipo: { fontSize: 14 },
   cartaIndirizzo: { fontSize: 13, color: '#475569' },
   cartaTesto: { fontSize: 14, color: '#334155', lineHeight: 20 },
   tappa: { flexDirection: 'row', alignItems: 'center', gap: 8 },
@@ -500,39 +503,35 @@ const styles = StyleSheet.create({
   nota: { fontSize: 12, color: '#64748b', lineHeight: 17, marginTop: 10 },
 });
 
-// Tappa di un itinerario "speciale": scheda con pallino numerato, tipo, indirizzo e descrizione.
-// Luogo censito: il tocco apre la sua scheda. Tappa fotografica (non censita): il tocco espande la descrizione.
-function CartaTappa({ luogo, numero, lingua, t, visto, onApri }) {
-  const [espansa, setEspansa] = useState(false);
+// Tappa di un itinerario "speciale": pallino colorato con il numero, nome, icona del tipo,
+// indirizzo e il testo scritto per questo itinerario.
+// Luogo censito: il tocco apre la sua scheda. Tappa fotografica: per ora il tocco non fa nulla.
+function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
   const censito = !luogo.tappa_fotografica;
-  const testo = testoLocalizzato(luogo.descrizione, lingua);
+  const descrizione = testoLocalizzato(testo, lingua);
+  const tipo = censito ? t('itin_censito') : t('itin_fotografica');
   return (
     <Pressable
-      onPress={() => (censito ? onApri?.(luogo.id) : setEspansa((v) => !v))}
-      style={({ pressed }) => [styles.carta, pressed && { opacity: 0.85 }]}
+      onPress={() => (censito ? onApri?.(luogo.id) : null)}
+      style={({ pressed }) => [styles.carta, pressed && censito && { opacity: 0.85 }]}
       accessibilityRole="button"
+      accessibilityLabel={`${numero}. ${luogo.nome}. ${tipo}`}
     >
       <View style={styles.cartaTesta}>
         <View style={[styles.numeroTappa, { backgroundColor: coloreCategoria(luogo.categoria) }]}>
           <Text style={styles.testoNumeroTappa}>{numero}</Text>
         </View>
-        <View style={{ flex: 1 }}>
-          <Text style={styles.cartaTipo}>
-            {t(`cat_${luogo.categoria}`)} · {censito ? t('itin_censito') : t('itin_fotografica')}
-          </Text>
-          <Text style={styles.nomeTappa} numberOfLines={2}>
-            {luogo.nome}
-          </Text>
+        <Text style={styles.nomeCarta} numberOfLines={2}>
+          {luogo.nome}
+        </Text>
+        <View style={styles.badgeTipo}>
+          <Text style={styles.iconaTipo}>{censito ? '🏛️' : '📷'}</Text>
         </View>
         {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
         {censito ? <Text style={styles.freccia}>›</Text> : null}
       </View>
       {luogo.indirizzo ? <Text style={styles.cartaIndirizzo}>📍 {luogo.indirizzo}</Text> : null}
-      {testo ? (
-        <Text style={styles.cartaTesto} numberOfLines={censito || espansa ? undefined : 3}>
-          {testo}
-        </Text>
-      ) : null}
+      {descrizione ? <Text style={styles.cartaTesto}>{descrizione}</Text> : null}
     </Pressable>
   );
 }
