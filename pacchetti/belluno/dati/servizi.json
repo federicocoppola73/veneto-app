@@ -1,0 +1,1642 @@
+{
+ "_nota": "Generato da strumenti/servizi_osm.py (e per le fermate da estrazione OSM con relazioni di linea) con i dati OpenStreetMap. Dati © OpenStreetMap contributors (ODbL). Fermate degli autobus: solo quelle delle linee urbane, con le linee che vi fermano.",
+ "servizi": [
+  {
+   "id": "farmacie-1",
+   "tipo": "farmacie",
+   "lat": 46.136826,
+   "lon": 12.203042,
+   "nome": "Farmacia Dolomiti"
+  },
+  {
+   "id": "farmacie-2",
+   "tipo": "farmacie",
+   "lat": 46.139153,
+   "lon": 12.214985,
+   "nome": "Farmacia all'Ospedale"
+  },
+  {
+   "id": "farmacie-3",
+   "tipo": "farmacie",
+   "lat": 46.139206,
+   "lon": 12.217964,
+   "nome": "Farmacia Boco"
+  },
+  {
+   "id": "farmacie-4",
+   "tipo": "farmacie",
+   "lat": 46.140012,
+   "lon": 12.217403,
+   "nome": "Farmacia Perale"
+  },
+  {
+   "id": "farmacie-5",
+   "tipo": "farmacie",
+   "lat": 46.140724,
+   "lon": 12.218456,
+   "nome": "Farmacia Venturelli"
+  },
+  {
+   "id": "farmacie-6",
+   "tipo": "farmacie",
+   "lat": 46.144737,
+   "lon": 12.203583,
+   "nome": "Farmacia Dottor Baratto"
+  },
+  {
+   "id": "farmacie-7",
+   "tipo": "farmacie",
+   "lat": 46.145296,
+   "lon": 12.222352,
+   "nome": "Farmacia Coran"
+  },
+  {
+   "id": "farmacie-8",
+   "tipo": "farmacie",
+   "lat": 46.150072,
+   "lon": 12.214653,
+   "nome": "Farmacia Chimenti"
+  },
+  {
+   "id": "parcheggi-1",
+   "tipo": "parcheggi",
+   "lat": 46.137042,
+   "lon": 12.215536,
+   "nome": "Parcheggio di Lambioi",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-2",
+   "tipo": "parcheggi",
+   "lat": 46.138112,
+   "lon": 12.205276,
+   "nome": "Parcheggio Ex-Moi",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-3",
+   "tipo": "parcheggi",
+   "lat": 46.13838,
+   "lon": 12.200704
+  },
+  {
+   "id": "parcheggi-4",
+   "tipo": "parcheggi",
+   "lat": 46.138535,
+   "lon": 12.20191
+  },
+  {
+   "id": "parcheggi-5",
+   "tipo": "parcheggi",
+   "lat": 46.140095,
+   "lon": 12.20896,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-6",
+   "tipo": "parcheggi",
+   "lat": 46.140303,
+   "lon": 12.21388,
+   "nome": "Park Caffi",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-7",
+   "tipo": "parcheggi",
+   "lat": 46.140761,
+   "lon": 12.216187,
+   "nome": "Piazza Piloni",
+   "disabili": true,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-8",
+   "tipo": "parcheggi",
+   "lat": 46.142908,
+   "lon": 12.213528,
+   "nome": "Ex Segherie Bellunesi"
+  },
+  {
+   "id": "parcheggi-9",
+   "tipo": "parcheggi",
+   "lat": 46.143455,
+   "lon": 12.217814,
+   "nome": "Via San Biagio",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-10",
+   "tipo": "parcheggi",
+   "lat": 46.143751,
+   "lon": 12.215478,
+   "nome": "Palasport",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-11",
+   "tipo": "parcheggi",
+   "lat": 46.144237,
+   "lon": 12.20272
+  },
+  {
+   "id": "parcheggi-12",
+   "tipo": "parcheggi",
+   "lat": 46.144315,
+   "lon": 12.214473,
+   "nome": "Palasport",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-13",
+   "tipo": "parcheggi",
+   "lat": 46.144774,
+   "lon": 12.204098,
+   "nome": "Pizzeria Zodiaco"
+  },
+  {
+   "id": "parcheggi-14",
+   "tipo": "parcheggi",
+   "lat": 46.145103,
+   "lon": 12.213727,
+   "nome": "Piazzale Associazione Bellunese Volontari del Sangue"
+  },
+  {
+   "id": "parcheggi-15",
+   "tipo": "parcheggi",
+   "lat": 46.146303,
+   "lon": 12.225549,
+   "nome": "Piazzale della Resistenza"
+  },
+  {
+   "id": "parcheggi-16",
+   "tipo": "parcheggi",
+   "lat": 46.14994,
+   "lon": 12.215468,
+   "nome": "Piazzale Vittime di Via Fani"
+  },
+  {
+   "id": "parcheggi-17",
+   "tipo": "parcheggi",
+   "lat": 46.150792,
+   "lon": 12.214656,
+   "nome": "Piazza Monte Schiara"
+  },
+  {
+   "id": "ospedali-1",
+   "tipo": "ospedali",
+   "lat": 46.137421,
+   "lon": 12.205322
+  },
+  {
+   "id": "ospedali-2",
+   "tipo": "ospedali",
+   "lat": 46.138699,
+   "lon": 12.200634,
+   "nome": "Ospedale San Martino"
+  },
+  {
+   "id": "ospedali-3",
+   "tipo": "ospedali",
+   "lat": 46.139364,
+   "lon": 12.201494,
+   "nome": "Pronto Soccorso Ospedale San Martino",
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-4",
+   "tipo": "ospedali",
+   "lat": 46.146852,
+   "lon": 12.209694,
+   "nome": "Istituto Zooprofilattico delle Venezie - sede di Belluno"
+  },
+  {
+   "id": "ospedali-5",
+   "tipo": "ospedali",
+   "lat": 46.147853,
+   "lon": 12.21784,
+   "nome": "Bellunomedica - Salus"
+  },
+  {
+   "id": "ospedali-6",
+   "tipo": "ospedali",
+   "lat": 46.153327,
+   "lon": 12.214311
+  },
+  {
+   "id": "acqua-1",
+   "tipo": "acqua",
+   "lat": 46.132959,
+   "lon": 12.219686
+  },
+  {
+   "id": "acqua-2",
+   "tipo": "acqua",
+   "lat": 46.134148,
+   "lon": 12.220247
+  },
+  {
+   "id": "acqua-3",
+   "tipo": "acqua",
+   "lat": 46.137228,
+   "lon": 12.213881
+  },
+  {
+   "id": "acqua-4",
+   "tipo": "acqua",
+   "lat": 46.13742,
+   "lon": 12.21966
+  },
+  {
+   "id": "acqua-5",
+   "tipo": "acqua",
+   "lat": 46.138179,
+   "lon": 12.217436
+  },
+  {
+   "id": "acqua-6",
+   "tipo": "acqua",
+   "lat": 46.138839,
+   "lon": 12.218189
+  },
+  {
+   "id": "acqua-7",
+   "tipo": "acqua",
+   "lat": 46.139235,
+   "lon": 12.215969
+  },
+  {
+   "id": "acqua-8",
+   "tipo": "acqua",
+   "lat": 46.141646,
+   "lon": 12.210554
+  },
+  {
+   "id": "acqua-9",
+   "tipo": "acqua",
+   "lat": 46.141726,
+   "lon": 12.216767
+  },
+  {
+   "id": "acqua-10",
+   "tipo": "acqua",
+   "lat": 46.1526,
+   "lon": 12.212495
+  },
+  {
+   "id": "acqua-11",
+   "tipo": "acqua",
+   "lat": 46.153099,
+   "lon": 12.200064
+  },
+  {
+   "id": "acqua-12",
+   "tipo": "acqua",
+   "lat": 46.153655,
+   "lon": 12.200367
+  },
+  {
+   "id": "polizia-1",
+   "tipo": "polizia",
+   "lat": 46.138451,
+   "lon": 12.203523,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-2",
+   "tipo": "polizia",
+   "lat": 46.138576,
+   "lon": 12.218562,
+   "nome": "Guardia di Finanza"
+  },
+  {
+   "id": "polizia-3",
+   "tipo": "polizia",
+   "lat": 46.138591,
+   "lon": 12.218579
+  },
+  {
+   "id": "polizia-4",
+   "tipo": "polizia",
+   "lat": 46.139315,
+   "lon": 12.220143
+  },
+  {
+   "id": "polizia-5",
+   "tipo": "polizia",
+   "lat": 46.141126,
+   "lon": 12.209417,
+   "nome": "Polizia Ferroviaria"
+  },
+  {
+   "id": "polizia-6",
+   "tipo": "polizia",
+   "lat": 46.141923,
+   "lon": 12.214061
+  },
+  {
+   "id": "polizia-7",
+   "tipo": "polizia",
+   "lat": 46.142475,
+   "lon": 12.213975,
+   "nome": "Questura"
+  },
+  {
+   "id": "polizia-8",
+   "tipo": "polizia",
+   "lat": 46.142533,
+   "lon": 12.213817
+  },
+  {
+   "id": "polizia-9",
+   "tipo": "polizia",
+   "lat": 46.143543,
+   "lon": 12.215824
+  },
+  {
+   "id": "polizia-10",
+   "tipo": "polizia",
+   "lat": 46.145442,
+   "lon": 12.205707,
+   "nome": "Carabinieri - Ufficio Territoriale per la Biodiversità"
+  },
+  {
+   "id": "polizia-11",
+   "tipo": "polizia",
+   "lat": 46.145878,
+   "lon": 12.209036,
+   "nome": "Polizia Stradale"
+  },
+  {
+   "id": "bagni-1",
+   "tipo": "bagni",
+   "lat": 46.133587,
+   "lon": 12.199647
+  },
+  {
+   "id": "bagni-2",
+   "tipo": "bagni",
+   "lat": 46.141659,
+   "lon": 12.21005
+  },
+  {
+   "id": "autobus-1",
+   "tipo": "autobus",
+   "lat": 46.145612,
+   "lon": 12.208055,
+   "nome": "Belluno - Via Col Di Lana",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-2",
+   "tipo": "autobus",
+   "lat": 46.149632,
+   "lon": 12.215935,
+   "nome": "Cavarzano - piazza Vittime via Fani",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-3",
+   "tipo": "autobus",
+   "lat": 46.152033,
+   "lon": 12.213357,
+   "nome": "Cavarzano - monumento",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-4",
+   "tipo": "autobus",
+   "lat": 46.153365,
+   "lon": 12.21472,
+   "nome": "Cavarzano - Texas",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-5",
+   "tipo": "autobus",
+   "lat": 46.140974,
+   "lon": 12.211375,
+   "nome": "Via Dante/FS",
+   "linee": [
+    "A",
+    "C",
+    "H",
+    "J",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-6",
+   "tipo": "autobus",
+   "lat": 46.144923,
+   "lon": 12.21784,
+   "nome": "Ponte Nuovo",
+   "linee": [
+    "B",
+    "H",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-7",
+   "tipo": "autobus",
+   "lat": 46.143999,
+   "lon": 12.202726,
+   "nome": "Mussoi La Baita",
+   "linee": [
+    "A",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-8",
+   "tipo": "autobus",
+   "lat": 46.139134,
+   "lon": 12.203878,
+   "nome": "Belluno Ospedale",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-9",
+   "tipo": "autobus",
+   "lat": 46.139527,
+   "lon": 12.205068,
+   "nome": "Belluno Ospedale",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-10",
+   "tipo": "autobus",
+   "lat": 46.140115,
+   "lon": 12.202123,
+   "nome": "Fermata",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-11",
+   "tipo": "autobus",
+   "lat": 46.146841,
+   "lon": 12.224404,
+   "nome": "Baldenich Distr. Agip",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-12",
+   "tipo": "autobus",
+   "lat": 46.14876,
+   "lon": 12.226489,
+   "nome": "Mendoza",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-13",
+   "tipo": "autobus",
+   "lat": 46.151446,
+   "lon": 12.229199,
+   "nome": "Bivio Nogarè",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-14",
+   "tipo": "autobus",
+   "lat": 46.144643,
+   "lon": 12.204561,
+   "nome": "Belluno - Via Gregorio XVI",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-15",
+   "tipo": "autobus",
+   "lat": 46.144436,
+   "lon": 12.212623,
+   "nome": "Belluno - La Cerva",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-16",
+   "tipo": "autobus",
+   "lat": 46.142337,
+   "lon": 12.213866,
+   "nome": "Questura",
+   "linee": [
+    "A",
+    "H",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-17",
+   "tipo": "autobus",
+   "lat": 46.139521,
+   "lon": 12.213448,
+   "nome": "Via Loreto",
+   "linee": [
+    "A",
+    "B",
+    "C",
+    "H",
+    "J",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-18",
+   "tipo": "autobus",
+   "lat": 46.139746,
+   "lon": 12.217571,
+   "nome": "Piazza Vittorio Emanuele II",
+   "linee": [
+    "A",
+    "B",
+    "H",
+    "L",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-19",
+   "tipo": "autobus",
+   "lat": 46.142953,
+   "lon": 12.217568,
+   "nome": "Via Simon Da Cusighe",
+   "linee": [
+    "B",
+    "H",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-20",
+   "tipo": "autobus",
+   "lat": 46.145023,
+   "lon": 12.222329,
+   "nome": "Bivio Baldenich",
+   "linee": [
+    "B",
+    "H",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-21",
+   "tipo": "autobus",
+   "lat": 46.13472,
+   "lon": 12.228701,
+   "nome": "Belluno Via Miari",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-22",
+   "tipo": "autobus",
+   "lat": 46.135493,
+   "lon": 12.229691,
+   "nome": "Belluno Via Miari",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-23",
+   "tipo": "autobus",
+   "lat": 46.137526,
+   "lon": 12.222224,
+   "nome": "Via Lungardo Ponte",
+   "linee": [
+    "C",
+    "J",
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-24",
+   "tipo": "autobus",
+   "lat": 46.137656,
+   "lon": 12.2222,
+   "nome": "Via Lungardo Ponte",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-25",
+   "tipo": "autobus",
+   "lat": 46.133711,
+   "lon": 12.217823,
+   "nome": "Borgo Piave Distributore Agip",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-26",
+   "tipo": "autobus",
+   "lat": 46.132209,
+   "lon": 12.215701,
+   "nome": "Belluno via Montegrappa",
+   "linee": [
+    "C"
+   ]
+  },
+  {
+   "id": "autobus-27",
+   "tipo": "autobus",
+   "lat": 46.127331,
+   "lon": 12.210629,
+   "nome": "Belluno Anconetta",
+   "linee": [
+    "C"
+   ]
+  },
+  {
+   "id": "autobus-28",
+   "tipo": "autobus",
+   "lat": 46.128654,
+   "lon": 12.213081,
+   "nome": "Belluno Anconetta",
+   "linee": [
+    "C"
+   ]
+  },
+  {
+   "id": "autobus-29",
+   "tipo": "autobus",
+   "lat": 46.136425,
+   "lon": 12.199119,
+   "nome": "San Gervasio",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-30",
+   "tipo": "autobus",
+   "lat": 46.136527,
+   "lon": 12.199152,
+   "nome": "San Gervasio",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-31",
+   "tipo": "autobus",
+   "lat": 46.142257,
+   "lon": 12.213948,
+   "nome": "Questura",
+   "linee": [
+    "A",
+    "H",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-32",
+   "tipo": "autobus",
+   "lat": 46.143759,
+   "lon": 12.202427,
+   "nome": "Mussoi La Baita",
+   "linee": [
+    "A",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-33",
+   "tipo": "autobus",
+   "lat": 46.141046,
+   "lon": 12.211482,
+   "nome": "Via Dante/FS",
+   "linee": [
+    "A",
+    "B",
+    "C",
+    "H",
+    "J",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-34",
+   "tipo": "autobus",
+   "lat": 46.139359,
+   "lon": 12.2145,
+   "nome": "Via Matteotti",
+   "linee": [
+    "A",
+    "B",
+    "C",
+    "H",
+    "J",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-35",
+   "tipo": "autobus",
+   "lat": 46.138891,
+   "lon": 12.21517,
+   "nome": "Piazza dei Martiri",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-36",
+   "tipo": "autobus",
+   "lat": 46.139849,
+   "lon": 12.217473,
+   "nome": "Piazza Vittorio Emanuele II",
+   "linee": [
+    "A",
+    "B",
+    "H",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-37",
+   "tipo": "autobus",
+   "lat": 46.142924,
+   "lon": 12.217504,
+   "nome": "Via Simon Da Cusighe",
+   "linee": [
+    "B",
+    "H",
+    "L",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-38",
+   "tipo": "autobus",
+   "lat": 46.137941,
+   "lon": 12.217376,
+   "nome": "Piazza Duomo",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-39",
+   "tipo": "autobus",
+   "lat": 46.137796,
+   "lon": 12.21767,
+   "nome": "Piazza Duomo",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-40",
+   "tipo": "autobus",
+   "lat": 46.135786,
+   "lon": 12.219202,
+   "nome": "Via del Piave",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-41",
+   "tipo": "autobus",
+   "lat": 46.135882,
+   "lon": 12.219216,
+   "nome": "Via del Piave",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-42",
+   "tipo": "autobus",
+   "lat": 46.135575,
+   "lon": 12.222372,
+   "nome": "Via Lungardo 77",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-43",
+   "tipo": "autobus",
+   "lat": 46.135461,
+   "lon": 12.222494,
+   "nome": "Via Lungardo 77",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-44",
+   "tipo": "autobus",
+   "lat": 46.144945,
+   "lon": 12.217443,
+   "nome": "Ponte Nuovo",
+   "linee": [
+    "B",
+    "H",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-45",
+   "tipo": "autobus",
+   "lat": 46.144918,
+   "lon": 12.222459,
+   "nome": "Bivio Baldenich",
+   "linee": [
+    "B",
+    "H",
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-46",
+   "tipo": "autobus",
+   "lat": 46.144206,
+   "lon": 12.223976,
+   "nome": "Via Colle",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-47",
+   "tipo": "autobus",
+   "lat": 46.144259,
+   "lon": 12.224002,
+   "nome": "Via Colle",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-48",
+   "tipo": "autobus",
+   "lat": 46.144993,
+   "lon": 12.226689,
+   "nome": "Carr. de Nadai",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-49",
+   "tipo": "autobus",
+   "lat": 46.144897,
+   "lon": 12.22672,
+   "nome": "Carr. de Nadai",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-50",
+   "tipo": "autobus",
+   "lat": 46.146034,
+   "lon": 12.228916,
+   "nome": "Via per Nogarè - scuole",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-51",
+   "tipo": "autobus",
+   "lat": 46.146057,
+   "lon": 12.228814,
+   "nome": "Via per Nogarè - scuole",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-52",
+   "tipo": "autobus",
+   "lat": 46.147603,
+   "lon": 12.230952,
+   "nome": "Via per Nogarè/Via Calbo",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-53",
+   "tipo": "autobus",
+   "lat": 46.147691,
+   "lon": 12.230884,
+   "nome": "Via per Nogarè/Via Calbo",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-54",
+   "tipo": "autobus",
+   "lat": 46.148546,
+   "lon": 12.232129,
+   "nome": "Nogarè centro",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-55",
+   "tipo": "autobus",
+   "lat": 46.148576,
+   "lon": 12.232277,
+   "nome": "Nogarè centro",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-56",
+   "tipo": "autobus",
+   "lat": 46.150089,
+   "lon": 12.23214,
+   "nome": "Via Bettio",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-57",
+   "tipo": "autobus",
+   "lat": 46.150018,
+   "lon": 12.232072,
+   "nome": "Via Bettio",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-58",
+   "tipo": "autobus",
+   "lat": 46.151484,
+   "lon": 12.230229,
+   "nome": "Bivio Nogarè",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-59",
+   "tipo": "autobus",
+   "lat": 46.151499,
+   "lon": 12.230345,
+   "nome": "Bivio Nogarè",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-60",
+   "tipo": "autobus",
+   "lat": 46.151421,
+   "lon": 12.22932,
+   "nome": "Bivio Nogarè",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-61",
+   "tipo": "autobus",
+   "lat": 46.14783,
+   "lon": 12.219119,
+   "nome": "Bar Clinton 1",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-62",
+   "tipo": "autobus",
+   "lat": 46.147867,
+   "lon": 12.219236,
+   "nome": "Bar Clinton 1",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-63",
+   "tipo": "autobus",
+   "lat": 46.14602,
+   "lon": 12.221288,
+   "nome": "Baldenich Mares",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-64",
+   "tipo": "autobus",
+   "lat": 46.146087,
+   "lon": 12.221382,
+   "nome": "Baldenich Mares",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-65",
+   "tipo": "autobus",
+   "lat": 46.148221,
+   "lon": 12.215962,
+   "nome": "Cavarzano - via Strasburgo 10",
+   "linee": [
+    "H"
+   ]
+  },
+  {
+   "id": "autobus-66",
+   "tipo": "autobus",
+   "lat": 46.1496,
+   "lon": 12.215969,
+   "nome": "Cavarzano - piazza Vittime via Fani",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-67",
+   "tipo": "autobus",
+   "lat": 46.148365,
+   "lon": 12.213479,
+   "nome": "Cavarzano - via Rudio/Casa di Riposo",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-68",
+   "tipo": "autobus",
+   "lat": 46.14828,
+   "lon": 12.213439,
+   "nome": "Cavarzano - via Rudio/Casa di Riposo",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-69",
+   "tipo": "autobus",
+   "lat": 46.148948,
+   "lon": 12.210037,
+   "nome": "Cavarzano - via Rudio",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-70",
+   "tipo": "autobus",
+   "lat": 46.148975,
+   "lon": 12.210136,
+   "nome": "Cavarzano - via Rudio",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-71",
+   "tipo": "autobus",
+   "lat": 46.150999,
+   "lon": 12.21144,
+   "nome": "Cavarzano - Casa di Riposo",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-72",
+   "tipo": "autobus",
+   "lat": 46.150846,
+   "lon": 12.211366,
+   "nome": "Cavarzano - Casa di Riposo",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-73",
+   "tipo": "autobus",
+   "lat": 46.151949,
+   "lon": 12.213497,
+   "nome": "Cavarzano - monumento",
+   "linee": [
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-74",
+   "tipo": "autobus",
+   "lat": 46.153257,
+   "lon": 12.214669,
+   "nome": "Cavarzano - Texas",
+   "linee": [
+    "H",
+    "R"
+   ]
+  },
+  {
+   "id": "autobus-75",
+   "tipo": "autobus",
+   "lat": 46.142562,
+   "lon": 12.221656,
+   "nome": "Piazza San Lucano",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-76",
+   "tipo": "autobus",
+   "lat": 46.141966,
+   "lon": 12.219664,
+   "nome": "Via Lungardo 5",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-77",
+   "tipo": "autobus",
+   "lat": 46.139134,
+   "lon": 12.220426,
+   "nome": "Via Lungardo 76",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-78",
+   "tipo": "autobus",
+   "lat": 46.133449,
+   "lon": 12.217696,
+   "nome": "Borgo Piave Distributore Agip",
+   "linee": [
+    "C",
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-79",
+   "tipo": "autobus",
+   "lat": 46.132327,
+   "lon": 12.215694,
+   "nome": "Belluno via Montegrappa",
+   "linee": [
+    "C"
+   ]
+  },
+  {
+   "id": "autobus-80",
+   "tipo": "autobus",
+   "lat": 46.129855,
+   "lon": 12.213036,
+   "nome": "Belluno Bersaglio",
+   "linee": [
+    "C"
+   ]
+  },
+  {
+   "id": "autobus-81",
+   "tipo": "autobus",
+   "lat": 46.129019,
+   "lon": 12.216081,
+   "nome": "Col Cavalier",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-82",
+   "tipo": "autobus",
+   "lat": 46.128934,
+   "lon": 12.216011,
+   "nome": "Col Cavalier",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-83",
+   "tipo": "autobus",
+   "lat": 46.128316,
+   "lon": 12.221291,
+   "nome": "Vallina",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-84",
+   "tipo": "autobus",
+   "lat": 46.128449,
+   "lon": 12.221291,
+   "nome": "Vallina",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-85",
+   "tipo": "autobus",
+   "lat": 46.127225,
+   "lon": 12.218473,
+   "nome": "Bivio Villaggio",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-86",
+   "tipo": "autobus",
+   "lat": 46.127358,
+   "lon": 12.218388,
+   "nome": "Bivio Villaggio",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-87",
+   "tipo": "autobus",
+   "lat": 46.128903,
+   "lon": 12.227774,
+   "nome": "Castion via De Amicis 60",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-88",
+   "tipo": "autobus",
+   "lat": 46.12883,
+   "lon": 12.227644,
+   "nome": "Castion via De Amicis 60",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-89",
+   "tipo": "autobus",
+   "lat": 46.127149,
+   "lon": 12.229374,
+   "nome": "Castion via De Amicis 120",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-90",
+   "tipo": "autobus",
+   "lat": 46.127248,
+   "lon": 12.229343,
+   "nome": "Castion via De Amicis 120",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-91",
+   "tipo": "autobus",
+   "lat": 46.126593,
+   "lon": 12.23426,
+   "nome": "Castion via I Maggio",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-92",
+   "tipo": "autobus",
+   "lat": 46.126684,
+   "lon": 12.234368,
+   "nome": "Castion via I Maggio",
+   "linee": [
+    "J"
+   ]
+  },
+  {
+   "id": "autobus-93",
+   "tipo": "autobus",
+   "lat": 46.151577,
+   "lon": 12.20881,
+   "nome": "Sopracroda via Bolzano",
+   "linee": [
+    "H"
+   ]
+  },
+  {
+   "id": "autobus-94",
+   "tipo": "autobus",
+   "lat": 46.151534,
+   "lon": 12.208619,
+   "nome": "Sopracroda via Bolzano",
+   "linee": [
+    "H"
+   ]
+  },
+  {
+   "id": "autobus-95",
+   "tipo": "autobus",
+   "lat": 46.153916,
+   "lon": 12.205827,
+   "nome": "Sopracroda Sas de Croda",
+   "linee": [
+    "H"
+   ]
+  },
+  {
+   "id": "autobus-96",
+   "tipo": "autobus",
+   "lat": 46.144388,
+   "lon": 12.212554,
+   "nome": "Belluno - La Cerva",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-97",
+   "tipo": "autobus",
+   "lat": 46.144576,
+   "lon": 12.204585,
+   "nome": "Belluno - Via Gregorio XVI",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-98",
+   "tipo": "autobus",
+   "lat": 46.145543,
+   "lon": 12.208053,
+   "nome": "Belluno - Via Col Di Lana",
+   "linee": [
+    "A",
+    "L",
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-99",
+   "tipo": "autobus",
+   "lat": 46.146879,
+   "lon": 12.22433,
+   "nome": "Baldenich Distr. Agip",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-100",
+   "tipo": "autobus",
+   "lat": 46.14881,
+   "lon": 12.226382,
+   "nome": "Mendoza",
+   "linee": [
+    "V"
+   ]
+  },
+  {
+   "id": "autobus-101",
+   "tipo": "autobus",
+   "lat": 46.147071,
+   "lon": 12.201558,
+   "nome": "Travazzoi ex Fornaci",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-102",
+   "tipo": "autobus",
+   "lat": 46.147079,
+   "lon": 12.2017,
+   "nome": "Travazzoi ex Fornaci",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-103",
+   "tipo": "autobus",
+   "lat": 46.149427,
+   "lon": 12.200543,
+   "nome": "Travazzoi - S.Sebastiano",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-104",
+   "tipo": "autobus",
+   "lat": 46.14944,
+   "lon": 12.200758,
+   "nome": "Travazzoi - S.Sebastiano",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-105",
+   "tipo": "autobus",
+   "lat": 46.151703,
+   "lon": 12.201356,
+   "nome": "Travazzoi - Case Popolari",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-106",
+   "tipo": "autobus",
+   "lat": 46.151408,
+   "lon": 12.201658,
+   "nome": "Travazzoi - Case Popolari",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-107",
+   "tipo": "autobus",
+   "lat": 46.153268,
+   "lon": 12.200028,
+   "nome": "Vezzano",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-108",
+   "tipo": "autobus",
+   "lat": 46.153182,
+   "lon": 12.199973,
+   "nome": "Vezzano",
+   "linee": [
+    "L"
+   ]
+  },
+  {
+   "id": "autobus-109",
+   "tipo": "autobus",
+   "lat": 46.139564,
+   "lon": 12.209141,
+   "nome": "Belluno - Piazzale Marconi",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-110",
+   "tipo": "autobus",
+   "lat": 46.140077,
+   "lon": 12.209945,
+   "nome": "Belluno - Piazzale Marconi",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-111",
+   "tipo": "autobus",
+   "lat": 46.1378,
+   "lon": 12.205333,
+   "nome": "Via Feltre - Casinet",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-112",
+   "tipo": "autobus",
+   "lat": 46.13778,
+   "lon": 12.205526,
+   "nome": "Via Feltre - Casinet",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-113",
+   "tipo": "autobus",
+   "lat": 46.136512,
+   "lon": 12.202715,
+   "nome": "Via Feltre 87",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-114",
+   "tipo": "autobus",
+   "lat": 46.136446,
+   "lon": 12.202731,
+   "nome": "Via Feltre 87",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-115",
+   "tipo": "autobus",
+   "lat": 46.135576,
+   "lon": 12.200918,
+   "nome": "Via Feltre - La Cusina de Belun",
+   "linee": [
+    "B"
+   ]
+  },
+  {
+   "id": "autobus-116",
+   "tipo": "autobus",
+   "lat": 46.135623,
+   "lon": 12.200872,
+   "nome": "Via Feltre - La Cusina de Belun",
+   "linee": [
+    "B"
+   ]
+  }
+ ]
+}

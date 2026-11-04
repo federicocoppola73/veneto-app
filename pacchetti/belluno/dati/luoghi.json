@@ -1,0 +1,1762 @@
+{
+ "_nota": "Belluno: monumenti (dalla scheda Monumenti) e luoghi segreti (dal foglio Curiosità). Coordinate e orari da fonti pubbliche: da verificare. Foto ancora da aggiungere. Ponte Vecchio, Seminario Gregoriano, Palazzo Persicini Crocecalle, Palazzo Trois Malaspina e Ponte di Paglia sono in attesa di coordinate verificate.",
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ],
+ "luoghi": [
+  {
+   "id": "piazza-dei-martiri",
+   "nome": "Piazza dei Martiri",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1390992,
+   "longitudine": 12.2163835,
+   "descrizione": {
+    "it": "Il salotto cittadino, con i giardini e le facciate rinascimentali dei palazzi che la circondano.",
+    "en": "The city’s living room, with gardens and the Renaissance façades of the surrounding palaces.",
+    "fr": "Le salon de la ville, avec ses jardins et les façades Renaissance des palais qui l’entourent.",
+    "de": "Das Wohnzimmer der Stadt, mit Gärten und den Renaissance-Fassaden der umliegenden Paläste.",
+    "es": "El salón de la ciudad, con sus jardines y las fachadas renacentistas de los palacios que la rodean."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 96
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 116
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 118
+    }
+   ]
+  },
+  {
+   "id": "piazza-duomo",
+   "nome": "Piazza Duomo",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.138034,
+   "longitudine": 12.217267,
+   "descrizione": {
+    "it": "Il cuore storico-religioso di Belluno, dominato dalla Cattedrale e affiancato dal Palazzo dei Rettori e da Palazzo Rosso.",
+    "en": "Belluno’s historic and religious heart, dominated by the Cathedral and flanked by the Palazzo dei Rettori and Palazzo Rosso.",
+    "fr": "Le cœur historique et religieux de Belluno, dominé par la cathédrale et bordé par le Palazzo dei Rettori et le Palazzo Rosso.",
+    "de": "Das historische und religiöse Herz Bellunos, beherrscht vom Dom und flankiert vom Palazzo dei Rettori und dem Palazzo Rosso.",
+    "es": "El corazón histórico y religioso de Belluno, dominado por la catedral y flanqueado por el Palazzo dei Rettori y el Palazzo Rosso."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 13
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 41
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 188
+    }
+   ]
+  },
+  {
+   "id": "piazza-delle-erbe",
+   "nome": "Piazza delle Erbe",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1388923,
+   "longitudine": 12.218082,
+   "descrizione": {
+    "it": "L’antico Foro e piazza del mercato, collegata a Piazza Vittorio Emanuele da Porta Dojona.",
+    "en": "The ancient Forum and market square, linked to Piazza Vittorio Emanuele through Porta Dojona.",
+    "fr": "L’ancien Forum et place du marché, reliée à la Piazza Vittorio Emanuele par la Porta Dojona.",
+    "de": "Das antike Forum und der Marktplatz, über das Stadttor Porta Dojona mit der Piazza Vittorio Emanuele verbunden.",
+    "es": "El antiguo foro y plaza del mercado, unida a la Piazza Vittorio Emanuele por la Porta Dojona."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 103
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 116
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 119
+    }
+   ]
+  },
+  {
+   "id": "piazza-santa-maria-dei-battuti",
+   "nome": "Piazza Santa Maria dei Battuti",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.13715,
+   "longitudine": 12.22004,
+   "descrizione": {
+    "it": "Piccola piazza nel centro storico, accanto alla chiesa di Santa Maria dei Battuti.",
+    "en": "A small square in the historic centre, next to the church of Santa Maria dei Battuti.",
+    "fr": "Petite place du centre historique, à côté de l’église Santa Maria dei Battuti.",
+    "de": "Kleiner Platz im historischen Zentrum neben der Kirche Santa Maria dei Battuti.",
+    "es": "Pequeña plaza en el centro histórico, junto a la iglesia de Santa Maria dei Battuti."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 155
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 165
+    },
+    {
+     "nome": "Via Lungardo Ponte",
+     "linee": [
+      "C",
+      "J",
+      "L"
+     ],
+     "metri": 173
+    }
+   ]
+  },
+  {
+   "id": "cattedrale-di-san-martino",
+   "nome": "Cattedrale di San Martino",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1377372,
+   "longitudine": 12.2173722,
+   "descrizione": {
+    "it": "Duomo di Belluno, dedicato a San Martino. Il campanile barocco è opera di Filippo Juvarra e l’angelo che lo sormonta è di Andrea Brustolon.",
+    "en": "Belluno Cathedral, dedicated to Saint Martin. The Baroque bell tower is by Filippo Juvarra and the angel on top is by Andrea Brustolon.",
+    "fr": "Cathédrale de Belluno, dédiée à saint Martin. Le clocher baroque est de Filippo Juvarra et l’ange qui le surmonte est d’Andrea Brustolon.",
+    "de": "Dom von Belluno, dem heiligen Martin geweiht. Der barocke Glockenturm stammt von Filippo Juvarra, der Engel auf der Spitze von Andrea Brustolon.",
+    "es": "Catedral de Belluno, dedicada a san Martín. El campanario barroco es de Filippo Juvarra y el ángel que lo corona es de Andrea Brustolon."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "8:00–19:00"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "en": "Belluno Cathedral"
+   },
+   "nota": "Orari indicativi, da verificare con la parrocchia.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 23
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 24
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 213
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-santo-stefano",
+   "nome": "Chiesa di Santo Stefano",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1409659,
+   "longitudine": 12.2182518,
+   "descrizione": {
+    "it": "Chiesa gotica del Quattrocento, ricca di opere d’arte. Ai lati dell’altare maggiore ci sono due angeli lignei di Andrea Brustolon.",
+    "en": "Gothic church from the 15th century, rich in works of art. On either side of the high altar are two wooden angels by Andrea Brustolon.",
+    "fr": "Église gothique du XVe siècle, riche en œuvres d’art. De part et d’autre du maître-autel, deux anges en bois d’Andrea Brustolon.",
+    "de": "Gotische Kirche aus dem 15. Jahrhundert, reich an Kunstwerken. Beidseits des Hochaltars stehen zwei Holzengel von Andrea Brustolon.",
+    "es": "Iglesia gótica del siglo XV, rica en obras de arte. A ambos lados del altar mayor hay dos ángeles de madera de Andrea Brustolon."
+   },
+   "orari": [
+    {
+     "giorni": "mar-ven",
+     "ore": "9:30–12:30, 15:30–18:30"
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "10:00–18:30"
+    }
+   ],
+   "biglietto": {
+    "intero": 8,
+    "ridotto": 5
+   },
+   "wikipedia": {
+    "it": "Chiesa di Santo Stefano (Belluno)"
+   },
+   "nota": "Orari e prezzi da verificare: fonti non ufficiali.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 138
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 145
+    },
+    {
+     "nome": "Via Lungardo 5",
+     "linee": [
+      "L"
+     ],
+     "metri": 156
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-san-pietro",
+   "nome": "Chiesa di San Pietro",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.138351,
+   "longitudine": 12.2196908,
+   "descrizione": {
+    "it": "Chiesa del centro, adiacente al seminario, con opere di Andrea Brustolon e Sebastiano Ricci.",
+    "en": "Church in the centre, next to the seminary, with works by Andrea Brustolon and Sebastiano Ricci.",
+    "fr": "Église du centre, voisine du séminaire, avec des œuvres d’Andrea Brustolon et de Sebastiano Ricci.",
+    "de": "Kirche im Zentrum neben dem Priesterseminar, mit Werken von Andrea Brustolon und Sebastiano Ricci.",
+    "es": "Iglesia del centro, junto al seminario, con obras de Andrea Brustolon y Sebastiano Ricci."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Orari di apertura da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 104
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 167
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 184
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-santa-maria-dei-battuti",
+   "nome": "Chiesa di Santa Maria dei Battuti",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1371561,
+   "longitudine": 12.2203068,
+   "descrizione": {
+    "it": "Chiesa sconsacrata nel centro storico, nei pressi della piazza omonima.",
+    "en": "Deconsecrated church in the historic centre, near the square of the same name.",
+    "fr": "Église désacralisée du centre historique, près de la place du même nom.",
+    "de": "Entweihte Kirche im historischen Zentrum, nahe dem gleichnamigen Platz.",
+    "es": "Iglesia desacralizada en el centro histórico, cerca de la plaza del mismo nombre."
+   },
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Sconsacrata: non è sempre visitabile.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo Ponte",
+     "linee": [
+      "C",
+      "J",
+      "L"
+     ],
+     "metri": 153
+    },
+    {
+     "nome": "Via Lungardo Ponte",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 156
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 165
+    }
+   ]
+  },
+  {
+   "id": "battistero-del-duomo",
+   "nome": "Battistero del Duomo",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1378016,
+   "longitudine": 12.217855,
+   "descrizione": {
+    "it": "Chiesa di Santa Maria delle Grazie, già San Martino al Fonte, costruita dopo il 1516 sulle fondamenta di una chiesa precedente. Dentro, sopra il grande fonte battesimale, c’è un piccolo San Giovanni Battista di Andrea Brustolon.",
+    "en": "Church of Santa Maria delle Grazie, formerly San Martino al Fonte, built after 1516 on the foundations of an earlier church. Inside, above the large baptismal font, is a small Saint John the Baptist by Andrea Brustolon.",
+    "fr": "Église Santa Maria delle Grazie, anciennement San Martino al Fonte, construite après 1516 sur les fondations d’une église antérieure. À l’intérieur, au-dessus des grands fonts baptismaux, un petit saint Jean-Baptiste d’Andrea Brustolon.",
+    "de": "Kirche Santa Maria delle Grazie, früher San Martino al Fonte, nach 1516 auf den Fundamenten einer älteren Kirche erbaut. Im Innern steht über dem großen Taufbecken eine kleine Johannes-der-Täufer-Figur von Andrea Brustolon.",
+    "es": "Iglesia de Santa Maria delle Grazie, antes San Martino al Fonte, construida después de 1516 sobre los cimientos de una iglesia anterior. En el interior, sobre la gran pila bautismal, hay un pequeño san Juan Bautista de Andrea Brustolon."
+   },
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "indirizzo": "Via Sant’Andrea, 14",
+   "nota": "Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 14
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 40
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 217
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-santa-maria-di-loreto",
+   "nome": "Chiesa di Santa Maria di Loreto",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1398794,
+   "longitudine": 12.2130307,
+   "descrizione": {
+    "it": "Antica chiesa parrocchiale del centro, dedicata alla Madonna di Loreto. È l’unica parrocchia del centro dove la messa si celebra a mezzogiorno.",
+    "en": "Historic parish church in the centre, dedicated to Our Lady of Loreto. It is the only parish in the centre where Mass is celebrated at midday.",
+    "fr": "Ancienne église paroissiale du centre, dédiée à Notre-Dame de Lorette. C’est la seule paroisse du centre où la messe est célébrée à midi.",
+    "de": "Historische Pfarrkirche im Zentrum, der Madonna von Loreto geweiht. Sie ist die einzige Pfarrei im Zentrum, in der um die Mittagszeit die Messe gefeiert wird.",
+    "es": "Antigua iglesia parroquial del centro, dedicada a la Virgen de Loreto. Es la única parroquia del centro donde se celebra misa al mediodía."
+   },
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "indirizzo": "Via Loreto, 13",
+   "nota": "Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Loreto",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 51
+    },
+    {
+     "nome": "Via Matteotti",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 127
+    },
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 176
+    }
+   ]
+  },
+  {
+   "id": "palazzo-dei-rettori",
+   "nome": "Palazzo dei Rettori",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1382871,
+   "longitudine": 12.2172227,
+   "descrizione": {
+    "it": "Edificio rinascimentale del 1409, sede dei rettori veneziani e oggi sede della Prefettura. Si ammira dall’esterno, con il portico e le bifore.",
+    "en": "Renaissance building from 1409, seat of the Venetian rectors and now home to the Prefecture. It is best seen from outside, with its arcade and mullioned windows.",
+    "fr": "Édifice Renaissance de 1409, siège des recteurs vénitiens et aujourd’hui de la préfecture. On l’admire de l’extérieur, avec son portique et ses fenêtres géminées.",
+    "de": "Renaissancegebäude von 1409, Sitz der venezianischen Rektoren und heute der Präfektur. Am besten von außen zu sehen, mit Arkaden und Zwillingsfenstern.",
+    "es": "Edificio renacentista de 1409, sede de los rectores venecianos y hoy de la Prefectura. Se admira desde fuera, con su pórtico y sus ventanas geminadas."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Visitabile dall’esterno.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 40
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 65
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 164
+    }
+   ]
+  },
+  {
+   "id": "palazzo-rosso",
+   "nome": "Palazzo Rosso",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1381518,
+   "longitudine": 12.2166149,
+   "descrizione": {
+    "it": "Municipio di Belluno, detto Palazzo Rosso per il colore della facciata. Fu costruito tra il 1834 e il 1835 dall’architetto Giuseppe Segusini, in stile neogotico veneziano.",
+    "en": "Belluno’s town hall, known as Palazzo Rosso for the colour of its façade. Built between 1834 and 1835 by architect Giuseppe Segusini in Venetian Neo-Gothic style.",
+    "fr": "Mairie de Belluno, appelée Palazzo Rosso pour la couleur de sa façade. Construite entre 1834 et 1835 par l’architecte Giuseppe Segusini, dans le style néogothique vénitien.",
+    "de": "Rathaus von Belluno, wegen der Farbe der Fassade Palazzo Rosso genannt. Zwischen 1834 und 1835 vom Architekten Giuseppe Segusini im venezianischen Neugotik-Stil erbaut.",
+    "es": "Ayuntamiento de Belluno, llamado Palazzo Rosso por el color de su fachada. Construido entre 1834 y 1835 por el arquitecto Giuseppe Segusini, en estilo neogótico veneciano."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Visitabile dall’esterno.",
+   "wikipedia": {
+    "it": "Palazzo Rosso (Belluno)"
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 63
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 90
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 138
+    }
+   ]
+  },
+  {
+   "id": "porta-dojona",
+   "nome": "Porta Dojona",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1394638,
+   "longitudine": 12.2178899,
+   "descrizione": {
+    "it": "Antica porta delle mura medievali, costruita nel 1289. La facciata verso la piazza è rinascimentale, del 1553, e il tetto risale al 1609.",
+    "en": "Ancient gate in the medieval walls, built in 1289. The façade facing the square is Renaissance, from 1553, and the roof dates to 1609.",
+    "fr": "Ancienne porte des remparts médiévaux, construite en 1289. La façade donnant sur la place est Renaissance, de 1553, et le toit date de 1609.",
+    "de": "Alte Tor der mittelalterlichen Stadtmauer, 1289 erbaut. Die Fassade zum Platz ist Renaissance von 1553, das Dach stammt von 1609.",
+    "es": "Antigua puerta de las murallas medievales, construida en 1289. La fachada hacia la plaza es renacentista, de 1553, y el techo data de 1609."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 40
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 54
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 174
+    }
+   ]
+  },
+  {
+   "id": "porta-rugo",
+   "nome": "Porta Rugo",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.136037,
+   "longitudine": 12.221145,
+   "descrizione": {
+    "it": "Antico ingresso meridionale della città, sulla via che collega il centro a Borgo Piave.",
+    "en": "The ancient southern entrance to the city, on the street linking the centre to Borgo Piave.",
+    "fr": "L’ancienne entrée sud de la ville, sur la rue qui relie le centre à Borgo Piave.",
+    "de": "Der alte südliche Eingang zur Stadt, an der Straße, die das Zentrum mit Borgo Piave verbindet.",
+    "es": "La antigua entrada sur de la ciudad, en la calle que une el centro con Borgo Piave."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 77",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 108
+    },
+    {
+     "nome": "Via Lungardo 77",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 122
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 150
+    }
+   ]
+  },
+  {
+   "id": "porta-dante",
+   "nome": "Porta Dante",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.139117,
+   "longitudine": 12.2165615,
+   "descrizione": {
+    "it": "Porta d’ingresso al centro storico, inaugurata nel 1865 al posto della precedente Porta Reniera. Sulla facciata c’è un ritratto del poeta.",
+    "en": "Gate into the historic centre, inaugurated in 1865 in place of the earlier Porta Reniera. The façade bears a likeness of the poet.",
+    "fr": "Porte d’entrée du centre historique, inaugurée en 1865 à la place de l’ancienne Porta Reniera. La façade porte un portrait du poète.",
+    "de": "Tor zur Altstadt, 1865 an der Stelle des früheren Porta Reniera eingeweiht. An der Fassade befindet sich ein Porträt des Dichters.",
+    "es": "Puerta de acceso al centro histórico, inaugurada en 1865 en lugar de la anterior Porta Reniera. En la fachada hay un retrato del poeta."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 105
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 108
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 110
+    }
+   ]
+  },
+  {
+   "id": "torrione",
+   "nome": "Torrione",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1399366,
+   "longitudine": 12.2187633,
+   "descrizione": {
+    "it": "Torre delle antiche mura cittadine, nei pressi di Piazza Mazzini.",
+    "en": "Tower of the ancient city walls, near Piazza Mazzini.",
+    "fr": "Tour des anciens remparts de la ville, près de la Piazza Mazzini.",
+    "de": "Turm der alten Stadtmauer, nahe der Piazza Mazzini.",
+    "es": "Torre de las antiguas murallas de la ciudad, cerca de la Piazza Mazzini."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 94
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 100
+    },
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 156
+    }
+   ]
+  },
+  {
+   "id": "ponte-degli-alpini",
+   "nome": "Ponte degli Alpini",
+   "categoria": "ponti",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1450298,
+   "longitudine": 12.2146535,
+   "descrizione": {
+    "it": "Ponte cittadino dedicato agli Alpini.",
+    "en": "City bridge dedicated to the Alpini.",
+    "fr": "Pont de la ville dédié aux Alpini.",
+    "de": "Stadtbrücke, den Alpini gewidmet.",
+    "es": "Puente de la ciudad dedicado a los alpinos."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Belluno - La Cerva",
+     "linee": [
+      "A",
+      "L",
+      "V"
+     ],
+     "metri": 170
+    },
+    {
+     "nome": "Belluno - La Cerva",
+     "linee": [
+      "A",
+      "L",
+      "V"
+     ],
+     "metri": 177
+    },
+    {
+     "nome": "Ponte Nuovo",
+     "linee": [
+      "B",
+      "H",
+      "R",
+      "V"
+     ],
+     "metri": 215
+    }
+   ]
+  },
+  {
+   "id": "mubel-museo-civico-palazzo-fulcis",
+   "nome": "MuBel – Museo Civico (Palazzo Fulcis)",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1400581,
+   "longitudine": 12.2175694,
+   "descrizione": {
+    "it": "Museo civico di Belluno, nel Palazzo Fulcis del Settecento. Raccoglie dipinti dal Rinascimento al Barocco, tra cui opere di Sebastiano Ricci.",
+    "en": "Belluno’s civic museum, in the 18th-century Palazzo Fulcis. It holds paintings from the Renaissance to the Baroque, including works by Sebastiano Ricci.",
+    "fr": "Musée municipal de Belluno, dans le palais Fulcis du XVIIIe siècle. Il conserve des peintures de la Renaissance au baroque, dont des œuvres de Sebastiano Ricci.",
+    "de": "Städtisches Museum von Belluno im Palazzo Fulcis aus dem 18. Jahrhundert. Es zeigt Gemälde von der Renaissance bis zum Barock, darunter Werke von Sebastiano Ricci.",
+    "es": "Museo civico de Belluno, en el palacio Fulcis del siglo XVIII. Reúne pinturas del Renacimiento al Barroco, entre ellas obras de Sebastiano Ricci."
+   },
+   "orari": [
+    {
+     "giorni": "mar-ven",
+     "ore": "9:30–12:30, 15:30–18:30"
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "10:00–18:30"
+    }
+   ],
+   "biglietto": {
+    "intero": 8,
+    "ridotto": 5
+   },
+   "sito": "https://mubel.comune.belluno.it",
+   "chiuso": [
+    "lun"
+   ],
+   "indirizzo": "Via Roma, 28",
+   "nota": "Tel. 0437 956305. Prezzi e orari da verificare sul sito.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 24
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 35
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 226
+    }
+   ]
+  },
+  {
+   "id": "museo-archeologico-palazzo-dei-giuristi",
+   "nome": "Museo Archeologico (Palazzo dei Giuristi)",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1381131,
+   "longitudine": 12.2181259,
+   "descrizione": {
+    "it": "Sezione archeologica dei musei civici, al piano terra del Palazzo dei Giuristi (1664). Espone reperti dal Paleolitico medio all’alto Medioevo.",
+    "en": "The archaeological section of the civic museums, on the ground floor of the Palazzo dei Giuristi (1664). It displays finds from the Middle Palaeolithic to the early Middle Ages.",
+    "fr": "Section archéologique des musées municipaux, au rez-de-chaussée du palais des Juristes (1664). Elle expose des vestiges du Paléolithique moyen au haut Moyen Âge.",
+    "de": "Archäologische Abteilung der städtischen Museen im Erdgeschoss des Palazzo dei Giuristi (1664). Ausgestellt sind Funde vom Mittelpaläolithikum bis zum Frühmittelalter.",
+    "es": "Sección arqueológica de los museos cívicos, en la planta baja del Palazzo dei Giuristi (1664). Expone hallazgos desde el Paleolítico medio hasta la alta Edad Media."
+   },
+   "orari": [
+    {
+     "giorni": "gio-sab",
+     "ore": "10:00–12:00"
+    }
+   ],
+   "biglietto": {
+    "gratuito": false
+   },
+   "indirizzo": "Piazza Duomo, 16",
+   "nota": "Il biglietto si acquista a Palazzo Fulcis. Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 50
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 61
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 187
+    }
+   ]
+  },
+  {
+   "id": "mev-museo-dell-emigrazione-veneta",
+   "nome": "MEV – Museo dell’Emigrazione Veneta",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1405531,
+   "longitudine": 12.2119659,
+   "descrizione": {
+    "it": "Museo dedicato all’emigrazione dal Veneto e dalle valli bellunesi, con documenti, foto e video di storie di famiglie emigrate.",
+    "en": "Museum on emigration from the Veneto and the Belluno valleys, with documents, photos and videos of emigrant families’ stories.",
+    "fr": "Musée consacré à l’émigration depuis la Vénétie et les vallées de Belluno, avec documents, photos et vidéos sur les familles émigrées.",
+    "de": "Museum über die Auswanderung aus Venetien und den Tälern um Belluno, mit Dokumenten, Fotos und Videos über ausgewanderte Familien.",
+    "es": "Museo sobre la emigración desde el Véneto y los valles de Belluno, con documentos, fotos y vídeos sobre familias emigradas."
+   },
+   "orari": [
+    {
+     "giorni": "lun-ven",
+     "ore": "8:30–12:30, 14:30–18:30"
+    },
+    {
+     "giorni": "dom",
+     "ore": "14:30–18:30"
+    }
+   ],
+   "indirizzo": "Via Cavour, 3",
+   "nota": "Tel. 0437 941160. Sab. chiuso. Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 65
+    },
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 66
+    },
+    {
+     "nome": "Via Loreto",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 162
+    }
+   ]
+  },
+  {
+   "id": "teatro-comunale-dino-buzzati",
+   "nome": "Teatro Comunale Dino Buzzati",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1395128,
+   "longitudine": 12.2176274,
+   "descrizione": {
+    "it": "Teatro comunale di Belluno, in stile neoclassico, dedicato allo scrittore bellunese Dino Buzzati.",
+    "en": "Belluno’s municipal theatre, in Neoclassical style, dedicated to the local writer Dino Buzzati.",
+    "fr": "Théâtre municipal de Belluno, de style néoclassique, dédié à l’écrivain local Dino Buzzati.",
+    "de": "Städtisches Theater von Belluno im klassizistischen Stil, dem Schriftsteller Dino Buzzati gewidmet.",
+    "es": "Teatro municipal de Belluno, de estilo neoclásico, dedicado al escritor local Dino Buzzati."
+   },
+   "biglietto": {
+    "per_evento": true
+   },
+   "indirizzo": "Piazza Vittorio Emanuele, 2",
+   "nota": "Orari e biglietti secondo gli spettacoli.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 26
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 39
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 176
+    }
+   ]
+  },
+  {
+   "id": "stazione-fs-belluno",
+   "nome": "Stazione FS di Belluno",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1414738,
+   "longitudine": 12.209957,
+   "descrizione": {
+    "it": "Stazione ferroviaria di Belluno, con la stazione degli autobus accanto.",
+    "en": "Belluno railway station, with the bus station next to it.",
+    "fr": "Gare ferroviaire de Belluno, avec la gare routière à côté.",
+    "de": "Bahnhof Belluno, daneben der Busbahnhof.",
+    "es": "Estación de tren de Belluno, con la estación de autobuses al lado."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 123
+    },
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 127
+    },
+    {
+     "nome": "Belluno - Piazzale Marconi",
+     "linee": [
+      "B"
+     ],
+     "metri": 155
+    }
+   ]
+  },
+  {
+   "id": "borgo-piave",
+   "nome": "Borgo Piave",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1345956,
+   "longitudine": 12.2220911,
+   "descrizione": {
+    "it": "Antico borgo legato alla navigazione fluviale e al trasporto del legname con le zattere sul Piave: un aspetto della storia di Belluno meno evidente del centro monumentale.",
+    "en": "Ancient district tied to river navigation and the transport of timber by raft on the Piave: an aspect of Belluno’s history less visible than the monumental centre.",
+    "fr": "Ancien quartier lié à la navigation fluviale et au transport du bois par radeaux sur le Piave : un aspect de l’histoire de Belluno moins visible que le centre monumental.",
+    "de": "Alter Stadtteil, der mit der Flussschifffahrt und dem Holztransport per Floß auf der Piave verbunden war: ein weniger sichtbarer Aspekt der Geschichte Bellunos als das monumentale Zentrum.",
+    "es": "Antiguo barrio ligado a la navegación fluvial y al transporte de madera en balsas por el Piave: un aspecto de la historia de Belluno menos visible que el centro monumental."
+   },
+   "curiosita": true,
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": null,
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 77",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 101
+    },
+    {
+     "nome": "Via Lungardo 77",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 111
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 259
+    }
+   ]
+  },
+  {
+   "id": "palazzo-nossadani",
+   "nome": "Palazzo Nossadani",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.136133,
+   "longitudine": 12.220553,
+   "descrizione": {
+    "it": "Palazzo storico meno noto rispetto ai grandi edifici di Piazza Duomo.",
+    "en": "Historic palace, less well known than the great buildings of Piazza Duomo.",
+    "fr": "Palais historique moins connu que les grands édifices de la Piazza Duomo.",
+    "de": "Historischer Palast, weniger bekannt als die großen Gebäude der Piazza Duomo.",
+    "es": "Palacio histórico, menos conocido que los grandes edificios de la Piazza Duomo."
+   },
+   "curiosita": true,
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": null,
+   "fermate_vicine": [
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 107
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 111
+    },
+    {
+     "nome": "Via Lungardo 77",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 153
+    }
+   ]
+  },
+  {
+   "id": "loggia-dei-ghibellini",
+   "nome": "Loggia dei Ghibellini (Palazzo Costantini)",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1388002,
+   "longitudine": 12.2183813,
+   "descrizione": {
+    "it": "Angolo architettonico particolare, con un portico al piano terra del Palazzo Costantini, dove si riuniva la fazione ghibellina.",
+    "en": "A distinctive architectural corner, with an arcade on the ground floor of Palazzo Costantini, where the Ghibelline faction used to meet.",
+    "fr": "Un coin architectural singulier, avec un portique au rez-de-chaussée du palais Costantini, où se réunissait la faction gibeline.",
+    "de": "Eine besondere architektonische Ecke mit Arkaden im Erdgeschoss des Palazzo Costantini, wo sich die ghibellinische Partei traf.",
+    "es": "Un rincón arquitectónico singular, con un pórtico en la planta baja del Palazzo Costantini, donde se reunía la facción gibelina."
+   },
+   "curiosita": true,
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": null,
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 122
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 123
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 124
+    }
+   ]
+  },
+  {
+   "id": "fontana-della-motta",
+   "nome": "Fontana della Motta",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1377312,
+   "longitudine": 12.2193574,
+   "descrizione": {
+    "it": "Una delle fontane storiche della città, realizzata nel 1562 dal Loredan per il quartiere della Motta.",
+    "en": "One of the city’s historic fountains, built in 1562 by Loredan for the Motta district.",
+    "fr": "L’une des fontaines historiques de la ville, réalisée en 1562 par Loredan pour le quartier de la Motta.",
+    "de": "Einer der historischen Brunnen der Stadt, 1562 von Loredan für das Viertel Motta errichtet.",
+    "es": "Una de las fuentes históricas de la ciudad, realizada en 1562 por Loredan para el barrio de la Motta."
+   },
+   "curiosita": true,
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": null,
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 130
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 154
+    },
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 176
+    }
+   ]
+  },
+  {
+   "id": "ponte-zilli",
+   "nome": "Ponte Zilli (Pontet)",
+   "categoria": "ponti",
+   "sestiere": "Centro storico",
+   "latitudine": 46.133903,
+   "longitudine": 12.220003,
+   "descrizione": {
+    "it": "Resti del Ponte Zilli, detto anche “Pontet” o “ponte rotto”, sul Piave a Borgo Piave.",
+    "en": "Remains of the Ponte Zilli, also called “Pontet” or “broken bridge”, on the Piave at Borgo Piave.",
+    "fr": "Vestiges du pont Zilli, aussi appelé « Pontet » ou « pont cassé », sur la Piave à Borgo Piave.",
+    "de": "Reste der Ponte Zilli, auch „Pontet“ oder „gebrochene Brücke“ genannt, an der Piave in Borgo Piave.",
+    "es": "Restos del Ponte Zilli, también llamado «Pontet» o «puente roto», sobre el Piave en Borgo Piave."
+   },
+   "immagine": {
+    "autore": "AquiFoto",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=51731810"
+   },
+   "galleria": [
+    {
+     "autore": "Stefano Sabatini",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=94627314"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Localizzazione da verificare sul posto. Parte del ponte può essere chiusa al pubblico.",
+   "fermate_vicine": [
+    {
+     "nome": "Borgo Piave Distributore Agip",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 169
+    },
+    {
+     "nome": "Borgo Piave Distributore Agip",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 185
+    },
+    {
+     "nome": "Via del Piave",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 218
+    }
+   ]
+  },
+  {
+   "id": "seminario-gregoriano",
+   "nome": "Seminario Gregoriano",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.138501,
+   "longitudine": 12.219325,
+   "descrizione": {
+    "it": "Complesso storico e religioso, con chiostro e portico, collegato alla Chiesa di San Pietro. La facciata riporta la scritta “Seminarium Gregorianum”.",
+    "en": "Historic and religious complex with a cloister and arcade, linked to the Church of San Pietro. The façade bears the inscription “Seminarium Gregorianum”.",
+    "fr": "Complexe historique et religieux, avec cloître et portique, lié à l’église Saint-Pierre. La façade porte l’inscription « Seminarium Gregorianum ».",
+    "de": "Historischer und religiöser Komplex mit Kreuzgang und Arkaden, verbunden mit der Kirche San Pietro. Die Fassade trägt die Inschrift „Seminarium Gregorianum“.",
+    "es": "Complejo histórico y religioso, con claustro y pórtico, vinculado a la iglesia de San Pietro. La fachada lleva la inscripción «Seminarium Gregorianum»."
+   },
+   "immagine": {
+    "autore": "Foto propria",
+    "licenza": null,
+    "fonte": null
+   },
+   "galleria": [
+    {
+     "autore": "Foto propria",
+     "licenza": null,
+     "fonte": null
+    },
+    {
+     "autore": "Foto propria",
+     "licenza": null,
+     "fonte": null
+    },
+    {
+     "autore": "Foto propria",
+     "licenza": null,
+     "fonte": null
+    }
+   ],
+   "curiosita": true,
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Orari di visita da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 110
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 150
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 163
+    }
+   ]
+  },
+  {
+   "id": "palazzo-persicini-crocecalle",
+   "nome": "Palazzo Persicini-Crocecalle",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.13791001392509,
+   "longitudine": 12.21908882530751,
+   "descrizione": {
+    "it": "Palazzo Persicini-Crocecalle è un edificio quattrocentesco situato in via Mezzaterra. Fu realizzato da Giovanni Persicini nel 1447, come ricorda un’iscrizione in caratteri gotici incisa su uno dei capitelli del portico.\nIl palazzo sorgeva in corrispondenza di un importante incrocio della città antica, chiamato «Cros de Cal», espressione che indicava l’incontro di più strade e che diede il nome alla famiglia Crocecalle. Lo stemma della famiglia, con una croce e quattro stelle, è ancora visibile su un capitello del portico.\nDal XVI secolo l’edificio ospitò l’antica farmacia all’insegna di San Francesco. Nelle vicinanze si trovava anche la bottega di falegnameria e scultura di Andrea Brustolon, importante artista bellunese del periodo barocco.",
+    "en": "Palazzo Persicini-Crocecalle is a 15th-century building on Via Mezzaterra. It was built by Giovanni Persicini in 1447, as recorded by a Gothic inscription carved on one of the capitals of the portico.\nThe palace stood at an important crossroads of the old city, called «Cros de Cal», an expression meaning the meeting of several streets, which gave the Crocecalle family its name. The family coat of arms, with a cross and four stars, can still be seen on a capital of the portico.\nFrom the 16th century the building housed the old pharmacy under the sign of San Francesco. Nearby was also the carpentry and sculpture workshop of Andrea Brustolon, an important Belluno artist of the Baroque period.",
+    "fr": "Le palais Persicini-Crocecalle est un édifice du XVe siècle situé via Mezzaterra. Il fut construit par Giovanni Persicini en 1447, comme le rappelle une inscription en caractères gothiques gravée sur l’un des chapiteaux du portique.\nLe palais se dressait à un carrefour important de l’ancienne ville, appelé «Cros de Cal», expression désignant la rencontre de plusieurs rues, qui donna son nom à la famille Crocecalle. Les armoiries de la famille, avec une croix et quatre étoiles, sont encore visibles sur un chapiteau du portique.\nÀ partir du XVIe siècle, le bâtiment abrita l’ancienne pharmacie à l’enseigne de Saint-François. À proximité se trouvait aussi l’atelier de menuiserie et de sculpture d’Andrea Brustolon, important artiste bellunais de la période baroque.",
+    "de": "Der Palazzo Persicini-Crocecalle ist ein Gebäude aus dem 15. Jahrhundert in der Via Mezzaterra. Er wurde 1447 von Giovanni Persicini errichtet, wie eine gotische Inschrift auf einem Kapitell der Säulenhalle bezeugt.\nDer Palast stand an einer wichtigen Kreuzung der alten Stadt, genannt «Cros de Cal», ein Ausdruck für das Zusammentreffen mehrerer Straßen, der der Familie Crocecalle ihren Namen gab. Das Wappen der Familie mit einem Kreuz und vier Sternen ist noch auf einem Kapitell der Säulenhalle zu sehen.\nAb dem 16. Jahrhundert beherbergte das Gebäude die alte Apotheke unter dem Zeichen des heiligen Franziskus. In der Nähe lag auch die Tischlerei- und Bildhauerwerkstatt von Andrea Brustolon, einem bedeutenden Künstler aus Belluno der Barockzeit.",
+    "es": "El Palazzo Persicini-Crocecalle es un edificio del siglo XV situado en la vía Mezzaterra. Lo construyó Giovanni Persicini en 1447, como recuerda una inscripción en caracteres góticos grabada en uno de los capiteles del pórtico.\nEl palacio se alzaba en un importante cruce de la ciudad antigua, llamado «Cros de Cal», expresión que indicaba la confluencia de varias calles y que dio nombre a la familia Crocecalle. El escudo de la familia, con una cruz y cuatro estrellas, todavía se ve en un capitel del pórtico.\nDesde el siglo XVI el edificio albergó la antigua farmacia bajo el signo de San Francisco. Cerca estaba también el taller de carpintería y escultura de Andrea Brustolon, importante artista de Belluno del periodo barroco."
+   },
+   "curiosita": true,
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Orari da verificare.",
+   "immagine": {
+    "autore": "Foto propria",
+    "licenza": null,
+    "fonte": null
+   },
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 110
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 132
+    },
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 171
+    }
+   ],
+   "indirizzo": "Via Mezzaterra"
+  },
+  {
+   "id": "palazzo-trois-malaspina",
+   "nome": "Palazzo Trois-Malaspina",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.14006292312907,
+   "longitudine": 12.217931290388035,
+   "descrizione": {
+    "it": "Palazzetto di impianto settecentesco, già di proprietà della famiglia Trois, passato poi ai Malaspina, il cui stemma compare ancora sull’archetto in ferro battuto nell’ingresso, all’imbocco della scala. Sede dell’antica farmacia di San Giuseppe, la cui insegna settecentesca, opera attribuita da Giuseppe Fiocco a Gaspare Diziani, è ancora visibile all’interno, recentemente ristrutturato.\nDopo l’Unità d’Italia il farmacista Locatelli, fervente patriota, sostituì a San Giuseppe il busto di Garibaldi, dipinto da Goffredo Sommavilla, poi rimaneggiato nel corso dei radicali lavori di consolidamento seguiti al terremoto del 1936, durante i quali venne anche completato l’innalzamento dell’ultimo piano, prima asimmetrico.",
+    "en": "Small palace of 18th-century origin, formerly owned by the Trois family and later by the Malaspina family, whose coat of arms still appears on the wrought-iron arch at the entrance, at the foot of the staircase. It was the seat of the old pharmacy of San Giuseppe, whose 18th-century sign, attributed by Giuseppe Fiocco to Gaspare Diziani, is still visible inside, in recently restored rooms.\nAfter Italian unification, the pharmacist Locatelli, a fervent patriot, replaced the image of Saint Joseph with a bust of Garibaldi, painted by Goffredo Sommavilla, later reworked during the major consolidation works following the 1936 earthquake, when the top floor, previously asymmetrical, was also raised and completed.",
+    "fr": "Petit palais d’origine du XVIIIe siècle, autrefois propriété de la famille Trois, puis des Malaspina, dont les armoiries figurent encore sur l’arc en fer forgé de l’entrée, à la base de l’escalier. Il abrita l’ancienne pharmacie de Saint-Joseph, dont l’enseigne du XVIIIe siècle, attribuée par Giuseppe Fiocco à Gaspare Diziani, est encore visible à l’intérieur, récemment restauré.\nAprès l’unité italienne, le pharmacien Locatelli, patriote fervent, remplaça à Saint-Joseph le buste de Garibaldi, peint par Goffredo Sommavilla, ensuite remanié lors des importants travaux de consolidation qui suivirent le tremblement de terre de 1936, pendant lesquels fut aussi achevée la surélévation du dernier étage, auparavant asymétrique.",
+    "de": "Kleiner Palast aus dem 18. Jahrhundert, einst im Besitz der Familie Trois, später der Familie Malaspina, deren Wappen noch am schmiedeeisernen Bogen des Eingangs am Fuß der Treppe zu sehen ist. Hier befand sich die alte Apotheke des heiligen Josef, deren Schild aus dem 18. Jahrhundert, von Giuseppe Fiocco Gaspare Diziani zugeschrieben, im kürzlich restaurierten Innern noch sichtbar ist.\nNach der italienischen Einigung ersetzte der Apotheker Locatelli, ein glühender Patriot, das Bild des heiligen Josef durch eine Büste Garibaldis, gemalt von Goffredo Sommavilla, die später bei den umfassenden Sicherungsarbeiten nach dem Erdbeben von 1936 überarbeitet wurde; dabei wurde auch das bis dahin asymmetrische oberste Stockwerk aufgestockt und vollendet.",
+    "es": "Pequeño palacio de origen dieciochesco, antes propiedad de la familia Trois y después de los Malaspina, cuyo escudo aún aparece en el arco de hierro forjado de la entrada, al pie de la escalera. Fue sede de la antigua farmacia de San Giuseppe, cuyo rótulo dieciochesco, atribuido por Giuseppe Fiocco a Gaspare Diziani, todavía se ve en el interior, recientemente restaurado.\nTras la unificación de Italia, el farmacéutico Locatelli, ferviente patriota, sustituyó la imagen de san José por un busto de Garibaldi, pintado por Goffredo Sommavilla, después retocado durante las importantes obras de consolidación tras el terremoto de 1936, cuando también se completó la elevación de la última planta, antes asimétrica."
+   },
+   "curiosita": true,
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Orari non disponibili. Foto propria.",
+   "immagine": {
+    "autore": "Foto propria",
+    "licenza": null,
+    "fonte": null
+   },
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 43
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 45
+    },
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 218
+    }
+   ],
+   "indirizzo": "Piazza Vittorio Emanuele II"
+  },
+  {
+   "id": "ponte-di-paglia",
+   "nome": "Ponte di Paglia (Borgo Prà)",
+   "categoria": "ponti",
+   "sestiere": "Borgo Prà",
+   "latitudine": 46.14295406137667,
+   "longitudine": 12.219879763759069,
+   "descrizione": {
+    "it": "Belluno si collega all’antico borgo di Borgo Prà grazie al “ponte di paglia”, che permette di attraversare il fiume Ardo ed è legato al traffico commerciale. Il ponte per il Prà era detto della “Paglia” per il tetto che lo caratterizzava, e per passarlo era sempre necessario pagare pedaggio e dazio. Il ponte ha subito diversi restauri fino all’attuale stato. È citato in documenti storici del 1378. L’antica struttura in legno crollò nel 1503 e nel 1505; ricostruito in pietra nel 1507, ricevette il restauro più solido nel 1852. Nel 1908, durante una ricostruzione per alzare il livello della strada, il torrente in piena portò via le impalcature e il cassone della roggia, affiancando la struttura sul lato sud. Nel 1960 fu demolita la roggia, e con essa il canale che volgeva a sud.",
+    "en": "Belluno connects to the old district of Borgo Prà through the “ponte di paglia” (straw bridge), which crosses the Ardo river and was tied to commercial traffic. The bridge to Prà was called the “Paglia” bridge for the roof that characterised it, and crossing it always required paying a toll and duty. The bridge underwent several restorations to reach its present state. It is mentioned in historical documents from 1378. The original wooden structure collapsed in 1503 and 1505; rebuilt in stone in 1507, it received its most solid restoration in 1852. In 1908, during a rebuilding to raise the road level, the flooding torrent swept away the scaffolding and the mill-race box, flanking the structure on the south side. In 1960 the mill-race was demolished, along with the canal that ran south.",
+    "fr": "Belluno se relie au vieux quartier de Borgo Prà grâce au « ponte di paglia » (pont de paille), qui franchit le fleuve Ardo et était lié au trafic commercial. Le pont vers le Prà était appelé pont de la « Paglia » à cause du toit qui le caractérisait, et le franchir exigeait toujours le paiement d’un péage et d’une taxe. Le pont a subi plusieurs restaurations jusqu’à son état actuel. Il est cité dans des documents historiques de 1378. L’ancienne structure en bois s’effondra en 1503 et 1505 ; reconstruit en pierre en 1507, il reçut sa restauration la plus solide en 1852. En 1908, lors d’une reconstruction visant à élever le niveau de la route, le torrent en crue emporta les échafaudages et le caisson du canal, flanquant la structure du côté sud. En 1960, le canal fut démoli, avec lui le chenal qui s’orientait vers le sud.",
+    "de": "Belluno ist über die „ponte di paglia“ (Strohbrücke) mit dem alten Ortsteil Borgo Prà verbunden. Sie überquert den Fluss Ardo und war mit dem Handelsverkehr verbunden. Die Brücke nach Prà hieß „della Paglia“ wegen des Dachs, das sie prägte, und für die Überquerung musste immer Maut und Zoll gezahlt werden. Die Brücke wurde mehrfach restauriert, bis sie ihren heutigen Zustand erreichte. Sie wird in historischen Dokumenten von 1378 erwähnt. Die alte Holzkonstruktion stürzte 1503 und 1505 ein; nach dem Wiederaufbau in Stein 1507 erhielt sie 1852 die solideste Restaurierung. 1908 riss der Wildbach bei einem Umbau zur Erhöhung der Straße die Gerüste und den Kanalkasten mit sich und legte sich an die Südseite des Bauwerks. 1960 wurde der Mühlkanal abgerissen und mit ihm der nach Süden führende Kanal.",
+    "es": "Belluno se conecta con el antiguo barrio de Borgo Prà gracias al «ponte di paglia» (puente de paja), que permite cruzar el río Ardo y estaba ligado al tráfico comercial. El puente hacia el Prà se llamaba de la «Paglia» por el tejado que lo caracterizaba, y para cruzarlo siempre había que pagar peaje y derechos. El puente sufrió varias restauraciones hasta su estado actual. Se menciona en documentos históricos de 1378. La antigua estructura de madera se derrumbó en 1503 y 1505; reconstruido en piedra en 1507, recibió su restauración más sólida en 1852. En 1908, durante una reconstrucción para elevar el nivel de la carretera, el torrente crecido se llevó los andamios y la caja de la acequia, y se adosó a la estructura por el lado sur. En 1960 se demolió la acequia y, con ella, el canal que discurría hacia el sur."
+   },
+   "curiosita": true,
+   "curiosita_teaser": {
+    "it": "Belluno si collega all’antico borgo di Borgo Prà grazie al “ponte di paglia”, che permette di attraversare il fiume Ardo, legato al traffico commerciale.",
+    "en": "Belluno connects to the old district of Borgo Prà through the “ponte di paglia” (straw bridge), which crosses the Ardo river and was tied to commercial traffic.",
+    "fr": "Belluno se relie au vieux quartier de Borgo Prà grâce au « ponte di paglia » (pont de paille), qui franchit le fleuve Ardo et était lié au trafic commercial.",
+    "de": "Belluno ist über die „ponte di paglia“ (Strohbrücke) mit dem alten Ortsteil Borgo Prà verbunden, die den Fluss Ardo überquert und mit dem Handelsverkehr verbunden war.",
+    "es": "Belluno se conecta con el antiguo barrio de Borgo Prà gracias al «ponte di paglia» (puente de paja), que cruza el río Ardo y estaba ligado al tráfico comercial."
+   },
+   "immagine": {
+    "autore": "Foto propria",
+    "licenza": null,
+    "fonte": null
+   },
+   "galleria": [],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Coordinate fornite dall’autore. Verificare sul posto.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 5",
+     "linee": [
+      "L"
+     ],
+     "metri": 111
+    },
+    {
+     "nome": "Piazza San Lucano",
+     "linee": [
+      "L"
+     ],
+     "metri": 144
+    },
+    {
+     "nome": "Via Simon Da Cusighe",
+     "linee": [
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 178
+    }
+   ]
+  }
+ ]
+}

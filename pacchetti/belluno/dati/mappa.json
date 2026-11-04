@@ -1,0 +1,43 @@
+{
+  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). I punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
+  "immagine": "mappa-belluno.webp",
+  "larghezza": 8000,
+  "altezza": 8507,
+  "punti_riferimento": [
+    {
+      "nome": "Angolo nord-ovest",
+      "latitudine": 46.154,
+      "longitudine": 12.198,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo nord-est",
+      "latitudine": 46.154,
+      "longitudine": 12.236,
+      "x": 8000.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo sud-ovest",
+      "latitudine": 46.126,
+      "longitudine": 12.198,
+      "x": 0.0,
+      "y": 8507.0
+    },
+    {
+      "nome": "Angolo sud-est",
+      "latitudine": 46.126,
+      "longitudine": 12.236,
+      "x": 8000.0,
+      "y": 8507.0
+    },
+    {
+      "nome": "Centro",
+      "latitudine": 46.1397,
+      "longitudine": 12.2167,
+      "x": 3936.8,
+      "y": 4344.6
+    }
+  ]
+}
