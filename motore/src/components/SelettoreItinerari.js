@@ -511,7 +511,7 @@ const styles = StyleSheet.create({
 
 // Tappa di un itinerario "speciale": pallino colorato con il numero, nome, icona del tipo,
 // foto (tocco = ingrandisce), indirizzo e il testo scritto per questo itinerario.
-// Il tocco sul resto della card: luogo censito apre la sua scheda; tappa fotografica per ora niente.
+// Il tocco sulla card apre la stessa scheda del puntino sulla mappa (censito o fotografica).
 function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
   const [zoomAperto, setZoomAperto] = useState(false);
   const censito = !luogo.tappa_fotografica;
@@ -521,8 +521,8 @@ function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
   return (
     <>
       <Pressable
-        onPress={() => (censito ? onApri?.(luogo.id) : null)}
-        style={({ pressed }) => [styles.carta, pressed && censito && { opacity: 0.85 }]}
+        onPress={() => onApri?.(luogo.id)}
+        style={({ pressed }) => [styles.carta, pressed && { opacity: 0.85 }]}
         accessibilityRole="button"
         accessibilityLabel={`${numero}. ${luogo.nome}. ${tipo}`}
       >
@@ -537,7 +537,7 @@ function CartaTappa({ luogo, numero, testo, lingua, t, visto, onApri }) {
             <Text style={styles.iconaTipo}>{censito ? '🏛️' : '📷'}</Text>
           </View>
           {visto ? <Text style={styles.tappaVista}>{'✓\uFE0E'}</Text> : null}
-          {censito ? <Text style={styles.freccia}>›</Text> : null}
+          <Text style={styles.freccia}>›</Text>
         </View>
         <View style={styles.cartaCorpo}>
           {foto ? (
