@@ -1,0 +1,716 @@
+{
+ "_nota": "Belluno: cibi e prodotti tipici dal foglio Cibi. Ricette da verificare dove indicato. Foto da aggiungere.",
+ "cibi": [
+  {
+   "id": "pastin",
+   "nome": "Pastin",
+   "portata": "secondo",
+   "testo": {
+    "it": "Salsiccia fresca di carne di maiale, tipica del Bellunese, con sale, pepe e aglio: si cuoce alla griglia o in padella e si accompagna di solito con la polenta.",
+    "en": "Fresh pork sausage typical of the Belluno area, seasoned with salt, pepper and garlic: it is grilled or pan-fried and usually served with polenta.",
+    "fr": "Saucisse fraîche de porc typique du Bellunese, assaisonnée de sel, poivre et ail : elle se cuit au gril ou à la poêle et se sert généralement avec de la polenta.",
+    "de": "Frische Schweinswurst aus dem Gebiet um Belluno, mit Salz, Pfeffer und Knoblauch gewürzt: Sie wird gegrillt oder in der Pfanne gebraten und meist mit Polenta serviert.",
+    "es": "Salchicha fresca de cerdo típica del Bellunés, sazonada con sal, pimienta y ajo: se hace a la plancha o en sartén y suele acompañarse con polenta."
+   },
+   "foto": null
+  },
+  {
+   "id": "gnocchi-di-zucca",
+   "nome": "Gnocchi di zucca",
+   "portata": "primo",
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "30 min + 1 ora di riposo",
+     "en": "30 min + 1 hour resting",
+     "fr": "30 min + 1 h de repos",
+     "de": "30 Min. + 1 Std. Ruhezeit",
+     "es": "30 min + 1 h de reposo"
+    },
+    "ingredienti": {
+     "it": [
+      "500 g di polpa di zucca cotta",
+      "200 g di patate lesse",
+      "150 g di farina",
+      "1 uovo",
+      "80 g di grana grattugiato",
+      "Sale e noce moscata q.b.",
+      "60 g di burro",
+      "Salvia q.b."
+     ],
+     "en": [
+      "500 g cooked pumpkin flesh",
+      "200 g boiled potatoes",
+      "150 g flour",
+      "1 egg",
+      "80 g grated Grana cheese",
+      "Salt and nutmeg as needed",
+      "60 g butter",
+      "Sage as needed"
+     ],
+     "fr": [
+      "500 g de chair de citrouille cuite",
+      "200 g de pommes de terre bouillies",
+      "150 g de farine",
+      "1 œuf",
+      "80 g de Grana râpé",
+      "Sel et muscade selon besoin",
+      "60 g de beurre",
+      "Sauge selon besoin"
+     ],
+     "de": [
+      "500 g gegarter Kürbis",
+      "200 g gekochte Kartoffeln",
+      "150 g Mehl",
+      "1 Ei",
+      "80 g geriebener Grana",
+      "Salz und Muskat nach Bedarf",
+      "60 g Butter",
+      "Salbei nach Bedarf"
+     ],
+     "es": [
+      "500 g de pulpa de calabaza cocida",
+      "200 g de patatas hervidas",
+      "150 g de harina",
+      "1 huevo",
+      "80 g de Grana rallado",
+      "Sal y nuez moscada al gusto",
+      "60 g de mantequilla",
+      "Salvia al gusto"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Schiaccia la zucca e le patate ancora calde, poi lasciale raffreddare.",
+      "Aggiungi uovo, sale, noce moscata e grana, poi incorpora la farina fino a ottenere un impasto morbido.",
+      "Forma dei cilindri, tagliali in gnocchi e lasciali riposare.",
+      "Cuoci in acqua salata finché salgono in superficie, poi condiscili con burro fuso e salvia."
+     ],
+     "en": [
+      "Mash the pumpkin and potatoes while still warm, then let them cool.",
+      "Add egg, salt, nutmeg and Grana, then work in the flour to a soft dough.",
+      "Shape into logs, cut into gnocchi and let them rest.",
+      "Cook in salted water until they float, then dress with melted butter and sage."
+     ],
+     "fr": [
+      "Écrase la citrouille et les pommes de terre encore chaudes, puis laisse refroidir.",
+      "Ajoute l’œuf, le sel, la muscade et le Grana, puis incorpore la farine jusqu’à obtenir une pâte souple.",
+      "Façonne des boudins, coupe-les en gnocchi et laisse reposer.",
+      "Fais cuire dans l’eau salée jusqu’à ce qu’ils remontent, puis assaisonne de beurre fondu et de sauge."
+     ],
+     "de": [
+      "Kürbis und Kartoffeln noch warm zerdrücken und abkühlen lassen.",
+      "Ei, Salz, Muskat und Grana zugeben, dann das Mehl unterkneten, bis ein weicher Teig entsteht.",
+      "Zu Rollen formen, in Stücke schneiden und ruhen lassen.",
+      "In Salzwasser kochen, bis sie aufsteigen, dann mit zerlassener Butter und Salbei servieren."
+     ],
+     "es": [
+      "Aplasta la calabaza y las patatas todavía calientes y deja que se enfríen.",
+      "Añade el huevo, la sal, la nuez moscada y el Grana, luego incorpora la harina hasta obtener una masa suave.",
+      "Forma cilindros, córtalos en ñoquis y deja reposar.",
+      "Cuécelos en agua con sal hasta que suban a la superficie y aliña con mantequilla fundida y salvia."
+     ]
+    }
+   },
+   "testo": {
+    "it": "Gnocchi di patate e zucca, conditi semplicemente con burro e salvia.",
+    "en": "Pumpkin and potato gnocchi, simply dressed with butter and sage.",
+    "fr": "Gnocchi à la citrouille et aux pommes de terre, simplement assaisonnés de beurre et de sauge.",
+    "de": "Kürbis-Kartoffel-Gnocchi, einfach mit Butter und Salbei angerichtet.",
+    "es": "Ñoquis de calabaza y patata, aliñados simplemente con mantequilla y salvia."
+   },
+   "foto": null
+  },
+  {
+   "id": "casunziei",
+   "nome": "Casunziei",
+   "portata": "primo",
+   "testo": {
+    "it": "Ravioli ripieni di barbabietola, ricotta e amaretti, conditi con burro fuso e semi di papavero: piatto tipico dell’Ampezzo, nel Bellunese.",
+    "en": "Ravioli filled with beetroot, ricotta and amaretti, dressed with melted butter and poppy seeds: a typical dish of Ampezzo, in the Belluno area.",
+    "fr": "Raviolis farcis à la betterave, à la ricotta et aux amaretti, assaisonnés de beurre fondu et de graines de pavot : plat typique de l’Ampezzo, dans le Bellunese.",
+    "de": "Ravioli mit Rote-Bete-Füllung, Ricotta und Amaretti, mit zerlassener Butter und Mohnsamen serviert: ein typisches Gericht aus Ampezzo im Gebiet von Belluno.",
+    "es": "Raviolis rellenos de remolacha, ricotta y amaretti, aliñados con mantequilla fundida y semillas de amapola: plato típico de Ampezzo, en el Bellunés."
+   },
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "1 ora + 1 ora di riposo",
+     "en": "1 hour + 1 hour resting",
+     "fr": "1 h + 1 h de repos",
+     "de": "1 Std. + 1 Std. Ruhezeit",
+     "es": "1 h + 1 h de reposo"
+    },
+    "ingredienti": {
+     "it": [
+      "Per la pasta: 300 g di farina, 2 uova, acqua q.b.",
+      "Per il ripieno: 300 g di barbabietola cotta, 150 g di ricotta, 40 g di amaretti sbriciolati, 40 g di grana, sale",
+      "Per il condimento: burro fuso e semi di papavero"
+     ],
+     "en": [
+      "For the pasta: 300 g flour, 2 eggs, water as needed",
+      "For the filling: 300 g cooked beetroot, 150 g ricotta, 40 g crushed amaretti, 40 g Grana, salt",
+      "For dressing: melted butter and poppy seeds"
+     ],
+     "fr": [
+      "Pour la pâte : 300 g de farine, 2 œufs, eau selon besoin",
+      "Pour la farce : 300 g de betterave cuite, 150 g de ricotta, 40 g d’amaretti émiettés, 40 g de Grana, sel",
+      "Pour l’assaisonnement : beurre fondu et graines de pavot"
+     ],
+     "de": [
+      "Für den Teig: 300 g Mehl, 2 Eier, Wasser nach Bedarf",
+      "Für die Füllung: 300 g gegarte Rote Bete, 150 g Ricotta, 40 g zerbröselte Amaretti, 40 g Grana, Salz",
+      "Für die Soße: zerlassene Butter und Mohnsamen"
+     ],
+     "es": [
+      "Para la masa: 300 g de harina, 2 huevos, agua al gusto",
+      "Para el relleno: 300 g de remolacha cocida, 150 g de ricotta, 40 g de amaretti desmenuzados, 40 g de Grana, sal",
+      "Para aliñar: mantequilla fundida y semillas de amapola"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Impasta farina, uova e acqua fino a ottenere una pasta liscia; lasciala riposare.",
+      "Frulla la barbabietola e uniscila a ricotta, amaretti, grana e sale.",
+      "Stendi la pasta sottile, distribuisci il ripieno e chiudi i ravioli a forma di mezzaluna.",
+      "Cuoci in acqua salata per pochi minuti e condisci con burro fuso e semi di papavero."
+     ],
+     "en": [
+      "Knead flour, eggs and water into a smooth dough and let it rest.",
+      "Blend the beetroot and mix it with ricotta, amaretti, Grana and salt.",
+      "Roll out the dough thinly, add the filling and close the ravioli in half-moon shapes.",
+      "Cook in salted water for a few minutes and dress with melted butter and poppy seeds."
+     ],
+     "fr": [
+      "Pétris la farine, les œufs et l’eau jusqu’à obtenir une pâte lisse, puis laisse reposer.",
+      "Mixe la betterave et mélange-la à la ricotta, aux amaretti, au Grana et au sel.",
+      "Étale finement la pâte, dépose la farce et ferme les raviolis en demi-lune.",
+      "Fais cuire quelques minutes dans l’eau salée et assaisonne de beurre fondu et de graines de pavot."
+     ],
+     "de": [
+      "Mehl, Eier und Wasser zu einem glatten Teig kneten und ruhen lassen.",
+      "Rote Bete pürieren und mit Ricotta, Amaretti, Grana und Salz vermengen.",
+      "Den Teig dünn ausrollen, die Füllung verteilen und die Ravioli halbmondförmig verschließen.",
+      "Einige Minuten in Salzwasser garen und mit zerlassener Butter und Mohnsamen servieren."
+     ],
+     "es": [
+      "Amasa harina, huevos y agua hasta obtener una masa lisa y déjala reposar.",
+      "Tritura la remolacha y mézclala con ricotta, amaretti, Grana y sal.",
+      "Extiende la masa fina, reparte el relleno y cierra los raviolis en forma de media luna.",
+      "Cuécelos unos minutos en agua con sal y aliña con mantequilla fundida y semillas de amapola."
+     ]
+    }
+   },
+   "foto": null
+  },
+  {
+   "id": "orzotto",
+   "nome": "Orzotto",
+   "portata": "primo",
+   "testo": {
+    "it": "Risotto di orzo, cotto lentamente con brodo, cipolla e burro e mantecato con grana.",
+    "en": "Barley risotto, slowly cooked with broth, onion and butter and finished with Grana cheese.",
+    "fr": "Risotto à l’orge, cuit lentement avec du bouillon, de l’oignon et du beurre, et lié au Grana.",
+    "de": "Gerstenrisotto, langsam mit Brühe, Zwiebel und Butter gegart und mit Grana verfeinert.",
+    "es": "Risotto de cebada, cocido despacio con caldo, cebolla y mantequilla y terminado con Grana."
+   },
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "50 min",
+     "en": "50 min",
+     "fr": "50 min",
+     "de": "50 Min.",
+     "es": "50 min"
+    },
+    "ingredienti": {
+     "it": [
+      "300 g di orzo perlato",
+      "1 cipolla piccola",
+      "40 g di burro",
+      "1 l di brodo caldo",
+      "50 g di grana grattugiato",
+      "Sale e pepe q.b."
+     ],
+     "en": [
+      "300 g pearl barley",
+      "1 small onion",
+      "40 g butter",
+      "1 l hot broth",
+      "50 g grated Grana cheese",
+      "Salt and pepper as needed"
+     ],
+     "fr": [
+      "300 g d’orge perlé",
+      "1 petit oignon",
+      "40 g de beurre",
+      "1 l de bouillon chaud",
+      "50 g de Grana râpé",
+      "Sel et poivre selon besoin"
+     ],
+     "de": [
+      "300 g Perlgraupen",
+      "1 kleine Zwiebel",
+      "40 g Butter",
+      "1 l heiße Brühe",
+      "50 g geriebener Grana",
+      "Salz und Pfeffer nach Bedarf"
+     ],
+     "es": [
+      "300 g de cebada perlada",
+      "1 cebolla pequeña",
+      "40 g de mantequilla",
+      "1 l de caldo caliente",
+      "50 g de Grana rallado",
+      "Sal y pimienta al gusto"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Soffriggi la cipolla tritata nel burro.",
+      "Tosta l’orzo per un minuto, poi versa il brodo a mestoli e lascia cuocere per circa 40 minuti, mescolando spesso.",
+      "Quando l’orzo è morbido ma ancora al dente, togli dal fuoco, manteca con burro e grana e aggiusta di sale e pepe."
+     ],
+     "en": [
+      "Sauté the chopped onion in the butter.",
+      "Toast the barley for a minute, then add the broth a ladle at a time and cook for about 40 minutes, stirring often.",
+      "When the barley is tender but still firm, remove from the heat, stir in butter and Grana, and adjust salt and pepper."
+     ],
+     "fr": [
+      "Fais revenir l’oignon haché dans le beurre.",
+      "Fais griller l’orge une minute, puis ajoute le bouillon louche par louche et laisse cuire environ 40 minutes en remuant souvent.",
+      "Quand l’orge est tendre mais encore ferme, retire du feu, lie au beurre et au Grana, et rectifie le sel et le poivre."
+     ],
+     "de": [
+      "Die gehackte Zwiebel in der Butter andünsten.",
+      "Die Gerste eine Minute rösten, dann die Brühe nach und nach zugeben und etwa 40 Minuten köcheln lassen, oft umrühren.",
+      "Wenn die Gerste weich, aber noch bissfest ist, vom Herd nehmen, mit Butter und Grana verrühren und mit Salz und Pfeffer abschmecken."
+     ],
+     "es": [
+      "Sofríe la cebolla picada en la mantequilla.",
+      "Tuesta la cebada un minuto, luego añade el caldo poco a poco y cuece unos 40 minutos, removiendo a menudo.",
+      "Cuando la cebada esté tierna pero aún firme, retira del fuego, mantecado con mantequilla y Grana, y ajusta la sal y la pimienta."
+     ]
+    }
+   },
+   "foto": null
+  },
+  {
+   "id": "polenta-con-funghi-e-formaggi-di-malga",
+   "nome": "Polenta con funghi e formaggi di malga",
+   "portata": "secondo",
+   "testo": {
+    "it": "Polenta servita con funghi trifolati e formaggi di malga fusi, piatto semplice della montagna bellunese.",
+    "en": "Polenta served with sautéed mushrooms and melted mountain-pasture cheeses, a simple dish from the Belluno mountains.",
+    "fr": "Polenta servie avec des champignons sautés et des fromages d’alpage fondus, plat simple de la montagne bellunaise.",
+    "de": "Polenta mit gebratenen Pilzen und geschmolzenem Almkäse, ein einfaches Gericht aus dem Bergland um Belluno.",
+    "es": "Polenta servida con setas salteadas y quesos de malga fundidos, plato sencillo de la montaña bellunesa."
+   },
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "45 min",
+     "en": "45 min",
+     "fr": "45 min",
+     "de": "45 Min.",
+     "es": "45 min"
+    },
+    "ingredienti": {
+     "it": [
+      "250 g di farina gialla di mais",
+      "1,2 l di acqua salata",
+      "400 g di funghi misti (o porcini)",
+      "1 spicchio d’aglio",
+      "Prezzemolo tritato q.b.",
+      "200 g di formaggio di malga (o fontina)",
+      "40 g di burro",
+      "Sale e pepe q.b."
+     ],
+     "en": [
+      "250 g yellow cornmeal",
+      "1.2 l salted water",
+      "400 g mixed mushrooms (or porcini)",
+      "1 garlic clove",
+      "Chopped parsley as needed",
+      "200 g mountain-pasture cheese (or Fontina)",
+      "40 g butter",
+      "Salt and pepper as needed"
+     ],
+     "fr": [
+      "250 g de farine de maïs jaune",
+      "1,2 l d’eau salée",
+      "400 g de champignons mélangés (ou cèpes)",
+      "1 gousse d’ail",
+      "Persil haché selon besoin",
+      "200 g de fromage d’alpage (ou Fontina)",
+      "40 g de beurre",
+      "Sel et poivre selon besoin"
+     ],
+     "de": [
+      "250 g gelbes Maismehl",
+      "1,2 l Salzwasser",
+      "400 g gemischte Pilze (oder Steinpilze)",
+      "1 Knoblauchzehe",
+      "Gehackte Petersilie nach Bedarf",
+      "200 g Almkäse (oder Fontina)",
+      "40 g Butter",
+      "Salz und Pfeffer nach Bedarf"
+     ],
+     "es": [
+      "250 g de harina de maíz amarilla",
+      "1,2 l de agua con sal",
+      "400 g de setas variadas (o boletus)",
+      "1 diente de ajo",
+      "Perejil picado al gusto",
+      "200 g de queso de malga (o Fontina)",
+      "40 g de mantequilla",
+      "Sal y pimienta al gusto"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Porta l’acqua a bollore e versa la farina a pioggia, mescolando con una frusta per evitare grumi.",
+      "Cuoci mescolando per circa 40 minuti, finché la polenta si stacca dalle pareti.",
+      "Trifola i funghi con aglio, burro e prezzemolo.",
+      "Servi la polenta con i funghi e il formaggio a fette o fuso sopra."
+     ],
+     "en": [
+      "Bring the water to the boil and pour the cornmeal in a stream, whisking to avoid lumps.",
+      "Cook stirring for about 40 minutes, until the polenta comes away from the sides.",
+      "Sauté the mushrooms with garlic, butter and parsley.",
+      "Serve the polenta topped with the mushrooms and the cheese, sliced or melted over it."
+     ],
+     "fr": [
+      "Porte l’eau à ébullition et verse la farine en pluie en fouettant pour éviter les grumeaux.",
+      "Cuis en remuant environ 40 minutes, jusqu’à ce que la polenta se détache des parois.",
+      "Fais sauter les champignons avec l’ail, le beurre et le persil.",
+      "Sers la polenta avec les champignons et le fromage en tranches ou fondu par-dessus."
+     ],
+     "de": [
+      "Wasser zum Kochen bringen und das Maismehl unter Rühren einrieseln lassen, damit keine Klümpchen entstehen.",
+      "Etwa 40 Minuten unter Rühren garen, bis sich die Polenta vom Topfrand löst.",
+      "Pilze mit Knoblauch, Butter und Petersilie braten.",
+      "Die Polenta mit den Pilzen und dem Käse, in Scheiben oder geschmolzen darübergegeben, servieren."
+     ],
+     "es": [
+      "Lleva el agua a ebullición y vierte la harina en forma de lluvia, batiendo para evitar grumos.",
+      "Cuece removiendo unos 40 minutos, hasta que la polenta se despegue de las paredes.",
+      "Saltea las setas con ajo, mantequilla y perejil.",
+      "Sirve la polenta con las setas y el queso en lonchas o fundido por encima."
+     ]
+    }
+   },
+   "foto": null
+  },
+  {
+   "id": "selvaggina-in-salmi",
+   "nome": "Selvaggina in salmì",
+   "portata": "secondo",
+   "testo": {
+    "it": "Carne di selvaggina marinata nel vino con erbe e spezie, poi brasata lentamente fino a ottenere un sugo corposo.",
+    "en": "Game meat marinated in wine with herbs and spices, then slowly braised into a rich sauce.",
+    "fr": "Viande de gibier marinée dans le vin avec des herbes et des épices, puis braisée lentement pour obtenir une sauce corsée.",
+    "de": "Wildfleisch, in Wein mit Kräutern und Gewürzen mariniert und dann langsam geschmort, bis eine kräftige Soße entsteht.",
+    "es": "Carne de caza marinada en vino con hierbas y especias, después braseada despacio hasta obtener una salsa intensa."
+   },
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "2 ore + 12 ore di marinatura",
+     "en": "2 hours + 12 hours marinating",
+     "fr": "2 h + 12 h de marinade",
+     "de": "2 Std. + 12 Std. Marinieren",
+     "es": "2 h + 12 h de adobo"
+    },
+    "ingredienti": {
+     "it": [
+      "800 g di selvaggina (cervo o cinghiale) a pezzi",
+      "1 bottiglia di vino rosso",
+      "1 cipolla, 1 carota, 1 sedano",
+      "2 foglie di alloro, bacche di ginepro, chiodi di garofano",
+      "40 g di burro",
+      "2 cucchiai di farina",
+      "Sale e pepe q.b."
+     ],
+     "en": [
+      "800 g game meat (deer or wild boar), cut into pieces",
+      "1 bottle red wine",
+      "1 onion, 1 carrot, 1 celery stalk",
+      "2 bay leaves, juniper berries, cloves",
+      "40 g butter",
+      "2 tablespoons flour",
+      "Salt and pepper as needed"
+     ],
+     "fr": [
+      "800 g de gibier (cerf ou sanglier) en morceaux",
+      "1 bouteille de vin rouge",
+      "1 oignon, 1 carotte, 1 branche de céleri",
+      "2 feuilles de laurier, baies de genièvre, clous de girofle",
+      "40 g de beurre",
+      "2 cuillères à soupe de farine",
+      "Sel et poivre selon besoin"
+     ],
+     "de": [
+      "800 g Wildfleisch (Hirsch oder Wildschwein), in Stücke geschnitten",
+      "1 Flasche Rotwein",
+      "1 Zwiebel, 1 Karotte, 1 Selleriestange",
+      "2 Lorbeerblätter, Wacholderbeeren, Nelken",
+      "40 g Butter",
+      "2 EL Mehl",
+      "Salz und Pfeffer nach Bedarf"
+     ],
+     "es": [
+      "800 g de carne de caza (ciervo o jabalí) en trozos",
+      "1 botella de vino tinto",
+      "1 cebolla, 1 zanahoria, 1 tallo de apio",
+      "2 hojas de laurel, bayas de enebro, clavos",
+      "40 g de mantequilla",
+      "2 cucharadas de harina",
+      "Sal y pimienta al gusto"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Marina la carne per almeno 12 ore nel vino con verdure, alloro, ginepro e chiodi di garofano.",
+      "Scola la carne, asciugala e rosolala nel burro.",
+      "Aggiungi la marinata filtrata e cuoci a fuoco basso per circa due ore.",
+      "Addensa il sugo con la farina, aggiusta di sale e pepe e servi con polenta."
+     ],
+     "en": [
+      "Marinate the meat for at least 12 hours in the wine with vegetables, bay, juniper and cloves.",
+      "Drain the meat, dry it and brown it in butter.",
+      "Add the strained marinade and simmer over low heat for about two hours.",
+      "Thicken the sauce with the flour, adjust salt and pepper, and serve with polenta."
+     ],
+     "fr": [
+      "Fais mariner la viande au moins 12 heures dans le vin avec les légumes, le laurier, le genièvre et les clous de girofle.",
+      "Égoutte la viande, sèche-la et fais-la dorer dans le beurre.",
+      "Ajoute la marinade filtrée et laisse mijoter à feu doux environ deux heures.",
+      "Lie la sauce avec la farine, rectifie le sel et le poivre, et sers avec la polenta."
+     ],
+     "de": [
+      "Das Fleisch mindestens 12 Stunden in Wein mit Gemüse, Lorbeer, Wacholder und Nelken marinieren.",
+      "Das Fleisch abtropfen lassen, trocknen und in Butter anbraten.",
+      "Die gefilterte Marinade zugießen und etwa zwei Stunden bei schwacher Hitze köcheln lassen.",
+      "Die Soße mit Mehl binden, mit Salz und Pfeffer abschmecken und mit Polenta servieren."
+     ],
+     "es": [
+      "Marina la carne al menos 12 horas en el vino con verduras, laurel, enebro y clavos.",
+      "Escurre la carne, sécala y dórala en la mantequilla.",
+      "Añade el adobo colado y cuece a fuego lento unas dos horas.",
+      "Espesa la salsa con la harina, ajusta la sal y la pimienta y sirve con polenta."
+     ]
+    }
+   },
+   "foto": null
+  },
+  {
+   "id": "tortei-di-patate",
+   "nome": "Tortei di patate",
+   "portata": "secondo",
+   "testo": {
+    "it": "Frittelle o tortini di patate, schiacciate e fritte in padella: un piatto semplice della tradizione bellunese.",
+    "en": "Potato fritters or small cakes, mashed and pan-fried: a simple dish of the Belluno tradition.",
+    "fr": "Galettes de pommes de terre écrasées et poêlées, plat simple de la tradition bellunaise.",
+    "de": "Kartoffelpuffer oder kleine Kuchen aus zerdrückten Kartoffeln, in der Pfanne gebraten: ein einfaches Gericht der Tradition von Belluno.",
+    "es": "Tortitas de patata aplastadas y fritas en sartén, plato sencillo de la tradición bellunesa."
+   },
+   "ricetta": {
+    "porzioni": 4,
+    "preparazione": {
+     "it": "40 min",
+     "en": "40 min",
+     "fr": "40 min",
+     "de": "40 Min.",
+     "es": "40 min"
+    },
+    "ingredienti": {
+     "it": [
+      "600 g di patate a pasta farinosa",
+      "1 uovo",
+      "60 g di farina",
+      "50 g di grana grattugiato",
+      "Sale e pepe q.b.",
+      "Olio o burro per friggere"
+     ],
+     "en": [
+      "600 g floury potatoes",
+      "1 egg",
+      "60 g flour",
+      "50 g grated Grana cheese",
+      "Salt and pepper as needed",
+      "Oil or butter for frying"
+     ],
+     "fr": [
+      "600 g de pommes de terre farineuses",
+      "1 œuf",
+      "60 g de farine",
+      "50 g de Grana râpé",
+      "Sel et poivre selon besoin",
+      "Huile ou beurre pour la friture"
+     ],
+     "de": [
+      "600 g mehlige Kartoffeln",
+      "1 Ei",
+      "60 g Mehl",
+      "50 g geriebener Grana",
+      "Salz und Pfeffer nach Bedarf",
+      "Öl oder Butter zum Braten"
+     ],
+     "es": [
+      "600 g de patatas harinosas",
+      "1 huevo",
+      "60 g de harina",
+      "50 g de Grana rallado",
+      "Sal y pimienta al gusto",
+      "Aceite o mantequilla para freír"
+     ]
+    },
+    "passaggi": {
+     "it": [
+      "Lessa le patate con la buccia, sbucciale e schiacciale mentre sono calde.",
+      "Aggiungi uovo, farina, grana, sale e pepe, e amalgama.",
+      "Forma piccoli dischi schiacciati.",
+      "Friggili in padella con poco olio o burro, da entrambi i lati, fino a doratura."
+     ],
+     "en": [
+      "Boil the potatoes in their skins, peel them and mash while hot.",
+      "Add egg, flour, Grana, salt and pepper, and mix.",
+      "Shape into small flattened discs.",
+      "Fry in a pan with a little oil or butter, on both sides, until golden."
+     ],
+     "fr": [
+      "Fais cuire les pommes de terre avec la peau, épluche-les et écrase-les tant qu’elles sont chaudes.",
+      "Ajoute l’œuf, la farine, le Grana, le sel et le poivre, et mélange.",
+      "Forme de petits disques aplatis.",
+      "Fais frire à la poêle avec un peu d’huile ou de beurre, des deux côtés, jusqu’à dorer."
+     ],
+     "de": [
+      "Die Kartoffeln mit Schale kochen, schälen und noch heiß zerdrücken.",
+      "Ei, Mehl, Grana, Salz und Pfeffer zugeben und vermengen.",
+      "Zu flachen kleinen Scheiben formen.",
+      "In der Pfanne mit wenig Öl oder Butter von beiden Seiten goldbraun braten."
+     ],
+     "es": [
+      "Cuece las patatas con piel, pélalas y aplástalas mientras están calientes.",
+      "Añade el huevo, la harina, el Grana, la sal y la pimienta, y mezcla.",
+      "Forma pequeños discos aplanados.",
+      "Fríelos en sartén con un poco de aceite o mantequilla, por ambos lados, hasta que estén dorados."
+     ]
+    }
+   },
+   "foto": null
+  },
+  {
+   "id": "schiz",
+   "nome": "Schiz",
+   "portata": "secondo",
+   "testo": {
+    "it": "Formaggio freschissimo, dalla consistenza elastica e molto morbida, a base di latte vaccino, crudo o scremato. Va brevemente riscaldato su una griglia o in una padella imburrata prima di essere consumato. Il nome deriva dal fatto che, durante la cottura, “schizza” delle goccioline di siero.",
+    "en": "A very fresh cheese with an elastic, very soft texture, made from cow’s milk, raw or skimmed. It is briefly heated on a grill or in a buttered pan before eating. Its name comes from the fact that, while cooking, it “spits” droplets of whey.",
+    "fr": "Fromage très frais, à la texture élastique et très moelleuse, à base de lait de vache, cru ou écrémé. Il se réchauffe brièvement sur une grille ou dans une poêle beurrée avant d’être consommé. Son nom vient du fait qu’à la cuisson il « éclabousse » de petites gouttes de petit-lait.",
+    "de": "Sehr frischer Käse mit elastischer, sehr weicher Konsistenz, aus Kuhmilch, roh oder entrahmt. Er wird vor dem Verzehr kurz auf einem Grill oder in einer gebutterten Pfanne erwärmt. Der Name stammt daher, dass er beim Erhitzen Tröpfchen Molke „spritzt“.",
+    "es": "Queso muy fresco, de textura elástica y muy blanda, elaborado con leche de vaca, cruda o desnatada. Se calienta brevemente a la plancha o en una sartén con mantequilla antes de consumirlo. Su nombre se debe a que, al cocinarse, “salpica” gotitas de suero."
+   },
+   "foto": null
+  },
+  {
+   "id": "pendolon-di-lamon",
+   "nome": "Pendolon (di Lamon)",
+   "portata": "secondo",
+   "testo": {
+    "it": "Piatto tradizionale di Lamon. Scheda da completare con il cuoco: la ricetta è da verificare.",
+    "en": "Traditional dish from Lamon. Entry to be completed with a cook: the recipe still needs checking.",
+    "fr": "Plat traditionnel de Lamon. Fiche à compléter avec un cuisinier : la recette reste à vérifier.",
+    "de": "Traditionelles Gericht aus Lamon. Eintrag mit einem Koch zu vervollständigen: das Rezept muss noch überprüft werden.",
+    "es": "Plato tradicional de Lamon. Ficha por completar con un cocinero: la receta debe verificarse."
+   },
+   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
+   "foto": null
+  },
+  {
+   "id": "figadet",
+   "nome": "Figadét",
+   "portata": "secondo",
+   "testo": {
+    "it": "Piatto tradizionale del Bellunese. Scheda da completare con il cuoco: la ricetta è da verificare.",
+    "en": "Traditional dish from the Belluno area. Entry to be completed with a cook: the recipe still needs checking.",
+    "fr": "Plat traditionnel du Bellunese. Fiche à compléter avec un cuisinier : la recette reste à vérifier.",
+    "de": "Traditionelles Gericht aus dem Gebiet von Belluno. Eintrag mit einem Koch zu vervollständigen: das Rezept muss noch überprüft werden.",
+    "es": "Plato tradicional del Bellunés. Ficha por completar con un cocinero: la receta debe verificarse."
+   },
+   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
+   "foto": null
+  },
+  {
+   "id": "pan-de-belun",
+   "nome": "Pan de Belùn",
+   "portata": "dolce",
+   "testo": {
+    "it": "Pane dolce tradizionale di Belluno, arricchito con frutta secca e frutta candita. Scheda da verificare con una fonte locale.",
+    "en": "Traditional sweet bread from Belluno, enriched with dried and candied fruit. Entry to be checked with a local source.",
+    "fr": "Pain sucré traditionnel de Belluno, enrichi de fruits secs et confits. Fiche à vérifier auprès d’une source locale.",
+    "de": "Traditionelles süßes Brot aus Belluno, mit Trockenobst und kandierten Früchten angereichert. Eintrag mit einer lokalen Quelle zu prüfen.",
+    "es": "Pan dulce tradicional de Belluno, enriquecido con fruta seca y confitada. Ficha por verificar con una fuente local."
+   },
+   "nota": "Ricetta da verificare con una fonte locale.",
+   "foto": null
+  },
+  {
+   "id": "carfogn",
+   "nome": "Carfogn",
+   "portata": "dolce",
+   "testo": {
+    "it": "Dolce tradizionale del Bellunese. Scheda da completare: la ricetta è da verificare.",
+    "en": "Traditional sweet from the Belluno area. Entry to be completed: the recipe still needs checking.",
+    "fr": "Dessert traditionnel du Bellunese. Fiche à compléter : la recette reste à vérifier.",
+    "de": "Traditionelle Süßspeise aus dem Gebiet von Belluno. Eintrag zu vervollständigen: das Rezept muss noch überprüft werden.",
+    "es": "Dulce tradicional del Bellunés. Ficha por completar: la receta debe verificarse."
+   },
+   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
+   "foto": null
+  },
+  {
+   "id": "kodinzon",
+   "nome": "Kodinzon",
+   "portata": "dolce",
+   "testo": {
+    "it": "Dolce tradizionale del Bellunese. Scheda da completare: la ricetta è da verificare.",
+    "en": "Traditional sweet from the Belluno area. Entry to be completed: the recipe still needs checking.",
+    "fr": "Dessert traditionnel du Bellunese. Fiche à compléter : la recette reste à vérifier.",
+    "de": "Traditionelle Süßspeise aus dem Gebiet von Belluno. Eintrag zu vervollständigen: das Rezept muss noch überprüft werden.",
+    "es": "Dulce tradicional del Bellunés. Ficha por completar: la receta debe verificarse."
+   },
+   "nota": "Ricetta da verificare: non ho una fonte affidabile.",
+   "foto": null
+  },
+  {
+   "id": "fagiolo-di-lamon-igp",
+   "nome": "Fagiolo di Lamon IGP",
+   "portata": "secondo",
+   "testo": {
+    "it": "Fagiolo tipico della Val Belluna, a Indicazione Geografica Protetta, dal sapore delicato e dalla buccia sottile: ottimo in zuppa o con la pasta.",
+    "en": "Typical bean from the Belluna valley, with Protected Geographical Indication, mild flavour and thin skin: excellent in soup or with pasta.",
+    "fr": "Haricot typique de la vallée de Belluno, à Indication Géographique Protégée, au goût délicat et à la peau fine : excellent en soupe ou avec des pâtes.",
+    "de": "Typische Bohne aus dem Belluneser Tal, mit geschützter geografischer Angabe, mildem Geschmack und dünner Schale: ausgezeichnet in Suppe oder mit Nudeln.",
+    "es": "Judía típica del valle del Belluno, con Indicación Geográfica Protegida, sabor delicado y piel fina: excelente en sopa o con pasta."
+   },
+   "nota": "Prodotto tipico: da completare con foto.",
+   "foto": null
+  },
+  {
+   "id": "mais-sponcio",
+   "nome": "Mais Sponcio",
+   "portata": "secondo",
+   "testo": {
+    "it": "Varietà di mais tradizionale del Bellunese, usata per la polenta. Scheda da completare con una fonte locale.",
+    "en": "Traditional maize variety from the Belluno area, used for polenta. Entry to be completed with a local source.",
+    "fr": "Variété de maïs traditionnelle du Bellunese, utilisée pour la polenta. Fiche à compléter avec une source locale.",
+    "de": "Traditionelle Maissorte aus dem Gebiet von Belluno, für Polenta verwendet. Eintrag mit einer lokalen Quelle zu ergänzen.",
+    "es": "Variedad de maíz tradicional del Bellunés, usada para la polenta. Ficha por completar con una fuente local."
+   },
+   "nota": "Prodotto tipico: descrizione da verificare con una fonte locale.",
+   "foto": null
+  }
+ ]
+}
