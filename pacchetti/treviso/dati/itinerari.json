@@ -1,4 +1,29 @@
 {
   "_nota": "Treviso: itinerari consigliati da preparare. Percorsi e lunghezze si calcolano sul telefono, sulla rete pedonale (rete.json).",
-  "itinerari": []
+  "itinerari": [
+    {
+      "id": "TREVISO_URBS_PICTA",
+      "titolo": {
+        "it": "Treviso Urbs Picta - Itinerario delle facciate affrescate"
+      },
+      "tipo": "speciale",
+      "tappe": [
+        "ca-da-noal-casa-robegan",
+        "ex-convento-di-ognissanti",
+        "casa-di-via-riccati-15b",
+        "casa-dal-corno",
+        "battistero-di-san-giovanni-battista",
+        "scuola-del-santissimo",
+        "casa-della-leda",
+        "casa-dal-pra",
+        "affresco-calmaggiore-15",
+        "case-delle-zignoli",
+        "casa-federici",
+        "facciata-via-sant-agostino-77-79",
+        "casa-del-giudizio-di-paride",
+        "madonna-con-bambino-e-santi",
+        "madonna-in-trono-san-giovanni-e-san-sebastiano"
+      ]
+    }
+  ]
 }
