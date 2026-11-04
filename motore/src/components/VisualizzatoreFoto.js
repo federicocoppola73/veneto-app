@@ -38,8 +38,11 @@ export default function VisualizzatoreFoto({ visibile, sorgente, onChiudi }) {
   const responder = useMemo(
     () =>
       PanResponder.create({
-        onStartShouldSetPanResponder: () => true,
-        onMoveShouldSetPanResponder: () => true,
+        onStartShouldSetPanResponder: () => false,
+        // si prende il tocco solo per zoom (due dita) o per spostare una foto ingrandita:
+        // così un piccolo movimento del dito durante un tocco sulla X non viene rubato
+        onMoveShouldSetPanResponder: (e) => e.nativeEvent.touches.length > 1 || stato.current.s > 1,
+        onPanResponderTerminationRequest: () => false,
         onPanResponderGrant: (e) => iniziaGesto(e.nativeEvent.touches),
         onPanResponderMove: (e) => {
           const tocchi = e.nativeEvent.touches;
@@ -77,13 +80,16 @@ export default function VisualizzatoreFoto({ visibile, sorgente, onChiudi }) {
 
   return (
     <Modal visible={visibile} transparent animationType="fade" onRequestClose={onChiudi} statusBarTranslucent supportedOrientations={['portrait', 'landscape']}>
-      <View style={styles.sfondo} {...responder.panHandlers}>
-        <Animated.Image
-          source={sorgente}
-          resizeMode="contain"
-          style={{ width, height, transform: [{ translateX: tx }, { translateY: ty }, { scale: scala }] }}
-        />
-        <Pressable onPress={onChiudi} style={styles.chiudi} accessibilityRole="button" accessibilityLabel="Chiudi">
+      <View style={styles.sfondo}>
+        <View style={styles.area} {...responder.panHandlers}>
+          <Animated.Image
+            source={sorgente}
+            resizeMode="contain"
+            style={{ width, height, transform: [{ translateX: tx }, { translateY: ty }, { scale: scala }] }}
+          />
+        </View>
+        {/* la X sta fuori dall'area dei gesti: deve sempre ricevere il tocco */}
+        <Pressable onPress={onChiudi} style={styles.chiudi} accessibilityRole="button" accessibilityLabel="Chiudi" hitSlop={12}>
           <Text style={styles.testoChiudi}>✕</Text>
         </Pressable>
       </View>
@@ -92,7 +98,8 @@ export default function VisualizzatoreFoto({ visibile, sorgente, onChiudi }) {
 }
 
 const styles = StyleSheet.create({
-  sfondo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.94)', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' },
+  sfondo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.94)', overflow: 'hidden' },
+  area: { flex: 1, alignItems: 'center', justifyContent: 'center', overflow: 'hidden' },
   chiudi: {
     position: 'absolute',
     top: 40,
