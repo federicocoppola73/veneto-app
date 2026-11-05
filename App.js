@@ -20,7 +20,7 @@ const CHIAVE_LINGUA = 'lingua';
 // copertine delle città; senza foto resta il colore di sfondo
 const COPERTINE = {
   venezia: require('./assets/copertine/venezia.jpg'),
-  verona: require('./assets/copertine/verona.png'),
+  verona: require('./assets/copertine/verona.jpg'),
   padova: require('./assets/copertine/padova.png'),
   treviso: require('./assets/copertine/treviso.jpg'),
   vicenza: require('./assets/copertine/vicenza.jpg'),
@@ -291,6 +291,8 @@ function AppRadice() {
                 Copertina di Rovigo: Agenzia del Turismo del Veneto, pagina ufficiale Flickr. Licenza CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).
 
                 Copertina di Belluno: Jacobus, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
+
+                Copertina di Verona: Arne Müseler, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
               </Text>
             </View>
           </View>
