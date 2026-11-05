@@ -600,6 +600,125 @@
       "luoghi": [],
       "luoghiNote": {},
       "collegati": []
+    },
+    {
+      "id": "giovanni-de-min",
+      "nome": "Giovanni De Min",
+      "nascita": 1786,
+      "morte": 1859,
+      "professione": {
+        "it": "Pittore e decoratore",
+        "en": "Painter and decorator",
+        "fr": "Peintre et décorateur",
+        "de": "Maler und Dekorationsmaler",
+        "es": "Pintor y decorador"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "24 ottobre 1786",
+        "en": "24 October 1786",
+        "fr": "24 octobre 1786",
+        "de": "24. Oktober 1786",
+        "es": "24 de octubre de 1786"
+      },
+      "luogoMorte": {
+        "it": "Tarzo (TV)",
+        "en": "Tarzo (TV)",
+        "fr": "Tarzo (TV)",
+        "de": "Tarzo (TV)",
+        "es": "Tarzo (TV)"
+      },
+      "dataMorte": {
+        "it": "23 novembre 1859",
+        "en": "23 November 1859",
+        "fr": "23 novembre 1859",
+        "de": "23. November 1859",
+        "es": "23 de noviembre de 1859"
+      },
+      "biografia": {
+        "it": "Giovanni De Min è stato un pittore e decoratore italiano, tra i principali interpreti della pittura neoclassica e della grande decorazione ad affresco dell'Ottocento. Nato a Belluno, si trasferì a Venezia per completare la propria formazione artistica e frequentò l'Accademia di Belle Arti, dove ebbe modo di conoscere Francesco Hayez. Fu inoltre vicino ad Antonio Canova e al suo ambiente culturale. Tornato nel Veneto, realizzò numerose decorazioni in palazzi e chiese, distinguendosi soprattutto per le grandi composizioni di soggetto storico.",
+        "en": "Giovanni De Min was an Italian painter and decorator, one of the leading exponents of Neoclassical painting and of large-scale fresco decoration in the nineteenth century. Born in Belluno, he moved to Venice to complete his artistic training and attended the Academy of Fine Arts, where he came to know Francesco Hayez. He was also close to Antonio Canova and his cultural circle. Back in the Veneto, he produced numerous decorations in palaces and churches, standing out above all for his large history paintings.",
+        "fr": "Giovanni De Min fut un peintre et décorateur italien, l'un des principaux représentants de la peinture néoclassique et de la grande décoration à fresque du XIXe siècle. Né à Belluno, il s'installa à Venise pour achever sa formation artistique et fréquenta l'Académie des beaux-arts, où il rencontra Francesco Hayez. Il fut aussi proche d'Antonio Canova et de son milieu culturel. De retour dans la Vénétie, il réalisa de nombreux décors dans des palais et des églises, se distinguant surtout par ses grandes compositions à sujet historique.",
+        "de": "Giovanni De Min war ein italienischer Maler und Dekorationskünstler und zählte zu den bedeutendsten Vertretern der neoklassizistischen Malerei und der großen Freskendekoration des 19. Jahrhunderts. In Belluno geboren, zog er nach Venedig, um seine künstlerische Ausbildung abzuschließen, und besuchte die Akademie der Schönen Künste, wo er Francesco Hayez kennenlernte. Außerdem stand er Antonio Canova und dessen kulturellem Umfeld nahe. Zurück im Veneto schuf er zahlreiche Dekorationen in Palästen und Kirchen und zeichnete sich vor allem durch große Geschichtsbilder aus.",
+        "es": "Giovanni De Min fue un pintor y decorador italiano, uno de los principales intérpretes de la pintura neoclásica y de la gran decoración al fresco del siglo XIX. Nacido en Belluno, se trasladó a Venecia para completar su formación artística y frecuentó la Academia de Bellas Artes, donde conoció a Francesco Hayez. Estuvo además cerca de Antonio Canova y de su entorno cultural. De vuelta en el Véneto, realizó numerosas decoraciones en palacios e iglesias, destacando sobre todo por sus grandes composiciones de tema histórico."
+      },
+      "curiosita": {
+        "it": [
+          "Durante la formazione veneziana frequentò lo stesso ambiente artistico di Francesco Hayez.",
+          "Antonio Canova ne sostenne il percorso artistico e lo seguì durante il periodo romano.",
+          "Nel 1839 realizzò nella sala del Consiglio del Municipio di Belluno due grandi affreschi dedicati alla storia cittadina.",
+          "Fu uno degli artisti più prolifici della pittura murale veneta dell'Ottocento."
+        ],
+        "en": [
+          "During his training in Venice he moved in the same artistic circles as Francesco Hayez.",
+          "Antonio Canova supported his artistic career and followed him during the Roman period.",
+          "In 1839 he painted two large frescoes for the council chamber of Belluno's Town Hall, devoted to the city's history.",
+          "He was one of the most prolific muralists of nineteenth-century Venetian painting."
+        ],
+        "fr": [
+          "Pendant sa formation à Venise, il fréquenta le même milieu artistique que Francesco Hayez.",
+          "Antonio Canova soutint sa carrière artistique et le suivit pendant la période romaine.",
+          "En 1839, il réalisa dans la salle du Conseil de la mairie de Belluno deux grandes fresques consacrées à l'histoire de la ville.",
+          "Il fut l'un des peintres muralistes les plus prolifiques de la peinture vénitienne du XIXe siècle."
+        ],
+        "de": [
+          "Während seiner Ausbildung in Venedig verkehrte er im selben künstlerischen Umfeld wie Francesco Hayez.",
+          "Antonio Canova unterstützte seinen künstlerischen Werdegang und folgte ihm während der römischen Zeit.",
+          "1839 schuf er im Ratssaal des Rathauses von Belluno zwei große Fresken zur Geschichte der Stadt.",
+          "Er gehörte zu den produktivsten Wandmalern der venezianischen Malerei des 19. Jahrhunderts."
+        ],
+        "es": [
+          "Durante su formación en Venecia frecuentó el mismo ambiente artístico que Francesco Hayez.",
+          "Antonio Canova apoyó su trayectoria artística y lo siguió durante el periodo romano.",
+          "En 1839 realizó en la sala del Consejo del Ayuntamiento de Belluno dos grandes frescos dedicados a la historia de la ciudad.",
+          "Fue uno de los pintores murales más prolíficos de la pintura véneta del siglo XIX."
+        ]
+      },
+      "luoghi": [
+        "palazzo-rosso",
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "palazzo-rosso": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Nella sala consiliare un ciclo di affreschi neoclassici con due episodi della storia medievale di Belluno: la pace tra il vescovo Giovanni e i Veneziani e la resistenza all'assalto di Ezzelino alla città.",
+            "en": "In the council chamber, a cycle of Neoclassical frescoes with two episodes from Belluno's medieval history: the peace between Bishop Giovanni and the Venetians, and the city's resistance to Ezzelino's assault.",
+            "fr": "Dans la salle du Conseil, un cycle de fresques néoclassiques illustre deux épisodes de l'histoire médiévale de Belluno : la paix entre l'évêque Giovanni et les Vénitiens, et la résistance à l'assaut d'Ezzelino contre la ville.",
+            "de": "Im Ratssaal befindet sich ein Zyklus klassizistischer Fresken mit zwei Episoden aus der mittelalterlichen Geschichte Bellunos: der Frieden zwischen Bischof Giovanni und den Venezianern und der Widerstand gegen den Angriff Ezzelinos auf die Stadt.",
+            "es": "En la sala del Consejo hay un ciclo de frescos neoclásicos con dos episodios de la historia medieval de Belluno: la paz entre el obispo Giovanni y los venecianos, y la resistencia al asalto de Ezzelino a la ciudad."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work held",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva un dipinto di De Min, Aiace, proveniente dalle collezioni dell'Accademia di Venezia.",
+            "en": "It holds a painting by De Min, Ajax, from the collections of the Venice Academy.",
+            "fr": "Il conserve un tableau de De Min, Ajax, provenant des collections de l'Académie de Venise.",
+            "de": "Es besitzt ein Gemälde von De Min, Ajax, aus den Sammlungen der Akademie in Venedig.",
+            "es": "Conserva un cuadro de De Min, Ayax, procedente de las colecciones de la Academia de Venecia."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
