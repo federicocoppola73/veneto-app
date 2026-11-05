@@ -122,6 +122,129 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "sebastiano-ricci",
+      "nome": "Sebastiano Ricci",
+      "nascita": 1659,
+      "morte": 1734,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "1659",
+        "en": "1659",
+        "fr": "1659",
+        "de": "1659",
+        "es": "1659"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "15 maggio 1734",
+        "en": "15 May 1734",
+        "fr": "15 mai 1734",
+        "de": "15. Mai 1734",
+        "es": "15 de mayo de 1734"
+      },
+      "ritratto": {
+        "autore": "Rosalba Carriera",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Sebastiano Ricci fu uno dei protagonisti della pittura veneziana ed europea tra Sei e Settecento. Nato a Belluno, si formò artisticamente in Veneto e successivamente lavorò in numerose città italiane ed europee, tra cui Bologna, Firenze, Roma, Vienna e Londra. La sua pittura, caratterizzata da colori luminosi, composizioni dinamiche e grande teatralità, contribuì al passaggio dal Barocco al Rococò.",
+        "en": "Sebastiano Ricci was one of the leading figures of Venetian and European painting between the seventeenth and eighteenth centuries. Born in Belluno, he trained artistically in the Veneto and later worked in many Italian and European cities, including Bologna, Florence, Rome, Vienna and London. His painting, marked by luminous colours, dynamic compositions and great theatricality, helped bring about the transition from the Baroque to the Rococo.",
+        "fr": "Sebastiano Ricci fut l'un des protagonistes de la peinture vénitienne et européenne entre le XVIIe et le XVIIIe siècle. Né à Belluno, il se forma dans la Vénétie puis travailla dans de nombreuses villes italiennes et européennes, dont Bologne, Florence, Rome, Vienne et Londres. Sa peinture, marquée par des couleurs lumineuses, des compositions dynamiques et une grande théâtralité, contribua au passage du baroque au rococo.",
+        "de": "Sebastiano Ricci war einer der führenden Maler der venezianischen und europäischen Malerei zwischen dem 17. und dem 18. Jahrhundert. In Belluno geboren, wurde er im Veneto ausgebildet und arbeitete später in zahlreichen italienischen und europäischen Städten, darunter Bologna, Florenz, Rom, Wien und London. Seine Malerei, geprägt von leuchtenden Farben, dynamischen Kompositionen und großer Theatralik, trug zum Übergang vom Barock zum Rokoko bei.",
+        "es": "Sebastiano Ricci fue uno de los protagonistas de la pintura veneciana y europea entre los siglos XVII y XVIII. Nacido en Belluno, se formó artísticamente en el Véneto y después trabajó en numerosas ciudades italianas y europeas, entre ellas Bolonia, Florencia, Roma, Viena y Londres. Su pintura, caracterizada por colores luminosos, composiciones dinámicas y gran teatralidad, contribuyó al paso del Barroco al Rococó."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo cognome originario era Rizzi: la forma Ricci si affermò soltanto nel Novecento.",
+          "Lavorò per importanti famiglie e corti europee, tra cui quella degli Asburgo a Vienna.",
+          "Collaborò in diverse occasioni con il nipote Marco Ricci, specializzato nella pittura di paesaggio.",
+          "Nel 1704 realizzò decorazioni per Palazzo Fulcis a Belluno, commissionate da Pietro Fulcis in occasione della sua ammissione nell'Ordine dei Cavalieri di Malta."
+        ],
+        "en": [
+          "His original surname was Rizzi: the form Ricci only became established in the twentieth century.",
+          "He worked for important families and European courts, including the Habsburgs in Vienna.",
+          "On several occasions he collaborated with his nephew Marco Ricci, a specialist in landscape painting.",
+          "In 1704 he created decorations for Palazzo Fulcis in Belluno, commissioned by Pietro Fulcis on his admission to the Order of the Knights of Malta."
+        ],
+        "fr": [
+          "Son nom d'origine était Rizzi : la forme Ricci ne s'imposa qu'au XXe siècle.",
+          "Il travailla pour d'importantes familles et cours européennes, dont celle des Habsbourg à Vienne.",
+          "Il collabora à plusieurs reprises avec son neveu Marco Ricci, spécialiste de la peinture de paysage.",
+          "En 1704, il réalisa des décorations pour le palais Fulcis à Belluno, commandées par Pietro Fulcis à l'occasion de son admission dans l'ordre des chevaliers de Malte."
+        ],
+        "de": [
+          "Sein ursprünglicher Familienname war Rizzi: Die Form Ricci setzte sich erst im 20. Jahrhundert durch.",
+          "Er arbeitete für bedeutende Familien und europäische Höfe, darunter die Habsburger in Wien.",
+          "Mehrfach arbeitete er mit seinem Neffen Marco Ricci zusammen, einem Spezialisten für Landschaftsmalerei.",
+          "1704 schuf er Ausstattungen für den Palazzo Fulcis in Belluno, in Auftrag gegeben von Pietro Fulcis anlässlich seiner Aufnahme in den Malteserorden."
+        ],
+        "es": [
+          "Su apellido original era Rizzi: la forma Ricci no se impuso hasta el siglo XX.",
+          "Trabajó para importantes familias y cortes europeas, entre ellas la de los Habsburgo en Viena.",
+          "En varias ocasiones colaboró con su sobrino Marco Ricci, especializado en la pintura de paisaje.",
+          "En 1704 realizó decoraciones para el palacio Fulcis de Belluno, encargadas por Pietro Fulcis con motivo de su admisión en la Orden de los Caballeros de Malta."
+        ]
+      },
+      "luoghi": [
+        "mubel-museo-civico-palazzo-fulcis",
+        "chiesa-di-san-pietro"
+      ],
+      "luoghiNote": {
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Conserva le opere provenienti dal ciclo mitologico commissionato dalla famiglia Fulcis. Le tele, disperse nell'Ottocento, furono recuperate e acquistate dal Comune. Il museo dedica inoltre una sezione a Sebastiano e Marco Ricci.",
+            "en": "It keeps the works from the mythological cycle commissioned by the Fulcis family. The canvases were dispersed in the nineteenth century, then recovered and bought by the Comune. The museum also has a section devoted to Sebastiano and Marco Ricci.",
+            "fr": "Il conserve les œuvres du cycle mythologique commandé par la famille Fulcis. Les toiles, dispersées au XIXe siècle, furent récupérées et achetées par la commune. Le musée consacre en outre une section à Sebastiano et Marco Ricci.",
+            "de": "Es bewahrt die Werke aus dem mythologischen Zyklus, den die Familie Fulcis in Auftrag gegeben hatte. Die Leinwände wurden im 19. Jahrhundert zerstreut, später von der Stadt zurückerworben und angekauft. Das Museum widmet außerdem einen Bereich Sebastiano und Marco Ricci.",
+            "es": "Conserva las obras procedentes del ciclo mitológico encargado por la familia Fulcis. Los lienzos, dispersos en el siglo XIX, fueron recuperados y adquiridos por el Ayuntamiento. El museo dedica además una sección a Sebastiano y Marco Ricci."
+          }
+        },
+        "chiesa-di-san-pietro": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "La cappella Fulcis è legata alla presenza di opere e commissioni della famiglia che sostenne l'artista.",
+            "en": "The Fulcis chapel is linked to the works and commissions of the family that supported the artist.",
+            "fr": "La chapelle Fulcis est liée à la présence d'œuvres et de commandes de la famille qui soutint l'artiste.",
+            "de": "Die Cappella Fulcis steht in Verbindung mit Werken und Aufträgen der Familie, die den Künstler unterstützte.",
+            "es": "La capilla Fulcis está ligada a obras y encargos de la familia que apoyó al artista."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
