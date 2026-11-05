@@ -2342,6 +2342,53 @@
           "metri": 178
         }
       ]
+    },
+    {
+      "id": "via-mezzaterra",
+      "nome": "Via Mezzaterra",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 46.1377504,
+      "longitudine": 12.2195175,
+      "descrizione": {
+        "it": "Via Mezzaterra è la principale arteria storica del centro di Belluno e attraversa il cuore della città antica da nord a sud, collegando idealmente Porta Dojona a Porta Rugo. Il suo tracciato segue l'antico asse viario della città romana, il cardo, e conserva ancora oggi un ricco patrimonio di architetture storiche. Passeggiando lungo la strada si incontrano palazzi nobiliari medievali, rinascimentali e seicenteschi, riconoscibili per le eleganti bifore e trifore, i portali in pietra, i portici, i balconi e gli stemmi delle antiche famiglie cittadine. Tra gli edifici più interessanti spiccano Palazzo Persicini-Crocecalle, con il suo portico quattrocentesco e i capitelli scolpiti, e Palazzo Pagani, caratterizzato da una singolare facciata concava che crea suggestivi effetti prospettici. Via Mezzaterra è quindi una vera passeggiata nella storia di Belluno, da percorrere lentamente per scoprire particolari architettonici spesso trascurati.",
+        "en": "Via Mezzaterra is the main historic street of Belluno's centre, running through the heart of the old town from north to south and linking Porta Dojona with Porta Rugo. Its route follows the ancient axis of the Roman town, the cardo, and it still preserves a rich heritage of historic architecture. Walking along the street, you pass medieval, Renaissance and seventeenth-century noble palaces, recognisable by their elegant bifore and trifore windows, stone portals, arcades, balconies and the coats of arms of the old city families. Among the most interesting buildings are Palazzo Persicini-Crocecalle, with its fifteenth-century portico and carved capitals, and Palazzo Pagani, whose unusual concave façade creates striking perspective effects. Via Mezzaterra is a real walk through the history of Belluno, best taken slowly to discover architectural details that are often overlooked.",
+        "fr": "La via Mezzaterra est la principale artère historique du centre de Belluno : elle traverse le cœur de la vieille ville du nord au sud et relie idéalement la porte Dojona à la porte Rugo. Son tracé suit l'ancien axe de la ville romaine, le cardo, et conserve aujourd'hui un riche patrimoine architectural. Le long de la rue, on rencontre des palais nobiliaires médiévaux, Renaissance et du XVIIe siècle, reconnaissables à leurs élégantes bifores et trifores, à leurs portails en pierre, à leurs portiques, à leurs balcons et aux armoiries des anciennes familles de la ville. Parmi les édifices les plus intéressants se distinguent le palais Persicini-Crocecalle, avec son portique du XVe siècle et ses chapiteaux sculptés, et le palais Pagani, dont la façade concave crée de saisissants effets de perspective. La via Mezzaterra est une véritable promenade dans l'histoire de Belluno, à parcourir lentement pour découvrir des détails architecturaux souvent négligés.",
+        "de": "Die Via Mezzaterra ist die wichtigste historische Straße im Zentrum von Belluno: Sie durchquert das Herz der Altstadt von Norden nach Süden und verbindet gedanklich das Porta Dojona mit dem Porta Rugo. Ihr Verlauf folgt der antiken Achse der römischen Stadt, dem Cardo, und bewahrt bis heute ein reiches Erbe historischer Architektur. Entlang der Straße trifft man mittelalterliche, renaissancezeitliche und barocke Adelspaläste, erkennbar an den eleganten Bifore und Trifore, den Steinportalen, Laubengängen, Balkonen und Wappen der alten Stadtfamilien. Zu den interessantesten Gebäuden gehören der Palazzo Persicini-Crocecalle mit seinem Laubengang aus dem 15. Jahrhundert und den skulptierten Kapitellen sowie der Palazzo Pagani, dessen ungewöhnliche konkave Fassade eindrucksvolle perspektivische Effekte erzeugt. Die Via Mezzaterra ist ein wahrer Spaziergang durch die Geschichte Bellunos, den man langsam gehen sollte, um oft übersehene architektonische Details zu entdecken.",
+        "es": "La vía Mezzaterra es la principal arteria histórica del centro de Belluno: atraviesa el corazón de la ciudad antigua de norte a sur, uniendo idealmente la Porta Dojona con la Porta Rugo. Su trazado sigue el antiguo eje de la ciudad romana, el cardo, y conserva hoy un rico patrimonio de arquitectura histórica. Paseando por la calle se encuentran palacios nobiliarios medievales, renacentistas y del siglo XVII, reconocibles por sus elegantes bíforas y tríforas, portales de piedra, pórticos, balcones y escudos de las antiguas familias de la ciudad. Entre los edificios más interesantes destacan el Palazzo Persicini-Crocecalle, con su pórtico del siglo XV y sus capiteles esculpidos, y el Palazzo Pagani, con una singular fachada cóncava que crea sugerentes efectos de perspectiva. La vía Mezzaterra es, en definitiva, un auténtico paseo por la historia de Belluno, para recorrer despacio y descubrir detalles arquitectónicos a menudo pasados por alto."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": "Da percorrere a piedi, con calma.",
+      "immagine": {
+        "autore": "Foto propria",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
