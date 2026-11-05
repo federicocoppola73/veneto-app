@@ -531,7 +531,11 @@
         "licenza": "CC BY-SA 4.0",
         "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Pietro_-_Belluno.jpg"
       },
-      "galleria": []
+      "galleria": [],
+      "personaggio": [
+        "andrea-brustolon",
+        "sebastiano-ricci"
+      ]
     },
     {
       "id": "chiesa-di-santa-maria-dei-battuti",
@@ -908,7 +912,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": ""
         }
-      ]
+      ],
+      "personaggio": "giovanni-de-min"
     },
     {
       "id": "porta-dojona",
@@ -1376,6 +1381,13 @@
             "es": "El palacio Fulcis adquirió su aspecto actual en 1776, cuando el arquitecto Valentino Alpago-Novello unió tres edificios antes separados. La obra se realizó con motivo de la boda de Guglielmo Fulcis."
           }
         }
+      ],
+      "personaggio": [
+        "andrea-brustolon",
+        "sebastiano-ricci",
+        "ippolito-caffi",
+        "dino-buzzati",
+        "giovanni-de-min"
       ]
     },
     {
@@ -1679,7 +1691,8 @@
             "es": "El teatro inauguró su actividad con la representación de la Norma de Vincenzo Bellini, dirigida por el maestro Antonio Miari. El espectáculo se representó el mismo día de la inauguración."
           }
         }
-      ]
+      ],
+      "personaggio": "dino-buzzati"
     },
     {
       "id": "stazione-fs-belluno",
@@ -1814,7 +1827,8 @@
           "licenza": null,
           "fonte": null
         }
-      ]
+      ],
+      "personaggio": "giuseppe-fantuzzi"
     },
     {
       "id": "palazzo-nossadani",
@@ -2430,7 +2444,8 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "personaggio": "andrea-brustolon"
     },
     {
       "id": "via-mezzaterra",
@@ -2518,7 +2533,8 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": ""
         }
-      ]
+      ],
+      "personaggio": "dino-buzzati"
     },
     {
       "id": "casa-fantuzzi",
@@ -2561,7 +2577,8 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "personaggio": "giuseppe-fantuzzi"
     }
   ]
 }
