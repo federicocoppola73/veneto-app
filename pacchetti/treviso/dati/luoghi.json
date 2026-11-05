@@ -3271,6 +3271,102 @@
           "fonte": ""
         }
       ]
+    },
+    {
+      "id": "ca-spineda",
+      "nome": "Ca' Spineda",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.666305222947955,
+      "longitudine": 12.248192396444354,
+      "descrizione": {
+        "it": "Palazzo cinquecentesco della famiglia Spineda, costruito intorno al 1560. Nel Settecento fu ampliato e arricchito da uno scalone monumentale decorato da Gaspare Diziani e da un salone delle feste affrescato da Basilio Lasinio.",
+        "en": "Sixteenth-century palace of the Spineda family, built around 1560. In the eighteenth century it was enlarged and enriched with a monumental staircase decorated by Gaspare Diziani and a party hall frescoed by Basilio Lasinio.",
+        "fr": "Palais du XVIe siècle de la famille Spineda, construit vers 1560. Au XVIIIe siècle, il fut agrandi et enrichi d'un escalier monumental décoré par Gaspare Diziani et d'une salle des fêtes ornée de fresques par Basilio Lasinio.",
+        "de": "Palast des 16. Jahrhunderts der Familie Spineda, um 1560 erbaut. Im 18. Jahrhundert wurde er erweitert und mit einem monumentalen, von Gaspare Diziani ausgeschmückten Treppenhaus sowie einem von Basilio Lasinio mit Fresken versehenen Festsaal bereichert.",
+        "es": "Palacio del siglo XVI de la familia Spineda, construido alrededor de 1560. En el siglo XVIII fue ampliado y enriquecido con una escalinata monumental decorada por Gaspare Diziani y un salón de fiestas con frescos de Basilio Lasinio."
+      },
+      "curiosita": false,
+      "nota": {
+        "it": "Visite su prenotazione. Orari fissi: non pubblicati. Riapertura prevista a dicembre 2026.",
+        "en": "Visits by booking. Fixed opening hours: not published. Reopening planned for December 2026.",
+        "fr": "Visites sur réservation. Horaires fixes : non publiés. Réouverture prévue en décembre 2026.",
+        "de": "Besichtigungen nach Voranmeldung. Feste Öffnungszeiten: nicht veröffentlicht. Wiedereröffnung für Dezember 2026 geplant.",
+        "es": "Visitas con reserva. Horario fijo: no publicado. Reapertura prevista para diciembre de 2026."
+      },
+      "lo_sapevi_che": [],
+      "immagine": {
+        "autore": "",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [],
+      "sito": "https://www.fondazionecassamarca.it",
+      "wikipedia": {}
+    },
+    {
+      "id": "palazzo-giacomelli",
+      "nome": "Palazzo Giacomelli",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66417303893749,
+      "longitudine": 12.251756125280314,
+      "descrizione": {
+        "it": "Dimora seicentesca affacciata sul Sile, nata come residenza e palazzo mercantile. È legata alla storia imprenditoriale trevigiana e a Sante Giacomelli, la cui collezione d'arte contribuì alla nascita del Museo Civico come istituzione autonoma.",
+        "en": "Seventeenth-century residence overlooking the Sile, born as a home and merchant palace. It is linked to Treviso's entrepreneurial history and to Sante Giacomelli, whose art collection helped lead to the founding of the Museo Civico as an independent institution.",
+        "fr": "Demeure du XVIIe siècle donnant sur le Sile, née comme résidence et palais marchand. Elle est liée à l'histoire entrepreneuriale de Trévise et à Sante Giacomelli, dont la collection d'art contribua à la naissance du Museo Civico en tant qu'institution autonome.",
+        "de": "Barockes Wohnhaus aus dem 17. Jahrhundert am Sile, entstanden als Residenz und Kaufmannspalast. Es ist mit der unternehmerischen Geschichte Trevisos verbunden sowie mit Sante Giacomelli, dessen Kunstsammlung zur Gründung des Museo Civico als eigenständiger Einrichtung beitrug.",
+        "es": "Residencia del siglo XVII que da al Sile, nacida como vivienda y palacio mercantil. Está ligada a la historia empresarial de Treviso y a Sante Giacomelli, cuya colección de arte contribuyó a la creación del Museo Civico como institución autónoma."
+      },
+      "curiosita": false,
+      "nota": {
+        "it": "Apertura solo in occasione di eventi e mostre. Orari fissi: non pubblicati.",
+        "en": "Open only during events and exhibitions. Fixed opening hours: not published.",
+        "fr": "Ouvert uniquement lors d'événements et d'expositions. Horaires fixes : non publiés.",
+        "de": "Nur bei Veranstaltungen und Ausstellungen geöffnet. Feste Öffnungszeiten: nicht veröffentlicht.",
+        "es": "Abierto solo con motivo de eventos y exposiciones. Horario fijo: no publicado."
+      },
+      "lo_sapevi_che": [],
+      "immagine": {
+        "autore": "",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [],
+      "sito": "",
+      "wikipedia": {}
+    },
+    {
+      "id": "casa-bortolan",
+      "nome": "Casa Bortolan",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66447822401487,
+      "longitudine": 12.24908079644419,
+      "descrizione": {
+        "it": "Edificio di origine antica, trasformato nell'Ottocento per volontà di Jacopo Bortolan. Gli ambienti furono decorati con dipinti e bassorilievi in stucco di Marco Casagrande, ispirati all'Iliade, alla Divina Commedia e alla Gerusalemme liberata.",
+        "en": "Building of ancient origin, transformed in the nineteenth century at the wish of Jacopo Bortolan. The rooms were decorated with paintings and stucco bas-reliefs by Marco Casagrande, inspired by the Iliad, the Divine Comedy and Gerusalemme liberata.",
+        "fr": "Bâtiment d'origine ancienne, transformé au XIXe siècle à la volonté de Jacopo Bortolan. Les salles furent décorées de peintures et de bas-reliefs en stuc de Marco Casagrande, inspirés de l'Iliade, de la Divine Comédie et de la Jérusalem délivrée.",
+        "de": "Gebäude alter Herkunft, im 19. Jahrhundert auf Wunsch von Jacopo Bortolan umgestaltet. Die Räume wurden mit Gemälden und Stuckreliefs von Marco Casagrande ausgeschmückt, inspiriert von Ilias, Göttlicher Komödie und Befreitem Jerusalem.",
+        "es": "Edificio de origen antiguo, transformado en el siglo XIX por voluntad de Jacopo Bortolan. Los espacios se decoraron con pinturas y bajorrelieves en estuco de Marco Casagrande, inspirados en la Ilíada, la Divina Comedia y la Jerusalén liberada."
+      },
+      "curiosita": false,
+      "nota": {
+        "it": "Orari e visite: non pubblicati.",
+        "en": "Opening hours and visits: not published.",
+        "fr": "Horaires et visites : non publiés.",
+        "de": "Öffnungszeiten und Besichtigungen: nicht veröffentlicht.",
+        "es": "Horarios y visitas: no publicados."
+      },
+      "lo_sapevi_che": [],
+      "immagine": {
+        "autore": "",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [],
+      "sito": "",
+      "wikipedia": {}
     }
   ]
 }
