@@ -262,6 +262,112 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "ippolito-caffi",
+      "nome": "Ippolito Caffi",
+      "nascita": 1809,
+      "morte": 1866,
+      "professione": {
+        "it": "Pittore di vedute e paesaggi",
+        "en": "Painter of views and landscapes",
+        "fr": "Peintre de vues et de paysages",
+        "de": "Maler von Ansichten und Landschaften",
+        "es": "Pintor de vistas y paisajes"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "16 ottobre 1809",
+        "en": "16 October 1809",
+        "fr": "16 octobre 1809",
+        "de": "16. Oktober 1809",
+        "es": "16 de octubre de 1809"
+      },
+      "luogoMorte": {
+        "it": "Lissa",
+        "en": "Lissa",
+        "fr": "Lissa",
+        "de": "Lissa",
+        "es": "Lissa"
+      },
+      "dataMorte": {
+        "it": "20 luglio 1866",
+        "en": "20 July 1866",
+        "fr": "20 juillet 1866",
+        "de": "20. Juli 1866",
+        "es": "20 de julio de 1866"
+      },
+      "ritratto": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Ippolito Caffi è stato un importante pittore italiano dell'Ottocento, specializzato soprattutto in vedute urbane e paesaggi. Dopo i primi studi a Belluno e Padova, proseguì la formazione a Venezia e Roma. Viaggiò molto in Italia, Europa e Oriente, realizzando dipinti caratterizzati da particolari effetti di luce e atmosfera. Fu anche un sostenitore della causa risorgimentale e partecipò attivamente alle vicende politiche del suo tempo.",
+        "en": "Ippolito Caffi was an important nineteenth-century Italian painter, best known for his urban views and landscapes. After his first studies in Belluno and Padua, he continued his training in Venice and Rome. He travelled widely in Italy, Europe and the East, producing paintings marked by striking effects of light and atmosphere. He was also a supporter of the Risorgimento and took an active part in the political events of his time.",
+        "fr": "Ippolito Caffi fut un important peintre italien du XIXe siècle, spécialisé surtout dans les vues urbaines et les paysages. Après ses premières études à Belluno et à Padoue, il poursuivit sa formation à Venise et à Rome. Il voyagea beaucoup en Italie, en Europe et en Orient, réalisant des tableaux marqués par des effets singuliers de lumière et d'atmosphère. Il fut aussi un partisan de la cause du Risorgimento et participa activement aux événements politiques de son temps.",
+        "de": "Ippolito Caffi war ein bedeutender italienischer Maler des 19. Jahrhunderts, vor allem bekannt für Stadtansichten und Landschaften. Nach ersten Studien in Belluno und Padua vervollkommnete er seine Ausbildung in Venedig und Rom. Er reiste viel durch Italien, Europa und den Orient und schuf Gemälde, die sich durch besondere Licht- und Atmosphäreneffekte auszeichnen. Außerdem unterstützte er die Sache des Risorgimento und nahm aktiv am politischen Geschehen seiner Zeit teil.",
+        "es": "Ippolito Caffi fue un importante pintor italiano del siglo XIX, especializado sobre todo en vistas urbanas y paisajes. Tras sus primeros estudios en Belluno y Padua, completó su formación en Venecia y Roma. Viajó mucho por Italia, Europa y Oriente, realizando pinturas caracterizadas por efectos particulares de luz y atmósfera. Fue también partidario del Risorgimento y participó activamente en los acontecimientos políticos de su tiempo."
+      },
+      "curiosita": {
+        "it": [
+          "Era un pittore viaggiatore: utilizzava i suoi spostamenti per studiare paesaggi, città, monumenti e condizioni atmosferiche.",
+          "Si interessò agli effetti luminosi più inconsueti, dipingendo anche eclissi, fuochi artificiali e scene notturne.",
+          "Nel 1847 salì in mongolfiera con l'aeronauta francese Arban per osservare il paesaggio da una prospettiva insolita.",
+          "Morì durante la battaglia navale di Lissa, sulla nave ammiraglia italiana Re d'Italia. Aveva voluto partecipare allo scontro per documentarlo attraverso la pittura."
+        ],
+        "en": [
+          "He was a travelling painter: he used his journeys to study landscapes, cities, monuments and weather conditions.",
+          "He was drawn to the most unusual lighting effects, painting eclipses, fireworks and night scenes as well.",
+          "In 1847 he flew in a hot-air balloon with the French aeronaut Arban, to observe the landscape from an unusual viewpoint.",
+          "He died during the naval battle of Lissa, aboard the Italian flagship Re d'Italia. He had wanted to take part in the clash so as to record it in painting."
+        ],
+        "fr": [
+          "C'était un peintre voyageur : il mettait à profit ses déplacements pour étudier les paysages, les villes, les monuments et les conditions atmosphériques.",
+          "Il s'intéressa aux effets lumineux les plus inhabituels, peignant aussi des éclipses, des feux d'artifice et des scènes nocturnes.",
+          "En 1847, il monta en montgolfière avec l'aéronaute français Arban pour observer le paysage sous un angle inhabituel.",
+          "Il mourut pendant la bataille navale de Lissa, à bord du navire amiral italien Re d'Italia. Il avait voulu prendre part à l'affrontement pour le documenter par la peinture."
+        ],
+        "de": [
+          "Er war ein reisender Maler: Seine Reisen nutzte er, um Landschaften, Städte, Denkmäler und Witterungsverhältnisse zu studieren.",
+          "Er interessierte sich für ungewöhnliche Lichteffekte und malte auch Sonnenfinsternisse, Feuerwerke und Nachtszenen.",
+          "1847 stieg er mit dem französischen Aeronauten Arban in einem Heißluftballon auf, um die Landschaft aus ungewohnter Perspektive zu betrachten.",
+          "Er starb während der Seeschlacht von Lissa an Bord des italienischen Flaggschiffs Re d'Italia. Er hatte an der Schlacht teilnehmen wollen, um sie in der Malerei festzuhalten."
+        ],
+        "es": [
+          "Era un pintor viajero: aprovechaba sus desplazamientos para estudiar paisajes, ciudades, monumentos y condiciones atmosféricas.",
+          "Se interesó por los efectos de luz más inusuales, pintando también eclipses, fuegos artificiales y escenas nocturnas.",
+          "En 1847 subió en globo aerostático con el aeronauta francés Arban para observar el paisaje desde una perspectiva insólita.",
+          "Murió durante la batalla naval de Lissa, a bordo del buque insignia italiano Re d'Italia. Había querido participar en el combate para documentarlo mediante la pintura."
+        ]
+      },
+      "luoghi": [
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Ospita una sezione dedicata a Caffi, con disegni, schizzi e dipinti della sua terra natale. Sono opere realizzate durante i suoi frequenti ritorni a Belluno e costituiscono una testimonianza importante del suo legame con la città.",
+            "en": "It has a section devoted to Caffi, with drawings, sketches and paintings from his native land. They were made during his frequent returns to Belluno and are an important record of his bond with the city.",
+            "fr": "Il abrite une section consacrée à Caffi, avec des dessins, des esquisses et des peintures de sa terre natale. Ces œuvres ont été réalisées lors de ses fréquents retours à Belluno et témoignent de son lien avec la ville.",
+            "de": "Es gibt einen Bereich, der Caffi gewidmet ist, mit Zeichnungen, Skizzen und Gemälden aus seiner Heimat. Sie entstanden bei seinen häufigen Rückkehren nach Belluno und bezeugen seine Verbundenheit mit der Stadt.",
+            "es": "Alberga una sección dedicada a Caffi, con dibujos, bocetos y pinturas de su tierra natal. Son obras realizadas durante sus frecuentes regresos a Belluno y dan testimonio de su vínculo con la ciudad."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
