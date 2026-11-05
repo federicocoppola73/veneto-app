@@ -513,6 +513,93 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "gaspare-diziani",
+      "nome": "Gaspare Diziani",
+      "nascita": 1689,
+      "morte": 1767,
+      "professione": {
+        "it": "Pittore e incisore",
+        "en": "Painter and engraver",
+        "fr": "Peintre et graveur",
+        "de": "Maler und Kupferstecher",
+        "es": "Pintor y grabador"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "1689",
+        "en": "1689",
+        "fr": "1689",
+        "de": "1689",
+        "es": "1689"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "1767",
+        "en": "1767",
+        "fr": "1767",
+        "de": "1767",
+        "es": "1767"
+      },
+      "ritratto": {
+        "autore": "Alessandro Longhi",
+        "licenza": ""
+      },
+      "biografia": {
+        "it": "Gaspare Diziani fu un pittore e incisore del Settecento, nato a Belluno. Si formò inizialmente nella sua città con Antonio Lazzarini, per poi trasferirsi a Venezia, dove frequentò le botteghe di Gregorio Lazzarini e Sebastiano Ricci. Lavorò in diverse città europee, tra cui Monaco e Dresda, dove realizzò decorazioni e scenografie teatrali per la corte di Sassonia. La sua produzione comprende dipinti religiosi, scene mitologiche, paesaggi e grandi decorazioni.",
+        "en": "Gaspare Diziani was an eighteenth-century painter and engraver, born in Belluno. He first trained in his home city with Antonio Lazzarini, then moved to Venice, where he frequented the workshops of Gregorio Lazzarini and Sebastiano Ricci. He worked in several European cities, including Munich and Dresden, where he produced decorations and theatre sets for the Saxon court. His output includes religious paintings, mythological scenes, landscapes and large decorative schemes.",
+        "fr": "Gaspare Diziani fut un peintre et graveur du XVIIIe siècle, né à Belluno. Il se forma d'abord dans sa ville natale auprès d'Antonio Lazzarini, puis s'installa à Venise, où il fréquenta les ateliers de Gregorio Lazzarini et de Sebastiano Ricci. Il travailla dans plusieurs villes européennes, dont Munich et Dresde, où il réalisa des décorations et des décors de théâtre pour la cour de Saxe. Sa production comprend des tableaux religieux, des scènes mythologiques, des paysages et de grands décors.",
+        "de": "Gaspare Diziani war ein Maler und Kupferstecher des 18. Jahrhunderts, geboren in Belluno. Seine erste Ausbildung erhielt er in seiner Heimatstadt bei Antonio Lazzarini, dann zog er nach Venedig, wo er die Werkstätten von Gregorio Lazzarini und Sebastiano Ricci besuchte. Er arbeitete in mehreren europäischen Städten, darunter München und Dresden, wo er für den sächsischen Hof Ausstattungen und Theaterdekorationen schuf. Zu seinem Werk gehören religiöse Gemälde, mythologische Szenen, Landschaften und große Dekorationen.",
+        "es": "Gaspare Diziani fue un pintor y grabador del siglo XVIII, nacido en Belluno. Se formó primero en su ciudad con Antonio Lazzarini y después se trasladó a Venecia, donde frecuentó los talleres de Gregorio Lazzarini y Sebastiano Ricci. Trabajó en varias ciudades europeas, entre ellas Múnich y Dresde, donde realizó decoraciones y escenografías teatrales para la corte de Sajonia. Su producción incluye pinturas religiosas, escenas mitológicas, paisajes y grandes decoraciones."
+      },
+      "curiosita": {
+        "it": [
+          "Fu anche scenografo teatrale e lavorò alla corte di Augusto III di Sassonia a Dresda.",
+          "La sua pittura è caratterizzata da colori vivaci, composizioni movimentate e una notevole rapidità esecutiva.",
+          "Nel 1766 venne eletto presidente dell'Accademia di Pittura di Venezia.",
+          "Ebbe un figlio, Antonio Diziani, anch'egli pittore, specializzato soprattutto nei paesaggi."
+        ],
+        "en": [
+          "He was also a theatre designer and worked at the court of Augustus III of Saxony in Dresden.",
+          "His painting is marked by vivid colours, animated compositions and remarkable speed of execution.",
+          "In 1766 he was elected president of the Venetian Academy of Painting.",
+          "His son Antonio Diziani was also a painter, specialising mainly in landscapes."
+        ],
+        "fr": [
+          "Il fut aussi décorateur de théâtre et travailla à la cour d'Auguste III de Saxe, à Dresde.",
+          "Sa peinture se distingue par des couleurs vives, des compositions animées et une grande rapidité d'exécution.",
+          "En 1766, il fut élu président de l'Académie de peinture de Venise.",
+          "Il eut un fils, Antonio Diziani, lui aussi peintre, spécialisé surtout dans le paysage."
+        ],
+        "de": [
+          "Er war auch Theatermaler und arbeitete am Hof Augusts III. von Sachsen in Dresden.",
+          "Seine Malerei zeichnet sich durch leuchtende Farben, bewegte Kompositionen und eine bemerkenswerte Schnelligkeit der Ausführung aus.",
+          "1766 wurde er zum Präsidenten der Venezianischen Malerakademie gewählt.",
+          "Sein Sohn Antonio Diziani war ebenfalls Maler und spezialisierte sich vor allem auf Landschaften."
+        ],
+        "es": [
+          "También fue escenógrafo teatral y trabajó en la corte de Augusto III de Sajonia, en Dresde.",
+          "Su pintura se caracteriza por colores vivos, composiciones movidas y una notable rapidez de ejecución.",
+          "En 1766 fue elegido presidente de la Academia de Pintura de Venecia.",
+          "Tuvo un hijo, Antonio Diziani, también pintor, especializado sobre todo en paisajes."
+        ]
+      },
+      "luoghi": [],
+      "luoghiNote": {},
+      "collegati": []
     }
   ]
 }
