@@ -1,0 +1,127 @@
+{
+  "personaggi": [
+    {
+      "id": "andrea-brustolon",
+      "nome": "Andrea Brustolon",
+      "nascita": 1662,
+      "morte": 1732,
+      "professione": {
+        "it": "Scultore e intagliatore del legno",
+        "en": "Sculptor and woodcarver",
+        "fr": "Sculpteur et sculpteur sur bois",
+        "de": "Bildhauer und Holzschnitzer",
+        "es": "Escultor y tallista de madera"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "20 luglio 1662",
+        "en": "20 July 1662",
+        "fr": "20 juillet 1662",
+        "de": "20. Juli 1662",
+        "es": "20 de julio de 1662"
+      },
+      "luogoMorte": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataMorte": {
+        "it": "25 ottobre 1732",
+        "en": "25 October 1732",
+        "fr": "25 octobre 1732",
+        "de": "25. Oktober 1732",
+        "es": "25 de octubre de 1732"
+      },
+      "ritratto": {
+        "autore": "Yair-haklai",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Andrea Brustolon è stato uno dei più importanti scultori e intagliatori del legno del Barocco veneto. Figlio di uno scultore e intagliatore, ricevette dal padre i primi insegnamenti artistici. Nel 1677 si trasferì a Venezia, dove frequentò la bottega dello scultore Filippo Parodi. Dopo un soggiorno a Roma, tornò a lavorare tra Venezia e il Bellunese, realizzando opere religiose, altari, arredi e sculture. Fu particolarmente apprezzato dalle grandi famiglie veneziane per la qualità e la ricchezza dei suoi mobili intagliati.",
+        "en": "Andrea Brustolon was one of the most important sculptors and woodcarvers of the Venetian Baroque. The son of a sculptor and woodcarver, he received his first artistic training from his father. In 1677 he moved to Venice, where he attended the workshop of the sculptor Filippo Parodi. After a stay in Rome, he returned to work between Venice and the Belluno area, producing religious works, altars, furnishings and sculptures. He was especially valued by the great Venetian families for the quality and richness of his carved furniture.",
+        "fr": "Andrea Brustolon fut l'un des plus importants sculpteurs et sculpteurs sur bois du baroque vénitien. Fils d'un sculpteur et sculpteur sur bois, il reçut de son père ses premiers enseignements artistiques. En 1677, il s'installa à Venise, où il fréquenta l'atelier du sculpteur Filippo Parodi. Après un séjour à Rome, il revint travailler entre Venise et la région de Belluno, réalisant des œuvres religieuses, des autels, des mobiliers et des sculptures. Il fut particulièrement apprécié des grandes familles vénitiennes pour la qualité et la richesse de ses meubles sculptés.",
+        "de": "Andrea Brustolon war einer der bedeutendsten Bildhauer und Holzschnitzer des venezianischen Barock. Als Sohn eines Bildhauers und Holzschnitzers erhielt er von seinem Vater die ersten künstlerischen Unterweisungen. 1677 zog er nach Venedig, wo er in der Werkstatt des Bildhauers Filippo Parodi arbeitete. Nach einem Aufenthalt in Rom kehrte er zurück und arbeitete zwischen Venedig und dem Gebiet um Belluno, wo er religiöse Werke, Altäre, Ausstattungen und Skulpturen schuf. Die großen venezianischen Familien schätzten ihn besonders für die Qualität und den Reichtum seiner geschnitzten Möbel.",
+        "es": "Andrea Brustolon fue uno de los escultores y tallistas de madera más importantes del barroco véneto. Hijo de un escultor y tallista, recibió de su padre sus primeras enseñanzas artísticas. En 1677 se trasladó a Venecia, donde frecuentó el taller del escultor Filippo Parodi. Tras una estancia en Roma, volvió a trabajar entre Venecia y el Bellunés, realizando obras religiosas, altares, mobiliario y esculturas. Fue especialmente apreciado por las grandes familias venecianas por la calidad y la riqueza de sus muebles tallados."
+      },
+      "curiosita": {
+        "it": [
+          "Honoré de Balzac lo definì il «Michelangelo del legno», per la straordinaria abilità nella lavorazione e nell'intaglio.",
+          "Le sue opere non erano soltanto decorative: spesso presentavano composizioni complesse, ricche di figure allegoriche, simboli religiosi e dettagli anatomici.",
+          "Nel Museo Civico di Belluno è conservato anche un album completo dei suoi disegni, importante testimonianza del suo metodo di progettazione.",
+          "Un Crocifisso di sua mano, appartenuto a una famiglia bellunese, è stato donato ai Musei Civici nel 2017."
+        ],
+        "en": [
+          "Honoré de Balzac called him the «Michelangelo of wood», for his extraordinary skill in working and carving.",
+          "His works were not merely decorative: they often featured complex compositions full of allegorical figures, religious symbols and anatomical detail.",
+          "The Museo Civico in Belluno also holds a complete album of his drawings, an important record of his design method.",
+          "A Crucifix by his hand, once owned by a Belluno family, was donated to the Musei Civici in 2017."
+        ],
+        "fr": [
+          "Honoré de Balzac le définit le « Michel-Ange du bois », pour son extraordinaire habileté dans le travail et la sculpture.",
+          "Ses œuvres n'étaient pas seulement décoratives : elles présentaient souvent des compositions complexes, riches de figures allégoriques, de symboles religieux et de détails anatomiques.",
+          "Le Musée civique de Belluno conserve aussi un album complet de ses dessins, témoignage important de sa méthode de conception.",
+          "Un Crucifix de sa main, ayant appartenu à une famille de Belluno, a été donné aux Musées civiques en 2017."
+        ],
+        "de": [
+          "Honoré de Balzac nannte ihn den «Michelangelo des Holzes», wegen seiner außergewöhnlichen Fertigkeit in Bearbeitung und Schnitzkunst.",
+          "Seine Werke waren nicht nur dekorativ: Oft zeigten sie komplexe Kompositionen mit allegorischen Figuren, religiösen Symbolen und anatomischen Details.",
+          "Im Museo Civico von Belluno wird auch ein vollständiges Album seiner Zeichnungen aufbewahrt, ein wichtiges Zeugnis seiner Entwurfsmethode.",
+          "Ein Kruzifix aus seiner Hand, das einer Familie aus Belluno gehörte, wurde 2017 den Musei Civici geschenkt."
+        ],
+        "es": [
+          "Honoré de Balzac lo definió como el «Miguel Ángel de la madera», por su extraordinaria habilidad en el trabajo y la talla.",
+          "Sus obras no eran solo decorativas: a menudo presentaban composiciones complejas, llenas de figuras alegóricas, símbolos religiosos y detalles anatómicos.",
+          "En el Museo Cívico de Belluno se conserva también un álbum completo de sus dibujos, un importante testimonio de su método de diseño.",
+          "Un Crucifijo de su mano, que perteneció a una familia bellunesa, fue donado a los Museos Cívicos en 2017."
+        ]
+      },
+      "luoghi": [
+        "mubel-museo-civico-palazzo-fulcis",
+        "chiesa-di-san-pietro"
+      ],
+      "luoghiNote": {
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Conserva una delle raccolte pubbliche più importanti di opere di Brustolon. Nella sala 15 sono esposti modelli in terracotta e un Crocifisso d'altare; il museo custodisce inoltre disegni e altre opere dell'artista.",
+            "en": "It holds one of the most important public collections of Brustolon's works. Room 15 displays terracotta models and an altar crucifix; the museum also keeps drawings and other works by the artist.",
+            "fr": "Il conserve l'une des plus importantes collections publiques d'œuvres de Brustolon. La salle 15 présente des modèles en terre cuite et un crucifix d'autel ; le musée conserve aussi des dessins et d'autres œuvres de l'artiste.",
+            "de": "Es besitzt eine der bedeutendsten öffentlichen Sammlungen von Werken Brustolons. In Saal 15 sind Terrakotta-Modelle und ein Altarkruzifix ausgestellt; das Museum bewahrt außerdem Zeichnungen und weitere Werke des Künstlers.",
+            "es": "Conserva una de las colecciones públicas más importantes de obras de Brustolon. En la sala 15 se exponen modelos en terracota y un Crucifijo de altar; el museo custodia además dibujos y otras obras del artista."
+          }
+        },
+        "chiesa-di-san-pietro": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "È legata alla storia religiosa e artistica della città in cui Brustolon operò.",
+            "en": "It is linked to the religious and artistic history of the city where Brustolon worked.",
+            "fr": "Elle est liée à l'histoire religieuse et artistique de la ville où Brustolon a travaillé.",
+            "de": "Sie ist mit der religiösen und künstlerischen Geschichte der Stadt verbunden, in der Brustolon tätig war.",
+            "es": "Está ligada a la historia religiosa y artística de la ciudad en la que trabajó Brustolon."
+          }
+        }
+      },
+      "collegati": []
+    }
+  ]
+}
