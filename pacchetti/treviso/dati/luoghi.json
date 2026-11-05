@@ -1458,6 +1458,24 @@
       },
       "personaggio": [
         "tomaso-da-modena"
+      ],
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il giorno in cui Treviso passò a Venezia",
+            "en": "The day Treviso passed to Venice",
+            "fr": "Le jour où Trévise passa à Venise",
+            "de": "Der Tag, an dem Treviso an Venedig fiel",
+            "es": "El día en que Treviso pasó a Venecia"
+          },
+          "testo": {
+            "it": "Il 13 dicembre 1389, giorno dedicato a Santa Lucia, Treviso si consegnò alla Repubblica di Venezia. La chiesa, la cui costruzione risale al Trecento, fu intitolata alla santa proprio in memoria di quell'avvenimento.",
+            "en": "On 13 December 1389, the feast day of Saint Lucy, Treviso handed itself over to the Republic of Venice. The church, whose construction dates back to the 14th century, was dedicated to the saint precisely in memory of that event.",
+            "fr": "Le 13 décembre 1389, jour dédié à sainte Lucie, Trévise se remit à la République de Venise. L'église, dont la construction remonte au XIVe siècle, fut placée sous le patronage de la sainte précisément en souvenir de cet événement.",
+            "de": "Am 13. Dezember 1389, dem Tag der heiligen Lucia, ergab sich Treviso der Republik Venedig. Die Kirche, deren Bau bis ins 14. Jahrhundert zurückreicht, wurde gerade zum Gedenken an dieses Ereignis der Heiligen geweiht.",
+            "es": "El 13 de diciembre de 1389, día dedicado a Santa Lucía, Treviso se entregó a la República de Venecia. La iglesia, cuya construcción data del siglo XIV, se dedicó a la santa precisamente en memoria de aquel acontecimiento."
+          }
+        }
       ]
     },
     {
@@ -1514,7 +1532,25 @@
       },
       "wikipedia": {
         "it": "Chiesa di San Vito (Treviso)"
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una chiesa con due piani in più",
+            "en": "A church with two extra floors",
+            "fr": "Une église surélevée de deux étages",
+            "de": "Eine Kirche mit zwei zusätzlichen Stockwerken",
+            "es": "Una iglesia con dos plantas más"
+          },
+          "testo": {
+            "it": "Nel Cinquecento il Monte di Pietà aveva bisogno di nuovi spazi per custodire i pegni ricevuti in garanzia dei prestiti. Per questo motivo la chiesa fu sopraelevata di due piani e dotata all'esterno di un profondo portico. È un caso curioso di convivenza tra edificio religioso e istituzione finanziaria.",
+            "en": "In the 16th century the Monte di Pietà needed more space to store the pledges received as collateral for loans. For this reason the church was raised by two floors and given a deep portico on the outside. It is a curious case of a religious building sharing space with a financial institution.",
+            "fr": "Au XVIe siècle, le Monte di Pietà avait besoin de nouveaux espaces pour conserver les gages reçus en garantie des prêts. C'est pourquoi l'église fut surélevée de deux étages et dotée à l'extérieur d'un profond portique. C'est un cas curieux de cohabitation entre un édifice religieux et une institution financière.",
+            "de": "Im 16. Jahrhundert brauchte das Monte di Pietà neue Räume, um die Pfänder aufzubewahren, die als Sicherheit für Darlehen entgegengenommen wurden. Deshalb wurde die Kirche um zwei Stockwerke aufgestockt und außen mit einer tiefen Arkade versehen. Ein kurioser Fall des Zusammenlebens von Sakralbau und Finanzinstitution.",
+            "es": "En el siglo XVI el Monte di Pietà necesitaba nuevos espacios para custodiar las prendas recibidas como garantía de los préstamos. Por ello la iglesia se elevó dos plantas y se dotó en el exterior de un profundo pórtico. Es un curioso caso de convivencia entre un edificio religioso y una institución financiera."
+          }
+        }
+      ]
     },
     {
       "id": "chiesa-di-santa-maria-maggiore",
@@ -2352,6 +2388,24 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": ""
         }
+      ],
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La tomba che racconta l'università medievale",
+            "en": "The tomb that tells the story of the medieval university",
+            "fr": "La tombe qui raconte l'université médiévale",
+            "de": "Das Grab, das von der mittelalterlichen Universität erzählt",
+            "es": "La tumba que cuenta la historia de la universidad medieval"
+          },
+          "testo": {
+            "it": "Il museo conserva il sarcofago di Alberto, un medico e insegnante che nel 1317 teneva lezioni a Treviso. Il bassorilievo lo raffigura mentre insegna e costituisce una testimonianza dell'attività universitaria cittadina nel Medioevo.",
+            "en": "The museum holds the sarcophagus of Alberto, a doctor and teacher who was giving lectures in Treviso in 1317. The bas-relief shows him teaching and is evidence of the city's university activity in the Middle Ages.",
+            "fr": "Le musée conserve le sarcophage d'Alberto, médecin et enseignant qui donnait des cours à Trévise en 1317. Le bas-relief le représente pendant qu'il enseigne et témoigne de l'activité universitaire de la ville au Moyen Âge.",
+            "de": "Das Museum bewahrt den Sarkophag des Alberto, eines Arztes und Lehrers, der 1317 in Treviso Vorlesungen hielt. Das Relief zeigt ihn beim Unterrichten und ist ein Zeugnis der universitären Tätigkeit der Stadt im Mittelalter.",
+            "es": "El museo conserva el sarcófago de Alberto, un médico y profesor que en 1317 impartía clases en Treviso. El bajorrelieve lo representa mientras enseña y constituye un testimonio de la actividad universitaria de la ciudad en la Edad Media."
+          }
+        }
       ]
     },
     {
@@ -2693,7 +2747,25 @@
         "es": "No se han encontrado horarios de apertura en las fuentes consultadas: consultar antes de la visita o contactar con la parroquia (+39 0422 145 6298). Una reseña menciona visitas guiadas gratuitas a cargo de voluntarios."
       },
       "sito": null,
-      "wikipedia": null
+      "wikipedia": null,
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una chiesa nata fuori dalle mura",
+            "en": "A church born outside the walls",
+            "fr": "Une église née hors des murs",
+            "de": "Eine Kirche außerhalb der Mauern",
+            "es": "Una iglesia nacida fuera de las murallas"
+          },
+          "testo": {
+            "it": "Le origini risalgono al XII secolo. Quando nel Duecento furono costruite le mura cittadine ancora esistenti, la chiesa, inizialmente esterna alla prima cerchia difensiva, acquistò importanza grazie allo sviluppo delle botteghe di commercianti e artigiani sorte nei dintorni.",
+            "en": "Its origins go back to the 12th century. When the city walls that still stand today were built in the 13th century, the church, originally outside the first defensive ring, gained importance thanks to the growth of the shops of merchants and craftsmen that sprang up nearby.",
+            "fr": "Ses origines remontent au XIIe siècle. Lorsque furent construits au XIIIe siècle les remparts encore existants, l'église, à l'origine située hors de la première enceinte défensive, gagna en importance grâce au développement des boutiques de commerçants et d'artisans apparues alentour.",
+            "de": "Ihre Anfänge reichen bis ins 12. Jahrhundert zurück. Als im 13. Jahrhundert die heute noch bestehenden Stadtmauern errichtet wurden, gewann die Kirche, die ursprünglich außerhalb des ersten Verteidigungsrings lag, durch die Entwicklung der Läden von Händlern und Handwerkern in der Umgebung an Bedeutung.",
+            "es": "Sus orígenes se remontan al siglo XII. Cuando en el siglo XIII se construyeron las murallas de la ciudad que aún existen, la iglesia, inicialmente situada fuera del primer recinto defensivo, cobró importancia gracias al desarrollo de los talleres de comerciantes y artesanos surgidos en los alrededores."
+          }
+        }
+      ]
     },
     {
       "id": "chiesa-di-sant-agostino",
