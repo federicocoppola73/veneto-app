@@ -882,6 +882,24 @@
           "licenza": "",
           "fonte": ""
         }
+      ],
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il banco dei pegni e la cappella dei Rettori",
+            "en": "The pawn bank and the Chapel of the Rectors",
+            "fr": "Le bureau de prêt sur gages et la chapelle des Recteurs",
+            "de": "Die Pfandleihe und die Kapelle der Rektoren",
+            "es": "El banco de empeños y la capilla de los Rectores"
+          },
+          "testo": {
+            "it": "L'edificio trecentesco ospitò il Monte di Pietà, istituzione nata per concedere prestiti su pegno. Al suo interno si trova la Cappella dei Rettori, decorata con affreschi di Ludovico Fiumicelli, tele di Ludovico Pozzoserrato e preziosi cuoi dorati provenienti da Cordova.",
+            "en": "The fourteenth-century building housed the Monte di Pietà, an institution created to grant loans against pledges. Inside is the Chapel of the Rectors, decorated with frescoes by Ludovico Fiumicelli, canvases by Ludovico Pozzoserrato and precious gilded leathers from Cordova.",
+            "fr": "Le bâtiment du XIVe siècle abrita le Monte di Pietà, institution née pour accorder des prêts sur gage. À l'intérieur se trouve la chapelle des Recteurs, décorée de fresques de Ludovico Fiumicelli, de toiles de Ludovico Pozzoserrato et de précieux cuirs dorés venus de Cordoue.",
+            "de": "Das Gebäude aus dem 14. Jahrhundert beherbergte das Monte di Pietà, eine Einrichtung, die Darlehen gegen Pfand gewährte. Im Inneren befindet sich die Kapelle der Rektoren, ausgeschmückt mit Fresken von Ludovico Fiumicelli, Gemälden von Ludovico Pozzoserrato und kostbaren vergoldeten Ledertapeten aus Córdoba.",
+            "es": "El edificio del siglo XIV albergó el Monte di Pietà, institución creada para conceder préstamos con prenda. En su interior se encuentra la capilla de los Rectores, decorada con frescos de Ludovico Fiumicelli, lienzos de Ludovico Pozzoserrato y preciosos cueros dorados procedentes de Córdoba."
+          }
+        }
       ]
     },
     {
@@ -1976,7 +1994,25 @@
       "wikipedia": {
         "it": "Porta Altinia"
       },
-      "curiosita": true
+      "curiosita": true,
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "L'unica porta che conserva tracce della cinta medievale",
+            "en": "The only gate that keeps traces of the medieval walls",
+            "fr": "La seule porte qui conserve des traces de l'enceinte médiévale",
+            "de": "Das einzige Tor, das Spuren der mittelalterlichen Stadtmauer bewahrt",
+            "es": "La única puerta que conserva huellas de la muralla medieval"
+          },
+          "testo": {
+            "it": "Porta Altinia fu costruita nel 1514, ma inglobò una precedente porta medievale, della quale sono ancora riconoscibili alcune strutture. La facciata rivolta verso la città era decorata con affreschi attribuiti a Pomponio Amalteo, oggi quasi completamente scomparsi.",
+            "en": "Porta Altinia was built in 1514, but it incorporated an earlier medieval gate, of which some structures are still recognisable. The façade facing the city was decorated with frescoes attributed to Pomponio Amalteo, now almost completely lost.",
+            "fr": "La porte Altinia fut construite en 1514, mais elle englobait une porte médiévale antérieure, dont on reconnaît encore certaines structures. La façade tournée vers la ville était décorée de fresques attribuées à Pomponio Amalteo, aujourd'hui presque entièrement disparues.",
+            "de": "Das Altinia-Tor wurde 1514 errichtet, umschloss jedoch ein älteres mittelalterliches Tor, von dem sich noch einige Strukturen erkennen lassen. Die zur Stadt gerichtete Fassade war mit Fresken geschmückt, die Pomponio Amalteo zugeschrieben werden und heute fast vollständig verschwunden sind.",
+            "es": "La Porta Altinia se construyó en 1514, pero englobó una puerta medieval anterior, de la que todavía son reconocibles algunas estructuras. La fachada orientada hacia la ciudad estaba decorada con frescos atribuidos a Pomponio Amalteo, hoy casi por completo desaparecidos."
+          }
+        }
+      ]
     },
     {
       "id": "la-grande-sfera",
@@ -2404,6 +2440,22 @@
             "fr": "Le musée conserve le sarcophage d'Alberto, médecin et enseignant qui donnait des cours à Trévise en 1317. Le bas-relief le représente pendant qu'il enseigne et témoigne de l'activité universitaire de la ville au Moyen Âge.",
             "de": "Das Museum bewahrt den Sarkophag des Alberto, eines Arztes und Lehrers, der 1317 in Treviso Vorlesungen hielt. Das Relief zeigt ihn beim Unterrichten und ist ein Zeugnis der universitären Tätigkeit der Stadt im Mittelalter.",
             "es": "El museo conserva el sarcófago de Alberto, un médico y profesor que en 1317 impartía clases en Treviso. El bajorrelieve lo representa mientras enseña y constituye un testimonio de la actividad universitaria de la ciudad en la Edad Media."
+          }
+        },
+        {
+          "titolo": {
+            "it": "Le antiche case dei canonici",
+            "en": "The old houses of the canons",
+            "fr": "Les anciennes maisons des chanoines",
+            "de": "Die alten Häuser der Domherren",
+            "es": "Las antiguas casas de los canónigos"
+          },
+          "testo": {
+            "it": "Il museo ha sede nelle cosiddette Canoniche Vecchie, antiche abitazioni dei canonici della Cattedrale costruite nel XII secolo. L'edificio conserva elementi architettonici medievali, tra cui un chiostro e una loggia romanici. Durante i lavori sono emersi anche importanti reperti romani, successivamente riutilizzati nelle fondazioni degli edifici medievali.",
+            "en": "The museum is housed in the so-called Canoniche Vecchie, the ancient residences of the canons of the Cathedral, built in the 12th century. The building preserves medieval architectural features, including a Romanesque cloister and loggia. During the works, important Roman finds also emerged, later reused in the foundations of the medieval buildings.",
+            "fr": "Le musée est installé dans les dites Canoniche Vecchie, anciennes demeures des chanoines de la cathédrale construites au XIIe siècle. Le bâtiment conserve des éléments architecturaux médiévaux, dont un cloître et une loggia romans. Pendant les travaux, d'importants vestiges romains sont aussi apparus, réemployés plus tard dans les fondations des édifices médiévaux.",
+            "de": "Das Museum ist im sogenannten Canoniche Vecchie untergebracht, den alten Wohnhäusern der Domherren des Doms, die im 12. Jahrhundert errichtet wurden. Das Gebäude bewahrt mittelalterliche Bauelemente, darunter einen romanischen Kreuzgang und eine romanische Loggia. Bei den Arbeiten kamen auch bedeutende römische Funde zum Vorschein, die später in den Fundamenten der mittelalterlichen Gebäude wiederverwendet wurden.",
+            "es": "El museo tiene su sede en las llamadas Canoniche Vecchie, antiguas viviendas de los canónigos de la catedral construidas en el siglo XII. El edificio conserva elementos arquitectónicos medievales, entre ellos un claustro y una logia románicos. Durante las obras también aparecieron importantes restos romanos, reutilizados más tarde en los cimientos de los edificios medievales."
           }
         }
       ]
