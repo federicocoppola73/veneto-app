@@ -84,10 +84,27 @@
         ]
       },
       "luoghi": [
+        "casa-di-andrea-brustolon",
         "mubel-museo-civico-palazzo-fulcis",
         "chiesa-di-san-pietro"
       ],
       "luoghiNote": {
+        "casa-di-andrea-brustolon": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui nacque e morì. Sulla facciata una lapide del 1897 ricorda l'artista.",
+            "en": "He was born and died here. A plaque of 1897 on the façade commemorates the artist.",
+            "fr": "Il y naquit et y mourut. Une plaque de 1897 sur la façade commémore l'artiste.",
+            "de": "Hier wurde er geboren und starb hier. Eine Tafel von 1897 an der Fassade erinnert an den Künstler.",
+            "es": "Aquí nació y murió. Una lápida de 1897 en la fachada recuerda al artista."
+          }
+        },
         "mubel-museo-civico-palazzo-fulcis": {
           "tipo": {
             "it": "Legame diretto",
