@@ -235,7 +235,10 @@
         "es": "El agua del Cagnan."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-isola-della-pescheria.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     }
   ]
 }
