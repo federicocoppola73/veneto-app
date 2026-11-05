@@ -174,7 +174,10 @@
         "es": "En la pared de la nave derecha."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-san-nicolo-san-cristoforo.webp",
+        "credits": "Geobia – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "sala-del-capitolo-dei-domenicani",
