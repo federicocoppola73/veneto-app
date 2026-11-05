@@ -1,0 +1,856 @@
+{
+  "personaggi": [
+    {
+      "id": "andrea-brustolon",
+      "nome": "Andrea Brustolon",
+      "nascita": 1662,
+      "morte": 1732,
+      "professione": {
+        "it": "Scultore e intagliatore del legno",
+        "en": "Sculptor and woodcarver",
+        "fr": "Sculpteur et sculpteur sur bois",
+        "de": "Bildhauer und Holzschnitzer",
+        "es": "Escultor y tallista de madera"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "20 luglio 1662",
+        "en": "20 July 1662",
+        "fr": "20 juillet 1662",
+        "de": "20. Juli 1662",
+        "es": "20 de julio de 1662"
+      },
+      "luogoMorte": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataMorte": {
+        "it": "25 ottobre 1732",
+        "en": "25 October 1732",
+        "fr": "25 octobre 1732",
+        "de": "25. Oktober 1732",
+        "es": "25 de octubre de 1732"
+      },
+      "ritratto": {
+        "autore": "Yair-haklai",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Andrea Brustolon è stato uno dei più importanti scultori e intagliatori del legno del Barocco veneto. Figlio di uno scultore e intagliatore, ricevette dal padre i primi insegnamenti artistici. Nel 1677 si trasferì a Venezia, dove frequentò la bottega dello scultore Filippo Parodi. Dopo un soggiorno a Roma, tornò a lavorare tra Venezia e il Bellunese, realizzando opere religiose, altari, arredi e sculture. Fu particolarmente apprezzato dalle grandi famiglie veneziane per la qualità e la ricchezza dei suoi mobili intagliati.",
+        "en": "Andrea Brustolon was one of the most important sculptors and woodcarvers of the Venetian Baroque. The son of a sculptor and woodcarver, he received his first artistic training from his father. In 1677 he moved to Venice, where he attended the workshop of the sculptor Filippo Parodi. After a stay in Rome, he returned to work between Venice and the Belluno area, producing religious works, altars, furnishings and sculptures. He was especially valued by the great Venetian families for the quality and richness of his carved furniture.",
+        "fr": "Andrea Brustolon fut l'un des plus importants sculpteurs et sculpteurs sur bois du baroque vénitien. Fils d'un sculpteur et sculpteur sur bois, il reçut de son père ses premiers enseignements artistiques. En 1677, il s'installa à Venise, où il fréquenta l'atelier du sculpteur Filippo Parodi. Après un séjour à Rome, il revint travailler entre Venise et la région de Belluno, réalisant des œuvres religieuses, des autels, des mobiliers et des sculptures. Il fut particulièrement apprécié des grandes familles vénitiennes pour la qualité et la richesse de ses meubles sculptés.",
+        "de": "Andrea Brustolon war einer der bedeutendsten Bildhauer und Holzschnitzer des venezianischen Barock. Als Sohn eines Bildhauers und Holzschnitzers erhielt er von seinem Vater die ersten künstlerischen Unterweisungen. 1677 zog er nach Venedig, wo er in der Werkstatt des Bildhauers Filippo Parodi arbeitete. Nach einem Aufenthalt in Rom kehrte er zurück und arbeitete zwischen Venedig und dem Gebiet um Belluno, wo er religiöse Werke, Altäre, Ausstattungen und Skulpturen schuf. Die großen venezianischen Familien schätzten ihn besonders für die Qualität und den Reichtum seiner geschnitzten Möbel.",
+        "es": "Andrea Brustolon fue uno de los escultores y tallistas de madera más importantes del barroco véneto. Hijo de un escultor y tallista, recibió de su padre sus primeras enseñanzas artísticas. En 1677 se trasladó a Venecia, donde frecuentó el taller del escultor Filippo Parodi. Tras una estancia en Roma, volvió a trabajar entre Venecia y el Bellunés, realizando obras religiosas, altares, mobiliario y esculturas. Fue especialmente apreciado por las grandes familias venecianas por la calidad y la riqueza de sus muebles tallados."
+      },
+      "curiosita": {
+        "it": [
+          "Honoré de Balzac lo definì il «Michelangelo del legno», per la straordinaria abilità nella lavorazione e nell'intaglio.",
+          "Le sue opere non erano soltanto decorative: spesso presentavano composizioni complesse, ricche di figure allegoriche, simboli religiosi e dettagli anatomici.",
+          "Nel Museo Civico di Belluno è conservato anche un album completo dei suoi disegni, importante testimonianza del suo metodo di progettazione.",
+          "Un Crocifisso di sua mano, appartenuto a una famiglia bellunese, è stato donato ai Musei Civici nel 2017."
+        ],
+        "en": [
+          "Honoré de Balzac called him the «Michelangelo of wood», for his extraordinary skill in working and carving.",
+          "His works were not merely decorative: they often featured complex compositions full of allegorical figures, religious symbols and anatomical detail.",
+          "The Museo Civico in Belluno also holds a complete album of his drawings, an important record of his design method.",
+          "A Crucifix by his hand, once owned by a Belluno family, was donated to the Musei Civici in 2017."
+        ],
+        "fr": [
+          "Honoré de Balzac le définit le « Michel-Ange du bois », pour son extraordinaire habileté dans le travail et la sculpture.",
+          "Ses œuvres n'étaient pas seulement décoratives : elles présentaient souvent des compositions complexes, riches de figures allégoriques, de symboles religieux et de détails anatomiques.",
+          "Le Musée civique de Belluno conserve aussi un album complet de ses dessins, témoignage important de sa méthode de conception.",
+          "Un Crucifix de sa main, ayant appartenu à une famille de Belluno, a été donné aux Musées civiques en 2017."
+        ],
+        "de": [
+          "Honoré de Balzac nannte ihn den «Michelangelo des Holzes», wegen seiner außergewöhnlichen Fertigkeit in Bearbeitung und Schnitzkunst.",
+          "Seine Werke waren nicht nur dekorativ: Oft zeigten sie komplexe Kompositionen mit allegorischen Figuren, religiösen Symbolen und anatomischen Details.",
+          "Im Museo Civico von Belluno wird auch ein vollständiges Album seiner Zeichnungen aufbewahrt, ein wichtiges Zeugnis seiner Entwurfsmethode.",
+          "Ein Kruzifix aus seiner Hand, das einer Familie aus Belluno gehörte, wurde 2017 den Musei Civici geschenkt."
+        ],
+        "es": [
+          "Honoré de Balzac lo definió como el «Miguel Ángel de la madera», por su extraordinaria habilidad en el trabajo y la talla.",
+          "Sus obras no eran solo decorativas: a menudo presentaban composiciones complejas, llenas de figuras alegóricas, símbolos religiosos y detalles anatómicos.",
+          "En el Museo Cívico de Belluno se conserva también un álbum completo de sus dibujos, un importante testimonio de su método de diseño.",
+          "Un Crucifijo de su mano, que perteneció a una familia bellunesa, fue donado a los Museos Cívicos en 2017."
+        ]
+      },
+      "luoghi": [
+        "casa-di-andrea-brustolon",
+        "mubel-museo-civico-palazzo-fulcis",
+        "chiesa-di-san-pietro"
+      ],
+      "luoghiNote": {
+        "casa-di-andrea-brustolon": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui nacque e morì. Sulla facciata una lapide del 1897 ricorda l'artista.",
+            "en": "He was born and died here. A plaque of 1897 on the façade commemorates the artist.",
+            "fr": "Il y naquit et y mourut. Une plaque de 1897 sur la façade commémore l'artiste.",
+            "de": "Hier wurde er geboren und starb hier. Eine Tafel von 1897 an der Fassade erinnert an den Künstler.",
+            "es": "Aquí nació y murió. Una lápida de 1897 en la fachada recuerda al artista."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Conserva una delle raccolte pubbliche più importanti di opere di Brustolon. Nella sala 15 sono esposti modelli in terracotta e un Crocifisso d'altare; il museo custodisce inoltre disegni e altre opere dell'artista.",
+            "en": "It holds one of the most important public collections of Brustolon's works. Room 15 displays terracotta models and an altar crucifix; the museum also keeps drawings and other works by the artist.",
+            "fr": "Il conserve l'une des plus importantes collections publiques d'œuvres de Brustolon. La salle 15 présente des modèles en terre cuite et un crucifix d'autel ; le musée conserve aussi des dessins et d'autres œuvres de l'artiste.",
+            "de": "Es besitzt eine der bedeutendsten öffentlichen Sammlungen von Werken Brustolons. In Saal 15 sind Terrakotta-Modelle und ein Altarkruzifix ausgestellt; das Museum bewahrt außerdem Zeichnungen und weitere Werke des Künstlers.",
+            "es": "Conserva una de las colecciones públicas más importantes de obras de Brustolon. En la sala 15 se exponen modelos en terracota y un Crucifijo de altar; el museo custodia además dibujos y otras obras del artista."
+          }
+        },
+        "chiesa-di-san-pietro": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "È legata alla storia religiosa e artistica della città in cui Brustolon operò.",
+            "en": "It is linked to the religious and artistic history of the city where Brustolon worked.",
+            "fr": "Elle est liée à l'histoire religieuse et artistique de la ville où Brustolon a travaillé.",
+            "de": "Sie ist mit der religiösen und künstlerischen Geschichte der Stadt verbunden, in der Brustolon tätig war.",
+            "es": "Está ligada a la historia religiosa y artística de la ciudad en la que trabajó Brustolon."
+          }
+        }
+      },
+      "collegati": []
+    },
+    {
+      "id": "sebastiano-ricci",
+      "nome": "Sebastiano Ricci",
+      "nascita": 1659,
+      "morte": 1734,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "1659",
+        "en": "1659",
+        "fr": "1659",
+        "de": "1659",
+        "es": "1659"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "15 maggio 1734",
+        "en": "15 May 1734",
+        "fr": "15 mai 1734",
+        "de": "15. Mai 1734",
+        "es": "15 de mayo de 1734"
+      },
+      "ritratto": {
+        "autore": "Rosalba Carriera",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Sebastiano Ricci fu uno dei protagonisti della pittura veneziana ed europea tra Sei e Settecento. Nato a Belluno, si formò artisticamente in Veneto e successivamente lavorò in numerose città italiane ed europee, tra cui Bologna, Firenze, Roma, Vienna e Londra. La sua pittura, caratterizzata da colori luminosi, composizioni dinamiche e grande teatralità, contribuì al passaggio dal Barocco al Rococò.",
+        "en": "Sebastiano Ricci was one of the leading figures of Venetian and European painting between the seventeenth and eighteenth centuries. Born in Belluno, he trained artistically in the Veneto and later worked in many Italian and European cities, including Bologna, Florence, Rome, Vienna and London. His painting, marked by luminous colours, dynamic compositions and great theatricality, helped bring about the transition from the Baroque to the Rococo.",
+        "fr": "Sebastiano Ricci fut l'un des protagonistes de la peinture vénitienne et européenne entre le XVIIe et le XVIIIe siècle. Né à Belluno, il se forma dans la Vénétie puis travailla dans de nombreuses villes italiennes et européennes, dont Bologne, Florence, Rome, Vienne et Londres. Sa peinture, marquée par des couleurs lumineuses, des compositions dynamiques et une grande théâtralité, contribua au passage du baroque au rococo.",
+        "de": "Sebastiano Ricci war einer der führenden Maler der venezianischen und europäischen Malerei zwischen dem 17. und dem 18. Jahrhundert. In Belluno geboren, wurde er im Veneto ausgebildet und arbeitete später in zahlreichen italienischen und europäischen Städten, darunter Bologna, Florenz, Rom, Wien und London. Seine Malerei, geprägt von leuchtenden Farben, dynamischen Kompositionen und großer Theatralik, trug zum Übergang vom Barock zum Rokoko bei.",
+        "es": "Sebastiano Ricci fue uno de los protagonistas de la pintura veneciana y europea entre los siglos XVII y XVIII. Nacido en Belluno, se formó artísticamente en el Véneto y después trabajó en numerosas ciudades italianas y europeas, entre ellas Bolonia, Florencia, Roma, Viena y Londres. Su pintura, caracterizada por colores luminosos, composiciones dinámicas y gran teatralidad, contribuyó al paso del Barroco al Rococó."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo cognome originario era Rizzi: la forma Ricci si affermò soltanto nel Novecento.",
+          "Lavorò per importanti famiglie e corti europee, tra cui quella degli Asburgo a Vienna.",
+          "Collaborò in diverse occasioni con il nipote Marco Ricci, specializzato nella pittura di paesaggio.",
+          "Nel 1704 realizzò decorazioni per Palazzo Fulcis a Belluno, commissionate da Pietro Fulcis in occasione della sua ammissione nell'Ordine dei Cavalieri di Malta."
+        ],
+        "en": [
+          "His original surname was Rizzi: the form Ricci only became established in the twentieth century.",
+          "He worked for important families and European courts, including the Habsburgs in Vienna.",
+          "On several occasions he collaborated with his nephew Marco Ricci, a specialist in landscape painting.",
+          "In 1704 he created decorations for Palazzo Fulcis in Belluno, commissioned by Pietro Fulcis on his admission to the Order of the Knights of Malta."
+        ],
+        "fr": [
+          "Son nom d'origine était Rizzi : la forme Ricci ne s'imposa qu'au XXe siècle.",
+          "Il travailla pour d'importantes familles et cours européennes, dont celle des Habsbourg à Vienne.",
+          "Il collabora à plusieurs reprises avec son neveu Marco Ricci, spécialiste de la peinture de paysage.",
+          "En 1704, il réalisa des décorations pour le palais Fulcis à Belluno, commandées par Pietro Fulcis à l'occasion de son admission dans l'ordre des chevaliers de Malte."
+        ],
+        "de": [
+          "Sein ursprünglicher Familienname war Rizzi: Die Form Ricci setzte sich erst im 20. Jahrhundert durch.",
+          "Er arbeitete für bedeutende Familien und europäische Höfe, darunter die Habsburger in Wien.",
+          "Mehrfach arbeitete er mit seinem Neffen Marco Ricci zusammen, einem Spezialisten für Landschaftsmalerei.",
+          "1704 schuf er Ausstattungen für den Palazzo Fulcis in Belluno, in Auftrag gegeben von Pietro Fulcis anlässlich seiner Aufnahme in den Malteserorden."
+        ],
+        "es": [
+          "Su apellido original era Rizzi: la forma Ricci no se impuso hasta el siglo XX.",
+          "Trabajó para importantes familias y cortes europeas, entre ellas la de los Habsburgo en Viena.",
+          "En varias ocasiones colaboró con su sobrino Marco Ricci, especializado en la pintura de paisaje.",
+          "En 1704 realizó decoraciones para el palacio Fulcis de Belluno, encargadas por Pietro Fulcis con motivo de su admisión en la Orden de los Caballeros de Malta."
+        ]
+      },
+      "luoghi": [
+        "mubel-museo-civico-palazzo-fulcis",
+        "chiesa-di-san-pietro"
+      ],
+      "luoghiNote": {
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Conserva le opere provenienti dal ciclo mitologico commissionato dalla famiglia Fulcis. Le tele, disperse nell'Ottocento, furono recuperate e acquistate dal Comune. Il museo dedica inoltre una sezione a Sebastiano e Marco Ricci.",
+            "en": "It keeps the works from the mythological cycle commissioned by the Fulcis family. The canvases were dispersed in the nineteenth century, then recovered and bought by the Comune. The museum also has a section devoted to Sebastiano and Marco Ricci.",
+            "fr": "Il conserve les œuvres du cycle mythologique commandé par la famille Fulcis. Les toiles, dispersées au XIXe siècle, furent récupérées et achetées par la commune. Le musée consacre en outre une section à Sebastiano et Marco Ricci.",
+            "de": "Es bewahrt die Werke aus dem mythologischen Zyklus, den die Familie Fulcis in Auftrag gegeben hatte. Die Leinwände wurden im 19. Jahrhundert zerstreut, später von der Stadt zurückerworben und angekauft. Das Museum widmet außerdem einen Bereich Sebastiano und Marco Ricci.",
+            "es": "Conserva las obras procedentes del ciclo mitológico encargado por la familia Fulcis. Los lienzos, dispersos en el siglo XIX, fueron recuperados y adquiridos por el Ayuntamiento. El museo dedica además una sección a Sebastiano y Marco Ricci."
+          }
+        },
+        "chiesa-di-san-pietro": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "La cappella Fulcis è legata alla presenza di opere e commissioni della famiglia che sostenne l'artista.",
+            "en": "The Fulcis chapel is linked to the works and commissions of the family that supported the artist.",
+            "fr": "La chapelle Fulcis est liée à la présence d'œuvres et de commandes de la famille qui soutint l'artiste.",
+            "de": "Die Cappella Fulcis steht in Verbindung mit Werken und Aufträgen der Familie, die den Künstler unterstützte.",
+            "es": "La capilla Fulcis está ligada a obras y encargos de la familia que apoyó al artista."
+          }
+        }
+      },
+      "collegati": []
+    },
+    {
+      "id": "ippolito-caffi",
+      "nome": "Ippolito Caffi",
+      "nascita": 1809,
+      "morte": 1866,
+      "professione": {
+        "it": "Pittore di vedute e paesaggi",
+        "en": "Painter of views and landscapes",
+        "fr": "Peintre de vues et de paysages",
+        "de": "Maler von Ansichten und Landschaften",
+        "es": "Pintor de vistas y paisajes"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "16 ottobre 1809",
+        "en": "16 October 1809",
+        "fr": "16 octobre 1809",
+        "de": "16. Oktober 1809",
+        "es": "16 de octubre de 1809"
+      },
+      "luogoMorte": {
+        "it": "Lissa",
+        "en": "Lissa",
+        "fr": "Lissa",
+        "de": "Lissa",
+        "es": "Lissa"
+      },
+      "dataMorte": {
+        "it": "20 luglio 1866",
+        "en": "20 July 1866",
+        "fr": "20 juillet 1866",
+        "de": "20. Juli 1866",
+        "es": "20 de julio de 1866"
+      },
+      "ritratto": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Ippolito Caffi è stato un importante pittore italiano dell'Ottocento, specializzato soprattutto in vedute urbane e paesaggi. Dopo i primi studi a Belluno e Padova, proseguì la formazione a Venezia e Roma. Viaggiò molto in Italia, Europa e Oriente, realizzando dipinti caratterizzati da particolari effetti di luce e atmosfera. Fu anche un sostenitore della causa risorgimentale e partecipò attivamente alle vicende politiche del suo tempo.",
+        "en": "Ippolito Caffi was an important nineteenth-century Italian painter, best known for his urban views and landscapes. After his first studies in Belluno and Padua, he continued his training in Venice and Rome. He travelled widely in Italy, Europe and the East, producing paintings marked by striking effects of light and atmosphere. He was also a supporter of the Risorgimento and took an active part in the political events of his time.",
+        "fr": "Ippolito Caffi fut un important peintre italien du XIXe siècle, spécialisé surtout dans les vues urbaines et les paysages. Après ses premières études à Belluno et à Padoue, il poursuivit sa formation à Venise et à Rome. Il voyagea beaucoup en Italie, en Europe et en Orient, réalisant des tableaux marqués par des effets singuliers de lumière et d'atmosphère. Il fut aussi un partisan de la cause du Risorgimento et participa activement aux événements politiques de son temps.",
+        "de": "Ippolito Caffi war ein bedeutender italienischer Maler des 19. Jahrhunderts, vor allem bekannt für Stadtansichten und Landschaften. Nach ersten Studien in Belluno und Padua vervollkommnete er seine Ausbildung in Venedig und Rom. Er reiste viel durch Italien, Europa und den Orient und schuf Gemälde, die sich durch besondere Licht- und Atmosphäreneffekte auszeichnen. Außerdem unterstützte er die Sache des Risorgimento und nahm aktiv am politischen Geschehen seiner Zeit teil.",
+        "es": "Ippolito Caffi fue un importante pintor italiano del siglo XIX, especializado sobre todo en vistas urbanas y paisajes. Tras sus primeros estudios en Belluno y Padua, completó su formación en Venecia y Roma. Viajó mucho por Italia, Europa y Oriente, realizando pinturas caracterizadas por efectos particulares de luz y atmósfera. Fue también partidario del Risorgimento y participó activamente en los acontecimientos políticos de su tiempo."
+      },
+      "curiosita": {
+        "it": [
+          "Era un pittore viaggiatore: utilizzava i suoi spostamenti per studiare paesaggi, città, monumenti e condizioni atmosferiche.",
+          "Si interessò agli effetti luminosi più inconsueti, dipingendo anche eclissi, fuochi artificiali e scene notturne.",
+          "Nel 1847 salì in mongolfiera con l'aeronauta francese Arban per osservare il paesaggio da una prospettiva insolita.",
+          "Morì durante la battaglia navale di Lissa, sulla nave ammiraglia italiana Re d'Italia. Aveva voluto partecipare allo scontro per documentarlo attraverso la pittura."
+        ],
+        "en": [
+          "He was a travelling painter: he used his journeys to study landscapes, cities, monuments and weather conditions.",
+          "He was drawn to the most unusual lighting effects, painting eclipses, fireworks and night scenes as well.",
+          "In 1847 he flew in a hot-air balloon with the French aeronaut Arban, to observe the landscape from an unusual viewpoint.",
+          "He died during the naval battle of Lissa, aboard the Italian flagship Re d'Italia. He had wanted to take part in the clash so as to record it in painting."
+        ],
+        "fr": [
+          "C'était un peintre voyageur : il mettait à profit ses déplacements pour étudier les paysages, les villes, les monuments et les conditions atmosphériques.",
+          "Il s'intéressa aux effets lumineux les plus inhabituels, peignant aussi des éclipses, des feux d'artifice et des scènes nocturnes.",
+          "En 1847, il monta en montgolfière avec l'aéronaute français Arban pour observer le paysage sous un angle inhabituel.",
+          "Il mourut pendant la bataille navale de Lissa, à bord du navire amiral italien Re d'Italia. Il avait voulu prendre part à l'affrontement pour le documenter par la peinture."
+        ],
+        "de": [
+          "Er war ein reisender Maler: Seine Reisen nutzte er, um Landschaften, Städte, Denkmäler und Witterungsverhältnisse zu studieren.",
+          "Er interessierte sich für ungewöhnliche Lichteffekte und malte auch Sonnenfinsternisse, Feuerwerke und Nachtszenen.",
+          "1847 stieg er mit dem französischen Aeronauten Arban in einem Heißluftballon auf, um die Landschaft aus ungewohnter Perspektive zu betrachten.",
+          "Er starb während der Seeschlacht von Lissa an Bord des italienischen Flaggschiffs Re d'Italia. Er hatte an der Schlacht teilnehmen wollen, um sie in der Malerei festzuhalten."
+        ],
+        "es": [
+          "Era un pintor viajero: aprovechaba sus desplazamientos para estudiar paisajes, ciudades, monumentos y condiciones atmosféricas.",
+          "Se interesó por los efectos de luz más inusuales, pintando también eclipses, fuegos artificiales y escenas nocturnas.",
+          "En 1847 subió en globo aerostático con el aeronauta francés Arban para observar el paisaje desde una perspectiva insólita.",
+          "Murió durante la batalla naval de Lissa, a bordo del buque insignia italiano Re d'Italia. Había querido participar en el combate para documentarlo mediante la pintura."
+        ]
+      },
+      "luoghi": [
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Ospita una sezione dedicata a Caffi, con disegni, schizzi e dipinti della sua terra natale. Sono opere realizzate durante i suoi frequenti ritorni a Belluno e costituiscono una testimonianza importante del suo legame con la città.",
+            "en": "It has a section devoted to Caffi, with drawings, sketches and paintings from his native land. They were made during his frequent returns to Belluno and are an important record of his bond with the city.",
+            "fr": "Il abrite une section consacrée à Caffi, avec des dessins, des esquisses et des peintures de sa terre natale. Ces œuvres ont été réalisées lors de ses fréquents retours à Belluno et témoignent de son lien avec la ville.",
+            "de": "Es gibt einen Bereich, der Caffi gewidmet ist, mit Zeichnungen, Skizzen und Gemälden aus seiner Heimat. Sie entstanden bei seinen häufigen Rückkehren nach Belluno und bezeugen seine Verbundenheit mit der Stadt.",
+            "es": "Alberga una sección dedicada a Caffi, con dibujos, bocetos y pinturas de su tierra natal. Son obras realizadas durante sus frecuentes regresos a Belluno y dan testimonio de su vínculo con la ciudad."
+          }
+        }
+      },
+      "collegati": []
+    },
+    {
+      "id": "dino-buzzati",
+      "nome": "Dino Buzzati",
+      "nascita": 1906,
+      "morte": 1972,
+      "professione": {
+        "it": "Scrittore, giornalista e pittore",
+        "en": "Writer, journalist and painter",
+        "fr": "Écrivain, journaliste et peintre",
+        "de": "Schriftsteller, Journalist und Maler",
+        "es": "Escritor, periodista y pintor"
+      },
+      "luogoNascita": {
+        "it": "San Pellegrino (BL)",
+        "en": "San Pellegrino (Belluno)",
+        "fr": "San Pellegrino (Belluno)",
+        "de": "San Pellegrino (Belluno)",
+        "es": "San Pellegrino (Belluno)"
+      },
+      "dataNascita": {
+        "it": "16 ottobre 1906",
+        "en": "16 October 1906",
+        "fr": "16 octobre 1906",
+        "de": "16. Oktober 1906",
+        "es": "16 de octubre de 1906"
+      },
+      "luogoMorte": {
+        "it": "Milano",
+        "en": "Milan",
+        "fr": "Milan",
+        "de": "Mailand",
+        "es": "Milán"
+      },
+      "dataMorte": {
+        "it": "28 gennaio 1972",
+        "en": "28 January 1972",
+        "fr": "28 janvier 1972",
+        "de": "28. Januar 1972",
+        "es": "28 de enero de 1972"
+      },
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Dino Buzzati è stato uno dei più importanti scrittori italiani del Novecento. Nato nella villa di famiglia a San Pellegrino, vicino a Belluno, trascorse parte della sua infanzia tra le montagne bellunesi. Dopo gli studi in giurisprudenza a Milano, iniziò a lavorare al Corriere della Sera, dove divenne giornalista, redattore e inviato speciale. Accanto all'attività giornalistica sviluppò una ricca produzione letteraria e artistica, distinguendosi per il suo immaginario fantastico, surreale e spesso legato al mistero.",
+        "en": "Dino Buzzati was one of the most important Italian writers of the twentieth century. Born in the family villa at San Pellegrino, near Belluno, he spent part of his childhood among the Belluno mountains. After studying law in Milan, he began working for the Corriere della Sera, where he became a journalist, editor and special correspondent. Alongside his journalism he developed a rich literary and artistic output, distinguished by a fantastical, surreal imagination often tied to mystery.",
+        "fr": "Dino Buzzati fut l'un des plus grands écrivains italiens du XXe siècle. Né dans la villa familiale de San Pellegrino, près de Belluno, il passa une partie de son enfance dans les montagnes bellunaises. Après des études de droit à Milan, il commença à travailler pour le Corriere della Sera, où il devint journaliste, rédacteur et envoyé spécial. Parallèlement à son activité journalistique, il développa une riche production littéraire et artistique, se distinguant par un imaginaire fantastique, surréaliste et souvent lié au mystère.",
+        "de": "Dino Buzzati war einer der bedeutendsten italienischen Schriftsteller des 20. Jahrhunderts. In der Familienvilla in San Pellegrino bei Belluno geboren, verbrachte er einen Teil seiner Kindheit in den Bergen um Belluno. Nach einem Jurastudium in Mailand begann er beim Corriere della Sera zu arbeiten, wo er Journalist, Redakteur und Sonderberichterstatter wurde. Neben seiner journalistischen Tätigkeit entwickelte er ein reiches literarisches und künstlerisches Werk, das sich durch eine fantastische, surreale und oft geheimnisvolle Vorstellungswelt auszeichnet.",
+        "es": "Dino Buzzati fue uno de los escritores italianos más importantes del siglo XX. Nacido en la villa familiar de San Pellegrino, cerca de Belluno, pasó parte de su infancia entre las montañas bellunesas. Tras estudiar Derecho en Milán, empezó a trabajar en el Corriere della Sera, donde llegó a ser periodista, redactor y enviado especial. Junto a su labor periodística desarrolló una rica producción literaria y artística, distinguida por un imaginario fantástico, surrealista y a menudo ligado al misterio."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo romanzo più famoso, Il deserto dei Tartari, uscì nel 1940 ed è considerato uno dei grandi classici della letteratura italiana contemporanea.",
+          "Scrisse e illustrò La famosa invasione degli orsi in Sicilia, una storia fantastica pubblicata nel 1945.",
+          "Fu anche pittore e illustratore: le sue opere visive presentano spesso gli stessi temi misteriosi e fantastici dei suoi racconti.",
+          "La montagna e le Dolomiti furono presenze importanti nella sua vita e nella sua produzione letteraria.",
+          "Fu sepolto nella cappella della villa di famiglia a San Pellegrino, secondo il suo desiderio."
+        ],
+        "en": [
+          "His most famous novel, The Tartar Steppe, came out in 1940 and is considered one of the great classics of contemporary Italian literature.",
+          "He wrote and illustrated The Famous Invasion of the Bears in Sicily, a fantastical story published in 1945.",
+          "He was also a painter and illustrator: his visual works often share the same mysterious and fantastical themes as his stories.",
+          "The mountains and the Dolomites were important presences in his life and in his literary work.",
+          "As he wished, he was buried in the chapel of the family villa at San Pellegrino."
+        ],
+        "fr": [
+          "Son roman le plus célèbre, Le Désert des Tartares, parut en 1940 et est considéré comme l'un des grands classiques de la littérature italienne contemporaine.",
+          "Il écrivit et illustra La Fameuse Invasion des ours en Sicile, un récit fantastique publié en 1945.",
+          "Il fut aussi peintre et illustrateur : ses œuvres visuelles reprennent souvent les mêmes thèmes mystérieux et fantastiques que ses récits.",
+          "La montagne et les Dolomites furent des présences importantes dans sa vie et dans son œuvre littéraire.",
+          "Conformément à son souhait, il fut enterré dans la chapelle de la villa familiale de San Pellegrino."
+        ],
+        "de": [
+          "Sein berühmtester Roman, Die Tatarenwüste, erschien 1940 und gilt als einer der großen Klassiker der italienischen Gegenwartsliteratur.",
+          "Er schrieb und illustrierte »La famosa invasione degli orsi in Sicilia«, eine fantastische Geschichte, die 1945 veröffentlicht wurde.",
+          "Er war auch Maler und Illustrator: Seine bildnerischen Werke greifen oft dieselben geheimnisvollen und fantastischen Themen auf wie seine Erzählungen.",
+          "Die Berge und die Dolomiten waren wichtige Begleiter in seinem Leben und in seinem literarischen Werk.",
+          "Seinem Wunsch entsprechend wurde er in der Kapelle der Familienvilla in San Pellegrino beigesetzt."
+        ],
+        "es": [
+          "Su novela más famosa, El desierto de los tártaros, salió en 1940 y se considera uno de los grandes clásicos de la literatura italiana contemporánea.",
+          "Escribió e ilustró La famosa invasión de los osos en Sicilia, una historia fantástica publicada en 1945.",
+          "También fue pintor e ilustrador: sus obras visuales presentan a menudo los mismos temas misteriosos y fantásticos de sus relatos.",
+          "La montaña y las Dolomitas fueron presencias importantes en su vida y en su producción literaria.",
+          "Según su deseo, fue enterrado en la capilla de la villa familiar de San Pellegrino."
+        ]
+      },
+      "luoghi": [
+        "villa-buzzati-traverso",
+        "teatro-comunale-dino-buzzati",
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "villa-buzzati-traverso": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui nacque nel 1906 e trascorse molte estati. È il luogo più direttamente legato alla sua biografia.",
+            "en": "He was born here in 1906 and spent many summers in it. It is the place most directly linked to his life story.",
+            "fr": "Il y naquit en 1906 et y passa de nombreux étés. C'est le lieu le plus directement lié à sa biographie.",
+            "de": "Hier wurde er 1906 geboren, und hier verbrachte er viele Sommer. Es ist der Ort, der am unmittelbarsten mit seiner Biografie verbunden ist.",
+            "es": "Aquí nació en 1906 y pasó muchos veranos. Es el lugar más directamente ligado a su biografía."
+          }
+        },
+        "teatro-comunale-dino-buzzati": {
+          "tipo": {
+            "it": "Intitolazione",
+            "en": "Dedication",
+            "fr": "Dédicace",
+            "de": "Widmung",
+            "es": "Dedicatoria"
+          },
+          "testo": {
+            "it": "Porta il suo nome in omaggio allo scrittore bellunese. Il legame è di intitolazione e memoria culturale, non di attività personale di Buzzati all'interno dell'edificio.",
+            "en": "It bears his name in homage to the Belluno writer. The link is one of dedication and cultural memory, not of personal activity by Buzzati inside the building.",
+            "fr": "Il porte son nom en hommage à l'écrivain bellunais. Le lien est celui d'une dédicace et d'une mémoire culturelle, non d'une activité personnelle de Buzzati dans le bâtiment.",
+            "de": "Es trägt seinen Namen zu Ehren des Schriftstellers aus Belluno. Die Verbindung besteht in der Widmung und im kulturellen Gedenken, nicht in einer persönlichen Tätigkeit Buzzatis innerhalb des Gebäudes.",
+            "es": "Lleva su nombre en homenaje al escritor bellunés. El vínculo es de dedicatoria y memoria cultural, no de una actividad personal de Buzzati dentro del edificio."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "Ha ospitato mostre dedicate alla sua produzione pittorica, come l'esposizione Buzzati pittore.",
+            "en": "It has hosted exhibitions devoted to his painting, such as the show Buzzati pittore.",
+            "fr": "Il a accueilli des expositions consacrées à sa production picturale, comme l'exposition Buzzati pittore.",
+            "de": "Hier fanden Ausstellungen zu seinem malerischen Werk statt, etwa die Schau Buzzati pittore.",
+            "es": "Ha acogido exposiciones dedicadas a su obra pictórica, como la muestra Buzzati pittore."
+          }
+        }
+      },
+      "collegati": []
+    },
+    {
+      "id": "gaspare-diziani",
+      "nome": "Gaspare Diziani",
+      "nascita": 1689,
+      "morte": 1767,
+      "professione": {
+        "it": "Pittore e incisore",
+        "en": "Painter and engraver",
+        "fr": "Peintre et graveur",
+        "de": "Maler und Kupferstecher",
+        "es": "Pintor y grabador"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "1689",
+        "en": "1689",
+        "fr": "1689",
+        "de": "1689",
+        "es": "1689"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "1767",
+        "en": "1767",
+        "fr": "1767",
+        "de": "1767",
+        "es": "1767"
+      },
+      "ritratto": {
+        "autore": "Alessandro Longhi",
+        "licenza": ""
+      },
+      "biografia": {
+        "it": "Gaspare Diziani fu un pittore e incisore del Settecento, nato a Belluno. Si formò inizialmente nella sua città con Antonio Lazzarini, per poi trasferirsi a Venezia, dove frequentò le botteghe di Gregorio Lazzarini e Sebastiano Ricci. Lavorò in diverse città europee, tra cui Monaco e Dresda, dove realizzò decorazioni e scenografie teatrali per la corte di Sassonia. La sua produzione comprende dipinti religiosi, scene mitologiche, paesaggi e grandi decorazioni.",
+        "en": "Gaspare Diziani was an eighteenth-century painter and engraver, born in Belluno. He first trained in his home city with Antonio Lazzarini, then moved to Venice, where he frequented the workshops of Gregorio Lazzarini and Sebastiano Ricci. He worked in several European cities, including Munich and Dresden, where he produced decorations and theatre sets for the Saxon court. His output includes religious paintings, mythological scenes, landscapes and large decorative schemes.",
+        "fr": "Gaspare Diziani fut un peintre et graveur du XVIIIe siècle, né à Belluno. Il se forma d'abord dans sa ville natale auprès d'Antonio Lazzarini, puis s'installa à Venise, où il fréquenta les ateliers de Gregorio Lazzarini et de Sebastiano Ricci. Il travailla dans plusieurs villes européennes, dont Munich et Dresde, où il réalisa des décorations et des décors de théâtre pour la cour de Saxe. Sa production comprend des tableaux religieux, des scènes mythologiques, des paysages et de grands décors.",
+        "de": "Gaspare Diziani war ein Maler und Kupferstecher des 18. Jahrhunderts, geboren in Belluno. Seine erste Ausbildung erhielt er in seiner Heimatstadt bei Antonio Lazzarini, dann zog er nach Venedig, wo er die Werkstätten von Gregorio Lazzarini und Sebastiano Ricci besuchte. Er arbeitete in mehreren europäischen Städten, darunter München und Dresden, wo er für den sächsischen Hof Ausstattungen und Theaterdekorationen schuf. Zu seinem Werk gehören religiöse Gemälde, mythologische Szenen, Landschaften und große Dekorationen.",
+        "es": "Gaspare Diziani fue un pintor y grabador del siglo XVIII, nacido en Belluno. Se formó primero en su ciudad con Antonio Lazzarini y después se trasladó a Venecia, donde frecuentó los talleres de Gregorio Lazzarini y Sebastiano Ricci. Trabajó en varias ciudades europeas, entre ellas Múnich y Dresde, donde realizó decoraciones y escenografías teatrales para la corte de Sajonia. Su producción incluye pinturas religiosas, escenas mitológicas, paisajes y grandes decoraciones."
+      },
+      "curiosita": {
+        "it": [
+          "Fu anche scenografo teatrale e lavorò alla corte di Augusto III di Sassonia a Dresda.",
+          "La sua pittura è caratterizzata da colori vivaci, composizioni movimentate e una notevole rapidità esecutiva.",
+          "Nel 1766 venne eletto presidente dell'Accademia di Pittura di Venezia.",
+          "Ebbe un figlio, Antonio Diziani, anch'egli pittore, specializzato soprattutto nei paesaggi."
+        ],
+        "en": [
+          "He was also a theatre designer and worked at the court of Augustus III of Saxony in Dresden.",
+          "His painting is marked by vivid colours, animated compositions and remarkable speed of execution.",
+          "In 1766 he was elected president of the Venetian Academy of Painting.",
+          "His son Antonio Diziani was also a painter, specialising mainly in landscapes."
+        ],
+        "fr": [
+          "Il fut aussi décorateur de théâtre et travailla à la cour d'Auguste III de Saxe, à Dresde.",
+          "Sa peinture se distingue par des couleurs vives, des compositions animées et une grande rapidité d'exécution.",
+          "En 1766, il fut élu président de l'Académie de peinture de Venise.",
+          "Il eut un fils, Antonio Diziani, lui aussi peintre, spécialisé surtout dans le paysage."
+        ],
+        "de": [
+          "Er war auch Theatermaler und arbeitete am Hof Augusts III. von Sachsen in Dresden.",
+          "Seine Malerei zeichnet sich durch leuchtende Farben, bewegte Kompositionen und eine bemerkenswerte Schnelligkeit der Ausführung aus.",
+          "1766 wurde er zum Präsidenten der Venezianischen Malerakademie gewählt.",
+          "Sein Sohn Antonio Diziani war ebenfalls Maler und spezialisierte sich vor allem auf Landschaften."
+        ],
+        "es": [
+          "También fue escenógrafo teatral y trabajó en la corte de Augusto III de Sajonia, en Dresde.",
+          "Su pintura se caracteriza por colores vivos, composiciones movidas y una notable rapidez de ejecución.",
+          "En 1766 fue elegido presidente de la Academia de Pintura de Venecia.",
+          "Tuvo un hijo, Antonio Diziani, también pintor, especializado sobre todo en paisajes."
+        ]
+      },
+      "luoghi": [],
+      "luoghiNote": {},
+      "collegati": []
+    },
+    {
+      "id": "giovanni-de-min",
+      "nome": "Giovanni De Min",
+      "nascita": 1786,
+      "morte": 1859,
+      "professione": {
+        "it": "Pittore e decoratore",
+        "en": "Painter and decorator",
+        "fr": "Peintre et décorateur",
+        "de": "Maler und Dekorationsmaler",
+        "es": "Pintor y decorador"
+      },
+      "luogoNascita": {
+        "it": "Belluno",
+        "en": "Belluno",
+        "fr": "Belluno",
+        "de": "Belluno",
+        "es": "Belluno"
+      },
+      "dataNascita": {
+        "it": "24 ottobre 1786",
+        "en": "24 October 1786",
+        "fr": "24 octobre 1786",
+        "de": "24. Oktober 1786",
+        "es": "24 de octubre de 1786"
+      },
+      "luogoMorte": {
+        "it": "Tarzo (TV)",
+        "en": "Tarzo (TV)",
+        "fr": "Tarzo (TV)",
+        "de": "Tarzo (TV)",
+        "es": "Tarzo (TV)"
+      },
+      "dataMorte": {
+        "it": "23 novembre 1859",
+        "en": "23 November 1859",
+        "fr": "23 novembre 1859",
+        "de": "23. November 1859",
+        "es": "23 de noviembre de 1859"
+      },
+      "biografia": {
+        "it": "Giovanni De Min è stato un pittore e decoratore italiano, tra i principali interpreti della pittura neoclassica e della grande decorazione ad affresco dell'Ottocento. Nato a Belluno, si trasferì a Venezia per completare la propria formazione artistica e frequentò l'Accademia di Belle Arti, dove ebbe modo di conoscere Francesco Hayez. Fu inoltre vicino ad Antonio Canova e al suo ambiente culturale. Tornato nel Veneto, realizzò numerose decorazioni in palazzi e chiese, distinguendosi soprattutto per le grandi composizioni di soggetto storico.",
+        "en": "Giovanni De Min was an Italian painter and decorator, one of the leading exponents of Neoclassical painting and of large-scale fresco decoration in the nineteenth century. Born in Belluno, he moved to Venice to complete his artistic training and attended the Academy of Fine Arts, where he came to know Francesco Hayez. He was also close to Antonio Canova and his cultural circle. Back in the Veneto, he produced numerous decorations in palaces and churches, standing out above all for his large history paintings.",
+        "fr": "Giovanni De Min fut un peintre et décorateur italien, l'un des principaux représentants de la peinture néoclassique et de la grande décoration à fresque du XIXe siècle. Né à Belluno, il s'installa à Venise pour achever sa formation artistique et fréquenta l'Académie des beaux-arts, où il rencontra Francesco Hayez. Il fut aussi proche d'Antonio Canova et de son milieu culturel. De retour dans la Vénétie, il réalisa de nombreux décors dans des palais et des églises, se distinguant surtout par ses grandes compositions à sujet historique.",
+        "de": "Giovanni De Min war ein italienischer Maler und Dekorationskünstler und zählte zu den bedeutendsten Vertretern der neoklassizistischen Malerei und der großen Freskendekoration des 19. Jahrhunderts. In Belluno geboren, zog er nach Venedig, um seine künstlerische Ausbildung abzuschließen, und besuchte die Akademie der Schönen Künste, wo er Francesco Hayez kennenlernte. Außerdem stand er Antonio Canova und dessen kulturellem Umfeld nahe. Zurück im Veneto schuf er zahlreiche Dekorationen in Palästen und Kirchen und zeichnete sich vor allem durch große Geschichtsbilder aus.",
+        "es": "Giovanni De Min fue un pintor y decorador italiano, uno de los principales intérpretes de la pintura neoclásica y de la gran decoración al fresco del siglo XIX. Nacido en Belluno, se trasladó a Venecia para completar su formación artística y frecuentó la Academia de Bellas Artes, donde conoció a Francesco Hayez. Estuvo además cerca de Antonio Canova y de su entorno cultural. De vuelta en el Véneto, realizó numerosas decoraciones en palacios e iglesias, destacando sobre todo por sus grandes composiciones de tema histórico."
+      },
+      "curiosita": {
+        "it": [
+          "Durante la formazione veneziana frequentò lo stesso ambiente artistico di Francesco Hayez.",
+          "Antonio Canova ne sostenne il percorso artistico e lo seguì durante il periodo romano.",
+          "Nel 1839 realizzò nella sala del Consiglio del Municipio di Belluno due grandi affreschi dedicati alla storia cittadina.",
+          "Fu uno degli artisti più prolifici della pittura murale veneta dell'Ottocento."
+        ],
+        "en": [
+          "During his training in Venice he moved in the same artistic circles as Francesco Hayez.",
+          "Antonio Canova supported his artistic career and followed him during the Roman period.",
+          "In 1839 he painted two large frescoes for the council chamber of Belluno's Town Hall, devoted to the city's history.",
+          "He was one of the most prolific muralists of nineteenth-century Venetian painting."
+        ],
+        "fr": [
+          "Pendant sa formation à Venise, il fréquenta le même milieu artistique que Francesco Hayez.",
+          "Antonio Canova soutint sa carrière artistique et le suivit pendant la période romaine.",
+          "En 1839, il réalisa dans la salle du Conseil de la mairie de Belluno deux grandes fresques consacrées à l'histoire de la ville.",
+          "Il fut l'un des peintres muralistes les plus prolifiques de la peinture vénitienne du XIXe siècle."
+        ],
+        "de": [
+          "Während seiner Ausbildung in Venedig verkehrte er im selben künstlerischen Umfeld wie Francesco Hayez.",
+          "Antonio Canova unterstützte seinen künstlerischen Werdegang und folgte ihm während der römischen Zeit.",
+          "1839 schuf er im Ratssaal des Rathauses von Belluno zwei große Fresken zur Geschichte der Stadt.",
+          "Er gehörte zu den produktivsten Wandmalern der venezianischen Malerei des 19. Jahrhunderts."
+        ],
+        "es": [
+          "Durante su formación en Venecia frecuentó el mismo ambiente artístico que Francesco Hayez.",
+          "Antonio Canova apoyó su trayectoria artística y lo siguió durante el periodo romano.",
+          "En 1839 realizó en la sala del Consejo del Ayuntamiento de Belluno dos grandes frescos dedicados a la historia de la ciudad.",
+          "Fue uno de los pintores murales más prolíficos de la pintura véneta del siglo XIX."
+        ]
+      },
+      "luoghi": [
+        "palazzo-rosso",
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "palazzo-rosso": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Nella sala consiliare un ciclo di affreschi neoclassici con due episodi della storia medievale di Belluno: la pace tra il vescovo Giovanni e i Veneziani e la resistenza all'assalto di Ezzelino alla città.",
+            "en": "In the council chamber, a cycle of Neoclassical frescoes with two episodes from Belluno's medieval history: the peace between Bishop Giovanni and the Venetians, and the city's resistance to Ezzelino's assault.",
+            "fr": "Dans la salle du Conseil, un cycle de fresques néoclassiques illustre deux épisodes de l'histoire médiévale de Belluno : la paix entre l'évêque Giovanni et les Vénitiens, et la résistance à l'assaut d'Ezzelino contre la ville.",
+            "de": "Im Ratssaal befindet sich ein Zyklus klassizistischer Fresken mit zwei Episoden aus der mittelalterlichen Geschichte Bellunos: der Frieden zwischen Bischof Giovanni und den Venezianern und der Widerstand gegen den Angriff Ezzelinos auf die Stadt.",
+            "es": "En la sala del Consejo hay un ciclo de frescos neoclásicos con dos episodios de la historia medieval de Belluno: la paz entre el obispo Giovanni y los venecianos, y la resistencia al asalto de Ezzelino a la ciudad."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work held",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Conserva un dipinto di De Min, Aiace, proveniente dalle collezioni dell'Accademia di Venezia.",
+            "en": "It holds a painting by De Min, Ajax, from the collections of the Venice Academy.",
+            "fr": "Il conserve un tableau de De Min, Ajax, provenant des collections de l'Académie de Venise.",
+            "de": "Es besitzt ein Gemälde von De Min, Ajax, aus den Sammlungen der Akademie in Venedig.",
+            "es": "Conserva un cuadro de De Min, Ayax, procedente de las colecciones de la Academia de Venecia."
+          }
+        }
+      },
+      "collegati": [],
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      }
+    },
+    {
+      "id": "giuseppe-fantuzzi",
+      "nome": "Giuseppe Fantuzzi",
+      "nascita": 1762,
+      "morte": 1800,
+      "professione": {
+        "it": "Generale di brigata e patriota",
+        "en": "Brigadier general and patriot",
+        "fr": "Général de brigade et patriote",
+        "de": "Brigadegeneral und Patriot",
+        "es": "General de brigada y patriota"
+      },
+      "luogoNascita": {
+        "it": "Belluno, Borgo Piave",
+        "en": "Belluno, Borgo Piave",
+        "fr": "Belluno, Borgo Piave",
+        "de": "Belluno, Borgo Piave",
+        "es": "Belluno, Borgo Piave"
+      },
+      "dataNascita": {
+        "it": "10 ottobre 1762",
+        "en": "10 October 1762",
+        "fr": "10 octobre 1762",
+        "de": "10. Oktober 1762",
+        "es": "10 de octubre de 1762"
+      },
+      "luogoMorte": {
+        "it": "Genova, forte della Coronata",
+        "en": "Genoa, Coronata fort",
+        "fr": "Gênes, fort de la Coronata",
+        "de": "Genua, Festung Coronata",
+        "es": "Génova, fuerte de la Coronata"
+      },
+      "dataMorte": {
+        "it": "2 maggio 1800",
+        "en": "2 May 1800",
+        "fr": "2 mai 1800",
+        "de": "2. Mai 1800",
+        "es": "2 de mayo de 1800"
+      },
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Giuseppe Fantuzzi ebbe una vita particolarmente avventurosa. Nato a Belluno in una famiglia di zattieri, trascorse la giovinezza lavorando sul Piave, trasportando legname con le zattere. Si appassionò agli studi, alla filosofia e alle idee politiche illuministe. Nel 1793 si recò a Varsavia, dove partecipò alla lotta polacca contro la Russia e conobbe Tadeusz Kościuszko. In seguito aderì alla causa rivoluzionaria e si arruolò nell'esercito francese, diventando generale di brigata. Morì combattendo durante l'assedio di Genova nel 1800.",
+        "en": "Giuseppe Fantuzzi led a particularly eventful life. Born in Belluno into a family of raftsmen, he spent his youth working on the Piave, transporting timber by raft. He took a keen interest in study, philosophy and Enlightenment political ideas. In 1793 he went to Warsaw, where he took part in the Polish struggle against Russia and met Tadeusz Kościuszko. He later joined the revolutionary cause and enlisted in the French army, becoming a brigadier general. He died fighting during the siege of Genoa in 1800.",
+        "fr": "Giuseppe Fantuzzi mena une vie particulièrement aventureuse. Né à Belluno dans une famille de radeliers, il passa sa jeunesse à travailler sur la Piave, transportant du bois par radeaux. Il se passionna pour l'étude, la philosophie et les idées politiques des Lumières. En 1793, il se rendit à Varsovie, où il prit part à la lutte polonaise contre la Russie et rencontra Tadeusz Kościuszko. Il rejoignit ensuite la cause révolutionnaire et s'engagea dans l'armée française, devenant général de brigade. Il mourut en combattant pendant le siège de Gênes, en 1800.",
+        "de": "Giuseppe Fantuzzi führte ein besonders abenteuerliches Leben. In Belluno in eine Familie von Floßfahrern hineingeboren, verbrachte er seine Jugend auf der Piave und transportierte Holz auf Flößen. Er interessierte sich leidenschaftlich für Studien, Philosophie und die politischen Ideen der Aufklärung. 1793 reiste er nach Warschau, wo er am polnischen Kampf gegen Russland teilnahm und Tadeusz Kościuszko kennenlernte. Später schloss er sich der revolutionären Sache an und trat in die französische Armee ein, in der er Brigadegeneral wurde. Er starb 1800 im Kampf während der Belagerung von Genua.",
+        "es": "Giuseppe Fantuzzi tuvo una vida especialmente aventurera. Nacido en Belluno en una familia de barqueros de balsas, pasó su juventud trabajando en el Piave, transportando madera en balsas. Se apasionó por el estudio, la filosofía y las ideas políticas de la Ilustración. En 1793 viajó a Varsovia, donde participó en la lucha polaca contra Rusia y conoció a Tadeusz Kościuszko. Más tarde se adhirió a la causa revolucionaria y se alistó en el ejército francés, llegando a general de brigada. Murió combatiendo durante el asedio de Génova en 1800."
+      },
+      "curiosita": {
+        "it": [
+          "Passò dal lavoro di zattiere sul Piave alla carriera militare: una trasformazione davvero insolita per un uomo della sua epoca.",
+          "Combatté in Polonia durante l'insurrezione guidata da Tadeusz Kościuszko e fu ferito nella battaglia di Praga, vicino a Varsavia.",
+          "Dopo un'esplosione di cannone che gli aveva provocato ustioni alle mani, era solito indossare guanti per nasconderle.",
+          "Nel 1795 pubblicò Dei fiumi, un opuscolo nel quale proponeva un sistema per limitare i danni delle piene attraverso aperture negli argini, chiamate «spandatoie».",
+          "Ugo Foscolo, che aveva combattuto durante l'assedio di Genova, lo ricordò nella sua Orazione a Bonaparte pel Congresso di Lione."
+        ],
+        "en": [
+          "He moved from working as a raftsman on the Piave to a military career, an unusual transformation for a man of his time.",
+          "He fought in Poland during the uprising led by Tadeusz Kościuszko and was wounded at the battle of Praga, near Warsaw.",
+          "After a cannon explosion burned his hands, he habitually wore gloves to hide them.",
+          "In 1795 he published Dei fiumi, a pamphlet proposing a way to limit flood damage through openings in the embankments, called «spandatoie» (spillways).",
+          "Ugo Foscolo, who had fought during the siege of Genoa, recalled him in his Orazione a Bonaparte pel Congresso di Lione."
+        ],
+        "fr": [
+          "Il passa du métier de radelier sur la Piave à la carrière militaire, une transformation très inhabituelle pour un homme de son époque.",
+          "Il combattit en Pologne pendant l'insurrection menée par Tadeusz Kościuszko et fut blessé à la bataille de Praga, près de Varsovie.",
+          "Après l'explosion d'un canon qui lui brûla les mains, il avait l'habitude de porter des gants pour les dissimuler.",
+          "En 1795 il publia Dei fiumi, une brochure proposant un système pour limiter les dégâts des crues au moyen d'ouvertures dans les digues, appelées « spandatoie ».",
+          "Ugo Foscolo, qui avait combattu pendant le siège de Gênes, le rappela dans son Orazione a Bonaparte pel Congresso di Lione."
+        ],
+        "de": [
+          "Er wechselte von der Arbeit als Floßfahrer auf der Piave zur militärischen Laufbahn, eine für seine Zeit ungewöhnliche Wende.",
+          "Er kämpfte in Polen während des Aufstands unter Tadeusz Kościuszko und wurde in der Schlacht von Praga bei Warschau verwundet.",
+          "Nach einer Kanonenexplosion, die ihm die Hände verbrannte, trug er gewöhnlich Handschuhe, um sie zu verbergen.",
+          "1795 veröffentlichte er Dei fiumi, eine Schrift, in der er ein System vorschlug, um Hochwasserschäden durch Öffnungen in den Dämmen zu begrenzen, die »spandatoie« genannt wurden.",
+          "Ugo Foscolo, der während der Belagerung von Genua gekämpft hatte, erinnerte in seiner Orazione a Bonaparte pel Congresso di Lione an ihn."
+        ],
+        "es": [
+          "Pasó del trabajo de barquero de balsas en el Piave a la carrera militar, una transformación muy insólita para un hombre de su época.",
+          "Combatió en Polonia durante la insurrección dirigida por Tadeusz Kościuszko y fue herido en la batalla de Praga, cerca de Varsovia.",
+          "Tras una explosión de cañón que le provocó quemaduras en las manos, solía llevar guantes para ocultarlas.",
+          "En 1795 publicó Dei fiumi, un opúsculo en el que proponía un sistema para limitar los daños de las crecidas mediante aberturas en los diques, llamadas «spandatoie».",
+          "Ugo Foscolo, que había combatido durante el asedio de Génova, lo recordó en su Orazione a Bonaparte pel Congresso di Lione."
+        ]
+      },
+      "luoghi": [
+        "casa-fantuzzi",
+        "borgo-piave"
+      ],
+      "luoghiNote": {
+        "casa-fantuzzi": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Casa storicamente legata alla famiglia Fantuzzi e indicata dalle fonti come sua casa natale.",
+            "en": "A house historically tied to the Fantuzzi family and identified by sources as his birthplace.",
+            "fr": "Maison historiquement liée à la famille Fantuzzi et désignée par les sources comme sa maison natale.",
+            "de": "Ein Haus, das historisch mit der Familie Fantuzzi verbunden ist und in den Quellen als sein Geburtshaus gilt.",
+            "es": "Casa históricamente ligada a la familia Fantuzzi y señalada por las fuentes como su casa natal."
+          }
+        },
+        "borgo-piave": {
+          "tipo": {
+            "it": "Legame di luogo",
+            "en": "Place link",
+            "fr": "Lien avec le lieu",
+            "de": "Ortsbezug",
+            "es": "Vínculo con el lugar"
+          },
+          "testo": {
+            "it": "Il quartiere in cui nacque e crebbe: il rapporto con il Piave e con il trasporto del legname fu determinante nella sua formazione.",
+            "en": "The quarter where he was born and grew up: his bond with the Piave and with timber transport shaped him decisively.",
+            "fr": "Le quartier où il naquit et grandit : son lien avec la Piave et le transport du bois fut déterminant pour sa formation.",
+            "de": "Das Viertel, in dem er geboren wurde und aufwuchs: Die Verbindung zur Piave und zum Holztransport prägte ihn entscheidend.",
+            "es": "El barrio donde nació y creció: su relación con el Piave y con el transporte de madera fue decisiva en su formación."
+          }
+        }
+      },
+      "collegati": []
+    }
+  ]
+}

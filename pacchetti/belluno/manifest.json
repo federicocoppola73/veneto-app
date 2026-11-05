@@ -4701,6 +4701,34 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/mappa/1/9_9.webp"
   },
   {
+   "path": "assets/personaggi/andrea-brustolon.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/andrea-brustolon.webp"
+  },
+  {
+   "path": "assets/personaggi/dino-buzzati.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/dino-buzzati.webp"
+  },
+  {
+   "path": "assets/personaggi/gaspare-diziani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/gaspare-diziani.webp"
+  },
+  {
+   "path": "assets/personaggi/giovanni-de-min.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/giovanni-de-min.webp"
+  },
+  {
+   "path": "assets/personaggi/giuseppe-fantuzzi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/giuseppe-fantuzzi.webp"
+  },
+  {
+   "path": "assets/personaggi/ippolito-caffi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/ippolito-caffi.webp"
+  },
+  {
+   "path": "assets/personaggi/sebastiano-ricci.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/personaggi/sebastiano-ricci.webp"
+  },
+  {
    "path": "dati/aguzza.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/aguzza.json"
   },
@@ -4751,6 +4779,10 @@
   {
    "path": "dati/orari_vaporetti.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/orari_vaporetti.json"
+  },
+  {
+   "path": "dati/personaggi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/personaggi.json"
   },
   {
    "path": "dati/principali.json",
