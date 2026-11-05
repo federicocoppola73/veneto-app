@@ -1,5 +1,247 @@
 {
-  "_nota": "Belluno: domande 'Aguzza la vista' ancora da preparare.",
-  "itinerari": [],
-  "domande": []
+  "_nota": "Belluno: domande 'Aguzza la vista' dal foglio Excel (Aguzza – Esempio), con traduzioni en/fr/de/es. Itinerario 'Centro storico' in ordine di percorso a piedi. Le domande con foto_da_fare=true attendono ancora la foto in assets/aguzza (nessun file presente).",
+  "itinerari": [
+    {
+      "id": "aguzza-la-vista-centro-storico",
+      "titolo": {
+        "it": "Aguzza la vista - Centro storico",
+        "en": "Look closer - Historic centre",
+        "fr": "Observez mieux - Centre historique",
+        "de": "Genau hinschauen - Altstadt",
+        "es": "Mira con atención - Centro histórico"
+      },
+      "tappe": [
+        "cattedrale-di-san-martino",
+        "palazzo-dei-rettori",
+        "piazza-delle-erbe",
+        "porta-dojona",
+        "mubel-museo-civico-palazzo-fulcis",
+        "chiesa-di-santo-stefano",
+        "porta-rugo",
+        "ponte-zilli"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "luogo_id": "cattedrale-di-san-martino",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Sulla facciata della Cattedrale sono presenti frammenti lapidei medievali. A quali secoli risalgono?",
+        "en": "There are medieval stone fragments on the Cathedral façade. Which centuries do they date from?",
+        "fr": "Sur la façade de la cathédrale, on voit des fragments de pierre médiévaux. De quels siècles datent-ils ?",
+        "de": "An der Fassade des Doms befinden sich mittelalterliche Steinfragmente. Aus welchen Jahrhunderten stammen sie?",
+        "es": "En la fachada de la catedral hay fragmentos pétreos medievales. ¿De qué siglos son?"
+      },
+      "risposta": {
+        "it": "Ai secoli IX e X.",
+        "en": "To the 9th and 10th centuries.",
+        "fr": "Des IXe et Xe siècles.",
+        "de": "Aus dem 9. und 10. Jahrhundert.",
+        "es": "De los siglos IX y X."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "cattedrale-di-san-martino",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quale figura si trova sulla sommità del campanile?",
+        "en": "Which figure stands on top of the bell tower?",
+        "fr": "Quelle figure se trouve au sommet du clocher ?",
+        "de": "Welche Figur steht oben auf dem Glockenturm?",
+        "es": "¿Qué figura se encuentra en la parte superior del campanario?"
+      },
+      "risposta": {
+        "it": "Un angelo.",
+        "en": "An angel.",
+        "fr": "Un ange.",
+        "de": "Ein Engel.",
+        "es": "Un ángel."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-dei-rettori",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Che cosa rappresentano i busti visibili sulla facciata del palazzo?",
+        "en": "What do the busts visible on the palace façade represent?",
+        "fr": "Que représentent les bustes visibles sur la façade du palais ?",
+        "de": "Was stellen die Büsten an der Fassade des Palastes dar?",
+        "es": "¿Qué representan los bustos visibles en la fachada del palacio?"
+      },
+      "risposta": {
+        "it": "I rettori veneti che governarono Belluno.",
+        "en": "The Venetian rectors who governed Belluno.",
+        "fr": "Les recteurs vénitiens qui gouvernèrent Belluno.",
+        "de": "Die venezianischen Rektoren, die Belluno regierten.",
+        "es": "Los rectores venecianos que gobernaron Belluno."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "porta-dojona",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quale simbolo cittadino è raffigurato sulla lastra sopra l'arco interno?",
+        "en": "Which city symbol is shown on the slab above the inner arch?",
+        "fr": "Quel symbole de la ville figure sur la dalle au-dessus de l'arc intérieur ?",
+        "de": "Welches Stadtsymbol ist auf der Platte über dem inneren Bogen abgebildet?",
+        "es": "¿Qué símbolo de la ciudad aparece en la losa sobre el arco interior?"
+      },
+      "risposta": {
+        "it": "Lo stemma di Belluno.",
+        "en": "The coat of arms of Belluno.",
+        "fr": "Les armoiries de Belluno.",
+        "de": "Das Wappen von Belluno.",
+        "es": "El escudo de Belluno."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "porta-rugo",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Nella nicchia centrale della facciata, che cosa rimane del leone di San Marco abbattuto nel 1797?",
+        "en": "In the central niche of the façade, what remains of the Lion of St Mark torn down in 1797?",
+        "fr": "Dans la niche centrale de la façade, que reste-t-il du lion de Saint-Marc abattu en 1797 ?",
+        "de": "Was ist in der zentralen Nische der Fassade vom 1797 gestürzten Markuslöwen übrig?",
+        "es": "En el nicho central de la fachada, ¿qué queda del león de San Marcos derribado en 1797?"
+      },
+      "risposta": {
+        "it": "La base con le zampe del leone.",
+        "en": "The base with the lion's paws.",
+        "fr": "La base avec les pattes du lion.",
+        "de": "Der Sockel mit den Pranken des Löwen.",
+        "es": "La base con las patas del león."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-di-santo-stefano",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quante divisioni ha il quadrante dell'orologio sul campanile?",
+        "en": "How many divisions does the clock dial on the bell tower have?",
+        "fr": "Combien de divisions compte le cadran de l'horloge du clocher ?",
+        "de": "Wie viele Einteilungen hat das Zifferblatt der Uhr am Glockenturm?",
+        "es": "¿Cuántas divisiones tiene la esfera del reloj del campanario?"
+      },
+      "risposta": {
+        "it": "24.",
+        "en": "24.",
+        "fr": "24.",
+        "de": "24.",
+        "es": "24."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-di-santo-stefano",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Da quale chiesa proviene il portale gotico sul lato sud?",
+        "en": "Which church does the Gothic portal on the south side come from?",
+        "fr": "De quelle église provient le portail gothique du côté sud ?",
+        "de": "Aus welcher Kirche stammt das gotische Portal auf der Südseite?",
+        "es": "¿De qué iglesia procede el portal gótico del lado sur?"
+      },
+      "risposta": {
+        "it": "Dalla soppressa chiesa di Santa Maria dei Battuti.",
+        "en": "From the suppressed church of Santa Maria dei Battuti.",
+        "fr": "De l'église supprimée de Santa Maria dei Battuti.",
+        "de": "Aus der aufgehobenen Kirche Santa Maria dei Battuti.",
+        "es": "De la iglesia suprimida de Santa Maria dei Battuti."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "mubel-museo-civico-palazzo-fulcis",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quanti portali monumentali caratterizzano la facciata di Palazzo Fulcis su via Roma?",
+        "en": "How many monumental portals characterise the Palazzo Fulcis façade on Via Roma?",
+        "fr": "Combien de portails monumentaux caractérisent la façade du palais Fulcis sur la via Roma ?",
+        "de": "Wie viele monumentale Portale prägen die Fassade des Palazzo Fulcis in der Via Roma?",
+        "es": "¿Cuántos portales monumentales caracterizan la fachada del palacio Fulcis en la via Roma?"
+      },
+      "risposta": {
+        "it": "Due.",
+        "en": "Two.",
+        "fr": "Deux.",
+        "de": "Zwei.",
+        "es": "Dos."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "piazza-delle-erbe",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quale santo è raffigurato nella fontana al centro della piazza?",
+        "en": "Which saint is depicted on the fountain in the centre of the square?",
+        "fr": "Quel saint est représenté sur la fontaine au centre de la place ?",
+        "de": "Welcher Heilige ist auf dem Brunnen in der Mitte des Platzes dargestellt?",
+        "es": "¿Qué santo aparece representado en la fuente del centro de la plaza?"
+      },
+      "risposta": {
+        "it": "San Lucano.",
+        "en": "Saint Lucanus.",
+        "fr": "Saint Lucan.",
+        "de": "Der heilige Lucanus.",
+        "es": "San Lucano."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": true,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "ponte-zilli",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Quante arcate dell'antico ponte sono ancora visibili sulla sponda cittadina?",
+        "en": "How many arches of the old bridge are still visible on the city bank?",
+        "fr": "Combien d'arches de l'ancien pont sont encore visibles sur la rive urbaine ?",
+        "de": "Wie viele Bögen der alten Brücke sind am Stadtufer noch sichtbar?",
+        "es": "¿Cuántos arcos del antiguo puente son todavía visibles en la orilla urbana?"
+      },
+      "risposta": {
+        "it": "Una sola.",
+        "en": "Only one.",
+        "fr": "Une seule.",
+        "de": "Nur einer.",
+        "es": "Solo uno."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    }
+  ]
 }
