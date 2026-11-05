@@ -3166,6 +3166,59 @@
       },
       "curiosita": true,
       "tappa_fotografica": true
+    },
+    {
+      "id": "chiesa-di-san-gregorio-magno",
+      "nome": "Chiesa di San Gregorio Magno",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.66536645586893,
+      "longitudine": 12.24598120332484,
+      "descrizione": {
+        "it": "La Chiesa di San Gregorio Magno è un edificio religioso di origine medievale situato nel centro storico di Treviso, nell'omonimo vicolo. Le sue origini sono documentate almeno dal XII secolo. Nel corso della sua storia ha subito diversi interventi e trasformazioni, conservando testimonianze di epoche differenti. Tra gli elementi di maggiore interesse figurano la struttura romanica, il soffitto cinquecentesco a capriate lignee con tavelle dipinte e alcune decorazioni pittoriche. Nel Quattrocento la chiesa fu anche sede delle riunioni del collegio dei medici cittadini, assumendo un ruolo che andava oltre quello strettamente religioso.",
+        "en": "The Church of San Gregorio Magno is a religious building of medieval origin in the historic centre of Treviso, in the lane of the same name. Its origins are documented from at least the 12th century. Over its history it has undergone various interventions and transformations, preserving traces of different eras. Among its most notable features are the Romanesque structure, the 16th-century ceiling with timber trusses and painted tavelle, and some pictorial decorations. In the 15th century the church also hosted the meetings of the city's college of doctors, taking on a role that went beyond the strictly religious.",
+        "fr": "L'église Saint-Grégoire-le-Grand est un édifice religieux d'origine médiévale situé dans le centre historique de Trévise, dans la ruelle qui porte son nom. Ses origines sont attestées au moins depuis le XIIe siècle. Au fil de son histoire, elle a subi plusieurs interventions et transformations, conservant des témoignages d'époques différentes. Parmi ses éléments les plus remarquables figurent la structure romane, le plafond du XVIe siècle à fermes en bois avec des tavelles peintes, et quelques décorations picturales. Au XVe siècle, l'église accueillit aussi les réunions du collège des médecins de la ville, prenant un rôle qui dépassait le cadre strictement religieux.",
+        "de": "Die Kirche San Gregorio Magno ist ein Sakralbau mittelalterlichen Ursprungs im historischen Zentrum von Treviso, in der gleichnamigen Gasse. Ihre Ursprünge sind mindestens seit dem 12. Jahrhundert belegt. Im Laufe ihrer Geschichte wurde sie mehrfach umgebaut und verändert, wobei sie Zeugnisse verschiedener Epochen bewahrt. Zu den bemerkenswertesten Elementen gehören die romanische Struktur, die Decke aus dem 16. Jahrhundert mit hölzernen Dachstühlen und bemalten Tavelle sowie einige Malereidekorationen. Im 15. Jahrhundert war die Kirche auch Sitz der Versammlungen des Ärztekollegiums der Stadt und übernahm damit eine Rolle, die über das rein Religiöse hinausging.",
+        "es": "La iglesia de San Gregorio Magno es un edificio religioso de origen medieval situado en el centro histórico de Treviso, en el callejón del mismo nombre. Sus orígenes están documentados al menos desde el siglo XII. A lo largo de su historia ha sufrido diversas intervenciones y transformaciones, conservando testimonios de distintas épocas. Entre sus elementos de mayor interés destacan la estructura románica, el techo del siglo XVI con armaduras de madera y tavelle pintadas, y algunas decoraciones pictóricas. En el siglo XV la iglesia acogió también las reuniones del colegio de médicos de la ciudad, asumiendo un papel que iba más allá del estrictamente religioso."
+      },
+      "curiosita": true,
+      "nota": {
+        "it": "Apertura: in occasione di eventi e visite organizzate. Orari fissi: non pubblicati.",
+        "en": "Opening: during events and organised visits. Fixed opening hours: not published.",
+        "fr": "Ouverture : lors d'événements et de visites organisées. Horaires fixes : non publiés.",
+        "de": "Öffnung: bei Veranstaltungen und organisierten Besichtigungen. Feste Öffnungszeiten: nicht veröffentlicht.",
+        "es": "Apertura: con motivo de eventos y visitas organizadas. Horario fijo: no publicado."
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una chiesa diventata sede dei medici",
+            "en": "A church that became the seat of the doctors",
+            "fr": "Une église devenue le siège des médecins",
+            "de": "Eine Kirche, die zum Sitz der Ärzte wurde",
+            "es": "Una iglesia convertida en sede de los médicos"
+          },
+          "testo": {
+            "it": "Dopo un periodo di abbandono, nel 1426 l'edificio fu riaperto e destinato a ospitare le riunioni del collegio dei medici. Nel corso del tempo fu arricchito da opere d'arte legate alle confraternite e alle associazioni che vi avevano sede.",
+            "en": "After a period of neglect, in 1426 the building was reopened and assigned to host the meetings of the college of doctors. Over time it was enriched with artworks linked to the confraternities and associations that had their seat there.",
+            "fr": "Après une période d'abandon, le bâtiment fut rouvert en 1426 et affecté à accueillir les réunions du collège des médecins. Au fil du temps, il fut enrichi d'œuvres d'art liées aux confréries et aux associations qui y avaient leur siège.",
+            "de": "Nach einer Zeit der Verwahrlosung wurde das Gebäude 1426 wieder eröffnet und für die Versammlungen des Ärztekollegiums bestimmt. Im Laufe der Zeit wurde es mit Kunstwerken ausgestattet, die mit den Bruderschaften und Vereinen zusammenhingen, die hier ihren Sitz hatten.",
+            "es": "Tras un periodo de abandono, en 1426 el edificio se reabrió y se destinó a acoger las reuniones del colegio de médicos. Con el tiempo se enriqueció con obras de arte vinculadas a las cofradías y asociaciones que tenían en él su sede."
+          }
+        }
+      ],
+      "immagine": {
+        "autore": "Foto propria",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
