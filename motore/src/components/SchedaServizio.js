@@ -50,6 +50,7 @@ export default function SchedaServizio({ servizio, t, lingua, onChiudi, distanza
           <FermataVaporetto
             fermataId={fermataActv}
             t={t}
+            lingua={lingua}
             onIndietro={() => setLineeAperte(false)}
             altezza={Math.round(height * 0.86) - 30 - insets.bottom}
           />

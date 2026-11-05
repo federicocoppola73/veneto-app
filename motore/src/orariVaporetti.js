@@ -10,6 +10,8 @@ import { datiProxy } from './dati';
 const datiPer = (lineaId) => (/^(AUT|TRAM)-/.test(lineaId || '') ? DATI_AUTOBUS : DATI);
 // periodo di validità degli orari della linea: { 0: inizio, 1: fine }
 export const validitaOrariPer = (lineaId) => datiPer(lineaId).validita;
+// avvisi del servizio (es. Trillo a chiamata): { chiave: { titolo, testo } }, solo dove presenti
+export const avvisiPer = (lineaId) => datiPer(lineaId).avvisi || {};
 
 const due = (n) => String(n).padStart(2, '0');
 // "605" (minuti dalla mezzanotte, anche oltre le 24) -> "10:05"; dopo mezzanotte "00:15"

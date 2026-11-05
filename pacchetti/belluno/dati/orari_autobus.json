@@ -1,8 +1,889 @@
 {
-  "_nota": "Belluno: nessun orario bus ancora.",
-  "validita": [],
-  "servizi": [],
-  "date": {},
-  "capolinea": [],
-  "orari": {}
+ "_nota": "Belluno: orari urbani Dolomitibus, servizio invernale feriale scolastico, lun–sab, dal 10/09/2026 all'08/06/2027 (PDF di dolomitibus.it, link in \"pdf\"). Non ci sono orari pubblicati per i periodi non scolastici. Da verificare: linea 957 con validità dal 28/09/2026 su una pagina del sito; alcune corse marcate \"fv\" (solo feriali) non sono distinte; alcuni orari dei PDF sono fuori sequenza o duplicati. Fermate frazione senza coordinate omesse.",
+ "validita": [
+  "20260910",
+  "20270608"
+ ],
+ "servizi": [
+  {
+   "giorni": "1111110",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260910",
+   "a": "20270608"
+  }
+ ],
+ "date": {
+  "20261207": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261224": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261225": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261226": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261227": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261228": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261229": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261230": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20261231": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270101": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270102": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270103": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270104": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270105": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270208": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270209": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270210": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270325": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270326": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270327": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270328": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270329": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270330": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270429": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  },
+  "20270430": {
+   "piu": [],
+   "meno": [
+    0
+   ]
+  }
+ },
+ "capolinea": [],
+ "orari": {
+  "autobus-33": {
+   "AUT-951": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,bo,dh,kk,l9,m3,mz,nm,pa"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b3,cv,ei,ko,le,m6,n2,on"
+     ]
+    ]
+   },
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a4,bo,cs,dc,dm,eg,fa,g4,gy,hs,im,jg,ka,l4,ly,ms,nm,og,pa,qy,sm,ua,vy,x0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b4,cs,dw,eq,fk,ge,i2,iw,jq,kk,le,m8,n2,nw,oq,pk,s2,tq,ve,wy,y0"
+     ]
+    ]
+   },
+   "AUT-953": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bt,m3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "cq,n0"
+     ]
+    ]
+   },
+   "AUT-954": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "al,bl,ce,cn,d8,e2,ew,fq,he,j2,jw,kq,lk,me,n8,o2,ow,pq,qk,re,s8,t2,tw,vk,we"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aq,bs,cs,dw,eq,fk,ge,h8,i2,iw,jq,kk,le,m8,n2,nw,oq,pk,qe,s2,sw,tq,uk,ve,x2,xw"
+     ]
+    ]
+   },
+   "AUT-955": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b2,d2,lh,mi"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c0,e0,mf,ng"
+     ]
+    ]
+   },
+   "AUT-956": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "au,c8,d2,dw,lo,md,n5,ok,pn,sj,u7,vm"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a0,ba,cv,du,eo,kn,le,m6,nl,oo,pc,rb,sz,un"
+     ]
+    ]
+   },
+   "AUT-957": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9l,b2,bw,cd,ct,e5,fg,h4,is,kg,m4,m8,ns,pg,r4,ss,ug,w4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ar,bv,c8,cc,cr,d8,e3,ff,gb,ie,jn,lq,my,ne,on,qq,rz,u2,vq,xe"
+     ]
+    ]
+   },
+   "AUT-959": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a5,ba,ci,kk,m3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b9,ci,dw,lt,nc"
+     ]
+    ]
+   }
+  },
+  "autobus-36": {
+   "AUT-951": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ad,br,dk,kn,lc,m6,np"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b0,cs,ef,lb,m3,mz,oh"
+     ]
+    ]
+   },
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a7,br,c3,cv,dp,ej,fd,h1,hv,ip,kd,l7,m1,mv,np,oj,r1,sp,ud,w1,x3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b1,cl,cp,dt,en,fh,gb,hz,it,jn,lb,m5,mz,nt,on,ph,rz,tn,vb,wv,xx"
+     ]
+    ]
+   },
+   "AUT-953": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bw,m6"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "cn,mx"
+     ]
+    ]
+   },
+   "AUT-954": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aq,bq,cj,dd,e7,fv,hj,j7,k1,kv,lp,mj,nd,o7,p1,qp,rj,sd,t7,u1,vp,wj"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bn,cn,dr,el,ff,h3,hx,ir,jl,kf,l9,m3,mx,nr,ol,pf,q9,rx,sr,tl,uf,v9,wx,xr"
+     ]
+    ]
+   },
+   "AUT-955": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "az,cz,le"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c3,e3,nj"
+     ]
+    ]
+   },
+   "AUT-956": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ax,cb,d5,dz,lr,n8,on,sm,ua"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b7,cs,dr,el,kk,lc,m3,ni,p9,r8,sw,uk"
+     ]
+    ]
+   }
+  },
+  "autobus-45": {
+   "AUT-951": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,bu,dn,kq,lf,m9,ns"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aw,ci,eb,l7,lz,mv,od"
+     ]
+    ]
+   },
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,bu,c5,cy,ds,em,fg,h4,hy,is,kg,la,m4,my,ns,om,r4,ss,ug,w4,x6"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ay,ci,cm,dq,ek,fe,g8,hw,iq,jk,l8,m2,mw,nq,ok,pe,rw,tk,v8,ws,xu"
+     ]
+    ]
+   },
+   "AUT-953": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bz,m9"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "cj,mt"
+     ]
+    ]
+   },
+   "AUT-954": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "at,bt,cm,dg,ea,fy,hm,ja,k4,ky,ls,mm,ng,oa,p4,qs,rm,sg,ta,u4,vs,wm"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bi,ci,dm,eg,fa,gy,im,ka,l4,ly,ms,nm,og,pa,q4,rs,sm,tg,ua,v4,ws,xm"
+     ]
+    ]
+   }
+  },
+  "autobus-54": {
+   "AUT-951": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ak,by,dr,ku,lj,md,nw"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "as,ce,e7,l3,lv,mr,o9"
+     ]
+    ]
+   }
+  },
+  "autobus-19": {
+   "AUT-951": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,c3,dw,kz,lo,mi,o1"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ap,ca,e3,l0,ls,mn,o5"
+     ]
+    ]
+   },
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ai,c2,d6,e0,eu,fo,hc,i6,j0,ko,li,mc,n6,o0,ou,rc,t0,uo,wc,xe"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aq,ca,ch,di,ec,f6,g0,ho,ii,jc,l0,lu,mo,ni,oc,p6,ro,tc,v0,wk,xm"
+     ]
+    ]
+   }
+  },
+  "autobus-8": {
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bj,d7,eb,f5,fz,gt,ih,jb,k5,kz,lt,mn,nh,ob,p5,sh,u5,vt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b9,cx,e1,ev,fp,gj,i7,j1,jv,kp,lj,md,n7,o1,ov,s7,tv,vj"
+     ]
+    ]
+   }
+  },
+  "autobus-66": {
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ac,bw,d0,du,eo,fi,h6,i0,iu,ki,lc,m6,n0,nu,oo,r6,su,ui,w6,x8"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "av,cf,ck,dn,eh,fb,g5,ht,in,jh,l5,lz,mt,nn,oh,pb,rt,th,v5,wp,xr"
+     ]
+    ]
+   }
+  },
+  "autobus-70": {
+   "AUT-952": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,by,d2,dw,eq,fk,h8,i2,iw,kk,le,m8,n2,nw,oq,r8,sw,uk,w8,xa"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "au,ce,dm,eg,fa,g4,hs,im,jg,l4,ly,ms,nm,og,pa,rs,tg,v4,wo,xq"
+     ]
+    ]
+   },
+   "AUT-953": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "cg,mq"
+     ]
+    ]
+   }
+  },
+  "autobus-3": {
+   "AUT-953": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "c4,me"
+     ]
+    ]
+   }
+  },
+  "autobus-95": {
+   "AUT-953": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ca,mk"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ca,mk"
+     ]
+    ]
+   }
+  },
+  "autobus-32": {
+   "AUT-954": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ah,bh,ca,cj,dy,er,fm,ha,iy,js,km,lg,ma,n4,ny,os,pm,ra,sy,ts,vg,wa"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "au,bw,cw,e0,eu,gi,i6,j0,ju,ko,li,mc,n6,o0,ou,qi,s6,t0,uo,vi,x6"
+     ]
+    ]
+   },
+   "AUT-955": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b5,d5,lk,ml"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bt,dt,m8,n9"
+     ]
+    ]
+   },
+   "AUT-956": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aq,c4,ds,lk,m9,n1,og,pj,sf,u3,vi"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a2,bd,cy,kq,lh,m9,no,or,re,t2,uq"
+     ]
+    ]
+   }
+  },
+  "autobus-60": {
+   "AUT-954": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ax,bx,cq,dk,ee,g2,hq,je,k8,l2,lw,mq,nk,oe,p8,qw,rq,sk,te,u8,vw,wq"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bd,cd,dh,eb,f5,gt,ih,k5,kz,lt,mn,nh,ob,p5,pz,rn,sh,tb,u5,uz,wn,xh"
+     ]
+    ]
+   }
+  },
+  "autobus-107": {
+   "AUT-956": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "an,c1,dp,lh,m6,my,od,pg,sc,u0,vf"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a4,bg,d1,kt,lk,mc,nr,ou,rh,t5,ut"
+     ]
+    ]
+   }
+  },
+  "autobus-38": {
+   "AUT-957": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b6,c0,ch,cx,e9,fk,h8,iw,kk,m8,nw,pk,r8,sw,uk,w8"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ao,br,c9,cn,d4,e0,fc,g8,ib,jk,ln,mu,nb,ok,qn,rw,tz,vn,xb"
+     ]
+    ]
+   },
+   "AUT-959": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a9,bd,cm,ko,m7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b5,ce,ds,lp,n8"
+     ]
+    ]
+   }
+  },
+  "autobus-25": {
+   "AUT-957": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bb,c5,cm,d2,ee,fp,hd,j1,kp,md,o1,pp,rd,t1,up,wd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aj,bn,c4,cj,d0,dv,f7,g3,i6,jf,li,mq,n6,of,qi,rr,tu,vi,x6"
+     ]
+    ]
+   },
+   "AUT-959": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,bi,cs,ku,md"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b1,ca,do,ll,n4"
+     ]
+    ]
+   }
+  },
+  "autobus-87": {
+   "AUT-957": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9x,be,bg,ca,cr,d7,ej,fu,hi,j6,ku,mg,mi,o6,pu,ri,t6,uu,wi"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ae,bi,bz,ce,cv,dq,f2,fy,i1,ja,ld,ml,n1,oa,qd,rm,tp,vd,x1"
+     ]
+    ]
+   }
+  }
+ },
+ "avvisi": {
+  "trillo": {
+   "titolo": {
+    "it": "Servizio a chiamata Trillo",
+    "en": "Trillo on-demand service",
+    "fr": "Service à la demande Trillo",
+    "de": "Trillo Bedarfsverkehr",
+    "es": "Servicio a demanda Trillo"
+   },
+   "testo": {
+    "it": "Si prenota con l'app Trillo Dolomiti Bus (fino a 7 giorni e fino a 30 minuti prima della partenza) oppure al call center 0437 941 237 (lun–sab 8:00–20:00). Inverno, lun–sab: 9:00–12:00 e 15:30–20:30. Biglietto urbano 2,00 €.",
+    "en": "Book with the Trillo Dolomiti Bus app (up to 7 days and up to 30 minutes before departure) or call 0437 941 237 (Mon–Sat 8:00–20:00). Winter, Mon–Sat: 9:00–12:00 and 15:30–20:30. Urban fare €2.00.",
+    "fr": "Réservation via l'app Trillo Dolomiti Bus (jusqu'à 7 jours et jusqu'à 30 minutes avant le départ) ou au 0437 941 237 (lun–sam 8h–20h). Hiver, lun–sam : 9h–12h et 15h30–20h30. Tarif urbain 2,00 €.",
+    "de": "Buchung über die App Trillo Dolomiti Bus (bis 7 Tage und bis 30 Minuten vor Abfahrt) oder unter 0437 941 237 (Mo–Sa 8:00–20:00). Winter, Mo–Sa: 9:00–12:00 und 15:30–20:30. Stadttarif 2,00 €.",
+    "es": "Se reserva con la app Trillo Dolomiti Bus (hasta 7 días y hasta 30 minutos antes de la salida) o en el 0437 941 237 (lun–sáb 8:00–20:00). Invierno, lun–sáb: 9:00–12:00 y 15:30–20:30. Tarifa urbana 2,00 €."
+   }
+  }
+ }
 }

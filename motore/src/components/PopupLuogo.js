@@ -94,6 +94,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
               fermataId={fermataAperta.id}
               lineaIniziale={fermataAperta.linea}
               t={t}
+              lingua={lingua}
               onIndietro={() => setFermataAperta(null)}
               altezza={orizzontale ? height - 40 - insets.bottom : Math.round(height * 0.86) - 30 - insets.bottom}
             />

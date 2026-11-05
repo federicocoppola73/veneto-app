@@ -1,7 +1,511 @@
 {
-  "_nota": "Belluno: nessun dato bus urbano ancora.",
-  "validita": [],
-  "linee": [],
-  "fermate": {},
-  "fermataLinee": {}
+ "_nota": "Belluno: orari urbani Dolomitibus, servizio invernale feriale scolastico, lun–sab, dal 10/09/2026 all'08/06/2027 (PDF di dolomitibus.it, link in \"pdf\"). Non ci sono orari pubblicati per i periodi non scolastici. Da verificare: linea 957 con validità dal 28/09/2026 su una pagina del sito; alcune corse marcate \"fv\" (solo feriali) non sono distinte; alcuni orari dei PDF sono fuori sequenza o duplicati. Fermate frazione senza coordinate omesse. Coordinate © OpenStreetMap contributors (ODbL).",
+ "validita": [
+  "20260910",
+  "20270608"
+ ],
+ "linee": [
+  {
+   "id": "AUT-951",
+   "etichetta": "951 Blu",
+   "mezzo": "autobus",
+   "colore": "#1F5FBF",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea951_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-33",
+      "autobus-36",
+      "autobus-45",
+      "autobus-54",
+      "autobus-19"
+     ],
+     "titolo": "Bes → Sala"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-19",
+      "autobus-54",
+      "autobus-45",
+      "autobus-36",
+      "autobus-33"
+     ],
+     "titolo": "Sala → Bes"
+    }
+   ]
+  },
+  {
+   "id": "AUT-952",
+   "etichetta": "952 Rossa",
+   "mezzo": "autobus",
+   "colore": "#D62828",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea952_S26_v1.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-8",
+      "autobus-33",
+      "autobus-36",
+      "autobus-45",
+      "autobus-66",
+      "autobus-70",
+      "autobus-19"
+     ],
+     "titolo": "Mier → Fiammoi"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-19",
+      "autobus-70",
+      "autobus-66",
+      "autobus-45",
+      "autobus-36",
+      "autobus-33",
+      "autobus-8"
+     ],
+     "titolo": "Fiammoi → Mier"
+    }
+   ]
+  },
+  {
+   "id": "AUT-953",
+   "etichetta": "953 Bianca",
+   "mezzo": "autobus",
+   "colore": "#FFFFFF",
+   "testo": "#1A1A1A",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea953_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-33",
+      "autobus-36",
+      "autobus-45",
+      "autobus-3",
+      "autobus-95"
+     ],
+     "titolo": "Via Dante → Sopracroda"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-95",
+      "autobus-70",
+      "autobus-45",
+      "autobus-36",
+      "autobus-33"
+     ],
+     "titolo": "Sopracroda → Via Dante"
+    }
+   ]
+  },
+  {
+   "id": "AUT-954",
+   "etichetta": "954 Verde",
+   "mezzo": "autobus",
+   "colore": "#2E8B57",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea954_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-32",
+      "autobus-33",
+      "autobus-36",
+      "autobus-45",
+      "autobus-60"
+     ],
+     "titolo": "Bes → Safforze"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-60",
+      "autobus-45",
+      "autobus-36",
+      "autobus-33",
+      "autobus-32"
+     ],
+     "titolo": "Safforze → Bes"
+    }
+   ]
+  },
+  {
+   "id": "AUT-955",
+   "etichetta": "955 Arancio",
+   "mezzo": "autobus",
+   "colore": "#F28C28",
+   "testo": "#1A1A1A",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea955_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-36",
+      "autobus-33",
+      "autobus-32"
+     ],
+     "titolo": "Piazza Vittorio Emanuele → Orzes"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-32",
+      "autobus-33",
+      "autobus-36"
+     ],
+     "titolo": "Orzes → Piazza Vittorio Emanuele"
+    }
+   ]
+  },
+  {
+   "id": "AUT-956",
+   "etichetta": "956 Lilla",
+   "mezzo": "autobus",
+   "colore": "#B57EDC",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea956_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-107",
+      "autobus-32",
+      "autobus-33",
+      "autobus-36"
+     ],
+     "titolo": "Libano → Sagrogna"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-36",
+      "autobus-33",
+      "autobus-32",
+      "autobus-107"
+     ],
+     "titolo": "Sagrogna → Libano"
+    }
+   ]
+  },
+  {
+   "id": "AUT-957",
+   "etichetta": "957 Gialla",
+   "mezzo": "autobus",
+   "colore": "#F2C500",
+   "testo": "#1A1A1A",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea957_S26_v3.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-33",
+      "autobus-38",
+      "autobus-25",
+      "autobus-87"
+     ],
+     "titolo": "Via Dante → Cirvoi"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-87",
+      "autobus-25",
+      "autobus-38",
+      "autobus-33"
+     ],
+     "titolo": "Cirvoi → Via Dante"
+    }
+   ]
+  },
+  {
+   "id": "AUT-959",
+   "etichetta": "959 Celeste",
+   "mezzo": "autobus",
+   "colore": "#5BC0EB",
+   "testo": "#1A1A1A",
+   "notturna": false,
+   "gestore": "Dolomitibus",
+   "pdf": "https://dolomitibus.it/files/orari/invernali/Linea959_S26_v0.pdf",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-33",
+      "autobus-38",
+      "autobus-25"
+     ],
+     "titolo": "Via Dante → Madeago"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-25",
+      "autobus-38",
+      "autobus-33"
+     ],
+     "titolo": "Madeago → Via Dante"
+    }
+   ]
+  }
+ ],
+ "fermate": {
+  "autobus-33": {
+   "nome": "Via Dante/FS",
+   "lat": 46.141046,
+   "lon": 12.211482,
+   "linee": [
+    "AUT-951",
+    "AUT-952",
+    "AUT-953",
+    "AUT-954",
+    "AUT-955",
+    "AUT-956",
+    "AUT-957",
+    "AUT-959"
+   ]
+  },
+  "autobus-36": {
+   "nome": "Piazza Vittorio Emanuele II",
+   "lat": 46.139849,
+   "lon": 12.217473,
+   "linee": [
+    "AUT-951",
+    "AUT-952",
+    "AUT-953",
+    "AUT-954",
+    "AUT-955",
+    "AUT-956"
+   ]
+  },
+  "autobus-45": {
+   "nome": "Bivio Baldenich",
+   "lat": 46.144918,
+   "lon": 12.222459,
+   "linee": [
+    "AUT-951",
+    "AUT-952",
+    "AUT-953",
+    "AUT-954"
+   ]
+  },
+  "autobus-54": {
+   "nome": "Nogarè centro",
+   "lat": 46.148546,
+   "lon": 12.232129,
+   "linee": [
+    "AUT-951"
+   ]
+  },
+  "autobus-19": {
+   "nome": "Via Simon Da Cusighe",
+   "lat": 46.142953,
+   "lon": 12.217568,
+   "linee": [
+    "AUT-951",
+    "AUT-952"
+   ]
+  },
+  "autobus-8": {
+   "nome": "Belluno Ospedale",
+   "lat": 46.139134,
+   "lon": 12.203878,
+   "linee": [
+    "AUT-952"
+   ]
+  },
+  "autobus-66": {
+   "nome": "Cavarzano - piazza Vittime via Fani",
+   "lat": 46.1496,
+   "lon": 12.215969,
+   "linee": [
+    "AUT-952"
+   ]
+  },
+  "autobus-70": {
+   "nome": "Cavarzano - via Rudio",
+   "lat": 46.148975,
+   "lon": 12.210136,
+   "linee": [
+    "AUT-952",
+    "AUT-953"
+   ]
+  },
+  "autobus-3": {
+   "nome": "Cavarzano - monumento",
+   "lat": 46.152033,
+   "lon": 12.213357,
+   "linee": [
+    "AUT-953"
+   ]
+  },
+  "autobus-95": {
+   "nome": "Sopracroda Sas de Croda",
+   "lat": 46.153916,
+   "lon": 12.205827,
+   "linee": [
+    "AUT-953"
+   ]
+  },
+  "autobus-32": {
+   "nome": "Mussoi La Baita",
+   "lat": 46.143759,
+   "lon": 12.202427,
+   "linee": [
+    "AUT-954",
+    "AUT-955",
+    "AUT-956"
+   ]
+  },
+  "autobus-60": {
+   "nome": "Bivio Nogarè",
+   "lat": 46.151421,
+   "lon": 12.22932,
+   "linee": [
+    "AUT-954"
+   ]
+  },
+  "autobus-107": {
+   "nome": "Vezzano",
+   "lat": 46.153268,
+   "lon": 12.200028,
+   "linee": [
+    "AUT-956"
+   ]
+  },
+  "autobus-38": {
+   "nome": "Piazza Duomo",
+   "lat": 46.137941,
+   "lon": 12.217376,
+   "linee": [
+    "AUT-957",
+    "AUT-959"
+   ]
+  },
+  "autobus-25": {
+   "nome": "Borgo Piave Distributore Agip",
+   "lat": 46.133711,
+   "lon": 12.217823,
+   "linee": [
+    "AUT-957",
+    "AUT-959"
+   ]
+  },
+  "autobus-87": {
+   "nome": "Castion via De Amicis 60",
+   "lat": 46.128903,
+   "lon": 12.227774,
+   "linee": [
+    "AUT-957"
+   ]
+  }
+ },
+ "fermataLinee": {
+  "autobus-33": [
+   "AUT-951",
+   "AUT-952",
+   "AUT-953",
+   "AUT-954",
+   "AUT-955",
+   "AUT-956",
+   "AUT-957",
+   "AUT-959"
+  ],
+  "autobus-36": [
+   "AUT-951",
+   "AUT-952",
+   "AUT-953",
+   "AUT-954",
+   "AUT-955",
+   "AUT-956"
+  ],
+  "autobus-45": [
+   "AUT-951",
+   "AUT-952",
+   "AUT-953",
+   "AUT-954"
+  ],
+  "autobus-54": [
+   "AUT-951"
+  ],
+  "autobus-19": [
+   "AUT-951",
+   "AUT-952"
+  ],
+  "autobus-8": [
+   "AUT-952"
+  ],
+  "autobus-66": [
+   "AUT-952"
+  ],
+  "autobus-70": [
+   "AUT-952",
+   "AUT-953"
+  ],
+  "autobus-3": [
+   "AUT-953"
+  ],
+  "autobus-95": [
+   "AUT-953"
+  ],
+  "autobus-32": [
+   "AUT-954",
+   "AUT-955",
+   "AUT-956"
+  ],
+  "autobus-60": [
+   "AUT-954"
+  ],
+  "autobus-107": [
+   "AUT-956"
+  ],
+  "autobus-38": [
+   "AUT-957",
+   "AUT-959"
+  ],
+  "autobus-25": [
+   "AUT-957",
+   "AUT-959"
+  ],
+  "autobus-87": [
+   "AUT-957"
+  ]
+ }
 }
