@@ -2342,6 +2342,58 @@
           "metri": 178
         }
       ]
+    },
+    {
+      "id": "villa-vescovile-del-belvedere",
+      "nome": "Villa Vescovile del Belvedere",
+      "categoria": "palazzi",
+      "sestiere": "Mussoi",
+      "latitudine": 46.14161958343949,
+      "longitudine": 12.201254190387923,
+      "descrizione": {
+        "it": "Costruita tra il 1711 e il 1714 come residenza estiva del vescovo di Belluno Giovanni Francesco Bembo, Villa Vescovile del Belvedere sorge sulle alture di Mussoi, in posizione panoramica sulla città e sulla Valbelluna. La dimora presenta un corpo centrale affiancato da due ali laterali, una facciata scenografica con scalinate e balconi in pietra e un ampio parco. I suoi interni erano un tempo decorati da un importante ciclo di affreschi di Marco e Sebastiano Ricci, oggi in gran parte perduto.",
+        "en": "Built between 1711 and 1714 as the summer residence of the Bishop of Belluno, Giovanni Francesco Bembo, Villa Vescovile del Belvedere stands on the heights of Mussoi, with a panoramic view over the city and the Valbelluna. The residence has a central block flanked by two side wings, a monumental façade with stone staircases and balconies, and a large park. Its interiors were once decorated with an important cycle of frescoes by Marco and Sebastiano Ricci, now largely lost.",
+        "fr": "Construite entre 1711 et 1714 comme résidence d'été de l'évêque de Belluno Giovanni Francesco Bembo, la Villa Vescovile del Belvedere se dresse sur les hauteurs de Mussoi, avec une vue panoramique sur la ville et la Valbelluna. La demeure présente un corps central flanqué de deux ailes latérales, une façade spectaculaire avec des escaliers et des balcons en pierre, et un vaste parc. Ses intérieurs étaient autrefois décorés d'un important cycle de fresques de Marco et Sebastiano Ricci, aujourd'hui en grande partie perdu.",
+        "de": "Zwischen 1711 und 1714 als Sommerresidenz des Bischofs von Belluno Giovanni Francesco Bembo errichtet, liegt die Villa Vescovile del Belvedere auf den Anhöhen von Mussoi mit einem Panoramablick über die Stadt und das Valbelluna. Das Herrenhaus besteht aus einem Mittelbau mit zwei seitlichen Flügeln, einer repräsentativen Fassade mit Treppen und Balkonen aus Stein und einem großen Park. Seine Innenräume waren einst mit einem bedeutenden Freskenzyklus von Marco und Sebastiano Ricci geschmückt, der heute größtenteils verloren ist.",
+        "es": "Construida entre 1711 y 1714 como residencia de verano del obispo de Belluno Giovanni Francesco Bembo, la Villa Vescovile del Belvedere se alza en las alturas de Mussoi, con vistas panorámicas sobre la ciudad y la Valbelluna. La casa tiene un cuerpo central flanqueado por dos alas laterales, una fachada escenográfica con escalinatas y balcones de piedra, y un amplio parque. Sus interiores estuvieron decorados con un importante ciclo de frescos de Marco y Sebastiano Ricci, hoy en gran parte perdido."
+      },
+      "orari": [
+        {
+          "giorni": "su prenotazione",
+          "ore": "non sono pubblicati orari fissi"
+        }
+      ],
+      "biglietto": {},
+      "nota": "Visita al parco gratuita, previo appuntamento telefonico. Visita agli interni da concordare direttamente con i proprietari. Non risulta un tariffario ordinario pubblicato.",
+      "sito": "https://www.visitdolomitibellunesi.com/it/pois/villa-vescovile-del-belvedere?utm_source=chatgpt.com",
+      "fermate_vicine": [
+        {
+          "nome": "Mussoi La Baita",
+          "linee": [
+            "AUT-954",
+            "AUT-955",
+            "AUT-956"
+          ],
+          "metri": 255
+        }
+      ],
+      "immagine": {
+        "autore": "Foto propria",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
