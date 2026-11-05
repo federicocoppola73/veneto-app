@@ -21,7 +21,7 @@ const CHIAVE_LINGUA = 'lingua';
 const COPERTINE = {
   venezia: require('./assets/copertine/venezia.jpg'),
   verona: require('./assets/copertine/verona.jpg'),
-  padova: require('./assets/copertine/padova.png'),
+  padova: require('./assets/copertine/padova.jpg'),
   treviso: require('./assets/copertine/treviso.jpg'),
   vicenza: require('./assets/copertine/vicenza.jpg'),
   rovigo: require('./assets/copertine/rovigo.jpg'),
@@ -293,6 +293,8 @@ function AppRadice() {
                 Copertina di Belluno: Jacobus, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
 
                 Copertina di Verona: Arne Müseler, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
+
+                Copertina di Padova: Didier Descouens, da Wikimedia Commons. Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
               </Text>
             </View>
           </View>
