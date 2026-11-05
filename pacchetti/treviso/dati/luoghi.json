@@ -125,7 +125,25 @@
       "wikipedia": {
         "it": "Palazzo dei Trecento",
         "en": "Palazzo dei Trecento"
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una casa comunale nata nel Duecento"
+          },
+          "testo": {
+            "it": "Il palazzo era la Domus Comunis, sede delle istituzioni cittadine già dal primo decennio del XIII secolo. Nel salone si trovavano anche i banchi dei giudici, che si occupavano delle controversie tra cittadini."
+          }
+        },
+        {
+          "titolo": {
+            "it": "La ricostruzione dopo il bombardamento"
+          },
+          "testo": {
+            "it": "Il bombardamento del 7 aprile 1944 provocò danni gravissimi all'edificio, che rischiò di essere distrutto. Il palazzo fu poi ricostruito e restituito alla città negli anni immediatamente successivi alla guerra."
+          }
+        }
+      ]
     },
     {
       "id": "loggia-dei-cavalieri",
@@ -1242,6 +1260,32 @@
       },
       "personaggio": [
         "tomaso-da-modena"
+      ],
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una chiesa costruita in sei secoli"
+          },
+          "testo": {
+            "it": "L'edificio attuale fu iniziato nel 1304 grazie anche al lascito di Niccolò Boccasino, il futuro papa Benedetto XI. I lavori procedettero a lungo e il completamento definitivo arrivò soltanto nell'Ottocento."
+          }
+        },
+        {
+          "titolo": {
+            "it": "Da convento domenicano a seminario"
+          },
+          "testo": {
+            "it": "Il complesso conventuale fu abitato dai Domenicani per secoli. Dopo la soppressione napoleonica degli ordini religiosi, il convento fu riacquistato dal vescovo nel 1839 e destinato al seminario."
+          }
+        },
+        {
+          "titolo": {
+            "it": "Una chiesa trasformata in magazzino militare"
+          },
+          "testo": {
+            "it": "Durante la Prima guerra mondiale il tempio fu chiuso al culto, occupato e utilizzato come magazzino militare. Una destinazione insolita per uno degli edifici religiosi più importanti della città."
+          }
+        }
       ]
     },
     {
@@ -2311,7 +2355,25 @@
           "fonte": ""
         }
       ],
-      "indirizzo": "Via Antonio Canova, 38"
+      "indirizzo": "Via Antonio Canova, 38",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La casa che diventò un museo"
+          },
+          "testo": {
+            "it": "Nel 1938 l'edificio ospitò il Museo della Casa Trevigiana, con ambienti arredati per ricreare una dimora tradizionale: cucina al pianterreno e salotti, sala da pranzo e sala da musica al piano superiore."
+          }
+        },
+        {
+          "titolo": {
+            "it": "Una facciata dipinta nel 1528"
+          },
+          "testo": {
+            "it": "Il palazzo rinascimentale prende il nome dal notaio Costantino Robegan, al quale appartenne. La sua facciata conserva decorazioni ad affresco datate 1528."
+          }
+        }
+      ]
     },
     {
       "id": "biblioteca-comunale-di-treviso",
