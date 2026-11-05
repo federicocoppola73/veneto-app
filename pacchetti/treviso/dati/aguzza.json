@@ -43,7 +43,10 @@
         "es": "Una cadena rota, símbolo del fin de la sumisión a Austria."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-piazza-indipendenza-piedi.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "porta-san-tomaso",
@@ -63,7 +66,10 @@
         "es": "El león de San Marcos, símbolo de la República de Venecia."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-porta-san-tomaso-leone-alato.webp",
+        "credits": "kallerna – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "porta-santi-quaranta",
@@ -104,7 +110,10 @@
         "es": "El león de la izquierda tiene una serpiente o dragón, el de la derecha una cabeza humana cortada."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
       "da_verificare": true
     },
     {
@@ -165,7 +174,10 @@
         "es": "En la pared de la nave derecha."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-san-nicolo-san-cristoforo.webp",
+        "credits": "Geobia – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "sala-del-capitolo-dei-domenicani",
@@ -185,7 +197,10 @@
         "es": "Cuarenta, representados en sus estudios y actividades."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-sala-capitolo-domenicani.webp",
+        "credits": "Risorto Celebrano – CC BY-SA 3.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "ponte-dante",
@@ -226,7 +241,10 @@
         "es": "El agua del Cagnan."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-isola-della-pescheria.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     }
   ]
 }
