@@ -119,7 +119,7 @@ def main():
                 d.ellipse((x - r, y - r, x + r, y + r), fill=dm.STRADA)
 
     print('nomi delle vie…', flush=True)
-    font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 11 * SCALA)
+    font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 8 * SCALA)
     tratti = {}
     for tipo, punti, nome in strade:
         if not nome or tipo not in dm.CON_NOME:
