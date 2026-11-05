@@ -129,18 +129,34 @@
       "lo_sapevi_che": [
         {
           "titolo": {
-            "it": "Una casa comunale nata nel Duecento"
+            "it": "Una casa comunale nata nel Duecento",
+            "en": "A town hall founded in the 13th century",
+            "fr": "Une maison communale née au XIIIe siècle",
+            "de": "Ein Gemeindehaus aus dem 13. Jahrhundert",
+            "es": "Una casa comunal nacida en el siglo XIII"
           },
           "testo": {
-            "it": "Il palazzo era la Domus Comunis, sede delle istituzioni cittadine già dal primo decennio del XIII secolo. Nel salone si trovavano anche i banchi dei giudici, che si occupavano delle controversie tra cittadini."
+            "it": "Il palazzo era la Domus Comunis, sede delle istituzioni cittadine già dal primo decennio del XIII secolo. Nel salone si trovavano anche i banchi dei giudici, che si occupavano delle controversie tra cittadini.",
+            "en": "The palace was the Domus Comunis, seat of the city's institutions already from the first decade of the 13th century. The hall also housed the benches of the judges, who dealt with disputes between citizens.",
+            "fr": "Le palais était la Domus Comunis, siège des institutions de la ville dès la première décennie du XIIIe siècle. Dans la grande salle se trouvaient aussi les bancs des juges, qui s'occupaient des litiges entre citoyens.",
+            "de": "Der Palast war die Domus Comunis, Sitz der städtischen Institutionen bereits seit dem ersten Jahrzehnt des 13. Jahrhunderts. Im Saal befanden sich auch die Bänke der Richter, die sich um Streitigkeiten zwischen den Bürgern kümmerten.",
+            "es": "El palacio era la Domus Comunis, sede de las instituciones de la ciudad ya desde la primera década del siglo XIII. En la sala también se encontraban los bancos de los jueces, que se ocupaban de los litigios entre ciudadanos."
           }
         },
         {
           "titolo": {
-            "it": "La ricostruzione dopo il bombardamento"
+            "it": "La ricostruzione dopo il bombardamento",
+            "en": "The reconstruction after the bombing",
+            "fr": "La reconstruction après le bombardement",
+            "de": "Der Wiederaufbau nach dem Bombenangriff",
+            "es": "La reconstrucción tras el bombardeo"
           },
           "testo": {
-            "it": "Il bombardamento del 7 aprile 1944 provocò danni gravissimi all'edificio, che rischiò di essere distrutto. Il palazzo fu poi ricostruito e restituito alla città negli anni immediatamente successivi alla guerra."
+            "it": "Il bombardamento del 7 aprile 1944 provocò danni gravissimi all'edificio, che rischiò di essere distrutto. Il palazzo fu poi ricostruito e restituito alla città negli anni immediatamente successivi alla guerra.",
+            "en": "The bombing of 7 April 1944 caused severe damage to the building, which risked being destroyed. The palace was later rebuilt and returned to the city in the years immediately after the war.",
+            "fr": "Le bombardement du 7 avril 1944 causa de très graves dégâts au bâtiment, qui faillit être détruit. Le palais fut ensuite reconstruit et rendu à la ville dans les années qui suivirent immédiatement la guerre.",
+            "de": "Der Bombenangriff vom 7. April 1944 verursachte schwerste Schäden am Gebäude, das beinahe zerstört wurde. Der Palast wurde danach wiederaufgebaut und in den unmittelbar auf den Krieg folgenden Jahren der Stadt zurückgegeben.",
+            "es": "El bombardeo del 7 de abril de 1944 causó daños gravísimos en el edificio, que estuvo a punto de ser destruido. El palacio fue reconstruido después y devuelto a la ciudad en los años inmediatamente posteriores a la guerra."
           }
         }
       ]
@@ -1264,26 +1280,50 @@
       "lo_sapevi_che": [
         {
           "titolo": {
-            "it": "Una chiesa costruita in sei secoli"
+            "it": "Una chiesa costruita in sei secoli",
+            "en": "A church built over six centuries",
+            "fr": "Une église construite sur six siècles",
+            "de": "Eine Kirche, die über sechs Jahrhunderte entstand",
+            "es": "Una iglesia construida a lo largo de seis siglos"
           },
           "testo": {
-            "it": "L'edificio attuale fu iniziato nel 1304 grazie anche al lascito di Niccolò Boccasino, il futuro papa Benedetto XI. I lavori procedettero a lungo e il completamento definitivo arrivò soltanto nell'Ottocento."
+            "it": "L'edificio attuale fu iniziato nel 1304 grazie anche al lascito di Niccolò Boccasino, il futuro papa Benedetto XI. I lavori procedettero a lungo e il completamento definitivo arrivò soltanto nell'Ottocento.",
+            "en": "The current building was begun in 1304, also thanks to the bequest of Niccolò Boccasino, the future Pope Benedict XI. The works went on for a long time, and the final completion came only in the 19th century.",
+            "fr": "Le bâtiment actuel fut commencé en 1304, notamment grâce au legs de Niccolò Boccasino, futur pape Benoît XI. Les travaux se prolongèrent longtemps et l'achèvement définitif n'eut lieu qu'au XIXe siècle.",
+            "de": "Das heutige Gebäude wurde 1304 begonnen, unter anderem dank des Vermächtnisses von Niccolò Boccasino, dem späteren Papst Benedikt XI. Die Arbeiten zogen sich lange hin, und die endgültige Fertigstellung erfolgte erst im 19. Jahrhundert.",
+            "es": "El edificio actual se inició en 1304, también gracias al legado de Niccolò Boccasino, futuro papa Benedicto XI. Las obras se prolongaron mucho tiempo y la conclusión definitiva llegó solo en el siglo XIX."
           }
         },
         {
           "titolo": {
-            "it": "Da convento domenicano a seminario"
+            "it": "Da convento domenicano a seminario",
+            "en": "From Dominican convent to seminary",
+            "fr": "D'un couvent dominicain à un séminaire",
+            "de": "Vom Dominikanerkloster zum Priesterseminar",
+            "es": "De convento dominico a seminario"
           },
           "testo": {
-            "it": "Il complesso conventuale fu abitato dai Domenicani per secoli. Dopo la soppressione napoleonica degli ordini religiosi, il convento fu riacquistato dal vescovo nel 1839 e destinato al seminario."
+            "it": "Il complesso conventuale fu abitato dai Domenicani per secoli. Dopo la soppressione napoleonica degli ordini religiosi, il convento fu riacquistato dal vescovo nel 1839 e destinato al seminario.",
+            "en": "The convent complex was home to the Dominicans for centuries. After the Napoleonic suppression of religious orders, the convent was bought back by the bishop in 1839 and assigned to the seminary.",
+            "fr": "Le complexe conventuel fut habité par les Dominicains pendant des siècles. Après la suppression napoléonienne des ordres religieux, le couvent fut racheté par l'évêque en 1839 et affecté au séminaire.",
+            "de": "Der Klosterkomplex wurde jahrhundertelang von den Dominikanern bewohnt. Nach der napoleonischen Aufhebung der Orden kaufte der Bischof das Kloster 1839 zurück und bestimmte es für das Priesterseminar.",
+            "es": "El complejo conventual estuvo habitado por los dominicos durante siglos. Tras la supresión napoleónica de las órdenes religiosas, el obispo recuperó el convento en 1839 y lo destinó al seminario."
           }
         },
         {
           "titolo": {
-            "it": "Una chiesa trasformata in magazzino militare"
+            "it": "Una chiesa trasformata in magazzino militare",
+            "en": "A church turned into a military warehouse",
+            "fr": "Une église transformée en entrepôt militaire",
+            "de": "Eine Kirche, die zum Militärlager wurde",
+            "es": "Una iglesia convertida en almacén militar"
           },
           "testo": {
-            "it": "Durante la Prima guerra mondiale il tempio fu chiuso al culto, occupato e utilizzato come magazzino militare. Una destinazione insolita per uno degli edifici religiosi più importanti della città."
+            "it": "Durante la Prima guerra mondiale il tempio fu chiuso al culto, occupato e utilizzato come magazzino militare. Una destinazione insolita per uno degli edifici religiosi più importanti della città.",
+            "en": "During the First World War the church was closed to worship, occupied and used as a military warehouse. An unusual use for one of the city's most important religious buildings.",
+            "fr": "Pendant la Première Guerre mondiale, l'église fut fermée au culte, occupée et utilisée comme entrepôt militaire. Une destination inhabituelle pour l'un des édifices religieux les plus importants de la ville.",
+            "de": "Während des Ersten Weltkriegs wurde die Kirche für den Gottesdienst geschlossen, besetzt und als Militärlager genutzt. Eine ungewöhnliche Nutzung für eines der wichtigsten Gotteshäuser der Stadt.",
+            "es": "Durante la Primera Guerra Mundial el templo fue cerrado al culto, ocupado y utilizado como almacén militar. Un destino insólito para uno de los edificios religiosos más importantes de la ciudad."
           }
         }
       ]
@@ -2359,18 +2399,34 @@
       "lo_sapevi_che": [
         {
           "titolo": {
-            "it": "La casa che diventò un museo"
+            "it": "La casa che diventò un museo",
+            "en": "The house that became a museum",
+            "fr": "La maison devenue musée",
+            "de": "Das Haus, das zum Museum wurde",
+            "es": "La casa que se convirtió en museo"
           },
           "testo": {
-            "it": "Nel 1938 l'edificio ospitò il Museo della Casa Trevigiana, con ambienti arredati per ricreare una dimora tradizionale: cucina al pianterreno e salotti, sala da pranzo e sala da musica al piano superiore."
+            "it": "Nel 1938 l'edificio ospitò il Museo della Casa Trevigiana, con ambienti arredati per ricreare una dimora tradizionale: cucina al pianterreno e salotti, sala da pranzo e sala da musica al piano superiore.",
+            "en": "In 1938 the building housed the Museo della Casa Trevigiana, with rooms furnished to recreate a traditional home: a kitchen on the ground floor and, on the upper floor, parlours, a dining room and a music room.",
+            "fr": "En 1938, le bâtiment accueillit le Musée de la maison trévisane, avec des pièces meublées pour recréer une demeure traditionnelle : une cuisine au rez-de-chaussée et, à l'étage supérieur, des salons, une salle à manger et une salle de musique.",
+            "de": "1938 beherbergte das Gebäude das Museo della Casa Trevigiana, mit Räumen, die eingerichtet waren, um ein traditionelles Wohnhaus nachzubilden: eine Küche im Erdgeschoss und im Obergeschoss Salons, ein Esszimmer und ein Musikzimmer.",
+            "es": "En 1938 el edificio acogió el Museo de la Casa Trevigiana, con estancias amuebladas para recrear una vivienda tradicional: cocina en la planta baja y, en la superior, salones, comedor y sala de música."
           }
         },
         {
           "titolo": {
-            "it": "Una facciata dipinta nel 1528"
+            "it": "Una facciata dipinta nel 1528",
+            "en": "A façade painted in 1528",
+            "fr": "Une façade peinte en 1528",
+            "de": "Eine 1528 bemalte Fassade",
+            "es": "Una fachada pintada en 1528"
           },
           "testo": {
-            "it": "Il palazzo rinascimentale prende il nome dal notaio Costantino Robegan, al quale appartenne. La sua facciata conserva decorazioni ad affresco datate 1528."
+            "it": "Il palazzo rinascimentale prende il nome dal notaio Costantino Robegan, al quale appartenne. La sua facciata conserva decorazioni ad affresco datate 1528.",
+            "en": "The Renaissance palace takes its name from the notary Costantino Robegan, who owned it. Its façade keeps fresco decorations dated 1528.",
+            "fr": "Le palais Renaissance tire son nom du notaire Costantino Robegan, qui en fut le propriétaire. Sa façade conserve des décorations à fresque datées de 1528.",
+            "de": "Der Renaissancepalast trägt den Namen des Notars Costantino Robegan, dem er gehörte. Seine Fassade bewahrt Freskendekorationen aus dem Jahr 1528.",
+            "es": "El palacio renacentista toma su nombre del notario Costantino Robegan, a quien perteneció. Su fachada conserva decoraciones al fresco fechadas en 1528."
           }
         }
       ]
