@@ -110,7 +110,10 @@
         "es": "El león de la izquierda tiene una serpiente o dragón, el de la derecha una cabeza humana cortada."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
       "da_verificare": true
     },
     {
