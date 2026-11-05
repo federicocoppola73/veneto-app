@@ -2519,6 +2519,49 @@
           "fonte": ""
         }
       ]
+    },
+    {
+      "id": "casa-fantuzzi",
+      "nome": "Casa Fantuzzi",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 46.13412535774116,
+      "longitudine": 12.220984277021131,
+      "indirizzo": "Via San Nicolò 48, Borgo Piave, Belluno",
+      "descrizione": {
+        "it": "Casa Fantuzzi è un edificio quattrocentesco situato nel cuore di Borgo Piave, l'antico quartiere portuale di Belluno, un tempo animato dal commercio del legname e dal passaggio delle zattere lungo il fiume. La facciata è caratterizzata da tre ordini di finestre incorniciate in pietra di Castellavazzo e da una grande apertura architravata sulla quale è inciso il monogramma cristiano IHS. L'edificio conserva un suggestivo sottoportico lastricato con ciottoli, che conduce a un cortile interno, e una loggetta con sottili colonnine. Il nome della casa è legato a Giuseppe Fantuzzi (1762-1800), nato a Belluno, che la abitò e divenne generale dell'esercito francese dopo una vita avventurosa, iniziata proprio come zattiere sul Piave.",
+        "en": "Casa Fantuzzi is a fifteenth-century building in the heart of Borgo Piave, Belluno's old riverside quarter, once busy with the timber trade and the passage of rafts along the river. The façade has three tiers of windows framed in Castellavazzo stone and a large lintelled opening bearing the Christian monogram IHS carved on it. The building keeps an atmospheric cobbled portico leading to an inner courtyard, and a small loggia with slender columns. The house takes its name from Giuseppe Fantuzzi (1762–1800), born in Belluno, who lived here and became a general in the French army after an adventurous life that began as a raft man on the Piave.",
+        "fr": "La Casa Fantuzzi est un édifice du XVe siècle situé au cœur de Borgo Piave, l'ancien quartier portuaire de Belluno, jadis animé par le commerce du bois et le passage des radeaux sur la rivière. La façade présente trois niveaux de fenêtres encadrées de pierre de Castellavazzo et une grande ouverture à linteau sur laquelle est gravé le monogramme chrétien IHS. Le bâtiment conserve un sous-portique pavé de galets qui mène à une cour intérieure, ainsi qu'une petite loggia aux fines colonnettes. La maison doit son nom à Giuseppe Fantuzzi (1762-1800), né à Belluno, qui y vécut et devint général de l'armée française après une vie aventureuse commencée comme radeleur sur la Piave.",
+        "de": "Casa Fantuzzi ist ein Gebäude aus dem 15. Jahrhundert im Herzen von Borgo Piave, dem alten Hafenviertel von Belluno, das einst vom Holzhandel und dem Floßverkehr auf dem Fluss geprägt war. Die Fassade zeigt drei Fensterreihen mit Rahmen aus Castellavazzo-Stein und eine große Architravöffnung, in die das christliche Monogramm IHS eingemeißelt ist. Das Gebäude besitzt einen stimmungsvollen, mit Kieseln gepflasterten Laubengang, der zu einem Innenhof führt, sowie eine kleine Loggia mit schlanken Säulchen. Der Name des Hauses geht auf Giuseppe Fantuzzi (1762–1800) zurück, der in Belluno geboren wurde, hier wohnte und nach einem abenteuerlichen Leben, das als Floßfahrer auf der Piave begann, General der französischen Armee wurde.",
+        "es": "Casa Fantuzzi es un edificio del siglo XV situado en el corazón de Borgo Piave, el antiguo barrio portuario de Belluno, en otro tiempo animado por el comercio de madera y el paso de las balsas por el río. La fachada presenta tres órdenes de ventanas enmarcadas en piedra de Castellavazzo y una gran abertura adintelada en la que está grabado el monograma cristiano IHS. El edificio conserva un sugerente soportal empedrado con guijarros que conduce a un patio interior, y una pequeña logia con finas columnillas. El nombre de la casa está ligado a Giuseppe Fantuzzi (1762-1800), nacido en Belluno, que la habitó y llegó a ser general del ejército francés tras una vida aventurera que comenzó como barquero de balsas en el Piave."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": "Solo visita esterna.",
+      "immagine": {
+        "autore": "Foto propria",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        },
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
