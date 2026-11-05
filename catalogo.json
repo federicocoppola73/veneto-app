@@ -128,11 +128,22 @@
       "id": "belluno",
       "nome": "Belluno",
       "provincia": "Belluno",
-      "stato": "in_preparazione",
-      "anteprima": [],
-      "pacchetto": null,
+      "stato": "disponibile",
+      "anteprima": [
+        "piazza-duomo",
+        "cattedrale-di-san-martino",
+        "piazza-delle-erbe",
+        "palazzo-rosso",
+        "palazzo-dei-rettori",
+        "battistero-del-duomo",
+        "chiesa-di-san-pietro",
+        "chiesa-di-santo-stefano",
+        "piazza-dei-martiri",
+        "chiesa-di-santa-maria-di-loreto"
+      ],
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/manifest.json?v=1",
       "sku": null,
-      "dimensione_mb": null,
+      "dimensione_mb": 15,
       "motto": "Dolomiti e Tiziano"
     }
   ]
