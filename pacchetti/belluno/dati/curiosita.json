@@ -1,4 +1,173 @@
 {
-  "_nota": "Belluno: luoghi segreti ancora da preparare.",
-  "curiosita": []
+  "_nota": "Luoghi segreti (💡) di Belluno: ogni voce rimanda a un luogo con curiosita: true; compare sulla mappa solo se scelta dalla sezione luoghi segreti.",
+  "curiosita": [
+    {
+      "id": "borgo-piave",
+      "luogo_id": "borgo-piave",
+      "sestiere": "Centro storico",
+      "latitudine": 46.1345956,
+      "longitudine": 12.2220911,
+      "titolo": {
+        "it": "Il borgo delle zattere",
+        "en": "The raft village",
+        "fr": "Le bourg des radeaux",
+        "de": "Das Floßdorf",
+        "es": "El barrio de las balsas"
+      },
+      "testo": {
+        "it": "Dietro il centro monumentale c'è un borgo che viveva di fiume: qui il legname del Piave veniva trasportato con le zattere. È un volto della città meno noto, lontano dalle cartoline.",
+        "en": "Behind the monumental centre lies a district that lived by the river: here timber from the Piave was moved by raft. It is a side of the city less known than the postcard views.",
+        "fr": "Derrière le centre monumental se trouve un quartier vécu au rythme du fleuve : ici, le bois du Piave était transporté par radeaux. C'est un visage de la ville moins connu que les cartes postales.",
+        "de": "Hinter dem monumentalen Zentrum liegt ein Viertel, das vom Fluss lebte: Hier wurde das Holz der Piave mit Flößen transportiert. Es ist eine weniger bekannte Seite der Stadt als die Postkartenansichten.",
+        "es": "Tras el centro monumental hay un barrio que vivía del río: aquí se transportaba la madera del Piave en balsas. Es una cara de la ciudad menos conocida que las postales."
+      }
+    },
+    {
+      "id": "palazzo-nossadani",
+      "luogo_id": "palazzo-nossadani",
+      "sestiere": "Centro storico",
+      "latitudine": 46.136133,
+      "longitudine": 12.220553,
+      "titolo": {
+        "it": "Un palazzo fuori dai percorsi",
+        "en": "A palace off the beaten track",
+        "fr": "Un palais hors des sentiers battus",
+        "de": "Ein Palast abseits der Pfade",
+        "es": "Un palacio fuera de las rutas"
+      },
+      "testo": {
+        "it": "Un palazzo storico poco conosciuto, a pochi passi dai grandi edifici di Piazza Duomo: vale la pena alzare lo sguardo passeggiando nel centro storico.",
+        "en": "A little-known historic palace, a few steps from the great buildings of Piazza Duomo: worth looking up as you walk through the old town.",
+        "fr": "Un palais historique peu connu, à quelques pas des grands édifices de la Piazza Duomo : il vaut la peine de lever les yeux en flânant dans le centre ancien.",
+        "de": "Ein wenig bekannter historischer Palast, nur wenige Schritte von den großen Gebäuden der Piazza Duomo entfernt: Es lohnt sich, beim Spaziergang durch die Altstadt den Blick zu heben.",
+        "es": "Un palacio histórico poco conocido, a pocos pasos de los grandes edificios de la Piazza Duomo: merece la pena levantar la mirada al pasear por el casco antiguo."
+      }
+    },
+    {
+      "id": "loggia-dei-ghibellini",
+      "luogo_id": "loggia-dei-ghibellini",
+      "sestiere": "Centro storico",
+      "latitudine": 46.1388002,
+      "longitudine": 12.2183813,
+      "titolo": {
+        "it": "Il portico dei ghibellini",
+        "en": "The Ghibellines' arcade",
+        "fr": "Le portique des gibelins",
+        "de": "Die Arkaden der Ghibellinen",
+        "es": "El pórtico de los gibelinos"
+      },
+      "testo": {
+        "it": "Un angolo architettonico particolare: un portico al piano terra di Palazzo Costantini, dove un tempo si riuniva la fazione ghibellina.",
+        "en": "A distinctive architectural corner: an arcade on the ground floor of Palazzo Costantini, where the Ghibelline faction once gathered.",
+        "fr": "Un coin architectural singulier : un portique au rez-de-chaussée du palais Costantini, où se réunissait autrefois la faction gibeline.",
+        "de": "Eine besondere architektonische Ecke: ein Arkadengang im Erdgeschoss des Palazzo Costantini, wo sich einst die ghibellinische Partei versammelte.",
+        "es": "Un rincón arquitectónico singular: un pórtico en la planta baja del Palazzo Costantini, donde en otro tiempo se reunía la facción gibelina."
+      }
+    },
+    {
+      "id": "fontana-della-motta",
+      "luogo_id": "fontana-della-motta",
+      "sestiere": "Centro storico",
+      "latitudine": 46.1377312,
+      "longitudine": 12.2193574,
+      "titolo": {
+        "it": "La fontana del 1562",
+        "en": "The 1562 fountain",
+        "fr": "La fontaine de 1562",
+        "de": "Der Brunnen von 1562",
+        "es": "La fuente de 1562"
+      },
+      "testo": {
+        "it": "Una delle fontane storiche della città, realizzata nel 1562 dal Loredan per il quartiere della Motta.",
+        "en": "One of the city's historic fountains, built in 1562 by Loredan for the Motta district.",
+        "fr": "L'une des fontaines historiques de la ville, réalisée en 1562 par Loredan pour le quartier de la Motta.",
+        "de": "Einer der historischen Brunnen der Stadt, 1562 von Loredan für das Viertel Motta errichtet.",
+        "es": "Una de las fuentes históricas de la ciudad, realizada en 1562 por Loredan para el barrio de la Motta."
+      }
+    },
+    {
+      "id": "seminario-gregoriano",
+      "luogo_id": "seminario-gregoriano",
+      "sestiere": "Centro storico",
+      "latitudine": 46.138501,
+      "longitudine": 12.219325,
+      "titolo": {
+        "it": "Il Seminarium Gregorianum",
+        "en": "The Seminarium Gregorianum",
+        "fr": "Le Seminarium Gregorianum",
+        "de": "Das Seminarium Gregorianum",
+        "es": "El Seminarium Gregorianum"
+      },
+      "testo": {
+        "it": "Un complesso religioso con chiostro e portico, legato alla Chiesa di San Pietro. Sulla facciata compare la scritta «Seminarium Gregorianum».",
+        "en": "A religious complex with cloister and arcade, linked to the Church of San Pietro. The façade bears the inscription «Seminarium Gregorianum».",
+        "fr": "Un complexe religieux avec cloître et portique, lié à l'église Saint-Pierre. La façade porte l'inscription « Seminarium Gregorianum ».",
+        "de": "Ein religiöser Komplex mit Kreuzgang und Arkaden, verbunden mit der Kirche San Pietro. Die Fassade trägt die Inschrift „Seminarium Gregorianum“.",
+        "es": "Un complejo religioso con claustro y pórtico, vinculado a la iglesia de San Pietro. La fachada lleva la inscripción «Seminarium Gregorianum»."
+      }
+    },
+    {
+      "id": "palazzo-persicini-crocecalle",
+      "luogo_id": "palazzo-persicini-crocecalle",
+      "sestiere": "Centro storico",
+      "latitudine": 46.13791001392509,
+      "longitudine": 12.21908882530751,
+      "titolo": {
+        "it": "Il Cros de Cal",
+        "en": "The Cros de Cal crossroads",
+        "fr": "Le carrefour du Cros de Cal",
+        "de": "Die Kreuzung Cros de Cal",
+        "es": "El cruce del Cros de Cal"
+      },
+      "testo": {
+        "it": "Costruito nel 1447 da Giovanni Persicini, come ricorda un'iscrizione gotica sul portico. Il nome della famiglia Crocecalle deriva dal «Cros de Cal», l'incrocio di più strade della città antica.",
+        "en": "Built in 1447 by Giovanni Persicini, as a Gothic inscription on the portico records. The Crocecalle family took its name from the «Cros de Cal», the crossroads of several streets in the old city.",
+        "fr": "Construit en 1447 par Giovanni Persicini, comme le rappelle une inscription gothique du portique. La famille Crocecalle tire son nom du «Cros de Cal», le carrefour de plusieurs rues de l'ancienne ville.",
+        "de": "1447 von Giovanni Persicini erbaut, wie eine gotische Inschrift am Säulengang bezeugt. Der Name der Familie Crocecalle geht auf das «Cros de Cal» zurück, die Kreuzung mehrerer Straßen der Altstadt.",
+        "es": "Construido en 1447 por Giovanni Persicini, como recuerda una inscripción gótica del pórtico. La familia Crocecalle tomó su nombre del «Cros de Cal», el cruce de varias calles de la ciudad antigua."
+      }
+    },
+    {
+      "id": "palazzo-trois-malaspina",
+      "luogo_id": "palazzo-trois-malaspina",
+      "sestiere": "Centro storico",
+      "latitudine": 46.14006292312907,
+      "longitudine": 12.217931290388035,
+      "titolo": {
+        "it": "L'insegna di San Giuseppe",
+        "en": "The sign of San Giuseppe",
+        "fr": "L'enseigne de Saint-Joseph",
+        "de": "Das Schild des heiligen Josef",
+        "es": "El rótulo de San José"
+      },
+      "testo": {
+        "it": "All'interno del palazzetto settecentesco è ancora visibile l'insegna dell'antica farmacia di San Giuseppe, attribuita a Gaspare Diziani. Dopo l'Unità d'Italia, un busto di Garibaldi prese il posto dell'immagine del santo.",
+        "en": "Inside the 18th-century palazzetto, the sign of the old San Giuseppe pharmacy, attributed to Gaspare Diziani, is still visible. After Italian unification, a bust of Garibaldi replaced the image of the saint.",
+        "fr": "À l'intérieur du petit palais du XVIIIe siècle, l'enseigne de l'ancienne pharmacie de Saint-Joseph, attribuée à Gaspare Diziani, est toujours visible. Après l'unité italienne, un buste de Garibaldi remplaça l'image du saint.",
+        "de": "Im Inneren des Palazzetto aus dem 18. Jahrhundert ist das Schild der alten Apotheke des heiligen Josef noch zu sehen, Gaspare Diziani zugeschrieben. Nach der italienischen Einigung ersetzte eine Garibaldi-Büste das Bild des Heiligen.",
+        "es": "En el interior del palacete del siglo XVIII todavía se ve el rótulo de la antigua farmacia de San José, atribuido a Gaspare Diziani. Tras la unificación de Italia, un busto de Garibaldi sustituyó la imagen del santo."
+      }
+    },
+    {
+      "id": "ponte-di-paglia",
+      "luogo_id": "ponte-di-paglia",
+      "sestiere": "Borgo Prà",
+      "latitudine": 46.14295406137667,
+      "longitudine": 12.219879763759069,
+      "titolo": {
+        "it": "Il ponte di paglia",
+        "en": "The straw bridge",
+        "fr": "Le pont de paille",
+        "de": "Die Strohbrücke",
+        "es": "El puente de paja"
+      },
+      "testo": {
+        "it": "Il ponte per il Prà prendeva il nome dal tetto di paglia che lo caratterizzava; per attraversarlo si pagavano pedaggio e dazio. La struttura in legno crollò nel 1503 e nel 1505, e fu ricostruita in pietra nel 1507.",
+        "en": "The bridge to Prà took its name from the straw roof that characterised it; crossing it meant paying toll and duty. The wooden structure collapsed in 1503 and 1505, and was rebuilt in stone in 1507.",
+        "fr": "Le pont vers le Prà tirait son nom du toit de paille qui le caractérisait ; le traverser impliquait un péage et une taxe. La structure en bois s'effondra en 1503 et 1505, puis fut reconstruite en pierre en 1507.",
+        "de": "Die Brücke nach Prà erhielt ihren Namen vom Strohdach, das sie prägte; für die Überquerung wurden Maut und Zoll fällig. Die Holzkonstruktion stürzte 1503 und 1505 ein und wurde 1507 in Stein neu errichtet.",
+        "es": "El puente hacia el Prà tomaba su nombre del tejado de paja que lo caracterizaba; para cruzarlo había que pagar peaje y derechos. La estructura de madera se derrumbó en 1503 y 1505, y se reconstruyó en piedra en 1507."
+      }
+    }
+  ]
 }
