@@ -1738,11 +1738,22 @@
         }
       ],
       "immagine": {
-        "autore": "Massi illi",
-        "licenza": "CC0",
-        "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Comunale_Buzzati.jpg"
+        "autore": "RatMan1234",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": ""
       },
-      "galleria": [],
+      "galleria": [
+        {
+          "autore": "Massi illi",
+          "licenza": "CC0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Comunale_Buzzati.jpg"
+        },
+        {
+          "autore": "Aquilino Chinazzi",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ],
       "lo_sapevi_che": [
         {
           "titolo": {
