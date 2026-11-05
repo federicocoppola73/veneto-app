@@ -43,7 +43,10 @@
         "es": "Una cadena rota, símbolo del fin de la sumisión a Austria."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-piazza-indipendenza-piedi.webp",
+        "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "porta-san-tomaso",
@@ -63,7 +66,10 @@
         "es": "El león de San Marcos, símbolo de la República de Venecia."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-porta-san-tomaso-leone-alato.webp",
+        "credits": "kallerna – CC BY-SA 4.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "porta-santi-quaranta",
