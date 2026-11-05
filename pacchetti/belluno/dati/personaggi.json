@@ -368,6 +368,151 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "dino-buzzati",
+      "nome": "Dino Buzzati",
+      "nascita": 1906,
+      "morte": 1972,
+      "professione": {
+        "it": "Scrittore, giornalista e pittore",
+        "en": "Writer, journalist and painter",
+        "fr": "Écrivain, journaliste et peintre",
+        "de": "Schriftsteller, Journalist und Maler",
+        "es": "Escritor, periodista y pintor"
+      },
+      "luogoNascita": {
+        "it": "San Pellegrino (BL)",
+        "en": "San Pellegrino (Belluno)",
+        "fr": "San Pellegrino (Belluno)",
+        "de": "San Pellegrino (Belluno)",
+        "es": "San Pellegrino (Belluno)"
+      },
+      "dataNascita": {
+        "it": "16 ottobre 1906",
+        "en": "16 October 1906",
+        "fr": "16 octobre 1906",
+        "de": "16. Oktober 1906",
+        "es": "16 de octubre de 1906"
+      },
+      "luogoMorte": {
+        "it": "Milano",
+        "en": "Milan",
+        "fr": "Milan",
+        "de": "Mailand",
+        "es": "Milán"
+      },
+      "dataMorte": {
+        "it": "28 gennaio 1972",
+        "en": "28 January 1972",
+        "fr": "28 janvier 1972",
+        "de": "28. Januar 1972",
+        "es": "28 de enero de 1972"
+      },
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      },
+      "biografia": {
+        "it": "Dino Buzzati è stato uno dei più importanti scrittori italiani del Novecento. Nato nella villa di famiglia a San Pellegrino, vicino a Belluno, trascorse parte della sua infanzia tra le montagne bellunesi. Dopo gli studi in giurisprudenza a Milano, iniziò a lavorare al Corriere della Sera, dove divenne giornalista, redattore e inviato speciale. Accanto all'attività giornalistica sviluppò una ricca produzione letteraria e artistica, distinguendosi per il suo immaginario fantastico, surreale e spesso legato al mistero.",
+        "en": "Dino Buzzati was one of the most important Italian writers of the twentieth century. Born in the family villa at San Pellegrino, near Belluno, he spent part of his childhood among the Belluno mountains. After studying law in Milan, he began working for the Corriere della Sera, where he became a journalist, editor and special correspondent. Alongside his journalism he developed a rich literary and artistic output, distinguished by a fantastical, surreal imagination often tied to mystery.",
+        "fr": "Dino Buzzati fut l'un des plus grands écrivains italiens du XXe siècle. Né dans la villa familiale de San Pellegrino, près de Belluno, il passa une partie de son enfance dans les montagnes bellunaises. Après des études de droit à Milan, il commença à travailler pour le Corriere della Sera, où il devint journaliste, rédacteur et envoyé spécial. Parallèlement à son activité journalistique, il développa une riche production littéraire et artistique, se distinguant par un imaginaire fantastique, surréaliste et souvent lié au mystère.",
+        "de": "Dino Buzzati war einer der bedeutendsten italienischen Schriftsteller des 20. Jahrhunderts. In der Familienvilla in San Pellegrino bei Belluno geboren, verbrachte er einen Teil seiner Kindheit in den Bergen um Belluno. Nach einem Jurastudium in Mailand begann er beim Corriere della Sera zu arbeiten, wo er Journalist, Redakteur und Sonderberichterstatter wurde. Neben seiner journalistischen Tätigkeit entwickelte er ein reiches literarisches und künstlerisches Werk, das sich durch eine fantastische, surreale und oft geheimnisvolle Vorstellungswelt auszeichnet.",
+        "es": "Dino Buzzati fue uno de los escritores italianos más importantes del siglo XX. Nacido en la villa familiar de San Pellegrino, cerca de Belluno, pasó parte de su infancia entre las montañas bellunesas. Tras estudiar Derecho en Milán, empezó a trabajar en el Corriere della Sera, donde llegó a ser periodista, redactor y enviado especial. Junto a su labor periodística desarrolló una rica producción literaria y artística, distinguida por un imaginario fantástico, surrealista y a menudo ligado al misterio."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo romanzo più famoso, Il deserto dei Tartari, uscì nel 1940 ed è considerato uno dei grandi classici della letteratura italiana contemporanea.",
+          "Scrisse e illustrò La famosa invasione degli orsi in Sicilia, una storia fantastica pubblicata nel 1945.",
+          "Fu anche pittore e illustratore: le sue opere visive presentano spesso gli stessi temi misteriosi e fantastici dei suoi racconti.",
+          "La montagna e le Dolomiti furono presenze importanti nella sua vita e nella sua produzione letteraria.",
+          "Fu sepolto nella cappella della villa di famiglia a San Pellegrino, secondo il suo desiderio."
+        ],
+        "en": [
+          "His most famous novel, The Tartar Steppe, came out in 1940 and is considered one of the great classics of contemporary Italian literature.",
+          "He wrote and illustrated The Famous Invasion of the Bears in Sicily, a fantastical story published in 1945.",
+          "He was also a painter and illustrator: his visual works often share the same mysterious and fantastical themes as his stories.",
+          "The mountains and the Dolomites were important presences in his life and in his literary work.",
+          "As he wished, he was buried in the chapel of the family villa at San Pellegrino."
+        ],
+        "fr": [
+          "Son roman le plus célèbre, Le Désert des Tartares, parut en 1940 et est considéré comme l'un des grands classiques de la littérature italienne contemporaine.",
+          "Il écrivit et illustra La Fameuse Invasion des ours en Sicile, un récit fantastique publié en 1945.",
+          "Il fut aussi peintre et illustrateur : ses œuvres visuelles reprennent souvent les mêmes thèmes mystérieux et fantastiques que ses récits.",
+          "La montagne et les Dolomites furent des présences importantes dans sa vie et dans son œuvre littéraire.",
+          "Conformément à son souhait, il fut enterré dans la chapelle de la villa familiale de San Pellegrino."
+        ],
+        "de": [
+          "Sein berühmtester Roman, Die Tatarenwüste, erschien 1940 und gilt als einer der großen Klassiker der italienischen Gegenwartsliteratur.",
+          "Er schrieb und illustrierte »La famosa invasione degli orsi in Sicilia«, eine fantastische Geschichte, die 1945 veröffentlicht wurde.",
+          "Er war auch Maler und Illustrator: Seine bildnerischen Werke greifen oft dieselben geheimnisvollen und fantastischen Themen auf wie seine Erzählungen.",
+          "Die Berge und die Dolomiten waren wichtige Begleiter in seinem Leben und in seinem literarischen Werk.",
+          "Seinem Wunsch entsprechend wurde er in der Kapelle der Familienvilla in San Pellegrino beigesetzt."
+        ],
+        "es": [
+          "Su novela más famosa, El desierto de los tártaros, salió en 1940 y se considera uno de los grandes clásicos de la literatura italiana contemporánea.",
+          "Escribió e ilustró La famosa invasión de los osos en Sicilia, una historia fantástica publicada en 1945.",
+          "También fue pintor e ilustrador: sus obras visuales presentan a menudo los mismos temas misteriosos y fantásticos de sus relatos.",
+          "La montaña y las Dolomitas fueron presencias importantes en su vida y en su producción literaria.",
+          "Según su deseo, fue enterrado en la capilla de la villa familiar de San Pellegrino."
+        ]
+      },
+      "luoghi": [
+        "villa-buzzati-traverso",
+        "teatro-comunale-dino-buzzati",
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "villa-buzzati-traverso": {
+          "tipo": {
+            "it": "Legame diretto",
+            "en": "Direct link",
+            "fr": "Lien direct",
+            "de": "Direkter Bezug",
+            "es": "Vínculo directo"
+          },
+          "testo": {
+            "it": "Qui nacque nel 1906 e trascorse molte estati. È il luogo più direttamente legato alla sua biografia.",
+            "en": "He was born here in 1906 and spent many summers in it. It is the place most directly linked to his life story.",
+            "fr": "Il y naquit en 1906 et y passa de nombreux étés. C'est le lieu le plus directement lié à sa biographie.",
+            "de": "Hier wurde er 1906 geboren, und hier verbrachte er viele Sommer. Es ist der Ort, der am unmittelbarsten mit seiner Biografie verbunden ist.",
+            "es": "Aquí nació en 1906 y pasó muchos veranos. Es el lugar más directamente ligado a su biografía."
+          }
+        },
+        "teatro-comunale-dino-buzzati": {
+          "tipo": {
+            "it": "Intitolazione",
+            "en": "Dedication",
+            "fr": "Dédicace",
+            "de": "Widmung",
+            "es": "Dedicatoria"
+          },
+          "testo": {
+            "it": "Porta il suo nome in omaggio allo scrittore bellunese. Il legame è di intitolazione e memoria culturale, non di attività personale di Buzzati all'interno dell'edificio.",
+            "en": "It bears his name in homage to the Belluno writer. The link is one of dedication and cultural memory, not of personal activity by Buzzati inside the building.",
+            "fr": "Il porte son nom en hommage à l'écrivain bellunais. Le lien est celui d'une dédicace et d'une mémoire culturelle, non d'une activité personnelle de Buzzati dans le bâtiment.",
+            "de": "Es trägt seinen Namen zu Ehren des Schriftstellers aus Belluno. Die Verbindung besteht in der Widmung und im kulturellen Gedenken, nicht in einer persönlichen Tätigkeit Buzzatis innerhalb des Gebäudes.",
+            "es": "Lleva su nombre en homenaje al escritor bellunés. El vínculo es de dedicatoria y memoria cultural, no de una actividad personal de Buzzati dentro del edificio."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Legame storico",
+            "en": "Historical link",
+            "fr": "Lien historique",
+            "de": "Historische Verbindung",
+            "es": "Vínculo histórico"
+          },
+          "testo": {
+            "it": "Ha ospitato mostre dedicate alla sua produzione pittorica, come l'esposizione Buzzati pittore.",
+            "en": "It has hosted exhibitions devoted to his painting, such as the show Buzzati pittore.",
+            "fr": "Il a accueilli des expositions consacrées à sa production picturale, comme l'exposition Buzzati pittore.",
+            "de": "Hier fanden Ausstellungen zu seinem malerischen Werk statt, etwa die Schau Buzzati pittore.",
+            "es": "Ha acogido exposiciones dedicadas a su obra pictórica, como la muestra Buzzati pittore."
+          }
+        }
+      },
+      "collegati": []
     }
   ]
 }
