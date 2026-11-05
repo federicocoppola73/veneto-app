@@ -194,7 +194,10 @@
         "es": "Cuarenta, representados en sus estudios y actividades."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null
+      "foto": {
+        "file": "aguzza/aguzza-sala-capitolo-domenicani.webp",
+        "credits": "Risorto Celebrano – CC BY-SA 3.0 (Wikimedia Commons)"
+      }
     },
     {
       "luogo_id": "ponte-dante",
