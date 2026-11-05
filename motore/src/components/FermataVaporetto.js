@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { coloreSchema, direzioniDallaFermata, fermateStessoNome, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata, nomeFermata, urlOrariLinea, fermataSoloAutobus } from '../vaporetti';
-import { minutiVenezia, orarioDelGiorno, prossimePartenze, validitaOrariPer } from '../orariVaporetti';
+import { avvisiPer, minutiVenezia, orarioDelGiorno, prossimePartenze, validitaOrariPer } from '../orariVaporetti';
+import { testoLocalizzato } from '../i18n';
 import { useAdesso } from '../adesso';
 
 const RIGA = 46; // altezza di una fermata nello schema
@@ -48,7 +49,7 @@ export function TarghettaLinea({ linea, piccola, selezionata, onPress }) {
  * Linee del vaporetto di una fermata e schema delle fermate della linea scelta, come sulle paline ACTV.
  * props: fermataId, lineaIniziale (facoltativa), t, onIndietro (torna alla scheda del luogo), altezza
  */
-export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndietro, altezza }) {
+export default function FermataVaporetto({ fermataId, lineaIniziale, t, lingua, onIndietro, altezza }) {
   const linee = useMemo(() => lineeDellaFermata(fermataId), [fermataId]);
   const lineeBus = useMemo(() => lineeAutobusDellaFermata(fermataId), [fermataId]);
   const [idLinea, setIdLinea] = useState(
@@ -264,6 +265,12 @@ export default function FermataVaporetto({ fermataId, lineaIniziale, t, onIndiet
                   ))}
                 </View>
               </View>
+              {Object.values(avvisiPer(idLinea)).map((a, i) => (
+                <View key={`avviso-${i}`} style={styles.avviso}>
+                  <Text style={styles.avvisoTitolo}>{testoLocalizzato(a.titolo, lingua)}</Text>
+                  <Text style={styles.avvisoTesto}>{testoLocalizzato(a.testo, lingua)}</Text>
+                </View>
+              ))}
               <ScrollView key="orari" ref={scorrimentoOrario} scrollEnabled={false} contentContainerStyle={{ paddingVertical: 4 }}>
                 {orario === null ? (
                   <Text style={styles.vuotoOrario}>{t('vap_scaduti').replace('{gestore}', gestore)}</Text>
@@ -540,4 +547,7 @@ const styles = StyleSheet.create({
   },
   testoBottone: { color: '#fff', fontSize: 15, fontWeight: '700', textAlign: 'center' },
   nota: { fontSize: 13, color: '#475569', lineHeight: 18 },
+  avviso: { marginHorizontal: 10, marginTop: 6, padding: 10, borderRadius: 10, backgroundColor: '#eff6ff' },
+  avvisoTitolo: { fontWeight: '800', fontSize: 13, color: '#1e3a8a', marginBottom: 2 },
+  avvisoTesto: { fontSize: 12, color: '#334155', lineHeight: 17 },
 });
