@@ -2342,6 +2342,43 @@
           "metri": 178
         }
       ]
+    },
+    {
+      "id": "casa-di-andrea-brustolon",
+      "nome": "Casa di Andrea Brustolon",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 46.13808639065177,
+      "longitudine": 12.218768009963647,
+      "descrizione": {
+        "it": "Casa quattrocentesca nella quale nacque e morì Andrea Brustolon (1662-1732), celebre scultore e intagliatore bellunese. Sulla facciata è presente una lapide commemorativa collocata nel 1897, che ricorda il legame dell'edificio con l'artista.",
+        "en": "Fifteenth-century house where Andrea Brustolon (1662–1732), the celebrated Belluno sculptor and woodcarver, was born and died. A commemorative plaque placed on the façade in 1897 recalls the building's link with the artist.",
+        "fr": "Maison du XVe siècle où naquit et mourut Andrea Brustolon (1662-1732), célèbre sculpteur et sculpteur sur bois de Belluno. Une plaque commémorative posée sur la façade en 1897 rappelle le lien de l'édifice avec l'artiste.",
+        "de": "Das Haus aus dem 15. Jahrhundert, in dem der berühmte Bildhauer und Holzschnitzer aus Belluno Andrea Brustolon (1662–1732) geboren wurde und starb. Eine 1897 an der Fassade angebrachte Gedenktafel erinnert an die Verbindung des Gebäudes mit dem Künstler.",
+        "es": "Casa del siglo XV en la que nacieron y murieron Andrea Brustolon (1662-1732), célebre escultor y tallista bellunés. En la fachada hay una lápida conmemorativa colocada en 1897, que recuerda la relación del edificio con el artista."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "nota": "Visibile solo l'esterno e la targa.",
+      "immagine": {
+        "autore": "Foto propria",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Foto propria",
+          "licenza": "",
+          "fonte": ""
+        }
+      ]
     }
   ]
 }
