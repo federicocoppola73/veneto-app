@@ -1,5 +1,5 @@
 {
-  "_nota": "Belluno: domande 'Aguzza la vista' dal foglio Excel (Aguzza – Esempio), con traduzioni en/fr/de/es. Itinerario 'Centro storico' in ordine di percorso a piedi. Le domande con foto_da_fare=true attendono ancora la foto in assets/aguzza (nessun file presente).",
+  "_nota": "Belluno: domande 'Aguzza la vista' dal foglio Excel (Aguzza – Esempio), con traduzioni en/fr/de/es. Itinerario 'Centro storico' in ordine di percorso a piedi. Sei domande hanno la foto in assets/aguzza; le altre quattro restano senza foto.",
   "itinerari": [
     {
       "id": "aguzza-la-vista-centro-storico",
@@ -63,8 +63,11 @@
         "es": "Un ángel."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-campanile-angelo.webp",
+        "credits": "Capricornis crispus – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
@@ -85,8 +88,11 @@
         "es": "Los rectores venecianos que gobernaron Belluno."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-rettori-busti.webp",
+        "credits": "Lamberto Zannotti – CC BY-SA 3.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
@@ -107,8 +113,11 @@
         "es": "El escudo de Belluno."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-dojona-stemma.webp",
+        "credits": "RatMan1234 – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
@@ -129,8 +138,11 @@
         "es": "La base con las patas del león."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-rugo-leone.webp",
+        "credits": "AquiFoto – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
@@ -151,8 +163,11 @@
         "es": "24."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-santo-stefano-orologio.webp",
+        "credits": "Foto propria"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
@@ -217,8 +232,11 @@
         "es": "San Lucano."
       },
       "itinerario": "aguzza-la-vista-centro-storico",
-      "foto": null,
-      "foto_da_fare": true,
+      "foto": {
+        "file": "aguzza/aguzza-erbe-santo.webp",
+        "credits": "AquiFoto – CC BY-SA 4.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
       "da_verificare": false
     },
     {
