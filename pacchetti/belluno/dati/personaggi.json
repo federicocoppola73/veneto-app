@@ -718,7 +718,11 @@
           }
         }
       },
-      "collegati": []
+      "collegati": [],
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      }
     }
   ]
 }
