@@ -2022,6 +2022,70 @@
       ]
     },
     {
+      "id": "san-giovanni-elemosinario",
+      "nome": "Chiesa di San Giovanni Elemosinario",
+      "categoria": "chiese",
+      "latitudine": 45.438883267795134,
+      "longitudine": 12.334747459659475,
+      "sestiere": "San Polo",
+      "fermata": "Rialto Mercato",
+      "orari": [
+        {
+          "giorni": "lun-sab",
+          "ore": "10:30–17:00"
+        }
+      ],
+      "chiuso": [
+        "dom"
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": {
+          "it": "Ingresso gratuito, con possibile contributo volontario.",
+          "en": "Free entry, with a possible voluntary donation.",
+          "fr": "Entrée gratuite, avec une éventuelle contribution volontaire.",
+          "de": "Eintritt frei, mit möglicher freiwilliger Spende.",
+          "es": "Entrada gratuita, con posible donativo voluntario."
+        }
+      },
+      "immagine": {
+        "autore": "Gufo0415",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Gufo0415",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Gufo0415",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Gufo0415",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ],
+      "descrizione": {
+        "it": "Nascosta tra gli edifici del mercato di Rialto, la chiesa di San Giovanni Elemosinario è uno dei luoghi meno appariscenti, ma artisticamente più interessanti della zona. Le sue origini risalgono a prima del 1071, ma l'edificio medievale venne completamente distrutto dal grande incendio che nel 1514 devastò l'area di Rialto.\nLa ricostruzione, probabilmente affidata ad Antonio Abbondi detto lo Scarpagnino, si concluse prima del 1531. La nuova chiesa venne inserita nel fitto tessuto commerciale circostante, tanto da risultare oggi quasi nascosta tra le botteghe.\nAll'interno si conservano importanti opere del Cinquecento veneziano, tra cui la pala di San Giovanni Elemosinario di Tiziano e quella del Pordenone raffigurante i santi Caterina, Rocco e Sebastiano. La tradizione racconta che le due opere nacquero da una sorta di competizione tra i due pittori, anche se gli studi successivi hanno messo in discussione la successione degli avvenimenti.\nLa chiesa custodisce inoltre un organo costruito da Pietro Nacchini nel 1749.",
+        "en": "Hidden among the buildings of the Rialto market, the church of San Giovanni Elemosinario is one of the least conspicuous places in the area, yet one of the most interesting artistically. Its origins date back to before 1071, but the medieval building was completely destroyed by the great fire that devastated the Rialto area in 1514.\nThe reconstruction, probably entrusted to Antonio Abbondi, known as Scarpagnino, was completed before 1531. The new church was set within the dense commercial fabric around it, so that today it is almost hidden among the shops.\nInside are important works of 16th-century Venetian painting, including Titian's altarpiece of St John the Almsgiver and Pordenone's painting of Saints Catherine, Roch and Sebastian. Tradition says the two works arose from a kind of competition between the two painters, although later studies have questioned the sequence of events.\nThe church also houses an organ built by Pietro Nacchini in 1749.",
+        "fr": "Cachée parmi les bâtiments du marché du Rialto, l'église de San Giovanni Elemosinario est l'un des lieux les moins voyants du quartier, mais aussi l'un des plus intéressants sur le plan artistique. Ses origines remontent à avant 1071, mais l'édifice médiéval fut entièrement détruit par le grand incendie qui ravagea le quartier du Rialto en 1514.\nLa reconstruction, probablement confiée à Antonio Abbondi dit Scarpagnino, s'acheva avant 1531. La nouvelle église fut insérée dans le tissu commercial dense des alentours, au point d'être aujourd'hui presque dissimulée parmi les boutiques.\nL'intérieur conserve d'importantes œuvres de la Renaissance vénitienne, dont le retable de saint Jean l'Aumônier de Titien et celui du Pordenone représentant les saints Catherine, Roch et Sébastien. La tradition veut que les deux œuvres soient nées d'une sorte de rivalité entre les deux peintres, bien que les études ultérieures aient remis en question l'enchaînement des faits.\nL'église abrite également un orgue construit par Pietro Nacchini en 1749.",
+        "de": "Versteckt zwischen den Gebäuden des Rialtomarktes ist die Kirche San Giovanni Elemosinario einer der unscheinbarsten Orte der Gegend, künstlerisch aber einer der interessantesten. Ihre Ursprünge reichen bis vor 1071 zurück, doch der mittelalterliche Bau wurde vom großen Brand zerstört, der 1514 das Rialtoviertel verwüstete.\nDer Wiederaufbau, wahrscheinlich Antonio Abbondi genannt Scarpagnino übertragen, wurde vor 1531 abgeschlossen. Die neue Kirche fügte sich in das dichte Handelsgefüge der Umgebung ein, sodass sie heute fast zwischen den Läden verborgen liegt.\nIm Inneren sind bedeutende Werke der venezianischen Malerei des 16. Jahrhunderts erhalten, darunter der Altar des Hl. Johannes des Almosengebers von Tizian und das Gemälde des Pordenone mit den Heiligen Katharina, Rochus und Sebastian. Der Überlieferung nach entstanden die beiden Werke aus einer Art Wettstreit der beiden Maler, auch wenn spätere Untersuchungen die Abfolge der Ereignisse infrage gestellt haben.\nDie Kirche besitzt außerdem eine Orgel, die Pietro Nacchini 1749 baute.",
+        "es": "Escondida entre los edificios del mercado de Rialto, la iglesia de San Giovanni Elemosinario es uno de los lugares menos llamativos de la zona, pero artísticamente de los más interesantes. Sus orígenes se remontan a antes de 1071, pero el edificio medieval fue destruido por completo por el gran incendio que devastó la zona de Rialto en 1514.\nLa reconstrucción, probablemente encargada a Antonio Abbondi, llamado Scarpagnino, concluyó antes de 1531. La nueva iglesia quedó integrada en el denso tejido comercial de los alrededores, hasta el punto de quedar hoy casi oculta entre las tiendas.\nEn su interior se conservan importantes obras del Cinquecento veneciano, entre ellas la pala de san Juan Limosnero de Tiziano y la del Pordenone con los santos Catalina, Roque y Sebastián. La tradición cuenta que ambas obras nacieron de una especie de competición entre los dos pintores, aunque estudios posteriores han puesto en duda la secuencia de los hechos.\nLa iglesia alberga además un órgano construido por Pietro Nacchini en 1749."
+      },
+      "nota": {
+        "it": "Orari e ingresso da controllare in loco prima della visita.",
+        "en": "Check opening hours and entry on site before your visit.",
+        "fr": "Horaires et entrée à vérifier sur place avant la visite.",
+        "de": "Öffnungszeiten und Eintritt vor Ort prüfen, bevor Sie den Besuch planen.",
+        "es": "Horarios y entrada por comprobar in situ antes de la visita."
+      }
+    },
+    {
       "id": "san-stae",
       "nome": "Chiesa di San Stae",
       "categoria": "chiese",
