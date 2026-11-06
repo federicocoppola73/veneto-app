@@ -40,7 +40,6 @@
         "ponte-tette",
         "frari",
         "pescheria",
-        "san-rocco",
         "ca-da-mosto",
         "san-giacometto",
         "san-giacomo-orio",
@@ -113,7 +112,6 @@
         "santa-maria-formosa",
         "ospedaletto",
         "san-giorgio-greci",
-        "san-martino-burano",
         "san-pietro-castello",
         "palazzo-grimani",
         "schiavoni",
@@ -123,8 +121,7 @@
         "giardini-biennale",
         "serra-giardini",
         "giardino-carmelitani",
-        "labirinto-borges",
-        "parco-rimembranze"
+        "labirinto-borges"
       ]
     },
     {
@@ -161,17 +158,13 @@
         "palazzo-mocenigo",
         "querini-stampalia",
         "storia-naturale",
-        "san-rocco",
-        "museo-vetro",
         "museo-merletto",
-        "guggenheim",
         "palazzo-grassi",
         "punta-dogana",
         "san-giovanni-evangelista",
         "casa-goldoni",
         "scuola-carmini",
-        "museo-navale",
-        "museo-ebraico"
+        "museo-navale"
       ]
     },
     {
@@ -741,27 +734,6 @@
         "fr": "Le néogothique, avec arcs et détails décoratifs.",
         "de": "Die Neugotik, mit Bögen und dekorativen Details.",
         "es": "El neogótico, con arcos y detalles decorativos."
-      },
-      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
-      "foto": null
-    },
-    {
-      "luogo_id": "san-rocco",
-      "zona": "San Polo",
-      "tema": "Pittura",
-      "domanda": {
-        "it": "Se entri, cerca un dipinto di Tintoretto con una scena biblica: quale episodio riesci a riconoscere?",
-        "en": "If you enter, look for a Tintoretto painting with a biblical scene: which episode can you recognise?",
-        "fr": "Si tu entres, cherche un tableau du Tintoret avec une scène biblique : quel épisode reconnais-tu ?",
-        "de": "Wenn du eintrittst, suche ein Gemälde Tintorettos mit einer biblischen Szene: Welche Episode erkennst du?",
-        "es": "Si entras, busca una pintura de Tintoretto con una escena bíblica: ¿qué episodio reconoces?"
-      },
-      "risposta": {
-        "it": "La risposta dipende dall’opera scelta; conviene usare come riferimento un dipinto specifico del percorso visitabile.",
-        "en": "The answer depends on the chosen work; it is best to use as a reference a specific painting on the visitable route.",
-        "fr": "La réponse dépend de l’œuvre choisie ; mieux vaut prendre comme référence un tableau précis du parcours visitable.",
-        "de": "Die Antwort hängt vom gewählten Werk ab; als Bezug sollte ein bestimmtes Gemälde des begehbaren Rundgangs dienen.",
-        "es": "La respuesta depende de la obra elegida; conviene usar como referencia una pintura concreta del recorrido visitable."
       },
       "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
       "foto": null
@@ -1634,27 +1606,6 @@
       "foto": null
     },
     {
-      "luogo_id": "san-martino-burano",
-      "zona": "Castello",
-      "tema": "Scultura",
-      "domanda": {
-        "it": "Osserva il portale: riesci a trovare un rilievo figurativo inserito nella decorazione?",
-        "en": "Look at the portal: can you find a figurative relief set into the decoration?",
-        "fr": "Observe le portail : arrives-tu à trouver un bas-relief figuratif intégré au décor ?",
-        "de": "Betrachte das Portal: Kannst du ein figürliches Relief in der Verzierung finden?",
-        "es": "Observa el portal: ¿consigues encontrar un relieve figurativo integrado en la decoración?"
-      },
-      "risposta": {
-        "it": "Un dettaglio scultoreo del portale, da individuare sul posto.",
-        "en": "A sculptural detail of the portal, to be identified on site.",
-        "fr": "Un détail sculpté du portail, à repérer sur place.",
-        "de": "Ein Skulpturdetail des Portals, vor Ort zu finden.",
-        "es": "Un detalle escultórico del portal, por identificar in situ."
-      },
-      "itinerario": "Aguzza la vista – Castello e Arsenale",
-      "foto": null
-    },
-    {
       "luogo_id": "san-pietro-castello",
       "zona": "Castello",
       "tema": "Architettura",
@@ -1923,27 +1874,6 @@
         "fr": "Lignes et virages géométriques qui composent le labyrinthe inspiré de Jorge Luis Borges.",
         "de": "Linien und geometrische Wendungen, aus denen das von Jorge Luis Borges inspirierte Labyrinth besteht.",
         "es": "Líneas y giros geométricos que componen el laberinto inspirado en Jorge Luis Borges."
-      },
-      "itinerario": "Aguzza la vista – Castello e Arsenale",
-      "foto": null
-    },
-    {
-      "luogo_id": "parco-rimembranze",
-      "zona": "Sant’Elena",
-      "tema": "Memoria storica",
-      "domanda": {
-        "it": "Cerca il monumento o la targa commemorativa nel parco: a quale tipo di memoria è dedicato?",
-        "en": "Look for the monument or memorial plaque in the park: what kind of memory is it dedicated to?",
-        "fr": "Cherche le monument ou la plaque commémorative du parc : à quel type de mémoire est-il consacré ?",
-        "de": "Suche das Denkmal oder die Gedenktafel im Park: Welcher Art des Gedenkens ist es gewidmet?",
-        "es": "Busca el monumento o la placa conmemorativa del parque: ¿a qué tipo de memoria está dedicado?"
-      },
-      "risposta": {
-        "it": "Alla memoria dei caduti; il testo preciso della targa va verificato sul posto.",
-        "en": "To the memory of the fallen; the exact wording of the plaque should be checked on site.",
-        "fr": "À la mémoire des morts au combat ; le texte exact de la plaque doit être vérifié sur place.",
-        "de": "Zum Gedenken an die Gefallenen; der genaue Wortlaut der Tafel sollte vor Ort überprüft werden.",
-        "es": "A la memoria de los caídos; el texto exacto de la placa debe verificarse in situ."
       },
       "itinerario": "Aguzza la vista – Castello e Arsenale",
       "foto": null
@@ -2264,48 +2194,6 @@
       "foto": null
     },
     {
-      "luogo_id": "san-rocco",
-      "zona": "San Polo",
-      "tema": "Pittura",
-      "domanda": {
-        "it": "Cerca un’opera di Tintoretto con una scena biblica e individua un personaggio secondario, oltre ai protagonisti.",
-        "en": "Look for a Tintoretto work with a biblical scene and find a secondary figure besides the main characters.",
-        "fr": "Cherche une œuvre du Tintoret avec une scène biblique et repère un personnage secondaire, en plus des protagonistes.",
-        "de": "Suche ein Werk Tintorettos mit einer biblischen Szene und finde eine Nebenfigur neben den Hauptpersonen.",
-        "es": "Busca una obra de Tintoretto con una escena bíblica e identifica un personaje secundario, además de los protagonistas."
-      },
-      "risposta": {
-        "it": "La risposta dipende dal dipinto scelto; è meglio associare la sfida a un’opera specifica.",
-        "en": "The answer depends on the painting chosen; it is better to link the challenge to a specific work.",
-        "fr": "La réponse dépend du tableau choisi ; il vaut mieux associer le défi à une œuvre précise.",
-        "de": "Die Antwort hängt vom gewählten Gemälde ab; die Aufgabe sollte mit einem bestimmten Werk verknüpft werden.",
-        "es": "La respuesta depende de la pintura elegida; conviene vincular el desafío a una obra concreta."
-      },
-      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
-      "foto": null
-    },
-    {
-      "luogo_id": "museo-vetro",
-      "zona": "Murano",
-      "tema": "Artigianato",
-      "domanda": {
-        "it": "Se è esposto, cerca un oggetto in vetro con sottili filamenti intrecciati. Quale tecnica può rappresentare?",
-        "en": "If it is on display, look for a glass object with thin intertwined filaments. Which technique might it represent?",
-        "fr": "S’il est exposé, cherche un objet en verre aux fins filaments entrelacés. Quelle technique peut-il représenter ?",
-        "de": "Falls es ausgestellt ist, suche ein Glasobjekt mit feinen verschlungenen Fäden. Welche Technik könnte es darstellen?",
-        "es": "Si está expuesto, busca un objeto de vidrio con finos filamentos entrelazados. ¿Qué técnica puede representar?"
-      },
-      "risposta": {
-        "it": "Una lavorazione decorativa come il reticello, se confermata dall’etichetta dell’opera.",
-        "en": "A decorative technique such as reticella, if confirmed by the work’s label.",
-        "fr": "Une technique décorative comme le reticello, si l’étiquette de l’œuvre le confirme.",
-        "de": "Eine dekorative Technik wie Reticella, sofern das Werkschild dies bestätigt.",
-        "es": "Una técnica decorativa como el reticella, si lo confirma la cartela de la obra."
-      },
-      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
-      "foto": null
-    },
-    {
       "luogo_id": "museo-merletto",
       "zona": "Burano",
       "tema": "Artigianato",
@@ -2322,27 +2210,6 @@
         "fr": "La dentelle se construit avec des fils et des points qui forment une trame ajourée, au lieu de simplement décorer un tissu existant.",
         "de": "Spitze wird aus Fäden und Stichen aufgebaut und bildet ein durchbrochenes Gewebe, statt nur einen vorhandenen Stoff zu verzieren.",
         "es": "El encaje se construye con hilos y puntos que forman una trama calada, en lugar de decorar solo un tejido ya existente."
-      },
-      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
-      "foto": null
-    },
-    {
-      "luogo_id": "guggenheim",
-      "zona": "Dorsoduro",
-      "tema": "Arte moderna",
-      "domanda": {
-        "it": "Cerca un’opera astratta: quale forma geometrica riesci a individuare per prima?",
-        "en": "Look for an abstract work: which geometric shape do you spot first?",
-        "fr": "Cherche une œuvre abstraite : quelle forme géométrique repères-tu en premier ?",
-        "de": "Suche ein abstraktes Werk: Welche geometrische Form erkennst du zuerst?",
-        "es": "Busca una obra abstracta: ¿qué forma geométrica identificas primero?"
-      },
-      "risposta": {
-        "it": "Risposta variabile in base all’opera; può essere un cerchio, un triangolo, un rettangolo o una forma irregolare.",
-        "en": "Answer varies depending on the work; it can be a circle, a triangle, a rectangle or an irregular shape.",
-        "fr": "Réponse variable selon l’œuvre ; ce peut être un cercle, un triangle, un rectangle ou une forme irrégulière.",
-        "de": "Die Antwort hängt vom Werk ab; es kann ein Kreis, ein Dreieck, ein Rechteck oder eine unregelmäßige Form sein.",
-        "es": "La respuesta varía según la obra; puede ser un círculo, un triángulo, un rectángulo o una forma irregular."
       },
       "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
       "foto": null
@@ -2469,27 +2336,6 @@
         "fr": "La forme de la coque, les voiles, les rames ou les éléments de gréement, selon le modèle.",
         "de": "Die Form des Rumpfes, die Segel, Riemen oder Takelelemente, je nach Modell.",
         "es": "La forma del casco, las velas, los remos o los elementos de aparejo, según el modelo."
-      },
-      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
-      "foto": null
-    },
-    {
-      "luogo_id": "museo-ebraico",
-      "zona": "Cannaregio",
-      "tema": "Memoria e cultura",
-      "domanda": {
-        "it": "Cerca un oggetto rituale esposto: quale materiale o decorazione lo rende riconoscibile?",
-        "en": "Look for a ritual object on display: which material or decoration makes it recognisable?",
-        "fr": "Cherche un objet rituel exposé : quel matériau ou quel décor le rend reconnaissable ?",
-        "de": "Suche ein ausgestelltes Ritualobjekt: Welches Material oder welche Verzierung macht es erkennbar?",
-        "es": "Busca un objeto ritual expuesto: ¿qué material o decoración lo hace reconocible?"
-      },
-      "risposta": {
-        "it": "Risposta variabile in base all’oggetto scelto e alla vetrina visitabile.",
-        "en": "Answer varies depending on the chosen object and the display case on view.",
-        "fr": "Réponse variable selon l’objet choisi et la vitrine visitable.",
-        "de": "Die Antwort hängt vom gewählten Objekt und der zugänglichen Vitrine ab.",
-        "es": "La respuesta varía según el objeto elegido y la vitrina visitable."
       },
       "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
       "foto": null
