@@ -2035,27 +2035,6 @@
       "foto": null
     },
     {
-      "luogo_id": "ponte-accademia",
-      "zona": "Dorsoduro / San Marco",
-      "tema": "Paesaggio",
-      "domanda": {
-        "it": "Cerca la cupola che domina il panorama verso la laguna: quale chiesa riconosci?",
-        "en": "Look for the dome that dominates the view towards the lagoon: which church do you recognise?",
-        "fr": "Cherche la coupole qui domine le panorama vers la lagune : quelle église reconnais-tu ?",
-        "de": "Suche die Kuppel, die den Blick zur Lagune beherrscht: Welche Kirche erkennst du?",
-        "es": "Busca la cúpula que domina el panorama hacia la laguna: ¿qué iglesia reconoces?"
-      },
-      "risposta": {
-        "it": "La Basilica di Santa Maria della Salute.",
-        "en": "The Basilica of Santa Maria della Salute.",
-        "fr": "La basilique Santa Maria della Salute.",
-        "de": "Die Basilika Santa Maria della Salute.",
-        "es": "La Basílica de Santa Maria della Salute."
-      },
-      "itinerario": "Aguzza la vista – Ponti e percorsi urbani",
-      "foto": null
-    },
-    {
       "luogo_id": "ponte-pugni",
       "zona": "Dorsoduro",
       "tema": "Tradizioni",
@@ -2345,27 +2324,6 @@
         "fr": "La dentelle se construit avec des fils et des points qui forment une trame ajourée, au lieu de simplement décorer un tissu existant.",
         "de": "Spitze wird aus Fäden und Stichen aufgebaut und bildet ein durchbrochenes Gewebe, statt nur einen vorhandenen Stoff zu verzieren.",
         "es": "El encaje se construye con hilos y puntos que forman una trama calada, en lugar de decorar solo un tejido ya existente."
-      },
-      "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
-      "foto": null
-    },
-    {
-      "luogo_id": "accademia",
-      "zona": "Dorsoduro",
-      "tema": "Pittura",
-      "domanda": {
-        "it": "Scegli un dipinto veneziano esposto e cerca un dettaglio architettonico sullo sfondo. Quale edificio o forma riesci a riconoscere?",
-        "en": "Choose an exhibited Venetian painting and look for an architectural detail in the background. Which building or shape can you recognise?",
-        "fr": "Choisis un tableau vénitien exposé et cherche un détail architectural à l’arrière-plan. Quel bâtiment ou quelle forme reconnais-tu ?",
-        "de": "Wähle ein ausgestelltes venezianisches Gemälde und suche im Hintergrund ein architektonisches Detail. Welches Gebäude oder welche Form erkennst du?",
-        "es": "Elige una pintura veneciana expuesta y busca un detalle arquitectónico en el fondo. ¿Qué edificio o forma consigues reconocer?"
-      },
-      "risposta": {
-        "it": "Risposta variabile in base al dipinto selezionato.",
-        "en": "Answer varies depending on the selected painting.",
-        "fr": "Réponse variable selon le tableau sélectionné.",
-        "de": "Die Antwort variiert je nach gewähltem Gemälde.",
-        "es": "La respuesta varía según la pintura seleccionada."
       },
       "itinerario": "Aguzza la vista – Musei e palazzi con dettagli da cercare all’interno",
       "foto": null
