@@ -37,6 +37,7 @@
       "tappe": [
         "ca-doro",
         "ponte-rialto",
+        "san-salvador",
         "ponte-tette",
         "frari",
         "pescheria",
@@ -2444,6 +2445,30 @@
       },
       "itinerario": "Aguzza la vista – Murano, Burano e Torcello",
       "foto": null
+    },
+    {
+      "luogo_id": "san-salvador",
+      "zona": "Rialto / Cannaregio",
+      "tema": "Storia",
+      "domanda": {
+        "it": "Sulla facciata della chiesa è possibile individuare una palla di cannone murata nella pietra. Riesci a trovare il punto in cui è conservata?",
+        "en": "A cannonball is set into the stone of the church façade. Can you find where it is kept?",
+        "fr": "Sur la façade de l'église, un boulet de canon est scellé dans la pierre. Arrives-tu à trouver l'endroit où il est conservé ?",
+        "de": "An der Fassade der Kirche ist eine Kanonenkugel in den Stein eingelassen. Kannst du die Stelle finden, an der sie aufbewahrt wird?",
+        "es": "En la fachada de la iglesia hay una bala de cañón empotrada en la piedra. ¿Consigues encontrar el lugar donde se conserva?"
+      },
+      "risposta": {
+        "it": "Alla base della prima colonna a sinistra della facciata, dove il proiettile venne conservato dopo il bombardamento austriaco del 6 agosto 1849.",
+        "en": "At the base of the first column on the left of the façade, where the projectile was kept after the Austrian bombardment of 6 August 1849.",
+        "fr": "À la base de la première colonne à gauche de la façade, où le projectile fut conservé après le bombardement autrichien du 6 août 1849.",
+        "de": "Am Sockel der ersten linken Säule der Fassade, wo das Geschoss nach dem österreichischen Bombardement vom 6. August 1849 aufbewahrt wurde.",
+        "es": "En la base de la primera columna a la izquierda de la fachada, donde se conservó el proyectil tras el bombardeo austriaco del 6 de agosto de 1849."
+      },
+      "itinerario": "Aguzza la vista – Rialto, San Polo e Santa Croce",
+      "foto": {
+        "file": "aguzza/san-salvador-palla-cannone.webp",
+        "credits": "Foto: Abxbay, CC BY-SA 4.0"
+      }
     }
   ]
 }
