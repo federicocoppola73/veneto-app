@@ -801,7 +801,25 @@
         "es": "Iglesia de Santa María Asunta (Venecia)",
         "fr": "Église Santa Maria Assunta de Venise"
       },
-      "personaggio": "tiziano-vecellio"
+      "personaggio": "tiziano-vecellio",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una chiesa ricostruita per un nuovo ordine",
+            "en": "A church rebuilt for a new order",
+            "fr": "Une église reconstruite pour un nouvel ordre",
+            "de": "Eine Kirche, die für einen neuen Orden neu erbaut wurde",
+            "es": "Una iglesia reconstruida para una nueva orden"
+          },
+          "testo": {
+            "it": "La chiesa attuale di Santa Maria Assunta, conosciuta come chiesa dei Gesuiti, sorge su un edificio più antico appartenuto ai Crociferi. Nel 1657 i Gesuiti acquistarono la chiesa e il monastero adiacente, avviando una ricostruzione che le diede l'aspetto monumentale barocco attuale. Al suo interno è conservato anche il Martirio di San Lorenzo di Tiziano.",
+            "en": "The present church of Santa Maria Assunta, known as the Gesuiti church, stands on an older building that belonged to the Crosiers. In 1657 the Jesuits bought the church and the adjoining monastery, starting a reconstruction that gave it the monumental Baroque appearance it has today. Inside is also preserved Titian's Martyrdom of Saint Lawrence.",
+            "fr": "L'église actuelle de Santa Maria Assunta, connue sous le nom d'église des Jésuites, s'élève sur un édifice plus ancien appartenu aux Crociferi. En 1657, les jésuites acquirent l'église et le monastère attenant, lançant une reconstruction qui lui donna son aspect monumental baroque actuel. On y conserve également le Martyre de saint Laurent de Titien.",
+            "de": "Die heutige Kirche Santa Maria Assunta, bekannt als Jesuitenkirche, steht auf einem älteren Gebäude, das den Kreuzherren gehörte. 1657 kauften die Jesuiten die Kirche und das angrenzende Kloster und begannen einen Umbau, der ihr das heutige monumentale Barockbild verlieh. Im Inneren wird außerdem Tizians Martyrium des heiligen Laurentius aufbewahrt.",
+            "es": "La actual iglesia de Santa Maria Assunta, conocida como iglesia de los Jesuitas, se levanta sobre un edificio más antiguo que perteneció a los Crucíferos. En 1657 los jesuitas compraron la iglesia y el monasterio contiguo, iniciando una reconstrucción que le dio el aspecto barroco monumental actual. En su interior se conserva también el Martirio de San Lorenzo de Tiziano."
+          }
+        }
+      ]
     },
     {
       "id": "angelo-raffaele",
@@ -1087,6 +1105,24 @@
       "personaggio": [
         "veronica-franco",
         "giovanni-bellini"
+      ],
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Una facciata contesa tra due architetti",
+            "en": "A façade contested by two architects",
+            "fr": "Une façade disputée entre deux architectes",
+            "de": "Eine Fassade zwischen zwei Architekten umstritten",
+            "es": "Una fachada disputada entre dos arquitectos"
+          },
+          "testo": {
+            "it": "La chiesa fu costruita su progetto di Jacopo Sansovino, ma la facciata venne affidata successivamente ad Andrea Palladio. La scelta fu significativa: il progetto palladiano si impose su quello del più anziano Sansovino, segnando un importante passaggio nella storia dell'architettura veneziana del Cinquecento.",
+            "en": "The church was built to a design by Jacopo Sansovino, but the façade was later entrusted to Andrea Palladio. The choice was significant: Palladio's design prevailed over that of the older Sansovino, marking an important turning point in the history of sixteenth-century Venetian architecture.",
+            "fr": "L'église fut construite sur un projet de Jacopo Sansovino, mais la façade fut ensuite confiée à Andrea Palladio. Ce choix fut significatif : le projet palladien s'imposa sur celui du plus âgé Sansovino, marquant une étape importante dans l'histoire de l'architecture vénitienne du XVIe siècle.",
+            "de": "Die Kirche wurde nach einem Entwurf von Jacopo Sansovino errichtet, die Fassade wurde jedoch später Andrea Palladio übertragen. Die Entscheidung war bedeutsam: Der Entwurf Palladios setzte sich gegen den des älteren Sansovino durch und markierte einen wichtigen Wendepunkt in der Geschichte der venezianischen Architektur des 16. Jahrhunderts.",
+            "es": "La iglesia se construyó según un proyecto de Jacopo Sansovino, pero la fachada se encargó después a Andrea Palladio. La elección fue significativa: el proyecto de Palladio se impuso al del más anciano Sansovino, marcando un momento importante en la historia de la arquitectura veneciana del siglo XVI."
+          }
+        }
       ]
     },
     {
@@ -1317,7 +1353,25 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Le dodici spose rapite dai pirati",
+            "en": "The twelve brides kidnapped by pirates",
+            "fr": "Les douze épouses enlevées par des pirates",
+            "de": "Die zwölf von Piraten entführten Bräute",
+            "es": "Las doce novias raptadas por piratas"
+          },
+          "testo": {
+            "it": "Secondo una tradizione veneziana, nel 944 alcuni pirati rapirono dodici giovani donne promesse in matrimonio durante la celebrazione delle nozze. Il doge riuscì a liberarle e, per ricordare l'episodio, si recava ogni anno in preghiera nella chiesa di Santa Maria Formosa. Da questa vicenda nacque la Festa delle Marie, una delle antiche celebrazioni popolari veneziane.",
+            "en": "According to a Venetian tradition, in 944 pirates kidnapped twelve young women who were promised in marriage during the wedding celebrations. The doge managed to free them and, to commemorate the episode, went every year to pray in the church of Santa Maria Formosa. From this story arose the Festa delle Marie, one of the ancient popular celebrations of Venice.",
+            "fr": "Selon une tradition vénitienne, en 944 des pirates enlevèrent douze jeunes femmes promises en mariage pendant la célébration des noces. Le doge parvint à les libérer et, pour commémorer l'épisode, se rendait chaque année prier dans l'église de Santa Maria Formosa. De cette histoire naquit la Festa delle Marie, l'une des anciennes fêtes populaires vénitiennes.",
+            "de": "Einer venezianischen Überlieferung zufolge entführten Piraten im Jahr 944 zwölf junge Frauen, die während der Hochzeitsfeierlichkeiten zur Ehe versprochen waren. Der Doge konnte sie befreien und ging zum Gedenken an das Ereignis jedes Jahr zum Beten in die Kirche Santa Maria Formosa. Aus dieser Geschichte entstand das Festa delle Marie, eines der alten volkstümlichen Feste Venedigs.",
+            "es": "Según una tradición veneciana, en el año 944 unos piratas raptaron a doce jóvenes prometidas en matrimonio durante la celebración de las bodas. El dux logró liberarlas y, para recordar el episodio, acudía cada año a rezar a la iglesia de Santa Maria Formosa. De esta historia nació la Festa delle Marie, una de las antiguas celebraciones populares de Venecia."
+          }
+        }
+      ]
     },
     {
       "id": "ospedaletto",
@@ -1415,7 +1469,25 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il campanile che pende da secoli",
+            "en": "The bell tower that has leaned for centuries",
+            "fr": "Le clocher qui penche depuis des siècles",
+            "de": "Der Glockenturm, der seit Jahrhunderten schief steht",
+            "es": "El campanario que se inclina desde hace siglos"
+          },
+          "testo": {
+            "it": "Il campanile della chiesa di San Giorgio dei Greci è inclinato fin dall'epoca della sua costruzione, avvenuta tra il 1587 e il 1592. La pendenza era già motivo di preoccupazione nel Settecento, tanto che furono realizzate strutture di sostegno alla sua base. Ancora oggi la sua sagoma inclinata è uno degli elementi più caratteristici di questa zona di Castello.",
+            "en": "The bell tower of the church of San Giorgio dei Greci has been leaning since the time of its construction, carried out between 1587 and 1592. The slope was already a cause for concern in the eighteenth century, so much so that supporting structures were built at its base. Even today its leaning silhouette is one of the most distinctive features of this area of Castello.",
+            "fr": "Le clocher de l'église Saint-Georges-des-Grecs est incliné depuis l'époque de sa construction, réalisée entre 1587 et 1592. L'inclinaison inquiétait déjà au XVIIIe siècle, au point que des structures de soutien furent édifiées à sa base. Aujourd'hui encore, sa silhouette penchée est l'un des éléments les plus caractéristiques de ce secteur de Castello.",
+            "de": "Der Glockenturm der Kirche San Giorgio dei Greci ist schon seit seiner Errichtung zwischen 1587 und 1592 geneigt. Die Schieflage bereitete bereits im 18. Jahrhundert Sorgen, sodass an seinem Fuß Stützkonstruktionen angebracht wurden. Noch heute gehört seine geneigte Silhouette zu den markantesten Elementen dieses Viertels von Castello.",
+            "es": "El campanario de la iglesia de San Giorgio dei Greci está inclinado desde su construcción, realizada entre 1587 y 1592. La inclinación ya preocupaba en el siglo XVIII, hasta el punto de que se levantaron estructuras de sostén en su base. Hoy su silueta inclinada es uno de los elementos más característicos de esta zona de Castello."
+          }
+        }
+      ]
     },
     {
       "id": "santo-stefano",
@@ -4189,7 +4261,25 @@
         "fr": "Le plus célèbre palais gothique flamboyant du Grand Canal, dont la façade était autrefois dorée. Il abrite la Galerie Giorgio Franchetti avec le Saint Sébastien de Mantegna ; même de l'extérieur, depuis le vaporetto, la façade vaut le coup d'œil.",
         "de": "Der berühmteste spätgotische Palast am Canal Grande, dessen Fassade einst vergoldet war. Er beherbergt die Galleria Giorgio Franchetti mit Mantegnas heiligem Sebastian; auch von außen, vom Vaporetto aus, lohnt die Fassade einen Blick.",
         "es": "El palacio gótico florido más famoso del Gran Canal, cuya fachada estuvo antaño dorada. Alberga la Galería Giorgio Franchetti con el San Sebastián de Mantegna; incluso desde fuera, desde el vaporetto, la fachada merece una mirada."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il barone che donò un palazzo allo Stato",
+            "en": "The baron who gave a palace to the State",
+            "fr": "Le baron qui offrit un palais à l'État",
+            "de": "Der Baron, der dem Staat einen Palast schenkte",
+            "es": "El barón que regaló un palacio al Estado"
+          },
+          "testo": {
+            "it": "Alla fine dell'Ottocento il barone Giorgio Franchetti acquistò Ca' d'Oro, allora in condizioni di degrado, e intraprese un lungo lavoro per recuperarne lo splendore. Nel 1916 donò il palazzo e la propria collezione d'arte allo Stato italiano, affinché diventassero un museo pubblico. La Galleria Giorgio Franchetti venne inaugurata nel 1927.",
+            "en": "At the end of the nineteenth century Baron Giorgio Franchetti bought Ca' d'Oro, then in a state of decay, and undertook a long effort to restore its splendour. In 1916 he donated the palace and his art collection to the Italian State, so that they might become a public museum. The Galleria Giorgio Franchetti was inaugurated in 1927.",
+            "fr": "À la fin du XIXe siècle, le baron Giorgio Franchetti acheta la Ca' d'Oro, alors dans un état de délabrement, et entreprit un long travail pour en restaurer la splendeur. En 1916, il fit don du palais et de sa collection d'art à l'État italien, afin qu'ils deviennent un musée public. La Galerie Giorgio Franchetti fut inaugurée en 1927.",
+            "de": "Ende des 19. Jahrhunderts erwarb Baron Giorgio Franchetti die damals verfallene Ca' d'Oro und unternahm lange Anstrengungen, ihren Glanz wiederherzustellen. 1916 schenkte er den Palast und seine Kunstsammlung dem italienischen Staat, damit sie ein öffentliches Museum werden. Die Galleria Giorgio Franchetti wurde 1927 eröffnet.",
+            "es": "A finales del siglo XIX el barón Giorgio Franchetti compró la Ca' d'Oro, entonces en mal estado, y emprendió un largo trabajo para recuperar su esplendor. En 1916 donó el palacio y su colección de arte al Estado italiano, para que se convirtieran en un museo público. La Galería Giorgio Franchetti se inauguró en 1927."
+          }
+        }
+      ]
     },
     {
       "id": "contarini-bovolo",
@@ -8932,7 +9022,25 @@
         "fr": "Vigne close autour du campanile de Santa Caterina, où l'on a fait renaître la Dorona, l'ancien raisin de la lagune. Un pont de bois la relie à Burano, à quelques minutes à pied.",
         "de": "Ummauerter Weinberg rund um den Glockenturm von Santa Caterina, in dem die Dorona, die alte Rebsorte der Lagune, wiederbelebt wurde. Eine Holzbrücke verbindet ihn mit Burano, nur wenige Gehminuten entfernt.",
         "es": "Viñedo amurallado alrededor del campanario de Santa Caterina, donde se ha recuperado la Dorona, la antigua uva de la laguna. Un puente de madera lo une a Burano, a pocos minutos a pie."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il vitigno sopravvissuto all'acqua alta",
+            "en": "The vine that survived the high water",
+            "fr": "Le cépage qui a survécu à l'acqua alta",
+            "de": "Die Rebsorte, die das Hochwasser überlebte",
+            "es": "La variedad que sobrevivió a la acqua alta"
+          },
+          "testo": {
+            "it": "Nella laguna veneziana si coltivava da secoli la Dorona, un vitigno autoctono capace di adattarsi ai terreni salmastri. La grande acqua alta del 1966 distrusse gran parte delle vigne lagunari e questa varietà rischiò di scomparire. Le ricerche successive permisero di ritrovare appena 88 piante sopravvissute, dalle quali è ripartita la coltivazione che ha dato origine al progetto vitivinicolo Venissa.",
+            "en": "For centuries the Dorona, an indigenous grape variety able to adapt to brackish soils, was grown in the Venetian lagoon. The great flood of 1966 destroyed most of the lagoon vineyards, and this variety risked disappearing. Subsequent research managed to find just 88 surviving plants, from which the cultivation was restarted that gave rise to the Venissa wine project.",
+            "fr": "Pendant des siècles, la Dorona, un cépage autochtone capable de s'adapter aux terrains saumâtres, fut cultivée dans la lagune de Venise. La grande acqua alta de 1966 détruisit une grande partie des vignes lagunaires, et ce cépage faillit disparaître. Les recherches qui suivirent permirent de retrouver seulement 88 plants survivants, à partir desquels la culture reprit, donnant naissance au projet viticole Venissa.",
+            "de": "In der Lagune von Venedig wurde seit Jahrhunderten die Dorona angebaut, eine einheimische Rebsorte, die sich an brackige Böden anpassen kann. Das große Hochwasser von 1966 zerstörte einen Großteil der Lagunenweinberge, und diese Sorte drohte zu verschwinden. Spätere Nachforschungen fanden nur noch 88 überlebende Pflanzen, von denen aus der Anbau wieder aufgenommen wurde, der zum Weinprojekt Venissa führte.",
+            "es": "Durante siglos se cultivó en la laguna veneciana la Dorona, una variedad autóctona capaz de adaptarse a terrenos salobres. La gran acqua alta de 1966 destruyó gran parte de los viñedos lagunares y esta variedad estuvo a punto de desaparecer. Las investigaciones posteriores lograron encontrar apenas 88 plantas supervivientes, a partir de las cuales se reanudó el cultivo que dio origen al proyecto vitivinícola Venissa."
+          }
+        }
+      ]
     },
     {
       "id": "trono-attila",
