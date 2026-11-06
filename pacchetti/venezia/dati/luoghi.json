@@ -2083,7 +2083,41 @@
         "fr": "Horaires et entrée à vérifier sur place avant la visite.",
         "de": "Öffnungszeiten und Eintritt vor Ort prüfen, bevor Sie den Besuch planen.",
         "es": "Horarios y entrada por comprobar in situ antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La chiesa nascosta tra le botteghe di Rialto",
+            "en": "The church hidden among the Rialto shops",
+            "fr": "L'église cachée parmi les boutiques du Rialto",
+            "de": "Die Kirche, versteckt zwischen den Läden von Rialto",
+            "es": "La iglesia escondida entre las tiendas de Rialto"
+          },
+          "testo": {
+            "it": "La sua particolare collocazione potrebbe avere anche una ragione economica: gli ambienti circostanti permettevano al clero di ricavare entrate affittando piccoli negozi. La chiesa si trovava così inserita nel cuore commerciale della città, senza occupare uno spazio isolato e autonomo.",
+            "en": "Its unusual position may also have had an economic reason: the surrounding spaces allowed the clergy to earn income by renting out small shops. The church was thus set in the commercial heart of the city, without occupying an isolated, separate site.",
+            "fr": "Sa position particulière pourrait aussi avoir une raison économique : les locaux alentour permettaient au clergé de tirer des revenus en louant de petites boutiques. L'église se trouvait ainsi insérée au cœur commercial de la ville, sans occuper un espace isolé et indépendant.",
+            "de": "Seine besondere Lage hatte vielleicht auch einen wirtschaftlichen Grund: Die umliegenden Räume ermöglichten es dem Klerus, Einkünfte durch die Vermietung kleiner Läden zu erzielen. Die Kirche lag somit mitten im Handelszentrum der Stadt, ohne einen abgeschiedenen, eigenständigen Platz einzunehmen.",
+            "es": "Su particular ubicación podría tener también una razón económica: los locales de alrededor permitían al clero obtener ingresos alquilando pequeñas tiendas. La iglesia quedaba así integrada en el corazón comercial de la ciudad, sin ocupar un espacio aislado y autónomo."
+          }
+        },
+        {
+          "titolo": {
+            "it": "Una chiesa legata all'istruzione",
+            "en": "A church linked to education",
+            "fr": "Une église liée à l'instruction",
+            "de": "Eine Kirche im Dienst der Bildung",
+            "es": "Una iglesia vinculada a la educación"
+          },
+          "testo": {
+            "it": "C'è un'altra vicenda interessante legata alla stessa chiesa: nel Quattrocento le sue rendite furono destinate al sostegno del Collegio dei dodici poveri di Cristo, un'istituzione che finanziava l'attività di un maestro di grammatica e di uno di canto.\nLa destinazione delle rendite provocò una controversia con i parrocchiani, che si opposero alla perdita delle entrate della propria chiesa. La questione coinvolse anche le autorità veneziane.",
+            "en": "There is another interesting story linked to the same church: in the 15th century its revenues were earmarked to support the College of the Twelve Poor of Christ, an institution that funded the work of a grammar teacher and a singing master.\nThe use of the revenues sparked a dispute with the parishioners, who opposed the loss of their own church's income. The matter also involved the Venetian authorities.",
+            "fr": "Une autre histoire intéressante est liée à la même église : au XVe siècle, ses revenus furent affectés au soutien du Collège des douze pauvres du Christ, une institution qui finançait le travail d'un maître de grammaire et d'un maître de chant.\nCette affectation des revenus provoqua une controverse avec les paroissiens, qui s'opposèrent à la perte des ressources de leur propre église. L'affaire impliqua aussi les autorités vénitiennes.",
+            "de": "Eine weitere interessante Geschichte ist mit derselben Kirche verbunden: Im 15. Jahrhundert wurden ihre Einkünfte zur Unterstützung des Kollegiums der zwölf Armen Christi bestimmt, einer Einrichtung, die die Arbeit eines Grammatiklehrers und eines Gesangslehrers finanzierte.\nDie Verwendung der Einkünfte führte zu einem Streit mit den Gemeindemitgliedern, die sich dagegen wehrten, die Einnahmen ihrer eigenen Kirche zu verlieren. Die Angelegenheit beschäftigte auch die venezianischen Behörden.",
+            "es": "Hay otra historia interesante vinculada a la misma iglesia: en el siglo XV sus rentas se destinaron al sostenimiento del Colegio de los doce pobres de Cristo, una institución que financiaba la labor de un maestro de gramática y de un maestro de canto.\nEl destino de las rentas provocó una controversia con los feligreses, que se opusieron a la pérdida de los ingresos de su propia iglesia. El asunto implicó también a las autoridades venecianas."
+          }
+        }
+      ]
     },
     {
       "id": "san-lazzaro-armeni",
@@ -2127,7 +2161,25 @@
         "fr": "Ligne ACTV 20 depuis San Marco / San Zaccaria, arrêt à San Lazzaro degli Armeni. Visites sur rendez-vous : +39 041 5260104 | visite@mechitar.org. Vérifier sur place d'éventuels changements.",
         "de": "ACTV-Linie 20 ab San Marco / San Zaccaria, Haltestelle San Lazzaro degli Armeni. Besuche nach Vereinbarung: +39 041 5260104 | visite@mechitar.org. Änderungen vor Ort prüfen.",
         "es": "Línea ACTV 20 desde San Marco / San Zaccaria, parada en San Lazzaro degli Armeni. Visitas con cita previa: +39 041 5260104 | visite@mechitar.org. Comprobar in situ posibles cambios."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "L'isola veneziana dove Lord Byron imparò l'armeno",
+            "en": "The Venetian island where Lord Byron learned Armenian",
+            "fr": "L'île vénitienne où Lord Byron apprit l'arménien",
+            "de": "Die venezianische Insel, auf der Lord Byron Armenisch lernte",
+            "es": "La isla veneciana donde Lord Byron aprendió armenio"
+          },
+          "testo": {
+            "it": "Nel 1816 e nel 1817 il poeta inglese Lord Byron frequentò il monastero di San Lazzaro per studiare la lingua armena con i monaci mechitaristi. La sua curiosità per questa lingua lo portò anche a collaborare alla preparazione di materiali linguistici e traduzioni.\nIl monastero era diventato un importante centro di cultura armena, con una ricca biblioteca e una tipografia. La permanenza di Byron contribuì a far conoscere ulteriormente l'isola negli ambienti culturali europei.\nUn altro dettaglio sorprendente delle collezioni è la presenza di una mummia egizia, conservata nel museo del monastero.",
+            "en": "In 1816 and 1817 the English poet Lord Byron frequented the monastery of San Lazzaro to study the Armenian language with the Mechitarist monks. His interest in the language also led him to help prepare linguistic materials and translations.\nThe monastery had become an important centre of Armenian culture, with a rich library and a printing press. Byron's stay helped make the island better known in European cultural circles.\nAnother surprising detail of the collections is an Egyptian mummy, kept in the monastery's museum.",
+            "fr": "En 1816 et 1817, le poète anglais Lord Byron fréquenta le monastère de San Lazzaro pour étudier la langue arménienne avec les moines mékhitaristes. Sa curiosité pour cette langue le conduisit aussi à collaborer à la préparation de matériaux linguistiques et de traductions.\nLe monastère était devenu un centre important de la culture arménienne, avec une riche bibliothèque et une imprimerie. Le séjour de Byron contribua à faire connaître davantage l'île dans les milieux culturels européens.\nUn autre détail surprenant des collections est la présence d'une momie égyptienne, conservée dans le musée du monastère.",
+            "de": "1816 und 1817 besuchte der englische Dichter Lord Byron das Kloster San Lazzaro, um bei den Mechitaristenmönchen die armenische Sprache zu studieren. Sein Interesse an dieser Sprache führte ihn auch dazu, bei der Vorbereitung von Sprachmaterialien und Übersetzungen mitzuwirken.\nDas Kloster war zu einem bedeutenden Zentrum armenischer Kultur geworden, mit einer reichen Bibliothek und einer Druckerei. Byrons Aufenthalt trug dazu bei, die Insel in den europäischen Kulturkreisen noch bekannter zu machen.\nEin weiteres überraschendes Detail der Sammlungen ist eine ägyptische Mumie, die im Museum des Klosters aufbewahrt wird.",
+            "es": "En 1816 y 1817 el poeta inglés Lord Byron frecuentó el monasterio de San Lazzaro para estudiar la lengua armenia con los monjes mequitaristas. Su interés por esta lengua lo llevó también a colaborar en la preparación de materiales lingüísticos y traducciones.\nEl monasterio se había convertido en un importante centro de cultura armenia, con una rica biblioteca y una imprenta. La estancia de Byron contribuyó a dar a conocer aún más la isla en los ambientes culturales europeos.\nOtro detalle sorprendente de las colecciones es la presencia de una momia egipcia, conservada en el museo del monasterio."
+          }
+        }
+      ]
     },
     {
       "id": "san-stae",
