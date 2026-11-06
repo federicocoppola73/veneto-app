@@ -24,6 +24,24 @@
     "basilica-di-santa-giustina",
     "prato-della-valle"
    ]
+  },
+  {
+   "id": "PADOVA_ITINERARIO2",
+   "titolo": {
+    "it": "Tra mura, canali e antichi borghi",
+    "en": "Between walls, canals and ancient hamlets",
+    "fr": "Entre remparts, canaux et anciens bourgs",
+    "de": "Zwischen Mauern, Kanälen und alten Ortsvierteln",
+    "es": "Entre murallas, canales y antiguos barrios"
+   },
+   "tappe": [
+    "porta-savonarola",
+    "porta-molino",
+    "porte-contarine",
+    "porta-altinate",
+    "specola-osservatorio-astronomico",
+    "oratorio-di-san-michele"
+   ]
   }
  ]
 }
