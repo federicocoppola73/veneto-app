@@ -637,7 +637,25 @@
         "de": "Renaissancekirche wenige Schritte vom Markusplatz mit prächtiger Fassade von Mauro Codussi. Innen Giovanni Bellinis Altarbild von San Zaccaria und unter dem Chor eine stimmungsvolle, oft überflutete Krypta aus dem 10. Jahrhundert.",
         "es": "Iglesia renacentista a dos pasos de San Marcos, con una espléndida fachada de Mauro Codussi. Dentro se encuentra el retablo de San Zaccaria de Giovanni Bellini y, bajo el presbiterio, una sugerente cripta del siglo X, a menudo inundada."
       },
-      "personaggio": "giovanni-bellini"
+      "personaggio": "giovanni-bellini",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La processione pasquale del doge",
+            "en": "The Easter procession of the doge",
+            "fr": "La procession pascale du doge",
+            "de": "Die Osterprozession des Dogen",
+            "es": "La procesión pascual del dux"
+          },
+          "testo": {
+            "it": "Ogni Pasqua il doge si recava solennemente al monastero di San Zaccaria per assistere ai vespri. Non era una semplice visita religiosa: il corteo attraversava Venezia con le insegne ducali e il prezioso corno, il copricapo simbolo del potere dogale. Le origini della consuetudine sono discusse: tra le spiegazioni tramandate ci sono il legame del monastero con il potere ducale e una forma di compensazione per i terreni ceduti dalle monache in occasione dell'ampliamento di Piazza San Marco.",
+            "en": "Every Easter the doge solemnly went to the monastery of San Zaccaria to attend vespers. It was not a simple religious visit: the procession crossed Venice with the ducal insignia and the precious corno, the headdress that symbolised dogal power. The origins of the custom are debated: among the explanations handed down are the monastery's ties to ducal power and a form of compensation for the land ceded by the nuns when Piazza San Marco was enlarged.",
+            "fr": "Chaque Pâques, le doge se rendait solennellement au monastère de San Zaccaria pour assister aux vêpres. Ce n'était pas une simple visite religieuse : le cortège traversait Venise avec les insignes ducaux et le précieux corno, la coiffe symbole du pouvoir dogal. Les origines de cette coutume sont discutées : parmi les explications transmises figurent le lien du monastère avec le pouvoir ducal et une forme de compensation pour les terrains cédés par les religieuses lors de l'agrandissement de la Piazza San Marco.",
+            "de": "Jedes Ostern begab sich der Doge feierlich ins Kloster San Zaccaria, um der Vesper beizuwohnen. Es war kein einfacher Kirchgang: Der Zug durchquerte Venedig mit den herzoglichen Insignien und dem kostbaren Corno, der Kopfbedeckung als Symbol der dogalen Macht. Die Ursprünge des Brauchs sind umstritten: Überliefert sind unter anderem die Verbindung des Klosters zur herzoglichen Macht und eine Art Ausgleich für die Grundstücke, die die Nonnen bei der Erweiterung der Piazza San Marco abtraten.",
+            "es": "Cada Pascua el dux acudía solemnemente al monasterio de San Zaccaria para asistir a las vísperas. No era una simple visita religiosa: la comitiva atravesaba Venecia con las insignias ducales y el precioso corno, el tocado símbolo del poder dogal. Los orígenes de la costumbre son discutidos: entre las explicaciones transmitidas están el vínculo del monasterio con el poder ducal y una forma de compensación por los terrenos cedidos por las monjas con motivo de la ampliación de la Piazza San Marco."
+          }
+        }
+      ]
     },
     {
       "id": "miracoli",
@@ -918,7 +936,25 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La facciata che non fu mai completata",
+            "en": "The façade that was never completed",
+            "fr": "La façade qui ne fut jamais achevée",
+            "de": "Die Fassade, die nie vollendet wurde",
+            "es": "La fachada que nunca se terminó"
+          },
+          "testo": {
+            "it": "La chiesa di San Marcuola, affacciata sul Canal Grande, presenta una particolarità evidente: la facciata principale è rimasta incompiuta. La ricostruzione settecentesca fu affidata a Giorgio Massari, che riuscì a completare l'interno, ma non la facciata. Anche il campanile rimase incompiuto. È una piccola storia di un progetto architettonico rimasto a metà, visibile ancora oggi a chi passa sul Canal Grande.",
+            "en": "The church of San Marcuola, overlooking the Grand Canal, has an evident peculiarity: its main façade was left unfinished. The eighteenth-century reconstruction was entrusted to Giorgio Massari, who managed to complete the interior but not the façade. The bell tower also remained unfinished. It is a small story of an architectural project left half-done, still visible today to anyone passing along the Grand Canal.",
+            "fr": "L'église de San Marcuola, face au Grand Canal, présente une particularité évidente : sa façade principale est restée inachevée. La reconstruction du XVIIIe siècle fut confiée à Giorgio Massari, qui réussit à achever l'intérieur mais pas la façade. Le clocher resta lui aussi inachevé. C'est une petite histoire d'un projet architectural resté à mi-chemin, encore visible aujourd'hui pour qui longe le Grand Canal.",
+            "de": "Die Kirche San Marcuola am Canal Grande hat eine auffällige Besonderheit: Ihre Hauptfassade blieb unvollendet. Der Wiederaufbau im 18. Jahrhundert wurde Giorgio Massari übertragen, der zwar das Innere vollenden konnte, nicht aber die Fassade. Auch der Glockenturm blieb unvollendet. Es ist die kleine Geschichte eines architektonischen Projekts, das auf halbem Weg stehen blieb und bis heute von jedem am Canal Grande zu sehen ist.",
+            "es": "La iglesia de San Marcuola, frente al Gran Canal, presenta una particularidad evidente: su fachada principal quedó inacabada. La reconstrucción del siglo XVIII se encargó a Giorgio Massari, quien logró completar el interior pero no la fachada. El campanario también quedó sin terminar. Es la pequeña historia de un proyecto arquitectónico que se quedó a medio camino, todavía visible hoy para quien pasa por el Gran Canal."
+          }
+        }
+      ]
     },
     {
       "id": "san-pietro-castello",
@@ -3519,7 +3555,25 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il Bucintoro e i modelli sopravvissuti alla caduta della Repubblica",
+            "en": "The Bucintoro and the models that survived the fall of the Republic",
+            "fr": "Le Bucentaure et les maquettes qui ont survécu à la chute de la République",
+            "de": "Der Bucintoro und die Modelle, die den Fall der Republik überstanden",
+            "es": "El Bucintoro y los modelos que sobrevivieron a la caída de la República"
+          },
+          "testo": {
+            "it": "Nel 1797, con la caduta della Repubblica, l'Arsenale fu saccheggiato e molti modelli navali andarono perduti. Alcuni si salvarono e sono oggi conservati nel Museo Storico Navale. Tra i pezzi più importanti c'è il modello del Bucintoro, la sontuosa nave cerimoniale del doge.",
+            "en": "In 1797, with the fall of the Republic, the Arsenal was looted and many naval models were lost. Some survived and are now preserved in the Museo Storico Navale. Among the most important pieces is the model of the Bucintoro, the sumptuous ceremonial ship of the doge.",
+            "fr": "En 1797, avec la chute de la République, l'Arsenal fut pillé et de nombreuses maquettes de navires furent perdues. Quelques-unes furent sauvées et sont aujourd'hui conservées au Musée historique naval. Parmi les pièces les plus importantes figure la maquette du Bucentaure, somptueux navire d'apparat du doge.",
+            "de": "1797, mit dem Ende der Republik, wurde das Arsenal geplündert und viele Schiffsmodelle gingen verloren. Einige wurden gerettet und werden heute im Museo Storico Navale aufbewahrt. Zu den wichtigsten Stücken gehört das Modell des Bucintoro, des prächtigen Zeremonienschiffs des Dogen.",
+            "es": "En 1797, con la caída de la República, el Arsenal fue saqueado y se perdieron muchos modelos navales. Algunos se salvaron y hoy se conservan en el Museo Storico Navale. Entre las piezas más importantes está el modelo del Bucintoro, la suntuosa nave ceremonial del dux."
+          }
+        }
+      ]
     },
     {
       "id": "museo-ebraico",
@@ -3750,7 +3804,25 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giovanni-bellini"
+      "personaggio": "giovanni-bellini",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il conte che lasciò la sua biblioteca a tutta Venezia",
+            "en": "The count who left his library to all of Venice",
+            "fr": "Le comte qui légua sa bibliothèque à toute Venise",
+            "de": "Der Graf, der seine Bibliothek ganz Venedig vermachte",
+            "es": "El conde que legó su biblioteca a toda Venecia"
+          },
+          "testo": {
+            "it": "Nel 1868 il conte Giovanni Querini Stampalia lasciò in eredità alla città il patrimonio familiare, compresi il palazzo, i libri e le collezioni d'arte. Nel testamento stabilì che la biblioteca fosse aperta al pubblico anche quando le altre biblioteche erano chiuse, in particolare la sera e nei giorni festivi. Non fu quindi soltanto una donazione: volle creare un luogo di cultura accessibile alla comunità, con un'apertura insolitamente ampia per l'epoca.",
+            "en": "In 1868 Count Giovanni Querini Stampalia bequeathed the family heritage to the city, including the palace, the books and the art collections. In his will he established that the library should be open to the public even when other libraries were closed, especially in the evening and on public holidays. It was therefore not just a donation: he wanted to create a place of culture accessible to the community, with opening hours unusually generous for the time.",
+            "fr": "En 1868, le comte Giovanni Querini Stampalia légua à la ville le patrimoine familial, y compris le palais, les livres et les collections d'art. Dans son testament, il établit que la bibliothèque devait être ouverte au public même lorsque les autres bibliothèques étaient fermées, notamment le soir et les jours fériés. Ce ne fut donc pas seulement une donation : il voulait créer un lieu de culture accessible à la communauté, avec une ouverture exceptionnellement large pour l'époque.",
+            "de": "1868 vermachte Graf Giovanni Querini Stampalia der Stadt das Familienerbe, darunter den Palast, die Bücher und die Kunstsammlungen. In seinem Testament legte er fest, dass die Bibliothek auch dann für die Öffentlichkeit geöffnet sein sollte, wenn die anderen Bibliotheken geschlossen waren, besonders abends und an Feiertagen. Es war also nicht nur eine Schenkung: Er wollte einen Kulturort schaffen, der der Gemeinschaft zugänglich war, mit für die damalige Zeit ungewöhnlich großzügigen Öffnungszeiten.",
+            "es": "En 1868 el conde Giovanni Querini Stampalia legó a la ciudad el patrimonio familiar, incluidos el palacio, los libros y las colecciones de arte. En su testamento estableció que la biblioteca estuviera abierta al público incluso cuando las demás bibliotecas estaban cerradas, en particular por la tarde y en los días festivos. No se trató, por tanto, de una simple donación: quiso crear un lugar de cultura accesible a la comunidad, con un horario inusualmente amplio para la época."
+          }
+        }
+      ]
     },
     {
       "id": "palazzo-fortuny",
@@ -4096,7 +4168,25 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "carlo-goldoni"
+      "personaggio": "carlo-goldoni",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La casa che non si chiamava Goldoni",
+            "en": "The house that was not called Goldoni",
+            "fr": "La maison qui ne s'appelait pas Goldoni",
+            "de": "Das Haus, das nicht Goldoni hieß",
+            "es": "La casa que no se llamaba Goldoni"
+          },
+          "testo": {
+            "it": "La casa natale di Carlo Goldoni è conosciuta come Ca' Centanni o Ca' Centani, dal nome della famiglia che l'aveva presa in affitto dai proprietari, i Rizzi. Nel palazzo si era insediata anche un'accademia artistico-letteraria. I Goldoni vi abitarono soltanto fino al 1719, quando Carlo aveva dodici anni. Un dettaglio curioso è che il nome con cui oggi conosciamo il palazzo deriva dunque da famiglie diverse da quella del celebre commediografo.",
+            "en": "Carlo Goldoni's birthplace is known as Ca' Centanni or Ca' Centani, after the family who rented it from its owners, the Rizzi. An artistic and literary academy had also set up in the palace. The Goldonis lived there only until 1719, when Carlo was twelve years old. A curious detail is that the name by which we know the palace today therefore comes from families other than that of the famous playwright.",
+            "fr": "La maison natale de Carlo Goldoni est connue sous le nom de Ca' Centanni ou Ca' Centani, d'après la famille qui l'avait louée à ses propriétaires, les Rizzi. Une académie artistique et littéraire s'y était également installée. Les Goldoni n'y vécurent que jusqu'en 1719, lorsque Carlo avait douze ans. Un détail curieux : le nom sous lequel on connaît aujourd'hui le palais provient donc de familles différentes de celle du célèbre auteur de comédies.",
+            "de": "Das Geburtshaus von Carlo Goldoni ist als Ca' Centanni oder Ca' Centani bekannt, nach der Familie, die es von den Eigentümern, den Rizzi, gemietet hatte. Im Palast hatte sich außerdem eine künstlerisch-literarische Akademie niedergelassen. Die Goldonis wohnten dort nur bis 1719, als Carlo zwölf Jahre alt war. Ein kurioses Detail: Der Name, unter dem wir den Palast heute kennen, stammt also von anderen Familien als dem des berühmten Komödienautors.",
+            "es": "La casa natal de Carlo Goldoni es conocida como Ca' Centanni o Ca' Centani, por el nombre de la familia que la había alquilado a sus propietarios, los Rizzi. En el palacio se había instalado también una academia artística y literaria. Los Goldoni vivieron allí solo hasta 1719, cuando Carlo tenía doce años. Un detalle curioso es que el nombre con el que hoy conocemos el palacio procede, por tanto, de familias distintas a la del célebre comediógrafo."
+          }
+        }
+      ]
     },
     {
       "id": "palazzo-mocenigo",
