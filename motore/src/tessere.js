@@ -1,3 +1,4 @@
+import { immagine } from './risorse';
 // File generato da strumenti/mappa_disegna.py: non modificarlo a mano.
 // Tessere della mappa dettagliata (© OpenStreetMap contributors).
 export const DIMENSIONE_TESSERA = 512; // pixel di una tessera al proprio livello
