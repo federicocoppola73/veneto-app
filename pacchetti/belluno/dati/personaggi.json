@@ -597,8 +597,44 @@
           "Tuvo un hijo, Antonio Diziani, también pintor, especializado sobre todo en paisajes."
         ]
       },
-      "luoghi": [],
-      "luoghiNote": {},
+      "luoghi": [
+        "cattedrale-di-san-martino",
+        "mubel-museo-civico-palazzo-fulcis"
+      ],
+      "luoghiNote": {
+        "cattedrale-di-san-martino": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work held",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Gaspare Diziani è presente nella decorazione pittorica del Duomo con diverse opere, tra cui tele dedicate a San Paolo e a San Carlo Borromeo e un dipinto all'altare della Madonna delle Grazie.",
+            "en": "Gaspare Diziani is present in the cathedral's painted decoration with several works, including canvases dedicated to Saint Paul and Saint Charles Borromeo and a painting on the altar of the Madonna delle Grazie.",
+            "fr": "Gaspare Diziani est présent dans le décor peint de la cathédrale avec plusieurs œuvres, dont des toiles consacrées à saint Paul et à saint Charles Borromée et un tableau à l'autel de la Madonna delle Grazie.",
+            "de": "Gaspare Diziani ist mit mehreren Werken in der Malerei des Doms vertreten, darunter Leinwände mit dem heiligen Paulus und dem heiligen Karl Borromäus sowie einem Gemälde am Altar der Madonna delle Grazie.",
+            "es": "Gaspare Diziani está presente en la decoración pictórica de la catedral con varias obras, entre ellas lienzos dedicados a san Pablo y a san Carlos Borromeo y un cuadro en el altar de la Madonna delle Grazie."
+          }
+        },
+        "mubel-museo-civico-palazzo-fulcis": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Work held",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Il museo conserva un'Annunciazione di Gaspare Diziani, testimonianza della sua produzione pittorica del Settecento.",
+            "en": "The museum holds an Annunciation by Gaspare Diziani, evidence of his eighteenth-century painting production.",
+            "fr": "Le musée conserve une Annonciation de Gaspare Diziani, témoignage de sa production picturale du XVIIIe siècle.",
+            "de": "Das Museum bewahrt eine Verkündigung von Gaspare Diziani auf, ein Zeugnis seines Schaffens als Maler im 18. Jahrhundert.",
+            "es": "El museo conserva una Anunciación de Gaspare Diziani, testimonio de su producción pictórica del siglo XVIII."
+          }
+        }
+      },
       "collegati": []
     },
     {

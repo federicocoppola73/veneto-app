@@ -69,10 +69,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "In quale epoca fu costruita l'Arena di Verona?"
+    "it": "In quale epoca fu costruita l'Arena di Verona?",
+    "en": "In which period was the Arena of Verona built?",
+    "fr": "À quelle époque l'Arène de Vérone a-t-elle été construite ?",
+    "de": "In welcher Epoche wurde die Arena von Verona erbaut?",
+    "es": "¿En qué época se construyó la Arena de Verona?"
    },
    "risposta": {
-    "it": "In epoca romana, nel I secolo d.C."
+    "it": "In epoca romana, nel I secolo d.C.",
+    "en": "In Roman times, in the 1st century AD.",
+    "fr": "À l'époque romaine, au Ier siècle apr. J.-C.",
+    "de": "In römischer Zeit, im 1. Jahrhundert n. Chr.",
+    "es": "En época romana, en el siglo I d. C."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -83,10 +91,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale materiale caratterizza la parte superstite dell'anello esterno dell'Arena?"
+    "it": "Quale materiale caratterizza la parte superstite dell'anello esterno dell'Arena?",
+    "en": "Which material characterises the surviving part of the outer ring of the Arena?",
+    "fr": "Quel matériau caractérise la partie subsistante de l'anneau extérieur de l'Arène ?",
+    "de": "Welches Material prägt den erhaltenen Teil des äußeren Rings der Arena?",
+    "es": "¿Qué material caracteriza la parte conservada del anillo exterior de la Arena?"
    },
    "risposta": {
-    "it": "Pietra calcarea locale, tradizionalmente detta pietra della Valpantena"
+    "it": "Pietra calcarea locale, tradizionalmente detta pietra della Valpantena",
+    "en": "Local limestone, traditionally called Valpantena stone.",
+    "fr": "Calcaire local, appelé traditionnellement pierre de Valpantena.",
+    "de": "Lokaler Kalkstein, traditionell Valpantena-Stein genannt.",
+    "es": "Piedra caliza local, tradicionalmente llamada piedra de Valpantena."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -97,13 +113,24 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Come si chiama il manufatto medievale con funzione legata all'amministrazione della giustizia presente nella piazza?"
+    "it": "Come si chiama il manufatto medievale con funzione legata all'amministrazione della giustizia presente nella piazza?",
+    "en": "What is the medieval structure linked to the administration of justice in the square called?",
+    "fr": "Comment s'appelle la structure médiévale liée à l'administration de la justice, présente sur la place ?",
+    "de": "Wie heißt das mittelalterliche Bauwerk für die Rechtspflege auf dem Platz?",
+    "es": "¿Cómo se llama la construcción medieval relacionada con la administración de justicia que hay en la plaza?"
    },
    "risposta": {
-    "it": "La Berlina"
+    "it": "La Berlina",
+    "en": "The Berlina (the pillory).",
+    "fr": "La Berlina (le pilori).",
+    "de": "Die Berlina (der Pranger).",
+    "es": "La Berlina (la picota)."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/piazza-erbe-berlina.webp",
+    "credits": "Foto: Didier Descouens, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -111,10 +138,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale forma caratterizza i monumenti funerari più elaborati delle Arche Scaligere?"
+    "it": "Quale forma caratterizza i monumenti funerari più elaborati delle Arche Scaligere?",
+    "en": "Which form characterises the most elaborate funerary monuments of the Scaliger Tombs?",
+    "fr": "Quelle forme caractérise les monuments funéraires les plus élaborés des Arche Scaligere ?",
+    "de": "Welche Form kennzeichnet die aufwendigsten Grabmäler der Scaligergräber?",
+    "es": "¿Qué forma caracteriza los monumentos funerarios más elaborados de las Arche Scaligere?"
    },
    "risposta": {
-    "it": "Strutture gotiche sopraelevate con baldacchini"
+    "it": "Strutture gotiche sopraelevate con baldacchini",
+    "en": "Raised Gothic structures with canopies.",
+    "fr": "Des structures gothiques surélevées surmontées de baldaquins.",
+    "de": "Erhöhte gotische Strukturen mit Baldachinen.",
+    "es": "Estructuras góticas elevadas con baldaquinos."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -125,10 +160,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale mezzo consente di raggiungere la sommità della torre senza salire tutte le scale?"
+    "it": "Quale mezzo consente di raggiungere la sommità della torre senza salire tutte le scale?",
+    "en": "Which means allows you to reach the top of the tower without climbing all the stairs?",
+    "fr": "Quel moyen permet d'atteindre le sommet de la tour sans monter toutes les marches ?",
+    "de": "Welches Mittel ermöglicht es, die Turmspitze zu erreichen, ohne alle Stufen zu steigen?",
+    "es": "¿Qué medio permite llegar a la cima de la torre sin subir todas las escaleras?"
    },
    "risposta": {
-    "it": "L'ascensore"
+    "it": "L'ascensore",
+    "en": "The lift.",
+    "fr": "L'ascenseur.",
+    "de": "Der Aufzug.",
+    "es": "El ascensor."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -139,10 +182,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Come si chiama la celebre scala monumentale nel cortile del palazzo?"
+    "it": "Come si chiama la celebre scala monumentale nel cortile del palazzo?",
+    "en": "What is the name of the famous monumental staircase in the courtyard of the palace?",
+    "fr": "Comment s'appelle le célèbre escalier monumental dans la cour du palais ?",
+    "de": "Wie heißt die berühmte monumentale Treppe im Innenhof des Palastes?",
+    "es": "¿Cómo se llama la famosa escalera monumental del patio del palacio?"
    },
    "risposta": {
-    "it": "Scala della Ragione"
+    "it": "Scala della Ragione",
+    "en": "Scala della Ragione (Staircase of Reason).",
+    "fr": "Scala della Ragione (escalier de la Raison).",
+    "de": "Scala della Ragione (Treppe der Vernunft).",
+    "es": "Scala della Ragione (escalera de la Razón)."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -153,10 +204,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale stile caratterizza principalmente la struttura originaria del Duomo?"
+    "it": "Quale stile caratterizza principalmente la struttura originaria del Duomo?",
+    "en": "Which style mainly characterises the original structure of the Cathedral?",
+    "fr": "Quel style caractérise principalement la structure d'origine de la cathédrale ?",
+    "de": "Welcher Stil prägt hauptsächlich die ursprüngliche Struktur des Doms?",
+    "es": "¿Qué estilo caracteriza principalmente la estructura original de la catedral?"
    },
    "risposta": {
-    "it": "Romanico, con successive trasformazioni"
+    "it": "Romanico, con successive trasformazioni",
+    "en": "Romanesque, with later transformations.",
+    "fr": "Roman, avec des transformations ultérieures.",
+    "de": "Romanisch, mit späteren Umgestaltungen.",
+    "es": "Románico, con transformaciones posteriores."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -167,10 +226,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale particolarità caratterizza il complesso di San Fermo?"
+    "it": "Quale particolarità caratterizza il complesso di San Fermo?",
+    "en": "Which feature characterises the San Fermo complex?",
+    "fr": "Quelle particularité caractérise le complexe de San Fermo ?",
+    "de": "Welche Besonderheit kennzeichnet den Komplex von San Fermo?",
+    "es": "¿Qué particularidad caracteriza el complejo de San Fermo?"
    },
    "risposta": {
-    "it": "La presenza di due chiese sovrapposte"
+    "it": "La presenza di due chiese sovrapposte",
+    "en": "The presence of two churches, one on top of the other.",
+    "fr": "La présence de deux églises superposées.",
+    "de": "Das Vorhandensein zweier übereinanderliegender Kirchen.",
+    "es": "La presencia de dos iglesias superpuestas."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -181,10 +248,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale ponte fortificato è collegato al castello?"
+    "it": "Quale ponte fortificato è collegato al castello?",
+    "en": "Which fortified bridge is connected to the castle?",
+    "fr": "Quel pont fortifié est relié au château ?",
+    "de": "Welche befestigte Brücke ist mit der Burg verbunden?",
+    "es": "¿Qué puente fortificado está conectado al castillo?"
    },
    "risposta": {
-    "it": "Ponte Scaligero"
+    "it": "Ponte Scaligero",
+    "en": "Ponte Scaligero (Scaliger Bridge).",
+    "fr": "Ponte Scaligero (pont des Scaligeri).",
+    "de": "Ponte Scaligero (Scaligerbrücke).",
+    "es": "Ponte Scaligero (puente Scaligero)."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -195,13 +270,24 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale caratteristica medievale si nota nelle sommità delle sue mura?"
+    "it": "Quale caratteristica medievale si nota nelle sommità delle sue mura?",
+    "en": "Which medieval feature can be seen at the top of its walls?",
+    "fr": "Quelle caractéristique médiévale se remarque au sommet de ses murs ?",
+    "de": "Welches mittelalterliche Merkmal ist oben an seinen Mauern zu sehen?",
+    "es": "¿Qué rasgo medieval se observa en la parte superior de sus muros?"
    },
    "risposta": {
-    "it": "Le merlature"
+    "it": "Le merlature",
+    "en": "Battlements.",
+    "fr": "Les merlons (créneaux).",
+    "de": "Die Zinnen.",
+    "es": "Las almenas."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/ponte-scaligero-merlature.webp",
+    "credits": "Foto: Coaterflagman, CC BY 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -209,10 +295,18 @@
    "zona": "Centro storico",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale edificio storico della piazza è noto come Palazzo del Capitano?"
+    "it": "Quale edificio storico della piazza è noto come Palazzo del Capitano?",
+    "en": "Which historic building in the square is known as the Palazzo del Capitano?",
+    "fr": "Quel bâtiment historique de la place est connu sous le nom de Palazzo del Capitano ?",
+    "de": "Welches historische Gebäude am Platz ist als Palazzo del Capitano bekannt?",
+    "es": "¿Qué edificio histórico de la plaza es conocido como Palazzo del Capitano?"
    },
    "risposta": {
-    "it": "Il palazzo storicamente legato alla funzione di capitano della città"
+    "it": "Il palazzo storicamente legato alla funzione di capitano della città",
+    "en": "The palace historically linked to the role of city captain.",
+    "fr": "Le palais historiquement lié à la fonction de capitaine de la ville.",
+    "de": "Der Palast, der historisch mit dem Amt des Stadthauptmanns verbunden war.",
+    "es": "El palacio históricamente vinculado a la función de capitán de la ciudad."
    },
    "itinerario": "aguzza-la-vista-centro-architettura",
    "foto": null,
@@ -223,10 +317,18 @@
    "zona": "Centro storico",
    "tema": "Curiosità",
    "domanda": {
-    "it": "Quale grande evento culturale ospita ogni estate l'Arena?"
+    "it": "Quale grande evento culturale ospita ogni estate l'Arena?",
+    "en": "Which major cultural event is held in the Arena every summer?",
+    "fr": "Quel grand événement culturel se tient chaque été dans l'Arène ?",
+    "de": "Welches große Kulturereignis findet jeden Sommer in der Arena statt?",
+    "es": "¿Qué gran evento cultural se celebra cada verano en la Arena?"
    },
    "risposta": {
-    "it": "Il Festival lirico areniano"
+    "it": "Il Festival lirico areniano",
+    "en": "The Arena Opera Festival.",
+    "fr": "Le Festival lyrique de l'Arène.",
+    "de": "Das Opernfestival in der Arena.",
+    "es": "El Festival de Ópera de la Arena."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -237,10 +339,18 @@
    "zona": "Centro storico",
    "tema": "Storia",
    "domanda": {
-    "it": "Da quale termine si ritiene possa derivare il nome «Bra»?"
+    "it": "Da quale termine si ritiene possa derivare il nome «Bra»?",
+    "en": "From which term is the name «Bra» thought to derive?",
+    "fr": "De quel terme le nom « Bra » serait-il dérivé ?",
+    "de": "Von welchem Begriff soll sich der Name «Bra» ableiten?",
+    "es": "¿De qué término se cree que deriva el nombre «Bra»?"
    },
    "risposta": {
-    "it": "Dal termine longobardo breit, interpretato come «largo»"
+    "it": "Dal termine longobardo breit, interpretato come «largo»",
+    "en": "From the Lombard term breit, understood as «open space».",
+    "fr": "Du terme lombard breit, compris comme « espace ouvert ».",
+    "de": "Vom langobardischen Wort breit, verstanden als «freier Platz».",
+    "es": "Del término lombardo breit, interpretado como «explanada»."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -251,10 +361,18 @@
    "zona": "Centro storico",
    "tema": "Storia",
    "domanda": {
-    "it": "Quale funzione aveva Piazza delle Erbe nella Verona romana?"
+    "it": "Quale funzione aveva Piazza delle Erbe nella Verona romana?",
+    "en": "What function did Piazza delle Erbe have in Roman Verona?",
+    "fr": "Quelle fonction avait la Piazza delle Erbe dans la Vérone romaine ?",
+    "de": "Welche Funktion hatte die Piazza delle Erbe im römischen Verona?",
+    "es": "¿Qué función tenía la Piazza delle Erbe en la Verona romana?"
    },
    "risposta": {
-    "it": "Era il foro, centro della vita pubblica e commerciale"
+    "it": "Era il foro, centro della vita pubblica e commerciale",
+    "en": "It was the forum, the centre of public and commercial life.",
+    "fr": "C'était le forum, centre de la vie publique et commerciale.",
+    "de": "Sie war das Forum, das Zentrum des öffentlichen und wirtschaftlichen Lebens.",
+    "es": "Era el foro, centro de la vida pública y comercial."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -265,13 +383,24 @@
    "zona": "Centro storico",
    "tema": "Personaggi",
    "domanda": {
-    "it": "A quale poeta è dedicata la statua al centro della piazza?"
+    "it": "A quale poeta è dedicata la statua al centro della piazza?",
+    "en": "To which poet is the statue at the centre of the square dedicated?",
+    "fr": "À quel poète est dédiée la statue au centre de la place ?",
+    "de": "Welchem Dichter ist die Statue in der Mitte des Platzes gewidmet?",
+    "es": "¿A qué poeta está dedicada la estatua del centro de la plaza?"
    },
    "risposta": {
-    "it": "Dante Alighieri"
+    "it": "Dante Alighieri",
+    "en": "Dante Alighieri.",
+    "fr": "Dante Alighieri.",
+    "de": "Dante Alighieri.",
+    "es": "Dante Alighieri."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/piazza-signori-dante.webp",
+    "credits": "Foto: Coaterflagman, CC BY 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -279,10 +408,18 @@
    "zona": "Centro storico",
    "tema": "Arte",
    "domanda": {
-    "it": "Quale famiglia veronese è sepolta nelle Arche Scaligere?"
+    "it": "Quale famiglia veronese è sepolta nelle Arche Scaligere?",
+    "en": "Which Veronese family is buried in the Scaliger Tombs?",
+    "fr": "Quelle famille véronaise est enterrée dans les Arche Scaligere ?",
+    "de": "Welche Familie aus Verona ist in den Scaligergräbern bestattet?",
+    "es": "¿Qué familia veronesa está enterrada en las Arche Scaligere?"
    },
    "risposta": {
-    "it": "La famiglia della Scala, detta anche degli Scaligeri"
+    "it": "La famiglia della Scala, detta anche degli Scaligeri",
+    "en": "The Della Scala family, also called the Scaligeri.",
+    "fr": "La famille della Scala, aussi appelée les Scaligeri.",
+    "de": "Die Familie della Scala, auch Scaligeri genannt.",
+    "es": "La familia della Scala, también llamada los Scaligeri."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -293,10 +430,18 @@
    "zona": "Centro storico",
    "tema": "Letteratura",
    "domanda": {
-    "it": "Quale tragedia di Shakespeare ha reso celebre questo luogo?"
+    "it": "Quale tragedia di Shakespeare ha reso celebre questo luogo?",
+    "en": "Which Shakespeare tragedy made this place famous?",
+    "fr": "Quelle tragédie de Shakespeare a rendu ce lieu célèbre ?",
+    "de": "Welche Tragödie Shakespeares hat diesen Ort berühmt gemacht?",
+    "es": "¿Qué tragedia de Shakespeare hizo famoso este lugar?"
    },
    "risposta": {
-    "it": "Romeo e Giulietta"
+    "it": "Romeo e Giulietta",
+    "en": "Romeo and Juliet.",
+    "fr": "Roméo et Juliette.",
+    "de": "Romeo und Julia.",
+    "es": "Romeo y Julieta."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -307,10 +452,18 @@
    "zona": "Centro storico",
    "tema": "Curiosità",
    "domanda": {
-    "it": "La casa dimostra che Giulietta sia esistita realmente?"
+    "it": "La casa dimostra che Giulietta sia esistita realmente?",
+    "en": "Does the house prove that Juliet really existed?",
+    "fr": "La maison prouve-t-elle que Juliette a réellement existé ?",
+    "de": "Beweist das Haus, dass Julia tatsächlich existiert hat?",
+    "es": "¿La casa demuestra que Julieta existió realmente?"
    },
    "risposta": {
-    "it": "No, Giulietta è un personaggio letterario"
+    "it": "No, Giulietta è un personaggio letterario",
+    "en": "No, Juliet is a literary character.",
+    "fr": "Non, Juliette est un personnage littéraire.",
+    "de": "Nein, Julia ist eine literarische Figur.",
+    "es": "No, Julieta es un personaje literario."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -321,10 +474,18 @@
    "zona": "Centro storico",
    "tema": "Archeologia",
    "domanda": {
-    "it": "Che cosa era originariamente Porta Borsari?"
+    "it": "Che cosa era originariamente Porta Borsari?",
+    "en": "What was Porta Borsari originally?",
+    "fr": "Qu'était à l'origine la Porta Borsari ?",
+    "de": "Was war das Porta Borsari ursprünglich?",
+    "es": "¿Qué era originalmente la Porta Borsari?"
    },
    "risposta": {
-    "it": "Una porta monumentale della Verona romana"
+    "it": "Una porta monumentale della Verona romana",
+    "en": "A monumental gate of Roman Verona.",
+    "fr": "Une porte monumentale de la Vérone romaine.",
+    "de": "Ein monumentales Stadttor des römischen Verona.",
+    "es": "Una puerta monumental de la Verona romana."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -335,13 +496,24 @@
    "zona": "Centro storico",
    "tema": "Archeologia",
    "domanda": {
-    "it": "Quali resti antichi si possono osservare nei pressi di Porta Leoni?"
+    "it": "Quali resti antichi si possono osservare nei pressi di Porta Leoni?",
+    "en": "Which ancient remains can be seen near Porta Leoni?",
+    "fr": "Quels vestiges antiques peut-on observer près de la Porta Leoni ?",
+    "de": "Welche antiken Überreste sind in der Nähe der Porta Leoni zu sehen?",
+    "es": "¿Qué restos antiguos se pueden observar cerca de la Porta Leoni?"
    },
    "risposta": {
-    "it": "Resti della porta romana e delle strutture difensive"
+    "it": "Resti della porta romana e delle strutture difensive",
+    "en": "Remains of the Roman gate and of the defensive structures.",
+    "fr": "Vestiges de la porte romaine et des structures défensives.",
+    "de": "Reste des römischen Tors und der Verteidigungsanlagen.",
+    "es": "Restos de la puerta romana y de las estructuras defensivas."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/porta-leoni-resti.webp",
+    "credits": "Foto: Coaterflagman, CC BY 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -349,13 +521,24 @@
    "zona": "Centro storico",
    "tema": "Arte",
    "domanda": {
-    "it": "Quali figure sostengono le acquasantiere all'ingresso della basilica?"
+    "it": "Quali figure sostengono le acquasantiere all'ingresso della basilica?",
+    "en": "Which figures support the holy water stoups at the entrance of the basilica?",
+    "fr": "Quelles figures soutiennent les bénitiers à l'entrée de la basilique ?",
+    "de": "Welche Figuren tragen die Weihwasserbecken am Eingang der Basilika?",
+    "es": "¿Qué figuras sostienen las pilas de agua bendita a la entrada de la basílica?"
    },
    "risposta": {
-    "it": "Figure tradizionalmente chiamate «gobbi»"
+    "it": "Figure tradizionalmente chiamate «gobbi»",
+    "en": "Figures traditionally called «gobbi» (hunchbacks).",
+    "fr": "Des figures traditionnellement appelées « gobbi » (bossus).",
+    "de": "Figuren, die traditionell «gobbi» (Buckel) genannt werden.",
+    "es": "Figuras tradicionalmente llamadas «gobbi» (jorobados)."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/santa-anastasia-gobbi.webp",
+    "credits": "Foto: Falk2, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -363,10 +546,18 @@
    "zona": "Centro storico",
    "tema": "Archeologia",
    "domanda": {
-    "it": "A quale epoca risale l'Arco dei Gavi?"
+    "it": "A quale epoca risale l'Arco dei Gavi?",
+    "en": "When does the Arco dei Gavi date from?",
+    "fr": "De quelle époque date l'Arco dei Gavi ?",
+    "de": "Aus welcher Epoche stammt der Arco dei Gavi?",
+    "es": "¿De qué época data el Arco dei Gavi?"
    },
    "risposta": {
-    "it": "All'epoca romana"
+    "it": "All'epoca romana",
+    "en": "From Roman times.",
+    "fr": "De l'époque romaine.",
+    "de": "Aus römischer Zeit.",
+    "es": "De la época romana."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -377,13 +568,24 @@
    "zona": "Centro storico",
    "tema": "Monumenti",
    "domanda": {
-    "it": "Quale sovrano è raffigurato nella statua al centro dei giardini della piazza?"
+    "it": "Quale sovrano è raffigurato nella statua al centro dei giardini della piazza?",
+    "en": "Which sovereign is depicted in the statue at the centre of the square's gardens?",
+    "fr": "Quel souverain est représenté dans la statue au centre des jardins de la place ?",
+    "de": "Welcher Herrscher ist auf der Statue in der Mitte der Platzgärten dargestellt?",
+    "es": "¿Qué soberano aparece en la estatua del centro de los jardines de la plaza?"
    },
    "risposta": {
-    "it": "Vittorio Emanuele II"
+    "it": "Vittorio Emanuele II",
+    "en": "Victor Emmanuel II.",
+    "fr": "Victor-Emmanuel II.",
+    "de": "Viktor Emanuel II.",
+    "es": "Víctor Manuel II."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/piazza-bra-vittorio-emanuele.webp",
+    "credits": "Foto: Didier Descouens, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -391,10 +593,18 @@
    "zona": "Centro storico",
    "tema": "Musei",
    "domanda": {
-    "it": "Quale architetto curò il celebre allestimento museale del Novecento?"
+    "it": "Quale architetto curò il celebre allestimento museale del Novecento?",
+    "en": "Which architect curated the famous twentieth-century museum display?",
+    "fr": "Quel architecte a conçu la célèbre muséographie du XXe siècle ?",
+    "de": "Welcher Architekt gestaltete die berühmte Museumsausstellung des 20. Jahrhunderts?",
+    "es": "¿Qué arquitecto diseñó el célebre montaje museístico del siglo XX?"
    },
    "risposta": {
-    "it": "Carlo Scarpa"
+    "it": "Carlo Scarpa",
+    "en": "Carlo Scarpa.",
+    "fr": "Carlo Scarpa.",
+    "de": "Carlo Scarpa.",
+    "es": "Carlo Scarpa."
    },
    "itinerario": "aguzza-la-vista-centro-altro",
    "foto": null,
@@ -405,10 +615,18 @@
    "zona": "Veronetta",
    "tema": "Ponti",
    "domanda": {
-    "it": "Quale fiume attraversa Ponte Pietra?"
+    "it": "Quale fiume attraversa Ponte Pietra?",
+    "en": "Which river crosses Ponte Pietra?",
+    "fr": "Quel fleuve traverse le Ponte Pietra ?",
+    "de": "Welcher Fluss überquert die Ponte Pietra?",
+    "es": "¿Qué río atraviesa el Ponte Pietra?"
    },
    "risposta": {
-    "it": "L'Adige"
+    "it": "L'Adige",
+    "en": "The Adige.",
+    "fr": "L'Adige.",
+    "de": "Die Etsch.",
+    "es": "El Adigio."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -419,10 +637,18 @@
    "zona": "Veronetta",
    "tema": "Storia",
    "domanda": {
-    "it": "A quale epoca risale l'origine del ponte?"
+    "it": "A quale epoca risale l'origine del ponte?",
+    "en": "When does the origin of the bridge date from?",
+    "fr": "À quelle époque remonte l'origine du pont ?",
+    "de": "Aus welcher Epoche stammt der Ursprung der Brücke?",
+    "es": "¿A qué época se remonta el origen del puente?"
    },
    "risposta": {
-    "it": "All'epoca romana"
+    "it": "All'epoca romana",
+    "en": "To Roman times.",
+    "fr": "À l'époque romaine.",
+    "de": "Auf die römische Zeit.",
+    "es": "A la época romana."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -433,10 +659,18 @@
    "zona": "Veronetta",
    "tema": "Archeologia",
    "domanda": {
-    "it": "Su quale colle è costruito il Teatro Romano?"
+    "it": "Su quale colle è costruito il Teatro Romano?",
+    "en": "On which hill is the Roman Theatre built?",
+    "fr": "Sur quelle colline le Théâtre romain est-il construit ?",
+    "de": "Auf welchem Hügel ist das römische Theater erbaut?",
+    "es": "¿En qué colina está construido el Teatro Romano?"
    },
    "risposta": {
-    "it": "Sul colle di San Pietro"
+    "it": "Sul colle di San Pietro",
+    "en": "On the hill of San Pietro.",
+    "fr": "Sur la colline de San Pietro.",
+    "de": "Auf dem Hügel San Pietro.",
+    "es": "En la colina de San Pietro."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -447,10 +681,18 @@
    "zona": "Veronetta",
    "tema": "Musei",
    "domanda": {
-    "it": "In quale edificio storico è ospitata una parte del museo?"
+    "it": "In quale edificio storico è ospitata una parte del museo?",
+    "en": "In which historic building is part of the museum housed?",
+    "fr": "Dans quel bâtiment historique une partie du musée est-elle abritée ?",
+    "de": "In welchem historischen Gebäude ist ein Teil des Museums untergebracht?",
+    "es": "¿En qué edificio histórico se aloja una parte del museo?"
    },
    "risposta": {
-    "it": "Nell'ex convento di San Girolamo"
+    "it": "Nell'ex convento di San Girolamo",
+    "en": "In the former convent of San Girolamo.",
+    "fr": "Dans l'ancien couvent de San Girolamo.",
+    "de": "Im ehemaligen Kloster San Girolamo.",
+    "es": "En el antiguo convento de San Girolamo."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -461,10 +703,18 @@
    "zona": "Veronetta",
    "tema": "Giardini",
    "domanda": {
-    "it": "Quale elemento scenografico si trova nella parte alta del giardino?"
+    "it": "Quale elemento scenografico si trova nella parte alta del giardino?",
+    "en": "Which scenic feature is found in the upper part of the garden?",
+    "fr": "Quel élément scénographique se trouve dans la partie haute du jardin ?",
+    "de": "Welches gestalterische Element befindet sich im oberen Teil des Gartens?",
+    "es": "¿Qué elemento escenográfico se encuentra en la parte alta del jardín?"
    },
    "risposta": {
-    "it": "Il belvedere panoramico"
+    "it": "Il belvedere panoramico",
+    "en": "The panoramic belvedere.",
+    "fr": "Le belvédère panoramique.",
+    "de": "Das Panorama-Belvedere.",
+    "es": "El mirador panorámico."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -475,10 +725,18 @@
    "zona": "Veronetta",
    "tema": "Giardini",
    "domanda": {
-    "it": "Quale tipologia di giardino storico si visita qui?"
+    "it": "Quale tipologia di giardino storico si visita qui?",
+    "en": "What type of historic garden can be visited here?",
+    "fr": "Quel type de jardin historique peut-on visiter ici ?",
+    "de": "Welche Art historischer Garten kann man hier besuchen?",
+    "es": "¿Qué tipo de jardín histórico se puede visitar aquí?"
    },
    "risposta": {
-    "it": "Un giardino all'italiana con siepi, statue e terrazzamenti"
+    "it": "Un giardino all'italiana con siepi, statue e terrazzamenti",
+    "en": "An Italian-style garden with hedges, statues and terraces.",
+    "fr": "Un jardin à l'italienne avec haies, statues et terrasses.",
+    "de": "Ein italienischer Garten mit Hecken, Statuen und Terrassen.",
+    "es": "Un jardín a la italiana con setos, estatuas y terrazas."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -489,10 +747,18 @@
    "zona": "Veronetta",
    "tema": "Ponti",
    "domanda": {
-    "it": "Quale fiume attraversa Ponte Navi?"
+    "it": "Quale fiume attraversa Ponte Navi?",
+    "en": "Which river crosses Ponte Navi?",
+    "fr": "Quel fleuve traverse le Ponte Navi ?",
+    "de": "Welcher Fluss überquert die Ponte Navi?",
+    "es": "¿Qué río atraviesa el Ponte Navi?"
    },
    "risposta": {
-    "it": "L'Adige"
+    "it": "L'Adige",
+    "en": "The Adige.",
+    "fr": "L'Adige.",
+    "de": "Die Etsch.",
+    "es": "El Adigio."
    },
    "itinerario": "aguzza-la-vista-veronetta",
    "foto": null,
@@ -503,10 +769,18 @@
    "zona": "San Zeno",
    "tema": "Arte",
    "domanda": {
-    "it": "Quale materiale caratterizza le porte medievali della basilica?"
+    "it": "Quale materiale caratterizza le porte medievali della basilica?",
+    "en": "Which material characterises the medieval doors of the basilica?",
+    "fr": "Quel matériau caractérise les portes médiévales de la basilique ?",
+    "de": "Welches Material kennzeichnet die mittelalterlichen Türen der Basilika?",
+    "es": "¿Qué material caracteriza las puertas medievales de la basílica?"
    },
    "risposta": {
-    "it": "Il bronzo"
+    "it": "Il bronzo",
+    "en": "Bronze.",
+    "fr": "Le bronze.",
+    "de": "Bronze.",
+    "es": "El bronce."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
    "foto": null,
@@ -517,10 +791,18 @@
    "zona": "San Zeno",
    "tema": "Curiosità",
    "domanda": {
-    "it": "Quale santo, patrono di Verona, è legato alla basilica?"
+    "it": "Quale santo, patrono di Verona, è legato alla basilica?",
+    "en": "Which saint, patron of Verona, is linked to the basilica?",
+    "fr": "Quel saint, patron de Vérone, est lié à la basilique ?",
+    "de": "Welcher Heilige, Patron von Verona, ist mit der Basilika verbunden?",
+    "es": "¿Qué santo, patrón de Verona, está ligado a la basílica?"
    },
    "risposta": {
-    "it": "San Zeno"
+    "it": "San Zeno",
+    "en": "Saint Zeno.",
+    "fr": "Saint Zénon.",
+    "de": "Der heilige Zeno.",
+    "es": "San Zenón."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
    "foto": null,
@@ -531,10 +813,18 @@
    "zona": "San Zeno",
    "tema": "Arte",
    "domanda": {
-    "it": "Come si chiama il grande rosone circolare della facciata?"
+    "it": "Come si chiama il grande rosone circolare della facciata?",
+    "en": "What is the name of the large circular rose window on the façade?",
+    "fr": "Comment s'appelle le grand rosace circulaire de la façade ?",
+    "de": "Wie heißt das große runde Rosettenfenster an der Fassade?",
+    "es": "¿Cómo se llama el gran rosetón circular de la fachada?"
    },
    "risposta": {
-    "it": "Ruota della Fortuna"
+    "it": "Ruota della Fortuna",
+    "en": "The Wheel of Fortune.",
+    "fr": "La Roue de la Fortune.",
+    "de": "Das Rad der Fortuna.",
+    "es": "La Rueda de la Fortuna."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
    "foto": null,
@@ -545,13 +835,24 @@
    "zona": "San Zeno",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quali animali sostengono le colonne del protiro all'ingresso della basilica?"
+    "it": "Quali animali sostengono le colonne del protiro all'ingresso della basilica?",
+    "en": "Which animals support the columns of the protiro at the entrance of the basilica?",
+    "fr": "Quels animaux soutiennent les colonnes du protiro à l'entrée de la basilique ?",
+    "de": "Welche Tiere tragen die Säulen des Protiros am Eingang der Basilika?",
+    "es": "¿Qué animales sostienen las columnas del protiro a la entrada de la basílica?"
    },
    "risposta": {
-    "it": "Due leoni in pietra."
+    "it": "Due leoni in pietra.",
+    "en": "Two stone lions.",
+    "fr": "Deux lions de pierre.",
+    "de": "Zwei steinerne Löwen.",
+    "es": "Dos leones de piedra."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/basilica-san-zeno-leoni-protiro.webp",
+    "credits": "Foto: Didier Descouens, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -559,10 +860,18 @@
    "zona": "San Zeno",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale caratteristica medievale si nota nella parte superiore della torre?"
+    "it": "Quale caratteristica medievale si nota nella parte superiore della torre?",
+    "en": "Which medieval feature is visible in the upper part of the tower?",
+    "fr": "Quelle caractéristique médiévale se voit dans la partie supérieure de la tour ?",
+    "de": "Welches mittelalterliche Merkmal ist im oberen Teil des Turms zu sehen?",
+    "es": "¿Qué rasgo medieval se observa en la parte superior de la torre?"
    },
    "risposta": {
-    "it": "Le merlature"
+    "it": "Le merlature",
+    "en": "Battlements.",
+    "fr": "Les merlons (créneaux).",
+    "de": "Die Zinnen.",
+    "es": "Las almenas."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
    "foto": null,
@@ -573,10 +882,18 @@
    "zona": "San Zeno",
    "tema": "Arte",
    "domanda": {
-    "it": "Quale soggetto è rappresentato in un affresco medievale della torre?"
+    "it": "Quale soggetto è rappresentato in un affresco medievale della torre?",
+    "en": "Which subject is shown in a medieval fresco in the tower?",
+    "fr": "Quel sujet est représenté dans une fresque médiévale de la tour ?",
+    "de": "Welches Motiv zeigt ein mittelalterliches Fresko im Turm?",
+    "es": "¿Qué tema representa un fresco medieval de la torre?"
    },
    "risposta": {
-    "it": "Un corteo di popoli che rende omaggio a un personaggio seduto in trono"
+    "it": "Un corteo di popoli che rende omaggio a un personaggio seduto in trono",
+    "en": "A procession of peoples paying homage to a figure seated on a throne.",
+    "fr": "Un cortège de peuples rendant hommage à un personnage assis sur un trône.",
+    "de": "Ein Zug von Völkern, die einer auf einem Thron sitzenden Gestalt huldigen.",
+    "es": "Un cortejo de pueblos que rinde homenaje a un personaje sentado en un trono."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
    "foto": null,
@@ -587,13 +904,24 @@
    "zona": "San Zeno",
    "tema": "Curiosità",
    "domanda": {
-    "it": "Quale oggetto, secondo la tradizione, ricorda il luogo in cui San Zeno si sedeva a pescare vicino all'Adige?"
+    "it": "Quale oggetto, secondo la tradizione, ricorda il luogo in cui San Zeno si sedeva a pescare vicino all'Adige?",
+    "en": "According to tradition, which object recalls the place where San Zeno sat fishing near the Adige?",
+    "fr": "Selon la tradition, quel objet rappelle l'endroit où saint Zénon s'asseyait pour pêcher près de l'Adige ?",
+    "de": "Welcher Gegenstand erinnert der Überlieferung nach an den Ort, an dem der heilige Zeno am Ufer der Etsch zum Angeln saß?",
+    "es": "Según la tradición, ¿qué objeto recuerda el lugar donde san Zenón se sentaba a pescar junto al Adigio?"
    },
    "risposta": {
-    "it": "Un sasso sul quale, secondo la tradizione, sedeva San Zeno mentre pescava."
+    "it": "Un sasso sul quale, secondo la tradizione, sedeva San Zeno mentre pescava.",
+    "en": "A stone on which, according to tradition, Saint Zeno sat while fishing.",
+    "fr": "Une pierre sur laquelle, selon la tradition, saint Zénon s'asseyait pour pêcher.",
+    "de": "Ein Stein, auf dem der heilige Zeno der Überlieferung nach beim Angeln saß.",
+    "es": "Una piedra sobre la que, según la tradición, san Zenón se sentaba mientras pescaba."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/san-zeno-oratorio-sasso.webp",
+    "credits": "Foto: Falk2, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -601,13 +929,24 @@
    "zona": "San Zeno",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale forma geometrica caratterizza la pianta della Cappella Pellegrini, progettata da Michele Sanmicheli?"
+    "it": "Quale forma geometrica caratterizza la pianta della Cappella Pellegrini, progettata da Michele Sanmicheli?",
+    "en": "Which geometric shape characterises the plan of the Pellegrini Chapel, designed by Michele Sanmicheli?",
+    "fr": "Quelle forme géométrique caractérise le plan de la chapelle Pellegrini, conçue par Michele Sanmicheli ?",
+    "de": "Welche geometrische Form kennzeichnet den Grundriss der Pellegrini-Kapelle, entworfen von Michele Sanmicheli?",
+    "es": "¿Qué forma geométrica caracteriza la planta de la capilla Pellegrini, proyectada por Michele Sanmicheli?"
    },
    "risposta": {
-    "it": "La forma circolare."
+    "it": "La forma circolare.",
+    "en": "The circular shape.",
+    "fr": "La forme circulaire.",
+    "de": "Die kreisrunde Form.",
+    "es": "La forma circular."
    },
    "itinerario": "aguzza-la-vista-san-zeno",
-   "foto": null,
+   "foto": {
+    "file": "aguzza/san-bernardino-cappella-pellegrini.webp",
+    "credits": "Foto: Falk2, CC BY-SA 4.0"
+   },
    "da_verificare": false
   },
   {
@@ -615,10 +954,18 @@
    "zona": "Collina di Castel San Pietro",
    "tema": "Panorami",
    "domanda": {
-    "it": "Quale panorama si ammira dal belvedere?"
+    "it": "Quale panorama si ammira dal belvedere?",
+    "en": "Which view can be admired from the belvedere?",
+    "fr": "Quel panorama admire-t-on depuis le belvédère ?",
+    "de": "Welche Aussicht genießt man vom Belvedere?",
+    "es": "¿Qué panorama se admira desde el mirador?"
    },
    "risposta": {
-    "it": "La città storica e l'ansa dell'Adige"
+    "it": "La città storica e l'ansa dell'Adige",
+    "en": "The historic city and the bend of the Adige.",
+    "fr": "La ville historique et le méandre de l'Adige.",
+    "de": "Die historische Stadt und die Flussschleife der Etsch.",
+    "es": "La ciudad histórica y el meandro del Adigio."
    },
    "itinerario": null,
    "foto": {
@@ -632,10 +979,18 @@
    "zona": "Cittadella e Porta Nuova",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale architetto progettò Porta Nuova nel XVI secolo?"
+    "it": "Quale architetto progettò Porta Nuova nel XVI secolo?",
+    "en": "Which architect designed Porta Nuova in the sixteenth century?",
+    "fr": "Quel architecte a conçu la Porta Nuova au XVIe siècle ?",
+    "de": "Welcher Architekt entwarf die Porta Nuova im 16. Jahrhundert?",
+    "es": "¿Qué arquitecto diseñó la Porta Nuova en el siglo XVI?"
    },
    "risposta": {
-    "it": "Michele Sanmicheli"
+    "it": "Michele Sanmicheli",
+    "en": "Michele Sanmicheli.",
+    "fr": "Michele Sanmicheli.",
+    "de": "Michele Sanmicheli.",
+    "es": "Michele Sanmicheli."
    },
    "itinerario": null,
    "foto": null,
@@ -646,10 +1001,18 @@
    "zona": "Borgo Milano e Stadio",
    "tema": "Architettura",
    "domanda": {
-    "it": "Quale architetto progettò Porta Palio?"
+    "it": "Quale architetto progettò Porta Palio?",
+    "en": "Which architect designed Porta Palio?",
+    "fr": "Quel architecte a conçu la Porta Palio ?",
+    "de": "Welcher Architekt entwarf die Porta Palio?",
+    "es": "¿Qué arquitecto diseñó la Porta Palio?"
    },
    "risposta": {
-    "it": "Michele Sanmicheli"
+    "it": "Michele Sanmicheli",
+    "en": "Michele Sanmicheli.",
+    "fr": "Michele Sanmicheli.",
+    "de": "Michele Sanmicheli.",
+    "es": "Michele Sanmicheli."
    },
    "itinerario": null,
    "foto": null,
@@ -660,10 +1023,18 @@
    "zona": "Cittadella e Porta Nuova",
    "tema": "Letteratura",
    "domanda": {
-    "it": "A quale storia è collegato il luogo noto come Tomba di Giulietta?"
+    "it": "A quale storia è collegato il luogo noto come Tomba di Giulietta?",
+    "en": "To which story is the place known as Juliet's Tomb linked?",
+    "fr": "À quelle histoire est lié le lieu connu sous le nom de Tombe de Juliette ?",
+    "de": "Mit welcher Geschichte ist der Ort verbunden, der als Julias Grab bekannt ist?",
+    "es": "¿A qué historia está ligado el lugar conocido como la Tumba de Julieta?"
    },
    "risposta": {
-    "it": "Alla tragedia Romeo e Giulietta"
+    "it": "Alla tragedia Romeo e Giulietta",
+    "en": "The tragedy Romeo and Juliet.",
+    "fr": "À la tragédie Roméo et Juliette.",
+    "de": "Der Tragödie Romeo und Julia.",
+    "es": "A la tragedia Romeo y Julieta."
    },
    "itinerario": null,
    "foto": null,
@@ -674,10 +1045,18 @@
    "zona": "Borgo Trento e Valdonega",
    "tema": "Arte",
    "domanda": {
-    "it": "Quale opera di Paolo Veronese è tradizionalmente associata alla chiesa?"
+    "it": "Quale opera di Paolo Veronese è tradizionalmente associata alla chiesa?",
+    "en": "Which work by Paolo Veronese is traditionally associated with the church?",
+    "fr": "Quelle œuvre de Paolo Véronèse est traditionnellement associée à l'église ?",
+    "de": "Welches Werk von Paolo Veronese ist traditionell mit der Kirche verbunden?",
+    "es": "¿Qué obra de Paolo Veronese se asocia tradicionalmente a la iglesia?"
    },
    "risposta": {
-    "it": "Il martirio di San Giorgio"
+    "it": "Il martirio di San Giorgio",
+    "en": "The Martyrdom of Saint George.",
+    "fr": "Le Martyre de saint Georges.",
+    "de": "Das Martyrium des heiligen Georg.",
+    "es": "El martirio de San Jorge."
    },
    "itinerario": null,
    "foto": null,

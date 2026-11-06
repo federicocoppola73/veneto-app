@@ -90,7 +90,7 @@
       },
       "itinerario": "aguzza-centro-storico",
       "foto": null,
-      "da_verificare": true
+      "da_verificare": false
     },
     {
       "luogo_id": "cattedrale-di-san-pietro-apostolo",
@@ -114,7 +114,7 @@
         "file": "aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
         "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
       },
-      "da_verificare": true
+      "da_verificare": false
     },
     {
       "luogo_id": "loggia-dei-cavalieri",
@@ -221,7 +221,7 @@
       },
       "itinerario": "aguzza-centro-storico",
       "foto": null,
-      "da_verificare": true
+      "da_verificare": false
     },
     {
       "luogo_id": "isola-della-pescheria",

@@ -65,10 +65,18 @@
       "zona": "Santo",
       "tema": "Architettura",
       "domanda": {
-        "it": "Quale fiore viene spesso raffigurato in mano a sant’Antonio nelle statue e nelle immagini sacre?"
+        "it": "Quale fiore viene spesso raffigurato in mano a sant’Antonio nelle statue e nelle immagini sacre?",
+        "en": "Which flower is often depicted in Saint Anthony's hand in statues and sacred images?",
+        "fr": "Quelle fleur est souvent représentée dans la main de saint Antoine sur les statues et les images sacrées ?",
+        "de": "Welche Blume wird in Statuen und sakralen Bildern oft in der Hand des heiligen Antonius dargestellt?",
+        "es": "¿Qué flor suele representarse en la mano de san Antonio en las estatuas e imágenes sagradas?"
       },
       "risposta": {
-        "it": "Il giglio, simbolo di purezza."
+        "it": "Il giglio, simbolo di purezza.",
+        "en": "The lily, symbol of purity.",
+        "fr": "Le lys, symbole de pureté.",
+        "de": "Die Lilie, Symbol der Reinheit.",
+        "es": "El lirio, símbolo de pureza."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -79,10 +87,18 @@
       "zona": "Santo",
       "tema": "Architettura",
       "domanda": {
-        "it": "Sul sagrato della basilica si trova la statua equestre del condottiero Erasmo da Narni. Come viene chiamato comunemente questo personaggio?"
+        "it": "Sul sagrato della basilica si trova la statua equestre del condottiero Erasmo da Narni. Come viene chiamato comunemente questo personaggio?",
+        "en": "In front of the basilica stands the equestrian statue of the condottiero Erasmo da Narni. What is this figure commonly called?",
+        "fr": "Sur le parvis de la basilique se dresse la statue équestre du condottiere Erasmo da Narni. Comment appelle-t-on communément ce personnage ?",
+        "de": "Auf dem Vorplatz der Basilika steht das Reiterstandbild des Condottiere Erasmo da Narni. Wie wird diese Figur allgemein genannt?",
+        "es": "Ante la basílica se alza la estatua ecuestre del condotiero Erasmo da Narni. ¿Cómo se llama comúnmente este personaje?"
       },
       "risposta": {
-        "it": "Gattamelata"
+        "it": "Gattamelata",
+        "en": "Gattamelata",
+        "fr": "Gattamelata",
+        "de": "Gattamelata",
+        "es": "Gattamelata"
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -93,10 +109,18 @@
       "zona": "Prato della Valle",
       "tema": "Architettura",
       "domanda": {
-        "it": "Quale forma geometrica riconosci nella grande finestra circolare della facciata?"
+        "it": "Quale forma geometrica riconosci nella grande finestra circolare della facciata?",
+        "en": "Which geometric shape do you recognise in the large circular window of the façade?",
+        "fr": "Quelle forme géométrique reconnais-tu dans la grande fenêtre circulaire de la façade ?",
+        "de": "Welche geometrische Form erkennst du im großen Rundfenster der Fassade?",
+        "es": "¿Qué forma geométrica reconoces en el gran ventanal circular de la fachada?"
       },
       "risposta": {
-        "it": "Circolare."
+        "it": "Circolare.",
+        "en": "Circular.",
+        "fr": "Circulaire.",
+        "de": "Kreisförmig.",
+        "es": "Circular."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -107,10 +131,18 @@
       "zona": "Carmine",
       "tema": "Osservazione",
       "domanda": {
-        "it": "Osservando la facciata, individua il portale principale: si trova al centro o su un lato?"
+        "it": "Osservando la facciata, individua il portale principale: si trova al centro o su un lato?",
+        "en": "Looking at the façade, find the main portal: is it in the centre or on one side?",
+        "fr": "En observant la façade, repère le portail principal : se trouve-t-il au centre ou sur un côté ?",
+        "de": "Betrachte die Fassade und finde das Hauptportal: Befindet es sich in der Mitte oder seitlich?",
+        "es": "Observando la fachada, localiza el portal principal: ¿está en el centro o en un lateral?"
       },
       "risposta": {
-        "it": "Al centro."
+        "it": "Al centro.",
+        "en": "In the centre.",
+        "fr": "Au centre.",
+        "de": "In der Mitte.",
+        "es": "En el centro."
       },
       "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
@@ -121,10 +153,18 @@
       "zona": "Eremitani",
       "tema": "Architettura",
       "domanda": {
-        "it": "Quale forma riconosci nelle aperture alte della facciata: circolare o ad arco?"
+        "it": "Quale forma riconosci nelle aperture alte della facciata: circolare o ad arco?",
+        "en": "Which shape do you recognise in the high openings of the façade: circular or arched?",
+        "fr": "Quelle forme reconnais-tu dans les ouvertures hautes de la façade : circulaire ou en arc ?",
+        "de": "Welche Form erkennst du in den hohen Öffnungen der Fassade: rund oder bogenförmig?",
+        "es": "¿Qué forma reconoces en las aberturas altas de la fachada: circular o en arco?"
       },
       "risposta": {
-        "it": "Ad arco."
+        "it": "Ad arco.",
+        "en": "Arched.",
+        "fr": "En arc.",
+        "de": "Bogenförmig.",
+        "es": "En arco."
       },
       "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
@@ -135,13 +175,24 @@
       "zona": "Santa Sofia",
       "tema": "Architettura",
       "domanda": {
-        "it": "Osservando la muratura esterna, riesci a distinguere materiali o colori differenti?"
+        "it": "Osservando la muratura esterna, riesci a distinguere materiali o colori differenti?",
+        "en": "Looking at the outside walls, can you distinguish different materials or colours?",
+        "fr": "En observant la maçonnerie extérieure, arrives-tu à distinguer des matériaux ou des couleurs différents ?",
+        "de": "Kannst du beim Blick auf das Mauerwerk außen unterschiedliche Materialien oder Farben erkennen?",
+        "es": "Observando el muro exterior, ¿logras distinguir materiales o colores diferentes?"
       },
       "risposta": {
-        "it": "Sì, si possono osservare variazioni nella muratura; la risposta esatta dipende dal lato scelto."
+        "it": "Sì, si possono osservare variazioni nella muratura.",
+        "en": "Yes, variations in the masonry can be seen.",
+        "fr": "Oui, on peut observer des variations dans la maçonnerie.",
+        "de": "Ja, im Mauerwerk sind Unterschiede zu sehen.",
+        "es": "Sí, se aprecian variaciones en la mampostería."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/chiesa-di-santa-sofia-muratura.webp",
+        "credits": "Foto: Tournasol7, CC BY-SA 4.0"
+      },
       "da_verificare": true
     },
     {
@@ -149,10 +200,18 @@
       "zona": "Eremitani",
       "tema": "Orientamento",
       "domanda": {
-        "it": "Quale chiesa dà il nome al complesso museale?"
+        "it": "Quale chiesa dà il nome al complesso museale?",
+        "en": "Which church gives its name to the museum complex?",
+        "fr": "Quelle église donne son nom au complexe muséal ?",
+        "de": "Welche Kirche gibt dem Museumskomplex seinen Namen?",
+        "es": "¿Qué iglesia da nombre al complejo museístico?"
       },
       "risposta": {
-        "it": "Chiesa degli Eremitani."
+        "it": "Chiesa degli Eremitani.",
+        "en": "The Church of the Eremitani.",
+        "fr": "L'église des Eremitani.",
+        "de": "Die Kirche der Eremitani.",
+        "es": "La iglesia de los Eremitani."
       },
       "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
@@ -163,10 +222,18 @@
       "zona": "Centro universitario",
       "tema": "Scienze naturali",
       "domanda": {
-        "it": "Quale reperto è utile per studiare gli organismi del passato: un fossile o una moneta moderna?"
+        "it": "Quale reperto è utile per studiare gli organismi del passato: un fossile o una moneta moderna?",
+        "en": "Which find is useful for studying organisms of the past: a fossil or a modern coin?",
+        "fr": "Quel objet est utile pour étudier les organismes du passé : un fossile ou une pièce moderne ?",
+        "de": "Welcher Fund hilft bei der Erforschung von Lebewesen der Vergangenheit: ein Fossil oder eine moderne Münze?",
+        "es": "¿Qué hallazgo sirve para estudiar los organismos del pasado: un fósil o una moneda moderna?"
       },
       "risposta": {
-        "it": "Un fossile."
+        "it": "Un fossile.",
+        "en": "A fossil.",
+        "fr": "Un fossile.",
+        "de": "Ein Fossil.",
+        "es": "Un fósil."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
@@ -177,13 +244,24 @@
       "zona": "Zona ospedaliera",
       "tema": "Anatomia",
       "domanda": {
-        "it": "Quale parte del corpo riconosci nel modello anatomico mostrato nell'indizio?"
+        "it": "Quanto è lungo il modello di corpo umano utilizzato nel Teatro Anatomico moderno?",
+        "en": "How long is the human body model used in the modern Anatomical Theatre?",
+        "fr": "Quelle est la longueur du modèle de corps humain utilisé dans le théâtre anatomique moderne ?",
+        "de": "Wie lang ist das menschliche Körpermodell, das im modernen Anatomischen Theater verwendet wird?",
+        "es": "¿Cuánto mide el modelo de cuerpo humano utilizado en el Teatro Anatómico moderno?"
       },
       "risposta": {
-        "it": "Dipende dal modello scelto: specificare la parte del corpo nella scheda del quiz."
+        "it": "Otto metri.",
+        "en": "Eight metres.",
+        "fr": "Huit mètres.",
+        "de": "Acht Meter.",
+        "es": "Ocho metros."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/musme-corpo-umano.webp",
+        "credits": "Foto: Tournasol7, CC BY-SA 4.0"
+      },
       "da_verificare": true
     },
     {
@@ -191,13 +269,24 @@
       "zona": "Corso del Popolo",
       "tema": "Architettura",
       "domanda": {
-        "it": "Quale motivo decorativo si ripete sopra le finestre della facciata?"
+        "it": "Quale motivo decorativo si ripete sopra le finestre del secondo piano della facciata?",
+        "en": "Which decorative motif repeats above the second-floor windows of the façade?",
+        "fr": "Quel motif décoratif se répète au-dessus des fenêtres du deuxième étage de la façade ?",
+        "de": "Welches Ziermotiv wiederholt sich über den Fenstern des zweiten Stocks an der Fassade?",
+        "es": "¿Qué motivo decorativo se repite sobre las ventanas del segundo piso de la fachada?"
       },
       "risposta": {
-        "it": "Da definire scegliendo un dettaglio ben visibile nella foto di riferimento."
+        "it": "Dei capitelli corinzi.",
+        "en": "Corinthian capitals.",
+        "fr": "Des chapiteaux corinthiens.",
+        "de": "Korinthische Kapitelle.",
+        "es": "Capiteles corintios."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
-      "foto": null,
+      "foto": {
+        "file": "aguzza/palazzo-zuckermann-capitello.webp",
+        "credits": "Foto: Tournasol7, CC BY-SA 4.0"
+      },
       "da_verificare": true
     },
     {
@@ -205,10 +294,18 @@
       "zona": "Prato della Valle",
       "tema": "Numismatica",
       "domanda": {
-        "it": "Quale oggetto può riportare un ritratto e un'iscrizione impressi sul metallo?"
+        "it": "Quale oggetto può riportare un ritratto e un'iscrizione impressi sul metallo?",
+        "en": "Which object can bear a portrait and an inscription impressed on the metal?",
+        "fr": "Quel objet peut porter un portrait et une inscription frappés sur le métal ?",
+        "de": "Welcher Gegenstand kann ein Porträt und eine Inschrift auf dem Metall tragen?",
+        "es": "¿Qué objeto puede llevar un retrato y una inscripción grabados en el metal?"
       },
       "risposta": {
-        "it": "Una moneta o una medaglia."
+        "it": "Una moneta o una medaglia.",
+        "en": "A coin or a medal.",
+        "fr": "Une pièce de monnaie ou une médaille.",
+        "de": "Eine Münze oder eine Medaille.",
+        "es": "Una moneda o una medalla."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -219,10 +316,18 @@
       "zona": "Piazze",
       "tema": "Geometria",
       "domanda": {
-        "it": "Qual è la forma generale del grande salone superiore?"
+        "it": "Qual è la forma generale del grande salone superiore?",
+        "en": "What is the general shape of the great upper hall?",
+        "fr": "Quelle est la forme générale de la grande salle supérieure ?",
+        "de": "Welche Grundform hat der große obere Saal?",
+        "es": "¿Cuál es la forma general del gran salón superior?"
       },
       "risposta": {
-        "it": "Rettangolare e molto allungata."
+        "it": "Rettangolare e molto allungata.",
+        "en": "Rectangular and very elongated.",
+        "fr": "Rectangulaire et très allongée.",
+        "de": "Rechteckig und sehr langgestreckt.",
+        "es": "Rectangular y muy alargada."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
@@ -233,10 +338,18 @@
       "zona": "Piazze",
       "tema": "Simboli",
       "domanda": {
-        "it": "Nel Medioevo, a Padova, persino le misure erano esposte in pubblico affinché mercanti e clienti potessero verificare che nessuno imbrogliasse. Riesci a trovarle sul muro?"
+        "it": "Nel Medioevo, a Padova, persino le misure erano esposte in pubblico affinché mercanti e clienti potessero verificare che nessuno imbrogliasse. Riesci a trovarle sul muro?",
+        "en": "In the Middle Ages, in Padua, even measures were displayed in public so that merchants and customers could check that no one cheated. Can you find them on the wall?",
+        "fr": "Au Moyen Âge, à Padoue, même les mesures étaient exposées en public pour que marchands et clients puissent vérifier que personne ne trichait. Peux-tu les trouver sur le mur ?",
+        "de": "Im Mittelalter waren in Padua sogar die Maße öffentlich ausgestellt, damit Händler und Kunden prüfen konnten, dass niemand betrog. Kannst du sie an der Wand finden?",
+        "es": "En la Edad Media, en Padua, incluso las medidas se exponían en público para que mercaderes y clientes pudieran comprobar que nadie engañaba. ¿Puedes encontrarlas en el muro?"
       },
       "risposta": {
-        "it": "Sono dei simboli strani sul muro."
+        "it": "Sono dei simboli strani sul muro.",
+        "en": "They are strange symbols on the wall.",
+        "fr": "Ce sont d'étranges symboles sur le mur.",
+        "de": "Es sind seltsame Zeichen an der Wand.",
+        "es": "Son unos símbolos extraños en el muro."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": {
@@ -250,10 +363,18 @@
       "zona": "Università",
       "tema": "Simboli",
       "domanda": {
-        "it": "Quale animale è associato al nome tradizionale del palazzo?"
+        "it": "Quale animale è associato al nome tradizionale del palazzo?",
+        "en": "Which animal is associated with the traditional name of the palace?",
+        "fr": "Quel animal est associé au nom traditionnel du palais ?",
+        "de": "Welches Tier ist mit dem traditionellen Namen des Palastes verbunden?",
+        "es": "¿Qué animal está asociado al nombre tradicional del palacio?"
       },
       "risposta": {
-        "it": "Il bue."
+        "it": "Il bue.",
+        "en": "The ox.",
+        "fr": "Le bœuf.",
+        "de": "Der Ochse.",
+        "es": "El buey."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
@@ -264,10 +385,18 @@
       "zona": "Piazze",
       "tema": "Simboli",
       "domanda": {
-        "it": "Quale stemma identifica l'amministrazione comunale sulla facciata o nell'area istituzionale?"
+        "it": "Quale stemma identifica l'amministrazione comunale sulla facciata o nell'area istituzionale?",
+        "en": "Which coat of arms identifies the municipal administration on the façade or in the institutional area?",
+        "fr": "Quelles armoiries identifient l'administration municipale sur la façade ou dans la zone institutionnelle ?",
+        "de": "Welches Wappen kennzeichnet die Stadtverwaltung an der Fassade oder im Amtsbereich?",
+        "es": "¿Qué escudo identifica a la administración municipal en la fachada o en la zona institucional?"
       },
       "risposta": {
-        "it": "Lo stemma della città di Padova."
+        "it": "Lo stemma della città di Padova.",
+        "en": "The coat of arms of the city of Padua.",
+        "fr": "Les armoiries de la ville de Padoue.",
+        "de": "Das Wappen der Stadt Padua.",
+        "es": "El escudo de la ciudad de Padua."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": {
@@ -281,10 +410,18 @@
       "zona": "Piazze / Università",
       "tema": "Scultura",
       "domanda": {
-        "it": "Quale personaggio storico rappresenta la scultura di Arturo Martini?"
+        "it": "Quale personaggio storico rappresenta la scultura di Arturo Martini?",
+        "en": "Which historical figure does Arturo Martini's sculpture represent?",
+        "fr": "Quel personnage historique représente la sculpture d'Arturo Martini ?",
+        "de": "Welche historische Persönlichkeit stellt die Skulptur von Arturo Martini dar?",
+        "es": "¿Qué personaje histórico representa la escultura de Arturo Martini?"
       },
       "risposta": {
-        "it": "Tito Livio."
+        "it": "Tito Livio.",
+        "en": "Livy (Tito Livio).",
+        "fr": "Tite-Live.",
+        "de": "Livius (Titus Livius).",
+        "es": "Tito Livio."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
@@ -295,10 +432,18 @@
       "zona": "Centro storico",
       "tema": "Colori",
       "domanda": {
-        "it": "Qual è il colore che dà il nome ad una delle storiche sale?"
+        "it": "Qual è il colore che dà il nome ad una delle storiche sale?",
+        "en": "What colour gives its name to one of the historic rooms?",
+        "fr": "Quelle couleur donne son nom à l'une des salles historiques ?",
+        "de": "Welche Farbe gibt einem der historischen Säle seinen Namen?",
+        "es": "¿Qué color da nombre a una de las salas históricas?"
       },
       "risposta": {
-        "it": "Il verde."
+        "it": "Il verde.",
+        "en": "Green.",
+        "fr": "Le vert.",
+        "de": "Grün.",
+        "es": "El verde."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": {
@@ -312,10 +457,18 @@
       "zona": "Santo",
       "tema": "Architettura",
       "domanda": {
-        "it": "Quale elemento sostiene la struttura aperta della loggia: colonne o pareti completamente chiuse?"
+        "it": "Quale elemento sostiene la struttura aperta della loggia: colonne o pareti completamente chiuse?",
+        "en": "Which element supports the open structure of the loggia: columns or completely closed walls?",
+        "fr": "Quel élément soutient la structure ouverte de la loggia : des colonnes ou des murs entièrement fermés ?",
+        "de": "Welches Element trägt die offene Struktur der Loggia: Säulen oder vollständig geschlossene Wände?",
+        "es": "¿Qué elemento sostiene la estructura abierta de la loggia: columnas o muros completamente cerrados?"
       },
       "risposta": {
-        "it": "Colonne."
+        "it": "Colonne.",
+        "en": "Columns.",
+        "fr": "Des colonnes.",
+        "de": "Säulen.",
+        "es": "Columnas."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -326,10 +479,18 @@
       "zona": "Centro storico",
       "tema": "Archeologia",
       "domanda": {
-        "it": "A quale epoca è legata la storia del ponte antico: romana o contemporanea?"
+        "it": "A quale epoca è legata la storia del ponte antico: romana o contemporanea?",
+        "en": "To which period does the history of the ancient bridge belong: Roman or contemporary?",
+        "fr": "À quelle époque se rattache l'histoire de l'ancien pont : romaine ou contemporaine ?",
+        "de": "Welcher Epoche gehört die Geschichte der alten Brücke an: der römischen oder der zeitgenössischen?",
+        "es": "¿A qué época pertenece la historia del puente antiguo: romana o contemporánea?"
       },
       "risposta": {
-        "it": "Romana."
+        "it": "Romana.",
+        "en": "Roman.",
+        "fr": "Romaine.",
+        "de": "Römisch.",
+        "es": "Romana."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": {
@@ -343,10 +504,18 @@
       "zona": "Prato della Valle",
       "tema": "Orientamento",
       "domanda": {
-        "it": "Che cosa circonda l'Isola Memmia: un canale o una strada sopraelevata?"
+        "it": "Che cosa circonda l'Isola Memmia: un canale o una strada sopraelevata?",
+        "en": "What surrounds the Isola Memmia: a canal or a raised road?",
+        "fr": "Qu'est-ce qui entoure l'Isola Memmia : un canal ou une route surélevée ?",
+        "de": "Was umgibt die Isola Memmia: ein Kanal oder eine erhöhte Straße?",
+        "es": "¿Qué rodea la Isola Memmia: un canal o una carretera elevada?"
       },
       "risposta": {
-        "it": "Un canale."
+        "it": "Un canale.",
+        "en": "A canal.",
+        "fr": "Un canal.",
+        "de": "Ein Kanal.",
+        "es": "Un canal."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
@@ -357,10 +526,18 @@
       "zona": "Piazze",
       "tema": "Orientamento",
       "domanda": {
-        "it": "Quale storico palazzo si trova tra Piazza delle Erbe e Piazza della Frutta?"
+        "it": "Quale storico palazzo si trova tra Piazza delle Erbe e Piazza della Frutta?",
+        "en": "Which historic palace lies between Piazza delle Erbe and Piazza della Frutta?",
+        "fr": "Quel palais historique se trouve entre la Piazza delle Erbe et la Piazza della Frutta ?",
+        "de": "Welcher historische Palast liegt zwischen der Piazza delle Erbe und der Piazza della Frutta?",
+        "es": "¿Qué palacio histórico se encuentra entre la Piazza delle Erbe y la Piazza della Frutta?"
       },
       "risposta": {
-        "it": "Palazzo della Ragione."
+        "it": "Palazzo della Ragione.",
+        "en": "Palazzo della Ragione.",
+        "fr": "Le Palazzo della Ragione.",
+        "de": "Der Palazzo della Ragione.",
+        "es": "El Palazzo della Ragione."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
@@ -371,10 +548,18 @@
       "zona": "Piazze",
       "tema": "Orologio",
       "domanda": {
-        "it": "Quale strumento puoi osservare sulla torre che domina la piazza?"
+        "it": "Quale strumento puoi osservare sulla torre che domina la piazza?",
+        "en": "Which instrument can you see on the tower that dominates the square?",
+        "fr": "Quel instrument peux-tu observer sur la tour qui domine la place ?",
+        "de": "Welches Instrument siehst du am Turm, der den Platz beherrscht?",
+        "es": "¿Qué instrumento puedes observar en la torre que domina la plaza?"
       },
       "risposta": {
-        "it": "Un orologio astronomico."
+        "it": "Un orologio astronomico.",
+        "en": "An astronomical clock.",
+        "fr": "Une horloge astronomique.",
+        "de": "Eine astronomische Uhr.",
+        "es": "Un reloj astronómico."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
@@ -385,10 +570,18 @@
       "zona": "Orto Botanico",
       "tema": "Botanica",
       "domanda": {
-        "it": "Che cosa si coltiva e si studia principalmente in un orto botanico?"
+        "it": "Che cosa si coltiva e si studia principalmente in un orto botanico?",
+        "en": "What is mainly grown and studied in a botanical garden?",
+        "fr": "Que cultive-t-on et étudie-t-on principalement dans un jardin botanique ?",
+        "de": "Was wird in einem botanischen Garten vor allem angebaut und erforscht?",
+        "es": "¿Qué se cultiva y se estudia principalmente en un jardín botánico?"
       },
       "risposta": {
-        "it": "Le piante."
+        "it": "Le piante.",
+        "en": "Plants.",
+        "fr": "Les plantes.",
+        "de": "Pflanzen.",
+        "es": "Las plantas."
       },
       "itinerario": "aguzza-la-vista-itinerario-4",
       "foto": null,
@@ -399,10 +592,18 @@
       "zona": "Eremitani",
       "tema": "Storia dell'arte",
       "domanda": {
-        "it": "Quale artista realizzò il celebre ciclo di affreschi della cappella?"
+        "it": "Quale artista realizzò il celebre ciclo di affreschi della cappella?",
+        "en": "Which artist created the famous fresco cycle of the chapel?",
+        "fr": "Quel artiste a réalisé le célèbre cycle de fresques de la chapelle ?",
+        "de": "Welcher Künstler schuf den berühmten Freskenzyklus der Kapelle?",
+        "es": "¿Qué artista realizó el célebre ciclo de frescos de la capilla?"
       },
       "risposta": {
-        "it": "Giotto."
+        "it": "Giotto.",
+        "en": "Giotto.",
+        "fr": "Giotto.",
+        "de": "Giotto.",
+        "es": "Giotto."
       },
       "itinerario": "aguzza-la-vista-eremitani",
       "foto": null,
@@ -413,10 +614,18 @@
       "zona": "Piazza dei Signori",
       "tema": "Astronomia",
       "domanda": {
-        "it": "Osserva il quadrante astronomico: quale segno zodiacale manca tra quelli raffigurati?\nA. Il Leone\nB. La Bilancia\nC. I Pesci\nD. Il Capricorno"
+        "it": "Osserva il quadrante astronomico: quale segno zodiacale manca tra quelli raffigurati?\nA. Il Leone\nB. La Bilancia\nC. I Pesci\nD. Il Capricorno",
+        "en": "Look at the astronomical dial: which zodiac sign is missing among those depicted?\nA. The Lion\nB. The Scales\nC. The Fish\nD. The Capricorn",
+        "fr": "Observe le cadran astronomique : quel signe du zodiaque manque parmi ceux qui sont représentés ?\nA. Le Lion\nB. La Balance\nC. Les Poissons\nD. Le Capricorne",
+        "de": "Betrachte das astronomische Zifferblatt: Welches Tierkreiszeichen fehlt unter den dargestellten?\nA. Der Löwe\nB. Die Waage\nC. Die Fische\nD. Der Steinbock",
+        "es": "Observa la esfera astronómica: ¿qué signo zodiacal falta entre los representados?\nA. El León\nB. La Balanza\nC. Los Peces\nD. El Capricornio"
       },
       "risposta": {
-        "it": "La Bilancia"
+        "it": "La Bilancia",
+        "en": "The Scales.",
+        "fr": "La Balance.",
+        "de": "Die Waage.",
+        "es": "La Balanza."
       },
       "itinerario": "aguzza-la-vista-centro",
       "foto": null,
@@ -427,10 +636,18 @@
       "zona": "Prato della Valle",
       "tema": "Simboli",
       "domanda": {
-        "it": "Quale dei quattro papi sembra voler capire se sta per piovere?"
+        "it": "Quale dei quattro papi sembra voler capire se sta per piovere?",
+        "en": "Which of the four popes seems to want to know whether it is about to rain?",
+        "fr": "Lequel des quatre papes semble vouloir savoir s'il va pleuvoir ?",
+        "de": "Welcher der vier Päpste scheint wissen zu wollen, ob es bald regnen wird?",
+        "es": "¿Cuál de los cuatro papas parece querer saber si va a llover?"
       },
       "risposta": {
-        "it": "Quello con la mano protesa in avanti"
+        "it": "Quello con la mano protesa in avanti",
+        "en": "The one with his hand stretched forward.",
+        "fr": "Celui qui tend la main vers l'avant.",
+        "de": "Der mit der nach vorn ausgestreckten Hand.",
+        "es": "El que tiene la mano extendida hacia delante."
       },
       "itinerario": "aguzza-la-vista-santo-e-prato",
       "foto": null,
