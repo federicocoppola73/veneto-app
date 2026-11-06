@@ -3945,7 +3945,25 @@
         "fr": "L'une des six Scuole Grandi, fondée en 1261. On entre par une cour fermée d'un élégant écran de marbre de Pietro Lombardo ; à l'intérieur, le grand escalier de Mauro Codussi et la relique de la Vraie Croix.",
         "de": "Eine der sechs Scuole Grandi, gegründet 1261. Man betritt sie durch einen Hof mit einer eleganten Marmorschranke von Pietro Lombardo; innen die Prunktreppe von Mauro Codussi und die Reliquie des Wahren Kreuzes.",
         "es": "Una de las seis Scuole Grandi, fundada en 1261. Se entra por un patio cerrado por un elegante cancel de mármol de Pietro Lombardo; dentro, la gran escalera de Mauro Codussi y la reliquia de la Vera Cruz."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La reliquia che tornava ogni anno a Castello",
+            "en": "The relic that returned to Castello every year",
+            "fr": "La relique qui revenait chaque année à Castello",
+            "de": "Die Reliquie, die jedes Jahr nach Castello zurückkehrte",
+            "es": "La reliquia que volvía cada año a Castello"
+          },
+          "testo": {
+            "it": "La chiesa di San Martino custodiva alcune reliquie del santo. Una tibia venne ceduta alla Scuola Grande per finanziare i restauri, con una condizione particolare: ogni 11 novembre doveva essere riportata a Castello con una solenne processione.",
+            "en": "The church of San Martino housed some relics of the saint. A shinbone was given to the Scuola Grande to fund restoration work, on one particular condition: every 11 November it had to be brought back to Castello in a solemn procession.",
+            "fr": "L'église Saint-Martin conservait quelques reliques du saint. Un tibia fut cédé à la Scuola Grande pour financer des travaux de restauration, à une condition particulière : chaque 11 novembre, il devait être ramené à Castello lors d'une procession solennelle.",
+            "de": "Die Kirche San Martino bewahrte einige Reliquien des Heiligen. Ein Schienbein wurde der Scuola Grande überlassen, um Restaurierungsarbeiten zu finanzieren, unter einer besonderen Bedingung: Jeden 11. November musste es mit einer feierlichen Prozession nach Castello zurückgebracht werden.",
+            "es": "La iglesia de San Martino custodiaba algunas reliquias del santo. Una tibia fue cedida a la Scuola Grande para financiar las obras de restauración, con una condición especial: cada 11 de noviembre debía ser llevada de nuevo a Castello en una solemne procesión."
+          }
+        }
+      ]
     },
     {
       "id": "casa-goldoni",
@@ -10189,7 +10207,25 @@
         "de": "Einer der Paläste am Campo Santa Maria Formosa. Welcher es war, in dem Veronica Franco den Kreis um Domenico Venier besuchte, ist nicht mit Sicherheit bekannt.",
         "es": "Uno de los palacios que dan al Campo Santa Maria Formosa. No se sabe con certeza cuál era la casa donde Veronica Franco frecuentaba el círculo de Domenico Venier."
       },
-      "personaggio": "veronica-franco"
+      "personaggio": "veronica-franco",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La stanza dove si ascoltava musica senza vedere i musicisti",
+            "en": "The room where music was heard without seeing the musicians",
+            "fr": "La pièce où l'on écoutait la musique sans voir les musiciens",
+            "de": "Der Raum, in dem man Musik hörte, ohne die Musiker zu sehen",
+            "es": "La sala donde se escuchaba música sin ver a los músicos"
+          },
+          "testo": {
+            "it": "Nel Settecento questo ambiente privato era frequentato per conversazioni, musica e gioco. Conserva un sistema ingegnoso: una piccola stanza senza finestre permetteva ai musicisti di suonare senza essere visti dagli ospiti, mentre il suono si diffondeva attraverso pannelli traforati.",
+            "en": "In the eighteenth century this private room was frequented for conversation, music and games. It preserves an ingenious system: a small room without windows allowed the musicians to play without being seen by the guests, while the sound spread through perforated panels.",
+            "fr": "Au XVIIIe siècle, cet espace privé était fréquenté pour la conversation, la musique et le jeu. Il conserve un système ingénieux : une petite pièce sans fenêtres permettait aux musiciens de jouer sans être vus des invités, tandis que le son se diffusait à travers des panneaux ajourés.",
+            "de": "Im 18. Jahrhundert wurde dieser private Raum für Gespräche, Musik und Spiel genutzt. Er verfügt über ein raffiniertes System: Ein kleiner Raum ohne Fenster ermöglichte es den Musikern, zu spielen, ohne von den Gästen gesehen zu werden, während sich der Klang durch durchbrochene Paneele verbreitete.",
+            "es": "En el siglo XVIII este espacio privado era frecuentado para conversaciones, música y juego. Conserva un sistema ingenioso: una pequeña habitación sin ventanas permitía a los músicos tocar sin ser vistos por los invitados, mientras el sonido se difundía a través de paneles calados."
+          }
+        }
+      ]
     },
     {
       "id": "ex-chiesa-santa-marta",
