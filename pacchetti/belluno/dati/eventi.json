@@ -1,4 +1,362 @@
 {
-  "_nota": "Belluno: eventi ancora da preparare.",
-  "eventi": []
+  "_nota": "Eventi di Belluno da novembre 2026 a maggio 2027, da programmi pubblici di teatri e circuiti (ottobre 2026). Gli spettacoli in Teatro Comunale Dino Buzzati sono confermati dal programma della stagione; per gli altri la sede e l'orario sono da verificare.",
+  "eventi": [
+    {
+      "nome": "Angelo Branduardi - Il Cantico",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-15",
+      "fine": "2026-11-15",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Angelo Branduardi, Il Cantico. Ore 18.00.",
+        "en": "Concert by Angelo Branduardi, Il Cantico. 6:00 pm.",
+        "fr": "Concert d'Angelo Branduardi, Il Cantico. 18h00.",
+        "de": "Konzert von Angelo Branduardi, Il Cantico. 18:00 Uhr.",
+        "es": "Concierto de Angelo Branduardi, Il Cantico. 18:00 h."
+      }
+    },
+    {
+      "nome": "Ubaldo Pantani - Inimitabile",
+      "tipo": {
+        "it": "Cabaret",
+        "en": "Cabaret",
+        "fr": "Cabaret",
+        "de": "Kabarett",
+        "es": "Cabaret"
+      },
+      "inizio": "2026-11-30",
+      "fine": "2026-11-30",
+      "luogo": "Teatro Comunale Dino Buzzati",
+      "luogoId": "teatro-comunale-dino-buzzati",
+      "descrizione": {
+        "it": "Spettacolo di cabaret e comicità di Ubaldo Pantani al Teatro Comunale Dino Buzzati.",
+        "en": "Cabaret and comedy show by Ubaldo Pantani at the Teatro Comunale Dino Buzzati.",
+        "fr": "Spectacle de cabaret et d'humour d'Ubaldo Pantani au Teatro Comunale Dino Buzzati.",
+        "de": "Kabarett- und Comedy-Show von Ubaldo Pantani im Teatro Comunale Dino Buzzati.",
+        "es": "Espectáculo de cabaret y humor de Ubaldo Pantani en el Teatro Comunale Dino Buzzati."
+      }
+    },
+    {
+      "nome": "Maurizio Vandelli",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-07",
+      "fine": "2026-12-07",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto di Maurizio Vandelli alle 21.00.",
+        "en": "Concert by Maurizio Vandelli at 9:00 pm.",
+        "fr": "Concert de Maurizio Vandelli à 21h00.",
+        "de": "Konzert von Maurizio Vandelli um 21:00 Uhr.",
+        "es": "Concierto de Maurizio Vandelli a las 21:00."
+      }
+    },
+    {
+      "nome": "Luca Bizzarri - Non hanno un dubbio",
+      "tipo": {
+        "it": "Teatro comico",
+        "en": "Comedy theatre",
+        "fr": "Théâtre comique",
+        "de": "Komödie",
+        "es": "Teatro cómico"
+      },
+      "inizio": "2026-12-09",
+      "fine": "2026-12-09",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Luca Bizzarri, Non hanno un dubbio, alle 21.00.",
+        "en": "Show by Luca Bizzarri, Non hanno un dubbio, at 9:00 pm.",
+        "fr": "Spectacle de Luca Bizzarri, Non hanno un dubbio, à 21h00.",
+        "de": "Show von Luca Bizzarri, Non hanno un dubbio, um 21:00 Uhr.",
+        "es": "Espectáculo de Luca Bizzarri, Non hanno un dubbio, a las 21:00."
+      }
+    },
+    {
+      "nome": "Innuendo Experience",
+      "tipo": {
+        "it": "Concerto tributo",
+        "en": "Tribute concert",
+        "fr": "Concert hommage",
+        "de": "Tributkonzert",
+        "es": "Concierto tributo"
+      },
+      "inizio": "2026-12-11",
+      "fine": "2026-12-11",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Tributo ai Queen, Innuendo Experience, alle 21.00.",
+        "en": "Queen tribute, Innuendo Experience, at 9:00 pm.",
+        "fr": "Hommage à Queen, Innuendo Experience, à 21h00.",
+        "de": "Queen-Tribut, Innuendo Experience, um 21:00 Uhr.",
+        "es": "Homenaje a Queen, Innuendo Experience, a las 21:00."
+      }
+    },
+    {
+      "nome": "Lo Schiaccianoci - Balletto di Siena",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2026-12-28",
+      "fine": "2026-12-28",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Balletto di Siena in Lo Schiaccianoci, alle 21.00.",
+        "en": "Balletto di Siena in The Nutcracker, at 9:00 pm.",
+        "fr": "Balletto di Siena dans Casse-Noisette, à 21h00.",
+        "de": "Balletto di Siena mit Der Nussknacker, um 21:00 Uhr.",
+        "es": "Balletto di Siena en El cascanueces, a las 21:00."
+      }
+    },
+    {
+      "nome": "Awed, Dadda e Dose a teatro",
+      "tipo": {
+        "it": "Teatro comico",
+        "en": "Comedy theatre",
+        "fr": "Théâtre comique",
+        "de": "Komödie",
+        "es": "Teatro cómico"
+      },
+      "inizio": "2027-01-29",
+      "fine": "2027-01-29",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale di Awed, Dadda e Dose alle 21.00.",
+        "en": "Theatre show by Awed, Dadda and Dose at 9:00 pm.",
+        "fr": "Spectacle de théâtre d'Awed, Dadda et Dose à 21h00.",
+        "de": "Theaterstück von Awed, Dadda und Dose um 21:00 Uhr.",
+        "es": "Espectáculo de teatro de Awed, Dadda y Dose a las 21:00."
+      }
+    },
+    {
+      "nome": "Uno, nessuno, centomila",
+      "tipo": {
+        "it": "Teatro",
+        "en": "Theatre",
+        "fr": "Théâtre",
+        "de": "Theater",
+        "es": "Teatro"
+      },
+      "inizio": "2027-02-04",
+      "fine": "2027-02-04",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo teatrale Uno, nessuno, centomila alle 20.30.",
+        "en": "Theatre show Uno, nessuno, centomila at 8:30 pm.",
+        "fr": "Spectacle de théâtre Uno, nessuno, centomila à 20h30.",
+        "de": "Theaterstück Uno, nessuno, centomila um 20:30 Uhr.",
+        "es": "Espectáculo de teatro Uno, nessuno, centomila a las 20:30."
+      }
+    },
+    {
+      "nome": "Matteo Sinatti - Come rialzarsi e tornare a sorridere",
+      "tipo": {
+        "it": "Teatro",
+        "en": "Theatre",
+        "fr": "Théâtre",
+        "de": "Theater",
+        "es": "Teatro"
+      },
+      "inizio": "2027-02-13",
+      "fine": "2027-02-13",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Matteo Sinatti, Come rialzarsi e tornare a sorridere, alle 20.30.",
+        "en": "Show by Matteo Sinatti, Come rialzarsi e tornare a sorridere, at 8:30 pm.",
+        "fr": "Spectacle de Matteo Sinatti, Come rialzarsi e tornare a sorridere, à 20h30.",
+        "de": "Show von Matteo Sinatti, Come rialzarsi e tornare a sorridere, um 20:30 Uhr.",
+        "es": "Espectáculo de Matteo Sinatti, Come rialzarsi e tornare a sorridere, a las 20:30."
+      }
+    },
+    {
+      "nome": "Osvaldo Poli - L'adolescenza non è una malattia",
+      "tipo": {
+        "it": "Teatro",
+        "en": "Theatre",
+        "fr": "Théâtre",
+        "de": "Theater",
+        "es": "Teatro"
+      },
+      "inizio": "2027-02-27",
+      "fine": "2027-02-27",
+      "luogo": "Teatro Comunale Dino Buzzati",
+      "luogoId": "teatro-comunale-dino-buzzati",
+      "descrizione": {
+        "it": "Spettacolo di Osvaldo Poli, L'adolescenza non è una malattia, alle 20.30 al Teatro Comunale Dino Buzzati.",
+        "en": "Show by Osvaldo Poli, L'adolescenza non è una malattia, at 8:30 pm at the Teatro Comunale Dino Buzzati.",
+        "fr": "Spectacle d'Osvaldo Poli, L'adolescenza non è una malattia, à 20h30 au Teatro Comunale Dino Buzzati.",
+        "de": "Show von Osvaldo Poli, L'adolescenza non è una malattia, um 20:30 Uhr im Teatro Comunale Dino Buzzati.",
+        "es": "Espectáculo de Osvaldo Poli, L'adolescenza non è una malattia, a las 20:30 en el Teatro Comunale Dino Buzzati."
+      }
+    },
+    {
+      "nome": "Katia Follesa - No vabbè Mi adoro",
+      "tipo": {
+        "it": "Teatro comico",
+        "en": "Comedy theatre",
+        "fr": "Théâtre comique",
+        "de": "Komödie",
+        "es": "Teatro cómico"
+      },
+      "inizio": "2027-03-05",
+      "fine": "2027-03-05",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Katia Follesa, No vabbè Mi adoro, alle 20.30.",
+        "en": "Show by Katia Follesa, No vabbè Mi adoro, at 8:30 pm.",
+        "fr": "Spectacle de Katia Follesa, No vabbè Mi adoro, à 20h30.",
+        "de": "Show von Katia Follesa, No vabbè Mi adoro, um 20:30 Uhr.",
+        "es": "Espectáculo de Katia Follesa, No vabbè Mi adoro, a las 20:30."
+      }
+    },
+    {
+      "nome": "Il lago dei cigni - Compagnia Almatanz",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2027-03-06",
+      "fine": "2027-03-06",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Balletto Il lago dei cigni della Compagnia Almatanz, in due spettacoli: alle 17.00 e alle 20.30.",
+        "en": "Ballet Swan Lake by Compagnia Almatanz, two performances: 5:00 pm and 8:30 pm.",
+        "fr": "Ballet Le Lac des cygnes par la Compagnia Almatanz, deux représentations : 17h00 et 20h30.",
+        "de": "Ballett Schwanensee der Compagnia Almatanz, zwei Vorstellungen: 17:00 und 20:30 Uhr.",
+        "es": "Ballet El lago de los cisnes de la Compagnia Almatanz, dos funciones: a las 17:00 y a las 20:30."
+      }
+    },
+    {
+      "nome": "De Andrè la Storia - Anime Salve 30° tour",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-03-12",
+      "fine": "2027-03-12",
+      "luogo": "Teatro Comunale Dino Buzzati",
+      "luogoId": "teatro-comunale-dino-buzzati",
+      "descrizione": {
+        "it": "Concerto De Andrè la Storia, Anime Salve, 30° tour, alle 21.00 al Teatro Comunale Dino Buzzati.",
+        "en": "Concert De Andrè la Storia, Anime Salve, 30th tour, at 9:00 pm at the Teatro Comunale Dino Buzzati.",
+        "fr": "Concert De Andrè la Storia, Anime Salve, tournée des 30 ans, à 21h00 au Teatro Comunale Dino Buzzati.",
+        "de": "Konzert De Andrè la Storia, Anime Salve, 30. Tournee, um 21:00 Uhr im Teatro Comunale Dino Buzzati.",
+        "es": "Concierto De Andrè la Storia, Anime Salve, gira del 30.º aniversario, a las 21:00 en el Teatro Comunale Dino Buzzati."
+      }
+    },
+    {
+      "nome": "Giuseppe Giacobazzi - Osteria Giacobazzi",
+      "tipo": {
+        "it": "Teatro comico",
+        "en": "Comedy theatre",
+        "fr": "Théâtre comique",
+        "de": "Komödie",
+        "es": "Teatro cómico"
+      },
+      "inizio": "2027-04-02",
+      "fine": "2027-04-02",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Spettacolo di Giuseppe Giacobazzi, Osteria Giacobazzi, alle 21.00.",
+        "en": "Show by Giuseppe Giacobazzi, Osteria Giacobazzi, at 9:00 pm.",
+        "fr": "Spectacle de Giuseppe Giacobazzi, Osteria Giacobazzi, à 21h00.",
+        "de": "Show von Giuseppe Giacobazzi, Osteria Giacobazzi, um 21:00 Uhr.",
+        "es": "Espectáculo de Giuseppe Giacobazzi, Osteria Giacobazzi, a las 21:00."
+      }
+    },
+    {
+      "nome": "Paolo Crepet - Riprendersi l'anima",
+      "tipo": {
+        "it": "Incontro culturale",
+        "en": "Cultural talk",
+        "fr": "Rencontre culturelle",
+        "de": "Kulturelle Veranstaltung",
+        "es": "Encuentro cultural"
+      },
+      "inizio": "2027-04-03",
+      "fine": "2027-04-03",
+      "luogo": "Teatro Comunale Dino Buzzati",
+      "luogoId": "teatro-comunale-dino-buzzati",
+      "descrizione": {
+        "it": "Incontro con Paolo Crepet, Riprendersi l'anima, alle 20.30 al Teatro Comunale Dino Buzzati.",
+        "en": "Talk with Paolo Crepet, Riprendersi l'anima, at 8:30 pm at the Teatro Comunale Dino Buzzati.",
+        "fr": "Rencontre avec Paolo Crepet, Riprendersi l'anima, à 20h30 au Teatro Comunale Dino Buzzati.",
+        "de": "Gespräch mit Paolo Crepet, Riprendersi l'anima, um 20:30 Uhr im Teatro Comunale Dino Buzzati.",
+        "es": "Encuentro con Paolo Crepet, Riprendersi l'anima, a las 20:30 en el Teatro Comunale Dino Buzzati."
+      }
+    },
+    {
+      "nome": "Michelangelo da Caravaggio - A Rebel Rock Musical",
+      "tipo": {
+        "it": "Musical",
+        "en": "Musical",
+        "fr": "Comédie musicale",
+        "de": "Musical",
+        "es": "Musical"
+      },
+      "inizio": "2027-04-25",
+      "fine": "2027-04-25",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Musical Michelangelo da Caravaggio, A Rebel Rock Musical, alle 21.00.",
+        "en": "Musical Michelangelo da Caravaggio, A Rebel Rock Musical, at 9:00 pm.",
+        "fr": "Comédie musicale Michelangelo da Caravaggio, A Rebel Rock Musical, à 21h00.",
+        "de": "Musical Michelangelo da Caravaggio, A Rebel Rock Musical, um 21:00 Uhr.",
+        "es": "Musical Michelangelo da Caravaggio, A Rebel Rock Musical, a las 21:00."
+      }
+    },
+    {
+      "nome": "Umberto Galimberti - La condizione giovanile oggi",
+      "tipo": {
+        "it": "Incontro culturale",
+        "en": "Cultural talk",
+        "fr": "Rencontre culturelle",
+        "de": "Kulturelle Veranstaltung",
+        "es": "Encuentro cultural"
+      },
+      "inizio": "2027-05-07",
+      "fine": "2027-05-07",
+      "luogo": "Belluno",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Incontro con Umberto Galimberti, La condizione giovanile oggi, alle 20.30.",
+        "en": "Talk with Umberto Galimberti, La condizione giovanile oggi, at 8:30 pm.",
+        "fr": "Rencontre avec Umberto Galimberti, La condizione giovanile oggi, à 20h30.",
+        "de": "Gespräch mit Umberto Galimberti, La condizione giovanile oggi, um 20:30 Uhr.",
+        "es": "Encuentro con Umberto Galimberti, La condizione giovanile oggi, a las 20:30."
+      }
+    }
+  ]
 }
