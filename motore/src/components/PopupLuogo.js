@@ -58,7 +58,9 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   const descrizione = testoLocalizzato(luogo.descrizione, lingua);
   const nota = testoLocalizzato(luogo.nota, lingua);
   const biglietto = formattaBiglietto(luogo.biglietto, t);
-  const notaBiglietto = luogo.biglietto?.nota ? t(luogo.biglietto.nota) : '';
+  const notaBiglietto = luogo.biglietto?.nota
+    ? (typeof luogo.biglietto.nota === 'string' ? t(luogo.biglietto.nota) : testoLocalizzato(luogo.biglietto.nota, lingua))
+    : '';
   const orari = luogo.orari || [];
   const apertura = statoApertura(luogo);
   const haInfo = orari.length > 0 || biglietto || notaBiglietto || (luogo.chiuso || []).length > 0;
