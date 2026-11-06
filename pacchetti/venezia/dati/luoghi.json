@@ -1825,6 +1825,47 @@
       "personaggio": "giambattista-tiepolo"
     },
     {
+      "id": "santa-maria-visitazione",
+      "nome": "Chiesa di Santa Maria della Visitazione (degli Artigianelli)",
+      "categoria": "chiese",
+      "latitudine": 45.42969,
+      "longitudine": 12.32707,
+      "sestiere": "Dorsoduro",
+      "fermata": "Zattere",
+      "sito": "https://www.donorione-venezia.it",
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": ""
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ],
+      "descrizione": {
+        "it": "Chiesa rinascimentale sulle Zattere, di fronte alla Giudecca, progettata da Mauro Codussi. Il soffitto policromo è decorato con i ritratti di 58 santi. Oggi fa parte del Centro Culturale Don Orione Artigianelli.",
+        "en": "Renaissance church on the Zattere, facing the Giudecca, designed by Mauro Codussi. Its polychrome ceiling is decorated with portraits of 58 saints. Today it is part of the Don Orione Artigianelli Cultural Centre.",
+        "fr": "Église Renaissance sur les Zattere, face à la Giudecca, conçue par Mauro Codussi. Son plafond polychrome est orné des portraits de 58 saints. Elle fait aujourd'hui partie du Centre culturel Don Orione Artigianelli.",
+        "de": "Renaissancekirche an den Zattere gegenüber der Giudecca, entworfen von Mauro Codussi. Die mehrfarbige Decke zeigt die Porträts von 58 Heiligen. Heute gehört sie zum Kulturzentrum Don Orione Artigianelli.",
+        "es": "Iglesia renacentista en las Zattere, frente a la Giudecca, diseñada por Mauro Codussi. Su techo policromo está decorado con los retratos de 58 santos. Hoy forma parte del Centro Cultural Don Orione Artigianelli."
+      },
+      "nota": {
+        "it": "Linee ACTV 2, 5.1, 5.2 e 6 alla fermata Zattere ai Gesuati, di fronte alla chiesa. Orari e biglietti non risultano pubblicati da fonti ufficiali: verificarli prima della visita.",
+        "en": "ACTV lines 2, 5.1, 5.2 and 6 at the Zattere ai Gesuati stop, opposite the church. Opening hours and tickets are not published by official sources: check before your visit.",
+        "fr": "Lignes ACTV 2, 5.1, 5.2 et 6 à l'arrêt Zattere ai Gesuati, en face de l'église. Horaires et billets ne sont pas publiés par des sources officielles : à vérifier avant la visite.",
+        "de": "ACTV-Linien 2, 5.1, 5.2 und 6 an der Haltestelle Zattere ai Gesuati, gegenüber der Kirche. Öffnungszeiten und Tickets sind in offiziellen Quellen nicht veröffentlicht: vor dem Besuch prüfen.",
+        "es": "Líneas ACTV 2, 5.1, 5.2 y 6 en la parada Zattere ai Gesuati, frente a la iglesia. Horarios y entradas no constan en fuentes oficiales: verificarlos antes de la visita."
+      }
+    },
+    {
       "id": "san-giacomo-orio",
       "nome": "Chiesa di San Giacomo dell'Orio",
       "categoria": "chiese",
