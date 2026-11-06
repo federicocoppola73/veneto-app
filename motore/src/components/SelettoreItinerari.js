@@ -131,7 +131,7 @@ export default function SelettoreItinerari({
   const elenco = (
     <ScrollView contentContainerStyle={styles.contenuto}>
       {ufficiali.length > 0 && <Text style={styles.gruppo}>{t('itin_consigliati')}</Text>}
-      <Text style={styles.nota}>{t('itin_notaElenco')}</Text>
+      <Text style={[styles.nota, styles.notaElenco]}>{t('itin_notaElenco')}</Text>
       {ufficiali.map(scheda)}
       <Text style={styles.gruppo}>{t('itin_miei')}</Text>
       {miei.length ? miei.map(scheda) : <Text style={styles.vuoto}>{t('itin_mieiVuoto')}</Text>}
@@ -511,6 +511,7 @@ const styles = StyleSheet.create({
   aperturaTappa: { fontSize: 12, fontWeight: '700', maxWidth: '45%' },
   contaTappe: { fontSize: 12, color: '#64748b', marginTop: 3 },
   nota: { fontSize: 12, color: '#64748b', lineHeight: 17, marginTop: 10 },
+  notaElenco: { marginBottom: 16 },
 });
 
 // Tappa di un itinerario "speciale": pallino colorato con il numero, nome, icona del tipo,
