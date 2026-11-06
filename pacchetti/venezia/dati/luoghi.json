@@ -1930,7 +1930,24 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Un soffitto costruito come lo scafo di una nave",
+            "en": "A ceiling built like a ship's hull",
+            "fr": "Un plafond construit comme la coque d'un navire",
+            "de": "Eine Decke, gebaut wie der Rumpf eines Schiffes",
+            "es": "Un techo construido como el casco de un barco"
+          },
+          "testo": {
+            "it": "La chiesa conserva uno straordinario soffitto ligneo a carena di nave: la sua forma ricorda la parte interna dello scafo di un'imbarcazione rovesciata. Non è soltanto una scelta decorativa. Si tratta di un sistema costruttivo ligneo, con travature e cassettoni, che rappresenta una soluzione architettonica caratteristica di alcune antiche chiese veneziane.",
+            "en": "The church preserves an extraordinary wooden ceiling shaped like a ship's hull: its form recalls the inside of an upturned boat. It is not merely a decorative choice. It is a wooden building system, with beams and coffers, and it is a distinctive architectural solution found in some of Venice's ancient churches.",
+            "fr": "L'église conserve un extraordinaire plafond en bois en forme de carène de navire : sa forme rappelle l'intérieur de la coque d'une embarcation renversée. Ce n'est pas seulement un choix décoratif. Il s'agit d'un système de construction en bois, avec poutres et caissons, une solution architecturale caractéristique de certaines anciennes églises vénitiennes.",
+            "de": "Die Kirche besitzt eine außergewöhnliche Holzdecke in Form eines Schiffsrumpfes: Ihre Gestalt erinnert an das Innere eines umgedrehten Bootes. Es handelt sich nicht nur um eine dekorative Entscheidung, sondern um eine Holzbauweise mit Balken und Kassetten, eine für einige alte Venezianer Kirchen typische Architekturlösung."
+          }
+        }
+      ]
     },
     {
       "id": "san-giacometto",
@@ -1985,7 +2002,24 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La chiesa che ricordava ai mercanti di essere onesti",
+            "en": "The church that reminded merchants to be honest",
+            "fr": "L'église qui rappelait aux marchands d'être honnêtes",
+            "de": "Die Kirche, die Kaufleuten Ehrlichkeit ins Gedächtnis rief",
+            "es": "La iglesia que recordaba a los mercaderes ser honestos"
+          },
+          "testo": {
+            "it": "Sull'abside esterna della chiesa è incisa un'iscrizione medievale che sembra quasi un regolamento commerciale: invita i mercanti a usare pesi giusti e a stipulare contratti onesti. Non è una semplice frase religiosa: testimonia il legame strettissimo tra la chiesa e il mercato di Rialto. Il luogo di culto si trovava infatti nel cuore della principale area commerciale veneziana e ospitava anche gli altari di alcune corporazioni di mestiere.",
+            "en": "On the outer apse of the church is carved a medieval inscription that reads almost like a trade regulation: it urges merchants to use fair weights and to make honest contracts. It is not a simple religious phrase: it bears witness to the close bond between the church and the Rialto market. The church stood in the heart of Venice's main commercial area and also housed the altars of several trade guilds.",
+            "fr": "Sur l'abside extérieure de l'église est gravée une inscription médiévale qui ressemble presque à un règlement commercial : elle invite les marchands à utiliser des poids justes et à conclure des contrats honnêtes. Ce n'est pas une simple formule religieuse : elle témoigne du lien très étroit entre l'église et le marché du Rialto. Le lieu de culte se trouvait en effet au cœur de la principale zone commerciale de Venise et abritait aussi les autels de plusieurs corporations de métiers.",
+            "de": "An der äußeren Apsis der Kirche ist eine mittelalterliche Inschrift eingemeißelt, die fast wie eine Handelsordnung klingt: Sie fordert die Kaufleute auf, richtige Gewichte zu verwenden und ehrliche Verträge zu schließen. Es ist kein bloßer religiöser Spruch, sondern zeugt von der engen Verbindung zwischen der Kirche und dem Markt von Rialto. Das Gotteshaus stand mitten im wichtigsten Handelsviertel Venedigs und beherbergte auch die Altäre einiger Zunftgemeinschaften."
+          }
+        }
+      ]
     },
     {
       "id": "san-stae",
@@ -2045,7 +2079,25 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giambattista-tiepolo"
+      "personaggio": "giambattista-tiepolo",
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Gli artigiani che trasformavano l'oro in fili sottilissimi",
+            "en": "The craftsmen who turned gold into ultra-fine threads",
+            "fr": "Les artisans qui transformaient l'or en fils extrêmement fins",
+            "de": "Die Handwerker, die Gold zu hauchdünnen Fäden verarbeiteten",
+            "es": "Los artesanos que convertían el oro en hilos finísimos"
+          },
+          "testo": {
+            "it": "Accanto alla chiesa di San Stae si trova la Scoletta dell'Arte dei Tiraoro e Battioro, sede di una corporazione specializzata nella lavorazione dell'oro. I battioro riducevano l'oro in foglie sottilissime, mentre i tiraoro lo trasformavano in fili preziosi. La corporazione contava appena 48 membri e, non essendo particolarmente ricca, i suoi stessi iscritti dovevano spesso autotassarsi per sostenere le spese. Aveva persino un proprio spazio sacro all'interno di San Stae, dove celebrava le ricorrenze della corporazione e ricordava i confratelli defunti.",
+            "en": "Next to the church of San Stae stands the Scoletta of the Tiraoro and Battioro guild, home to a corporation specialised in working gold. The battioro beat gold into paper-thin leaves, while the tiraoro drew it into precious threads. The guild counted only 48 members and, not being particularly wealthy, its own members often had to levy contributions on themselves to meet expenses. It even had its own sacred space inside San Stae, where it celebrated the guild's anniversaries and remembered deceased brothers.",
+            "fr": "À côté de l'église de San Stae se trouve la Scoletta de l'Arte dei Tiraoro e Battioro, siège d'une corporation spécialisée dans le travail de l'or. Les battiloro réduisaient l'or en feuilles extrêmement fines, tandis que les tiraoro le transformaient en fils précieux. La corporation ne comptait que 48 membres et, peu riche, ses adhérents devaient souvent s'imposer eux-mêmes des contributions pour couvrir les dépenses. Elle disposait même d'un espace sacré propre à l'intérieur de San Stae, où elle célébrait les fêtes de la corporation et se souvenait des confrères défunts.",
+            "de": "Neben der Kirche San Stae liegt die Scoletta der Zunft der Tiraoro und Battioro, einer auf die Verarbeitung von Gold spezialisierten Korporation. Die Battiloro schlugen das Gold zu hauchdünnen Blättern, die Tiraoro zogen es zu kostbaren Fäden. Die Zunft zählte nur 48 Mitglieder und war nicht besonders wohlhabend, weshalb die Mitglieder die Kosten oft selbst durch Umlagen tragen mussten. Sie hatte sogar einen eigenen sakralen Raum innerhalb von San Stae, wo sie die Jahrestage der Zunft feierte und verstorbener Brüder gedachte.",
+            "es": "Junto a la iglesia de San Stae se encuentra la Scoletta del Arte de los Tiraoro y Battioro, sede de una corporación especializada en el trabajo del oro. Los battioro reducían el oro a láminas finísimas, mientras que los tiraoro lo convertían en hilos preciosos. La corporación contaba con apenas 48 miembros y, al no ser especialmente rica, sus propios afiliados debían a menudo autoimponerse cuotas para sostener los gastos. Tenía incluso un espacio sagrado propio dentro de San Stae, donde celebraba las fechas señaladas de la corporación y recordaba a los cofrades fallecidos."
+          }
+        }
+      ]
     },
     {
       "id": "tolentini",
@@ -3475,7 +3527,25 @@
         "fr": "À Burano, l'île aux maisons colorées, dans l'ancienne École de dentelle. Il expose de précieuses dentelles à l'aiguille du XVIe au XXe siècle et, certains jours, on peut voir les dentellières au travail.",
         "de": "Auf Burano, der Insel der bunten Häuser, in der ehemaligen Spitzenschule. Gezeigt werden kostbare Nadelspitzen vom 16. bis zum 20. Jahrhundert; an manchen Tagen kann man den Klöpplerinnen bei der Arbeit zusehen.",
         "es": "En Burano, la isla de las casas de colores, en la antigua Escuela de Encajes. Expone valiosos encajes de aguja del siglo XVI al XX y, algunos días, se puede ver a las encajeras trabajando."
-      }
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La contessa che salvò l'arte del merletto di Burano",
+            "en": "The countess who saved Burano's lace-making tradition",
+            "fr": "La comtesse qui sauva l'art de la dentelle de Burano",
+            "de": "Die Gräfin, die die Spitzenkunst von Burano rettete",
+            "es": "La condesa que salvó el arte del encaje de Burano"
+          },
+          "testo": {
+            "it": "Nel 1872 la contessa Andriana Marcello fondò a Burano una Scuola dei Merletti per recuperare e rilanciare una tradizione artigianale che rischiava di scomparire. La scuola non era soltanto un luogo di insegnamento: contribuì a mantenere viva una tecnica complessa e a creare opportunità di lavoro per le donne dell'isola. Rimase attiva fino al 1970. Nel 1981 gli stessi ambienti furono trasformati nell'attuale Museo del Merletto.",
+            "en": "In 1872 Countess Andriana Marcello founded a Lace School on Burano to revive a craft tradition that risked disappearing. The school was more than a place of teaching: it helped keep a complex technique alive and created work opportunities for the island's women. It remained active until 1970. In 1981 the same rooms were turned into today's Museo del Merletto.",
+            "fr": "En 1872, la comtesse Andriana Marcello fonda à Burano une École de dentelle pour sauver et relancer une tradition artisanale qui risquait de disparaître. L'école n'était pas seulement un lieu d'enseignement : elle contribua à maintenir vivante une technique complexe et à offrir du travail aux femmes de l'île. Elle resta active jusqu'en 1970. En 1981, les mêmes locaux furent transformés dans l'actuel Musée de la dentelle.",
+            "de": "1872 gründete Gräfin Andriana Marcello auf Burano eine Spitzenschule, um eine handwerkliche Tradition wiederzubeleben, die zu verschwinden drohte. Die Schule war nicht nur ein Ort des Unterrichts: Sie half, eine anspruchsvolle Technik lebendig zu halten, und schuf Arbeitsmöglichkeiten für die Frauen der Insel. Sie blieb bis 1970 in Betrieb. 1981 wurden dieselben Räume in das heutige Museo del Merletto umgewandelt.",
+            "es": "En 1872 la condesa Andriana Marcello fundó en Burano una Escuela de Encajes para recuperar y relanzar una tradición artesanal que corría el riesgo de desaparecer. La escuela no era solo un lugar de enseñanza: ayudó a mantener viva una técnica compleja y creó oportunidades de trabajo para las mujeres de la isla. Permaneció activa hasta 1970. En 1981 esas mismas salas se transformaron en el actual Museo del Merletto."
+          }
+        }
+      ]
     },
     {
       "id": "storia-naturale",
