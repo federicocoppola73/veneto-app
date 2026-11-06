@@ -1,4 +1,3 @@
-import { immagine } from './risorse';
 // File generato da strumenti/mappa_disegna.py: non modificarlo a mano.
 // Tessere della mappa dettagliata (© OpenStreetMap contributors).
 export const DIMENSIONE_TESSERA = 512; // pixel di una tessera al proprio livello
@@ -204,7 +203,6 @@ export const TESSERE = {
     '10_6': immagine('mappa/2/10_6.webp'),
     '16_6': immagine('mappa/2/16_6.webp'),
     '17_6': immagine('mappa/2/17_6.webp'),
-    '16_7': immagine('mappa/2/16_7.webp'),
     '19_7': immagine('mappa/2/19_7.webp'),
     '20_7': immagine('mappa/2/20_7.webp'),
     '21_7': immagine('mappa/2/21_7.webp'),
@@ -222,7 +220,6 @@ export const TESSERE = {
     '9_9': immagine('mappa/2/9_9.webp'),
     '10_9': immagine('mappa/2/10_9.webp'),
     '11_9': immagine('mappa/2/11_9.webp'),
-    '17_9': immagine('mappa/2/17_9.webp'),
     '20_9': immagine('mappa/2/20_9.webp'),
     '21_9': immagine('mappa/2/21_9.webp'),
     '22_9': immagine('mappa/2/22_9.webp'),
@@ -236,6 +233,7 @@ export const TESSERE = {
     '20_10': immagine('mappa/2/20_10.webp'),
     '21_10': immagine('mappa/2/21_10.webp'),
     '22_10': immagine('mappa/2/22_10.webp'),
+    '23_10': immagine('mappa/2/23_10.webp'),
     '3_11': immagine('mappa/2/3_11.webp'),
     '4_11': immagine('mappa/2/4_11.webp'),
     '8_11': immagine('mappa/2/8_11.webp'),
@@ -293,6 +291,7 @@ export const TESSERE = {
     '16_14': immagine('mappa/2/16_14.webp'),
     '17_14': immagine('mappa/2/17_14.webp'),
     '18_14': immagine('mappa/2/18_14.webp'),
+    '19_14': immagine('mappa/2/19_14.webp'),
     '22_14': immagine('mappa/2/22_14.webp'),
     '23_14': immagine('mappa/2/23_14.webp'),
     '0_15': immagine('mappa/2/0_15.webp'),
@@ -421,7 +420,6 @@ export const TESSERE = {
     '21_20': immagine('mappa/2/21_20.webp'),
     '22_20': immagine('mappa/2/22_20.webp'),
     '23_20': immagine('mappa/2/23_20.webp'),
-    '6_21': immagine('mappa/2/6_21.webp'),
     '7_21': immagine('mappa/2/7_21.webp'),
     '13_21': immagine('mappa/2/13_21.webp'),
     '14_21': immagine('mappa/2/14_21.webp'),
