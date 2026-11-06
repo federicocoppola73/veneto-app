@@ -75,46 +75,44 @@
       "luogo_id": "porta-santi-quaranta",
       "zona": "Centro",
       "domanda": {
-        "it": "Quanti archi si aprono nella facciata principale della porta?",
-        "en": "How many arches open in the main façade of the gate?",
-        "fr": "Combien d'arcs s'ouvrent dans la façade principale de la porte ?",
-        "de": "Wie viele Bögen öffnen sich in der Hauptfassade des Tores?",
-        "es": "¿Cuántos arcos se abren en la fachada principal de la puerta?"
+        "it": "Quanti archi si aprono nella facciata esterna di Porta Santi Quaranta?",
+        "en": "How many arches open in the outer façade of Porta Santi Quaranta?",
+        "fr": "Combien d’arcs s’ouvrent dans la façade extérieure de la Porta Santi Quaranta ?",
+        "de": "Wie viele Bögen öffnen sich in der Außenfassade der Porta Santi Quaranta?",
+        "es": "¿Cuántos arcos se abren en la fachada exterior de Porta Santi Quaranta?"
       },
       "risposta": {
-        "it": "Tre: quello centrale è più ampio dei due laterali.",
-        "en": "Three: the central one is wider than the two side ones.",
-        "fr": "Trois : celui du centre est plus large que les deux latéraux.",
-        "de": "Drei: der mittlere ist breiter als die beiden seitlichen.",
-        "es": "Tres: el central es más ancho que los dos laterales."
+        "it": "Tre: un arco centrale più ampio e due aperture laterali.",
+        "en": "Three: one wider central arch and two side openings.",
+        "fr": "Trois : un arc central plus large et deux ouvertures latérales.",
+        "de": "Drei: ein breiterer Mittelbogen und zwei seitliche Öffnungen.",
+        "es": "Tres: un arco central más ancho y dos aberturas laterales."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null,
-      "da_verificare": false
+      "foto": null
     },
     {
       "luogo_id": "cattedrale-di-san-pietro-apostolo",
       "zona": "Centro",
       "domanda": {
-        "it": "Che cosa tengono tra le zampe i due leoni di marmo ai lati della scalinata?",
-        "en": "What do the two marble lions at the sides of the staircase hold between their paws?",
-        "fr": "Que tiennent entre leurs pattes les deux lions de marbre de part et d'autre de l'escalier ?",
-        "de": "Was halten die beiden Marmorlöwen an den Seiten der Freitreppe zwischen den Pfoten?",
-        "es": "¿Qué sujetan entre las patas los dos leones de mármol a los lados de la escalinata?"
+        "it": "Quale elemento dell’antica cattedrale romanica sostenevano i due leoni ai lati della scalinata?",
+        "en": "Which feature of the ancient Romanesque cathedral did the two lions beside the staircase support?",
+        "fr": "Quel élément de l’ancienne cathédrale romane les deux lions de part et d’autre de l’escalier soutenaient-ils ?",
+        "de": "Welches Bauelement der alten romanischen Kathedrale trugen die beiden Löwen neben der Treppe?",
+        "es": "¿Qué elemento de la antigua catedral románica sostenían los dos leones situados junto a la escalinata?"
       },
       "risposta": {
-        "it": "Il leone di sinistra ha un serpente o drago, quello di destra una testa umana mozzata.",
-        "en": "The lion on the left has a serpent or dragon, the one on the right a severed human head.",
-        "fr": "Le lion de gauche tient un serpent ou un dragon, celui de droite une tête humaine coupée.",
-        "de": "Der linke Löwe hält eine Schlange oder einen Drachen, der rechte einen abgeschlagenen Menschenkopf.",
-        "es": "El león de la izquierda tiene una serpiente o dragón, el de la derecha una cabeza humana cortada."
+        "it": "Il protiro, il portico d’ingresso della cattedrale romanica.",
+        "en": "The porch at the entrance to the Romanesque cathedral.",
+        "fr": "Le porche d’entrée de la cathédrale romane.",
+        "de": "Die Eingangsvorhalle der romanischen Kathedrale.",
+        "es": "El pórtico de entrada de la catedral románica."
       },
       "itinerario": "aguzza-centro-storico",
       "foto": {
         "file": "aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
         "credits": "Didier Descouens – CC BY-SA 4.0 (Wikimedia Commons)"
-      },
-      "da_verificare": false
+      }
     },
     {
       "luogo_id": "loggia-dei-cavalieri",
@@ -206,22 +204,21 @@
       "luogo_id": "ponte-dante",
       "zona": "Centro",
       "domanda": {
-        "it": "Quale poeta è raffigurato sulla stele commemorativa del ponte?",
-        "en": "Which poet is portrayed on the bridge's commemorative stele?",
-        "fr": "Quel poète est représenté sur la stèle commémorative du pont ?",
-        "de": "Welcher Dichter ist auf der Gedenkstele der Brücke dargestellt?",
-        "es": "¿Qué poeta aparece representado en la estela conmemorativa del puente?"
+        "it": "Quale poeta è raffigurato nel medaglione della stele commemorativa di Ponte Dante?",
+        "en": "Which poet is depicted in the medallion on the commemorative stele at Ponte Dante?",
+        "fr": "Quel poète est représenté dans le médaillon de la stèle commémorative du Ponte Dante ?",
+        "de": "Welcher Dichter ist im Medaillon der Gedenkstele an der Ponte Dante dargestellt?",
+        "es": "¿Qué poeta aparece representado en el medallón de la estela conmemorativa del Ponte Dante?"
       },
       "risposta": {
-        "it": "Dante Alighieri, rappresentato con il capo cinto d'alloro.",
-        "en": "Dante Alighieri, shown with his head crowned with laurel.",
-        "fr": "Dante Alighieri, représenté la tête ceinte de laurier.",
-        "de": "Dante Alighieri, mit einem Lorbeerkranz um das Haupt dargestellt.",
-        "es": "Dante Alighieri, representado con la cabeza ceñida de laurel."
+        "it": "Dante Alighieri, raffigurato di profilo e coronato d’alloro.",
+        "en": "Dante Alighieri, shown in profile and crowned with laurel.",
+        "fr": "Dante Alighieri, représenté de profil et couronné de laurier.",
+        "de": "Dante Alighieri, im Profil und mit einem Lorbeerkranz dargestellt.",
+        "es": "Dante Alighieri, representado de perfil y coronado de laurel."
       },
       "itinerario": "aguzza-centro-storico",
-      "foto": null,
-      "da_verificare": false
+      "foto": null
     },
     {
       "luogo_id": "isola-della-pescheria",
