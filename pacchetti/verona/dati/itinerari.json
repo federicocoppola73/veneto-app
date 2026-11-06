@@ -1,4 +1,50 @@
 {
  "_nota": "Verona: dati convertiti dal repository verona_app (main 8f9c823). nessun itinerario di percorso per ora",
- "itinerari": []
+ "itinerari": [
+  {
+   "id": "VERONA_ITINERARIO1",
+   "titolo": {
+    "it": "La città tra Roma e gli Scaligeri",
+    "en": "The city between Rome and the Scaligeri",
+    "fr": "La ville entre Rome et les Scaligeri",
+    "de": "Die Stadt zwischen Rom und den Scaligeri",
+    "es": "La ciudad entre Roma y los Scaligeri"
+   },
+   "tappe": [
+    "teatro-romano",
+    "ponte-pietra",
+    "casa-di-giulietta",
+    "arche-scaligere",
+    "piazza-dei-signori",
+    "torre-dei-lamberti",
+    "piazza-delle-erbe",
+    "porta-borsari",
+    "arena-di-verona",
+    "piazza-bra",
+    "arco-dei-gavi",
+    "museo-di-castelvecchio",
+    "ponte-scaligero"
+   ]
+  },
+  {
+   "id": "VERONA_ITINERARIO2",
+   "titolo": {
+    "it": "San Zeno e la città sull'Adige",
+    "en": "San Zeno and the city on the Adige",
+    "fr": "San Zeno et la ville sur l'Adige",
+    "de": "San Zeno und die Stadt an der Etsch",
+    "es": "San Zeno y la ciudad sobre el Adigio"
+   },
+   "tappe": [
+    "ponte-della-vittoria",
+    "arsenale-austriaco",
+    "museo-di-castelvecchio",
+    "san-zeno-in-oratorio",
+    "san-bernardino",
+    "piazza-san-zeno",
+    "chiesa-san-procolo",
+    "basilica-di-san-zeno-maggiore"
+   ]
+  }
+ ]
 }

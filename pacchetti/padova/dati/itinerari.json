@@ -1,4 +1,29 @@
 {
  "_nota": "Padova: nessun itinerario per ora",
- "itinerari": []
+ "itinerari": [
+  {
+   "id": "PADOVA_ITINERARIO1",
+   "titolo": {
+    "it": "Il cuore della città",
+    "en": "The heart of the city",
+    "fr": "Le cœur de la ville",
+    "de": "Das Herz der Stadt",
+    "es": "El corazón de la ciudad"
+   },
+   "tappe": [
+    "cappella-degli-scrovegni",
+    "musei-civici-agli-eremitani",
+    "caffe-pedrocchi",
+    "palazzo-del-bo",
+    "palazzo-della-ragione",
+    "piazza-delle-erbe",
+    "piazza-dei-signori",
+    "duomo-di-padova",
+    "basilica-di-sant-antonio",
+    "orto-botanico-di-padova",
+    "basilica-di-santa-giustina",
+    "prato-della-valle"
+   ]
+  }
+ ]
 }
