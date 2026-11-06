@@ -1863,12 +1863,15 @@
         "es": "Frente a las Zattere, junto a la iglesia de los Gesuati, más conocida, Santa Maria della Visitazione es un edificio religioso del siglo XV vinculado a la historia de la orden de los Gesuati. La construcción de la iglesia comenzó en 1493 y la fachada se completó en 1504. El edificio fue consagrado en 1524.\nEn 1668, tras la supresión de los Gesuati, el complejo pasó a los dominicos, que decidieron construir una iglesia nueva y más grande: la actual Santa Maria del Rosario, comúnmente conocida como iglesia de los Gesuati. La antigua iglesia de la Visitazione siguió en uso y sufrió varias transformaciones a lo largo de los siglos."
       },
       "nota": {
-        "it": "Linee ACTV 2, 5.1, 5.2 e 6 alla fermata Zattere ai Gesuati, di fronte alla chiesa. Orari e biglietti non risultano da fonti ufficiali: controllarli in loco prima della visita.",
-        "en": "ACTV lines 2, 5.1, 5.2 and 6 at the Zattere ai Gesuati stop, opposite the church. Opening hours and tickets are not confirmed by official sources: check on site before your visit.",
-        "fr": "Lignes ACTV 2, 5.1, 5.2 et 6 à l'arrêt Zattere ai Gesuati, en face de l'église. Horaires et billets non confirmés par des sources officielles : à vérifier sur place avant la visite.",
-        "de": "ACTV-Linien 2, 5.1, 5.2 und 6 an der Haltestelle Zattere ai Gesuati, gegenüber der Kirche. Öffnungszeiten und Tickets sind nicht durch offizielle Quellen bestätigt: vor Ort prüfen.",
-        "es": "Líneas ACTV 2, 5.1, 5.2 y 6 en la parada Zattere ai Gesuati, frente a la iglesia. Horarios y entradas no confirmados por fuentes oficiales: comprobarlos in situ antes de la visita."
-      }
+        "it": "Generalmente aperta dal martedì alla domenica, lunedì chiuso. Linee ACTV 2, 5.1, 5.2 e 6 alla fermata Zattere ai Gesuati, di fronte alla chiesa. Orari precisi da controllare in loco prima della visita.",
+        "en": "Generally open Tuesday to Sunday, closed on Mondays. ACTV lines 2, 5.1, 5.2 and 6 at the Zattere ai Gesuati stop, opposite the church. Exact hours to be checked on site before your visit.",
+        "fr": "Généralement ouverte du mardi au dimanche, fermée le lundi. Lignes ACTV 2, 5.1, 5.2 et 6 à l'arrêt Zattere ai Gesuati, en face de l'église. Horaires précis à vérifier sur place avant la visite.",
+        "de": "In der Regel Dienstag bis Sonntag geöffnet, montags geschlossen. ACTV-Linien 2, 5.1, 5.2 und 6 an der Haltestelle Zattere ai Gesuati, gegenüber der Kirche. Genaue Öffnungszeiten vor Ort prüfen.",
+        "es": "Generalmente abierta de martes a domingo, cerrada los lunes. Líneas ACTV 2, 5.1, 5.2 y 6 en la parada Zattere ai Gesuati, frente a la iglesia. Horarios exactos por comprobar in situ antes de la visita."
+      },
+      "chiuso": [
+        "lun"
+      ]
     },
     {
       "id": "san-giacomo-orio",
