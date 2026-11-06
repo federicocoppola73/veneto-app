@@ -404,7 +404,7 @@ const TESTI = {
     imp_cuoreAggiunti: "{n} luoghi aggiunti ai tuoi luoghi del cuore!",
     imp_aggiungiCuore: "Aggiungi ai miei luoghi del cuore",
     itin_indietro: "Torna all'elenco degli itinerari",
-    itin_notaElenco: "Lunghezza e durata del solo itinerario (a piedi, o in vaporetto per quelli sul canale), senza il tempo delle visite. Tocca un itinerario per vedere le tappe e scegliere da dove parti.",
+    itin_notaElenco: "Gli itinerari sono proposte di visita: puoi seguirli interamente oppure scegliere soltanto le tappe che ti interessano. Lunghezza e durata del solo itinerario a piedi (o in vaporetto) senza il tempo delle visite.",
   },
   en: {
     crediti: "Credits",
@@ -796,7 +796,7 @@ const TESTI = {
     imp_cuoreAggiunti: "{n} places added to your favourites!",
     imp_aggiungiCuore: "Add to my favourite places",
     itin_indietro: "Back to the list of itineraries",
-    itin_notaElenco: "Length and duration of the itinerary only (on foot, or by vaporetto for the canal ones), without time for visits. Tap an itinerary to see its stops and choose where you start from.",
+    itin_notaElenco: "Itineraries are visit suggestions: you can follow them entirely or choose only the stops that interest you. Length and duration of the itinerary only, on foot (or by vaporetto), without visit time.",
   },
   fr: {
     crediti: "Crédits",
@@ -1188,7 +1188,7 @@ const TESTI = {
     imp_cuoreAggiunti: "{n} lieux ajoutés à vos coups de cœur !",
     imp_aggiungiCuore: "Ajouter à mes coups de cœur",
     itin_indietro: "Retour à la liste des itinéraires",
-    itin_notaElenco: "Longueur et durée de l'itinéraire seul (à pied, ou en vaporetto pour ceux sur le canal), sans le temps des visites. Touchez un itinéraire pour voir les étapes et choisir votre point de départ.",
+    itin_notaElenco: "Les itinéraires sont des propositions de visite : vous pouvez les suivre entièrement ou ne choisir que les étapes qui vous intéressent. Longueur et durée du seul itinéraire à pied (ou en vaporetto), sans le temps des visites.",
   },
   de: {
     crediti: "Credits",
@@ -1580,7 +1580,7 @@ const TESTI = {
     imp_cuoreAggiunti: "{n} Orte zu deinen Lieblingsorten hinzugefügt!",
     imp_aggiungiCuore: "Zu meinen Lieblingsorten hinzufügen",
     itin_indietro: "Zurück zur Liste der Routen",
-    itin_notaElenco: "Länge und Dauer nur der Route (zu Fuß oder, auf dem Kanal, mit dem Vaporetto), ohne Besichtigungszeit. Tippe auf eine Route, um die Stationen zu sehen und den Startpunkt zu wählen.",
+    itin_notaElenco: "Die Routen sind Besichtigungsvorschläge: Du kannst sie ganz folgen oder nur die Stationen wählen, die dich interessieren. Länge und Dauer nur der Route zu Fuß (oder mit dem Vaporetto), ohne Besichtigungszeit.",
   },
   es: {
     crediti: "Créditos",
@@ -1972,7 +1972,7 @@ const TESTI = {
     imp_cuoreAggiunti: "¡{n} lugares añadidos a tus favoritos!",
     imp_aggiungiCuore: "Añadir a mis lugares favoritos",
     itin_indietro: "Volver a la lista de itinerarios",
-    itin_notaElenco: "Longitud y duración solo del itinerario (a pie, o en vaporetto para los del canal), sin el tiempo de las visitas. Toca un itinerario para ver las paradas y elegir desde dónde sales.",
+    itin_notaElenco: "Los itinerarios son propuestas de visita: puedes seguirlos enteros o elegir solo las paradas que te interesen. Longitud y duración solo del itinerario a pie (o en vaporetto), sin el tiempo de las visitas.",
   },
 };
 

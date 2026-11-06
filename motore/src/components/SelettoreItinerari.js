@@ -131,10 +131,10 @@ export default function SelettoreItinerari({
   const elenco = (
     <ScrollView contentContainerStyle={styles.contenuto}>
       {ufficiali.length > 0 && <Text style={styles.gruppo}>{t('itin_consigliati')}</Text>}
+      <Text style={styles.nota}>{t('itin_notaElenco')}</Text>
       {ufficiali.map(scheda)}
       <Text style={styles.gruppo}>{t('itin_miei')}</Text>
       {miei.length ? miei.map(scheda) : <Text style={styles.vuoto}>{t('itin_mieiVuoto')}</Text>}
-      <Text style={styles.nota}>{t('itin_notaElenco')}</Text>
     </ScrollView>
   );
 
@@ -146,6 +146,9 @@ export default function SelettoreItinerari({
         <Text style={styles.lunghezzaDettaglio}>
           {testoLunghezza(lDettaglio, t, aperto.nautico)} · {aperto.tappe.length} {t('tappe')}
         </Text>
+        {aperto.nota && (
+          <Text style={styles.notaItinerario}>{testoLocalizzato(aperto.nota, lingua)}</Text>
+        )}
         {aperto.nautico && (
           <View style={styles.etichettaNautica}>
             <Text style={styles.testoEtichettaNautica}>{t('itin_nautico')}</Text>
@@ -435,6 +438,7 @@ const styles = StyleSheet.create({
   contaVisitate: { color: '#16a34a', fontWeight: '700' },
   inCorso: { color: '#b45309', fontWeight: '700' },
   lunghezzaDettaglio: { fontSize: 15, fontWeight: '700', color: '#b45309', marginTop: 4, marginBottom: 8 },
+  notaItinerario: { fontSize: 13, fontWeight: '600', color: '#0369a1', lineHeight: 18, marginBottom: 12 },
   testoIndietro: { fontSize: 24, lineHeight: 26, color: '#334155', fontWeight: '700', marginTop: -2 },
   tappaVista: { fontSize: 13, color: '#16a34a', fontWeight: '800' },
   condividi: { marginRight: 8, backgroundColor: '#e0f2fe' },

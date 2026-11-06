@@ -159,7 +159,7 @@ function Schermata({ linguaIniziale }) {
   const itinerariAguzza = useMemo(() => {
     if (!aguzzaCaricati) return [];
     const memoria = new Map(); // percorsi a piedi condivisi tra tutti gli itinerari Aguzza
-    return ITINERARI_AGUZZA.map((it) => ({ ...calcolaItinerario(it, luoghiTuttiPerId, memoria), utente: false }));
+    return ITINERARI_AGUZZA.map((it) => ({ ...calcolaItinerario(it, luoghiTuttiPerId, memoria), utente: false, nota: it.nota }));
   }, [luoghiTuttiPerId, aguzzaCaricati]);
   const tuttiItinerari = useMemo(() => [...ITINERARI, ...itinerariAguzza, ...itinerariUtente], [itinerariAguzza, itinerariUtente]);
   const itinerario = tuttiItinerari.find((it) => it.id === idItinerario) || null;

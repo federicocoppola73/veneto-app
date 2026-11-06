@@ -18,5 +18,5 @@ export function inizializzaAguzza() {
   for (const d of dati.domande || []) {
     (PER_LUOGO[d.luogo_id] = PER_LUOGO[d.luogo_id] || []).push(d);
   }
-  ITINERARI_AGUZZA = (dati.itinerari || []).map((it) => ({ id: it.id, titolo: it.titolo, tappe: it.tappe }));
+  ITINERARI_AGUZZA = (dati.itinerari || []).map((it) => ({ id: it.id, titolo: it.titolo, tappe: it.tappe, nota: it.nota }));
 }

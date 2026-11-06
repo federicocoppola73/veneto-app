@@ -183,7 +183,14 @@
         "torcello",
         "trono-attila",
         "venissa"
-      ]
+      ],
+      "nota": {
+        "it": "Itinerario tra le isole della laguna. Richiede spostamenti in vaporetto tra Murano, Burano e Torcello; considera tempi aggiuntivi per i collegamenti e le attese.",
+        "en": "Itinerary across the lagoon islands. It requires vaporetto trips between Murano, Burano and Torcello; allow extra time for connections and waiting.",
+        "fr": "Itinéraire entre les îles de la lagune. Il nécessite des trajets en vaporetto entre Murano, Burano et Torcello ; prévoyez du temps supplémentaire pour les correspondances et l'attente.",
+        "de": "Route zwischen den Lagunen-Inseln. Sie erfordert Fahrten mit dem Vaporetto zwischen Murano, Burano und Torcello; plane zusätzliche Zeit für Anschlüsse und Wartezeiten ein.",
+        "es": "Itinerario entre las islas de la laguna. Requiere desplazamientos en vaporetto entre Murano, Burano y Torcello; considera tiempos adicionales para las conexiones y las esperas."
+      }
     }
   ],
   "domande": [
