@@ -1,5 +1,5 @@
 {
-  "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono approssimative; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine e i dati fotografici non sono ancora compilati.",
+  "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono state fornite e aggiornate; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine e i dati fotografici non sono ancora compilati.",
   "categorie": [
     "chiese",
     "musei",
@@ -384,8 +384,8 @@
       "nome": "Chiesa di Sant'Antonio Abate detta San Domenico",
       "categoria": "chiese",
       "sestiere": "Centro storico",
-      "latitudine": 45.0702,
-      "longitudine": 11.7921,
+      "latitudine": 45.070765,
+      "longitudine": 11.791873,
       "descrizione": {
         "it": "Chiesa conosciuta localmente come San Domenico e dedicata a Sant'Antonio Abate. La sua storia è collegata a un ospedale attestato nel 1413; l'edificio fu ricostruito tra il 1505 e il 1516 e successivamente affidato ai Domenicani, da cui deriva il nome d'uso."
       },
@@ -401,7 +401,7 @@
       },
       "sito": "https://www.diocesiadriarovigo.it/",
       "nota": {
-        "it": "Coordinate approssimative da geocodificare con precisione; denominazione ufficiale da mantenere distinta dal nome popolare."
+        "it": "Coordinate fornite tramite screenshot di Google Maps."
       }
     },
     {
