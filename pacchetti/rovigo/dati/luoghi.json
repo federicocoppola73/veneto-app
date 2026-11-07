@@ -1,0 +1,454 @@
+{
+  "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono approssimative; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine e i dati fotografici non sono ancora compilati.",
+  "categorie": [
+    "chiese",
+    "musei",
+    "palazzi",
+    "ponti",
+    "piazze",
+    "giardini",
+    "altri"
+  ],
+  "luoghi": [
+    {
+      "id": "torre-dona-castello",
+      "nome": "Castello di Rovigo e Torre Donà",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070333,
+      "longitudine": 11.787717,
+      "descrizione": {
+        "it": "Il complesso del castello medievale di Rovigo conserva parte della cinta fortificata e due torri: la Torre Donà, alta circa 60 metri e tra le più alte torri medievali in laterizio d'Italia, e la Torre Grimani, detta anche Torre Mozza. Le strutture risalgono alle fortificazioni sviluppate a partire dal Medioevo e costituiscono uno dei principali simboli storici della città."
+      },
+      "orari": [
+        {
+          "giorni": "esterni",
+          "ore": "area esterna visibile liberamente; visite alla Torre Donà sospese o soggette a riattivazione"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "Accesso esterno gratuito; quando il servizio visite è attivo sono state indicate tariffe di €5 intero e €3 ridotto."
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-musei/torre-dona",
+      "wikipedia": {
+        "it": "Torre Donà"
+      },
+      "nota": {
+        "it": "Verificare la riapertura delle visite e le tariffe prima della pubblicazione."
+      }
+    },
+    {
+      "id": "piazza-vittorio-emanuele-ii",
+      "nome": "Piazza Vittorio Emanuele II",
+      "categoria": "piazze",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071117,
+      "longitudine": 11.790165,
+      "descrizione": {
+        "it": "È la piazza principale di Rovigo e il cuore della vita cittadina. Lo spazio è dominato dalla statua di Vittorio Emanuele II e dalla colonna sormontata dal Leone di San Marco, testimonianze delle diverse fasi della storia politica della città. Sulla piazza si affacciano importanti edifici civili e portici."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre accessibile"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze"
+    },
+    {
+      "id": "palazzo-roverella",
+      "nome": "Palazzo Roverella",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070536,
+      "longitudine": 11.789659,
+      "descrizione": {
+        "it": "Palazzo rinascimentale iniziato nel 1474 per volontà del cardinale Bartolomeo Roverella. È uno degli edifici storici più rappresentativi di Rovigo e oggi ospita la Pinacoteca dell'Accademia dei Concordi e importanti esposizioni temporanee."
+      },
+      "orari": [
+        {
+          "giorni": "durante le mostre",
+          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare il calendario della mostra"
+        }
+      ],
+      "biglietto": {
+        "nota": "Tariffe variabili in base alla mostra; verificare sul sito ufficiale. La collezione permanente può prevedere condizioni di accesso differenti."
+      },
+      "sito": "https://www.palazzoroverella.com/",
+      "wikipedia": {
+        "it": "Palazzo Roverella"
+      }
+    },
+    {
+      "id": "palazzo-roncale",
+      "nome": "Palazzo Roncale",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070758,
+      "longitudine": 11.789655,
+      "descrizione": {
+        "it": "Palazzo cinquecentesco costruito tra il 1550 e il 1562, tradizionalmente attribuito all'architetto Michele Sanmicheli. L'edificio è oggi sede di mostre ed eventi culturali, con un programma espositivo temporaneo."
+      },
+      "orari": [
+        {
+          "giorni": "durante le esposizioni",
+          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare gli orari della mostra"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "Ingresso alle esposizioni indicato come gratuito; visite guidate o iniziative speciali possono essere a pagamento."
+      },
+      "sito": "https://palazzoroncale.com/",
+      "wikipedia": {
+        "it": "Palazzo Roncale"
+      }
+    },
+    {
+      "id": "tempio-la-rotonda",
+      "nome": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071878,
+      "longitudine": 11.794166,
+      "descrizione": {
+        "it": "Il Tempio della Beata Vergine del Soccorso, noto come La Rotonda, è una chiesa a pianta ottagonale iniziata nel 1594 su progetto di Francesco Zamberlan. L'interno conserva un ricco apparato decorativo con tele di pittori veneti; all'esterno si distingue il campanile attribuito a Baldassare Longhena."
+      },
+      "orari": [
+        {
+          "giorni": "mar-ven",
+          "ore": "14:30–18:00"
+        },
+        {
+          "giorni": "sab-dom",
+          "ore": "10:00–12:30 e 14:30–18:00"
+        },
+        {
+          "giorni": "lun",
+          "ore": "chiuso"
+        }
+      ],
+      "biglietto": {
+        "intero": 3,
+        "ridotto": 2,
+        "nota": "Gratuito per residenti, bambini sotto i 6 anni e categorie previste dal regolamento. Verificare eventuali variazioni."
+      },
+      "sito": "https://www.tempiolarotonda.it/",
+      "wikipedia": {
+        "it": "Chiesa della Beata Vergine del Soccorso (Rovigo)"
+      },
+      "nota": {
+        "it": "Le visite possono essere sospese durante le funzioni religiose."
+      }
+    },
+    {
+      "id": "duomo-santo-stefano",
+      "nome": "Concattedrale di Santo Stefano Papa e Martire",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.069638,
+      "longitudine": 11.788795,
+      "descrizione": {
+        "it": "Il Duomo di Rovigo, dedicato a Santo Stefano Papa e Martire, è la concattedrale della diocesi di Adria-Rovigo. L'edificio attuale fu avviato nel 1696 su progetto attribuito a Girolamo Frigimelica e custodisce opere di pittori veneti, tra cui Palma il Giovane e Andrea Vicentino."
+      },
+      "orari": [
+        {
+          "giorni": "da verificare",
+          "ore": "apertura legata agli orari delle celebrazioni e alle disposizioni parrocchiali"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.duomorovigo.it/",
+      "nota": {
+        "it": "Sito e orari da confermare con la parrocchia prima della pubblicazione."
+      }
+    },
+    {
+      "id": "teatro-sociale",
+      "nome": "Teatro Sociale",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070853,
+      "longitudine": 11.792225,
+      "descrizione": {
+        "it": "Teatro storico di impianto neoclassico, progettato nell'Ottocento e inaugurato nel 1819. Dopo un incendio fu ricostruito e riaperto nel 1904. È legato alla tradizione lirica cittadina e ospita una stagione di spettacoli e iniziative culturali."
+      },
+      "orari": [
+        {
+          "giorni": "visite",
+          "ore": "solo su prenotazione e compatibilmente con spettacoli e prove"
+        }
+      ],
+      "biglietto": {
+        "nota": "Visite guidate indicate a €10 intero e €2 per scolaresche; gratuità per alcune categorie. Spettacoli con biglietteria e tariffe proprie."
+      },
+      "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
+      "nota": {
+        "it": "La categoria 'altri' è usata perché il vocabolario categorie attuale non prevede 'teatri'."
+      }
+    },
+    {
+      "id": "museo-dei-grandi-fiumi",
+      "nome": "Museo dei Grandi Fiumi",
+      "categoria": "musei",
+      "sestiere": "San Bartolomeo",
+      "latitudine": 45.065212,
+      "longitudine": 11.795021,
+      "descrizione": {
+        "it": "Il museo ha sede nell'ex monastero olivetano di San Bartolomeo e racconta la storia del territorio polesano attraverso un percorso archeologico e storico che copre oltre 3.500 anni, dalla preistoria all'età moderna. Le collezioni illustrano il rapporto tra insediamenti umani, fiumi e paesaggio."
+      },
+      "orari": [
+        {
+          "giorni": "mar-gio",
+          "ore": "10:00–13:00"
+        },
+        {
+          "giorni": "ven-dom",
+          "ore": "10:00–13:00 e 15:00–18:00"
+        },
+        {
+          "giorni": "lun",
+          "ore": "chiuso"
+        }
+      ],
+      "biglietto": {
+        "intero": 8,
+        "ridotto": 5,
+        "nota": "Gratuito per bambini sotto i 6 anni e altre categorie previste. Verificare riduzioni e aperture festive."
+      },
+      "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi"
+    },
+    {
+      "id": "piazzetta-annonaria",
+      "nome": "Piazzetta Annonaria",
+      "categoria": "piazze",
+      "sestiere": "Centro storico",
+      "latitudine": 45.069987,
+      "longitudine": 11.792345,
+      "descrizione": {
+        "it": "Spazio mercatale realizzato nell'Ottocento, dal 1859 legato al mercato annonario cittadino. La piazzetta conserva il carattere commerciale e ospita botteghe e iniziative culturali, costituendo un angolo caratteristico del centro storico."
+      },
+      "orari": [
+        {
+          "giorni": "indicativi",
+          "ore": "attività commerciali segnalate lun, mar, gio, ven e sab 7:30–13:00 e 15:00–20:00; orari non riferibili necessariamente all'intero spazio"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
+      "nota": {
+        "it": "Orari da considerare indicativi e da verificare con gli esercizi presenti."
+      }
+    },
+    {
+      "id": "porta-san-bortolo",
+      "nome": "Porta San Bortolo (Porta San Bartolomeo)",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.069206,
+      "longitudine": 11.792358,
+      "descrizione": {
+        "it": "Porta urbana medievale in laterizio, conosciuta sia come Porta San Bortolo sia come Porta San Bartolomeo. È considerata la meglio conservata tra le antiche porte cittadine e testimonia l'antico sistema difensivo di Rovigo."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "visibile dall'esterno"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/porte-urbane-e-antiche-torri",
+      "wikipedia": {
+        "it": "Porta San Bortolo"
+      }
+    },
+    {
+      "id": "accademia-dei-concordi",
+      "nome": "Accademia dei Concordi",
+      "categoria": "musei",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070927,
+      "longitudine": 11.790358,
+      "descrizione": {
+        "it": "Istituzione culturale fondata nel 1580 da Gaspare Campo. La biblioteca conserva un patrimonio di oltre 300.000 documenti; l'Accademia è inoltre legata alla Pinacoteca e a raccolte storico-artistiche e archeologiche, oggi in parte esposte in sedi museali cittadine."
+      },
+      "orari": [
+        {
+          "giorni": "biblioteca lun-ven",
+          "ore": "9:00–18:30"
+        },
+        {
+          "giorni": "biblioteca sab",
+          "ore": "9:00–12:45"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "Accesso ai servizi bibliotecari gratuito; mostre, visite e attività possono avere tariffe specifiche."
+      },
+      "sito": "https://www.concordi.it/",
+      "nota": {
+        "it": "Distinguere gli orari della biblioteca da quelli di eventuali spazi espositivi."
+      }
+    },
+    {
+      "id": "loggia-dei-nodari",
+      "nome": "Loggia dei Nodari (Municipio)",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071117,
+      "longitudine": 11.790165,
+      "descrizione": {
+        "it": "Antica loggia civica, attestata prima del 1286 e tradizionalmente collegata alla corporazione dei notai, chiamati 'nodari'. È parte del complesso municipale e si trova accanto alla Torre Civica, affacciata sulla piazza principale."
+      },
+      "orari": [
+        {
+          "giorni": "esterni",
+          "ore": "sempre visibile; accesso agli interni secondo gli orari degli uffici comunali"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici"
+    },
+    {
+      "id": "pescheria-nuova",
+      "nome": "Pescheria Nuova",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071,
+      "longitudine": 11.792,
+      "descrizione": {
+        "it": "Edificio ottocentesco, realizzato intorno al 1870, caratterizzato da un linguaggio eclettico con richiami neogotici e da una struttura interna in vetro e ghisa. Nato come mercato del pesce, è oggi utilizzato come spazio per mostre ed eventi."
+      },
+      "orari": [
+        {
+          "giorni": "esterni",
+          "ore": "sempre visibile; apertura interna in occasione di mostre ed eventi"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "La visita esterna è gratuita; eventi e mostre possono prevedere biglietto."
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
+      "nota": {
+        "it": "Coordinate approssimative da validare su cartografia prima della pubblicazione."
+      }
+    },
+    {
+      "id": "chiesa-santi-francesco-e-giustina",
+      "nome": "Chiesa dei Santi Francesco e Giustina",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070873,
+      "longitudine": 11.793653,
+      "descrizione": {
+        "it": "Chiesa di origine medievale legata alla presenza francescana in città. L'edificio ha una facciata neoclassica e conserva opere di interesse storico-artistico, tra cui la Pietà attribuita a Tullio Lombardo e dipinti di Giovanni Cariani."
+      },
+      "orari": [
+        {
+          "giorni": "festivi",
+          "ore": "celebrazioni indicate alle 10:00 e 11:30"
+        },
+        {
+          "giorni": "prefestivi e feriali",
+          "ore": "celebrazione indicata alle 18:30"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "Accesso turistico da verificare; gli orari riportati sono quelli delle celebrazioni."
+      },
+      "sito": "https://www.sanfrancescorovigo.it/",
+      "wikipedia": {
+        "it": "Chiesa dei Santi Francesco e Giustina"
+      },
+      "nota": {
+        "it": "Le coordinate disponibili differiscono leggermente tra le fonti: verificare il punto esatto."
+      }
+    },
+    {
+      "id": "chiesa-san-domenico",
+      "nome": "Chiesa di Sant'Antonio Abate detta San Domenico",
+      "categoria": "chiese",
+      "sestiere": "Centro storico",
+      "latitudine": 45.0702,
+      "longitudine": 11.7921,
+      "descrizione": {
+        "it": "Chiesa conosciuta localmente come San Domenico e dedicata a Sant'Antonio Abate. La sua storia è collegata a un ospedale attestato nel 1413; l'edificio fu ricostruito tra il 1505 e il 1516 e successivamente affidato ai Domenicani, da cui deriva il nome d'uso."
+      },
+      "orari": [
+        {
+          "giorni": "da verificare",
+          "ore": "non sono disponibili orari turistici regolari confermati"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true,
+        "nota": "Accesso gratuito quando la chiesa è aperta; modalità e orari da concordare."
+      },
+      "sito": "https://www.diocesiadriarovigo.it/",
+      "nota": {
+        "it": "Coordinate approssimative da geocodificare con precisione; denominazione ufficiale da mantenere distinta dal nome popolare."
+      }
+    },
+    {
+      "id": "torre-pighin",
+      "nome": "Torre Pighin",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.068666,
+      "longitudine": 11.790728,
+      "descrizione": {
+        "it": "Antica torre di guardia appartenente al sistema delle mura medievali di Rovigo. Dal XVIII secolo è stata trasformata in abitazione privata; oggi è apprezzabile soprattutto dall'esterno e conserva la memoria dell'antico sistema difensivo urbano."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "visibile dall'esterno; interno non liberamente visitabile"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/porte-urbane-e-antiche-torri",
+      "wikipedia": {
+        "it": "Torre Pighin"
+      }
+    },
+    {
+      "id": "cimitero-ebraico",
+      "nome": "Cimitero ebraico di Rovigo",
+      "categoria": "altri",
+      "sestiere": "Fuori dal centro storico",
+      "descrizione": {
+        "it": "Cimitero storico della comunità ebraica rodigina, con circa 900 lapidi che documentano la presenza e la memoria della comunità nel territorio. È un luogo di interesse storico e culturale e richiede particolare rispetto durante la visita."
+      },
+      "orari": [
+        {
+          "giorni": "su richiesta",
+          "ore": "orari non pubblicati; accesso da concordare"
+        }
+      ],
+      "biglietto": {
+        "nota": "Tariffa non pubblicata; modalità di visita da concordare."
+      },
+      "sito": "https://fondoambiente.it/luoghi/cimitero-ebraico-rovigo",
+      "nota": {
+        "it": "Coordinate non inserite: geocodificare l'indirizzo in via Stacche 15 e verificare le modalità di accesso."
+      }
+    }
+  ]
+}
