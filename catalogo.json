@@ -117,9 +117,20 @@
       "id": "rovigo",
       "nome": "Rovigo",
       "provincia": "Rovigo",
-      "stato": "in_preparazione",
-      "anteprima": [],
-      "pacchetto": null,
+      "stato": "disponibile",
+      "anteprima": [
+        "torre-dona-castello",
+        "piazza-vittorio-emanuele-ii",
+        "palazzo-roverella",
+        "palazzo-roncale",
+        "tempio-la-rotonda",
+        "duomo-santo-stefano",
+        "teatro-sociale",
+        "museo-dei-grandi-fiumi",
+        "piazzetta-annonaria",
+        "porta-san-bortolo"
+      ],
+      "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/manifest.json",
       "sku": null,
       "dimensione_mb": null,
       "motto": "Delta del Po e Polesine"
