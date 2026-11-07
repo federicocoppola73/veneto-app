@@ -1,6 +1,6 @@
 import { registerRootComponent } from 'expo';
 
-// Il contenitore usa il motore condiviso in ../motore (stesso codice per tutte le città).
-import App from '../motore/App';
+// Il contenitore (App.js della radice) mostra le città e carica quella scelta nel motore condiviso in ../motore.
+import App from '../App';
 
 registerRootComponent(App);
