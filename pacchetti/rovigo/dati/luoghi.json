@@ -327,8 +327,8 @@
       "nome": "Pescheria Nuova",
       "categoria": "altri",
       "sestiere": "Centro storico",
-      "latitudine": 45.071,
-      "longitudine": 11.792,
+      "latitudine": 45.0705061,
+      "longitudine": 11.7885669,
       "descrizione": {
         "it": "Edificio ottocentesco, realizzato intorno al 1870, caratterizzato da un linguaggio eclettico con richiami neogotici e da una struttura interna in vetro e ghisa. Nato come mercato del pesce, è oggi utilizzato come spazio per mostre ed eventi."
       },
@@ -344,7 +344,7 @@
       },
       "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
       "nota": {
-        "it": "Coordinate approssimative da validare su cartografia prima della pubblicazione."
+        "it": "Coordinate fornite in gradi, primi e secondi e convertite in gradi decimali."
       }
     },
     {
