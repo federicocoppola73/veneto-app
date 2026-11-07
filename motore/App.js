@@ -38,6 +38,7 @@ import { useLuoghiSalvati } from './src/luoghiSalvati';
 import { CIBI, CURIOSITA, posizioneCuriosita } from './src/curiosita';
 import { useAdesso } from './src/adesso';
 import { agganciaAllaRete, camminoVersoLuogo, metriVersoLuogo, percorsiDa } from './src/rete';
+import { angoloFreccia, rumboTra, SOGLIA_CALLE_LONTANA } from './src/navigazione';
 import { SERVIZI, tipoServizio } from './src/servizi';
 import { COLORE_PERCORSO_ACQUA, ITINERARI, lunghezzaItinerario, testoLunghezza } from './src/itinerari';
 import { CATEGORIE, coloreCategoria } from './src/categorie';
@@ -347,6 +348,19 @@ function Schermata({ linguaIniziale }) {
     if (!c) return null;
     return [[coord.latitudine, coord.longitudine], ...c].map(([lat, lon]) => proietta(lat, lon));
   }, [idDestinazioneUtente, percorsiUtente, coord, proietta]);
+
+  // Freccia di direzione nella guida: verso il primo punto del tratto che dista almeno 8 m
+  // (per non puntare su un rumore GPS), corretta con la bussola del telefono
+  const navigazione = useMemo(() => {
+    if (!guida || !coord || !aggancio || !idDestinazioneUtente || !percorsiUtente) return null;
+    const c = camminoVersoLuogo(percorsiUtente, idDestinazioneUtente);
+    const primo = c?.find(([la, lo]) => distanzaMetri(coord.latitudine, coord.longitudine, la, lo) >= 8);
+    const rumbo = primo ? rumboTra(coord.latitudine, coord.longitudine, primo[0], primo[1]) : null;
+    return {
+      angolo: angoloFreccia(rumbo, posizione.direzione),
+      lontanoDallaCalle: aggancio.metri > SOGLIA_CALLE_LONTANA,
+    };
+  }, [guida, coord, aggancio, idDestinazioneUtente, percorsiUtente, posizione.direzione]);
 
   const percorsoMappa = useMemo(() => {
     if (!percorso) return null;
@@ -881,6 +895,7 @@ function Schermata({ linguaIniziale }) {
             onVisitata={tappaVisitata}
             onSalta={saltaTappa}
             onFine={() => setGuida(false)}
+            navigazione={navigazione}
             larghezzaMax={orizzontale ? 400 : undefined}
           />
         ) : (

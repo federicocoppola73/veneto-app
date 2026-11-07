@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Veneto: Monumenti & altro",
+    "slug": "veneto-contenitore",
+    "version": "1.0.0",
+    "orientation": "default",
+    "platforms": ["android"],
+    "android": {
+      "package": "it.veneto.contenitore",
+      "versionCode": 1,
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": ["expo-location"]
+  }
+}

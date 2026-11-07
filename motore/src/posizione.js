@@ -14,10 +14,15 @@ export function usePosizione() {
   const [coordinate, setCoordinate] = useState(null);
   const [puoiChiedere, setPuoiChiedere] = useState(true);
   const abbonamento = useRef(null);
+  const bussola = useRef(null);
+  // direzione in cui guarda il telefono (gradi, 0 = nord), dalla bussola; null se non disponibile
+  const [direzione, setDirezione] = useState(null);
 
   const ferma = useCallback(() => {
     abbonamento.current?.remove();
     abbonamento.current = null;
+    bussola.current?.remove();
+    bussola.current = null;
   }, []);
 
   useEffect(() => ferma, [ferma]); // alla chiusura dell'app smette di seguire la posizione
@@ -48,6 +53,14 @@ export function usePosizione() {
         { accuracy: Location.Accuracy.Balanced, distanceInterval: 15, timeInterval: 5000 },
         aggiorna
       );
+      try {
+        bussola.current = await Location.watchHeadingAsync((h) => {
+          const gradi = h.trueHeading >= 0 ? h.trueHeading : h.magHeading;
+          setDirezione(gradi >= 0 ? gradi : null);
+        });
+      } catch {
+        setDirezione(null); // il sensore non c'è: la freccia resta orientata a nord
+      }
       return {
         latitudine: prima.coords.latitude,
         longitudine: prima.coords.longitude,
@@ -61,10 +74,11 @@ export function usePosizione() {
   const disattiva = useCallback(() => {
     ferma();
     setCoordinate(null);
+    setDirezione(null);
     setStato('spento');
   }, [ferma]);
 
   const apriImpostazioni = useCallback(() => Linking.openSettings().catch(() => {}), []);
 
-  return { stato, coordinate, puoiChiedere, attiva, disattiva, apriImpostazioni };
+  return { stato, coordinate, direzione, puoiChiedere, attiva, disattiva, apriImpostazioni };
 }

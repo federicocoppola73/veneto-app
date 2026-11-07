@@ -27,6 +27,7 @@ export default function GuidaItinerario({
   onSalta,
   onFine,
   larghezzaMax,
+  navigazione,
 }) {
   const totale = itinerario.tappe.length;
   let contenuto;
@@ -79,6 +80,9 @@ export default function GuidaItinerario({
       const chiusoAllArrivo = s && s.tipo === 'chiuso';
       riga = (
         <>
+          {navigazione && navigazione.angolo != null ? (
+            <Text style={[styles.freccia, styles.direzione, { transform: [{ rotate: `${navigazione.angolo}deg` }] }]}>➤</Text>
+          ) : null}
           <Text style={styles.distanza}>
             {prossima.stimato ? `${t('circa')} ` : ''}
             {formattaDistanza(prossima.metri, t)} · {minuti} min ·{' '}
@@ -108,6 +112,7 @@ export default function GuidaItinerario({
           </View>
           <Text style={styles.freccia}>›</Text>
         </Pressable>
+        {navigazione?.lontanoDallaCalle ? <Text style={styles.avviso}>{t('guida_calleLontana')}</Text> : null}
         {riga}
         <View style={styles.bottoni}>
           <Pressable onPress={onVisitata} accessibilityRole="button" style={({ pressed }) => [styles.azione, pressed && { opacity: 0.85 }]}>
@@ -166,6 +171,8 @@ const styles = StyleSheet.create({
   nome: { fontSize: 16, fontWeight: '800', color: '#0f172a' },
   freccia: { fontSize: 24, color: '#94a3b8', paddingHorizontal: 4 },
   distanza: { marginTop: 6, fontSize: 14, fontWeight: '700', color: '#1d4ed8' },
+  avviso: { marginTop: 6, fontSize: 12, color: '#92400e', lineHeight: 16 },
+  direzione: { color: '#1d4ed8', alignSelf: 'center', fontSize: 22, paddingHorizontal: 0, paddingBottom: 2 },
   apertura: { marginTop: 2, fontSize: 13, fontWeight: '600' },
   arrivato: { marginTop: 6, fontSize: 14, fontWeight: '700', color: '#15803d' },
   rigaStato: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 6 },
