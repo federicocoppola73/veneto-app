@@ -1,5 +1,5 @@
 {
-  "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono state fornite e aggiornate; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine e i dati fotografici non sono ancora compilati.",
+  "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono state fornite e aggiornate; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine non sono ancora compilate.",
   "categorie": [
     "chiese",
     "musei",
@@ -36,7 +36,34 @@
       },
       "nota": {
         "it": "Verificare la riapertura delle visite e le tariffe prima della pubblicazione."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_mura_perimetrali_e_torre_Don%C3%A0,_maggio_2022_02.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_accesso_all'antica_ghiacciatia_02.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_accesso_all'antica_ghiacciatia_01.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_vista_giardino_e_strutture_interne_10.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_vista_giardino_e_strutture_interne_08.jpg"
+        }
+      ]
     },
     {
       "id": "piazza-vittorio-emanuele-ii",
@@ -57,7 +84,34 @@
       "biglietto": {
         "gratuito": true
       },
-      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze"
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II_20200605_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_dalle_finestre_del_Municipio,_gennaio_2023_(Rovigo).jpg"
+        },
+        {
+          "autore": "Atigra",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_vittorio_emanuele_rovigo.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_Rovigoracconta_2018_01.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Leone_di_San_Marco_posto_sopra_l'omonima_colonna_(Piazza_Vittorio_Emanuele_II,_Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "palazzo-roverella",
@@ -81,7 +135,34 @@
       "sito": "https://www.palazzoroverella.com/",
       "wikipedia": {
         "it": "Palazzo Roverella"
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_02.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_04.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_03.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_20170928_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella,_esterno_da_Piazza_Vittorio_Emanuele_II,_Rovigo_(2).jpg"
+        }
+      ]
     },
     {
       "id": "palazzo-roncale",
@@ -106,7 +187,34 @@
       "sito": "https://palazzoroncale.com/",
       "wikipedia": {
         "it": "Palazzo Roncale"
-      }
+      },
+      "immagine": {
+        "autore": "Pivari",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale_-_Rovigo_-_Michele_Sanmicheli.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_piano_nobile,_sala_degli_arazzi_(Rovigo)_02.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_facciata,_mascherone_2_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_facciata,_mascherone_3_(Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "tempio-la-rotonda",
@@ -143,7 +251,34 @@
       },
       "nota": {
         "it": "Le visite possono essere sospese durante le funzioni religiose."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Beata_Vergine_del_Soccorso_(Rovigo).JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_08.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_02.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_05.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_01.jpg"
+        }
+      ]
     },
     {
       "id": "duomo-santo-stefano",
@@ -167,7 +302,34 @@
       "sito": "https://www.duomorovigo.it/",
       "nota": {
         "it": "Sito e orari da confermare con la parrocchia prima della pubblicazione."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_02.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_04.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_03.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_01.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire,_esterno,_abside_(Rovigo)_03.jpg"
+        }
+      ]
     },
     {
       "id": "teatro-sociale",
@@ -191,7 +353,34 @@
       "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
       "nota": {
         "it": "La categoria 'altri' è usata perché il vocabolario categorie attuale non prevede 'teatri'."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_Rovigo.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Unknown authorUnknown author",
+          "licenza": "Public domain",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Rovigo,_Teatro_Sociale_(xilografia).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_vista_notturna_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_lato_sinistro_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale_Beniamino_Gigli_plaque_(Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "museo-dei-grandi-fiumi",
@@ -222,7 +411,34 @@
         "ridotto": 5,
         "nota": "Gratuito per bambini sotto i 6 anni e altre categorie previste. Verificare riduzioni e aperture festive."
       },
-      "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi"
+      "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi",
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Stele_funeraria_L_Domiti,_Museo_dei_Grandi_Fiumi_(Rovigo).JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_cippo_funerario_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_cippo_funerario_(3)_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_stele_funeraria_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Stele_funeraria_L_Domiti,_Museo_dei_Grandi_Fiumi,_dettaglio_(Rovigo).JPG"
+        }
+      ]
     },
     {
       "id": "piazzetta-annonaria",
@@ -246,7 +462,34 @@
       "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
       "nota": {
         "it": "Orari da considerare indicativi e da verificare con gli esercizi presenti."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_8_marzo_2022_(Rovigo)_01.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_03.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_01.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_02.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Vista_di_parte_del_ex_Ghetto_(Rovigo).JPG"
+        }
+      ]
     },
     {
       "id": "porta-san-bortolo",
@@ -270,7 +513,34 @@
       "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/porte-urbane-e-antiche-torri",
       "wikipedia": {
         "it": "Porta San Bortolo"
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_vista_centro_citt%C3%A0.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_nicchia_orologio_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo_in_notturna,_settembre_2022_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_soffitto_sottopasso_(Rovigo)_01.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_facciata_interno_mura_(Rovigo)_02.jpg"
+        }
+      ]
     },
     {
       "id": "accademia-dei-concordi",
@@ -299,7 +569,34 @@
       "sito": "https://www.concordi.it/",
       "nota": {
         "it": "Distinguere gli orari della biblioteca da quelli di eventuali spazi espositivi."
-      }
+      },
+      "immagine": {
+        "autore": "Atigra",
+        "licenza": "CC BY-SA 2.5",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Accademia_concordi_rovigo_2.jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Lapide_commemorativa_Argia_Castiglioni_Vitalis_(Accademia_dei_Concordi,_Rovigo).jpg"
+        },
+        {
+          "autore": "Atigra",
+          "licenza": "CC BY-SA 2.5",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Accademia_concordi_rovigo_particolare.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Giambattista_Pittoni,_ritratto_del_Cardinale_Bartolomeo_Roverella,_dettaglio_(collezione_Accademia_dei_Concordi,_Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Giambattista_Pittoni,_ritratto_del_Cardinale_Bartolomeo_Roverella_(collezione_Accademia_dei_Concordi,_Rovigo)_02.jpg"
+        }
+      ]
     },
     {
       "id": "loggia-dei-nodari",
@@ -320,7 +617,34 @@
       "biglietto": {
         "gratuito": true
       },
-      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici"
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Torre_civica_e_Loggia_dei_nodari_(Rovigo).JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_nodari,_particolare,_statua_Madonna_col_Bambino_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_Nodari,_accesso,_Rovigo.JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_Nodari_in_the_fog.jpg"
+        },
+        {
+          "autore": "Loggia_dei_nodari,_particolare,_statua_Madonna_col_Bambino_(Rovigo).JPG: Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Giulio_Mauro,_statua_Madonna_col_Bambino,_Loggia_dei_nodari,_particolare_(Rovigo).JPG"
+        }
+      ]
     },
     {
       "id": "pescheria-nuova",
@@ -345,7 +669,34 @@
       "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
       "nota": {
         "it": "Coordinate fornite in gradi, primi e secondi e convertite in gradi decimali."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova,_fish_relief_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova,_fish_relief_(3)_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova,_fish_relief_(4)_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova,_interno_(Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "chiesa-santi-francesco-e-giustina",
@@ -377,7 +728,34 @@
       },
       "nota": {
         "it": "Le coordinate disponibili differiscono leggermente tra le fonti: verificare il punto esatto."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_dei_Santi_Francesco_e_Giustina,_zona_absidale_(Rovigo).JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Santi_Francesco_e_Giustina,_abside_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_dei_Santi_Francesco_e_Giustina,_facciata,_dettaglio_capitello_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Santi_Francesco_e_Giustina,_vista_absidale_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Canonica_Santi_Francesco_e_Giustina_(2)_(Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "chiesa-san-domenico",
@@ -402,7 +780,34 @@
       "sito": "https://www.diocesiadriarovigo.it/",
       "nota": {
         "it": "Coordinate fornite tramite screenshot di Google Maps."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:San_Domenico_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:San_Domenico_(2)_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:San_Domenico,_campanile_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:San_Domenico,_portone_di_sinistra_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Sant'Antonio_abate_on_San_Domenico_facade_(Rovigo).jpg"
+        }
+      ]
     },
     {
       "id": "torre-pighin",
@@ -426,7 +831,34 @@
       "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/porte-urbane-e-antiche-torri",
       "wikipedia": {
         "it": "Torre Pighin"
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin_(Rovigo).JPG"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin,_Rovigo_(2).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin_da_Via_Tiziano_Vecelio_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin_e_vecchie_mura_(Rovigo).JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin_(Rovigo)_07.jpg"
+        }
+      ]
     },
     {
       "id": "cimitero-ebraico",
@@ -448,7 +880,29 @@
       "sito": "https://fondoambiente.it/luoghi/cimitero-ebraico-rovigo",
       "nota": {
         "it": "Coordinate non inserite: geocodificare l'indirizzo in via Stacche 15 e verificare le modalità di accesso."
-      }
+      },
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Cimitero_ebraico_di_Via_Stacche_(3)_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Cimitero_ebraico_di_Via_Stacche_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Cimitero_ebraico_di_Piazzale_Soccorso_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Cimitero_ebraico_di_Piazzale_Soccorso_(Rovigo)_03.jpg"
+        }
+      ]
     }
   ]
 }
