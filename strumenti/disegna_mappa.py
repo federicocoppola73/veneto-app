@@ -68,7 +68,11 @@ STRADE = {
     'service': 5, 'track': 3, 'footway': 3, 'path': 3, 'cycleway': 3, 'steps': 3, 'bridleway': 3,
 }
 CORSI_ACQUA = {'river': 14, 'canal': 9, 'stream': 4, 'ditch': 2, 'drain': 2}
-CON_NOME = {'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'residential', 'unclassified'}
+CON_NOME = {'motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'residential', 'unclassified',
+            'living_street', 'pedestrian', 'service'}
+LUNGHEZZA_MIN_VIA = 20    # sotto questa lunghezza (pixel dell'immagine base) la via non viene etichettata
+DISTANZA_ETICHETTE = 150  # distanza minima tra due etichette della stessa via (pixel dell'immagine base)
+MARGINE_ETICHETTE = 10    # spazio libero attorno a ogni etichetta, per non sovrapporle
 
 VERDI_LANDUSE = {'grass', 'meadow', 'forest', 'recreation_ground', 'village_green', 'cemetery', 'orchard', 'vineyard'}
 VERDI_LEISURE = {'park', 'garden', 'pitch', 'playground', 'golf_course'}
@@ -101,6 +105,36 @@ def anelli(membri):
         if len(anello) >= 3:
             risultato.append(anello)
     return risultato
+
+
+def etichetta_vie(d, strade, font, W, H):
+    """Scrive i nomi delle vie: più etichette per via (una ogni ~350 m) dove c'è spazio libero.
+    Le vie più lunghe vengono scritte per prime, così hanno la precedenza sulle altre."""
+    candidati = []
+    for tipo, punti, nome in strade:
+        if not nome or tipo not in CON_NOME or len(punti) < 2:
+            continue
+        coppie = list(zip(punti, punti[1:]))
+        lun_tot = sum(math.dist(a, b) for a, b in coppie)
+        a, b = max(coppie, key=lambda c: math.dist(*c))
+        candidati.append((lun_tot, nome, ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)))
+    candidati.sort(key=lambda c: -c[0])
+
+    occupati, posti = [], {}
+    for lun, nome, (x, y) in candidati:
+        if lun < LUNGHEZZA_MIN_VIA * SCALA:
+            continue
+        if any(math.dist((x, y), p) < DISTANZA_ETICHETTE * SCALA for p in posti.get(nome, [])):
+            continue
+        l, t, r, b = d.textbbox((x, y), nome, font=font, anchor='mm')
+        box = (l - MARGINE_ETICHETTE, t - MARGINE_ETICHETTE, r + MARGINE_ETICHETTE, b + MARGINE_ETICHETTE)
+        if l < 0 or t < 0 or r > W or b > H:
+            continue
+        if any(not (box[2] < o[0] or box[0] > o[2] or box[3] < o[1] or box[1] > o[3]) for o in occupati):
+            continue
+        occupati.append(box)
+        posti.setdefault(nome, []).append((x, y))
+        d.text((x, y), nome, font=font, fill=TESTO, anchor='mm', stroke_width=SCALA, stroke_fill=SFONDO)
 
 
 def main():
@@ -178,29 +212,7 @@ def main():
             for x, y in (punti[0], punti[-1]):
                 d.ellipse((x - r, y - r, x + r, y + r), fill=STRADA)
 
-    # nomi delle vie: uno per nome, sul tratto più lungo, senza sovrapposizioni
-    print('nomi delle vie…', flush=True)
-    font = carica_font(8 * SCALA)
-    tratti = {}
-    for tipo, punti, nome in strade:
-        if not nome or tipo not in CON_NOME:
-            continue
-        for a, b in zip(punti, punti[1:]):
-            lun = math.dist(a, b)
-            if lun > tratti.get(nome, (0,))[0]:
-                tratti[nome] = (lun, ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2))
-    occupati = []
-    for nome, (lun, (x, y)) in sorted(tratti.items(), key=lambda t: -t[1][0]):
-        if lun < 40 * SCALA:
-            continue
-        l, t, r, b = d.textbbox((x, y), nome, font=font, anchor='mm')
-        box = (l - 30, t - 30, r + 30, b + 30)
-        if l < 0 or t < 0 or r > W or b > H:
-            continue
-        if any(not (box[2] < o[0] or box[0] > o[2] or box[3] < o[1] or box[1] > o[3]) for o in occupati):
-            continue
-        occupati.append(box)
-        d.text((x, y), nome, font=font, fill=TESTO, anchor='mm', stroke_width=SCALA, stroke_fill=SFONDO)
+    etichetta_vie(d, strade, carica_font(8 * SCALA), W, H)
 
     radice = os.path.join('pacchetti', citta)
     os.makedirs(os.path.join(radice, 'assets', 'mappa', '1'), exist_ok=True)

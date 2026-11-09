@@ -135,28 +135,8 @@ def main():
                 d.ellipse((x - r, y - r, x + r, y + r), fill=dm.STRADA)
 
     print('nomi delle vie…', flush=True)
-    font = carica_font(8 * SCALA)
-    tratti = {}
-    for tipo, punti, nome in strade:
-        if not nome or tipo not in dm.CON_NOME:
-            continue
-        p2 = sposta(punti)
-        for p, q in zip(p2, p2[1:]):
-            lun = math.dist(p, q)
-            if lun > tratti.get(nome, (0,))[0]:
-                tratti[nome] = (lun, ((p[0] + q[0]) / 2, (p[1] + q[1]) / 2))
-    occupati = []
-    for nome, (lun, (x, y)) in sorted(tratti.items(), key=lambda t: -t[1][0]):
-        if lun < 40 * SCALA:
-            continue
-        l, t, r, b = d.textbbox((x, y), nome, font=font, anchor='mm')
-        box = (l - 30, t - 30, r + 30, b + 30)
-        if l < 0 or t < 0 or r > w or b > h:
-            continue
-        if any(not (box[2] < o[0] or box[0] > o[2] or box[3] < o[1] or box[1] > o[3]) for o in occupati):
-            continue
-        occupati.append(box)
-        d.text((x, y), nome, font=font, fill=dm.TESTO, anchor='mm', stroke_width=SCALA, stroke_fill=dm.SFONDO)
+    strade_spostate = [(tipo, sposta(punti), nome) for tipo, punti, nome in strade]
+    dm.etichetta_vie(d, strade_spostate, carica_font(8 * SCALA), w, h)
 
     radice = os.path.join('pacchetti', citta)
     cartella = os.path.join(radice, 'assets', 'mappa', LIVELLO)
