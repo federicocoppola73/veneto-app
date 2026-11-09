@@ -1,0 +1,4095 @@
+{
+ "_nota": "Rovigo: orari invernali 2026/2027 delle linee urbane Busitalia, trascritti dai PDF della linea (campo \"pdf\" in autobus.json). Validità 10/09/2026–08/06/2027, come per Belluno. Servizi: fer = feriale lun–sab; fsc = feriale scolastica lun–sab; fVsc = feriale scolastica lun–ven; Ssc = sabato scolastico; fns = feriale non scolastico. Giorni di non scuola da calendario scolastico Veneto 2026/27 (ponte 07/12/2026, Natale 24/12–05/01, Carnevale 08–10/02/2027, Pasqua 25–30/03/2027). Festività nazionali (08/12/2026, 25–26/12, 01/01, 06/01, 29/03/2027, 01/05, 02/06/2027) senza corse. Note delle tabelle (corse solo per alcune scuole, deviazioni, ecc.) non trascritte: vedi PDF. Fermate senza coordinate nel KML omesse.",
+ "validita": [
+  "20260910",
+  "20270608"
+ ],
+ "servizi": [
+  {
+   "giorni": "1111110",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "1111110",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "1111100",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000010",
+   "da": "20260910",
+   "a": "20270608"
+  },
+  {
+   "giorni": "0000000",
+   "da": "20260910",
+   "a": "20270608"
+  }
+ ],
+ "date": {
+  "20261207": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20261208": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  },
+  "20261224": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20261225": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  },
+  "20261226": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    3
+   ]
+  },
+  "20261228": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20261229": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20261230": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20261231": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270101": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  },
+  "20270102": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    3
+   ]
+  },
+  "20270104": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270105": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270106": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  },
+  "20270208": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270209": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270210": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270325": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270326": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270327": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    3
+   ]
+  },
+  "20270329": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  },
+  "20270330": {
+   "piu": [
+    4
+   ],
+   "meno": [
+    1,
+    2
+   ]
+  },
+  "20270501": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    3
+   ]
+  },
+  "20270602": {
+   "piu": [],
+   "meno": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ "capolinea": [],
+ "orari": {
+  "autobus-stazione-fs": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,cf,d7,gj,jb,l2,mt,o1,sw,uu,wi"
+     ],
+     [
+      [
+       2
+      ],
+      "mk"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c5,e1,eu,i1,kt,oj,pj,ue,wc,y0"
+     ],
+     [
+      [
+       1
+      ],
+      "cm,mu"
+     ],
+     [
+      [
+       2
+      ],
+      "oc"
+     ],
+     [
+      [
+       3
+      ],
+      "l6"
+     ]
+    ]
+   },
+   "AUT-RO-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d4,dr,ei,ex,fc,gq,i4,k7,nt,on,px"
+     ],
+     [
+      [
+       1
+      ],
+      "dt"
+     ]
+    ]
+   },
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sj,u3,um,w6,wp,y9"
+     ]
+    ]
+   },
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,ar,b1,ct,df,gq,jj,le,n4"
+     ],
+     [
+      [
+       1
+      ],
+      "b1,lo"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bz,e3,ep,i4,i5,kt,mo,mp,oe,on"
+     ],
+     [
+      [
+       1
+      ],
+      "ca,d4"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9w,ap,cs,ds,fa,gj,i5,jg,l4,mx,o1"
+     ],
+     [
+      [
+       1
+      ],
+      "bf,cg"
+     ],
+     [
+      [
+       2
+      ],
+      "mk"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bb,c8,e6,f6,gq,i1,jj,ku,mi,mk,of,pi"
+     ],
+     [
+      [
+       2
+      ],
+      "o0"
+     ]
+    ]
+   },
+   "AUT-RO-14": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "fa,lt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "fw,mf"
+     ]
+    ]
+   },
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9w,ay,e1,fa,gj,jl,l4,mv,o8"
+     ],
+     [
+      [
+       1
+      ],
+      "bm,cg"
+     ],
+     [
+      [
+       4
+      ],
+      "cq"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b3,cc,f6,gg,i1,kq,mk,o4,pi"
+     ],
+     [
+      [
+       1
+      ],
+      "dv"
+     ],
+     [
+      [
+       4
+      ],
+      "dv"
+     ]
+    ]
+   },
+   "AUT-RO-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b3,gg,gq,i1,jj,o4,oj,pi,pk"
+     ],
+     [
+      [
+       4
+      ],
+      "bb"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "9w,ap,fa,gj,i5,k8,o1,o9,pj"
+     ]
+    ]
+   },
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "my"
+     ],
+     [
+      [
+       1
+      ],
+      "cs,my"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "dg,nm"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9n,9p,b3,b4,cz,dr,h1,h3,jj,le,n4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ap,c6,e1,et,i5,kl,nb,o6,o8"
+     ],
+     [
+      [
+       1
+      ],
+      "co"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sm,ud,uk,wb,wi,y9"
+     ]
+    ]
+   },
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a7,ak,b1,be,c8,cl,co,cz,dc,dp,ed,ei,ev,fw,g1,ge,hf,hk,hx,iy,j3,jg,kh,km,kz,m0,m5,mi,mk,mx,my,nb,nj,no,o1,p2,p7,pk,ql,qq,r3,s4,s9,sm,tn,ts,u5,v6,vb,vo,wp,wu,x7,y8"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9n,9v,b4,b6,dc,fa,gq,jj,le,n4,o4,ob"
+     ],
+     [
+      [
+       1
+      ],
+      "bh"
+     ],
+     [
+      [
+       2
+      ],
+      "by"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "au,ay,c8,dw,eg,ga,gd,ia,ih,kn,nb,o6,o8,px"
+     ],
+     [
+      [
+       1
+      ],
+      "ck,no"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9n,ao,bp,cu,dz,f4,g9,he,ij,jo,kt,ly,n3,o8,pd,qi,rn,ss,tx,v2,w4,x6,y8"
+     ],
+     [
+      [
+       1
+      ],
+      "cq,ct"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "s4,tv,uh,w8,wp,yg"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a1,az,c4,d9,ee,fj,go,ht,iy,k3,l8,md,ni,on,ps,qx,s2,t7,uc,ve,wg,xi"
+     ],
+     [
+      [
+       1
+      ],
+      "kc,l2,m8,ms"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cv,dv,gq,gt,jj,le,n2,oj"
+     ],
+     [
+      [
+       1
+      ],
+      "bj,n6"
+     ],
+     [
+      [
+       4
+      ],
+      "bb,be"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "dv,er,hy,i5,kk,ma,ny,nz,pj"
+     ],
+     [
+      [
+       1
+      ],
+      "cj,nq"
+     ],
+     [
+      [
+       4
+      ],
+      "c9"
+     ]
+    ]
+   }
+  },
+  "autobus-rovigo-autostazione": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ch"
+     ],
+     [
+      [
+       1
+      ],
+      "ci"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "ms"
+     ],
+     [
+      [
+       3
+      ],
+      "l4"
+     ]
+    ]
+   }
+  },
+  "autobus-corso-del-popolo": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "at,ck,db,gn,jf,l6,mx,o5,t0,uy,wm"
+     ],
+     [
+      [
+       2
+      ],
+      "mo"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c1,dx,eq,hx,kp,of,pf,ua,w8,xw"
+     ],
+     [
+      [
+       1
+      ],
+      "ci,mq"
+     ],
+     [
+      [
+       2
+      ],
+      "o8"
+     ],
+     [
+      [
+       3
+      ],
+      "l2"
+     ]
+    ]
+   },
+   "AUT-RO-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d1,do,ef,eu,f9,gn,i1,k4,nq,ok,pu"
+     ],
+     [
+      [
+       1
+      ],
+      "dq"
+     ]
+    ]
+   },
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sf,u6,ui,w9,wl"
+     ]
+    ]
+   },
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "al,ax,cp,db,gm,jf,la,n0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c3,e7,et,i9,kx,mt,or"
+     ],
+     [
+      [
+       1
+      ],
+      "ce"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,at,cw,dw,fe,gn,i9,jk,l8,n1,o5"
+     ],
+     [
+      [
+       1
+      ],
+      "bj,ck"
+     ],
+     [
+      [
+       2
+      ],
+      "mo"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b7,c4,e2,f2,gm,hx,jf,kq,me,mg,ob,pe"
+     ],
+     [
+      [
+       1
+      ],
+      "cp"
+     ],
+     [
+      [
+       2
+      ],
+      "nw"
+     ]
+    ]
+   },
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,b2,e5,fe,gn,jp,l8,mz,oc"
+     ],
+     [
+      [
+       1
+      ],
+      "bq,ck"
+     ],
+     [
+      [
+       4
+      ],
+      "cu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "az,c8,f2,gc,hx,km,mg,o0,pe"
+     ],
+     [
+      [
+       1
+      ],
+      "cm,dr"
+     ],
+     [
+      [
+       4
+      ],
+      "dr"
+     ]
+    ]
+   },
+   "AUT-RO-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "az,gc,gm,hx,jf,o0,of,pe,pg"
+     ],
+     [
+      [
+       4
+      ],
+      "b7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a0,at,fe,gn,i9,kc,o5,od,pn"
+     ]
+    ]
+   },
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "mu"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9k,az,cv,dn,gx,jf,la,n0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "at,ca,e5,ex,i9,kp,nf,oc"
+     ],
+     [
+      [
+       1
+      ],
+      "cs"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sq,u9,uo,w7,wm,y5"
+     ]
+    ]
+   },
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a3,ao,ax,bi,c4,cp,cs,cv,dg,dl,e9,ez,fs,gi,hb,i1,iu,jk,kd,l3,lw,mg,mm,mu,n1,nf,o5,oy,po,qh,r7,s0,sq,tj,u9,v2,vs,wl,xb,y4"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9k,b0,da,f6,gm,jf,la,n0,o0"
+     ],
+     [
+      [
+       2
+      ],
+      "bu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b2,cc,e0,ek,gh,il,kr,nf,oc,q1"
+     ],
+     [
+      [
+       1
+      ],
+      "co"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9k,al,bm,cr,dw,f1,g6,hb,ig,jl,kq,lv,n0,o5,pa,qf,rk,sp,tu,uz,w1,x3,y5"
+     ],
+     [
+      [
+       1
+      ],
+      "cm,cp"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "s0,tz,ud,wc,wl"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a5,b2,c7,dc,eh,fm,gr,hw,j1,k6,lb,mg,nl,oq,pv,r0,s5,ta,uf,vh,wj,xl"
+     ],
+     [
+      [
+       1
+      ],
+      "mw"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cr,dr,gm,jf,la,my,of"
+     ],
+     [
+      [
+       1
+      ],
+      "n2"
+     ],
+     [
+      [
+       4
+      ],
+      "b7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "dz,ev,i9,ko,me,o3,pn"
+     ],
+     [
+      [
+       1
+      ],
+      "cn"
+     ],
+     [
+      [
+       4
+      ],
+      "cd"
+     ]
+    ]
+   }
+  },
+  "autobus-piazzale-appiotti": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aw,cn,de,gq,ji,l9,n0,o8,t3,v1,wp"
+     ],
+     [
+      [
+       1
+      ],
+      "b4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "by,du,en,hu,km,mn,oa,oc,pc,u7,w5,xt"
+     ],
+     [
+      [
+       1
+      ],
+      "cf,mn"
+     ],
+     [
+      [
+       2
+      ],
+      "o5"
+     ],
+     [
+      [
+       3
+      ],
+      "kz"
+     ]
+    ]
+   },
+   "AUT-RO-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cx,dk,eb,eq,f5,gj,hx,k0,nm,og,pq"
+     ],
+     [
+      [
+       1
+      ],
+      "dm"
+     ]
+    ]
+   },
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sc,ua,uf,wd,wi"
+     ]
+    ]
+   },
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ai,au,cm,d8,gj,jc,l7,mx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "c6,ea,ew,ic,l0,mw,ou"
+     ],
+     [
+      [
+       1
+      ],
+      "ch"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a3,aw,b1,cz,dz,fh,fi,gq,gs,ic,jn,lb,n4,o8,oa"
+     ],
+     [
+      [
+       1
+      ],
+      "bm,cn"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b0,b4,c1,dz,ez,gi,gj,hs,hu,jc,kn,mb,md,o4,o8,pa,pb"
+     ],
+     [
+      [
+       1
+      ],
+      "cm"
+     ],
+     [
+      [
+       2
+      ],
+      "nt"
+     ]
+    ]
+   },
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a3,a5,b5,be,e8,fh,fi,gq,gv,js,lb,n2,of,oh"
+     ],
+     [
+      [
+       1
+      ],
+      "cn"
+     ],
+     [
+      [
+       4
+      ],
+      "cx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aw,c5,ez,g9,hn,hu,kj,md,nt,nx,p8,pb"
+     ],
+     [
+      [
+       1
+      ],
+      "cj,do"
+     ],
+     [
+      [
+       4
+      ],
+      "do"
+     ]
+    ]
+   },
+   "AUT-RO-11": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aw,g9,gj,hu,jc,nx,oc,pb,pd"
+     ],
+     [
+      [
+       4
+      ],
+      "b4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a3,aw,fh,gq,ic,kf,o8,og,pq"
+     ]
+    ]
+   },
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "mr"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9h,aw,cs,dk,gu,jc,l7,mx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aw,cd,e8,f0,ic,ks,mg,ni,of"
+     ],
+     [
+      [
+       1
+      ],
+      "cv"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "st,u6,ur,w4,wp,y2"
+     ]
+    ]
+   },
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,ar,au,bl,c1,cs,cv,di,dj,e6,f2,fp,gl,h8,i4,ir,jn,ka,l6,lt,md,mp,mr,n4,nc,ni,o8,ov,pr,qe,ra,rx,st,tg,uc,uz,vv,wi,xe,y1"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9h,ax,d5,f3,gj,jc,l7,mx,nx"
+     ],
+     [
+      [
+       2
+      ],
+      "br"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "b5,cf,e3,en,gk,io,ku,mh,ni,of,q4"
+     ],
+     [
+      [
+       1
+      ],
+      "cr"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9h,ah,bi,cn,ds,ex,g2,h7,ic,jh,km,lr,mw,o1,p6,qb,rg,sl,tq,uv,vx,wz,y1"
+     ],
+     [
+      [
+       1
+      ],
+      "cj,cm"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "rx,u2,ua,wf,wi"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a8,b6,cb,dg,el,fq,gv,i0,j5,ka,lf,mk,np,ou,pz,r4,s9,te,uj,vl,wn,xp"
+     ],
+     [
+      [
+       1
+      ],
+      "mz"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "co,do,gj,jc,l7,mv,oc"
+     ],
+     [
+      [
+       1
+      ],
+      "mz"
+     ],
+     [
+      [
+       4
+      ],
+      "b4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "e2,ey,ic,kr,mh,o6,pq"
+     ],
+     [
+      [
+       1
+      ],
+      "cq"
+     ],
+     [
+      [
+       4
+      ],
+      "cg"
+     ]
+    ]
+   }
+  },
+  "autobus-casalini": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "mt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "d0,dh"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "mt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "d8"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "mt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "d9"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "mt"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "d7"
+     ]
+    ]
+   }
+  },
+  "autobus-via-oroboni-parenzo": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "mu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "d1,di"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       2
+      ],
+      "mu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "da"
+     ]
+    ]
+   }
+  },
+  "autobus-san-sisto": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b1,ct,dk,gw,jo,lf,n6,oe,t9,v7,wv"
+     ],
+     [
+      [
+       1
+      ],
+      "ba"
+     ],
+     [
+      [
+       2
+      ],
+      "n0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bs,do,eh,ho,kg,mj,o4,p6,u1,vz,xn"
+     ],
+     [
+      [
+       1
+      ],
+      "c9,d8"
+     ],
+     [
+      [
+       2
+      ],
+      "nz"
+     ]
+    ]
+   }
+  },
+  "autobus-romagnano": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "nc"
+     ],
+     [
+      [
+       2
+      ],
+      "n5"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "c1,d2"
+     ]
+    ]
+   }
+  },
+  "autobus-istituto-tecnico-agrario": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cz,dq"
+     ],
+     [
+      [
+       1
+      ],
+      "cx"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "m8"
+     ],
+     [
+      [
+       1
+      ],
+      "md"
+     ],
+     [
+      [
+       2
+      ],
+      "md"
+     ],
+     [
+      [
+       3
+      ],
+      "kp"
+     ]
+    ]
+   }
+  },
+  "autobus-fenil-del-turco": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b9,d4,dv,h5,jx,lo,nl,on,ti,vg,x4"
+     ],
+     [
+      [
+       1
+      ],
+      "bj"
+     ],
+     [
+      [
+       2
+      ],
+      "ne"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bj,df,e8,hf,k7,m3,nv,ox,ts,vq,xe"
+     ],
+     [
+      [
+       1
+      ],
+      "bu"
+     ],
+     [
+      [
+       2
+      ],
+      "nq"
+     ]
+    ]
+   }
+  },
+  "autobus-s-cassiano": {
+   "AUT-RO-08": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "be,d9,e0,ha,k2,lt,nq,os,tn,vl,x9"
+     ],
+     [
+      [
+       1
+      ],
+      "bo"
+     ],
+     [
+      [
+       2
+      ],
+      "nl"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "be,da,e3,ha,k2,ly,nq,os,tn,vl,x9"
+     ],
+     [
+      [
+       1
+      ],
+      "bp"
+     ],
+     [
+      [
+       2
+      ],
+      "nl"
+     ]
+    ]
+   }
+  },
+  "autobus-casa-di-cura-citta-di-rovigo": {
+   "AUT-RO-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cz,dm,ed,es,f7,gl,hz,k2,no,oi,ps"
+     ],
+     [
+      [
+       1
+      ],
+      "do"
+     ]
+    ]
+   },
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a4,b3,d1,e1,fk,gu,ie,jp,ld,n6,oc"
+     ],
+     [
+      [
+       1
+      ],
+      "bo"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sv,ut,wr"
+     ]
+    ]
+   }
+  },
+  "autobus-via-del-sacro-cuore": {
+   "AUT-RO-10": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d0,dn,ee,et,f8,gm,i0,k3,np,oj,pt"
+     ],
+     [
+      [
+       1
+      ],
+      "dp"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-della-pace": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "so,u0,ur,w3,wu,y6"
+     ]
+    ]
+   },
+   "AUT-RO-14": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "fc,lv"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "fu,md"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9x,b8,de,fc,gs,jl,lg,n4,od"
+     ],
+     [
+      [
+       1
+      ],
+      "bj"
+     ],
+     [
+      [
+       2
+      ],
+      "c0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "as,c6,du,ee,g8,i8,kl,o4,pv"
+     ],
+     [
+      [
+       1
+      ],
+      "ci,nm"
+     ]
+    ]
+   }
+  },
+  "autobus-cittadella-sanitaria": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ss,uv,wy"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9w,bc,d7,dz,hb,jr,lm,nc"
+     ],
+     [
+      [
+       1
+      ],
+      "m8"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ah,by,dt,el,hx,kd,m8,ny"
+     ],
+     [
+      [
+       1
+      ],
+      "ce"
+     ],
+     [
+      [
+       2
+      ],
+      "d5"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a2,be,dk,fi,gy,jr,lm,nc,oj"
+     ],
+     [
+      [
+       1
+      ],
+      "bp,mb"
+     ],
+     [
+      [
+       2
+      ],
+      "c8"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "am,c0,do,e8,g2,i2,kf,ma,ny,pp"
+     ],
+     [
+      [
+       1
+      ],
+      "cc,ng"
+     ],
+     [
+      [
+       2
+      ],
+      "cu"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9z,a8,b1,b9,c5,ce,da,dj,ef,eo,fk,ft,gp,gy,hu,i3,iz,j8,k4,kd,l9,li,me,mn,nj,ns,oo,ox,pt,q2,qy,r7,s3,sc,t8,th,ud,um,vf,vo,wh,wq,xj,xs"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ai,am,bf,bo,ck,ct,dp,dy,eu,f3,fz,g8,h4,hd,i9,ii,je,jn,kj,ks,lo,lx,mt,n2,ny,o7,p3,pc,q8,qh,rd,rm,si,sr,tn,tw,us,v1,vu,w3,ww,x5"
+     ]
+    ]
+   }
+  },
+  "autobus-ospedale": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "st,tv,uw,vy,wz,y1"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9x,bd,d8,e0,hc,js,ln,nd"
+     ],
+     [
+      [
+       1
+      ],
+      "m9"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ag,bx,ds,ek,hw,kc,m7,nx"
+     ],
+     [
+      [
+       1
+      ],
+      "cd"
+     ],
+     [
+      [
+       2
+      ],
+      "d3"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a3,bf,dl,fj,gz,js,ln,nd,ok"
+     ],
+     [
+      [
+       1
+      ],
+      "bq,mc"
+     ],
+     [
+      [
+       2
+      ],
+      "c9"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "al,bz,dn,e7,g1,i1,ke,m9,nx,po"
+     ],
+     [
+      [
+       1
+      ],
+      "cb,nf"
+     ],
+     [
+      [
+       2
+      ],
+      "ct"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a1,a6,b3,b7,c7,cc,dc,dh,eh,em,fm,fr,gr,gw,hw,i1,j1,j6,k6,kb,lb,lg,mg,ml,nl,nq,oq,ov,pv,q0,r0,r5,s5,sa,ta,tf,uf,uk,vh,vm,wj,wo,xl,xq"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aj,ak,bh,bm,cm,cr,dr,dw,ew,f1,g1,g6,h6,hb,ib,ig,jg,jl,kl,kq,lq,lv,mv,n0,o0,o5,p5,pa,qa,qf,rf,rk,sk,sp,tp,tu,uu,uz,vw,w1,wy,x3"
+     ]
+    ]
+   }
+  },
+  "autobus-buso": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sz,v2,x5"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a2,bj,de,e6,hi,jy,lt,nj"
+     ],
+     [
+      [
+       1
+      ],
+      "bz,mf"
+     ],
+     [
+      [
+       2
+      ],
+      "cp"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aa,br,dm,ee,hq,k6,m1,nr"
+     ],
+     [
+      [
+       1
+      ],
+      "c7,mo"
+     ],
+     [
+      [
+       2
+      ],
+      "cx"
+     ]
+    ]
+   }
+  },
+  "autobus-via-carducci": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "t1,v4,x7"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a4,bl,dg,e8,hk,k0,lv,nl"
+     ],
+     [
+      [
+       1
+      ],
+      "c1,mh"
+     ],
+     [
+      [
+       2
+      ],
+      "cr"
+     ]
+    ]
+   }
+  },
+  "autobus-canale": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "t2,v5,x8"
+     ]
+    ]
+   },
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a6,bn,di,ea,hm,k2,lx,nn"
+     ],
+     [
+      [
+       1
+      ],
+      "c3,mj"
+     ],
+     [
+      [
+       2
+      ],
+      "ct"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "a6,bn,di,ea,hm,k2,lx,nn"
+     ],
+     [
+      [
+       1
+      ],
+      "c3,mj"
+     ],
+     [
+      [
+       2
+      ],
+      "ct"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "mj"
+     ]
+    ]
+   }
+  },
+  "autobus-sarzano-scuole": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tc,vf,xi"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a5,bh,do,fl,h1,jv,lq,nf,om"
+     ],
+     [
+      [
+       1
+      ],
+      "bs,my"
+     ],
+     [
+      [
+       2
+      ],
+      "cc"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aj,bw,dk,e4,fz,hz,kb,m6,nv,pm"
+     ],
+     [
+      [
+       1
+      ],
+      "c8,nd"
+     ],
+     [
+      [
+       2
+      ],
+      "cq"
+     ]
+    ]
+   }
+  },
+  "autobus-mardimago": {
+   "AUT-RO-15": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tk,vn,xq"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ac,bo,dw,fs,h8,k3,ly,no,ot"
+     ],
+     [
+      [
+       1
+      ],
+      "bz,n6"
+     ],
+     [
+      [
+       2
+      ],
+      "ci"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ac,bo,dc,dw,fs,hs,k3,ly,no,pf"
+     ],
+     [
+      [
+       1
+      ],
+      "c0,n6"
+     ],
+     [
+      [
+       2
+      ],
+      "ci"
+     ]
+    ]
+   }
+  },
+  "autobus-riccoboni": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "lr"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "d1"
+     ]
+    ]
+   }
+  },
+  "autobus-via-chiarugi-48": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "at,cv,di,gt,jm,lh,n7"
+     ],
+     [
+      [
+       1
+      ],
+      "b4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bv,dy,ek,hz,kp,mk,oa"
+     ],
+     [
+      [
+       1
+      ],
+      "c5,cz"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tr,w4,yc"
+     ]
+    ]
+   }
+  },
+  "autobus-granzette-chiesa": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "gy,jr,lm,nc"
+     ],
+     [
+      [
+       1
+      ],
+      "ly"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "br,dv,eh,hw"
+     ],
+     [
+      [
+       1
+      ],
+      "c2,cu"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sz,vc,xk"
+     ]
+    ]
+   }
+  },
+  "autobus-bivio-granzette": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aw,cz,dl,h0,jt,lo,ne"
+     ],
+     [
+      [
+       1
+      ],
+      "b7,m0"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bp,dt,ef,hu,kn,mi,o9"
+     ],
+     [
+      [
+       1
+      ],
+      "c0,cs"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tn,w0,y8"
+     ]
+    ]
+   }
+  },
+  "autobus-cantonazzo": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b0,d3,dp,h4,jx,ls,ni"
+     ],
+     [
+      [
+       1
+      ],
+      "m4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bl,dp,eb,hq,kj,me,o4"
+     ],
+     [
+      [
+       1
+      ],
+      "bw,co"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "t5,vi,xq"
+     ]
+    ]
+   }
+  },
+  "autobus-concadirame-chiesa": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b5,d8,du,h9,k2,lx,nn"
+     ],
+     [
+      [
+       1
+      ],
+      "bg,m9"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bg,dk,e6,hl,ke,m9,nz"
+     ],
+     [
+      [
+       1
+      ],
+      "br,cj"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ta,vn,xv"
+     ]
+    ]
+   }
+  },
+  "autobus-concadirame-campo-sportivo": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "ma"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "ci"
+     ]
+    ]
+   },
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tb,vo,xw"
+     ]
+    ]
+   }
+  },
+  "autobus-grompo": {
+   "AUT-RO-04": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "b8,dc,dy,hd,k6,m1,nr"
+     ],
+     [
+      [
+       1
+      ],
+      "bj"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "bc,dg,e2,hh,ka,m5,nv"
+     ],
+     [
+      [
+       1
+      ],
+      "bn"
+     ]
+    ]
+   }
+  },
+  "autobus-via-veneto-scuole": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a6,b5,d3,e3,fm,gw,ig,jr,lf,n8,oe"
+     ],
+     [
+      [
+       1
+      ],
+      "bq"
+     ],
+     [
+      [
+       2
+      ],
+      "mz"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aw,bx,dv,ev,ge,ho,j8,kj,m7,o0,p6"
+     ],
+     [
+      [
+       1
+      ],
+      "ci"
+     ],
+     [
+      [
+       2
+      ],
+      "d3,np"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sx,uv,wt"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-del-lavoro": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a8,b8,d6,e6,fp,gz,ij,ju,li,nb,oh"
+     ],
+     [
+      [
+       1
+      ],
+      "bt"
+     ],
+     [
+      [
+       2
+      ],
+      "n2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "au,bu,ds,es,gb,hl,j5,kg,m4,nx,p3"
+     ],
+     [
+      [
+       1
+      ],
+      "cf"
+     ],
+     [
+      [
+       2
+      ],
+      "d0,nm"
+     ]
+    ]
+   }
+  },
+  "autobus-zona-industriale-infun-for": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,ba,d8,e8,fr,h1,il,jw,lk,nd,oj"
+     ],
+     [
+      [
+       1
+      ],
+      "bv,cs"
+     ],
+     [
+      [
+       2
+      ],
+      "n4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "as,bs,dq,eq,g9,hj,j3,ke,m2,m9,nv,p1"
+     ],
+     [
+      [
+       1
+      ],
+      "cd"
+     ],
+     [
+      [
+       2
+      ],
+      "cy,nk"
+     ]
+    ]
+   },
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "cs"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "m9"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "t2,v0,wy"
+     ]
+    ]
+   }
+  },
+  "autobus-borsea": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ad,bd,db,eb,fu,h4,io,jz,ln,ng,om"
+     ],
+     [
+      [
+       1
+      ],
+      "by,cu"
+     ],
+     [
+      [
+       2
+      ],
+      "nb"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ap,bp,dn,en,g6,hg,j0,kb,lz,m7,ns,oy"
+     ],
+     [
+      [
+       1
+      ],
+      "ca"
+     ],
+     [
+      [
+       2
+      ],
+      "ct,nh"
+     ]
+    ]
+   },
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "cu"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "m7"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "t5,v3,x1"
+     ]
+    ]
+   }
+  },
+  "autobus-passo-pontecchio": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,bg,de,ee,fx,h7,ir,k2,lq,nj,op"
+     ],
+     [
+      [
+       1
+      ],
+      "c1"
+     ],
+     [
+      [
+       2
+      ],
+      "ne"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "am,bm,dk,ek,g3,hd,ix,k8,lw,np,ov"
+     ],
+     [
+      [
+       1
+      ],
+      "c7"
+     ],
+     [
+      [
+       2
+      ],
+      "cq,ne"
+     ]
+    ]
+   }
+  },
+  "autobus-pontecchio": {
+   "AUT-RO-07": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aj,bj,dh,eh,g0,ha,iu,k5,lt,nm,os"
+     ],
+     [
+      [
+       1
+      ],
+      "c4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aj,bj,dh,eh,g0,ha,iu,k5,lt,nm,os"
+     ],
+     [
+      [
+       1
+      ],
+      "c4"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tb,v9,x7"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-tre-martiri": {
+   "AUT-RO-14": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "fg,lz"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "fq,m9"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a0,bc,di,fg,gw,jp,lk,na,oh"
+     ],
+     [
+      [
+       1
+      ],
+      "bn"
+     ],
+     [
+      [
+       2
+      ],
+      "c4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ao,c2,dq,ea,g4,i4,kh,mc,o0,pr"
+     ],
+     [
+      [
+       1
+      ],
+      "ce,ni"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,bb,cg,dl,eq,fv,h0,i5,ja,kf,lk,mp,nu,oz,q4,r9,se,tj,uo,vq,ws,xu"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,bd,ci,dn,es,fx,h2,i7,jc,kh,lm,mr,nw,p1,q6,rb,sg,tl,uq,vs,wu"
+     ]
+    ]
+   }
+  },
+  "autobus-nuovo-carcere": {
+   "AUT-RO-14": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "fl,m4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "fl,m4"
+     ]
+    ]
+   }
+  },
+  "autobus-spianata": {
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,bj,ed,fn,h0,jx,lg,n7,om"
+     ],
+     [
+      [
+       1
+      ],
+      "bx,cz"
+     ],
+     [
+      [
+       4
+      ],
+      "d2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ar,c0,eu,g4,hi,ke,m2,no,p3"
+     ],
+     [
+      [
+       1
+      ],
+      "ce,de"
+     ],
+     [
+      [
+       4
+      ],
+      "dj"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "u1,vz,xx"
+     ]
+    ]
+   },
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d0,dd,do,e1,f7,fk,gq,h3,i9,im,js,k5,lb,lo,mu,n7,od,oq,pw,q9,rf,rs,sy,tb,uh,uu,w0,wd,xj,xw"
+     ]
+    ]
+   }
+  },
+  "autobus-bivio-grignano-polesine": {
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "af,bo,ei,fs,h5,k2,ll,nc,or"
+     ],
+     [
+      [
+       1
+      ],
+      "c2,d2"
+     ],
+     [
+      [
+       4
+      ],
+      "d7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "am,bv,ep,fz,hd,k9,lx,nj,oy"
+     ],
+     [
+      [
+       1
+      ],
+      "c9,da"
+     ],
+     [
+      [
+       4
+      ],
+      "de"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "to,vm,xk"
+     ]
+    ]
+   }
+  },
+  "autobus-grignano-polesine": {
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,bp,ej,ft,h6,k3,lm,nd,os"
+     ],
+     [
+      [
+       1
+      ],
+      "c3,d3"
+     ],
+     [
+      [
+       4
+      ],
+      "d8"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "al,bu,eo,fy,hc,k8,lw,ni,ox"
+     ],
+     [
+      [
+       1
+      ],
+      "c8,d9"
+     ],
+     [
+      [
+       4
+      ],
+      "dd"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tp,vn,xl"
+     ]
+    ]
+   }
+  },
+  "autobus-ponte-asino": {
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ai,br,el,fv,h8,k5,lo,nf,ou"
+     ],
+     [
+      [
+       1
+      ],
+      "c5,d5"
+     ],
+     [
+      [
+       4
+      ],
+      "da"
+     ]
+    ]
+   }
+  },
+  "autobus-ponte-merlo": {
+   "AUT-RO-09": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aj,bs,em,fw,h9,k6,lp,ng,ov"
+     ],
+     [
+      [
+       1
+      ],
+      "c6,d7"
+     ],
+     [
+      [
+       4
+      ],
+      "db"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "aj,bs,em,fw,ha,k6,lu,ng,ov"
+     ],
+     [
+      [
+       1
+      ],
+      "c6,d7"
+     ],
+     [
+      [
+       4
+      ],
+      "db"
+     ]
+    ]
+   },
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tt,vr,xp"
+     ]
+    ]
+   }
+  },
+  "autobus-s-pio-x-scuole": {
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "cw,n2"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "ca,dc,ni"
+     ]
+    ]
+   }
+  },
+  "autobus-via-bellini": {
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "cy,n4"
+     ]
+    ]
+   }
+  },
+  "autobus-roverdicre": {
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "d0,n6"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "c6,d8,ne"
+     ]
+    ]
+   }
+  },
+  "autobus-via-nogarazze": {
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "d2,n8"
+     ]
+    ]
+   }
+  },
+  "autobus-ponte-autostrada": {
+   "AUT-RO-13": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "d4,na"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "c2,d4,na"
+     ]
+    ]
+   }
+  },
+  "autobus-via-pozzato": {
+   "AUT-RO-13": {
+    "1": [
+     [
+      [
+       1
+      ],
+      "c4,d6,nc"
+     ]
+    ]
+   }
+  },
+  "autobus-via-gallani": {
+   "AUT-RO-13": {
+    "1": [
+     [
+      [
+       1
+      ],
+      "c8,da,ng"
+     ]
+    ]
+   }
+  },
+  "autobus-bonifacio": {
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "m3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "ci"
+     ]
+    ]
+   },
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "m3"
+     ]
+    ],
+    "1": [
+     [
+      [
+       2
+      ],
+      "d2"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "1": [
+     [
+      [
+       1
+      ],
+      "cw"
+     ]
+    ]
+   }
+  },
+  "autobus-via-della-costituzione": {
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9s,b8,d3,dv,h7,jn,li,n8"
+     ],
+     [
+      [
+       1
+      ],
+      "m4"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "al,c2,dx,ep,i1,kh,o2"
+     ],
+     [
+      [
+       1
+      ],
+      "ci"
+     ]
+    ]
+   }
+  },
+  "autobus-via-de-polzer": {
+   "AUT-RO-03": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9v,bb,d6,dy,ha,jq,ll,nb"
+     ],
+     [
+      [
+       1
+      ],
+      "m7"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ai,bz,du,em,hy,ke,nz"
+     ],
+     [
+      [
+       1
+      ],
+      "cf"
+     ]
+    ]
+   },
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9y,b0,c4,d9,ee,fj,go,ht,iy,k3,l8,md,ni,on,ps,qx,s2,t7,uc,ve,wg,xi"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "an,bq,cv,e0,f5,ga,hf,ik,jp,ku,lz,n4,o9,pe,qj,ro,st,ty,v3,w5,x7"
+     ]
+    ]
+   }
+  },
+  "autobus-via-passetto": {
+   "AUT-RO-03": {
+    "1": [
+     [
+      [
+       0
+      ],
+      "a8,bp,dk,ec,ho,k4,lz,np"
+     ],
+     [
+      [
+       1
+      ],
+      "c5,ml"
+     ],
+     [
+      [
+       2
+      ],
+      "cv"
+     ]
+    ]
+   }
+  },
+  "autobus-via-giotto-28": {
+   "AUT-RO-17": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "tl,vj,xh"
+     ]
+    ]
+   }
+  },
+  "autobus-via-del-commercio": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d9,dx,fg,gz,ii,k1,lk,n3,om,q5,ro,t7,uq,w9,xs"
+     ]
+    ]
+   }
+  },
+  "autobus-s-pio-x-chiesa": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a9,b3,ca,d1,ek,g3,hm,j5,ko,m7,mm,n0,nq,p9,qs,sb,tu,vd,ww"
+     ]
+    ]
+   }
+  },
+  "autobus-via-scarlatti": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,b8,cf,d6,ep,g8,hr,ja,kt,mc,mr,n5,nv,pe,qx,sg,tz,vi,x1"
+     ]
+    ]
+   }
+  },
+  "autobus-via-mascagni": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,ba,ch,d8,er,ga,ht,jc,kv,me,mt,n7,nx,pg,qz,si,u1,vk,x3"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-unita-europea-c-c": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d3,dr,fa,gt,ic,jv,le,mx,og,pz,ri,t1,uk,w3,xm"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-porta-po-c-c-la-fattoria": {
+   "AUT-RO-12": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d7,dv,fe,gx,ig,jz,li,n1,ok,q3,rm,t5,uo,w7,xq"
+     ]
+    ]
+   }
+  },
+  "autobus-sarzano-chiesa": {
+   "AUT-RO-06": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "a6,bi,dp,fm,h2,jw,lr,nh,on"
+     ],
+     [
+      [
+       1
+      ],
+      "bt,mz"
+     ],
+     [
+      [
+       2
+      ],
+      "cd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ai,bv,dj,e3,fy,hy,ka,m5,nu,pl"
+     ],
+     [
+      [
+       1
+      ],
+      "c7,nc"
+     ],
+     [
+      [
+       2
+      ],
+      "cp"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-oroboni-cimitero": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ab,bc,ch,dm,er,fw,h1,i6,jb,kg,ll,mq,nv,p0,q5,ra,sf,tk,up,vr,wt,xv"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ae,bb,cg,dl,eq,fv,h0,i5,ja,kf,lk,mp,nu,oz,q4,r9,se,tj,uo,vq,ws"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-venezia": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ag,bh,cm,dr,ew,g1,h6,ib,jg,kl,lq,mv,o0,p5,qa,rf,sk,tp,uu,vw,wy,y0"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "aa,b7,cc,dh,em,fr,gw,i1,j6,kb,lg,ml,nq,ov,q0,r5,sa,tf,uk,vm,wo"
+     ]
+    ]
+   }
+  },
+  "autobus-pittarelo": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9q,ar,bs,cx,e2,f7,gc,hh,im,jr,kw,m1,n6,ob,pg,ql,rq,sv,u0,v5,w7,x9"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "av,c1,d6,eb,fg,gl,hq,iv,k0,l5,ma,nf,ok,pp,qu,rz,t4,u9,vb,wd,xf"
+     ]
+    ]
+   }
+  },
+  "autobus-c-u-r-piazzale-interno": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "bt,cy,e3,f8,gd,hi,in,js,kx,m2,n7,oc,ph,qm,rr,sw,u1"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "c0,d5,ea,ff,gk,hp,iu,jz,l4,m9,ne,oj,po,qt,ry,t3,u8"
+     ]
+    ]
+   }
+  },
+  "autobus-casa-serena": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9r,at,bv,d0,e5,fa,gf,hk,ip,ju,kz,m4,n9,oe,pj,qo,rt,sy,u3,v6,w8,xa"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "au,bx,d2,e7,fc,gh,hm,ir,jw,l1,m6,nb,og,pl,qq,rv,t0,u5,va,wc,xe"
+     ]
+    ]
+   }
+  },
+  "autobus-via-de-gasperi-istituti-scolastici": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9u,aw,by,d3,e8,fd,gi,hn,is,jx,l2,m7,nc,oh,pm,qr,rw,t1,u6,v8,wa,xc"
+     ],
+     [
+      [
+       1
+      ],
+      "cv,cy"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ar,bu,cz,e4,f9,ge,hj,io,jt,ky,m3,n8,od,pi,qn,rs,sx,u2,v7,w9,xb"
+     ],
+     [
+      [
+       1
+      ],
+      "k5,kx,m3,mn"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "1": [
+     [
+      [
+       1
+      ],
+      "cy"
+     ]
+    ]
+   }
+  },
+  "autobus-via-benedetto-croce": {
+   "AUT-RO-01": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "9w,ay,c0,d5,ea,ff,gk,hp,iu,jz,l4,m9,ne,oj,po,qt,ry,t3,u8,vb,wd,xf"
+     ]
+    ]
+   },
+   "AUT-RO-02": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "ap,bs,cx,e2,f7,gc,hh,im,jr,kw,m1,n6,ob,pg,ql,rq,sv,u0,v5,w7,x9"
+     ]
+    ]
+   }
+  },
+  "autobus-viale-porta-adige": {
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "s7,uk,ws"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "cy,dy,gw,jm,lh,n5,om"
+     ],
+     [
+      [
+       1
+      ],
+      "bm,n9"
+     ],
+     [
+      [
+       4
+      ],
+      "bg"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "ds,eo,hv,kh,m7,nv,pg"
+     ],
+     [
+      [
+       1
+      ],
+      "cg,nn"
+     ],
+     [
+      [
+       4
+      ],
+      "c6"
+     ]
+    ]
+   }
+  },
+  "autobus-boara-cimitero": {
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sd,uq,wy"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d4,e4,h2,jw,ln,nb,os"
+     ],
+     [
+      [
+       1
+      ],
+      "br,nf"
+     ],
+     [
+      [
+       4
+      ],
+      "bm"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "di,ei,hp,kb,m1,np,p6"
+     ],
+     [
+      [
+       1
+      ],
+      "c5,nf"
+     ],
+     [
+      [
+       4
+      ],
+      "c0"
+     ]
+    ]
+   }
+  },
+  "autobus-boara-acquedotto": {
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "sf,us,x0"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "d6,e6,h4,jy,lp,nd,ou"
+     ],
+     [
+      [
+       1
+      ],
+      "bt"
+     ],
+     [
+      [
+       4
+      ],
+      "bo"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "dg,eg,hn,k9,lz,nn,p4"
+     ],
+     [
+      [
+       1
+      ],
+      "c3"
+     ],
+     [
+      [
+       4
+      ],
+      "by"
+     ]
+    ]
+   }
+  },
+  "autobus-localita-radecchio": {
+   "AUT-RO-16": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "su,v7,xf"
+     ]
+    ]
+   },
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       0
+      ],
+      "jr"
+     ]
+    ],
+    "1": [
+     [
+      [
+       0
+      ],
+      "dn,pb"
+     ],
+     [
+      [
+       1
+      ],
+      "cb,ni"
+     ]
+    ]
+   }
+  },
+  "autobus-ponte-adige": {
+   "AUT-RO-05": {
+    "0": [
+     [
+      [
+       1
+      ],
+      "nd"
+     ]
+    ],
+    "1": [
+     [
+      [
+       1
+      ],
+      "c7"
+     ]
+    ]
+   }
+  }
+ }
+}

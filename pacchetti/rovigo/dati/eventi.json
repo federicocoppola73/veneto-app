@@ -1,0 +1,198 @@
+{
+  "_nota": "Eventi di Rovigo raccolti dal web a novembre 2026, nei prossimi mesi. Le date e i luoghi sono da confermare sul sito dell'organizzatore prima della pubblicazione. Sono esclusi eventi di altri comuni (es. Occhiobello, Adria).",
+  "eventi": [
+    {
+      "nome": "Man Ray. Il maestro del Surrealismo",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-11-13",
+      "fine": "2027-01-31",
+      "luogo": "Palazzo Roverella",
+      "luogoId": "palazzo-roverella",
+      "descrizione": {
+        "it": "Grande mostra monografica dedicata al fotografo Man Ray, nella sede di Palazzo Roverella.",
+        "en": "Major monographic exhibition dedicated to the photographer Man Ray, at Palazzo Roverella.",
+        "fr": "Grande exposition monographique consacrée au photographe Man Ray, au Palazzo Roverella.",
+        "de": "Große Einzelausstellung des Fotografen Man Ray im Palazzo Roverella.",
+        "es": "Gran exposición monográfica dedicada al fotógrafo Man Ray, en el Palazzo Roverella."
+      },
+      "link": "https://iltaccodibacco.it/rovigo/"
+    },
+    {
+      "nome": "Luigi Groto. Il cieco di Adria",
+      "tipo": {
+        "it": "Mostra",
+        "en": "Exhibition",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "es": "Exposición"
+      },
+      "inizio": "2026-12-04",
+      "fine": "2027-06-27",
+      "luogo": "Palazzo Roncale",
+      "luogoId": "palazzo-roncale",
+      "descrizione": {
+        "it": "Mostra che ripercorre la vicenda umana e culturale di Luigi Groto, noto come il Cieco di Adria.",
+        "en": "Exhibition tracing the human and cultural story of Luigi Groto, known as the Blind Man of Adria.",
+        "fr": "Exposition retraçant le parcours humain et culturel de Luigi Groto, connu sous le nom de l'Aveugle d'Adria.",
+        "de": "Ausstellung über das Leben und Wirken von Luigi Groto, bekannt als der Blinde von Adria.",
+        "es": "Exposición que recorre la trayectoria humana y cultural de Luigi Groto, conocido como el Ciego de Adria."
+      },
+      "link": "https://iltaccodibacco.it/rovigo/"
+    },
+    {
+      "nome": "Festival Sulle vie dell'ambra",
+      "tipo": {
+        "it": "Festival",
+        "en": "Festival",
+        "fr": "Festival",
+        "de": "Festival",
+        "es": "Festival"
+      },
+      "inizio": "2026-11-07",
+      "fine": "2026-11-15",
+      "luogo": "Museo dei Grandi Fiumi",
+      "luogoId": "museo-dei-grandi-fiumi",
+      "descrizione": {
+        "it": "Terza edizione del festival che unisce arte, sapere, moda e creatività, negli spazi del Museo dei Grandi Fiumi e in altri luoghi della città.",
+        "en": "Third edition of the festival combining art, knowledge, fashion and creativity, in the Museo dei Grandi Fiumi and other places in the city.",
+        "fr": "Troisième édition du festival qui réunit art, savoir, mode et créativité, au Musée des Grands Fleuves et dans d'autres lieux de la ville.",
+        "de": "Dritte Ausgabe des Festivals, das Kunst, Wissen, Mode und Kreativität verbindet, im Museo dei Grandi Fiumi und an weiteren Orten der Stadt.",
+        "es": "Tercera edición del festival que reúne arte, saber, moda y creatividad, en el Museo dei Grandi Fiumi y otros lugares de la ciudad."
+      },
+      "link": "https://www.rovigoinfocitta.it/news/eventi-e-manifestazioni/"
+    },
+    {
+      "nome": "Musica e Poesia / Musica e Pittura 2026",
+      "tipo": {
+        "it": "Rassegna",
+        "en": "Series",
+        "fr": "Cycle",
+        "de": "Reihe",
+        "es": "Ciclo"
+      },
+      "inizio": "2026-10-11",
+      "fine": "2026-11-29",
+      "luogo": "Rovigo",
+      "descrizione": {
+        "it": "Rassegna pluridecennale che ogni domenica alle 11 propone musica, poesia e pittura, fino al 29 novembre.",
+        "en": "Long-running series that every Sunday at 11 a.m. offers music, poetry and painting, until 29 November.",
+        "fr": "Cycle de longue date qui propose chaque dimanche à 11 h musique, poésie et peinture, jusqu'au 29 novembre.",
+        "de": "Seit Jahrzehnten bestehende Reihe mit Musik, Lyrik und Malerei, jeden Sonntag um 11 Uhr, bis zum 29. November.",
+        "es": "Ciclo de larga trayectoria que cada domingo a las 11 ofrece música, poesía y pintura, hasta el 29 de noviembre."
+      },
+      "link": "https://www.rovigoinfocitta.it/news/eventi-e-manifestazioni/"
+    },
+    {
+      "nome": "Danilo Rea - Sakamoto & Me",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-27",
+      "fine": "2026-11-27",
+      "luogo": "Teatro Sociale",
+      "luogoId": "teatro-sociale",
+      "descrizione": {
+        "it": "Concerto di Danilo Rea, alle 20 al Teatro Sociale.",
+        "en": "Concert by Danilo Rea, at 8 p.m. at the Teatro Sociale.",
+        "fr": "Concert de Danilo Rea, à 20 h au Teatro Sociale.",
+        "de": "Konzert von Danilo Rea um 20 Uhr im Teatro Sociale.",
+        "es": "Concierto de Danilo Rea, a las 20 h en el Teatro Sociale."
+      },
+      "link": "https://www.canzoni.it/concerti/italia/rovigo/"
+    },
+    {
+      "nome": "La Sirenetta - La voce dell'Oceano",
+      "tipo": {
+        "it": "Musical",
+        "en": "Musical",
+        "fr": "Comédie musicale",
+        "de": "Musical",
+        "es": "Musical"
+      },
+      "inizio": "2026-12-19",
+      "fine": "2026-12-19",
+      "luogo": "Rovigo",
+      "descrizione": {
+        "it": "Musical alle 17 del 19 dicembre. Il luogo esatto va verificato sul sito della biglietteria.",
+        "en": "Musical at 5 p.m. on 19 December. The exact venue should be checked on the ticket office website.",
+        "fr": "Comédie musicale à 17 h le 19 décembre. Le lieu exact est à vérifier sur le site de la billetterie.",
+        "de": "Musical um 17 Uhr am 19. Dezember. Der genaue Veranstaltungsort ist auf der Website des Ticketanbieters zu prüfen.",
+        "es": "Musical a las 17 h del 19 de diciembre. El lugar exacto debe verificarse en la web de venta de entradas."
+      },
+      "link": "https://www.ticketone.it/cityd/rovigo-2168/teatro-58/"
+    },
+    {
+      "nome": "Domenica al Museo: ingresso gratuito",
+      "tipo": {
+        "it": "Iniziativa",
+        "en": "Initiative",
+        "fr": "Initiative",
+        "de": "Initiative",
+        "es": "Iniciativa"
+      },
+      "inizio": "2026-12-06",
+      "fine": "2026-12-06",
+      "luogo": "Musei civici di Rovigo",
+      "descrizione": {
+        "it": "Ingresso gratuito ai musei civici ogni prima domenica del mese. Qui è indicata la data di dicembre.",
+        "en": "Free admission to the civic museums on the first Sunday of every month. The December date is shown here.",
+        "fr": "Entrée gratuite dans les musées municipaux le premier dimanche de chaque mois. La date de décembre est indiquée ici.",
+        "de": "Freier Eintritt in die städtischen Museen an jedem ersten Sonntag im Monat. Hier ist der Termin im Dezember angegeben.",
+        "es": "Entrada gratuita a los museos municipales el primer domingo de cada mes. Aquí se indica la fecha de diciembre."
+      },
+      "link": "https://www.rovigoinfocitta.it/news/eventi-e-manifestazioni/"
+    },
+    {
+      "nome": "Omaggio a Morricone - Musiche da Oscar",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-01-30",
+      "fine": "2027-01-30",
+      "luogo": "Rovigo",
+      "descrizione": {
+        "it": "Concerto dedicato alle musiche da Oscar di Ennio Morricone, alle 21.",
+        "en": "Concert dedicated to Ennio Morricone's Oscar-winning music, at 9 p.m.",
+        "fr": "Concert consacré aux musiques oscarisées d'Ennio Morricone, à 21 h.",
+        "de": "Konzert mit den oscarprämierten Musiken von Ennio Morricone, um 21 Uhr.",
+        "es": "Concierto dedicado a las músicas premiadas con el Óscar de Ennio Morricone, a las 21 h."
+      },
+      "link": "https://www.ticketone.it/cityd/rovigo-2168/teatro-58/"
+    },
+    {
+      "nome": "Rovigo Half Marathon",
+      "tipo": {
+        "it": "Sport",
+        "en": "Sport",
+        "fr": "Sport",
+        "de": "Sport",
+        "es": "Deporte"
+      },
+      "inizio": "2027-02-14",
+      "fine": "2027-02-14",
+      "luogo": "Rovigo",
+      "descrizione": {
+        "it": "Mezza maratona di Rovigo, domenica 14 febbraio 2027.",
+        "en": "Rovigo half marathon, Sunday 14 February 2027.",
+        "fr": "Semi-marathon de Rovigo, dimanche 14 février 2027.",
+        "de": "Halbmarathon in Rovigo, Sonntag 14. Februar 2027.",
+        "es": "Media maratón de Rovigo, domingo 14 de febrero de 2027."
+      },
+      "link": "https://mymindisracing.com/event/7525ded0-c094-42df-a61a-439ec45db151"
+    }
+  ]
+}

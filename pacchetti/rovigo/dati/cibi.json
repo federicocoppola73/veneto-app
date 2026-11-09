@@ -1,0 +1,791 @@
+{
+    "_nota": "Rovigo: cibi e prodotti tipici dal foglio Cibi del file rovigo_dati_app.xlsx. Ricette indicative, compilate da fonti web e da indicazioni generali. Anguilla del Delta del Po: portata impostata a 'secondo' (nel foglio era 'street', chiave non presente in i18n.js).",
+    "cibi": [
+        {
+            "id": "polenta-polesana",
+            "nome": "Polenta polesana",
+            "portata": "secondo",
+            "testo": {
+                "it": "La polenta è il piatto simbolo della tavola polesana: si prepara con farina di mais versata a pioggia nell'acqua salata e cotta a lungo, mescolando. Si serve calda, spesso accompagnata da pesce, salsiccia o sughi di carne.",
+                "en": "Polenta is the emblematic dish of the Polesine table: cornmeal is poured in a rain into salted water and cooked slowly while stirring. It is served hot, often with fish, sausage or meat sauces.",
+                "fr": "La polenta est le plat emblématique de la table polésane : la farine de maïs est versée en pluie dans l'eau salée et cuite longuement en remuant. On la sert chaude, souvent avec du poisson, de la saucisse ou des sauces à la viande.",
+                "de": "Die Polenta ist das Symbolgericht der Polesine-Küche: Maismehl wird in kochendes Salzwasser gerieselt und lange unter ständigem Rühren gegart. Sie wird heiß serviert, oft mit Fisch, Wurst oder Fleischsaucen.",
+                "es": "La polenta es el plato emblemático de la mesa del Polesine: la harina de maíz se vierte en forma de lluvia sobre agua salada y se cuece largo tiempo removiendo. Se sirve caliente, a menudo con pescado, salchicha o salsas de carne."
+            },
+            "ricetta": {
+                "porzioni": 4,
+                "preparazione": {
+                    "it": "50 min",
+                    "en": "50 min",
+                    "fr": "50 min",
+                    "de": "50 Min.",
+                    "es": "50 min"
+                },
+                "ingredienti": {
+                    "it": [
+                        "400 g di farina di mais (preferibilmente Biancoperla)",
+                        "2 l di acqua",
+                        "Sale grosso q.b. (circa 2 cucchiaini)",
+                        "Olio extravergine q.b. per servire"
+                    ],
+                    "en": [
+                        "400 g cornmeal (preferably Biancoperla)",
+                        "2 l water",
+                        "Coarse salt as needed (about 2 teaspoons)",
+                        "Extra virgin olive oil to serve"
+                    ],
+                    "fr": [
+                        "400 g de farine de maïs (de préférence Biancoperla)",
+                        "2 l d'eau",
+                        "Gros sel selon besoin (environ 2 cuillères à café)",
+                        "Huile d'olive extra vierge pour servir"
+                    ],
+                    "de": [
+                        "400 g Maismehl (am besten Biancoperla)",
+                        "2 l Wasser",
+                        "Grobes Salz nach Bedarf (etwa 2 Teelöffel)",
+                        "Natives Olivenöl zum Servieren"
+                    ],
+                    "es": [
+                        "400 g de harina de maíz (preferiblemente Biancoperla)",
+                        "2 l de agua",
+                        "Sal gruesa al gusto (unas 2 cucharaditas)",
+                        "Aceite de oliva virgen extra para servir"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Portare a bollore l'acqua salata in un paiolo o in una pentola capiente.",
+                        "Versare la farina a pioggia, mescolando continuamente con una frusta o un cucchiaio di legno per evitare grumi.",
+                        "Cuocere per circa 40-45 minuti, mescolando spesso, finché la polenta si stacca dalle pareti.",
+                        "Versare sul tagliere di legno o in una zuppiera e servire subito, calda."
+                    ],
+                    "en": [
+                        "Bring the salted water to a boil in a large pot.",
+                        "Pour the cornmeal in a rain, stirring constantly with a whisk or wooden spoon to avoid lumps.",
+                        "Cook for about 40-45 minutes, stirring often, until the polenta pulls away from the sides.",
+                        "Pour onto a wooden board or into a serving bowl and serve hot straight away."
+                    ],
+                    "fr": [
+                        "Porter l'eau salée à ébullition dans une grande casserole.",
+                        "Verser la farine en pluie en remuant sans arrêt avec un fouet ou une cuillère en bois pour éviter les grumeaux.",
+                        "Cuire environ 40 à 45 minutes en remuant souvent, jusqu'à ce que la polenta se détache des parois.",
+                        "Verser sur une planche en bois ou dans un plat de service et servir aussitôt, bien chaud."
+                    ],
+                    "de": [
+                        "Das gesalzene Wasser in einem großen Topf zum Kochen bringen.",
+                        "Das Maismehl einrieseln lassen und dabei ständig mit einem Schneebesen oder Holzlöffel rühren, damit keine Klümpchen entstehen.",
+                        "Etwa 40 bis 45 Minuten köcheln lassen und oft umrühren, bis sich die Polenta vom Topfrand löst.",
+                        "Auf ein Holzbrett oder in eine Schüssel geben und sofort heiß servieren."
+                    ],
+                    "es": [
+                        "Llevar a ebullición el agua salada en una olla grande.",
+                        "Verter la harina en forma de lluvia removiendo sin parar con varillas o una cuchara de madera para evitar grumos.",
+                        "Cocer unos 40-45 minutos, removiendo a menudo, hasta que la polenta se despegue de las paredes.",
+                        "Volcar sobre una tabla de madera o en una fuente y servir enseguida, caliente."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "Threecharlie",
+                "licenza": "CC BY-SA 3.0",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=20394194"
+            }
+        },
+        {
+            "id": "risotto-alla-canarola",
+            "nome": "Risotto alla canarola",
+            "portata": "primo",
+            "testo": {
+                "it": "Il risotto del Basso Polesine, legato alla pesca del Delta del Po: il soffritto di cipolla finissima si scioglie nei chicchi e il risotto si mantecca con cozze e vongole. È il piatto dei pescatori e delle famiglie della zona.",
+                "en": "The risotto of Lower Polesine, linked to the fishing in the Po Delta: a very finely sliced onion soffritto melts into the grains, and the risotto is finished with mussels and clams. It is the dish of local fishermen and families.",
+                "fr": "Le risotto du Bas-Polésine, lié à la pêche du delta du Pô : un soffritto d'oignon très finement émincé se fond dans les grains, et le risotto est lié avec des moules et des palourdes. C'est le plat des pêcheurs et des familles de la région.",
+                "de": "Das Risotto aus dem Unteren Polesine, verbunden mit dem Fischfang im Po-Delta: ein sehr fein geschnittenes Zwiebel-Soffritto zerfällt in den Körnern, und das Risotto wird mit Miesmuscheln und Venusmuscheln vollendet. Es ist das Gericht der Fischer und Familien der Gegend.",
+                "es": "El risotto del Bajo Polesine, ligado a la pesca del delta del Po: un sofrito de cebolla muy finamente picada se deshace entre los granos, y el risotto se termina con mejillones y almejas. Es el plato de los pescadores y las familias de la zona."
+            },
+            "ricetta": {
+                "porzioni": 4,
+                "preparazione": {
+                    "it": "20 min di preparazione + 25 min di cottura",
+                    "en": "20 min preparation + 25 min cooking",
+                    "fr": "20 min de préparation + 25 min de cuisson",
+                    "de": "20 Min. Vorbereitung + 25 Min. Garzeit",
+                    "es": "20 min de preparación + 25 min de cocción"
+                },
+                "ingredienti": {
+                    "it": [
+                        "320 g di riso Carnaroli (o Riso del Delta del Po IGP)",
+                        "1 cipolla bianca piccola, tritata finissima",
+                        "1 kg di cozze",
+                        "300 g di vongole veraci",
+                        "1/2 bicchiere di vino bianco secco",
+                        "1 l di brodo di pesce (o acqua con gli scarti dei molluschi)",
+                        "3 cucchiai di olio extravergine d'oliva",
+                        "40 g di burro freddo",
+                        "Prezzemolo tritato q.b.",
+                        "Sale e pepe q.b."
+                    ],
+                    "en": [
+                        "320 g Carnaroli rice (or Riso del Delta del Po IGP)",
+                        "1 small white onion, very finely chopped",
+                        "1 kg mussels",
+                        "300 g clams",
+                        "1/2 glass dry white wine",
+                        "1 l fish stock (or water with the shellfish trimmings)",
+                        "3 tablespoons extra virgin olive oil",
+                        "40 g cold butter",
+                        "Chopped parsley as needed",
+                        "Salt and pepper as needed"
+                    ],
+                    "fr": [
+                        "320 g de riz Carnaroli (ou Riso del Delta del Po IGP)",
+                        "1 petit oignon blanc, haché très finement",
+                        "1 kg de moules",
+                        "300 g de palourdes",
+                        "1/2 verre de vin blanc sec",
+                        "1 l de bouillon de poisson (ou d'eau avec les déchets des coquillages)",
+                        "3 cuillères à soupe d'huile d'olive extra vierge",
+                        "40 g de beurre froid",
+                        "Persil haché selon besoin",
+                        "Sel et poivre selon besoin"
+                    ],
+                    "de": [
+                        "320 g Carnaroli-Reis (oder Riso del Delta del Po IGP)",
+                        "1 kleine weiße Zwiebel, sehr fein gehackt",
+                        "1 kg Miesmuscheln",
+                        "300 g Venusmuscheln",
+                        "1/2 Glas trockener Weißwein",
+                        "1 l Fischbrühe (oder Wasser mit den Muschelresten)",
+                        "3 EL natives Olivenöl extra",
+                        "40 g kalte Butter",
+                        "Gehackte Petersilie nach Bedarf",
+                        "Salz und Pfeffer nach Bedarf"
+                    ],
+                    "es": [
+                        "320 g de arroz Carnaroli (o Riso del Delta del Po IGP)",
+                        "1 cebolla blanca pequeña, muy finamente picada",
+                        "1 kg de mejillones",
+                        "300 g de almejas",
+                        "1/2 vaso de vino blanco seco",
+                        "1 l de caldo de pescado (o agua con los restos de los moluscos)",
+                        "3 cucharadas de aceite de oliva virgen extra",
+                        "40 g de mantequilla fría",
+                        "Perejil picado al gusto",
+                        "Sal y pimienta al gusto"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Far aprire cozze e vongole in una casseruola con un filo d'olio, coprendo; sgusciarli e filtrare il liquido di cottura.",
+                        "In una casseruola soffriggere la cipolla con l'olio a fuoco dolce fino a renderla trasparente e finissima.",
+                        "Tostare il riso per un paio di minuti, poi sfumare con il vino bianco.",
+                        "Bagnare con il brodo di pesce filtrato, aggiungendone un mestolo alla volta, e cuocere circa 16-18 minuti mescolando.",
+                        "A fine cottura unire i molluschi, il burro freddo e il prezzemolo; mantecare energicamente.",
+                        "Lasciare riposare un minuto e servire subito in piatti larghi, in modo che il risotto si distenda."
+                    ],
+                    "en": [
+                        "Open the mussels and clams in a pan with a drizzle of oil, covered; shell them and filter the cooking liquid.",
+                        "In a pan, soften the onion in oil over low heat until it is translucent and very fine.",
+                        "Toast the rice for a couple of minutes, then deglaze with the white wine.",
+                        "Add the filtered fish stock one ladle at a time and cook for about 16-18 minutes, stirring.",
+                        "At the end, add the shellfish, cold butter and parsley; stir vigorously to emulsify.",
+                        "Let it rest for one minute and serve at once in wide plates so the risotto spreads."
+                    ],
+                    "fr": [
+                        "Faire ouvrir les moules et les palourdes dans une casserole avec un filet d'huile, couvert ; les décoquiller et filtrer le jus de cuisson.",
+                        "Faire revenir l'oignon dans l'huile à feu doux jusqu'à ce qu'il soit translucide et très fin.",
+                        "Torréfier le riz quelques minutes, puis déglacer avec le vin blanc.",
+                        "Mouiller avec le bouillon de poisson filtré, une louche à la fois, et cuire environ 16 à 18 minutes en remuant.",
+                        "En fin de cuisson, ajouter les coquillages, le beurre froid et le persil ; mantecare énergiquement.",
+                        "Laisser reposer une minute et servir aussitôt dans des assiettes plates pour que le risotto s'étale."
+                    ],
+                    "de": [
+                        "Miesmuscheln und Venusmuscheln mit etwas Öl zugedeckt in einem Topf öffnen; auslösen und die Kochflüssigkeit filtern.",
+                        "Die Zwiebel in Öl bei milder Hitze glasig und sehr fein dünsten.",
+                        "Den Reis einige Minuten anrösten, dann mit Weißwein ablöschen.",
+                        "Nach und nach mit der gefilterten Fischbrühe aufgießen und etwa 16 bis 18 Minuten unter Rühren garen.",
+                        "Am Ende Muscheln, kalte Butter und Petersilie hinzufügen und kräftig rühren, bis eine cremige Konsistenz entsteht.",
+                        "Eine Minute ruhen lassen und sofort auf flachen Tellern servieren, damit das Risotto sich ausbreitet."
+                    ],
+                    "es": [
+                        "Abrir los mejillones y las almejas en una cazuela con un chorrito de aceite, tapados; desconcharlos y filtrar el líquido de cocción.",
+                        "Rehogar la cebolla en el aceite a fuego suave hasta que esté transparente y muy fina.",
+                        "Tostar el arroz un par de minutos y desglasar con el vino blanco.",
+                        "Mojar con el caldo de pescado filtrado, un cucharón cada vez, y cocer unos 16-18 minutos removiendo.",
+                        "Al final añadir los moluscos, la mantequilla fría y el perejil; montar con energía.",
+                        "Dejar reposar un minuto y servir enseguida en platos anchos para que el risotto se extienda."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "Ivanbranco",
+                "licenza": "CC BY-SA 4.0",
+                "url": "https://commons.wikimedia.org/wiki/User:Ivanbranco"
+            }
+        },
+        {
+            "id": "fasoi-in-potacin",
+            "nome": "Fasoi in potacìn",
+            "portata": "contorno",
+            "testo": {
+                "it": "Fagioli in umido tipici del Polesine: cotti lentamente con cipolla, aglio e un fondo di pomodoro, si servono caldi, spesso con polenta o accanto alla carne. Il nome deriva dal dialetto e indica la preparazione in tegame.",
+                "en": "Stewed beans typical of the Polesine: slowly cooked with onion, garlic and a tomato base, they are served hot, often with polenta or alongside meat. The name comes from the local dialect and refers to the cooking in a pot.",
+                "fr": "Haricots mijotés typiques du Polésine : cuits lentement avec oignon, ail et un fond de tomate, ils se servent chauds, souvent avec de la polenta ou à côté de la viande. Le nom vient du dialecte et désigne la cuisson en casserole.",
+                "de": "Typische Bohneneintöpfe aus dem Polesine: langsam mit Zwiebel, Knoblauch und einer Tomatenbasis gegart, werden sie heiß serviert, oft mit Polenta oder als Beilage zu Fleisch. Der Name stammt aus dem Dialekt und bezieht sich auf das Garen im Topf.",
+                "es": "Alubias guisadas típicas del Polesine: cocidas lentamente con cebolla, ajo y un fondo de tomate, se sirven calientes, a menudo con polenta o junto a la carne. El nombre viene del dialecto y se refiere a la cocción en cazuela."
+            },
+            "ricetta": {
+                "porzioni": 4,
+                "preparazione": {
+                    "it": "20 min + 12 ore di ammollo + 1 ora di cottura",
+                    "en": "20 min + 12 hours soaking + 1 hour cooking",
+                    "fr": "20 min + 12 h de trempage + 1 h de cuisson",
+                    "de": "20 Min. + 12 Std. Einweichen + 1 Std. Garzeit",
+                    "es": "20 min + 12 h de remojo + 1 h de cocción"
+                },
+                "ingredienti": {
+                    "it": [
+                        "400 g di fagioli borlotti secchi",
+                        "1 cipolla dorata",
+                        "2 spicchi d'aglio",
+                        "60 g di pancetta o lardo",
+                        "200 g di passata di pomodoro",
+                        "1 foglia di alloro",
+                        "3 cucchiai di olio extravergine d'oliva",
+                        "Sale e pepe q.b.",
+                        "Acqua calda q.b."
+                    ],
+                    "en": [
+                        "400 g dried borlotti beans",
+                        "1 golden onion",
+                        "2 garlic cloves",
+                        "60 g pancetta or lard",
+                        "200 g tomato passata",
+                        "1 bay leaf",
+                        "3 tablespoons extra virgin olive oil",
+                        "Salt and pepper as needed",
+                        "Hot water as needed"
+                    ],
+                    "fr": [
+                        "400 g de haricots borlotti secs",
+                        "1 oignon doré",
+                        "2 gousses d'ail",
+                        "60 g de pancetta ou de lard",
+                        "200 g de purée de tomates",
+                        "1 feuille de laurier",
+                        "3 cuillères à soupe d'huile d'olive extra vierge",
+                        "Sel et poivre selon besoin",
+                        "Eau chaude selon besoin"
+                    ],
+                    "de": [
+                        "400 g getrocknete Borlotti-Bohnen",
+                        "1 goldgelbe Zwiebel",
+                        "2 Knoblauchzehen",
+                        "60 g Pancetta oder Speck",
+                        "200 g Tomatenpassata",
+                        "1 Lorbeerblatt",
+                        "3 EL natives Olivenöl extra",
+                        "Salz und Pfeffer nach Bedarf",
+                        "Heißes Wasser nach Bedarf"
+                    ],
+                    "es": [
+                        "400 g de alubias borlotti secas",
+                        "1 cebolla dorada",
+                        "2 dientes de ajo",
+                        "60 g de panceta o tocino",
+                        "200 g de tomate triturado",
+                        "1 hoja de laurel",
+                        "3 cucharadas de aceite de oliva virgen extra",
+                        "Sal y pimienta al gusto",
+                        "Agua caliente al gusto"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Mettere i fagioli in ammollo in acqua fredda per almeno 12 ore, poi scolarli.",
+                        "Lessarli in acqua con l'alloro per circa 40 minuti, finché sono teneri; tenere da parte un po' di liquido di cottura.",
+                        "In un tegame soffriggere la cipolla tritata, l'aglio e la pancetta con l'olio.",
+                        "Aggiungere la passata di pomodoro e cuocere 5 minuti, poi unire i fagioli scolati e un mestolo del loro brodo.",
+                        "Cuocere a fuoco lento per circa 20 minuti, aggiungendo acqua calda se serve; salare e pepare a piacere e servire caldi."
+                    ],
+                    "en": [
+                        "Soak the beans in cold water for at least 12 hours, then drain them.",
+                        "Boil them in water with the bay leaf for about 40 minutes, until tender; keep some of the cooking liquid aside.",
+                        "In a pan, soften the chopped onion, garlic and pancetta in the oil.",
+                        "Add the tomato passata and cook for 5 minutes, then add the drained beans and a ladle of their broth.",
+                        "Simmer gently for about 20 minutes, adding hot water if needed; season with salt and pepper and serve hot."
+                    ],
+                    "fr": [
+                        "Faire tremper les haricots dans de l'eau froide pendant au moins 12 heures, puis les égoutter.",
+                        "Les cuire dans l'eau avec la feuille de laurier pendant environ 40 minutes, jusqu'à ce qu'ils soient tendres ; réserver un peu de l'eau de cuisson.",
+                        "Dans une casserole, faire revenir l'oignon haché, l'ail et la pancetta dans l'huile.",
+                        "Ajouter la purée de tomates et cuire 5 minutes, puis ajouter les haricots égouttés et une louche de leur bouillon.",
+                        "Laisser mijoter environ 20 minutes à feu doux, en ajoutant de l'eau chaude si besoin ; saler, poivrer et servir chaud."
+                    ],
+                    "de": [
+                        "Die Bohnen mindestens 12 Stunden in kaltem Wasser einweichen, dann abgießen.",
+                        "Mit dem Lorbeerblatt etwa 40 Minuten in Wasser weich kochen; etwas Kochwasser aufheben.",
+                        "Die gehackte Zwiebel, den Knoblauch und die Pancetta im Öl in einem Topf anschwitzen.",
+                        "Die Tomatenpassata dazugeben und 5 Minuten köcheln lassen, dann die abgetropften Bohnen und eine Kelle ihrer Brühe hinzufügen.",
+                        "Etwa 20 Minuten sanft köcheln lassen, bei Bedarf heißes Wasser nachgießen; würzen und heiß servieren."
+                    ],
+                    "es": [
+                        "Remojar las alubias en agua fría al menos 12 horas y escurrirlas.",
+                        "Cocerlas en agua con el laurel unos 40 minutos, hasta que estén tiernas; reservar un poco del líquido de cocción.",
+                        "En una cazuela, rehogar la cebolla picada, el ajo y la panceta en el aceite.",
+                        "Añadir el tomate triturado y cocer 5 minutos; luego incorporar las alubias escurridas y un cucharón de su caldo.",
+                        "Cocer a fuego lento unos 20 minutos, añadiendo agua caliente si hace falta; salpimentar y servir caliente."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "PROPOLI87",
+                "licenza": "CC BY-SA 4.0",
+                "url": "https://commons.wikimedia.org/wiki/User:PROPOLI87"
+            }
+        },
+        {
+            "id": "pinza-onta",
+            "nome": "Pinza onta",
+            "portata": "secondo",
+            "testo": {
+                "it": "La pinza onta è la versione salata della pinza: un pane piatto e unto, arricchito con ciccioli e strutto, tipico del Polesine. Si mangia tiepido o freddo e accompagna bene salumi e formaggi.",
+                "en": "Pinza onta is the savoury version of pinza: a flat, rich bread enriched with pork cracklings and lard, typical of the Polesine. It is eaten warm or cold and goes well with cured meats and cheeses.",
+                "fr": "La pinza onta est la version salée de la pinza : un pain plat et riche, enrichi de grattons de porc et de saindoux, typique du Polésine. On la mange tiède ou froide, elle accompagne bien les charcuteries et les fromages.",
+                "de": "Die Pinza onta ist die herzhafte Version der Pinza: ein flaches, fettreiches Brot mit Schweineschmalzgrieben und Schmalz, typisch für das Polesine. Man isst sie lauwarm oder kalt, sie passt gut zu Wurst und Käse.",
+                "es": "La pinza onta es la versión salada de la pinza: un pan plano y untuoso, enriquecido con chicharrones y manteca de cerdo, típico del Polesine. Se come templado o frío y combina bien con embutidos y quesos."
+            },
+            "ricetta": {
+                "porzioni": 6,
+                "preparazione": {
+                    "it": "30 min + lievitazione + 30 min di cottura",
+                    "en": "30 min + rising + 30 min baking",
+                    "fr": "30 min + levée + 30 min de cuisson",
+                    "de": "30 Min. + Gehzeit + 30 Min. Backzeit",
+                    "es": "30 min + levado + 30 min de horneado"
+                },
+                "ingredienti": {
+                    "it": [
+                        "1 kg di farina 0",
+                        "100 g di strutto",
+                        "300 g di ciccioli di maiale",
+                        "25 g di lievito di birra fresco",
+                        "Acqua tiepida q.b.",
+                        "1 cucchiaio di olio extravergine d'oliva",
+                        "Sale q.b.",
+                        "1 rametto di rosmarino"
+                    ],
+                    "en": [
+                        "1 kg type 0 flour",
+                        "100 g lard",
+                        "300 g pork cracklings",
+                        "25 g fresh brewer's yeast",
+                        "Lukewarm water as needed",
+                        "1 tablespoon extra virgin olive oil",
+                        "Salt as needed",
+                        "1 sprig of rosemary"
+                    ],
+                    "fr": [
+                        "1 kg de farine type 0",
+                        "100 g de saindoux",
+                        "300 g de grattons de porc",
+                        "25 g de levure de boulanger fraîche",
+                        "Eau tiède selon besoin",
+                        "1 cuillère à soupe d'huile d'olive extra vierge",
+                        "Sel selon besoin",
+                        "1 brin de romarin"
+                    ],
+                    "de": [
+                        "1 kg Mehl Type 0",
+                        "100 g Schmalz",
+                        "300 g Schweineschmalzgriebe",
+                        "25 g frische Hefe",
+                        "Lauwarmes Wasser nach Bedarf",
+                        "1 EL natives Olivenöl extra",
+                        "Salz nach Bedarf",
+                        "1 Zweig Rosmarin"
+                    ],
+                    "es": [
+                        "1 kg de harina tipo 0",
+                        "100 g de manteca de cerdo",
+                        "300 g de chicharrones",
+                        "25 g de levadura de panadero fresca",
+                        "Agua tibia al gusto",
+                        "1 cucharada de aceite de oliva virgen extra",
+                        "Sal al gusto",
+                        "1 ramita de romero"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Sciogliere il lievito in poca acqua tiepida.",
+                        "Impastare la farina con il lievito, lo strutto ammorbidito, i ciccioli spezzettati, il sale, l'olio, il rosmarino tritato e acqua tiepida quanto basta, fino a ottenere un impasto liscio.",
+                        "Lasciare lievitare coperto fino al raddoppio.",
+                        "Stendere l'impasto in una teglia unta, premendo con le dita, e praticare dei tagli con la punta di un coltello.",
+                        "Cuocere in forno preriscaldato a 200 °C per circa 30 minuti, finché la superficie è dorata.",
+                        "Lasciar raffreddare e servire tiepida o fredda."
+                    ],
+                    "en": [
+                        "Dissolve the yeast in a little lukewarm water.",
+                        "Knead the flour with the yeast, softened lard, broken cracklings, salt, oil, chopped rosemary and enough lukewarm water to obtain a smooth dough.",
+                        "Cover and let it rise until doubled.",
+                        "Spread the dough in an oiled baking tray, pressing with your fingers, and cut some slits with the tip of a knife.",
+                        "Bake in a preheated oven at 200 °C for about 30 minutes, until the surface is golden.",
+                        "Let it cool and serve warm or cold."
+                    ],
+                    "fr": [
+                        "Délayer la levure dans un peu d'eau tiède.",
+                        "Pétrir la farine avec la levure, le saindoux ramolli, les grattons émiettés, le sel, l'huile, le romarin haché et assez d'eau tiède pour obtenir une pâte lisse.",
+                        "Couvrir et laisser lever jusqu'à doubler de volume.",
+                        "Étaler la pâte dans un plat huilé en appuyant avec les doigts, puis faire des entailles avec la pointe d'un couteau.",
+                        "Cuire au four préchauffé à 200 °C pendant environ 30 minutes, jusqu'à ce que la surface soit dorée.",
+                        "Laisser refroidir et servir tiède ou froid."
+                    ],
+                    "de": [
+                        "Die Hefe in etwas lauwarmem Wasser auflösen.",
+                        "Das Mehl mit der Hefe, dem weichen Schmalz, den zerbröselten Grieben, Salz, Öl, gehacktem Rosmarin und so viel lauwarmem Wasser verkneten, dass ein glatter Teig entsteht.",
+                        "Zugedeckt gehen lassen, bis sich der Teig verdoppelt hat.",
+                        "Den Teig in einer gefetteten Form mit den Fingern flach drücken und mit einem Messer einschneiden.",
+                        "Im vorgeheizten Ofen bei 200 °C etwa 30 Minuten backen, bis die Oberfläche goldbraun ist.",
+                        "Abkühlen lassen und lauwarm oder kalt servieren."
+                    ],
+                    "es": [
+                        "Disolver la levadura en un poco de agua tibia.",
+                        "Amasar la harina con la levadura, la manteca blanda, los chicharrones troceados, la sal, el aceite, el romero picado y agua tibia suficiente hasta obtener una masa lisa.",
+                        "Dejar levar tapado hasta que doble su volumen.",
+                        "Extender la masa en una bandeja untada, presionando con los dedos, e hacer cortes con la punta de un cuchillo.",
+                        "Hornear en horno precalentado a 200 °C unos 30 minutos, hasta que la superficie esté dorada.",
+                        "Dejar enfriar y servir templada o fría."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "WhatamIdoing",
+                "licenza": "CC BY-SA 4.0",
+                "url": "https://commons.wikimedia.org/wiki/User:WhatamIdoing"
+            }
+        },
+        {
+            "id": "sugoli",
+            "nome": "Sugoli",
+            "portata": "dolce",
+            "testo": {
+                "it": "Dolce povero della vendemmia: il mosto d'uva, cotto e addensato con farina, diventa un budino da cucchiaio senza uova né latte. Nato per non sprecare l'uva meno adatta al vino, si gusta freddo.",
+                "en": "A humble harvest dessert: grape must, cooked and thickened with flour, becomes a spoonable pudding with no eggs or milk. Born so that grapes unsuitable for wine would not be wasted, it is served cold.",
+                "fr": "Un dessert pauvre des vendanges : le moût de raisin, cuit et lié à la farine, devient un pudding à la cuillère sans œufs ni lait. Né pour ne pas gaspiller les raisins peu adaptés au vin, il se déguste froid.",
+                "de": "Ein einfaches Erntedankdessert: Traubenmost, gekocht und mit Mehl gebunden, wird zu einem löffelbaren Pudding ohne Eier und Milch. Entstanden, damit Trauben, die sich nicht für Wein eignen, nicht verschwendet werden, wird er kalt serviert.",
+                "es": "Un postre humilde de la vendimia: el mosto de uva, cocido y espesado con harina, se convierte en un budín para cuchara sin huevos ni leche. Nacido para no desperdiciar las uvas poco aptas para el vino, se sirve frío."
+            },
+            "ricetta": {
+                "porzioni": 4,
+                "preparazione": {
+                    "it": "20 min + raffreddamento in frigo",
+                    "en": "20 min + cooling in the fridge",
+                    "fr": "20 min + refroidissement au frigo",
+                    "de": "20 Min. + Abkühlen im Kühlschrank",
+                    "es": "20 min + enfriado en la nevera"
+                },
+                "ingredienti": {
+                    "it": [
+                        "1 l di mosto d'uva (preferibilmente uva fragola o rossa)",
+                        "120 g di farina 00 (oppure metà farina e metà farina di mais fine)",
+                        "100 ml di acqua fredda",
+                        "Zucchero q.b. (facoltativo, solo se il mosto è acido)"
+                    ],
+                    "en": [
+                        "1 l grape must (preferably Fragola or red grapes)",
+                        "120 g type 00 flour (or half flour and half fine cornmeal)",
+                        "100 ml cold water",
+                        "Sugar as needed (optional, only if the must is acidic)"
+                    ],
+                    "fr": [
+                        "1 l de moût de raisin (de préférence Fragola ou raisin rouge)",
+                        "120 g de farine 00 (ou moitié farine et moitié farine de maïs fine)",
+                        "100 ml d'eau froide",
+                        "Sucre selon besoin (facultatif, seulement si le moût est acide)"
+                    ],
+                    "de": [
+                        "1 l Traubenmost (am besten Fragola oder rote Trauben)",
+                        "120 g Mehl Type 00 (oder zur Hälfte feines Maismehl)",
+                        "100 ml kaltes Wasser",
+                        "Zucker nach Bedarf (optional, nur wenn der Most sauer ist)"
+                    ],
+                    "es": [
+                        "1 l de mosto de uva (preferiblemente fragola o tinta)",
+                        "120 g de harina 00 (o mitad harina y mitad harina de maíz fina)",
+                        "100 ml de agua fría",
+                        "Azúcar al gusto (opcional, solo si el mosto es ácido)"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Versare il mosto in una casseruola e portarlo a bollore a fuoco medio.",
+                        "In una ciotola stemperare la farina con l'acqua fredda fino a ottenere un composto senza grumi.",
+                        "Versare il composto nel mosto caldo a filo, mescolando di continuo con un frustino.",
+                        "Cuocere per 5-6 minuti, sempre mescolando, finché il composto è denso come una crema da cucchiaio.",
+                        "Aggiungere zucchero solo se necessario, poi versare nelle coppette.",
+                        "Lasciare raffreddare a temperatura ambiente e conservare in frigorifero per alcune ore prima di servire."
+                    ],
+                    "en": [
+                        "Pour the must into a saucepan and bring to a boil over medium heat.",
+                        "In a bowl, mix the flour with the cold water until smooth and lump-free.",
+                        "Pour the mixture into the hot must in a thin stream, whisking constantly.",
+                        "Cook for 5-6 minutes, always stirring, until the mixture is thick like a spoonable cream.",
+                        "Add sugar only if needed, then pour into small bowls.",
+                        "Let it cool to room temperature, then chill in the fridge for a few hours before serving."
+                    ],
+                    "fr": [
+                        "Verser le moût dans une casserole et porter à ébullition à feu moyen.",
+                        "Dans un bol, délayer la farine avec l'eau froide jusqu'à obtenir un mélange sans grumeaux.",
+                        "Verser le mélange dans le moût chaud en filet, en fouettant sans arrêt.",
+                        "Cuire 5 à 6 minutes en remuant toujours, jusqu'à obtenir une crème épaisse à la cuillère.",
+                        "Ajouter du sucre seulement si nécessaire, puis verser dans des coupelles.",
+                        "Laisser refroidir à température ambiante puis réfrigérer quelques heures avant de servir."
+                    ],
+                    "de": [
+                        "Den Most in einen Topf geben und bei mittlerer Hitze zum Kochen bringen.",
+                        "Das Mehl in einer Schüssel mit dem kalten Wasser glatt rühren, ohne Klümpchen.",
+                        "Die Mischung dünn in den heißen Most einlaufen lassen und dabei ständig mit einem Schneebesen rühren.",
+                        "5 bis 6 Minuten kochen, dabei immer rühren, bis die Masse wie eine löffelbare Creme dick ist.",
+                        "Nur bei Bedarf Zucker hinzufügen, dann in Schälchen füllen.",
+                        "Bei Raumtemperatur abkühlen lassen und vor dem Servieren einige Stunden im Kühlschrank kalt stellen."
+                    ],
+                    "es": [
+                        "Verter el mosto en una cazuela y llevarlo a ebullición a fuego medio.",
+                        "En un bol, disolver la harina con el agua fría hasta obtener una mezcla sin grumos.",
+                        "Verter la mezcla en el mosto caliente en un hilo fino, batiendo sin parar.",
+                        "Cocer 5-6 minutos, removiendo siempre, hasta que quede espesa como una crema para cuchara.",
+                        "Añadir azúcar solo si hace falta y verter en cuencos.",
+                        "Dejar enfriar a temperatura ambiente y refrigerar unas horas antes de servir."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "Di Mirandolese",
+                "licenza": "CC BY-SA 4.0",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=43990223"
+            }
+        },
+        {
+            "id": "torta-patate-americane",
+            "nome": "Torta di patate americane",
+            "portata": "dolce",
+            "testo": {
+                "it": "Torta soffice preparata con le patate americane (patate dolci), che la rendono morbida e umida. Profumata con vaniglia e gocce di cioccolato, si conserva bene per più giorni.",
+                "en": "A soft cake made with sweet potatoes (American potatoes), which keep it moist and tender. Flavoured with vanilla and chocolate chips, it keeps well for several days.",
+                "fr": "Un gâteau moelleux préparé avec des patates américaines (patates douces), qui le rendent tendre et humide. Parfumé à la vanille et aux pépites de chocolat, il se conserve plusieurs jours.",
+                "de": "Ein luftiger Kuchen aus Süßkartoffeln (amerikanischen Kartoffeln), die ihn saftig und zart machen. Mit Vanille und Schokoladentropfen aromatisiert, hält er sich mehrere Tage gut.",
+                "es": "Una tarta esponjosa preparada con patatas americanas (batatas), que la hacen tierna y húmeda. Aromatizada con vainilla y pepitas de chocolate, se conserva bien varios días."
+            },
+            "ricetta": {
+                "porzioni": 10,
+                "preparazione": {
+                    "it": "40 min + circa 45 min di cottura",
+                    "en": "40 min + about 45 min baking",
+                    "fr": "40 min + environ 45 min de cuisson",
+                    "de": "40 Min. + etwa 45 Min. Backzeit",
+                    "es": "40 min + unos 45 min de horneado"
+                },
+                "ingredienti": {
+                    "it": [
+                        "250 g di patate americane (dolci)",
+                        "250 g di farina 00",
+                        "200 g di zucchero",
+                        "150 g di burro, fuso e fatto intiepidire",
+                        "150 g di gocce di cioccolato",
+                        "3 uova",
+                        "1 bustina di lievito per dolci",
+                        "1 cucchiaino di essenza di vaniglia",
+                        "1 pizzico di sale",
+                        "Zucchero a velo q.b. per spolverizzare"
+                    ],
+                    "en": [
+                        "250 g sweet potatoes",
+                        "250 g type 00 flour",
+                        "200 g sugar",
+                        "150 g butter, melted and cooled slightly",
+                        "150 g chocolate chips",
+                        "3 eggs",
+                        "1 sachet baking powder",
+                        "1 teaspoon vanilla extract",
+                        "1 pinch of salt",
+                        "Icing sugar to dust"
+                    ],
+                    "fr": [
+                        "250 g de patates douces",
+                        "250 g de farine 00",
+                        "200 g de sucre",
+                        "150 g de beurre fondu et refroidi",
+                        "150 g de pépites de chocolat",
+                        "3 œufs",
+                        "1 sachet de levure chimique",
+                        "1 cuillère à café d'extrait de vanille",
+                        "1 pincée de sel",
+                        "Sucre glace pour saupoudrer"
+                    ],
+                    "de": [
+                        "250 g Süßkartoffeln",
+                        "250 g Mehl Type 00",
+                        "200 g Zucker",
+                        "150 g Butter, geschmolzen und abgekühlt",
+                        "150 g Schokotropfen",
+                        "3 Eier",
+                        "1 Päckchen Backpulver",
+                        "1 TL Vanilleextrakt",
+                        "1 Prise Salz",
+                        "Puderzucker zum Bestäuben"
+                    ],
+                    "es": [
+                        "250 g de batatas",
+                        "250 g de harina 00",
+                        "200 g de azúcar",
+                        "150 g de mantequilla derretida y templada",
+                        "150 g de pepitas de chocolate",
+                        "3 huevos",
+                        "1 sobre de levadura en polvo",
+                        "1 cucharadita de esencia de vainilla",
+                        "1 pizca de sal",
+                        "Azúcar glas para espolvorear"
+                    ]
+                },
+                "passaggi": {
+                    "it": [
+                        "Lessare le patate in acqua salata bollente finché sono tenere; scolarle, lasciarle intiepidire, sbucciarle e schiacciarle fino a ottenere una purea.",
+                        "Montare le uova con lo zucchero fino a ottenere un composto gonfio e spumoso.",
+                        "Unire la purea di patate e la vaniglia, poi incorporare a filo il burro fuso e raffreddato.",
+                        "Aggiungere la farina setacciata con il lievito e un pizzico di sale, lavorando fino a un impasto liscio.",
+                        "Incorporare le gocce di cioccolato con una spatola.",
+                        "Versare in uno stampo da 24 cm imburrato e infornare a 180 °C per circa 45 minuti; controllare la cottura con uno stecchino.",
+                        "Lasciare raffreddare completamente prima di sformare e spolverizzare con zucchero a velo."
+                    ],
+                    "en": [
+                        "Boil the potatoes in salted water until tender; drain, let them cool slightly, peel and mash to a purée.",
+                        "Whisk the eggs with the sugar until pale, fluffy and voluminous.",
+                        "Add the potato purée and vanilla, then slowly incorporate the melted and cooled butter.",
+                        "Add the sifted flour with the baking powder and a pinch of salt, mixing until smooth.",
+                        "Fold in the chocolate chips with a spatula.",
+                        "Pour into a buttered 24 cm tin and bake at 180 °C for about 45 minutes; check with a toothpick.",
+                        "Let it cool completely before unmoulding, then dust with icing sugar."
+                    ],
+                    "fr": [
+                        "Cuire les patates dans l'eau salée jusqu'à ce qu'elles soient tendres ; égoutter, laisser tiédir, peler et écraser en purée.",
+                        "Fouetter les œufs avec le sucre jusqu'à obtenir un mélange gonflé et mousseux.",
+                        "Ajouter la purée et la vanille, puis incorporer petit à petit le beurre fondu et refroidi.",
+                        "Ajouter la farine tamisée avec la levure et une pincée de sel, en travaillant jusqu'à une pâte lisse.",
+                        "Incorporer les pépites de chocolat à la spatule.",
+                        "Verser dans un moule de 24 cm beurré et cuire à 180 °C pendant environ 45 minutes ; vérifier avec un cure-dent.",
+                        "Laisser refroidir complètement avant de démouler, puis saupoudrer de sucre glace."
+                    ],
+                    "de": [
+                        "Die Süßkartoffeln in Salzwasser weich kochen; abgießen, leicht abkühlen lassen, schälen und zu Püree zerdrücken.",
+                        "Eier mit dem Zucker schaumig und luftig aufschlagen.",
+                        "Das Püree und die Vanille unterrühren, dann die geschmolzene, abgekühlte Butter langsam einarbeiten.",
+                        "Das gesiebte Mehl mit dem Backpulver und einer Prise Salz zugeben und zu einem glatten Teig verrühren.",
+                        "Die Schokotropfen mit einem Spatel unterheben.",
+                        "In eine gebutterte Form von 24 cm füllen und bei 180 °C etwa 45 Minuten backen; mit einem Holzstäbchen prüfen.",
+                        "Vollständig auskühlen lassen, bevor der Kuchen gestürzt wird, und mit Puderzucker bestäuben."
+                    ],
+                    "es": [
+                        "Cocer las batatas en agua con sal hasta que estén tiernas; escurrir, dejar templar, pelar y triturar hasta obtener un puré.",
+                        "Batir los huevos con el azúcar hasta que estén espumosos y esponjosos.",
+                        "Añadir el puré y la vainilla, e incorporar poco a poco la mantequilla derretida y templada.",
+                        "Agregar la harina tamizada con la levadura y una pizca de sal, mezclando hasta obtener una masa lisa.",
+                        "Incorporar las pepitas de chocolate con una espátula.",
+                        "Verter en un molde de 24 cm engrasado y hornear a 180 °C unos 45 minutos; comprobar con un palillo.",
+                        "Dejar enfriar del todo antes de desmoldar y espolvorear con azúcar glas."
+                    ]
+                }
+            },
+            "foto": {
+                "autore": "F_A",
+                "licenza": "CC BY 2.0",
+                "url": "https://creativecommons.org/licenses/by/2.0"
+            }
+        },
+        {
+            "id": "cozza-scardovari-dop",
+            "nome": "Cozza di Scardovari DOP",
+            "portata": "secondo",
+            "testo": {
+                "it": "La cozza di Scardovari DOP è allevata nella sacca di Scardovari, nel Delta del Po: un mollusco dal sapore delicato e dolce, l'unica cozza italiana a denominazione d'origine protetta.",
+                "en": "The Cozza di Scardovari DOP is farmed in the Scardovari lagoon, in the Po Delta: a mussel with a delicate, sweet flavour, and the only Italian mussel with a Protected Designation of Origin.",
+                "fr": "La cozza di Scardovari DOP est élevée dans la lagune de Scardovari, dans le delta du Pô : une moule à la saveur délicate et douce, la seule moule italienne bénéficiant d'une appellation d'origine protégée.",
+                "de": "Die Cozza di Scardovari DOP wird in der Lagune von Scardovari im Po-Delta gezüchtet: eine Miesmuschel mit feinem, süßlichem Geschmack und die einzige italienische Miesmuschel mit geschützter Ursprungsbezeichnung.",
+                "es": "La cozza di Scardovari DOP se cría en la laguna de Scardovari, en el delta del Po: un mejillón de sabor delicado y dulce, el único mejillón italiano con denominación de origen protegida."
+            },
+            "foto": {
+                "autore": "AntonioCaso93",
+                "licenza": "CC BY-SA 4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+        },
+        {
+            "id": "aglio-bianco-polesano-dop",
+            "nome": "Aglio Bianco Polesano DOP",
+            "portata": "contorno",
+            "testo": {
+                "it": "L'Aglio Bianco Polesano DOP è coltivato nel Polesine: bulbi dal profumo intenso e dal gusto delicato, apprezzati in cucina per condire, arrostire e profumare piatti di carne, pesce e verdure.",
+                "en": "Aglio Bianco Polesano DOP is grown in the Polesine: bulbs with an intense aroma and delicate taste, prized in cooking for seasoning, roasting and flavouring meat, fish and vegetable dishes.",
+                "fr": "L'Aglio Bianco Polesano DOP est cultivé dans le Polésine : des bulbes au parfum intense et au goût délicat, appréciés en cuisine pour assaisonner, rôtir et parfumer viandes, poissons et légumes.",
+                "de": "Der Aglio Bianco Polesano DOP wird im Polesine angebaut: Knollen mit intensivem Aroma und zartem Geschmack, die in der Küche zum Würzen, Rösten und Verfeinern von Fleisch-, Fisch- und Gemüsegerichten geschätzt werden.",
+                "es": "El Aglio Bianco Polesano DOP se cultiva en el Polesine: bulbos de aroma intenso y sabor delicado, muy apreciados en la cocina para sazonar, asar y aromatizar platos de carne, pescado y verduras."
+            },
+            "foto": {
+                "autore": "Pivari",
+                "licenza": "CC BY-SA 3.0",
+                "url": "https://commons.wikimedia.org/wiki/User:Pivari"
+            }
+        },
+        {
+            "id": "zucca-di-melara",
+            "nome": "Zucca di Melara",
+            "portata": "secondo",
+            "testo": {
+                "it": "La zucca di Melara è una varietà coltivata nel Polesine, con polpa dolce e compatta. È usata in cucina per primi piatti, tortelli e risotti, e per dolci tradizionali.",
+                "en": "Melara pumpkin is a variety grown in the Polesine, with sweet and firm flesh. It is used in cooking for first courses, tortelli and risottos, and for traditional desserts.",
+                "fr": "La courge de Melara est une variété cultivée dans le Polésine, à la chair sucrée et ferme. Elle sert en cuisine pour les premiers plats, les tortelli et les risottos, ainsi que pour les desserts traditionnels.",
+                "de": "Der Kürbis aus Melara ist eine im Polesine angebaute Sorte mit süßlichem, festem Fruchtfleisch. Er wird in der Küche für Erstgerichte, Tortelli und Risotto sowie für traditionelle Desserts verwendet.",
+                "es": "La calabaza de Melara es una variedad cultivada en el Polesine, de pulpa dulce y compacta. Se usa en la cocina para primeros platos, tortelli y risottos, y para postres tradicionales."
+            },
+            "foto": {
+                "autore": "fugzu",
+                "licenza": "CC BY 2.0",
+                "url": "https://www.flickr.com/people/70253321@N00"
+            }
+        },
+        {
+            "id": "anguilla-delta-po",
+            "nome": "Anguilla del Delta del Po",
+            "portata": "secondo",
+            "testo": {
+                "it": "L'anguilla del Delta del Po è una tradizione della pesca lagunare: di carne grassa e saporita, si prepara arrostita, marinata o in umido ed è la regina delle tavole delle feste.",
+                "en": "The eel of the Po Delta is a tradition of lagoon fishing: with rich, flavourful flesh, it is prepared roasted, marinated or stewed and is the star of festive tables.",
+                "fr": "L'anguille du delta du Pô est une tradition de la pêche lagunaire : à la chair grasse et savoureuse, elle se prépare rôtie, marinée ou en ragoût et règne sur les tables de fête.",
+                "de": "Der Aal aus dem Po-Delta ist eine Tradition der Lagunenfischerei: mit fettem, aromatischem Fleisch wird er gebraten, mariniert oder geschmort zubereitet und ist der Star festlicher Tafeln.",
+                "es": "La anguila del delta del Po es una tradición de la pesca lagunar: de carne grasa y sabrosa, se prepara asada, marinada o guisada y es la reina de las mesas festivas."
+            },
+            "foto": {
+                "autore": "Vranken Martin",
+                "licenza": "CC BY 4.0",
+                "url": "https://creativecommons.org/licenses/by/4.0"
+            }
+        },
+        {
+            "id": "mais-biancoperla",
+            "nome": "Mais Biancoperla",
+            "portata": "secondo",
+            "testo": {
+                "it": "Il mais Biancoperla è una varietà di mais bianco, dalle pannocchie perlacee e brillanti: è la farina tradizionale con cui si prepara la polenta bianca del Polesine.",
+                "en": "Biancoperla maize is a white variety with pearly, shiny cobs: it is the traditional flour used to make the white polenta of the Polesine.",
+                "fr": "Le maïs Biancoperla est une variété de maïs blanc aux épis perlés et brillants : c'est la farine traditionnelle avec laquelle on prépare la polenta blanche du Polésine.",
+                "de": "Der Biancoperla-Mais ist eine weiße Sorte mit perlartig glänzenden Kolben: Er ist das traditionelle Mehl, aus dem die weiße Polenta des Polesine zubereitet wird.",
+                "es": "El maíz Biancoperla es una variedad blanca de mazorcas perladas y brillantes: es la harina tradicional con la que se prepara la polenta blanca del Polesine."
+            },
+            "foto": {
+                "autore": "Roger Culos",
+                "licenza": "CC BY-SA 3.0",
+                "url": "https://commons.wikimedia.org/wiki/User:Erc%C3%A9"
+            }
+        }
+    ]
+}

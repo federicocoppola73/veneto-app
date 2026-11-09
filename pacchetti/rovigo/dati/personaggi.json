@@ -1,0 +1,646 @@
+{
+ "_nota": "Rovigo: personaggi legati ai luoghi. Ogni personaggio elenca i luoghi (luoghi); ogni luogo ha il campo personaggio con l'id.",
+ "personaggi": [
+  {
+   "id": "giovanni-miani",
+   "nome": "Giovanni Miani",
+   "nascita": 1810,
+   "morte": 1872,
+   "professione": {
+    "it": "Esploratore",
+    "en": "Explorer",
+    "fr": "Explorateur",
+    "de": "Forschungsreisender",
+    "es": "Explorador"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "17 marzo 1810",
+    "en": "17 March 1810",
+    "fr": "17 mars 1810",
+    "de": "17. März 1810",
+    "es": "17 de marzo de 1810"
+   },
+   "luogoMorte": {
+    "it": "Tangasi (Repubblica Democratica del Congo)",
+    "en": "Tangasi (Democratic Republic of the Congo)",
+    "fr": "Tangasi (République démocratique du Congo)",
+    "de": "Tangasi (Demokratische Republik Kongo)",
+    "es": "Tangasi (República Democrática del Congo)"
+   },
+   "dataMorte": {
+    "it": "21 novembre 1872",
+    "en": "21 November 1872",
+    "fr": "21 novembre 1872",
+    "de": "21. November 1872",
+    "es": "21 de noviembre de 1872"
+   },
+   "biografia": {
+    "it": "Giovanni Miani fu un esploratore, viaggiatore e studioso italiano, ricordato soprattutto per le spedizioni nell'Africa centrale e per le ricerche sulle sorgenti del Nilo. Dopo la giovinezza tra Venezia, l'Europa e l'Oriente, si trasferì in Egitto, da dove organizzò le sue spedizioni africane. Nel 1859 partì dal Cairo verso Khartum e poi raggiunse Gondokoro, proseguendo l'esplorazione di territori allora poco noti agli europei. Raccolse materiali etnografici e naturalistici e morì durante una spedizione nel bacino del fiume Uele, dopo grandi difficoltà e privazioni.",
+    "en": "Giovanni Miani was an Italian explorer, traveller and scholar, remembered above all for his expeditions into central Africa and his research on the sources of the Nile. After his youth between Venice, Europe and the East, he moved to Egypt, from where he organised his African expeditions. In 1859 he left Cairo for Khartoum and later reached Gondokoro, pushing further into territories little known to Europeans. He collected ethnographic and natural history material, and died during an expedition in the Uele river basin after great hardship.",
+    "fr": "Giovanni Miani fut un explorateur, voyageur et savant italien, surtout connu pour ses expéditions en Afrique centrale et ses recherches sur les sources du Nil. Après une jeunesse partagée entre Venise, l'Europe et l'Orient, il s'installa en Égypte, d'où il organisa ses expéditions africaines. En 1859 il quitta le Caire pour Khartoum, puis atteignit Gondokoro, poussant plus loin l'exploration de territoires peu connus des Européens. Il rassembla des matériaux ethnographiques et naturalistes et mourut au cours d'une expédition dans le bassin de l'Uele, après de grandes épreuves.",
+    "de": "Giovanni Miani war ein italienischer Entdecker, Reisender und Gelehrter, der vor allem für seine Expeditionen in Zentralafrika und seine Forschungen zu den Quellen des Nils bekannt ist. Nach seiner Jugend zwischen Venedig, Europa und dem Orient zog er nach Ägypten, von wo aus er seine afrikanischen Expeditionen organisierte. 1859 brach er von Kairo nach Khartum auf und erreichte später Gondokoro, wo er weiter in Gebiete vordrang, die den Europäern kaum bekannt waren. Er sammelte ethnografisches und naturkundliches Material und starb während einer Expedition im Einzugsgebiet des Uele nach großen Entbehrungen.",
+    "es": "Giovanni Miani fue un explorador, viajero y estudioso italiano, recordado sobre todo por sus expediciones al África central y por sus investigaciones sobre las fuentes del Nilo. Tras su juventud entre Venecia, Europa y Oriente, se instaló en Egipto, desde donde organizó sus expediciones africanas. En 1859 partió de El Cairo hacia Jartum y después llegó a Gondokoro, avanzando en territorios poco conocidos por los europeos. Reunió materiales etnográficos y naturalistas y murió durante una expedición en la cuenca del río Uele, tras grandes penurias."
+   },
+   "curiosita": {
+    "it": [
+     "Prima di dedicarsi alle esplorazioni coltivò un forte interesse per la musica e pubblicò studi di storia musicale.",
+     "Nel 1865 ricevette da Vittorio Emanuele II il titolo di cavaliere dell'Ordine dei Santi Maurizio e Lazzaro.",
+     "A Rovigo gli fu dedicato un busto dello scultore Giuseppe Soranzo, conservato presso l'Accademia dei Concordi."
+    ],
+    "en": [
+     "Before turning to exploration he developed a strong interest in music and published studies in music history.",
+     "In 1865 Victor Emmanuel II made him a knight of the Order of Saints Maurice and Lazarus.",
+     "In Rovigo a bust by the sculptor Giuseppe Soranzo was dedicated to him and is kept at the Accademia dei Concordi."
+    ],
+    "fr": [
+     "Avant de se consacrer aux explorations, il eut un vif intérêt pour la musique et publia des travaux d'histoire musicale.",
+     "En 1865 Victor-Emmanuel II le nomma chevalier de l'Ordre des saints Maurice et Lazare.",
+     "À Rovigo, un buste du sculpteur Giuseppe Soranzo lui est dédié et se trouve à l'Accademia dei Concordi."
+    ],
+    "de": [
+     "Bevor er sich der Forschung widmete, interessierte er sich stark für Musik und veröffentlichte musikhistorische Studien.",
+     "1865 verlieh ihm Viktor Emanuel II. den Ritterorden der Heiligen Mauritius und Lazarus.",
+     "In Rovigo wurde ihm eine Büste des Bildhauers Giuseppe Soranzo gewidmet, die in der Accademia dei Concordi aufbewahrt wird."
+    ],
+    "es": [
+     "Antes de dedicarse a las exploraciones, tuvo un fuerte interés por la música y publicó estudios de historia musical.",
+     "En 1865 Víctor Manuel II le concedió el título de caballero de la Orden de los Santos Mauricio y Lázaro.",
+     "En Rovigo se le dedicó un busto del escultor Giuseppe Soranzo, conservado en la Accademia dei Concordi."
+    ]
+   },
+   "luoghi": [
+    "accademia-dei-concordi",
+    "monumento-giovanni-miani"
+   ],
+   "luoghiNote": {
+    "accademia-dei-concordi": {
+     "tipo": {
+      "it": "Legame diretto",
+      "en": "Direct link",
+      "fr": "Lien direct",
+      "de": "Direkter Bezug",
+      "es": "Vínculo directo"
+     },
+     "testo": {
+      "it": "Qui si conserva il busto di Giovanni Miani, opera dello scultore Giuseppe Soranzo.",
+      "en": "The bust of Giovanni Miani, by the sculptor Giuseppe Soranzo, is kept here.",
+      "fr": "On y conserve le buste de Giovanni Miani, œuvre du sculpteur Giuseppe Soranzo.",
+      "de": "Hier wird die Büste von Giovanni Miani aufbewahrt, ein Werk des Bildhauers Giuseppe Soranzo.",
+      "es": "Aquí se conserva el busto de Giovanni Miani, obra del escultor Giuseppe Soranzo."
+     }
+    },
+    "monumento-giovanni-miani": {
+     "tipo": {
+      "it": "Monumento",
+      "en": "Monument",
+      "fr": "Monument",
+      "de": "Denkmal",
+      "es": "Monumento"
+     },
+     "testo": {
+      "it": "Monumento marmoreo inaugurato nel 1931, opera dello scultore Virgilio Milani.",
+      "en": "Marble monument unveiled in 1931, the work of the sculptor Virgilio Milani.",
+      "fr": "Monument en marbre inauguré en 1931, œuvre du sculpteur Virgilio Milani.",
+      "de": "Marmordenkmal, 1931 enthüllt, ein Werk des Bildhauers Virgilio Milani.",
+      "es": "Monumento de mármol inaugurado en 1931, obra del escultor Virgilio Milani."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Autore sconosciuto",
+    "licenza": "Pubblico dominio"
+   }
+  },
+  {
+   "id": "virgilio-milani",
+   "nome": "Virgilio Milani",
+   "nascita": 1888,
+   "morte": 1977,
+   "professione": {
+    "it": "Scultore",
+    "en": "Sculptor",
+    "fr": "Sculpteur",
+    "de": "Bildhauer",
+    "es": "Escultor"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "29 febbraio 1888",
+    "en": "29 February 1888",
+    "fr": "29 février 1888",
+    "de": "29. Februar 1888",
+    "es": "29 de febrero de 1888"
+   },
+   "luogoMorte": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataMorte": {
+    "it": "15 marzo 1977",
+    "en": "15 March 1977",
+    "fr": "15 mars 1977",
+    "de": "15. März 1977",
+    "es": "15 de marzo de 1977"
+   },
+   "biografia": {
+    "it": "Virgilio Milani è stato uno dei più importanti scultori polesani del Novecento. Nato e vissuto a Rovigo, ha dedicato gran parte della propria attività alla città e al territorio circostante. La sua produzione comprende monumenti, fontane, decorazioni architettoniche e opere funerarie. Il suo stile attraversa diverse influenze del primo Novecento, con particolare attenzione alla figura umana e alla scultura monumentale. Nel 1929 partecipò alla Biennale di Venezia. La sua attività è oggi documentata anche attraverso un itinerario urbano dedicato alle sue opere.",
+    "en": "Virgilio Milani was one of the most important sculptors of the Polesine region in the twentieth century. Born and raised in Rovigo, he devoted much of his work to the city and the surrounding area. His output includes monuments, fountains, architectural decoration and funerary works. His style reflects various early twentieth-century influences, with particular attention to the human figure and monumental sculpture. In 1929 he took part in the Venice Biennale. His work is also documented through an urban itinerary dedicated to his sculptures.",
+    "fr": "Virgilio Milani fut l'un des plus importants sculpteurs du Polésine au XXe siècle. Né et installé à Rovigo, il a consacré une grande partie de son activité à la ville et à son territoire. Sa production comprend des monuments, des fontaines, des décors architecturaux et des œuvres funéraires. Son style reflète diverses influences du début du XXe siècle, avec une attention particulière à la figure humaine et à la sculpture monumentale. En 1929 il participa à la Biennale de Venise. Son travail est aujourd'hui documenté par un itinéraire urbain consacré à ses œuvres.",
+    "de": "Virgilio Milani war einer der bedeutendsten Bildhauer des Polesine im 20. Jahrhundert. In Rovigo geboren und dort lebend, widmete er einen großen Teil seines Schaffens der Stadt und ihrer Umgebung. Sein Werk umfasst Denkmäler, Brunnen, architektonische Verzierungen und Grabmäler. Sein Stil zeigt verschiedene Einflüsse des frühen 20. Jahrhunderts, mit besonderem Augenmerk auf die menschliche Figur und die monumentale Skulptur. 1929 nahm er an der Biennale von Venedig teil. Sein Schaffen wird heute auch durch einen Stadtrundgang zu seinen Werken dokumentiert.",
+    "es": "Virgilio Milani fue uno de los escultores más importantes del Polesine en el siglo XX. Nacido y criado en Rovigo, dedicó gran parte de su obra a la ciudad y a su territorio. Su producción incluye monumentos, fuentes, decoraciones arquitectónicas y obras funerarias. Su estilo refleja diversas influencias de principios del siglo XX, con especial atención a la figura humana y a la escultura monumental. En 1929 participó en la Bienal de Venecia. Su obra se documenta hoy también a través de un itinerario urbano dedicado a sus obras."
+   },
+   "curiosita": {
+    "it": [
+     "La sua opera è molto presente nei cimiteri del Polesine: nel solo cimitero di Rovigo sono censite otto opere attribuite o riconducibili allo scultore.",
+     "Una delle sue realizzazioni più conosciute è la Fontana della Riconoscenza, nella piazza della stazione, legata alla solidarietà ricevuta dal Polesine dopo l'alluvione del 1951.",
+     "Anche la sua tomba, nel cimitero di Rovigo, è un'opera artistica: due figure bronzee, una maschile e una femminile, e rilievi con gli strumenti del suo lavoro e quelli della moglie."
+    ],
+    "en": [
+     "His works are very present in the cemeteries of the Polesine: in Rovigo's cemetery alone, eight works attributed to or linked with the sculptor are recorded.",
+     "One of his best-known works is the Fontana della Riconoscenza in the station square, linked to the solidarity the Polesine received after the 1951 flood.",
+     "His own tomb in Rovigo's cemetery is also an artwork: two bronze figures, a man and a woman, and reliefs with the tools of his trade and those of his wife."
+    ],
+    "fr": [
+     "Ses œuvres sont très présentes dans les cimetières du Polésine : dans le seul cimetière de Rovigo, huit œuvres attribuées au sculpteur ou qui s'y rattachent sont recensées.",
+     "Une de ses réalisations les plus connues est la Fontana della Riconoscenza, sur la place de la gare, liée à la solidarité reçue par le Polésine après l'inondation de 1951.",
+     "Sa propre tombe, dans le cimetière de Rovigo, est aussi une œuvre d'art : deux figures en bronze, un homme et une femme, et des reliefs avec les outils de son métier et ceux de son épouse."
+    ],
+    "de": [
+     "Seine Werke sind auf den Friedhöfen des Polesine sehr präsent: allein auf dem Friedhof von Rovigo sind acht Werke verzeichnet, die dem Bildhauer zugeschrieben werden oder ihm nahestehen.",
+     "Eine seiner bekanntesten Arbeiten ist der Brunnen der Dankbarkeit (Fontana della Riconoscenza) auf dem Bahnhofsplatz, der mit der Solidarität verbunden ist, die das Polesine nach der Flut von 1951 erfuhr.",
+     "Auch sein eigenes Grab auf dem Friedhof von Rovigo ist ein Kunstwerk: zwei Bronzefiguren, ein Mann und eine Frau, und Reliefs mit den Werkzeugen seines Berufs und denen seiner Frau."
+    ],
+    "es": [
+     "Su obra está muy presente en los cementerios del Polesine: solo en el cementerio de Rovigo se registran ocho obras atribuidas al escultor o relacionadas con él.",
+     "Una de sus realizaciones más conocidas es la Fontana della Riconoscenza, en la plaza de la estación, ligada a la solidaridad recibida por el Polesine tras la riada de 1951.",
+     "Su tumba, en el cementerio de Rovigo, también es una obra de arte: dos figuras de bronce, una masculina y otra femenina, y relieves con las herramientas de su oficio y las de su esposa."
+    ]
+   },
+   "luoghi": [
+    "cimitero-monumentale-rovigo",
+    "fontana-della-riconoscenza",
+    "ex-liceo-celio"
+   ],
+   "luoghiNote": {
+    "cimitero-monumentale-rovigo": {
+     "tipo": {
+      "it": "Legame diretto",
+      "en": "Direct link",
+      "fr": "Lien direct",
+      "de": "Direkter Bezug",
+      "es": "Vínculo directo"
+     },
+     "testo": {
+      "it": "Il cimitero custodisce otto sue opere, tra cui diverse tombe monumentali e la sua stessa tomba con la moglie Antonietta Bellinello.",
+      "en": "The cemetery holds eight of his works, including several monumental tombs and his own tomb with his wife Antonietta Bellinello.",
+      "fr": "Le cimetière abrite huit de ses œuvres, dont plusieurs tombes monumentales et sa propre tombe avec son épouse Antonietta Bellinello.",
+      "de": "Der Friedhof bewahrt acht seiner Werke, darunter mehrere monumentale Grabmäler und sein eigenes Grab mit seiner Frau Antonietta Bellinello.",
+      "es": "El cementerio conserva ocho de sus obras, entre ellas varias tumbas monumentales y su propia tumba con su esposa Antonietta Bellinello."
+     }
+    },
+    "fontana-della-riconoscenza": {
+     "tipo": {
+      "it": "Opera",
+      "en": "Work",
+      "fr": "Œuvre",
+      "de": "Werk",
+      "es": "Obra"
+     },
+     "testo": {
+      "it": "Realizzata nel 1952 su suo progetto, dedicata alla solidarietà ricevuta dopo l'alluvione del 1951.",
+      "en": "Built in 1952 to his design, dedicated to the solidarity received after the 1951 flood.",
+      "fr": "Réalisée en 1952 d'après son projet, dédiée à la solidarité reçue après l'inondation de 1951.",
+      "de": "1952 nach seinem Entwurf errichtet, gewidmet der Solidarität nach der Flut von 1951.",
+      "es": "Realizada en 1952 según su proyecto, dedicada a la solidaridad recibida tras la riada de 1951."
+     }
+    },
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Opera",
+      "en": "Work",
+      "fr": "Œuvre",
+      "de": "Werk",
+      "es": "Obra"
+     },
+     "testo": {
+      "it": "Ha realizzato il mosaico della facciata nel 1958, anno in cui fu completata la ricostruzione dell'edificio dopo i bombardamenti del febbraio 1945.",
+      "en": "He made the mosaic on the facade in 1958, the year the rebuilding of the building was completed after the bombing of February 1945.",
+      "fr": "Il réalisa la mosaïque de la façade en 1958, année où s'achève la reconstruction du bâtiment après les bombardements de février 1945.",
+      "de": "1958 schuf er das Mosaik an der Fassade, im Jahr, in dem der Wiederaufbau des Gebäudes nach den Bombardierungen vom Februar 1945 abgeschlossen wurde.",
+      "es": "Realizó el mosaico de la fachada en 1958, año en que se completó la reconstrucción del edificio tras los bombardeos de febrero de 1945."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Di Pivari",
+    "licenza": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "giacomo-matteotti",
+   "nome": "Giacomo Matteotti",
+   "nascita": 1885,
+   "morte": 1924,
+   "professione": {
+    "it": "Politico",
+    "en": "Politician",
+    "fr": "Homme politique",
+    "de": "Politiker",
+    "es": "Político"
+   },
+   "luogoNascita": {
+    "it": "Fratta Polesine (Rovigo)",
+    "en": "Fratta Polesine (Rovigo)",
+    "fr": "Fratta Polesine (Rovigo)",
+    "de": "Fratta Polesine (Rovigo)",
+    "es": "Fratta Polesine (Rovigo)"
+   },
+   "dataNascita": {
+    "it": "22 maggio 1885",
+    "en": "22 May 1885",
+    "fr": "22 mai 1885",
+    "de": "22. Mai 1885",
+    "es": "22 de mayo de 1885"
+   },
+   "luogoMorte": {
+    "it": "Roma",
+    "en": "Rome",
+    "fr": "Rome",
+    "de": "Rom",
+    "es": "Roma"
+   },
+   "dataMorte": {
+    "it": "10 giugno 1924",
+    "en": "10 June 1924",
+    "fr": "10 juin 1924",
+    "de": "10. Juni 1924",
+    "es": "10 de junio de 1924"
+   },
+   "biografia": {
+    "it": "Giacomo Matteotti fu un politico, giurista e parlamentare socialista, diventato uno dei simboli dell'antifascismo italiano. Nato a Fratta Polesine, frequentò il ginnasio a Rovigo e si laureò in giurisprudenza all'Università di Bologna nel 1907. Fin da giovane si impegnò nel movimento socialista, dedicandosi in particolare alle condizioni di vita dei braccianti agricoli e delle classi più povere del Polesine. Fu eletto deputato nel 1919 e rieletto nel 1921 e nel 1924. Denunciò pubblicamente le violenze fasciste e i brogli elettorali. Il 30 maggio 1924 pronunciò alla Camera un celebre discorso contro le irregolarità delle elezioni. Pochi giorni dopo, il 10 giugno, venne rapito e assassinato da una squadra fascista. Il suo corpo fu ritrovato nell'agosto dello stesso anno.",
+    "en": "Giacomo Matteotti was a socialist politician, jurist and member of parliament, and became one of the symbols of Italian anti-fascism. Born in Fratta Polesine, he attended the gymnasium in Rovigo and graduated in law from the University of Bologna in 1907. From a young age he committed himself to the socialist movement, focusing in particular on the living conditions of farm labourers and the poorest classes of the Polesine. He was elected deputy in 1919 and re-elected in 1921 and 1924. He publicly denounced fascist violence and electoral fraud. On 30 May 1924 he gave a famous speech in the Chamber against the irregularities of the elections. A few days later, on 10 June, he was kidnapped and murdered by a fascist squad. His body was found in August of the same year.",
+    "fr": "Giacomo Matteotti fut un homme politique, juriste et parlementaire socialiste, devenu l'un des symboles de l'antifascisme italien. Né à Fratta Polesine, il fréquenta le gymnase à Rovigo et obtint une licence en droit à l'université de Bologne en 1907. Dès sa jeunesse, il s'engagea dans le mouvement socialiste, en se consacrant surtout aux conditions de vie des ouvriers agricoles et des classes les plus pauvres du Polésine. Élu député en 1919, il fut réélu en 1921 et en 1924. Il dénonça publiquement les violences fascistes et les fraudes électorales. Le 30 mai 1924, il prononça à la Chambre un discours célèbre contre les irrégularités des élections. Quelques jours plus tard, le 10 juin, il fut enlevé et assassiné par une escouade fasciste. Son corps fut retrouvé en août de la même année.",
+    "de": "Giacomo Matteotti war ein sozialistischer Politiker, Jurist und Parlamentarier und wurde zu einem der Symbole des italienischen Antifaschismus. Geboren in Fratta Polesine, besuchte er das Gymnasium in Rovigo und schloss 1907 sein Jurastudium an der Universität Bologna ab. Schon als junger Mann engagierte er sich in der sozialistischen Bewegung, vor allem für die Lebensbedingungen der Landarbeiter und der ärmsten Schichten des Polesine. 1919 wurde er zum Abgeordneten gewählt und 1921 sowie 1924 wiedergewählt. Er prangerte öffentlich die faschistische Gewalt und den Wahlbetrug an. Am 30. Mai 1924 hielt er in der Kammer eine berühmte Rede gegen die Unregelmäßigkeiten der Wahlen. Wenige Tage später, am 10. Juni, wurde er von einem faschistischen Trupp entführt und ermordet. Sein Leichnam wurde im August desselben Jahres gefunden.",
+    "es": "Giacomo Matteotti fue un político, jurista y parlamentario socialista, y se convirtió en uno de los símbolos del antifascismo italiano. Nacido en Fratta Polesine, cursó el bachillerato en Rovigo y se licenció en Derecho en la Universidad de Bolonia en 1907. Desde joven se comprometió con el movimiento socialista, dedicándose en particular a las condiciones de vida de los jornaleros agrícolas y de las clases más pobres del Polesine. Fue elegido diputado en 1919 y reelegido en 1921 y 1924. Denunció públicamente la violencia fascista y el fraude electoral. El 30 de mayo de 1924 pronunció en la Cámara un célebre discurso contra las irregularidades de las elecciones. Pocos días después, el 10 de junio, fue secuestrado y asesinado por una escuadra fascista. Su cuerpo fue hallado en agosto de ese mismo año."
+   },
+   "curiosita": {
+    "it": [
+     "Fu compagno di studi di Umberto Merlin al Liceo Celio di Rovigo: i due avrebbero poi seguito percorsi politici molto diversi.",
+     "Nel 1921 pubblicò un'inchiesta sulle violenze delle squadre fasciste, documentando episodi avvenuti in diverse zone d'Italia.",
+     "La sua morte provocò una gravissima crisi politica, conosciuta come crisi dell'Aventino, che vide le opposizioni abbandonare i lavori parlamentari."
+    ],
+    "en": [
+     "He was a schoolmate of Umberto Merlin at the Celio high school in Rovigo: the two later followed very different political paths.",
+     "In 1921 he published an investigation into the violence of the fascist squads, documenting episodes in several parts of Italy.",
+     "His murder provoked a very serious political crisis, known as the Aventine secession, in which the opposition left parliamentary work."
+    ],
+    "fr": [
+     "Il fut camarade d'études d'Umberto Merlin au lycée Celio de Rovigo : les deux hommes suivirent ensuite des parcours politiques très différents.",
+     "En 1921, il publia une enquête sur les violences des escouades fascistes, documentant des épisodes survenus dans plusieurs régions d'Italie.",
+     "Son assassinat provoqua une très grave crise politique, connue sous le nom de sécession de l'Aventin, au cours de laquelle l'opposition abandonna les travaux parlementaires."
+    ],
+    "de": [
+     "Er war Mitschüler von Umberto Merlin am Gymnasium Celio in Rovigo; die beiden verfolgten später sehr unterschiedliche politische Wege.",
+     "1921 veröffentlichte er eine Untersuchung über die Gewalt der faschistischen Squadre und dokumentierte Vorfälle in verschiedenen Regionen Italiens.",
+     "Sein Tod löste eine schwere politische Krise aus, die als Aventin-Sezession bekannt ist: Die Opposition verließ die parlamentarischen Arbeiten."
+    ],
+    "es": [
+     "Fue compañero de estudios de Umberto Merlin en el Liceo Celio de Rovigo: los dos siguieron después trayectorias políticas muy distintas.",
+     "En 1921 publicó una investigación sobre la violencia de las escuadras fascistas, documentando episodios ocurridos en distintas zonas de Italia.",
+     "Su muerte provocó una gravísima crisis política, conocida como la secesión del Aventino, en la que la oposición abandonó los trabajos parlamentarios."
+    ]
+   },
+   "luoghi": [
+    "ex-liceo-celio"
+   ],
+   "luoghiNote": {
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Formazione",
+      "en": "Education",
+      "fr": "Formation",
+      "de": "Ausbildung",
+      "es": "Formación"
+     },
+     "testo": {
+      "it": "Qui frequentò gli studi superiori e conseguì il diploma nel 1903.",
+      "en": "He attended his secondary studies here and obtained his diploma in 1903.",
+      "fr": "Il y effectua ses études secondaires et obtint son diplôme en 1903.",
+      "de": "Hier absolvierte er seine höhere Schulbildung und legte 1903 sein Abitur ab.",
+      "es": "Aquí cursó los estudios superiores y obtuvo el diploma en 1903."
+     }
+    }
+   },
+   "collegati": [
+    {
+     "id": "umberto-merlin",
+     "testo": {
+      "it": "Giacomo Matteotti e Umberto Merlin furono compagni di classe al Liceo Celio.",
+      "en": "Giacomo Matteotti and Umberto Merlin were classmates at the Liceo Celio.",
+      "fr": "Giacomo Matteotti et Umberto Merlin furent camarades de classe au lycée Celio.",
+      "de": "Giacomo Matteotti und Umberto Merlin waren Mitschüler am Gymnasium Celio.",
+      "es": "Giacomo Matteotti y Umberto Merlin fueron compañeros de clase en el Liceo Celio."
+     }
+    }
+   ],
+   "ritratto": {
+    "autore": "Autore sconosciuto",
+    "licenza": "Pubblico dominio"
+   }
+  },
+  {
+   "id": "umberto-merlin",
+   "nome": "Umberto Merlin",
+   "nascita": 1885,
+   "morte": 1964,
+   "professione": {
+    "it": "Politico",
+    "en": "Politician",
+    "fr": "Homme politique",
+    "de": "Politiker",
+    "es": "Político"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "17 febbraio 1885",
+    "en": "17 February 1885",
+    "fr": "17 février 1885",
+    "de": "17. Februar 1885",
+    "es": "17 de febrero de 1885"
+   },
+   "luogoMorte": {
+    "it": "Padova",
+    "en": "Padua",
+    "fr": "Padoue",
+    "de": "Padua",
+    "es": "Padua"
+   },
+   "dataMorte": {
+    "it": "22 maggio 1964",
+    "en": "22 May 1964",
+    "fr": "22 mai 1964",
+    "de": "22. Mai 1964",
+    "es": "22 de mayo de 1964"
+   },
+   "biografia": {
+    "it": "Umberto Merlin fu un avvocato e politico cattolico, protagonista della vita pubblica rodigina e nazionale. Dopo essersi laureato in giurisprudenza a Padova, si impegnò nel movimento cattolico e nella politica locale. Fu deputato, partecipò all'Assemblea Costituente e successivamente ricoprì il ruolo di senatore della Repubblica. Dopo la Liberazione fu il primo sindaco di Rovigo dell'Italia liberata. La sua attività politica si sviluppò soprattutto nell'ambito del cattolicesimo democratico e dell'impegno sociale.",
+    "en": "Umberto Merlin was a lawyer and Catholic politician, a protagonist of public life in Rovigo and nationally. After graduating in law in Padua, he committed himself to the Catholic movement and to local politics. He was a deputy, took part in the Constituent Assembly and later served as senator of the Republic. After the Liberation he was the first mayor of Rovigo in liberated Italy. His political activity developed above all within Christian democracy and social commitment.",
+    "fr": "Umberto Merlin fut un avocat et homme politique catholique, protagoniste de la vie publique de Rovigo et nationale. Après une licence en droit à Padoue, il s'engagea dans le mouvement catholique et dans la politique locale. Il fut député, participa à l'Assemblée constituante puis fut sénateur de la République. Après la Libération, il devint le premier maire de Rovigo de l'Italie libérée. Son activité politique se développa surtout dans le cadre de la démocratie chrétienne et de l'engagement social.",
+    "de": "Umberto Merlin war Rechtsanwalt und katholischer Politiker, eine prägende Gestalt des öffentlichen Lebens in Rovigo und in ganz Italien. Nach dem Jurastudium in Padua engagierte er sich in der katholischen Bewegung und in der lokalen Politik. Er war Abgeordneter, wirkte in der verfassunggebenden Versammlung mit und wurde später Senator der Republik. Nach der Befreiung war er der erste Bürgermeister von Rovigo im befreiten Italien. Seine politische Tätigkeit entfaltete sich vor allem im Rahmen des christlichen Demokratismus und des sozialen Engagements.",
+    "es": "Umberto Merlin fue abogado y político católico, protagonista de la vida pública de Rovigo y de la nacional. Tras licenciarse en Derecho en Padua, se comprometió con el movimiento católico y con la política local. Fue diputado, participó en la Asamblea Constituyente y después fue senador de la República. Tras la Liberación fue el primer alcalde de Rovigo en la Italia liberada. Su actividad política se desarrolló sobre todo en el ámbito de la democracia cristiana y el compromiso social."
+   },
+   "curiosita": {
+    "it": [
+     "Fu compagno di classe di Giacomo Matteotti al Liceo Celio: due personalità nate nello stesso anno e nella stessa città, ma appartenenti a tradizioni politiche differenti.",
+     "Durante il fascismo fu dichiarato decaduto dalla carica parlamentare nel 1926.",
+     "Fu componente dell'Assemblea Costituente e partecipò alla nascita della Repubblica italiana."
+    ],
+    "en": [
+     "He was a classmate of Giacomo Matteotti at the Celio high school: two figures born in the same year and the same city, but from different political traditions.",
+     "During the fascist period he was declared removed from his parliamentary seat in 1926.",
+     "He was a member of the Constituent Assembly and took part in the birth of the Italian Republic."
+    ],
+    "fr": [
+     "Il fut camarade de classe de Giacomo Matteotti au lycée Celio : deux personnalités nées la même année dans la même ville, mais issues de traditions politiques différentes.",
+     "Pendant le fascisme, il fut déclaré déchu de son mandat parlementaire en 1926.",
+     "Il fit partie de l'Assemblée constituante et participa à la naissance de la République italienne."
+    ],
+    "de": [
+     "Er war Mitschüler von Giacomo Matteotti am Gymnasium Celio: zwei Persönlichkeiten, im selben Jahr und in derselben Stadt geboren, aber aus unterschiedlichen politischen Traditionen.",
+     "Während des Faschismus wurde ihm 1926 das Parlamentsmandat aberkannt.",
+     "Er war Mitglied der verfassunggebenden Versammlung und wirkte an der Geburt der Italienischen Republik mit."
+    ],
+    "es": [
+     "Fue compañero de clase de Giacomo Matteotti en el Liceo Celio: dos personalidades nacidas el mismo año y en la misma ciudad, pero de tradiciones políticas distintas.",
+     "Durante el fascismo fue declarado decaído de su cargo parlamentario en 1926.",
+     "Fue miembro de la Asamblea Constituyente y participó en el nacimiento de la República italiana."
+    ]
+   },
+   "luoghi": [
+    "casa-umberto-merlin",
+    "ex-liceo-celio",
+    "piazza-umberto-merlin"
+   ],
+   "luoghiNote": {
+    "casa-umberto-merlin": {
+     "tipo": {
+      "it": "Casa",
+      "en": "House",
+      "fr": "Maison",
+      "de": "Haus",
+      "es": "Casa"
+     },
+     "testo": {
+      "it": "Casa legata alla sua vita; sulla facciata una lapide commemorativa lo ricorda.",
+      "en": "House linked to his life; a commemorative plaque on the facade recalls him.",
+      "fr": "Maison liée à sa vie ; une plaque commémorative sur la façade le rappelle.",
+      "de": "Haus, das mit seinem Leben verbunden ist; eine Gedenktafel an der Fassade erinnert an ihn.",
+      "es": "Casa ligada a su vida; una lápida conmemorativa en la fachada lo recuerda."
+     }
+    },
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Formazione",
+      "en": "Education",
+      "fr": "Formation",
+      "de": "Ausbildung",
+      "es": "Formación"
+     },
+     "testo": {
+      "it": "Frequentò il liceo insieme a Giacomo Matteotti.",
+      "en": "He attended the high school together with Giacomo Matteotti.",
+      "fr": "Il fréquenta le lycée avec Giacomo Matteotti.",
+      "de": "Er besuchte das Gymnasium zusammen mit Giacomo Matteotti.",
+      "es": "Cursó el liceo junto a Giacomo Matteotti."
+     }
+    },
+    "piazza-umberto-merlin": {
+     "tipo": {
+      "it": "Intitolazione",
+      "en": "Dedication",
+      "fr": "Dédicace",
+      "de": "Widmung",
+      "es": "Dedicatoria"
+     },
+     "testo": {
+      "it": "La piazza gli fu dedicata nel 1968.",
+      "en": "The square was named after him in 1968.",
+      "fr": "La place lui fut dédiée en 1968.",
+      "de": "Der Platz wurde 1968 nach ihm benannt.",
+      "es": "La plaza le fue dedicada en 1968."
+     }
+    }
+   },
+   "collegati": [
+    {
+     "id": "giacomo-matteotti",
+     "testo": {
+      "it": "Giacomo Matteotti e Umberto Merlin furono compagni di classe al Liceo Celio.",
+      "en": "Giacomo Matteotti and Umberto Merlin were classmates at the Liceo Celio.",
+      "fr": "Giacomo Matteotti et Umberto Merlin furent camarades de classe au lycée Celio.",
+      "de": "Giacomo Matteotti und Umberto Merlin waren Mitschüler am Gymnasium Celio.",
+      "es": "Giacomo Matteotti y Umberto Merlin fueron compañeros de clase en el Liceo Celio."
+     }
+    }
+   ],
+   "ritratto": {
+    "autore": "Autore sconosciuto",
+    "licenza": "CC BY 3.0 IT"
+   }
+  },
+  {
+   "id": "gino-piva",
+   "nome": "Gino Piva",
+   "nascita": 1873,
+   "morte": 1946,
+   "professione": {
+    "it": "Giornalista, poeta, scrittore, sindacalista e politico",
+    "en": "Journalist, poet, writer, trade unionist and politician",
+    "fr": "Journaliste, poète, écrivain, syndicaliste et homme politique",
+    "de": "Journalist, Dichter, Schriftsteller, Gewerkschafter und Politiker",
+    "es": "Periodista, poeta, escritor, sindicalista y político"
+   },
+   "luogoNascita": {
+    "it": "Milano",
+    "en": "Milan",
+    "fr": "Milan",
+    "de": "Mailand",
+    "es": "Milán"
+   },
+   "dataNascita": {
+    "it": "9 aprile 1873",
+    "en": "9 April 1873",
+    "fr": "9 avril 1873",
+    "de": "9. April 1873",
+    "es": "9 de abril de 1873"
+   },
+   "luogoMorte": {
+    "it": "Vetrego di Mirano (Venezia)",
+    "en": "Vetrego di Mirano (Venice)",
+    "fr": "Vetrego di Mirano (Venise)",
+    "de": "Vetrego di Mirano (Venedig)",
+    "es": "Vetrego di Mirano (Venecia)"
+   },
+   "dataMorte": {
+    "it": "30 agosto 1946",
+    "en": "30 August 1946",
+    "fr": "30 août 1946",
+    "de": "30. August 1946",
+    "es": "30 de agosto de 1946"
+   },
+   "biografia": {
+    "it": "Gino Piva fu uno dei protagonisti della nascita del movimento socialista nel Polesine e una figura importante del giornalismo italiano tra Otto e Novecento. Pur essendo nato a Milano, trascorse l'infanzia a Rovigo, città alla quale rimase profondamente legato. Nel 1894 partecipò alle prime mobilitazioni dei braccianti polesani e si impegnò nell'organizzazione del movimento socialista. Nel 1899 fondò insieme a Nicola Badaloni e Dante Coletti il giornale La Lotta, destinato a diventare un importante punto di riferimento per i socialisti e le organizzazioni dei lavoratori del territorio. La sua carriera giornalistica lo portò in diverse città italiane. Fu soprattutto corrispondente del Resto del Carlino durante la Prima guerra mondiale, raccontando il conflitto direttamente dal fronte con centinaia di articoli. Scrisse anche poesie, racconti e opere dedicate al Polesine, firmando alcuni contributi con lo pseudonimo di «Remengo». Morì nel 1946 a Vetrego, nel territorio di Mirano, dopo una vita dedicata al giornalismo, alla politica e alla letteratura.",
+    "en": "Gino Piva was one of the founders of the socialist movement in the Polesine and an important figure in Italian journalism between the late nineteenth and early twentieth centuries. Although born in Milan, he spent his childhood in Rovigo, to which he remained deeply attached. In 1894 he took part in the first mobilisations of the Polesine farm labourers and devoted himself to organising the socialist movement. In 1899 he founded, together with Nicola Badaloni and Dante Coletti, the newspaper La Lotta, which became an important point of reference for socialists and workers' organisations in the area. His journalistic career took him to several Italian cities. He was above all the Resto del Carlino correspondent during the First World War, reporting on the conflict directly from the front with hundreds of articles. He also wrote poems, short stories and works dedicated to the Polesine, signing some contributions with the pseudonym «Remengo». He died in 1946 in Vetrego, in the territory of Mirano, after a life devoted to journalism, politics and literature.",
+    "fr": "Gino Piva fut l'un des protagonistes de la naissance du mouvement socialiste dans le Polésine et une figure importante du journalisme italien entre la fin du XIXe et le début du XXe siècle. Bien que né à Milan, il passa son enfance à Rovigo, ville à laquelle il resta profondément attaché. En 1894, il participa aux premières mobilisations des ouvriers agricoles du Polésine et s'engagea dans l'organisation du mouvement socialiste. En 1899, il fonda avec Nicola Badaloni et Dante Coletti le journal La Lotta, qui devint un point de référence important pour les socialistes et les organisations ouvrières du territoire. Sa carrière journalistique le conduisit dans plusieurs villes italiennes. Il fut surtout correspondant du Resto del Carlino pendant la Première Guerre mondiale, racontant le conflit directement depuis le front à travers des centaines d'articles. Il écrivit aussi des poèmes, des récits et des œuvres consacrées au Polésine, signant certaines contributions du pseudonyme de « Remengo ». Il mourut en 1946 à Vetrego, sur le territoire de Mirano, après une vie consacrée au journalisme, à la politique et à la littérature.",
+    "de": "Gino Piva war einer der Begründer der sozialistischen Bewegung im Polesine und eine wichtige Gestalt des italienischen Journalismus zwischen dem späten 19. und dem frühen 20. Jahrhundert. Obwohl er in Mailand geboren wurde, verbrachte er seine Kindheit in Rovigo, mit dem er tief verbunden blieb. 1894 nahm er an den ersten Mobilisierungen der Landarbeiter des Polesine teil und engagierte sich in der Organisation der sozialistischen Bewegung. 1899 gründete er zusammen mit Nicola Badaloni und Dante Coletti die Zeitung La Lotta, die zu einem wichtigen Bezugspunkt für Sozialisten und Arbeiterorganisationen der Region wurde. Seine journalistische Laufbahn führte ihn in mehrere italienische Städte. Vor allem war er während des Ersten Weltkriegs Korrespondent des Resto del Carlino und berichtete mit hunderten Artikeln direkt von der Front. Er schrieb auch Gedichte, Erzählungen und Werke über das Polesine und unterzeichnete einige Beiträge mit dem Pseudonym «Remengo». Er starb 1946 in Vetrego im Gebiet von Mirano, nach einem Leben, das dem Journalismus, der Politik und der Literatur gewidmet war.",
+    "es": "Gino Piva fue uno de los protagonistas del nacimiento del movimiento socialista en el Polesine y una figura importante del periodismo italiano entre finales del siglo XIX y principios del XX. Aunque nació en Milán, pasó su infancia en Rovigo, ciudad a la que permaneció profundamente unido. En 1894 participó en las primeras movilizaciones de los jornaleros del Polesine y se comprometió con la organización del movimiento socialista. En 1899 fundó junto a Nicola Badaloni y Dante Coletti el periódico La Lotta, que llegó a ser un punto de referencia importante para los socialistas y las organizaciones de trabajadores de la zona. Su carrera periodística lo llevó a varias ciudades italianas. Fue sobre todo corresponsal de Il Resto del Carlino durante la Primera Guerra Mundial, contando el conflicto directamente desde el frente con cientos de artículos. Escribió también poesías, relatos y obras dedicadas al Polesine, firmando algunas contribuciones con el seudónimo «Remengo». Murió en 1946 en Vetrego, en el término municipal de Mirano, tras una vida dedicada al periodismo, la política y la literatura."
+   },
+   "curiosita": {
+    "it": [
+     "Firmava molti dei suoi articoli con lo pseudonimo «Remengo», parola veneta che significa vagabondo o persona errante.",
+     "Durante la Prima guerra mondiale inviò al Resto del Carlino circa 380 articoli tra il 1914 e il 1918, raccontando la guerra dalle prime linee e dalle retrovie. Il lavoro gli valse la Croce al Merito di guerra nel 1919."
+    ],
+    "en": [
+     "He signed many of his articles with the pseudonym «Remengo», a Venetian word meaning vagabond or wandering person.",
+     "During the First World War he sent the Resto del Carlino about 380 articles between 1914 and 1918, reporting on the war from the front lines and the rear. This work earned him the Croce al Merito di guerra in 1919."
+    ],
+    "fr": [
+     "Il signait beaucoup de ses articles du pseudonyme « Remengo », mot vénitien signifiant vagabond ou personne errante.",
+     "Pendant la Première Guerre mondiale, il envoya au Resto del Carlino environ 380 articles entre 1914 et 1918, racontant la guerre depuis les premières lignes et l'arrière. Ce travail lui valut la Croix du mérite de guerre en 1919."
+    ],
+    "de": [
+     "Viele seiner Artikel unterzeichnete er mit dem Pseudonym «Remengo», einem venetischen Wort für Vagabund oder umherziehende Person.",
+     "Während des Ersten Weltkriegs schickte er zwischen 1914 und 1918 rund 380 Artikel an den Resto del Carlino und berichtete von der Front und aus dem Hinterland. Dafür erhielt er 1919 das Kriegsverdienstkreuz (Croce al Merito di guerra)."
+    ],
+    "es": [
+     "Firmaba muchos de sus artículos con el seudónimo «Remengo», palabra veneta que significa vagabundo o persona errante.",
+     "Durante la Primera Guerra Mundial envió al Resto del Carlino unos 380 artículos entre 1914 y 1918, contando la guerra desde las primeras líneas y la retaguardia. Ese trabajo le valió la Cruz al Mérito de Guerra en 1919."
+    ]
+   },
+   "luoghi": [
+    "ex-liceo-celio",
+    "accademia-dei-concordi",
+    "cimitero-monumentale-rovigo"
+   ],
+   "luoghiNote": {
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Formazione",
+      "en": "Education",
+      "fr": "Formation",
+      "de": "Ausbildung",
+      "es": "Formación"
+     },
+     "testo": {
+      "it": "Frequentò il liceo a Rovigo, iscrivendosi nel 1884.",
+      "en": "He attended the high school in Rovigo, enrolling in 1884.",
+      "fr": "Il fréquenta le lycée de Rovigo, où il s'inscrivit en 1884.",
+      "de": "Er besuchte das Gymnasium in Rovigo und schrieb sich 1884 ein.",
+      "es": "Cursó el liceo en Rovigo, matriculándose en 1884."
+     }
+    },
+    "accademia-dei-concordi": {
+     "tipo": {
+      "it": "Socio",
+      "en": "Member",
+      "fr": "Membre",
+      "de": "Mitglied",
+      "es": "Socio"
+     },
+     "testo": {
+      "it": "Fu socio dell'Accademia, come riportato dalle ricostruzioni biografiche.",
+      "en": "He was a member of the Academy, as reported by biographical reconstructions.",
+      "fr": "Il fut membre de l'Académie, comme le rapportent les reconstitutions biographiques.",
+      "de": "Er war Mitglied der Akademie, wie biografische Rekonstruktionen berichten.",
+      "es": "Fue socio de la Academia, según recogen las reconstrucciones biográficas."
+     }
+    },
+    "cimitero-monumentale-rovigo": {
+     "tipo": {
+      "it": "Sepoltura",
+      "en": "Burial",
+      "fr": "Sépulture",
+      "de": "Grabstätte",
+      "es": "Sepultura"
+     },
+     "testo": {
+      "it": "La sua salma riposa a Rovigo, nonostante la morte sia avvenuta a Vetrego di Mirano.",
+      "en": "His remains rest in Rovigo, although he died in Vetrego di Mirano.",
+      "fr": "Sa dépouille repose à Rovigo, bien qu'il soit mort à Vetrego di Mirano.",
+      "de": "Seine sterblichen Überreste ruhen in Rovigo, obwohl er in Vetrego di Mirano starb.",
+      "es": "Sus restos descansan en Rovigo, aunque falleció en Vetrego di Mirano."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Autore sconosciuto",
+    "licenza": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}
