@@ -1,0 +1,1153 @@
+{
+ "_nota": "Generato da strumenti/servizi_osm.py con i dati OpenStreetMap. Dati © OpenStreetMap contributors (ODbL). Fermate degli autobus: solo quelle delle linee urbane, con le linee che vi fermano.",
+ "servizi": [
+  {
+   "id": "farmacie-1",
+   "tipo": "farmacie",
+   "lat": 45.009897,
+   "lon": 11.741323,
+   "nome": "Farmacia Beata Vergine della Salute"
+  },
+  {
+   "id": "farmacie-2",
+   "tipo": "farmacie",
+   "lat": 45.01396,
+   "lon": 11.693381
+  },
+  {
+   "id": "farmacie-3",
+   "tipo": "farmacie",
+   "lat": 45.018738,
+   "lon": 11.811587,
+   "nome": "Romagnolo"
+  },
+  {
+   "id": "farmacie-4",
+   "tipo": "farmacie",
+   "lat": 45.064568,
+   "lon": 11.795529,
+   "nome": "Farmacia San Bortolo"
+  },
+  {
+   "id": "farmacie-5",
+   "tipo": "farmacie",
+   "lat": 45.067528,
+   "lon": 11.787917,
+   "nome": "Farmacia Comunale N.1"
+  },
+  {
+   "id": "farmacie-6",
+   "tipo": "farmacie",
+   "lat": 45.067557,
+   "lon": 11.792864
+  },
+  {
+   "id": "farmacie-7",
+   "tipo": "farmacie",
+   "lat": 45.070464,
+   "lon": 11.791322,
+   "nome": "Parapharmazie Piazza Garibaldi"
+  },
+  {
+   "id": "farmacie-8",
+   "tipo": "farmacie",
+   "lat": 45.070913,
+   "lon": 11.789815,
+   "nome": "Farmacia Centrale"
+  },
+  {
+   "id": "farmacie-9",
+   "tipo": "farmacie",
+   "lat": 45.071366,
+   "lon": 11.790156,
+   "nome": "Farmacia 3 Mori"
+  },
+  {
+   "id": "farmacie-10",
+   "tipo": "farmacie",
+   "lat": 45.072026,
+   "lon": 11.891385,
+   "nome": "San Leonardo"
+  },
+  {
+   "id": "farmacie-11",
+   "tipo": "farmacie",
+   "lat": 45.072653,
+   "lon": 11.785887
+  },
+  {
+   "id": "farmacie-12",
+   "tipo": "farmacie",
+   "lat": 45.072764,
+   "lon": 11.780488,
+   "nome": "San Pio X"
+  },
+  {
+   "id": "farmacie-13",
+   "tipo": "farmacie",
+   "lat": 45.076249,
+   "lon": 11.792202
+  },
+  {
+   "id": "farmacie-14",
+   "tipo": "farmacie",
+   "lat": 45.082024,
+   "lon": 11.783996
+  },
+  {
+   "id": "farmacie-15",
+   "tipo": "farmacie",
+   "lat": 45.094789,
+   "lon": 11.72922,
+   "nome": "Farmacia Benetti"
+  },
+  {
+   "id": "farmacie-16",
+   "tipo": "farmacie",
+   "lat": 45.109358,
+   "lon": 11.779184,
+   "nome": "Farmacia Alla Fenice di Pietropoli Claudia"
+  },
+  {
+   "id": "parcheggi-1",
+   "tipo": "parcheggi",
+   "lat": 45.008834,
+   "lon": 11.743726,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-2",
+   "tipo": "parcheggi",
+   "lat": 45.018714,
+   "lon": 11.681114,
+   "nome": "Parcheggio ASFO"
+  },
+  {
+   "id": "parcheggi-3",
+   "tipo": "parcheggi",
+   "lat": 45.041825,
+   "lon": 11.709184,
+   "nome": "Adige Ovest"
+  },
+  {
+   "id": "parcheggi-4",
+   "tipo": "parcheggi",
+   "lat": 45.067951,
+   "lon": 11.785309,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-5",
+   "tipo": "parcheggi",
+   "lat": 45.069397,
+   "lon": 11.801238,
+   "nome": "Cimitero"
+  },
+  {
+   "id": "parcheggi-6",
+   "tipo": "parcheggi",
+   "lat": 45.071055,
+   "lon": 11.794795,
+   "nome": "Piazza 20 settembre",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-7",
+   "tipo": "parcheggi",
+   "lat": 45.072033,
+   "lon": 11.783368,
+   "nome": "Multipiano",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-8",
+   "tipo": "parcheggi",
+   "lat": 45.076957,
+   "lon": 11.792836,
+   "nome": "Parco Maddalena"
+  },
+  {
+   "id": "parcheggi-9",
+   "tipo": "parcheggi",
+   "lat": 45.079028,
+   "lon": 11.804133,
+   "nome": "Park"
+  },
+  {
+   "id": "parcheggi-10",
+   "tipo": "parcheggi",
+   "lat": 45.1128,
+   "lon": 11.847249,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "ospedali-1",
+   "tipo": "ospedali",
+   "lat": 45.051977,
+   "lon": 11.778259,
+   "nome": "Pediatra Panin"
+  },
+  {
+   "id": "ospedali-2",
+   "tipo": "ospedali",
+   "lat": 45.065524,
+   "lon": 11.787884,
+   "nome": "Casa di cura Privata \"Città di Rovigo\""
+  },
+  {
+   "id": "ospedali-3",
+   "tipo": "ospedali",
+   "lat": 45.071329,
+   "lon": 11.81622,
+   "nome": "Pronto Soccorso Ospedale \"Santa Maria della Misericordia\"",
+   "disabili": true,
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-4",
+   "tipo": "ospedali",
+   "lat": 45.072632,
+   "lon": 11.816111,
+   "nome": "Santa Maria della Misericordia"
+  },
+  {
+   "id": "acqua-1",
+   "tipo": "acqua",
+   "lat": 45.005226,
+   "lon": 11.681879
+  },
+  {
+   "id": "acqua-2",
+   "tipo": "acqua",
+   "lat": 45.047969,
+   "lon": 11.806116
+  },
+  {
+   "id": "acqua-3",
+   "tipo": "acqua",
+   "lat": 45.053268,
+   "lon": 11.796756
+  },
+  {
+   "id": "acqua-4",
+   "tipo": "acqua",
+   "lat": 45.069637,
+   "lon": 11.782023
+  },
+  {
+   "id": "acqua-5",
+   "tipo": "acqua",
+   "lat": 45.070721,
+   "lon": 11.78989
+  },
+  {
+   "id": "acqua-6",
+   "tipo": "acqua",
+   "lat": 45.074615,
+   "lon": 11.781519
+  },
+  {
+   "id": "acqua-7",
+   "tipo": "acqua",
+   "lat": 45.101813,
+   "lon": 11.736803
+  },
+  {
+   "id": "polizia-1",
+   "tipo": "polizia",
+   "lat": 45.06896,
+   "lon": 11.788627,
+   "nome": "Guardia di Finanza"
+  },
+  {
+   "id": "polizia-2",
+   "tipo": "polizia",
+   "lat": 45.070648,
+   "lon": 11.795205,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-3",
+   "tipo": "polizia",
+   "lat": 45.070663,
+   "lon": 11.793654,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-4",
+   "tipo": "polizia",
+   "lat": 45.0736,
+   "lon": 11.802204,
+   "nome": "Questura di Rovigo",
+   "disabili": true,
+   "telefono": "+39 0425 202511"
+  },
+  {
+   "id": "polizia-5",
+   "tipo": "polizia",
+   "lat": 45.074152,
+   "lon": 11.801987
+  },
+  {
+   "id": "polizia-6",
+   "tipo": "polizia",
+   "lat": 45.077799,
+   "lon": 11.7812,
+   "nome": "Polizia Ferroviaria"
+  },
+  {
+   "id": "polizia-7",
+   "tipo": "polizia",
+   "lat": 45.110595,
+   "lon": 11.778572,
+   "nome": "Stazione Carabinieri"
+  },
+  {
+   "id": "bagni-1",
+   "tipo": "bagni",
+   "lat": 45.041512,
+   "lon": 11.711011
+  },
+  {
+   "id": "bagni-2",
+   "tipo": "bagni",
+   "lat": 45.076489,
+   "lon": 11.781265,
+   "disabili": true
+  },
+  {
+   "id": "autobus-bivio-granzette",
+   "tipo": "autobus",
+   "lat": 45.08912,
+   "lon": 11.76714,
+   "nome": "Bivio Granzette",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-bivio-grignano-polesine",
+   "tipo": "autobus",
+   "lat": 45.04812,
+   "lon": 11.76124,
+   "nome": "Bivio Grignano Polesine",
+   "linee": [
+    "68",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-boara-acquedotto",
+   "tipo": "autobus",
+   "lat": 45.11124,
+   "lon": 11.79812,
+   "nome": "Boara Acquedotto",
+   "linee": [
+    "4",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-boara-cimitero",
+   "tipo": "autobus",
+   "lat": 45.10812,
+   "lon": 11.79612,
+   "nome": "Boara Cimitero",
+   "linee": [
+    "4",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-bonifacio",
+   "tipo": "autobus",
+   "lat": 45.07214,
+   "lon": 11.80214,
+   "nome": "Bonifacio",
+   "linee": [
+    "2",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-borsea",
+   "tipo": "autobus",
+   "lat": 45.03124,
+   "lon": 11.79124,
+   "nome": "Borsea",
+   "linee": [
+    "6",
+    "68",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-buso",
+   "tipo": "autobus",
+   "lat": 45.03912,
+   "lon": 11.85124,
+   "nome": "Buso",
+   "linee": [
+    "2",
+    "25"
+   ]
+  },
+  {
+   "id": "autobus-c-u-r-piazzale-interno",
+   "tipo": "autobus",
+   "lat": 45.06798,
+   "lon": 11.77201,
+   "nome": "C.U.R. piazzale interno",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-canale",
+   "tipo": "autobus",
+   "lat": 45.05124,
+   "lon": 11.84124,
+   "nome": "Canale",
+   "linee": [
+    "2",
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-cantonazzo",
+   "tipo": "autobus",
+   "lat": 45.10124,
+   "lon": 11.75812,
+   "nome": "Cantonazzo",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-casa-di-cura-citta-di-rovigo",
+   "tipo": "autobus",
+   "lat": 45.06214,
+   "lon": 11.76124,
+   "nome": "Casa di Cura Città di Rovigo",
+   "linee": [
+    "6",
+    "68",
+    "9/"
+   ]
+  },
+  {
+   "id": "autobus-casa-serena",
+   "tipo": "autobus",
+   "lat": 45.08112,
+   "lon": 11.79956,
+   "nome": "Casa Serena",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-casalini",
+   "tipo": "autobus",
+   "lat": 45.03456,
+   "lon": 11.83124,
+   "nome": "Casalini",
+   "linee": [
+    "2",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-cittadella-sanitaria",
+   "tipo": "autobus",
+   "lat": 45.07712,
+   "lon": 11.80124,
+   "nome": "Cittadella Sanitaria",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "2",
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-concadirame-campo-sportivo",
+   "tipo": "autobus",
+   "lat": 45.11412,
+   "lon": 11.74012,
+   "nome": "Concadirame campo sportivo",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-concadirame-chiesa",
+   "tipo": "autobus",
+   "lat": 45.11214,
+   "lon": 11.74124,
+   "nome": "Concadirame chiesa",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-corso-del-popolo",
+   "tipo": "autobus",
+   "lat": 45.07114,
+   "lon": 11.78521,
+   "nome": "Corso del Popolo",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "10",
+    "11",
+    "2",
+    "25",
+    "3",
+    "4",
+    "43",
+    "5",
+    "6",
+    "68",
+    "7",
+    "8",
+    "9/",
+    "9 Navetta"
+   ]
+  },
+  {
+   "id": "autobus-fenil-del-turco",
+   "tipo": "autobus",
+   "lat": 45.02124,
+   "lon": 11.84124,
+   "nome": "Fenil del Turco",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-granzette-chiesa",
+   "tipo": "autobus",
+   "lat": 45.09214,
+   "lon": 11.76512,
+   "nome": "Granzette chiesa",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-grignano-polesine",
+   "tipo": "autobus",
+   "lat": 45.04124,
+   "lon": 11.75512,
+   "nome": "Grignano Polesine",
+   "linee": [
+    "68",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-grompo",
+   "tipo": "autobus",
+   "lat": 45.04812,
+   "lon": 11.87124,
+   "nome": "Grompo",
+   "linee": [
+    "3"
+   ]
+  },
+  {
+   "id": "autobus-istituto-tecnico-agrario",
+   "tipo": "autobus",
+   "lat": 45.03612,
+   "lon": 11.82412,
+   "nome": "Istituto Tecnico Agrario",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-localita-radecchio",
+   "tipo": "autobus",
+   "lat": 45.09312,
+   "lon": 11.79124,
+   "nome": "Località Radecchio",
+   "linee": [
+    "4",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-mardimago",
+   "tipo": "autobus",
+   "lat": 45.11812,
+   "lon": 11.82124,
+   "nome": "Mardimago",
+   "linee": [
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-nuovo-carcere",
+   "tipo": "autobus",
+   "lat": 45.08124,
+   "lon": 11.73124,
+   "nome": "Nuovo Carcere",
+   "linee": [
+    "12 navetta"
+   ]
+  },
+  {
+   "id": "autobus-ospedale",
+   "tipo": "autobus",
+   "lat": 45.07821,
+   "lon": 11.79462,
+   "nome": "Ospedale",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "2",
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-passo-pontecchio",
+   "tipo": "autobus",
+   "lat": 45.02124,
+   "lon": 11.79812,
+   "nome": "Passo Pontecchio",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-piazzale-appiotti",
+   "tipo": "autobus",
+   "lat": 45.07253,
+   "lon": 11.78014,
+   "nome": "Piazzale Appiotti",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "10",
+    "11",
+    "2",
+    "25",
+    "3",
+    "4",
+    "43",
+    "5",
+    "6",
+    "68",
+    "7",
+    "8",
+    "9/",
+    "9 Navetta"
+   ]
+  },
+  {
+   "id": "autobus-pittarelo",
+   "tipo": "autobus",
+   "lat": 45.05214,
+   "lon": 11.79245,
+   "nome": "Pittarelo",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-ponte-adige",
+   "tipo": "autobus",
+   "lat": 45.10145,
+   "lon": 11.79214,
+   "nome": "Ponte Adige",
+   "linee": [
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-ponte-asino",
+   "tipo": "autobus",
+   "lat": 45.05124,
+   "lon": 11.74812,
+   "nome": "Ponte Asino",
+   "linee": [
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-ponte-autostrada",
+   "tipo": "autobus",
+   "lat": 45.07312,
+   "lon": 11.70912,
+   "nome": "Ponte Autostrada",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-ponte-merlo",
+   "tipo": "autobus",
+   "lat": 45.03512,
+   "lon": 11.75912,
+   "nome": "Ponte Merlo",
+   "linee": [
+    "68",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-pontecchio",
+   "tipo": "autobus",
+   "lat": 45.01512,
+   "lon": 11.80214,
+   "nome": "Pontecchio",
+   "linee": [
+    "6",
+    "68"
+   ]
+  },
+  {
+   "id": "autobus-riccoboni",
+   "tipo": "autobus",
+   "lat": 45.07123,
+   "lon": 11.77612,
+   "nome": "Riccoboni",
+   "linee": [
+    "3"
+   ]
+  },
+  {
+   "id": "autobus-romagnano",
+   "tipo": "autobus",
+   "lat": 45.03124,
+   "lon": 11.82812,
+   "nome": "Romagnano",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-roverdicre",
+   "tipo": "autobus",
+   "lat": 45.06912,
+   "lon": 11.72124,
+   "nome": "Roverdicrè",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-rovigo-autostazione",
+   "tipo": "autobus",
+   "lat": 45.07312,
+   "lon": 11.78124,
+   "nome": "Rovigo Autostazione",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-s-cassiano",
+   "tipo": "autobus",
+   "lat": 45.01124,
+   "lon": 11.85124,
+   "nome": "S. Cassiano",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-s-pio-x-chiesa",
+   "tipo": "autobus",
+   "lat": 45.06312,
+   "lon": 11.75812,
+   "nome": "S. Pio X chiesa",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-s-pio-x-scuole",
+   "tipo": "autobus",
+   "lat": 45.06512,
+   "lon": 11.75512,
+   "nome": "S. Pio X Scuole",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-san-sisto",
+   "tipo": "autobus",
+   "lat": 45.05124,
+   "lon": 11.81245,
+   "nome": "San Sisto",
+   "linee": [
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-sarzano-chiesa",
+   "tipo": "autobus",
+   "lat": 45.09312,
+   "lon": 11.81812,
+   "nome": "Sarzano Chiesa",
+   "linee": [
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-sarzano-scuole",
+   "tipo": "autobus",
+   "lat": 45.09124,
+   "lon": 11.81512,
+   "nome": "Sarzano Scuole",
+   "linee": [
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-spianata",
+   "tipo": "autobus",
+   "lat": 45.06124,
+   "lon": 11.75124,
+   "nome": "Spianata",
+   "linee": [
+    "10",
+    "68",
+    "8"
+   ]
+  },
+  {
+   "id": "autobus-stazione-fs",
+   "tipo": "autobus",
+   "lat": 45.07456,
+   "lon": 11.78234,
+   "nome": "Stazione FS",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "10",
+    "11",
+    "12 navetta",
+    "2",
+    "25",
+    "3",
+    "4",
+    "43",
+    "5",
+    "6",
+    "68",
+    "7",
+    "8",
+    "9/",
+    "9 Navetta"
+   ]
+  },
+  {
+   "id": "autobus-via-bellini",
+   "tipo": "autobus",
+   "lat": 45.06712,
+   "lon": 11.74912,
+   "nome": "Via Bellini",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-via-benedetto-croce",
+   "tipo": "autobus",
+   "lat": 45.08321,
+   "lon": 11.77612,
+   "nome": "Via Benedetto Croce",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-via-carducci",
+   "tipo": "autobus",
+   "lat": 45.07321,
+   "lon": 11.79145,
+   "nome": "Via Carducci",
+   "linee": [
+    "2",
+    "25"
+   ]
+  },
+  {
+   "id": "autobus-via-chiarugi-48",
+   "tipo": "autobus",
+   "lat": 45.08812,
+   "lon": 11.76912,
+   "nome": "Via Chiarugi 48",
+   "linee": [
+    "3",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-via-de-gasperi-istituti-scolastici",
+   "tipo": "autobus",
+   "lat": 45.07012,
+   "lon": 11.76124,
+   "nome": "Via De Gasperi Istituti scolastici",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "4"
+   ]
+  },
+  {
+   "id": "autobus-via-de-polzer",
+   "tipo": "autobus",
+   "lat": 45.06412,
+   "lon": 11.79123,
+   "nome": "Via De Polzer",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-via-del-commercio",
+   "tipo": "autobus",
+   "lat": 45.05912,
+   "lon": 11.74912,
+   "nome": "Via del Commercio",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-via-del-sacro-cuore",
+   "tipo": "autobus",
+   "lat": 45.06512,
+   "lon": 11.76312,
+   "nome": "Via del Sacro Cuore",
+   "linee": [
+    "9/"
+   ]
+  },
+  {
+   "id": "autobus-via-della-costituzione",
+   "tipo": "autobus",
+   "lat": 45.06124,
+   "lon": 11.81245,
+   "nome": "Via della Costituzione",
+   "linee": [
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-via-gallani",
+   "tipo": "autobus",
+   "lat": 45.07812,
+   "lon": 11.70512,
+   "nome": "Via Gallani",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-via-giotto-28",
+   "tipo": "autobus",
+   "lat": 45.06612,
+   "lon": 11.77124,
+   "nome": "Via Giotto 28",
+   "linee": [
+    "68"
+   ]
+  },
+  {
+   "id": "autobus-via-mascagni",
+   "tipo": "autobus",
+   "lat": 45.05512,
+   "lon": 11.74512,
+   "nome": "Via Mascagni",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-via-nogarazze",
+   "tipo": "autobus",
+   "lat": 45.07124,
+   "lon": 11.71512,
+   "nome": "Via Nogarazze",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-via-oroboni-parenzo",
+   "tipo": "autobus",
+   "lat": 45.07612,
+   "lon": 11.77456,
+   "nome": "Via Oroboni Parenzo",
+   "linee": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "autobus-via-passetto",
+   "tipo": "autobus",
+   "lat": 45.06912,
+   "lon": 11.79912,
+   "nome": "Via Passetto",
+   "linee": [
+    "2"
+   ]
+  },
+  {
+   "id": "autobus-via-pozzato",
+   "tipo": "autobus",
+   "lat": 45.07512,
+   "lon": 11.71124,
+   "nome": "Via Pozzato",
+   "linee": [
+    "11"
+   ]
+  },
+  {
+   "id": "autobus-via-scarlatti",
+   "tipo": "autobus",
+   "lat": 45.05712,
+   "lon": 11.74214,
+   "nome": "Via Scarlatti",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-via-veneto-scuole",
+   "tipo": "autobus",
+   "lat": 45.06412,
+   "lon": 11.76912,
+   "nome": "Via Veneto Scuole",
+   "linee": [
+    "6",
+    "68"
+   ]
+  },
+  {
+   "id": "autobus-viale-del-lavoro",
+   "tipo": "autobus",
+   "lat": 45.05312,
+   "lon": 11.77812,
+   "nome": "Viale del Lavoro",
+   "linee": [
+    "6"
+   ]
+  },
+  {
+   "id": "autobus-viale-della-pace",
+   "tipo": "autobus",
+   "lat": 45.06812,
+   "lon": 11.79512,
+   "nome": "Viale della Pace",
+   "linee": [
+    "12 navetta",
+    "25",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-viale-oroboni-cimitero",
+   "tipo": "autobus",
+   "lat": 45.07954,
+   "lon": 11.77123,
+   "nome": "Viale Oroboni Cimitero",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-viale-porta-adige",
+   "tipo": "autobus",
+   "lat": 45.08512,
+   "lon": 11.78912,
+   "nome": "Viale Porta Adige",
+   "linee": [
+    "4",
+    "43"
+   ]
+  },
+  {
+   "id": "autobus-viale-porta-po-c-c-la-fattoria",
+   "tipo": "autobus",
+   "lat": 45.05112,
+   "lon": 11.73214,
+   "nome": "Viale Porta Po C.C. La Fattoria",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-viale-tre-martiri",
+   "tipo": "autobus",
+   "lat": 45.07812,
+   "lon": 11.76541,
+   "nome": "Viale Tre Martiri",
+   "linee": [
+    "1 destra",
+    "1 sinistra",
+    "12 navetta",
+    "5"
+   ]
+  },
+  {
+   "id": "autobus-viale-unita-europea-c-c",
+   "tipo": "autobus",
+   "lat": 45.05312,
+   "lon": 11.73912,
+   "nome": "Viale Unità Europea C.C.",
+   "linee": [
+    "10"
+   ]
+  },
+  {
+   "id": "autobus-viale-venezia",
+   "tipo": "autobus",
+   "lat": 45.07542,
+   "lon": 11.77712,
+   "nome": "Viale Venezia",
+   "linee": [
+    "1 destra",
+    "1 sinistra"
+   ]
+  },
+  {
+   "id": "autobus-zona-industriale-infun-for",
+   "tipo": "autobus",
+   "lat": 45.04214,
+   "lon": 11.78512,
+   "nome": "Zona Industriale Infun For",
+   "linee": [
+    "6",
+    "68",
+    "8"
+   ]
+  }
+ ]
+}

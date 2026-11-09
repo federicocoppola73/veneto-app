@@ -1,0 +1,30 @@
+{
+ "_nota": "Rovigo: itinerari consigliati a piedi. Le tappe sono in ordine di visita; distanza e tempo sono calcolati sulla rete pedonale (rete.json) a passo medio di 75 m/min. L'itinerario 'Aguzza la vista' è in aguzza.json.",
+ "itinerari": [
+  {
+   "id": "rovigo-classica",
+   "titolo": {
+    "it": "La Rovigo classica",
+    "en": "Classic Rovigo",
+    "fr": "Rovigo classique",
+    "de": "Klassisches Rovigo",
+    "es": "Rovigo clásica"
+   },
+   "tappe": [
+    "torre-dona-castello",
+    "duomo-santo-stefano",
+    "palazzo-roverella",
+    "palazzo-roncale",
+    "loggia-dei-nodari",
+    "accademia-dei-concordi",
+    "piazza-vittorio-emanuele-ii",
+    "piazza-giuseppe-garibaldi",
+    "teatro-sociale",
+    "chiesa-santi-francesco-e-giustina",
+    "oratorio-santissima-concezione",
+    "tempio-la-rotonda"
+   ],
+   "metri": 1178
+  }
+ ]
+}

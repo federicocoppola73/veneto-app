@@ -1,0 +1,110 @@
+{
+  "_nota": "Curiosità del pacchetto Rovigo: luoghi non visibili sulla mappa, aperti dalla 💡.",
+  "curiosita": [
+    {
+      "id": "palazzina-minelli",
+      "luogo_id": "palazzina-minelli",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071168,
+      "longitudine": 11.787394,
+      "titolo": {
+        "it": "La piccola casa gotica nel cuore di Rovigo",
+        "en": "The small Gothic house in the heart of Rovigo",
+        "fr": "La petite maison gothique au cœur de Rovigo",
+        "de": "Das kleine gotische Haus im Herzen von Rovigo",
+        "es": "La pequeña casa gótica en el corazón de Rovigo"
+      },
+      "testo": {
+        "it": "Una facciata insolita, con richiami allo stile gotico, si nasconde tra le vie del centro. La Palazzina Minelli è una piccola sorpresa architettonica che sembra arrivare da un’altra epoca.",
+        "en": "An unusual façade, with echoes of Gothic style, hides among the streets of the centre. Palazzina Minelli is a small architectural surprise that seems to come from another era.",
+        "fr": "Une façade inhabituelle, aux accents gothiques, se cache entre les rues du centre. La Palazzina Minelli est une petite surprise architecturale qui semble venir d'une autre époque.",
+        "de": "Eine ungewöhnliche Fassade mit gotischen Anklängen verbirgt sich zwischen den Gassen des Zentrums. Die Palazzina Minelli ist eine kleine architektonische Überraschung, die wie aus einer anderen Epoche wirkt.",
+        "es": "Una fachada insólita, con reminiscencias del estilo gótico, se esconde entre las calles del centro. La Palazzina Minelli es una pequeña sorpresa arquitectónica que parece venir de otra época."
+      }
+    },
+    {
+      "id": "palazzo-silvestri",
+      "luogo_id": "palazzo-silvestri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070779,
+      "longitudine": 11.792686,
+      "titolo": {
+        "it": "Il palazzo del leopardo rampante",
+        "en": "The palace of the rampant leopard",
+        "fr": "Le palais du léopard rampant",
+        "de": "Der Palast des aufsteigenden Leoparden",
+        "es": "El palacio del leopardo rampante"
+      },
+      "testo": {
+        "it": "Alza gli occhi e cerca lo stemma con il leopardo rampante: è il dettaglio curioso che rende riconoscibile questo antico palazzo. Un piccolo indizio araldico che racconta la storia della famiglia Silvestri.",
+        "en": "Look up and find the coat of arms with the rampant leopard: it is the curious detail that makes this ancient palace recognisable. A small heraldic clue that tells the story of the Silvestri family.",
+        "fr": "Levez les yeux et cherchez le blason au léopard rampant : c'est le détail curieux qui rend ce vieux palais reconnaissable. Un petit indice héraldique qui raconte l'histoire de la famille Silvestri.",
+        "de": "Schauen Sie nach oben und suchen Sie das Wappen mit dem aufsteigenden Leoparden: Es ist das kuriose Detail, an dem dieser alte Palast erkennbar ist. Ein kleiner heraldischer Hinweis, der die Geschichte der Familie Silvestri erzählt.",
+        "es": "Alza la vista y busca el escudo con el leopardo rampante: es el detalle curioso que hace reconocible este antiguo palacio. Una pequeña pista heráldica que cuenta la historia de la familia Silvestri."
+      }
+    },
+    {
+      "id": "arco-dei-bocciati",
+      "luogo_id": "arco-dei-bocciati",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071117,
+      "longitudine": 11.790165,
+      "titolo": {
+        "it": "L'arco che porta sfortuna agli studenti",
+        "en": "The arch that brings bad luck to students",
+        "fr": "L'arc qui porte malheur aux étudiants",
+        "de": "Der Bogen, der Studierenden Unglück bringt",
+        "es": "El arco que trae mala suerte a los estudiantes"
+      },
+      "testo": {
+        "it": "Secondo una tradizione popolare, gli studenti che attraversano questo arco rischiano la bocciatura. Una superstizione tutta rodigina: leggenda o prudenza, meglio non sfidare la sorte prima di un esame!",
+        "en": "According to a popular tradition, students who pass under this arch risk failing. A superstition all Rovigo's own: legend or caution, better not to tempt fate before an exam!",
+        "fr": "Selon une tradition populaire, les étudiants qui passent sous cet arc risquent d'échouer. Une superstition bien rodigine : légende ou prudence, mieux vaut ne pas défier le sort avant un examen !",
+        "de": "Einer Volksüberlieferung zufolge riskieren Studierende, die unter diesem Bogen hindurchgehen, durchzufallen. Ein echter Rovigo-Aberglaube: Legende oder Vorsicht, besser das Schicksal vor einer Prüfung nicht herausfordern!",
+        "es": "Según una tradición popular, los estudiantes que pasan bajo este arco corren el riesgo de suspender. Una superstición muy rodigina: leyenda o prudencia, ¡mejor no tentar a la suerte antes de un examen!"
+      }
+    },
+    {
+      "id": "porta-sant-agostino",
+      "luogo_id": "porta-sant-agostino",
+      "sestiere": "Centro storico",
+      "latitudine": 45.069041,
+      "longitudine": 11.791735,
+      "titolo": {
+        "it": "La porta dimenticata delle mura di Rovigo",
+        "en": "The forgotten gate of Rovigo's walls",
+        "fr": "La porte oubliée des remparts de Rovigo",
+        "de": "Das vergessene Tor der Mauern Rovigos",
+        "es": "La puerta olvidada de las murallas de Rovigo"
+      },
+      "testo": {
+        "it": "È una delle testimonianze superstiti dell’antica cinta muraria di Rovigo. Un piccolo frammento della città fortificata, sopravvissuto alle trasformazioni del centro storico.",
+        "en": "One of the surviving traces of Rovigo's ancient city walls. A small fragment of the fortified town, surviving the changes of the historic centre.",
+        "fr": "L'un des rares témoins survivants de l'ancienne enceinte de Rovigo. Un petit fragment de la ville fortifiée, préservé des transformations du centre historique.",
+        "de": "Eines der erhaltenen Zeugnisse der alten Stadtmauer Rovigos. Ein kleines Fragment der befestigten Stadt, das die Umgestaltungen des historischen Zentrums überstanden hat.",
+        "es": "Uno de los testimonios supervivientes de la antigua muralla de Rovigo. Un pequeño fragmento de la ciudad fortificada, que sobrevivió a las transformaciones del centro histórico."
+      }
+    },
+    {
+      "id": "adigetto-scomparso",
+      "luogo_id": "adigetto-scomparso",
+      "sestiere": "Centro storico",
+      "latitudine": 45.0706,
+      "longitudine": 11.7893,
+      "titolo": {
+        "it": "La strada che nasconde un fiume",
+        "en": "The street that hides a river",
+        "fr": "La rue qui cache une rivière",
+        "de": "Die Straße, die einen Fluss verbirgt",
+        "es": "La calle que esconde un río"
+      },
+      "testo": {
+        "it": "Oggi ci passeggiamo sopra senza accorgercene, ma il centro di Rovigo era attraversato dall’Adigetto. Il suo antico alveo è stato interrato negli anni Trenta e ha lasciato spazio all’attuale Corso del Popolo.",
+        "en": "Today we walk over it without noticing, but the centre of Rovigo was once crossed by the Adigetto. Its old riverbed was filled in during the 1930s, making way for today's Corso del Popolo.",
+        "fr": "Aujourd'hui, on y marche sans y penser, mais le centre de Rovigo était traversé par l'Adigetto. Son ancien lit a été comblé dans les années 1930, cédant la place au Corso del Popolo actuel.",
+        "de": "Heute geht man darüber, ohne es zu merken, doch das Zentrum von Rovigo wurde einst von der Adigetto durchflossen. Ihr altes Flussbett wurde in den 1930er-Jahren verfüllt und machte dem heutigen Corso del Popolo Platz.",
+        "es": "Hoy caminamos sobre él sin darnos cuenta, pero el centro de Rovigo era atravesado por el Adigetto. Su antiguo cauce fue rellenado en los años treinta y dio paso al actual Corso del Popolo."
+      }
+    }
+  ]
+}

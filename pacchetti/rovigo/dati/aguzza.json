@@ -1,0 +1,180 @@
+{
+  "_nota": "Rovigo: domande 'Aguzza la vista' dal foglio Excel (Aguzza – Esempio), con traduzioni en/fr/de/es. Itinerario 'Centro storico' con le 7 tappe del foglio, nell'ordine del foglio. Nessuna foto ancora.",
+  "itinerari": [
+    {
+      "id": "aguzza-la-vista-centro-storico",
+      "titolo": {
+        "it": "Aguzza la vista - Centro storico",
+        "en": "Look closer - Historic centre",
+        "fr": "Observez mieux - Centre historique",
+        "de": "Genau hinschauen - Altstadt",
+        "es": "Mira con atención - Centro histórico"
+      },
+      "tappe": [
+        "torre-dona-castello",
+        "piazza-vittorio-emanuele-ii",
+        "palazzo-roverella",
+        "palazzo-roncale",
+        "tempio-la-rotonda",
+        "pescheria-nuova",
+        "porta-san-bortolo"
+      ]
+    }
+  ],
+  "domande": [
+    {
+      "luogo_id": "torre-dona-castello",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva le torri che restano dell'antico castello: riesci a individuare quella più alta? Confronta le due strutture e trova la Torre Donà, che svetta accanto alla Torre Grimani.",
+        "en": "Look at the towers that remain from the old castle: can you spot the tallest one? Compare the two structures and find the Torre Donà, which rises beside the Torre Grimani.",
+        "fr": "Observez les tours qui subsistent de l'ancien château : saurez-vous repérer la plus haute ? Comparez les deux structures et trouvez la Tour Donà, qui se dresse à côté de la Tour Grimani.",
+        "de": "Betrachten Sie die Türme, die von der alten Burg übrig sind: Können Sie den höchsten finden? Vergleichen Sie die beiden Bauwerke und finden Sie den Torre Donà, der neben dem Torre Grimani aufragt.",
+        "es": "Observa las torres que quedan del antiguo castillo: ¿eres capaz de distinguir la más alta? Compara las dos estructuras y encuentra la Torre Donà, que se alza junto a la Torre Grimani."
+      },
+      "risposta": {
+        "it": "La Torre Donà è la torre più alta; l'altra è la Torre Grimani, detta anche Torre Mozza.",
+        "en": "The Torre Donà is the tallest tower; the other is the Torre Grimani, also known as Torre Mozza.",
+        "fr": "La Tour Donà est la plus haute ; l'autre est la Tour Grimani, aussi appelée Tour Mozza.",
+        "de": "Der Torre Donà ist der höchste Turm; der andere ist der Torre Grimani, auch Torre Mozza genannt.",
+        "es": "La Torre Donà es la torre más alta; la otra es la Torre Grimani, también llamada Torre Mozza."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "piazza-vittorio-emanuele-ii",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Nella piazza principale di Rovigo ci sono due importanti monumenti celebrativi. Cerca quello che non raffigura una persona: quale animale riconosci in cima alla colonna?",
+        "en": "In Rovigo's main square there are two important commemorative monuments. Look for the one that does not depict a person: which animal do you recognise on top of the column?",
+        "fr": "Sur la place principale de Rovigo se trouvent deux importants monuments commémoratifs. Cherchez celui qui ne représente pas une personne : quel animal reconnaissez-vous au sommet de la colonne ?",
+        "de": "Auf dem Hauptplatz von Rovigo stehen zwei bedeutende Denkmäler. Suchen Sie das, das keine Person darstellt: Welches Tier erkennen Sie auf der Spitze der Säule?",
+        "es": "En la plaza principal de Rovigo hay dos importantes monumentos conmemorativos. Busca el que no representa a una persona: ¿qué animal reconoces en lo alto de la columna?"
+      },
+      "risposta": {
+        "it": "Il Leone di San Marco, rappresentato sulla sommità della colonna.",
+        "en": "The Lion of Saint Mark, shown on top of the column.",
+        "fr": "Le Lion de Saint-Marc, représenté au sommet de la colonne.",
+        "de": "Der Markuslöwe, auf der Spitze der Säule dargestellt.",
+        "es": "El León de San Marcos, representado en lo alto de la columna."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-roverella",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Guarda attentamente la facciata del palazzo: riesci a riconoscere il materiale che riveste gran parte della sua superficie e a individuare le decorazioni che incorniciano le aperture?",
+        "en": "Look carefully at the palace façade: can you recognise the material covering most of its surface and spot the decorations framing the openings?",
+        "fr": "Regardez attentivement la façade du palais : saurez-vous reconnaître le matériau qui recouvre une grande partie de sa surface et repérer les décorations qui encadrent les ouvertures ?",
+        "de": "Schauen Sie genau auf die Fassade des Palazzo: Erkennen Sie das Material, das einen Großteil der Fläche bedeckt, und die Verzierungen, die die Öffnungen umrahmen?",
+        "es": "Mira atentamente la fachada del palacio: ¿reconoces el material que recubre gran parte de su superficie y ves las decoraciones que enmarcan los vanos?"
+      },
+      "risposta": {
+        "it": "Il rivestimento in laterizio e le decorazioni in cotto della facciata.",
+        "en": "The brick cladding and the terracotta decorations on the façade.",
+        "fr": "Le revêtement en brique et les décorations en terre cuite de la façade.",
+        "de": "Die Ziegelverkleidung und die Terrakotta-Verzierungen der Fassade.",
+        "es": "El revestimiento de ladrillo y las decoraciones de terracota de la fachada."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-roncale",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva la facciata del palazzo e cerca le finestre del piano nobile. Riesci a distinguere il livello principale dell'edificio da quello inferiore, seguendo l'allineamento delle aperture?",
+        "en": "Look at the palace façade and find the windows of the piano nobile. Can you tell the main floor from the lower one by following the alignment of the openings?",
+        "fr": "Observez la façade du palais et repérez les fenêtres du piano nobile. Saurez-vous distinguer l'étage principal de celui du dessous en suivant l'alignement des ouvertures ?",
+        "de": "Betrachten Sie die Fassade des Palazzo und suchen Sie die Fenster des Piano nobile. Können Sie das Hauptgeschoss vom unteren unterscheiden, indem Sie der Ausrichtung der Öffnungen folgen?",
+        "es": "Observa la fachada del palacio y busca las ventanas del piano nobile. ¿Puedes distinguir la planta principal de la inferior siguiendo la alineación de los vanos?"
+      },
+      "risposta": {
+        "it": "Le finestre del piano nobile, disposte sopra il livello terreno e parte della composizione regolare della facciata.",
+        "en": "The windows of the piano nobile, set above the ground level and part of the façade's regular composition.",
+        "fr": "Les fenêtres du piano nobile, placées au-dessus du rez-de-chaussée et partie de la composition régulière de la façade.",
+        "de": "Die Fenster des Piano nobile, über dem Erdgeschoss angeordnet und Teil der regelmäßigen Komposition der Fassade.",
+        "es": "Las ventanas del piano nobile, dispuestas sobre la planta baja y parte de la composición regular de la fachada."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "tempio-la-rotonda",
+      "zona": "Centro",
+      "domanda": {
+        "it": "La forma di questo tempio è una delle sue caratteristiche più riconoscibili. Osserva il perimetro dell'edificio e prova a contare i lati della struttura, senza farti ingannare dal porticato che la circonda.",
+        "en": "The shape of this temple is one of its most recognisable features. Look at the perimeter of the building and try to count the sides of the structure, without being misled by the portico that surrounds it.",
+        "fr": "La forme de ce temple est l'une de ses caractéristiques les plus reconnaissables. Observez le périmètre du bâtiment et essayez de compter les côtés de la structure, sans vous laisser tromper par le portique qui l'entoure.",
+        "de": "Die Form dieses Tempels ist eines seiner auffälligsten Merkmale. Betrachten Sie den Umriss des Gebäudes und zählen Sie die Seiten des Baus, ohne sich vom Säulengang, der ihn umgibt, täuschen zu lassen.",
+        "es": "La forma de este templo es una de sus características más reconocibles. Observa el perímetro del edificio e intenta contar los lados de la estructura, sin dejarte engañar por el pórtico que lo rodea."
+      },
+      "risposta": {
+        "it": "Otto lati: il tempio ha una pianta ottagonale.",
+        "en": "Eight sides: the temple has an octagonal plan.",
+        "fr": "Huit côtés : le temple a un plan octogonal.",
+        "de": "Acht Seiten: Der Tempel hat einen achteckigen Grundriss.",
+        "es": "Ocho lados: el templo tiene una planta octogonal."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "pescheria-nuova",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Questo edificio un tempo ospitava il mercato del pesce. Osserva la sua struttura e prova a individuare i due materiali che caratterizzano gli elementi interni, diversi dalla tradizionale muratura.",
+        "en": "This building once housed the fish market. Look at its structure and try to identify the two materials that characterise the interior elements, unlike traditional masonry.",
+        "fr": "Ce bâtiment abritait autrefois le marché au poisson. Observez sa structure et essayez d'identifier les deux matériaux qui caractérisent les éléments intérieurs, différents de la maçonnerie traditionnelle.",
+        "de": "In diesem Gebäude befand sich früher der Fischmarkt. Betrachten Sie die Konstruktion und versuchen Sie, die beiden Materialien zu erkennen, die die Innenelemente prägen und sich von dem traditionellen Mauerwerk unterscheiden.",
+        "es": "Este edificio albergó en otro tiempo el mercado del pescado. Observa su estructura e intenta identificar los dos materiales que caracterizan los elementos interiores, distintos de la tradicional mampostería."
+      },
+      "risposta": {
+        "it": "Vetro e ghisa, utilizzati nella struttura interna dell'edificio.",
+        "en": "Glass and cast iron, used in the building's internal structure.",
+        "fr": "Verre et fonte, utilisés dans la structure intérieure du bâtiment.",
+        "de": "Glas und Gusseisen, verwendet in der inneren Konstruktion des Gebäudes.",
+        "es": "Vidrio y hierro fundido, utilizados en la estructura interior del edificio."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "porta-san-bortolo",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva questa antica porta cittadina: riesci a riconoscere il materiale con cui è costruita e a individuare il grande passaggio che permetteva di entrare e uscire dalla città?",
+        "en": "Look at this ancient city gate: can you recognise the material it is built from and spot the large passage that let people enter and leave the city?",
+        "fr": "Observez cette ancienne porte de ville : saurez-vous reconnaître le matériau dont elle est construite et repérer le grand passage qui permettait d'entrer et de sortir de la ville ?",
+        "de": "Betrachten Sie dieses alte Stadttor: Erkennen Sie das Material, aus dem es gebaut ist, und den großen Durchgang, durch den man die Stadt betrat und verließ?",
+        "es": "Observa esta antigua puerta de la ciudad: ¿reconoces el material con el que está construida y localizas el gran paso que permitía entrar y salir de la ciudad?"
+      },
+      "risposta": {
+        "it": "Il laterizio e l'apertura ad arco della porta medievale.",
+        "en": "The brick and the arched opening of the medieval gate.",
+        "fr": "La brique et l'ouverture en arc de la porte médiévale.",
+        "de": "Der Backstein und der Bogendurchgang des mittelalterlichen Tores.",
+        "es": "El ladrillo y el paso en arco de la puerta medieval."
+      },
+      "itinerario": "aguzza-la-vista-centro-storico",
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    }
+  ]
+}

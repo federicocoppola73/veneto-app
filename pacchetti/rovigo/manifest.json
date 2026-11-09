@@ -1,0 +1,688 @@
+{
+ "file": [
+  {
+   "path": "assets/cibi/aglio-bianco-polesano-dop.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/aglio-bianco-polesano-dop.webp"
+  },
+  {
+   "path": "assets/cibi/anguilla-delta-po.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/anguilla-delta-po.webp"
+  },
+  {
+   "path": "assets/cibi/cozza-scardovari-dop.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/cozza-scardovari-dop.webp"
+  },
+  {
+   "path": "assets/cibi/fasoi-in-potacin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/fasoi-in-potacin.webp"
+  },
+  {
+   "path": "assets/cibi/mais-biancoperla.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/mais-biancoperla.webp"
+  },
+  {
+   "path": "assets/cibi/pinza-onta.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/pinza-onta.webp"
+  },
+  {
+   "path": "assets/cibi/polenta-polesana.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/polenta-polesana.webp"
+  },
+  {
+   "path": "assets/cibi/risotto-alla-canarola.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/risotto-alla-canarola.webp"
+  },
+  {
+   "path": "assets/cibi/sugoli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/sugoli.webp"
+  },
+  {
+   "path": "assets/cibi/torta-patate-americane.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/torta-patate-americane.webp"
+  },
+  {
+   "path": "assets/cibi/zucca-di-melara.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/cibi/zucca-di-melara.webp"
+  },
+  {
+   "path": "assets/luoghi/accademia-dei-concordi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/accademia-dei-concordi.webp"
+  },
+  {
+   "path": "assets/luoghi/accademia-dei-concordi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/accademia-dei-concordi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/accademia-dei-concordi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/accademia-dei-concordi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/accademia-dei-concordi_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/accademia-dei-concordi_4.webp"
+  },
+  {
+   "path": "assets/luoghi/accademia-dei-concordi_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/accademia-dei-concordi_5.webp"
+  },
+  {
+   "path": "assets/luoghi/adigetto-scomparso.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/adigetto-scomparso.webp"
+  },
+  {
+   "path": "assets/luoghi/adigetto-scomparso_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/adigetto-scomparso_2.webp"
+  },
+  {
+   "path": "assets/luoghi/adigetto-scomparso_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/adigetto-scomparso_3.webp"
+  },
+  {
+   "path": "assets/luoghi/adigetto-scomparso_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/adigetto-scomparso_4.webp"
+  },
+  {
+   "path": "assets/luoghi/adigetto-scomparso_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/adigetto-scomparso_5.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-bocciati.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/arco-dei-bocciati.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-bocciati_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/arco-dei-bocciati_2.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-bocciati_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/arco-dei-bocciati_3.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-bocciati_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/arco-dei-bocciati_4.webp"
+  },
+  {
+   "path": "assets/luoghi/arco-dei-bocciati_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/arco-dei-bocciati_5.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-umberto-merlin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/casa-umberto-merlin.webp"
+  },
+  {
+   "path": "assets/luoghi/casa-umberto-merlin_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/casa-umberto-merlin_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-domenico.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-domenico.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-domenico_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-domenico_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-domenico_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-domenico_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-domenico_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-domenico_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-domenico_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-domenico_5.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-santi-francesco-e-giustina.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-santi-francesco-e-giustina.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-santi-francesco-e-giustina_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-santi-francesco-e-giustina_2.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-santi-francesco-e-giustina_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-santi-francesco-e-giustina_3.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-santi-francesco-e-giustina_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-santi-francesco-e-giustina_4.webp"
+  },
+  {
+   "path": "assets/luoghi/chiesa-santi-francesco-e-giustina_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-santi-francesco-e-giustina_5.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-ebraico.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-ebraico.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-ebraico_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-ebraico_2.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-ebraico_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-ebraico_3.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-ebraico_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-ebraico_4.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_5.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-santo-stefano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/duomo-santo-stefano.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-santo-stefano_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/duomo-santo-stefano_2.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-santo-stefano_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/duomo-santo-stefano_3.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-santo-stefano_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/duomo-santo-stefano_4.webp"
+  },
+  {
+   "path": "assets/luoghi/duomo-santo-stefano_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/duomo-santo-stefano_5.webp"
+  },
+  {
+   "path": "assets/luoghi/ex-liceo-celio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/ex-liceo-celio.webp"
+  },
+  {
+   "path": "assets/luoghi/ex-liceo-celio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/ex-liceo-celio_2.webp"
+  },
+  {
+   "path": "assets/luoghi/ex-liceo-celio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/ex-liceo-celio_3.webp"
+  },
+  {
+   "path": "assets/luoghi/fontana-della-riconoscenza.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/fontana-della-riconoscenza.webp"
+  },
+  {
+   "path": "assets/luoghi/fontana-della-riconoscenza_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/fontana-della-riconoscenza_2.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-dei-nodari.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-dei-nodari_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari_2.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-dei-nodari_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari_3.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-dei-nodari_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari_4.webp"
+  },
+  {
+   "path": "assets/luoghi/loggia-dei-nodari_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari_5.webp"
+  },
+  {
+   "path": "assets/luoghi/monumento-giovanni-miani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/monumento-giovanni-miani.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-dei-grandi-fiumi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/museo-dei-grandi-fiumi.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-dei-grandi-fiumi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/museo-dei-grandi-fiumi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-dei-grandi-fiumi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/museo-dei-grandi-fiumi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-dei-grandi-fiumi_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/museo-dei-grandi-fiumi_4.webp"
+  },
+  {
+   "path": "assets/luoghi/museo-dei-grandi-fiumi_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/museo-dei-grandi-fiumi_5.webp"
+  },
+  {
+   "path": "assets/luoghi/oratorio-santissima-concezione.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-santissima-concezione.webp"
+  },
+  {
+   "path": "assets/luoghi/oratorio-santissima-concezione_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-santissima-concezione_2.webp"
+  },
+  {
+   "path": "assets/luoghi/oratorio-santissima-concezione_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-santissima-concezione_3.webp"
+  },
+  {
+   "path": "assets/luoghi/oratorio-santissima-concezione_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-santissima-concezione_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzina-minelli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzina-minelli.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzina-minelli_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzina-minelli_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzina-minelli_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzina-minelli_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzina-minelli_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzina-minelli_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzina-minelli_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzina-minelli_5.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-gran-guardia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-gran-guardia_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-gran-guardia_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-gran-guardia_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roncale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roncale.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roncale_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roncale_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roncale_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roncale_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roncale_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roncale_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roncale_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roncale_5.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roverella.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roverella.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roverella_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roverella_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roverella_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roverella_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roverella_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roverella_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-roverella_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-roverella_5.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-silvestri.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-silvestri_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri_2.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-silvestri_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri_3.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-silvestri_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri_4.webp"
+  },
+  {
+   "path": "assets/luoghi/palazzo-silvestri_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri_5.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-nuova.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/pescheria-nuova.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-nuova_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/pescheria-nuova_2.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-nuova_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/pescheria-nuova_3.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-nuova_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/pescheria-nuova_4.webp"
+  },
+  {
+   "path": "assets/luoghi/pescheria-nuova_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/pescheria-nuova_5.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-giuseppe-garibaldi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-giuseppe-garibaldi.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-giuseppe-garibaldi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-giuseppe-garibaldi_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-giuseppe-garibaldi_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-giuseppe-garibaldi_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-giuseppe-garibaldi_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-giuseppe-garibaldi_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-umberto-merlin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-umberto-merlin.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-umberto-merlin_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-umberto-merlin_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-umberto-merlin_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-umberto-merlin_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-umberto-merlin_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-umberto-merlin_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-vittorio-emanuele-ii.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-vittorio-emanuele-ii.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-vittorio-emanuele-ii_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-vittorio-emanuele-ii_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-vittorio-emanuele-ii_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-vittorio-emanuele-ii_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-vittorio-emanuele-ii_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-vittorio-emanuele-ii_4.webp"
+  },
+  {
+   "path": "assets/luoghi/piazza-vittorio-emanuele-ii_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazza-vittorio-emanuele-ii_5.webp"
+  },
+  {
+   "path": "assets/luoghi/piazzetta-annonaria.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazzetta-annonaria.webp"
+  },
+  {
+   "path": "assets/luoghi/piazzetta-annonaria_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazzetta-annonaria_2.webp"
+  },
+  {
+   "path": "assets/luoghi/piazzetta-annonaria_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazzetta-annonaria_3.webp"
+  },
+  {
+   "path": "assets/luoghi/piazzetta-annonaria_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/piazzetta-annonaria_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-san-bortolo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-san-bortolo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo_2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-san-bortolo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo_3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-san-bortolo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-san-bortolo_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo_5.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-sant-agostino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-sant-agostino.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-sant-agostino_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-sant-agostino_2.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-sant-agostino_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-sant-agostino_3.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-sant-agostino_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-sant-agostino_4.webp"
+  },
+  {
+   "path": "assets/luoghi/porta-sant-agostino_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-sant-agostino_5.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-sociale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/teatro-sociale.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-sociale_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/teatro-sociale_2.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-sociale_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/teatro-sociale_3.webp"
+  },
+  {
+   "path": "assets/luoghi/teatro-sociale_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/teatro-sociale_4.webp"
+  },
+  {
+   "path": "assets/luoghi/tempio-la-rotonda.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/tempio-la-rotonda.webp"
+  },
+  {
+   "path": "assets/luoghi/tempio-la-rotonda_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/tempio-la-rotonda_2.webp"
+  },
+  {
+   "path": "assets/luoghi/tempio-la-rotonda_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/tempio-la-rotonda_3.webp"
+  },
+  {
+   "path": "assets/luoghi/tempio-la-rotonda_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/tempio-la-rotonda_4.webp"
+  },
+  {
+   "path": "assets/luoghi/tempio-la-rotonda_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/tempio-la-rotonda_5.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dona-castello.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-dona-castello.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dona-castello_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-dona-castello_2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dona-castello_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-dona-castello_3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dona-castello_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-dona-castello_4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-dona-castello_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-dona-castello_5.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-pighin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-pighin.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-pighin_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-pighin_2.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-pighin_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-pighin_3.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-pighin_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-pighin_4.webp"
+  },
+  {
+   "path": "assets/luoghi/torre-pighin_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/torre-pighin_5.webp"
+  },
+  {
+   "path": "assets/mappa-rovigo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/mappa-rovigo.webp"
+  },
+  {
+   "path": "assets/personaggi/giacomo-matteotti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/giacomo-matteotti.webp"
+  },
+  {
+   "path": "assets/personaggi/gino-piva.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/gino-piva.webp"
+  },
+  {
+   "path": "assets/personaggi/giovanni-miani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/giovanni-miani.webp"
+  },
+  {
+   "path": "assets/personaggi/umberto-merlin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/umberto-merlin.webp"
+  },
+  {
+   "path": "assets/personaggi/virgilio-milani.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/virgilio-milani.webp"
+  },
+  {
+   "path": "dati/aguzza.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/aguzza.json"
+  },
+  {
+   "path": "dati/app.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/app.json"
+  },
+  {
+   "path": "dati/autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/autobus.json"
+  },
+  {
+   "path": "dati/cibi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/cibi.json"
+  },
+  {
+   "path": "dati/citta.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/citta.json"
+  },
+  {
+   "path": "dati/curiosita.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/curiosita.json"
+  },
+  {
+   "path": "dati/eventi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/eventi.json"
+  },
+  {
+   "path": "dati/immagini.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/immagini.json"
+  },
+  {
+   "path": "dati/itinerari.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/itinerari.json"
+  },
+  {
+   "path": "dati/luoghi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json"
+  },
+  {
+   "path": "dati/mappa.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/mappa.json"
+  },
+  {
+   "path": "dati/orari_autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/orari_autobus.json"
+  },
+  {
+   "path": "dati/orari_vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/orari_vaporetti.json"
+  },
+  {
+   "path": "dati/personaggi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/personaggi.json"
+  },
+  {
+   "path": "dati/principali.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/principali.json"
+  },
+  {
+   "path": "dati/rete.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/rete.json"
+  },
+  {
+   "path": "dati/servizi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/servizi.json"
+  },
+  {
+   "path": "dati/vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/vaporetti.json"
+  }
+ ]
+}

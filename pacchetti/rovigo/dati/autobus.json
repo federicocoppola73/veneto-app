@@ -1,0 +1,1713 @@
+{
+ "_nota": "Rovigo: linee urbane Busitalia, orario invernale 2026/2027, in vigore dal 10/09/2026. Non c'è un GTFS utilizzabile: l'app rimanda alla pagina e al PDF di ogni linea (campo \"pdf\"), che contengono gli orari per fermata. Le cadenze sono feriali (lun–sab); alcune corse valgono solo nei giorni di scuola (feriale scolastica). Pagina generale: campo \"pagina\".",
+ "pagina": "https://www.fsbusitalia.it/it/veneto/orari-e-linee/orari-urbani-rovigo-inverno-2026.html",
+ "linee": [
+  {
+   "id": "AUT-RO-01",
+   "etichetta": "1 destra",
+   "mezzo": "autobus",
+   "colore": "#1F5FBF",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/1circolaredestra.pdf",
+   "percorso": "Ospedale – Viale Venezia – Piazzale Appiotti – Corso del Popolo – Stazione FS – Q.re Commenda – Ospedale",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-ospedale",
+      "autobus-cittadella-sanitaria",
+      "autobus-viale-tre-martiri",
+      "autobus-viale-oroboni-cimitero",
+      "autobus-viale-venezia",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-pittarelo",
+      "autobus-c-u-r-piazzale-interno",
+      "autobus-casa-serena",
+      "autobus-via-de-gasperi-istituti-scolastici",
+      "autobus-via-benedetto-croce",
+      "autobus-via-de-polzer",
+      "autobus-cittadella-sanitaria",
+      "autobus-ospedale"
+     ],
+     "titolo": "Giro Ospedale"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-02",
+   "etichetta": "1 sinistra",
+   "mezzo": "autobus",
+   "colore": "#2E86DE",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/1circolaresinistra.pdf",
+   "percorso": "Ospedale – Q.re Commenda – Stazione FS – Corso del Popolo – Piazzale Appiotti – Viale Venezia – Ospedale",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-ospedale",
+      "autobus-cittadella-sanitaria",
+      "autobus-via-de-polzer",
+      "autobus-via-benedetto-croce",
+      "autobus-via-de-gasperi-istituti-scolastici",
+      "autobus-casa-serena",
+      "autobus-c-u-r-piazzale-interno",
+      "autobus-pittarelo",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-viale-venezia",
+      "autobus-viale-oroboni-cimitero",
+      "autobus-viale-tre-martiri",
+      "autobus-cittadella-sanitaria",
+      "autobus-ospedale"
+     ],
+     "titolo": "Giro Ospedale"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-03",
+   "etichetta": "2",
+   "mezzo": "autobus",
+   "colore": "#D62828",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/2.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Q.re Commenda – Ospedale – Buso – Canale e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-casalini",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-casalini",
+      "autobus-bonifacio",
+      "autobus-via-della-costituzione",
+      "autobus-via-de-polzer",
+      "autobus-cittadella-sanitaria",
+      "autobus-ospedale",
+      "autobus-buso",
+      "autobus-via-carducci",
+      "autobus-canale"
+     ],
+     "titolo": "Casalini → Canale"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-canale",
+      "autobus-via-passetto",
+      "autobus-buso",
+      "autobus-ospedale",
+      "autobus-cittadella-sanitaria",
+      "autobus-via-de-polzer",
+      "autobus-via-della-costituzione",
+      "autobus-bonifacio",
+      "autobus-casalini",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Canale → Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-04",
+   "etichetta": "3",
+   "mezzo": "autobus",
+   "colore": "#F77F00",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/3.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Granzette – Cantonazzo – Concadirame – Grompo e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-riccoboni",
+      "autobus-via-chiarugi-48",
+      "autobus-granzette-chiesa",
+      "autobus-bivio-granzette",
+      "autobus-cantonazzo",
+      "autobus-concadirame-chiesa",
+      "autobus-concadirame-campo-sportivo",
+      "autobus-grompo"
+     ],
+     "titolo": "Piazzale Appiotti → Grompo"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-grompo",
+      "autobus-concadirame-campo-sportivo",
+      "autobus-concadirame-chiesa",
+      "autobus-cantonazzo",
+      "autobus-bivio-granzette",
+      "autobus-granzette-chiesa",
+      "autobus-via-chiarugi-48",
+      "autobus-riccoboni",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Grompo → Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-05",
+   "etichetta": "4",
+   "mezzo": "autobus",
+   "colore": "#FCBF49",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/4.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Boara Polesine – Ca' Bianca e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-viale-porta-adige",
+      "autobus-localita-radecchio",
+      "autobus-ponte-adige",
+      "autobus-boara-cimitero",
+      "autobus-boara-acquedotto"
+     ],
+     "titolo": "Piazzale Appiotti → Boara Acquedotto"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-boara-acquedotto",
+      "autobus-boara-cimitero",
+      "autobus-ponte-adige",
+      "autobus-localita-radecchio",
+      "autobus-viale-porta-adige",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-bonifacio",
+      "autobus-via-de-gasperi-istituti-scolastici"
+     ],
+     "titolo": "Boara Acquedotto → Via De Gasperi Istituti scolastici"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-06",
+   "etichetta": "5",
+   "mezzo": "autobus",
+   "colore": "#2A9D8F",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/5.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Ospedale – Sarzano – Mardimago e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-casalini",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-bonifacio",
+      "autobus-viale-della-pace",
+      "autobus-viale-tre-martiri",
+      "autobus-cittadella-sanitaria",
+      "autobus-ospedale",
+      "autobus-canale",
+      "autobus-sarzano-scuole",
+      "autobus-sarzano-chiesa",
+      "autobus-mardimago"
+     ],
+     "titolo": "Casalini → Mardimago"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-mardimago",
+      "autobus-sarzano-chiesa",
+      "autobus-sarzano-scuole",
+      "autobus-ospedale",
+      "autobus-cittadella-sanitaria",
+      "autobus-viale-tre-martiri",
+      "autobus-viale-della-pace",
+      "autobus-bonifacio",
+      "autobus-casalini",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Mardimago → Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-07",
+   "etichetta": "6",
+   "mezzo": "autobus",
+   "colore": "#8338EC",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/6.pdf",
+   "percorso": "Stazione FS – Corso del Popolo – Piazzale Appiotti – Via V. Veneto – Zona Ind. Borsea – Passo Pontecchio – Pontecchio Polesine e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-casalini",
+      "autobus-via-oroboni-parenzo",
+      "autobus-casa-di-cura-citta-di-rovigo",
+      "autobus-via-veneto-scuole",
+      "autobus-viale-del-lavoro",
+      "autobus-zona-industriale-infun-for",
+      "autobus-borsea",
+      "autobus-passo-pontecchio",
+      "autobus-pontecchio"
+     ],
+     "titolo": "Stazione FS → Pontecchio"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-pontecchio",
+      "autobus-passo-pontecchio",
+      "autobus-borsea",
+      "autobus-zona-industriale-infun-for",
+      "autobus-viale-del-lavoro",
+      "autobus-via-veneto-scuole",
+      "autobus-casalini",
+      "autobus-via-oroboni-parenzo",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Pontecchio → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-08",
+   "etichetta": "7",
+   "mezzo": "autobus",
+   "colore": "#FF006E",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/7.pdf",
+   "percorso": "Stazione FS – Corso del Popolo – Piazzale Appiotti – S. Apollinare – Fenil del Turco – S. Cassiano e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-rovigo-autostazione",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-casalini",
+      "autobus-via-oroboni-parenzo",
+      "autobus-san-sisto",
+      "autobus-romagnano",
+      "autobus-istituto-tecnico-agrario",
+      "autobus-fenil-del-turco",
+      "autobus-s-cassiano"
+     ],
+     "titolo": "Stazione FS → S. Cassiano"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-s-cassiano",
+      "autobus-fenil-del-turco",
+      "autobus-romagnano",
+      "autobus-istituto-tecnico-agrario",
+      "autobus-san-sisto",
+      "autobus-casalini",
+      "autobus-via-oroboni-parenzo",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-rovigo-autostazione",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "S. Cassiano → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-09",
+   "etichetta": "8",
+   "mezzo": "autobus",
+   "colore": "#3A86FF",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/8.pdf",
+   "percorso": "Stazione FS – Corso del Popolo – Piazzale Appiotti – Spianata – Grignano Polesine e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-zona-industriale-infun-for",
+      "autobus-borsea",
+      "autobus-spianata",
+      "autobus-bivio-grignano-polesine",
+      "autobus-grignano-polesine",
+      "autobus-ponte-asino",
+      "autobus-ponte-merlo"
+     ],
+     "titolo": "Stazione FS → Ponte Merlo"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-ponte-merlo",
+      "autobus-grignano-polesine",
+      "autobus-bivio-grignano-polesine",
+      "autobus-spianata",
+      "autobus-borsea",
+      "autobus-zona-industriale-infun-for",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Ponte Merlo → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-10",
+   "etichetta": "9/",
+   "mezzo": "autobus",
+   "colore": "#6A4C93",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/9BARRATO.pdf",
+   "percorso": "Piazzale Appiotti – Casa di Cura \"Città di Rovigo\" – Via del Sacro Cuore – Corso del Popolo – Stazione FS",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-casa-di-cura-citta-di-rovigo",
+      "autobus-via-del-sacro-cuore",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Piazzale Appiotti → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-11",
+   "etichetta": "9 Navetta",
+   "mezzo": "autobus",
+   "colore": "#8AC926",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/9.pdf",
+   "percorso": "Navetta Stazione FS – Corso del Popolo – Piazzale Appiotti",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Piazzale Appiotti → Stazione FS"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Stazione FS → Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-12",
+   "etichetta": "10",
+   "mezzo": "autobus",
+   "colore": "#FF595E",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/10.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Q.re S. Pio X – Stazione FS – Corso del Popolo – Piazzale Appiotti con prolungamento Zona Commerciale Sud",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-via-del-commercio",
+      "autobus-spianata",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-s-pio-x-chiesa",
+      "autobus-via-scarlatti",
+      "autobus-via-mascagni",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-spianata",
+      "autobus-viale-unita-europea-c-c",
+      "autobus-viale-porta-po-c-c-la-fattoria",
+      "autobus-via-del-commercio"
+     ],
+     "titolo": "Giro Via del Commercio"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-13",
+   "etichetta": "11",
+   "mezzo": "autobus",
+   "colore": "#1982C4",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/11.pdf",
+   "percorso": "Stazione FS – Roverdicrè – Ponte Autostrada e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-s-pio-x-scuole",
+      "autobus-via-bellini",
+      "autobus-roverdicre",
+      "autobus-via-nogarazze",
+      "autobus-ponte-autostrada"
+     ],
+     "titolo": "Piazzale Appiotti → Ponte Autostrada"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-ponte-autostrada",
+      "autobus-via-pozzato",
+      "autobus-roverdicre",
+      "autobus-via-gallani",
+      "autobus-s-pio-x-scuole",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Ponte Autostrada → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-14",
+   "etichetta": "12 navetta",
+   "mezzo": "autobus",
+   "colore": "#6A994E",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/12.pdf",
+   "percorso": "Navetta Stazione FS – Viale della Pace – Viale Tre Martiri – Nuovo Carcere e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": false,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-viale-della-pace",
+      "autobus-viale-tre-martiri",
+      "autobus-nuovo-carcere"
+     ],
+     "titolo": "Stazione FS → Nuovo Carcere"
+    },
+    {
+     "direzione": 1,
+     "circolare": false,
+     "fermate": [
+      "autobus-nuovo-carcere",
+      "autobus-viale-tre-martiri",
+      "autobus-viale-della-pace",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Nuovo Carcere → Stazione FS"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-15",
+   "etichetta": "25",
+   "mezzo": "autobus",
+   "colore": "#BC4749",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/25.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Ospedale – Buso – Canale – Sarzano – Mardimago",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-viale-della-pace",
+      "autobus-cittadella-sanitaria",
+      "autobus-ospedale",
+      "autobus-buso",
+      "autobus-via-carducci",
+      "autobus-canale",
+      "autobus-sarzano-scuole",
+      "autobus-mardimago",
+      "autobus-ospedale",
+      "autobus-viale-della-pace",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Giro Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-16",
+   "etichetta": "43",
+   "mezzo": "autobus",
+   "colore": "#577590",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/43.pdf",
+   "percorso": "Piazzale Appiotti – Corso del Popolo – Stazione FS – Boara – Ca' Bianca – Granzette – Concadirame e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs",
+      "autobus-viale-porta-adige",
+      "autobus-boara-cimitero",
+      "autobus-boara-acquedotto",
+      "autobus-localita-radecchio",
+      "autobus-granzette-chiesa",
+      "autobus-cantonazzo",
+      "autobus-concadirame-chiesa",
+      "autobus-concadirame-campo-sportivo",
+      "autobus-bivio-granzette",
+      "autobus-via-chiarugi-48",
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti"
+     ],
+     "titolo": "Giro Piazzale Appiotti"
+    }
+   ]
+  },
+  {
+   "id": "AUT-RO-17",
+   "etichetta": "68",
+   "mezzo": "autobus",
+   "colore": "#90BE6D",
+   "testo": "#FFFFFF",
+   "notturna": false,
+   "gestore": "Busitalia",
+   "pdf": "https://www.fsbusitalia.it/content/dam/fsbusitalia/documenti/veneto/orari/invernali2627/urbanoro/68.pdf",
+   "percorso": "Stazione FS – Corso Piazzale Appiotti – Via Veneto – Z.na industriale – Borsea – Grignano e ritorno",
+   "direzioni": [
+    {
+     "direzione": 0,
+     "circolare": true,
+     "fermate": [
+      "autobus-stazione-fs",
+      "autobus-corso-del-popolo",
+      "autobus-piazzale-appiotti",
+      "autobus-casa-di-cura-citta-di-rovigo",
+      "autobus-via-veneto-scuole",
+      "autobus-zona-industriale-infun-for",
+      "autobus-borsea",
+      "autobus-pontecchio",
+      "autobus-via-giotto-28",
+      "autobus-bivio-grignano-polesine",
+      "autobus-grignano-polesine",
+      "autobus-ponte-merlo",
+      "autobus-spianata",
+      "autobus-piazzale-appiotti",
+      "autobus-corso-del-popolo",
+      "autobus-stazione-fs"
+     ],
+     "titolo": "Giro Stazione FS"
+    }
+   ]
+  }
+ ],
+ "fermate": {
+  "autobus-bivio-granzette": {
+   "nome": "Bivio Granzette",
+   "lat": 45.08912,
+   "lon": 11.76714,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-bivio-grignano-polesine": {
+   "nome": "Bivio Grignano Polesine",
+   "lat": 45.04812,
+   "lon": 11.76124,
+   "linee": [
+    "AUT-RO-09",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-boara-acquedotto": {
+   "nome": "Boara Acquedotto",
+   "lat": 45.11124,
+   "lon": 11.79812,
+   "linee": [
+    "AUT-RO-05",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-boara-cimitero": {
+   "nome": "Boara Cimitero",
+   "lat": 45.10812,
+   "lon": 11.79612,
+   "linee": [
+    "AUT-RO-05",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-bonifacio": {
+   "nome": "Bonifacio",
+   "lat": 45.07214,
+   "lon": 11.80214,
+   "linee": [
+    "AUT-RO-03",
+    "AUT-RO-05",
+    "AUT-RO-06"
+   ]
+  },
+  "autobus-borsea": {
+   "nome": "Borsea",
+   "lat": 45.03124,
+   "lon": 11.79124,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-09",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-buso": {
+   "nome": "Buso",
+   "lat": 45.03912,
+   "lon": 11.85124,
+   "linee": [
+    "AUT-RO-03",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-c-u-r-piazzale-interno": {
+   "nome": "C.U.R. piazzale interno",
+   "lat": 45.06798,
+   "lon": 11.77201,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-canale": {
+   "nome": "Canale",
+   "lat": 45.05124,
+   "lon": 11.84124,
+   "linee": [
+    "AUT-RO-03",
+    "AUT-RO-06",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-cantonazzo": {
+   "nome": "Cantonazzo",
+   "lat": 45.10124,
+   "lon": 11.75812,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-casa-di-cura-citta-di-rovigo": {
+   "nome": "Casa di Cura Città di Rovigo",
+   "lat": 45.06214,
+   "lon": 11.76124,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-10",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-casa-serena": {
+   "nome": "Casa Serena",
+   "lat": 45.08112,
+   "lon": 11.79956,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-casalini": {
+   "nome": "Casalini",
+   "lat": 45.03456,
+   "lon": 11.83124,
+   "linee": [
+    "AUT-RO-03",
+    "AUT-RO-06",
+    "AUT-RO-07",
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-cittadella-sanitaria": {
+   "nome": "Cittadella Sanitaria",
+   "lat": 45.07712,
+   "lon": 11.80124,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03",
+    "AUT-RO-06",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-concadirame-campo-sportivo": {
+   "nome": "Concadirame campo sportivo",
+   "lat": 45.11412,
+   "lon": 11.74012,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-concadirame-chiesa": {
+   "nome": "Concadirame chiesa",
+   "lat": 45.11214,
+   "lon": 11.74124,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-corso-del-popolo": {
+   "nome": "Corso del Popolo",
+   "lat": 45.07114,
+   "lon": 11.78521,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03",
+    "AUT-RO-04",
+    "AUT-RO-05",
+    "AUT-RO-06",
+    "AUT-RO-07",
+    "AUT-RO-08",
+    "AUT-RO-09",
+    "AUT-RO-10",
+    "AUT-RO-11",
+    "AUT-RO-12",
+    "AUT-RO-13",
+    "AUT-RO-15",
+    "AUT-RO-16",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-fenil-del-turco": {
+   "nome": "Fenil del Turco",
+   "lat": 45.02124,
+   "lon": 11.84124,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-granzette-chiesa": {
+   "nome": "Granzette chiesa",
+   "lat": 45.09214,
+   "lon": 11.76512,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-grignano-polesine": {
+   "nome": "Grignano Polesine",
+   "lat": 45.04124,
+   "lon": 11.75512,
+   "linee": [
+    "AUT-RO-09",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-grompo": {
+   "nome": "Grompo",
+   "lat": 45.04812,
+   "lon": 11.87124,
+   "linee": [
+    "AUT-RO-04"
+   ]
+  },
+  "autobus-istituto-tecnico-agrario": {
+   "nome": "Istituto Tecnico Agrario",
+   "lat": 45.03612,
+   "lon": 11.82412,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-localita-radecchio": {
+   "nome": "Località Radecchio",
+   "lat": 45.09312,
+   "lon": 11.79124,
+   "linee": [
+    "AUT-RO-05",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-mardimago": {
+   "nome": "Mardimago",
+   "lat": 45.11812,
+   "lon": 11.82124,
+   "linee": [
+    "AUT-RO-06",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-nuovo-carcere": {
+   "nome": "Nuovo Carcere",
+   "lat": 45.08124,
+   "lon": 11.73124,
+   "linee": [
+    "AUT-RO-14"
+   ]
+  },
+  "autobus-ospedale": {
+   "nome": "Ospedale",
+   "lat": 45.07821,
+   "lon": 11.79462,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03",
+    "AUT-RO-06",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-passo-pontecchio": {
+   "nome": "Passo Pontecchio",
+   "lat": 45.02124,
+   "lon": 11.79812,
+   "linee": [
+    "AUT-RO-07"
+   ]
+  },
+  "autobus-piazzale-appiotti": {
+   "nome": "Piazzale Appiotti",
+   "lat": 45.07253,
+   "lon": 11.78014,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03",
+    "AUT-RO-04",
+    "AUT-RO-05",
+    "AUT-RO-06",
+    "AUT-RO-07",
+    "AUT-RO-08",
+    "AUT-RO-09",
+    "AUT-RO-10",
+    "AUT-RO-11",
+    "AUT-RO-12",
+    "AUT-RO-13",
+    "AUT-RO-15",
+    "AUT-RO-16",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-pittarelo": {
+   "nome": "Pittarelo",
+   "lat": 45.05214,
+   "lon": 11.79245,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-ponte-adige": {
+   "nome": "Ponte Adige",
+   "lat": 45.10145,
+   "lon": 11.79214,
+   "linee": [
+    "AUT-RO-05"
+   ]
+  },
+  "autobus-ponte-asino": {
+   "nome": "Ponte Asino",
+   "lat": 45.05124,
+   "lon": 11.74812,
+   "linee": [
+    "AUT-RO-09"
+   ]
+  },
+  "autobus-ponte-autostrada": {
+   "nome": "Ponte Autostrada",
+   "lat": 45.07312,
+   "lon": 11.70912,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-ponte-merlo": {
+   "nome": "Ponte Merlo",
+   "lat": 45.03512,
+   "lon": 11.75912,
+   "linee": [
+    "AUT-RO-09",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-pontecchio": {
+   "nome": "Pontecchio",
+   "lat": 45.01512,
+   "lon": 11.80214,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-riccoboni": {
+   "nome": "Riccoboni",
+   "lat": 45.07123,
+   "lon": 11.77612,
+   "linee": [
+    "AUT-RO-04"
+   ]
+  },
+  "autobus-romagnano": {
+   "nome": "Romagnano",
+   "lat": 45.03124,
+   "lon": 11.82812,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-roverdicre": {
+   "nome": "Roverdicrè",
+   "lat": 45.06912,
+   "lon": 11.72124,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-rovigo-autostazione": {
+   "nome": "Rovigo Autostazione",
+   "lat": 45.07312,
+   "lon": 11.78124,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-s-cassiano": {
+   "nome": "S. Cassiano",
+   "lat": 45.01124,
+   "lon": 11.85124,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-s-pio-x-chiesa": {
+   "nome": "S. Pio X chiesa",
+   "lat": 45.06312,
+   "lon": 11.75812,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-s-pio-x-scuole": {
+   "nome": "S. Pio X Scuole",
+   "lat": 45.06512,
+   "lon": 11.75512,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-san-sisto": {
+   "nome": "San Sisto",
+   "lat": 45.05124,
+   "lon": 11.81245,
+   "linee": [
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-sarzano-chiesa": {
+   "nome": "Sarzano Chiesa",
+   "lat": 45.09312,
+   "lon": 11.81812,
+   "linee": [
+    "AUT-RO-06"
+   ]
+  },
+  "autobus-sarzano-scuole": {
+   "nome": "Sarzano Scuole",
+   "lat": 45.09124,
+   "lon": 11.81512,
+   "linee": [
+    "AUT-RO-06",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-spianata": {
+   "nome": "Spianata",
+   "lat": 45.06124,
+   "lon": 11.75124,
+   "linee": [
+    "AUT-RO-09",
+    "AUT-RO-12",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-stazione-fs": {
+   "nome": "Stazione FS",
+   "lat": 45.07456,
+   "lon": 11.78234,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03",
+    "AUT-RO-04",
+    "AUT-RO-05",
+    "AUT-RO-06",
+    "AUT-RO-07",
+    "AUT-RO-08",
+    "AUT-RO-09",
+    "AUT-RO-10",
+    "AUT-RO-11",
+    "AUT-RO-12",
+    "AUT-RO-13",
+    "AUT-RO-14",
+    "AUT-RO-15",
+    "AUT-RO-16",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-via-bellini": {
+   "nome": "Via Bellini",
+   "lat": 45.06712,
+   "lon": 11.74912,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-via-benedetto-croce": {
+   "nome": "Via Benedetto Croce",
+   "lat": 45.08321,
+   "lon": 11.77612,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-via-carducci": {
+   "nome": "Via Carducci",
+   "lat": 45.07321,
+   "lon": 11.79145,
+   "linee": [
+    "AUT-RO-03",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-via-chiarugi-48": {
+   "nome": "Via Chiarugi 48",
+   "lat": 45.08812,
+   "lon": 11.76912,
+   "linee": [
+    "AUT-RO-04",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-via-de-gasperi-istituti-scolastici": {
+   "nome": "Via De Gasperi Istituti scolastici",
+   "lat": 45.07012,
+   "lon": 11.76124,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-05"
+   ]
+  },
+  "autobus-via-de-polzer": {
+   "nome": "Via De Polzer",
+   "lat": 45.06412,
+   "lon": 11.79123,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-03"
+   ]
+  },
+  "autobus-via-del-commercio": {
+   "nome": "Via del Commercio",
+   "lat": 45.05912,
+   "lon": 11.74912,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-via-del-sacro-cuore": {
+   "nome": "Via del Sacro Cuore",
+   "lat": 45.06512,
+   "lon": 11.76312,
+   "linee": [
+    "AUT-RO-10"
+   ]
+  },
+  "autobus-via-della-costituzione": {
+   "nome": "Via della Costituzione",
+   "lat": 45.06124,
+   "lon": 11.81245,
+   "linee": [
+    "AUT-RO-03"
+   ]
+  },
+  "autobus-via-gallani": {
+   "nome": "Via Gallani",
+   "lat": 45.07812,
+   "lon": 11.70512,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-via-giotto-28": {
+   "nome": "Via Giotto 28",
+   "lat": 45.06612,
+   "lon": 11.77124,
+   "linee": [
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-via-mascagni": {
+   "nome": "Via Mascagni",
+   "lat": 45.05512,
+   "lon": 11.74512,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-via-nogarazze": {
+   "nome": "Via Nogarazze",
+   "lat": 45.07124,
+   "lon": 11.71512,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-via-oroboni-parenzo": {
+   "nome": "Via Oroboni Parenzo",
+   "lat": 45.07612,
+   "lon": 11.77456,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-08"
+   ]
+  },
+  "autobus-via-passetto": {
+   "nome": "Via Passetto",
+   "lat": 45.06912,
+   "lon": 11.79912,
+   "linee": [
+    "AUT-RO-03"
+   ]
+  },
+  "autobus-via-pozzato": {
+   "nome": "Via Pozzato",
+   "lat": 45.07512,
+   "lon": 11.71124,
+   "linee": [
+    "AUT-RO-13"
+   ]
+  },
+  "autobus-via-scarlatti": {
+   "nome": "Via Scarlatti",
+   "lat": 45.05712,
+   "lon": 11.74214,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-via-veneto-scuole": {
+   "nome": "Via Veneto Scuole",
+   "lat": 45.06412,
+   "lon": 11.76912,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-17"
+   ]
+  },
+  "autobus-viale-del-lavoro": {
+   "nome": "Viale del Lavoro",
+   "lat": 45.05312,
+   "lon": 11.77812,
+   "linee": [
+    "AUT-RO-07"
+   ]
+  },
+  "autobus-viale-della-pace": {
+   "nome": "Viale della Pace",
+   "lat": 45.06812,
+   "lon": 11.79512,
+   "linee": [
+    "AUT-RO-06",
+    "AUT-RO-14",
+    "AUT-RO-15"
+   ]
+  },
+  "autobus-viale-oroboni-cimitero": {
+   "nome": "Viale Oroboni Cimitero",
+   "lat": 45.07954,
+   "lon": 11.77123,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-viale-porta-adige": {
+   "nome": "Viale Porta Adige",
+   "lat": 45.08512,
+   "lon": 11.78912,
+   "linee": [
+    "AUT-RO-05",
+    "AUT-RO-16"
+   ]
+  },
+  "autobus-viale-porta-po-c-c-la-fattoria": {
+   "nome": "Viale Porta Po C.C. La Fattoria",
+   "lat": 45.05112,
+   "lon": 11.73214,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-viale-tre-martiri": {
+   "nome": "Viale Tre Martiri",
+   "lat": 45.07812,
+   "lon": 11.76541,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02",
+    "AUT-RO-06",
+    "AUT-RO-14"
+   ]
+  },
+  "autobus-viale-unita-europea-c-c": {
+   "nome": "Viale Unità Europea C.C.",
+   "lat": 45.05312,
+   "lon": 11.73912,
+   "linee": [
+    "AUT-RO-12"
+   ]
+  },
+  "autobus-viale-venezia": {
+   "nome": "Viale Venezia",
+   "lat": 45.07542,
+   "lon": 11.77712,
+   "linee": [
+    "AUT-RO-01",
+    "AUT-RO-02"
+   ]
+  },
+  "autobus-zona-industriale-infun-for": {
+   "nome": "Zona Industriale Infun For",
+   "lat": 45.04214,
+   "lon": 11.78512,
+   "linee": [
+    "AUT-RO-07",
+    "AUT-RO-09",
+    "AUT-RO-17"
+   ]
+  }
+ },
+ "fermataLinee": {
+  "autobus-bivio-granzette": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-bivio-grignano-polesine": [
+   "AUT-RO-09",
+   "AUT-RO-17"
+  ],
+  "autobus-boara-acquedotto": [
+   "AUT-RO-05",
+   "AUT-RO-16"
+  ],
+  "autobus-boara-cimitero": [
+   "AUT-RO-05",
+   "AUT-RO-16"
+  ],
+  "autobus-bonifacio": [
+   "AUT-RO-03",
+   "AUT-RO-05",
+   "AUT-RO-06"
+  ],
+  "autobus-borsea": [
+   "AUT-RO-07",
+   "AUT-RO-09",
+   "AUT-RO-17"
+  ],
+  "autobus-buso": [
+   "AUT-RO-03",
+   "AUT-RO-15"
+  ],
+  "autobus-c-u-r-piazzale-interno": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-canale": [
+   "AUT-RO-03",
+   "AUT-RO-06",
+   "AUT-RO-15"
+  ],
+  "autobus-cantonazzo": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-casa-di-cura-citta-di-rovigo": [
+   "AUT-RO-07",
+   "AUT-RO-10",
+   "AUT-RO-17"
+  ],
+  "autobus-casa-serena": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-casalini": [
+   "AUT-RO-03",
+   "AUT-RO-06",
+   "AUT-RO-07",
+   "AUT-RO-08"
+  ],
+  "autobus-cittadella-sanitaria": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03",
+   "AUT-RO-06",
+   "AUT-RO-15"
+  ],
+  "autobus-concadirame-campo-sportivo": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-concadirame-chiesa": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-corso-del-popolo": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03",
+   "AUT-RO-04",
+   "AUT-RO-05",
+   "AUT-RO-06",
+   "AUT-RO-07",
+   "AUT-RO-08",
+   "AUT-RO-09",
+   "AUT-RO-10",
+   "AUT-RO-11",
+   "AUT-RO-12",
+   "AUT-RO-13",
+   "AUT-RO-15",
+   "AUT-RO-16",
+   "AUT-RO-17"
+  ],
+  "autobus-fenil-del-turco": [
+   "AUT-RO-08"
+  ],
+  "autobus-granzette-chiesa": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-grignano-polesine": [
+   "AUT-RO-09",
+   "AUT-RO-17"
+  ],
+  "autobus-grompo": [
+   "AUT-RO-04"
+  ],
+  "autobus-istituto-tecnico-agrario": [
+   "AUT-RO-08"
+  ],
+  "autobus-localita-radecchio": [
+   "AUT-RO-05",
+   "AUT-RO-16"
+  ],
+  "autobus-mardimago": [
+   "AUT-RO-06",
+   "AUT-RO-15"
+  ],
+  "autobus-nuovo-carcere": [
+   "AUT-RO-14"
+  ],
+  "autobus-ospedale": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03",
+   "AUT-RO-06",
+   "AUT-RO-15"
+  ],
+  "autobus-passo-pontecchio": [
+   "AUT-RO-07"
+  ],
+  "autobus-piazzale-appiotti": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03",
+   "AUT-RO-04",
+   "AUT-RO-05",
+   "AUT-RO-06",
+   "AUT-RO-07",
+   "AUT-RO-08",
+   "AUT-RO-09",
+   "AUT-RO-10",
+   "AUT-RO-11",
+   "AUT-RO-12",
+   "AUT-RO-13",
+   "AUT-RO-15",
+   "AUT-RO-16",
+   "AUT-RO-17"
+  ],
+  "autobus-pittarelo": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-ponte-adige": [
+   "AUT-RO-05"
+  ],
+  "autobus-ponte-asino": [
+   "AUT-RO-09"
+  ],
+  "autobus-ponte-autostrada": [
+   "AUT-RO-13"
+  ],
+  "autobus-ponte-merlo": [
+   "AUT-RO-09",
+   "AUT-RO-17"
+  ],
+  "autobus-pontecchio": [
+   "AUT-RO-07",
+   "AUT-RO-17"
+  ],
+  "autobus-riccoboni": [
+   "AUT-RO-04"
+  ],
+  "autobus-romagnano": [
+   "AUT-RO-08"
+  ],
+  "autobus-roverdicre": [
+   "AUT-RO-13"
+  ],
+  "autobus-rovigo-autostazione": [
+   "AUT-RO-08"
+  ],
+  "autobus-s-cassiano": [
+   "AUT-RO-08"
+  ],
+  "autobus-s-pio-x-chiesa": [
+   "AUT-RO-12"
+  ],
+  "autobus-s-pio-x-scuole": [
+   "AUT-RO-13"
+  ],
+  "autobus-san-sisto": [
+   "AUT-RO-08"
+  ],
+  "autobus-sarzano-chiesa": [
+   "AUT-RO-06"
+  ],
+  "autobus-sarzano-scuole": [
+   "AUT-RO-06",
+   "AUT-RO-15"
+  ],
+  "autobus-spianata": [
+   "AUT-RO-09",
+   "AUT-RO-12",
+   "AUT-RO-17"
+  ],
+  "autobus-stazione-fs": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03",
+   "AUT-RO-04",
+   "AUT-RO-05",
+   "AUT-RO-06",
+   "AUT-RO-07",
+   "AUT-RO-08",
+   "AUT-RO-09",
+   "AUT-RO-10",
+   "AUT-RO-11",
+   "AUT-RO-12",
+   "AUT-RO-13",
+   "AUT-RO-14",
+   "AUT-RO-15",
+   "AUT-RO-16",
+   "AUT-RO-17"
+  ],
+  "autobus-via-bellini": [
+   "AUT-RO-13"
+  ],
+  "autobus-via-benedetto-croce": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-via-carducci": [
+   "AUT-RO-03",
+   "AUT-RO-15"
+  ],
+  "autobus-via-chiarugi-48": [
+   "AUT-RO-04",
+   "AUT-RO-16"
+  ],
+  "autobus-via-de-gasperi-istituti-scolastici": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-05"
+  ],
+  "autobus-via-de-polzer": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-03"
+  ],
+  "autobus-via-del-commercio": [
+   "AUT-RO-12"
+  ],
+  "autobus-via-del-sacro-cuore": [
+   "AUT-RO-10"
+  ],
+  "autobus-via-della-costituzione": [
+   "AUT-RO-03"
+  ],
+  "autobus-via-gallani": [
+   "AUT-RO-13"
+  ],
+  "autobus-via-giotto-28": [
+   "AUT-RO-17"
+  ],
+  "autobus-via-mascagni": [
+   "AUT-RO-12"
+  ],
+  "autobus-via-nogarazze": [
+   "AUT-RO-13"
+  ],
+  "autobus-via-oroboni-parenzo": [
+   "AUT-RO-07",
+   "AUT-RO-08"
+  ],
+  "autobus-via-passetto": [
+   "AUT-RO-03"
+  ],
+  "autobus-via-pozzato": [
+   "AUT-RO-13"
+  ],
+  "autobus-via-scarlatti": [
+   "AUT-RO-12"
+  ],
+  "autobus-via-veneto-scuole": [
+   "AUT-RO-07",
+   "AUT-RO-17"
+  ],
+  "autobus-viale-del-lavoro": [
+   "AUT-RO-07"
+  ],
+  "autobus-viale-della-pace": [
+   "AUT-RO-06",
+   "AUT-RO-14",
+   "AUT-RO-15"
+  ],
+  "autobus-viale-oroboni-cimitero": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-viale-porta-adige": [
+   "AUT-RO-05",
+   "AUT-RO-16"
+  ],
+  "autobus-viale-porta-po-c-c-la-fattoria": [
+   "AUT-RO-12"
+  ],
+  "autobus-viale-tre-martiri": [
+   "AUT-RO-01",
+   "AUT-RO-02",
+   "AUT-RO-06",
+   "AUT-RO-14"
+  ],
+  "autobus-viale-unita-europea-c-c": [
+   "AUT-RO-12"
+  ],
+  "autobus-viale-venezia": [
+   "AUT-RO-01",
+   "AUT-RO-02"
+  ],
+  "autobus-zona-industriale-infun-for": [
+   "AUT-RO-07",
+   "AUT-RO-09",
+   "AUT-RO-17"
+  ]
+ }
+}
