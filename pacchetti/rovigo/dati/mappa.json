@@ -1,0 +1,43 @@
+{
+  "_nota": "Mappa disegnata con dati © OpenStreetMap contributors (licenza ODbL). Strade principali e canali nell'area di Rovigo; i punti di riferimento servono all'app per posizionare i luoghi a partire da latitudine e longitudine.",
+  "immagine": "mappa-rovigo.webp",
+  "larghezza": 3000,
+  "altezza": 2510,
+  "punti_riferimento": [
+    {
+      "nome": "Angolo nord-ovest",
+      "latitudine": 45.13,
+      "longitudine": 11.68,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo nord-est",
+      "latitudine": 45.13,
+      "longitudine": 11.9,
+      "x": 3000.0,
+      "y": 0.0
+    },
+    {
+      "nome": "Angolo sud-ovest",
+      "latitudine": 45.0,
+      "longitudine": 11.68,
+      "x": 0.0,
+      "y": 2510.0
+    },
+    {
+      "nome": "Angolo sud-est",
+      "latitudine": 45.0,
+      "longitudine": 11.9,
+      "x": 3000.0,
+      "y": 2510.0
+    },
+    {
+      "nome": "Centro",
+      "latitudine": 45.0655,
+      "longitudine": 11.79,
+      "x": 1500.0,
+      "y": 1245.3
+    }
+  ]
+}
