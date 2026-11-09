@@ -893,6 +893,153 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Cimitero_ebraico_di_Piazzale_Soccorso_(Rovigo)_03.jpg"
         }
       ]
+    },
+    {
+      "id": "palazzina-minelli",
+      "nome": "Palazzina Minelli",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071168,
+      "longitudine": 11.787394,
+      "descrizione": {
+        "it": "Fu commissionata nel 1860 dal tipografo e libraio Antonio Minelli all'architetto Eugenio Piva. Il suo stile neogotico, inconsueto per un edificio ottocentesco rodigino, la rende immediatamente riconoscibile. Dopo un periodo di degrado è stata recuperata con un importante intervento di restauro."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "curiosita": true,
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Palazzina_Minelli,_particolare_2_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzina_Minelli,_particolare_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzina_Minelli,_particolare_3_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Minelli_(3)_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Minelli_(Rovigo).jpg"
+        }
+      ]
+    },
+    {
+      "id": "palazzo-silvestri",
+      "nome": "Palazzo Silvestri",
+      "categoria": "palazzi",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070779,
+      "longitudine": 11.792686,
+      "descrizione": {
+        "it": "Edificato nella seconda metà del Quattrocento, fu per secoli la dimora della famiglia Silvestri. Il dettaglio più curioso è lo stemma marmoreo sopra il portone d'ingresso, con un leopardo rampante. La facciata conserva inoltre finestre abbinate e cornici in terracotta di gusto ferrarese."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "curiosita": true,
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_coat_of_arms_(Rovigo).jpg"
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_atrio_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_ceiling_(Rovigo).jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_Rovigo.jpg"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_particolare_stemma_casata.jpg"
+        }
+      ]
+    },
+    {
+      "id": "arco-dei-bocciati",
+      "nome": "Arco dei Bocciati",
+      "categoria": "altri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071117,
+      "longitudine": 11.790165,
+      "descrizione": {
+        "it": "Un piccolo angolo della piazza principale legato a una superstizione popolare: secondo la tradizione rodigina, agli studenti non conviene passare sotto questo arco, perché rischierebbero di essere bocciati. Una curiosità urbana che trasforma un semplice passaggio sotto i portici in una tappa divertente."
+      },
+      "orari": [
+        {
+          "giorni": "lun-dom",
+          "ore": "sempre accessibile"
+        }
+      ],
+      "biglietto": {
+        "gratuito": true
+      },
+      "curiosita": true,
+      "immagine": {
+        "autore": "Threecharlie",
+        "licenza": "CC BY-SA 3.0",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Torre_civica_e_Loggia_dei_nodari_(Rovigo).JPG"
+      },
+      "nota": {
+        "it": "Passaggio pubblico e gratuito."
+      },
+      "galleria": [
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_Nodari,_accesso,_Rovigo.JPG"
+        },
+        {
+          "autore": "Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Loggia_dei_Nodari_in_the_fog.jpg"
+        },
+        {
+          "autore": "Loggia_dei_nodari,_particolare,_statua_Madonna_col_Bambino_(Rovigo).JPG: Threecharlie",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Giulio_Mauro,_statua_Madonna_col_Bambino,_Loggia_dei_nodari,_particolare_(Rovigo).JPG"
+        },
+        {
+          "autore": "HABITAT",
+          "licenza": "CC BY-SA 2.0",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_portico,_lanterna_(Rovigo).jpg"
+        }
+      ]
     }
   ]
 }

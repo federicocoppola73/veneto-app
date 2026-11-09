@@ -1,0 +1,44 @@
+{
+  "_nota": "Curiosità del pacchetto Rovigo: luoghi non visibili sulla mappa, aperti dalla 💡.",
+  "curiosita": [
+    {
+      "id": "palazzina-minelli",
+      "luogo_id": "palazzina-minelli",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071168,
+      "longitudine": 11.787394,
+      "titolo": {
+        "it": "La piccola casa gotica nel cuore di Rovigo"
+      },
+      "testo": {
+        "it": "Fu commissionata nel 1860 dal tipografo e libraio Antonio Minelli all'architetto Eugenio Piva. Il suo stile neogotico, inconsueto per un edificio ottocentesco rodigino, la rende immediatamente riconoscibile. Dopo un periodo di degrado è stata recuperata con un importante intervento di restauro."
+      }
+    },
+    {
+      "id": "palazzo-silvestri",
+      "luogo_id": "palazzo-silvestri",
+      "sestiere": "Centro storico",
+      "latitudine": 45.070779,
+      "longitudine": 11.792686,
+      "titolo": {
+        "it": "Il palazzo del leopardo rampante"
+      },
+      "testo": {
+        "it": "Edificato nella seconda metà del Quattrocento, fu per secoli la dimora della famiglia Silvestri. Il dettaglio più curioso è lo stemma marmoreo sopra il portone d'ingresso, con un leopardo rampante. La facciata conserva inoltre finestre abbinate e cornici in terracotta di gusto ferrarese."
+      }
+    },
+    {
+      "id": "arco-dei-bocciati",
+      "luogo_id": "arco-dei-bocciati",
+      "sestiere": "Centro storico",
+      "latitudine": 45.071117,
+      "longitudine": 11.790165,
+      "titolo": {
+        "it": "L'arco che porta sfortuna agli studenti"
+      },
+      "testo": {
+        "it": "Un piccolo angolo della piazza principale legato a una superstizione popolare: secondo la tradizione rodigina, agli studenti non conviene passare sotto questo arco, perché rischierebbero di essere bocciati. Una curiosità urbana che trasforma un semplice passaggio sotto i portici in una tappa divertente."
+      }
+    }
+  ]
+}
