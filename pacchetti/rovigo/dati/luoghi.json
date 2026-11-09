@@ -267,30 +267,52 @@
    },
    "orari": [
     {
-     "giorni": "durante le mostre",
-     "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare il calendario della mostra",
+     "giorni": "lun-ven",
+     "ore": "9:00–19:00",
      "traduzioni": {
       "en": {
-       "giorni": "during exhibitions",
-       "ore": "Mon–Fri 9:00–19:00; Sat–Sun and holidays 9:00–20:00; check the exhibition calendar"
+       "giorni": "Mon–Fri",
+       "ore": "9:00–19:00"
       },
       "fr": {
-       "giorni": "pendant les expositions",
-       "ore": "lun–ven 9h00–19h00 ; sam–dim et jours fériés 9h00–20h00 ; vérifier le calendrier de l'exposition"
+       "giorni": "lun–ven",
+       "ore": "9:00–19:00"
       },
       "de": {
-       "giorni": "während der Ausstellungen",
-       "ore": "Mo–Fr 9:00–19:00; Sa–So und Feiertage 9:00–20:00; Ausstellungskalender prüfen"
+       "giorni": "Mo–Fr",
+       "ore": "9:00–19:00"
       },
       "es": {
-       "giorni": "durante las exposiciones",
-       "ore": "lun–vie 9:00–19:00; sáb–dom y festivos 9:00–20:00; consultar el calendario de la exposición"
+       "giorni": "lun–vie",
+       "ore": "9:00–19:00"
+      }
+     }
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "9:00–20:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Sat–Sun",
+       "ore": "9:00–20:00"
+      },
+      "fr": {
+       "giorni": "sam–dim",
+       "ore": "9:00–20:00"
+      },
+      "de": {
+       "giorni": "Sa–So",
+       "ore": "9:00–20:00"
+      },
+      "es": {
+       "giorni": "sáb–dom",
+       "ore": "9:00–20:00"
       }
      }
     }
    ],
    "biglietto": {
-    "nota": "Tariffe variabili in base alla mostra; verificare sul sito ufficiale. La collezione permanente può prevedere condizioni di accesso differenti."
+    "nota": "La Pinacoteca permanente è a ingresso gratuito; le mostre temporanee hanno tariffe proprie."
    },
    "sito": "https://www.palazzoroverella.com/",
    "wikipedia": {
@@ -390,31 +412,53 @@
    },
    "orari": [
     {
-     "giorni": "durante le esposizioni",
-     "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare gli orari della mostra",
+     "giorni": "lun-ven",
+     "ore": "9:00–19:00",
      "traduzioni": {
       "en": {
-       "giorni": "during exhibitions",
-       "ore": "Mon–Fri 9:00–19:00; Sat–Sun and holidays 9:00–20:00; check the exhibition hours"
+       "giorni": "Mon–Fri",
+       "ore": "9:00–19:00"
       },
       "fr": {
-       "giorni": "pendant les expositions",
-       "ore": "lun–ven 9h00–19h00 ; sam–dim et jours fériés 9h00–20h00 ; vérifier les horaires de l'exposition"
+       "giorni": "lun–ven",
+       "ore": "9:00–19:00"
       },
       "de": {
-       "giorni": "während der Ausstellungen",
-       "ore": "Mo–Fr 9:00–19:00; Sa–So und Feiertage 9:00–20:00; Ausstellungszeiten prüfen"
+       "giorni": "Mo–Fr",
+       "ore": "9:00–19:00"
       },
       "es": {
-       "giorni": "durante las exposiciones",
-       "ore": "lun–vie 9:00–19:00; sáb–dom y festivos 9:00–20:00; consultar los horarios de la exposición"
+       "giorni": "lun–vie",
+       "ore": "9:00–19:00"
+      }
+     }
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "9:00–20:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Sat–Sun",
+       "ore": "9:00–20:00"
+      },
+      "fr": {
+       "giorni": "sam–dim",
+       "ore": "9:00–20:00"
+      },
+      "de": {
+       "giorni": "Sa–So",
+       "ore": "9:00–20:00"
+      },
+      "es": {
+       "giorni": "sáb–dom",
+       "ore": "9:00–20:00"
       }
      }
     }
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Ingresso alle esposizioni indicato come gratuito; visite guidate o iniziative speciali possono essere a pagamento."
+    "nota": "Visite guidate: 5 € a persona negli orari indicati."
    },
    "sito": "https://palazzoroncale.com/",
    "wikipedia": {
@@ -496,7 +540,10 @@
       "es": "La fachada del Palazzo Roncale presenta varios mascarones tallados en piedra, elementos decorativos propios de la arquitectura renacentista. El edificio se levantó entre 1550 y 1562 según un proyecto del arquitecto veronés Michele Sanmicheli y refleja el ascenso social y económico de la familia Roncale."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Festivi con gli orari del sabato e della domenica. Chiuso il 25 dicembre."
+   }
   },
   {
    "id": "tempio-la-rotonda",
@@ -583,7 +630,7 @@
    "biglietto": {
     "intero": 3,
     "ridotto": 2,
-    "nota": "Gratuito per residenti, bambini sotto i 6 anni e categorie previste dal regolamento. Verificare eventuali variazioni."
+    "nota": "Gratuito per residenti a Rovigo e categorie indicate dal gestore."
    },
    "sito": "https://www.tempiolarotonda.it/",
    "wikipedia": {
@@ -669,23 +716,23 @@
    "orari": [
     {
      "giorni": "da verificare",
-     "ore": "apertura legata agli orari delle celebrazioni e alle disposizioni parrocchiali",
+     "ore": "Accesso secondo gli orari delle celebrazioni e le disposizioni della parrocchia.",
      "traduzioni": {
       "en": {
-       "giorni": "to be confirmed",
-       "ore": "opening depends on mass times and parish arrangements"
+       "giorni": "da verificare",
+       "ore": "Access according to the mass schedule and parish arrangements."
       },
       "fr": {
-       "giorni": "à vérifier",
-       "ore": "l'ouverture dépend des horaires des célébrations et des dispositions paroissiales"
+       "giorni": "da verificare",
+       "ore": "Accès selon les horaires des célébrations et les dispositions de la paroisse."
       },
       "de": {
-       "giorni": "bitte prüfen",
-       "ore": "Öffnung abhängig von den Gottesdienstzeiten und den Vorgaben der Pfarrei"
+       "giorni": "da verificare",
+       "ore": "Zugang gemäß den Gottesdienstzeiten und den Vorgaben der Pfarrei."
       },
       "es": {
-       "giorni": "por confirmar",
-       "ore": "la apertura depende de los horarios de las celebraciones y de las disposiciones parroquiales"
+       "giorni": "da verificare",
+       "ore": "Acceso según los horarios de las celebraciones y las disposiciones parroquiales."
       }
      }
     }
@@ -791,30 +838,30 @@
    },
    "orari": [
     {
-     "giorni": "visite",
-     "ore": "solo su prenotazione e compatibilmente con spettacoli e prove",
+     "giorni": "da verificare",
+     "ore": "Visite guidate su prenotazione; disponibilità da verificare con il teatro.",
      "traduzioni": {
       "en": {
-       "giorni": "tours",
-       "ore": "by reservation only and subject to performances and rehearsals"
+       "giorni": "da verificare",
+       "ore": "Guided visits by reservation; availability to be checked with the theatre."
       },
       "fr": {
-       "giorni": "visites",
-       "ore": "uniquement sur réservation et selon les spectacles et répétitions"
+       "giorni": "da verificare",
+       "ore": "Visites guidées sur réservation ; disponibilité à vérifier auprès du théâtre."
       },
       "de": {
-       "giorni": "Führungen",
-       "ore": "nur nach Reservierung und je nach Vorstellungen und Proben"
+       "giorni": "da verificare",
+       "ore": "Führungen nach Reservierung; Verfügbarkeit beim Theater erfragen."
       },
       "es": {
-       "giorni": "visitas",
-       "ore": "solo con reserva y según espectáculos y ensayos"
+       "giorni": "da verificare",
+       "ore": "Visitas guiadas con reserva; disponibilidad por confirmar con el teatro."
       }
      }
     }
    ],
    "biglietto": {
-    "nota": "Visite guidate indicate a €10 intero e €2 per scolaresche; gratuità per alcune categorie. Spettacoli con biglietteria e tariffe proprie."
+    "nota": "Le tariffe delle visite guidate vanno verificate con il teatro. Spettacoli con biglietteria e tariffe proprie."
    },
    "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
    "nota": {
@@ -954,9 +1001,9 @@
     }
    ],
    "biglietto": {
-    "intero": 8,
-    "ridotto": 5,
-    "nota": "Gratuito per bambini sotto i 6 anni e altre categorie previste. Verificare riduzioni e aperture festive."
+    "intero": 5,
+    "ridotto": 2,
+    "nota": "Gratuità per alcune categorie e bambini sotto i 6 anni."
    },
    "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi",
    "immagine": {
@@ -1297,7 +1344,7 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso ai servizi bibliotecari gratuito; mostre, visite e attività possono avere tariffe specifiche."
+    "nota": "Accesso ai servizi bibliotecari gratuito; mostre e visite possono avere tariffe specifiche."
    },
    "sito": "https://www.concordi.it/",
    "nota": {
@@ -1379,24 +1426,24 @@
    },
    "orari": [
     {
-     "giorni": "esterni",
-     "ore": "sempre visibile; accesso agli interni secondo gli orari degli uffici comunali",
+     "giorni": "da verificare",
+     "ore": "Esterno sempre visibile; interni secondo aperture istituzionali.",
      "traduzioni": {
       "en": {
-       "giorni": "outside",
-       "ore": "always visible; interior access according to municipal office hours"
+       "giorni": "da verificare",
+       "ore": "Exterior always visible; interiors according to institutional opening hours."
       },
       "fr": {
-       "giorni": "extérieur",
-       "ore": "toujours visible ; accès aux intérieurs selon les horaires des bureaux municipaux"
+       "giorni": "da verificare",
+       "ore": "Extérieur toujours visible ; intérieurs selon les horaires institutionnels."
       },
       "de": {
-       "giorni": "außen",
-       "ore": "immer sichtbar; Zugang zu den Innenräumen gemäß den Öffnungszeiten der Stadtverwaltung"
+       "giorni": "da verificare",
+       "ore": "Außenbereich immer sichtbar; Innenräume gemäß den amtlichen Öffnungszeiten."
       },
       "es": {
-       "giorni": "exteriores",
-       "ore": "siempre visible; acceso al interior según el horario de las oficinas municipales"
+       "giorni": "da verificare",
+       "ore": "Exterior siempre visible; interiores según los horarios institucionales."
       }
      }
     }
@@ -1623,46 +1670,24 @@
    },
    "orari": [
     {
-     "giorni": "festivi",
-     "ore": "celebrazioni indicate alle 10:00 e 11:30",
+     "giorni": "da verificare",
+     "ore": "Apertura da verificare presso la parrocchia.",
      "traduzioni": {
       "en": {
-       "giorni": "holidays",
-       "ore": "masses at 10:00 and 11:30"
+       "giorni": "da verificare",
+       "ore": "Opening to be checked with the parish."
       },
       "fr": {
-       "giorni": "jours fériés",
-       "ore": "messes à 10h00 et 11h30"
+       "giorni": "da verificare",
+       "ore": "Ouverture à vérifier auprès de la paroisse."
       },
       "de": {
-       "giorni": "Feiertage",
-       "ore": "Messen um 10:00 und 11:30"
+       "giorni": "da verificare",
+       "ore": "Öffnung bei der Pfarrei erfragen."
       },
       "es": {
-       "giorni": "festivos",
-       "ore": "misas a las 10:00 y 11:30"
-      }
-     }
-    },
-    {
-     "giorni": "prefestivi e feriali",
-     "ore": "celebrazione indicata alle 18:30",
-     "traduzioni": {
-      "en": {
-       "giorni": "eve of holidays and weekdays",
-       "ore": "mass at 18:30"
-      },
-      "fr": {
-       "giorni": "veilles de fête et jours ouvrables",
-       "ore": "messe à 18h30"
-      },
-      "de": {
-       "giorni": "Vorabend von Feiertagen und Werktage",
-       "ore": "Messe um 18:30"
-      },
-      "es": {
-       "giorni": "vísperas de festivos y días laborables",
-       "ore": "misa a las 18:30"
+       "giorni": "da verificare",
+       "ore": "Apertura por confirmar con la parroquia."
       }
      }
     }
@@ -2696,24 +2721,24 @@
    },
    "orari": [
     {
-     "giorni": "non definiti",
-     "ore": "orario di apertura per le visite non disponibile: verificare con la parrocchia",
+     "giorni": "da verificare",
+     "ore": "Apertura su disponibilità; verificare prima della visita.",
      "traduzioni": {
       "en": {
-       "giorni": "not defined",
-       "ore": "visiting hours not available: check with the parish"
+       "giorni": "da verificare",
+       "ore": "Open by arrangement; check before your visit."
       },
       "fr": {
-       "giorni": "non définis",
-       "ore": "horaires de visite non disponibles : se renseigner auprès de la paroisse"
+       "giorni": "da verificare",
+       "ore": "Ouvert sur demande ; à vérifier avant la visite."
       },
       "de": {
-       "giorni": "nicht festgelegt",
-       "ore": "Besuchszeiten nicht verfügbar: bei der Pfarrei nachfragen"
+       "giorni": "da verificare",
+       "ore": "Öffnung nach Verfügbarkeit; vor dem Besuch prüfen."
       },
       "es": {
-       "giorni": "no definidos",
-       "ore": "horario de visitas no disponible: consultar con la parroquia"
+       "giorni": "da verificare",
+       "ore": "Apertura según disponibilidad; consultar antes de la visita."
       }
      }
     }
@@ -2874,6 +2899,33 @@
     "autore": "Threecharlie",
     "licenza": "CC BY-SA 3.0",
     "fonte": "https://commons.wikimedia.org/"
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
    }
   },
   {
@@ -2892,24 +2944,24 @@
    },
    "orari": [
     {
-     "giorni": "orario indicativo",
-     "ore": "8:00–17:00 (ora solare); 8:00–19:00 (ora legale)",
+     "giorni": "da verificare",
+     "ore": "Orari di apertura variabili. Consultare ASM Rovigo prima della visita.",
      "traduzioni": {
       "en": {
-       "giorni": "indicative hours",
-       "ore": "8:00–17:00 (winter time); 8:00–19:00 (summer time)"
+       "giorni": "da verificare",
+       "ore": "Opening hours vary. Check with ASM Rovigo before your visit."
       },
       "fr": {
-       "giorni": "horaires indicatifs",
-       "ore": "8h00–17h00 (heure d'hiver) ; 8h00–19h00 (heure d'été)"
+       "giorni": "da verificare",
+       "ore": "Horaires d'ouverture variables. Renseignez-vous auprès d'ASM Rovigo avant la visite."
       },
       "de": {
-       "giorni": "ungefähre Zeiten",
-       "ore": "8:00–17:00 (Winterzeit); 8:00–19:00 (Sommerzeit)"
+       "giorni": "da verificare",
+       "ore": "Öffnungszeiten variabel. Vor dem Besuch bei ASM Rovigo erkundigen."
       },
       "es": {
-       "giorni": "horario orientativo",
-       "ore": "8:00–17:00 (hora de invierno); 8:00–19:00 (hora de verano)"
+       "giorni": "da verificare",
+       "ore": "Horario de apertura variable. Consultar con ASM Rovigo antes de la visita."
       }
      }
     }
@@ -3111,24 +3163,24 @@
    },
    "orari": [
     {
-     "giorni": "lun–ven",
-     "ore": "indicativamente 9:00–18:00 per gli uffici del centro; verificare prima della visita",
+     "giorni": "da verificare",
+     "ore": "Accesso agli spazi interni secondo attività e orari dell'Urban Digital Center.",
      "traduzioni": {
       "en": {
-       "giorni": "Mon–Fri",
-       "ore": "approximately 9:00–18:00 for the centre's offices; check before your visit"
+       "giorni": "da verificare",
+       "ore": "Access to the interior spaces depends on the Urban Digital Center's activities and hours."
       },
       "fr": {
-       "giorni": "lun–ven",
-       "ore": "environ 9h00–18h00 pour les bureaux du centre ; vérifier avant la visite"
+       "giorni": "da verificare",
+       "ore": "L'accès aux espaces intérieurs dépend des activités et des horaires de l'Urban Digital Center."
       },
       "de": {
-       "giorni": "Mo–Fr",
-       "ore": "ungefähr 9:00–18:00 für die Büros des Zentrums; vor dem Besuch prüfen"
+       "giorni": "da verificare",
+       "ore": "Der Zugang zu den Innenräumen richtet sich nach den Aktivitäten und Öffnungszeiten des Urban Digital Center."
       },
       "es": {
-       "giorni": "lun–vie",
-       "ore": "aproximadamente 9:00–18:00 para las oficinas del centro; verificar antes de la visita"
+       "giorni": "da verificare",
+       "ore": "El acceso a los espacios interiores depende de las actividades y horarios del Urban Digital Center."
       }
      }
     }

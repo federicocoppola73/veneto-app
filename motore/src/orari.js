@@ -73,7 +73,6 @@ function fasce(luogo, giorno, mese, data) {
  *  { tipo: 'sempre' }
  *  { tipo: 'aperto', chiude, tra, breve }        chiude = minuti dalla mezzanotte, tra = minuti mancanti
  *  { tipo: 'chiuso', apre, fraGiorni, giorno }   fraGiorni: 0 oggi, 1 domani, ...; giorno: 'lun'…
- *  { tipo: 'chiuso', stagione: true }            nessuna apertura nei prossimi 7 giorni
  * oggiChiuso: true se oggi non apre affatto
  */
 export function statoApertura(luogo, data = new Date()) {
@@ -97,7 +96,8 @@ export function statoApertura(luogo, data = new Date()) {
     if (f === 'sempre') return { tipo: 'chiuso', apre: 0, fraGiorni: k, giorno: GIORNI[o.giorno], oggiChiuso };
     if (f && f.length) return { tipo: 'chiuso', apre: f[0][0], fraGiorni: k, giorno: GIORNI[o.giorno], oggiChiuso };
   }
-  return { tipo: 'chiuso', stagione: true, oggiChiuso };
+  // nessuna fascia leggibile nei prossimi 7 giorni: non si sa se è chiuso, quindi non si dice nulla
+  return null;
 }
 
 export const formattaOra = (m) => `${Math.floor(m / 60) % 24}:${String(m % 60).padStart(2, '0')}`;
