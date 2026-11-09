@@ -27,7 +27,25 @@
       "orari": [
         {
           "giorni": "esterni",
-          "ore": "area esterna visibile liberamente; visite alla Torre Donà sospese o soggette a riattivazione"
+          "ore": "area esterna visibile liberamente; visite alla Torre Donà sospese o soggette a riattivazione",
+          "traduzioni": {
+            "en": {
+              "giorni": "outside",
+              "ore": "outdoor area freely visible; visits to Torre Donà suspended or subject to reactivation"
+            },
+            "fr": {
+              "giorni": "extérieur",
+              "ore": "zone extérieure visible librement ; visites de la Torre Donà suspendues ou soumises à reprise"
+            },
+            "de": {
+              "giorni": "außen",
+              "ore": "Außenbereich frei sichtbar; Besuche der Torre Donà ausgesetzt oder abhängig von einer Wiedereröffnung"
+            },
+            "es": {
+              "giorni": "exteriores",
+              "ore": "área exterior visible libremente; visitas a la Torre Donà suspendidas o sujetas a reactivación"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -107,7 +125,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre accessibile"
+          "ore": "sempre accessibile",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours accessible"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer zugänglich"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre accesible"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -188,7 +224,25 @@
       "orari": [
         {
           "giorni": "durante le mostre",
-          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare il calendario della mostra"
+          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare il calendario della mostra",
+          "traduzioni": {
+            "en": {
+              "giorni": "during exhibitions",
+              "ore": "Mon–Fri 9:00–19:00; Sat–Sun and holidays 9:00–20:00; check the exhibition calendar"
+            },
+            "fr": {
+              "giorni": "pendant les expositions",
+              "ore": "lun–ven 9h00–19h00 ; sam–dim et jours fériés 9h00–20h00 ; vérifier le calendrier de l'exposition"
+            },
+            "de": {
+              "giorni": "während der Ausstellungen",
+              "ore": "Mo–Fr 9:00–19:00; Sa–So und Feiertage 9:00–20:00; Ausstellungskalender prüfen"
+            },
+            "es": {
+              "giorni": "durante las exposiciones",
+              "ore": "lun–vie 9:00–19:00; sáb–dom y festivos 9:00–20:00; consultar el calendario de la exposición"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -272,7 +326,25 @@
       "orari": [
         {
           "giorni": "durante le esposizioni",
-          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare gli orari della mostra"
+          "ore": "lun-ven 9:00–19:00; sab-dom e festivi 9:00–20:00; verificare gli orari della mostra",
+          "traduzioni": {
+            "en": {
+              "giorni": "during exhibitions",
+              "ore": "Mon–Fri 9:00–19:00; Sat–Sun and holidays 9:00–20:00; check the exhibition hours"
+            },
+            "fr": {
+              "giorni": "pendant les expositions",
+              "ore": "lun–ven 9h00–19h00 ; sam–dim et jours fériés 9h00–20h00 ; vérifier les horaires de l'exposition"
+            },
+            "de": {
+              "giorni": "während der Ausstellungen",
+              "ore": "Mo–Fr 9:00–19:00; Sa–So und Feiertage 9:00–20:00; Ausstellungszeiten prüfen"
+            },
+            "es": {
+              "giorni": "durante las exposiciones",
+              "ore": "lun–vie 9:00–19:00; sáb–dom y festivos 9:00–20:00; consultar los horarios de la exposición"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -357,15 +429,69 @@
       "orari": [
         {
           "giorni": "mar-ven",
-          "ore": "14:30–18:00"
+          "ore": "14:30–18:00",
+          "traduzioni": {
+            "en": {
+              "giorni": "mar-ven",
+              "ore": "14:30–18:00"
+            },
+            "fr": {
+              "giorni": "mar-ven",
+              "ore": "14:30–18:00"
+            },
+            "de": {
+              "giorni": "mar-ven",
+              "ore": "14:30–18:00"
+            },
+            "es": {
+              "giorni": "mar-ven",
+              "ore": "14:30–18:00"
+            }
+          }
         },
         {
           "giorni": "sab-dom",
-          "ore": "10:00–12:30 e 14:30–18:00"
+          "ore": "10:00–12:30 e 14:30–18:00",
+          "traduzioni": {
+            "en": {
+              "giorni": "sab-dom",
+              "ore": "10:00–12:30 and 14:30–18:00"
+            },
+            "fr": {
+              "giorni": "sab-dom",
+              "ore": "10h00–12h30 et 14h30–18h00"
+            },
+            "de": {
+              "giorni": "sab-dom",
+              "ore": "10:00–12:30 und 14:30–18:00"
+            },
+            "es": {
+              "giorni": "sab-dom",
+              "ore": "10:00–12:30 y 14:30–18:00"
+            }
+          }
         },
         {
           "giorni": "lun",
-          "ore": "chiuso"
+          "ore": "chiuso",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun",
+              "ore": "closed"
+            },
+            "fr": {
+              "giorni": "lun",
+              "ore": "fermé"
+            },
+            "de": {
+              "giorni": "lun",
+              "ore": "geschlossen"
+            },
+            "es": {
+              "giorni": "lun",
+              "ore": "cerrado"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -439,7 +565,25 @@
       "orari": [
         {
           "giorni": "da verificare",
-          "ore": "apertura legata agli orari delle celebrazioni e alle disposizioni parrocchiali"
+          "ore": "apertura legata agli orari delle celebrazioni e alle disposizioni parrocchiali",
+          "traduzioni": {
+            "en": {
+              "giorni": "to be confirmed",
+              "ore": "opening depends on mass times and parish arrangements"
+            },
+            "fr": {
+              "giorni": "à vérifier",
+              "ore": "l'ouverture dépend des horaires des célébrations et des dispositions paroissiales"
+            },
+            "de": {
+              "giorni": "bitte prüfen",
+              "ore": "Öffnung abhängig von den Gottesdienstzeiten und den Vorgaben der Pfarrei"
+            },
+            "es": {
+              "giorni": "por confirmar",
+              "ore": "la apertura depende de los horarios de las celebraciones y de las disposiciones parroquiales"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -515,7 +659,25 @@
       "orari": [
         {
           "giorni": "visite",
-          "ore": "solo su prenotazione e compatibilmente con spettacoli e prove"
+          "ore": "solo su prenotazione e compatibilmente con spettacoli e prove",
+          "traduzioni": {
+            "en": {
+              "giorni": "tours",
+              "ore": "by reservation only and subject to performances and rehearsals"
+            },
+            "fr": {
+              "giorni": "visites",
+              "ore": "uniquement sur réservation et selon les spectacles et répétitions"
+            },
+            "de": {
+              "giorni": "Führungen",
+              "ore": "nur nach Reservierung und je nach Vorstellungen und Proben"
+            },
+            "es": {
+              "giorni": "visitas",
+              "ore": "solo con reserva y según espectáculos y ensayos"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -584,15 +746,69 @@
       "orari": [
         {
           "giorni": "mar-gio",
-          "ore": "10:00–13:00"
+          "ore": "10:00–13:00",
+          "traduzioni": {
+            "en": {
+              "giorni": "mar-gio",
+              "ore": "10:00–13:00"
+            },
+            "fr": {
+              "giorni": "mar-gio",
+              "ore": "10:00–13:00"
+            },
+            "de": {
+              "giorni": "mar-gio",
+              "ore": "10:00–13:00"
+            },
+            "es": {
+              "giorni": "mar-gio",
+              "ore": "10:00–13:00"
+            }
+          }
         },
         {
           "giorni": "ven-dom",
-          "ore": "10:00–13:00 e 15:00–18:00"
+          "ore": "10:00–13:00 e 15:00–18:00",
+          "traduzioni": {
+            "en": {
+              "giorni": "ven-dom",
+              "ore": "10:00–13:00 and 15:00–18:00"
+            },
+            "fr": {
+              "giorni": "ven-dom",
+              "ore": "10h00–13h00 et 15h00–18h00"
+            },
+            "de": {
+              "giorni": "ven-dom",
+              "ore": "10:00–13:00 und 15:00–18:00"
+            },
+            "es": {
+              "giorni": "ven-dom",
+              "ore": "10:00–13:00 y 15:00–18:00"
+            }
+          }
         },
         {
           "giorni": "lun",
-          "ore": "chiuso"
+          "ore": "chiuso",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun",
+              "ore": "closed"
+            },
+            "fr": {
+              "giorni": "lun",
+              "ore": "fermé"
+            },
+            "de": {
+              "giorni": "lun",
+              "ore": "geschlossen"
+            },
+            "es": {
+              "giorni": "lun",
+              "ore": "cerrado"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -665,7 +881,25 @@
       "orari": [
         {
           "giorni": "indicativi",
-          "ore": "attività commerciali segnalate lun, mar, gio, ven e sab 7:30–13:00 e 15:00–20:00; orari non riferibili necessariamente all'intero spazio"
+          "ore": "attività commerciali segnalate lun, mar, gio, ven e sab 7:30–13:00 e 15:00–20:00; orari non riferibili necessariamente all'intero spazio",
+          "traduzioni": {
+            "en": {
+              "giorni": "indicative",
+              "ore": "reported shop hours Mon, Tue, Thu, Fri and Sat 7:30–13:00 and 15:00–20:00; hours do not necessarily apply to the whole square"
+            },
+            "fr": {
+              "giorni": "indicatif",
+              "ore": "horaires des commerces signalés lun, mar, jeu, ven et sam 7h30–13h00 et 15h00–20h00 ; horaires non nécessairement valables pour l'ensemble de l'espace"
+            },
+            "de": {
+              "giorni": "Richtwerte",
+              "ore": "gemeldete Ladenöffnungszeiten Mo, Di, Do, Fr und Sa 7:30–13:00 und 15:00–20:00; die Zeiten gelten nicht unbedingt für den gesamten Platz"
+            },
+            "es": {
+              "giorni": "orientativos",
+              "ore": "horario de comercios indicados lun, mar, jue, vie y sáb 7:30–13:00 y 15:00–20:00; los horarios no se aplican necesariamente a toda la plaza"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -738,7 +972,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "visibile dall'esterno"
+          "ore": "visibile dall'esterno",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "visible from outside"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "visible de l'extérieur"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "von außen sichtbar"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "visible desde el exterior"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -804,11 +1056,47 @@
       "orari": [
         {
           "giorni": "biblioteca lun-ven",
-          "ore": "9:00–18:30"
+          "ore": "9:00–18:30",
+          "traduzioni": {
+            "en": {
+              "giorni": "library Mon–Fri",
+              "ore": "9:00–18:30"
+            },
+            "fr": {
+              "giorni": "bibliothèque lun–ven",
+              "ore": "9:00–18:30"
+            },
+            "de": {
+              "giorni": "Bibliothek Mo–Fr",
+              "ore": "9:00–18:30"
+            },
+            "es": {
+              "giorni": "biblioteca lun–vie",
+              "ore": "9:00–18:30"
+            }
+          }
         },
         {
           "giorni": "biblioteca sab",
-          "ore": "9:00–12:45"
+          "ore": "9:00–12:45",
+          "traduzioni": {
+            "en": {
+              "giorni": "library Sat",
+              "ore": "9:00–12:45"
+            },
+            "fr": {
+              "giorni": "bibliothèque sam",
+              "ore": "9:00–12:45"
+            },
+            "de": {
+              "giorni": "Bibliothek Sa",
+              "ore": "9:00–12:45"
+            },
+            "es": {
+              "giorni": "biblioteca sáb",
+              "ore": "9:00–12:45"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -874,7 +1162,25 @@
       "orari": [
         {
           "giorni": "esterni",
-          "ore": "sempre visibile; accesso agli interni secondo gli orari degli uffici comunali"
+          "ore": "sempre visibile; accesso agli interni secondo gli orari degli uffici comunali",
+          "traduzioni": {
+            "en": {
+              "giorni": "outside",
+              "ore": "always visible; interior access according to municipal office hours"
+            },
+            "fr": {
+              "giorni": "extérieur",
+              "ore": "toujours visible ; accès aux intérieurs selon les horaires des bureaux municipaux"
+            },
+            "de": {
+              "giorni": "außen",
+              "ore": "immer sichtbar; Zugang zu den Innenräumen gemäß den Öffnungszeiten der Stadtverwaltung"
+            },
+            "es": {
+              "giorni": "exteriores",
+              "ore": "siempre visible; acceso al interior según el horario de las oficinas municipales"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -955,7 +1261,25 @@
       "orari": [
         {
           "giorni": "esterni",
-          "ore": "sempre visibile; apertura interna in occasione di mostre ed eventi"
+          "ore": "sempre visibile; apertura interna in occasione di mostre ed eventi",
+          "traduzioni": {
+            "en": {
+              "giorni": "outside",
+              "ore": "always visible; interior opened for exhibitions and events"
+            },
+            "fr": {
+              "giorni": "extérieur",
+              "ore": "toujours visible ; ouverture intérieure lors d'expositions et d'événements"
+            },
+            "de": {
+              "giorni": "außen",
+              "ore": "immer sichtbar; Innenräume bei Ausstellungen und Veranstaltungen geöffnet"
+            },
+            "es": {
+              "giorni": "exteriores",
+              "ore": "siempre visible; interior abierto con motivo de exposiciones y eventos"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1040,11 +1364,47 @@
       "orari": [
         {
           "giorni": "festivi",
-          "ore": "celebrazioni indicate alle 10:00 e 11:30"
+          "ore": "celebrazioni indicate alle 10:00 e 11:30",
+          "traduzioni": {
+            "en": {
+              "giorni": "holidays",
+              "ore": "masses at 10:00 and 11:30"
+            },
+            "fr": {
+              "giorni": "jours fériés",
+              "ore": "messes à 10h00 et 11h30"
+            },
+            "de": {
+              "giorni": "Feiertage",
+              "ore": "Messen um 10:00 und 11:30"
+            },
+            "es": {
+              "giorni": "festivos",
+              "ore": "misas a las 10:00 y 11:30"
+            }
+          }
         },
         {
           "giorni": "prefestivi e feriali",
-          "ore": "celebrazione indicata alle 18:30"
+          "ore": "celebrazione indicata alle 18:30",
+          "traduzioni": {
+            "en": {
+              "giorni": "eve of holidays and weekdays",
+              "ore": "mass at 18:30"
+            },
+            "fr": {
+              "giorni": "veilles de fête et jours ouvrables",
+              "ore": "messe à 18h30"
+            },
+            "de": {
+              "giorni": "Vorabend von Feiertagen und Werktage",
+              "ore": "Messe um 18:30"
+            },
+            "es": {
+              "giorni": "vísperas de festivos y días laborables",
+              "ore": "misa a las 18:30"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1122,7 +1482,25 @@
       "orari": [
         {
           "giorni": "da verificare",
-          "ore": "non sono disponibili orari turistici regolari confermati"
+          "ore": "non sono disponibili orari turistici regolari confermati",
+          "traduzioni": {
+            "en": {
+              "giorni": "to be confirmed",
+              "ore": "no regular confirmed visiting hours are available"
+            },
+            "fr": {
+              "giorni": "à vérifier",
+              "ore": "aucun horaire touristique régulier confirmé n'est disponible"
+            },
+            "de": {
+              "giorni": "bitte prüfen",
+              "ore": "es sind keine regelmäßigen, bestätigten Besuchszeiten verfügbar"
+            },
+            "es": {
+              "giorni": "por confirmar",
+              "ore": "no hay horarios turísticos regulares confirmados"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1197,7 +1575,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "visibile dall'esterno; interno non liberamente visitabile"
+          "ore": "visibile dall'esterno; interno non liberamente visitabile",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "visible from outside; interior not freely accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "visible de l'extérieur ; intérieur non librement visitable"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "von außen sichtbar; Inneres nicht frei besichtigbar"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "visible desde el exterior; interior no visitable libremente"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1261,7 +1657,25 @@
       "orari": [
         {
           "giorni": "su richiesta",
-          "ore": "orari non pubblicati; accesso da concordare"
+          "ore": "orari non pubblicati; accesso da concordare",
+          "traduzioni": {
+            "en": {
+              "giorni": "on request",
+              "ore": "hours not published; access by arrangement"
+            },
+            "fr": {
+              "giorni": "sur demande",
+              "ore": "horaires non publiés ; accès à convenir"
+            },
+            "de": {
+              "giorni": "auf Anfrage",
+              "ore": "Öffnungszeiten nicht veröffentlicht; Zugang nach Absprache"
+            },
+            "es": {
+              "giorni": "previa solicitud",
+              "ore": "horarios no publicados; acceso a convenir"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1323,7 +1737,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili"
+          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always visible from outside; interiors not freely accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours visible de l'extérieur ; intérieurs non librement visitables"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer von außen sichtbar; Innenräume nicht frei zugänglich"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre visible desde el exterior; interiores no visitables libremente"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1405,7 +1837,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili"
+          "ore": "sempre visibile dall'esterno; interni non liberamente visitabili",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always visible from outside; interiors not freely accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours visible de l'extérieur ; intérieurs non librement visitables"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer von außen sichtbar; Innenräume nicht frei zugänglich"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre visible desde el exterior; interiores no visitables libremente"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1477,7 +1927,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre accessibile"
+          "ore": "sempre accessibile",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours accessible"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer zugänglich"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre accesible"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1566,7 +2034,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre visibile dall'esterno; non è previsto un accesso turistico agli interni"
+          "ore": "sempre visibile dall'esterno; non è previsto un accesso turistico agli interni",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always visible from outside; no tourist access to the interior is planned"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours visible de l'extérieur ; aucun accès touristique à l'intérieur n'est prévu"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer von außen sichtbar; ein touristischer Zugang zum Inneren ist nicht vorgesehen"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre visible desde el exterior; no está previsto el acceso turístico al interior"
+            }
+          }
         }
       ],
       "biglietto": {
@@ -1630,7 +2116,25 @@
       "orari": [
         {
           "giorni": "lun-dom",
-          "ore": "sempre accessibile"
+          "ore": "sempre accessibile",
+          "traduzioni": {
+            "en": {
+              "giorni": "lun-dom",
+              "ore": "always accessible"
+            },
+            "fr": {
+              "giorni": "lun-dom",
+              "ore": "toujours accessible"
+            },
+            "de": {
+              "giorni": "lun-dom",
+              "ore": "immer zugänglich"
+            },
+            "es": {
+              "giorni": "lun-dom",
+              "ore": "siempre accesible"
+            }
+          }
         }
       ],
       "biglietto": {
