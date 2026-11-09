@@ -41,7 +41,7 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
             <Text style={styles.chiudiTesto}>✕</Text>
           </Pressable>
         </View>
-        <ScrollView contentContainerStyle={styles.corpo}>
+        <ScrollView key={p.id} contentContainerStyle={styles.corpo}>
           <View style={styles.intestazione}>
             {p.ritratto ? (
               <View>
@@ -142,6 +142,18 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
                   </Pressable>
                 );
               })}
+            </>
+          ) : null}
+
+          {p.altriLuoghi?.length ? (
+            <>
+              <Text style={styles.sottotitolo}>{t('pers_altri_luoghi')}</Text>
+              {p.altriLuoghi.map((a, i) => (
+                <View key={i} style={styles.bloccoLuogo}>
+                  <Text style={styles.nomeLuogo}>{a.nome}</Text>
+                  <Text style={styles.notaLuogo}>{testoLocalizzato(a.testo, lingua)}</Text>
+                </View>
+              ))}
             </>
           ) : null}
 

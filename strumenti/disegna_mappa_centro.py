@@ -30,6 +30,22 @@ TESSERA = 512
 LIVELLO = '2'
 
 
+
+def carica_font(dimensione):
+    """Cerca un font TrueType disponibile su Linux, Windows o macOS; altrimenti usa quello predefinito di Pillow."""
+    candidati = [
+        '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+        'C:/Windows/Fonts/arial.ttf',
+        'C:/Windows/Fonts/segoeui.ttf',
+        '/System/Library/Fonts/Supplemental/Arial.ttf',
+        '/Library/Fonts/Arial.ttf',
+    ]
+    for percorso in candidati:
+        if os.path.exists(percorso):
+            return ImageFont.truetype(percorso, dimensione)
+    return ImageFont.load_default(size=dimensione)
+
+
 def main():
     sorgente, citta = sys.argv[1], sys.argv[2]
     sud, ovest, nord, est = map(float, sys.argv[3:7])
@@ -119,7 +135,7 @@ def main():
                 d.ellipse((x - r, y - r, x + r, y + r), fill=dm.STRADA)
 
     print('nomi delle vie…', flush=True)
-    font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 8 * SCALA)
+    font = carica_font(8 * SCALA)
     tratti = {}
     for tipo, punti, nome in strade:
         if not nome or tipo not in dm.CON_NOME:

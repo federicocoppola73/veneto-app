@@ -26,38 +26,40 @@
    },
    "orari": [
     {
-     "giorni": "esterni",
-     "ore": "area esterna visibile liberamente; visite alla Torre Donà sospese o soggette a riattivazione",
+     "giorni": "ven, sab, dom e festivi (novembre e dicembre)",
+     "ore": "visite solo con accompagnamento: salite alle 11:00, 16:00 e 17:00",
      "traduzioni": {
       "en": {
-       "giorni": "outside",
-       "ore": "outdoor area freely visible; visits to Torre Donà suspended or subject to reactivation"
+       "giorni": "Fri, Sat, Sun and holidays (November and December)",
+       "ore": "guided visits only: climbs at 11:00, 16:00 and 17:00"
       },
       "fr": {
-       "giorni": "extérieur",
-       "ore": "zone extérieure visible librement ; visites de la Torre Donà suspendues ou soumises à reprise"
+       "giorni": "ven, sam, dim et jours fériés (novembre et décembre)",
+       "ore": "visites uniquement accompagnées : montées à 11h00, 16h00 et 17h00"
       },
       "de": {
-       "giorni": "außen",
-       "ore": "Außenbereich frei sichtbar; Besuche der Torre Donà ausgesetzt oder abhängig von einer Wiedereröffnung"
+       "giorni": "Fr, Sa, So und Feiertage (November und Dezember)",
+       "ore": "nur Führungen: Aufstiege um 11:00, 16:00 und 17:00"
       },
       "es": {
-       "giorni": "exteriores",
-       "ore": "área exterior visible libremente; visitas a la Torre Donà suspendidas o sujetas a reactivación"
+       "giorni": "vie, sáb, dom y festivos (noviembre y diciembre)",
+       "ore": "solo visitas acompañadas: subidas a las 11:00, 16:00 y 17:00"
       }
      }
     }
    ],
    "biglietto": {
-    "gratuito": true,
-    "nota": "Accesso esterno gratuito; quando il servizio visite è attivo sono state indicate tariffe di €5 intero e €3 ridotto."
+    "gratuito": false,
+    "intero": 5,
+    "ridotto": 3,
+    "nota": "Ridotto per ragazzi 9-18 anni, studenti universitari, over 65 e gruppi di almeno 10 persone. Ingresso gratuito per persone con disabilità e il loro accompagnatore. Prenotazione obbligatoria via e-mail a info@visitrovigo.it; massimo 15 persone per gruppo."
    },
    "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-musei/torre-dona",
    "wikipedia": {
     "it": "Torre Donà"
    },
    "nota": {
-    "it": "Verificare la riapertura delle visite e le tariffe prima della pubblicazione."
+    "it": "Stagione autunnale e invernale; verificare gli orari di primavera ed estate prima della visita."
    },
    "immagine": {
     "autore": "Threecharlie",

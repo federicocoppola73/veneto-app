@@ -103,6 +103,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           </View>
         ) : (
         <ScrollView
+          key={luogo.id}
           keyboardShouldPersistTaps="handled"
           delaysContentTouches={false}
           contentContainerStyle={[styles.contenuto, { paddingBottom: 24 + insets.bottom }]}

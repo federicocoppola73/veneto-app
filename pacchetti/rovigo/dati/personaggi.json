@@ -364,7 +364,29 @@
    "ritratto": {
     "autore": "Autore sconosciuto",
     "licenza": "Pubblico dominio"
-   }
+   },
+   "altriLuoghi": [
+    {
+     "nome": "Casa Museo Giacomo Matteotti (Fratta Polesine)",
+     "testo": {
+      "it": "È la casa in cui visse con la famiglia e oggi conserva la memoria della sua vita.",
+      "en": "This is the house where he lived with his family, and today it preserves the memory of his life.",
+      "fr": "C'est la maison où il vécut avec sa famille ; elle conserve aujourd'hui la mémoire de sa vie.",
+      "de": "Dies ist das Haus, in dem er mit seiner Familie lebte; heute bewahrt es die Erinnerung an sein Leben.",
+      "es": "Es la casa en la que vivió con su familia y hoy conserva la memoria de su vida."
+     }
+    },
+    {
+     "nome": "Mausoleo di Giacomo Matteotti (cimitero di Fratta Polesine)",
+     "testo": {
+      "it": "Qui riposano le sue spoglie.",
+      "en": "His remains rest here.",
+      "fr": "Ses restes reposent ici.",
+      "de": "Hier ruhen seine sterblichen Überreste.",
+      "es": "Aquí descansan sus restos."
+     }
+    }
+   ]
   },
   {
    "id": "umberto-merlin",
