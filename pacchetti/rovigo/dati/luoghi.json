@@ -67,6 +67,27 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_vista_giardino_e_strutture_interne_08.jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 216
+        }
       ]
     },
     {
@@ -118,6 +139,35 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Leone_di_San_Marco_posto_sopra_l'omonima_colonna_(Piazza_Vittorio_Emanuele_II,_Rovigo).jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 254
+        },
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 389
         }
       ]
     },
@@ -174,6 +224,35 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella,_esterno_da_Piazza_Vittorio_Emanuele_II,_Rovigo_(2).jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 329
+        },
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 356
+        }
       ]
     },
     {
@@ -229,6 +308,35 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_facciata,_mascherone_3_(Rovigo).jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 307
+        },
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 352
         }
       ]
     },
@@ -302,6 +410,16 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_01.jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 260
+        }
       ]
     },
     {
@@ -357,6 +475,27 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire,_esterno,_abside_(Rovigo)_03.jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 327
+        }
       ]
     },
     {
@@ -406,6 +545,25 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale_Beniamino_Gigli_plaque_(Rovigo).jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 269
+        },
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 380
         }
       ]
     },
@@ -469,6 +627,25 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Stele_funeraria_L_Domiti,_Museo_dei_Grandi_Fiumi,_dettaglio_(Rovigo).JPG"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via De Polzer",
+          "linee": [
+            "1",
+            "2"
+          ],
+          "metri": 322
+        },
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 323
+        }
       ]
     },
     {
@@ -522,6 +699,25 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_02.jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 301
+        },
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 365
         }
       ]
     },
@@ -577,6 +773,17 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_facciata_interno_mura_(Rovigo)_02.jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 248
         }
       ]
     },
@@ -638,6 +845,16 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Giambattista_Pittoni,_ritratto_del_Cardinale_Bartolomeo_Roverella_(collezione_Accademia_dei_Concordi,_Rovigo)_02.jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 268
+        }
       ]
     },
     {
@@ -689,6 +906,35 @@
           "autore": "Loggia_dei_nodari,_particolare,_statua_Madonna_col_Bambino_(Rovigo).JPG: Threecharlie",
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Giulio_Mauro,_statua_Madonna_col_Bambino,_Loggia_dei_nodari,_particolare_(Rovigo).JPG"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 254
+        },
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 389
         }
       ]
     },
@@ -745,6 +991,35 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Pescheria_nuova,_interno_(Rovigo).jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 273
+        },
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 376
         }
       ]
     },
@@ -809,6 +1084,25 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Canonica_Santi_Francesco_e_Giustina_(2)_(Rovigo).jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 312
+        },
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 327
+        }
       ]
     },
     {
@@ -865,6 +1159,25 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Sant'Antonio_abate_on_San_Domenico_facade_(Rovigo).jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 274
+        },
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 389
+        }
       ]
     },
     {
@@ -920,6 +1233,17 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Pighin_(Rovigo)_07.jpg"
         }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 350
+        }
       ]
     },
     {
@@ -970,7 +1294,17 @@
         }
       ],
       "latitudine": 45.07340005983858,
-      "longitudine": 11.79344227301605
+      "longitudine": 11.79344227301605,
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 158
+        }
+      ]
     },
     {
       "id": "palazzina-minelli",
@@ -1023,7 +1357,36 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Minelli_(Rovigo).jpg"
         }
       ],
-      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-palazzi"
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-palazzi",
+      "fermate_vicine": [
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 172
+        },
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 391
+        }
+      ]
     },
     {
       "id": "palazzo-silvestri",
@@ -1076,7 +1439,26 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Silvestri,_particolare_stemma_casata.jpg"
         }
       ],
-      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-palazzi"
+      "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-palazzi",
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 287
+        },
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 352
+        }
+      ]
     },
     {
       "id": "arco-dei-bocciati",
@@ -1136,7 +1518,36 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_portico,_lanterna_(Rovigo).jpg"
         }
       ],
-      "sito": "https://www.italiani.it/la-loggia-dei-notari/"
+      "sito": "https://www.italiani.it/la-loggia-dei-notari/",
+      "fermate_vicine": [
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 254
+        },
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 389
+        }
+      ]
     },
     {
       "id": "porta-sant-agostino",
@@ -1188,6 +1599,17 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Sant'Agostino,_lato_via_Alessandro_Casalini_(Rovigo)_04.jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Viale della Pace",
+          "linee": [
+            "5",
+            "12 navetta",
+            "25"
+          ],
+          "metri": 285
         }
       ]
     },
@@ -1243,6 +1665,35 @@
           "autore": "Threecharlie",
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Angeli,_lato_Corso_del_Popolo_(Rovigo)_01.jpg"
+        }
+      ],
+      "fermate_vicine": [
+        {
+          "nome": "Corso del Popolo",
+          "linee": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9 navetta",
+            "9 barrata",
+            "10",
+            "25",
+            "43",
+            "68"
+          ],
+          "metri": 327
+        },
+        {
+          "nome": "Via Carducci",
+          "linee": [
+            "2",
+            "25"
+          ],
+          "metri": 336
         }
       ]
     }
