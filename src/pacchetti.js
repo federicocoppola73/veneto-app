@@ -83,7 +83,24 @@ export async function datiCitta(id) {
 export async function datiMappa(id) {
   try {
     const m = JSON.parse(await FileSystem.readAsStringAsync(RADICE + id + '/dati/mappa.json'));
-    return { ...m, uri: RADICE + id + '/mappa/' + m.immagine };
+    return { ...m, uri: RADICE + id + '/assets/' + m.immagine };
+  } catch {
+    return null;
+  }
+}
+
+// Tessere della mappa dettagliata (zoom): { livello: { 'x_y': { uri } } }, oppure null se il pacchetto non le ha
+export async function datiTessere(id) {
+  try {
+    const t = JSON.parse(await FileSystem.readAsStringAsync(RADICE + id + '/dati/tessere.json'));
+    const out = {};
+    for (const [livello, elenco] of Object.entries(t.livelli || {})) {
+      out[livello] = {};
+      for (const xy of elenco) {
+        out[livello][xy] = { uri: RADICE + id + '/assets/mappa/' + livello + '/' + xy + '.webp' };
+      }
+    }
+    return out;
   } catch {
     return null;
   }

@@ -7,7 +7,7 @@ import ListaLuoghi from './ListaLuoghi';
 import DettaglioLuogo from './DettaglioLuogo';
 
 // L'app di una città dentro il contenitore: mappa con i luoghi, elenco e schede.
-export default function CittaApp({ nome, luoghi, mappa, lingua, t, onIndietro }) {
+export default function CittaApp({ nome, luoghi, mappa, tessere, lingua, t, onIndietro }) {
   const e = etichette(lingua);
   const [sezione, setSezione] = useState('mappa'); // 'mappa' | 'elenco' | 'scheda'
   const [luogoId, setLuogoId] = useState(null);
@@ -55,6 +55,7 @@ export default function CittaApp({ nome, luoghi, mappa, lingua, t, onIndietro })
             sorgente={{ uri: mappa.uri }}
             larghezzaImmagine={mappa.larghezza}
             altezzaImmagine={mappa.altezza}
+            tessere={tessere}
             punti={punti}
             percorso={null}
             onPressPunto={(id) => apri(id, 'mappa')}

@@ -4,7 +4,7 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { CITTA, cittaPerId } from './src/catalogo';
-import { datiCitta, datiMappa, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
@@ -100,13 +100,13 @@ function AppRadice() {
         });
       return;
     }
-    Promise.all([datiCitta(cittaAperta), datiMappa(cittaAperta)]).then(([dati, mappa]) => {
+    Promise.all([datiCitta(cittaAperta), datiMappa(cittaAperta), datiTessere(cittaAperta)]).then(([dati, mappa, tessere]) => {
       if (!dati || !mappa) {
         Alert.alert(t.errore, t.riprova);
         setCittaAperta(null);
         return;
       }
-      setDatiAperti({ luoghi: dati.luoghi, mappa });
+      setDatiAperti({ luoghi: dati.luoghi, mappa, tessere });
     });
   }, [cittaAperta]);
 
@@ -171,6 +171,7 @@ function AppRadice() {
           nome={cittaPerId(cittaAperta)?.nome}
           luoghi={datiAperti.luoghi}
           mappa={datiAperti.mappa}
+          tessere={datiAperti.tessere}
           lingua={lingua}
           t={t}
           onIndietro={() => setCittaAperta(null)}
