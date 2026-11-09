@@ -4,12 +4,27 @@
     "slug": "veneto-contenitore",
     "version": "1.0.0",
     "orientation": "default",
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "android": {
       "package": "it.veneto.contenitore",
       "versionCode": 1,
-      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
-    "plugins": ["expo-location"]
+    "plugins": [
+      "expo-location"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "059402d1-fd63-4b24-b283-aad092be4a2e"
+      }
+    },
+    "owner": "fc.developer"
   }
 }
