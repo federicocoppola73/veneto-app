@@ -225,15 +225,21 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
               {orari.length > 0 && (
                 <View style={styles.blocco}>
                   <Text style={styles.titoloBlocco}>🕘 {t('orari')}</Text>
-                  {orari.map((o, i) => (
-                    <View key={i} style={styles.rigaOrario}>
-                      <Text style={styles.giorni}>
-                        {formattaGiorni(o.giorni, t)}
-                        {o.periodo ? <Text style={styles.periodo}>{`  ${formattaPeriodo(o.periodo)}`}</Text> : null}
-                      </Text>
-                      <Text style={styles.ore}>{formattaOre(o.ore, t)}</Text>
-                    </View>
-                  ))}
+                  {orari.map((o, i) => {
+                    // Traduzione del testo libero (se presente); i codici tipo 'lun-dom' restano a formattaGiorni
+                    const tr = lingua !== 'it' && o.traduzioni ? o.traduzioni[lingua] : null;
+                    const giorni = tr && tr.giorni !== o.giorni ? tr.giorni : formattaGiorni(o.giorni, t);
+                    const ore = formattaOre(tr ? tr.ore : o.ore, t);
+                    return (
+                      <View key={i} style={styles.rigaOrario}>
+                        <Text style={styles.giorni}>
+                          {giorni}
+                          {o.periodo ? <Text style={styles.periodo}>{`  ${formattaPeriodo(o.periodo)}`}</Text> : null}
+                        </Text>
+                        <Text style={styles.ore}>{ore}</Text>
+                      </View>
+                    );
+                  })}
                   {(luogo.chiuso || []).length > 0 && (
                     <Text style={styles.chiusoTesto}>
                       {t('chiuso')}: {luogo.chiuso.map((g) => giornoLungo(g, t)).join(', ')}
