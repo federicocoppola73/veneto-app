@@ -1,0 +1,319 @@
+{
+ "_nota": "Generato da strumenti/servizi_osm.py con i dati OpenStreetMap. Dati © OpenStreetMap contributors (ODbL). Fermate degli autobus: solo quelle delle linee urbane, con le linee che vi fermano.",
+ "servizi": [
+  {
+   "id": "farmacie-1",
+   "tipo": "farmacie",
+   "lat": 45.009897,
+   "lon": 11.741323,
+   "nome": "Farmacia Beata Vergine della Salute"
+  },
+  {
+   "id": "farmacie-2",
+   "tipo": "farmacie",
+   "lat": 45.01396,
+   "lon": 11.693381
+  },
+  {
+   "id": "farmacie-3",
+   "tipo": "farmacie",
+   "lat": 45.018738,
+   "lon": 11.811587,
+   "nome": "Romagnolo"
+  },
+  {
+   "id": "farmacie-4",
+   "tipo": "farmacie",
+   "lat": 45.064568,
+   "lon": 11.795529,
+   "nome": "Farmacia San Bortolo"
+  },
+  {
+   "id": "farmacie-5",
+   "tipo": "farmacie",
+   "lat": 45.067528,
+   "lon": 11.787917,
+   "nome": "Farmacia Comunale N.1"
+  },
+  {
+   "id": "farmacie-6",
+   "tipo": "farmacie",
+   "lat": 45.067557,
+   "lon": 11.792864
+  },
+  {
+   "id": "farmacie-7",
+   "tipo": "farmacie",
+   "lat": 45.070464,
+   "lon": 11.791322,
+   "nome": "Parapharmazie Piazza Garibaldi"
+  },
+  {
+   "id": "farmacie-8",
+   "tipo": "farmacie",
+   "lat": 45.070913,
+   "lon": 11.789815,
+   "nome": "Farmacia Centrale"
+  },
+  {
+   "id": "farmacie-9",
+   "tipo": "farmacie",
+   "lat": 45.071366,
+   "lon": 11.790156,
+   "nome": "Farmacia 3 Mori"
+  },
+  {
+   "id": "farmacie-10",
+   "tipo": "farmacie",
+   "lat": 45.072026,
+   "lon": 11.891385,
+   "nome": "San Leonardo"
+  },
+  {
+   "id": "farmacie-11",
+   "tipo": "farmacie",
+   "lat": 45.072653,
+   "lon": 11.785887
+  },
+  {
+   "id": "farmacie-12",
+   "tipo": "farmacie",
+   "lat": 45.072764,
+   "lon": 11.780488,
+   "nome": "San Pio X"
+  },
+  {
+   "id": "farmacie-13",
+   "tipo": "farmacie",
+   "lat": 45.076249,
+   "lon": 11.792202
+  },
+  {
+   "id": "farmacie-14",
+   "tipo": "farmacie",
+   "lat": 45.082024,
+   "lon": 11.783996
+  },
+  {
+   "id": "farmacie-15",
+   "tipo": "farmacie",
+   "lat": 45.094789,
+   "lon": 11.72922,
+   "nome": "Farmacia Benetti"
+  },
+  {
+   "id": "farmacie-16",
+   "tipo": "farmacie",
+   "lat": 45.109358,
+   "lon": 11.779184,
+   "nome": "Farmacia Alla Fenice di Pietropoli Claudia"
+  },
+  {
+   "id": "parcheggi-1",
+   "tipo": "parcheggi",
+   "lat": 45.008834,
+   "lon": 11.743726,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "parcheggi-2",
+   "tipo": "parcheggi",
+   "lat": 45.018714,
+   "lon": 11.681114,
+   "nome": "Parcheggio ASFO"
+  },
+  {
+   "id": "parcheggi-3",
+   "tipo": "parcheggi",
+   "lat": 45.041825,
+   "lon": 11.709184,
+   "nome": "Adige Ovest"
+  },
+  {
+   "id": "parcheggi-4",
+   "tipo": "parcheggi",
+   "lat": 45.067951,
+   "lon": 11.785309,
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-5",
+   "tipo": "parcheggi",
+   "lat": 45.069397,
+   "lon": 11.801238,
+   "nome": "Cimitero"
+  },
+  {
+   "id": "parcheggi-6",
+   "tipo": "parcheggi",
+   "lat": 45.071055,
+   "lon": 11.794795,
+   "nome": "Piazza 20 settembre",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-7",
+   "tipo": "parcheggi",
+   "lat": 45.072033,
+   "lon": 11.783368,
+   "nome": "Multipiano",
+   "pagamento": true
+  },
+  {
+   "id": "parcheggi-8",
+   "tipo": "parcheggi",
+   "lat": 45.076957,
+   "lon": 11.792836,
+   "nome": "Parco Maddalena"
+  },
+  {
+   "id": "parcheggi-9",
+   "tipo": "parcheggi",
+   "lat": 45.079028,
+   "lon": 11.804133,
+   "nome": "Park"
+  },
+  {
+   "id": "parcheggi-10",
+   "tipo": "parcheggi",
+   "lat": 45.1128,
+   "lon": 11.847249,
+   "nome": "Park Cimitero"
+  },
+  {
+   "id": "ospedali-1",
+   "tipo": "ospedali",
+   "lat": 45.051977,
+   "lon": 11.778259,
+   "nome": "Pediatra Panin"
+  },
+  {
+   "id": "ospedali-2",
+   "tipo": "ospedali",
+   "lat": 45.065524,
+   "lon": 11.787884,
+   "nome": "Casa di cura Privata \"Città di Rovigo\""
+  },
+  {
+   "id": "ospedali-3",
+   "tipo": "ospedali",
+   "lat": 45.071329,
+   "lon": 11.81622,
+   "nome": "Pronto Soccorso Ospedale \"Santa Maria della Misericordia\"",
+   "disabili": true,
+   "prontoSoccorso": true
+  },
+  {
+   "id": "ospedali-4",
+   "tipo": "ospedali",
+   "lat": 45.072632,
+   "lon": 11.816111,
+   "nome": "Santa Maria della Misericordia"
+  },
+  {
+   "id": "acqua-1",
+   "tipo": "acqua",
+   "lat": 45.005226,
+   "lon": 11.681879
+  },
+  {
+   "id": "acqua-2",
+   "tipo": "acqua",
+   "lat": 45.047969,
+   "lon": 11.806116
+  },
+  {
+   "id": "acqua-3",
+   "tipo": "acqua",
+   "lat": 45.053268,
+   "lon": 11.796756
+  },
+  {
+   "id": "acqua-4",
+   "tipo": "acqua",
+   "lat": 45.069637,
+   "lon": 11.782023
+  },
+  {
+   "id": "acqua-5",
+   "tipo": "acqua",
+   "lat": 45.070721,
+   "lon": 11.78989
+  },
+  {
+   "id": "acqua-6",
+   "tipo": "acqua",
+   "lat": 45.074615,
+   "lon": 11.781519
+  },
+  {
+   "id": "acqua-7",
+   "tipo": "acqua",
+   "lat": 45.101813,
+   "lon": 11.736803
+  },
+  {
+   "id": "polizia-1",
+   "tipo": "polizia",
+   "lat": 45.06896,
+   "lon": 11.788627,
+   "nome": "Guardia di Finanza"
+  },
+  {
+   "id": "polizia-2",
+   "tipo": "polizia",
+   "lat": 45.070648,
+   "lon": 11.795205,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-3",
+   "tipo": "polizia",
+   "lat": 45.070663,
+   "lon": 11.793654,
+   "nome": "Carabinieri"
+  },
+  {
+   "id": "polizia-4",
+   "tipo": "polizia",
+   "lat": 45.0736,
+   "lon": 11.802204,
+   "nome": "Questura di Rovigo",
+   "disabili": true,
+   "telefono": "+39 0425 202511"
+  },
+  {
+   "id": "polizia-5",
+   "tipo": "polizia",
+   "lat": 45.074152,
+   "lon": 11.801987
+  },
+  {
+   "id": "polizia-6",
+   "tipo": "polizia",
+   "lat": 45.077799,
+   "lon": 11.7812,
+   "nome": "Polizia Ferroviaria"
+  },
+  {
+   "id": "polizia-7",
+   "tipo": "polizia",
+   "lat": 45.110595,
+   "lon": 11.778572,
+   "nome": "Stazione Carabinieri"
+  },
+  {
+   "id": "bagni-1",
+   "tipo": "bagni",
+   "lat": 45.041512,
+   "lon": 11.711011
+  },
+  {
+   "id": "bagni-2",
+   "tipo": "bagni",
+   "lat": 45.076489,
+   "lon": 11.781265,
+   "disabili": true
+  }
+ ]
+}
