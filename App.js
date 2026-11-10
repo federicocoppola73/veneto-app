@@ -3,6 +3,8 @@ import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressabl
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
+import { useFonts } from 'expo-font';
+import { Marcellus_400Regular } from '@expo-google-fonts/marcellus';
 import { CITTA, cittaPerId } from './src/catalogo';
 import { datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
@@ -54,6 +56,8 @@ function linguaIniziale() {
 // Gratuito sempre attivo; le città si scaricano, si aprono e si rimuovono da qui.
 // il provider degli spazi sicuri serve anche sul web, dove SafeAreaView lo richiede
 export default function App() {
+  // font del titolo "Veneto Experience" (Marcellus); finché non è caricato RN usa il font di sistema
+  useFonts({ Marcellus_400Regular });
   return (
     <SafeAreaProvider>
       <AppRadice />
@@ -186,7 +190,7 @@ function AppRadice() {
         <View style={styles.heroTop}>
           <Image source={require('./assets/guida-veneto.png')} style={styles.logo} />
           <View style={styles.testiHero}>
-            <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>VENETO EXPERIENCE</Text>
+            <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>Veneto Experience</Text>
             <View style={styles.badge}>
               <Text style={styles.badgeTesto}>Guida turistica</Text>
             </View>
@@ -341,7 +345,7 @@ const styles = StyleSheet.create({
   heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
   logo: { width: 56, height: 56, borderRadius: 28 },
   testiHero: { flex: 1, minWidth: 0 },
-  brand: { color: '#fff', fontFamily: 'serif', fontSize: 22, letterSpacing: 1.5 },
+  brand: { color: '#fff', fontFamily: 'Marcellus_400Regular', fontSize: 24, letterSpacing: 0.5 },
   badge: { alignSelf: 'flex-start', backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
   badgeTesto: { color: '#fff', fontSize: 13, fontWeight: '500' },
   heroTitolo: { color: '#fff', fontSize: 24, fontWeight: '700', lineHeight: 30, marginTop: 22, marginBottom: 10 },

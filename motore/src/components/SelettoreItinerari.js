@@ -1,6 +1,6 @@
 import { partenzeCitta } from '../citta';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, Image, Modal, Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, Image, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { coloreCategoria } from '../categorie';
 import { formattaDistanza } from '../distanza';
@@ -229,7 +229,7 @@ export default function SelettoreItinerari({
           <View style={styles.tappe}>
             {aperto.tappe.map((id, i) => (
               <CartaTappa
-                key={id}
+                key={`${id}-${i}`}
                 luogo={luoghiPerId[id] || { id, nome: id }}
                 numero={i + 1}
                 testo={aperto.testi?.[id]}
@@ -248,7 +248,7 @@ export default function SelettoreItinerari({
             const testoAp = testoAperturaBreve(ap, t);
             const visto = visitati.includes(id);
             return (
-              <View key={id} style={styles.tappa}>
+              <View key={`${id}-${i}`} style={styles.tappa}>
                 <View style={[styles.numeroTappa, { backgroundColor: coloreCategoria(luogo?.categoria) }]}>
                   <Text style={styles.testoNumeroTappa}>{i + 1}</Text>
                 </View>
@@ -298,7 +298,7 @@ export default function SelettoreItinerari({
         style={[
           styles.scheda,
           orizzontale && styles.schedaOrizzontale,
-          { paddingTop: insets.top, paddingBottom: 12 + insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
+          { paddingTop: (insets.top || (Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44)) + 8, paddingBottom: 12 + insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
         ]}
       >
         <View style={styles.testata}>

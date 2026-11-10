@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { FlatList, Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, useWindowDimensions, View } from 'react-native';
+import { FlatList, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, TextInput, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { testoLunghezza } from '../itinerari';
@@ -259,7 +259,7 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
         style={[
           styles.pagina,
           orizzontale && { paddingHorizontal: '12%' },
-          { paddingTop: insets.top, paddingBottom: insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
+          { paddingTop: (insets.top || (Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44)) + 8, paddingBottom: insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
         ]}
       >
         <View style={styles.testata}>

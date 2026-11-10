@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, useWindowDimensions, View } from 'react-native';
+import { Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, TextInput, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { leggiLink } from '../condivisione';
 import { testoLunghezza } from '../itinerari';
@@ -58,7 +58,7 @@ export default function ImportaItinerari({ visibile, ricevuto, luoghiPerId, t, o
         style={[
           styles.pagina,
           orizzontale && { paddingHorizontal: '12%' },
-          { paddingTop: insets.top, paddingBottom: 12 + insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
+          { paddingTop: (insets.top || (Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44)) + 8, paddingBottom: 12 + insets.bottom, paddingLeft: insets.left, paddingRight: insets.right },
         ]}
       >
         <View style={styles.testata}>
