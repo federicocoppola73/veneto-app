@@ -1,5 +1,5 @@
 {
- "_nota": "Prima versione del pacchetto Rovigo. Le schede sono una base editoriale da verificare: orari e tariffe possono variare; coordinate di Pescheria Nuova e Chiesa di Sant'Antonio Abate detta San Domenico sono state fornite e aggiornate; per il Cimitero ebraico le coordinate non sono ancora validate. Le fermate vicine non sono ancora compilate.",
+ "_nota": "Pacchetto Rovigo. Orari e tariffe possono variare: verificare prima della visita. Coordinate del Cimitero ebraico da validare.",
  "categorie": [
   "chiese",
   "musei",
@@ -713,37 +713,10 @@
     "de": "Der Dom von Rovigo ist dem heiligen Papst und Märtyrer Stephanus geweiht und Konkathedrale des Bistums Adria-Rovigo. Der heutige Bau wurde 1696 nach einem Entwurf begonnen, der Girolamo Frigimelica zugeschrieben wird, und birgt Werke venezianischer Maler, darunter Palma il Giovane und Andrea Vicentino.",
     "es": "El Duomo de Rovigo, dedicado a San Esteban papa y mártir, es la concatedral de la diócesis de Adria-Rovigo. El edificio actual se inició en 1696 según un proyecto atribuido a Girolamo Frigimelica y custodia obras de pintores venecianos, entre ellas de Palma el Joven y Andrea Vicentino."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Accesso secondo gli orari delle celebrazioni e le disposizioni della parrocchia.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Access according to the mass schedule and parish arrangements."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Accès selon les horaires des célébrations et les dispositions de la paroisse."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Zugang gemäß den Gottesdienstzeiten und den Vorgaben der Pfarrei."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Acceso según los horarios de las celebraciones y las disposiciones parroquiales."
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true
    },
    "sito": "https://www.duomorovigo.it/",
-   "nota": {
-    "it": "Sito e orari da confermare con la parrocchia prima della pubblicazione."
-   },
    "immagine": {
     "autore": "Threecharlie",
     "licenza": "CC BY-SA 4.0",
@@ -820,7 +793,14 @@
       "es": "La historia de la catedral de Rovigo está marcada por numerosas ampliaciones y reconstrucciones. En el lugar del edificio actual ya existía una iglesia dedicada a san Esteban, documentada hacia 1050. La primera piedra de la actual concatedral se colocó en 1696, según un proyecto atribuido a Girolamo Frigimelica."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
   },
   {
    "id": "teatro-sociale",
@@ -836,36 +816,16 @@
     "de": "Historisches Theater im klassizistischen Stil, im 19. Jahrhundert geplant und 1819 eröffnet. Nach einem Brand wurde es wieder aufgebaut und 1904 neu eröffnet. Es ist mit der Opernttradition der Stadt verbunden und bietet eine Saison mit Aufführungen und kulturellen Veranstaltungen.",
     "es": "Teatro histórico de traza neoclásica, proyectado en el siglo XIX e inaugurado en 1819. Tras un incendio fue reconstruido y reabierto en 1904. Está ligado a la tradición lírica de la ciudad y acoge una temporada de espectáculos e iniciativas culturales."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Visite guidate su prenotazione; disponibilità da verificare con il teatro.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Guided visits by reservation; availability to be checked with the theatre."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Visites guidées sur réservation ; disponibilité à vérifier auprès du théâtre."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Führungen nach Reservierung; Verfügbarkeit beim Theater erfragen."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Visitas guiadas con reserva; disponibilidad por confirmar con el teatro."
-      }
-     }
-    }
-   ],
    "biglietto": {
-    "nota": "Le tariffe delle visite guidate vanno verificate con il teatro. Spettacoli con biglietteria e tariffe proprie."
+    "nota": "Tariffe delle visite guidate su richiesta al teatro. Spettacoli con biglietteria e tariffe proprie."
    },
    "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
    "nota": {
-    "it": "La categoria 'altri' è usata perché il vocabolario categorie attuale non prevede 'teatri'."
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -1077,40 +1037,16 @@
     "de": "Marktplatz aus dem 19. Jahrhundert, seit 1859 mit dem städtischen Getreidemarkt verbunden. Der kleine Platz hat seinen Handelscharakter bewahrt, beherbergt Geschäfte und kulturelle Initiativen und ist eine charakteristische Ecke des historischen Zentrums.",
     "es": "Espacio de mercado construido en el siglo XIX, vinculado desde 1859 al mercado de granos de la ciudad. La plazuela conserva su carácter comercial, alberga tiendas e iniciativas culturales y es un rincón característico del centro histórico."
    },
-   "orari": [
-    {
-     "giorni": "indicativi",
-     "ore": "attività commerciali segnalate lun, mar, gio, ven e sab 7:30–13:00 e 15:00–20:00; orari non riferibili necessariamente all'intero spazio",
-     "traduzioni": {
-      "en": {
-       "giorni": "indicative",
-       "ore": "reported shop hours Mon, Tue, Thu, Fri and Sat 7:30–13:00 and 15:00–20:00; hours do not necessarily apply to the whole square"
-      },
-      "fr": {
-       "giorni": "indicatif",
-       "ore": "horaires des commerces signalés lun, mar, jeu, ven et sam 7h30–13h00 et 15h00–20h00 ; horaires non nécessairement valables pour l'ensemble de l'espace"
-      },
-      "de": {
-       "giorni": "Richtwerte",
-       "ore": "gemeldete Ladenöffnungszeiten Mo, Di, Do, Fr und Sa 7:30–13:00 und 15:00–20:00; die Zeiten gelten nicht unbedingt für den gesamten Platz"
-      },
-      "es": {
-       "giorni": "orientativos",
-       "ore": "horario de comercios indicados lun, mar, jue, vie y sáb 7:30–13:00 y 15:00–20:00; los horarios no se aplican necesariamente a toda la plaza"
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true
    },
    "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
    "nota": {
-    "it": "Orari da considerare indicativi e da verificare con gli esercizi presenti.",
-    "en": "Opening hours are indicative and should be checked with the shops on site.",
-    "fr": "Les horaires sont donnés à titre indicatif et sont à vérifier auprès des commerces présents.",
-    "de": "Die Öffnungszeiten sind unverbindlich und sollten bei den Geschäften vor Ort überprüft werden.",
-    "es": "Los horarios son orientativos y deben comprobarse con los establecimientos presentes."
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -1424,30 +1360,6 @@
     "de": "Alte städtische Loggia, bereits vor 1286 belegt und traditionell mit der Zunft der Notare verbunden, die 'nodari' genannt wurden. Sie gehört zum städtischen Gebäudekomplex, steht neben dem Torre Civica und blickt auf den Hauptplatz.",
     "es": "Antigua logia cívica, documentada antes de 1286 y tradicionalmente vinculada al gremio de notarios, llamados 'nodari'. Forma parte del complejo municipal, está junto a la Torre Civica y da a la plaza principal."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Esterno sempre visibile; interni secondo aperture istituzionali.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Exterior always visible; interiors according to institutional opening hours."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Extérieur toujours visible ; intérieurs selon les horaires institutionnels."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Außenbereich immer sichtbar; Innenräume gemäß den amtlichen Öffnungszeiten."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Exterior siempre visible; interiores según los horarios institucionales."
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true
    },
@@ -1528,7 +1440,14 @@
       "es": "La Loggia dei Nodari debe su nombre a los notarios, llamados antiguamente nodari, que ejercían aquí su labor ya antes de 1286. Hoy el complejo alberga el ayuntamiento y conserva además un importante testimonio de la historia del castillo: desde 1488 se encuentra la campana que antes estaba colocada en el homenaje (mastio)."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
   },
   {
    "id": "pescheria-nuova",
@@ -1573,9 +1492,6 @@
     "nota": "La visita esterna è gratuita; eventi e mostre possono prevedere biglietto."
    },
    "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
-   "nota": {
-    "it": "Coordinate fornite in gradi, primi e secondi e convertite in gradi decimali."
-   },
    "immagine": {
     "autore": "Threecharlie",
     "licenza": "CC BY-SA 3.0",
@@ -1659,8 +1575,8 @@
    "nome": "Chiesa dei Santi Francesco e Giustina",
    "categoria": "chiese",
    "sestiere": "Centro storico",
-   "latitudine": 45.070873,
-   "longitudine": 11.793653,
+   "latitudine": 45.07108191972262,
+   "longitudine": 11.793868759638679,
    "descrizione": {
     "it": "Chiesa di origine medievale legata alla presenza francescana in città. L'edificio ha una facciata neoclassica e conserva opere di interesse storico-artistico, tra cui la Pietà attribuita a Tullio Lombardo e dipinti di Giovanni Cariani.",
     "en": "Church of medieval origin, linked to the Franciscan presence in the city. The building has a neoclassical façade and holds works of historical and artistic interest, including the Pietà attributed to Tullio Lombardo and paintings by Giovanni Cariani.",
@@ -1668,40 +1584,12 @@
     "de": "Kirche mittelalterlichen Ursprungs, verbunden mit der franziskanischen Präsenz in der Stadt. Das Gebäude hat eine klassizistische Fassade und bewahrt Werke von historischem und künstlerischem Interesse, darunter die Pietà, die Tullio Lombardo zugeschrieben wird, sowie Gemälde von Giovanni Cariani.",
     "es": "Iglesia de origen medieval ligada a la presencia franciscana en la ciudad. El edificio tiene una fachada neoclásica y conserva obras de interés histórico-artístico, entre ellas la Piedad atribuida a Tullio Lombardo y pinturas de Giovanni Cariani."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Apertura da verificare presso la parrocchia.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Opening to be checked with the parish."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Ouverture à vérifier auprès de la paroisse."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Öffnung bei der Pfarrei erfragen."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Apertura por confirmar con la parroquia."
-      }
-     }
-    }
-   ],
    "biglietto": {
-    "gratuito": true,
-    "nota": "Accesso turistico da verificare; gli orari riportati sono quelli delle celebrazioni."
+    "gratuito": true
    },
    "sito": "https://www.sanfrancescorovigo.it/",
    "wikipedia": {
     "it": "Chiesa dei Santi Francesco e Giustina"
-   },
-   "nota": {
-    "it": "Le coordinate disponibili differiscono leggermente tra le fonti: verificare il punto esatto."
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -1737,7 +1625,7 @@
       "2",
       "25"
      ],
-     "metri": 464
+     "metri": 436
     }
    ],
    "lo_sapevi_che": [
@@ -1757,15 +1645,22 @@
       "es": "La historia de la iglesia está ligada a la presencia de los franciscanos en Rovigo y a la tradición según la cual san Francisco pasó por el Polesine en 1213. En 1292 Obizzo II d'Este dispuso la construcción de un convento franciscano cerca de la antigua iglesia de Santa Giustina. La fachada neoclásica que se ve hoy se levantó en el siglo XIX y se completó en 1892."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
   },
   {
    "id": "chiesa-san-domenico",
    "nome": "Chiesa di Sant'Antonio Abate detta San Domenico",
    "categoria": "chiese",
    "sestiere": "Centro storico",
-   "latitudine": 45.070765,
-   "longitudine": 11.791873,
+   "latitudine": 45.069922,
+   "longitudine": 11.791928,
    "descrizione": {
     "it": "Chiesa conosciuta localmente come San Domenico e dedicata a Sant'Antonio Abate. La sua storia è collegata a un ospedale attestato nel 1413; l'edificio fu ricostruito tra il 1505 e il 1516 e successivamente affidato ai Domenicani, da cui deriva il nome d'uso.",
     "en": "Church known locally as San Domenico and dedicated to Sant'Antonio Abate. Its history is linked to a hospital recorded in 1413; the building was rebuilt between 1505 and 1516 and later entrusted to the Dominicans, from whom its common name derives.",
@@ -1773,38 +1668,11 @@
     "de": "Kirche, die vor Ort als San Domenico bekannt ist und dem heiligen Antonius Abt geweiht ist. Ihre Geschichte ist mit einem Hospital verbunden, das 1413 bezeugt ist; das Gebäude wurde zwischen 1505 und 1516 wiederaufgebaut und später den Dominikanern übergeben, von denen sich der gebräuchliche Name herleitet.",
     "es": "Iglesia conocida localmente como San Domenico y dedicada a San Antonio Abad. Su historia está ligada a un hospital documentado en 1413; el edificio fue reconstruido entre 1505 y 1516 y después encomendado a los dominicos, de quienes deriva su nombre de uso."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "non sono disponibili orari turistici regolari confermati",
-     "traduzioni": {
-      "en": {
-       "giorni": "to be confirmed",
-       "ore": "no regular confirmed visiting hours are available"
-      },
-      "fr": {
-       "giorni": "à vérifier",
-       "ore": "aucun horaire touristique régulier confirmé n'est disponible"
-      },
-      "de": {
-       "giorni": "bitte prüfen",
-       "ore": "es sind keine regelmäßigen, bestätigten Besuchszeiten verfügbar"
-      },
-      "es": {
-       "giorni": "por confirmar",
-       "ore": "no hay horarios turísticos regulares confirmados"
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true,
     "nota": "Accesso gratuito quando la chiesa è aperta; modalità e orari da concordare."
    },
    "sito": "https://www.diocesiadriarovigo.it/",
-   "nota": {
-    "it": "Coordinate fornite tramite screenshot di Google Maps."
-   },
    "immagine": {
     "autore": "Threecharlie",
     "licenza": "CC BY-SA 3.0",
@@ -1839,7 +1707,16 @@
       "2",
       "25"
      ],
-     "metri": 332
+     "metri": 328
+    },
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 487
     }
    ],
    "lo_sapevi_che": [
@@ -1859,7 +1736,14 @@
       "es": "El complejo tuvo inicialmente una función asistencial: en 1413 la noble Piacenza Casilini fundó un hospital destinado a acoger y dar refugio. Tras un incendio, el edificio se reconstruyó entre 1505 y 1516 y se añadió una pequeña iglesia. Más tarde el complejo pasó a los dominicos, de quienes toma el nombre con el que aún hoy se conoce."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
   },
   {
    "id": "torre-pighin",
@@ -1975,37 +1859,10 @@
     "de": "Historischer Friedhof der jüdischen Gemeinde Rovigos mit rund 900 Grabsteinen, die von der Präsenz und dem Gedächtnis der Gemeinde in der Region zeugen. Als Ort von historischem und kulturellem Interesse verlangt er bei einem Besuch besonderen Respekt.",
     "es": "Cementerio histórico de la comunidad judía de Rovigo, con unas 900 lápidas que documentan la presencia y la memoria de la comunidad en el territorio. Es un lugar de interés histórico y cultural y requiere especial respeto durante la visita."
    },
-   "orari": [
-    {
-     "giorni": "su richiesta",
-     "ore": "orari non pubblicati; accesso da concordare",
-     "traduzioni": {
-      "en": {
-       "giorni": "on request",
-       "ore": "hours not published; access by arrangement"
-      },
-      "fr": {
-       "giorni": "sur demande",
-       "ore": "horaires non publiés ; accès à convenir"
-      },
-      "de": {
-       "giorni": "auf Anfrage",
-       "ore": "Öffnungszeiten nicht veröffentlicht; Zugang nach Absprache"
-      },
-      "es": {
-       "giorni": "previa solicitud",
-       "ore": "horarios no publicados; acceso a convenir"
-      }
-     }
-    }
-   ],
    "biglietto": {
     "nota": "Tariffa non pubblicata; modalità di visita da concordare."
    },
    "sito": "https://fondoambiente.it/luoghi/cimitero-ebraico-rovigo",
-   "nota": {
-    "it": "Coordinate non inserite: geocodificare l'indirizzo in via Stacche 15 e verificare le modalità di accesso."
-   },
    "immagine": {
     "autore": "Threecharlie",
     "licenza": "CC BY-SA 3.0",
@@ -2057,7 +1914,14 @@
       "es": "El cementerio judío de la via Stacche conserva unas 900 lápidas, testimonio de la presencia de la comunidad judía de Rovigo a lo largo de los siglos. El lugar está rodeado por muros de ladrillo y guarda la memoria de una comunidad que contribuyó a la historia social y cultural de la ciudad. El último rito fúnebre documentado se remonta a 2014."
      }
     }
-   ]
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
   },
   {
    "id": "palazzina-minelli",
@@ -2719,36 +2583,16 @@
     "de": "Das Oratorium della Santissima Concezione, bei den Einwohnern als Chiesetta del Cristo bekannt, ist ein kleines Kirchengebäude in der Via IV Novembre. Seine Geschichte ist mit der franziskanischen Präsenz in Rovigo verbunden: Schon in der ersten Hälfte des 13. Jahrhunderts stand hier eine Franziskanerkapelle. Das heutige Gebäude hat einen Grundriss aus dem 15. Jahrhundert und eine schlichte Fassade, die 1888 nach einem Entwurf des Architekten Raffaele Cattaneo aus Rovigo vollständig erneuert wurde. Das Innere ist durch dorische Säulen in drei Schiffe gegliedert und hat eine Decke mit hölzernen Dachstühlen. Zu den bemerkenswertesten Kunstwerken gehören ein wertvoller Altar aus dem 18. Jahrhundert und ein Freskenfragment mit der Muttergottes mit dem Kind.",
     "es": "El Oratorio della Santissima Concezione, conocido por los rodigini como Chiesetta del Cristo, es un pequeño edificio religioso situado en la Via IV Novembre. Su historia está ligada a la presencia franciscana en Rovigo: ya en la primera mitad del siglo XIII había aquí una capilla franciscana. El edificio actual tiene una planta del siglo XV y una fachada sobria, completamente rehecha en 1888 según un proyecto del arquitecto rodigino Raffaele Cattaneo. El interior se divide en tres naves con columnas dóricas y tiene un techo de armadura de madera. Entre los elementos artísticos más interesantes se encuentran un valioso altar del siglo XVIII y un fragmento de fresco con la Virgen con el Niño."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Apertura su disponibilità; verificare prima della visita.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Open by arrangement; check before your visit."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Ouvert sur demande ; à vérifier avant la visite."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Öffnung nach Verfügbarkeit; vor dem Besuch prüfen."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Apertura según disponibilidad; consultar antes de la visita."
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Ingresso gratuito; eventuali visite o aperture straordinarie da verificare."
+    "nota": "Ingresso gratuito."
    },
    "nota": {
-    "it": "Verificare con la parrocchia gli orari di apertura prima di programmare una visita all'interno."
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -2875,7 +2719,6 @@
    "sestiere": "Centro storico",
    "latitudine": 45.067682,
    "longitudine": 11.793793,
-   "nonVisitabile": true,
    "descrizione": {
     "it": "Monumento marmoreo dedicato all'esploratore Giovanni Miani, inaugurato a Rovigo nel 1931, opera dello scultore Virgilio Milani. Si trova in Largo della Libertà.",
     "en": "Marble monument to the explorer Giovanni Miani, unveiled in Rovigo in 1931, the work of the sculptor Virgilio Milani. It stands in Largo della Libertà.",
@@ -2942,36 +2785,16 @@
     "de": "Der Stadtfriedhof von Rovigo wurde in den ersten Jahrzehnten des 19. Jahrhunderts angelegt und ist auch ein Ort von historischem und künstlerischem Interesse. Zwischen Familienkapellen, Grabmälern und Verzierungen bewahrt er Zeugnisse der Bildhauerkunst und Grabkunst des 19. und 20. Jahrhunderts. Im Inneren befindet sich die Kirche Santa Maria dei Sabbioni, deren belegte Ursprünge bis ins Mittelalter zurückreichen. Ein wichtiger Teil des künstlerischen Erbes ist mit Virgilio Milani verbunden: Der Friedhof bewahrt acht seiner Werke, darunter mehrere monumentale Grabmäler und das Grab des Künstlers und seiner Frau Antonietta Bellinello.",
     "es": "Proyectado en las primeras décadas del siglo XIX, el cementerio municipal de Rovigo es también un lugar de interés histórico y artístico. Entre capillas familiares, monumentos funerarios y decoraciones, conserva testimonios de la escultura y del arte funerario de los siglos XIX y XX. En su interior se encuentra la iglesia de Santa Maria dei Sabbioni, cuyos orígenes documentados se remontan a la Edad Media. Una parte importante de su patrimonio artístico está ligada a Virgilio Milani: el cementerio conserva ocho de sus obras, entre ellas varias tumbas monumentales y la tumba del artista y de su esposa Antonietta Bellinello."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Orari di apertura variabili. Consultare ASM Rovigo prima della visita.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Opening hours vary. Check with ASM Rovigo before your visit."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "Horaires d'ouverture variables. Renseignez-vous auprès d'ASM Rovigo avant la visite."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Öffnungszeiten variabel. Vor dem Besuch bei ASM Rovigo erkundigen."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "Horario de apertura variable. Consultar con ASM Rovigo antes de la visita."
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true,
     "nota": "Accesso gratuito negli orari di apertura."
    },
    "nota": {
-    "it": "Orari indicativi: verificare eventuali variazioni prima della visita."
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
    },
    "lo_sapevi_che": [
     {
@@ -3161,37 +2984,17 @@
     "de": "Das historische Gebäude des Klassischen Gymnasiums Celio ist einer der Orte, die mit der kulturellen und schulischen Geschichte Rovigos verbunden sind. Das Gymnasium wurde 1860 unter österreichischer Herrschaft gegründet und erhielt 1867 den Namen Celio zu Ehren des Humanisten Ludovico Ricchieri aus Rovigo, bekannt als Celio Rodigino. Durch die Bombardierungen im Februar 1945 schwer beschädigt, wurde es wieder aufgebaut; die Arbeiten endeten 1958. Seit 2020 beherbergt es das Urban Digital Center – InnovationLab, einen Raum für Innovation, digitale Kultur, Bildung und Bürgerbeteiligung.",
     "es": "El histórico edificio del Liceo Clásico Celio es uno de los lugares ligados a la historia cultural y escolar de Rovigo. El liceo se fundó en 1860 bajo dominio austriaco y en 1867 recibió el nombre de Celio, en homenaje al humanista de Rovigo Ludovico Ricchieri, conocido como Celio Rodigino. Gravemente dañado por los bombardeos de febrero de 1945, fue reconstruido y las obras concluyeron en 1958. Desde 2020 alberga el Urban Digital Center – InnovationLab, un espacio dedicado a la innovación, la cultura digital, la formación y la participación ciudadana."
    },
-   "orari": [
-    {
-     "giorni": "da verificare",
-     "ore": "Accesso agli spazi interni secondo attività e orari dell'Urban Digital Center.",
-     "traduzioni": {
-      "en": {
-       "giorni": "da verificare",
-       "ore": "Access to the interior spaces depends on the Urban Digital Center's activities and hours."
-      },
-      "fr": {
-       "giorni": "da verificare",
-       "ore": "L'accès aux espaces intérieurs dépend des activités et des horaires de l'Urban Digital Center."
-      },
-      "de": {
-       "giorni": "da verificare",
-       "ore": "Der Zugang zu den Innenräumen richtet sich nach den Aktivitäten und Öffnungszeiten des Urban Digital Center."
-      },
-      "es": {
-       "giorni": "da verificare",
-       "ore": "El acceso a los espacios interiores depende de las actividades y horarios del Urban Digital Center."
-      }
-     }
-    }
-   ],
    "biglietto": {
     "gratuito": true,
     "nota": "Gratuito; eventuali attività possono richiedere iscrizione o prenotazione."
    },
    "sito": "https://urbandigitalcenterrovigo.it/en/node/74",
    "nota": {
-    "it": "Esterno liberamente visibile; gli interni sono accessibili secondo le attività e le aperture del centro."
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
    },
    "lo_sapevi_che": [
     {
@@ -3327,6 +3130,453 @@
     }
    ],
    "personaggio": "umberto-merlin"
+  },
+  {
+   "id": "palazzo-angeli",
+   "nome": "Palazzo Angeli",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.07093,
+   "longitudine": 11.78825,
+   "sito": "https://www.universitarovigo.com",
+   "descrizione": {
+    "it": "Palazzo Angeli è uno degli edifici neoclassici più eleganti di Rovigo. Fu costruito nel 1781 su progetto dell’architetto veronese Francesco Schiavi per la famiglia Angeli. La facciata presenta linee armoniose e proporzioni equilibrate, mentre gli ambienti interni conservano decorazioni di grande pregio. Il salone del piano nobile è arricchito da affreschi di Giovanni Battista Canal, con episodi della Gerusalemme liberata e scene mitologiche. Nel corso della sua storia il palazzo ha ospitato importanti personalità ed è oggi sede di attività legate all’Università di Ferrara.",
+    "en": "Palazzo Angeli is one of the most elegant neoclassical buildings in Rovigo. It was built in 1781 to a design by the Veronese architect Francesco Schiavi for the Angeli family. The façade has harmonious lines and balanced proportions, while the interiors keep decorations of great value. The piano nobile hall is enriched with frescoes by Giovanni Battista Canal, with episodes from the Gerusalemme liberata and mythological scenes. Over its history the palace has hosted important figures, and today it houses activities linked to the University of Ferrara.",
+    "fr": "Palazzo Angeli est l'un des édifices néoclassiques les plus élégants de Rovigo. Il fut construit en 1781 sur un projet de l'architecte véronais Francesco Schiavi pour la famille Angeli. La façade présente des lignes harmonieuses et des proportions équilibrées, tandis que les intérieurs conservent des décors de grand prix. La salle du piano nobile est enrichie de fresques de Giovanni Battista Canal, avec des épisodes de la Jérusalem délivrée et des scènes mythologiques. Au cours de son histoire, le palais a accueilli d'importantes personnalités ; il abrite aujourd'hui des activités liées à l'Université de Ferrare.",
+    "de": "Der Palazzo Angeli gehört zu den elegantesten klassizistischen Gebäuden Rovigos. Er wurde 1781 nach einem Entwurf des Veroneser Architekten Francesco Schiavi für die Familie Angeli errichtet. Die Fassade zeichnet sich durch harmonische Linien und ausgewogene Proportionen aus, während die Innenräume wertvolle Ausstattungen bewahren. Der Saal im piano nobile ist mit Fresken von Giovanni Battista Canal geschmückt, mit Episoden aus dem Befreiten Jerusalem und mythologischen Szenen. Im Laufe seiner Geschichte beherbergte der Palast bedeutende Persönlichkeiten; heute ist er Sitz von Aktivitäten der Universität Ferrara.",
+    "es": "El Palazzo Angeli es uno de los edificios neoclásicos más elegantes de Rovigo. Fue construido en 1781 según un proyecto del arquitecto veronés Francesco Schiavi para la familia Angeli. La fachada presenta líneas armoniosas y proporciones equilibradas, mientras que los interiores conservan decoraciones de gran valor. El salón del piano nobile está enriquecido con frescos de Giovanni Battista Canal, con episodios de la Jerusalén liberada y escenas mitológicas. A lo largo de su historia el palacio ha acogido a personalidades importantes y hoy alberga actividades vinculadas a la Universidad de Ferrara."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always visible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours visible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer sichtbar"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre visible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Esterno gratuito."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Ospiti illustri",
+      "en": "Distinguished guests",
+      "fr": "Hôtes illustres",
+      "de": "Prominente Gäste",
+      "es": "Huéspedes ilustres"
+     },
+     "testo": {
+      "it": "Nell’Ottocento Palazzo Angeli ospitò anche Carlo IV di Spagna. Il palazzo, passato al Comune di Rovigo nel 1876, ebbe nel tempo diverse funzioni pubbliche, tra cui quelle di prefettura e questura.",
+      "en": "In the nineteenth century Palazzo Angeli also hosted Charles IV of Spain. Passed to the Comune of Rovigo in 1876, the palace had various public functions over time, including those of the prefecture and the police headquarters.",
+      "fr": "Au XIXe siècle, le palais Angeli accueillit également Charles IV d'Espagne. Passé à la commune de Rovigo en 1876, il eut au fil du temps diverses fonctions publiques, dont celles de préfecture et de questure.",
+      "de": "Im 19. Jahrhundert beherbergte der Palazzo Angeli auch Karl IV. von Spanien. Der Palast ging 1876 an die Gemeinde Rovigo über und hatte im Laufe der Zeit verschiedene öffentliche Funktionen, unter anderem als Präfektur und Polizeipräsidium.",
+      "es": "En el siglo XIX el Palazzo Angeli acogió también a Carlos IV de España. Pasado al Ayuntamiento de Rovigo en 1876, tuvo con el tiempo diversas funciones públicas, entre ellas las de prefectura y jefatura de policía."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 323
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 380
+    }
+   ]
+  },
+  {
+   "id": "palazzo-venezze",
+   "nome": "Palazzo Venezze",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.069537,
+   "longitudine": 11.791367,
+   "sito": "https://www.conservatoriorovigo.it",
+   "descrizione": {
+    "it": "Palazzo Venezze è una delle più importanti dimore storiche di Rovigo. Fu commissionato nel 1715 dal conte Stefano Venezze e progettato dall’architetto Agostino Ghirotti. La facciata principale, affacciata su via Cavour, è caratterizzata da due grandi portali ad arco, da una raffinata balaustra in marmo e da una cornice dentellata che corre lungo la sommità dell’edificio. Sul retro si apre un cortile racchiuso da due ali laterali. Oggi il palazzo ospita il Conservatorio Statale di Musica Francesco Venezze e continua a essere un importante centro di attività culturali e musicali.",
+    "en": "Palazzo Venezze is one of the most important historic residences in Rovigo. It was commissioned in 1715 by Count Stefano Venezze and designed by the architect Agostino Ghirotti. The main façade, facing Via Cavour, is characterised by two large arched portals, a refined marble balustrade and a dentilled cornice running along the top of the building. At the back a courtyard opens, enclosed by two side wings. Today the palace houses the State Conservatory of Music Francesco Venezze and remains an important centre of cultural and musical activity.",
+    "fr": "Le palais Venezze est l'une des plus importantes demeures historiques de Rovigo. Il fut commandé en 1715 par le comte Stefano Venezze et conçu par l'architecte Agostino Ghirotti. La façade principale, donnant sur la via Cavour, se caractérise par deux grands portails en arc, une balustrade en marbre raffinée et une corniche à denticules qui court le long du sommet de l'édifice. À l'arrière s'ouvre une cour fermée par deux ailes latérales. Aujourd'hui le palais abrite le Conservatoire d'État de musique Francesco Venezze et reste un important centre d'activités culturelles et musicales.",
+    "de": "Der Palazzo Venezze gehört zu den bedeutendsten historischen Stadtpalästen Rovigos. Er wurde 1715 von Graf Stefano Venezze in Auftrag gegeben und vom Architekten Agostino Ghirotti entworfen. Die Hauptfassade zur Via Cavour ist durch zwei große Bogenportale, eine feine Marmorbalustrade und ein Zahnschnittgesims entlang der Gebäudeoberkante geprägt. Auf der Rückseite öffnet sich ein Innenhof, der von zwei Seitenflügeln eingefasst wird. Heute beherbergt der Palast das Staatliche Musikkonservatorium Francesco Venezze und ist weiterhin ein wichtiges Zentrum kultureller und musikalischer Aktivitäten.",
+    "es": "El Palazzo Venezze es una de las residencias históricas más importantes de Rovigo. Fue encargado en 1715 por el conde Stefano Venezze y proyectado por el arquitecto Agostino Ghirotti. La fachada principal, que da a la vía Cavour, se caracteriza por dos grandes portales con arco, una refinada balaustrada de mármol y una cornisa dentada que recorre la parte superior del edificio. En la parte trasera se abre un patio cerrado por dos alas laterales. Hoy el palacio alberga el Conservatorio Estatal de Música Francesco Venezze y sigue siendo un importante centro de actividades culturales y musicales."
+   },
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Nessun biglietto per ammirare l'esterno; concerti ed eventi secondo programma."
+   },
+   "nota": {
+    "it": "Sede del Conservatorio aperta lun–ven 8:00–19:00, sab 8:00–17:00. L’apertura della sede non equivale alla possibilità di visitare liberamente tutte le sale."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il retro sull’Adigetto",
+      "en": "The back on the Adigetto",
+      "fr": "L'arrière sur l'Adigetto",
+      "de": "Die Rückseite am Adigetto",
+      "es": "La parte trasera sobre el Adigetto"
+     },
+     "testo": {
+      "it": "Quando fu costruito, il retro del palazzo si affacciava direttamente sull’Adigetto, il corso d’acqua che attraversava il centro di Rovigo e che venne successivamente interrato. Il palazzo conserva quindi una traccia della città prima delle grandi trasformazioni urbanistiche del Novecento.",
+      "en": "When it was built, the back of the palace looked directly onto the Adigetto, the watercourse that crossed the centre of Rovigo and was later filled in. The palace therefore preserves a trace of the city before the great urban transformations of the twentieth century.",
+      "fr": "Lorsqu'il fut construit, l'arrière du palais donnait directement sur l'Adigetto, le cours d'eau qui traversait le centre de Rovigo et qui fut ensuite comblé. Le palais conserve donc une trace de la ville d'avant les grandes transformations urbaines du XXe siècle.",
+      "de": "Bei seinem Bau blickte die Rückseite des Palastes direkt auf den Adigetto, den Wasserlauf, der durch die Mitte Rovigos floss und später zugeschüttet wurde. Der Palast bewahrt daher eine Spur der Stadt vor den großen städtebaulichen Veränderungen des 20. Jahrhunderts.",
+      "es": "Cuando se construyó, la parte trasera del palacio daba directamente al Adigetto, el curso de agua que atravesaba el centro de Rovigo y que después fue rellenado. El palacio conserva así una huella de la ciudad anterior a las grandes transformaciones urbanísticas del siglo XX."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 335
+    },
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 484
+    }
+   ]
+  },
+  {
+   "id": "chiesa-san-bartolomeo-apostolo",
+   "nome": "Chiesa di San Bartolomeo Apostolo",
+   "categoria": "chiese",
+   "sestiere": "San Bartolomeo",
+   "latitudine": 45.06471,
+   "longitudine": 11.796804,
+   "descrizione": {
+    "it": "La Chiesa di San Bartolomeo Apostolo, conosciuta dai rodigini anche come San Bortolo, è un edificio religioso cinquecentesco situato accanto all’antico monastero degli Olivetani. Fu costruita a metà del XVI secolo e conserva una facciata di impronta rinascimentale, con due ordini sovrapposti e nicchie che ospitano le statue di San Bartolomeo e San Benedetto. L’interno presenta un’unica navata con cappelle laterali decorate da stucchi e affreschi. Tra le opere più interessanti si trova l’organo realizzato da Gaetano Callido nel Settecento. La chiesa fa parte del complesso storico che comprende anche il Museo dei Grandi Fiumi.",
+    "en": "The Church of San Bartolomeo Apostolo, also known by Rovigo's residents as San Bortolo, is a sixteenth-century religious building located beside the former Olivetan monastery. It was built in the mid-sixteenth century and keeps a Renaissance-style façade, with two superimposed orders and niches that house statues of Saint Bartholomew and Saint Benedict. The interior has a single nave with side chapels decorated with stuccoes and frescoes. Among the most interesting works is the organ built by Gaetano Callido in the eighteenth century. The church is part of the historic complex that also includes the Museo dei Grandi Fiumi.",
+    "fr": "L'église Saint-Barthélemy Apôtre, connue des habitants de Rovigo aussi sous le nom de San Bortolo, est un édifice religieux du XVIe siècle situé à côté de l'ancien monastère des Olivétains. Elle fut construite au milieu du XVIe siècle et conserve une façade d'inspiration Renaissance, avec deux ordres superposés et des niches qui abritent les statues de saint Barthélemy et de saint Benoît. L'intérieur présente une seule nef avec des chapelles latérales décorées de stucs et de fresques. Parmi les œuvres les plus intéressantes se trouve l'orgue réalisé par Gaetano Callido au XVIIIe siècle. L'église fait partie de l'ensemble historique qui comprend aussi le Musée des Grands Fleuves.",
+    "de": "Die Kirche San Bartolomeo Apostolo, von den Rodigini auch als San Bortolo bezeichnet, ist ein Sakralbau aus dem 16. Jahrhundert neben dem ehemaligen Olivetanerkloster. Sie wurde um die Mitte des 16. Jahrhunderts errichtet und besitzt eine Fassade im Renaissance-Stil mit zwei übereinanderliegenden Ordnungen und Nischen für die Statuen des heiligen Bartholomäus und des heiligen Benedikt. Das Innere hat ein einziges Schiff mit Seitenkapellen, die mit Stuck und Fresken geschmückt sind. Zu den interessantesten Werken gehört die Orgel, die Gaetano Callido im 18. Jahrhundert baute. Die Kirche gehört zu dem historischen Komplex, zu dem auch das Museum der Großen Flüsse gehört.",
+    "es": "La iglesia de San Bartolomé Apóstol, conocida por los habitantes de Rovigo también como San Bortolo, es un edificio religioso del siglo XVI situado junto al antiguo monasterio de los olivetanos. Se construyó a mediados del siglo XVI y conserva una fachada de inspiración renacentista, con dos órdenes superpuestos y hornacinas que albergan las estatuas de San Bartolomé y San Benito. El interior tiene una única nave con capillas laterales decoradas con estucos y frescos. Entre las obras más interesantes está el órgano construido por Gaetano Callido en el siglo XVIII. La iglesia forma parte del conjunto histórico que incluye también el Museo de los Grandes Ríos."
+   },
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un organo del Settecento",
+      "en": "An eighteenth-century organ",
+      "fr": "Un orgue du XVIIIe siècle",
+      "de": "Eine Orgel aus dem 18. Jahrhundert",
+      "es": "Un órgano del siglo XVIII"
+     },
+     "testo": {
+      "it": "L’organo della chiesa fu installato nel 1778 dal celebre organaro veneziano Gaetano Callido. È ancora considerato uno degli elementi artistici più importanti dell’edificio.",
+      "en": "The church organ was installed in 1778 by the famous Venetian organ builder Gaetano Callido. It is still considered one of the most important artistic elements of the building.",
+      "fr": "L'orgue de l'église fut installé en 1778 par le célèbre facteur d'orgues vénitien Gaetano Callido. Il est encore considéré comme l'un des éléments artistiques les plus importants de l'édifice.",
+      "de": "Die Orgel der Kirche wurde 1778 vom berühmten venezianischen Orgelbauer Gaetano Callido eingebaut. Sie gilt noch heute als eines der wichtigsten künstlerischen Elemente des Gebäudes.",
+      "es": "El órgano de la iglesia fue instalado en 1778 por el célebre organero veneciano Gaetano Callido. Todavía hoy se considera uno de los elementos artísticos más importantes del edificio."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
+  },
+  {
+   "id": "palazzo-poste-telegrafi",
+   "nome": "Palazzo delle Poste e Telegrafi",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.06953,
+   "longitudine": 11.79019,
+   "descrizione": {
+    "it": "Il Palazzo delle Poste e Telegrafi è uno degli edifici più rappresentativi dell’architettura pubblica rodigina del Novecento. Progettato dall’architetto Roberto Narducci, fu inaugurato il 28 ottobre 1929 e divenne la sede delle Poste centrali della città. La costruzione combina elementi dell’architettura rinascimentale locale con influenze Liberty ed eclettiche. Gli ambienti interni conservano ancora decorazioni e finiture originali, tra cui pavimenti a mosaico, porte in legno, stucchi e vetrate colorate. Anche le decorazioni esterne meritano attenzione per la loro ricchezza scultorea.",
+    "en": "The Palazzo delle Poste e Telegrafi is one of the most representative buildings of twentieth-century public architecture in Rovigo. Designed by the architect Roberto Narducci, it was inaugurated on 28 October 1929 and became the city's central post office. The building combines elements of local Renaissance architecture with Liberty and eclectic influences. The interiors still preserve original decorations and finishes, including mosaic floors, wooden doors, stuccoes and coloured stained-glass windows. The external decorations also deserve attention for their sculptural richness.",
+    "fr": "Le palais des Postes et Télégraphes est l'un des édifices les plus représentatifs de l'architecture publique rodigine du XXe siècle. Conçu par l'architecte Roberto Narducci, il fut inauguré le 28 octobre 1929 et devint le bureau de poste central de la ville. La construction associe des éléments de l'architecture Renaissance locale à des influences Liberty et éclectiques. Les intérieurs conservent encore décorations et finitions d'origine, notamment des sols en mosaïque, des portes en bois, des stucs et des vitraux colorés. Les décorations extérieures méritent elles aussi attention pour leur richesse sculptée.",
+    "de": "Der Palazzo delle Poste e Telegrafi gehört zu den repräsentativsten Bauten der öffentlichen Architektur des 20. Jahrhunderts in Rovigo. Entworfen vom Architekten Roberto Narducci, wurde er am 28. Oktober 1929 eingeweiht und wurde das Hauptpostamt der Stadt. Der Bau verbindet Elemente der lokalen Renaissance-Architektur mit Einflüssen des Jugendstils und des Eklektizismus. Die Innenräume bewahren noch originale Ausstattungen und Oberflächen, darunter Mosaikböden, Holztüren, Stuck und farbige Glasfenster. Auch die äußeren Dekorationen verdienen wegen ihres plastischen Reichtums Beachtung.",
+    "es": "El Palazzo delle Poste e Telegrafi es uno de los edificios más representativos de la arquitectura pública del siglo XX en Rovigo. Diseñado por el arquitecto Roberto Narducci, fue inaugurado el 28 de octubre de 1929 y se convirtió en la oficina de correos central de la ciudad. El edificio combina elementos de la arquitectura renacentista local con influencias Liberty y eclécticas. Los interiores conservan aún decoraciones y acabados originales, entre ellos suelos de mosaico, puertas de madera, estucos y vidrieras de colores. Las decoraciones exteriores merecen también atención por su riqueza escultórica."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile; l'interno è accessibile tramite l'ufficio postale",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always visible from outside; the interior is reached through the post office"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours visible depuis l'extérieur ; l'intérieur est accessible par le bureau de poste"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer sichtbar; der Innenraum ist über das Postamt zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre visible desde el exterior; el interior se accede a través de la oficina de correos"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Gratuito per la visione esterna."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Allegorie di Mercurio e delle muse",
+      "en": "Allegories of Mercury and the muses",
+      "fr": "Allégories de Mercure et des muses",
+      "de": "Allegorien von Merkur und den Musen",
+      "es": "Alegorías de Mercurio y las musas"
+     },
+     "testo": {
+      "it": "Le decorazioni esterne furono realizzate dallo scultore Giuseppe Milani. Tra i soggetti rappresentati compaiono figure allegoriche legate a Mercurio, alle muse e ai viaggiatori, oltre a cornucopie.",
+      "en": "The external decorations were made by the sculptor Giuseppe Milani. The subjects include allegorical figures linked to Mercury, the muses and travellers, as well as cornucopias.",
+      "fr": "Les décorations extérieures furent réalisées par le sculpteur Giuseppe Milani. Parmi les sujets figurent des personnages allégoriques liés à Mercure, aux muses et aux voyageurs, ainsi que des cornes d'abondance.",
+      "de": "Die äußeren Dekorationen wurden vom Bildhauer Giuseppe Milani ausgeführt. Dargestellt sind allegorische Figuren, die mit Merkur, den Musen und Reisenden verbunden sind, sowie Füllhörner.",
+      "es": "Las decoraciones exteriores fueron realizadas por el escultor Giuseppe Milani. Entre los motivos aparecen figuras alegóricas relacionadas con Mercurio, las musas y los viajeros, además de cornucopias."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 360
+    },
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 497
+    }
+   ]
+  },
+  {
+   "id": "palazzo-vescovile-vescovado-vecchio",
+   "nome": "Palazzo Vescovile (Vescovado Vecchio)",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.068853,
+   "longitudine": 11.790215,
+   "descrizione": {
+    "it": "Il Vescovado Vecchio è un edificio storico le cui origini risalgono al XIV secolo, quando fu commissionato dal vescovo di Adria Fra’ Benvenuto. Dopo un periodo di abbandono, nel 1608 il vescovo Carlo Labia avviò importanti lavori di ristrutturazione, che conferirono al palazzo parte dell’aspetto ancora riconoscibile oggi. Nel Settecento furono ulteriormente sistemati gli ambienti interni e una cappella, rimasta pressoché inalterata. Nel 1942 la sede vescovile fu trasferita in un edificio più moderno. Il palazzo storico è oggi utilizzato per attività scolastiche e didattiche collegate al Conservatorio.",
+    "en": "The Vescovado Vecchio is a historic building whose origins go back to the fourteenth century, when it was commissioned by the bishop of Adria, Fra' Benvenuto. After a period of neglect, in 1608 Bishop Carlo Labia began major renovation works, which gave the palace part of the appearance still recognisable today. In the eighteenth century the interior rooms and a chapel were further arranged, and the chapel has remained almost unchanged. In 1942 the episcopal seat was moved to a more modern building. Today the historic palace is used for school and educational activities linked to the Conservatory.",
+    "fr": "Le Vescovado Vecchio est un édifice historique dont les origines remontent au XIVe siècle, lorsqu'il fut commandé par l'évêque d'Adria, Fra' Benvenuto. Après une période d'abandon, en 1608 l'évêque Carlo Labia lança d'importants travaux de rénovation, qui donnèrent au palais une partie de l'aspect encore reconnaissable aujourd'hui. Au XVIIIe siècle, les intérieurs et une chapelle furent encore aménagés ; la chapelle est restée presque inchangée. En 1942, le siège épiscopal fut transféré dans un bâtiment plus moderne. Aujourd'hui le palais historique sert à des activités scolaires et pédagogiques liées au Conservatoire.",
+    "de": "Das Vescovado Vecchio ist ein historisches Gebäude, dessen Ursprünge ins 14. Jahrhundert zurückreichen, als es der Bischof von Adria, Fra' Benvenuto, in Auftrag gab. Nach einer Phase des Verfalls ließ Bischof Carlo Labia 1608 umfangreiche Umbauarbeiten durchführen, die dem Palast einen Teil des Erscheinungsbildes gaben, das noch heute erkennbar ist. Im 18. Jahrhundert wurden die Innenräume und eine Kapelle weiter ausgestaltet; die Kapelle ist nahezu unverändert erhalten. 1942 wurde der bischöfliche Sitz in ein moderneres Gebäude verlegt. Heute dient der historische Palast schulischen und didaktischen Aktivitäten im Zusammenhang mit dem Konservatorium.",
+    "es": "El Vescovado Vecchio es un edificio histórico cuyos orígenes se remontan al siglo XIV, cuando lo encargó el obispo de Adria, Fra' Benvenuto. Tras un periodo de abandono, en 1608 el obispo Carlo Labia emprendió importantes obras de restauración, que dieron al palacio parte del aspecto que aún hoy se reconoce. En el siglo XVIII se acondicionaron de nuevo los interiores y una capilla, que ha permanecido casi inalterada. En 1942 la sede episcopal se trasladó a un edificio más moderno. Hoy el palacio histórico se utiliza para actividades escolares y didácticas vinculadas al Conservatorio."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always visible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours visible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer sichtbar"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre visible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Esterno gratuito."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una cappella settecentesca",
+      "en": "An eighteenth-century chapel",
+      "fr": "Une chapelle du XVIIIe siècle",
+      "de": "Eine Kapelle aus dem 18. Jahrhundert",
+      "es": "Una capilla del siglo XVIII"
+     },
+     "testo": {
+      "it": "La cappella interna conserva elementi legati alla sistemazione voluta nel 1788 dal vescovo Arnaldo Speroni degli Alvarotti. È uno degli ambienti che testimoniano la storia religiosa e istituzionale dell’edificio.",
+      "en": "The inner chapel keeps elements linked to the arrangement commissioned in 1788 by Bishop Arnaldo Speroni degli Alvarotti. It is one of the rooms that bear witness to the religious and institutional history of the building.",
+      "fr": "La chapelle intérieure conserve des éléments liés à l'aménagement voulu en 1788 par l'évêque Arnaldo Speroni degli Alvarotti. C'est l'une des salles qui témoignent de l'histoire religieuse et institutionnelle de l'édifice.",
+      "de": "Die innere Kapelle bewahrt Elemente der Ausstattung, die 1788 von Bischof Arnaldo Speroni degli Alvarotti veranlasst wurde. Sie ist einer der Räume, die von der religiösen und institutionellen Geschichte des Gebäudes zeugen.",
+      "es": "La capilla interior conserva elementos ligados a la disposición ordenada en 1788 por el obispo Arnaldo Speroni degli Alvarotti. Es una de las estancias que testimonian la historia religiosa e institucional del edificio."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 415
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 462
+    }
+   ]
+  },
+  {
+   "id": "oratorio-beata-vergine-pompei",
+   "nome": "Oratorio della Beata Vergine di Pompei",
+   "categoria": "chiese",
+   "sestiere": "Fuori dal centro storico",
+   "latitudine": 45.07426,
+   "longitudine": 11.790115,
+   "descrizione": {
+    "it": "La Chiesetta delle Fosse è un piccolo edificio religioso dei primi anni del Novecento, dedicato alla Beata Vergine di Pompei e alla Madonna del Rosario. Fu progettato dall’ingegnere rodigino Eugenio Piva e costruito tra il 1900 e il 1903, su iniziativa di don Tommaso Angiari. La sua architettura si ispira allo stile neogotico medievale, con una facciata caratterizzata dall’alternanza di pietre chiare e rosse. Le dimensioni contenute e la posizione all’incrocio tra via Gorizia e le strade circostanti la rendono un piccolo punto di riferimento storico e religioso del quartiere.",
+    "en": "The Chiesetta delle Fosse is a small religious building from the early twentieth century, dedicated to the Blessed Virgin of Pompeii and to Our Lady of the Rosary. It was designed by the Rovigo engineer Eugenio Piva and built between 1900 and 1903, at the initiative of Don Tommaso Angiari. Its architecture draws on the medieval Neo-Gothic style, with a façade marked by the alternation of light and red stones. Its modest dimensions and its position at the junction of Via Gorizia and the surrounding streets make it a small historical and religious landmark of the neighbourhood.",
+    "fr": "La Chiesetta delle Fosse est un petit édifice religieux du début du XXe siècle, dédié à la Bienheureuse Vierge de Pompéi et à Notre-Dame du Rosaire. Il fut conçu par l'ingénieur rodigino Eugenio Piva et construit entre 1900 et 1903, à l'initiative de don Tommaso Angiari. Son architecture s'inspire du style néogothique médiéval, avec une façade caractérisée par l'alternance de pierres claires et rouges. Ses dimensions modestes et sa position au carrefour de la via Gorizia et des rues voisines en font un petit repère historique et religieux du quartier.",
+    "de": "Die Chiesetta delle Fosse ist ein kleiner Sakralbau aus dem frühen 20. Jahrhundert, der der seligen Jungfrau von Pompeji und der Madonna des Rosenkranzes geweiht ist. Entworfen wurde er vom Ingenieur Eugenio Piva aus Rovigo und zwischen 1900 und 1903 auf Initiative von Don Tommaso Angiari errichtet. Die Architektur orientiert sich am mittelalterlichen Neugotik-Stil, mit einer Fassade, die durch den Wechsel von hellen und roten Steinen geprägt ist. Dank ihrer bescheidenen Größe und ihrer Lage an der Kreuzung der Via Gorizia mit den umliegenden Straßen ist sie ein kleiner historischer und religiöser Anhaltspunkt des Viertels.",
+    "es": "La Chiesetta delle Fosse es un pequeño edificio religioso de principios del siglo XX, dedicado a la Beata Virgen de Pompeya y a la Virgen del Rosario. Lo proyectó el ingeniero rodigino Eugenio Piva y se construyó entre 1900 y 1903 por iniciativa de don Tommaso Angiari. Su arquitectura se inspira en el neogótico medieval, con una fachada caracterizada por la alternancia de piedras claras y rojas. Sus dimensiones contenidas y su posición en el cruce de la vía Gorizia y las calles cercanas la convierten en un pequeño punto de referencia histórico y religioso del barrio."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always visible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours visible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer sichtbar"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre visible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il nome delle fosse",
+      "en": "The name of the ditches",
+      "fr": "Le nom des fosses",
+      "de": "Der Name der Gräben",
+      "es": "El nombre de las fosas"
+     },
+     "testo": {
+      "it": "Il nome popolare della chiesetta (Chiesetta delle fosse) deriva dalla vecchia denominazione di via Gorizia, un tempo chiamata Strada delle Fosse. La zona si trovava al di fuori dell’antica cinta muraria cittadina.",
+      "en": "The popular name of the little church (Chiesetta delle fosse) comes from the old name of Via Gorizia, once called Strada delle Fosse. The area lay outside the city's ancient walls.",
+      "fr": "Le nom populaire de la petite église (Chiesetta delle fosse) vient de l'ancienne appellation de la via Gorizia, autrefois appelée Strada delle Fosse. La zone se trouvait en dehors de l'ancienne enceinte de la ville.",
+      "de": "Der volkstümliche Name der Kirche (Chiesetta delle fosse) geht auf die alte Bezeichnung der Via Gorizia zurück, die einst Strada delle Fosse hieß. Das Gebiet lag außerhalb der alten Stadtmauer.",
+      "es": "El nombre popular de la iglesita (Chiesetta delle fosse) procede de la antigua denominación de la vía Gorizia, que antes se llamaba Strada delle Fosse. La zona estaba fuera de la antigua muralla de la ciudad."
+     }
+    }
+   ],
+   "galleria": [],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 291
+    }
+   ]
   }
  ]
 }

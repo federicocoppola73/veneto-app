@@ -34,7 +34,7 @@ export default function GalleriaFoto({ foto, altezza, t, children }) {
           >
             {foto.map((f, i) => (
               <Pressable key={i} onPress={() => setVisore(i)} accessibilityRole="imagebutton" accessibilityLabel={`${t('foto')} ${i + 1}/${foto.length}`}>
-                <Image source={f.source} style={{ width: larghezza, height: altezza }} resizeMode="cover" />
+                <Image source={f.source} style={{ width: larghezza, height: altezza, backgroundColor: '#e2ecf3' }} resizeMode="contain" />
               </Pressable>
             ))}
           </ScrollView>

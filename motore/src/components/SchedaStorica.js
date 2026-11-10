@@ -32,7 +32,7 @@ export default function SchedaStorica({ luogo: l, t, lingua, onChiudi }) {
         <ScrollView contentContainerStyle={styles.corpo}>
           {foto ? (
             <View>
-              <Image source={immagine(`luoghi/${l.id}.webp`)} style={styles.foto} />
+              <Image source={immagine(`luoghi/${l.id}.webp`)} style={styles.foto} resizeMode="contain" />
               {l.immagine ? (
                 <Text style={styles.credito}>
                   Foto: {l.immagine.autore}

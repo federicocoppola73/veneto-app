@@ -175,6 +175,131 @@
       "foto": null,
       "foto_da_fare": false,
       "da_verificare": false
+    },
+    {
+      "luogo_id": "chiesa-san-bartolomeo-apostolo",
+      "zona": "San Bartolomeo",
+      "domanda": {
+        "it": "Sulla sommità della facciata cerca il simbolo dell’ordine degli Olivetani: ricorda la lunga presenza dei monaci nel complesso.",
+        "en": "At the top of the façade, look for the symbol of the Olivetan order: it recalls the long presence of the monks in the complex.",
+        "fr": "Au sommet de la façade, cherchez le symbole de l'ordre des Olivétains : il rappelle la longue présence des moines dans le complexe.",
+        "de": "Suchen Sie oben an der Fassade nach dem Symbol des Olivetanerordens: Es erinnert an die lange Anwesenheit der Mönche in der Anlage.",
+        "es": "En la parte alta de la fachada busca el símbolo de la orden olivetana: recuerda la larga presencia de los monjes en el conjunto."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-olivetani-simbolo.webp",
+        "credits": "Threecharlie – CC BY-SA 3.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false,
+      "risposta": {
+        "it": "Rappresenta tre monti sormontati da una croce e accompagnati da rami d’ulivo.",
+        "en": "It shows three mountains topped by a cross and accompanied by olive branches.",
+        "fr": "Il représente trois monts surmontés d'une croix et accompagnés de rameaux d'olivier.",
+        "de": "Es zeigt drei Berge, die von einem Kreuz überragt und von Olivenzweigen begleitet werden.",
+        "es": "Representa tres montes coronados por una cruz y acompañados de ramas de olivo."
+      }
+    },
+    {
+      "luogo_id": "oratorio-beata-vergine-pompei",
+      "zona": "Fuori dal centro",
+      "domanda": {
+        "it": "Sopra la porta centrale c’è un bassorilievo di terracotta, dedicato alla Madonna. Lo riesci a individuare?",
+        "en": "Above the central door there is a terracotta bas-relief dedicated to the Madonna. Can you spot it?",
+        "fr": "Au-dessus de la porte centrale se trouve un bas-relief en terre cuite dédié à la Vierge. Arrivez-vous à le repérer ?",
+        "de": "Über dem mittleren Portal befindet sich ein Terrakotta-Relief, das der Madonna gewidmet ist. Können Sie es entdecken?",
+        "es": "Encima de la puerta central hay un bajorrelieve de terracota dedicado a la Virgen. ¿Lo logras encontrar?"
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-madonna-cammino.webp",
+        "credits": "Threecharlie – CC BY-SA 3.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false,
+      "risposta": {
+        "it": "Il bassorilievo è dedicato alla Madonna del Cammino.",
+        "en": "The bas-relief is dedicated to Our Lady of the Way (Madonna del Cammino).",
+        "fr": "Le bas-relief est dédié à la Madone du Chemin (Madonna del Cammino).",
+        "de": "Das Relief ist der Madonna del Cammino gewidmet.",
+        "es": "El bajorrelieve está dedicado a la Madonna del Cammino."
+      }
+    },
+    {
+      "luogo_id": "teatro-sociale",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Sulla facciata del Teatro Sociale cerca le decorazioni in rilievo. Quali oggetti riconosci che richiamano il mondo dello spettacolo?",
+        "en": "On the façade of the Teatro Sociale, look for the decorations in relief. Which objects can you recognise that recall the world of entertainment?",
+        "fr": "Sur la façade du Teatro Sociale, cherchez les décorations en relief. Quels objets reconnaissez-vous qui évoquent le monde du spectacle ?",
+        "de": "Suchen Sie an der Fassade des Teatro Sociale nach den erhabenen Verzierungen. Welche Gegenstände erkennen Sie, die an die Welt der Unterhaltung erinnern?",
+        "es": "En la fachada del Teatro Sociale busca las decoraciones en relieve. ¿Qué objetos reconoces que recuerden al mundo del espectáculo?"
+      },
+      "risposta": {
+        "it": "Maschere e strumenti musicali, raffigurati nei rilievi realizzati da Virgilio Milani nel 1957.",
+        "en": "Masks and musical instruments, depicted in the reliefs made by Virgilio Milani in 1957.",
+        "fr": "Des masques et des instruments de musique, représentés dans les reliefs réalisés par Virgilio Milani en 1957.",
+        "de": "Masken und Musikinstrumente, dargestellt in den Reliefs, die Virgilio Milani 1957 schuf.",
+        "es": "Máscaras e instrumentos musicales, representados en los relieves realizados por Virgilio Milani en 1957."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-teatro-sociale-rilievi.webp",
+        "credits": "Threecharlie – GNU Free Documentation License (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-gran-guardia",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva la parte alta della facciata della Gran Guardia. Quali elementi legati all’ambiente militare riconosci sopra i pilastri?",
+        "en": "Look at the upper part of the Gran Guardia façade. Which elements linked to the military world can you recognise above the pillars?",
+        "fr": "Observez la partie haute de la façade de la Gran Guardia. Quels éléments liés au monde militaire reconnaissez-vous au-dessus des pilastres ?",
+        "de": "Betrachten Sie den oberen Teil der Fassade der Gran Guardia. Welche Elemente aus dem militärischen Umfeld erkennen Sie über den Pilastern?",
+        "es": "Observa la parte alta de la fachada de la Gran Guardia. ¿Qué elementos relacionados con el ámbito militar reconoces sobre los pilastres?"
+      },
+      "risposta": {
+        "it": "Elmi, armature e scudi, elementi decorativi che ricordano l’originaria funzione militare dell’edificio.",
+        "en": "Helmets, armour and shields, decorative elements that recall the building's original military function.",
+        "fr": "Des casques, des armures et des boucliers, éléments décoratifs qui rappellent la fonction militaire originelle du bâtiment.",
+        "de": "Helme, Rüstungen und Schilde, dekorative Elemente, die an die ursprüngliche militärische Funktion des Gebäudes erinnern.",
+        "es": "Yelmos, armaduras y escudos, elementos decorativos que recuerdan la función militar original del edificio."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-gran-guardia-elmi.webp",
+        "credits": "Threecharlie – CC BY-SA 3.0 (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "cimitero-monumentale-rovigo",
+      "zona": "Fuori dal centro",
+      "domanda": {
+        "it": "Sulla facciata della chiesa di Santa Maria dei Sabbioni, all’interno del cimitero monumentale, cerca il bassorilievo marmoreo. Quale figura è rappresentata?",
+        "en": "On the façade of the church of Santa Maria dei Sabbioni, inside the monumental cemetery, look for the marble bas-relief. Which figure is depicted?",
+        "fr": "Sur la façade de l'église Santa Maria dei Sabbioni, à l'intérieur du cimetière monumental, cherchez le bas-relief en marbre. Quelle figure est représentée ?",
+        "de": "Suchen Sie an der Fassade der Kirche Santa Maria dei Sabbioni im Monumentalfriedhof nach dem Marmor-Relief. Welche Figur ist dargestellt?",
+        "es": "En la fachada de la iglesia de Santa Maria dei Sabbioni, dentro del cementerio monumental, busca el bajorrelieve de mármol. ¿Qué figura está representada?"
+      },
+      "risposta": {
+        "it": "Un angelo in volo, opera di Virgilio Milani.",
+        "en": "A flying angel, the work of Virgilio Milani.",
+        "fr": "Un ange en vol, œuvre de Virgilio Milani.",
+        "de": "Ein fliegender Engel, ein Werk von Virgilio Milani.",
+        "es": "Un ángel en vuelo, obra de Virgilio Milani."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-cimitero-angelo.webp",
+        "credits": "Threecharlie – GNU Free Documentation License (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false
     }
   ]
 }
