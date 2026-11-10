@@ -769,7 +769,18 @@ function Schermata({ linguaIniziale }) {
           </Text>
           {!orizzontale && <Text style={styles.sottotitolo}>{t('sottotitolo')}</Text>}
         </View>
-        <RicercaLuoghi luoghi={luoghi} selezionate={selezionate} t={t} onScegli={scegliDaRicerca} />
+        <RicercaLuoghi
+          luoghi={luoghi}
+          selezionate={selezionate}
+          t={t}
+          lingua={lingua}
+          personaggi={personaggi()}
+          cibi={CIBI}
+          eventi={DATI_EVENTI.eventi || []}
+          onScegli={scegliDaRicerca}
+          onScegliPersonaggio={(id) => setPersonaggioAperto(id)}
+          onScegliCibo={(id) => setIdCibo(id)}
+        />
         <Calendario dati={DATI_EVENTI} lingua={lingua} t={t} onVediMappa={scegliDaRicerca} />
         <SelettoreLingua lingua={lingua} onCambia={setLingua} etichetta={t('lingua')} />
         <Crediti luoghi={luoghi} t={t} />

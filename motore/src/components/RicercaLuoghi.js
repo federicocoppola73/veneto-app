@@ -1,11 +1,11 @@
 import React, { useMemo, useState } from 'react';
 import {
-  FlatList,
   Keyboard,
   Modal,
   Platform,
   Pressable,
   ScrollView,
+  SectionList,
   StatusBar,
   StyleSheet,
   Text,
@@ -13,6 +13,7 @@ import {
   View,
 } from 'react-native';
 import { CATEGORIE, coloreCategoria } from '../categorie';
+import { testoLocalizzato } from '../i18n';
 import { zoneDi, zonePresenti } from '../zone';
 
 const ALTEZZA_BARRA_STATO = Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44;
@@ -26,35 +27,126 @@ export const semplifica = (testo = '') =>
     .toLowerCase()
     .trim();
 
+// "2027-04-02" -> "2/4/2027"
+const formattaData = (iso) => {
+  const [a, m, g] = iso.split('-').map(Number);
+  return `${g}/${m}/${a}`;
+};
+
+const perNome = (a, b) => a.nome.localeCompare(b.nome, 'it');
+
 /**
- * Pulsante con la lente: apre un pannello con il campo di ricerca e l'elenco dei luoghi trovati.
- * La ricerca può riguardare tutti i luoghi oppure solo le tipologie attive nel filtro,
- * e si può restringere a una zona (sestiere o isola).
- * props: luoghi, selezionate (tipologie attive), t, onScegli(id)
+ * Pulsante con la lente: apre un pannello con il campo di ricerca e i risultati.
+ * Senza testo mostra solo i luoghi (come prima). Scrivendo, cerca anche tra personaggi, cibi ed eventi.
+ * - luoghi: si possono restringere alle tipologie attive e a una zona (sestiere o isola)
+ * - eventi: la zona vale anche per loro (tramite il luogo); toccandone uno si illumina il luogo sulla mappa
+ * - personaggi e cibi non hanno zona: compaiono solo con "Tutte le zone"
+ * props: luoghi, selezionate (tipologie attive), t, lingua, personaggi, cibi, eventi (eventi.json),
+ *        onScegli(idLuogo), onScegliPersonaggio(id), onScegliCibo(id)
  */
-export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
+export default function RicercaLuoghi({
+  luoghi,
+  selezionate,
+  t,
+  lingua = 'it',
+  personaggi = [],
+  cibi = [],
+  eventi = [],
+  onScegli,
+  onScegliPersonaggio,
+  onScegliCibo,
+}) {
   const [aperto, setAperto] = useState(false);
   const [testo, setTesto] = useState('');
   const [ambito, setAmbito] = useState('filtrati'); // 'filtrati' | 'tutti'
   const [zona, setZona] = useState(null); // null = tutte le zone
 
   const zone = useMemo(() => zonePresenti(luoghi), [luoghi]);
+  const luoghiPerId = useMemo(() => Object.fromEntries(luoghi.map((l) => [l.id, l])), [luoghi]);
 
   const filtroAttivo = selezionate.length < CATEGORIE.length;
 
-  const risultati = useMemo(() => {
+  // Sezioni dei risultati: ogni voce ha chiave, titolo, dettaglio e l'id da aprire (null = non cliccabile)
+  const sezioni = useMemo(() => {
     const q = semplifica(testo);
+    const cerca = (campi) => !q || campi.some((c) => semplifica(c || '').includes(q));
+    const altriTipi = q.length > 0;
+
     const perTipo = ambito === 'filtrati' ? luoghi.filter((l) => selezionate.includes(l.categoria)) : luoghi;
-    const base = zona ? perTipo.filter((l) => zoneDi(l).includes(zona)) : perTipo;
-    const ordinati = [...base].sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
-    if (!q) return ordinati;
-    return ordinati.filter(
-      (l) =>
-        semplifica(l.nome).includes(q) ||
-        semplifica(l.sestiere).includes(q) ||
-        semplifica(t(`cat_${l.categoria}`)).includes(q)
-    );
-  }, [testo, luoghi, selezionate, ambito, zona, t]);
+    const luoghiTrovati = (zona ? perTipo.filter((l) => zoneDi(l).includes(zona)) : perTipo)
+      .filter((l) => cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]))
+      .sort(perNome);
+    const vociLuoghi = luoghiTrovati.map((l) => ({
+      chiave: `luogo-${l.id}`,
+      tipo: 'luogo',
+      id: l.id,
+      titolo: l.nome,
+      dettaglio: `${t(`cat_${l.categoria}`)} · ${l.sestiere}`,
+      colore: coloreCategoria(l.categoria),
+    }));
+
+    const vociPersonaggi = altriTipi && !zona
+      ? personaggi
+          .filter((p) => cerca([p.nome, testoLocalizzato(p.professione, lingua)]))
+          .sort(perNome)
+          .map((p) => ({
+            chiave: `personaggio-${p.id}`,
+            tipo: 'personaggio',
+            id: p.id,
+            titolo: p.nome,
+            dettaglio: testoLocalizzato(p.professione, lingua),
+            icona: '👤',
+          }))
+      : [];
+
+    const vociCibi = altriTipi && !zona
+      ? cibi
+          .filter((c) => cerca([c.nome, c.portata]))
+          .sort(perNome)
+          .map((c) => ({
+            chiave: `cibo-${c.id}`,
+            tipo: 'cibo',
+            id: c.id,
+            titolo: c.nome,
+            dettaglio: c.portata ? c.portata.charAt(0).toUpperCase() + c.portata.slice(1) : '',
+            icona: '🍽️',
+          }))
+      : [];
+
+    const vociEventi = altriTipi
+      ? eventi
+          .map((e, i) => ({ e, i }))
+          .filter(({ e }) => {
+            if (zona) {
+              const luogo = e.luogoId ? luoghiPerId[e.luogoId] : null;
+              if (!luogo || !zoneDi(luogo).includes(zona)) return false;
+            }
+            return cerca([e.nome, testoLocalizzato(e.tipo, lingua), e.luogo]);
+          })
+          .sort((a, b) => (a.e.inizio || '').localeCompare(b.e.inizio || '') || a.e.nome.localeCompare(b.e.nome, 'it'))
+          .map(({ e, i }) => {
+            const data = e.inizio === e.fine ? formattaData(e.inizio) : `${formattaData(e.inizio)} – ${formattaData(e.fine)}`;
+            const tipo = testoLocalizzato(e.tipo, lingua);
+            return {
+              chiave: `evento-${i}`,
+              tipo: 'evento',
+              id: e.luogoId && luoghiPerId[e.luogoId] ? e.luogoId : null,
+              titolo: e.nome,
+              dettaglio: [data, tipo].filter(Boolean).join(' · '),
+              icona: '📅',
+            };
+          })
+      : [];
+
+    return [
+      { chiave: 'luoghi', titolo: altriTipi ? t('cercaSezLuoghi') : null, data: vociLuoghi },
+      { chiave: 'personaggi', titolo: t('cercaSezPersonaggi'), data: vociPersonaggi },
+      { chiave: 'cibi', titolo: t('cercaSezCibi'), data: vociCibi },
+      { chiave: 'eventi', titolo: t('cercaSezEventi'), data: vociEventi },
+    ].filter((s) => s.data.length > 0);
+  }, [testo, luoghi, luoghiPerId, selezionate, ambito, zona, t, lingua, personaggi, cibi, eventi]);
+
+  const tutteLeVoci = sezioni.flatMap((s) => s.data);
 
   const chiudi = () => {
     Keyboard.dismiss();
@@ -62,9 +154,18 @@ export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
     setTesto('');
   };
 
-  const scegli = (id) => {
-    chiudi();
-    onScegli(id);
+  const scegli = (voce) => {
+    if (voce.tipo === 'personaggio') {
+      chiudi();
+      onScegliPersonaggio?.(voce.id);
+    } else if (voce.tipo === 'cibo') {
+      chiudi();
+      onScegliCibo?.(voce.id);
+    } else if (voce.id) {
+      // luogo, oppure evento collegato a un luogo: si illumina il luogo sulla mappa
+      chiudi();
+      onScegli(voce.id);
+    }
   };
 
   return (
@@ -98,7 +199,7 @@ export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
                 autoCorrect={false}
                 autoCapitalize="none"
                 returnKeyType="search"
-                onSubmitEditing={() => risultati.length === 1 && scegli(risultati[0].id)}
+                onSubmitEditing={() => tutteLeVoci.length === 1 && scegli(tutteLeVoci[0])}
                 accessibilityLabel={t('cerca')}
               />
               {testo.length > 0 && (
@@ -112,7 +213,7 @@ export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
             </Pressable>
           </View>
 
-          {/* Dove cercare: in tutti i luoghi o solo nelle tipologie selezionate */}
+          {/* Dove cercare: in tutti i luoghi o solo nelle tipologie selezionate (vale per i luoghi) */}
           <View style={styles.rigaAmbito}>
             <Text style={styles.etichettaAmbito}>{t('cercaIn')}</Text>
             <View style={styles.segmenti}>
@@ -171,10 +272,11 @@ export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
             })}
           </ScrollView>
 
-          <FlatList
-            data={risultati}
-            keyExtractor={(l) => l.id}
+          <SectionList
+            sections={sezioni}
+            keyExtractor={(voce) => voce.chiave}
             keyboardShouldPersistTaps="handled"
+            stickySectionHeadersEnabled={false}
             style={styles.lista}
             ListEmptyComponent={
               <Text style={styles.vuoto}>
@@ -182,18 +284,26 @@ export default function RicercaLuoghi({ luoghi, selezionate, t, onScegli }) {
               </Text>
             }
             ItemSeparatorComponent={() => <View style={styles.separatore} />}
-            renderItem={({ item }) => (
+            renderSectionHeader={({ section }) =>
+              section.titolo ? <Text style={styles.titoloSezione}>{section.titolo}</Text> : null
+            }
+            renderItem={({ item: voce }) => (
               <Pressable
-                onPress={() => scegli(item.id)}
-                style={({ pressed }) => [styles.risultato, pressed && { backgroundColor: '#f0f6fb' }]}
+                onPress={() => scegli(voce)}
+                disabled={!voce.id && voce.tipo === 'evento'}
+                style={({ pressed }) => [styles.risultato, pressed && voce.id && { backgroundColor: '#f0f6fb' }]}
                 accessibilityRole="button"
               >
-                <View style={[styles.pallino, { backgroundColor: coloreCategoria(item.categoria) }]} />
+                {voce.colore ? (
+                  <View style={[styles.pallino, { backgroundColor: voce.colore }]} />
+                ) : (
+                  <View style={styles.icona}>
+                    <Text style={styles.testoIcona}>{voce.icona}</Text>
+                  </View>
+                )}
                 <View style={{ flex: 1 }}>
-                  <Text style={styles.nome}>{item.nome}</Text>
-                  <Text style={styles.dettaglio}>
-                    {t(`cat_${item.categoria}`)} · {item.sestiere}
-                  </Text>
+                  <Text style={styles.nome}>{voce.titolo}</Text>
+                  {!!voce.dettaglio && <Text style={styles.dettaglio}>{voce.dettaglio}</Text>}
                 </View>
               </Pressable>
             )}
@@ -284,9 +394,20 @@ const styles = StyleSheet.create({
   testoZona: { fontSize: 13, color: '#334155' },
   testoZonaAttiva: { color: '#fff', fontWeight: '600' },
   lista: { flexGrow: 0, flexShrink: 1 },
+  titoloSezione: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#64748b',
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+    paddingTop: 10,
+    paddingBottom: 4,
+  },
   separatore: { height: 1, backgroundColor: '#f1f5f9', marginLeft: 34 },
   risultato: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 11, paddingHorizontal: 4 },
   pallino: { width: 14, height: 14, borderRadius: 7, borderWidth: 2, borderColor: '#fff', elevation: 2 },
+  icona: { width: 14, alignItems: 'center' },
+  testoIcona: { fontSize: 14 },
   nome: { fontSize: 16, fontWeight: '600', color: '#0f172a' },
   dettaglio: { fontSize: 13, color: '#64748b', marginTop: 1 },
   vuoto: { textAlign: 'center', color: '#64748b', paddingVertical: 20 },

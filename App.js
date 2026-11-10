@@ -312,6 +312,8 @@ function AppRadice() {
                 Copertina di Verona: Arne Müseler, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
 
                 Copertina di Padova: Didier Descouens, da Wikimedia Commons. Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+                Copertina di Venezia: Horst-schlaemma. Licenza CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
               </Text>
             </View>
           </View>

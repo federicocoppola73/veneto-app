@@ -86,10 +86,13 @@ export function calcolaItinerario({ id, titolo, tappe }, luoghiPerId, cache = ne
 /**
  * Tappe in fila per il giro a piedi più breve: si prova a partire da ogni tappa andando sempre alla più vicina,
  * poi si migliora il giro invertendo pezzi di percorso finché conviene (metodo "2-opt").
+ * Con fissaPartenza / fissaArrivo la prima e/o l'ultima tappa restano al loro posto e si riordina solo il resto.
  */
-export function ordinaTappe(tappe, luoghiPerId) {
+export function ordinaTappe(tappe, luoghiPerId, { fissaPartenza = false, fissaArrivo = false } = {}) {
   const n = tappe.length;
-  if (n < 3) return tappe;
+  const lo = fissaPartenza ? 1 : 0; // primo indice che si può spostare
+  const hi = fissaArrivo ? n - 2 : n - 1; // ultimo indice che si può spostare
+  if (n < 3 || hi - lo < 1) return tappe;
   const cache = new Map();
   const D = tappe.map((a) => tappe.map((b) => metriTra(a, b, luoghiPerId, cache)));
   const costo = (o) => {
@@ -97,16 +100,18 @@ export function ordinaTappe(tappe, luoghiPerId) {
     for (let k = 0; k + 1 < o.length; k++) c += D[o[k]][o[k + 1]];
     return c;
   };
+  const fine = fissaArrivo ? [n - 1] : [];
   let migliore = null;
   let costoMin = Infinity;
-  for (let s = 0; s < n; s++) {
-    const usati = new Set([s]);
+  const partenze = fissaPartenza ? [0] : Array.from({ length: hi - lo + 1 }, (_, k) => lo + k);
+  for (const s of partenze) {
     const ordine = [s];
-    while (ordine.length < n) {
+    const usati = new Set([s, ...fine]);
+    while (ordine.length < n - fine.length) {
       const u = ordine[ordine.length - 1];
       let scelto = -1;
       let min = Infinity;
-      for (let j = 0; j < n; j++) {
+      for (let j = lo; j <= hi; j++) {
         if (!usati.has(j) && D[u][j] < min) {
           min = D[u][j];
           scelto = j;
@@ -115,17 +120,18 @@ export function ordinaTappe(tappe, luoghiPerId) {
       ordine.push(scelto);
       usati.add(scelto);
     }
-    const c = costo(ordine);
+    const completo = [...ordine, ...fine];
+    const c = costo(completo);
     if (c < costoMin) {
       costoMin = c;
-      migliore = ordine;
+      migliore = completo;
     }
   }
   let migliorato = true;
   while (migliorato) {
     migliorato = false;
-    for (let i = 0; i < n - 1; i++) {
-      for (let k = i + 1; k < n; k++) {
+    for (let i = lo; i < hi; i++) {
+      for (let k = i + 1; k <= hi; k++) {
         const nuovo = [...migliore.slice(0, i), ...migliore.slice(i, k + 1).reverse(), ...migliore.slice(k + 1)];
         const c = costo(nuovo);
         if (c + 0.5 < costoMin) {

@@ -29,7 +29,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/manifest.json",
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": 63.2
     },
     {
       "id": "verona",
@@ -57,7 +57,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/manifest.json",
       "sku": null,
-      "dimensione_mb": null
+      "dimensione_mb": 56.5
     },
     {
       "id": "padova",
@@ -78,7 +78,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/manifest.json",
       "sku": null,
-      "dimensione_mb": null,
+      "dimensione_mb": 80.1,
       "motto": {
         "it": "Portici e università",
         "en": "Arcades and university",
@@ -106,7 +106,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/manifest.json?v=8",
       "sku": null,
-      "dimensione_mb": null,
+      "dimensione_mb": 62.8,
       "motto": {
         "it": "Canali, acque e osterie",
         "en": "Canals, waters and taverns",
@@ -134,7 +134,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/manifest.json?v=3",
       "sku": null,
-      "dimensione_mb": null,
+      "dimensione_mb": 63.3,
       "motto": {
         "it": "Palladio e architettura rinascimentale",
         "en": "Palladio and Renaissance architecture",
@@ -162,7 +162,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/manifest.json",
       "sku": null,
-      "dimensione_mb": null,
+      "dimensione_mb": 32.8,
       "motto": {
         "it": "Delta del Po e Polesine",
         "en": "Po Delta and Polesine",
@@ -190,7 +190,7 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/manifest.json?v=1",
       "sku": null,
-      "dimensione_mb": 15,
+      "dimensione_mb": 24.6,
       "motto": {
         "it": "Dolomiti e Tiziano",
         "en": "Dolomites and Titian",

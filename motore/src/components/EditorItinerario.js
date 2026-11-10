@@ -3,6 +3,7 @@ import { FlatList, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { testoLunghezza } from '../itinerari';
+import { formattaDistanza } from '../distanza';
 import { metriTappe, ordinaTappe } from '../itinerariUtente';
 import { ROSSO_CUORE } from './Preferiti';
 import { zoneDi, zonePresenti } from '../zone';
@@ -15,6 +16,17 @@ const semplifica = (s) =>
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase();
+
+// Variazione tra la lunghezza prima e dopo il riordino: "−0,3 km (−7%)" oppure "+2 min (+5%)"
+const PASSO_MIN = 75; // metri al minuto a piedi, come in itinerari.js
+function variazioneTesto(prima, dopo, unita, t) {
+  const diff = dopo - prima;
+  if (diff === 0) return unita === 'km' ? `${formattaDistanza(0, t)} (0%)` : '0 min (0%)';
+  const segno = diff < 0 ? '−' : '+';
+  const pct = prima > 0 ? ` (${segno}${Math.abs(Math.round((diff / prima) * 100))}%)` : '';
+  if (unita === 'km') return `${segno}${formattaDistanza(Math.abs(diff), t)}${pct}`;
+  return `${segno}${Math.max(1, Math.round(Math.abs(diff) / PASSO_MIN))} min${pct}`;
+}
 
 /**
  * Pagina intera per creare o modificare un itinerario dell'utente, in due viste:
@@ -33,6 +45,9 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
   const [cerca, setCerca] = useState('');
   const [categoria, setCategoria] = useState(null); // null = tutte
   const [zona, setZona] = useState(null); // null = tutte le zone
+  const [fissaPartenza, setFissaPartenza] = useState(false); // la prima tappa resta prima nel riordino
+  const [fissaArrivo, setFissaArrivo] = useState(false); // l'ultima tappa resta ultima nel riordino
+  const [anteprima, setAnteprima] = useState(null); // riordino proposto, in attesa di conferma: { tappe, metriPrima, metriDopo }
   const zone = useMemo(() => zonePresenti(luoghi), [luoghi]);
 
   useEffect(() => {
@@ -43,15 +58,32 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
     setCerca('');
     setCategoria(null);
     setZona(null);
+    setFissaPartenza(false);
+    setFissaArrivo(false);
+    setAnteprima(null);
   }, [visibile, iniziale, luoghiPerId]);
 
   const metri = useMemo(() => (tappe.length > 1 ? metriTappe(tappe, luoghiPerId) : 0), [tappe, luoghiPerId]);
   const puoiSalvare = titolo.trim().length > 0 && tappe.length >= 2;
 
+  // calcola il riordino e lo mostra in un riquadro: si applica solo con "OK"
+  const ordina = () => {
+    const dopo = ordinaTappe(tappe, luoghiPerId, { fissaPartenza, fissaArrivo });
+    setAnteprima({ tappe: dopo, metriPrima: metri, metriDopo: metriTappe(dopo, luoghiPerId) });
+  };
+  const confermaRiordino = () => {
+    if (anteprima) setTappe(anteprima.tappe);
+    setAnteprima(null);
+  };
+
+  // una tappa non si può spostare se scambierebbe la prima (fissa) o l'ultima (fissa)
+  const bloccata = (i, j, n) =>
+    (fissaPartenza && (i === 0 || j === 0)) || (fissaArrivo && (i === n - 1 || j === n - 1));
+
   const sposta = (i, d) =>
     setTappe((l) => {
       const j = i + d;
-      if (j < 0 || j >= l.length) return l;
+      if (j < 0 || j >= l.length || bloccata(i, j, l.length)) return l;
       const n = [...l];
       [n[i], n[j]] = [n[j], n[i]];
       return n;
@@ -121,14 +153,20 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
             <Text style={styles.nomeTappa} numberOfLines={2}>
               {l?.nome || id}
             </Text>
-            <Pressable onPress={() => sposta(i, -1)} disabled={i === 0} hitSlop={4} style={[styles.freccia, i === 0 && styles.spento]} accessibilityLabel={t('ed_su')}>
+            <Pressable
+              onPress={() => sposta(i, -1)}
+              disabled={i === 0 || bloccata(i, i - 1, tappe.length)}
+              hitSlop={4}
+              style={[styles.freccia, (i === 0 || bloccata(i, i - 1, tappe.length)) && styles.spento]}
+              accessibilityLabel={t('ed_su')}
+            >
               <Text style={styles.testoFreccia}>▲</Text>
             </Pressable>
             <Pressable
               onPress={() => sposta(i, 1)}
-              disabled={i === tappe.length - 1}
+              disabled={i === tappe.length - 1 || bloccata(i, i + 1, tappe.length)}
               hitSlop={4}
-              style={[styles.freccia, i === tappe.length - 1 && styles.spento]}
+              style={[styles.freccia, (i === tappe.length - 1 || bloccata(i, i + 1, tappe.length)) && styles.spento]}
               accessibilityLabel={t('ed_giu')}
             >
               <Text style={styles.testoFreccia}>▼</Text>
@@ -141,14 +179,36 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
       })}
 
       {tappe.length > 2 && (
-        <Pressable
-          onPress={() => setTappe((l) => ordinaTappe(l, luoghiPerId))}
-          testID="ed-ordina"
-          style={({ pressed }) => [styles.azioneSecondaria, pressed && { opacity: 0.8 }]}
-          accessibilityRole="button"
-        >
-          <Text style={styles.testoAzioneSecondaria}>🔀 {t('ed_ordina')}</Text>
-        </Pressable>
+        <>
+          <View style={styles.fissi}>
+            <Pressable
+              onPress={() => setFissaPartenza((v) => !v)}
+              testID="ed-fissa-partenza"
+              style={({ pressed }) => [styles.fisso, fissaPartenza && styles.fissoAttivo, pressed && { opacity: 0.8 }]}
+              accessibilityRole="switch"
+              accessibilityState={{ checked: fissaPartenza }}
+            >
+              <Text style={[styles.testoFisso, fissaPartenza && styles.testoFissoAttivo]}>📌 {t('ed_fissaPartenza')}</Text>
+            </Pressable>
+            <Pressable
+              onPress={() => setFissaArrivo((v) => !v)}
+              testID="ed-fissa-arrivo"
+              style={({ pressed }) => [styles.fisso, fissaArrivo && styles.fissoAttivo, pressed && { opacity: 0.8 }]}
+              accessibilityRole="switch"
+              accessibilityState={{ checked: fissaArrivo }}
+            >
+              <Text style={[styles.testoFisso, fissaArrivo && styles.testoFissoAttivo]}>📌 {t('ed_fissaArrivo')}</Text>
+            </Pressable>
+          </View>
+          <Pressable
+            onPress={ordina}
+            testID="ed-ordina"
+            style={({ pressed }) => [styles.azioneSecondaria, pressed && { opacity: 0.8 }]}
+            accessibilityRole="button"
+          >
+            <Text style={styles.testoAzioneSecondaria}>🔀 {t('ed_ordina')}</Text>
+          </Pressable>
+        </>
       )}
       <Pressable
         onPress={() => setVista('scegli')}
@@ -274,6 +334,38 @@ export default function EditorItinerario({ visibile, iniziale, luoghi, luoghiPer
             : pulsanteTestata(t('ed_salva'), salva, { attivo: puoiSalvare, primario: true, testID: 'ed-salva' })}
         </View>
         {vista === 'scegli' ? scegli : modifica}
+        {anteprima && (
+          <View style={styles.riordinoSfondo}>
+            <View style={styles.riordinoBox}>
+              <Text style={styles.riordinoTitolo}>{t('ed_riordinoTitolo')}</Text>
+              <Text style={styles.riordinoRiga}>
+                {t('ed_riordinoPrima')}: {testoLunghezza({ metri: anteprima.metriPrima }, t)}
+              </Text>
+              <Text style={styles.riordinoRiga}>
+                {t('ed_riordinoDopo')}: {testoLunghezza({ metri: anteprima.metriDopo }, t)}
+              </Text>
+              <Text style={styles.riordinoDelta}>
+                {t('ed_riordinoDistanza')}: {variazioneTesto(anteprima.metriPrima, anteprima.metriDopo, 'km', t)}
+              </Text>
+              <Text style={styles.riordinoDelta}>
+                {t('ed_riordinoTempo')}: {variazioneTesto(anteprima.metriPrima, anteprima.metriDopo, 'min', t)}
+              </Text>
+              <View style={styles.riordinoBottoni}>
+                <Pressable
+                  onPress={() => setAnteprima(null)}
+                  style={[styles.riordinoBottone, styles.riordinoAnnulla]}
+                  testID="ed-riordino-annulla"
+                  accessibilityRole="button"
+                >
+                  <Text style={styles.riordinoTestoAnnulla}>{t('ls_annulla')}</Text>
+                </Pressable>
+                <Pressable onPress={confermaRiordino} style={[styles.riordinoBottone, styles.riordinoOk]} testID="ed-riordino-ok" accessibilityRole="button">
+                  <Text style={styles.riordinoTestoOk}>{t('ed_riordinoOk')}</Text>
+                </Pressable>
+              </View>
+            </View>
+          </View>
+        )}
       </View>
     </Modal>
   );
@@ -343,6 +435,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   testoAzioneSecondaria: { color: BLU, fontSize: 15, fontWeight: '700' },
+  fissi: { flexDirection: 'row', gap: 8, marginTop: 14 },
+  fisso: { flex: 1, borderWidth: 1.5, borderColor: '#cbd5e1', borderRadius: 14, paddingVertical: 9, alignItems: 'center' },
+  fissoAttivo: { borderColor: BLU, backgroundColor: '#e6eef5' },
+  testoFisso: { color: '#475569', fontSize: 14, fontWeight: '600' },
+  testoFissoAttivo: { color: BLU, fontWeight: '800' },
+  riordinoSfondo: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(15,23,42,0.45)', justifyContent: 'center', padding: 24, zIndex: 10 },
+  riordinoBox: { backgroundColor: '#fff', borderRadius: 16, padding: 20 },
+  riordinoTitolo: { fontSize: 18, fontWeight: '800', color: BLU, marginBottom: 12 },
+  riordinoRiga: { fontSize: 15, color: '#334155', marginTop: 6 },
+  riordinoDelta: { fontSize: 15, fontWeight: '700', color: '#0f172a', marginTop: 8 },
+  riordinoBottoni: { flexDirection: 'row', gap: 10, marginTop: 18 },
+  riordinoBottone: { flex: 1, borderRadius: 12, paddingVertical: 12, alignItems: 'center' },
+  riordinoAnnulla: { borderWidth: 1.5, borderColor: '#cbd5e1' },
+  riordinoOk: { backgroundColor: BLU },
+  riordinoTestoAnnulla: { color: '#334155', fontSize: 16, fontWeight: '700' },
+  riordinoTestoOk: { color: '#fff', fontSize: 16, fontWeight: '800' },
   filtri: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 6, borderBottomWidth: 1, borderBottomColor: '#f1f5f9' },
   chips: { gap: 8, paddingBottom: 4 },
   chip: {
