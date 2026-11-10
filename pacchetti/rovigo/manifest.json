@@ -1,5 +1,5 @@
 {
- "versione": "488111dadb4f",
+ "versione": "5bd69edd90a7",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -175,6 +175,26 @@
    "path": "assets/luoghi/casa-umberto-merlin_2.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/casa-umberto-merlin_2.webp",
    "sha256": "1caa67dc980acb7aa97053e0d8c71c1a6c8c13fccdbbea8458f7d3da48e0b4e3"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-bartolomeo-apostolo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-bartolomeo-apostolo.webp",
+   "sha256": "94283c9527a8db71068b6686f218abeb546dbb8a3cd53fa5d1389667c3aec328"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-bartolomeo-apostolo_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-bartolomeo-apostolo_2.webp",
+   "sha256": "53bec23a9e2a9d31775c92112ff605d8d0e4d27965ec5357d63a194ee0b32d62"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-bartolomeo-apostolo_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-bartolomeo-apostolo_3.webp",
+   "sha256": "a44552ca643c494c9c9d8c6a07d38917031eea3c034a0c74aecd728a6a7b8d71"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-bartolomeo-apostolo_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/chiesa-san-bartolomeo-apostolo_4.webp",
+   "sha256": "a34d3ba11ddb6533e5f935f8a49fbb6f54f520df944fdabfb4ed3a5a0000c723"
   },
   {
    "path": "assets/luoghi/chiesa-san-domenico.webp",
@@ -397,6 +417,21 @@
    "sha256": "d501a36d48d1907a19eeb2d25d5f8a5c29c1ac1c159114922439b0b01cb8e9aa"
   },
   {
+   "path": "assets/luoghi/oratorio-beata-vergine-pompei.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-beata-vergine-pompei.webp",
+   "sha256": "3365a83e25c5b3a884b3414830d79a5d235b466a8352a666afc7a3a228c1e029"
+  },
+  {
+   "path": "assets/luoghi/oratorio-beata-vergine-pompei_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-beata-vergine-pompei_2.webp",
+   "sha256": "3ce7e607e76accea6943549d409ef1371b85e44fc61e12321c6727a27d1b6c2d"
+  },
+  {
+   "path": "assets/luoghi/oratorio-beata-vergine-pompei_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-beata-vergine-pompei_3.webp",
+   "sha256": "1cc457b216941378e8f8209a949b8c83eac1e67e7326c5087c39d9f3bb9c3b5a"
+  },
+  {
    "path": "assets/luoghi/oratorio-santissima-concezione.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/oratorio-santissima-concezione.webp",
    "sha256": "1eadc93583bc05099f9734d81147e44112d2ece0c03c8ce9070fca69d765cfed"
@@ -442,6 +477,21 @@
    "sha256": "5549eab262b6c6994f3afca4e8bf26685aae96caab64b498912c25c372435d3c"
   },
   {
+   "path": "assets/luoghi/palazzo-angeli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-angeli.webp",
+   "sha256": "0986417416992dca8448db54ee679534186e888810029b86210df6dba91e3dda"
+  },
+  {
+   "path": "assets/luoghi/palazzo-angeli_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-angeli_2.webp",
+   "sha256": "3a3f21d8bb54f5fa5dd943e9ff86f81459b70b4838680c13943dbe2c480376c7"
+  },
+  {
+   "path": "assets/luoghi/palazzo-angeli_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-angeli_3.webp",
+   "sha256": "158eb1805ad23c11356601846e6f7b1718e27e50a294512677499119966d7a94"
+  },
+  {
    "path": "assets/luoghi/palazzo-gran-guardia.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia.webp",
    "sha256": "f4ef644f6025bb529dbdc1c8ec9d48d540becf2a1ab0d927bc103d32d70ffa26"
@@ -470,6 +520,16 @@
    "path": "assets/luoghi/palazzo-manfredini_2.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-manfredini_2.webp",
    "sha256": "7eac79d55f6e6ae4bb8ad10fecc44bb7fdfb4fe5f941a07dd2edce99ee408dcb"
+  },
+  {
+   "path": "assets/luoghi/palazzo-poste-telegrafi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-poste-telegrafi.webp",
+   "sha256": "61034fb60ec8d3b2a2cb5e0ea7afee04e35c607ac069472006dd2701401838f9"
+  },
+  {
+   "path": "assets/luoghi/palazzo-poste-telegrafi_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-poste-telegrafi_2.webp",
+   "sha256": "3b44940da7b7941a53497551b46b3a182c914587cf3c36303232d0ccdca0c59f"
   },
   {
    "path": "assets/luoghi/palazzo-pretorio.webp",
@@ -560,6 +620,31 @@
    "path": "assets/luoghi/palazzo-silvestri_5.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-silvestri_5.webp",
    "sha256": "a17eaa2ed1ba621ba0d2dce748ec135ed2442a602cf12bbcc1559fc7bbc3fe24"
+  },
+  {
+   "path": "assets/luoghi/palazzo-venezze.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-venezze.webp",
+   "sha256": "b1781af891c977b286f93bc5db6e583ffccf6da8e2f96122891bf044c1786d2e"
+  },
+  {
+   "path": "assets/luoghi/palazzo-venezze_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-venezze_2.webp",
+   "sha256": "14f7a3982d4bfaa897c8d47ba7d9f04b24c26e37cd3e40ed9504f78c3f6a3ec2"
+  },
+  {
+   "path": "assets/luoghi/palazzo-venezze_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-venezze_3.webp",
+   "sha256": "20948bc2e97393b5befac92521ec78616cf6c336acbfa05e7f98a958048e0dd1"
+  },
+  {
+   "path": "assets/luoghi/palazzo-vescovile-vescovado-vecchio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-vescovile-vescovado-vecchio.webp",
+   "sha256": "6392cde9c998b00e9e462aaea0dae3952ed9bf5dd6395552de28e29226844f65"
+  },
+  {
+   "path": "assets/luoghi/palazzo-vescovile-vescovado-vecchio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-vescovile-vescovado-vecchio_2.webp",
+   "sha256": "da880fc59b669b05f29c9a2eaa2d65ba36368b1e596060b0958853baeed56c8c"
   },
   {
    "path": "assets/luoghi/pescheria-nuova.webp",
@@ -5372,6 +5457,21 @@
    "sha256": "a61747ccc16bfc0df790e5c3620c08e86ac9730caeef1abf7dba7ac188204630"
   },
   {
+   "path": "assets/personaggi/antonio-riccoboni.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/antonio-riccoboni.webp",
+   "sha256": "cbfaf725e102f3eebb01c5b612b004f052aead50c749df012b8f35d23b9caa95"
+  },
+  {
+   "path": "assets/personaggi/celio-rodigino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/celio-rodigino.webp",
+   "sha256": "5f5b291b5a26c616a3239fd0ba5c259ea38bc4f1ece39438fd8524c86db6d128"
+  },
+  {
+   "path": "assets/personaggi/cristina-roccati.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/cristina-roccati.webp",
+   "sha256": "e7659c66a383379ec9bc82027b6b5c2cc1c5aabb73c750c66f522b8b2b6cf7ac"
+  },
+  {
    "path": "assets/personaggi/giacomo-matteotti.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/giacomo-matteotti.webp",
    "sha256": "05baa6fb614aaa332f5b0df798dee128efe28dc0eba1280dc65921989214e56d"
@@ -5385,6 +5485,11 @@
    "path": "assets/personaggi/giovanni-miani.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/giovanni-miani.webp",
    "sha256": "aa6146f1a25c3d5891e0544adc6fd690e062e54f3bfe18047944ced440c8008e"
+  },
+  {
+   "path": "assets/personaggi/mario-cavaglieri.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/personaggi/mario-cavaglieri.webp",
+   "sha256": "9fc005059c91ddc0f0daae10022e90c68a17c5218a4388e1b9596599b109bf08"
   },
   {
    "path": "assets/personaggi/umberto-merlin.webp",
@@ -5434,7 +5539,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/immagini.json",
-   "sha256": "a01c789d7df039f259814f5e2fc870eada67ab0584289d2da697d270b660f21f"
+   "sha256": "d05385526283fd9249bfefe36345b8e60548269d1c819c08e6b004d710d11623"
   },
   {
    "path": "dati/itinerari.json",
@@ -5444,7 +5549,7 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json",
-   "sha256": "98af42eb6c157d04074d8d5ef1e730b2114306241b1273d73680d4001cdfe255"
+   "sha256": "63be54342cc356efbf57061d09a10647bec991d8647f344a511d181982cfdac3"
   },
   {
    "path": "dati/mappa.json",
@@ -5464,7 +5569,7 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/personaggi.json",
-   "sha256": "c287067b1728c7906aedc57c97d983fdf555cb2d9ec85ba2c86577b5b073c289"
+   "sha256": "f6bc10d9e99d9b507807fdc6e6b25d51cd5ee98f84eaafb9f6c250c3bb09fa32"
   },
   {
    "path": "dati/principali.json",

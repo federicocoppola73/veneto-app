@@ -52,14 +52,24 @@
     "gratuito": false,
     "intero": 5,
     "ridotto": 3,
-    "nota": "Ridotto per ragazzi 9-18 anni, studenti universitari, over 65 e gruppi di almeno 10 persone. Ingresso gratuito per persone con disabilità e il loro accompagnatore. Prenotazione obbligatoria via e-mail a info@visitrovigo.it; massimo 15 persone per gruppo."
+    "nota": {
+     "it": "Ridotto per ragazzi 9-18 anni, studenti universitari, over 65 e gruppi di almeno 10 persone. Ingresso gratuito per persone con disabilità e il loro accompagnatore. Prenotazione obbligatoria via e-mail a info@visitrovigo.it; massimo 15 persone per gruppo.",
+     "en": "Reduced fare for children aged 9–18, university students, over 65s and groups of at least 10 people. Free entry for people with disabilities and their companion. Booking required by e-mail at info@visitrovigo.it; maximum 15 people per group.",
+     "fr": "Tarif réduit pour les enfants de 9 à 18 ans, les étudiants universitaires, les plus de 65 ans et les groupes d'au moins 10 personnes. Entrée gratuite pour les personnes handicapées et leur accompagnateur. Réservation obligatoire par e-mail à info@visitrovigo.it ; 15 personnes maximum par groupe.",
+     "de": "Ermäßigt für Kinder und Jugendliche von 9 bis 18 Jahren, Universitätsstudierende, Personen über 65 und Gruppen ab 10 Personen. Freier Eintritt für Menschen mit Behinderung und ihre Begleitperson. Reservierung per E-Mail an info@visitrovigo.it erforderlich; maximal 15 Personen pro Gruppe.",
+     "es": "Tarifa reducida para niños de 9 a 18 años, estudiantes universitarios, mayores de 65 años y grupos de al menos 10 personas. Entrada gratuita para personas con discapacidad y su acompañante. Reserva obligatoria por correo electrónico a info@visitrovigo.it; máximo 15 personas por grupo."
+    }
    },
    "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-musei/torre-dona",
    "wikipedia": {
     "it": "Torre Donà"
    },
    "nota": {
-    "it": "Stagione autunnale e invernale; verificare gli orari di primavera ed estate prima della visita."
+    "it": "Stagione autunnale e invernale; verificare gli orari di primavera ed estate prima della visita.",
+    "en": "Autumn and winter season; check the spring and summer hours before your visit.",
+    "fr": "Saison automne et hiver ; vérifier les horaires du printemps et de l'été avant la visite.",
+    "de": "Herbst- und Wintersaison; Öffnungszeiten für Frühjahr und Sommer vor dem Besuch prüfen.",
+    "es": "Temporada de otoño e invierno; verificar los horarios de primavera y verano antes de la visita."
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -312,7 +322,13 @@
     }
    ],
    "biglietto": {
-    "nota": "La Pinacoteca permanente è a ingresso gratuito; le mostre temporanee hanno tariffe proprie."
+    "nota": {
+     "it": "La Pinacoteca permanente è a ingresso gratuito; le mostre temporanee hanno tariffe proprie.",
+     "en": "The permanent Pinacoteca is free to enter; temporary exhibitions have their own rates.",
+     "fr": "L'entrée à la pinacothèque permanente est gratuite ; les expositions temporaires ont leurs propres tarifs.",
+     "de": "Der Eintritt in die ständige Pinakothek ist frei; für Wechselausstellungen gelten eigene Tarife.",
+     "es": "La pinacoteca permanente tiene entrada gratuita; las exposiciones temporales tienen tarifas propias."
+    }
    },
    "sito": "https://www.palazzoroverella.com/",
    "wikipedia": {
@@ -394,6 +410,10 @@
       "es": "La construcción del Palazzo Roverella comenzó en 1474 por voluntad del cardenal Bartolomeo Roverella, que quería celebrar el prestigio de su familia. La muerte del comitente, en 1477, interrumpió las obras, y el proyecto original sufrió después modificaciones y transformaciones."
      }
     }
+   ],
+   "personaggio": [
+    "antonio-riccoboni",
+    "mario-cavaglieri"
    ]
   },
   {
@@ -458,7 +478,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Visite guidate: 5 € a persona negli orari indicati."
+    "nota": {
+     "it": "Visite guidate: 5 € a persona negli orari indicati.",
+     "en": "Guided tours: €5 per person at the times indicated.",
+     "fr": "Visites guidées : 5 € par personne aux horaires indiqués.",
+     "de": "Führungen: 5 € pro Person zu den angegebenen Zeiten.",
+     "es": "Visitas guiadas: 5 € por persona en los horarios indicados."
+    }
    },
    "sito": "https://palazzoroncale.com/",
    "wikipedia": {
@@ -542,7 +568,11 @@
     }
    ],
    "nota": {
-    "it": "Festivi con gli orari del sabato e della domenica. Chiuso il 25 dicembre."
+    "it": "Festivi con gli orari del sabato e della domenica. Chiuso il 25 dicembre.",
+    "en": "Holidays follow the Saturday and Sunday hours. Closed on 25 December.",
+    "fr": "Les jours fériés suivent les horaires du samedi et du dimanche. Fermé le 25 décembre.",
+    "de": "An Feiertagen gelten die Öffnungszeiten von Samstag und Sonntag. Am 25. Dezember geschlossen.",
+    "es": "Los festivos siguen el horario del sábado y el domingo. Cerrado el 25 de diciembre."
    }
   },
   {
@@ -630,7 +660,13 @@
    "biglietto": {
     "intero": 3,
     "ridotto": 2,
-    "nota": "Gratuito per residenti a Rovigo e categorie indicate dal gestore."
+    "nota": {
+     "it": "Gratuito per residenti a Rovigo e categorie indicate dal gestore.",
+     "en": "Free for residents of Rovigo and for the categories indicated by the managers.",
+     "fr": "Gratuit pour les habitants de Rovigo et pour les catégories indiquées par le gestionnaire.",
+     "de": "Kostenlos für Einwohner von Rovigo und für die vom Betreiber genannten Kategorien.",
+     "es": "Gratuito para los residentes de Rovigo y para las categorías indicadas por el gestor."
+    }
    },
    "sito": "https://www.tempiolarotonda.it/",
    "wikipedia": {
@@ -697,6 +733,10 @@
       "es": "El templo de la Rotonda se construyó entre 1594 y 1603 según un proyecto de Francesco Zamberlan. En origen la iglesia estaba cubierta por una cúpula de madera, que se derribó en 1606 y se sustituyó por una cubierta a dos aguas. El campanario también tiene una historia particular: fue proyectado por Baldassare Longhena en 1655, pero se terminó solo en el siglo XIX."
      }
     }
+   ],
+   "personaggio": [
+    "cristina-roccati",
+    "antonio-riccoboni"
    ]
   },
   {
@@ -817,7 +857,13 @@
     "es": "Teatro histórico de traza neoclásica, proyectado en el siglo XIX e inaugurado en 1819. Tras un incendio fue reconstruido y reabierto en 1904. Está ligado a la tradición lírica de la ciudad y acoge una temporada de espectáculos e iniciativas culturales."
    },
    "biglietto": {
-    "nota": "Tariffe delle visite guidate su richiesta al teatro. Spettacoli con biglietteria e tariffe proprie."
+    "nota": {
+     "it": "Tariffe delle visite guidate su richiesta al teatro. Spettacoli con biglietteria e tariffe proprie.",
+     "en": "Guided tour rates on request at the theatre. Performances have their own box office and rates.",
+     "fr": "Tarifs des visites guidées sur demande auprès du théâtre. Les spectacles ont leur propre billetterie et leurs propres tarifs.",
+     "de": "Preise für Führungen auf Anfrage beim Theater. Vorstellungen haben eigene Kasse und eigene Tarife.",
+     "es": "Tarifas de las visitas guiadas bajo petición en el teatro. Los espectáculos tienen taquilla y tarifas propias."
+    }
    },
    "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
    "nota": {
@@ -963,7 +1009,13 @@
    "biglietto": {
     "intero": 5,
     "ridotto": 2,
-    "nota": "Gratuità per alcune categorie e bambini sotto i 6 anni."
+    "nota": {
+     "it": "Gratuità per alcune categorie e bambini sotto i 6 anni.",
+     "en": "Free entry for some categories and for children under 6.",
+     "fr": "Gratuité pour certaines catégories et pour les enfants de moins de 6 ans.",
+     "de": "Freier Eintritt für bestimmte Kategorien und für Kinder unter 6 Jahren.",
+     "es": "Entrada gratuita para algunas categorías y para niños menores de 6 años."
+    }
    },
    "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi",
    "immagine": {
@@ -1280,11 +1332,21 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso ai servizi bibliotecari gratuito; mostre e visite possono avere tariffe specifiche."
+    "nota": {
+     "it": "Accesso ai servizi bibliotecari gratuito; mostre e visite possono avere tariffe specifiche.",
+     "en": "Access to library services is free; exhibitions and visits may have specific rates.",
+     "fr": "L'accès aux services de la bibliothèque est gratuit ; les expositions et les visites peuvent avoir des tarifs spécifiques.",
+     "de": "Der Zugang zu den Bibliotheksdiensten ist kostenlos; Ausstellungen und Führungen können eigene Tarife haben.",
+     "es": "El acceso a los servicios bibliotecarios es gratuito; las exposiciones y visitas pueden tener tarifas específicas."
+    }
    },
    "sito": "https://www.concordi.it/",
    "nota": {
-    "it": "Distinguere gli orari della biblioteca da quelli di eventuali spazi espositivi."
+    "it": "Distinguere gli orari della biblioteca da quelli di eventuali spazi espositivi.",
+    "en": "Distinguish the library's hours from those of any exhibition spaces.",
+    "fr": "Distinguer les horaires de la bibliothèque de ceux des éventuels espaces d'exposition.",
+    "de": "Die Öffnungszeiten der Bibliothek von denen möglicher Ausstellungsräume unterscheiden.",
+    "es": "Distinguir el horario de la biblioteca del de los posibles espacios expositivos."
    },
    "immagine": {
     "autore": "Atigra",
@@ -1343,7 +1405,9 @@
    ],
    "personaggio": [
     "giovanni-miani",
-    "gino-piva"
+    "gino-piva",
+    "cristina-roccati",
+    "celio-rodigino"
    ]
   },
   {
@@ -1489,7 +1553,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "La visita esterna è gratuita; eventi e mostre possono prevedere biglietto."
+    "nota": {
+     "it": "La visita esterna è gratuita; eventi e mostre possono prevedere biglietto.",
+     "en": "The external visit is free; events and exhibitions may require a ticket.",
+     "fr": "La visite extérieure est gratuite ; les événements et expositions peuvent nécessiter un billet.",
+     "de": "Die Besichtigung von außen ist kostenlos; für Veranstaltungen und Ausstellungen kann ein Ticket erforderlich sein.",
+     "es": "La visita exterior es gratuita; los eventos y exposiciones pueden requerir entrada."
+    }
    },
    "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/i-luoghi-civici",
    "immagine": {
@@ -1652,7 +1722,11 @@
     "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
     "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
     "es": "Horarios no disponibles, consultar antes de planificar una visita"
-   }
+   },
+   "personaggio": [
+    "cristina-roccati",
+    "antonio-riccoboni"
+   ]
   },
   {
    "id": "chiesa-san-domenico",
@@ -1670,7 +1744,13 @@
    },
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso gratuito quando la chiesa è aperta; modalità e orari da concordare."
+    "nota": {
+     "it": "Accesso gratuito quando la chiesa è aperta; modalità e orari da concordare.",
+     "en": "Free access when the church is open; arrangements and times to be agreed.",
+     "fr": "Accès gratuit lorsque l'église est ouverte ; modalités et horaires à convenir.",
+     "de": "Freier Zugang, wenn die Kirche geöffnet ist; Modalitäten und Zeiten nach Absprache.",
+     "es": "Acceso gratuito cuando la iglesia está abierta; modalidades y horarios a concertar."
+    }
    },
    "sito": "https://www.diocesiadriarovigo.it/",
    "immagine": {
@@ -1860,7 +1940,13 @@
     "es": "Cementerio histórico de la comunidad judía de Rovigo, con unas 900 lápidas que documentan la presencia y la memoria de la comunidad en el territorio. Es un lugar de interés histórico y cultural y requiere especial respeto durante la visita."
    },
    "biglietto": {
-    "nota": "Tariffa non pubblicata; modalità di visita da concordare."
+    "nota": {
+     "it": "Tariffa non pubblicata; modalità di visita da concordare.",
+     "en": "Fee not published; visiting arrangements to be agreed.",
+     "fr": "Tarif non publié ; modalités de visite à convenir.",
+     "de": "Gebühr nicht veröffentlicht; Besuchsmodalitäten nach Absprache.",
+     "es": "Tarifa no publicada; modalidades de visita a concertar."
+    }
    },
    "sito": "https://fondoambiente.it/luoghi/cimitero-ebraico-rovigo",
    "immagine": {
@@ -2434,10 +2520,20 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Nessun biglietto per osservare l'esterno; eventuali mostre possono prevedere condizioni di accesso specifiche."
+    "nota": {
+     "it": "Nessun biglietto per osservare l'esterno; eventuali mostre possono prevedere condizioni di accesso specifiche.",
+     "en": "No ticket is needed to look at the exterior; any exhibitions may have specific access conditions.",
+     "fr": "Aucun billet n'est nécessaire pour observer l'extérieur ; les éventuelles expositions peuvent avoir des conditions d'accès spécifiques.",
+     "de": "Zum Betrachten der Außenfassade ist kein Ticket nötig; für Ausstellungen können besondere Zugangsbedingungen gelten.",
+     "es": "No se necesita entrada para ver el exterior; las posibles exposiciones pueden tener condiciones de acceso específicas."
+    }
    },
    "nota": {
-    "it": "Verificare il calendario delle mostre prima di una visita all'interno."
+    "it": "Verificare il calendario delle mostre prima di una visita all'interno.",
+    "en": "Check the exhibition calendar before visiting the interior.",
+    "fr": "Vérifier le calendrier des expositions avant une visite à l'intérieur.",
+    "de": "Vor einem Besuch im Innenraum den Ausstellungskalender prüfen.",
+    "es": "Verificar el calendario de exposiciones antes de visitar el interior."
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -2534,7 +2630,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Ingresso libero e gratuito."
+    "nota": {
+     "it": "Ingresso libero e gratuito.",
+     "en": "Free entry.",
+     "fr": "Entrée libre et gratuite.",
+     "de": "Freier und kostenloser Eintritt.",
+     "es": "Entrada libre y gratuita."
+    }
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -2585,7 +2687,13 @@
    },
    "biglietto": {
     "gratuito": true,
-    "nota": "Ingresso gratuito."
+    "nota": {
+     "it": "Ingresso gratuito.",
+     "en": "Free entry.",
+     "fr": "Entrée gratuite.",
+     "de": "Freier Eintritt.",
+     "es": "Entrada gratuita."
+    }
    },
    "nota": {
     "it": "Orari non disponibili, controllare prima di pianificare una visita",
@@ -2667,7 +2775,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Ingresso libero e gratuito."
+    "nota": {
+     "it": "Ingresso libero e gratuito.",
+     "en": "Free entry.",
+     "fr": "Entrée libre et gratuite.",
+     "de": "Freier und kostenloser Eintritt.",
+     "es": "Entrada libre y gratuita."
+    }
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -2787,7 +2901,13 @@
    },
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso gratuito negli orari di apertura."
+    "nota": {
+     "it": "Accesso gratuito negli orari di apertura.",
+     "en": "Free access during opening hours.",
+     "fr": "Accès gratuit pendant les horaires d'ouverture.",
+     "de": "Freier Zugang während der Öffnungszeiten.",
+     "es": "Acceso gratuito durante el horario de apertura."
+    }
    },
    "nota": {
     "it": "Orari non disponibili, controllare prima di pianificare una visita",
@@ -2930,7 +3050,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso gratuito."
+    "nota": {
+     "it": "Accesso gratuito.",
+     "en": "Free access.",
+     "fr": "Accès gratuit.",
+     "de": "Kostenloser Zugang.",
+     "es": "Acceso gratuito."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -3012,7 +3138,13 @@
    },
    "biglietto": {
     "gratuito": true,
-    "nota": "Gratuito; eventuali attività possono richiedere iscrizione o prenotazione."
+    "nota": {
+     "it": "Gratuito; eventuali attività possono richiedere iscrizione o prenotazione.",
+     "en": "Free; some activities may require registration or booking.",
+     "fr": "Gratuit ; certaines activités peuvent nécessiter une inscription ou une réservation.",
+     "de": "Kostenlos; einzelne Aktivitäten können eine Anmeldung oder Reservierung erfordern.",
+     "es": "Gratuito; algunas actividades pueden requerir inscripción o reserva."
+    }
    },
    "sito": "https://urbandigitalcenterrovigo.it/en/node/74",
    "nota": {
@@ -3044,7 +3176,8 @@
     "virgilio-milani",
     "giacomo-matteotti",
     "umberto-merlin",
-    "gino-piva"
+    "gino-piva",
+    "celio-rodigino"
    ],
    "fermate_vicine": [
     {
@@ -3128,10 +3261,20 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Accesso libero dall'esterno."
+    "nota": {
+     "it": "Accesso libero dall'esterno.",
+     "en": "Free access from the outside.",
+     "fr": "Accès libre depuis l'extérieur.",
+     "de": "Freier Zugang von außen.",
+     "es": "Acceso libre desde el exterior."
+    }
    },
    "nota": {
-    "it": "La lapide commemorativa è visibile dall'esterno."
+    "it": "La lapide commemorativa è visibile dall'esterno.",
+    "en": "The commemorative plaque is visible from the outside.",
+    "fr": "La plaque commémorative est visible depuis l'extérieur.",
+    "de": "Die Gedenktafel ist von außen sichtbar.",
+    "es": "La lápida conmemorativa es visible desde el exterior."
    },
    "immagine": {
     "autore": "Threecharlie",
@@ -3198,7 +3341,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Esterno gratuito."
+    "nota": {
+     "it": "Esterno gratuito.",
+     "en": "Exterior free of charge.",
+     "fr": "Extérieur gratuit.",
+     "de": "Außenbereich kostenlos.",
+     "es": "Exterior gratuito."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -3218,7 +3367,18 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [
     {
      "nome": "Via Carducci",
@@ -3250,7 +3410,12 @@
      ],
      "metri": 380
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "palazzo-venezze",
@@ -3269,10 +3434,20 @@
    },
    "biglietto": {
     "gratuito": true,
-    "nota": "Nessun biglietto per ammirare l'esterno; concerti ed eventi secondo programma."
+    "nota": {
+     "it": "Nessun biglietto per ammirare l'esterno; concerti ed eventi secondo programma.",
+     "en": "No ticket is needed to admire the exterior; concerts and events according to the programme.",
+     "fr": "Aucun billet n'est nécessaire pour admirer l'extérieur ; concerts et événements selon le programme.",
+     "de": "Zum Betrachten der Außenfassade ist kein Ticket nötig; Konzerte und Veranstaltungen laut Programm.",
+     "es": "No se necesita entrada para admirar el exterior; conciertos y eventos según la programación."
+    }
    },
    "nota": {
-    "it": "Sede del Conservatorio aperta lun–ven 8:00–19:00, sab 8:00–17:00. L’apertura della sede non equivale alla possibilità di visitare liberamente tutte le sale."
+    "it": "Sede del Conservatorio aperta lun–ven 8:00–19:00, sab 8:00–17:00. L’apertura della sede non equivale alla possibilità di visitare liberamente tutte le sale.",
+    "en": "Conservatory headquarters open Mon–Fri 8:00–19:00, Sat 8:00–17:00. The building being open does not mean all rooms can be visited freely.",
+    "fr": "Siège du conservatoire ouvert du lundi au vendredi de 8h à 19h, le samedi de 8h à 17h. L'ouverture du bâtiment ne signifie pas que toutes les salles peuvent être visitées librement.",
+    "de": "Sitz des Konservatoriums geöffnet Mo–Fr 8:00–19:00, Sa 8:00–17:00. Dass das Gebäude geöffnet ist, bedeutet nicht, dass alle Säle frei besichtigt werden können.",
+    "es": "Sede del Conservatorio abierta de lun. a vie. 8:00–19:00 y sáb. 8:00–17:00. Que la sede esté abierta no significa que se puedan visitar libremente todas las salas."
    },
    "lo_sapevi_che": [
     {
@@ -3292,7 +3467,18 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [
     {
      "nome": "Viale della Pace",
@@ -3311,7 +3497,12 @@
      ],
      "metri": 484
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Pivari",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=14695463"
+   }
   },
   {
    "id": "chiesa-san-bartolomeo-apostolo",
@@ -3348,7 +3539,23 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [],
    "nota": {
     "it": "Orari non disponibili, controllare prima di pianificare una visita",
@@ -3356,6 +3563,11 @@
     "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
     "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
     "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/"
    }
   },
   {
@@ -3398,7 +3610,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Gratuito per la visione esterna."
+    "nota": {
+     "it": "Gratuito per la visione esterna.",
+     "en": "Free to view from the outside.",
+     "fr": "Gratuit pour la visite extérieure.",
+     "de": "Die Außenansicht ist kostenlos.",
+     "es": "Gratuito para ver el exterior."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -3418,7 +3636,13 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Pivari",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [
     {
      "nome": "Via Carducci",
@@ -3437,7 +3661,12 @@
      ],
      "metri": 497
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Pivari",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=14686645"
+   }
   },
   {
    "id": "palazzo-vescovile-vescovado-vecchio",
@@ -3479,7 +3708,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Esterno gratuito."
+    "nota": {
+     "it": "Esterno gratuito.",
+     "en": "Exterior free of charge.",
+     "fr": "Extérieur gratuit.",
+     "de": "Außenbereich kostenlos.",
+     "es": "Exterior gratuito."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -3499,7 +3734,13 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Pivari",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [
     {
      "nome": "Via Carducci",
@@ -3531,7 +3772,12 @@
      ],
      "metri": 462
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Pivari",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "oratorio-beata-vergine-pompei",
@@ -3592,7 +3838,18 @@
      }
     }
    ],
-   "galleria": [],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
    "fermate_vicine": [
     {
      "nome": "Via Carducci",
@@ -3602,7 +3859,12 @@
      ],
      "metri": 291
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "mure-san-giuseppe",
@@ -3865,7 +4127,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Esterno gratuito. Interno: accesso non libero; eventuali visite da concordare con Confagricoltura Rovigo."
+    "nota": {
+     "it": "Esterno gratuito. Interno: accesso non libero; eventuali visite da concordare con Confagricoltura Rovigo.",
+     "en": "Exterior free of charge. Interior: access not free; any visits to be arranged with Confagricoltura Rovigo.",
+     "fr": "Extérieur gratuit. Intérieur : accès non libre ; visites éventuelles à convenir avec Confagricoltura Rovigo.",
+     "de": "Außenbereich kostenlos. Innenraum: Zugang nicht frei; eventuelle Besuche nach Absprache mit Confagricoltura Rovigo.",
+     "es": "Exterior gratuito. Interior: acceso no libre; posibles visitas a concertar con Confagricoltura Rovigo."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -3970,7 +4238,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Esterno: gratuito. Interno: eventuale ingresso secondo le modalità previste dall'organizzazione degli eventi. Non risulta un biglietto turistico ordinario."
+    "nota": {
+     "it": "Esterno: gratuito. Interno: eventuale ingresso secondo le modalità previste dall'organizzazione degli eventi. Non risulta un biglietto turistico ordinario.",
+     "en": "Exterior: free. Interior: any entry follows the arrangements set by the organisers of events. No ordinary tourist ticket is listed.",
+     "fr": "Extérieur : gratuit. Intérieur : l'éventuelle entrée suit les modalités prévues par l'organisation des événements. Aucun billet touristique ordinaire n'est prévu.",
+     "de": "Außenbereich: kostenlos. Innenraum: ein eventueller Eintritt richtet sich nach den Regeln der Veranstalter. Eine reguläre Touristenkarte ist nicht vorgesehen.",
+     "es": "Exterior: gratuito. Interior: una eventual entrada sigue las modalidades previstas por la organización de los eventos. No consta una entrada turística ordinaria."
+    }
    },
    "lo_sapevi_che": [
     {
@@ -4058,7 +4332,13 @@
    ],
    "biglietto": {
     "gratuito": true,
-    "nota": "Non previsto. Accesso gratuito."
+    "nota": {
+     "it": "Non previsto. Accesso gratuito.",
+     "en": "Not applicable. Free access.",
+     "fr": "Non prévu. Accès gratuit.",
+     "de": "Nicht vorgesehen. Kostenloser Zugang.",
+     "es": "No previsto. Acceso gratuito."
+    }
    },
    "lo_sapevi_che": [],
    "galleria": [
