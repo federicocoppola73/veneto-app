@@ -2812,6 +2812,22 @@
       "de": "Auf dem Friedhof steht das Grab von Virgilio Milani, 1968 geschaffen: Zwei Bronzefiguren, ein Mann und eine Frau, erheben sich auf einem hohen Sockel aus schwarzem Marmor. An den Seiten sind die Werkzeuge des Bildhauerhandwerks und jene seiner Frau dargestellt.",
       "es": "En el cementerio se encuentra la tumba de Virgilio Milani, realizada en 1968: dos figuras de bronce, un hombre y una mujer, se alzan sobre un alto basamento de mármol negro. En los laterales están representadas las herramientas del oficio del escultor y las de su esposa."
      }
+    },
+    {
+     "titolo": {
+      "it": "Un antico priorato",
+      "en": "An ancient priory",
+      "fr": "Un ancien prieuré",
+      "de": "Ein altes Priorat",
+      "es": "Un antiguo priorato"
+     },
+     "testo": {
+      "it": "All'interno del Cimitero monumentale si trova la Chiesa di Santa Maria dei Sabbioni, edificata verso la fine del Quattrocento sul luogo di un oratorio più antico. La presenza religiosa in quest'area è documentata già nel 1282, quando i monaci dell'Abbazia di Pomposa menzionavano un priorato dedicato a Santa Maria.",
+      "en": "Inside the Monumental Cemetery stands the Church of Santa Maria dei Sabbioni, built toward the end of the fifteenth century on the site of an older oratory. A religious presence in this area is documented as early as 1282, when the monks of the Abbey of Pomposa mentioned a priory dedicated to Santa Maria.",
+      "fr": "Dans le cimetière monumental se trouve l'église Santa Maria dei Sabbioni, édifiée vers la fin du XVe siècle à l'emplacement d'un oratoire plus ancien. La présence religieuse dans cette zone est attestée dès 1282, lorsque les moines de l'abbaye de Pomposa mentionnaient un prieuré dédié à Sainte Marie.",
+      "de": "Auf dem Gelände des Monumentalfriedhofs steht die Kirche Santa Maria dei Sabbioni, die gegen Ende des 15. Jahrhunderts an der Stelle eines älteren Oratoriums errichtet wurde. Eine religiöse Präsenz in diesem Gebiet ist bereits für 1282 belegt, als die Mönche der Abtei Pomposa ein der heiligen Maria geweihtes Priorat erwähnten.",
+      "es": "Dentro del Cementerio monumental se encuentra la iglesia de Santa Maria dei Sabbioni, construida hacia finales del siglo XV sobre el lugar de un oratorio más antiguo. La presencia religiosa en esta zona está documentada ya en 1282, cuando los monjes de la abadía de Pomposa mencionaban un priorato dedicado a Santa María."
+     }
     }
    ],
    "personaggio": [
@@ -2842,6 +2858,16 @@
     "fonte": "https://commons.wikimedia.org/"
    },
    "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY 3.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=7470262"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY 3.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=7470262"
+    },
     {
      "autore": "Threecharlie",
      "licenza": "CC BY-SA 4.0",
@@ -3620,11 +3646,6 @@
      "autore": "Threecharlie",
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/w/index.php?curid=123524544"
-    },
-    {
-     "autore": "Threecharlie",
-     "licenza": "CC BY-SA 4.0",
-     "fonte": "https://commons.wikimedia.org/w/index.php?curid=123524544"
     }
    ],
    "descrizione": {
@@ -3657,7 +3678,12 @@
       }
      }
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/w/index.php?curid=123524544"
+   }
   },
   {
    "id": "via-boscolo",
@@ -3673,13 +3699,7 @@
     "de": "Reste der Stadtmauer in der Via Luigi Boscolo.",
     "es": "Restos de las murallas de la ciudad en la Via Luigi Boscolo."
    },
-   "galleria": [
-    {
-     "autore": "Threecharlie",
-     "licenza": "CC BY-SA 4.0",
-     "fonte": "https://commons.wikimedia.org/"
-    }
-   ],
+   "galleria": [],
    "orari": [
     {
      "giorni": "lun-dom",
@@ -3703,7 +3723,12 @@
       }
      }
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "ponte-della-roda",
@@ -3712,13 +3737,7 @@
    "sestiere": "Centro storico",
    "latitudine": 45.06918,
    "longitudine": 11.79208,
-   "galleria": [
-    {
-     "autore": "Threecharlie",
-     "licenza": "CC BY-SA 4.0",
-     "fonte": "https://commons.wikimedia.org/"
-    }
-   ],
+   "galleria": [],
    "descrizione": {
     "it": "Altra porzione della cinta medievale.",
     "en": "Another section of the medieval city walls.",
@@ -3749,7 +3768,12 @@
       }
      }
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "mure-ospedale",
@@ -3866,11 +3890,6 @@
      "autore": "Threecharlie",
      "licenza": "CC BY-SA 3.0",
      "fonte": "https://commons.wikimedia.org/"
-    },
-    {
-     "autore": "Threecharlie",
-     "licenza": "CC BY-SA 3.0",
-     "fonte": "https://commons.wikimedia.org/"
     }
    ],
    "fermate_vicine": [
@@ -3904,7 +3923,12 @@
      ],
      "metri": 433
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
   },
   {
    "id": "palazzo-pretorio",
@@ -3976,11 +4000,6 @@
      "autore": "Threecharlie",
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/"
-    },
-    {
-     "autore": "Threecharlie",
-     "licenza": "CC BY-SA 4.0",
-     "fonte": "https://commons.wikimedia.org/"
     }
    ],
    "fermate_vicine": [
@@ -3992,7 +4011,101 @@
      ],
      "metri": 300
     }
-   ]
+   ],
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/"
+   }
+  },
+  {
+   "id": "monumento-giacomo-matteotti",
+   "nome": "Monumento a Giacomo Matteotti",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0707684,
+   "longitudine": 11.7876841,
+   "descrizione": {
+    "it": "Il monumento a Giacomo Matteotti è una scultura in bronzo realizzata dall'artista Augusto Murer e collocata nel 1978 nell'omonima piazza, davanti alle torri medievali del Castello di Rovigo. L'opera presenta una composizione dalle forme irregolari e drammatiche, nella quale le mani assumono un ruolo centrale, diventando simbolo della violenza, del sacrificio e della difesa della libertà. Un fascio di canne palustri sostiene la composizione, richiamando il paesaggio e l'identità del Polesine. Sul basamento in pietra sono incisi il nome di Matteotti e la frase: «Uccidete me ma l'idea che è in me non la ucciderete mai».",
+    "en": "The monument to Giacomo Matteotti is a bronze sculpture by the artist Augusto Murer, placed in 1978 in the square that bears his name, in front of the medieval towers of the Castello di Rovigo. The work has an irregular and dramatic composition in which the hands play a central role, becoming a symbol of violence, sacrifice and the defence of freedom. A bundle of marsh reeds supports the composition, recalling the landscape and identity of the Polesine. On the stone base are engraved Matteotti's name and the phrase: «Uccidete me ma l'idea che è in me non la ucciderete mai».",
+    "fr": "Le monument à Giacomo Matteotti est une sculpture en bronze réalisée par l'artiste Augusto Murer et installée en 1978 sur la place qui porte son nom, devant les tours médiévales du château de Rovigo. L'œuvre présente une composition aux formes irrégulières et dramatiques, où les mains jouent un rôle central et deviennent le symbole de la violence, du sacrifice et de la défense de la liberté. Un faisceau de roseaux des marais soutient la composition, évoquant le paysage et l'identité du Polesine. Sur le socle en pierre sont gravés le nom de Matteotti et la phrase : «Uccidete me ma l'idea che è in me non la ucciderete mai».",
+    "de": "Das Denkmal für Giacomo Matteotti ist eine Bronzeskulptur des Künstlers Augusto Murer, die 1978 auf dem gleichnamigen Platz vor den mittelalterlichen Türmen des Kastells von Rovigo aufgestellt wurde. Das Werk hat eine unregelmäßige, dramatische Komposition, in der die Hände eine zentrale Rolle spielen und zum Symbol für Gewalt, Opfer und die Verteidigung der Freiheit werden. Ein Bündel Sumpfschilf trägt die Komposition und erinnert an die Landschaft und Identität des Polesine. Auf dem Steinsockel sind Matteottis Name und der Satz eingraviert: «Uccidete me ma l'idea che è in me non la ucciderete mai».",
+    "es": "El monumento a Giacomo Matteotti es una escultura de bronce realizada por el artista Augusto Murer y colocada en 1978 en la plaza que lleva su nombre, frente a las torres medievales del Castillo de Rovigo. La obra presenta una composición de formas irregulares y dramáticas, en la que las manos adquieren un papel central y se convierten en símbolo de la violencia, el sacrificio y la defensa de la libertad. Un haz de cañas de marisma sostiene la composición, evocando el paisaje y la identidad del Polesine. En el pedestal de piedra están grabados el nombre de Matteotti y la frase: «Uccidete me ma l'idea che è in me non la ucciderete mai»."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile e visibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible and visible from the outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible et visible de l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "jederzeit zugänglich und von außen sichtbar"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible y visible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Non previsto. Accesso gratuito."
+   },
+   "lo_sapevi_che": [],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Threecharlie"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "AUT-RO-01",
+      "AUT-RO-02",
+      "AUT-RO-03",
+      "AUT-RO-04",
+      "AUT-RO-05",
+      "AUT-RO-06",
+      "AUT-RO-07",
+      "AUT-RO-08",
+      "AUT-RO-09",
+      "AUT-RO-10",
+      "AUT-RO-11",
+      "AUT-RO-12",
+      "AUT-RO-13",
+      "AUT-RO-15",
+      "AUT-RO-16",
+      "AUT-RO-17"
+     ],
+     "metri": 240
+    },
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "AUT-RO-03",
+      "AUT-RO-15"
+     ],
+     "metri": 463
+    }
+   ],
+   "personaggio": "giacomo-matteotti",
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/User:Threecharlie"
+   }
   }
  ]
 }

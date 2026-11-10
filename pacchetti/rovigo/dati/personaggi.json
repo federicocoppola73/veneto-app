@@ -329,7 +329,8 @@
     ]
    },
    "luoghi": [
-    "ex-liceo-celio"
+    "ex-liceo-celio",
+    "monumento-giacomo-matteotti"
    ],
    "luoghiNote": {
     "ex-liceo-celio": {
@@ -346,6 +347,22 @@
       "fr": "Il y effectua ses études secondaires et obtint son diplôme en 1903.",
       "de": "Hier absolvierte er seine höhere Schulbildung und legte 1903 sein Abitur ab.",
       "es": "Aquí cursó los estudios superiores y obtuvo el diploma en 1903."
+     }
+    },
+    "monumento-giacomo-matteotti": {
+     "tipo": {
+      "it": "Monumento",
+      "en": "Monument",
+      "fr": "Monument",
+      "de": "Denkmal",
+      "es": "Monumento"
+     },
+     "testo": {
+      "it": "Statua a lui dedicata nel 1978.",
+      "en": "Statue dedicated to him in 1978.",
+      "fr": "Statue qui lui est dédiée en 1978.",
+      "de": "Ihm 1978 gewidmete Statue.",
+      "es": "Estatua dedicada a él en 1978."
      }
     }
    },

@@ -1,5 +1,5 @@
 {
- "versione": "68ae44668bc2",
+ "versione": "488111dadb4f",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -254,21 +254,31 @@
   {
    "path": "assets/luoghi/cimitero-monumentale-rovigo_2.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_2.webp",
-   "sha256": "aa322a21849eaace4e211dadc9236980b496b66d035736160b6351dc49fbeabf"
+   "sha256": "95de273a78499d2edfd135c25165a717592a621e09d4f02f527e0356a3986815"
   },
   {
    "path": "assets/luoghi/cimitero-monumentale-rovigo_3.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_3.webp",
-   "sha256": "068dbc409ad112add52717a3bc11f35e008132092743ad28a1ba0d98ca739dda"
+   "sha256": "4ce99675ce6757110afdb36f4ed879882c37663e9db4f648d388ebf27df1601e"
   },
   {
    "path": "assets/luoghi/cimitero-monumentale-rovigo_4.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_4.webp",
-   "sha256": "7e8c7391d941e586668e51a7892e216d15caa112d7d9ce7901a83eb21ab46cde"
+   "sha256": "aa322a21849eaace4e211dadc9236980b496b66d035736160b6351dc49fbeabf"
   },
   {
    "path": "assets/luoghi/cimitero-monumentale-rovigo_5.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_5.webp",
+   "sha256": "068dbc409ad112add52717a3bc11f35e008132092743ad28a1ba0d98ca739dda"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_6.webp",
+   "sha256": "7e8c7391d941e586668e51a7892e216d15caa112d7d9ce7901a83eb21ab46cde"
+  },
+  {
+   "path": "assets/luoghi/cimitero-monumentale-rovigo_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/cimitero-monumentale-rovigo_7.webp",
    "sha256": "1fa0992f50f26988e470309fc1794ec54f1c2a5aa1130dddfe738b0a49c5aec5"
   },
   {
@@ -345,6 +355,16 @@
    "path": "assets/luoghi/loggia-dei-nodari_5.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/loggia-dei-nodari_5.webp",
    "sha256": "b377f07d230fc0b08c6baac2524bf621f7ed52117f55edb71e5522533f131c1d"
+  },
+  {
+   "path": "assets/luoghi/monumento-giacomo-matteotti.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/monumento-giacomo-matteotti.webp",
+   "sha256": "35f417539ab4d3931db410efcfe7e214e28c106282e37f53fc38881af7f9626e"
+  },
+  {
+   "path": "assets/luoghi/monumento-giacomo-matteotti_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/monumento-giacomo-matteotti_2.webp",
+   "sha256": "510825bb2a5b8c43db793798f9ee01cf9e9b6f59fc3fde0900c3d44ec8ef1a60"
   },
   {
    "path": "assets/luoghi/monumento-giovanni-miani.webp",
@@ -652,6 +672,11 @@
    "sha256": "63fb8a3b5a47732f66b7e66e5aa09a923f31e2408237dbe316c63c8bf81ad41c"
   },
   {
+   "path": "assets/luoghi/ponte-della-roda.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/ponte-della-roda.webp",
+   "sha256": "61af5f691586923dd050238f5364ef71aef5e275a638b3c5a6b93a410d479315"
+  },
+  {
    "path": "assets/luoghi/porta-san-bortolo.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/porta-san-bortolo.webp",
    "sha256": "1a85c91efca28d51c6786894ae6a3135ac4f01e2e3b5f56ddde9b3a7ad52129e"
@@ -810,11 +835,6 @@
    "path": "assets/luoghi/via-boscolo.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/via-boscolo.webp",
    "sha256": "8722006d73810dde4585d609cde15680618bf8df97c7b0153c46bddee387346d"
-  },
-  {
-   "path": "assets/luoghi/via-ponte-della-roda.webp",
-   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/via-ponte-della-roda.webp",
-   "sha256": "61af5f691586923dd050238f5364ef71aef5e275a638b3c5a6b93a410d479315"
   },
   {
    "path": "assets/mappa-rovigo.webp",
@@ -5414,7 +5434,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/immagini.json",
-   "sha256": "f8db7f1334eb793d1e01b3d6dc3e9ac9a9e5ec2ac2d5fc8268ea4ba9af35aa41"
+   "sha256": "a01c789d7df039f259814f5e2fc870eada67ab0584289d2da697d270b660f21f"
   },
   {
    "path": "dati/itinerari.json",
@@ -5424,7 +5444,7 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json",
-   "sha256": "2a80554f03182baa49cac9a5142b7e837371d2a3fc7ef132bd2dbf1c3fef5db1"
+   "sha256": "98af42eb6c157d04074d8d5ef1e730b2114306241b1273d73680d4001cdfe255"
   },
   {
    "path": "dati/mappa.json",
@@ -5444,7 +5464,7 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/personaggi.json",
-   "sha256": "30e20a0102ba9d5944c46921bbc1187d034a88690b0725361f21df8547d4fb90"
+   "sha256": "c287067b1728c7906aedc57c97d983fdf555cb2d9ec85ba2c86577b5b073c289"
   },
   {
    "path": "dati/principali.json",
