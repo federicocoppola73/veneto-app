@@ -250,7 +250,6 @@ function AppRadice() {
                   {installata ? t.installata : etichettaStato(t, item.stato)}
                 </Text>
               </View>
-              {aggiornabile ? <Text style={styles.aggiornamento}>{t.aggiornamento}</Text> : null}
 
               {impegnata ? (
                 progresso && progresso.id === item.id ? (
@@ -397,7 +396,6 @@ const styles = StyleSheet.create({
   bottoneScarica: { backgroundColor: VERDE },
   testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500' },
   rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
-  aggiornamento: { color: '#b45309', fontWeight: '700', marginTop: 6 },
   testoRimuovi: { color: GRIGIO, fontSize: 16 },
   nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
   attesa: { marginTop: 16 },
