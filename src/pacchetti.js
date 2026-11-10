@@ -7,7 +7,7 @@ import { cittaPerId } from './catalogo';
 const RADICE = FileSystem.documentDirectory + 'citta/';
 const FILE_STATO = RADICE + 'stato.json';
 
-const statoVuoto = () => ({ attiva: null, installate: [] });
+const statoVuoto = () => ({ attiva: null, installate: [], versioni: {} });
 
 export async function leggiStato() {
   try {
@@ -47,8 +47,10 @@ export async function installa(id, onProgresso) {
   }
   const stato = await leggiStato();
   return salvaStato({
+    ...stato,
     attiva: stato.attiva || id,
     installate: [...new Set([...stato.installate, id])],
+    versioni: { ...stato.versioni, [id]: elenco.versione },
   });
 }
 
@@ -57,9 +59,13 @@ export async function rimuovi(id) {
   await FileSystem.deleteAsync(RADICE + id + '/', { idempotent: true });
   const stato = await leggiStato();
   const installate = stato.installate.filter((x) => x !== id);
+  const versioni = { ...stato.versioni };
+  delete versioni[id];
   return salvaStato({
+    ...stato,
     attiva: stato.attiva === id ? installate[0] || null : stato.attiva,
     installate,
+    versioni,
   });
 }
 
@@ -104,4 +110,23 @@ export async function datiTessere(id) {
   } catch {
     return null;
   }
+}
+
+// Confronta la versione installata di ogni città con quella pubblicata sul server.
+// Restituisce gli id delle città da aggiornare. Senza connessione, o con un errore, la città viene saltata.
+export async function controllaAggiornamenti(stato) {
+  const daAggiornare = [];
+  await Promise.all(
+    stato.installate.map(async (id) => {
+      try {
+        const citta = cittaPerId(id);
+        if (!citta?.pacchetto) return;
+        const elenco = await (await fetch(citta.pacchetto)).json();
+        if (elenco.versione && elenco.versione !== stato.versioni?.[id]) daAggiornare.push(id);
+      } catch {
+        // niente connessione o pacchetto non leggibile: nessun avviso
+      }
+    })
+  );
+  return daAggiornare;
 }

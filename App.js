@@ -6,7 +6,7 @@ import { getLocales } from 'expo-localization';
 import { useFonts } from 'expo-font';
 import { Marcellus_400Regular } from '@expo-google-fonts/marcellus';
 import { CITTA, cittaPerId } from './src/catalogo';
-import { datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
+import { controllaAggiornamenti, datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { etichettaStato, LINGUE, testi } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
@@ -68,6 +68,7 @@ export default function App() {
 function AppRadice() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [] });
+  const [daAggiornare, setDaAggiornare] = useState([]); // città installate con una versione più recente sul server
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
   const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
   const [scaricando, setScaricando] = useState(false); // avviso "non chiudere l'app" durante il download
@@ -79,7 +80,10 @@ function AppRadice() {
   const t = testi(lingua);
 
   useEffect(() => {
-    leggiStato().then(setStato);
+    leggiStato().then((s) => {
+      setStato(s);
+      controllaAggiornamenti(s).then(setDaAggiornare).catch(() => {});
+    });
     AsyncStorage.getItem(CHIAVE_LINGUA)
       .then((salvata) => {
         if (salvata && LINGUE.includes(salvata)) setLingua(salvata);
@@ -142,7 +146,9 @@ function AppRadice() {
     setProgresso(null);
     setScaricando(azione === installa);
     try {
-      setStato(await azione(id, (fatti, totale) => setProgresso({ id, fatti, totale })));
+      const nuovo = await azione(id, (fatti, totale) => setProgresso({ id, fatti, totale }));
+      setStato(nuovo);
+      if (azione === installa) setDaAggiornare((d) => d.filter((x) => x !== id));
     } catch (e) {
       Alert.alert(t.errore, e.message || t.riprova);
     } finally {
@@ -230,6 +236,7 @@ function AppRadice() {
         }
         renderItem={({ item }) => {
           const installata = stato.installate.includes(item.id);
+          const aggiornabile = installata && daAggiornare.includes(item.id);
           const impegnata = occupata === item.id;
           return (
             <View style={styles.card}>
@@ -243,6 +250,7 @@ function AppRadice() {
                   {installata ? t.installata : etichettaStato(t, item.stato)}
                 </Text>
               </View>
+              {aggiornabile ? <Text style={styles.aggiornamento}>{t.aggiornamento}</Text> : null}
 
               {impegnata ? (
                 progresso && progresso.id === item.id ? (
@@ -252,6 +260,11 @@ function AppRadice() {
                 )
               ) : installata ? (
                 <>
+                  {aggiornabile ? (
+                    <Pressable style={[styles.bottone, styles.bottoneScarica]} onPress={() => esegui(item.id, installa)}>
+                      <Text style={styles.testoScarica}>↻ {t.aggiornaCitta}</Text>
+                    </Pressable>
+                  ) : null}
                   <Pressable style={[styles.bottone, styles.bottoneApri]} onPress={() => setCittaAperta(item.id)}>
                     <Text style={styles.testoApri}>{t.apriCitta} ↗</Text>
                   </Pressable>
@@ -384,6 +397,7 @@ const styles = StyleSheet.create({
   bottoneScarica: { backgroundColor: VERDE },
   testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500' },
   rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
+  aggiornamento: { color: '#b45309', fontWeight: '700', marginTop: 6 },
   testoRimuovi: { color: GRIGIO, fontSize: 16 },
   nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
   attesa: { marginTop: 16 },

@@ -8,6 +8,7 @@ Scrive dentro la cartella del pacchetto:
   non ha più elenchi di file scritti a mano;
 - manifest.json: l'elenco di tutti i file del pacchetto con l'URL pubblico su GitHub.
 """
+import hashlib
 import json
 import os
 import re
@@ -54,9 +55,13 @@ def manifest(cartella, nome_pacchetto):
             percorso = os.path.relpath(os.path.join(radice, f), cartella).replace(os.sep, '/')
             if percorso == 'manifest.json':
                 continue
-            voci.append({'path': percorso, 'url': RADICE_GITHUB + 'pacchetti/' + nome_pacchetto + '/' + percorso})
+            with open(os.path.join(radice, f), 'rb') as h:
+                impronta = hashlib.sha256(h.read()).hexdigest()
+            voci.append({'path': percorso, 'url': RADICE_GITHUB + 'pacchetti/' + nome_pacchetto + '/' + percorso, 'sha256': impronta})
     voci.sort(key=lambda v: v['path'])
-    return {'file': voci}
+    # versione del pacchetto: cambia se cambia anche un solo file (e quindi va riscaricato)
+    versione = hashlib.sha256(''.join(v['path'] + v['sha256'] for v in voci).encode()).hexdigest()[:12]
+    return {'versione': versione, 'file': voci}
 
 
 def main():
