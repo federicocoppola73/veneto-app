@@ -1,5 +1,5 @@
 {
- "versione": "bef46bb9b6c6",
+ "versione": "4d5fdaeaad4f",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -440,6 +440,16 @@
    "path": "assets/luoghi/palazzo-gran-guardia_4.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-gran-guardia_4.webp",
    "sha256": "3f84fb59cf9e3198130d53bca4d97c5d50fd50442038dc64865f6a7cfd8bdfbb"
+  },
+  {
+   "path": "assets/luoghi/palazzo-manfredini.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-manfredini.webp",
+   "sha256": "507d9bbebd9662e73e4b0de88af1479f51026d3069690e47df0bea9812d094d4"
+  },
+  {
+   "path": "assets/luoghi/palazzo-manfredini_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-manfredini_2.webp",
+   "sha256": "7eac79d55f6e6ae4bb8ad10fecc44bb7fdfb4fe5f941a07dd2edce99ee408dcb"
   },
   {
    "path": "assets/luoghi/palazzo-roncale.webp",
@@ -5389,7 +5399,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/immagini.json",
-   "sha256": "d418e6b07641c41ef0efe2360ae7f695c56a5d42ac14067e56f3834e68a149a6"
+   "sha256": "101c1e5637d59e4ca9614a45f2815d843f6d0e515ffacb6ef296ae7efc742d7f"
   },
   {
    "path": "dati/itinerari.json",
@@ -5399,7 +5409,7 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json",
-   "sha256": "868540cbdf5e1f5acc60dfb40785d0feaa122b3b8c54ce83c29e11d1897ab9cb"
+   "sha256": "258e9d5f4eb19904af596aff0cd63bffb84ff845048d4f2d6da80cdfb9546d54"
   },
   {
    "path": "dati/mappa.json",

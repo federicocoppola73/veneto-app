@@ -3800,6 +3800,111 @@
    "longitudine": 11.7873,
    "punto_di_passaggio": true,
    "galleria": []
+  },
+  {
+   "id": "palazzo-manfredini",
+   "nome": "Palazzo Manfredini",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.069786,
+   "longitudine": 11.788578,
+   "descrizione": {
+    "it": "Palazzo Manfredini sorge in Piazza Duomo, proprio di fronte alla Concattedrale di Santo Stefano. È un edificio storico le cui origini risalgono al periodo estense e la cui vicenda è legata ad alcune delle più importanti famiglie nobiliari rodigine, tra cui i Rossi, i Roncale e i Manfredini. Nel corso di oltre cinque secoli ha attraversato diverse fasi della storia cittadina: durante la dominazione francese e quella austro-ungarica ebbe anche funzioni legate alla presenza militare. Nel 1890 ospitò l'archivio notarile e, dopo la Prima guerra mondiale, divenne Casa del Popolo, accogliendo diverse organizzazioni cattoliche. Nel 1926 fu acquistato dal Sindacato Fascista degli Agricoltori e, nel secondo dopoguerra, passò all'Associazione Agricoltori della Provincia di Rovigo. Oggi è sede di Confagricoltura Rovigo. La sua storia testimonia le trasformazioni sociali, politiche e istituzionali della città.",
+    "en": "Palazzo Manfredini stands in Piazza Duomo, right opposite the Concattedrale di Santo Stefano. It is a historic building whose origins date back to the Estense period, and whose history is tied to some of the most important noble families of Rovigo, among them the Rossi, the Roncale and the Manfredini. Over more than five centuries it went through several phases of the city's history: under French and Austro-Hungarian rule it also had functions linked to the military presence. In 1890 it housed the notarial archive and, after the First World War, it became the Casa del Popolo, hosting various Catholic organisations. In 1926 it was bought by the Fascist Agricultural Syndicate, and after the Second World War it passed to the Association of Farmers of the Province of Rovigo. Today it is the seat of Confagricoltura Rovigo. Its history reflects the social, political and institutional changes of the city.",
+    "fr": "Le palais Manfredini se dresse sur la Piazza Duomo, juste en face de la Concattedrale di Santo Stefano. C'est un édifice historique dont les origines remontent à la période des Este, et dont l'histoire est liée à certaines des plus importantes familles nobles de Rovigo, dont les Rossi, les Roncale et les Manfredini. Pendant plus de cinq siècles, il a traversé plusieurs étapes de l'histoire de la ville : sous la domination française et austro-hongroise, il eut aussi des fonctions liées à la présence militaire. En 1890 il abrita les archives notariales et, après la Première Guerre mondiale, il devint la Casa del Popolo, accueillant diverses organisations catholiques. En 1926, il fut acheté par le Syndicat fasciste des agriculteurs et, après la Seconde Guerre mondiale, il passa à l'Association des agriculteurs de la province de Rovigo. Aujourd'hui, il abrite le siège de Confagricoltura Rovigo. Son histoire témoigne des transformations sociales, politiques et institutionnelles de la ville.",
+    "de": "Der Palazzo Manfredini steht an der Piazza Duomo, direkt gegenüber der Concattedrale di Santo Stefano. Das historische Gebäude geht auf die Zeit der Este zurück; seine Geschichte ist mit einigen der bedeutendsten Adelsfamilien Rovigos verbunden, darunter den Rossi, den Roncale und den Manfredini. Über mehr als fünf Jahrhunderte hat es verschiedene Phasen der Stadtgeschichte durchlaufen: Während der französischen und österreichisch-ungarischen Herrschaft hatte es auch Funktionen im Zusammenhang mit der Militärpräsenz. 1890 beherbergte es das Notariatsarchiv, und nach dem Ersten Weltkrieg wurde es Casa del Popolo, in dem verschiedene katholische Organisationen untergebracht waren. 1926 wurde es vom faschistischen Landwirtschaftssyndikat erworben, und nach dem Zweiten Weltkrieg ging es an den Verband der Landwirte der Provinz Rovigo über. Heute ist es Sitz von Confagricoltura Rovigo. Seine Geschichte spiegelt die sozialen, politischen und institutionellen Veränderungen der Stadt wider.",
+    "es": "El Palazzo Manfredini se encuentra en la Piazza Duomo, justo frente a la Concattedrale di Santo Stefano. Es un edificio histórico cuyos orígenes se remontan al periodo de los Este, y cuya historia está ligada a algunas de las familias nobles más importantes de Rovigo, entre ellas los Rossi, los Roncale y los Manfredini. A lo largo de más de cinco siglos atravesó distintas etapas de la historia de la ciudad: durante la dominación francesa y austrohúngara tuvo también funciones vinculadas a la presencia militar. En 1890 acogió el archivo notarial y, tras la Primera Guerra Mundial, se convirtió en la Casa del Popolo, donde se instalaron diversas organizaciones católicas. En 1926 lo compró el Sindicato Fascista de Agricultores y, después de la Segunda Guerra Mundial, pasó a la Asociación de Agricultores de la Provincia de Rovigo. Hoy es sede de Confagricoltura Rovigo. Su historia refleja las transformaciones sociales, políticas e institucionales de la ciudad."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile dalla piazza; interno: nessun orario di visita, accesso da verificare",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "exterior always visible from the square; interior: no visiting hours, access to be checked"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "extérieur toujours visible depuis la place ; intérieur : aucun horaire de visite, accès à vérifier"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "Außenansicht von der Piazza jederzeit sichtbar; Innenraum: keine Besuchszeiten, Zugang bitte prüfen"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "exterior siempre visible desde la plaza; interior: sin horario de visita, acceso por verificar"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Esterno gratuito. Interno: accesso non libero; eventuali visite da concordare con Confagricoltura Rovigo."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Scampato alla demolizione",
+      "en": "Saved from demolition",
+      "fr": "Sauvé de la démolition",
+      "de": "Vor dem Abriss bewahrt",
+      "es": "Salvado de la demolición"
+     },
+     "testo": {
+      "it": "Nel corso del Novecento il palazzo rischiò di essere demolito nell'ambito di alcuni progetti di trasformazione urbana. L'edificio è stato invece conservato e restaurato, con un importante intervento sulla facciata nell'estate del 2011.",
+      "en": "During the twentieth century the palace risked being demolished as part of some urban transformation projects. The building was instead preserved and restored, with a major intervention on the façade in the summer of 2011.",
+      "fr": "Au cours du XXe siècle, le palais a failli être démoli dans le cadre de certains projets de transformation urbaine. Le bâtiment a finalement été conservé et restauré, avec une intervention importante sur la façade à l'été 2011.",
+      "de": "Im Laufe des 20. Jahrhunderts drohte der Palast im Rahmen einiger städtebaulicher Umbauprojekte abgerissen zu werden. Das Gebäude wurde jedoch erhalten und restauriert, mit einem umfangreichen Eingriff an der Fassade im Sommer 2011.",
+      "es": "Durante el siglo XX el palacio corrió el riesgo de ser demolido en el marco de algunos proyectos de transformación urbana. Sin embargo, el edificio se conservó y se restauró, con una intervención importante en la fachada en el verano de 2011."
+     }
+    }
+   ],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "AUT-RO-03",
+      "AUT-RO-15"
+     ],
+     "metri": 410
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "AUT-RO-01",
+      "AUT-RO-02",
+      "AUT-RO-03",
+      "AUT-RO-04",
+      "AUT-RO-05",
+      "AUT-RO-06",
+      "AUT-RO-07",
+      "AUT-RO-08",
+      "AUT-RO-09",
+      "AUT-RO-10",
+      "AUT-RO-11",
+      "AUT-RO-12",
+      "AUT-RO-13",
+      "AUT-RO-15",
+      "AUT-RO-16",
+      "AUT-RO-17"
+     ],
+     "metri": 433
+    }
+   ]
   }
  ]
 }
