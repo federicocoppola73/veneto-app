@@ -1,5 +1,5 @@
 {
- "versione": "b219b17d5f23",
+ "versione": "ffe336b8a174",
  "file": [
   {
    "path": "assets/aguzza/aguzza-campanile-angelo.webp",
@@ -30,6 +30,81 @@
    "path": "assets/aguzza/aguzza-santo-stefano-orologio.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/aguzza/aguzza-santo-stefano-orologio.webp",
    "sha256": "2dab7719acbdc5e99c2859337ce9001da0b88513835873ec0e677c56de81a6f3"
+  },
+  {
+   "path": "assets/cibi/carfogn.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/carfogn.webp",
+   "sha256": "31b0fef5eace1b0302862a5725723790d0ede5adaa3039d8e48afd7768ba041f"
+  },
+  {
+   "path": "assets/cibi/casunziei.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/casunziei.webp",
+   "sha256": "7afacfdd05c8ec4f3546cd6df686cf379d44dc119426c141cca0b428245b27a3"
+  },
+  {
+   "path": "assets/cibi/fagiolo-di-lamon-igp.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/fagiolo-di-lamon-igp.webp",
+   "sha256": "fe69ce959355c4b859adfad6dc9ca65f95c261b18c3bf39c0b0c77b5962ff74b"
+  },
+  {
+   "path": "assets/cibi/figadet.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/figadet.webp",
+   "sha256": "6ec64e7cc17b1775550ed9c8c7d78eecc8cea20b8693206935a29fed23646e65"
+  },
+  {
+   "path": "assets/cibi/gnocchi-di-zucca.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/gnocchi-di-zucca.webp",
+   "sha256": "42380dcce67fda3d7fe1c5bd9541a84d317b79ac81a897520492798fbfe2dc6e"
+  },
+  {
+   "path": "assets/cibi/kodinzon.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/kodinzon.webp",
+   "sha256": "a9fc25734c47ed9be26bafefbd497161d8c7c780270d15db7033dccd72f64fd0"
+  },
+  {
+   "path": "assets/cibi/mais-sponcio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/mais-sponcio.webp",
+   "sha256": "5218c0ebe2b77f467113d617a344307e7f3dde8f79753944e5d1178cd4adb8a4"
+  },
+  {
+   "path": "assets/cibi/orzotto.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/orzotto.webp",
+   "sha256": "eafe2f135abefab135c03c78ecef7234c35f11ef26576b1ae8a97e93f0b3da85"
+  },
+  {
+   "path": "assets/cibi/pan-de-belun.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/pan-de-belun.webp",
+   "sha256": "940ae50d3979495d528b4d93feb5369885afb415a669e70827baec29ca119fd7"
+  },
+  {
+   "path": "assets/cibi/pastin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/pastin.webp",
+   "sha256": "913befd04c751d1175c028888370acfdf70c420f2df37825b2206865629f1163"
+  },
+  {
+   "path": "assets/cibi/pendolon-di-lamon.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/pendolon-di-lamon.webp",
+   "sha256": "74f6fbd92ad5c6909c67433f2c37544f08ca224aff5ae54b63ceb5e0426d2f1a"
+  },
+  {
+   "path": "assets/cibi/polenta-con-funghi-e-formaggi-di-malga.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/polenta-con-funghi-e-formaggi-di-malga.webp",
+   "sha256": "d799ba0ce04f48ff07c263ab4a0bae1023d811a8d09a639ab108c8728daede42"
+  },
+  {
+   "path": "assets/cibi/schiz.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/schiz.webp",
+   "sha256": "a2147cbf597edd7c983584adc01d2598f6f2119dcec5f48d3bd16429a391d7d2"
+  },
+  {
+   "path": "assets/cibi/selvaggina-in-salmi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/selvaggina-in-salmi.webp",
+   "sha256": "3d10754f095dca033505d7da372fdb032de72527cf17e63bce69b6aa6cb2ba79"
+  },
+  {
+   "path": "assets/cibi/tortei-di-patate.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/assets/cibi/tortei-di-patate.webp",
+   "sha256": "6133b2152e11ae2d3d8bb48b0688aa0278bedca0cd98f718f17e0ae916df7fbf"
   },
   {
    "path": "assets/luoghi/battistero-del-duomo.webp",
@@ -6089,7 +6164,7 @@
   {
    "path": "dati/cibi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/cibi.json",
-   "sha256": "36ce1a3a81e0c9b9a008135d967e37b325c2cccf35d666092896449e0509b9dc"
+   "sha256": "980af92ad5705d5ddd3604022a84091e59e463caa4431f89d4900f8096a63182"
   },
   {
    "path": "dati/citta.json",
@@ -6109,7 +6184,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/immagini.json",
-   "sha256": "a1fa46383a333243f757e9013565fdff33b7559c8f26ba22c1a36f2fbee33cde"
+   "sha256": "699d3464ad692a69462339e107ff7efb77e8e8c2e25834e476225cb10a5502d8"
   },
   {
    "path": "dati/itinerari.json",
