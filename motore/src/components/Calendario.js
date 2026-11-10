@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Linking, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { testoLocalizzato } from '../i18n';
@@ -25,7 +25,7 @@ const formatta = (iso) => {
  * Toccando un giorno si vedono i suoi eventi, con "Vedi sulla mappa" se il luogo è tra quelli dell'app.
  * props: dati (eventi.json), lingua, t, onVediMappa(idLuogo)
  */
-export default function Calendario({ dati, lingua, t, onVediMappa }) {
+export default function Calendario({ dati, lingua, t, onVediMappa, filtroLuogo = null, onChiudi }) {
   const insets = useSafeAreaInsets();
   const [aperto, setAperto] = useState(false);
   const oggi = oggiChiave();
@@ -34,9 +34,15 @@ export default function Calendario({ dati, lingua, t, onVediMappa }) {
     return { a: d.getFullYear(), m: d.getMonth() };
   });
   const [scelto, setScelto] = useState(oggi);
+  // luogo su cui è filtrato il calendario (null = tutti gli eventi)
+  const [filtro, setFiltro] = useState(null);
+  // luogo da cui si è aperto il calendario (la sua scheda si riapre alla chiusura); null se si è aperto dal pulsante 📅
+  const [origine, setOrigine] = useState(null);
 
   const contributo = useMemo(() => new Set(dati?.contributo || []), [dati]);
-  const eventi = dati?.eventi || [];
+  const eventiTutti = dati?.eventi || [];
+  // il contributo d'accesso (giorni in rosso) non dipende dal luogo: resta visibile anche col filtro
+  const eventi = filtro ? eventiTutti.filter((e) => e.luogoId === filtro.id) : eventiTutti;
   const eventiDel = (k) => eventi.filter((e) => e.inizio <= k && k <= e.fine);
 
   const nomiMesi = t('mesi').split(',');
@@ -59,12 +65,38 @@ export default function Calendario({ dati, lingua, t, onVediMappa }) {
       return { a: x.getFullYear(), m: x.getMonth() };
     });
 
-  const apri = () => {
-    const d = new Date();
-    setMese({ a: d.getFullYear(), m: d.getMonth() });
-    setScelto(oggiChiave());
+  // apre il calendario; con un luogo lo mostra filtrato, sul primo giorno utile di quel luogo
+  const apriCon = (luogo, daLuogo = null) => {
+    setOrigine(daLuogo);
+    const oggiK = oggiChiave();
+    let giorno = oggiK;
+    if (luogo) {
+      const suoi = eventiTutti.filter((e) => e.luogoId === luogo.id).sort((a, b) => a.inizio.localeCompare(b.inizio));
+      const prossimo = suoi.find((e) => e.fine >= oggiK) || suoi[suoi.length - 1];
+      if (prossimo) {
+        if (prossimo.inizio > oggiK) giorno = prossimo.inizio; // evento futuro: il suo primo giorno
+        else if (prossimo.fine >= oggiK) giorno = oggiK; // evento in corso: oggi
+        else giorno = prossimo.inizio; // solo eventi passati: l'ultimo
+      }
+    }
+    const [a, m] = giorno.split('-').map(Number);
+    setFiltro(luogo ? { id: luogo.id, nome: luogo.nome } : null);
+    setMese({ a, m: m - 1 });
+    setScelto(giorno);
     setAperto(true);
   };
+
+  // chiusura con la X o il tasto indietro: se si era partiti da un luogo, si torna alla sua scheda
+  // (non si torna indietro con "Vedi sulla mappa", che porta già il luogo sulla mappa)
+  const chiudi = () => {
+    setAperto(false);
+    onChiudi?.(origine);
+  };
+
+  // dalla scheda di un luogo il calendario si apre già filtrato su di lui (filtroLuogo.n cambia a ogni apertura)
+  useEffect(() => {
+    if (filtroLuogo) apriCon({ id: filtroLuogo.id, nome: filtroLuogo.nome }, filtroLuogo.daLuogo);
+  }, [filtroLuogo?.n]);
 
   const [sa, sm, sg] = scelto.split('-').map(Number);
   const dataScelta = new Date(sa, sm - 1, sg);
@@ -74,7 +106,7 @@ export default function Calendario({ dati, lingua, t, onVediMappa }) {
   return (
     <>
       <Pressable
-        onPress={apri}
+        onPress={() => apriCon(null)}
         style={({ pressed }) => [styles.pulsante, pressed && { opacity: 0.8 }]}
         accessibilityRole="button"
         accessibilityLabel={t('calendario')}
@@ -83,14 +115,25 @@ export default function Calendario({ dati, lingua, t, onVediMappa }) {
         <Text style={styles.iconaPulsante}>📅</Text>
       </Pressable>
 
-      <Modal visible={aperto} animationType="slide" onRequestClose={() => setAperto(false)} statusBarTranslucent supportedOrientations={['portrait', 'landscape']}>
+      <Modal visible={aperto} animationType="slide" onRequestClose={chiudi} statusBarTranslucent supportedOrientations={['portrait', 'landscape']}>
         <View style={[styles.pagina, { paddingTop: (insets.top || (Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44)) + 8 }]}>
           <View style={styles.intestazione}>
             <Text style={styles.titolo}>📅 {t('calendario')}</Text>
-            <Pressable onPress={() => setAperto(false)} hitSlop={10} accessibilityLabel={t('chiudi')}>
+            <Pressable onPress={chiudi} hitSlop={10} accessibilityLabel={t('chiudi')}>
               <Text style={styles.chiudi}>{t('chiudi')}</Text>
             </Pressable>
           </View>
+
+          {filtro && (
+            <View style={styles.filtroAttivo}>
+              <Text style={styles.testoFiltroAttivo} numberOfLines={1}>
+                📍 {filtro.nome}
+              </Text>
+              <Pressable onPress={() => setFiltro(null)} hitSlop={10} accessibilityRole="button" accessibilityLabel={t('cal_tutti')}>
+                <Text style={styles.filtroTutti}>✕ {t('cal_tutti')}</Text>
+              </Pressable>
+            </View>
+          )}
 
           <ScrollView contentContainerStyle={{ paddingBottom: 24 + insets.bottom }}>
             {/* mese */}
@@ -222,6 +265,19 @@ const styles = StyleSheet.create({
   },
   iconaPulsante: { fontSize: 17 },
   pagina: { flex: 1, backgroundColor: '#fff', paddingHorizontal: 16 },
+  filtroAttivo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 10,
+    backgroundColor: '#e0eaf2',
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    marginBottom: 6,
+  },
+  testoFiltroAttivo: { flex: 1, fontSize: 14, fontWeight: '700', color: BLU },
+  filtroTutti: { fontSize: 13, fontWeight: '700', color: BLU },
   intestazione: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 },
   titolo: { fontSize: 20, fontWeight: '800', color: '#0f172a' },
   chiudi: { fontSize: 15, color: BLU, fontWeight: '600' },

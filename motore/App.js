@@ -112,6 +112,8 @@ function Schermata({ linguaIniziale }) {
   const [personaggioAperto, setPersonaggioAperto] = useState(null); // id del personaggio di cui è aperta la scheda
   const [idCuriosita, setIdCuriosita] = useState(null); // scheda di una curiosità aperta
   const [idCibo, setIdCibo] = useState(null); // scheda di un piatto aperta
+  // calendario da aprire filtrato su un luogo (dalla sua scheda): { id, nome, n } — n cambia a ogni apertura
+  const [filtroCalendario, setFiltroCalendario] = useState(null);
   const [lampadina, setLampadina] = useState(null); // 💡 temporanea sulla mappa dopo "Portami lì": { id, titolo, x, y }
   const adesso = useAdesso();
   const mappaRef = useRef(null);
@@ -781,7 +783,17 @@ function Schermata({ linguaIniziale }) {
           onScegliPersonaggio={(id) => setPersonaggioAperto(id)}
           onScegliCibo={(id) => setIdCibo(id)}
         />
-        <Calendario dati={DATI_EVENTI} lingua={lingua} t={t} onVediMappa={scegliDaRicerca} />
+        <Calendario
+          dati={DATI_EVENTI}
+          lingua={lingua}
+          t={t}
+          onVediMappa={scegliDaRicerca}
+          filtroLuogo={filtroCalendario}
+          onChiudi={(daLuogo) => {
+            // si era partiti dalla scheda di un luogo: la si riapre
+            if (daLuogo) setIdSelezionato(daLuogo);
+          }}
+        />
         <SelettoreLingua lingua={lingua} onCambia={setLingua} etichetta={t('lingua')} />
         <Crediti luoghi={luoghi} t={t} />
       </View>
@@ -1109,6 +1121,12 @@ function Schermata({ linguaIniziale }) {
           luogo={selezionato}
           lingua={lingua}
           t={t}
+          eventi={DATI_EVENTI.eventi || []}
+          onVediEventi={(luogo) => {
+            // la scheda del luogo si chiude e si apre il calendario filtrato su di lui
+            setIdSelezionato(null);
+            setFiltroCalendario({ id: luogo.id, nome: luogo.nome, n: Date.now(), daLuogo: luogo.id });
+          }}
           onChiudi={chiudiScheda}
           distanza={distanze && !lontano ? distanze[selezionato.id] : null}
           preferito={preferiti.includes(selezionato.id)}

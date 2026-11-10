@@ -27,7 +27,8 @@ const MAX_TARGHETTE = 6; // targhette delle linee mostrate accanto al nome della
 // Scheda del luogo: si apre dal basso quando si tocca un pallino sulla mappa
 // distanza: metri dall'utente (se la posizione è attiva); preferito / onPreferito: cuore dei luoghi del cuore;
 // visitato / onVisitato: spunta "Ci sono stato"
-export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, preferito, onPreferito, visitato, onVisitato, onPersonaggio }) {
+// eventi / onVediEventi(luogo): eventi.json e l'apertura del calendario filtrato su questo luogo
+export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, preferito, onPreferito, visitato, onVisitato, onPersonaggio, eventi = [], onVediEventi }) {
   const { width, height } = useWindowDimensions();
   // in orizzontale la scheda si apre di lato, così la mappa resta visibile
   const orizzontale = width > height;
@@ -65,6 +66,13 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   const orari = luogo.orari || [];
   const apertura = statoApertura(luogo);
   const haInfo = orari.length > 0 || biglietto || notaBiglietto || (luogo.chiuso || []).length > 0;
+
+  // eventi in programma in questo luogo (quelli già finiti non si contano): se non ce ne sono la sezione non si vede
+  const oggiChiave = (() => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  })();
+  const eventiLuogo = luogo ? eventi.filter((e) => e.luogoId === luogo.id && e.fine >= oggiChiave) : [];
 
   const apri = (url) => url && Linking.openURL(url).catch(() => {});
   // A Venezia ci si muove a piedi: indicazioni pedonali
@@ -256,6 +264,31 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
                   {notaBiglietto ? <Text style={styles.notaBiglietto}>{notaBiglietto}</Text> : null}
                 </View>
               )}
+            </View>
+          )}
+
+          {eventiLuogo.length > 0 && onVediEventi && (
+            <View style={styles.eventiCard} testID="eventi-luogo">
+              <View style={styles.eventiTesta}>
+                <Text style={styles.eventiIcona}>📅</Text>
+                <View style={{ flex: 1 }}>
+                  <Text style={styles.eventiTitolo}>{t('ev_luogo_titolo')}</Text>
+                  <Text style={styles.eventiSotto}>
+                    {eventiLuogo.length === 1 ? t('ev_luogo_uno') : t('ev_luogo_molti').replace('{n}', eventiLuogo.length)}
+                  </Text>
+                </View>
+                <View style={styles.eventiBadge}>
+                  <Text style={styles.eventiBadgeTesto}>{eventiLuogo.length}</Text>
+                </View>
+              </View>
+              <Pressable
+                onPress={() => onVediEventi(luogo)}
+                style={({ pressed }) => [styles.eventiVai, pressed && { backgroundColor: '#f1f5f9' }]}
+                accessibilityRole="button"
+              >
+                <Text style={styles.eventiVaiTesto}>{t('ev_vedi')}</Text>
+                <Text style={styles.eventiVaiFreccia}>›</Text>
+              </Pressable>
             </View>
           )}
 
@@ -532,4 +565,37 @@ const styles = StyleSheet.create({
   testoBottone: { color: '#fff', fontSize: 15, fontWeight: '700' },
   testoBottoneSecondario: { color: '#0f3d5e' },
   avviso: { fontSize: 11, color: '#94a3b8', marginTop: 14, textAlign: 'center', lineHeight: 15 },
+  eventiCard: {
+    marginTop: 16,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#e2e8f0',
+    backgroundColor: '#f8fafc',
+    overflow: 'hidden',
+  },
+  eventiTesta: { flexDirection: 'row', alignItems: 'center', gap: 12, padding: 14 },
+  eventiIcona: { fontSize: 24 },
+  eventiTitolo: { fontSize: 16, fontWeight: '800', color: '#0f172a' },
+  eventiSotto: { fontSize: 13, color: '#64748b', marginTop: 2 },
+  eventiBadge: {
+    minWidth: 28,
+    height: 28,
+    borderRadius: 14,
+    paddingHorizontal: 8,
+    backgroundColor: '#dcfce7',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  eventiBadgeTesto: { color: '#166534', fontSize: 14, fontWeight: '700' },
+  eventiVai: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 14,
+    paddingVertical: 13,
+    borderTopWidth: 1,
+    borderTopColor: '#e2e8f0',
+  },
+  eventiVaiTesto: { fontSize: 15, fontWeight: '700', color: '#0f3d5e' },
+  eventiVaiFreccia: { fontSize: 22, color: '#94a3b8' },
 });
