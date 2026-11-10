@@ -7,7 +7,7 @@ import { useFonts } from 'expo-font';
 import { Marcellus_400Regular } from '@expo-google-fonts/marcellus';
 import { CITTA, cittaPerId } from './src/catalogo';
 import { controllaAggiornamenti, datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
-import { etichettaStato, LINGUE, testi } from './src/lingue';
+import { etichettaStato, LINGUE, testi, testoLingua } from './src/lingue';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
 import { caricaCitta } from './motore/src/apriCitta';
@@ -164,7 +164,7 @@ function AppRadice() {
       <View style={{ flex: 1, backgroundColor: '#1e3a8a' }}>
         <SafeAreaView edges={['top']} style={{ backgroundColor: '#1e3a8a' }}>
           <Pressable onPress={() => setCittaAperta(null)} style={{ paddingHorizontal: 14, paddingVertical: 8 }}>
-            <Text style={{ color: '#fff', fontWeight: '700', fontSize: 15 }}>← Città</Text>
+            <Text style={{ color: '#fff', fontWeight: '700', fontSize: 15 }}>{t.indietroCitta}</Text>
           </Pressable>
         </SafeAreaView>
         <View style={{ flex: 1 }}>
@@ -198,12 +198,12 @@ function AppRadice() {
           <View style={styles.testiHero}>
             <Text style={styles.brand} numberOfLines={1} adjustsFontSizeToFit>Veneto Experience</Text>
             <View style={styles.badge}>
-              <Text style={styles.badgeTesto}>Guida turistica</Text>
+              <Text style={styles.badgeTesto}>{t.guidaTuristica}</Text>
             </View>
           </View>
         </View>
-        <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>Il tuo viaggio comincia qui.</Text>
-        <Text style={styles.heroSottotitolo}>Scopri le città del Veneto nella tua lingua.</Text>
+        <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>{t.heroTitolo}</Text>
+        <Text style={styles.heroSottotitolo}>{t.heroSottotitolo}</Text>
         <Pressable style={styles.lingua} onPress={() => setLinguaAperta(true)}>
           <Text style={styles.linguaEtichetta}>LINGUA / LANGUAGE</Text>
           <View style={styles.linguaRiga}>
@@ -214,8 +214,8 @@ function AppRadice() {
       </View>
 
       <View style={styles.sezione}>
-        <Text style={styles.sezioneTitolo}>Esplora le città</Text>
-        <Text style={styles.sezioneConto}>Veneto · {CITTA.length} destinazioni</Text>
+        <Text style={styles.sezioneTitolo}>{t.esploraCitta}</Text>
+        <Text style={styles.sezioneConto}>{t.destinazioni(CITTA.length)}</Text>
       </View>
     </View>
   );
@@ -244,7 +244,7 @@ function AppRadice() {
                 {COPERTINE[item.id] ? <Image source={COPERTINE[item.id]} style={styles.copertina} /> : null}
               </View>
               <Text style={styles.nomeCitta}>{item.nome}</Text>
-              <Text style={styles.motto}>{item.motto || item.provincia}</Text>
+              <Text style={styles.motto}>{testoLingua(lingua, item.motto) || item.provincia}</Text>
               <View style={[styles.stato, installata && styles.statoOk]}>
                 <Text style={[styles.statoTesto, installata && styles.statoTestoOk]}>
                   {installata ? t.installata : etichettaStato(t, item.stato)}
@@ -390,11 +390,11 @@ const styles = StyleSheet.create({
   statoTesto: { color: '#333', fontSize: 15 },
   statoTestoOk: { color: '#2f7a4b' },
 
-  bottone: { height: 54, borderRadius: 16, marginTop: 12, alignItems: 'center', justifyContent: 'center' },
+  bottone: { minHeight: 54, borderRadius: 16, marginTop: 12, paddingVertical: 10, paddingHorizontal: 22, alignItems: 'center', justifyContent: 'center' },
   bottoneApri: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#e4e4e4' },
-  testoApri: { color: TESTO, fontSize: 18, fontWeight: '500' },
+  testoApri: { color: TESTO, fontSize: 18, fontWeight: '500', textAlign: 'center' },
   bottoneScarica: { backgroundColor: VERDE },
-  testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500' },
+  testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500', textAlign: 'center' },
   rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
   testoRimuovi: { color: GRIGIO, fontSize: 16 },
   nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
