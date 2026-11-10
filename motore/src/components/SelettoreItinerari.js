@@ -53,6 +53,7 @@ export default function SelettoreItinerari({
   const { width, height } = useWindowDimensions();
   const orizzontale = width > height;
   const [apertoId, setApertoId] = useState(null); // itinerario mostrato nella pagina di dettaglio
+  const [infoAperta, setInfoAperta] = useState(null); // id dell'itinerario di cui è aperto il testo introduttivo
   const [confermaElimina, setConfermaElimina] = useState(false); // "Elimina" va toccato due volte
   useEffect(() => setConfermaElimina(false), [apertoId]);
   const [cartolinaAperta, setCartolinaAperta] = useState(false); // anteprima della cartolina dell'itinerario
@@ -146,6 +147,21 @@ export default function SelettoreItinerari({
         <Text style={styles.lunghezzaDettaglio}>
           {testoLunghezza(lDettaglio, t, aperto.nautico)} · {aperto.tappe.length} {t('tappe')}
         </Text>
+        {aperto.descrizione ? (
+          <>
+            <Pressable
+              onPress={() => setInfoAperta(infoAperta === aperto.id ? null : aperto.id)}
+              style={({ pressed }) => [styles.pulsanteInfo, pressed && { opacity: 0.85 }]}
+              accessibilityRole="button"
+              accessibilityState={{ expanded: infoAperta === aperto.id }}
+            >
+              <Text style={styles.testoPulsanteInfo}>ⓘ {infoAperta === aperto.id ? t('itin_nascondiInfo') : t('itin_info')}</Text>
+            </Pressable>
+            {infoAperta === aperto.id ? (
+              <Text style={styles.descrizioneItinerario}>{testoLocalizzato(aperto.descrizione, lingua)}</Text>
+            ) : null}
+          </>
+        ) : null}
         {aperto.nota && (
           <Text style={styles.notaItinerario}>{testoLocalizzato(aperto.nota, lingua)}</Text>
         )}
@@ -438,6 +454,9 @@ const styles = StyleSheet.create({
   contaVisitate: { color: '#16a34a', fontWeight: '700' },
   inCorso: { color: '#b45309', fontWeight: '700' },
   lunghezzaDettaglio: { fontSize: 15, fontWeight: '700', color: '#b45309', marginTop: 4, marginBottom: 8 },
+  pulsanteInfo: { alignSelf: 'flex-start', borderRadius: 999, borderWidth: 1, borderColor: '#0369a1', paddingHorizontal: 12, paddingVertical: 6, marginBottom: 10 },
+  testoPulsanteInfo: { fontSize: 13, fontWeight: '700', color: '#0369a1' },
+  descrizioneItinerario: { fontSize: 15, lineHeight: 22, color: '#334155', marginBottom: 14 },
   notaItinerario: { fontSize: 13, fontWeight: '600', color: '#0369a1', lineHeight: 18, marginBottom: 12 },
   testoIndietro: { fontSize: 24, lineHeight: 26, color: '#334155', fontWeight: '700', marginTop: -2 },
   tappaVista: { fontSize: 13, color: '#16a34a', fontWeight: '800' },

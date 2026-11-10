@@ -12,7 +12,7 @@ export function inizializzaItinerari() {
   const perId = Object.fromEntries((datiLuoghi.luoghi || []).map((l) => [l.id, l]));
   ITINERARI = (dati.itinerari || []).map((it) => {
     if (it.tratti || it.nautico || !Array.isArray(it.tappe) || !it.tappe.length) return it;
-    return { ...calcolaItinerario(it, perId), id: it.id, titolo: it.titolo, tipo: it.tipo, testi: it.testi, utente: false, nautico: false };
+    return { ...calcolaItinerario(it, perId), id: it.id, titolo: it.titolo, tipo: it.tipo, testi: it.testi, descrizione: it.descrizione, utente: false, nautico: false };
   });
 }
 

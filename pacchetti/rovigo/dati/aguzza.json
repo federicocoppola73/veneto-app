@@ -4,20 +4,22 @@
     {
       "id": "aguzza-la-vista-centro-storico",
       "titolo": {
-        "it": "Aguzza la vista - Centro storico",
-        "en": "Look closer - Historic centre",
-        "fr": "Observez mieux - Centre historique",
-        "de": "Genau hinschauen - Altstadt",
-        "es": "Mira con atención - Centro histórico"
+        "it": "Aguzza la vista – Oltre il centro classico",
+        "en": "Look closer – Beyond the classic centre",
+        "fr": "Observez mieux – Au-delà du centre classique",
+        "de": "Genau hinschauen – Jenseits des klassischen Zentrums",
+        "es": "Mira con atención – Más allá del centro clásico"
       },
       "tappe": [
-        "torre-dona-castello",
-        "piazza-vittorio-emanuele-ii",
-        "palazzo-roverella",
-        "palazzo-roncale",
-        "tempio-la-rotonda",
+        "oratorio-beata-vergine-pompei",
+        "palazzina-minelli",
         "pescheria-nuova",
-        "porta-san-bortolo"
+        "palazzo-gran-guardia",
+        "palazzo-poste-telegrafi",
+        "palazzo-venezze",
+        "porta-san-bortolo",
+        "chiesa-san-bartolomeo-apostolo",
+        "cimitero-monumentale-rovigo"
       ]
     }
   ],
@@ -296,6 +298,78 @@
       "itinerario": null,
       "foto": {
         "file": "aguzza/aguzza-cimitero-angelo.webp",
+        "credits": "Threecharlie – GNU Free Documentation License (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzina-minelli",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva la facciata neogotica della Palazzina Minelli. Riesci a individuare gli elementi circolari in terracotta? Quali figure raffigurano?",
+        "en": "Look at the neo-Gothic façade of the Palazzina Minelli. Can you spot the round terracotta elements? Which figures do they depict?",
+        "fr": "Observez la façade néogothique de la Palazzina Minelli. Arrivez-vous à repérer les éléments circulaires en terre cuite ? Quelles figures représentent-ils ?",
+        "de": "Betrachten Sie die neugotische Fassade der Palazzina Minelli. Können Sie die runden Elemente aus Terrakotta entdecken? Welche Figuren zeigen sie?",
+        "es": "Observa la fachada neogótica de la Palazzina Minelli. ¿Logras distinguir los elementos circulares de terracota? ¿Qué figuras representan?"
+      },
+      "risposta": {
+        "it": "Alcuni membri della famiglia Minelli, raffigurati nei medaglioni in cotto della facciata.",
+        "en": "Some members of the Minelli family, depicted in the terracotta medallions on the façade.",
+        "fr": "Quelques membres de la famille Minelli, représentés dans les médaillons en terre cuite de la façade.",
+        "de": "Einige Mitglieder der Familie Minelli, dargestellt in den Terrakotta-Medaillons der Fassade.",
+        "es": "Algunos miembros de la familia Minelli, representados en los medallones de terracota de la fachada."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-palazzina-minelli-medaglioni.webp",
+        "credits": "Threecharlie – GNU Free Documentation License (Wikimedia Commons)"
+      },
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-venezze",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Sulla facciata di Palazzo Venezze cerca il portale superiore, affacciato su Corso del Popolo. Quale elemento in marmo sporge sopra l’ingresso e forma un piccolo balcone?",
+        "en": "On the façade of Palazzo Venezze, look for the upper portal, facing onto Corso del Popolo. Which marble element projects above the entrance and forms a small balcony?",
+        "fr": "Sur la façade du palais Venezze, cherchez le portail supérieur, donnant sur le Corso del Popolo. Quel élément en marbre dépasse au-dessus de l'entrée et forme un petit balcon ?",
+        "de": "Suchen Sie an der Fassade des Palazzo Venezze das obere Portal zum Corso del Popolo. Welches Marmorelement ragt über dem Eingang hervor und bildet einen kleinen Balkon?",
+        "es": "En la fachada del Palazzo Venezze busca el portal superior, que da al Corso del Popolo. ¿Qué elemento de mármol sobresale sobre la entrada y forma un pequeño balcón?"
+      },
+      "risposta": {
+        "it": "La balaustra in marmo, che si ripete anche sotto le finestre del piano nobile.",
+        "en": "The marble balustrade, which is repeated also below the windows of the piano nobile.",
+        "fr": "La balustrade en marbre, que l'on retrouve aussi sous les fenêtres du piano nobile.",
+        "de": "Die Marmorbalustrade, die sich auch unter den Fenstern des piano nobile wiederholt.",
+        "es": "La balaustrada de mármol, que se repite también bajo las ventanas del piano nobile."
+      },
+      "itinerario": null,
+      "foto": null,
+      "foto_da_fare": false,
+      "da_verificare": false
+    },
+    {
+      "luogo_id": "palazzo-poste-telegrafi",
+      "zona": "Centro",
+      "domanda": {
+        "it": "Osserva l’arco dell’ingresso principale del Palazzo delle Poste. Quale figura mitologica è scolpita al centro della sua chiave di volta?",
+        "en": "Look at the arch of the main entrance of the Palazzo delle Poste. Which mythological figure is carved at the centre of its keystone?",
+        "fr": "Observez l'arc de l'entrée principale du palais des Postes. Quelle figure mythologique est sculptée au centre de sa clé de voûte ?",
+        "de": "Betrachten Sie den Bogen des Haupteingangs des Palazzo delle Poste. Welche mythologische Figur ist im Zentrum seines Schlusssteins dargestellt?",
+        "es": "Observa el arco de la entrada principal del Palazzo delle Poste. ¿Qué figura mitológica está esculpida en el centro de su clave?"
+      },
+      "risposta": {
+        "it": "Mercurio, riconoscibile dal suo caratteristico copricapo alato.",
+        "en": "Mercury, recognisable by his distinctive winged cap.",
+        "fr": "Mercure, reconnaissable à son couvre-chef ailé caractéristique.",
+        "de": "Merkur, erkennbar an seiner charakteristischen geflügelten Kopfbedeckung.",
+        "es": "Mercurio, reconocible por su característico sombrero alado."
+      },
+      "itinerario": null,
+      "foto": {
+        "file": "aguzza/aguzza-poste-mercurio.webp",
         "credits": "Threecharlie – GNU Free Documentation License (Wikimedia Commons)"
       },
       "foto_da_fare": false,

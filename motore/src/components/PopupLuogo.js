@@ -56,6 +56,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   ];
   const colore = coloreCategoria(luogo.categoria);
   const descrizione = testoLocalizzato(luogo.descrizione, lingua);
+  const passaggio = !!luogo.punto_di_passaggio; // solo posizione sulla mappa, per ora
   const nota = testoLocalizzato(luogo.nota, lingua);
   const biglietto = formattaBiglietto(luogo.biglietto, t);
   const notaBiglietto = luogo.biglietto?.nota
@@ -109,7 +110,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           contentContainerStyle={[styles.contenuto, { paddingBottom: 24 + insets.bottom }]}
           showsVerticalScrollIndicator={false}
         >
-          {fotoGalleria.length > 0 ? (
+          {passaggio ? null : fotoGalleria.length > 0 ? (
             <GalleriaFoto key={luogo.id} foto={fotoGalleria} altezza={orizzontale ? 170 : 230} t={t}>
               {pulsanteChiudi}
             </GalleriaFoto>
@@ -123,7 +124,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           )}
 
           <View style={[styles.badge, { backgroundColor: colore }]}>
-            <Text style={styles.testoBadge}>{t(`cat_${luogo.categoria}`)}</Text>
+            <Text style={styles.testoBadge}>{passaggio ? t('itin_passaggio') : t(`cat_${luogo.categoria}`)}</Text>
           </View>
           <View style={styles.rigaNome}>
             <Text style={[styles.nome, { flex: 1 }]}>{luogo.nome}</Text>
@@ -179,7 +180,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             </View>
           )}
 
-          <Text style={styles.descrizione}>{descrizione}</Text>
+          {descrizione ? <Text style={styles.descrizione}>{descrizione}</Text> : null}
 
           {luogo.lo_sapevi_che?.length || domandePerLuogo(luogo.id).length || (personaggiLuogo.length && onPersonaggio) ? (
             <View style={styles.riga}>

@@ -3235,11 +3235,11 @@
    "longitudine": 11.791367,
    "sito": "https://www.conservatoriorovigo.it",
    "descrizione": {
-    "it": "Palazzo Venezze è una delle più importanti dimore storiche di Rovigo. Fu commissionato nel 1715 dal conte Stefano Venezze e progettato dall’architetto Agostino Ghirotti. La facciata principale, affacciata su via Cavour, è caratterizzata da due grandi portali ad arco, da una raffinata balaustra in marmo e da una cornice dentellata che corre lungo la sommità dell’edificio. Sul retro si apre un cortile racchiuso da due ali laterali. Oggi il palazzo ospita il Conservatorio Statale di Musica Francesco Venezze e continua a essere un importante centro di attività culturali e musicali.",
-    "en": "Palazzo Venezze is one of the most important historic residences in Rovigo. It was commissioned in 1715 by Count Stefano Venezze and designed by the architect Agostino Ghirotti. The main façade, facing Via Cavour, is characterised by two large arched portals, a refined marble balustrade and a dentilled cornice running along the top of the building. At the back a courtyard opens, enclosed by two side wings. Today the palace houses the State Conservatory of Music Francesco Venezze and remains an important centre of cultural and musical activity.",
-    "fr": "Le palais Venezze est l'une des plus importantes demeures historiques de Rovigo. Il fut commandé en 1715 par le comte Stefano Venezze et conçu par l'architecte Agostino Ghirotti. La façade principale, donnant sur la via Cavour, se caractérise par deux grands portails en arc, une balustrade en marbre raffinée et une corniche à denticules qui court le long du sommet de l'édifice. À l'arrière s'ouvre une cour fermée par deux ailes latérales. Aujourd'hui le palais abrite le Conservatoire d'État de musique Francesco Venezze et reste un important centre d'activités culturelles et musicales.",
-    "de": "Der Palazzo Venezze gehört zu den bedeutendsten historischen Stadtpalästen Rovigos. Er wurde 1715 von Graf Stefano Venezze in Auftrag gegeben und vom Architekten Agostino Ghirotti entworfen. Die Hauptfassade zur Via Cavour ist durch zwei große Bogenportale, eine feine Marmorbalustrade und ein Zahnschnittgesims entlang der Gebäudeoberkante geprägt. Auf der Rückseite öffnet sich ein Innenhof, der von zwei Seitenflügeln eingefasst wird. Heute beherbergt der Palast das Staatliche Musikkonservatorium Francesco Venezze und ist weiterhin ein wichtiges Zentrum kultureller und musikalischer Aktivitäten.",
-    "es": "El Palazzo Venezze es una de las residencias históricas más importantes de Rovigo. Fue encargado en 1715 por el conde Stefano Venezze y proyectado por el arquitecto Agostino Ghirotti. La fachada principal, que da a la vía Cavour, se caracteriza por dos grandes portales con arco, una refinada balaustrada de mármol y una cornisa dentada que recorre la parte superior del edificio. En la parte trasera se abre un patio cerrado por dos alas laterales. Hoy el palacio alberga el Conservatorio Estatal de Música Francesco Venezze y sigue siendo un importante centro de actividades culturales y musicales."
+    "it": "Palazzo Venezze è una delle più importanti dimore storiche di Rovigo. Fu commissionato nel 1715 dal conte Stefano Venezze e progettato dall’architetto Agostino Ghirotti. La facciata principale, affacciata su Corso del Popolo, è caratterizzata da due grandi portali ad arco, da una raffinata balaustra in marmo e da una cornice dentellata che corre lungo la sommità dell’edificio. Sul retro si apre un cortile racchiuso da due ali laterali. Oggi il palazzo ospita il Conservatorio Statale di Musica Francesco Venezze e continua a essere un importante centro di attività culturali e musicali.",
+    "en": "Palazzo Venezze is one of the most important historic residences in Rovigo. It was commissioned in 1715 by Count Stefano Venezze and designed by the architect Agostino Ghirotti. The main façade, facing Corso del Popolo, is characterised by two large arched portals, a refined marble balustrade and a dentilled cornice running along the top of the building. At the back a courtyard opens, enclosed by two side wings. Today the palace houses the State Conservatory of Music Francesco Venezze and remains an important centre of cultural and musical activity.",
+    "fr": "Le palais Venezze est l'une des plus importantes demeures historiques de Rovigo. Il fut commandé en 1715 par le comte Stefano Venezze et conçu par l'architecte Agostino Ghirotti. La façade principale, donnant sur le Corso del Popolo, se caractérise par deux grands portails en arc, une balustrade en marbre raffinée et une corniche à denticules qui court le long du sommet de l'édifice. À l'arrière s'ouvre une cour fermée par deux ailes latérales. Aujourd'hui le palais abrite le Conservatoire d'État de musique Francesco Venezze et reste un important centre d'activités culturelles et musicales.",
+    "de": "Der Palazzo Venezze gehört zu den bedeutendsten historischen Stadtpalästen Rovigos. Er wurde 1715 von Graf Stefano Venezze in Auftrag gegeben und vom Architekten Agostino Ghirotti entworfen. Die Hauptfassade zum Corso del Popolo ist durch zwei große Bogenportale, eine feine Marmorbalustrade und ein Zahnschnittgesims entlang der Gebäudeoberkante geprägt. Auf der Rückseite öffnet sich ein Innenhof, der von zwei Seitenflügeln eingefasst wird. Heute beherbergt der Palast das Staatliche Musikkonservatorium Francesco Venezze und ist weiterhin ein wichtiges Zentrum kultureller und musikalischer Aktivitäten.",
+    "es": "El Palazzo Venezze es una de las residencias históricas más importantes de Rovigo. Fue encargado en 1715 por el conde Stefano Venezze y proyectado por el arquitecto Agostino Ghirotti. La fachada principal, que da al Corso del Popolo, se caracteriza por dos grandes portales con arco, una refinada balaustrada de mármol y una cornisa dentada que recorre la parte superior del edificio. En la parte trasera se abre un patio cerrado por dos alas laterales. Hoy el palacio alberga el Conservatorio Estatal de Música Francesco Venezze y sigue siendo un importante centro de actividades culturales y musicales."
    },
    "biglietto": {
     "gratuito": true,
@@ -3577,6 +3577,229 @@
      "metri": 291
     }
    ]
+  },
+  {
+   "id": "mure-san-giuseppe",
+   "nome": "Via Mure San Giuseppe",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0728,
+   "longitudine": 11.78915,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "viale-trieste",
+   "nome": "Viale Trieste",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.073,
+   "longitudine": 11.79184,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "vicolo-longhena",
+   "nome": "Vicolo Longhena",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0726,
+   "longitudine": 11.7945,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "via-bortoloni",
+   "nome": "Via Mattia Bortoloni",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0707,
+   "longitudine": 11.7952,
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=123524544"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?curid=123524544"
+    }
+   ],
+   "descrizione": {
+    "it": "Alcuni tratti superstiti delle fortificazioni.",
+    "en": "Some surviving sections of the fortifications.",
+    "fr": "Quelques tronçons survivants des fortifications.",
+    "de": "Einige erhaltene Abschnitte der Befestigungen.",
+    "es": "Algunos tramos supervivientes de las fortificaciones."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible desde el exterior"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "via-boscolo",
+   "nome": "Via Luigi Boscolo",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.07023,
+   "longitudine": 11.79506,
+   "descrizione": {
+    "it": "Resti delle mura cittadine su via Luigi Boscolo.",
+    "en": "Remains of the city walls on Via Luigi Boscolo.",
+    "fr": "Vestiges des murailles de la ville, via Luigi Boscolo.",
+    "de": "Reste der Stadtmauer in der Via Luigi Boscolo.",
+    "es": "Restos de las murallas de la ciudad en la Via Luigi Boscolo."
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible desde el exterior"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "ponte-della-roda",
+   "nome": "Via Ponte della Roda",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.06918,
+   "longitudine": 11.79208,
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
+   "descrizione": {
+    "it": "Altra porzione della cinta medievale.",
+    "en": "Another section of the medieval city walls.",
+    "fr": "Un autre tronçon de l'enceinte médiévale.",
+    "de": "Ein weiterer Abschnitt der mittelalterlichen Stadtmauer.",
+    "es": "Otro tramo de la muralla medieval."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible depuis l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen immer zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible desde el exterior"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "mure-ospedale",
+   "nome": "Via Mure dell'Ospedale",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0684,
+   "longitudine": 11.78927,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "via-badaloni",
+   "nome": "Via Nicola Badaloni",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.06854,
+   "longitudine": 11.78827,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "sacro-cuore",
+   "nome": "Via del Sacro Cuore",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.0692,
+   "longitudine": 11.7864,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "piazza-tien-an-men",
+   "nome": "Piazza Tien An Men",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.06974,
+   "longitudine": 11.78641,
+   "punto_di_passaggio": true,
+   "galleria": []
+  },
+  {
+   "id": "via-grimani",
+   "nome": "Via Grimani",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.071,
+   "longitudine": 11.7873,
+   "punto_di_passaggio": true,
+   "galleria": []
   }
  ]
 }
