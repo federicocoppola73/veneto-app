@@ -3905,6 +3905,94 @@
      "metri": 433
     }
    ]
+  },
+  {
+   "id": "palazzo-pretorio",
+   "nome": "Palazzo Pretorio",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.070753,
+   "longitudine": 11.791461,
+   "descrizione": {
+    "it": "Palazzo Pretorio si affaccia sul lato settentrionale di Piazza Giuseppe Garibaldi ed è uno degli edifici storici più importanti di Rovigo. Fu costruito alla fine del Quattrocento come residenza del podestà veneziano e sede degli uffici amministrativi e giudiziari incaricati del governo del Polesine durante la dominazione della Serenissima. Nel 1851 diventò sede della Camera di Commercio, subendo interventi di ristrutturazione per adattarsi alle nuove funzioni. L'ambiente più caratteristico dell'edificio è il Salone del Grano, realizzato nel 1928 su progetto degli ingegneri Pavarin e Silvestrin. La sala fu utilizzata per le contrattazioni del settore agricolo e si distingue per la grande volta a botte vetrata, sostenuta da una struttura in legno e ferro, che illumina naturalmente l'ambiente. Il pavimento è decorato con un mosaico al cui centro compaiono gli stemmi della Provincia e della Camera di Commercio. Oggi il salone viene utilizzato per manifestazioni, incontri e iniziative culturali.",
+    "en": "Palazzo Pretorio overlooks the northern side of Piazza Giuseppe Garibaldi and is one of the most important historic buildings in Rovigo. It was built at the end of the fifteenth century as the residence of the Venetian podestà and the seat of the administrative and judicial offices responsible for governing the Polesine under Venetian rule. In 1851 it became the seat of the Chamber of Commerce, and it underwent renovation work to adapt to its new functions. The most distinctive space in the building is the Salone del Grano, built in 1928 to designs by the engineers Pavarin and Silvestrin. The hall was used for trading in agricultural goods and stands out for its large glass barrel vault, supported by a wood and iron structure, which lights the room naturally. The floor is decorated with a mosaic whose centre shows the coats of arms of the Province and of the Chamber of Commerce. Today the hall hosts events, meetings and cultural initiatives.",
+    "fr": "Le palais Pretorio donne sur le côté nord de la Piazza Giuseppe Garibaldi et compte parmi les bâtiments historiques les plus importants de Rovigo. Il fut construit à la fin du XVe siècle comme résidence du podestat vénitien et siège des bureaux administratifs et judiciaires chargés de gouverner le Polesine sous la domination de la Sérénissime. En 1851, il devint le siège de la Chambre de commerce et subit des travaux de rénovation pour s'adapter à ses nouvelles fonctions. L'espace le plus caractéristique du bâtiment est le Salone del Grano, réalisé en 1928 sur les plans des ingénieurs Pavarin et Silvestrin. La salle servait aux transactions du secteur agricole et se distingue par sa grande voûte en berceau vitrée, soutenue par une structure en bois et en fer, qui éclaire naturellement l'espace. Le sol est orné d'une mosaïque dont le centre présente les armoiries de la Province et de la Chambre de commerce. Aujourd'hui, la salle accueille des manifestations, des rencontres et des initiatives culturelles.",
+    "de": "Der Palazzo Pretorio liegt an der Nordseite der Piazza Giuseppe Garibaldi und ist eines der bedeutendsten historischen Gebäude Rovigos. Er wurde Ende des 15. Jahrhunderts als Residenz des venezianischen Podestà errichtet und war Sitz der Verwaltungs- und Gerichtsbehörden, die während der venezianischen Herrschaft das Polesine regierten. 1851 wurde er Sitz der Handelskammer und umgebaut, um sich den neuen Aufgaben anzupassen. Der charakteristischste Raum des Gebäudes ist der Salone del Grano, der 1928 nach Entwürfen der Ingenieure Pavarin und Silvestrin entstand. Der Saal diente dem Handel mit landwirtschaftlichen Erzeugnissen und zeichnet sich durch ein großes gläsernes Tonnengewölbe aus, das von einer Holz-Eisen-Konstruktion getragen wird und den Raum natürlich belichtet. Der Boden ist mit einem Mosaik geschmückt, in dessen Mitte die Wappen der Provinz und der Handelskammer erscheinen. Heute wird der Saal für Veranstaltungen, Treffen und kulturelle Initiativen genutzt.",
+    "es": "El Palazzo Pretorio da al lado norte de la Piazza Giuseppe Garibaldi y es uno de los edificios históricos más importantes de Rovigo. Se construyó a finales del siglo XV como residencia del podestà veneciano y sede de las oficinas administrativas y judiciales encargadas de gobernar el Polesine durante el dominio de la Serenísima. En 1851 se convirtió en sede de la Cámara de Comercio y sufrió reformas para adaptarse a sus nuevas funciones. El espacio más característico del edificio es el Salone del Grano, construido en 1928 según el proyecto de los ingenieros Pavarin y Silvestrin. La sala se utilizaba para las operaciones del sector agrícola y destaca por su gran bóveda de cañón acristalada, sostenida por una estructura de madera y hierro, que ilumina el ambiente de forma natural. El suelo está decorado con un mosaico en cuyo centro aparecen los escudos de la Provincia y de la Cámara de Comercio. Hoy la sala se usa para eventos, encuentros e iniciativas culturales."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "esterno sempre visibile dalla piazza; interno: nessun orario ordinario di visita turistica. Il Salone del Grano è accessibile in occasione di eventi e manifestazioni o previa autorizzazione",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "exterior always visible from the square; interior: no ordinary tourist visiting hours. The Salone del Grano is open during events and shows or by prior authorisation"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "extérieur toujours visible depuis la place ; intérieur : pas d'horaires de visite touristique ordinaires. Le Salone del Grano est accessible lors d'événements et de manifestations ou sur autorisation préalable"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "Außenansicht von der Piazza jederzeit sichtbar; Innenraum: keine regulären Besuchszeiten für Touristen. Der Salone del Grano ist bei Veranstaltungen und Messen oder nach vorheriger Genehmigung zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "exterior siempre visible desde la plaza; interior: sin horario ordinario de visita turística. El Salone del Grano es accesible con motivo de eventos y manifestaciones o previa autorización"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": "Esterno: gratuito. Interno: eventuale ingresso secondo le modalità previste dall'organizzazione degli eventi. Non risulta un biglietto turistico ordinario."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un salone per il grano",
+      "en": "A hall for the grain trade",
+      "fr": "Une salle pour le commerce du grain",
+      "de": "Eine Halle für den Getreidehandel",
+      "es": "Un salón para el comercio del grano"
+     },
+     "testo": {
+      "it": "Il Salone del Grano nacque come spazio dedicato alle contrattazioni agricole, attività particolarmente importante per l'economia del Polesine. La grande copertura vetrata e il pavimento a mosaico furono concepiti per dare prestigio a uno spazio destinato al mondo economico e commerciale.",
+      "en": "The Salone del Grano was born as a space for agricultural trade, an activity especially important for the economy of the Polesine. The large glass roof and the mosaic floor were designed to give prestige to a space meant for the world of business and commerce.",
+      "fr": "Le Salone del Grano est né comme espace dédié au commerce agricole, activité particulièrement importante pour l'économie du Polesine. La grande couverture vitrée et le sol en mosaïque furent conçus pour donner du prestige à un lieu destiné au monde économique et commercial.",
+      "de": "Der Salone del Grano entstand als Raum für den Agrarhandel, eine für die Wirtschaft des Polesine besonders wichtige Tätigkeit. Das große Glasdach und der Mosaikboden wurden so entworfen, dass sie einem Ort des Wirtschafts- und Handelslebens Prestige verleihen.",
+      "es": "El Salone del Grano nació como espacio dedicado a las operaciones agrícolas, una actividad especialmente importante para la economía del Polesine. La gran cubierta acristalada y el suelo de mosaico se concibieron para dar prestigio a un espacio destinado al mundo económico y comercial."
+     }
+    }
+   ],
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "AUT-RO-03",
+      "AUT-RO-15"
+     ],
+     "metri": 300
+    }
+   ]
   }
  ]
 }

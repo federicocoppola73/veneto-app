@@ -1,5 +1,5 @@
 {
- "versione": "4d5fdaeaad4f",
+ "versione": "68ae44668bc2",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -450,6 +450,21 @@
    "path": "assets/luoghi/palazzo-manfredini_2.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-manfredini_2.webp",
    "sha256": "7eac79d55f6e6ae4bb8ad10fecc44bb7fdfb4fe5f941a07dd2edce99ee408dcb"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pretorio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-pretorio.webp",
+   "sha256": "1c255f9ca2e0dba61a21e98e77bdf55a2c5617bab3f1555e9a546466278392a0"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pretorio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-pretorio_2.webp",
+   "sha256": "fd5b7db440bb3af1354f7b8b382abac307d780a9a20df08e8f7cdceb555da7bf"
+  },
+  {
+   "path": "assets/luoghi/palazzo-pretorio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/assets/luoghi/palazzo-pretorio_3.webp",
+   "sha256": "ebdbd5282c524872dcde5136a73e7ccb812095d0b46edabad9fe95e5eef9509f"
   },
   {
    "path": "assets/luoghi/palazzo-roncale.webp",
@@ -5399,7 +5414,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/immagini.json",
-   "sha256": "101c1e5637d59e4ca9614a45f2815d843f6d0e515ffacb6ef296ae7efc742d7f"
+   "sha256": "f8db7f1334eb793d1e01b3d6dc3e9ac9a9e5ec2ac2d5fc8268ea4ba9af35aa41"
   },
   {
    "path": "dati/itinerari.json",
@@ -5409,7 +5424,7 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json",
-   "sha256": "258e9d5f4eb19904af596aff0cd63bffb84ff845048d4f2d6da80cdfb9546d54"
+   "sha256": "2a80554f03182baa49cac9a5142b7e837371d2a3fc7ef132bd2dbf1c3fef5db1"
   },
   {
    "path": "dati/mappa.json",
