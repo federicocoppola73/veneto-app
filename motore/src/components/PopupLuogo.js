@@ -9,6 +9,7 @@ import { coloreApertura, statoApertura, testoApertura } from '../orari';
 import IMMAGINI, { GALLERIA } from '../immagini';
 import GalleriaFoto from './GalleriaFoto';
 import RiquadroVideo from './RiquadroVideo';
+import IconeAccessibilita from './Accessibilita';
 import { GRIGIO_CUORE, ROSSO_CUORE, VERDE_VISITATO } from './Preferiti';
 import FermataVaporetto, { TarghettaLinea } from './FermataVaporetto';
 import CondividiLuogo from './CondividiLuogo';
@@ -131,8 +132,12 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             </View>
           )}
 
-          <View style={[styles.badge, { backgroundColor: colore }]}>
-            <Text style={styles.testoBadge}>{passaggio ? t('itin_passaggio') : t(`cat_${luogo.categoria}`)}</Text>
+          {/* categoria e, accanto, le icone di accessibilità (solo con dati verificati) */}
+          <View style={styles.rigaBadge}>
+            <View style={[styles.badge, { backgroundColor: colore }]}>
+              <Text style={styles.testoBadge}>{passaggio ? t('itin_passaggio') : t(`cat_${luogo.categoria}`)}</Text>
+            </View>
+            {!passaggio && <IconeAccessibilita luogo={luogo} lingua={lingua} t={t} />}
           </View>
           <View style={styles.rigaNome}>
             <Text style={[styles.nome, { flex: 1 }]}>{luogo.nome}</Text>
@@ -476,7 +481,8 @@ const styles = StyleSheet.create({
   },
   testoChiudi: { color: '#fff', fontSize: 16, fontWeight: '700' },
   crediti: { fontSize: 11, color: '#6b7280', marginTop: 4, marginBottom: 12 },
-  badge: { alignSelf: 'flex-start', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3, marginBottom: 6 },
+  rigaBadge: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 8, marginBottom: 6 },
+  badge: { alignSelf: 'flex-start', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3 },
   testoBadge: { color: '#fff', fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
   nome: { fontSize: 25, fontWeight: '800', color: '#0f172a' },
   rigaNome: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
