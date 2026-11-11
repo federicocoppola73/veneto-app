@@ -1191,7 +1191,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giambattista-tiepolo"
+      "personaggio": "giambattista-tiepolo",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/castello-est",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso ha quattro gradini (da 12 a 15 cm), senza rampa. All'interno la chiesa è completamente accessibile.",
+            "en": "The entrance has four steps (12 to 15 cm high), with no ramp. Inside, the church is fully accessible.",
+            "fr": "L'entrée comporte quatre marches (de 12 à 15 cm), sans rampe. À l'intérieur, l'église est entièrement accessible.",
+            "de": "Der Eingang hat vier Stufen (12 bis 15 cm hoch), ohne Rampe. Im Inneren ist die Kirche vollständig barrierefrei.",
+            "es": "La entrada tiene cuatro escalones (de 12 a 15 cm), sin rampa. En el interior, la iglesia es totalmente accesible."
+          }
+        }
+      }
     },
     {
       "id": "torcello",
