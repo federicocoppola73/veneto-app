@@ -487,7 +487,20 @@
           }
         }
       ],
-      "personaggio": "jacopo-tintoretto"
+      "personaggio": "jacopo-tintoretto",
+      "accessibilita": {
+        "fonte": "https://www.abbaziasangiorgio.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "L'ingresso alla Basilica ha una scalinata di 7 gradini senza corrimano. Per informazioni e per chiedere assistenza all'accesso si possono contattare in anticipo i monaci benedettini al numero +39 375 6323595.",
+            "en": "The entrance to the Basilica has a flight of 7 steps with no handrail. For information and to request assistance with access, you can contact the Benedictine monks in advance on +39 375 6323595.",
+            "fr": "L'entrée de la Basilique comporte un escalier de 7 marches sans main courante. Pour toute information et pour demander une aide à l'accès, on peut contacter à l'avance les moines bénédictins au +39 375 6323595.",
+            "de": "Der Eingang zur Basilika hat eine Treppe mit 7 Stufen ohne Handlauf. Für Informationen und Unterstützung beim Zugang kann man sich vorab an die Benediktinermönche unter +39 375 6323595 wenden.",
+            "es": "La entrada a la Basílica tiene una escalinata de 7 escalones sin pasamanos. Para información y para solicitar ayuda con el acceso, se puede contactar con antelación con los monjes benedictinos en el +39 375 6323595."
+          }
+        }
+      }
     },
     {
       "id": "redentore",
