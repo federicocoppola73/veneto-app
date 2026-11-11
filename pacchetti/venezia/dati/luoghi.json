@@ -10432,7 +10432,27 @@
             "es": "El Arsenal era el gran complejo productivo naval de la República: aquí se construían y equipaban las naves que sostenían el poderío comercial y militar veneciano. En los periodos de máxima actividad, el complejo empleaba a numerosos trabajadores especializados."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.labiennale.org/it/biennale-educational/la-biennale-accessibile",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Durante le mostre della Biennale l'area espositiva dell'Arsenale è pienamente accessibile, con rampe di accesso e percorsi esterni uniformi. Per chi ha ridotte capacità motorie c'è un servizio di cortesia con auto elettriche; sedie a rotelle e deambulatori si possono chiedere al personale, fino a esaurimento.",
+            "en": "During Biennale exhibitions the Arsenale exhibition area is fully accessible, with access ramps and even outdoor paths. A courtesy service with electric cars is available for people with reduced mobility; wheelchairs and walkers can be requested from staff, subject to availability.",
+            "fr": "Pendant les expositions de la Biennale, l'espace d'exposition de l'Arsenale est entièrement accessible, avec des rampes d'accès et des parcours extérieurs plans. Un service de courtoisie en voitures électriques est proposé aux personnes à mobilité réduite ; fauteuils roulants et déambulateurs peuvent être demandés au personnel, dans la limite des disponibilités.",
+            "de": "Während der Biennale-Ausstellungen ist der Ausstellungsbereich des Arsenale vollständig barrierefrei, mit Zugangsrampen und ebenen Außenwegen. Für Menschen mit eingeschränkter Mobilität gibt es einen Shuttle-Service mit Elektroautos; Rollstühle und Rollatoren können beim Personal angefragt werden, solange verfügbar.",
+            "es": "Durante las exposiciones de la Bienal el área expositiva del Arsenale es plenamente accesible, con rampas de acceso y recorridos exteriores uniformes. Para personas con movilidad reducida hay un servicio de cortesía con coches eléctricos; se pueden pedir al personal sillas de ruedas y andadores, hasta agotar existencias."
+          },
+          "ascensore": {
+            "it": "Gli spazi espositivi sono serviti da ascensori.",
+            "en": "The exhibition spaces are served by lifts.",
+            "fr": "Les espaces d'exposition sont desservis par des ascenseurs.",
+            "de": "Die Ausstellungsräume sind mit Aufzügen erreichbar.",
+            "es": "Los espacios expositivos cuentan con ascensores."
+          }
+        }
+      }
     },
     {
       "id": "libreria-marciana",
@@ -12376,7 +12396,20 @@
         "de": "Die Kirche San Lorenzo im Sestiere Castello ist ein Sakralbau sehr alten Ursprungs, dessen Gründung traditionell ins 9. Jahrhundert datiert wird. Der heutige Bau wurde Ende des 16. Jahrhunderts nach einem Entwurf des Architekten Simone Sorella neu errichtet. Zu den markantesten Bauelementen gehört der große zweiseitige Hochaltar des Bildhauers Girolamo Campagna, der den Raum der Gläubigen von dem des ehemaligen Benediktinerklosters trennt. Nachdem die Kirche lange entweiht und für die Öffentlichkeit geschlossen war, wurde sie restauriert und dem kulturellen Leben Venedigs zurückgegeben. Heute beherbergt sie Ocean Space, ein Zentrum für zeitgenössische Kunst und die Sensibilisierung für Meere und Meeresumwelt.",
         "es": "La iglesia de San Lorenzo, situada en el sestiere de Castello, es un edificio religioso de origen muy antiguo, cuya fundación se remonta tradicionalmente al siglo IX. La estructura actual se reconstruyó a finales del siglo XVI según un proyecto del arquitecto Simone Sorella. Entre sus elementos arquitectónicos más singulares destaca el gran altar mayor de doble cara, realizado por el escultor Girolamo Campagna, que separa el espacio de los fieles del del antiguo monasterio benedictino. Tras haber sido desacralizada y cerrada al público durante mucho tiempo, la iglesia fue restaurada y devuelta a la vida cultural veneciana. Hoy alberga Ocean Space, un centro dedicado al arte contemporáneo y a la sensibilización sobre los océanos y el medio marino."
       },
-      "sito": "https://www.ocean-space.org"
+      "sito": "https://www.ocean-space.org",
+      "accessibilita": {
+        "fonte": "https://www.ocean-space.org/plan-your-visit",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Ocean Space è accessibile ai visitatori con disabilità e il percorso dalla fermata di San Zaccaria è senza barriere architettoniche. L'ingresso accessibile è dietro l'angolo, dal lato del chiostro (accesso alla biblioteca pubblica): per assistenza ci si rivolge all'ingresso principale in Campo San Lorenzo.",
+            "en": "Ocean Space is accessible to visitors with disabilities and the route from the San Zaccaria stop has no architectural barriers. The accessible entrance is around the corner, on the cloister side (public library access): for assistance, go to the main entrance in Campo San Lorenzo.",
+            "fr": "Ocean Space est accessible aux visiteurs handicapés et le trajet depuis l'arrêt San Zaccaria ne présente pas d'obstacles architecturaux. L'entrée accessible se trouve au coin, côté cloître (accès à la bibliothèque publique) : pour obtenir de l'aide, adressez-vous à l'entrée principale sur le Campo San Lorenzo.",
+            "de": "Ocean Space ist für Besucher mit Behinderung zugänglich, und der Weg von der Haltestelle San Zaccaria ist barrierefrei. Der barrierefreie Eingang liegt um die Ecke auf der Seite des Kreuzgangs (Zugang zur öffentlichen Bibliothek): Hilfe erhält man am Haupteingang am Campo San Lorenzo.",
+            "es": "Ocean Space es accesible para visitantes con discapacidad y el recorrido desde la parada de San Zaccaria no tiene barreras arquitectónicas. La entrada accesible está a la vuelta de la esquina, junto al claustro (acceso a la biblioteca pública): para recibir asistencia hay que dirigirse a la entrada principal en Campo San Lorenzo."
+          }
+        }
+      }
     },
     {
       "id": "palazzo-malipiero",
