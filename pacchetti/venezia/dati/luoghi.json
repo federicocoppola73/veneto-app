@@ -108,7 +108,27 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "antonio-vivaldi"
+      "personaggio": "antonio-vivaldi",
+      "accessibilita": {
+        "fonte": "https://www.basilicasanmarco.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il personale è disponibile ad assistere le persone con difficoltà motorie e ad accompagnarle all'accesso più adatto alle loro necessità. Durante le celebrazioni e per la preghiera è disponibile una pedana alla Porta dei Fiori.",
+            "en": "Staff are available to assist people with reduced mobility and to accompany them to the entrance best suited to their needs. During services and for prayer, a ramp is available at the Porta dei Fiori.",
+            "fr": "Le personnel est disponible pour aider les personnes à mobilité réduite et les accompagner jusqu'à l'accès le mieux adapté à leurs besoins. Pendant les célébrations et pour la prière, une rampe est disponible à la Porta dei Fiori.",
+            "de": "Das Personal unterstützt Menschen mit eingeschränkter Mobilität und begleitet sie zum für ihre Bedürfnisse am besten geeigneten Eingang. Während der Gottesdienste und zum Gebet steht an der Porta dei Fiori eine Rampe zur Verfügung.",
+            "es": "El personal está disponible para ayudar a las personas con movilidad reducida y acompañarlas al acceso más adecuado a sus necesidades. Durante las celebraciones y para la oración hay una rampa disponible en la Porta dei Fiori."
+          },
+          "ascensore": {
+            "it": "Per raggiungere il Museo, situato al piano superiore della Basilica, sono disponibili un ascensore e un servoscala.",
+            "en": "A lift and a stairlift are available to reach the Museum, on the upper floor of the Basilica.",
+            "fr": "Un ascenseur et un monte-escalier permettent d'accéder au Musée, situé à l'étage supérieur de la Basilique.",
+            "de": "Ein Aufzug und ein Treppenlift führen zum Museum im oberen Stockwerk der Basilika.",
+            "es": "Para llegar al Museo, situado en la planta superior de la Basílica, hay un ascensor y un salvaescaleras."
+          }
+        }
+      }
     },
     {
       "id": "frari",
@@ -3223,7 +3243,27 @@
       "personaggio": [
         "giacomo-casanova",
         "jacopo-tintoretto"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://palazzoducale.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il percorso ordinario è dotato di servizi accessibili. I servizi igienici accessibili si trovano al piano terra. Gli Itinerari Segreti, le Prigioni e l'Armeria non sono accessibili.",
+            "en": "The standard route has accessible facilities. Accessible toilets are on the ground floor. The Secret Itineraries, the Prisons and the Armoury are not accessible.",
+            "fr": "Le parcours ordinaire dispose de services accessibles. Les toilettes accessibles se trouvent au rez-de-chaussée. Les Itinéraires secrets, les Prisons et l'Armurerie ne sont pas accessibles.",
+            "de": "Der reguläre Rundgang verfügt über barrierefreie Einrichtungen. Barrierefreie Toiletten befinden sich im Erdgeschoss. Die Geheimen Wege, die Gefängnisse und die Waffenkammer sind nicht zugänglich.",
+            "es": "El recorrido ordinario cuenta con servicios accesibles. Los aseos accesibles están en la planta baja. Los Itinerarios Secretos, las Prisiones y la Armería no son accesibles."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore completamente accessibile.",
+            "en": "A fully accessible lift is available.",
+            "fr": "Un ascenseur entièrement accessible est disponible.",
+            "de": "Ein vollständig barrierefreier Aufzug ist vorhanden.",
+            "es": "Hay un ascensor totalmente accesible."
+          }
+        }
+      }
     },
     {
       "id": "accademia",
@@ -3303,7 +3343,20 @@
         "jacopo-tintoretto",
         "tiziano-vecellio",
         "giovanni-bellini"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.gallerieaccademia.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "ascensore": {
+            "it": "È presente un ascensore che permette di raggiungere il primo piano del museo.",
+            "en": "A lift gives access to the first floor of the museum.",
+            "fr": "Un ascenseur permet d'accéder au premier étage du musée.",
+            "de": "Ein Aufzug führt in das erste Obergeschoss des Museums.",
+            "es": "Hay un ascensor que permite llegar a la primera planta del museo."
+          }
+        }
+      }
     },
     {
       "id": "ca-rezzonico",
@@ -3387,6 +3440,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://carezzonico.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. Attenzione: il palazzo storico presenta in alcuni punti pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared fully accessible to people with disabilities. Please note: in some places the historic palace has slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Attention : par endroits, le palais historique présente des pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als vollständig barrierefrei. Achtung: Der historische Palast weist stellenweise Neigungen, erhöhte Schwellen und ungleich hohe Stufen auf.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. Atención: en algunos puntos el palacio histórico presenta pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
       }
     },
     {
@@ -3547,6 +3620,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://correr.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "ascensore": {
+            "it": "È disponibile un ascensore di dimensioni limitate (56 × 100 cm), situato al civico 1221B, lateralmente all'Ala Napoleonica. È consigliabile telefonare prima della visita per concordare le modalità di accesso.",
+            "en": "A small lift (56 × 100 cm) is available at number 1221B, beside the Napoleonic Wing. It is advisable to phone before your visit to arrange access.",
+            "fr": "Un ascenseur de dimensions réduites (56 × 100 cm) est disponible au numéro 1221B, sur le côté de l'Aile napoléonienne. Il est conseillé de téléphoner avant la visite pour convenir des modalités d'accès.",
+            "de": "Ein kleiner Aufzug (56 × 100 cm) befindet sich in der Hausnummer 1221B, seitlich des Napoleonischen Flügels. Es empfiehlt sich, vor dem Besuch anzurufen, um den Zugang abzusprechen.",
+            "es": "Hay un ascensor de dimensiones reducidas (56 × 100 cm) en el número 1221B, junto al Ala Napoleónica. Se recomienda llamar antes de la visita para acordar las condiciones de acceso."
+          }
+        }
       }
     },
     {
@@ -3606,6 +3692,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.guggenheim-venice.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Sono disponibili gratuitamente sedie a rotelle. Il personale può fornire assistenza. Diverse piattaforme elevatrici consentono di superare i dislivelli, ma alcune sale delle mostre temporanee non sono raggiungibili.",
+            "en": "Wheelchairs are available free of charge. Staff can provide assistance. Several platform lifts help with changes in level, but some temporary exhibition rooms cannot be reached.",
+            "fr": "Des fauteuils roulants sont disponibles gratuitement. Le personnel peut apporter son aide. Plusieurs plateformes élévatrices permettent de franchir les dénivelés, mais certaines salles des expositions temporaires ne sont pas accessibles.",
+            "de": "Rollstühle stehen kostenlos zur Verfügung. Das Personal kann Unterstützung leisten. Mehrere Hebebühnen überwinden Höhenunterschiede, einige Räume der Wechselausstellungen sind jedoch nicht erreichbar.",
+            "es": "Hay sillas de ruedas disponibles de forma gratuita. El personal puede prestar asistencia. Varias plataformas elevadoras permiten salvar los desniveles, pero algunas salas de las exposiciones temporales no son accesibles."
+          },
+          "visiva": {
+            "it": "È disponibile il progetto «Doppio Senso», con percorsi tattili e riproduzioni di alcune opere. Si possono richiedere ulteriori riproduzioni tattili e schede descrittive. Sono ammessi i cani guida.",
+            "en": "The «Doppio Senso» project offers tactile tours and reproductions of some works. Further tactile reproductions and descriptive sheets can be requested. Guide dogs are welcome.",
+            "fr": "Le projet « Doppio Senso » propose des parcours tactiles et des reproductions de certaines œuvres. D'autres reproductions tactiles et des fiches descriptives peuvent être demandées. Les chiens guides sont admis.",
+            "de": "Das Projekt „Doppio Senso“ bietet Tastrundgänge und Reproduktionen einiger Werke. Weitere tastbare Reproduktionen und Beschreibungen können angefragt werden. Blindenführhunde sind erlaubt.",
+            "es": "Está disponible el proyecto «Doppio Senso», con recorridos táctiles y reproducciones de algunas obras. Se pueden solicitar más reproducciones táctiles y fichas descriptivas. Se admiten perros guía."
+          }
+        }
       }
     },
     {
@@ -3690,7 +3796,27 @@
             "es": "En 1898 la duquesa Felicita Bevilacqua La Masa legó la Ca' Pesaro al Ayuntamiento de Venecia con una voluntad precisa: destinarla a la promoción del arte moderno y ofrecer oportunidades a los jóvenes artistas que tenían dificultades para encontrar espacio en las grandes exposiciones. De esta disposición nació la Fundación Bevilacqua La Masa, que contribuyó a lanzar artistas como Umberto Boccioni, Gino Rossi y Arturo Martini."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://capesaro.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. La pavimentazione può tuttavia presentare leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared fully accessible to people with disabilities. However, the floors may have slight slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Le sol peut toutefois présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als vollständig barrierefrei. Die Böden können jedoch leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen aufweisen.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. No obstante, el suelo puede presentar ligeras pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
+      }
     },
     {
       "id": "palazzo-grassi",
@@ -3965,6 +4091,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://msn.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. Alcune zone possono presentare leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared fully accessible to people with disabilities. Some areas may have slight slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Certaines zones peuvent présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als vollständig barrierefrei. Einige Bereiche können leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen aufweisen.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. Algunas zonas pueden presentar ligeras pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
       }
     },
     {
@@ -9914,6 +10060,19 @@
         "fr": "L'horloge astronomique de 1499 indique les heures, les phases de la lune, les marées et les signes du zodiaque. Au sommet, deux Maures en bronze frappent les heures sur la cloche. Derrière la tour commence la Merceria, la rue qui relie la place au Rialto.",
         "de": "Die astronomische Uhr von 1499 zeigt Stunden, Mondphasen, Gezeiten und Tierkreiszeichen. Oben schlagen zwei bronzene Mohren die Stunden auf der Glocke. Hinter dem Turm beginnt die Merceria, die Straße, die den Platz mit der Rialtobrücke verbindet.",
         "es": "El reloj astronómico de 1499 marca las horas, las fases lunares, las mareas y los signos del zodiaco. En lo alto, dos moros de bronce tocan las horas en la campana. Detrás de la torre empieza la Merceria, la calle que une la plaza con Rialto."
+      },
+      "accessibilita": {
+        "fonte": "https://torreorologio.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "La visita non è accessibile alle persone con difficoltà di deambulazione: gli ambienti sono collegati da scale ripide e strette.",
+            "en": "The visit is not accessible to people with walking difficulties: the rooms are connected by steep, narrow stairs.",
+            "fr": "La visite n'est pas accessible aux personnes ayant des difficultés à marcher : les salles sont reliées par des escaliers raides et étroits.",
+            "de": "Die Besichtigung ist für Menschen mit Gehbeschwerden nicht möglich: Die Räume sind durch steile, schmale Treppen verbunden.",
+            "es": "La visita no es accesible para personas con dificultades para caminar: las salas están conectadas por escaleras empinadas y estrechas."
+          }
+        }
       }
     },
     {
