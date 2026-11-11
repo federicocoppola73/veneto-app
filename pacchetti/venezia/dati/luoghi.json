@@ -3262,11 +3262,11 @@
         "verificato": "2026-11-11",
         "voci": {
           "motoria": {
-            "it": "Il percorso ordinario è dotato di servizi accessibili. I servizi igienici accessibili si trovano al piano terra. Gli Itinerari Segreti, le Prigioni e l'Armeria non sono accessibili.",
-            "en": "The standard route has accessible facilities. Accessible toilets are on the ground floor. The Secret Itineraries, the Prisons and the Armoury are not accessible.",
-            "fr": "Le parcours ordinaire dispose de services accessibles. Les toilettes accessibles se trouvent au rez-de-chaussée. Les Itinéraires secrets, les Prisons et l'Armurerie ne sont pas accessibles.",
-            "de": "Der reguläre Rundgang verfügt über barrierefreie Einrichtungen. Barrierefreie Toiletten befinden sich im Erdgeschoss. Die Geheimen Wege, die Gefängnisse und die Waffenkammer sind nicht zugänglich.",
-            "es": "El recorrido ordinario cuenta con servicios accesibles. Los aseos accesibles están en la planta baja. Los Itinerarios Secretos, las Prisiones y la Armería no son accesibles."
+            "it": "Il percorso ordinario è dotato di servizi accessibili. Gli Itinerari Segreti, le Prigioni e l'Armeria non sono accessibili.",
+            "en": "The standard route has accessible facilities. The Secret Itineraries, the Prisons and the Armoury are not accessible.",
+            "fr": "Le parcours ordinaire dispose de services accessibles. Les Itinéraires secrets, les Prisons et l'Armurerie ne sont pas accessibles.",
+            "de": "Der reguläre Rundgang verfügt über barrierefreie Einrichtungen. Die Geheimen Wege, die Gefängnisse und die Waffenkammer sind nicht zugänglich.",
+            "es": "El recorrido ordinario cuenta con servicios accesibles. Los Itinerarios Secretos, las Prisiones y la Armería no son accesibles."
           },
           "ascensore": {
             "it": "È disponibile un ascensore completamente accessibile.",
@@ -3274,6 +3274,13 @@
             "fr": "Un ascenseur entièrement accessible est disponible.",
             "de": "Ein vollständig barrierefreier Aufzug ist vorhanden.",
             "es": "Hay un ascensor totalmente accesible."
+          },
+          "servizi": {
+            "it": "I servizi igienici accessibili si trovano al piano terra.",
+            "en": "Accessible toilets are on the ground floor.",
+            "fr": "Les toilettes accessibles se trouvent au rez-de-chaussée.",
+            "de": "Barrierefreie Toiletten befinden sich im Erdgeschoss.",
+            "es": "Los aseos accesibles están en la planta baja."
           }
         }
       }
@@ -3944,6 +3951,231 @@
             "fr": "Un ascenseur est à la disposition des visiteurs.",
             "de": "Für Besucher steht ein Aufzug zur Verfügung.",
             "es": "Hay un ascensor a disposición de los visitantes."
+          },
+          "servizi": {
+            "it": "Sono presenti servizi igienici per i visitatori.",
+            "en": "Toilets are available for visitors.",
+            "fr": "Des toilettes sont à la disposition des visiteurs.",
+            "de": "Für Besucher stehen Toiletten zur Verfügung.",
+            "es": "Hay aseos a disposición de los visitantes."
+          }
+        }
+      }
+    },
+    {
+      "id": "galleria-arte-moderna",
+      "nome": "Galleria Internazionale d'Arte Moderna",
+      "categoria": "musei",
+      "sestiere": "Santa Croce",
+      "fermata": "San Stae",
+      "orari": [
+        {
+          "giorni": "tutti",
+          "ore": "10:00–18:00",
+          "periodo": "04-01/10-31"
+        },
+        {
+          "giorni": "tutti",
+          "ore": "10:00–17:00",
+          "periodo": "11-01/03-31"
+        }
+      ],
+      "chiuso": [
+        "lun"
+      ],
+      "latitudine": 45.44108,
+      "longitudine": 12.33132,
+      "sito": "https://capesaro.visitmuve.it",
+      "biglietto": {
+        "intero": 15,
+        "ridotto": 7.5,
+        "nota": {
+          "it": "Un unico biglietto vale per la Galleria Internazionale d'Arte Moderna e per il Museo d'Arte Orientale. In alternativa c'è il biglietto I Musei del Moderno e Contemporaneo (Ca' Pesaro, Museo Fortuny e MUVEC a Mestre): 20 €, ridotto 10 €.",
+          "en": "A single ticket covers both the International Gallery of Modern Art and the Museum of Oriental Art. Alternatively, the Modern and Contemporary Museums ticket (Ca' Pesaro, Museo Fortuny and MUVEC in Mestre): €20, reduced €10.",
+          "fr": "Un billet unique donne accès à la Galerie internationale d'art moderne et au Musée d'art oriental. Sinon, billet Musées du moderne et du contemporain (Ca' Pesaro, Musée Fortuny et MUVEC à Mestre) : 20 €, réduit 10 €.",
+          "de": "Ein einziges Ticket gilt für die Internationale Galerie für Moderne Kunst und das Museum für Orientalische Kunst. Alternativ gibt es das Ticket der Museen der Moderne und Gegenwart (Ca' Pesaro, Museo Fortuny und MUVEC in Mestre): 20 €, ermäßigt 10 €.",
+          "es": "Una única entrada sirve para la Galería Internacional de Arte Moderno y el Museo de Arte Oriental. También existe la entrada Museos de lo Moderno y lo Contemporáneo (Ca' Pesaro, Museo Fortuny y MUVEC en Mestre): 20 €, reducida 10 €."
+        }
+      },
+      "descrizione": {
+        "it": "La Galleria Internazionale d'Arte Moderna di Ca' Pesaro custodisce una delle più importanti raccolte italiane di arte moderna e contemporanea. Il percorso espositivo racconta l'evoluzione artistica tra Ottocento e Novecento, dalle prime sperimentazioni figurative alle avanguardie storiche, fino alle ricerche contemporanee. La collezione comprende dipinti e sculture di artisti italiani e internazionali, tra cui Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico e Wassily Kandinsky.",
+        "en": "The International Gallery of Modern Art at Ca' Pesaro holds one of Italy's most important collections of modern and contemporary art. The displays trace the development of art between the 19th and 20th centuries, from early figurative experiments to the historical avant-gardes and contemporary research. The collection includes paintings and sculptures by Italian and international artists, including Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico and Wassily Kandinsky.",
+        "fr": "La Galerie internationale d'art moderne de Ca' Pesaro conserve l'une des plus importantes collections italiennes d'art moderne et contemporain. Le parcours retrace l'évolution artistique entre le XIXe et le XXe siècle, des premières expérimentations figuratives aux avant-gardes historiques, jusqu'aux recherches contemporaines. La collection comprend des peintures et sculptures d'artistes italiens et internationaux, dont Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico et Wassily Kandinsky.",
+        "de": "Die Internationale Galerie für Moderne Kunst in Ca' Pesaro besitzt eine der bedeutendsten Sammlungen moderner und zeitgenössischer Kunst in Italien. Der Rundgang zeigt die Entwicklung der Kunst im 19. und 20. Jahrhundert, von den ersten figurativen Experimenten über die historischen Avantgarden bis zur Gegenwart. Die Sammlung umfasst Gemälde und Skulpturen italienischer und internationaler Künstler, darunter Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico und Wassily Kandinsky.",
+        "es": "La Galería Internacional de Arte Moderno de Ca' Pesaro conserva una de las colecciones italianas más importantes de arte moderno y contemporáneo. El recorrido narra la evolución artística entre los siglos XIX y XX, desde las primeras experimentaciones figurativas hasta las vanguardias históricas y la investigación contemporánea. La colección incluye pinturas y esculturas de artistas italianos e internacionales, entre ellos Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico y Wassily Kandinsky."
+      },
+      "nota": {
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "La Giuditta di Klimt",
+            "en": "Klimt's Judith",
+            "fr": "La Judith de Klimt",
+            "de": "Klimts Judith",
+            "es": "La Judith de Klimt"
+          },
+          "testo": {
+            "it": "Tra le opere più celebri della collezione c'è Giuditta II di Gustav Klimt, dipinta nel 1909. Il nucleo storico della Galleria si è formato anche grazie agli acquisti effettuati dal Comune di Venezia durante le prime edizioni della Biennale.",
+            "en": "Among the most famous works in the collection is Judith II by Gustav Klimt, painted in 1909. The Gallery's historical core was also formed through purchases made by the City of Venice at the early editions of the Biennale.",
+            "fr": "Parmi les œuvres les plus célèbres de la collection figure Judith II de Gustav Klimt, peinte en 1909. Le noyau historique de la Galerie s'est aussi constitué grâce aux achats de la Ville de Venise lors des premières éditions de la Biennale.",
+            "de": "Zu den berühmtesten Werken der Sammlung gehört Judith II von Gustav Klimt, gemalt 1909. Der historische Kern der Galerie entstand auch durch Ankäufe der Stadt Venedig auf den ersten Biennalen.",
+            "es": "Entre las obras más célebres de la colección está Judith II de Gustav Klimt, pintada en 1909. El núcleo histórico de la Galería se formó también gracias a las compras del Ayuntamiento de Venecia en las primeras ediciones de la Bienal."
+          }
+        }
+      ],
+      "accessibilita": {
+        "fonte": "https://capesaro.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La Galleria si trova in Ca' Pesaro, edificio dichiarato accessibile. Sono tuttavia presenti alcune caratteristiche architettoniche storiche, come leggere pendenze, soglie rialzate e gradini irregolari.",
+            "en": "The Gallery is in Ca' Pesaro, a building declared accessible. However, there are some historic architectural features, such as slight slopes, raised thresholds and irregular steps.",
+            "fr": "La Galerie se trouve à Ca' Pesaro, bâtiment déclaré accessible. On y trouve toutefois certaines caractéristiques architecturales historiques, comme de légères pentes, des seuils surélevés et des marches irrégulières.",
+            "de": "Die Galerie befindet sich in Ca' Pesaro, einem als barrierefrei geltenden Gebäude. Es gibt jedoch einige historische Gegebenheiten wie leichte Neigungen, erhöhte Schwellen und unregelmäßige Stufen.",
+            "es": "La Galería se encuentra en Ca' Pesaro, edificio declarado accesible. No obstante, presenta algunas características arquitectónicas históricas, como ligeras pendientes, umbrales elevados y escalones irregulares."
+          },
+          "ascensore": {
+            "it": "È disponibile l'ascensore del palazzo.",
+            "en": "The palace lift is available.",
+            "fr": "L'ascenseur du palais est disponible.",
+            "de": "Der Aufzug des Palastes steht zur Verfügung.",
+            "es": "Está disponible el ascensor del palacio."
+          },
+          "visiva": {
+            "it": "È disponibile una proposta di visita plurisensoriale con riproduzione tattile e audiovideodescrizione dell'opera Rabbino di Vitebsk di Marc Chagall.",
+            "en": "A multisensory visit is available, with a tactile reproduction and audio-video description of Marc Chagall's The Rabbi of Vitebsk.",
+            "fr": "Une visite plurisensorielle est proposée, avec reproduction tactile et audio-vidéodescription de l'œuvre Le Rabbin de Vitebsk de Marc Chagall.",
+            "de": "Angeboten wird ein multisensorischer Besuch mit tastbarer Reproduktion und Audio-Video-Beschreibung von Marc Chagalls Werk Der Rabbiner von Witebsk.",
+            "es": "Hay una propuesta de visita multisensorial con reproducción táctil y audiovideodescripción de la obra El rabino de Vitebsk de Marc Chagall."
+          },
+          "cognitiva": {
+            "it": "È disponibile una storia sociale illustrata per preparare autonomamente la visita e conoscere gli ambienti e il percorso museale.",
+            "en": "An illustrated social story is available to prepare the visit independently and get to know the spaces and the museum route.",
+            "fr": "Une histoire sociale illustrée est disponible pour préparer la visite en autonomie et découvrir les espaces et le parcours du musée.",
+            "de": "Eine illustrierte soziale Geschichte hilft, den Besuch selbstständig vorzubereiten und die Räume und den Rundgang kennenzulernen.",
+            "es": "Hay una historia social ilustrada para preparar la visita de forma autónoma y conocer los espacios y el recorrido del museo."
+          },
+          "servizi": {
+            "it": "Sono presenti servizi igienici per i visitatori.",
+            "en": "Toilets are available for visitors.",
+            "fr": "Des toilettes sont à la disposition des visiteurs.",
+            "de": "Für Besucher stehen Toiletten zur Verfügung.",
+            "es": "Hay aseos a disposición de los visitantes."
+          }
+        }
+      }
+    },
+    {
+      "id": "museo-arte-orientale",
+      "nome": "Museo d'Arte Orientale",
+      "categoria": "musei",
+      "sestiere": "Santa Croce",
+      "fermata": "San Stae",
+      "orari": [
+        {
+          "giorni": "tutti",
+          "ore": "10:00–18:00",
+          "periodo": "04-01/10-31"
+        },
+        {
+          "giorni": "tutti",
+          "ore": "10:00–17:00",
+          "periodo": "11-01/03-31"
+        }
+      ],
+      "chiuso": [
+        "lun"
+      ],
+      "latitudine": 45.44092,
+      "longitudine": 12.3316,
+      "sito": "https://orientalevenezia.cultura.gov.it",
+      "biglietto": {
+        "intero": 15,
+        "ridotto": 7.5,
+        "nota": {
+          "it": "Un unico biglietto vale per la Galleria Internazionale d'Arte Moderna e per il Museo d'Arte Orientale. In alternativa c'è il biglietto I Musei del Moderno e Contemporaneo (Ca' Pesaro, Museo Fortuny e MUVEC a Mestre): 20 €, ridotto 10 €.",
+          "en": "A single ticket covers both the International Gallery of Modern Art and the Museum of Oriental Art. Alternatively, the Modern and Contemporary Museums ticket (Ca' Pesaro, Museo Fortuny and MUVEC in Mestre): €20, reduced €10.",
+          "fr": "Un billet unique donne accès à la Galerie internationale d'art moderne et au Musée d'art oriental. Sinon, billet Musées du moderne et du contemporain (Ca' Pesaro, Musée Fortuny et MUVEC à Mestre) : 20 €, réduit 10 €.",
+          "de": "Ein einziges Ticket gilt für die Internationale Galerie für Moderne Kunst und das Museum für Orientalische Kunst. Alternativ gibt es das Ticket der Museen der Moderne und Gegenwart (Ca' Pesaro, Museo Fortuny und MUVEC in Mestre): 20 €, ermäßigt 10 €.",
+          "es": "Una única entrada sirve para la Galería Internacional de Arte Moderno y el Museo de Arte Oriental. También existe la entrada Museos de lo Moderno y lo Contemporáneo (Ca' Pesaro, Museo Fortuny y MUVEC en Mestre): 20 €, reducida 10 €."
+        }
+      },
+      "descrizione": {
+        "it": "Il Museo d'Arte Orientale di Venezia conserva una ricca collezione di opere e manufatti provenienti soprattutto dal Giappone, dalla Cina e da altre regioni asiatiche. Il nucleo principale deriva dagli oggetti raccolti da Enrico di Borbone, conte di Bardi, durante un viaggio in Estremo Oriente tra il 1887 e il 1889. Le sale dedicate al Giappone espongono armature e armi del periodo Edo, lacche decorate con la tecnica maki-e, strumenti musicali, abiti ricamati e oggetti della vita quotidiana. La raccolta comprende anche porcellane, giade, tessuti e manufatti provenienti da altre culture asiatiche.",
+        "en": "Venice's Museum of Oriental Art holds a rich collection of works and objects mainly from Japan, China and other parts of Asia. Its core comes from the objects gathered by Henry of Bourbon, Count of Bardi, during a journey to the Far East between 1887 and 1889. The Japanese rooms display Edo-period armour and weapons, lacquerware decorated with the maki-e technique, musical instruments, embroidered garments and everyday objects. The collection also includes porcelain, jade, textiles and artefacts from other Asian cultures.",
+        "fr": "Le Musée d'art oriental de Venise conserve une riche collection d'œuvres et d'objets provenant surtout du Japon, de Chine et d'autres régions d'Asie. Son noyau principal provient des objets rassemblés par Henri de Bourbon, comte de Bardi, lors d'un voyage en Extrême-Orient entre 1887 et 1889. Les salles consacrées au Japon présentent armures et armes de l'époque d'Edo, laques décorées selon la technique maki-e, instruments de musique, vêtements brodés et objets de la vie quotidienne. La collection comprend aussi des porcelaines, des jades, des tissus et des objets d'autres cultures asiatiques.",
+        "de": "Das Museum für Orientalische Kunst in Venedig besitzt eine reiche Sammlung von Werken und Gegenständen vor allem aus Japan, China und anderen Teilen Asiens. Ihr Kern stammt aus den Objekten, die Heinrich von Bourbon, Graf von Bardi, auf einer Reise in den Fernen Osten zwischen 1887 und 1889 zusammentrug. Die Japan-Säle zeigen Rüstungen und Waffen der Edo-Zeit, Lackarbeiten in Maki-e-Technik, Musikinstrumente, bestickte Gewänder und Alltagsgegenstände. Zur Sammlung gehören auch Porzellan, Jade, Textilien und Objekte anderer asiatischer Kulturen.",
+        "es": "El Museo de Arte Oriental de Venecia conserva una rica colección de obras y objetos procedentes sobre todo de Japón, China y otras regiones de Asia. Su núcleo principal procede de los objetos reunidos por Enrique de Borbón, conde de Bardi, durante un viaje al Extremo Oriente entre 1887 y 1889. Las salas dedicadas a Japón exponen armaduras y armas del período Edo, lacas decoradas con la técnica maki-e, instrumentos musicales, vestidos bordados y objetos de la vida cotidiana. La colección incluye también porcelanas, jades, tejidos y objetos de otras culturas asiáticas."
+      },
+      "nota": {
+        "it": "Ultimo ingresso un'ora prima della chiusura. Ingresso gratuito la prima domenica del mese, il 25 aprile, il 2 giugno e il 4 novembre. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Last admission one hour before closing. Free admission on the first Sunday of the month, 25 April, 2 June and 4 November. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Dernière entrée une heure avant la fermeture. Entrée gratuite le premier dimanche du mois, le 25 avril, le 2 juin et le 4 novembre. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Letzter Einlass eine Stunde vor Schließung. Freier Eintritt am ersten Sonntag im Monat, am 25. April, 2. Juni und 4. November. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Última entrada una hora antes del cierre. Entrada gratuita el primer domingo de cada mes, el 25 de abril, el 2 de junio y el 4 de noviembre. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Un viaggio di trentamila oggetti",
+            "en": "A journey of thirty thousand objects",
+            "fr": "Un voyage de trente mille objets",
+            "de": "Eine Reise mit dreißigtausend Objekten",
+            "es": "Un viaje de treinta mil objetos"
+          },
+          "testo": {
+            "it": "La collezione originaria comprendeva quasi 30.000 oggetti. Dopo diverse vicende, entrò a far parte del patrimonio dello Stato italiano e nel 1928 il museo venne inaugurato all'ultimo piano di Ca' Pesaro.",
+            "en": "The original collection comprised almost 30,000 objects. After various events it became part of the Italian State's heritage, and in 1928 the museum opened on the top floor of Ca' Pesaro.",
+            "fr": "La collection d'origine comptait près de 30 000 objets. Après diverses péripéties, elle entra dans le patrimoine de l'État italien et, en 1928, le musée fut inauguré au dernier étage de Ca' Pesaro.",
+            "de": "Die ursprüngliche Sammlung umfasste fast 30.000 Objekte. Nach wechselvoller Geschichte ging sie in den Besitz des italienischen Staates über, und 1928 wurde das Museum im obersten Stockwerk von Ca' Pesaro eröffnet.",
+            "es": "La colección original comprendía casi 30.000 objetos. Tras diversas vicisitudes pasó a formar parte del patrimonio del Estado italiano y en 1928 el museo se inauguró en la última planta de Ca' Pesaro."
+          }
+        }
+      ],
+      "accessibilita": {
+        "fonte": "https://orientalevenezia.cultura.gov.it/accessibilita/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Nove delle dieci aree espositive sono accessibili alle persone in sedia a rotelle. È presente un gradino all'ingresso del museo: è opportuno chiedere assistenza al personale prima della visita.",
+            "en": "Nine of the ten exhibition areas are accessible to wheelchair users. There is a step at the museum entrance: it is advisable to ask staff for assistance before your visit.",
+            "fr": "Neuf des dix espaces d'exposition sont accessibles aux personnes en fauteuil roulant. Une marche se trouve à l'entrée du musée : il est conseillé de demander l'aide du personnel avant la visite.",
+            "de": "Neun der zehn Ausstellungsbereiche sind für Rollstuhlfahrer zugänglich. Am Museumseingang gibt es eine Stufe: Es empfiehlt sich, vor dem Besuch das Personal um Hilfe zu bitten.",
+            "es": "Nueve de las diez áreas expositivas son accesibles para personas en silla de ruedas. Hay un escalón en la entrada del museo: conviene pedir ayuda al personal antes de la visita."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore che consente di raggiungere nove delle dieci aree espositive.",
+            "en": "A lift gives access to nine of the ten exhibition areas.",
+            "fr": "Un ascenseur permet d'accéder à neuf des dix espaces d'exposition.",
+            "de": "Ein Aufzug erschließt neun der zehn Ausstellungsbereiche.",
+            "es": "Hay un ascensor que permite llegar a nueve de las diez áreas expositivas."
+          },
+          "visiva": {
+            "it": "Sono disponibili visite tattili guidate su prenotazione, con esplorazione di oggetti della collezione. È inoltre disponibile una guida multimediale in versione audio.",
+            "en": "Guided tactile tours are available by reservation, with hands-on exploration of objects from the collection. A multimedia guide is also available in an audio version.",
+            "fr": "Des visites tactiles guidées sont proposées sur réservation, avec exploration d'objets de la collection. Un guide multimédia est aussi disponible en version audio.",
+            "de": "Nach Voranmeldung gibt es geführte Tastführungen, bei denen Objekte der Sammlung ertastet werden. Außerdem gibt es einen Multimedia-Guide in Audioversion.",
+            "es": "Hay visitas táctiles guiadas con reserva, con exploración de objetos de la colección. También hay una guía multimedia en versión audio."
+          },
+          "uditiva": {
+            "it": "La guida multimediale VEASYT offre video in LIS e testi scritti in italiano semplificato.",
+            "en": "The VEASYT multimedia guide offers videos in Italian Sign Language (LIS) and written texts in simplified Italian.",
+            "fr": "Le guide multimédia VEASYT propose des vidéos en langue des signes italienne (LIS) et des textes écrits en italien simplifié.",
+            "de": "Der Multimedia-Guide VEASYT bietet Videos in Italienischer Gebärdensprache (LIS) und Texte in vereinfachtem Italienisch.",
+            "es": "La guía multimedia VEASYT ofrece vídeos en Lengua de Signos Italiana (LIS) y textos escritos en italiano simplificado."
+          },
+          "cognitiva": {
+            "it": "La guida multimediale offre testi in italiano semplificato, utili per facilitare la comprensione dei contenuti.",
+            "en": "The multimedia guide offers texts in simplified Italian, which make the content easier to understand.",
+            "fr": "Le guide multimédia propose des textes en italien simplifié, utiles pour faciliter la compréhension des contenus.",
+            "de": "Der Multimedia-Guide bietet Texte in vereinfachtem Italienisch, die das Verständnis der Inhalte erleichtern.",
+            "es": "La guía multimedia ofrece textos en italiano simplificado, útiles para facilitar la comprensión de los contenidos."
           },
           "servizi": {
             "it": "Sono presenti servizi igienici per i visitatori.",
