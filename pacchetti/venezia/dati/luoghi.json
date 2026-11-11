@@ -5344,7 +5344,27 @@
             "es": "La casa natal de Carlo Goldoni es conocida como Ca' Centanni o Ca' Centani, por el nombre de la familia que la había alquilado a sus propietarios, los Rizzi. En el palacio se había instalado también una academia artística y literaria. Los Goldoni vivieron allí solo hasta 1719, cuando Carlo tenía doce años. Un detalle curioso es que el nombre con el que hoy conocemos el palacio procede, por tanto, de familias distintas a la del célebre comediógrafo."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://carlogoldoni.visitmuve.it/it/pianifica-la-tua-visita/accessibilita/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è collocato in un palazzo storico vincolato: la pavimentazione può presentare leggere pendenze, soglie rilevate o gradini di altezza diseguale. Si prega di prestare grande attenzione.",
+            "en": "The museum is in a listed historic palace: the floors may have slight slopes, raised thresholds or steps of uneven height. Please take great care.",
+            "fr": "Le musée se trouve dans un palais historique classé : le sol peut présenter de légères pentes, des seuils surélevés ou des marches de hauteur inégale. Merci d'être très attentifs.",
+            "de": "Das Museum befindet sich in einem denkmalgeschützten historischen Palast: Die Böden können leichte Neigungen, erhöhte Schwellen oder ungleich hohe Stufen aufweisen. Bitte seien Sie sehr vorsichtig.",
+            "es": "El museo se encuentra en un palacio histórico protegido: el suelo puede presentar ligeras pendientes, umbrales elevados o escalones de altura desigual. Se ruega prestar mucha atención."
+          },
+          "ascensore": {
+            "it": "È presente un ascensore che porta i visitatori al primo piano.",
+            "en": "A lift takes visitors to the first floor.",
+            "fr": "Un ascenseur conduit les visiteurs au premier étage.",
+            "de": "Ein Aufzug bringt die Besucher in das erste Obergeschoss.",
+            "es": "Hay un ascensor que lleva a los visitantes a la primera planta."
+          }
+        }
+      }
     },
     {
       "id": "palazzo-mocenigo",
