@@ -1713,7 +1713,20 @@
             "es": "Según una tradición veneciana, en el año 944 unos piratas raptaron a doce jóvenes prometidas en matrimonio durante la celebración de las bodas. El dux logró liberarlas y, para recordar el episodio, acudía cada año a rezar a la iglesia de Santa Maria Formosa. De esta historia nació la Festa delle Marie, una de las antiguas celebraciones populares de Venecia."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.chorusvenezia.org",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso della chiesa su Campo Santa Maria Formosa è senza gradini: i due gradini che c'erano in origine davanti al portale sono stati livellati quando è stata rialzata la pavimentazione del campo.",
+            "en": "The church entrance on Campo Santa Maria Formosa is step-free: the two steps that originally stood in front of the doorway were levelled when the paving of the square was raised.",
+            "fr": "L'entrée de l'église sur le Campo Santa Maria Formosa est sans marches : les deux marches qui se trouvaient à l'origine devant le portail ont été nivelées lors du rehaussement du pavage du campo.",
+            "de": "Der Kircheneingang am Campo Santa Maria Formosa ist stufenlos: Die beiden ursprünglichen Stufen vor dem Portal wurden beim Anheben des Platzpflasters ausgeglichen.",
+            "es": "La entrada de la iglesia en el Campo Santa Maria Formosa no tiene escalones: los dos escalones que había originalmente ante el portal quedaron nivelados al elevarse el pavimento del campo."
+          }
+        }
+      }
     },
     {
       "id": "ospedaletto",
