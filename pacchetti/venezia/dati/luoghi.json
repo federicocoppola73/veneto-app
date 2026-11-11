@@ -3876,9 +3876,15 @@
         "lun"
       ],
       "biglietto": {
-        "intero": 20,
-        "ridotto": 10,
-        "nota": "b_moderno"
+        "intero": 15,
+        "ridotto": 7.5,
+        "nota": {
+          "it": "Un unico biglietto vale per la Galleria Internazionale d'Arte Moderna e per il Museo d'Arte Orientale. In alternativa c'è il biglietto I Musei del Moderno e Contemporaneo (Ca' Pesaro, Museo Fortuny e MUVEC a Mestre): 20 €, ridotto 10 €.",
+          "en": "A single ticket covers both the International Gallery of Modern Art and the Museum of Oriental Art. Alternatively, the Modern and Contemporary Museums ticket (Ca' Pesaro, Museo Fortuny and MUVEC in Mestre): €20, reduced €10.",
+          "fr": "Un billet unique donne accès à la Galerie internationale d'art moderne et au Musée d'art oriental. Sinon, billet Musées du moderne et du contemporain (Ca' Pesaro, Musée Fortuny et MUVEC à Mestre) : 20 €, réduit 10 €.",
+          "de": "Ein einziges Ticket gilt für die Internationale Galerie für Moderne Kunst und das Museum für Orientalische Kunst. Alternativ gibt es das Ticket der Museen der Moderne und Gegenwart (Ca' Pesaro, Museo Fortuny und MUVEC in Mestre): 20 €, ermäßigt 10 €.",
+          "es": "Una única entrada sirve para la Galería Internacional de Arte Moderno y el Museo de Arte Oriental. También existe la entrada Museos de lo Moderno y lo Contemporáneo (Ca' Pesaro, Museo Fortuny y MUVEC en Mestre): 20 €, reducida 10 €."
+        }
       },
       "immagine": {
         "autore": "Wolfgang Moroder",
