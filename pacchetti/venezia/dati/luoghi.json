@@ -959,11 +959,11 @@
         "verificato": "2026-11-11",
         "voci": {
           "motoria": {
-            "it": "L'ingresso principale ha dei gradini sul portale: per superarli in sedia a rotelle serve l'aiuto di un accompagnatore o del personale. Alcune aree rialzate o cappelle laterali minori potrebbero avere altri piccoli gradini.",
-            "en": "The main entrance has steps at the doorway: wheelchair users need help from a companion or staff to get past them. Some raised areas or smaller side chapels may have further small steps.",
-            "fr": "L'entrée principale comporte des marches au portail : en fauteuil roulant, il faut l'aide d'un accompagnateur ou du personnel pour les franchir. Certaines zones surélevées ou petites chapelles latérales peuvent présenter d'autres petites marches.",
-            "de": "Am Hauptportal gibt es Stufen: Rollstuhlfahrer brauchen dafür die Hilfe einer Begleitperson oder des Personals. Einige erhöhte Bereiche oder kleinere Seitenkapellen können weitere kleine Stufen haben.",
-            "es": "La entrada principal tiene escalones en el portal: para salvarlos en silla de ruedas se necesita la ayuda de un acompañante o del personal. Algunas zonas elevadas o capillas laterales menores pueden tener otros pequeños escalones."
+            "it": "L'ingresso principale ha dei gradini sul portale: per superarli in sedia a rotelle serve l'aiuto di un accompagnatore o del personale. Alcune aree rialzate o cappelle laterali minori potrebbero avere altri piccoli gradini. La sacrestia si raggiunge superando due gradini da 10 cm. A causa del cantiere di restauro, gli ambienti interni possono essere ammirati solo dall'ingresso.",
+            "en": "The main entrance has steps at the doorway: wheelchair users need help from a companion or staff to get past them. Some raised areas or smaller side chapels may have further small steps. The sacristy is reached by two 10 cm steps. Because of restoration work, the interior can only be viewed from the entrance.",
+            "fr": "L'entrée principale comporte des marches au portail : en fauteuil roulant, il faut l'aide d'un accompagnateur ou du personnel pour les franchir. Certaines zones surélevées ou petites chapelles latérales peuvent présenter d'autres petites marches. La sacristie est accessible en franchissant deux marches de 10 cm. En raison du chantier de restauration, l'intérieur ne peut être admiré que depuis l'entrée.",
+            "de": "Am Hauptportal gibt es Stufen: Rollstuhlfahrer brauchen dafür die Hilfe einer Begleitperson oder des Personals. Einige erhöhte Bereiche oder kleinere Seitenkapellen können weitere kleine Stufen haben. Die Sakristei erreicht man über zwei 10 cm hohe Stufen. Wegen Restaurierungsarbeiten kann der Innenraum nur vom Eingang aus besichtigt werden.",
+            "es": "La entrada principal tiene escalones en el portal: para salvarlos en silla de ruedas se necesita la ayuda de un acompañante o del personal. Algunas zonas elevadas o capillas laterales menores pueden tener otros pequeños escalones. A la sacristía se llega superando dos escalones de 10 cm. Por las obras de restauración, el interior solo se puede admirar desde la entrada."
           }
         }
       }
@@ -1173,7 +1173,20 @@
             "es": "La iglesia de San Marcuola, frente al Gran Canal, presenta una particularidad evidente: su fachada principal quedó inacabada. La reconstrucción del siglo XVIII se encargó a Giorgio Massari, quien logró completar el interior pero no la fachada. El campanario también quedó sin terminar. Es la pequeña historia de un proyecto arquitectónico que se quedó a medio camino, todavía visible hoy para quien pasa por el Gran Canal."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/cannaregio-ovest-0",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Gli ingressi sul Canal Grande non sono accessibili per la presenza di quattro gradini. Sulla facciata posteriore ci sono due ingressi: uno con un gradino di 8 cm, l'altro allo stesso livello della calle.",
+            "en": "The entrances on the Grand Canal are not accessible because of four steps. On the rear façade there are two entrances: one with an 8 cm step, the other level with the street.",
+            "fr": "Les entrées côté Grand Canal ne sont pas accessibles en raison de quatre marches. Sur la façade arrière, il y a deux entrées : l'une avec une marche de 8 cm, l'autre au niveau de la ruelle.",
+            "de": "Die Eingänge am Canal Grande sind wegen vier Stufen nicht barrierefrei. An der Rückseite gibt es zwei Eingänge: einer mit einer 8 cm hohen Stufe, der andere ebenerdig zur Gasse.",
+            "es": "Las entradas sobre el Gran Canal no son accesibles por la presencia de cuatro escalones. En la fachada trasera hay dos entradas: una con un escalón de 8 cm y otra al mismo nivel de la calle."
+          }
+        }
+      }
     },
     {
       "id": "san-pietro-castello",
@@ -2437,7 +2450,20 @@
             "de": "An der äußeren Apsis der Kirche ist eine mittelalterliche Inschrift eingemeißelt, die fast wie eine Handelsordnung klingt: Sie fordert die Kaufleute auf, richtige Gewichte zu verwenden und ehrliche Verträge zu schließen. Es ist kein bloßer religiöser Spruch, sondern zeugt von der engen Verbindung zwischen der Kirche und dem Markt von Rialto. Das Gotteshaus stand mitten im wichtigsten Handelsviertel Venedigs und beherbergte auch die Altäre einiger Zunftgemeinschaften."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/rialto-mercato",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Sia l'ingresso principale sia quello laterale hanno cinque gradini. La chiesa ospita anche il Museo della Musica: per informazioni tel. 348 2815492.",
+            "en": "Both the main and the side entrance have five steps. The church also houses the Music Museum: for information call 348 2815492.",
+            "fr": "L'entrée principale comme l'entrée latérale comportent cinq marches. L'église abrite aussi le Musée de la Musique : renseignements au 348 2815492.",
+            "de": "Sowohl der Haupt- als auch der Seiteneingang haben fünf Stufen. In der Kirche befindet sich auch das Musikmuseum: Informationen unter Tel. 348 2815492.",
+            "es": "Tanto la entrada principal como la lateral tienen cinco escalones. La iglesia alberga también el Museo de la Música: información en el tel. 348 2815492."
+          }
+        }
+      }
     },
     {
       "id": "san-salvador",
@@ -4231,6 +4257,13 @@
             "fr": "Un ascenseur de dimensions réduites (56 × 100 cm) est disponible au numéro 1221B, sur le côté de l'Aile napoléonienne. Il est conseillé de téléphoner avant la visite pour convenir des modalités d'accès.",
             "de": "Ein kleiner Aufzug (56 × 100 cm) befindet sich in der Hausnummer 1221B, seitlich des Napoleonischen Flügels. Es empfiehlt sich, vor dem Besuch anzurufen, um den Zugang abzusprechen.",
             "es": "Hay un ascensor de dimensiones reducidas (56 × 100 cm) en el número 1221B, junto al Ala Napoleónica. Se recomienda llamar antes de la visita para acordar las condiciones de acceso."
+          },
+          "servizi": {
+            "it": "Al primo piano, insieme a biglietteria e caffetteria, ci sono servizi igienici accessibili.",
+            "en": "On the first floor, along with the ticket office and café, there are accessible toilets.",
+            "fr": "Au premier étage, avec la billetterie et la cafétéria, se trouvent des toilettes accessibles.",
+            "de": "Im ersten Stock gibt es neben Kasse und Café barrierefreie Toiletten.",
+            "es": "En la primera planta, junto a la taquilla y la cafetería, hay aseos accesibles."
           }
         }
       }
@@ -4993,6 +5026,13 @@
             "fr": "Un ascenseur est à la disposition des visiteurs.",
             "de": "Für Besucher steht ein Aufzug zur Verfügung.",
             "es": "Hay un ascensor a disposición de los visitantes."
+          },
+          "servizi": {
+            "it": "I servizi igienici del museo sono accessibili.",
+            "en": "The museum's toilets are accessible.",
+            "fr": "Les toilettes du musée sont accessibles.",
+            "de": "Die Toiletten des Museums sind barrierefrei.",
+            "es": "Los aseos del museo son accesibles."
           }
         }
       }
@@ -5085,11 +5125,11 @@
         "verificato": "2026-11-11",
         "voci": {
           "motoria": {
-            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. In alcuni punti del palazzo storico possono essere presenti leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
-            "en": "The museum is declared fully accessible to people with disabilities. In some parts of the historic palace there may be slight slopes, raised thresholds and steps of uneven height.",
-            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Par endroits, le palais historique peut présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
-            "de": "Das Museum gilt als vollständig barrierefrei. In einigen Bereichen des historischen Palastes können leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen vorkommen.",
-            "es": "El museo se declara totalmente accesible para personas con discapacidad. En algunos puntos del palacio histórico puede haber ligeras pendientes, umbrales elevados y escalones de altura desigual."
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. In alcuni punti del palazzo storico possono essere presenti leggere pendenze, soglie rialzate e gradini di altezza diseguale. All'ingresso c'è un gradino di 10 cm; le sale espositive sono accessibili tramite rampe e una piattaforma interna.",
+            "en": "The museum is declared fully accessible to people with disabilities. In some parts of the historic palace there may be slight slopes, raised thresholds and steps of uneven height. There is a 10 cm step at the entrance; the exhibition rooms are accessible via ramps and an internal platform lift.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Par endroits, le palais historique peut présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale. Il y a une marche de 10 cm à l'entrée ; les salles d'exposition sont accessibles par des rampes et une plateforme intérieure.",
+            "de": "Das Museum gilt als vollständig barrierefrei. In einigen Bereichen des historischen Palastes können leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen vorkommen. Am Eingang gibt es eine 10 cm hohe Stufe; die Ausstellungsräume sind über Rampen und eine Innenplattform zugänglich.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. En algunos puntos del palacio histórico puede haber ligeras pendientes, umbrales elevados y escalones de altura desigual. En la entrada hay un escalón de 10 cm; las salas expositivas son accesibles mediante rampas y una plataforma interior."
           },
           "ascensore": {
             "it": "È disponibile un ascensore per i visitatori.",
@@ -5932,7 +5972,20 @@
             "es": "La iglesia de San Martino custodiaba algunas reliquias del santo. Una tibia fue cedida a la Scuola Grande para financiar las obras de restauración, con una condición especial: cada 11 de noviembre debía ser llevada de nuevo a Castello en una solemne procesión."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/frari",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'edificio è accessibile solo al piano terra: per entrare nella Sala delle Colonne si supera un gradino di 5 cm. Lo scalone monumentale del Codussi che porta al primo piano non ha ausili. La Scuola apre al pubblico solo occasionalmente: per informazioni tel. 041 718234.",
+            "en": "The building is accessible only on the ground floor: there is a 5 cm step into the Hall of Columns. Codussi's monumental staircase to the first floor has no aids. The Scuola opens to the public only occasionally: for information call 041 718234.",
+            "fr": "Le bâtiment n'est accessible qu'au rez-de-chaussée : une marche de 5 cm mène à la Salle des Colonnes. Le grand escalier de Codussi qui monte au premier étage n'a pas d'aides. La Scuola n'ouvre au public qu'occasionnellement : renseignements au 041 718234.",
+            "de": "Das Gebäude ist nur im Erdgeschoss zugänglich: In den Säulensaal führt eine 5 cm hohe Stufe. Die Prunktreppe von Codussi in den ersten Stock hat keine Hilfsmittel. Die Scuola ist nur gelegentlich geöffnet: Informationen unter Tel. 041 718234.",
+            "es": "El edificio solo es accesible en la planta baja: para entrar en la Sala de las Columnas hay un escalón de 5 cm. La escalera monumental de Codussi que sube a la primera planta no tiene ayudas. La Scuola abre al público solo ocasionalmente: información en el tel. 041 718234."
+          }
+        }
+      }
     },
     {
       "id": "casa-goldoni",
@@ -6460,6 +6513,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/rialto",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "La scala è aperta alle visite ma non c'è ascensore.",
+            "en": "The staircase is open to visitors but there is no lift.",
+            "fr": "L'escalier est ouvert aux visites mais il n'y a pas d'ascenseur.",
+            "de": "Die Treppe kann besichtigt werden, es gibt aber keinen Aufzug.",
+            "es": "La escalera está abierta a las visitas, pero no hay ascensor."
+          }
+        }
       }
     },
     {
@@ -8138,6 +8204,33 @@
         "fr": "À côté du pont de l'Accademia, c'est un palais gothique du XVe siècle transformé à la fin du XIXe siècle pour le baron Franchetti, avec de riches décors néogothiques et un jardin donnant sur le canal. Depuis 1999, il appartient à l'Istituto Veneto di Scienze, Lettere ed Arti, qui y organise expositions et rencontres.",
         "de": "Neben der Accademia-Brücke steht dieser gotische Palast aus dem 15. Jahrhundert, Ende des 19. Jahrhunderts für Baron Franchetti umgestaltet, mit reicher neugotischer Ausstattung und einem Garten zum Kanal. Seit 1999 gehört er dem Istituto Veneto di Scienze, Lettere ed Arti, das hier Ausstellungen und Vorträge veranstaltet.",
         "es": "Junto al Puente de la Accademia, es un palacio gótico del siglo XV transformado a finales del siglo XIX para el barón Franchetti, con ricas decoraciones neogóticas y un jardín asomado al canal. Desde 1999 pertenece al Istituto Veneto di Scienze, Lettere ed Arti, que organiza aquí exposiciones y encuentros."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/s-stefano",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "I tre ingressi hanno degli scalini, ma su richiesta o in occasione di eventi vengono collocate delle pedane mobili. All'interno l'edificio è accessibile.",
+            "en": "All three entrances have steps, but mobile ramps are put in place on request or during events. Inside, the building is accessible.",
+            "fr": "Les trois entrées comportent des marches, mais des rampes mobiles sont installées sur demande ou lors d'événements. À l'intérieur, le bâtiment est accessible.",
+            "de": "Alle drei Eingänge haben Stufen, auf Anfrage oder bei Veranstaltungen werden jedoch mobile Rampen aufgestellt. Im Inneren ist das Gebäude barrierefrei.",
+            "es": "Las tres entradas tienen escalones, pero a petición o con motivo de eventos se colocan rampas móviles. En el interior el edificio es accesible."
+          },
+          "ascensore": {
+            "it": "Un ascensore collega il piano terra (zona convegni e caffetteria) al primo piano, dove si trovano gli spazi espositivi.",
+            "en": "A lift connects the ground floor (conference area and café) with the first floor, where the exhibition spaces are.",
+            "fr": "Un ascenseur relie le rez-de-chaussée (espace congrès et cafétéria) au premier étage, où se trouvent les espaces d'exposition.",
+            "de": "Ein Aufzug verbindet das Erdgeschoss (Kongressbereich und Café) mit dem ersten Stock, in dem sich die Ausstellungsräume befinden.",
+            "es": "Un ascensor une la planta baja (zona de congresos y cafetería) con la primera planta, donde están los espacios expositivos."
+          },
+          "servizi": {
+            "it": "Al piano terra si trovano i servizi igienici.",
+            "en": "Toilets are on the ground floor.",
+            "fr": "Les toilettes se trouvent au rez-de-chaussée.",
+            "de": "Die Toiletten befinden sich im Erdgeschoss.",
+            "es": "Los aseos están en la planta baja."
+          }
+        }
       }
     },
     {
@@ -8679,6 +8772,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/cannaregio-ovest-0",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il ponte ha una rampa a gradino agevolato per le carrozzine: 5 gradini bassi (alzata 12,5 cm) e profondi (pedata 93 cm), da superare con l'aiuto di un accompagnatore.",
+            "en": "The bridge has an easy-step ramp for wheelchairs: 5 low (12.5 cm rise) and deep (93 cm tread) steps, to be crossed with the help of a companion.",
+            "fr": "Le pont dispose d'une rampe à marches facilitées pour les fauteuils roulants : 5 marches basses (12,5 cm de hauteur) et profondes (93 cm de giron), à franchir avec l'aide d'un accompagnateur.",
+            "de": "Die Brücke hat eine Rampe mit erleichterten Stufen für Rollstühle: 5 niedrige (12,5 cm hoch) und tiefe (93 cm Auftritt) Stufen, die mit Hilfe einer Begleitperson zu überwinden sind.",
+            "es": "El puente tiene una rampa de escalones facilitados para sillas de ruedas: 5 escalones bajos (12,5 cm de altura) y profundos (93 cm de huella), que se superan con la ayuda de un acompañante."
+          }
+        }
       }
     },
     {
@@ -9816,6 +9922,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+        "verificato": "2026-11-11",
+        "voci": {
+          "servizi": {
+            "it": "I giardini sono dotati di servizi igienici accessibili.",
+            "en": "The gardens have accessible toilets.",
+            "fr": "Les jardins disposent de toilettes accessibles.",
+            "de": "Die Gärten verfügen über barrierefreie Toiletten.",
+            "es": "Los jardines cuentan con aseos accesibles."
+          }
+        }
       }
     },
     {
@@ -10230,6 +10349,19 @@
         "fr": "Créé en 1516, c'est le premier ghetto de l'histoire : le mot vient justement du « getto » (coulée) des fonderies qui s'y trouvaient. On y voit les hautes maisons, les cinq synagogues historiques (visitables avec le Musée juif) et le Campo del Ghetto Novo.",
         "de": "1516 eingerichtet, war es das erste Ghetto der Geschichte: Das Wort stammt vom „getto“ (Guss) der Gießereien, die hier standen. Zu sehen sind die hohen Häuser, die fünf historischen Synagogen (Besichtigung mit dem Jüdischen Museum) und der Campo del Ghetto Novo.",
         "es": "Creado en 1516, es el primer gueto de la historia: la palabra procede precisamente del «getto» (colada) de las fundiciones que había aquí. Se pueden ver las casas altas, las cinco sinagogas históricas (visitables con el Museo Judío) y el Campo del Ghetto Novo."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/cannaregio-ovest-0",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il Ghetto è circondato da canali e collegato alla città da ponti con gradini. Il Ghetto Vecchio si raggiunge senza gradini dalla Fondamenta di Cannaregio, attraverso il sottoportego di Calle del Ghetto Vecchio. Per il Ghetto Nuovo bisogna invece superare un ponte: quello del Ghetto Vecchio ha 9 gradini da 15 cm da un lato e 8 da 17 cm dall'altro, quello in legno da Calle Selle ha 9 gradini.",
+            "en": "The Ghetto is surrounded by canals and linked to the city by stepped bridges. The Ghetto Vecchio can be reached step-free from Fondamenta di Cannaregio, through the sottoportego of Calle del Ghetto Vecchio. To reach the Ghetto Nuovo you have to cross a bridge: the Ghetto Vecchio bridge has nine 15 cm steps on one side and eight 17 cm steps on the other; the wooden bridge from Calle Selle has 9 steps.",
+            "fr": "Le Ghetto est entouré de canaux et relié à la ville par des ponts à marches. On rejoint le Ghetto Vecchio sans marches depuis la Fondamenta di Cannaregio, par le sottoportego de la Calle del Ghetto Vecchio. Pour le Ghetto Nuovo, il faut en revanche franchir un pont : celui du Ghetto Vecchio a 9 marches de 15 cm d'un côté et 8 de 17 cm de l'autre ; le pont en bois depuis la Calle Selle a 9 marches.",
+            "de": "Das Ghetto ist von Kanälen umgeben und über Brücken mit Stufen mit der Stadt verbunden. Das Ghetto Vecchio erreicht man stufenlos von der Fondamenta di Cannaregio durch den Sottoportego der Calle del Ghetto Vecchio. Für das Ghetto Nuovo muss man dagegen eine Brücke überqueren: Die Brücke des Ghetto Vecchio hat auf einer Seite 9 Stufen von 15 cm und auf der anderen 8 von 17 cm, die Holzbrücke von der Calle Selle hat 9 Stufen.",
+            "es": "El Gueto está rodeado de canales y unido a la ciudad por puentes con escalones. Al Ghetto Vecchio se llega sin escalones desde la Fondamenta di Cannaregio, por el sottoportego de la Calle del Ghetto Vecchio. Para el Ghetto Nuovo, en cambio, hay que cruzar un puente: el del Ghetto Vecchio tiene 9 escalones de 15 cm por un lado y 8 de 17 cm por el otro; el puente de madera desde Calle Selle tiene 9 escalones."
+          }
+        }
       }
     },
     {
@@ -10364,7 +10496,27 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "veronica-franco"
+      "personaggio": "veronica-franco",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Le sale monumentali della Biblioteca si raggiungono dal primo piano del Museo Correr, nel circuito dei Musei di Piazza San Marco. È consigliabile telefonare prima della visita (041 2967663).",
+            "en": "The Library's monumental rooms are reached from the first floor of the Museo Correr, as part of the St Mark's Square Museums circuit. It is advisable to phone before your visit (041 2967663).",
+            "fr": "Les salles monumentales de la Bibliothèque sont accessibles depuis le premier étage du Musée Correr, dans le circuit des Musées de la place Saint-Marc. Il est conseillé de téléphoner avant la visite (041 2967663).",
+            "de": "Die Prunksäle der Bibliothek erreicht man vom ersten Stock des Museo Correr aus, im Rundgang der Museen am Markusplatz. Es empfiehlt sich, vor dem Besuch anzurufen (041 2967663).",
+            "es": "Las salas monumentales de la Biblioteca se alcanzan desde la primera planta del Museo Correr, dentro del circuito de los Museos de la Plaza de San Marcos. Se recomienda llamar antes de la visita (041 2967663)."
+          },
+          "ascensore": {
+            "it": "Si sale al primo piano del Museo Correr con l'ascensore che ha ingresso in Calle Salvadago, accompagnati dal personale.",
+            "en": "The first floor of the Museo Correr is reached by the lift entered from Calle Salvadago, accompanied by staff.",
+            "fr": "On monte au premier étage du Musée Correr par l'ascenseur dont l'entrée se trouve Calle Salvadago, accompagné par le personnel.",
+            "de": "In den ersten Stock des Museo Correr gelangt man mit dem Aufzug mit Eingang in der Calle Salvadago, in Begleitung des Personals.",
+            "es": "A la primera planta del Museo Correr se sube con el ascensor cuya entrada está en Calle Salvadago, acompañados por el personal."
+          }
+        }
+      }
     },
     {
       "id": "molino-stucky",
@@ -10816,6 +10968,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/zattere",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Da settembre a giugno il Comune colloca rampe provvisorie sui ponti della Salute, della Calcina, degli Incurabili e Longo, rendendo le Zattere percorribili in carrozzina. Nei mesi estivi le rampe vengono rimosse.",
+            "en": "From September to June the City installs temporary ramps on the Salute, Calcina, Incurabili and Longo bridges, making the Zattere passable by wheelchair. In summer the ramps are removed.",
+            "fr": "De septembre à juin, la Ville installe des rampes provisoires sur les ponts de la Salute, de la Calcina, des Incurabili et Longo, ce qui rend les Zattere praticables en fauteuil roulant. En été, les rampes sont retirées.",
+            "de": "Von September bis Juni stellt die Stadt provisorische Rampen an den Brücken della Salute, della Calcina, degli Incurabili und Longo auf, sodass die Zattere mit dem Rollstuhl befahrbar sind. Im Sommer werden die Rampen entfernt.",
+            "es": "De septiembre a junio el Ayuntamiento coloca rampas provisionales en los puentes de la Salute, la Calcina, los Incurabili y Longo, lo que permite recorrer las Zattere en silla de ruedas. En verano se retiran las rampas."
+          }
+        }
       }
     },
     {
@@ -11296,6 +11461,26 @@
         "fr": "Le campanile, haut de 98 mètres, domine la place Saint-Marc. La tour actuelle a été reconstruite à l'identique et au même endroit après son effondrement en 1902. Depuis la cellule des cloches, la vue embrasse la place, le bassin de Saint-Marc et les toits de la ville.",
         "de": "Der 98 Meter hohe Glockenturm überragt den Markusplatz. Der heutige Turm wurde nach seinem Einsturz 1902 originalgetreu und an derselben Stelle wieder aufgebaut. Vom Glockenraum schweift der Blick über den Platz, das Markusbecken und die Dächer der Stadt.",
         "es": "El campanario, de 98 metros, domina la plaza de San Marcos. La torre actual se reconstruyó tal como era y en el mismo lugar tras su derrumbe en 1902. Desde la cámara de las campanas la vista abarca la plaza, la cuenca de San Marcos y los tejados de la ciudad."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Per arrivare all'ascensore bisogna superare quattro gradini da 17 cm e un gradino da 14 cm: è consigliabile chiedere assistenza al personale chiamando il numero 041 5224064.",
+            "en": "To reach the lift you have to climb four 17 cm steps and one 14 cm step: it is advisable to ask staff for assistance by calling 041 5224064.",
+            "fr": "Pour atteindre l'ascenseur, il faut franchir quatre marches de 17 cm et une marche de 14 cm : il est conseillé de demander l'assistance du personnel au 041 5224064.",
+            "de": "Um den Aufzug zu erreichen, müssen vier Stufen von 17 cm und eine Stufe von 14 cm überwunden werden: Es empfiehlt sich, unter 041 5224064 um Hilfe des Personals zu bitten.",
+            "es": "Para llegar al ascensor hay que superar cuatro escalones de 17 cm y uno de 14 cm: se recomienda pedir asistencia al personal llamando al 041 5224064."
+          },
+          "ascensore": {
+            "it": "All'interno del campanile un ascensore porta in cima.",
+            "en": "Inside the bell tower a lift takes you to the top.",
+            "fr": "À l'intérieur du campanile, un ascenseur mène au sommet.",
+            "de": "Im Inneren des Glockenturms fährt ein Aufzug nach oben.",
+            "es": "Dentro del campanario un ascensor lleva hasta la cima."
+          }
+        }
       }
     },
     {
@@ -11611,6 +11796,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/santi-giovanni-e-paolo",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra senza barriere dalla Fondamenta dei Mendicanti, attraverso l'ospedale. La chiesa è completamente accessibile grazie a una rampa all'ingresso.",
+            "en": "Enter step-free from Fondamenta dei Mendicanti, through the hospital. The church is fully accessible thanks to a ramp at the entrance.",
+            "fr": "On entre sans obstacles par la Fondamenta dei Mendicanti, à travers l'hôpital. L'église est entièrement accessible grâce à une rampe à l'entrée.",
+            "de": "Der Zugang erfolgt barrierefrei über die Fondamenta dei Mendicanti durch das Krankenhaus. Die Kirche ist dank einer Rampe am Eingang vollständig zugänglich.",
+            "es": "Se entra sin barreras desde la Fondamenta dei Mendicanti, a través del hospital. La iglesia es totalmente accesible gracias a una rampa en la entrada."
+          }
+        }
       }
     },
     {
@@ -11869,7 +12067,27 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "carlo-goldoni"
+      "personaggio": "carlo-goldoni",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/rialto",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Le persone con difficoltà motoria entrano da un ingresso secondario. In platea sono disponibili alcuni posti negli ampi spazi delle file centrali.",
+            "en": "People with reduced mobility enter through a secondary entrance. Some places are available in the stalls, in the wide spaces of the central rows.",
+            "fr": "Les personnes à mobilité réduite entrent par une entrée secondaire. Quelques places sont disponibles au parterre, dans les espaces larges des rangées centrales.",
+            "de": "Menschen mit eingeschränkter Mobilität betreten das Theater über einen Nebeneingang. Im Parkett gibt es einige Plätze in den breiten Bereichen der mittleren Reihen.",
+            "es": "Las personas con movilidad reducida entran por una entrada secundaria. En el patio de butacas hay algunas plazas en los espacios amplios de las filas centrales."
+          },
+          "ascensore": {
+            "it": "All'ingresso secondario c'è un elevatore con pedana per sedia a ruote; un servoscala porta poi in platea.",
+            "en": "The secondary entrance has a wheelchair platform lift; a stairlift then takes you to the stalls.",
+            "fr": "L'entrée secondaire dispose d'un élévateur à plateforme pour fauteuil roulant ; un monte-escalier mène ensuite au parterre.",
+            "de": "Am Nebeneingang gibt es einen Plattformlift für Rollstühle; ein Treppenlift führt dann ins Parkett.",
+            "es": "En la entrada secundaria hay un elevador con plataforma para silla de ruedas; después un salvaescaleras lleva al patio de butacas."
+          }
+        }
+      }
     },
     {
       "id": "teatro-san-samuele",
@@ -12619,7 +12837,20 @@
           "ore": "10:00–18:00"
         }
       ],
-      "fermata": "San Samuele"
+      "fermata": "San Samuele",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/s-stefano",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "All'ingresso c'è un gradino, facilmente superabile con l'aiuto di un accompagnatore.",
+            "en": "There is one step at the entrance, easily managed with the help of a companion.",
+            "fr": "Il y a une marche à l'entrée, facile à franchir avec l'aide d'un accompagnateur.",
+            "de": "Am Eingang gibt es eine Stufe, die mit Hilfe einer Begleitperson leicht zu überwinden ist.",
+            "es": "En la entrada hay un escalón, fácil de superar con la ayuda de un acompañante."
+          }
+        }
+      }
     }
   ]
 }
