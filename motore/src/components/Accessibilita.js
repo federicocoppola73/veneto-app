@@ -10,11 +10,17 @@ import { testoLocalizzato } from '../i18n';
 //     "verificato": "2026-11-10",      data dell'ultimo controllo (obbligatoria)
 //     "voci": { "motoria": { "it": "…", "en": "…" }, "ascensore": { … }, … }
 //   }
+// "non_accessibile": luogo non accessibile a persone con disabilità motoria (mobilità barrata, in rosso).
+//   Basta true; con un testo localizzato { "it": "…" } la nota compare sotto la frase standard.
 // Senza fonte o senza data di verifica non compare nessuna icona.
 // Disegni originali in assets/icone/accessibilita/*.svg (griglia 64×64, solo contorno).
 
 // ordine in cui compaiono le icone
-export const TIPI_ACCESSIBILITA = ['motoria', 'ascensore', 'visiva', 'tattile', 'uditiva', 'cognitiva'];
+export const TIPI_ACCESSIBILITA = ['non_accessibile', 'motoria', 'ascensore', 'visiva', 'tattile', 'uditiva', 'cognitiva'];
+
+// tipi segnalati come limitazione (colore rosso al posto del blu)
+const LIMITAZIONI = ['non_accessibile'];
+export const ROSSO_LIMITAZIONE = '#b91c1c';
 
 const DISEGNI = {
   motoria: () => (
@@ -25,6 +31,14 @@ const DISEGNI = {
       <Path d="M31 34l8 2 4 9" />
       <Path d="M18 34a18 18 0 1 0 32 10" />
       <Path d="M24 46h15" />
+    </>
+  ),
+  // mobilità barrata: stessa figura di "motoria" con una barra diagonale (alone bianco per staccarla dal disegno)
+  non_accessibile: (colore) => (
+    <>
+      {DISEGNI.motoria()}
+      <Path d="M8 8l48 48" stroke="#fff" strokeWidth={9} />
+      <Path d="M8 8l48 48" stroke={colore} strokeWidth={4.4} />
     </>
   ),
   ascensore: () => (
@@ -67,8 +81,9 @@ const DISEGNI = {
   ),
 };
 
-export function IconaAccessibilita({ tipo, colore = '#0f3d5e', misura = 20 }) {
+export function IconaAccessibilita({ tipo, colore, misura = 20 }) {
   const disegno = DISEGNI[tipo];
+  colore = colore || (LIMITAZIONI.includes(tipo) ? ROSSO_LIMITAZIONE : '#0f3d5e');
   if (!disegno) return null;
   return (
     <Svg width={misura} height={misura} viewBox="0 0 64 64">
@@ -80,12 +95,18 @@ export function IconaAccessibilita({ tipo, colore = '#0f3d5e', misura = 20 }) {
 }
 
 // voci da mostrare: solo con fonte e data di verifica, e solo i tipi conosciuti con un testo
+// "non_accessibile" vale anche senza testo (true): nel popup c'è comunque la frase standard
 export function vociAccessibilita(luogo, lingua) {
   const a = luogo?.accessibilita;
   if (!a || !a.fonte || !a.verificato || !a.voci) return [];
-  return TIPI_ACCESSIBILITA.map((tipo) => ({ tipo, testo: testoLocalizzato(a.voci[tipo], lingua).trim() })).filter(
-    (v) => v.testo
-  );
+  const nonAccessibile = !!a.voci.non_accessibile;
+  return TIPI_ACCESSIBILITA.filter((tipo) => !(nonAccessibile && tipo === 'motoria')) // le due cose si escludono
+    .map((tipo) => {
+      const valore = a.voci[tipo];
+      const testo = valore === true ? '' : testoLocalizzato(valore, lingua).trim();
+      return { tipo, testo, presente: tipo === 'non_accessibile' ? !!valore : !!testo };
+    })
+    .filter((v) => v.presente);
 }
 
 // "2026-11-10" → "10/11/2026"
@@ -112,7 +133,7 @@ export default function IconeAccessibilita({ luogo, lingua, t }) {
             onPress={() => setAperta(v.tipo)}
             hitSlop={6}
             testID={`accessibilita-${v.tipo}`}
-            style={({ pressed }) => [styles.icona, pressed && { transform: [{ scale: 0.9 }], backgroundColor: '#e0ecf5' }]}
+            style={({ pressed }) => [styles.icona, LIMITAZIONI.includes(v.tipo) && styles.iconaLimitazione, pressed && { transform: [{ scale: 0.9 }], backgroundColor: '#e0ecf5' }]}
             accessibilityRole="button"
             accessibilityLabel={t(`acc_${v.tipo}`)}
             accessibilityHint={t('acc_tocca')}
@@ -135,18 +156,23 @@ export default function IconeAccessibilita({ luogo, lingua, t }) {
           <View style={styles.contenitore} pointerEvents="box-none">
             <View style={styles.box}>
               <View style={styles.testa}>
-                <View style={styles.iconaGrande}>
+                <View style={[styles.iconaGrande, LIMITAZIONI.includes(voce.tipo) && styles.iconaGrandeLimitazione]}>
                   <IconaAccessibilita tipo={voce.tipo} misura={30} />
                 </View>
                 <View style={{ flex: 1 }}>
                   <Text style={styles.sopratitolo}>{t('acc_titolo')}</Text>
-                  <Text style={styles.titolo}>{t(`acc_${voce.tipo}`)}</Text>
+                  <Text style={[styles.titolo, LIMITAZIONI.includes(voce.tipo) && { color: ROSSO_LIMITAZIONE }]}>
+                    {t(`acc_${voce.tipo}`)}
+                  </Text>
                 </View>
                 <Pressable onPress={() => setAperta(null)} hitSlop={10} accessibilityLabel={t('chiudi')} style={styles.chiudi}>
                   <Text style={styles.testoChiudi}>✕</Text>
                 </Pressable>
               </View>
-              <Text style={styles.testo}>{voce.testo}</Text>
+              {voce.tipo === 'non_accessibile' && <Text style={styles.testo}>{t('acc_non_accessibile_testo')}</Text>}
+              {voce.testo ? (
+                <Text style={[styles.testo, voce.tipo === 'non_accessibile' && styles.nota]}>{voce.testo}</Text>
+              ) : null}
               <View style={styles.piede}>
                 <Text style={styles.verificato}>✓ {t('acc_verificato').replace('{data}', formattaData(verificato))}</Text>
                 <Pressable onPress={() => Linking.openURL(fonte).catch(() => {})} hitSlop={8} accessibilityRole="link">
@@ -174,6 +200,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  iconaLimitazione: { borderColor: '#fca5a5', backgroundColor: '#fff' },
+  iconaGrandeLimitazione: { backgroundColor: '#fee2e2' },
+  nota: { marginTop: 10, backgroundColor: '#fef2f2', borderRadius: 10, padding: 10, borderLeftWidth: 3, borderLeftColor: '#f87171' },
   sfondo: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(15,23,42,0.45)' },
   contenitore: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 24 },
   box: { width: '100%', maxWidth: 420, backgroundColor: '#fff', borderRadius: 18, padding: 18 },
