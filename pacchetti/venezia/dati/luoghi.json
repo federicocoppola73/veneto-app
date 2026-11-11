@@ -2181,7 +2181,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giambattista-tiepolo"
+      "personaggio": "giambattista-tiepolo",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/zattere",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso laterale, sulla destra, ha quattro gradini di circa 16 cm.",
+            "en": "The side entrance, on the right, has four steps of about 16 cm.",
+            "fr": "L'entrée latérale, à droite, comporte quatre marches d'environ 16 cm.",
+            "de": "Der Seiteneingang rechts hat vier Stufen von etwa 16 cm.",
+            "es": "La entrada lateral, a la derecha, tiene cuatro escalones de unos 16 cm."
+          }
+        }
+      }
     },
     {
       "id": "santa-maria-visitazione",
@@ -2538,7 +2551,20 @@
             "es": "Hay otra historia interesante vinculada a la misma iglesia: en el siglo XV sus rentas se destinaron al sostenimiento del Colegio de los doce pobres de Cristo, una institución que financiaba la labor de un maestro de gramática y de un maestro de canto.\nEl destino de las rentas provocó una controversia con los feligreses, que se opusieron a la pérdida de los ingresos de su propia iglesia. El asunto implicó también a las autoridades venecianas."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.chorusvenezia.org",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso della chiesa ha cinque gradini: il primo è alto circa 9 cm, i quattro successivi circa 13 cm ciascuno.",
+            "en": "The church entrance has five steps: the first is about 9 cm high, the next four about 13 cm each.",
+            "fr": "L'entrée de l'église comporte cinq marches : la première mesure environ 9 cm, les quatre suivantes environ 13 cm chacune.",
+            "de": "Der Kircheneingang hat fünf Stufen: Die erste ist etwa 9 cm hoch, die vier folgenden jeweils etwa 13 cm.",
+            "es": "La entrada de la iglesia tiene cinco escalones: el primero mide unos 9 cm y los cuatro siguientes unos 13 cm cada uno."
+          }
+        }
+      }
     },
     {
       "id": "san-lazzaro-armeni",
@@ -3889,7 +3915,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "jacopo-tintoretto"
+      "personaggio": "jacopo-tintoretto",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/frari",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "All'ingresso ci sono quattro gradini. Per la visita è consigliabile rivolgersi in anticipo al personale, telefonando al numero 041 5234864. L'ingresso è gratuito per la persona con disabilità.",
+            "en": "There are four steps at the entrance. It is advisable to contact the staff in advance for your visit, on 041 5234864. Admission is free for the person with a disability.",
+            "fr": "L'entrée comporte quatre marches. Pour la visite, il est conseillé de contacter le personnel à l'avance au 041 5234864. L'entrée est gratuite pour la personne handicapée.",
+            "de": "Am Eingang gibt es vier Stufen. Für den Besuch empfiehlt es sich, das Personal vorab unter 041 5234864 zu kontaktieren. Für die Person mit Behinderung ist der Eintritt frei.",
+            "es": "En la entrada hay cuatro escalones. Para la visita se recomienda contactar con antelación con el personal en el 041 5234864. La entrada es gratuita para la persona con discapacidad."
+          }
+        }
+      }
     },
     {
       "id": "chiesa-san-rocco",
