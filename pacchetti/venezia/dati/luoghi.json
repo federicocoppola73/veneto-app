@@ -394,7 +394,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giovanni-bellini"
+      "personaggio": "giovanni-bellini",
+      "accessibilita": {
+        "fonte": "https://www.santigiovanniepaolo.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'accesso alla Basilica presenta alcune limitazioni: l'ingresso principale ha due gradini, mentre quello laterale ha un gradino in salita e uno in discesa. Anche la Cappella del Rosario è solo parzialmente accessibile a causa di ulteriori gradini.",
+            "en": "Access to the Basilica has some limitations: the main entrance has two steps, while the side entrance has one step up and one step down. The Rosary Chapel is also only partly accessible because of further steps.",
+            "fr": "L'accès à la Basilique présente quelques limites : l'entrée principale comporte deux marches, tandis que l'entrée latérale a une marche montante et une marche descendante. La chapelle du Rosaire n'est elle aussi que partiellement accessible en raison d'autres marches.",
+            "de": "Der Zugang zur Basilika ist eingeschränkt: Der Haupteingang hat zwei Stufen, der Seiteneingang eine Stufe hinauf und eine hinunter. Auch die Rosenkranzkapelle ist wegen weiterer Stufen nur teilweise zugänglich.",
+            "es": "El acceso a la Basílica presenta algunas limitaciones: la entrada principal tiene dos escalones, mientras que la lateral tiene un escalón de subida y otro de bajada. También la Capilla del Rosario es solo parcialmente accesible por la presencia de otros escalones."
+          }
+        }
+      }
     },
     {
       "id": "san-giorgio-maggiore",
