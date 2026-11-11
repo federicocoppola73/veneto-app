@@ -303,7 +303,20 @@
         "de": "Barockes Meisterwerk von Baldassare Longhena an der Einmündung des Canal Grande, als Votivkirche nach der Pest von 1630 erbaut. Jedes Jahr am 21. November gehen die Venezianer über eine Schiffsbrücke zur Festa della Salute; in der Sakristei hängen Werke von Tizian und Tintoretto.",
         "es": "Obra maestra barroca de Baldassare Longhena a la entrada del Gran Canal, construida como exvoto tras la peste de 1630. Cada 21 de noviembre los venecianos llegan a pie por un puente de barcas para la Festa della Salute; la sacristía guarda obras de Tiziano y Tintoretto."
       },
-      "personaggio": "tiziano-vecellio"
+      "personaggio": "tiziano-vecellio",
+      "accessibilita": {
+        "fonte": "https://www.basilicasalutevenezia.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "L'accesso alla Basilica avviene attraverso una scalinata. Non sono disponibili servoscala o ascensori per superare i gradini.",
+            "en": "The Basilica is reached by a flight of steps. There are no stairlifts or lifts to get past them.",
+            "fr": "On accède à la Basilique par un escalier. Aucun monte-escalier ni ascenseur ne permet de franchir les marches.",
+            "de": "Der Zugang zur Basilika erfolgt über eine Freitreppe. Treppenlifte oder Aufzüge zur Überwindung der Stufen gibt es nicht.",
+            "es": "Se accede a la Basílica por una escalinata. No hay salvaescaleras ni ascensores para salvar los escalones."
+          }
+        }
+      }
     },
     {
       "id": "santi-giovanni-paolo",
