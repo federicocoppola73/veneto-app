@@ -333,6 +333,17 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             ) : null}
           </View>
 
+          {/* note in fondo alla scheda: [{ icona, titolo: {it,…}, testo: {it,…} }] */}
+          {(luogo.note_finali || []).map((n, i) => (
+            <View key={i} style={styles.notaFinale}>
+              <Text style={styles.titoloNotaFinale}>
+                {n.icona ? `${n.icona} ` : ''}
+                {testoLocalizzato(n.titolo, lingua)}
+              </Text>
+              <Text style={styles.testoNotaFinale}>{testoLocalizzato(n.testo, lingua)}</Text>
+            </View>
+          ))}
+
           {haInfo && <Text style={styles.avviso}>{t('avvisoOrari')}</Text>}
         </ScrollView>
         )}
@@ -577,6 +588,9 @@ const styles = StyleSheet.create({
   bottoneSecondario: { backgroundColor: '#fff', borderWidth: 1.5, borderColor: '#0f3d5e' },
   testoBottone: { color: '#fff', fontSize: 15, fontWeight: '700' },
   testoBottoneSecondario: { color: '#0f3d5e' },
+  notaFinale: { marginTop: 16, borderRadius: 12, backgroundColor: '#f1f5f9', padding: 14 },
+  titoloNotaFinale: { fontSize: 14, fontWeight: '700', color: '#0f172a', marginBottom: 6 },
+  testoNotaFinale: { fontSize: 14, lineHeight: 20, color: '#334155' },
   avviso: { fontSize: 11, color: '#94a3b8', marginTop: 14, textAlign: 'center', lineHeight: 15 },
   eventiCard: {
     marginTop: 16,

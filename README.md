@@ -21,6 +21,7 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 - I file si salvano nella cartella dell'app, per città.
 - Il manifest e `dati/immagini.json` si rigenerano con `python3 strumenti/prepara_pacchetto.py pacchetti/<città>`.
 - Campo facoltativo `sede` di un luogo (testo nelle lingue, es. `{ "it": "presso Ca' Pesaro" }`): compare accanto alla zona nella scheda, per i musei ospitati in un altro edificio.
+- Campo facoltativo `note_finali` di un luogo: riquadri in fondo alla scheda, `[{ "icona": "🪑", "titolo": { "it": "…" }, "testo": { "it": "…" } }]`.
 - Accessibilità dei luoghi: campo facoltativo `accessibilita` in `dati/luoghi.json`. Le icone compaiono accanto alla categoria nella scheda solo se ci sono sia `fonte` sia `verificato`; al tocco si apre un popup con la spiegazione. Tipi: `motoria`, `ascensore`, `visiva`, `tattile`, `uditiva`, `cognitiva`, `servizi` (servizi igienici; icone in `assets/icone/accessibilita/`). Se un tipo non ha dati verificati, non si scrive. Per un luogo non accessibile a persone con disabilità motoria si usa `"non_accessibile": true` (icona della mobilità barrata, in rosso), oppure un testo `{ "it": "…" }` che compare come nota sotto la frase standard; in quel caso l'icona `motoria` non si mostra.
 
   ```json

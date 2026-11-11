@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Linking, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Svg, { Circle, G, Path, Rect } from 'react-native-svg';
 import { testoLocalizzato } from '../i18n';
 
@@ -181,10 +181,13 @@ export default function IconeAccessibilita({ luogo, lingua, t }) {
                   <Text style={styles.testoChiudi}>✕</Text>
                 </Pressable>
               </View>
-              {voce.tipo === 'non_accessibile' && <Text style={styles.testo}>{t('acc_non_accessibile_testo')}</Text>}
-              {voce.testo ? (
-                <Text style={[styles.testo, voce.tipo === 'non_accessibile' && styles.nota]}>{voce.testo}</Text>
-              ) : null}
+              {/* testi lunghi: scorrono dentro il riquadro */}
+              <ScrollView style={styles.corpo} showsVerticalScrollIndicator={false}>
+                {voce.tipo === 'non_accessibile' && <Text style={styles.testo}>{t('acc_non_accessibile_testo')}</Text>}
+                {voce.testo ? (
+                  <Text style={[styles.testo, voce.tipo === 'non_accessibile' && styles.nota]}>{voce.testo}</Text>
+                ) : null}
+              </ScrollView>
               <View style={styles.piede}>
                 <Text style={styles.verificato}>✓ {t('acc_verificato').replace('{data}', formattaData(verificato))}</Text>
                 <Pressable onPress={() => Linking.openURL(fonte).catch(() => {})} hitSlop={8} accessibilityRole="link">
@@ -217,7 +220,7 @@ const styles = StyleSheet.create({
   nota: { marginTop: 10, backgroundColor: '#fef2f2', borderRadius: 10, padding: 10, borderLeftWidth: 3, borderLeftColor: '#f87171' },
   sfondo: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(15,23,42,0.45)' },
   contenitore: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 24 },
-  box: { width: '100%', maxWidth: 420, backgroundColor: '#fff', borderRadius: 18, padding: 18 },
+  box: { width: '100%', maxWidth: 420, maxHeight: '90%', backgroundColor: '#fff', borderRadius: 18, padding: 18 },
   testa: { flexDirection: 'row', alignItems: 'center', gap: 12 },
   iconaGrande: {
     width: 48,
@@ -231,6 +234,7 @@ const styles = StyleSheet.create({
   titolo: { fontSize: 18, fontWeight: '800', color: '#0f172a', marginTop: 1 },
   chiudi: { width: 32, height: 32, borderRadius: 16, backgroundColor: '#f1f5f9', alignItems: 'center', justifyContent: 'center' },
   testoChiudi: { fontSize: 15, fontWeight: '700', color: '#475569' },
+  corpo: { flexGrow: 0, flexShrink: 1 },
   testo: { fontSize: 15, lineHeight: 22, color: '#334155', marginTop: 14 },
   piede: {
     flexDirection: 'row',

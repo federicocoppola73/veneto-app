@@ -4908,6 +4908,52 @@
             "es": "En 1868 el conde Giovanni Querini Stampalia legó a la ciudad el patrimonio familiar, incluidos el palacio, los libros y las colecciones de arte. En su testamento estableció que la biblioteca estuviera abierta al público incluso cuando las demás bibliotecas estaban cerradas, en particular por la tarde y en los días festivos. No se trató, por tanto, de una simple donación: quiso crear un lugar de cultura accesible a la comunidad, con un horario inusualmente amplio para la época."
           }
         }
+      ],
+      "accessibilita": {
+        "fonte": "https://www.querinistampalia.org",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Gli spazi del piano terra, compreso il Giardino, progettati da Carlo Scarpa sono tutelati da vincolo monumentale: per questo non è possibile apportare modifiche per il superamento delle barriere architettoniche. Questi spazi presentano ostacoli come gradini e passaggi stretti, che li rendono purtroppo inaccessibili a persone in sedia a rotelle o con difficoltà motorie.\nIl secondo piano è raggiungibile con l'ascensore. La visita suggerita è un percorso ad anello attraverso le sale del Museo. Tra la sala II e la sala III c'è un gradino alto 16 cm: percorsi alternativi permettono di superarlo e di raggiungere tutte le sale. Il personale è a disposizione per aiutare a orientarsi.",
+            "en": "The ground-floor spaces designed by Carlo Scarpa, including the Garden, are protected as a listed monument, so no changes can be made to remove architectural barriers. These spaces have obstacles such as steps and narrow passages, which unfortunately make them inaccessible to wheelchair users and people with reduced mobility.\nThe second floor can be reached by lift. The suggested visit is a loop through the Museum rooms. Between room II and room III there is a 16 cm step: alternative routes let you get around it and reach all the rooms. Staff are available to help you find your way.",
+            "fr": "Les espaces du rez-de-chaussée conçus par Carlo Scarpa, y compris le Jardin, sont protégés en tant que monument : il n'est donc pas possible de les modifier pour supprimer les barrières architecturales. Ces espaces présentent des obstacles comme des marches et des passages étroits, qui les rendent malheureusement inaccessibles aux personnes en fauteuil roulant ou à mobilité réduite.\nLe deuxième étage est accessible par ascenseur. La visite conseillée est un parcours en boucle à travers les salles du Musée. Entre la salle II et la salle III se trouve une marche de 16 cm : des parcours alternatifs permettent de l'éviter et d'accéder à toutes les salles. Le personnel est disponible pour vous orienter.",
+            "de": "Die von Carlo Scarpa gestalteten Räume im Erdgeschoss, einschließlich des Gartens, stehen unter Denkmalschutz, daher können keine baulichen Änderungen zum Abbau von Barrieren vorgenommen werden. Diese Räume haben Hindernisse wie Stufen und enge Durchgänge und sind deshalb für Rollstuhlfahrer und Menschen mit eingeschränkter Mobilität leider nicht zugänglich.\nDas zweite Obergeschoss ist mit dem Aufzug erreichbar. Empfohlen wird ein Rundgang durch die Säle des Museums. Zwischen Saal II und Saal III gibt es eine 16 cm hohe Stufe: Alternative Wege führen daran vorbei zu allen Sälen. Das Personal hilft gern bei der Orientierung.",
+            "es": "Los espacios de la planta baja diseñados por Carlo Scarpa, incluido el Jardín, están protegidos como monumento, por lo que no es posible modificarlos para eliminar las barreras arquitectónicas. Estos espacios presentan obstáculos como escalones y pasos estrechos, que lamentablemente los hacen inaccesibles para personas en silla de ruedas o con movilidad reducida.\nLa segunda planta es accesible en ascensor. La visita recomendada es un recorrido circular por las salas del Museo. Entre la sala II y la sala III hay un escalón de 16 cm: recorridos alternativos permiten salvarlo y llegar a todas las salas. El personal está a disposición para ayudar a orientarse."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per raggiungere i tre piani.",
+            "en": "A lift serves all three floors.",
+            "fr": "Un ascenseur dessert les trois étages.",
+            "de": "Ein Aufzug erschließt alle drei Stockwerke.",
+            "es": "Hay un ascensor para llegar a las tres plantas."
+          },
+          "servizi": {
+            "it": "I servizi igienici si trovano al piano terra. Sempre al piano terra c'è una toilette adatta alle esigenze delle persone con disabilità.",
+            "en": "The toilets are on the ground floor. There is also a toilet suitable for people with disabilities on the ground floor.",
+            "fr": "Les toilettes se trouvent au rez-de-chaussée. Le rez-de-chaussée dispose aussi de toilettes adaptées aux personnes handicapées.",
+            "de": "Die Toiletten befinden sich im Erdgeschoss. Dort gibt es auch eine behindertengerechte Toilette.",
+            "es": "Los aseos están en la planta baja. También en la planta baja hay un aseo adaptado a las personas con discapacidad."
+          }
+        }
+      },
+      "note_finali": [
+        {
+          "icona": "🪑",
+          "titolo": {
+            "it": "Sedute",
+            "en": "Seating",
+            "fr": "Sièges",
+            "de": "Sitzgelegenheiten",
+            "es": "Asientos"
+          },
+          "testo": {
+            "it": "Due sedie a rotelle manuali standard sono a disposizione gratuitamente, senza prenotazione: si possono chiedere all'addetto alla sicurezza all'ingresso. Su richiesta, per i visitatori che non possono stare in piedi a lungo, sono disponibili sedie pieghevoli.",
+            "en": "Two standard manual wheelchairs are available free of charge, without booking: ask the security officer at the entrance. On request, folding chairs are available for visitors who cannot stand for long.",
+            "fr": "Deux fauteuils roulants manuels standard sont mis gratuitement à disposition, sans réservation : il suffit de les demander à l'agent de sécurité à l'entrée. Sur demande, des chaises pliantes sont proposées aux visiteurs qui ne peuvent pas rester longtemps debout.",
+            "de": "Zwei handbetriebene Standardrollstühle stehen kostenlos und ohne Reservierung zur Verfügung: Fragen Sie beim Sicherheitspersonal am Eingang. Auf Wunsch gibt es Klappstühle für Besucher, die nicht lange stehen können.",
+            "es": "Hay dos sillas de ruedas manuales estándar a disposición de forma gratuita y sin reserva: se pueden pedir al vigilante de seguridad en la entrada. Bajo petición, hay sillas plegables para los visitantes que no pueden estar mucho tiempo de pie."
+          }
+        }
       ]
     },
     {
