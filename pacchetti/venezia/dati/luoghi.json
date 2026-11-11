@@ -666,7 +666,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "jacopo-tintoretto"
+      "personaggio": "jacopo-tintoretto",
+      "accessibilita": {
+        "fonte": "https://www.chorusvenezia.org",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La chiesa è completamente accessibile, anche in carrozzina.",
+            "en": "The church is fully accessible, including for wheelchair users.",
+            "fr": "L'église est entièrement accessible, y compris en fauteuil roulant.",
+            "de": "Die Kirche ist vollständig barrierefrei, auch für Rollstuhlfahrer.",
+            "es": "La iglesia es totalmente accesible, también en silla de ruedas."
+          }
+        }
+      }
     },
     {
       "id": "san-zaccaria",
