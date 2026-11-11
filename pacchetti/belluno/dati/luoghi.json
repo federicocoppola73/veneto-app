@@ -87,7 +87,20 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?title=User:Acquamarina&action=edit&redlink=1"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Classificato dal Comune come accessibile (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+            "en": "Rated accessible by the City Council (Plan for the removal of architectural barriers, 2025).",
+            "fr": "Classé accessible par la Commune (Plan d'élimination des barrières architecturales, 2025).",
+            "de": "Von der Stadt als barrierefrei eingestuft (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+            "es": "Clasificado como accesible por el Ayuntamiento (Plan de eliminación de barreras arquitectónicas, 2025)."
+          }
+        }
+      }
     },
     {
       "id": "piazza-duomo",
@@ -169,7 +182,20 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Classificato dal Comune come mediamente accessibile: alcune parti non sono adeguate o richiedono piccoli interventi (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+            "en": "Rated partly accessible by the City Council: some parts are not adequate or need minor works (Plan for the removal of architectural barriers, 2025).",
+            "fr": "Classé moyennement accessible par la Commune : certaines parties ne sont pas adaptées ou nécessitent de petits travaux (Plan d'élimination des barrières architecturales, 2025).",
+            "de": "Von der Stadt als teilweise barrierefrei eingestuft: einige Bereiche sind nicht geeignet oder erfordern kleine Anpassungen (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+            "es": "Clasificado por el Ayuntamiento como medianamente accesible: algunas partes no son adecuadas o requieren pequeñas obras (Plan de eliminación de barreras arquitectónicas, 2025)."
+          }
+        }
+      }
     },
     {
       "id": "piazza-delle-erbe",
@@ -1020,7 +1046,27 @@
           "fonte": ""
         }
       ],
-      "personaggio": "giovanni-de-min"
+      "personaggio": "giovanni-de-min",
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/02_Elab_A1_SchedeEdificiPubblici_pag-001-151.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra usando la rampa dell'adiacente ex tribunale.",
+            "en": "Access is via the ramp of the adjacent former courthouse.",
+            "fr": "On entre par la rampe de l'ancien tribunal voisin.",
+            "de": "Der Zugang erfolgt über die Rampe des benachbarten ehemaligen Gerichtsgebäudes.",
+            "es": "Se entra por la rampa del antiguo tribunal contiguo."
+          },
+          "ascensore": {
+            "it": "Per i piani superiori si usa l'ascensore dell'adiacente ex tribunale.",
+            "en": "The upper floors are reached with the lift of the adjacent former courthouse.",
+            "fr": "Les étages supérieurs sont desservis par l'ascenseur de l'ancien tribunal voisin.",
+            "de": "Die oberen Stockwerke erreicht man mit dem Aufzug des benachbarten ehemaligen Gerichtsgebäudes.",
+            "es": "A las plantas superiores se llega con el ascensor del antiguo tribunal contiguo."
+          }
+        }
+      }
     },
     {
       "id": "porta-dojona",
@@ -1699,7 +1745,20 @@
             "es": "Una inscripción romana recuerda a Marco Carminio Pudente, patrón de los dendróforos: asociaciones ligadas a la elaboración y el comercio de la madera. Es un testimonio interesante de la relación histórica de Belluno con las actividades forestales."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Classificato dal Comune come mediamente accessibile: alcune parti non sono adeguate o richiedono piccoli interventi (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+            "en": "Rated partly accessible by the City Council: some parts are not adequate or need minor works (Plan for the removal of architectural barriers, 2025).",
+            "fr": "Classé moyennement accessible par la Commune : certaines parties ne sont pas adaptées ou nécessitent de petits travaux (Plan d'élimination des barrières architecturales, 2025).",
+            "de": "Von der Stadt als teilweise barrierefrei eingestuft: einige Bereiche sind nicht geeignet oder erfordern kleine Anpassungen (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+            "es": "Clasificado por el Ayuntamiento como medianamente accesible: algunas partes no son adecuadas o requieren pequeñas obras (Plan de eliminación de barreras arquitectónicas, 2025)."
+          }
+        }
+      }
     },
     {
       "id": "mev-museo-dell-emigrazione-veneta",
@@ -1909,7 +1968,20 @@
           }
         }
       ],
-      "personaggio": "dino-buzzati"
+      "personaggio": "dino-buzzati",
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Classificato dal Comune come accessibile (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+            "en": "Rated accessible by the City Council (Plan for the removal of architectural barriers, 2025).",
+            "fr": "Classé accessible par la Commune (Plan d'élimination des barrières architecturales, 2025).",
+            "de": "Von der Stadt als barrierefrei eingestuft (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+            "es": "Clasificado como accesible por el Ayuntamiento (Plan de eliminación de barreras arquitectónicas, 2025)."
+          }
+        }
+      }
     },
     {
       "id": "stazione-fs-belluno",
@@ -2714,7 +2786,20 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Classificato dal Comune come mediamente accessibile: alcune parti non sono adeguate o richiedono piccoli interventi (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+            "en": "Rated partly accessible by the City Council: some parts are not adequate or need minor works (Plan for the removal of architectural barriers, 2025).",
+            "fr": "Classé moyennement accessible par la Commune : certaines parties ne sont pas adaptées ou nécessitent de petits travaux (Plan d'élimination des barrières architecturales, 2025).",
+            "de": "Von der Stadt als teilweise barrierefrei eingestuft: einige Bereiche sind nicht geeignet oder erfordern kleine Anpassungen (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+            "es": "Clasificado por el Ayuntamiento como medianamente accesible: algunas partes no son adecuadas o requieren pequeñas obras (Plan de eliminación de barreras arquitectónicas, 2025)."
+          }
+        }
+      }
     },
     {
       "id": "villa-buzzati-traverso",
