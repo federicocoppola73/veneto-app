@@ -727,7 +727,34 @@
             "es": "Cada Pascua el dux acudía solemnemente al monasterio de San Zaccaria para asistir a las vísperas. No era una simple visita religiosa: la comitiva atravesaba Venecia con las insignias ducales y el precioso corno, el tocado símbolo del poder dogal. Los orígenes de la costumbre son discutidos: entre las explicaciones transmitidas están el vínculo del monasterio con el poder ducal y una forma de compensación por los terrenos cedidos por las monjas con motivo de la ampliación de la Piazza San Marco."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.chorusvenezia.org",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso principale su Campo San Zaccaria ha tre gradini bassi e non ha una rampa o uno scivolo fisso. L'area del museo, le cappelle interne (come la Cappella di San Tarasio) e soprattutto la famosa cripta sotterranea, costantemente allagata, si raggiungono solo con le scale: questa parte della chiesa purtroppo non è accessibile ai visitatori con disabilità motorie o mobilità ridotta.",
+            "en": "The main entrance on Campo San Zaccaria has three low steps and no fixed ramp. The museum area, the inner chapels (such as the Chapel of San Tarasio) and above all the famous underground crypt, which is constantly flooded, can only be reached by stairs: this part of the church is unfortunately not accessible to visitors with motor disabilities or reduced mobility.",
+            "fr": "L'entrée principale sur le Campo San Zaccaria comporte trois marches basses et n'a pas de rampe fixe. L'espace du musée, les chapelles intérieures (comme la chapelle San Tarasio) et surtout la célèbre crypte souterraine, constamment inondée, ne sont accessibles que par des escaliers : cette partie de l'église n'est malheureusement pas accessible aux visiteurs handicapés moteurs ou à mobilité réduite.",
+            "de": "Der Haupteingang am Campo San Zaccaria hat drei niedrige Stufen und keine feste Rampe. Der Museumsbereich, die inneren Kapellen (etwa die Kapelle San Tarasio) und vor allem die berühmte, ständig überflutete unterirdische Krypta sind nur über Treppen erreichbar: Dieser Teil der Kirche ist für Besucher mit Gehbehinderung oder eingeschränkter Mobilität leider nicht zugänglich.",
+            "es": "La entrada principal en el Campo San Zaccaria tiene tres escalones bajos y no cuenta con rampa fija. El área del museo, las capillas interiores (como la Capilla de San Tarasio) y sobre todo la famosa cripta subterránea, siempre inundada, solo son accesibles por escaleras: esta parte de la iglesia lamentablemente no es accesible para visitantes con discapacidad motora o movilidad reducida."
+          },
+          "visiva": {
+            "it": "Vicino all'ingresso c'è un pannello multisensoriale con la pianta e la facciata della chiesa riprodotte anche in forma tattile, testi in Braille e informazioni per orientarsi nell'edificio.",
+            "en": "Near the entrance there is a multisensory panel with the plan and façade of the church also reproduced in tactile form, texts in Braille and information to help you find your way around the building.",
+            "fr": "Près de l'entrée se trouve un panneau multisensoriel avec le plan et la façade de l'église reproduits aussi en relief, des textes en braille et des informations pour s'orienter dans l'édifice.",
+            "de": "Am Eingang befindet sich eine multisensorische Tafel mit Grundriss und Fassade der Kirche auch in tastbarer Form, Texten in Braille und Informationen zur Orientierung im Gebäude.",
+            "es": "Cerca de la entrada hay un panel multisensorial con la planta y la fachada de la iglesia reproducidas también en relieve, textos en braille e información para orientarse en el edificio."
+          },
+          "uditiva": {
+            "it": "Tramite QR code e NFC si possono consultare contenuti audiovisivi, tra cui video in Lingua dei Segni Italiana (LIS) e International Sign (IS).",
+            "en": "Audiovisual content can be accessed via QR code and NFC, including videos in Italian Sign Language (LIS) and International Sign (IS).",
+            "fr": "Des contenus audiovisuels sont consultables via QR code et NFC, dont des vidéos en langue des signes italienne (LIS) et en International Sign (IS).",
+            "de": "Über QR-Code und NFC sind audiovisuelle Inhalte abrufbar, darunter Videos in Italienischer Gebärdensprache (LIS) und International Sign (IS).",
+            "es": "Mediante código QR y NFC se pueden consultar contenidos audiovisuales, entre ellos vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
+          }
+        }
+      }
     },
     {
       "id": "miracoli",
