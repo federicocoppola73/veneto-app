@@ -141,41 +141,44 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           </View>
           <View style={styles.rigaNome}>
             <Text style={[styles.nome, { flex: 1 }]}>{luogo.nome}</Text>
-            {onPreferito && (
+            {/* pulsanti su due colonne a destra: lasciano più spazio al nome */}
+            <View style={styles.azioni}>
+              {onPreferito && (
+                <Pressable
+                  onPress={() => onPreferito(luogo.id)}
+                  hitSlop={10}
+                  style={({ pressed }) => [styles.cuore, preferito && styles.cuoreAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: !!preferito }}
+                  accessibilityLabel={preferito ? t('pref_togli') : t('pref_aggiungi')}
+                >
+                  <Text style={[styles.testoCuore, { color: preferito ? ROSSO_CUORE : GRIGIO_CUORE }]}>{'♥\uFE0E'}</Text>
+                </Pressable>
+              )}
+              {onVisitato && (
+                <Pressable
+                  onPress={() => onVisitato(luogo.id)}
+                  hitSlop={10}
+                  testID="ci-sono-stato"
+                  style={({ pressed }) => [styles.cuore, visitato && styles.visitatoAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: !!visitato }}
+                  accessibilityLabel={visitato ? t('vis_togli') : t('vis_aggiungi')}
+                >
+                  <Text style={[styles.testoVisitato, { color: visitato ? '#fff' : GRIGIO_CUORE }]}>{'✓\uFE0E'}</Text>
+                </Pressable>
+              )}
+              <PulsanteCopia testo={testoLuogo(luogo, lingua)} t={t} style={styles.cuore} />
               <Pressable
-                onPress={() => onPreferito(luogo.id)}
+                onPress={() => setCondividi(true)}
                 hitSlop={10}
-                style={({ pressed }) => [styles.cuore, preferito && styles.cuoreAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
+                style={({ pressed }) => [styles.cuore, pressed && { transform: [{ scale: 0.9 }] }]}
                 accessibilityRole="button"
-                accessibilityState={{ selected: !!preferito }}
-                accessibilityLabel={preferito ? t('pref_togli') : t('pref_aggiungi')}
+                accessibilityLabel={t('cond_condividi')}
               >
-                <Text style={[styles.testoCuore, { color: preferito ? ROSSO_CUORE : GRIGIO_CUORE }]}>{'♥\uFE0E'}</Text>
+                <IconaCondividi />
               </Pressable>
-            )}
-            {onVisitato && (
-              <Pressable
-                onPress={() => onVisitato(luogo.id)}
-                hitSlop={10}
-                testID="ci-sono-stato"
-                style={({ pressed }) => [styles.cuore, visitato && styles.visitatoAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
-                accessibilityRole="button"
-                accessibilityState={{ selected: !!visitato }}
-                accessibilityLabel={visitato ? t('vis_togli') : t('vis_aggiungi')}
-              >
-                <Text style={[styles.testoVisitato, { color: visitato ? '#fff' : GRIGIO_CUORE }]}>{'✓\uFE0E'}</Text>
-              </Pressable>
-            )}
-            <PulsanteCopia testo={testoLuogo(luogo, lingua)} t={t} style={styles.cuore} />
-            <Pressable
-              onPress={() => setCondividi(true)}
-              hitSlop={10}
-              style={({ pressed }) => [styles.cuore, pressed && { transform: [{ scale: 0.9 }] }]}
-              accessibilityRole="button"
-              accessibilityLabel={t('cond_condividi')}
-            >
-              <IconaCondividi />
-            </Pressable>
+            </View>
           </View>
           <Text style={styles.sestiere}>
             📍 {luogo.sestiere}
@@ -488,6 +491,8 @@ const styles = StyleSheet.create({
   testoBadge: { color: '#fff', fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
   nome: { fontSize: 25, fontWeight: '800', color: '#0f172a' },
   rigaNome: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
+  // 2 colonne da 42 + spazio 8: i quattro pulsanti stanno su due righe
+  azioni: { width: 92, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-end', gap: 8, marginTop: 2 },
   cuore: {
     width: 42,
     height: 42,
