@@ -335,6 +335,33 @@
       ],
       "wikipedia": {
         "en": "Palazzo della Ragione, Padua"
+      },
+      "accessibilita": {
+        "fonte": "https://padovamusei.it/it/biglietti-orari-musei",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Le persone con disabilità motoria entrano dal cortile del Municipio, in via 8 Febbraio.",
+            "en": "Visitors with reduced mobility enter from the Town Hall courtyard, in via 8 Febbraio.",
+            "fr": "Les personnes à mobilité réduite entrent par la cour de l'Hôtel de Ville, via 8 Febbraio.",
+            "de": "Menschen mit eingeschränkter Mobilität betreten das Gebäude über den Rathaushof in der Via 8 Febbraio.",
+            "es": "Las personas con movilidad reducida entran por el patio del Ayuntamiento, en via 8 Febbraio."
+          },
+          "tattile": {
+            "it": "In una sala accanto al Salone c'è un modellino 3D del palazzo da esplorare con il tatto.",
+            "en": "In a room next to the Salone there is a 3D model of the palace that can be explored by touch.",
+            "fr": "Dans une salle voisine du Salone se trouve une maquette 3D du palais à explorer au toucher.",
+            "de": "In einem Raum neben dem Salone steht ein 3D-Modell des Palastes, das ertastet werden kann.",
+            "es": "En una sala junto al Salone hay una maqueta 3D del palacio que se puede explorar con el tacto."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
       }
     },
     {
@@ -415,7 +442,27 @@
       "personaggio": [
         "galileo-galilei",
         "elena-cornaro-piscopia"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.unipd.it/scuole-visite-guidate",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'edificio è provvisto di rampe per l'accesso delle persone con disabilità motoria. In caso di particolari necessità è bene segnalarlo al momento della prenotazione.",
+            "en": "The building has ramps for people with reduced mobility. Any special needs should be mentioned when booking.",
+            "fr": "Le bâtiment est équipé de rampes pour les personnes à mobilité réduite. En cas de besoins particuliers, il est conseillé de le signaler lors de la réservation.",
+            "de": "Das Gebäude verfügt über Rampen für Menschen mit eingeschränkter Mobilität. Besondere Bedürfnisse sollten bei der Buchung angegeben werden.",
+            "es": "El edificio cuenta con rampas para personas con movilidad reducida. Conviene indicar cualquier necesidad especial al reservar."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore.",
+            "en": "A lift is available.",
+            "fr": "Un ascenseur est disponible.",
+            "de": "Ein Aufzug ist vorhanden.",
+            "es": "Hay un ascensor disponible."
+          }
+        }
+      }
     },
     {
       "id": "ponte-molino",
@@ -970,6 +1017,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://padovamusei.it/it/biglietti-orari-musei",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Presenza di barriere architettoniche: la visita è limitata per le persone con disabilità motoria.",
+            "en": "Architectural barriers are present: the visit is limited for people with reduced mobility.",
+            "fr": "Présence de barrières architecturales : la visite est limitée pour les personnes à mobilité réduite.",
+            "de": "Es gibt bauliche Barrieren: Für Menschen mit eingeschränkter Mobilität ist die Besichtigung nur eingeschränkt möglich.",
+            "es": "Hay barreras arquitectónicas: la visita es limitada para personas con movilidad reducida."
+          }
+        }
       }
     },
     {
@@ -1845,7 +1905,27 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "tito-livio"
+      "personaggio": "tito-livio",
+      "accessibilita": {
+        "fonte": "https://www.unipd.it/scuole-visite-guidate",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'edificio è provvisto di rampe per l'accesso delle persone con disabilità motoria. In caso di particolari necessità è bene segnalarlo al momento della prenotazione.",
+            "en": "The building has ramps for people with reduced mobility. Any special needs should be mentioned when booking.",
+            "fr": "Le bâtiment est équipé de rampes pour les personnes à mobilité réduite. En cas de besoins particuliers, il est conseillé de le signaler lors de la réservation.",
+            "de": "Das Gebäude verfügt über Rampen für Menschen mit eingeschränkter Mobilität. Besondere Bedürfnisse sollten bei der Buchung angegeben werden.",
+            "es": "El edificio cuenta con rampas para personas con movilidad reducida. Conviene indicar cualquier necesidad especial al reservar."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore.",
+            "en": "A lift is available.",
+            "fr": "Un ascenseur est disponible.",
+            "de": "Ein Aufzug ist vorhanden.",
+            "es": "Hay un ascensor disponible."
+          }
+        }
+      }
     },
     {
       "id": "palazzo-maldura",
@@ -2172,7 +2252,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "elena-cornaro-piscopia"
+      "personaggio": "elena-cornaro-piscopia",
+      "accessibilita": {
+        "fonte": "https://padovamusei.it/it/biglietti-orari-musei",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Presenza di barriere architettoniche: la visita è limitata per le persone con disabilità motoria.",
+            "en": "Architectural barriers are present: the visit is limited for people with reduced mobility.",
+            "fr": "Présence de barrières architecturales : la visite est limitée pour les personnes à mobilité réduite.",
+            "de": "Es gibt bauliche Barrieren: Für Menschen mit eingeschränkter Mobilität ist die Besichtigung nur eingeschränkt möglich.",
+            "es": "Hay barreras arquitectónicas: la visita es limitada para personas con movilidad reducida."
+          }
+        }
+      }
     },
     {
       "id": "ponte-corvo",
@@ -2752,6 +2845,13 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://padovamusei.it/it/ri-scoperta-torre-anziani-altezza-torre-giustizia-palazzo-ragione",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": true
+        }
       }
     },
     {
@@ -3544,6 +3644,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://padovamusei.it/it/biglietti-orari-musei",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Le persone con disabilità motoria entrano da vicolo Cappellato Pedrocchi.",
+            "en": "Visitors with reduced mobility enter from vicolo Cappellato Pedrocchi.",
+            "fr": "Les personnes à mobilité réduite entrent par le vicolo Cappellato Pedrocchi.",
+            "de": "Menschen mit eingeschränkter Mobilität betreten das Museum über den Vicolo Cappellato Pedrocchi.",
+            "es": "Las personas con movilidad reducida entran por el vicolo Cappellato Pedrocchi."
+          },
+          "ascensore": {
+            "it": "L'ascensore è a chiamata: telefonare al numero +39 049 8781231.",
+            "en": "The lift is on request: call +39 049 8781231.",
+            "fr": "L'ascenseur est sur appel : téléphoner au +39 049 8781231.",
+            "de": "Der Aufzug wird auf Anruf bereitgestellt: Tel. +39 049 8781231.",
+            "es": "El ascensor funciona a petición: llamar al +39 049 8781231."
+          }
+        }
       }
     },
     {

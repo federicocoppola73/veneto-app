@@ -83,7 +83,48 @@
       "personaggio": [
         "andrea-palladio",
         "gian-giorgio-trissino"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/bp/basilica-palladiana/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra da Piazza dei Signori, dal lato della Torre Bissara, superando 3 gradini oppure una rampa con pendenza dell'8%. Alcuni passaggi interni hanno brevi rampe fino al 12%.",
+            "en": "The entrance is from Piazza dei Signori, on the Torre Bissara side, via 3 steps or an 8% ramp. Some internal passages have short ramps of up to 12%.",
+            "fr": "On entre par la Piazza dei Signori, côté Torre Bissara, par 3 marches ou une rampe à 8 %. Certains passages intérieurs comportent de courtes rampes jusqu'à 12 %.",
+            "de": "Der Eingang liegt an der Piazza dei Signori auf der Seite der Torre Bissara, über 3 Stufen oder eine Rampe mit 8 % Steigung. Einige Durchgänge im Inneren haben kurze Rampen bis 12 %.",
+            "es": "Se entra desde la Piazza dei Signori, por el lado de la Torre Bissara, superando 3 escalones o una rampa con un 8 % de pendiente. Algunos pasos interiores tienen rampas cortas de hasta el 12 %."
+          },
+          "ascensore": {
+            "it": "Tutti e quattro i piani, dall'Area archeologica alla Terrazza, sono raggiungibili con due ascensori.",
+            "en": "All four floors, from the Archaeological Area to the Terrace, can be reached by two lifts.",
+            "fr": "Les quatre étages, de la zone archéologique à la Terrasse, sont accessibles par deux ascenseurs.",
+            "de": "Alle vier Etagen, vom Archäologischen Bereich bis zur Terrasse, sind über zwei Aufzüge erreichbar.",
+            "es": "Las cuatro plantas, desde el Área arqueológica hasta la Terraza, son accesibles con dos ascensores."
+          },
+          "servizi": {
+            "it": "Al primo piano c'è un bagno per disabili con maniglione; al secondo piano un altro bagno per disabili, senza maniglione.",
+            "en": "On the first floor there is an accessible toilet with grab bar; on the second floor there is another accessible toilet without grab bar.",
+            "fr": "Au premier étage se trouvent des toilettes accessibles avec barre d'appui ; au deuxième étage, d'autres toilettes accessibles sans barre d'appui.",
+            "de": "Im ersten Stock gibt es eine barrierefreie Toilette mit Haltegriff, im zweiten Stock eine weitere ohne Haltegriff.",
+            "es": "En la primera planta hay un aseo accesible con barra de apoyo; en la segunda, otro aseo accesible sin barra."
+          },
+          "tattile": {
+            "it": "C'è un plastico tattile della città con audioguida e una mappa tattile in braille dell'Area archeologica.",
+            "en": "There is a tactile model of the city with an audio guide and a braille tactile map of the Archaeological Area.",
+            "fr": "On y trouve une maquette tactile de la ville avec audioguide et un plan tactile en braille de la zone archéologique.",
+            "de": "Es gibt ein Tastmodell der Stadt mit Audioguide und einen taktilen Plan des Archäologischen Bereichs in Braille.",
+            "es": "Hay una maqueta táctil de la ciudad con audioguía y un mapa táctil en braille del Área arqueológica."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "teatro-olimpico",
@@ -152,7 +193,34 @@
         "andrea-palladio",
         "vincenzo-scamozzi",
         "francesco-maffei"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/to/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Per chi usa la carrozzina o ha difficoltà motorie c'è un percorso diretto: si entra da Stradella del Teatro Olimpico 8 (gradino di 2 cm) nella sala dell'Antiodeo, da cui una rampa con pendenza dell'8% porta al teatro. In galleria c'è posto per una carrozzina su ciascuno dei due lati.",
+            "en": "There is a direct route for wheelchair users and people with reduced mobility: enter at Stradella del Teatro Olimpico 8 (2 cm step) into the Antiodeo room, from where an 8% ramp leads to the theatre. The gallery has room for one wheelchair on each of its two sides.",
+            "fr": "Un parcours direct est prévu pour les personnes en fauteuil roulant ou à mobilité réduite : on entre par la Stradella del Teatro Olimpico 8 (marche de 2 cm) dans la salle de l'Antiodeo, d'où une rampe à 8 % mène au théâtre. La galerie offre une place pour un fauteuil roulant de chaque côté.",
+            "de": "Für Rollstuhlfahrer und Menschen mit eingeschränkter Mobilität gibt es einen direkten Weg: Eingang Stradella del Teatro Olimpico 8 (2 cm Stufe) in den Antiodeo-Saal, von dort führt eine Rampe mit 8 % Steigung ins Theater. In der Galerie ist auf beiden Seiten je ein Rollstuhlplatz.",
+            "es": "Hay un recorrido directo para personas en silla de ruedas o con movilidad reducida: se entra por Stradella del Teatro Olimpico 8 (escalón de 2 cm) a la sala del Antiodeo, desde donde una rampa con un 8 % de pendiente lleva al teatro. En la galería hay sitio para una silla de ruedas en cada uno de los dos lados."
+          },
+          "servizi": {
+            "it": "Al piano terra, lungo il corridoio tra il Giardino e l'Odeo, c'è un bagno accessibile con maniglione e fasciatoio.",
+            "en": "On the ground floor, along the corridor between the Garden and the Odeo, there is an accessible toilet with grab bar and baby-changing table.",
+            "fr": "Au rez-de-chaussée, le long du couloir entre le Jardin et l'Odéon, se trouvent des toilettes accessibles avec barre d'appui et table à langer.",
+            "de": "Im Erdgeschoss, im Gang zwischen Garten und Odeon, gibt es eine barrierefreie Toilette mit Haltegriff und Wickeltisch.",
+            "es": "En la planta baja, en el pasillo entre el Jardín y el Odeón, hay un aseo accesible con barra de apoyo y cambiador."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "villa-la-rotonda",
@@ -350,7 +418,55 @@
       "personaggio": [
         "andrea-palladio",
         "francesco-maffei"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/mcp/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra dalla gradinata principale: 7 gradini sui lati sud ed est, mentre sul lato nord ci sono 2 gradini oppure una rampa con pendenza dell'8%. Le sale della Collezione Roi e il Gabinetto Disegni e Stampe si raggiungono solo con le scale. Su richiesta è disponibile una sedia a rotelle.",
+            "en": "Entry is via the main flight of steps: 7 steps on the south and east sides, while the north side has 2 steps or an 8% ramp. The Roi Collection rooms and the Prints and Drawings Room can only be reached by stairs. A wheelchair is available on request.",
+            "fr": "On entre par le grand escalier : 7 marches côtés sud et est, tandis que le côté nord compte 2 marches ou une rampe à 8 %. Les salles de la Collection Roi et le Cabinet des dessins et estampes ne sont accessibles que par des escaliers. Un fauteuil roulant est disponible sur demande.",
+            "de": "Der Zugang erfolgt über die Haupttreppe: 7 Stufen an der Süd- und Ostseite, an der Nordseite 2 Stufen oder eine Rampe mit 8 % Steigung. Die Säle der Sammlung Roi und das Kupferstichkabinett sind nur über Treppen erreichbar. Ein Rollstuhl ist auf Anfrage erhältlich.",
+            "es": "Se entra por la escalinata principal: 7 escalones en los lados sur y este, mientras que en el lado norte hay 2 escalones o una rampa con un 8 % de pendiente. Las salas de la Colección Roi y el Gabinete de dibujos y grabados solo se alcanzan por escaleras. Hay una silla de ruedas disponible a petición."
+          },
+          "ascensore": {
+            "it": "Quattro dei cinque piani sono serviti da due ascensori (porte da 88-89 cm), con pulsantiera in braille e segnale acustico di arrivo al piano.",
+            "en": "Four of the five floors are served by two lifts (doors 88-89 cm), with braille buttons and an audible arrival signal.",
+            "fr": "Quatre des cinq étages sont desservis par deux ascenseurs (portes de 88-89 cm), avec boutons en braille et signal sonore d'arrivée.",
+            "de": "Vier der fünf Etagen sind über zwei Aufzüge (Türen 88-89 cm) mit Braille-Tasten und akustischem Ankunftssignal erreichbar.",
+            "es": "Cuatro de las cinco plantas cuentan con dos ascensores (puertas de 88-89 cm), con botonera en braille y señal acústica de llegada."
+          },
+          "servizi": {
+            "it": "Al piano terra, dopo l'ingresso, c'è un bagno per disabili con porta da 90 cm.",
+            "en": "On the ground floor, after the entrance, there is an accessible toilet with a 90 cm door.",
+            "fr": "Au rez-de-chaussée, après l'entrée, se trouvent des toilettes accessibles avec une porte de 90 cm.",
+            "de": "Im Erdgeschoss hinter dem Eingang gibt es eine barrierefreie Toilette mit 90 cm breiter Tür.",
+            "es": "En la planta baja, pasada la entrada, hay un aseo accesible con puerta de 90 cm."
+          },
+          "tattile": {
+            "it": "Dieci opere sono riprodotte in 3D per l'esplorazione tattile.",
+            "en": "Ten works are reproduced in 3D for tactile exploration.",
+            "fr": "Dix œuvres sont reproduites en 3D pour une exploration tactile.",
+            "de": "Zehn Werke sind als 3D-Reproduktionen zum Ertasten vorhanden.",
+            "es": "Diez obras están reproducidas en 3D para explorarlas con el tacto."
+          },
+          "visiva": {
+            "it": "È disponibile un percorso audio virtuale per non vedenti su 49 opere del Cinquecento e del Seicento.",
+            "en": "A virtual audio tour for blind visitors covers 49 works from the 16th and 17th centuries.",
+            "fr": "Un parcours audio virtuel pour les personnes aveugles présente 49 œuvres des XVIe et XVIIe siècles.",
+            "de": "Ein virtueller Audiorundgang für blinde Menschen stellt 49 Werke des 16. und 17. Jahrhunderts vor.",
+            "es": "Hay un recorrido de audio virtual para personas ciegas sobre 49 obras de los siglos XVI y XVII."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "santuario-di-monte-berico",
@@ -506,7 +622,48 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Saint_Corona_church_in_Vicenza_(6).jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/csc/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra da Contrà Santa Corona 1 con una rampa in legno ripida (pendenza 16,5%). Le cappelle laterali hanno da 1 a 3 gradini e l'altar maggiore 11. Alla cripta si scende con un servoscala con pedana per carrozzina; da lì una rampa porta alla Cappella Valmarana di Palladio.",
+            "en": "The entrance at Contrà Santa Corona 1 has a steep wooden ramp (16.5%). The side chapels have 1 to 3 steps and the high altar 11. The crypt is reached by a stairlift with a wheelchair platform; from there a ramp leads to Palladio's Valmarana Chapel.",
+            "fr": "On entre par la Contrà Santa Corona 1 grâce à une rampe en bois raide (16,5 %). Les chapelles latérales ont de 1 à 3 marches et le maître-autel 11. On descend à la crypte par un monte-escalier à plateforme pour fauteuil roulant ; de là, une rampe mène à la chapelle Valmarana de Palladio.",
+            "de": "Der Eingang in der Contrà Santa Corona 1 hat eine steile Holzrampe (16,5 %). Die Seitenkapellen haben 1 bis 3 Stufen, der Hochaltar 11. In die Krypta gelangt man mit einem Treppenlift mit Rollstuhlplattform; von dort führt eine Rampe zur Cappella Valmarana von Palladio.",
+            "es": "Se entra por Contrà Santa Corona 1 con una rampa de madera empinada (16,5 %). Las capillas laterales tienen de 1 a 3 escalones y el altar mayor 11. A la cripta se baja con un salvaescaleras con plataforma para silla de ruedas; desde allí una rampa lleva a la Capilla Valmarana de Palladio."
+          },
+          "servizi": {
+            "it": "Ci sono due bagni per disabili, raggiungibili dal Chiostro minore con una rampa.",
+            "en": "There are two accessible toilets, reached from the small cloister by a ramp.",
+            "fr": "Il y a deux toilettes accessibles, rejointes depuis le petit cloître par une rampe.",
+            "de": "Es gibt zwei barrierefreie Toiletten, erreichbar vom kleinen Kreuzgang über eine Rampe.",
+            "es": "Hay dos aseos accesibles, a los que se llega desde el claustro menor por una rampa."
+          },
+          "tattile": {
+            "it": "È disponibile una mappa tattile in braille e tre opere sono riprodotte in 3D da toccare.",
+            "en": "A braille tactile map is available, and three works are reproduced in 3D to touch.",
+            "fr": "Un plan tactile en braille est disponible et trois œuvres sont reproduites en 3D à toucher.",
+            "de": "Es gibt einen taktilen Plan in Braille, und drei Werke sind als 3D-Reproduktionen zum Ertasten vorhanden.",
+            "es": "Hay un mapa táctil en braille y tres obras reproducidas en 3D para tocar."
+          },
+          "visiva": {
+            "it": "È disponibile una guida large print per ipovedenti.",
+            "en": "A large-print guide for visually impaired visitors is available.",
+            "fr": "Un guide en gros caractères pour les personnes malvoyantes est disponible.",
+            "de": "Ein Großdruckführer für sehbehinderte Menschen ist erhältlich.",
+            "es": "Hay una guía en letra grande para personas con baja visión."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "loggia-del-capitaniato",
@@ -1053,7 +1210,48 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Museo_di_Santa_Corona.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/mna/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso è preceduto da un tratto in acciottolato. Al piano terra le sale sono collegate da 1-3 gradini superabili con rampe (anche ripide, fino al 28%); la sala del Mosaico si raggiunge solo superando un gradino. Il primo piano è tutto in piano.",
+            "en": "The entrance is preceded by a cobbled stretch. On the ground floor the rooms are linked by 1-3 steps that can be overcome with ramps (some steep, up to 28%); the Mosaic room can only be reached over one step. The first floor is entirely level.",
+            "fr": "L'entrée est précédée d'un passage pavé. Au rez-de-chaussée, les salles sont reliées par 1 à 3 marches franchissables par des rampes (parfois raides, jusqu'à 28 %) ; la salle de la Mosaïque n'est accessible qu'en franchissant une marche. Le premier étage est entièrement de plain-pied.",
+            "de": "Vor dem Eingang liegt ein Stück Kopfsteinpflaster. Im Erdgeschoss sind die Säle durch 1-3 Stufen verbunden, die über Rampen (teils steil, bis 28 %) überwunden werden; der Mosaiksaal ist nur über eine Stufe erreichbar. Der erste Stock ist durchgehend eben.",
+            "es": "La entrada está precedida por un tramo empedrado. En la planta baja las salas están unidas por 1-3 escalones que se superan con rampas (algunas empinadas, hasta el 28 %); a la sala del Mosaico solo se llega superando un escalón. La primera planta es totalmente llana."
+          },
+          "ascensore": {
+            "it": "Un ascensore (porta 90 cm, cabina 137 × 149 cm) collega i due piani del museo.",
+            "en": "A lift (door 90 cm, car 137 × 149 cm) connects the museum's two floors.",
+            "fr": "Un ascenseur (porte de 90 cm, cabine de 137 × 149 cm) relie les deux étages du musée.",
+            "de": "Ein Aufzug (Tür 90 cm, Kabine 137 × 149 cm) verbindet die beiden Etagen des Museums.",
+            "es": "Un ascensor (puerta de 90 cm, cabina de 137 × 149 cm) une las dos plantas del museo."
+          },
+          "tattile": {
+            "it": "Ci sono riproduzioni 3D e alcuni reperti originali da toccare.",
+            "en": "There are 3D reproductions and some original objects that can be touched.",
+            "fr": "Des reproductions 3D et quelques objets originaux peuvent être touchés.",
+            "de": "Es gibt 3D-Reproduktionen und einige Originalstücke zum Anfassen.",
+            "es": "Hay reproducciones 3D y algunas piezas originales que se pueden tocar."
+          },
+          "visiva": {
+            "it": "È disponibile una guida large print per ipovedenti.",
+            "en": "A large-print guide for visually impaired visitors is available.",
+            "fr": "Un guide en gros caractères pour les personnes malvoyantes est disponible.",
+            "de": "Ein Großdruckführer für sehbehinderte Menschen ist erhältlich.",
+            "es": "Hay una guía en letra grande para personas con baja visión."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "gallerie-di-palazzo-thiene",
@@ -1094,7 +1292,41 @@
           "licenza": "Public domain",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_palazzo_Bonin,_gi%C3%A0_Thiene.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicivicenza.it/it/pt/accessibilita.php",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si entra da contrà San Gaetano Thiene 11, con un piccolo gradino di 3 cm. La sezione di scultura al secondo piano si raggiunge solo superando 6 gradini.",
+            "en": "The entrance is at contrà San Gaetano Thiene 11, with a small 3 cm step. The sculpture section on the second floor can only be reached by 6 steps.",
+            "fr": "On entre par la contrà San Gaetano Thiene 11, avec une petite marche de 3 cm. La section de sculpture au deuxième étage n'est accessible que par 6 marches.",
+            "de": "Der Eingang liegt in der Contrà San Gaetano Thiene 11 mit einer kleinen 3 cm hohen Stufe. Die Skulpturenabteilung im zweiten Stock ist nur über 6 Stufen erreichbar.",
+            "es": "Se entra por contrà San Gaetano Thiene 11, con un pequeño escalón de 3 cm. La sección de escultura de la segunda planta solo se alcanza superando 6 escalones."
+          },
+          "ascensore": {
+            "it": "I quattro piani sono serviti da due ascensori (porta 80 cm, cabina 110 × 140 cm) con pulsantiera in braille e segnale acustico.",
+            "en": "The four floors are served by two lifts (door 80 cm, car 110 × 140 cm) with braille buttons and an audible signal.",
+            "fr": "Les quatre étages sont desservis par deux ascenseurs (porte de 80 cm, cabine de 110 × 140 cm) avec boutons en braille et signal sonore.",
+            "de": "Die vier Etagen sind über zwei Aufzüge (Tür 80 cm, Kabine 110 × 140 cm) mit Braille-Tasten und akustischem Signal erreichbar.",
+            "es": "Las cuatro plantas cuentan con dos ascensores (puerta de 80 cm, cabina de 110 × 140 cm) con botonera en braille y señal acústica."
+          },
+          "servizi": {
+            "it": "Al piano interrato, raggiungibile in ascensore, c'è un bagno per disabili (senza maniglione).",
+            "en": "In the basement, reachable by lift, there is an accessible toilet (without grab bar).",
+            "fr": "Au sous-sol, accessible par ascenseur, se trouvent des toilettes accessibles (sans barre d'appui).",
+            "de": "Im Untergeschoss, mit dem Aufzug erreichbar, gibt es eine barrierefreie Toilette (ohne Haltegriff).",
+            "es": "En el sótano, accesible en ascensor, hay un aseo accesible (sin barra de apoyo)."
+          },
+          "cognitiva": {
+            "it": "È disponibile una guida in Comunicazione Aumentativa Alternativa (CAA).",
+            "en": "A guide in Augmentative and Alternative Communication (AAC) is available.",
+            "fr": "Un guide en Communication alternative et améliorée (CAA) est disponible.",
+            "de": "Ein Führer in Unterstützter Kommunikation (UK) ist erhältlich.",
+            "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
+          }
+        }
+      }
     },
     {
       "id": "museo-diocesano",
