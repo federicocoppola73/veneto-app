@@ -82,7 +82,20 @@
             "es": "Antes de la catedral actual, en esta zona se levantaron dos basílicas paleocristianas. Los restos de sus pavimentos de mosaico aún son visibles bajo la iglesia de Sant'Elena y en el claustro de los canónigos. Así, un fragmento de la Verona cristiana más antigua sobrevive justo al lado del Duomo."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
+      }
     },
     {
       "id": "basilica-di-san-zeno-maggiore",
@@ -193,6 +206,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Basilica_di_San_Zeno_Maggiore"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/basilica-di-san-zeno",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La basilica è accessibile in parte: nel chiostro e nella zona inferiore.",
+            "en": "The basilica is partly accessible: in the cloister and the lower area.",
+            "fr": "La basilique est partiellement accessible : dans le cloître et la partie basse.",
+            "de": "Die Basilika ist teilweise zugänglich: im Kreuzgang und im unteren Bereich.",
+            "es": "La basílica es accesible en parte: en el claustro y en la zona inferior."
+          }
+        }
       }
     },
     {
@@ -272,7 +298,34 @@
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Castelvecchio_(Verona)"
       },
-      "personaggio": "paolo-veronese"
+      "personaggio": "paolo-veronese",
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/museo-di-castelvecchio",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è parzialmente accessibile alle persone con difficoltà motorie. In biglietteria è disponibile su richiesta una sedia a rotelle.",
+            "en": "The museum is partly accessible to people with reduced mobility. A wheelchair is available on request at the ticket office.",
+            "fr": "Le musée est partiellement accessible aux personnes à mobilité réduite. Un fauteuil roulant est disponible sur demande à la billetterie.",
+            "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität teilweise zugänglich. An der Kasse ist auf Anfrage ein Rollstuhl erhältlich.",
+            "es": "El museo es parcialmente accesible para personas con movilidad reducida. En la taquilla hay una silla de ruedas disponible a petición."
+          },
+          "ascensore": {
+            "it": "L'ascensore (cabina 120 × 120 cm, porta larga 80 cm) porta solo alla Galleria dei dipinti, con le opere dal Cinquecento al Settecento.",
+            "en": "The lift (car 120 × 120 cm, door 80 cm wide) only reaches the Painting Gallery, with works from the 16th to the 18th century.",
+            "fr": "L'ascenseur (cabine de 120 × 120 cm, porte de 80 cm) ne dessert que la Galerie des peintures, avec les œuvres du XVIe au XVIIIe siècle.",
+            "de": "Der Aufzug (Kabine 120 × 120 cm, Tür 80 cm breit) führt nur zur Gemäldegalerie mit Werken vom 16. bis 18. Jahrhundert.",
+            "es": "El ascensor (cabina de 120 × 120 cm, puerta de 80 cm) solo lleva a la Galería de pinturas, con obras de los siglos XVI al XVIII."
+          },
+          "visiva": {
+            "it": "Nelle sale è presente un percorso per non vedenti.",
+            "en": "A route for blind visitors runs through the rooms.",
+            "fr": "Un parcours pour les personnes aveugles traverse les salles.",
+            "de": "In den Sälen gibt es einen Rundgang für blinde Menschen.",
+            "es": "En las salas hay un recorrido para personas ciegas."
+          }
+        }
+      }
     },
     {
       "id": "museo-lapidario-maffeiano",
@@ -351,7 +404,27 @@
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Museo_lapidario_Maffeiano"
       },
-      "personaggio": "scipione-maffei"
+      "personaggio": "scipione-maffei",
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/museo-lapidario-maffeiano",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il cortile è accessibile alle persone con difficoltà motorie accompagnate, mentre i porticati e il pronao sono preceduti da gradini.",
+            "en": "The courtyard is accessible to people with reduced mobility who are accompanied, while the porticoes and the pronaos are reached by steps.",
+            "fr": "La cour est accessible aux personnes à mobilité réduite accompagnées, tandis que les portiques et le pronaos sont précédés de marches.",
+            "de": "Der Hof ist für Menschen mit eingeschränkter Mobilität in Begleitung zugänglich, vor den Säulengängen und dem Pronaos liegen dagegen Stufen.",
+            "es": "El patio es accesible para personas con movilidad reducida acompañadas, mientras que a los pórticos y al pronaos se llega por escalones."
+          },
+          "ascensore": {
+            "it": "Alle sale interne si sale con l'ascensore; per raggiungerlo bisogna superare un gradino all'ingresso, dove si trova anche la biglietteria.",
+            "en": "The indoor rooms are reached by lift; to get to it you have to climb one step at the entrance, where the ticket office is.",
+            "fr": "On accède aux salles intérieures par l'ascenseur ; pour l'atteindre, il faut franchir une marche à l'entrée, où se trouve aussi la billetterie.",
+            "de": "Die Innensäle erreicht man mit dem Aufzug; dorthin gelangt man über eine Stufe am Eingang, wo sich auch die Kasse befindet.",
+            "es": "A las salas interiores se sube en ascensor; para llegar a él hay que superar un escalón en la entrada, donde también está la taquilla."
+          }
+        }
+      }
     },
     {
       "id": "museo-archeologico-al-teatro-romano",
@@ -411,6 +484,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Teatro_romano_di_Verona"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/teatro-romano-e-museo-archeologico",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Il museo non è accessibile alle persone con difficoltà motorie. Si può invece visitare la cavea del Teatro romano, entrando dall'ingresso con rampa.",
+            "en": "The museum is not accessible to people with reduced mobility. The cavea of the Roman Theatre can be visited instead, using the entrance with a ramp.",
+            "fr": "Le musée n'est pas accessible aux personnes à mobilité réduite. On peut en revanche visiter la cavea du Théâtre romain par l'entrée équipée d'une rampe.",
+            "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität nicht zugänglich. Besichtigt werden kann dagegen die Cavea des Römischen Theaters über den Eingang mit Rampe.",
+            "es": "El museo no es accesible para personas con movilidad reducida. Sí se puede visitar la cavea del Teatro romano por la entrada con rampa."
+          }
+        }
       }
     },
     {
@@ -1078,6 +1164,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Giardino_Giusti"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/giardino-giusti",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Si può visitare solo la parte bassa del giardino: il primo livello è ampio e pianeggiante, mentre il secondo e il terzo presentano scale e dislivelli. Gli appartamenti non hanno ascensore e non sono accessibili.",
+            "en": "Only the lower part of the garden can be visited: the first level is wide and flat, while the second and third have stairs and changes in level. The apartments have no lift and are not accessible.",
+            "fr": "Seule la partie basse du jardin se visite : le premier niveau est vaste et plat, tandis que le deuxième et le troisième comportent des escaliers et des dénivelés. Les appartements n'ont pas d'ascenseur et ne sont pas accessibles.",
+            "de": "Besichtigt werden kann nur der untere Teil des Gartens: Die erste Ebene ist weitläufig und eben, die zweite und dritte haben Treppen und Höhenunterschiede. Die Wohnräume haben keinen Aufzug und sind nicht zugänglich.",
+            "es": "Solo se puede visitar la parte baja del jardín: el primer nivel es amplio y llano, mientras que el segundo y el tercero tienen escaleras y desniveles. Los apartamentos no tienen ascensor y no son accesibles."
+          }
+        }
       }
     },
     {
@@ -1278,6 +1377,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Arena_di_Verona"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/anfiteatro-arena",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'Arena è in parte accessibile alle persone con difficoltà motorie. Il percorso piano delle gallerie anulari si percorre senza particolari ausili. La cavea è visitabile, ma durante il montaggio e lo smontaggio degli allestimenti per gli spettacoli l'accesso può essere limitato per motivi di sicurezza.",
+            "en": "The Arena is partly accessible to people with reduced mobility. The level route through the ring galleries can be followed without special aids. The cavea can be visited, but access may be restricted for safety reasons while stage sets are being put up or taken down.",
+            "fr": "L'Arène est partiellement accessible aux personnes à mobilité réduite. Le parcours de plain-pied des galeries annulaires se fait sans aides particulières. La cavea se visite, mais pendant le montage et le démontage des décors des spectacles, l'accès peut être limité pour des raisons de sécurité.",
+            "de": "Die Arena ist für Menschen mit eingeschränkter Mobilität teilweise zugänglich. Der ebene Weg durch die Ringgalerien ist ohne besondere Hilfsmittel begehbar. Die Cavea kann besichtigt werden, beim Auf- und Abbau der Bühnenbilder kann der Zugang aus Sicherheitsgründen jedoch eingeschränkt sein.",
+            "es": "La Arena es en parte accesible para personas con movilidad reducida. El recorrido llano de las galerías anulares se hace sin ayudas especiales. La cavea se puede visitar, pero durante el montaje y desmontaje de los decorados el acceso puede limitarse por motivos de seguridad."
+          }
+        }
       }
     },
     {
@@ -1338,6 +1450,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Casa_di_Giulietta"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/casa-museo-di-giulietta",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Il cortile è parzialmente accessibile. La casa si può visitare solo fino al piano del balcone, e solo da persone con sufficiente autonomia motoria e accompagnate.",
+            "en": "The courtyard is partly accessible. The house can only be visited up to the balcony floor, and only by people with sufficient mobility who are accompanied.",
+            "fr": "La cour est partiellement accessible. La maison ne se visite que jusqu'à l'étage du balcon, et seulement par des personnes suffisamment autonomes et accompagnées.",
+            "de": "Der Hof ist teilweise zugänglich. Das Haus kann nur bis zum Stockwerk mit dem Balkon besichtigt werden, und nur von Menschen mit ausreichender Mobilität in Begleitung.",
+            "es": "El patio es parcialmente accesible. La casa solo se puede visitar hasta la planta del balcón, y solo por personas con suficiente autonomía de movimiento y acompañadas."
+          }
+        }
       }
     },
     {
@@ -1398,6 +1523,13 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Tomba_di_Giulietta"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": true
+        }
       }
     },
     {
@@ -1459,6 +1591,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Basilica_di_Sant%27Anastasia"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/basilica-di-santa-anastasia",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La chiesa è completamente accessibile.",
+            "en": "The church is fully accessible.",
+            "fr": "L'église est entièrement accessible.",
+            "de": "Die Kirche ist vollständig barrierefrei.",
+            "es": "La iglesia es totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -1538,7 +1683,14 @@
             "es": "La iglesia superior alberga un gran techo de madera en forma de quilla de barco invertida, decorado con nada menos que 416 retratos de santos. Se realizó en las primeras décadas del siglo XIV, cuando los franciscanos renovaron el edificio."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": true
+        }
+      }
     },
     {
       "id": "san-lorenzo",
@@ -1776,6 +1928,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Museo_degli_affreschi_G._B._Cavalcaselle"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -1896,6 +2061,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -1954,6 +2132,19 @@
       "wikipedia": {
         "en": "https://en.wikipedia.org/wiki/Palazzo_Miniscalchi",
         "it": "https://it.wikipedia.org/wiki/Palazzo_Miniscalchi-Erizzo"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -2158,7 +2349,20 @@
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Arche_scaligere"
       },
-      "personaggio": "cangrande-i-della-scala"
+      "personaggio": "cangrande-i-della-scala",
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
+      }
     },
     {
       "id": "torre-dei-lamberti",
@@ -2237,6 +2441,19 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Torre_dei_Lamberti"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/torre-dei-lamberti",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Per la presenza di numerosi scalini il monumento è indicato come non accessibile. Un ascensore a pagamento porta comunque alla terrazza panoramica nella cella campanaria.",
+            "en": "Because of its many steps the monument is listed as not accessible. A paid lift does, however, go up to the viewing terrace in the belfry.",
+            "fr": "En raison des nombreuses marches, le monument est indiqué comme non accessible. Un ascenseur payant mène toutefois à la terrasse panoramique dans le beffroi.",
+            "de": "Wegen der vielen Stufen gilt das Bauwerk als nicht barrierefrei. Ein kostenpflichtiger Aufzug führt jedoch zur Aussichtsterrasse in der Glockenstube.",
+            "es": "Por la presencia de numerosos escalones el monumento figura como no accesible. No obstante, un ascensor de pago sube hasta la terraza panorámica del campanario."
+          }
+        }
       }
     },
     {
@@ -3278,6 +3495,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -3381,6 +3611,19 @@
       "sito": "https://www.museoafricano.org",
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Museo_africano_di_Verona"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
       }
     },
     {
@@ -3583,6 +3826,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/teatro-romano-e-museo-archeologico",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La cavea del Teatro romano si può visitare entrando dall'ingresso con rampa per disabili. Il Museo Archeologico, invece, non è accessibile.",
+            "en": "The cavea of the Roman Theatre can be visited using the entrance with a wheelchair ramp. The Archaeological Museum, however, is not accessible.",
+            "fr": "La cavea du Théâtre romain se visite par l'entrée équipée d'une rampe. Le Musée archéologique, en revanche, n'est pas accessible.",
+            "de": "Die Cavea des Römischen Theaters kann über den Eingang mit Rollstuhlrampe besichtigt werden. Das Archäologische Museum ist dagegen nicht barrierefrei.",
+            "es": "La cavea del Teatro romano se puede visitar por la entrada con rampa. El Museo Arqueológico, en cambio, no es accesible."
+          }
+        }
       }
     },
     {
@@ -4740,7 +4996,20 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=83493322"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          }
+        }
+      }
     },
     {
       "id": "porta-san-zeno",
