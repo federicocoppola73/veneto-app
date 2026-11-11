@@ -228,7 +228,20 @@
         "moderata-fonte",
         "tiziano-vecellio",
         "giovanni-bellini"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.basilicadeifrari.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso principale presenta alcuni gradini, superabili mediante rampe fisse e removibili, con l'assistenza del personale. Sono presenti ulteriori gradini per raggiungere il presbiterio e la Sala del Capitolo, anch'essi superabili con rampe.",
+            "en": "The main entrance has a few steps, which can be overcome with fixed and removable ramps, with help from staff. There are further steps to reach the presbytery and the Chapter House, which can also be overcome with ramps.",
+            "fr": "L'entrée principale comporte quelques marches, franchissables grâce à des rampes fixes et amovibles, avec l'aide du personnel. D'autres marches mènent au presbytère et à la Salle du Chapitre, elles aussi franchissables par des rampes.",
+            "de": "Der Haupteingang hat einige Stufen, die mit festen und mobilen Rampen und mit Hilfe des Personals überwunden werden können. Weitere Stufen führen zum Presbyterium und zum Kapitelsaal; auch sie sind mit Rampen überwindbar.",
+            "es": "La entrada principal tiene algunos escalones, que se pueden salvar mediante rampas fijas y desmontables con la ayuda del personal. Hay más escalones para llegar al presbiterio y a la Sala Capitular, que también se pueden salvar con rampas."
+          }
+        }
+      }
     },
     {
       "id": "salute",
@@ -3943,6 +3956,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://museovetro.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato accessibile alle persone con disabilità. Sono tuttavia presenti, in alcuni punti, leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared accessible to people with disabilities. However, in some places there are slight slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré accessible aux personnes handicapées. Par endroits, on trouve toutefois de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als barrierefrei. Stellenweise gibt es jedoch leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen.",
+            "es": "El museo se declara accesible para personas con discapacidad. No obstante, en algunos puntos hay ligeras pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
       }
     },
     {
@@ -4027,7 +4060,27 @@
             "es": "En 1872 la condesa Andriana Marcello fundó en Burano una Escuela de Encajes para recuperar y relanzar una tradición artesanal que corría el riesgo de desaparecer. La escuela no era solo un lugar de enseñanza: ayudó a mantener viva una técnica compleja y creó oportunidades de trabajo para las mujeres de la isla. Permaneció activa hasta 1970. En 1981 esas mismas salas se transformaron en el actual Museo del Merletto."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://museomerletto.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. In alcuni punti del palazzo storico possono essere presenti leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared fully accessible to people with disabilities. In some parts of the historic palace there may be slight slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Par endroits, le palais historique peut présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als vollständig barrierefrei. In einigen Bereichen des historischen Palastes können leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen vorkommen.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. En algunos puntos del palacio histórico puede haber ligeras pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
+      }
     },
     {
       "id": "storia-naturale",
@@ -4527,7 +4580,27 @@
             "es": "A finales del siglo XIX, Mariano Fortuny transformó el Palazzo Pesaro degli Orfei en su propio laboratorio de experimentación. Allí trabajó con su esposa Henriette Nigrin en la creación de telas, prendas y nuevas técnicas de estampado. Entre sus resultados más célebres está el Delphos, un vestido de seda finamente plisada ideado en 1909: una nota del propio Fortuny atribuye a Henriette la idea original del modelo."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://fortuny.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è dichiarato completamente accessibile alle persone con disabilità. In alcuni punti del palazzo storico possono essere presenti leggere pendenze, soglie rialzate e gradini di altezza diseguale.",
+            "en": "The museum is declared fully accessible to people with disabilities. In some parts of the historic palace there may be slight slopes, raised thresholds and steps of uneven height.",
+            "fr": "Le musée est déclaré entièrement accessible aux personnes handicapées. Par endroits, le palais historique peut présenter de légères pentes, des seuils surélevés et des marches de hauteur inégale.",
+            "de": "Das Museum gilt als vollständig barrierefrei. In einigen Bereichen des historischen Palastes können leichte Neigungen, erhöhte Schwellen und ungleich hohe Stufen vorkommen.",
+            "es": "El museo se declara totalmente accesible para personas con discapacidad. En algunos puntos del palacio histórico puede haber ligeras pendientes, umbrales elevados y escalones de altura desigual."
+          },
+          "ascensore": {
+            "it": "È disponibile un ascensore per i visitatori.",
+            "en": "A lift is available for visitors.",
+            "fr": "Un ascenseur est à la disposition des visiteurs.",
+            "de": "Für Besucher steht ein Aufzug zur Verfügung.",
+            "es": "Hay un ascensor a disposición de los visitantes."
+          }
+        }
+      }
     },
     {
       "id": "scuola-carmini",
@@ -4891,7 +4964,20 @@
             "es": "En el Renacimiento Venecia era uno de los principales centros europeos de perfumería y cosmética. En los talleres de los muschieri, los antiguos perfumistas, se preparaban aguas perfumadas, polvos, jabones y preparados cosméticos.\nLos recetarios venecianos del siglo XVI contenían fórmulas para perfumar estancias y prendas, combatir el mal aliento e incluso aclarar el cabello. Entre los productos más curiosos estaban los moscardini, pastillas perfumadas para refrescar el aliento, y las bionde, preparados destinados a aclarar el cabello."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://mocenigo.visitmuve.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "È disponibile un dispositivo saliscale per agevolare l'accesso al piano nobile. È consigliabile contattare preventivamente il museo al numero +39 041 721798 per organizzare al meglio la visita.",
+            "en": "A stair-climbing device is available to make it easier to reach the piano nobile. It is advisable to contact the museum in advance on +39 041 721798 to plan your visit.",
+            "fr": "Un dispositif monte-escalier est disponible pour faciliter l'accès à l'étage noble. Il est conseillé de contacter le musée à l'avance au +39 041 721798 pour organiser au mieux la visite.",
+            "de": "Ein Treppensteiggerät erleichtert den Zugang zum Piano nobile. Es empfiehlt sich, das Museum vorab unter +39 041 721798 zu kontaktieren, um den Besuch zu planen.",
+            "es": "Hay un dispositivo salvaescaleras para facilitar el acceso a la planta noble. Se recomienda contactar con antelación con el museo en el +39 041 721798 para organizar mejor la visita."
+          }
+        }
+      }
     },
     {
       "id": "casanova",
@@ -10478,7 +10564,34 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": null
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.teatrolafenice.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il teatro dispone di accessi dedicati alle persone con difficoltà motorie. Per l'ingresso con carrozzina è previsto un percorso assistito dal personale. È consigliabile contattare preventivamente il teatro.",
+            "en": "The theatre has dedicated entrances for people with reduced mobility. Wheelchair users are accompanied along an assisted route by staff. It is advisable to contact the theatre in advance.",
+            "fr": "Le théâtre dispose d'accès dédiés aux personnes à mobilité réduite. Pour l'entrée en fauteuil roulant, un parcours accompagné par le personnel est prévu. Il est conseillé de contacter le théâtre à l'avance.",
+            "de": "Das Theater verfügt über eigene Zugänge für Menschen mit eingeschränkter Mobilität. Für Rollstuhlfahrer gibt es einen vom Personal begleiteten Weg. Es empfiehlt sich, das Theater vorab zu kontaktieren.",
+            "es": "El teatro dispone de accesos específicos para personas con movilidad reducida. Para la entrada en silla de ruedas hay un recorrido asistido por el personal. Se recomienda contactar con el teatro con antelación."
+          },
+          "ascensore": {
+            "it": "Gli ascensori permettono di raggiungere i diversi ordini di palchi, la galleria e il loggione.",
+            "en": "Lifts give access to the various tiers of boxes, the gallery and the upper gallery (loggione).",
+            "fr": "Des ascenseurs permettent d'accéder aux différents rangs de loges, à la galerie et au poulailler (loggione).",
+            "de": "Aufzüge führen zu den verschiedenen Logenrängen, zur Galerie und zum obersten Rang (Loggione).",
+            "es": "Los ascensores permiten llegar a los distintos órdenes de palcos, a la galería y al paraíso (loggione)."
+          },
+          "uditiva": {
+            "it": "Durante le opere liriche sono proiettati i sottotitoli del libretto sopra il boccascena. Sono disponibili testi in italiano e inglese e, per alcune opere, anche nella lingua originale. Non tutti i posti garantiscono la visibilità dei sottotitoli.",
+            "en": "During operas, surtitles of the libretto are projected above the stage. Texts are available in Italian and English and, for some operas, also in the original language. Not all seats guarantee a view of the surtitles.",
+            "fr": "Pendant les opéras, les surtitres du livret sont projetés au-dessus de la scène. Les textes sont disponibles en italien et en anglais et, pour certains opéras, aussi dans la langue originale. Toutes les places ne garantissent pas la visibilité des surtitres.",
+            "de": "Bei Opernaufführungen werden Übertitel des Librettos über der Bühnenöffnung projiziert. Die Texte gibt es auf Italienisch und Englisch, bei einigen Opern auch in der Originalsprache. Nicht von allen Plätzen sind die Übertitel gut sichtbar.",
+            "es": "Durante las óperas se proyectan los sobretítulos del libreto sobre el escenario. Hay textos en italiano e inglés y, en algunas óperas, también en el idioma original. No todas las localidades garantizan la visibilidad de los sobretítulos."
+          }
+        }
+      }
     },
     {
       "id": "isola-san-servolo",
@@ -10804,6 +10917,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.teatrolafenice.it/en/teatro-malibran",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'accesso per le persone con disabilità è consentito alla platea, dove sono disponibili quattro posti riservati in fondo alla sala.",
+            "en": "People with disabilities can access the stalls, where four reserved places are available at the back of the hall.",
+            "fr": "Les personnes handicapées peuvent accéder au parterre, où quatre places réservées sont disponibles au fond de la salle.",
+            "de": "Menschen mit Behinderung haben Zugang zum Parkett, wo im hinteren Teil des Saals vier reservierte Plätze zur Verfügung stehen.",
+            "es": "Las personas con discapacidad pueden acceder a la platea, donde hay cuatro plazas reservadas al fondo de la sala."
+          }
+        }
       }
     },
     {
