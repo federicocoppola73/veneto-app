@@ -3866,6 +3866,97 @@
       "personaggio": "jacopo-tintoretto"
     },
     {
+      "id": "chiesa-san-rocco",
+      "nome": "Chiesa di San Rocco",
+      "categoria": "chiese",
+      "latitudine": 45.43695,
+      "longitudine": 12.32523,
+      "sestiere": "San Polo",
+      "fermata": "San Tomà",
+      "sito": "https://www.scuolagrandesanrocco.org/edifici/chiesa-2/",
+      "orari": [
+        {
+          "giorni": "lun-sab",
+          "ore": "9:30–17:30"
+        },
+        {
+          "giorni": "dom",
+          "ore": "13:30–17:30"
+        }
+      ],
+      "biglietto": {
+        "intero": 3.5,
+        "ridotto": 2,
+        "nota": {
+          "it": "Ridotto per giovani dagli 8 ai 26 anni e gruppi con più di 20 persone. Ingresso gratuito per residenti nel Comune di Venezia, persone con disabilità e accompagnatore, religiosi cattolici e bambini fino a 8 anni. Audiovideoguida: €1,50.",
+          "en": "Reduced for young people aged 8 to 26 and groups of more than 20 people. Free for residents of the Municipality of Venice, people with disabilities and a companion, Catholic clergy and religious, and children up to 8. Audio-video guide: €1.50.",
+          "fr": "Tarif réduit pour les jeunes de 8 à 26 ans et les groupes de plus de 20 personnes. Entrée gratuite pour les résidents de la commune de Venise, les personnes handicapées et leur accompagnateur, les religieux catholiques et les enfants jusqu'à 8 ans. Audio-vidéoguide : 1,50 €.",
+          "de": "Ermäßigt für Jugendliche von 8 bis 26 Jahren und Gruppen mit mehr als 20 Personen. Freier Eintritt für Einwohner der Gemeinde Venedig, Menschen mit Behinderung und Begleitperson, katholische Geistliche und Ordensleute sowie Kinder bis 8 Jahre. Audio-Video-Guide: 1,50 €.",
+          "es": "Reducida para jóvenes de 8 a 26 años y grupos de más de 20 personas. Entrada gratuita para residentes en el Municipio de Venecia, personas con discapacidad y acompañante, religiosos católicos y niños hasta 8 años. Audiovideoguía: 1,50 €."
+        }
+      },
+      "immagine": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0"
+        }
+      ],
+      "descrizione": {
+        "it": "Chiesa confraternale iniziata nel 1489 su progetto di Pietro Bon e profondamente rinnovata nel Settecento da Giovanni Scalfarotto. La facciata monumentale in pietra d'Istria fu realizzata da Bernardino Maccaruzzi tra il 1765 e il 1769. Nell'altare maggiore sono custodite le spoglie di San Rocco, giunte a Venezia nel 1485. All'interno si ammirano gli affreschi e le tele di Jacopo Tintoretto dedicate alla vita del santo, insieme a opere del Pordenone, Sebastiano Ricci e altri importanti artisti.",
+        "en": "A confraternity church begun in 1489 to a design by Pietro Bon and extensively renovated in the eighteenth century by Giovanni Scalfarotto. Its monumental Istrian stone façade was built by Bernardino Maccaruzzi between 1765 and 1769. The high altar contains the remains of Saint Roch, brought to Venice in 1485. Inside, visitors can admire frescoes and paintings by Jacopo Tintoretto depicting the life of the saint, as well as works by Pordenone, Sebastiano Ricci and other important artists.",
+        "fr": "Église de confrérie commencée en 1489 sur un projet de Pietro Bon et profondément remaniée au XVIIIe siècle par Giovanni Scalfarotto. Sa monumentale façade en pierre d'Istrie fut réalisée par Bernardino Maccaruzzi entre 1765 et 1769. Le maître-autel conserve les reliques de saint Roch, apportées à Venise en 1485. À l'intérieur, on peut admirer les fresques et les toiles de Jacopo Tintoret représentant la vie du saint, ainsi que des œuvres du Pordenone, de Sebastiano Ricci et d'autres grands artistes.",
+        "de": "Eine Bruderschaftskirche, deren Bau 1489 nach einem Entwurf von Pietro Bon begann und die im 18. Jahrhundert von Giovanni Scalfarotto umfassend umgestaltet wurde. Die monumentale Fassade aus istrischem Stein wurde zwischen 1765 und 1769 von Bernardino Maccaruzzi errichtet. Im Hochaltar werden die Gebeine des heiligen Rochus aufbewahrt, die 1485 nach Venedig gebracht wurden. Im Inneren sind Fresken und Gemälde von Jacopo Tintoretto über das Leben des Heiligen sowie Werke von Pordenone, Sebastiano Ricci und weiteren bedeutenden Künstlern zu sehen.",
+        "es": "Iglesia de cofradía cuya construcción comenzó en 1489 según el proyecto de Pietro Bon y que fue profundamente renovada en el siglo XVIII por Giovanni Scalfarotto. Su monumental fachada de piedra de Istria fue realizada por Bernardino Maccaruzzi entre 1765 y 1769. El altar mayor conserva los restos de San Roque, trasladados a Venecia en 1485. En el interior se pueden admirar los frescos y lienzos de Jacopo Tintoretto dedicados a la vida del santo, junto con obras de Pordenone, Sebastiano Ricci y otros importantes artistas."
+      },
+      "nota": {
+        "it": "Ultimo ingresso alle 17:00. Nei giorni di Natale e Capodanno l'orario è ridotto: 9:30–12:30. La chiesa è aperta anche nelle festività religiose e nazionali. Sono possibili variazioni straordinarie: verificare il calendario sul sito ufficiale. È disponibile anche un biglietto combinato con la Scuola Grande, acquistabile esclusivamente presso la biglietteria della Scuola.",
+        "en": "Last admission at 17:00. On Christmas Day and New Year's Day opening hours are reduced to 9:30–12:30. The church is also open on religious and national holidays. Extraordinary changes are possible: check the official website calendar. A combined ticket with the Scuola Grande is also available, exclusively at the Scuola Grande ticket office.",
+        "fr": "Dernière entrée à 17h00. Le jour de Noël et le jour de l'An, les horaires sont réduits : 9h30–12h30. L'église est également ouverte les jours fériés religieux et nationaux. Des modifications exceptionnelles sont possibles : consulter le calendrier du site officiel. Un billet combiné avec la Scuola Grande est également disponible, uniquement à la billetterie de la Scuola Grande.",
+        "de": "Letzter Einlass um 17:00 Uhr. An Weihnachten und Neujahr gelten verkürzte Öffnungszeiten: 9:30–12:30 Uhr. Die Kirche ist auch an religiösen und nationalen Feiertagen geöffnet. Außerordentliche Änderungen sind möglich: Bitte den Veranstaltungskalender auf der offiziellen Website prüfen. Ein Kombiticket mit der Scuola Grande ist ausschließlich an deren Kasse erhältlich.",
+        "es": "Último acceso a las 17:00. En Navidad y Año Nuevo el horario se reduce a 9:30–12:30. La iglesia también abre durante las festividades religiosas y nacionales. Puede haber modificaciones extraordinarias: consultar el calendario de la web oficial. También hay una entrada combinada con la Scuola Grande, disponible exclusivamente en su taquilla."
+      },
+      "personaggio": "jacopo-tintoretto",
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/node/1634",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "La chiesa dispone di due ingressi: quello principale presenta cinque gradini, mentre quello laterale ne presenta quattro. Nella documentazione comunale consultata non sono indicati ingressi senza gradini né ausili per superare le scale. L'accesso per le persone con difficoltà motorie richiede pertanto attenzione e una verifica preventiva con la struttura.",
+            "en": "The church has two entrances: the main entrance has five steps, while the side entrance has four. The municipal documentation consulted does not indicate any step-free entrances or equipment to overcome the stairs. Visitors with reduced mobility should therefore check access arrangements with the church in advance.",
+            "fr": "L'église dispose de deux entrées : l'entrée principale comporte cinq marches et l'entrée latérale quatre. La documentation municipale consultée ne signale aucune entrée sans marches ni équipement permettant de franchir les escaliers. Il est donc conseillé aux personnes à mobilité réduite de vérifier les conditions d'accès à l'avance.",
+            "de": "Die Kirche verfügt über zwei Eingänge: Der Haupteingang hat fünf Stufen, der Seiteneingang vier. In den konsultierten städtischen Unterlagen werden weder stufenlose Eingänge noch Hilfsmittel zum Überwinden der Treppen angegeben. Besuchern mit eingeschränkter Mobilität wird daher empfohlen, die Zugangsmöglichkeiten vorab mit der Kirche zu klären.",
+            "es": "La iglesia dispone de dos entradas: la principal tiene cinco escalones y la lateral cuatro. La documentación municipal consultada no indica entradas sin escalones ni dispositivos para superar las escaleras. Por ello, se recomienda a las personas con movilidad reducida consultar previamente las condiciones de acceso."
+          },
+          "visiva": {
+            "it": "Vicino all'ingresso c'è un pannello multisensoriale con la pianta della chiesa in forma tattile, il disegno della facciata e testi in italiano, inglese e Braille.",
+            "en": "Near the entrance there is a multisensory panel with a tactile plan of the church, a drawing of the façade and texts in Italian, English and Braille.",
+            "fr": "Près de l'entrée se trouve un panneau multisensoriel avec le plan de l'église en relief, le dessin de la façade et des textes en italien, en anglais et en braille.",
+            "de": "Am Eingang steht eine multisensorische Tafel mit tastbarem Grundriss der Kirche, einer Zeichnung der Fassade und Texten auf Italienisch, Englisch und in Braille.",
+            "es": "Cerca de la entrada hay un panel multisensorial con la planta de la iglesia en relieve, el dibujo de la fachada y textos en italiano, inglés y braille."
+          },
+          "uditiva": {
+            "it": "Con i QR code e i tag NFC del pannello si accede a videoguide in italiano e inglese; la versione italiana è anche in Lingua dei Segni Italiana (LIS).",
+            "en": "The QR codes and NFC tags on the panel give access to video guides in Italian and English; the Italian version is also in Italian Sign Language (LIS).",
+            "fr": "Les QR codes et les tags NFC du panneau donnent accès à des vidéoguides en italien et en anglais ; la version italienne existe aussi en langue des signes italienne (LIS).",
+            "de": "Über die QR-Codes und NFC-Tags der Tafel sind Videoguides auf Italienisch und Englisch abrufbar; die italienische Fassung gibt es auch in Italienischer Gebärdensprache (LIS).",
+            "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
+          }
+        }
+      }
+    },
+    {
       "id": "museo-correr",
       "nome": "Museo Correr",
       "categoria": "musei",

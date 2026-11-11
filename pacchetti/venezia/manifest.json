@@ -1,5 +1,5 @@
 {
- "versione": "222fd8ffb8dc",
+ "versione": "0afc6d1c8b77",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -795,6 +795,26 @@
    "path": "assets/luoghi/chiesa-san-polo_4.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/chiesa-san-polo_4.webp",
    "sha256": "1019a6134b44bda3a7467cef7193addaca3787ff27b59e71a4f1ad102117b15a"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-rocco.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/chiesa-san-rocco.webp",
+   "sha256": "ee476c30e8beb11483f801f3f7a42923c051786f35d4ec308ce6639c638c5bf7"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-rocco_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/chiesa-san-rocco_2.webp",
+   "sha256": "02e75a52dbf16a39bdd6623ba89a2055c1aa9216cdd3c678477877fbdab10bc8"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-rocco_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/chiesa-san-rocco_3.webp",
+   "sha256": "957261e500538643d4722d9148c7c4ee1d2058fdebf4dd02ec5774dee48efb17"
+  },
+  {
+   "path": "assets/luoghi/chiesa-san-rocco_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/chiesa-san-rocco_4.webp",
+   "sha256": "8c991eaeba2d45ebf541735cbe292827a415087cc73733d671feb37c05dcf3c9"
   },
   {
    "path": "assets/luoghi/chiesa-san-trovaso.webp",
@@ -5669,7 +5689,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/immagini.json",
-   "sha256": "2f3a0f0b81f7147feb320f1232e3e2fe2a9d15bb3ad66f5aa3a18eaa8701cb78"
+   "sha256": "2107f59f3759a88a8debb3765264601ca24b0c53b883303d0a0306eee793b3a3"
   },
   {
    "path": "dati/itinerari.json",
@@ -5679,7 +5699,7 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/luoghi.json",
-   "sha256": "c9fc1dfc843d17ac8247b1e4d8e7040a54e3a9816ad9d1ab44cf44782e61e4a8"
+   "sha256": "8ce2b41f4b6ea15d9a919b42417517c43aab53c0ed91260fc248fb334eab1169"
   },
   {
    "path": "dati/mappa.json",
@@ -5699,7 +5719,7 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/personaggi.json",
-   "sha256": "049996a53c71898acc532d8808c1bdc5a4d89fec88a6e49da4bc06187289a3a9"
+   "sha256": "f75731c8ba2054acef34f6689161f836562c50de135829cb3e7661497eb16bbc"
   },
   {
    "path": "dati/principali.json",

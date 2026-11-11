@@ -699,7 +699,8 @@
         "accademia",
         "san-giorgio-maggiore",
         "chiesa-san-polo",
-        "chiesa-san-trovaso"
+        "chiesa-san-trovaso",
+        "chiesa-san-rocco"
       ],
       "luoghiNote": {
         "casa-tintoretto": {
@@ -828,6 +829,22 @@
             "fr": "On y conserve Les tentations de saint Antoine, une œuvre de 1577 attribuée à Tintoret. Le tableau représente les épreuves affrontées par le saint à travers une scène mouvementée, avec des figures et des détails qui expriment le langage dramatique caractéristique du peintre.",
             "de": "Hier wird Die Versuchung des heiligen Antonius aufbewahrt, ein 1577 entstandenes Werk, das Tintoretto zugeschrieben wird. Das Gemälde zeigt die Prüfungen des Heiligen in einer bewegten Szene, mit Figuren und Details, die die dramatische Sprache des Malers ausdrücken.",
             "es": "Aquí se conservan Las tentaciones de san Antonio, obra de 1577 atribuida a Tintoretto. El cuadro narra las pruebas que afronta el santo en una escena movida, con figuras y detalles que expresan el característico lenguaje dramático del pintor."
+          }
+        },
+        "chiesa-san-rocco": {
+          "tipo": {
+            "it": "Opera conservata",
+            "en": "Artwork preserved",
+            "fr": "Œuvre conservée",
+            "de": "Erhaltenes Werk",
+            "es": "Obra conservada"
+          },
+          "testo": {
+            "it": "Il legame di Tintoretto con questa chiesa è distinto da quello con l'adiacente Scuola Grande di San Rocco. Per la chiesa realizzò diverse opere, tra cui San Rocco che visita gli appestati (1549), nel ciclo del presbiterio, e Cristo guarisce il paralitico, noto anche come Piscina Probatica (1559), collocato sulla parete destra della navata. Questi dipinti testimoniano il suo rapporto artistico con la confraternita e il culto del santo.",
+            "en": "Tintoretto's link with this church is separate from his link with the neighbouring Scuola Grande di San Rocco. For the church he painted several works, including Saint Roch Visiting the Plague Victims (1549), part of the presbytery cycle, and Christ Healing the Paralytic, also known as the Pool of Bethesda (1559), on the right wall of the nave. These paintings bear witness to his artistic relationship with the confraternity and the cult of the saint.",
+            "fr": "Le lien de Tintoret avec cette église est distinct de celui qui l'unit à la Scuola Grande di San Rocco voisine. Pour l'église, il réalisa plusieurs œuvres, dont Saint Roch visitant les pestiférés (1549), dans le cycle du presbytère, et Le Christ guérissant le paralytique, connu aussi sous le nom de Piscine probatique (1559), placé sur le mur droit de la nef. Ces tableaux témoignent de sa relation artistique avec la confrérie et le culte du saint.",
+            "de": "Tintorettos Verbindung zu dieser Kirche ist von der zur benachbarten Scuola Grande di San Rocco zu unterscheiden. Für die Kirche schuf er mehrere Werke, darunter Der heilige Rochus besucht die Pestkranken (1549) im Zyklus des Presbyteriums und Christus heilt den Gelähmten, auch als Teich Betesda bekannt (1559), an der rechten Wand des Langhauses. Diese Gemälde zeugen von seiner künstlerischen Beziehung zur Bruderschaft und zur Verehrung des Heiligen.",
+            "es": "El vínculo de Tintoretto con esta iglesia es distinto del que tiene con la vecina Scuola Grande di San Rocco. Para la iglesia realizó varias obras, entre ellas San Roque visita a los apestados (1549), en el ciclo del presbiterio, y Cristo cura al paralítico, conocido también como la Piscina Probática (1559), situado en la pared derecha de la nave. Estas pinturas testimonian su relación artística con la cofradía y el culto al santo."
           }
         }
       },
