@@ -3972,8 +3972,11 @@
       "id": "galleria-arte-moderna",
       "nome": "Galleria Internazionale d'Arte Moderna",
       "categoria": "musei",
+      "latitudine": 45.44108,
+      "longitudine": 12.33132,
       "sestiere": "Santa Croce",
       "fermata": "San Stae",
+      "sito": "https://capesaro.visitmuve.it",
       "orari": [
         {
           "giorni": "tutti",
@@ -3989,9 +3992,6 @@
       "chiuso": [
         "lun"
       ],
-      "latitudine": 45.44108,
-      "longitudine": 12.33132,
-      "sito": "https://capesaro.visitmuve.it",
       "biglietto": {
         "intero": 15,
         "ridotto": 7.5,
@@ -4003,6 +4003,24 @@
           "es": "Una única entrada sirve para la Galería Internacional de Arte Moderno y el Museo de Arte Oriental. También existe la entrada Museos de lo Moderno y lo Contemporáneo (Ca' Pesaro, Museo Fortuny y MUVEC en Mestre): 20 €, reducida 10 €."
         }
       },
+      "immagine": {
+        "autore": "Godromil",
+        "licenza": "Public domain"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Ottorino Stefani",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Ippolito Caffi",
+          "licenza": "Public domain"
+        }
+      ],
       "descrizione": {
         "it": "La Galleria Internazionale d'Arte Moderna di Ca' Pesaro custodisce una delle più importanti raccolte italiane di arte moderna e contemporanea. Il percorso espositivo racconta l'evoluzione artistica tra Ottocento e Novecento, dalle prime sperimentazioni figurative alle avanguardie storiche, fino alle ricerche contemporanee. La collezione comprende dipinti e sculture di artisti italiani e internazionali, tra cui Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico e Wassily Kandinsky.",
         "en": "The International Gallery of Modern Art at Ca' Pesaro holds one of Italy's most important collections of modern and contemporary art. The displays trace the development of art between the 19th and 20th centuries, from early figurative experiments to the historical avant-gardes and contemporary research. The collection includes paintings and sculptures by Italian and international artists, including Gustav Klimt, Auguste Rodin, Umberto Boccioni, Medardo Rosso, Giorgio de Chirico and Wassily Kandinsky.",
