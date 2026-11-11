@@ -3735,11 +3735,11 @@
         "verificato": "2026-11-11",
         "voci": {
           "motoria": {
-            "it": "Il percorso è adatto anche a visitatori con ridotta capacità motoria. Si consiglia di accedere tramite il contiguo Museo Correr per usufruire senza barriere dell'intero complesso (Museo Correr, Museo Archeologico e Sale Monumentali della Biblioteca Marciana). All'interno del percorso sono presenti servizi igienici attrezzati per persone con disabilità motoria.",
-            "en": "The route is also suitable for visitors with reduced mobility. It is advisable to enter through the adjoining Museo Correr to visit the whole complex without barriers (Museo Correr, Archaeological Museum and Monumental Rooms of the Biblioteca Marciana). Toilets equipped for people with reduced mobility are available along the route.",
-            "fr": "Le parcours convient aussi aux visiteurs à mobilité réduite. Il est conseillé d'entrer par le Musée Correr attenant pour profiter sans obstacles de tout le complexe (Musée Correr, Musée archéologique et Salles monumentales de la Bibliothèque Marciana). Des toilettes équipées pour les personnes à mobilité réduite se trouvent le long du parcours.",
-            "de": "Der Rundgang eignet sich auch für Besucher mit eingeschränkter Mobilität. Es empfiehlt sich, über das angrenzende Museo Correr einzutreten, um den gesamten Komplex barrierefrei zu besuchen (Museo Correr, Archäologisches Museum und Prunksäle der Biblioteca Marciana). Entlang des Rundgangs gibt es behindertengerechte Toiletten.",
-            "es": "El recorrido es apto también para visitantes con movilidad reducida. Se recomienda entrar por el contiguo Museo Correr para recorrer sin barreras todo el conjunto (Museo Correr, Museo Arqueológico y Salas Monumentales de la Biblioteca Marciana). A lo largo del recorrido hay aseos adaptados para personas con movilidad reducida."
+            "it": "Il percorso è adatto anche a visitatori con ridotta capacità motoria. Si consiglia di accedere tramite il contiguo Museo Correr per usufruire senza barriere dell'intero complesso (Museo Correr, Museo Archeologico e Sale Monumentali della Biblioteca Marciana).",
+            "en": "The route is also suitable for visitors with reduced mobility. It is advisable to enter through the adjoining Museo Correr to visit the whole complex without barriers (Museo Correr, Archaeological Museum and Monumental Rooms of the Biblioteca Marciana).",
+            "fr": "Le parcours convient aussi aux visiteurs à mobilité réduite. Il est conseillé d'entrer par le Musée Correr attenant pour profiter sans obstacles de tout le complexe (Musée Correr, Musée archéologique et Salles monumentales de la Bibliothèque Marciana).",
+            "de": "Der Rundgang eignet sich auch für Besucher mit eingeschränkter Mobilität. Es empfiehlt sich, über das angrenzende Museo Correr einzutreten, um den gesamten Komplex barrierefrei zu besuchen (Museo Correr, Archäologisches Museum und Prunksäle der Biblioteca Marciana).",
+            "es": "El recorrido es apto también para visitantes con movilidad reducida. Se recomienda entrar por el contiguo Museo Correr para recorrer sin barreras todo el conjunto (Museo Correr, Museo Arqueológico y Salas Monumentales de la Biblioteca Marciana)."
           },
           "visiva": {
             "it": "È disponibile un percorso tattile gratuito, su prenotazione, che permette di esplorare alcune sculture originali. Sono disponibili anche guide in Braille in italiano, inglese, francese e tedesco.",
@@ -3754,6 +3754,13 @@
             "fr": "8 vidéos en langue des signes italienne (LIS) sont disponibles, avec sous-titres en italien.",
             "de": "Es gibt 8 Videos in Italienischer Gebärdensprache (LIS) mit italienischen Untertiteln.",
             "es": "Hay 8 vídeos en Lengua de Signos Italiana (LIS), con subtítulos en italiano."
+          },
+          "servizi": {
+            "it": "All'interno del percorso sono presenti servizi igienici attrezzati per persone con disabilità motoria.",
+            "en": "Toilets equipped for people with reduced mobility are available along the route.",
+            "fr": "Des toilettes équipées pour les personnes à mobilité réduite se trouvent le long du parcours.",
+            "de": "Entlang des Rundgangs gibt es behindertengerechte Toiletten.",
+            "es": "A lo largo del recorrido hay aseos adaptados para personas con movilidad reducida."
           }
         }
       }
@@ -3925,11 +3932,11 @@
         "verificato": "2026-11-11",
         "voci": {
           "motoria": {
-            "it": "Il museo è dichiarato accessibile alle persone con disabilità. Trattandosi di un palazzo storico, la pavimentazione può presentare leggere pendenze, soglie rialzate e gradini di altezza irregolare. Sono presenti servizi igienici per i visitatori.",
-            "en": "The museum is declared accessible to people with disabilities. As it is a historic palace, the floors may have slight slopes, raised thresholds and steps of irregular height. Toilets are available for visitors.",
-            "fr": "Le musée est déclaré accessible aux personnes handicapées. S'agissant d'un palais historique, le sol peut présenter de légères pentes, des seuils surélevés et des marches de hauteur irrégulière. Des toilettes sont à la disposition des visiteurs.",
-            "de": "Das Museum gilt als barrierefrei. Da es sich um einen historischen Palast handelt, können die Böden leichte Neigungen, erhöhte Schwellen und unregelmäßig hohe Stufen aufweisen. Für Besucher stehen Toiletten zur Verfügung.",
-            "es": "El museo se declara accesible para personas con discapacidad. Al tratarse de un palacio histórico, el suelo puede presentar ligeras pendientes, umbrales elevados y escalones de altura irregular. Hay aseos a disposición de los visitantes."
+            "it": "Il museo è dichiarato accessibile alle persone con disabilità. Trattandosi di un palazzo storico, la pavimentazione può presentare leggere pendenze, soglie rialzate e gradini di altezza irregolare.",
+            "en": "The museum is declared accessible to people with disabilities. As it is a historic palace, the floors may have slight slopes, raised thresholds and steps of irregular height.",
+            "fr": "Le musée est déclaré accessible aux personnes handicapées. S'agissant d'un palais historique, le sol peut présenter de légères pentes, des seuils surélevés et des marches de hauteur irrégulière.",
+            "de": "Das Museum gilt als barrierefrei. Da es sich um einen historischen Palast handelt, können die Böden leichte Neigungen, erhöhte Schwellen und unregelmäßig hohe Stufen aufweisen.",
+            "es": "El museo se declara accesible para personas con discapacidad. Al tratarse de un palacio histórico, el suelo puede presentar ligeras pendientes, umbrales elevados y escalones de altura irregular."
           },
           "ascensore": {
             "it": "È disponibile un ascensore per i visitatori.",
@@ -3937,6 +3944,13 @@
             "fr": "Un ascenseur est à la disposition des visiteurs.",
             "de": "Für Besucher steht ein Aufzug zur Verfügung.",
             "es": "Hay un ascensor a disposición de los visitantes."
+          },
+          "servizi": {
+            "it": "Sono presenti servizi igienici per i visitatori.",
+            "en": "Toilets are available for visitors.",
+            "fr": "Des toilettes sont à la disposition des visiteurs.",
+            "de": "Für Besucher stehen Toiletten zur Verfügung.",
+            "es": "Hay aseos a disposición de los visitantes."
           }
         }
       }

@@ -16,7 +16,7 @@ import { testoLocalizzato } from '../i18n';
 // Disegni originali in assets/icone/accessibilita/*.svg (griglia 64×64, solo contorno).
 
 // ordine in cui compaiono le icone
-export const TIPI_ACCESSIBILITA = ['non_accessibile', 'motoria', 'ascensore', 'visiva', 'tattile', 'uditiva', 'cognitiva'];
+export const TIPI_ACCESSIBILITA = ['non_accessibile', 'motoria', 'ascensore', 'visiva', 'tattile', 'uditiva', 'cognitiva', 'servizi'];
 
 // tipi segnalati come limitazione (colore rosso al posto del blu)
 const LIMITAZIONI = ['non_accessibile'];
@@ -70,6 +70,18 @@ const DISEGNI = {
       <Path d="M17 27c0-11 7-18 17-18 10 0 17 7 17 17 0 8-4 12-9 17-3 3-4 6-5 10-1 4-4 6-8 6-5 0-8-3-8-8" />
       <Path d="M25 28c0-6 3-10 9-10 6 0 9 4 9 9 0 5-3 8-7 12-2 2-3 4-3 7" />
       <Path d="M31 28c0-2 1-3 3-3 2 0 3 1 3 3 0 2-1 3-3 5" />
+    </>
+  ),
+  // servizi igienici: uomo e donna separati da una linea
+  servizi: () => (
+    <>
+      <Path d="M32 8v48" />
+      <Circle cx={18} cy={12} r={4.2} />
+      <Rect x={11} y={21} width={14} height={17} rx={3} />
+      <Path d="M15 38v16M21 38v16" />
+      <Circle cx={46} cy={12} r={4.2} />
+      <Path d="M46 21l-8 20h16z" />
+      <Path d="M43 41v13M49 41v13" />
     </>
   ),
   cognitiva: () => (
