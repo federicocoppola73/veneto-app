@@ -1093,7 +1093,27 @@
             "es": "El Museo dei Grandi Fiumi ocupa los espacios del antiguo monasterio olivetano de San Bartolomeo, cuyos orígenes se remontan al siglo XIII. Entre los siglos XVI y XVII el complejo se amplió con dos claustros y dos patios. Tras usarse también para actividades asistenciales, se convirtió en museo en 2001."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.rovigo.it/myportal/C_H620/api/content/download?id=655f6fe0081def008b131e25",
+        "verificato": "2026-11-11",
+        "voci": {
+          "ascensore": {
+            "it": "È presente un ascensore accessibile in carrozzina.",
+            "en": "There is a wheelchair-accessible lift.",
+            "fr": "Il y a un ascenseur accessible en fauteuil roulant.",
+            "de": "Es gibt einen rollstuhlgerechten Aufzug.",
+            "es": "Hay un ascensor accesible en silla de ruedas."
+          },
+          "servizi": {
+            "it": "Servizio igienico accessibile al primo piano. La piccola sala ristoro ha uno scalino.",
+            "en": "Accessible toilet on the first floor. The small refreshment room has one step.",
+            "fr": "Toilettes accessibles au premier étage. La petite salle de restauration a une marche.",
+            "de": "Barrierefreie Toilette im ersten Stock. Der kleine Erfrischungsraum hat eine Stufe.",
+            "es": "Aseo accesible en la primera planta. La pequeña sala de refrigerios tiene un escalón."
+          }
+        }
+      }
     },
     {
       "id": "piazzetta-annonaria",

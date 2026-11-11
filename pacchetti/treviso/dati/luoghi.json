@@ -1812,7 +1812,27 @@
       ],
       "personaggio": [
         "tomaso-da-modena"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicitreviso.it/esplora/luoghi/museo-santa-caterina/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è attrezzato con rampe e ascensori per chi ha una disabilità motoria; l'accompagnatore entra gratis.",
+            "en": "The museum has ramps and lifts for visitors with reduced mobility; companions enter free of charge.",
+            "fr": "Le musée est équipé de rampes et d'ascenseurs pour les personnes à mobilité réduite ; l'accompagnateur entre gratuitement.",
+            "de": "Das Museum verfügt über Rampen und Aufzüge für Menschen mit eingeschränkter Mobilität; Begleitpersonen haben freien Eintritt.",
+            "es": "El museo cuenta con rampas y ascensores para personas con movilidad reducida; el acompañante entra gratis."
+          },
+          "ascensore": {
+            "it": "È presente un ascensore.",
+            "en": "A lift is available.",
+            "fr": "Un ascenseur est disponible.",
+            "de": "Ein Aufzug ist vorhanden.",
+            "es": "Hay un ascensor."
+          }
+        }
+      }
     },
     {
       "id": "museo-luigi-bailo",
@@ -3107,6 +3127,40 @@
       "sito": "https://www.teatrostabileveneto.it/",
       "wikipedia": {
         "en": "Teatro Mario Del Monaco"
+      },
+      "accessibilita": {
+        "fonte": "https://www.teatrostabileveneto.it/en/accessibility",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Sono disponibili rampe, montascale e ascensori. Ci sono 2 posti riservati: vanno prenotati almeno 3 giorni prima scrivendo alla biglietteria.",
+            "en": "Ramps, stairlifts and lifts are available. There are 2 reserved spaces: book them at least 3 days ahead by emailing the box office.",
+            "fr": "Rampes, monte-escaliers et ascenseurs sont disponibles. 2 places sont réservées : à réserver au moins 3 jours à l'avance par e-mail auprès de la billetterie.",
+            "de": "Rampen, Treppenlifte und Aufzüge sind vorhanden. Es gibt 2 reservierte Plätze: mindestens 3 Tage im Voraus per E-Mail an die Theaterkasse buchen.",
+            "es": "Hay rampas, salvaescaleras y ascensores. Hay 2 plazas reservadas: deben reservarse con al menos 3 días de antelación escribiendo a la taquilla."
+          },
+          "ascensore": {
+            "it": "Sono presenti ascensori e montascale.",
+            "en": "There are lifts and stairlifts.",
+            "fr": "Il y a des ascenseurs et des monte-escaliers.",
+            "de": "Es gibt Aufzüge und Treppenlifte.",
+            "es": "Hay ascensores y salvaescaleras."
+          },
+          "visiva": {
+            "it": "Negli spettacoli accessibili: visita tattile del palcoscenico 45 minuti prima e audiodescrizione con l'app Lyri.",
+            "en": "At accessible performances: tactile stage tour 45 minutes before and audio description via the Lyri app.",
+            "fr": "Lors des spectacles accessibles : visite tactile de la scène 45 minutes avant et audiodescription avec l'appli Lyri.",
+            "de": "Bei barrierefreien Vorstellungen: Tastführung auf der Bühne 45 Minuten vorher und Audiodeskription mit der App Lyri.",
+            "es": "En las funciones accesibles: visita táctil del escenario 45 minutos antes y audiodescripción con la app Lyri."
+          },
+          "uditiva": {
+            "it": "Negli spettacoli accessibili: sottotitoli con l'app Lyri, tablet o smart glasses.",
+            "en": "At accessible performances: subtitles via the Lyri app, tablets or smart glasses.",
+            "fr": "Lors des spectacles accessibles : sous-titres avec l'appli Lyri, tablettes ou lunettes connectées.",
+            "de": "Bei barrierefreien Vorstellungen: Untertitel über die App Lyri, Tablets oder Smart Glasses.",
+            "es": "En las funciones accesibles: subtítulos con la app Lyri, tabletas o gafas inteligentes."
+          }
+        }
       }
     },
     {

@@ -284,7 +284,20 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Villa_Rotonda_La_Capra_10.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://grandigiardini.it/_file/317_en_4-modalitadivisita2025-eng.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "Il piano nobile non è accessibile in carrozzina.",
+            "en": "The piano nobile (main floor) is not wheelchair accessible.",
+            "fr": "Le piano nobile n'est pas accessible en fauteuil roulant.",
+            "de": "Das Piano nobile ist für Rollstühle nicht zugänglich.",
+            "es": "La planta noble no es accesible en silla de ruedas."
+          }
+        }
+      }
     },
     {
       "id": "piazza-dei-signori",
@@ -1593,7 +1606,20 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Barbaran_Da_Porto_facc1.jpg"
         }
       ],
-      "personaggio": "andrea-palladio"
+      "personaggio": "andrea-palladio",
+      "accessibilita": {
+        "fonte": "https://www.palladiomuseum.org/en/museum",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è completamente accessibile alle persone con disabilità motoria.",
+            "en": "The museum is fully accessible to people with reduced mobility.",
+            "fr": "Le musée est entièrement accessible aux personnes à mobilité réduite.",
+            "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität vollständig barrierefrei.",
+            "es": "El museo es totalmente accesible para personas con movilidad reducida."
+          }
+        }
+      }
     },
     {
       "id": "tempio-di-san-lorenzo",

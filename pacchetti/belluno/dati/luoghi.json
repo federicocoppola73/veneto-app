@@ -1531,7 +1531,27 @@
         "dino-buzzati",
         "giovanni-de-min",
         "gaspare-diziani"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.dolomitiprealpi.it/en/?p=61720",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Accesso in piano.",
+            "en": "Step-free access.",
+            "fr": "Accès de plain-pied.",
+            "de": "Stufenloser Zugang.",
+            "es": "Acceso sin escalones."
+          },
+          "servizi": {
+            "it": "È presente un bagno accessibile.",
+            "en": "An accessible toilet is available.",
+            "fr": "Des toilettes accessibles sont disponibles.",
+            "de": "Eine barrierefreie Toilette ist vorhanden.",
+            "es": "Hay un aseo accesible."
+          }
+        }
+      }
     },
     {
       "id": "museo-archeologico-palazzo-dei-giuristi",
@@ -1766,7 +1786,41 @@
           "licenza": null,
           "fonte": null
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.dolomitiprealpi.it/museo-interattivo-delle-migrazioni/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Accessibilità motoria parziale: solo alcune stanze o piani.",
+            "en": "Partially accessible: only some rooms or floors.",
+            "fr": "Accessibilité partielle : seulement certaines salles ou certains étages.",
+            "de": "Teilweise barrierefrei: nur einige Räume oder Stockwerke.",
+            "es": "Accesibilidad parcial: solo algunas salas o plantas."
+          },
+          "servizi": {
+            "it": "È presente un bagno accessibile.",
+            "en": "An accessible toilet is available.",
+            "fr": "Des toilettes accessibles sont disponibles.",
+            "de": "Eine barrierefreie Toilette ist vorhanden.",
+            "es": "Hay un aseo accesible."
+          },
+          "visiva": {
+            "it": "Audioguide con l'app SENSI da scaricare sul proprio smartphone o tablet.",
+            "en": "Audio guides via the SENSI app on your smartphone or tablet.",
+            "fr": "Audioguides avec l'appli SENSI à télécharger sur smartphone ou tablette.",
+            "de": "Audioguides über die App SENSI auf dem eigenen Smartphone oder Tablet.",
+            "es": "Audioguías con la app SENSI en el propio smartphone o tableta."
+          },
+          "uditiva": {
+            "it": "Guide specializzate su richiesta; sottotitoli parziali.",
+            "en": "Specialised guides on request; partial subtitles.",
+            "fr": "Guides spécialisés sur demande ; sous-titres partiels.",
+            "de": "Spezialisierte Führungen auf Anfrage; teilweise Untertitel.",
+            "es": "Guías especializados a petición; subtítulos parciales."
+          }
+        }
+      }
     },
     {
       "id": "teatro-comunale-dino-buzzati",

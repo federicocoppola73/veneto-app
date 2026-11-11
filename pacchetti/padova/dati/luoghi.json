@@ -3341,6 +3341,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.musme.it/informazioniutili/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è completamente accessibile alle persone con disabilità motoria.",
+            "en": "The museum is fully accessible to people with reduced mobility.",
+            "fr": "Le musée est entièrement accessible aux personnes à mobilité réduite.",
+            "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität vollständig barrierefrei.",
+            "es": "El museo es totalmente accesible para personas con movilidad reducida."
+          },
+          "ascensore": {
+            "it": "Ogni piano del museo è raggiungibile in ascensore.",
+            "en": "Every floor of the museum can be reached by lift.",
+            "fr": "Chaque étage du musée est accessible par ascenseur.",
+            "de": "Jedes Stockwerk des Museums ist mit dem Aufzug erreichbar.",
+            "es": "Todas las plantas del museo son accesibles en ascensor."
+          }
+        }
       }
     },
     {

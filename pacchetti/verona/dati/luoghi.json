@@ -2206,6 +2206,26 @@
       "wikipedia": {
         "en": "https://en.wikipedia.org/wiki/Palazzo_Maffei,_Verona",
         "it": "https://it.wikipedia.org/wiki/Palazzo_Maffei"
+      },
+      "accessibilita": {
+        "fonte": "https://www.visitverona.it/it/luoghi/palazzo-maffei-casa-museo",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come completamente accessibile.",
+            "en": "Listed as fully accessible.",
+            "fr": "Indiqué comme entièrement accessible.",
+            "de": "Als vollständig barrierefrei eingestuft.",
+            "es": "Indicado como totalmente accesible."
+          },
+          "ascensore": {
+            "it": "È presente un ascensore.",
+            "en": "A lift is available.",
+            "fr": "Un ascenseur est disponible.",
+            "de": "Ein Aufzug ist vorhanden.",
+            "es": "Hay un ascensor."
+          }
+        }
       }
     },
     {
@@ -3571,6 +3591,33 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Museo_archeologico_nazionale_di_Verona"
+      },
+      "accessibilita": {
+        "fonte": "https://manverona.cultura.gov.it/museo-accessibile/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il museo è accessibile alle persone con disabilità motoria.",
+            "en": "The museum is accessible to people with reduced mobility.",
+            "fr": "Le musée est accessible aux personnes à mobilité réduite.",
+            "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität zugänglich.",
+            "es": "El museo es accesible para personas con movilidad reducida."
+          },
+          "ascensore": {
+            "it": "Sono presenti ascensori.",
+            "en": "There are lifts.",
+            "fr": "Il y a des ascenseurs.",
+            "de": "Es gibt Aufzüge.",
+            "es": "Hay ascensores."
+          },
+          "servizi": {
+            "it": "Bagni accessibili e spazi con divanetti per sedersi e riposare.",
+            "en": "Accessible toilets and seating areas to rest.",
+            "fr": "Toilettes accessibles et espaces avec banquettes pour se reposer.",
+            "de": "Barrierefreie Toiletten und Sitzbereiche zum Ausruhen.",
+            "es": "Aseos accesibles y zonas con sofás para sentarse y descansar."
+          }
+        }
       }
     },
     {
