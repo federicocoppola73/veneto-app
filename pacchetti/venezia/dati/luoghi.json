@@ -6197,7 +6197,34 @@
             "es": "A finales del siglo XIX el barón Giorgio Franchetti compró la Ca' d'Oro, entonces en mal estado, y emprendió un largo trabajo para recuperar su esplendor. En 1916 donó el palacio y su colección de arte al Estado italiano, para que se convirtieran en un museo público. La Galería Giorgio Franchetti se inauguró en 1927."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/ca-doro",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "L'ingresso della Galleria Franchetti ha un gradino di 12 cm, che si supera con l'aiuto del personale.",
+            "en": "The entrance to the Galleria Franchetti has a 12 cm step, which can be overcome with help from staff.",
+            "fr": "L'entrée de la Galleria Franchetti comporte une marche de 12 cm, que l'on franchit avec l'aide du personnel.",
+            "de": "Der Eingang der Galleria Franchetti hat eine 12 cm hohe Stufe, die mit Hilfe des Personals überwunden werden kann.",
+            "es": "La entrada de la Galleria Franchetti tiene un escalón de 12 cm, que se salva con la ayuda del personal."
+          },
+          "ascensore": {
+            "it": "Un ascensore porta ai piani superiori, dove si trova l'esposizione.",
+            "en": "A lift takes visitors to the upper floors, where the collection is displayed.",
+            "fr": "Un ascenseur conduit aux étages supérieurs, où se trouve l'exposition.",
+            "de": "Ein Aufzug führt in die oberen Stockwerke, wo sich die Ausstellung befindet.",
+            "es": "Un ascensor lleva a las plantas superiores, donde se encuentra la exposición."
+          },
+          "servizi": {
+            "it": "I servizi igienici, tra il primo e il secondo piano, sono accessibili alle persone in carrozzina.",
+            "en": "The toilets, between the first and second floors, are accessible to wheelchair users.",
+            "fr": "Les toilettes, entre le premier et le deuxième étage, sont accessibles aux personnes en fauteuil roulant.",
+            "de": "Die Toiletten zwischen dem ersten und zweiten Obergeschoss sind für Rollstuhlfahrer zugänglich.",
+            "es": "Los aseos, entre la primera y la segunda planta, son accesibles para personas en silla de ruedas."
+          }
+        }
+      }
     },
     {
       "id": "contarini-bovolo",
