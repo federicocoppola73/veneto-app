@@ -3,7 +3,7 @@ import { testoLocalizzato } from './i18n';
 // Testi da copiare negli appunti: scheda di un monumento e ricetta di un piatto.
 export function testoLuogo(luogo, lingua) {
   const righe = [luogo.nome];
-  if (luogo.sestiere) righe.push(`📍 ${luogo.sestiere}`);
+  if (luogo.sestiere) righe.push(`📍 ${luogo.sestiere}${luogo.sede ? ` · ${testoLocalizzato(luogo.sede, lingua)}` : ''}`);
   const descrizione = testoLocalizzato(luogo.descrizione, lingua);
   if (descrizione) righe.push('', descrizione);
   return righe.join('\n');

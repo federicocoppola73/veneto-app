@@ -179,6 +179,8 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           </View>
           <Text style={styles.sestiere}>
             📍 {luogo.sestiere}
+            {/* sede: edificio che ospita il luogo, es. "presso Ca' Pesaro" */}
+            {luogo.sede ? `  ·  ${testoLocalizzato(luogo.sede, lingua)}` : ''}
             {distanza != null ? (
               <Text style={styles.distanza}>{`  ·  ${testoDistanza(distanza, t)} ${t('daTe')}`}</Text>
             ) : null}
