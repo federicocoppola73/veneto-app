@@ -1349,7 +1349,34 @@
             "es": "La iglesia se construyó según un proyecto de Jacopo Sansovino, pero la fachada se encargó después a Andrea Palladio. La elección fue significativa: el proyecto de Palladio se impuso al del más anciano Sansovino, marcando un momento importante en la historia de la arquitectura veneciana del siglo XVI."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.letturagevolata.it/comunicazione-inclusiva/chiese-e-luoghi-di-culto/chiese-venezia/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "All'interno della chiesa ci sono alcuni dislivelli: le cappelle laterali sono rialzate di tre gradini rispetto alla navata principale e l'altare maggiore si raggiunge salendo cinque gradini. Non ci sono informazioni verificate su eventuali rampe o ausili per superarli.",
+            "en": "Inside the church there are some changes in level: the side chapels are three steps higher than the main nave, and the high altar is reached by climbing five steps. There is no verified information about ramps or aids to get past them.",
+            "fr": "À l'intérieur de l'église, il y a quelques dénivelés : les chapelles latérales sont surélevées de trois marches par rapport à la nef principale et le maître-autel se trouve en haut de cinq marches. Aucune information vérifiée n'existe sur d'éventuelles rampes ou aides pour les franchir.",
+            "de": "In der Kirche gibt es einige Höhenunterschiede: Die Seitenkapellen liegen drei Stufen über dem Hauptschiff, und zum Hochaltar führen fünf Stufen. Über Rampen oder Hilfsmittel gibt es keine geprüften Informationen.",
+            "es": "Dentro de la iglesia hay algunos desniveles: las capillas laterales están tres escalones por encima de la nave principal y al altar mayor se llega subiendo cinco escalones. No hay información verificada sobre posibles rampas o ayudas para salvarlos."
+          },
+          "visiva": {
+            "it": "Vicino all'ingresso c'è un pannello informativo multisensoriale con la pianta e la facciata della chiesa riprodotte anche in forma tattile. Il pannello comprende testi in Braille e informazioni utili per conoscere l'edificio e orientarsi al suo interno.",
+            "en": "Near the entrance there is a multisensory information panel with the plan and façade of the church also reproduced in tactile form. The panel includes texts in Braille and useful information to get to know the building and find your way inside.",
+            "fr": "Près de l'entrée se trouve un panneau d'information multisensoriel avec le plan et la façade de l'église reproduits aussi en relief. Le panneau comprend des textes en braille et des informations utiles pour découvrir l'édifice et s'y orienter.",
+            "de": "Am Eingang steht eine multisensorische Informationstafel mit Grundriss und Fassade der Kirche auch in tastbarer Form. Die Tafel enthält Texte in Braille und hilfreiche Informationen, um das Gebäude kennenzulernen und sich darin zu orientieren.",
+            "es": "Cerca de la entrada hay un panel informativo multisensorial con la planta y la fachada de la iglesia reproducidas también en relieve. El panel incluye textos en braille e información útil para conocer el edificio y orientarse en su interior."
+          },
+          "uditiva": {
+            "it": "Con i QR code e i tag NFC del pannello multisensoriale si accede a contenuti audiovisivi di approfondimento in italiano e inglese, con video in Lingua dei Segni Italiana (LIS) e International Sign (IS).",
+            "en": "The QR codes and NFC tags on the multisensory panel give access to in-depth audiovisual content in Italian and English, with videos in Italian Sign Language (LIS) and International Sign (IS).",
+            "fr": "Les QR codes et les tags NFC du panneau multisensoriel donnent accès à des contenus audiovisuels en italien et en anglais, avec des vidéos en langue des signes italienne (LIS) et en International Sign (IS).",
+            "de": "Über die QR-Codes und NFC-Tags der multisensorischen Tafel sind vertiefende audiovisuelle Inhalte auf Italienisch und Englisch abrufbar, mit Videos in Italienischer Gebärdensprache (LIS) und International Sign (IS).",
+            "es": "Con los códigos QR y las etiquetas NFC del panel multisensorial se accede a contenidos audiovisuales en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
+          }
+        }
+      }
     },
     {
       "id": "zitelle",
