@@ -1891,7 +1891,55 @@
       ],
       "personaggio": [
         "arturo-martini"
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.museicivicitreviso.it/organizza-la-visita/accessibilita/",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Nelle sale non ci sono barriere architettoniche e sono disponibili ausili per la mobilità.",
+            "en": "There are no architectural barriers in the rooms, and mobility aids are available.",
+            "fr": "Les salles ne présentent pas de barrières architecturales et des aides à la mobilité sont disponibles.",
+            "de": "In den Sälen gibt es keine baulichen Barrieren, und Mobilitätshilfen stehen zur Verfügung.",
+            "es": "En las salas no hay barreras arquitectónicas y hay ayudas para la movilidad disponibles."
+          },
+          "ascensore": {
+            "it": "I piani sono raggiungibili in ascensore.",
+            "en": "All floors can be reached by lift.",
+            "fr": "Les étages sont accessibles par ascenseur.",
+            "de": "Alle Etagen sind mit dem Aufzug erreichbar.",
+            "es": "Las plantas son accesibles en ascensor."
+          },
+          "tattile": {
+            "it": "All'ingresso c'è una mappa tattile del museo; accanto alle opere ci sono riproduzioni 3D da toccare e una sala tattile dedicata.",
+            "en": "A tactile map of the museum greets visitors at the entrance; 3D reproductions to touch stand beside the works, and there is a dedicated tactile room.",
+            "fr": "Un plan tactile du musée accueille les visiteurs à l'entrée ; des reproductions 3D à toucher sont placées à côté des œuvres, et une salle tactile est dédiée.",
+            "de": "Am Eingang gibt es einen Tastplan des Museums; neben den Werken stehen 3D-Reproduktionen zum Ertasten, dazu kommt ein eigener Tastsaal.",
+            "es": "En la entrada hay un mapa táctil del museo; junto a las obras hay reproducciones 3D para tocar y una sala táctil dedicada."
+          },
+          "visiva": {
+            "it": "Pannelli e didascalie con testo ingrandito e in braille, audioguide descrittive con indicazioni per l'orientamento e visite tattili.",
+            "en": "Panels and captions in large print and braille, descriptive audio guides with orientation directions, and tactile tours.",
+            "fr": "Panneaux et légendes en gros caractères et en braille, audioguides descriptifs avec indications d'orientation et visites tactiles.",
+            "de": "Tafeln und Beschriftungen in Großdruck und Braille, beschreibende Audioguides mit Orientierungshinweisen und Tastführungen.",
+            "es": "Paneles y cartelas en letra grande y en braille, audioguías descriptivas con indicaciones de orientación y visitas táctiles."
+          },
+          "uditiva": {
+            "it": "L'app del museo ha video in LIS; ci sono attività e visite guidate con operatore LIS.",
+            "en": "The museum app has videos in Italian Sign Language (LIS); activities and guided tours with an LIS interpreter are available.",
+            "fr": "L'application du musée propose des vidéos en langue des signes italienne (LIS) ; des activités et visites guidées avec un interprète LIS sont proposées.",
+            "de": "Die Museums-App bietet Videos in Italienischer Gebärdensprache (LIS); es gibt Aktivitäten und Führungen mit LIS-Dolmetscher.",
+            "es": "La app del museo tiene vídeos en lengua de signos italiana (LIS); hay actividades y visitas guiadas con intérprete de LIS."
+          },
+          "cognitiva": {
+            "it": "Ogni opera ha una scheda in CAA, disponibile anche online; ci sono guide in linguaggio Easy to Read e tablet con software CAA.",
+            "en": "Every work has an AAC sheet, also available online; there are Easy to Read guides and tablets with AAC software.",
+            "fr": "Chaque œuvre dispose d'une fiche en CAA, également en ligne ; il existe des guides en langage Easy to Read et des tablettes avec logiciel CAA.",
+            "de": "Zu jedem Werk gibt es ein UK-Blatt, auch online; außerdem Führer in Leichter Sprache und Tablets mit UK-Software.",
+            "es": "Cada obra tiene una ficha en CAA, también disponible en línea; hay guías en lenguaje de lectura fácil y tabletas con software de CAA."
+          }
+        }
+      }
     },
     {
       "id": "parco-di-villa-margherita",
