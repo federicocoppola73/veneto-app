@@ -4075,8 +4075,11 @@
       "id": "museo-arte-orientale",
       "nome": "Museo d'Arte Orientale",
       "categoria": "musei",
+      "latitudine": 45.44092,
+      "longitudine": 12.3316,
       "sestiere": "Santa Croce",
       "fermata": "San Stae",
+      "sito": "https://orientalevenezia.cultura.gov.it",
       "orari": [
         {
           "giorni": "tutti",
@@ -4092,9 +4095,6 @@
       "chiuso": [
         "lun"
       ],
-      "latitudine": 45.44092,
-      "longitudine": 12.3316,
-      "sito": "https://orientalevenezia.cultura.gov.it",
       "biglietto": {
         "intero": 15,
         "ridotto": 7.5,
@@ -4106,6 +4106,24 @@
           "es": "Una única entrada sirve para la Galería Internacional de Arte Moderno y el Museo de Arte Oriental. También existe la entrada Museos de lo Moderno y lo Contemporáneo (Ca' Pesaro, Museo Fortuny y MUVEC en Mestre): 20 €, reducida 10 €."
         }
       },
+      "immagine": {
+        "autore": "Sailko",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "galleria": [
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Sailko",
+          "licenza": "CC BY-SA 4.0"
+        }
+      ],
       "descrizione": {
         "it": "Il Museo d'Arte Orientale di Venezia conserva una ricca collezione di opere e manufatti provenienti soprattutto dal Giappone, dalla Cina e da altre regioni asiatiche. Il nucleo principale deriva dagli oggetti raccolti da Enrico di Borbone, conte di Bardi, durante un viaggio in Estremo Oriente tra il 1887 e il 1889. Le sale dedicate al Giappone espongono armature e armi del periodo Edo, lacche decorate con la tecnica maki-e, strumenti musicali, abiti ricamati e oggetti della vita quotidiana. La raccolta comprende anche porcellane, giade, tessuti e manufatti provenienti da altre culture asiatiche.",
         "en": "Venice's Museum of Oriental Art holds a rich collection of works and objects mainly from Japan, China and other parts of Asia. Its core comes from the objects gathered by Henry of Bourbon, Count of Bardi, during a journey to the Far East between 1887 and 1889. The Japanese rooms display Edo-period armour and weapons, lacquerware decorated with the maki-e technique, musical instruments, embroidered garments and everyday objects. The collection also includes porcelain, jade, textiles and artefacts from other Asian cultures.",
