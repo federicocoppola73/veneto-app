@@ -861,7 +861,27 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Palazzo_Leoni_Montanari,_corte.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://gallerieditalia.com/content/dam/gdi/pianifica-la-tua-visita/CARTA_SERVIZI_VICENZA_2026.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Tutti gli spazi sono fruibili dai visitatori con mobilità ridotta; il personale accompagna nell'uso di ascensori e montacarichi. Alla reception è disponibile una sedia a rotelle.",
+            "en": "All spaces can be visited by people with reduced mobility; staff assist with the lifts. A wheelchair is available at reception.",
+            "fr": "Tous les espaces sont accessibles aux visiteurs à mobilité réduite ; le personnel accompagne l'utilisation des ascenseurs et monte-charges. Un fauteuil roulant est disponible à l'accueil.",
+            "de": "Alle Räume sind für Besucher mit eingeschränkter Mobilität zugänglich; das Personal begleitet bei der Nutzung der Aufzüge. Am Empfang steht ein Rollstuhl zur Verfügung.",
+            "es": "Todos los espacios son accesibles para visitantes con movilidad reducida; el personal acompaña en el uso de ascensores y montacargas. En recepción hay una silla de ruedas disponible."
+          },
+          "ascensore": {
+            "it": "Ascensori e montacarichi collegano tutti gli spazi.",
+            "en": "Lifts connect all the spaces.",
+            "fr": "Des ascenseurs et monte-charges desservent tous les espaces.",
+            "de": "Aufzüge verbinden alle Räume.",
+            "es": "Ascensores y montacargas conectan todos los espacios."
+          }
+        }
+      }
     },
     {
       "id": "duomo-cattedrale-di-santa-maria-annunciata",
@@ -929,7 +949,20 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Cathedral_(Vicenza)_-_Interior_-_Adorazione_della_Vergine_con_gli_Angeli_di_Alessandro_Maganza.jpg"
         }
       ],
-      "personaggio": "alessandro-maganza"
+      "personaggio": "alessandro-maganza",
+      "accessibilita": {
+        "fonte": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
+      }
     },
     {
       "id": "parco-querini",
@@ -1367,7 +1400,20 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Museo_Diocesano_Gioiello_di_Vicenza_11.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
+      }
     },
     {
       "id": "museo-del-gioiello",
@@ -1462,7 +1508,27 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Parco_Storico_di_Villa_Guiccioli_(14).jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come totalmente accessibile alle persone con disabilità.",
+            "en": "Listed as fully accessible to people with disabilities.",
+            "fr": "Indiqué comme entièrement accessible aux personnes handicapées.",
+            "de": "Als vollständig barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como totalmente accesible para personas con discapacidad."
+          },
+          "servizi": {
+            "it": "Servizi igienici parzialmente attrezzati.",
+            "en": "Toilets partially equipped.",
+            "fr": "Toilettes partiellement équipées.",
+            "de": "Toiletten teilweise ausgestattet.",
+            "es": "Aseos parcialmente adaptados."
+          }
+        }
+      }
     },
     {
       "id": "palladio-museum",
@@ -1595,7 +1661,20 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Lorenzo_a_Vicenza_-_Interno.jpg"
         }
       ],
-      "personaggio": "vincenzo-scamozzi"
+      "personaggio": "vincenzo-scamozzi",
+      "accessibilita": {
+        "fonte": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
+      }
     },
     {
       "id": "chiesa-di-s-croce-in-s-giacomo-maggiore-dei-carmini",
@@ -2426,7 +2505,14 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Wikigita_archeologica_a_Vicenza_2023,_visita_all%27area_archeologica_del_Foro_Romano_sotto_palazzo_Trissino_08.jpg"
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.vicenzae.org/images/MONUMENTI_orari_MENSILE/2024/Modalit_2024_Vicenza__centro_storico.pdf",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": true
+        }
+      }
     },
     {
       "id": "porton-del-luzo",

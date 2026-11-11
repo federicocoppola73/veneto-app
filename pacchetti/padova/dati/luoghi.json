@@ -97,6 +97,19 @@
       "sito": "https://www.santantonio.org/it/basilica",
       "wikipedia": {
         "en": "Basilica of Saint Anthony of Padua"
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/basilica-di-santantonio",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
       }
     },
     {
@@ -178,6 +191,19 @@
       "sito": "https://padovamusei.it",
       "wikipedia": {
         "en": "Musei Civici di Padova"
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/museo-eremitani",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
       }
     },
     {
@@ -833,7 +859,20 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "donatello"
+      "personaggio": "donatello",
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/orto-botanico",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
+      }
     },
     {
       "id": "giardini-dell-arena",
@@ -963,6 +1002,19 @@
       "personaggio": "giotto-di-bondone",
       "wikipedia": {
         "en": "Scrovegni Chapel"
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/cappella-degli-scrovegni",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
       }
     },
     {
@@ -1761,6 +1813,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/museo-bottacin",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
       }
     },
     {
@@ -1836,6 +1901,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/palazzo-moroni",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Luogo parzialmente accessibile alle persone con disabilità.",
+            "en": "Partially accessible to people with disabilities.",
+            "fr": "Lieu partiellement accessible aux personnes handicapées.",
+            "de": "Teilweise barrierefrei für Menschen mit Behinderung.",
+            "es": "Lugar parcialmente accesible para personas con discapacidad."
+          },
+          "ascensore": {
+            "it": "Sono presenti ascensori e montascale; per usare i montascale rivolgersi al personale di portineria.",
+            "en": "There are lifts and stairlifts; ask the reception staff to use the stairlifts.",
+            "fr": "Il y a des ascenseurs et des monte-escaliers ; pour les monte-escaliers, s'adresser au personnel de l'accueil.",
+            "de": "Es gibt Aufzüge und Treppenlifte; für die Treppenlifte wenden Sie sich an das Personal am Empfang.",
+            "es": "Hay ascensores y salvaescaleras; para usar los salvaescaleras, diríjase al personal de portería."
+          }
+        }
       }
     },
     {
@@ -2169,6 +2254,26 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/vivere-il-comune/luoghi/caffe-pedrocchi",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Ingresso per le persone con disabilità motoria da vicolo Cappellato Pedrocchi.",
+            "en": "Entrance for people with reduced mobility from vicolo Cappellato Pedrocchi.",
+            "fr": "Entrée pour les personnes à mobilité réduite par le vicolo Cappellato Pedrocchi.",
+            "de": "Eingang für Menschen mit eingeschränkter Mobilität über den Vicolo Cappellato Pedrocchi.",
+            "es": "Entrada para personas con movilidad reducida por el vicolo Cappellato Pedrocchi."
+          },
+          "ascensore": {
+            "it": "Ascensore a chiamata: telefonare allo 049 8781231.",
+            "en": "Lift on request: call +39 049 8781231.",
+            "fr": "Ascenseur sur appel : téléphoner au +39 049 8781231.",
+            "de": "Aufzug auf Anfrage: unter +39 049 8781231 anrufen.",
+            "es": "Ascensor a petición: llamar al +39 049 8781231."
+          }
+        }
       }
     },
     {
@@ -3091,6 +3196,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/luogo/teatro-verdi-0",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile; le modalità di accesso per le persone con disabilità sono sul sito del Teatro Stabile del Veneto.",
+            "en": "Listed as accessible; access arrangements for people with disabilities are on the Teatro Stabile del Veneto website.",
+            "fr": "Indiqué comme accessible ; les modalités d'accès pour les personnes handicapées figurent sur le site du Teatro Stabile del Veneto.",
+            "de": "Als barrierefrei angegeben; die Zugangsregelungen für Menschen mit Behinderung stehen auf der Website des Teatro Stabile del Veneto.",
+            "es": "Indicado como accesible; las condiciones de acceso para personas con discapacidad están en la web del Teatro Stabile del Veneto."
+          }
+        }
       }
     },
     {
@@ -4256,6 +4374,19 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "accessibilita": {
+        "fonte": "https://www.comune.padova.it/vivere-il-comune/luoghi/oratorio-di-san-michele-0",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Indicato come accessibile alle persone con disabilità.",
+            "en": "Listed as accessible to people with disabilities.",
+            "fr": "Indiqué comme accessible aux personnes handicapées.",
+            "de": "Als barrierefrei für Menschen mit Behinderung angegeben.",
+            "es": "Indicado como accesible para personas con discapacidad."
+          }
+        }
       }
     },
     {
