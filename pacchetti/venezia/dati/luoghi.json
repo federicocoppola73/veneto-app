@@ -3649,6 +3649,116 @@
       }
     },
     {
+      "id": "museo-archeologico",
+      "nome": "Museo Archeologico Nazionale",
+      "categoria": "musei",
+      "latitudine": 45.433483,
+      "longitudine": 12.337797,
+      "sestiere": "San Marco",
+      "fermata": "San Marco Vallaresso",
+      "sito": "https://archeologicovenezia.cultura.gov.it",
+      "orari": [
+        {
+          "giorni": "tutti",
+          "ore": "10:00–18:00",
+          "periodo": "04-01/10-31"
+        },
+        {
+          "giorni": "tutti",
+          "ore": "10:00–17:00",
+          "periodo": "11-01/03-31"
+        }
+      ],
+      "biglietto": {
+        "intero": 8,
+        "ridotto": 2,
+        "nota": {
+          "it": "Comprende le Sale Monumentali della Biblioteca Marciana. Intero 8 € mercoledì, sabato e domenica; 5 € martedì, giovedì e venerdì. Ridotto 2 € dai 18 ai 25 anni. Gratuito per i minori di 18 anni e per le persone con disabilità con accompagnatore. In alternativa c'è il biglietto unico dei Musei di Piazza San Marco (Palazzo Ducale, Museo Correr, Museo Archeologico e Biblioteca Marciana): 35 €, ridotto 15 €.",
+          "en": "Includes the Monumental Rooms of the Biblioteca Marciana. Full price €8 on Wednesday, Saturday and Sunday; €5 on Tuesday, Thursday and Friday. Reduced €2 for ages 18–25. Free for under-18s and for people with disabilities and a companion. Alternatively, the St Mark's Square Museums ticket (Doge's Palace, Museo Correr, Archaeological Museum and Biblioteca Marciana): €35, reduced €15.",
+          "fr": "Comprend les Salles monumentales de la Bibliothèque Marciana. Plein tarif 8 € le mercredi, samedi et dimanche ; 5 € le mardi, jeudi et vendredi. Réduit 2 € de 18 à 25 ans. Gratuit pour les moins de 18 ans et pour les personnes handicapées avec un accompagnateur. Sinon, billet unique des Musées de la place Saint-Marc (Palais des Doges, Musée Correr, Musée archéologique et Bibliothèque Marciana) : 35 €, réduit 15 €.",
+          "de": "Inklusive der Prunksäle der Biblioteca Marciana. Normalpreis 8 € mittwochs, samstags und sonntags; 5 € dienstags, donnerstags und freitags. Ermäßigt 2 € für 18- bis 25-Jährige. Frei für unter 18-Jährige sowie für Menschen mit Behinderung mit Begleitperson. Alternativ gibt es das Kombiticket der Museen am Markusplatz (Dogenpalast, Museo Correr, Archäologisches Museum und Biblioteca Marciana): 35 €, ermäßigt 15 €.",
+          "es": "Incluye las Salas Monumentales de la Biblioteca Marciana. Entrada general 8 € miércoles, sábado y domingo; 5 € martes, jueves y viernes. Reducida 2 € de 18 a 25 años. Gratuita para menores de 18 años y para personas con discapacidad con acompañante. También existe la entrada única de los Museos de la Plaza de San Marcos (Palacio Ducal, Museo Correr, Museo Arqueológico y Biblioteca Marciana): 35 €, reducida 15 €."
+        }
+      },
+      "immagine": {
+        "autore": "Bjoertvedt",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "galleria": [
+        {
+          "autore": "Nicola Quirico",
+          "licenza": "CC BY-SA 4.0"
+        },
+        {
+          "autore": "Mentnafunangann",
+          "licenza": "CC BY-SA"
+        },
+        {
+          "autore": "Giovanni Dall'Orto",
+          "licenza": "Attribution"
+        }
+      ],
+      "descrizione": {
+        "it": "Uno dei più antichi musei pubblici d'Europa, custodisce una prestigiosa raccolta di antichità greche e romane, nata dal collezionismo delle grandi famiglie veneziane e arricchita nel corso dei secoli da importanti donazioni. Il percorso espositivo comprende sculture, ritratti, rilievi, bronzi, ceramiche, gemme, avori e reperti provenienti anche dall'antico Egitto e dal Vicino Oriente. Il museo si trova al primo piano delle Procuratie Nuove, nell'area monumentale di Piazza San Marco.\nDa vedere: sculture greche e romane; ritratti di imperatori e personaggi dell'antichità; la collezione Grimani; bronzi, ceramiche, gemme e avori; reperti egizi e assiro-babilonesi.",
+        "en": "One of the oldest public museums in Europe, it holds a prestigious collection of Greek and Roman antiquities, born from the collecting of Venice's great families and enriched over the centuries by important donations. The displays include sculptures, portraits, reliefs, bronzes, ceramics, gems, ivories and finds from ancient Egypt and the Near East. The museum is on the first floor of the Procuratie Nuove, in the monumental area of St Mark's Square.\nHighlights: Greek and Roman sculpture; portraits of emperors and figures of antiquity; the Grimani collection; bronzes, ceramics, gems and ivories; Egyptian and Assyro-Babylonian finds.",
+        "fr": "L'un des plus anciens musées publics d'Europe, il conserve une prestigieuse collection d'antiquités grecques et romaines, née des collections des grandes familles vénitiennes et enrichie au fil des siècles par d'importantes donations. Le parcours comprend sculptures, portraits, reliefs, bronzes, céramiques, gemmes, ivoires et objets provenant aussi de l'Égypte ancienne et du Proche-Orient. Le musée se trouve au premier étage des Procuratie Nuove, dans l'ensemble monumental de la place Saint-Marc.\nÀ voir : sculptures grecques et romaines ; portraits d'empereurs et de personnages de l'Antiquité ; la collection Grimani ; bronzes, céramiques, gemmes et ivoires ; objets égyptiens et assyro-babyloniens.",
+        "de": "Eines der ältesten öffentlichen Museen Europas mit einer bedeutenden Sammlung griechischer und römischer Antiken, die aus den Sammlungen großer venezianischer Familien hervorging und über die Jahrhunderte durch wichtige Schenkungen erweitert wurde. Gezeigt werden Skulpturen, Porträts, Reliefs, Bronzen, Keramik, Gemmen, Elfenbein sowie Funde aus dem alten Ägypten und dem Vorderen Orient. Das Museum liegt im ersten Stock der Procuratie Nuove am Markusplatz.\nSehenswert: griechische und römische Skulpturen; Porträts von Kaisern und Persönlichkeiten der Antike; die Sammlung Grimani; Bronzen, Keramik, Gemmen und Elfenbein; ägyptische und assyrisch-babylonische Funde.",
+        "es": "Uno de los museos públicos más antiguos de Europa, conserva una prestigiosa colección de antigüedades griegas y romanas, nacida del coleccionismo de las grandes familias venecianas y enriquecida a lo largo de los siglos con importantes donaciones. El recorrido incluye esculturas, retratos, relieves, bronces, cerámicas, gemas, marfiles y piezas procedentes también del antiguo Egipto y del Próximo Oriente. El museo se encuentra en la primera planta de las Procuratie Nuove, en el área monumental de la Plaza de San Marcos.\nQué ver: esculturas griegas y romanas; retratos de emperadores y personajes de la Antigüedad; la colección Grimani; bronces, cerámicas, gemas y marfiles; piezas egipcias y asirio-babilónicas."
+      },
+      "nota": {
+        "it": "Ultimo ingresso un'ora prima della chiusura. Chiuso il 1° gennaio e il 25 dicembre. Nei lunedì feriali si entra dal Museo Correr. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Last admission one hour before closing. Closed on 1 January and 25 December. On weekday Mondays, entry is through the Museo Correr. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Dernière entrée une heure avant la fermeture. Fermé le 1er janvier et le 25 décembre. Les lundis non fériés, l'entrée se fait par le Musée Correr. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Letzter Einlass eine Stunde vor Schließung. Geschlossen am 1. Januar und 25. Dezember. An Montagen, die keine Feiertage sind, erfolgt der Zugang über das Museo Correr. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Última entrada una hora antes del cierre. Cerrado el 1 de enero y el 25 de diciembre. Los lunes no festivos se entra por el Museo Correr. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "lo_sapevi_che": [
+        {
+          "titolo": {
+            "it": "Il dono dei Grimani",
+            "en": "The Grimani gift",
+            "fr": "Le don des Grimani",
+            "de": "Das Geschenk der Grimani",
+            "es": "El regalo de los Grimani"
+          },
+          "testo": {
+            "it": "La raccolta del museo ha origine anche dalle donazioni dei fratelli Domenico e Giovanni Grimani: quella di Domenico risale al 1523, mentre Giovanni donò la propria collezione alla Repubblica di Venezia nel 1587. Le opere contribuirono alla nascita dello Statuario Pubblico, aperto nel 1596.",
+            "en": "The museum's collection also originates from the donations of the brothers Domenico and Giovanni Grimani: Domenico's dates from 1523, while Giovanni gave his collection to the Republic of Venice in 1587. The works helped create the Public Statuary, opened in 1596.",
+            "fr": "La collection du musée provient aussi des donations des frères Domenico et Giovanni Grimani : celle de Domenico remonte à 1523, tandis que Giovanni offrit sa collection à la République de Venise en 1587. Ces œuvres contribuèrent à la naissance du Statuario Pubblico, ouvert en 1596.",
+            "de": "Die Sammlung des Museums geht auch auf die Schenkungen der Brüder Domenico und Giovanni Grimani zurück: Domenicos stammt aus dem Jahr 1523, Giovanni schenkte seine Sammlung 1587 der Republik Venedig. Die Werke bildeten den Grundstock des 1596 eröffneten Statuario Pubblico.",
+            "es": "La colección del museo procede también de las donaciones de los hermanos Domenico y Giovanni Grimani: la de Domenico data de 1523, mientras que Giovanni donó su colección a la República de Venecia en 1587. Las obras contribuyeron al nacimiento del Statuario Pubblico, abierto en 1596."
+          }
+        }
+      ],
+      "accessibilita": {
+        "fonte": "https://archeologicovenezia.cultura.gov.it",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il percorso è adatto anche a visitatori con ridotta capacità motoria. Si consiglia di accedere tramite il contiguo Museo Correr per usufruire senza barriere dell'intero complesso (Museo Correr, Museo Archeologico e Sale Monumentali della Biblioteca Marciana). All'interno del percorso sono presenti servizi igienici attrezzati per persone con disabilità motoria.",
+            "en": "The route is also suitable for visitors with reduced mobility. It is advisable to enter through the adjoining Museo Correr to visit the whole complex without barriers (Museo Correr, Archaeological Museum and Monumental Rooms of the Biblioteca Marciana). Toilets equipped for people with reduced mobility are available along the route.",
+            "fr": "Le parcours convient aussi aux visiteurs à mobilité réduite. Il est conseillé d'entrer par le Musée Correr attenant pour profiter sans obstacles de tout le complexe (Musée Correr, Musée archéologique et Salles monumentales de la Bibliothèque Marciana). Des toilettes équipées pour les personnes à mobilité réduite se trouvent le long du parcours.",
+            "de": "Der Rundgang eignet sich auch für Besucher mit eingeschränkter Mobilität. Es empfiehlt sich, über das angrenzende Museo Correr einzutreten, um den gesamten Komplex barrierefrei zu besuchen (Museo Correr, Archäologisches Museum und Prunksäle der Biblioteca Marciana). Entlang des Rundgangs gibt es behindertengerechte Toiletten.",
+            "es": "El recorrido es apto también para visitantes con movilidad reducida. Se recomienda entrar por el contiguo Museo Correr para recorrer sin barreras todo el conjunto (Museo Correr, Museo Arqueológico y Salas Monumentales de la Biblioteca Marciana). A lo largo del recorrido hay aseos adaptados para personas con movilidad reducida."
+          },
+          "visiva": {
+            "it": "È disponibile un percorso tattile gratuito, su prenotazione, che permette di esplorare alcune sculture originali. Sono disponibili anche guide in Braille in italiano, inglese, francese e tedesco.",
+            "en": "A free tactile tour, by reservation, lets visitors explore some original sculptures. Braille guides are also available in Italian, English, French and German.",
+            "fr": "Un parcours tactile gratuit, sur réservation, permet d'explorer certaines sculptures originales. Des guides en braille sont aussi disponibles en italien, anglais, français et allemand.",
+            "de": "Eine kostenlose Tastführung nach Voranmeldung ermöglicht es, einige Originalskulpturen zu ertasten. Außerdem gibt es Braille-Führer auf Italienisch, Englisch, Französisch und Deutsch.",
+            "es": "Hay un recorrido táctil gratuito, con reserva, que permite explorar algunas esculturas originales. También hay guías en braille en italiano, inglés, francés y alemán."
+          },
+          "uditiva": {
+            "it": "Sono disponibili 8 video in Lingua dei Segni Italiana (LIS), corredati da sottotitoli in italiano.",
+            "en": "8 videos in Italian Sign Language (LIS) are available, with Italian subtitles.",
+            "fr": "8 vidéos en langue des signes italienne (LIS) sont disponibles, avec sous-titres en italien.",
+            "de": "Es gibt 8 Videos in Italienischer Gebärdensprache (LIS) mit italienischen Untertiteln.",
+            "es": "Hay 8 vídeos en Lengua de Signos Italiana (LIS), con subtítulos en italiano."
+          }
+        }
+      }
+    },
+    {
       "id": "guggenheim",
       "nome": "Collezione Peggy Guggenheim",
       "categoria": "musei",
