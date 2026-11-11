@@ -4903,9 +4903,15 @@
         "mar"
       ],
       "biglietto": {
-        "intero": 20,
-        "ridotto": 10,
-        "nota": "b_moderno"
+        "intero": 15,
+        "ridotto": 7.5,
+        "nota": {
+          "it": "In alternativa c'è il biglietto I Musei del Moderno e Contemporaneo (Museo Fortuny, Ca' Pesaro con il Museo d'Arte Orientale e MUVEC a Mestre): 20 €, ridotto 10 €.",
+          "en": "Alternatively, the Modern and Contemporary Museums ticket (Museo Fortuny, Ca' Pesaro with the Museum of Oriental Art and MUVEC in Mestre): €20, reduced €10.",
+          "fr": "Sinon, billet Musées du moderne et du contemporain (Musée Fortuny, Ca' Pesaro avec le Musée d'art oriental et MUVEC à Mestre) : 20 €, réduit 10 €.",
+          "de": "Alternativ gibt es das Ticket der Museen der Moderne und Gegenwart (Museo Fortuny, Ca' Pesaro mit dem Museum für Orientalische Kunst und MUVEC in Mestre): 20 €, ermäßigt 10 €.",
+          "es": "También existe la entrada Museos de lo Moderno y lo Contemporáneo (Museo Fortuny, Ca' Pesaro con el Museo de Arte Oriental y MUVEC en Mestre): 20 €, reducida 10 €."
+        }
       },
       "immagine": {
         "autore": "Didier Descouens",
