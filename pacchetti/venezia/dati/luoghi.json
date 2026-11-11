@@ -3888,6 +3888,13 @@
             "fr": "Un ascenseur est à la disposition des visiteurs.",
             "de": "Für Besucher steht ein Aufzug zur Verfügung.",
             "es": "Hay un ascensor a disposición de los visitantes."
+          },
+          "servizi": {
+            "it": "Al piano terra ci sono toilette accessibili.",
+            "en": "There are accessible toilets on the ground floor.",
+            "fr": "Des toilettes accessibles se trouvent au rez-de-chaussée.",
+            "de": "Im Erdgeschoss gibt es barrierefreie Toiletten.",
+            "es": "En la planta baja hay aseos accesibles."
           }
         }
       }
@@ -5700,7 +5707,20 @@
             "es": "Cuando en 1739 la Scuola encargó a Giambattista Tiepolo la renovación del techo de la Sala Capitular, la idea inicial era sustituir solo algunos lienzos laterales, dejando en el centro la Asunción de Padovanino. Tiepolo propuso en cambio trasladar también el cuadro central y realizar una composición completamente nueva y unitaria. La propuesta fue aceptada, pero los trabajos se alargaron mucho más de lo previsto: el lienzo central no se terminó hasta 1749."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/s-margherita",
+        "verificato": "2026-11-11",
+        "voci": {
+          "non_accessibile": {
+            "it": "L'ingresso ha tre gradini alti 15 cm. La Sala Capitolare con le tele di Tiepolo è al primo piano e si raggiunge solo con un'imponente scalinata a due rampe. Né l'ingresso né la scalinata hanno ausili per le persone con difficoltà motorie.",
+            "en": "The entrance has three 15 cm steps. The Chapter Hall with Tiepolo's canvases is on the first floor and can only be reached by an imposing two-flight staircase. Neither the entrance nor the staircase has aids for people with reduced mobility.",
+            "fr": "L'entrée comporte trois marches de 15 cm. La Salle capitulaire avec les toiles de Tiepolo se trouve au premier étage et n'est accessible que par un imposant escalier à deux volées. Ni l'entrée ni l'escalier ne disposent d'aides pour les personnes à mobilité réduite.",
+            "de": "Der Eingang hat drei 15 cm hohe Stufen. Der Kapitelsaal mit Tiepolos Gemälden liegt im ersten Stock und ist nur über eine imposante zweiläufige Treppe erreichbar. Weder der Eingang noch die Treppe haben Hilfen für Menschen mit eingeschränkter Mobilität.",
+            "es": "La entrada tiene tres escalones de 15 cm. La Sala Capitular con los lienzos de Tiepolo está en la primera planta y solo se llega a ella por una imponente escalinata de dos tramos. Ni la entrada ni la escalinata cuentan con ayudas para personas con movilidad reducida."
+          }
+        }
+      }
     },
     {
       "id": "punta-dogana",
