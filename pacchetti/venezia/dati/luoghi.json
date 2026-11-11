@@ -1793,7 +1793,20 @@
             "es": "El Ospedaletto nació como institución de asistencia para huérfanas, viudas, indigentes y ancianos. Entre sus acogidas se formaron las famosas putte, jóvenes cantantes que alcanzaron un nivel musical que hizo célebre el complejo. Su coro rivalizaba con el del Ospedale della Pietà, asociado a Antonio Vivaldi."
           }
         }
-      ]
+      ],
+      "accessibilita": {
+        "fonte": "https://www.comune.venezia.it/it/content/santi-giovanni-e-paolo",
+        "verificato": "2026-11-11",
+        "voci": {
+          "motoria": {
+            "it": "Il Comune di Venezia indica la chiesa come accessibile alle persone con difficoltà motorie.",
+            "en": "The City of Venice lists the church as accessible to people with reduced mobility.",
+            "fr": "La Ville de Venise indique que l'église est accessible aux personnes à mobilité réduite.",
+            "de": "Die Stadt Venedig gibt die Kirche als zugänglich für Menschen mit eingeschränkter Mobilität an.",
+            "es": "El Ayuntamiento de Venecia indica que la iglesia es accesible para personas con movilidad reducida."
+          }
+        }
+      }
     },
     {
       "id": "san-giorgio-greci",
