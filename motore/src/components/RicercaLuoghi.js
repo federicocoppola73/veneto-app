@@ -36,16 +36,18 @@ const formattaData = (iso) => {
 
 const perNome = (a, b) => a.nome.localeCompare(b.nome, 'it');
 
-// Parole che, scritte da sole nel campo, mostrano i luoghi con informazioni di accessibilità verificate
-const PAROLE_ACCESSIBILITA = new Set(
+// Parole che mostrano i luoghi con informazioni di accessibilità verificate.
+// Basta l'inizio della parola (almeno 5 lettere): "carrozz" trova già "carrozzina".
+const PAROLE_ACCESSIBILITA = (
   [
     'accessibile', 'accessibili', 'accessibilita', 'disabili', 'disabile', 'disabilita', 'carrozzina', 'sedia a rotelle',
     'accessible', 'accessibility', 'wheelchair', 'disabled', 'disability',
     'accessibilite', 'fauteuil roulant', 'handicap',
     'barrierefrei', 'barrierefreiheit', 'rollstuhl', 'behindert',
     'accesible', 'accesibilidad', 'silla de ruedas', 'discapacidad',
-  ].map((p) => p.toLowerCase())
+  ].map((p) => semplifica(p))
 );
+const eParolaAccessibilita = (q) => q.length >= 5 && PAROLE_ACCESSIBILITA.some((p) => p.startsWith(q));
 
 /**
  * Pulsante con la lente: apre un pannello con il campo di ricerca e i risultati.
@@ -83,10 +85,11 @@ export default function RicercaLuoghi({
   // Sezioni dei risultati: ogni voce ha chiave, titolo, dettaglio e l'id da aprire (null = non cliccabile)
   const { sezioni, conteggio, soloAcc } = useMemo(() => {
     const q = semplifica(testo);
-    // "accessibile", "wheelchair"…: invece di cercare la parola nei nomi, attiva il filtro dell'accessibilità
-    const parolaAccessibilita = PAROLE_ACCESSIBILITA.has(q);
-    const soloAcc = soloAccessibilita || parolaAccessibilita;
-    const cerca = (campi) => !q || parolaAccessibilita || campi.some((c) => semplifica(c || '').includes(q));
+    // "carrozzina", "accessib", "wheelchair"…: oltre ai nomi che contengono il testo, compaiono i luoghi
+    // con informazioni di accessibilità verificate
+    const parolaAccessibilita = eParolaAccessibilita(q);
+    const soloAcc = soloAccessibilita;
+    const cerca = (campi) => !q || campi.some((c) => semplifica(c || '').includes(q));
     const altriTipi = q.length > 0 && !soloAcc;
 
     const perTipo = ambito === 'filtrati' ? luoghi.filter((l) => selezionate.includes(l.categoria)) : luoghi;
@@ -95,7 +98,10 @@ export default function RicercaLuoghi({
     const conteggio = { n: perZona.filter((l) => conAccessibilita.has(l.id)).length, tot: perZona.length };
     const luoghiTrovati = perZona
       .filter((l) => !soloAcc || conAccessibilita.has(l.id))
-      .filter((l) => cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]))
+      .filter(
+        (l) =>
+          cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]) || (parolaAccessibilita && conAccessibilita.has(l.id))
+      )
       .sort(perNome);
     const vociLuoghi = luoghiTrovati.map((l) => ({
       chiave: `luogo-${l.id}`,
