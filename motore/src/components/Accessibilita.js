@@ -106,6 +106,31 @@ export function IconaAccessibilita({ tipo, colore, misura = 20 }) {
   );
 }
 
+// Icona generale di accessibilità (figura con le braccia aperte), bianca su cerchio azzurro.
+// Non è una voce della scheda: segnala solo che il luogo ha informazioni verificate (es. nei risultati della ricerca).
+// Disegno in assets/icone/accessibilita/accessibilita_generale.svg
+export const AZZURRO_ACCESSIBILITA = '#1e88d6';
+
+export function IconaAccessibilitaGenerale({ misura = 18, colore = '#fff', sfondo = AZZURRO_ACCESSIBILITA }) {
+  return (
+    <View style={{ width: misura, height: misura, borderRadius: misura / 2, backgroundColor: sfondo, alignItems: 'center', justifyContent: 'center' }}>
+      <Svg width={misura * 0.82} height={misura * 0.82} viewBox="0 0 64 64">
+        <Circle cx={32} cy={13} r={6} fill={colore} />
+        <G fill="none" stroke={colore} strokeWidth={6.5} strokeLinecap="round" strokeLinejoin="round">
+          <Path d="M12 25c7 2 13 3 20 3s13-1 20-3" />
+          <Path d="M32 28v14" />
+          <Path d="M32 42l-9 14M32 42l9 14" />
+        </G>
+      </Svg>
+    </View>
+  );
+}
+
+// true se il luogo ha almeno una voce di accessibilità verificata (con fonte e data)
+export function haAccessibilitaVerificata(luogo) {
+  return vociAccessibilita(luogo, 'it').length > 0;
+}
+
 // voci da mostrare: solo con fonte e data di verifica, e solo i tipi conosciuti con un testo
 // "non_accessibile" vale anche senza testo (true): nel popup c'è comunque la frase standard
 export function vociAccessibilita(luogo, lingua) {

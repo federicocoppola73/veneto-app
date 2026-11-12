@@ -15,6 +15,7 @@ import {
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { testoLocalizzato } from '../i18n';
 import { zoneDi, zonePresenti } from '../zone';
+import { AZZURRO_ACCESSIBILITA as AZZURRO, IconaAccessibilitaGenerale, haAccessibilitaVerificata } from './Accessibilita';
 
 const ALTEZZA_BARRA_STATO = Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44;
 
@@ -34,6 +35,17 @@ const formattaData = (iso) => {
 };
 
 const perNome = (a, b) => a.nome.localeCompare(b.nome, 'it');
+
+// Parole che, scritte da sole nel campo, mostrano i luoghi con informazioni di accessibilità verificate
+const PAROLE_ACCESSIBILITA = new Set(
+  [
+    'accessibile', 'accessibili', 'accessibilita', 'disabili', 'disabile', 'disabilita', 'carrozzina', 'sedia a rotelle',
+    'accessible', 'accessibility', 'wheelchair', 'disabled', 'disability',
+    'accessibilite', 'fauteuil roulant', 'handicap',
+    'barrierefrei', 'barrierefreiheit', 'rollstuhl', 'behindert',
+    'accesible', 'accesibilidad', 'silla de ruedas', 'discapacidad',
+  ].map((p) => p.toLowerCase())
+);
 
 /**
  * Pulsante con la lente: apre un pannello con il campo di ricerca e i risultati.
@@ -60,20 +72,29 @@ export default function RicercaLuoghi({
   const [testo, setTesto] = useState('');
   const [ambito, setAmbito] = useState('filtrati'); // 'filtrati' | 'tutti'
   const [zona, setZona] = useState(null); // null = tutte le zone
+  const [soloAccessibilita, setSoloAccessibilita] = useState(false); // solo luoghi con info di accessibilità verificate
 
   const zone = useMemo(() => zonePresenti(luoghi), [luoghi]);
+  const conAccessibilita = useMemo(() => new Set(luoghi.filter(haAccessibilitaVerificata).map((l) => l.id)), [luoghi]);
   const luoghiPerId = useMemo(() => Object.fromEntries(luoghi.map((l) => [l.id, l])), [luoghi]);
 
   const filtroAttivo = selezionate.length < CATEGORIE.length;
 
   // Sezioni dei risultati: ogni voce ha chiave, titolo, dettaglio e l'id da aprire (null = non cliccabile)
-  const sezioni = useMemo(() => {
+  const { sezioni, conteggio, soloAcc } = useMemo(() => {
     const q = semplifica(testo);
-    const cerca = (campi) => !q || campi.some((c) => semplifica(c || '').includes(q));
-    const altriTipi = q.length > 0;
+    // "accessibile", "wheelchair"…: invece di cercare la parola nei nomi, attiva il filtro dell'accessibilità
+    const parolaAccessibilita = PAROLE_ACCESSIBILITA.has(q);
+    const soloAcc = soloAccessibilita || parolaAccessibilita;
+    const cerca = (campi) => !q || parolaAccessibilita || campi.some((c) => semplifica(c || '').includes(q));
+    const altriTipi = q.length > 0 && !soloAcc;
 
     const perTipo = ambito === 'filtrati' ? luoghi.filter((l) => selezionate.includes(l.categoria)) : luoghi;
-    const luoghiTrovati = (zona ? perTipo.filter((l) => zoneDi(l).includes(zona)) : perTipo)
+    const perZona = zona ? perTipo.filter((l) => zoneDi(l).includes(zona)) : perTipo;
+    // copertura dei controlli nei luoghi considerati (tipologie e zona, senza il testo cercato)
+    const conteggio = { n: perZona.filter((l) => conAccessibilita.has(l.id)).length, tot: perZona.length };
+    const luoghiTrovati = perZona
+      .filter((l) => !soloAcc || conAccessibilita.has(l.id))
       .filter((l) => cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]))
       .sort(perNome);
     const vociLuoghi = luoghiTrovati.map((l) => ({
@@ -83,6 +104,7 @@ export default function RicercaLuoghi({
       titolo: l.nome,
       dettaglio: `${t(`cat_${l.categoria}`)} · ${l.sestiere}`,
       colore: coloreCategoria(l.categoria),
+      accessibilita: conAccessibilita.has(l.id),
     }));
 
     const vociPersonaggi = altriTipi && !zona
@@ -138,13 +160,14 @@ export default function RicercaLuoghi({
           })
       : [];
 
-    return [
+    const sezioni = [
       { chiave: 'luoghi', titolo: altriTipi ? t('cercaSezLuoghi') : null, data: vociLuoghi },
       { chiave: 'personaggi', titolo: t('cercaSezPersonaggi'), data: vociPersonaggi },
       { chiave: 'cibi', titolo: t('cercaSezCibi'), data: vociCibi },
       { chiave: 'eventi', titolo: t('cercaSezEventi'), data: vociEventi },
     ].filter((s) => s.data.length > 0);
-  }, [testo, luoghi, luoghiPerId, selezionate, ambito, zona, t, lingua, personaggi, cibi, eventi]);
+    return { sezioni, conteggio, soloAcc };
+  }, [testo, luoghi, luoghiPerId, conAccessibilita, soloAccessibilita, selezionate, ambito, zona, t, lingua, personaggi, cibi, eventi]);
 
   const tutteLeVoci = sezioni.flatMap((s) => s.data);
 
@@ -174,6 +197,7 @@ export default function RicercaLuoghi({
         onPress={() => {
           setAmbito('filtrati');
           setZona(null);
+          setSoloAccessibilita(false);
           setAperto(true);
         }}
         style={({ pressed }) => [styles.pulsante, pressed && { opacity: 0.8 }]}
@@ -272,6 +296,29 @@ export default function RicercaLuoghi({
             })}
           </ScrollView>
 
+          {/* Solo luoghi con informazioni di accessibilità verificate + copertura dei controlli */}
+          <View style={styles.rigaAccessibilita}>
+            <Pressable
+              onPress={() => setSoloAccessibilita((v) => !v)}
+              style={[styles.chipAccessibilita, soloAccessibilita && styles.chipAccessibilitaAttivo]}
+              accessibilityRole="switch"
+              accessibilityState={{ checked: soloAccessibilita }}
+              testID="filtro-accessibilita"
+            >
+              <IconaAccessibilitaGenerale
+                misura={18}
+                colore={soloAccessibilita ? AZZURRO : '#fff'}
+                sfondo={soloAccessibilita ? '#fff' : AZZURRO}
+              />
+              <Text style={[styles.testoChipAccessibilita, soloAccessibilita && styles.testoChipAccessibilitaAttivo]}>
+                {t('acc_filtro')}
+              </Text>
+            </Pressable>
+            <Text style={styles.conteggioAccessibilita} testID="conteggio-accessibilita">
+              {t('acc_conteggio').replace('{n}', conteggio.n).replace('{tot}', conteggio.tot)}
+            </Text>
+          </View>
+
           <SectionList
             sections={sezioni}
             keyExtractor={(voce) => voce.chiave}
@@ -280,7 +327,11 @@ export default function RicercaLuoghi({
             style={styles.lista}
             ListEmptyComponent={
               <Text style={styles.vuoto}>
-                {ambito === 'filtrati' && selezionate.length === 0 ? t('nessunaCategoria') : t('nessunRisultato')}
+                {ambito === 'filtrati' && selezionate.length === 0
+                  ? t('nessunaCategoria')
+                  : soloAcc && conteggio.n === 0
+                    ? t('acc_nessun_luogo')
+                    : t('nessunRisultato')}
               </Text>
             }
             ItemSeparatorComponent={() => <View style={styles.separatore} />}
@@ -303,7 +354,17 @@ export default function RicercaLuoghi({
                 )}
                 <View style={{ flex: 1 }}>
                   <Text style={styles.nome}>{voce.titolo}</Text>
-                  {!!voce.dettaglio && <Text style={styles.dettaglio}>{voce.dettaglio}</Text>}
+                  {!!voce.dettaglio && (
+                    <View style={styles.rigaDettaglio}>
+                      {/* icona sulla riga della tipologia: il nome può essere lungo */}
+                      {voce.accessibilita && (
+                        <View accessible accessibilityLabel={t('acc_info')} testID={`accessibilita-risultato-${voce.id}`}>
+                          <IconaAccessibilitaGenerale misura={16} />
+                        </View>
+                      )}
+                      <Text style={[styles.dettaglio, { flexShrink: 1 }]}>{voce.dettaglio}</Text>
+                    </View>
+                  )}
                 </View>
               </Pressable>
             )}
@@ -409,6 +470,25 @@ const styles = StyleSheet.create({
   icona: { width: 14, alignItems: 'center' },
   testoIcona: { fontSize: 14 },
   nome: { fontSize: 16, fontWeight: '600', color: '#0f172a' },
-  dettaglio: { fontSize: 13, color: '#64748b', marginTop: 1 },
+  dettaglio: { fontSize: 13, color: '#64748b' },
+  rigaDettaglio: { flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 2 },
+  rigaAccessibilita: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10, marginBottom: 6 },
+  chipAccessibilita: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    borderWidth: 1,
+    borderColor: '#bcdcf3',
+    backgroundColor: '#eef6fc',
+    borderRadius: 999,
+    paddingLeft: 5,
+    paddingRight: 11,
+    paddingVertical: 4,
+    flexShrink: 1,
+  },
+  chipAccessibilitaAttivo: { backgroundColor: AZZURRO, borderColor: AZZURRO },
+  testoChipAccessibilita: { fontSize: 13, color: '#0f3d5e', fontWeight: '600', flexShrink: 1 },
+  testoChipAccessibilitaAttivo: { color: '#fff' },
+  conteggioAccessibilita: { fontSize: 12, color: '#64748b' },
   vuoto: { textAlign: 'center', color: '#64748b', paddingVertical: 20 },
 });
