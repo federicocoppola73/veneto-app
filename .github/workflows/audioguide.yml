@@ -46,5 +46,8 @@ jobs:
           git add audioguide
           if git diff --cached --quiet; then echo "Niente di nuovo"; exit 0; fi
           git commit -q -m "Audioguide $CITTA: MP3 aggiornati"
-          git pull -q --rebase
-          git push -q
+          for i in 1 2 3 4; do
+            git pull -q --rebase && git push -q && exit 0
+            echo "Tentativo $i non riuscito, riprovo tra 20 secondi"; sleep 20
+          done
+          exit 1
