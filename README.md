@@ -40,6 +40,13 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
   ```
 - Le foto con autore e licenza sono in `assets/` di ogni città; i crediti stanno nei file `dati/*.json`. Le immagini generate con AI sono indicate come "Immagine generata con AI".
 
+## Segnalazioni ("Segnala un problema")
+
+- Pulsante in fondo alla scheda di ogni luogo (`motore/src/components/SegnalaProblema.js`): tipo di problema (5 voci), descrizione facoltativa, nessun dato personale.
+- Invio con `motore/src/segnalazioni.js` a un'applicazione web di Google Apps Script (`strumenti/segnalazioni_apps_script.gs`), che scrive una riga in un Foglio Google e manda un'email a info.fc.developer@gmail.com. Le istruzioni per installarlo sono in cima allo script.
+- Finché `URL_SEGNALAZIONI` è vuoto il pulsante non compare.
+- Senza connessione la segnalazione resta sul telefono e parte all'avvio successivo; massimo 5 segnalazioni al giorno per telefono.
+
 ## Sviluppo
 
 - Dipendenze: `npm install`.

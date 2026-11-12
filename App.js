@@ -8,6 +8,7 @@ import { Marcellus_400Regular } from '@expo-google-fonts/marcellus';
 import { CITTA, cittaPerId } from './src/catalogo';
 import { controllaAggiornamenti, datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { acquista, prezzoCitta } from './src/acquisti';
+import { inviaInAttesa } from './motore/src/segnalazioni';
 import { LINGUE, testi, testoLingua } from './src/lingue';
 import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
 import {
@@ -97,6 +98,8 @@ function AppRadice() {
   const margini = useSafeAreaInsets();
 
   useEffect(() => {
+    // segnalazioni rimaste sul telefono senza connessione: si riprova a ogni avvio
+    inviaInAttesa();
     leggiStato().then((s) => {
       setStato(s);
       controllaAggiornamenti(s).then(setDaAggiornare).catch(() => {});

@@ -18,6 +18,7 @@ import { personaggi } from '../personaggi';
 import AguzzaLaVista from './AguzzaLaVista';
 import { domandePerLuogo } from '../aguzza';
 import IconaCondividi from './IconaCondividi';
+import SegnalaProblema from './SegnalaProblema';
 import PulsanteCopia from './PulsanteCopia';
 import { testoLuogo } from '../copia';
 import { linkWikipedia } from '../wikipedia';
@@ -345,6 +346,8 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           ))}
 
           {haInfo && <Text style={styles.avviso}>{t('avvisoOrari')}</Text>}
+
+          <SegnalaProblema luogo={luogo} lingua={lingua} t={t} />
         </ScrollView>
         )}
       </View>
