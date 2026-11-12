@@ -13,6 +13,7 @@ import { traduttore } from './motore/src/i18n';
 import { SegnalaApp } from './motore/src/components/SegnalaProblema';
 import { LINGUE, testi, testoLingua } from './src/lingue';
 import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
+import PopupAggiornamento from './src/components/PopupAggiornamento';
 import {
   IconaCalendario,
   IconaCestino,
@@ -86,6 +87,8 @@ function AppRadice() {
   const [lingua, setLingua] = useState(linguaIniziale);
   const [stato, setStato] = useState({ attiva: null, installate: [], versioni: {}, tipi: {}, acquistate: [] });
   const [daCancellare, setDaCancellare] = useState(null); // id della città nel popup "Cancellare…?"
+  const [novita, setNovita] = useState({}); // { id: riepilogo delle novità dell'aggiornamento }
+  const [daMostrareAggiornamento, setDaMostrareAggiornamento] = useState(null); // id della città nel popup "Aggiornamento di…"
 
   const [daAggiornare, setDaAggiornare] = useState([]); // città installate con una versione più recente sul server
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
@@ -104,7 +107,12 @@ function AppRadice() {
     inviaInAttesa();
     leggiStato().then((s) => {
       setStato(s);
-      controllaAggiornamenti(s).then(setDaAggiornare).catch(() => {});
+      controllaAggiornamenti(s)
+        .then(({ ids, novita: n }) => {
+          setDaAggiornare(ids);
+          setNovita(n);
+        })
+        .catch(() => {});
     });
     AsyncStorage.getItem(CHIAVE_LINGUA)
       .then((salvata) => {
@@ -340,11 +348,24 @@ function AppRadice() {
               onVisita={() => visita(item.id)}
               onAcquista={() => compra(item.id)}
               onApri={() => setCittaAperta(item.id)}
-              onAggiorna={() => scarica(item.id, 'completo')}
+              onAggiorna={() => setDaMostrareAggiornamento(item.id)}
               onCancella={() => setDaCancellare(item.id)}
               onScarica={() => scarica(item.id, 'completo')}
             />
           );
+        }}
+      />
+
+      <PopupAggiornamento
+        citta={CITTA.find((c) => c.id === daMostrareAggiornamento)}
+        novita={novita[daMostrareAggiornamento]}
+        lingua={lingua}
+        t={t}
+        onChiudi={() => setDaMostrareAggiornamento(null)}
+        onAggiorna={() => {
+          const id = daMostrareAggiornamento;
+          setDaMostrareAggiornamento(null);
+          scarica(id, 'completo');
         }}
       />
 

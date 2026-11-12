@@ -154,20 +154,67 @@ export async function datiTessere(id) {
 }
 
 // Confronta la versione installata di ogni città con quella pubblicata sul server.
-// Restituisce gli id delle città da aggiornare. Senza connessione, o con un errore, la città viene saltata.
+// Restituisce { ids: città da aggiornare, novita: { id: riepilogo delle novità (vedi novitaDa) } }.
+// Senza connessione, o con un errore, la città viene saltata.
 export async function controllaAggiornamenti(stato) {
-  const daAggiornare = [];
+  const ids = [];
+  const novita = {};
   await Promise.all(
     stato.installate.map(async (id) => {
       try {
-        const indirizzo = indirizzoPacchetto(cittaPerId(id), stato.tipi?.[id] || 'completo');
+        const tipo = stato.tipi?.[id] || 'completo';
+        const indirizzo = indirizzoPacchetto(cittaPerId(id), tipo);
         if (!indirizzo) return;
         const elenco = await (await fetch(indirizzo)).json();
-        if (elenco.versione && elenco.versione !== stato.versioni?.[id]) daAggiornare.push(id);
+        if (elenco.versione && elenco.versione !== stato.versioni?.[id]) {
+          ids.push(id);
+          if (tipo === 'completo') novita[id] = novitaDa(elenco, stato.versioni?.[id]);
+        }
       } catch {
         // niente connessione o pacchetto non leggibile: nessun avviso
       }
     })
   );
-  return daAggiornare;
+  return { ids, novita };
+}
+
+// Somma le novità dalla versione installata a quella pubblicata, seguendo lo storico del manifest
+// ("novita": [{ versione, da, luoghi_nuovi, luoghi_aggiornati, aspetti, foto_nuove, eventi_nuovi, …, nota, byte }]).
+// Se lo storico non arriva fino alla versione installata, "completo" è false (l'app mostra un testo generico).
+export function novitaDa(manifest, installata) {
+  const perVersione = Object.fromEntries((manifest.novita || []).map((v) => [v.versione, v]));
+  const voci = [];
+  let v = manifest.versione;
+  while (v && v !== installata && perVersione[v] && voci.length < 50) {
+    voci.push(perVersione[v]);
+    v = perVersione[v].da;
+  }
+  const r = {
+    completo: v === installata && voci.length > 0,
+    luoghi_nuovi: [],
+    luoghi_tolti: 0,
+    luoghi_aggiornati: 0,
+    aspetti: [],
+    foto_nuove: 0,
+    eventi_nuovi: 0,
+    itinerari_nuovi: 0,
+    itinerari_aggiornati: 0,
+    curiosita_nuove: 0,
+    cibi_nuovi: 0,
+    mezzi: false,
+    servizi: false,
+    mappa: false,
+    byte: 0,
+    note: [], // dalla più recente
+  };
+  for (const x of voci) {
+    for (const nome of x.luoghi_nuovi || []) if (!r.luoghi_nuovi.includes(nome)) r.luoghi_nuovi.push(nome);
+    for (const a of x.aspetti || []) if (!r.aspetti.includes(a)) r.aspetti.push(a);
+    for (const k of ['luoghi_tolti', 'luoghi_aggiornati', 'foto_nuove', 'eventi_nuovi', 'itinerari_nuovi', 'itinerari_aggiornati', 'curiosita_nuove', 'cibi_nuovi', 'byte']) {
+      r[k] += x[k] || 0;
+    }
+    for (const k of ['mezzi', 'servizi', 'mappa']) r[k] = r[k] || !!x[k];
+    if (x.nota) r.note.push(x.nota);
+  }
+  return r;
 }
