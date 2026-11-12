@@ -66,7 +66,7 @@ def manifest(cartella, nome_pacchetto):
     for radice, _, fs in os.walk(cartella):
         for f in fs:
             percorso = os.path.relpath(os.path.join(radice, f), cartella).replace(os.sep, '/')
-            if percorso in ('manifest.json', 'manifest_prova.json', 'nota_aggiornamento.json') or percorso.startswith('prova/'):
+            if percorso in ('manifest.json', 'manifest_prova.json', 'nota_aggiornamento.json') or percorso.startswith(('prova/', 'audioguide/')):
                 continue
             with open(os.path.join(radice, f), 'rb') as h:
                 impronta = hashlib.sha256(h.read()).hexdigest()

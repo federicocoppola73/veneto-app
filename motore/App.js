@@ -48,6 +48,7 @@ import { LINGUE, linguaDelDispositivo, testoLocalizzato, traduttore } from './sr
 import { usePosizione } from './src/posizione';
 import { usePreferiti, useVisitati } from './src/preferiti';
 import { leggiAvanzamento, salvaAvanzamento } from './src/avanzamentoItinerari';
+import { caricaAudioguide } from './src/audioguide';
 import { calcolaItinerario, useItinerariUtente } from './src/itinerariUtente';
 import { ITINERARI_AGUZZA } from './src/aguzza';
 import { DIMENSIONE_TESSERA, TESSERE } from './src/tessere';
@@ -151,6 +152,11 @@ function Schermata({ linguaIniziale }) {
   const tuttiILuoghi = datiLuoghi.luoghi || [];
   const luoghi = useMemo(() => tuttiILuoghi.filter((l) => !l.curiosita), [tuttiILuoghi]);
   const luoghiPerId = useMemo(() => Object.fromEntries(luoghi.map((l) => [l.id, l])), [luoghi]);
+  // audioguide della città nella lingua scelta (indice dal server; quelle scaricate restano sul telefono)
+  useEffect(() => {
+    caricaAudioguide(lingua);
+  }, [lingua]);
+
   // luoghi che si possono segnare come visitati (per il conteggio "visitati / totale")
   const totVisitabili = useMemo(() => luoghi.filter((l) => !l.nonVisitabile).length, [luoghi]);
   const luoghiTuttiPerId = useMemo(() => Object.fromEntries(tuttiILuoghi.map((l) => [l.id, l])), [tuttiILuoghi]);

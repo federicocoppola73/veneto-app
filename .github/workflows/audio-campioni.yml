@@ -1,11 +1,16 @@
-# Audioguide – voci di prova: genera alcune frasi con le voci Google (donna e uomo, 3 famiglie, 5 lingue).
+# Audioguide – voci di prova: genera alcune frasi con le voci Google (donna e uomo, 3 famiglie, 5 lingue)
+# e, in italiano, tante voci Chirp3-HD per scegliere quella della guida.
 # Si lancia a mano: GitHub → Actions → "Audioguide – voci di prova" → Run workflow.
 # Serve il secret GOOGLE_TTS_API_KEY (Settings → Secrets and variables → Actions).
-# Il risultato si scarica in fondo alla pagina dell'esecuzione, alla voce "Artifacts" (file voci-di-prova.zip).
+# Risultato: zip in fondo alla pagina dell'esecuzione ("Artifacts") e, per ascoltarle dal telefono,
+# il ramo "voci-di-prova" del repository (cartella campioni/).
 name: Audioguide – voci di prova
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   campioni:
@@ -24,3 +29,12 @@ jobs:
           name: voci-di-prova
           path: campioni
           retention-days: 14
+      - name: Pubblica sul ramo voci-di-prova (per ascoltarle dal telefono)
+        run: |
+          mkdir /tmp/ramo && cp -r campioni /tmp/ramo/
+          cd /tmp/ramo
+          git init -q -b voci-di-prova
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Voci di prova per le audioguide"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" voci-di-prova

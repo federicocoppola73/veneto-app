@@ -1,0 +1,9 @@
+{
+ "_nota": "Copia in pacchetti/<città>/audioguide/testi.json. Una voce per luogo (id come in dati/luoghi.json), un testo per lingua. Le lingue mancanti non generano l'audio.",
+ "luoghi": {
+  "basilica-san-marco": {
+   "it": "Benvenuti nella Basilica di San Marco…",
+   "en": "Welcome to Saint Mark's Basilica…"
+  }
+ }
+}

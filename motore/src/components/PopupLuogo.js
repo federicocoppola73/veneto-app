@@ -19,6 +19,7 @@ import AguzzaLaVista from './AguzzaLaVista';
 import { domandePerLuogo } from '../aguzza';
 import IconaCondividi from './IconaCondividi';
 import SegnalaProblema from './SegnalaProblema';
+import { RigaAudioguida } from './Audioguida';
 import PulsanteCopia from './PulsanteCopia';
 import { testoLuogo } from '../copia';
 import { linkWikipedia } from '../wikipedia';
@@ -181,6 +182,8 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
               </Pressable>
             </View>
           </View>
+          {/* audioguida: lettore se è sul telefono, altrimenti pulsante per scaricarla */}
+          {!passaggio && <RigaAudioguida luogo={luogo} lingua={lingua} t={t} />}
           <Text style={styles.sestiere}>
             📍 {luogo.sestiere}
             {/* sede: edificio che ospita il luogo, es. "presso Ca' Pesaro" */}

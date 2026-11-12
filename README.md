@@ -49,6 +49,14 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 - Senza connessione la segnalazione resta sul telefono e parte all'avvio successivo; massimo 5 segnalazioni al giorno per telefono.
 - "Segnala un problema dell'app" (schermata Info della città e fondo della home, `SegnalaApp` nello stesso file): 5 voci, descrizione, foto/screenshot ed email facoltativi; parte anche versione di Android e modello del telefono. Va nella scheda "App" del Foglio, le foto nella cartella Drive "Segnalazioni Veneto – foto"; nell'email "Rispondi" scrive direttamente a chi ha segnalato.
 
+## Audioguide
+
+- MP3 per luogo, separati dai pacchetti delle città, uno per lingua: `audioguide/<città>/<lingua>/<id>.mp3` più `indice.json` (versione, voce, byte, durata). L'app li scarica da GitHub su richiesta.
+- Testi: `pacchetti/<città>/audioguide/testi.json` → `{ "luoghi": { "<id luogo>": { "it": "…", "en": "…" } } }` (esempio in `strumenti/audioguide_testi_esempio.json`).
+- Voce per lingua (Google Chirp3-HD): `strumenti/audioguide_voci.json`.
+- Generazione: GitHub → Actions → **Audioguide – genera** → città (e lingue). Rigenera solo i luoghi con testo o voce cambiati e pubblica gli MP3. Serve il secret `GOOGLE_TTS_API_KEY`. Le voci di prova: **Audioguide – voci di prova** (ramo `voci-di-prova`).
+- Nell'app (`motore/src/audioguide.js`, `motore/src/components/Audioguida.js`): riga compatta nella scheda (lettore o download), elenco con caselle, cuffie e filtro nella ricerca, gestione in Info. Nella versione gratuita valgono per i 10 luoghi di anteprima.
+
 ## Sviluppo
 
 - Dipendenze: `npm install`.

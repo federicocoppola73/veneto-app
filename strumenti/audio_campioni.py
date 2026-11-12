@@ -6,6 +6,8 @@ Uso (lo lancia la GitHub Action "Audioguide – voci di prova"):
 
 Per ogni lingua (it, en, fr, de, es) e per ogni famiglia di voci (Chirp3-HD, Neural2, Wavenet)
 prende una voce femminile e una maschile e salva un MP3: campioni/<lingua>/<famiglia>-<genere>-<voce>.mp3
+In più, in italiano, prova tante voci Chirp3-HD (campioni/it-chirp3/<genere>-<nome>.mp3) per scegliere la guida:
+la stessa voce esiste in tutte le lingue.
 """
 import base64
 import json
@@ -16,6 +18,7 @@ import urllib.request
 API = 'https://texttospeech.googleapis.com/v1/'
 LINGUE = {'it': 'it-IT', 'en': 'en-GB', 'fr': 'fr-FR', 'de': 'de-DE', 'es': 'es-ES'}
 FAMIGLIE = ['Chirp3-HD', 'Neural2', 'Wavenet']
+MAX_CHIRP_PER_GENERE = 8  # voci Chirp3-HD italiane da provare per genere
 
 TESTI = {
     'it': "Benvenuti nella Basilica di San Marco. Alzate lo sguardo: le cupole sono coperte da oltre ottomila metri quadrati di mosaici dorati, realizzati in più di otto secoli. Sulla facciata, i quattro cavalli di bronzo sono copie: gli originali si trovano al riparo nel museo, al piano superiore.",
@@ -63,6 +66,23 @@ def main():
                     f.write(base64.b64decode(risposta['audioContent']))
                 riepilogo.append(f'{lingua}/{nome}')
                 print('creato', lingua, nome)
+    # tante voci Chirp3-HD in italiano, per scegliere quella della guida
+    voci = chiama('voices?languageCode=it-IT', chiave).get('voices', [])
+    cartella = os.path.join(uscita, 'it-chirp3')
+    os.makedirs(cartella, exist_ok=True)
+    for genere in ('FEMALE', 'MALE'):
+        scelte = [v for v in sorted(voci, key=lambda v: v['name']) if '-Chirp3-HD-' in v['name'] and v.get('ssmlGender') == genere]
+        for voce in scelte[:MAX_CHIRP_PER_GENERE]:
+            risposta = chiama('text:synthesize', chiave, {
+                'input': {'text': TESTI['it']},
+                'voice': {'languageCode': 'it-IT', 'name': voce['name']},
+                'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 24000},
+            })
+            nome = f"{'donna' if genere == 'FEMALE' else 'uomo'}-{voce['name'].split('-')[-1]}.mp3"
+            with open(os.path.join(cartella, nome), 'wb') as f:
+                f.write(base64.b64decode(risposta['audioContent']))
+            riepilogo.append(f'it-chirp3/{nome}')
+            print('creato it-chirp3', nome)
     with open(os.path.join(uscita, 'LEGGIMI.txt'), 'w', encoding='utf-8') as f:
         f.write('Voci di prova per le audioguide (stesso testo in ogni lingua):\n\n' + '\n'.join(riepilogo) + '\n')
 

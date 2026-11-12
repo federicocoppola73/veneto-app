@@ -1,5 +1,6 @@
 import { haMarea, nomeCitta } from '../citta';
 import { SegnalaApp } from './SegnalaProblema';
+import { GestioneAudioguide } from './Audioguida';
 import React, { useMemo, useState } from 'react';
 import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -71,6 +72,9 @@ export default function Crediti({ luoghi, t, lingua = 'it' }) {
 
             {/* malfunzionamenti, errori, crash o suggerimenti sull'app */}
             <SegnalaApp lingua={lingua} t={t} citta={nomeCitta()} stile={{ marginTop: 12, alignSelf: 'flex-start' }} />
+
+            {/* audioguide della città: quante sono scaricate, scarica le altre, cancella */}
+            <GestioneAudioguide lingua={lingua} t={t} />
 
             <Sezione titolo={t('cr_mappa')}>
               <Text style={styles.testo}>{t('cr_mappa_testo')}</Text>

@@ -1,0 +1,50 @@
+# Audioguide – genera: crea gli MP3 delle audioguide di una città con Google Text-to-Speech
+# e li pubblica nel repository (cartella audioguide/<città>/<lingua>/), da dove l'app li scarica.
+# Si lancia a mano: GitHub → Actions → "Audioguide – genera" → Run workflow → città (e lingue, facoltativo).
+# Rigenera solo i luoghi con testo o voce cambiati. Serve il secret GOOGLE_TTS_API_KEY.
+name: Audioguide – genera
+
+on:
+  workflow_dispatch:
+    inputs:
+      citta:
+        description: 'Città (es. venezia)'
+        required: true
+      lingue:
+        description: 'Lingue separate da virgola (vuoto = tutte quelle con una voce)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audioguide
+  cancel-in-progress: false
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install mutagen
+      - name: Genera gli MP3
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          CITTA: ${{ inputs.citta }}
+          LINGUE: ${{ inputs.lingue }}
+        run: python3 strumenti/audioguide.py "$CITTA" "$LINGUE"
+      - name: Pubblica
+        env:
+          CITTA: ${{ inputs.citta }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add audioguide
+          if git diff --cached --quiet; then echo "Niente di nuovo"; exit 0; fi
+          git commit -q -m "Audioguide $CITTA: MP3 aggiornati"
+          git pull -q --rebase
+          git push -q

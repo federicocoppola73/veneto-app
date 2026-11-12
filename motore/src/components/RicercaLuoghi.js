@@ -16,6 +16,8 @@ import { CATEGORIE, coloreCategoria } from '../categorie';
 import { testoLocalizzato } from '../i18n';
 import { zoneDi, zonePresenti } from '../zone';
 import { AZZURRO_ACCESSIBILITA as AZZURRO, IconaAccessibilitaGenerale, haAccessibilitaVerificata } from './Accessibilita';
+import { BadgeCuffie, IconaCuffie, VIOLA } from './Audioguida';
+import { useAudioguide } from '../audioguide';
 
 const ALTEZZA_BARRA_STATO = Platform.OS === 'android' ? StatusBar.currentHeight || 24 : 44;
 
@@ -75,6 +77,8 @@ export default function RicercaLuoghi({
   const [ambito, setAmbito] = useState('filtrati'); // 'filtrati' | 'tutti'
   const [zona, setZona] = useState(null); // null = tutte le zone
   const [soloAccessibilita, setSoloAccessibilita] = useState(false); // solo luoghi con info di accessibilità verificate
+  const [soloAudio, setSoloAudio] = useState(false); // solo luoghi con audioguida
+  const { indice: indiceAudio, presenti: audioPresenti } = useAudioguide();
 
   const zone = useMemo(() => zonePresenti(luoghi), [luoghi]);
   const conAccessibilita = useMemo(() => new Set(luoghi.filter(haAccessibilitaVerificata).map((l) => l.id)), [luoghi]);
@@ -83,21 +87,24 @@ export default function RicercaLuoghi({
   const filtroAttivo = selezionate.length < CATEGORIE.length;
 
   // Sezioni dei risultati: ogni voce ha chiave, titolo, dettaglio e l'id da aprire (null = non cliccabile)
-  const { sezioni, conteggio, soloAcc } = useMemo(() => {
+  const { sezioni, conteggio, conteggioAudio, soloAcc } = useMemo(() => {
     const q = semplifica(testo);
     // "carrozzina", "accessib", "wheelchair"…: oltre ai nomi che contengono il testo, compaiono i luoghi
     // con informazioni di accessibilità verificate
     const parolaAccessibilita = eParolaAccessibilita(q);
     const soloAcc = soloAccessibilita;
     const cerca = (campi) => !q || campi.some((c) => semplifica(c || '').includes(q));
-    const altriTipi = q.length > 0 && !soloAcc;
+    const altriTipi = q.length > 0 && !soloAcc && !soloAudio;
 
     const perTipo = ambito === 'filtrati' ? luoghi.filter((l) => selezionate.includes(l.categoria)) : luoghi;
     const perZona = zona ? perTipo.filter((l) => zoneDi(l).includes(zona)) : perTipo;
     // copertura dei controlli nei luoghi considerati (tipologie e zona, senza il testo cercato)
     const conteggio = { n: perZona.filter((l) => conAccessibilita.has(l.id)).length, tot: perZona.length };
+    const haAudio = (l) => !!indiceAudio?.luoghi?.[l.id];
+    const conteggioAudio = { n: perZona.filter(haAudio).length, tot: perZona.length };
     const luoghiTrovati = perZona
       .filter((l) => !soloAcc || conAccessibilita.has(l.id))
+      .filter((l) => !soloAudio || haAudio(l))
       .filter(
         (l) =>
           cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]) || (parolaAccessibilita && conAccessibilita.has(l.id))
@@ -111,6 +118,7 @@ export default function RicercaLuoghi({
       dettaglio: `${t(`cat_${l.categoria}`)} · ${l.sestiere}`,
       colore: coloreCategoria(l.categoria),
       accessibilita: conAccessibilita.has(l.id),
+      audio: haAudio(l) ? (audioPresenti.has(l.id) ? 'scaricata' : 'da_scaricare') : null,
     }));
 
     const vociPersonaggi = altriTipi && !zona
@@ -172,8 +180,8 @@ export default function RicercaLuoghi({
       { chiave: 'cibi', titolo: t('cercaSezCibi'), data: vociCibi },
       { chiave: 'eventi', titolo: t('cercaSezEventi'), data: vociEventi },
     ].filter((s) => s.data.length > 0);
-    return { sezioni, conteggio, soloAcc };
-  }, [testo, luoghi, luoghiPerId, conAccessibilita, soloAccessibilita, selezionate, ambito, zona, t, lingua, personaggi, cibi, eventi]);
+    return { sezioni, conteggio, conteggioAudio, soloAcc };
+  }, [testo, luoghi, luoghiPerId, conAccessibilita, soloAccessibilita, soloAudio, indiceAudio, audioPresenti, selezionate, ambito, zona, t, lingua, personaggi, cibi, eventi]);
 
   const tutteLeVoci = sezioni.flatMap((s) => s.data);
 
@@ -204,6 +212,7 @@ export default function RicercaLuoghi({
           setAmbito('filtrati');
           setZona(null);
           setSoloAccessibilita(false);
+          setSoloAudio(false);
           setAperto(true);
         }}
         style={({ pressed }) => [styles.pulsante, pressed && { opacity: 0.8 }]}
@@ -325,6 +334,29 @@ export default function RicercaLuoghi({
             </Text>
           </View>
 
+          {/* Solo luoghi con audioguida (se la città ne ha) */}
+          {indiceAudio?.luoghi && conteggioAudio.n > 0 && (
+            <View style={styles.rigaAccessibilita}>
+              <Pressable
+                onPress={() => setSoloAudio((v) => !v)}
+                style={[styles.chipAccessibilita, styles.chipAudio, soloAudio && styles.chipAudioAttivo]}
+                accessibilityRole="switch"
+                accessibilityState={{ checked: soloAudio }}
+                testID="filtro-audioguida"
+              >
+                <View style={[styles.cerchioCuffie, soloAudio && { backgroundColor: '#fff' }]}>
+                  <IconaCuffie misura={12} colore={soloAudio ? VIOLA : '#fff'} piena />
+                </View>
+                <Text style={[styles.testoChipAccessibilita, { color: '#5b21b6' }, soloAudio && styles.testoChipAccessibilitaAttivo]}>
+                  {t('aud_filtro')}
+                </Text>
+              </Pressable>
+              <Text style={styles.conteggioAccessibilita}>
+                {t('aud_conteggio').replace('{n}', conteggioAudio.n).replace('{tot}', conteggioAudio.tot)}
+              </Text>
+            </View>
+          )}
+
           <SectionList
             sections={sezioni}
             keyExtractor={(voce) => voce.chiave}
@@ -366,6 +398,11 @@ export default function RicercaLuoghi({
                       {voce.accessibilita && (
                         <View accessible accessibilityLabel={t('acc_info')} testID={`accessibilita-risultato-${voce.id}`}>
                           <IconaAccessibilitaGenerale misura={16} />
+                        </View>
+                      )}
+                      {voce.audio && (
+                        <View accessible accessibilityLabel={voce.audio === 'scaricata' ? t('aud_badgeSi') : t('aud_badgeNo')}>
+                          <BadgeCuffie scaricata={voce.audio === 'scaricata'} />
                         </View>
                       )}
                       <Text style={[styles.dettaglio, { flexShrink: 1 }]}>{voce.dettaglio}</Text>
@@ -495,6 +532,9 @@ const styles = StyleSheet.create({
   chipAccessibilitaAttivo: { backgroundColor: AZZURRO, borderColor: AZZURRO },
   testoChipAccessibilita: { fontSize: 13, color: '#0f3d5e', fontWeight: '600', flexShrink: 1 },
   testoChipAccessibilitaAttivo: { color: '#fff' },
+  chipAudio: { borderColor: '#ddd6fe', backgroundColor: '#f5f3ff' },
+  chipAudioAttivo: { backgroundColor: VIOLA, borderColor: VIOLA },
+  cerchioCuffie: { width: 18, height: 18, borderRadius: 9, backgroundColor: VIOLA, alignItems: 'center', justifyContent: 'center' },
   conteggioAccessibilita: { fontSize: 12, color: '#64748b' },
   vuoto: { textAlign: 'center', color: '#64748b', paddingVertical: 20 },
 });
