@@ -76,7 +76,13 @@ export function RigaAudioguida({ luogo, lingua, t }) {
   return (
     <>
       {uri ? (
-        <Lettore key={uri} uri={uri} secondi={info.secondi} t={t} />
+        <>
+          <Lettore key={uri} uri={uri} secondi={info.secondi} t={t} />
+          {/* anche dopo averla scaricata si può aprire l'elenco delle altre */}
+          <Pressable onPress={() => setElenco(true)} hitSlop={8} accessibilityRole="link" style={styles.linkSotto}>
+            <Text style={styles.link}>{t('aud_altre').replace('{citta}', nomeCitta())} ›</Text>
+          </Pressable>
+        </>
       ) : (
         <View style={styles.riga} testID="audioguida-da-scaricare">
           <IconaCuffie misura={20} colore="#6d28d9" />
@@ -400,6 +406,7 @@ const styles = StyleSheet.create({
   },
   titoloRiga: { fontSize: 13.5, fontWeight: '700', color: VIOLA_SCURO },
   link: { fontSize: 12, fontWeight: '600', color: '#6d28d9', marginTop: 1 },
+  linkSotto: { alignSelf: 'flex-start', marginTop: 6, marginLeft: 4, paddingVertical: 2 },
   scarica: {
     minHeight: 40,
     paddingHorizontal: 12,
