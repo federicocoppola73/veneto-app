@@ -1,0 +1,26 @@
+# Audioguide – voci di prova: genera alcune frasi con le voci Google (donna e uomo, 3 famiglie, 5 lingue).
+# Si lancia a mano: GitHub → Actions → "Audioguide – voci di prova" → Run workflow.
+# Serve il secret GOOGLE_TTS_API_KEY (Settings → Secrets and variables → Actions).
+# Il risultato si scarica in fondo alla pagina dell'esecuzione, alla voce "Artifacts" (file voci-di-prova.zip).
+name: Audioguide – voci di prova
+
+on:
+  workflow_dispatch:
+
+jobs:
+  campioni:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Genera le voci di prova
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: python3 strumenti/audio_campioni.py campioni
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voci-di-prova
+          path: campioni
+          retention-days: 14
