@@ -113,6 +113,8 @@ export default function PopupAggiornamento({ citta, novita, lingua, t, onAggiorn
     .slice(-2)
     .reverse();
   const mb = novita?.completo && novita.byte ? Math.max(1, Math.round(novita.byte / 1_000_000)) : null;
+  // senza storico non si sa quanto è cambiato: si indica il massimo, cioè la città completa
+  const mbMax = !mb && citta.dimensione_mb ? Math.ceil(citta.dimensione_mb) : null;
 
   return (
     <Modal visible transparent animationType="fade" onRequestClose={onChiudi}>
@@ -125,7 +127,11 @@ export default function PopupAggiornamento({ citta, novita, lingua, t, onAggiorn
             </View>
             <View style={{ flex: 1 }}>
               <Text style={styles.titolo}>{t.agg_titolo.replace('{nome}', citta.nome)}</Text>
-              {mb ? <Text style={styles.sottotitolo}>{t.agg_mb.replace('{mb}', String(mb))}</Text> : null}
+              {mb ? (
+                <Text style={styles.sottotitolo}>{t.agg_mb.replace('{mb}', String(mb))}</Text>
+              ) : mbMax ? (
+                <Text style={styles.sottotitolo}>{t.agg_mbMax.replace('{mb}', String(mbMax))}</Text>
+              ) : null}
             </View>
           </View>
 
