@@ -2,6 +2,7 @@ import { haMarea } from '../citta';
 import React, { useMemo, useState } from 'react';
 import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import Constants from 'expo-constants';
 import { datiProxy } from '../dati';
 const configApp = datiProxy('app.json');
 
@@ -15,7 +16,8 @@ const apri = (url) => url && Linking.openURL(url).catch(() => {});
 export default function Crediti({ luoghi, t }) {
   const [aperto, setAperto] = useState(false);
   const insets = useSafeAreaInsets();
-  const versione = configApp?.expo?.version;
+  // versione dell'app installata (app.json della radice); quella in dati/app.json del pacchetto è della vecchia app della città
+  const versione = Constants.expoConfig?.version || configApp?.expo?.version;
 
   const foto = useMemo(
     () =>
