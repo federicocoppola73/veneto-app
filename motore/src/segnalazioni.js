@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
 
 // URL dell'applicazione web di Apps Script (finisce con /exec). Vuoto = pulsante nascosto.
-export const URL_SEGNALAZIONI = '';
+export const URL_SEGNALAZIONI = 'https://script.google.com/macros/s/AKfycbzS9b2qbopgEsdOwGm0-gmw2lS2k0jrD11z237DvK8o4kW7VJGifFj00qnZPacVR2o3/exec';
 const CHIAVE = 'veneto-segnalazioni-1'; // la stessa dello script
 const CHIAVE_ATTESA = 'segnalazioni_in_attesa';
 const CHIAVE_CONTEGGIO = 'segnalazioni_oggi';
