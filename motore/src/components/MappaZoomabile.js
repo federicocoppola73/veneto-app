@@ -70,7 +70,8 @@ const limita = (v, min, max) => Math.min(max, Math.max(min, v));
  * props:
  *  - sorgente: require('...png') dell'immagine
  *  - larghezzaImmagine, altezzaImmagine: dimensioni in pixel dell'immagine originale
- *  - punti: [{ id, x, y, etichetta, colore, numero?, icona?, spento?, visitato?, principale? }] in pixel dell'immagine originale
+ *  - punti: [{ id, x, y, etichetta, colore, numero?, icona?, spento?, visitato?, preferito?, principale? }] in pixel dell'immagine originale
+ *    (preferito: luogo del cuore, piccolo cuore rosso in alto a sinistra sul pallino)
  *    (visitato: luogo segnato con "Ci sono stato", piccola spunta verde sul pallino;
  *     principale: numero d'importanza, 1 = il più importante; il nome compare già a SOGLIA_NOMI_PRINCIPALI)
  *    (numero: testo nel pallino, per le tappe di un itinerario; icona: segnaposto piccolo di un servizio;
@@ -642,6 +643,11 @@ function MappaZoomabile(
                     <View style={styles.puntinoInterno} />
                   )}
                 </View>
+                {p.preferito && !numerato && (
+                  <View style={styles.cuorePreferito}>
+                    <Text style={styles.testoCuorePreferito}>{'♥\uFE0E'}</Text>
+                  </View>
+                )}
                 {p.visitato && !numerato && (
                   <View style={styles.spuntaVisitato}>
                     <Text style={styles.testoSpuntaVisitato}>{'✓\uFE0E'}</Text>
@@ -807,6 +813,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   testoSpuntaVisitato: { color: '#fff', fontSize: 8, lineHeight: 10, fontWeight: '900' },
+  // cuore dei luoghi del cuore: stessa forma della spunta, a sinistra (così si vedono entrambi)
+  cuorePreferito: {
+    position: 'absolute',
+    top: -5,
+    left: -5,
+    width: 14,
+    height: 14,
+    borderRadius: 7,
+    backgroundColor: '#e11d48',
+    borderWidth: 1.5,
+    borderColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  testoCuorePreferito: { color: '#fff', fontSize: 8, lineHeight: 10, fontWeight: '900' },
   markerConNome: { zIndex: 2 }, // il nome resta sopra i pallini vicini senza nome
   etichetta: {
     width: 120,

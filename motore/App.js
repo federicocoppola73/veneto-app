@@ -398,8 +398,10 @@ function Schermata({ linguaIniziale }) {
     }
     // spunta verde sui pallini dei luoghi dove si è già stati ("Ci sono stato")
     if (luoghiVisitati.length) base = base.map((p) => (luoghiVisitati.includes(p.id) ? { ...p, visitato: true } : p));
+    // cuoricino rosso sui pallini dei luoghi del cuore
+    if (preferiti.length) base = base.map((p) => (preferiti.includes(p.id) ? { ...p, preferito: true } : p));
     return puntiServizi.length ? [...puntiServizi, ...base] : base;
-  }, [puntiBase, puntiServizi, guida, itinerario, visitate, saltate, luoghiVisitati]);
+  }, [puntiBase, puntiServizi, guida, itinerario, visitate, saltate, luoghiVisitati, preferiti]);
 
   const premiPosizione = async () => {
     if (posizione.stato === 'attivo' && puntoUtente) {
