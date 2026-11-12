@@ -78,7 +78,9 @@ function doPost(e) {
     });
     return risposta({ ok: true });
   } catch (err) {
-    return risposta({ ok: false, errore: 'interno' });
+    // l'errore si vede in Apps Script → Esecuzioni (e nel registro, lanciando le funzioni di prova)
+    console.error('Segnalazione non salvata: ' + (err && err.stack ? err.stack : err));
+    return risposta({ ok: false, errore: String(err && err.message ? err.message : err) });
   }
 }
 
@@ -140,7 +142,7 @@ function cartellaFoto() {
 
 // Prova manuale dall'editor della segnalazione dell'app (scheda "App", senza foto)
 function provaApp() {
-  return doPost({
+  const esito = doPost({
     postData: {
       contents: JSON.stringify({
         chiave: CHIAVE, ambito: 'app', id: 'prova-app-' + Date.now(), tipo: 'nonfunziona', descrizione: 'Segnalazione di prova',
@@ -148,11 +150,14 @@ function provaApp() {
       }),
     },
   }).getContent();
+  // nel Registro di esecuzione: {"ok":true} se è andato tutto bene, altrimenti il messaggio d'errore
+  console.log('Esito: ' + esito);
+  return esito;
 }
 
 // Prova manuale dall'editor: scrive una riga e manda l'email
 function prova() {
-  return doPost({
+  const esito = doPost({
     postData: {
       contents: JSON.stringify({
         chiave: CHIAVE, id: 'prova-' + Date.now(), tipo: 'orari', citta: 'Venezia', luogoNome: 'Basilica di San Marco',
@@ -160,6 +165,8 @@ function prova() {
       }),
     },
   }).getContent();
+  console.log('Esito: ' + esito);
+  return esito;
 }
 
 function foglioSegnalazioni() {
