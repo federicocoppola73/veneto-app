@@ -1,5 +1,8 @@
 /**
- * Segnalazioni dall'app "Veneto: Monumenti & altro" (pulsante "Segnala un problema" nella scheda di un luogo).
+ * Segnalazioni dall'app "Veneto: Monumenti & altro":
+ * - "Segnala un problema" nella scheda di un luogo → scheda "Segnalazioni" del Foglio;
+ * - "Segnala un problema dell'app" (Info e home) → scheda "App", con email e foto facoltative.
+ *   Le foto vanno nella cartella "Segnalazioni Veneto – foto" del tuo Google Drive e arrivano anche in allegato.
  *
  * Come si installa (una volta sola):
  * 1. Crea un nuovo Foglio Google (es. "Segnalazioni Veneto").
@@ -11,8 +14,9 @@
  * 5. Copia l'URL dell'applicazione web (finisce con /exec) e mandalo a chi aggiorna l'app:
  *    va in motore/src/segnalazioni.js (URL_SEGNALAZIONI).
  *
- * Se modifichi questo codice: Esegui il deployment → Gestisci deployment → modifica (matita) →
- * Versione: "Nuova versione". Così l'URL resta lo stesso.
+ * Se modifichi questo codice (o lo sostituisci con una versione nuova): Esegui il deployment →
+ * Gestisci deployment → modifica (matita) → Versione: "Nuova versione" → Esegui il deployment.
+ * Così l'URL resta lo stesso. Se Google chiede nuove autorizzazioni (per esempio per Drive), accettale.
  */
 
 const EMAIL = 'info.fc.developer@gmail.com';
@@ -27,10 +31,24 @@ const TIPI = {
 };
 const INTESTAZIONE = ['Data', 'Città', 'Luogo', 'Id luogo', 'Problema', 'Descrizione', 'Lingua', 'Versione app', 'Id segnalazione', 'Stato'];
 
+const NOME_FOGLIO_APP = 'App';
+const CARTELLA_FOTO = 'Segnalazioni Veneto – foto';
+const MAX_FOTO_BYTE = 2000000;
+const TIPI_APP = {
+  crash: "L'app si chiude da sola",
+  nonfunziona: 'Qualcosa non funziona',
+  testi: 'Errore nei testi o nelle traduzioni',
+  suggerimento: 'Suggerimento',
+  altro: 'Altro',
+};
+const INTESTAZIONE_APP = ['Data', 'Problema', 'Descrizione', 'Email', 'Città aperta', 'Versione app', 'Sistema', 'Telefono', 'Lingua', 'Foto', 'Id segnalazione', 'Stato'];
+
 function doPost(e) {
   try {
     const d = JSON.parse(e.postData.contents);
-    if (d.chiave !== CHIAVE || !TIPI[d.tipo]) return risposta({ ok: false, errore: 'dati' });
+    if (d.chiave !== CHIAVE) return risposta({ ok: false, errore: 'dati' });
+    if (d.ambito === 'app') return segnalazioneApp(d);
+    if (!TIPI[d.tipo]) return risposta({ ok: false, errore: 'dati' });
     const s = {
       id: pulisci(d.id, 60),
       citta: pulisci(d.citta, 60),
@@ -64,6 +82,74 @@ function doPost(e) {
   }
 }
 
+// Segnalazione di un problema dell'app: riga nella scheda "App", foto su Drive, email (con risposta diretta a chi scrive)
+function segnalazioneApp(d) {
+  if (!TIPI_APP[d.tipo]) return risposta({ ok: false, errore: 'dati' });
+  const s = {
+    id: pulisci(d.id, 60),
+    tipo: TIPI_APP[d.tipo],
+    descrizione: pulisci(d.descrizione, 1000),
+    email: pulisci(d.email, 120),
+    citta: pulisci(d.citta, 60),
+    versione: pulisci(d.versione, 20),
+    sistema: pulisci(d.sistema, 60),
+    modello: pulisci(d.modello, 80),
+    lingua: pulisci(d.lingua, 5),
+  };
+  const emailValida = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s.email);
+  const foglio = foglioCon(NOME_FOGLIO_APP, INTESTAZIONE_APP);
+  if (s.id && foglio.getRange('K:K').createTextFinder(s.id).matchEntireCell(true).findNext()) {
+    return risposta({ ok: true, doppia: true });
+  }
+  // foto facoltativa: solo JPEG/PNG e non troppo grande
+  let file = null;
+  if (d.foto && d.foto.base64 && /^image\/(jpeg|png)$/.test(d.foto.mime || '')) {
+    const byte = Utilities.base64Decode(d.foto.base64);
+    if (byte.length <= MAX_FOTO_BYTE) {
+      const estensione = d.foto.mime === 'image/png' ? 'png' : 'jpg';
+      const blob = Utilities.newBlob(byte, d.foto.mime, 'segnalazione-' + (s.id || Date.now()) + '.' + estensione);
+      file = cartellaFoto().createFile(blob);
+    }
+  }
+  foglio.appendRow([
+    new Date(), s.tipo, s.descrizione, s.email, s.citta, s.versione, s.sistema, s.modello, s.lingua,
+    file ? file.getUrl() : '', s.id, 'Da verificare',
+  ]);
+  const opzioni = {
+    to: EMAIL,
+    subject: 'App: ' + s.tipo + (s.citta ? ' (' + s.citta + ')' : ''),
+    body:
+      'Problema: ' + s.tipo + '\n' +
+      'Descrizione: ' + (s.descrizione || '—') + '\n' +
+      'Email di chi scrive: ' + (s.email || '— (non indicata)') + '\n\n' +
+      'Città aperta: ' + (s.citta || '—') + '\n' +
+      'Versione app: ' + s.versione + ' · ' + s.sistema + ' · ' + s.modello + ' · lingua ' + s.lingua + '\n' +
+      (file ? 'Foto: ' + file.getUrl() + '\n' : '') +
+      'Foglio: ' + SpreadsheetApp.getActiveSpreadsheet().getUrl(),
+  };
+  if (emailValida) opzioni.replyTo = s.email; // basta premere "Rispondi" per scrivere a chi ha segnalato
+  if (file) opzioni.attachments = [file.getBlob()];
+  MailApp.sendEmail(opzioni);
+  return risposta({ ok: true });
+}
+
+function cartellaFoto() {
+  const trovate = DriveApp.getFoldersByName(CARTELLA_FOTO);
+  return trovate.hasNext() ? trovate.next() : DriveApp.createFolder(CARTELLA_FOTO);
+}
+
+// Prova manuale dall'editor della segnalazione dell'app (scheda "App", senza foto)
+function provaApp() {
+  return doPost({
+    postData: {
+      contents: JSON.stringify({
+        chiave: CHIAVE, ambito: 'app', id: 'prova-app-' + Date.now(), tipo: 'nonfunziona', descrizione: 'Segnalazione di prova',
+        email: '', citta: 'Venezia', versione: 'prova', sistema: 'Android 14 (API 34)', modello: 'Telefono di prova', lingua: 'it',
+      }),
+    },
+  }).getContent();
+}
+
 // Prova manuale dall'editor: scrive una riga e manda l'email
 function prova() {
   return doPost({
@@ -77,13 +163,18 @@ function prova() {
 }
 
 function foglioSegnalazioni() {
+  return foglioCon(NOME_FOGLIO, INTESTAZIONE);
+}
+
+// scheda del Foglio con quel nome; se non c'è la crea con l'intestazione
+function foglioCon(nome, intestazione) {
   const doc = SpreadsheetApp.getActiveSpreadsheet();
-  let foglio = doc.getSheetByName(NOME_FOGLIO);
+  let foglio = doc.getSheetByName(nome);
   if (!foglio) {
-    foglio = doc.insertSheet(NOME_FOGLIO);
-    foglio.appendRow(INTESTAZIONE);
+    foglio = doc.insertSheet(nome);
+    foglio.appendRow(intestazione);
     foglio.setFrozenRows(1);
-    foglio.getRange(1, 1, 1, INTESTAZIONE.length).setFontWeight('bold');
+    foglio.getRange(1, 1, 1, intestazione.length).setFontWeight('bold');
   }
   return foglio;
 }

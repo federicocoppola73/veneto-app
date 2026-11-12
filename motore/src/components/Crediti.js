@@ -1,4 +1,5 @@
-import { haMarea } from '../citta';
+import { haMarea, nomeCitta } from '../citta';
+import { SegnalaApp } from './SegnalaProblema';
 import React, { useMemo, useState } from 'react';
 import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -13,7 +14,7 @@ const apri = (url) => url && Linking.openURL(url).catch(() => {});
 
 // Pulsante "i" nell'intestazione che apre la schermata dei crediti:
 // mappa, marea, meteo, foto (autore e licenza di ognuna), software e sviluppatore
-export default function Crediti({ luoghi, t }) {
+export default function Crediti({ luoghi, t, lingua = 'it' }) {
   const [aperto, setAperto] = useState(false);
   const insets = useSafeAreaInsets();
   // versione dell'app installata (app.json della radice); quella in dati/app.json del pacchetto è della vecchia app della città
@@ -67,6 +68,9 @@ export default function Crediti({ luoghi, t }) {
             }}
           >
             <Text style={styles.intro}>{t('cr_intro')}</Text>
+
+            {/* malfunzionamenti, errori, crash o suggerimenti sull'app */}
+            <SegnalaApp lingua={lingua} t={t} citta={nomeCitta()} stile={{ marginTop: 12, alignSelf: 'flex-start' }} />
 
             <Sezione titolo={t('cr_mappa')}>
               <Text style={styles.testo}>{t('cr_mappa_testo')}</Text>

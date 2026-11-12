@@ -828,7 +828,7 @@ function Schermata({ linguaIniziale }) {
           }}
         />
         <SelettoreLingua lingua={lingua} onCambia={setLingua} etichetta={t('lingua')} />
-        <Crediti luoghi={luoghi} t={t} />
+        <Crediti luoghi={luoghi} t={t} lingua={lingua} />
       </View>
 
       {itinerario ? (

@@ -9,6 +9,8 @@ import { CITTA, cittaPerId } from './src/catalogo';
 import { controllaAggiornamenti, datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
 import { acquista, prezzoCitta } from './src/acquisti';
 import { inviaInAttesa } from './motore/src/segnalazioni';
+import { traduttore } from './motore/src/i18n';
+import { SegnalaApp } from './motore/src/components/SegnalaProblema';
 import { LINGUE, testi, testoLingua } from './src/lingue';
 import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
 import {
@@ -307,9 +309,13 @@ function AppRadice() {
         contentContainerStyle={styles.lista}
         ListHeaderComponent={intestazione}
         ListFooterComponent={
-          <Pressable onPress={() => setCreditiAperti(true)} style={styles.crediti}>
-            <Text style={styles.testoCrediti}>Crediti</Text>
-          </Pressable>
+          <View style={styles.piede}>
+            {/* segnalazione di problemi dell'app: raggiungibile anche se una città non si apre */}
+            <SegnalaApp lingua={lingua} t={traduttore(lingua)} />
+            <Pressable onPress={() => setCreditiAperti(true)} style={styles.crediti}>
+              <Text style={styles.testoCrediti}>Crediti</Text>
+            </Pressable>
+          </View>
         }
         renderItem={({ item }) => {
           // con un numero dispari di città l'ultima resta larga metà, come le altre
@@ -508,6 +514,7 @@ const styles = StyleSheet.create({
   sezioneTitolo: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 25 },
   sezioneConto: { color: GRIGIO, fontSize: 12 },
 
+  piede: { alignItems: 'center', paddingTop: 12, paddingHorizontal: 14 },
   crediti: { alignItems: 'center', paddingVertical: 20 },
   testoCrediti: { color: GRIGIO, fontSize: 14, textDecorationLine: 'underline' },
   creditiBox: { padding: 20 },

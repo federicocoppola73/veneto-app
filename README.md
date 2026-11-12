@@ -46,6 +46,7 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 - Invio con `motore/src/segnalazioni.js` a un'applicazione web di Google Apps Script (`strumenti/segnalazioni_apps_script.gs`), che scrive una riga in un Foglio Google e manda un'email a info.fc.developer@gmail.com. Le istruzioni per installarlo sono in cima allo script.
 - Finché `URL_SEGNALAZIONI` è vuoto il pulsante non compare.
 - Senza connessione la segnalazione resta sul telefono e parte all'avvio successivo; massimo 5 segnalazioni al giorno per telefono.
+- "Segnala un problema dell'app" (schermata Info della città e fondo della home, `SegnalaApp` nello stesso file): 5 voci, descrizione, foto/screenshot ed email facoltativi; parte anche versione di Android e modello del telefono. Va nella scheda "App" del Foglio, le foto nella cartella Drive "Segnalazioni Veneto – foto"; nell'email "Rispondi" scrive direttamente a chi ha segnalato.
 
 ## Sviluppo
 
