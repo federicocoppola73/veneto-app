@@ -339,9 +339,10 @@ function AppRadice() {
         }}
       />
 
-      <Modal visible={!!citta} transparent animationType="fade" onRequestClose={() => setDaCancellare(null)} statusBarTranslucent>
-        <Pressable style={styles.velo} onPress={() => setDaCancellare(null)} accessibilityLabel={t.annulla} />
-        <View style={styles.popupContenitore} pointerEvents="box-none">
+      <Modal visible={!!citta} transparent animationType="fade" onRequestClose={() => setDaCancellare(null)}>
+        {/* un solo contenitore a tutto schermo: sfondo scuro e popup centrato (un po' sopra il centro) */}
+        <View style={styles.popupContenitore}>
+          <Pressable style={StyleSheet.absoluteFill} onPress={() => setDaCancellare(null)} accessibilityLabel={t.annulla} />
           <View style={styles.popup} accessibilityViewIsModal>
             <View style={styles.popupIcona}>
               <IconaCestino misura={24} colore={ROSSO} />
@@ -515,8 +516,8 @@ const styles = StyleSheet.create({
   barraGratuita: { flex: 1, color: '#dbeafe', fontSize: 12, fontWeight: '600', textAlign: 'right' },
 
   // Popup "Cancellare…?"
-  popupContenitore: { ...StyleSheet.absoluteFillObject, justifyContent: 'center', alignItems: 'center', padding: 24 },
-  popup: { width: '100%', maxWidth: 360, backgroundColor: '#fff', borderRadius: 20, padding: 20 },
+  popupContenitore: { flex: 1, backgroundColor: 'rgba(15,30,25,0.5)', justifyContent: 'center', alignItems: 'center', padding: 24 },
+  popup: { width: '100%', maxWidth: 360, backgroundColor: '#fff', borderRadius: 20, padding: 20, marginBottom: 60 },
   popupIcona: { width: 48, height: 48, borderRadius: 24, backgroundColor: '#fde8e6', alignItems: 'center', justifyContent: 'center' },
   popupTitolo: { color: TESTO, fontSize: 19, fontWeight: '800', marginTop: 14 },
   popupTesto: { color: '#3c4a44', fontSize: 14.5, lineHeight: 21, marginTop: 8 },
