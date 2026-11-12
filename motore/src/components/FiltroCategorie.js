@@ -14,7 +14,7 @@ import { GRIGIO_CUORE, ROSSO_CUORE, VERDE_VISITATO } from './Preferiti';
  * Due righe: in alto le cose personali (Itinerari, Del cuore, Visitati), sotto "Tutti" e le tipologie (scorre di lato).
  * props: selezionate (array di id), conteggi ({ id: numero }), onCambia(nuovoArray), t, onItinerari,
  *        soloCuore (bool), nCuore (numero di luoghi del cuore), onCuore(),
- *        soloVisitati (bool), nVisitati (numero di luoghi visitati), onVisitati()
+ *        soloVisitati (bool), nVisitati (numero di luoghi visitati), totVisitabili (luoghi in tutto), onVisitati()
  */
 export default function FiltroCategorie({
   selezionate,
@@ -27,6 +27,7 @@ export default function FiltroCategorie({
   onCuore,
   soloVisitati,
   nVisitati = 0,
+  totVisitabili = 0,
   onVisitati,
 }) {
   const raccolta = soloCuore || soloVisitati; // un filtro personale acceso spegne le tipologie
@@ -83,7 +84,7 @@ export default function FiltroCategorie({
             style={[styles.chip, styles.chipPersonale, soloVisitati ? styles.chipVisitatiAttivo : styles.chipSpento]}
             accessibilityRole="checkbox"
             accessibilityState={{ checked: !!soloVisitati }}
-            accessibilityLabel={`${t('filtroVisitati')} (${nVisitati})`}
+            accessibilityLabel={`${t('filtroVisitati')} (${totVisitabili ? `${nVisitati}/${totVisitabili}` : nVisitati})`}
           >
             <Text style={[styles.spunta, { color: soloVisitati ? '#fff' : nVisitati ? VERDE_VISITATO : GRIGIO_CUORE }]}>
               {'✓\uFE0E'}
@@ -91,7 +92,9 @@ export default function FiltroCategorie({
             <Text style={[styles.testo, styles.testoRestringibile, soloVisitati ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1}>
               {t('filtroVisitati')}
             </Text>
-            <Text style={[styles.numero, soloVisitati ? styles.testoAttivo : styles.testoSpento]}>{nVisitati}</Text>
+            <Text style={[styles.numero, soloVisitati ? styles.testoAttivo : styles.testoSpento]}>
+              {totVisitabili ? `${nVisitati}/${totVisitabili}` : nVisitati}
+            </Text>
           </Pressable>
         )}
       </View>

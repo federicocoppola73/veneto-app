@@ -122,6 +122,7 @@ export default function SelettoreItinerari({
               <Text style={styles.contaTappe}>
                 {it.tappe.length} {t('tappe')}
                 {fatte ? <Text style={styles.contaVisitate}>{`  ·  ✓\uFE0E ${fatte}/${it.tappe.length}`}</Text> : null}
+                {fatte && fatte === it.tappe.length ? <Text style={styles.completato}>{`  ${t('itin_completato')}`}</Text> : null}
                 {attivo ? <Text style={styles.inCorso}>{`  ·  ${t('itin_inCorso')}`}</Text> : null}
               </Text>
             </View>
@@ -452,6 +453,7 @@ const styles = StyleSheet.create({
   nomeItinerario: { fontSize: 17, fontWeight: '800', color: BLU, marginBottom: 3 },
   freccia: { fontSize: 28, color: '#94a3b8', fontWeight: '300', marginLeft: 4 },
   contaVisitate: { color: '#16a34a', fontWeight: '700' },
+  completato: { color: '#15803d', fontWeight: '800' },
   inCorso: { color: '#b45309', fontWeight: '700' },
   lunghezzaDettaglio: { fontSize: 15, fontWeight: '700', color: '#b45309', marginTop: 4, marginBottom: 8 },
   pulsanteInfo: { alignSelf: 'flex-start', borderRadius: 999, borderWidth: 1, borderColor: '#0369a1', paddingHorizontal: 12, paddingVertical: 6, marginBottom: 10 },

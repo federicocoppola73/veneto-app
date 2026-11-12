@@ -25,6 +25,7 @@ export const VERDE_VISITATO = '#16a34a'; // spunta "Ci sono stato"
 export default function Preferiti({
   preferiti,
   visitati = [],
+  totVisitabili = 0,
   luoghiPerId,
   distanze,
   adesso,
@@ -106,7 +107,7 @@ export default function Preferiti({
           </View>
           <View style={styles.linguette}>
             {linguetta('cuore', t('filtroCuore'), listaCuore.length, ROSSO_CUORE, '♥\uFE0E')}
-            {linguetta('visitati', t('filtroVisitati'), listaVisitati.length, VERDE_VISITATO, '✓\uFE0E')}
+            {linguetta('visitati', t('filtroVisitati'), totVisitabili ? `${listaVisitati.length}/${totVisitabili}` : listaVisitati.length, VERDE_VISITATO, '✓\uFE0E')}
             {linguetta('luoghi', t('filtroLuoghiSalvati'), luoghiSalvati.length, BLU_LUOGO, '📍')}
           </View>
 

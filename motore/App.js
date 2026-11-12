@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Dimensions, Linking, Platform, Pressable, Share, StatusBar, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { Alert, Dimensions, Linking, Platform, Pressable, Share, StatusBar, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -47,6 +47,7 @@ import { creaProiezione } from './src/geo';
 import { LINGUE, linguaDelDispositivo, testoLocalizzato, traduttore } from './src/i18n';
 import { usePosizione } from './src/posizione';
 import { usePreferiti, useVisitati } from './src/preferiti';
+import { leggiAvanzamento, salvaAvanzamento } from './src/avanzamentoItinerari';
 import { calcolaItinerario, useItinerariUtente } from './src/itinerariUtente';
 import { ITINERARI_AGUZZA } from './src/aguzza';
 import { DIMENSIONE_TESSERA, TESSERE } from './src/tessere';
@@ -150,6 +151,8 @@ function Schermata({ linguaIniziale }) {
   const tuttiILuoghi = datiLuoghi.luoghi || [];
   const luoghi = useMemo(() => tuttiILuoghi.filter((l) => !l.curiosita), [tuttiILuoghi]);
   const luoghiPerId = useMemo(() => Object.fromEntries(luoghi.map((l) => [l.id, l])), [luoghi]);
+  // luoghi che si possono segnare come visitati (per il conteggio "visitati / totale")
+  const totVisitabili = useMemo(() => luoghi.filter((l) => !l.nonVisitabile).length, [luoghi]);
   const luoghiTuttiPerId = useMemo(() => Object.fromEntries(tuttiILuoghi.map((l) => [l.id, l])), [tuttiILuoghi]);
   // itinerari ufficiali più quelli creati dall'utente ("I miei")
   const { itinerariUtente, salvaItinerario, eliminaItinerario, importaItinerari } = useItinerariUtente(luoghiPerId);
@@ -594,9 +597,32 @@ function Schermata({ linguaIniziale }) {
     setGuida(false);
   };
 
+  // Avvia la guida. Se l'itinerario era stato interrotto a metà, chiede se riprendere dalla tappa successiva
+  // all'ultima fatta o ricominciare dall'inizio.
   const iniziaGuida = async () => {
-    setVisitate([]);
-    setSaltate([]);
+    if (!itinerario) return;
+    const salvato = await leggiAvanzamento(itinerario.id).catch(() => null);
+    const fatte = salvato ? [...(salvato.visitate || []), ...(salvato.saltate || [])].filter((id) => itinerario.tappe.includes(id)) : [];
+    const indice = itinerario.tappe.findIndex((id) => !fatte.includes(id));
+    if (fatte.length > 0 && indice >= 0) {
+      const nome = luoghiPerId[itinerario.tappe[indice]]?.nome || '';
+      Alert.alert(
+        t('itin_riprendiTitolo'),
+        t('itin_riprendiTesto').replace('{n}', String(indice + 1)).replace('{tot}', String(itinerario.tappe.length)).replace('{nome}', nome),
+        [
+          { text: t('itin_dallInizio'), onPress: () => avviaGuida([], []) },
+          { text: t('itin_riprendi'), onPress: () => avviaGuida(salvato.visitate || [], salvato.saltate || []) },
+        ],
+        { cancelable: true }
+      );
+      return;
+    }
+    avviaGuida([], []);
+  };
+
+  const avviaGuida = async (giaVisitate, giaSaltate) => {
+    setVisitate(giaVisitate);
+    setSaltate(giaSaltate);
     setGuida(true);
     setIdEvidenziato(null);
     let c = coord;
@@ -613,6 +639,11 @@ function Schermata({ linguaIniziale }) {
     aggiungiVisitato(prossima.id);
   };
   const saltaTappa = () => prossima && setSaltate((v) => [...v, prossima.id]);
+
+  // l'avanzamento della guida si salva a ogni tappa, così l'itinerario si può riprendere dopo averlo chiuso
+  useEffect(() => {
+    if (guida && idItinerario) salvaAvanzamento(idItinerario, { visitate, saltate });
+  }, [guida, idItinerario, visitate, saltate]);
 
   const premiPunto = useCallback((id) => {
     if (id.startsWith('lampadina:')) {
@@ -826,6 +857,7 @@ function Schermata({ linguaIniziale }) {
           onCuore={toccaCuore}
           soloVisitati={soloVisitati}
           nVisitati={luoghiVisitati.filter((id) => luoghiPerId[id]).length}
+          totVisitabili={totVisitabili}
           onVisitati={toccaVisitati}
         />
       )}
@@ -857,6 +889,7 @@ function Schermata({ linguaIniziale }) {
                 stilePulsante={stilePulsanteMappa}
                 onVediMappa={mostraCuoreSullaMappa}
                 visitati={luoghiVisitati}
+                totVisitabili={totVisitabili}
                 onTogliVisitato={cambiaVisitato}
                 onVediVisitati={mostraVisitatiSullaMappa}
                 onEsportaCuore={esportaCuore}
