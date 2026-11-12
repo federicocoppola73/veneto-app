@@ -71,10 +71,13 @@ export default function Preferiti({
         accessibilityState={{ selected: attiva }}
       >
         <Text style={[styles.testoLinguetta, { color: attiva ? '#fff' : coloreAttivo }]}>{segno}</Text>
-        <Text style={[styles.testoLinguetta, attiva && { color: '#fff' }]} numberOfLines={1}>
-          {testo}
-        </Text>
-        <Text style={[styles.numeroLinguetta, attiva && { color: '#fff' }]}>{numero}</Text>
+        {/* nome sopra e numero sotto: il nome resta intero anche con i caratteri grandi */}
+        <View style={styles.dueRighe}>
+          <Text style={[styles.testoLinguetta, attiva && { color: '#fff' }]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+            {testo}
+          </Text>
+          <Text style={[styles.numeroLinguetta, attiva && { color: '#fff' }]} numberOfLines={1}>{numero}</Text>
+        </View>
       </Pressable>
     );
   };
@@ -258,12 +261,13 @@ const styles = StyleSheet.create({
     gap: 6,
     borderWidth: 1.5,
     borderColor: '#cbd5e1',
-    borderRadius: 999,
-    paddingVertical: 8,
-    paddingHorizontal: 10,
+    borderRadius: 16,
+    paddingVertical: 6,
+    paddingHorizontal: 8,
   },
+  dueRighe: { flexShrink: 1, minWidth: 0, alignItems: 'flex-start' },
   testoLinguetta: { fontSize: 15, fontWeight: '700', color: '#334155', flexShrink: 1 },
-  numeroLinguetta: { fontSize: 13, fontWeight: '700', color: '#64748b' },
+  numeroLinguetta: { fontSize: 12, fontWeight: '700', color: '#64748b', marginTop: -1 },
   barraGestione: {
     flexDirection: 'row',
     justifyContent: 'space-around',

@@ -57,7 +57,7 @@ export default function FiltroCategorie({
             accessibilityLabel={t('itinerari')}
           >
             <Text style={styles.iconaItinerari}>🧭</Text>
-            <Text style={[styles.testo, styles.testoRestringibile, styles.testoItinerari]} numberOfLines={1}>{t('itinerari')}</Text>
+            <Text style={[styles.testo, styles.testoRestringibile, styles.testoItinerari]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>{t('itinerari')}</Text>
           </Pressable>
         )}
         {onCuore && (
@@ -71,10 +71,13 @@ export default function FiltroCategorie({
             <Text style={[styles.cuore, { color: soloCuore ? '#fff' : nCuore ? ROSSO_CUORE : GRIGIO_CUORE }]}>
               {nCuore ? '♥\uFE0E' : '♡\uFE0E'}
             </Text>
-            <Text style={[styles.testo, styles.testoRestringibile, soloCuore ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1}>
-              {t('filtroCuore')}
-            </Text>
-            <Text style={[styles.numero, soloCuore ? styles.testoAttivo : styles.testoSpento]}>{nCuore}</Text>
+            {/* nome sopra e numero sotto: così il nome si legge intero anche con i caratteri grandi */}
+            <View style={styles.dueRighe}>
+              <Text style={[styles.testo, soloCuore ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+                {t('filtroCuore')}
+              </Text>
+              <Text style={[styles.numero, soloCuore ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1}>{nCuore}</Text>
+            </View>
           </Pressable>
         )}
         {onVisitati && (
@@ -89,12 +92,14 @@ export default function FiltroCategorie({
             <Text style={[styles.spunta, { color: soloVisitati ? '#fff' : nVisitati ? VERDE_VISITATO : GRIGIO_CUORE }]}>
               {'✓\uFE0E'}
             </Text>
-            <Text style={[styles.testo, styles.testoRestringibile, soloVisitati ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1}>
-              {t('filtroVisitati')}
-            </Text>
-            <Text style={[styles.numero, soloVisitati ? styles.testoAttivo : styles.testoSpento]}>
-              {totVisitabili ? `${nVisitati}/${totVisitabili}` : nVisitati}
-            </Text>
+            <View style={styles.dueRighe}>
+              <Text style={[styles.testo, soloVisitati ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
+                {t('filtroVisitati')}
+              </Text>
+              <Text style={[styles.numero, soloVisitati ? styles.testoAttivo : styles.testoSpento]} numberOfLines={1}>
+                {totVisitabili ? `${nVisitati}/${totVisitabili}` : nVisitati}
+              </Text>
+            </View>
           </Pressable>
         )}
       </View>
@@ -140,7 +145,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#e2e8f0',
   },
-  rigaPersonale: { flexDirection: 'row', paddingHorizontal: 12, paddingTop: 8, gap: 8, alignItems: 'center' },
+  rigaPersonale: { flexDirection: 'row', paddingHorizontal: 12, paddingTop: 8, gap: 8, alignItems: 'stretch' },
   riga: { paddingHorizontal: 12, paddingVertical: 8, gap: 8, alignItems: 'center' },
   chip: {
     flexDirection: 'row',
@@ -151,7 +156,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 6,
   },
-  chipPersonale: { flexShrink: 1, minWidth: 0 }, // in riga 1 i pulsanti si stringono se lo schermo è stretto
+  // in riga 1 i tre pulsanti si dividono la larghezza e hanno la stessa altezza
+  chipPersonale: { flex: 1, minWidth: 0, borderRadius: 16, paddingHorizontal: 9, gap: 5, justifyContent: 'center' },
+  dueRighe: { flexShrink: 1, minWidth: 0, alignItems: 'flex-start' },
   testoRestringibile: { flexShrink: 1 },
   chipSpento: { backgroundColor: '#fff', borderColor: '#cbd5e1' },
   chipItinerari: { backgroundColor: '#f3d98b', borderColor: '#e5b94a' },
@@ -164,7 +171,7 @@ const styles = StyleSheet.create({
   cuore: { fontSize: 15, lineHeight: 18, fontWeight: '700' },
   pallino: { width: 13, height: 13, borderRadius: 7 },
   testo: { fontSize: 14, fontWeight: '600' },
-  numero: { fontSize: 12, fontWeight: '700', opacity: 0.8 },
+  numero: { fontSize: 11.5, fontWeight: '700', opacity: 0.8, marginTop: -1 },
   testoAttivo: { color: '#fff' },
   testoSpento: { color: '#334155' },
 });
