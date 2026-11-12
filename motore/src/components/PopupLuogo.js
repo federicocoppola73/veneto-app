@@ -26,6 +26,8 @@ import { linkWikipedia } from '../wikipedia';
 import { fermataSoloAutobus, fermateAutobusVicine, fermateDelLuogo, lineaVaporetto, lineeAutobusDellaFermata, lineeDellaFermata } from '../vaporetti';
 
 const MAX_TARGHETTE = 6; // targhette delle linee mostrate accanto al nome della fermata
+// area di tocco dei pulsanti da 40 px: più ampia del disegno, senza sovrapporsi ai vicini (6 px tra uno e l'altro)
+const TOCCO = { top: 6, bottom: 6, left: 3, right: 3 };
 
 // Scheda del luogo: si apre dal basso quando si tocca un pallino sulla mappa
 // distanza: metri dall'utente (se la posizione è attiva); preferito / onPreferito: cuore dei luoghi del cuore;
@@ -141,14 +143,25 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             </View>
             {!passaggio && <IconeAccessibilita luogo={luogo} lingua={lingua} t={t} />}
           </View>
-          <View style={styles.rigaNome}>
-            <Text style={[styles.nome, { flex: 1 }]}>{luogo.nome}</Text>
-            {/* pulsanti su due colonne a destra: lasciano più spazio al nome */}
+          <Text style={styles.nome}>{luogo.nome}</Text>
+          {/* zona e distanza a sinistra; cuore, visitato, copia e condividi a destra (una riga sola, più spazio alla scheda) */}
+          <View style={styles.rigaZona}>
+            {/* zona (e sede) sulla prima riga, distanza sulla seconda: affiancano i pulsanti senza allungare la scheda */}
+            <View style={{ flex: 1, minWidth: 0 }}>
+              <Text style={styles.sestiere}>
+                📍 {luogo.sestiere}
+                {/* sede: edificio che ospita il luogo, es. "presso Ca' Pesaro" */}
+                {luogo.sede ? `  ·  ${testoLocalizzato(luogo.sede, lingua)}` : ''}
+              </Text>
+              {distanza != null ? (
+                <Text style={[styles.sestiere, styles.distanza]}>{`${testoDistanza(distanza, t)} ${t('daTe')}`}</Text>
+              ) : null}
+            </View>
             <View style={styles.azioni}>
               {onPreferito && (
                 <Pressable
                   onPress={() => onPreferito(luogo.id)}
-                  hitSlop={10}
+                  hitSlop={TOCCO}
                   style={({ pressed }) => [styles.cuore, preferito && styles.cuoreAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
                   accessibilityRole="button"
                   accessibilityState={{ selected: !!preferito }}
@@ -160,7 +173,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
               {onVisitato && (
                 <Pressable
                   onPress={() => onVisitato(luogo.id)}
-                  hitSlop={10}
+                  hitSlop={TOCCO}
                   testID="ci-sono-stato"
                   style={({ pressed }) => [styles.cuore, visitato && styles.visitatoAttivo, pressed && { transform: [{ scale: 0.9 }] }]}
                   accessibilityRole="button"
@@ -170,10 +183,10 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
                   <Text style={[styles.testoVisitato, { color: visitato ? '#fff' : GRIGIO_CUORE }]}>{'✓\uFE0E'}</Text>
                 </Pressable>
               )}
-              <PulsanteCopia testo={testoLuogo(luogo, lingua)} t={t} style={styles.cuore} />
+              <PulsanteCopia testo={testoLuogo(luogo, lingua)} t={t} style={styles.cuore} hitSlop={TOCCO} />
               <Pressable
                 onPress={() => setCondividi(true)}
-                hitSlop={10}
+                hitSlop={TOCCO}
                 style={({ pressed }) => [styles.cuore, pressed && { transform: [{ scale: 0.9 }] }]}
                 accessibilityRole="button"
                 accessibilityLabel={t('cond_condividi')}
@@ -184,14 +197,6 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           </View>
           {/* audioguida: lettore se è sul telefono, altrimenti pulsante per scaricarla */}
           {!passaggio && <RigaAudioguida luogo={luogo} lingua={lingua} t={t} />}
-          <Text style={styles.sestiere}>
-            📍 {luogo.sestiere}
-            {/* sede: edificio che ospita il luogo, es. "presso Ca' Pesaro" */}
-            {luogo.sede ? `  ·  ${testoLocalizzato(luogo.sede, lingua)}` : ''}
-            {distanza != null ? (
-              <Text style={styles.distanza}>{`  ·  ${testoDistanza(distanza, t)} ${t('daTe')}`}</Text>
-            ) : null}
-          </Text>
 
           {apertura && (
             <View style={[styles.apertura, { borderColor: coloreApertura(apertura) }]}>
@@ -507,24 +512,23 @@ const styles = StyleSheet.create({
   badge: { alignSelf: 'flex-start', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 3 },
   testoBadge: { color: '#fff', fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
   nome: { fontSize: 25, fontWeight: '800', color: '#0f172a' },
-  rigaNome: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   // 2 colonne da 42 + spazio 8: i quattro pulsanti stanno su due righe
-  azioni: { width: 92, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-end', gap: 8, marginTop: 2 },
+  rigaZona: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 4 },
+  azioni: { flexDirection: 'row', gap: 6 },
   cuore: {
-    width: 42,
-    height: 42,
-    borderRadius: 21,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
     borderWidth: 1.5,
     borderColor: '#e5e7eb',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: -2,
   },
   cuoreAttivo: { borderColor: '#fecdd3', backgroundColor: '#fff1f2' },
   visitatoAttivo: { borderColor: VERDE_VISITATO, backgroundColor: VERDE_VISITATO },
-  testoVisitato: { fontSize: 22, lineHeight: 26, fontWeight: '800' },
-  testoCuore: { fontSize: 24, lineHeight: 28 },
-  sestiere: { fontSize: 14, color: '#64748b', marginTop: 2 },
+  testoVisitato: { fontSize: 20, lineHeight: 24, fontWeight: '800' },
+  testoCuore: { fontSize: 22, lineHeight: 26 },
+  sestiere: { fontSize: 14, color: '#64748b' },
   distanza: { color: '#1d4ed8', fontWeight: '600' },
   apertura: {
     alignSelf: 'flex-start',
@@ -552,7 +556,6 @@ const styles = StyleSheet.create({
     borderLeftWidth: 4,
     borderLeftColor: '#f59e0b',
   },
-  testoNota: { fontSize: 14, lineHeight: 20, color: '#78350f' },
   testoNota: { fontSize: 14, lineHeight: 20, color: '#78350f' },
   tabella: { marginTop: 16, borderRadius: 12, backgroundColor: '#f1f5f9', padding: 14 },
   blocco: {},

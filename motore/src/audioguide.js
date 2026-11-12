@@ -26,6 +26,10 @@ function aggiorna(nuovo) {
 
 const cartellaDi = (chiave) => RADICE + chiave + '/';
 
+// Tracce di un luogo nell'indice: [{ id, titolo, file, byte, secondi }]
+// (l'indice delle prime audioguide aveva una sola traccia, con "file" direttamente nel luogo)
+export const tracceDi = (v) => (v ? v.tracce || (v.file ? [{ id: null, titolo: null, file: v.file, byte: v.byte, secondi: v.secondi }] : []) : []);
+
 // Audioguide già sul telefono: file presente con la dimensione dell'indice (un MP3 rigenerato va riscaricato)
 async function leggiPresenti(chiave, indice) {
   const presenti = new Set();
@@ -33,8 +37,14 @@ async function leggiPresenti(chiave, indice) {
   await Promise.all(
     Object.entries(indice.luoghi).map(async ([id, v]) => {
       try {
-        const info = await FileSystem.getInfoAsync(cartellaDi(chiave) + v.file);
-        if (info.exists && (!v.byte || info.size === v.byte)) presenti.add(id);
+        const tracce = tracceDi(v);
+        const ok = await Promise.all(
+          tracce.map(async (tr) => {
+            const info = await FileSystem.getInfoAsync(cartellaDi(chiave) + tr.file);
+            return info.exists && (!tr.byte || info.size === tr.byte);
+          })
+        );
+        if (tracce.length && ok.every(Boolean)) presenti.add(id);
       } catch {}
     })
   );
@@ -64,10 +74,11 @@ export async function caricaAudioguide(lingua) {
   }
 }
 
-// Percorso dell'MP3 sul telefono, oppure null se non è scaricato
+// Tracce del luogo sul telefono, pronte da ascoltare: [{ id, titolo, uri, secondi }], oppure null se non è scaricato
 export function audioDelLuogo(id) {
   const v = stato.indice?.luoghi?.[id];
-  return v && stato.presenti.has(id) ? cartellaDi(stato.chiave) + v.file : null;
+  if (!v || !stato.presenti.has(id)) return null;
+  return tracceDi(v).map((tr) => ({ id: tr.id, titolo: tr.titolo, uri: cartellaDi(stato.chiave) + tr.file, secondi: tr.secondi }));
 }
 
 // Scarica le audioguide dei luoghi indicati; restituisce quante non è riuscito a scaricare
@@ -84,14 +95,17 @@ export async function scaricaAudioguide(ids) {
   for (let i = 0; i < daFare.length; i += PARALLELI) {
     await Promise.all(
       daFare.slice(i, i + PARALLELI).map(async (id) => {
-        const v = indice.luoghi[id];
+        const tracce = tracceDi(indice.luoghi[id]);
         try {
-          const r = await FileSystem.downloadAsync(BASE + chiave + '/' + v.file, cartella + v.file);
-          if (r.status !== 200) throw new Error('download');
+          // tutte le tracce del luogo: se una non arriva, il luogo resta da scaricare
+          for (const tr of tracce) {
+            const r = await FileSystem.downloadAsync(BASE + chiave + '/' + tr.file, cartella + tr.file);
+            if (r.status !== 200) throw new Error('download');
+          }
           stato.presenti.add(id);
         } catch {
           errori += 1;
-          await FileSystem.deleteAsync(cartella + v.file, { idempotent: true }).catch(() => {});
+          for (const tr of tracce) await FileSystem.deleteAsync(cartella + tr.file, { idempotent: true }).catch(() => {});
         }
         fatti += 1;
       })
@@ -108,7 +122,9 @@ export async function cancellaAudioguide() {
   const { chiave, indice } = stato;
   if (!indice) return;
   await Promise.all(
-    Object.values(indice.luoghi).map((v) => FileSystem.deleteAsync(cartellaDi(chiave) + v.file, { idempotent: true }).catch(() => {}))
+    Object.values(indice.luoghi)
+      .flatMap(tracceDi)
+      .map((tr) => FileSystem.deleteAsync(cartellaDi(chiave) + tr.file, { idempotent: true }).catch(() => {}))
   );
   aggiorna({ presenti: new Set() });
 }

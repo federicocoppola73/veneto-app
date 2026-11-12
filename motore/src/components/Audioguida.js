@@ -4,7 +4,7 @@
 // - ElencoAudioguide: elenco con caselle, filtro per tipologia, "Seleziona tutte" e totale dei MB.
 // - GestioneAudioguide: riquadro in Info con quante sono scaricate, "Scarica le altre", elenco e "Cancella tutte".
 // - IconaCuffie: cuffie piene (scaricata) o a contorno (da scaricare), usata anche nella ricerca.
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
@@ -72,12 +72,12 @@ export function RigaAudioguida({ luogo, lingua, t }) {
   const [elenco, setElenco] = useState(false);
   const info = indice?.luoghi?.[luogo?.id];
   if (!info) return null;
-  const uri = presenti.has(luogo.id) ? audioDelLuogo(luogo.id) : null;
+  const tracce = presenti.has(luogo.id) ? audioDelLuogo(luogo.id) : null;
   return (
     <>
-      {uri ? (
+      {tracce?.length ? (
         <>
-          <Lettore key={uri} uri={uri} secondi={info.secondi} t={t} />
+          <LettoreTracce key={luogo.id} tracce={tracce} t={t} />
           {/* anche dopo averla scaricata si può aprire l'elenco delle altre */}
           <Pressable onPress={() => setElenco(true)} hitSlop={8} accessibilityRole="link" style={styles.linkSotto}>
             <Text style={styles.link}>{t('aud_altre').replace('{citta}', nomeCitta())} ›</Text>
@@ -112,20 +112,77 @@ export function RigaAudioguida({ luogo, lingua, t }) {
   );
 }
 
-function Lettore({ uri, secondi, t }) {
+// Più tracce (es. Esterno / Interno): linguette sopra il lettore; a fine traccia parte la successiva
+function LettoreTracce({ tracce, t }) {
+  const [indice, setIndice] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(false);
+  const traccia = tracce[Math.min(indice, tracce.length - 1)];
+  const scegli = (i) => {
+    setAutoPlay(true);
+    setIndice(i);
+  };
+  return (
+    <>
+      {tracce.length > 1 && (
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.linguette} contentContainerStyle={{ gap: 5 }}>
+          {tracce.map((tr, i) => {
+            const attiva = i === indice;
+            return (
+              <Pressable
+                key={tr.id || i}
+                onPress={() => scegli(i)}
+                hitSlop={{ top: 6, bottom: 6 }}
+                style={[styles.linguetta, attiva && styles.linguettaAttiva]}
+                accessibilityRole="tab"
+                accessibilityState={{ selected: attiva }}
+              >
+                <Text style={[styles.testoLinguetta, attiva && { color: '#fff' }]} numberOfLines={1}>
+                  {tr.titolo || `${i + 1}`} · {testoDurata(tr.secondi)}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </ScrollView>
+      )}
+      <Lettore
+        key={traccia.uri}
+        uri={traccia.uri}
+        secondi={traccia.secondi}
+        titolo={tracce.length > 1 && traccia.titolo ? traccia.titolo : t('aud_titolo')}
+        autoPlay={autoPlay}
+        onFine={() => indice + 1 < tracce.length && scegli(indice + 1)}
+        compatto={tracce.length > 1}
+        t={t}
+      />
+    </>
+  );
+}
+
+function Lettore({ uri, secondi, titolo, autoPlay, onFine, compatto, t }) {
   const player = useAudioPlayer({ uri });
   const s = useAudioPlayerStatus(player);
   const durata = s.duration || secondi || 0;
   const posizione = Math.min(s.currentTime || 0, durata);
   const quota = durata ? posizione / durata : 0;
+  const partito = useRef(false);
 
-  // finito: si torna all'inizio, pronto per ascoltarlo di nuovo
+  // scelta una linguetta, o finita la traccia precedente: parte da sola appena è pronta
+  useEffect(() => {
+    if (autoPlay && s.isLoaded && !partito.current) {
+      partito.current = true;
+      impostaModoAudio();
+      player.play();
+    }
+  }, [autoPlay, s.isLoaded, player]);
+
+  // finito: si torna all'inizio, pronto per ascoltarlo di nuovo (o parte la traccia dopo)
   useEffect(() => {
     if (s.didJustFinish) {
       player.pause();
       player.seekTo(0).catch(() => {});
+      onFine?.();
     }
-  }, [s.didJustFinish, player]);
+  }, [s.didJustFinish, player]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const suona = () => {
     impostaModoAudio();
@@ -138,7 +195,7 @@ function Lettore({ uri, secondi, t }) {
   };
 
   return (
-    <View style={[styles.riga, { paddingLeft: 8 }]} testID="audioguida-lettore">
+    <View style={[styles.riga, { paddingLeft: 8 }, compatto && { marginTop: 6 }]} testID="audioguida-lettore">
       <Pressable
         onPress={suona}
         style={({ pressed }) => [styles.play, pressed && { opacity: 0.85 }]}
@@ -159,7 +216,7 @@ function Lettore({ uri, secondi, t }) {
       <View style={{ flex: 1, minWidth: 0 }}>
         <View style={styles.testaLettore}>
           <IconaCuffie misura={14} colore="#6d28d9" />
-          <Text style={styles.titoloRiga}>{t('aud_titolo')}</Text>
+          <Text style={[styles.titoloRiga, { flexShrink: 1 }]} numberOfLines={1}>{titolo}</Text>
           <Text style={styles.tempo}>
             {testoDurata(posizione)} / {testoDurata(durata)}
           </Text>
@@ -417,6 +474,10 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   testoScarica: { color: '#fff', fontSize: 13.5, fontWeight: '700' },
+  linguette: { flexGrow: 0, marginTop: 12 },
+  linguetta: { minHeight: 30, paddingHorizontal: 9, borderRadius: 999, borderWidth: 1.5, borderColor: BORDO_VIOLA, backgroundColor: '#fff', justifyContent: 'center' },
+  linguettaAttiva: { backgroundColor: VIOLA, borderColor: VIOLA },
+  testoLinguetta: { fontSize: 12, fontWeight: '700', color: VIOLA_SCURO },
   play: { width: 44, height: 44, borderRadius: 22, backgroundColor: VIOLA, alignItems: 'center', justifyContent: 'center' },
   testaLettore: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   tempo: { marginLeft: 'auto', fontSize: 12, color: '#6b7280' },
