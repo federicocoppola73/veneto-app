@@ -29,7 +29,9 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/manifest.json",
       "sku": null,
-      "dimensione_mb": 63.2
+      "dimensione_mb": 64.3,
+      "dimensione_prova_mb": 7.1,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/manifest_prova.json"
     },
     {
       "id": "verona",
@@ -57,7 +59,9 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/manifest.json",
       "sku": null,
-      "dimensione_mb": 56.5
+      "dimensione_mb": 56.5,
+      "dimensione_prova_mb": 14.0,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/manifest_prova.json"
     },
     {
       "id": "padova",
@@ -85,7 +89,9 @@
         "fr": "Arcades et université",
         "de": "Arkaden und Universität",
         "es": "Soportales y universidad"
-      }
+      },
+      "dimensione_prova_mb": 21.1,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/manifest_prova.json"
     },
     {
       "id": "treviso",
@@ -106,14 +112,16 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/manifest.json?v=8",
       "sku": null,
-      "dimensione_mb": 62.8,
+      "dimensione_mb": 62.9,
       "motto": {
         "it": "Canali, acque e osterie",
         "en": "Canals, waters and taverns",
         "fr": "Canaux, eaux et osterie",
         "de": "Kanäle, Wasser und Osterien",
         "es": "Canales, aguas y osterías"
-      }
+      },
+      "dimensione_prova_mb": 20.2,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/manifest_prova.json"
     },
     {
       "id": "vicenza",
@@ -134,14 +142,16 @@
       ],
       "pacchetto": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/manifest.json?v=3",
       "sku": null,
-      "dimensione_mb": 63.3,
+      "dimensione_mb": 63.4,
       "motto": {
         "it": "Palladio e architettura rinascimentale",
         "en": "Palladio and Renaissance architecture",
         "fr": "Palladio et architecture de la Renaissance",
         "de": "Palladio und Renaissance-Architektur",
         "es": "Palladio y arquitectura renacentista"
-      }
+      },
+      "dimensione_prova_mb": 15.8,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/manifest_prova.json"
     },
     {
       "id": "rovigo",
@@ -169,7 +179,9 @@
         "fr": "Delta du Pô et Polésine",
         "de": "Po-Delta und Polesine",
         "es": "Delta del Po y Polesine"
-      }
+      },
+      "dimensione_prova_mb": 14.5,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/manifest_prova.json"
     },
     {
       "id": "belluno",
@@ -197,7 +209,9 @@
         "fr": "Dolomites et Titien",
         "de": "Dolomiten und Tizian",
         "es": "Dolomitas y Tiziano"
-      }
+      },
+      "dimensione_prova_mb": 11.1,
+      "pacchetto_prova": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/manifest_prova.json"
     }
   ]
 }

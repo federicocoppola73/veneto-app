@@ -1,0 +1,936 @@
+{
+ "_nota": "Belluno: monumenti (dalla scheda Monumenti) e luoghi segreti (dal foglio Curiosità). Coordinate e orari da fonti pubbliche: da verificare. Foto ancora da aggiungere. Ponte Vecchio, Seminario Gregoriano, Palazzo Persicini Crocecalle, Palazzo Trois Malaspina e Ponte di Paglia sono in attesa di coordinate verificate.",
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ],
+ "luoghi": [
+  {
+   "id": "piazza-dei-martiri",
+   "nome": "Piazza dei Martiri",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1390992,
+   "longitudine": 12.2163835,
+   "descrizione": {
+    "it": "Piazza dei Martiri è il cuore commerciale di Belluno e il salotto dei bellunesi, di impostazione rinascimentale. Fu intitolata a Gregorio XVI, papa bellunese, ma tra i cittadini è familiarmente conosciuta come Piaža Kanpedèl, perché qui si è sempre esteso lo spazio pubblico ad uso civico della città. Ai suoi lati si affacciano palazzi con facciate rinascimentali, e al centro si trovano i giardini.",
+    "en": "Piazza dei Martiri is Belluno's commercial heart and the city's favourite meeting place, with a Renaissance layout. It was named after Gregory XVI, the pope born in Belluno, but locals know it as Piaža Kanpedèl, because the city's public space for civic use has always extended here. Palaces with Renaissance façades line the square, and gardens fill its centre.",
+    "fr": "La Piazza dei Martiri est le cœur commercial de Belluno et le salon des Bellunais, de conception Renaissance. Elle fut dédiée à Grégoire XVI, pape originaire de Belluno, mais les habitants la connaissent familièrement sous le nom de Piaža Kanpedèl, car l'espace public à usage civique de la ville s'y est toujours étendu. Des palais aux façades Renaissance la bordent, et des jardins occupent son centre.",
+    "de": "Die Piazza dei Martiri ist das Geschäftszentrum und der Lieblingstreffpunkt Bellunos, im Renaissancestil angelegt. Sie wurde nach Gregor XVI., dem Papst aus Belluno, benannt, bei den Einheimischen heißt sie jedoch vertraut Piaža Kanpedèl, weil sich hier seit jeher der öffentliche Raum der Stadt erstreckt. Paläste mit Renaissance-Fassaden säumen den Platz, und in der Mitte liegen Gärten.",
+    "es": "La Piazza dei Martiri es el corazón comercial de Belluno y el salón de encuentro de sus habitantes, de trazado renacentista. Se dedicó a Gregorio XVI, papa nacido en Belluno, pero los vecinos la conocen familiarmente como Piaža Kanpedèl, porque aquí siempre se ha extendido el espacio público de uso cívico de la ciudad. La rodean palacios con fachadas renacentistas y en el centro hay jardines."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 96
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 116
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 118
+    }
+   ],
+   "immagine": {
+    "autore": "Poul Krogsgård",
+    "licenza": "Pubblico dominio",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Belluno_Piazza_dei_Martiri.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Tiia Monto",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_dei_Martiri,_Belluno.jpg"
+    },
+    {
+     "autore": "Donarreiskoffer",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
+    },
+    {
+     "autore": "Acquamarina",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?title=User:Acquamarina&action=edit&redlink=1"
+    }
+   ],
+   "accessibilita": {
+    "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Classificato dal Comune come accessibile (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+      "en": "Rated accessible by the City Council (Plan for the removal of architectural barriers, 2025).",
+      "fr": "Classé accessible par la Commune (Plan d'élimination des barrières architecturales, 2025).",
+      "de": "Von der Stadt als barrierefrei eingestuft (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+      "es": "Clasificado como accesible por el Ayuntamiento (Plan de eliminación de barreras arquitectónicas, 2025)."
+     }
+    }
+   }
+  },
+  {
+   "id": "piazza-duomo",
+   "nome": "Piazza Duomo",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.138034,
+   "longitudine": 12.217267,
+   "descrizione": {
+    "it": "Per secoli Piazza Duomo è stata il cuore politico e religioso di Belluno. Attorno alla piazza si trovano il Palazzo dei Rettori, Palazzo Rosso, il Palazzo dei Vescovi-Conti e la Cattedrale di San Martino. Al centro sorge la fontana di San Gioatà, di impianto quattrocentesco. La piazza fu sistemata per l'ultima volta nel 1873, dopo il terremoto che sconvolse la città il 29 giugno. Il lato sud fu chiuso con un monumento nell'ampliamento del 1926-1928 dell'architetto Alberto Alpago-Novello. Scendendo lungo via Duomo si raggiungono la Piazza delle Erbe e la Loggia dei Ghibellini.",
+    "en": "For centuries Piazza Duomo was the political and religious heart of Belluno. Around the square stand the Palazzo dei Rettori, Palazzo Rosso, the Palazzo dei Vescovi-Conti and the Cathedral of San Martino. At its centre is the fifteenth-century fountain of San Gioatà. The square was last rearranged in 1873, after the earthquake that struck the city on 29 June. Its southern side was closed with a monument during the 1926–1928 enlargement by the architect Alberto Alpago-Novello. Walking down Via Duomo leads to Piazza delle Erbe and the Loggia dei Ghibellini.",
+    "fr": "Pendant des siècles, la Piazza Duomo fut le cœur politique et religieux de Belluno. Autour de la place se dressent le palais des Recteurs, le palais Rosso, le palais des Évêques-Comtes et la cathédrale Saint-Martin. Au centre se trouve la fontaine de San Gioatà, de style quattrocento. La place fut aménagée pour la dernière fois en 1873, après le tremblement de terre qui frappa la ville le 29 juin. Son côté sud fut fermé par un monument lors de l'agrandissement de 1926-1928 confié à l'architecte Alberto Alpago-Novello. En descendant la via Duomo, on rejoint la Piazza delle Erbe et la Loggia dei Ghibellini.",
+    "de": "Jahrhundertelang war die Piazza Duomo das politische und religiöse Herz von Belluno. Rund um den Platz stehen der Palazzo dei Rettori, der Palazzo Rosso, der Palazzo dei Vescovi-Conti und die Kathedrale San Martino. In der Mitte steht der Brunnen von San Gioatà aus dem 15. Jahrhundert. Der Platz wurde zuletzt 1873 nach dem Erdbeben vom 29. Juni neu gestaltet. Die Südseite wurde bei der Erweiterung 1926–1928 durch den Architekten Alberto Alpago-Novello mit einem Denkmal abgeschlossen. Über die Via Duomo gelangt man zur Piazza delle Erbe und zur Loggia dei Ghibellini.",
+    "es": "Durante siglos, la Piazza Duomo fue el corazón político y religioso de Belluno. Alrededor de la plaza se alzan el Palazzo dei Rettori, el Palazzo Rosso, el Palazzo dei Vescovi-Conti y la catedral de San Martino. En el centro está la fuente de San Gioatà, del siglo XV. La plaza se reorganizó por última vez en 1873, tras el terremoto que sacudió la ciudad el 29 de junio. Su lado sur se cerró con un monumento durante la ampliación de 1926-1928 a cargo del arquitecto Alberto Alpago-Novello. Por la vía Duomo se llega a la Piazza delle Erbe y a la Loggia dei Ghibellini."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 13
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 41
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 188
+    }
+   ],
+   "immagine": {
+    "autore": "Alviolosso",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Belluno_Piazza_Duomo.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Autore sconosciuto",
+     "licenza": "Pubblico dominio",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Belluno_-_piazza_Duomo_dopo_il_terremoto_del_1873.jpg"
+    },
+    {
+     "autore": "Donarreiskoffer",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
+    },
+    {
+     "autore": "Donarreiskoffer",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
+    },
+    {
+     "autore": "Donarreiskoffer",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
+    },
+    {
+     "autore": "Donarreiskoffer",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Donarreiskoffer"
+    }
+   ],
+   "accessibilita": {
+    "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/01_Elab_A_RelazioneAnalisi.pdf",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Classificato dal Comune come mediamente accessibile: alcune parti non sono adeguate o richiedono piccoli interventi (Piano per l'eliminazione delle barriere architettoniche, 2025).",
+      "en": "Rated partly accessible by the City Council: some parts are not adequate or need minor works (Plan for the removal of architectural barriers, 2025).",
+      "fr": "Classé moyennement accessible par la Commune : certaines parties ne sont pas adaptées ou nécessitent de petits travaux (Plan d'élimination des barrières architecturales, 2025).",
+      "de": "Von der Stadt als teilweise barrierefrei eingestuft: einige Bereiche sind nicht geeignet oder erfordern kleine Anpassungen (Plan zur Beseitigung architektonischer Barrieren, 2025).",
+      "es": "Clasificado por el Ayuntamiento como medianamente accesible: algunas partes no son adecuadas o requieren pequeñas obras (Plan de eliminación de barreras arquitectónicas, 2025)."
+     }
+    }
+   }
+  },
+  {
+   "id": "piazza-delle-erbe",
+   "nome": "Piazza delle Erbe",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1388923,
+   "longitudine": 12.218082,
+   "descrizione": {
+    "it": "L'antico foro e piazza del mercato di Belluno, collegata a piazza Vittorio Emanuele attraverso Porta Dojona. Al mattino la piazza ospita ancora le bancarelle del mercato. Lungo via Duomo si trova la Loggia dei Ghibellini, e la piazza conserva una fontana storica.",
+    "en": "The ancient forum and market square of Belluno, connected to Piazza Vittorio Emanuele through Porta Dojona. In the morning the square still hosts the market stalls. Along Via Duomo stands the Loggia dei Ghibellini, and the square keeps a historic fountain.",
+    "fr": "L'ancien forum et la place du marché de Belluno, reliée à la piazza Vittorio Emanuele par la Porta Dojona. Le matin, la place accueille encore les étals du marché. Le long de la via Duomo se trouve la Loggia dei Ghibellini, et la place conserve une fontaine historique.",
+    "de": "Das antike Forum und der Marktplatz Bellunos, über die Porta Dojona mit der Piazza Vittorio Emanuele verbunden. Am Vormittag finden hier noch die Marktstände statt. Entlang der Via Duomo liegt die Loggia dei Ghibellini, und der Platz bewahrt einen historischen Brunnen.",
+    "es": "El antiguo foro y plaza del mercado de Belluno, conectada con la Piazza Vittorio Emanuele a través de la Porta Dojona. Por la mañana la plaza sigue acogiendo los puestos del mercado. A lo largo de la vía Duomo está la Loggia dei Ghibellini, y la plaza conserva una fuente histórica."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 103
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 116
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 119
+    }
+   ],
+   "immagine": {
+    "autore": "AquiFoto",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:BL_Fontana_San_Lucano_Piazza_Delle_Erbe_fronte.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Ernesto Sguotti",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Belluno,_fontana_di_S._Lucano_in_Piazza_delle_Erbe.jpg"
+    },
+    {
+     "autore": "Terragio67",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Terragio67"
+    },
+    {
+     "autore": "Terragio67",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Terragio67"
+    }
+   ]
+  },
+  {
+   "id": "cattedrale-di-san-martino",
+   "nome": "Cattedrale di San Martino",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1377372,
+   "longitudine": 12.2173722,
+   "descrizione": {
+    "it": "La Cattedrale di San Martino, patrono della città, è una chiesa del XVI secolo. La pianta è attribuita all'architetto veneziano Tullio Lombardo. Il campanile barocco, alto circa 69 metri, fu disegnato da Filippo Juvarra su incarico del vescovo Gaetano Zuanelli, sul modello del campanile del Duomo di Torino. La facciata in pietra a vista è rimasta incompiuta. All'interno si trovano due importanti dipinti di Gaspare Diziani. Dal 1980 la chiesa ha il titolo di basilica minore.",
+    "en": "The Cathedral of San Martino, patron saint of the city, is a 16th-century church. Its plan is attributed to the Venetian architect Tullio Lombardo. The baroque bell tower, about 69 metres high, was designed by Filippo Juvarra at the request of Bishop Gaetano Zuanelli, modelled on the bell tower of Turin Cathedral. The stone façade was left unfinished. Inside are two important paintings by Gaspare Diziani. Since 1980 the church has held the title of minor basilica.",
+    "fr": "La cathédrale Saint-Martin, patron de la ville, est une église du XVIe siècle. Son plan est attribué à l'architecte vénitien Tullio Lombardo. Le clocher baroque, haut d'environ 69 mètres, fut dessiné par Filippo Juvarra à la demande de l'évêque Gaetano Zuanelli, sur le modèle du clocher de la cathédrale de Turin. La façade en pierre apparente est restée inachevée. À l'intérieur se trouvent deux importants tableaux de Gaspare Diziani. Depuis 1980, l'église porte le titre de basilique mineure.",
+    "de": "Der Dom San Martino, Schutzpatron der Stadt, ist eine Kirche aus dem 16. Jahrhundert. Ihr Grundriss wird dem venezianischen Architekten Tullio Lombardo zugeschrieben. Der barocke Glockenturm, etwa 69 Meter hoch, entwarf Filippo Juvarra im Auftrag von Bischof Gaetano Zuanelli nach dem Vorbild des Glockenturms des Turiner Doms. Die Fassade aus Sichtstein blieb unvollendet. Im Inneren befinden sich zwei bedeutende Gemälde von Gaspare Diziani. Seit 1980 trägt die Kirche den Titel einer Basilica minor.",
+    "es": "La catedral de San Martino, patrón de la ciudad, es una iglesia del siglo XVI. Su planta se atribuye al arquitecto veneciano Tullio Lombardo. El campanario barroco, de unos 69 metros de altura, fue diseñado por Filippo Juvarra por encargo del obispo Gaetano Zuanelli, siguiendo el modelo del campanario de la catedral de Turín. La fachada de piedra vista quedó inacabada. En su interior hay dos importantes pinturas de Gaspare Diziani. Desde 1980, la iglesia tiene el título de basílica menor."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "8:00–19:00"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "en": "Belluno Cathedral"
+   },
+   "nota": "Orari indicativi, da verificare con la parrocchia.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 23
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 24
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 213
+    }
+   ],
+   "immagine": {
+    "autore": "Capricornis crispus",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Basilica_Cattedrale_di_San_Martino_-_Belluno_(II).jpg"
+   },
+   "galleria": [
+    {
+     "autore": "giustina_ilyusha",
+     "licenza": "CC BY 2.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Basilica_cattedrale_di_San_Martino_(Duomo),_interno_(Belluno).jpg"
+    },
+    {
+     "autore": "Paolo Cassol",
+     "licenza": "CC0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Belluno_Paolo_Cassol.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il Duomo prima del Duomo",
+      "en": "The cathedral before the cathedral",
+      "fr": "La cathédrale avant la cathédrale",
+      "de": "Der Dom vor dem Dom",
+      "es": "La catedral antes de la catedral"
+     },
+     "testo": {
+      "it": "La prima chiesa dedicata a San Martino a Belluno risalirebbe al VI secolo: secondo le fonti, fu intitolata al santo dal vescovo Felice nel 548. L'edificio attuale fu invece ricostruito dopo un incendio nel 1471 e la nuova cattedrale venne avviata nel 1517.",
+      "en": "The first church dedicated to St Martin in Belluno would date back to the 6th century: according to sources, it was dedicated to the saint by bishop Felice in 548. The present building was instead rebuilt after a fire in 1471, and the new cathedral was begun in 1517.",
+      "fr": "La première église dédiée à saint Martin à Belluno remonterait au VIe siècle : selon les sources, elle fut dédiée au saint par l'évêque Felice en 548. L'édifice actuel fut en revanche reconstruit après un incendie en 1471, et la nouvelle cathédrale fut commencée en 1517.",
+      "de": "Die erste Kirche, die in Belluno dem heiligen Martin geweiht war, soll auf das 6. Jahrhundert zurückgehen: Den Quellen zufolge wurde sie 548 vom Bischof Felice dem Heiligen geweiht. Das heutige Gebäude wurde dagegen nach einem Brand 1471 wieder aufgebaut, und der neue Dom wurde 1517 begonnen.",
+      "es": "La primera iglesia dedicada a san Martín en Belluno se remontaría al siglo VI: según las fuentes, fue dedicada al santo por el obispo Felice en 548. El edificio actual, en cambio, fue reconstruido tras un incendio en 1471, y la nueva catedral se inició en 1517."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Un progetto di Filippo Juvarra",
+      "en": "A design by Filippo Juvarra",
+      "fr": "Un projet de Filippo Juvarra",
+      "de": "Ein Entwurf von Filippo Juvarra",
+      "es": "Un proyecto de Filippo Juvarra"
+     },
+     "testo": {
+      "it": "Il campanile barocco della Cattedrale fu progettato da Filippo Juvarra e innalzato a partire dal 1732. È uno dei principali elementi che caratterizzano il profilo di Piazza Duomo.",
+      "en": "The Baroque bell tower of the cathedral was designed by Filippo Juvarra and built from 1732 onwards. It is one of the main features that shape the skyline of Piazza Duomo.",
+      "fr": "Le clocher baroque de la cathédrale fut conçu par Filippo Juvarra et élevé à partir de 1732. C'est l'un des principaux éléments qui caractérisent la silhouette de la place du Duomo.",
+      "de": "Der barocke Glockenturm des Doms wurde von Filippo Juvarra entworfen und ab 1732 errichtet. Er ist eines der wichtigsten Elemente, die das Profil des Domplatzes prägen.",
+      "es": "El campanario barroco de la catedral fue diseñado por Filippo Juvarra y levantado a partir de 1732. Es uno de los principales elementos que caracterizan el perfil de la Piazza Duomo."
+     }
+    }
+   ],
+   "personaggio": [
+    "gaspare-diziani"
+   ]
+  },
+  {
+   "id": "chiesa-di-santo-stefano",
+   "nome": "Chiesa di Santo Stefano",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1409659,
+   "longitudine": 12.2182518,
+   "descrizione": {
+    "it": "La chiesa di Santo Stefano è una chiesa gotica tra le più ricche di opere d'arte della città. La licenza di costruzione risale al 1463 e i lavori iniziarono nel 1468 sul sito dell'antica chiesa di Santa Maria delle Grazie; la chiesa fu aperta al pubblico nel 1561. All'interno, le tre navate sono divise da alte arcate ogivali e ospitano opere di Andrea Brustolon e della scuola di Tiziano. Il campanile conserva un grande quadrante in pietra diviso in 24 ore. Il convento adiacente ha un chiostro gotico iniziato nel 1462.",
+    "en": "The church of Santo Stefano is a Gothic church and one of the richest in art in Belluno. Its building permit dates to 1463, and work began in 1468 on the site of the older church of Santa Maria delle Grazie; it opened to the public in 1561. Inside, the three naves are divided by tall pointed arches and hold works by Andrea Brustolon and by painters of the school of Titian. The bell tower keeps a large stone dial marked with 24 hours. The adjoining convent has a Gothic cloister begun in 1462.",
+    "fr": "L'église Santo Stefano est une église gothique parmi les plus riches en œuvres d'art de Belluno. Le permis de construire date de 1463 et les travaux commencèrent en 1468 sur le site de l'ancienne église Santa Maria delle Grazie ; elle fut ouverte au public en 1561. À l'intérieur, les trois nefs sont séparées par de hautes arcades ogivales et abritent des œuvres d'Andrea Brustolon et de l'école de Titien. Le clocher conserve un grand cadran de pierre gradué sur 24 heures. Le cloître gothique du couvent voisin fut commencé en 1462.",
+    "de": "Die Kirche Santo Stefano ist eine gotische Kirche und eine der reichsten an Kunstwerken in Belluno. Die Baugenehmigung stammt von 1463, die Arbeiten begannen 1468 am Standort der älteren Kirche Santa Maria delle Grazie; 1561 wurde sie für die Öffentlichkeit geöffnet. Im Inneren trennen hohe Spitzbögen die drei Schiffe, und es gibt Werke von Andrea Brustolon und der Schule Tizians. Der Glockenturm bewahrt ein großes steinernes Zifferblatt mit 24 Stunden. Der angrenzende Kreuzgang des Klosters wurde 1462 begonnen.",
+    "es": "La iglesia de Santo Stefano es una iglesia gótica y una de las más ricas en obras de arte de Belluno. La licencia de construcción data de 1463 y las obras comenzaron en 1468 sobre el solar de la antigua iglesia de Santa Maria delle Grazie; se abrió al público en 1561. En el interior, tres naves separadas por altos arcos apuntados albergan obras de Andrea Brustolon y de la escuela de Tiziano. El campanario conserva una gran esfera de piedra dividida en 24 horas. El claustro gótico del convento contiguo se inició en 1462."
+   },
+   "orari": [
+    {
+     "giorni": "mar-ven",
+     "ore": "9:30–12:30, 15:30–18:30"
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "10:00–18:30"
+    }
+   ],
+   "biglietto": {
+    "intero": 8,
+    "ridotto": 5
+   },
+   "wikipedia": {
+    "it": "Chiesa di Santo Stefano (Belluno)"
+   },
+   "nota": "Orari e prezzi da verificare: fonti non ufficiali.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 138
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 145
+    },
+    {
+     "nome": "Via Lungardo 5",
+     "linee": [
+      "L"
+     ],
+     "metri": 156
+    }
+   ],
+   "immagine": {
+    "autore": "Cadiprati",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Belluno_-_Chiesa_di_Santo_Stefano_-_2023-09-04_18-03-59_001.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "dolomitibl",
+     "licenza": "CC BY 2.0",
+     "fonte": "https://www.flickr.com/people/38814595@N04"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un orologio con 24 ore",
+      "en": "A clock with 24 hours",
+      "fr": "Une horloge à 24 heures",
+      "de": "Eine Uhr mit 24 Stunden",
+      "es": "Un reloj de 24 horas"
+     },
+     "testo": {
+      "it": "Il campanile conserva un quadrante in pietra diviso in 24 parti anziché nelle consuete 12. È una caratteristica legata al sistema orario di tradizione tedesca diffuso nel XVI secolo.",
+      "en": "The bell tower holds a stone dial divided into 24 parts instead of the usual 12. It reflects the hour system of German tradition that spread in the 16th century.",
+      "fr": "Le clocher conserve un cadran en pierre divisé en 24 parties au lieu des habituelles 12. C'est une caractéristique liée au système horaire de tradition allemande, répandu au XVIe siècle.",
+      "de": "Der Glockenturm trägt ein steinernes Zifferblatt, das statt der üblichen 12 in 24 Teile geteilt ist. Es ist ein Merkmal des deutschen Stundensystems, das im 16. Jahrhundert verbreitet war.",
+      "es": "El campanario conserva una esfera de piedra dividida en 24 partes en lugar de las habituales 12. Es una característica ligada al sistema horario de tradición alemana, extendido en el siglo XVI."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Un portale arrivato da un'altra chiesa",
+      "en": "A portal that came from another church",
+      "fr": "Un portail venu d'une autre église",
+      "de": "Ein Portal aus einer anderen Kirche",
+      "es": "Un portal llegado de otra iglesia"
+     },
+     "testo": {
+      "it": "Il portale gotico sul lato sud, decorato con statue dei santi protettori di Belluno, non nacque per questa chiesa: fu trasferito nel 1893 dalla soppressa chiesa di Santa Maria dei Battuti.",
+      "en": "The Gothic portal on the south side, decorated with statues of Belluno's patron saints, was not made for this church: it was moved here in 1893 from the suppressed church of Santa Maria dei Battuti.",
+      "fr": "Le portail gothique du côté sud, orné de statues des saints protecteurs de Belluno, n'a pas été conçu pour cette église : il y fut transféré en 1893 depuis l'église supprimée de Santa Maria dei Battuti.",
+      "de": "Das gotische Portal auf der Südseite, geschmückt mit Statuen der Schutzheiligen Bellunos, wurde nicht für diese Kirche geschaffen: 1893 wurde es aus der aufgelassenen Kirche Santa Maria dei Battuti hierher versetzt.",
+      "es": "El portal gótico del lado sur, decorado con estatuas de los santos patronos de Belluno, no nació para esta iglesia: en 1893 fue trasladado desde la iglesia suprimida de Santa Maria dei Battuti."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-san-pietro",
+   "nome": "Chiesa di San Pietro",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.138351,
+   "longitudine": 12.2196908,
+   "descrizione": {
+    "it": "La chiesa di San Pietro, nel centro storico accanto al Seminario, fu costruita tra il 1282 e il 1326, rimaneggiata nel Seicento e ricostruita nel 1750. Conserva opere di Sebastiano Ricci, tra cui la pala dell'altare maggiore e gli affreschi della cappella Fulcis, e quattro grandi tele di Lo Schiavone. Due altari lignei di Andrea Brustolon provengono dalla chiesa dei Gesuiti, dopo la soppressione dell'ordine. Brustolon fu sepolto qui, ma la sua tomba andò perduta durante lavori nel 1831.",
+    "en": "The church of San Pietro, in the old town beside the seminary, was built between 1282 and 1326, remodelled in the 17th century and rebuilt in 1750. It holds works by Sebastiano Ricci, including the main altarpiece and the frescoes of the Fulcis chapel, as well as four large canvases by Lo Schiavone. Two carved wooden altarpieces by Andrea Brustolon came here from the Jesuit church after the order was suppressed. Brustolon was buried here, but his tomb was lost during works in 1831.",
+    "fr": "L'église Saint-Pierre, dans le centre ancien à côté du séminaire, fut construite entre 1282 et 1326, remaniée au XVIIe siècle puis reconstruite en 1750. Elle abrite des œuvres de Sebastiano Ricci, dont le retable du maître-autel et les fresques de la chapelle Fulcis, ainsi que quatre grandes toiles de Lo Schiavone. Deux retables sculptés en bois d'Andrea Brustolon proviennent de l'église des Jésuites après la suppression de l'ordre. Brustolon y fut enterré, mais sa tombe fut perdue lors de travaux en 1831.",
+    "de": "Die Kirche San Pietro im Altstadtviertel neben dem Seminar wurde zwischen 1282 und 1326 erbaut, im 17. Jahrhundert umgestaltet und 1750 neu errichtet. Sie beherbergt Werke von Sebastiano Ricci, darunter das Hochaltarbild und die Fresken der Cappella Fulcis, sowie vier große Leinwände von Lo Schiavone. Zwei geschnitzte Holzaltäre von Andrea Brustolon stammen aus der Jesuitenkirche, nachdem der Orden aufgelöst worden war. Brustolon wurde hier bestattet, doch sein Grab ging bei Arbeiten 1831 verloren.",
+    "es": "La iglesia de San Pietro, en el casco antiguo junto al seminario, se construyó entre 1282 y 1326, se reformó en el siglo XVII y se reconstruyó en 1750. Conserva obras de Sebastiano Ricci, como la pala del altar mayor y los frescos de la capilla Fulcis, además de cuatro grandes lienzos de Lo Schiavone. Dos retablos de madera tallados por Andrea Brustolon proceden de la iglesia de los jesuitas tras la supresión de la orden. Brustolon fue enterrado aquí, pero su tumba se perdió en unas obras en 1831."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Orari di apertura da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Lungardo 76",
+     "linee": [
+      "L"
+     ],
+     "metri": 104
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 167
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 184
+    }
+   ],
+   "immagine": {
+    "autore": "Capricornis crispus",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Pietro_-_Belluno.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
+    },
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
+    }
+   ],
+   "personaggio": [
+    "andrea-brustolon",
+    "sebastiano-ricci"
+   ]
+  },
+  {
+   "id": "battistero-del-duomo",
+   "nome": "Battistero del Duomo",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1378016,
+   "longitudine": 12.217855,
+   "descrizione": {
+    "it": "La chiesa di Santa Maria delle Grazie, detta il Battistero, si trova a pochi passi dalla cattedrale. Della costruzione originale resta la sola cappella gotica, oggi inglobata nel vicino Seminario Gregoriano. Svolge la funzione di battistero dal 1555. Vi si trovano opere di Sebastiano Ricci, di Lo Schiavone e di Andrea Brustolon, tra cui il San Giovanni Battista del 1704.",
+    "en": "The church of Santa Maria delle Grazie, known as the Baptistery, stands a few steps from the cathedral. Only the original Gothic chapel survives, now absorbed into the nearby Seminario Gregoriano. It has served as a baptistery since 1555. It holds works by Sebastiano Ricci, Lo Schiavone and Andrea Brustolon, including a Saint John the Baptist from 1704.",
+    "fr": "L'église Santa Maria delle Grazie, dite le Baptistère, se trouve à quelques pas de la cathédrale. Seule la chapelle gothique de l'édifice d'origine subsiste, aujourd'hui intégrée au séminaire grégorien voisin. Elle sert de baptistère depuis 1555. Elle abrite des œuvres de Sebastiano Ricci, de Lo Schiavone et d'Andrea Brustolon, dont un saint Jean-Baptiste de 1704.",
+    "de": "Die Kirche Santa Maria delle Grazie, genannt Baptisterium, liegt wenige Schritte vom Dom entfernt. Von dem ursprünglichen Bau ist nur die gotische Kapelle erhalten, die heute ins benachbarte Seminario Gregoriano einbezogen ist. Seit 1555 dient sie als Taufkirche. Sie beherbergt Werke von Sebastiano Ricci, Lo Schiavone und Andrea Brustolon, darunter einen Johannes den Täufer von 1704.",
+    "es": "La iglesia de Santa Maria delle Grazie, llamada el Baptisterio, está a pocos pasos de la catedral. Solo se conserva la capilla gótica del edificio original, hoy integrada en el cercano Seminario Gregoriano. Funciona como baptisterio desde 1555. Alberga obras de Sebastiano Ricci, Lo Schiavone y Andrea Brustolon, entre ellas un san Juan Bautista de 1704."
+   },
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "indirizzo": "Via Sant’Andrea, 14",
+   "nota": "Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 14
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 40
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 217
+    }
+   ],
+   "immagine": {
+    "autore": "Capricornis crispus",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Battistero_di_Santa_Maria_delle_Grazie_-_Belluno_(II).jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Battistero_di_Santa_Maria_delle_Grazie_-_Belluno.jpg"
+    },
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Interno_del_Battistero_di_Santa_Maria_delle_Grazie_-_Belluno.jpg"
+    },
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Altare_del_Battistero_di_Santa_Maria_delle_Grazie_-_Belluno.jpg"
+    }
+   ]
+  },
+  {
+   "id": "chiesa-di-santa-maria-di-loreto",
+   "nome": "Chiesa di Santa Maria di Loreto",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1398794,
+   "longitudine": 12.2130307,
+   "descrizione": {
+    "it": "La chiesa di Santa Maria di Loreto fu costruita tra il 1612 e il 1641 su progetto del frate cappuccino Andrea da Venezia, completando il convento delle Clarisse adiacente. Conserva opere di Andrea e Paolo Brustolon, tra cui un ostensorio ligneo di Andrea Brustolon. Di fronte si trova il vecchio ospedale, eretto nel 1714, che rimase in funzione fino al 1987. La chiesa fu rinnovata nel 1952 da Alberto Alpago-Novello.",
+    "en": "The church of Santa Maria di Loreto was built between 1612 and 1641 to a design by the Capuchin friar Andrea da Venezia, completing the adjacent convent of the Poor Clares. It holds works by Andrea and Paolo Brustolon, including a wooden monstrance by Andrea Brustolon. Across the street stands the old hospital, erected in 1714, which served the city until 1987. The church was renovated in 1952 by Alberto Alpago-Novello.",
+    "fr": "L'église Santa Maria di Loreto fut construite entre 1612 et 1641 sur un projet du frère capucin Andrea da Venezia, achevant le couvent voisin des Clarisses. Elle abrite des œuvres d'Andrea et de Paolo Brustolon, dont un ostensoir en bois d'Andrea Brustolon. En face se trouve l'ancien hôpital, érigé en 1714, qui fonctionna jusqu'en 1987. L'église fut rénovée en 1952 par Alberto Alpago-Novello.",
+    "de": "Die Kirche Santa Maria di Loreto wurde zwischen 1612 und 1641 nach einem Entwurf des Kapuzinerpaters Andrea da Venezia erbaut und vollendete das angrenzende Kloster der Klarissen. Sie beherbergt Werke von Andrea und Paolo Brustolon, darunter eine hölzerne Monstranz von Andrea Brustolon. Gegenüber steht das alte Krankenhaus von 1714, das bis 1987 in Betrieb war. Die Kirche wurde 1952 von Alberto Alpago-Novello renoviert.",
+    "es": "La iglesia de Santa Maria di Loreto se construyó entre 1612 y 1641 según un proyecto del fraile capuchino Andrea da Venezia, completando el convento contiguo de las clarisas. Conserva obras de Andrea y Paolo Brustolon, entre ellas una custodia de madera de Andrea Brustolon. Enfrente está el antiguo hospital, levantado en 1714, que funcionó hasta 1987. La iglesia fue renovada en 1952 por Alberto Alpago-Novello."
+   },
+   "orari": [],
+   "biglietto": {
+    "gratuito": true
+   },
+   "indirizzo": "Via Loreto, 13",
+   "nota": "Orari da verificare.",
+   "fermate_vicine": [
+    {
+     "nome": "Via Loreto",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 51
+    },
+    {
+     "nome": "Via Matteotti",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 127
+    },
+    {
+     "nome": "Via Dante/FS",
+     "linee": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "J",
+      "L",
+      "R",
+      "V"
+     ],
+     "metri": 176
+    }
+   ],
+   "immagine": {
+    "autore": "Capricornis crispus",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Santa_Maria_di_Loreto_-_Belluno.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
+    },
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
+    },
+    {
+     "autore": "Capricornis crispus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
+    }
+   ]
+  },
+  {
+   "id": "palazzo-dei-rettori",
+   "nome": "Palazzo dei Rettori",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1382871,
+   "longitudine": 12.2172227,
+   "descrizione": {
+    "it": "Il Palazzo dei Rettori, sul lato nord di piazza Duomo, risale al 1409 e per quasi quattro secoli fu sede dei rettori veneziani che governavano Belluno e il suo territorio. Nel 1496 fu adottato un progetto di ampliamento dell'architetto veneziano Giovanni Candi, più volte interrotto. La facciata presenta un ampio portico, bifore gotiche finemente decorate e due logge. Oggi ospita la Prefettura e non è aperto alla visita. In una delle sale si trova un soffitto alla sansovina.",
+    "en": "The Palazzo dei Rettori, on the north side of Piazza Duomo, dates back to 1409 and for almost four centuries was the seat of the Venetian rectors who governed Belluno and its territory. In 1496 an enlargement project by the Venetian architect Giovanni Candi was adopted, though it was interrupted several times. The façade has a large portico, finely decorated Gothic arched windows and two loggias. Today it houses the Prefecture and is not open to visitors. One room has a ceiling in the Sansovino style.",
+    "fr": "Le palais des Recteurs, sur le côté nord de la Piazza Duomo, remonte à 1409 et fut pendant près de quatre siècles le siège des recteurs vénitiens qui gouvernaient Belluno et son territoire. En 1496, un projet d'agrandissement de l'architecte vénitien Giovanni Candi fut adopté, mais il fut interrompu à plusieurs reprises. La façade comporte un vaste portique, des baies gothiques finement décorées et deux loggias. Aujourd'hui, il abrite la préfecture et n'est pas ouvert à la visite. Une salle possède un plafond de style sansovinien.",
+    "de": "Der Palazzo dei Rettori an der Nordseite der Piazza Duomo stammt aus dem Jahr 1409 und war fast vier Jahrhunderte lang Sitz der venezianischen Rektoren, die Belluno und sein Gebiet regierten. 1496 wurde ein Erweiterungsplan des venezianischen Architekten Giovanni Candi angenommen, der jedoch mehrfach unterbrochen wurde. Die Fassade besitzt ein großes Portikus, fein verzierte gotische Bogenfenster und zwei Logien. Heute beherbergt der Palast die Präfektur und ist nicht öffentlich zugänglich. Ein Raum hat eine Decke im Stil Sansovinos.",
+    "es": "El Palazzo dei Rettori, en el lado norte de la Piazza Duomo, data de 1409 y durante casi cuatro siglos fue sede de los rectores venecianos que gobernaban Belluno y su territorio. En 1496 se adoptó un proyecto de ampliación del arquitecto veneciano Giovanni Candi, que se interrumpió varias veces. La fachada tiene un amplio pórtico, ventanas góticas finamente decoradas y dos logias. Hoy alberga la Prefectura y no se puede visitar. Una sala tiene un techo al estilo de Sansovino."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Visitabile dall’esterno.",
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 40
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 65
+    },
+    {
+     "nome": "Piazza Vittorio Emanuele II",
+     "linee": [
+      "A",
+      "B",
+      "H",
+      "L",
+      "R"
+     ],
+     "metri": 164
+    }
+   ],
+   "immagine": {
+    "autore": "Capricornis crispus",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_dei_Rettori_-_Belluno.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Ettore Dal Farra at Italian Wikipedia",
+     "licenza": "Pubblico dominio",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_dei_Rettori(Belluno).jpg"
+    },
+    {
+     "autore": "Luca Sordon",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?title=User:Duz12&action=edit&redlink=1"
+    },
+    {
+     "autore": "Luca Sordon",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/w/index.php?title=User:Duz12&action=edit&redlink=1"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Quattro secoli di governo veneziano",
+      "en": "Four centuries of Venetian rule",
+      "fr": "Quatre siècles de gouvernement vénitien",
+      "de": "Vier Jahrhunderte venezianischer Herrschaft",
+      "es": "Cuatro siglos de gobierno veneciano"
+     },
+     "testo": {
+      "it": "Per quasi quattrocento anni il palazzo fu la sede dei rettori veneziani che amministravano Belluno e il suo territorio. Sulla facciata si possono ancora vedere stemmi e busti dei rettori dei secoli XV-XVII.",
+      "en": "For almost four hundred years the palace was the seat of the Venetian rectors who administered Belluno and its territory. On the façade you can still see coats of arms and busts of the rectors of the 15th-17th centuries.",
+      "fr": "Pendant presque quatre cents ans, le palais fut le siège des recteurs vénitiens qui administraient Belluno et son territoire. Sur la façade, on peut encore voir des armoiries et des bustes des recteurs des XVe-XVIIe siècles.",
+      "de": "Fast vierhundert Jahre lang war der Palast Sitz der venezianischen Rektoren, die Belluno und sein Gebiet verwalteten. An der Fassade sind noch heute Wappen und Büsten der Rektoren aus dem 15. bis 17. Jahrhundert zu sehen.",
+      "es": "Durante casi cuatrocientos años el palacio fue la sede de los rectores venecianos que administraban Belluno y su territorio. En la fachada aún se pueden ver escudos y bustos de los rectores de los siglos XV-XVII."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Due capitelli, due date",
+      "en": "Two capitals, two dates",
+      "fr": "Deux chapiteaux, deux dates",
+      "de": "Zwei Kapitelle, zwei Daten",
+      "es": "Dos capiteles, dos fechas"
+     },
+     "testo": {
+      "it": "Le date di inizio e conclusione dei lavori del palazzo sono riportate sui capitelli delle colonne della facciata: quella iniziale sul capitello a sinistra e quella finale sul capitello a destra.",
+      "en": "The start and end dates of the palace's construction are carved on the capitals of the façade columns: the starting date on the left capital and the final one on the right.",
+      "fr": "Les dates de début et de fin des travaux du palais sont gravées sur les chapiteaux des colonnes de la façade : la date initiale sur le chapiteau de gauche et la date finale sur celui de droite.",
+      "de": "Die Daten von Baubeginn und Bauende des Palastes sind auf den Kapitellen der Fassadensäulen angegeben: das Anfangsdatum auf dem linken, das Enddatum auf dem rechten Kapitell.",
+      "es": "Las fechas de inicio y fin de las obras del palacio están grabadas en los capiteles de las columnas de la fachada: la inicial en el capitel de la izquierda y la final en el de la derecha."
+     }
+    }
+   ]
+  },
+  {
+   "id": "palazzo-rosso",
+   "nome": "Palazzo Rosso",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 46.1381518,
+   "longitudine": 12.2166149,
+   "descrizione": {
+    "it": "Il Municipio di Belluno, detto Palazzo Rosso per il colore della facciata, fu progettato dall'architetto Giuseppe Segusini (1801-1876) tra il 1834 e il 1838. Il progetto ampliò il preesistente palazzo del Vicario, edificio del Cinquecento. Si affaccia su piazza Duomo, accanto al Palazzo dei Rettori e alla cattedrale, e ospita gli uffici comunali.",
+    "en": "Belluno's Town Hall, known as Palazzo Rosso for the colour of its façade, was designed by the architect Giuseppe Segusini (1801–1876) between 1834 and 1838. The project expanded the existing 16th-century Palazzo del Vicario. It overlooks Piazza Duomo, next to the Palazzo dei Rettori and the cathedral, and houses the city's municipal offices.",
+    "fr": "L'hôtel de ville de Belluno, appelé palais Rosso en raison de la couleur de sa façade, fut conçu par l'architecte Giuseppe Segusini (1801-1876) entre 1834 et 1838. Le projet agrandit le palais du Vicaire, édifice du XVIe siècle. Il donne sur la Piazza Duomo, à côté du palais des Recteurs et de la cathédrale, et abrite les services municipaux.",
+    "de": "Das Rathaus von Belluno, wegen der Farbe seiner Fassade Palazzo Rosso genannt, wurde zwischen 1834 und 1838 vom Architekten Giuseppe Segusini (1801–1876) entworfen. Der Entwurf erweiterte den bestehenden Palazzo del Vicario aus dem 16. Jahrhundert. Er liegt an der Piazza Duomo neben dem Palazzo dei Rettori und der Kathedrale und beherbergt die Stadtverwaltung.",
+    "es": "El ayuntamiento de Belluno, llamado Palazzo Rosso por el color de su fachada, fue diseñado por el arquitecto Giuseppe Segusini (1801-1876) entre 1834 y 1838. El proyecto amplió el preexistente Palazzo del Vicario, del siglo XVI. Da a la Piazza Duomo, junto al Palazzo dei Rettori y la catedral, y alberga las oficinas municipales."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": "Visitabile dall’esterno.",
+   "wikipedia": {
+    "it": "Palazzo Rosso (Belluno)"
+   },
+   "fermate_vicine": [
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 63
+    },
+    {
+     "nome": "Piazza Duomo",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 90
+    },
+    {
+     "nome": "Piazza dei Martiri",
+     "linee": [
+      "C",
+      "J"
+     ],
+     "metri": 138
+    }
+   ],
+   "immagine": {
+    "autore": "Bruschi Alberto",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": ""
+   },
+   "galleria": [
+    {
+     "autore": "Ernesto Sguotti",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Belluno,_Palazzo_Rosso_visto_da_Piazza_Duomo.jpg"
+    },
+    {
+     "autore": "Paperoastro",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": ""
+    },
+    {
+     "autore": "AquiFoto",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": ""
+    }
+   ],
+   "personaggio": "giovanni-de-min",
+   "accessibilita": {
+    "fonte": "https://edilizia.comune.belluno.it/wp-content/uploads/2025/11/02_Elab_A1_SchedeEdificiPubblici_pag-001-151.pdf",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Si entra usando la rampa dell'adiacente ex tribunale.",
+      "en": "Access is via the ramp of the adjacent former courthouse.",
+      "fr": "On entre par la rampe de l'ancien tribunal voisin.",
+      "de": "Der Zugang erfolgt über die Rampe des benachbarten ehemaligen Gerichtsgebäudes.",
+      "es": "Se entra por la rampa del antiguo tribunal contiguo."
+     },
+     "ascensore": {
+      "it": "Per i piani superiori si usa l'ascensore dell'adiacente ex tribunale.",
+      "en": "The upper floors are reached with the lift of the adjacent former courthouse.",
+      "fr": "Les étages supérieurs sont desservis par l'ascenseur de l'ancien tribunal voisin.",
+      "de": "Die oberen Stockwerke erreicht man mit dem Aufzug des benachbarten ehemaligen Gerichtsgebäudes.",
+      "es": "A las plantas superiores se llega con el ascensor del antiguo tribunal contiguo."
+     }
+    }
+   }
+  }
+ ]
+}

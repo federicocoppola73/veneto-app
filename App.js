@@ -1,13 +1,26 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { ActivityIndicator, Alert, BackHandler, FlatList, Image, Modal, Pressable, StatusBar, StyleSheet, Text, View } from 'react-native';
+import { SafeAreaProvider, SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { getLocales } from 'expo-localization';
 import { useFonts } from 'expo-font';
 import { Marcellus_400Regular } from '@expo-google-fonts/marcellus';
 import { CITTA, cittaPerId } from './src/catalogo';
 import { controllaAggiornamenti, datiCitta, datiMappa, datiTessere, installa, leggiStato, rimuovi } from './src/pacchetti';
-import { etichettaStato, LINGUE, testi, testoLingua } from './src/lingue';
+import { acquista, prezzoCitta } from './src/acquisti';
+import { LINGUE, testi, testoLingua } from './src/lingue';
+import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
+import {
+  IconaCalendario,
+  IconaCestino,
+  IconaGiu,
+  IconaGlobo,
+  IconaLente,
+  IconaMonumenti,
+  IconaNuvola,
+  IconaPassi,
+  IconaPosate,
+} from './src/components/IconeHome';
 import CittaApp from './src/schermate/CittaApp';
 import MotoreApp from './motore/App';
 import { caricaCitta } from './motore/src/apriCitta';
@@ -53,7 +66,8 @@ function linguaIniziale() {
   }
 }
 
-// Gratuito sempre attivo; le città si scaricano, si aprono e si rimuovono da qui.
+// Schermata iniziale: ogni città si visita gratis (pacchetto prova) o si acquista (pacchetto completo);
+// da qui si apre, si aggiorna e si cancella dal telefono.
 // il provider degli spazi sicuri serve anche sul web, dove SafeAreaView lo richiede
 export default function App() {
   // font del titolo "Veneto Experience" (Marcellus); finché non è caricato RN usa il font di sistema
@@ -67,7 +81,9 @@ export default function App() {
 
 function AppRadice() {
   const [lingua, setLingua] = useState(linguaIniziale);
-  const [stato, setStato] = useState({ attiva: null, installate: [] });
+  const [stato, setStato] = useState({ attiva: null, installate: [], versioni: {}, tipi: {}, acquistate: [] });
+  const [daCancellare, setDaCancellare] = useState(null); // id della città nel popup "Cancellare…?"
+
   const [daAggiornare, setDaAggiornare] = useState([]); // città installate con una versione più recente sul server
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
   const [progresso, setProgresso] = useState(null); // { id, fatti, totale } durante il download
@@ -78,6 +94,7 @@ function AppRadice() {
   const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
   const [creditiAperti, setCreditiAperti] = useState(false); // pagina crediti
   const t = testi(lingua);
+  const margini = useSafeAreaInsets();
 
   useEffect(() => {
     leggiStato().then((s) => {
@@ -133,24 +150,19 @@ function AppRadice() {
     AsyncStorage.setItem(CHIAVE_LINGUA, nuova).catch(() => {});
   }
 
-  // chiede conferma prima di cancellare i dati di una città dal telefono
-  function confermaRimuovi(id) {
-    Alert.alert(t.rimuoviTitolo, t.rimuoviMessaggio, [
-      { text: t.annulla, style: 'cancel' },
-      { text: t.rimuovi, style: 'destructive', onPress: () => esegui(id, rimuovi) },
-    ]);
-  }
-
-  async function esegui(id, azione) {
+  // Esegue un'azione su una città (download o rimozione); restituisce true se è andata a buon fine
+  async function esegui(id, azione, { download = false } = {}) {
     setOccupata(id);
     setProgresso(null);
-    setScaricando(azione === installa);
+    setScaricando(download);
     try {
-      const nuovo = await azione(id, (fatti, totale) => setProgresso({ id, fatti, totale }));
+      const nuovo = await azione((fatti, totale) => setProgresso({ id, fatti, totale }));
       setStato(nuovo);
-      if (azione === installa) setDaAggiornare((d) => d.filter((x) => x !== id));
+      if (download) setDaAggiornare((d) => d.filter((x) => x !== id));
+      return true;
     } catch (e) {
-      Alert.alert(t.errore, e.message || t.riprova);
+      Alert.alert(t.errore, t.riprova);
+      return false;
     } finally {
       setOccupata(null);
       setProgresso(null);
@@ -158,14 +170,45 @@ function AppRadice() {
     }
   }
 
+  const scarica = (id, tipo) => esegui(id, (p) => installa(id, p, tipo), { download: true });
+
+  // Visita (versione gratuita): la prima volta, o se c'è una versione nuova, scarica la prova; poi apre la città
+  async function visita(id) {
+    const presente = stato.installate.includes(id) && !daAggiornare.includes(id);
+    if (presente || (await scarica(id, 'prova'))) setCittaAperta(id);
+  }
+
+  async function compra(id) {
+    try {
+      const nuovo = await acquista(id);
+      setStato(nuovo);
+    } catch (e) {
+      Alert.alert(t.acquista, e.codice === 'acquisti_non_attivi' ? t.acquistiNonAttivi : t.riprova);
+      return;
+    }
+    // dopo l'acquisto si scarica subito il pacchetto completo
+    await scarica(id, 'completo');
+  }
+
+  function confermaCancella() {
+    const id = daCancellare;
+    setDaCancellare(null);
+    if (id) esegui(id, () => rimuovi(id));
+  }
+
   if (apreNelMotore(cittaAperta)) {
     if (!motorePronto) return <ActivityIndicator style={{ flex: 1 }} />;
     return (
       <View style={{ flex: 1, backgroundColor: '#1e3a8a' }}>
         <SafeAreaView edges={['top']} style={{ backgroundColor: '#1e3a8a' }}>
-          <Pressable onPress={() => setCittaAperta(null)} style={{ paddingHorizontal: 14, paddingVertical: 8 }}>
-            <Text style={{ color: '#fff', fontWeight: '700', fontSize: 15 }}>{t.indietroCitta}</Text>
-          </Pressable>
+          <View style={styles.barraCitta}>
+            <Pressable onPress={() => setCittaAperta(null)} style={{ paddingHorizontal: 14, paddingVertical: 8 }}>
+              <Text style={{ color: '#fff', fontWeight: '700', fontSize: 15 }}>{t.indietroCitta}</Text>
+            </Pressable>
+            {stato.tipi?.[cittaAperta] === 'prova' ? (
+              <Text style={styles.barraGratuita} numberOfLines={1}>{t.barraGratuita}</Text>
+            ) : null}
+          </View>
         </SafeAreaView>
         <View style={{ flex: 1 }}>
           <MotoreApp lingua={lingua} />
@@ -190,9 +233,17 @@ function AppRadice() {
     );
   }
 
+  const funzioni = [IconaMonumenti, IconaPassi, IconaLente, IconaPosate, IconaCalendario];
   const intestazione = (
     <View>
-      <View style={styles.hero}>
+      <View style={[styles.hero, { paddingTop: margini.top + 16 }]}>
+        {/* foto a destra che sfuma nel verde verso sinistra */}
+        <Image source={COPERTINE.venezia} style={[styles.heroFoto, { top: margini.top + 80 }]} />
+        <View style={[styles.heroSfumatura, { top: margini.top + 80 }]} pointerEvents="none">
+          {[0.95, 0.8, 0.62, 0.45, 0.3, 0.16, 0.06].map((o, i) => (
+            <View key={i} style={{ flex: 1, backgroundColor: VERDE, opacity: o }} />
+          ))}
+        </View>
         <View style={styles.heroTop}>
           <Image source={require('./assets/guida-veneto.png')} style={styles.logo} />
           <View style={styles.testiHero}>
@@ -201,16 +252,36 @@ function AppRadice() {
               <Text style={styles.badgeTesto}>{t.guidaTuristica}</Text>
             </View>
           </View>
+          <Pressable
+            style={styles.lingua}
+            onPress={() => setLinguaAperta(true)}
+            accessibilityRole="button"
+            accessibilityLabel={`Lingua / Language: ${NOMI_LINGUE[lingua]}`}
+          >
+            <IconaGlobo colore="#fff" />
+            <Text style={styles.linguaValore}>{lingua.toUpperCase()}</Text>
+            <IconaGiu colore="#fff" />
+          </Pressable>
         </View>
-        <Text style={styles.heroTitolo} numberOfLines={1} adjustsFontSizeToFit>{t.heroTitolo}</Text>
+        <Text style={styles.heroTitolo}>{t.heroTitolo}</Text>
         <Text style={styles.heroSottotitolo}>{t.heroSottotitolo}</Text>
-        <Pressable style={styles.lingua} onPress={() => setLinguaAperta(true)}>
-          <Text style={styles.linguaEtichetta}>LINGUA / LANGUAGE</Text>
-          <View style={styles.linguaRiga}>
-            <Text style={styles.linguaValore}>{NOMI_LINGUE[lingua]}</Text>
-            <Text style={styles.chevron}>⌄</Text>
+      </View>
+
+      <View style={styles.funzioni}>
+        {funzioni.map((Icona, i) => (
+          <View key={i} style={styles.funzione}>
+            <Icona colore={VERDE} />
+            <Text style={styles.funzioneTesto} numberOfLines={2}>{t.funzioni[i]}</Text>
           </View>
-        </Pressable>
+        ))}
+      </View>
+
+      <View style={styles.offline}>
+        <IconaNuvola colore={VERDE} />
+        <View style={{ flex: 1 }}>
+          <Text style={styles.offlineTitolo}>{t.offlineTitolo}</Text>
+          <Text style={styles.offlineTesto}>{t.offlineTesto}</Text>
+        </View>
       </View>
 
       <View style={styles.sezione}>
@@ -220,10 +291,13 @@ function AppRadice() {
     </View>
   );
 
+  const citta = CITTA.find((c) => c.id === daCancellare);
+
   return (
-    <SafeAreaView style={styles.contenitore} edges={['top', 'left', 'right']}>
+    <SafeAreaView style={styles.contenitore} edges={['left', 'right']}>
+      <StatusBar barStyle="light-content" />
       <FlatList
-        data={CITTA}
+        data={CITTA.length % 2 ? [...CITTA, { id: '_vuoto' }] : CITTA}
         keyExtractor={(c) => c.id}
         numColumns={2}
         columnWrapperStyle={styles.colonne}
@@ -235,53 +309,59 @@ function AppRadice() {
           </Pressable>
         }
         renderItem={({ item }) => {
+          // con un numero dispari di città l'ultima resta larga metà, come le altre
+          if (item.id === '_vuoto') return <View style={{ flex: 1 }} />;
           const installata = stato.installate.includes(item.id);
-          const aggiornabile = installata && daAggiornare.includes(item.id);
+          const tipo = stato.tipi?.[item.id];
           const impegnata = occupata === item.id;
           return (
-            <View style={styles.card}>
-              <View style={[styles.immagine, { backgroundColor: COLORI[item.id] || '#64748b' }]}>
-                {COPERTINE[item.id] ? <Image source={COPERTINE[item.id]} style={styles.copertina} /> : null}
-              </View>
-              <Text style={styles.nomeCitta}>{item.nome}</Text>
-              <Text style={styles.motto}>{testoLingua(lingua, item.motto) || item.provincia}</Text>
-              <View style={[styles.stato, installata && styles.statoOk]}>
-                <Text style={[styles.statoTesto, installata && styles.statoTestoOk]}>
-                  {installata ? t.installata : etichettaStato(t, item.stato)}
-                </Text>
-              </View>
-
-              {impegnata ? (
-                progresso && progresso.id === item.id ? (
-                  <Text style={styles.percentuale}>{Math.round((progresso.fatti / progresso.totale) * 100)}%</Text>
-                ) : (
-                  <ActivityIndicator style={styles.attesa} />
-                )
-              ) : installata ? (
-                <>
-                  {aggiornabile ? (
-                    <Pressable style={[styles.bottone, styles.bottoneScarica]} onPress={() => esegui(item.id, installa)}>
-                      <Text style={styles.testoScarica}>↻ {t.aggiornaCitta}</Text>
-                    </Pressable>
-                  ) : null}
-                  <Pressable style={[styles.bottone, styles.bottoneApri]} onPress={() => setCittaAperta(item.id)}>
-                    <Text style={styles.testoApri}>{t.apriCitta} ↗</Text>
-                  </Pressable>
-                  <Pressable style={styles.rimuovi} onPress={() => confermaRimuovi(item.id)}>
-                    <Text style={styles.testoRimuovi}>{t.rimuoviCitta}</Text>
-                  </Pressable>
-                </>
-              ) : item.pacchetto ? (
-                <Pressable style={[styles.bottone, styles.bottoneScarica]} onPress={() => esegui(item.id, installa)}>
-                  <Text style={styles.testoScarica}>↓ {t.scaricaCitta}</Text>
-                </Pressable>
-              ) : (
-                <Text style={styles.nonDisponibile}>{t.nonAncora}</Text>
-              )}
-            </View>
+            <SchedaCitta
+              citta={item}
+              motto={testoLingua(lingua, item.motto) || item.provincia}
+              copertina={COPERTINE[item.id]}
+              coloreSfondo={COLORI[item.id] || '#64748b'}
+              t={t}
+              acquistata={stato.acquistate.includes(item.id)}
+              completaInstallata={installata && tipo === 'completo'}
+              provaInstallata={installata && tipo === 'prova'}
+              aggiornabile={installata && daAggiornare.includes(item.id)}
+              impegnata={impegnata}
+              percentuale={impegnata && progresso?.id === item.id ? Math.round((progresso.fatti / progresso.totale) * 100) : null}
+              prezzo={prezzoCitta(item)}
+              onVisita={() => visita(item.id)}
+              onAcquista={() => compra(item.id)}
+              onApri={() => setCittaAperta(item.id)}
+              onAggiorna={() => scarica(item.id, 'completo')}
+              onCancella={() => setDaCancellare(item.id)}
+              onScarica={() => scarica(item.id, 'completo')}
+            />
           );
         }}
       />
+
+      <Modal visible={!!citta} transparent animationType="fade" onRequestClose={() => setDaCancellare(null)} statusBarTranslucent>
+        <Pressable style={styles.velo} onPress={() => setDaCancellare(null)} accessibilityLabel={t.annulla} />
+        <View style={styles.popupContenitore} pointerEvents="box-none">
+          <View style={styles.popup} accessibilityViewIsModal>
+            <View style={styles.popupIcona}>
+              <IconaCestino misura={24} colore={ROSSO} />
+            </View>
+            <Text style={styles.popupTitolo}>{t.cancellaTitolo.replace('{nome}', citta?.nome || '')}</Text>
+            <Text style={styles.popupTesto}>
+              {t.cancellaTesto.replace('{mb}', String(Math.ceil(citta?.dimensione_mb || 0)))}
+            </Text>
+            <Text style={styles.popupTesto}>{t.cancellaAcquisto}</Text>
+            <View style={styles.popupPulsanti}>
+              <Pressable onPress={() => setDaCancellare(null)} style={[styles.popupPulsante, styles.popupAnnulla]} accessibilityRole="button">
+                <Text style={styles.popupAnnullaTesto}>{t.annulla}</Text>
+              </Pressable>
+              <Pressable onPress={confermaCancella} style={[styles.popupPulsante, styles.popupCancella]} accessibilityRole="button">
+                <Text style={styles.popupCancellaTesto}>{t.cancella}</Text>
+              </Pressable>
+            </View>
+          </View>
+        </View>
+      </Modal>
 
       <Modal visible={scaricando} transparent animationType="fade" onRequestClose={() => {}}>
         <View style={styles.velo}>
@@ -344,70 +424,114 @@ function AppRadice() {
   );
 }
 
-const VERDE = '#1f3d36';
-const CREMA = '#e9e1c7';
-const TESTO = '#1d1d1d';
-const GRIGIO = '#6b6b6b';
+const VERDE = VERDE_SCHEDA;
+const CREMA = '#f7f4ec';
+const TESTO = '#1c2b26';
+const GRIGIO = '#5b6b64';
+const ROSSO = '#b42318';
 
 const styles = StyleSheet.create({
-  contenitore: { flex: 1, backgroundColor: '#fff' },
-  lista: { paddingHorizontal: 16, paddingBottom: 40 },
-  colonne: { justifyContent: 'space-between' },
+  contenitore: { flex: 1, backgroundColor: CREMA },
+  lista: { paddingBottom: 40 },
+  colonne: { gap: 12, paddingHorizontal: 14, marginBottom: 12 },
 
-  // Hero
-  hero: { backgroundColor: VERDE, borderRadius: 24, padding: 20, marginTop: 8 },
-  heroTop: { flexDirection: 'row', alignItems: 'center', gap: 14 },
-  logo: { width: 56, height: 56, borderRadius: 28 },
+  // Intestazione verde con la foto
+  hero: {
+    backgroundColor: VERDE,
+    borderBottomLeftRadius: 28,
+    borderBottomRightRadius: 28,
+    paddingHorizontal: 20,
+    paddingBottom: 48,
+    overflow: 'hidden',
+  },
+  heroFoto: { position: 'absolute', right: 0, bottom: 0, width: '62%', opacity: 0.9 },
+  heroSfumatura: { position: 'absolute', right: 0, bottom: 0, width: '62%', flexDirection: 'row' },
+  heroTop: { flexDirection: 'row', alignItems: 'center', gap: 12 },
+  logo: { width: 60, height: 60, borderRadius: 30 },
   testiHero: { flex: 1, minWidth: 0 },
-  brand: { color: '#fff', fontFamily: 'Marcellus_400Regular', fontSize: 24, letterSpacing: 0.5 },
-  badge: { alignSelf: 'flex-start', backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 16, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
-  badgeTesto: { color: '#fff', fontSize: 13, fontWeight: '500' },
-  heroTitolo: { color: '#fff', fontSize: 24, fontWeight: '700', lineHeight: 30, marginTop: 22, marginBottom: 10 },
-  heroSottotitolo: { color: 'rgba(255,255,255,0.9)', fontSize: 17, marginBottom: 18 },
-  lingua: { backgroundColor: '#fff', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 12 },
-  linguaEtichetta: { color: GRIGIO, fontSize: 13, letterSpacing: 0.4 },
-  linguaRiga: { flexDirection: 'row', alignItems: 'center', marginTop: 4 },
-  linguaValore: { flex: 1, color: TESTO, fontSize: 19, fontWeight: '500' },
-  chevron: { color: TESTO, fontSize: 18 },
+  brand: { color: '#fff', fontFamily: 'Marcellus_400Regular', fontSize: 22 },
+  badge: { alignSelf: 'flex-start', backgroundColor: 'rgba(255,255,255,0.14)', borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
+  badgeTesto: { color: '#fff', fontSize: 12, fontWeight: '600' },
+  lingua: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: 'rgba(255,255,255,0.14)',
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    minHeight: 40,
+  },
+  linguaValore: { color: '#fff', fontSize: 13, fontWeight: '700' },
+  heroTitolo: {
+    color: '#fff',
+    fontFamily: 'Marcellus_400Regular',
+    fontSize: 30,
+    lineHeight: 34,
+    marginTop: 26,
+    maxWidth: 260,
+    textShadowColor: 'rgba(0,0,0,0.25)',
+    textShadowRadius: 6,
+  },
+  heroSottotitolo: { color: '#e3eee8', fontSize: 14, lineHeight: 20, marginTop: 12, maxWidth: 240 },
+
+  // Fascia delle funzioni
+  funzioni: {
+    flexDirection: 'row',
+    marginHorizontal: 14,
+    marginTop: -28,
+    backgroundColor: '#fbf9f3',
+    borderWidth: 1,
+    borderColor: '#e7e1d3',
+    borderRadius: 18,
+    paddingVertical: 12,
+    paddingHorizontal: 4,
+    elevation: 4,
+    shadowColor: VERDE,
+    shadowOpacity: 0.1,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 4 },
+  },
+  funzione: { flex: 1, alignItems: 'center', gap: 6, paddingHorizontal: 2 },
+  funzioneTesto: { color: TESTO, fontSize: 10.5, lineHeight: 13, textAlign: 'center' },
+
+  // Riquadro "sempre con te"
+  offline: { flexDirection: 'row', alignItems: 'center', gap: 12, marginHorizontal: 14, marginTop: 14, backgroundColor: '#dcebdc', borderRadius: 16, padding: 14 },
+  offlineTitolo: { color: VERDE, fontSize: 15, fontWeight: '700' },
+  offlineTesto: { color: '#3c5148', fontSize: 12.5, marginTop: 2 },
 
   // Sezione città
-  sezione: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginTop: 26, marginBottom: 16, paddingHorizontal: 4 },
-  sezioneTitolo: { color: TESTO, fontSize: 24, fontWeight: '700' },
-  sezioneConto: { color: GRIGIO, fontSize: 15 },
+  sezione: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginTop: 24, marginBottom: 14, paddingHorizontal: 14 },
+  sezioneTitolo: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 25 },
+  sezioneConto: { color: GRIGIO, fontSize: 12 },
 
-  // Card città
-  card: { width: '47%', marginBottom: 18 },
-  immagine: { height: 150, borderRadius: 18, justifyContent: 'center', alignItems: 'center', overflow: 'hidden' },
-  copertina: { ...StyleSheet.absoluteFillObject, width: '100%', height: '100%' },
-  immagineNome: { color: '#fff', fontSize: 18, fontWeight: '700' },
   crediti: { alignItems: 'center', paddingVertical: 20 },
   testoCrediti: { color: GRIGIO, fontSize: 14, textDecorationLine: 'underline' },
   creditiBox: { padding: 20 },
   creditiTitolo: { color: TESTO, fontSize: 18, fontWeight: '700', marginBottom: 8 },
   creditiTesto: { color: TESTO, fontSize: 14, lineHeight: 20 },
-  nomeCitta: { color: TESTO, fontSize: 22, fontWeight: '700', marginTop: 14 },
-  motto: { color: GRIGIO, fontSize: 16, lineHeight: 21, marginTop: 4, minHeight: 42 },
-  stato: { alignSelf: 'flex-start', backgroundColor: '#ececec', borderRadius: 14, paddingHorizontal: 12, paddingVertical: 5, marginTop: 10 },
-  statoOk: { backgroundColor: '#dcf3e2' },
-  statoTesto: { color: '#333', fontSize: 15 },
-  statoTestoOk: { color: '#2f7a4b' },
 
-  bottone: { minHeight: 54, borderRadius: 16, marginTop: 12, paddingVertical: 10, paddingHorizontal: 22, alignItems: 'center', justifyContent: 'center' },
-  bottoneApri: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#e4e4e4' },
-  testoApri: { color: TESTO, fontSize: 18, fontWeight: '500', textAlign: 'center' },
-  bottoneScarica: { backgroundColor: VERDE },
-  testoScarica: { color: '#fff', fontSize: 18, fontWeight: '500', textAlign: 'center' },
-  rimuovi: { alignItems: 'center', paddingVertical: 8, marginTop: 6 },
-  testoRimuovi: { color: GRIGIO, fontSize: 16 },
-  nonDisponibile: { color: '#94a3b8', fontSize: 14, fontWeight: '700', marginTop: 12 },
-  attesa: { marginTop: 16 },
-  percentuale: { color: VERDE, fontSize: 16, fontWeight: '800', marginTop: 16 },
+  // Barra in alto dentro una città
+  barraCitta: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingRight: 14 },
+  barraGratuita: { flex: 1, color: '#dbeafe', fontSize: 12, fontWeight: '600', textAlign: 'right' },
 
-  // Menu lingua
-  velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.35)', justifyContent: 'center', padding: 32 },
+  // Popup "Cancellare…?"
+  popupContenitore: { ...StyleSheet.absoluteFillObject, justifyContent: 'center', alignItems: 'center', padding: 24 },
+  popup: { width: '100%', maxWidth: 360, backgroundColor: '#fff', borderRadius: 20, padding: 20 },
+  popupIcona: { width: 48, height: 48, borderRadius: 24, backgroundColor: '#fde8e6', alignItems: 'center', justifyContent: 'center' },
+  popupTitolo: { color: TESTO, fontSize: 19, fontWeight: '800', marginTop: 14 },
+  popupTesto: { color: '#3c4a44', fontSize: 14.5, lineHeight: 21, marginTop: 8 },
+  popupPulsanti: { flexDirection: 'row', gap: 10, marginTop: 20 },
+  popupPulsante: { flex: 1, minHeight: 46, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+  popupAnnulla: { backgroundColor: '#fff', borderWidth: 1.5, borderColor: '#d6cfbf' },
+  popupAnnullaTesto: { color: TESTO, fontSize: 15, fontWeight: '700' },
+  popupCancella: { backgroundColor: ROSSO },
+  popupCancellaTesto: { color: '#fff', fontSize: 15, fontWeight: '700' },
+
+  // Menu lingua, avviso download, crediti
+  velo: { flex: 1, backgroundColor: 'rgba(15,30,25,0.5)', justifyContent: 'center', padding: 32 },
   avvisoScarica: { padding: 24, alignItems: 'center' },
   avvisoScaricaTesto: { fontSize: 15, textAlign: 'center', color: '#0f172a', lineHeight: 21 },
-  avvisoScaricaPerc: { marginTop: 12, fontSize: 18, fontWeight: '700', color: '#0f3d5e' },
+  avvisoScaricaPerc: { marginTop: 12, fontSize: 18, fontWeight: '700', color: VERDE },
   menu: { backgroundColor: '#fff', borderRadius: 16, overflow: 'hidden' },
   voceMenu: { paddingHorizontal: 20, paddingVertical: 16, borderBottomWidth: 1, borderBottomColor: '#eee' },
   voceMenuTesto: { color: TESTO, fontSize: 18 },

@@ -1,0 +1,916 @@
+{
+ "_nota": "Verona: dati convertiti dal repository verona_app (main 8f9c823). luoghi.json",
+ "luoghi": [
+  {
+   "id": "duomo-di-verona",
+   "nome": "Duomo di Verona",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 45.447232,
+   "longitudine": 10.997075,
+   "descrizione": {
+    "it": "Cattedrale romanica e chiesa madre della diocesi di Verona, dedicata a Santa Maria Assunta. Custodisce la pala dell'Assunta di Tiziano e fa parte di un complesso con il chiostro dei Canonici e il battistero.",
+    "en": "Romanesque cathedral and mother church of the Verona diocese, dedicated to Santa Maria Assunta. It houses Titian's Assumption altarpiece and is part of a complex with the Canons' cloister and the baptistery.",
+    "fr": "Cathédrale romane et église mère du diocèse de Vérone, dédiée à Sainte-Marie-de-l'Assomption. Elle abrite le retable de l'Assomption du Titien et fait partie d'un ensemble avec le cloître des Chanoines et le baptistère.",
+    "de": "Romanischer Dom und Mutterkirche des Bistums Verona, der Heiligen Maria Assunta geweiht. Er beherbergt das Altarbild der Himmelfahrt Mariens von Tizian und gehört zu einem Komplex mit dem Kreuzgang der Domherren und dem Baptisterium.",
+    "es": "Catedral románica y iglesia madre de la diócesis de Verona, dedicada a Santa María de la Asunción. Alberga el retablo de la Asunción de Tiziano y forma parte de un conjunto con el claustro de los Canónigos y el baptisterio."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Verona)_-_Facades.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "lun-ven",
+     "ore": "10:00–17:30"
+    },
+    {
+     "giorni": "sab",
+     "ore": "10:00–15:30"
+    },
+    {
+     "giorni": "dom",
+     "ore": "13:30–17:30"
+    }
+   ],
+   "biglietto": {
+    "intero": 4
+   },
+   "nota": {
+    "it": "Incluso in VeronaCard. Biglietto cumulativo 4 chiese a 9,00 €. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Included in the Verona Card. Combined ticket for 4 churches at €9.00. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Incluido en la Verona Card. Entrada combinada para 4 iglesias a 9,00 €. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Inclus dans la Verona Card. Billet combiné pour 4 églises à 9,00 €. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "In der Verona Card enthalten. Kombiticket für 4 Kirchen zu 9,00 €. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "sito": "https://www.chieseverona.it",
+   "galleria": [
+    {
+     "autore": "neiljs",
+     "licenza": "CC BY 2.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:A_Church_in_Verona,_Italy.jpg"
+    },
+    {
+     "autore": "Falk2",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:L07_637_Verona,_Kathedrale_Santa_Maria_Assunta.jpg"
+    },
+    {
+     "autore": "JoJan",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Verona_087.JPG"
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Duomo_di_Verona"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Le basiliche nascoste sotto il Duomo",
+      "en": "The hidden basilicas under the Cathedral",
+      "fr": "Les basiliques cachées sous la cathédrale",
+      "de": "Die verborgenen Basiliken unter dem Dom",
+      "es": "Las basílicas ocultas bajo la catedral"
+     },
+     "testo": {
+      "it": "Prima dell'attuale cattedrale, in quest'area sorsero due basiliche paleocristiane. I resti dei loro pavimenti musivi sono ancora visibili sotto la chiesa di Sant'Elena e nel chiostro dei canonici. Un frammento della Verona cristiana più antica sopravvive quindi proprio accanto al Duomo.",
+      "en": "Before the present cathedral, two early Christian basilicas stood in this area. The remains of their mosaic floors are still visible beneath the church of Sant'Elena and in the canons' cloister. A fragment of the most ancient Christian Verona thus survives right next to the Duomo.",
+      "fr": "Avant l'actuelle cathédrale, deux basiliques paléochrétiennes s'élevaient dans ce secteur. Les vestiges de leurs sols en mosaïque sont encore visibles sous l'église de Sant'Elena et dans le cloître des chanoines. Un fragment de la plus ancienne Vérone chrétienne subsiste ainsi tout près du Duomo.",
+      "de": "Vor dem heutigen Dom standen in diesem Bereich zwei frühchristliche Basiliken. Die Reste ihrer Mosaikböden sind noch heute unter der Kirche Sant'Elena und im Kreuzgang der Domherren zu sehen. Ein Fragment des ältesten christlichen Verona überdauert also direkt neben dem Dom.",
+      "es": "Antes de la catedral actual, en esta zona se levantaron dos basílicas paleocristianas. Los restos de sus pavimentos de mosaico aún son visibles bajo la iglesia de Sant'Elena y en el claustro de los canónigos. Así, un fragmento de la Verona cristiana más antigua sobrevive justo al lado del Duomo."
+     }
+    }
+   ],
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/en/plan/verona-is-inclusive",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Indicato come completamente accessibile.",
+      "en": "Listed as fully accessible.",
+      "fr": "Indiqué comme entièrement accessible.",
+      "de": "Als vollständig barrierefrei eingestuft.",
+      "es": "Indicado como totalmente accesible."
+     }
+    }
+   }
+  },
+  {
+   "id": "basilica-di-san-zeno-maggiore",
+   "nome": "Basilica di San Zeno Maggiore",
+   "categoria": "chiese",
+   "sestiere": "San Zeno",
+   "latitudine": 45.442571,
+   "longitudine": 10.979234,
+   "descrizione": {
+    "it": "Capolavoro del romanico veronese, la basilica custodisce le reliquie di san Zeno, patrono della città. Il portale è composto da formelle bronzee medievali con scene bibliche e agiografiche; al centro della facciata spicca il grande rosone, detto Ruota della Fortuna. All'interno si conservano la cripta e la pala di Andrea Mantegna, una delle opere più importanti del Rinascimento a Verona.",
+    "en": "A masterpiece of Veronese Romanesque architecture, the basilica houses the relics of Saint Zeno, the city's patron. Its portal is made up of medieval bronze panels depicting biblical and hagiographic scenes, while the large rose window on the façade is known as the Wheel of Fortune. Inside are the crypt and Andrea Mantegna's altarpiece, one of the most important Renaissance works in Verona.",
+    "fr": "Chef-d'œuvre de l'art roman véronais, la basilique conserve les reliques de saint Zénon, patron de la ville. Son portail est composé de panneaux médiévaux en bronze représentant des scènes bibliques et hagiographiques ; la grande rosace de la façade est appelée Roue de la Fortune. À l'intérieur se trouvent la crypte et le retable d'Andrea Mantegna, l'une des œuvres majeures de la Renaissance à Vérone.",
+    "de": "Die Basilika ist ein Meisterwerk der Veroneser Romanik und bewahrt die Reliquien des Stadtpatrons, des heiligen Zeno. Das Portal besteht aus mittelalterlichen Bronzetafeln mit biblischen und Heiligenszenen; das große Rosenfenster an der Fassade heißt Glücksrad. Im Inneren befinden sich die Krypta und Andrea Mantegnas Altarbild, eines der bedeutendsten Renaissancewerke Veronas.",
+    "es": "Obra maestra del románico veronés, la basílica conserva las reliquias de san Zenón, patrón de la ciudad. Su portal está formado por paneles medievales de bronce con escenas bíblicas y hagiográficas; el gran rosetón de la fachada se conoce como la Rueda de la Fortuna. En el interior se encuentran la cripta y el retablo de Andrea Mantegna, una de las obras renacentistas más importantes de Verona."
+   },
+   "immagine": {
+    "autore": "NorbertNagel",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:San_Zeno_Maggiore_-_Verona_-_Campanile_and_south_side_-_2026_-_02.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "lun-sab",
+     "ore": "9:00–18:00"
+    },
+    {
+     "giorni": "dom",
+     "ore": "13:00–18:00"
+    }
+   ],
+   "biglietto": {
+    "intero": 4
+   },
+   "nota": {
+    "it": "Incluso in VeronaCard. Biglietto cumulativo 4 chiese a 9,00 €. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Included in the Verona Card. Combined ticket for 4 churches at €9.00. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Incluido en la Verona Card. Entrada combinada para 4 iglesias a 9,00 €. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Inclus dans la Verona Card. Billet combiné pour 4 églises à 9,00 €. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "In der Verona Card enthalten. Kombiticket für 4 Kirchen zu 9,00 €. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "sito": "https://www.chieseverona.it",
+   "galleria": [
+    {
+     "autore": "Mcarm",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:San_Zeno-ext.JPG"
+    },
+    {
+     "autore": "Zairon",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Verona_Basilica_di_San_Zeno_Maggiore_01.jpg"
+    },
+    {
+     "autore": "Zairon",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Verona_Basilica_di_San_Zeno_Maggiore_Chor_3.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La Ruota della Fortuna",
+      "en": "The Wheel of Fortune",
+      "fr": "La Roue de la Fortune",
+      "de": "Das Rad des Schicksals",
+      "es": "La Rueda de la Fortuna"
+     },
+     "testo": {
+      "it": "Il grande rosone della basilica è chiamato Ruota della Fortuna. Le sei figure scolpite rappresentano i cambiamenti della sorte umana: la fortuna può innalzare una persona, ma anche farla precipitare.",
+      "en": "The large rose window of the basilica is called the Wheel of Fortune. The six carved figures represent the changes of human fate: fortune can raise a person up, but also cast them down.",
+      "fr": "La grande rosace de la basilique est appelée la Roue de la Fortune. Les six figures sculptées représentent les changements du sort humain : la fortune peut élever une personne, mais aussi la faire tomber.",
+      "de": "Das große Rosenfenster der Basilika heißt Rad des Schicksals. Die sechs geschnitzten Figuren stellen die Wechselfälle des menschlichen Schicksals dar: Das Glück kann einen Menschen erheben, aber auch zu Fall bringen.",
+      "es": "El gran rosetón de la basílica se llama Rueda de la Fortuna. Las seis figuras esculpidas representan los cambios de la suerte humana: la fortuna puede elevar a una persona, pero también hacerla caer."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Quante storie",
+      "en": "So many stories",
+      "fr": "Que d'histoires",
+      "de": "So viele Geschichten",
+      "es": "Cuántas historias"
+     },
+     "testo": {
+      "it": "Il portale bronzeo della basilica è composto da 48 formelle che raffigurano episodi biblici, miracoli e figure di santi. Le formelle costituiscono un importante racconto per immagini della tradizione cristiana.",
+      "en": "The bronze portal of the basilica is made up of 48 panels depicting biblical episodes, miracles and saints. The panels form an important visual narrative of the Christian tradition.",
+      "fr": "Le portail en bronze de la basilique se compose de 48 panneaux représentant des épisodes bibliques, des miracles et des figures de saints. Ils forment un important récit en images de la tradition chrétienne.",
+      "de": "Das Bronzeportal der Basilika besteht aus 48 Feldern mit biblischen Episoden, Wundern und Heiligenfiguren. Die Felder bilden eine bedeutende bildliche Erzählung der christlichen Tradition.",
+      "es": "El portal de bronce de la basílica está formado por 48 relieves que representan episodios bíblicos, milagros y figuras de santos. Constituyen un importante relato visual de la tradición cristiana."
+     }
+    },
+    {
+     "titolo": {
+      "it": "San Zen che ride",
+      "en": "Saint Zeno who laughs",
+      "fr": "Saint Zénon qui rit",
+      "de": "Der lachende heilige Zeno",
+      "es": "San Zenón que ríe"
+     },
+     "testo": {
+      "it": "All’interno della basilica si trova una statua policroma di San Zeno conosciuta popolarmente come San Zen che ride, soprannome legato alla particolare espressione sorridente del volto.",
+      "en": "Inside the basilica stands a polychrome statue of Saint Zeno, popularly known as «San Zen che ride» (Saint Zeno who laughs), a nickname linked to the figure's distinctive smiling expression.",
+      "fr": "À l'intérieur de la basilique se trouve une statue polychrome de saint Zénon, connue populairement sous le nom de « San Zen che ride » (saint Zénon qui rit), un surnom lié à l'expression souriante du visage.",
+      "de": "Im Inneren der Basilika steht eine polychrome Statue des heiligen Zeno, die volkstümlich als „San Zen che ride“ (der lachende heilige Zeno) bekannt ist, ein Beiname, der auf den lächelnden Gesichtsausdruck zurückgeht.",
+      "es": "En el interior de la basílica se encuentra una estatua policromada de San Zenón, conocida popularmente como «San Zen che ride» (San Zenón que ríe), un apodo ligado a la particular expresión sonriente de su rostro."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Basilica_di_San_Zeno_Maggiore"
+   },
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/it/luoghi/basilica-di-san-zeno",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "La basilica è accessibile in parte: nel chiostro e nella zona inferiore.",
+      "en": "The basilica is partly accessible: in the cloister and the lower area.",
+      "fr": "La basilique est partiellement accessible : dans le cloître et la partie basse.",
+      "de": "Die Basilika ist teilweise zugänglich: im Kreuzgang und im unteren Bereich.",
+      "es": "La basílica es accesible en parte: en el claustro y en la zona inferior."
+     }
+    }
+   }
+  },
+  {
+   "id": "museo-di-castelvecchio",
+   "nome": "Museo di Castelvecchio",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 45.439954,
+   "longitudine": 10.987865,
+   "descrizione": {
+    "it": "Museo di arte medievale, moderna e italiana ed europea allestito dall'architetto Carlo Scarpa tra il 1958 e il 1974 nella fortezza scaligera di Castelvecchio. Raccoglie sculture, dipinti, armi antiche e ceramiche.",
+    "en": "Museum of medieval, modern, Italian and European art, arranged by architect Carlo Scarpa between 1958 and 1974 inside the Scaliger fortress of Castelvecchio. It holds sculptures, paintings, antique weapons and ceramics.",
+    "fr": "Musée d'art médiéval, moderne, italien et européen, aménagé par l'architecte Carlo Scarpa entre 1958 et 1974 dans la forteresse scaligère de Castelvecchio. Il réunit sculptures, peintures, armes anciennes et céramiques.",
+    "de": "Museum für mittelalterliche, moderne, italienische und europäische Kunst, von dem Architekten Carlo Scarpa zwischen 1958 und 1974 in der Scaliger-Festung Castelvecchio eingerichtet. Es zeigt Skulpturen, Gemälde, alte Waffen und Keramik.",
+    "es": "Museo de arte medieval, moderno, italiano y europeo, instalado por el arquitecto Carlo Scarpa entre 1958 y 1974 en la fortaleza escaligera de Castelvecchio. Reúne esculturas, pinturas, armas antiguas y cerámica."
+   },
+   "immagine": {
+    "autore": "Girolamo dai Libri",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Girolamo_Dai_Libri_-_Madonna_della_quercia_-_1533_after_-_Museo_Castelvecchio,_Verona_(ITALY),_dettail.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "10:00–18:00"
+    }
+   ],
+   "chiuso": [
+    "lun"
+   ],
+   "sito": "https://museodicastelvecchio.comune.verona.it",
+   "biglietto": {
+    "intero": 9
+   },
+   "nota": {
+    "it": "Incluso in VeronaCard. Prima domenica del mese a 1,00 € (nov-mar). Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Included in the Verona Card. First Sunday of the month at €1.00 (Nov–Mar). Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Incluido en la Verona Card. Primer domingo del mes a 1,00 € (nov.–mar.). Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Inclus dans la Verona Card. Premier dimanche du mois à 1,00 € (nov.–mars). Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "In der Verona Card enthalten. Erster Sonntag im Monat für 1,00 € (Nov.–März). Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "galleria": [
+    {
+     "autore": "Uhooep",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Castelvecchio_(Verona).jpg"
+    },
+    {
+     "autore": "Orledio",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_di_Castelvecchio_Verona_2.jpg"
+    },
+    {
+     "autore": "Garonzi Stefania",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Alabarde_-_Museo_di_Castelvecchio_Verona.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "San Martino",
+      "en": "Saint Martin",
+      "fr": "Saint-Martin",
+      "de": "San Martino",
+      "es": "San Martino"
+     },
+     "testo": {
+      "it": "Il castello era originariamente noto come San Martino in Aquaro. Il nome Castelvecchio si affermò in seguito alla costruzione di altre fortificazioni cittadine, tra cui i castelli di San Felice e San Pietro.",
+      "en": "The castle was originally known as San Martino in Aquaro. The name Castelvecchio ('Old Castle') took hold later, after other city fortresses were built, including the castles of San Felice and San Pietro.",
+      "fr": "Le château était à l'origine connu sous le nom de San Martino in Aquaro. Le nom de Castelvecchio (« Vieux Château ») s'imposa ensuite, après la construction d'autres forteresses de la ville, dont les châteaux de San Felice et de San Pietro.",
+      "de": "Die Burg war ursprünglich als San Martino in Aquaro bekannt. Der Name Castelvecchio („Alte Burg“) setzte sich später durch, nach dem Bau weiterer Festungen der Stadt, darunter der Burgen San Felice und San Pietro.",
+      "es": "El castillo era originalmente conocido como San Martino in Aquaro. El nombre Castelvecchio («castillo viejo») se impuso después, tras la construcción de otras fortificaciones de la ciudad, entre ellas los castillos de San Felice y San Pietro."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Castelvecchio_(Verona)"
+   },
+   "personaggio": "paolo-veronese",
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/it/luoghi/museo-di-castelvecchio",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Il museo è parzialmente accessibile alle persone con difficoltà motorie. In biglietteria è disponibile su richiesta una sedia a rotelle.",
+      "en": "The museum is partly accessible to people with reduced mobility. A wheelchair is available on request at the ticket office.",
+      "fr": "Le musée est partiellement accessible aux personnes à mobilité réduite. Un fauteuil roulant est disponible sur demande à la billetterie.",
+      "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität teilweise zugänglich. An der Kasse ist auf Anfrage ein Rollstuhl erhältlich.",
+      "es": "El museo es parcialmente accesible para personas con movilidad reducida. En la taquilla hay una silla de ruedas disponible a petición."
+     },
+     "ascensore": {
+      "it": "L'ascensore (cabina 120 × 120 cm, porta larga 80 cm) porta solo alla Galleria dei dipinti, con le opere dal Cinquecento al Settecento.",
+      "en": "The lift (car 120 × 120 cm, door 80 cm wide) only reaches the Painting Gallery, with works from the 16th to the 18th century.",
+      "fr": "L'ascenseur (cabine de 120 × 120 cm, porte de 80 cm) ne dessert que la Galerie des peintures, avec les œuvres du XVIe au XVIIIe siècle.",
+      "de": "Der Aufzug (Kabine 120 × 120 cm, Tür 80 cm breit) führt nur zur Gemäldegalerie mit Werken vom 16. bis 18. Jahrhundert.",
+      "es": "El ascensor (cabina de 120 × 120 cm, puerta de 80 cm) solo lleva a la Galería de pinturas, con obras de los siglos XVI al XVIII."
+     },
+     "visiva": {
+      "it": "Nelle sale è presente un percorso per non vedenti.",
+      "en": "A route for blind visitors runs through the rooms.",
+      "fr": "Un parcours pour les personnes aveugles traverse les salles.",
+      "de": "In den Sälen gibt es einen Rundgang für blinde Menschen.",
+      "es": "En las salas hay un recorrido para personas ciegas."
+     }
+    }
+   }
+  },
+  {
+   "id": "museo-lapidario-maffeiano",
+   "nome": "Museo Lapidario Maffeiano",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 45.43818,
+   "longitudine": 10.991353,
+   "descrizione": {
+    "it": "Uno dei più antichi musei pubblici d'Europa, fondato nel Settecento dall'erudito Scipione Maffei. Conserva iscrizioni e sculture romane, a pochi passi da piazza Bra e dall'Arena.",
+    "en": "One of the oldest public museums in Europe, founded in the 18th century by the scholar Scipione Maffei. It holds Roman inscriptions and sculptures, a few steps from Piazza Bra and the Arena.",
+    "fr": "L'un des plus anciens musées publics d'Europe, fondé au XVIIIe siècle par l'érudit Scipione Maffei. Il conserve inscriptions et sculptures romaines, à quelques pas de la Piazza Bra et des Arènes.",
+    "de": "Eines der ältesten öffentlichen Museen Europas, im 18. Jahrhundert vom Gelehrten Scipione Maffei gegründet. Es bewahrt römische Inschriften und Skulpturen, nur wenige Schritte von Piazza Bra und der Arena entfernt.",
+    "es": "Uno de los museos públicos más antiguos de Europa, fundado en el siglo XVIII por el erudito Scipione Maffei. Conserva inscripciones y esculturas romanas, a pocos pasos de la Piazza Bra y la Arena."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Museo_Maffeiano_(Verona).jpg"
+   },
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "10:00–18:00"
+    }
+   ],
+   "chiuso": [
+    "lun"
+   ],
+   "sito": "https://museomaffeiano.comune.verona.it",
+   "biglietto": {
+    "intero": 6
+   },
+   "nota": {
+    "it": "Incluso in VeronaCard. Prima domenica del mese a 1,00 € (nov-mar). Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Included in the Verona Card. First Sunday of the month at €1.00 (Nov–Mar). Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Incluido en la Verona Card. Primer domingo del mes a 1,00 € (nov.–mar.). Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Inclus dans la Verona Card. Premier dimanche du mois à 1,00 € (nov.–mars). Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "In der Verona Card enthalten. Erster Sonntag im Monat für 1,00 € (Nov.–März). Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "galleria": [
+    {
+     "autore": "Marcok",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_lapidario_maffeiano_-_Wikigita_Verona_22-09-2018_f01.jpg"
+    },
+    {
+     "autore": "Mauzzan",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_lapidario_maffeiano_01.jpg"
+    },
+    {
+     "autore": "Mauzzan",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_lapidario_maffeiano_03.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Museo antico",
+      "en": "An ancient museum",
+      "fr": "Un musée antique",
+      "de": "Ein antikes Museum",
+      "es": "Un museo antiguo"
+     },
+     "testo": {
+      "it": "Il museo nacque nel 1745 grazie alla raccolta di iscrizioni antiche dell’erudito Scipione Maffei. È considerato uno dei più antichi musei pubblici d’Europa dedicati alle testimonianze epigrafiche.",
+      "en": "The museum was founded in 1745 on the basis of the collection of ancient inscriptions gathered by the scholar Scipione Maffei. It is considered one of the oldest public museums in Europe devoted to epigraphic evidence.",
+      "fr": "Le musée naquit en 1745 grâce à la collection d'inscriptions antiques rassemblée par l'érudit Scipione Maffei. Il est considéré comme l'un des plus anciens musées publics d'Europe consacrés aux témoignages épigraphiques.",
+      "de": "Das Museum entstand 1745 aus der Sammlung antiker Inschriften des Gelehrten Scipione Maffei. Es gilt als eines der ältesten öffentlichen Museen Europas, die epigraphischen Zeugnissen gewidmet sind.",
+      "es": "El museo nació en 1745 gracias a la colección de inscripciones antiguas reunida por el erudito Scipione Maffei. Se considera uno de los museos públicos más antiguos de Europa dedicados a los testimonios epigráficos."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Museo_lapidario_Maffeiano"
+   },
+   "personaggio": "scipione-maffei",
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/it/luoghi/museo-lapidario-maffeiano",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Il cortile è accessibile alle persone con difficoltà motorie accompagnate, mentre i porticati e il pronao sono preceduti da gradini.",
+      "en": "The courtyard is accessible to people with reduced mobility who are accompanied, while the porticoes and the pronaos are reached by steps.",
+      "fr": "La cour est accessible aux personnes à mobilité réduite accompagnées, tandis que les portiques et le pronaos sont précédés de marches.",
+      "de": "Der Hof ist für Menschen mit eingeschränkter Mobilität in Begleitung zugänglich, vor den Säulengängen und dem Pronaos liegen dagegen Stufen.",
+      "es": "El patio es accesible para personas con movilidad reducida acompañadas, mientras que a los pórticos y al pronaos se llega por escalones."
+     },
+     "ascensore": {
+      "it": "Alle sale interne si sale con l'ascensore; per raggiungerlo bisogna superare un gradino all'ingresso, dove si trova anche la biglietteria.",
+      "en": "The indoor rooms are reached by lift; to get to it you have to climb one step at the entrance, where the ticket office is.",
+      "fr": "On accède aux salles intérieures par l'ascenseur ; pour l'atteindre, il faut franchir une marche à l'entrée, où se trouve aussi la billetterie.",
+      "de": "Die Innensäle erreicht man mit dem Aufzug; dorthin gelangt man über eine Stufe am Eingang, wo sich auch die Kasse befindet.",
+      "es": "A las salas interiores se sube en ascensor; para llegar a él hay que superar un escalón en la entrada, donde también está la taquilla."
+     }
+    }
+   }
+  },
+  {
+   "id": "museo-archeologico-al-teatro-romano",
+   "nome": "Museo Archeologico al Teatro Romano",
+   "categoria": "musei",
+   "sestiere": "Veronetta",
+   "latitudine": 45.447148,
+   "longitudine": 11.001772,
+   "descrizione": {
+    "it": "Museo archeologico nel quartiere di Veronetta, accanto al teatro romano e all'ansa dell'Adige. Il complesso comprende palazzo Fontana, il sito archeologico del teatro e il museo nell'ex convento dei Gesuati.",
+    "en": "Archaeological museum in the Veronetta district, next to the Roman theatre and the bend of the Adige. The complex includes Palazzo Fontana, the theatre site and the museum in the former Gesuati convent.",
+    "fr": "Musée archéologique du quartier de Veronetta, à côté du théâtre romain et du méandre de l'Adige. L'ensemble comprend le palais Fontana, le site du théâtre et le musée dans l'ancien couvent des Gesuati.",
+    "de": "Archäologisches Museum im Viertel Veronetta, neben dem römischen Theater und der Flussschleife der Etsch. Der Komplex umfasst den Palazzo Fontana, die Theaterstätte und das Museum im ehemaligen Kloster der Gesuati.",
+    "es": "Museo arqueológico del barrio de Veronetta, junto al teatro romano y al meandro del Adigio. El conjunto incluye el palacio Fontana, el yacimiento del teatro y el museo en el antiguo convento de los Gesuati."
+   },
+   "immagine": {
+    "autore": "Anatoliy Smaga",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Museo_archeologico_al_teatro_romano_(Verona)_7187.JPG"
+   },
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "10:00–18:00"
+    }
+   ],
+   "chiuso": [
+    "lun"
+   ],
+   "biglietto": {
+    "intero": 6
+   },
+   "nota": {
+    "it": "Incluso in VeronaCard. Ingresso combinato con Teatro Romano. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Included in the Verona Card. Combined entry with the Roman Theatre. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Incluido en la Verona Card. Entrada combinada con el Teatro Romano. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Inclus dans la Verona Card. Entrée combinée avec le Théâtre romain. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "In der Verona Card enthalten. Kombiniertes Ticket mit dem Römischen Theater. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "sito": "https://museoarcheologico.comune.verona.it",
+   "galleria": [
+    {
+     "autore": "Anatoliy Smaga",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_theatre_(Verona),_plastic_model1.JPG"
+    },
+    {
+     "autore": "Anatoliy Smaga",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_archeologico_al_teatro_romano_(Verona)_7166.JPG"
+    },
+    {
+     "autore": "Anatoliy Smaga",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_archeologico_al_teatro_romano_(Verona)_7170.JPG"
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Teatro_romano_di_Verona"
+   },
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/it/luoghi/teatro-romano-e-museo-archeologico",
+    "verificato": "2026-11-11",
+    "voci": {
+     "non_accessibile": {
+      "it": "Il museo non è accessibile alle persone con difficoltà motorie. Si può invece visitare la cavea del Teatro romano, entrando dall'ingresso con rampa.",
+      "en": "The museum is not accessible to people with reduced mobility. The cavea of the Roman Theatre can be visited instead, using the entrance with a ramp.",
+      "fr": "Le musée n'est pas accessible aux personnes à mobilité réduite. On peut en revanche visiter la cavea du Théâtre romain par l'entrée équipée d'une rampe.",
+      "de": "Das Museum ist für Menschen mit eingeschränkter Mobilität nicht zugänglich. Besichtigt werden kann dagegen die Cavea des Römischen Theaters über den Eingang mit Rampe.",
+      "es": "El museo no es accesible para personas con movilidad reducida. Sí se puede visitar la cavea del Teatro romano por la entrada con rampa."
+     }
+    }
+   }
+  },
+  {
+   "id": "palazzo-della-ragione",
+   "nome": "Palazzo della Ragione",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.442804,
+   "longitudine": 10.997855,
+   "descrizione": {
+    "it": "Affacciato su Piazza delle Erbe, fu per secoli il centro dell'amministrazione e della giustizia cittadina. Il complesso medievale si sviluppò attorno al cortile del Mercato Vecchio e conserva la Torre dei Lamberti, che domina il centro storico. Oggi ospita la Galleria d'Arte Moderna Achille Forti; la vicina Scala della Ragione è uno degli accessi più riconoscibili al palazzo.",
+    "en": "Overlooking Piazza delle Erbe, this building was the centre of Verona's civic administration and justice for centuries. The medieval complex developed around the courtyard of the Old Market and includes the Lamberti Tower, which dominates the historic centre. Today it houses the Achille Forti Gallery of Modern Art; the nearby Scala della Ragione is one of its most recognisable entrances.",
+    "fr": "Donnant sur la Piazza delle Erbe, ce palais fut pendant des siècles le centre de l'administration et de la justice de la ville. Le complexe médiéval s'est développé autour de la cour du Vieux Marché et comprend la tour des Lamberti, qui domine le centre historique. Il abrite aujourd'hui la Galerie d'art moderne Achille Forti ; le grand escalier voisin, la Scala della Ragione, en est l'un des accès les plus reconnaissables.",
+    "de": "An der Piazza delle Erbe gelegen, war der Palazzo jahrhundertelang Mittelpunkt der Stadtverwaltung und Rechtsprechung. Der mittelalterliche Komplex entwickelte sich um den Hof des Alten Marktes und umfasst den Lamberti-Turm, der die Altstadt überragt. Heute beherbergt er die Galerie für moderne Kunst Achille Forti; die nahe Scala della Ragione ist einer der markantesten Zugänge.",
+    "es": "Situado frente a la Piazza delle Erbe, fue durante siglos el centro de la administración y la justicia de la ciudad. El conjunto medieval se desarrolló alrededor del patio del Mercado Viejo e incluye la Torre dei Lamberti, que domina el casco histórico. Hoy alberga la Galería de Arte Moderno Achille Forti; la cercana Scala della Ragione es uno de sus accesos más reconocibles."
+   },
+   "immagine": {
+    "autore": "MarWiki",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Verona_Palazzo-Ragione.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "mar-ven",
+     "ore": "10:00–18:00"
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "11:00–19:00"
+    }
+   ],
+   "chiuso": [
+    "lun"
+   ],
+   "biglietto": {
+    "intero": 6
+   },
+   "nota": {
+    "it": "Sede della Galleria d'Arte Moderna (GAM). Incluso in VeronaCard. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Home of the Modern Art Gallery (GAM). Included in the Verona Card. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Sede de la Galería de Arte Moderno (GAM). Incluido en la Verona Card. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Siège de la Galerie d'art moderne (GAM). Inclus dans la Verona Card. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Sitz der Galerie für moderne Kunst (GAM). In der Verona Card enthalten. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "sito": "https://gam.comune.verona.it",
+   "galleria": [
+    {
+     "autore": "H. Zell",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Scala_della_Ragione_-_Verona.jpg"
+    },
+    {
+     "autore": "Sailko",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Verona,_Palazzo_della_Ragione,_cappella_dei_notai,_05_scranni_del_xix_secolo.jpg"
+    },
+    {
+     "autore": "Orledio",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Ragione_Verona.jpg"
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Palazzo_della_Ragione_(Verona)"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La cappella dei notai",
+      "en": "The notaries' chapel",
+      "fr": "La chapelle des notaires",
+      "de": "Die Notarskapelle",
+      "es": "La capilla de los notarios"
+     },
+     "testo": {
+      "it": "All'interno del palazzo si trova una cappella legata al Collegio dei Notai, che nel Quattrocento ottenne il diritto di utilizzarla e la dedicò a San Zeno e San Daniele. Gli ambienti furono decorati nuovamente tra la fine del Seicento e l'inizio del Settecento, dopo che crolli e incendi avevano danneggiato le decorazioni precedenti.",
+      "en": "Inside the palace is a chapel linked to the College of Notaries, which in the fifteenth century gained the right to use it and dedicated it to Saint Zeno and Saint Daniel. The rooms were decorated again between the late seventeenth and early eighteenth centuries, after collapses and fires had damaged the earlier decorations.",
+      "fr": "À l'intérieur du palais se trouve une chapelle liée au Collège des notaires, qui obtint au XVe siècle le droit de l'utiliser et la dédia à saint Zénon et saint Daniel. Les salles furent de nouveau décorées entre la fin du XVIIe siècle et le début du XVIIIe, après que des effondrements et des incendies eurent endommagé les décors précédents.",
+      "de": "Im Palast befindet sich eine Kapelle, die mit dem Notarskollegium verbunden ist. Dieses erhielt im 15. Jahrhundert das Recht, sie zu nutzen, und weihte sie dem heiligen Zeno und dem heiligen Daniel. Die Räume wurden zwischen dem späten 17. und dem frühen 18. Jahrhundert erneut ausgeschmückt, nachdem Einstürze und Brände die früheren Dekorationen beschädigt hatten.",
+      "es": "Dentro del palacio hay una capilla vinculada al Colegio de Notarios, que en el siglo XV obtuvo el derecho a usarla y la dedicó a San Zenón y San Daniel. Las salas se volvieron a decorar entre finales del siglo XVII y principios del XVIII, después de que derrumbes e incendios dañaran las decoraciones anteriores."
+     }
+    }
+   ]
+  },
+  {
+   "id": "palazzo-del-capitanio",
+   "nome": "Palazzo del Capitanio",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.443226,
+   "longitudine": 10.998705,
+   "descrizione": {
+    "it": "Il palazzo si affaccia su Piazza dei Signori e faceva parte del sistema di residenze e sedi del potere scaligero. In origine ospitò il Capitano del Popolo, magistrato che rappresentava gli interessi cittadini e affiancava il potere signorile. La facciata e il portale monumentale raccontano le trasformazioni subite dal complesso nel corso dei secoli, in una delle piazze più legate alla storia politica di Verona.",
+    "en": "The palace overlooks Piazza dei Signori and formed part of the network of residences and government buildings under the Scaliger dynasty. It originally housed the Captain of the People, a magistrate who represented civic interests alongside the ruling lord. Its façade and monumental portal reflect the changes the complex underwent over the centuries, in one of Verona's most politically significant squares.",
+    "fr": "Le palais donne sur la Piazza dei Signori et faisait partie de l'ensemble des résidences et des sièges du pouvoir scaligère. Il accueillit à l'origine le Capitaine du Peuple, magistrat chargé de représenter les intérêts de la communauté aux côtés du seigneur. Sa façade et son portail monumental témoignent des transformations du complexe au fil des siècles, sur l'une des places les plus liées à l'histoire politique de Vérone.",
+    "de": "Der Palazzo liegt an der Piazza dei Signori und gehörte zum Ensemble der Residenzen und Regierungssitze der Scaliger. Ursprünglich war hier der Capitano del Popolo untergebracht, ein Amtsträger, der die Interessen der Bürgerschaft neben der Herrschaft vertrat. Fassade und monumentales Portal spiegeln die Veränderungen des Gebäudes im Laufe der Jahrhunderte wider – auf einem der politisch bedeutendsten Plätze Veronas.",
+    "es": "El palacio se asoma a la Piazza dei Signori y formaba parte del conjunto de residencias y sedes del poder de los Scaliger. Albergó originalmente al Capitán del Pueblo, magistrado que representaba los intereses ciudadanos junto al señor de la ciudad. La fachada y el portal monumental reflejan las transformaciones del edificio a lo largo de los siglos, en una de las plazas más vinculadas a la historia política de Verona."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_di_Cansignorio_-_Cortile_del_Tribunale_(Verona).jpg"
+   },
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": {
+    "it": "Sempre visibile dall'esterno. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Always visible from outside. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Siempre visible desde el exterior. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Toujours visible de l'extérieur. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Von außen immer sichtbar. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "galleria": [
+    {
+     "autore": "This Photo was taken by Andrea Bertozzi. Feel free to use my photos, but plea…",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_del_Capitanio_AB7.jpg"
+    },
+    {
+     "autore": "This Photo was taken by Andrea Bertozzi. Feel free to use my photos, but plea…",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_del_Capitanio_AB1.jpg"
+    },
+    {
+     "autore": "Falk2",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:L04_087_Piazza_dei_Signori,_Torre_dei_Lamberti.jpg"
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Palazzo_del_Capitanio"
+   }
+  },
+  {
+   "id": "ponte-pietra",
+   "nome": "Ponte Pietra",
+   "categoria": "ponti",
+   "sestiere": "Centro storico / Veronetta",
+   "latitudine": 45.448564,
+   "longitudine": 10.999648,
+   "descrizione": {
+    "it": "Il ponte più antico di Verona sull'Adige, di origine romana: è l'unico rimasto di quell'epoca. Fatto saltare dai tedeschi nella seconda guerra mondiale, fu ricostruito con le pietre recuperate dal fiume.",
+    "en": "Verona's oldest bridge over the Adige, of Roman origin, and the only one left from that era. Blown up by German troops in the Second World War, it was rebuilt with stones recovered from the river.",
+    "fr": "Le plus ancien pont de Vérone sur l'Adige, d'origine romaine, et le seul qui subsiste de cette époque. Détruit par les troupes allemandes pendant la Seconde Guerre mondiale, il fut reconstruit avec les pierres récupérées dans le fleuve.",
+    "de": "Die älteste Brücke Veronas über die Etsch, römischen Ursprungs und die einzige aus dieser Zeit, die erhalten ist. Im Zweiten Weltkrieg von deutschen Truppen gesprengt, wurde sie mit Steinen aus dem Flussbett wieder aufgebaut.",
+    "es": "El puente más antiguo de Verona sobre el Adigio, de origen romano, y el único que queda de aquella época. Volado por las tropas alemanas en la Segunda Guerra Mundial, se reconstruyó con piedras recuperadas del río."
+   },
+   "immagine": {
+    "autore": "Alessandro Pace",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Colle_San_Pietro.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "galleria": [
+    {
+     "autore": "Coaterflagman",
+     "licenza": "CC BY 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Ponte_Pietra_Verona_di_notte.jpg"
+    },
+    {
+     "autore": "NorbertNagel",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Ponte_Pietra_and_Verona_Cathedral_from_above_-_2026-09-12_-_landscape_view.jpg"
+    },
+    {
+     "autore": "Ввласенко",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Ponte_Pietra_and_San_Giorgio_in_Braida._Verona,_Italy.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il ponte ricostruito",
+      "en": "The rebuilt bridge",
+      "fr": "Le pont reconstruit",
+      "de": "Die wiederaufgebaute Brücke",
+      "es": "El puente reconstruido"
+     },
+     "testo": {
+      "it": "Nel 1945, durante la ritirata, le truppe tedesche fecero saltare il ponte. Fu ricostruito tra il 1957 e il 1959, recuperando dal fiume le pietre originali e ricollocandole anche grazie alla numerazione dei materiali.",
+      "en": "In 1945, during the retreat, German troops blew up the bridge. It was rebuilt between 1957 and 1959, recovering the original stones from the river and putting them back in place, also thanks to the numbering of the materials.",
+      "fr": "En 1945, pendant la retraite, les troupes allemandes firent sauter le pont. Il fut reconstruit entre 1957 et 1959, en récupérant dans le fleuve les pierres d'origine et en les replaçant grâce à la numérotation des matériaux.",
+      "de": "1945, während des Rückzugs, sprengten deutsche Truppen die Brücke. Sie wurde zwischen 1957 und 1959 wieder aufgebaut, wobei die originalen Steine aus dem Fluss geborgen und dank der Nummerierung der Materialien wieder eingesetzt wurden.",
+      "es": "En 1945, durante la retirada, las tropas alemanas hicieron volar el puente. Fue reconstruido entre 1957 y 1959, recuperando del río las piedras originales y recolocándolas gracias a la numeración de los materiales."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Ponte_Pietra"
+   },
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   }
+  },
+  {
+   "id": "piazza-delle-erbe",
+   "nome": "Piazza delle Erbe",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 45.443059,
+   "longitudine": 10.997173,
+   "descrizione": {
+    "it": "La piazza più antica di Verona, nell'area dell'antico foro romano. Ancora oggi è il mercato della città, con la fontana della Madonna Verona e la torre dei Lamberti.",
+    "en": "Verona's oldest square, on the site of the ancient Roman forum. It is still the city's market place, with the Madonna Verona fountain and the Torre dei Lamberti.",
+    "fr": "La plus ancienne place de Vérone, sur l'emplacement de l'ancien forum romain. Elle est encore aujourd'hui le marché de la ville, avec la fontaine de la Madonna Verona et la tour des Lamberti.",
+    "de": "Der älteste Platz Veronas, auf dem Gelände des antiken römischen Forums. Heute ist er noch der Markt der Stadt, mit dem Brunnen der Madonna Verona und dem Torre dei Lamberti.",
+    "es": "La plaza más antigua de Verona, sobre el antiguo foro romano. Sigue siendo el mercado de la ciudad, con la fuente de la Madonna Verona y la torre de los Lamberti."
+   },
+   "immagine": {
+    "autore": "Dieglop",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Verona_0002.jpg"
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "galleria": [
+    {
+     "autore": "Circolo116",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2010_0308wiki_018_6.jpg"
+    },
+    {
+     "autore": "Jakub Hałun",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:20110720_Piazza_delle_Erbe_Verona_3216.jpg"
+    },
+    {
+     "autore": "Jakub Hałun",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:20110720_Verona_3155.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La costola di balena",
+      "en": "The whale's rib",
+      "fr": "La côte de baleine",
+      "de": "Die Walrippe",
+      "es": "La costilla de ballena"
+     },
+     "testo": {
+      "it": "Sotto l’arco che collega il Palazzo della Ragione agli edifici vicini è appesa una grande costola, tradizionalmente identificata come quella di una balena. La sua presenza è documentata almeno dalla metà del Settecento e ha dato all’arco il nome di Arco della Costa.",
+      "en": "Under the arch linking the Palazzo della Ragione to the nearby buildings hangs a large rib, traditionally identified as that of a whale. It has been documented since at least the mid-eighteenth century and gave the arch its name: Arco della Costa (Rib Arch).",
+      "fr": "Sous l'arc qui relie le Palazzo della Ragione aux bâtiments voisins pend une grande côte, traditionnellement identifiée comme celle d'une baleine. Sa présence est attestée depuis au moins le milieu du XVIIIe siècle et a donné à l'arc son nom : Arco della Costa (arc de la Côte).",
+      "de": "Unter dem Bogen, der den Palazzo della Ragione mit den benachbarten Gebäuden verbindet, hängt eine große Rippe, die traditionell als die eines Wals gilt. Ihre Anwesenheit ist mindestens seit der Mitte des 18. Jahrhunderts belegt und hat dem Bogen seinen Namen gegeben: Arco della Costa (Rippenbogen).",
+      "es": "Bajo el arco que une el Palazzo della Ragione con los edificios cercanos cuelga una gran costilla, tradicionalmente identificada como la de una ballena. Su presencia está documentada al menos desde mediados del siglo XVIII y dio nombre al arco: Arco della Costa (arco de la costilla)."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Piazza_delle_Erbe"
+   },
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "personaggio": "berto-barbarani"
+  },
+  {
+   "id": "arena-di-verona",
+   "nome": "Arena di Verona",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.43898,
+   "longitudine": 10.994395,
+   "descrizione": {
+    "it": "Costruito in età romana, probabilmente intorno alla metà del I secolo d.C., l'anfiteatro poteva accogliere circa 30.000 spettatori per giochi e combattimenti. Dell'anello esterno originario resta oggi il tratto noto come Ala, mentre la cavea interna è tra le meglio conservate al mondo. Nel 1913 vi fu rappresentata per la prima volta un'opera lirica: l'Aida di Verdi. Da allora l'Arena è il palcoscenico del festival lirico estivo e di grandi spettacoli.",
+    "en": "Built in Roman times, probably around the middle of the first century AD, the amphitheatre could hold about 30,000 spectators for games and combats. Only the section known as the Ala survives from the original outer ring, while the inner seating area is among the best preserved in the world. The first opera staged here was Verdi's Aida in 1913. Since then, the Arena has been the setting for the summer opera festival and major performances.",
+    "fr": "Construit à l'époque romaine, probablement vers le milieu du Ier siècle apr. J.-C., l'amphithéâtre pouvait accueillir environ 30 000 spectateurs pour les jeux et les combats. De l'anneau extérieur d'origine ne subsiste que la partie appelée l'Ala, tandis que la cavea intérieure est l'une des mieux conservées au monde. Le premier opéra y fut représenté en 1913 : Aida de Verdi. Depuis, les Arènes accueillent le festival lyrique d'été et de grands spectacles.",
+    "de": "Das Amphitheater entstand in römischer Zeit, wahrscheinlich um die Mitte des 1. Jahrhunderts n. Chr., und bot etwa 30.000 Zuschauern Platz für Spiele und Kämpfe. Vom ursprünglichen Außenring ist nur der als Ala bekannte Abschnitt erhalten; die innere Zuschauerränge gehören zu den besterhaltenen der Welt. 1913 wurde hier erstmals eine Oper aufgeführt: Verdis Aida. Seitdem ist die Arena Schauplatz des sommerlichen Opernfestivals und großer Veranstaltungen.",
+    "es": "Construido en época romana, probablemente hacia mediados del siglo I d. C., el anfiteatro podía acoger a unos 30.000 espectadores para juegos y combates. Del anillo exterior original solo queda el tramo conocido como Ala, mientras que la cavea interior es una de las mejor conservadas del mundo. En 1913 se representó aquí por primera vez una ópera: Aida de Verdi. Desde entonces, la Arena acoge el festival lírico de verano y grandes espectáculos."
+   },
+   "immagine": {
+    "autore": "Avisadehh",
+    "licenza": "CC0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:ARENA_DI_VERONA.%D7%94%D7%90%D7%A8%D7%A0%D7%94_%D7%91%D7%9B%D7%99%D7%9B%D7%A8_%D7%91%D7%A8%D7%94_%D7%91%D7%95%D7%95%D7%A8%D7%95%D7%A0%D7%94.jpg"
+   },
+   "sito": "https://www.arena.it/",
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "09:00–19:00"
+    }
+   ],
+   "chiuso": [
+    "lun"
+   ],
+   "biglietto": {
+    "intero": 12
+   },
+   "nota": {
+    "it": "Orario diurno per visite. Chiusure anticipate nei giorni di spettacolo lirico. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Daytime hours for visits. Early closing on opera performance days. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Horario diurno para visitas. Cierres anticipados los días de ópera. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Horaires de jour pour les visites. Fermetures anticipées les jours de spectacle lyrique. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Tagesöffnungszeiten für Besuche. Frühere Schließung an Opernabenden. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "galleria": [
+    {
+     "autore": "EliziR",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Arena_de_Verona_(agost_2013)_-_panoramio.jpg"
+    },
+    {
+     "autore": "BjoernEisbaer",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Arena_(Verona).jpg"
+    },
+    {
+     "autore": "Garonzi Stefania",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Arena_ala_con_temporale.jpg"
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "L’Ala dell’Arena",
+      "en": "The Ala of the Arena",
+      "fr": "L'Aile de l'Arène",
+      "de": "Die Ala der Arena",
+      "es": "El Ala de la Arena"
+     },
+     "testo": {
+      "it": "Dell’anello esterno originario dell’Arena rimane soltanto un tratto, conosciuto come Ala. Nei secoli, gran parte della struttura esterna fu demolita o utilizzata come cava di pietra.",
+      "en": "Only a section of the Arena's original outer ring survives, known as the Ala. Over the centuries, much of the outer structure was demolished or used as a stone quarry.",
+      "fr": "Il ne subsiste qu'une partie de l'anneau extérieur d'origine de l'Arène, connue sous le nom d'Ala. Au fil des siècles, une grande partie de la structure extérieure fut démolie ou utilisée comme carrière de pierre.",
+      "de": "Vom ursprünglichen äußeren Ring der Arena ist nur ein Abschnitt erhalten, die sogenannte Ala. Im Laufe der Jahrhunderte wurde ein Großteil der äußeren Struktur abgerissen oder als Steinbruch genutzt.",
+      "es": "Del anillo exterior original de la Arena solo queda un tramo, conocido como Ala. A lo largo de los siglos, gran parte de la estructura exterior fue demolida o utilizada como cantera de piedra."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Le botteghe dentro l’anfiteatro",
+      "en": "Workshops inside the amphitheatre",
+      "fr": "Des ateliers à l'intérieur de l'amphithéâtre",
+      "de": "Werkstätten im Amphitheater",
+      "es": "Talleres dentro del anfiteatro"
+     },
+     "testo": {
+      "it": "Nel corso dei secoli gli spazi interni dell’Arena, compresi gli arcovoli, furono riutilizzati per diverse attività. Alcuni ambienti vennero destinati anche a botteghe artigiane, trasformando temporaneamente il monumento in uno spazio della vita quotidiana.",
+      "en": "Over the centuries the Arena's interior spaces, including the arcovoli, were reused for various activities. Some rooms were also used as craft workshops, temporarily turning the monument into a space of everyday life.",
+      "fr": "Au fil des siècles, les espaces intérieurs de l'Arène, y compris les arcovoli, furent réutilisés pour diverses activités. Certains locaux servirent aussi d'ateliers d'artisans, transformant temporairement le monument en lieu de vie quotidienne.",
+      "de": "Im Laufe der Jahrhunderte wurden die Innenräume der Arena, einschließlich der Arcovoli, für verschiedene Tätigkeiten genutzt. Einige Räume dienten auch als Handwerkswerkstätten und machten das Denkmal vorübergehend zu einem Ort des Alltagslebens.",
+      "es": "A lo largo de los siglos, los espacios interiores de la Arena, incluidos los arcovoli, se reutilizaron para diversas actividades. Algunas estancias se destinaron también a talleres artesanos, convirtiendo temporalmente el monumento en un espacio de la vida cotidiana."
+     }
+    },
+    {
+     "titolo": {
+      "it": "L'inizio",
+      "en": "The beginning",
+      "fr": "Le début",
+      "de": "Der Anfang",
+      "es": "El comienzo"
+     },
+     "testo": {
+      "it": "Nel 1913, in occasione del centenario della nascita di Giuseppe Verdi, l’Arena ospitò una rappresentazione di Aida. Quell’evento segnò l’inizio della tradizione del festival lirico estivo che ha reso Verona famosa nel mondo.",
+      "en": "In 1913, for the centenary of Giuseppe Verdi's birth, the Arena staged a performance of Aida. That event marked the beginning of the summer opera festival tradition that made Verona famous worldwide.",
+      "fr": "En 1913, à l'occasion du centenaire de la naissance de Giuseppe Verdi, l'Arène accueillit une représentation d'Aida. Cet événement marqua le début de la tradition du festival lyrique estival qui a rendu Vérone célèbre dans le monde entier.",
+      "de": "1913 wurde zum hundertsten Geburtstag von Giuseppe Verdi in der Arena eine Aufführung der Aida gegeben. Dieses Ereignis markierte den Beginn der Tradition des sommerlichen Opernfestivals, das Verona weltweit berühmt gemacht hat.",
+      "es": "En 1913, con motivo del centenario del nacimiento de Giuseppe Verdi, la Arena acogió una representación de Aida. Ese acontecimiento marcó el inicio de la tradición del festival de ópera estival que ha dado fama mundial a Verona."
+     }
+    }
+   ],
+   "wikipedia": {
+    "it": "https://it.wikipedia.org/wiki/Arena_di_Verona"
+   },
+   "accessibilita": {
+    "fonte": "https://www.visitverona.it/it/luoghi/anfiteatro-arena",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "L'Arena è in parte accessibile alle persone con difficoltà motorie. Il percorso piano delle gallerie anulari si percorre senza particolari ausili. La cavea è visitabile, ma durante il montaggio e lo smontaggio degli allestimenti per gli spettacoli l'accesso può essere limitato per motivi di sicurezza.",
+      "en": "The Arena is partly accessible to people with reduced mobility. The level route through the ring galleries can be followed without special aids. The cavea can be visited, but access may be restricted for safety reasons while stage sets are being put up or taken down.",
+      "fr": "L'Arène est partiellement accessible aux personnes à mobilité réduite. Le parcours de plain-pied des galeries annulaires se fait sans aides particulières. La cavea se visite, mais pendant le montage et le démontage des décors des spectacles, l'accès peut être limité pour des raisons de sécurité.",
+      "de": "Die Arena ist für Menschen mit eingeschränkter Mobilität teilweise zugänglich. Der ebene Weg durch die Ringgalerien ist ohne besondere Hilfsmittel begehbar. Die Cavea kann besichtigt werden, beim Auf- und Abbau der Bühnenbilder kann der Zugang aus Sicherheitsgründen jedoch eingeschränkt sein.",
+      "es": "La Arena es en parte accesible para personas con movilidad reducida. El recorrido llano de las galerías anulares se hace sin ayudas especiales. La cavea se puede visitar, pero durante el montaje y desmontaje de los decorados el acceso puede limitarse por motivos de seguridad."
+     }
+    }
+   }
+  }
+ ],
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ]
+}

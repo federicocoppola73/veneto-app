@@ -1,0 +1,1314 @@
+{
+ "_nota": "Pacchetto Rovigo. Orari e tariffe possono variare: verificare prima della visita. Coordinate del Cimitero ebraico da validare.",
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ],
+ "luoghi": [
+  {
+   "id": "torre-dona-castello",
+   "nome": "Castello di Rovigo e Torre Donà",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.070333,
+   "longitudine": 11.787717,
+   "descrizione": {
+    "it": "Il complesso del castello medievale di Rovigo conserva parte della cinta fortificata e due torri: la Torre Donà, alta circa 60 metri e tra le più alte torri medievali in laterizio d'Italia, e la Torre Grimani, detta anche Torre Mozza. Le strutture risalgono alle fortificazioni sviluppate a partire dal Medioevo e costituiscono uno dei principali simboli storici della città.",
+    "en": "The complex of the medieval castle of Rovigo preserves part of the fortified walls and two towers: the Torre Donà, about 60 metres high and among the tallest medieval brick towers in Italy, and the Torre Grimani, also called Torre Mozza. The structures date back to the fortifications developed from the Middle Ages onwards and are among the city's main historic symbols.",
+    "fr": "L'ensemble du château médiéval de Rovigo conserve une partie de l'enceinte fortifiée et deux tours : la Torre Donà, haute d'environ 60 mètres et parmi les plus hautes tours médiévales en brique d'Italie, et la Torre Grimani, dite aussi Torre Mozza. Les structures remontent aux fortifications élevées à partir du Moyen Âge et constituent l'un des principaux symboles historiques de la ville.",
+    "de": "Die Anlage der mittelalterlichen Burg von Rovigo bewahrt einen Teil der befestigten Ringmauer und zwei Türme: den rund 60 Meter hohen Torre Donà, einen der höchsten mittelalterlichen Ziegeltürme Italiens, und den Torre Grimani, auch Torre Mozza genannt. Die Bauten gehen auf die seit dem Mittelalter entwickelten Befestigungen zurück und gehören zu den wichtigsten historischen Wahrzeichen der Stadt.",
+    "es": "El complejo del castillo medieval de Rovigo conserva parte de la muralla fortificada y dos torres: la Torre Donà, de unos 60 metros de altura y una de las torres medievales de ladrillo más altas de Italia, y la Torre Grimani, también llamada Torre Mozza. Las estructuras se remontan a las fortificaciones desarrolladas desde la Edad Media y son uno de los principales símbolos históricos de la ciudad."
+   },
+   "orari": [
+    {
+     "giorni": "ven, sab, dom e festivi (novembre e dicembre)",
+     "ore": "visite solo con accompagnamento: salite alle 11:00, 16:00 e 17:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Fri, Sat, Sun and holidays (November and December)",
+       "ore": "guided visits only: climbs at 11:00, 16:00 and 17:00"
+      },
+      "fr": {
+       "giorni": "ven, sam, dim et jours fériés (novembre et décembre)",
+       "ore": "visites uniquement accompagnées : montées à 11h00, 16h00 et 17h00"
+      },
+      "de": {
+       "giorni": "Fr, Sa, So und Feiertage (November und Dezember)",
+       "ore": "nur Führungen: Aufstiege um 11:00, 16:00 und 17:00"
+      },
+      "es": {
+       "giorni": "vie, sáb, dom y festivos (noviembre y diciembre)",
+       "ore": "solo visitas acompañadas: subidas a las 11:00, 16:00 y 17:00"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": false,
+    "intero": 5,
+    "ridotto": 3,
+    "nota": {
+     "it": "Ridotto per ragazzi 9-18 anni, studenti universitari, over 65 e gruppi di almeno 10 persone. Ingresso gratuito per persone con disabilità e il loro accompagnatore. Prenotazione obbligatoria via e-mail a info@visitrovigo.it; massimo 15 persone per gruppo.",
+     "en": "Reduced fare for children aged 9–18, university students, over 65s and groups of at least 10 people. Free entry for people with disabilities and their companion. Booking required by e-mail at info@visitrovigo.it; maximum 15 people per group.",
+     "fr": "Tarif réduit pour les enfants de 9 à 18 ans, les étudiants universitaires, les plus de 65 ans et les groupes d'au moins 10 personnes. Entrée gratuite pour les personnes handicapées et leur accompagnateur. Réservation obligatoire par e-mail à info@visitrovigo.it ; 15 personnes maximum par groupe.",
+     "de": "Ermäßigt für Kinder und Jugendliche von 9 bis 18 Jahren, Universitätsstudierende, Personen über 65 und Gruppen ab 10 Personen. Freier Eintritt für Menschen mit Behinderung und ihre Begleitperson. Reservierung per E-Mail an info@visitrovigo.it erforderlich; maximal 15 Personen pro Gruppe.",
+     "es": "Tarifa reducida para niños de 9 a 18 años, estudiantes universitarios, mayores de 65 años y grupos de al menos 10 personas. Entrada gratuita para personas con discapacidad y su acompañante. Reserva obligatoria por correo electrónico a info@visitrovigo.it; máximo 15 personas por grupo."
+    }
+   },
+   "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-musei/torre-dona",
+   "wikipedia": {
+    "it": "Torre Donà"
+   },
+   "nota": {
+    "it": "Stagione autunnale e invernale; verificare gli orari di primavera ed estate prima della visita.",
+    "en": "Autumn and winter season; check the spring and summer hours before your visit.",
+    "fr": "Saison automne et hiver ; vérifier les horaires du printemps et de l'été avant la visite.",
+    "de": "Herbst- und Wintersaison; Öffnungszeiten für Frühjahr und Sommer vor dem Besuch prüfen.",
+    "es": "Temporada de otoño e invierno; verificar los horarios de primavera y verano antes de la visita."
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_mura_perimetrali_e_torre_Don%C3%A0,_maggio_2022_02.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_accesso_all'antica_ghiacciatia_02.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_accesso_all'antica_ghiacciatia_01.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_vista_giardino_e_strutture_interne_10.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Castello_di_Rovigo,_vista_giardino_e_strutture_interne_08.jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 246
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un castello con otto torri",
+      "en": "A castle with eight towers",
+      "fr": "Un château à huit tours",
+      "de": "Eine Burg mit acht Türmen",
+      "es": "Un castillo con ocho torres"
+     },
+     "testo": {
+      "it": "Un tempo il castello di Rovigo era una vera fortezza, dotata di mura merlate, fossato, due ponti levatoi e ben otto torri. Oggi ne rimangono alcuni tratti della cinta muraria e soprattutto la Torre Donà e la Torre Grimani, detta anche Torre Mozza.",
+      "en": "Once Rovigo's castle was a real fortress, with crenellated walls, a moat, two drawbridges and as many as eight towers. Today some stretches of the walls remain and, above all, the Torre Donà and the Torre Grimani, also known as Torre Mozza.",
+      "fr": "Autrefois, le château de Rovigo était une véritable forteresse, dotée de remparts crénelés, d'un fossé, de deux ponts-levis et de pas moins de huit tours. Aujourd'hui, il reste quelques tronçons de l'enceinte et surtout la Tour Donà et la Tour Grimani, aussi appelée Tour Mozza.",
+      "de": "Einst war die Burg von Rovigo eine echte Festung mit Zinnenmauern, Graben, zwei Zugbrücken und nicht weniger als acht Türmen. Heute sind noch einige Mauerabschnitte erhalten und vor allem der Torre Donà und der Torre Grimani, auch Torre Mozza genannt.",
+      "es": "En otro tiempo el castillo de Rovigo era una auténtica fortaleza, con murallas almenadas, foso, dos puentes levadizos y nada menos que ocho torres. Hoy quedan algunos tramos de la muralla y, sobre todo, la Torre Donà y la Torre Grimani, también llamada Torre Mozza."
+     }
+    }
+   ]
+  },
+  {
+   "id": "piazza-vittorio-emanuele-ii",
+   "nome": "Piazza Vittorio Emanuele II",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 45.071117,
+   "longitudine": 11.790165,
+   "descrizione": {
+    "it": "È la piazza principale di Rovigo e il cuore della vita cittadina. Lo spazio è dominato dalla statua di Vittorio Emanuele II e dalla colonna sormontata dal Leone di San Marco, testimonianze delle diverse fasi della storia politica della città. Sulla piazza si affacciano importanti edifici civili e portici.",
+    "en": "It is Rovigo's main square and the heart of city life. The space is dominated by the statue of Victor Emmanuel II and by the column topped with the Lion of Saint Mark, witnesses to the different phases of the city's political history. Important civic buildings and porticoes overlook the square.",
+    "fr": "C'est la place principale de Rovigo et le cœur de la vie urbaine. L'espace est dominé par la statue de Victor-Emmanuel II et par la colonne surmontée du Lion de Saint-Marc, témoins des différentes phases de l'histoire politique de la ville. Des bâtiments civils importants et des arcades donnent sur la place.",
+    "de": "Es ist der Hauptplatz Rovigos und das Herz des städtischen Lebens. Der Raum wird von der Statue Viktor Emanuels II. und der Säule mit dem Markuslöwen beherrscht, die die verschiedenen Phasen der politischen Geschichte der Stadt bezeugen. An dem Platz liegen bedeutende bürgerliche Gebäude und Laubengänge.",
+    "es": "Es la plaza principal de Rovigo y el corazón de la vida ciudadana. El espacio está dominado por la estatua de Víctor Manuel II y por la columna coronada por el León de San Marcos, testimonios de las distintas etapas de la historia política de la ciudad. En la plaza dan importantes edificios civiles y soportales."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre accessibile",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "always accessible"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "toujours accessible"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "immer zugänglich"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "siempre accesible"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II_20200605_(Rovigo).jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_dalle_finestre_del_Municipio,_gennaio_2023_(Rovigo).jpg"
+    },
+    {
+     "autore": "Atigra",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_vittorio_emanuele_rovigo.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Vittorio_Emanuele_II,_Rovigoracconta_2018_01.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Leone_di_San_Marco_posto_sopra_l'omonima_colonna_(Piazza_Vittorio_Emanuele_II,_Rovigo).jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 229
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 474
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il leone di San Marco scomparso e ricomparso",
+      "en": "The lion of Saint Mark that disappeared and reappeared",
+      "fr": "Le lion de Saint-Marc disparu puis réapparu",
+      "de": "Der Markuslöwe, der verschwand und wieder auftauchte",
+      "es": "El león de San Marcos que desapareció y reapareció"
+     },
+     "testo": {
+      "it": "La colonna con il Leone di San Marco fu innalzata nel 1508 per celebrare la presenza veneziana a Rovigo. Nel 1797 i soldati francesi distrussero il leone collocato sulla sommità: la scultura venne ricollocata soltanto nel 1881, durante le celebrazioni dedicate a Vittorio Emanuele II.",
+      "en": "The column with the Lion of Saint Mark was raised in 1508 to celebrate Venetian presence in Rovigo. In 1797 French soldiers destroyed the lion on top: the sculpture was put back only in 1881, during the celebrations for Victor Emmanuel II.",
+      "fr": "La colonne avec le Lion de Saint-Marc fut érigée en 1508 pour célébrer la présence vénitienne à Rovigo. En 1797, des soldats français détruisirent le lion placé au sommet : la sculpture ne fut remise en place qu'en 1881, lors des célébrations en l'honneur de Victor-Emmanuel II.",
+      "de": "Die Säule mit dem Markuslöwen wurde 1508 errichtet, um die venezianische Herrschaft in Rovigo zu feiern. 1797 zerstörten französische Soldaten den Löwen auf der Spitze: Die Skulptur wurde erst 1881 wieder aufgestellt, während der Feierlichkeiten zu Ehren von Viktor Emanuel II.",
+      "es": "La columna con el León de San Marcos se levantó en 1508 para celebrar la presencia veneciana en Rovigo. En 1797 soldados franceses destruyeron el león colocado en lo alto: la escultura se volvió a colocar solo en 1881, durante las celebraciones dedicadas a Víctor Manuel II."
+     }
+    }
+   ]
+  },
+  {
+   "id": "palazzo-roverella",
+   "nome": "Palazzo Roverella",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.070536,
+   "longitudine": 11.789659,
+   "descrizione": {
+    "it": "Palazzo rinascimentale iniziato nel 1474 per volontà del cardinale Bartolomeo Roverella. È uno degli edifici storici più rappresentativi di Rovigo e oggi ospita la Pinacoteca dell'Accademia dei Concordi e importanti esposizioni temporanee.",
+    "en": "Renaissance palace begun in 1474 at the wish of Cardinal Bartolomeo Roverella. It is one of Rovigo's most representative historic buildings and today houses the Pinacoteca of the Accademia dei Concordi and important temporary exhibitions.",
+    "fr": "Palais de la Renaissance commencé en 1474 à la volonté du cardinal Bartolomeo Roverella. C'est l'un des édifices historiques les plus représentatifs de Rovigo ; il abrite aujourd'hui la Pinacothèque de l'Accademia dei Concordi et d'importantes expositions temporaires.",
+    "de": "Renaissancepalast, begonnen 1474 auf Veranlassung des Kardinals Bartolomeo Roverella. Er zählt zu den repräsentativsten historischen Gebäuden Rovigos und beherbergt heute die Pinakothek der Accademia dei Concordi sowie bedeutende Wechselausstellungen.",
+    "es": "Palacio renacentista iniciado en 1474 por voluntad del cardenal Bartolomeo Roverella. Es uno de los edificios históricos más representativos de Rovigo y hoy alberga la Pinacoteca de la Accademia dei Concordi y importantes exposiciones temporales."
+   },
+   "orari": [
+    {
+     "giorni": "lun-ven",
+     "ore": "9:00–19:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Mon–Fri",
+       "ore": "9:00–19:00"
+      },
+      "fr": {
+       "giorni": "lun–ven",
+       "ore": "9:00–19:00"
+      },
+      "de": {
+       "giorni": "Mo–Fr",
+       "ore": "9:00–19:00"
+      },
+      "es": {
+       "giorni": "lun–vie",
+       "ore": "9:00–19:00"
+      }
+     }
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "9:00–20:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Sat–Sun",
+       "ore": "9:00–20:00"
+      },
+      "fr": {
+       "giorni": "sam–dim",
+       "ore": "9:00–20:00"
+      },
+      "de": {
+       "giorni": "Sa–So",
+       "ore": "9:00–20:00"
+      },
+      "es": {
+       "giorni": "sáb–dom",
+       "ore": "9:00–20:00"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "nota": {
+     "it": "La Pinacoteca permanente è a ingresso gratuito; le mostre temporanee hanno tariffe proprie.",
+     "en": "The permanent Pinacoteca is free to enter; temporary exhibitions have their own rates.",
+     "fr": "L'entrée à la pinacothèque permanente est gratuite ; les expositions temporaires ont leurs propres tarifs.",
+     "de": "Der Eintritt in die ständige Pinakothek ist frei; für Wechselausstellungen gelten eigene Tarife.",
+     "es": "La pinacoteca permanente tiene entrada gratuita; las exposiciones temporales tienen tarifas propias."
+    }
+   },
+   "sito": "https://www.palazzoroverella.com/",
+   "wikipedia": {
+    "it": "Palazzo Roverella"
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_02.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_04.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_(Rovigo)_03.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella_20170928_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roverella,_esterno_da_Piazza_Vittorio_Emanuele_II,_Rovigo_(2).jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 310
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 405
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il palazzo rimasto incompiuto",
+      "en": "The palace left unfinished",
+      "fr": "Le palais resté inachevé",
+      "de": "Der unvollendete Palast",
+      "es": "El palacio que quedó inacabado"
+     },
+     "testo": {
+      "it": "La costruzione di Palazzo Roverella iniziò nel 1474 per volontà del cardinale Bartolomeo Roverella, che desiderava celebrare il prestigio della propria famiglia. La morte del committente, avvenuta nel 1477, interruppe i lavori e il progetto originario subì successivamente modifiche e trasformazioni.",
+      "en": "Work on Palazzo Roverella began in 1474 at the wish of Cardinal Bartolomeo Roverella, who wanted to celebrate his family's prestige. The death of the client in 1477 halted the work, and the original project was later changed and altered.",
+      "fr": "La construction du Palazzo Roverella commença en 1474, à la volonté du cardinal Bartolomeo Roverella, qui voulait célébrer le prestige de sa famille. La mort du commanditaire, en 1477, interrompit les travaux, et le projet initial fut ensuite modifié et transformé.",
+      "de": "Der Bau des Palazzo Roverella begann 1474 auf Wunsch von Kardinal Bartolomeo Roverella, der das Ansehen seiner Familie feiern wollte. Der Tod des Auftraggebers 1477 unterbrach die Arbeiten, und der ursprüngliche Entwurf wurde danach verändert und umgestaltet.",
+      "es": "La construcción del Palazzo Roverella comenzó en 1474 por voluntad del cardenal Bartolomeo Roverella, que quería celebrar el prestigio de su familia. La muerte del comitente, en 1477, interrumpió las obras, y el proyecto original sufrió después modificaciones y transformaciones."
+     }
+    }
+   ],
+   "personaggio": [
+    "antonio-riccoboni",
+    "mario-cavaglieri"
+   ],
+   "accessibilita": {
+    "fonte": "https://www.palazzoroverella.com/pianifica-la-visita-2/",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Con disabilità motoria si raggiunge in autonomia l'ingresso principale; tutte le sale e i servizi igienici sono raggiungibili. Il personale all'ingresso è a disposizione per assistere.",
+      "en": "Visitors with reduced mobility can reach the main entrance independently; all rooms and toilets are reachable. Staff at the entrance are available to help.",
+      "fr": "Les personnes à mobilité réduite atteignent l'entrée principale en autonomie ; toutes les salles et les toilettes sont accessibles. Le personnel à l'entrée est disponible pour aider.",
+      "de": "Menschen mit eingeschränkter Mobilität erreichen den Haupteingang selbstständig; alle Säle und Toiletten sind erreichbar. Das Personal am Eingang hilft gerne.",
+      "es": "Las personas con movilidad reducida llegan solas a la entrada principal; todas las salas y los aseos son accesibles. El personal de la entrada está disponible para ayudar."
+     },
+     "ascensore": {
+      "it": "Sono presenti ascensori e rampe mobili; sono disponibili sedie a rotelle.",
+      "en": "There are lifts and mobile ramps; wheelchairs are available.",
+      "fr": "Il y a des ascenseurs et des rampes mobiles ; des fauteuils roulants sont disponibles.",
+      "de": "Es gibt Aufzüge und mobile Rampen; Rollstühle stehen zur Verfügung.",
+      "es": "Hay ascensores y rampas móviles; hay sillas de ruedas disponibles."
+     }
+    }
+   }
+  },
+  {
+   "id": "palazzo-roncale",
+   "nome": "Palazzo Roncale",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.070758,
+   "longitudine": 11.789655,
+   "descrizione": {
+    "it": "Palazzo cinquecentesco costruito tra il 1550 e il 1562, tradizionalmente attribuito all'architetto Michele Sanmicheli. L'edificio è oggi sede di mostre ed eventi culturali, con un programma espositivo temporaneo.",
+    "en": "Sixteenth-century palace built between 1550 and 1562, traditionally attributed to the architect Michele Sanmicheli. The building now hosts exhibitions and cultural events, with a temporary exhibition programme.",
+    "fr": "Palais du XVIe siècle construit entre 1550 et 1562, traditionnellement attribué à l'architecte Michele Sanmicheli. Le bâtiment accueille aujourd'hui des expositions et des événements culturels, avec un programme d'expositions temporaires.",
+    "de": "Der Palast aus dem 16. Jahrhundert wurde zwischen 1550 und 1562 errichtet und wird traditionell dem Architekten Michele Sanmicheli zugeschrieben. Heute beherbergt das Gebäude Ausstellungen und kulturelle Veranstaltungen mit einem wechselnden Ausstellungsprogramm.",
+    "es": "Palacio del siglo XVI construido entre 1550 y 1562, tradicionalmente atribuido al arquitecto Michele Sanmicheli. Hoy el edificio acoge exposiciones y eventos culturales, con un programa de exposiciones temporales."
+   },
+   "orari": [
+    {
+     "giorni": "lun-ven",
+     "ore": "9:00–19:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Mon–Fri",
+       "ore": "9:00–19:00"
+      },
+      "fr": {
+       "giorni": "lun–ven",
+       "ore": "9:00–19:00"
+      },
+      "de": {
+       "giorni": "Mo–Fr",
+       "ore": "9:00–19:00"
+      },
+      "es": {
+       "giorni": "lun–vie",
+       "ore": "9:00–19:00"
+      }
+     }
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "9:00–20:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "Sat–Sun",
+       "ore": "9:00–20:00"
+      },
+      "fr": {
+       "giorni": "sam–dim",
+       "ore": "9:00–20:00"
+      },
+      "de": {
+       "giorni": "Sa–So",
+       "ore": "9:00–20:00"
+      },
+      "es": {
+       "giorni": "sáb–dom",
+       "ore": "9:00–20:00"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true,
+    "nota": {
+     "it": "Visite guidate: 5 € a persona negli orari indicati.",
+     "en": "Guided tours: €5 per person at the times indicated.",
+     "fr": "Visites guidées : 5 € par personne aux horaires indiqués.",
+     "de": "Führungen: 5 € pro Person zu den angegebenen Zeiten.",
+     "es": "Visitas guiadas: 5 € por persona en los horarios indicados."
+    }
+   },
+   "sito": "https://palazzoroncale.com/",
+   "wikipedia": {
+    "it": "Palazzo Roncale"
+   },
+   "immagine": {
+    "autore": "Pivari",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale_-_Rovigo_-_Michele_Sanmicheli.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_piano_nobile,_sala_degli_arazzi_(Rovigo)_02.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_facciata,_mascherone_2_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Palazzo_Roncale,_facciata,_mascherone_3_(Rovigo).jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 281
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 421
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "I volti misteriosi sulla facciata",
+      "en": "The mysterious faces on the façade",
+      "fr": "Les visages mystérieux de la façade",
+      "de": "Die rätselhaften Gesichter an der Fassade",
+      "es": "Los rostros misteriosos de la fachada"
+     },
+     "testo": {
+      "it": "La facciata di Palazzo Roncale presenta alcuni mascheroni scolpiti nella pietra, elementi decorativi tipici dell'architettura rinascimentale. L'edificio fu realizzato tra il 1550 e il 1562 su progetto dell'architetto veronese Michele Sanmicheli e testimonia l'ascesa sociale ed economica della famiglia Roncale.",
+      "en": "The façade of Palazzo Roncale has several mascarons carved in stone, decorative elements typical of Renaissance architecture. The building was erected between 1550 and 1562 to a design by the Veronese architect Michele Sanmicheli and reflects the social and economic rise of the Roncale family.",
+      "fr": "La façade du Palazzo Roncale présente plusieurs mascarons sculptés dans la pierre, des éléments décoratifs typiques de l'architecture Renaissance. Le bâtiment fut réalisé entre 1550 et 1562 sur un projet de l'architecte véronais Michele Sanmicheli et témoigne de l'ascension sociale et économique de la famille Roncale.",
+      "de": "Die Fassade des Palazzo Roncale zeigt mehrere in Stein gemeißelte Maskarons, typische Schmuckelemente der Renaissance-Architektur. Das Gebäude entstand zwischen 1550 und 1562 nach einem Entwurf des Veroneser Architekten Michele Sanmicheli und zeugt vom sozialen und wirtschaftlichen Aufstieg der Familie Roncale.",
+      "es": "La fachada del Palazzo Roncale presenta varios mascarones tallados en piedra, elementos decorativos propios de la arquitectura renacentista. El edificio se levantó entre 1550 y 1562 según un proyecto del arquitecto veronés Michele Sanmicheli y refleja el ascenso social y económico de la familia Roncale."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Festivi con gli orari del sabato e della domenica. Chiuso il 25 dicembre.",
+    "en": "Holidays follow the Saturday and Sunday hours. Closed on 25 December.",
+    "fr": "Les jours fériés suivent les horaires du samedi et du dimanche. Fermé le 25 décembre.",
+    "de": "An Feiertagen gelten die Öffnungszeiten von Samstag und Sonntag. Am 25. Dezember geschlossen.",
+    "es": "Los festivos siguen el horario del sábado y el domingo. Cerrado el 25 de diciembre."
+   }
+  },
+  {
+   "id": "tempio-la-rotonda",
+   "nome": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 45.071878,
+   "longitudine": 11.794166,
+   "descrizione": {
+    "it": "Il Tempio della Beata Vergine del Soccorso, noto come La Rotonda, è una chiesa a pianta ottagonale iniziata nel 1594 su progetto di Francesco Zamberlan. L'interno conserva un ricco apparato decorativo con tele di pittori veneti; all'esterno si distingue il campanile attribuito a Baldassare Longhena.",
+    "en": "The Temple of the Blessed Virgin of Succour, known as La Rotonda, is an octagonal church begun in 1594 to a design by Francesco Zamberlan. The interior holds a rich decorative scheme with canvases by Venetian painters; outside, the bell tower, attributed to Baldassare Longhena, stands out.",
+    "fr": "Le Temple de la Bienheureuse Vierge du Secours, connu sous le nom de La Rotonda, est une église à plan octogonal commencée en 1594 sur un projet de Francesco Zamberlan. L'intérieur conserve un riche décor avec des toiles de peintres vénitiens ; à l'extérieur se distingue le clocher attribué à Baldassare Longhena.",
+    "de": "Der Tempel der Seligen Jungfrau vom Beistand, bekannt als La Rotonda, ist eine achteckige Kirche, die 1594 nach einem Entwurf von Francesco Zamberlan begonnen wurde. Im Innern findet sich eine reiche Ausstattung mit Gemälden venezianischer Maler; außen fällt der Glockenturm auf, der Baldassare Longhena zugeschrieben wird.",
+    "es": "El Templo de la Beata Virgen del Socorro, conocido como La Rotonda, es una iglesia de planta octogonal iniciada en 1594 según un proyecto de Francesco Zamberlan. El interior conserva una rica decoración con lienzos de pintores venecianos; en el exterior destaca el campanario, atribuido a Baldassare Longhena."
+   },
+   "orari": [
+    {
+     "giorni": "mar-ven",
+     "ore": "14:30–18:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "mar-ven",
+       "ore": "14:30–18:00"
+      },
+      "fr": {
+       "giorni": "mar-ven",
+       "ore": "14:30–18:00"
+      },
+      "de": {
+       "giorni": "mar-ven",
+       "ore": "14:30–18:00"
+      },
+      "es": {
+       "giorni": "mar-ven",
+       "ore": "14:30–18:00"
+      }
+     }
+    },
+    {
+     "giorni": "sab-dom",
+     "ore": "10:00–12:30 e 14:30–18:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "sab-dom",
+       "ore": "10:00–12:30 and 14:30–18:00"
+      },
+      "fr": {
+       "giorni": "sab-dom",
+       "ore": "10h00–12h30 et 14h30–18h00"
+      },
+      "de": {
+       "giorni": "sab-dom",
+       "ore": "10:00–12:30 und 14:30–18:00"
+      },
+      "es": {
+       "giorni": "sab-dom",
+       "ore": "10:00–12:30 y 14:30–18:00"
+      }
+     }
+    },
+    {
+     "giorni": "lun",
+     "ore": "chiuso",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun",
+       "ore": "closed"
+      },
+      "fr": {
+       "giorni": "lun",
+       "ore": "fermé"
+      },
+      "de": {
+       "giorni": "lun",
+       "ore": "geschlossen"
+      },
+      "es": {
+       "giorni": "lun",
+       "ore": "cerrado"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "intero": 3,
+    "ridotto": 2,
+    "nota": {
+     "it": "Gratuito per residenti a Rovigo e categorie indicate dal gestore.",
+     "en": "Free for residents of Rovigo and for the categories indicated by the managers.",
+     "fr": "Gratuit pour les habitants de Rovigo et pour les catégories indiquées par le gestionnaire.",
+     "de": "Kostenlos für Einwohner von Rovigo und für die vom Betreiber genannten Kategorien.",
+     "es": "Gratuito para los residentes de Rovigo y para las categorías indicadas por el gestor."
+    }
+   },
+   "sito": "https://www.tempiolarotonda.it/",
+   "wikipedia": {
+    "it": "Chiesa della Beata Vergine del Soccorso (Rovigo)"
+   },
+   "nota": {
+    "it": "Le visite possono essere sospese durante le funzioni religiose.",
+    "en": "Visits may be suspended during religious services.",
+    "fr": "Les visites peuvent être suspendues pendant les offices religieux.",
+    "de": "Besichtigungen können während der Gottesdienste unterbrochen werden.",
+    "es": "Las visitas pueden suspenderse durante los oficios religiosos."
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Beata_Vergine_del_Soccorso_(Rovigo).JPG"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_08.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_02.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_05.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Chiesa_della_Beata_Vergine_del_Soccorso,_detta_La_Rotonda,_interno,_ciclo_pittorico_(Rovigo)_01.jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 310
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una cupola che non è rimasta quella originale",
+      "en": "A dome that is not the original",
+      "fr": "Une coupole qui n'est pas l'originale",
+      "de": "Eine Kuppel, die nicht die ursprüngliche ist",
+      "es": "Una cúpula que no es la original"
+     },
+     "testo": {
+      "it": "Il tempio della Rotonda fu costruito tra il 1594 e il 1603 su progetto di Francesco Zamberlan. In origine la chiesa era coperta da una cupola lignea, che venne demolita nel 1606 e sostituita da una copertura a falde. Anche il campanile ha una storia particolare: fu progettato da Baldassare Longhena nel 1655, ma venne completato soltanto nell'Ottocento.",
+      "en": "The Rotonda temple was built between 1594 and 1603 to a design by Francesco Zamberlan. Originally the church was covered by a wooden dome, which was demolished in 1606 and replaced by a pitched roof. The bell tower also has a particular history: it was designed by Baldassare Longhena in 1655 but was completed only in the nineteenth century.",
+      "fr": "Le temple de la Rotonda fut construit entre 1594 et 1603 sur un projet de Francesco Zamberlan. À l'origine, l'église était couverte d'une coupole en bois, démolie en 1606 et remplacée par une toiture à deux pans. Le clocher a lui aussi une histoire particulière : conçu par Baldassare Longhena en 1655, il ne fut achevé qu'au XIXe siècle.",
+      "de": "Der Tempel der Rotonda wurde zwischen 1594 und 1603 nach einem Entwurf von Francesco Zamberlan erbaut. Ursprünglich war die Kirche von einer hölzernen Kuppel überwölbt, die 1606 abgerissen und durch ein Satteldach ersetzt wurde. Auch der Glockenturm hat eine besondere Geschichte: Er wurde 1655 von Baldassare Longhena entworfen, aber erst im 19. Jahrhundert vollendet.",
+      "es": "El templo de la Rotonda se construyó entre 1594 y 1603 según un proyecto de Francesco Zamberlan. En origen la iglesia estaba cubierta por una cúpula de madera, que se derribó en 1606 y se sustituyó por una cubierta a dos aguas. El campanario también tiene una historia particular: fue proyectado por Baldassare Longhena en 1655, pero se terminó solo en el siglo XIX."
+     }
+    }
+   ],
+   "personaggio": [
+    "cristina-roccati",
+    "antonio-riccoboni"
+   ]
+  },
+  {
+   "id": "duomo-santo-stefano",
+   "nome": "Concattedrale di Santo Stefano Papa e Martire",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 45.069638,
+   "longitudine": 11.788795,
+   "descrizione": {
+    "it": "Il Duomo di Rovigo, dedicato a Santo Stefano Papa e Martire, è la concattedrale della diocesi di Adria-Rovigo. L'edificio attuale fu avviato nel 1696 su progetto attribuito a Girolamo Frigimelica e custodisce opere di pittori veneti, tra cui Palma il Giovane e Andrea Vicentino.",
+    "en": "Rovigo's cathedral, dedicated to Saint Stephen Pope and Martyr, is the co-cathedral of the diocese of Adria-Rovigo. The present building was begun in 1696 to a design attributed to Girolamo Frigimelica and houses works by Venetian painters, including Palma il Giovane and Andrea Vicentino.",
+    "fr": "La cathédrale de Rovigo, dédiée à saint Étienne pape et martyr, est la co-cathédrale du diocèse d'Adria-Rovigo. L'édifice actuel fut commencé en 1696 sur un projet attribué à Girolamo Frigimelica et conserve des œuvres de peintres vénitiens, dont Palma le Jeune et Andrea Vicentino.",
+    "de": "Der Dom von Rovigo ist dem heiligen Papst und Märtyrer Stephanus geweiht und Konkathedrale des Bistums Adria-Rovigo. Der heutige Bau wurde 1696 nach einem Entwurf begonnen, der Girolamo Frigimelica zugeschrieben wird, und birgt Werke venezianischer Maler, darunter Palma il Giovane und Andrea Vicentino.",
+    "es": "El Duomo de Rovigo, dedicado a San Esteban papa y mártir, es la concatedral de la diócesis de Adria-Rovigo. El edificio actual se inició en 1696 según un proyecto atribuido a Girolamo Frigimelica y custodia obras de pintores venecianos, entre ellas de Palma el Joven y Andrea Vicentino."
+   },
+   "biglietto": {
+    "gratuito": true
+   },
+   "sito": "https://www.duomorovigo.it/",
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_02.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_04.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_03.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire_(Rovigo)_01.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_di_Santo_Stefano_Papa_e_Martire,_esterno,_abside_(Rovigo)_03.jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 435
+    },
+    {
+     "nome": "Corso del Popolo",
+     "linee": [
+      "1 destra",
+      "1 sinistra",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9/",
+      "9 Navetta",
+      "10",
+      "11",
+      "25",
+      "43",
+      "68"
+     ],
+     "metri": 458
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una chiesa ricostruita più volte",
+      "en": "A church rebuilt many times",
+      "fr": "Une église reconstruite à plusieurs reprises",
+      "de": "Eine mehrfach wiederaufgebaute Kirche",
+      "es": "Una iglesia reconstruida varias veces"
+     },
+     "testo": {
+      "it": "La storia del Duomo di Rovigo è caratterizzata da numerosi ampliamenti e ricostruzioni. Sul luogo dell'attuale edificio sorgeva già una chiesa dedicata a Santo Stefano, documentata intorno al 1050. La prima pietra della concattedrale attuale fu posata nel 1696, su progetto attribuito a Girolamo Frigimelica.",
+      "en": "The history of Rovigo's cathedral is marked by many enlargements and rebuildings. A church dedicated to Saint Stephen, documented around 1050, already stood on the site of the present building. The first stone of the current concathedral was laid in 1696, to a design attributed to Girolamo Frigimelica.",
+      "fr": "L'histoire de la cathédrale de Rovigo est marquée par de nombreux agrandissements et reconstructions. Une église dédiée à saint Étienne, attestée vers 1050, se trouvait déjà à l'emplacement de l'édifice actuel. La première pierre de l'actuelle concathédrale fut posée en 1696, sur un projet attribué à Girolamo Frigimelica.",
+      "de": "Die Geschichte des Doms von Rovigo ist von zahlreichen Erweiterungen und Wiederaufbauten geprägt. An der Stelle des heutigen Gebäudes stand bereits eine Kirche des heiligen Stephanus, die um 1050 urkundlich belegt ist. Der Grundstein der heutigen Konkathedrale wurde 1696 gelegt, nach einem Entwurf, der Girolamo Frigimelica zugeschrieben wird.",
+      "es": "La historia de la catedral de Rovigo está marcada por numerosas ampliaciones y reconstrucciones. En el lugar del edificio actual ya existía una iglesia dedicada a san Esteban, documentada hacia 1050. La primera piedra de la actual concatedral se colocó en 1696, según un proyecto atribuido a Girolamo Frigimelica."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   }
+  },
+  {
+   "id": "teatro-sociale",
+   "nome": "Teatro Sociale",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.070853,
+   "longitudine": 11.792225,
+   "descrizione": {
+    "it": "Teatro storico di impianto neoclassico, progettato nell'Ottocento e inaugurato nel 1819. Dopo un incendio fu ricostruito e riaperto nel 1904. È legato alla tradizione lirica cittadina e ospita una stagione di spettacoli e iniziative culturali.",
+    "en": "Historic theatre of neoclassical design, planned in the nineteenth century and inaugurated in 1819. After a fire it was rebuilt and reopened in 1904. It is linked to the city's operatic tradition and hosts a season of performances and cultural events.",
+    "fr": "Théâtre historique de style néoclassique, conçu au XIXe siècle et inauguré en 1819. Après un incendie, il fut reconstruit et rouvert en 1904. Il est lié à la tradition lyrique de la ville et accueille une saison de spectacles et d'initiatives culturelles.",
+    "de": "Historisches Theater im klassizistischen Stil, im 19. Jahrhundert geplant und 1819 eröffnet. Nach einem Brand wurde es wieder aufgebaut und 1904 neu eröffnet. Es ist mit der Opernttradition der Stadt verbunden und bietet eine Saison mit Aufführungen und kulturellen Veranstaltungen.",
+    "es": "Teatro histórico de traza neoclásica, proyectado en el siglo XIX e inaugurado en 1819. Tras un incendio fue reconstruido y reabierto en 1904. Está ligado a la tradición lírica de la ciudad y acoge una temporada de espectáculos e iniciativas culturales."
+   },
+   "biglietto": {
+    "nota": {
+     "it": "Tariffe delle visite guidate su richiesta al teatro. Spettacoli con biglietteria e tariffe proprie.",
+     "en": "Guided tour rates on request at the theatre. Performances have their own box office and rates.",
+     "fr": "Tarifs des visites guidées sur demande auprès du théâtre. Les spectacles ont leur propre billetterie et leurs propres tarifs.",
+     "de": "Preise für Führungen auf Anfrage beim Theater. Vorstellungen haben eigene Kasse und eigene Tarife.",
+     "es": "Tarifas de las visitas guiadas bajo petición en el teatro. Los espectáculos tienen taquilla y tarifas propias."
+    }
+   },
+   "sito": "https://www.comune.rovigo.it/myportal/C_H620/teatrosociale",
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_Rovigo.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_vista_notturna_(Rovigo).JPG"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale,_lato_sinistro_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Teatro_Sociale_Beniamino_Gigli_plaque_(Rovigo).jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 372
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un teatro inaugurato due volte",
+      "en": "A theatre opened twice",
+      "fr": "Un théâtre inauguré deux fois",
+      "de": "Ein Theater, zweimal eröffnet",
+      "es": "Un teatro inaugurado dos veces"
+     },
+     "testo": {
+      "it": "Il Teatro Sociale aprì al pubblico il 3 marzo 1819 con lo spettacolo L'ombra di Fetonte, ma l'inaugurazione ufficiale avvenne il 26 aprile dello stesso anno con l'opera Adelaide di Borgogna di Pietro Generali. Dopo un incendio nel 1902, l'edificio venne ricostruito e riaperto nel 1904 con l'opera Iris di Pietro Mascagni.",
+      "en": "The Teatro Sociale opened to the public on 3 March 1819 with the show L'ombra di Fetonte, but the official inauguration took place on 26 April of the same year with the opera Adelaide di Borgogna by Pietro Generali. After a fire in 1902, the building was rebuilt and reopened in 1904 with the opera Iris by Pietro Mascagni.",
+      "fr": "Le Teatro Sociale ouvrit au public le 3 mars 1819 avec le spectacle L'ombra di Fetonte, mais l'inauguration officielle eut lieu le 26 avril de la même année avec l'opéra Adelaide di Borgogna de Pietro Generali. Après un incendie en 1902, le bâtiment fut reconstruit et rouvert en 1904 avec l'opéra Iris de Pietro Mascagni.",
+      "de": "Das Teatro Sociale öffnete am 3. März 1819 für das Publikum mit der Vorstellung L'ombra di Fetonte, die offizielle Eröffnung fand jedoch am 26. April desselben Jahres mit der Oper Adelaide di Borgogna von Pietro Generali statt. Nach einem Brand im Jahr 1902 wurde das Gebäude wieder aufgebaut und 1904 mit der Oper Iris von Pietro Mascagni wiedereröffnet.",
+      "es": "El Teatro Sociale abrió al público el 3 de marzo de 1819 con el espectáculo L'ombra di Fetonte, pero la inauguración oficial tuvo lugar el 26 de abril del mismo año con la ópera Adelaide di Borgogna de Pietro Generali. Tras un incendio en 1902, el edificio se reconstruyó y reabrió en 1904 con la ópera Iris de Pietro Mascagni."
+     }
+    }
+   ]
+  },
+  {
+   "id": "museo-dei-grandi-fiumi",
+   "nome": "Museo dei Grandi Fiumi",
+   "categoria": "musei",
+   "sestiere": "San Bartolomeo",
+   "latitudine": 45.065212,
+   "longitudine": 11.795021,
+   "descrizione": {
+    "it": "Il museo ha sede nell'ex monastero olivetano di San Bartolomeo e racconta la storia del territorio polesano attraverso un percorso archeologico e storico che copre oltre 3.500 anni, dalla preistoria all'età moderna. Le collezioni illustrano il rapporto tra insediamenti umani, fiumi e paesaggio.",
+    "en": "The museum is housed in the former Olivetan monastery of San Bartolomeo and tells the history of the Polesine territory through an archaeological and historical itinerary covering more than 3,500 years, from prehistory to the modern age. The collections illustrate the relationship between human settlements, rivers and landscape.",
+    "fr": "Le musée est installé dans l'ancien monastère olivétain de Saint-Barthélemy et raconte l'histoire du territoire du Polésine à travers un parcours archéologique et historique couvrant plus de 3 500 ans, de la préhistoire à l'époque moderne. Les collections illustrent le rapport entre les implantations humaines, les fleuves et le paysage.",
+    "de": "Das Museum befindet sich im ehemaligen Olivetanerkloster San Bartolomeo und erzählt die Geschichte des Polesine in einem archäologischen und historischen Rundgang, der mehr als 3.500 Jahre umfasst, von der Vorgeschichte bis zur Neuzeit. Die Sammlungen zeigen das Verhältnis zwischen menschlichen Siedlungen, Flüssen und Landschaft.",
+    "es": "El museo se encuentra en el antiguo monasterio olivetano de San Bartolomé y narra la historia del territorio del Polesine a través de un recorrido arqueológico e histórico que abarca más de 3.500 años, desde la prehistoria hasta la época moderna. Las colecciones muestran la relación entre los asentamientos humanos, los ríos y el paisaje."
+   },
+   "orari": [
+    {
+     "giorni": "mar-gio",
+     "ore": "10:00–13:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "mar-gio",
+       "ore": "10:00–13:00"
+      },
+      "fr": {
+       "giorni": "mar-gio",
+       "ore": "10:00–13:00"
+      },
+      "de": {
+       "giorni": "mar-gio",
+       "ore": "10:00–13:00"
+      },
+      "es": {
+       "giorni": "mar-gio",
+       "ore": "10:00–13:00"
+      }
+     }
+    },
+    {
+     "giorni": "ven-dom",
+     "ore": "10:00–13:00 e 15:00–18:00",
+     "traduzioni": {
+      "en": {
+       "giorni": "ven-dom",
+       "ore": "10:00–13:00 and 15:00–18:00"
+      },
+      "fr": {
+       "giorni": "ven-dom",
+       "ore": "10h00–13h00 et 15h00–18h00"
+      },
+      "de": {
+       "giorni": "ven-dom",
+       "ore": "10:00–13:00 und 15:00–18:00"
+      },
+      "es": {
+       "giorni": "ven-dom",
+       "ore": "10:00–13:00 y 15:00–18:00"
+      }
+     }
+    },
+    {
+     "giorni": "lun",
+     "ore": "chiuso",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun",
+       "ore": "closed"
+      },
+      "fr": {
+       "giorni": "lun",
+       "ore": "fermé"
+      },
+      "de": {
+       "giorni": "lun",
+       "ore": "geschlossen"
+      },
+      "es": {
+       "giorni": "lun",
+       "ore": "cerrado"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "intero": 5,
+    "ridotto": 2,
+    "nota": {
+     "it": "Gratuità per alcune categorie e bambini sotto i 6 anni.",
+     "en": "Free entry for some categories and for children under 6.",
+     "fr": "Gratuité pour certaines catégories et pour les enfants de moins de 6 ans.",
+     "de": "Freier Eintritt für bestimmte Kategorien und für Kinder unter 6 Jahren.",
+     "es": "Entrada gratuita para algunas categorías y para niños menores de 6 años."
+    }
+   },
+   "sito": "https://www.comune.rovigo.it/myportal/C_H620/museograndifiumi",
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Stele_funeraria_L_Domiti,_Museo_dei_Grandi_Fiumi_(Rovigo).JPG"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_cippo_funerario_(Rovigo).JPG"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_cippo_funerario_(3)_(Rovigo).JPG"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Museo_dei_Grandi_Fiumi,_stele_funeraria_(Rovigo).JPG"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Stele_funeraria_L_Domiti,_Museo_dei_Grandi_Fiumi,_dettaglio_(Rovigo).JPG"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 461
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un monastero diventato museo",
+      "en": "A monastery that became a museum",
+      "fr": "Un monastère devenu musée",
+      "de": "Ein Kloster, das zum Museum wurde",
+      "es": "Un monasterio convertido en museo"
+     },
+     "testo": {
+      "it": "Il Museo dei Grandi Fiumi occupa gli spazi dell'antico monastero olivetano di San Bartolomeo, le cui origini risalgono al XIII secolo. Tra Cinquecento e Seicento il complesso venne ampliato con due chiostri e due cortili. Dopo essere stato utilizzato anche per attività assistenziali, è diventato sede museale nel 2001.",
+      "en": "The Museo dei Grandi Fiumi occupies the spaces of the former Olivetan monastery of San Bartolomeo, whose origins date back to the 13th century. Between the 16th and 17th centuries the complex was enlarged with two cloisters and two courtyards. After being used also for charitable activities, it became a museum in 2001.",
+      "fr": "Le Musée des Grands Fleuves occupe les espaces de l'ancien monastère olivétain de San Bartolomeo, dont les origines remontent au XIIIe siècle. Entre le XVIe et le XVIIe siècle, le complexe fut agrandi de deux cloîtres et de deux cours. Après avoir servi aussi à des activités d'assistance, il est devenu un musée en 2001.",
+      "de": "Das Museo dei Grandi Fiumi befindet sich in den Räumen des ehemaligen olivetanischen Klosters San Bartolomeo, dessen Ursprünge ins 13. Jahrhundert zurückreichen. Zwischen dem 16. und 17. Jahrhundert wurde der Komplex um zwei Kreuzgänge und zwei Innenhöfe erweitert. Nachdem er auch für karitative Zwecke genutzt worden war, wurde er 2001 Museum.",
+      "es": "El Museo dei Grandi Fiumi ocupa los espacios del antiguo monasterio olivetano de San Bartolomeo, cuyos orígenes se remontan al siglo XIII. Entre los siglos XVI y XVII el complejo se amplió con dos claustros y dos patios. Tras usarse también para actividades asistenciales, se convirtió en museo en 2001."
+     }
+    }
+   ],
+   "accessibilita": {
+    "fonte": "https://www.comune.rovigo.it/myportal/C_H620/api/content/download?id=655f6fe0081def008b131e25",
+    "verificato": "2026-11-11",
+    "voci": {
+     "ascensore": {
+      "it": "È presente un ascensore accessibile in carrozzina.",
+      "en": "There is a wheelchair-accessible lift.",
+      "fr": "Il y a un ascenseur accessible en fauteuil roulant.",
+      "de": "Es gibt einen rollstuhlgerechten Aufzug.",
+      "es": "Hay un ascensor accesible en silla de ruedas."
+     },
+     "servizi": {
+      "it": "Servizio igienico accessibile al primo piano. La piccola sala ristoro ha uno scalino.",
+      "en": "Accessible toilet on the first floor. The small refreshment room has one step.",
+      "fr": "Toilettes accessibles au premier étage. La petite salle de restauration a une marche.",
+      "de": "Barrierefreie Toilette im ersten Stock. Der kleine Erfrischungsraum hat eine Stufe.",
+      "es": "Aseo accesible en la primera planta. La pequeña sala de refrigerios tiene un escalón."
+     }
+    }
+   }
+  },
+  {
+   "id": "piazzetta-annonaria",
+   "nome": "Piazzetta Annonaria",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 45.069987,
+   "longitudine": 11.792345,
+   "descrizione": {
+    "it": "Spazio mercatale realizzato nell'Ottocento, dal 1859 legato al mercato annonario cittadino. La piazzetta conserva il carattere commerciale e ospita botteghe e iniziative culturali, costituendo un angolo caratteristico del centro storico.",
+    "en": "Market space built in the nineteenth century, linked since 1859 to the city's grain market. The little square keeps its commercial character, hosts shops and cultural initiatives, and is a distinctive corner of the historic centre.",
+    "fr": "Espace de marché aménagé au XIXe siècle, lié depuis 1859 au marché aux grains de la ville. La petite place conserve son caractère commercial, accueille des boutiques et des initiatives culturelles, et constitue un coin caractéristique du centre historique.",
+    "de": "Marktplatz aus dem 19. Jahrhundert, seit 1859 mit dem städtischen Getreidemarkt verbunden. Der kleine Platz hat seinen Handelscharakter bewahrt, beherbergt Geschäfte und kulturelle Initiativen und ist eine charakteristische Ecke des historischen Zentrums.",
+    "es": "Espacio de mercado construido en el siglo XIX, vinculado desde 1859 al mercado de granos de la ciudad. La plazuela conserva su carácter comercial, alberga tiendas e iniciativas culturales y es un rincón característico del centro histórico."
+   },
+   "biglietto": {
+    "gratuito": true
+   },
+   "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/le-piazze",
+   "nota": {
+    "it": "Orari non disponibili, controllare prima di pianificare una visita",
+    "en": "Opening hours not available, check before planning a visit",
+    "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
+    "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
+    "es": "Horarios no disponibles, consultar antes de planificar una visita"
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_8_marzo_2022_(Rovigo)_01.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_03.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_01.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_Annonaria_10_ottobre_2023_(Rovigo)_02.jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 410
+    },
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 458
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il mercato che ha dato il nome alla piazzetta",
+      "en": "The market that gave the square its name",
+      "fr": "Le marché qui a donné son nom à la petite place",
+      "de": "Der Markt, der dem Platz seinen Namen gab",
+      "es": "El mercado que dio nombre a la plazoleta"
+     },
+     "testo": {
+      "it": "Nel 1859 l'area attorno al cortile dell'antico convento venne destinata al mercato annonario cittadino. Da questa funzione deriva il nome della piazzetta, che ancora oggi conserva una vocazione commerciale grazie alle botteghe e ai negozi di prodotti alimentari.",
+      "en": "In 1859 the area around the courtyard of the former convent was assigned to the city's food market (mercato annonario). The square takes its name from this function and still keeps a commercial character thanks to its shops selling food products.",
+      "fr": "En 1859, la zone autour de la cour de l'ancien couvent fut destinée au marché annonaire de la ville. La petite place tire son nom de cette fonction et conserve aujourd'hui une vocation commerciale grâce à ses boutiques de produits alimentaires.",
+      "de": "Im Jahr 1859 wurde das Gebiet rund um den Hof des ehemaligen Klosters für den städtischen Lebensmittelmarkt (mercato annonario) bestimmt. Von dieser Funktion leitet sich der Name des Platzes ab, der durch seine Lebensmittelgeschäfte bis heute einen Handelscharakter bewahrt.",
+      "es": "En 1859 la zona alrededor del patio del antiguo convento se destinó al mercado de abastos (mercato annonario) de la ciudad. De esta función deriva el nombre de la plazoleta, que aún conserva una vocación comercial gracias a sus tiendas de productos alimentarios."
+     }
+    }
+   ]
+  },
+  {
+   "id": "porta-san-bortolo",
+   "nome": "Porta San Bortolo (Porta San Bartolomeo)",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.069206,
+   "longitudine": 11.792358,
+   "descrizione": {
+    "it": "Porta urbana medievale in laterizio, conosciuta sia come Porta San Bortolo sia come Porta San Bartolomeo. È considerata la meglio conservata tra le antiche porte cittadine e testimonia l'antico sistema difensivo di Rovigo.",
+    "en": "Medieval brick city gate, known both as Porta San Bortolo and Porta San Bartolomeo. It is considered the best preserved of the ancient city gates and bears witness to Rovigo's old defensive system.",
+    "fr": "Porte urbaine médiévale en brique, connue à la fois sous le nom de Porta San Bortolo et de Porta San Bartolomeo. Elle est considérée comme la mieux conservée des anciennes portes de la ville et témoigne de l'ancien système défensif de Rovigo.",
+    "de": "Mittelalterliches Stadttor aus Ziegelstein, bekannt sowohl als Porta San Bortolo als auch als Porta San Bartolomeo. Es gilt als das am besten erhaltene der alten Stadttore und zeugt vom früheren Verteidigungssystem Rovigos.",
+    "es": "Puerta urbana medieval de ladrillo, conocida tanto como Porta San Bortolo como Porta San Bartolomeo. Se considera la mejor conservada de las antiguas puertas de la ciudad y da testimonio del antiguo sistema defensivo de Rovigo."
+   },
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "visibile dall'esterno",
+     "traduzioni": {
+      "en": {
+       "giorni": "lun-dom",
+       "ore": "visible from outside"
+      },
+      "fr": {
+       "giorni": "lun-dom",
+       "ore": "visible de l'extérieur"
+      },
+      "de": {
+       "giorni": "lun-dom",
+       "ore": "von außen sichtbar"
+      },
+      "es": {
+       "giorni": "lun-dom",
+       "ore": "visible desde el exterior"
+      }
+     }
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "sito": "https://www.visitrovigo.it/it/scopri-la-citt%C3%A0/i-luoghi/porte-urbane-e-antiche-torri",
+   "wikipedia": {
+    "it": "Porta San Bortolo"
+   },
+   "immagine": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_vista_centro_citt%C3%A0.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_nicchia_orologio_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo_in_notturna,_settembre_2022_(Rovigo).jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_soffitto_sottopasso_(Rovigo)_01.jpg"
+    },
+    {
+     "autore": "Threecharlie",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Bortolo,_facciata_interno_mura_(Rovigo)_02.jpg"
+    }
+   ],
+   "fermate_vicine": [
+    {
+     "nome": "Viale della Pace",
+     "linee": [
+      "5",
+      "12 navetta",
+      "25"
+     ],
+     "metri": 329
+    },
+    {
+     "nome": "Via Carducci",
+     "linee": [
+      "2",
+      "25"
+     ],
+     "metri": 487
+    }
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una delle porte della città medievale",
+      "en": "One of the gates of the medieval city",
+      "fr": "Une des portes de la ville médiévale",
+      "de": "Eines der Tore der mittelalterlichen Stadt",
+      "es": "Una de las puertas de la ciudad medieval"
+     },
+     "testo": {
+      "it": "Porta San Bortolo faceva parte dell'antica cinta muraria di Rovigo, completata nei primi decenni del Trecento. Era una delle porte che regolavano gli accessi alla città e collegava il centro abitato con il quartiere di San Bartolomeo. È una delle poche testimonianze ancora visibili delle antiche fortificazioni.",
+      "en": "Porta San Bortolo was part of Rovigo's ancient city walls, completed in the first decades of the 14th century. It was one of the gates that controlled access to the city and linked the town centre with the San Bartolomeo district. It is one of the few surviving traces of the old fortifications.",
+      "fr": "La Porta San Bortolo faisait partie de l'ancienne enceinte de Rovigo, achevée dans les premières décennies du XIVe siècle. C'était l'une des portes qui réglaient l'accès à la ville et reliaient le centre au quartier de San Bartolomeo. C'est l'un des rares témoins encore visibles des anciennes fortifications.",
+      "de": "Die Porta San Bortolo war Teil der alten Stadtmauer von Rovigo, die in den ersten Jahrzehnten des 14. Jahrhunderts vollendet wurde. Sie war eines der Tore, die den Zugang zur Stadt regelten, und verband das Stadtzentrum mit dem Viertel San Bartolomeo. Sie ist eines der wenigen noch sichtbaren Zeugnisse der alten Befestigungen.",
+      "es": "La Porta San Bortolo formaba parte de la antigua muralla de Rovigo, completada en las primeras décadas del siglo XIV. Era una de las puertas que regulaban el acceso a la ciudad y unía el centro con el barrio de San Bartolomeo. Es uno de los pocos testimonios visibles de las antiguas fortificaciones."
+     }
+    }
+   ]
+  }
+ ]
+}

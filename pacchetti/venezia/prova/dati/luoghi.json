@@ -1,0 +1,891 @@
+{
+ "_nota": "Orari e prezzi raccolti a ottobre 2026 dai siti ufficiali: sono indicativi e vanno verificati periodicamente.",
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ],
+ "luoghi": [
+  {
+   "id": "basilica-san-marco",
+   "nome": "Basilica di San Marco",
+   "categoria": "chiese",
+   "latitudine": 45.4345,
+   "longitudine": 12.3397,
+   "sestiere": "San Marco",
+   "fermata": "San Marco / San Zaccaria",
+   "sito": "https://www.basilicasanmarco.it",
+   "orari": [
+    {
+     "giorni": "lun-sab",
+     "ore": "9:30–17:15"
+    },
+    {
+     "giorni": "dom",
+     "ore": "14:00–17:15"
+    }
+   ],
+   "biglietto": {
+    "nota": "b_sanmarco"
+   },
+   "immagine": {
+    "autore": "Zairon",
+    "licenza": "Public domain",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Venezia_Basilica_di_San_Marco_Fassade_2.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Archaeodontosaurus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_St._Mark%27s_Basilica,_Second_lunette_counting_from_left_-_Saint_Mark%27s_body_venerated_by_the_doge_by_Sebastiano_Ricci_and_Leopoldo_Del_Pozzo(1728).jpg"
+    },
+    {
+     "autore": "Moonik",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Views_from_the_Campanile_of_St._Mark%27s_Basilica_001.jpg"
+    },
+    {
+     "autore": "Archaeodontosaurus",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_Statue_of_the_four_tetrarchs_St._Mark%27s_Basilica.jpg"
+    }
+   ],
+   "video": {
+    "id": "OYLiAXeHv-A",
+    "titolo": "Basilica di San Marco – visita completa",
+    "canale": "U N T E R W E G S",
+    "durata": "4:40"
+   },
+   "descrizione": {
+    "it": "Cattedrale di Venezia e simbolo della città, unisce architettura bizantina, romanica e gotica. L'interno è rivestito da oltre 8.000 m² di mosaici a fondo oro; da non perdere la Pala d'Oro e i cavalli di bronzo nel Museo di San Marco.",
+    "en": "Venice's cathedral and the symbol of the city, blending Byzantine, Romanesque and Gothic architecture. The interior is covered by more than 8,000 m² of gold-ground mosaics; don't miss the Pala d'Oro altarpiece and the bronze horses in St Mark's Museum.",
+    "fr": "Cathédrale de Venise et symbole de la ville, elle mêle architecture byzantine, romane et gothique. L'intérieur est couvert de plus de 8 000 m² de mosaïques à fond d'or ; à ne pas manquer : la Pala d'Oro et les chevaux de bronze du musée de Saint-Marc.",
+    "de": "Die Kathedrale Venedigs und Wahrzeichen der Stadt verbindet byzantinische, romanische und gotische Baukunst. Das Innere ist mit über 8.000 m² Goldgrundmosaiken ausgekleidet; sehenswert sind die Pala d'Oro und die Bronzepferde im Markusmuseum.",
+    "es": "Catedral de Venecia y símbolo de la ciudad, combina arquitectura bizantina, románica y gótica. El interior está cubierto por más de 8.000 m² de mosaicos con fondo de oro; no te pierdas la Pala d'Oro ni los caballos de bronce del Museo de San Marcos."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una chiesa d'oro",
+      "en": "A golden church",
+      "fr": "Une église d'or",
+      "de": "Eine goldene Kirche",
+      "es": "Una iglesia de oro"
+     },
+     "testo": {
+      "it": "La Basilica di San Marco è chiamata anche «Chiesa d'oro» per i suoi splendidi mosaici dorati. Le sue cinque cupole e la ricchezza delle decorazioni riflettono gli intensi rapporti commerciali e culturali di Venezia con l'Oriente.",
+      "en": "The Basilica of St Mark is also called the «Golden Church» for its splendid gold-ground mosaics. Its five domes and the richness of its decorations reflect Venice's intense commercial and cultural ties with the East.",
+      "fr": "La basilique Saint-Marc est aussi appelée « l'Église d'or » pour ses splendides mosaïques à fond d'or. Ses cinq coupoles et la richesse de ses décors reflètent les intenses relations commerciales et culturelles de Venise avec l'Orient.",
+      "de": "Die Markusbasilika wird auch «Goldene Kirche» genannt, wegen ihrer prächtigen Goldgrundmosaiken. Ihre fünf Kuppeln und der Reichtum ihrer Ausstattung spiegeln die intensiven Handels- und Kulturbeziehungen Venedigs zum Orient wider.",
+      "es": "La Basílica de San Marcos se llama también «Iglesia de oro» por sus espléndidos mosaicos con fondo dorado. Sus cinco cúpulas y la riqueza de sus decoraciones reflejan las intensas relaciones comerciales y culturales de Venecia con Oriente."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Quando San Marco diventò cattedrale",
+      "en": "When St Mark's became a cathedral",
+      "fr": "Quand Saint-Marc devint cathédrale",
+      "de": "Als San Marco Kathedrale wurde",
+      "es": "Cuando San Marcos se convirtió en catedral"
+     },
+     "testo": {
+      "it": "Per secoli la basilica fu la chiesa del doge, ma non la cattedrale della città. Divenne cattedrale di Venezia soltanto nel 1807, in seguito a un decreto napoleonico.",
+      "en": "For centuries the basilica was the doge's church, but not the city's cathedral. It became the cathedral of Venice only in 1807, following a Napoleonic decree.",
+      "fr": "Pendant des siècles, la basilique fut l'église du doge, mais non la cathédrale de la ville. Elle ne devint cathédrale de Venise qu'en 1807, à la suite d'un décret napoléonien.",
+      "de": "Jahrhundertelang war die Basilika die Kirche des Dogen, aber nicht die Kathedrale der Stadt. Sie wurde erst 1807 aufgrund eines napoleonischen Dekrets Kathedrale von Venedig.",
+      "es": "Durante siglos la basílica fue la iglesia del dux, pero no la catedral de la ciudad. Solo se convirtió en catedral de Venecia en 1807, por un decreto napoleónico."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "personaggio": "antonio-vivaldi",
+   "accessibilita": {
+    "fonte": "https://www.basilicasanmarco.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Il personale è disponibile ad assistere le persone con difficoltà motorie e ad accompagnarle all'accesso più adatto alle loro necessità. Durante le celebrazioni e per la preghiera è disponibile una pedana alla Porta dei Fiori.",
+      "en": "Staff are available to assist people with reduced mobility and to accompany them to the entrance best suited to their needs. During services and for prayer, a ramp is available at the Porta dei Fiori.",
+      "fr": "Le personnel est disponible pour aider les personnes à mobilité réduite et les accompagner jusqu'à l'accès le mieux adapté à leurs besoins. Pendant les célébrations et pour la prière, une rampe est disponible à la Porta dei Fiori.",
+      "de": "Das Personal unterstützt Menschen mit eingeschränkter Mobilität und begleitet sie zum für ihre Bedürfnisse am besten geeigneten Eingang. Während der Gottesdienste und zum Gebet steht an der Porta dei Fiori eine Rampe zur Verfügung.",
+      "es": "El personal está disponible para ayudar a las personas con movilidad reducida y acompañarlas al acceso más adecuado a sus necesidades. Durante las celebraciones y para la oración hay una rampa disponible en la Porta dei Fiori."
+     },
+     "ascensore": {
+      "it": "Per raggiungere il Museo, situato al piano superiore della Basilica, sono disponibili un ascensore e un servoscala.",
+      "en": "A lift and a stairlift are available to reach the Museum, on the upper floor of the Basilica.",
+      "fr": "Un ascenseur et un monte-escalier permettent d'accéder au Musée, situé à l'étage supérieur de la Basilique.",
+      "de": "Ein Aufzug und ein Treppenlift führen zum Museum im oberen Stockwerk der Basilika.",
+      "es": "Para llegar al Museo, situado en la planta superior de la Basílica, hay un ascensor y un salvaescaleras."
+     }
+    }
+   }
+  },
+  {
+   "id": "frari",
+   "nome": "Basilica dei Frari",
+   "categoria": "chiese",
+   "latitudine": 45.43666,
+   "longitudine": 12.32611,
+   "sestiere": "San Polo",
+   "fermata": "San Tomà",
+   "sito": "https://www.basilicadeifrari.it",
+   "orari": [
+    {
+     "giorni": "lun-ven",
+     "ore": "9:00–19:30",
+     "periodo": "04-25/10-31"
+    },
+    {
+     "giorni": "sab",
+     "ore": "9:00–18:00",
+     "periodo": "04-25/10-31"
+    },
+    {
+     "giorni": "lun-sab",
+     "ore": "9:00–18:00",
+     "periodo": "11-01/04-24"
+    },
+    {
+     "giorni": "dom",
+     "ore": "13:00–18:00"
+    }
+   ],
+   "biglietto": {
+    "intero": 8,
+    "ridotto": 3
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Facade_of_Santa_Maria_Gloriosa_dei_Frari_(Venice).jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Frari_(Venice)_-_Sacristy_-General_view.jpg"
+    },
+    {
+     "autore": "Giovanni Bellini",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Frari_(Venice)_-_Sacristy_-_triptych_by_Giovanni_Bellini.jpg"
+    },
+    {
+     "autore": "Titian",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Frari_(Venice)_nave_left_-_Altar_of_Madona_di_Ca%27Pesaro.jpg"
+    }
+   ],
+   "video": {
+    "id": "ahtFQBiXQqg",
+    "titolo": "L'Assunta dei Frari di Tiziano",
+    "canale": "HUB Scuola",
+    "durata": "2:31"
+   },
+   "descrizione": {
+    "it": "Grande chiesa gotica francescana in mattoni, tra le più importanti di Venezia. Custodisce l'Assunta di Tiziano sull'altare maggiore, la Pala Pesaro, il trittico di Giovanni Bellini e i monumenti funebri di Tiziano e Canova.",
+    "en": "A vast Franciscan Gothic church in brick, one of the most important in Venice. It holds Titian's Assumption on the high altar, the Pesaro Madonna, Giovanni Bellini's triptych and the tombs of Titian and Canova.",
+    "fr": "Grande église gothique franciscaine en brique, parmi les plus importantes de Venise. Elle abrite l'Assomption du Titien au maître-autel, la Pala Pesaro, le triptyque de Giovanni Bellini et les tombeaux du Titien et de Canova.",
+    "de": "Große gotische Franziskanerkirche aus Backstein, eine der bedeutendsten Venedigs. Hier befinden sich Tizians Assunta am Hochaltar, die Pesaro-Madonna, Giovanni Bellinis Triptychon sowie die Grabmäler von Tizian und Canova.",
+    "es": "Gran iglesia gótica franciscana de ladrillo, una de las más importantes de Venecia. Alberga la Asunción de Tiziano en el altar mayor, la Pala Pesaro, el tríptico de Giovanni Bellini y los monumentos funerarios de Tiziano y Canova."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La tomba di Tiziano",
+      "en": "Titian's tomb",
+      "fr": "La tombe du Titien",
+      "de": "Das Grab Tizians",
+      "es": "La tumba de Tiziano"
+     },
+     "testo": {
+      "it": "La basilica custodisce la tomba del pittore Tiziano Vecellio, oltre a importanti opere d'arte e monumenti funerari. È uno dei luoghi veneziani più significativi per comprendere il legame tra arte, religione e memoria.",
+      "en": "The basilica houses the tomb of the painter Titian (Tiziano Vecellio), along with important works of art and funerary monuments. It is one of the most significant places in Venice for understanding the bond between art, religion and memory.",
+      "fr": "La basilique abrite le tombeau du peintre Titien (Tiziano Vecellio), ainsi que d'importantes œuvres d'art et monuments funéraires. C'est l'un des lieux vénitiens les plus significatifs pour comprendre le lien entre art, religion et mémoire.",
+      "de": "Die Basilika birgt das Grab des Malers Tizian (Tiziano Vecellio) sowie bedeutende Kunstwerke und Grabmäler. Sie ist einer der bedeutendsten Orte Venedigs, um die Verbindung von Kunst, Religion und Erinnerung zu verstehen.",
+      "es": "La basílica custodia la tumba del pintor Tiziano Vecellio, además de importantes obras de arte y monumentos funerarios. Es uno de los lugares venecianos más significativos para comprender la relación entre arte, religión y memoria."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "personaggio": [
+    "moderata-fonte",
+    "tiziano-vecellio",
+    "giovanni-bellini"
+   ],
+   "accessibilita": {
+    "fonte": "https://www.basilicadeifrari.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "L'ingresso principale presenta alcuni gradini, superabili mediante rampe fisse e removibili, con l'assistenza del personale. Sono presenti ulteriori gradini per raggiungere il presbiterio e la Sala del Capitolo, anch'essi superabili con rampe.",
+      "en": "The main entrance has a few steps, which can be overcome with fixed and removable ramps, with help from staff. There are further steps to reach the presbytery and the Chapter House, which can also be overcome with ramps.",
+      "fr": "L'entrée principale comporte quelques marches, franchissables grâce à des rampes fixes et amovibles, avec l'aide du personnel. D'autres marches mènent au presbytère et à la Salle du Chapitre, elles aussi franchissables par des rampes.",
+      "de": "Der Haupteingang hat einige Stufen, die mit festen und mobilen Rampen und mit Hilfe des Personals überwunden werden können. Weitere Stufen führen zum Presbyterium und zum Kapitelsaal; auch sie sind mit Rampen überwindbar.",
+      "es": "La entrada principal tiene algunos escalones, que se pueden salvar mediante rampas fijas y desmontables con la ayuda del personal. Hay más escalones para llegar al presbiterio y a la Sala Capitular, que también se pueden salvar con rampas."
+     },
+     "visiva": {
+      "it": "Vicino all'ingresso c'è un pannello multisensoriale con la pianta della chiesa in forma tattile, il disegno della facciata e testi in italiano, inglese e Braille.",
+      "en": "Near the entrance there is a multisensory panel with a tactile plan of the church, a drawing of the façade and texts in Italian, English and Braille.",
+      "fr": "Près de l'entrée se trouve un panneau multisensoriel avec le plan de l'église en relief, le dessin de la façade et des textes en italien, en anglais et en braille.",
+      "de": "Am Eingang steht eine multisensorische Tafel mit tastbarem Grundriss der Kirche, einer Zeichnung der Fassade und Texten auf Italienisch, Englisch und in Braille.",
+      "es": "Cerca de la entrada hay un panel multisensorial con la planta de la iglesia en relieve, el dibujo de la fachada y textos en italiano, inglés y braille."
+     },
+     "uditiva": {
+      "it": "Con i QR code e i tag NFC del pannello si accede a videoguide in italiano e inglese; la versione italiana è anche in Lingua dei Segni Italiana (LIS).",
+      "en": "The QR codes and NFC tags on the panel give access to video guides in Italian and English; the Italian version is also in Italian Sign Language (LIS).",
+      "fr": "Les QR codes et les tags NFC du panneau donnent accès à des vidéoguides en italien et en anglais ; la version italienne existe aussi en langue des signes italienne (LIS).",
+      "de": "Über die QR-Codes und NFC-Tags der Tafel sind Videoguides auf Italienisch und Englisch abrufbar; die italienische Fassung gibt es auch in Italienischer Gebärdensprache (LIS).",
+      "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
+     }
+    }
+   }
+  },
+  {
+   "id": "salute",
+   "nome": "Basilica della Salute",
+   "categoria": "chiese",
+   "latitudine": 45.43083,
+   "longitudine": 12.33444,
+   "sestiere": "Dorsoduro",
+   "fermata": "Salute",
+   "sito": "https://www.basilicasalutevenezia.it",
+   "orari": [
+    {
+     "giorni": "tutti",
+     "ore": "9:00–12:00 · 15:00–17:30"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": {
+    "it": "Ingresso gratuito alla basilica; la sacrestia con le opere di Tiziano è a pagamento ed è chiusa il lunedì. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Free entry to the basilica; the sacristy with Titian's works has a fee and is closed on Mondays. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Entrada gratuita a la basílica; la sacristía con las obras de Tiziano es de pago y cierra los lunes. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Entrée libre dans la basilique ; la sacristie avec les œuvres du Titien est payante et fermée le lundi. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Eintritt in die Basilika frei; die Sakristei mit Werken Tizians ist kostenpflichtig und montags geschlossen. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "immagine": {
+    "autore": "Wolfgang Moroder",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Santa_Maria_della_Salute_from_Hotel_Monaco.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_-_Santa_Maria_della_Salute_-_Le_due_cupole_e_i_due_campanili.jpg"
+    },
+    {
+     "autore": "Wolfgang Moroder",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Santa_Maria_della_Salute_from_Hotel_Monaco_nightview.jpg"
+    },
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Santa_Maria_della_Salute_(Venice)_-_Main_altar.jpg"
+    }
+   ],
+   "video": {
+    "id": "_oV5Y4XpcWI",
+    "titolo": "Venezia in un minuto: la Salute",
+    "canale": "Venezia in un minuto",
+    "durata": "2:12"
+   },
+   "descrizione": {
+    "it": "Capolavoro barocco di Baldassarre Longhena all'imbocco del Canal Grande, costruito come ex voto dopo la peste del 1630. Ogni 21 novembre i veneziani vi arrivano a piedi su un ponte di barche per la Festa della Salute; in sacrestia opere di Tiziano e Tintoretto.",
+    "en": "Baldassare Longhena's Baroque masterpiece at the mouth of the Grand Canal, built as a votive offering after the plague of 1630. Every 21 November Venetians walk there over a pontoon bridge for the Festa della Salute; the sacristy holds works by Titian and Tintoretto.",
+    "fr": "Chef-d'œuvre baroque de Baldassare Longhena à l'entrée du Grand Canal, érigé en ex-voto après la peste de 1630. Chaque 21 novembre, les Vénitiens s'y rendent à pied sur un pont de bateaux pour la Festa della Salute ; la sacristie abrite des œuvres du Titien et du Tintoret.",
+    "de": "Barockes Meisterwerk von Baldassare Longhena an der Einmündung des Canal Grande, als Votivkirche nach der Pest von 1630 erbaut. Jedes Jahr am 21. November gehen die Venezianer über eine Schiffsbrücke zur Festa della Salute; in der Sakristei hängen Werke von Tizian und Tintoretto.",
+    "es": "Obra maestra barroca de Baldassare Longhena a la entrada del Gran Canal, construida como exvoto tras la peste de 1630. Cada 21 de noviembre los venecianos llegan a pie por un puente de barcas para la Festa della Salute; la sacristía guarda obras de Tiziano y Tintoretto."
+   },
+   "personaggio": "tiziano-vecellio",
+   "accessibilita": {
+    "fonte": "https://www.basilicasalutevenezia.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "non_accessibile": {
+      "it": "L'accesso alla Basilica avviene attraverso una scalinata. Non sono disponibili servoscala o ascensori per superare i gradini. Anche l'accesso alla Sacrestia, durante le visite turistiche, richiede di superare dei gradini senza ausili di sollevamento. La visita alla Cupola comporta inoltre la salita di 150 gradini e non dispone di ascensore o servoscala.",
+      "en": "The Basilica is reached by a flight of steps. There are no stairlifts or lifts to get past them. Access to the Sacristy during tourist visits also involves steps with no lifting aids. Visiting the Dome also means climbing 150 steps, with no lift or stairlift.",
+      "fr": "On accède à la Basilique par un escalier. Aucun monte-escalier ni ascenseur ne permet de franchir les marches. L'accès à la Sacristie, lors des visites touristiques, implique aussi de franchir des marches sans dispositif d'élévation. La visite de la Coupole comporte en outre la montée de 150 marches, sans ascenseur ni monte-escalier.",
+      "de": "Der Zugang zur Basilika erfolgt über eine Freitreppe. Treppenlifte oder Aufzüge zur Überwindung der Stufen gibt es nicht. Auch der Zugang zur Sakristei ist bei Besichtigungen nur über Stufen ohne Hebehilfen möglich. Der Besuch der Kuppel erfordert zudem den Aufstieg über 150 Stufen, ohne Aufzug oder Treppenlift.",
+      "es": "Se accede a la Basílica por una escalinata. No hay salvaescaleras ni ascensores para salvar los escalones. También el acceso a la Sacristía, durante las visitas turísticas, obliga a subir escalones sin ayudas de elevación. Además, la visita a la Cúpula supone subir 150 escalones y no dispone de ascensor ni salvaescaleras."
+     },
+     "visiva": {
+      "it": "Vicino all'ingresso c'è un pannello multisensoriale con la pianta della chiesa in forma tattile, il disegno della facciata e testi in italiano, inglese e Braille.",
+      "en": "Near the entrance there is a multisensory panel with a tactile plan of the church, a drawing of the façade and texts in Italian, English and Braille.",
+      "fr": "Près de l'entrée se trouve un panneau multisensoriel avec le plan de l'église en relief, le dessin de la façade et des textes en italien, en anglais et en braille.",
+      "de": "Am Eingang steht eine multisensorische Tafel mit tastbarem Grundriss der Kirche, einer Zeichnung der Fassade und Texten auf Italienisch, Englisch und in Braille.",
+      "es": "Cerca de la entrada hay un panel multisensorial con la planta de la iglesia en relieve, el dibujo de la fachada y textos en italiano, inglés y braille."
+     },
+     "uditiva": {
+      "it": "Con i QR code e i tag NFC del pannello si accede a videoguide in italiano e inglese, con video in Lingua dei Segni Italiana (LIS) e International Sign (IS).",
+      "en": "The QR codes and NFC tags on the panel give access to video guides in Italian and English, with videos in Italian Sign Language (LIS) and International Sign (IS).",
+      "fr": "Les QR codes et les tags NFC du panneau donnent accès à des vidéoguides en italien et en anglais, avec des vidéos en langue des signes italienne (LIS) et en International Sign (IS).",
+      "de": "Über die QR-Codes und NFC-Tags der Tafel sind Videoguides auf Italienisch und Englisch abrufbar, mit Videos in Italienischer Gebärdensprache (LIS) und International Sign (IS).",
+      "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
+     }
+    }
+   }
+  },
+  {
+   "id": "palazzo-ducale",
+   "nome": "Palazzo Ducale",
+   "categoria": "musei",
+   "latitudine": 45.4337,
+   "longitudine": 12.3405,
+   "sestiere": "San Marco",
+   "fermata": "San Zaccaria",
+   "sito": "https://palazzoducale.visitmuve.it",
+   "orari": [
+    {
+     "giorni": "tutti",
+     "ore": "9:00–19:00",
+     "periodo": "04-01/10-31"
+    },
+    {
+     "giorni": "tutti",
+     "ore": "9:00–18:00",
+     "periodo": "11-01/03-31"
+    }
+   ],
+   "biglietto": {
+    "intero": 35,
+    "ridotto": 15,
+    "nota": "b_piazza"
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_Doge%27s_Palace_facing_the_sea.jpg"
+    },
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Venice)_Bocca_di_Leone_in_the_Doge%27s_Palace.jpg"
+    },
+    {
+     "autore": "Moonik",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Courtyard_of_the_Doge%27s_Palace_(Venice)_001.jpg"
+    }
+   ],
+   "video": {
+    "id": "pSP-oc7RlGA",
+    "titolo": "Scopri Palazzo Ducale di Venezia",
+    "canale": "Musei Civici Venezia",
+    "durata": "1:21"
+   },
+   "descrizione": {
+    "it": "Residenza del Doge e sede del governo della Serenissima, capolavoro del gotico veneziano. Si visitano le sale istituzionali con opere di Tintoretto e Veronese (tra cui il Paradiso, una delle tele più grandi al mondo), le armerie e le prigioni attraverso il Ponte dei Sospiri.",
+    "en": "Residence of the Doge and seat of the Venetian Republic's government, a masterpiece of Venetian Gothic. Visitors see the state rooms with works by Tintoretto and Veronese (including Paradise, one of the largest canvases in the world), the armoury and the prisons across the Bridge of Sighs.",
+    "fr": "Résidence du doge et siège du gouvernement de la Sérénissime, chef-d'œuvre du gothique vénitien. On visite les salles officielles ornées d'œuvres du Tintoret et de Véronèse (dont le Paradis, l'une des plus grandes toiles au monde), l'armurerie et les prisons par le pont des Soupirs.",
+    "de": "Residenz des Dogen und Regierungssitz der Republik Venedig, ein Meisterwerk der venezianischen Gotik. Zu sehen sind die Prunksäle mit Werken von Tintoretto und Veronese (darunter das Paradies, eines der größten Gemälde der Welt), die Waffenkammer und die Gefängnisse jenseits der Seufzerbrücke.",
+    "es": "Residencia del dux y sede del gobierno de la Serenísima, obra maestra del gótico veneciano. Se visitan las salas institucionales con obras de Tintoretto y Veronés (entre ellas el Paraíso, uno de los lienzos más grandes del mundo), la armería y las prisiones a través del Puente de los Suspiros."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Le bocche dei leoni",
+      "en": "The lions' mouths",
+      "fr": "Les gueules de lion",
+      "de": "Die Löwenmäuler",
+      "es": "Las bocas de león"
+     },
+     "testo": {
+      "it": "A Venezia esistevano le bocche di leone, cassette a forma di volto o di testa leonina nelle quali i cittadini potevano depositare denunce segrete alle autorità della Repubblica. Alcune erano dedicate a specifici reati o abusi.",
+      "en": "In Venice there were the lions' mouths: boxes shaped like a face or a lion's head into which citizens could drop secret denunciations for the authorities of the Republic. Some were dedicated to specific crimes or abuses.",
+      "fr": "À Venise existaient les « bouches de lion » : des boîtes en forme de visage ou de tête de lion dans lesquelles les citoyens pouvaient déposer des dénonciations secrètes auprès des autorités de la République. Certaines étaient consacrées à des crimes ou abus précis.",
+      "de": "In Venedig gab es die Löwenmäuler: Kästen in Form eines Gesichts oder eines Löwenkopfes, in die die Bürger geheime Anzeigen bei den Behörden der Republik einwerfen konnten. Einige waren bestimmten Verbrechen oder Missbräuchen gewidmet.",
+      "es": "En Venecia existían las «bocas de león»: buzones con forma de rostro o de cabeza de león en los que los ciudadanos podían depositar denuncias secretas ante las autoridades de la República. Algunas estaban dedicadas a delitos o abusos concretos."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Il doge cancellato dalla storia",
+      "en": "The doge erased from history",
+      "fr": "Le doge effacé de l'histoire",
+      "de": "Der aus der Geschichte getilgte Doge",
+      "es": "El dux borrado de la historia"
+     },
+     "testo": {
+      "it": "Dopo il tentato colpo di Stato del 1355, il doge Marin Faliero fu condannato a morte. Nel fregio dei ritratti dei dogi della Sala del Maggior Consiglio, al posto della sua effigie compare un drappo nero: una forma simbolica di condanna della Repubblica.",
+      "en": "After the attempted coup of 1355, the doge Marin Faliero was sentenced to death. In the frieze of doges' portraits in the Sala del Maggior Consiglio, a black drape appears in place of his likeness: a symbolic form of the Republic's condemnation.",
+      "fr": "Après la tentative de coup d'État de 1355, le doge Marin Faliero fut condamné à mort. Dans la frise des portraits des doges de la Salle du Grand Conseil, une draperie noire remplace son effigie : une forme symbolique de la condamnation de la République.",
+      "de": "Nach dem versuchten Staatsstreich von 1355 wurde der Doge Marin Faliero zum Tode verurteilt. Im Fries mit den Dogenporträts im Saal des Großen Rates erscheint an der Stelle seines Bildnisses ein schwarzes Tuch – eine symbolische Form der Verurteilung durch die Republik.",
+      "es": "Tras el intento de golpe de Estado de 1355, el dux Marin Faliero fue condenado a muerte. En el friso de retratos de los dux de la Sala del Maggior Consiglio, en lugar de su efigie aparece un paño negro: una forma simbólica de condena de la República."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "personaggio": [
+    "giacomo-casanova",
+    "jacopo-tintoretto"
+   ],
+   "accessibilita": {
+    "fonte": "https://palazzoducale.visitmuve.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Il percorso ordinario è dotato di servizi accessibili. Gli Itinerari Segreti, le Prigioni e l'Armeria non sono accessibili.",
+      "en": "The standard route has accessible facilities. The Secret Itineraries, the Prisons and the Armoury are not accessible.",
+      "fr": "Le parcours ordinaire dispose de services accessibles. Les Itinéraires secrets, les Prisons et l'Armurerie ne sont pas accessibles.",
+      "de": "Der reguläre Rundgang verfügt über barrierefreie Einrichtungen. Die Geheimen Wege, die Gefängnisse und die Waffenkammer sind nicht zugänglich.",
+      "es": "El recorrido ordinario cuenta con servicios accesibles. Los Itinerarios Secretos, las Prisiones y la Armería no son accesibles."
+     },
+     "ascensore": {
+      "it": "È disponibile un ascensore completamente accessibile.",
+      "en": "A fully accessible lift is available.",
+      "fr": "Un ascenseur entièrement accessible est disponible.",
+      "de": "Ein vollständig barrierefreier Aufzug ist vorhanden.",
+      "es": "Hay un ascensor totalmente accesible."
+     },
+     "servizi": {
+      "it": "I servizi igienici accessibili si trovano al piano terra.",
+      "en": "Accessible toilets are on the ground floor.",
+      "fr": "Les toilettes accessibles se trouvent au rez-de-chaussée.",
+      "de": "Barrierefreie Toiletten befinden sich im Erdgeschoss.",
+      "es": "Los aseos accesibles están en la planta baja."
+     }
+    }
+   }
+  },
+  {
+   "id": "accademia",
+   "nome": "Gallerie dell'Accademia",
+   "categoria": "musei",
+   "latitudine": 45.43139,
+   "longitudine": 12.32806,
+   "sestiere": "Dorsoduro",
+   "fermata": "Accademia",
+   "sito": "https://www.gallerieaccademia.it",
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "9:00–19:00"
+    }
+   ],
+   "biglietto": {
+    "intero": 15,
+    "nota": "b_under18"
+   },
+   "nota": {
+    "it": "Il lunedì l'orario è ridotto o il museo è chiuso: verifica sul sito ufficiale. Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "On Mondays opening hours are reduced or the museum is closed: check the official website. Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "es": "Los lunes el horario es reducido o el museo cierra: consulta la web oficial. Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita.",
+    "fr": "Le lundi, horaires réduits ou fermeture : vérifiez sur le site officiel. Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Montags verkürzte Öffnungszeiten oder geschlossen: bitte auf der offiziellen Website prüfen. Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Accademia_(Venice).jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Sailko",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Gallerie_dell%27accademia,_una_sala_00.JPG"
+    },
+    {
+     "autore": "Moleskine",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Venezia_-_Gallerie_dell%27Accademia_-_202209182100.jpg"
+    }
+   ],
+   "video": {
+    "id": "y7bIWDqsn3s",
+    "titolo": "Venezia in un minuto: le Gallerie dell'Accademia",
+    "canale": "Venezia in un minuto",
+    "durata": "2:35"
+   },
+   "descrizione": {
+    "it": "Il museo più importante per la pittura veneziana dal Trecento al Settecento: Bellini, Carpaccio, Giorgione (La Tempesta), Tiziano, Tintoretto, Veronese e Canaletto. Conserva anche l'Uomo vitruviano di Leonardo, esposto solo raramente.",
+    "en": "The key museum for Venetian painting from the 14th to the 18th century: Bellini, Carpaccio, Giorgione (The Tempest), Titian, Tintoretto, Veronese and Canaletto. It also owns Leonardo's Vitruvian Man, which is only rarely on display.",
+    "fr": "Le musée de référence pour la peinture vénitienne du XIVe au XVIIIe siècle : Bellini, Carpaccio, Giorgione (La Tempête), Titien, Tintoret, Véronèse et Canaletto. Il conserve aussi l'Homme de Vitruve de Léonard, exposé seulement rarement.",
+    "de": "Das wichtigste Museum für venezianische Malerei vom 14. bis 18. Jahrhundert: Bellini, Carpaccio, Giorgione (Das Gewitter), Tizian, Tintoretto, Veronese und Canaletto. Es besitzt auch Leonardos Vitruvianischen Menschen, der nur selten ausgestellt wird.",
+    "es": "El museo fundamental de la pintura veneciana del siglo XIV al XVIII: Bellini, Carpaccio, Giorgione (La Tempestad), Tiziano, Tintoretto, Veronés y Canaletto. También conserva el Hombre de Vitruvio de Leonardo, que solo se expone en raras ocasiones."
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Un museo nato dalla soppressione dei conventi",
+      "en": "A museum born from the suppression of convents",
+      "fr": "Un musée né de la suppression des couvents",
+      "de": "Ein Museum, das aus der Aufhebung der Klöster hervorging",
+      "es": "Un museo nacido de la supresión de los conventos"
+     },
+     "testo": {
+      "it": "Le Gallerie nacquero anche per raccogliere e conservare dipinti provenienti da chiese e conventi soppressi durante l'età napoleonica. La collezione aprì al pubblico nel 1817 e divenne uno dei principali musei della pittura veneta.",
+      "en": "The Gallerie were also founded to collect and preserve paintings from churches and convents suppressed during the Napoleonic era. The collection opened to the public in 1817 and became one of the main museums of Venetian painting.",
+      "fr": "Les Gallerie furent aussi créées pour rassembler et conserver des peintures provenant d'églises et de couvents supprimés à l'époque napoléonienne. La collection ouvrit au public en 1817 et devint l'un des principaux musées de la peinture vénitienne.",
+      "de": "Die Gallerie entstanden auch, um Gemälde aus Kirchen und während der napoleonischen Zeit aufgehobenen Klöstern zu sammeln und zu bewahren. Die Sammlung wurde 1817 der Öffentlichkeit zugänglich und wurde eines der wichtigsten Museen venezianischer Malerei.",
+      "es": "Las Gallerie también nacieron para reunir y conservar pinturas procedentes de iglesias y conventos suprimidos durante la época napoleónica. La colección abrió al público en 1817 y se convirtió en uno de los principales museos de la pintura véneta."
+     }
+    }
+   ],
+   "personaggio": [
+    "jacopo-tintoretto",
+    "tiziano-vecellio",
+    "giovanni-bellini"
+   ],
+   "accessibilita": {
+    "fonte": "https://www.gallerieaccademia.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "ascensore": {
+      "it": "È presente un ascensore che permette di raggiungere il primo piano del museo.",
+      "en": "A lift gives access to the first floor of the museum.",
+      "fr": "Un ascenseur permet d'accéder au premier étage du musée.",
+      "de": "Ein Aufzug führt in das erste Obergeschoss des Museums.",
+      "es": "Hay un ascensor que permite llegar a la primera planta del museo."
+     }
+    }
+   }
+  },
+  {
+   "id": "guggenheim",
+   "nome": "Collezione Peggy Guggenheim",
+   "categoria": "musei",
+   "latitudine": 45.4308,
+   "longitudine": 12.33154,
+   "sestiere": "Dorsoduro",
+   "fermata": "Accademia / Salute",
+   "sito": "https://www.guggenheim-venice.it",
+   "orari": [
+    {
+     "giorni": "tutti",
+     "ore": "10:00–18:00"
+    }
+   ],
+   "chiuso": [
+    "mar"
+   ],
+   "biglietto": {
+    "intero": 17,
+    "ridotto": 14
+   },
+   "immagine": {
+    "autore": "G.Lanting",
+    "licenza": "CC BY 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:PI5DAE~2_-_CopyPeggy_Guggenheim_Museum.JPG"
+   },
+   "galleria": [
+    {
+     "autore": "",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Guggenheim_venice.jpg"
+    },
+    {
+     "autore": "David Pirmann",
+     "licenza": "CC BY 2.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:IT_Venice_10-1983_K02-36_Peggy_Guggenheim_Museum_-_Found_Photo.jpg"
+    },
+    {
+     "autore": "",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Guggenheim_Venedig.jpg"
+    }
+   ],
+   "descrizione": {
+    "it": "Una delle più importanti collezioni di arte europea e americana del Novecento, nella casa di Peggy Guggenheim a Palazzo Venier dei Leoni sul Canal Grande. Opere di Picasso, Pollock, Magritte, Dalí, Kandinsky e un bel giardino delle sculture.",
+    "en": "One of the most important collections of 20th-century European and American art, in Peggy Guggenheim's former home, Palazzo Venier dei Leoni on the Grand Canal. Works by Picasso, Pollock, Magritte, Dalí and Kandinsky, plus a lovely sculpture garden.",
+    "fr": "L'une des plus importantes collections d'art européen et américain du XXe siècle, dans l'ancienne demeure de Peggy Guggenheim, le Palazzo Venier dei Leoni sur le Grand Canal. Œuvres de Picasso, Pollock, Magritte, Dalí et Kandinsky, et un beau jardin de sculptures.",
+    "de": "Eine der bedeutendsten Sammlungen europäischer und amerikanischer Kunst des 20. Jahrhunderts, im einstigen Wohnhaus von Peggy Guggenheim, dem Palazzo Venier dei Leoni am Canal Grande. Werke von Picasso, Pollock, Magritte, Dalí und Kandinsky sowie ein schöner Skulpturengarten.",
+    "es": "Una de las colecciones más importantes de arte europeo y estadounidense del siglo XX, en la antigua casa de Peggy Guggenheim, el Palazzo Venier dei Leoni sobre el Gran Canal. Obras de Picasso, Pollock, Magritte, Dalí y Kandinsky, y un bonito jardín de esculturas."
+   },
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "accessibilita": {
+    "fonte": "https://www.guggenheim-venice.it",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Sono disponibili gratuitamente sedie a rotelle. Il personale può fornire assistenza. Diverse piattaforme elevatrici consentono di superare i dislivelli, ma alcune sale delle mostre temporanee non sono raggiungibili.",
+      "en": "Wheelchairs are available free of charge. Staff can provide assistance. Several platform lifts help with changes in level, but some temporary exhibition rooms cannot be reached.",
+      "fr": "Des fauteuils roulants sont disponibles gratuitement. Le personnel peut apporter son aide. Plusieurs plateformes élévatrices permettent de franchir les dénivelés, mais certaines salles des expositions temporaires ne sont pas accessibles.",
+      "de": "Rollstühle stehen kostenlos zur Verfügung. Das Personal kann Unterstützung leisten. Mehrere Hebebühnen überwinden Höhenunterschiede, einige Räume der Wechselausstellungen sind jedoch nicht erreichbar.",
+      "es": "Hay sillas de ruedas disponibles de forma gratuita. El personal puede prestar asistencia. Varias plataformas elevadoras permiten salvar los desniveles, pero algunas salas de las exposiciones temporales no son accesibles."
+     },
+     "visiva": {
+      "it": "È disponibile il progetto «Doppio Senso», con percorsi tattili e riproduzioni di alcune opere. Si possono richiedere ulteriori riproduzioni tattili e schede descrittive. Sono ammessi i cani guida.",
+      "en": "The «Doppio Senso» project offers tactile tours and reproductions of some works. Further tactile reproductions and descriptive sheets can be requested. Guide dogs are welcome.",
+      "fr": "Le projet « Doppio Senso » propose des parcours tactiles et des reproductions de certaines œuvres. D'autres reproductions tactiles et des fiches descriptives peuvent être demandées. Les chiens guides sont admis.",
+      "de": "Das Projekt „Doppio Senso“ bietet Tastrundgänge und Reproduktionen einiger Werke. Weitere tastbare Reproduktionen und Beschreibungen können angefragt werden. Blindenführhunde sind erlaubt.",
+      "es": "Está disponible el proyecto «Doppio Senso», con recorridos táctiles y reproducciones de algunas obras. Se pueden solicitar más reproducciones táctiles y fichas descriptivas. Se admiten perros guía."
+     }
+    }
+   }
+  },
+  {
+   "id": "ponte-rialto",
+   "nome": "Ponte di Rialto",
+   "categoria": "ponti",
+   "latitudine": 45.43807,
+   "longitudine": 12.33565,
+   "sestiere": "San Polo / San Marco",
+   "fermata": "Rialto",
+   "orari": [
+    {
+     "giorni": "tutti",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "immagine": {
+    "autore": "kallerna",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Rialto_2025_4.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Wolfgang Moroder",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg"
+    },
+    {
+     "autore": "Saffron Blaze",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Rialto_Gondoliers.jpg"
+    },
+    {
+     "autore": "",
+     "licenza": "Public domain",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Venezia-_Ponte_di_Rialto-_1875_Carlo_Naya.jpg"
+    }
+   ],
+   "video": {
+    "id": "t0Dm4onz5mQ",
+    "titolo": "Ponte di Rialto",
+    "canale": "Grand Tour Project",
+    "durata": "5:12"
+   },
+   "descrizione": {
+    "it": "Il ponte più antico e celebre sul Canal Grande: l'arco in pietra di Antonio da Ponte (1588–1591) sostituì un ponte di legno ed è fiancheggiato da due file di botteghe. Collega l'area del mercato di Rialto con San Marco.",
+    "en": "The oldest and most famous bridge over the Grand Canal: Antonio da Ponte's stone arch (1588–1591) replaced a wooden bridge and is lined with two rows of shops. It links the Rialto market area with San Marco.",
+    "fr": "Le plus ancien et le plus célèbre pont sur le Grand Canal : l'arche de pierre d'Antonio da Ponte (1588-1591) remplaça un pont de bois et est bordée de deux rangées de boutiques. Il relie le quartier du marché du Rialto à San Marco.",
+    "de": "Die älteste und berühmteste Brücke über den Canal Grande: Antonio da Pontes Steinbogen (1588–1591) ersetzte eine Holzbrücke und wird von zwei Reihen Läden gesäumt. Sie verbindet das Marktviertel Rialto mit San Marco.",
+    "es": "El puente más antiguo y célebre sobre el Gran Canal: el arco de piedra de Antonio da Ponte (1588–1591) sustituyó a un puente de madera y está flanqueado por dos hileras de tiendas. Une la zona del mercado de Rialto con San Marcos."
+   },
+   "wikipedia": {
+    "it": "Ponte di Rialto",
+    "de": "Rialtobrücke",
+    "en": "Rialto Bridge",
+    "es": "Puente de Rialto",
+    "fr": "Pont du Rialto"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Il ponte delle botteghe",
+      "en": "The bridge of shops",
+      "fr": "Le pont des boutiques",
+      "de": "Die Brücke der Läden",
+      "es": "El puente de las tiendas"
+     },
+     "testo": {
+      "it": "Il Ponte di Rialto non è soltanto un passaggio sul Canal Grande: ospita botteghe lungo i suoi lati. La struttura in pietra, completata nel 1591, sostituì un precedente ponte di legno ed è diventata uno dei simboli di Venezia.",
+      "en": "The Rialto Bridge is not just a crossing over the Grand Canal: it has shops along its sides. The stone structure, completed in 1591, replaced an earlier wooden bridge and has become one of the symbols of Venice.",
+      "fr": "Le pont du Rialto n'est pas seulement un passage sur le Grand Canal : il abrite des boutiques le long de ses côtés. La structure en pierre, achevée en 1591, remplaça un pont de bois antérieur et est devenue l'un des symboles de Venise.",
+      "de": "Die Rialtobrücke ist nicht nur eine Überquerung des Canal Grande: An ihren Seiten stehen Läden. Das Steinbauwerk, 1591 vollendet, ersetzte eine frühere Holzbrücke und ist zu einem der Wahrzeichen Venedigs geworden.",
+      "es": "El Puente de Rialto no es solo un paso sobre el Gran Canal: tiene tiendas a lo largo de sus laterales. La estructura de piedra, terminada en 1591, sustituyó a un puente de madera anterior y se ha convertido en uno de los símbolos de Venecia."
+     }
+    }
+   ],
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   }
+  },
+  {
+   "id": "piazza-san-marco",
+   "nome": "Piazza San Marco",
+   "categoria": "piazze",
+   "latitudine": 45.43405,
+   "longitudine": 12.3384,
+   "sestiere": "San Marco",
+   "fermata": "San Marco Vallaresso / San Zaccaria",
+   "orari": [
+    {
+     "giorni": "tutti",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "immagine": {
+    "autore": "Matthias Süßen",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_San_Marco_(Venice)_at_night-msu-2021-6449-.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Wolfgang Moroder",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Procuratie_vecie_in_piazza_San_Marco_a_Venezia.jpg"
+    },
+    {
+     "autore": "Giovanni Antonio Canal",
+     "licenza": "Public domain",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Piazza_San_Marco_in_Venice_-_Google_Art_Project.jpg"
+    },
+    {
+     "autore": "Wolfgang Moroder",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_San_Marco_and_Venice_on_Easter_2013.JPG"
+    }
+   ],
+   "video": {
+    "id": "yKFHwFWeKVE",
+    "titolo": "Piazza San Marco . Venezia | Venice",
+    "canale": "discover Europe",
+    "durata": "6:01"
+   },
+   "descrizione": {
+    "it": "L'unica \"piazza\" di Venezia (tutte le altre sono campi), cuore della vita cittadina da oltre mille anni. Vi si affacciano la Basilica, il Campanile, la Torre dell'Orologio, le Procuratie e gli storici caffè Florian e Quadri; con l'acqua alta è la prima ad allagarsi.",
+    "en": "The only \"piazza\" in Venice (all the others are campi), the heart of city life for over a thousand years. It is framed by the Basilica, the Campanile, the Clock Tower, the Procuratie and the historic Florian and Quadri cafés; it is the first place to flood at high tide.",
+    "fr": "La seule « piazza » de Venise (toutes les autres sont des campi), cœur de la vie de la cité depuis plus de mille ans. Elle est bordée par la basilique, le campanile, la tour de l'Horloge, les Procuraties et les cafés historiques Florian et Quadri ; c'est la première à être inondée lors de l'acqua alta.",
+    "de": "Die einzige „Piazza“ Venedigs (alle anderen Plätze heißen Campo), seit über tausend Jahren das Herz der Stadt. Sie wird von Basilika, Campanile, Uhrturm, Prokuratien und den historischen Cafés Florian und Quadri gesäumt; bei Acqua alta steht sie als Erste unter Wasser.",
+    "es": "La única «piazza» de Venecia (todas las demás son campos), corazón de la vida de la ciudad desde hace más de mil años. La rodean la Basílica, el Campanile, la Torre del Reloj, las Procuradurías y los históricos cafés Florian y Quadri; con el acqua alta es la primera en inundarse."
+   },
+   "wikipedia": {
+    "it": "Piazza San Marco",
+    "de": "Markusplatz",
+    "en": "Piazza San Marco",
+    "es": "Plaza de San Marcos",
+    "fr": "Place Saint-Marc (Venise)"
+   },
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   }
+  },
+  {
+   "id": "stazione",
+   "nome": "Stazione Santa Lucia",
+   "categoria": "altri",
+   "latitudine": 45.44098,
+   "longitudine": 12.32104,
+   "sestiere": "Cannaregio",
+   "fermata": "Ferrovia",
+   "sito": "https://www.trenitalia.com",
+   "immagine": {
+    "autore": "Marc Ryckaert",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Venezia_Santa_Lucia_Train_Station_R01.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Erik Drost",
+     "licenza": "CC BY 2.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Venezia_Santa_Lucia_Railway_Station_(5987222354).jpg"
+    },
+    {
+     "autore": "Paul Colin Hennig firstdorsal.eu",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Venezia_Santa_Lucia_railway_station_seen_across_the_Grand_Canal_at_night_(2023).jpg"
+    },
+    {
+     "autore": "Bahnfrend",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:ETR_460-34_at_Venezia_Santa_Lucia,_2008.JPG"
+    }
+   ],
+   "descrizione": {
+    "it": "La stazione ferroviaria di Venezia Santa Lucia, edificio razionalista affacciato direttamente sul Canal Grande. Uscendo ci si trova davanti al Ponte degli Scalzi e alla fermata Ferrovia dei vaporetti.",
+    "en": "Venezia Santa Lucia railway station, a modernist building opening directly onto the Grand Canal. Step outside and you're facing the Scalzi Bridge and the Ferrovia vaporetto stop.",
+    "fr": "La gare de Venezia Santa Lucia, bâtiment rationaliste donnant directement sur le Grand Canal. En sortant, on se trouve face au pont des Scalzi et à l'arrêt de vaporetto Ferrovia.",
+    "de": "Der Bahnhof Venezia Santa Lucia, ein rationalistischer Bau direkt am Canal Grande. Beim Hinausgehen steht man vor der Scalzi-Brücke und der Vaporetto-Haltestelle Ferrovia.",
+    "es": "La estación de tren de Venezia Santa Lucia, edificio racionalista que da directamente al Gran Canal. Al salir te encuentras frente al Puente de los Descalzos y la parada de vaporetto Ferrovia."
+   }
+  },
+  {
+   "id": "piazzale-roma",
+   "nome": "Piazzale Roma",
+   "categoria": "altri",
+   "latitudine": 45.43799,
+   "longitudine": 12.31809,
+   "sestiere": "Santa Croce",
+   "fermata": "Piazzale Roma",
+   "immagine": {
+    "autore": "Luca Fascia",
+    "licenza": "Public domain",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazzale_Roma.JPG"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Appontement_Piazzale_Roma_(Parisi).jpg"
+    },
+    {
+     "autore": "Mariordo (Mario Roberto Durán Ortiz)",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazzale_Roma_07_2017_4186.jpg"
+    },
+    {
+     "autore": "Kihij",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Tram_Piazzale_Roma_Venice_ACTV_Prove_in_Corso.jpg"
+    }
+   ],
+   "descrizione": {
+    "it": "Il capolinea di auto e autobus (anche per l'aeroporto) all'ingresso della città, collegato alla terraferma dal Ponte della Libertà. Da qui partono i vaporetti, il People Mover per il Tronchetto e il moderno Ponte della Costituzione verso la stazione.",
+    "en": "The terminus for cars and buses (including to the airport) at the entrance to the city, linked to the mainland by the Ponte della Libertà. Vaporetti, the People Mover to Tronchetto and the modern Constitution Bridge to the station all start here.",
+    "fr": "Terminus des voitures et des bus (y compris pour l'aéroport) à l'entrée de la ville, relié à la terre ferme par le pont de la Liberté. C'est le point de départ des vaporettos, du People Mover vers le Tronchetto et du moderne pont de la Constitution vers la gare.",
+    "de": "Endstation für Autos und Busse (auch zum Flughafen) am Eingang der Stadt, über die Ponte della Libertà mit dem Festland verbunden. Hier starten die Vaporetti, der People Mover zum Tronchetto und die moderne Verfassungsbrücke zum Bahnhof.",
+    "es": "La terminal de coches y autobuses (también al aeropuerto) a la entrada de la ciudad, unida a tierra firme por el Puente de la Libertad. De aquí salen los vaporettos, el People Mover al Tronchetto y el moderno Puente de la Constitución hacia la estación."
+   },
+   "wikipedia": {
+    "it": "Piazzale Roma",
+    "en": "Piazzale Roma",
+    "es": "Piazzale Roma",
+    "fr": "Piazzale Roma (Venise)"
+   }
+  }
+ ]
+}

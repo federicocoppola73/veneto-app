@@ -19,6 +19,9 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 
 - Ogni città in `catalogo.json` ha un campo `pacchetto`: l'indirizzo del manifest con l'elenco dei file da scaricare, `{ "file": [{ "path": "dati/luoghi.json", "url": "https://...", "sha256": "..." }] }`. Se il campo è `null`, il pulsante "Scarica" è disattivato.
 - I file si salvano nella cartella dell'app, per città.
+- Versione gratuita: ogni città ha anche un pacchetto **prova** (`manifest_prova.json`, campo `pacchetto_prova` in `catalogo.json`) con mappa, servizi, linee dei mezzi e i 10 monumenti di `anteprima`. I dati filtrati stanno in `pacchetti/<città>/prova/dati/`; le foto restano quelle del pacchetto completo. Lo genera `prepara_pacchetto.py`, che aggiorna anche `dimensione_mb` e `dimensione_prova_mb` in `catalogo.json`.
+- Schermata iniziale: una città non acquistata ha **Visita** (la prima volta scarica la prova) e **Acquista**; una acquistata ha **Apri**, il cestino (popup di conferma; l'acquisto resta) e **Aggiorna** se c'è una versione nuova; se è acquistata ma non è sul telefono, **Scarica**.
+- Acquisti: `src/acquisti.js`. Lo store non è ancora collegato: nelle build di prova (`EXPO_PUBLIC_SIMULA_ACQUISTI=1` nel profilo `preview` di `eas.json`) e in sviluppo l'acquisto è simulato; nella build per lo store il pulsante avvisa che gli acquisti arriveranno a breve.
 - Il manifest e `dati/immagini.json` si rigenerano con `python3 strumenti/prepara_pacchetto.py pacchetti/<città>`.
 - Campo facoltativo `sede` di un luogo (testo nelle lingue, es. `{ "it": "presso Ca' Pesaro" }`): compare accanto alla zona nella scheda, per i musei ospitati in un altro edificio.
 - Campo facoltativo `note_finali` di un luogo: riquadri in fondo alla scheda, `[{ "icona": "🪑", "titolo": { "it": "…" }, "testo": { "it": "…" } }]`.

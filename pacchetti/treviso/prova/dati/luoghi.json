@@ -1,0 +1,774 @@
+{
+ "_nota": "Luoghi di Treviso, dal foglio Treviso_dati_app (Monumenti e Curiosità). Coordinate da Wikipedia/OpenStreetMap, foto da Wikimedia Commons. Orari e biglietti da verificare sui siti ufficiali.",
+ "categorie": [
+  "chiese",
+  "musei",
+  "palazzi",
+  "ponti",
+  "piazze",
+  "giardini",
+  "altri"
+ ],
+ "luoghi": [
+  {
+   "id": "piazza-dei-signori",
+   "nome": "Piazza dei Signori",
+   "categoria": "piazze",
+   "sestiere": "Centro storico",
+   "latitudine": 45.6659,
+   "longitudine": 12.2455,
+   "descrizione": {
+    "it": "È il cuore della vita cittadina fin dal Medioevo. Sulla piazza si affacciano il Palazzo dei Trecento, sede del Consiglio comunale, il Palazzo del Podestà con la Torre Civica e il Palazzo Pretorio. Sotto i portici si aprono caffè e locali storici dove i trevigiani si ritrovano per l'aperitivo. Dalla piazza partono Calmaggiore verso il Duomo e le vie che portano alla Pescheria e ai Buranelli.",
+    "en": "It has been the heart of city life since the Middle Ages. The square is overlooked by the Palazzo dei Trecento, seat of the city council, the Palazzo del Podestà with the Civic Tower and the Palazzo Pretorio. Under the arcades are historic cafés where locals meet for an aperitif. From here Calmaggiore leads to the Cathedral and other streets lead to the Fish Market and the Buranelli canal.",
+    "fr": "C'est le cœur de la vie de la ville depuis le Moyen Âge. Sur la place donnent le Palazzo dei Trecento, siège du conseil municipal, le Palazzo del Podestà avec la Tour civique et le Palazzo Pretorio. Sous les arcades s'ouvrent des cafés historiques où les Trévisans se retrouvent pour l'apéritif. De la place partent la Calmaggiore vers la cathédrale et les rues qui mènent à la Pescheria et aux Buranelli.",
+    "de": "Seit dem Mittelalter ist er das Herz des städtischen Lebens. Am Platz stehen der Palazzo dei Trecento, Sitz des Stadtrats, der Palazzo del Podestà mit dem Bürgerturm und der Palazzo Pretorio. Unter den Arkaden laden historische Cafés zum Aperitif ein. Vom Platz führt die Calmaggiore zum Dom, andere Gassen zur Fischmarktinsel und zum Buranelli-Kanal.",
+    "es": "Es el corazón de la vida de la ciudad desde la Edad Media. A la plaza se asoman el Palazzo dei Trecento, sede del concejo municipal, el Palazzo del Podestà con la Torre Cívica y el Palazzo Pretorio. Bajo los soportales hay cafés históricos donde los trevisanos se reúnen para el aperitivo. Desde aquí la Calmaggiore lleva a la catedral y otras calles a la Pescheria y a los Buranelli."
+   },
+   "immagine": {
+    "autore": "kallerna",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_dei_Signori_Treviso_2025.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Gary Houston",
+     "licenza": "CC0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Piazza-dei-Signori-Treviso-20050528-025.jpg"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4112TrevisoPzaDeiSignori.JPG"
+    },
+    {
+     "autore": "Aktron",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_Piazza_dei_Signori_06.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "it": "Piazza dei Signori (Treviso)",
+    "en": "Piazza dei Signori, Treviso"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La piazza della Berlina",
+      "en": "The square of the pillory",
+      "fr": "La place du pilori",
+      "de": "Der Platz des Prangers",
+      "es": "La plaza de la picota"
+     },
+     "testo": {
+      "it": "La piazza non ha sempre avuto questo nome: nei secoli è stata chiamata anche Piazza Maggiore, Piazza delle Catene e Piazza della Berlina. Quest'ultimo nome ricorda una pratica di pubblica umiliazione che si svolgeva proprio qui.",
+      "en": "The square has not always had this name: over the centuries it was also called Piazza Maggiore, Piazza delle Catene (of the Chains) and Piazza della Berlina (of the Pillory). The last name recalls a form of public humiliation that took place right here.",
+      "fr": "La place n'a pas toujours porté ce nom : au fil des siècles, elle s'est aussi appelée Piazza Maggiore, Piazza delle Catene (des Chaînes) et Piazza della Berlina (du Pilori). Ce dernier nom rappelle une pratique d'humiliation publique qui avait lieu ici même.",
+      "de": "Der Platz hieß nicht immer so: Im Laufe der Jahrhunderte wurde er auch Piazza Maggiore, Piazza delle Catene (der Ketten) und Piazza della Berlina (des Prangers) genannt. Der letzte Name erinnert an eine öffentliche Demütigung, die genau hier stattfand.",
+      "es": "La plaza no siempre ha tenido este nombre: a lo largo de los siglos se llamó también Piazza Maggiore, Piazza delle Catene (de las Cadenas) y Piazza della Berlina (de la Picota). Este último nombre recuerda una práctica de humillación pública que se realizaba justo aquí."
+     }
+    }
+   ]
+  },
+  {
+   "id": "palazzo-dei-trecento",
+   "nome": "Palazzo dei Trecento",
+   "categoria": "palazzi",
+   "sestiere": "Centro storico",
+   "latitudine": 45.665729,
+   "longitudine": 12.245965,
+   "descrizione": {
+    "it": "Costruito tra la fine del XII secolo e il 1268 come sede delle assemblee del Comune, deve il nome al Consiglio dei Trecento che vi si riuniva. Il grande salone al primo piano conserva affreschi medievali e rinascimentali. Colpito dai bombardamenti del 7 aprile 1944, fu ricostruito con cura: una linea sulla facciata indica ancora fin dove arrivò la distruzione. Oggi ospita il Consiglio comunale; sotto il portico si trova la Fontana delle Tette originale.",
+    "en": "Built between the late 12th century and 1268 for the assemblies of the Commune, it takes its name from the Council of Three Hundred that met here. The great hall on the first floor keeps medieval and Renaissance frescoes. Hit by the bombing of 7 April 1944, it was carefully rebuilt: a line on the façade still shows how far the destruction reached. Today it houses the city council; the original Fontana delle Tette is under the portico.",
+    "fr": "Construit entre la fin du XIIe siècle et 1268 pour les assemblées de la Commune, il doit son nom au Conseil des Trois-Cents qui s'y réunissait. La grande salle du premier étage conserve des fresques médiévales et Renaissance. Touché par le bombardement du 7 avril 1944, il fut soigneusement reconstruit : une ligne sur la façade montre encore jusqu'où alla la destruction. Il accueille aujourd'hui le conseil municipal ; sous le portique se trouve la Fontana delle Tette originale.",
+    "de": "Zwischen dem späten 12. Jahrhundert und 1268 für die Versammlungen der Kommune errichtet, verdankt er seinen Namen dem Rat der Dreihundert, der hier tagte. Der große Saal im ersten Stock bewahrt mittelalterliche und Renaissance-Fresken. Beim Bombenangriff vom 7. April 1944 getroffen, wurde er sorgfältig wiederaufgebaut: Eine Linie an der Fassade zeigt noch, wie weit die Zerstörung reichte. Heute tagt hier der Stadtrat; unter dem Portikus steht die originale Fontana delle Tette.",
+    "es": "Construido entre finales del siglo XII y 1268 para las asambleas del Común, debe su nombre al Consejo de los Trescientos que se reunía aquí. El gran salón de la primera planta conserva frescos medievales y renacentistas. Alcanzado por el bombardeo del 7 de abril de 1944, fue reconstruido con esmero: una línea en la fachada aún muestra hasta dónde llegó la destrucción. Hoy alberga el concejo municipal; bajo el pórtico está la Fontana delle Tette original."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Piazza_dei_Signori_e_Palazzo_dei_Trecento.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4105TrevisoPalazzoTrecento.JPG"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4107TrevisoPalazzoTrecento.JPG"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4108TrevisoPalazzoTrecento.JPG"
+    }
+   ],
+   "nota": {
+    "it": "Visitabile solo in occasione di aperture straordinarie e visite guidate (per esempio le Giornate europee del patrimonio). Il portico al piano terra è sempre accessibile.",
+    "en": "Open only during special openings and guided tours (for example the European Heritage Days). The ground-floor portico is always accessible.",
+    "fr": "Visitable uniquement lors d'ouvertures exceptionnelles et de visites guidées (par exemple les Journées européennes du patrimoine). Le portique du rez-de-chaussée est toujours accessible.",
+    "de": "Nur bei Sonderöffnungen und Führungen zugänglich (zum Beispiel an den Europäischen Tagen des Denkmals). Der Portikus im Erdgeschoss ist immer zugänglich.",
+    "es": "Visitable solo en aperturas extraordinarias y visitas guiadas (por ejemplo, las Jornadas Europeas del Patrimonio). El pórtico de la planta baja siempre es accesible."
+   },
+   "sito": "https://www.comune.treviso.it",
+   "wikipedia": {
+    "it": "Palazzo dei Trecento",
+    "en": "Palazzo dei Trecento"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una casa comunale nata nel Duecento",
+      "en": "A town hall founded in the 13th century",
+      "fr": "Une maison communale née au XIIIe siècle",
+      "de": "Ein Gemeindehaus aus dem 13. Jahrhundert",
+      "es": "Una casa comunal nacida en el siglo XIII"
+     },
+     "testo": {
+      "it": "Il palazzo era la Domus Comunis, sede delle istituzioni cittadine già dal primo decennio del XIII secolo. Nel salone si trovavano anche i banchi dei giudici, che si occupavano delle controversie tra cittadini.",
+      "en": "The palace was the Domus Comunis, seat of the city's institutions already from the first decade of the 13th century. The hall also housed the benches of the judges, who dealt with disputes between citizens.",
+      "fr": "Le palais était la Domus Comunis, siège des institutions de la ville dès la première décennie du XIIIe siècle. Dans la grande salle se trouvaient aussi les bancs des juges, qui s'occupaient des litiges entre citoyens.",
+      "de": "Der Palast war die Domus Comunis, Sitz der städtischen Institutionen bereits seit dem ersten Jahrzehnt des 13. Jahrhunderts. Im Saal befanden sich auch die Bänke der Richter, die sich um Streitigkeiten zwischen den Bürgern kümmerten.",
+      "es": "El palacio era la Domus Comunis, sede de las instituciones de la ciudad ya desde la primera década del siglo XIII. En la sala también se encontraban los bancos de los jueces, que se ocupaban de los litigios entre ciudadanos."
+     }
+    },
+    {
+     "titolo": {
+      "it": "La ricostruzione dopo il bombardamento",
+      "en": "The reconstruction after the bombing",
+      "fr": "La reconstruction après le bombardement",
+      "de": "Der Wiederaufbau nach dem Bombenangriff",
+      "es": "La reconstrucción tras el bombardeo"
+     },
+     "testo": {
+      "it": "Il bombardamento del 7 aprile 1944 provocò danni gravissimi all'edificio, che rischiò di essere distrutto. Il palazzo fu poi ricostruito e restituito alla città negli anni immediatamente successivi alla guerra.",
+      "en": "The bombing of 7 April 1944 caused severe damage to the building, which risked being destroyed. The palace was later rebuilt and returned to the city in the years immediately after the war.",
+      "fr": "Le bombardement du 7 avril 1944 causa de très graves dégâts au bâtiment, qui faillit être détruit. Le palais fut ensuite reconstruit et rendu à la ville dans les années qui suivirent immédiatement la guerre.",
+      "de": "Der Bombenangriff vom 7. April 1944 verursachte schwerste Schäden am Gebäude, das beinahe zerstört wurde. Der Palast wurde danach wiederaufgebaut und in den unmittelbar auf den Krieg folgenden Jahren der Stadt zurückgegeben.",
+      "es": "El bombardeo del 7 de abril de 1944 causó daños gravísimos en el edificio, que estuvo a punto de ser destruido. El palacio fue reconstruido después y devuelto a la ciudad en los años inmediatamente posteriores a la guerra."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Il nome nato da un equivoco storico",
+      "en": "A name born from a historical misunderstanding",
+      "fr": "Un nom né d'un malentendu historique",
+      "de": "Ein Name, der auf einem historischen Missverständnis beruht",
+      "es": "Un nombre nacido de un malentendido histórico"
+     },
+     "testo": {
+      "it": "Uno studio di Giovanni Netto sui podestà di Treviso medievale segnala che il nome Palazzo dei Trecento sarebbe nato da un'interpretazione errata delle funzioni originarie dell'edificio.\n\nNel 1803 lo storico Federici scrisse che il palazzo era stato costruito per ospitare il Consiglio dei Trecento e i consoli e giudici. Ma queste due funzioni erano incompatibili e i documenti non confermavano quella ricostruzione. Il nome è rimasto comunque in uso.",
+      "en": "A study by Giovanni Netto on the podestà of medieval Treviso points out that the name Palazzo dei Trecento would have arisen from a mistaken interpretation of the building's original functions.\n\nIn 1803 the historian Federici wrote that the palace had been built to house the Council of the Three Hundred, along with the consuls and judges. But these two functions were incompatible, and the documents did not confirm that reconstruction. The name has nonetheless remained in use.",
+      "fr": "Une étude de Giovanni Netto sur les podestats de la Trévise médiévale signale que le nom Palazzo dei Trecento serait né d'une interprétation erronée des fonctions originelles du bâtiment.\n\nEn 1803, l'historien Federici écrivit que le palais avait été construit pour accueillir le Conseil des Trois Cents, ainsi que les consuls et les juges. Mais ces deux fonctions étaient incompatibles, et les documents ne confirmaient pas cette reconstruction. Le nom est néanmoins resté en usage.",
+      "de": "Eine Studie von Giovanni Netto über die Podestà des mittelalterlichen Treviso weist darauf hin, dass der Name Palazzo dei Trecento aus einer falschen Deutung der ursprünglichen Funktionen des Gebäudes entstanden sein könnte.\n\n1803 schrieb der Historiker Federici, der Palast sei erbaut worden, um den Rat der Dreihundert sowie die Konsuln und Richter aufzunehmen. Doch diese beiden Funktionen waren unvereinbar, und die Urkunden bestätigten jene Rekonstruktion nicht. Der Name blieb dennoch in Gebrauch.",
+      "es": "Un estudio de Giovanni Netto sobre los podestà de la Treviso medieval señala que el nombre Palazzo dei Trecento habría surgido de una interpretación errónea de las funciones originales del edificio.\n\nEn 1803, el historiador Federici escribió que el palacio se había construido para alojar al Consejo de los Trescientos y a los cónsules y jueces. Pero esas dos funciones eran incompatibles, y los documentos no confirmaban esa reconstrucción. El nombre, sin embargo, siguió en uso."
+     }
+    }
+   ]
+  },
+  {
+   "id": "porta-san-tomaso",
+   "nome": "Porta San Tomaso",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.669632,
+   "longitudine": 12.250692,
+   "descrizione": {
+    "it": "È la più monumentale delle porte cittadine, costruita nel 1518 su progetto di Guglielmo Bergamasco e dedicata al podestà Paolo Nani. La facciata esterna in pietra d'Istria, ricca di decorazioni, è dominata dal leone di San Marco; in cima, una cupola in legno e piombo regge la statua di San Paolo. Da qui partiva la strada verso il Friuli e le Alpi. All'interno si trova la sala d'armi, aperta in occasione di visite guidate.",
+    "en": "It is the most monumental of the city gates, built in 1518 to a design by Guglielmo Bergamasco and dedicated to the podestà Paolo Nani. The richly decorated outer façade in Istrian stone is dominated by the lion of Saint Mark; on top, a wooden and lead dome carries a statue of Saint Paul. The road to Friuli and the Alps started here. Inside is the armoury, open during guided tours.",
+    "fr": "C'est la plus monumentale des portes de la ville, construite en 1518 sur un projet de Guglielmo Bergamasco et dédiée au podestat Paolo Nani. La façade extérieure en pierre d'Istrie, richement décorée, est dominée par le lion de saint Marc ; au sommet, une coupole en bois et plomb porte la statue de saint Paul. D'ici partait la route vers le Frioul et les Alpes. À l'intérieur se trouve la salle d'armes, ouverte lors des visites guidées.",
+    "de": "Es ist das prächtigste Stadttor, 1518 nach Plänen von Guglielmo Bergamasco erbaut und dem Podestà Paolo Nani gewidmet. Die reich verzierte Außenfassade aus istrischem Stein wird vom Markuslöwen beherrscht; oben trägt eine Kuppel aus Holz und Blei die Statue des heiligen Paulus. Hier begann die Straße nach Friaul und in die Alpen. Innen liegt der Waffensaal, der bei Führungen geöffnet ist.",
+    "es": "Es la más monumental de las puertas de la ciudad, construida en 1518 según el proyecto de Guglielmo Bergamasco y dedicada al podestà Paolo Nani. La fachada exterior de piedra de Istria, muy decorada, está dominada por el león de San Marcos; arriba, una cúpula de madera y plomo sostiene la estatua de San Pablo. Desde aquí salía el camino hacia el Friuli y los Alpes. En su interior está la sala de armas, abierta en las visitas guiadas."
+   },
+   "immagine": {
+    "autore": "Appo92",
+    "licenza": "CC BY-SA 3.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:PortaSanTomaso3.JPG"
+   },
+   "galleria": [
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_-_Porta_San_Tomaso_und_angrenzende_Stadtmauern_03.jpg"
+    },
+    {
+     "autore": "Roberto Ribotta",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Porta_San_Tommaso_a_Treviso.jpg"
+    },
+    {
+     "autore": "Appo92",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:PortaSanTomaso1.JPG"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": {
+    "it": "L'esterno è sempre visibile. La sala d'armi e gli ipogei del bastione si visitano solo in occasione delle aperture dell'associazione Treviso Sotterranea.",
+    "en": "The exterior is always visible. The armoury and the underground rooms of the bastion can only be visited during openings by the Treviso Sotterranea association.",
+    "fr": "L'extérieur est toujours visible. La salle d'armes et les souterrains du bastion ne se visitent que lors des ouvertures de l'association Treviso Sotterranea.",
+    "de": "Das Äußere ist jederzeit sichtbar. Waffensaal und unterirdische Räume der Bastion sind nur bei Öffnungen des Vereins Treviso Sotterranea zugänglich.",
+    "es": "El exterior siempre es visible. La sala de armas y los subterráneos del bastión solo se visitan en las aperturas de la asociación Treviso Sotterranea."
+   },
+   "wikipedia": {
+    "it": "Porta San Tomaso"
+   }
+  },
+  {
+   "id": "fontana-delle-tette",
+   "nome": "Fontana delle Tette",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.6663,
+   "longitudine": 12.245,
+   "descrizione": {
+    "it": "La fontana fu voluta nel 1559 dal podestà Alvise Da Ponte dopo un periodo di grave siccità: una statua femminile dal cui seno sgorgava l'acqua. Secondo la tradizione, nei giorni di festa e all'insediamento del nuovo podestà dai due getti usciva vino, bianco da una parte e rosso dall'altra, offerto a tutti per tre giorni. L'originale è conservato sotto il portico del Palazzo dei Trecento, mentre nel cortile di Calle del Podestà si trova una copia.",
+    "en": "The fountain was commissioned in 1559 by the podestà Alvise Da Ponte after a severe drought: a female statue with water flowing from her breasts. According to tradition, on feast days and when a new podestà took office, the two spouts poured wine, white from one and red from the other, offered to everyone for three days. The original is kept under the portico of the Palazzo dei Trecento, while a copy stands in the courtyard of Calle del Podestà.",
+    "fr": "La fontaine fut voulue en 1559 par le podestat Alvise Da Ponte après une grave sécheresse : une statue féminine dont l'eau jaillissait des seins. Selon la tradition, les jours de fête et à l'installation du nouveau podestat, les deux jets donnaient du vin, blanc d'un côté et rouge de l'autre, offert à tous pendant trois jours. L'original est conservé sous le portique du Palazzo dei Trecento, tandis qu'une copie se trouve dans la cour de la Calle del Podestà.",
+    "de": "Der Podestà Alvise Da Ponte ließ den Brunnen 1559 nach einer schweren Dürre errichten: eine Frauenstatue, aus deren Brüsten Wasser fließt. Der Überlieferung nach floss an Festtagen und beim Amtsantritt eines neuen Podestà Wein aus den beiden Strahlen, weiß aus dem einen und rot aus dem anderen, drei Tage lang für alle. Das Original steht unter dem Portikus des Palazzo dei Trecento, eine Kopie im Hof der Calle del Podestà.",
+    "es": "La fuente fue encargada en 1559 por el podestà Alvise Da Ponte tras una grave sequía: una estatua femenina de cuyos pechos manaba agua. Según la tradición, en los días de fiesta y cuando tomaba posesión un nuevo podestà, de los dos chorros salía vino, blanco de uno y tinto del otro, ofrecido a todos durante tres días. El original se conserva bajo el pórtico del Palazzo dei Trecento y una copia está en el patio de la Calle del Podestà."
+   },
+   "immagine": {
+    "autore": "Mitopoietico",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:La_Fontana_delle_Tette_con_la_targa_storica.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Mitopoietico",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:La_Fontana_delle_Tette_vista_di_fronte.jpg"
+    },
+    {
+     "autore": "Sailko",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Scuola_veneta,_protome_della_fontana_delle_tette,_in_pietra_d%27istria,_1559-60_ca._01.jpg"
+    },
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_-_Statuen_02.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "it": "Fontana delle Tette"
+   }
+  },
+  {
+   "id": "canale-dei-buranelli",
+   "nome": "Canale dei Buranelli",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.66705,
+   "longitudine": 12.24625,
+   "descrizione": {
+    "it": "È uno degli scorci più fotografati di Treviso: un canale del Cagnan su cui si affacciano case con portici, balconi e facciate dipinte, con l'acqua che scorre sotto i ponticelli. Il nome ricorda i mercanti di Burano che, secondo la tradizione, vi avevano casa e magazzini per i loro commerci. La via pedonale che lo costeggia porta dalla zona di Piazza dei Signori alla Pescheria.",
+    "en": "It is one of the most photographed views of Treviso: a branch of the Cagnan lined with houses with porticoes, balconies and painted façades, with water flowing under small bridges. The name recalls the merchants from Burano who, according to tradition, had homes and warehouses here for their trade. The pedestrian street along it leads from Piazza dei Signori to the Fish Market.",
+    "fr": "C'est l'une des vues les plus photographiées de Trévise : un bras du Cagnan bordé de maisons à portiques, balcons et façades peintes, avec l'eau qui coule sous les petits ponts. Le nom rappelle les marchands de Burano qui, selon la tradition, y avaient maisons et entrepôts. La rue piétonne qui le longe mène de la Piazza dei Signori à la Pescheria.",
+    "de": "Einer der meistfotografierten Ausblicke Trevisos: ein Arm des Cagnan, gesäumt von Häusern mit Laubengängen, Balkonen und bemalten Fassaden, das Wasser fließt unter kleinen Brücken hindurch. Der Name erinnert an die Händler aus Burano, die hier der Überlieferung nach Häuser und Lager hatten. Die Fußgängergasse am Kanal führt von der Piazza dei Signori zur Fischmarktinsel.",
+    "es": "Es una de las vistas más fotografiadas de Treviso: un brazo del Cagnan bordeado de casas con soportales, balcones y fachadas pintadas, con el agua corriendo bajo pequeños puentes. El nombre recuerda a los mercaderes de Burano que, según la tradición, tenían aquí casas y almacenes. La calle peatonal que lo bordea lleva de la Piazza dei Signori a la Pescheria."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Il_canale_dei_Buranelli.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Appo92",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:BuranelliPonteRinaldi.JPG"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4150TrevisoCagnanBuranelli.JPG"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4281TrevisoCanaleBuranelli.JPG"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "it": "Canale dei Buranelli"
+   }
+  },
+  {
+   "id": "isola-della-pescheria",
+   "nome": "Isola della Pescheria",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.666753,
+   "longitudine": 12.248259,
+   "descrizione": {
+    "it": "Questa piccola isola artificiale in mezzo al Cagnan Grande fu realizzata nel 1856 su progetto dell'architetto Francesco Bomben, per spostare il mercato del pesce in un luogo dove l'acqua corrente garantisse pulizia e igiene. Collegata alle rive da due ponticelli, ospita ancora il mercato del pesce al mattino. Nel resto della giornata, tra salici e mulini, è un luogo tranquillo dove sostare lungo l'acqua.",
+    "en": "This small artificial island in the middle of the Cagnan Grande was created in 1856 to a design by the architect Francesco Bomben, to move the fish market to a place where running water kept everything clean. Linked to the banks by two small bridges, it still hosts the fish market in the morning. The rest of the day, among willows and mills, it is a quiet spot by the water.",
+    "fr": "Cette petite île artificielle au milieu du Cagnan Grande fut aménagée en 1856 sur un projet de l'architecte Francesco Bomben, pour déplacer le marché aux poissons dans un lieu où l'eau courante garantissait propreté et hygiène. Reliée aux rives par deux petits ponts, elle accueille encore le marché aux poissons le matin. Le reste de la journée, entre saules et moulins, c'est un endroit paisible au bord de l'eau.",
+    "de": "Diese kleine künstliche Insel mitten im Cagnan Grande entstand 1856 nach Plänen des Architekten Francesco Bomben, um den Fischmarkt an einen Ort zu verlegen, an dem fließendes Wasser für Sauberkeit sorgte. Über zwei kleine Brücken mit den Ufern verbunden, findet hier noch vormittags der Fischmarkt statt. Den Rest des Tages ist sie zwischen Weiden und Mühlen ein ruhiger Ort am Wasser.",
+    "es": "Esta pequeña isla artificial en medio del Cagnan Grande se construyó en 1856 según el proyecto del arquitecto Francesco Bomben, para trasladar el mercado de pescado a un lugar donde el agua corriente garantizara limpieza e higiene. Unida a las orillas por dos pequeños puentes, aún acoge el mercado de pescado por la mañana. El resto del día, entre sauces y molinos, es un rincón tranquilo junto al agua."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Isola_della_Pescheria_vista_dal_Vicolo_del_Molinetto.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_04_Fischmarkt.jpg"
+    },
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_05_Fischmarkt.jpg"
+    },
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Treviso_06_Fischmarkt.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "it": "Isola della Pescheria"
+   }
+  },
+  {
+   "id": "calmaggiore",
+   "nome": "Calmaggiore",
+   "categoria": "altri",
+   "sestiere": "Centro storico",
+   "latitudine": 45.666204,
+   "longitudine": 12.244414,
+   "descrizione": {
+    "it": "È la via principale di Treviso e collega Piazza dei Signori a Piazza del Duomo. Ricalca l'antico cardo massimo della città romana. È fiancheggiata da portici e da palazzi con facciate affrescate, che ricordano perché Treviso era chiamata \"urbs picta\", la città dipinta. Sotto i portici si susseguono negozi e caffè: è la passeggiata più amata dai trevigiani.",
+    "en": "It is the main street of Treviso and links Piazza dei Signori to Piazza del Duomo. It follows the ancient cardo maximus of the Roman town. It is lined with porticoes and buildings with frescoed façades, which explain why Treviso was called \"urbs picta\", the painted city. Under the arcades are shops and cafés: it is the locals' favourite stroll.",
+    "fr": "C'est la rue principale de Trévise et elle relie la Piazza dei Signori à la Piazza del Duomo. Elle suit l'ancien cardo maximus de la ville romaine. Elle est bordée de portiques et de palais aux façades peintes à fresque, qui rappellent pourquoi Trévise était appelée « urbs picta », la ville peinte. Sous les arcades se succèdent boutiques et cafés : c'est la promenade préférée des Trévisans.",
+    "de": "Sie ist die Hauptstraße Trevisos und verbindet die Piazza dei Signori mit der Piazza del Duomo. Sie folgt dem alten Cardo maximus der römischen Stadt. Gesäumt wird sie von Laubengängen und Palästen mit freskierten Fassaden, die erklären, warum Treviso „urbs picta“, die bemalte Stadt, genannt wurde. Unter den Arkaden reihen sich Geschäfte und Cafés: die beliebteste Flaniermeile der Trevisaner.",
+    "es": "Es la calle principal de Treviso y une la Piazza dei Signori con la Piazza del Duomo. Sigue el antiguo cardo máximo de la ciudad romana. Está flanqueada por soportales y palacios con fachadas pintadas al fresco, que explican por qué Treviso era llamada «urbs picta», la ciudad pintada. Bajo los soportales se suceden tiendas y cafés: es el paseo favorito de los trevisanos."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Calmaggiore_-_Treviso.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Raf24",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Calmaggiore,_Treviso.jpg"
+    },
+    {
+     "autore": "Aqwis",
+     "licenza": "CC BY-SA 3.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:TrevisoStreet.jpg"
+    },
+    {
+     "autore": "Sailko",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Treviso,_calmaggiore_38,_portico.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "sempre"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "wikipedia": {
+    "it": "Calmaggiore"
+   }
+  },
+  {
+   "id": "cattedrale-di-san-pietro-apostolo",
+   "nome": "Cattedrale di San Pietro Apostolo",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 45.666487,
+   "longitudine": 12.243037,
+   "descrizione": {
+    "it": "Il Duomo di Treviso, dedicato a San Pietro Apostolo, sorge su un luogo di culto di età paleocristiana. L'edificio medievale fu quasi interamente ricostruito tra Settecento e Ottocento, con la facciata neoclassica preceduta da un pronao a sei colonne e sette cupole che coprono le navate. All'interno si trova la Cappella del Malchiostro, con l'Annunciazione di Tiziano e gli affreschi del Pordenone. Sotto il presbiterio si apre la cripta romanica, con una fitta selva di colonnine.",
+    "en": "Treviso Cathedral, dedicated to Saint Peter the Apostle, stands on an early Christian place of worship. The medieval building was almost entirely rebuilt in the 18th and 19th centuries, with a neoclassical façade fronted by a six-column portico and seven domes over the naves. Inside is the Malchiostro Chapel, with Titian's Annunciation and frescoes by Pordenone. Beneath the presbytery lies the Romanesque crypt, with a forest of small columns.",
+    "fr": "La cathédrale de Trévise, dédiée à saint Pierre apôtre, s'élève sur un lieu de culte paléochrétien. L'édifice médiéval fut presque entièrement reconstruit aux XVIIIe et XIXe siècles, avec une façade néoclassique précédée d'un pronaos à six colonnes et sept coupoles au-dessus des nefs. À l'intérieur se trouve la chapelle Malchiostro, avec l'Annonciation de Titien et les fresques du Pordenone. Sous le chœur s'ouvre la crypte romane, avec une forêt de colonnettes.",
+    "de": "Der Dom von Treviso, dem Apostel Petrus geweiht, steht an einer frühchristlichen Kultstätte. Der mittelalterliche Bau wurde im 18. und 19. Jahrhundert fast vollständig neu errichtet, mit einer klassizistischen Fassade, einem sechssäuligen Portikus und sieben Kuppeln über den Schiffen. Innen liegt die Cappella del Malchiostro mit Tizians Verkündigung und Fresken von Pordenone. Unter dem Presbyterium öffnet sich die romanische Krypta mit einem Wald kleiner Säulen.",
+    "es": "La catedral de Treviso, dedicada a San Pedro Apóstol, se levanta sobre un lugar de culto paleocristiano. El edificio medieval fue reconstruido casi por completo entre los siglos XVIII y XIX, con una fachada neoclásica precedida por un pórtico de seis columnas y siete cúpulas sobre las naves. En su interior está la capilla Malchiostro, con la Anunciación de Tiziano y frescos del Pordenone. Bajo el presbiterio se abre la cripta románica, con un bosque de columnillas."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Duomo_-_facciata.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_-_interior_-_Nave.jpg"
+    },
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_-_Interior_-_Annunciation_by_Titian.jpg"
+    },
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Duomo_(Treviso)_exterior_lions_right.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "lun-dom",
+     "ore": "08:00–12:00·15:30–18:00"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": {
+    "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "sito": "https://www.diocesitv.it",
+   "wikipedia": {
+    "it": "Duomo di Treviso",
+    "en": "Treviso Cathedral"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una cattedrale quasi completamente ricostruita",
+      "en": "An almost completely rebuilt cathedral",
+      "fr": "Une cathédrale presque entièrement reconstruite",
+      "de": "Ein fast vollständig neu erbauter Dom",
+      "es": "Una catedral casi totalmente reconstruida"
+     },
+     "testo": {
+      "it": "Nel Settecento l'edificio medievale fu quasi completamente demolito e ricostruito. Della struttura precedente restano la cripta e le cappelle absidali, mentre la facciata neoclassica fu completata nell'Ottocento.",
+      "en": "In the 18th century the medieval building was almost entirely demolished and rebuilt. Of the earlier structure only the crypt and the apse chapels remain, while the neoclassical façade was completed in the 19th century.",
+      "fr": "Au XVIIIe siècle, l'édifice médiéval fut presque entièrement démoli et reconstruit. De la structure précédente restent la crypte et les chapelles absidiales, tandis que la façade néoclassique fut achevée au XIXe siècle.",
+      "de": "Im 18. Jahrhundert wurde der mittelalterliche Bau fast vollständig abgerissen und neu errichtet. Vom Vorgängerbau sind die Krypta und die Apsiskapellen erhalten; die klassizistische Fassade wurde im 19. Jahrhundert vollendet.",
+      "es": "En el siglo XVIII el edificio medieval fue casi totalmente derribado y reconstruido. De la estructura anterior quedan la cripta y las capillas del ábside, mientras que la fachada neoclásica se terminó en el siglo XIX."
+     }
+    },
+    {
+     "titolo": {
+      "it": "La cappella voluta dal segretario del vescovo",
+      "en": "The chapel commissioned by the bishop's secretary",
+      "fr": "La chapelle voulue par le secrétaire de l'évêque",
+      "de": "Die Kapelle, gestiftet vom Sekretär des Bischofs",
+      "es": "La capilla encargada por el secretario del obispo"
+     },
+     "testo": {
+      "it": "La cappella Malchiostro non fu commissionata da un grande nobile o da un membro della famiglia vescovile, ma da Broccardo Malchiostro, segretario del vescovo Bernardo de' Rossi. La fece realizzare nel 1519-1520, affidando il progetto ai Lombardo e la decorazione pittorica a Pordenone e Tiziano. Il committente: compare inginocchiato nella stessa Annunciazione di Tiziano, come testimone della scena sacra.",
+      "en": "The Malchiostro chapel was not commissioned by a great nobleman or a member of the bishop's family, but by Broccardo Malchiostro, secretary to Bishop Bernardo de' Rossi. He had it built in 1519–1520, entrusting the design to the Lombardo family and the painted decoration to Pordenone and Titian. The patron: he appears kneeling in Titian's own Annunciation, as a witness to the sacred scene.",
+      "fr": "La chapelle Malchiostro ne fut pas commandée par un grand noble ni par un membre de la famille épiscopale, mais par Broccardo Malchiostro, secrétaire de l'évêque Bernardo de' Rossi. Il la fit réaliser en 1519-1520, confiant le projet aux Lombardo et le décor peint à Pordenone et au Titien. Le commanditaire : il apparaît agenouillé dans l'Annonciation même du Titien, en témoin de la scène sacrée.",
+      "de": "Die Malchiostro-Kapelle wurde nicht von einem großen Adligen oder einem Mitglied der Bischofsfamilie gestiftet, sondern von Broccardo Malchiostro, dem Sekretär des Bischofs Bernardo de' Rossi. Er ließ sie 1519–1520 errichten; den Entwurf übertrug er den Lombardo, die Malereien Pordenone und Tizian. Der Auftraggeber kniet in Tizians eigener Verkündigung, als Zeuge der heiligen Szene.",
+      "es": "La capilla Malchiostro no fue encargada por un gran noble ni por un miembro de la familia episcopal, sino por Broccardo Malchiostro, secretario del obispo Bernardo de' Rossi. La mandó realizar en 1519-1520, encomendando el proyecto a los Lombardo y la decoración pictórica a Pordenone y Tiziano. El comitente aparece arrodillado en la misma Anunciación de Tiziano, como testigo de la escena sagrada."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Il volto del committente imbrattato per dispetto",
+      "en": "The donor's face defaced out of spite",
+      "fr": "Le visage du commanditaire barbouillé par dépit",
+      "de": "Das Gesicht des Auftraggebers, aus Schikane beschmiert",
+      "es": "El rostro del comitente manchado por despecho"
+     },
+     "testo": {
+      "it": "Nel 1525 il volto di Broccardo Malchiostro, raffigurato inginocchiato nell'Annunciazione di Tiziano, venne imbrattato. Il canonico era malvisto da una parte della cittadinanza per il suo ruolo nella riscossione delle tasse ecclesiastiche e nelle controversie con il clero.\n\nUn'inchiesta giudiziaria conservata nell'archivio capitolare documenta l'episodio.",
+      "en": "In 1525 the face of Broccardo Malchiostro, shown kneeling in Titian's Annunciation, was defaced. The canon was disliked by part of the citizenry because of his role in collecting ecclesiastical taxes and in disputes with the clergy.\n\nA judicial inquiry kept in the chapter archive documents the episode.",
+      "fr": "En 1525, le visage de Broccardo Malchiostro, représenté agenouillé dans l'Annonciation du Titien, fut barbouillé. Le chanoine était mal vu d'une partie des habitants à cause de son rôle dans la perception des taxes ecclésiastiques et de ses querelles avec le clergé.\n\nUne enquête judiciaire conservée dans les archives du chapitre documente l'épisode.",
+      "de": "Im Jahr 1525 wurde das Gesicht von Broccardo Malchiostro, der kniend in Tizians Verkündigung dargestellt ist, beschmiert. Der Kanoniker war bei einem Teil der Bürgerschaft unbeliebt, wegen seiner Rolle beim Einzug der kirchlichen Abgaben und seiner Streitigkeiten mit dem Klerus.\n\nEine im Archiv des Domkapitels aufbewahrte gerichtliche Untersuchung dokumentiert den Vorfall.",
+      "es": "En 1525 el rostro de Broccardo Malchiostro, representado arrodillado en la Anunciación de Tiziano, fue manchado. El canónigo era mal visto por parte de la ciudadanía por su papel en la recaudación de los impuestos eclesiásticos y en las disputas con el clero.\n\nUna investigación judicial conservada en el archivo capitular documenta el episodio."
+     }
+    }
+   ],
+   "personaggio": [
+    "paris-bordon"
+   ]
+  },
+  {
+   "id": "chiesa-di-san-nicolo",
+   "nome": "Chiesa di San Nicolò",
+   "categoria": "chiese",
+   "sestiere": "Centro storico",
+   "latitudine": 45.663239,
+   "longitudine": 12.239648,
+   "descrizione": {
+    "it": "È la chiesa più grande di Treviso, capolavoro del gotico domenicano. Fu iniziata nel 1303 grazie al domenicano trevigiano Niccolò Boccassino, poi papa Benedetto XI. L'interno a tre navate, altissimo e luminoso, conserva sulle colonne figure di santi dipinte da Tomaso da Modena e dalla sua scuola, e un gigantesco San Cristoforo affrescato. Accanto alla chiesa sorge l'antico convento, oggi Seminario vescovile, con la famosa Sala del Capitolo.",
+    "en": "It is the largest church in Treviso, a masterpiece of Dominican Gothic. It was begun in 1303 thanks to the Trevisan Dominican Niccolò Boccassino, later Pope Benedict XI. The tall, bright three-aisled interior keeps figures of saints painted on the columns by Tomaso da Modena and his school, and a gigantic fresco of Saint Christopher. Next to the church stands the old convent, now the Bishop's Seminary, with the famous Chapter Hall.",
+    "fr": "C'est la plus grande église de Trévise, chef-d'œuvre du gothique dominicain. Elle fut commencée en 1303 grâce au dominicain trévisan Niccolò Boccassino, devenu pape Benoît XI. L'intérieur à trois nefs, très haut et lumineux, conserve sur les colonnes des figures de saints peintes par Tomaso da Modena et son école, et un gigantesque saint Christophe à fresque. À côté de l'église se dresse l'ancien couvent, aujourd'hui séminaire épiscopal, avec la célèbre salle du Chapitre.",
+    "de": "Sie ist die größte Kirche Trevisos, ein Meisterwerk der Dominikanergotik. Begonnen wurde sie 1303 dank des aus Treviso stammenden Dominikaners Niccolò Boccassino, des späteren Papstes Benedikt XI. Das hohe, helle dreischiffige Innere bewahrt auf den Säulen Heiligenfiguren von Tomaso da Modena und seiner Schule sowie einen riesigen Christophorus als Fresko. Neben der Kirche steht das alte Kloster, heute Bischöfliches Seminar, mit dem berühmten Kapitelsaal.",
+    "es": "Es la iglesia más grande de Treviso, obra maestra del gótico dominico. Se empezó en 1303 gracias al dominico trevisano Niccolò Boccassino, luego papa Benedicto XI. El interior de tres naves, altísimo y luminoso, conserva en las columnas figuras de santos pintadas por Tomaso da Modena y su escuela, y un gigantesco San Cristóbal al fresco. Junto a la iglesia está el antiguo convento, hoy Seminario episcopal, con la famosa Sala del Capítulo."
+   },
+   "immagine": {
+    "autore": "Liridon",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Treviso_-_Chiesa_di_San_Nicol%C3%B2_-_2023-09-09_12-20-44_002.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Triplec85",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:2018-09-26_Chiesa_di_San_Nicol%C3%B2_(Treviso)_02.jpg"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4183TrevisoSNicolo.JPG"
+    },
+    {
+     "autore": "Geobia",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:4185TrevisoSNicolo.JPG"
+    }
+   ],
+   "biglietto": {
+    "gratuito": true
+   },
+   "nota": {
+    "it": "Aperta tutti i giorni al mattino e nel tardo pomeriggio, salvo durante le celebrazioni.",
+    "en": "Open every day in the morning and late afternoon, except during services.",
+    "fr": "Ouverte tous les jours le matin et en fin d'après-midi, sauf pendant les offices.",
+    "de": "Täglich vormittags und am späten Nachmittag geöffnet, außer während der Gottesdienste.",
+    "es": "Abierta todos los días por la mañana y a última hora de la tarde, salvo durante las celebraciones."
+   },
+   "wikipedia": {
+    "it": "Chiesa di San Nicolò (Treviso)"
+   },
+   "personaggio": [
+    "tomaso-da-modena"
+   ],
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "Una chiesa costruita in sei secoli",
+      "en": "A church built over six centuries",
+      "fr": "Une église construite sur six siècles",
+      "de": "Eine Kirche, die über sechs Jahrhunderte entstand",
+      "es": "Una iglesia construida a lo largo de seis siglos"
+     },
+     "testo": {
+      "it": "L'edificio attuale fu iniziato nel 1304 grazie anche al lascito di Niccolò Boccasino, il futuro papa Benedetto XI. I lavori procedettero a lungo e il completamento definitivo arrivò soltanto nell'Ottocento.",
+      "en": "The current building was begun in 1304, also thanks to the bequest of Niccolò Boccasino, the future Pope Benedict XI. The works went on for a long time, and the final completion came only in the 19th century.",
+      "fr": "Le bâtiment actuel fut commencé en 1304, notamment grâce au legs de Niccolò Boccasino, futur pape Benoît XI. Les travaux se prolongèrent longtemps et l'achèvement définitif n'eut lieu qu'au XIXe siècle.",
+      "de": "Das heutige Gebäude wurde 1304 begonnen, unter anderem dank des Vermächtnisses von Niccolò Boccasino, dem späteren Papst Benedikt XI. Die Arbeiten zogen sich lange hin, und die endgültige Fertigstellung erfolgte erst im 19. Jahrhundert.",
+      "es": "El edificio actual se inició en 1304, también gracias al legado de Niccolò Boccasino, futuro papa Benedicto XI. Las obras se prolongaron mucho tiempo y la conclusión definitiva llegó solo en el siglo XIX."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Da convento domenicano a seminario",
+      "en": "From Dominican convent to seminary",
+      "fr": "D'un couvent dominicain à un séminaire",
+      "de": "Vom Dominikanerkloster zum Priesterseminar",
+      "es": "De convento dominico a seminario"
+     },
+     "testo": {
+      "it": "Il complesso conventuale fu abitato dai Domenicani per secoli. Dopo la soppressione napoleonica degli ordini religiosi, il convento fu riacquistato dal vescovo nel 1839 e destinato al seminario.",
+      "en": "The convent complex was home to the Dominicans for centuries. After the Napoleonic suppression of religious orders, the convent was bought back by the bishop in 1839 and assigned to the seminary.",
+      "fr": "Le complexe conventuel fut habité par les Dominicains pendant des siècles. Après la suppression napoléonienne des ordres religieux, le couvent fut racheté par l'évêque en 1839 et affecté au séminaire.",
+      "de": "Der Klosterkomplex wurde jahrhundertelang von den Dominikanern bewohnt. Nach der napoleonischen Aufhebung der Orden kaufte der Bischof das Kloster 1839 zurück und bestimmte es für das Priesterseminar.",
+      "es": "El complejo conventual estuvo habitado por los dominicos durante siglos. Tras la supresión napoleónica de las órdenes religiosas, el obispo recuperó el convento en 1839 y lo destinó al seminario."
+     }
+    },
+    {
+     "titolo": {
+      "it": "Una chiesa trasformata in magazzino militare",
+      "en": "A church turned into a military warehouse",
+      "fr": "Une église transformée en entrepôt militaire",
+      "de": "Eine Kirche, die zum Militärlager wurde",
+      "es": "Una iglesia convertida en almacén militar"
+     },
+     "testo": {
+      "it": "Durante la Prima guerra mondiale il tempio fu chiuso al culto, occupato e utilizzato come magazzino militare. Una destinazione insolita per uno degli edifici religiosi più importanti della città.",
+      "en": "During the First World War the church was closed to worship, occupied and used as a military warehouse. An unusual use for one of the city's most important religious buildings.",
+      "fr": "Pendant la Première Guerre mondiale, l'église fut fermée au culte, occupée et utilisée comme entrepôt militaire. Une destination inhabituelle pour l'un des édifices religieux les plus importants de la ville.",
+      "de": "Während des Ersten Weltkriegs wurde die Kirche für den Gottesdienst geschlossen, besetzt und als Militärlager genutzt. Eine ungewöhnliche Nutzung für eines der wichtigsten Gotteshäuser der Stadt.",
+      "es": "Durante la Primera Guerra Mundial el templo fue cerrado al culto, ocupado y utilizado como almacén militar. Un destino insólito para uno de los edificios religiosos más importantes de la ciudad."
+     }
+    }
+   ]
+  },
+  {
+   "id": "museo-luigi-bailo",
+   "nome": "Museo Luigi Bailo",
+   "categoria": "musei",
+   "sestiere": "Centro storico",
+   "latitudine": 45.66751084,
+   "longitudine": 12.23807987,
+   "descrizione": {
+    "it": "La più antica sede dei Musei civici, in Borgo Cavour, è dedicata all'arte dell'Ottocento e del Novecento. Riaperto nel 2015 dopo un restauro che ha dato all'edificio una nuova facciata bianca e luminosa, ospita la più importante raccolta al mondo di opere di Arturo Martini, il grande scultore trevigiano, insieme a dipinti di Gino Rossi, Guglielmo Ciardi e altri artisti veneti.",
+    "en": "The oldest seat of the Civic Museums, in Borgo Cavour, is devoted to 19th- and 20th-century art. Reopened in 2015 after a restoration that gave the building a new bright white façade, it houses the world's most important collection of works by Arturo Martini, the great sculptor from Treviso, along with paintings by Gino Rossi, Guglielmo Ciardi and other Venetian artists.",
+    "fr": "Le plus ancien siège des Musées civiques, dans le Borgo Cavour, est consacré à l'art des XIXe et XXe siècles. Rouvert en 2015 après une restauration qui a donné au bâtiment une nouvelle façade blanche et lumineuse, il abrite la plus importante collection au monde d'œuvres d'Arturo Martini, le grand sculpteur trévisan, ainsi que des tableaux de Gino Rossi, Guglielmo Ciardi et d'autres artistes vénètes.",
+    "de": "Der älteste Sitz der Städtischen Museen im Borgo Cavour ist der Kunst des 19. und 20. Jahrhunderts gewidmet. 2015 nach einer Restaurierung wiedereröffnet, die dem Gebäude eine neue helle weiße Fassade gab, beherbergt er die weltweit bedeutendste Sammlung von Werken Arturo Martinis, des großen Bildhauers aus Treviso, sowie Gemälde von Gino Rossi, Guglielmo Ciardi und anderen venetischen Künstlern.",
+    "es": "La sede más antigua de los Museos Cívicos, en el Borgo Cavour, está dedicada al arte de los siglos XIX y XX. Reabierto en 2015 tras una restauración que dio al edificio una nueva fachada blanca y luminosa, alberga la colección más importante del mundo de obras de Arturo Martini, el gran escultor trevisano, junto con pinturas de Gino Rossi, Guglielmo Ciardi y otros artistas vénetos."
+   },
+   "immagine": {
+    "autore": "Didier Descouens",
+    "licenza": "CC BY-SA 4.0",
+    "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Museo_Bailo.jpg"
+   },
+   "galleria": [
+    {
+     "autore": "Didier Descouens",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:(Treviso)_Il_chiostro_sud_del_Museo_Luigi_Bailo.jpg"
+    },
+    {
+     "autore": "Musei Civici di Treviso",
+     "licenza": "CC0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:Facciata_del_Museo_Luigi_Bailo.jpg"
+    },
+    {
+     "autore": "Marco Pedretti",
+     "licenza": "CC BY-SA 4.0",
+     "fonte": "https://commons.wikimedia.org/wiki/File:BailoTreviso1.jpg"
+    }
+   ],
+   "orari": [
+    {
+     "giorni": "mar-dom",
+     "ore": "10:00–18:00"
+    }
+   ],
+   "biglietto": {
+    "intero": 6,
+    "ridotto": 4
+   },
+   "nota": {
+    "it": "Ultimo ingresso un'ora prima della chiusura. Biglietto cumulativo con il Museo Santa Caterina: intero 10 €, ridotto 6 €. Ingresso gratuito per i minori di 18 anni.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+    "en": "Last entry one hour before closing. Combined ticket with the Santa Caterina Museum: full 10 €, reduced 6 €. Free admission for under-18s.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+    "fr": "Dernière entrée une heure avant la fermeture. Billet combiné avec le musée Santa Caterina : plein tarif 10 €, réduit 6 €. Entrée gratuite pour les moins de 18 ans.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+    "de": "Letzter Einlass eine Stunde vor Schließung. Kombiticket mit dem Museo Santa Caterina: 10 €, ermäßigt 6 €. Freier Eintritt unter 18 Jahren.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+    "es": "Última entrada una hora antes del cierre. Entrada combinada con el Museo Santa Caterina: general 10 €, reducida 6 €. Entrada gratuita para menores de 18 años.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "sito": "https://www.museicivicitreviso.it",
+   "wikipedia": {
+    "it": "Museo civico Luigi Bailo"
+   },
+   "lo_sapevi_che": [
+    {
+     "titolo": {
+      "it": "La collezione nata da un abate",
+      "en": "A collection born from an abbot",
+      "fr": "Une collection née d'un abbé",
+      "de": "Eine Sammlung, die ein Abt begründete",
+      "es": "Una colección nacida de un abad"
+     },
+     "testo": {
+      "it": "Il museo nacque grazie all'iniziativa dell'abate Luigi Bailo, che raccolse reperti archeologici, dipinti, sculture e materiali storici della città. La collezione fu aperta al pubblico nel 1888.",
+      "en": "The museum was born from the initiative of Abbot Luigi Bailo, who collected archaeological finds, paintings, sculptures and historical material about the city. The collection opened to the public in 1888.",
+      "fr": "Le musée naquit de l'initiative de l'abbé Luigi Bailo, qui rassembla objets archéologiques, tableaux, sculptures et documents historiques de la ville. La collection fut ouverte au public en 1888.",
+      "de": "Das Museum entstand auf Initiative des Abtes Luigi Bailo, der archäologische Funde, Gemälde, Skulpturen und historische Zeugnisse der Stadt sammelte. Die Sammlung wurde 1888 der Öffentlichkeit zugänglich gemacht.",
+      "es": "El museo nació por iniciativa del abad Luigi Bailo, que reunió hallazgos arqueológicos, pinturas, esculturas y materiales históricos de la ciudad. La colección se abrió al público en 1888."
+     }
+    }
+   ],
+   "personaggio": [
+    "arturo-martini"
+   ],
+   "accessibilita": {
+    "fonte": "https://www.museicivicitreviso.it/organizza-la-visita/accessibilita/",
+    "verificato": "2026-11-11",
+    "voci": {
+     "motoria": {
+      "it": "Nelle sale non ci sono barriere architettoniche e sono disponibili ausili per la mobilità.",
+      "en": "There are no architectural barriers in the rooms, and mobility aids are available.",
+      "fr": "Les salles ne présentent pas de barrières architecturales et des aides à la mobilité sont disponibles.",
+      "de": "In den Sälen gibt es keine baulichen Barrieren, und Mobilitätshilfen stehen zur Verfügung.",
+      "es": "En las salas no hay barreras arquitectónicas y hay ayudas para la movilidad disponibles."
+     },
+     "ascensore": {
+      "it": "I piani sono raggiungibili in ascensore.",
+      "en": "All floors can be reached by lift.",
+      "fr": "Les étages sont accessibles par ascenseur.",
+      "de": "Alle Etagen sind mit dem Aufzug erreichbar.",
+      "es": "Las plantas son accesibles en ascensor."
+     },
+     "tattile": {
+      "it": "All'ingresso c'è una mappa tattile del museo; accanto alle opere ci sono riproduzioni 3D da toccare e una sala tattile dedicata.",
+      "en": "A tactile map of the museum greets visitors at the entrance; 3D reproductions to touch stand beside the works, and there is a dedicated tactile room.",
+      "fr": "Un plan tactile du musée accueille les visiteurs à l'entrée ; des reproductions 3D à toucher sont placées à côté des œuvres, et une salle tactile est dédiée.",
+      "de": "Am Eingang gibt es einen Tastplan des Museums; neben den Werken stehen 3D-Reproduktionen zum Ertasten, dazu kommt ein eigener Tastsaal.",
+      "es": "En la entrada hay un mapa táctil del museo; junto a las obras hay reproducciones 3D para tocar y una sala táctil dedicada."
+     },
+     "visiva": {
+      "it": "Pannelli e didascalie con testo ingrandito e in braille, audioguide descrittive con indicazioni per l'orientamento e visite tattili.",
+      "en": "Panels and captions in large print and braille, descriptive audio guides with orientation directions, and tactile tours.",
+      "fr": "Panneaux et légendes en gros caractères et en braille, audioguides descriptifs avec indications d'orientation et visites tactiles.",
+      "de": "Tafeln und Beschriftungen in Großdruck und Braille, beschreibende Audioguides mit Orientierungshinweisen und Tastführungen.",
+      "es": "Paneles y cartelas en letra grande y en braille, audioguías descriptivas con indicaciones de orientación y visitas táctiles."
+     },
+     "uditiva": {
+      "it": "L'app del museo ha video in LIS; ci sono attività e visite guidate con operatore LIS.",
+      "en": "The museum app has videos in Italian Sign Language (LIS); activities and guided tours with an LIS interpreter are available.",
+      "fr": "L'application du musée propose des vidéos en langue des signes italienne (LIS) ; des activités et visites guidées avec un interprète LIS sont proposées.",
+      "de": "Die Museums-App bietet Videos in Italienischer Gebärdensprache (LIS); es gibt Aktivitäten und Führungen mit LIS-Dolmetscher.",
+      "es": "La app del museo tiene vídeos en lengua de signos italiana (LIS); hay actividades y visitas guiadas con intérprete de LIS."
+     },
+     "cognitiva": {
+      "it": "Ogni opera ha una scheda in CAA, disponibile anche online; ci sono guide in linguaggio Easy to Read e tablet con software CAA.",
+      "en": "Every work has an AAC sheet, also available online; there are Easy to Read guides and tablets with AAC software.",
+      "fr": "Chaque œuvre dispose d'une fiche en CAA, également en ligne ; il existe des guides en langage Easy to Read et des tablettes avec logiciel CAA.",
+      "de": "Zu jedem Werk gibt es ein UK-Blatt, auch online; außerdem Führer in Leichter Sprache und Tablets mit UK-Software.",
+      "es": "Cada obra tiene una ficha en CAA, también disponible en línea; hay guías en lenguaje de lectura fácil y tabletas con software de CAA."
+     }
+    }
+   }
+  }
+ ]
+}

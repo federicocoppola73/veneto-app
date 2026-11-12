@@ -1,0 +1,2820 @@
+{
+ "versione": "c0dbd3a186d0",
+ "tipo": "prova",
+ "file": [
+  {
+   "path": "assets/luoghi/accademia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/accademia.webp",
+   "sha256": "484f1fbe9d46561153a3f2e2c31ddaf98d349cd6f9697d333db1d64cc1acd0ad",
+   "byte": 77270
+  },
+  {
+   "path": "assets/luoghi/accademia_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/accademia_2.webp",
+   "sha256": "e17e7c4620dde0a6d6bc13de96737d5d35f7165469384d7748a1cf4e7ccc9809",
+   "byte": 65728
+  },
+  {
+   "path": "assets/luoghi/accademia_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/accademia_3.webp",
+   "sha256": "fff206026d56278baf870a0df8dca93f7eaa8c9f688a0cfe5eca7533e9db5f47",
+   "byte": 100130
+  },
+  {
+   "path": "assets/luoghi/basilica-san-marco.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/basilica-san-marco.webp",
+   "sha256": "6672d30a3c2503ecabc960910ef82894f0aedcd84c03708fba333f9eef9b1e88",
+   "byte": 77282
+  },
+  {
+   "path": "assets/luoghi/basilica-san-marco_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/basilica-san-marco_2.webp",
+   "sha256": "4869c8d1fbc8c97dbbc75d6a03d58388fe027c51aac82f2d77d5c48e35fd4abd",
+   "byte": 76278
+  },
+  {
+   "path": "assets/luoghi/basilica-san-marco_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/basilica-san-marco_3.webp",
+   "sha256": "784846b0f5712d91f42ed3a76acaa3e30a0a09e2de81aff3842220f76d69bf9f",
+   "byte": 109514
+  },
+  {
+   "path": "assets/luoghi/basilica-san-marco_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/basilica-san-marco_4.webp",
+   "sha256": "429ebfb25a0553fed1a775f025a1e3dcdf210c14c7c6e60e70c9f80150cd3376",
+   "byte": 95362
+  },
+  {
+   "path": "assets/luoghi/frari.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/frari.webp",
+   "sha256": "6d822a99b0b9b701bfd27048b3f8d6192a9006e930b456c9ce24eec7d936d17e",
+   "byte": 101630
+  },
+  {
+   "path": "assets/luoghi/frari_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/frari_2.webp",
+   "sha256": "c0165556542bfefda208ac9ab18c56761a633a41a19770b672eae3d362f08c00",
+   "byte": 49234
+  },
+  {
+   "path": "assets/luoghi/frari_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/frari_3.webp",
+   "sha256": "2fe095e5a4f4650df0cb234c854bbd9a011484df5293ac54a86689451b7dc59d",
+   "byte": 116424
+  },
+  {
+   "path": "assets/luoghi/frari_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/frari_4.webp",
+   "sha256": "49d94d64dd71b7439c67832adb2fa1fa269e0bae0c087a0d8c1019e6aba6b228",
+   "byte": 47758
+  },
+  {
+   "path": "assets/luoghi/guggenheim.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/guggenheim.webp",
+   "sha256": "268b89ff000a302dc0fe2eae1a92be1f935910ca4d874cc83288a043019eeb25",
+   "byte": 83316
+  },
+  {
+   "path": "assets/luoghi/guggenheim_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/guggenheim_2.webp",
+   "sha256": "2cb056abc6c9c5b4e07a56fa54a4cd415ac0de8296a81618beaeb1224485cc19",
+   "byte": 71932
+  },
+  {
+   "path": "assets/luoghi/guggenheim_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/guggenheim_3.webp",
+   "sha256": "8c45c77c0c00abfb8e4f11a92dcfa50246bb7b5f2eaaa45358d01ee33180ad5a",
+   "byte": 31902
+  },
+  {
+   "path": "assets/luoghi/guggenheim_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/guggenheim_4.webp",
+   "sha256": "eb3e4c3d9873c10fe48a0843d33ef9feb94c6cc140e688b4a4066c220de7a0d8",
+   "byte": 49680
+  },
+  {
+   "path": "assets/luoghi/palazzo-ducale.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/palazzo-ducale.webp",
+   "sha256": "32240153a9b9880a6e80120e6a2d33f3971d4415ef83ee5e69fcb96a4ca4bbd0",
+   "byte": 66290
+  },
+  {
+   "path": "assets/luoghi/palazzo-ducale_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/palazzo-ducale_2.webp",
+   "sha256": "80bea8b2921d1106cc06f53663c481196dfc122a2f38faff6f27c4f9455cde62",
+   "byte": 69338
+  },
+  {
+   "path": "assets/luoghi/palazzo-ducale_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/palazzo-ducale_3.webp",
+   "sha256": "5c2c818f6536f0aee2ad50c8673037f7dccdbc95e22219d57fe19ce566cb184b",
+   "byte": 143806
+  },
+  {
+   "path": "assets/luoghi/palazzo-ducale_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/palazzo-ducale_4.webp",
+   "sha256": "33617c850a27200d3871a6d79830b7ab4d794abcbd037b6f44f38078e4cac29d",
+   "byte": 57296
+  },
+  {
+   "path": "assets/luoghi/piazza-san-marco.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazza-san-marco.webp",
+   "sha256": "1270130f1c9f931acaabfa8c3393d95f489825542f907d9b489519e0fbad3f94",
+   "byte": 56492
+  },
+  {
+   "path": "assets/luoghi/piazza-san-marco_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazza-san-marco_2.webp",
+   "sha256": "0b1963ff41afb5f0dbc808ef11bdfcaddcb050c61df3125f058de07eec033091",
+   "byte": 54406
+  },
+  {
+   "path": "assets/luoghi/piazza-san-marco_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazza-san-marco_3.webp",
+   "sha256": "3b45eb7354d83f27903265f191cd3e94f8311c0c319ca50147abdf8f62c93723",
+   "byte": 51660
+  },
+  {
+   "path": "assets/luoghi/piazza-san-marco_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazza-san-marco_4.webp",
+   "sha256": "e2fcba20137b757f94d564410c7d3128b64c51cf501e90ce5970df2037c67e5b",
+   "byte": 32832
+  },
+  {
+   "path": "assets/luoghi/piazzale-roma.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazzale-roma.webp",
+   "sha256": "419230064e8bfff56b083227d9d1e4326f6a7987bb5202f7cee85624e86717e7",
+   "byte": 51980
+  },
+  {
+   "path": "assets/luoghi/piazzale-roma_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazzale-roma_2.webp",
+   "sha256": "53105e3b0316d3c6408d3a9f7b13557b49f8796932f85c0dac63ceef838592d8",
+   "byte": 85398
+  },
+  {
+   "path": "assets/luoghi/piazzale-roma_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazzale-roma_3.webp",
+   "sha256": "56ba91940025a901e844f5fcd39317b445f3eac8836bf1e7be6fb97b15b3f23d",
+   "byte": 57954
+  },
+  {
+   "path": "assets/luoghi/piazzale-roma_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/piazzale-roma_4.webp",
+   "sha256": "138cc02e272bc9b2d6f7d15ac7a78cf2344403fb6fa000f5c01cdcbe2ebfd405",
+   "byte": 28440
+  },
+  {
+   "path": "assets/luoghi/ponte-rialto.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/ponte-rialto.webp",
+   "sha256": "c773f606e8a6ba255a9824374ef94d82f06ae946691cc2b0412c202bfe3d8dfa",
+   "byte": 76260
+  },
+  {
+   "path": "assets/luoghi/ponte-rialto_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/ponte-rialto_2.webp",
+   "sha256": "1d213e1d010b11b52bb921fc980e142a481ceb8b469bb8b448a427981e522141",
+   "byte": 44240
+  },
+  {
+   "path": "assets/luoghi/ponte-rialto_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/ponte-rialto_3.webp",
+   "sha256": "5467b2147f2f27e07965e56517a5f7195f54c8654f572742f7877c4bb3f87de0",
+   "byte": 62192
+  },
+  {
+   "path": "assets/luoghi/ponte-rialto_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/ponte-rialto_4.webp",
+   "sha256": "3eb9ca6128410c986fc1149b05c9c5f87c30bed2d29aafbdaf9b89b9ebe3537e",
+   "byte": 36986
+  },
+  {
+   "path": "assets/luoghi/salute.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/salute.webp",
+   "sha256": "4d44b2b6d19c13dec39585e28212d9b92ca45be6d3c565a1bf3424b05f2ab0be",
+   "byte": 43214
+  },
+  {
+   "path": "assets/luoghi/salute_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/salute_2.webp",
+   "sha256": "291d0ce9874a95e2b781c1a00017d56ec09e20b902c93dcf11675ec6b1139d6f",
+   "byte": 46720
+  },
+  {
+   "path": "assets/luoghi/salute_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/salute_3.webp",
+   "sha256": "0ba6c0018832841c53d21453b934e3c1f8d53bb98a25d4220212cbc24ff0bb28",
+   "byte": 30632
+  },
+  {
+   "path": "assets/luoghi/salute_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/salute_4.webp",
+   "sha256": "263a1a93775b6a13fcb472569273eef3456339ba21dcc95ab094db096a008d3e",
+   "byte": 82458
+  },
+  {
+   "path": "assets/luoghi/stazione.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/stazione.webp",
+   "sha256": "c1ef42fc9ed0a9162199947e66228e17089512936c32ff93d22a28f78436cc36",
+   "byte": 58154
+  },
+  {
+   "path": "assets/luoghi/stazione_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/stazione_2.webp",
+   "sha256": "bb4d3335720e3cbc20fc68eb7431a37cb281e5ca9ea346d54f9b379bdfb914be",
+   "byte": 30452
+  },
+  {
+   "path": "assets/luoghi/stazione_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/stazione_3.webp",
+   "sha256": "963642f79fc525ed59ed6d6fac17b9c9d31bd75ce7bd1cd01f0c223d912838fd",
+   "byte": 37418
+  },
+  {
+   "path": "assets/luoghi/stazione_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/stazione_4.webp",
+   "sha256": "8ff11ed3ee08ca0ff3949e6912a2197557a4dabdac15ecaa8fe1c5f1a6e40825",
+   "byte": 53032
+  },
+  {
+   "path": "assets/mappa-venezia.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa-venezia.webp",
+   "sha256": "9340bb0e017571cdbf77ce7ad348886981e952da0e5c630b2ce7a3211922654a",
+   "byte": 308438
+  },
+  {
+   "path": "assets/mappa/1/0_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_0.webp",
+   "sha256": "412a46fbb79f056b13b5dd0096e83cc490d2ebb43ab9c2133870d36f7cb68578",
+   "byte": 3950
+  },
+  {
+   "path": "assets/mappa/1/0_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_1.webp",
+   "sha256": "2e57b8caacf100e57f59af1d0a21cb2921f46b93ff133a3532806fbede213f1b",
+   "byte": 10410
+  },
+  {
+   "path": "assets/mappa/1/0_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_10.webp",
+   "sha256": "ac6422df5fe0a61103b14119ebbfe169fa6be4d126bf1c65240f7e8d709344d5",
+   "byte": 866
+  },
+  {
+   "path": "assets/mappa/1/0_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_2.webp",
+   "sha256": "eab8da574fee71c0b19eebed1a311cea6678ba6d9ee5cf5c49dc9a2cb6d5365e",
+   "byte": 9732
+  },
+  {
+   "path": "assets/mappa/1/0_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_3.webp",
+   "sha256": "a3de1c10122c6f5076c809ba8b5f716bbde6b94f96ef672439b225fa688c0d54",
+   "byte": 1262
+  },
+  {
+   "path": "assets/mappa/1/0_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_6.webp",
+   "sha256": "0de0891958d97bc5240b114004050ff3946a817cafb763a91b37100feb20552c",
+   "byte": 4884
+  },
+  {
+   "path": "assets/mappa/1/0_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_7.webp",
+   "sha256": "63b753521ff6f7204ecfbd43be844a5320530b69439b34cdd8a60feaa9b186cf",
+   "byte": 7358
+  },
+  {
+   "path": "assets/mappa/1/0_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_8.webp",
+   "sha256": "740936862fd25004818d8ce2fff2fe35e078474f07dd9c5c027deac33f15a822",
+   "byte": 13794
+  },
+  {
+   "path": "assets/mappa/1/0_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/0_9.webp",
+   "sha256": "180797dc9e1b5456e7ecbe7f54eec3687b227cacebe1945639747601906ffd68",
+   "byte": 4054
+  },
+  {
+   "path": "assets/mappa/1/10_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_0.webp",
+   "sha256": "d1261a999b0e1c5f571191016955defd3f46ec5489c6a1737e45d7f19dacf567",
+   "byte": 11784
+  },
+  {
+   "path": "assets/mappa/1/10_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_1.webp",
+   "sha256": "0158fd049a4543512edc4d840e4c1e670096e822fb142a17d51ac680ff376b03",
+   "byte": 8894
+  },
+  {
+   "path": "assets/mappa/1/10_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_10.webp",
+   "sha256": "031d193e57feaa0a97b77ce65ad7c990bdf0f6dae993036152f5c4ba700fa7ec",
+   "byte": 1574
+  },
+  {
+   "path": "assets/mappa/1/10_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_2.webp",
+   "sha256": "8be5b297da3051d4059e1ddc4692a09d5d4100e5a5ee25c0017699c577608547",
+   "byte": 16002
+  },
+  {
+   "path": "assets/mappa/1/10_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_3.webp",
+   "sha256": "fbb5878c37e119ba8292954b68df61491bf34475b688960fb8bd221c31f43e4a",
+   "byte": 2302
+  },
+  {
+   "path": "assets/mappa/1/10_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_4.webp",
+   "sha256": "6c7d5129f78f447f0d718504388fc378d21206f84de24705aaf3b5dcc799b8e2",
+   "byte": 4120
+  },
+  {
+   "path": "assets/mappa/1/10_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_5.webp",
+   "sha256": "974610677446721c6f0843fbce36ae562331d53c36b7823478cd4cf140c680dc",
+   "byte": 16756
+  },
+  {
+   "path": "assets/mappa/1/10_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_6.webp",
+   "sha256": "8fe24b8b5d6c0bb6bbe23e9dbb05673c32b1fc66e7c76eb331472b28ad46fb34",
+   "byte": 5058
+  },
+  {
+   "path": "assets/mappa/1/10_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_7.webp",
+   "sha256": "4b525517bbbf723e1c87f2632c08ad7ab9757809c94c1d7837c5c00a47340231",
+   "byte": 1688
+  },
+  {
+   "path": "assets/mappa/1/10_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_8.webp",
+   "sha256": "259d9d7821ceff3bde7c947b11b9855176f6da2d4ef973d8d5053bf6a3d1a99f",
+   "byte": 3092
+  },
+  {
+   "path": "assets/mappa/1/10_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/10_9.webp",
+   "sha256": "cadccfc2ab2f6861c39a22e7a9eb3e8eab2ea254320deb3a70c85b99692235b5",
+   "byte": 2162
+  },
+  {
+   "path": "assets/mappa/1/11_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_0.webp",
+   "sha256": "bf26953326aa762ad620f087a051638c6732cc772121307de4e10ab958681717",
+   "byte": 3414
+  },
+  {
+   "path": "assets/mappa/1/11_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_1.webp",
+   "sha256": "5a29cbb0208d855b7194c78fc3d0ad3cf33454c6105ec56ef204385d3451acfd",
+   "byte": 2194
+  },
+  {
+   "path": "assets/mappa/1/11_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_10.webp",
+   "sha256": "6f92877e95673d9a8987a208c185fd8bf4398a70fdcf11428523393cbb5cde28",
+   "byte": 1012
+  },
+  {
+   "path": "assets/mappa/1/11_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_2.webp",
+   "sha256": "b77a85eaf326d8b08fced23efbb390c042af0183092143451ef969b5d9bbc9a2",
+   "byte": 1914
+  },
+  {
+   "path": "assets/mappa/1/11_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_3.webp",
+   "sha256": "318fff5ebd4aadbe87689a42ad636788ac4db321140f15c1163b728a98494933",
+   "byte": 1446
+  },
+  {
+   "path": "assets/mappa/1/11_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_4.webp",
+   "sha256": "7d5b99715aff62aaaac75c79f382b4100403b63eb9c6239afcfbeb8207e9c17f",
+   "byte": 12274
+  },
+  {
+   "path": "assets/mappa/1/11_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_5.webp",
+   "sha256": "04bdf5e424fbebc6b9c85fbd32d4ad870442aa4b95c1e08b29ed8e365f3ec64b",
+   "byte": 6158
+  },
+  {
+   "path": "assets/mappa/1/11_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_6.webp",
+   "sha256": "df36968fc8947608083088c92d4fab7569403e4051cf6e4aabad1f45a10cf19b",
+   "byte": 568
+  },
+  {
+   "path": "assets/mappa/1/11_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_7.webp",
+   "sha256": "e5a6d8277783ba9b7da649f9c5e9f65a779ac92fdb40a7f45780a8f948100a1a",
+   "byte": 6442
+  },
+  {
+   "path": "assets/mappa/1/11_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_8.webp",
+   "sha256": "2ed162fe0f45f8b58931738c9dc4dd27335362897a9981bd85f894cf45bbef7d",
+   "byte": 6068
+  },
+  {
+   "path": "assets/mappa/1/11_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/11_9.webp",
+   "sha256": "e8559998f08fce736eb2807bc83c04f1e6edbd72642033805331807427405f45",
+   "byte": 2388
+  },
+  {
+   "path": "assets/mappa/1/1_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_0.webp",
+   "sha256": "7be7c5139b2944b2924a227de41f89bfb37c253699a4d061158dfeb639cacf54",
+   "byte": 7970
+  },
+  {
+   "path": "assets/mappa/1/1_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_1.webp",
+   "sha256": "031393a4fa541f2f043972b555b12b8ba22805877b8bc1619dcdcaca66018542",
+   "byte": 6426
+  },
+  {
+   "path": "assets/mappa/1/1_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_10.webp",
+   "sha256": "ce4c8c5a3df591c847e7d9477b9c91976d1ae5d756fbd11274dd51f9956b4a02",
+   "byte": 3218
+  },
+  {
+   "path": "assets/mappa/1/1_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_2.webp",
+   "sha256": "47034854f5ac2d6e28722b98317fa731a72ffe7f5023cb91de6c02c3f1a11c3a",
+   "byte": 2990
+  },
+  {
+   "path": "assets/mappa/1/1_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_5.webp",
+   "sha256": "05785e8fb5963884207946c8490c699865fa6fc32638bd9b1fae02a525c61498",
+   "byte": 1690
+  },
+  {
+   "path": "assets/mappa/1/1_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_7.webp",
+   "sha256": "3864bf57dd28023400e7346c4f594b58aff7730d2efc84ffe92c7c5e10d29287",
+   "byte": 18772
+  },
+  {
+   "path": "assets/mappa/1/1_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_8.webp",
+   "sha256": "2982f7e449e31a37f6de3b05c9aa3800072b9b4fd415265fe13514c3d26b289b",
+   "byte": 34232
+  },
+  {
+   "path": "assets/mappa/1/1_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/1_9.webp",
+   "sha256": "9dcebe8cae530fb6b29168a6605c390d064f00215d5f892181f5e58810151ab9",
+   "byte": 25552
+  },
+  {
+   "path": "assets/mappa/1/2_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_0.webp",
+   "sha256": "cef19886648a932560fc00667a633686357d2055132297d725e5130d799e2ebe",
+   "byte": 14596
+  },
+  {
+   "path": "assets/mappa/1/2_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_1.webp",
+   "sha256": "855f37380516f0131c95f17f97ba222f7436aeda1af0dc082d7c068b0a1dca4b",
+   "byte": 7120
+  },
+  {
+   "path": "assets/mappa/1/2_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_10.webp",
+   "sha256": "2c024d80069c5fd1bb9b8abd2ffb1e2b3b52ca7fd5e2963ad5f67ad8b76956a9",
+   "byte": 11442
+  },
+  {
+   "path": "assets/mappa/1/2_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_2.webp",
+   "sha256": "0dd84a4e0700fa6c241687300a88831ec61a1e1ebda5fba964cb6ec863704d83",
+   "byte": 1658
+  },
+  {
+   "path": "assets/mappa/1/2_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_3.webp",
+   "sha256": "2e3068236703a2fd5edbd3892dc81c0e69c65b15d4df7c44d26d9d95316689ab",
+   "byte": 788
+  },
+  {
+   "path": "assets/mappa/1/2_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_4.webp",
+   "sha256": "3c58a1ae8188f837fc6bd5a81dc6093dfd05ae7e43dbdd492cdae77d76a50a24",
+   "byte": 1664
+  },
+  {
+   "path": "assets/mappa/1/2_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_5.webp",
+   "sha256": "b8a9d316d7047ce0f89a7501b5b0542bf0b1b3c04849d4af9f746ae4150215fb",
+   "byte": 630
+  },
+  {
+   "path": "assets/mappa/1/2_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_6.webp",
+   "sha256": "842ebbecfffd48b12d2626f083ae7cc1fb22319973446af438ce4560435b8741",
+   "byte": 682
+  },
+  {
+   "path": "assets/mappa/1/2_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_7.webp",
+   "sha256": "8ef88925c6af6c2d7ef623eddcdef6e673ac3a7df3b8ed476bc573ec3026f6f0",
+   "byte": 38398
+  },
+  {
+   "path": "assets/mappa/1/2_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_8.webp",
+   "sha256": "8e04e6d79742a87bc8127ff22afd4fd81d2d8eb64b353a263fac6ebc8b223024",
+   "byte": 45394
+  },
+  {
+   "path": "assets/mappa/1/2_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/2_9.webp",
+   "sha256": "900a3c7930c886f5600d7f64ee3c66c9e4af4a8c5fd29a8281cad9743e9cc888",
+   "byte": 32032
+  },
+  {
+   "path": "assets/mappa/1/3_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_0.webp",
+   "sha256": "567e86868447156da67fe07192ef3c31ea92315d9ddab63d3998dcf5aa46f616",
+   "byte": 9546
+  },
+  {
+   "path": "assets/mappa/1/3_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_1.webp",
+   "sha256": "2f5984eb97cd64301fd7a011762e323dead2442b2eceeae1d481b355b60aecdb",
+   "byte": 5020
+  },
+  {
+   "path": "assets/mappa/1/3_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_10.webp",
+   "sha256": "a5196e34da95fff0e9356657f0fe8a4c8b510fd0a3e162582efdecae84dc9b1e",
+   "byte": 7182
+  },
+  {
+   "path": "assets/mappa/1/3_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_2.webp",
+   "sha256": "985871eff99e47aefe81a5f816720f18f9fd546ea501fe69fe85185df3d5a685",
+   "byte": 1192
+  },
+  {
+   "path": "assets/mappa/1/3_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_3.webp",
+   "sha256": "10336c7058263a926cb2d71838d812a4ba3277a8eaabb178dd7eb091eb4ba1dc",
+   "byte": 1084
+  },
+  {
+   "path": "assets/mappa/1/3_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_4.webp",
+   "sha256": "75fd8cacb07a52aa88d6e04130024ad3c90d40f621642cd91edf315d94b1aa78",
+   "byte": 2768
+  },
+  {
+   "path": "assets/mappa/1/3_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_6.webp",
+   "sha256": "8d1147e3a2957dd9528f509de3cf13f06d2842dfecb82c4de12381051386dd21",
+   "byte": 750
+  },
+  {
+   "path": "assets/mappa/1/3_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_7.webp",
+   "sha256": "f70469dc7a995b5bbcbdc53730e66d87e7d690e83d8fa63797a65fcea6be6614",
+   "byte": 14658
+  },
+  {
+   "path": "assets/mappa/1/3_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_8.webp",
+   "sha256": "e25e2bd67055f6edc0fd904614d7c87e850bbe20caedc8f4c35d6b373a85f0a6",
+   "byte": 42430
+  },
+  {
+   "path": "assets/mappa/1/3_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/3_9.webp",
+   "sha256": "d8dadfcf4d08bd180eea105109ccfc46f665470e4e621f9921da1b2dc7ab9814",
+   "byte": 14692
+  },
+  {
+   "path": "assets/mappa/1/4_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_0.webp",
+   "sha256": "6e8bdf6c067bde6e78cb08376f593d72adff54d6b2c7784fb0f26d4fd41e4ec5",
+   "byte": 4030
+  },
+  {
+   "path": "assets/mappa/1/4_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_1.webp",
+   "sha256": "6b9a3280b8f21c3d7276b793b0101e113afbd0dac8d415483130c74c3d53c1ea",
+   "byte": 1342
+  },
+  {
+   "path": "assets/mappa/1/4_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_10.webp",
+   "sha256": "172b784e3bd5a4459e801171cf59c29acb4d97031efdf927d9f75462299b10f8",
+   "byte": 680
+  },
+  {
+   "path": "assets/mappa/1/4_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_2.webp",
+   "sha256": "5e8a483a985214bbd9808e87c0532ce8b8768b3d6fa10152269c05976a89cbe3",
+   "byte": 858
+  },
+  {
+   "path": "assets/mappa/1/4_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_4.webp",
+   "sha256": "8ededfc86869409bfc92e1721d6f29e3a91fcb62b1488a2fdb0a0c161ea335c5",
+   "byte": 1244
+  },
+  {
+   "path": "assets/mappa/1/4_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_5.webp",
+   "sha256": "a5111d2e08d792710db30361fc0d7e7b089c8e0eede0c1eabce37fc0a2b779b5",
+   "byte": 17156
+  },
+  {
+   "path": "assets/mappa/1/4_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_6.webp",
+   "sha256": "d2c5230619484152fc8abab8aea5b73af52264ae8f65de9e11204b35ed7f7199",
+   "byte": 18100
+  },
+  {
+   "path": "assets/mappa/1/4_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_7.webp",
+   "sha256": "6c1a8c2dd61d81c48d4518a2acb317d06e1a217f50e8e032f8ac1b1dfcf4b385",
+   "byte": 10408
+  },
+  {
+   "path": "assets/mappa/1/4_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_8.webp",
+   "sha256": "7894db88e889c03e1cb528800d48f8bb9de7621525f5f7e853306f74cda6521a",
+   "byte": 23832
+  },
+  {
+   "path": "assets/mappa/1/4_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/4_9.webp",
+   "sha256": "c22f6b7fa9d2f75daf0865e2e692d64a80c4c0ad99e77186f5e7ee74e73d872a",
+   "byte": 11890
+  },
+  {
+   "path": "assets/mappa/1/5_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_10.webp",
+   "sha256": "8241876014944571831be8dffc57c04576fc2822ce0da81d2f1c066f9a900338",
+   "byte": 2302
+  },
+  {
+   "path": "assets/mappa/1/5_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_4.webp",
+   "sha256": "5c4192627a1b339d420e3ed53025ab959bff4562bf4a1600e262e8185bf7eb10",
+   "byte": 750
+  },
+  {
+   "path": "assets/mappa/1/5_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_5.webp",
+   "sha256": "2a0d2e04443afd0440dbb194e4e58d058782c668ad9ad6e4b90de87646ea16bb",
+   "byte": 11052
+  },
+  {
+   "path": "assets/mappa/1/5_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_6.webp",
+   "sha256": "f063c35e3c9d10b995d0a3ade694ee3b5e11099f595fff8ac72a71d3a3a95111",
+   "byte": 5016
+  },
+  {
+   "path": "assets/mappa/1/5_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_8.webp",
+   "sha256": "e2aa0eecabd5a38f6f7840f35ca266b76859a8218845481dac07aef273a6c44c",
+   "byte": 11154
+  },
+  {
+   "path": "assets/mappa/1/5_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/5_9.webp",
+   "sha256": "a95488d1dc9e9b77d540afbb3311ab4ff9ed62c261d44a294c32cb9fda239c5f",
+   "byte": 26768
+  },
+  {
+   "path": "assets/mappa/1/6_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_1.webp",
+   "sha256": "e387fb54b96ca87902f1e623b64332270d2ed8c38e8478fc6b26e8ca54ee0817",
+   "byte": 870
+  },
+  {
+   "path": "assets/mappa/1/6_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_10.webp",
+   "sha256": "2e35cace41fa9f939f6418f07c093e787983aa4342602023dfeaa16dbc4562e5",
+   "byte": 2060
+  },
+  {
+   "path": "assets/mappa/1/6_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_6.webp",
+   "sha256": "6c22d2a7b8b2c31a54b966f239c6f520fcb765c9ec1a7b0c40260298b5dcdf5f",
+   "byte": 2014
+  },
+  {
+   "path": "assets/mappa/1/6_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_7.webp",
+   "sha256": "48fa253e5a078d35892193396d650e265efc320f52027d0c66ba474a292a6ae6",
+   "byte": 4832
+  },
+  {
+   "path": "assets/mappa/1/6_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_8.webp",
+   "sha256": "6cf2444b1559816f9abb2c499ced8a9618eb0756ba546287b7bf9c5081238321",
+   "byte": 8072
+  },
+  {
+   "path": "assets/mappa/1/6_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/6_9.webp",
+   "sha256": "f4c84a7a11b6a6e03e16cffc7d9bb86fc5c0c9ed6b5d0525e7ff9749156c2c76",
+   "byte": 7092
+  },
+  {
+   "path": "assets/mappa/1/7_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_0.webp",
+   "sha256": "8855dd526da1f11b3a2d609b71041824d365d306016ea6813dd78df3b41cc90e",
+   "byte": 1454
+  },
+  {
+   "path": "assets/mappa/1/7_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_1.webp",
+   "sha256": "f71a326a764051fe05f07c774e742876239d9b3ed0a1052dc6fec3366f33bde9",
+   "byte": 2216
+  },
+  {
+   "path": "assets/mappa/1/7_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_10.webp",
+   "sha256": "ab00e8984d13df249c79dea0ed8c557bf6aceda591aa26d451f88ccc59c2bd5a",
+   "byte": 12582
+  },
+  {
+   "path": "assets/mappa/1/7_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_4.webp",
+   "sha256": "fb6d0b26e09cca22e77f4e117dd3852e5df3144f79fe073ac8f7779c9b730709",
+   "byte": 1152
+  },
+  {
+   "path": "assets/mappa/1/7_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_5.webp",
+   "sha256": "ddffd96113dca5a250a4d6f4dd11621301db23f52b686146a4eccbd61e314334",
+   "byte": 3112
+  },
+  {
+   "path": "assets/mappa/1/7_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_6.webp",
+   "sha256": "b282be366cc7797a2458afd6dfb70c5c7a7c3ec497c39eec1dd13b86c1f6b5ab",
+   "byte": 7190
+  },
+  {
+   "path": "assets/mappa/1/7_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_7.webp",
+   "sha256": "b87fcaacf6460d702b7c5cc86158e867985e17a7d1a72fe7e4f7e88218ece5f2",
+   "byte": 12504
+  },
+  {
+   "path": "assets/mappa/1/7_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_8.webp",
+   "sha256": "16b6d2d1b86c0714441e52d0047bfc7870d72437a9127b5691d42a9b3a425a45",
+   "byte": 7656
+  },
+  {
+   "path": "assets/mappa/1/7_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/7_9.webp",
+   "sha256": "67105a96b54e69e9bc5a3bb4c222ce7f8e7c5c25b95c628d57646dccc1d3ed59",
+   "byte": 8332
+  },
+  {
+   "path": "assets/mappa/1/8_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_0.webp",
+   "sha256": "7cb75477b57ac4a6feea3fa78287f040ac61264fbf8012af3d0b0e3e92d058ab",
+   "byte": 3784
+  },
+  {
+   "path": "assets/mappa/1/8_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_1.webp",
+   "sha256": "4d9438a83600904808f637f15ece5895b4f997937c27289c6cc85c14be3f5617",
+   "byte": 3936
+  },
+  {
+   "path": "assets/mappa/1/8_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_10.webp",
+   "sha256": "f0a5b3301b9c6016e495b836f0d42a555efe3c92d7085312b0e0f4bda29722e0",
+   "byte": 3216
+  },
+  {
+   "path": "assets/mappa/1/8_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_3.webp",
+   "sha256": "ef59ed56f4041a260ca20adc94479778727a2d4c3f8809ca89042b5f7846dc6a",
+   "byte": 1094
+  },
+  {
+   "path": "assets/mappa/1/8_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_5.webp",
+   "sha256": "9fe81213397875e9e672ef68ff4cfb39a701b08760d5a5fea44f966c7f20de70",
+   "byte": 2862
+  },
+  {
+   "path": "assets/mappa/1/8_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_6.webp",
+   "sha256": "989b2d00698fa32998d47858fe1f55d1a66d43dddf64e016b8f6a756e7b8835a",
+   "byte": 17450
+  },
+  {
+   "path": "assets/mappa/1/8_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_7.webp",
+   "sha256": "dfd886e4b0d228e585342d2daa1768391fe023065c8bd4d7844964e304b0fa40",
+   "byte": 8724
+  },
+  {
+   "path": "assets/mappa/1/8_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_8.webp",
+   "sha256": "30b315c5385cb06cce8bdbe843209b5c3faacf58e2470be45d5a4e0f530b2779",
+   "byte": 1002
+  },
+  {
+   "path": "assets/mappa/1/8_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/8_9.webp",
+   "sha256": "24e19317b9f75693c9b5ae579a11f901dab86a2d3324df05871da2cb77ce7d67",
+   "byte": 5996
+  },
+  {
+   "path": "assets/mappa/1/9_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_0.webp",
+   "sha256": "9704116e543ff41dbd91a39e0cd24e382125725492bc8545f3cff6d69b3250b0",
+   "byte": 5070
+  },
+  {
+   "path": "assets/mappa/1/9_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_1.webp",
+   "sha256": "1cbf5f6ca651d3fc8531c1d42312e9eb65e06e8050d6ce172e492e53c1ea028d",
+   "byte": 11228
+  },
+  {
+   "path": "assets/mappa/1/9_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_2.webp",
+   "sha256": "6f1b854606174c31354ba78596b6378d6a529302093ebc9d44c5c6af22e0fc45",
+   "byte": 7110
+  },
+  {
+   "path": "assets/mappa/1/9_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_5.webp",
+   "sha256": "7f2e86d04c25360ddc188f8a716c225e9705228c200abb51b051d8d99f5869a8",
+   "byte": 5712
+  },
+  {
+   "path": "assets/mappa/1/9_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_6.webp",
+   "sha256": "8da06e2a81b3c6b1bc26507b989a15b4fa457fd3a5df8fb2715087b090283373",
+   "byte": 22658
+  },
+  {
+   "path": "assets/mappa/1/9_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_7.webp",
+   "sha256": "be57b3662638b3a7e4d73be0754f5898908e69016fac6c696c706788655c3b7c",
+   "byte": 4636
+  },
+  {
+   "path": "assets/mappa/1/9_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_8.webp",
+   "sha256": "c440a298f106c36c5586247b1d03bdc6fee9e1640d8844657125d2a0b6724b8d",
+   "byte": 700
+  },
+  {
+   "path": "assets/mappa/1/9_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/1/9_9.webp",
+   "sha256": "1f640ed9857cb235f0c44804b949241dbf6bb0ff578af3c69cae3412fb5eabcf",
+   "byte": 3738
+  },
+  {
+   "path": "assets/mappa/2/0_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_0.webp",
+   "sha256": "988e59a2b075f18f273913b1491d63f97504ca4240c42068e680d7daf6a8de73",
+   "byte": 4558
+  },
+  {
+   "path": "assets/mappa/2/0_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_1.webp",
+   "sha256": "344e8403c7ba6df9559a1d4a788e62c5621ba41d3d9788e71e229eb35a2d3b39",
+   "byte": 1028
+  },
+  {
+   "path": "assets/mappa/2/0_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_12.webp",
+   "sha256": "58e777ab364c1b28d3077d7b31220d36a6051a202d683342277ac24e7a2eafe0",
+   "byte": 1194
+  },
+  {
+   "path": "assets/mappa/2/0_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_13.webp",
+   "sha256": "246a7047cd23c5ebce65a1a6c2fd216a14d8e445f6ed4b673b4d2bd615a23df0",
+   "byte": 7286
+  },
+  {
+   "path": "assets/mappa/2/0_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_15.webp",
+   "sha256": "9fa330b76c88c1a8c67d51528eb0ed0cf1df853a6d98ff45542d24eff07b168e",
+   "byte": 2214
+  },
+  {
+   "path": "assets/mappa/2/0_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_16.webp",
+   "sha256": "8792906d7f8dab3c978855c696fdb65d4b00c6fac4196fdb01793626d6a06d77",
+   "byte": 10800
+  },
+  {
+   "path": "assets/mappa/2/0_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_17.webp",
+   "sha256": "f857aeac8d1ea969d5b99dff91962d78a0755aacf77c820c8df9c47f2014f79b",
+   "byte": 2060
+  },
+  {
+   "path": "assets/mappa/2/0_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_18.webp",
+   "sha256": "14a57552630588caab0c9f22f7863ea4ae66d313ab8dc4e48d1958a1b3f44e4d",
+   "byte": 584
+  },
+  {
+   "path": "assets/mappa/2/0_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_19.webp",
+   "sha256": "769283d7da3fdc00539de4007842a964c65e7fe10e94ff232c613413645bd307",
+   "byte": 1116
+  },
+  {
+   "path": "assets/mappa/2/0_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_2.webp",
+   "sha256": "7a1483e496fae739cb80fdc69e4aaf5e429bdfc77b548d9778363abcc85a3149",
+   "byte": 2398
+  },
+  {
+   "path": "assets/mappa/2/0_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_3.webp",
+   "sha256": "f1043970006c3ebc7ad2c2935a6c038000aad1da3358b81ad4d5be4c05b37581",
+   "byte": 16542
+  },
+  {
+   "path": "assets/mappa/2/0_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_4.webp",
+   "sha256": "752c9e0c39c5b8d01b18dbbec45d5f93a5d66ec0bdfeb61e299112b1fc539135",
+   "byte": 9154
+  },
+  {
+   "path": "assets/mappa/2/0_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_5.webp",
+   "sha256": "87ae5914ee38c455663134ff0e0e65feae20c4f5001619658d295f76ce3a1df2",
+   "byte": 7880
+  },
+  {
+   "path": "assets/mappa/2/0_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/0_6.webp",
+   "sha256": "97d0a5468eb6a5ede618a65cce8c815378dc3bd310a115521a651db70e394dbd",
+   "byte": 2012
+  },
+  {
+   "path": "assets/mappa/2/10_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_10.webp",
+   "sha256": "d816424cc135f906500fa206bbf7a1807aef9cea92824b8ea02889f6a5030b31",
+   "byte": 5850
+  },
+  {
+   "path": "assets/mappa/2/10_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_11.webp",
+   "sha256": "61ed44aaaac70f0898ac10e7c38d0f08bfc6eb676c0e42e6661268ef82a5a025",
+   "byte": 35776
+  },
+  {
+   "path": "assets/mappa/2/10_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_12.webp",
+   "sha256": "0d2ad600068cb39eadf54ee2bf848a53a8a53ab43bd91264dd6d8aff432fe006",
+   "byte": 15084
+  },
+  {
+   "path": "assets/mappa/2/10_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_13.webp",
+   "sha256": "dc42dadffc1b201f38f1a670408579a050a4dd34ca4ca1a54c0eaf4f7ae73d72",
+   "byte": 662
+  },
+  {
+   "path": "assets/mappa/2/10_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_16.webp",
+   "sha256": "14bc4391eae49711fd4e64f195eb2ff82a022b3a40be13abcd4ffb42cba25893",
+   "byte": 6980
+  },
+  {
+   "path": "assets/mappa/2/10_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_17.webp",
+   "sha256": "26fb321ee08f6e898fe601c490c34b11c5dc8b6afb2d13e2d6c4f1baa012182e",
+   "byte": 19200
+  },
+  {
+   "path": "assets/mappa/2/10_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_18.webp",
+   "sha256": "14fb36dc9358919d4dc764d440f588e02fc1d840accca90b0969d299d970fe97",
+   "byte": 33512
+  },
+  {
+   "path": "assets/mappa/2/10_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_19.webp",
+   "sha256": "88e8ebebc8c2e78f0dda489a744bb5634c714e785afdef609fde5a83ba03e346",
+   "byte": 17560
+  },
+  {
+   "path": "assets/mappa/2/10_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_20.webp",
+   "sha256": "4ff1714c28c0b9fdda53c1fbbcaa4f2e27e26c023ac730b3783983d547f14f89",
+   "byte": 670
+  },
+  {
+   "path": "assets/mappa/2/10_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/10_9.webp",
+   "sha256": "67d357a02b86a2233ee6b1f2dca1f6878c13ebf64d7ab13735e66f7973b5a499",
+   "byte": 836
+  },
+  {
+   "path": "assets/mappa/2/11_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_11.webp",
+   "sha256": "9617145bdb20c766e5d9817e4bc613569a312e0cc233c552c93a41439331cbfb",
+   "byte": 1850
+  },
+  {
+   "path": "assets/mappa/2/11_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_16.webp",
+   "sha256": "e04eeee9adf5d8dc93fbe46d9eff14acd8d298c847664cdda17027df4cdd88e7",
+   "byte": 3786
+  },
+  {
+   "path": "assets/mappa/2/11_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_17.webp",
+   "sha256": "f07bd6679bfcd887dafb260ef455130a36bfc893e5d929981609dfb1940d2dd2",
+   "byte": 2154
+  },
+  {
+   "path": "assets/mappa/2/11_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_18.webp",
+   "sha256": "40ce225d46933ac88ac02c9f019a29722fc2d489421731ebed5170b6f6d3439c",
+   "byte": 8428
+  },
+  {
+   "path": "assets/mappa/2/11_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_19.webp",
+   "sha256": "69efd26e6fd048e1587704408737143069214318af9549057b0c1e0b5b512074",
+   "byte": 28352
+  },
+  {
+   "path": "assets/mappa/2/11_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_20.webp",
+   "sha256": "0c73e8a9f23d62de76a117fa5435e449a2def165e0933e268e7fb8b2ef03b6a1",
+   "byte": 5660
+  },
+  {
+   "path": "assets/mappa/2/11_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/11_9.webp",
+   "sha256": "d0adc8184ee77fd8204b9eb20d963e45d90a5e57cb871388df1dd7992e629d8f",
+   "byte": 670
+  },
+  {
+   "path": "assets/mappa/2/12_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_14.webp",
+   "sha256": "88c5da32313ffd8616bd0852726ea1a31c9c12c88d7e623357562df40c085d93",
+   "byte": 1542
+  },
+  {
+   "path": "assets/mappa/2/12_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_16.webp",
+   "sha256": "90ea2db5a313319ab2b056e2cf5c6559bb38242790edddffb1b2682bfbb69159",
+   "byte": 1696
+  },
+  {
+   "path": "assets/mappa/2/12_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_17.webp",
+   "sha256": "78f4c93888101d44d8a8125d83f465ce3bd0dfd11edb52c0563576244ca55899",
+   "byte": 3184
+  },
+  {
+   "path": "assets/mappa/2/12_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_18.webp",
+   "sha256": "3f2eb42d2f8befcb28fb575beb6af223acbb52e9ca84aadde9370794f67efe38",
+   "byte": 7320
+  },
+  {
+   "path": "assets/mappa/2/12_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_19.webp",
+   "sha256": "30b1b40ba41fb3af6dde0553d2628f4a5263fb177afd4c0ef7d76c1e3be18aff",
+   "byte": 5128
+  },
+  {
+   "path": "assets/mappa/2/12_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/12_20.webp",
+   "sha256": "695ddeee360493fc53ad4097db857aa8a98a7a95f94662341b043ee06323e50f",
+   "byte": 1726
+  },
+  {
+   "path": "assets/mappa/2/13_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_13.webp",
+   "sha256": "d5464783f708dacd27fd34481913ce39a5069c931a1adc3060468685625ac372",
+   "byte": 1842
+  },
+  {
+   "path": "assets/mappa/2/13_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_14.webp",
+   "sha256": "167c65796d3a78d7d1d4ecf0ea0f7b35ab1491d73fe4a14e476cdcbaf6d0faf6",
+   "byte": 3006
+  },
+  {
+   "path": "assets/mappa/2/13_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_15.webp",
+   "sha256": "a82378bc1ceb2e79e03f7df84505ab8076003a043ad9d3322263abd0ced43aff",
+   "byte": 7008
+  },
+  {
+   "path": "assets/mappa/2/13_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_16.webp",
+   "sha256": "9d508bc0d804fa0db7ecfe41559cc67807ba1f49da73354d422fcd5f3ba01f63",
+   "byte": 8942
+  },
+  {
+   "path": "assets/mappa/2/13_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_17.webp",
+   "sha256": "61b6660cb988ea498961433449b7fb97f8f4c54d74fb0301010a9b6a1aefbd97",
+   "byte": 6806
+  },
+  {
+   "path": "assets/mappa/2/13_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_18.webp",
+   "sha256": "f70f86a8d80d640eabb5cab5c05d4c6948fea375e11d2ecae8735a6667edfe23",
+   "byte": 4754
+  },
+  {
+   "path": "assets/mappa/2/13_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_2.webp",
+   "sha256": "a5df81224c4771d0f5332355531c31b28bb25f969bcd03af095f34295b37da3c",
+   "byte": 1316
+  },
+  {
+   "path": "assets/mappa/2/13_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_20.webp",
+   "sha256": "82aed7dcd897436daff2be2f320636f6be1d3cf3b4662d8a568310b38a859bb8",
+   "byte": 1572
+  },
+  {
+   "path": "assets/mappa/2/13_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/13_21.webp",
+   "sha256": "f07db1b29a7222bde34b44ca409db1b64a2386f27c23c9004ae15edc0822eb86",
+   "byte": 2872
+  },
+  {
+   "path": "assets/mappa/2/14_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_1.webp",
+   "sha256": "2a82ab969d280bf4f9a512cc799638a57cb5c59a3637a0c27539e790ae075242",
+   "byte": 1322
+  },
+  {
+   "path": "assets/mappa/2/14_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_13.webp",
+   "sha256": "af6cfc70b3f8ecae54d6da4cdbc71184a17e5a380933dea1f7ead4850db545fc",
+   "byte": 1912
+  },
+  {
+   "path": "assets/mappa/2/14_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_14.webp",
+   "sha256": "3d9c162351a1739d1c4143af72cb4a926ef55e3b61718eb3a368773039158c19",
+   "byte": 4498
+  },
+  {
+   "path": "assets/mappa/2/14_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_15.webp",
+   "sha256": "49c5b238becaf32ab581853f4e5bcb50fe27b42e6b862180fd9b26e807db986c",
+   "byte": 16964
+  },
+  {
+   "path": "assets/mappa/2/14_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_16.webp",
+   "sha256": "d529df5df7ab2f5a7b03777dca62e042ed24a23defadc89d1492116c2473dd76",
+   "byte": 7894
+  },
+  {
+   "path": "assets/mappa/2/14_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_17.webp",
+   "sha256": "b9118fd6612b7b1c02c4bc6af6473510d830d1ff0d4f25410063da5541f476e8",
+   "byte": 7634
+  },
+  {
+   "path": "assets/mappa/2/14_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_18.webp",
+   "sha256": "661bd4d5e851a29ff043a01cb1f9d08651ed5af92001908ff45d726aaedcf886",
+   "byte": 1106
+  },
+  {
+   "path": "assets/mappa/2/14_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_19.webp",
+   "sha256": "fbefc03d0ff48764894f139b6563edaeb5b06f60fc63023d44ce83f95a2c2d6f",
+   "byte": 8618
+  },
+  {
+   "path": "assets/mappa/2/14_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_2.webp",
+   "sha256": "c631b6eb0d0e2a0495ed186cd747929c4beb00d9380459b5521a55ae57210036",
+   "byte": 1030
+  },
+  {
+   "path": "assets/mappa/2/14_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_20.webp",
+   "sha256": "1ed4778aab7e40f639a841908ac8a4cf2192b9a903ac14a3a18f9935dad2b431",
+   "byte": 17518
+  },
+  {
+   "path": "assets/mappa/2/14_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_21.webp",
+   "sha256": "0a9126b12eceba0e0cf9a63194ed00e7c34b629d6c067800c15aaf3245db3a4f",
+   "byte": 9876
+  },
+  {
+   "path": "assets/mappa/2/14_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/14_8.webp",
+   "sha256": "5691d438aab904bef1004ffcbd2c1304c4aa7e9f10c1e6f8f3be199e7b4cd13c",
+   "byte": 2160
+  },
+  {
+   "path": "assets/mappa/2/15_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_1.webp",
+   "sha256": "561d7a38c5a373f32779762d82f42276aed3f744da6f201a744da42de972b286",
+   "byte": 1222
+  },
+  {
+   "path": "assets/mappa/2/15_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_11.webp",
+   "sha256": "ba1673b9e92ecad5b8d6d6c00aa9d487f456e72526757714866898b0cfdd5acf",
+   "byte": 3824
+  },
+  {
+   "path": "assets/mappa/2/15_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_12.webp",
+   "sha256": "b872a3763f5e2b560cf0bfd608d31d61f9c9f766f745b167832e164586ec63d0",
+   "byte": 8986
+  },
+  {
+   "path": "assets/mappa/2/15_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_13.webp",
+   "sha256": "e1a0728deb2d87f5a7af0c570ad975595f5b676a7c2884445f4b618e182ca271",
+   "byte": 2342
+  },
+  {
+   "path": "assets/mappa/2/15_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_14.webp",
+   "sha256": "63c0c2e790d0080e7a7c8069837f31830663571f14bfee61a8d7f7e75632188c",
+   "byte": 4228
+  },
+  {
+   "path": "assets/mappa/2/15_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_15.webp",
+   "sha256": "6624a7af01108d3d67ab4e01decfebbd4e781c8697002f731dcce4f125da4093",
+   "byte": 4858
+  },
+  {
+   "path": "assets/mappa/2/15_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_16.webp",
+   "sha256": "7dfab91d141d763ca1268519e37122658bc8993659ee26637e6162dfc4ca1a48",
+   "byte": 2198
+  },
+  {
+   "path": "assets/mappa/2/15_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_17.webp",
+   "sha256": "f87769d9dc12aae40376f36e6ae33a5365b6b8fb8e65225bc276179c9a7a3aef",
+   "byte": 1550
+  },
+  {
+   "path": "assets/mappa/2/15_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_18.webp",
+   "sha256": "08f8d8b837595cb56941930be009ec765f65fa6360955272f1a19e5d8cdee121",
+   "byte": 8840
+  },
+  {
+   "path": "assets/mappa/2/15_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_19.webp",
+   "sha256": "77631fadda3630dc97b4b904258acf21c1b532ac9ad81b16c251238e26411ce9",
+   "byte": 6006
+  },
+  {
+   "path": "assets/mappa/2/15_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_2.webp",
+   "sha256": "7ea7a24a4c74c8a1c364af169bdf88c15b6f4e12e45628ea4fe94c43136ab717",
+   "byte": 3288
+  },
+  {
+   "path": "assets/mappa/2/15_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_20.webp",
+   "sha256": "de44f2236be7c3a04c0812c4ede986016e6d964d35d056002ce89bbe6d809401",
+   "byte": 10214
+  },
+  {
+   "path": "assets/mappa/2/15_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/15_21.webp",
+   "sha256": "7056a1bafd91f7e3b27ba453bd239a5d624913527f2063c63e8d90ad8f19fe53",
+   "byte": 2522
+  },
+  {
+   "path": "assets/mappa/2/16_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_0.webp",
+   "sha256": "0dd085dad0dfcf31c039df8981090585bd92b62fc10c9514ba7ef2743312270d",
+   "byte": 3074
+  },
+  {
+   "path": "assets/mappa/2/16_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_11.webp",
+   "sha256": "9515c8fb27e1ce916cb38382dd8a024f927ecc8577304b29c5aaef20a60ab577",
+   "byte": 1940
+  },
+  {
+   "path": "assets/mappa/2/16_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_12.webp",
+   "sha256": "34b0ff9099ab4ee922a9181aff334ac78665dd23f83b48348fc6f1f689376be1",
+   "byte": 10160
+  },
+  {
+   "path": "assets/mappa/2/16_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_13.webp",
+   "sha256": "f146b78a6f54fd9a0f0caa1ed4cf4ffb89843d0993fa8200da5c52e2516c0cdf",
+   "byte": 11954
+  },
+  {
+   "path": "assets/mappa/2/16_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_14.webp",
+   "sha256": "28c70e99de563674b98a9cfccac5c4b1b6d85136ada798fe118ace1ac9c2abbb",
+   "byte": 7864
+  },
+  {
+   "path": "assets/mappa/2/16_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_15.webp",
+   "sha256": "2341dfaeff370763bece4074171faa6accc0a2dcb8b4cb960cb96b71e87d5bb4",
+   "byte": 1730
+  },
+  {
+   "path": "assets/mappa/2/16_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_16.webp",
+   "sha256": "dc2dc836c78ba9c75cc3c0fbb1b880942a100809d54c77c2be308d9e01dc47f1",
+   "byte": 580
+  },
+  {
+   "path": "assets/mappa/2/16_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_17.webp",
+   "sha256": "2840d3193ba158ddfb0a033d7e485264f675aecfcac58bf5738d7327c3c0e3f4",
+   "byte": 898
+  },
+  {
+   "path": "assets/mappa/2/16_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_18.webp",
+   "sha256": "4c2b78eedf4e0bc1c8f352722c9f8fdd8452d5029bc0a5f2f47e4986327d6841",
+   "byte": 1574
+  },
+  {
+   "path": "assets/mappa/2/16_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_19.webp",
+   "sha256": "884e312a1dc80a2e9bc6fe830bb5cc29fd10d8685450f06a9c225ad5a49b138c",
+   "byte": 5706
+  },
+  {
+   "path": "assets/mappa/2/16_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_2.webp",
+   "sha256": "bb71bcd29584fe13dfdd145d78892fc49444246f655f0871ea02bf4fe9d887cf",
+   "byte": 2642
+  },
+  {
+   "path": "assets/mappa/2/16_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_20.webp",
+   "sha256": "bc26c7a4e3a4069d4fa9aeda862de23c18bb90b7547118da6016e2dd0f8a124c",
+   "byte": 5508
+  },
+  {
+   "path": "assets/mappa/2/16_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/16_21.webp",
+   "sha256": "80ab1e5d1ea1a5d8a69bcc8f0e510df65b23f06ddc5d701f8a2a9d7fa2de2d69",
+   "byte": 908
+  },
+  {
+   "path": "assets/mappa/2/17_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_0.webp",
+   "sha256": "fc257570e219e60c7088cbaa47f6b2f0d4d1935f374a91d136399389bb82428e",
+   "byte": 3854
+  },
+  {
+   "path": "assets/mappa/2/17_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_1.webp",
+   "sha256": "5b1d722e418c97cb0bd7ea13c7c12f4f8d9db5db4aa80760d6255f291c1bdab0",
+   "byte": 2146
+  },
+  {
+   "path": "assets/mappa/2/17_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_12.webp",
+   "sha256": "421b127f43af674fbe85af8a1f1ca39be7ff07ae7e8440b7807a5b47c0ff5919",
+   "byte": 8638
+  },
+  {
+   "path": "assets/mappa/2/17_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_13.webp",
+   "sha256": "7eac14f277c8a1703e5eaa398cd02b68f3e6ff2fb9314699ae24de84c89e3fba",
+   "byte": 14240
+  },
+  {
+   "path": "assets/mappa/2/17_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_14.webp",
+   "sha256": "8eaf8777a3ff0e3d3391d1ed71401d5f5ac2a36e331a57cd04e3901fc456dfe6",
+   "byte": 12342
+  },
+  {
+   "path": "assets/mappa/2/17_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_15.webp",
+   "sha256": "5adda4d574f22f778ffd5cfbfeda6edc6174f8ade86fef9eec45b0d6629f7a9d",
+   "byte": 1774
+  },
+  {
+   "path": "assets/mappa/2/17_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_16.webp",
+   "sha256": "c67e7e3e5d57a5520b7ad25447509dffa3fd1f56e7bcaf413e3be5452a5df672",
+   "byte": 1152
+  },
+  {
+   "path": "assets/mappa/2/17_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_18.webp",
+   "sha256": "5ea881853747e4f750e7c0dd5d18c9eefa5cd3a423d2370f32503ac2d4a738ce",
+   "byte": 3232
+  },
+  {
+   "path": "assets/mappa/2/17_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_19.webp",
+   "sha256": "dd06eb8ed8a9f86a6257bf5ab9758c9df31ca9da3fa20a2f6423135edf879949",
+   "byte": 5412
+  },
+  {
+   "path": "assets/mappa/2/17_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_2.webp",
+   "sha256": "f23f62fced15b31c8763e94a947a4830f3f88dfa36edbebcd24d27e379552f13",
+   "byte": 4356
+  },
+  {
+   "path": "assets/mappa/2/17_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_20.webp",
+   "sha256": "5138353f82d34a17d4c25f1db65a8d5f0fb8967f407bec2a4775c8e0ca0c2c7c",
+   "byte": 1168
+  },
+  {
+   "path": "assets/mappa/2/17_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_3.webp",
+   "sha256": "7b90a7b81eb8c0c7162c5a3e5f7a90a9fad08703e4841ce63b8b6bc8e7636b2e",
+   "byte": 2260
+  },
+  {
+   "path": "assets/mappa/2/17_6.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/17_6.webp",
+   "sha256": "c1cb9cfba8739ad52aa6fbb263c09a24acfe4f8143836a9104b9c3dd2e5b4c23",
+   "byte": 1710
+  },
+  {
+   "path": "assets/mappa/2/18_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_0.webp",
+   "sha256": "5c456f9d689a67d047e2045c27e6036fe78922d75a1688b1dc62a87f7d1c8337",
+   "byte": 2592
+  },
+  {
+   "path": "assets/mappa/2/18_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_11.webp",
+   "sha256": "01dfa8dfe8754d92401bbc156bb50ff15decf2e06b9e1759b10b9e486c811700",
+   "byte": 4496
+  },
+  {
+   "path": "assets/mappa/2/18_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_12.webp",
+   "sha256": "c42bb3c35fc44a980e0a19d636b15c16cbab5599d5dc4cd6d79df9a283c1429f",
+   "byte": 12674
+  },
+  {
+   "path": "assets/mappa/2/18_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_13.webp",
+   "sha256": "78601bf7ca83d69025c65616e01dcf4a0726d38b5625f8228c7c6b32959a6b4c",
+   "byte": 12412
+  },
+  {
+   "path": "assets/mappa/2/18_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_14.webp",
+   "sha256": "610905f2953185c1d4009a9ccf64dad7d9f0669a7514b44a43b3fddcda88cc01",
+   "byte": 9032
+  },
+  {
+   "path": "assets/mappa/2/18_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_18.webp",
+   "sha256": "c216f17f862df94af129d076b7101d1a0cce37e9fe8561e94aeb808c9ad1aa34",
+   "byte": 882
+  },
+  {
+   "path": "assets/mappa/2/18_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_19.webp",
+   "sha256": "87836cc2de47985cd9ed4f081775db030c230aa6f339762c803ae99a543477cc",
+   "byte": 3480
+  },
+  {
+   "path": "assets/mappa/2/18_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_2.webp",
+   "sha256": "048348e9897ec96b7a04b842a94c53fdc951a424bf0d031fec9ce519d404acd3",
+   "byte": 1406
+  },
+  {
+   "path": "assets/mappa/2/18_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_3.webp",
+   "sha256": "f11c3284a7852068f2dcfbffdcc5dab864b0d16f4c8c9367875535ad157f895c",
+   "byte": 6910
+  },
+  {
+   "path": "assets/mappa/2/18_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/18_4.webp",
+   "sha256": "a240591d07abf6222b3f570b7879107cfc7a64bbf7a5b165389bc46287edb712",
+   "byte": 4410
+  },
+  {
+   "path": "assets/mappa/2/19_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_0.webp",
+   "sha256": "5d2d5f586b1b1479d2f0f7bc09d2cec49e05a746a5492924631e7c93032c8229",
+   "byte": 2810
+  },
+  {
+   "path": "assets/mappa/2/19_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_1.webp",
+   "sha256": "dc9d6848b967f6043ae151d54742a35983800c394f02325526a034ed36641dff",
+   "byte": 3444
+  },
+  {
+   "path": "assets/mappa/2/19_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_11.webp",
+   "sha256": "fc7083e95664cd187f38587f30fc49a454e78797b4cc52e3c074ff7fe3aa46e6",
+   "byte": 9162
+  },
+  {
+   "path": "assets/mappa/2/19_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_12.webp",
+   "sha256": "9d017d0f35a1abec45edb5d9a0069ebd65d1e2f5173592d93e81efadd548bd22",
+   "byte": 17494
+  },
+  {
+   "path": "assets/mappa/2/19_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_13.webp",
+   "sha256": "0b4999a7502152181c346bee6e8aebb168f61253dd32fb7e5f00734f4772c22b",
+   "byte": 9908
+  },
+  {
+   "path": "assets/mappa/2/19_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_14.webp",
+   "sha256": "5d92bf7cf10fd1dcc0d78925a99c5192eec0fac25f108ef67d7f89a9e31fe8d6",
+   "byte": 1530
+  },
+  {
+   "path": "assets/mappa/2/19_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_17.webp",
+   "sha256": "d7e67558540774dd179a723a95548f7066cff5d58deb6f12bb3e684e834d1131",
+   "byte": 850
+  },
+  {
+   "path": "assets/mappa/2/19_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_18.webp",
+   "sha256": "f84484e1c78de505cb7d530564170a622eca0bfabe914ac282bad8dab035e998",
+   "byte": 1856
+  },
+  {
+   "path": "assets/mappa/2/19_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_19.webp",
+   "sha256": "c85b39bfb3b6240798ebc4bdc5bcb3586372d39bdfbbef459491159cdcf3121e",
+   "byte": 3680
+  },
+  {
+   "path": "assets/mappa/2/19_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_2.webp",
+   "sha256": "c8ce22d8e496f36e3962a55124dd4620ad04fdba148f2658fce7d85a6ecb4718",
+   "byte": 4448
+  },
+  {
+   "path": "assets/mappa/2/19_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_3.webp",
+   "sha256": "1a055ad3050ad7cac6cb3fe089c7814b8a2c80f06a8037af42438e6eff819d66",
+   "byte": 12266
+  },
+  {
+   "path": "assets/mappa/2/19_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_4.webp",
+   "sha256": "4a9afea17032c80ba1ee5684efd9a9a8655f7847e94419d1f48132c27faa6668",
+   "byte": 13482
+  },
+  {
+   "path": "assets/mappa/2/19_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/19_5.webp",
+   "sha256": "9b9769d1ca1fe5ab40e8e6db351e82f62472d448a1d288a2c6f2bc4386f0e7d6",
+   "byte": 1334
+  },
+  {
+   "path": "assets/mappa/2/1_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_0.webp",
+   "sha256": "5d9f90998c896092a98bafe7eaec7deff7150d8370aaf857de2f053d63c635e5",
+   "byte": 4746
+  },
+  {
+   "path": "assets/mappa/2/1_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_1.webp",
+   "sha256": "6b5cba77f1587690c2d5ec32e84acfa4122ac336eb64954c21c8e3270f3c50f2",
+   "byte": 1074
+  },
+  {
+   "path": "assets/mappa/2/1_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_13.webp",
+   "sha256": "7a3bfdf4379b9e55469db267683e82ed5621f002fdd1cdb1f22258e6b4a82f0e",
+   "byte": 4578
+  },
+  {
+   "path": "assets/mappa/2/1_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_14.webp",
+   "sha256": "4275a682cdb6cfde17fc8eb04a135dac58250806e9e17289989909144c949315",
+   "byte": 5802
+  },
+  {
+   "path": "assets/mappa/2/1_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_15.webp",
+   "sha256": "797e0e08fed6dc6847c3048122048d3e72c1181e60b71741509834f95f7c5f5d",
+   "byte": 12188
+  },
+  {
+   "path": "assets/mappa/2/1_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_16.webp",
+   "sha256": "1106513912f6c926fc03ad96b49534b510dfc76e62a058f3e4fdb38263ecf96b",
+   "byte": 11636
+  },
+  {
+   "path": "assets/mappa/2/1_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_17.webp",
+   "sha256": "e8b3e9d8734eb2baae238775833c2180e8d4909d1d5dc08bd65a7daa1a6a22e2",
+   "byte": 9516
+  },
+  {
+   "path": "assets/mappa/2/1_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_18.webp",
+   "sha256": "1b336e7d86cc18bfd1cfdc7d075db0f5c0510f3db4f5c6008a312a183ef950b0",
+   "byte": 3718
+  },
+  {
+   "path": "assets/mappa/2/1_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_19.webp",
+   "sha256": "88362fc34072a9ba1b49d51839ecb6e111cadd6f0b5c4a14a138b2fcf011f82e",
+   "byte": 3806
+  },
+  {
+   "path": "assets/mappa/2/1_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_2.webp",
+   "sha256": "54585cddd8c29ffb96cbdd0fb8d1e976985973e179293db8bfc9f66c96513d66",
+   "byte": 3960
+  },
+  {
+   "path": "assets/mappa/2/1_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_20.webp",
+   "sha256": "9cdd4cc0bef6b4da1f2eb5f96630dab0055cbc76d99349bb9499b8a952ea5b64",
+   "byte": 1352
+  },
+  {
+   "path": "assets/mappa/2/1_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_3.webp",
+   "sha256": "c2441c92815d488267ec18a819db2c49b37cd677fcdb908cc94d4000d4b6f644",
+   "byte": 7670
+  },
+  {
+   "path": "assets/mappa/2/1_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_4.webp",
+   "sha256": "eafd976ce1ec0a11c4856b3154e968a18e7c0cddd7f5a5e992b1dce60fe69fe0",
+   "byte": 8328
+  },
+  {
+   "path": "assets/mappa/2/1_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/1_5.webp",
+   "sha256": "db11e7e41097af2e3eb00e575f515d0704b64a3d69586a45b396e4f9eeab1932",
+   "byte": 1936
+  },
+  {
+   "path": "assets/mappa/2/20_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_0.webp",
+   "sha256": "62cdc9e4af8b44f1c98158b70717d27b5fc1baafa5ee4018607b25b69747bb75",
+   "byte": 4294
+  },
+  {
+   "path": "assets/mappa/2/20_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_1.webp",
+   "sha256": "f9a7742de7b14876a1f0538de812dbbd2c2307d563b45f8cd015df133250dd7a",
+   "byte": 7024
+  },
+  {
+   "path": "assets/mappa/2/20_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_10.webp",
+   "sha256": "0479114471c4aeb610bb565d70348397a1b38ad60baed4e9af9850dc678b7480",
+   "byte": 6346
+  },
+  {
+   "path": "assets/mappa/2/20_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_11.webp",
+   "sha256": "5892dddaf890d73464d9d73a7d6f61747272e1184e85df1d8ba7dcc63f0b2277",
+   "byte": 12750
+  },
+  {
+   "path": "assets/mappa/2/20_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_12.webp",
+   "sha256": "22703e4ac439e04a6c3745b421b346bb607f95457c758ce6d415ed3a1cdf86f2",
+   "byte": 8896
+  },
+  {
+   "path": "assets/mappa/2/20_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_13.webp",
+   "sha256": "bb41db94562d02329cb14bc95f6201ecfbda9be9f2e26ecd36d5db7e3d6c126b",
+   "byte": 1974
+  },
+  {
+   "path": "assets/mappa/2/20_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_17.webp",
+   "sha256": "8e61c74570e092587142df4527995a99349460dfdaad0287f41312055d3a1930",
+   "byte": 2686
+  },
+  {
+   "path": "assets/mappa/2/20_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_18.webp",
+   "sha256": "ce96b23ee168a2a32674db9250e08ebf2408a5f41d9c23ab1f20815f185c54f9",
+   "byte": 1794
+  },
+  {
+   "path": "assets/mappa/2/20_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_19.webp",
+   "sha256": "492af64407e1b5513b99baa4e9e33d34af7aeeace351bfdb884cc6061ca7b917",
+   "byte": 2982
+  },
+  {
+   "path": "assets/mappa/2/20_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_2.webp",
+   "sha256": "d26bed1ad3b11d3b40b254bc94540ab43bc177e838aa8342d4d3c8b4693a2f51",
+   "byte": 4334
+  },
+  {
+   "path": "assets/mappa/2/20_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_20.webp",
+   "sha256": "9b7ae8ad6a5b9d060b47da270a544ca4663bc5383ab1d5a4fd23847abb60963f",
+   "byte": 822
+  },
+  {
+   "path": "assets/mappa/2/20_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_3.webp",
+   "sha256": "6e9d1d3475145a0bd07f2d3f825233d3142006f5028111113a6c4a242aefaf6a",
+   "byte": 9510
+  },
+  {
+   "path": "assets/mappa/2/20_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_4.webp",
+   "sha256": "862799ab7bcd7ad5266d59bb53c1e963cbf7afde4ce7a15681983b25c8ba459c",
+   "byte": 16274
+  },
+  {
+   "path": "assets/mappa/2/20_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_7.webp",
+   "sha256": "4a1c68e5bbf40d35260e75e57ce865cb292c7749f589cabbe35c3bd31037a99c",
+   "byte": 1088
+  },
+  {
+   "path": "assets/mappa/2/20_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/20_9.webp",
+   "sha256": "2ac4e56b9b0be2b846da0b79f98119bc9100ea8e8ceee573464198007a454003",
+   "byte": 1176
+  },
+  {
+   "path": "assets/mappa/2/21_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_0.webp",
+   "sha256": "763728f4632bad749c97d271f2fc391f8eb92bdbdb2be1b002d6f51964ad8926",
+   "byte": 5084
+  },
+  {
+   "path": "assets/mappa/2/21_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_1.webp",
+   "sha256": "d38ead8c3a5de84bb28bf4970f3b222366afdefa3f9e07f1115398ea30e68db4",
+   "byte": 11878
+  },
+  {
+   "path": "assets/mappa/2/21_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_10.webp",
+   "sha256": "b5c9eaca79ba0663fba21227a672efe841e69c25c1acac121838fed3e8183826",
+   "byte": 11486
+  },
+  {
+   "path": "assets/mappa/2/21_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_11.webp",
+   "sha256": "cb1cb8c678a0f4dd619809e8fa283aab335c066f43a3dd706fcb05d668f1e0e1",
+   "byte": 10856
+  },
+  {
+   "path": "assets/mappa/2/21_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_12.webp",
+   "sha256": "71f482abc5db6a3be8d81ee7e10fcf34c1567300ba1e51fc5d1ee0ce8695826a",
+   "byte": 2568
+  },
+  {
+   "path": "assets/mappa/2/21_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_15.webp",
+   "sha256": "e65ba83769e370f7b2e1be83237323d5ca30b06569baea9ceeaca900559527c3",
+   "byte": 1212
+  },
+  {
+   "path": "assets/mappa/2/21_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_16.webp",
+   "sha256": "2da46689f3eea36344801c3ca0c839437e7a7c5ee2c9a75de2c439dac7eb49ee",
+   "byte": 2306
+  },
+  {
+   "path": "assets/mappa/2/21_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_17.webp",
+   "sha256": "1361e498e26d3b2c40260f7fc579b5f746853c364ca7a514fd6af5d0820d8928",
+   "byte": 2248
+  },
+  {
+   "path": "assets/mappa/2/21_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_18.webp",
+   "sha256": "6c6266529e6afcfe96c5f86088fbbee5762f46f4640dc451a73f01d086905afc",
+   "byte": 618
+  },
+  {
+   "path": "assets/mappa/2/21_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_2.webp",
+   "sha256": "f6d03c4681cd003e27ffd10f11f869d993ce3b2b2693d0da595522ab8d3fde0a",
+   "byte": 3036
+  },
+  {
+   "path": "assets/mappa/2/21_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_20.webp",
+   "sha256": "96cd38d96ff65dd9ff1aba5a362eda10b0b8ddbc42d014bf6e3e85c83fe92627",
+   "byte": 2790
+  },
+  {
+   "path": "assets/mappa/2/21_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_21.webp",
+   "sha256": "db6385ee93116b227e979c15369d68c4550077471186ca7773d609f5fc6e8902",
+   "byte": 574
+  },
+  {
+   "path": "assets/mappa/2/21_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_3.webp",
+   "sha256": "5da5a8601d32af4e2ecbde7c707d82991b66bff9a9d5654935d123a2c5b84b34",
+   "byte": 3228
+  },
+  {
+   "path": "assets/mappa/2/21_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_4.webp",
+   "sha256": "3081d7a66f2059f5ecea5000436b613cafc559d5b1b40bb6aa3d96dfa9418165",
+   "byte": 40620
+  },
+  {
+   "path": "assets/mappa/2/21_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_5.webp",
+   "sha256": "1d1deefc4c5ac46d863f98d50e5d51d53fe489e36352e55925a16a684b0eebbd",
+   "byte": 4438
+  },
+  {
+   "path": "assets/mappa/2/21_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_7.webp",
+   "sha256": "c50c922187d44892731d5745ede6419b21f3d1622474d059b7125bffc356b046",
+   "byte": 4622
+  },
+  {
+   "path": "assets/mappa/2/21_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_8.webp",
+   "sha256": "bd0b8cdc914d2caafcd1866027a1484de7e52a93318c5e804a91b29f0cf72ca3",
+   "byte": 976
+  },
+  {
+   "path": "assets/mappa/2/21_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/21_9.webp",
+   "sha256": "68ad0484f7af741a8769b7e5d4feeb89690f2a38d3c894d8b47e19a080712a36",
+   "byte": 8448
+  },
+  {
+   "path": "assets/mappa/2/22_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_0.webp",
+   "sha256": "fabc01cf832fe7d71633824f681d907a72957cff0be3655d27e233a6828a2a22",
+   "byte": 3164
+  },
+  {
+   "path": "assets/mappa/2/22_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_1.webp",
+   "sha256": "1a1f7465f3671a8f6f77bd49811eb7dba8d67946412415ae3d579cbd5ddff206",
+   "byte": 4488
+  },
+  {
+   "path": "assets/mappa/2/22_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_10.webp",
+   "sha256": "5da4fecc293caa992d46cafa3ca7c8a4c853f5cf0087acf5a04e8fe9e30bd2e3",
+   "byte": 11514
+  },
+  {
+   "path": "assets/mappa/2/22_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_11.webp",
+   "sha256": "877d5501d61baf7c34c5137ad6d1909b9233d2220ae54db9bc7c346dae9d17f9",
+   "byte": 2674
+  },
+  {
+   "path": "assets/mappa/2/22_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_14.webp",
+   "sha256": "9b0a695aaf3e0f8ae8d3ddb635f9a2d710463c996a06ce7057493d88e5f0e6ab",
+   "byte": 8206
+  },
+  {
+   "path": "assets/mappa/2/22_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_15.webp",
+   "sha256": "de878c47baa8b61dd5027df551319536d9d3a6ca048860d1876fc0de46a29d7e",
+   "byte": 6484
+  },
+  {
+   "path": "assets/mappa/2/22_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_16.webp",
+   "sha256": "87f90f3ac8037e5b6135dbb34c49247ecbca22cf91776231a36020503974c47f",
+   "byte": 10152
+  },
+  {
+   "path": "assets/mappa/2/22_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_17.webp",
+   "sha256": "cc07aaddb76159c1b9838730139d3b098e6b2d82478a5abfa2c0a8105f8e9ea8",
+   "byte": 7762
+  },
+  {
+   "path": "assets/mappa/2/22_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_18.webp",
+   "sha256": "9346189bddc89613399e72f4688c0df9ccbe7ba10086fb8de8046ae1eb70a0b2",
+   "byte": 4268
+  },
+  {
+   "path": "assets/mappa/2/22_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_19.webp",
+   "sha256": "8ccefdfa5837c7f714dd5c15417db03c5380c52d585d32a500f922eb177f6247",
+   "byte": 554
+  },
+  {
+   "path": "assets/mappa/2/22_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_2.webp",
+   "sha256": "1320a759885f1e2c152b38554170f11fbf90e49c305409807446ce256e15e883",
+   "byte": 2964
+  },
+  {
+   "path": "assets/mappa/2/22_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_20.webp",
+   "sha256": "0e3ebcdccb16113f03a7f857c4eadc6b2d0483a76d317e53cb9c5a69390aa7ce",
+   "byte": 590
+  },
+  {
+   "path": "assets/mappa/2/22_21.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_21.webp",
+   "sha256": "0201c49c58dc9b1fe533cc2812029e173047d03fbecb513984623d7d8e7c56a0",
+   "byte": 1580
+  },
+  {
+   "path": "assets/mappa/2/22_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_4.webp",
+   "sha256": "451cd64228422cdaa3874cf08f6fbc2ea55a450ebd9f2fe543328e21ff40eeb0",
+   "byte": 3798
+  },
+  {
+   "path": "assets/mappa/2/22_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_7.webp",
+   "sha256": "6e44a0095d4c643f1afe28c64dc6e7df9d9695a192b60da8fe5ec39869652250",
+   "byte": 2298
+  },
+  {
+   "path": "assets/mappa/2/22_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_8.webp",
+   "sha256": "ac24ec8910a60430b856946c694a135ced1129df30c4584a978bd6eeffdc51d0",
+   "byte": 12294
+  },
+  {
+   "path": "assets/mappa/2/22_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/22_9.webp",
+   "sha256": "d51a65a05b509118f6891727c2f6bfb837d2750e299716388ed27b3b0a9cb0bf",
+   "byte": 16946
+  },
+  {
+   "path": "assets/mappa/2/23_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_0.webp",
+   "sha256": "6b4402300807e693ff2100538bbb6a2fce0c64ec816c43811bafc8cd82a3b180",
+   "byte": 888
+  },
+  {
+   "path": "assets/mappa/2/23_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_1.webp",
+   "sha256": "c33d19b8775b21881070a67c82e61b2bb71f63b5cc787241e97a54a4f866adb8",
+   "byte": 806
+  },
+  {
+   "path": "assets/mappa/2/23_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_10.webp",
+   "sha256": "1b28c96f7d5052deb089a774c2462efcee9888a53c40fd70f5ad90e5423d16b6",
+   "byte": 542
+  },
+  {
+   "path": "assets/mappa/2/23_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_13.webp",
+   "sha256": "69dd5f7da62540cdf8e34e5381a5e17ce1652af8d4a144f47acdc98978263e63",
+   "byte": 612
+  },
+  {
+   "path": "assets/mappa/2/23_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_14.webp",
+   "sha256": "e2f331f857914162b302ef599e3cef9030e9a0d4e16cd03283878ce71ebd631f",
+   "byte": 2728
+  },
+  {
+   "path": "assets/mappa/2/23_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_15.webp",
+   "sha256": "19388ce4ed552c695ef650dad6b5547fc812d5771c37ec2cbd73dd42acce220b",
+   "byte": 2138
+  },
+  {
+   "path": "assets/mappa/2/23_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_16.webp",
+   "sha256": "cfc0b775570e5cf4e0ef0f410071c47ee74fe64d232fdc80c6fbddbd8d330d5f",
+   "byte": 832
+  },
+  {
+   "path": "assets/mappa/2/23_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_17.webp",
+   "sha256": "03953ecc77360317e9bb17fd256240f8c16889ab0959b21f1033ebcd76b3bda4",
+   "byte": 944
+  },
+  {
+   "path": "assets/mappa/2/23_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_18.webp",
+   "sha256": "865ac533e1ae7098e65763d89078c3996d4729a7cd4203ceb9f001e795a73d6f",
+   "byte": 1494
+  },
+  {
+   "path": "assets/mappa/2/23_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_19.webp",
+   "sha256": "f4eaeafad383657f59590070031d1322a50bd909c208a8c2c56ab486ba5a4017",
+   "byte": 848
+  },
+  {
+   "path": "assets/mappa/2/23_7.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_7.webp",
+   "sha256": "17c8ba59572be119fa79f6480286256f248e82b840062029048a9ca95384eab7",
+   "byte": 770
+  },
+  {
+   "path": "assets/mappa/2/23_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_8.webp",
+   "sha256": "64c43df75e709df9f2ee3e0e6f354a2ebf124ecc44eb8305e02748d2ea5bbc6e",
+   "byte": 1974
+  },
+  {
+   "path": "assets/mappa/2/23_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/23_9.webp",
+   "sha256": "f875fecac925beb374a385eabad976d160e2e0807bde7b75da23df33307516de",
+   "byte": 2490
+  },
+  {
+   "path": "assets/mappa/2/2_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_0.webp",
+   "sha256": "42f3101a3b2bd816fcd2467a5b6d209821513cb980b6d319fafd7c9ba923a1f2",
+   "byte": 4544
+  },
+  {
+   "path": "assets/mappa/2/2_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_1.webp",
+   "sha256": "2e5ec3173b7478536e42ed1a67a2ea10122c9152e7d40558246a954c1e68b33b",
+   "byte": 4688
+  },
+  {
+   "path": "assets/mappa/2/2_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_14.webp",
+   "sha256": "a9e1f338351547d383ef07a90e4676b13c617c78d702aeb6ee7fb52bb545b1c1",
+   "byte": 3968
+  },
+  {
+   "path": "assets/mappa/2/2_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_15.webp",
+   "sha256": "6744b0472f6c5219bc39803f01c02a5203ffcd9aa2794c7a48693b09b7164684",
+   "byte": 8928
+  },
+  {
+   "path": "assets/mappa/2/2_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_16.webp",
+   "sha256": "19154a7e441bb27567bf8acf329b27b394d9075fad697089811612be16811933",
+   "byte": 23330
+  },
+  {
+   "path": "assets/mappa/2/2_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_17.webp",
+   "sha256": "857cc5a8c42a4cc30983af538fd074755ce14dfe8f302b9f47db398c73d06500",
+   "byte": 16758
+  },
+  {
+   "path": "assets/mappa/2/2_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_18.webp",
+   "sha256": "6670df4bbd8d18cda74e1dcffb1a8736c153df1a754453e691c50c227c6c5187",
+   "byte": 20024
+  },
+  {
+   "path": "assets/mappa/2/2_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_19.webp",
+   "sha256": "b90ba267246591f1658359e15f46d4db0b75e8c3700246d0ca4187ef64b46c3c",
+   "byte": 21132
+  },
+  {
+   "path": "assets/mappa/2/2_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_2.webp",
+   "sha256": "9fb6acb7bdba59f7478c840640b47340d75d225cb32fd0efff7663e9696bfd13",
+   "byte": 3578
+  },
+  {
+   "path": "assets/mappa/2/2_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_20.webp",
+   "sha256": "ccd78b7721aab820fd3f048a7951a7020485eba5cd0cfbb05db629fd9b7ea26f",
+   "byte": 3704
+  },
+  {
+   "path": "assets/mappa/2/2_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_3.webp",
+   "sha256": "7f557a9f2c7be7b18236fe3c39d5740ce86c8763e9448da36511510385bb8bba",
+   "byte": 5886
+  },
+  {
+   "path": "assets/mappa/2/2_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/2_4.webp",
+   "sha256": "db825fe9fcf829ce8b841a3faf7f3b4459bc14c82737ae7f6c8eb3fee7362d10",
+   "byte": 4600
+  },
+  {
+   "path": "assets/mappa/2/3_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_0.webp",
+   "sha256": "30303a8179fdb51b138beb23036a72c310c5fd6b797fb3a861e8a99a0d42d0f0",
+   "byte": 7516
+  },
+  {
+   "path": "assets/mappa/2/3_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_1.webp",
+   "sha256": "e7c128771ba870c068bc5f06c6bcb4e85737cef1d19318a15f234743c112576d",
+   "byte": 6106
+  },
+  {
+   "path": "assets/mappa/2/3_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_10.webp",
+   "sha256": "b4ecf6a925428744c896624b4b12857175b8ee3ed051c25e0092daaf9e20863d",
+   "byte": 2884
+  },
+  {
+   "path": "assets/mappa/2/3_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_11.webp",
+   "sha256": "8cb069c75a3c16aaefcc0a13fa842dd8976ccd77a9cd05bb11c598aa96423cb7",
+   "byte": 740
+  },
+  {
+   "path": "assets/mappa/2/3_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_14.webp",
+   "sha256": "434722c17d9e88ad21dbf3c774c5f25a9003675668119db714b1fce7c8b12c32",
+   "byte": 19428
+  },
+  {
+   "path": "assets/mappa/2/3_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_15.webp",
+   "sha256": "85836b3ac9f547433930592a6c0cbbc6c183ad2b1fc79c716b3c678c85ce067e",
+   "byte": 29254
+  },
+  {
+   "path": "assets/mappa/2/3_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_16.webp",
+   "sha256": "38a541ca0bf4036d9f481088b0599a69b0df39cbdcd488fdc92d56bc63d2f3a1",
+   "byte": 28452
+  },
+  {
+   "path": "assets/mappa/2/3_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_17.webp",
+   "sha256": "49371b9d83b7f46c5983c72728c8eb2595813d23bca44b31ab39f5e98eb83db1",
+   "byte": 39732
+  },
+  {
+   "path": "assets/mappa/2/3_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_18.webp",
+   "sha256": "b028676043ec41a11f63f95039c636d098d1bfe0b2b5c23fb3ab698c9d6c84f1",
+   "byte": 24874
+  },
+  {
+   "path": "assets/mappa/2/3_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_19.webp",
+   "sha256": "a60b9e460e59955cb5b2a2d11120c2ab7a3a9d0a9de6bff5a756273bccb57eb5",
+   "byte": 17588
+  },
+  {
+   "path": "assets/mappa/2/3_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_2.webp",
+   "sha256": "0e648af6f7f4f6a3ed3c3007743e785766e6d109d6ac6065f4ac4823ec48b52b",
+   "byte": 3584
+  },
+  {
+   "path": "assets/mappa/2/3_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_20.webp",
+   "sha256": "a2c9d6f919c5229b3fca4fb755c59d36f9cd666930329c21e9b255e1f5722f6d",
+   "byte": 4472
+  },
+  {
+   "path": "assets/mappa/2/3_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/3_3.webp",
+   "sha256": "b3c043e0025300631db2e0fe2f165ddc8358eaa88edd42b17dfc7e991c122cff",
+   "byte": 5124
+  },
+  {
+   "path": "assets/mappa/2/4_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_0.webp",
+   "sha256": "c19956d74bc55fb547bf012214bd5d95ebcdd09e3126cee7302b7c5c1247ad8b",
+   "byte": 17434
+  },
+  {
+   "path": "assets/mappa/2/4_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_1.webp",
+   "sha256": "b35b4b4eaccdc6316b0bc7131fd87e3c76b90ea8abade94ddeceda4c1f5b1b36",
+   "byte": 3760
+  },
+  {
+   "path": "assets/mappa/2/4_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_11.webp",
+   "sha256": "5747f7b50e73e8fa3b479509d3bb37322fda23eff149bf276d00f0bfcff19a5a",
+   "byte": 702
+  },
+  {
+   "path": "assets/mappa/2/4_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_13.webp",
+   "sha256": "784e113cbdde139268cb6e26b5b0e1e74b3952c02bfcb8c6b7465c82a966616d",
+   "byte": 818
+  },
+  {
+   "path": "assets/mappa/2/4_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_14.webp",
+   "sha256": "e8179f40ab611d33f1394662e8f544d586b8911cd2be9dda6c73cdf468711348",
+   "byte": 31330
+  },
+  {
+   "path": "assets/mappa/2/4_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_15.webp",
+   "sha256": "f382cfac9f45cededb7e5ade661819b186e961abd0d089217e3cfc89a96da91e",
+   "byte": 37458
+  },
+  {
+   "path": "assets/mappa/2/4_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_16.webp",
+   "sha256": "e74263c8fef98508f3f215bd197c9a534a24f8288e1ea80bee42c4f55f628a3e",
+   "byte": 43974
+  },
+  {
+   "path": "assets/mappa/2/4_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_17.webp",
+   "sha256": "f44a74c94b25ecaeb5c4a70f6ce5b8574ce8b741a9db4bf9b00bacef54082dd1",
+   "byte": 36598
+  },
+  {
+   "path": "assets/mappa/2/4_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_18.webp",
+   "sha256": "e22fea51c2d31af8f5b1ed89f27040caf040b7050a80eb2d7b371b26a36ed642",
+   "byte": 38826
+  },
+  {
+   "path": "assets/mappa/2/4_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_19.webp",
+   "sha256": "14269969b27ff07300fa8418f0606981d93dd4664aaecbf05f0c449c169876ae",
+   "byte": 17868
+  },
+  {
+   "path": "assets/mappa/2/4_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_2.webp",
+   "sha256": "09ab397507744c0ea7fbfb79d2fbc40225a44743efae50dd00aef2eca300f55a",
+   "byte": 7042
+  },
+  {
+   "path": "assets/mappa/2/4_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_20.webp",
+   "sha256": "3aaa722643b371433c48f277fea520cf1e99ab04d53e01097cb0e68efb06c926",
+   "byte": 22792
+  },
+  {
+   "path": "assets/mappa/2/4_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/4_3.webp",
+   "sha256": "433c97f91c9dc6283456ce6151f99c9cb84e1b380b4cf25a7cb027b17efb78ba",
+   "byte": 3608
+  },
+  {
+   "path": "assets/mappa/2/5_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_0.webp",
+   "sha256": "f1841334675380f37e6ab30530988b683996fa5761bdb49cd7118843a9ec0234",
+   "byte": 12948
+  },
+  {
+   "path": "assets/mappa/2/5_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_1.webp",
+   "sha256": "cc57e19987cfe2aac7791e0008ccb73af7e4afbf42ea0474ae3a79bde1225857",
+   "byte": 10852
+  },
+  {
+   "path": "assets/mappa/2/5_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_13.webp",
+   "sha256": "a136a67125bd79b8c7b34233cc3acaee32b6a7f10e60f0a59d437fbb0a061ad2",
+   "byte": 578
+  },
+  {
+   "path": "assets/mappa/2/5_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_14.webp",
+   "sha256": "03515a9ef3b5881bc32062633dcee7d2a77a5e06a55af30af356ca4dcaf75317",
+   "byte": 28344
+  },
+  {
+   "path": "assets/mappa/2/5_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_15.webp",
+   "sha256": "736961cdd5fb534c9ff04338bacc019bc5bafc1c2c51e09f01266755511f0a92",
+   "byte": 35970
+  },
+  {
+   "path": "assets/mappa/2/5_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_16.webp",
+   "sha256": "f952d2335916af71a707d5b357aa8bcf50e320fa45c2548edfb5350c2abf842b",
+   "byte": 40122
+  },
+  {
+   "path": "assets/mappa/2/5_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_17.webp",
+   "sha256": "4fabe0954ea16ca4d7774ff5752531e234caa8cfcbf29b4bc2a3b77973988551",
+   "byte": 36080
+  },
+  {
+   "path": "assets/mappa/2/5_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_18.webp",
+   "sha256": "b829b0d0202ba4a59401d22321cb097802d8be6b52e7e372b480797683c09fee",
+   "byte": 34162
+  },
+  {
+   "path": "assets/mappa/2/5_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_19.webp",
+   "sha256": "8a1ae0d977a9f70b01c07b9d4fe8406c27296b97f0763f47dcbaddccefc6af61",
+   "byte": 14252
+  },
+  {
+   "path": "assets/mappa/2/5_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_2.webp",
+   "sha256": "589b7a46d92203a91866b2bc0f99dbc4d6bbe0a42bceb3d85c8aadbdf2bdb389",
+   "byte": 4610
+  },
+  {
+   "path": "assets/mappa/2/5_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_20.webp",
+   "sha256": "99aa956d6c96f1af28f5b98ec835ae6d6d46c7b4f601f06c2d3158eeaf8fd1e4",
+   "byte": 20208
+  },
+  {
+   "path": "assets/mappa/2/5_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_3.webp",
+   "sha256": "b2c926780c1c599140338704eabc654f9241034b62a86baecd60809c19f82e6f",
+   "byte": 2916
+  },
+  {
+   "path": "assets/mappa/2/5_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/5_4.webp",
+   "sha256": "87572d8d0d8650a15430f483f6e39d52da07f7546d29bf82960a4dab4c40a556",
+   "byte": 1806
+  },
+  {
+   "path": "assets/mappa/2/6_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_0.webp",
+   "sha256": "ad9042acf37a4e49e2684434f306f4c642ab7d4f3300c2c3047b75d4cb4a5e88",
+   "byte": 12216
+  },
+  {
+   "path": "assets/mappa/2/6_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_1.webp",
+   "sha256": "fd52ae501c4ff3abd07bd585f17a1fde9ef0d36c2cdd799a50497ff70154a034",
+   "byte": 4808
+  },
+  {
+   "path": "assets/mappa/2/6_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_14.webp",
+   "sha256": "8b24a80b15e7e6fe268ded5ce86cb79702e750f6d81980e9609a6a08aa4f43a4",
+   "byte": 4790
+  },
+  {
+   "path": "assets/mappa/2/6_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_15.webp",
+   "sha256": "1d5331eeb8b220a50cb1e501157785edbb65b1f7101b3f7a2a97c89bd4600d91",
+   "byte": 34476
+  },
+  {
+   "path": "assets/mappa/2/6_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_16.webp",
+   "sha256": "9be5404b6fa96095082dd713b0f9e24373cfc5d8abd135116461633417a3019d",
+   "byte": 36862
+  },
+  {
+   "path": "assets/mappa/2/6_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_17.webp",
+   "sha256": "d1ac75cbc01e4bdc84a87dad01e2e7c6fc52df02aae8638e0adee02bf41a82f4",
+   "byte": 39646
+  },
+  {
+   "path": "assets/mappa/2/6_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_18.webp",
+   "sha256": "67925477c1fc3a2ead5bbe6f87c48f1ad751be44ab94ba1cca93a06fd4d7c852",
+   "byte": 23750
+  },
+  {
+   "path": "assets/mappa/2/6_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_19.webp",
+   "sha256": "a45e706503300f17adf2859ee0b1fe46647f26b566734256825e7a670305e2fe",
+   "byte": 6008
+  },
+  {
+   "path": "assets/mappa/2/6_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_2.webp",
+   "sha256": "e9616c188c70e0cd48df462bd61645ec3cdaea7fad77724f487de8c29f3ea310",
+   "byte": 4178
+  },
+  {
+   "path": "assets/mappa/2/6_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_20.webp",
+   "sha256": "19a850aa6ba526c37d54abcc6fdd3e3693334f298547c86ae9c630eaf0dcd233",
+   "byte": 18502
+  },
+  {
+   "path": "assets/mappa/2/6_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_3.webp",
+   "sha256": "0e3e38cc97a8046a60451a2d86d5524eced734b3bdc68c046697ad97d20ffe7f",
+   "byte": 2014
+  },
+  {
+   "path": "assets/mappa/2/6_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/6_4.webp",
+   "sha256": "784835b55a910000cc4a8acea0cbe815cbd4ad9854ba642f3ebe29a1c9ff4c8f",
+   "byte": 1680
+  },
+  {
+   "path": "assets/mappa/2/7_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_0.webp",
+   "sha256": "dc6c84ae3b8f7fbc0c83f56058a81cf34f2e599e7eec27e8fa43e199ff314658",
+   "byte": 5892
+  },
+  {
+   "path": "assets/mappa/2/7_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_1.webp",
+   "sha256": "e559bd98fa88b7d8071d5e3d3e5f27d4de06d27ac57e021613751d0f745d54cb",
+   "byte": 3896
+  },
+  {
+   "path": "assets/mappa/2/7_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_12.webp",
+   "sha256": "15eef489da687c2b0fa4c9e0b2a975b3327f70614981f31266dfb2b2287384af",
+   "byte": 978
+  },
+  {
+   "path": "assets/mappa/2/7_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_14.webp",
+   "sha256": "4160638794aa17c85ffd9f0f952a77c4e655f45e67c1c720921b9015fd468496",
+   "byte": 1046
+  },
+  {
+   "path": "assets/mappa/2/7_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_15.webp",
+   "sha256": "d6a960e8d306c74e5b1f4d2272975dac93c227fcbcae4d5f3c8fe138ac1a0f39",
+   "byte": 16060
+  },
+  {
+   "path": "assets/mappa/2/7_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_16.webp",
+   "sha256": "cd538ed5e4be1bff9c5ab21f8c8a2ad2e058d9d78b232afaf09971dcec41c43a",
+   "byte": 37846
+  },
+  {
+   "path": "assets/mappa/2/7_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_17.webp",
+   "sha256": "b845edb687dedd267fad5b9c1de62f10fe8d3ab83711376d73d43d62bee186c6",
+   "byte": 37462
+  },
+  {
+   "path": "assets/mappa/2/7_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_18.webp",
+   "sha256": "3243a75bdf6e17aeb40a7c5307f312e3c89289a01f3b64c4fbe1b9fc005c0df3",
+   "byte": 7186
+  },
+  {
+   "path": "assets/mappa/2/7_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_19.webp",
+   "sha256": "68e4d4e939944d2b92ad278dec25ca451039bb3541894493689f998075e0b368",
+   "byte": 11690
+  },
+  {
+   "path": "assets/mappa/2/7_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_2.webp",
+   "sha256": "9fcc4e22f8a8431e19bb33db396c0ff07726eefe9875e1a8ff46cd37913df8ef",
+   "byte": 5852
+  },
+  {
+   "path": "assets/mappa/2/7_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_20.webp",
+   "sha256": "5f4b90f85f08f40c4bd9de638c0bfb877da78450368a90a377dca177c4a094f1",
+   "byte": 6204
+  },
+  {
+   "path": "assets/mappa/2/7_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_3.webp",
+   "sha256": "929739bf9e53ea9b814912ef753c2bae6b30fbf4e22b8f9e874893fcd097c16a",
+   "byte": 1020
+  },
+  {
+   "path": "assets/mappa/2/7_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/7_8.webp",
+   "sha256": "8eb893314473c54e93cfcb9bf16f67d1ad9590a3a191eba30ab6053fc5e2f92d",
+   "byte": 1032
+  },
+  {
+   "path": "assets/mappa/2/8_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_0.webp",
+   "sha256": "f1484c07650e31d59c3e816e56a84fb27b23a9e29c787c391cf8c6795b763e72",
+   "byte": 3706
+  },
+  {
+   "path": "assets/mappa/2/8_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_1.webp",
+   "sha256": "cf7cbc24089ddf4ea9b3a986f6524e6e2fa393b5085af7ddbf6a3f79a8034374",
+   "byte": 2554
+  },
+  {
+   "path": "assets/mappa/2/8_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_10.webp",
+   "sha256": "fd0a0960abe672a0f184593a6570b214400a414548cae378205c7d9f101fe9ea",
+   "byte": 2750
+  },
+  {
+   "path": "assets/mappa/2/8_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_11.webp",
+   "sha256": "66d698f11bfeb9f05fbb7b982ecdc8ecb42f32e2f5cbf5b13470957888800cf5",
+   "byte": 17432
+  },
+  {
+   "path": "assets/mappa/2/8_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_12.webp",
+   "sha256": "4b83a1985eb182cae7b9142b5986f8a8825208764bf5fd94f86d444c13aac43c",
+   "byte": 16878
+  },
+  {
+   "path": "assets/mappa/2/8_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_13.webp",
+   "sha256": "30ba5fc15940a6afec1122e846297d01f798ea5fd8e4ca51a20052443b82c5c8",
+   "byte": 4812
+  },
+  {
+   "path": "assets/mappa/2/8_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_14.webp",
+   "sha256": "c5fb67e5c1ce1addac5a0f06d53b1c928db4a846e586722ceb9e67795dc78537",
+   "byte": 24866
+  },
+  {
+   "path": "assets/mappa/2/8_15.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_15.webp",
+   "sha256": "ab4d6f0b76fb7bdec789c8c9e1812f5e28c333fea45f990cacce3c3856559883",
+   "byte": 2702
+  },
+  {
+   "path": "assets/mappa/2/8_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_16.webp",
+   "sha256": "5dc6a8984a965158bc194425dc0ec7117c0f431f00f31654fdc17a8af27a4e63",
+   "byte": 21172
+  },
+  {
+   "path": "assets/mappa/2/8_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_17.webp",
+   "sha256": "0fd2ea2e8e7005dda56797ed885b43068f8df50f2139679253f7cd9ef4d6f1e4",
+   "byte": 38628
+  },
+  {
+   "path": "assets/mappa/2/8_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_18.webp",
+   "sha256": "9ccaa24348ae5d7810d34cc537bec239569b931b08f9a7d0560ae8e2d539f4a2",
+   "byte": 6562
+  },
+  {
+   "path": "assets/mappa/2/8_19.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_19.webp",
+   "sha256": "a78ec8edbacc3b120d319850d74047ca9a607f83f93ade10a4e909919569a397",
+   "byte": 6278
+  },
+  {
+   "path": "assets/mappa/2/8_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_2.webp",
+   "sha256": "5dc1455ff0c4bc2794cabda4b0cfae33448add020f0ea2220b70bc793e10f61f",
+   "byte": 576
+  },
+  {
+   "path": "assets/mappa/2/8_20.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_20.webp",
+   "sha256": "d64bd9a28e49b6998a2a4cfa959c5904833f2db8e5e0bf8765a032548e54a85c",
+   "byte": 864
+  },
+  {
+   "path": "assets/mappa/2/8_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_3.webp",
+   "sha256": "b1702166852d1d878427ffb92c354957da60b71a575ba3542f3dcf1d593f7d5c",
+   "byte": 1408
+  },
+  {
+   "path": "assets/mappa/2/8_8.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_8.webp",
+   "sha256": "122d8f53a2d953b064048c0b7d192abca98aab17826aa93ec4e3b19908e59643",
+   "byte": 812
+  },
+  {
+   "path": "assets/mappa/2/8_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/8_9.webp",
+   "sha256": "b19e82d5cf7939b974ef463c8268985ed063f1e20fb4d828fe1468f57753b332",
+   "byte": 640
+  },
+  {
+   "path": "assets/mappa/2/9_0.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_0.webp",
+   "sha256": "b95397d625d7bc17391a5882054c8be9f96fd1090c722b6dbc023384e2ede47b",
+   "byte": 2450
+  },
+  {
+   "path": "assets/mappa/2/9_1.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_1.webp",
+   "sha256": "7a3ae6762cba5ec473806192469f3e7ecd5a3221f7826b73f42d713f79d8a68b",
+   "byte": 1402
+  },
+  {
+   "path": "assets/mappa/2/9_10.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_10.webp",
+   "sha256": "56cf92ed7312734e607e684aa975ed61d92ff5778bd13f4e2e6679d265c253fb",
+   "byte": 7536
+  },
+  {
+   "path": "assets/mappa/2/9_11.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_11.webp",
+   "sha256": "a28bf081cc7776d7d037d248a9ede3ad249baf9997ac82ad37988bfbc1adff07",
+   "byte": 32158
+  },
+  {
+   "path": "assets/mappa/2/9_12.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_12.webp",
+   "sha256": "c8ef2f854f43fca5ce3a77e3f9a63bd4cb44abccdd2315cff41efac192975962",
+   "byte": 35408
+  },
+  {
+   "path": "assets/mappa/2/9_13.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_13.webp",
+   "sha256": "65977e6991f5355cd40fc06b5f6bbbdab4b9457676aba968cae9c0a53c301586",
+   "byte": 7294
+  },
+  {
+   "path": "assets/mappa/2/9_14.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_14.webp",
+   "sha256": "42bfc828783f39442e6f6e3ab0ffbcacb21a7f0ab058b6e49c60eb58e14cc9ae",
+   "byte": 2292
+  },
+  {
+   "path": "assets/mappa/2/9_16.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_16.webp",
+   "sha256": "beffa15b64b3a36fd19ae6b03dca74a6e66ef72e202f8febf74a2a07a20c1739",
+   "byte": 6806
+  },
+  {
+   "path": "assets/mappa/2/9_17.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_17.webp",
+   "sha256": "54895637be1d40c7687e7dbe5b6adffdf87a86fe3d4ffd75698037fd1ee888f6",
+   "byte": 16816
+  },
+  {
+   "path": "assets/mappa/2/9_18.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_18.webp",
+   "sha256": "f792a3c7ff529d6f6c888372c25a4f2ef1348290d65e0f5a8a43c214234943d7",
+   "byte": 22902
+  },
+  {
+   "path": "assets/mappa/2/9_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_2.webp",
+   "sha256": "5c175e51a8d8d1fdefc861466c34dae6815b892e4743eaf619686bc59bd9dbd2",
+   "byte": 966
+  },
+  {
+   "path": "assets/mappa/2/9_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_5.webp",
+   "sha256": "6ddd6aea6c555b72443373312ac20bdadb54aed744349142b8fb07308a708889",
+   "byte": 1322
+  },
+  {
+   "path": "assets/mappa/2/9_9.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/mappa/2/9_9.webp",
+   "sha256": "e5b986fee0d996eb0dcd31ac4ff766434fa59e9e34dac4be8a5b7e5dde5b6106",
+   "byte": 1646
+  },
+  {
+   "path": "dati/aguzza.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/aguzza.json",
+   "sha256": "299baa0df5501f51221f3fdf73ff5f224a67bd68b2f156f52d572fc5462afda1",
+   "byte": 129
+  },
+  {
+   "path": "dati/app.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/app.json",
+   "sha256": "e77d756a68812423e6e6e71abc0cd47b23d8e5cf339d562e86c40d0c793360c4",
+   "byte": 2514
+  },
+  {
+   "path": "dati/autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/autobus.json",
+   "sha256": "99b612c79f420b0cf33c08e3b1be87df183194fab757b9da5c9ad1ccbb492e77",
+   "byte": 125014
+  },
+  {
+   "path": "dati/cibi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/cibi.json",
+   "sha256": "f476b7751cf157e8403ab6da29e6a31398e33fcdba8fbbf615964e2fd7674b5c",
+   "byte": 108
+  },
+  {
+   "path": "dati/citta.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/citta.json",
+   "sha256": "3abcfabbe9f1b1223ab41d66c76bfecce6b8a5b6add5be1e1e60f6586b3d1d1a",
+   "byte": 360
+  },
+  {
+   "path": "dati/curiosita.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/curiosita.json",
+   "sha256": "b04c71d72a950a2530ee9a8b6ba6183bb6b4051a10d37013276122a10119fcfd",
+   "byte": 113
+  },
+  {
+   "path": "dati/eventi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/eventi.json",
+   "sha256": "ef86d4b04bb08aecfdef3e183019e95abec6b2f48904953caf12c3a26342facb",
+   "byte": 1320
+  },
+  {
+   "path": "dati/immagini.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/immagini.json",
+   "sha256": "377eb184ab8c4d555692f7bf3409b965e6374b212559f85d0e86e54689eeee0f",
+   "byte": 329
+  },
+  {
+   "path": "dati/itinerari.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/itinerari.json",
+   "sha256": "cbd05404c6f7b2413e2da77e12074ce90321e6f08345599d7f642c1326050d8a",
+   "byte": 113
+  },
+  {
+   "path": "dati/luoghi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/luoghi.json",
+   "sha256": "b5bd50d9408945d28ddc8958681323a23b3fb95473412b2bb845aaec2f57b9fd",
+   "byte": 58503
+  },
+  {
+   "path": "dati/mappa.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/mappa.json",
+   "sha256": "ed4a5fdffa52aede5cc2588f6ed28dd613d6221b056a74ed6e24d462be2a1139",
+   "byte": 987
+  },
+  {
+   "path": "dati/orari_autobus.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/orari_autobus.json",
+   "sha256": "3c62649979529c8ef4eb3c5a11507665e6911d29f517031aa01ddafed6acc97b",
+   "byte": 8774
+  },
+  {
+   "path": "dati/orari_vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/orari_vaporetti.json",
+   "sha256": "121e517dc747a65897744bd0abdcd823a8184bdb4ceaf0d793705d5e7dd27515",
+   "byte": 75330
+  },
+  {
+   "path": "dati/personaggi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/personaggi.json",
+   "sha256": "33f39925897febf41239c94e9ed468789e79dcbac27d939f1d0ca84b751ca306",
+   "byte": 114
+  },
+  {
+   "path": "dati/principali.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/principali.json",
+   "sha256": "fc1cbede3ab829e7a37064f5de542cc4b06b84a8e6aa0b4b4df38e0b7cfc33e0",
+   "byte": 413
+  },
+  {
+   "path": "dati/rete.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/prova/dati/rete.json",
+   "sha256": "656650e4c3b08135fb816fe45ca19e3766c3ea4c5ea873828ec7831df507dc34",
+   "byte": 494221
+  },
+  {
+   "path": "dati/servizi.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/servizi.json",
+   "sha256": "a7fce7cf70e1f1fe41d44301c9bd31f9d34b633ddc3060c7bf86f7552b9f022b",
+   "byte": 35024
+  },
+  {
+   "path": "dati/vaporetti.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/vaporetti.json",
+   "sha256": "5b9937c4a8c2e5cac95004a89e74082b188607cc25bfac6d33a1be6587d7469d",
+   "byte": 25698
+  }
+ ]
+}
