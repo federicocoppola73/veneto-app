@@ -1,27 +1,60 @@
 {
- "versione": "e0f7423f3121",
+ "versione": "0b34352dde9d",
  "voce": "it-IT-Chirp3-HD-Achernar",
  "luoghi": {
   "basilica-san-marco": {
-   "file": "basilica-san-marco.mp3",
-   "byte": 66624,
-   "secondi": 17,
-   "sha256": "f08044d976cf4b0b460fb25a47bb90e78864296c0e7a9c05e12a036247c55999",
-   "testo": "6120e6a6b1909087"
+   "byte": 62880,
+   "secondi": 16,
+   "tracce": [
+    {
+     "id": "basilica",
+     "titolo": "La basilica",
+     "file": "basilica-san-marco__basilica.mp3",
+     "byte": 26304,
+     "secondi": 7,
+     "sha256": "faa143a28041d0f341c8aada6452b6aaf9dfc29fb9d21739bd41cdf38c850087",
+     "testo": "6fb5e4107a0e21e9"
+    },
+    {
+     "id": "interno",
+     "titolo": "L'interno",
+     "file": "basilica-san-marco__interno.mp3",
+     "byte": 36576,
+     "secondi": 9,
+     "sha256": "f33ba5397a7719a12fb17c059baeff976f29e7b6975beed56dce1b39d80d2acc",
+     "testo": "9f26d0ef4a23688f"
+    }
+   ]
   },
   "palazzo-ducale": {
-   "file": "palazzo-ducale.mp3",
    "byte": 65664,
    "secondi": 16,
-   "sha256": "ffb365d80fe9e866da4c7730a6fa7dca2759803c98b677f7a6153422cbd940ec",
-   "testo": "6c2674412224b42d"
+   "tracce": [
+    {
+     "file": "palazzo-ducale.mp3",
+     "byte": 65664,
+     "secondi": 16,
+     "sha256": "ffb365d80fe9e866da4c7730a6fa7dca2759803c98b677f7a6153422cbd940ec",
+     "testo": "6c2674412224b42d",
+     "id": null,
+     "titolo": null
+    }
+   ]
   },
   "ponte-rialto": {
-   "file": "ponte-rialto.mp3",
    "byte": 65952,
    "secondi": 16,
-   "sha256": "b2b28ddc5d289a6c13482eb7643d8962926e0edbdf33fcce93ed377d58ef31de",
-   "testo": "691bfbfabd8c6ef3"
+   "tracce": [
+    {
+     "file": "ponte-rialto.mp3",
+     "byte": 65952,
+     "secondi": 16,
+     "sha256": "b2b28ddc5d289a6c13482eb7643d8962926e0edbdf33fcce93ed377d58ef31de",
+     "testo": "691bfbfabd8c6ef3",
+     "id": null,
+     "titolo": null
+    }
+   ]
   }
  }
 }
