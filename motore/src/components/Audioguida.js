@@ -19,6 +19,7 @@ import {
   scaricaAudioguide,
   testoDurata,
   testoMB,
+  tracceDi,
   useAudioguide,
 } from '../audioguide';
 
@@ -424,7 +425,11 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
                     </View>
                   )}
                   <View style={[styles.pallino, { backgroundColor: coloreCategoria(l.categoria) }]} />
-                  <Text style={styles.nomeLuogo} numberOfLines={1}>{l.nome}</Text>
+                  {/* con più tracce si vede quante sono, es. "Basilica di San Marco (3)" */}
+                  <View style={styles.rigaNome}>
+                    <Text style={[styles.nomeLuogo, { flex: 0, flexShrink: 1 }]} numberOfLines={1}>{l.nome}</Text>
+                    {tracceDi(info).length > 1 && <Text style={styles.numeroTracce}>({tracceDi(info).length})</Text>}
+                  </View>
                   <Text style={gia ? styles.gia : styles.grigio}>{gia ? t('aud_gia') : testoMB(info.byte, lingua)}</Text>
                 </Pressable>
               );
@@ -613,6 +618,8 @@ const styles = StyleSheet.create({
   casellaGia: { backgroundColor: '#ede9fe', borderColor: '#ede9fe' },
   pallino: { width: 8, height: 8, borderRadius: 4 },
   nomeLuogo: { flex: 1, fontSize: 15, fontWeight: '600', color: '#0f172a' },
+  rigaNome: { flex: 1, flexDirection: 'row', alignItems: 'center', gap: 4, minWidth: 0 },
+  numeroTracce: { fontSize: 14, fontWeight: '600', color: '#64748b' },
   gia: { fontSize: 12, fontWeight: '700', color: VIOLA },
   errore: { fontSize: 12.5, color: '#b45309', marginTop: 8 },
   pulsanteGrande: { marginTop: 12, minHeight: 50, borderRadius: 14, backgroundColor: VIOLA, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 12 },
