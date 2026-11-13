@@ -228,7 +228,8 @@ def main():
                                  'Riformula queste frasi:\n- ' + '\n- '.join(v.strip() for v in vietate))
                 if multiple and not re.fullmatch(r'[a-z0-9-]+', tr['id'] or ''):
                     sys.exit(f'{id_luogo}: id della traccia non valido ({tr["id"]}): usa lettere minuscole, numeri e trattini')
-                chiave_testo = voce + '|' + testo if not tr['pausa'] else voce + '|pausa=' + tr['pausa'] + '|' + testo
+                # "frasi": metodo con una frase per richiesta e silenzio inserito da noi (cambiando metodo l'MP3 si rigenera)
+                chiave_testo = voce + '|' + testo if not tr['pausa'] else voce + '|pausa=' + tr['pausa'] + '|frasi|' + testo
                 impronta = hashlib.sha256(chiave_testo.encode('utf-8')).hexdigest()[:16]
                 if anteprima:
                     os.makedirs(f'anteprima/{lingua}', exist_ok=True)
