@@ -1,5 +1,5 @@
 {
- "versione": "8c48bdbb071e",
+ "versione": "775f0f53becd",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-san-marco": {
@@ -32,6 +32,21 @@
      "secondi": 338,
      "sha256": "0d95b1aa67c3091bb19eea124a8b7136b331aaed8c8c64b2183ee7dd643ed421",
      "testo": "9195c625b87bf615"
+    }
+   ]
+  },
+  "campanile-san-marco": {
+   "byte": 470784,
+   "secondi": 118,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "campanile-san-marco.mp3",
+     "byte": 470784,
+     "secondi": 118,
+     "sha256": "5c03e6eadd8a38dd86298fa577d8b4994b5749d72cdd24aa9219257dc1356121",
+     "testo": "b526b8cd3431106d"
     }
    ]
   },
@@ -86,6 +101,21 @@
      "secondi": 18,
      "sha256": "e2d2601d5d6eadb2c7117f3a2ee84b10a48830672ebd40ef47762d874d3fb4b0",
      "testo": "4987e20159cd32bc"
+    }
+   ]
+  },
+  "torre-orologio": {
+   "byte": 440064,
+   "secondi": 110,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "torre-orologio.mp3",
+     "byte": 440064,
+     "secondi": 110,
+     "sha256": "242070ac026ac0b4f4ca2bdfe08fc7993411b31bae69dcfa4ce46ad9c40a96c7",
+     "testo": "c8d6135585390d6c"
     }
    ]
   }
