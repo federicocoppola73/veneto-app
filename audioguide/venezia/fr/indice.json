@@ -1,5 +1,5 @@
 {
- "versione": "262fd00a0a9c",
+ "versione": "ead3f2eb0d83",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-san-marco": {
@@ -47,6 +47,21 @@
      "secondi": 112,
      "sha256": "d3d2ce00d00bf955fe7f2114b9abe1b1d4ebf344f98634e09270403ee737ebf8",
      "testo": "9e9d279a649933f7"
+    }
+   ]
+  },
+  "libreria-marciana": {
+   "byte": 619584,
+   "secondi": 155,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "libreria-marciana.mp3",
+     "byte": 619584,
+     "secondi": 155,
+     "sha256": "030f16da03a764b0922d14043227b941f15af8abb69ab74bfdfb858b5393b2bb",
+     "testo": "acd37ae822fce7c4"
     }
    ]
   },
@@ -101,6 +116,21 @@
      "secondi": 367,
      "sha256": "698a7bd8e845b4b9212b658c0b0ac2a10d7ac28b60518ff3238178590689fb68",
      "testo": "c7d8c43f1926640e"
+    }
+   ]
+  },
+  "ponte-sospiri": {
+   "byte": 465312,
+   "secondi": 116,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ponte-sospiri.mp3",
+     "byte": 465312,
+     "secondi": 116,
+     "sha256": "cebcf922ebf374d7031225663e8e5300b690b1671444b16af3a1b162553b59ff",
+     "testo": "d6f3b411d6f05a7f"
     }
    ]
   },
