@@ -1,0 +1,81 @@
+name: Audioguide – controllo
+# Trascrive gli MP3 con Whisper e li confronta con i testi: segnala dove la voce "deraglia".
+# Il risultato va sul ramo audioguide-controllo (controllo/<città>/<lingua>.md).
+on:
+  workflow_dispatch:
+    inputs:
+      citta:
+        description: 'Città (es. venezia)'
+        required: true
+        default: 'venezia'
+      lingue:
+        description: 'Lingue separate da virgola'
+        required: false
+        default: 'it,en,fr,de,es'
+      modello:
+        description: 'Modello Whisper (tiny, base, small)'
+        required: false
+        default: 'base'
+      luoghi:
+        description: 'Solo questi luoghi (id separati da virgola; vuoto = tutti)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  lingue:
+    runs-on: ubuntu-latest
+    outputs:
+      elenco: ${{ steps.e.outputs.elenco }}
+    steps:
+      - id: e
+        env:
+          LINGUE: ${{ inputs.lingue }}
+        run: echo "elenco=$(python3 -c "import json,os;print(json.dumps([x.strip() for x in os.environ['LINGUE'].split(',') if x.strip()]))")" >> "$GITHUB_OUTPUT"
+
+  controlla:
+    needs: lingue
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lingua: ${{ fromJson(needs.lingue.outputs.elenco) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install faster-whisper
+      - name: Trascrivi e confronta
+        env:
+          CITTA: ${{ inputs.citta }}
+          MODELLO: ${{ inputs.modello }}
+          LUOGHI: ${{ inputs.luoghi }}
+        run: python3 strumenti/controlla_audioguide.py "$CITTA" "${{ matrix.lingua }}" "$MODELLO" "$LUOGHI"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: controllo-${{ matrix.lingua }}
+          path: controllo/
+
+  pubblica:
+    needs: controlla
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: scaricati
+      - run: |
+          mkdir -p /tmp/ramo && cp -r scaricati/*/* /tmp/ramo/ 2>/dev/null || true
+          cd /tmp/ramo
+          git init -q -b audioguide-controllo
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Controllo audioguide"
+          for i in 1 2 3 4; do
+            git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" audioguide-controllo && exit 0
+            sleep 20
+          done
+          exit 1
