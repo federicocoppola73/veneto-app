@@ -5,7 +5,7 @@
 //   in due modi: "Scarica" (quelle da scaricare) e "Cancella" (quelle sul telefono, tutte o una selezione).
 // - GestioneAudioguide: riquadro in Info con quante sono scaricate, "Scarica le altre", elenco e "Cancella tutte".
 // - IconaCuffie: cuffie piene (scaricata) o a contorno (da scaricare), usata anche nella ricerca.
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
@@ -114,15 +114,12 @@ export function RigaAudioguida({ luogo, lingua, t }) {
   );
 }
 
-// Più tracce (es. Esterno / Interno): linguette sopra il lettore; a fine traccia parte la successiva
+// Più tracce (es. Esterno / Interno): linguette sopra il lettore.
+// Niente partenze automatiche: scegliere una linguetta prepara la traccia, l'ascolto lo avvia sempre l'utente con play.
 function LettoreTracce({ tracce, t }) {
   const [indice, setIndice] = useState(0);
-  const [autoPlay, setAutoPlay] = useState(false);
   const traccia = tracce[Math.min(indice, tracce.length - 1)];
-  const scegli = (i) => {
-    setAutoPlay(true);
-    setIndice(i);
-  };
+  const scegli = (i) => setIndice(i);
   return (
     <>
       {tracce.length > 1 && (
@@ -151,8 +148,6 @@ function LettoreTracce({ tracce, t }) {
         uri={traccia.uri}
         secondi={traccia.secondi}
         titolo={tracce.length > 1 && traccia.titolo ? traccia.titolo : t('aud_titolo')}
-        autoPlay={autoPlay}
-        onFine={() => indice + 1 < tracce.length && scegli(indice + 1)}
         compatto={tracce.length > 1}
         t={t}
       />
@@ -160,31 +155,19 @@ function LettoreTracce({ tracce, t }) {
   );
 }
 
-function Lettore({ uri, secondi, titolo, autoPlay, onFine, compatto, t }) {
+function Lettore({ uri, secondi, titolo, compatto, t }) {
   const player = useAudioPlayer({ uri });
   const s = useAudioPlayerStatus(player);
   const durata = s.duration || secondi || 0;
   const posizione = Math.min(s.currentTime || 0, durata);
   const quota = durata ? posizione / durata : 0;
-  const partito = useRef(false);
-
-  // scelta una linguetta, o finita la traccia precedente: parte da sola appena è pronta
-  useEffect(() => {
-    if (autoPlay && s.isLoaded && !partito.current) {
-      partito.current = true;
-      impostaModoAudio();
-      player.play();
-    }
-  }, [autoPlay, s.isLoaded, player]);
-
-  // finito: si torna all'inizio, pronto per ascoltarlo di nuovo (o parte la traccia dopo)
+  // finito: si torna all'inizio, pronto per ascoltarlo di nuovo
   useEffect(() => {
     if (s.didJustFinish) {
       player.pause();
       player.seekTo(0).catch(() => {});
-      onFine?.();
     }
-  }, [s.didJustFinish, player]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [s.didJustFinish, player]);
 
   const suona = () => {
     impostaModoAudio();
