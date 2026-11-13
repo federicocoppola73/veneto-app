@@ -162,6 +162,11 @@ def main():
                 testo = (tr['testo'] or '').strip()
                 if not testo:
                     continue
+                if lingua == 'it':
+                    vietate = re.findall(r"[^.!?]*\b[Cc][’']\s?[eèé][^.!?]*[.!?]?", testo)
+                    if vietate:
+                        sys.exit(f"{id_luogo}: nel testo italiano c'è \"c'è\"/\"c'era\", che la voce pronuncia male. "
+                                 'Riformula queste frasi:\n- ' + '\n- '.join(v.strip() for v in vietate))
                 if multiple and not re.fullmatch(r'[a-z0-9-]+', tr['id'] or ''):
                     sys.exit(f'{id_luogo}: id della traccia non valido ({tr["id"]}): usa lettere minuscole, numeri e trattini')
                 chiave_testo = voce + '|' + testo if not tr['pausa'] else voce + '|pausa=' + tr['pausa'] + '|' + testo
