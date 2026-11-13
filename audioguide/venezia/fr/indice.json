@@ -1,5 +1,5 @@
 {
- "versione": "7bdcb48418a9",
+ "versione": "c58b238db333",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "arsenale": {
@@ -47,6 +47,21 @@
      "secondi": 356,
      "sha256": "6f74f6f67ae51f95209330d759244b641bbe5685354776866b2313fae37e512d",
      "testo": "252f4f027f1182dd"
+    }
+   ]
+  },
+  "ca-rezzonico": {
+   "byte": 1891916,
+   "secondi": 315,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ca-rezzonico.mp3",
+     "byte": 1891916,
+     "secondi": 315,
+     "sha256": "625524f0ac18a9cdd02d9a76fc2d253ada737682905546d649dc0822683ae7f2",
+     "testo": "145a0c5ca7191739"
     }
    ]
   },
@@ -104,6 +119,36 @@
     }
    ]
   },
+  "ghetto": {
+   "byte": 1900124,
+   "secondi": 317,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ghetto.mp3",
+     "byte": 1900124,
+     "secondi": 317,
+     "sha256": "8b15a959811b36b1e03c751352f83b0d960e456e0f5eb903c982fc7717d3a04c",
+     "testo": "718b61c65169607f"
+    }
+   ]
+  },
+  "guggenheim": {
+   "byte": 1679372,
+   "secondi": 280,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "guggenheim.mp3",
+     "byte": 1679372,
+     "secondi": 280,
+     "sha256": "ddd430935d1b8a99f64942f38e38e71dbe749e7a68de676beb75aba1e8d3f4de",
+     "testo": "1c3a77cdd65745f3"
+    }
+   ]
+  },
   "libreria-marciana": {
    "byte": 1037420,
    "secondi": 173,
@@ -116,6 +161,36 @@
      "secondi": 173,
      "sha256": "cf7a4ea6ed8eb021ce9dcc420fca8eb902251badcd9bde965419babd351e91a4",
      "testo": "d50f24d7fc201645"
+    }
+   ]
+  },
+  "madonna-orto": {
+   "byte": 1671452,
+   "secondi": 279,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "madonna-orto.mp3",
+     "byte": 1671452,
+     "secondi": 279,
+     "sha256": "ef99a69ff6296e07947d5e8b90ad861565047abdece436edacf10794e7fa6846",
+     "testo": "a145e24acaa0a9e3"
+    }
+   ]
+  },
+  "miracoli": {
+   "byte": 1387916,
+   "secondi": 231,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "miracoli.mp3",
+     "byte": 1387916,
+     "secondi": 231,
+     "sha256": "27e51c680fcd93f9563642113ea884d70b521d402274acfe7dd02f7a00617966",
+     "testo": "780c0c302ab704f4"
     }
    ]
   },
@@ -209,6 +284,21 @@
      "secondi": 187,
      "sha256": "2a618cfd086fd0a476a008ef1d24a1aefd9f63a53682949ce6d1a9c3c253933f",
      "testo": "f00b59adc812201f"
+    }
+   ]
+  },
+  "san-giorgio-maggiore": {
+   "byte": 2057228,
+   "secondi": 343,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-giorgio-maggiore.mp3",
+     "byte": 2057228,
+     "secondi": 343,
+     "sha256": "df287c2f0c4370f93ace498da2ebd80b50c8800d3a962b1e18e1e948689bd6fc",
+     "testo": "0b5843d9ed744d27"
     }
    ]
   },
