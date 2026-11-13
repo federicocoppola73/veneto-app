@@ -15,7 +15,7 @@ on:
       modello:
         description: 'Modello Whisper (tiny, base, small)'
         required: false
-        default: 'base'
+        default: 'small'
       luoghi:
         description: 'Solo questi luoghi (id separati da virgola; vuoto = tutti)'
         required: false
