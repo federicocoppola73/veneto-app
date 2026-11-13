@@ -1,7 +1,40 @@
 {
- "versione": "3ea5d3655183",
+ "versione": "0072d335aae3",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
+  "basilica-san-marco": {
+   "byte": 3613920,
+   "secondi": 904,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "L'extérieur",
+     "file": "basilica-san-marco__esterno.mp3",
+     "byte": 1134912,
+     "secondi": 284,
+     "sha256": "e2af2c3c61f5405726db72c658450a25b6831795228502ae396fd3a706513934",
+     "testo": "eafde861c9dc1932"
+    },
+    {
+     "id": "interno",
+     "titolo": "L'intérieur",
+     "file": "basilica-san-marco__interno.mp3",
+     "byte": 1248288,
+     "secondi": 312,
+     "sha256": "c7767ea414bbf5b4c0fcf09f18121cf3e652745fa5235372d52f7bdb5febb8c1",
+     "testo": "384ff1cd955e4240"
+    },
+    {
+     "id": "pala-doro",
+     "titolo": "La Pala d'Oro",
+     "file": "basilica-san-marco__pala-doro.mp3",
+     "byte": 1230720,
+     "secondi": 308,
+     "sha256": "1521a649c6945458aa3e926931c5324db9b3a2599d79086f19e5a0e919f68aa5",
+     "testo": "7ab3874cd12e2a8a"
+    }
+   ]
+  },
   "palazzo-ducale": {
    "byte": 2501760,
    "secondi": 625,

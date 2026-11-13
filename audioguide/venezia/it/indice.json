@@ -1,28 +1,37 @@
 {
- "versione": "b328e3f25ac2",
+ "versione": "8c48bdbb071e",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-san-marco": {
-   "byte": 66048,
-   "secondi": 16,
+   "byte": 4071936,
+   "secondi": 1019,
    "tracce": [
     {
-     "id": "basilica",
-     "titolo": "La basilica",
-     "file": "basilica-san-marco__basilica.mp3",
-     "byte": 25152,
-     "secondi": 6,
-     "sha256": "7d85f366e082e91be004c433e87c700106d7322aa0a3c8c240f610a27e7ecdf9",
-     "testo": "da71261e06b467e7"
+     "id": "esterno",
+     "titolo": "L'esterno",
+     "file": "basilica-san-marco__esterno.mp3",
+     "byte": 1290912,
+     "secondi": 323,
+     "sha256": "68fe350118b1c3e27b8b0deeedc1f6306e9197f9612a34c237ec964c118560a1",
+     "testo": "1603ced838e93c3a"
     },
     {
      "id": "interno",
      "titolo": "L'interno",
      "file": "basilica-san-marco__interno.mp3",
-     "byte": 40896,
-     "secondi": 10,
-     "sha256": "5415e72d537392b5b36155663ece8af97c3dbf5e97e2474e90437d3cb6a5716b",
-     "testo": "0d07db4c96c1903f"
+     "byte": 1430880,
+     "secondi": 358,
+     "sha256": "cfbbf304d8c1701f3632001c2128fb551ea15b233ed98a9eeeaa2ac22c31546d",
+     "testo": "bfe195ea06b15aa7"
+    },
+    {
+     "id": "pala-doro",
+     "titolo": "La Pala d'Oro",
+     "file": "basilica-san-marco__pala-doro.mp3",
+     "byte": 1350144,
+     "secondi": 338,
+     "sha256": "0d95b1aa67c3091bb19eea124a8b7136b331aaed8c8c64b2183ee7dd643ed421",
+     "testo": "9195c625b87bf615"
     }
    ]
   },
