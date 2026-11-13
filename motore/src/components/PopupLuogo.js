@@ -287,7 +287,13 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
           )}
 
           {eventiLuogo.length > 0 && onVediEventi && (
-            <View style={styles.eventiCard} testID="eventi-luogo">
+            <Pressable
+              testID="eventi-luogo"
+              onPress={() => onVediEventi(luogo)}
+              style={({ pressed }) => [styles.eventiCard, pressed && { backgroundColor: '#f1f5f9' }]}
+              accessibilityRole="button"
+              accessibilityLabel={`${t('ev_luogo_titolo')}, ${eventiLuogo.length === 1 ? t('ev_luogo_uno') : t('ev_luogo_molti').replace('{n}', eventiLuogo.length)}`}
+            >
               <View style={styles.eventiTesta}>
                 <Text style={styles.eventiIcona}>📅</Text>
                 <View style={{ flex: 1 }}>
@@ -296,19 +302,9 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
                     {eventiLuogo.length === 1 ? t('ev_luogo_uno') : t('ev_luogo_molti').replace('{n}', eventiLuogo.length)}
                   </Text>
                 </View>
-                <View style={styles.eventiBadge}>
-                  <Text style={styles.eventiBadgeTesto}>{eventiLuogo.length}</Text>
-                </View>
-              </View>
-              <Pressable
-                onPress={() => onVediEventi(luogo)}
-                style={({ pressed }) => [styles.eventiVai, pressed && { backgroundColor: '#f1f5f9' }]}
-                accessibilityRole="button"
-              >
-                <Text style={styles.eventiVaiTesto}>{t('ev_vedi')}</Text>
                 <Text style={styles.eventiVaiFreccia}>›</Text>
-              </Pressable>
-            </View>
+              </View>
+            </Pressable>
           )}
 
           <FermateLuogo
@@ -613,25 +609,5 @@ const styles = StyleSheet.create({
   eventiIcona: { fontSize: 24 },
   eventiTitolo: { fontSize: 16, fontWeight: '800', color: '#0f172a' },
   eventiSotto: { fontSize: 13, color: '#64748b', marginTop: 2 },
-  eventiBadge: {
-    minWidth: 28,
-    height: 28,
-    borderRadius: 14,
-    paddingHorizontal: 8,
-    backgroundColor: '#dcfce7',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  eventiBadgeTesto: { color: '#166534', fontSize: 14, fontWeight: '700' },
-  eventiVai: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 14,
-    paddingVertical: 13,
-    borderTopWidth: 1,
-    borderTopColor: '#e2e8f0',
-  },
-  eventiVaiTesto: { fontSize: 15, fontWeight: '700', color: '#0f3d5e' },
   eventiVaiFreccia: { fontSize: 22, color: '#94a3b8' },
 });
