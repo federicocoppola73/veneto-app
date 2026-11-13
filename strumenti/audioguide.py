@@ -12,8 +12,11 @@ Testi:  pacchetti/<città>/audioguide/testi.json
                 { "id": "interno", "titolo": { "it": "Interno", "en": "Inside" },  "testo": { "it": "…", "en": "…" } } ] }
         } }
 Voci:   strumenti/audioguide_voci.json  { "it": "it-IT-Chirp3-HD-Achernar", "en": "en-GB-Chirp3-HD-Achernar", … }
-Pause: "pausa": "breve" | "media" | "lunga" (nel luogo o nella singola traccia) aggiunge una pausa
+Pause: "pausa": "breve" | "media" | "lunga" | "nessuna" (nel luogo o nella singola traccia) aggiunge una pausa
         dopo ogni frase, con i tag di pausa delle voci Chirp3-HD ([pause short], [pause], [pause long]).
+        Se manca vale "pausa_predefinita" di audioguide_voci.json.
+Bozze: un luogo può avere "bozza": { …stessa forma di un luogo… }: la bozza si usa solo in anteprima,
+        mentre la pubblicazione normale continua a usare il testo attuale.
 Anteprima: con ANTEPRIMA="id1,id2" genera solo quei luoghi in anteprima/<lingua>/ (sempre, senza indice),
         per ascoltarli prima di pubblicarli. La cartella audioguide/ non viene toccata.
 Uscita: audioguide/<città>/<lingua>/<id>.mp3 e audioguide/<città>/<lingua>/indice.json
@@ -98,6 +101,12 @@ def main():
         voci = json.load(f)
     lingue = [l.strip() for l in sys.argv[2].split(',') if l.strip()] if len(sys.argv) > 2 and sys.argv[2].strip() else []
     lingue = [l for l in (lingue or CODICI) if l in CODICI and l in voci]
+    predefinita = voci.get('pausa_predefinita')
+
+    def pausa_di(valore):
+        valore = predefinita if valore is None else valore
+        return None if valore in (None, '', 'nessuna') else valore
+
     anteprima = {x.strip() for x in os.environ.get('ANTEPRIMA', '').split(',') if x.strip()}
     caratteri = 0
     for lingua in lingue:
@@ -120,15 +129,17 @@ def main():
         for id_luogo, voce_testi in sorted(testi.items()):
             if anteprima and id_luogo not in anteprima:
                 continue
+            if anteprima and 'bozza' in voce_testi:
+                voce_testi = voce_testi['bozza']
             if 'tracce' in voce_testi:
                 elenco = [
                     {'id': tr['id'], 'titolo': (tr.get('titolo') or {}).get(lingua), 'testo': (tr.get('testo') or {}).get(lingua),
-                     'pausa': tr.get('pausa', voce_testi.get('pausa'))}
+                     'pausa': pausa_di(tr.get('pausa', voce_testi.get('pausa')))}
                     for tr in voce_testi['tracce']
                 ]
                 multiple = True
             else:
-                elenco = [{'id': None, 'titolo': None, 'testo': voce_testi.get(lingua), 'pausa': voce_testi.get('pausa')}]
+                elenco = [{'id': None, 'titolo': None, 'testo': voce_testi.get(lingua), 'pausa': pausa_di(voce_testi.get('pausa'))}]
                 multiple = False
             tracce = []
             for tr in elenco:

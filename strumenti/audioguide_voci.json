@@ -1,8 +1,9 @@
 {
- "_nota": "Voce Google (Chirp3-HD) delle audioguide per ogni lingua: Kore in tutte le lingue (scelta il 13/11/2026).",
+ "_nota": "Voce Google (Chirp3-HD) delle audioguide per ogni lingua: Kore in tutte le lingue (scelta il 13/11/2026). Pausa lunga tra le frasi per le nuove audioguide (dal 13/11/2026); quelle precedenti hanno \"pausa\": \"nessuna\".",
  "it": "it-IT-Chirp3-HD-Kore",
  "en": "en-GB-Chirp3-HD-Kore",
  "fr": "fr-FR-Chirp3-HD-Kore",
  "de": "de-DE-Chirp3-HD-Kore",
- "es": "es-ES-Chirp3-HD-Kore"
+ "es": "es-ES-Chirp3-HD-Kore",
+ "pausa_predefinita": "lunga"
 }
