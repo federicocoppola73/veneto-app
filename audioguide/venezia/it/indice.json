@@ -1,37 +1,37 @@
 {
- "versione": "67f0d42a9773",
+ "versione": "691240626b20",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-san-marco": {
-   "byte": 4071936,
-   "secondi": 1019,
+   "byte": 4378272,
+   "secondi": 1095,
    "tracce": [
     {
      "id": "esterno",
      "titolo": "L'esterno",
      "file": "basilica-san-marco__esterno.mp3",
-     "byte": 1290912,
-     "secondi": 323,
-     "sha256": "68fe350118b1c3e27b8b0deeedc1f6306e9197f9612a34c237ec964c118560a1",
-     "testo": "1603ced838e93c3a"
+     "byte": 1403040,
+     "secondi": 351,
+     "sha256": "1d89bd1b085eafcc40c4e9af2d093de41c99ea69af0570dee04be4228c9cf81b",
+     "testo": "c3eaae81ecdeb27d"
     },
     {
      "id": "interno",
      "titolo": "L'interno",
      "file": "basilica-san-marco__interno.mp3",
-     "byte": 1430880,
-     "secondi": 358,
-     "sha256": "cfbbf304d8c1701f3632001c2128fb551ea15b233ed98a9eeeaa2ac22c31546d",
-     "testo": "bfe195ea06b15aa7"
+     "byte": 1541184,
+     "secondi": 385,
+     "sha256": "7ee3950f07907c340b568f2a87b7b7425245fc1596bacae233a50dd576ae4be4",
+     "testo": "08012b0986f2870d"
     },
     {
      "id": "pala-doro",
      "titolo": "La Pala d'Oro",
      "file": "basilica-san-marco__pala-doro.mp3",
-     "byte": 1350144,
-     "secondi": 338,
-     "sha256": "0d95b1aa67c3091bb19eea124a8b7136b331aaed8c8c64b2183ee7dd643ed421",
-     "testo": "9195c625b87bf615"
+     "byte": 1434048,
+     "secondi": 359,
+     "sha256": "e756e8807daba581a641a0c1015d013c1f49676754b9a2dc71b9dbc942d3474e",
+     "testo": "68298e38bef8655f"
     }
    ]
   },
@@ -51,56 +51,56 @@
    ]
   },
   "palazzo-ducale": {
-   "byte": 2840256,
-   "secondi": 710,
+   "byte": 3048960,
+   "secondi": 762,
    "tracce": [
     {
      "id": "esterno",
      "titolo": "Esterno",
      "file": "palazzo-ducale__esterno.mp3",
-     "byte": 1213248,
-     "secondi": 303,
-     "sha256": "79a3d660b1ccc40b75482e7db3d0e4a0c7d40ce340932daa80c98318751c6a52",
-     "testo": "fe3645c9655c24e4"
+     "byte": 1343136,
+     "secondi": 336,
+     "sha256": "572c2fc4a212e56fcda6630c863c9d4d46d35bc284b6290ef781b0eba1023ea9",
+     "testo": "baa51c55d195eaea"
     },
     {
      "id": "interno",
      "titolo": "Interno",
      "file": "palazzo-ducale__interno.mp3",
-     "byte": 1627008,
-     "secondi": 407,
-     "sha256": "bafb67b597fe8acdecebe2d597cf967fa54a86383ad6593563d26eab7cdad018",
-     "testo": "d85fc58bc655d06c"
+     "byte": 1705824,
+     "secondi": 426,
+     "sha256": "796c410cc6568c2141f92e673f222e82cd5b09a8e51664e88ac91b84081d5804",
+     "testo": "1e8b6a0c732c612b"
     }
    ]
   },
   "piazza-san-marco": {
-   "byte": 1433280,
-   "secondi": 358,
+   "byte": 1546944,
+   "secondi": 387,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "piazza-san-marco.mp3",
-     "byte": 1433280,
-     "secondi": 358,
-     "sha256": "aa6a0fe4254697631913ec088ae4322a355e6ef7b8ef693cb9ec494a4c62991f",
-     "testo": "cfb78f663e736f92"
+     "byte": 1546944,
+     "secondi": 387,
+     "sha256": "999df2384406fd582f458fa379bb6c7ec022fb9bbafd6d477553675cd803fd6d",
+     "testo": "5eea5e9b53eb935b"
     }
    ]
   },
   "ponte-rialto": {
-   "byte": 71424,
-   "secondi": 18,
+   "byte": 1530624,
+   "secondi": 383,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "ponte-rialto.mp3",
-     "byte": 71424,
-     "secondi": 18,
-     "sha256": "e2d2601d5d6eadb2c7117f3a2ee84b10a48830672ebd40ef47762d874d3fb4b0",
-     "testo": "4987e20159cd32bc"
+     "byte": 1530624,
+     "secondi": 383,
+     "sha256": "fc919a4e080c85b2b5c79bceb6c21e22dcdb9d98a21b2e5ac332c822db454a41",
+     "testo": "dd02e88e67153906"
     }
    ]
   },
