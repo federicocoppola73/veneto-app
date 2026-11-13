@@ -117,16 +117,21 @@ export async function scaricaAudioguide(ids) {
   return errori;
 }
 
-// Cancella dal telefono tutte le audioguide della città e lingua attuali (l'indice resta)
-export async function cancellaAudioguide() {
+// Cancella dal telefono le audioguide dei luoghi indicati (senza ids: tutte quelle della città e lingua attuali).
+// L'indice resta, così si possono riscaricare.
+export async function cancellaAudioguide(ids = null) {
   const { chiave, indice } = stato;
   if (!indice) return;
+  const scelti = ids ? ids.filter((id) => indice.luoghi[id]) : Object.keys(indice.luoghi);
   await Promise.all(
-    Object.values(indice.luoghi)
-      .flatMap(tracceDi)
+    scelti
+      .flatMap((id) => tracceDi(indice.luoghi[id]))
       .map((tr) => FileSystem.deleteAsync(cartellaDi(chiave) + tr.file, { idempotent: true }).catch(() => {}))
   );
-  aggiorna({ presenti: new Set() });
+  if (stato.chiave !== chiave) return;
+  const presenti = new Set(stato.presenti);
+  scelti.forEach((id) => presenti.delete(id));
+  aggiorna({ presenti });
 }
 
 // Stato condiviso: { indice, presenti (Set di id), progresso: { fatti, totale } | null }

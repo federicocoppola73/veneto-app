@@ -1,7 +1,8 @@
 // Audioguide nell'interfaccia:
 // - RigaAudioguida: nella scheda del luogo, una riga sola. Audio sul telefono → lettore (play/pausa, barra, stop);
 //   altrimenti → pulsante per scaricarla e link "Altre audioguide" che apre l'elenco.
-// - ElencoAudioguide: elenco con caselle, filtro per tipologia, "Seleziona tutte" e totale dei MB.
+// - ElencoAudioguide: elenco con caselle, filtro per tipologia, "Seleziona tutte" e totale dei MB,
+//   in due modi: "Scarica" (quelle da scaricare) e "Cancella" (quelle sul telefono, tutte o una selezione).
 // - GestioneAudioguide: riquadro in Info con quante sono scaricate, "Scarica le altre", elenco e "Cancella tutte".
 // - IconaCuffie: cuffie piene (scaricata) o a contorno (da scaricare), usata anche nella ricerca.
 import React, { useEffect, useMemo, useRef, useState } from 'react';
@@ -25,6 +26,7 @@ export const VIOLA = '#7c3aed';
 const VIOLA_SCURO = '#5b21b6';
 const VIOLA_CHIARO = '#f5f3ff';
 const BORDO_VIOLA = '#ddd6fe';
+const ROSSO = '#dc2626';
 const datiLuoghi = datiProxy('luoghi.json');
 
 // l'audio si sente anche con il telefono in modalità silenziosa (iPhone)
@@ -235,9 +237,11 @@ function Lettore({ uri, secondi, titolo, autoPlay, onFine, compatto, t }) {
 }
 
 // ---- Elenco con caselle ----
+// Due modi, scelti con i pulsanti in alto: "Scarica" (audioguide da scaricare) e "Cancella" (quelle sul telefono).
 export function ElencoAudioguide({ lingua, t, onChiudi }) {
   const insets = useSafeAreaInsets();
   const { indice, presenti, progresso } = useAudioguide();
+  const [modo, setModo] = useState('scarica');
   const [scelti, setScelti] = useState([]);
   const [categoria, setCategoria] = useState(null);
   const [errori, setErrori] = useState(0);
@@ -249,24 +253,61 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
         .sort((a, b) => a.nome.localeCompare(b.nome, 'it')),
     [indice]
   );
-  const categorie = CATEGORIE.filter((c) => luoghi.some((l) => l.categoria === c.id));
-  const visibili = categoria ? luoghi.filter((l) => l.categoria === categoria) : luoghi;
+  const sulTelefono = luoghi.filter((l) => presenti.has(l.id));
+  const cancella = modo === 'cancella';
+  // nel modo "Cancella" si vedono solo quelle sul telefono
+  const base = cancella ? sulTelefono : luoghi;
+  const categorie = CATEGORIE.filter((c) => base.some((l) => l.categoria === c.id));
+  const visibili = categoria ? base.filter((l) => l.categoria === categoria) : base;
   const daScaricare = luoghi.filter((l) => !presenti.has(l.id));
-  const visibiliDaScaricare = visibili.filter((l) => !presenti.has(l.id));
-  const byteScelti = scelti.reduce((n, id) => n + (indice?.luoghi?.[id]?.byte || 0), 0);
-  const tuttiScelti = visibiliDaScaricare.length > 0 && visibiliDaScaricare.every((l) => scelti.includes(l.id));
+  // quelle che si possono spuntare nel modo attuale
+  const selezionabili = cancella ? visibili : visibili.filter((l) => !presenti.has(l.id));
+  const byteDi = (ids) => ids.reduce((n, id) => n + (indice?.luoghi?.[id]?.byte || 0), 0);
+  const byteScelti = byteDi(scelti);
+  const tuttiScelti = selezionabili.length > 0 && selezionabili.every((l) => scelti.includes(l.id));
 
+  // se non resta niente sul telefono si torna al modo "Scarica"
+  useEffect(() => {
+    if (cancella && !sulTelefono.length) setModo('scarica');
+  }, [cancella, sulTelefono.length]);
+
+  const cambiaModo = (m) => {
+    setModo(m);
+    setScelti([]);
+    setCategoria(null);
+    setErrori(0);
+  };
   const cambia = (id) => setScelti((v) => (v.includes(id) ? v.filter((x) => x !== id) : [...v, id]));
   const selezionaTutte = () =>
     setScelti((v) =>
       tuttiScelti
-        ? v.filter((id) => !visibiliDaScaricare.some((l) => l.id === id))
-        : [...new Set([...v, ...visibiliDaScaricare.map((l) => l.id)])]
+        ? v.filter((id) => !selezionabili.some((l) => l.id === id))
+        : [...new Set([...v, ...selezionabili.map((l) => l.id)])]
     );
   const scarica = async () => {
     const ids = scelti;
     setScelti([]);
     setErrori(await scaricaAudioguide(ids));
+  };
+  const chiediCancella = () => {
+    const ids = scelti;
+    const uno = ids.length === 1;
+    const mb = testoMB(byteDi(ids), lingua);
+    Alert.alert(
+      (uno ? t('aud_cancellaUnoTitolo') : t('aud_cancellaNTitolo')).replace('{n}', String(ids.length)),
+      (uno ? t('aud_cancellaUnoTesto') : t('aud_cancellaNTesto')).replace('{mb}', mb),
+      [
+        { text: t('ls_annulla'), style: 'cancel' },
+        {
+          text: t('aud_modoCancella'),
+          style: 'destructive',
+          onPress: async () => {
+            setScelti([]);
+            await cancellaAudioguide(ids);
+          },
+        },
+      ]
+    );
   };
 
   return (
@@ -279,12 +320,35 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
             <View style={{ flex: 1 }}>
               <Text style={styles.titolo}>{t('aud_elencoTitolo').replace('{citta}', nomeCitta())}</Text>
               <Text style={styles.sottotitolo}>
-                {t('aud_suTelefono').replace('{n}', String(luoghi.length - daScaricare.length)).replace('{tot}', String(luoghi.length))}
+                {t('aud_suTelefono').replace('{n}', String(sulTelefono.length)).replace('{tot}', String(luoghi.length))}
               </Text>
             </View>
             <Pressable onPress={onChiudi} hitSlop={10} style={styles.chiudi} accessibilityLabel={t('chiudi')}>
               <Text style={styles.testoChiudi}>✕</Text>
             </Pressable>
+          </View>
+
+          {/* Scarica / Cancella: il secondo si attiva solo se c'è almeno un'audioguida sul telefono */}
+          <View style={styles.modi} accessibilityRole="tablist">
+            {['scarica', 'cancella'].map((m) => {
+              const attivo = modo === m;
+              const spento = m === 'cancella' && !sulTelefono.length;
+              return (
+                <Pressable
+                  key={m}
+                  onPress={() => !spento && !progresso && cambiaModo(m)}
+                  disabled={spento || !!progresso}
+                  style={[styles.modo, attivo && (m === 'cancella' ? styles.modoAttivoRosso : styles.modoAttivo), spento && { opacity: 0.45 }]}
+                  accessibilityRole="tab"
+                  accessibilityState={{ selected: attivo, disabled: spento }}
+                  testID={`audioguide-modo-${m}`}
+                >
+                  <Text style={[styles.testoModo, attivo && { color: '#fff' }]}>
+                    {m === 'scarica' ? t('aud_modoScarica') : t('aud_modoCancella')}
+                  </Text>
+                </Pressable>
+              );
+            })}
           </View>
 
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.filtri} contentContainerStyle={{ gap: 8 }}>
@@ -305,17 +369,21 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
           </ScrollView>
 
           <View style={styles.rigaInfo}>
-            <Text style={styles.grigio}>{t('aud_daScaricare').replace('{n}', String(visibiliDaScaricare.length))}</Text>
-            {visibiliDaScaricare.length > 0 && (
+            <Text style={styles.grigio}>
+              {cancella
+                ? t('aud_sulTelefonoN').replace('{n}', String(visibili.length)).replace('{mb}', testoMB(byteDi(visibili.map((l) => l.id)), lingua))
+                : t('aud_daScaricare').replace('{n}', String(selezionabili.length))}
+            </Text>
+            {selezionabili.length > 0 && (
               <Pressable onPress={selezionaTutte} hitSlop={8}>
-                <Text style={styles.selezionaTutte}>{tuttiScelti ? t('aud_deselezionaTutte') : t('aud_selezionaTutte')}</Text>
+                <Text style={[styles.selezionaTutte, cancella && { color: ROSSO }]}>{tuttiScelti ? t('aud_deselezionaTutte') : t('aud_selezionaTutte')}</Text>
               </Pressable>
             )}
           </View>
 
           <ScrollView style={{ flexShrink: 1 }}>
             {visibili.map((l) => {
-              const gia = presenti.has(l.id);
+              const gia = !cancella && presenti.has(l.id);
               const scelto = scelti.includes(l.id);
               const info = indice.luoghi[l.id];
               return (
@@ -332,7 +400,7 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
                       <IconaCuffie misura={13} colore={VIOLA} piena />
                     </View>
                   ) : (
-                    <View style={[styles.casella, scelto && styles.casellaScelta]}>
+                    <View style={[styles.casella, scelto && (cancella ? styles.casellaRossa : styles.casellaScelta)]}>
                       {scelto && (
                         <Svg width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round">
                           <Path d="M5 12.5l4.5 4.5L19 7.5" />
@@ -348,26 +416,46 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
             })}
           </ScrollView>
 
-          {errori > 0 && <Text style={styles.errore}>{t('aud_errori').replace('{n}', String(errori))}</Text>}
-          <Pressable
-            onPress={scarica}
-            disabled={!scelti.length || !!progresso}
-            style={[styles.pulsanteGrande, !scelti.length && !progresso && styles.pulsanteSpento]}
-            accessibilityRole="button"
-            testID="audioguide-scarica-scelte"
-          >
-            {progresso ? (
-              <Text style={styles.testoPulsanteGrande}>
-                {t('aud_scaricando').replace('{n}', String(progresso.fatti)).replace('{tot}', String(progresso.totale))}
-              </Text>
-            ) : (
+          {!cancella && errori > 0 && <Text style={styles.errore}>{t('aud_errori').replace('{n}', String(errori))}</Text>}
+          {cancella ? (
+            <Pressable
+              onPress={chiediCancella}
+              disabled={!scelti.length}
+              style={[styles.pulsanteGrande, styles.pulsanteCancella, !scelti.length && styles.pulsanteSpento]}
+              accessibilityRole="button"
+              testID="audioguide-cancella-scelte"
+            >
               <Text style={[styles.testoPulsanteGrande, !scelti.length && { color: '#64748b' }]}>
                 {scelti.length
-                  ? t('aud_scaricaN').replace('{n}', String(scelti.length)).replace('{mb}', testoMB(byteScelti, lingua))
-                  : t('aud_sceglile')}
+                  ? (scelti.length === 1 ? t('aud_cancellaUno') : t('aud_cancellaN'))
+                      .replace('{n}', String(scelti.length))
+                      .replace('{mb}', testoMB(byteScelti, lingua))
+                  : t('aud_scegliCancella')}
               </Text>
-            )}
-          </Pressable>
+            </Pressable>
+          ) : (
+            <Pressable
+              onPress={scarica}
+              disabled={!scelti.length || !!progresso}
+              style={[styles.pulsanteGrande, !scelti.length && !progresso && styles.pulsanteSpento]}
+              accessibilityRole="button"
+              testID="audioguide-scarica-scelte"
+            >
+              {progresso ? (
+                <Text style={styles.testoPulsanteGrande}>
+                  {t('aud_scaricando').replace('{n}', String(progresso.fatti)).replace('{tot}', String(progresso.totale))}
+                </Text>
+              ) : (
+                <Text style={[styles.testoPulsanteGrande, !scelti.length && { color: '#64748b' }]}>
+                  {scelti.length
+                    ? t('aud_scaricaN').replace('{n}', String(scelti.length)).replace('{mb}', testoMB(byteScelti, lingua))
+                    : daScaricare.length
+                      ? t('aud_sceglile')
+                      : t('aud_suTelefono').replace('{n}', String(sulTelefono.length)).replace('{tot}', String(luoghi.length))}
+                </Text>
+              )}
+            </Pressable>
+          )}
         </View>
       </View>
     </Modal>
@@ -510,6 +598,13 @@ const styles = StyleSheet.create({
   errore: { fontSize: 12.5, color: '#b45309', marginTop: 8 },
   pulsanteGrande: { marginTop: 12, minHeight: 50, borderRadius: 14, backgroundColor: VIOLA, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 12 },
   pulsanteSpento: { backgroundColor: '#e2e8f0' },
+  pulsanteCancella: { backgroundColor: ROSSO },
+  casellaRossa: { backgroundColor: ROSSO, borderColor: ROSSO },
+  modi: { flexDirection: 'row', marginTop: 12, padding: 3, borderRadius: 12, backgroundColor: '#f1f5f9', gap: 3 },
+  modo: { flex: 1, minHeight: 36, borderRadius: 9, alignItems: 'center', justifyContent: 'center' },
+  modoAttivo: { backgroundColor: VIOLA },
+  modoAttivoRosso: { backgroundColor: ROSSO },
+  testoModo: { fontSize: 13.5, fontWeight: '700', color: '#334155' },
   testoPulsanteGrande: { color: '#fff', fontSize: 15, fontWeight: '700', textAlign: 'center' },
 
   gestione: { marginTop: 14, borderRadius: 16, backgroundColor: VIOLA_CHIARO, borderWidth: 1, borderColor: BORDO_VIOLA, padding: 16 },
