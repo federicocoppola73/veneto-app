@@ -5,7 +5,7 @@
 //   in due modi: "Scarica" (quelle da scaricare) e "Cancella" (quelle sul telefono, tutte o una selezione).
 // - GestioneAudioguide: riquadro in Info con quante sono scaricate, "Scarica le altre", elenco e "Cancella tutte".
 // - IconaCuffie: cuffie piene (scaricata) o a contorno (da scaricare), usata anche nella ricerca.
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
@@ -159,7 +159,14 @@ function Lettore({ uri, secondi, titolo, compatto, t }) {
   const player = useAudioPlayer({ uri });
   const s = useAudioPlayerStatus(player);
   const durata = s.duration || secondi || 0;
-  const posizione = Math.min(s.currentTime || 0, durata);
+  // trascinando il dito sulla barra si vede dove si arriverà; al rilascio l'audio salta lì
+  const [trascina, setTrascina] = useState(null);
+  const larghezza = useRef(0);
+  const quotaDa = (x) => (larghezza.current ? Math.max(0, Math.min(1, x / larghezza.current)) : 0);
+  const salta = (q) => {
+    if (durata) player.seekTo(q * durata).catch(() => {});
+  };
+  const posizione = trascina != null ? trascina * durata : Math.min(s.currentTime || 0, durata);
   const quota = durata ? posizione / durata : 0;
   // finito: si torna all'inizio, pronto per ascoltarlo di nuovo
   useEffect(() => {
@@ -206,8 +213,33 @@ function Lettore({ uri, secondi, titolo, compatto, t }) {
             {testoDurata(posizione)} / {testoDurata(durata)}
           </Text>
         </View>
-        <View style={styles.barra}>
-          <View style={[styles.barraPiena, { width: `${Math.round(quota * 100)}%` }]} />
+        {/* barra: si tocca o si trascina per andare avanti o indietro */}
+        <View
+          style={styles.zonaBarra}
+          onLayout={(e) => (larghezza.current = e.nativeEvent.layout.width)}
+          onStartShouldSetResponder={() => true}
+          onMoveShouldSetResponder={() => true}
+          onResponderTerminationRequest={() => false}
+          onResponderGrant={(e) => setTrascina(quotaDa(e.nativeEvent.locationX))}
+          onResponderMove={(e) => setTrascina(quotaDa(e.nativeEvent.locationX))}
+          onResponderRelease={(e) => {
+            salta(quotaDa(e.nativeEvent.locationX));
+            setTrascina(null);
+          }}
+          onResponderTerminate={() => setTrascina(null)}
+          accessibilityRole="adjustable"
+          accessibilityValue={{ min: 0, max: Math.round(durata), now: Math.round(posizione), text: `${testoDurata(posizione)} / ${testoDurata(durata)}` }}
+          accessibilityActions={[{ name: 'increment' }, { name: 'decrement' }]}
+          onAccessibilityAction={(e) => {
+            const passo = e.nativeEvent.actionName === 'increment' ? 15 : -15;
+            if (durata) player.seekTo(Math.max(0, Math.min(durata, posizione + passo))).catch(() => {});
+          }}
+          testID="audioguida-barra"
+        >
+          <View style={[styles.barra, { marginTop: 0 }]} pointerEvents="none">
+            <View style={[styles.barraPiena, { width: `${Math.round(quota * 100)}%` }]} />
+          </View>
+          <View pointerEvents="none" style={[styles.cursore, { left: `${quota * 100}%` }, trascina != null && styles.cursoreAttivo]} />
         </View>
       </View>
       <Pressable onPress={ferma} hitSlop={6} style={styles.stop} accessibilityRole="button" accessibilityLabel={t('aud_stop')}>
@@ -553,6 +585,10 @@ const styles = StyleSheet.create({
   testaLettore: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   tempo: { marginLeft: 'auto', fontSize: 12, color: '#6b7280' },
   barra: { marginTop: 7, height: 4, borderRadius: 2, backgroundColor: BORDO_VIOLA, overflow: 'hidden' },
+  // zona toccabile più alta della barra, perché sia facile da prendere con il dito
+  zonaBarra: { height: 22, justifyContent: 'center', marginTop: -2, marginBottom: -6 },
+  cursore: { position: 'absolute', top: 5, width: 12, height: 12, marginLeft: -6, borderRadius: 6, backgroundColor: VIOLA, borderWidth: 2, borderColor: '#fff' },
+  cursoreAttivo: { width: 16, height: 16, marginLeft: -8, borderRadius: 8, top: 3 },
   barraPiena: { height: '100%', backgroundColor: VIOLA, borderRadius: 2 },
   stop: { width: 36, height: 36, borderRadius: 18, borderWidth: 1.5, borderColor: '#c4b5fd', backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center' },
 
