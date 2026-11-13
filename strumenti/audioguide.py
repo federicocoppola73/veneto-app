@@ -12,6 +12,10 @@ Testi:  pacchetti/<città>/audioguide/testi.json
                 { "id": "interno", "titolo": { "it": "Interno", "en": "Inside" },  "testo": { "it": "…", "en": "…" } } ] }
         } }
 Voci:   strumenti/audioguide_voci.json  { "it": "it-IT-Chirp3-HD-Achernar", "en": "en-GB-Chirp3-HD-Achernar", … }
+Pause: "pausa": "breve" | "media" | "lunga" (nel luogo o nella singola traccia) aggiunge una pausa
+        dopo ogni frase, con i tag di pausa delle voci Chirp3-HD ([pause short], [pause], [pause long]).
+Anteprima: con ANTEPRIMA="id1,id2" genera solo quei luoghi in anteprima/<lingua>/ (sempre, senza indice),
+        per ascoltarli prima di pubblicarli. La cartella audioguide/ non viene toccata.
 Uscita: audioguide/<città>/<lingua>/<id>.mp3 e audioguide/<città>/<lingua>/indice.json
         indice: { "versione", "voce", "luoghi": { id: { "byte", "secondi", "tracce": [
                     { "id", "titolo", "file", "byte", "secondi", "sha256", "testo" } ] } } }
@@ -32,6 +36,17 @@ MAX_BYTE_RICHIESTA = 4500  # Google accetta al massimo 5000 byte di testo per ri
 KBPS = 32  # MP3 di Google: serve solo come stima se la durata non si legge dal file
 
 
+PAUSE = {'breve': '[pause short]', 'media': '[pause]', 'lunga': '[pause long]'}
+
+
+def con_pause(testo, pausa):
+    """Aggiunge il tag di pausa dopo ogni frase (e tra i paragrafi)."""
+    tag = PAUSE.get(pausa or '')
+    if not tag:
+        return testo
+    return re.sub(r'([.!?…])(["”»]?)\s+', lambda m: m.group(1) + m.group(2) + ' ' + tag + ' ', testo.strip())
+
+
 def pezzi(testo):
     """Divide un testo lungo in pezzi sotto il limite di Google, senza spezzare le frasi."""
     frasi = re.split(r'(?<=[.!?…])\s+', testo.strip())
@@ -48,11 +63,11 @@ def pezzi(testo):
     return blocchi
 
 
-def sintetizza(testo, voce, codice, chiave):
+def sintetizza(testo, voce, codice, chiave, pausa=None):
     audio = b''
-    for blocco in pezzi(testo):
+    for blocco in pezzi(con_pause(testo, pausa)):
         corpo = json.dumps({
-            'input': {'text': blocco},
+            'input': {'markup': blocco} if PAUSE.get(pausa or '') else {'text': blocco},
             'voice': {'languageCode': codice, 'name': voce},
             'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 24000},
         }).encode()
@@ -83,6 +98,7 @@ def main():
         voci = json.load(f)
     lingue = [l.strip() for l in sys.argv[2].split(',') if l.strip()] if len(sys.argv) > 2 and sys.argv[2].strip() else []
     lingue = [l for l in (lingue or CODICI) if l in CODICI and l in voci]
+    anteprima = {x.strip() for x in os.environ.get('ANTEPRIMA', '').split(',') if x.strip()}
     caratteri = 0
     for lingua in lingue:
         voce = voci[lingua]
@@ -102,14 +118,17 @@ def main():
                     gia[tr['file']] = tr
         luoghi = {}
         for id_luogo, voce_testi in sorted(testi.items()):
+            if anteprima and id_luogo not in anteprima:
+                continue
             if 'tracce' in voce_testi:
                 elenco = [
-                    {'id': tr['id'], 'titolo': (tr.get('titolo') or {}).get(lingua), 'testo': (tr.get('testo') or {}).get(lingua)}
+                    {'id': tr['id'], 'titolo': (tr.get('titolo') or {}).get(lingua), 'testo': (tr.get('testo') or {}).get(lingua),
+                     'pausa': tr.get('pausa', voce_testi.get('pausa'))}
                     for tr in voce_testi['tracce']
                 ]
                 multiple = True
             else:
-                elenco = [{'id': None, 'titolo': None, 'testo': voce_testi.get(lingua)}]
+                elenco = [{'id': None, 'titolo': None, 'testo': voce_testi.get(lingua), 'pausa': voce_testi.get('pausa')}]
                 multiple = False
             tracce = []
             for tr in elenco:
@@ -118,14 +137,24 @@ def main():
                     continue
                 if multiple and not re.fullmatch(r'[a-z0-9-]+', tr['id'] or ''):
                     sys.exit(f'{id_luogo}: id della traccia non valido ({tr["id"]}): usa lettere minuscole, numeri e trattini')
-                impronta = hashlib.sha256((voce + '|' + testo).encode('utf-8')).hexdigest()[:16]
+                chiave_testo = voce + '|' + testo if not tr['pausa'] else voce + '|pausa=' + tr['pausa'] + '|' + testo
+                impronta = hashlib.sha256(chiave_testo.encode('utf-8')).hexdigest()[:16]
+                if anteprima:
+                    os.makedirs(f'anteprima/{lingua}', exist_ok=True)
+                    nome = f'{id_luogo}__{tr["id"]}.mp3' if multiple else f'{id_luogo}.mp3'
+                    audio = sintetizza(testo, voce, CODICI[lingua], chiave, tr['pausa'])
+                    caratteri += len(testo)
+                    with open(f'anteprima/{lingua}/{nome}', 'wb') as f:
+                        f.write(audio)
+                    print(f'anteprima/{lingua}/{nome}: {durata(f"anteprima/{lingua}/{nome}", len(audio))} s')
+                    continue
                 file = f'{id_luogo}__{tr["id"]}.mp3' if multiple else f'{id_luogo}.mp3'
                 percorso = os.path.join(cartella, file)
                 prima = gia.get(file)
                 if prima and prima.get('testo') == impronta and os.path.exists(percorso):
                     tracce.append({**prima, 'id': tr['id'], 'titolo': tr['titolo'], 'file': file})
                     continue
-                audio = sintetizza(testo, voce, CODICI[lingua], chiave)
+                audio = sintetizza(testo, voce, CODICI[lingua], chiave, tr['pausa'])
                 caratteri += len(testo)
                 with open(percorso, 'wb') as f:
                     f.write(audio)
@@ -139,12 +168,16 @@ def main():
                     'testo': impronta,
                 })
                 print(f'{citta}/{lingua}/{file}: {tracce[-1]["secondi"]} s')
+            if anteprima:
+                continue
             if tracce:
                 luoghi[id_luogo] = {
                     'byte': sum(x['byte'] for x in tracce),
                     'secondi': sum(x['secondi'] for x in tracce),
                     'tracce': tracce,
                 }
+        if anteprima:
+            continue
         # MP3 di luoghi tolti dai testi: si cancellano
         usati = {tr['file'] for v in luoghi.values() for tr in v['tracce']}
         for f in os.listdir(cartella):

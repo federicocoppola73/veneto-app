@@ -14,6 +14,10 @@ on:
         description: 'Lingue separate da virgola (vuoto = tutte quelle con una voce)'
         required: false
         default: ''
+      anteprima:
+        description: 'Solo anteprima, senza pubblicare: id dei luoghi separati da virgola (es. torre-orologio). Gli MP3 vanno sul ramo audioguide-anteprima'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -36,8 +40,24 @@ jobs:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           CITTA: ${{ inputs.citta }}
           LINGUE: ${{ inputs.lingue }}
+          ANTEPRIMA: ${{ inputs.anteprima }}
         run: python3 strumenti/audioguide.py "$CITTA" "$LINGUE"
+      - name: Anteprima sul ramo audioguide-anteprima
+        if: ${{ inputs.anteprima != '' }}
+        run: |
+          mkdir /tmp/ramo && cp -r anteprima /tmp/ramo/
+          cd /tmp/ramo
+          git init -q -b audioguide-anteprima
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Anteprima audioguide"
+          for i in 1 2 3 4; do
+            git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" audioguide-anteprima && exit 0
+            echo "Tentativo $i non riuscito, riprovo tra 20 secondi"; sleep 20
+          done
+          exit 1
       - name: Pubblica
+        if: ${{ inputs.anteprima == '' }}
         env:
           CITTA: ${{ inputs.citta }}
         run: |
