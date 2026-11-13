@@ -1,151 +1,259 @@
 {
- "versione": "90a34796245a",
+ "versione": "cd0fdda1fc85",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
+  "arsenale": {
+   "byte": 1394540,
+   "secondi": 232,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "arsenale.mp3",
+     "byte": 1394540,
+     "secondi": 232,
+     "sha256": "4d8e41bf3bec8c6fe41a43dc3ad749868cb91c46a7934cc9bad7f60ed7630d7f",
+     "testo": "7195500f792decf7"
+    }
+   ]
+  },
   "basilica-san-marco": {
-   "byte": 4289664,
-   "secondi": 1073,
+   "byte": 6907524,
+   "secondi": 1151,
    "tracce": [
     {
      "id": "esterno",
      "titolo": "Außen",
      "file": "basilica-san-marco__esterno.mp3",
-     "byte": 1394208,
-     "secondi": 349,
-     "sha256": "14b7ebc366f1e656a4dc880433abb6a3dfa631db000e8ee46e8e5bab3f03b7f6",
-     "testo": "1119687fd5452ada"
+     "byte": 2195612,
+     "secondi": 366,
+     "sha256": "50e6cd003b5a8b0e8cb965c4e684991485623f4f221b1b56ddca8a4cdc20e7a0",
+     "testo": "c6d40e48c521e6c9"
     },
     {
      "id": "interno",
      "titolo": "Innen",
      "file": "basilica-san-marco__interno.mp3",
-     "byte": 1480320,
-     "secondi": 370,
-     "sha256": "c17368d61d6017ec0d9f5ccf9ff4372c55637b6a44ff1fdf1a29a9fedaa51d11",
-     "testo": "8f4c6294ab5b9abe"
+     "byte": 2429612,
+     "secondi": 405,
+     "sha256": "81f415e86d91069a81a6ece7e72b40600417ce96c9cbafbe0cd0fdd76911b672",
+     "testo": "98e552110d7d4c70"
     },
     {
      "id": "pala-doro",
      "titolo": "Pala d'Oro",
      "file": "basilica-san-marco__pala-doro.mp3",
-     "byte": 1415136,
-     "secondi": 354,
-     "sha256": "50975857e3a5af18443446c0c0c203a186760dfb467185c3b5c39a8e3f4582ca",
-     "testo": "9e147b679f8fb94a"
+     "byte": 2282300,
+     "secondi": 380,
+     "sha256": "d63f385efcff617f78042df237d4822a12257c8799a19fd1eefe343aeb389973",
+     "testo": "5e66f1bed360b7d8"
     }
    ]
   },
   "campanile-san-marco": {
-   "byte": 536544,
-   "secondi": 134,
+   "byte": 849500,
+   "secondi": 142,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "campanile-san-marco.mp3",
-     "byte": 536544,
-     "secondi": 134,
-     "sha256": "7f182f11721f63e84fdfcfdcd35fdd5ea5b2f765af2eb69cb0ec5febfba80a75",
-     "testo": "eb8e0b4f1118bcc4"
+     "byte": 849500,
+     "secondi": 142,
+     "sha256": "cd58b8deff12889b60fcb4fe9d14c1f1f8901e6004cce3be0be56ca788787760",
+     "testo": "fddbd6aa50a49b62"
+    }
+   ]
+  },
+  "campo-santi-giovanni-paolo": {
+   "byte": 925676,
+   "secondi": 154,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "campo-santi-giovanni-paolo.mp3",
+     "byte": 925676,
+     "secondi": 154,
+     "sha256": "417375de311b0d382a758fdb9347f3a5b88ee27e0a62d12d5f2b04808231275c",
+     "testo": "9cfcf32be4c151e7"
+    }
+   ]
+  },
+  "frari": {
+   "byte": 1955608,
+   "secondi": 326,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Außen",
+     "file": "frari__esterno.mp3",
+     "byte": 728108,
+     "secondi": 121,
+     "sha256": "8955aeb6c48bdbea14ff1c0c886c679f3dc486046d50f8434fe3b4a8c51cffbc",
+     "testo": "e46b66c5e7a6b116"
+    },
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "frari__interno.mp3",
+     "byte": 1227500,
+     "secondi": 205,
+     "sha256": "bfec424764d4635839db617c1c672df9afe429dc66ad52849cb644bf6da294a2",
+     "testo": "1922cd2c5b7bcd10"
     }
    ]
   },
   "libreria-marciana": {
-   "byte": 693696,
-   "secondi": 173,
+   "byte": 1075148,
+   "secondi": 179,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "libreria-marciana.mp3",
-     "byte": 693696,
-     "secondi": 173,
-     "sha256": "311a55c0be2983f73e35b95bdcaba3257549115df9839e32c67e0b416c557104",
-     "testo": "5f1b64eff3685200"
+     "byte": 1075148,
+     "secondi": 179,
+     "sha256": "7f86d52b7d26f6ea1c856374283b64d7cb003c9d16de8b8726065dadc445b0b5",
+     "testo": "ecee2f82a265a95e"
     }
    ]
   },
   "palazzo-ducale": {
-   "byte": 2994816,
-   "secondi": 749,
+   "byte": 4908616,
+   "secondi": 818,
    "tracce": [
     {
      "id": "esterno",
      "titolo": "Außen",
      "file": "palazzo-ducale__esterno.mp3",
-     "byte": 1338048,
-     "secondi": 335,
-     "sha256": "d96127da6a1f32f2105ebc61d0f442069d21d1773d3e9d95e2c9c07058fc4fc4",
-     "testo": "8c259e7948bf1c61"
+     "byte": 2175020,
+     "secondi": 362,
+     "sha256": "3f71bf439fc3385fd899a43aa6bf942720968f8c6ed80e225d6fd4a61c521022",
+     "testo": "10e1eaa635b22b3e"
     },
     {
      "id": "interno",
      "titolo": "Innen",
      "file": "palazzo-ducale__interno.mp3",
-     "byte": 1656768,
-     "secondi": 414,
-     "sha256": "a54ef3ed8286b94fb9579bfb95cef9f013f70eebdb0320741431f1586e2765d6",
-     "testo": "c55404fe373e368e"
+     "byte": 2733596,
+     "secondi": 456,
+     "sha256": "5c3166922391785bf579d19f46aca6a6d853d188c1fc07d0a71221afba3be5a0",
+     "testo": "17565ce5181a80d3"
     }
    ]
   },
   "piazza-san-marco": {
-   "byte": 1555584,
-   "secondi": 389,
+   "byte": 2595212,
+   "secondi": 433,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "piazza-san-marco.mp3",
-     "byte": 1555584,
-     "secondi": 389,
-     "sha256": "ba18637490dabfd02e9df92493dc9f261489db498262ce1c269d871ccd3834af",
-     "testo": "bab51be63cade5ea"
+     "byte": 2595212,
+     "secondi": 433,
+     "sha256": "b6b0f0a114e5fc9da1684b6d04e9d6ea869ee3165f444df4b02eab66b488c91f",
+     "testo": "7df87f3442ce1a5d"
     }
    ]
   },
   "ponte-rialto": {
-   "byte": 1567776,
-   "secondi": 392,
+   "byte": 2525948,
+   "secondi": 421,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "ponte-rialto.mp3",
-     "byte": 1567776,
-     "secondi": 392,
-     "sha256": "699dd75485ddda0cdb510641d61a0ff8c1acbbf437102d4f98c0f9b0d711f7a0",
-     "testo": "61615867ac18ec9a"
+     "byte": 2525948,
+     "secondi": 421,
+     "sha256": "88891d11ef350d8039273254e9b4b3c4861bb7c8e88b3265efa4ec2578387ebb",
+     "testo": "95f95c00f92314b7"
     }
    ]
   },
   "ponte-sospiri": {
-   "byte": 501792,
-   "secondi": 125,
+   "byte": 829484,
+   "secondi": 138,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "ponte-sospiri.mp3",
-     "byte": 501792,
-     "secondi": 125,
-     "sha256": "c379358f01482fac6a0db9d59a9a685fd3a52da84331e85de8c0cf1e45906a40",
-     "testo": "1f8dfa3437097ec1"
+     "byte": 829484,
+     "secondi": 138,
+     "sha256": "670ee931b1890725f551d7e2f790659dd4b42ca16f43a7effc39d77926a3589e",
+     "testo": "df135b8a76a274b7"
+    }
+   ]
+  },
+  "salute": {
+   "byte": 2369896,
+   "secondi": 395,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Außen",
+     "file": "salute__esterno.mp3",
+     "byte": 1162412,
+     "secondi": 194,
+     "sha256": "aeb87f66a4403de00ff3d7817f4b7c48dae3e26958cfcf1ab05f22aaa61b056b",
+     "testo": "b5475396c5fa3c05"
+    },
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "salute__interno.mp3",
+     "byte": 1207484,
+     "secondi": 201,
+     "sha256": "6f9d704c02de47a9c2fdbae84c24b2612148a2e7dc7a1a8b2f3600010c45d50c",
+     "testo": "51de857999991aa4"
+    }
+   ]
+  },
+  "san-rocco": {
+   "byte": 1209212,
+   "secondi": 202,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-rocco.mp3",
+     "byte": 1209212,
+     "secondi": 202,
+     "sha256": "573dbd9168755d46be8cdc5fe7f5fa5a0983d35b51430d1c194db516016ccc5b",
+     "testo": "3903cf7d5a890fc5"
+    }
+   ]
+  },
+  "santi-giovanni-paolo": {
+   "byte": 1198412,
+   "secondi": 200,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "santi-giovanni-paolo.mp3",
+     "byte": 1198412,
+     "secondi": 200,
+     "sha256": "35d24591b116c498057e83623e3e10dbbb1e8ff339473fb33a001680c891c081",
+     "testo": "3697ab547bc3a7c2"
     }
    ]
   },
   "torre-orologio": {
-   "byte": 484416,
-   "secondi": 121,
+   "byte": 807884,
+   "secondi": 135,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "torre-orologio.mp3",
-     "byte": 484416,
-     "secondi": 121,
-     "sha256": "94479b04e37119705587a64d59fbec70eae32c05009fc4d997c130a41a70d889",
-     "testo": "6fa1acf4fbf8cf8b"
+     "byte": 807884,
+     "secondi": 135,
+     "sha256": "9bc5947f1dcf9eb0e9efefa2fbc64f4e80a78e6a50360a863026de7961caf238",
+     "testo": "b1271eb2bc91b27b"
     }
    ]
   }
