@@ -1,5 +1,5 @@
 {
- "versione": "99a95f69fb5e",
+ "versione": "1d0d5270d53b",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-san-marco": {
@@ -90,17 +90,17 @@
    ]
   },
   "ponte-rialto": {
-   "byte": 1557888,
-   "secondi": 389,
+   "byte": 1567776,
+   "secondi": 392,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "ponte-rialto.mp3",
-     "byte": 1557888,
-     "secondi": 389,
-     "sha256": "2f8e0481ad9e3473a2329e06b25dbc19c48685914a5c1b652f869c961f1be479",
-     "testo": "1deb1df99d55e631"
+     "byte": 1567776,
+     "secondi": 392,
+     "sha256": "699dd75485ddda0cdb510641d61a0ff8c1acbbf437102d4f98c0f9b0d711f7a0",
+     "testo": "61615867ac18ec9a"
     }
    ]
   },
