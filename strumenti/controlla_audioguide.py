@@ -54,6 +54,7 @@ def main():
                 testo = voce[lingua]
             segs, _ = m.transcribe(f'audioguide/{citta}/{lingua}/{tr["file"]}', language=lingua,
                                    word_timestamps=True, vad_filter=True, beam_size=1)
+            segs = list(segs)
             ascoltate = [(norm(w.word), w.start) for s in segs for w in (s.words or []) if norm(w.word)]
             attese = parole(testo)
             sm = difflib.SequenceMatcher(None, attese, [w for w, _ in ascoltate], autojunk=False)
@@ -70,7 +71,8 @@ def main():
                                      'audio': ' '.join(w for w, _ in ascoltate[b1:b2]),
                                      'testo': ' '.join(attese[a1:a2])})
             risultati.append({'luogo': id_luogo, 'traccia': tr['id'], 'file': tr['file'],
-                              'somiglianza': round(sm.ratio() * 100), 'problemi': problemi})
+                              'somiglianza': round(sm.ratio() * 100), 'problemi': problemi,
+                              'trascrizione': [[mmss(s.start), s.text.strip()] for s in segs]})
             print(f'{tr["file"]}: {round(sm.ratio() * 100)}% · {len(problemi)} problemi', flush=True)
     os.makedirs(f'controllo/{citta}', exist_ok=True)
     json.dump(risultati, open(f'controllo/{citta}/{lingua}.json', 'w'), ensure_ascii=False, indent=1)
