@@ -20,6 +20,7 @@ import { domandePerLuogo } from '../aguzza';
 import IconaCondividi from './IconaCondividi';
 import SegnalaProblema from './SegnalaProblema';
 import { RigaAudioguida } from './Audioguida';
+import { useAudioguide } from '../audioguide';
 import PulsanteCopia from './PulsanteCopia';
 import { testoLuogo } from '../copia';
 import { linkWikipedia } from '../wikipedia';
@@ -50,6 +51,8 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
   // domande "Aguzza la vista" del luogo aperto
   const [aguzza, setAguzza] = useState(false);
   const [scegliPersonaggio, setScegliPersonaggio] = useState(false);
+  // se il luogo ha un'audioguida (nella lingua dell'app) il video di YouTube non si mostra più
+  const { indice: indiceAudio } = useAudioguide();
   // un luogo può avere uno o più personaggi collegati
   const personaggiLuogo = Array.isArray(luogo.personaggio) ? luogo.personaggio : luogo.personaggio ? [luogo.personaggio] : [];
   useEffect(() => setAguzza(false), [luogo?.id]);
@@ -241,7 +244,7 @@ export default function PopupLuogo({ luogo, lingua, t, onChiudi, distanza, prefe
             </View>
           ) : null}
 
-          <RiquadroVideo video={luogo.video} t={t} />
+          {!indiceAudio?.luoghi?.[luogo.id] && <RiquadroVideo video={luogo.video} t={t} />}
 
           {nota ? (
             <View style={styles.nota}>
