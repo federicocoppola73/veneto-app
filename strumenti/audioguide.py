@@ -13,7 +13,9 @@ Testi:  pacchetti/<città>/audioguide/testi.json
         } }
 Voci:   strumenti/audioguide_voci.json  { "it": "it-IT-Chirp3-HD-Achernar", "en": "en-GB-Chirp3-HD-Achernar", … }
 Pause: "pausa": "breve" | "media" | "lunga" | "nessuna" (nel luogo o nella singola traccia) aggiunge una pausa
-        dopo ogni frase, con i tag di pausa delle voci Chirp3-HD ([pause short], [pause], [pause long]).
+        dopo ogni frase. Con la pausa ogni frase si sintetizza da sola (testo semplice, audio non compresso)
+        e il silenzio si inserisce qui, poi ffmpeg crea l'MP3: i tag di pausa delle voci Chirp3-HD
+        facevano "deragliare" la voce (parole in altre lingue, suoni senza senso).
         Se manca vale "pausa_predefinita" di audioguide_voci.json.
 Bozze: un luogo può avere "bozza": { …stessa forma di un luogo… }: la bozza si usa solo in anteprima,
         mentre la pubblicazione normale continua a usare il testo attuale.
@@ -31,7 +33,11 @@ import json
 import os
 import re
 import sys
+import subprocess
 import urllib.request
+import wave
+import io
+from concurrent.futures import ThreadPoolExecutor
 
 API = 'https://texttospeech.googleapis.com/v1/text:synthesize?key='
 CODICI = {'it': 'it-IT', 'en': 'en-GB', 'fr': 'fr-FR', 'de': 'de-DE', 'es': 'es-ES'}
@@ -40,6 +46,10 @@ KBPS = 32  # MP3 di Google: serve solo come stima se la durata non si legge dal 
 
 
 PAUSE = {'breve': '[pause short]', 'media': '[pause]', 'lunga': '[pause long]'}
+SILENZIO = {'breve': 0.35, 'media': 0.6, 'lunga': 0.9}  # secondi di silenzio dopo ogni frase
+SILENZIO_PARAGRAFO = 0.5  # in più tra un paragrafo e l'altro
+CAMPIONI = 24000  # Hz
+KBPS_PAUSE = 48  # MP3 creato da ffmpeg
 
 
 def con_pause(testo, pausa):
@@ -84,18 +94,65 @@ def pezzi(testo):
     return [b for b in (pulito(x) for x in blocchi) if b]
 
 
+def frasi(paragrafo):
+    """Divide un paragrafo in frasi. Non taglia dopo un numero di una o due cifre seguito dal punto
+    (le date tedesche come "1. Februar"), solo dopo un vero fine frase."""
+    out, inizio = [], 0
+    for m in re.finditer(r'([.!?…]["”»]?)\s+', paragrafo):
+        if re.search(r'(^|\s)\d{1,2}\.$', paragrafo[:m.start() + 1]):
+            continue
+        out.append(paragrafo[inizio:m.end(1)].strip())
+        inizio = m.end()
+    if paragrafo[inizio:].strip():
+        out.append(paragrafo[inizio:].strip())
+    return out
+
+
+def richiesta(testo, voce, codice, chiave, codifica):
+    corpo = json.dumps({
+        'input': {'text': testo},
+        'voice': {'languageCode': codice, 'name': voce},
+        'audioConfig': {'audioEncoding': codifica, 'sampleRateHertz': CAMPIONI},
+    }).encode()
+    for tentativo in range(4):
+        try:
+            r = urllib.request.Request(API + chiave, data=corpo, headers={'Content-Type': 'application/json'})
+            with urllib.request.urlopen(r, timeout=120) as risposta:
+                return base64.b64decode(json.load(risposta)['audioContent'])
+        except Exception:
+            if tentativo == 3:
+                raise
+            import time
+            time.sleep(3 * (tentativo + 1))
+
+
+def pcm_di(wav):
+    with wave.open(io.BytesIO(wav)) as w:
+        return w.readframes(w.getnframes())
+
+
 def sintetizza(testo, voce, codice, chiave, pausa=None):
-    audio = b''
-    for blocco in pezzi(con_pause(testo, pausa)):
-        corpo = json.dumps({
-            'input': {'markup': blocco} if PAUSE.get(pausa or '') else {'text': blocco},
-            'voice': {'languageCode': codice, 'name': voce},
-            'audioConfig': {'audioEncoding': 'MP3', 'sampleRateHertz': 24000},
-        }).encode()
-        richiesta = urllib.request.Request(API + chiave, data=corpo, headers={'Content-Type': 'application/json'})
-        with urllib.request.urlopen(richiesta, timeout=120) as r:
-            audio += base64.b64decode(json.load(r)['audioContent'])  # i pezzi MP3 si possono accodare
-    return audio
+    if not SILENZIO.get(pausa or ''):
+        # senza pause: MP3 direttamente da Google, a pezzi di un paragrafo
+        return b''.join(richiesta(b, voce, codice, chiave, 'MP3') for b in pezzi(testo))
+    # con le pause: una richiesta per frase, il silenzio lo aggiungiamo noi
+    paragrafi = [[f for f in frasi(p) if f] for p in re.split(r'\n\s*\n', testo.strip()) if p.strip()]
+    tutte = [f for p in paragrafi for f in p]
+    with ThreadPoolExecutor(6) as ex:
+        audio = list(ex.map(lambda f: pcm_di(richiesta(f, voce, codice, chiave, 'LINEAR16')), tutte))
+    sil = lambda sec: b'\x00\x00' * int(CAMPIONI * sec)
+    pcm, i = b'', 0
+    for p in paragrafi:
+        for j, _ in enumerate(p):
+            pcm += audio[i]
+            i += 1
+            pcm += sil(SILENZIO[pausa] + (SILENZIO_PARAGRAFO if j == len(p) - 1 else 0))
+    pcm = pcm[: len(pcm) - len(sil(SILENZIO[pausa] + SILENZIO_PARAGRAFO))]  # niente silenzio alla fine
+    return subprocess.run(
+        ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-f', 's16le', '-ar', str(CAMPIONI), '-ac', '1', '-i', '-',
+         '-codec:a', 'libmp3lame', '-b:a', f'{KBPS_PAUSE}k', '-f', 'mp3', '-'],
+        input=pcm, capture_output=True, check=True,
+    ).stdout
 
 
 def durata(percorso, byte):
