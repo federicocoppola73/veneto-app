@@ -52,24 +52,26 @@ def con_pause(testo, pausa):
 
 
 def pezzi(testo):
-    """Divide un testo lungo in pezzi sotto il limite di Google, senza spezzare le frasi.
-    Taglia di preferenza tra un paragrafo e l'altro, e nessun pezzo inizia o finisce con un tag di pausa
+    """Divide il testo in pezzi (uno per paragrafo, sotto il limite di Google), senza spezzare le frasi.
+    Nessun pezzo inizia con un tag di pausa
     (un pezzo che inizia con [pause …] fa produrre alla voce suoni senza senso)."""
     def sotto_limite(t):
         return len(t.encode('utf-8')) <= MAX_BYTE_RICHIESTA
 
     def pulito(t):
-        return re.sub(r'^(\s*\[pause[^\]]*\])+\s*|(\s*\[pause[^\]]*\])+\s*$', '', t.strip())
+        # niente pause all'inizio del pezzo; quella finale resta, così tra un paragrafo e l'altro si sente la pausa
+        return re.sub(r'^(\s*\[pause[^\]]*\])+\s*', '', t.strip())
 
+    # Un paragrafo per richiesta: con richieste lunghe la voce ogni tanto "deraglia"
+    # e produce frasi in un'altra lingua o suoni senza senso; con richieste corte è stabile.
     blocchi, attuale = [], ''
     for paragrafo in re.split(r'\n\s*\n', testo.strip()):
-        prova = (attuale + '\n\n' + paragrafo).strip()
-        if sotto_limite(prova):
-            attuale = prova
-            continue
         if attuale:
             blocchi.append(attuale)
         attuale = ''
+        if sotto_limite(paragrafo):
+            attuale = paragrafo.strip()
+            continue
         for f in re.split(r'(?<=[.!?…])\s+', paragrafo):
             prova = (attuale + ' ' + f).strip()
             if not sotto_limite(prova) and attuale:
