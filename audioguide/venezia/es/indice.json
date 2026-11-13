@@ -1,0 +1,45 @@
+{
+ "versione": "a2cb6d863ab5",
+ "voce": "es-ES-Chirp3-HD-Kore",
+ "luoghi": {
+  "palazzo-ducale": {
+   "byte": 2686272,
+   "secondi": 671,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "palazzo-ducale__esterno.mp3",
+     "byte": 1173024,
+     "secondi": 293,
+     "sha256": "4b68d527aa4d5ecf0c9abba005a8539ff9c97407c7bd166abf1a0a4371d3e8fe",
+     "testo": "6e60cbf5995a4905"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "palazzo-ducale__interno.mp3",
+     "byte": 1513248,
+     "secondi": 378,
+     "sha256": "16cb0bbeca562c47e0d41799c9c638ea352b2f58dab684d26dc115d7e40ba930",
+     "testo": "327eacb8a802166d"
+    }
+   ]
+  },
+  "piazza-san-marco": {
+   "byte": 1347168,
+   "secondi": 337,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-san-marco.mp3",
+     "byte": 1347168,
+     "secondi": 337,
+     "sha256": "8b5e2ca0ad0566c66dc253123c701b97e04b9d894b170c1a798b333230cd3f79",
+     "testo": "62a30616926ab6b3"
+    }
+   ]
+  }
+ }
+}
