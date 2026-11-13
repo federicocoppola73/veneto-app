@@ -47,23 +47,39 @@ def con_pause(testo, pausa):
     tag = PAUSE.get(pausa or '')
     if not tag:
         return testo
-    return re.sub(r'([.!?…])(["”»]?)\s+', lambda m: m.group(1) + m.group(2) + ' ' + tag + ' ', testo.strip())
+    return re.sub(r'([.!?…])(["”»]?)(\s+)',
+                  lambda m: m.group(1) + m.group(2) + ' ' + tag + ('\n\n' if '\n' in m.group(3) else ' '), testo.strip())
 
 
 def pezzi(testo):
-    """Divide un testo lungo in pezzi sotto il limite di Google, senza spezzare le frasi."""
-    frasi = re.split(r'(?<=[.!?…])\s+', testo.strip())
+    """Divide un testo lungo in pezzi sotto il limite di Google, senza spezzare le frasi.
+    Taglia di preferenza tra un paragrafo e l'altro, e nessun pezzo inizia o finisce con un tag di pausa
+    (un pezzo che inizia con [pause …] fa produrre alla voce suoni senza senso)."""
+    def sotto_limite(t):
+        return len(t.encode('utf-8')) <= MAX_BYTE_RICHIESTA
+
+    def pulito(t):
+        return re.sub(r'^(\s*\[pause[^\]]*\])+\s*|(\s*\[pause[^\]]*\])+\s*$', '', t.strip())
+
     blocchi, attuale = [], ''
-    for f in frasi:
-        prova = (attuale + ' ' + f).strip()
-        if len(prova.encode('utf-8')) > MAX_BYTE_RICHIESTA and attuale:
-            blocchi.append(attuale)
-            attuale = f
-        else:
+    for paragrafo in re.split(r'\n\s*\n', testo.strip()):
+        prova = (attuale + '\n\n' + paragrafo).strip()
+        if sotto_limite(prova):
             attuale = prova
+            continue
+        if attuale:
+            blocchi.append(attuale)
+        attuale = ''
+        for f in re.split(r'(?<=[.!?…])\s+', paragrafo):
+            prova = (attuale + ' ' + f).strip()
+            if not sotto_limite(prova) and attuale:
+                blocchi.append(attuale)
+                attuale = f
+            else:
+                attuale = prova
     if attuale:
         blocchi.append(attuale)
-    return blocchi
+    return [b for b in (pulito(x) for x in blocchi) if b]
 
 
 def sintetizza(testo, voce, codice, chiave, pausa=None):
