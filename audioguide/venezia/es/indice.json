@@ -1,5 +1,5 @@
 {
- "versione": "ae736f42e2fc",
+ "versione": "a133226fbd18",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
   "arsenale": {
@@ -299,6 +299,54 @@
      "secondi": 345,
      "sha256": "d2d6fb9dae2f457417ea66abf51d918aa0d10b31dd5b1d8f204900d1c9a53e75",
      "testo": "4821404390e23cba"
+    }
+   ]
+  },
+  "san-giovanni-evangelista": {
+   "byte": 2401144,
+   "secondi": 400,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "san-giovanni-evangelista__esterno.mp3",
+     "byte": 1056428,
+     "secondi": 176,
+     "sha256": "c7ae1ff1fb007c4ae5e4b3c699861e77ae0505755fc263e73de6704411d1e270",
+     "testo": "f4f9e0077ad84564"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "san-giovanni-evangelista__interno.mp3",
+     "byte": 1344716,
+     "secondi": 224,
+     "sha256": "e96ad7870f059d117687372194cc6462e36ace90e0ed426c935e3f8afadf9e36",
+     "testo": "43ca3658b308e62f"
+    }
+   ]
+  },
+  "san-pietro-castello": {
+   "byte": 2343688,
+   "secondi": 391,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "san-pietro-castello__esterno.mp3",
+     "byte": 1193228,
+     "secondi": 199,
+     "sha256": "6cfda2f3659c742f10871261dc97251fb9374881e8c7934d6ddc298887a70f42",
+     "testo": "5509b39fe6e7c264"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "san-pietro-castello__interno.mp3",
+     "byte": 1150460,
+     "secondi": 192,
+     "sha256": "14b93cff1df3e9a3b564414e6da8bd73d407da150a2f2c0130aa2cb144186bf8",
+     "testo": "c2c8b348caf27331"
     }
    ]
   },
