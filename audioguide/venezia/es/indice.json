@@ -1,7 +1,22 @@
 {
- "versione": "a133226fbd18",
+ "versione": "466ae78e9a0c",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
+  "accademia": {
+   "byte": 1893212,
+   "secondi": 316,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "accademia.mp3",
+     "byte": 1893212,
+     "secondi": 316,
+     "sha256": "fb49a7013c6f925eb1657f0b99cb4c743b36bd14a1445a38d456d63b4556cb31",
+     "testo": "ed0aa4553aa59f88"
+    }
+   ]
+  },
   "arsenale": {
    "byte": 1338668,
    "secondi": 223,
@@ -50,6 +65,21 @@
     }
    ]
   },
+  "ca-doro": {
+   "byte": 1378268,
+   "secondi": 230,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ca-doro.mp3",
+     "byte": 1378268,
+     "secondi": 230,
+     "sha256": "89d39d526b02525d5ef706df14c9bb576633ccb7ba1181d5ed3b487d80c1d75b",
+     "testo": "82eb5f80e5effdcb"
+    }
+   ]
+  },
   "ca-rezzonico": {
    "byte": 1969676,
    "secondi": 328,
@@ -92,6 +122,21 @@
      "secondi": 140,
      "sha256": "5de47bbad4b08085454b9cadced56f5b4907c89c3f6350e7428e6bd57edeca3b",
      "testo": "deeec7426dc6ffbd"
+    }
+   ]
+  },
+  "contarini-bovolo": {
+   "byte": 729260,
+   "secondi": 122,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "contarini-bovolo.mp3",
+     "byte": 729260,
+     "secondi": 122,
+     "sha256": "5d379fe11253e45f8c80939baa84aa5cfd15c46655ac0596839b92eaa00a6bb1",
+     "testo": "cea8db97aa7cdf97"
     }
    ]
   },
@@ -263,6 +308,21 @@
     }
    ]
   },
+  "redentore": {
+   "byte": 1381724,
+   "secondi": 230,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "redentore.mp3",
+     "byte": 1381724,
+     "secondi": 230,
+     "sha256": "ea5fbb6d4246e67e47ab1d86edb4f37975e0182a0a8f907dd4aa52bd365c9fc4",
+     "testo": "a4cf06c82a53bd97"
+    }
+   ]
+  },
   "salute": {
    "byte": 2287528,
    "secondi": 381,
@@ -377,6 +437,21 @@
      "secondi": 189,
      "sha256": "98f88cbc5d78ce21cd633dd326ca09c81546cbe1667e1249be097a609a4d6b36",
      "testo": "3b2dd39b0877a6e9"
+    }
+   ]
+  },
+  "teatro-la-fenice": {
+   "byte": 1397276,
+   "secondi": 233,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "teatro-la-fenice.mp3",
+     "byte": 1397276,
+     "secondi": 233,
+     "sha256": "f3e741616d75c973f9d5c046ba6448adff4d91452ea264749b0fc8d7f5ebfdb8",
+     "testo": "ff63447a8430149c"
     }
    ]
   },
