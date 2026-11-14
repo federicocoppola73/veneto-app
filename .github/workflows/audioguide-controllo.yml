@@ -20,6 +20,10 @@ on:
         description: 'Solo questi luoghi (id separati da virgola; vuoto = tutti)'
         required: false
         default: ''
+      accurato:
+        description: 'Controllo più accurato e lento (senza filtro dei silenzi, ricerca più ampia): si/no'
+        required: false
+        default: 'no'
 
 permissions:
   contents: write
@@ -53,6 +57,8 @@ jobs:
           CITTA: ${{ inputs.citta }}
           MODELLO: ${{ inputs.modello }}
           LUOGHI: ${{ inputs.luoghi }}
+          VAD: ${{ inputs.accurato == 'si' && '0' || '1' }}
+          BEAM: ${{ inputs.accurato == 'si' && '5' || '1' }}
         run: python3 strumenti/controlla_audioguide.py "$CITTA" "${{ matrix.lingua }}" "$MODELLO" "$LUOGHI"
       - uses: actions/upload-artifact@v4
         with:

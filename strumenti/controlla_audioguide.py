@@ -53,7 +53,8 @@ def main():
             else:
                 testo = voce[lingua]
             segs, _ = m.transcribe(f'audioguide/{citta}/{lingua}/{tr["file"]}', language=lingua,
-                                   word_timestamps=True, vad_filter=True, beam_size=1)
+                                   word_timestamps=True, vad_filter=os.environ.get('VAD', '1') != '0',
+                                   beam_size=int(os.environ.get('BEAM', '1')))
             segs = list(segs)
             ascoltate = [(norm(w.word), w.start) for s in segs for w in (s.words or []) if norm(w.word)]
             attese = parole(testo)
