@@ -1,5 +1,5 @@
 {
- "versione": "ec258b943900",
+ "versione": "7b7bc7443571",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -574,17 +574,17 @@
    ]
   },
   "redentore": {
-   "byte": 1470716,
-   "secondi": 245,
+   "byte": 1500380,
+   "secondi": 250,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "redentore.mp3",
-     "byte": 1470716,
-     "secondi": 245,
-     "sha256": "0665f87ea3b2e5dfcf184071670458be47817ba612fdca22707c64a2d19e9e63",
-     "testo": "7760892b1ee792bf"
+     "byte": 1500380,
+     "secondi": 250,
+     "sha256": "fb0d6a4b91811ec859371895d47b429f361b0c32d45b3179aee621730e3216d4",
+     "testo": "dc6ccb9deb616868"
     }
    ]
   },
