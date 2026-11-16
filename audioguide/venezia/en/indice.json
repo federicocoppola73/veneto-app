@@ -136,7 +136,13 @@
      "byte": 593756,
      "secondi": 99,
      "sha256": "f6bede697e0f78b332de8b33e39a2df7918846f97f69d14e681aa2a43a76c1b7",
-     "testo": "50b1b33d5745acef"
+     "testo": "50b1b33d5745acef",
+     "tappe": [
+      "stazione",
+      "san-simeone-piccolo",
+      "scalzi",
+      "ponte-scalzi"
+     ]
     },
     {
      "id": "cannaregio",
@@ -145,7 +151,14 @@
      "byte": 521324,
      "secondi": 87,
      "sha256": "3dc5aeb37871b0f421c81cbce56dd59e33ed9aafe10597e28bc7797b28820fb3",
-     "testo": "1a8edcb5f2db0289"
+     "testo": "1a8edcb5f2db0289",
+     "tappe": [
+      "palazzo-flangini",
+      "san-marcuola",
+      "storia-naturale",
+      "palazzo-belloni-battagia",
+      "vendramin-calergi"
+     ]
     },
     {
      "id": "ca-pesaro",
@@ -154,7 +167,14 @@
      "byte": 492380,
      "secondi": 82,
      "sha256": "40bacd75a4d263dd9c07d1a58d7fbd28d0b997bed2ad486bffcb6ab13f40f34a",
-     "testo": "73e067677889804e"
+     "testo": "73e067677889804e",
+     "tappe": [
+      "san-stae",
+      "palazzo-gussoni",
+      "ca-pesaro",
+      "ca-corner-regina",
+      "palazzo-fontana"
+     ]
     },
     {
      "id": "ca-doro",
@@ -163,7 +183,15 @@
      "byte": 516716,
      "secondi": 86,
      "sha256": "4aaa594a231ca666d2575a242a09efeedfde9e4e99182535b56e28d9eb76fd88",
-     "testo": "2efc5b86f82ce592"
+     "testo": "2efc5b86f82ce592",
+     "tappe": [
+      "ca-doro",
+      "ca-sagredo",
+      "pescheria",
+      "palazzo-michiel-colonne",
+      "fabbriche-nuove",
+      "ca-da-mosto"
+     ]
     },
     {
      "id": "rialto",
@@ -172,7 +200,13 @@
      "byte": 458684,
      "secondi": 76,
      "sha256": "44df8dd4f2c31212abb0d18a8fa4117c57bf94b28b7d5d069aeb7fdcf5be9347",
-     "testo": "974edd24e75da99d"
+     "testo": "974edd24e75da99d",
+     "tappe": [
+      "fondaco-tedeschi",
+      "palazzo-camerlenghi",
+      "palazzo-dieci-savi",
+      "ponte-rialto"
+     ]
     },
     {
      "id": "municipio",
@@ -181,7 +215,15 @@
      "byte": 493964,
      "secondi": 82,
      "sha256": "d7fc395e332397723efb93dc8a08ba0bfdb6c123ebe90c9030e059ea39346578",
-     "testo": "998db42cc790bd2d"
+     "testo": "998db42cc790bd2d",
+     "tappe": [
+      "palazzo-dolfin-manin",
+      "palazzo-bembo",
+      "ca-loredan",
+      "ca-farsetti",
+      "palazzo-grimani",
+      "palazzo-papadopoli"
+     ]
     },
     {
      "id": "volta",
@@ -190,7 +232,15 @@
      "byte": 498716,
      "secondi": 83,
      "sha256": "d5b740e737cfdc844c9b1e4634d3dd04fa3ba67f02fbe734f775783b7fb02bbc",
-     "testo": "af3e522b29d68387"
+     "testo": "af3e522b29d68387",
+     "tappe": [
+      "palazzo-bernardo",
+      "palazzo-corner-spinelli",
+      "palazzo-barbarigo-terrazza",
+      "palazzo-pisani-moretta",
+      "palazzi-mocenigo",
+      "palazzo-balbi"
+     ]
     },
     {
      "id": "ca-foscari",
@@ -199,7 +249,13 @@
      "byte": 468476,
      "secondi": 78,
      "sha256": "5e2c1a64859915b260b14f475087b354ac42db26858dcc79f5c3bb16f255f21f",
-     "testo": "4da1c3f9541c6188"
+     "testo": "4da1c3f9541c6188",
+     "tappe": [
+      "ca-foscari",
+      "palazzo-giustinian",
+      "ca-rezzonico",
+      "palazzo-grassi"
+     ]
     },
     {
      "id": "accademia",
@@ -208,7 +264,13 @@
      "byte": 424412,
      "secondi": 71,
      "sha256": "56a638215a75ae5d3aaab5dd883f9c3b440253ee300d01160e2dd5dfab8451f6",
-     "testo": "bf035956b1b16755"
+     "testo": "bf035956b1b16755",
+     "tappe": [
+      "palazzo-loredan-ambasciatore",
+      "accademia",
+      "ponte-accademia",
+      "palazzo-cavalli-franchetti"
+     ]
     },
     {
      "id": "guggenheim",
@@ -217,7 +279,14 @@
      "byte": 486764,
      "secondi": 81,
      "sha256": "9da73714b62175458631668c70575b22823258ce7e1b4c6e35b524a31cdd7e0d",
-     "testo": "ebe5d5044476a51b"
+     "testo": "ebe5d5044476a51b",
+     "tappe": [
+      "palazzo-contarini-zaffo",
+      "palazzo-barbaro",
+      "palazzo-barbarigo",
+      "guggenheim",
+      "ca-granda"
+     ]
     },
     {
      "id": "ca-dario",
@@ -226,7 +295,14 @@
      "byte": 468764,
      "secondi": 78,
      "sha256": "e127f540b605ab65e8718ae31a55021a66a576ae9d2b917e859993b56ee2cbff",
-     "testo": "c94dcf4549dd41be"
+     "testo": "c94dcf4549dd41be",
+     "tappe": [
+      "palazzo-dario",
+      "palazzo-salviati",
+      "palazzo-pisani-gritti",
+      "ferro-fini",
+      "palazzo-contarini-fasan"
+     ]
     },
     {
      "id": "san-marco",
@@ -235,7 +311,13 @@
      "byte": 458972,
      "secondi": 76,
      "sha256": "a11f1655a4846f3c380ea8478f16c51dbca6280b657cf53106a9c95932e5aa55",
-     "testo": "6534b36160d56b05"
+     "testo": "6534b36160d56b05",
+     "tappe": [
+      "salute",
+      "punta-dogana",
+      "giardini-reali",
+      "piazza-san-marco"
+     ]
     }
    ]
   },
