@@ -1,5 +1,5 @@
 {
- "versione": "57de808d94e5",
+ "versione": "8b475246f3a8",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -1626,30 +1626,6 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/scuola-del-santo_3.webp",
    "sha256": "b8aa3979c9ef7d380e16dda65bda858958d76a22455751097a4df06ae308b354",
    "byte": 205324
-  },
-  {
-   "path": "assets/luoghi/specola-osservatorio-astronomico.webp",
-   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico.webp",
-   "sha256": "af436e77fd71f9051deefd320567bed2f4b6a2044bf879367f599a729f613189",
-   "byte": 344450
-  },
-  {
-   "path": "assets/luoghi/specola-osservatorio-astronomico_2.webp",
-   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_2.webp",
-   "sha256": "da299cdc039bf7fe531f03887f2270924381a04b0ac6fa399f6f0bd872763c57",
-   "byte": 302020
-  },
-  {
-   "path": "assets/luoghi/specola-osservatorio-astronomico_3.webp",
-   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_3.webp",
-   "sha256": "9965264d91c59a4a93879adf9fb60de8a6e3e3fb74c9f670a9e99db555e548ce",
-   "byte": 167874
-  },
-  {
-   "path": "assets/luoghi/specola-osservatorio-astronomico_4.webp",
-   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/specola-osservatorio-astronomico_4.webp",
-   "sha256": "fc7ea0ba54a5b5ffaaff35e04bdbae9b0ea0a297d27337a71b578711e2eab9ec",
-   "byte": 200220
   },
   {
    "path": "assets/luoghi/statua-del-gattamelata.webp",
@@ -7486,20 +7462,20 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json",
-   "sha256": "e1502543b2ab3e3cc4f66f69e4ee0dfb02474e218ab22b4b6e32895fcf67c602",
-   "byte": 3039
+   "sha256": "4aa7eb541a81994312ca19170499f4d5fd892b6732c3c5257f4e7e9e1992bf88",
+   "byte": 2998
   },
   {
    "path": "dati/itinerari.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/itinerari.json",
-   "sha256": "b032101541d10a67c0092217d01fde18fae9049a2313d33638d11d39dde9d6c3",
-   "byte": 1169
+   "sha256": "7e039ac2c7e5c5a99c24b2736ee9d39cdc663a467589f87f0c1c134652f09021",
+   "byte": 1147
   },
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "1a92592d31edd397d76ff803cddc97d94de17cf163401f09be4a0ea801527962",
-   "byte": 349885
+   "sha256": "debc94487f2baa2019d2487cacf8745970f0dcda932d0e1ecbc339bd6f8e52ad",
+   "byte": 347713
   },
   {
    "path": "dati/mappa.json",
@@ -7573,6 +7549,18 @@
    ],
    "foto_nuove": 8,
    "byte": 2018134
+  },
+  {
+   "versione": "8b475246f3a8",
+   "da": "57de808d94e5",
+   "data": "2026-11-16",
+   "luoghi_tolti": 1,
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "descrizioni"
+   ],
+   "itinerari_aggiornati": 1,
+   "byte": 351858
   }
  ]
 }

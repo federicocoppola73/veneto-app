@@ -3537,65 +3537,6 @@
       }
     },
     {
-      "id": "specola-osservatorio-astronomico",
-      "nome": "Specola – Osservatorio Astronomico",
-      "categoria": "altri",
-      "latitudine": 45.401914,
-      "longitudine": 11.86857,
-      "sestiere": "Centro",
-      "descrizione": {
-        "it": "Osservatorio astronomico dell'Università di Padova, ospitato in un'antica torre. La torre è legata alla lunga tradizione della ricerca astronomica padovana, che ebbe in Galileo uno dei suoi protagonisti. È un bel luogo per chi ama la scienza.",
-        "en": "Astronomical observatory of the University of Padua, housed in an ancient tower. The tower is linked to the long tradition of astronomical research in Padua, which had Galileo among its leading figures. It is a fine place for lovers of science.",
-        "fr": "Observatoire astronomique de l'Université de Padoue, installé dans une ancienne tour. La tour est liée à la longue tradition de recherche astronomique de Padoue, dont Galilée fut l'un des protagonistes. C'est un beau lieu pour les amoureux des sciences.",
-        "de": "Astronomisches Observatorium der Universität Padua, untergebracht in einem alten Turm. Der Turm steht in Verbindung mit der langen Tradition der astronomischen Forschung in Padua, zu deren Protagonisten Galileo gehörte. Ein schöner Ort für Liebhaber der Wissenschaft.",
-        "es": "Observatorio astronómico de la Universidad de Padua, instalado en una antigua torre. La torre está ligada a la larga tradición de investigación astronómica de Padua, en la que Galileo fue uno de los protagonistas. Es un lugar bonito para los amantes de la ciencia."
-      },
-      "immagine": {
-        "autore": "Falk2",
-        "licenza": "CC BY-SA 4.0",
-        "fonte": "https://commons.wikimedia.org/wiki/File:L08_140_Padua,_Tronco_Maestro,_Castelvecchio.jpg"
-      },
-      "galleria": [
-        {
-          "autore": "Falk2",
-          "licenza": "CC BY-SA 4.0",
-          "fonte": "https://commons.wikimedia.org/wiki/File:L08_141_Padua,_Sternwarte.jpg"
-        },
-        {
-          "autore": "Falk2",
-          "licenza": "CC BY-SA 4.0",
-          "fonte": "https://commons.wikimedia.org/wiki/File:L08_142_Padua,_Sternwarte.jpg"
-        },
-        {
-          "autore": "Luukas",
-          "licenza": "Public domain",
-          "fonte": "https://commons.wikimedia.org/wiki/File:La_Specola,_Padova_(Italy).JPG"
-        }
-      ],
-      "orari": [
-        {
-          "giorni": "sab-dom",
-          "ore": "16:00–17:00 (solo visita guidata)",
-          "periodo": "10-01/04-30"
-        },
-        {
-          "giorni": "sab-dom",
-          "ore": "18:00–19:00 (solo visita guidata)",
-          "periodo": "05-01/09-30"
-        }
-      ],
-      "biglietto": {
-        "intero": 10
-      },
-      "nota": {
-        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
-        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
-        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
-        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
-        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
-    },
-    {
       "id": "statua-del-gattamelata",
       "nome": "Statua del Gattamelata",
       "categoria": "altri",
@@ -4085,11 +4026,11 @@
       "latitudine": 45.401834,
       "longitudine": 11.868364,
       "descrizione": {
-        "it": "La Specola è l'osservatorio astronomico di Padova, ricavato dalla torre del Castello Carrarese. La torre nasce come struttura di difesa, forse nel IX secolo; nel Trecento i Carraresi la ricostruirono all'interno di un nuovo castello. La trasformazione in osservatorio fu commissionata nel 1761, iniziò nel 1767 e fu completata nel 1777. Oggi ospita un museo di storia dell'astronomia, gestito insieme all'INAF, l'Istituto nazionale di astrofisica.",
-        "en": "La Specola is Padua's astronomical observatory, housed in the tower of the Carrara Castle. The tower was built as a defensive structure, possibly in the 9th century; in the 14th century the Carraresi rebuilt it within a new castle. Its conversion into an observatory was commissioned in 1761, began in 1767 and was completed in 1777. Today it houses a museum of the history of astronomy, run with INAF, the Italian National Institute for Astrophysics.",
-        "fr": "La Specola est l'observatoire astronomique de Padoue, installé dans la tour du château des Carrare. La tour fut d'abord une structure défensive, peut-être dès le IXe siècle ; au XIVe siècle, les Carrare la reconstruisirent à l'intérieur d'un nouveau château. Sa transformation en observatoire fut commandée en 1761, commencée en 1767 et achevée en 1777. Aujourd'hui, elle abrite un musée de l'histoire de l'astronomie, géré avec l'INAF, l'Institut national italien d'astrophysique.",
-        "de": "Die Specola ist die Sternwarte von Padua, untergebracht im Turm der Carrara-Burg. Der Turm entstand zunächst als Verteidigungsbau, vielleicht im 9. Jahrhundert; im 14. Jahrhundert ließen ihn die Carraresi innerhalb einer neuen Burg wieder errichten. Die Umwandlung zur Sternwarte wurde 1761 in Auftrag gegeben, 1767 begonnen und 1777 abgeschlossen. Heute beherbergt sie ein Museum zur Geschichte der Astronomie, betrieben zusammen mit dem INAF, dem italienischen Nationalen Institut für Astrophysik.",
-        "es": "La Specola es el observatorio astronómico de Padua, instalado en la torre del Castillo Carrarese. La torre nació como estructura defensiva, quizá en el siglo IX; en el siglo XIV los Carrara la reconstruyeron dentro de un nuevo castillo. Su conversión en observatorio se encargó en 1761, comenzó en 1767 y se completó en 1777. Hoy alberga un museo de la historia de la astronomía, gestionado junto con el INAF, el Instituto Nacional italiano de Astrofísica."
+        "it": "La Specola è uno dei simboli della tradizione scientifica di Padova. Sorge in una torre medievale appartenuta all'antico sistema difensivo del Castello cittadino, trasformata nel Settecento in osservatorio astronomico dell'Università.\n\nInaugurato nel 1777, l'osservatorio divenne un importante centro di studio del cielo e di osservazione delle stelle e dei pianeti. Oggi ospita il Museo La Specola, dove sono conservati strumenti astronomici storici e testimonianze dell'attività scientifica svolta nei suoi ambienti.\n\nLa sua caratteristica torre in mattoni rossi, affacciata sul Bacchiglione, racconta il passaggio da una funzione militare a una delle più importanti esperienze scientifiche della Padova del passato.",
+        "en": "La Specola is one of the symbols of Padua's scientific tradition. It stands in a medieval tower that was part of the ancient defensive system of the city's Castle, transformed in the eighteenth century into the University's astronomical observatory.\n\nInaugurated in 1777, the observatory became an important center for the study of the sky and the observation of stars and planets. Today it houses the La Specola Museum, where historic astronomical instruments and evidence of the scientific work carried out within its walls are preserved.\n\nIts distinctive red-brick tower, overlooking the Bacchiglione, tells of the passage from a military function to one of the most important scientific endeavors of Padua's past.",
+        "fr": "La Specola est l'un des symboles de la tradition scientifique de Padoue. Elle se dresse dans une tour médiévale qui faisait partie de l'ancien système défensif du château de la ville, transformée au XVIIIe siècle en observatoire astronomique de l'Université.\n\nInauguré en 1777, l'observatoire devint un important centre d'étude du ciel et d'observation des étoiles et des planètes. Aujourd'hui, il abrite le Musée La Specola, où sont conservés des instruments astronomiques historiques et des témoignages de l'activité scientifique menée dans ses murs.\n\nSa tour caractéristique en briques rouges, qui donne sur le Bacchiglione, raconte le passage d'une fonction militaire à l'une des plus importantes expériences scientifiques de la Padoue d'autrefois.",
+        "de": "Die Specola ist eines der Symbole der wissenschaftlichen Tradition Paduas. Sie steht in einem mittelalterlichen Turm, der zum alten Verteidigungssystem der Stadtburg gehörte und im 18. Jahrhundert zur astronomischen Sternwarte der Universität umgebaut wurde.\n\nDie 1777 eingeweihte Sternwarte wurde zu einem bedeutenden Zentrum für die Erforschung des Himmels und die Beobachtung von Sternen und Planeten. Heute beherbergt sie das Museum La Specola, in dem historische astronomische Instrumente und Zeugnisse der in ihren Räumen geleisteten wissenschaftlichen Arbeit aufbewahrt werden.\n\nIhr charakteristischer Turm aus roten Backsteinen am Bacchiglione erzählt vom Übergang von einer militärischen Funktion zu einer der bedeutendsten wissenschaftlichen Unternehmungen des Padua der Vergangenheit.",
+        "es": "La Specola es uno de los símbolos de la tradición científica de Padua. Se alza en una torre medieval que formaba parte del antiguo sistema defensivo del Castillo de la ciudad, transformada en el siglo XVIII en el observatorio astronómico de la Universidad.\n\nInaugurado en 1777, el observatorio se convirtió en un importante centro de estudio del cielo y de observación de las estrellas y los planetas. Hoy alberga el Museo La Specola, donde se conservan instrumentos astronómicos históricos y testimonios de la actividad científica realizada en sus salas.\n\nSu característica torre de ladrillo rojo, asomada al Bacchiglione, cuenta el paso de una función militar a una de las más importantes experiencias científicas de la Padua del pasado."
       },
       "immagine": {
         "autore": "Jiří Dobrý",
