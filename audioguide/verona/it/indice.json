@@ -1,5 +1,5 @@
 {
- "versione": "9940d4380029",
+ "versione": "3796dba5a51e",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
@@ -116,6 +116,21 @@
      "secondi": 252,
      "sha256": "0fe073808374e1925a741a3052b185081d66ba31eed0e2b4a4d65e3003a05a25",
      "testo": "f551c1c73f0c4ee1"
+    }
+   ]
+  },
+  "castel-san-pietro": {
+   "byte": 1107260,
+   "secondi": 185,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "castel-san-pietro.mp3",
+     "byte": 1107260,
+     "secondi": 185,
+     "sha256": "feb240766a18c55020b63151fc5021d217ea0b1d78f810248c8c98e8872548dc",
+     "testo": "e39789e2c64dfbe3"
     }
    ]
   },
@@ -290,6 +305,51 @@
     }
    ]
   },
+  "san-giorgio-in-braida": {
+   "byte": 1295324,
+   "secondi": 216,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-giorgio-in-braida.mp3",
+     "byte": 1295324,
+     "secondi": 216,
+     "sha256": "87c37cc965aab4751ca233255304c9c69ddf589193ebfefc4ee094674a2516b7",
+     "testo": "7a5e66ab0c232049"
+    }
+   ]
+  },
+  "san-lorenzo": {
+   "byte": 1140524,
+   "secondi": 190,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-lorenzo.mp3",
+     "byte": 1140524,
+     "secondi": 190,
+     "sha256": "6db64b419988f7a263031b6d40e0cad31580041ed5de1ffec3d00e28a8eb9165",
+     "testo": "f0afa6bbfad5989c"
+    }
+   ]
+  },
+  "santa-maria-in-organo": {
+   "byte": 1368476,
+   "secondi": 228,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "santa-maria-in-organo.mp3",
+     "byte": 1368476,
+     "secondi": 228,
+     "sha256": "c4f615a9e8eacf7a67538d29f3dc363a27acd5a3c76e1451101626895011703d",
+     "testo": "a24358c677bd48c0"
+    }
+   ]
+  },
   "teatro-romano": {
    "byte": 2238424,
    "secondi": 373,
@@ -311,6 +371,21 @@
      "secondi": 178,
      "sha256": "8930cb1737792f9468221db44ff4fbf02e40005ee4cdd924f789f78318bd1a0f",
      "testo": "45a7685795e35481"
+    }
+   ]
+  },
+  "torre-dei-lamberti": {
+   "byte": 1311884,
+   "secondi": 219,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "torre-dei-lamberti.mp3",
+     "byte": 1311884,
+     "secondi": 219,
+     "sha256": "5f3273272278440fdab193c94418989145ee325759d396d18bcac07c875f78fd",
+     "testo": "9f71b32dcf935bc3"
     }
    ]
   }
