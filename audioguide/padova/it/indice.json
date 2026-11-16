@@ -1,5 +1,5 @@
 {
- "versione": "a4f8c04ec938",
+ "versione": "1da6d304ce6c",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-di-sant-antonio": {
@@ -125,6 +125,21 @@
     }
    ]
   },
+  "ghetto-ebraico": {
+   "byte": 1364876,
+   "secondi": 227,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ghetto-ebraico.mp3",
+     "byte": 1364876,
+     "secondi": 227,
+     "sha256": "9845255ef8b1566558c90c99b8faeda8aba65037d420b1cdfa0ceab09367f0a9",
+     "testo": "5123a0b02926903e"
+    }
+   ]
+  },
   "musei-civici-agli-eremitani": {
    "byte": 1210652,
    "secondi": 202,
@@ -137,6 +152,51 @@
      "secondi": 202,
      "sha256": "e56a0f91ce11d8e68aac675b792e865b074dbed8c923832cf24e8cdf198cc3b4",
      "testo": "58c23e9aa44f1874"
+    }
+   ]
+  },
+  "museo-della-natura-e-dell-uomo": {
+   "byte": 1408940,
+   "secondi": 235,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "museo-della-natura-e-dell-uomo.mp3",
+     "byte": 1408940,
+     "secondi": 235,
+     "sha256": "1280180fe21baa85d945d926d287b71e6557c9607651f8bb5333c7ad4074e380",
+     "testo": "bc058dd2ed3b9ab6"
+    }
+   ]
+  },
+  "musme-museo-di-storia-della-medicina": {
+   "byte": 1384028,
+   "secondi": 231,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "musme-museo-di-storia-della-medicina.mp3",
+     "byte": 1384028,
+     "secondi": 231,
+     "sha256": "abd5da887e8f271e6da35a8d27966271e1a0635c975d96ef805f626b1265bf94",
+     "testo": "14b64fc276d81630"
+    }
+   ]
+  },
+  "oratorio-di-san-giorgio": {
+   "byte": 1376828,
+   "secondi": 229,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "oratorio-di-san-giorgio.mp3",
+     "byte": 1376828,
+     "secondi": 229,
+     "sha256": "a8a9d47ec25ad18524e4b76c52c1ad9bcf75e7f92ed484af3858423dad84e1c7",
+     "testo": "d58f5c135b0caefb"
     }
    ]
   },
@@ -242,6 +302,36 @@
      "secondi": 258,
      "sha256": "c19b48f57cb1b559d2ad84cb677dba6d23b18bde9293af7c9df5c92bc91ba838",
      "testo": "df2656a1573fa1a8"
+    }
+   ]
+  },
+  "scuola-del-santo": {
+   "byte": 1345292,
+   "secondi": 224,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "scuola-del-santo.mp3",
+     "byte": 1345292,
+     "secondi": 224,
+     "sha256": "0f28b27c6ce9e5e32906ad1ebce0bd45d09fb05bb706d119f517e0f265d9d242",
+     "testo": "becd4e48cfa8168d"
+    }
+   ]
+  },
+  "tomba-di-antenore": {
+   "byte": 758060,
+   "secondi": 126,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "tomba-di-antenore.mp3",
+     "byte": 758060,
+     "secondi": 126,
+     "sha256": "a6f0726b3936400e0dbd6c26de5e9b6372ec4f6ba22791cdc82531ec510b6a06",
+     "testo": "f1aedd5fe408dc06"
     }
    ]
   },
