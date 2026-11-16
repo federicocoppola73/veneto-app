@@ -30,6 +30,18 @@ const cartellaDi = (chiave) => RADICE + chiave + '/';
 // (l'indice delle prime audioguide aveva una sola traccia, con "file" direttamente nel luogo)
 export const tracceDi = (v) => (v ? v.tracce || (v.file ? [{ id: null, titolo: null, file: v.file, byte: v.byte, secondi: v.secondi }] : []) : []);
 
+// Audioguida "di percorso" di un itinerario: un luogo le cui tracce hanno le "tappe" dell'itinerario
+// (es. i tratti del Canal Grande). Restituisce l'id del luogo, oppure null.
+export function audioguidaDelPercorso(indice, itinerario) {
+  if (!indice?.luoghi || !itinerario?.tappe) return null;
+  const tappe = new Set(itinerario.tappe);
+  for (const [id, v] of Object.entries(indice.luoghi)) {
+    const tracce = tracceDi(v);
+    if (tracce.length && tracce.every((tr) => tr.tappe?.length && tr.tappe.every((x) => tappe.has(x)))) return id;
+  }
+  return null;
+}
+
 // Audioguide già sul telefono: file presente con la dimensione dell'indice (un MP3 rigenerato va riscaricato)
 async function leggiPresenti(chiave, indice) {
   const presenti = new Set();
@@ -74,11 +86,17 @@ export async function caricaAudioguide(lingua) {
   }
 }
 
-// Tracce del luogo sul telefono, pronte da ascoltare: [{ id, titolo, uri, secondi }], oppure null se non è scaricato
+// Tracce del luogo sul telefono, pronte da ascoltare: [{ id, titolo, uri, secondi, tappe }], oppure null se non è scaricato
 export function audioDelLuogo(id) {
   const v = stato.indice?.luoghi?.[id];
   if (!v || !stato.presenti.has(id)) return null;
-  return tracceDi(v).map((tr) => ({ id: tr.id, titolo: tr.titolo, uri: cartellaDi(stato.chiave) + tr.file, secondi: tr.secondi }));
+  return tracceDi(v).map((tr) => ({
+    id: tr.id,
+    titolo: tr.titolo,
+    uri: cartellaDi(stato.chiave) + tr.file,
+    secondi: tr.secondi,
+    tappe: tr.tappe || null,
+  }));
 }
 
 // Scarica le audioguide dei luoghi indicati; restituisce quante non è riuscito a scaricare

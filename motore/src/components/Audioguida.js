@@ -5,16 +5,20 @@
 //   in due modi: "Scarica" (quelle da scaricare) e "Cancella" (quelle sul telefono, tutte o una selezione).
 // - GestioneAudioguide: riquadro in Info con quante sono scaricate, "Scarica le altre", elenco e "Cancella tutte".
 // - IconaCuffie: cuffie piene (scaricata) o a contorno (da scaricare), usata anche nella ricerca.
+// - AudioItinerario: nella guida passo passo di un itinerario con un'audioguida "di percorso" (Canal Grande):
+//   il tratto della tappa in arrivo, con il modo "Automatica" che lo fa partire da solo con il GPS.
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
 import { setAudioModeAsync, useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { nomeCitta } from '../citta';
 import { datiProxy } from '../dati';
 import {
   audioDelLuogo,
+  audioguidaDelPercorso,
   cancellaAudioguide,
   scaricaAudioguide,
   testoDurata,
@@ -117,10 +121,23 @@ export function RigaAudioguida({ luogo, lingua, t }) {
 
 // Più tracce (es. Esterno / Interno): linguette sopra il lettore.
 // Niente partenze automatiche: scegliere una linguetta prepara la traccia, l'ascolto lo avvia sempre l'utente con play.
+// Unica eccezione, le audioguide di percorso (tracce con "tappe", es. i tratti del Canal Grande): finito un tratto
+// che l'utente stava ascoltando, parte il successivo, come un racconto unico.
 function LettoreTracce({ tracce, t }) {
   const [indice, setIndice] = useState(0);
-  const traccia = tracce[Math.min(indice, tracce.length - 1)];
-  const scegli = (i) => setIndice(i);
+  const [avvia, setAvvia] = useState(false);
+  const i = Math.min(indice, tracce.length - 1);
+  const traccia = tracce[i];
+  const scegli = (n) => {
+    setAvvia(false);
+    setIndice(n);
+  };
+  const fine = traccia.tappe && i + 1 < tracce.length
+    ? () => {
+        setAvvia(true);
+        setIndice(i + 1);
+      }
+    : undefined;
   return (
     <>
       {tracce.length > 1 && (
@@ -150,13 +167,17 @@ function LettoreTracce({ tracce, t }) {
         secondi={traccia.secondi}
         titolo={tracce.length > 1 && traccia.titolo ? traccia.titolo : t('aud_titolo')}
         compatto={tracce.length > 1}
+        avvia={avvia}
+        onFine={fine}
         t={t}
       />
     </>
   );
 }
 
-function Lettore({ uri, secondi, titolo, compatto, t }) {
+// avvia: parte appena montato (tratto successivo di un percorso); onFine: chiamata a fine traccia;
+// onSuona(true/false): avvisa quando l'audio parte o si ferma
+function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, stile }) {
   const player = useAudioPlayer({ uri });
   const s = useAudioPlayerStatus(player);
   const durata = s.duration || secondi || 0;
@@ -170,12 +191,28 @@ function Lettore({ uri, secondi, titolo, compatto, t }) {
   const posizione = trascina != null ? trascina * durata : Math.min(s.currentTime || 0, durata);
   const quota = durata ? posizione / durata : 0;
   // finito: si torna all'inizio, pronto per ascoltarlo di nuovo
+  const fineRef = useRef(onFine);
+  fineRef.current = onFine;
   useEffect(() => {
     if (s.didJustFinish) {
       player.pause();
       player.seekTo(0).catch(() => {});
+      fineRef.current?.();
     }
   }, [s.didJustFinish, player]);
+  useEffect(() => {
+    if (avvia) {
+      impostaModoAudio();
+      player.play();
+    }
+    // solo al primo montaggio: il lettore si rimonta a ogni traccia (key = uri)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const suonaRef = useRef(onSuona);
+  suonaRef.current = onSuona;
+  useEffect(() => {
+    suonaRef.current?.(!!s.playing);
+  }, [s.playing]);
 
   const suona = () => {
     impostaModoAudio();
@@ -188,7 +225,7 @@ function Lettore({ uri, secondi, titolo, compatto, t }) {
   };
 
   return (
-    <View style={[styles.riga, { paddingLeft: 8 }, compatto && { marginTop: 6 }]} testID="audioguida-lettore">
+    <View style={[styles.riga, { paddingLeft: 8 }, compatto && { marginTop: 6 }, stile]} testID="audioguida-lettore">
       <Pressable
         onPress={suona}
         style={({ pressed }) => [styles.play, pressed && { opacity: 0.85 }]}
@@ -248,6 +285,164 @@ function Lettore({ uri, secondi, titolo, compatto, t }) {
           <Rect x={4} y={4} width={16} height={16} rx={2} fill={VIOLA_SCURO} />
         </Svg>
       </Pressable>
+    </View>
+  );
+}
+
+// ---- Audioguida di percorso nella guida passo passo dell'itinerario ----
+// props: itinerario, prossima { id, metri } | null (itinerario finito), lingua, t
+export function AudioItinerario({ itinerario, prossima, lingua, t }) {
+  const { indice, presenti, progresso } = useAudioguide();
+  const id = audioguidaDelPercorso(indice, itinerario);
+  if (!id) return null;
+  const info = indice.luoghi[id];
+  const tracce = presenti.has(id) ? audioDelLuogo(id) : null;
+  if (!tracce?.length) {
+    return (
+      <View style={[styles.riga, styles.rigaPercorso]} testID="audio-percorso-da-scaricare">
+        <IconaCuffie misura={18} colore="#6d28d9" />
+        <View style={{ flex: 1, minWidth: 0 }}>
+          <Text style={styles.titoloRiga} numberOfLines={1}>{t('aud_percorso')}</Text>
+          <Text style={styles.grigio} numberOfLines={1}>
+            {t('aud_tratti').replace('{n}', String(tracceDi(info).length))} · {testoDurata(info.secondi)}
+          </Text>
+        </View>
+        <Pressable
+          onPress={() => scaricaAudioguide([id])}
+          disabled={!!progresso}
+          style={({ pressed }) => [styles.scarica, { minHeight: 36 }, (pressed || progresso) && { opacity: 0.7 }]}
+          accessibilityRole="button"
+          accessibilityLabel={`${t('aud_scarica')} (${testoMB(info.byte, lingua)})`}
+        >
+          {progresso ? <ActivityIndicator color="#fff" size="small" /> : <IconaScarica />}
+          <Text style={styles.testoScarica}>{testoMB(info.byte, lingua)}</Text>
+        </Pressable>
+      </View>
+    );
+  }
+  return <PercorsoAudio key={id} tracce={tracce} prossima={prossima} t={t} />;
+}
+
+const VICINO_M = 250; // il tratto parte quando la sua prima tappa è a meno di 250 m (o è già stata superata)
+
+function PercorsoAudio({ tracce, prossima, t }) {
+  // tratto della tappa in arrivo (a itinerario finito: l'ultimo)
+  const trattoDi = (idTappa) => tracce.findIndex((tr) => tr.tappe?.includes(idTappa));
+  const k = prossima ? trattoDi(prossima.id) : tracce.length - 1;
+  const vicino = !!prossima && k >= 0 && (prossima.id !== tracce[k].tappe[0] || (prossima.metri != null && prossima.metri < VICINO_M));
+
+  const [corrente, setCorrente] = useState(k >= 0 ? k : 0);
+  const [avvia, setAvvia] = useState(false);
+  const [auto, setAuto] = useState(false);
+  const [suona, setSuona] = useState(false);
+  const suonati = useRef(new Set());
+
+  const parti = (n) => {
+    suonati.current.add(n);
+    setAvvia(true);
+    setCorrente(n);
+  };
+
+  // il riquadro segue il tratto in arrivo; in automatico, arrivati vicino, il tratto parte da solo.
+  // Se un altro tratto sta suonando non lo interrompe: il nuovo parte quando quello finisce (vedi fine).
+  useEffect(() => {
+    if (k < 0 || suona) return;
+    if (auto && vicino && !suonati.current.has(k)) parti(k);
+    else if (k !== corrente && !avvia) setCorrente(k);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [k, vicino, auto]);
+
+  const fine = () => {
+    if (auto && k >= 0 && vicino && !suonati.current.has(k)) parti(k);
+    else setAvvia(false);
+  };
+
+  // in automatico lo schermo resta acceso finché la guida è aperta
+  useEffect(() => {
+    if (!auto) return undefined;
+    Promise.resolve(activateKeepAwakeAsync('audio-itinerario')).catch(() => {});
+    return () => {
+      Promise.resolve(deactivateKeepAwake('audio-itinerario')).catch(() => {});
+    };
+  }, [auto]);
+
+  const cambiaAuto = () => {
+    if (auto) {
+      setAuto(false);
+      return;
+    }
+    Alert.alert(t('aud_autoTitolo'), t('aud_autoTesto'), [
+      { text: t('ls_annulla'), style: 'cancel' },
+      {
+        text: t('aud_attiva'),
+        onPress: () => {
+          // i tratti già alle spalle non ripartono; quello in arrivo sì
+          tracce.forEach((tr, i) => {
+            if (i < k) suonati.current.add(i);
+          });
+          setAuto(true);
+        },
+      },
+    ]);
+  };
+
+  const vai = (passo) => {
+    const n = Math.max(0, Math.min(tracce.length - 1, corrente + passo));
+    if (n === corrente) return;
+    setAvvia(false);
+    setCorrente(n);
+  };
+
+  const traccia = tracce[corrente];
+  const inAttesa = auto && suona && vicino && k >= 0 && k !== corrente && !suonati.current.has(k) ? tracce[k] : null;
+
+  return (
+    <View style={styles.percorso} testID="audio-percorso">
+      <View style={styles.testaPercorso}>
+        <IconaCuffie misura={14} colore="#6d28d9" piena />
+        <Text style={styles.contoPercorso}>
+          {corrente + 1}/{tracce.length}
+        </Text>
+        <Pressable onPress={() => vai(-1)} hitSlop={8} disabled={corrente === 0} accessibilityRole="button" accessibilityLabel={t('aud_precedente')}>
+          <Text style={[styles.frecciaPercorso, corrente === 0 && { opacity: 0.3 }]}>‹</Text>
+        </Pressable>
+        <Pressable
+          onPress={() => vai(1)}
+          hitSlop={8}
+          disabled={corrente === tracce.length - 1}
+          accessibilityRole="button"
+          accessibilityLabel={t('aud_successivo')}
+        >
+          <Text style={[styles.frecciaPercorso, corrente === tracce.length - 1 && { opacity: 0.3 }]}>›</Text>
+        </Pressable>
+        <Pressable
+          onPress={cambiaAuto}
+          style={[styles.auto, auto && styles.autoAttivo]}
+          accessibilityRole="switch"
+          accessibilityState={{ checked: auto }}
+          hitSlop={6}
+        >
+          <View style={[styles.levetta, auto && styles.levettaAttiva]} />
+          <Text style={[styles.testoAuto, auto && { color: '#fff' }]}>{t('aud_auto')}</Text>
+        </Pressable>
+      </View>
+      <Lettore
+        key={traccia.uri}
+        uri={traccia.uri}
+        secondi={traccia.secondi}
+        titolo={traccia.titolo || t('aud_titolo')}
+        compatto
+        avvia={avvia}
+        onFine={fine}
+        onSuona={setSuona}
+        stile={{ marginTop: 4, paddingVertical: 6 }}
+        t={t}
+      />
+      {inAttesa ? (
+        <Text style={styles.attesa} numberOfLines={1}>
+          {t('aud_prossimoTratto').replace('{titolo}', inAttesa.titolo || '')}
+        </Text>
+      ) : null}
     </View>
   );
 }
@@ -644,4 +839,27 @@ const styles = StyleSheet.create({
   pulsanteRosso: { borderColor: '#fca5a5' },
   testoPulsanteChiaro: { fontSize: 13.5, fontWeight: '700', color: VIOLA_SCURO, textAlign: 'center' },
   notaGestione: { fontSize: 12, color: '#6b7280', marginTop: 10, lineHeight: 17 },
+
+  rigaPercorso: { marginTop: 8, paddingVertical: 6 },
+  percorso: { marginTop: 8 },
+  testaPercorso: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  contoPercorso: { fontSize: 12, fontWeight: '800', color: VIOLA_SCURO },
+  frecciaPercorso: { fontSize: 22, lineHeight: 24, fontWeight: '700', color: VIOLA_SCURO, paddingHorizontal: 4 },
+  auto: {
+    marginLeft: 'auto',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    minHeight: 30,
+    paddingHorizontal: 10,
+    borderRadius: 999,
+    borderWidth: 1.5,
+    borderColor: BORDO_VIOLA,
+    backgroundColor: '#fff',
+  },
+  autoAttivo: { backgroundColor: VIOLA, borderColor: VIOLA },
+  levetta: { width: 10, height: 10, borderRadius: 5, borderWidth: 2, borderColor: VIOLA },
+  levettaAttiva: { backgroundColor: '#fff', borderColor: '#fff' },
+  testoAuto: { fontSize: 12.5, fontWeight: '800', color: VIOLA_SCURO },
+  attesa: { marginTop: 4, marginLeft: 4, fontSize: 12, color: '#6b7280' },
 });

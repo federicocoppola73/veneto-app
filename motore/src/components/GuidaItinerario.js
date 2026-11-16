@@ -5,6 +5,7 @@ import { formattaDistanza } from '../distanza';
 import { testoLocalizzato } from '../i18n';
 import { iconaItinerario, passoItinerario } from '../itinerari';
 import { formattaOra, oraVenezia, statoApertura, testoAperturaBreve, coloreApertura } from '../orari';
+import { AudioItinerario } from './Audioguida';
 
 /**
  * Guida passo passo dell'itinerario (riquadro in basso sulla mappa).
@@ -141,6 +142,8 @@ export default function GuidaItinerario({
         </Pressable>
       </View>
       {contenuto}
+      {/* audioguida di percorso (es. Canal Grande): resta montata per tutta la guida, anche a itinerario finito */}
+      <AudioItinerario itinerario={itinerario} prossima={prossima} lingua={lingua} t={t} />
     </View>
   );
 }

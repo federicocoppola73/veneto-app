@@ -17,6 +17,8 @@ Pause: "pausa": "breve" | "media" | "lunga" | "nessuna" (nel luogo o nella singo
         e il silenzio si inserisce qui, poi ffmpeg crea l'MP3: i tag di pausa delle voci Chirp3-HD
         facevano "deragliare" la voce (parole in altre lingue, suoni senza senso).
         Se manca vale "pausa_predefinita" di audioguide_voci.json.
+Tappe: una traccia può avere "tappe": [id dei luoghi di un itinerario] (es. i tratti del Canal Grande):
+        vanno nell'indice e l'app, durante la guida dell'itinerario, fa partire la traccia quando si arriva lì.
 Bozze: un luogo può avere "bozza": { …stessa forma di un luogo… }: la bozza si usa solo in anteprima,
         mentre la pubblicazione normale continua a usare il testo attuale.
 Anteprima: con ANTEPRIMA="id1,id2" genera solo quei luoghi in anteprima/<lingua>/ (sempre, senza indice),
@@ -209,7 +211,7 @@ def main():
             if 'tracce' in voce_testi:
                 elenco = [
                     {'id': tr['id'], 'titolo': (tr.get('titolo') or {}).get(lingua), 'testo': (tr.get('testo') or {}).get(lingua),
-                     'pausa': pausa_di(tr.get('pausa', voce_testi.get('pausa')))}
+                     'pausa': pausa_di(tr.get('pausa', voce_testi.get('pausa'))), 'tappe': tr.get('tappe')}
                     for tr in voce_testi['tracce']
                 ]
                 multiple = True
@@ -245,6 +247,10 @@ def main():
                 prima = gia.get(file)
                 if prima and prima.get('testo') == impronta and os.path.exists(percorso):
                     tracce.append({**prima, 'id': tr['id'], 'titolo': tr['titolo'], 'file': file})
+                    if tr['tappe']:
+                        tracce[-1]['tappe'] = tr['tappe']
+                    else:
+                        tracce[-1].pop('tappe', None)
                     continue
                 audio = sintetizza(testo, voce, CODICI[lingua], chiave, tr['pausa'])
                 caratteri += len(testo)
@@ -258,6 +264,7 @@ def main():
                     'secondi': durata(percorso, len(audio)),
                     'sha256': hashlib.sha256(audio).hexdigest(),
                     'testo': impronta,
+                    **({'tappe': tr['tappe']} if tr['tappe'] else {}),
                 })
                 print(f'{citta}/{lingua}/{file}: {tracce[-1]["secondi"]} s')
             if anteprima:
