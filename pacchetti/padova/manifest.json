@@ -1,5 +1,5 @@
 {
- "versione": "9d9b9cf18bc3",
+ "versione": "14568949cd2e",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -534,6 +534,18 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/duomo-di-padova_4.webp",
    "sha256": "94c007b208dbf164ae4164e740620debb42c64cfb86f9c22eafd4ecca06e7bcb",
    "byte": 255064
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico.webp",
+   "sha256": "c0772a33956088c53dc2c5358a6f609ebc9865f579ae163cab6381a38ee8eda9",
+   "byte": 207582
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_2.webp",
+   "sha256": "075a51e258fe3ab622a6dd8fcfe8f42a805768d0d62b28989d1a1b486bf21126",
+   "byte": 221730
   },
   {
    "path": "assets/luoghi/giardini-dell-arena.webp",
@@ -7438,8 +7450,8 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json",
-   "sha256": "4a0904c463821d65b5a243e3318156505dbec0c2dac30c1969f1a925b6c2ddf3",
-   "byte": 2984
+   "sha256": "ee3126c017da42c97513bf9b4ed4fb3956be5c495a7d19db03cdee2053883a6e",
+   "byte": 3007
   },
   {
    "path": "dati/itinerari.json",
@@ -7450,8 +7462,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "8535a0b7fc20d57e5e94b36b8d2c0159439db976fa54343eae72b2460b6b6d5d",
-   "byte": 326919
+   "sha256": "28201cd14447be89f680b57db0c4b7b1ea69aa26709759429140b77a5a0c927c",
+   "byte": 349338
   },
   {
    "path": "dati/mappa.json",
@@ -7514,5 +7526,17 @@
    "byte": 1097866
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "14568949cd2e",
+   "da": "9d9b9cf18bc3",
+   "data": "2026-11-16",
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "foto"
+   ],
+   "foto_nuove": 2,
+   "byte": 781657
+  }
+ ]
 }
