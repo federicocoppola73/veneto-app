@@ -1,5 +1,5 @@
 {
- "versione": "dfdc097d8ac2",
+ "versione": "ec258b943900",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -77,6 +77,30 @@
      "secondi": 245,
      "sha256": "dd2994334b67c1e2c9852796ff724f3dea05630edeb48b0003b797b0030c3c7b",
      "testo": "29af1b6373f0c7e7"
+    }
+   ]
+  },
+  "ca-pesaro": {
+   "byte": 2036248,
+   "secondi": 339,
+   "tracce": [
+    {
+     "id": "arte-moderna",
+     "titolo": "Moderne Kunst",
+     "file": "ca-pesaro__arte-moderna.mp3",
+     "byte": 1136924,
+     "secondi": 189,
+     "sha256": "8b416d488b531ebf7a6b37a32ca2172825606a33ee090c7195556593aa0f51cc",
+     "testo": "07735188a3a2d961"
+    },
+    {
+     "id": "arte-orientale",
+     "titolo": "Orientalische Kunst",
+     "file": "ca-pesaro__arte-orientale.mp3",
+     "byte": 899324,
+     "secondi": 150,
+     "sha256": "dabb21ca84c50381cd44b9a0cb8f63d9a45d9c38ae0605ca8f45e836286d8265",
+     "testo": "1641142c26bde68d"
     }
    ]
   },
@@ -435,6 +459,21 @@
     }
    ]
   },
+  "museo-correr": {
+   "byte": 1806668,
+   "secondi": 301,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "museo-correr.mp3",
+     "byte": 1806668,
+     "secondi": 301,
+     "sha256": "6eeb81b38762ee7ff04433b81953c6e326dd557c984d7953439ab9839f6a33ca",
+     "testo": "1490c283449a85b5"
+    }
+   ]
+  },
   "palazzo-ducale": {
    "byte": 4908616,
    "secondi": 818,
@@ -456,6 +495,21 @@
      "secondi": 456,
      "sha256": "5c3166922391785bf579d19f46aca6a6d853d188c1fc07d0a71221afba3be5a0",
      "testo": "17565ce5181a80d3"
+    }
+   ]
+  },
+  "palazzo-mocenigo": {
+   "byte": 1159820,
+   "secondi": 193,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-mocenigo.mp3",
+     "byte": 1159820,
+     "secondi": 193,
+     "sha256": "b4f1b816019598c105faabf5a7d5b431d52582cb5690fbd2e625ba998a30ad0b",
+     "testo": "e39717aec1ba0370"
     }
    ]
   },
@@ -501,6 +555,21 @@
      "secondi": 138,
      "sha256": "670ee931b1890725f551d7e2f790659dd4b42ca16f43a7effc39d77926a3589e",
      "testo": "df135b8a76a274b7"
+    }
+   ]
+  },
+  "querini-stampalia": {
+   "byte": 1586492,
+   "secondi": 264,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "querini-stampalia.mp3",
+     "byte": 1586492,
+     "secondi": 264,
+     "sha256": "d1bfbfeeae5df8b603946efee87d54e3dc0d017444360ea3446bca24ff2af9fd",
+     "testo": "4b96dae02225c580"
     }
    ]
   },
@@ -645,6 +714,21 @@
     }
    ]
   },
+  "san-zaccaria": {
+   "byte": 1416284,
+   "secondi": 236,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-zaccaria.mp3",
+     "byte": 1416284,
+     "secondi": 236,
+     "sha256": "3d3b9ac00a58219674ab34116ffa670654e2356cce9e43ff3303b3f02b66ac61",
+     "testo": "3f62d453b3b73770"
+    }
+   ]
+  },
   "santa-caterina-mazzorbo": {
    "byte": 548972,
    "secondi": 91,
@@ -711,6 +795,21 @@
      "secondi": 173,
      "sha256": "ab6ea4e27b7ae5fe8f3110147fa0dc599d1ff70dc4c9c07c67601f8c38f8a32e",
      "testo": "c2dbaea44b5470e6"
+    }
+   ]
+  },
+  "storia-naturale": {
+   "byte": 1176812,
+   "secondi": 196,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-naturale.mp3",
+     "byte": 1176812,
+     "secondi": 196,
+     "sha256": "e455a00d2f686a2d149e8224f4b85d99195bdf5ac763368ef31b1548baa4f276",
+     "testo": "a3ae077b7e5be86b"
     }
    ]
   },
