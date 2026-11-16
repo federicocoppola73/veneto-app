@@ -1,0 +1,159 @@
+{
+ "versione": "24707117b6ed",
+ "voce": "fr-FR-Chirp3-HD-Kore",
+ "luoghi": {
+  "basilica-di-sant-antonio": {
+   "byte": 2047048,
+   "secondi": 342,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Extérieur",
+     "file": "basilica-di-sant-antonio__esterno.mp3",
+     "byte": 1089836,
+     "secondi": 182,
+     "sha256": "fc7cf523a2f0413f87d06dacbff8b80c1dde153a8906f16b7aac6438e488c526",
+     "testo": "48e0a44b45bd9fdb"
+    },
+    {
+     "id": "interno",
+     "titolo": "Intérieur",
+     "file": "basilica-di-sant-antonio__interno.mp3",
+     "byte": 957212,
+     "secondi": 160,
+     "sha256": "af2d337f53a2763d7543248e274d2ad18d47be1a92d2f247b525c9a0de4d0e85",
+     "testo": "e236b6fe8ba69722"
+    }
+   ]
+  },
+  "caffe-pedrocchi": {
+   "byte": 956636,
+   "secondi": 159,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "caffe-pedrocchi.mp3",
+     "byte": 956636,
+     "secondi": 159,
+     "sha256": "b0d8828908aea653e014f9ec503c78741809452ebd729d920157a99adecf8d09",
+     "testo": "9799b08e9fd6e829"
+    }
+   ]
+  },
+  "cappella-degli-scrovegni": {
+   "byte": 2105224,
+   "secondi": 351,
+   "tracce": [
+    {
+     "id": "storia",
+     "titolo": "Histoire",
+     "file": "cappella-degli-scrovegni__storia.mp3",
+     "byte": 1130012,
+     "secondi": 188,
+     "sha256": "262a415ccd99864a8c2afae633548d042a78ba06005ac5ba885f946d2cce0573",
+     "testo": "57b4b870d7b55069"
+    },
+    {
+     "id": "affreschi",
+     "titolo": "Fresques",
+     "file": "cappella-degli-scrovegni__affreschi.mp3",
+     "byte": 975212,
+     "secondi": 163,
+     "sha256": "bcdaa78a19de925422c5e9df7d2d84e611d5eb8d1ea2e97eb432d5e2f1fee455",
+     "testo": "3eb575b05ace0b3e"
+    }
+   ]
+  },
+  "palazzo-del-bo": {
+   "byte": 1288124,
+   "secondi": 215,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-del-bo.mp3",
+     "byte": 1288124,
+     "secondi": 215,
+     "sha256": "d1b7c07f6424eddccd0c67df886f327df16a630bbfce3d431e6896b6dcd48542",
+     "testo": "6ff753cfbefe2a59"
+    }
+   ]
+  },
+  "palazzo-della-ragione": {
+   "byte": 1303820,
+   "secondi": 217,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-della-ragione.mp3",
+     "byte": 1303820,
+     "secondi": 217,
+     "sha256": "126c4f748f48faf32f880e9988eab1b7ccc154445b48d20a80de549f7d93437c",
+     "testo": "196db8943bc60ac9"
+    }
+   ]
+  },
+  "piazza-dei-signori": {
+   "byte": 534572,
+   "secondi": 89,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-signori.mp3",
+     "byte": 534572,
+     "secondi": 89,
+     "sha256": "b13d5f419dde8d0ef8a5cfbb2c1b3ea249cff09622b1cdfd58c76cdb1f77597a",
+     "testo": "11366da9fdb0a3d4"
+    }
+   ]
+  },
+  "piazza-della-frutta": {
+   "byte": 466028,
+   "secondi": 78,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-della-frutta.mp3",
+     "byte": 466028,
+     "secondi": 78,
+     "sha256": "1c6fa43d4a67fb3e98fc864ddb93c98c404b5dcd9ec9485d30e86c426f1af333",
+     "testo": "9ffe40e5235eed0b"
+    }
+   ]
+  },
+  "piazza-delle-erbe": {
+   "byte": 509948,
+   "secondi": 85,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-delle-erbe.mp3",
+     "byte": 509948,
+     "secondi": 85,
+     "sha256": "e22a2505e8b1a1fc2f3d12d4ab45e721a426febaced8e6611d94fd9dbc84294d",
+     "testo": "1d39b663e5e69885"
+    }
+   ]
+  },
+  "torre-dell-orologio": {
+   "byte": 683324,
+   "secondi": 114,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "torre-dell-orologio.mp3",
+     "byte": 683324,
+     "secondi": 114,
+     "sha256": "9423138baa40d356973860f46a66cf82a387b54792ec3aba7409e2c73096726c",
+     "testo": "e565e24fbbe04edd"
+    }
+   ]
+  }
+ }
+}
