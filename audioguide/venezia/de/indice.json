@@ -1,5 +1,5 @@
 {
- "versione": "2d17bc12b9b3",
+ "versione": "e96e9c600770",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -122,6 +122,120 @@
      "secondi": 154,
      "sha256": "417375de311b0d382a758fdb9347f3a5b88ee27e0a62d12d5f2b04808231275c",
      "testo": "9cfcf32be4c151e7"
+    }
+   ]
+  },
+  "canal-grande": {
+   "byte": 6737712,
+   "secondi": 1123,
+   "tracce": [
+    {
+     "id": "stazione",
+     "titolo": "Bahnhof und Scalzi",
+     "file": "canal-grande__stazione.mp3",
+     "byte": 682604,
+     "secondi": 114,
+     "sha256": "a883ad535a3015fec2ecf5ac99b5a71dddd86937f779c4b5f35aaa14f413f55e",
+     "testo": "cd8c539cdb300402"
+    },
+    {
+     "id": "cannaregio",
+     "titolo": "Fondaco dei Turchi und Vendramin",
+     "file": "canal-grande__cannaregio.mp3",
+     "byte": 587996,
+     "secondi": 98,
+     "sha256": "d61486fb6231a7c6903509afe26f9e21e0696b5cfedae852a1faf78bb7e40c78",
+     "testo": "131ebfb43836a811"
+    },
+    {
+     "id": "ca-pesaro",
+     "titolo": "San Stae und Cà Pesaro",
+     "file": "canal-grande__ca-pesaro.mp3",
+     "byte": 534428,
+     "secondi": 89,
+     "sha256": "189fd9d9c37049941d7c24b77ed7a00a89b325aef3c89d8b5d2833680728eae2",
+     "testo": "a407a261c92c4ed9"
+    },
+    {
+     "id": "ca-doro",
+     "titolo": "Cà d’Oro und Fischmarkt",
+     "file": "canal-grande__ca-doro.mp3",
+     "byte": 609164,
+     "secondi": 102,
+     "sha256": "5779ea4b4ff5d9612162aef153a155fb467b78d2a58440b60682a8c74acb84e7",
+     "testo": "1e455cc15e87fe04"
+    },
+    {
+     "id": "rialto",
+     "titolo": "Rialto",
+     "file": "canal-grande__rialto.mp3",
+     "byte": 531404,
+     "secondi": 89,
+     "sha256": "ac84b0cb9d25646afb56369e04f6f11f1d115922c6d58705843621cd3fb11ab6",
+     "testo": "791c8a9a3f752308"
+    },
+    {
+     "id": "municipio",
+     "titolo": "Rathaus und Palazzo Grimani",
+     "file": "canal-grande__municipio.mp3",
+     "byte": 560492,
+     "secondi": 93,
+     "sha256": "c7c14a5d3bcfa500c0fac7241d37d0177e9b9698bd9fbd62232fa851557e5742",
+     "testo": "4ad057b1e04fbd4b"
+    },
+    {
+     "id": "volta",
+     "titolo": "Die Biegung des Kanals",
+     "file": "canal-grande__volta.mp3",
+     "byte": 554876,
+     "secondi": 92,
+     "sha256": "ea59ae7fc67a682c751f84a0dedfe14d6af732b32cd2268feeb4432544e073cf",
+     "testo": "709375cf880863a1"
+    },
+    {
+     "id": "ca-foscari",
+     "titolo": "Cà Foscari und Palazzo Grassi",
+     "file": "canal-grande__ca-foscari.mp3",
+     "byte": 542492,
+     "secondi": 90,
+     "sha256": "9cd46772eecf4652f084f4018b12db5b6133f2ff73915feff2daa9d77fc95ea8",
+     "testo": "157723a8f398cdd7"
+    },
+    {
+     "id": "accademia",
+     "titolo": "Accademia",
+     "file": "canal-grande__accademia.mp3",
+     "byte": 509948,
+     "secondi": 85,
+     "sha256": "993cddecb17fe315b4fd049a47b9d606e3a0d195cc30275eb64820442087a315",
+     "testo": "9f0228323c51033e"
+    },
+    {
+     "id": "guggenheim",
+     "titolo": "Palazzo Barbaro und Guggenheim",
+     "file": "canal-grande__guggenheim.mp3",
+     "byte": 540332,
+     "secondi": 90,
+     "sha256": "e291085a98d17a996a6a7595019b769b27014111c0c3c35282c24a4bff243603",
+     "testo": "49664da2aac02f07"
+    },
+    {
+     "id": "ca-dario",
+     "titolo": "Cà Dario und Palazzo Gritti",
+     "file": "canal-grande__ca-dario.mp3",
+     "byte": 534716,
+     "secondi": 89,
+     "sha256": "e11a37d9c1c6d9e668fc9783460812d7472b0effae46a07ff59bda89b4c63f56",
+     "testo": "682e2dadfc1a3e22"
+    },
+    {
+     "id": "san-marco",
+     "titolo": "Salute und San Marco",
+     "file": "canal-grande__san-marco.mp3",
+     "byte": 549260,
+     "secondi": 92,
+     "sha256": "e7985f0fc8420345d118da12d15b70e26c4060d6f189bac11cda82c54a64ab16",
+     "testo": "7cb01c50b690e68a"
     }
    ]
   },
