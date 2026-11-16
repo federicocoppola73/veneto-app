@@ -1,5 +1,5 @@
 {
- "versione": "e85f7e8cd855",
+ "versione": "46fe01bc66bf",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-di-sant-antonio": {
@@ -23,6 +23,36 @@
      "secondi": 166,
      "sha256": "809a532096d3f9ab84dedd32f42e9447a55ace02d2fddc21134dd1797a9c785d",
      "testo": "16adebe87e70d9ad"
+    }
+   ]
+  },
+  "basilica-di-santa-giustina": {
+   "byte": 1244492,
+   "secondi": 207,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "basilica-di-santa-giustina.mp3",
+     "byte": 1244492,
+     "secondi": 207,
+     "sha256": "3cfcafea39d8cbd719b6ff583e7eedec7cdff600e58e4877f213dee950453e89",
+     "testo": "70b84b10337d455d"
+    }
+   ]
+  },
+  "battistero-della-cattedrale": {
+   "byte": 1029932,
+   "secondi": 172,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "battistero-della-cattedrale.mp3",
+     "byte": 1029932,
+     "secondi": 172,
+     "sha256": "14e523e7deac98daac1965e939b20c25a7b36bc1240c738985fbba7e75ad8363",
+     "testo": "8b4e21729d0c78ee"
     }
    ]
   },
@@ -62,6 +92,66 @@
      "secondi": 173,
      "sha256": "03659fc266056370163e35908b06bc3a52a6f27e82524c8cc0515b6d52b8ee75",
      "testo": "02caf9aa70d581cd"
+    }
+   ]
+  },
+  "chiesa-degli-eremitani": {
+   "byte": 1058444,
+   "secondi": 176,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-degli-eremitani.mp3",
+     "byte": 1058444,
+     "secondi": 176,
+     "sha256": "fa83e61a55b8ea3746586d06fa81070496d503251d4a1a7c137694cf8879146f",
+     "testo": "506b671f50661d99"
+    }
+   ]
+  },
+  "duomo-di-padova": {
+   "byte": 937196,
+   "secondi": 156,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "duomo-di-padova.mp3",
+     "byte": 937196,
+     "secondi": 156,
+     "sha256": "0ec735138f0430b6be0254f02f2acb5eefb37a0766c063144cff93b940dd076f",
+     "testo": "07aedb27487da497"
+    }
+   ]
+  },
+  "musei-civici-agli-eremitani": {
+   "byte": 1174076,
+   "secondi": 196,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "musei-civici-agli-eremitani.mp3",
+     "byte": 1174076,
+     "secondi": 196,
+     "sha256": "4e1e12461ffad27e8d82d8ddf7bbbcfac19e998f9178e9d98d3c45b2b43e7b88",
+     "testo": "0f7ef1927140fc2a"
+    }
+   ]
+  },
+  "orto-botanico-di-padova": {
+   "byte": 1248812,
+   "secondi": 208,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "orto-botanico-di-padova.mp3",
+     "byte": 1248812,
+     "secondi": 208,
+     "sha256": "dcdf6a3c41c2f90f1acde3a8ce286602ac460d8aa79a4e9c27fc25a16e544b90",
+     "testo": "c8211cb666921c3c"
     }
    ]
   },
@@ -137,6 +227,21 @@
      "secondi": 91,
      "sha256": "3f92d3927f4d8dc4d80f60d437951debcdfd30c8ab0d2a1b4d1af085681e3928",
      "testo": "5b27e05bc698216b"
+    }
+   ]
+  },
+  "prato-della-valle": {
+   "byte": 1460780,
+   "secondi": 243,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "prato-della-valle.mp3",
+     "byte": 1460780,
+     "secondi": 243,
+     "sha256": "5709dd05be612d075b04b14cc32334a2037b4d7e97b8b4e85aa7a6b80f7427b5",
+     "testo": "8d3b91118de9d8fe"
     }
    ]
   },
