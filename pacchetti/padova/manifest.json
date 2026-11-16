@@ -1,5 +1,5 @@
 {
- "versione": "f5c8cfaa3f6c",
+ "versione": "57de808d94e5",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -546,6 +546,18 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_2.webp",
    "sha256": "075a51e258fe3ab622a6dd8fcfe8f42a805768d0d62b28989d1a1b486bf21126",
    "byte": 221730
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_3.webp",
+   "sha256": "101b7b0cd4e9994bf69d21fb97a8df794755a50c87ac2eff7e90dd31e22618e0",
+   "byte": 256186
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_4.webp",
+   "sha256": "28c9aafca143ab7ec5358094871a47fbf7a92660c7333ab88e0b33b55b68dced",
+   "byte": 287770
   },
   {
    "path": "assets/luoghi/giardini-dell-arena.webp",
@@ -7474,7 +7486,7 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json",
-   "sha256": "eedbca21f281e9536754b25b5a0dd4d5eb6ee096797a83a0a98359d4329f260f",
+   "sha256": "e1502543b2ab3e3cc4f66f69e4ee0dfb02474e218ab22b4b6e32895fcf67c602",
    "byte": 3039
   },
   {
@@ -7486,8 +7498,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "6c22caeb8ea61c57c6568a31b4de013424e09b1377e2b6c411688bbfe5462e9b",
-   "byte": 349557
+   "sha256": "1a92592d31edd397d76ff803cddc97d94de17cf163401f09be4a0ea801527962",
+   "byte": 349885
   },
   {
    "path": "dati/mappa.json",
@@ -7584,6 +7596,17 @@
    ],
    "foto_nuove": 4,
    "byte": 1044538
+  },
+  {
+   "versione": "57de808d94e5",
+   "da": "f5c8cfaa3f6c",
+   "data": "2026-11-16",
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "foto"
+   ],
+   "foto_nuove": 2,
+   "byte": 896880
   }
  ]
 }
