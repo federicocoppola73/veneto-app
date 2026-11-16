@@ -1,5 +1,5 @@
 {
- "versione": "3107d051c45c",
+ "versione": "932e1756e83b",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -633,6 +633,21 @@
      "secondi": 189,
      "sha256": "98f88cbc5d78ce21cd633dd326ca09c81546cbe1667e1249be097a609a4d6b36",
      "testo": "3b2dd39b0877a6e9"
+    }
+   ]
+  },
+  "squero-san-trovaso": {
+   "byte": 1010204,
+   "secondi": 168,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "squero-san-trovaso.mp3",
+     "byte": 1010204,
+     "secondi": 168,
+     "sha256": "b407ed9b27a0be49c1bc4517798354656acac47b55d6ec123c94be9e3e2acba1",
+     "testo": "b169f24078a4feea"
     }
    ]
   },
