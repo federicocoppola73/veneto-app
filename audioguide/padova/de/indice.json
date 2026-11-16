@@ -1,5 +1,5 @@
 {
- "versione": "f62968572c96",
+ "versione": "961963ca2ea8",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-di-sant-antonio": {
@@ -140,6 +140,36 @@
     }
    ]
   },
+  "la-specola": {
+   "byte": 1395548,
+   "secondi": 233,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "la-specola.mp3",
+     "byte": 1395548,
+     "secondi": 233,
+     "sha256": "020b66b6ff5b7ac09cba29b572fc126d2df41c85a6cc30b0e56253e07f40b6be",
+     "testo": "65347f3d44571f01"
+    }
+   ]
+  },
+  "loggia-e-odeo-cornaro": {
+   "byte": 1388924,
+   "secondi": 231,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "loggia-e-odeo-cornaro.mp3",
+     "byte": 1388924,
+     "secondi": 231,
+     "sha256": "f295aac17df7903df42c26021290bf5b70a400b76186a73e176607fc07add41f",
+     "testo": "25f7092fb6584680"
+    }
+   ]
+  },
   "musei-civici-agli-eremitani": {
    "byte": 1220012,
    "secondi": 203,
@@ -197,6 +227,21 @@
      "secondi": 238,
      "sha256": "205e101bcd58f1f884a121235f2f4b644a0ac80eb5ca495785f73af3ed895dc5",
      "testo": "c2ddea9a4da1d031"
+    }
+   ]
+  },
+  "oratorio-di-san-michele": {
+   "byte": 1304396,
+   "secondi": 217,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "oratorio-di-san-michele.mp3",
+     "byte": 1304396,
+     "secondi": 217,
+     "sha256": "d1708dcc4f8b9f2c1593deb60b6bc43b70dc88b5f1509e0509b6ff756877b7e0",
+     "testo": "f35abbf0485b09f9"
     }
    ]
   },
