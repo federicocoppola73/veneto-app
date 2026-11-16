@@ -1,0 +1,198 @@
+{
+ "versione": "c5a10c8ed0f1",
+ "voce": "es-ES-Chirp3-HD-Kore",
+ "luoghi": {
+  "arche-scaligere": {
+   "byte": 1238444,
+   "secondi": 206,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "arche-scaligere.mp3",
+     "byte": 1238444,
+     "secondi": 206,
+     "sha256": "9076715223e0995fd3a0b6f0139e0154c538812005eb7c90f22eae38a1d7361a",
+     "testo": "41aa206955c3a23e"
+    }
+   ]
+  },
+  "arena-di-verona": {
+   "byte": 2247352,
+   "secondi": 375,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "arena-di-verona__esterno.mp3",
+     "byte": 1198844,
+     "secondi": 200,
+     "sha256": "8ec8a413f82133907be088f802e81fb0678d2cf5a2070b8aa2473fa6afa846ce",
+     "testo": "52d803b0145f9ef4"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "arena-di-verona__interno.mp3",
+     "byte": 1048508,
+     "secondi": 175,
+     "sha256": "6963d81386662e6ab4296debbafb9efa58505800a87cc56147aed92a09cce6fc",
+     "testo": "7b2e042b44662f5b"
+    }
+   ]
+  },
+  "basilica-di-san-zeno-maggiore": {
+   "byte": 2391208,
+   "secondi": 399,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "basilica-di-san-zeno-maggiore__esterno.mp3",
+     "byte": 1203740,
+     "secondi": 201,
+     "sha256": "7954dc8c047c3d224b2b5ff3234f4c3c50d2777f514d86242c68759fadfc649a",
+     "testo": "f52b559807fbb70d"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "basilica-di-san-zeno-maggiore__interno.mp3",
+     "byte": 1187468,
+     "secondi": 198,
+     "sha256": "9d6d18ba76853599be84a93b7577837cc1f3057f3d8a870200b39ce90f5cfd26",
+     "testo": "26ecb3702540b0e6"
+    }
+   ]
+  },
+  "basilica-di-sant-anastasia": {
+   "byte": 2103064,
+   "secondi": 351,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "basilica-di-sant-anastasia__esterno.mp3",
+     "byte": 933164,
+     "secondi": 156,
+     "sha256": "a79c08e0e909f1155793e6cf505b2c7b4f07cdd834192938ef9564e226d75851",
+     "testo": "243c741fbae1f5cc"
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "basilica-di-sant-anastasia__interno.mp3",
+     "byte": 1169900,
+     "secondi": 195,
+     "sha256": "e4cbabeaecc7502288788c00fc0b09c67b830dc5da2b1bf45db665434be85e2a",
+     "testo": "1b5c5026ad7b4022"
+    }
+   ]
+  },
+  "duomo-di-verona": {
+   "byte": 2783220,
+   "secondi": 463,
+   "tracce": [
+    {
+     "id": "duomo",
+     "titolo": "Catedral",
+     "file": "duomo-di-verona__duomo.mp3",
+     "byte": 1081916,
+     "secondi": 180,
+     "sha256": "5e90d9f92bfcdf2aca3f737372ea63ca59f0d4fe39d0bf6c9d18a92b10401c22",
+     "testo": "276c8f377e3f748a"
+    },
+    {
+     "id": "battistero",
+     "titolo": "Baptisterio",
+     "file": "duomo-di-verona__battistero.mp3",
+     "byte": 740492,
+     "secondi": 123,
+     "sha256": "738f2debc496ef652885366de8bbb446a7523a40ba378f6ece6554f6dba64871",
+     "testo": "ef6c5be5f750535a"
+    },
+    {
+     "id": "complesso",
+     "titolo": "Complejo catedralicio",
+     "file": "duomo-di-verona__complesso.mp3",
+     "byte": 960812,
+     "secondi": 160,
+     "sha256": "6209cffd93f0a2a80e05c4ce55aae6cec2253f6dac436b4e9fbbdcb7d0e5b813",
+     "testo": "685d6654da9e3652"
+    }
+   ]
+  },
+  "museo-di-castelvecchio": {
+   "byte": 2739544,
+   "secondi": 457,
+   "tracce": [
+    {
+     "id": "castello",
+     "titolo": "Castillo y museo",
+     "file": "museo-di-castelvecchio__castello.mp3",
+     "byte": 1601756,
+     "secondi": 267,
+     "sha256": "c3a109fdd717838be492099c0a1efece2f07819a9c0e108ccd670a5cb76fdffa",
+     "testo": "aea78ab8b27a116c"
+    },
+    {
+     "id": "ponte-scaligero",
+     "titolo": "Puente Escalígero",
+     "file": "museo-di-castelvecchio__ponte-scaligero.mp3",
+     "byte": 1137788,
+     "secondi": 190,
+     "sha256": "7a72ade379fd5fac3b53e4d2e582d1a9104513e550d9ca510cb365a7d0d750fb",
+     "testo": "bc567f420317a841"
+    }
+   ]
+  },
+  "san-fermo-maggiore": {
+   "byte": 2093848,
+   "secondi": 349,
+   "tracce": [
+    {
+     "id": "inferiore",
+     "titolo": "Iglesia inferior",
+     "file": "san-fermo-maggiore__inferiore.mp3",
+     "byte": 959372,
+     "secondi": 160,
+     "sha256": "f3dc82f3b60a07b8ba15d51a718817b83d14e1493b560e432d50be88cecc4aa3",
+     "testo": "8de290723d3d5e21"
+    },
+    {
+     "id": "superiore",
+     "titolo": "Iglesia superior",
+     "file": "san-fermo-maggiore__superiore.mp3",
+     "byte": 1134476,
+     "secondi": 189,
+     "sha256": "3292704a8eb4f727cf3a3f1cfbe822de0d51025065f0a2d7787a17e993729038",
+     "testo": "a3539b93a1d7e8b4"
+    }
+   ]
+  },
+  "teatro-romano": {
+   "byte": 2172616,
+   "secondi": 362,
+   "tracce": [
+    {
+     "id": "teatro",
+     "titolo": "Teatro",
+     "file": "teatro-romano__teatro.mp3",
+     "byte": 1135340,
+     "secondi": 189,
+     "sha256": "1f15b53c942e3bfcd477dc4dd7de15896e949edb2e0e50d7c48d52f93a783820",
+     "testo": "475f5b8b980351f3"
+    },
+    {
+     "id": "museo",
+     "titolo": "Museo",
+     "file": "teatro-romano__museo.mp3",
+     "byte": 1037276,
+     "secondi": 173,
+     "sha256": "40bf4da6e7f7b072e1949eb55b7de03d35330ea69f274bf8c466e63ee1a68841",
+     "testo": "cad5eca4bb5aa795"
+    }
+   ]
+  }
+ }
+}
