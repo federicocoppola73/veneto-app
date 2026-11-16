@@ -1,5 +1,5 @@
 {
- "versione": "5d1234f16398",
+ "versione": "f5c8cfaa3f6c",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -792,6 +792,30 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musme-museo-di-storia-della-medicina_2.webp",
    "sha256": "47af932b3fc482102575c2e6f4accaaab2f4e40f8d531f993470b69e1f4b0879",
    "byte": 84076
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio.webp",
+   "sha256": "0b34b5f816c6d7e6498f62f408579a3db54e755ec5332abcdbcfe5d0679c396d",
+   "byte": 126116
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_2.webp",
+   "sha256": "553e5f385c5e23b77a63010f0c45967746f2b0ca9b681b6fbf20bcfb4d6a1800",
+   "byte": 182216
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_3.webp",
+   "sha256": "a64c9fc73614e171bc78ac1d9dd813dba028a2d1df7b54a0d3f4c2f2237652fe",
+   "byte": 226934
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_4.webp",
+   "sha256": "f7239f1e38bd348bbff748685c2adc211295e8620699db6ee729cd7cf3023120",
+   "byte": 156676
   },
   {
    "path": "assets/luoghi/oratorio-di-san-michele.webp",
@@ -7450,8 +7474,8 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json",
-   "sha256": "ee3126c017da42c97513bf9b4ed4fb3956be5c495a7d19db03cdee2053883a6e",
-   "byte": 3007
+   "sha256": "eedbca21f281e9536754b25b5a0dd4d5eb6ee096797a83a0a98359d4329f260f",
+   "byte": 3039
   },
   {
    "path": "dati/itinerari.json",
@@ -7462,8 +7486,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "11ac204f66df0e6158b74971aeafbe2871033805121f139d64ace69ac9b17e27",
-   "byte": 349200
+   "sha256": "6c22caeb8ea61c57c6568a31b4de013424e09b1377e2b6c411688bbfe5462e9b",
+   "byte": 349557
   },
   {
    "path": "dati/mappa.json",
@@ -7549,6 +7573,17 @@
     "prezzi"
    ],
    "byte": 349200
+  },
+  {
+   "versione": "f5c8cfaa3f6c",
+   "da": "5d1234f16398",
+   "data": "2026-11-16",
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "foto"
+   ],
+   "foto_nuove": 4,
+   "byte": 1044538
   }
  ]
 }
