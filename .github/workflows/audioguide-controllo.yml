@@ -24,6 +24,10 @@ on:
         description: 'Controllo più accurato e lento (senza filtro dei silenzi, ricerca più ampia): si/no'
         required: false
         default: 'no'
+      anteprima:
+        description: "Controlla le anteprime (ramo audioguide-anteprima) con le bozze: si/no (servono i luoghi)"
+        required: false
+        default: 'no'
 
 permissions:
   contents: write
@@ -52,6 +56,11 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install faster-whisper
+      - if: inputs.anteprima == 'si'
+        uses: actions/checkout@v4
+        with:
+          ref: audioguide-anteprima
+          path: ramo-anteprima
       - name: Trascrivi e confronta
         env:
           CITTA: ${{ inputs.citta }}
@@ -59,6 +68,7 @@ jobs:
           LUOGHI: ${{ inputs.luoghi }}
           VAD: ${{ inputs.accurato == 'si' && '0' || '1' }}
           BEAM: ${{ inputs.accurato == 'si' && '5' || '1' }}
+          ANTEPRIMA: ${{ inputs.anteprima == 'si' && 'ramo-anteprima/anteprima' || '' }}
         run: python3 strumenti/controlla_audioguide.py "$CITTA" "${{ matrix.lingua }}" "$MODELLO" "$LUOGHI"
       - uses: actions/upload-artifact@v4
         with:

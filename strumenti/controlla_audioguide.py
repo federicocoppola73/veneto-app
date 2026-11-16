@@ -6,6 +6,8 @@ Uso (lo lancia la GitHub Action "Audioguide – controllo"):
 
 Segnala, con il minuto, i tratti in cui l'audio dice parole che nel testo non ci sono (la voce che "deraglia":
 parole in altre lingue, suoni senza senso) e i tratti del testo che nell'audio mancano.
+Anteprima: con ANTEPRIMA=<cartella> controlla gli MP3 di anteprima (<cartella>/<lingua>/, dal ramo audioguide-anteprima)
+        confrontandoli con le bozze dei testi, prima di pubblicarli.
 Uscita: controllo/<città>/<lingua>.md e .json
 """
 import difflib
@@ -40,7 +42,22 @@ def main():
     modello = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else 'base'
     solo = {x for x in (sys.argv[4] if len(sys.argv) > 4 else '').split(',') if x}
     testi = json.load(open(f'pacchetti/{citta}/audioguide/testi.json', encoding='utf-8'))['luoghi']
-    indice = json.load(open(f'audioguide/{citta}/{lingua}/indice.json', encoding='utf-8'))['luoghi']
+    anteprima = os.environ.get('ANTEPRIMA', '')
+    if anteprima:
+        # elenco costruito dalle bozze (o dai testi) dei luoghi indicati, con gli MP3 di anteprima
+        indice, cartella = {}, f'{anteprima}/{lingua}'
+        for id_luogo in sorted(solo):
+            voce = testi.get(id_luogo, {})
+            voce = voce.get('bozza', voce)
+            testi[id_luogo] = voce
+            if 'tracce' in voce:
+                tracce = [{'id': t['id'], 'file': f'{id_luogo}__{t["id"]}.mp3'} for t in voce['tracce']]
+            else:
+                tracce = [{'id': None, 'file': f'{id_luogo}.mp3'}]
+            indice[id_luogo] = {'tracce': [t for t in tracce if os.path.exists(f'{cartella}/{t["file"]}')]}
+    else:
+        indice = json.load(open(f'audioguide/{citta}/{lingua}/indice.json', encoding='utf-8'))['luoghi']
+        cartella = f'audioguide/{citta}/{lingua}'
     m = WhisperModel(modello, device='cpu', compute_type='int8')
     risultati = []
     for id_luogo, info in sorted(indice.items()):
@@ -52,7 +69,7 @@ def main():
                 testo = next(t for t in voce['tracce'] if t['id'] == tr['id'])['testo'][lingua]
             else:
                 testo = voce[lingua]
-            segs, _ = m.transcribe(f'audioguide/{citta}/{lingua}/{tr["file"]}', language=lingua,
+            segs, _ = m.transcribe(f'{cartella}/{tr["file"]}', language=lingua,
                                    word_timestamps=True, vad_filter=os.environ.get('VAD', '1') != '0',
                                    beam_size=int(os.environ.get('BEAM', '1')))
             segs = list(segs)
