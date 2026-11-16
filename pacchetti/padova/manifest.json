@@ -1,5 +1,5 @@
 {
- "versione": "9d9b9cf18bc3",
+ "versione": "57de808d94e5",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -536,6 +536,30 @@
    "byte": 255064
   },
   {
+   "path": "assets/luoghi/ghetto-ebraico.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico.webp",
+   "sha256": "c0772a33956088c53dc2c5358a6f609ebc9865f579ae163cab6381a38ee8eda9",
+   "byte": 207582
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_2.webp",
+   "sha256": "075a51e258fe3ab622a6dd8fcfe8f42a805768d0d62b28989d1a1b486bf21126",
+   "byte": 221730
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_3.webp",
+   "sha256": "101b7b0cd4e9994bf69d21fb97a8df794755a50c87ac2eff7e90dd31e22618e0",
+   "byte": 256186
+  },
+  {
+   "path": "assets/luoghi/ghetto-ebraico_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/ghetto-ebraico_4.webp",
+   "sha256": "28c9aafca143ab7ec5358094871a47fbf7a92660c7333ab88e0b33b55b68dced",
+   "byte": 287770
+  },
+  {
    "path": "assets/luoghi/giardini-dell-arena.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/giardini-dell-arena.webp",
    "sha256": "bebba27cdba8d763eff4129a49d87d37e42141097b0c6937f75403351754d598",
@@ -780,6 +804,30 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/musme-museo-di-storia-della-medicina_2.webp",
    "sha256": "47af932b3fc482102575c2e6f4accaaab2f4e40f8d531f993470b69e1f4b0879",
    "byte": 84076
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio.webp",
+   "sha256": "0b34b5f816c6d7e6498f62f408579a3db54e755ec5332abcdbcfe5d0679c396d",
+   "byte": 126116
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_2.webp",
+   "sha256": "553e5f385c5e23b77a63010f0c45967746f2b0ca9b681b6fbf20bcfb4d6a1800",
+   "byte": 182216
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_3.webp",
+   "sha256": "a64c9fc73614e171bc78ac1d9dd813dba028a2d1df7b54a0d3f4c2f2237652fe",
+   "byte": 226934
+  },
+  {
+   "path": "assets/luoghi/oratorio-di-san-giorgio_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/luoghi/oratorio-di-san-giorgio_4.webp",
+   "sha256": "f7239f1e38bd348bbff748685c2adc211295e8620699db6ee729cd7cf3023120",
+   "byte": 156676
   },
   {
    "path": "assets/luoghi/oratorio-di-san-michele.webp",
@@ -7438,8 +7486,8 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/immagini.json",
-   "sha256": "4a0904c463821d65b5a243e3318156505dbec0c2dac30c1969f1a925b6c2ddf3",
-   "byte": 2984
+   "sha256": "e1502543b2ab3e3cc4f66f69e4ee0dfb02474e218ab22b4b6e32895fcf67c602",
+   "byte": 3039
   },
   {
    "path": "dati/itinerari.json",
@@ -7450,8 +7498,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "8535a0b7fc20d57e5e94b36b8d2c0159439db976fa54343eae72b2460b6b6d5d",
-   "byte": 326919
+   "sha256": "1a92592d31edd397d76ff803cddc97d94de17cf163401f09be4a0ea801527962",
+   "byte": 349885
   },
   {
    "path": "dati/mappa.json",
@@ -7514,5 +7562,17 @@
    "byte": 1097866
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "57de808d94e5",
+   "da": "9d9b9cf18bc3",
+   "data": "2026-11-16",
+   "luoghi_nuovi": [
+    "Ghetto ebraico di Padova",
+    "Oratorio di San Giorgio"
+   ],
+   "foto_nuove": 8,
+   "byte": 2018134
+  }
+ ]
 }
