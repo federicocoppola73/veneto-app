@@ -1,5 +1,5 @@
 {
- "versione": "b63ac85eb815",
+ "versione": "b2c78e349a10",
  "voce": "en-GB-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -582,6 +582,30 @@
     }
    ]
   },
+  "san-martino-burano": {
+   "byte": 1175704,
+   "secondi": 196,
+   "tracce": [
+    {
+     "id": "isola",
+     "titolo": "Island",
+     "file": "san-martino-burano__isola.mp3",
+     "byte": 787292,
+     "secondi": 131,
+     "sha256": "1d2feee4c1936770be540e0836a1f0c6ee719aa07d72fc0286e608d228d95a44",
+     "testo": "ebf90dfd5042743e"
+    },
+    {
+     "id": "chiesa",
+     "titolo": "Church",
+     "file": "san-martino-burano__chiesa.mp3",
+     "byte": 388412,
+     "secondi": 65,
+     "sha256": "587be142ce8263c2e5084e2f32b7712d128d53f83223c19bf170fe0b0932b8a1",
+     "testo": "a2eb160046970f88"
+    }
+   ]
+  },
   "san-pietro-castello": {
    "byte": 2169160,
    "secondi": 361,
@@ -621,6 +645,21 @@
     }
    ]
   },
+  "santa-caterina-mazzorbo": {
+   "byte": 502028,
+   "secondi": 84,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "santa-caterina-mazzorbo.mp3",
+     "byte": 502028,
+     "secondi": 84,
+     "sha256": "a1aec46bb05c7573a01cd54a1399fd54a09d083a88b0f97b133465150d0b5402",
+     "testo": "3479634b366c4681"
+    }
+   ]
+  },
   "santi-giovanni-paolo": {
    "byte": 1034252,
    "secondi": 172,
@@ -633,6 +672,30 @@
      "secondi": 172,
      "sha256": "07a07759cbd325b1e28c4539dc5a48243403aeef14d1475611547c68a7e07fdc",
      "testo": "f5c4a50bc9befde1"
+    }
+   ]
+  },
+  "santi-maria-donato": {
+   "byte": 1367080,
+   "secondi": 228,
+   "tracce": [
+    {
+     "id": "isola",
+     "titolo": "Island",
+     "file": "santi-maria-donato__isola.mp3",
+     "byte": 750860,
+     "secondi": 125,
+     "sha256": "f1ad7f1407882993a64a7998cb6c53991d1d4bcf6d636ca08be89eea47e1f245",
+     "testo": "ebdea2d6269dbf04"
+    },
+    {
+     "id": "basilica",
+     "titolo": "Basilica",
+     "file": "santi-maria-donato__basilica.mp3",
+     "byte": 616220,
+     "secondi": 103,
+     "sha256": "a975337b3297f592bc50db577b4bf8f8f790a8f2141e81123b55aeb5eab8c3d6",
+     "testo": "5952fd408136fa21"
     }
    ]
   },
@@ -663,6 +726,30 @@
      "secondi": 219,
      "sha256": "b220ac9e2c304672b65e9d8f14c7e2d4755347eac773624805de85fb0656ab1f",
      "testo": "914300932fc5b13d"
+    }
+   ]
+  },
+  "torcello": {
+   "byte": 1389832,
+   "secondi": 232,
+   "tracce": [
+    {
+     "id": "isola",
+     "titolo": "Island",
+     "file": "torcello__isola.mp3",
+     "byte": 682316,
+     "secondi": 114,
+     "sha256": "58d66e07e1e6444df643cf8c75a8a71f3b6c1284e7e9e7904c0aec06987d042d",
+     "testo": "dca1a2cc771882df"
+    },
+    {
+     "id": "basilica",
+     "titolo": "Basilica",
+     "file": "torcello__basilica.mp3",
+     "byte": 707516,
+     "secondi": 118,
+     "sha256": "5ca0003eca5ddc35ad6d96ec39be0ce43edd2f6890639e7aba896bba2b8bedc6",
+     "testo": "2fb82ee799ba211f"
     }
    ]
   },
