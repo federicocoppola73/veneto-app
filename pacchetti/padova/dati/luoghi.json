@@ -4322,13 +4322,17 @@
           "ore": "10:00–17:00"
         },
         {
+          "giorni": "ven",
+          "ore": "10:00–15:00"
+        },
+        {
           "giorni": "dom",
           "ore": "10:00–18:00"
         }
       ],
       "biglietto": {
-        "intero": 15,
-        "ridotto": 12,
+        "intero": 12,
+        "ridotto": 10,
         "nota": {
           "it": "Il biglietto riguarda i siti culturali (Museo della Padova Ebraica, Sinagoga Italiana, Cimitero), non l'accesso alle strade del Ghetto, che è gratuito. Il percorso intero comprende due siti a scelta. Gratuito per bambini sotto i 6 anni, persone con disabilità e accompagnatori. Disponibili anche visite guidate e percorsi con tariffe differenti.",
           "en": "The ticket covers the cultural sites (Museum of Jewish Padua, Italian Synagogue, Cemetery), not access to the streets of the Ghetto, which is free. The full ticket includes two sites of your choice. Free for children under 6, people with disabilities and their companions. Guided tours and itineraries with different rates are also available.",
@@ -4338,11 +4342,11 @@
         }
       },
       "nota": {
-        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita. Il quartiere storico è liberamente percorribile. Per Museo e Sinagoga: venerdì visite private su prenotazione, sabato chiuso; ultimo ingresso 45 minuti prima della chiusura; aperture su prenotazione negli altri giorni, escluso il sabato e le festività ebraiche.",
-        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit. The historic district can be freely explored. For the Museum and Synagogue: private visits by reservation on Fridays, closed on Saturdays; last entry 45 minutes before closing; openings by reservation on other days, except Saturdays and Jewish holidays.",
-        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite. Le quartier historique se parcourt librement. Pour le musée et la synagogue : le vendredi, visites privées sur réservation ; le samedi, fermé ; dernière entrée 45 minutes avant la fermeture ; ouvertures sur réservation les autres jours, sauf le samedi et les fêtes juives.",
-        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort. Das historische Viertel kann frei besichtigt werden. Für Museum und Synagoge: freitags private Besuche nach Reservierung, samstags geschlossen; letzter Einlass 45 Minuten vor Schließung; Öffnung nach Reservierung an anderen Tagen, außer samstags und an jüdischen Feiertagen.",
-        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita. El barrio histórico se puede recorrer libremente. Para el Museo y la Sinagoga: los viernes visitas privadas con reserva, los sábados cerrado; última entrada 45 minutos antes del cierre; aperturas con reserva otros días, salvo sábados y festividades judías."
+        "it": "Nota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita. Il quartiere storico è liberamente percorribile. Per Museo e Sinagoga: sabato chiuso; ultimo ingresso 45 minuti prima della chiusura; aperture su prenotazione negli altri giorni, escluso il sabato e le festività ebraiche.",
+        "en": "Note: Opening hours and ticket prices may change. Please check the official website or the venue before your visit. The historic district can be freely explored. For the Museum and Synagogue: closed on Saturdays; last entry 45 minutes before closing; openings by reservation on other days, except Saturdays and Jewish holidays.",
+        "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite. Le quartier historique se parcourt librement. Pour le musée et la synagogue : fermé le samedi ; dernière entrée 45 minutes avant la fermeture ; ouvertures sur réservation les autres jours, sauf le samedi et les fêtes juives.",
+        "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort. Das historische Viertel kann frei besichtigt werden. Für Museum und Synagoge: samstags geschlossen; letzter Einlass 45 Minuten vor Schließung; Öffnung nach Reservierung an anderen Tagen, außer samstags und an jüdischen Feiertagen.",
+        "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita. El barrio histórico se puede recorrer libremente. Para el Museo y la Sinagoga: cerrado los sábados; última entrada 45 minutos antes del cierre; aperturas con reserva otros días, salvo sábados y festividades judías."
       }
     },
     {
