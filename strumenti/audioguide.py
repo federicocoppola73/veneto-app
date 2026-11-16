@@ -247,7 +247,7 @@ def main():
                 prima = gia.get(file)
                 if prima and prima.get('testo') == impronta and os.path.exists(percorso):
                     tracce.append({**prima, 'id': tr['id'], 'titolo': tr['titolo'], 'file': file})
-                    if tr['tappe']:
+                    if tr.get('tappe'):
                         tracce[-1]['tappe'] = tr['tappe']
                     else:
                         tracce[-1].pop('tappe', None)
@@ -264,7 +264,7 @@ def main():
                     'secondi': durata(percorso, len(audio)),
                     'sha256': hashlib.sha256(audio).hexdigest(),
                     'testo': impronta,
-                    **({'tappe': tr['tappe']} if tr['tappe'] else {}),
+                    **({'tappe': tr['tappe']} if tr.get('tappe') else {}),
                 })
                 print(f'{citta}/{lingua}/{file}: {tracce[-1]["secondi"]} s')
             if anteprima:
