@@ -1,5 +1,5 @@
 {
- "versione": "668e42bdfce6",
+ "versione": "27cfdb7389b8",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
@@ -89,6 +89,36 @@
     }
    ]
   },
+  "biblioteca-capitolare": {
+   "byte": 1408076,
+   "secondi": 235,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "biblioteca-capitolare.mp3",
+     "byte": 1408076,
+     "secondi": 235,
+     "sha256": "ac8eb34a3a7961a71b1ff26b8702de6f065a1a1ffd050578ea30d573a6cad247",
+     "testo": "74597150c5a76844"
+    }
+   ]
+  },
+  "casa-di-giulietta": {
+   "byte": 1588652,
+   "secondi": 265,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "casa-di-giulietta.mp3",
+     "byte": 1588652,
+     "secondi": 265,
+     "sha256": "47a346e8872edd45350b040682813f0fdb122da20bfc2c8a652a6cb86e48f190",
+     "testo": "66f60df764231334"
+    }
+   ]
+  },
   "duomo-di-verona": {
    "byte": 2956596,
    "secondi": 492,
@@ -122,6 +152,21 @@
     }
    ]
   },
+  "giardino-giusti": {
+   "byte": 1351196,
+   "secondi": 225,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "giardino-giusti.mp3",
+     "byte": 1351196,
+     "secondi": 225,
+     "sha256": "7d618eee4834643b0e57cd64381c03f7d8ba76a8f7f8d55d20385468f9fc3983",
+     "testo": "2975de61fd063b84"
+    }
+   ]
+  },
   "museo-di-castelvecchio": {
    "byte": 2814424,
    "secondi": 469,
@@ -143,6 +188,81 @@
      "secondi": 190,
      "sha256": "a5fcf266aa398b0d04f77b500d0e96ee4148683563dfdc6631088cb01ceeb0cd",
      "testo": "fdaa21fd9827ebb9"
+    }
+   ]
+  },
+  "palazzo-maffei-casa-museo": {
+   "byte": 1520972,
+   "secondi": 253,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-maffei-casa-museo.mp3",
+     "byte": 1520972,
+     "secondi": 253,
+     "sha256": "c2b465d653fccf9fa1a68d7e3b341b6c8bdd2e29d0e47c686d92572fca21527e",
+     "testo": "1bc3d2c59b9abfd5"
+    }
+   ]
+  },
+  "piazza-dei-signori": {
+   "byte": 1289852,
+   "secondi": 215,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-signori.mp3",
+     "byte": 1289852,
+     "secondi": 215,
+     "sha256": "f1259efd47098dac3a503e7c2de509ea1ef12407955cf017766e0b52ad2063b4",
+     "testo": "08c77df741c61817"
+    }
+   ]
+  },
+  "piazza-delle-erbe": {
+   "byte": 1480364,
+   "secondi": 247,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-delle-erbe.mp3",
+     "byte": 1480364,
+     "secondi": 247,
+     "sha256": "847ca6e2e24b1fdfba71361386d0737e673cd9a113e3dd7a8ebaa98d2cb0ddca",
+     "testo": "2aea70db60481f07"
+    }
+   ]
+  },
+  "ponte-pietra": {
+   "byte": 1227932,
+   "secondi": 205,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ponte-pietra.mp3",
+     "byte": 1227932,
+     "secondi": 205,
+     "sha256": "9ccb09f3e8d784145d11def7d6c2710cb420cf7eb54419f52a631ba6d9eb865c",
+     "testo": "8282624812183f53"
+    }
+   ]
+  },
+  "porta-borsari": {
+   "byte": 1077308,
+   "secondi": 180,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "porta-borsari.mp3",
+     "byte": 1077308,
+     "secondi": 180,
+     "sha256": "536712a6da2886fb4ccb65a4131e42fa23d76316b2c6086da5f21d1094898ddd",
+     "testo": "d664f8a5db59aaba"
     }
    ]
   },
