@@ -452,11 +452,27 @@
         "gratuito": true
       },
       "immagine": {
-        "autore": "Autore non indicato",
-        "licenza": "",
+        "autore": "Palickap",
+        "licenza": "CC BY-SA 4.0",
         "fonte": ""
       },
-      "galleria": []
+      "galleria": [
+        {
+          "autore": "Oursana",
+          "licenza": "CC0 1.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Elitre",
+          "licenza": "CC BY-SA 2.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ]
     },
     {
       "id": "palazzo-chiericati-museo-civico",
