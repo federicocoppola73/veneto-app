@@ -21,7 +21,27 @@
         "palazzo-valmarana-braga",
         "palazzo-porto-breganze"
       ],
-      "metri": 1681
+      "metri": 1681,
+      "descrizione": {
+        "it": "Nove tappe tra Piazza dei Signori e Piazza Castello per scoprire come Andrea Palladio, figlio di un mugnaio, ha dato a Vicenza un nuovo volto: la Basilica, il Teatro Olimpico, i palazzi dei nobili e le piccole opere rimaste a metà. Un percorso di meno di due chilometri, con un'introduzione alla vita e alle idee di Palladio e un'audioguida per ogni luogo.",
+        "en": "Nine stops between Piazza dei Signori and Piazza Castello to discover how Andrea Palladio, a miller's son, gave Vicenza a new face: the Basilica, the Teatro Olimpico, the palaces of the nobles and the small works left unfinished. A route of less than two kilometres, with an introduction to Palladio's life and ideas and an audio guide for every place.",
+        "fr": "Neuf étapes entre la Piazza dei Signori et la Piazza Castello pour découvrir comment Andrea Palladio, fils de meunier, a donné un nouveau visage à Vicence : la Basilique, le Teatro Olimpico, les palais des nobles et les petites œuvres restées inachevées. Un parcours de moins de deux kilomètres, avec une introduction à la vie et aux idées de Palladio et une audioguide pour chaque lieu.",
+        "de": "Neun Stationen zwischen der Piazza dei Signori und der Piazza Castello, um zu entdecken, wie Andrea Palladio, der Sohn eines Müllers, Vicenza ein neues Gesicht gegeben hat: die Basilika, das Teatro Olimpico, die Paläste der Adligen und die kleinen unvollendet gebliebenen Werke. Ein Rundgang von weniger als zwei Kilometern, mit einer Einführung in Leben und Ideen Palladios und einem Audioguide für jeden Ort.",
+        "es": "Nueve paradas entre la Piazza dei Signori y la Piazza Castello para descubrir cómo Andrea Palladio, hijo de un molinero, dio a Vicenza un rostro nuevo: la Basílica, el Teatro Olimpico, los palacios de los nobles y las pequeñas obras que quedaron a medias. Un recorrido de menos de dos kilómetros, con una introducción a la vida y a las ideas de Palladio y una audioguía para cada lugar."
+      },
+      "audioPercorso": [
+        "palladio-classico-introduzione",
+        "basilica-palladiana",
+        "loggia-del-capitaniato",
+        "palazzo-chiericati-museo-civico",
+        "teatro-olimpico",
+        "casa-cogollo",
+        "cappella-valmarana",
+        "gallerie-di-palazzo-thiene",
+        "palazzo-valmarana-braga",
+        "palazzo-porto-breganze"
+      ],
+      "raggioAudioM": 50
     },
     {
       "id": "palladio-nascosto",
