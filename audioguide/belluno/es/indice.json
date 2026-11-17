@@ -1,0 +1,111 @@
+{
+ "versione": "e0e0874544a8",
+ "voce": "es-ES-Chirp3-HD-Kore",
+ "luoghi": {
+  "borgo-piave": {
+   "byte": 747548,
+   "secondi": 125,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "borgo-piave.mp3",
+     "byte": 747548,
+     "secondi": 125,
+     "sha256": "74e92a922a7964a1f9655f8763912e42692fa322ec69148cf82c1156517f4de9",
+     "testo": "d29beafcabd9609e"
+    }
+   ]
+  },
+  "cattedrale-di-san-martino": {
+   "byte": 1068092,
+   "secondi": 178,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "cattedrale-di-san-martino.mp3",
+     "byte": 1068092,
+     "secondi": 178,
+     "sha256": "bab897b4ace25fdd66c5e1b047f1c32a0fec48ba1a3b7e91fe5d5efd9beff0e1",
+     "testo": "d200329c1ae0e8d7"
+    }
+   ]
+  },
+  "chiesa-di-santo-stefano": {
+   "byte": 862748,
+   "secondi": 144,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-di-santo-stefano.mp3",
+     "byte": 862748,
+     "secondi": 144,
+     "sha256": "12398de2b12c2b4ce4479c961f2a2efca433cda1f615174a5f1fed6e22488785",
+     "testo": "7365ba4104dffb76"
+    }
+   ]
+  },
+  "mubel-museo-civico-palazzo-fulcis": {
+   "byte": 1214972,
+   "secondi": 202,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "mubel-museo-civico-palazzo-fulcis.mp3",
+     "byte": 1214972,
+     "secondi": 202,
+     "sha256": "36d9bb5257c3400a9c9ff0469b4b6cce11d8a7d8bcc3204fbdf5e6f260bf15c1",
+     "testo": "799dc01359957bbb"
+    }
+   ]
+  },
+  "piazza-dei-martiri": {
+   "byte": 847196,
+   "secondi": 141,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-martiri.mp3",
+     "byte": 847196,
+     "secondi": 141,
+     "sha256": "bfd80179640e309bdf27bf93e9396286b455eabaafafe174e932a72ca5cb3a57",
+     "testo": "199d106524980d98"
+    }
+   ]
+  },
+  "piazza-delle-erbe": {
+   "byte": 1118492,
+   "secondi": 186,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-delle-erbe.mp3",
+     "byte": 1118492,
+     "secondi": 186,
+     "sha256": "8d843817f3c0543d1b384ffa8e4f7df7bb535f95b1ad69e6729801a75ea320b4",
+     "testo": "f7711d85f9c73d2c"
+    }
+   ]
+  },
+  "piazza-duomo": {
+   "byte": 972044,
+   "secondi": 162,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-duomo.mp3",
+     "byte": 972044,
+     "secondi": 162,
+     "sha256": "2a9b4466f959ea799a5f3859c4316ed3818b70ba939a6d6b3117e7b7df561e38",
+     "testo": "3a5f0563f9f6d530"
+    }
+   ]
+  }
+ }
+}
