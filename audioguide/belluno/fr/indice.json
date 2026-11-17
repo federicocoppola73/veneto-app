@@ -1,5 +1,5 @@
 {
- "versione": "e32be1e284f1",
+ "versione": "b107f0321474",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "borgo-piave": {
@@ -29,6 +29,21 @@
      "secondi": 175,
      "sha256": "286fb7c0c190b6e74dd249372d72d10982526fb19867a42aa38b00f2d159ceb5",
      "testo": "2037003d3bdcfec7"
+    }
+   ]
+  },
+  "chiesa-di-san-pietro": {
+   "byte": 1580156,
+   "secondi": 263,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-di-san-pietro.mp3",
+     "byte": 1580156,
+     "secondi": 263,
+     "sha256": "6c27acea9350b6e69359f6d195f85309a81d4ba09d397d2c96cf02948e343405",
+     "testo": "c146c30276ae0601"
     }
    ]
   },
