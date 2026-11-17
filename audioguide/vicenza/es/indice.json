@@ -1,7 +1,22 @@
 {
- "versione": "813bcd8ecd44",
+ "versione": "ab8bec9a8f61",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
+  "arco-delle-scalette": {
+   "byte": 740636,
+   "secondi": 123,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "arco-delle-scalette.mp3",
+     "byte": 740636,
+     "secondi": 123,
+     "sha256": "2c48208d28ce286d74f89d43be2c2d80749b71857487c4934c038ee6202eb388",
+     "testo": "629f4be84b9d14e1"
+    }
+   ]
+  },
   "basilica-palladiana": {
    "byte": 2151304,
    "secondi": 358,
@@ -59,6 +74,21 @@
     }
    ]
   },
+  "chiesa-di-santa-maria-nova": {
+   "byte": 795068,
+   "secondi": 133,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-di-santa-maria-nova.mp3",
+     "byte": 795068,
+     "secondi": 133,
+     "sha256": "fc8cb100c4461ac78f6f2db615f103ac3106aae4bd7707b67eab99eb09b00b12",
+     "testo": "512e0338529a8e2b"
+    }
+   ]
+  },
   "gallerie-di-palazzo-thiene": {
    "byte": 1751848,
    "secondi": 292,
@@ -101,6 +131,36 @@
     }
    ]
   },
+  "loggia-valmarana": {
+   "byte": 720044,
+   "secondi": 120,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "loggia-valmarana.mp3",
+     "byte": 720044,
+     "secondi": 120,
+     "sha256": "e036ad2ee0417230633d0e6d386dcdf68056dac2f29ce983c65f1f22ebf86fd0",
+     "testo": "db877772d6cfb5e4"
+    }
+   ]
+  },
+  "palazzo-capra": {
+   "byte": 403244,
+   "secondi": 67,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-capra.mp3",
+     "byte": 403244,
+     "secondi": 67,
+     "sha256": "c6dc8594baf0cbf166767e2840ce9e4c017baebe01ecef5ee93a4be40a264afc",
+     "testo": "7b5c6532e7159ecf"
+    }
+   ]
+  },
   "palazzo-chiericati-museo-civico": {
    "byte": 1954456,
    "secondi": 326,
@@ -125,6 +185,51 @@
      "secondi": 146,
      "sha256": "863a0bde75f21b3483e282bebe1547f73cf2cfb62be89e02a369f26f2fa4e372",
      "testo": "555a4589e23dfbd9"
+    }
+   ]
+  },
+  "palazzo-civena-trissino": {
+   "byte": 561068,
+   "secondi": 94,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-civena-trissino.mp3",
+     "byte": 561068,
+     "secondi": 94,
+     "sha256": "bb45ef690731b19904cbc44a0e0bc1f285283b92cd25669ade7f6c46b2fd5e5f",
+     "testo": "0deb00e0274a703e"
+    }
+   ]
+  },
+  "palazzo-da-monte-migliorini": {
+   "byte": 714428,
+   "secondi": 119,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-da-monte-migliorini.mp3",
+     "byte": 714428,
+     "secondi": 119,
+     "sha256": "b4e1b6f1bafe6874bea1e26b5b40c38d32bc7fc9da8afdb765c0d35e15a1013f",
+     "testo": "953c5ca4dfaabfc1"
+    }
+   ]
+  },
+  "palazzo-iseppo-da-porto": {
+   "byte": 873836,
+   "secondi": 146,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-iseppo-da-porto.mp3",
+     "byte": 873836,
+     "secondi": 146,
+     "sha256": "bc3ded9a605b7ec6463cda5304844b3fe17a5df040efea5efd534672429692b4",
+     "testo": "55c644c577e1fbed"
     }
    ]
   },
@@ -170,6 +275,21 @@
      "secondi": 266,
      "sha256": "82ec06975f90ef27c021270b3754d429cdbdcb2853e67b87ef96961827f8a57a",
      "testo": "c9b2017b3e407a5c"
+    }
+   ]
+  },
+  "palladio-nascosto-introduzione": {
+   "byte": 587420,
+   "secondi": 98,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palladio-nascosto-introduzione.mp3",
+     "byte": 587420,
+     "secondi": 98,
+     "sha256": "74c1ff56035af63590c77221fbef28100c593f50353dcece142e7e4bc615b16b",
+     "testo": "cfb14654a6d849df"
     }
    ]
   },
