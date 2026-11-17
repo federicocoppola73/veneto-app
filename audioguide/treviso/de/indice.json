@@ -1,0 +1,126 @@
+{
+ "versione": "dbacddb095f6",
+ "voce": "de-DE-Chirp3-HD-Kore",
+ "luoghi": {
+  "canale-dei-buranelli": {
+   "byte": 1089260,
+   "secondi": 182,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "canale-dei-buranelli.mp3",
+     "byte": 1089260,
+     "secondi": 182,
+     "sha256": "a7b7b994351805675eb765083c9bbf9e976fecd27cd9c11c403329f1e63876ff",
+     "testo": "f50cfd098d0b4d13"
+    }
+   ]
+  },
+  "cattedrale-di-san-pietro-apostolo": {
+   "byte": 1116332,
+   "secondi": 186,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "cattedrale-di-san-pietro-apostolo.mp3",
+     "byte": 1116332,
+     "secondi": 186,
+     "sha256": "d4a235a1f5194de34b697756fc23852e198846541ea72fc502a7ef6fe865be0c",
+     "testo": "f8a427b1c44c5d71"
+    }
+   ]
+  },
+  "chiesa-di-san-francesco": {
+   "byte": 968876,
+   "secondi": 161,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-di-san-francesco.mp3",
+     "byte": 968876,
+     "secondi": 161,
+     "sha256": "9edd1b1ba8564af0e677e1eb8b720698cd36fef19cb2fc4376c1a043870287ff",
+     "testo": "2864a5be49fdff34"
+    }
+   ]
+  },
+  "chiesa-di-san-nicolo": {
+   "byte": 1095452,
+   "secondi": 183,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-di-san-nicolo.mp3",
+     "byte": 1095452,
+     "secondi": 183,
+     "sha256": "84ab9b0775bf56a87647c6591ebca884478cf64d81147c22f4f6068df7c765e4",
+     "testo": "b4b400e60fe0de7e"
+    }
+   ]
+  },
+  "complesso-di-santa-caterina": {
+   "byte": 1339532,
+   "secondi": 223,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "complesso-di-santa-caterina.mp3",
+     "byte": 1339532,
+     "secondi": 223,
+     "sha256": "9845d4566019c1ad1cfae565312a0a66b25dea3e974c56bb001e45b7945681e8",
+     "testo": "4ea8ab43862b2352"
+    }
+   ]
+  },
+  "loggia-dei-cavalieri": {
+   "byte": 690956,
+   "secondi": 115,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "loggia-dei-cavalieri.mp3",
+     "byte": 690956,
+     "secondi": 115,
+     "sha256": "0800dbf11454d2b287b82c4a2b011224ed985aa88e8c76ccbd04916e0c36fdfe",
+     "testo": "601c78ae33d1c663"
+    }
+   ]
+  },
+  "museo-luigi-bailo": {
+   "byte": 1228940,
+   "secondi": 205,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "museo-luigi-bailo.mp3",
+     "byte": 1228940,
+     "secondi": 205,
+     "sha256": "23b4e7f41a05bb6880de78e619f51738a51e363e0d91ca2b9bc8238524bce6ae",
+     "testo": "6e5e8469e6d49c88"
+    }
+   ]
+  },
+  "piazza-dei-signori": {
+   "byte": 1432412,
+   "secondi": 239,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-signori.mp3",
+     "byte": 1432412,
+     "secondi": 239,
+     "sha256": "6d92c2c6e8a21d234fee5ce740c2f886cc2e6ef282b6223fa658ed431ee413c5",
+     "testo": "726bf0b30e21f961"
+    }
+   ]
+  }
+ }
+}
