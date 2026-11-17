@@ -1,34 +1,34 @@
 {
- "versione": "c947fc72ff06",
+ "versione": "b70ba5a2c4c9",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "canale-dei-buranelli": {
-   "byte": 1051820,
-   "secondi": 175,
+   "byte": 1211372,
+   "secondi": 202,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "canale-dei-buranelli.mp3",
-     "byte": 1051820,
-     "secondi": 175,
-     "sha256": "233bd0e46b167f533bae2f130bb7eead6f2c6e0c253088c6e70156c56d2bde07",
-     "testo": "15d08571ae99693c"
+     "byte": 1211372,
+     "secondi": 202,
+     "sha256": "b915f75bab89b982b01f8723f29fede1caf73b180c4153851f7e4cf0585ae6a1",
+     "testo": "40953bb4cba070d0"
     }
    ]
   },
   "cattedrale-di-san-pietro-apostolo": {
-   "byte": 1096748,
-   "secondi": 183,
+   "byte": 1393100,
+   "secondi": 232,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "cattedrale-di-san-pietro-apostolo.mp3",
-     "byte": 1096748,
-     "secondi": 183,
-     "sha256": "dd6b302e04838c1ef5269fbdac4c18cdac33bd6d4c3f9b562937e0e14b97ae9e",
-     "testo": "3f0b71de590048e2"
+     "byte": 1393100,
+     "secondi": 232,
+     "sha256": "15ccad6ef93fc313b5c855f74146443f6bf05ec62c6be1704edb1b63fd7ab45f",
+     "testo": "434b18a09796ee19"
     }
    ]
   },
@@ -48,17 +48,17 @@
    ]
   },
   "chiesa-di-san-nicolo": {
-   "byte": 1042172,
-   "secondi": 174,
+   "byte": 1416716,
+   "secondi": 236,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "chiesa-di-san-nicolo.mp3",
-     "byte": 1042172,
-     "secondi": 174,
-     "sha256": "b744f5e4e2c2fe61f3a7dc835bfcada83b45e17d7657438fbd59aa17a178bd11",
-     "testo": "0263ee6d6ba57bf0"
+     "byte": 1416716,
+     "secondi": 236,
+     "sha256": "fe38cd9613729bea1621199a20dff24e7e2a6ca7130a38791c644e2bb4528fdd",
+     "testo": "b1c91a8a4a549249"
     }
    ]
   },
