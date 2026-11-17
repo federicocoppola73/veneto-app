@@ -143,7 +143,7 @@ export default function GuidaItinerario({
       </View>
       {contenuto}
       {/* audioguida di percorso (es. Canal Grande): resta montata per tutta la guida, anche a itinerario finito */}
-      <AudioItinerario itinerario={itinerario} prossima={prossima} lingua={lingua} t={t} />
+      <AudioItinerario itinerario={itinerario} luoghiPerId={luoghiPerId} prossima={prossima} lingua={lingua} t={t} />
     </View>
   );
 }

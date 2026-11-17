@@ -18,7 +18,8 @@ import { nomeCitta } from '../citta';
 import { datiProxy } from '../dati';
 import {
   audioDelLuogo,
-  audioguidaDelPercorso,
+  luoghiDelPercorso,
+  tracceDelPercorso,
   cancellaAudioguide,
   scaricaAudioguide,
   testoDurata,
@@ -290,48 +291,59 @@ function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, st
 }
 
 // ---- Audioguida di percorso nella guida passo passo dell'itinerario ----
-// props: itinerario, prossima { id, metri } | null (itinerario finito), lingua, t
-export function AudioItinerario({ itinerario, prossima, lingua, t }) {
+// props: itinerario, luoghiPerId, prossima { id, metri } | null (itinerario finito), lingua, t
+export function AudioItinerario({ itinerario, luoghiPerId, prossima, lingua, t }) {
   const { indice, presenti, progresso } = useAudioguide();
-  const id = audioguidaDelPercorso(indice, itinerario);
-  if (!id) return null;
-  const info = indice.luoghi[id];
-  const tracce = presenti.has(id) ? audioDelLuogo(id) : null;
-  if (!tracce?.length) {
+  const ids = luoghiDelPercorso(indice, itinerario);
+  if (!ids.length) return null;
+  const daScaricare = ids.filter((id) => !presenti.has(id));
+  if (daScaricare.length) {
+    const infoTutte = ids.map((id) => indice.luoghi[id]);
+    const nTracce = infoTutte.reduce((n, v) => n + tracceDi(v).length, 0);
+    const secondi = infoTutte.reduce((n, v) => n + (v.secondi || 0), 0);
+    const byte = daScaricare.reduce((n, id) => n + (indice.luoghi[id].byte || 0), 0);
     return (
       <View style={[styles.riga, styles.rigaPercorso]} testID="audio-percorso-da-scaricare">
         <IconaCuffie misura={18} colore="#6d28d9" />
         <View style={{ flex: 1, minWidth: 0 }}>
           <Text style={styles.titoloRiga} numberOfLines={1}>{t('aud_percorso')}</Text>
           <Text style={styles.grigio} numberOfLines={1}>
-            {t('aud_tratti').replace('{n}', String(tracceDi(info).length))} · {testoDurata(info.secondi)}
+            {t('aud_tratti').replace('{n}', String(nTracce))} · {testoDurata(secondi)}
           </Text>
         </View>
         <Pressable
-          onPress={() => scaricaAudioguide([id])}
+          onPress={() => scaricaAudioguide(daScaricare)}
           disabled={!!progresso}
           style={({ pressed }) => [styles.scarica, { minHeight: 36 }, (pressed || progresso) && { opacity: 0.7 }]}
           accessibilityRole="button"
-          accessibilityLabel={`${t('aud_scarica')} (${testoMB(info.byte, lingua)})`}
+          accessibilityLabel={`${t('aud_scarica')} (${testoMB(byte, lingua)})`}
         >
           {progresso ? <ActivityIndicator color="#fff" size="small" /> : <IconaScarica />}
-          <Text style={styles.testoScarica}>{testoMB(info.byte, lingua)}</Text>
+          <Text style={styles.testoScarica}>{testoMB(byte, lingua)}</Text>
         </Pressable>
       </View>
     );
   }
-  return <PercorsoAudio key={id} tracce={tracce} prossima={prossima} t={t} />;
+  // l'introduzione non è una tappa: ha il titolo generico
+  const nomi = Object.fromEntries(ids.map((id) => [id, luoghiPerId?.[id]?.nome || t('aud_introduzione')]));
+  const tracce = tracceDelPercorso(ids, itinerario, nomi);
+  if (!tracce.length) return null;
+  return <PercorsoAudio key={ids.join('|')} tracce={tracce} prossima={prossima} raggio={itinerario.raggioAudioM || VICINO_M} t={t} />;
 }
 
-const VICINO_M = 250; // il tratto parte quando la sua prima tappa è a meno di 250 m (o è già stata superata)
+const VICINO_M = 250; // il tratto parte quando la sua prima tappa è a meno di 250 m (o è già stata superata); itinerario.raggioAudioM lo cambia
 
-function PercorsoAudio({ tracce, prossima, t }) {
+function PercorsoAudio({ tracce, prossima, raggio, t }) {
   // tratto della tappa in arrivo (a itinerario finito: l'ultimo)
   const trattoDi = (idTappa) => tracce.findIndex((tr) => tr.tappe?.includes(idTappa));
   const k = prossima ? trattoDi(prossima.id) : tracce.length - 1;
-  const vicino = !!prossima && k >= 0 && (prossima.id !== tracce[k].tappe[0] || (prossima.metri != null && prossima.metri < VICINO_M));
+  const vicino = !!prossima && k >= 0 && (prossima.id !== tracce[k].tappe[0] || (prossima.metri != null && prossima.metri < raggio));
 
-  const [corrente, setCorrente] = useState(k >= 0 ? k : 0);
+  // percorso con introduzione (tracce prima della prima tappa): finché si è lontani dalla prima tappa si propone l'introduzione
+  const primo = tracce.findIndex((tr) => tr.tappe?.length);
+  const bersaglio = prossima && primo > 0 && k === primo && !vicino ? 0 : k >= 0 ? k : 0;
+
+  const [corrente, setCorrente] = useState(bersaglio);
   const [avvia, setAvvia] = useState(false);
   const [auto, setAuto] = useState(false);
   const [suona, setSuona] = useState(false);
@@ -348,7 +360,7 @@ function PercorsoAudio({ tracce, prossima, t }) {
   useEffect(() => {
     if (k < 0 || suona) return;
     if (auto && vicino && !suonati.current.has(k)) parti(k);
-    else if (k !== corrente && !avvia) setCorrente(k);
+    else if (bersaglio !== corrente && !avvia) setCorrente(bersaglio);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [k, vicino, auto]);
 

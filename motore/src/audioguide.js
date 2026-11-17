@@ -42,6 +42,37 @@ export function audioguidaDelPercorso(indice, itinerario) {
   return null;
 }
 
+// Audioguida di percorso "composta": l'itinerario ha "audioPercorso", l'elenco ordinato dei luoghi (id) le cui audioguide
+// formano il percorso (es. un'introduzione e poi una o due tracce per ogni tappa), senza duplicare gli MP3.
+// Senza "audioPercorso" vale il caso classico (un solo luogo con le tracce a tappe, come il Canal Grande).
+// Restituisce gli id dei luoghi dell'indice, nell'ordine in cui si ascoltano (array vuoto se non c'è audioguida).
+export function luoghiDelPercorso(indice, itinerario) {
+  if (indice?.luoghi && Array.isArray(itinerario?.audioPercorso)) {
+    const ids = itinerario.audioPercorso.filter((id) => indice.luoghi[id]);
+    if (ids.length) return ids;
+  }
+  const id = audioguidaDelPercorso(indice, itinerario);
+  return id ? [id] : [];
+}
+
+// Tracce da ascoltare del percorso, tutte già sul telefono: [{ id, titolo, uri, secondi, tappe }].
+// Nel percorso composto la prima traccia di ogni tappa (l'esterno) parte da sola vicino al luogo ("tappe" = [id luogo]);
+// le altre (l'interno) e l'introduzione restano manuali (tappe = null).
+export function tracceDelPercorso(ids, itinerario, nomi = {}) {
+  const composto = Array.isArray(itinerario?.audioPercorso);
+  return ids.flatMap((id) =>
+    (audioDelLuogo(id) || []).map((tr, j) => {
+      if (!composto) return tr;
+      const nome = nomi[id] || null;
+      return {
+        ...tr,
+        titolo: tr.titolo && nome ? `${nome} · ${tr.titolo}` : nome || tr.titolo,
+        tappe: j === 0 && itinerario.tappe?.includes(id) ? [id] : null,
+      };
+    })
+  );
+}
+
 // Audioguide già sul telefono: file presente con la dimensione dell'indice (un MP3 rigenerato va riscaricato)
 async function leggiPresenti(chiave, indice) {
   const presenti = new Set();
