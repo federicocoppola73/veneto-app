@@ -1,5 +1,5 @@
 {
- "versione": "e1c1101c586d",
+ "versione": "c1a546544f5c",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
@@ -14,6 +14,21 @@
      "secondi": 198,
      "sha256": "a0710ee436a8b12e3c4c6718fa07b679e76b355b072a1bab69797d14a30670a8",
      "testo": "fb4c69a3bea49b0e"
+    }
+   ]
+  },
+  "arco-dei-gavi": {
+   "byte": 1162412,
+   "secondi": 194,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "arco-dei-gavi.mp3",
+     "byte": 1162412,
+     "secondi": 194,
+     "sha256": "53db0e9ff355f53e632ce5ffcaa17fbeb31d160b97561a1178d0ce0ef0e0d9cf",
+     "testo": "ca9c5e1a8379c2cc"
     }
    ]
   },
@@ -233,6 +248,21 @@
      "secondi": 229,
      "sha256": "330ec2c8ffff4f382f114e1a9a7efcacee75ced2663c25078b1674c48c549a98",
      "testo": "ee6b1425d98f96bf"
+    }
+   ]
+  },
+  "piazza-bra": {
+   "byte": 1342844,
+   "secondi": 224,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-bra.mp3",
+     "byte": 1342844,
+     "secondi": 224,
+     "sha256": "c8a4e927e54c38fedff1aa8c4f1334eb163d2f798ef3b25e90570c03ba0f608a",
+     "testo": "bd6eeaef82360720"
     }
    ]
   },
