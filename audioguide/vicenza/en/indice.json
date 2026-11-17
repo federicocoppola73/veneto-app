@@ -1,0 +1,204 @@
+{
+ "versione": "941c3924376b",
+ "voce": "en-GB-Chirp3-HD-Kore",
+ "luoghi": {
+  "basilica-palladiana": {
+   "byte": 1943224,
+   "secondi": 324,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "basilica-palladiana__esterno.mp3",
+     "byte": 1021292,
+     "secondi": 170,
+     "sha256": "6291ce75e80dc3941a595af3adc67dd4f946ae36eb0c41f729085ed7e41dda4c",
+     "testo": "2c444c43d1e80f02",
+     "tappe": [
+      "basilica-palladiana"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "basilica-palladiana__interno.mp3",
+     "byte": 921932,
+     "secondi": 154,
+     "sha256": "19056436e70cb30511262f7f7b413c5dea78cdcda8843f71575eaecb6176f5c3",
+     "testo": "f9eaa71a246369bb"
+    }
+   ]
+  },
+  "cappella-valmarana": {
+   "byte": 594620,
+   "secondi": 99,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "cappella-valmarana.mp3",
+     "byte": 594620,
+     "secondi": 99,
+     "sha256": "dd23b095023752d2fcdea5a1ecbd5172e252fe5cf09560ed6b31d11c931f108b",
+     "testo": "82f25e600564f1a3"
+    }
+   ]
+  },
+  "casa-cogollo": {
+   "byte": 799820,
+   "secondi": 133,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "casa-cogollo.mp3",
+     "byte": 799820,
+     "secondi": 133,
+     "sha256": "82188107489b68fc47590089105500ec950fabed87e392a2c079938878287309",
+     "testo": "ef4f655cbad19669"
+    }
+   ]
+  },
+  "gallerie-di-palazzo-thiene": {
+   "byte": 1654504,
+   "secondi": 276,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "gallerie-di-palazzo-thiene__esterno.mp3",
+     "byte": 922508,
+     "secondi": 154,
+     "sha256": "7acd6e7c9602efd972634283ad109bf52d8116e8c9f3520249471abaf07a79ed",
+     "testo": "05744b4a6738950d",
+     "tappe": [
+      "gallerie-di-palazzo-thiene"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "gallerie-di-palazzo-thiene__interno.mp3",
+     "byte": 731996,
+     "secondi": 122,
+     "sha256": "f58c5fc490aed842e1b619f56c742b490b191bf0d15eca09d6524a64b1031627",
+     "testo": "95305e217e185226"
+    }
+   ]
+  },
+  "loggia-del-capitaniato": {
+   "byte": 829196,
+   "secondi": 138,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "loggia-del-capitaniato.mp3",
+     "byte": 829196,
+     "secondi": 138,
+     "sha256": "ecd07b9c9f9f176c61a6aceadf5b33db72e3d9eecdbd26b2d1604552cd090ba0",
+     "testo": "6bfeedc6f47cea11"
+    }
+   ]
+  },
+  "palazzo-chiericati-museo-civico": {
+   "byte": 1833208,
+   "secondi": 305,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "palazzo-chiericati-museo-civico__esterno.mp3",
+     "byte": 972908,
+     "secondi": 162,
+     "sha256": "ddc460d03b088fe00f343bdb4cbed2066dbd90ffd10574596394b63b467dac14",
+     "testo": "56c7e45ac4f68c75",
+     "tappe": [
+      "palazzo-chiericati-museo-civico"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "palazzo-chiericati-museo-civico__interno.mp3",
+     "byte": 860300,
+     "secondi": 143,
+     "sha256": "8ab53a6b5b53c7f4292dd209e0efda8cbc54734d5537ab9537172b9bc42c4368",
+     "testo": "f5d5f97e3800d97b"
+    }
+   ]
+  },
+  "palazzo-porto-breganze": {
+   "byte": 612620,
+   "secondi": 102,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-porto-breganze.mp3",
+     "byte": 612620,
+     "secondi": 102,
+     "sha256": "0c8cf71d5aa701ba3b0a4ed23e3692034e7e2164f816ff1cdb49ec761fe128ac",
+     "testo": "72a3294b3644938d"
+    }
+   ]
+  },
+  "palazzo-valmarana-braga": {
+   "byte": 668492,
+   "secondi": 111,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-valmarana-braga.mp3",
+     "byte": 668492,
+     "secondi": 111,
+     "sha256": "0e3998d68da3da4128cc4c3029cab773fe57aca1017fee2589ab13c4b34a4358",
+     "testo": "ef18f4752cb84b01"
+    }
+   ]
+  },
+  "palladio-classico-introduzione": {
+   "byte": 1466972,
+   "secondi": 244,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palladio-classico-introduzione.mp3",
+     "byte": 1466972,
+     "secondi": 244,
+     "sha256": "9751605619e8bad575defcd498ce3ab251f3a60593b736a06b5a1687785ebe13",
+     "testo": "bd4babd217d1625f"
+    }
+   ]
+  },
+  "teatro-olimpico": {
+   "byte": 1681864,
+   "secondi": 280,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Exterior",
+     "file": "teatro-olimpico__esterno.mp3",
+     "byte": 731132,
+     "secondi": 122,
+     "sha256": "b3d528dcab979cf41c299f45474b100965c7ce7b444702031b293eabbf29936c",
+     "testo": "1da2d016b2837860",
+     "tappe": [
+      "teatro-olimpico"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Interior",
+     "file": "teatro-olimpico__interno.mp3",
+     "byte": 950732,
+     "secondi": 158,
+     "sha256": "b34c08c6be44a1800eb8224c891997073df460d3bfc57504a1fc2186333b90ac",
+     "testo": "8c2e86e1647d0b6c"
+    }
+   ]
+  }
+ }
+}

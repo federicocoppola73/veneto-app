@@ -1,5 +1,5 @@
 {
- "versione": "ed34aaaa090a",
+ "versione": "95677e3bdd4f",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-palladiana": {
@@ -45,32 +45,32 @@
    ]
   },
   "casa-cogollo": {
-   "byte": 897452,
-   "secondi": 150,
+   "byte": 885068,
+   "secondi": 148,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "casa-cogollo.mp3",
-     "byte": 897452,
-     "secondi": 150,
-     "sha256": "e223380d0c8f85808ae56f402ceb0fbf9bc81ac397899e0dda19327205637c03",
-     "testo": "cb330b356ab47486"
+     "byte": 885068,
+     "secondi": 148,
+     "sha256": "9159205b335e2271e476a4fce37f31c71724a197945f267917ee1e7939add1f1",
+     "testo": "798d109c740463e8"
     }
    ]
   },
   "gallerie-di-palazzo-thiene": {
-   "byte": 1828312,
-   "secondi": 304,
+   "byte": 1812760,
+   "secondi": 302,
    "tracce": [
     {
      "id": "esterno",
      "titolo": "Esterno",
      "file": "gallerie-di-palazzo-thiene__esterno.mp3",
-     "byte": 991772,
-     "secondi": 165,
-     "sha256": "5857d8db4b83e6e4bb447d95726fc36392f11e9240177b3c49cbe5bc61f62bd7",
-     "testo": "6483c2f88396c127",
+     "byte": 996668,
+     "secondi": 166,
+     "sha256": "51ed43a9db225afa03ac1cac2b7043292f5fad958fa380b783c1713f260b6260",
+     "testo": "ddcec3b1a8b8bbd4",
      "tappe": [
       "gallerie-di-palazzo-thiene"
      ]
@@ -79,10 +79,10 @@
      "id": "interno",
      "titolo": "Interno",
      "file": "gallerie-di-palazzo-thiene__interno.mp3",
-     "byte": 836540,
-     "secondi": 139,
-     "sha256": "42b12d8486c2ab3578b4e14531a82245e37727a3e27c16e4e467c8346e54e437",
-     "testo": "57d0cf81b7a1d04d"
+     "byte": 816092,
+     "secondi": 136,
+     "sha256": "f48106e26ba14b8286cfd92c157215758c0346fe913fb344c68dfb7dd627150d",
+     "testo": "d48c275b2324dc71"
     }
    ]
   },
@@ -144,17 +144,17 @@
    ]
   },
   "palazzo-valmarana-braga": {
-   "byte": 928412,
-   "secondi": 155,
+   "byte": 771884,
+   "secondi": 129,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "palazzo-valmarana-braga.mp3",
-     "byte": 928412,
-     "secondi": 155,
-     "sha256": "c318eefa5f9a03312fe4e975a1145a31c1c7ef4ebf837eb6de5aee230aabb71e",
-     "testo": "158f111ec8c914a0"
+     "byte": 771884,
+     "secondi": 129,
+     "sha256": "5870bf931fd01f8aa253d612ed5dbad5607948b3f399026ba4fafff7c5d7c683",
+     "testo": "e82266b5b8c7ab31"
     }
    ]
   },
@@ -174,8 +174,8 @@
    ]
   },
   "teatro-olimpico": {
-   "byte": 1901176,
-   "secondi": 317,
+   "byte": 1895560,
+   "secondi": 316,
    "tracce": [
     {
      "id": "esterno",
@@ -193,10 +193,10 @@
      "id": "interno",
      "titolo": "Interno",
      "file": "teatro-olimpico__interno.mp3",
-     "byte": 1081052,
-     "secondi": 180,
-     "sha256": "71cede2b3a1090009715934eca65a650bd8a46af2da19dde27c025f2ebd4604b",
-     "testo": "c59232cbd9f49e2a"
+     "byte": 1075436,
+     "secondi": 179,
+     "sha256": "0eeafc62608010ad4d8931dd5b59afb76842b69d96e45749144debe37e00099c",
+     "testo": "d52eed3e96e06553"
     }
    ]
   }
