@@ -61,7 +61,25 @@
         "loggia-valmarana",
         "chiesa-di-santa-maria-nova"
       ],
-      "metri": 3162
+      "metri": 3162,
+      "descrizione": {
+        "it": "Il secondo itinerario palladiano porta lontano dai grandi monumenti, alla scoperta dei primi palazzi di Palladio e di opere a lui attribuite o legate alla sua scuola: un arco trionfale, palazzi da guardare dalla strada, una loggia in un giardino e una chiesa oggi chiusa. Poco più di tre chilometri a piedi, con un'audioguida per ogni tappa che parte quando ti avvicini. La biografia di Palladio si trova nell'introduzione del primo itinerario.",
+        "en": "The second Palladian itinerary leads away from the great monuments, to discover Palladio's first palaces and works attributed to him or linked to his school: a triumphal arch, palaces to admire from the street, a loggia in a garden and a church that is now closed. A little over three kilometres on foot, with an audio guide for each stop that starts when you get close. Palladio's biography can be found in the introduction to the first itinerary.",
+        "fr": "Le second itinéraire palladien emmène loin des grands monuments, à la découverte des premiers palais de Palladio et d'œuvres qui lui sont attribuées ou liées à son école : un arc de triomphe, des palais à regarder depuis la rue, une loggia dans un jardin et une église aujourd'hui fermée. Un peu plus de trois kilomètres à pied, avec un audioguide pour chaque étape qui démarre quand vous vous approchez. La biographie de Palladio se trouve dans l'introduction du premier itinéraire.",
+        "de": "Die zweite Palladio-Route führt abseits der großen Monumente zu Palladios ersten Palästen und zu Werken, die ihm zugeschrieben werden oder mit seiner Schule verbunden sind: ein Triumphbogen, Paläste, die man von der Straße aus betrachtet, eine Loggia in einem Garten und eine heute geschlossene Kirche. Etwas mehr als drei Kilometer zu Fuß, mit einem Audioguide für jede Station, der startet, wenn Sie sich nähern. Palladios Biografie finden Sie in der Einführung zur ersten Route.",
+        "es": "El segundo itinerario palladiano lleva lejos de los grandes monumentos, para descubrir los primeros palacios de Palladio y obras que se le atribuyen o que están ligadas a su escuela: un arco triunfal, palacios para mirar desde la calle, una logia en un jardín y una iglesia hoy cerrada. Algo más de tres kilómetros a pie, con una audioguía para cada parada que empieza cuando te acercas. La biografía de Palladio se encuentra en la introducción del primer itinerario."
+      },
+      "audioPercorso": [
+        "palladio-nascosto-introduzione",
+        "arco-delle-scalette",
+        "palazzo-civena-trissino",
+        "palazzo-da-monte-migliorini",
+        "palazzo-iseppo-da-porto",
+        "palazzo-capra",
+        "loggia-valmarana",
+        "chiesa-di-santa-maria-nova"
+      ],
+      "raggioAudioM": 50
     }
   ]
 }
