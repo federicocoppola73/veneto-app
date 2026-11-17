@@ -1,5 +1,5 @@
 {
- "versione": "1bc259121689",
+ "versione": "510b8e96b462",
  "file": [
   {
    "path": "assets/cibi/asparago-bianco-bassano.webp",
@@ -1026,6 +1026,30 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/luoghi/piazza-dei-signori_4.webp",
    "sha256": "53d38e8bd7266be6f4a1e479c559cd0c1237ae23155600bb8e261c2bdecb8056",
    "byte": 89532
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/luoghi/piazza-delle-erbe.webp",
+   "sha256": "e4639f35d5593f9ff17b9ee9bb6064d7f4ff80835e999386e07e13ded9f4379c",
+   "byte": 222456
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/luoghi/piazza-delle-erbe_2.webp",
+   "sha256": "86d24e2d6aad6e813e6c26ebb3e56675dd84ae667d143477d6f8c5dfa76c34d1",
+   "byte": 256796
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/luoghi/piazza-delle-erbe_3.webp",
+   "sha256": "44401a335511c5b4f3c4233b61dfe767864ebec7fcc3b19c63b78038c2a4732d",
+   "byte": 112572
+  },
+  {
+   "path": "assets/luoghi/piazza-delle-erbe_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/luoghi/piazza-delle-erbe_4.webp",
+   "sha256": "03e00a69ae45e8bdad9bb1106e07916b2d161956b809b0d07ea8decfd71601f0",
+   "byte": 164162
   },
   {
    "path": "assets/luoghi/piazza-san-lorenzo.webp",
@@ -5968,20 +5992,20 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/immagini.json",
-   "sha256": "5dcfeef03279ab0e5c954ebcaee7b2a381bebc22d0ce146ece8c9a0d0234abbb",
-   "byte": 2544
+   "sha256": "8849b3278ce04d43b064da1471d9d81a23a1d30b370775892f33b15fb92edbe2",
+   "byte": 2570
   },
   {
    "path": "dati/itinerari.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/itinerari.json",
-   "sha256": "3fc05bf6d98cc19d2c81dde7ae77f22350e475079859650d8169dc0156b4976d",
-   "byte": 1265
+   "sha256": "d4626b5bc67f3151fcddeb1c391f3366120645f54ee69f0689a22c326a264d28",
+   "byte": 6505
   },
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/luoghi.json",
-   "sha256": "dfd8294686145bbf6753588b82e3f96f015e67f2d292db80411be5b214454942",
-   "byte": 413157
+   "sha256": "e9459c7f69c8414a8db3ecce6b0d7e5846227c5095b9d986b9d30921fedb7538",
+   "byte": 419238
   },
   {
    "path": "dati/mappa.json",
@@ -6038,5 +6062,17 @@
    "byte": 122
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "510b8e96b462",
+   "da": "1bc259121689",
+   "data": "2026-11-17",
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "foto"
+   ],
+   "foto_nuove": 4,
+   "byte": 1184299
+  }
+ ]
 }

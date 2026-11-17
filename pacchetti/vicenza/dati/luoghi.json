@@ -404,11 +404,27 @@
         "gratuito": true
       },
       "immagine": {
-        "autore": "Autore non indicato",
-        "licenza": "",
+        "autore": "Sirleonidas",
+        "licenza": "CC BY-SA 4.0",
         "fonte": ""
       },
-      "galleria": []
+      "galleria": [
+        {
+          "autore": "Palickap",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Palickap",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        },
+        {
+          "autore": "Palickap",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": ""
+        }
+      ]
     },
     {
       "id": "piazza-matteotti",
