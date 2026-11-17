@@ -1,0 +1,171 @@
+{
+ "versione": "93e0be6095a9",
+ "voce": "it-IT-Chirp3-HD-Kore",
+ "luoghi": {
+  "accademia-dei-concordi": {
+   "byte": 415052,
+   "secondi": 69,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "accademia-dei-concordi.mp3",
+     "byte": 415052,
+     "secondi": 69,
+     "sha256": "696602c53d2c2112ef63aeaade7b4faae5138d04cd41789e35388a8ebb003254",
+     "testo": "7d67a104b1677096"
+    }
+   ]
+  },
+  "chiesa-santi-francesco-e-giustina": {
+   "byte": 537164,
+   "secondi": 90,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "chiesa-santi-francesco-e-giustina.mp3",
+     "byte": 537164,
+     "secondi": 90,
+     "sha256": "0af2d4f062e85d76be43f5caea5cc50e82f7b174f6af95739b376bdba1ebc5ca",
+     "testo": "54cb9cc031fe7a77"
+    }
+   ]
+  },
+  "duomo-santo-stefano": {
+   "byte": 516284,
+   "secondi": 86,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "duomo-santo-stefano.mp3",
+     "byte": 516284,
+     "secondi": 86,
+     "sha256": "ecc6a2b797bc725f603c58e5dc0facb64d21b566dc599ed76ac089098f69ea6b",
+     "testo": "fc6d5425c3393f74"
+    }
+   ]
+  },
+  "loggia-dei-nodari": {
+   "byte": 502892,
+   "secondi": 84,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "loggia-dei-nodari.mp3",
+     "byte": 502892,
+     "secondi": 84,
+     "sha256": "80ae5e011709e3d76de298d200132cd29fb91e0037487d3e36770c0dff8d05d6",
+     "testo": "3386c4a362266e64"
+    }
+   ]
+  },
+  "palazzo-roncale": {
+   "byte": 509372,
+   "secondi": 85,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-roncale.mp3",
+     "byte": 509372,
+     "secondi": 85,
+     "sha256": "29cc06de6bab36cab3c6b64b26f1708f06b1ec80884a924f838c7b34dbd2a954",
+     "testo": "90d970d3d5a8da39"
+    }
+   ]
+  },
+  "palazzo-roverella": {
+   "byte": 506492,
+   "secondi": 84,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "palazzo-roverella.mp3",
+     "byte": 506492,
+     "secondi": 84,
+     "sha256": "9dc333e09e16e78a07effb74fd750035098f562e07736f1256d5d029ab239513",
+     "testo": "9c0b25d9e209459c"
+    }
+   ]
+  },
+  "piazza-giuseppe-garibaldi": {
+   "byte": 556460,
+   "secondi": 93,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-giuseppe-garibaldi.mp3",
+     "byte": 556460,
+     "secondi": 93,
+     "sha256": "15a92da9f5fa121437eb20802a3bbacecea64bc6d6f22f9ea2a8b919bffc78d6",
+     "testo": "a6861ea430aebe28"
+    }
+   ]
+  },
+  "piazza-vittorio-emanuele-ii": {
+   "byte": 509516,
+   "secondi": 85,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-vittorio-emanuele-ii.mp3",
+     "byte": 509516,
+     "secondi": 85,
+     "sha256": "827c99508438625b21f281867c0dd5a70555bc01989e628b1be1b8132b4fe39d",
+     "testo": "3386c4a362266e64"
+    }
+   ]
+  },
+  "teatro-sociale": {
+   "byte": 553868,
+   "secondi": 92,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "teatro-sociale.mp3",
+     "byte": 553868,
+     "secondi": 92,
+     "sha256": "150c653f052158924d845202844d3af97d3022d7e27b2c6bb58e9ae5e6991857",
+     "testo": "a6861ea430aebe28"
+    }
+   ]
+  },
+  "tempio-la-rotonda": {
+   "byte": 718460,
+   "secondi": 120,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "tempio-la-rotonda.mp3",
+     "byte": 718460,
+     "secondi": 120,
+     "sha256": "549b0f097d9c4e8dcf9fe7ad5972fca250cbb1b639272eaeefc04251f2a43cae",
+     "testo": "073b69411b7f69dd"
+    }
+   ]
+  },
+  "torre-dona-castello": {
+   "byte": 384092,
+   "secondi": 64,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "torre-dona-castello.mp3",
+     "byte": 384092,
+     "secondi": 64,
+     "sha256": "4d43fc6a356530f9772be0074d56bc44f2c64243afc4c838b3fd8015caf93641",
+     "testo": "83394ea57ef766ad"
+    }
+   ]
+  }
+ }
+}
