@@ -379,6 +379,70 @@
       }
     },
     {
+      "id": "piazza-delle-erbe",
+      "nome": "Piazza delle Erbe",
+      "categoria": "piazze",
+      "sestiere": "Centro",
+      "latitudine": 45.5466,
+      "longitudine": 11.5467,
+      "descrizione": {
+        "it": "Piazza a sud della Basilica Palladiana, un tempo mercato della frutta e della verdura. È dominata dalla medievale Torre del Girone, detta anche Torre del Tormento, collegata alla Basilica dall'Arco degli Zavatteri.",
+        "en": "Square south of the Palladian Basilica, once the city's fruit and vegetable market. It is dominated by the medieval Torre del Girone, also called Torre del Tormento, linked to the Basilica by the Arco degli Zavatteri.",
+        "fr": "Place au sud de la Basilique palladienne, autrefois marché aux fruits et légumes de la ville. Elle est dominée par la tour médiévale du Girone, appelée aussi Torre del Tormento, reliée à la Basilique par l'Arco degli Zavatteri.",
+        "de": "Platz südlich der Basilica Palladiana, einst der Obst- und Gemüsemarkt der Stadt. Er wird vom mittelalterlichen Torre del Girone beherrscht, auch Torre del Tormento genannt, der durch den Arco degli Zavatteri mit der Basilika verbunden ist.",
+        "es": "Plaza al sur de la Basílica Palladiana, antiguo mercado de frutas y verduras de la ciudad. La domina la medieval Torre del Girone, llamada también Torre del Tormento, unida a la Basílica por el Arco degli Zavatteri."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Orari: spazio pubblico, sempre accessibile. Biglietti: gratuito.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Hours: public space, always accessible. Tickets: free.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Horaires: espace public, toujours accessible. Billets: gratuit.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Öffnungszeiten: öffentlicher Raum, immer zugänglich. Eintritt: kostenlos.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Horario: espacio público, siempre accesible. Entradas: gratuito.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "biglietto": {
+        "gratuito": true
+      },
+      "immagine": {
+        "autore": "Autore non indicato",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": []
+    },
+    {
+      "id": "piazza-matteotti",
+      "nome": "Piazza Matteotti",
+      "categoria": "piazze",
+      "sestiere": "Centro",
+      "latitudine": 45.5494,
+      "longitudine": 11.5493,
+      "descrizione": {
+        "it": "Un tempo piazza dell'Isola, perché quasi circondata dalle acque del Retrone e del Bacchiglione. Vi affacciano Palazzo Chiericati, di Palladio, oggi sede del Museo Civico, e il Teatro Olimpico, ultima opera dell'architetto.",
+        "en": "Once called piazza dell'Isola, because it was almost surrounded by the waters of the Retrone and Bacchiglione. It is overlooked by Palazzo Chiericati, by Palladio, now home to the Museo Civico, and by the Teatro Olimpico, the architect's last work.",
+        "fr": "Appelée autrefois piazza dell'Isola, car presque entourée par les eaux du Retrone et du Bacchiglione. Elle est dominée par le Palazzo Chiericati, de Palladio, aujourd'hui siège du Musée civique, et par le Teatro Olimpico, dernière œuvre de l'architecte.",
+        "de": "Früher Piazza dell'Isola, da sie fast von den Wassern des Retrone und des Bacchiglione umgeben war. An ihr liegen der Palazzo Chiericati von Palladio, heute Sitz des Museo Civico, und das Teatro Olimpico, das letzte Werk des Architekten.",
+        "es": "Antes llamada piazza dell'Isola, porque estaba casi rodeada por las aguas del Retrone y del Bacchiglione. En ella se asoman el Palazzo Chiericati, de Palladio, hoy sede del Museo Cívico, y el Teatro Olimpico, la última obra del arquitecto."
+      },
+      "orari": [],
+      "nota": {
+        "it": "Orari: spazio pubblico, sempre accessibile. Biglietti: gratuito.\n\nNota: Orari e prezzi dei biglietti possono variare. Si consiglia di verificarli sul sito ufficiale o direttamente in loco prima della visita.",
+        "en": "Hours: public space, always accessible. Tickets: free.\n\nNote: Opening hours and ticket prices may change. Please check the official website or the venue before your visit.",
+        "fr": "Horaires: espace public, toujours accessible. Billets: gratuit.\n\nRemarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
+        "de": "Öffnungszeiten: öffentlicher Raum, immer zugänglich. Eintritt: kostenlos.\n\nHinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
+        "es": "Horario: espacio público, siempre accesible. Entradas: gratuito.\n\nNota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "biglietto": {
+        "gratuito": true
+      },
+      "immagine": {
+        "autore": "Autore non indicato",
+        "licenza": "",
+        "fonte": ""
+      },
+      "galleria": []
+    },
+    {
       "id": "palazzo-chiericati-museo-civico",
       "nome": "Palazzo Chiericati (Museo Civico)",
       "categoria": "palazzi",
