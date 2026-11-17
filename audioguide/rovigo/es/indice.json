@@ -1,5 +1,5 @@
 {
- "versione": "bf12634cfadd",
+ "versione": "60fcce76fc91",
  "voce": "es-ES-Chirp3-HD-Kore",
  "luoghi": {
   "accademia-dei-concordi": {
@@ -14,6 +14,21 @@
      "secondi": 69,
      "sha256": "46bd6feae6a92e7bfb0e4a580896ccb17359c51ac8a985d0c2c3202fc5cd2ec6",
      "testo": "21bb9d5abc844aad"
+    }
+   ]
+  },
+  "adigetto-scomparso": {
+   "byte": 913292,
+   "secondi": 152,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "adigetto-scomparso.mp3",
+     "byte": 913292,
+     "secondi": 152,
+     "sha256": "f441e0f05aeea858b63a14ec093f013e7715f6e0476300bf794380ca72f424bd",
+     "testo": "63632f50f66eb8db"
     }
    ]
   },
@@ -122,6 +137,21 @@
     }
    ]
   },
+  "porta-san-bortolo": {
+   "byte": 728684,
+   "secondi": 121,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "porta-san-bortolo.mp3",
+     "byte": 728684,
+     "secondi": 121,
+     "sha256": "b365bdbc6809b96c4414467efd8dc35f2ec965512de3db9a4cc48cb68b87c576",
+     "testo": "014ce6f4540b58a9"
+    }
+   ]
+  },
   "teatro-sociale": {
    "byte": 545660,
    "secondi": 91,
@@ -164,6 +194,21 @@
      "secondi": 64,
      "sha256": "9146c0986da36d3ccdfac75a60665178330973087f76ca827dc798808f21f31d",
      "testo": "fccba2a6633b44de"
+    }
+   ]
+  },
+  "torre-pighin": {
+   "byte": 347372,
+   "secondi": 58,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "torre-pighin.mp3",
+     "byte": 347372,
+     "secondi": 58,
+     "sha256": "e59e6daf7f2bdbe2f0329c8272c9257980e502c4717c9e161f88195b3a4c4938",
+     "testo": "0430620b8cd45aa0"
     }
    ]
   }
