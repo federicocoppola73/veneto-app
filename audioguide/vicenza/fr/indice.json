@@ -1,5 +1,5 @@
 {
- "versione": "1316a7378103",
+ "versione": "888a6b703b8a",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "arco-delle-scalette": {
@@ -89,6 +89,33 @@
     }
    ]
   },
+  "duomo-cattedrale-di-santa-maria-annunciata": {
+   "byte": 1686040,
+   "secondi": 281,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Extérieur",
+     "file": "duomo-cattedrale-di-santa-maria-annunciata__esterno.mp3",
+     "byte": 910124,
+     "secondi": 152,
+     "sha256": "ce137787802af3039e57fa156d15522a6931032770f4971c27681d67a40414a5",
+     "testo": "4a5e3faf13e39495",
+     "tappe": [
+      "duomo-cattedrale-di-santa-maria-annunciata"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Intérieur",
+     "file": "duomo-cattedrale-di-santa-maria-annunciata__interno.mp3",
+     "byte": 775916,
+     "secondi": 129,
+     "sha256": "fd0f96108161c662672ad523fa418895b539ada7641e591ab779e2682aba628f",
+     "testo": "2d519dac9d591656"
+    }
+   ]
+  },
   "gallerie-di-palazzo-thiene": {
    "byte": 1693384,
    "secondi": 282,
@@ -143,6 +170,21 @@
      "secondi": 119,
      "sha256": "4c55ae79b3fa40ac12cf37d5b8bb28f014ee09c8d86537a369403499ce585c2f",
      "testo": "e3ca9b36624b45d6"
+    }
+   ]
+  },
+  "museo-naturalistico-e-archeologico": {
+   "byte": 1299212,
+   "secondi": 217,
+   "tracce": [
+    {
+     "id": "interno",
+     "titolo": "Intérieur",
+     "file": "museo-naturalistico-e-archeologico__interno.mp3",
+     "byte": 1299212,
+     "secondi": 217,
+     "sha256": "6be02bfd034b64d9073f7772579368dbce9c2a6910d61a956dbb04b63ffb39da",
+     "testo": "625da2ceb80892dd"
     }
    ]
   },
@@ -293,6 +335,78 @@
     }
    ]
   },
+  "piazza-dei-signori": {
+   "byte": 1137212,
+   "secondi": 190,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-signori.mp3",
+     "byte": 1137212,
+     "secondi": 190,
+     "sha256": "daa0cf53c0b022b991e5667e21f86f35e718e60a3193ac3b0f17f9dd5be91b79",
+     "testo": "df712a2ad90568e9"
+    }
+   ]
+  },
+  "piazza-delle-erbe": {
+   "byte": 489932,
+   "secondi": 82,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-delle-erbe.mp3",
+     "byte": 489932,
+     "secondi": 82,
+     "sha256": "e6fe3a4bb2a40b8fe45a6e4196de25a926fa574fd96e4a06e505e12db23e7e68",
+     "testo": "4fbcc40a688270be"
+    }
+   ]
+  },
+  "piazza-matteotti": {
+   "byte": 976796,
+   "secondi": 163,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-matteotti.mp3",
+     "byte": 976796,
+     "secondi": 163,
+     "sha256": "dfa2bc3d32bb38c14b76584889db0c08f2e42548bc3c5d2f52284ea4c731a25c",
+     "testo": "0b0ae957f6bd7497"
+    }
+   ]
+  },
+  "santuario-di-monte-berico": {
+   "byte": 1943512,
+   "secondi": 324,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Extérieur",
+     "file": "santuario-di-monte-berico__esterno.mp3",
+     "byte": 912860,
+     "secondi": 152,
+     "sha256": "9cb74c835b2d00f73df36ba53219309db9e9712dc91a68b02754e74a40312542",
+     "testo": "db32d5f5ada5ea05",
+     "tappe": [
+      "santuario-di-monte-berico"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Intérieur",
+     "file": "santuario-di-monte-berico__interno.mp3",
+     "byte": 1030652,
+     "secondi": 172,
+     "sha256": "9b3f1e888c0c55aaa8914f96ce9c3720bfae236997347dbcf9e7bdb32245566a",
+     "testo": "21aa5a6a742f0f43"
+    }
+   ]
+  },
   "teatro-olimpico": {
    "byte": 1773448,
    "secondi": 296,
@@ -317,6 +431,21 @@
      "secondi": 170,
      "sha256": "12b32c36fed38821d098e2af3e596a9731fcdd4a51329f0c25244ffbb262e494",
      "testo": "3a9bdf996ba243d2"
+    }
+   ]
+  },
+  "tempio-di-santa-corona": {
+   "byte": 1515788,
+   "secondi": 253,
+   "tracce": [
+    {
+     "id": "interno",
+     "titolo": "Intérieur",
+     "file": "tempio-di-santa-corona__interno.mp3",
+     "byte": 1515788,
+     "secondi": 253,
+     "sha256": "a1797ba9252f93299d7600ff36e72e1282ced8a4ecaa92399ffb34f9451c8461",
+     "testo": "7b066aaf5a03dd4e"
     }
    ]
   }

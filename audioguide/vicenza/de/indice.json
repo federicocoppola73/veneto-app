@@ -1,5 +1,5 @@
 {
- "versione": "bd7ef93cf46c",
+ "versione": "ac2267f799ce",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "arco-delle-scalette": {
@@ -89,6 +89,33 @@
     }
    ]
   },
+  "duomo-cattedrale-di-santa-maria-annunciata": {
+   "byte": 1884040,
+   "secondi": 314,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Außen",
+     "file": "duomo-cattedrale-di-santa-maria-annunciata__esterno.mp3",
+     "byte": 973628,
+     "secondi": 162,
+     "sha256": "b51bf013d857e640f857a4f4e343c0b3c66241193c217cef09517af2b9f2787a",
+     "testo": "91e69343a7fefb0a",
+     "tappe": [
+      "duomo-cattedrale-di-santa-maria-annunciata"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "duomo-cattedrale-di-santa-maria-annunciata__interno.mp3",
+     "byte": 910412,
+     "secondi": 152,
+     "sha256": "d45404e23e4c23b4f5cee1de5b31a04fac421aa81ac23e5139005a062caf4356",
+     "testo": "8ecacaa59c4b999c"
+    }
+   ]
+  },
   "gallerie-di-palazzo-thiene": {
    "byte": 1868344,
    "secondi": 312,
@@ -143,6 +170,21 @@
      "secondi": 123,
      "sha256": "afc47e356f6367ecdbcde002f674d8383cd35cf4e9d70bfd2d299db4d806322c",
      "testo": "62c42232c224452f"
+    }
+   ]
+  },
+  "museo-naturalistico-e-archeologico": {
+   "byte": 1373804,
+   "secondi": 229,
+   "tracce": [
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "museo-naturalistico-e-archeologico__interno.mp3",
+     "byte": 1373804,
+     "secondi": 229,
+     "sha256": "4d403ebda21f6d59cfe060a0e716679a345766e0ba0d78448cec25fc3168c751",
+     "testo": "d85c441c7aee528e"
     }
    ]
   },
@@ -293,6 +335,78 @@
     }
    ]
   },
+  "piazza-dei-signori": {
+   "byte": 1226492,
+   "secondi": 204,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-dei-signori.mp3",
+     "byte": 1226492,
+     "secondi": 204,
+     "sha256": "6fffbf04faf53a42160599e4a218ef24ab3d15fd6e1e3f6bb8b3df49e0c63ff7",
+     "testo": "72fe0c8d960b7098"
+    }
+   ]
+  },
+  "piazza-delle-erbe": {
+   "byte": 525356,
+   "secondi": 88,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-delle-erbe.mp3",
+     "byte": 525356,
+     "secondi": 88,
+     "sha256": "d2638503b38af7015cc5ebafb1184ebc6f4b0960f66d9fe25e55b5778c286e7c",
+     "testo": "96eaf5afdaf09c40"
+    }
+   ]
+  },
+  "piazza-matteotti": {
+   "byte": 1032524,
+   "secondi": 172,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-matteotti.mp3",
+     "byte": 1032524,
+     "secondi": 172,
+     "sha256": "55d3ae9a080422a38e6cfdbd3f5c5c08b7244e7cbcdb8b45af01b778bc589a30",
+     "testo": "bdb35ceb479f096e"
+    }
+   ]
+  },
+  "santuario-di-monte-berico": {
+   "byte": 2131432,
+   "secondi": 355,
+   "tracce": [
+    {
+     "id": "esterno",
+     "titolo": "Außen",
+     "file": "santuario-di-monte-berico__esterno.mp3",
+     "byte": 1005020,
+     "secondi": 167,
+     "sha256": "6d640df195b76ca091cb7eab8f21d488239bc0c1dcc7abaa01b229d356f9a260",
+     "testo": "8778498a7aa75ce5",
+     "tappe": [
+      "santuario-di-monte-berico"
+     ]
+    },
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "santuario-di-monte-berico__interno.mp3",
+     "byte": 1126412,
+     "secondi": 188,
+     "sha256": "b1928a2c4aef3159c4bec4179ad39974d8d960064f382f56baf1e48080d20d76",
+     "testo": "270e8f94003801c7"
+    }
+   ]
+  },
   "teatro-olimpico": {
    "byte": 1934728,
    "secondi": 323,
@@ -317,6 +431,21 @@
      "secondi": 183,
      "sha256": "af1c1e473ed164a9c03cc1aac025e756fdabd4f2e2c0e8ad0bda1baa112eed48",
      "testo": "ed71083fb78a37a1"
+    }
+   ]
+  },
+  "tempio-di-santa-corona": {
+   "byte": 1673612,
+   "secondi": 279,
+   "tracce": [
+    {
+     "id": "interno",
+     "titolo": "Innen",
+     "file": "tempio-di-santa-corona__interno.mp3",
+     "byte": 1673612,
+     "secondi": 279,
+     "sha256": "09b5940f1551346ae183a3134d3f62ae6f52c1b2071a63f15b97df8d10f6aa49",
+     "testo": "e92ab2e3f0cf3043"
     }
    ]
   }
