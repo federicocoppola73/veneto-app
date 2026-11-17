@@ -1,5 +1,5 @@
 {
- "versione": "a384b0030f86",
+ "versione": "8142565f6eab",
  "voce": "en-GB-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
@@ -38,6 +38,21 @@
      "secondi": 155,
      "sha256": "03b6be57cb744efbab58952413572f30629fd0a360717c8ef70158daa17fbf96",
      "testo": "127f441d8ee773d0"
+    }
+   ]
+  },
+  "arsenale-austriaco": {
+   "byte": 1238588,
+   "secondi": 206,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "arsenale-austriaco.mp3",
+     "byte": 1238588,
+     "secondi": 206,
+     "sha256": "77d3f5d5272386463eb3a89b355760fb0599964d6aa7f51daf29756ae393b663",
+     "testo": "699b013beea86c05"
     }
    ]
   },
@@ -251,6 +266,21 @@
     }
    ]
   },
+  "piazza-san-zeno": {
+   "byte": 859724,
+   "secondi": 143,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "piazza-san-zeno.mp3",
+     "byte": 859724,
+     "secondi": 143,
+     "sha256": "ae60ae5ecd66eb1ff8c8e207d5f80c5538bb82e1a912c7e381dc969ef857a0c7",
+     "testo": "54401fc77e28ac60"
+    }
+   ]
+  },
   "ponte-pietra": {
    "byte": 1064492,
    "secondi": 177,
@@ -278,6 +308,21 @@
      "secondi": 153,
      "sha256": "5f27462c48c0540c1f423db2ea29f80b4e6c63d65977196385eb86e4106e055f",
      "testo": "670f9b1c48992793"
+    }
+   ]
+  },
+  "san-bernardino": {
+   "byte": 1537676,
+   "secondi": 256,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "san-bernardino.mp3",
+     "byte": 1537676,
+     "secondi": 256,
+     "sha256": "660f7ca222073ae391bff51723bb94bf754f8e6d225faa186a699a7834bc0a06",
+     "testo": "6784eae7a4afe87b"
     }
    ]
   },
