@@ -54,10 +54,10 @@ export default function FiltroCategorie({
             onPress={onItinerari}
             style={({ pressed }) => [styles.chip, styles.chipPersonale, styles.chipItinerari, pressed && { opacity: 0.85 }]}
             accessibilityRole="button"
-            accessibilityLabel={t('itinerari')}
+            accessibilityLabel={t('visita')}
           >
             <Text style={styles.iconaItinerari}>🧭</Text>
-            <Text style={[styles.testo, styles.testoRestringibile, styles.testoItinerari]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>{t('itinerari')}</Text>
+            <Text style={[styles.testo, styles.testoRestringibile, styles.testoItinerari]} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>{t('visita')}</Text>
           </Pressable>
         )}
         {onCuore && (

@@ -1,4 +1,5 @@
-import { partenzeCitta } from '../citta';
+import { nomeCitta, partenzeCitta } from '../citta';
+import { periodiStoria } from '../storia';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, Image, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -53,13 +54,19 @@ export default function SelettoreItinerari({
   const { width, height } = useWindowDimensions();
   const orizzontale = width > height;
   const [apertoId, setApertoId] = useState(null); // itinerario mostrato nella pagina di dettaglio
+  const [tab, setTab] = useState('itinerari'); // 'itinerari' | 'storia'
+  const [periodoAperto, setPeriodoAperto] = useState(null); // scheda storica aperta nel tab Storia
   const [infoAperta, setInfoAperta] = useState(null); // id dell'itinerario di cui è aperto il testo introduttivo
   const [confermaElimina, setConfermaElimina] = useState(false); // "Elimina" va toccato due volte
   useEffect(() => setConfermaElimina(false), [apertoId]);
   const [cartolinaAperta, setCartolinaAperta] = useState(false); // anteprima della cartolina dell'itinerario
   useEffect(() => setCartolinaAperta(false), [apertoId]);
   useEffect(() => {
-    if (visibile) setApertoId(apriId || null); // si riapre dall'elenco, o dal dettaglio chiesto (link di un amico)
+    if (visibile) {
+      setApertoId(apriId || null); // si riapre dall'elenco, o dal dettaglio chiesto (link di un amico)
+      setTab('itinerari');
+      setPeriodoAperto(null);
+    }
   }, [visibile, apriId]);
   const aperto = itinerari.find((it) => it.id === apertoId) || null;
 
@@ -137,6 +144,48 @@ export default function SelettoreItinerari({
       {ufficiali.map(scheda)}
       <Text style={styles.gruppo}>{t('itin_miei')}</Text>
       {miei.length ? miei.map(scheda) : <Text style={styles.vuoto}>{t('itin_mieiVuoto')}</Text>}
+    </ScrollView>
+  );
+
+  // ---- tab Storia: schede storiche della città, per periodo ----
+  const periodi = periodiStoria();
+  const storia = (
+    <ScrollView contentContainerStyle={styles.contenuto}>
+      {periodi.length === 0 ? (
+        <Text style={styles.vuoto}>{t('storia_vuota').replace('{citta}', nomeCitta())}</Text>
+      ) : (
+        periodi.map((p) => {
+          const aperta = periodoAperto === p.id;
+          const anni = testoLocalizzato(p.anni, lingua);
+          return (
+            <Pressable
+              key={p.id}
+              onPress={() => setPeriodoAperto(aperta ? null : p.id)}
+              testID={`storia-${p.id}`}
+              style={({ pressed }) => [styles.periodo, pressed && { backgroundColor: '#eef5fa' }]}
+              accessibilityRole="button"
+              accessibilityState={{ expanded: aperta }}
+            >
+              <View style={styles.periodoTesta}>
+                <View style={{ flex: 1 }}>
+                  {anni ? <Text style={styles.periodoAnni}>{anni}</Text> : null}
+                  <Text style={styles.periodoTitolo}>{testoLocalizzato(p.titolo, lingua)}</Text>
+                </View>
+                <Text style={styles.freccia}>{aperta ? '⌃' : '⌄'}</Text>
+              </View>
+              {aperta
+                ? testoLocalizzato(p.testo, lingua)
+                    .split(/\n\s*\n/)
+                    .map((par, i) => (
+                      <Text key={i} style={styles.periodoTesto}>
+                        {par}
+                      </Text>
+                    ))
+                : null}
+            </Pressable>
+          );
+        })
+      )}
     </ScrollView>
   );
 
@@ -315,7 +364,7 @@ export default function SelettoreItinerari({
             </Pressable>
           )}
           <Text style={styles.titolo} numberOfLines={2}>
-            {aperto ? `${iconaItinerario(aperto)} ${testoLocalizzato(aperto.titolo, lingua)}` : t('itinerari')}
+            {aperto ? `${iconaItinerario(aperto)} ${testoLocalizzato(aperto.titolo, lingua)}` : t('visita')}
           </Text>
           {aperto && (
             <Pressable
@@ -361,8 +410,27 @@ export default function SelettoreItinerari({
             onChiudi={() => setCartolinaAperta(false)}
           />
         )}
-        {aperto ? dettaglio : elenco}
         {!aperto && (
+          <View style={styles.tabs} accessibilityRole="tablist">
+            {[
+              { id: 'itinerari', testo: t('itinerari') },
+              { id: 'storia', testo: t('tab_storia') },
+            ].map((x) => (
+              <Pressable
+                key={x.id}
+                onPress={() => setTab(x.id)}
+                testID={`tab-${x.id}`}
+                style={[styles.tab, tab === x.id && styles.tabAttivo]}
+                accessibilityRole="tab"
+                accessibilityState={{ selected: tab === x.id }}
+              >
+                <Text style={[styles.testoTab, tab === x.id && styles.testoTabAttivo]}>{x.testo}</Text>
+              </Pressable>
+            ))}
+          </View>
+        )}
+        {aperto ? dettaglio : tab === 'storia' ? storia : elenco}
+        {!aperto && tab === 'itinerari' && (
           // barra di gestione: crea un nuovo itinerario, importa (da un amico) ed esporta (per condividere)
           <View style={styles.barraGestione}>
             {[
@@ -411,6 +479,16 @@ const styles = StyleSheet.create({
   chiudi: { width: 34, height: 34, borderRadius: 17, backgroundColor: '#f1f5f9', alignItems: 'center', justifyContent: 'center' },
   testoChiudi: { fontSize: 16, color: '#334155', fontWeight: '700' },
   contenuto: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 8 },
+  tabs: { flexDirection: 'row', borderBottomWidth: 1, borderBottomColor: '#e2e8f0' },
+  tab: { flex: 1, alignItems: 'center', paddingVertical: 12, borderBottomWidth: 3, borderBottomColor: 'transparent' },
+  tabAttivo: { borderBottomColor: BLU },
+  testoTab: { fontSize: 15, fontWeight: '700', color: '#64748b' },
+  testoTabAttivo: { color: BLU },
+  periodo: { backgroundColor: '#fff', borderRadius: 12, padding: 14, borderWidth: 1, borderColor: '#e2e8f0', marginBottom: 10, gap: 8 },
+  periodoTesta: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  periodoAnni: { fontSize: 12, fontWeight: '800', color: '#b45309', textTransform: 'uppercase', letterSpacing: 0.5 },
+  periodoTitolo: { fontSize: 17, fontWeight: '800', color: '#0f172a', marginTop: 2 },
+  periodoTesto: { fontSize: 15, color: '#334155', lineHeight: 22 },
   passo: { fontSize: 15, fontWeight: '800', color: '#0f172a', marginTop: 8, marginBottom: 8 },
   numeroPasso: { color: '#b45309' },
   partenze: { flexDirection: 'row', gap: 8 },
