@@ -1,7 +1,37 @@
 {
- "versione": "b70ba5a2c4c9",
+ "versione": "d93f8ccc2857",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
+  "battistero-di-san-giovanni-battista": {
+   "byte": 307916,
+   "secondi": 51,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "battistero-di-san-giovanni-battista.mp3",
+     "byte": 307916,
+     "secondi": 51,
+     "sha256": "4954572e46496bab4c2a542d892e307f49ecfda468e33cd8db797954376bd107",
+     "testo": "888bd92c4bc2311f"
+    }
+   ]
+  },
+  "ca-da-noal-casa-robegan": {
+   "byte": 808460,
+   "secondi": 135,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "ca-da-noal-casa-robegan.mp3",
+     "byte": 808460,
+     "secondi": 135,
+     "sha256": "2165e47306e806888484e612fca183ade171002d5fe2ef433deac3b80eb6c258",
+     "testo": "39787b054e437119"
+    }
+   ]
+  },
   "canale-dei-buranelli": {
    "byte": 1211372,
    "secondi": 202,
@@ -14,6 +44,51 @@
      "secondi": 202,
      "sha256": "b915f75bab89b982b01f8723f29fede1caf73b180c4153851f7e4cf0585ae6a1",
      "testo": "40953bb4cba070d0"
+    }
+   ]
+  },
+  "casa-del-giudizio-di-paride": {
+   "byte": 368972,
+   "secondi": 61,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "casa-del-giudizio-di-paride.mp3",
+     "byte": 368972,
+     "secondi": 61,
+     "sha256": "f4a1fea58c0f9639e6ec5e68d534d5a2b832b7c7bef6f4b6fd6d7daa11844f3a",
+     "testo": "421c63dad69d8e09"
+    }
+   ]
+  },
+  "casa-della-leda": {
+   "byte": 331244,
+   "secondi": 55,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "casa-della-leda.mp3",
+     "byte": 331244,
+     "secondi": 55,
+     "sha256": "02c9a996025419285e782f9f454e307bf34fb8ccbd08765525bc8e55156f17b2",
+     "testo": "2d584cd45f230f1c"
+    }
+   ]
+  },
+  "case-delle-zignoli": {
+   "byte": 487772,
+   "secondi": 81,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "case-delle-zignoli.mp3",
+     "byte": 487772,
+     "secondi": 81,
+     "sha256": "a253ea609d40ca5c3bf4786fe762e41174e16768ad2b112a1e0c6b1a82869080",
+     "testo": "b8cfa0b12dbb518e"
     }
    ]
   },
@@ -33,17 +108,17 @@
    ]
   },
   "chiesa-di-san-francesco": {
-   "byte": 977372,
-   "secondi": 163,
+   "byte": 974636,
+   "secondi": 162,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "chiesa-di-san-francesco.mp3",
-     "byte": 977372,
-     "secondi": 163,
-     "sha256": "523adba016c8cad9fc23df2836794401e0c37781c8e50f508f0ab9d7b88748ba",
-     "testo": "8cd83292449957d5"
+     "byte": 974636,
+     "secondi": 162,
+     "sha256": "4e23a7ccf3d8aa43a83c31f642272e4d762f741b755b4f4505cad4119f5a9ff6",
+     "testo": "e89f3710bc5d9134"
     }
    ]
   },
@@ -92,6 +167,36 @@
     }
    ]
   },
+  "madonna-con-bambino-e-santi": {
+   "byte": 171404,
+   "secondi": 29,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "madonna-con-bambino-e-santi.mp3",
+     "byte": 171404,
+     "secondi": 29,
+     "sha256": "e55c00a93675ae52688ece6457bbc803d7972b24c0417a37eac0286d14613d2a",
+     "testo": "6b91eb26a5f48d63"
+    }
+   ]
+  },
+  "madonna-in-trono-san-giovanni-e-san-sebastiano": {
+   "byte": 213308,
+   "secondi": 36,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "madonna-in-trono-san-giovanni-e-san-sebastiano.mp3",
+     "byte": 213308,
+     "secondi": 36,
+     "sha256": "f10e146b91b824cd48e3ef2cd9269990fd9b952d0f833a3c7857493585ef371c",
+     "testo": "61bfc2706367250d"
+    }
+   ]
+  },
   "museo-luigi-bailo": {
    "byte": 1192220,
    "secondi": 199,
@@ -119,6 +224,21 @@
      "secondi": 236,
      "sha256": "ed659db430c26aebc1a01166d0fbce165bde367ef16b7d030a408f2df3138051",
      "testo": "135f0c3112acea00"
+    }
+   ]
+  },
+  "scuola-del-santissimo": {
+   "byte": 408284,
+   "secondi": 68,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "scuola-del-santissimo.mp3",
+     "byte": 408284,
+     "secondi": 68,
+     "sha256": "e983f2edb17d9cc2361bbc3badb1580a314fc8a8a1d00203ecf4967a2e427184",
+     "testo": "c06ecd5dcd18f02e"
     }
    ]
   }
