@@ -70,7 +70,18 @@
         "madonna-in-trono-san-giovanni-e-san-sebastiano": {
           "it": "Qui troviamo una composizione più unitaria: la Madonna in trono con il Bambino, affiancata da san Giovanni Battista e san Sebastiano."
         }
-      }
+      },
+      "audioPercorso": [
+        "ca-da-noal-casa-robegan",
+        "battistero-di-san-giovanni-battista",
+        "scuola-del-santissimo",
+        "casa-della-leda",
+        "madonna-in-trono-san-giovanni-e-san-sebastiano",
+        "madonna-con-bambino-e-santi",
+        "case-delle-zignoli",
+        "casa-del-giudizio-di-paride"
+      ],
+      "raggioAudioM": 30
     }
   ]
 }
