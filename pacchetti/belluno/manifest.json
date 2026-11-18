@@ -1,5 +1,5 @@
 {
- "versione": "7db0f3609068",
+ "versione": "5d7ab84eedd8",
  "file": [
   {
    "path": "assets/aguzza/aguzza-campanile-angelo.webp",
@@ -7478,6 +7478,12 @@
    "byte": 25927
   },
   {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/storia.json",
+   "sha256": "eef102797c5d427001c5065387d1f45ad1ea699635a6eab097f07ef37dcfceae",
+   "byte": 27184
+  },
+  {
    "path": "dati/tessere.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/tessere.json",
    "sha256": "8e2d8113ed4a81b13ab2091ea5f09874691d6753320eb8ec4cbade7c47f36cff",
@@ -7500,6 +7506,12 @@
     "descrizioni"
    ],
    "byte": 186293
+  },
+  {
+   "versione": "5d7ab84eedd8",
+   "da": "7db0f3609068",
+   "data": "2026-11-18",
+   "byte": 27184
   }
  ]
 }

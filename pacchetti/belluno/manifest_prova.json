@@ -1,5 +1,5 @@
 {
- "versione": "d331ae7aed33",
+ "versione": "bfa3802db2cf",
  "tipo": "prova",
  "file": [
   {
@@ -6865,6 +6865,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/servizi.json",
    "sha256": "592a39ca0e6eede6697240e6c9db1e5e312d0a82eb1f653f1210f26c86ec55a6",
    "byte": 25927
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/storia.json",
+   "sha256": "eef102797c5d427001c5065387d1f45ad1ea699635a6eab097f07ef37dcfceae",
+   "byte": 27184
   },
   {
    "path": "dati/tessere.json",
