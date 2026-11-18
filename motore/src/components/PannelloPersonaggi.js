@@ -53,7 +53,7 @@ function Card({ personaggio: p, lingua, onPress }) {
       <View style={styles.testoCard}>
         <Text style={styles.nome}>{p.nome}</Text>
         <Text style={styles.date}>
-          {p.nascita} – {p.morte}
+          {p.nascita || p.morte ? `${p.nascita ?? ''} – ${p.morte ?? ''}` : testoLocalizzato(p.periodo, lingua)}
         </Text>
         <Text style={styles.professione}>{professione}</Text>
         {sintesi ? <Text style={styles.sintesi}>{sintesi}</Text> : null}
