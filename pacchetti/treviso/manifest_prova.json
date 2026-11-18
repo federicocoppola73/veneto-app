@@ -1,5 +1,5 @@
 {
- "versione": "947a0e11ac37",
+ "versione": "4d9aeb6d7fce",
  "tipo": "prova",
  "file": [
   {
@@ -4973,8 +4973,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/prova/dati/luoghi.json",
-   "sha256": "fd772129e308a40aeab4bd3e3374c2ec6110cb5ee022740bdcb6ced14274a5ef",
-   "byte": 61618
+   "sha256": "b4532c468e110f9eeb7ed0a6365dc44e2570bd5d75a0edd7d224adfc58c711ca",
+   "byte": 61673
   },
   {
    "path": "dati/mappa.json",
@@ -5021,8 +5021,8 @@
   {
    "path": "dati/storia.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/storia.json",
-   "sha256": "57924ad0b7c827f0cacf042ec18bc32a0020191c30d5c98542ee51d6df9c9476",
-   "byte": 32745
+   "sha256": "d3496373628428bbbd182400cfbcf09ce6a17a39d0137de50e3a07103849b080",
+   "byte": 33533
   },
   {
    "path": "dati/tessere.json",

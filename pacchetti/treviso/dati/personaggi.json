@@ -1,6 +1,87 @@
 {
   "personaggi": [
     {
+      "id": "gherardo-iii-da-camino",
+      "nome": "Gherardo III da Camino",
+      "nascita": 1240,
+      "morte": 1306,
+      "professione": {
+        "it": "Capitano generale e signore di Treviso",
+        "en": "Captain general and lord of Treviso",
+        "fr": "Capitaine général et seigneur de Trévise",
+        "de": "Generalkapitän und Herr von Treviso",
+        "es": "Capitán general y señor de Treviso"
+      },
+      "dataNascita": {
+        "it": "circa 1240",
+        "en": "around 1240",
+        "fr": "vers 1240",
+        "de": "um 1240",
+        "es": "hacia 1240"
+      },
+      "dataMorte": {
+        "it": "marzo 1306",
+        "en": "March 1306",
+        "fr": "mars 1306",
+        "de": "März 1306",
+        "es": "marzo de 1306"
+      },
+      "ritratto": {
+        "autore": "HAL9000",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "biografia": {
+        "it": "Gherardo III da Camino fu uno dei protagonisti della storia politica di Treviso nel Medioevo. Appartenente a una delle più importanti famiglie feudali del territorio, nel 1266 era già capitano generale di Feltre e Belluno.\n\nIl 15 novembre 1283, dopo la vittoria della parte guelfa nelle lotte cittadine, venne nominato capitano generale di Treviso e del suo distretto. Pur mantenendo formalmente in vita le istituzioni comunali, esercitò di fatto il potere sulla città, consolidando la signoria della famiglia da Camino.\n\nDurante il suo governo cercò di contenere i conflitti tra le fazioni e favorì la prosperità di Treviso, che divenne anche un vivace centro di cultura e di incontro per poeti e letterati. La sua corte e il suo prestigio furono ricordati anche da Dante Alighieri, che lo menzionò nel Convivio e nel Purgatorio, dove compare come «il buon Gherardo».\n\nMorì nel marzo del 1306. Gli succedette il figlio Rizzardo, ma la signoria dei da Camino terminò pochi anni dopo, nel 1312.",
+        "en": "Gherardo III da Camino was one of the leading figures in the political history of Treviso in the Middle Ages. A member of one of the most important feudal families of the area, by 1266 he was already captain general of Feltre and Belluno.\n\nOn 15 November 1283, after the victory of the Guelph party in the city's struggles, he was appointed captain general of Treviso and its district. While formally keeping the communal institutions alive, he in fact held power over the city, consolidating the lordship of the Da Camino family.\n\nDuring his rule he tried to contain the conflicts between the factions and fostered the prosperity of Treviso, which also became a lively centre of culture and a meeting place for poets and men of letters. His court and his prestige were also remembered by Dante Alighieri, who mentioned him in the Convivio and in the Purgatorio, where he appears as \"the good Gherardo\".\n\nHe died in March 1306. His son Rizzardo succeeded him, but the Da Camino lordship came to an end a few years later, in 1312.",
+        "fr": "Gherardo III da Camino fut l'un des protagonistes de l'histoire politique de Trévise au Moyen Âge. Issu de l'une des plus importantes familles féodales du territoire, il était déjà en 1266 capitaine général de Feltre et de Belluno.\n\nLe 15 novembre 1283, après la victoire du parti guelfe dans les luttes de la ville, il fut nommé capitaine général de Trévise et de son district. Tout en laissant formellement subsister les institutions communales, il exerça en fait le pouvoir sur la ville, consolidant la seigneurie de la famille da Camino.\n\nPendant son gouvernement, il chercha à contenir les conflits entre les factions et favorisa la prospérité de Trévise, qui devint aussi un centre vivant de culture et un lieu de rencontre pour poètes et lettrés. Sa cour et son prestige furent rappelés aussi par Dante Alighieri, qui le mentionna dans le Banquet et dans le Purgatoire, où il apparaît comme « le bon Gherardo ».\n\nIl mourut en mars 1306. Son fils Rizzardo lui succéda, mais la seigneurie des da Camino prit fin quelques années plus tard, en 1312.",
+        "de": "Gherardo III. da Camino war eine der Hauptfiguren der politischen Geschichte Trevisos im Mittelalter. Er gehörte einer der wichtigsten Feudalfamilien des Gebiets an und war schon 1266 Generalkapitän von Feltre und Belluno.\n\nAm 15. November 1283, nach dem Sieg der guelfischen Partei in den Kämpfen der Stadt, wurde er zum Generalkapitän von Treviso und seines Distrikts ernannt. Obwohl er die kommunalen Institutionen formal bestehen ließ, übte er in Wirklichkeit die Macht über die Stadt aus und festigte die Signorie der Familie da Camino.\n\nWährend seiner Herrschaft suchte er die Konflikte zwischen den Parteien einzudämmen und förderte den Wohlstand Trevisos, das auch zu einem lebendigen Zentrum der Kultur und zu einem Treffpunkt für Dichter und Gelehrte wurde. Sein Hof und sein Ansehen wurden auch von Dante Alighieri in Erinnerung gerufen, der ihn im Convivio und im Purgatorio erwähnte, wo er als „der gute Gherardo“ erscheint.\n\nEr starb im März 1306. Sein Sohn Rizzardo folgte ihm nach, doch die Signorie der da Camino endete wenige Jahre später, 1312.",
+        "es": "Gherardo III da Camino fue uno de los protagonistas de la historia política de Treviso en la Edad Media. Perteneciente a una de las más importantes familias feudales del territorio, en 1266 ya era capitán general de Feltre y Belluno.\n\nEl 15 de noviembre de 1283, tras la victoria del partido güelfo en las luchas de la ciudad, fue nombrado capitán general de Treviso y de su distrito. Aunque mantuvo formalmente en vida las instituciones comunales, ejerció de hecho el poder sobre la ciudad, consolidando el señorío de la familia da Camino.\n\nDurante su gobierno procuró contener los conflictos entre las facciones y favoreció la prosperidad de Treviso, que se convirtió también en un animado centro de cultura y de encuentro para poetas y literatos. Su corte y su prestigio fueron recordados también por Dante Alighieri, que lo mencionó en el Convivio y en el Purgatorio, donde aparece como «el buen Gherardo».\n\nMurió en marzo de 1306. Le sucedió su hijo Rizzardo, pero el señorío de los da Camino terminó pocos años después, en 1312."
+      },
+      "curiosita": {
+        "it": [
+          "Dante lo ricorda nel Convivio e nel Purgatorio, dove compare come «il buon Gherardo».",
+          "Nel 1266 era già capitano generale di Feltre e Belluno, diciassette anni prima di diventare signore di Treviso."
+        ],
+        "en": [
+          "Dante remembers him in the Convivio and in the Purgatorio, where he appears as \"the good Gherardo\".",
+          "In 1266 he was already captain general of Feltre and Belluno, seventeen years before becoming lord of Treviso."
+        ],
+        "fr": [
+          "Dante le rappelle dans le Banquet et dans le Purgatoire, où il apparaît comme « le bon Gherardo ».",
+          "En 1266, il était déjà capitaine général de Feltre et de Belluno, dix-sept ans avant de devenir seigneur de Trévise."
+        ],
+        "de": [
+          "Dante erinnert im Convivio und im Purgatorio an ihn, wo er als „der gute Gherardo“ erscheint.",
+          "Schon 1266 war er Generalkapitän von Feltre und Belluno, siebzehn Jahre bevor er Herr von Treviso wurde."
+        ],
+        "es": [
+          "Dante lo recuerda en el Convivio y en el Purgatorio, donde aparece como «el buen Gherardo».",
+          "En 1266 ya era capitán general de Feltre y Belluno, diecisiete años antes de convertirse en señor de Treviso."
+        ]
+      },
+      "luoghi": [
+        "palazzo-dei-trecento"
+      ],
+      "luoghiNote": {
+        "palazzo-dei-trecento": {
+          "tipo": {
+            "it": "Il suo ruolo",
+            "en": "His role",
+            "fr": "Son rôle",
+            "de": "Seine Rolle",
+            "es": "Su papel"
+          },
+          "testo": {
+            "it": "Gherardo da Camino fu il principale signore di Treviso tra Duecento e Trecento e una delle figure più rappresentative della stagione delle signorie cittadine.",
+            "en": "Gherardo da Camino was the leading lord of Treviso between the 13th and 14th centuries and one of the most representative figures of the age of the city lordships.",
+            "fr": "Gherardo da Camino fut le principal seigneur de Trévise entre le XIIIe et le XIVe siècle et l'une des figures les plus représentatives de la saison des seigneuries urbaines.",
+            "de": "Gherardo da Camino war der wichtigste Herr von Treviso zwischen dem 13. und 14. Jahrhundert und eine der repräsentativsten Gestalten der Zeit der städtischen Signorien.",
+            "es": "Gherardo da Camino fue el principal señor de Treviso entre los siglos XIII y XIV y una de las figuras más representativas de la etapa de los señoríos urbanos."
+          }
+        }
+      }
+    },
+    {
       "id": "tomaso-da-modena",
       "nome": "Tomaso da Modena",
       "nascita": 1325,
@@ -345,6 +426,77 @@
         }
       },
       "collegati": []
+    },
+    {
+      "id": "rambaldo-avogaro-degli-azzoni",
+      "nome": "Rambaldo Avogaro degli Azzoni",
+      "nascita": 1719,
+      "morte": 1790,
+      "professione": {
+        "it": "Ecclesiastico ed erudito",
+        "en": "Churchman and scholar",
+        "fr": "Ecclésiastique et érudit",
+        "de": "Geistlicher und Gelehrter",
+        "es": "Eclesiástico y erudito"
+      },
+      "luogoNascita": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataNascita": {
+        "it": "11 novembre 1719",
+        "en": "11 November 1719",
+        "fr": "11 novembre 1719",
+        "de": "11. November 1719",
+        "es": "11 de noviembre de 1719"
+      },
+      "luogoMorte": {
+        "it": "Treviso",
+        "en": "Treviso",
+        "fr": "Trévise",
+        "de": "Treviso",
+        "es": "Treviso"
+      },
+      "dataMorte": {
+        "it": "23 settembre 1790",
+        "en": "23 September 1790",
+        "fr": "23 septembre 1790",
+        "de": "23. September 1790",
+        "es": "23 de septiembre de 1790"
+      },
+      "biografia": {
+        "it": "Rambaldo Avogaro degli Azzoni fu un ecclesiastico, erudito e studioso trevigiano, protagonista della vita culturale della città nel Settecento.\n\nNato a Treviso l'11 novembre 1719, proveniva da una famiglia da tempo legata alle istituzioni culturali cittadine. Dopo aver intrapreso la carriera ecclesiastica, si dedicò agli studi storici e letterari e contribuì a ravvivare la vita intellettuale trevigiana.\n\nAncora giovane, riportò in attività l'Accademia dei Solleciti, un'importante istituzione culturale cittadina, e ne preparò un nuovo regolamento, approvato nel 1747. Nel 1752 assunse la direzione della Biblioteca Capitolare di Treviso, alla quale dedicò grande impegno, ampliandone le raccolte e arricchendola di pubblicazioni e documenti.\n\nSi occupò anche della storia del territorio, studiando monete, iscrizioni e documenti antichi. Tra i suoi lavori più importanti figura un trattato sulla zecca e sulle monete che circolarono a Treviso fino al XIV secolo.\n\nMorì nella sua città il 23 settembre 1790. La sua memoria è legata soprattutto al contributo dato alla conservazione e alla valorizzazione del patrimonio librario e storico trevigiano.",
+        "en": "Rambaldo Avogaro degli Azzoni was a churchman, scholar and researcher from Treviso, a leading figure in the city's cultural life in the 18th century.\n\nBorn in Treviso on 11 November 1719, he came from a family long tied to the city's cultural institutions. After beginning an ecclesiastical career, he devoted himself to historical and literary studies and helped revive Treviso's intellectual life.\n\nWhile still young, he brought the Accademia dei Solleciti, an important cultural institution of the city, back into activity and prepared new rules for it, approved in 1747. In 1752 he took over the direction of the Biblioteca Capitolare of Treviso, to which he devoted great effort, enlarging its collections and enriching it with publications and documents.\n\nHe also worked on the history of the area, studying coins, inscriptions and ancient documents. Among his most important works is a treatise on the mint and on the coins that circulated in Treviso up to the 14th century.\n\nHe died in his native city on 23 September 1790. His memory is tied above all to his contribution to the preservation and enhancement of Treviso's book and historical heritage.",
+        "fr": "Rambaldo Avogaro degli Azzoni fut un ecclésiastique, érudit et chercheur trévisan, protagoniste de la vie culturelle de la ville au XVIIIe siècle.\n\nNé à Trévise le 11 novembre 1719, il venait d'une famille depuis longtemps liée aux institutions culturelles de la ville. Après avoir embrassé la carrière ecclésiastique, il se consacra aux études historiques et littéraires et contribua à ranimer la vie intellectuelle trévisane.\n\nEncore jeune, il remit en activité l'Accademia dei Solleciti, importante institution culturelle de la ville, et en prépara un nouveau règlement, approuvé en 1747. En 1752, il prit la direction de la Biblioteca Capitolare de Trévise, à laquelle il consacra un grand engagement, en élargissant les collections et en les enrichissant de publications et de documents.\n\nIl s'occupa aussi de l'histoire du territoire, étudiant monnaies, inscriptions et documents anciens. Parmi ses travaux les plus importants figure un traité sur l'atelier monétaire et sur les monnaies qui circulèrent à Trévise jusqu'au XIVe siècle.\n\nIl mourut dans sa ville le 23 septembre 1790. Sa mémoire est liée surtout à sa contribution à la conservation et à la valorisation du patrimoine livresque et historique trévisan.",
+        "de": "Rambaldo Avogaro degli Azzoni war ein Geistlicher, Gelehrter und Forscher aus Treviso und eine Hauptfigur des kulturellen Lebens der Stadt im 18. Jahrhundert.\n\nGeboren am 11. November 1719 in Treviso, stammte er aus einer Familie, die seit Langem mit den kulturellen Institutionen der Stadt verbunden war. Nachdem er die geistliche Laufbahn eingeschlagen hatte, widmete er sich historischen und literarischen Studien und trug dazu bei, das geistige Leben Trevisos neu zu beleben.\n\nSchon in jungen Jahren brachte er die Accademia dei Solleciti, eine wichtige kulturelle Einrichtung der Stadt, wieder in Gang und arbeitete eine neue Satzung für sie aus, die 1747 genehmigt wurde. 1752 übernahm er die Leitung der Biblioteca Capitolare von Treviso, der er große Mühe widmete, indem er ihre Bestände erweiterte und sie mit Veröffentlichungen und Urkunden bereicherte.\n\nEr beschäftigte sich auch mit der Geschichte des Gebiets und erforschte Münzen, Inschriften und alte Urkunden. Zu seinen wichtigsten Arbeiten zählt eine Abhandlung über die Münzstätte und über die Münzen, die bis zum 14. Jahrhundert in Treviso im Umlauf waren.\n\nEr starb am 23. September 1790 in seiner Stadt. Sein Andenken ist vor allem mit seinem Beitrag zur Bewahrung und Aufwertung des Buch- und Geschichtserbes Trevisos verbunden.",
+        "es": "Rambaldo Avogaro degli Azzoni fue un eclesiástico, erudito e investigador trevisano, protagonista de la vida cultural de la ciudad en el siglo XVIII.\n\nNacido en Treviso el 11 de noviembre de 1719, procedía de una familia desde hacía tiempo ligada a las instituciones culturales de la ciudad. Tras emprender la carrera eclesiástica, se dedicó a los estudios históricos y literarios y contribuyó a reavivar la vida intelectual trevisana.\n\nTodavía joven, puso de nuevo en actividad la Accademia dei Solleciti, una importante institución cultural de la ciudad, y preparó para ella un nuevo reglamento, aprobado en 1747. En 1752 asumió la dirección de la Biblioteca Capitolare de Treviso, a la que dedicó gran empeño, ampliando sus colecciones y enriqueciéndola con publicaciones y documentos.\n\nSe ocupó también de la historia del territorio, estudiando monedas, inscripciones y documentos antiguos. Entre sus trabajos más importantes figura un tratado sobre la ceca y sobre las monedas que circularon en Treviso hasta el siglo XIV.\n\nMurió en su ciudad el 23 de septiembre de 1790. Su memoria está ligada sobre todo a la contribución que dio a la conservación y la valorización del patrimonio librario e histórico trevisano."
+      },
+      "curiosita": {
+        "it": [
+          "Ancora giovane riportò in attività l'Accademia dei Solleciti: il nuovo regolamento da lui preparato fu approvato nel 1747.",
+          "Scrisse un trattato sulla zecca e sulle monete che circolarono a Treviso fino al XIV secolo."
+        ],
+        "en": [
+          "While still young he revived the Accademia dei Solleciti: the new rules he prepared were approved in 1747.",
+          "He wrote a treatise on the mint and on the coins that circulated in Treviso up to the 14th century."
+        ],
+        "fr": [
+          "Encore jeune, il remit en activité l'Accademia dei Solleciti : le nouveau règlement qu'il prépara fut approuvé en 1747.",
+          "Il écrivit un traité sur l'atelier monétaire et sur les monnaies qui circulèrent à Trévise jusqu'au XIVe siècle."
+        ],
+        "de": [
+          "Schon in jungen Jahren brachte er die Accademia dei Solleciti wieder in Gang: Die von ihm ausgearbeitete neue Satzung wurde 1747 genehmigt.",
+          "Er schrieb eine Abhandlung über die Münzstätte und über die Münzen, die bis zum 14. Jahrhundert in Treviso im Umlauf waren."
+        ],
+        "es": [
+          "Todavía joven puso de nuevo en actividad la Accademia dei Solleciti: el nuevo reglamento que preparó fue aprobado en 1747.",
+          "Escribió un tratado sobre la ceca y sobre las monedas que circularon en Treviso hasta el siglo XIV."
+        ]
+      },
+      "luoghi": []
     },
     {
       "id": "arturo-martini",

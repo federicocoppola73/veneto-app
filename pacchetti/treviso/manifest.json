@@ -1,5 +1,5 @@
 {
- "versione": "6c295ce0dee8",
+ "versione": "d5fddb5e3cbf",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
@@ -5930,6 +5930,12 @@
    "byte": 51470
   },
   {
+   "path": "assets/personaggi/gherardo-iii-da-camino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/assets/personaggi/gherardo-iii-da-camino.webp",
+   "sha256": "7a68bffac06e60a449c4c52773765c1a8fd28698333f01be0225b462f76e64ef",
+   "byte": 175974
+  },
+  {
    "path": "assets/personaggi/giovanni-comisso.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/assets/personaggi/giovanni-comisso.webp",
    "sha256": "88d6be59722d793b50d3071fc40ad4fc6018d62fb2dba7014170257ddae09c9e",
@@ -6004,8 +6010,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/luoghi.json",
-   "sha256": "0540dc644a6f7412663eb61acfa5a45612efa897e9872a2b128e789fa8a38e5d",
-   "byte": 310108
+   "sha256": "604568076bea1e4fb75bee8fa72f7c308641e52fb88baf7ef6e3ca70eb43300a",
+   "byte": 310173
   },
   {
    "path": "dati/mappa.json",
@@ -6028,8 +6034,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/personaggi.json",
-   "sha256": "bd20d4320ebda76a8e14268e2e239219601861116a0fd3bf78216e4c0442f105",
-   "byte": 45531
+   "sha256": "e02cbd40a6f363e8d9226fde9daa9b2405d0c6a15c6b82b38475d25eafbd0ae1",
+   "byte": 63335
   },
   {
    "path": "dati/principali.json",
@@ -6052,8 +6058,8 @@
   {
    "path": "dati/storia.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/storia.json",
-   "sha256": "57924ad0b7c827f0cacf042ec18bc32a0020191c30d5c98542ee51d6df9c9476",
-   "byte": 32745
+   "sha256": "d3496373628428bbbd182400cfbcf09ce6a17a39d0137de50e3a07103849b080",
+   "byte": 33533
   },
   {
    "path": "dati/tessere.json",
@@ -6074,6 +6080,16 @@
    "da": "7f9d2b4e2bab",
    "data": "2026-11-18",
    "byte": 37909
+  },
+  {
+   "versione": "d5fddb5e3cbf",
+   "da": "6c295ce0dee8",
+   "data": "2026-11-18",
+   "luoghi_aggiornati": 1,
+   "aspetti": [
+    "altro"
+   ],
+   "byte": 583015
   }
  ]
 }
