@@ -1,5 +1,5 @@
 {
- "versione": "fa306de076fd",
+ "versione": "c90d8b824f51",
  "file": [
   {
    "path": "assets/cibi/asparago-bianco-bassano.webp",
@@ -6058,8 +6058,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/personaggi.json",
-   "sha256": "1bb8f1719fdc36423c64a54c755ad174daadb0c59c189a7cfb6eafbbeb622be3",
-   "byte": 113838
+   "sha256": "cbc074c1239f9e74a602117ab9bdeca71d187ae2678d3f5d252ea3875317bba8",
+   "byte": 113517
   },
   {
    "path": "dati/principali.json",
@@ -6132,6 +6132,12 @@
    "da": "a1d6ce9451b8",
    "data": "2026-11-18",
    "byte": 113838
+  },
+  {
+   "versione": "c90d8b824f51",
+   "da": "fa306de076fd",
+   "data": "2026-11-18",
+   "byte": 113517
   }
  ]
 }
