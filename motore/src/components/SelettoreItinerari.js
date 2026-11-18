@@ -1,6 +1,6 @@
 import { nomeCitta, partenzeCitta } from '../citta';
 import { periodiStoria } from '../storia';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Image, Modal, Platform, Pressable, ScrollView, StatusBar, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { coloreCategoria } from '../categorie';
@@ -60,6 +60,17 @@ export default function SelettoreItinerari({
   const [apertoId, setApertoId] = useState(null); // itinerario mostrato nella pagina di dettaglio
   const [tab, setTab] = useState('itinerari'); // 'itinerari' | 'storia'
   const [periodoAperto, setPeriodoAperto] = useState(null); // scheda storica aperta nel tab Storia
+  const scrollStoria = useRef(null);
+  const posizioniPeriodi = useRef({}); // y di ogni scheda storica, aggiornata a ogni layout
+  // aprendo una scheda, la lista scorre in modo che la scheda parta dall'inizio (la precedente si richiude e sposta tutto)
+  useEffect(() => {
+    if (!periodoAperto) return undefined;
+    const id = setTimeout(() => {
+      const y = posizioniPeriodi.current[periodoAperto];
+      if (y !== undefined) scrollStoria.current?.scrollTo({ y: Math.max(0, y - 6), animated: true });
+    }, 60);
+    return () => clearTimeout(id);
+  }, [periodoAperto]);
   const [infoAperta, setInfoAperta] = useState(null); // id dell'itinerario di cui è aperto il testo introduttivo
   const [confermaElimina, setConfermaElimina] = useState(false); // "Elimina" va toccato due volte
   useEffect(() => setConfermaElimina(false), [apertoId]);
@@ -161,7 +172,7 @@ export default function SelettoreItinerari({
   // ---- tab Storia: schede storiche della città, per periodo ----
   const periodi = periodiStoria();
   const storia = (
-    <ScrollView contentContainerStyle={styles.contenuto}>
+    <ScrollView ref={scrollStoria} contentContainerStyle={styles.contenuto}>
       {periodi.length === 0 ? (
         <Text style={styles.vuoto}>{t('storia_vuota').replace('{citta}', nomeCitta())}</Text>
       ) : (
@@ -172,7 +183,13 @@ export default function SelettoreItinerari({
           const approf = (p.approfondire || []).map((id) => luoghiPerId[id]).filter(Boolean);
           const persone = (p.personaggi || []).map((id) => personaggi().find((x) => x.id === id)).filter(Boolean);
           return (
-            <View key={p.id} style={styles.periodo}>
+            <View
+              key={p.id}
+              style={styles.periodo}
+              onLayout={(e) => {
+                posizioniPeriodi.current[p.id] = e.nativeEvent.layout.y;
+              }}
+            >
               <Pressable
                 onPress={() => setPeriodoAperto(aperta ? null : p.id)}
                 testID={`storia-${p.id}`}
