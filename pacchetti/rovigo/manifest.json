@@ -1,5 +1,5 @@
 {
- "versione": "7213ecf3d004",
+ "versione": "a8915b8cd651",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -6658,8 +6658,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/luoghi.json",
-   "sha256": "3918c2469104b2723dcf0a1314c5e4cd3a752c07811df96c94b2faa92957a52f",
-   "byte": 273832
+   "sha256": "3a35bd5c273e92d06544c1991231828eda4f300ac5aa56f6457a5dbc15fe7c0e",
+   "byte": 273915
   },
   {
    "path": "dati/mappa.json",
@@ -6682,8 +6682,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/personaggi.json",
-   "sha256": "f6bc10d9e99d9b507807fdc6e6b25d51cd5ee98f84eaafb9f6c250c3bb09fa32",
-   "byte": 96989
+   "sha256": "4acdeb7a6b650129906472718afd031431fc25b3ada31e0d8fb601f833087b43",
+   "byte": 119800
   },
   {
    "path": "dati/principali.json",
@@ -6704,6 +6704,12 @@
    "byte": 19042
   },
   {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/storia.json",
+   "sha256": "d3081bed417c42abf6c271b6643ea5587f7f3a5cc66e33d35aa11df8474b438b",
+   "byte": 35105
+  },
+  {
    "path": "dati/tessere.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/tessere.json",
    "sha256": "8a9f7ef11d21e79b5d8a6386e822068795e926775f67dcfaec992cec056650fe",
@@ -6716,5 +6722,12 @@
    "byte": 121
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "a8915b8cd651",
+   "da": "7213ecf3d004",
+   "data": "2026-11-18",
+   "byte": 428820
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "versione": "39d762622b4d",
+ "versione": "3ee61396cd99",
  "tipo": "prova",
  "file": [
   {
@@ -5789,8 +5789,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/prova/dati/luoghi.json",
-   "sha256": "f075fcaf166e77617c3b39167249b625527d415add218cee05959cbc37f2d667",
-   "byte": 66253
+   "sha256": "22ce6a6c039bc2ad1ecdb8077fc2f192b918afca5476e9ef3fe3882cb2fb35f9",
+   "byte": 66322
   },
   {
    "path": "dati/mappa.json",
@@ -5833,6 +5833,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/servizi.json",
    "sha256": "32c743a77fdc1f572e3674d8ee9a14ff05cab1d3f973d840d99c09984705793d",
    "byte": 19042
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/storia.json",
+   "sha256": "d3081bed417c42abf6c271b6643ea5587f7f3a5cc66e33d35aa11df8474b438b",
+   "byte": 35105
   },
   {
    "path": "dati/tessere.json",
