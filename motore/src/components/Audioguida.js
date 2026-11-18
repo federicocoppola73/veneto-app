@@ -16,6 +16,8 @@ import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { nomeCitta } from '../citta';
 import { datiProxy } from '../dati';
+import { testoLocalizzato } from '../i18n';
+import { periodiStoria } from '../storia';
 import {
   audioDelLuogo,
   luoghiDelPercorso,
@@ -34,6 +36,18 @@ const VIOLA_CHIARO = '#f5f3ff';
 const BORDO_VIOLA = '#ddd6fe';
 const ROSSO = '#dc2626';
 const datiLuoghi = datiProxy('luoghi.json');
+const CAT_STORIA = '_storia';
+
+// Voci dell'elenco delle audioguide: prima quelle della Storia (una per periodo, senza monumento), poi i luoghi in ordine alfabetico
+function vociAudioguide(indice, lingua, t) {
+  const storia = periodiStoria()
+    .filter((p) => p.audio && indice?.luoghi?.[p.audio])
+    .map((p) => ({ id: p.audio, nome: `${t('tab_storia')} · ${testoLocalizzato(p.titolo, lingua)}`, categoria: CAT_STORIA }));
+  const luoghi = (datiLuoghi.luoghi || [])
+    .filter((l) => indice?.luoghi?.[l.id])
+    .sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
+  return [...storia, ...luoghi];
+}
 
 // l'audio si sente anche con il telefono in modalità silenziosa (iPhone)
 let modoImpostato = false;
@@ -469,18 +483,15 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
   const [categoria, setCategoria] = useState(null);
   const [errori, setErrori] = useState(0);
   // solo i luoghi di questa versione della città (nella prova gratuita sono i 10 di anteprima)
-  const luoghi = useMemo(
-    () =>
-      (datiLuoghi.luoghi || [])
-        .filter((l) => indice?.luoghi?.[l.id])
-        .sort((a, b) => a.nome.localeCompare(b.nome, 'it')),
-    [indice]
-  );
+  const luoghi = useMemo(() => vociAudioguide(indice, lingua, t), [indice, lingua]);
   const sulTelefono = luoghi.filter((l) => presenti.has(l.id));
   const cancella = modo === 'cancella';
   // nel modo "Cancella" si vedono solo quelle sul telefono
   const base = cancella ? sulTelefono : luoghi;
-  const categorie = CATEGORIE.filter((c) => base.some((l) => l.categoria === c.id));
+  const categorie = [
+    ...(base.some((l) => l.categoria === CAT_STORIA) ? [{ id: CAT_STORIA }] : []),
+    ...CATEGORIE.filter((c) => base.some((l) => l.categoria === c.id)),
+  ];
   const visibili = categoria ? base.filter((l) => l.categoria === categoria) : base;
   const daScaricare = luoghi.filter((l) => !presenti.has(l.id));
   // quelle che si possono spuntare nel modo attuale
@@ -585,7 +596,7 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
                   accessibilityRole="radio"
                   accessibilityState={{ selected: attivo }}
                 >
-                  <Text style={[styles.testoFiltro, attivo && { color: '#fff', fontWeight: '700' }]}>{id ? t(`cat_${id}`) : t('tutti')}</Text>
+                  <Text style={[styles.testoFiltro, attivo && { color: '#fff', fontWeight: '700' }]}>{id === CAT_STORIA ? t('tab_storia') : id ? t(`cat_${id}`) : t('tutti')}</Text>
                 </Pressable>
               );
             })}
@@ -631,7 +642,7 @@ export function ElencoAudioguide({ lingua, t, onChiudi }) {
                       )}
                     </View>
                   )}
-                  <View style={[styles.pallino, { backgroundColor: coloreCategoria(l.categoria) }]} />
+                  <View style={[styles.pallino, { backgroundColor: l.categoria === CAT_STORIA ? VIOLA : coloreCategoria(l.categoria) }]} />
                   {/* con più tracce si vede quante sono, es. "Basilica di San Marco (3)" */}
                   <View style={styles.rigaNome}>
                     <Text style={[styles.nomeLuogo, { flex: 0, flexShrink: 1 }]} numberOfLines={1}>{l.nome}</Text>
@@ -694,7 +705,7 @@ export function GestioneAudioguide({ lingua, t }) {
   const { indice, presenti, progresso } = useAudioguide();
   const [elenco, setElenco] = useState(false);
   if (!indice?.luoghi) return null;
-  const luoghi = (datiLuoghi.luoghi || []).filter((l) => indice.luoghi[l.id]);
+  const luoghi = vociAudioguide(indice, lingua, t);
   if (!luoghi.length) return null;
   const scaricate = luoghi.filter((l) => presenti.has(l.id));
   const mancanti = luoghi.filter((l) => !presenti.has(l.id));
