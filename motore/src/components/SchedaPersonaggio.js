@@ -170,7 +170,7 @@ export default function SchedaPersonaggio({ persona: p, luoghiPerId, t, lingua, 
 
 // Riga con la miniatura del luogo: tocandola si apre la sua scheda
 function LuogoRiga({ luogo, onPress }) {
-  const foto = IMMAGINI.luoghi?.[luogo.id] !== undefined;
+  const foto = IMMAGINI[luogo.id] !== undefined;
   return (
     <Pressable style={styles.riga} onPress={onPress} accessibilityRole="link">
       {foto ? (

@@ -2,6 +2,588 @@
  "_nota": "Rovigo: personaggi legati ai luoghi. Ogni personaggio elenca i luoghi (luoghi); ogni luogo ha il campo personaggio con l'id.",
  "personaggi": [
   {
+   "id": "paolo-cattaneo",
+   "ordine": 920,
+   "nome": "Paolo Cattaneo",
+   "professione": {
+    "it": "Vescovo di Adria",
+    "en": "Bishop of Adria",
+    "fr": "Évêque d'Adria",
+    "de": "Bischof von Adria",
+    "es": "Obispo de Adria"
+   },
+   "periodo": {
+    "it": "Attivo nel 920",
+    "en": "Active in 920",
+    "fr": "Actif en 920",
+    "de": "Tätig im Jahr 920",
+    "es": "Activo en 920"
+   },
+   "biografia": {
+    "it": "Paolo Cattaneo fu vescovo di Adria e una delle figure legate alle origini medievali di Rovigo. Nel 920, in un periodo segnato dalle incursioni degli Ungari e dall'instabilità del territorio, promosse la costruzione di una fortificazione nel borgo di Rovigo.\n\nL'iniziativa è collegata a una bolla di papa Giovanni X, che autorizzava la realizzazione di una struttura difensiva. Il complesso, destinato a offrire un luogo più sicuro alla comunità e alle autorità ecclesiastiche, fu completato nel 954, diversi anni dopo l'iniziativa del vescovo.\n\nQuella fortificazione rappresentò un passaggio fondamentale nello sviluppo del centro medievale rodigino e costituì il nucleo del successivo castello, ampliato nei secoli seguenti.",
+    "en": "Paolo Cattaneo was bishop of Adria and one of the figures linked to the medieval origins of Rovigo. In 920, in a period marked by Hungarian raids and by the instability of the region, he promoted the construction of a fortification in the village of Rovigo.\n\nThe initiative is linked to a bull of Pope John X, which authorised the building of a defensive structure. The complex, meant to offer a safer place to the community and to the church authorities, was completed in 954, several years after the bishop's initiative.\n\nThat fortification was a key step in the development of medieval Rovigo and formed the core of the later castle, which was enlarged over the following centuries.",
+    "fr": "Paolo Cattaneo fut évêque d'Adria et l'une des figures liées aux origines médiévales de Rovigo. En 920, à une époque marquée par les incursions des Hongrois et par l'instabilité du territoire, il promut la construction d'une fortification dans le bourg de Rovigo.\n\nCette initiative est liée à une bulle du pape Jean X, qui autorisait la réalisation d'un ouvrage défensif. L'ensemble, destiné à offrir un lieu plus sûr à la communauté et aux autorités ecclésiastiques, fut achevé en 954, plusieurs années après l'initiative de l'évêque.\n\nCette fortification marqua une étape fondamentale dans le développement du centre médiéval de Rovigo et constitua le noyau du château qui lui succéda, agrandi au cours des siècles suivants.",
+    "de": "Paolo Cattaneo war Bischof von Adria und eine der Persönlichkeiten, die mit den mittelalterlichen Ursprüngen von Rovigo verbunden sind. Im Jahr 920, in einer Zeit der Ungarneinfälle und der Unsicherheit im Land, förderte er den Bau einer Befestigung im Dorf Rovigo.\n\nDie Initiative steht im Zusammenhang mit einer Bulle von Papst Johannes X., die den Bau einer Verteidigungsanlage genehmigte. Die Anlage, die der Gemeinschaft und den kirchlichen Würdenträgern einen sichereren Ort bieten sollte, wurde 954 fertiggestellt, mehrere Jahre nach dem Vorhaben des Bischofs.\n\nDiese Befestigung war ein grundlegender Schritt in der Entwicklung des mittelalterlichen Rovigo und bildete den Kern der späteren Burg, die in den folgenden Jahrhunderten erweitert wurde.",
+    "es": "Paolo Cattaneo fue obispo de Adria y una de las figuras ligadas a los orígenes medievales de Rovigo. En 920, en un periodo marcado por las incursiones de los húngaros y por la inestabilidad del territorio, promovió la construcción de una fortificación en la aldea de Rovigo.\n\nLa iniciativa está relacionada con una bula del papa Juan X, que autorizaba la construcción de una estructura defensiva. El conjunto, destinado a ofrecer un lugar más seguro a la comunidad y a las autoridades eclesiásticas, se completó en 954, varios años después de la iniciativa del obispo.\n\nAquella fortificación fue un paso fundamental en el desarrollo del centro medieval de Rovigo y constituyó el núcleo del castillo posterior, ampliado en los siglos siguientes."
+   },
+   "curiosita": {
+    "it": [
+     "Il 920 è una data simbolica per Rovigo: è l'anno a cui viene tradizionalmente collegata la nascita della città medievale e la costruzione della sua prima fortificazione.",
+     "Un'opera realizzata in oltre trent'anni: la fortificazione avviata per iniziativa di Paolo nel 920 risulta completata nel 954.",
+     "Una storia legata agli Ungari: la costruzione viene tradizionalmente ricondotta alla necessità di proteggere la popolazione dalle incursioni ungare.",
+     "Il castello cambiò volto nel tempo: la struttura originaria fu ampliata e trasformata, soprattutto durante il dominio estense. La Torre Donà è una delle testimonianze più significative del complesso medievale sopravvissuto."
+    ],
+    "en": [
+     "920 is a symbolic date for Rovigo: it is the year traditionally linked to the birth of the medieval town and the building of its first fortification.",
+     "A work that took over thirty years: the fortification begun on Paolo's initiative in 920 was completed in 954.",
+     "A story tied to the Hungarians: the building is traditionally attributed to the need to protect the population from Hungarian raids.",
+     "The castle changed its appearance over time: the original structure was enlarged and transformed, especially under Este rule. The Torre Donà is one of the most significant surviving parts of the medieval complex."
+    ],
+    "fr": [
+     "920 est une date symbolique pour Rovigo : c'est l'année traditionnellement liée à la naissance de la ville médiévale et à la construction de sa première fortification.",
+     "Un ouvrage réalisé en plus de trente ans : la fortification lancée à l'initiative de Paolo en 920 fut achevée en 954.",
+     "Une histoire liée aux Hongrois : la construction est traditionnellement attribuée à la nécessité de protéger la population des incursions hongroises.",
+     "Le château changea de visage au fil du temps : la structure d'origine fut agrandie et transformée, surtout sous la domination des Este. La Tour Donà est l'un des témoignages les plus significatifs de l'ensemble médiéval conservé."
+    ],
+    "de": [
+     "920 ist für Rovigo ein symbolisches Datum: Es ist das Jahr, das traditionell mit der Entstehung der mittelalterlichen Stadt und dem Bau ihrer ersten Befestigung verbunden wird.",
+     "Ein Werk von über dreißig Jahren: Die auf Paolos Initiative 920 begonnene Befestigung wurde 954 fertiggestellt.",
+     "Eine Geschichte um die Ungarn: Der Bau wird traditionell auf die Notwendigkeit zurückgeführt, die Bevölkerung vor den Ungarneinfällen zu schützen.",
+     "Die Burg veränderte mit der Zeit ihr Gesicht: Die ursprüngliche Anlage wurde vor allem unter der Herrschaft der Este erweitert und umgebaut. Der Torre Donà ist eines der bedeutendsten erhaltenen Zeugnisse der mittelalterlichen Anlage."
+    ],
+    "es": [
+     "920 es una fecha simbólica para Rovigo: es el año al que tradicionalmente se vincula el nacimiento de la ciudad medieval y la construcción de su primera fortificación.",
+     "Una obra de más de treinta años: la fortificación iniciada por Paolo en 920 se completó en 954.",
+     "Una historia ligada a los húngaros: la construcción se atribuye tradicionalmente a la necesidad de proteger a la población de las incursiones húngaras.",
+     "El castillo cambió de aspecto con el tiempo: la estructura original fue ampliada y transformada, sobre todo durante el dominio de los Este. La Torre Donà es uno de los testimonios más significativos del conjunto medieval que se conserva."
+    ]
+   },
+   "luoghi": [
+    "torre-dona-castello"
+   ],
+   "luoghiNote": {
+    "torre-dona-castello": {
+     "tipo": {
+      "it": "Fortificazione del 920",
+      "en": "Fortification of 920",
+      "fr": "Fortification de 920",
+      "de": "Befestigung von 920",
+      "es": "Fortificación de 920"
+     },
+     "testo": {
+      "it": "Il castello è direttamente collegato all'iniziativa di Paolo Cattaneo e alla fortificazione del 920, di cui costituisce lo sviluppo.",
+      "en": "The castle is directly linked to Paolo Cattaneo's initiative and to the fortification of 920, of which it is the later development.",
+      "fr": "Le château est directement lié à l'initiative de Paolo Cattaneo et à la fortification de 920, dont il constitue le développement.",
+      "de": "Die Burg ist unmittelbar mit der Initiative von Paolo Cattaneo und der Befestigung von 920 verbunden, aus der sie hervorging.",
+      "es": "El castillo está directamente vinculado a la iniciativa de Paolo Cattaneo y a la fortificación de 920, de la que constituye el desarrollo posterior."
+     }
+    }
+   },
+   "collegati": []
+  },
+  {
+   "id": "azzo-vi-d-este",
+   "ordine": 1170,
+   "nome": "Azzo VI d'Este",
+   "professione": {
+    "it": "Nobile, signore di Ferrara e conte di Rovigo",
+    "en": "Nobleman, lord of Ferrara and count of Rovigo",
+    "fr": "Noble, seigneur de Ferrare et comte de Rovigo",
+    "de": "Adliger, Herr von Ferrara und Graf von Rovigo",
+    "es": "Noble, señor de Ferrara y conde de Rovigo"
+   },
+   "dataNascita": {
+    "it": "circa 1170",
+    "en": "around 1170",
+    "fr": "vers 1170",
+    "de": "um 1170",
+    "es": "hacia 1170"
+   },
+   "dataMorte": {
+    "it": "1212",
+    "en": "1212",
+    "fr": "1212",
+    "de": "1212",
+    "es": "1212"
+   },
+   "periodo": {
+    "it": "Circa 1170 – 1212",
+    "en": "Around 1170 – 1212",
+    "fr": "Vers 1170 – 1212",
+    "de": "Um 1170 – 1212",
+    "es": "Hacia 1170 – 1212"
+   },
+   "biografia": {
+    "it": "Azzo VI d'Este, chiamato anche Azzolino, fu uno dei protagonisti dell'affermazione della famiglia estense nell'Italia settentrionale tra la fine del XII e l'inizio del XIII secolo.\n\nFiglio di Azzo V d'Este, apparteneva a una delle più importanti casate nobiliari dell'Italia nord-orientale. Nel 1194 l'imperatore Enrico VI riconobbe ufficialmente il dominio estense su Rovigo, conferendo ad Azzo VI il titolo di conte della città. Questo passaggio segnò un momento importante nella storia rodigina, perché consolidò il legame tra Rovigo e la famiglia che avrebbe governato il territorio per quasi tre secoli.\n\nAzzo VI rafforzò il potere della propria casata anche attraverso l'attività politica e militare. Fu podestà di Ferrara nel 1196 e di Padova nel 1199, e intervenne nelle lotte tra le fazioni guelfe e ghibelline che caratterizzavano le città dell'Italia settentrionale. Si scontrò in particolare con la famiglia Torelli di Ferrara e con i suoi alleati, tra cui Ezzelino da Romano.\n\nNel 1208 papa Innocenzo III gli conferì il titolo di marchese della Marca d'Ancona, ampliando ulteriormente il prestigio e l'influenza della famiglia. Morì nel 1212, lasciando ai suoi successori un potere territoriale importante, anche se ancora esposto a conflitti e rivalità.\n\nPer Rovigo, Azzo VI rappresenta una figura decisiva: durante la sua epoca il dominio estense si consolidò e il castello divenne il simbolo concreto dell'autorità della dinastia sulla città.",
+    "en": "Azzo VI d'Este, also called Azzolino, was one of the leading figures in the rise of the Este family in northern Italy between the late 12th and early 13th centuries.\n\nSon of Azzo V d'Este, he belonged to one of the most important noble houses of north-eastern Italy. In 1194 Emperor Henry VI officially recognised Este rule over Rovigo, granting Azzo VI the title of count of the town. This was an important moment in the history of Rovigo, because it strengthened the bond between Rovigo and the family that would govern the territory for almost three centuries.\n\nAzzo VI strengthened his house's power through political and military activity as well. He was podestà of Ferrara in 1196 and of Padua in 1199, and took part in the struggles between the Guelph and Ghibelline factions that marked the cities of northern Italy. He clashed in particular with the Torelli family of Ferrara and their allies, among them Ezzelino da Romano.\n\nIn 1208 Pope Innocent III granted him the title of Marquis of the March of Ancona, further increasing the family's prestige and influence. He died in 1212, leaving his successors a substantial territorial power, though one still exposed to conflicts and rivalries.\n\nFor Rovigo, Azzo VI is a decisive figure: in his time Este rule took hold and the castle became the concrete symbol of the dynasty's authority over the town.",
+    "fr": "Azzo VI d'Este, appelé aussi Azzolino, fut l'un des protagonistes de l'affirmation de la famille d'Este dans l'Italie du Nord entre la fin du XIIe et le début du XIIIe siècle.\n\nFils d'Azzo V d'Este, il appartenait à l'une des plus importantes maisons nobles de l'Italie du Nord-Est. En 1194, l'empereur Henri VI reconnut officiellement la domination des Este sur Rovigo, en conférant à Azzo VI le titre de comte de la ville. Ce moment important de l'histoire de Rovigo consolida le lien entre la ville et la famille qui allait gouverner le territoire pendant presque trois siècles.\n\nAzzo VI renforça le pouvoir de sa maison aussi par son activité politique et militaire. Il fut podestat de Ferrare en 1196 et de Padoue en 1199, et intervint dans les luttes entre les factions guelfes et gibelines qui marquaient les villes de l'Italie du Nord. Il s'opposa en particulier à la famille Torelli de Ferrare et à ses alliés, parmi lesquels Ezzelino da Romano.\n\nEn 1208, le pape Innocent III lui conféra le titre de marquis de la Marche d'Ancône, accroissant encore le prestige et l'influence de la famille. Il mourut en 1212, laissant à ses successeurs un pouvoir territorial important, quoique encore exposé aux conflits et aux rivalités.\n\nPour Rovigo, Azzo VI est une figure décisive : à son époque, la domination des Este se consolida et le château devint le symbole concret de l'autorité de la dynastie sur la ville.",
+    "de": "Azzo VI. d'Este, auch Azzolino genannt, war einer der Protagonisten des Aufstiegs der Familie Este in Norditalien zwischen dem Ende des 12. und dem Beginn des 13. Jahrhunderts.\n\nAls Sohn von Azzo V. d'Este gehörte er einem der bedeutendsten Adelshäuser Nordostitaliens an. 1194 erkannte Kaiser Heinrich VI. die Herrschaft der Este über Rovigo offiziell an und verlieh Azzo VI. den Titel eines Grafen der Stadt. Dieser Schritt war ein wichtiger Moment in der Geschichte Rovigos, weil er die Bindung zwischen Rovigo und der Familie festigte, die das Gebiet fast drei Jahrhunderte lang regieren sollte.\n\nAzzo VI. stärkte die Macht seines Hauses auch durch politische und militärische Tätigkeit. Er war 1196 Podestà von Ferrara und 1199 von Padua und griff in die Kämpfe zwischen den Guelfen und Ghibellinen ein, die die Städte Norditaliens prägten. Er geriet insbesondere mit der Familie Torelli aus Ferrara und deren Verbündeten aneinander, darunter Ezzelino da Romano.\n\n1208 verlieh ihm Papst Innozenz III. den Titel eines Markgrafen der Mark Ancona und steigerte damit das Ansehen und den Einfluss der Familie weiter. Er starb 1212 und hinterließ seinen Nachfolgern eine bedeutende territoriale Macht, die jedoch weiterhin Konflikten und Rivalitäten ausgesetzt war.\n\nFür Rovigo ist Azzo VI. eine entscheidende Gestalt: Zu seiner Zeit festigte sich die Herrschaft der Este, und die Burg wurde zum konkreten Symbol der Autorität der Dynastie über die Stadt.",
+    "es": "Azzo VI d'Este, llamado también Azzolino, fue uno de los protagonistas de la afirmación de la familia Este en el norte de Italia entre finales del siglo XII y principios del XIII.\n\nHijo de Azzo V d'Este, pertenecía a una de las casas nobles más importantes del noreste de Italia. En 1194 el emperador Enrique VI reconoció oficialmente el dominio de los Este sobre Rovigo, concediendo a Azzo VI el título de conde de la ciudad. Este paso marcó un momento importante en la historia de Rovigo, porque consolidó el vínculo entre la ciudad y la familia que gobernaría el territorio durante casi tres siglos.\n\nAzzo VI reforzó el poder de su casa también mediante la actividad política y militar. Fue podestá de Ferrara en 1196 y de Padua en 1199, e intervino en las luchas entre las facciones güelfas y gibelinas que caracterizaban las ciudades del norte de Italia. Se enfrentó en particular con la familia Torelli de Ferrara y sus aliados, entre ellos Ezzelino da Romano.\n\nEn 1208 el papa Inocencio III le concedió el título de marqués de la Marca de Ancona, ampliando aún más el prestigio y la influencia de la familia. Murió en 1212, dejando a sus sucesores un poder territorial importante, aunque todavía expuesto a conflictos y rivalidades.\n\nPara Rovigo, Azzo VI es una figura decisiva: en su época el dominio de los Este se consolidó y el castillo se convirtió en el símbolo concreto de la autoridad de la dinastía sobre la ciudad."
+   },
+   "curiosita": {
+    "it": [
+     "Un riconoscimento imperiale: nel 1194 Enrico VI riconobbe ad Azzo VI il titolo di conte di Rovigo, ufficializzando il dominio estense sulla città.",
+     "Non governò soltanto Ferrara: fu podestà anche di Padova e svolse un ruolo importante nelle vicende politiche di diverse città dell'Italia settentrionale.",
+     "Un protagonista delle lotte medievali: si oppose alla famiglia dei Torelli e a Ezzelino da Romano, in un periodo in cui le rivalità tra guelfi e ghibellini coinvolgevano interi territori.",
+     "Un titolo prestigioso: nel 1208 ricevette da papa Innocenzo III l'investitura della Marca d'Ancona.",
+     "Una dinastia destinata a durare: dopo la sua morte il potere degli Este continuò attraverso i suoi discendenti, che avrebbero mantenuto un ruolo centrale nella storia di Rovigo e Ferrara."
+    ],
+    "en": [
+     "An imperial recognition: in 1194 Henry VI granted Azzo VI the title of count of Rovigo, making Este rule over the town official.",
+     "He did not rule only Ferrara: he was also podestà of Padua and played an important part in the politics of several northern Italian cities.",
+     "A protagonist of the medieval struggles: he opposed the Torelli family and Ezzelino da Romano, at a time when the rivalry between Guelphs and Ghibellines involved entire regions.",
+     "A prestigious title: in 1208 he received from Pope Innocent III the investiture of the March of Ancona.",
+     "A dynasty built to last: after his death Este power continued through his descendants, who would keep a central role in the history of Rovigo and Ferrara."
+    ],
+    "fr": [
+     "Une reconnaissance impériale : en 1194, Henri VI reconnut à Azzo VI le titre de comte de Rovigo, officialisant la domination des Este sur la ville.",
+     "Il ne gouverna pas seulement Ferrare : il fut aussi podestat de Padoue et joua un rôle important dans les événements politiques de plusieurs villes de l'Italie du Nord.",
+     "Un protagoniste des luttes médiévales : il s'opposa à la famille Torelli et à Ezzelino da Romano, à une époque où les rivalités entre guelfes et gibelins touchaient des territoires entiers.",
+     "Un titre prestigieux : en 1208, il reçut du pape Innocent III l'investiture de la Marche d'Ancône.",
+     "Une dynastie faite pour durer : après sa mort, le pouvoir des Este se poursuivit à travers ses descendants, qui allaient garder un rôle central dans l'histoire de Rovigo et de Ferrare."
+    ],
+    "de": [
+     "Eine kaiserliche Anerkennung: 1194 verlieh Heinrich VI. Azzo VI. den Titel eines Grafen von Rovigo und machte damit die Herrschaft der Este über die Stadt offiziell.",
+     "Er regierte nicht nur Ferrara: Er war auch Podestà von Padua und spielte eine wichtige Rolle in der Politik mehrerer norditalienischer Städte.",
+     "Ein Protagonist der mittelalterlichen Kämpfe: Er stellte sich gegen die Familie Torelli und gegen Ezzelino da Romano, in einer Zeit, in der die Rivalitäten zwischen Guelfen und Ghibellinen ganze Landstriche erfassten.",
+     "Ein bedeutender Titel: 1208 erhielt er von Papst Innozenz III. die Belehnung mit der Mark Ancona.",
+     "Eine Dynastie, die Bestand haben sollte: Nach seinem Tod ging die Macht der Este auf seine Nachkommen über, die in der Geschichte von Rovigo und Ferrara eine zentrale Rolle behalten sollten."
+    ],
+    "es": [
+     "Un reconocimiento imperial: en 1194 Enrique VI concedió a Azzo VI el título de conde de Rovigo, oficializando el dominio de los Este sobre la ciudad.",
+     "No gobernó solo Ferrara: fue también podestá de Padua y desempeñó un papel importante en los asuntos políticos de varias ciudades del norte de Italia.",
+     "Un protagonista de las luchas medievales: se opuso a la familia Torelli y a Ezzelino da Romano, en una época en la que las rivalidades entre güelfos y gibelinos implicaban a territorios enteros.",
+     "Un título prestigioso: en 1208 recibió del papa Inocencio III la investidura de la Marca de Ancona.",
+     "Una dinastía destinada a durar: tras su muerte el poder de los Este continuó a través de sus descendientes, que mantendrían un papel central en la historia de Rovigo y Ferrara."
+    ]
+   },
+   "luoghi": [
+    "torre-dona-castello"
+   ],
+   "luoghiNote": {
+    "torre-dona-castello": {
+     "tipo": {
+      "it": "Castello degli Este",
+      "en": "Castle of the Este",
+      "fr": "Château des Este",
+      "de": "Burg der Este",
+      "es": "Castillo de los Este"
+     },
+     "testo": {
+      "it": "Il castello rappresenta il potere politico e militare della famiglia estense sulla città, consolidatosi proprio durante il periodo di Azzo VI. Le torri superstiti sono oggi la testimonianza più evidente di quella stagione.",
+      "en": "The castle stands for the political and military power of the Este family over the town, which took hold precisely in the time of Azzo VI. The surviving towers are today the clearest testimony of that period.",
+      "fr": "Le château représente le pouvoir politique et militaire de la famille d'Este sur la ville, consolidé précisément à l'époque d'Azzo VI. Les tours qui subsistent sont aujourd'hui le témoignage le plus évident de cette période.",
+      "de": "Die Burg steht für die politische und militärische Macht der Familie Este über die Stadt, die sich gerade in der Zeit Azzos VI. festigte. Die erhaltenen Türme sind heute das deutlichste Zeugnis jener Epoche.",
+      "es": "El castillo representa el poder político y militar de la familia Este sobre la ciudad, consolidado precisamente durante la época de Azzo VI. Las torres que se conservan son hoy el testimonio más evidente de aquella etapa."
+     }
+    }
+   },
+   "collegati": []
+  },
+  {
+   "id": "celio-rodigino",
+   "nome": "Lodovico Maria Ricchieri detto Celio Rodigino",
+   "nascita": 1469,
+   "morte": 1525,
+   "professione": {
+    "it": "Umanista, filologo, storico e insegnante",
+    "en": "Humanist, philologist, historian and teacher",
+    "fr": "Humaniste, philologue, historien et enseignant",
+    "de": "Humanist, Philologe, Historiker und Lehrer",
+    "es": "Humanista, filólogo, historiador y profesor"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "1469",
+    "en": "1469",
+    "fr": "1469",
+    "de": "1469",
+    "es": "1469"
+   },
+   "luogoMorte": {
+    "it": "Padova",
+    "en": "Padua",
+    "fr": "Padoue",
+    "de": "Padua",
+    "es": "Padua"
+   },
+   "dataMorte": {
+    "it": "6 marzo 1525",
+    "en": "6 March 1525",
+    "fr": "6 mars 1525",
+    "de": "6. März 1525",
+    "es": "6 de marzo de 1525"
+   },
+   "biografia": {
+    "it": "Lodovico Maria Ricchieri, conosciuto con il nome umanistico di Celio Rodigino, fu uno dei più importanti intellettuali rodigini del Rinascimento. Dopo i primi studi nella città natale, approfondì la filosofia e la letteratura greca e latina a Ferrara sotto la guida di Niccolò Leoniceno, proseguendo poi la propria formazione a Padova. Nel 1491 fu nominato insegnante della scuola pubblica di Rovigo, incarico che ricoprì fino al 1499 e nuovamente tra il 1503 e il 1504. In seguito insegnò in diverse città italiane, tra cui Milano, dove soggiornò dal 1511 al 1516. La sua opera più importante è costituita dalle Antiquae Lectiones, una vasta raccolta di studi, osservazioni e commenti sulla letteratura e sulla cultura dell'antichità classica, pubblicata per la prima volta nel 1516. L'opera ebbe grande diffusione negli ambienti umanistici europei e fu ampliata in un'edizione postuma del 1542. Dopo una vita dedicata all'insegnamento e agli studi, morì a Padova il 6 marzo 1525.",
+    "en": "Lodovico Maria Ricchieri, known by the humanist name Celio Rodigino, was one of the most important intellectuals of Rovigo during the Renaissance. After his first studies in his native city, he deepened his knowledge of Greek and Latin philosophy and literature in Ferrara under the guidance of Niccolò Leoniceno, then continued his education in Padua. In 1491 he was appointed teacher at the public school of Rovigo, a post he held until 1499 and again between 1503 and 1504. He later taught in several Italian cities, including Milan, where he stayed from 1511 to 1516. His most important work is the Antiquae Lectiones, a vast collection of studies, observations and commentaries on the literature and culture of classical antiquity, first published in 1516. The work was widely circulated in European humanist circles and was expanded in a posthumous edition of 1542. After a life devoted to teaching and study, he died in Padua on 6 March 1525.",
+    "fr": "Lodovico Maria Ricchieri, connu sous son nom humaniste de Celio Rodigino, fut l'un des intellectuels les plus importants de Rovigo à la Renaissance. Après ses premières études dans sa ville natale, il approfondit la philosophie et la littérature grecques et latines à Ferrare, sous la conduite de Niccolò Leoniceno, puis poursuivit sa formation à Padoue. En 1491, il fut nommé enseignant à l'école publique de Rovigo, poste qu'il occupa jusqu'en 1499, puis à nouveau entre 1503 et 1504. Il enseigna ensuite dans plusieurs villes italiennes, dont Milan, où il séjourna de 1511 à 1516. Son œuvre la plus importante est les Antiquae Lectiones, un vaste recueil d'études, d'observations et de commentaires sur la littérature et la culture de l'Antiquité classique, publié pour la première fois en 1516. L'ouvrage connut une grande diffusion dans les milieux humanistes européens et fut augmenté dans une édition posthume de 1542. Après une vie consacrée à l'enseignement et à l'étude, il mourut à Padoue le 6 mars 1525.",
+    "de": "Lodovico Maria Ricchieri, bekannt unter seinem humanistischen Namen Celio Rodigino, war einer der bedeutendsten Intellektuellen Rovigos in der Renaissance. Nach ersten Studien in seiner Heimatstadt vertiefte er in Ferrara unter der Anleitung von Niccolò Leoniceno seine Kenntnisse der griechischen und lateinischen Philosophie und Literatur und setzte seine Ausbildung anschließend in Padua fort. 1491 wurde er als Lehrer an die öffentliche Schule von Rovigo berufen, ein Amt, das er bis 1499 und erneut zwischen 1503 und 1504 innehatte. Später unterrichtete er in mehreren italienischen Städten, darunter Mailand, wo er von 1511 bis 1516 lebte. Sein wichtigstes Werk sind die Antiquae Lectiones, eine umfangreiche Sammlung von Studien, Beobachtungen und Kommentaren zur Literatur und Kultur der klassischen Antike, die 1516 erstmals erschien. Das Werk verbreitete sich stark in den humanistischen Kreisen Europas und wurde in einer postumen Ausgabe von 1542 erweitert. Nach einem Leben, das dem Unterricht und der Gelehrsamkeit gewidmet war, starb er am 6. März 1525 in Padua.",
+    "es": "Lodovico Maria Ricchieri, conocido con el nombre humanista de Celio Rodigino, fue uno de los intelectuales más importantes de Rovigo en el Renacimiento. Tras sus primeros estudios en su ciudad natal, profundizó en la filosofía y la literatura griega y latina en Ferrara, bajo la guía de Niccolò Leoniceno, y continuó después su formación en Padua. En 1491 fue nombrado profesor de la escuela pública de Rovigo, cargo que ocupó hasta 1499 y de nuevo entre 1503 y 1504. Más tarde enseñó en varias ciudades italianas, entre ellas Milán, donde residió de 1511 a 1516. Su obra más importante son las Antiquae Lectiones, una amplia recopilación de estudios, observaciones y comentarios sobre la literatura y la cultura de la antigüedad clásica, publicada por primera vez en 1516. La obra tuvo gran difusión en los ámbitos humanistas europeos y se amplió en una edición póstuma de 1542. Tras una vida dedicada a la enseñanza y al estudio, murió en Padua el 6 de marzo de 1525."
+   },
+   "curiosita": {
+    "it": [
+     "Il nome Celio Rodigino deriva dalla forma latinizzata Coelius Rhodiginus, con cui firmava i propri scritti umanistici.",
+     "La prima edizione delle Antiquae Lectiones, pubblicata nel 1516, comprendeva sedici libri. Dopo la sua morte il nipote Camillo curò una nuova edizione ampliata, pubblicata a Basilea nel 1542 in trenta libri.",
+     "Nel 1505 il Consiglio cittadino di Rovigo decretò la sua espulsione dagli uffici pubblici in seguito a una controversia relativa al suo incarico di insegnante e alla gestione degli stipendi durante un periodo di difficoltà economiche causate dalle alluvioni.",
+     "Il Liceo Ginnasiale Celio ricevette ufficialmente il suo nome nel 1867, in riconoscimento del valore culturale dell'umanista rodigino."
+    ],
+    "en": [
+     "The name Celio Rodigino comes from the Latinised form Coelius Rhodiginus, which he used to sign his humanist writings.",
+     "The first edition of the Antiquae Lectiones, published in 1516, comprised sixteen books. After his death his nephew Camillo edited an expanded new edition, published in Basel in 1542 in thirty books.",
+     "In 1505 the Rovigo city council decreed his removal from public offices, following a dispute over his teaching post and the management of salaries during a period of economic hardship caused by floods.",
+     "The Liceo Ginnasiale Celio officially received its name in 1867, in recognition of the cultural value of the Rovigo humanist."
+    ],
+    "fr": [
+     "Le nom Celio Rodigino dérive de la forme latinisée Coelius Rhodiginus, qu'il utilisait pour signer ses écrits humanistes.",
+     "La première édition des Antiquae Lectiones, publiée en 1516, comptait seize livres. Après sa mort, son neveu Camillo en prépara une nouvelle édition augmentée, publiée à Bâle en 1542 en trente livres.",
+     "En 1505, le conseil municipal de Rovigo décréta son exclusion des fonctions publiques, à la suite d'une controverse liée à son poste d'enseignant et à la gestion des salaires pendant une période de difficultés économiques causées par les inondations.",
+     "Le lycée Celio reçut officiellement son nom en 1867, en reconnaissance de la valeur culturelle de cet humaniste rodigien."
+    ],
+    "de": [
+     "Der Name Celio Rodigino leitet sich von der latinisierten Form Coelius Rhodiginus ab, mit der er seine humanistischen Schriften signierte.",
+     "Die erste Ausgabe der Antiquae Lectiones, 1516 veröffentlicht, umfasste sechzehn Bücher. Nach seinem Tod gab sein Neffe Camillo eine erweiterte Neuausgabe heraus, die 1542 in Basel in dreißig Büchern erschien.",
+     "1505 verfügte der Stadtrat von Rovigo seine Entlassung aus den öffentlichen Ämtern, nach einem Streit um seine Lehrtätigkeit und die Verwaltung der Gehälter in einer Zeit wirtschaftlicher Not, die durch Überschwemmungen verursacht wurde.",
+     "Das Liceo Ginnasiale Celio erhielt seinen Namen 1867 offiziell, in Anerkennung des kulturellen Werts des Humanisten aus Rovigo."
+    ],
+    "es": [
+     "El nombre Celio Rodigino procede de la forma latinizada Coelius Rhodiginus, con la que firmaba sus escritos humanistas.",
+     "La primera edición de las Antiquae Lectiones, publicada en 1516, constaba de dieciséis libros. Tras su muerte, su sobrino Camillo preparó una nueva edición ampliada, publicada en Basilea en 1542 en treinta libros.",
+     "En 1505 el Consejo municipal de Rovigo decretó su expulsión de los cargos públicos, tras una controversia relacionada con su puesto de profesor y con la gestión de los salarios durante un periodo de dificultades económicas causadas por las inundaciones.",
+     "El Liceo Ginnasiale Celio recibió oficialmente su nombre en 1867, en reconocimiento del valor cultural del humanista rodigino."
+    ]
+   },
+   "luoghi": [
+    "ex-liceo-celio",
+    "accademia-dei-concordi"
+   ],
+   "luoghiNote": {
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Intitolazione",
+      "en": "Naming",
+      "fr": "Dénomination",
+      "de": "Namensgebung",
+      "es": "Denominación"
+     },
+     "testo": {
+      "it": "L'istituto scolastico prese il nome da Ricchieri nel 1867. Il collegamento è commemorativo: non si tratta della scuola pubblica in cui insegnò nel Quattrocento.",
+      "en": "The school took its name from Ricchieri in 1867. The link is commemorative: it is not the public school where he taught in the fifteenth century.",
+      "fr": "L'établissement scolaire prit le nom de Ricchieri en 1867. Ce lien est commémoratif : il ne s'agit pas de l'école publique où il enseigna au XVe siècle.",
+      "de": "Die Schule erhielt 1867 ihren Namen nach Ricchieri. Die Verbindung ist gedenkend: Es handelt sich nicht um die öffentliche Schule, an der er im 15. Jahrhundert unterrichtete.",
+      "es": "El instituto tomó su nombre de Ricchieri en 1867. La vinculación es conmemorativa: no se trata de la escuela pública en la que enseñó en el siglo XV."
+     }
+    },
+    "accademia-dei-concordi": {
+     "tipo": {
+      "it": "Ritratto",
+      "en": "Portrait",
+      "fr": "Portrait",
+      "de": "Porträt",
+      "es": "Retrato"
+     },
+     "testo": {
+      "it": "La collezione conserva un ritratto di Lodovico Ricchieri, realizzato da un pittore veneto del XIX secolo. Non è quindi un ritratto contemporaneo all'umanista.",
+      "en": "The collection holds a portrait of Lodovico Ricchieri by a Venetian painter of the 19th century. It is therefore not a portrait made during the humanist's lifetime.",
+      "fr": "La collection conserve un portrait de Lodovico Ricchieri, réalisé par un peintre vénitien du XIXe siècle. Ce n'est donc pas un portrait contemporain de l'humaniste.",
+      "de": "Die Sammlung besitzt ein Porträt von Lodovico Ricchieri, das von einem venetischen Maler des 19. Jahrhunderts stammt. Es ist also kein Bildnis aus der Zeit des Humanisten.",
+      "es": "La colección conserva un retrato de Lodovico Ricchieri, realizado por un pintor véneto del siglo XIX. No es, por tanto, un retrato contemporáneo del humanista."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "antonio-riccoboni",
+   "nome": "Antonio Riccoboni",
+   "nascita": 1541,
+   "morte": 1599,
+   "professione": {
+    "it": "Umanista, storico, filologo e docente universitario",
+    "en": "Humanist, historian, philologist and university lecturer",
+    "fr": "Humaniste, historien, philologue et enseignant universitaire",
+    "de": "Humanist, Historiker, Philologe und Universitätsdozent",
+    "es": "Humanista, historiador, filólogo y profesor universitario"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "1541",
+    "en": "1541",
+    "fr": "1541",
+    "de": "1541",
+    "es": "1541"
+   },
+   "luogoMorte": {
+    "it": "Padova",
+    "en": "Padua",
+    "fr": "Padoue",
+    "de": "Padua",
+    "es": "Padua"
+   },
+   "dataMorte": {
+    "it": "27 luglio 1599",
+    "en": "27 July 1599",
+    "fr": "27 juillet 1599",
+    "de": "27. Juli 1599",
+    "es": "27 de julio de 1599"
+   },
+   "biografia": {
+    "it": "Antonio Riccoboni fu un importante studioso rodigino del Cinquecento, conosciuto per i suoi contributi alla storiografia, alla retorica e allo studio della letteratura classica. Dopo aver compiuto i primi studi a Rovigo, si trasferì a Venezia e a Padova, dove ebbe l'opportunità di seguire le lezioni di importanti studiosi del tempo, tra cui Paolo Manuzio, Marcantonio Mureto e Carlo Sigonio. Rientrato nella città natale, entrò nel Collegio dei notai e dal 1562 al 1571 insegnò nella scuola pubblica di Rovigo, la stessa istituzione nella quale, diversi decenni prima, aveva insegnato anche Lodovico Maria Ricchieri, detto Celio Rodigino. Nel 1571 conseguì il dottorato in diritto civile e canonico presso l'Università di Padova e successivamente ottenne un incarico di insegnamento di eloquenza nello stesso ateneo. Tra le sue opere più importanti figurano il De historia commentarius, pubblicato nel 1568, e il De Gymnasio Patavino, dedicato alla storia dell'Università di Padova. Si occupò inoltre di commentare e tradurre opere di Aristotele, contribuendo alla diffusione del pensiero classico. Morì a Padova il 27 luglio 1599. I suoi funerali furono celebrati a Rovigo e il suo corpo, inizialmente collocato nella chiesa di San Bartolomeo, fu successivamente trasferito nella chiesa di San Francesco.",
+    "en": "Antonio Riccoboni was an important sixteenth-century scholar from Rovigo, known for his contributions to historiography, rhetoric and the study of classical literature. After his first studies in Rovigo, he moved to Venice and Padua, where he attended the lectures of leading scholars of the time, among them Paolo Manuzio, Marcantonio Mureto and Carlo Sigonio. Back in his native city, he joined the College of Notaries and from 1562 to 1571 taught at the public school of Rovigo, the same institution where, several decades earlier, Lodovico Maria Ricchieri, known as Celio Rodigino, had also taught. In 1571 he earned a doctorate in civil and canon law at the University of Padua and later obtained a teaching post in eloquence at the same university. Among his most important works are the De historia commentarius, published in 1568, and the De Gymnasio Patavino, devoted to the history of the University of Padua. He also commented on and translated works by Aristotle, helping to spread classical thought. He died in Padua on 27 July 1599. His funeral was held in Rovigo, and his body, first placed in the church of San Bartolomeo, was later transferred to the church of San Francesco.",
+    "fr": "Antonio Riccoboni fut un important savant rodigien du XVIe siècle, connu pour ses contributions à l'historiographie, à la rhétorique et à l'étude de la littérature classique. Après ses premières études à Rovigo, il se rendit à Venise et à Padoue, où il suivit les cours de savants de premier plan, parmi lesquels Paolo Manuzio, Marcantonio Mureto et Carlo Sigonio. De retour dans sa ville natale, il entra au Collège des notaires et enseigna de 1562 à 1571 à l'école publique de Rovigo, la même institution où, plusieurs décennies auparavant, avait enseigné Lodovico Maria Ricchieri, dit Celio Rodigino. En 1571, il obtint le doctorat en droit civil et canonique à l'université de Padoue, puis un poste d'enseignant d'éloquence dans la même université. Parmi ses œuvres les plus importantes figurent le De historia commentarius, publié en 1568, et le De Gymnasio Patavino, consacré à l'histoire de l'université de Padoue. Il commenta et traduisit aussi des œuvres d'Aristote, contribuant à diffuser la pensée classique. Il mourut à Padoue le 27 juillet 1599. Ses funérailles furent célébrées à Rovigo, et son corps, d'abord déposé dans l'église Saint-Barthélemy, fut ensuite transféré dans l'église Saint-François.",
+    "de": "Antonio Riccoboni war ein bedeutender Gelehrter aus Rovigo im 16. Jahrhundert, bekannt für seine Beiträge zur Geschichtsschreibung, zur Rhetorik und zur Erforschung der klassischen Literatur. Nach ersten Studien in Rovigo ging er nach Venedig und Padua, wo er die Vorlesungen bedeutender Gelehrter seiner Zeit hörte, darunter Paolo Manuzio, Marcantonio Mureto und Carlo Sigonio. In seine Heimatstadt zurückgekehrt, trat er dem Notarskollegium bei und unterrichtete von 1562 bis 1571 an der öffentlichen Schule von Rovigo, derselben Einrichtung, an der einige Jahrzehnte zuvor auch Lodovico Maria Ricchieri, genannt Celio Rodigino, unterrichtet hatte. 1571 erwarb er an der Universität Padua den Doktortitel im Zivil- und Kirchenrecht und erhielt später eine Lehrstelle für Eloquenz an derselben Universität. Zu seinen wichtigsten Werken gehören das 1568 veröffentlichte De historia commentarius und das De Gymnasio Patavino, das der Geschichte der Universität Padua gewidmet ist. Außerdem kommentierte und übersetzte er Werke des Aristoteles und trug so zur Verbreitung des klassischen Denkens bei. Er starb am 27. Juli 1599 in Padua. Seine Trauerfeier fand in Rovigo statt, und sein Leichnam, zunächst in der Kirche San Bartolomeo beigesetzt, wurde später in die Kirche San Francesco überführt.",
+    "es": "Antonio Riccoboni fue un importante estudioso de Rovigo del siglo XVI, conocido por sus aportaciones a la historiografía, la retórica y el estudio de la literatura clásica. Tras sus primeros estudios en Rovigo, se trasladó a Venecia y Padua, donde asistió a las lecciones de destacados estudiosos de su tiempo, entre ellos Paolo Manuzio, Marcantonio Mureto y Carlo Sigonio. De vuelta en su ciudad natal, ingresó en el Colegio de Notarios y enseñó entre 1562 y 1571 en la escuela pública de Rovigo, la misma institución en la que, varias décadas antes, había enseñado también Lodovico Maria Ricchieri, conocido como Celio Rodigino. En 1571 obtuvo el doctorado en derecho civil y canónico en la Universidad de Padua y después un puesto docente de elocuencia en la misma universidad. Entre sus obras más importantes figuran el De historia commentarius, publicado en 1568, y el De Gymnasio Patavino, dedicado a la historia de la Universidad de Padua. Comentó y tradujo además obras de Aristóteles, contribuyendo a difundir el pensamiento clásico. Murió en Padua el 27 de julio de 1599. Sus funerales se celebraron en Rovigo y su cuerpo, colocado inicialmente en la iglesia de San Bartolomeo, fue trasladado después a la iglesia de San Francisco."
+   },
+   "curiosita": {
+    "it": [
+     "Il 1570 fu un anno importante per la sua attività culturale: ricevette l'incarico di contribuire alla revisione degli statuti cittadini di Rovigo insieme ad Andrea Nicolio.",
+     "Il suo carteggio comprende una lettera indirizzata a Galileo Galilei, datata 11 marzo 1588.",
+     "Il De Gymnasio Patavino, pubblicato nel 1599, rappresenta uno dei primi tentativi organici di ricostruire la storia dell'Università di Padova.",
+     "Un monumento commemorativo a lui dedicato, originariamente collocato all'ingresso della cappella maggiore della chiesa di San Francesco, è oggi conservato sotto il portico esterno della Rotonda."
+    ],
+    "en": [
+     "1570 was an important year for his cultural activity: he was commissioned to help revise the city statutes of Rovigo together with Andrea Nicolio.",
+     "His correspondence includes a letter addressed to Galileo Galilei, dated 11 March 1588.",
+     "The De Gymnasio Patavino, published in 1599, is one of the first systematic attempts to reconstruct the history of the University of Padua.",
+     "A commemorative monument dedicated to him, originally placed at the entrance to the high chapel of the church of San Francesco, is now kept under the outer portico of the Rotonda."
+    ],
+    "fr": [
+     "En 1570, année importante pour son activité culturelle, il reçut la mission de contribuer à la révision des statuts de la ville de Rovigo avec Andrea Nicolio.",
+     "Sa correspondance comprend une lettre adressée à Galilée, datée du 11 mars 1588.",
+     "Le De Gymnasio Patavino, publié en 1599, constitue l'une des premières tentatives systématiques de reconstruire l'histoire de l'université de Padoue.",
+     "Un monument commémoratif qui lui est dédié, placé à l'origine à l'entrée de la chapelle majeure de l'église Saint-François, est aujourd'hui conservé sous le portique extérieur de la Rotonda."
+    ],
+    "de": [
+     "1570 war ein wichtiges Jahr für seine kulturelle Tätigkeit: Er erhielt den Auftrag, zusammen mit Andrea Nicolio an der Überarbeitung der Stadtstatuten von Rovigo mitzuwirken.",
+     "Sein Briefwechsel umfasst einen Brief an Galileo Galilei, datiert auf den 11. März 1588.",
+     "Das 1599 veröffentlichte De Gymnasio Patavino gehört zu den ersten systematischen Versuchen, die Geschichte der Universität Padua zu rekonstruieren.",
+     "Ein ihm gewidmetes Gedenkmal, das ursprünglich am Eingang zur Hauptkapelle der Kirche San Francesco stand, wird heute unter dem äußeren Säulengang der Rotonda aufbewahrt."
+    ],
+    "es": [
+     "1570 fue un año importante para su actividad cultural: recibió el encargo de colaborar en la revisión de los estatutos de la ciudad de Rovigo junto con Andrea Nicolio.",
+     "Su epistolario incluye una carta dirigida a Galileo Galilei, fechada el 11 de marzo de 1588.",
+     "El De Gymnasio Patavino, publicado en 1599, representa uno de los primeros intentos sistemáticos de reconstruir la historia de la Universidad de Padua.",
+     "Un monumento conmemorativo dedicado a él, colocado originalmente a la entrada de la capilla mayor de la iglesia de San Francisco, se conserva hoy bajo el pórtico exterior de la Rotonda."
+    ]
+   },
+   "luoghi": [
+    "tempio-la-rotonda",
+    "palazzo-roverella",
+    "chiesa-santi-francesco-e-giustina"
+   ],
+   "luoghiNote": {
+    "tempio-la-rotonda": {
+     "tipo": {
+      "it": "Monumento",
+      "en": "Monument",
+      "fr": "Monument",
+      "de": "Denkmal",
+      "es": "Monumento"
+     },
+     "testo": {
+      "it": "Sotto il portico esterno si trova il monumento commemorativo ad Antonio Riccoboni, con il suo busto e la lapide a lui dedicata.",
+      "en": "Under the outer portico stands the commemorative monument to Antonio Riccoboni, with his bust and the plaque dedicated to him.",
+      "fr": "Sous le portique extérieur se trouve le monument commémoratif d'Antonio Riccoboni, avec son buste et la plaque qui lui est dédiée.",
+      "de": "Unter dem äußeren Säulengang steht das Gedenkmal für Antonio Riccoboni mit seiner Büste und der ihm gewidmeten Gedenktafel.",
+      "es": "Bajo el pórtico exterior se encuentra el monumento conmemorativo a Antonio Riccoboni, con su busto y la lápida dedicada a él."
+     }
+    },
+    "palazzo-roverella": {
+     "tipo": {
+      "it": "Ritratto",
+      "en": "Portrait",
+      "fr": "Portrait",
+      "de": "Porträt",
+      "es": "Retrato"
+     },
+     "testo": {
+      "it": "La Pinacoteca ospita il Ritratto di Antonio Riccoboni di Giambattista Tiepolo, che raffigura l'umanista rodigino.",
+      "en": "The Pinacoteca houses the Portrait of Antonio Riccoboni by Giambattista Tiepolo, which depicts the humanist from Rovigo.",
+      "fr": "La pinacothèque conserve le Portrait d'Antonio Riccoboni de Giambattista Tiepolo, qui représente l'humaniste rodigien.",
+      "de": "Die Pinakothek besitzt das Porträt von Antonio Riccoboni von Giambattista Tiepolo, das den Humanisten aus Rovigo darstellt.",
+      "es": "La pinacoteca alberga el Retrato de Antonio Riccoboni de Giambattista Tiepolo, que representa al humanista rodigino."
+     }
+    },
+    "chiesa-santi-francesco-e-giustina": {
+     "tipo": {
+      "it": "Sepoltura",
+      "en": "Burial",
+      "fr": "Sépulture",
+      "de": "Grablege",
+      "es": "Sepultura"
+     },
+     "testo": {
+      "it": "Dopo una prima collocazione nella chiesa di San Bartolomeo, il corpo fu trasferito nella chiesa di San Francesco.",
+      "en": "After a first burial in the church of San Bartolomeo, the body was moved to the church of San Francesco.",
+      "fr": "Après une première sépulture dans l'église Saint-Barthélemy, le corps fut transféré dans l'église Saint-François.",
+      "de": "Nach einer ersten Bestattung in der Kirche San Bartolomeo wurde der Leichnam in die Kirche San Francesco überführt.",
+      "es": "Tras un primer emplazamiento en la iglesia de San Bartolomeo, el cuerpo fue trasladado a la iglesia de San Francisco."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "cristina-roccati",
+   "nome": "Cristina Roccati",
+   "nascita": 1732,
+   "morte": 1797,
+   "professione": {
+    "it": "Fisica, insegnante e poetessa",
+    "en": "Physicist, teacher and poet",
+    "fr": "Physicienne, enseignante et poétesse",
+    "de": "Physikerin, Lehrerin und Dichterin",
+    "es": "Física, profesora y poetisa"
+   },
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataNascita": {
+    "it": "24 ottobre 1732",
+    "en": "24 October 1732",
+    "fr": "24 octobre 1732",
+    "de": "24. Oktober 1732",
+    "es": "24 de octubre de 1732"
+   },
+   "luogoMorte": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
+   },
+   "dataMorte": {
+    "it": "16 marzo 1797",
+    "en": "16 March 1797",
+    "fr": "16 mars 1797",
+    "de": "16. März 1797",
+    "es": "16 de marzo de 1797"
+   },
+   "biografia": {
+    "it": "Cristina Roccati fu una studiosa rodigina del Settecento, tra le prime donne italiane a conseguire una laurea universitaria e a dedicarsi all'insegnamento delle discipline scientifiche. Nata in una famiglia aristocratica, mostrò fin da giovanissima una particolare predisposizione per lo studio delle lettere e della poesia. A soli quindici anni fu accolta dall'Accademia dei Concordi, dove recitò pubblicamente alcuni suoi componimenti. Nel 1747 si trasferì a Bologna per studiare filosofia, matematica e scienze naturali, dedicandosi soprattutto alla fisica. Il 5 maggio 1751 conseguì la laurea in filosofia presso l'Università di Bologna. Proseguì poi la propria formazione a Padova, approfondendo in particolare le teorie di Isaac Newton. Tornata definitivamente a Rovigo nel 1752, iniziò a insegnare fisica all'Accademia dei Concordi, dove tenne le sue lezioni per oltre venticinque anni. Nel 1754 fu eletta Principe dell'Accademia, titolo tradizionalmente attribuito al suo presidente. Morì nella città natale nel 1797.",
+    "en": "Cristina Roccati was a scholar from Rovigo in the eighteenth century, one of the first Italian women to earn a university degree and to devote herself to teaching the scientific disciplines. Born into an aristocratic family, she showed from a very young age a particular inclination for literature and poetry. At only fifteen she was welcomed into the Accademia dei Concordi, where she publicly recited some of her compositions. In 1747 she moved to Bologna to study philosophy, mathematics and natural sciences, devoting herself above all to physics. On 5 May 1751 she earned a degree in philosophy from the University of Bologna. She then continued her studies in Padua, focusing in particular on the theories of Isaac Newton. Back in Rovigo for good in 1752, she began teaching physics at the Accademia dei Concordi, where she gave her lessons for more than twenty-five years. In 1754 she was elected Prince of the Academy, a title traditionally given to its president. She died in her native city in 1797.",
+    "fr": "Cristina Roccati fut une savante de Rovigo au XVIIIe siècle, parmi les premières femmes italiennes à obtenir un diplôme universitaire et à se consacrer à l'enseignement des disciplines scientifiques. Née dans une famille aristocratique, elle montra dès sa plus tendre jeunesse une prédisposition particulière pour l'étude des lettres et de la poésie. À quinze ans à peine, elle fut accueillie par l'Accademia dei Concordi, où elle récita publiquement certaines de ses compositions. En 1747, elle s'installa à Bologne pour étudier la philosophie, les mathématiques et les sciences naturelles, se consacrant surtout à la physique. Le 5 mai 1751, elle obtint une licence en philosophie à l'université de Bologne. Elle poursuivit ensuite sa formation à Padoue, en approfondissant en particulier les théories d'Isaac Newton. Revenue définitivement à Rovigo en 1752, elle commença à enseigner la physique à l'Accademia dei Concordi, où elle donna ses leçons pendant plus de vingt-cinq ans. En 1754, elle fut élue Princesse de l'Académie, titre traditionnellement attribué à son président. Elle mourut dans sa ville natale en 1797.",
+    "de": "Cristina Roccati war eine Gelehrte aus Rovigo im 18. Jahrhundert und gehörte zu den ersten Italienerinnen, die einen Universitätsabschluss erwarben und sich dem Unterricht in naturwissenschaftlichen Fächern widmeten. Sie stammte aus einer adligen Familie und zeigte schon als junges Mädchen eine besondere Neigung zur Literatur und zur Dichtkunst. Mit gerade fünfzehn Jahren wurde sie von der Accademia dei Concordi aufgenommen, wo sie einige ihrer Gedichte öffentlich vortrug. 1747 zog sie nach Bologna, um Philosophie, Mathematik und Naturwissenschaften zu studieren, und widmete sich vor allem der Physik. Am 5. Mai 1751 erwarb sie an der Universität Bologna den Abschluss in Philosophie. Anschließend setzte sie ihre Ausbildung in Padua fort und vertiefte besonders die Theorien Isaac Newtons. Ab 1752 endgültig wieder in Rovigo, begann sie, an der Accademia dei Concordi Physik zu unterrichten, und hielt ihre Vorlesungen über fünfundzwanzig Jahre lang. 1754 wurde sie zur „Fürstin“ der Akademie gewählt, ein Titel, der traditionell dem Präsidenten zukam. Sie starb 1797 in ihrer Geburtsstadt.",
+    "es": "Cristina Roccati fue una estudiosa de Rovigo del siglo XVIII, una de las primeras mujeres italianas en obtener un título universitario y en dedicarse a la enseñanza de las disciplinas científicas. Nacida en una familia aristocrática, mostró desde muy joven una especial inclinación por el estudio de las letras y la poesía. A los quince años fue acogida por la Accademia dei Concordi, donde recitó públicamente algunas de sus composiciones. En 1747 se trasladó a Bolonia para estudiar filosofía, matemáticas y ciencias naturales, dedicándose sobre todo a la física. El 5 de mayo de 1751 obtuvo el título de filosofía en la Universidad de Bolonia. Después continuó su formación en Padua, profundizando en particular en las teorías de Isaac Newton. De vuelta definitivamente en Rovigo en 1752, empezó a enseñar física en la Accademia dei Concordi, donde impartió sus lecciones durante más de veinticinco años. En 1754 fue elegida Princesa de la Academia, título tradicionalmente atribuido a su presidente. Murió en su ciudad natal en 1797."
+   },
+   "curiosita": {
+    "it": [
+     "A soli quindici anni fu riconosciuta come poetessa dall'Accademia dei Concordi. Entrò successivamente nell'Arcadia con il nome di Aganice Aretusiana.",
+     "Il 4 agosto 1750 sostenne nella chiesa della Beata Vergine del Soccorso, detta La Rotonda, la prima delle quattro tesi preliminari previste dal suo percorso universitario.",
+     "Sono conservate presso l'Accademia dei Concordi 51 sue lezioni manoscritte di fisica, testimonianza della sua lunga attività di insegnamento.",
+     "Nel 1753 compose anche una dissertazione sulla natura dei fulmini, purtroppo oggi perduta."
+    ],
+    "en": [
+     "At only fifteen she was recognised as a poet by the Accademia dei Concordi. She later joined the Arcadia under the name Aganice Aretusiana.",
+     "On 4 August 1750 she defended, in the church of the Beata Vergine del Soccorso, known as La Rotonda, the first of the four preliminary theses required by her university course.",
+     "Fifty-one of her handwritten physics lectures are preserved at the Accademia dei Concordi, a testimony to her long teaching activity.",
+     "In 1753 she also wrote a dissertation on the nature of lightning, unfortunately now lost."
+    ],
+    "fr": [
+     "À quinze ans à peine, elle fut reconnue comme poétesse par l'Accademia dei Concordi. Elle entra ensuite à l'Arcadie sous le nom d'Aganice Aretusiana.",
+     "Le 4 août 1750, elle soutint, dans l'église de la Beata Vergine del Soccorso, dite La Rotonda, la première des quatre thèses préliminaires prévues par son parcours universitaire.",
+     "Cinquante et une de ses leçons de physique manuscrites sont conservées à l'Accademia dei Concordi, témoignage de sa longue activité d'enseignement.",
+     "En 1753, elle rédigea aussi une dissertation sur la nature de la foudre, malheureusement aujourd'hui perdue."
+    ],
+    "de": [
+     "Mit gerade fünfzehn Jahren wurde sie von der Accademia dei Concordi als Dichterin anerkannt. Später trat sie der Arcadia bei, unter dem Namen Aganice Aretusiana.",
+     "Am 4. August 1750 verteidigte sie in der Kirche der Beata Vergine del Soccorso, genannt La Rotonda, die erste der vier vorbereitenden Thesen, die ihr Studiengang vorsah.",
+     "In der Accademia dei Concordi sind 51 ihrer handschriftlichen Physikvorlesungen erhalten, ein Zeugnis ihrer langen Lehrtätigkeit.",
+     "1753 verfasste sie außerdem eine Abhandlung über die Natur des Blitzes, die leider heute verloren ist."
+    ],
+    "es": [
+     "A los quince años fue reconocida como poetisa por la Accademia dei Concordi. Más tarde ingresó en la Arcadia con el nombre de Aganice Aretusiana.",
+     "El 4 de agosto de 1750 defendió, en la iglesia de la Beata Vergine del Soccorso, llamada La Rotonda, la primera de las cuatro tesis preliminares previstas en su itinerario universitario.",
+     "Se conservan en la Accademia dei Concordi 51 de sus lecciones manuscritas de física, testimonio de su larga actividad docente.",
+     "En 1753 compuso también una disertación sobre la naturaleza de los rayos, lamentablemente hoy perdida."
+    ]
+   },
+   "luoghi": [
+    "accademia-dei-concordi",
+    "tempio-la-rotonda",
+    "chiesa-santi-francesco-e-giustina"
+   ],
+   "luoghiNote": {
+    "accademia-dei-concordi": {
+     "tipo": {
+      "it": "Insegnamento",
+      "en": "Teaching",
+      "fr": "Enseignement",
+      "de": "Lehre",
+      "es": "Docencia"
+     },
+     "testo": {
+      "it": "Fu ammessa giovanissima all'istituzione, vi insegnò fisica per molti anni e nel 1754 ne divenne Principe.",
+      "en": "She was admitted to the institution at a very young age, taught physics there for many years and in 1754 became its Prince.",
+      "fr": "Elle y fut admise très jeune, y enseigna la physique pendant de nombreuses années et, en 1754, en devint la Princesse.",
+      "de": "Sie wurde als sehr junge Frau aufgenommen, unterrichtete dort viele Jahre Physik und wurde 1754 zu ihrer Fürstin.",
+      "es": "Fue admitida en la institución siendo muy joven, enseñó física allí durante muchos años y en 1754 se convirtió en su Princesa."
+     }
+    },
+    "tempio-la-rotonda": {
+     "tipo": {
+      "it": "Laurea",
+      "en": "Degree",
+      "fr": "Diplôme",
+      "de": "Abschluss",
+      "es": "Título"
+     },
+     "testo": {
+      "it": "Qui sostenne nel 1750 la prima delle quattro tesi preliminari alla laurea.",
+      "en": "Here, in 1750, she defended the first of the four preliminary theses for her degree.",
+      "fr": "C'est ici qu'elle soutint, en 1750, la première des quatre thèses préliminaires à sa licence.",
+      "de": "Hier verteidigte sie 1750 die erste der vier vorbereitenden Thesen für ihren Abschluss.",
+      "es": "Aquí defendió en 1750 la primera de las cuatro tesis preliminares a su título."
+     }
+    },
+    "chiesa-santi-francesco-e-giustina": {
+     "tipo": {
+      "it": "Sepoltura",
+      "en": "Burial",
+      "fr": "Sépulture",
+      "de": "Grablege",
+      "es": "Sepultura"
+     },
+     "testo": {
+      "it": "La sua tomba di famiglia si trovava presso l'antica chiesa di San Francesco a Rovigo.",
+      "en": "Her family tomb was near the old church of San Francesco in Rovigo.",
+      "fr": "Le tombeau de sa famille se trouvait près de l'ancienne église Saint-François de Rovigo.",
+      "de": "Das Familiengrab befand sich bei der alten Kirche San Francesco in Rovigo.",
+      "es": "Su tumba familiar se encontraba junto a la antigua iglesia de San Francisco de Rovigo."
+     }
+    }
+   },
+   "collegati": [],
+   "ritratto": {
+    "autore": "Threecharlie",
+    "licenza": "CC BY-SA 4.0"
+   }
+  },
+  {
    "id": "giovanni-miani",
    "nome": "Giovanni Miani",
    "nascita": 1810,
@@ -120,138 +702,133 @@
    }
   },
   {
-   "id": "virgilio-milani",
-   "nome": "Virgilio Milani",
-   "nascita": 1888,
-   "morte": 1977,
+   "id": "gino-piva",
+   "nome": "Gino Piva",
+   "nascita": 1873,
+   "morte": 1946,
    "professione": {
-    "it": "Scultore",
-    "en": "Sculptor",
-    "fr": "Sculpteur",
-    "de": "Bildhauer",
-    "es": "Escultor"
+    "it": "Giornalista, poeta, scrittore, sindacalista e politico",
+    "en": "Journalist, poet, writer, trade unionist and politician",
+    "fr": "Journaliste, poète, écrivain, syndicaliste et homme politique",
+    "de": "Journalist, Dichter, Schriftsteller, Gewerkschafter und Politiker",
+    "es": "Periodista, poeta, escritor, sindicalista y político"
    },
    "luogoNascita": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
+    "it": "Milano",
+    "en": "Milan",
+    "fr": "Milan",
+    "de": "Mailand",
+    "es": "Milán"
    },
    "dataNascita": {
-    "it": "29 febbraio 1888",
-    "en": "29 February 1888",
-    "fr": "29 février 1888",
-    "de": "29. Februar 1888",
-    "es": "29 de febrero de 1888"
+    "it": "9 aprile 1873",
+    "en": "9 April 1873",
+    "fr": "9 avril 1873",
+    "de": "9. April 1873",
+    "es": "9 de abril de 1873"
    },
    "luogoMorte": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
+    "it": "Vetrego di Mirano (Venezia)",
+    "en": "Vetrego di Mirano (Venice)",
+    "fr": "Vetrego di Mirano (Venise)",
+    "de": "Vetrego di Mirano (Venedig)",
+    "es": "Vetrego di Mirano (Venecia)"
    },
    "dataMorte": {
-    "it": "15 marzo 1977",
-    "en": "15 March 1977",
-    "fr": "15 mars 1977",
-    "de": "15. März 1977",
-    "es": "15 de marzo de 1977"
+    "it": "30 agosto 1946",
+    "en": "30 August 1946",
+    "fr": "30 août 1946",
+    "de": "30. August 1946",
+    "es": "30 de agosto de 1946"
    },
    "biografia": {
-    "it": "Virgilio Milani è stato uno dei più importanti scultori polesani del Novecento. Nato e vissuto a Rovigo, ha dedicato gran parte della propria attività alla città e al territorio circostante. La sua produzione comprende monumenti, fontane, decorazioni architettoniche e opere funerarie. Il suo stile attraversa diverse influenze del primo Novecento, con particolare attenzione alla figura umana e alla scultura monumentale. Nel 1929 partecipò alla Biennale di Venezia. La sua attività è oggi documentata anche attraverso un itinerario urbano dedicato alle sue opere.",
-    "en": "Virgilio Milani was one of the most important sculptors of the Polesine region in the twentieth century. Born and raised in Rovigo, he devoted much of his work to the city and the surrounding area. His output includes monuments, fountains, architectural decoration and funerary works. His style reflects various early twentieth-century influences, with particular attention to the human figure and monumental sculpture. In 1929 he took part in the Venice Biennale. His work is also documented through an urban itinerary dedicated to his sculptures.",
-    "fr": "Virgilio Milani fut l'un des plus importants sculpteurs du Polésine au XXe siècle. Né et installé à Rovigo, il a consacré une grande partie de son activité à la ville et à son territoire. Sa production comprend des monuments, des fontaines, des décors architecturaux et des œuvres funéraires. Son style reflète diverses influences du début du XXe siècle, avec une attention particulière à la figure humaine et à la sculpture monumentale. En 1929 il participa à la Biennale de Venise. Son travail est aujourd'hui documenté par un itinéraire urbain consacré à ses œuvres.",
-    "de": "Virgilio Milani war einer der bedeutendsten Bildhauer des Polesine im 20. Jahrhundert. In Rovigo geboren und dort lebend, widmete er einen großen Teil seines Schaffens der Stadt und ihrer Umgebung. Sein Werk umfasst Denkmäler, Brunnen, architektonische Verzierungen und Grabmäler. Sein Stil zeigt verschiedene Einflüsse des frühen 20. Jahrhunderts, mit besonderem Augenmerk auf die menschliche Figur und die monumentale Skulptur. 1929 nahm er an der Biennale von Venedig teil. Sein Schaffen wird heute auch durch einen Stadtrundgang zu seinen Werken dokumentiert.",
-    "es": "Virgilio Milani fue uno de los escultores más importantes del Polesine en el siglo XX. Nacido y criado en Rovigo, dedicó gran parte de su obra a la ciudad y a su territorio. Su producción incluye monumentos, fuentes, decoraciones arquitectónicas y obras funerarias. Su estilo refleja diversas influencias de principios del siglo XX, con especial atención a la figura humana y a la escultura monumental. En 1929 participó en la Bienal de Venecia. Su obra se documenta hoy también a través de un itinerario urbano dedicado a sus obras."
+    "it": "Gino Piva fu uno dei protagonisti della nascita del movimento socialista nel Polesine e una figura importante del giornalismo italiano tra Otto e Novecento. Pur essendo nato a Milano, trascorse l'infanzia a Rovigo, città alla quale rimase profondamente legato. Nel 1894 partecipò alle prime mobilitazioni dei braccianti polesani e si impegnò nell'organizzazione del movimento socialista. Nel 1899 fondò insieme a Nicola Badaloni e Dante Coletti il giornale La Lotta, destinato a diventare un importante punto di riferimento per i socialisti e le organizzazioni dei lavoratori del territorio. La sua carriera giornalistica lo portò in diverse città italiane. Fu soprattutto corrispondente del Resto del Carlino durante la Prima guerra mondiale, raccontando il conflitto direttamente dal fronte con centinaia di articoli. Scrisse anche poesie, racconti e opere dedicate al Polesine, firmando alcuni contributi con lo pseudonimo di «Remengo». Morì nel 1946 a Vetrego, nel territorio di Mirano, dopo una vita dedicata al giornalismo, alla politica e alla letteratura.",
+    "en": "Gino Piva was one of the founders of the socialist movement in the Polesine and an important figure in Italian journalism between the late nineteenth and early twentieth centuries. Although born in Milan, he spent his childhood in Rovigo, to which he remained deeply attached. In 1894 he took part in the first mobilisations of the Polesine farm labourers and devoted himself to organising the socialist movement. In 1899 he founded, together with Nicola Badaloni and Dante Coletti, the newspaper La Lotta, which became an important point of reference for socialists and workers' organisations in the area. His journalistic career took him to several Italian cities. He was above all the Resto del Carlino correspondent during the First World War, reporting on the conflict directly from the front with hundreds of articles. He also wrote poems, short stories and works dedicated to the Polesine, signing some contributions with the pseudonym «Remengo». He died in 1946 in Vetrego, in the territory of Mirano, after a life devoted to journalism, politics and literature.",
+    "fr": "Gino Piva fut l'un des protagonistes de la naissance du mouvement socialiste dans le Polésine et une figure importante du journalisme italien entre la fin du XIXe et le début du XXe siècle. Bien que né à Milan, il passa son enfance à Rovigo, ville à laquelle il resta profondément attaché. En 1894, il participa aux premières mobilisations des ouvriers agricoles du Polésine et s'engagea dans l'organisation du mouvement socialiste. En 1899, il fonda avec Nicola Badaloni et Dante Coletti le journal La Lotta, qui devint un point de référence important pour les socialistes et les organisations ouvrières du territoire. Sa carrière journalistique le conduisit dans plusieurs villes italiennes. Il fut surtout correspondant du Resto del Carlino pendant la Première Guerre mondiale, racontant le conflit directement depuis le front à travers des centaines d'articles. Il écrivit aussi des poèmes, des récits et des œuvres consacrées au Polésine, signant certaines contributions du pseudonyme de « Remengo ». Il mourut en 1946 à Vetrego, sur le territoire de Mirano, après une vie consacrée au journalisme, à la politique et à la littérature.",
+    "de": "Gino Piva war einer der Begründer der sozialistischen Bewegung im Polesine und eine wichtige Gestalt des italienischen Journalismus zwischen dem späten 19. und dem frühen 20. Jahrhundert. Obwohl er in Mailand geboren wurde, verbrachte er seine Kindheit in Rovigo, mit dem er tief verbunden blieb. 1894 nahm er an den ersten Mobilisierungen der Landarbeiter des Polesine teil und engagierte sich in der Organisation der sozialistischen Bewegung. 1899 gründete er zusammen mit Nicola Badaloni und Dante Coletti die Zeitung La Lotta, die zu einem wichtigen Bezugspunkt für Sozialisten und Arbeiterorganisationen der Region wurde. Seine journalistische Laufbahn führte ihn in mehrere italienische Städte. Vor allem war er während des Ersten Weltkriegs Korrespondent des Resto del Carlino und berichtete mit hunderten Artikeln direkt von der Front. Er schrieb auch Gedichte, Erzählungen und Werke über das Polesine und unterzeichnete einige Beiträge mit dem Pseudonym «Remengo». Er starb 1946 in Vetrego im Gebiet von Mirano, nach einem Leben, das dem Journalismus, der Politik und der Literatur gewidmet war.",
+    "es": "Gino Piva fue uno de los protagonistas del nacimiento del movimiento socialista en el Polesine y una figura importante del periodismo italiano entre finales del siglo XIX y principios del XX. Aunque nació en Milán, pasó su infancia en Rovigo, ciudad a la que permaneció profundamente unido. En 1894 participó en las primeras movilizaciones de los jornaleros del Polesine y se comprometió con la organización del movimiento socialista. En 1899 fundó junto a Nicola Badaloni y Dante Coletti el periódico La Lotta, que llegó a ser un punto de referencia importante para los socialistas y las organizaciones de trabajadores de la zona. Su carrera periodística lo llevó a varias ciudades italianas. Fue sobre todo corresponsal de Il Resto del Carlino durante la Primera Guerra Mundial, contando el conflicto directamente desde el frente con cientos de artículos. Escribió también poesías, relatos y obras dedicadas al Polesine, firmando algunas contribuciones con el seudónimo «Remengo». Murió en 1946 en Vetrego, en el término municipal de Mirano, tras una vida dedicada al periodismo, la política y la literatura."
    },
    "curiosita": {
     "it": [
-     "La sua opera è molto presente nei cimiteri del Polesine: nel solo cimitero di Rovigo sono censite otto opere attribuite o riconducibili allo scultore.",
-     "Una delle sue realizzazioni più conosciute è la Fontana della Riconoscenza, nella piazza della stazione, legata alla solidarietà ricevuta dal Polesine dopo l'alluvione del 1951.",
-     "Anche la sua tomba, nel cimitero di Rovigo, è un'opera artistica: due figure bronzee, una maschile e una femminile, e rilievi con gli strumenti del suo lavoro e quelli della moglie."
+     "Firmava molti dei suoi articoli con lo pseudonimo «Remengo», parola veneta che significa vagabondo o persona errante.",
+     "Durante la Prima guerra mondiale inviò al Resto del Carlino circa 380 articoli tra il 1914 e il 1918, raccontando la guerra dalle prime linee e dalle retrovie. Il lavoro gli valse la Croce al Merito di guerra nel 1919."
     ],
     "en": [
-     "His works are very present in the cemeteries of the Polesine: in Rovigo's cemetery alone, eight works attributed to or linked with the sculptor are recorded.",
-     "One of his best-known works is the Fontana della Riconoscenza in the station square, linked to the solidarity the Polesine received after the 1951 flood.",
-     "His own tomb in Rovigo's cemetery is also an artwork: two bronze figures, a man and a woman, and reliefs with the tools of his trade and those of his wife."
+     "He signed many of his articles with the pseudonym «Remengo», a Venetian word meaning vagabond or wandering person.",
+     "During the First World War he sent the Resto del Carlino about 380 articles between 1914 and 1918, reporting on the war from the front lines and the rear. This work earned him the Croce al Merito di guerra in 1919."
     ],
     "fr": [
-     "Ses œuvres sont très présentes dans les cimetières du Polésine : dans le seul cimetière de Rovigo, huit œuvres attribuées au sculpteur ou qui s'y rattachent sont recensées.",
-     "Une de ses réalisations les plus connues est la Fontana della Riconoscenza, sur la place de la gare, liée à la solidarité reçue par le Polésine après l'inondation de 1951.",
-     "Sa propre tombe, dans le cimetière de Rovigo, est aussi une œuvre d'art : deux figures en bronze, un homme et une femme, et des reliefs avec les outils de son métier et ceux de son épouse."
+     "Il signait beaucoup de ses articles du pseudonyme « Remengo », mot vénitien signifiant vagabond ou personne errante.",
+     "Pendant la Première Guerre mondiale, il envoya au Resto del Carlino environ 380 articles entre 1914 et 1918, racontant la guerre depuis les premières lignes et l'arrière. Ce travail lui valut la Croix du mérite de guerre en 1919."
     ],
     "de": [
-     "Seine Werke sind auf den Friedhöfen des Polesine sehr präsent: allein auf dem Friedhof von Rovigo sind acht Werke verzeichnet, die dem Bildhauer zugeschrieben werden oder ihm nahestehen.",
-     "Eine seiner bekanntesten Arbeiten ist der Brunnen der Dankbarkeit (Fontana della Riconoscenza) auf dem Bahnhofsplatz, der mit der Solidarität verbunden ist, die das Polesine nach der Flut von 1951 erfuhr.",
-     "Auch sein eigenes Grab auf dem Friedhof von Rovigo ist ein Kunstwerk: zwei Bronzefiguren, ein Mann und eine Frau, und Reliefs mit den Werkzeugen seines Berufs und denen seiner Frau."
+     "Viele seiner Artikel unterzeichnete er mit dem Pseudonym «Remengo», einem venetischen Wort für Vagabund oder umherziehende Person.",
+     "Während des Ersten Weltkriegs schickte er zwischen 1914 und 1918 rund 380 Artikel an den Resto del Carlino und berichtete von der Front und aus dem Hinterland. Dafür erhielt er 1919 das Kriegsverdienstkreuz (Croce al Merito di guerra)."
     ],
     "es": [
-     "Su obra está muy presente en los cementerios del Polesine: solo en el cementerio de Rovigo se registran ocho obras atribuidas al escultor o relacionadas con él.",
-     "Una de sus realizaciones más conocidas es la Fontana della Riconoscenza, en la plaza de la estación, ligada a la solidaridad recibida por el Polesine tras la riada de 1951.",
-     "Su tumba, en el cementerio de Rovigo, también es una obra de arte: dos figuras de bronce, una masculina y otra femenina, y relieves con las herramientas de su oficio y las de su esposa."
+     "Firmaba muchos de sus artículos con el seudónimo «Remengo», palabra veneta que significa vagabundo o persona errante.",
+     "Durante la Primera Guerra Mundial envió al Resto del Carlino unos 380 artículos entre 1914 y 1918, contando la guerra desde las primeras líneas y la retaguardia. Ese trabajo le valió la Cruz al Mérito de Guerra en 1919."
     ]
    },
    "luoghi": [
-    "cimitero-monumentale-rovigo",
-    "fontana-della-riconoscenza",
-    "ex-liceo-celio"
+    "ex-liceo-celio",
+    "accademia-dei-concordi",
+    "cimitero-monumentale-rovigo"
    ],
    "luoghiNote": {
-    "cimitero-monumentale-rovigo": {
-     "tipo": {
-      "it": "Legame diretto",
-      "en": "Direct link",
-      "fr": "Lien direct",
-      "de": "Direkter Bezug",
-      "es": "Vínculo directo"
-     },
-     "testo": {
-      "it": "Il cimitero custodisce otto sue opere, tra cui diverse tombe monumentali e la sua stessa tomba con la moglie Antonietta Bellinello.",
-      "en": "The cemetery holds eight of his works, including several monumental tombs and his own tomb with his wife Antonietta Bellinello.",
-      "fr": "Le cimetière abrite huit de ses œuvres, dont plusieurs tombes monumentales et sa propre tombe avec son épouse Antonietta Bellinello.",
-      "de": "Der Friedhof bewahrt acht seiner Werke, darunter mehrere monumentale Grabmäler und sein eigenes Grab mit seiner Frau Antonietta Bellinello.",
-      "es": "El cementerio conserva ocho de sus obras, entre ellas varias tumbas monumentales y su propia tumba con su esposa Antonietta Bellinello."
-     }
-    },
-    "fontana-della-riconoscenza": {
-     "tipo": {
-      "it": "Opera",
-      "en": "Work",
-      "fr": "Œuvre",
-      "de": "Werk",
-      "es": "Obra"
-     },
-     "testo": {
-      "it": "Realizzata nel 1952 su suo progetto, dedicata alla solidarietà ricevuta dopo l'alluvione del 1951.",
-      "en": "Built in 1952 to his design, dedicated to the solidarity received after the 1951 flood.",
-      "fr": "Réalisée en 1952 d'après son projet, dédiée à la solidarité reçue après l'inondation de 1951.",
-      "de": "1952 nach seinem Entwurf errichtet, gewidmet der Solidarität nach der Flut von 1951.",
-      "es": "Realizada en 1952 según su proyecto, dedicada a la solidaridad recibida tras la riada de 1951."
-     }
-    },
     "ex-liceo-celio": {
      "tipo": {
-      "it": "Opera",
-      "en": "Work",
-      "fr": "Œuvre",
-      "de": "Werk",
-      "es": "Obra"
+      "it": "Formazione",
+      "en": "Education",
+      "fr": "Formation",
+      "de": "Ausbildung",
+      "es": "Formación"
      },
      "testo": {
-      "it": "Ha realizzato il mosaico della facciata nel 1958, anno in cui fu completata la ricostruzione dell'edificio dopo i bombardamenti del febbraio 1945.",
-      "en": "He made the mosaic on the facade in 1958, the year the rebuilding of the building was completed after the bombing of February 1945.",
-      "fr": "Il réalisa la mosaïque de la façade en 1958, année où s'achève la reconstruction du bâtiment après les bombardements de février 1945.",
-      "de": "1958 schuf er das Mosaik an der Fassade, im Jahr, in dem der Wiederaufbau des Gebäudes nach den Bombardierungen vom Februar 1945 abgeschlossen wurde.",
-      "es": "Realizó el mosaico de la fachada en 1958, año en que se completó la reconstrucción del edificio tras los bombardeos de febrero de 1945."
+      "it": "Frequentò il liceo a Rovigo, iscrivendosi nel 1884.",
+      "en": "He attended the high school in Rovigo, enrolling in 1884.",
+      "fr": "Il fréquenta le lycée de Rovigo, où il s'inscrivit en 1884.",
+      "de": "Er besuchte das Gymnasium in Rovigo und schrieb sich 1884 ein.",
+      "es": "Cursó el liceo en Rovigo, matriculándose en 1884."
+     }
+    },
+    "accademia-dei-concordi": {
+     "tipo": {
+      "it": "Socio",
+      "en": "Member",
+      "fr": "Membre",
+      "de": "Mitglied",
+      "es": "Socio"
+     },
+     "testo": {
+      "it": "Fu socio dell'Accademia, come riportato dalle ricostruzioni biografiche.",
+      "en": "He was a member of the Academy, as reported by biographical reconstructions.",
+      "fr": "Il fut membre de l'Académie, comme le rapportent les reconstitutions biographiques.",
+      "de": "Er war Mitglied der Akademie, wie biografische Rekonstruktionen berichten.",
+      "es": "Fue socio de la Academia, según recogen las reconstrucciones biográficas."
+     }
+    },
+    "cimitero-monumentale-rovigo": {
+     "tipo": {
+      "it": "Sepoltura",
+      "en": "Burial",
+      "fr": "Sépulture",
+      "de": "Grabstätte",
+      "es": "Sepultura"
+     },
+     "testo": {
+      "it": "La sua salma riposa a Rovigo, nonostante la morte sia avvenuta a Vetrego di Mirano.",
+      "en": "His remains rest in Rovigo, although he died in Vetrego di Mirano.",
+      "fr": "Sa dépouille repose à Rovigo, bien qu'il soit mort à Vetrego di Mirano.",
+      "de": "Seine sterblichen Überreste ruhen in Rovigo, obwohl er in Vetrego di Mirano starb.",
+      "es": "Sus restos descansan en Rovigo, aunque falleció en Vetrego di Mirano."
      }
     }
    },
    "collegati": [],
    "ritratto": {
-    "autore": "Di Pivari",
-    "licenza": "CC BY-SA 3.0"
+    "autore": "Autore sconosciuto",
+    "licenza": "CC BY-SA 4.0"
    }
   },
   {
@@ -552,539 +1129,6 @@
    }
   },
   {
-   "id": "gino-piva",
-   "nome": "Gino Piva",
-   "nascita": 1873,
-   "morte": 1946,
-   "professione": {
-    "it": "Giornalista, poeta, scrittore, sindacalista e politico",
-    "en": "Journalist, poet, writer, trade unionist and politician",
-    "fr": "Journaliste, poète, écrivain, syndicaliste et homme politique",
-    "de": "Journalist, Dichter, Schriftsteller, Gewerkschafter und Politiker",
-    "es": "Periodista, poeta, escritor, sindicalista y político"
-   },
-   "luogoNascita": {
-    "it": "Milano",
-    "en": "Milan",
-    "fr": "Milan",
-    "de": "Mailand",
-    "es": "Milán"
-   },
-   "dataNascita": {
-    "it": "9 aprile 1873",
-    "en": "9 April 1873",
-    "fr": "9 avril 1873",
-    "de": "9. April 1873",
-    "es": "9 de abril de 1873"
-   },
-   "luogoMorte": {
-    "it": "Vetrego di Mirano (Venezia)",
-    "en": "Vetrego di Mirano (Venice)",
-    "fr": "Vetrego di Mirano (Venise)",
-    "de": "Vetrego di Mirano (Venedig)",
-    "es": "Vetrego di Mirano (Venecia)"
-   },
-   "dataMorte": {
-    "it": "30 agosto 1946",
-    "en": "30 August 1946",
-    "fr": "30 août 1946",
-    "de": "30. August 1946",
-    "es": "30 de agosto de 1946"
-   },
-   "biografia": {
-    "it": "Gino Piva fu uno dei protagonisti della nascita del movimento socialista nel Polesine e una figura importante del giornalismo italiano tra Otto e Novecento. Pur essendo nato a Milano, trascorse l'infanzia a Rovigo, città alla quale rimase profondamente legato. Nel 1894 partecipò alle prime mobilitazioni dei braccianti polesani e si impegnò nell'organizzazione del movimento socialista. Nel 1899 fondò insieme a Nicola Badaloni e Dante Coletti il giornale La Lotta, destinato a diventare un importante punto di riferimento per i socialisti e le organizzazioni dei lavoratori del territorio. La sua carriera giornalistica lo portò in diverse città italiane. Fu soprattutto corrispondente del Resto del Carlino durante la Prima guerra mondiale, raccontando il conflitto direttamente dal fronte con centinaia di articoli. Scrisse anche poesie, racconti e opere dedicate al Polesine, firmando alcuni contributi con lo pseudonimo di «Remengo». Morì nel 1946 a Vetrego, nel territorio di Mirano, dopo una vita dedicata al giornalismo, alla politica e alla letteratura.",
-    "en": "Gino Piva was one of the founders of the socialist movement in the Polesine and an important figure in Italian journalism between the late nineteenth and early twentieth centuries. Although born in Milan, he spent his childhood in Rovigo, to which he remained deeply attached. In 1894 he took part in the first mobilisations of the Polesine farm labourers and devoted himself to organising the socialist movement. In 1899 he founded, together with Nicola Badaloni and Dante Coletti, the newspaper La Lotta, which became an important point of reference for socialists and workers' organisations in the area. His journalistic career took him to several Italian cities. He was above all the Resto del Carlino correspondent during the First World War, reporting on the conflict directly from the front with hundreds of articles. He also wrote poems, short stories and works dedicated to the Polesine, signing some contributions with the pseudonym «Remengo». He died in 1946 in Vetrego, in the territory of Mirano, after a life devoted to journalism, politics and literature.",
-    "fr": "Gino Piva fut l'un des protagonistes de la naissance du mouvement socialiste dans le Polésine et une figure importante du journalisme italien entre la fin du XIXe et le début du XXe siècle. Bien que né à Milan, il passa son enfance à Rovigo, ville à laquelle il resta profondément attaché. En 1894, il participa aux premières mobilisations des ouvriers agricoles du Polésine et s'engagea dans l'organisation du mouvement socialiste. En 1899, il fonda avec Nicola Badaloni et Dante Coletti le journal La Lotta, qui devint un point de référence important pour les socialistes et les organisations ouvrières du territoire. Sa carrière journalistique le conduisit dans plusieurs villes italiennes. Il fut surtout correspondant du Resto del Carlino pendant la Première Guerre mondiale, racontant le conflit directement depuis le front à travers des centaines d'articles. Il écrivit aussi des poèmes, des récits et des œuvres consacrées au Polésine, signant certaines contributions du pseudonyme de « Remengo ». Il mourut en 1946 à Vetrego, sur le territoire de Mirano, après une vie consacrée au journalisme, à la politique et à la littérature.",
-    "de": "Gino Piva war einer der Begründer der sozialistischen Bewegung im Polesine und eine wichtige Gestalt des italienischen Journalismus zwischen dem späten 19. und dem frühen 20. Jahrhundert. Obwohl er in Mailand geboren wurde, verbrachte er seine Kindheit in Rovigo, mit dem er tief verbunden blieb. 1894 nahm er an den ersten Mobilisierungen der Landarbeiter des Polesine teil und engagierte sich in der Organisation der sozialistischen Bewegung. 1899 gründete er zusammen mit Nicola Badaloni und Dante Coletti die Zeitung La Lotta, die zu einem wichtigen Bezugspunkt für Sozialisten und Arbeiterorganisationen der Region wurde. Seine journalistische Laufbahn führte ihn in mehrere italienische Städte. Vor allem war er während des Ersten Weltkriegs Korrespondent des Resto del Carlino und berichtete mit hunderten Artikeln direkt von der Front. Er schrieb auch Gedichte, Erzählungen und Werke über das Polesine und unterzeichnete einige Beiträge mit dem Pseudonym «Remengo». Er starb 1946 in Vetrego im Gebiet von Mirano, nach einem Leben, das dem Journalismus, der Politik und der Literatur gewidmet war.",
-    "es": "Gino Piva fue uno de los protagonistas del nacimiento del movimiento socialista en el Polesine y una figura importante del periodismo italiano entre finales del siglo XIX y principios del XX. Aunque nació en Milán, pasó su infancia en Rovigo, ciudad a la que permaneció profundamente unido. En 1894 participó en las primeras movilizaciones de los jornaleros del Polesine y se comprometió con la organización del movimiento socialista. En 1899 fundó junto a Nicola Badaloni y Dante Coletti el periódico La Lotta, que llegó a ser un punto de referencia importante para los socialistas y las organizaciones de trabajadores de la zona. Su carrera periodística lo llevó a varias ciudades italianas. Fue sobre todo corresponsal de Il Resto del Carlino durante la Primera Guerra Mundial, contando el conflicto directamente desde el frente con cientos de artículos. Escribió también poesías, relatos y obras dedicadas al Polesine, firmando algunas contribuciones con el seudónimo «Remengo». Murió en 1946 en Vetrego, en el término municipal de Mirano, tras una vida dedicada al periodismo, la política y la literatura."
-   },
-   "curiosita": {
-    "it": [
-     "Firmava molti dei suoi articoli con lo pseudonimo «Remengo», parola veneta che significa vagabondo o persona errante.",
-     "Durante la Prima guerra mondiale inviò al Resto del Carlino circa 380 articoli tra il 1914 e il 1918, raccontando la guerra dalle prime linee e dalle retrovie. Il lavoro gli valse la Croce al Merito di guerra nel 1919."
-    ],
-    "en": [
-     "He signed many of his articles with the pseudonym «Remengo», a Venetian word meaning vagabond or wandering person.",
-     "During the First World War he sent the Resto del Carlino about 380 articles between 1914 and 1918, reporting on the war from the front lines and the rear. This work earned him the Croce al Merito di guerra in 1919."
-    ],
-    "fr": [
-     "Il signait beaucoup de ses articles du pseudonyme « Remengo », mot vénitien signifiant vagabond ou personne errante.",
-     "Pendant la Première Guerre mondiale, il envoya au Resto del Carlino environ 380 articles entre 1914 et 1918, racontant la guerre depuis les premières lignes et l'arrière. Ce travail lui valut la Croix du mérite de guerre en 1919."
-    ],
-    "de": [
-     "Viele seiner Artikel unterzeichnete er mit dem Pseudonym «Remengo», einem venetischen Wort für Vagabund oder umherziehende Person.",
-     "Während des Ersten Weltkriegs schickte er zwischen 1914 und 1918 rund 380 Artikel an den Resto del Carlino und berichtete von der Front und aus dem Hinterland. Dafür erhielt er 1919 das Kriegsverdienstkreuz (Croce al Merito di guerra)."
-    ],
-    "es": [
-     "Firmaba muchos de sus artículos con el seudónimo «Remengo», palabra veneta que significa vagabundo o persona errante.",
-     "Durante la Primera Guerra Mundial envió al Resto del Carlino unos 380 artículos entre 1914 y 1918, contando la guerra desde las primeras líneas y la retaguardia. Ese trabajo le valió la Cruz al Mérito de Guerra en 1919."
-    ]
-   },
-   "luoghi": [
-    "ex-liceo-celio",
-    "accademia-dei-concordi",
-    "cimitero-monumentale-rovigo"
-   ],
-   "luoghiNote": {
-    "ex-liceo-celio": {
-     "tipo": {
-      "it": "Formazione",
-      "en": "Education",
-      "fr": "Formation",
-      "de": "Ausbildung",
-      "es": "Formación"
-     },
-     "testo": {
-      "it": "Frequentò il liceo a Rovigo, iscrivendosi nel 1884.",
-      "en": "He attended the high school in Rovigo, enrolling in 1884.",
-      "fr": "Il fréquenta le lycée de Rovigo, où il s'inscrivit en 1884.",
-      "de": "Er besuchte das Gymnasium in Rovigo und schrieb sich 1884 ein.",
-      "es": "Cursó el liceo en Rovigo, matriculándose en 1884."
-     }
-    },
-    "accademia-dei-concordi": {
-     "tipo": {
-      "it": "Socio",
-      "en": "Member",
-      "fr": "Membre",
-      "de": "Mitglied",
-      "es": "Socio"
-     },
-     "testo": {
-      "it": "Fu socio dell'Accademia, come riportato dalle ricostruzioni biografiche.",
-      "en": "He was a member of the Academy, as reported by biographical reconstructions.",
-      "fr": "Il fut membre de l'Académie, comme le rapportent les reconstitutions biographiques.",
-      "de": "Er war Mitglied der Akademie, wie biografische Rekonstruktionen berichten.",
-      "es": "Fue socio de la Academia, según recogen las reconstrucciones biográficas."
-     }
-    },
-    "cimitero-monumentale-rovigo": {
-     "tipo": {
-      "it": "Sepoltura",
-      "en": "Burial",
-      "fr": "Sépulture",
-      "de": "Grabstätte",
-      "es": "Sepultura"
-     },
-     "testo": {
-      "it": "La sua salma riposa a Rovigo, nonostante la morte sia avvenuta a Vetrego di Mirano.",
-      "en": "His remains rest in Rovigo, although he died in Vetrego di Mirano.",
-      "fr": "Sa dépouille repose à Rovigo, bien qu'il soit mort à Vetrego di Mirano.",
-      "de": "Seine sterblichen Überreste ruhen in Rovigo, obwohl er in Vetrego di Mirano starb.",
-      "es": "Sus restos descansan en Rovigo, aunque falleció en Vetrego di Mirano."
-     }
-    }
-   },
-   "collegati": [],
-   "ritratto": {
-    "autore": "Autore sconosciuto",
-    "licenza": "CC BY-SA 4.0"
-   }
-  },
-  {
-   "id": "cristina-roccati",
-   "nome": "Cristina Roccati",
-   "nascita": 1732,
-   "morte": 1797,
-   "professione": {
-    "it": "Fisica, insegnante e poetessa",
-    "en": "Physicist, teacher and poet",
-    "fr": "Physicienne, enseignante et poétesse",
-    "de": "Physikerin, Lehrerin und Dichterin",
-    "es": "Física, profesora y poetisa"
-   },
-   "luogoNascita": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
-   },
-   "dataNascita": {
-    "it": "24 ottobre 1732",
-    "en": "24 October 1732",
-    "fr": "24 octobre 1732",
-    "de": "24. Oktober 1732",
-    "es": "24 de octubre de 1732"
-   },
-   "luogoMorte": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
-   },
-   "dataMorte": {
-    "it": "16 marzo 1797",
-    "en": "16 March 1797",
-    "fr": "16 mars 1797",
-    "de": "16. März 1797",
-    "es": "16 de marzo de 1797"
-   },
-   "biografia": {
-    "it": "Cristina Roccati fu una studiosa rodigina del Settecento, tra le prime donne italiane a conseguire una laurea universitaria e a dedicarsi all'insegnamento delle discipline scientifiche. Nata in una famiglia aristocratica, mostrò fin da giovanissima una particolare predisposizione per lo studio delle lettere e della poesia. A soli quindici anni fu accolta dall'Accademia dei Concordi, dove recitò pubblicamente alcuni suoi componimenti. Nel 1747 si trasferì a Bologna per studiare filosofia, matematica e scienze naturali, dedicandosi soprattutto alla fisica. Il 5 maggio 1751 conseguì la laurea in filosofia presso l'Università di Bologna. Proseguì poi la propria formazione a Padova, approfondendo in particolare le teorie di Isaac Newton. Tornata definitivamente a Rovigo nel 1752, iniziò a insegnare fisica all'Accademia dei Concordi, dove tenne le sue lezioni per oltre venticinque anni. Nel 1754 fu eletta Principe dell'Accademia, titolo tradizionalmente attribuito al suo presidente. Morì nella città natale nel 1797.",
-    "en": "Cristina Roccati was a scholar from Rovigo in the eighteenth century, one of the first Italian women to earn a university degree and to devote herself to teaching the scientific disciplines. Born into an aristocratic family, she showed from a very young age a particular inclination for literature and poetry. At only fifteen she was welcomed into the Accademia dei Concordi, where she publicly recited some of her compositions. In 1747 she moved to Bologna to study philosophy, mathematics and natural sciences, devoting herself above all to physics. On 5 May 1751 she earned a degree in philosophy from the University of Bologna. She then continued her studies in Padua, focusing in particular on the theories of Isaac Newton. Back in Rovigo for good in 1752, she began teaching physics at the Accademia dei Concordi, where she gave her lessons for more than twenty-five years. In 1754 she was elected Prince of the Academy, a title traditionally given to its president. She died in her native city in 1797.",
-    "fr": "Cristina Roccati fut une savante de Rovigo au XVIIIe siècle, parmi les premières femmes italiennes à obtenir un diplôme universitaire et à se consacrer à l'enseignement des disciplines scientifiques. Née dans une famille aristocratique, elle montra dès sa plus tendre jeunesse une prédisposition particulière pour l'étude des lettres et de la poésie. À quinze ans à peine, elle fut accueillie par l'Accademia dei Concordi, où elle récita publiquement certaines de ses compositions. En 1747, elle s'installa à Bologne pour étudier la philosophie, les mathématiques et les sciences naturelles, se consacrant surtout à la physique. Le 5 mai 1751, elle obtint une licence en philosophie à l'université de Bologne. Elle poursuivit ensuite sa formation à Padoue, en approfondissant en particulier les théories d'Isaac Newton. Revenue définitivement à Rovigo en 1752, elle commença à enseigner la physique à l'Accademia dei Concordi, où elle donna ses leçons pendant plus de vingt-cinq ans. En 1754, elle fut élue Princesse de l'Académie, titre traditionnellement attribué à son président. Elle mourut dans sa ville natale en 1797.",
-    "de": "Cristina Roccati war eine Gelehrte aus Rovigo im 18. Jahrhundert und gehörte zu den ersten Italienerinnen, die einen Universitätsabschluss erwarben und sich dem Unterricht in naturwissenschaftlichen Fächern widmeten. Sie stammte aus einer adligen Familie und zeigte schon als junges Mädchen eine besondere Neigung zur Literatur und zur Dichtkunst. Mit gerade fünfzehn Jahren wurde sie von der Accademia dei Concordi aufgenommen, wo sie einige ihrer Gedichte öffentlich vortrug. 1747 zog sie nach Bologna, um Philosophie, Mathematik und Naturwissenschaften zu studieren, und widmete sich vor allem der Physik. Am 5. Mai 1751 erwarb sie an der Universität Bologna den Abschluss in Philosophie. Anschließend setzte sie ihre Ausbildung in Padua fort und vertiefte besonders die Theorien Isaac Newtons. Ab 1752 endgültig wieder in Rovigo, begann sie, an der Accademia dei Concordi Physik zu unterrichten, und hielt ihre Vorlesungen über fünfundzwanzig Jahre lang. 1754 wurde sie zur „Fürstin“ der Akademie gewählt, ein Titel, der traditionell dem Präsidenten zukam. Sie starb 1797 in ihrer Geburtsstadt.",
-    "es": "Cristina Roccati fue una estudiosa de Rovigo del siglo XVIII, una de las primeras mujeres italianas en obtener un título universitario y en dedicarse a la enseñanza de las disciplinas científicas. Nacida en una familia aristocrática, mostró desde muy joven una especial inclinación por el estudio de las letras y la poesía. A los quince años fue acogida por la Accademia dei Concordi, donde recitó públicamente algunas de sus composiciones. En 1747 se trasladó a Bolonia para estudiar filosofía, matemáticas y ciencias naturales, dedicándose sobre todo a la física. El 5 de mayo de 1751 obtuvo el título de filosofía en la Universidad de Bolonia. Después continuó su formación en Padua, profundizando en particular en las teorías de Isaac Newton. De vuelta definitivamente en Rovigo en 1752, empezó a enseñar física en la Accademia dei Concordi, donde impartió sus lecciones durante más de veinticinco años. En 1754 fue elegida Princesa de la Academia, título tradicionalmente atribuido a su presidente. Murió en su ciudad natal en 1797."
-   },
-   "curiosita": {
-    "it": [
-     "A soli quindici anni fu riconosciuta come poetessa dall'Accademia dei Concordi. Entrò successivamente nell'Arcadia con il nome di Aganice Aretusiana.",
-     "Il 4 agosto 1750 sostenne nella chiesa della Beata Vergine del Soccorso, detta La Rotonda, la prima delle quattro tesi preliminari previste dal suo percorso universitario.",
-     "Sono conservate presso l'Accademia dei Concordi 51 sue lezioni manoscritte di fisica, testimonianza della sua lunga attività di insegnamento.",
-     "Nel 1753 compose anche una dissertazione sulla natura dei fulmini, purtroppo oggi perduta."
-    ],
-    "en": [
-     "At only fifteen she was recognised as a poet by the Accademia dei Concordi. She later joined the Arcadia under the name Aganice Aretusiana.",
-     "On 4 August 1750 she defended, in the church of the Beata Vergine del Soccorso, known as La Rotonda, the first of the four preliminary theses required by her university course.",
-     "Fifty-one of her handwritten physics lectures are preserved at the Accademia dei Concordi, a testimony to her long teaching activity.",
-     "In 1753 she also wrote a dissertation on the nature of lightning, unfortunately now lost."
-    ],
-    "fr": [
-     "À quinze ans à peine, elle fut reconnue comme poétesse par l'Accademia dei Concordi. Elle entra ensuite à l'Arcadie sous le nom d'Aganice Aretusiana.",
-     "Le 4 août 1750, elle soutint, dans l'église de la Beata Vergine del Soccorso, dite La Rotonda, la première des quatre thèses préliminaires prévues par son parcours universitaire.",
-     "Cinquante et une de ses leçons de physique manuscrites sont conservées à l'Accademia dei Concordi, témoignage de sa longue activité d'enseignement.",
-     "En 1753, elle rédigea aussi une dissertation sur la nature de la foudre, malheureusement aujourd'hui perdue."
-    ],
-    "de": [
-     "Mit gerade fünfzehn Jahren wurde sie von der Accademia dei Concordi als Dichterin anerkannt. Später trat sie der Arcadia bei, unter dem Namen Aganice Aretusiana.",
-     "Am 4. August 1750 verteidigte sie in der Kirche der Beata Vergine del Soccorso, genannt La Rotonda, die erste der vier vorbereitenden Thesen, die ihr Studiengang vorsah.",
-     "In der Accademia dei Concordi sind 51 ihrer handschriftlichen Physikvorlesungen erhalten, ein Zeugnis ihrer langen Lehrtätigkeit.",
-     "1753 verfasste sie außerdem eine Abhandlung über die Natur des Blitzes, die leider heute verloren ist."
-    ],
-    "es": [
-     "A los quince años fue reconocida como poetisa por la Accademia dei Concordi. Más tarde ingresó en la Arcadia con el nombre de Aganice Aretusiana.",
-     "El 4 de agosto de 1750 defendió, en la iglesia de la Beata Vergine del Soccorso, llamada La Rotonda, la primera de las cuatro tesis preliminares previstas en su itinerario universitario.",
-     "Se conservan en la Accademia dei Concordi 51 de sus lecciones manuscritas de física, testimonio de su larga actividad docente.",
-     "En 1753 compuso también una disertación sobre la naturaleza de los rayos, lamentablemente hoy perdida."
-    ]
-   },
-   "luoghi": [
-    "accademia-dei-concordi",
-    "tempio-la-rotonda",
-    "chiesa-santi-francesco-e-giustina"
-   ],
-   "luoghiNote": {
-    "accademia-dei-concordi": {
-     "tipo": {
-      "it": "Insegnamento",
-      "en": "Teaching",
-      "fr": "Enseignement",
-      "de": "Lehre",
-      "es": "Docencia"
-     },
-     "testo": {
-      "it": "Fu ammessa giovanissima all'istituzione, vi insegnò fisica per molti anni e nel 1754 ne divenne Principe.",
-      "en": "She was admitted to the institution at a very young age, taught physics there for many years and in 1754 became its Prince.",
-      "fr": "Elle y fut admise très jeune, y enseigna la physique pendant de nombreuses années et, en 1754, en devint la Princesse.",
-      "de": "Sie wurde als sehr junge Frau aufgenommen, unterrichtete dort viele Jahre Physik und wurde 1754 zu ihrer Fürstin.",
-      "es": "Fue admitida en la institución siendo muy joven, enseñó física allí durante muchos años y en 1754 se convirtió en su Princesa."
-     }
-    },
-    "tempio-la-rotonda": {
-     "tipo": {
-      "it": "Laurea",
-      "en": "Degree",
-      "fr": "Diplôme",
-      "de": "Abschluss",
-      "es": "Título"
-     },
-     "testo": {
-      "it": "Qui sostenne nel 1750 la prima delle quattro tesi preliminari alla laurea.",
-      "en": "Here, in 1750, she defended the first of the four preliminary theses for her degree.",
-      "fr": "C'est ici qu'elle soutint, en 1750, la première des quatre thèses préliminaires à sa licence.",
-      "de": "Hier verteidigte sie 1750 die erste der vier vorbereitenden Thesen für ihren Abschluss.",
-      "es": "Aquí defendió en 1750 la primera de las cuatro tesis preliminares a su título."
-     }
-    },
-    "chiesa-santi-francesco-e-giustina": {
-     "tipo": {
-      "it": "Sepoltura",
-      "en": "Burial",
-      "fr": "Sépulture",
-      "de": "Grablege",
-      "es": "Sepultura"
-     },
-     "testo": {
-      "it": "La sua tomba di famiglia si trovava presso l'antica chiesa di San Francesco a Rovigo.",
-      "en": "Her family tomb was near the old church of San Francesco in Rovigo.",
-      "fr": "Le tombeau de sa famille se trouvait près de l'ancienne église Saint-François de Rovigo.",
-      "de": "Das Familiengrab befand sich bei der alten Kirche San Francesco in Rovigo.",
-      "es": "Su tumba familiar se encontraba junto a la antigua iglesia de San Francisco de Rovigo."
-     }
-    }
-   },
-   "collegati": [],
-   "ritratto": {
-    "autore": "Threecharlie",
-    "licenza": "CC BY-SA 4.0"
-   }
-  },
-  {
-   "id": "celio-rodigino",
-   "nome": "Lodovico Maria Ricchieri detto Celio Rodigino",
-   "nascita": 1469,
-   "morte": 1525,
-   "professione": {
-    "it": "Umanista, filologo, storico e insegnante",
-    "en": "Humanist, philologist, historian and teacher",
-    "fr": "Humaniste, philologue, historien et enseignant",
-    "de": "Humanist, Philologe, Historiker und Lehrer",
-    "es": "Humanista, filólogo, historiador y profesor"
-   },
-   "luogoNascita": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
-   },
-   "dataNascita": {
-    "it": "1469",
-    "en": "1469",
-    "fr": "1469",
-    "de": "1469",
-    "es": "1469"
-   },
-   "luogoMorte": {
-    "it": "Padova",
-    "en": "Padua",
-    "fr": "Padoue",
-    "de": "Padua",
-    "es": "Padua"
-   },
-   "dataMorte": {
-    "it": "6 marzo 1525",
-    "en": "6 March 1525",
-    "fr": "6 mars 1525",
-    "de": "6. März 1525",
-    "es": "6 de marzo de 1525"
-   },
-   "biografia": {
-    "it": "Lodovico Maria Ricchieri, conosciuto con il nome umanistico di Celio Rodigino, fu uno dei più importanti intellettuali rodigini del Rinascimento. Dopo i primi studi nella città natale, approfondì la filosofia e la letteratura greca e latina a Ferrara sotto la guida di Niccolò Leoniceno, proseguendo poi la propria formazione a Padova. Nel 1491 fu nominato insegnante della scuola pubblica di Rovigo, incarico che ricoprì fino al 1499 e nuovamente tra il 1503 e il 1504. In seguito insegnò in diverse città italiane, tra cui Milano, dove soggiornò dal 1511 al 1516. La sua opera più importante è costituita dalle Antiquae Lectiones, una vasta raccolta di studi, osservazioni e commenti sulla letteratura e sulla cultura dell'antichità classica, pubblicata per la prima volta nel 1516. L'opera ebbe grande diffusione negli ambienti umanistici europei e fu ampliata in un'edizione postuma del 1542. Dopo una vita dedicata all'insegnamento e agli studi, morì a Padova il 6 marzo 1525.",
-    "en": "Lodovico Maria Ricchieri, known by the humanist name Celio Rodigino, was one of the most important intellectuals of Rovigo during the Renaissance. After his first studies in his native city, he deepened his knowledge of Greek and Latin philosophy and literature in Ferrara under the guidance of Niccolò Leoniceno, then continued his education in Padua. In 1491 he was appointed teacher at the public school of Rovigo, a post he held until 1499 and again between 1503 and 1504. He later taught in several Italian cities, including Milan, where he stayed from 1511 to 1516. His most important work is the Antiquae Lectiones, a vast collection of studies, observations and commentaries on the literature and culture of classical antiquity, first published in 1516. The work was widely circulated in European humanist circles and was expanded in a posthumous edition of 1542. After a life devoted to teaching and study, he died in Padua on 6 March 1525.",
-    "fr": "Lodovico Maria Ricchieri, connu sous son nom humaniste de Celio Rodigino, fut l'un des intellectuels les plus importants de Rovigo à la Renaissance. Après ses premières études dans sa ville natale, il approfondit la philosophie et la littérature grecques et latines à Ferrare, sous la conduite de Niccolò Leoniceno, puis poursuivit sa formation à Padoue. En 1491, il fut nommé enseignant à l'école publique de Rovigo, poste qu'il occupa jusqu'en 1499, puis à nouveau entre 1503 et 1504. Il enseigna ensuite dans plusieurs villes italiennes, dont Milan, où il séjourna de 1511 à 1516. Son œuvre la plus importante est les Antiquae Lectiones, un vaste recueil d'études, d'observations et de commentaires sur la littérature et la culture de l'Antiquité classique, publié pour la première fois en 1516. L'ouvrage connut une grande diffusion dans les milieux humanistes européens et fut augmenté dans une édition posthume de 1542. Après une vie consacrée à l'enseignement et à l'étude, il mourut à Padoue le 6 mars 1525.",
-    "de": "Lodovico Maria Ricchieri, bekannt unter seinem humanistischen Namen Celio Rodigino, war einer der bedeutendsten Intellektuellen Rovigos in der Renaissance. Nach ersten Studien in seiner Heimatstadt vertiefte er in Ferrara unter der Anleitung von Niccolò Leoniceno seine Kenntnisse der griechischen und lateinischen Philosophie und Literatur und setzte seine Ausbildung anschließend in Padua fort. 1491 wurde er als Lehrer an die öffentliche Schule von Rovigo berufen, ein Amt, das er bis 1499 und erneut zwischen 1503 und 1504 innehatte. Später unterrichtete er in mehreren italienischen Städten, darunter Mailand, wo er von 1511 bis 1516 lebte. Sein wichtigstes Werk sind die Antiquae Lectiones, eine umfangreiche Sammlung von Studien, Beobachtungen und Kommentaren zur Literatur und Kultur der klassischen Antike, die 1516 erstmals erschien. Das Werk verbreitete sich stark in den humanistischen Kreisen Europas und wurde in einer postumen Ausgabe von 1542 erweitert. Nach einem Leben, das dem Unterricht und der Gelehrsamkeit gewidmet war, starb er am 6. März 1525 in Padua.",
-    "es": "Lodovico Maria Ricchieri, conocido con el nombre humanista de Celio Rodigino, fue uno de los intelectuales más importantes de Rovigo en el Renacimiento. Tras sus primeros estudios en su ciudad natal, profundizó en la filosofía y la literatura griega y latina en Ferrara, bajo la guía de Niccolò Leoniceno, y continuó después su formación en Padua. En 1491 fue nombrado profesor de la escuela pública de Rovigo, cargo que ocupó hasta 1499 y de nuevo entre 1503 y 1504. Más tarde enseñó en varias ciudades italianas, entre ellas Milán, donde residió de 1511 a 1516. Su obra más importante son las Antiquae Lectiones, una amplia recopilación de estudios, observaciones y comentarios sobre la literatura y la cultura de la antigüedad clásica, publicada por primera vez en 1516. La obra tuvo gran difusión en los ámbitos humanistas europeos y se amplió en una edición póstuma de 1542. Tras una vida dedicada a la enseñanza y al estudio, murió en Padua el 6 de marzo de 1525."
-   },
-   "curiosita": {
-    "it": [
-     "Il nome Celio Rodigino deriva dalla forma latinizzata Coelius Rhodiginus, con cui firmava i propri scritti umanistici.",
-     "La prima edizione delle Antiquae Lectiones, pubblicata nel 1516, comprendeva sedici libri. Dopo la sua morte il nipote Camillo curò una nuova edizione ampliata, pubblicata a Basilea nel 1542 in trenta libri.",
-     "Nel 1505 il Consiglio cittadino di Rovigo decretò la sua espulsione dagli uffici pubblici in seguito a una controversia relativa al suo incarico di insegnante e alla gestione degli stipendi durante un periodo di difficoltà economiche causate dalle alluvioni.",
-     "Il Liceo Ginnasiale Celio ricevette ufficialmente il suo nome nel 1867, in riconoscimento del valore culturale dell'umanista rodigino."
-    ],
-    "en": [
-     "The name Celio Rodigino comes from the Latinised form Coelius Rhodiginus, which he used to sign his humanist writings.",
-     "The first edition of the Antiquae Lectiones, published in 1516, comprised sixteen books. After his death his nephew Camillo edited an expanded new edition, published in Basel in 1542 in thirty books.",
-     "In 1505 the Rovigo city council decreed his removal from public offices, following a dispute over his teaching post and the management of salaries during a period of economic hardship caused by floods.",
-     "The Liceo Ginnasiale Celio officially received its name in 1867, in recognition of the cultural value of the Rovigo humanist."
-    ],
-    "fr": [
-     "Le nom Celio Rodigino dérive de la forme latinisée Coelius Rhodiginus, qu'il utilisait pour signer ses écrits humanistes.",
-     "La première édition des Antiquae Lectiones, publiée en 1516, comptait seize livres. Après sa mort, son neveu Camillo en prépara une nouvelle édition augmentée, publiée à Bâle en 1542 en trente livres.",
-     "En 1505, le conseil municipal de Rovigo décréta son exclusion des fonctions publiques, à la suite d'une controverse liée à son poste d'enseignant et à la gestion des salaires pendant une période de difficultés économiques causées par les inondations.",
-     "Le lycée Celio reçut officiellement son nom en 1867, en reconnaissance de la valeur culturelle de cet humaniste rodigien."
-    ],
-    "de": [
-     "Der Name Celio Rodigino leitet sich von der latinisierten Form Coelius Rhodiginus ab, mit der er seine humanistischen Schriften signierte.",
-     "Die erste Ausgabe der Antiquae Lectiones, 1516 veröffentlicht, umfasste sechzehn Bücher. Nach seinem Tod gab sein Neffe Camillo eine erweiterte Neuausgabe heraus, die 1542 in Basel in dreißig Büchern erschien.",
-     "1505 verfügte der Stadtrat von Rovigo seine Entlassung aus den öffentlichen Ämtern, nach einem Streit um seine Lehrtätigkeit und die Verwaltung der Gehälter in einer Zeit wirtschaftlicher Not, die durch Überschwemmungen verursacht wurde.",
-     "Das Liceo Ginnasiale Celio erhielt seinen Namen 1867 offiziell, in Anerkennung des kulturellen Werts des Humanisten aus Rovigo."
-    ],
-    "es": [
-     "El nombre Celio Rodigino procede de la forma latinizada Coelius Rhodiginus, con la que firmaba sus escritos humanistas.",
-     "La primera edición de las Antiquae Lectiones, publicada en 1516, constaba de dieciséis libros. Tras su muerte, su sobrino Camillo preparó una nueva edición ampliada, publicada en Basilea en 1542 en treinta libros.",
-     "En 1505 el Consejo municipal de Rovigo decretó su expulsión de los cargos públicos, tras una controversia relacionada con su puesto de profesor y con la gestión de los salarios durante un periodo de dificultades económicas causadas por las inundaciones.",
-     "El Liceo Ginnasiale Celio recibió oficialmente su nombre en 1867, en reconocimiento del valor cultural del humanista rodigino."
-    ]
-   },
-   "luoghi": [
-    "ex-liceo-celio",
-    "accademia-dei-concordi"
-   ],
-   "luoghiNote": {
-    "ex-liceo-celio": {
-     "tipo": {
-      "it": "Intitolazione",
-      "en": "Naming",
-      "fr": "Dénomination",
-      "de": "Namensgebung",
-      "es": "Denominación"
-     },
-     "testo": {
-      "it": "L'istituto scolastico prese il nome da Ricchieri nel 1867. Il collegamento è commemorativo: non si tratta della scuola pubblica in cui insegnò nel Quattrocento.",
-      "en": "The school took its name from Ricchieri in 1867. The link is commemorative: it is not the public school where he taught in the fifteenth century.",
-      "fr": "L'établissement scolaire prit le nom de Ricchieri en 1867. Ce lien est commémoratif : il ne s'agit pas de l'école publique où il enseigna au XVe siècle.",
-      "de": "Die Schule erhielt 1867 ihren Namen nach Ricchieri. Die Verbindung ist gedenkend: Es handelt sich nicht um die öffentliche Schule, an der er im 15. Jahrhundert unterrichtete.",
-      "es": "El instituto tomó su nombre de Ricchieri en 1867. La vinculación es conmemorativa: no se trata de la escuela pública en la que enseñó en el siglo XV."
-     }
-    },
-    "accademia-dei-concordi": {
-     "tipo": {
-      "it": "Ritratto",
-      "en": "Portrait",
-      "fr": "Portrait",
-      "de": "Porträt",
-      "es": "Retrato"
-     },
-     "testo": {
-      "it": "La collezione conserva un ritratto di Lodovico Ricchieri, realizzato da un pittore veneto del XIX secolo. Non è quindi un ritratto contemporaneo all'umanista.",
-      "en": "The collection holds a portrait of Lodovico Ricchieri by a Venetian painter of the 19th century. It is therefore not a portrait made during the humanist's lifetime.",
-      "fr": "La collection conserve un portrait de Lodovico Ricchieri, réalisé par un peintre vénitien du XIXe siècle. Ce n'est donc pas un portrait contemporain de l'humaniste.",
-      "de": "Die Sammlung besitzt ein Porträt von Lodovico Ricchieri, das von einem venetischen Maler des 19. Jahrhunderts stammt. Es ist also kein Bildnis aus der Zeit des Humanisten.",
-      "es": "La colección conserva un retrato de Lodovico Ricchieri, realizado por un pintor véneto del siglo XIX. No es, por tanto, un retrato contemporáneo del humanista."
-     }
-    }
-   },
-   "collegati": [],
-   "ritratto": {
-    "autore": "Threecharlie",
-    "licenza": "CC BY-SA 4.0"
-   }
-  },
-  {
-   "id": "antonio-riccoboni",
-   "nome": "Antonio Riccoboni",
-   "nascita": 1541,
-   "morte": 1599,
-   "professione": {
-    "it": "Umanista, storico, filologo e docente universitario",
-    "en": "Humanist, historian, philologist and university lecturer",
-    "fr": "Humaniste, historien, philologue et enseignant universitaire",
-    "de": "Humanist, Historiker, Philologe und Universitätsdozent",
-    "es": "Humanista, historiador, filólogo y profesor universitario"
-   },
-   "luogoNascita": {
-    "it": "Rovigo",
-    "en": "Rovigo",
-    "fr": "Rovigo",
-    "de": "Rovigo",
-    "es": "Rovigo"
-   },
-   "dataNascita": {
-    "it": "1541",
-    "en": "1541",
-    "fr": "1541",
-    "de": "1541",
-    "es": "1541"
-   },
-   "luogoMorte": {
-    "it": "Padova",
-    "en": "Padua",
-    "fr": "Padoue",
-    "de": "Padua",
-    "es": "Padua"
-   },
-   "dataMorte": {
-    "it": "27 luglio 1599",
-    "en": "27 July 1599",
-    "fr": "27 juillet 1599",
-    "de": "27. Juli 1599",
-    "es": "27 de julio de 1599"
-   },
-   "biografia": {
-    "it": "Antonio Riccoboni fu un importante studioso rodigino del Cinquecento, conosciuto per i suoi contributi alla storiografia, alla retorica e allo studio della letteratura classica. Dopo aver compiuto i primi studi a Rovigo, si trasferì a Venezia e a Padova, dove ebbe l'opportunità di seguire le lezioni di importanti studiosi del tempo, tra cui Paolo Manuzio, Marcantonio Mureto e Carlo Sigonio. Rientrato nella città natale, entrò nel Collegio dei notai e dal 1562 al 1571 insegnò nella scuola pubblica di Rovigo, la stessa istituzione nella quale, diversi decenni prima, aveva insegnato anche Lodovico Maria Ricchieri, detto Celio Rodigino. Nel 1571 conseguì il dottorato in diritto civile e canonico presso l'Università di Padova e successivamente ottenne un incarico di insegnamento di eloquenza nello stesso ateneo. Tra le sue opere più importanti figurano il De historia commentarius, pubblicato nel 1568, e il De Gymnasio Patavino, dedicato alla storia dell'Università di Padova. Si occupò inoltre di commentare e tradurre opere di Aristotele, contribuendo alla diffusione del pensiero classico. Morì a Padova il 27 luglio 1599. I suoi funerali furono celebrati a Rovigo e il suo corpo, inizialmente collocato nella chiesa di San Bartolomeo, fu successivamente trasferito nella chiesa di San Francesco.",
-    "en": "Antonio Riccoboni was an important sixteenth-century scholar from Rovigo, known for his contributions to historiography, rhetoric and the study of classical literature. After his first studies in Rovigo, he moved to Venice and Padua, where he attended the lectures of leading scholars of the time, among them Paolo Manuzio, Marcantonio Mureto and Carlo Sigonio. Back in his native city, he joined the College of Notaries and from 1562 to 1571 taught at the public school of Rovigo, the same institution where, several decades earlier, Lodovico Maria Ricchieri, known as Celio Rodigino, had also taught. In 1571 he earned a doctorate in civil and canon law at the University of Padua and later obtained a teaching post in eloquence at the same university. Among his most important works are the De historia commentarius, published in 1568, and the De Gymnasio Patavino, devoted to the history of the University of Padua. He also commented on and translated works by Aristotle, helping to spread classical thought. He died in Padua on 27 July 1599. His funeral was held in Rovigo, and his body, first placed in the church of San Bartolomeo, was later transferred to the church of San Francesco.",
-    "fr": "Antonio Riccoboni fut un important savant rodigien du XVIe siècle, connu pour ses contributions à l'historiographie, à la rhétorique et à l'étude de la littérature classique. Après ses premières études à Rovigo, il se rendit à Venise et à Padoue, où il suivit les cours de savants de premier plan, parmi lesquels Paolo Manuzio, Marcantonio Mureto et Carlo Sigonio. De retour dans sa ville natale, il entra au Collège des notaires et enseigna de 1562 à 1571 à l'école publique de Rovigo, la même institution où, plusieurs décennies auparavant, avait enseigné Lodovico Maria Ricchieri, dit Celio Rodigino. En 1571, il obtint le doctorat en droit civil et canonique à l'université de Padoue, puis un poste d'enseignant d'éloquence dans la même université. Parmi ses œuvres les plus importantes figurent le De historia commentarius, publié en 1568, et le De Gymnasio Patavino, consacré à l'histoire de l'université de Padoue. Il commenta et traduisit aussi des œuvres d'Aristote, contribuant à diffuser la pensée classique. Il mourut à Padoue le 27 juillet 1599. Ses funérailles furent célébrées à Rovigo, et son corps, d'abord déposé dans l'église Saint-Barthélemy, fut ensuite transféré dans l'église Saint-François.",
-    "de": "Antonio Riccoboni war ein bedeutender Gelehrter aus Rovigo im 16. Jahrhundert, bekannt für seine Beiträge zur Geschichtsschreibung, zur Rhetorik und zur Erforschung der klassischen Literatur. Nach ersten Studien in Rovigo ging er nach Venedig und Padua, wo er die Vorlesungen bedeutender Gelehrter seiner Zeit hörte, darunter Paolo Manuzio, Marcantonio Mureto und Carlo Sigonio. In seine Heimatstadt zurückgekehrt, trat er dem Notarskollegium bei und unterrichtete von 1562 bis 1571 an der öffentlichen Schule von Rovigo, derselben Einrichtung, an der einige Jahrzehnte zuvor auch Lodovico Maria Ricchieri, genannt Celio Rodigino, unterrichtet hatte. 1571 erwarb er an der Universität Padua den Doktortitel im Zivil- und Kirchenrecht und erhielt später eine Lehrstelle für Eloquenz an derselben Universität. Zu seinen wichtigsten Werken gehören das 1568 veröffentlichte De historia commentarius und das De Gymnasio Patavino, das der Geschichte der Universität Padua gewidmet ist. Außerdem kommentierte und übersetzte er Werke des Aristoteles und trug so zur Verbreitung des klassischen Denkens bei. Er starb am 27. Juli 1599 in Padua. Seine Trauerfeier fand in Rovigo statt, und sein Leichnam, zunächst in der Kirche San Bartolomeo beigesetzt, wurde später in die Kirche San Francesco überführt.",
-    "es": "Antonio Riccoboni fue un importante estudioso de Rovigo del siglo XVI, conocido por sus aportaciones a la historiografía, la retórica y el estudio de la literatura clásica. Tras sus primeros estudios en Rovigo, se trasladó a Venecia y Padua, donde asistió a las lecciones de destacados estudiosos de su tiempo, entre ellos Paolo Manuzio, Marcantonio Mureto y Carlo Sigonio. De vuelta en su ciudad natal, ingresó en el Colegio de Notarios y enseñó entre 1562 y 1571 en la escuela pública de Rovigo, la misma institución en la que, varias décadas antes, había enseñado también Lodovico Maria Ricchieri, conocido como Celio Rodigino. En 1571 obtuvo el doctorado en derecho civil y canónico en la Universidad de Padua y después un puesto docente de elocuencia en la misma universidad. Entre sus obras más importantes figuran el De historia commentarius, publicado en 1568, y el De Gymnasio Patavino, dedicado a la historia de la Universidad de Padua. Comentó y tradujo además obras de Aristóteles, contribuyendo a difundir el pensamiento clásico. Murió en Padua el 27 de julio de 1599. Sus funerales se celebraron en Rovigo y su cuerpo, colocado inicialmente en la iglesia de San Bartolomeo, fue trasladado después a la iglesia de San Francisco."
-   },
-   "curiosita": {
-    "it": [
-     "Il 1570 fu un anno importante per la sua attività culturale: ricevette l'incarico di contribuire alla revisione degli statuti cittadini di Rovigo insieme ad Andrea Nicolio.",
-     "Il suo carteggio comprende una lettera indirizzata a Galileo Galilei, datata 11 marzo 1588.",
-     "Il De Gymnasio Patavino, pubblicato nel 1599, rappresenta uno dei primi tentativi organici di ricostruire la storia dell'Università di Padova.",
-     "Un monumento commemorativo a lui dedicato, originariamente collocato all'ingresso della cappella maggiore della chiesa di San Francesco, è oggi conservato sotto il portico esterno della Rotonda."
-    ],
-    "en": [
-     "1570 was an important year for his cultural activity: he was commissioned to help revise the city statutes of Rovigo together with Andrea Nicolio.",
-     "His correspondence includes a letter addressed to Galileo Galilei, dated 11 March 1588.",
-     "The De Gymnasio Patavino, published in 1599, is one of the first systematic attempts to reconstruct the history of the University of Padua.",
-     "A commemorative monument dedicated to him, originally placed at the entrance to the high chapel of the church of San Francesco, is now kept under the outer portico of the Rotonda."
-    ],
-    "fr": [
-     "En 1570, année importante pour son activité culturelle, il reçut la mission de contribuer à la révision des statuts de la ville de Rovigo avec Andrea Nicolio.",
-     "Sa correspondance comprend une lettre adressée à Galilée, datée du 11 mars 1588.",
-     "Le De Gymnasio Patavino, publié en 1599, constitue l'une des premières tentatives systématiques de reconstruire l'histoire de l'université de Padoue.",
-     "Un monument commémoratif qui lui est dédié, placé à l'origine à l'entrée de la chapelle majeure de l'église Saint-François, est aujourd'hui conservé sous le portique extérieur de la Rotonda."
-    ],
-    "de": [
-     "1570 war ein wichtiges Jahr für seine kulturelle Tätigkeit: Er erhielt den Auftrag, zusammen mit Andrea Nicolio an der Überarbeitung der Stadtstatuten von Rovigo mitzuwirken.",
-     "Sein Briefwechsel umfasst einen Brief an Galileo Galilei, datiert auf den 11. März 1588.",
-     "Das 1599 veröffentlichte De Gymnasio Patavino gehört zu den ersten systematischen Versuchen, die Geschichte der Universität Padua zu rekonstruieren.",
-     "Ein ihm gewidmetes Gedenkmal, das ursprünglich am Eingang zur Hauptkapelle der Kirche San Francesco stand, wird heute unter dem äußeren Säulengang der Rotonda aufbewahrt."
-    ],
-    "es": [
-     "1570 fue un año importante para su actividad cultural: recibió el encargo de colaborar en la revisión de los estatutos de la ciudad de Rovigo junto con Andrea Nicolio.",
-     "Su epistolario incluye una carta dirigida a Galileo Galilei, fechada el 11 de marzo de 1588.",
-     "El De Gymnasio Patavino, publicado en 1599, representa uno de los primeros intentos sistemáticos de reconstruir la historia de la Universidad de Padua.",
-     "Un monumento conmemorativo dedicado a él, colocado originalmente a la entrada de la capilla mayor de la iglesia de San Francisco, se conserva hoy bajo el pórtico exterior de la Rotonda."
-    ]
-   },
-   "luoghi": [
-    "tempio-la-rotonda",
-    "palazzo-roverella",
-    "chiesa-santi-francesco-e-giustina"
-   ],
-   "luoghiNote": {
-    "tempio-la-rotonda": {
-     "tipo": {
-      "it": "Monumento",
-      "en": "Monument",
-      "fr": "Monument",
-      "de": "Denkmal",
-      "es": "Monumento"
-     },
-     "testo": {
-      "it": "Sotto il portico esterno si trova il monumento commemorativo ad Antonio Riccoboni, con il suo busto e la lapide a lui dedicata.",
-      "en": "Under the outer portico stands the commemorative monument to Antonio Riccoboni, with his bust and the plaque dedicated to him.",
-      "fr": "Sous le portique extérieur se trouve le monument commémoratif d'Antonio Riccoboni, avec son buste et la plaque qui lui est dédiée.",
-      "de": "Unter dem äußeren Säulengang steht das Gedenkmal für Antonio Riccoboni mit seiner Büste und der ihm gewidmeten Gedenktafel.",
-      "es": "Bajo el pórtico exterior se encuentra el monumento conmemorativo a Antonio Riccoboni, con su busto y la lápida dedicada a él."
-     }
-    },
-    "palazzo-roverella": {
-     "tipo": {
-      "it": "Ritratto",
-      "en": "Portrait",
-      "fr": "Portrait",
-      "de": "Porträt",
-      "es": "Retrato"
-     },
-     "testo": {
-      "it": "La Pinacoteca ospita il Ritratto di Antonio Riccoboni di Giambattista Tiepolo, che raffigura l'umanista rodigino.",
-      "en": "The Pinacoteca houses the Portrait of Antonio Riccoboni by Giambattista Tiepolo, which depicts the humanist from Rovigo.",
-      "fr": "La pinacothèque conserve le Portrait d'Antonio Riccoboni de Giambattista Tiepolo, qui représente l'humaniste rodigien.",
-      "de": "Die Pinakothek besitzt das Porträt von Antonio Riccoboni von Giambattista Tiepolo, das den Humanisten aus Rovigo darstellt.",
-      "es": "La pinacoteca alberga el Retrato de Antonio Riccoboni de Giambattista Tiepolo, que representa al humanista rodigino."
-     }
-    },
-    "chiesa-santi-francesco-e-giustina": {
-     "tipo": {
-      "it": "Sepoltura",
-      "en": "Burial",
-      "fr": "Sépulture",
-      "de": "Grablege",
-      "es": "Sepultura"
-     },
-     "testo": {
-      "it": "Dopo una prima collocazione nella chiesa di San Bartolomeo, il corpo fu trasferito nella chiesa di San Francesco.",
-      "en": "After a first burial in the church of San Bartolomeo, the body was moved to the church of San Francesco.",
-      "fr": "Après une première sépulture dans l'église Saint-Barthélemy, le corps fut transféré dans l'église Saint-François.",
-      "de": "Nach einer ersten Bestattung in der Kirche San Bartolomeo wurde der Leichnam in die Kirche San Francesco überführt.",
-      "es": "Tras un primer emplazamiento en la iglesia de San Bartolomeo, el cuerpo fue trasladado a la iglesia de San Francisco."
-     }
-    }
-   },
-   "collegati": [],
-   "ritratto": {
-    "autore": "Threecharlie",
-    "licenza": "CC BY-SA 4.0"
-   }
-  },
-  {
    "id": "mario-cavaglieri",
    "nome": "Mario Oddone Cavaglieri",
    "nascita": 1887,
@@ -1191,183 +1235,139 @@
    }
   },
   {
-   "id": "paolo-cattaneo",
- "ordine": 920,
-   "nome": "Paolo Cattaneo",
+   "id": "virgilio-milani",
+   "nome": "Virgilio Milani",
+   "nascita": 1888,
+   "morte": 1977,
    "professione": {
-    "it": "Vescovo di Adria",
-    "en": "Bishop of Adria",
-    "fr": "Évêque d'Adria",
-    "de": "Bischof von Adria",
-    "es": "Obispo de Adria"
+    "it": "Scultore",
+    "en": "Sculptor",
+    "fr": "Sculpteur",
+    "de": "Bildhauer",
+    "es": "Escultor"
    },
-   "periodo": {
-    "it": "Attivo nel 920",
-    "en": "Active in 920",
-    "fr": "Actif en 920",
-    "de": "Tätig im Jahr 920",
-    "es": "Activo en 920"
-   },
-   "biografia": {
-    "it": "Paolo Cattaneo fu vescovo di Adria e una delle figure legate alle origini medievali di Rovigo. Nel 920, in un periodo segnato dalle incursioni degli Ungari e dall'instabilità del territorio, promosse la costruzione di una fortificazione nel borgo di Rovigo.\n\nL'iniziativa è collegata a una bolla di papa Giovanni X, che autorizzava la realizzazione di una struttura difensiva. Il complesso, destinato a offrire un luogo più sicuro alla comunità e alle autorità ecclesiastiche, fu completato nel 954, diversi anni dopo l'iniziativa del vescovo.\n\nQuella fortificazione rappresentò un passaggio fondamentale nello sviluppo del centro medievale rodigino e costituì il nucleo del successivo castello, ampliato nei secoli seguenti.",
-    "en": "Paolo Cattaneo was bishop of Adria and one of the figures linked to the medieval origins of Rovigo. In 920, in a period marked by Hungarian raids and by the instability of the region, he promoted the construction of a fortification in the village of Rovigo.\n\nThe initiative is linked to a bull of Pope John X, which authorised the building of a defensive structure. The complex, meant to offer a safer place to the community and to the church authorities, was completed in 954, several years after the bishop's initiative.\n\nThat fortification was a key step in the development of medieval Rovigo and formed the core of the later castle, which was enlarged over the following centuries.",
-    "fr": "Paolo Cattaneo fut évêque d'Adria et l'une des figures liées aux origines médiévales de Rovigo. En 920, à une époque marquée par les incursions des Hongrois et par l'instabilité du territoire, il promut la construction d'une fortification dans le bourg de Rovigo.\n\nCette initiative est liée à une bulle du pape Jean X, qui autorisait la réalisation d'un ouvrage défensif. L'ensemble, destiné à offrir un lieu plus sûr à la communauté et aux autorités ecclésiastiques, fut achevé en 954, plusieurs années après l'initiative de l'évêque.\n\nCette fortification marqua une étape fondamentale dans le développement du centre médiéval de Rovigo et constitua le noyau du château qui lui succéda, agrandi au cours des siècles suivants.",
-    "de": "Paolo Cattaneo war Bischof von Adria und eine der Persönlichkeiten, die mit den mittelalterlichen Ursprüngen von Rovigo verbunden sind. Im Jahr 920, in einer Zeit der Ungarneinfälle und der Unsicherheit im Land, förderte er den Bau einer Befestigung im Dorf Rovigo.\n\nDie Initiative steht im Zusammenhang mit einer Bulle von Papst Johannes X., die den Bau einer Verteidigungsanlage genehmigte. Die Anlage, die der Gemeinschaft und den kirchlichen Würdenträgern einen sichereren Ort bieten sollte, wurde 954 fertiggestellt, mehrere Jahre nach dem Vorhaben des Bischofs.\n\nDiese Befestigung war ein grundlegender Schritt in der Entwicklung des mittelalterlichen Rovigo und bildete den Kern der späteren Burg, die in den folgenden Jahrhunderten erweitert wurde.",
-    "es": "Paolo Cattaneo fue obispo de Adria y una de las figuras ligadas a los orígenes medievales de Rovigo. En 920, en un periodo marcado por las incursiones de los húngaros y por la inestabilidad del territorio, promovió la construcción de una fortificación en la aldea de Rovigo.\n\nLa iniciativa está relacionada con una bula del papa Juan X, que autorizaba la construcción de una estructura defensiva. El conjunto, destinado a ofrecer un lugar más seguro a la comunidad y a las autoridades eclesiásticas, se completó en 954, varios años después de la iniciativa del obispo.\n\nAquella fortificación fue un paso fundamental en el desarrollo del centro medieval de Rovigo y constituyó el núcleo del castillo posterior, ampliado en los siglos siguientes."
-   },
-   "curiosita": {
-    "it": [
-     "Il 920 è una data simbolica per Rovigo: è l'anno a cui viene tradizionalmente collegata la nascita della città medievale e la costruzione della sua prima fortificazione.",
-     "Un'opera realizzata in oltre trent'anni: la fortificazione avviata per iniziativa di Paolo nel 920 risulta completata nel 954.",
-     "Una storia legata agli Ungari: la costruzione viene tradizionalmente ricondotta alla necessità di proteggere la popolazione dalle incursioni ungare.",
-     "Il castello cambiò volto nel tempo: la struttura originaria fu ampliata e trasformata, soprattutto durante il dominio estense. La Torre Donà è una delle testimonianze più significative del complesso medievale sopravvissuto."
-    ],
-    "en": [
-     "920 is a symbolic date for Rovigo: it is the year traditionally linked to the birth of the medieval town and the building of its first fortification.",
-     "A work that took over thirty years: the fortification begun on Paolo's initiative in 920 was completed in 954.",
-     "A story tied to the Hungarians: the building is traditionally attributed to the need to protect the population from Hungarian raids.",
-     "The castle changed its appearance over time: the original structure was enlarged and transformed, especially under Este rule. The Torre Donà is one of the most significant surviving parts of the medieval complex."
-    ],
-    "fr": [
-     "920 est une date symbolique pour Rovigo : c'est l'année traditionnellement liée à la naissance de la ville médiévale et à la construction de sa première fortification.",
-     "Un ouvrage réalisé en plus de trente ans : la fortification lancée à l'initiative de Paolo en 920 fut achevée en 954.",
-     "Une histoire liée aux Hongrois : la construction est traditionnellement attribuée à la nécessité de protéger la population des incursions hongroises.",
-     "Le château changea de visage au fil du temps : la structure d'origine fut agrandie et transformée, surtout sous la domination des Este. La Tour Donà est l'un des témoignages les plus significatifs de l'ensemble médiéval conservé."
-    ],
-    "de": [
-     "920 ist für Rovigo ein symbolisches Datum: Es ist das Jahr, das traditionell mit der Entstehung der mittelalterlichen Stadt und dem Bau ihrer ersten Befestigung verbunden wird.",
-     "Ein Werk von über dreißig Jahren: Die auf Paolos Initiative 920 begonnene Befestigung wurde 954 fertiggestellt.",
-     "Eine Geschichte um die Ungarn: Der Bau wird traditionell auf die Notwendigkeit zurückgeführt, die Bevölkerung vor den Ungarneinfällen zu schützen.",
-     "Die Burg veränderte mit der Zeit ihr Gesicht: Die ursprüngliche Anlage wurde vor allem unter der Herrschaft der Este erweitert und umgebaut. Der Torre Donà ist eines der bedeutendsten erhaltenen Zeugnisse der mittelalterlichen Anlage."
-    ],
-    "es": [
-     "920 es una fecha simbólica para Rovigo: es el año al que tradicionalmente se vincula el nacimiento de la ciudad medieval y la construcción de su primera fortificación.",
-     "Una obra de más de treinta años: la fortificación iniciada por Paolo en 920 se completó en 954.",
-     "Una historia ligada a los húngaros: la construcción se atribuye tradicionalmente a la necesidad de proteger a la población de las incursiones húngaras.",
-     "El castillo cambió de aspecto con el tiempo: la estructura original fue ampliada y transformada, sobre todo durante el dominio de los Este. La Torre Donà es uno de los testimonios más significativos del conjunto medieval que se conserva."
-    ]
-   },
-   "luoghi": [
-    "torre-dona-castello"
-   ],
-   "luoghiNote": {
-    "torre-dona-castello": {
-     "tipo": {
-      "it": "Fortificazione del 920",
-      "en": "Fortification of 920",
-      "fr": "Fortification de 920",
-      "de": "Befestigung von 920",
-      "es": "Fortificación de 920"
-     },
-     "testo": {
-      "it": "Il castello è direttamente collegato all'iniziativa di Paolo Cattaneo e alla fortificazione del 920, di cui costituisce lo sviluppo.",
-      "en": "The castle is directly linked to Paolo Cattaneo's initiative and to the fortification of 920, of which it is the later development.",
-      "fr": "Le château est directement lié à l'initiative de Paolo Cattaneo et à la fortification de 920, dont il constitue le développement.",
-      "de": "Die Burg ist unmittelbar mit der Initiative von Paolo Cattaneo und der Befestigung von 920 verbunden, aus der sie hervorging.",
-      "es": "El castillo está directamente vinculado a la iniciativa de Paolo Cattaneo y a la fortificación de 920, de la que constituye el desarrollo posterior."
-     }
-    }
-   },
-   "collegati": []
-  },
-  {
-   "id": "azzo-vi-d-este",
- "ordine": 1170,
-   "nome": "Azzo VI d'Este",
-   "professione": {
-    "it": "Nobile, signore di Ferrara e conte di Rovigo",
-    "en": "Nobleman, lord of Ferrara and count of Rovigo",
-    "fr": "Noble, seigneur de Ferrare et comte de Rovigo",
-    "de": "Adliger, Herr von Ferrara und Graf von Rovigo",
-    "es": "Noble, señor de Ferrara y conde de Rovigo"
+   "luogoNascita": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
    },
    "dataNascita": {
-    "it": "circa 1170",
-    "en": "around 1170",
-    "fr": "vers 1170",
-    "de": "um 1170",
-    "es": "hacia 1170"
+    "it": "29 febbraio 1888",
+    "en": "29 February 1888",
+    "fr": "29 février 1888",
+    "de": "29. Februar 1888",
+    "es": "29 de febrero de 1888"
+   },
+   "luogoMorte": {
+    "it": "Rovigo",
+    "en": "Rovigo",
+    "fr": "Rovigo",
+    "de": "Rovigo",
+    "es": "Rovigo"
    },
    "dataMorte": {
-    "it": "1212",
-    "en": "1212",
-    "fr": "1212",
-    "de": "1212",
-    "es": "1212"
-   },
-   "periodo": {
-    "it": "Circa 1170 – 1212",
-    "en": "Around 1170 – 1212",
-    "fr": "Vers 1170 – 1212",
-    "de": "Um 1170 – 1212",
-    "es": "Hacia 1170 – 1212"
+    "it": "15 marzo 1977",
+    "en": "15 March 1977",
+    "fr": "15 mars 1977",
+    "de": "15. März 1977",
+    "es": "15 de marzo de 1977"
    },
    "biografia": {
-    "it": "Azzo VI d'Este, chiamato anche Azzolino, fu uno dei protagonisti dell'affermazione della famiglia estense nell'Italia settentrionale tra la fine del XII e l'inizio del XIII secolo.\n\nFiglio di Azzo V d'Este, apparteneva a una delle più importanti casate nobiliari dell'Italia nord-orientale. Nel 1194 l'imperatore Enrico VI riconobbe ufficialmente il dominio estense su Rovigo, conferendo ad Azzo VI il titolo di conte della città. Questo passaggio segnò un momento importante nella storia rodigina, perché consolidò il legame tra Rovigo e la famiglia che avrebbe governato il territorio per quasi tre secoli.\n\nAzzo VI rafforzò il potere della propria casata anche attraverso l'attività politica e militare. Fu podestà di Ferrara nel 1196 e di Padova nel 1199, e intervenne nelle lotte tra le fazioni guelfe e ghibelline che caratterizzavano le città dell'Italia settentrionale. Si scontrò in particolare con la famiglia Torelli di Ferrara e con i suoi alleati, tra cui Ezzelino da Romano.\n\nNel 1208 papa Innocenzo III gli conferì il titolo di marchese della Marca d'Ancona, ampliando ulteriormente il prestigio e l'influenza della famiglia. Morì nel 1212, lasciando ai suoi successori un potere territoriale importante, anche se ancora esposto a conflitti e rivalità.\n\nPer Rovigo, Azzo VI rappresenta una figura decisiva: durante la sua epoca il dominio estense si consolidò e il castello divenne il simbolo concreto dell'autorità della dinastia sulla città.",
-    "en": "Azzo VI d'Este, also called Azzolino, was one of the leading figures in the rise of the Este family in northern Italy between the late 12th and early 13th centuries.\n\nSon of Azzo V d'Este, he belonged to one of the most important noble houses of north-eastern Italy. In 1194 Emperor Henry VI officially recognised Este rule over Rovigo, granting Azzo VI the title of count of the town. This was an important moment in the history of Rovigo, because it strengthened the bond between Rovigo and the family that would govern the territory for almost three centuries.\n\nAzzo VI strengthened his house's power through political and military activity as well. He was podestà of Ferrara in 1196 and of Padua in 1199, and took part in the struggles between the Guelph and Ghibelline factions that marked the cities of northern Italy. He clashed in particular with the Torelli family of Ferrara and their allies, among them Ezzelino da Romano.\n\nIn 1208 Pope Innocent III granted him the title of Marquis of the March of Ancona, further increasing the family's prestige and influence. He died in 1212, leaving his successors a substantial territorial power, though one still exposed to conflicts and rivalries.\n\nFor Rovigo, Azzo VI is a decisive figure: in his time Este rule took hold and the castle became the concrete symbol of the dynasty's authority over the town.",
-    "fr": "Azzo VI d'Este, appelé aussi Azzolino, fut l'un des protagonistes de l'affirmation de la famille d'Este dans l'Italie du Nord entre la fin du XIIe et le début du XIIIe siècle.\n\nFils d'Azzo V d'Este, il appartenait à l'une des plus importantes maisons nobles de l'Italie du Nord-Est. En 1194, l'empereur Henri VI reconnut officiellement la domination des Este sur Rovigo, en conférant à Azzo VI le titre de comte de la ville. Ce moment important de l'histoire de Rovigo consolida le lien entre la ville et la famille qui allait gouverner le territoire pendant presque trois siècles.\n\nAzzo VI renforça le pouvoir de sa maison aussi par son activité politique et militaire. Il fut podestat de Ferrare en 1196 et de Padoue en 1199, et intervint dans les luttes entre les factions guelfes et gibelines qui marquaient les villes de l'Italie du Nord. Il s'opposa en particulier à la famille Torelli de Ferrare et à ses alliés, parmi lesquels Ezzelino da Romano.\n\nEn 1208, le pape Innocent III lui conféra le titre de marquis de la Marche d'Ancône, accroissant encore le prestige et l'influence de la famille. Il mourut en 1212, laissant à ses successeurs un pouvoir territorial important, quoique encore exposé aux conflits et aux rivalités.\n\nPour Rovigo, Azzo VI est une figure décisive : à son époque, la domination des Este se consolida et le château devint le symbole concret de l'autorité de la dynastie sur la ville.",
-    "de": "Azzo VI. d'Este, auch Azzolino genannt, war einer der Protagonisten des Aufstiegs der Familie Este in Norditalien zwischen dem Ende des 12. und dem Beginn des 13. Jahrhunderts.\n\nAls Sohn von Azzo V. d'Este gehörte er einem der bedeutendsten Adelshäuser Nordostitaliens an. 1194 erkannte Kaiser Heinrich VI. die Herrschaft der Este über Rovigo offiziell an und verlieh Azzo VI. den Titel eines Grafen der Stadt. Dieser Schritt war ein wichtiger Moment in der Geschichte Rovigos, weil er die Bindung zwischen Rovigo und der Familie festigte, die das Gebiet fast drei Jahrhunderte lang regieren sollte.\n\nAzzo VI. stärkte die Macht seines Hauses auch durch politische und militärische Tätigkeit. Er war 1196 Podestà von Ferrara und 1199 von Padua und griff in die Kämpfe zwischen den Guelfen und Ghibellinen ein, die die Städte Norditaliens prägten. Er geriet insbesondere mit der Familie Torelli aus Ferrara und deren Verbündeten aneinander, darunter Ezzelino da Romano.\n\n1208 verlieh ihm Papst Innozenz III. den Titel eines Markgrafen der Mark Ancona und steigerte damit das Ansehen und den Einfluss der Familie weiter. Er starb 1212 und hinterließ seinen Nachfolgern eine bedeutende territoriale Macht, die jedoch weiterhin Konflikten und Rivalitäten ausgesetzt war.\n\nFür Rovigo ist Azzo VI. eine entscheidende Gestalt: Zu seiner Zeit festigte sich die Herrschaft der Este, und die Burg wurde zum konkreten Symbol der Autorität der Dynastie über die Stadt.",
-    "es": "Azzo VI d'Este, llamado también Azzolino, fue uno de los protagonistas de la afirmación de la familia Este en el norte de Italia entre finales del siglo XII y principios del XIII.\n\nHijo de Azzo V d'Este, pertenecía a una de las casas nobles más importantes del noreste de Italia. En 1194 el emperador Enrique VI reconoció oficialmente el dominio de los Este sobre Rovigo, concediendo a Azzo VI el título de conde de la ciudad. Este paso marcó un momento importante en la historia de Rovigo, porque consolidó el vínculo entre la ciudad y la familia que gobernaría el territorio durante casi tres siglos.\n\nAzzo VI reforzó el poder de su casa también mediante la actividad política y militar. Fue podestá de Ferrara en 1196 y de Padua en 1199, e intervino en las luchas entre las facciones güelfas y gibelinas que caracterizaban las ciudades del norte de Italia. Se enfrentó en particular con la familia Torelli de Ferrara y sus aliados, entre ellos Ezzelino da Romano.\n\nEn 1208 el papa Inocencio III le concedió el título de marqués de la Marca de Ancona, ampliando aún más el prestigio y la influencia de la familia. Murió en 1212, dejando a sus sucesores un poder territorial importante, aunque todavía expuesto a conflictos y rivalidades.\n\nPara Rovigo, Azzo VI es una figura decisiva: en su época el dominio de los Este se consolidó y el castillo se convirtió en el símbolo concreto de la autoridad de la dinastía sobre la ciudad."
+    "it": "Virgilio Milani è stato uno dei più importanti scultori polesani del Novecento. Nato e vissuto a Rovigo, ha dedicato gran parte della propria attività alla città e al territorio circostante. La sua produzione comprende monumenti, fontane, decorazioni architettoniche e opere funerarie. Il suo stile attraversa diverse influenze del primo Novecento, con particolare attenzione alla figura umana e alla scultura monumentale. Nel 1929 partecipò alla Biennale di Venezia. La sua attività è oggi documentata anche attraverso un itinerario urbano dedicato alle sue opere.",
+    "en": "Virgilio Milani was one of the most important sculptors of the Polesine region in the twentieth century. Born and raised in Rovigo, he devoted much of his work to the city and the surrounding area. His output includes monuments, fountains, architectural decoration and funerary works. His style reflects various early twentieth-century influences, with particular attention to the human figure and monumental sculpture. In 1929 he took part in the Venice Biennale. His work is also documented through an urban itinerary dedicated to his sculptures.",
+    "fr": "Virgilio Milani fut l'un des plus importants sculpteurs du Polésine au XXe siècle. Né et installé à Rovigo, il a consacré une grande partie de son activité à la ville et à son territoire. Sa production comprend des monuments, des fontaines, des décors architecturaux et des œuvres funéraires. Son style reflète diverses influences du début du XXe siècle, avec une attention particulière à la figure humaine et à la sculpture monumentale. En 1929 il participa à la Biennale de Venise. Son travail est aujourd'hui documenté par un itinéraire urbain consacré à ses œuvres.",
+    "de": "Virgilio Milani war einer der bedeutendsten Bildhauer des Polesine im 20. Jahrhundert. In Rovigo geboren und dort lebend, widmete er einen großen Teil seines Schaffens der Stadt und ihrer Umgebung. Sein Werk umfasst Denkmäler, Brunnen, architektonische Verzierungen und Grabmäler. Sein Stil zeigt verschiedene Einflüsse des frühen 20. Jahrhunderts, mit besonderem Augenmerk auf die menschliche Figur und die monumentale Skulptur. 1929 nahm er an der Biennale von Venedig teil. Sein Schaffen wird heute auch durch einen Stadtrundgang zu seinen Werken dokumentiert.",
+    "es": "Virgilio Milani fue uno de los escultores más importantes del Polesine en el siglo XX. Nacido y criado en Rovigo, dedicó gran parte de su obra a la ciudad y a su territorio. Su producción incluye monumentos, fuentes, decoraciones arquitectónicas y obras funerarias. Su estilo refleja diversas influencias de principios del siglo XX, con especial atención a la figura humana y a la escultura monumental. En 1929 participó en la Bienal de Venecia. Su obra se documenta hoy también a través de un itinerario urbano dedicado a sus obras."
    },
    "curiosita": {
     "it": [
-     "Un riconoscimento imperiale: nel 1194 Enrico VI riconobbe ad Azzo VI il titolo di conte di Rovigo, ufficializzando il dominio estense sulla città.",
-     "Non governò soltanto Ferrara: fu podestà anche di Padova e svolse un ruolo importante nelle vicende politiche di diverse città dell'Italia settentrionale.",
-     "Un protagonista delle lotte medievali: si oppose alla famiglia dei Torelli e a Ezzelino da Romano, in un periodo in cui le rivalità tra guelfi e ghibellini coinvolgevano interi territori.",
-     "Un titolo prestigioso: nel 1208 ricevette da papa Innocenzo III l'investitura della Marca d'Ancona.",
-     "Una dinastia destinata a durare: dopo la sua morte il potere degli Este continuò attraverso i suoi discendenti, che avrebbero mantenuto un ruolo centrale nella storia di Rovigo e Ferrara."
+     "La sua opera è molto presente nei cimiteri del Polesine: nel solo cimitero di Rovigo sono censite otto opere attribuite o riconducibili allo scultore.",
+     "Una delle sue realizzazioni più conosciute è la Fontana della Riconoscenza, nella piazza della stazione, legata alla solidarietà ricevuta dal Polesine dopo l'alluvione del 1951.",
+     "Anche la sua tomba, nel cimitero di Rovigo, è un'opera artistica: due figure bronzee, una maschile e una femminile, e rilievi con gli strumenti del suo lavoro e quelli della moglie."
     ],
     "en": [
-     "An imperial recognition: in 1194 Henry VI granted Azzo VI the title of count of Rovigo, making Este rule over the town official.",
-     "He did not rule only Ferrara: he was also podestà of Padua and played an important part in the politics of several northern Italian cities.",
-     "A protagonist of the medieval struggles: he opposed the Torelli family and Ezzelino da Romano, at a time when the rivalry between Guelphs and Ghibellines involved entire regions.",
-     "A prestigious title: in 1208 he received from Pope Innocent III the investiture of the March of Ancona.",
-     "A dynasty built to last: after his death Este power continued through his descendants, who would keep a central role in the history of Rovigo and Ferrara."
+     "His works are very present in the cemeteries of the Polesine: in Rovigo's cemetery alone, eight works attributed to or linked with the sculptor are recorded.",
+     "One of his best-known works is the Fontana della Riconoscenza in the station square, linked to the solidarity the Polesine received after the 1951 flood.",
+     "His own tomb in Rovigo's cemetery is also an artwork: two bronze figures, a man and a woman, and reliefs with the tools of his trade and those of his wife."
     ],
     "fr": [
-     "Une reconnaissance impériale : en 1194, Henri VI reconnut à Azzo VI le titre de comte de Rovigo, officialisant la domination des Este sur la ville.",
-     "Il ne gouverna pas seulement Ferrare : il fut aussi podestat de Padoue et joua un rôle important dans les événements politiques de plusieurs villes de l'Italie du Nord.",
-     "Un protagoniste des luttes médiévales : il s'opposa à la famille Torelli et à Ezzelino da Romano, à une époque où les rivalités entre guelfes et gibelins touchaient des territoires entiers.",
-     "Un titre prestigieux : en 1208, il reçut du pape Innocent III l'investiture de la Marche d'Ancône.",
-     "Une dynastie faite pour durer : après sa mort, le pouvoir des Este se poursuivit à travers ses descendants, qui allaient garder un rôle central dans l'histoire de Rovigo et de Ferrare."
+     "Ses œuvres sont très présentes dans les cimetières du Polésine : dans le seul cimetière de Rovigo, huit œuvres attribuées au sculpteur ou qui s'y rattachent sont recensées.",
+     "Une de ses réalisations les plus connues est la Fontana della Riconoscenza, sur la place de la gare, liée à la solidarité reçue par le Polésine après l'inondation de 1951.",
+     "Sa propre tombe, dans le cimetière de Rovigo, est aussi une œuvre d'art : deux figures en bronze, un homme et une femme, et des reliefs avec les outils de son métier et ceux de son épouse."
     ],
     "de": [
-     "Eine kaiserliche Anerkennung: 1194 verlieh Heinrich VI. Azzo VI. den Titel eines Grafen von Rovigo und machte damit die Herrschaft der Este über die Stadt offiziell.",
-     "Er regierte nicht nur Ferrara: Er war auch Podestà von Padua und spielte eine wichtige Rolle in der Politik mehrerer norditalienischer Städte.",
-     "Ein Protagonist der mittelalterlichen Kämpfe: Er stellte sich gegen die Familie Torelli und gegen Ezzelino da Romano, in einer Zeit, in der die Rivalitäten zwischen Guelfen und Ghibellinen ganze Landstriche erfassten.",
-     "Ein bedeutender Titel: 1208 erhielt er von Papst Innozenz III. die Belehnung mit der Mark Ancona.",
-     "Eine Dynastie, die Bestand haben sollte: Nach seinem Tod ging die Macht der Este auf seine Nachkommen über, die in der Geschichte von Rovigo und Ferrara eine zentrale Rolle behalten sollten."
+     "Seine Werke sind auf den Friedhöfen des Polesine sehr präsent: allein auf dem Friedhof von Rovigo sind acht Werke verzeichnet, die dem Bildhauer zugeschrieben werden oder ihm nahestehen.",
+     "Eine seiner bekanntesten Arbeiten ist der Brunnen der Dankbarkeit (Fontana della Riconoscenza) auf dem Bahnhofsplatz, der mit der Solidarität verbunden ist, die das Polesine nach der Flut von 1951 erfuhr.",
+     "Auch sein eigenes Grab auf dem Friedhof von Rovigo ist ein Kunstwerk: zwei Bronzefiguren, ein Mann und eine Frau, und Reliefs mit den Werkzeugen seines Berufs und denen seiner Frau."
     ],
     "es": [
-     "Un reconocimiento imperial: en 1194 Enrique VI concedió a Azzo VI el título de conde de Rovigo, oficializando el dominio de los Este sobre la ciudad.",
-     "No gobernó solo Ferrara: fue también podestá de Padua y desempeñó un papel importante en los asuntos políticos de varias ciudades del norte de Italia.",
-     "Un protagonista de las luchas medievales: se opuso a la familia Torelli y a Ezzelino da Romano, en una época en la que las rivalidades entre güelfos y gibelinos implicaban a territorios enteros.",
-     "Un título prestigioso: en 1208 recibió del papa Inocencio III la investidura de la Marca de Ancona.",
-     "Una dinastía destinada a durar: tras su muerte el poder de los Este continuó a través de sus descendientes, que mantendrían un papel central en la historia de Rovigo y Ferrara."
+     "Su obra está muy presente en los cementerios del Polesine: solo en el cementerio de Rovigo se registran ocho obras atribuidas al escultor o relacionadas con él.",
+     "Una de sus realizaciones más conocidas es la Fontana della Riconoscenza, en la plaza de la estación, ligada a la solidaridad recibida por el Polesine tras la riada de 1951.",
+     "Su tumba, en el cementerio de Rovigo, también es una obra de arte: dos figuras de bronce, una masculina y otra femenina, y relieves con las herramientas de su oficio y las de su esposa."
     ]
    },
    "luoghi": [
-    "torre-dona-castello"
+    "cimitero-monumentale-rovigo",
+    "fontana-della-riconoscenza",
+    "ex-liceo-celio"
    ],
    "luoghiNote": {
-    "torre-dona-castello": {
+    "cimitero-monumentale-rovigo": {
      "tipo": {
-      "it": "Castello degli Este",
-      "en": "Castle of the Este",
-      "fr": "Château des Este",
-      "de": "Burg der Este",
-      "es": "Castillo de los Este"
+      "it": "Legame diretto",
+      "en": "Direct link",
+      "fr": "Lien direct",
+      "de": "Direkter Bezug",
+      "es": "Vínculo directo"
      },
      "testo": {
-      "it": "Il castello rappresenta il potere politico e militare della famiglia estense sulla città, consolidatosi proprio durante il periodo di Azzo VI. Le torri superstiti sono oggi la testimonianza più evidente di quella stagione.",
-      "en": "The castle stands for the political and military power of the Este family over the town, which took hold precisely in the time of Azzo VI. The surviving towers are today the clearest testimony of that period.",
-      "fr": "Le château représente le pouvoir politique et militaire de la famille d'Este sur la ville, consolidé précisément à l'époque d'Azzo VI. Les tours qui subsistent sont aujourd'hui le témoignage le plus évident de cette période.",
-      "de": "Die Burg steht für die politische und militärische Macht der Familie Este über die Stadt, die sich gerade in der Zeit Azzos VI. festigte. Die erhaltenen Türme sind heute das deutlichste Zeugnis jener Epoche.",
-      "es": "El castillo representa el poder político y militar de la familia Este sobre la ciudad, consolidado precisamente durante la época de Azzo VI. Las torres que se conservan son hoy el testimonio más evidente de aquella etapa."
+      "it": "Il cimitero custodisce otto sue opere, tra cui diverse tombe monumentali e la sua stessa tomba con la moglie Antonietta Bellinello.",
+      "en": "The cemetery holds eight of his works, including several monumental tombs and his own tomb with his wife Antonietta Bellinello.",
+      "fr": "Le cimetière abrite huit de ses œuvres, dont plusieurs tombes monumentales et sa propre tombe avec son épouse Antonietta Bellinello.",
+      "de": "Der Friedhof bewahrt acht seiner Werke, darunter mehrere monumentale Grabmäler und sein eigenes Grab mit seiner Frau Antonietta Bellinello.",
+      "es": "El cementerio conserva ocho de sus obras, entre ellas varias tumbas monumentales y su propia tumba con su esposa Antonietta Bellinello."
+     }
+    },
+    "fontana-della-riconoscenza": {
+     "tipo": {
+      "it": "Opera",
+      "en": "Work",
+      "fr": "Œuvre",
+      "de": "Werk",
+      "es": "Obra"
+     },
+     "testo": {
+      "it": "Realizzata nel 1952 su suo progetto, dedicata alla solidarietà ricevuta dopo l'alluvione del 1951.",
+      "en": "Built in 1952 to his design, dedicated to the solidarity received after the 1951 flood.",
+      "fr": "Réalisée en 1952 d'après son projet, dédiée à la solidarité reçue après l'inondation de 1951.",
+      "de": "1952 nach seinem Entwurf errichtet, gewidmet der Solidarität nach der Flut von 1951.",
+      "es": "Realizada en 1952 según su proyecto, dedicada a la solidaridad recibida tras la riada de 1951."
+     }
+    },
+    "ex-liceo-celio": {
+     "tipo": {
+      "it": "Opera",
+      "en": "Work",
+      "fr": "Œuvre",
+      "de": "Werk",
+      "es": "Obra"
+     },
+     "testo": {
+      "it": "Ha realizzato il mosaico della facciata nel 1958, anno in cui fu completata la ricostruzione dell'edificio dopo i bombardamenti del febbraio 1945.",
+      "en": "He made the mosaic on the facade in 1958, the year the rebuilding of the building was completed after the bombing of February 1945.",
+      "fr": "Il réalisa la mosaïque de la façade en 1958, année où s'achève la reconstruction du bâtiment après les bombardements de février 1945.",
+      "de": "1958 schuf er das Mosaik an der Fassade, im Jahr, in dem der Wiederaufbau des Gebäudes nach den Bombardierungen vom Februar 1945 abgeschlossen wurde.",
+      "es": "Realizó el mosaico de la fachada en 1958, año en que se completó la reconstrucción del edificio tras los bombardeos de febrero de 1945."
      }
     }
    },
-   "collegati": []
+   "collegati": [],
+   "ritratto": {
+    "autore": "Di Pivari",
+    "licenza": "CC BY-SA 3.0"
+   }
   }
  ]
 }

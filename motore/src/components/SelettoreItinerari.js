@@ -202,7 +202,7 @@ export default function SelettoreItinerari({
                   {luoghiP.map((l) => (
                     <RigaStoria
                       key={l.id}
-                      foto={IMMAGINI.luoghi?.[l.id] !== undefined ? immagine(`luoghi/${l.id}.webp`) : null}
+                      foto={IMMAGINI[l.id] || null}
                       nome={l.nome}
                       riga={primeFrasi(testoLocalizzato(l.descrizione, lingua))}
                       onPress={() => onApriLuogo?.(l.id, `storia:${p.id}`)}
@@ -216,7 +216,7 @@ export default function SelettoreItinerari({
                   {approf.map((l) => (
                     <RigaStoria
                       key={l.id}
-                      foto={IMMAGINI.luoghi?.[l.id] !== undefined ? immagine(`luoghi/${l.id}.webp`) : null}
+                      foto={IMMAGINI[l.id] || null}
                       nome={l.nome}
                       riga={primeFrasi(testoLocalizzato(l.descrizione, lingua))}
                       onPress={() => onApriLuogo?.(l.id, `storia:${p.id}`)}

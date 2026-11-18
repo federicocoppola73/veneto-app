@@ -1,5 +1,5 @@
 {
- "versione": "e6f453822c69",
+ "versione": "5dfaf491c3de",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -6682,8 +6682,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/personaggi.json",
-   "sha256": "46a8efe3d7b6a9a7a8155263528455a43d5eceda347c940906ed4f7c251d1160",
-   "byte": 119833
+   "sha256": "16bfd2c7c354e988bb2684cc52cffb8bbbef60597539f0879ca18d2e355fce45",
+   "byte": 119837
   },
   {
    "path": "dati/principali.json",
@@ -6734,6 +6734,12 @@
    "da": "a8915b8cd651",
    "data": "2026-11-18",
    "byte": 119833
+  },
+  {
+   "versione": "5dfaf491c3de",
+   "da": "e6f453822c69",
+   "data": "2026-11-18",
+   "byte": 119837
   }
  ]
 }
