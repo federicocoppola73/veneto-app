@@ -1,5 +1,5 @@
 {
- "versione": "71fafd4cc7d5",
+ "versione": "1db59fa45801",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "battistero-di-san-giovanni-battista": {
@@ -288,32 +288,32 @@
    ]
   },
   "storia-03": {
-   "byte": 956492,
-   "secondi": 159,
+   "byte": 1263356,
+   "secondi": 211,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-03.mp3",
-     "byte": 956492,
-     "secondi": 159,
-     "sha256": "8fd2225032f1eeb319c2441516d438894da035be0f447b48ef4ca61b7a95e8b9",
-     "testo": "19eab9288b019f3f"
+     "byte": 1263356,
+     "secondi": 211,
+     "sha256": "715643e83e5c78272cfcc979612014b0644b61a8f8fe518fc80f70bcdac73747",
+     "testo": "bda3ef63619f446a"
     }
    ]
   },
   "storia-04": {
-   "byte": 1534652,
-   "secondi": 256,
+   "byte": 1855916,
+   "secondi": 309,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-04.mp3",
-     "byte": 1534652,
-     "secondi": 256,
-     "sha256": "45731f649109446f8b4c8d474dc05e9414b4ebe7464d92b484589abb2353d198",
-     "testo": "4e74a4e298b33958"
+     "byte": 1855916,
+     "secondi": 309,
+     "sha256": "c0e8abb050e8d772572694b4dc3f8a662600c4be2603083f8b08a9db8321e40b",
+     "testo": "3b0d2af58c6dd674"
     }
    ]
   },
