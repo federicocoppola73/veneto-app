@@ -1,5 +1,5 @@
 {
- "versione": "08769348d59f",
+ "versione": "947a0e11ac37",
  "tipo": "prova",
  "file": [
   {
@@ -5017,6 +5017,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/servizi.json",
    "sha256": "b11b708185259ed5c17db6d2a9efbea2d3ed782bd4007749abb1cbfbc77cf326",
    "byte": 39196
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/storia.json",
+   "sha256": "57924ad0b7c827f0cacf042ec18bc32a0020191c30d5c98542ee51d6df9c9476",
+   "byte": 32745
   },
   {
    "path": "dati/tessere.json",

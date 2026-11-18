@@ -1,5 +1,5 @@
 {
- "versione": "7f9d2b4e2bab",
+ "versione": "6c295ce0dee8",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cattedrale-san-pietro-leoni.webp",
@@ -5998,8 +5998,8 @@
   {
    "path": "dati/itinerari.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/itinerari.json",
-   "sha256": "741f3f355c96ebf50cd9eabfe64646393d9029371e7828864b24de7ddbe562ac",
-   "byte": 4797
+   "sha256": "ca6f0fabbe0c5986b4aa8ebcb768fe498d74eb89bf438e0167810cffff389f19",
+   "byte": 5164
   },
   {
    "path": "dati/luoghi.json",
@@ -6050,6 +6050,12 @@
    "byte": 39196
   },
   {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/storia.json",
+   "sha256": "57924ad0b7c827f0cacf042ec18bc32a0020191c30d5c98542ee51d6df9c9476",
+   "byte": 32745
+  },
+  {
    "path": "dati/tessere.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/treviso/dati/tessere.json",
    "sha256": "396bb89e85d2d8859d8f78e4a1fd2ba6d2509081ab242ac06433794fda1d6240",
@@ -6062,5 +6068,12 @@
    "byte": 116
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "6c295ce0dee8",
+   "da": "7f9d2b4e2bab",
+   "data": "2026-11-18",
+   "byte": 37909
+  }
+ ]
 }
