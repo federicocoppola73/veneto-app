@@ -1,5 +1,5 @@
 {
- "versione": "04b24fb39b7b",
+ "versione": "a1d6ce9451b8",
  "file": [
   {
    "path": "assets/cibi/asparago-bianco-bassano.webp",
@@ -5948,6 +5948,12 @@
    "byte": 81190
   },
   {
+   "path": "assets/personaggi/ezzelino-iii-da-romano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/personaggi/ezzelino-iii-da-romano.webp",
+   "sha256": "8bddaea07d892fa0ccc59a7d92a7a104f9ad99495167668d0e5be515b66c17aa",
+   "byte": 337394
+  },
+  {
    "path": "assets/personaggi/francesco-maffei.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/assets/personaggi/francesco-maffei.webp",
    "sha256": "116d0916c5b0e6d3f14af9e5d3ec71a8c0f2115ee6012cb63c94de03a2cad23d",
@@ -6052,8 +6058,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/personaggi.json",
-   "sha256": "f6b88afd3f3561c267509612a04c035ff8299c9ac13756b03104a0ee6273dd5d",
-   "byte": 101324
+   "sha256": "ae49cd6c4c7c4d809cb1ddf14ce4ea1aec5a06756a16054b11dfc0f4d374eb91",
+   "byte": 113047
   },
   {
    "path": "dati/principali.json",
@@ -6072,6 +6078,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/servizi.json",
    "sha256": "0e9613e4f77cb8f11223197c60785be7c05e828f85f2a85ce7335bf56de41439",
    "byte": 44041
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/storia.json",
+   "sha256": "a1446ba53790b26a402c9154f57bc13e945de7d05350fc6de027499074b7fdef",
+   "byte": 30026
   },
   {
    "path": "dati/tessere.json",
@@ -6108,6 +6120,12 @@
    ],
    "foto_nuove": 4,
    "byte": 1127372
+  },
+  {
+   "versione": "a1d6ce9451b8",
+   "da": "04b24fb39b7b",
+   "data": "2026-11-18",
+   "byte": 480467
   }
  ]
 }

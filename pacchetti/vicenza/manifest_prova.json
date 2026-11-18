@@ -1,5 +1,5 @@
 {
- "versione": "7787b4b3751c",
+ "versione": "1f5c6e53be86",
  "tipo": "prova",
  "file": [
   {
@@ -4759,6 +4759,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/servizi.json",
    "sha256": "0e9613e4f77cb8f11223197c60785be7c05e828f85f2a85ce7335bf56de41439",
    "byte": 44041
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/storia.json",
+   "sha256": "a1446ba53790b26a402c9154f57bc13e945de7d05350fc6de027499074b7fdef",
+   "byte": 30026
   },
   {
    "path": "dati/tessere.json",

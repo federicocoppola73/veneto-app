@@ -1,0 +1,252 @@
+{
+ "periodi": [
+  {
+   "id": "00",
+   "titolo": {
+    "it": "La città in sintesi",
+    "en": "The city at a glance",
+    "fr": "La ville en bref",
+    "de": "Die Stadt im Überblick",
+    "es": "La ciudad en síntesis"
+   },
+   "testo": {
+    "it": "Vicenza sorge ai piedi dei Colli Berici, nel punto in cui il Retrone incontra il Bacchiglione. Il primo insediamento si fa risalire probabilmente ai Veneti antichi; in età romana fu il municipio di Vicetia, poi comune libero e, dal 1404 al 1797, città della Repubblica di Venezia.\n\nNel Cinquecento Vicenza vive la sua stagione più celebre: Andrea Palladio, formatosi in città, la riempie di palazzi, logge e di un teatro, e Vincenzo Scamozzi ne continua l'opera. Per questo è nota come la città del Palladio, e dal 1994 è patrimonio UNESCO insieme alle ville palladiane del Veneto.\n\nNell'Ottocento passa dalla Francia all'Austria, nel 1848 resiste all'attacco austriaco su Monte Berico e nel 1866 entra nel Regno d'Italia. Nel Novecento vive due guerre mondiali e, tra il 1943 e il 1945, pesanti bombardamenti aerei. Ha ricevuto due medaglie d'oro al valor militare, per il 1848 e per la Resistenza.",
+    "en": "Vicenza lies at the foot of the Berici Hills, where the Retrone meets the Bacchiglione. The first settlement is probably traced back to the ancient Veneti; in Roman times it was the municipium of Vicetia, then a free commune and, from 1404 to 1797, a city of the Republic of Venice.\n\nIn the sixteenth century Vicenza lives its most famous season: Andrea Palladio, trained in the city, fills it with palaces, loggias and a theatre, and Vincenzo Scamozzi continues his work. For this reason it is known as the city of Palladio, and since 1994 it has been a UNESCO World Heritage site together with the Palladian villas of the Veneto.\n\nIn the nineteenth century it passes from France to Austria, in 1848 it resists the Austrian attack on Monte Berico, and in 1866 it joins the Kingdom of Italy. In the twentieth century it lives through two world wars and, between 1943 and 1945, heavy aerial bombing. It has received two gold medals for military valour, for 1848 and for the Resistance.",
+    "fr": "Vicence s'étend au pied des collines Bérique, là où le Retrone rencontre le Bacchiglione. Le premier peuplement remonte probablement aux anciens Vénètes ; à l'époque romaine, ce fut le municipe de Vicetia, puis une commune libre et, de 1404 à 1797, une ville de la République de Venise.\n\nAu XVIe siècle, Vicence vit sa saison la plus célèbre : Andrea Palladio, formé dans la ville, la remplit de palais, de loggias et d'un théâtre, et Vincenzo Scamozzi poursuit son œuvre. C'est pourquoi elle est connue comme la ville de Palladio, et depuis 1994 elle est inscrite au patrimoine mondial de l'UNESCO avec les villas palladiennes de la Vénétie.\n\nAu XIXe siècle, elle passe de la France à l'Autriche, en 1848 elle résiste à l'attaque autrichienne sur le Monte Berico et en 1866 elle entre dans le Royaume d'Italie. Au XXe siècle, elle traverse deux guerres mondiales et, entre 1943 et 1945, de lourds bombardements aériens. Elle a reçu deux médailles d'or de la valeur militaire, pour 1848 et pour la Résistance.",
+    "de": "Vicenza liegt am Fuß der Monti Berici, dort, wo der Retrone auf den Bacchiglione trifft. Die erste Siedlung geht wahrscheinlich auf die alten Veneter zurück; in römischer Zeit war es das Municipium Vicetia, dann eine freie Kommune und von 1404 bis 1797 eine Stadt der Republik Venedig.\n\nIm 16. Jahrhundert erlebt Vicenza seine berühmteste Zeit: Andrea Palladio, in der Stadt ausgebildet, füllt sie mit Palästen, Loggien und einem Theater, und Vincenzo Scamozzi führt sein Werk fort. Deshalb gilt sie als die Stadt Palladios, und seit 1994 ist sie zusammen mit den palladianischen Villen des Veneto UNESCO-Welterbe.\n\nIm 19. Jahrhundert geht sie von Frankreich an Österreich über, widersteht 1848 dem österreichischen Angriff auf den Monte Berico und gehört ab 1866 zum Königreich Italien. Im 20. Jahrhundert erlebt sie zwei Weltkriege und zwischen 1943 und 1945 schwere Luftangriffe. Sie hat zwei Goldmedaillen für militärische Tapferkeit erhalten, für 1848 und für den Widerstand.",
+    "es": "Vicenza se extiende al pie de los Colli Berici, donde el Retrone se encuentra con el Bacchiglione. El primer asentamiento se remonta probablemente a los antiguos vénetos; en época romana fue el municipio de Vicetia, luego comuna libre y, de 1404 a 1797, ciudad de la República de Venecia.\n\nEn el siglo XVI Vicenza vive su época más célebre: Andrea Palladio, formado en la ciudad, la llena de palacios, logias y un teatro, y Vincenzo Scamozzi continúa su obra. Por eso es conocida como la ciudad de Palladio, y desde 1994 es Patrimonio de la Humanidad de la UNESCO junto con las villas palladianas del Véneto.\n\nEn el siglo XIX pasa de Francia a Austria, en 1848 resiste el ataque austríaco en Monte Berico y en 1866 entra en el Reino de Italia. En el siglo XX vive dos guerras mundiales y, entre 1943 y 1945, duros bombardeos aéreos. Ha recibido dos medallas de oro al valor militar, por 1848 y por la Resistencia."
+   },
+   "audio": "storia-00",
+   "luoghi": [
+    "piazza-dei-signori",
+    "basilica-palladiana",
+    "teatro-olimpico",
+    "santuario-di-monte-berico"
+   ]
+  },
+  {
+   "id": "01",
+   "titolo": {
+    "it": "Origini e età romana",
+    "en": "Origins and Roman age",
+    "fr": "Origines et époque romaine",
+    "de": "Ursprünge und römische Zeit",
+    "es": "Orígenes y época romana"
+   },
+   "anni": {
+    "it": "dalle origini al V secolo",
+    "en": "from the origins to the 5th century",
+    "fr": "des origines au Ve siècle",
+    "de": "von den Anfängen bis zum 5. Jahrhundert",
+    "es": "de los orígenes al siglo V"
+   },
+   "testo": {
+    "it": "Il territorio vicentino è abitato fin dalla preistoria. Il primo insediamento urbano si fa risalire probabilmente al VI secolo a.C. e ai Veneti antichi, in una posizione alla confluenza dei fiumi.\n\nNel 148 a.C. la via Postumia, da Genova ad Aquileia, attraversa la città. Tra il 49 e il 42 a.C. Vicetia diventa municipio, con propri magistrati: la città viene riorganizzata su un impianto a griglia e si dota di mura e di un teatro.\n\nDi questa età restano il criptoportico sotto Piazza del Duomo e le raccolte archeologiche di Santa Corona. Fuori dalle mura, tra IV e V secolo, nasce in un'area funeraria romana la prima basilica dei Santi Felice e Fortunato.",
+    "en": "The Vicenza area has been inhabited since prehistory. The first urban settlement is probably traced back to the 6th century BC and to the ancient Veneti, in a position at the confluence of the rivers.\n\nIn 148 BC the Via Postumia, from Genoa to Aquileia, crosses the city. Between 49 and 42 BC Vicetia becomes a municipium, with its own magistrates: the city is reorganised on a grid plan and acquires walls and a theatre.\n\nFrom this age survive the cryptoporticus beneath Piazza del Duomo and the archaeological collections of Santa Corona. Outside the walls, between the 4th and 5th centuries, the first basilica of Saints Felix and Fortunatus arises in a Roman funerary area.",
+    "fr": "Le territoire de Vicence est habité depuis la préhistoire. Le premier peuplement urbain remonte probablement au VIe siècle av. J.-C. et aux anciens Vénètes, dans une position au confluent des rivières.\n\nEn 148 av. J.-C., la via Postumia, de Gênes à Aquilée, traverse la ville. Entre 49 et 42 av. J.-C., Vicetia devient municipe, avec ses propres magistrats : la ville est réorganisée selon un plan quadrillé et se dote de murs et d'un théâtre.\n\nDe cette époque subsistent le cryptoportique sous la Piazza del Duomo et les collections archéologiques de Santa Corona. Hors des murs, entre le IVe et le Ve siècle, naît dans une zone funéraire romaine la première basilique des saints Félix et Fortunat.",
+    "de": "Das Gebiet von Vicenza ist seit der Vorgeschichte besiedelt. Die erste städtische Siedlung geht wahrscheinlich auf das 6. Jahrhundert v. Chr. und die alten Veneter zurück, in einer Lage am Zusammenfluss der Flüsse.\n\nIm Jahr 148 v. Chr. durchquert die Via Postumia, von Genua nach Aquileia, die Stadt. Zwischen 49 und 42 v. Chr. wird Vicetia Municipium, mit eigenen Magistraten: Die Stadt wird nach einem Rasterplan neu geordnet und erhält Mauern und ein Theater.\n\nAus dieser Zeit sind der Kryptoportikus unter der Piazza del Duomo und die archäologischen Sammlungen von Santa Corona erhalten. Außerhalb der Mauern entsteht zwischen dem 4. und 5. Jahrhundert in einem römischen Gräberareal die erste Basilika der Heiligen Felix und Fortunatus.",
+    "es": "El territorio vicentino está habitado desde la prehistoria. El primer asentamiento urbano se remonta probablemente al siglo VI a. C. y a los antiguos vénetos, en una posición en la confluencia de los ríos.\n\nEn el 148 a. C. la vía Postumia, de Génova a Aquileia, atraviesa la ciudad. Entre el 49 y el 42 a. C. Vicetia se convierte en municipio, con sus propios magistrados: la ciudad se reorganiza con un trazado en cuadrícula y se dota de murallas y de un teatro.\n\nDe esta época quedan el criptopórtico bajo la Piazza del Duomo y las colecciones arqueológicas de Santa Corona. Fuera de las murallas, entre los siglos IV y V, nace en un área funeraria romana la primera basílica de los santos Félix y Fortunato."
+   },
+   "audio": "storia-01",
+   "luoghi": [
+    "criptoportico-romano",
+    "museo-naturalistico-e-archeologico",
+    "basilica-dei-santi-felice-e-fortunato"
+   ]
+  },
+  {
+   "id": "02",
+   "titolo": {
+    "it": "Alto e pieno Medioevo",
+    "en": "Early and High Middle Ages",
+    "fr": "Haut et plein Moyen Âge",
+    "de": "Früh- und Hochmittelalter",
+    "es": "Alta y plena Edad Media"
+   },
+   "anni": {
+    "it": "VI–XII secolo",
+    "en": "6th–12th century",
+    "fr": "VIe–XIIe siècle",
+    "de": "6.–12. Jahrhundert",
+    "es": "siglos VI–XII"
+   },
+   "testo": {
+    "it": "Dopo la caduta dell'impero d'Occidente Vicenza passa ai Longobardi (568) e poi ai Franchi di Carlo Magno (774), che ne fanno una contea. Il primo vescovo documentato è Oronzio, alla fine del VI secolo.\n\nNell'825 un capitolare di Lotario I stabilisce una scuola pubblica in città; nel marzo del 1000 l'imperatore Ottone III concede al vescovo Girolamo il teatro romano di Berga ed esenta la Chiesa vicentina dal pagamento di alcuni tributi. Nel XII secolo compaiono i primi consoli: nasce il comune.",
+    "en": "After the fall of the Western Empire Vicenza passes to the Lombards (568) and then to the Franks of Charlemagne (774), who make it a county. The first documented bishop is Oronzio, at the end of the 6th century.\n\nIn 825 a capitulary of Lothair I establishes a public school in the city; in March 1000 the emperor Otto III grants Bishop Girolamo the Roman theatre of Berga and exempts the Vicenza Church from the payment of certain taxes. In the 12th century the first consuls appear: the commune is born.",
+    "fr": "Après la chute de l'Empire d'Occident, Vicence passe aux Lombards (568) puis aux Francs de Charlemagne (774), qui en font un comté. Le premier évêque documenté est Oronzio, à la fin du VIe siècle.\n\nEn 825, un capitulaire de Lothaire Ier établit une école publique dans la ville ; en mars 1000, l'empereur Otton III concède à l'évêque Girolamo le théâtre romain de Berga et exempte l'Église de Vicence du paiement de certains tributs. Au XIIe siècle apparaissent les premiers consuls : la commune naît.",
+    "de": "Nach dem Untergang des Weströmischen Reiches geht Vicenza an die Langobarden (568) und dann an die Franken Karls des Großen (774), die daraus eine Grafschaft machen. Der erste belegte Bischof ist Oronzio, Ende des 6. Jahrhunderts.\n\nIm Jahr 825 richtet ein Kapitular Lothars I. eine öffentliche Schule in der Stadt ein; im März 1000 überlässt Kaiser Otto III. Bischof Girolamo das römische Theater von Berga und befreit die Kirche von Vicenza von der Zahlung einiger Abgaben. Im 12. Jahrhundert erscheinen die ersten Konsuln: Die Kommune entsteht.",
+    "es": "Tras la caída del Imperio de Occidente Vicenza pasa a los longobardos (568) y luego a los francos de Carlomagno (774), que la convierten en condado. El primer obispo documentado es Oronzio, a finales del siglo VI.\n\nEn el 825 un capitular de Lotario I establece una escuela pública en la ciudad; en marzo del 1000 el emperador Otón III concede al obispo Girolamo el teatro romano de Berga y exime a la Iglesia vicentina del pago de algunos tributos. En el siglo XII aparecen los primeros cónsules: nace la comuna."
+   },
+   "audio": "storia-02",
+   "luoghi": [
+    "duomo-cattedrale-di-santa-maria-annunciata",
+    "chiesa-di-san-pietro",
+    "museo-diocesano",
+    "torrione-di-porta-castello"
+   ]
+  },
+  {
+   "id": "03",
+   "titolo": {
+    "it": "Comuni e signorie",
+    "en": "Communes and lordships",
+    "fr": "Communes et seigneuries",
+    "de": "Kommunen und Signorien",
+    "es": "Comunas y señoríos"
+   },
+   "anni": {
+    "it": "XIII secolo–1404",
+    "en": "13th century–1404",
+    "fr": "XIIIe siècle–1404",
+    "de": "13. Jahrhundert–1404",
+    "es": "siglo XIII–1404"
+   },
+   "testo": {
+    "it": "Nel Duecento Vicenza è un comune libero, coinvolto nelle lotte tra Impero, papato e città vicine. Il 1° novembre 1236 le truppe di Federico II la saccheggiano e la incendiano; nel 1240 Ezzelino III da Romano ne diventa signore e muore nel 1259.\n\nDopo Ezzelino la città passa a Padova (1266), poi agli Scaligeri di Verona e, dal 1387, ai Visconti di Milano. Nel frattempo sorgono le grandi chiese degli ordini mendicanti, come Santa Corona e San Lorenzo. Nell'aprile 1404 Vicenza si dà a Venezia.",
+    "en": "In the thirteenth century Vicenza is a free commune, caught up in the struggles between Empire, papacy and neighbouring cities. On 1 November 1236 the troops of Frederick II sack and burn it; in 1240 Ezzelino III da Romano becomes its lord and dies in 1259.\n\nAfter Ezzelino the city passes to Padua (1266), then to the Scaligeri of Verona and, from 1387, to the Visconti of Milan. Meanwhile the great churches of the mendicant orders arise, such as Santa Corona and San Lorenzo. In April 1404 Vicenza gives itself to Venice.",
+    "fr": "Au XIIIe siècle, Vicence est une commune libre, prise dans les luttes entre l'Empire, la papauté et les villes voisines. Le 1er novembre 1236, les troupes de Frédéric II la pillent et l'incendient ; en 1240, Ezzelino III da Romano en devient le seigneur et meurt en 1259.\n\nAprès Ezzelino, la ville passe à Padoue (1266), puis aux Scaliger de Vérone et, à partir de 1387, aux Visconti de Milan. Entre-temps s'élèvent les grandes églises des ordres mendiants, comme Santa Corona et San Lorenzo. En avril 1404, Vicence se donne à Venise.",
+    "de": "Im 13. Jahrhundert ist Vicenza eine freie Kommune, verwickelt in die Kämpfe zwischen Kaiserreich, Papsttum und Nachbarstädten. Am 1. November 1236 plündern und verbrennen die Truppen Friedrichs II. die Stadt; 1240 wird Ezzelino III. da Romano ihr Herr und stirbt 1259.\n\nNach Ezzelino geht die Stadt an Padua (1266), dann an die Scaliger von Verona und ab 1387 an die Visconti von Mailand. In der Zwischenzeit entstehen die großen Kirchen der Bettelorden, wie Santa Corona und San Lorenzo. Im April 1404 unterstellt sich Vicenza Venedig.",
+    "es": "En el siglo XIII Vicenza es una comuna libre, implicada en las luchas entre Imperio, papado y ciudades vecinas. El 1 de noviembre de 1236 las tropas de Federico II la saquean y la incendian; en 1240 Ezzelino III da Romano se convierte en su señor y muere en 1259.\n\nDespués de Ezzelino la ciudad pasa a Padua (1266), luego a los Scaligeri de Verona y, desde 1387, a los Visconti de Milán. Mientras tanto surgen las grandes iglesias de las órdenes mendicantes, como Santa Corona y San Lorenzo. En abril de 1404 Vicenza se entrega a Venecia."
+   },
+   "audio": "storia-03",
+   "luoghi": [
+    "tempio-di-santa-corona",
+    "tempio-di-san-lorenzo",
+    "torre-dei-loschi",
+    "porta-santa-lucia"
+   ],
+   "personaggi": [
+    "ezzelino-iii-da-romano"
+   ]
+  },
+  {
+   "id": "04",
+   "titolo": {
+    "it": "Repubblica di Venezia",
+    "en": "Republic of Venice",
+    "fr": "République de Venise",
+    "de": "Republik Venedig",
+    "es": "República de Venecia"
+   },
+   "anni": {
+    "it": "1404–1797",
+    "en": "1404–1797",
+    "fr": "1404–1797",
+    "de": "1404–1797",
+    "es": "1404–1797"
+   },
+   "testo": {
+    "it": "Nell'aprile 1404 Vicenza si dà a Venezia, che con un privilegio le garantisce le sue leggi e il ruolo dell'aristocrazia locale. Resta parte della Repubblica fino al 1797, con una sola interruzione: nel 1509, durante la guerra della Lega di Cambrai, passa per qualche mese all'imperatore Massimiliano e viene ripresa dai Veneziani a novembre.\n\nÈ in questi secoli che Vicenza diventa la città del Palladio: dal 1540 circa al 1580 l'architetto, sostenuto da Gian Giorgio Trissino e dalla nobiltà locale, disegna palazzi, la Basilica, la Loggia del Capitaniato, la Rotonda e il Teatro Olimpico; Vincenzo Scamozzi ne continua l'opera. Dal tardo Cinquecento al Settecento lavorano in città pittori come Maganza e Maffei e architetti come Calderari.",
+    "en": "In April 1404 Vicenza gives itself to Venice, which with a privilege guarantees its laws and the role of the local aristocracy. It remains part of the Republic until 1797, with a single interruption: in 1509, during the War of the League of Cambrai, it passes for a few months to the emperor Maximilian and is retaken by the Venetians in November.\n\nIt is in these centuries that Vicenza becomes the city of Palladio: from about 1540 to 1580 the architect, supported by Gian Giorgio Trissino and the local nobility, designs palaces, the Basilica, the Loggia del Capitaniato, the Rotonda and the Teatro Olimpico; Vincenzo Scamozzi continues his work. From the late sixteenth to the eighteenth century painters such as Maganza and Maffei and architects such as Calderari work in the city.",
+    "fr": "En avril 1404, Vicence se donne à Venise, qui, par un privilège, lui garantit ses lois et le rôle de l'aristocratie locale. Elle reste partie de la République jusqu'en 1797, avec une seule interruption : en 1509, pendant la guerre de la Ligue de Cambrai, elle passe quelques mois à l'empereur Maximilien et est reprise par les Vénitiens en novembre.\n\nC'est durant ces siècles que Vicence devient la ville de Palladio : de 1540 environ à 1580, l'architecte, soutenu par Gian Giorgio Trissino et par la noblesse locale, dessine des palais, la Basilique, la Loggia del Capitaniato, la Rotonde et le Teatro Olimpico ; Vincenzo Scamozzi poursuit son œuvre. De la fin du XVIe au XVIIIe siècle, des peintres comme Maganza et Maffei et des architectes comme Calderari travaillent dans la ville.",
+    "de": "Im April 1404 unterstellt sich Vicenza Venedig, das ihr mit einem Privileg ihre Gesetze und die Rolle des lokalen Adels garantiert. Sie bleibt bis 1797 Teil der Republik, mit einer einzigen Unterbrechung: 1509, während des Krieges der Liga von Cambrai, fällt sie für einige Monate an Kaiser Maximilian und wird im November von den Venezianern zurückerobert.\n\nIn diesen Jahrhunderten wird Vicenza zur Stadt Palladios: Von etwa 1540 bis 1580 entwirft der Architekt, unterstützt von Gian Giorgio Trissino und dem lokalen Adel, Paläste, die Basilika, die Loggia del Capitaniato, die Rotonda und das Teatro Olimpico; Vincenzo Scamozzi führt sein Werk fort. Vom späten 16. bis zum 18. Jahrhundert wirken in der Stadt Maler wie Maganza und Maffei und Architekten wie Calderari.",
+    "es": "En abril de 1404 Vicenza se entrega a Venecia, que con un privilegio le garantiza sus leyes y el papel de la aristocracia local. Sigue siendo parte de la República hasta 1797, con una sola interrupción: en 1509, durante la guerra de la Liga de Cambrai, pasa durante unos meses al emperador Maximiliano y los venecianos la recuperan en noviembre.\n\nEs en estos siglos cuando Vicenza se convierte en la ciudad de Palladio: de 1540 aproximadamente a 1580 el arquitecto, apoyado por Gian Giorgio Trissino y por la nobleza local, proyecta palacios, la Basílica, la Loggia del Capitaniato, la Rotonda y el Teatro Olimpico; Vincenzo Scamozzi continúa su obra. Desde finales del siglo XVI hasta el XVIII trabajan en la ciudad pintores como Maganza y Maffei y arquitectos como Calderari."
+   },
+   "audio": "storia-04",
+   "luoghi": [
+    "basilica-palladiana",
+    "loggia-del-capitaniato",
+    "teatro-olimpico",
+    "villa-la-rotonda"
+   ],
+   "approfondire": [
+    "palazzo-chiericati-museo-civico",
+    "palladio-museum",
+    "gallerie-di-palazzo-thiene",
+    "palazzo-valmarana-braga",
+    "palazzo-trissino-al-corso",
+    "palazzo-trissino-al-duomo",
+    "villa-trissino-cricoli",
+    "santuario-di-monte-berico",
+    "palazzo-cordellina",
+    "villa-valmarana-ai-nani"
+   ],
+   "personaggi": [
+    "andrea-palladio",
+    "gian-giorgio-trissino",
+    "vincenzo-scamozzi",
+    "alessandro-maganza",
+    "francesco-maffei",
+    "ottone-calderari"
+   ]
+  },
+  {
+   "id": "05",
+   "titolo": {
+    "it": "Ottocento",
+    "en": "The nineteenth century",
+    "fr": "Le XIXe siècle",
+    "de": "Das 19. Jahrhundert",
+    "es": "El siglo XIX"
+   },
+   "anni": {
+    "it": "1797–1900",
+    "en": "1797–1900",
+    "fr": "1797–1900",
+    "de": "1797–1900",
+    "es": "1797–1900"
+   },
+   "testo": {
+    "it": "Dopo la caduta della Repubblica di Venezia, nel 1797, Vicenza passa prima all'Austria, poi dal 1806 al Regno d'Italia napoleonico e dal 1815 di nuovo all'Austria, nel Regno Lombardo-Veneto.\n\nNel 1848 la città insorge e il 10 giugno resiste all'attacco di almeno trentamila soldati austriaci, in una battaglia che si concentra su Monte Berico; il giorno dopo le truppe italiane lasciano Vicenza. Nel 1866 il Veneto passa all'Italia e la bandiera della città riceve la medaglia d'oro al valor militare. Nel 1842 era nato a Vicenza lo scrittore Antonio Fogazzaro.",
+    "en": "After the fall of the Republic of Venice, in 1797, Vicenza passes first to Austria, then from 1806 to the Napoleonic Kingdom of Italy and from 1815 again to Austria, in the Kingdom of Lombardy–Venetia.\n\nIn 1848 the city rises up and on 10 June resists the attack of at least thirty thousand Austrian soldiers, in a battle centred on Monte Berico; the next day the Italian troops leave Vicenza. In 1866 the Veneto passes to Italy and the city's banner receives the gold medal for military valour. In 1842 the writer Antonio Fogazzaro had been born in Vicenza.",
+    "fr": "Après la chute de la République de Venise, en 1797, Vicence passe d'abord à l'Autriche, puis, à partir de 1806, au Royaume d'Italie napoléonien et, dès 1815, de nouveau à l'Autriche, dans le Royaume lombard-vénitien.\n\nEn 1848, la ville se soulève et le 10 juin résiste à l'attaque d'au moins trente mille soldats autrichiens, dans une bataille concentrée sur le Monte Berico ; le lendemain, les troupes italiennes quittent Vicence. En 1866, la Vénétie passe à l'Italie et le drapeau de la ville reçoit la médaille d'or de la valeur militaire. En 1842 était né à Vicence l'écrivain Antonio Fogazzaro.",
+    "de": "Nach dem Fall der Republik Venedig 1797 geht Vicenza zunächst an Österreich, ab 1806 an das napoleonische Königreich Italien und ab 1815 wieder an Österreich, im Königreich Lombardo-Venetien.\n\n1848 erhebt sich die Stadt und widersteht am 10. Juni dem Angriff von mindestens dreißigtausend österreichischen Soldaten, in einer Schlacht, die sich auf den Monte Berico konzentriert; am Tag darauf verlassen die italienischen Truppen Vicenza. 1866 geht das Veneto an Italien über, und die Fahne der Stadt erhält die Goldmedaille für militärische Tapferkeit. 1842 war in Vicenza der Schriftsteller Antonio Fogazzaro geboren worden.",
+    "es": "Tras la caída de la República de Venecia, en 1797, Vicenza pasa primero a Austria, luego desde 1806 al Reino de Italia napoleónico y desde 1815 de nuevo a Austria, en el Reino Lombardo-Véneto.\n\nEn 1848 la ciudad se alza y el 10 de junio resiste el ataque de al menos treinta mil soldados austríacos, en una batalla que se concentra en Monte Berico; al día siguiente las tropas italianas abandonan Vicenza. En 1866 el Véneto pasa a Italia y la bandera de la ciudad recibe la medalla de oro al valor militar. En 1842 había nacido en Vicenza el escritor Antonio Fogazzaro."
+   },
+   "audio": "storia-05",
+   "luoghi": [
+    "museo-del-risorgimento-e-della-resistenza-villa-guiccioli",
+    "piazzale-della-vittoria",
+    "parco-querini",
+    "casa-natale-fogazzaro"
+   ],
+   "approfondire": [
+    "santuario-di-monte-berico",
+    "villa-la-rotonda",
+    "piazza-san-lorenzo"
+   ],
+   "personaggi": [
+    "antonio-fogazzaro"
+   ]
+  },
+  {
+   "id": "06",
+   "titolo": {
+    "it": "Novecento e oggi",
+    "en": "The twentieth century and today",
+    "fr": "Le XXe siècle et aujourd'hui",
+    "de": "Das 20. Jahrhundert und heute",
+    "es": "El siglo XX y hoy"
+   },
+   "anni": {
+    "it": "dal 1900 a oggi",
+    "en": "1900 to today",
+    "fr": "de 1900 à aujourd'hui",
+    "de": "von 1900 bis heute",
+    "es": "de 1900 a hoy"
+   },
+   "testo": {
+    "it": "Nella Prima guerra mondiale Vicenza, a poche decine di chilometri dal fronte, è zona di guerra e sede del Comando d'Armata, ma non diventa un campo di battaglia: l'offensiva austriaca del 1916 sugli altipiani si ferma ai margini della pianura vicentina.\n\nNella Seconda guerra mondiale, a partire dal dicembre 1943, i bombardamenti aerei colpiscono la città e il suo patrimonio; il 18 marzo 1945 prende fuoco il tetto della Basilica Palladiana. Vicenza viene liberata il 28 aprile 1945 e riceve la seconda medaglia d'oro al valor militare, per la Resistenza.\n\nDopo la guerra la città ricostruisce molti monumenti e nel 1994 entra nel patrimonio UNESCO. Oggi custodisce la sua eredità in luoghi come il Palladio Museum, le Gallerie d'Italia e il Museo del Gioiello, che richiama una lunga tradizione orafa.",
+    "en": "In the First World War Vicenza, a few tens of kilometres from the front, is a war zone and the seat of the Army Command, but it does not become a battlefield: the Austrian offensive of 1916 on the plateaus stops at the edge of the Vicenza plain.\n\nIn the Second World War, starting in December 1943, aerial bombing strikes the city and its heritage; on 18 March 1945 the roof of the Basilica Palladiana catches fire. Vicenza is liberated on 28 April 1945 and receives its second gold medal for military valour, for the Resistance.\n\nAfter the war the city rebuilds many monuments and in 1994 enters the UNESCO heritage. Today it preserves its legacy in places such as the Palladio Museum, the Gallerie d'Italia and the Museo del Gioiello, which recalls a long goldsmithing tradition.",
+    "fr": "Pendant la Première Guerre mondiale, Vicence, à quelques dizaines de kilomètres du front, est zone de guerre et siège du commandement d'armée, mais ne devient pas un champ de bataille : l'offensive autrichienne de 1916 sur les plateaux s'arrête aux marges de la plaine vicentine.\n\nPendant la Seconde Guerre mondiale, à partir de décembre 1943, les bombardements aériens frappent la ville et son patrimoine ; le 18 mars 1945, le toit de la Basilique palladienne prend feu. Vicence est libérée le 28 avril 1945 et reçoit sa seconde médaille d'or de la valeur militaire, pour la Résistance.\n\nAprès la guerre, la ville reconstruit de nombreux monuments et, en 1994, entre au patrimoine de l'UNESCO. Aujourd'hui, elle conserve son héritage dans des lieux comme le Palladio Museum, les Gallerie d'Italia et le Museo del Gioiello, qui rappelle une longue tradition d'orfèvrerie.",
+    "de": "Im Ersten Weltkrieg ist Vicenza, nur wenige Dutzend Kilometer von der Front entfernt, Kriegsgebiet und Sitz des Armeekommandos, wird aber kein Schlachtfeld: Die österreichische Offensive von 1916 auf den Hochebenen kommt am Rand der vicentinischen Ebene zum Stehen.\n\nIm Zweiten Weltkrieg treffen ab Dezember 1943 Luftangriffe die Stadt und ihr Kulturerbe; am 18. März 1945 fängt das Dach der Basilica Palladiana Feuer. Vicenza wird am 28. April 1945 befreit und erhält ihre zweite Goldmedaille für militärische Tapferkeit, für den Widerstand.\n\nNach dem Krieg baut die Stadt viele Monumente wieder auf und wird 1994 UNESCO-Welterbe. Heute bewahrt sie ihr Erbe an Orten wie dem Palladio Museum, den Gallerie d'Italia und dem Museo del Gioiello, das an eine lange Goldschmiedetradition erinnert.",
+    "es": "En la Primera Guerra Mundial Vicenza, a pocas decenas de kilómetros del frente, es zona de guerra y sede del Mando de Ejército, pero no se convierte en campo de batalla: la ofensiva austríaca de 1916 en las mesetas se detiene en los márgenes de la llanura vicentina.\n\nEn la Segunda Guerra Mundial, a partir de diciembre de 1943, los bombardeos aéreos golpean la ciudad y su patrimonio; el 18 de marzo de 1945 se incendia el tejado de la Basilica Palladiana. Vicenza es liberada el 28 de abril de 1945 y recibe su segunda medalla de oro al valor militar, por la Resistencia.\n\nDespués de la guerra la ciudad reconstruye muchos monumentos y en 1994 entra en el patrimonio de la UNESCO. Hoy custodia su legado en lugares como el Palladio Museum, las Gallerie d'Italia y el Museo del Gioiello, que recuerda una larga tradición orfebre."
+   },
+   "audio": "storia-06",
+   "luoghi": [
+    "basilica-palladiana",
+    "stazione",
+    "piazzale-della-vittoria",
+    "museo-del-risorgimento-e-della-resistenza-villa-guiccioli"
+   ],
+   "approfondire": [
+    "palazzo-trissino-al-corso",
+    "palladio-museum",
+    "gallerie-d-italia-palazzo-leoni-montanari",
+    "museo-del-gioiello",
+    "palazzo-valmarana-braga",
+    "palazzo-civena-trissino"
+   ]
+  }
+ ]
+}
