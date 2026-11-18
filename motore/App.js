@@ -439,6 +439,8 @@ function Schermata({ linguaIniziale }) {
   const ritornoItinerario = useRef(null);
   // personaggio di partenza, quando si apre un personaggio collegato
   const ritornoCollegato = useRef(null);
+  // scheda storica ("storia:<id>") da cui si è aperto un personaggio: alla chiusura si riapre quella scheda
+  const ritornoStoria = useRef(null);
   const chiudiScheda = useCallback(() => {
     setIdSelezionato(null);
     if (ritornoItinerario.current) {
@@ -1016,6 +1018,12 @@ function Schermata({ linguaIniziale }) {
           setSelettoreAperto(false);
           apriTappa(id);
         }}
+        onApriPersonaggio={(id, idStoria) => {
+          // dalla scheda storica: la scheda del personaggio si apre sopra; alla chiusura si torna a quella scheda
+          ritornoStoria.current = idStoria;
+          setSelettoreAperto(false);
+          setPersonaggioAperto(id);
+        }}
         adesso={adesso}
         visitati={luoghiVisitati}
         onCrea={() => setEditor({ titolo: '', tappe: [] })}
@@ -1110,6 +1118,13 @@ function Schermata({ linguaIniziale }) {
               return;
             }
             setPersonaggioAperto(null);
+            if (ritornoStoria.current) {
+              const idStoria = ritornoStoria.current;
+              ritornoStoria.current = null;
+              setApriItinerarioId(idStoria);
+              setSelettoreAperto(true);
+              return;
+            }
             const luogoId = ritornoLuogo.current;
             ritornoLuogo.current = null;
             if (luogoId) setIdSelezionato(luogoId);

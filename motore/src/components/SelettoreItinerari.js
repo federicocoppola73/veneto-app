@@ -11,6 +11,9 @@ import { coloreApertura, statoApertura, testoAperturaBreve } from '../orari';
 import IconaCondividi from './IconaCondividi';
 import VisualizzatoreFoto from './VisualizzatoreFoto';
 import IMMAGINI from '../immagini';
+import { immagine } from '../risorse';
+import { personaggi } from '../personaggi';
+import { RigaAudioguida } from './Audioguida';
 import CondividiItinerario from './CondividiItinerario';
 
 /**
@@ -49,6 +52,7 @@ export default function SelettoreItinerari({
   onCondividi,
   apriId,
   onApriLuogo, // (id del luogo, id dell'itinerario): apre la scheda di un luogo censito
+  onApriPersonaggio, // (id del personaggio, id della scheda storica): apre la scheda del personaggio
 }) {
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
@@ -63,9 +67,16 @@ export default function SelettoreItinerari({
   useEffect(() => setCartolinaAperta(false), [apertoId]);
   useEffect(() => {
     if (visibile) {
-      setApertoId(apriId || null); // si riapre dall'elenco, o dal dettaglio chiesto (link di un amico)
-      setTab('itinerari');
-      setPeriodoAperto(null);
+      if (typeof apriId === 'string' && apriId.startsWith('storia:')) {
+        // si torna alla scheda storica da cui si era aperto un monumento o un personaggio
+        setApertoId(null);
+        setTab('storia');
+        setPeriodoAperto(apriId.slice(7));
+      } else {
+        setApertoId(apriId || null); // si riapre dall'elenco, o dal dettaglio chiesto (link di un amico)
+        setTab('itinerari');
+        setPeriodoAperto(null);
+      }
     }
   }, [visibile, apriId]);
   const aperto = itinerari.find((it) => it.id === apertoId) || null;
@@ -157,22 +168,24 @@ export default function SelettoreItinerari({
         periodi.map((p) => {
           const aperta = periodoAperto === p.id;
           const anni = testoLocalizzato(p.anni, lingua);
+          const luoghiP = (p.luoghi || []).map((id) => luoghiPerId[id]).filter(Boolean);
+          const approf = (p.approfondire || []).map((id) => luoghiPerId[id]).filter(Boolean);
+          const persone = (p.personaggi || []).map((id) => personaggi().find((x) => x.id === id)).filter(Boolean);
           return (
-            <Pressable
-              key={p.id}
-              onPress={() => setPeriodoAperto(aperta ? null : p.id)}
-              testID={`storia-${p.id}`}
-              style={({ pressed }) => [styles.periodo, pressed && { backgroundColor: '#eef5fa' }]}
-              accessibilityRole="button"
-              accessibilityState={{ expanded: aperta }}
-            >
-              <View style={styles.periodoTesta}>
+            <View key={p.id} style={styles.periodo}>
+              <Pressable
+                onPress={() => setPeriodoAperto(aperta ? null : p.id)}
+                testID={`storia-${p.id}`}
+                style={({ pressed }) => [styles.periodoTesta, pressed && { opacity: 0.6 }]}
+                accessibilityRole="button"
+                accessibilityState={{ expanded: aperta }}
+              >
                 <View style={{ flex: 1 }}>
                   {anni ? <Text style={styles.periodoAnni}>{anni}</Text> : null}
                   <Text style={styles.periodoTitolo}>{testoLocalizzato(p.titolo, lingua)}</Text>
                 </View>
                 <Text style={styles.freccia}>{aperta ? '⌃' : '⌄'}</Text>
-              </View>
+              </Pressable>
               {aperta
                 ? testoLocalizzato(p.testo, lingua)
                     .split(/\n\s*\n/)
@@ -182,7 +195,50 @@ export default function SelettoreItinerari({
                       </Text>
                     ))
                 : null}
-            </Pressable>
+              {aperta && p.audio ? <RigaAudioguida luogo={{ id: p.audio }} lingua={lingua} t={t} /> : null}
+              {aperta && luoghiP.length ? (
+                <>
+                  <Text style={styles.periodoSezione}>{t('storia_monumenti')}</Text>
+                  {luoghiP.map((l) => (
+                    <RigaStoria
+                      key={l.id}
+                      foto={IMMAGINI.luoghi?.[l.id] !== undefined ? immagine(`luoghi/${l.id}.webp`) : null}
+                      nome={l.nome}
+                      riga={primeFrasi(testoLocalizzato(l.descrizione, lingua))}
+                      onPress={() => onApriLuogo?.(l.id, `storia:${p.id}`)}
+                    />
+                  ))}
+                </>
+              ) : null}
+              {aperta && approf.length ? (
+                <>
+                  <Text style={styles.periodoSezione}>{t('storia_approfondire')}</Text>
+                  {approf.map((l) => (
+                    <RigaStoria
+                      key={l.id}
+                      foto={IMMAGINI.luoghi?.[l.id] !== undefined ? immagine(`luoghi/${l.id}.webp`) : null}
+                      nome={l.nome}
+                      riga={primeFrasi(testoLocalizzato(l.descrizione, lingua))}
+                      onPress={() => onApriLuogo?.(l.id, `storia:${p.id}`)}
+                    />
+                  ))}
+                </>
+              ) : null}
+              {aperta && persone.length ? (
+                <>
+                  <Text style={styles.periodoSezione}>{t('storia_personaggi')}</Text>
+                  {persone.map((x) => (
+                    <RigaStoria
+                      key={x.id}
+                      foto={x.ritratto ? immagine(`personaggi/${x.id}.webp`) : null}
+                      nome={x.nome}
+                      riga={testoLocalizzato(x.professione, lingua)}
+                      onPress={() => onApriPersonaggio?.(x.id, `storia:${p.id}`)}
+                    />
+                  ))}
+                </>
+              ) : null}
+            </View>
           );
         })
       )}
@@ -460,6 +516,31 @@ export default function SelettoreItinerari({
   );
 }
 
+// prime una o due frasi di un testo, al massimo ~170 caratteri
+function primeFrasi(testo) {
+  const frasi = (testo || '').replace(/\s+/g, ' ').trim().match(/[^.!?]+[.!?]+/g) || [testo || ''];
+  let out = frasi[0].trim();
+  if (frasi[1] && (out + ' ' + frasi[1].trim()).length <= 170) out += ' ' + frasi[1].trim();
+  return out;
+}
+
+function RigaStoria({ foto, nome, riga, onPress }) {
+  return (
+    <Pressable onPress={onPress} accessibilityRole="link" style={styles.rigaStoria}>
+      {foto ? <Image source={foto} style={styles.fotoStoria} /> : <View style={[styles.fotoStoria, { backgroundColor: '#e2e8f0' }]} />}
+      <View style={{ flex: 1, minWidth: 0 }}>
+        <Text style={styles.nomeStoria}>{nome}</Text>
+        {riga ? (
+          <Text style={styles.rigaTestoStoria} numberOfLines={2}>
+            {riga}
+          </Text>
+        ) : null}
+      </View>
+      <Text style={styles.freccia}>›</Text>
+    </Pressable>
+  );
+}
+
 const BLU = '#0f3d5e';
 
 const styles = StyleSheet.create({
@@ -488,6 +569,11 @@ const styles = StyleSheet.create({
   periodoTesta: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   periodoAnni: { fontSize: 12, fontWeight: '800', color: '#b45309', textTransform: 'uppercase', letterSpacing: 0.5 },
   periodoTitolo: { fontSize: 17, fontWeight: '800', color: '#0f172a', marginTop: 2 },
+  periodoSezione: { fontSize: 12, fontWeight: '800', color: '#0f3d5e', textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 6 },
+  rigaStoria: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 4 },
+  fotoStoria: { width: 52, height: 52, borderRadius: 8 },
+  nomeStoria: { fontSize: 15, fontWeight: '700', color: '#0f172a' },
+  rigaTestoStoria: { fontSize: 13, color: '#475569', lineHeight: 18 },
   periodoTesto: { fontSize: 15, color: '#334155', lineHeight: 22 },
   passo: { fontSize: 15, fontWeight: '800', color: '#0f172a', marginTop: 8, marginBottom: 8 },
   numeroPasso: { color: '#b45309' },
