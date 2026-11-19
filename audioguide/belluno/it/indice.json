@@ -1,5 +1,5 @@
 {
- "versione": "4119cc5db688",
+ "versione": "3c298e2970e2",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "borgo-piave": {
@@ -123,17 +123,17 @@
    ]
   },
   "storia-00": {
-   "byte": 990188,
-   "secondi": 165,
+   "byte": 961820,
+   "secondi": 160,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-00.mp3",
-     "byte": 990188,
-     "secondi": 165,
-     "sha256": "7e3620653836ef4d22a04ee23beaca397cf000e23ac51afc0e6ba40cc166f072",
-     "testo": "01cd6a5ef5350ddf"
+     "byte": 961820,
+     "secondi": 160,
+     "sha256": "0c80fe23cf14f9e7a5ee35f8f9768d0e2b616ee9ad73685b491dc53cc94a7956",
+     "testo": "1736e2c7582f0b1e"
     }
    ]
   },
@@ -168,17 +168,17 @@
    ]
   },
   "storia-03": {
-   "byte": 673676,
-   "secondi": 112,
+   "byte": 681596,
+   "secondi": 114,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-03.mp3",
-     "byte": 673676,
-     "secondi": 112,
-     "sha256": "355222560788ac33f0d12a0e85e1e351673bd5ad4958c8716dff4a73fe0063aa",
-     "testo": "65cf4b493c643270"
+     "byte": 681596,
+     "secondi": 114,
+     "sha256": "dd2239edf4395acfc48977c44876b1c0950012f4996c5d3ec2c5271f710a8cf0",
+     "testo": "0bc769015bb9fe47"
     }
    ]
   },
