@@ -1,5 +1,5 @@
 {
- "versione": "0579652afb7f",
+ "versione": "32fc5dbc2d08",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -7376,6 +7376,18 @@
    "byte": 270368
   },
   {
+   "path": "assets/personaggi/andrea-vesalio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/andrea-vesalio.webp",
+   "sha256": "301c695a320d2b16045090ed43bb5353fbd3cfa48c6f1498ff538b3e6ae5fb68",
+   "byte": 194364
+  },
+  {
+   "path": "assets/personaggi/concetto-marchesi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/concetto-marchesi.webp",
+   "sha256": "00606a1a839205784ac831f82c5793724c84503ce2b3e57c2e5c2a4ca3414406",
+   "byte": 6494
+  },
+  {
    "path": "assets/personaggi/donatello.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/donatello.webp",
    "sha256": "e26bc6fc6c60a2f442dd58a6b6d4b7471f9010db12d61433f2419f30a41c6aaa",
@@ -7400,6 +7412,12 @@
    "byte": 337394
   },
   {
+   "path": "assets/personaggi/francesco-il-vecchio-da-carrara.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/francesco-il-vecchio-da-carrara.webp",
+   "sha256": "6613b8a3de53c4bf5b8874a0e99c085ac3ec2dca4f300a27260b2ab0b4afa161",
+   "byte": 67402
+  },
+  {
    "path": "assets/personaggi/francesco-petrarca.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/francesco-petrarca.webp",
    "sha256": "80771d1c7b33c4f9df5e7fe5c794ad765716061dd6380e05f84e8b52396dfb8b",
@@ -7416,6 +7434,24 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/giotto-di-bondone.webp",
    "sha256": "d3060f14c76c7a1407d05b03820cb0cc1ff66b2391ec089920069d2298b5ae3e",
    "byte": 453208
+  },
+  {
+   "path": "assets/personaggi/girolamo-fabrici-d-acquapendente.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/girolamo-fabrici-d-acquapendente.webp",
+   "sha256": "f88eeb794d648cd9e44b19245f489d4638eb0e1fec8aee264dc418cb6e727755",
+   "byte": 69040
+  },
+  {
+   "path": "assets/personaggi/giuseppe-jappelli.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/giuseppe-jappelli.webp",
+   "sha256": "4626bc01b09e5a5f380b685163038a2b7d1d7633a7e5230e97b3ee0e51bbde95",
+   "byte": 12882
+  },
+  {
+   "path": "assets/personaggi/pietro-d-abano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/pietro-d-abano.webp",
+   "sha256": "2d62d9b6b73ee6535f8f1fa6f5c413d6c480062f4c14b9f6c365ed6aec2a53fa",
+   "byte": 242594
   },
   {
    "path": "assets/personaggi/sant-antonio-di-padova.webp",
@@ -7510,8 +7546,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/personaggi.json",
-   "sha256": "aa59e644c7a36f8a6fe1996d71d0b37d4c48123e01aa9ac0263bcab196a1c536",
-   "byte": 238774
+   "sha256": "39684bd674a3b8234ff3d1e8ae7d08ffa9cb527f429f11f8c153f7a87ff2e815",
+   "byte": 239473
   },
   {
    "path": "dati/principali.json",
@@ -7591,6 +7627,12 @@
    "da": "4b7be7dd3fbf",
    "data": "2026-11-19",
    "byte": 335184
+  },
+  {
+   "versione": "32fc5dbc2d08",
+   "da": "0579652afb7f",
+   "data": "2026-11-19",
+   "byte": 832249
   }
  ]
 }
