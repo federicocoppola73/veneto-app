@@ -4,6 +4,7 @@
 // - acquistata e scaricata: badge "Acquistata", Apri + cestino; con un aggiornamento anche Aggiorna (e badge "Novità")
 // - acquistata ma non sul telefono (cancellata, o comprata mentre c'era la prova): badge "Acquistata" + Scarica
 import { ActivityIndicator, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { MOSTRA_ACQUISTA } from '../acquisti';
 import {
   IconaAggiorna,
   IconaCarrello,
@@ -91,16 +92,18 @@ export default function SchedaCitta({
                   <Text style={styles.mb}>· {Math.ceil(citta.dimensione_prova_mb)} MB</Text>
                 ) : null}
               </Pressable>
-              <Pressable
-                onPress={onAcquista}
-                style={({ pressed }) => [styles.pulsante, styles.scuro, pressed && styles.premuto]}
-                accessibilityRole="button"
-              >
-                <IconaCarrello colore="#fff" />
-                <Text style={styles.testoScuro} numberOfLines={1}>
-                  {prezzo ? `${t.acquista} ${prezzo}` : t.acquista}
-                </Text>
-              </Pressable>
+              {MOSTRA_ACQUISTA ? (
+                <Pressable
+                  onPress={onAcquista}
+                  style={({ pressed }) => [styles.pulsante, styles.scuro, pressed && styles.premuto]}
+                  accessibilityRole="button"
+                >
+                  <IconaCarrello colore="#fff" />
+                  <Text style={styles.testoScuro} numberOfLines={1}>
+                    {prezzo ? `${t.acquista} ${prezzo}` : t.acquista}
+                  </Text>
+                </Pressable>
+              ) : null}
             </>
           ) : completaInstallata ? (
             <>
