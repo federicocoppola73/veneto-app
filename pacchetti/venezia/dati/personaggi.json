@@ -1807,6 +1807,1638 @@
           }
         }
       ]
+    },
+    {
+      "id": "cassiodoro",
+      "nome": "Flavio Magno Aurelio Cassiodoro",
+      "nascita": 485,
+      "morte": 580,
+      "professione": {
+        "it": "Politico, scrittore e uomo di cultura",
+        "en": "Politician, writer and man of letters",
+        "fr": "Homme politique, écrivain et homme de lettres",
+        "de": "Politiker, Schriftsteller und Gelehrter",
+        "es": "Político, escritor y hombre de cultura"
+      },
+      "luogoNascita": {
+        "it": "Squillace (Calabria)",
+        "en": "Squillace (Calabria)",
+        "fr": "Squillace (Calabre)",
+        "de": "Squillace (Kalabrien)",
+        "es": "Squillace (Calabria)"
+      },
+      "dataNascita": {
+        "it": "circa 485-490",
+        "en": "c. 485–490",
+        "fr": "vers 485-490",
+        "de": "um 485–490",
+        "es": "hacia 485-490"
+      },
+      "luogoMorte": {
+        "it": "Vivarium, presso Squillace",
+        "en": "Vivarium, near Squillace",
+        "fr": "Vivarium, près de Squillace",
+        "de": "Vivarium bei Squillace",
+        "es": "Vivarium, cerca de Squillace"
+      },
+      "dataMorte": {
+        "it": "circa 580",
+        "en": "c. 580",
+        "fr": "vers 580",
+        "de": "um 580",
+        "es": "hacia 580"
+      },
+      "biografia": {
+        "it": "Cassiodoro fu un politico, scrittore e uomo di cultura romano, protagonista della vita amministrativa del Regno ostrogoto. Servì Teodorico e i suoi successori, ricoprendo incarichi di grande responsabilità, tra cui quello di console nel 514 e di magister officiorum, una delle più importanti cariche della corte. La sua attività politica fu accompagnata da un'intensa produzione letteraria. Dopo aver lasciato la vita pubblica, si ritirò nei possedimenti familiari in Calabria, dove fondò il monastero di Vivarium, destinato allo studio, alla conservazione e alla trascrizione dei testi antichi. La sua opera contribuì alla trasmissione della cultura classica durante l'alto Medioevo.",
+        "en": "Cassiodorus was a Roman politician, writer and man of learning, a leading figure in the administration of the Ostrogothic Kingdom. He served Theodoric and his successors, holding posts of great responsibility, including consul in 514 and magister officiorum, one of the most important offices at court. His political career went hand in hand with an intense literary output. After leaving public life he withdrew to the family estates in Calabria, where he founded the monastery of Vivarium, devoted to the study, preservation and copying of ancient texts. His work helped transmit classical culture through the early Middle Ages.",
+        "fr": "Cassiodore fut un homme politique, écrivain et homme de culture romain, acteur majeur de la vie administrative du royaume ostrogoth. Il servit Théodoric et ses successeurs, exerçant des charges de grande responsabilité, dont celle de consul en 514 et de magister officiorum, l'une des plus importantes de la cour. Son activité politique s'accompagna d'une intense production littéraire. Après avoir quitté la vie publique, il se retira sur les domaines familiaux de Calabre, où il fonda le monastère de Vivarium, destiné à l'étude, à la conservation et à la copie des textes anciens. Son œuvre contribua à la transmission de la culture classique pendant le haut Moyen Âge.",
+        "de": "Cassiodor war ein römischer Politiker, Schriftsteller und Gelehrter und eine zentrale Gestalt der Verwaltung des Ostgotenreichs. Er diente Theoderich und dessen Nachfolgern und bekleidete Ämter von großer Verantwortung, darunter 514 das des Konsuls sowie das des magister officiorum, eines der wichtigsten Ämter am Hof. Seine politische Tätigkeit ging mit einem umfangreichen literarischen Schaffen einher. Nach dem Rückzug aus dem öffentlichen Leben zog er sich auf die Familiengüter in Kalabrien zurück, wo er das Kloster Vivarium gründete, das dem Studium, der Bewahrung und der Abschrift antiker Texte gewidmet war. Sein Werk trug dazu bei, die klassische Kultur durch das frühe Mittelalter zu überliefern.",
+        "es": "Casiodoro fue un político, escritor y hombre de cultura romano, protagonista de la vida administrativa del reino ostrogodo. Sirvió a Teodorico y a sus sucesores y ocupó cargos de gran responsabilidad, entre ellos el de cónsul en el año 514 y el de magister officiorum, uno de los más importantes de la corte. Su actividad política fue acompañada de una intensa producción literaria. Tras abandonar la vida pública, se retiró a las propiedades familiares de Calabria, donde fundó el monasterio de Vivarium, destinado al estudio, la conservación y la transcripción de textos antiguos. Su obra contribuyó a transmitir la cultura clásica durante la alta Edad Media."
+      },
+      "curiosita": {
+        "it": [
+          "Nelle Variae, raccolta di lettere e documenti della sua attività politica, è conservata una descrizione delle comunità lagunari del VI secolo, caratterizzate dalla pesca, dalla navigazione e da insediamenti costruiti in un ambiente dominato dall'acqua.",
+          "Nel monastero di Vivarium promosse la copiatura e la conservazione dei manoscritti, attribuendo un'importanza particolare al lavoro intellettuale dei monaci.",
+          "È considerato uno dei principali protagonisti della continuità culturale tra il mondo romano e quello medievale."
+        ],
+        "en": [
+          "In the Variae, a collection of letters and documents from his political career, a description survives of the lagoon communities of the sixth century, marked by fishing, navigation and settlements built in an environment dominated by water.",
+          "At the monastery of Vivarium he promoted the copying and preservation of manuscripts, giving particular importance to the intellectual work of the monks.",
+          "He is regarded as one of the leading figures in the cultural continuity between the Roman and the medieval worlds."
+        ],
+        "fr": [
+          "Dans les Variae, recueil de lettres et de documents de son activité politique, est conservée une description des communautés lagunaires du VIe siècle, caractérisées par la pêche, la navigation et des habitats construits dans un milieu dominé par l'eau.",
+          "Au monastère de Vivarium, il encouragea la copie et la conservation des manuscrits, accordant une importance particulière au travail intellectuel des moines.",
+          "Il est considéré comme l'un des principaux acteurs de la continuité culturelle entre le monde romain et le monde médiéval."
+        ],
+        "de": [
+          "In den Variae, einer Sammlung von Briefen und Dokumenten aus seiner politischen Tätigkeit, ist eine Beschreibung der Lagunengemeinschaften des 6. Jahrhunderts erhalten, die von Fischerei, Schifffahrt und Siedlungen in einer vom Wasser beherrschten Umgebung geprägt waren.",
+          "Im Kloster Vivarium förderte er das Abschreiben und die Bewahrung von Handschriften und maß der geistigen Arbeit der Mönche besondere Bedeutung bei.",
+          "Er gilt als einer der wichtigsten Vermittler der kulturellen Kontinuität zwischen der römischen und der mittelalterlichen Welt."
+        ],
+        "es": [
+          "En las Variae, colección de cartas y documentos de su actividad política, se conserva una descripción de las comunidades lagunares del siglo VI, caracterizadas por la pesca, la navegación y asentamientos construidos en un entorno dominado por el agua.",
+          "En el monasterio de Vivarium promovió la copia y la conservación de manuscritos, atribuyendo una importancia especial al trabajo intelectual de los monjes.",
+          "Se le considera uno de los principales protagonistas de la continuidad cultural entre el mundo romano y el medieval."
+        ]
+      },
+      "luoghi": [
+        "torcello",
+        "museo-torcello"
+      ],
+      "ritratto": {
+        "autore": "Michel Wolgemut, Wilhelm Pleydenwurff (testo di Hartmann Schedel)",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "torcello": {
+          "tipo": {
+            "it": "Le prime comunità lagunari",
+            "en": "The first lagoon communities",
+            "fr": "Les premières communautés lagunaires",
+            "de": "Die ersten Lagunengemeinschaften",
+            "es": "Las primeras comunidades lagunares"
+          },
+          "testo": {
+            "it": "Per il collegamento con le prime comunità della laguna descritte nelle sue lettere.",
+            "en": "For its link with the first lagoon communities described in his letters.",
+            "fr": "Pour le lien avec les premières communautés de la lagune décrites dans ses lettres.",
+            "de": "Wegen des Bezugs zu den ersten Gemeinschaften der Lagune, die in seinen Briefen beschrieben werden.",
+            "es": "Por su vínculo con las primeras comunidades de la laguna descritas en sus cartas."
+          }
+        },
+        "museo-torcello": {
+          "tipo": {
+            "it": "Storia della laguna",
+            "en": "History of the lagoon",
+            "fr": "Histoire de la lagune",
+            "de": "Geschichte der Lagune",
+            "es": "Historia de la laguna"
+          },
+          "testo": {
+            "it": "Per approfondire la storia e la cultura delle popolazioni lagunari altomedievali.",
+            "en": "To learn more about the history and culture of the early medieval lagoon peoples.",
+            "fr": "Pour approfondir l'histoire et la culture des populations lagunaires du haut Moyen Âge.",
+            "de": "Um mehr über Geschichte und Kultur der frühmittelalterlichen Lagunenbevölkerung zu erfahren.",
+            "es": "Para profundizar en la historia y la cultura de las poblaciones lagunares de la alta Edad Media."
+          }
+        }
+      }
+    },
+    {
+      "id": "enrico-dandolo",
+      "nome": "Enrico Dandolo",
+      "nascita": 1107,
+      "morte": 1205,
+      "professione": {
+        "it": "Doge di Venezia",
+        "en": "Doge of Venice",
+        "fr": "Doge de Venise",
+        "de": "Doge von Venedig",
+        "es": "Dux de Venecia"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "circa 1107",
+        "en": "c. 1107",
+        "fr": "vers 1107",
+        "de": "um 1107",
+        "es": "hacia 1107"
+      },
+      "luogoMorte": {
+        "it": "Costantinopoli",
+        "en": "Constantinople",
+        "fr": "Constantinople",
+        "de": "Konstantinopel",
+        "es": "Constantinopla"
+      },
+      "dataMorte": {
+        "it": "1205",
+        "en": "1205",
+        "fr": "1205",
+        "de": "1205",
+        "es": "1205"
+      },
+      "biografia": {
+        "it": "Enrico Dandolo fu doge della Repubblica di Venezia dal 1192 al 1205 e uno dei protagonisti della sua espansione politica e commerciale nel Mediterraneo. Prima dell'elezione aveva svolto importanti incarichi diplomatici, tra cui quello di ambasciatore presso l'imperatore bizantino Manuele I Comneno. Durante il suo dogado rafforzò la posizione veneziana nei confronti delle altre potenze marittime e guidò la Repubblica nella quarta crociata. La spedizione, partita nel 1202 con l'obiettivo di raggiungere la Terrasanta, fu prima diretta contro Zara e successivamente contro Costantinopoli, conquistata nel 1204 dalle forze veneziane e crociate. La caduta della capitale bizantina assicurò a Venezia importanti privilegi commerciali e territori nell'Oriente mediterraneo.",
+        "en": "Enrico Dandolo was doge of the Republic of Venice from 1192 to 1205 and one of the key figures in its political and commercial expansion in the Mediterranean. Before his election he had carried out important diplomatic missions, including serving as ambassador to the Byzantine emperor Manuel I Komnenos. During his dogeship he strengthened Venice's position against the other maritime powers and led the Republic in the Fourth Crusade. The expedition, which set out in 1202 with the aim of reaching the Holy Land, was first directed against Zara and then against Constantinople, conquered in 1204 by Venetian and crusader forces. The fall of the Byzantine capital gave Venice important commercial privileges and territories in the eastern Mediterranean.",
+        "fr": "Enrico Dandolo fut doge de la République de Venise de 1192 à 1205 et l'un des protagonistes de son expansion politique et commerciale en Méditerranée. Avant son élection, il avait exercé d'importantes missions diplomatiques, notamment celle d'ambassadeur auprès de l'empereur byzantin Manuel Ier Comnène. Pendant son dogat, il renforça la position de Venise face aux autres puissances maritimes et conduisit la République dans la quatrième croisade. L'expédition, partie en 1202 avec pour objectif d'atteindre la Terre sainte, fut d'abord dirigée contre Zara, puis contre Constantinople, conquise en 1204 par les forces vénitiennes et croisées. La chute de la capitale byzantine assura à Venise d'importants privilèges commerciaux et des territoires en Orient méditerranéen.",
+        "de": "Enrico Dandolo war von 1192 bis 1205 Doge der Republik Venedig und eine der Schlüsselfiguren ihrer politischen und wirtschaftlichen Expansion im Mittelmeer. Vor seiner Wahl hatte er wichtige diplomatische Aufgaben übernommen, unter anderem als Gesandter beim byzantinischen Kaiser Manuel I. Komnenos. Während seiner Amtszeit stärkte er die Stellung Venedigs gegenüber den anderen Seemächten und führte die Republik in den Vierten Kreuzzug. Die 1202 aufgebrochene Expedition, die das Heilige Land erreichen sollte, richtete sich zunächst gegen Zara und anschließend gegen Konstantinopel, das 1204 von venezianischen und Kreuzfahrertruppen erobert wurde. Der Fall der byzantinischen Hauptstadt sicherte Venedig bedeutende Handelsprivilegien und Gebiete im östlichen Mittelmeerraum.",
+        "es": "Enrico Dandolo fue dux de la República de Venecia de 1192 a 1205 y uno de los protagonistas de su expansión política y comercial en el Mediterráneo. Antes de su elección había desempeñado importantes misiones diplomáticas, entre ellas la de embajador ante el emperador bizantino Manuel I Comneno. Durante su dogado reforzó la posición veneciana frente a las demás potencias marítimas y condujo a la República en la cuarta cruzada. La expedición, que partió en 1202 con el objetivo de llegar a Tierra Santa, se dirigió primero contra Zara y después contra Constantinopla, conquistada en 1204 por las fuerzas venecianas y cruzadas. La caída de la capital bizantina aseguró a Venecia importantes privilegios comerciales y territorios en el Oriente mediterráneo."
+      },
+      "curiosita": {
+        "it": [
+          "Quando fu eletto doge, nel 1192, era già molto anziano e cieco. Secondo Treccani aveva circa ottantacinque anni.",
+          "Fu il primo doge a impegnarsi formalmente, attraverso la promissione ducale, a rispettare limiti e consuetudini nell'esercizio del proprio potere.",
+          "Dopo la conquista di Costantinopoli gli fu attribuito il titolo di signore di una quarta parte e mezza dell'Impero romano.",
+          "Morì a Costantinopoli nel 1205 e fu sepolto nella basilica di Santa Sofia. La tomba tradizionalmente attribuitagli non è oggi conservata."
+        ],
+        "en": [
+          "When he was elected doge in 1192 he was already very old and blind. According to Treccani he was about eighty-five.",
+          "He was the first doge to commit formally, through the promissione ducale, to respecting limits and customs in the exercise of his power.",
+          "After the conquest of Constantinople he was given the title of lord of a quarter and a half of the Roman Empire.",
+          "He died in Constantinople in 1205 and was buried in the basilica of Hagia Sophia. The tomb traditionally attributed to him no longer survives."
+        ],
+        "fr": [
+          "Quand il fut élu doge, en 1192, il était déjà très âgé et aveugle. Selon Treccani, il avait environ quatre-vingt-cinq ans.",
+          "Il fut le premier doge à s'engager formellement, par la promissione ducale, à respecter des limites et des usages dans l'exercice de son pouvoir.",
+          "Après la conquête de Constantinople, on lui attribua le titre de seigneur d'un quart et demi de l'Empire romain.",
+          "Il mourut à Constantinople en 1205 et fut enterré dans la basilique Sainte-Sophie. La tombe qui lui est traditionnellement attribuée n'est plus conservée aujourd'hui."
+        ],
+        "de": [
+          "Als er 1192 zum Dogen gewählt wurde, war er bereits sehr alt und blind. Laut Treccani war er etwa fünfundachtzig Jahre alt.",
+          "Er war der erste Doge, der sich durch die promissione ducale förmlich verpflichtete, bei der Ausübung seiner Macht Grenzen und Gepflogenheiten zu respektieren.",
+          "Nach der Eroberung Konstantinopels erhielt er den Titel eines Herrn über ein Viertel und ein halbes des Römischen Reiches.",
+          "Er starb 1205 in Konstantinopel und wurde in der Hagia Sophia beigesetzt. Das ihm traditionell zugeschriebene Grab ist heute nicht mehr erhalten."
+        ],
+        "es": [
+          "Cuando fue elegido dux, en 1192, ya era muy anciano y ciego. Según Treccani tenía unos ochenta y cinco años.",
+          "Fue el primer dux que se comprometió formalmente, mediante la promissione ducale, a respetar límites y costumbres en el ejercicio de su poder.",
+          "Tras la conquista de Constantinopla se le atribuyó el título de señor de un cuarto y medio del Imperio romano.",
+          "Murió en Constantinopla en 1205 y fue sepultado en la basílica de Santa Sofía. La tumba que tradicionalmente se le atribuye no se conserva hoy."
+        ]
+      },
+      "luoghi": [
+        "palazzo-ducale",
+        "basilica-san-marco",
+        "arsenale"
+      ],
+      "ritratto": {
+        "autore": "Antonio Nani",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "luoghiNote": {
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Sede del governo",
+            "en": "Seat of government",
+            "fr": "Siège du gouvernement",
+            "de": "Regierungssitz",
+            "es": "Sede del gobierno"
+          },
+          "testo": {
+            "it": "Sede del governo veneziano durante il suo dogado.",
+            "en": "Seat of the Venetian government during his dogeship.",
+            "fr": "Siège du gouvernement vénitien pendant son dogat.",
+            "de": "Sitz der venezianischen Regierung während seiner Amtszeit.",
+            "es": "Sede del gobierno veneciano durante su dogado."
+          }
+        },
+        "basilica-san-marco": {
+          "tipo": {
+            "it": "Il legame con l'Oriente",
+            "en": "The link with the East",
+            "fr": "Le lien avec l'Orient",
+            "de": "Die Verbindung zum Orient",
+            "es": "El vínculo con Oriente"
+          },
+          "testo": {
+            "it": "Simbolo del rapporto tra la Repubblica e l'Oriente bizantino.",
+            "en": "A symbol of the relationship between the Republic and the Byzantine East.",
+            "fr": "Symbole du rapport entre la République et l'Orient byzantin.",
+            "de": "Symbol der Beziehung zwischen der Republik und dem byzantinischen Orient.",
+            "es": "Símbolo de la relación entre la República y el Oriente bizantino."
+          }
+        },
+        "arsenale": {
+          "tipo": {
+            "it": "La potenza navale",
+            "en": "Naval power",
+            "fr": "La puissance navale",
+            "de": "Die Seemacht",
+            "es": "El poder naval"
+          },
+          "testo": {
+            "it": "Per il legame con la potenza navale veneziana e con le grandi spedizioni mediterranee.",
+            "en": "For its link with Venetian naval power and the great Mediterranean expeditions.",
+            "fr": "Pour le lien avec la puissance navale vénitienne et les grandes expéditions méditerranéennes.",
+            "de": "Wegen des Bezugs zur venezianischen Seemacht und zu den großen Mittelmeerexpeditionen.",
+            "es": "Por su vínculo con el poder naval veneciano y con las grandes expediciones mediterráneas."
+          }
+        }
+      }
+    },
+    {
+      "id": "francesco-foscari",
+      "nome": "Francesco Foscari",
+      "nascita": 1373,
+      "morte": 1457,
+      "professione": {
+        "it": "Doge di Venezia",
+        "en": "Doge of Venice",
+        "fr": "Doge de Venise",
+        "de": "Doge von Venedig",
+        "es": "Dux de Venecia"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "1373",
+        "en": "1373",
+        "fr": "1373",
+        "de": "1373",
+        "es": "1373"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "1457",
+        "en": "1457",
+        "fr": "1457",
+        "de": "1457",
+        "es": "1457"
+      },
+      "biografia": {
+        "it": "Francesco Foscari fu doge di Venezia dal 1423 al 1457. Il suo lungo governo coincise con una fase di grande espansione della Repubblica sulla terraferma, quando Venezia estese progressivamente il proprio dominio verso le città del Veneto e della Lombardia. Questa politica portò a lunghi conflitti con il Ducato di Milano e modificò profondamente il ruolo della Repubblica, sempre più impegnata anche negli equilibri politici dell'Italia settentrionale. Il dogado di Foscari fu uno dei più lunghi della storia veneziana e rappresentò un momento importante per l'affermazione di Venezia come potenza territoriale.",
+        "en": "Francesco Foscari was doge of Venice from 1423 to 1457. His long rule coincided with a phase of great expansion of the Republic on the mainland, when Venice gradually extended its dominion towards the cities of the Veneto and Lombardy. This policy led to long conflicts with the Duchy of Milan and profoundly changed the role of the Republic, increasingly involved in the political balance of northern Italy. Foscari's dogeship was one of the longest in Venetian history and marked an important moment in Venice's rise as a territorial power.",
+        "fr": "Francesco Foscari fut doge de Venise de 1423 à 1457. Son long gouvernement coïncida avec une phase de grande expansion de la République sur la terre ferme, quand Venise étendit progressivement sa domination vers les villes de la Vénétie et de la Lombardie. Cette politique entraîna de longs conflits avec le duché de Milan et modifia profondément le rôle de la République, de plus en plus engagée aussi dans les équilibres politiques de l'Italie du Nord. Le dogat de Foscari fut l'un des plus longs de l'histoire vénitienne et marqua un moment important dans l'affirmation de Venise comme puissance territoriale.",
+        "de": "Francesco Foscari war von 1423 bis 1457 Doge von Venedig. Seine lange Regierungszeit fiel in eine Phase großer Expansion der Republik auf dem Festland, in der Venedig sein Herrschaftsgebiet schrittweise auf die Städte Venetiens und der Lombardei ausdehnte. Diese Politik führte zu langen Konflikten mit dem Herzogtum Mailand und veränderte die Rolle der Republik tiefgreifend, die zunehmend auch in das politische Gleichgewicht Norditaliens eingebunden war. Foscaris Amtszeit war eine der längsten der venezianischen Geschichte und ein wichtiger Moment für den Aufstieg Venedigs zur Territorialmacht.",
+        "es": "Francesco Foscari fue dux de Venecia de 1423 a 1457. Su largo gobierno coincidió con una fase de gran expansión de la República en tierra firme, cuando Venecia extendió progresivamente su dominio hacia las ciudades del Véneto y de Lombardía. Esta política provocó largos conflictos con el Ducado de Milán y modificó profundamente el papel de la República, cada vez más implicada también en los equilibrios políticos del norte de Italia. El dogado de Foscari fue uno de los más largos de la historia veneciana y representó un momento importante para la afirmación de Venecia como potencia territorial."
+      },
+      "curiosita": {
+        "it": [
+          "Fu eletto doge nel 1423 e rimase in carica per oltre trentaquattro anni.",
+          "La sua famiglia fu coinvolta in una vicenda giudiziaria particolarmente dolorosa: il figlio Jacopo Foscari venne processato e condannato più volte, fino all'allontanamento da Venezia.",
+          "Nel 1457 il Consiglio dei Dieci lo costrinse ad abdicare. Morì pochi giorni dopo.",
+          "La sua vicenda ispirò il dramma I due Foscari di Lord Byron e l'omonima opera di Giuseppe Verdi."
+        ],
+        "en": [
+          "He was elected doge in 1423 and remained in office for more than thirty-four years.",
+          "His family was caught up in a particularly painful legal case: his son Jacopo Foscari was tried and convicted several times, until he was banished from Venice.",
+          "In 1457 the Council of Ten forced him to abdicate. He died a few days later.",
+          "His story inspired Lord Byron's play The Two Foscari and Giuseppe Verdi's opera of the same name."
+        ],
+        "fr": [
+          "Il fut élu doge en 1423 et resta en fonction pendant plus de trente-quatre ans.",
+          "Sa famille fut impliquée dans une affaire judiciaire particulièrement douloureuse : son fils Jacopo Foscari fut jugé et condamné à plusieurs reprises, jusqu'à son éloignement de Venise.",
+          "En 1457, le Conseil des Dix le contraignit à abdiquer. Il mourut quelques jours plus tard.",
+          "Son histoire a inspiré le drame Les Deux Foscari de Lord Byron et l'opéra du même nom de Giuseppe Verdi."
+        ],
+        "de": [
+          "Er wurde 1423 zum Dogen gewählt und blieb über vierunddreißig Jahre im Amt.",
+          "Seine Familie war in einen besonders schmerzhaften Prozess verwickelt: Sein Sohn Jacopo Foscari wurde mehrfach angeklagt und verurteilt, bis er schließlich aus Venedig verbannt wurde.",
+          "1457 zwang ihn der Rat der Zehn zur Abdankung. Er starb wenige Tage später.",
+          "Seine Geschichte inspirierte Lord Byrons Drama Die beiden Foscari und die gleichnamige Oper von Giuseppe Verdi."
+        ],
+        "es": [
+          "Fue elegido dux en 1423 y permaneció en el cargo más de treinta y cuatro años.",
+          "Su familia se vio envuelta en un caso judicial especialmente doloroso: su hijo Jacopo Foscari fue juzgado y condenado varias veces, hasta ser alejado de Venecia.",
+          "En 1457 el Consejo de los Diez lo obligó a abdicar. Murió pocos días después.",
+          "Su historia inspiró el drama Los dos Foscari de Lord Byron y la ópera homónima de Giuseppe Verdi."
+        ]
+      },
+      "luoghi": [
+        "palazzo-ducale",
+        "ca-foscari",
+        "frari"
+      ],
+      "ritratto": {
+        "autore": "Didier Descouens (foto del dipinto di Lazzaro Bastiani, Museo Correr)",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "luoghiNote": {
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Sede del governo",
+            "en": "Seat of government",
+            "fr": "Siège du gouvernement",
+            "de": "Regierungssitz",
+            "es": "Sede del gobierno"
+          },
+          "testo": {
+            "it": "Sede del governo durante il suo dogado e luogo legato alla sua abdicazione.",
+            "en": "Seat of government during his dogeship and the place linked to his abdication.",
+            "fr": "Siège du gouvernement pendant son dogat et lieu lié à son abdication.",
+            "de": "Regierungssitz während seiner Amtszeit und Ort seiner Abdankung.",
+            "es": "Sede del gobierno durante su dogado y lugar ligado a su abdicación."
+          }
+        },
+        "ca-foscari": {
+          "tipo": {
+            "it": "Il palazzo di famiglia",
+            "en": "The family palace",
+            "fr": "Le palais de famille",
+            "de": "Der Familienpalast",
+            "es": "El palacio familiar"
+          },
+          "testo": {
+            "it": "Il palazzo sul Canal Grande costruito per la famiglia Foscari nel Quattrocento.",
+            "en": "The palace on the Grand Canal built for the Foscari family in the fifteenth century.",
+            "fr": "Le palais sur le Grand Canal construit pour la famille Foscari au XVe siècle.",
+            "de": "Der Palast am Canal Grande, der im 15. Jahrhundert für die Familie Foscari erbaut wurde.",
+            "es": "El palacio del Gran Canal construido para la familia Foscari en el siglo XV."
+          }
+        },
+        "frari": {
+          "tipo": {
+            "it": "Il monumento funebre",
+            "en": "The funeral monument",
+            "fr": "Le monument funéraire",
+            "de": "Das Grabmal",
+            "es": "El monumento funerario"
+          },
+          "testo": {
+            "it": "Qui si trova il monumento funebre della famiglia.",
+            "en": "The family's funeral monument is here.",
+            "fr": "C'est ici que se trouve le monument funéraire de la famille.",
+            "de": "Hier befindet sich das Grabmal der Familie.",
+            "es": "Aquí se encuentra el monumento funerario de la familia."
+          }
+        }
+      }
+    },
+    {
+      "id": "jacopo-sansovino",
+      "nome": "Jacopo Tatti, detto Sansovino",
+      "nascita": 1486,
+      "morte": 1570,
+      "professione": {
+        "it": "Architetto e scultore",
+        "en": "Architect and sculptor",
+        "fr": "Architecte et sculpteur",
+        "de": "Architekt und Bildhauer",
+        "es": "Arquitecto y escultor"
+      },
+      "luogoNascita": {
+        "it": "Firenze",
+        "en": "Florence",
+        "fr": "Florence",
+        "de": "Florenz",
+        "es": "Florencia"
+      },
+      "dataNascita": {
+        "it": "2 luglio 1486",
+        "en": "2 July 1486",
+        "fr": "2 juillet 1486",
+        "de": "2. Juli 1486",
+        "es": "2 de julio de 1486"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "27 settembre 1570",
+        "en": "27 September 1570",
+        "fr": "27 septembre 1570",
+        "de": "27. September 1570",
+        "es": "27 de septiembre de 1570"
+      },
+      "biografia": {
+        "it": "Jacopo Sansovino fu architetto e scultore tra i maggiori protagonisti del Rinascimento italiano. Dopo la formazione a Firenze e gli anni trascorsi a Roma, si trasferì a Venezia nel 1527, in seguito al Sacco di Roma. Qui divenne uno dei principali responsabili dei cantieri pubblici della Repubblica, ricoprendo l'incarico di proto della basilica di San Marco. Il suo lavoro contribuì a trasformare l'area di Piazza San Marco in uno dei più importanti complessi monumentali del Rinascimento. Le sue architetture introdussero a Venezia un linguaggio classico, caratterizzato da proporzioni monumentali, colonne, archi e ricche decorazioni scultoree.",
+        "en": "Jacopo Sansovino was an architect and sculptor, among the leading figures of the Italian Renaissance. After training in Florence and years spent in Rome, he moved to Venice in 1527, following the Sack of Rome. There he became one of the main figures in charge of the Republic's public building works, holding the post of proto of St Mark's Basilica. His work helped turn the area of Piazza San Marco into one of the most important monumental complexes of the Renaissance. His buildings introduced a classical language to Venice, marked by monumental proportions, columns, arches and rich sculptural decoration.",
+        "fr": "Jacopo Sansovino fut architecte et sculpteur, l'un des plus grands protagonistes de la Renaissance italienne. Après sa formation à Florence et des années passées à Rome, il s'installa à Venise en 1527, à la suite du sac de Rome. Il y devint l'un des principaux responsables des chantiers publics de la République, exerçant la charge de proto de la basilique Saint-Marc. Son travail contribua à transformer le quartier de la place Saint-Marc en l'un des plus importants ensembles monumentaux de la Renaissance. Ses architectures introduisirent à Venise un langage classique, caractérisé par des proportions monumentales, des colonnes, des arcs et de riches décors sculptés.",
+        "de": "Jacopo Sansovino war Architekt und Bildhauer und gehört zu den bedeutendsten Gestalten der italienischen Renaissance. Nach seiner Ausbildung in Florenz und Jahren in Rom zog er 1527 nach dem Sacco di Roma nach Venedig. Hier wurde er zu einem der wichtigsten Verantwortlichen für die öffentlichen Bauvorhaben der Republik und übernahm das Amt des proto der Markusbasilika. Seine Arbeit trug dazu bei, den Bereich der Piazza San Marco zu einem der bedeutendsten monumentalen Ensembles der Renaissance zu machen. Seine Bauten führten in Venedig eine klassische Formensprache ein, geprägt von monumentalen Proportionen, Säulen, Bögen und reichem Skulpturenschmuck.",
+        "es": "Jacopo Sansovino fue arquitecto y escultor, uno de los grandes protagonistas del Renacimiento italiano. Tras formarse en Florencia y pasar años en Roma, se trasladó a Venecia en 1527, después del Saqueo de Roma. Allí se convirtió en uno de los principales responsables de las obras públicas de la República, ocupando el cargo de proto de la basílica de San Marcos. Su trabajo contribuyó a transformar la zona de la plaza de San Marcos en uno de los conjuntos monumentales más importantes del Renacimiento. Sus arquitecturas introdujeron en Venecia un lenguaje clásico, caracterizado por proporciones monumentales, columnas, arcos y ricas decoraciones escultóricas."
+      },
+      "curiosita": {
+        "it": [
+          "Il soprannome Sansovino deriva dal nome del suo maestro Andrea Contucci, detto appunto il Sansovino.",
+          "Fu amico di importanti intellettuali e artisti del suo tempo, tra cui Tiziano e Pietro Aretino.",
+          "La Libreria Marciana e la Loggetta del Campanile sono tra le sue opere veneziane più rappresentative.",
+          "La sua attività contribuì a definire l'immagine monumentale di Piazza San Marco che ancora oggi caratterizza il centro storico."
+        ],
+        "en": [
+          "The nickname Sansovino comes from the name of his teacher Andrea Contucci, known precisely as il Sansovino.",
+          "He was a friend of leading intellectuals and artists of his time, including Titian and Pietro Aretino.",
+          "The Libreria Marciana and the Loggetta of the Campanile are among his most representative works in Venice.",
+          "His work helped define the monumental image of Piazza San Marco that still characterises the historic centre today."
+        ],
+        "fr": [
+          "Le surnom de Sansovino vient du nom de son maître Andrea Contucci, justement appelé il Sansovino.",
+          "Il fut l'ami d'importants intellectuels et artistes de son temps, dont le Titien et Pietro Aretino.",
+          "La Libreria Marciana et la Loggetta du Campanile comptent parmi ses œuvres vénitiennes les plus représentatives.",
+          "Son activité contribua à définir l'image monumentale de la place Saint-Marc qui caractérise encore aujourd'hui le centre historique."
+        ],
+        "de": [
+          "Der Beiname Sansovino stammt vom Namen seines Lehrers Andrea Contucci, der eben il Sansovino genannt wurde.",
+          "Er war mit bedeutenden Intellektuellen und Künstlern seiner Zeit befreundet, darunter Tizian und Pietro Aretino.",
+          "Die Libreria Marciana und die Loggetta des Campanile gehören zu seinen repräsentativsten Werken in Venedig.",
+          "Seine Tätigkeit trug dazu bei, das monumentale Erscheinungsbild der Piazza San Marco zu prägen, das noch heute die Altstadt kennzeichnet."
+        ],
+        "es": [
+          "El sobrenombre Sansovino procede del nombre de su maestro Andrea Contucci, llamado precisamente il Sansovino.",
+          "Fue amigo de importantes intelectuales y artistas de su tiempo, entre ellos Tiziano y Pietro Aretino.",
+          "La Libreria Marciana y la Loggetta del Campanile están entre sus obras venecianas más representativas.",
+          "Su actividad contribuyó a definir la imagen monumental de la plaza de San Marcos que aún hoy caracteriza el centro histórico."
+        ]
+      },
+      "luoghi": [
+        "libreria-marciana",
+        "campanile-san-marco",
+        "piazza-san-marco",
+        "basilica-san-marco"
+      ],
+      "ritratto": {
+        "autore": "Jacopo Tintoretto",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "libreria-marciana": {
+          "tipo": {
+            "it": "Il suo capolavoro",
+            "en": "His masterpiece",
+            "fr": "Son chef-d'œuvre",
+            "de": "Sein Meisterwerk",
+            "es": "Su obra maestra"
+          },
+          "testo": {
+            "it": "Uno dei suoi capolavori architettonici.",
+            "en": "One of his architectural masterpieces.",
+            "fr": "L'un de ses chefs-d'œuvre architecturaux.",
+            "de": "Eines seiner architektonischen Meisterwerke.",
+            "es": "Una de sus obras maestras de la arquitectura."
+          }
+        },
+        "campanile-san-marco": {
+          "tipo": {
+            "it": "La Loggetta",
+            "en": "The Loggetta",
+            "fr": "La Loggetta",
+            "de": "Die Loggetta",
+            "es": "La Loggetta"
+          },
+          "testo": {
+            "it": "La Loggetta fu profondamente trasformata dai suoi interventi.",
+            "en": "The Loggetta was profoundly transformed by his work.",
+            "fr": "La Loggetta fut profondément transformée par ses interventions.",
+            "de": "Die Loggetta wurde durch seine Eingriffe tiefgreifend umgestaltet.",
+            "es": "La Loggetta fue profundamente transformada por sus intervenciones."
+          }
+        },
+        "piazza-san-marco": {
+          "tipo": {
+            "it": "La Piazzetta",
+            "en": "The Piazzetta",
+            "fr": "La Piazzetta",
+            "de": "Die Piazzetta",
+            "es": "La Piazzetta"
+          },
+          "testo": {
+            "it": "Piazzetta San Marco da lui progettata e decorata con diverse sculture.",
+            "en": "Piazzetta San Marco, designed by him and decorated with several sculptures.",
+            "fr": "La Piazzetta Saint-Marc, conçue par lui et décorée de plusieurs sculptures.",
+            "de": "Die Piazzetta San Marco, von ihm entworfen und mit mehreren Skulpturen geschmückt.",
+            "es": "La Piazzetta de San Marcos, proyectada por él y decorada con varias esculturas."
+          }
+        },
+        "basilica-san-marco": {
+          "tipo": {
+            "it": "Il proto",
+            "en": "The proto",
+            "fr": "Le proto",
+            "de": "Der Proto",
+            "es": "El proto"
+          },
+          "testo": {
+            "it": "Qui lavorò come proto, coordinando gli interventi architettonici.",
+            "en": "He worked here as proto, coordinating the architectural works.",
+            "fr": "Il y travailla comme proto, en coordonnant les interventions architecturales.",
+            "de": "Hier arbeitete er als proto und koordinierte die architektonischen Eingriffe.",
+            "es": "Aquí trabajó como proto, coordinando las intervenciones arquitectónicas."
+          }
+        }
+      }
+    },
+    {
+      "id": "andrea-palladio",
+      "nome": "Andrea di Pietro della Gondola, detto Andrea Palladio",
+      "nascita": 1508,
+      "morte": 1580,
+      "professione": {
+        "it": "Architetto",
+        "en": "Architect",
+        "fr": "Architecte",
+        "de": "Architekt",
+        "es": "Arquitecto"
+      },
+      "luogoNascita": {
+        "it": "Padova",
+        "en": "Padua",
+        "fr": "Padoue",
+        "de": "Padua",
+        "es": "Padua"
+      },
+      "dataNascita": {
+        "it": "30 novembre 1508",
+        "en": "30 November 1508",
+        "fr": "30 novembre 1508",
+        "de": "30. November 1508",
+        "es": "30 de noviembre de 1508"
+      },
+      "luogoMorte": {
+        "it": "Maser (Treviso)",
+        "en": "Maser (Treviso)",
+        "fr": "Maser (Trévise)",
+        "de": "Maser (Treviso)",
+        "es": "Maser (Treviso)"
+      },
+      "dataMorte": {
+        "it": "19 agosto 1580",
+        "en": "19 August 1580",
+        "fr": "19 août 1580",
+        "de": "19. August 1580",
+        "es": "19 de agosto de 1580"
+      },
+      "biografia": {
+        "it": "Andrea Palladio fu uno dei più importanti architetti del Rinascimento italiano e una figura fondamentale nella storia dell'architettura occidentale. Dopo i primi anni di formazione come scalpellino, entrò in contatto con l'ambiente umanistico vicentino e con il nobile Gian Giorgio Trissino, che contribuì alla sua formazione e gli attribuì il nome Palladio. Lavorò soprattutto a Vicenza e nel territorio veneto, progettando ville, palazzi e chiese ispirati ai modelli dell'antichità classica. A Venezia realizzò due tra le più importanti architetture religiose del Rinascimento: la chiesa di San Giorgio Maggiore e quella del Redentore. La pubblicazione dei Quattro libri dell'architettura, nel 1570, contribuì a diffondere il suo linguaggio architettonico in tutta Europa.",
+        "en": "Andrea Palladio was one of the most important architects of the Italian Renaissance and a fundamental figure in the history of Western architecture. After his early training as a stonemason, he came into contact with the humanist circle of Vicenza and with the nobleman Gian Giorgio Trissino, who contributed to his education and gave him the name Palladio. He worked mainly in Vicenza and the Veneto, designing villas, palaces and churches inspired by the models of classical antiquity. In Venice he created two of the most important religious buildings of the Renaissance: the churches of San Giorgio Maggiore and the Redentore. The publication of the Four Books of Architecture in 1570 helped spread his architectural language throughout Europe.",
+        "fr": "Andrea Palladio fut l'un des plus importants architectes de la Renaissance italienne et une figure fondamentale de l'histoire de l'architecture occidentale. Après ses premières années de formation comme tailleur de pierre, il entra en contact avec le milieu humaniste de Vicence et avec le noble Gian Giorgio Trissino, qui contribua à sa formation et lui donna le nom de Palladio. Il travailla surtout à Vicence et dans la Vénétie, concevant des villas, des palais et des églises inspirés des modèles de l'Antiquité classique. À Venise, il réalisa deux des plus importantes architectures religieuses de la Renaissance : les églises de San Giorgio Maggiore et du Rédempteur. La publication des Quatre livres de l'architecture, en 1570, contribua à diffuser son langage architectural dans toute l'Europe.",
+        "de": "Andrea Palladio war einer der bedeutendsten Architekten der italienischen Renaissance und eine zentrale Gestalt in der Geschichte der abendländischen Architektur. Nach seiner frühen Ausbildung als Steinmetz kam er mit dem humanistischen Umfeld Vicenzas und mit dem Adligen Gian Giorgio Trissino in Kontakt, der zu seiner Bildung beitrug und ihm den Namen Palladio gab. Er arbeitete vor allem in Vicenza und im Veneto und entwarf Villen, Paläste und Kirchen nach dem Vorbild der klassischen Antike. In Venedig schuf er zwei der bedeutendsten Sakralbauten der Renaissance: die Kirchen San Giorgio Maggiore und Il Redentore. Die Veröffentlichung der Vier Bücher zur Architektur im Jahr 1570 verbreitete seine Formensprache in ganz Europa.",
+        "es": "Andrea Palladio fue uno de los arquitectos más importantes del Renacimiento italiano y una figura fundamental en la historia de la arquitectura occidental. Tras sus primeros años de formación como cantero, entró en contacto con el ambiente humanista de Vicenza y con el noble Gian Giorgio Trissino, que contribuyó a su formación y le dio el nombre de Palladio. Trabajó sobre todo en Vicenza y en el Véneto, proyectando villas, palacios e iglesias inspirados en los modelos de la antigüedad clásica. En Venecia realizó dos de las arquitecturas religiosas más importantes del Renacimiento: las iglesias de San Giorgio Maggiore y del Redentore. La publicación de los Cuatro libros de la arquitectura, en 1570, contribuyó a difundir su lenguaje arquitectónico por toda Europa."
+      },
+      "curiosita": {
+        "it": [
+          "Il nome Palladio gli fu attribuito da Gian Giorgio Trissino, che riconobbe le sue capacità e lo introdusse allo studio dell'architettura classica.",
+          "Le sue opere si ispirano ai principi dell'architettura romana, in particolare agli scritti di Vitruvio.",
+          "I suoi Quattro libri dell'architettura del 1570 ebbero un'enorme influenza sull'architettura europea e americana.",
+          "La chiesa del Redentore fu iniziata nel 1577, ma venne completata e consacrata dopo la sua morte."
+        ],
+        "en": [
+          "The name Palladio was given to him by Gian Giorgio Trissino, who recognised his abilities and introduced him to the study of classical architecture.",
+          "His works draw on the principles of Roman architecture, in particular the writings of Vitruvius.",
+          "His Four Books of Architecture of 1570 had an enormous influence on European and American architecture.",
+          "The church of the Redentore was begun in 1577, but it was completed and consecrated after his death."
+        ],
+        "fr": [
+          "Le nom de Palladio lui fut donné par Gian Giorgio Trissino, qui reconnut ses capacités et l'introduisit à l'étude de l'architecture classique.",
+          "Ses œuvres s'inspirent des principes de l'architecture romaine, en particulier des écrits de Vitruve.",
+          "Ses Quatre livres de l'architecture de 1570 eurent une influence énorme sur l'architecture européenne et américaine.",
+          "L'église du Rédempteur fut commencée en 1577, mais elle fut achevée et consacrée après sa mort."
+        ],
+        "de": [
+          "Den Namen Palladio gab ihm Gian Giorgio Trissino, der seine Fähigkeiten erkannte und ihn in das Studium der klassischen Architektur einführte.",
+          "Seine Werke beruhen auf den Prinzipien der römischen Architektur, insbesondere auf den Schriften Vitruvs.",
+          "Seine Vier Bücher zur Architektur von 1570 hatten enormen Einfluss auf die europäische und amerikanische Architektur.",
+          "Der Bau der Kirche Il Redentore begann 1577, sie wurde aber erst nach seinem Tod vollendet und geweiht."
+        ],
+        "es": [
+          "El nombre de Palladio se lo dio Gian Giorgio Trissino, que reconoció sus capacidades y lo introdujo en el estudio de la arquitectura clásica.",
+          "Sus obras se inspiran en los principios de la arquitectura romana, en particular en los escritos de Vitruvio.",
+          "Sus Cuatro libros de la arquitectura, de 1570, tuvieron una enorme influencia en la arquitectura europea y americana.",
+          "La iglesia del Redentore se empezó en 1577, pero fue terminada y consagrada después de su muerte."
+        ]
+      },
+      "luoghi": [
+        "san-giorgio-maggiore",
+        "redentore"
+      ],
+      "ritratto": {
+        "autore": "Alessandro Maganza",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "san-giorgio-maggiore": {
+          "tipo": {
+            "it": "Un suo capolavoro",
+            "en": "One of his masterpieces",
+            "fr": "Un de ses chefs-d'œuvre",
+            "de": "Eines seiner Meisterwerke",
+            "es": "Una de sus obras maestras"
+          },
+          "testo": {
+            "it": "Sull'isola omonima, uno dei più celebri edifici palladiani.",
+            "en": "On the island of the same name, one of the most famous Palladian buildings.",
+            "fr": "Sur l'île du même nom, l'un des plus célèbres édifices palladiens.",
+            "de": "Auf der gleichnamigen Insel, eines der berühmtesten Bauwerke Palladios.",
+            "es": "En la isla del mismo nombre, uno de los edificios palladianos más célebres."
+          }
+        },
+        "redentore": {
+          "tipo": {
+            "it": "La chiesa del voto",
+            "en": "The votive church",
+            "fr": "L'église du vœu",
+            "de": "Die Votivkirche",
+            "es": "La iglesia del voto"
+          },
+          "testo": {
+            "it": "Progettata come ringraziamento per la fine della peste del 1575-1577.",
+            "en": "Designed as a thanksgiving for the end of the plague of 1575–1577.",
+            "fr": "Conçue en action de grâce pour la fin de la peste de 1575-1577.",
+            "de": "Als Dank für das Ende der Pest von 1575–1577 entworfen.",
+            "es": "Proyectada como agradecimiento por el fin de la peste de 1575-1577."
+          }
+        }
+      }
+    },
+    {
+      "id": "ludovico-manin",
+      "nome": "Ludovico Giovanni Manin",
+      "nascita": 1726,
+      "morte": 1802,
+      "professione": {
+        "it": "Ultimo doge di Venezia",
+        "en": "Last doge of Venice",
+        "fr": "Dernier doge de Venise",
+        "de": "Letzter Doge von Venedig",
+        "es": "Último dux de Venecia"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "23 giugno 1726",
+        "en": "23 June 1726",
+        "fr": "23 juin 1726",
+        "de": "23. Juni 1726",
+        "es": "23 de junio de 1726"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "24 ottobre 1802",
+        "en": "24 October 1802",
+        "fr": "24 octobre 1802",
+        "de": "24. Oktober 1802",
+        "es": "24 de octubre de 1802"
+      },
+      "biografia": {
+        "it": "Ludovico Manin fu il 120º e ultimo doge della Repubblica di Venezia. Eletto nel 1789, si trovò a governare in una fase di profonda crisi politica e militare, mentre la Francia rivoluzionaria estendeva la propria influenza in Europa. Nel maggio 1797, di fronte all'avanzata delle truppe napoleoniche e alla disgregazione delle istituzioni repubblicane, Manin fu costretto ad abdicare. Il 12 maggio 1797 il Maggior Consiglio votò la fine della Repubblica aristocratica, ponendo termine a oltre un millennio di storia istituzionale veneziana. La successiva cessione della città all'Austria fu sancita dal trattato di Campoformio del 17 ottobre 1797.",
+        "en": "Ludovico Manin was the 120th and last doge of the Republic of Venice. Elected in 1789, he found himself governing during a period of deep political and military crisis, as revolutionary France extended its influence across Europe. In May 1797, faced with the advance of Napoleon's troops and the disintegration of the republican institutions, Manin was forced to abdicate. On 12 May 1797 the Great Council voted to end the aristocratic Republic, closing more than a thousand years of Venetian institutional history. The subsequent handover of the city to Austria was sealed by the Treaty of Campo Formio of 17 October 1797.",
+        "fr": "Ludovico Manin fut le 120e et dernier doge de la République de Venise. Élu en 1789, il se trouva à gouverner dans une phase de profonde crise politique et militaire, alors que la France révolutionnaire étendait son influence en Europe. En mai 1797, face à l'avancée des troupes napoléoniennes et à la désagrégation des institutions républicaines, Manin fut contraint d'abdiquer. Le 12 mai 1797, le Grand Conseil vota la fin de la République aristocratique, mettant un terme à plus d'un millénaire d'histoire institutionnelle vénitienne. La cession de la ville à l'Autriche fut ensuite scellée par le traité de Campoformio du 17 octobre 1797.",
+        "de": "Ludovico Manin war der 120. und letzte Doge der Republik Venedig. 1789 gewählt, regierte er in einer Phase tiefer politischer und militärischer Krise, während das revolutionäre Frankreich seinen Einfluss in Europa ausdehnte. Im Mai 1797 musste Manin angesichts des Vormarschs der napoleonischen Truppen und des Zerfalls der republikanischen Institutionen abdanken. Am 12. Mai 1797 beschloss der Große Rat das Ende der aristokratischen Republik und beendete damit mehr als tausend Jahre venezianischer Institutionengeschichte. Die anschließende Übergabe der Stadt an Österreich wurde durch den Frieden von Campoformio vom 17. Oktober 1797 besiegelt.",
+        "es": "Ludovico Manin fue el 120.º y último dux de la República de Venecia. Elegido en 1789, le tocó gobernar en una fase de profunda crisis política y militar, mientras la Francia revolucionaria extendía su influencia por Europa. En mayo de 1797, ante el avance de las tropas napoleónicas y la desintegración de las instituciones republicanas, Manin se vio obligado a abdicar. El 12 de mayo de 1797 el Gran Consejo votó el fin de la República aristocrática, poniendo término a más de un milenio de historia institucional veneciana. La posterior cesión de la ciudad a Austria quedó sancionada por el tratado de Campoformio del 17 de octubre de 1797."
+      },
+      "curiosita": {
+        "it": [
+          "Fu eletto doge nel 1789, pochi mesi prima dello scoppio della Rivoluzione francese.",
+          "Fu l'ultimo rappresentante di una famiglia che aveva ottenuto il patriziato veneziano nel Seicento.",
+          "Dopo l'abdicazione si ritirò dalla vita politica e visse gli ultimi anni a Venezia.",
+          "È sepolto nella cappella di famiglia nella chiesa degli Scalzi."
+        ],
+        "en": [
+          "He was elected doge in 1789, a few months before the outbreak of the French Revolution.",
+          "He was the last representative of a family that had obtained Venetian patrician status in the seventeenth century.",
+          "After abdicating he withdrew from political life and spent his last years in Venice.",
+          "He is buried in the family chapel in the church of the Scalzi."
+        ],
+        "fr": [
+          "Il fut élu doge en 1789, quelques mois avant le début de la Révolution française.",
+          "Il fut le dernier représentant d'une famille qui avait obtenu le patriciat vénitien au XVIIe siècle.",
+          "Après l'abdication, il se retira de la vie politique et vécut ses dernières années à Venise.",
+          "Il est enterré dans la chapelle familiale de l'église des Scalzi."
+        ],
+        "de": [
+          "Er wurde 1789 zum Dogen gewählt, wenige Monate vor Ausbruch der Französischen Revolution.",
+          "Er war der letzte Vertreter einer Familie, die im 17. Jahrhundert das venezianische Patriziat erlangt hatte.",
+          "Nach der Abdankung zog er sich aus der Politik zurück und verbrachte seine letzten Jahre in Venedig.",
+          "Er ist in der Familienkapelle der Kirche der Scalzi begraben."
+        ],
+        "es": [
+          "Fue elegido dux en 1789, pocos meses antes del estallido de la Revolución francesa.",
+          "Fue el último representante de una familia que había obtenido el patriciado veneciano en el siglo XVII.",
+          "Tras la abdicación se retiró de la vida política y vivió sus últimos años en Venecia.",
+          "Está sepultado en la capilla familiar de la iglesia de los Scalzi."
+        ]
+      },
+      "luoghi": [
+        "palazzo-ducale",
+        "basilica-san-marco",
+        "scalzi"
+      ],
+      "ritratto": {
+        "autore": "Mattea Badoer, 18th-century mintmaster; foto di un fotografo sconosciuto per CNG Coins",
+        "licenza": "CC BY-SA 2.5"
+      },
+      "luoghiNote": {
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "La fine del dogado",
+            "en": "The end of the dogeship",
+            "fr": "La fin du dogat",
+            "de": "Das Ende des Dogenamts",
+            "es": "El fin del dogado"
+          },
+          "testo": {
+            "it": "Sede del governo della Serenissima e simbolo della fine del dogado.",
+            "en": "Seat of the government of the Serenissima and symbol of the end of the dogeship.",
+            "fr": "Siège du gouvernement de la Sérénissime et symbole de la fin du dogat.",
+            "de": "Sitz der Regierung der Serenissima und Symbol für das Ende des Dogenamts.",
+            "es": "Sede del gobierno de la Serenísima y símbolo del fin del dogado."
+          }
+        },
+        "basilica-san-marco": {
+          "tipo": {
+            "it": "Centro cerimoniale",
+            "en": "Ceremonial centre",
+            "fr": "Centre cérémoniel",
+            "de": "Zeremonielles Zentrum",
+            "es": "Centro ceremonial"
+          },
+          "testo": {
+            "it": "Centro religioso e cerimoniale della Repubblica.",
+            "en": "Religious and ceremonial centre of the Republic.",
+            "fr": "Centre religieux et cérémoniel de la République.",
+            "de": "Religiöses und zeremonielles Zentrum der Republik.",
+            "es": "Centro religioso y ceremonial de la República."
+          }
+        },
+        "scalzi": {
+          "tipo": {
+            "it": "La sepoltura",
+            "en": "The burial place",
+            "fr": "La sépulture",
+            "de": "Die Grabstätte",
+            "es": "La sepultura"
+          },
+          "testo": {
+            "it": "Qui si trova la sua sepoltura.",
+            "en": "His burial place is here.",
+            "fr": "C'est ici que se trouve sa sépulture.",
+            "de": "Hier befindet sich seine Grabstätte.",
+            "es": "Aquí se encuentra su sepultura."
+          }
+        }
+      }
+    },
+    {
+      "id": "daniele-manin",
+      "nome": "Daniele Manin",
+      "nascita": 1804,
+      "morte": 1857,
+      "professione": {
+        "it": "Avvocato e patriota",
+        "en": "Lawyer and patriot",
+        "fr": "Avocat et patriote",
+        "de": "Rechtsanwalt und Patriot",
+        "es": "Abogado y patriota"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "13 maggio 1804",
+        "en": "13 May 1804",
+        "fr": "13 mai 1804",
+        "de": "13. Mai 1804",
+        "es": "13 de mayo de 1804"
+      },
+      "luogoMorte": {
+        "it": "Parigi (Francia)",
+        "en": "Paris (France)",
+        "fr": "Paris (France)",
+        "de": "Paris (Frankreich)",
+        "es": "París (Francia)"
+      },
+      "dataMorte": {
+        "it": "22 settembre 1857",
+        "en": "22 September 1857",
+        "fr": "22 septembre 1857",
+        "de": "22. September 1857",
+        "es": "22 de septiembre de 1857"
+      },
+      "biografia": {
+        "it": "Daniele Manin fu avvocato, patriota e protagonista del Risorgimento italiano. Nel 1848 guidò l'insurrezione veneziana contro il dominio austriaco e divenne presidente del governo provvisorio della Repubblica di San Marco, proclamata il 22 marzo dello stesso anno. Durante l'assedio austriaco del 1848-1849 fu il principale riferimento politico della resistenza veneziana. Dopo la capitolazione della città, il 22 agosto 1849, fu costretto all'esilio in Francia, dove continuò a sostenere la causa dell'indipendenza italiana. Negli ultimi anni aderì al progetto unitario e monarchico di Cavour, contribuendo alla fondazione della Società nazionale italiana.",
+        "en": "Daniele Manin was a lawyer, patriot and leading figure of the Italian Risorgimento. In 1848 he led the Venetian uprising against Austrian rule and became president of the provisional government of the Republic of San Marco, proclaimed on 22 March of that year. During the Austrian siege of 1848–1849 he was the main political reference point of the Venetian resistance. After the city's capitulation on 22 August 1849 he was forced into exile in France, where he continued to support the cause of Italian independence. In his last years he embraced Cavour's unitary, monarchist project, helping to found the Italian National Society.",
+        "fr": "Daniele Manin fut avocat, patriote et protagoniste du Risorgimento italien. En 1848, il mena l'insurrection vénitienne contre la domination autrichienne et devint président du gouvernement provisoire de la République de Saint-Marc, proclamée le 22 mars de la même année. Pendant le siège autrichien de 1848-1849, il fut la principale référence politique de la résistance vénitienne. Après la capitulation de la ville, le 22 août 1849, il fut contraint à l'exil en France, où il continua à soutenir la cause de l'indépendance italienne. Dans ses dernières années, il adhéra au projet unitaire et monarchique de Cavour, contribuant à la fondation de la Société nationale italienne.",
+        "de": "Daniele Manin war Rechtsanwalt, Patriot und eine zentrale Gestalt des italienischen Risorgimento. 1848 führte er den venezianischen Aufstand gegen die österreichische Herrschaft an und wurde Präsident der provisorischen Regierung der Republik San Marco, die am 22. März desselben Jahres ausgerufen wurde. Während der österreichischen Belagerung von 1848–1849 war er die wichtigste politische Bezugsperson des venezianischen Widerstands. Nach der Kapitulation der Stadt am 22. August 1849 musste er ins Exil nach Frankreich gehen, wo er weiter für die italienische Unabhängigkeit eintrat. In seinen letzten Jahren schloss er sich Cavours einheitsstaatlichem, monarchistischem Projekt an und trug zur Gründung der Società Nazionale Italiana bei.",
+        "es": "Daniele Manin fue abogado, patriota y protagonista del Risorgimento italiano. En 1848 encabezó la insurrección veneciana contra el dominio austriaco y fue presidente del gobierno provisional de la República de San Marcos, proclamada el 22 de marzo de ese año. Durante el asedio austriaco de 1848-1849 fue el principal referente político de la resistencia veneciana. Tras la capitulación de la ciudad, el 22 de agosto de 1849, se vio obligado a exiliarse en Francia, donde siguió apoyando la causa de la independencia italiana. En sus últimos años se adhirió al proyecto unitario y monárquico de Cavour, contribuyendo a la fundación de la Sociedad Nacional Italiana."
+      },
+      "curiosita": {
+        "it": [
+          "Il suo cognome originario era Medina: la famiglia assunse il nome Manin dopo la conversione al cattolicesimo del nonno Samuele Medina, che scelse il cognome del proprio padrino, appartenente alla famiglia dell'ultimo doge.",
+          "Fu arrestato dagli Austriaci nel gennaio 1848 insieme a Niccolò Tommaseo.",
+          "Il 22 marzo 1848, dopo l'insurrezione popolare, fu proclamata la Repubblica di San Marco e Manin ne divenne il presidente.",
+          "Morì in esilio a Parigi nel 1857. Nel 1868 le sue spoglie furono trasferite a Venezia."
+        ],
+        "en": [
+          "His original surname was Medina: the family took the name Manin after his grandfather Samuele Medina converted to Catholicism and chose the surname of his godfather, who belonged to the family of the last doge.",
+          "He was arrested by the Austrians in January 1848 together with Niccolò Tommaseo.",
+          "On 22 March 1848, after the popular uprising, the Republic of San Marco was proclaimed and Manin became its president.",
+          "He died in exile in Paris in 1857. In 1868 his remains were moved to Venice."
+        ],
+        "fr": [
+          "Son nom de famille d'origine était Medina : la famille prit le nom de Manin après la conversion au catholicisme de son grand-père Samuele Medina, qui choisit le nom de son parrain, appartenant à la famille du dernier doge.",
+          "Il fut arrêté par les Autrichiens en janvier 1848 avec Niccolò Tommaseo.",
+          "Le 22 mars 1848, après l'insurrection populaire, la République de Saint-Marc fut proclamée et Manin en devint le président.",
+          "Il mourut en exil à Paris en 1857. En 1868, sa dépouille fut transférée à Venise."
+        ],
+        "de": [
+          "Sein ursprünglicher Familienname war Medina: Die Familie nahm den Namen Manin an, nachdem sein Großvater Samuele Medina zum Katholizismus konvertiert war und den Namen seines Paten wählte, der zur Familie des letzten Dogen gehörte.",
+          "Er wurde im Januar 1848 zusammen mit Niccolò Tommaseo von den Österreichern verhaftet.",
+          "Am 22. März 1848 wurde nach dem Volksaufstand die Republik San Marco ausgerufen, und Manin wurde ihr Präsident.",
+          "Er starb 1857 im Pariser Exil. 1868 wurden seine sterblichen Überreste nach Venedig überführt."
+        ],
+        "es": [
+          "Su apellido original era Medina: la familia adoptó el nombre Manin tras la conversión al catolicismo de su abuelo Samuele Medina, que eligió el apellido de su padrino, perteneciente a la familia del último dux.",
+          "Fue detenido por los austriacos en enero de 1848 junto con Niccolò Tommaseo.",
+          "El 22 de marzo de 1848, tras la insurrección popular, se proclamó la República de San Marcos y Manin fue su presidente.",
+          "Murió en el exilio, en París, en 1857. En 1868 sus restos fueron trasladados a Venecia."
+        ]
+      },
+      "luoghi": [
+        "palazzo-ducale",
+        "arsenale"
+      ],
+      "ritratto": {
+        "autore": "Didier Descouens",
+        "licenza": "CC BY-SA 4.0"
+      },
+      "luoghiNote": {
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Il governo provvisorio",
+            "en": "The provisional government",
+            "fr": "Le gouvernement provisoire",
+            "de": "Die provisorische Regierung",
+            "es": "El gobierno provisional"
+          },
+          "testo": {
+            "it": "Simbolo del potere politico veneziano e sede del governo provvisorio nel 1848.",
+            "en": "Symbol of Venetian political power and seat of the provisional government in 1848.",
+            "fr": "Symbole du pouvoir politique vénitien et siège du gouvernement provisoire en 1848.",
+            "de": "Symbol der venezianischen politischen Macht und Sitz der provisorischen Regierung 1848.",
+            "es": "Símbolo del poder político veneciano y sede del gobierno provisional en 1848."
+          }
+        },
+        "arsenale": {
+          "tipo": {
+            "it": "L'insurrezione e la difesa",
+            "en": "The uprising and the defence",
+            "fr": "L'insurrection et la défense",
+            "de": "Aufstand und Verteidigung",
+            "es": "La insurrección y la defensa"
+          },
+          "testo": {
+            "it": "Luogo strategico per la difesa della città durante la Repubblica di San Marco.",
+            "en": "Strategic site for the defence of the city during the Republic of San Marco.",
+            "fr": "Lieu stratégique pour la défense de la ville pendant la République de Saint-Marc.",
+            "de": "Strategischer Ort für die Verteidigung der Stadt während der Republik San Marco.",
+            "es": "Lugar estratégico para la defensa de la ciudad durante la República de San Marcos."
+          }
+        }
+      }
+    },
+    {
+      "id": "giovanni-stucky",
+      "nome": "Giovanni Stucky",
+      "nascita": 1843,
+      "morte": 1910,
+      "professione": {
+        "it": "Imprenditore",
+        "en": "Entrepreneur",
+        "fr": "Entrepreneur",
+        "de": "Unternehmer",
+        "es": "Empresario"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "1843",
+        "en": "1843",
+        "fr": "1843",
+        "de": "1843",
+        "es": "1843"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "21 maggio 1910",
+        "en": "21 May 1910",
+        "fr": "21 mai 1910",
+        "de": "21. Mai 1910",
+        "es": "21 de mayo de 1910"
+      },
+      "biografia": {
+        "it": "Giovanni Stucky fu un imprenditore di origine svizzera, protagonista dello sviluppo industriale veneziano tra Ottocento e Novecento. Figlio di una famiglia legata alla tradizione molitoria, sviluppò una grande attività nel settore della macinazione dei cereali e realizzò alla Giudecca un moderno complesso industriale destinato alla produzione di farine. Il Molino Stucky divenne una delle più importanti strutture produttive della città e un simbolo della trasformazione economica di Venezia, che accanto alla propria tradizione commerciale e marittima stava sviluppando nuove attività industriali.",
+        "en": "Giovanni Stucky was an entrepreneur of Swiss origin and a key figure in Venice's industrial development between the nineteenth and twentieth centuries. Born into a family with a milling tradition, he built up a large grain-milling business and created on the Giudecca a modern industrial complex for flour production. The Molino Stucky became one of the city's most important production facilities and a symbol of Venice's economic transformation, as the city, alongside its commercial and maritime tradition, developed new industrial activities.",
+        "fr": "Giovanni Stucky fut un entrepreneur d'origine suisse, protagoniste du développement industriel vénitien entre le XIXe et le XXe siècle. Issu d'une famille liée à la tradition meunière, il développa une grande activité dans le secteur de la mouture des céréales et réalisa à la Giudecca un complexe industriel moderne destiné à la production de farines. Le Molino Stucky devint l'une des plus importantes structures productives de la ville et un symbole de la transformation économique de Venise, qui développait, à côté de sa tradition commerciale et maritime, de nouvelles activités industrielles.",
+        "de": "Giovanni Stucky war ein Unternehmer schweizerischer Herkunft und eine Schlüsselfigur der industriellen Entwicklung Venedigs zwischen dem 19. und 20. Jahrhundert. Aus einer Familie mit Müllereitradition stammend, baute er ein großes Getreidemahlgeschäft auf und errichtete auf der Giudecca einen modernen Industriekomplex zur Mehlherstellung. Die Mühle Stucky wurde zu einer der wichtigsten Produktionsstätten der Stadt und zu einem Symbol des wirtschaftlichen Wandels Venedigs, das neben seiner Handels- und Seefahrtstradition neue industrielle Tätigkeiten entwickelte.",
+        "es": "Giovanni Stucky fue un empresario de origen suizo, protagonista del desarrollo industrial veneciano entre los siglos XIX y XX. Hijo de una familia vinculada a la tradición molinera, desarrolló una gran actividad en el sector de la molienda de cereales y construyó en la Giudecca un moderno complejo industrial destinado a la producción de harinas. El Molino Stucky se convirtió en una de las estructuras productivas más importantes de la ciudad y en un símbolo de la transformación económica de Venecia, que junto a su tradición comercial y marítima desarrollaba nuevas actividades industriales."
+      },
+      "curiosita": {
+        "it": [
+          "Il Molino Stucky fu progettato dall'architetto tedesco Ernst Wullekopf in uno stile neogotico che richiama l'aspetto di un castello medievale.",
+          "Il complesso era dotato di tecnologie moderne per l'epoca e raggiunse una notevole capacità produttiva.",
+          "Giovanni Stucky fu assassinato alla stazione ferroviaria di Venezia il 21 maggio 1910.",
+          "Il grande edificio industriale è stato recuperato e trasformato in una struttura alberghiera, mantenendo una posizione dominante sul panorama della Giudecca."
+        ],
+        "en": [
+          "The Molino Stucky was designed by the German architect Ernst Wullekopf in a neo-Gothic style reminiscent of a medieval castle.",
+          "The complex was equipped with technology that was modern for its time and reached a considerable production capacity.",
+          "Giovanni Stucky was murdered at Venice railway station on 21 May 1910.",
+          "The great industrial building has been restored and converted into a hotel, still dominating the Giudecca skyline."
+        ],
+        "fr": [
+          "Le Molino Stucky fut conçu par l'architecte allemand Ernst Wullekopf dans un style néogothique qui rappelle l'aspect d'un château médiéval.",
+          "Le complexe était doté de technologies modernes pour l'époque et atteignit une capacité de production considérable.",
+          "Giovanni Stucky fut assassiné à la gare de Venise le 21 mai 1910.",
+          "Le grand édifice industriel a été restauré et transformé en hôtel, et continue de dominer le panorama de la Giudecca."
+        ],
+        "de": [
+          "Die Mühle Stucky wurde vom deutschen Architekten Ernst Wullekopf in einem neugotischen Stil entworfen, der an eine mittelalterliche Burg erinnert.",
+          "Der Komplex war mit für die Zeit modernster Technik ausgestattet und erreichte eine beachtliche Produktionskapazität.",
+          "Giovanni Stucky wurde am 21. Mai 1910 am Bahnhof von Venedig ermordet.",
+          "Das große Industriegebäude wurde restauriert und in ein Hotel umgewandelt und prägt weiterhin das Panorama der Giudecca."
+        ],
+        "es": [
+          "El Molino Stucky fue proyectado por el arquitecto alemán Ernst Wullekopf en un estilo neogótico que recuerda el aspecto de un castillo medieval.",
+          "El complejo estaba dotado de tecnologías modernas para la época y alcanzó una notable capacidad productiva.",
+          "Giovanni Stucky fue asesinado en la estación de ferrocarril de Venecia el 21 de mayo de 1910.",
+          "El gran edificio industrial ha sido recuperado y transformado en un hotel, y sigue dominando el panorama de la Giudecca."
+        ]
+      },
+      "luoghi": [
+        "molino-stucky"
+      ],
+      "ritratto": {
+        "autore": "Autore sconosciuto",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "molino-stucky": {
+          "tipo": {
+            "it": "L'opera della sua vita",
+            "en": "His life's work",
+            "fr": "L'œuvre de sa vie",
+            "de": "Sein Lebenswerk",
+            "es": "La obra de su vida"
+          },
+          "testo": {
+            "it": "Il grande complesso industriale della Giudecca, principale segno della sua attività imprenditoriale.",
+            "en": "The great industrial complex on the Giudecca, the main sign of his entrepreneurial activity.",
+            "fr": "Le grand complexe industriel de la Giudecca, principale témoignage de son activité entrepreneuriale.",
+            "de": "Der große Industriekomplex auf der Giudecca, das wichtigste Zeugnis seiner unternehmerischen Tätigkeit.",
+            "es": "El gran complejo industrial de la Giudecca, principal huella de su actividad empresarial."
+          }
+        }
+      }
+    },
+    {
+      "id": "peggy-guggenheim",
+      "nome": "Marguerite Guggenheim, detta Peggy",
+      "nascita": 1898,
+      "morte": 1979,
+      "professione": {
+        "it": "Collezionista e mecenate",
+        "en": "Collector and patron of the arts",
+        "fr": "Collectionneuse et mécène",
+        "de": "Sammlerin und Mäzenin",
+        "es": "Coleccionista y mecenas"
+      },
+      "luogoNascita": {
+        "it": "New York (Stati Uniti)",
+        "en": "New York (United States)",
+        "fr": "New York (États-Unis)",
+        "de": "New York (Vereinigte Staaten)",
+        "es": "Nueva York (Estados Unidos)"
+      },
+      "dataNascita": {
+        "it": "26 agosto 1898",
+        "en": "26 August 1898",
+        "fr": "26 août 1898",
+        "de": "26. August 1898",
+        "es": "26 de agosto de 1898"
+      },
+      "luogoMorte": {
+        "it": "Camposampiero (Padova)",
+        "en": "Camposampiero (Padua)",
+        "fr": "Camposampiero (Padoue)",
+        "de": "Camposampiero (Padua)",
+        "es": "Camposampiero (Padua)"
+      },
+      "dataMorte": {
+        "it": "23 dicembre 1979",
+        "en": "23 December 1979",
+        "fr": "23 décembre 1979",
+        "de": "23. Dezember 1979",
+        "es": "23 de diciembre de 1979"
+      },
+      "biografia": {
+        "it": "Peggy Guggenheim fu una collezionista e mecenate americana, tra le figure più importanti nella diffusione dell'arte moderna del Novecento. Dopo aver vissuto tra New York, Parigi e Londra, si dedicò alla promozione degli artisti delle avanguardie europee e americane, sostenendo movimenti come il Surrealismo e l'Espressionismo astratto. Nel 1948 presentò la propria collezione alla Biennale di Venezia e l'anno successivo aprì al pubblico la raccolta ospitata a Palazzo Venier dei Leoni, sul Canal Grande. Il suo contributo trasformò Venezia in uno dei principali punti di riferimento internazionali per l'arte moderna.",
+        "en": "Peggy Guggenheim was an American collector and patron, one of the most important figures in the spread of twentieth-century modern art. After living in New York, Paris and London, she devoted herself to promoting European and American avant-garde artists, supporting movements such as Surrealism and Abstract Expressionism. In 1948 she presented her collection at the Venice Biennale and the following year opened to the public the collection housed in Palazzo Venier dei Leoni on the Grand Canal. Her contribution turned Venice into one of the leading international reference points for modern art.",
+        "fr": "Peggy Guggenheim fut une collectionneuse et mécène américaine, l'une des figures les plus importantes de la diffusion de l'art moderne du XXe siècle. Après avoir vécu entre New York, Paris et Londres, elle se consacra à la promotion des artistes des avant-gardes européennes et américaines, soutenant des mouvements comme le surréalisme et l'expressionnisme abstrait. En 1948, elle présenta sa collection à la Biennale de Venise et, l'année suivante, ouvrit au public la collection installée au Palazzo Venier dei Leoni, sur le Grand Canal. Sa contribution fit de Venise l'un des principaux points de référence internationaux pour l'art moderne.",
+        "de": "Peggy Guggenheim war eine amerikanische Sammlerin und Mäzenin und eine der wichtigsten Persönlichkeiten bei der Verbreitung der modernen Kunst des 20. Jahrhunderts. Nach Jahren in New York, Paris und London widmete sie sich der Förderung der europäischen und amerikanischen Avantgardekünstler und unterstützte Strömungen wie den Surrealismus und den Abstrakten Expressionismus. 1948 präsentierte sie ihre Sammlung auf der Biennale von Venedig und eröffnete im Jahr darauf die im Palazzo Venier dei Leoni am Canal Grande untergebrachte Sammlung für das Publikum. Ihr Wirken machte Venedig zu einem der wichtigsten internationalen Bezugspunkte für moderne Kunst.",
+        "es": "Peggy Guggenheim fue una coleccionista y mecenas estadounidense, una de las figuras más importantes en la difusión del arte moderno del siglo XX. Tras vivir entre Nueva York, París y Londres, se dedicó a promover a los artistas de las vanguardias europeas y americanas, apoyando movimientos como el surrealismo y el expresionismo abstracto. En 1948 presentó su colección en la Bienal de Venecia y al año siguiente abrió al público la colección alojada en el Palazzo Venier dei Leoni, en el Gran Canal. Su aportación convirtió a Venecia en uno de los principales puntos de referencia internacionales del arte moderno."
+      },
+      "curiosita": {
+        "it": [
+          "Nel corso della sua vita sostenne artisti come Jackson Pollock, Max Ernst, René Magritte, Salvador Dalí e Pablo Picasso.",
+          "Nel 1949 acquistò Palazzo Venier dei Leoni, edificio settecentesco rimasto incompiuto, e lo trasformò nella propria abitazione e sede della collezione.",
+          "Nel 1976 donò il palazzo e la raccolta alla Fondazione Solomon R. Guggenheim.",
+          "Le sue ceneri sono conservate nel giardino di Palazzo Venier dei Leoni, accanto alle tombe dei suoi numerosi cani."
+        ],
+        "en": [
+          "Over her lifetime she supported artists such as Jackson Pollock, Max Ernst, René Magritte, Salvador Dalí and Pablo Picasso.",
+          "In 1949 she bought Palazzo Venier dei Leoni, an unfinished eighteenth-century building, and turned it into her home and the seat of her collection.",
+          "In 1976 she donated the palace and the collection to the Solomon R. Guggenheim Foundation.",
+          "Her ashes are kept in the garden of Palazzo Venier dei Leoni, next to the graves of her many dogs."
+        ],
+        "fr": [
+          "Au cours de sa vie, elle soutint des artistes comme Jackson Pollock, Max Ernst, René Magritte, Salvador Dalí et Pablo Picasso.",
+          "En 1949, elle acheta le Palazzo Venier dei Leoni, édifice du XVIIIe siècle resté inachevé, et le transforma en sa résidence et en siège de sa collection.",
+          "En 1976, elle fit don du palais et de la collection à la Fondation Solomon R. Guggenheim.",
+          "Ses cendres sont conservées dans le jardin du Palazzo Venier dei Leoni, à côté des tombes de ses nombreux chiens."
+        ],
+        "de": [
+          "Im Lauf ihres Lebens förderte sie Künstler wie Jackson Pollock, Max Ernst, René Magritte, Salvador Dalí und Pablo Picasso.",
+          "1949 kaufte sie den Palazzo Venier dei Leoni, ein unvollendet gebliebenes Gebäude des 18. Jahrhunderts, und machte ihn zu ihrem Wohnsitz und zum Sitz ihrer Sammlung.",
+          "1976 schenkte sie den Palast und die Sammlung der Solomon R. Guggenheim Foundation.",
+          "Ihre Asche ruht im Garten des Palazzo Venier dei Leoni, neben den Gräbern ihrer zahlreichen Hunde."
+        ],
+        "es": [
+          "A lo largo de su vida apoyó a artistas como Jackson Pollock, Max Ernst, René Magritte, Salvador Dalí y Pablo Picasso.",
+          "En 1949 compró el Palazzo Venier dei Leoni, un edificio del siglo XVIII que había quedado inacabado, y lo transformó en su vivienda y sede de la colección.",
+          "En 1976 donó el palacio y la colección a la Fundación Solomon R. Guggenheim.",
+          "Sus cenizas se conservan en el jardín del Palazzo Venier dei Leoni, junto a las tumbas de sus numerosos perros."
+        ]
+      },
+      "luoghi": [
+        "guggenheim"
+      ],
+      "ritratto": {
+        "autore": "Autore non indicato",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "guggenheim": {
+          "tipo": {
+            "it": "Collezione e residenza",
+            "en": "Collection and home",
+            "fr": "Collection et résidence",
+            "de": "Sammlung und Wohnsitz",
+            "es": "Colección y residencia"
+          },
+          "testo": {
+            "it": "Il museo che ospita la raccolta da lei creata, nel Palazzo Venier dei Leoni, sua residenza veneziana e luogo fondamentale per la storia dell'arte moderna in città.",
+            "en": "The museum housing the collection she created, in Palazzo Venier dei Leoni, her Venetian home and a key place in the history of modern art in the city.",
+            "fr": "Le musée qui abrite la collection qu'elle a créée, dans le Palazzo Venier dei Leoni, sa résidence vénitienne et lieu fondamental pour l'histoire de l'art moderne dans la ville.",
+            "de": "Das Museum, das die von ihr geschaffene Sammlung beherbergt, im Palazzo Venier dei Leoni, ihrem venezianischen Wohnsitz und einem zentralen Ort der Geschichte der modernen Kunst in der Stadt.",
+            "es": "El museo que alberga la colección que creó, en el Palazzo Venier dei Leoni, su residencia veneciana y lugar fundamental para la historia del arte moderno en la ciudad."
+          }
+        }
+      }
+    },
+    {
+      "id": "giuseppe-volpi",
+      "nome": "Giuseppe Volpi, conte di Misurata",
+      "nascita": 1877,
+      "morte": 1947,
+      "professione": {
+        "it": "Finanziere, imprenditore e politico",
+        "en": "Financier, entrepreneur and politician",
+        "fr": "Financier, entrepreneur et homme politique",
+        "de": "Finanzier, Unternehmer und Politiker",
+        "es": "Financiero, empresario y político"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "19 novembre 1877",
+        "en": "19 November 1877",
+        "fr": "19 novembre 1877",
+        "de": "19. November 1877",
+        "es": "19 de noviembre de 1877"
+      },
+      "luogoMorte": {
+        "it": "Roma",
+        "en": "Rome",
+        "fr": "Rome",
+        "de": "Rom",
+        "es": "Roma"
+      },
+      "dataMorte": {
+        "it": "16 novembre 1947",
+        "en": "16 November 1947",
+        "fr": "16 novembre 1947",
+        "de": "16. November 1947",
+        "es": "16 de noviembre de 1947"
+      },
+      "biografia": {
+        "it": "Giuseppe Volpi fu un finanziere, imprenditore e uomo politico veneziano, protagonista dello sviluppo economico e industriale del Veneto nella prima metà del Novecento. Fondò nel 1905 la Società Adriatica di Elettricità, contribuendo alla crescita del settore energetico italiano, e promosse il progetto di Porto Marghera, la cui realizzazione iniziò nel 1919. Fu anche una figura di primo piano nella vita culturale veneziana: ricoprì incarichi direttivi alla Biennale e promosse la prima Mostra internazionale d'arte cinematografica, inaugurata nel 1932 al Lido. Ebbe inoltre un ruolo politico di rilievo durante il fascismo, ricoprendo la carica di ministro delle Finanze e quella di presidente di Confindustria.",
+        "en": "Giuseppe Volpi was a Venetian financier, entrepreneur and politician, a key figure in the economic and industrial development of the Veneto in the first half of the twentieth century. In 1905 he founded the Società Adriatica di Elettricità, contributing to the growth of Italy's energy sector, and promoted the Porto Marghera project, whose construction began in 1919. He was also a leading figure in Venetian cultural life: he held senior posts at the Biennale and promoted the first International Film Festival, inaugurated in 1932 at the Lido. He also played a prominent political role under Fascism, serving as Minister of Finance and as president of Confindustria.",
+        "fr": "Giuseppe Volpi fut un financier, entrepreneur et homme politique vénitien, protagoniste du développement économique et industriel de la Vénétie dans la première moitié du XXe siècle. Il fonda en 1905 la Società Adriatica di Elettricità, contribuant à la croissance du secteur énergétique italien, et promut le projet de Porto Marghera, dont la réalisation commença en 1919. Il fut aussi une figure de premier plan de la vie culturelle vénitienne : il occupa des postes de direction à la Biennale et promut la première Mostra internationale d'art cinématographique, inaugurée en 1932 au Lido. Il joua en outre un rôle politique important sous le fascisme, comme ministre des Finances et président de la Confindustria.",
+        "de": "Giuseppe Volpi war ein venezianischer Finanzier, Unternehmer und Politiker und eine Schlüsselfigur der wirtschaftlichen und industriellen Entwicklung Venetiens in der ersten Hälfte des 20. Jahrhunderts. 1905 gründete er die Società Adriatica di Elettricità und trug damit zum Wachstum des italienischen Energiesektors bei; außerdem förderte er das Projekt Porto Marghera, dessen Bau 1919 begann. Er war auch eine führende Persönlichkeit des venezianischen Kulturlebens: Er hatte leitende Ämter bei der Biennale inne und förderte die erste Internationale Filmkunstausstellung, die 1932 am Lido eröffnet wurde. Zudem spielte er unter dem Faschismus eine wichtige politische Rolle als Finanzminister und Präsident der Confindustria.",
+        "es": "Giuseppe Volpi fue un financiero, empresario y político veneciano, protagonista del desarrollo económico e industrial del Véneto en la primera mitad del siglo XX. Fundó en 1905 la Società Adriatica di Elettricità, contribuyendo al crecimiento del sector energético italiano, e impulsó el proyecto de Porto Marghera, cuya realización comenzó en 1919. Fue también una figura de primer plano de la vida cultural veneciana: ocupó cargos directivos en la Bienal e impulsó la primera Muestra internacional de arte cinematográfico, inaugurada en 1932 en el Lido. Tuvo además un papel político destacado durante el fascismo, como ministro de Finanzas y presidente de la Confindustria."
+      },
+      "curiosita": {
+        "it": [
+          "Nel 1905 fondò la Società Adriatica di Elettricità, destinata a diventare uno dei principali gruppi industriali italiani.",
+          "Fu governatore della Tripolitania dal 1921 al 1925 e ministro delle Finanze dal 1925 al 1929.",
+          "Nel 1932 promosse la prima Mostra internazionale d'arte cinematografica di Venezia, inizialmente ospitata sulla terrazza dell'Hotel Excelsior.",
+          "Nel 1937 fu inaugurato il Palazzo del Cinema, che divenne la sede principale della manifestazione."
+        ],
+        "en": [
+          "In 1905 he founded the Società Adriatica di Elettricità, destined to become one of Italy's leading industrial groups.",
+          "He was governor of Tripolitania from 1921 to 1925 and Minister of Finance from 1925 to 1929.",
+          "In 1932 he promoted the first Venice International Film Festival, initially held on the terrace of the Hotel Excelsior.",
+          "In 1937 the Palazzo del Cinema was inaugurated and became the main venue of the festival."
+        ],
+        "fr": [
+          "En 1905, il fonda la Società Adriatica di Elettricità, destinée à devenir l'un des principaux groupes industriels italiens.",
+          "Il fut gouverneur de la Tripolitaine de 1921 à 1925 et ministre des Finances de 1925 à 1929.",
+          "En 1932, il promut la première Mostra internationale d'art cinématographique de Venise, d'abord accueillie sur la terrasse de l'Hôtel Excelsior.",
+          "En 1937, le Palazzo del Cinema fut inauguré et devint le siège principal de la manifestation."
+        ],
+        "de": [
+          "1905 gründete er die Società Adriatica di Elettricità, die zu einer der größten italienischen Industriegruppen werden sollte.",
+          "Er war von 1921 bis 1925 Gouverneur von Tripolitanien und von 1925 bis 1929 Finanzminister.",
+          "1932 förderte er die erste Internationale Filmkunstausstellung von Venedig, die zunächst auf der Terrasse des Hotels Excelsior stattfand.",
+          "1937 wurde der Palazzo del Cinema eingeweiht, der zum Hauptsitz der Veranstaltung wurde."
+        ],
+        "es": [
+          "En 1905 fundó la Società Adriatica di Elettricità, destinada a convertirse en uno de los principales grupos industriales italianos.",
+          "Fue gobernador de Tripolitania de 1921 a 1925 y ministro de Finanzas de 1925 a 1929.",
+          "En 1932 impulsó la primera Muestra internacional de arte cinematográfico de Venecia, alojada al principio en la terraza del Hotel Excelsior.",
+          "En 1937 se inauguró el Palazzo del Cinema, que se convirtió en la sede principal del certamen."
+        ]
+      },
+      "luoghi": [
+        "lido"
+      ],
+      "ritratto": {
+        "autore": "National Photo Company Collection (Library of Congress)",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "lido": {
+          "tipo": {
+            "it": "La Mostra del Cinema",
+            "en": "The Film Festival",
+            "fr": "La Mostra du cinéma",
+            "de": "Die Filmfestspiele",
+            "es": "La Muestra de Cine"
+          },
+          "testo": {
+            "it": "Per il legame con la nascita della Mostra del Cinema e con lo sviluppo del turismo internazionale.",
+            "en": "For its link with the birth of the Film Festival and the growth of international tourism.",
+            "fr": "Pour le lien avec la naissance de la Mostra du cinéma et avec le développement du tourisme international.",
+            "de": "Wegen des Bezugs zur Entstehung der Filmfestspiele und zur Entwicklung des internationalen Tourismus.",
+            "es": "Por su vínculo con el nacimiento de la Muestra de Cine y con el desarrollo del turismo internacional."
+          }
+        }
+      }
+    },
+    {
+      "id": "paolo-veronese",
+      "nome": "Paolo Caliari, detto il Veronese",
+      "nascita": 1528,
+      "morte": 1588,
+      "professione": {
+        "it": "Pittore",
+        "en": "Painter",
+        "fr": "Peintre",
+        "de": "Maler",
+        "es": "Pintor"
+      },
+      "luogoNascita": {
+        "it": "Verona",
+        "en": "Verona",
+        "fr": "Vérone",
+        "de": "Verona",
+        "es": "Verona"
+      },
+      "dataNascita": {
+        "it": "1528",
+        "en": "1528",
+        "fr": "1528",
+        "de": "1528",
+        "es": "1528"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "19 aprile 1588",
+        "en": "19 April 1588",
+        "fr": "19 avril 1588",
+        "de": "19. April 1588",
+        "es": "19 de abril de 1588"
+      },
+      "biografia": {
+        "it": "Paolo Veronese fu uno dei maggiori pittori del Rinascimento veneziano. Nato a Verona, si formò nella bottega del pittore Antonio Badile e si trasferì successivamente a Venezia, dove sviluppò uno stile caratterizzato da colori luminosi, composizioni monumentali e scenografie architettoniche ricche di dettagli. La sua pittura si impose rapidamente tra le più apprezzate della città e fu richiesta da importanti famiglie, istituzioni religiose e organi della Repubblica. Insieme a Tiziano e Tintoretto, è considerato uno dei protagonisti assoluti della pittura veneziana del Cinquecento.",
+        "en": "Paolo Veronese was one of the greatest painters of the Venetian Renaissance. Born in Verona, he trained in the workshop of the painter Antonio Badile and later moved to Venice, where he developed a style marked by luminous colours, monumental compositions and richly detailed architectural settings. His painting quickly became among the most admired in the city and was sought after by important families, religious institutions and organs of the Republic. Together with Titian and Tintoretto, he is considered one of the absolute protagonists of sixteenth-century Venetian painting.",
+        "fr": "Paolo Véronèse fut l'un des plus grands peintres de la Renaissance vénitienne. Né à Vérone, il se forma dans l'atelier du peintre Antonio Badile, puis s'installa à Venise, où il développa un style caractérisé par des couleurs lumineuses, des compositions monumentales et des décors architecturaux riches en détails. Sa peinture s'imposa rapidement parmi les plus appréciées de la ville et fut recherchée par d'importantes familles, des institutions religieuses et des organes de la République. Avec le Titien et le Tintoret, il est considéré comme l'un des protagonistes absolus de la peinture vénitienne du XVIe siècle.",
+        "de": "Paolo Veronese war einer der größten Maler der venezianischen Renaissance. In Verona geboren, lernte er in der Werkstatt des Malers Antonio Badile und zog später nach Venedig, wo er einen Stil mit leuchtenden Farben, monumentalen Kompositionen und detailreichen architektonischen Kulissen entwickelte. Seine Malerei zählte rasch zu den meistgeschätzten der Stadt und wurde von bedeutenden Familien, religiösen Einrichtungen und Organen der Republik gefragt. Zusammen mit Tizian und Tintoretto gilt er als einer der unbestrittenen Protagonisten der venezianischen Malerei des 16. Jahrhunderts.",
+        "es": "Paolo Veronese fue uno de los mayores pintores del Renacimiento veneciano. Nacido en Verona, se formó en el taller del pintor Antonio Badile y más tarde se trasladó a Venecia, donde desarrolló un estilo caracterizado por colores luminosos, composiciones monumentales y escenografías arquitectónicas ricas en detalles. Su pintura se impuso rápidamente entre las más apreciadas de la ciudad y fue solicitada por importantes familias, instituciones religiosas y órganos de la República. Junto con Tiziano y Tintoretto, se le considera uno de los protagonistas absolutos de la pintura veneciana del siglo XVI."
+      },
+      "curiosita": {
+        "it": [
+          "Il soprannome Veronese deriva dalla sua città natale.",
+          "Realizzò un importante ciclo decorativo nella chiesa di San Sebastiano, uno dei luoghi fondamentali per conoscere la sua arte.",
+          "Nel 1573 fu convocato davanti al tribunale dell'Inquisizione per spiegare la presenza di personaggi e dettagli insoliti in una sua rappresentazione dell'Ultima Cena.",
+          "In seguito a quell'episodio, il dipinto venne intitolato Cena in casa di Levi anziché Ultima Cena."
+        ],
+        "en": [
+          "The nickname Veronese comes from his native city.",
+          "He created an important decorative cycle in the church of San Sebastiano, one of the key places for getting to know his art.",
+          "In 1573 he was summoned before the Inquisition tribunal to explain the presence of unusual figures and details in his depiction of the Last Supper.",
+          "After that episode the painting was retitled Feast in the House of Levi instead of Last Supper."
+        ],
+        "fr": [
+          "Le surnom de Véronèse vient de sa ville natale.",
+          "Il réalisa un important cycle décoratif dans l'église San Sebastiano, l'un des lieux fondamentaux pour connaître son art.",
+          "En 1573, il fut convoqué devant le tribunal de l'Inquisition pour expliquer la présence de personnages et de détails inhabituels dans sa représentation de la Cène.",
+          "À la suite de cet épisode, le tableau fut intitulé Le Repas chez Lévi au lieu de La Cène."
+        ],
+        "de": [
+          "Der Beiname Veronese stammt von seiner Heimatstadt.",
+          "Er schuf einen bedeutenden Dekorationszyklus in der Kirche San Sebastiano, einem der wichtigsten Orte, um seine Kunst kennenzulernen.",
+          "1573 wurde er vor das Inquisitionsgericht geladen, um das Vorkommen ungewöhnlicher Figuren und Details in seiner Darstellung des Letzten Abendmahls zu erklären.",
+          "Nach diesem Vorfall wurde das Gemälde Gastmahl im Haus des Levi statt Letztes Abendmahl betitelt."
+        ],
+        "es": [
+          "El sobrenombre Veronese procede de su ciudad natal.",
+          "Realizó un importante ciclo decorativo en la iglesia de San Sebastiano, uno de los lugares fundamentales para conocer su arte.",
+          "En 1573 fue convocado ante el tribunal de la Inquisición para explicar la presencia de personajes y detalles insólitos en su representación de la Última Cena.",
+          "Tras ese episodio, el cuadro pasó a titularse Cena en casa de Leví en lugar de Última Cena."
+        ]
+      },
+      "luoghi": [
+        "san-sebastiano",
+        "palazzo-ducale",
+        "accademia"
+      ],
+      "ritratto": {
+        "autore": "Paolo Veronese",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "san-sebastiano": {
+          "tipo": {
+            "it": "Il grande ciclo",
+            "en": "The great cycle",
+            "fr": "Le grand cycle",
+            "de": "Der große Zyklus",
+            "es": "El gran ciclo"
+          },
+          "testo": {
+            "it": "Conserva un vasto ciclo di opere e decorazioni dell'artista.",
+            "en": "It preserves a vast cycle of the artist's works and decorations.",
+            "fr": "Elle conserve un vaste cycle d'œuvres et de décorations de l'artiste.",
+            "de": "Hier ist ein umfangreicher Zyklus von Werken und Dekorationen des Künstlers erhalten.",
+            "es": "Conserva un amplio ciclo de obras y decoraciones del artista."
+          }
+        },
+        "palazzo-ducale": {
+          "tipo": {
+            "it": "Dipinti per la Repubblica",
+            "en": "Paintings for the Republic",
+            "fr": "Peintures pour la République",
+            "de": "Gemälde für die Republik",
+            "es": "Pinturas para la República"
+          },
+          "testo": {
+            "it": "Vi si trovano importanti dipinti realizzati per la Repubblica.",
+            "en": "It holds important paintings made for the Republic.",
+            "fr": "On y trouve d'importants tableaux réalisés pour la République.",
+            "de": "Hier befinden sich bedeutende, für die Republik geschaffene Gemälde.",
+            "es": "Alberga importantes pinturas realizadas para la República."
+          }
+        },
+        "accademia": {
+          "tipo": {
+            "it": "La Cena in casa di Levi",
+            "en": "The Feast in the House of Levi",
+            "fr": "Le Repas chez Lévi",
+            "de": "Das Gastmahl im Haus des Levi",
+            "es": "La Cena en casa de Leví"
+          },
+          "testo": {
+            "it": "Custodiscono la celebre Cena in casa di Levi e altre opere fondamentali della pittura veneziana.",
+            "en": "They hold the celebrated Feast in the House of Levi and other fundamental works of Venetian painting.",
+            "fr": "Elles conservent le célèbre Repas chez Lévi et d'autres œuvres fondamentales de la peinture vénitienne.",
+            "de": "Sie bewahren das berühmte Gastmahl im Haus des Levi und weitere grundlegende Werke der venezianischen Malerei.",
+            "es": "Custodian la célebre Cena en casa de Leví y otras obras fundamentales de la pintura veneciana."
+          }
+        }
+      }
+    },
+    {
+      "id": "aldo-manuzio",
+      "nome": "Aldo Manuzio",
+      "nascita": 1449,
+      "morte": 1515,
+      "professione": {
+        "it": "Umanista, tipografo ed editore",
+        "en": "Humanist, printer and publisher",
+        "fr": "Humaniste, imprimeur et éditeur",
+        "de": "Humanist, Drucker und Verleger",
+        "es": "Humanista, tipógrafo y editor"
+      },
+      "luogoNascita": {
+        "it": "Bassiano (Lazio)",
+        "en": "Bassiano (Lazio)",
+        "fr": "Bassiano (Latium)",
+        "de": "Bassiano (Latium)",
+        "es": "Bassiano (Lacio)"
+      },
+      "dataNascita": {
+        "it": "circa 1449-1452",
+        "en": "c. 1449–1452",
+        "fr": "vers 1449-1452",
+        "de": "um 1449–1452",
+        "es": "hacia 1449-1452"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "febbraio 1515",
+        "en": "February 1515",
+        "fr": "février 1515",
+        "de": "Februar 1515",
+        "es": "febrero de 1515"
+      },
+      "biografia": {
+        "it": "Aldo Manuzio fu un umanista, tipografo ed editore tra i più importanti della storia del libro. Dopo aver studiato latino e greco e aver lavorato come precettore, si stabilì a Venezia, dove fondò una tipografia specializzata nella pubblicazione dei classici greci e latini. Le sue edizioni si distinguevano per la cura filologica dei testi, la qualità della stampa e l'attenzione alla leggibilità. Con il suo lavoro contribuì a fare di Venezia uno dei principali centri europei dell'editoria rinascimentale, favorendo la diffusione della cultura umanistica e dei testi dell'antichità.",
+        "en": "Aldus Manutius was a humanist, printer and publisher, among the most important figures in the history of the book. After studying Latin and Greek and working as a tutor, he settled in Venice, where he founded a press specialising in the publication of Greek and Latin classics. His editions stood out for the philological care of the texts, the quality of the printing and the attention to legibility. His work helped make Venice one of the leading European centres of Renaissance publishing, fostering the spread of humanist culture and of the texts of antiquity.",
+        "fr": "Alde Manuce fut un humaniste, imprimeur et éditeur, parmi les plus importants de l'histoire du livre. Après avoir étudié le latin et le grec et travaillé comme précepteur, il s'installa à Venise, où il fonda une imprimerie spécialisée dans la publication des classiques grecs et latins. Ses éditions se distinguaient par le soin philologique apporté aux textes, la qualité de l'impression et l'attention portée à la lisibilité. Son travail contribua à faire de Venise l'un des principaux centres européens de l'édition de la Renaissance, favorisant la diffusion de la culture humaniste et des textes de l'Antiquité.",
+        "de": "Aldus Manutius war ein Humanist, Drucker und Verleger und gehört zu den bedeutendsten Gestalten der Geschichte des Buches. Nach dem Studium des Lateinischen und Griechischen und einer Tätigkeit als Hauslehrer ließ er sich in Venedig nieder und gründete dort eine Druckerei, die auf die Veröffentlichung griechischer und lateinischer Klassiker spezialisiert war. Seine Ausgaben zeichneten sich durch philologische Sorgfalt, Druckqualität und gute Lesbarkeit aus. Seine Arbeit trug dazu bei, Venedig zu einem der wichtigsten europäischen Zentren des Renaissance-Verlagswesens zu machen und förderte die Verbreitung der humanistischen Kultur und der Texte der Antike.",
+        "es": "Aldo Manuzio fue un humanista, tipógrafo y editor, entre los más importantes de la historia del libro. Tras estudiar latín y griego y trabajar como preceptor, se estableció en Venecia, donde fundó una imprenta especializada en la publicación de los clásicos griegos y latinos. Sus ediciones se distinguían por el cuidado filológico de los textos, la calidad de la impresión y la atención a la legibilidad. Con su trabajo contribuyó a hacer de Venecia uno de los principales centros europeos de la edición renacentista, favoreciendo la difusión de la cultura humanista y de los textos de la antigüedad."
+      },
+      "curiosita": {
+        "it": [
+          "Nel 1501 avviò la pubblicazione di libri in formato piccolo, più maneggevoli e facilmente trasportabili rispetto ai grandi volumi tradizionali.",
+          "La sua tipografia introdusse e diffuse il carattere corsivo, noto anche come carattere aldino.",
+          "Il marchio editoriale era costituito da un'ancora intrecciata a un delfino, accompagnata dal motto latino Festina lente, traducibile con «affrettati lentamente».",
+          "Tra le sue pubblicazioni più importanti figurano le edizioni delle opere di Aristotele e di numerosi autori greci."
+        ],
+        "en": [
+          "In 1501 he began publishing books in a small format, handier and easier to carry than the large traditional volumes.",
+          "His press introduced and spread italic type, also known as Aldine type.",
+          "His printer's mark was an anchor entwined with a dolphin, accompanied by the Latin motto Festina lente, which can be rendered as “make haste slowly”.",
+          "Among his most important publications are the editions of the works of Aristotle and of numerous Greek authors."
+        ],
+        "fr": [
+          "En 1501, il lança la publication de livres de petit format, plus maniables et plus faciles à transporter que les grands volumes traditionnels.",
+          "Son imprimerie introduisit et diffusa le caractère italique, aussi appelé caractère aldin.",
+          "Sa marque d'éditeur était une ancre entrelacée d'un dauphin, accompagnée de la devise latine Festina lente, que l'on peut traduire par « hâte-toi lentement ».",
+          "Parmi ses publications les plus importantes figurent les éditions des œuvres d'Aristote et de nombreux auteurs grecs."
+        ],
+        "de": [
+          "1501 begann er, Bücher in kleinem Format herauszugeben, die handlicher und leichter zu transportieren waren als die großen traditionellen Bände.",
+          "Seine Druckerei führte die Kursivschrift ein und verbreitete sie; sie wird auch als Aldine bezeichnet.",
+          "Sein Verlagszeichen bestand aus einem von einem Delfin umschlungenen Anker mit dem lateinischen Motto Festina lente, übersetzbar als „Eile mit Weile“.",
+          "Zu seinen wichtigsten Veröffentlichungen zählen die Ausgaben der Werke des Aristoteles und zahlreicher griechischer Autoren."
+        ],
+        "es": [
+          "En 1501 inició la publicación de libros de formato pequeño, más manejables y fáciles de transportar que los grandes volúmenes tradicionales.",
+          "Su imprenta introdujo y difundió el carácter cursivo, conocido también como letra aldina.",
+          "Su marca editorial era un ancla entrelazada con un delfín, acompañada del lema latino Festina lente, que puede traducirse como «apresúrate despacio».",
+          "Entre sus publicaciones más importantes figuran las ediciones de las obras de Aristóteles y de numerosos autores griegos."
+        ]
+      },
+      "luoghi": [
+        "libreria-marciana"
+      ],
+      "ritratto": {
+        "autore": "Augustin de Saint-Aubin",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "libreria-marciana": {
+          "tipo": {
+            "it": "Il patrimonio librario",
+            "en": "The book heritage",
+            "fr": "Le patrimoine livresque",
+            "de": "Das Bucherbe",
+            "es": "El patrimonio librario"
+          },
+          "testo": {
+            "it": "Per il patrimonio librario e manoscritto che testimonia la cultura umanistica veneziana.",
+            "en": "For the collection of books and manuscripts that bears witness to Venetian humanist culture.",
+            "fr": "Pour le patrimoine de livres et de manuscrits qui témoigne de la culture humaniste vénitienne.",
+            "de": "Wegen des Bestands an Büchern und Handschriften, der die venezianische humanistische Kultur bezeugt.",
+            "es": "Por el patrimonio de libros y manuscritos que testimonia la cultura humanista veneciana."
+          }
+        }
+      }
+    },
+    {
+      "id": "canaletto",
+      "nome": "Giovanni Antonio Canal, detto Canaletto",
+      "nascita": 1697,
+      "morte": 1768,
+      "professione": {
+        "it": "Pittore e incisore",
+        "en": "Painter and engraver",
+        "fr": "Peintre et graveur",
+        "de": "Maler und Kupferstecher",
+        "es": "Pintor y grabador"
+      },
+      "luogoNascita": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataNascita": {
+        "it": "17 o 18 ottobre 1697",
+        "en": "17 or 18 October 1697",
+        "fr": "17 ou 18 octobre 1697",
+        "de": "17. oder 18. Oktober 1697",
+        "es": "17 o 18 de octubre de 1697"
+      },
+      "luogoMorte": {
+        "it": "Venezia",
+        "en": "Venice",
+        "fr": "Venise",
+        "de": "Venedig",
+        "es": "Venecia"
+      },
+      "dataMorte": {
+        "it": "19 aprile 1768",
+        "en": "19 April 1768",
+        "fr": "19 avril 1768",
+        "de": "19. April 1768",
+        "es": "19 de abril de 1768"
+      },
+      "biografia": {
+        "it": "Canaletto fu uno dei più importanti pittori e incisori del Settecento veneziano e il principale rappresentante del genere della veduta. Figlio del pittore di scenografie teatrali Bernardo Canal, iniziò la propria attività collaborando con il padre nella realizzazione di fondali per il teatro. Dopo un soggiorno a Roma, si dedicò alla rappresentazione di paesaggi urbani e monumenti, sviluppando una tecnica caratterizzata da grande precisione prospettica, attenzione alla luce e ricchezza di dettagli. Le sue vedute di Venezia, raffiguranti piazze, canali, chiese e feste pubbliche, furono particolarmente apprezzate dai viaggiatori e dai collezionisti stranieri, soprattutto inglesi.",
+        "en": "Canaletto was one of the most important painters and engravers of eighteenth-century Venice and the leading exponent of the veduta, or view painting. Son of the theatre scene painter Bernardo Canal, he began his career working with his father on stage backdrops. After a stay in Rome, he devoted himself to depicting cityscapes and monuments, developing a technique marked by great perspective accuracy, attention to light and richness of detail. His views of Venice, showing squares, canals, churches and public festivals, were especially prized by foreign travellers and collectors, above all the English.",
+        "fr": "Canaletto fut l'un des plus importants peintres et graveurs du XVIIIe siècle vénitien et le principal représentant du genre de la vue (veduta). Fils du peintre de décors de théâtre Bernardo Canal, il commença son activité en collaborant avec son père à la réalisation de décors de scène. Après un séjour à Rome, il se consacra à la représentation de paysages urbains et de monuments, développant une technique caractérisée par une grande précision de la perspective, une attention à la lumière et une richesse de détails. Ses vues de Venise, représentant places, canaux, églises et fêtes publiques, furent particulièrement appréciées des voyageurs et des collectionneurs étrangers, surtout anglais.",
+        "de": "Canaletto war einer der bedeutendsten Maler und Kupferstecher des venezianischen 18. Jahrhunderts und der wichtigste Vertreter der Vedute. Als Sohn des Theatermalers Bernardo Canal begann er seine Laufbahn mit der Mitarbeit an Bühnenhintergründen seines Vaters. Nach einem Aufenthalt in Rom widmete er sich der Darstellung von Stadtlandschaften und Monumenten und entwickelte eine Technik, die sich durch große perspektivische Genauigkeit, Aufmerksamkeit für das Licht und Detailreichtum auszeichnet. Seine Ansichten Venedigs mit Plätzen, Kanälen, Kirchen und öffentlichen Festen wurden von ausländischen Reisenden und Sammlern, vor allem Engländern, besonders geschätzt.",
+        "es": "Canaletto fue uno de los más importantes pintores y grabadores del siglo XVIII veneciano y el principal representante del género de la vedute. Hijo del pintor de escenografías teatrales Bernardo Canal, comenzó su actividad colaborando con su padre en la realización de telones para el teatro. Tras una estancia en Roma, se dedicó a la representación de paisajes urbanos y monumentos, desarrollando una técnica caracterizada por una gran precisión perspectiva, atención a la luz y riqueza de detalles. Sus vistas de Venecia, que muestran plazas, canales, iglesias y fiestas públicas, fueron especialmente apreciadas por los viajeros y coleccionistas extranjeros, sobre todo ingleses."
+      },
+      "curiosita": {
+        "it": [
+          "Si servì della camera ottica, uno strumento che permetteva di osservare e riprodurre con precisione le prospettive degli edifici e dei paesaggi.",
+          "Ebbe un importante rapporto professionale con Joseph Smith, mercante e collezionista inglese, che contribuì a far conoscere le sue opere in Gran Bretagna.",
+          "Tra il 1746 e il 1756 soggiornò a lungo in Inghilterra, dove dipinse vedute di Londra e della campagna britannica.",
+          "Le sue opere sono oggi importanti anche per lo studio storico della città: permettono di osservare l'aspetto di Venezia nel Settecento."
+        ],
+        "en": [
+          "He used the camera obscura, an instrument that allowed him to observe and accurately reproduce the perspectives of buildings and landscapes.",
+          "He had an important professional relationship with Joseph Smith, an English merchant and collector who helped make his works known in Britain.",
+          "Between 1746 and 1756 he spent long periods in England, where he painted views of London and the British countryside.",
+          "His works are also important today for the historical study of the city: they show what Venice looked like in the eighteenth century."
+        ],
+        "fr": [
+          "Il se servit de la chambre noire, un instrument qui permettait d'observer et de reproduire avec précision les perspectives des édifices et des paysages.",
+          "Il entretint une relation professionnelle importante avec Joseph Smith, marchand et collectionneur anglais, qui contribua à faire connaître ses œuvres en Grande-Bretagne.",
+          "Entre 1746 et 1756, il séjourna longuement en Angleterre, où il peignit des vues de Londres et de la campagne britannique.",
+          "Ses œuvres sont aujourd'hui importantes aussi pour l'étude historique de la ville : elles permettent d'observer l'aspect de Venise au XVIIIe siècle."
+        ],
+        "de": [
+          "Er benutzte die Camera obscura, ein Instrument, das es erlaubte, die Perspektiven von Gebäuden und Landschaften genau zu beobachten und wiederzugeben.",
+          "Er hatte eine wichtige berufliche Beziehung zu Joseph Smith, einem englischen Kaufmann und Sammler, der dazu beitrug, seine Werke in Großbritannien bekannt zu machen.",
+          "Zwischen 1746 und 1756 hielt er sich lange in England auf, wo er Ansichten von London und der britischen Landschaft malte.",
+          "Seine Werke sind heute auch für die historische Erforschung der Stadt wichtig: Sie zeigen das Aussehen Venedigs im 18. Jahrhundert."
+        ],
+        "es": [
+          "Se sirvió de la cámara oscura, un instrumento que permitía observar y reproducir con precisión las perspectivas de edificios y paisajes.",
+          "Mantuvo una importante relación profesional con Joseph Smith, comerciante y coleccionista inglés, que contribuyó a dar a conocer sus obras en Gran Bretaña.",
+          "Entre 1746 y 1756 residió largos periodos en Inglaterra, donde pintó vistas de Londres y del campo británico.",
+          "Sus obras son hoy importantes también para el estudio histórico de la ciudad: permiten observar el aspecto de Venecia en el siglo XVIII."
+        ]
+      },
+      "luoghi": [
+        "piazza-san-marco",
+        "ca-rezzonico",
+        "accademia"
+      ],
+      "ritratto": {
+        "autore": "Antonio Visentini",
+        "licenza": "Pubblico dominio"
+      },
+      "luoghiNote": {
+        "piazza-san-marco": {
+          "tipo": {
+            "it": "Il soggetto preferito",
+            "en": "A favourite subject",
+            "fr": "Un sujet de prédilection",
+            "de": "Ein bevorzugtes Motiv",
+            "es": "Un tema recurrente"
+          },
+          "testo": {
+            "it": "Uno dei soggetti più ricorrenti delle sue vedute.",
+            "en": "One of the most recurrent subjects of his views.",
+            "fr": "L'un des sujets les plus récurrents de ses vues.",
+            "de": "Eines der häufigsten Motive seiner Veduten.",
+            "es": "Uno de los temas más recurrentes de sus vistas."
+          }
+        },
+        "ca-rezzonico": {
+          "tipo": {
+            "it": "Il Settecento veneziano",
+            "en": "Venice in the 1700s",
+            "fr": "Le Venise du XVIIIe siècle",
+            "de": "Das venezianische 18. Jahrhundert",
+            "es": "La Venecia del siglo XVIII"
+          },
+          "testo": {
+            "it": "Per approfondire il contesto artistico e culturale in cui operò.",
+            "en": "To learn more about the artistic and cultural context in which he worked.",
+            "fr": "Pour approfondir le contexte artistique et culturel dans lequel il travailla.",
+            "de": "Um den künstlerischen und kulturellen Kontext, in dem er wirkte, besser kennenzulernen.",
+            "es": "Para profundizar en el contexto artístico y cultural en el que trabajó."
+          }
+        },
+        "accademia": {
+          "tipo": {
+            "it": "La pittura veneziana",
+            "en": "Venetian painting",
+            "fr": "La peinture vénitienne",
+            "de": "Die venezianische Malerei",
+            "es": "La pintura veneciana"
+          },
+          "testo": {
+            "it": "Per il patrimonio della pittura veneziana.",
+            "en": "For the heritage of Venetian painting.",
+            "fr": "Pour le patrimoine de la peinture vénitienne.",
+            "de": "Wegen des Erbes der venezianischen Malerei.",
+            "es": "Por el patrimonio de la pintura veneciana."
+          }
+        }
+      }
     }
   ]
 }

@@ -108,7 +108,12 @@
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
    },
-   "personaggio": "antonio-vivaldi",
+   "personaggio": [
+    "antonio-vivaldi",
+    "enrico-dandolo",
+    "jacopo-sansovino",
+    "ludovico-manin"
+   ],
    "accessibilita": {
     "fonte": "https://www.basilicasanmarco.it",
     "verificato": "2026-11-11",
@@ -227,7 +232,8 @@
    "personaggio": [
     "moderata-fonte",
     "tiziano-vecellio",
-    "giovanni-bellini"
+    "giovanni-bellini",
+    "francesco-foscari"
    ],
    "accessibilita": {
     "fonte": "https://www.basilicadeifrari.it",
@@ -450,7 +456,12 @@
    },
    "personaggio": [
     "giacomo-casanova",
-    "jacopo-tintoretto"
+    "jacopo-tintoretto",
+    "enrico-dandolo",
+    "francesco-foscari",
+    "ludovico-manin",
+    "daniele-manin",
+    "paolo-veronese"
    ],
    "accessibilita": {
     "fonte": "https://palazzoducale.visitmuve.it",
@@ -557,7 +568,9 @@
    "personaggio": [
     "jacopo-tintoretto",
     "tiziano-vecellio",
-    "giovanni-bellini"
+    "giovanni-bellini",
+    "paolo-veronese",
+    "canaletto"
    ],
    "accessibilita": {
     "fonte": "https://www.gallerieaccademia.it",
@@ -650,7 +663,8 @@
       "es": "Está disponible el proyecto «Doppio Senso», con recorridos táctiles y reproducciones de algunas obras. Se pueden solicitar más reproducciones táctiles y fichas descriptivas. Se admiten perros guía."
      }
     }
-   }
+   },
+   "personaggio": "peggy-guggenheim"
   },
   {
    "id": "ponte-rialto",
@@ -802,7 +816,11 @@
     "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-   }
+   },
+   "personaggio": [
+    "jacopo-sansovino",
+    "canaletto"
+   ]
   },
   {
    "id": "stazione",

@@ -108,7 +108,12 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "antonio-vivaldi",
+      "personaggio": [
+        "antonio-vivaldi",
+        "enrico-dandolo",
+        "jacopo-sansovino",
+        "ludovico-manin"
+      ],
       "accessibilita": {
         "fonte": "https://www.basilicasanmarco.it",
         "verificato": "2026-11-11",
@@ -227,7 +232,8 @@
       "personaggio": [
         "moderata-fonte",
         "tiziano-vecellio",
-        "giovanni-bellini"
+        "giovanni-bellini",
+        "francesco-foscari"
       ],
       "accessibilita": {
         "fonte": "https://www.basilicadeifrari.it",
@@ -529,7 +535,10 @@
           }
         }
       ],
-      "personaggio": "jacopo-tintoretto",
+      "personaggio": [
+        "jacopo-tintoretto",
+        "andrea-palladio"
+      ],
       "accessibilita": {
         "fonte": "https://www.abbaziasangiorgio.it",
         "verificato": "2026-11-11",
@@ -614,7 +623,8 @@
             "es": "Se accede a la iglesia por una escalinata monumental en la fachada principal. No constan entradas alternativas sin escalones ni ayudas para salvar la escalinata, por lo que el acceso para personas con movilidad reducida no está garantizado."
           }
         }
-      }
+      },
+      "personaggio": "andrea-palladio"
     },
     {
       "id": "madonna-orto",
@@ -966,7 +976,8 @@
             "es": "La entrada principal tiene escalones en el portal: para salvarlos en silla de ruedas se necesita la ayuda de un acompañante o del personal. Algunas zonas elevadas o capillas laterales menores pueden tener otros pequeños escalones. A la sacristía se llega superando dos escalones de 10 cm. Por las obras de restauración, el interior solo se puede admirar desde la entrada."
           }
         }
-      }
+      },
+      "personaggio": "paolo-veronese"
     },
     {
       "id": "gesuiti",
@@ -1340,7 +1351,8 @@
             "es": "El acceso a la catedral es posible gracias a unas rampas."
           }
         }
-      }
+      },
+      "personaggio": "cassiodoro"
     },
     {
       "id": "san-francesco-vigna",
@@ -3483,7 +3495,8 @@
             "es": "La entrada principal tiene tres escalones de unos 17 cm cada uno, con pasamanos. Por ello, el acceso autónomo en silla de ruedas no está garantizado."
           }
         }
-      }
+      },
+      "personaggio": "ludovico-manin"
     },
     {
       "id": "san-geremia",
@@ -3750,7 +3763,12 @@
       },
       "personaggio": [
         "giacomo-casanova",
-        "jacopo-tintoretto"
+        "jacopo-tintoretto",
+        "enrico-dandolo",
+        "francesco-foscari",
+        "ludovico-manin",
+        "daniele-manin",
+        "paolo-veronese"
       ],
       "accessibilita": {
         "fonte": "https://palazzoducale.visitmuve.it",
@@ -3857,7 +3875,9 @@
       "personaggio": [
         "jacopo-tintoretto",
         "tiziano-vecellio",
-        "giovanni-bellini"
+        "giovanni-bellini",
+        "paolo-veronese",
+        "canaletto"
       ],
       "accessibilita": {
         "fonte": "https://www.gallerieaccademia.it",
@@ -3982,7 +4002,8 @@
             "es": "En la planta baja hay aseos accesibles."
           }
         }
-      }
+      },
+      "personaggio": "canaletto"
     },
     {
       "id": "san-rocco",
@@ -4462,7 +4483,8 @@
             "es": "Está disponible el proyecto «Doppio Senso», con recorridos táctiles y reproducciones de algunas obras. Se pueden solicitar más reproducciones táctiles y fichas descriptivas. Se admiten perros guía."
           }
         }
-      }
+      },
+      "personaggio": "peggy-guggenheim"
     },
     {
       "id": "ca-pesaro",
@@ -6331,7 +6353,8 @@
             "es": "El museo está repartido en dos edificios. El Palazzo del Consiglio, con la sección medieval y moderna, solo es accesible en la planta baja. El Palazzo dell'Archivio, con la sección arqueológica, no es accesible porque se entra por una escalera exterior."
           }
         }
-      }
+      },
+      "personaggio": "cassiodoro"
     },
     {
       "id": "ca-doro",
@@ -8071,7 +8094,8 @@
         "fr": "Construite à partir de 1453 pour le doge Francesco Foscari, c'est l'un des chefs-d'œuvre du gothique vénitien, au point le plus spectaculaire du canal, la « volta de canal ». Depuis 1868, elle abrite l'université Ca' Foscari. Devant le palais, le premier dimanche de septembre, se termine la Régate historique : les vainqueurs sont récompensés sur la « machina », une estrade flottante.",
         "de": "Ab 1453 für den Dogen Francesco Foscari erbaut, ist sie ein Meisterwerk der venezianischen Gotik, am eindrucksvollsten Punkt des Kanals, der „volta de canal“. Seit 1868 ist sie Sitz der Universität Ca' Foscari. Vor dem Palast endet am ersten Septembersonntag die Regata Storica: Auf der „machina“, einer schwimmenden Tribüne, werden die Sieger geehrt.",
         "es": "Construida desde 1453 para el dux Francesco Foscari, es una de las obras maestras del gótico veneciano, en el punto más escenográfico del canal, la «volta de canal». Desde 1868 es la sede de la Universidad Ca' Foscari. Delante del palacio, el primer domingo de septiembre, termina la Regata Histórica: en la «machina», un escenario flotante, se premia a los ganadores."
-      }
+      },
+      "personaggio": "francesco-foscari"
     },
     {
       "id": "palazzo-giustinian",
@@ -9277,7 +9301,11 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      }
+      },
+      "personaggio": [
+        "jacopo-sansovino",
+        "canaletto"
+      ]
     },
     {
       "id": "campo-san-polo",
@@ -10452,7 +10480,11 @@
             "es": "Los espacios expositivos cuentan con ascensores."
           }
         }
-      }
+      },
+      "personaggio": [
+        "enrico-dandolo",
+        "daniele-manin"
+      ]
     },
     {
       "id": "libreria-marciana",
@@ -10516,7 +10548,11 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "veronica-franco",
+      "personaggio": [
+        "veronica-franco",
+        "jacopo-sansovino",
+        "aldo-manuzio"
+      ],
       "accessibilita": {
         "fonte": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
         "verificato": "2026-11-11",
@@ -10588,7 +10624,8 @@
         "en": "Molino Stucky",
         "es": "Molino Stucky",
         "fr": "Moulin Stucky"
-      }
+      },
+      "personaggio": "giovanni-stucky"
     },
     {
       "id": "tre-oci",
@@ -11501,7 +11538,8 @@
             "es": "Dentro del campanario un ascensor lleva hasta la cima."
           }
         }
-      }
+      },
+      "personaggio": "jacopo-sansovino"
     },
     {
       "id": "torre-orologio",
@@ -12925,7 +12963,8 @@
         "fr": "Longue et étroite île entre la lagune et la mer Adriatique, le Lido est depuis toujours la plage de Venise. Depuis l'embarcadère de Santa Maria Elisabetta, principal débarcadère de l'île, une courte avenue mène vers la mer. C'est ici qu'est née, en 1932, la Mostra internationale d'art cinématographique de Venise, d'abord installée sur la terrasse de l'hôtel Excelsior puis, à partir de 1937, au Palazzo del Cinema.",
         "de": "Der Lido, eine lange, schmale Insel zwischen der Lagune und der Adria, ist seit jeher der Strand von Venedig. Von der Anlegestelle Santa Maria Elisabetta, dem Hauptanleger der Insel, führt eine kurze Allee zum Meer. Hier wurden 1932 die Internationalen Filmfestspiele von Venedig ins Leben gerufen, die zunächst auf der Terrasse des Hotels Excelsior und seit 1937 im Palazzo del Cinema stattfinden.",
         "es": "Isla larga y estrecha entre la laguna y el mar Adriático, el Lido es desde siempre la playa de Venecia. Desde el embarcadero de Santa Maria Elisabetta, principal desembarcadero de la isla, una breve avenida conduce hacia el mar. Aquí nació en 1932 la Muestra Internacional de Arte Cinematográfico de Venecia, alojada primero en la terraza del Hotel Excelsior y, desde 1937, en el Palacio del Cine."
-      }
+      },
+      "personaggio": "giuseppe-volpi"
     }
   ]
 }

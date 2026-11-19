@@ -1,5 +1,5 @@
 {
- "versione": "af65d8b00dc5",
+ "versione": "76a701eaa357",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -6752,16 +6752,58 @@
    "byte": 1646
   },
   {
+   "path": "assets/personaggi/aldo-manuzio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/aldo-manuzio.webp",
+   "sha256": "636a39dc681266d61dd8be7999e7ea9f3df482d6f31faf8b39432cde223e6ce9",
+   "byte": 171340
+  },
+  {
+   "path": "assets/personaggi/andrea-palladio.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/andrea-palladio.webp",
+   "sha256": "1c5b97fc23cb405aa40fffb8d3f1e02a41014a40c5ab241bafac402d07fa23da",
+   "byte": 375258
+  },
+  {
    "path": "assets/personaggi/antonio-vivaldi.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/antonio-vivaldi.webp",
    "sha256": "a17a4e71e3fcfa7d3622136fa01e808fd5d4cba6cf4bcd09e6668f9f3a9da74d",
    "byte": 381242
   },
   {
+   "path": "assets/personaggi/canaletto.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/canaletto.webp",
+   "sha256": "28afa82e11fee91b5dbc2f8dc1cfdfafbd1e52ee68b1e4d90d20582170786558",
+   "byte": 202726
+  },
+  {
    "path": "assets/personaggi/carlo-goldoni.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/carlo-goldoni.webp",
    "sha256": "82881f373c09e2e0cb37f3ba56b2f573bc88eb1e1b98c17a2ab621e2f58b1533",
    "byte": 65306
+  },
+  {
+   "path": "assets/personaggi/cassiodoro.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/cassiodoro.webp",
+   "sha256": "0d1d298a792b56a6b72a3c8cddd22efe4c6995be60af423bf9241f2b3530bf2a",
+   "byte": 97608
+  },
+  {
+   "path": "assets/personaggi/daniele-manin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/daniele-manin.webp",
+   "sha256": "8f162b9436922eea4190e48b64b53b465251898d8960a3780341ae10ac8d9ad8",
+   "byte": 11506
+  },
+  {
+   "path": "assets/personaggi/enrico-dandolo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/enrico-dandolo.webp",
+   "sha256": "4ff60fa3efe8a01b62246f3696d0a43067e820d00615e3c52a76e47676f7def6",
+   "byte": 90504
+  },
+  {
+   "path": "assets/personaggi/francesco-foscari.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/francesco-foscari.webp",
+   "sha256": "3adae9d16bfbcd870e7d80df62c4417453ac84804f9c3e834babd3936da04ce3",
+   "byte": 224970
   },
   {
    "path": "assets/personaggi/giacomo-casanova.webp",
@@ -6782,10 +6824,34 @@
    "byte": 54940
   },
   {
+   "path": "assets/personaggi/giovanni-stucky.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/giovanni-stucky.webp",
+   "sha256": "3a9f819919c0056fae4134087eada34df44ddbc23c6fc91281341f63279c7036",
+   "byte": 49874
+  },
+  {
+   "path": "assets/personaggi/giuseppe-volpi.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/giuseppe-volpi.webp",
+   "sha256": "394183d55c0510c7ae865dfb4466e5c7e92d7ee3812a8421ccc389ff7af19422",
+   "byte": 23120
+  },
+  {
+   "path": "assets/personaggi/jacopo-sansovino.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/jacopo-sansovino.webp",
+   "sha256": "bb4d9ce71e9c7d322ada352939ef2680a8d4f86a3d642800c5c592eb274399d8",
+   "byte": 171688
+  },
+  {
    "path": "assets/personaggi/jacopo-tintoretto.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/jacopo-tintoretto.webp",
    "sha256": "751cfc95fb1f20d79f7c7b16c0f380d34b64ba2be5e8caf2fe0bcdbd4e76cf39",
    "byte": 30938
+  },
+  {
+   "path": "assets/personaggi/ludovico-manin.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/ludovico-manin.webp",
+   "sha256": "ece183d23e993d013f976a90f442d7dc0f246ae90436b6b6abacede4d63e3e65",
+   "byte": 59756
   },
   {
    "path": "assets/personaggi/marco-polo.webp",
@@ -6798,6 +6864,18 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/moderata-fonte.webp",
    "sha256": "50949b5cf765a302e4ebe259be765d865924abaa568e9b1cc478f65c571d0ace",
    "byte": 84432
+  },
+  {
+   "path": "assets/personaggi/paolo-veronese.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/paolo-veronese.webp",
+   "sha256": "89830e147198d7f59f14cf2e4c7ce1950990f89788527efa7a2d207f3bac896e",
+   "byte": 432808
+  },
+  {
+   "path": "assets/personaggi/peggy-guggenheim.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/personaggi/peggy-guggenheim.webp",
+   "sha256": "bf18e059f87f2908d602447feff60a9baa8fdf0aed6d28a1eba7ce44e8145b92",
+   "byte": 44996
   },
   {
    "path": "assets/personaggi/tiziano-vecellio.webp",
@@ -6868,8 +6946,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/luoghi.json",
-   "sha256": "bc079712c6479de50a2b8a0763112ab5473e948dbeb70a2b271022c55d972192",
-   "byte": 1043446
+   "sha256": "d70caf13f5e1b84d355c739191ecc836796f66007cc34e3cd7b608aa145ed6d1",
+   "byte": 1044454
   },
   {
    "path": "dati/mappa.json",
@@ -6892,8 +6970,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/personaggi.json",
-   "sha256": "57f17bd29174383fd5b275c4277ba8fb1608bed2bdd9f0765886f417f3c90e89",
-   "byte": 204056
+   "sha256": "958193cf8aa362da947b965e6cad27e5373bbc395a925c920cb4f7d7974642aa",
+   "byte": 325143
   },
   {
    "path": "dati/principali.json",
@@ -6941,6 +7019,16 @@
    "foto_nuove": 5,
    "mezzi": true,
    "byte": 1418240
+  },
+  {
+   "versione": "76a701eaa357",
+   "da": "af65d8b00dc5",
+   "data": "2026-11-19",
+   "luoghi_aggiornati": 19,
+   "aspetti": [
+    "altro"
+   ],
+   "byte": 3325751
   }
  ]
 }
