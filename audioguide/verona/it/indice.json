@@ -1,34 +1,34 @@
 {
- "versione": "017354a17ebf",
+ "versione": "6f9f06bd0006",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
-   "byte": 1268972,
-   "secondi": 211,
+   "byte": 1274156,
+   "secondi": 212,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "arche-scaligere.mp3",
-     "byte": 1268972,
-     "secondi": 211,
-     "sha256": "4cdaffdc417a6d619090da4be1fcb54a4f579bbd0014022d8656298b52ddc176",
-     "testo": "e5ea47a8fc1b75f9"
+     "byte": 1274156,
+     "secondi": 212,
+     "sha256": "b5999109edc93bee84019b974058c74f059dac41132cd362a6fcf22a7feacfb5",
+     "testo": "8109296ab99ef9f4"
     }
    ]
   },
   "arco-dei-gavi": {
-   "byte": 1222460,
-   "secondi": 204,
+   "byte": 1200860,
+   "secondi": 200,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "arco-dei-gavi.mp3",
-     "byte": 1222460,
-     "secondi": 204,
-     "sha256": "8c34bddc8036afed438b4928cc5086e1bfc34979e597cbdbdeee6e80f9082d07",
-     "testo": "cb1842965a5396a1"
+     "byte": 1200860,
+     "secondi": 200,
+     "sha256": "13c27092e7fa45c4147cd21f83a8b44ae48e0c8bebb45d4e9fab9430318616c3",
+     "testo": "9824914a482d87e9"
     }
    ]
   },
@@ -57,17 +57,17 @@
    ]
   },
   "arsenale-austriaco": {
-   "byte": 1413980,
-   "secondi": 236,
+   "byte": 1400732,
+   "secondi": 233,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "arsenale-austriaco.mp3",
-     "byte": 1413980,
-     "secondi": 236,
-     "sha256": "1dc87b702d6e54be529899cc8f466c1322de5f13b40e5772254dd86802cd7c27",
-     "testo": "05fcb32414375547"
+     "byte": 1400732,
+     "secondi": 233,
+     "sha256": "14ebcb3f7de4e5271864c36406144c33b9ea8290bcb1324bcef7044fb5686ed1",
+     "testo": "7e103067bea7e956"
     }
    ]
   },
@@ -267,17 +267,17 @@
    ]
   },
   "piazza-dei-signori": {
-   "byte": 1241324,
-   "secondi": 207,
+   "byte": 1257596,
+   "secondi": 210,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "piazza-dei-signori.mp3",
-     "byte": 1241324,
-     "secondi": 207,
-     "sha256": "8be8cf747451cd6533589b9e0c30475974a22277f85fe6d17a6853a9b52dad97",
-     "testo": "c1b577e8659f4d83"
+     "byte": 1257596,
+     "secondi": 210,
+     "sha256": "336f339a5ffe813c59701c921e5bbfe831ef99880524592ae84f56ad458131b9",
+     "testo": "486f4075d3be01e8"
     }
    ]
   },
@@ -297,17 +297,17 @@
    ]
   },
   "piazza-san-zeno": {
-   "byte": 977804,
-   "secondi": 163,
+   "byte": 963692,
+   "secondi": 161,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "piazza-san-zeno.mp3",
-     "byte": 977804,
-     "secondi": 163,
-     "sha256": "9db440353da39c51d827c55e9c061e298bafe88b4967af597c0b78ad397ccf54",
-     "testo": "4b33cf82207132ab"
+     "byte": 963692,
+     "secondi": 161,
+     "sha256": "096d2ebfd4df2b234310ea241f4d92e7cb7b54826cee3eea172a90975c121db5",
+     "testo": "a61889dea1877d11"
     }
    ]
   },
@@ -426,32 +426,32 @@
    ]
   },
   "storia-00": {
-   "byte": 780812,
-   "secondi": 130,
+   "byte": 785420,
+   "secondi": 131,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-00.mp3",
-     "byte": 780812,
-     "secondi": 130,
-     "sha256": "977967f192ca647be7a93d991de16039f600edfed0779e27330c4fb4a39bb7c0",
-     "testo": "fec118584f74cfd2"
+     "byte": 785420,
+     "secondi": 131,
+     "sha256": "33ff869282004bdc067d34f18599f3b05d93fdfae4aebe92d019cddc3615cdce",
+     "testo": "57ae2cd938f1cdf5"
     }
    ]
   },
   "storia-01": {
-   "byte": 867644,
-   "secondi": 145,
+   "byte": 878876,
+   "secondi": 146,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-01.mp3",
-     "byte": 867644,
-     "secondi": 145,
-     "sha256": "9cb75b30611fbeea01d199c851561bfce6ecf6857e910addf80866964e9d57d6",
-     "testo": "df4b4509a044a85f"
+     "byte": 878876,
+     "secondi": 146,
+     "sha256": "df58704bd348af2621fea38996094231d4a00a818e92419a1e36c77ea245463f",
+     "testo": "0a18074754c4de70"
     }
    ]
   },
@@ -471,32 +471,32 @@
    ]
   },
   "storia-03": {
-   "byte": 1212668,
-   "secondi": 202,
+   "byte": 1204172,
+   "secondi": 201,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-03.mp3",
-     "byte": 1212668,
-     "secondi": 202,
-     "sha256": "af43da519738c9f723f026e5b3dcf8280ccf35544a6818d2bd1376241877b263",
-     "testo": "88046203e3cea25e"
+     "byte": 1204172,
+     "secondi": 201,
+     "sha256": "ebd9670ebe928bc6286684c01594344844b8333575f04f7dcb346b6d35ffefa3",
+     "testo": "a3a6208299e38a2c"
     }
    ]
   },
   "storia-04": {
-   "byte": 1144556,
-   "secondi": 191,
+   "byte": 1133756,
+   "secondi": 189,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-04.mp3",
-     "byte": 1144556,
-     "secondi": 191,
-     "sha256": "e5db58a44c9f2cf5d7f38998239f26b9b509c19069e92e364fd66d743221a2b5",
-     "testo": "48eed61604250dc4"
+     "byte": 1133756,
+     "secondi": 189,
+     "sha256": "4e5dc20450d8c18b00afb2b8a8aa673e62a3b2444bc0c30ccaf2e3eb642f93b8",
+     "testo": "2894843c0de7d394"
     }
    ]
   },
@@ -516,17 +516,17 @@
    ]
   },
   "storia-06": {
-   "byte": 854540,
-   "secondi": 142,
+   "byte": 876572,
+   "secondi": 146,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-06.mp3",
-     "byte": 854540,
-     "secondi": 142,
-     "sha256": "51a6f4e3ca9025724432b27c49cc35c1e2d9f20a5395fc939d551562f17c9a3e",
-     "testo": "170e5f0f96f24e32"
+     "byte": 876572,
+     "secondi": 146,
+     "sha256": "584c5daf9b1c9d9cd8b641c1fd4eb956218c7964be3e718c1d6d74b243b46c01",
+     "testo": "608dcafc1cc19dd1"
     }
    ]
   },
