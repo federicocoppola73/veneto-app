@@ -212,7 +212,7 @@ export default function SelettoreItinerari({
                       </Text>
                     ))
                 : null}
-              {aperta && p.audio ? <RigaAudioguida luogo={{ id: p.audio }} lingua={lingua} t={t} /> : null}
+              {aperta && p.audio ? <RigaAudioguida luogo={{ id: p.audio }} lingua={lingua} t={t} persisti /> : null}
               {aperta && luoghiP.length ? (
                 <>
                   <Text style={styles.periodoSezione}>{t('storia_monumenti')}</Text>

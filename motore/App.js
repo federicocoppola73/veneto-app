@@ -28,6 +28,7 @@ import PannelloServizi from './src/components/PannelloServizi';
 import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
 import PannelloPersonaggi from './src/components/PannelloPersonaggi';
+import { fermaAudioPersistente } from './src/components/Audioguida';
 import SchedaPersonaggio from './src/components/SchedaPersonaggio';
 import SchedaStorica from './src/components/SchedaStorica';
 import { personaggi } from './src/personaggi';
@@ -994,6 +995,7 @@ function Schermata({ linguaIniziale }) {
       <SelettoreItinerari
         visibile={selettoreAperto}
         onChiudi={() => {
+          fermaAudioPersistente();
           setSelettoreAperto(false);
           setApriItinerarioId(null);
         }}
@@ -1125,6 +1127,7 @@ function Schermata({ linguaIniziale }) {
               setSelettoreAperto(true);
               return;
             }
+            fermaAudioPersistente();
             const luogoId = ritornoLuogo.current;
             ritornoLuogo.current = null;
             if (luogoId) setIdSelezionato(luogoId);
@@ -1137,11 +1140,13 @@ function Schermata({ linguaIniziale }) {
             // la scheda del personaggio si chiude e si riapre alla chiusura della scheda del luogo
             ritornoLuogo.current = null;
             ritornoPersonaggio.current = personaggioAperto;
+            fermaAudioPersistente();
             setPersonaggioAperto(null);
             setPannelloPersonaggi(false);
             apriTappa(luogoId);
           }}
           onCreaItinerario={(persona, visitabili) => {
+            fermaAudioPersistente();
             setPersonaggioAperto(null);
             setPannelloPersonaggi(false);
             setEditor({ titolo: persona.nome, tappe: visitabili });

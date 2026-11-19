@@ -11,7 +11,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
-import { setAudioModeAsync, useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import { createAudioPlayer, setAudioModeAsync, useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { CATEGORIE, coloreCategoria } from '../categorie';
 import { nomeCitta } from '../citta';
@@ -47,6 +47,28 @@ function vociAudioguide(indice, lingua, t) {
     .filter((l) => indice?.luoghi?.[l.id])
     .sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
   return [...storia, ...luoghi];
+}
+
+// Lettore "persistente" (solo schede della Storia): se si apre un personaggio o un luogo da una scheda, l'audioguida
+// continua e, tornando alla scheda, il lettore mostra il punto a cui è arrivata. Un solo lettore alla volta.
+let persistente = null; // { uri, player }
+function playerPersistente(uri) {
+  if (persistente?.uri === uri) return persistente.player;
+  fermaAudioPersistente();
+  const player = createAudioPlayer({ uri });
+  persistente = { uri, player };
+  return player;
+}
+export function fermaAudioPersistente() {
+  if (!persistente) return;
+  const { player } = persistente;
+  persistente = null;
+  try {
+    player.pause();
+    player.remove();
+  } catch {
+    // già rilasciato
+  }
 }
 
 // l'audio si sente anche con il telefono in modalità silenziosa (iPhone)
@@ -89,7 +111,7 @@ const IconaScarica = ({ colore = '#fff' }) => (
 );
 
 // ---- Scheda del luogo ----
-export function RigaAudioguida({ luogo, lingua, t }) {
+export function RigaAudioguida({ luogo, lingua, t, persisti }) {
   const { indice, presenti, progresso } = useAudioguide();
   const [elenco, setElenco] = useState(false);
   const info = indice?.luoghi?.[luogo?.id];
@@ -99,7 +121,7 @@ export function RigaAudioguida({ luogo, lingua, t }) {
     <>
       {tracce?.length ? (
         <>
-          <LettoreTracce key={luogo.id} tracce={tracce} t={t} />
+          <LettoreTracce key={luogo.id} tracce={tracce} t={t} persisti={persisti} />
           {/* anche dopo averla scaricata si può aprire l'elenco delle altre */}
           <Pressable onPress={() => setElenco(true)} hitSlop={8} accessibilityRole="link" style={styles.linkSotto}>
             <Text style={styles.link}>{t('aud_altre').replace('{citta}', nomeCitta())} ›</Text>
@@ -138,7 +160,7 @@ export function RigaAudioguida({ luogo, lingua, t }) {
 // Niente partenze automatiche: scegliere una linguetta prepara la traccia, l'ascolto lo avvia sempre l'utente con play.
 // Unica eccezione, le audioguide di percorso (tracce con "tappe", es. i tratti del Canal Grande): finito un tratto
 // che l'utente stava ascoltando, parte il successivo, come un racconto unico.
-function LettoreTracce({ tracce, t }) {
+function LettoreTracce({ tracce, t, persisti }) {
   const [indice, setIndice] = useState(0);
   const [avvia, setAvvia] = useState(false);
   const i = Math.min(indice, tracce.length - 1);
@@ -184,6 +206,7 @@ function LettoreTracce({ tracce, t }) {
         compatto={tracce.length > 1}
         avvia={avvia}
         onFine={fine}
+        persisti={persisti}
         t={t}
       />
     </>
@@ -192,8 +215,11 @@ function LettoreTracce({ tracce, t }) {
 
 // avvia: parte appena montato (tratto successivo di un percorso); onFine: chiamata a fine traccia;
 // onSuona(true/false): avvisa quando l'audio parte o si ferma
-function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, stile }) {
-  const player = useAudioPlayer({ uri });
+function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, stile, persisti }) {
+  // "persisti" non cambia per tutta la vita del componente, quindi l'ordine degli hook resta lo stesso
+  /* eslint-disable react-hooks/rules-of-hooks */
+  const player = persisti ? useMemo(() => playerPersistente(uri), [uri]) : useAudioPlayer({ uri });
+  /* eslint-enable react-hooks/rules-of-hooks */
   const s = useAudioPlayerStatus(player);
   const durata = s.duration || secondi || 0;
   // trascinando il dito sulla barra si vede dove si arriverà; al rilascio l'audio salta lì
@@ -231,6 +257,8 @@ function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, st
 
   const suona = () => {
     impostaModoAudio();
+    // un lettore normale che parte ferma quello della Storia rimasto acceso
+    if (!persisti && !s.playing) fermaAudioPersistente();
     if (s.playing) player.pause();
     else player.play();
   };
