@@ -1,5 +1,5 @@
 {
- "versione": "dec1292c2a65",
+ "versione": "31803370e133",
  "tipo": "prova",
  "file": [
   {
@@ -4957,6 +4957,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/servizi.json",
    "sha256": "d33a2a9e6915de01ffe5dfec73153ac5b918d2132f328bc883654adde2c4d528",
    "byte": 160519
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/storia.json",
+   "sha256": "62f23ec0512f55d3940b2c8034e584a4ccf198c4e95b38a7c616ff9b73991494",
+   "byte": 38656
   },
   {
    "path": "dati/tessere.json",
