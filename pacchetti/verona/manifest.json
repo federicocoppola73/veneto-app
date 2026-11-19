@@ -1,5 +1,5 @@
 {
- "versione": "08093438e87c",
+ "versione": "8f352385efc1",
  "file": [
   {
    "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
@@ -6542,6 +6542,18 @@
    "byte": 101258
   },
   {
+   "path": "assets/personaggi/carlo-scarpa.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/carlo-scarpa.webp",
+   "sha256": "44455dc09ce7b2c5af02028be8b80dc42a11401a6b4bacba0d33ee5203b16009",
+   "byte": 18244
+  },
+  {
+   "path": "assets/personaggi/cesare-lombroso.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/cesare-lombroso.webp",
+   "sha256": "9a62c0b6793fadf2a62c56bae09f4cffca2d78796a9219995e3162dd509ac4f5",
+   "byte": 67798
+  },
+  {
    "path": "assets/personaggi/dante-alighieri.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/dante-alighieri.webp",
    "sha256": "cb2eb9d2a989a99c414771d9953f03baf03d06de68719912751c9b9397c3fc23",
@@ -6560,10 +6572,28 @@
    "byte": 337394
   },
   {
+   "path": "assets/personaggi/gaio-valerio-catullo.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/gaio-valerio-catullo.webp",
+   "sha256": "f7b3c524e695b10b61500384890c065439b56e2700483b277ca80594fe198ebb",
+   "byte": 193910
+  },
+  {
+   "path": "assets/personaggi/giovanni-zenatello.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/giovanni-zenatello.webp",
+   "sha256": "268f9d93a5c754229ba1172cca556e3e9ac36dd4e51bbba2891d60c5c3d4db26",
+   "byte": 71246
+  },
+  {
    "path": "assets/personaggi/girolamo-fracastoro.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/girolamo-fracastoro.webp",
    "sha256": "892a19e402ceba40041629bbd316ee36a71144a2d04b3822681a4c0e2c1ab44a",
    "byte": 413462
+  },
+  {
+   "path": "assets/personaggi/mastino-i-della-scala.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/mastino-i-della-scala.webp",
+   "sha256": "2cca5c3396088b7cc5b23d246f16d364445cd73751034c647c68cda0a8ae8f48",
+   "byte": 128790
   },
   {
    "path": "assets/personaggi/michele-sanmicheli.webp",
@@ -6578,10 +6608,22 @@
    "byte": 432808
   },
   {
+   "path": "assets/personaggi/san-zeno-vescovo-di-verona.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/san-zeno-vescovo-di-verona.webp",
+   "sha256": "848bf439b2ab8f68357978eeccba25e954e5a044bbfd60f5c482b5ee5ffc2677",
+   "byte": 77054
+  },
+  {
    "path": "assets/personaggi/scipione-maffei.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/scipione-maffei.webp",
    "sha256": "745e754f419d3c6bc0826437798a10d742b45a78bf469383c2781293be2236d9",
    "byte": 43964
+  },
+  {
+   "path": "assets/personaggi/teodorico-il-grande.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/teodorico-il-grande.webp",
+   "sha256": "21bf0cc41421cbc6ba93ea4bf1b0eeb75d3f33f1b11f99669c1626a23822361b",
+   "byte": 646480
   },
   {
    "path": "dati/aguzza.json",
@@ -6664,8 +6706,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/personaggi.json",
-   "sha256": "9d58ef23e6b3a79aa13c1558071b2706e4ef544fdf39d5f1d6abb3ff5874f76d",
-   "byte": 178645
+   "sha256": "08c495a54d2815647e6d5cad5ca33de21fc1822b579e4a790d1be540d02b7beb",
+   "byte": 179475
   },
   {
    "path": "dati/principali.json",
@@ -6704,6 +6746,12 @@
    "da": "34783180ec86",
    "data": "2026-11-19",
    "byte": 516039
+  },
+  {
+   "versione": "8f352385efc1",
+   "da": "08093438e87c",
+   "data": "2026-11-19",
+   "byte": 1382997
   }
  ]
 }
