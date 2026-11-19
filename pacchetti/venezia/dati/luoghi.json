@@ -12884,6 +12884,48 @@
           }
         }
       }
+    },
+    {
+      "id": "lido",
+      "nome": "Lido di Venezia",
+      "categoria": "altri",
+      "latitudine": 45.4182,
+      "longitudine": 12.36901,
+      "sestiere": "Lido",
+      "fermata": "Lido S.M.E.",
+      "immagine": {
+        "autore": "Luca Aless",
+        "licenza": "CC BY-SA 4.0",
+        "fonte": "https://commons.wikimedia.org/wiki/User:Luca_Aless"
+      },
+      "galleria": [
+        {
+          "autore": "Didier Descouens",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/User:Archaeodontosaurus"
+        },
+        {
+          "autore": "Florian Fuchs",
+          "licenza": "CC BY-SA 3.0",
+          "fonte": "https://commons.wikimedia.org/wiki/User:Florian_Fuchs"
+        },
+        {
+          "autore": "GodeNehler",
+          "licenza": "CC BY-SA 4.0",
+          "fonte": "https://commons.wikimedia.org/wiki/User:GodeNehler"
+        },
+        {
+          "autore": "absolutmachal",
+          "licenza": "CC BY 2.0"
+        }
+      ],
+      "descrizione": {
+        "it": "Lunga e sottile isola tra la laguna e il mare Adriatico, il Lido è da sempre la spiaggia di Venezia. Dall'imbarcadero di Santa Maria Elisabetta, principale approdo dell'isola, un breve viale conduce verso il mare. Qui, nel 1932, nasce la Mostra internazionale d'arte cinematografica di Venezia, inizialmente ospitata sulla terrazza dell'Hotel Excelsior e, dal 1937, nel Palazzo del Cinema.",
+        "en": "A long, narrow island between the lagoon and the Adriatic Sea, the Lido has always been Venice's beach. From the Santa Maria Elisabetta landing stage, the island's main stop, a short avenue leads toward the sea. Here, in 1932, the Venice International Film Festival was born, first held on the terrace of the Hotel Excelsior and, from 1937, in the Palazzo del Cinema.",
+        "fr": "Longue et étroite île entre la lagune et la mer Adriatique, le Lido est depuis toujours la plage de Venise. Depuis l'embarcadère de Santa Maria Elisabetta, principal débarcadère de l'île, une courte avenue mène vers la mer. C'est ici qu'est née, en 1932, la Mostra internationale d'art cinématographique de Venise, d'abord installée sur la terrasse de l'hôtel Excelsior puis, à partir de 1937, au Palazzo del Cinema.",
+        "de": "Der Lido, eine lange, schmale Insel zwischen der Lagune und der Adria, ist seit jeher der Strand von Venedig. Von der Anlegestelle Santa Maria Elisabetta, dem Hauptanleger der Insel, führt eine kurze Allee zum Meer. Hier wurden 1932 die Internationalen Filmfestspiele von Venedig ins Leben gerufen, die zunächst auf der Terrasse des Hotels Excelsior und seit 1937 im Palazzo del Cinema stattfinden.",
+        "es": "Isla larga y estrecha entre la laguna y el mar Adriático, el Lido es desde siempre la playa de Venecia. Desde el embarcadero de Santa Maria Elisabetta, principal desembarcadero de la isla, una breve avenida conduce hacia el mar. Aquí nació en 1932 la Muestra Internacional de Arte Cinematográfico de Venecia, alojada primero en la terraza del Hotel Excelsior y, desde 1937, en el Palacio del Cine."
+      }
     }
   ]
 }

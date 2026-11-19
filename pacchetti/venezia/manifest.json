@@ -1,5 +1,5 @@
 {
- "versione": "f55ae6916cd8",
+ "versione": "af65d8b00dc5",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -1518,6 +1518,36 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/libreria-marciana_4.webp",
    "sha256": "051dc34b6ce08e41af0815b112cf1b74a061e1ae791a8952c5ea89e925e456a5",
    "byte": 61336
+  },
+  {
+   "path": "assets/luoghi/lido.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/lido.webp",
+   "sha256": "d4e2896e805600aadc78cd2daff79b283eb44635cd6a35fc5101cd927e79e30f",
+   "byte": 49408
+  },
+  {
+   "path": "assets/luoghi/lido_2.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/lido_2.webp",
+   "sha256": "36477b60e73f64cb54c0a10bba02af87e1c6bb0192f147228ba44d3051be0095",
+   "byte": 62708
+  },
+  {
+   "path": "assets/luoghi/lido_3.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/lido_3.webp",
+   "sha256": "03f3674df7f9d86aed275f75dee522d325925ba00cac8942ca60968f3294c39a",
+   "byte": 80640
+  },
+  {
+   "path": "assets/luoghi/lido_4.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/lido_4.webp",
+   "sha256": "51c69ade5587427eb02ed84567c98d2d4721940f7436d5605e5984afc433be55",
+   "byte": 88056
+  },
+  {
+   "path": "assets/luoghi/lido_5.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/assets/luoghi/lido_5.webp",
+   "sha256": "58b01a230c08de2d7ca1f52b33c539521a493d59d00976bb52ea80e85bd1d2a9",
+   "byte": 62676
   },
   {
    "path": "assets/luoghi/madonna-orto.webp",
@@ -6826,8 +6856,8 @@
   {
    "path": "dati/immagini.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/immagini.json",
-   "sha256": "2107f59f3759a88a8debb3765264601ca24b0c53b883303d0a0306eee793b3a3",
-   "byte": 5564
+   "sha256": "e410c91f8aad4879d1b7d4246302c70ef878606e7644d684780eda2350735863",
+   "byte": 5577
   },
   {
    "path": "dati/itinerari.json",
@@ -6838,8 +6868,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/luoghi.json",
-   "sha256": "5c92534ddb2eb16d63377f57401ac424863877633589547173b7fc51c3e30e8b",
-   "byte": 1040331
+   "sha256": "bc079712c6479de50a2b8a0763112ab5473e948dbeb70a2b271022c55d972192",
+   "byte": 1043446
   },
   {
    "path": "dati/mappa.json",
@@ -6886,8 +6916,8 @@
   {
    "path": "dati/vaporetti.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/vaporetti.json",
-   "sha256": "5b9937c4a8c2e5cac95004a89e74082b188607cc25bfac6d33a1be6587d7469d",
-   "byte": 25698
+   "sha256": "fd1b7d48657dc98ce3f8531a4e00f9f6d2dd280f156900e05d6b466479757662",
+   "byte": 25729
   }
  ],
  "novita": [
@@ -6900,6 +6930,17 @@
     "altro"
    ],
    "byte": 1040331
+  },
+  {
+   "versione": "af65d8b00dc5",
+   "da": "f55ae6916cd8",
+   "data": "2026-11-19",
+   "luoghi_nuovi": [
+    "Lido di Venezia"
+   ],
+   "foto_nuove": 5,
+   "mezzi": true,
+   "byte": 1418240
   }
  ]
 }
