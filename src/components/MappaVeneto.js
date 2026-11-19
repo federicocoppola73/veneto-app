@@ -105,10 +105,16 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
 
   // toccando una città sulla mappa: riempie prima Partenza, poi Arrivo, poi ricomincia
   function tocca(id) {
-    if (!partenza || (partenza && arrivo)) {
+    // se è l'unica città scelta, toccarla di nuovo svuota la selezione
+    if ((partenza === id && !arrivo) || (arrivo === id && !partenza)) {
+      setPartenza(null);
+      setArrivo(null);
+    } else if (partenza && arrivo) {
       setPartenza(id);
       setArrivo(null);
-    } else if (id !== partenza) {
+    } else if (!partenza) {
+      setPartenza(id);
+    } else {
       setArrivo(id);
     }
   }
