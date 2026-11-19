@@ -1,5 +1,5 @@
 {
- "versione": "7b7bc7443571",
+ "versione": "139fd3fb47f2",
  "voce": "de-DE-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -426,6 +426,21 @@
      "secondi": 179,
      "sha256": "7f86d52b7d26f6ea1c856374283b64d7cb003c9d16de8b8726065dadc445b0b5",
      "testo": "ecee2f82a265a95e"
+    }
+   ]
+  },
+  "lido": {
+   "byte": 754604,
+   "secondi": 126,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "lido.mp3",
+     "byte": 754604,
+     "secondi": 126,
+     "sha256": "a5962d5d5430c24344672441b702d96d04f70592841c466e353eb050d8f4a3f4",
+     "testo": "0a132fb1d3028e17"
     }
    ]
   },
