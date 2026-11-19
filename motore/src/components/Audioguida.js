@@ -51,7 +51,14 @@ function vociAudioguide(indice, lingua, t) {
 
 // Lettore "persistente" (solo schede della Storia): se si apre un personaggio o un luogo da una scheda, l'audioguida
 // continua e, tornando alla scheda, il lettore mostra il punto a cui è arrivata. Un solo lettore alla volta.
-let persistente = null; // { uri, player }
+let persistente = null; // { uri, player, daZero }
+// Punto a cui era arrivato l'ascolto di ogni traccia della Storia: chiudendo la scheda l'audio si ferma,
+// riaprendola riparte da lì (finché l'app resta aperta). Finita o fermata con "stop" la traccia torna all'inizio.
+const posizioni = new Map(); // uri → secondi
+function azzeraPosizione(uri) {
+  posizioni.set(uri, 0);
+  if (persistente?.uri === uri) persistente.daZero = true;
+}
 function playerPersistente(uri) {
   if (persistente?.uri === uri) return persistente.player;
   fermaAudioPersistente();
@@ -61,9 +68,10 @@ function playerPersistente(uri) {
 }
 export function fermaAudioPersistente() {
   if (!persistente) return;
-  const { player } = persistente;
+  const { player, uri, daZero } = persistente;
   persistente = null;
   try {
+    if (!daZero) posizioni.set(uri, player.currentTime || 0);
     player.pause();
     player.remove();
   } catch {
@@ -236,11 +244,20 @@ function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, st
   fineRef.current = onFine;
   useEffect(() => {
     if (s.didJustFinish) {
+      if (persisti) azzeraPosizione(uri);
       player.pause();
       player.seekTo(0).catch(() => {});
       fineRef.current?.();
     }
   }, [s.didJustFinish, player]);
+  // lettore della Storia riaperto: si riprende dal punto in cui si era arrivati (senza far partire l'audio)
+  const ripreso = useRef(false);
+  useEffect(() => {
+    if (!persisti || ripreso.current || !s.isLoaded) return;
+    ripreso.current = true;
+    const da = posizioni.get(uri) || 0;
+    if (da > 2 && !s.playing && (s.currentTime || 0) < 1) player.seekTo(da).catch(() => {});
+  }, [persisti, s.isLoaded]);
   useEffect(() => {
     if (avvia) {
       impostaModoAudio();
@@ -263,6 +280,7 @@ function Lettore({ uri, secondi, titolo, compatto, avvia, onFine, onSuona, t, st
     else player.play();
   };
   const ferma = () => {
+    if (persisti) azzeraPosizione(uri);
     player.pause();
     player.seekTo(0).catch(() => {});
   };
