@@ -1,7 +1,8 @@
 {
   "versione": 1,
   "citta": "padova",
-  "descrizione": "Immagini di riferimento per il riconoscimento fotografico. I percorsi sono relativi alla cartella immagini/.",
+  "fonte_id": "pacchetti/padova/manifest.json",
+  "descrizione": "Archivio immagini di riferimento per il riconoscimento fotografico. I percorsi sono relativi alla cartella immagini/. I nomi dei file sono liberi e vengono registrati esplicitamente qui.",
   "luoghi": [
     {
       "id": "basilica-di-sant-antonio",
@@ -12,7 +13,119 @@
       "immagini": []
     },
     {
+      "id": "basilica-di-santa-maria-del-carmine",
+      "immagini": []
+    },
+    {
+      "id": "battistero-della-cattedrale",
+      "immagini": []
+    },
+    {
+      "id": "cabina-a",
+      "immagini": []
+    },
+    {
+      "id": "caffe-pedrocchi",
+      "immagini": []
+    },
+    {
+      "id": "canton-delle-busie",
+      "immagini": []
+    },
+    {
+      "id": "cappella-degli-scrovegni",
+      "immagini": []
+    },
+    {
+      "id": "casa-del-petrarca",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-degli-eremitani",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-san-canziano",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-san-daniele",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-san-francesco-grande",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-san-gaetano",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-san-nicolo",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-santa-caterina",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-santa-croce",
+      "immagini": []
+    },
+    {
+      "id": "chiesa-di-santa-sofia",
+      "immagini": []
+    },
+    {
+      "id": "cimitero-ebraico-via-wiel",
+      "immagini": []
+    },
+    {
+      "id": "duomo-di-padova",
+      "immagini": []
+    },
+    {
+      "id": "ghetto-ebraico",
+      "immagini": []
+    },
+    {
+      "id": "giardini-dell-arena",
+      "immagini": []
+    },
+    {
+      "id": "giardino-della-rotonda",
+      "immagini": []
+    },
+    {
+      "id": "giardino-treves-de-bonfili",
+      "immagini": []
+    },
+    {
+      "id": "la-specola",
+      "immagini": []
+    },
+    {
+      "id": "loggia-e-odeo-cornaro",
+      "immagini": []
+    },
+    {
       "id": "musei-civici-agli-eremitani",
+      "immagini": []
+    },
+    {
+      "id": "museo-antoniano",
+      "immagini": []
+    },
+    {
+      "id": "museo-bottacin",
+      "immagini": []
+    },
+    {
+      "id": "museo-del-precinema",
+      "immagini": []
+    },
+    {
+      "id": "museo-del-risorgimento-e-dell-eta-contemporanea",
       "immagini": []
     },
     {
@@ -20,7 +133,23 @@
       "immagini": []
     },
     {
-      "id": "palazzo-della-ragione",
+      "id": "musme-museo-di-storia-della-medicina",
+      "immagini": []
+    },
+    {
+      "id": "oratorio-di-san-giorgio",
+      "immagini": []
+    },
+    {
+      "id": "oratorio-di-san-michele",
+      "immagini": []
+    },
+    {
+      "id": "orto-botanico-di-padova",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-cavalli",
       "immagini": []
     },
     {
@@ -28,7 +157,87 @@
       "immagini": []
     },
     {
+      "id": "palazzo-della-cassa-di-risparmio",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-della-ragione",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-liviano",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-maldura",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-moroni",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-zabarella",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-zuckermann-museo-di-arti-applicate-e-decorative",
+      "immagini": []
+    },
+    {
+      "id": "piazza-antenore",
+      "immagini": []
+    },
+    {
+      "id": "piazza-dei-signori",
+      "immagini": []
+    },
+    {
+      "id": "piazza-del-santo",
+      "immagini": []
+    },
+    {
+      "id": "piazza-della-frutta",
+      "immagini": []
+    },
+    {
+      "id": "piazza-delle-erbe",
+      "immagini": []
+    },
+    {
+      "id": "piazza-duomo",
+      "immagini": []
+    },
+    {
+      "id": "piazza-eremitani",
+      "immagini": []
+    },
+    {
+      "id": "piazza-garibaldi",
+      "immagini": []
+    },
+    {
+      "id": "ponte-corvo",
+      "immagini": []
+    },
+    {
+      "id": "ponte-dei-quattro-papi",
+      "immagini": []
+    },
+    {
+      "id": "ponte-della-morte",
+      "immagini": []
+    },
+    {
+      "id": "ponte-delle-torricelle",
+      "immagini": []
+    },
+    {
       "id": "ponte-molino",
+      "immagini": []
+    },
+    {
+      "id": "ponte-san-gregorio-barbarigo",
       "immagini": []
     },
     {
@@ -36,11 +245,75 @@
       "immagini": []
     },
     {
+      "id": "porta-altinate",
+      "immagini": []
+    },
+    {
+      "id": "porta-molino",
+      "immagini": []
+    },
+    {
+      "id": "porta-savonarola",
+      "immagini": []
+    },
+    {
+      "id": "porte-contarine",
+      "immagini": []
+    },
+    {
       "id": "prato-della-valle",
       "immagini": []
     },
     {
-      "id": "piazza-delle-erbe",
+      "id": "reggia-carrarese",
+      "immagini": []
+    },
+    {
+      "id": "rifugio-antiaereo-di-palazzo-santo-stefano",
+      "immagini": []
+    },
+    {
+      "id": "santuario-dell-arcella",
+      "immagini": []
+    },
+    {
+      "id": "santuario-di-san-leopoldo-mandic",
+      "immagini": []
+    },
+    {
+      "id": "scuola-del-santo",
+      "immagini": []
+    },
+    {
+      "id": "statua-del-gattamelata",
+      "immagini": []
+    },
+    {
+      "id": "teatro-verdi",
+      "immagini": []
+    },
+    {
+      "id": "tempio-nazionale-dell-internato-ignoto",
+      "immagini": []
+    },
+    {
+      "id": "tomba-di-antenore",
+      "immagini": []
+    },
+    {
+      "id": "torre-degli-anziani",
+      "immagini": []
+    },
+    {
+      "id": "torre-dell-orologio",
+      "immagini": []
+    },
+    {
+      "id": "villa-giusti",
+      "immagini": []
+    },
+    {
+      "id": "villa-molin",
       "immagini": []
     }
   ]
