@@ -1,0 +1,4 @@
+open_clip_torch>=2.24,<3
+Pillow>=10,<13
+numpy>=1.26,<3
+torch>=2.2
