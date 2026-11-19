@@ -144,6 +144,11 @@ def main():
         i = args.index('--larghezza')
         LARGHEZZA = int(args[i + 1])
         args = args[:i] + args[i + 2:]
+    costa = None
+    if '--costa' in args:   # linea di costa OSM (terra a sinistra, mare a destra): colora il mare
+        i = args.index('--costa')
+        costa = args[i + 1]
+        args = args[:i] + args[i + 2:]
     centro = None
     if '--centro' in args:
         i = args.index('--centro')
@@ -166,7 +171,7 @@ def main():
         elementi = json.load(f)['elements']
     print(len(elementi), 'elementi', flush=True)
 
-    verde, acqua_aree, acqua_linee, edifici, ferrovie, strade = [], [], [], [], [], []
+    verde, acqua_aree, acqua_buchi, acqua_linee, edifici, ferrovie, strade = [], [], [], [], [], [], []
     for e in elementi:
         tag = e.get('tags', {})
         if e['type'] == 'way':
@@ -174,8 +179,10 @@ def main():
                 continue
             punti = [xy(p['lat'], p['lon']) for p in e['geometry']]
             forme = [punti]
+            buchi = []
         elif e['type'] == 'relation':
             forme = [[xy(*p) for p in a] for a in anelli([m for m in e.get('members', []) if m.get('role') != 'inner'])]
+            buchi = [[xy(*p) for p in a] for a in anelli([m for m in e.get('members', []) if m.get('role') == 'inner'])]
             punti = None
         else:
             continue
@@ -183,6 +190,7 @@ def main():
             edifici += forme
         elif tag.get('natural') == 'water' or tag.get('waterway') == 'riverbank':
             acqua_aree += forme
+            acqua_buchi += buchi
         elif tag.get('landuse') in VERDI_LANDUSE or tag.get('leisure') in VERDI_LEISURE or tag.get('natural') in VERDI_NATURAL:
             verde += forme
         elif tag.get('waterway') in CORSI_ACQUA and punti and tag.get('tunnel') not in ('yes', 'culvert'):
@@ -195,12 +203,25 @@ def main():
     print('disegno…', flush=True)
     img = Image.new('RGB', (W, H), SFONDO)
     d = ImageDraw.Draw(img)
-    for forma in verde:
-        if len(forma) >= 3:
-            d.polygon(forma, fill=VERDE)
+    if costa:
+        with open(costa, encoding='utf-8') as f:
+            for e in json.load(f)['elements']:
+                g = [(p['lat'], p['lon']) for p in e.get('geometry', []) if p]
+                if len(g) < 2:
+                    continue
+                (la0, lo0), (la1, lo1) = g[0], g[-1]
+                # chiude il poligono del mare passando fuori dal riquadro, sul lato destro della linea
+                giro = g + [(la1, lo1 + 1), (la1 - 1, lo1 + 1), (la0 - 1, lo0), (la0, lo0)]
+                d.polygon([xy(la, lo) for la, lo in giro], fill=ACQUA)
     for forma in acqua_aree:
         if len(forma) >= 3:
             d.polygon(forma, fill=ACQUA)
+    for forma in acqua_buchi:   # isole dentro specchi d'acqua (es. la laguna)
+        if len(forma) >= 3:
+            d.polygon(forma, fill=SFONDO)
+    for forma in verde:
+        if len(forma) >= 3:
+            d.polygon(forma, fill=VERDE)
     for larghezza, punti in sorted(acqua_linee, key=lambda x: x[0]):
         d.line(punti, fill=ACQUA, width=larghezza * SCALA, joint='curve')
     for forma in edifici:
