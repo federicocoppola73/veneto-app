@@ -46,6 +46,9 @@
     "ios": {
       "bundleIdentifier": "com.monumenti.veneto",
       "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "La posizione serve a mostrarti sulla mappa e a indicarti i monumenti più vicini. Non viene salvata né inviata."
       }
