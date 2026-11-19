@@ -14,6 +14,7 @@ import { SegnalaApp } from './motore/src/components/SegnalaProblema';
 import { LINGUE, testi, testoLingua } from './src/lingue';
 import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
 import PopupAggiornamento from './src/components/PopupAggiornamento';
+import MappaVeneto from './src/components/MappaVeneto';
 import {
   IconaCalendario,
   IconaCestino,
@@ -99,6 +100,7 @@ function AppRadice() {
   const [motorePronto, setMotorePronto] = useState(false);
   const [linguaAperta, setLinguaAperta] = useState(false); // menu della lingua
   const [creditiAperti, setCreditiAperti] = useState(false); // pagina crediti
+  const [mappaAperta, setMappaAperta] = useState(false); // mappa del Veneto con le distanze
   const t = testi(lingua);
   const margini = useSafeAreaInsets();
 
@@ -299,7 +301,9 @@ function AppRadice() {
 
       <View style={styles.sezione}>
         <Text style={styles.sezioneTitolo}>{t.esploraCitta}</Text>
-        <Text style={styles.sezioneConto}>{t.destinazioni(CITTA.length)}</Text>
+        <Pressable onPress={() => setMappaAperta(true)} hitSlop={10} accessibilityRole="button">
+          <Text style={[styles.sezioneConto, styles.sezioneContoLink]}>{t.destinazioni(CITTA.length)} ›</Text>
+        </Pressable>
       </View>
     </View>
   );
@@ -406,6 +410,8 @@ function AppRadice() {
         </View>
       </Modal>
 
+      <MappaVeneto visibile={mappaAperta} onChiudi={() => setMappaAperta(false)} lingua={lingua} />
+
       <Modal visible={creditiAperti} transparent animationType="fade" onRequestClose={() => setCreditiAperti(false)}>
         <Pressable style={styles.velo} onPress={() => setCreditiAperti(false)}>
           <View style={styles.menu}>
@@ -425,6 +431,8 @@ function AppRadice() {
                 Copertina di Padova: Didier Descouens, da Wikimedia Commons. Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
                 Copertina di Venezia: Horst-schlaemma. Licenza CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+
+                Confini delle province del Veneto (mappa del Veneto): ISTAT, rielaborati da openpolis (https://github.com/openpolis/geojson-italy). Licenza CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
               </Text>
             </View>
           </View>
@@ -534,6 +542,7 @@ const styles = StyleSheet.create({
   sezione: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginTop: 24, marginBottom: 14, paddingHorizontal: 14 },
   sezioneTitolo: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 25 },
   sezioneConto: { color: GRIGIO, fontSize: 12 },
+  sezioneContoLink: { color: VERDE, fontWeight: '700', textDecorationLine: 'underline' },
 
   piede: { alignItems: 'center', paddingTop: 12, paddingHorizontal: 14 },
   crediti: { alignItems: 'center', paddingVertical: 20 },
