@@ -41,3 +41,22 @@ La prima fase è una prova offline sul dataset pubblico del repository: non rich
 - [ ] Generare embedding e misurare la qualità del matching.
 - [ ] Scegliere runtime e modalità di distribuzione.
 - [ ] Integrare la funzione nell'app.
+
+## Prototipo locale CLIP
+
+È disponibile uno script sperimentale per costruire un indice di embedding e confrontare una fotografia con il catalogo, senza inviare le immagini a un servizio di inferenza remoto.
+
+Dalla radice del repository:
+
+```bash
+python -m venv .venv
+# Windows: .venv\\Scripts\\activate
+# macOS/Linux: source .venv/bin/activate
+python -m pip install -r strumenti/requirements-riconoscimento.txt
+python strumenti/riconoscimento_clip.py build --citta padova
+python strumenti/riconoscimento_clip.py query percorso/della/foto.jpg --citta padova
+```
+
+Il primo avvio scarica i pesi del modello OpenCLIP nella cache locale. L'elaborazione delle fotografie e il confronto avvengono sul dispositivo; il download iniziale dei pesi richiede una connessione Internet. I risultati sono similarità coseno, non probabilità: non devono ancora essere usati per aprire automaticamente una scheda. Le soglie e il comportamento di rifiuto vanno definiti solo dopo test con fotografie indipendenti dal dataset di riferimento.
+
+Gli artefatti generati in `riconoscimento/<citta>/indice_clip/` sono esclusi da Git e non vanno caricati nel repository.
