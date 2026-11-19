@@ -1,5 +1,5 @@
 {
- "versione": "c1a546544f5c",
+ "versione": "a9fbf2488a84",
  "voce": "fr-FR-Chirp3-HD-Kore",
  "luoghi": {
   "arche-scaligere": {
@@ -422,6 +422,111 @@
      "secondi": 226,
      "sha256": "99bf8f1744b0726ebb8ab640b2634ed07bae273cdeb04a8cae87d4ad12a1983a",
      "testo": "51a28ebc95b9d746"
+    }
+   ]
+  },
+  "storia-00": {
+   "byte": 750572,
+   "secondi": 125,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-00.mp3",
+     "byte": 750572,
+     "secondi": 125,
+     "sha256": "d4a349b22005d23db2c4f0d3eff6092a7595123daa53234eee8d73cdcaa96164",
+     "testo": "4f03ed6640e31c32"
+    }
+   ]
+  },
+  "storia-01": {
+   "byte": 794924,
+   "secondi": 132,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-01.mp3",
+     "byte": 794924,
+     "secondi": 132,
+     "sha256": "79e01ed270f824ccfded9a7edda4e887943336523af96bd10703fd2e496f7c62",
+     "testo": "438a80d0adc6c570"
+    }
+   ]
+  },
+  "storia-02": {
+   "byte": 844604,
+   "secondi": 141,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-02.mp3",
+     "byte": 844604,
+     "secondi": 141,
+     "sha256": "e070fed2b0449c23911fd65e2a1f294cbbf99f776d0fbe90692d7a7868e37129",
+     "testo": "85ff3471e2dfd421"
+    }
+   ]
+  },
+  "storia-03": {
+   "byte": 1078748,
+   "secondi": 180,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-03.mp3",
+     "byte": 1078748,
+     "secondi": 180,
+     "sha256": "a6fef3ea676041d3ca81f9d8bdf1bba09c28115c7834433286d55a15b5c706a5",
+     "testo": "4107e6b5293f6431"
+    }
+   ]
+  },
+  "storia-04": {
+   "byte": 1119932,
+   "secondi": 187,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-04.mp3",
+     "byte": 1119932,
+     "secondi": 187,
+     "sha256": "9da076876d767143b03d2891a8af52d96114044ef63547098cf02ac66f13b619",
+     "testo": "1ecdfdef9e496616"
+    }
+   ]
+  },
+  "storia-05": {
+   "byte": 967868,
+   "secondi": 161,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-05.mp3",
+     "byte": 967868,
+     "secondi": 161,
+     "sha256": "9882ea9ae4d91e8c6a3ec9b2bd4c38e7fb7986e4f6ff10a677b344c9b82a0a6a",
+     "testo": "785a29878e985586"
+    }
+   ]
+  },
+  "storia-06": {
+   "byte": 806300,
+   "secondi": 134,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-06.mp3",
+     "byte": 806300,
+     "secondi": 134,
+     "sha256": "29d0026769ada99f6a20a381bae57855ff33f12d820f2899a63344ea28d4d8fd",
+     "testo": "e65c4c5620086533"
     }
    ]
   },
