@@ -1,0 +1,47 @@
+{
+  "versione": 1,
+  "citta": "padova",
+  "descrizione": "Immagini di riferimento per il riconoscimento fotografico. I percorsi sono relativi alla cartella immagini/.",
+  "luoghi": [
+    {
+      "id": "basilica-di-sant-antonio",
+      "immagini": []
+    },
+    {
+      "id": "basilica-di-santa-giustina",
+      "immagini": []
+    },
+    {
+      "id": "musei-civici-agli-eremitani",
+      "immagini": []
+    },
+    {
+      "id": "museo-della-natura-e-dell-uomo",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-della-ragione",
+      "immagini": []
+    },
+    {
+      "id": "palazzo-del-bo",
+      "immagini": []
+    },
+    {
+      "id": "ponte-molino",
+      "immagini": []
+    },
+    {
+      "id": "ponte-san-lorenzo",
+      "immagini": []
+    },
+    {
+      "id": "prato-della-valle",
+      "immagini": []
+    },
+    {
+      "id": "piazza-delle-erbe",
+      "immagini": []
+    }
+  ]
+}
