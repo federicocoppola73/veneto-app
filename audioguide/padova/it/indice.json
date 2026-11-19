@@ -1,5 +1,5 @@
 {
- "versione": "e2daddd8ac82",
+ "versione": "361143ea9e6c",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "basilica-di-sant-antonio": {
@@ -362,6 +362,111 @@
      "secondi": 220,
      "sha256": "ed1695091fe96dbfb762b055c2bede7f0fc92eebff6d68d460aba3aeb03de8a9",
      "testo": "039770e4f0fc0310"
+    }
+   ]
+  },
+  "storia-00": {
+   "byte": 956636,
+   "secondi": 159,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-00.mp3",
+     "byte": 956636,
+     "secondi": 159,
+     "sha256": "6fc249ff3229b6e1d2f9cbcb84b5292f96ba2a8a63f181dc13ebb7a40ed554dd",
+     "testo": "716302307ff3b05f"
+    }
+   ]
+  },
+  "storia-01": {
+   "byte": 891836,
+   "secondi": 149,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-01.mp3",
+     "byte": 891836,
+     "secondi": 149,
+     "sha256": "35d032320b1111824bdff6a16e7d2a1f9bac564ab582d66f54e4ce59d8af85c3",
+     "testo": "f02a4cf7f9e125dd"
+    }
+   ]
+  },
+  "storia-02": {
+   "byte": 829052,
+   "secondi": 138,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-02.mp3",
+     "byte": 829052,
+     "secondi": 138,
+     "sha256": "2328dc071a62d845c24024377976d39c60578057959a97573dc6c5403b6e4712",
+     "testo": "334d6d49425899c7"
+    }
+   ]
+  },
+  "storia-03": {
+   "byte": 1387052,
+   "secondi": 231,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-03.mp3",
+     "byte": 1387052,
+     "secondi": 231,
+     "sha256": "27d4957bdd93f2fd6030603d150851b13ca5567f608e9ee40e52dd0f2e1b168c",
+     "testo": "3d24b2386933d141"
+    }
+   ]
+  },
+  "storia-04": {
+   "byte": 1432268,
+   "secondi": 239,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-04.mp3",
+     "byte": 1432268,
+     "secondi": 239,
+     "sha256": "0df6ff9e9b0470e98de94f62dd94e98da6a278f2dc8b0c096ef0c03c9d74512f",
+     "testo": "e4e0a67fc107299a"
+    }
+   ]
+  },
+  "storia-05": {
+   "byte": 749708,
+   "secondi": 125,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-05.mp3",
+     "byte": 749708,
+     "secondi": 125,
+     "sha256": "0b2e9f16bc6202db86d540301851bed8e2abe0a2443908be59c484004ecdebf3",
+     "testo": "149bb871678eaee8"
+    }
+   ]
+  },
+  "storia-06": {
+   "byte": 996092,
+   "secondi": 166,
+   "tracce": [
+    {
+     "id": null,
+     "titolo": null,
+     "file": "storia-06.mp3",
+     "byte": 996092,
+     "secondi": 166,
+     "sha256": "a5fc9b72b06573a035ec11c8dcec0ebb242678af38fc788b054068317ea7379f",
+     "testo": "9c0274c85474927f"
     }
    ]
   },
