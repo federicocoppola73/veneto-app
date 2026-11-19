@@ -240,6 +240,55 @@
         "latitudine": 46.1397,
         "longitudine": 12.2167
       }
+    },
+    {
+      "id": "colli-euganei",
+      "nome": "Colli Euganei",
+      "provincia": "Padova",
+      "motto": {
+        "it": "Terme, borghi e colline",
+        "en": "Spas, villages and hills",
+        "fr": "Thermes, villages et collines",
+        "de": "Thermen, Dörfer und Hügel",
+        "es": "Termas, pueblos y colinas"
+      },
+      "stato": "in_preparazione",
+      "anteprima": [],
+      "sku": null,
+      "localita": [
+        {
+          "id": "arqua-petrarca",
+          "nome": "Arquà Petrarca",
+          "coordinate": {
+            "latitudine": 45.2767,
+            "longitudine": 11.7119
+          }
+        },
+        {
+          "id": "este",
+          "nome": "Este",
+          "coordinate": {
+            "latitudine": 45.2268,
+            "longitudine": 11.6564
+          }
+        },
+        {
+          "id": "monselice",
+          "nome": "Monselice",
+          "coordinate": {
+            "latitudine": 45.2406,
+            "longitudine": 11.7436
+          }
+        },
+        {
+          "id": "montagnana",
+          "nome": "Montagnana",
+          "coordinate": {
+            "latitudine": 45.2333,
+            "longitudine": 11.4672
+          }
+        }
+      ]
     }
   ]
 }

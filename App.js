@@ -46,6 +46,7 @@ const COPERTINE = {
   vicenza: require('./assets/copertine/vicenza.jpg'),
   rovigo: require('./assets/copertine/rovigo.jpg'),
   belluno: require('./assets/copertine/belluno.jpg'),
+  'colli-euganei': require('./assets/copertine/colli-euganei.jpg'),
 };
 
 const NOMI_LINGUE = { it: 'Italiano', en: 'English', fr: 'Français', de: 'Deutsch', es: 'Español' };
@@ -59,6 +60,7 @@ const COLORI = {
   vicenza: '#7a6a4a',
   belluno: '#4a6a7a',
   rovigo: '#6a5a7a',
+  'colli-euganei': '#4f7a4a',
 };
 
 // Lingua del telefono se supportata, altrimenti italiano; poi quella scelta dall'utente.
@@ -302,7 +304,7 @@ function AppRadice() {
       <View style={styles.sezione}>
         <Text style={styles.sezioneTitolo}>{t.esploraCitta}</Text>
         <Pressable onPress={() => setMappaAperta(true)} hitSlop={10} accessibilityRole="button">
-          <Text style={[styles.sezioneConto, styles.sezioneContoLink]}>{t.destinazioni(CITTA.length)} ›</Text>
+          <Text style={[styles.sezioneConto, styles.sezioneContoLink]}>{t.destinazioni(CITTA.filter((c) => c.pacchetto).length)} ›</Text>
         </Pressable>
       </View>
     </View>
@@ -429,6 +431,8 @@ function AppRadice() {
                 Copertina di Verona: Arne Müseler, da Wikimedia Commons. Licenza CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/).
 
                 Copertina di Padova: Didier Descouens, da Wikimedia Commons. Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+                Copertina dei Colli Euganei: kallerna, da Wikimedia Commons (https://commons.wikimedia.org/wiki/User:Kallerna). Licenza CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
                 Copertina di Venezia: Horst-schlaemma. Licenza CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
 

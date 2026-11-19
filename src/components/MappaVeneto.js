@@ -13,36 +13,47 @@ const TESTO = '#1c2b26';
 const GRIGIO = '#5b6b64';
 const ARANCIO = '#c2410c';
 const BLU = '#1e3a8a';
+const OCRA = '#b8892b';
+
+// posizione delle etichette sulla mappa (dx, dy in pixel rispetto al punto): di norma sopra il punto
+const ETICHETTE = {
+  padova: { dy: 22 },
+  rovigo: { dy: 22 },
+  'arqua-petrarca': { dy: -9 },
+  este: { dy: 17 },
+  monselice: { dx: 8, dy: 4, ancora: 'start' },
+  montagnana: { dx: -8, dy: 4, ancora: 'end' },
+};
 
 const KM_IN_MIGLIA = 0.621371;
 
 const TESTI = {
   it: {
-    titolo: 'Il Veneto', chiudi: 'Chiudi', sottotitolo: 'Le 7 città dell\'app. Tocca una città sulla mappa per sceglierla.',
+    titolo: 'Il Veneto', prossimamente: 'Prossimamente', chiudi: 'Chiudi', sottotitolo: 'Le 7 città dell\'app. Tocca una città sulla mappa per sceglierla.',
     distanze: 'Distanze', partenza: 'Partenza', arrivo: 'Arrivo', scegli: 'Scegli una città', unita: 'Unità',
     km: 'km', miglia: 'miglia', linea: 'in linea d\'aria', diverse: 'Scegli due città diverse.', scambia: 'Scambia',
     da: (a, b) => `Da ${a} a ${b}`, nota: 'Distanza in linea retta tra i centri delle città; il percorso su strada è più lungo.',
   },
   en: {
-    titolo: 'The Veneto', chiudi: 'Close', sottotitolo: 'The 7 cities of the app. Tap a city on the map to select it.',
+    titolo: 'The Veneto', prossimamente: 'Coming soon', chiudi: 'Close', sottotitolo: 'The 7 cities of the app. Tap a city on the map to select it.',
     distanze: 'Distances', partenza: 'From', arrivo: 'To', scegli: 'Choose a city', unita: 'Unit',
     km: 'km', miglia: 'miles', linea: 'as the crow flies', diverse: 'Choose two different cities.', scambia: 'Swap',
     da: (a, b) => `From ${a} to ${b}`, nota: 'Straight-line distance between city centres; the road route is longer.',
   },
   fr: {
-    titolo: 'La Vénétie', chiudi: 'Fermer', sottotitolo: 'Les 7 villes de l\'application. Touchez une ville sur la carte pour la choisir.',
+    titolo: 'La Vénétie', prossimamente: 'Bientôt disponible', chiudi: 'Fermer', sottotitolo: 'Les 7 villes de l\'application. Touchez une ville sur la carte pour la choisir.',
     distanze: 'Distances', partenza: 'Départ', arrivo: 'Arrivée', scegli: 'Choisissez une ville', unita: 'Unité',
     km: 'km', miglia: 'miles', linea: 'à vol d\'oiseau', diverse: 'Choisissez deux villes différentes.', scambia: 'Inverser',
     da: (a, b) => `De ${a} à ${b}`, nota: 'Distance en ligne droite entre les centres-villes ; le trajet par la route est plus long.',
   },
   de: {
-    titolo: 'Das Veneto', chiudi: 'Schließen', sottotitolo: 'Die 7 Städte der App. Tippe auf eine Stadt in der Karte, um sie zu wählen.',
+    titolo: 'Das Veneto', prossimamente: 'Demnächst', chiudi: 'Schließen', sottotitolo: 'Die 7 Städte der App. Tippe auf eine Stadt in der Karte, um sie zu wählen.',
     distanze: 'Entfernungen', partenza: 'Start', arrivo: 'Ziel', scegli: 'Stadt wählen', unita: 'Einheit',
     km: 'km', miglia: 'Meilen', linea: 'Luftlinie', diverse: 'Wähle zwei verschiedene Städte.', scambia: 'Tauschen',
     da: (a, b) => `Von ${a} nach ${b}`, nota: 'Luftlinie zwischen den Stadtzentren; die Strecke auf der Straße ist länger.',
   },
   es: {
-    titolo: 'El Véneto', chiudi: 'Cerrar', sottotitolo: 'Las 7 ciudades de la app. Toca una ciudad en el mapa para elegirla.',
+    titolo: 'El Véneto', prossimamente: 'Próximamente', chiudi: 'Cerrar', sottotitolo: 'Las 7 ciudades de la app. Toca una ciudad en el mapa para elegirla.',
     distanze: 'Distancias', partenza: 'Salida', arrivo: 'Llegada', scegli: 'Elige una ciudad', unita: 'Unidad',
     km: 'km', miglia: 'millas', linea: 'en línea recta', diverse: 'Elige dos ciudades distintas.', scambia: 'Intercambiar',
     da: (a, b) => `De ${a} a ${b}`, nota: 'Distancia en línea recta entre los centros de las ciudades; por carretera es más larga.',
@@ -81,7 +92,12 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
   const [menu, setMenu] = useState(null); // 'partenza' | 'arrivo' | null
   const [miglia, setMiglia] = useState(false);
 
-  const citta = useMemo(() => CITTA.filter((c) => c.coordinate), []);
+  // punti sulla mappa: le città dell'app e le località delle zone in arrivo (es. Colli Euganei)
+  const citta = useMemo(
+    () => CITTA.flatMap((c) => (c.coordinate ? [c] : (c.localita || []).map((l) => ({ ...l, prossimamente: true, zona: c.nome })))),
+    [],
+  );
+  const zoneInArrivo = useMemo(() => CITTA.filter((c) => c.localita && !c.pacchetto).map((c) => c.nome), []);
   const per = (id) => citta.find((c) => c.id === id);
 
   const proietta = (lat, lon) => ({
@@ -162,22 +178,30 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
               {citta.map((c) => {
                 const p = proietta(c.coordinate.latitudine, c.coordinate.longitudine);
                 const scelta = c.id === partenza || c.id === arrivo;
-                const sotto = c.id === 'padova' || c.id === 'rovigo';
+                const piccola = !!c.prossimamente;
+                const e = ETICHETTE[c.id] || { dy: -11 };
+                const colore = c.id === partenza ? BLU : c.id === arrivo ? ARANCIO : piccola ? OCRA : VERDE;
+                const x = p.x + (e.dx || 0);
+                const y = p.y + e.dy;
+                const comuni = { x, y, fontSize: piccola ? 11 : 13, fontWeight: '700', textAnchor: e.ancora || 'middle' };
                 return (
                   <G key={c.id} onPress={() => tocca(c.id)}>
-                    <Circle cx={p.x} cy={p.y} r={18} fill="transparent" />
-                    <Circle cx={p.x} cy={p.y} r={scelta ? 8 : 6} fill={c.id === partenza ? BLU : c.id === arrivo ? ARANCIO : VERDE} stroke="#fff" strokeWidth={2} />
-                    <SvgText x={p.x} y={p.y + (sotto ? 22 : -11)} fontSize={13} fontWeight="700" fill="none" stroke="#e7efe9" strokeWidth={3.5} strokeLinejoin="round" textAnchor="middle">
-                      {c.nome}
-                    </SvgText>
-                    <SvgText x={p.x} y={p.y + (sotto ? 22 : -11)} fontSize={13} fontWeight="700" fill={TESTO} textAnchor="middle">
-                      {c.nome}
-                    </SvgText>
+                    <Circle cx={p.x} cy={p.y} r={piccola ? 10 : 18} fill="transparent" />
+                    <Circle cx={p.x} cy={p.y} r={(piccola ? 4.5 : 6) + (scelta ? 2 : 0)} fill={colore} stroke="#fff" strokeWidth={piccola ? 1.5 : 2} />
+                    <SvgText {...comuni} fill="none" stroke="#e7efe9" strokeWidth={3.5} strokeLinejoin="round">{c.nome}</SvgText>
+                    <SvgText {...comuni} fill={TESTO}>{c.nome}</SvgText>
                   </G>
                 );
               })}
             </Svg>
           </View>
+
+          {zoneInArrivo.length ? (
+            <View style={stili.legenda}>
+              <View style={stili.legendaPunto} />
+              <Text style={stili.legendaTesto}>{t.prossimamente}: {zoneInArrivo.join(', ')}</Text>
+            </View>
+          ) : null}
 
           <Text style={stili.sezione}>{t.distanze}</Text>
           <View style={stili.riga}>
@@ -218,7 +242,7 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
 
         <Modal visible={menu != null} transparent animationType="fade" onRequestClose={() => setMenu(null)}>
           <Pressable style={stili.velo} onPress={() => setMenu(null)}>
-            <View style={stili.elenco}>
+            <ScrollView style={stili.elenco}>
               {citta.map((c) => (
                 <Pressable
                   key={c.id}
@@ -231,7 +255,7 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
                   <Text style={[stili.voceTesto, (menu === 'partenza' ? partenza : arrivo) === c.id && { color: VERDE, fontWeight: '700' }]}>{c.nome}</Text>
                 </Pressable>
               ))}
-            </View>
+            </ScrollView>
           </Pressable>
         </Modal>
       </SafeAreaView>
@@ -247,6 +271,9 @@ const stili = StyleSheet.create({
   chiudiTesto: { color: '#fff', fontWeight: '700', fontSize: 15 },
   sottotitolo: { color: GRIGIO, fontSize: 13, marginBottom: 10, textAlign: 'center' },
   carta: { alignSelf: 'center', backgroundColor: '#dcebf3', borderRadius: 12, overflow: 'hidden' },
+  legenda: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, marginTop: 8 },
+  legendaPunto: { width: 10, height: 10, borderRadius: 5, backgroundColor: OCRA },
+  legendaTesto: { color: GRIGIO, fontSize: 12 },
   sezione: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 22, marginTop: 20, marginBottom: 10 },
   riga: { flexDirection: 'row', alignItems: 'flex-end', gap: 8 },
   etichetta: { color: GRIGIO, fontSize: 12, marginBottom: 4 },
@@ -266,7 +293,7 @@ const stili = StyleSheet.create({
   risultatoLinea: { color: GRIGIO, fontSize: 13, textAlign: 'center' },
   nota: { color: GRIGIO, fontSize: 11, textAlign: 'center', marginTop: 10 },
   velo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.45)', justifyContent: 'center', padding: 28 },
-  elenco: { backgroundColor: '#fff', borderRadius: 14, paddingVertical: 6 },
+  elenco: { backgroundColor: '#fff', borderRadius: 14, paddingVertical: 6, maxHeight: 460, flexGrow: 0 },
   voce: { paddingVertical: 13, paddingHorizontal: 18 },
   voceTesto: { color: TESTO, fontSize: 16 },
 });
