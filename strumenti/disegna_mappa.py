@@ -2,7 +2,7 @@
 """Disegna la mappa di una città (stile delle mappe di Vicenza) dai dati OpenStreetMap.
 
 Uso:
-  python3 strumenti/disegna_mappa.py <osm.json> <citta> <sud> <ovest> <nord> <est> [--centro LAT LON]
+  python3 strumenti/disegna_mappa.py <osm.json> <citta> <sud> <ovest> <nord> <est> [--centro LAT LON] [--larghezza PX]
 
 <osm.json> è la risposta di Overpass ("out geom") con strade, edifici, acque, verde e ferrovia,
 ottenuta con la query in QUERY_OVERPASS qui sotto (sostituire la bbox).
@@ -138,7 +138,12 @@ def etichetta_vie(d, strade, font, W, H):
 
 
 def main():
+    global LARGHEZZA
     args = sys.argv[1:]
+    if '--larghezza' in args:
+        i = args.index('--larghezza')
+        LARGHEZZA = int(args[i + 1])
+        args = args[:i] + args[i + 2:]
     centro = None
     if '--centro' in args:
         i = args.index('--centro')

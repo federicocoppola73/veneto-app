@@ -1,0 +1,83 @@
+# Mappa – disegna: scarica i dati OpenStreetMap di un'area e ridisegna la mappa di una città
+# (stile delle mappe di Vicenza, Verona e Padova), poi aggiorna il pacchetto e lo pubblica.
+# Si lancia a mano: GitHub → Actions → "Mappa – disegna" → Run workflow.
+# Sostituisce assets/mappa*, dati/mappa.json e dati/tessere.json della città.
+name: Mappa – disegna
+
+on:
+  workflow_dispatch:
+    inputs:
+      citta:
+        description: 'Città (es. venezia)'
+        required: true
+      sud:
+        description: 'Latitudine sud'
+        required: true
+      ovest:
+        description: 'Longitudine ovest'
+        required: true
+      nord:
+        description: 'Latitudine nord'
+        required: true
+      est:
+        description: 'Longitudine est'
+        required: true
+      centro_lat:
+        description: 'Latitudine del centro (facoltativo)'
+        required: false
+        default: ''
+      centro_lon:
+        description: 'Longitudine del centro (facoltativo)'
+        required: false
+        default: ''
+      larghezza:
+        description: 'Larghezza in pixel dell’immagine base'
+        required: false
+        default: '6000'
+      parti:
+        description: 'Pezzi per lato in cui dividere il download'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mappa
+  cancel-in-progress: false
+
+jobs:
+  disegna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Scarica i dati OpenStreetMap
+        run: python3 strumenti/scarica_osm.py "${{ inputs.sud }}" "${{ inputs.ovest }}" "${{ inputs.nord }}" "${{ inputs.est }}" /tmp/osm.json "${{ inputs.parti }}"
+      - name: Disegna la mappa
+        env:
+          CITTA: ${{ inputs.citta }}
+        run: |
+          rm -rf "pacchetti/$CITTA/assets/mappa"
+          CENTRO=""
+          if [ -n "${{ inputs.centro_lat }}" ]; then CENTRO="--centro ${{ inputs.centro_lat }} ${{ inputs.centro_lon }}"; fi
+          python3 strumenti/disegna_mappa.py /tmp/osm.json "$CITTA" "${{ inputs.sud }}" "${{ inputs.ovest }}" "${{ inputs.nord }}" "${{ inputs.est }}" $CENTRO --larghezza "${{ inputs.larghezza }}"
+          python3 strumenti/prepara_pacchetto.py "pacchetti/$CITTA"
+      - name: Pubblica
+        env:
+          CITTA: ${{ inputs.citta }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A pacchetti "catalogo.json"
+          if git diff --cached --quiet; then echo "Niente di nuovo"; exit 0; fi
+          git commit -q -m "Mappa $CITTA: ridisegnata da OpenStreetMap"
+          for i in 1 2 3 4; do
+            git pull -q --rebase && git push -q && exit 0
+            echo "Tentativo $i non riuscito, riprovo tra 20 secondi"; sleep 20
+          done
+          exit 1
