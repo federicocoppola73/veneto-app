@@ -1,0 +1,17 @@
+# File non necessari alla build dell'app (i pacchetti delle città si scaricano da GitHub quando l'app gira).
+# Con .easignore EAS non usa più .gitignore: le righe di sotto ripetono quelle utili.
+node_modules/
+.expo/
+dist/
+__pycache__/
+*.tmp.webp
+
+# dati e strumenti del repository
+pacchetti/
+audioguide/
+riconoscimento/
+strumenti/
+docs/
+.github/
+*.py
+README.md
