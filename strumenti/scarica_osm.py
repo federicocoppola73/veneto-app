@@ -17,19 +17,35 @@ SERVER = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.syst
           'https://overpass.private.coffee/api/interpreter']
 
 
-def scarica(sud, ovest, nord, est):
+def prova(sud, ovest, nord, est, tentativi):
     q = QUERY_OVERPASS.replace('SUD', str(sud)).replace('OVEST', str(ovest)).replace('NORD', str(nord)).replace('EST', str(est))
     dati = urllib.parse.urlencode({'data': q}).encode()
-    for tentativo in range(6):
+    for t in range(tentativi):
         for url in SERVER:
             try:
                 req = urllib.request.Request(url, data=dati, headers={'User-Agent': 'veneto-app-mappe/1.0'})
-                with urllib.request.urlopen(req, timeout=1000) as r:
+                with urllib.request.urlopen(req, timeout=300) as r:
                     return json.load(r)['elements']
             except Exception as e:
-                print('  errore', url, str(e)[:100], flush=True)
-        time.sleep(30 * (tentativo + 1))
-    sys.exit('Overpass non risponde')
+                print('  errore', url, str(e)[:80], flush=True)
+        time.sleep(20)
+    return None
+
+
+def scarica(sud, ovest, nord, est, profondita=0):
+    """Scarica l'area; se i server non ce la fanno la divide in quattro e riprova (fino a 3 livelli)."""
+    el = prova(sud, ovest, nord, est, 1 if profondita < 3 else 4)
+    if el is not None:
+        return el
+    if profondita >= 3:
+        sys.exit('Overpass non risponde')
+    print(f'  divido l\'area in quattro (livello {profondita + 1})', flush=True)
+    ms, mo = (sud + nord) / 2, (ovest + est) / 2
+    risultato = []
+    for s0, s1 in ((sud, ms), (ms, nord)):
+        for o0, o1 in ((ovest, mo), (mo, est)):
+            risultato += scarica(round(s0, 5), round(o0, 5), round(s1, 5), round(o1, 5), profondita + 1)
+    return risultato
 
 
 def main():
