@@ -1,5 +1,5 @@
 {
- "versione": "76a701eaa357",
+ "versione": "f28ddab46fe9",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -6970,8 +6970,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/personaggi.json",
-   "sha256": "958193cf8aa362da947b965e6cad27e5373bbc395a925c920cb4f7d7974642aa",
-   "byte": 325143
+   "sha256": "b55e977a3641a515a403585fe39b7e5a70e0ed41d25d6107ea45a0dccd0b925f",
+   "byte": 325070
   },
   {
    "path": "dati/principali.json",
@@ -7029,6 +7029,12 @@
     "altro"
    ],
    "byte": 3325751
+  },
+  {
+   "versione": "f28ddab46fe9",
+   "da": "76a701eaa357",
+   "data": "2026-11-19",
+   "byte": 325070
   }
  ]
 }
