@@ -1,0 +1,287 @@
+{
+ "periodi": [
+  {
+   "id": "00",
+   "titolo": {
+    "it": "La città in sintesi",
+    "en": "The city at a glance",
+    "fr": "La ville en bref",
+    "de": "Die Stadt im Überblick",
+    "es": "La ciudad en síntesis"
+   },
+   "testo": {
+    "it": "Venezia sorge in una laguna dell'alto Adriatico, su più di cento isole unite da canali e ponti. Nata, secondo la tradizione, nel V secolo, quando le popolazioni della terraferma cercano rifugio tra le barene, per oltre mille anni è la capitale di una Repubblica marinara che collega l'Europa all'Oriente.\n\nDal Mille in poi la Repubblica cresce con i commerci e le crociate, costruisce un impero di mare e, dal 1404, si estende anche sulla terraferma. Le sue istituzioni, guidate dal doge e dal Maggior Consiglio, sono tra le più stabili d'Europa. Nel Rinascimento è un centro di pittura, architettura e stampa, con Giovanni Bellini, Tiziano e Tintoretto.\n\nNel 1797 la Repubblica cade con l'arrivo di Napoleone e la città passa all'Austria; nel 1866 entra nel Regno d'Italia. Nel Novecento attraversa due guerre mondiali, l'acqua alta del 1966 e lo spopolamento del centro storico; oggi, con la sua laguna, è patrimonio UNESCO dal 1987 ed è una delle città più visitate del mondo.",
+    "en": "Venice rises in a lagoon of the northern Adriatic, on more than a hundred islands linked by canals and bridges. Born, according to tradition, in the 5th century, when people from the mainland sought refuge among the sandbanks, for over a thousand years it was the capital of a maritime Republic linking Europe to the East.\n\nFrom the year 1000 onwards the Republic grew through trade and the Crusades, built a sea empire and, from 1404, expanded onto the mainland as well. Its institutions, led by the doge and the Great Council, were among the most stable in Europe. In the Renaissance it was a centre of painting, architecture and printing, with Giovanni Bellini, Titian and Tintoretto.\n\nIn 1797 the Republic fell with the arrival of Napoleon and the city passed to Austria; in 1866 it joined the Kingdom of Italy. In the twentieth century it lived through two world wars, the high water of 1966 and the depopulation of the historic centre; today, with its lagoon, it has been a UNESCO World Heritage Site since 1987 and is one of the most visited cities in the world.",
+    "fr": "Venise s'élève dans une lagune du nord de l'Adriatique, sur plus de cent îles reliées par des canaux et des ponts. Née, selon la tradition, au Ve siècle, quand les populations de la terre ferme cherchent refuge parmi les bancs de sable, elle est pendant plus de mille ans la capitale d'une République maritime qui relie l'Europe à l'Orient.\n\nÀ partir de l'an mille, la République grandit grâce au commerce et aux croisades, construit un empire de la mer et, dès 1404, s'étend aussi sur la terre ferme. Ses institutions, dirigées par le doge et le Grand Conseil, sont parmi les plus stables d'Europe. À la Renaissance, c'est un centre de peinture, d'architecture et d'imprimerie, avec Giovanni Bellini, le Titien et le Tintoret.\n\nEn 1797, la République tombe avec l'arrivée de Napoléon et la ville passe à l'Autriche ; en 1866, elle entre dans le Royaume d'Italie. Au XXe siècle, elle traverse deux guerres mondiales, l'acqua alta de 1966 et le dépeuplement du centre historique ; aujourd'hui, avec sa lagune, elle est inscrite au patrimoine mondial de l'UNESCO depuis 1987 et compte parmi les villes les plus visitées du monde.",
+    "de": "Venedig liegt in einer Lagune der nördlichen Adria, auf mehr als hundert Inseln, die durch Kanäle und Brücken verbunden sind. Der Überlieferung nach im 5. Jahrhundert entstanden, als die Bewohner des Festlands Zuflucht zwischen den Sandbänken suchten, war es mehr als tausend Jahre lang die Hauptstadt einer Seerepublik, die Europa mit dem Orient verband.\n\nAb dem Jahr 1000 wuchs die Republik durch Handel und Kreuzzüge, errichtete ein Seereich und dehnte sich ab 1404 auch auf das Festland aus. Ihre Institutionen, geleitet vom Dogen und vom Großen Rat, gehörten zu den stabilsten Europas. In der Renaissance war sie ein Zentrum von Malerei, Architektur und Buchdruck, mit Giovanni Bellini, Tizian und Tintoretto.\n\n1797 fiel die Republik mit der Ankunft Napoleons, und die Stadt ging an Österreich; 1866 kam sie zum Königreich Italien. Im 20. Jahrhundert erlebte sie zwei Weltkriege, das Hochwasser von 1966 und die Entvölkerung der Altstadt; heute ist sie mit ihrer Lagune seit 1987 UNESCO-Welterbe und eine der meistbesuchten Städte der Welt.",
+    "es": "Venecia se alza en una laguna del alto Adriático, sobre más de cien islas unidas por canales y puentes. Nacida, según la tradición, en el siglo V, cuando las poblaciones de tierra firme buscan refugio entre los bancos de arena, durante más de mil años es la capital de una República marinera que une Europa con Oriente.\n\nA partir del año mil la República crece con el comercio y las cruzadas, construye un imperio del mar y, desde 1404, se extiende también por tierra firme. Sus instituciones, dirigidas por el dux y el Gran Consejo, están entre las más estables de Europa. En el Renacimiento es un centro de pintura, arquitectura e imprenta, con Giovanni Bellini, Tiziano y Tintoretto.\n\nEn 1797 la República cae con la llegada de Napoleón y la ciudad pasa a Austria; en 1866 entra en el Reino de Italia. En el siglo XX atraviesa dos guerras mundiales, el acqua alta de 1966 y el despoblamiento del centro histórico; hoy, con su laguna, es patrimonio de la UNESCO desde 1987 y una de las ciudades más visitadas del mundo."
+   },
+   "audio": "storia-00",
+   "luoghi": [
+    "piazza-san-marco",
+    "basilica-san-marco",
+    "palazzo-ducale",
+    "canal-grande"
+   ]
+  },
+  {
+   "id": "01",
+   "titolo": {
+    "it": "Origini e età romana",
+    "en": "Origins and Roman times",
+    "fr": "Origines et époque romaine",
+    "de": "Ursprünge und römische Zeit",
+    "es": "Orígenes y época romana"
+   },
+   "anni": {
+    "it": "Fino al VI secolo",
+    "en": "until the 6th century",
+    "fr": "jusqu'au VIe siècle",
+    "de": "bis zum 6. Jahrhundert",
+    "es": "hasta el siglo VI"
+   },
+   "testo": {
+    "it": "Quando nasce Venezia, la laguna è già abitata da secoli. In età romana fa parte della Venetia et Histria: pescatori, saline e ville sorgono ai margini delle barene, mentre i centri veri sono sulla terraferma, come Aquileia, Altino e Padova, collegati dalla via Annia e da una rete di canali navigabili.\n\nTra il V e il VI secolo le invasioni cambiano tutto. Con gli Unni di Attila (452), poi con i Goti e infine con i Longobardi (568), molti abitanti di Altino, Aquileia e Padova cercano scampo sulle isole della laguna. Torcello, secondo la tradizione, accoglie il vescovo di Altino, e la sua cattedrale è fondata nel 639.\n\nLa tradizione fissa la nascita di Venezia al 25 marzo del 421, giorno della fondazione di San Giacomo a Rialto. È una data di leggenda, ma dice una cosa vera: la città non nasce da una conquista, ma da un rifugio che a poco a poco diventa una comunità organizzata, in cui il mare serve a difendersi e a commerciare.",
+    "en": "When Venice is born, the lagoon has already been inhabited for centuries. In Roman times it was part of Venetia et Histria: fishermen, salt pans and villas stood at the edge of the sandbanks, while the real centres were on the mainland, such as Aquileia, Altino and Padua, linked by the Via Annia and a network of navigable canals.\n\nBetween the 5th and 6th centuries the invasions changed everything. With Attila's Huns (452), then the Goths and finally the Lombards (568), many people from Altino, Aquileia and Padua sought safety on the islands of the lagoon. Torcello, according to tradition, took in the bishop of Altino, and its cathedral was founded in 639.\n\nTradition places the birth of Venice on 25 March 421, the day of the foundation of San Giacomo at Rialto. It is a legendary date, but it says something true: the city was not born from conquest but from a refuge that little by little became an organised community, in which the sea served both for defence and for trade.",
+    "fr": "Quand Venise naît, la lagune est déjà habitée depuis des siècles. À l'époque romaine, elle fait partie de la Venetia et Histria : pêcheurs, salines et villas s'élèvent en bordure des bancs de sable, tandis que les vrais centres sont sur la terre ferme, comme Aquilée, Altino et Padoue, reliés par la via Annia et par un réseau de canaux navigables.\n\nEntre le Ve et le VIe siècle, les invasions changent tout. Avec les Huns d'Attila (452), puis les Goths et enfin les Lombards (568), de nombreux habitants d'Altino, d'Aquilée et de Padoue cherchent refuge sur les îles de la lagune. Torcello, selon la tradition, accueille l'évêque d'Altino, et sa cathédrale est fondée en 639.\n\nLa tradition fixe la naissance de Venise au 25 mars 421, jour de la fondation de San Giacomo à Rialto. C'est une date de légende, mais elle dit une chose vraie : la ville ne naît pas d'une conquête, mais d'un refuge qui devient peu à peu une communauté organisée, où la mer sert à se défendre et à commercer.",
+    "de": "Als Venedig entsteht, ist die Lagune schon seit Jahrhunderten besiedelt. In römischer Zeit gehört sie zur Venetia et Histria: Fischer, Salinen und Villen liegen am Rand der Sandbänke, während die eigentlichen Zentren auf dem Festland liegen, wie Aquileia, Altino und Padua, verbunden durch die Via Annia und ein Netz schiffbarer Kanäle.\n\nZwischen dem 5. und 6. Jahrhundert verändern die Invasionen alles. Mit den Hunnen Attilas (452), dann mit den Goten und schließlich mit den Langobarden (568) suchen viele Bewohner von Altino, Aquileia und Padua Schutz auf den Inseln der Lagune. Torcello nimmt der Überlieferung nach den Bischof von Altino auf, und seine Kathedrale wird 639 gegründet.\n\nDie Überlieferung legt die Geburt Venedigs auf den 25. März 421, den Tag der Gründung von San Giacomo di Rialto. Es ist ein legendäres Datum, aber es sagt etwas Wahres: Die Stadt entsteht nicht durch Eroberung, sondern aus einer Zuflucht, die nach und nach zu einer organisierten Gemeinschaft wird, in der das Meer der Verteidigung und dem Handel dient.",
+    "es": "Cuando nace Venecia, la laguna ya está habitada desde hace siglos. En época romana forma parte de la Venetia et Histria: pescadores, salinas y villas se levantan en los márgenes de los bancos de arena, mientras que los centros verdaderos están en tierra firme, como Aquileia, Altino y Padua, unidos por la vía Annia y por una red de canales navegables.\n\nEntre los siglos V y VI las invasiones lo cambian todo. Con los hunos de Atila (452), luego con los godos y por último con los longobardos (568), muchos habitantes de Altino, Aquileia y Padua buscan refugio en las islas de la laguna. Torcello, según la tradición, acoge al obispo de Altino, y su catedral se funda en 639.\n\nLa tradición fija el nacimiento de Venecia el 25 de marzo de 421, día de la fundación de San Giacomo di Rialto. Es una fecha de leyenda, pero dice algo verdadero: la ciudad no nace de una conquista, sino de un refugio que poco a poco se convierte en una comunidad organizada, en la que el mar sirve para defenderse y para comerciar."
+   },
+   "audio": "storia-01",
+   "luoghi": [
+    "torcello",
+    "trono-attila",
+    "santa-fosca",
+    "san-giacometto"
+   ],
+   "approfondire": [
+    "museo-torcello",
+    "museo-archeologico",
+    "ponte-diavolo"
+   ],
+   "personaggi": [
+    "cassiodoro"
+   ]
+  },
+  {
+   "id": "02",
+   "titolo": {
+    "it": "Alto Medioevo",
+    "en": "The Early Middle Ages",
+    "fr": "Le haut Moyen Âge",
+    "de": "Das Frühmittelalter",
+    "es": "La Alta Edad Media"
+   },
+   "anni": {
+    "it": "VII–X secolo",
+    "en": "7th–10th century",
+    "fr": "VIIe–Xe siècle",
+    "de": "7.–10. Jahrhundert",
+    "es": "siglos VII–X"
+   },
+   "testo": {
+    "it": "Nell'alto Medioevo la laguna resta formalmente legata a Bisanzio, ma si governa da sé. La tradizione veneziana indica nel 697 l'elezione del primo doge, Paolo Lucio Anafesto, una figura discussa dagli storici e forse leggendaria. Più sicuro è collocare tra VIII e IX secolo il progressivo sviluppo dell'autonomia politica della comunità lagunare, mentre la sede del potere si sposta per tappe da Eraclea a Malamocco e, nell'810, a Rialto, tradizionalmente per scelta del doge Agnello Participazio: è il nucleo da cui nasce la Venezia di oggi.\n\nNell'828 due mercanti veneziani portano da Alessandria d'Egitto il corpo dell'evangelista Marco, che diventa il patrono della città e il suo simbolo, con il leone alato. Accanto alla residenza del doge sorge la prima cappella di San Marco, e Venezia, tra l'impero d'Oriente e quello franco, trova la sua autonomia.\n\nNel X secolo la città è già una potenza commerciale. Nell'anno 1000 il doge Pietro II Orseolo guida una spedizione sulla costa dalmata e, il giorno dell'Ascensione, la flotta lascia la laguna con la benedizione del vescovo: prende avvio la tradizione della Sensa, da cui si sviluppa nei secoli successivi la cerimonia dello «Sposalizio del Mare».",
+    "en": "In the Early Middle Ages the lagoon remained formally tied to Byzantium, but governed itself. Venetian tradition places the election of the first doge, Paolo Lucio Anafesto, in 697, a figure debated by historians and perhaps legendary. It is safer to place between the 8th and 9th centuries the gradual growth of the lagoon community's political autonomy, while the seat of power moved by stages from Heraclea to Malamocco and, in 810, to Rialto, traditionally by choice of Doge Agnello Participazio: this is the core from which today's Venice grew.\n\nIn 828 two Venetian merchants brought the body of the evangelist Mark from Alexandria in Egypt; he became the patron saint of the city and its symbol, with the winged lion. Next to the doge's residence rose the first chapel of San Marco, and Venice, between the Eastern and the Frankish empires, found its autonomy.\n\nBy the 10th century the city was already a commercial power. In the year 1000 Doge Pietro II Orseolo led an expedition to the Dalmatian coast and, on Ascension Day, the fleet left the lagoon with the bishop's blessing: this was the start of the tradition of the Sensa, from which, in the following centuries, the ceremony of the “Marriage of the Sea” developed.",
+    "fr": "Au haut Moyen Âge, la lagune reste formellement liée à Byzance, mais se gouverne elle-même. La tradition vénitienne place en 697 l'élection du premier doge, Paolo Lucio Anafesto, figure discutée des historiens et peut-être légendaire. Il est plus sûr de situer entre le VIIIe et le IXe siècle le développement progressif de l'autonomie politique de la communauté lagunaire, tandis que le siège du pouvoir se déplace par étapes d'Héraclée à Malamocco puis, en 810, à Rialto, traditionnellement par le choix du doge Agnello Participazio : c'est le noyau d'où naît la Venise d'aujourd'hui.\n\nEn 828, deux marchands vénitiens rapportent d'Alexandrie d'Égypte le corps de l'évangéliste Marc, qui devient le patron de la ville et son symbole, avec le lion ailé. À côté de la résidence du doge s'élève la première chapelle de Saint-Marc, et Venise, entre l'empire d'Orient et l'empire franc, trouve son autonomie.\n\nAu Xe siècle, la ville est déjà une puissance commerciale. En l'an 1000, le doge Pierre II Orseolo conduit une expédition sur la côte dalmate et, le jour de l'Ascension, la flotte quitte la lagune avec la bénédiction de l'évêque : commence ainsi la tradition de la Sensa, d'où se développera, dans les siècles suivants, la cérémonie des « Noces de la mer ».",
+    "de": "Im Frühmittelalter bleibt die Lagune formal an Byzanz gebunden, regiert sich aber selbst. Die venezianische Überlieferung setzt 697 die Wahl des ersten Dogen an, Paolo Lucio Anafesto, einer unter Historikern umstrittenen und vielleicht legendären Gestalt. Sicherer ist es, die allmähliche Entwicklung der politischen Autonomie der Lagunengemeinschaft zwischen dem 8. und 9. Jahrhundert anzusetzen, während sich der Sitz der Macht schrittweise von Eraclea nach Malamocco und 810 nach Rialto verlagert, der Überlieferung nach auf Entscheidung des Dogen Agnello Participazio: Das ist der Kern, aus dem das heutige Venedig entsteht.\n\n828 bringen zwei venezianische Kaufleute den Leichnam des Evangelisten Markus aus Alexandria in Ägypten mit; er wird zum Schutzpatron der Stadt und zu ihrem Symbol, mit dem geflügelten Löwen. Neben der Residenz des Dogen entsteht die erste Kapelle von San Marco, und Venedig findet zwischen dem Reich im Osten und dem Frankenreich seine Autonomie.\n\nIm 10. Jahrhundert ist die Stadt bereits eine Handelsmacht. Im Jahr 1000 führt der Doge Pietro II. Orseolo eine Expedition an die dalmatinische Küste, und am Himmelfahrtstag verlässt die Flotte mit dem Segen des Bischofs die Lagune: Damit beginnt die Tradition der Sensa, aus der sich in den folgenden Jahrhunderten die Zeremonie der „Vermählung mit dem Meer“ entwickelt.",
+    "es": "En la Alta Edad Media la laguna sigue ligada formalmente a Bizancio, pero se gobierna por sí misma. La tradición veneciana sitúa en 697 la elección del primer dux, Paolo Lucio Anafesto, una figura discutida por los historiadores y quizá legendaria. Más seguro es situar entre los siglos VIII y IX el desarrollo progresivo de la autonomía política de la comunidad lagunar, mientras la sede del poder se desplaza por etapas de Heraclea a Malamocco y, en 810, a Rialto, tradicionalmente por decisión del dux Agnello Participazio: es el núcleo del que nace la Venecia de hoy.\n\nEn 828 dos mercaderes venecianos traen desde Alejandría de Egipto el cuerpo del evangelista Marcos, que se convierte en el patrón de la ciudad y en su símbolo, con el león alado. Junto a la residencia del dux se levanta la primera capilla de San Marcos, y Venecia, entre el imperio de Oriente y el franco, encuentra su autonomía.\n\nEn el siglo X la ciudad ya es una potencia comercial. En el año 1000 el dux Pietro II Orseolo dirige una expedición a la costa dálmata y, el día de la Ascensión, la flota sale de la laguna con la bendición del obispo: comienza así la tradición de la Sensa, de la que se desarrollará, en los siglos siguientes, la ceremonia de los «Desposorios del Mar»."
+   },
+   "audio": "storia-02",
+   "luoghi": [
+    "basilica-san-marco",
+    "palazzo-ducale",
+    "san-pietro-castello",
+    "campanile-san-marco"
+   ],
+   "approfondire": [
+    "san-zaccaria",
+    "piazza-san-marco"
+   ]
+  },
+  {
+   "id": "03",
+   "titolo": {
+    "it": "Il Comune e l'espansione sul mare",
+    "en": "The Commune and expansion at sea",
+    "fr": "La Commune et l'expansion sur mer",
+    "de": "Die Kommune und die Expansion zur See",
+    "es": "El Comune y la expansión por el mar"
+   },
+   "anni": {
+    "it": "XI–XIV secolo",
+    "en": "11th–14th century",
+    "fr": "XIe–XIVe siècle",
+    "de": "11.–14. Jahrhundert",
+    "es": "siglos XI–XIV"
+   },
+   "testo": {
+    "it": "Tra l'XI e il XIV secolo Venezia diventa una grande potenza marinara. Con le crociate ottiene privilegi commerciali nei porti d'Oriente; nei primi decenni del XII secolo si sviluppa l'Arsenale, il grande cantiere navale pubblico della Repubblica. Nel 1204 la Quarta Crociata, in cui la flotta e la politica veneziane, guidate dal doge Enrico Dandolo, hanno un ruolo determinante, porta alla conquista di Costantinopoli da parte dell'esercito crociato: Venezia ne trae basi, ricchezze e, tra l'altro, i cavalli di bronzo di San Marco.\n\nIn questi secoli si definisce anche il governo della Repubblica. Il doge ha poteri sempre più limitati, mentre il Maggior Consiglio diventa il cuore dello Stato; dal 1297 una serie di provvedimenti, la cosiddetta Serrata, restringe progressivamente l'accesso al Maggior Consiglio alle famiglie del patriziato.\n\nVenezia è ora un porto che collega l'Europa all'Asia: Marco Polo parte nel 1271 e torna nel 1295 con il racconto del Milione. La rivalità con Genova porta a guerre lunghe, fino alla vittoria di Chioggia nel 1380, mentre sorgono i grandi palazzi veneto-bizantini sul Canal Grande e le basiliche dei frati, i Frari e Santi Giovanni e Paolo.",
+    "en": "Between the 11th and the 14th centuries Venice became a great maritime power. With the Crusades it obtained trade privileges in the ports of the East; in the early decades of the 12th century the Arsenal developed, the Republic's great public shipyard. In 1204 the Fourth Crusade, in which the Venetian fleet and politics, guided by Doge Enrico Dandolo, played a decisive role, led to the conquest of Constantinople by the crusader army: Venice gained from it bases, riches and, among other things, the bronze horses of San Marco.\n\nIn these centuries the government of the Republic also took shape. The doge's powers became ever more limited, while the Great Council became the heart of the State; from 1297 a series of measures, the so-called Serrata, progressively restricted access to the Great Council to the families of the patriciate.\n\nVenice was now a port linking Europe to Asia: Marco Polo left in 1271 and returned in 1295 with the story of the Milione. The rivalry with Genoa led to long wars, until the victory at Chioggia in 1380, while the great Veneto-Byzantine palaces rose on the Grand Canal, together with the friars' basilicas, the Frari and Santi Giovanni e Paolo.",
+    "fr": "Entre le XIe et le XIVe siècle, Venise devient une grande puissance maritime. Avec les croisades, elle obtient des privilèges commerciaux dans les ports d'Orient ; dans les premières décennies du XIIe siècle se développe l'Arsenal, le grand chantier naval public de la République. En 1204, la quatrième croisade, dans laquelle la flotte et la politique vénitiennes, guidées par le doge Enrico Dandolo, jouent un rôle déterminant, aboutit à la conquête de Constantinople par l'armée des croisés : Venise en tire des bases, des richesses et, entre autres, les chevaux de bronze de Saint-Marc.\n\nPendant ces siècles se définit aussi le gouvernement de la République. Le doge voit ses pouvoirs de plus en plus limités, tandis que le Grand Conseil devient le cœur de l'État ; à partir de 1297, une série de mesures, la fameuse Serrata, restreint progressivement l'accès au Grand Conseil aux familles du patriciat.\n\nVenise est désormais un port qui relie l'Europe à l'Asie : Marco Polo part en 1271 et revient en 1295 avec le récit du Devisement du monde. La rivalité avec Gênes mène à de longues guerres, jusqu'à la victoire de Chioggia en 1380, tandis que s'élèvent les grands palais vénéto-byzantins sur le Grand Canal et les basiliques des frères, les Frari et Santi Giovanni e Paolo.",
+    "de": "Zwischen dem 11. und dem 14. Jahrhundert wird Venedig zu einer großen Seemacht. Mit den Kreuzzügen erhält es Handelsprivilegien in den Häfen des Orients; in den ersten Jahrzehnten des 12. Jahrhunderts entwickelt sich das Arsenal, die große öffentliche Werft der Republik. 1204 führt der Vierte Kreuzzug, bei dem die venezianische Flotte und Politik unter dem Dogen Enrico Dandolo eine entscheidende Rolle spielen, zur Eroberung Konstantinopels durch das Kreuzfahrerheer: Venedig gewinnt daraus Stützpunkte, Reichtümer und unter anderem die Bronzepferde von San Marco.\n\nIn diesen Jahrhunderten bildet sich auch die Regierung der Republik heraus. Die Befugnisse des Dogen werden immer stärker beschränkt, während der Große Rat zum Herzen des Staates wird; ab 1297 beschränkt eine Reihe von Maßnahmen, die sogenannte Serrata, den Zugang zum Großen Rat schrittweise auf die Familien des Patriziats.\n\nVenedig ist nun ein Hafen, der Europa mit Asien verbindet: Marco Polo bricht 1271 auf und kehrt 1295 mit dem Bericht des Milione zurück. Die Rivalität mit Genua führt zu langen Kriegen, bis zum Sieg bei Chioggia im Jahr 1380, während am Canal Grande die großen venezianisch-byzantinischen Paläste und die Basiliken der Bettelorden, die Frari und Santi Giovanni e Paolo, entstehen.",
+    "es": "Entre los siglos XI y XIV Venecia se convierte en una gran potencia marítima. Con las cruzadas obtiene privilegios comerciales en los puertos de Oriente; en las primeras décadas del siglo XII se desarrolla el Arsenal, el gran astillero público de la República. En 1204 la Cuarta Cruzada, en la que la flota y la política venecianas, guiadas por el dux Enrico Dandolo, tienen un papel determinante, lleva a la conquista de Constantinopla por el ejército cruzado: Venecia obtiene de ello bases, riquezas y, entre otras cosas, los caballos de bronce de San Marcos.\n\nEn estos siglos se define también el gobierno de la República. El dux ve sus poderes cada vez más limitados, mientras el Gran Consejo se convierte en el corazón del Estado; desde 1297 una serie de medidas, la llamada Serrata, restringe progresivamente el acceso al Gran Consejo a las familias del patriciado.\n\nVenecia es ahora un puerto que une Europa con Asia: Marco Polo parte en 1271 y vuelve en 1295 con el relato del Milione. La rivalidad con Génova lleva a largas guerras, hasta la victoria de Chioggia en 1380, mientras se levantan los grandes palacios véneto-bizantinos en el Gran Canal y las basílicas de los frailes, los Frari y Santi Giovanni e Paolo."
+   },
+   "audio": "storia-03",
+   "luoghi": [
+    "arsenale",
+    "corte-milion",
+    "santi-giovanni-paolo",
+    "frari"
+   ],
+   "approfondire": [
+    "ca-da-mosto",
+    "ca-loredan",
+    "ca-farsetti",
+    "museo-navale"
+   ],
+   "personaggi": [
+    "marco-polo",
+    "enrico-dandolo"
+   ]
+  },
+  {
+   "id": "04",
+   "titolo": {
+    "it": "La Serenissima: dal Rinascimento alla caduta",
+    "en": "The Serenissima: from the Renaissance to the fall",
+    "fr": "La Sérénissime : de la Renaissance à la chute",
+    "de": "Die Serenissima: von der Renaissance bis zum Untergang",
+    "es": "La Serenísima: del Renacimiento a la caída"
+   },
+   "anni": {
+    "it": "XV–1797",
+    "en": "15th century–1797",
+    "fr": "XVe siècle–1797",
+    "de": "15. Jahrhundert–1797",
+    "es": "siglo XV–1797"
+   },
+   "testo": {
+    "it": "Nel Quattrocento la Repubblica, che fino ad allora guardava al mare, si espande sulla terraferma: dal 1404 entrano nello Stato Vicenza (1404), Verona (22 giugno 1405) e Padova (19 novembre 1405), e con la conquista di Brescia e Bergamo i confini arrivano fino all'Adda. Nel 1453 la caduta di Costantinopoli apre il lungo scontro con gli Ottomani, tra vittorie come Lepanto (1571) e perdite come Cipro e Candia.\n\nTra Quattrocento e Cinquecento Venezia è una delle città più ricche e colte d'Europa. Lavorano qui Giovanni Bellini, Tiziano, Tintoretto, Sansovino e Palladio; nel 1516 viene istituito il Ghetto di Venezia, da cui deriva il termine poi diffusosi in altre lingue, e nel 1591 è completato il ponte di Rialto. Dopo le grandi pestilenze del 1575 e del 1630 la città costruisce due chiese votive, il Redentore e la Salute.\n\nNel Settecento la potenza politica declina, ma Venezia resta la capitale della musica, del teatro e del Carnevale, con Vivaldi, Goldoni, Casanova e Tiepolo. Il 12 maggio 1797, davanti a Napoleone, il Maggior Consiglio vota la fine della Repubblica: dopo più di mille anni l'ultimo doge, Ludovico Manin, lascia il potere.",
+    "en": "In the 15th century the Republic, which until then had looked to the sea, expanded onto the mainland: from 1404 Vicenza (1404), Verona (22 June 1405) and Padua (19 November 1405) entered the State, and with the conquest of Brescia and Bergamo its borders reached the Adda. In 1453 the fall of Constantinople opened the long struggle with the Ottomans, with victories such as Lepanto (1571) and losses such as Cyprus and Candia.\n\nBetween the 15th and 16th centuries Venice was one of the richest and most cultured cities in Europe. Giovanni Bellini, Titian, Tintoretto, Sansovino and Palladio worked here; in 1516 the Ghetto of Venice was established, from which the term later spread to other languages, and in 1591 the Rialto Bridge was completed. After the great plagues of 1575 and 1630 the city built two votive churches, the Redentore and the Salute.\n\nIn the 18th century its political power declined, but Venice remained the capital of music, theatre and Carnival, with Vivaldi, Goldoni, Casanova and Tiepolo. On 12 May 1797, in the face of Napoleon, the Great Council voted the end of the Republic: after more than a thousand years the last doge, Ludovico Manin, left power.",
+    "fr": "Au XVe siècle, la République, qui jusque-là regardait vers la mer, s'étend sur la terre ferme : à partir de 1404 entrent dans l'État Vicence (1404), Vérone (22 juin 1405) et Padoue (19 novembre 1405), et avec la conquête de Brescia et de Bergame, ses frontières atteignent l'Adda. En 1453, la chute de Constantinople ouvre le long affrontement avec les Ottomans, entre victoires comme Lépante (1571) et pertes comme Chypre et Candie.\n\nEntre le XVe et le XVIe siècle, Venise est l'une des villes les plus riches et les plus cultivées d'Europe. Giovanni Bellini, le Titien, le Tintoret, Sansovino et Palladio y travaillent ; en 1516 est institué le Ghetto de Venise, d'où dérive le terme ensuite répandu dans d'autres langues, et en 1591 s'achève le pont du Rialto. Après les grandes pestes de 1575 et de 1630, la ville construit deux églises votives, le Rédempteur et la Salute.\n\nAu XVIIIe siècle, la puissance politique décline, mais Venise reste la capitale de la musique, du théâtre et du Carnaval, avec Vivaldi, Goldoni, Casanova et Tiepolo. Le 12 mai 1797, face à Napoléon, le Grand Conseil vote la fin de la République : après plus de mille ans, le dernier doge, Ludovico Manin, quitte le pouvoir.",
+    "de": "Im 15. Jahrhundert dehnt sich die Republik, die bis dahin zum Meer geblickt hatte, auf das Festland aus: Ab 1404 gehören Vicenza (1404), Verona (22. Juni 1405) und Padua (19. November 1405) zum Staat, und mit der Eroberung von Brescia und Bergamo reichen die Grenzen bis zur Adda. 1453 eröffnet der Fall Konstantinopels den langen Konflikt mit den Osmanen, mit Siegen wie Lepanto (1571) und Verlusten wie Zypern und Candia.\n\nZwischen dem 15. und 16. Jahrhundert ist Venedig eine der reichsten und gebildetsten Städte Europas. Hier arbeiten Giovanni Bellini, Tizian, Tintoretto, Sansovino und Palladio; 1516 wird das Ghetto von Venedig eingerichtet, von dem der später in andere Sprachen übernommene Begriff stammt, und 1591 wird die Rialtobrücke vollendet. Nach den großen Pestepidemien von 1575 und 1630 baut die Stadt zwei Votivkirchen, den Redentore und die Salute.\n\nIm 18. Jahrhundert schwindet die politische Macht, aber Venedig bleibt die Hauptstadt der Musik, des Theaters und des Karnevals, mit Vivaldi, Goldoni, Casanova und Tiepolo. Am 12. Mai 1797 beschließt der Große Rat angesichts Napoleons das Ende der Republik: Nach mehr als tausend Jahren gibt der letzte Doge, Ludovico Manin, die Macht ab.",
+    "es": "En el siglo XV la República, que hasta entonces miraba al mar, se expande por tierra firme: desde 1404 entran en el Estado Vicenza (1404), Verona (22 de junio de 1405) y Padua (19 de noviembre de 1405), y con la conquista de Brescia y Bérgamo sus fronteras llegan hasta el Adda. En 1453 la caída de Constantinopla abre el largo enfrentamiento con los otomanos, entre victorias como Lepanto (1571) y pérdidas como Chipre y Candía.\n\nEntre los siglos XV y XVI Venecia es una de las ciudades más ricas y cultas de Europa. Aquí trabajan Giovanni Bellini, Tiziano, Tintoretto, Sansovino y Palladio; en 1516 se instituye el Gueto de Venecia, de donde deriva el término difundido después en otras lenguas, y en 1591 se completa el puente de Rialto. Tras las grandes pestes de 1575 y 1630, la ciudad construye dos iglesias votivas, el Redentore y la Salute.\n\nEn el siglo XVIII el poder político declina, pero Venecia sigue siendo la capital de la música, el teatro y el Carnaval, con Vivaldi, Goldoni, Casanova y Tiepolo. El 12 de mayo de 1797, ante Napoleón, el Gran Consejo vota el fin de la República: tras más de mil años, el último dux, Ludovico Manin, deja el poder."
+   },
+   "audio": "storia-04",
+   "luoghi": [
+    "palazzo-ducale",
+    "ghetto",
+    "salute",
+    "ponte-rialto"
+   ],
+   "approfondire": [
+    "redentore",
+    "libreria-marciana",
+    "san-giorgio-maggiore",
+    "ponte-sospiri",
+    "accademia",
+    "san-rocco",
+    "madonna-orto",
+    "ca-rezzonico",
+    "teatro-la-fenice"
+   ],
+   "personaggi": [
+    "giovanni-bellini",
+    "tiziano-vecellio",
+    "jacopo-tintoretto",
+    "veronica-franco",
+    "moderata-fonte",
+    "antonio-vivaldi",
+    "carlo-goldoni",
+    "giacomo-casanova",
+    "giambattista-tiepolo",
+    "francesco-foscari",
+    "jacopo-sansovino",
+    "andrea-palladio",
+    "paolo-veronese",
+    "aldo-manuzio",
+    "canaletto",
+    "ludovico-manin"
+   ]
+  },
+  {
+   "id": "05",
+   "titolo": {
+    "it": "Ottocento",
+    "en": "The nineteenth century",
+    "fr": "Le XIXe siècle",
+    "de": "Das 19. Jahrhundert",
+    "es": "El siglo XIX"
+   },
+   "anni": {
+    "it": "1797–1866",
+    "en": "1797–1866",
+    "fr": "1797–1866",
+    "de": "1797–1866",
+    "es": "1797–1866"
+   },
+   "testo": {
+    "it": "Dopo la caduta della Repubblica, Venezia passa dalla Francia all'Austria con il trattato di Campoformio (1797), poi di nuovo ai francesi nel 1806, quando entra nel Regno d'Italia napoleonico, e all'Austria dal 1814, nel Regno Lombardo-Veneto. I francesi sopprimono molti conventi e chiese, creano i giardini di Castello e trasformano l'isola di San Michele nel cimitero cittadino.\n\nSotto l'Austria la città è porto franco dal 1830 e nel 1846 viene collegata alla terraferma dal ponte ferroviario sulla laguna. Il 22 marzo 1848, dopo l'insurrezione dei cittadini e degli operai dell'Arsenale, Daniele Manin e Niccolò Tommaseo guidano la proclamazione della Repubblica di San Marco; la città resiste all'assedio austriaco, tra bombardamenti e colera, fino all'agosto 1849.\n\nNel 1866, dopo la terza guerra d'indipendenza, Venezia entra nel Regno d'Italia con un plebiscito. Negli ultimi decenni del secolo la città si apre al turismo e all'industria, con il mulino Stucky alla Giudecca, e nel 1895 nasce la Biennale d'Arte nei giardini di Castello.",
+    "en": "After the fall of the Republic, Venice passed from France to Austria with the Treaty of Campo Formio (1797), then back to the French in 1806, when it entered Napoleon's Kingdom of Italy, and to Austria from 1814, in the Lombardy–Venetia Kingdom. The French suppressed many convents and churches, created the Castello gardens and turned the island of San Michele into the city cemetery.\n\nUnder Austria the city became a free port in 1830 and in 1846 it was linked to the mainland by the railway bridge across the lagoon. On 22 March 1848, after the uprising of citizens and Arsenal workers, Daniele Manin and Niccolò Tommaseo led the proclamation of the Republic of San Marco; the city resisted the Austrian siege, amid bombardments and cholera, until August 1849.\n\nIn 1866, after the Third War of Independence, Venice joined the Kingdom of Italy by plebiscite. In the last decades of the century the city opened up to tourism and industry, with the Stucky mill on the Giudecca, and in 1895 the Art Biennale was born in the Castello gardens.",
+    "fr": "Après la chute de la République, Venise passe de la France à l'Autriche avec le traité de Campoformio (1797), puis de nouveau aux Français en 1806, quand elle entre dans le Royaume d'Italie napoléonien, et à l'Autriche dès 1814, dans le Royaume lombard-vénitien. Les Français suppriment de nombreux couvents et églises, créent les jardins de Castello et transforment l'île de San Michele en cimetière de la ville.\n\nSous l'Autriche, la ville est port franc dès 1830 et, en 1846, elle est reliée à la terre ferme par le pont ferroviaire sur la lagune. Le 22 mars 1848, après l'insurrection des citoyens et des ouvriers de l'Arsenal, Daniele Manin et Niccolò Tommaseo mènent la proclamation de la République de Saint-Marc ; la ville résiste au siège autrichien, entre bombardements et choléra, jusqu'en août 1849.\n\nEn 1866, après la troisième guerre d'indépendance, Venise entre dans le Royaume d'Italie par plébiscite. Dans les dernières décennies du siècle, la ville s'ouvre au tourisme et à l'industrie, avec le moulin Stucky à la Giudecca, et en 1895 naît la Biennale d'art dans les jardins de Castello.",
+    "de": "Nach dem Fall der Republik geht Venedig mit dem Frieden von Campoformio (1797) von Frankreich an Österreich über, dann 1806 erneut an die Franzosen, als es in das napoleonische Königreich Italien eingegliedert wird, und ab 1814 an Österreich, im Lombardo-Venetischen Königreich. Die Franzosen heben viele Klöster und Kirchen auf, legen die Gärten von Castello an und machen die Insel San Michele zum Friedhof der Stadt.\n\nUnter Österreich ist die Stadt ab 1830 Freihafen, und 1846 wird sie durch die Eisenbahnbrücke über die Lagune mit dem Festland verbunden. Am 22. März 1848 führen Daniele Manin und Niccolò Tommaseo nach dem Aufstand der Bürger und der Arbeiter des Arsenals die Ausrufung der Republik San Marco an; die Stadt hält der österreichischen Belagerung, unter Bombardierungen und Cholera, bis August 1849 stand.\n\n1866 kommt Venedig nach dem Dritten Unabhängigkeitskrieg durch eine Volksabstimmung zum Königreich Italien. In den letzten Jahrzehnten des Jahrhunderts öffnet sich die Stadt dem Tourismus und der Industrie, mit der Mühle Stucky auf der Giudecca, und 1895 entsteht die Kunstbiennale in den Gärten von Castello.",
+    "es": "Tras la caída de la República, Venecia pasa de Francia a Austria con el tratado de Campoformio (1797), luego de nuevo a los franceses en 1806, cuando entra en el Reino de Italia napoleónico, y a Austria desde 1814, en el Reino Lombardo-Véneto. Los franceses suprimen muchos conventos e iglesias, crean los jardines de Castello y transforman la isla de San Michele en el cementerio de la ciudad.\n\nBajo Austria la ciudad es puerto franco desde 1830 y en 1846 queda unida a tierra firme por el puente ferroviario sobre la laguna. El 22 de marzo de 1848, tras la insurrección de los ciudadanos y de los obreros del Arsenal, Daniele Manin y Niccolò Tommaseo encabezan la proclamación de la República de San Marcos; la ciudad resiste el asedio austriaco, entre bombardeos y cólera, hasta agosto de 1849.\n\nEn 1866, tras la tercera guerra de independencia, Venecia entra en el Reino de Italia mediante un plebiscito. En las últimas décadas del siglo la ciudad se abre al turismo y a la industria, con el molino Stucky en la Giudecca, y en 1895 nace la Bienal de Arte en los jardines de Castello."
+   },
+   "audio": "storia-05",
+   "luoghi": [
+    "san-michele",
+    "giardini-biennale",
+    "molino-stucky",
+    "vendramin-calergi"
+   ],
+   "approfondire": [
+    "stazione",
+    "giardini-reali",
+    "museo-correr",
+    "teatro-la-fenice"
+   ],
+   "personaggi": [
+    "daniele-manin",
+    "giovanni-stucky"
+   ]
+  },
+  {
+   "id": "06",
+   "titolo": {
+    "it": "Novecento e oggi",
+    "en": "The twentieth century and today",
+    "fr": "Le XXe siècle et aujourd'hui",
+    "de": "Das 20. Jahrhundert und heute",
+    "es": "El siglo XX y hoy"
+   },
+   "anni": {
+    "it": "1900 – oggi",
+    "en": "1900 to today",
+    "fr": "de 1900 à aujourd'hui",
+    "de": "von 1900 bis heute",
+    "es": "de 1900 a hoy"
+   },
+   "testo": {
+    "it": "Nel Novecento Venezia si divide in due: la città d'acqua e, sulla terraferma, quella industriale. Nel 1917 comincia a Porto Marghera la zona industriale, e nel 1933 il ponte stradale, poi «della Libertà», la unisce a Mestre. Durante la Prima guerra mondiale Venezia subisce incursioni aeree austro-ungariche, soprattutto dopo il 1915, e le opere d'arte vengono protette; dopo Caporetto, nel 1917, il fronte si ferma sul Piave, a pochi chilometri dalla laguna; nel 1932 il Lido ospita la prima Mostra del Cinema.\n\nIl 4 novembre 1966 un'acqua alta di 194 centimetri allaga la città e il mondo si accorge della sua fragilità: nascono comitati internazionali di salvaguardia e, nel 1973, la prima legge speciale. Nel 1987 Venezia e la sua laguna entrano nel Patrimonio mondiale dell'UNESCO.\n\nOggi il centro storico insulare ha poco più di 50.000 residenti, contro i circa 175.000 del 1951, mentre l'intero Comune, con Mestre e la terraferma, ne conta oltre 250.000; i visitatori sono milioni l'anno. Dal 2020 il sistema di dighe mobili del MOSE viene attivato in occasione delle maree eccezionali e protegge la città e la laguna dagli eventi più intensi; la Biennale, il Cinema e le grandi collezioni, come quella di Peggy Guggenheim, ne fanno una capitale dell'arte contemporanea.",
+    "en": "In the twentieth century Venice split in two: the city on the water and, on the mainland, the industrial one. In 1917 the industrial zone of Porto Marghera began, and in 1933 the road bridge, later called the “Ponte della Libertà”, joined it to Mestre. During the First World War Venice suffered Austro-Hungarian air raids, especially after 1915, and its works of art were protected; after Caporetto, in 1917, the front halted on the Piave, a few kilometres from the lagoon; in 1932 the Lido hosted the first Film Festival.\n\nOn 4 November 1966 a high water of 194 centimetres flooded the city and the world became aware of its fragility: international safeguarding committees were set up and, in 1973, the first special law. In 1987 Venice and its lagoon were inscribed on the UNESCO World Heritage List.\n\nToday the island historic centre has just over 50,000 residents, against about 175,000 in 1951, while the whole municipality, with Mestre and the mainland, has over 250,000; visitors number millions a year. Since 2020 the MOSE system of mobile barriers has been activated during exceptional tides and protects the city and the lagoon from the most intense events; the Biennale, the Film Festival and great collections, such as Peggy Guggenheim's, make it a capital of contemporary art.",
+    "fr": "Au XXe siècle, Venise se divise en deux : la ville d'eau et, sur la terre ferme, la ville industrielle. En 1917 commence la zone industrielle de Porto Marghera, et en 1933 le pont routier, appelé ensuite « de la Liberté », la relie à Mestre. Pendant la Première Guerre mondiale, Venise subit des raids aériens austro-hongrois, surtout après 1915, et les œuvres d'art sont protégées ; après Caporetto, en 1917, le front s'arrête sur la Piave, à quelques kilomètres de la lagune ; en 1932, le Lido accueille la première Mostra du cinéma.\n\nLe 4 novembre 1966, une acqua alta de 194 centimètres inonde la ville et le monde prend conscience de sa fragilité : naissent des comités internationaux de sauvegarde et, en 1973, la première loi spéciale. En 1987, Venise et sa lagune entrent au patrimoine mondial de l'UNESCO.\n\nAujourd'hui, le centre historique insulaire compte un peu plus de 50 000 résidents, contre environ 175 000 en 1951, tandis que l'ensemble de la commune, avec Mestre et la terre ferme, en compte plus de 250 000 ; les visiteurs se comptent par millions chaque année. Depuis 2020, le système de barrières mobiles du MOSE est activé lors des marées exceptionnelles et protège la ville et la lagune des événements les plus intenses ; la Biennale, le Festival du cinéma et les grandes collections, comme celle de Peggy Guggenheim, en font une capitale de l'art contemporain.",
+    "de": "Im 20. Jahrhundert teilt sich Venedig in zwei: die Stadt auf dem Wasser und, auf dem Festland, die Industriestadt. 1917 beginnt die Industriezone von Porto Marghera, und 1933 verbindet die Straßenbrücke, später „Ponte della Libertà“ genannt, die Stadt mit Mestre. Im Ersten Weltkrieg erlebt Venedig österreichisch-ungarische Luftangriffe, vor allem nach 1915, und die Kunstwerke werden geschützt; nach Caporetto kommt die Front 1917 am Piave zum Stehen, wenige Kilometer von der Lagune entfernt; 1932 findet am Lido die erste Filmbiennale statt.\n\nAm 4. November 1966 überflutet ein Hochwasser von 194 Zentimetern die Stadt, und die Welt erkennt ihre Zerbrechlichkeit: Es entstehen internationale Rettungskomitees und 1973 das erste Sondergesetz. 1987 werden Venedig und seine Lagune in die UNESCO-Welterbeliste aufgenommen.\n\nHeute hat die Inselaltstadt etwas mehr als 50.000 Einwohner, gegenüber rund 175.000 im Jahr 1951, während die gesamte Gemeinde mit Mestre und dem Festland über 250.000 zählt; die Besucher gehen jährlich in die Millionen. Seit 2020 wird das System der beweglichen Sperren des MOSE bei außergewöhnlichen Fluten aktiviert und schützt die Stadt und die Lagune vor den stärksten Ereignissen; die Biennale, die Filmfestspiele und große Sammlungen wie die von Peggy Guggenheim machen sie zu einer Hauptstadt der zeitgenössischen Kunst.",
+    "es": "En el siglo XX Venecia se divide en dos: la ciudad de agua y, en tierra firme, la industrial. En 1917 comienza en Porto Marghera la zona industrial, y en 1933 el puente de carretera, llamado después «de la Libertad», la une con Mestre. Durante la Primera Guerra Mundial Venecia sufre incursiones aéreas austrohúngaras, sobre todo después de 1915, y se protegen las obras de arte; tras Caporetto, en 1917, el frente se detiene en el Piave, a pocos kilómetros de la laguna; en 1932 el Lido acoge la primera Muestra de Cine.\n\nEl 4 de noviembre de 1966 un acqua alta de 194 centímetros inunda la ciudad y el mundo toma conciencia de su fragilidad: nacen comités internacionales de salvaguardia y, en 1973, la primera ley especial. En 1987 Venecia y su laguna entran en el Patrimonio Mundial de la UNESCO.\n\nHoy el centro histórico insular tiene algo más de 50.000 residentes, frente a unos 175.000 en 1951, mientras que todo el municipio, con Mestre y la tierra firme, cuenta con más de 250.000; los visitantes son millones al año. Desde 2020 el sistema de barreras móviles del MOSE se activa con las mareas excepcionales y protege la ciudad y la laguna de los eventos más intensos; la Bienal, el Festival de Cine y las grandes colecciones, como la de Peggy Guggenheim, la convierten en una capital del arte contemporáneo."
+   },
+   "audio": "storia-06",
+   "luoghi": [
+    "ponte-liberta",
+    "guggenheim",
+    "punta-dogana",
+    "lido"
+   ],
+   "approfondire": [
+    "piazzale-roma",
+    "tre-oci",
+    "teatro-la-fenice",
+    "san-michele",
+    "sant-elena",
+    "acqua-alta"
+   ],
+   "personaggi": [
+    "giuseppe-volpi",
+    "peggy-guggenheim"
+   ]
+  }
+ ]
+}

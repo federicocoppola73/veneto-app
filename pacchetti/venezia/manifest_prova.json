@@ -1,5 +1,5 @@
 {
- "versione": "7244936be26c",
+ "versione": "3f9e26f20762",
  "tipo": "prova",
  "file": [
   {
@@ -2809,6 +2809,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/servizi.json",
    "sha256": "a7fce7cf70e1f1fe41d44301c9bd31f9d34b633ddc3060c7bf86f7552b9f022b",
    "byte": 35024
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/storia.json",
+   "sha256": "274891719b90164a5c922545a8ce5edc8219b071dab744d14353e7756cd9ec1e",
+   "byte": 46892
   },
   {
    "path": "dati/vaporetti.json",
