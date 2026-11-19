@@ -1,5 +1,5 @@
 {
- "versione": "99c4aac576be",
+ "versione": "0983b02ef782",
  "file": [
   {
    "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
@@ -6622,8 +6622,8 @@
   {
    "path": "assets/personaggi/teodorico-il-grande.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/teodorico-il-grande.webp",
-   "sha256": "21bf0cc41421cbc6ba93ea4bf1b0eeb75d3f33f1b11f99669c1626a23822361b",
-   "byte": 646480
+   "sha256": "390dd4deffda21e084ea5fb0f32e7ba70b7b0d24c471c34bb8abbc409ec35d80",
+   "byte": 369934
   },
   {
    "path": "dati/aguzza.json",
@@ -6706,8 +6706,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/personaggi.json",
-   "sha256": "08c495a54d2815647e6d5cad5ca33de21fc1822b579e4a790d1be540d02b7beb",
-   "byte": 179475
+   "sha256": "8a82a94f63ab8a319ba2f208612403df0312b7f4bcc2a7ed882946bd6b070a4c",
+   "byte": 179443
   },
   {
    "path": "dati/principali.json",
@@ -6764,6 +6764,12 @@
    "da": "8f352385efc1",
    "data": "2026-11-19",
    "byte": 38656
+  },
+  {
+   "versione": "0983b02ef782",
+   "da": "99c4aac576be",
+   "data": "2026-11-19",
+   "byte": 549377
   }
  ]
 }
