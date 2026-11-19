@@ -97,6 +97,8 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
     () => CITTA.flatMap((c) => (c.coordinate ? [c] : (c.localita || []).map((l) => ({ ...l, prossimamente: true, zona: c.nome })))),
     [],
   );
+  // nei menù le città sono in ordine alfabetico (le lettere accentate contano come le base: Arquà tra Anna e Asolo)
+  const ordinate = useMemo(() => [...citta].sort((a, b) => a.nome.localeCompare(b.nome, lingua || 'it')), [citta, lingua]);
   const zoneInArrivo = useMemo(() => CITTA.filter((c) => c.localita && !c.pacchetto).map((c) => c.nome), []);
   const per = (id) => citta.find((c) => c.id === id);
 
@@ -243,7 +245,7 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
         <Modal visible={menu != null} transparent animationType="fade" onRequestClose={() => setMenu(null)}>
           <Pressable style={stili.velo} onPress={() => setMenu(null)}>
             <ScrollView style={stili.elenco}>
-              {citta.map((c) => (
+              {ordinate.map((c) => (
                 <Pressable
                   key={c.id}
                   style={stili.voce}
