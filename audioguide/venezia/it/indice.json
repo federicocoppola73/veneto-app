@@ -1,5 +1,5 @@
 {
- "versione": "a6b479bb3242",
+ "versione": "46d15ce1bdff",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "accademia": {
@@ -346,17 +346,17 @@
    ]
   },
   "contarini-bovolo": {
-   "byte": 720188,
+   "byte": 717740,
    "secondi": 120,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "contarini-bovolo.mp3",
-     "byte": 720188,
+     "byte": 717740,
      "secondi": 120,
-     "sha256": "998a8943ecee8c0f0a546da9a5cc7f6e26405cce7a66a4efbd033eb83a0e2396",
-     "testo": "f9625d3119f973c2"
+     "sha256": "8793b51e0fa08d3cbbc0e10e105c0741749455e2af39aada4e1c4c894328752a",
+     "testo": "4f465e4c9a67fa94"
     }
    ]
   },
@@ -874,32 +874,32 @@
    ]
   },
   "storia-04": {
-   "byte": 920060,
+   "byte": 918188,
    "secondi": 153,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-04.mp3",
-     "byte": 920060,
+     "byte": 918188,
      "secondi": 153,
-     "sha256": "958347c56384f1d134af92f6c1cc2199b64327bc3a82767848ef18873823fbea",
-     "testo": "fdaf6345b4bdb2ec"
+     "sha256": "b65b6fc4d31b440342a4e3080f7d6a27b2d5af1e01fa26785c5235a0742178b8",
+     "testo": "0529e70c79f145ff"
     }
    ]
   },
   "storia-05": {
-   "byte": 565964,
-   "secondi": 94,
+   "byte": 574316,
+   "secondi": 96,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-05.mp3",
-     "byte": 565964,
-     "secondi": 94,
-     "sha256": "7d8094b9b75dab7f2da05b28b5e4efbbdc6601892337c6045eed70511db02837",
-     "testo": "a80b19c9dca5b635"
+     "byte": 574316,
+     "secondi": 96,
+     "sha256": "da677255a14b3c50f9285450e83b5a0ada563e953dadd60153210cf1018e7743",
+     "testo": "43ebe0cb2c3f6541"
     }
    ]
   },
