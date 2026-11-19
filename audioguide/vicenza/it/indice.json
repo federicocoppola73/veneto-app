@@ -1,5 +1,5 @@
 {
- "versione": "2077c2540562",
+ "versione": "dc03e8b7f4ee",
  "voce": "it-IT-Chirp3-HD-Kore",
  "luoghi": {
   "arco-delle-scalette": {
@@ -159,17 +159,17 @@
    ]
   },
   "loggia-valmarana": {
-   "byte": 756764,
-   "secondi": 126,
+   "byte": 747404,
+   "secondi": 125,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "loggia-valmarana.mp3",
-     "byte": 756764,
-     "secondi": 126,
-     "sha256": "923a68de1884df4809ea93a0e035b7f5cc2b009ea6030ced42861cda2f47aefa",
-     "testo": "cd5ac58c563d3d53"
+     "byte": 747404,
+     "secondi": 125,
+     "sha256": "7ebb214b2a68ddca6eb5203294c9d60845e9c5b6b6f5946b2b5ece4331cdb8a7",
+     "testo": "8112b978a85f2429"
     }
    ]
   },
@@ -189,17 +189,17 @@
    ]
   },
   "palazzo-capra": {
-   "byte": 415052,
-   "secondi": 69,
+   "byte": 401372,
+   "secondi": 67,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "palazzo-capra.mp3",
-     "byte": 415052,
-     "secondi": 69,
-     "sha256": "6d55fa9899b790ed0f85bf2d2eba4a550d01cab53d0ce17257c3b2adbd82e13a",
-     "testo": "07641f3df4eed6d2"
+     "byte": 401372,
+     "secondi": 67,
+     "sha256": "a4ba00f71a316d93d73efb943dad9a184884da5c6aed9b9292e846e71543693b",
+     "testo": "27ae5e980c3b774a"
     }
    ]
   },
@@ -408,32 +408,32 @@
    ]
   },
   "storia-00": {
-   "byte": 985580,
-   "secondi": 164,
+   "byte": 966428,
+   "secondi": 161,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-00.mp3",
-     "byte": 985580,
-     "secondi": 164,
-     "sha256": "c349b7ac0b40cd72e187f9826081988a788265122c30f90b04f54f087be01545",
-     "testo": "f7692b20208ce4aa"
+     "byte": 966428,
+     "secondi": 161,
+     "sha256": "0435ae30af2cefe71716a469198ca6bb13056a10b42194ca5495c2b2a0299d54",
+     "testo": "423c5b1568950ce2"
     }
    ]
   },
   "storia-01": {
-   "byte": 881468,
-   "secondi": 147,
+   "byte": 890828,
+   "secondi": 148,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-01.mp3",
-     "byte": 881468,
-     "secondi": 147,
-     "sha256": "fedf53c54d9a0b393145de3b51de17011d269d13dea217b49def816ab33c6206",
-     "testo": "a77594267d9eadbc"
+     "byte": 890828,
+     "secondi": 148,
+     "sha256": "164897b799e4dfd44fa449bb2d38dd6bedacbef7993dd8c4036ad32ca0ab6e42",
+     "testo": "0c30b4a613e265bd"
     }
    ]
   },
@@ -453,17 +453,17 @@
    ]
   },
   "storia-03": {
-   "byte": 911132,
+   "byte": 910124,
    "secondi": 152,
    "tracce": [
     {
      "id": null,
      "titolo": null,
      "file": "storia-03.mp3",
-     "byte": 911132,
+     "byte": 910124,
      "secondi": 152,
-     "sha256": "1c375b07c9cc3ae1fb897b9e4b2f576e533722348fac31968b551d8859dbd66d",
-     "testo": "9dc5e8073c7c7abf"
+     "sha256": "612900ceb957686d65158d5fbe0440e22e16cd603a5cf2fa7128a91d898960c7",
+     "testo": "02a187cec2aa8ac6"
     }
    ]
   },
