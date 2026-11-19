@@ -1,0 +1,265 @@
+{
+ "periodi": [
+  {
+   "id": "00",
+   "titolo": {
+    "it": "La città in sintesi",
+    "en": "The city at a glance",
+    "fr": "La ville en bref",
+    "de": "Die Stadt im Überblick",
+    "es": "La ciudad en síntesis"
+   },
+   "testo": {
+    "it": "Padova sorge nella pianura veneta, tra il Brenta e il Bacchiglione, non lontano dai Colli Euganei. Secondo la leggenda la fondò Antenore, un esule troiano; la storia la conosce prima come centro dei Veneti antichi, poi come Patavium, una delle città più ricche dell'Italia romana, e infine come libero comune.\n\nNel Duecento Padova diventa una capitale dello studio e della fede: nel 1222 nasce l'Università e, dopo la morte di Sant'Antonio nel 1231, nel 1232 iniziano i lavori per la grande basilica. Nel Trecento i Carraresi fanno della città un grande cantiere di arte e cultura, con Giotto, Petrarca e i cicli di affreschi oggi riconosciuti dall'UNESCO. Dal 1405 al 1797 appartiene alla Repubblica di Venezia, sotto la quale l'Università conosce la sua stagione più famosa, con Vesalio e Galileo.\n\nNell'Ottocento passa all'Austria, nel 1848 vede la rivolta degli studenti e nel 1866 entra nel Regno d'Italia. Nel Novecento, durante la Grande Guerra, è città di retrovia e ospita a Villa Giusti la firma dell'armistizio del 3 novembre 1918; nella Seconda guerra mondiale subisce i bombardamenti e diventa un centro della Resistenza, tanto che la sua Università è l'unica in Italia decorata di medaglia d'oro al valor militare.",
+    "en": "Padua lies on the Veneto plain, between the Brenta and the Bacchiglione, not far from the Euganean Hills. According to legend it was founded by Antenor, a Trojan exile; history knows it first as a centre of the ancient Veneti, then as Patavium, one of the richest cities of Roman Italy, and finally as a free commune.\n\nIn the thirteenth century Padua becomes a capital of learning and faith: in 1222 the University is born and, after the death of Saint Anthony in 1231, work on the great basilica begins in 1232. In the fourteenth century the Carraresi turn the city into a great workshop of art and culture, with Giotto, Petrarca and the fresco cycles now recognised by UNESCO. From 1405 to 1797 it belongs to the Republic of Venice, under which the University lives its most famous season, with Vesalius and Galileo.\n\nIn the nineteenth century it passes to Austria, in 1848 it sees the students' revolt and in 1866 it joins the Kingdom of Italy. In the twentieth century, during the Great War, it is a rear-line city and hosts at Villa Giusti the signing of the armistice of 3 November 1918; in the Second World War it suffers bombing and becomes a centre of the Resistance, so much so that its University is the only one in Italy decorated with the gold medal for military valour.",
+    "fr": "Padoue s'étend dans la plaine vénète, entre la Brenta et le Bacchiglione, non loin des collines Euganéennes. Selon la légende, elle fut fondée par Anténor, un exilé troyen ; l'histoire la connaît d'abord comme centre des anciens Vénètes, puis comme Patavium, l'une des villes les plus riches de l'Italie romaine, et enfin comme commune libre.\n\nAu XIIIe siècle, Padoue devient une capitale de l'étude et de la foi : en 1222 naît l'Université et, après la mort de saint Antoine en 1231, les travaux de la grande basilique commencent en 1232. Au XIVe siècle, les Carrare font de la ville un grand chantier d'art et de culture, avec Giotto, Pétrarque et les cycles de fresques aujourd'hui reconnus par l'UNESCO. De 1405 à 1797, elle appartient à la République de Venise, sous laquelle l'Université connaît sa saison la plus célèbre, avec Vésale et Galilée.\n\nAu XIXe siècle, elle passe à l'Autriche, en 1848 elle voit la révolte des étudiants et en 1866 elle entre dans le Royaume d'Italie. Au XXe siècle, pendant la Grande Guerre, elle est une ville de l'arrière et accueille à Villa Giusti la signature de l'armistice du 3 novembre 1918 ; pendant la Seconde Guerre mondiale, elle subit les bombardements et devient un centre de la Résistance, si bien que son Université est la seule d'Italie décorée de la médaille d'or de la valeur militaire.",
+    "de": "Padua liegt in der venetischen Ebene, zwischen Brenta und Bacchiglione, nicht weit von den Euganeischen Hügeln. Der Legende nach wurde es von Antenor gegründet, einem trojanischen Flüchtling; die Geschichte kennt es zuerst als Zentrum der alten Veneter, dann als Patavium, eine der reichsten Städte des römischen Italien, und schließlich als freie Kommune.\n\nIm 13. Jahrhundert wird Padua zu einer Hauptstadt des Studiums und des Glaubens: 1222 entsteht die Universität und, nach dem Tod des heiligen Antonius 1231, beginnen 1232 die Arbeiten an der großen Basilika. Im 14. Jahrhundert machen die Carraresi die Stadt zu einer großen Werkstatt von Kunst und Kultur, mit Giotto, Petrarca und den heute von der UNESCO anerkannten Freskenzyklen. Von 1405 bis 1797 gehört sie zur Republik Venedig, unter der die Universität ihre berühmteste Zeit erlebt, mit Vesalius und Galilei.\n\nIm 19. Jahrhundert fällt sie an Österreich, 1848 erlebt sie die Revolte der Studenten und 1866 tritt sie dem Königreich Italien bei. Im 20. Jahrhundert ist sie während des Ersten Weltkriegs eine Stadt im Hinterland und ist in der Villa Giusti Schauplatz der Unterzeichnung des Waffenstillstands vom 3. November 1918; im Zweiten Weltkrieg erleidet sie Bombenangriffe und wird zu einem Zentrum der Resistenza, sodass ihre Universität die einzige in Italien ist, die mit der Goldmedaille für militärische Tapferkeit ausgezeichnet wurde.",
+    "es": "Padua se alza en la llanura véneta, entre el Brenta y el Bacchiglione, no lejos de los Colli Euganei. Según la leyenda la fundó Antenor, un exiliado troyano; la historia la conoce primero como centro de los antiguos vénetos, después como Patavium, una de las ciudades más ricas de la Italia romana, y por último como comuna libre.\n\nEn el siglo XIII Padua se convierte en una capital del estudio y de la fe: en 1222 nace la Universidad y, tras la muerte de san Antonio en 1231, en 1232 comienzan las obras de la gran basílica. En el siglo XIV los Carrara hacen de la ciudad un gran taller de arte y cultura, con Giotto, Petrarca y los ciclos de frescos hoy reconocidos por la UNESCO. De 1405 a 1797 pertenece a la República de Venecia, bajo la cual la Universidad vive su etapa más famosa, con Vesalio y Galileo.\n\nEn el siglo XIX pasa a Austria, en 1848 ve la revuelta de los estudiantes y en 1866 entra en el Reino de Italia. En el siglo XX, durante la Gran Guerra, es una ciudad de retaguardia y acoge en Villa Giusti la firma del armisticio del 3 de noviembre de 1918; en la Segunda Guerra Mundial sufre los bombardeos y se convierte en un centro de la Resistencia, hasta el punto de que su Universidad es la única de Italia condecorada con la medalla de oro al valor militar."
+   },
+   "audio": "storia-00",
+   "luoghi": [
+    "palazzo-della-ragione",
+    "basilica-di-sant-antonio",
+    "palazzo-del-bo",
+    "cappella-degli-scrovegni"
+   ]
+  },
+  {
+   "id": "01",
+   "titolo": {
+    "it": "Origini e età romana",
+    "en": "Origins and Roman age",
+    "fr": "Origines et époque romaine",
+    "de": "Ursprünge und römische Zeit",
+    "es": "Orígenes y época romana"
+   },
+   "anni": {
+    "it": "dalle origini al V secolo",
+    "en": "from the origins to the 5th century",
+    "fr": "des origines au Ve siècle",
+    "de": "von den Anfängen bis zum 5. Jahrhundert",
+    "es": "de los orígenes al siglo V"
+   },
+   "testo": {
+    "it": "Padova è una delle città più antiche del Veneto. Secondo la leggenda la fondò Antenore, un esule troiano; la storia la mostra come centro dei Veneti antichi, alleati di Roma per secoli.\n\nNel I secolo a.C. (in genere si indica il 49) Patavium diventa municipio romano e si arricchisce, collegata dalla via Annia ad Aquileia e ad Adria. Ha un teatro, di cui il Prato della Valle conserva la forma, e un anfiteatro, nell'area dell'attuale Arena. Qui nasce nel 59 a.C. lo storico Tito Livio.\n\nCon il cristianesimo la città diventa sede vescovile, intorno al IV secolo; nel 452 gli Unni di Attila la devastano.",
+    "en": "Padua is one of the oldest cities of the Veneto. According to legend it was founded by Antenor, a Trojan exile; history shows it as a centre of the ancient Veneti, allies of Rome for centuries.\n\nIn the 1st century BC (49 is generally given) Patavium becomes a Roman municipium and grows rich, linked by the Via Annia to Aquileia and Adria. It has a theatre, whose shape the Prato della Valle preserves, and an amphitheatre, in the area of today's Arena. Here the historian Livy is born in 59 BC.\n\nWith Christianity the city becomes an episcopal see, around the 4th century; in 452 Attila's Huns devastate it.",
+    "fr": "Padoue est l'une des plus anciennes villes de la Vénétie. Selon la légende, elle fut fondée par Anténor, un exilé troyen ; l'histoire la montre comme un centre des anciens Vénètes, alliés de Rome pendant des siècles.\n\nAu Ier siècle av. J.-C. (on indique en général 49), Patavium devient un municipe romain et s'enrichit, reliée par la via Annia à Aquilée et à Adria. Elle a un théâtre, dont le Prato della Valle conserve la forme, et un amphithéâtre, dans la zone de l'actuelle Arena. C'est ici que naît, en 59 av. J.-C., l'historien Tite-Live.\n\nAvec le christianisme, la ville devient siège épiscopal, vers le IVe siècle ; en 452, les Huns d'Attila la dévastent.",
+    "de": "Padua ist eine der ältesten Städte Venetiens. Der Legende nach wurde es von Antenor gegründet, einem trojanischen Flüchtling; die Geschichte zeigt es als Zentrum der alten Veneter, die jahrhundertelang mit Rom verbündet waren.\n\nIm 1. Jahrhundert v. Chr. (meist wird das Jahr 49 genannt) wird Patavium römisches Municipium und wird wohlhabend, durch die Via Annia mit Aquileia und Adria verbunden. Es hat ein Theater, dessen Form der Prato della Valle bewahrt, und ein Amphitheater im Bereich der heutigen Arena. Hier wird 59 v. Chr. der Geschichtsschreiber Livius geboren.\n\nMit dem Christentum wird die Stadt etwa im 4. Jahrhundert Bischofssitz; 452 verwüsten die Hunnen Attilas sie.",
+    "es": "Padua es una de las ciudades más antiguas del Véneto. Según la leyenda la fundó Antenor, un exiliado troyano; la historia la muestra como centro de los antiguos vénetos, aliados de Roma durante siglos.\n\nEn el siglo I a. C. (suele indicarse el 49) Patavium se convierte en municipio romano y se enriquece, unida por la vía Annia a Aquileia y a Adria. Tiene un teatro, cuya forma conserva el Prato della Valle, y un anfiteatro, en la zona de la actual Arena. Aquí nace en el 59 a. C. el historiador Tito Livio.\n\nCon el cristianismo la ciudad se convierte en sede episcopal, hacia el siglo IV; en 452 los hunos de Atila la devastan."
+   },
+   "audio": "storia-01",
+   "luoghi": [
+    "tomba-di-antenore",
+    "musei-civici-agli-eremitani",
+    "prato-della-valle"
+   ],
+   "approfondire": [
+    "giardini-dell-arena",
+    "palazzo-liviano",
+    "basilica-di-santa-giustina"
+   ],
+   "personaggi": [
+    "tito-livio"
+   ]
+  },
+  {
+   "id": "02",
+   "titolo": {
+    "it": "Alto e pieno Medioevo",
+    "en": "Early and High Middle Ages",
+    "fr": "Haut et plein Moyen Âge",
+    "de": "Früh- und Hochmittelalter",
+    "es": "Alta y plena Edad Media"
+   },
+   "anni": {
+    "it": "VI–XII secolo",
+    "en": "6th–12th century",
+    "fr": "VIe–XIIe siècle",
+    "de": "6.–12. Jahrhundert",
+    "es": "siglos VI–XII"
+   },
+   "testo": {
+    "it": "Dopo la caduta dell'impero d'Occidente Padova passa ai Bizantini (540 circa) e, tra il 601 e il 602, i Longobardi del re Agilulfo la assediano e la distruggono. Entra poi, con la conquista di Carlo Magno (774), nel regno dei Franchi.\n\nIn questi secoli la città si ricostruisce attorno alla Chiesa e ai monasteri benedettini, come quello di Santa Giustina, che contribuiscono alla bonifica delle campagne. Intanto si formano le prime cinte murarie medievali e i borghi attorno al centro; nel XII secolo Padova è un libero comune.",
+    "en": "After the fall of the Western Empire Padua passes to the Byzantines (around 540) and, between 601 and 602, the Lombards of King Agilulf besiege and destroy it. It then enters, with Charlemagne's conquest (774), the kingdom of the Franks.\n\nIn these centuries the city rebuilds itself around the Church and the Benedictine monasteries, such as Santa Giustina, which contribute to reclaiming the countryside. Meanwhile the first medieval walls and the suburbs around the centre take shape; in the 12th century Padua is a free commune.",
+    "fr": "Après la chute de l'Empire d'Occident, Padoue passe aux Byzantins (vers 540) et, entre 601 et 602, les Lombards du roi Agilulf l'assiègent et la détruisent. Elle entre ensuite, avec la conquête de Charlemagne (774), dans le royaume des Francs.\n\nAu cours de ces siècles, la ville se reconstruit autour de l'Église et des monastères bénédictins, comme celui de Santa Giustina, qui contribuent à l'assainissement des campagnes. Entre-temps se forment les premières enceintes médiévales et les faubourgs autour du centre ; au XIIe siècle, Padoue est une commune libre.",
+    "de": "Nach dem Untergang des Weströmischen Reiches fällt Padua an die Byzantiner (um 540) und zwischen 601 und 602 belagern und zerstören die Langobarden des Königs Agilulf die Stadt. Mit der Eroberung Karls des Großen (774) gelangt sie dann in das Reich der Franken.\n\nIn diesen Jahrhunderten baut sich die Stadt um die Kirche und die Benediktinerklöster auf, wie das von Santa Giustina, die zur Urbarmachung des Umlands beitragen. Inzwischen entstehen die ersten mittelalterlichen Mauerringe und die Vorstädte um das Zentrum; im 12. Jahrhundert ist Padua eine freie Kommune.",
+    "es": "Tras la caída del Imperio de Occidente Padua pasa a los bizantinos (hacia 540) y, entre 601 y 602, los lombardos del rey Agilulfo la asedian y la destruyen. Entra después, con la conquista de Carlomagno (774), en el reino de los francos.\n\nEn estos siglos la ciudad se reconstruye en torno a la Iglesia y a los monasterios benedictinos, como el de Santa Giustina, que contribuyen a sanear los campos. Mientras tanto se forman las primeras murallas medievales y los barrios en torno al centro; en el siglo XII Padua es una comuna libre."
+   },
+   "audio": "storia-02",
+   "luoghi": [
+    "basilica-di-santa-giustina",
+    "chiesa-di-santa-sofia",
+    "duomo-di-padova"
+   ]
+  },
+  {
+   "id": "03",
+   "titolo": {
+    "it": "Comuni e signorie",
+    "en": "Communes and lordships",
+    "fr": "Communes et seigneuries",
+    "de": "Kommunen und Signorien",
+    "es": "Comunas y señoríos"
+   },
+   "anni": {
+    "it": "XIII secolo–1405",
+    "en": "13th century–1405",
+    "fr": "XIIIe siècle–1405",
+    "de": "13. Jahrhundert–1405",
+    "es": "siglo XIII–1405"
+   },
+   "testo": {
+    "it": "Nel Duecento Padova è un libero comune tra i più vivaci d'Italia. Nel 1222 un gruppo di studenti e docenti, soprattutto da Bologna, si trasferisce in città e nasce l'Università; tra il 1218 e il 1219 iniziano i lavori per il Palazzo della Ragione, sede dei tribunali; dopo la morte di Sant'Antonio, nel 1231, nel 1232 iniziano i lavori per la grande basilica. Tra il 1237 e il 1256 la città è dominata da Ezzelino III da Romano, fino alla sua cacciata.\n\nNel Trecento il potere passa alla famiglia dei Carraresi: la signoria comincia nel 1318, nel 1328 gli Scaligeri di Verona conquistano la città e nel 1337 i Carraresi tornano al potere, restandovi fino al 1405. Sono anni di grande fioritura: Giotto affresca la Cappella degli Scrovegni (1303–1305), Petrarca vive in città e poi ad Arquà, sui Colli Euganei, dove muore nel 1374. I Carraresi trasformano la città e il suo sistema difensivo, mentre nel Quattrocento si completa anche la storia della Torre dell'Orologio, uno dei simboli di Padova.",
+    "en": "In the thirteenth century Padua is one of the liveliest free communes of Italy. In 1222 a group of students and teachers, mostly from Bologna, moves to the city and the University is born; between 1218 and 1219 work begins on the Palazzo della Ragione, the seat of the courts; after the death of Saint Anthony, in 1231, work on the great basilica begins in 1232. Between 1237 and 1256 the city is dominated by Ezzelino III da Romano, until he is driven out.\n\nIn the fourteenth century power passes to the Carraresi family: their lordship begins in 1318, in 1328 the Scaligeri of Verona conquer the city and in 1337 the Carraresi return to power, remaining until 1405. These are years of great flowering: Giotto frescoes the Scrovegni Chapel (1303–1305), Petrarca lives in the city and later at Arquà, in the Euganean Hills, where he dies in 1374. The Carraresi transform the city and its defences, while in the fifteenth century the story of the Clock Tower, one of the symbols of Padua, is also completed.",
+    "fr": "Au XIIIe siècle, Padoue est l'une des communes libres les plus vivantes d'Italie. En 1222, un groupe d'étudiants et d'enseignants, venus surtout de Bologne, s'installe dans la ville et l'Université naît ; entre 1218 et 1219 commencent les travaux du Palazzo della Ragione, siège des tribunaux ; après la mort de saint Antoine, en 1231, les travaux de la grande basilique commencent en 1232. Entre 1237 et 1256, la ville est dominée par Ezzelino III da Romano, jusqu'à son expulsion.\n\nAu XIVe siècle, le pouvoir passe à la famille des Carrare : la seigneurie commence en 1318, en 1328 les Scaliger de Vérone conquièrent la ville et en 1337 les Carrare reviennent au pouvoir, où ils restent jusqu'en 1405. Ce sont des années de grande floraison : Giotto peint à fresque la chapelle des Scrovegni (1303–1305), Pétrarque vit dans la ville puis à Arquà, dans les collines Euganéennes, où il meurt en 1374. Les Carrare transforment la ville et son système défensif, tandis qu'au XVe siècle s'achève aussi l'histoire de la Tour de l'Horloge, l'un des symboles de Padoue.",
+    "de": "Im 13. Jahrhundert ist Padua eine der lebendigsten freien Kommunen Italiens. 1222 zieht eine Gruppe von Studenten und Lehrenden, vor allem aus Bologna, in die Stadt, und die Universität entsteht; zwischen 1218 und 1219 beginnen die Arbeiten am Palazzo della Ragione, dem Sitz der Gerichte; nach dem Tod des heiligen Antonius 1231 beginnen 1232 die Arbeiten an der großen Basilika. Zwischen 1237 und 1256 wird die Stadt von Ezzelino III. da Romano beherrscht, bis er vertrieben wird.\n\nIm 14. Jahrhundert geht die Macht an die Familie der Carraresi über: Die Signoria beginnt 1318, 1328 erobern die Scaliger von Verona die Stadt und 1337 kehren die Carraresi an die Macht zurück und bleiben bis 1405. Es sind Jahre großer Blüte: Giotto freskiert die Scrovegni-Kapelle (1303–1305), Petrarca lebt in der Stadt und später in Arquà in den Euganeischen Hügeln, wo er 1374 stirbt. Die Carraresi verändern die Stadt und ihr Verteidigungssystem, während im 15. Jahrhundert auch die Geschichte des Uhrturms, eines der Wahrzeichen Paduas, vollendet wird.",
+    "es": "En el siglo XIII Padua es una de las comunas libres más vivas de Italia. En 1222 un grupo de estudiantes y docentes, sobre todo de Bolonia, se traslada a la ciudad y nace la Universidad; entre 1218 y 1219 comienzan las obras del Palazzo della Ragione, sede de los tribunales; tras la muerte de san Antonio, en 1231, en 1232 comienzan las obras de la gran basílica. Entre 1237 y 1256 la ciudad está dominada por Ezzelino III da Romano, hasta su expulsión.\n\nEn el siglo XIV el poder pasa a la familia de los Carrara: la señoría comienza en 1318, en 1328 los Scaligeri de Verona conquistan la ciudad y en 1337 los Carrara vuelven al poder, donde permanecen hasta 1405. Son años de gran florecimiento: Giotto pinta al fresco la Capilla de los Scrovegni (1303–1305), Petrarca vive en la ciudad y después en Arquà, en los Colli Euganei, donde muere en 1374. Los Carrara transforman la ciudad y su sistema defensivo, mientras que en el siglo XV se completa también la historia de la Torre del Reloj, uno de los símbolos de Padua."
+   },
+   "audio": "storia-03",
+   "luoghi": [
+    "palazzo-della-ragione",
+    "basilica-di-sant-antonio",
+    "cappella-degli-scrovegni",
+    "palazzo-del-bo"
+   ],
+   "approfondire": [
+    "torre-dell-orologio",
+    "reggia-carrarese",
+    "battistero-della-cattedrale",
+    "oratorio-di-san-giorgio",
+    "casa-del-petrarca"
+   ],
+   "personaggi": [
+    "sant-antonio-di-padova",
+    "giotto-di-bondone",
+    "francesco-petrarca",
+    "ezzelino-iii-da-romano",
+    "francesco-il-vecchio-da-carrara",
+    "pietro-d-abano"
+   ]
+  },
+  {
+   "id": "04",
+   "titolo": {
+    "it": "Repubblica di Venezia",
+    "en": "Republic of Venice",
+    "fr": "République de Venise",
+    "de": "Republik Venedig",
+    "es": "República de Venecia"
+   },
+   "anni": {
+    "it": "1405–1797",
+    "en": "1405–1797",
+    "fr": "1405–1797",
+    "de": "1405–1797",
+    "es": "1405–1797"
+   },
+   "testo": {
+    "it": "Nel 1405, dopo la guerra contro Francesco Novello da Carrara, Padova si arrende a Venezia e ne resta parte per più di tre secoli. Venezia lascia in vita l'Università, che diventa l'ateneo della Repubblica e conosce la sua stagione più famosa: Vesalio, Galileo, Elena Cornaro. Dal 1405 al 1797 la città è governata da un podestà e da un capitano veneziani.\n\nNel 1509, durante la guerra della Lega di Cambrai, Padova viene occupata dalle forze imperiali, ma il 17 luglio i Veneziani la riconquistano e in settembre la città resiste a un durissimo assedio. Per difenderla Venezia costruisce le grandi mura bastionate del Cinquecento, ancora in parte visibili. Nascono anche l'Orto Botanico (1545), il Teatro Anatomico (1594–1595) e, nel Settecento, il Prato della Valle.",
+    "en": "In 1405, after the war against Francesco Novello da Carrara, Padua surrenders to Venice and remains part of it for more than three centuries. Venice keeps the University alive; it becomes the university of the Republic and lives its most famous season: Vesalius, Galileo, Elena Cornaro. From 1405 to 1797 the city is governed by a Venetian podestà and a captain.\n\nIn 1509, during the War of the League of Cambrai, Padua is occupied by imperial forces, but on 17 July the Venetians retake it and in September the city withstands a very harsh siege. To defend it Venice builds the great bastioned walls of the sixteenth century, still partly visible. The Botanical Garden (1545), the Anatomical Theatre (1594–1595) and, in the eighteenth century, the Prato della Valle also appear.",
+    "fr": "En 1405, après la guerre contre François Novello da Carrara, Padoue se rend à Venise et en reste partie pendant plus de trois siècles. Venise laisse subsister l'Université, qui devient l'université de la République et connaît sa saison la plus célèbre : Vésale, Galilée, Elena Cornaro. De 1405 à 1797, la ville est gouvernée par un podestat et un capitaine vénitiens.\n\nEn 1509, pendant la guerre de la Ligue de Cambrai, Padoue est occupée par les forces impériales, mais le 17 juillet les Vénitiens la reprennent et, en septembre, la ville résiste à un très dur siège. Pour la défendre, Venise construit les grandes murailles bastionnées du XVIe siècle, encore en partie visibles. Naissent aussi le Jardin botanique (1545), le Théâtre anatomique (1594–1595) et, au XVIIIe siècle, le Prato della Valle.",
+    "de": "Im Jahr 1405, nach dem Krieg gegen Francesco Novello da Carrara, ergibt sich Padua Venedig und bleibt mehr als drei Jahrhunderte Teil davon. Venedig lässt die Universität bestehen, die zur Universität der Republik wird und ihre berühmteste Zeit erlebt: Vesalius, Galilei, Elena Cornaro. Von 1405 bis 1797 wird die Stadt von einem venezianischen Podestà und einem Hauptmann regiert.\n\nIm Jahr 1509, während des Krieges der Liga von Cambrai, wird Padua von den kaiserlichen Truppen besetzt, doch am 17. Juli erobern es die Venezianer zurück, und im September widersteht die Stadt einer sehr harten Belagerung. Um sie zu verteidigen, baut Venedig die großen Bastionsmauern des 16. Jahrhunderts, die teilweise noch sichtbar sind. Es entstehen auch der Botanische Garten (1545), das Anatomische Theater (1594–1595) und im 18. Jahrhundert der Prato della Valle.",
+    "es": "En 1405, tras la guerra contra Francesco Novello da Carrara, Padua se rinde a Venecia y sigue formando parte de ella durante más de tres siglos. Venecia mantiene la Universidad, que se convierte en el ateneo de la República y vive su etapa más famosa: Vesalio, Galileo, Elena Cornaro. De 1405 a 1797 la ciudad está gobernada por un podestà y un capitán venecianos.\n\nEn 1509, durante la guerra de la Liga de Cambrai, Padua es ocupada por las fuerzas imperiales, pero el 17 de julio los venecianos la reconquistan y en septiembre la ciudad resiste un durísimo asedio. Para defenderla, Venecia construye las grandes murallas abaluartadas del siglo XVI, aún en parte visibles. Nacen también el Jardín Botánico (1545), el Teatro Anatómico (1594–1595) y, en el siglo XVIII, el Prato della Valle."
+   },
+   "audio": "storia-04",
+   "luoghi": [
+    "orto-botanico-di-padova",
+    "palazzo-del-bo",
+    "prato-della-valle",
+    "porta-savonarola"
+   ],
+   "approfondire": [
+    "porta-molino",
+    "loggia-e-odeo-cornaro",
+    "ghetto-ebraico",
+    "la-specola",
+    "statua-del-gattamelata"
+   ],
+   "personaggi": [
+    "galileo-galilei",
+    "elena-cornaro-piscopia",
+    "donatello",
+    "andrea-mantegna",
+    "andrea-vesalio",
+    "girolamo-fabrici-d-acquapendente"
+   ]
+  },
+  {
+   "id": "05",
+   "titolo": {
+    "it": "Ottocento",
+    "en": "The nineteenth century",
+    "fr": "Le XIXe siècle",
+    "de": "Das 19. Jahrhundert",
+    "es": "El siglo XIX"
+   },
+   "anni": {
+    "it": "1797–1900",
+    "en": "1797–1900",
+    "fr": "1797–1900",
+    "de": "1797–1900",
+    "es": "1797–1900"
+   },
+   "testo": {
+    "it": "Con la caduta di Venezia nel 1797 Padova passa sotto l'Austria con il trattato di Campoformio; nel 1805 entra nel Regno d'Italia napoleonico e dal 1815 torna agli Austriaci, nel Regno Lombardo-Veneto. È un secolo di trasformazioni: nel 1831 si inaugura il Caffè Pedrocchi, nel 1842 arriva la ferrovia.\n\nL'Università è uno dei luoghi in cui circolano le idee patriottiche: l'8 febbraio 1848 gli studenti si scontrano con i soldati austriaci al Caffè Pedrocchi, in uno degli episodi del Risorgimento. Il 12 luglio 1866 le truppe italiane entrano in città, e dopo il plebiscito dell'ottobre Padova entra nel Regno d'Italia.",
+    "en": "With the fall of Venice in 1797 Padua passes to Austria under the Treaty of Campo Formio; in 1805 it enters Napoleon's Kingdom of Italy and from 1815 it returns to the Austrians, in the Kingdom of Lombardy–Venetia. It is a century of transformation: the Caffè Pedrocchi opens in 1831, the railway arrives in 1842.\n\nThe University is one of the places where patriotic ideas circulate: on 8 February 1848 students clash with Austrian soldiers at the Caffè Pedrocchi, in one of the episodes of the Risorgimento. On 12 July 1866 Italian troops enter the city and, after the plebiscite of October, Padua joins the Kingdom of Italy.",
+    "fr": "Avec la chute de Venise en 1797, Padoue passe à l'Autriche par le traité de Campoformio ; en 1805 elle entre dans le Royaume d'Italie napoléonien et, à partir de 1815, elle revient aux Autrichiens, dans le Royaume lombard-vénitien. C'est un siècle de transformations : le Caffè Pedrocchi est inauguré en 1831, le chemin de fer arrive en 1842.\n\nL'Université est l'un des lieux où circulent les idées patriotiques : le 8 février 1848, les étudiants s'affrontent aux soldats autrichiens au Caffè Pedrocchi, dans l'un des épisodes du Risorgimento. Le 12 juillet 1866, les troupes italiennes entrent dans la ville et, après le plébiscite d'octobre, Padoue entre dans le Royaume d'Italie.",
+    "de": "Mit dem Fall Venedigs 1797 fällt Padua im Vertrag von Campoformio an Österreich; 1805 kommt es zum napoleonischen Königreich Italien und ab 1815 wieder an die Österreicher, ins Königreich Lombardo-Venetien. Es ist ein Jahrhundert der Veränderungen: 1831 wird das Caffè Pedrocchi eröffnet, 1842 kommt die Eisenbahn.\n\nDie Universität ist einer der Orte, an denen patriotische Ideen kursieren: Am 8. Februar 1848 stoßen Studenten im Caffè Pedrocchi mit österreichischen Soldaten zusammen, in einer der Episoden des Risorgimento. Am 12. Juli 1866 ziehen die italienischen Truppen in die Stadt ein, und nach der Volksabstimmung im Oktober tritt Padua dem Königreich Italien bei.",
+    "es": "Con la caída de Venecia en 1797 Padua pasa a Austria con el tratado de Campoformio; en 1805 entra en el Reino de Italia napoleónico y desde 1815 vuelve a los austriacos, en el Reino Lombardo-Véneto. Es un siglo de transformaciones: en 1831 se inaugura el Caffè Pedrocchi, en 1842 llega el ferrocarril.\n\nLa Universidad es uno de los lugares donde circulan las ideas patrióticas: el 8 de febrero de 1848 los estudiantes se enfrentan a los soldados austriacos en el Caffè Pedrocchi, en uno de los episodios del Risorgimento. El 12 de julio de 1866 las tropas italianas entran en la ciudad y, tras el plebiscito de octubre, Padua entra en el Reino de Italia."
+   },
+   "audio": "storia-05",
+   "luoghi": [
+    "caffe-pedrocchi",
+    "palazzo-del-bo",
+    "museo-del-risorgimento-e-dell-eta-contemporanea"
+   ],
+   "approfondire": [
+    "piazza-garibaldi",
+    "teatro-verdi",
+    "giardino-treves-de-bonfili"
+   ],
+   "personaggi": [
+    "giuseppe-jappelli"
+   ]
+  },
+  {
+   "id": "06",
+   "titolo": {
+    "it": "Novecento e oggi",
+    "en": "The twentieth century and today",
+    "fr": "Le XXe siècle et aujourd'hui",
+    "de": "Das 20. Jahrhundert und heute",
+    "es": "El siglo XX y hoy"
+   },
+   "anni": {
+    "it": "dal 1900 a oggi",
+    "en": "1900 to today",
+    "fr": "de 1900 à aujourd'hui",
+    "de": "von 1900 bis heute",
+    "es": "de 1900 a hoy"
+   },
+   "testo": {
+    "it": "Nella Prima guerra mondiale Padova, vicina al fronte, ospita il Comando Supremo e un grande centro ospedaliero e subisce numerosi bombardamenti aerei. A Villa Giusti, alla periferia, il 3 novembre 1918 viene firmato l'armistizio tra Italia e Austria-Ungheria, che pone fine alle ostilità sul fronte italiano.\n\nNella Seconda guerra mondiale la città è bombardata più volte: l'11 marzo 1944 un bombardamento colpisce duramente la chiesa degli Eremitani e distrugge quasi completamente gli affreschi della cappella Ovetari di Mantegna. Padova diventa anche un centro della Resistenza, con il Comitato di Liberazione Nazionale regionale veneto; l'Università riceve la medaglia d'oro al valor militare. Nel dopoguerra la città si ricostruisce, si espande oltre il centro storico e diventa un polo universitario, sanitario e dei servizi; oggi ha due siti UNESCO: l'Orto Botanico (1997) e Padova Urbs Picta (2021).",
+    "en": "In the First World War Padua, close to the front, hosts the Supreme Command and a large hospital centre and suffers numerous air raids. At Villa Giusti, on the outskirts, the armistice between Italy and Austria-Hungary is signed on 3 November 1918, ending hostilities on the Italian front.\n\nIn the Second World War the city is bombed several times: on 11 March 1944 a raid severely hits the Eremitani church and almost completely destroys Mantegna's frescoes in the Ovetari Chapel. Padua also becomes a centre of the Resistance, with the Veneto regional National Liberation Committee; the University receives the gold medal for military valour. After the war the city is rebuilt, expands beyond the historic centre and becomes a hub of university, healthcare and services; today it has two UNESCO sites: the Botanical Garden (1997) and Padova Urbs Picta (2021).",
+    "fr": "Pendant la Première Guerre mondiale, Padoue, proche du front, accueille le Commandement suprême et un grand centre hospitalier et subit de nombreux bombardements aériens. À Villa Giusti, en périphérie, l'armistice entre l'Italie et l'Autriche-Hongrie est signé le 3 novembre 1918, mettant fin aux hostilités sur le front italien.\n\nPendant la Seconde Guerre mondiale, la ville est bombardée à plusieurs reprises : le 11 mars 1944, un bombardement frappe durement l'église des Eremitani et détruit presque entièrement les fresques de la chapelle Ovetari de Mantegna. Padoue devient aussi un centre de la Résistance, avec le Comité de libération nationale régional de la Vénétie ; l'Université reçoit la médaille d'or de la valeur militaire. Après la guerre, la ville se reconstruit, s'étend au-delà du centre historique et devient un pôle universitaire, sanitaire et de services ; aujourd'hui, elle compte deux sites UNESCO : le Jardin botanique (1997) et Padova Urbs Picta (2021).",
+    "de": "Im Ersten Weltkrieg beherbergt Padua, nahe der Front, das Oberkommando und ein großes Krankenhauszentrum und erleidet zahlreiche Luftangriffe. In der Villa Giusti am Stadtrand wird am 3. November 1918 der Waffenstillstand zwischen Italien und Österreich-Ungarn unterzeichnet, der die Feindseligkeiten an der italienischen Front beendet.\n\nIm Zweiten Weltkrieg wird die Stadt mehrmals bombardiert: Am 11. März 1944 trifft ein Angriff die Eremitani-Kirche schwer und zerstört die Fresken der Ovetari-Kapelle von Mantegna fast vollständig. Padua wird auch zu einem Zentrum der Resistenza, mit dem regionalen Nationalen Befreiungskomitee Venetiens; die Universität erhält die Goldmedaille für militärische Tapferkeit. Nach dem Krieg wird die Stadt wiederaufgebaut, dehnt sich über das historische Zentrum hinaus aus und wird zu einem Zentrum für Universität, Gesundheit und Dienstleistungen; heute hat sie zwei UNESCO-Stätten: den Botanischen Garten (1997) und Padova Urbs Picta (2021).",
+    "es": "En la Primera Guerra Mundial Padua, cercana al frente, acoge el Mando Supremo y un gran centro hospitalario y sufre numerosos bombardeos aéreos. En Villa Giusti, en la periferia, el 3 de noviembre de 1918 se firma el armisticio entre Italia y Austria-Hungría, que pone fin a las hostilidades en el frente italiano.\n\nEn la Segunda Guerra Mundial la ciudad es bombardeada varias veces: el 11 de marzo de 1944 un bombardeo golpea duramente la iglesia de los Eremitani y destruye casi por completo los frescos de la capilla Ovetari de Mantegna. Padua se convierte también en un centro de la Resistencia, con el Comité de Liberación Nacional regional véneto; la Universidad recibe la medalla de oro al valor militar. En la posguerra la ciudad se reconstruye, se expande más allá del centro histórico y se convierte en un polo universitario, sanitario y de servicios; hoy tiene dos sitios UNESCO: el Jardín Botánico (1997) y Padova Urbs Picta (2021)."
+   },
+   "audio": "storia-06",
+   "luoghi": [
+    "villa-giusti",
+    "chiesa-degli-eremitani",
+    "tempio-nazionale-dell-internato-ignoto",
+    "palazzo-del-bo"
+   ],
+   "approfondire": [
+    "rifugio-antiaereo-di-palazzo-santo-stefano",
+    "museo-del-risorgimento-e-dell-eta-contemporanea",
+    "cappella-degli-scrovegni"
+   ],
+   "personaggi": [
+    "concetto-marchesi"
+   ]
+  }
+ ]
+}

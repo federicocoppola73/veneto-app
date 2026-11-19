@@ -1,5 +1,5 @@
 {
- "versione": "8b475246f3a8",
+ "versione": "4b7be7dd3fbf",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -7388,6 +7388,12 @@
    "byte": 83458
   },
   {
+   "path": "assets/personaggi/ezzelino-iii-da-romano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/ezzelino-iii-da-romano.webp",
+   "sha256": "8bddaea07d892fa0ccc59a7d92a7a104f9ad99495167668d0e5be515b66c17aa",
+   "byte": 337394
+  },
+  {
    "path": "assets/personaggi/francesco-petrarca.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/assets/personaggi/francesco-petrarca.webp",
    "sha256": "80771d1c7b33c4f9df5e7fe5c794ad765716061dd6380e05f84e8b52396dfb8b",
@@ -7498,8 +7504,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/personaggi.json",
-   "sha256": "877fd28c52610fa30a75915db4a5b3d7e25c94ac93e5a640fbf80f5251656619",
-   "byte": 143024
+   "sha256": "0532689058c423b9cf4e9b972644bb5cefb93c53c464ca665ba094071fb3a2c6",
+   "byte": 223517
   },
   {
    "path": "dati/principali.json",
@@ -7518,6 +7524,12 @@
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/servizi.json",
    "sha256": "2e488c425c0e0fe8e5ba7258daf8926e456079fd70750bb33378eb2ae6e85b04",
    "byte": 41271
+  },
+  {
+   "path": "dati/storia.json",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/storia.json",
+   "sha256": "4bcc53e9fa414101d556c996dbfe7c8ffd2e0804e1b7e526178787259f548f7d",
+   "byte": 35446
   },
   {
    "path": "dati/tessere.json",
@@ -7561,6 +7573,12 @@
    ],
    "itinerari_aggiornati": 1,
    "byte": 351858
+  },
+  {
+   "versione": "4b7be7dd3fbf",
+   "da": "8b475246f3a8",
+   "data": "2026-11-19",
+   "byte": 596357
   }
  ]
 }
