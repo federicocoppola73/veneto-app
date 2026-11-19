@@ -1,5 +1,5 @@
 {
- "versione": "34783180ec86",
+ "versione": "08093438e87c",
  "file": [
   {
    "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
@@ -6554,6 +6554,12 @@
    "byte": 16392
   },
   {
+   "path": "assets/personaggi/ezzelino-iii-da-romano.webp",
+   "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/ezzelino-iii-da-romano.webp",
+   "sha256": "8bddaea07d892fa0ccc59a7d92a7a104f9ad99495167668d0e5be515b66c17aa",
+   "byte": 337394
+  },
+  {
    "path": "assets/personaggi/girolamo-fracastoro.webp",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/assets/personaggi/girolamo-fracastoro.webp",
    "sha256": "892a19e402ceba40041629bbd316ee36a71144a2d04b3822681a4c0e2c1ab44a",
@@ -6658,8 +6664,8 @@
   {
    "path": "dati/personaggi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/personaggi.json",
-   "sha256": "7fca3e32380087ec41e9ed6f39d3fff5da0f85585687cb64cdf4e5a5eb7d613a",
-   "byte": 99288
+   "sha256": "9d58ef23e6b3a79aa13c1558071b2706e4ef544fdf39d5f1d6abb3ff5874f76d",
+   "byte": 178645
   },
   {
    "path": "dati/principali.json",
@@ -6692,5 +6698,12 @@
    "byte": 101
   }
  ],
- "novita": []
+ "novita": [
+  {
+   "versione": "08093438e87c",
+   "da": "34783180ec86",
+   "data": "2026-11-19",
+   "byte": 516039
+  }
+ ]
 }
