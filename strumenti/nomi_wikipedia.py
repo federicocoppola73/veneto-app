@@ -43,6 +43,18 @@ def norm(s):
     return re.sub(r'[^a-z0-9 ]', '', ''.join(c for c in s if unicodedata.category(c) != 'Mn')).strip()
 
 
+STOP = {'di', 'del', 'della', 'dello', 'dei', 'degli', 'delle', 'dell', 'e', 'il', 'la', 'lo', 'le', 'i', 'gli', 'a', 'al', 'alla', 'in', 'da'}
+
+
+def somiglianza(nome, titolo, citta):
+    """Quota delle parole del nome che compaiono nel titolo (0-1); 0 se il titolo è solo la città."""
+    t = norm(re.sub(r'\(.*?\)', '', titolo))
+    if t == norm(citta):
+        return 0
+    parole = [w for w in norm(nome).split() if w not in STOP]
+    return sum(1 for w in parole if w in t.split()) / len(parole) if parole else 0
+
+
 def cerca(luogo, citta):
     pos = (luogo['latitudine'], luogo['longitudine'])
     esito = {'it': None, 'stato': 'nessuno', 'dist': None, 'altri': []}
@@ -63,20 +75,18 @@ def cerca(luogo, citta):
                         'dist': dist(pos, (c['lat'], c['lon'])) if c else None,
                         'll': {x['lang']: x['*'] for x in p.get('langlinks', []) if x['lang'] in LINGUE},
                         'esatto': norm(t) == norm(luogo['nome'])}
-        if any(v['dist'] is not None and v['dist'] <= 400 for v in visti.values()):
+        if any(v['dist'] is not None and v['dist'] <= 400 and somiglianza(luogo['nome'], t, citta) >= 0.6 for t, v in visti.items()):
             break
         time.sleep(0.2)
-    vicini = sorted((v['dist'], v['indice'], t) for t, v in visti.items() if v['dist'] is not None and v['dist'] <= 400)
+    vicini = sorted((v['dist'], v['indice'], t) for t, v in visti.items()
+                    if v['dist'] is not None and v['dist'] <= 400 and somiglianza(luogo['nome'], t, citta) >= 0.6)
     if vicini:
         t = vicini[0][2]
         esito.update(it=t, stato='sicuro', dist=round(vicini[0][0]))
     else:
-        esatti = [t for t, v in visti.items() if v['esatto']]
-        if esatti:
-            t = esatti[0]
-            esito.update(it=t, stato='incerto', dist=round(visti[t]['dist']) if visti[t]['dist'] is not None else None)
-        elif visti:
-            t = min(visti, key=lambda k: visti[k]['indice'])
+        simili = [t for t, v in visti.items() if somiglianza(luogo['nome'], t, citta) >= 0.6 and (v['dist'] is None or v['dist'] <= 3000)]
+        if simili:
+            t = min(simili, key=lambda k: visti[k]['indice'])
             esito.update(it=t, stato='incerto', dist=round(visti[t]['dist']) if visti[t]['dist'] is not None else None)
     if esito['it']:
         esito.update(visti[esito['it']]['ll'])
@@ -85,6 +95,42 @@ def cerca(luogo, citta):
         if wk.get(l) and l not in esito:
             esito[l] = wk[l]
     return esito
+
+
+GENERICI = {  # it: (en, fr, de, es)
+    'chiesa': ('Church', 'Église', 'Kirche', 'Iglesia'), 'basilica': ('Basilica', 'Basilique', 'Basilika', 'Basílica'),
+    'cattedrale': ('Cathedral', 'Cathédrale', 'Kathedrale', 'Catedral'), 'duomo': ('Cathedral', 'Cathédrale', 'Dom', 'Catedral'),
+    'palazzo': ('Palace', 'Palais', 'Palast', 'Palacio'), 'piazza': ('Square', 'Place', 'Platz', 'Plaza'),
+    'ponte': ('Bridge', 'Pont', 'Brücke', 'Puente'), 'porta': ('Gate', 'Porte', 'Tor', 'Puerta'),
+    'castello': ('Castle', 'Château', 'Burg', 'Castillo'), 'torre': ('Tower', 'Tour', 'Turm', 'Torre'),
+    'museo': ('Museum', 'Musée', 'Museum', 'Museo'), 'teatro': ('Theatre', 'Théâtre', 'Theater', 'Teatro'),
+    'villa': ('Villa', 'Villa', 'Villa', 'Villa'), 'abbazia': ('Abbey', 'Abbaye', 'Abtei', 'Abadía'),
+    'santuario': ('Sanctuary', 'Sanctuaire', 'Heiligtum', 'Santuario'), 'battistero': ('Baptistery', 'Baptistère', 'Baptisterium', 'Baptisterio'),
+    'monastero': ('Monastery', 'Monastère', 'Kloster', 'Monasterio'), 'convento': ('Convent', 'Couvent', 'Kloster', 'Convento'),
+    'fontana': ('Fountain', 'Fontaine', 'Brunnen', 'Fuente'), 'giardino': ('Garden', 'Jardin', 'Garten', 'Jardín'),
+    'giardini': ('Gardens', 'Jardins', 'Gärten', 'Jardines'), 'parco': ('Park', 'Parc', 'Park', 'Parque'),
+    'cimitero': ('Cemetery', 'Cimetière', 'Friedhof', 'Cementerio'), 'oratorio': ('Oratory', 'Oratoire', 'Oratorium', 'Oratorio'),
+    'loggia': ('Loggia', 'Loge', 'Loggia', 'Logia'), 'mura': ('Walls', 'Murailles', 'Stadtmauer', 'Murallas'),
+}
+SANTI = ('san ', 'santa ', "sant'", 'santi ', 'santo ', 'ss. ')
+DI = ('di ', "d'")
+
+
+def per_regola(nome):
+    """Genere + "di" + nome proprio, oppure genere + santo: traduce il genere e lascia il nome proprio. Altrimenti None."""
+    p = nome.split(' ', 1)
+    if len(p) < 2 or p[0].lower() not in GENERICI:
+        return None
+    g, resto = GENERICI[p[0].lower()], p[1]
+    low = resto.lower()
+    if low.startswith(DI):
+        proprio = resto[3:] if low.startswith('di ') else resto[2:]
+        if proprio.split(' ')[0].lower() in STOP or proprio.lower().startswith(("l'", 'la ', 'il ', 'le ', 'lo ')):
+            return None
+        return {'en': f'{g[0]} of {proprio}', 'fr': f'{g[1]} de {proprio}', 'de': f'{g[2]} {proprio}', 'es': f'{g[3]} de {proprio}'}
+    if low.startswith(SANTI):
+        return {'en': f'{g[0]} of {resto}', 'fr': f'{g[1]} de {resto}', 'de': f'{g[2]} {resto}', 'es': f'{g[3]} de {resto}'}
+    return None
 
 
 def main():
@@ -96,20 +142,34 @@ def main():
         for n, l in enumerate(luoghi):
             if l.get('latitudine') is None:
                 continue
-            out[l['id']] = {'nome': l['nome'], **cerca(l, citta.capitalize())}
+            r = cerca(l, citta.capitalize())
+            if r['stato'] == 'sicuro' and sum(1 for k in LINGUE if r.get(k)) >= 2:
+                r['tipo'] = 'wikipedia'
+            else:
+                prop = per_regola(l['nome'])
+                if prop:
+                    r = {**{k: v for k, v in r.items() if k not in LINGUE}, **prop, 'tipo': 'regola'}
+                elif r['stato'] == 'sicuro' and r.get('en'):
+                    r['tipo'] = 'wikipedia'
+                elif not l['nome'].split(' ')[0].lower() in GENERICI:
+                    r = {'it': r.get('it'), 'stato': r['stato'], 'dist': r.get('dist'), 'tipo': 'invariato',
+                         **{k: l['nome'] for k in LINGUE}}
+                else:
+                    r['tipo'] = 'da decidere'
+            out[l['id']] = {'nome': l['nome'], **r}
             time.sleep(0.2)
             if n % 20 == 0:
                 print(citta, n, '/', len(luoghi), flush=True)
         json.dump(out, open(f'docs/nomi/{citta}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         righe = [f'# Nomi dei luoghi: {citta.capitalize()}', '',
-                 'Da Wikipedia (it → en, fr, de, es). Stato: sicuro = articolo entro 400 m; incerto = da controllare; nessuno = senza articolo.', '',
-                 '| Luogo (it) | Stato | EN | FR | DE | ES | Articolo it |', '|---|---|---|---|---|---|---|']
+                 'Tipo: wikipedia = titoli degli articoli Wikipedia; regola = genere tradotto e nome proprio invariato; invariato = resta in italiano; da decidere = serve una scelta.', '',
+                 '| Luogo (it) | Tipo | EN | FR | DE | ES | Articolo Wikipedia (stato) |', '|---|---|---|---|---|---|---|']
         for i, v in out.items():
             cella = lambda k: (v.get(k) or '—').replace('|', '/')
-            righe.append(f"| {v['nome']} | {v['stato']} | {cella('en')} | {cella('fr')} | {cella('de')} | {cella('es')} | {(v.get('it') or '—')} |")
+            righe.append(f"| {v['nome']} | {v['tipo']} | {cella('en')} | {cella('fr')} | {cella('de')} | {cella('es')} | {(v.get('it') or '—')} ({v['stato']}) |")
         open(f'docs/nomi/{citta}.md', 'w', encoding='utf-8').write('\n'.join(righe) + '\n')
         from collections import Counter
-        print(citta, Counter(v['stato'] for v in out.values()))
+        print(citta, Counter(v['tipo'] for v in out.values()))
 
 
 if __name__ == '__main__':
