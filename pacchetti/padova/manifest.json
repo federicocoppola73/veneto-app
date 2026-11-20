@@ -1,5 +1,5 @@
 {
- "versione": "7da6834af71e",
+ "versione": "a6cdda4fd8b2",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -7522,8 +7522,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/luoghi.json",
-   "sha256": "debc94487f2baa2019d2487cacf8745970f0dcda932d0e1ecbc339bd6f8e52ad",
-   "byte": 347713
+   "sha256": "9f02bd375b6ec1b1b080b16f58e92380bae97b7298bd725ac57aa9b86dc3b27e",
+   "byte": 354258
   },
   {
    "path": "dati/mappa.json",
@@ -7639,6 +7639,12 @@
    "da": "32fc5dbc2d08",
    "data": "2026-11-20",
    "byte": 8889
+  },
+  {
+   "versione": "a6cdda4fd8b2",
+   "da": "7da6834af71e",
+   "data": "2026-11-20",
+   "byte": 354258
   }
  ]
 }

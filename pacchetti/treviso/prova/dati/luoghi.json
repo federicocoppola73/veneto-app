@@ -234,6 +234,12 @@
    },
    "wikipedia": {
     "it": "Porta San Tomaso"
+   },
+   "nomi": {
+    "en": "Gate of San Tomaso",
+    "fr": "Porte de San Tomaso",
+    "de": "Tor San Tomaso",
+    "es": "Puerta de San Tomaso"
    }
   },
   {
@@ -541,7 +547,13 @@
    ],
    "personaggio": [
     "paris-bordon"
-   ]
+   ],
+   "nomi": {
+    "en": "Cathedral of San Pietro Apostolo",
+    "fr": "Cathédrale de San Pietro Apostolo",
+    "de": "Kathedrale San Pietro Apostolo",
+    "es": "Catedral de San Pietro Apostolo"
+   }
   },
   {
    "id": "chiesa-di-san-nicolo",
@@ -644,7 +656,13 @@
       "es": "Durante la Primera Guerra Mundial el templo fue cerrado al culto, ocupado y utilizado como almacén militar. Un destino insólito para uno de los edificios religiosos más importantes de la ciudad."
      }
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Church of San Nicolò",
+    "fr": "Église de San Nicolò",
+    "de": "Kirche San Nicolò",
+    "es": "Iglesia de San Nicolò"
+   }
   },
   {
    "id": "museo-luigi-bailo",
@@ -771,6 +789,12 @@
       "es": "Cada obra tiene una ficha en CAA, también disponible en línea; hay guías en lenguaje de lectura fácil y tabletas con software de CAA."
      }
     }
+   },
+   "nomi": {
+    "en": "Luigi Bailo Museum",
+    "fr": "Musée Luigi Bailo",
+    "de": "Museum Luigi Bailo",
+    "es": "Museo Luigi Bailo"
    }
   }
  ]

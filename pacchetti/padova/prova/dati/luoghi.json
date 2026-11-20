@@ -110,6 +110,12 @@
       "es": "Indicado como accesible para personas con discapacidad."
      }
     }
+   },
+   "nomi": {
+    "en": "Basilica of Sant'Antonio",
+    "fr": "Basilique de Sant'Antonio",
+    "de": "Basilika Sant'Antonio",
+    "es": "Basílica de Sant'Antonio"
    }
   },
   {
@@ -277,6 +283,12 @@
     "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "nomi": {
+    "en": "Museum of Nature and Man",
+    "fr": "Musée de la Nature et de l'Homme",
+    "de": "Museum für Natur und Mensch",
+    "es": "Museo de la Naturaleza y del Hombre"
    }
   },
   {
@@ -630,6 +642,12 @@
     "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "nomi": {
+    "en": "Bridge of San Lorenzo",
+    "fr": "Pont de San Lorenzo",
+    "de": "Brücke San Lorenzo",
+    "es": "Puente de San Lorenzo"
    }
   },
   {
@@ -848,7 +866,13 @@
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
    },
-   "personaggio": "elena-cornaro-piscopia"
+   "personaggio": "elena-cornaro-piscopia",
+   "nomi": {
+    "en": "Abbey of Santa Giustina",
+    "fr": "Basilique Sainte-Justine de Padoue",
+    "de": "Basilika Santa Giustina",
+    "es": "Basílica de Santa Justina"
+   }
   }
  ]
 }

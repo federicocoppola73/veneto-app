@@ -457,7 +457,13 @@
      "fonte": "https://commons.wikimedia.org/wiki/File:Monte_Berico_interno_04.jpg"
     }
    ],
-   "personaggio": "alessandro-maganza"
+   "personaggio": "alessandro-maganza",
+   "nomi": {
+    "en": "Sanctuary of Monte Berico",
+    "fr": "Sanctuaire de Monte Berico",
+    "de": "Heiligtum Monte Berico",
+    "es": "Santuario de Monte Berico"
+   }
   },
   {
    "id": "tempio-di-santa-corona",
@@ -573,6 +579,12 @@
       "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
      }
     }
+   },
+   "nomi": {
+    "en": "Church of Santa Corona",
+    "fr": "Église de Santa Corona",
+    "de": "Kirche Santa Corona",
+    "es": "Iglesia de Santa Corona"
    }
   },
   {
@@ -761,7 +773,13 @@
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Museo_del_Gioiello_(5).jpg"
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Jewellery Museum",
+    "fr": "Musée du bijou",
+    "de": "Schmuckmuseum",
+    "es": "Museo de la Joya"
+   }
   },
   {
    "id": "palladio-museum",

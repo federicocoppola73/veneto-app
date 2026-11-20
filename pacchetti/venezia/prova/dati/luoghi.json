@@ -133,6 +133,12 @@
       "es": "Para llegar al Museo, situado en la planta superior de la Basílica, hay un ascensor y un salvaescaleras."
      }
     }
+   },
+   "nomi": {
+    "en": "Basilica of San Marco",
+    "fr": "Basilique de San Marco",
+    "de": "Basilika San Marco",
+    "es": "Basílica de San Marco"
    }
   },
   {
@@ -489,6 +495,12 @@
       "es": "Los aseos accesibles están en la planta baja."
      }
     }
+   },
+   "nomi": {
+    "en": "Doge's Palace",
+    "fr": "Palais des Doges",
+    "de": "Dogenpalast",
+    "es": "Palacio Ducal de Venecia"
    }
   },
   {
@@ -664,7 +676,13 @@
      }
     }
    },
-   "personaggio": "peggy-guggenheim"
+   "personaggio": "peggy-guggenheim",
+   "nomi": {
+    "en": "Peggy Guggenheim Collection",
+    "fr": "Collection Peggy-Guggenheim",
+    "de": "Peggy Guggenheim Collection",
+    "es": "Museo Guggenheim de Venecia"
+   }
   },
   {
    "id": "ponte-rialto",
@@ -749,6 +767,12 @@
     "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
     "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
     "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+   },
+   "nomi": {
+    "en": "Rialto Bridge",
+    "fr": "Pont du Rialto",
+    "de": "Rialtobrücke",
+    "es": "Puente de Rialto"
    }
   },
   {
@@ -820,7 +844,13 @@
    "personaggio": [
     "jacopo-sansovino",
     "canaletto"
-   ]
+   ],
+   "nomi": {
+    "en": "Square of San Marco",
+    "fr": "Place de San Marco",
+    "de": "Platz San Marco",
+    "es": "Plaza de San Marco"
+   }
   },
   {
    "id": "stazione",
@@ -859,6 +889,12 @@
     "fr": "La gare de Venezia Santa Lucia, bâtiment rationaliste donnant directement sur le Grand Canal. En sortant, on se trouve face au pont des Scalzi et à l'arrêt de vaporetto Ferrovia.",
     "de": "Der Bahnhof Venezia Santa Lucia, ein rationalistischer Bau direkt am Canal Grande. Beim Hinausgehen steht man vor der Scalzi-Brücke und der Vaporetto-Haltestelle Ferrovia.",
     "es": "La estación de tren de Venezia Santa Lucia, edificio racionalista que da directamente al Gran Canal. Al salir te encuentras frente al Puente de los Descalzos y la parada de vaporetto Ferrovia."
+   },
+   "nomi": {
+    "en": "Venezia Santa Lucia railway station",
+    "fr": "Gare de Venise-Santa-Lucia",
+    "de": "Bahnhof Venezia Santa Lucia",
+    "es": "Estación de Venecia Santa Lucia"
    }
   },
   {

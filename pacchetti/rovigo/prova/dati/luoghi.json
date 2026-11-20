@@ -1117,6 +1117,12 @@
       "es": "Aseo accesible en la primera planta. La pequeña sala de refrigerios tiene un escalón."
      }
     }
+   },
+   "nomi": {
+    "en": "Great Rivers Museum",
+    "fr": "Musée des Grands Fleuves",
+    "de": "Museum der großen Flüsse",
+    "es": "Museo de los Grandes Ríos"
    }
   },
   {
@@ -1312,7 +1318,13 @@
       "es": "La Porta San Bortolo formaba parte de la antigua muralla de Rovigo, completada en las primeras décadas del siglo XIV. Era una de las puertas que regulaban el acceso a la ciudad y unía el centro con el barrio de San Bartolomeo. Es uno de los pocos testimonios visibles de las antiguas fortificaciones."
      }
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Gate of San Bortolo (Porta San Bartolomeo)",
+    "fr": "Porte de San Bortolo (Porta San Bartolomeo)",
+    "de": "Tor San Bortolo (Porta San Bartolomeo)",
+    "es": "Puerta de San Bortolo (Porta San Bartolomeo)"
+   }
   }
  ]
 }

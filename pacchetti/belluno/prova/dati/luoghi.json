@@ -382,7 +382,13 @@
    ],
    "personaggio": [
     "gaspare-diziani"
-   ]
+   ],
+   "nomi": {
+    "en": "Cathedral of San Martino",
+    "fr": "Cathédrale de San Martino",
+    "de": "Kathedrale San Martino",
+    "es": "Catedral de San Martino"
+   }
   },
   {
    "id": "chiesa-di-santo-stefano",
@@ -493,7 +499,13 @@
       "es": "El portal gótico del lado sur, decorado con estatuas de los santos patronos de Belluno, no nació para esta iglesia: en 1893 fue trasladado desde la iglesia suprimida de Santa Maria dei Battuti."
      }
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Church of Santo Stefano",
+    "fr": "Église de Santo Stefano",
+    "de": "Kirche Santo Stefano",
+    "es": "Iglesia de Santo Stefano"
+   }
   },
   {
    "id": "chiesa-di-san-pietro",
@@ -564,7 +576,13 @@
    "personaggio": [
     "andrea-brustolon",
     "sebastiano-ricci"
-   ]
+   ],
+   "nomi": {
+    "en": "Church of San Pietro",
+    "fr": "Église de San Pietro",
+    "de": "Kirche San Pietro",
+    "es": "Iglesia de San Pietro"
+   }
   },
   {
    "id": "battistero-del-duomo",
@@ -636,7 +654,13 @@
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/wiki/File:Altare_del_Battistero_di_Santa_Maria_delle_Grazie_-_Belluno.jpg"
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Cathedral Baptistery",
+    "fr": "Baptistère de la cathédrale",
+    "de": "Baptisterium des Doms",
+    "es": "Baptisterio de la catedral"
+   }
   },
   {
    "id": "chiesa-di-santa-maria-di-loreto",
@@ -723,7 +747,13 @@
      "licenza": "CC BY-SA 4.0",
      "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
     }
-   ]
+   ],
+   "nomi": {
+    "en": "Church of Santa Maria di Loreto",
+    "fr": "Église de Santa Maria di Loreto",
+    "de": "Kirche Santa Maria di Loreto",
+    "es": "Iglesia de Santa Maria di Loreto"
+   }
   },
   {
    "id": "palazzo-dei-rettori",

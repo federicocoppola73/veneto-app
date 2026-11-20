@@ -1,5 +1,5 @@
 {
- "versione": "5d7ab84eedd8",
+ "versione": "845ab643a39a",
  "file": [
   {
    "path": "assets/aguzza/aguzza-campanile-angelo.webp",
@@ -7432,8 +7432,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/belluno/dati/luoghi.json",
-   "sha256": "0c97b00bb12f2348158d552c55cb1240d39699ef63b5632859b3d6ca3ac715de",
-   "byte": 186293
+   "sha256": "0a282f4c973cb181f28e86ded0c4480bee69e59492fd7155dbb8de1720933b6b",
+   "byte": 189311
   },
   {
    "path": "dati/mappa.json",
@@ -7512,6 +7512,12 @@
    "da": "7db0f3609068",
    "data": "2026-11-18",
    "byte": 27184
+  },
+  {
+   "versione": "845ab643a39a",
+   "da": "5d7ab84eedd8",
+   "data": "2026-11-20",
+   "byte": 189311
   }
  ]
 }
