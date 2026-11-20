@@ -135,10 +135,10 @@
     }
    },
    "nomi": {
-    "en": "Basilica of San Marco",
-    "fr": "Basilique de San Marco",
-    "de": "Basilika San Marco",
-    "es": "Basílica de San Marco"
+    "en": "St Mark's Basilica",
+    "fr": "Basilique Saint-Marc",
+    "de": "Markusdom",
+    "es": "Basílica de San Marcos"
    }
   },
   {
@@ -356,6 +356,12 @@
       "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
      }
     }
+   },
+   "nomi": {
+    "en": "Basilica of Santa Maria della Salute",
+    "fr": "Basilique Santa Maria della Salute",
+    "de": "Basilika Santa Maria della Salute",
+    "es": "Basílica de Santa Maria della Salute"
    }
   },
   {
@@ -500,7 +506,7 @@
     "en": "Doge's Palace",
     "fr": "Palais des Doges",
     "de": "Dogenpalast",
-    "es": "Palacio Ducal de Venecia"
+    "es": "Palacio Ducal"
    }
   },
   {
@@ -846,10 +852,10 @@
     "canaletto"
    ],
    "nomi": {
-    "en": "Square of San Marco",
-    "fr": "Place de San Marco",
-    "de": "Platz San Marco",
-    "es": "Plaza de San Marco"
+    "en": "St Mark's Square",
+    "fr": "Place Saint-Marc",
+    "de": "Markusplatz",
+    "es": "Plaza de San Marcos"
    }
   },
   {

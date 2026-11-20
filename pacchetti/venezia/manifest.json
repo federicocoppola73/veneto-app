@@ -1,5 +1,5 @@
 {
- "versione": "0cde96bbf0b7",
+ "versione": "337f570285c3",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -9376,8 +9376,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/luoghi.json",
-   "sha256": "71f6c898ead3a2783dedfef16b9fa8949fdf98f8c0c4eb5658864f7b95183405",
-   "byte": 1059977
+   "sha256": "caa04cf917c9959bf1b49c00295d438f2f81e3978d130e240f31cbe426bc2273",
+   "byte": 1061354
   },
   {
    "path": "dati/mappa.json",
@@ -9516,6 +9516,16 @@
    "da": "2b371044e0bb",
    "data": "2026-11-20",
    "byte": 1059977
+  },
+  {
+   "versione": "337f570285c3",
+   "da": "0cde96bbf0b7",
+   "data": "2026-11-20",
+   "luoghi_aggiornati": 21,
+   "aspetti": [
+    "altro"
+   ],
+   "byte": 1061354
   }
  ]
 }

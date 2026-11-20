@@ -135,10 +135,10 @@
         }
       },
       "nomi": {
-        "en": "Basilica of San Marco",
-        "fr": "Basilique de San Marco",
-        "de": "Basilika San Marco",
-        "es": "Basílica de San Marco"
+        "en": "St Mark's Basilica",
+        "fr": "Basilique Saint-Marc",
+        "de": "Markusdom",
+        "es": "Basílica de San Marcos"
       }
     },
     {
@@ -356,6 +356,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of Santa Maria della Salute",
+        "fr": "Basilique Santa Maria della Salute",
+        "de": "Basilika Santa Maria della Salute",
+        "es": "Basílica de Santa Maria della Salute"
       }
     },
     {
@@ -461,6 +467,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of Santi Giovanni e Paolo",
+        "fr": "Basilique des Santi Giovanni e Paolo",
+        "de": "Basilika Santi Giovanni e Paolo",
+        "es": "Basílica de los Santi Giovanni e Paolo"
       }
     },
     {
@@ -557,6 +569,12 @@
             "es": "La entrada a la Basílica tiene una escalinata de 7 escalones sin pasamanos. Para información y para solicitar ayuda con el acceso, se puede contactar con antelación con los monjes benedictinos en el +39 375 6323595."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of San Giorgio Maggiore",
+        "fr": "Basilique San Giorgio Maggiore",
+        "de": "Basilika San Giorgio Maggiore",
+        "es": "Basílica de San Giorgio Maggiore"
       }
     },
     {
@@ -2849,13 +2867,7 @@
             "es": "En 1816 y 1817 el poeta inglés Lord Byron frecuentó el monasterio de San Lazzaro para estudiar la lengua armenia con los monjes mequitaristas. Su interés por esta lengua lo llevó también a colaborar en la preparación de materiales lingüísticos y traducciones.\nEl monasterio se había convertido en un importante centro de cultura armenia, con una rica biblioteca y una imprenta. La estancia de Byron contribuyó a dar a conocer aún más la isla en los ambientes culturales europeos.\nOtro detalle sorprendente de las colecciones es la presencia de una momia egipcia, conservada en el museo del monasterio."
           }
         }
-      ],
-      "nomi": {
-        "en": "San Lazzaro degli Armeni",
-        "fr": "San Lazzaro degli Armeni",
-        "de": "San Lazzaro degli Armeni",
-        "es": "San Lázaro de los armenios"
-      }
+      ]
     },
     {
       "id": "san-stae",
@@ -4005,7 +4017,7 @@
         "en": "Doge's Palace",
         "fr": "Palais des Doges",
         "de": "Dogenpalast",
-        "es": "Palacio Ducal de Venecia"
+        "es": "Palacio Ducal"
       }
     },
     {
@@ -5499,10 +5511,10 @@
         }
       },
       "nomi": {
-        "en": "Museum of Storia Naturale",
-        "fr": "Musée de Storia Naturale",
-        "de": "Museum Storia Naturale",
-        "es": "Museo de Storia Naturale"
+        "en": "Natural History Museum",
+        "fr": "Musée d'histoire naturelle",
+        "de": "Naturhistorisches Museum",
+        "es": "Museo de Historia Natural"
       }
     },
     {
@@ -5907,7 +5919,13 @@
             "es": "Hay dos sillas de ruedas manuales estándar a disposición de forma gratuita y sin reserva: se pueden pedir al vigilante de seguridad en la entrada. Bajo petición, hay sillas plegables para los visitantes que no pueden estar mucho tiempo de pie."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Querini Stampalia Foundation",
+        "fr": "Fondation Querini Stampalia",
+        "de": "Fondazione Querini Stampalia",
+        "es": "Fundación Querini Stampalia"
+      }
     },
     {
       "id": "palazzo-fortuny",
@@ -6839,10 +6857,10 @@
         }
       },
       "nomi": {
-        "en": "Palazzo Contarini del Bovolo",
-        "fr": "Palais Contarini del Bovolo",
-        "de": "Palazzo Contarini del Bovolo",
-        "es": "Palacio Contarini del Bovolo"
+        "en": "Contarini del Bovolo Staircase",
+        "fr": "Escalier Contarini del Bovolo",
+        "de": "Scala Contarini del Bovolo",
+        "es": "Escalera Contarini del Bovolo"
       }
     },
     {
@@ -9416,6 +9434,12 @@
         "en": "Bridge of Sighs",
         "es": "Puente de los Suspiros (Venecia)",
         "fr": "Pont des Soupirs"
+      },
+      "nomi": {
+        "en": "Bridge of Sighs",
+        "fr": "Pont des Soupirs",
+        "de": "Seufzerbrücke",
+        "es": "Puente de los Suspiros"
       }
     },
     {
@@ -9661,10 +9685,10 @@
         "canaletto"
       ],
       "nomi": {
-        "en": "Square of San Marco",
-        "fr": "Place de San Marco",
-        "de": "Platz San Marco",
-        "es": "Plaza de San Marco"
+        "en": "St Mark's Square",
+        "fr": "Place Saint-Marc",
+        "de": "Markusplatz",
+        "es": "Plaza de San Marcos"
       }
     },
     {
@@ -10096,13 +10120,7 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "veronica-franco",
-      "nomi": {
-        "en": "Santa Maria Formosa",
-        "fr": "Église Santa Maria Formosa",
-        "de": "Santa Maria Formosa",
-        "es": "Iglesia de Santa Maria Formosa"
-      }
+      "personaggio": "veronica-franco"
     },
     {
       "id": "giardini-biennale",
@@ -10798,6 +10816,12 @@
             "es": "El Gueto está rodeado de canales y unido a la ciudad por puentes con escalones. Al Ghetto Vecchio se llega sin escalones desde la Fondamenta di Cannaregio, por el sottoportego de la Calle del Ghetto Vecchio. Para el Ghetto Nuovo, en cambio, hay que cruzar un puente: el del Ghetto Vecchio tiene 9 escalones de 15 cm por un lado y 8 de 17 cm por el otro; el puente de madera desde Calle Selle tiene 9 escalones."
           }
         }
+      },
+      "nomi": {
+        "en": "Jewish Ghetto",
+        "fr": "Ghetto juif",
+        "de": "Jüdisches Ghetto",
+        "es": "Gueto judío"
       }
     },
     {
@@ -10892,7 +10916,13 @@
       "personaggio": [
         "enrico-dandolo",
         "daniele-manin"
-      ]
+      ],
+      "nomi": {
+        "en": "Arsenal",
+        "fr": "Arsenal",
+        "de": "Arsenal",
+        "es": "Arsenal"
+      }
     },
     {
       "id": "libreria-marciana",
@@ -10980,6 +11010,12 @@
             "es": "A la primera planta del Museo Correr se sube con el ascensor cuya entrada está en Calle Salvadago, acompañados por el personal."
           }
         }
+      },
+      "nomi": {
+        "en": "Marciana Library",
+        "fr": "Libreria Marciana",
+        "de": "Biblioteca Marciana",
+        "es": "Biblioteca Marciana"
       }
     },
     {
@@ -11882,6 +11918,12 @@
         "en": "Grand Canal (Venice)",
         "es": "Gran Canal de Venecia",
         "fr": "Grand Canal (Venise)"
+      },
+      "nomi": {
+        "en": "Grand Canal",
+        "fr": "Grand Canal",
+        "de": "Canal Grande",
+        "es": "Gran Canal"
       }
     },
     {
@@ -11953,7 +11995,13 @@
           }
         }
       },
-      "personaggio": "jacopo-sansovino"
+      "personaggio": "jacopo-sansovino",
+      "nomi": {
+        "en": "St Mark's Campanile",
+        "fr": "Campanile de Saint-Marc",
+        "de": "Campanile von San Marco",
+        "es": "Campanile de San Marcos"
+      }
     },
     {
       "id": "torre-orologio",
@@ -12007,6 +12055,12 @@
             "es": "La visita no es accesible para personas con dificultades para caminar: las salas están conectadas por escaleras empinadas y estrechas."
           }
         }
+      },
+      "nomi": {
+        "en": "Clock Tower",
+        "fr": "Tour de l'Horloge",
+        "de": "Uhrturm",
+        "es": "Torre del Reloj"
       }
     },
     {
@@ -12347,12 +12401,6 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
-      },
-      "nomi": {
-        "en": "San Francesco del Deserto",
-        "fr": "San Francesco del Deserto",
-        "de": "San Francesco del Deserto",
-        "es": "San Francisco del Desierto"
       }
     },
     {
@@ -12502,12 +12550,6 @@
         "autore": "Jonathan A Jones",
         "licenza": "CC BY 2.5",
         "fonte": "https://commons.wikimedia.org/w/index.php?curid=3032877"
-      },
-      "nomi": {
-        "en": "San Servolo",
-        "fr": "San Servolo",
-        "de": "San Servolo",
-        "es": "San Servolo"
       }
     },
     {
@@ -13450,7 +13492,13 @@
         "de": "Der Lido, eine lange, schmale Insel zwischen der Lagune und der Adria, ist seit jeher der Strand von Venedig. Von der Anlegestelle Santa Maria Elisabetta, dem Hauptanleger der Insel, führt eine kurze Allee zum Meer. Hier wurden 1932 die Internationalen Filmfestspiele von Venedig ins Leben gerufen, die zunächst auf der Terrasse des Hotels Excelsior und seit 1937 im Palazzo del Cinema stattfinden.",
         "es": "Isla larga y estrecha entre la laguna y el mar Adriático, el Lido es desde siempre la playa de Venecia. Desde el embarcadero de Santa Maria Elisabetta, principal desembarcadero de la isla, una breve avenida conduce hacia el mar. Aquí nació en 1932 la Muestra Internacional de Arte Cinematográfico de Venecia, alojada primero en la terraza del Hotel Excelsior y, desde 1937, en el Palacio del Cine."
       },
-      "personaggio": "giuseppe-volpi"
+      "personaggio": "giuseppe-volpi",
+      "nomi": {
+        "en": "Lido of Venice",
+        "fr": "Lido de Venise",
+        "de": "Lido von Venedig",
+        "es": "Lido de Venecia"
+      }
     }
   ]
 }

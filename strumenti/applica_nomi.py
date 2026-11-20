@@ -11,7 +11,7 @@ import re
 import sys
 
 sys.path.insert(0, 'strumenti')
-from nomi_wikipedia import GENERICI, per_regola  # noqa: E402
+from nomi_wikipedia import GENERICI, STOP, norm, per_regola  # noqa: E402
 
 L = ('en', 'fr', 'de', 'es')
 ESCLUSI = {'palazzo-ducale', 'piazza-san-marco'}  # Palazzo/Piazza con nome tradotto consolidato (Doge's Palace, St Mark's Square)
@@ -30,12 +30,29 @@ def pulito(v, nome):
     return True
 
 
-def nomi_di(id_, nome, v, dec):
+BUONI = {'guggenheim'}  # abbinamenti Wikipedia giusti anche se il titolo italiano è diverso dal nome
+STRUTTURALI = {'campo', 'campiello', 'isola', 'squero', 'scala', 'fondazione', 'fondamenta'}
+
+
+def stesso_luogo(nome, titolo_it):
+    """L'articolo è proprio quel luogo: tutte le parole del nome sono nel titolo, o tutte quelle del titolo sono nel nome."""
+    a = {w for w in norm(nome).split() if w not in STOP}
+    b = {w for w in norm(re.sub(r'\(.*?\)', '', titolo_it or '')).split() if w not in STOP}
+    if not a or not b:
+        return False
+    if nome.split(' ')[0].lower() in STRUTTURALI and norm(titolo_it or '').split()[:1] != norm(nome).split()[:1]:
+        return False
+    return a <= b or b <= a
+
+
+def nomi_di(id_, nome, v, dec, man):
+    if id_ in man:
+        return man[id_]
     if id_ in dec:
         return dec[id_]
     if nome.lower().startswith(SOLO_ITALIANO) and id_ not in ESCLUSI:
         return {k: nome for k in L}
-    if v['tipo'] == 'wikipedia' and pulito(v, nome):
+    if v['tipo'] == 'wikipedia' and (id_ in BUONI or stesso_luogo(nome, v.get('it'))) and pulito(v, nome):
         return {k: v[k] for k in L}
     r = per_regola(nome)
     if r:
@@ -52,13 +69,17 @@ for citta in sys.argv[1:]:
         dec = json.load(open(f'docs/nomi/{citta}_da_decidere.json', encoding='utf-8'))
     except FileNotFoundError:
         dec = {}
+    try:
+        man = json.load(open(f'docs/nomi/{citta}_manuali.json', encoding='utf-8'))
+    except FileNotFoundError:
+        man = {}
     n = 0
     for l in luoghi:
         l.pop('nomi', None)
         v = prop.get(l['id'])
         if not v:
             continue
-        nomi = nomi_di(l['id'], l['nome'], v, dec)
+        nomi = nomi_di(l['id'], l['nome'], v, dec, man)
         diversi = {k: nomi[k] for k in L if nomi[k] != l['nome']}
         if diversi:
             # la chiave contiene tutte le lingue, così il motore non deve ripiegare su altre
