@@ -262,7 +262,13 @@
             "es": "En el interior de la Loggia se representaban episodios del Roman de Troie, el poema medieval que narraba la guerra de Troya. En el exterior, en cambio, aparecía una cabalgada de caballeros armados, casi una representación de torneo.\n\nLos frescos se realizaron en al menos dos fases: una decoración del siglo XIII y otra posterior, datable hacia 1313-1314."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Loggia of the Cavalieri",
+        "fr": "Loge des Cavalieri",
+        "de": "Loggia der Cavalieri",
+        "es": "Logia de los Cavalieri"
+      }
     },
     {
       "id": "mura-di-treviso",
@@ -2886,7 +2892,13 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=20150064"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Treviso Municipal Library",
+        "fr": "Bibliothèque municipale de Trévise",
+        "de": "Stadtbibliothek Treviso",
+        "es": "Biblioteca Municipal de Treviso"
+      }
     },
     {
       "id": "liceo-ginnasio-antonio-canova",
@@ -3296,6 +3308,12 @@
             "es": "En las funciones accesibles: subtítulos con la app Lyri, tabletas o gafas inteligentes."
           }
         }
+      },
+      "nomi": {
+        "en": "Mario Del Monaco Municipal Theatre",
+        "fr": "Théâtre municipal Mario Del Monaco",
+        "de": "Städtisches Theater Mario Del Monaco",
+        "es": "Teatro Municipal Mario Del Monaco"
       }
     },
     {

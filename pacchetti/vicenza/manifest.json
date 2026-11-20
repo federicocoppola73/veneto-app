@@ -1,5 +1,5 @@
 {
- "versione": "54432ad08a25",
+ "versione": "33552b358f44",
  "file": [
   {
    "path": "assets/cibi/asparago-bianco-bassano.webp",
@@ -6034,8 +6034,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/luoghi.json",
-   "sha256": "41367a861f58f9404b67a2c46dd8089a896641dbb6c3c6de9719ad7a7ee337cd",
-   "byte": 424725
+   "sha256": "df7c4b2bf2d69acfbf598c111adf442081ff043e92e6614fdecdcceca1262521",
+   "byte": 425987
   },
   {
    "path": "dati/mappa.json",
@@ -6157,6 +6157,16 @@
    "da": "20c936f562cf",
    "data": "2026-11-20",
    "byte": 424725
+  },
+  {
+   "versione": "33552b358f44",
+   "da": "54432ad08a25",
+   "data": "2026-11-20",
+   "luoghi_aggiornati": 7,
+   "aspetti": [
+    "altro"
+   ],
+   "byte": 425987
   }
  ]
 }

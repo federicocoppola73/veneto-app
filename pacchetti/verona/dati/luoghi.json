@@ -442,6 +442,12 @@
             "es": "A las salas interiores se sube en ascensor; para llegar a él hay que superar un escalón en la entrada, donde también está la taquilla."
           }
         }
+      },
+      "nomi": {
+        "en": "Maffei Lapidary Museum",
+        "fr": "Musée lapidaire Maffei",
+        "de": "Lapidarium Maffeiano",
+        "es": "Museo Lapidario Maffeiano"
       }
     },
     {
@@ -769,6 +775,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Pietra Bridge",
+        "fr": "Pont Pietra",
+        "de": "Pietra-Brücke",
+        "es": "Puente Pietra"
       }
     },
     {
@@ -1207,6 +1219,12 @@
             "es": "Solo se puede visitar la parte baja del jardín: el primer nivel es amplio y llano, mientras que el segundo y el tercero tienen escaleras y desniveles. Los apartamentos no tienen ascensor y no son accesibles."
           }
         }
+      },
+      "nomi": {
+        "en": "Giusti Garden",
+        "fr": "Jardin Giusti",
+        "de": "Giusti-Garten",
+        "es": "Jardín Giusti"
       }
     },
     {
@@ -2552,6 +2570,12 @@
             "es": "Por la presencia de numerosos escalones el monumento figura como no accesible. No obstante, un ascensor de pago sube hasta la terraza panorámica del campanario."
           }
         }
+      },
+      "nomi": {
+        "en": "Tower of the Lamberti",
+        "fr": "Tour des Lamberti",
+        "de": "Turm der Lamberti",
+        "es": "Torre de los Lamberti"
       }
     },
     {
@@ -2701,6 +2725,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Borsari Gate",
+        "fr": "Porte Borsari",
+        "de": "Borsari-Tor",
+        "es": "Puerta Borsari"
       }
     },
     {
@@ -2776,7 +2806,13 @@
             "es": "La puerta fue construida por Michele Sanmicheli entre 1532 y 1540. En 1854, durante la dominación austriaca, se abrieron dos pasajes laterales más: uno para facilitar el tránsito de entrada a la ciudad y otro para mantener la simetría de la fachada."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "New Gate",
+        "fr": "Porte Neuve",
+        "de": "Neues Tor",
+        "es": "Puerta Nueva"
+      }
     },
     {
       "id": "stazione-porta-nuova",
@@ -3139,6 +3175,12 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Torre_del_Gardello"
+      },
+      "nomi": {
+        "en": "Gardello Tower",
+        "fr": "Tour du Gardello",
+        "de": "Gardello-Turm",
+        "es": "Torre del Gardello"
       }
     },
     {
@@ -3196,6 +3238,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Leoni Gate",
+        "fr": "Porte Leoni",
+        "de": "Leoni-Tor",
+        "es": "Puerta Leoni"
       }
     },
     {
@@ -3265,7 +3313,13 @@
             "es": "Antes de la puerta renacentista proyectada por Michele Sanmicheli, aquí había una puerta medieval llamada también «stupa», que se abría con motivo del Palio del drappo verde. El evento incluía una carrera de caballos y una prueba de velocidad entre corredores: el vencedor de esta última recibía un paño verde de doce metros."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Palio Gate",
+        "fr": "Porte Palio",
+        "de": "Palio-Tor",
+        "es": "Puerta Palio"
+      }
     },
     {
       "id": "mura-e-fortificazioni",
@@ -3495,6 +3549,12 @@
       ],
       "wikipedia": {
         "it": "https://it.wikipedia.org/wiki/Loggia_del_Consiglio_(Verona)"
+      },
+      "nomi": {
+        "en": "Council Loggia",
+        "fr": "Loggia du Conseil",
+        "de": "Ratsloggia",
+        "es": "Logia del Consejo"
       }
     },
     {

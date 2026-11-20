@@ -132,7 +132,45 @@ def per_regola(nome):
         return {'en': f'{g[0]} of {proprio}', 'fr': f'{g[1]} de {proprio}', 'de': f'{g[2]} {proprio}', 'es': f'{g[3]} de {proprio}'}
     if low.startswith(SANTI):
         return {'en': f'{g[0]} of {resto}', 'fr': f'{g[1]} de {resto}', 'de': f'{g[2]} {resto}', 'es': f'{g[3]} de {resto}'}
-    return None
+    return articolato(p[0].lower(), g, resto) or posposto(p[0].lower(), g, resto)
+
+
+# nomi comuni (non propri) dopo l'articolo: meglio deciderli a mano
+COMUNI = {'orologio', 'vetro', 'precinema', 'consiglio', 'capitaniato', 'santissimo', 'tette'}
+ART = {  # articolo: (fr, es, de, en)
+    'dei': ('des', 'de los', 'der', 'of the'), 'degli': ('des', 'de los', 'der', 'of the'),
+    'delle': ('des', 'de las', 'der', 'of the'),
+    'del': ('du', 'del', None, 'of the'), 'dello': ('du', 'del', None, 'of the'), 'della': ('de la', 'de la', None, 'of the'),
+}
+
+
+def articolato(chiave, g, resto):
+    """"Chiesa dei Gesuiti" -> Church of the Gesuiti. Solo plurali (dei/degli/delle) e nomi propri evidenti."""
+    parti = resto.split(' ', 1)
+    low = resto.lower()
+    if low.startswith("dell'"):
+        proprio = resto[5:]
+        if proprio.split(' ')[0].lower() in COMUNI or len(proprio.split()) > 2:
+            return None
+        return {'en': f'{g[0]} of {proprio}', 'fr': f"{g[1]} de l'{proprio}", 'de': f'{g[2]} {proprio}', 'es': f'{g[3]} de {proprio}'}
+    if len(parti) < 2 or parti[0].lower() not in ('dei', 'degli', 'delle'):
+        return None
+    proprio = parti[1]
+    if len(proprio.split()) > 2 or proprio.split(' ')[0].lower() in COMUNI or proprio.lower() in COMUNI:
+        return None
+    a = ART[parti[0].lower()]
+    return {'en': f'{g[0]} of the {proprio}', 'fr': f'{g[1]} {a[0]} {proprio}', 'de': f'{g[2]} {a[2]} {proprio}',
+            'es': f'{g[3]} {a[1]} {proprio}'}
+
+
+def posposto(chiave, g, resto):
+    """"Ponte Molino" -> Molino Bridge / Pont Molino / Molino-Brücke / Puente Molino (solo un nome proprio breve)."""
+    if chiave not in ('ponte', 'porta', 'teatro', 'museo', 'giardino', 'fontana') or len(resto.split()) > 2:
+        return None
+    parole = [x.lower() for x in resto.split()]
+    if parole[0] in COMUNI or parole[0] in STOP or parole[0] == 'de' or any(x.endswith(('ico', 'ale', 'ano', 'nuova', 'nuovo')) for x in parole):
+        return None  # aggettivi o nomi comuni: da decidere a mano
+    return {'en': f'{resto} {g[0]}', 'fr': f'{g[1]} {resto}', 'de': f'{resto}-{g[2]}', 'es': f'{g[3]} {resto}'}
 
 
 def main():

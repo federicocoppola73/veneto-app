@@ -267,6 +267,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of the Frari",
+        "fr": "Basilique des Frari",
+        "de": "Basilika der Frari",
+        "es": "Basílica de los Frari"
       }
     },
     {
@@ -1102,6 +1108,12 @@
             "es": "La entrada principal en el Campo dei Gesuiti tiene un desnivel mínimo. Una rampa permite salvar los escalones exteriores del portal y entrar de forma autónoma o con una ayuda mínima. El altar mayor se encuentra sobre una estructura elevada precedida de algunos escalones, por lo que no es accesible en silla de ruedas."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of the Gesuiti",
+        "fr": "Église des Gesuiti",
+        "de": "Kirche der Gesuiti",
+        "es": "Iglesia de los Gesuiti"
       }
     },
     {
@@ -1160,6 +1172,12 @@
             "es": "La iglesia tiene dos entradas. La principal, en la fachada, tiene dos escalones. También hay una entrada lateral sin barreras arquitectónicas, por la que se entra sin escalones: por eso se aconseja a las personas con movilidad reducida usar la entrada lateral."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Angelo Raffaele",
+        "fr": "Église de l'Angelo Raffaele",
+        "de": "Kirche Angelo Raffaele",
+        "es": "Iglesia de Angelo Raffaele"
       }
     },
     {
@@ -1580,6 +1598,12 @@
         "en": "Le Zitelle",
         "es": "Iglesia de las Zitelle",
         "fr": "Église des Zitelle"
+      },
+      "nomi": {
+        "en": "Church of the Zitelle",
+        "fr": "Église des Zitelle",
+        "de": "Kirche der Zitelle",
+        "es": "Iglesia de las Zitelle"
       }
     },
     {
@@ -1934,6 +1958,12 @@
             "es": "El Ayuntamiento de Venecia indica que la iglesia es accesible para personas con movilidad reducida."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Ospedaletto",
+        "fr": "Église de l'Ospedaletto",
+        "de": "Kirche Ospedaletto",
+        "es": "Iglesia de Ospedaletto"
       }
     },
     {
@@ -2306,6 +2336,12 @@
             "es": "La iglesia tiene dos entradas. La principal, en el Campo dei Carmini, tiene un escalón de unos 14 cm; la lateral, uno más bajo, de unos 5 cm. El interior no presenta obstáculos y se puede visitar por completo. Para las personas con movilidad reducida es preferible usar la entrada lateral."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of the Carmini",
+        "fr": "Église des Carmini",
+        "de": "Kirche der Carmini",
+        "es": "Iglesia de los Carmini"
       }
     },
     {
@@ -2379,6 +2415,12 @@
             "es": "La entrada lateral, a la derecha, tiene cuatro escalones de unos 16 cm."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of the Gesuati",
+        "fr": "Église des Gesuati",
+        "de": "Kirche der Gesuati",
+        "es": "Iglesia de los Gesuati"
       }
     },
     {
@@ -3590,7 +3632,13 @@
             "es": "En el siglo XIII el hospicio de los crucíferos acogía a peregrinos y personas necesitadas. Durante el siglo XV, al cambiar gradualmente las necesidades asistenciales, el edificio se destinó también a acoger a doce mujeres solas e indigentes.\nA finales del siglo XVI el dogo Pasquale Cicogna encargó a Jacopo Palma el Joven una gran decoración del oratorio. Entre 1583 y 1592 el pintor realizó un ciclo de lienzos que narra la historia de la orden, de sus benefactores y de los sucesos del hospicio.\nEs un caso especialmente interesante de arte ligado a una institución benéfica: los cuadros celebran precisamente la historia de un lugar nacido para ayudar a personas en dificultad."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Oratory of the Crociferi",
+        "fr": "Oratoire des Crociferi",
+        "de": "Oratorium der Crociferi",
+        "es": "Oratorio de los Crociferi"
+      }
     },
     {
       "id": "santi-apostoli",
@@ -3630,6 +3678,12 @@
         "en": "Santi Apostoli, Venice",
         "es": "Santi Apostoli (Venecia)",
         "fr": "Église Santi Apostoli"
+      },
+      "nomi": {
+        "en": "Church of the Santi Apostoli",
+        "fr": "Église des Santi Apostoli",
+        "de": "Kirche der Santi Apostoli",
+        "es": "Iglesia de los Santi Apostoli"
       }
     },
     {
@@ -3787,6 +3841,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés, sobre la iglesia y la vida de santa Lucía, con subtítulos y contenidos en Lengua de Signos Italiana (LIS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Geremia and Santa Lucia",
+        "fr": "Église de San Geremia et Santa Lucia",
+        "de": "Kirche San Geremia und Santa Lucia",
+        "es": "Iglesia de San Geremia y Santa Lucia"
       }
     },
     {
@@ -4527,6 +4587,12 @@
             "es": "En la primera planta, junto a la taquilla y la cafetería, hay aseos accesibles."
           }
         }
+      },
+      "nomi": {
+        "en": "Correr Museum",
+        "fr": "Musée Correr",
+        "de": "Correr-Museum",
+        "es": "Museo Correr"
       }
     },
     {
@@ -5321,6 +5387,12 @@
             "es": "Los aseos del museo son accesibles."
           }
         }
+      },
+      "nomi": {
+        "en": "Glass Museum",
+        "fr": "Musée du verre",
+        "de": "Glasmuseum",
+        "es": "Museo del Vidrio"
       }
     },
     {
@@ -5425,6 +5497,12 @@
             "es": "Hay un ascensor a disposición de los visitantes."
           }
         }
+      },
+      "nomi": {
+        "en": "Lace Museum",
+        "fr": "Musée de la dentelle",
+        "de": "Spitzenmuseum",
+        "es": "Museo del Encaje"
       }
     },
     {
@@ -5598,7 +5676,13 @@
             "es": "En 1797, con la caída de la República, el Arsenal fue saqueado y se perdieron muchos modelos navales. Algunos se salvaron y hoy se conservan en el Museo Storico Navale. Entre las piezas más importantes está el modelo del Bucintoro, la suntuosa nave ceremonial del dux."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Naval History Museum",
+        "fr": "Musée d'histoire navale",
+        "de": "Marinegeschichtliches Museum",
+        "es": "Museo de Historia Naval"
+      }
     },
     {
       "id": "museo-ebraico",
@@ -5685,6 +5769,12 @@
             "es": "En el complejo museístico hay dos ascensores, instalados durante las obras de ampliación y renovación para hacer accesibles los distintos niveles."
           }
         }
+      },
+      "nomi": {
+        "en": "Jewish Museum",
+        "fr": "Musée juif",
+        "de": "Jüdisches Museum",
+        "es": "Museo Judío"
       }
     },
     {
@@ -9028,6 +9118,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of the Pugni",
+        "fr": "Pont des Pugni",
+        "de": "Brücke der Pugni",
+        "es": "Puente de los Pugni"
       }
     },
     {
@@ -9163,6 +9259,12 @@
             "es": "El puente tiene una rampa de escalones facilitados para sillas de ruedas: 5 escalones bajos (12,5 cm de altura) y profundos (93 cm de huella), que se superan con la ayuda de un acompañante."
           }
         }
+      },
+      "nomi": {
+        "en": "Bridge of the Guglie",
+        "fr": "Pont des Guglie",
+        "de": "Brücke der Guglie",
+        "es": "Puente de las Guglie"
       }
     },
     {
@@ -9224,6 +9326,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of Accademia",
+        "fr": "Pont de l'Accademia",
+        "de": "Brücke Accademia",
+        "es": "Puente de Accademia"
       }
     },
     {
@@ -9285,6 +9393,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of the Scalzi",
+        "fr": "Pont des Scalzi",
+        "de": "Brücke der Scalzi",
+        "es": "Puente de los Scalzi"
       }
     },
     {
@@ -9612,6 +9726,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Devil's Bridge",
+        "fr": "Pont du Diable",
+        "de": "Teufelsbrücke",
+        "es": "Puente del Diablo"
       }
     },
     {
@@ -10359,6 +10479,12 @@
             "es": "Los jardines cuentan con aseos accesibles."
           }
         }
+      },
+      "nomi": {
+        "en": "Royal Gardens",
+        "fr": "Jardins royaux",
+        "de": "Königliche Gärten",
+        "es": "Jardines Reales"
       }
     },
     {
@@ -12098,6 +12224,12 @@
         "it": "Ponte Chiodo",
         "de": "Ponte Chiodo",
         "fr": "Pont Chiodo"
+      },
+      "nomi": {
+        "en": "Chiodo Bridge",
+        "fr": "Pont Chiodo",
+        "de": "Chiodo-Brücke",
+        "es": "Puente Chiodo"
       }
     },
     {
@@ -12518,6 +12650,12 @@
             "es": "Durante las óperas se proyectan los sobretítulos del libreto sobre el escenario. Hay textos en italiano e inglés y, en algunas óperas, también en el idioma original. No todas las localidades garantizan la visibilidad de los sobretítulos."
           }
         }
+      },
+      "nomi": {
+        "en": "La Fenice Theatre",
+        "fr": "Théâtre La Fenice",
+        "de": "Opernhaus La Fenice",
+        "es": "Teatro La Fenice"
       }
     },
     {
@@ -12625,6 +12763,12 @@
             "es": "En la entrada secundaria hay un elevador con plataforma para silla de ruedas; después un salvaescaleras lleva al patio de butacas."
           }
         }
+      },
+      "nomi": {
+        "en": "Carlo Goldoni Theatre",
+        "fr": "Théâtre Carlo Goldoni",
+        "de": "Carlo Goldoni-Theater",
+        "es": "Teatro Carlo Goldoni"
       }
     },
     {
@@ -12889,6 +13033,12 @@
             "es": "Las personas con discapacidad pueden acceder a la platea, donde hay cuatro plazas reservadas al fondo de la sala."
           }
         }
+      },
+      "nomi": {
+        "en": "Malibran Theatre",
+        "fr": "Théâtre Malibran",
+        "de": "Malibran-Theater",
+        "es": "Teatro Malibran"
       }
     },
     {

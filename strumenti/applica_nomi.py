@@ -48,12 +48,13 @@ def stesso_luogo(nome, titolo_it):
 def nomi_di(id_, nome, v, dec, man):
     if id_ in man:
         return man[id_]
-    if id_ in dec:
+    if id_ in dec and not (all(dec[id_].get(k) == nome for k in L) and per_regola(nome)):
         return dec[id_]
     if nome.lower().startswith(SOLO_ITALIANO) and id_ not in ESCLUSI:
         return {k: nome for k in L}
     if v['tipo'] == 'wikipedia' and (id_ in BUONI or stesso_luogo(nome, v.get('it'))) and pulito(v, nome):
-        return {k: v[k] for k in L}
+        if any(v[k] != nome for k in L) or not per_regola(nome):
+            return {k: v[k] for k in L}
     r = per_regola(nome)
     if r:
         return r

@@ -571,6 +571,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Molino Bridge",
+        "fr": "Pont Molino",
+        "de": "Molino-Brücke",
+        "es": "Puente Molino"
       }
     },
     {
@@ -1118,6 +1124,12 @@
             "es": "Hay barreras arquitectónicas: la visita es limitada para personas con movilidad reducida."
           }
         }
+      },
+      "nomi": {
+        "en": "Clock Tower",
+        "fr": "Tour de l'Horloge",
+        "de": "Uhrturm",
+        "es": "Torre del Reloj"
       }
     },
     {
@@ -1463,7 +1475,13 @@
       "personaggio": [
         "andrea-mantegna",
         "francesco-petrarca"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of the Eremitani",
+        "fr": "Église des Eremitani",
+        "de": "Kirche der Eremitani",
+        "es": "Iglesia de los Eremitani"
+      }
     },
     {
       "id": "chiesa-di-santa-sofia",
@@ -2466,6 +2484,12 @@
             "es": "Hay barreras arquitectónicas: la visita es limitada para personas con movilidad reducida."
           }
         }
+      },
+      "nomi": {
+        "en": "Cornaro Loggia and Odeon",
+        "fr": "Loggia et Odéon Cornaro",
+        "de": "Loggia und Odeon Cornaro",
+        "es": "Logia y Odeón Cornaro"
       }
     },
     {
@@ -2519,6 +2543,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Corvo Bridge",
+        "fr": "Pont Corvo",
+        "de": "Corvo-Brücke",
+        "es": "Puente Corvo"
       }
     },
     {
@@ -3277,6 +3307,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Molino Gate",
+        "fr": "Porte Molino",
+        "de": "Molino-Tor",
+        "es": "Puerta Molino"
       }
     },
     {
@@ -3335,6 +3371,12 @@
             "es": "Indicado como accesible; las condiciones de acceso para personas con discapacidad están en la web del Teatro Stabile del Veneto."
           }
         }
+      },
+      "nomi": {
+        "en": "Verdi Theatre",
+        "fr": "Théâtre Verdi",
+        "de": "Verdi-Theater",
+        "es": "Teatro Verdi"
       }
     },
     {
@@ -3945,7 +3987,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "sant-antonio-di-padova"
+      "personaggio": "sant-antonio-di-padova",
+      "nomi": {
+        "en": "Sanctuary of Arcella",
+        "fr": "Sanctuaire de l'Arcella",
+        "de": "Heiligtum Arcella",
+        "es": "Santuario de Arcella"
+      }
     },
     {
       "id": "chiesa-di-santa-croce",
@@ -4332,6 +4380,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Pre-Cinema Museum",
+        "fr": "Musée du pré-cinéma",
+        "de": "Vorkino-Museum",
+        "es": "Museo del Precine"
       }
     },
     {

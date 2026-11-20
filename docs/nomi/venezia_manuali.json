@@ -1,19 +1,152 @@
 {
- "basilica-san-marco": {"en": "St Mark's Basilica", "fr": "Basilique Saint-Marc", "de": "Markusdom", "es": "Basílica de San Marcos"},
- "piazza-san-marco": {"en": "St Mark's Square", "fr": "Place Saint-Marc", "de": "Markusplatz", "es": "Plaza de San Marcos"},
- "campanile-san-marco": {"en": "St Mark's Campanile", "fr": "Campanile de Saint-Marc", "de": "Campanile von San Marco", "es": "Campanile de San Marcos"},
- "canal-grande": {"en": "Grand Canal", "fr": "Grand Canal", "de": "Canal Grande", "es": "Gran Canal"},
- "ponte-sospiri": {"en": "Bridge of Sighs", "fr": "Pont des Soupirs", "de": "Seufzerbrücke", "es": "Puente de los Suspiros"},
- "torre-orologio": {"en": "Clock Tower", "fr": "Tour de l'Horloge", "de": "Uhrturm", "es": "Torre del Reloj"},
- "libreria-marciana": {"en": "Marciana Library", "fr": "Libreria Marciana", "de": "Biblioteca Marciana", "es": "Biblioteca Marciana"},
- "salute": {"en": "Basilica of Santa Maria della Salute", "fr": "Basilique Santa Maria della Salute", "de": "Basilika Santa Maria della Salute", "es": "Basílica de Santa Maria della Salute"},
- "san-giorgio-maggiore": {"en": "Basilica of San Giorgio Maggiore", "fr": "Basilique San Giorgio Maggiore", "de": "Basilika San Giorgio Maggiore", "es": "Basílica de San Giorgio Maggiore"},
- "santi-giovanni-paolo": {"en": "Basilica of Santi Giovanni e Paolo", "fr": "Basilique des Santi Giovanni e Paolo", "de": "Basilika Santi Giovanni e Paolo", "es": "Basílica de los Santi Giovanni e Paolo"},
- "palazzo-ducale": {"en": "Doge's Palace", "fr": "Palais des Doges", "de": "Dogenpalast", "es": "Palacio Ducal"},
- "ghetto": {"en": "Jewish Ghetto", "fr": "Ghetto juif", "de": "Jüdisches Ghetto", "es": "Gueto judío"},
- "arsenale": {"en": "Arsenal", "fr": "Arsenal", "de": "Arsenal", "es": "Arsenal"},
- "contarini-bovolo": {"en": "Contarini del Bovolo Staircase", "fr": "Escalier Contarini del Bovolo", "de": "Scala Contarini del Bovolo", "es": "Escalera Contarini del Bovolo"},
- "querini-stampalia": {"en": "Querini Stampalia Foundation", "fr": "Fondation Querini Stampalia", "de": "Fondazione Querini Stampalia", "es": "Fundación Querini Stampalia"},
- "storia-naturale": {"en": "Natural History Museum", "fr": "Musée d'histoire naturelle", "de": "Naturhistorisches Museum", "es": "Museo de Historia Natural"},
- "lido": {"en": "Lido of Venice", "fr": "Lido de Venise", "de": "Lido von Venedig", "es": "Lido de Venecia"}
+ "basilica-san-marco": {
+  "en": "St Mark's Basilica",
+  "fr": "Basilique Saint-Marc",
+  "de": "Markusdom",
+  "es": "Basílica de San Marcos"
+ },
+ "piazza-san-marco": {
+  "en": "St Mark's Square",
+  "fr": "Place Saint-Marc",
+  "de": "Markusplatz",
+  "es": "Plaza de San Marcos"
+ },
+ "campanile-san-marco": {
+  "en": "St Mark's Campanile",
+  "fr": "Campanile de Saint-Marc",
+  "de": "Campanile von San Marco",
+  "es": "Campanile de San Marcos"
+ },
+ "canal-grande": {
+  "en": "Grand Canal",
+  "fr": "Grand Canal",
+  "de": "Canal Grande",
+  "es": "Gran Canal"
+ },
+ "ponte-sospiri": {
+  "en": "Bridge of Sighs",
+  "fr": "Pont des Soupirs",
+  "de": "Seufzerbrücke",
+  "es": "Puente de los Suspiros"
+ },
+ "torre-orologio": {
+  "en": "Clock Tower",
+  "fr": "Tour de l'Horloge",
+  "de": "Uhrturm",
+  "es": "Torre del Reloj"
+ },
+ "libreria-marciana": {
+  "en": "Marciana Library",
+  "fr": "Libreria Marciana",
+  "de": "Biblioteca Marciana",
+  "es": "Biblioteca Marciana"
+ },
+ "salute": {
+  "en": "Basilica of Santa Maria della Salute",
+  "fr": "Basilique Santa Maria della Salute",
+  "de": "Basilika Santa Maria della Salute",
+  "es": "Basílica de Santa Maria della Salute"
+ },
+ "san-giorgio-maggiore": {
+  "en": "Basilica of San Giorgio Maggiore",
+  "fr": "Basilique San Giorgio Maggiore",
+  "de": "Basilika San Giorgio Maggiore",
+  "es": "Basílica de San Giorgio Maggiore"
+ },
+ "santi-giovanni-paolo": {
+  "en": "Basilica of Santi Giovanni e Paolo",
+  "fr": "Basilique des Santi Giovanni e Paolo",
+  "de": "Basilika Santi Giovanni e Paolo",
+  "es": "Basílica de los Santi Giovanni e Paolo"
+ },
+ "palazzo-ducale": {
+  "en": "Doge's Palace",
+  "fr": "Palais des Doges",
+  "de": "Dogenpalast",
+  "es": "Palacio Ducal"
+ },
+ "ghetto": {
+  "en": "Jewish Ghetto",
+  "fr": "Ghetto juif",
+  "de": "Jüdisches Ghetto",
+  "es": "Gueto judío"
+ },
+ "arsenale": {
+  "en": "Arsenal",
+  "fr": "Arsenal",
+  "de": "Arsenal",
+  "es": "Arsenal"
+ },
+ "contarini-bovolo": {
+  "en": "Contarini del Bovolo Staircase",
+  "fr": "Escalier Contarini del Bovolo",
+  "de": "Scala Contarini del Bovolo",
+  "es": "Escalera Contarini del Bovolo"
+ },
+ "querini-stampalia": {
+  "en": "Querini Stampalia Foundation",
+  "fr": "Fondation Querini Stampalia",
+  "de": "Fondazione Querini Stampalia",
+  "es": "Fundación Querini Stampalia"
+ },
+ "storia-naturale": {
+  "en": "Natural History Museum",
+  "fr": "Musée d'histoire naturelle",
+  "de": "Naturhistorisches Museum",
+  "es": "Museo de Historia Natural"
+ },
+ "lido": {
+  "en": "Lido of Venice",
+  "fr": "Lido de Venise",
+  "de": "Lido von Venedig",
+  "es": "Lido de Venecia"
+ },
+ "museo-vetro": {
+  "en": "Glass Museum",
+  "fr": "Musée du verre",
+  "de": "Glasmuseum",
+  "es": "Museo del Vidrio"
+ },
+ "museo-navale": {
+  "en": "Naval History Museum",
+  "fr": "Musée d'histoire navale",
+  "de": "Marinegeschichtliches Museum",
+  "es": "Museo de Historia Naval"
+ },
+ "museo-ebraico": {
+  "en": "Jewish Museum",
+  "fr": "Musée juif",
+  "de": "Jüdisches Museum",
+  "es": "Museo Judío"
+ },
+ "san-geremia": {
+  "en": "Church of San Geremia and Santa Lucia",
+  "fr": "Église de San Geremia et Santa Lucia",
+  "de": "Kirche San Geremia und Santa Lucia",
+  "es": "Iglesia de San Geremia y Santa Lucia"
+ },
+ "museo-merletto": {
+  "en": "Lace Museum",
+  "fr": "Musée de la dentelle",
+  "de": "Spitzenmuseum",
+  "es": "Museo del Encaje"
+ },
+ "ponte-diavolo": {
+  "en": "Devil's Bridge",
+  "fr": "Pont du Diable",
+  "de": "Teufelsbrücke",
+  "es": "Puente del Diablo"
+ },
+ "giardini-reali": {
+  "en": "Royal Gardens",
+  "fr": "Jardins royaux",
+  "de": "Königliche Gärten",
+  "es": "Jardines Reales"
+ },
+ "teatro-la-fenice": {
+  "en": "La Fenice Theatre",
+  "fr": "Théâtre La Fenice",
+  "de": "Opernhaus La Fenice",
+  "es": "Teatro La Fenice"
+ }
 }

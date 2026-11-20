@@ -1,5 +1,5 @@
 {
- "versione": "90d84b2bc80a",
+ "versione": "28bda793a591",
  "file": [
   {
    "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
@@ -6682,8 +6682,8 @@
   {
    "path": "dati/luoghi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/luoghi.json",
-   "sha256": "664e41a9bb833b685fa0f15986fe03a4a9bd06a44c286a866b2ea64ab44e99a6",
-   "byte": 396828
+   "sha256": "0e59d0c584de2e604a91094bb1a3265351dd6513ee248fdd8d531fbd0a110038",
+   "byte": 398351
   },
   {
    "path": "dati/mappa.json",
@@ -6796,6 +6796,16 @@
    "da": "39654f456278",
    "data": "2026-11-20",
    "byte": 396828
+  },
+  {
+   "versione": "28bda793a591",
+   "da": "90d84b2bc80a",
+   "data": "2026-11-20",
+   "luoghi_aggiornati": 10,
+   "aspetti": [
+    "altro"
+   ],
+   "byte": 398351
   }
  ]
 }

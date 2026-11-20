@@ -124,6 +124,12 @@
             "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
           }
         }
+      },
+      "nomi": {
+        "en": "Palladian Basilica",
+        "fr": "Basilique palladienne",
+        "de": "Palladianische Basilika",
+        "es": "Basílica Palladiana"
       }
     },
     {
@@ -220,6 +226,12 @@
             "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
           }
         }
+      },
+      "nomi": {
+        "en": "Olympic Theatre",
+        "fr": "Théâtre olympique",
+        "de": "Olympisches Theater",
+        "es": "Teatro Olímpico"
       }
     },
     {
@@ -1115,6 +1127,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Vicenza Cathedral",
+        "fr": "Cathédrale de Vicence",
+        "de": "Dom von Vicenza",
+        "es": "Catedral de Vicenza"
       }
     },
     {
@@ -2317,7 +2335,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Basilica_dei_Santi_Felice_e_Fortunato_(Vicenza)_-_interior_-_Choir.jpg"
         }
       ],
-      "personaggio": "alessandro-maganza"
+      "personaggio": "alessandro-maganza",
+      "nomi": {
+        "en": "Basilica of Saints Felix and Fortunatus",
+        "fr": "Basilique des Saints-Félix-et-Fortunat",
+        "de": "Basilika der Heiligen Felix und Fortunatus",
+        "es": "Basílica de los Santos Félix y Fortunato"
+      }
     },
     {
       "id": "chiesa-di-santa-maria-in-araceli",
@@ -2947,7 +2971,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Torre_Coxina_in_Vicenza_(4).jpg"
         }
       ],
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Tower of the Coxina",
+        "fr": "Tour des Coxina",
+        "de": "Turm der Coxina",
+        "es": "Torre de los Coxina"
+      }
     },
     {
       "id": "loggia-valmarana",
@@ -3060,7 +3090,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Torri_dei_Loschi_Vicenza.jpg"
         }
       ],
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Tower of the Loschi",
+        "fr": "Tour des Loschi",
+        "de": "Turm der Loschi",
+        "es": "Torre de los Loschi"
+      }
     },
     {
       "id": "porta-san-bortolo",
@@ -3187,7 +3223,13 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=26288578"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Valmarana Chapel",
+        "fr": "Chapelle Valmarana",
+        "de": "Valmarana-Kapelle",
+        "es": "Capilla Valmarana"
+      }
     },
     {
       "id": "palazzo-porto-breganze",
