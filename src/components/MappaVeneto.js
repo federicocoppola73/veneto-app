@@ -83,9 +83,10 @@ const MARGINE = 0.03;
 
 export default function MappaVeneto({ visibile, onChiudi, lingua }) {
   const t = TESTI[lingua] || TESTI.it;
-  const { width } = useWindowDimensions();
-  const larghezza = Math.min(width - 24, 520);
-  const altezza = larghezza * (ALTO / LARGO);
+  const { width, height } = useWindowDimensions();
+  // mappa compatta: al massimo ~35% dell'altezza dello schermo, così la distanza si vede senza scorrere
+  const altezza = Math.min((width - 24) * (ALTO / LARGO), Math.min(520, width - 24) * (ALTO / LARGO), height * 0.35);
+  const larghezza = altezza * (LARGO / ALTO);
 
   const [partenza, setPartenza] = useState(null);
   const [arrivo, setArrivo] = useState(null);
@@ -169,7 +170,7 @@ export default function MappaVeneto({ visibile, onChiudi, lingua }) {
         <ScrollView contentContainerStyle={{ padding: 12, paddingBottom: 32 }}>
           <Text style={stili.sottotitolo}>{t.sottotitolo}</Text>
 
-          <View style={[stili.carta, { width: larghezza, height: altezza }]}>
+          <View style={[stili.carta, { width: larghezza, height: altezza, alignSelf: 'center' }]}>
             <Svg width={larghezza} height={altezza}>
               {percorsi.map((p) => (
                 <Path key={p.id} d={p.d} fill={p.id === partenza || p.id === arrivo ? '#cfe5da' : '#e7efe9'} stroke="#8fb3a2" strokeWidth={1} strokeLinejoin="round" />
@@ -276,7 +277,7 @@ const stili = StyleSheet.create({
   legenda: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, marginTop: 8 },
   legendaPunto: { width: 10, height: 10, borderRadius: 5, backgroundColor: OCRA },
   legendaTesto: { color: GRIGIO, fontSize: 12 },
-  sezione: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 22, marginTop: 20, marginBottom: 10 },
+  sezione: { color: VERDE, fontFamily: 'Marcellus_400Regular', fontSize: 22, marginTop: 10, marginBottom: 6 },
   riga: { flexDirection: 'row', alignItems: 'flex-end', gap: 8 },
   etichetta: { color: GRIGIO, fontSize: 12, marginBottom: 4 },
   menu: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', backgroundColor: '#fff', borderWidth: 1, borderColor: '#cdd8d2', borderRadius: 10, paddingHorizontal: 12, height: 46 },
@@ -284,13 +285,13 @@ const stili = StyleSheet.create({
   menuFreccia: { color: GRIGIO, fontSize: 14 },
   scambia: { width: 40, height: 46, alignItems: 'center', justifyContent: 'center' },
   scambiaTesto: { color: VERDE, fontSize: 22 },
-  unita: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 14 },
+  unita: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 8 },
   pillola: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 18, borderWidth: 1, borderColor: VERDE },
   pillolaAttiva: { backgroundColor: VERDE },
   pillolaTesto: { color: VERDE, fontWeight: '700' },
-  risultato: { marginTop: 16, backgroundColor: '#fff', borderRadius: 12, padding: 16, alignItems: 'center', borderWidth: 1, borderColor: '#e0e7e2' },
+  risultato: { marginTop: 10, backgroundColor: '#fff', borderRadius: 12, padding: 10, alignItems: 'center', borderWidth: 1, borderColor: '#e0e7e2' },
   risultatoDa: { color: GRIGIO, fontSize: 14 },
-  risultatoNumero: { color: ARANCIO, fontSize: 44, fontWeight: '800', marginTop: 4 },
+  risultatoNumero: { color: ARANCIO, fontSize: 36, fontWeight: '800', marginTop: 0 },
   risultatoUnita: { fontSize: 20, fontWeight: '700' },
   risultatoLinea: { color: GRIGIO, fontSize: 13, textAlign: 'center' },
   nota: { color: GRIGIO, fontSize: 11, textAlign: 'center', marginTop: 10 },

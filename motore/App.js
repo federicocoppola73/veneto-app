@@ -443,6 +443,8 @@ function Schermata({ linguaIniziale }) {
   // scheda storica ("storia:<id>") da cui si è aperto un personaggio: alla chiusura si riapre quella scheda
   const ritornoStoria = useRef(null);
   const chiudiScheda = useCallback(() => {
+    // chiudendo la scheda l'audioguida si ferma e ricorda il punto, per riprendere da lì
+    fermaAudioPersistente();
     setIdSelezionato(null);
     if (ritornoItinerario.current) {
       const idItin = ritornoItinerario.current;

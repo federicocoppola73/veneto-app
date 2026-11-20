@@ -49,7 +49,7 @@ function vociAudioguide(indice, lingua, t) {
   return [...storia, ...luoghi];
 }
 
-// Lettore "persistente" (solo schede della Storia): se si apre un personaggio o un luogo da una scheda, l'audioguida
+// Lettore "persistente" (schede della Storia e schede dei monumenti): se si apre un personaggio o un luogo da una scheda, l'audioguida
 // continua e, tornando alla scheda, il lettore mostra il punto a cui è arrivata. Un solo lettore alla volta.
 let persistente = null; // { uri, player, daZero }
 // Punto a cui era arrivato l'ascolto di ogni traccia della Storia: chiudendo la scheda l'audio si ferma,
@@ -119,7 +119,7 @@ const IconaScarica = ({ colore = '#fff' }) => (
 );
 
 // ---- Scheda del luogo ----
-export function RigaAudioguida({ luogo, lingua, t, persisti }) {
+export function RigaAudioguida({ luogo, lingua, t, persisti = true }) {
   const { indice, presenti, progresso } = useAudioguide();
   const [elenco, setElenco] = useState(false);
   const info = indice?.luoghi?.[luogo?.id];
