@@ -1,7 +1,7 @@
 # Venezia: nomi da decidere (proposta)
 
 Regola usata: si traduce il genere (chiesa, giardino, ponte…) e si tiene il nome proprio. Per i palazzi di famiglia si segue l'uso di Wikipedia:
-*Palazzo* in EN e DE, *Palais* in FR, *Palacio* in ES. Dove la proposta è dubbia c'è un "?".
+*Palazzo* in EN e DE, *Palais* in FR, *Palacio* in ES.
 
 | id | Italiano | EN | FR | DE | ES |
 |---|---|---|---|---|---|
@@ -17,7 +17,7 @@ Regola usata: si traduce il genere (chiesa, giardino, ponte…) e si tiene il no
 | giardini-biennale | Giardini della Biennale | Biennale Gardens | Jardins de la Biennale | Biennale-Gärten | Jardines de la Bienal |
 | giardino-papadopoli | Giardino Papadopoli | Papadopoli Garden | Jardin Papadopoli | Papadopoli-Garten | Jardín Papadopoli |
 | parco-savorgnan | Parco Savorgnan | Savorgnan Park | Parc Savorgnan | Savorgnan-Park | Parque Savorgnan |
-| parco-rimembranze | Parco delle Rimembranze | Remembrance Park ? | Parc du Souvenir ? | Park der Erinnerung ? | Parque de los Recuerdos ? |
+| parco-rimembranze | Parco delle Rimembranze | Parco delle Rimembranze | Parco delle Rimembranze | Parco delle Rimembranze | Parco delle Rimembranze |
 | giardino-carmelitani | Giardino Mistico dei Carmelitani Scalzi | Mystical Garden of the Discalced Carmelites | Jardin mystique des Carmes déchaux | Mystischer Garten der Unbeschuhten Karmeliten | Jardín Místico de los Carmelitas Descalzos |
 | giardini-marinaressa | Giardini della Marinaressa | Marinaressa Gardens | Jardins de la Marinaressa | Marinaressa-Gärten | Jardines de la Marinaressa |
-| porta-blu | Porta Blu | Porta Blu ? | Porta Blu ? | Porta Blu ? | Porta Blu ? |
+| porta-blu | Porta Blu | Blue Gate | Porte Bleue | Blaues Tor | Puerta Azul |
