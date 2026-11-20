@@ -1,5 +1,5 @@
 {
- "versione": "5dfaf491c3de",
+ "versione": "a66698c6a724",
  "file": [
   {
    "path": "assets/aguzza/aguzza-cimitero-angelo.webp",
@@ -6640,8 +6640,8 @@
   {
    "path": "dati/eventi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/rovigo/dati/eventi.json",
-   "sha256": "866a3ffbecc505f14fd7dfc27914a757493e89b8db51d19767b6c990ba0694d4",
-   "byte": 8980
+   "sha256": "a9d84f2cf218ac29c5550a33ee694afb39df58ec810f1e5bfb59b0fa3d7ec02c",
+   "byte": 7764
   },
   {
    "path": "dati/immagini.json",
@@ -6740,6 +6740,12 @@
    "da": "e6f453822c69",
    "data": "2026-11-18",
    "byte": 119837
+  },
+  {
+   "versione": "a66698c6a724",
+   "da": "5dfaf491c3de",
+   "data": "2026-11-20",
+   "byte": 7764
   }
  ]
 }

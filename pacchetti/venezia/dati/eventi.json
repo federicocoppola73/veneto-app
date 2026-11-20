@@ -262,6 +262,7 @@
       "inizio": "2026-11-13",
       "fine": "2026-11-22",
       "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
       "descrizione": {
         "it": "Inaugurazione della Stagione Lirica 2026-2027 del Teatro La Fenice.",
         "en": "Opening of the 2026-2027 opera season at the Teatro La Fenice.",
@@ -269,7 +270,7 @@
         "de": "Eröffnung der Opernsaison 2026-2027 des Teatro La Fenice.",
         "es": "Inauguración de la temporada lírica 2026-2027 del Teatro La Fenice."
       },
-      "link": "https://www.teatrolafenice.it/"
+      "link": "https://www.teatrolafenice.it/event/fedora/"
     },
     {
       "nome": "Fucina degli Angeli. Peggy Guggenheim e il vetro artistico del Novecento",
@@ -466,7 +467,7 @@
         "de": "Das traditionelle Konzert von Orchester und Chor des Teatro La Fenice unter Gianandrea Noseda; am 1. Januar live im Fernsehen.",
         "es": "El tradicional concierto de la orquesta y el coro de La Fenice dirigidos por Gianandrea Noseda; el 1 de enero en directo por televisión."
       },
-      "link": "https://www.teatrolafenice.it/en/event/new-years-concert-2027/"
+      "link": "https://www.teatrolafenice.it/event/concerto-di-capodanno-2027/"
     },
     {
       "nome": "Carnevale di Venezia 2027",
@@ -489,6 +490,50 @@
         "es": "Carnaval con máscaras, bailes y cenas oficiales. Las fechas son oficiales; el programa detallado aún no está publicado."
       },
       "link": "https://carnevale.venezia.it/"
+    },
+    {
+      "nome": "Madama Butterfly di Giacomo Puccini",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2027-01-30",
+      "fine": "2027-02-09",
+      "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
+      "descrizione": {
+        "it": "Opera di Giacomo Puccini nella Stagione Lirica 2026-2027 del Teatro La Fenice.",
+        "en": "Opera by Giacomo Puccini in the 2026-2027 opera season at the Teatro La Fenice.",
+        "fr": "Opéra de Giacomo Puccini dans la saison lyrique 2026-2027 du Teatro La Fenice.",
+        "de": "Oper von Giacomo Puccini in der Opernsaison 2026-2027 des Teatro La Fenice.",
+        "es": "Ópera de Giacomo Puccini en la temporada lírica 2026-2027 del Teatro La Fenice."
+      },
+      "link": "https://www.teatrolafenice.it/event/madamabutterflycallegari/"
+    },
+    {
+      "nome": "Hänsel und Gretel di Engelbert Humperdinck",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2027-02-19",
+      "fine": "2027-02-27",
+      "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
+      "descrizione": {
+        "it": "Opera di Engelbert Humperdinck nella Stagione Lirica 2026-2027 del Teatro La Fenice.",
+        "en": "Opera by Engelbert Humperdinck in the 2026-2027 opera season at the Teatro La Fenice.",
+        "fr": "Opéra d'Engelbert Humperdinck dans la saison lyrique 2026-2027 du Teatro La Fenice.",
+        "de": "Oper von Engelbert Humperdinck in der Opernsaison 2026-2027 des Teatro La Fenice.",
+        "es": "Ópera de Engelbert Humperdinck en la temporada lírica 2026-2027 del Teatro La Fenice."
+      },
+      "link": "https://www.teatrolafenice.it/event/hansel-und-gretel/"
     }
   ]
 }
