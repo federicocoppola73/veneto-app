@@ -2,116 +2,6 @@
   "_nota": "Eventi di Verona: Teatro Filarmonico e altri spazi, da Fondazione Arena (ottobre 2026). Visite guidate e proiezioni escluse.",
   "eventi": [
     {
-      "nome": "Amelia al ballo e Jeu de Cartes",
-      "tipo": {
-        "it": "Opera e balletto",
-        "en": "Opera and ballet",
-        "fr": "Opéra et ballet",
-        "de": "Oper und Ballett",
-        "es": "Ópera y ballet"
-      },
-      "inizio": "2026-10-30",
-      "fine": "2026-11-01",
-      "luogo": "Teatro Filarmonico",
-      "luogoId": null,
-      "descrizione": {
-        "it": "Amelia al ballo di Gian Carlo Menotti e Jeu de Cartes di Igor Stravinsky al Teatro Filarmonico.",
-        "en": "Amelia al ballo by Gian Carlo Menotti and Jeu de Cartes by Igor Stravinsky at the Teatro Filarmonico.",
-        "fr": "Amelia al ballo de Gian Carlo Menotti et Jeu de Cartes d'Igor Stravinsky au Teatro Filarmonico.",
-        "de": "Amelia al ballo von Gian Carlo Menotti und Jeu de Cartes von Igor Strawinsky im Teatro Filarmonico.",
-        "es": "Amelia al ballo de Gian Carlo Menotti y Jeu de Cartes de Ígor Stravinski en el Teatro Filarmonico."
-      },
-      "link": "https://www.arena.it/en/philharmonic-theatre-verona/amelia-al-ballo-jeu-de-cartes/"
-    },
-    {
-      "nome": "Sinfonie n. 4 e 6 - Aspettando Beethoven",
-      "tipo": {
-        "it": "Concerto",
-        "en": "Concert",
-        "fr": "Concert",
-        "de": "Konzert",
-        "es": "Concierto"
-      },
-      "inizio": "2026-10-31",
-      "fine": "2026-10-31",
-      "luogo": "Sala Filarmonica",
-      "luogoId": null,
-      "descrizione": {
-        "it": "Concerto con le Sinfonie n. 4 e n. 6 di Beethoven nella Sala Filarmonica.",
-        "en": "Concert with Beethoven's Symphonies no. 4 and no. 6 in the Sala Filarmonica.",
-        "fr": "Concert avec les Symphonies n° 4 et n° 6 de Beethoven dans la Sala Filarmonica.",
-        "de": "Konzert mit Beethovens Sinfonien Nr. 4 und Nr. 6 in der Sala Filarmonica.",
-        "es": "Concierto con las Sinfonías n.º 4 y n.º 6 de Beethoven en la Sala Filarmonica."
-      },
-      "link": "https://www.arena.it/en/philharmonic-theatre-verona/sinfonie-4-6-aspettando-beethoven/"
-    },
-    {
-      "nome": "Fieracavalli",
-      "tipo": {
-        "it": "Fiera",
-        "en": "Fair",
-        "fr": "Salon",
-        "de": "Messe",
-        "es": "Feria"
-      },
-      "inizio": "2026-11-05",
-      "fine": "2026-11-08",
-      "luogo": "Veronafiere",
-      "luogoId": null,
-      "descrizione": {
-        "it": "Fiera internazionale del cavallo e del mondo equestre, a Veronafiere.",
-        "en": "International horse fair and equestrian show, at Veronafiere.",
-        "fr": "Salon international du cheval et du monde équestre, à Veronafiere.",
-        "de": "Internationale Pferdemesse und Reitsport-Veranstaltung auf dem Veronafiere-Gelände.",
-        "es": "Feria internacional del caballo y del mundo ecuestre, en Veronafiere."
-      },
-      "link": "https://www.veronafiere.it"
-    },
-    {
-      "nome": "Brahms Serenata",
-      "tipo": {
-        "it": "Concerto",
-        "en": "Concert",
-        "fr": "Concert",
-        "de": "Konzert",
-        "es": "Concierto"
-      },
-      "inizio": "2026-11-06",
-      "fine": "2026-11-07",
-      "luogo": "Teatro Filarmonico",
-      "luogoId": null,
-      "descrizione": {
-        "it": "Concerto con musiche di Brahms e Hummel al Teatro Filarmonico.",
-        "en": "Concert with music by Brahms and Hummel at the Teatro Filarmonico.",
-        "fr": "Concert avec des œuvres de Brahms et Hummel au Teatro Filarmonico.",
-        "de": "Konzert mit Werken von Brahms und Hummel im Teatro Filarmonico.",
-        "es": "Concierto con música de Brahms y Hummel en el Teatro Filarmonico."
-      },
-      "link": "https://www.arena.it/en/philharmonic-theatre-verona/brahms-serenata/"
-    },
-    {
-      "nome": "Beethoven, Schubert - Quartetti per archi",
-      "tipo": {
-        "it": "Musica da camera",
-        "en": "Chamber music",
-        "fr": "Musique de chambre",
-        "de": "Kammermusik",
-        "es": "Música de cámara"
-      },
-      "inizio": "2026-11-08",
-      "fine": "2026-11-08",
-      "luogo": "Museo Nicolis",
-      "luogoId": null,
-      "descrizione": {
-        "it": "Quartetti per archi di Beethoven e Schubert al Museo Nicolis.",
-        "en": "String quartets by Beethoven and Schubert at the Museo Nicolis.",
-        "fr": "Quatuors à cordes de Beethoven et Schubert au Museo Nicolis.",
-        "de": "Streichquartette von Beethoven und Schubert im Museo Nicolis.",
-        "es": "Cuartetos de cuerda de Beethoven y Schubert en el Museo Nicolis."
-      },
-      "link": "https://www.arena.it/en/philharmonic-theatre-verona/beethoven-schubert-quartetti-per-archi/"
-    },
-    {
       "nome": "Mercatini di Natale di Verona 2026",
       "tipo": {
         "it": "Mercato",
@@ -222,6 +112,50 @@
       "link": "https://www.arena.it/en/philharmonic-theatre-verona/il-lago-dei-cigni/"
     },
     {
+      "nome": "Il ratto dal serraglio",
+      "tipo": {
+        "it": "Opera",
+        "en": "Opera",
+        "fr": "Opéra",
+        "de": "Oper",
+        "es": "Ópera"
+      },
+      "inizio": "2027-01-17",
+      "fine": "2027-01-24",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Opera di Mozart che apre la Stagione Lirica e di Balletto 2027 del Teatro Filarmonico, nell'anno di Mozart a Verona.",
+        "en": "Opera by Mozart opening the 2027 Opera and Ballet Season at the Teatro Filarmonico, for the Mozart a Verona 2027 festival.",
+        "fr": "Opéra de Mozart qui ouvre la saison lyrique et chorégraphique 2027 du Teatro Filarmonico, pour le festival Mozart a Verona 2027.",
+        "de": "Oper von Mozart zur Eröffnung der Opern- und Ballettsaison 2027 des Teatro Filarmonico, im Rahmen des Festivals Mozart a Verona 2027.",
+        "es": "Ópera de Mozart que abre la temporada de ópera y ballet 2027 del Teatro Filarmonico, con motivo del festival Mozart a Verona 2027."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/2027/the-abduction-from-the-seraglio/"
+    },
+    {
+      "nome": "Brahms - Un Requiem tedesco",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-01-29",
+      "fine": "2027-01-29",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Concerto diretto da Noseda che apre la Stagione Sinfonica 2027 con il raro Requiem tedesco di Brahms.",
+        "en": "Concert conducted by Noseda opening the 2027 Symphonic Season with Brahms's rarely performed German Requiem.",
+        "fr": "Concert dirigé par Noseda qui ouvre la saison symphonique 2027 avec le rare Requiem allemand de Brahms.",
+        "de": "Konzert unter Noseda zur Eröffnung der Sinfoniesaison 2027 mit Brahms' selten aufgeführtem Deutschen Requiem.",
+        "es": "Concierto dirigido por Noseda que abre la temporada sinfónica 2027 con el raramente interpretado Réquiem alemán de Brahms."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/2027/brahms-a-german-requiem/"
+    },
+    {
       "nome": "Bacanal del Gnoco - Venerdì Gnocolar",
       "tipo": {
         "it": "Tradizione",
@@ -242,6 +176,28 @@
         "es": "Día principal del Carnaval de Verona, con desfile de carrozas y reparto de gnocchi."
       },
       "link": "https://www.carnifest.com/the-verona-carnival-2027/"
+    },
+    {
+      "nome": "Mahler - Il canto della terra",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2027-02-05",
+      "fine": "2027-02-06",
+      "luogo": "Teatro Filarmonico",
+      "luogoId": null,
+      "descrizione": {
+        "it": "Per la prima volta l'orchestra dell'Arena affronta Das Lied von der Erde, il testamento spirituale di Mahler.",
+        "en": "For the first time the Arena orchestra performs Das Lied von der Erde, Mahler's spiritual testament.",
+        "fr": "Pour la première fois l'orchestre de l'Arena interprète Das Lied von der Erde, le testament spirituel de Mahler.",
+        "de": "Zum ersten Mal spielt das Arena-Orchester Das Lied von der Erde, Mahlers geistliches Vermächtnis.",
+        "es": "Por primera vez la orquesta de la Arena interpreta Das Lied von der Erde, el testamento espiritual de Mahler."
+      },
+      "link": "https://www.arena.it/en/philharmonic-theatre-verona/2027/mahler-the-song-of-the-earth/"
     }
   ]
 }

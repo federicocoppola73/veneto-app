@@ -1,5 +1,5 @@
 {
- "versione": "32fc5dbc2d08",
+ "versione": "7da6834af71e",
  "file": [
   {
    "path": "assets/aguzza/caffe-pedrocchi-sala-verde.webp",
@@ -7504,8 +7504,8 @@
   {
    "path": "dati/eventi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/padova/dati/eventi.json",
-   "sha256": "0a48cd1f50797d1d3dd4be5a4af1d5bac99617cd3e7d8c186b4f85b4cdf37bd0",
-   "byte": 16979
+   "sha256": "2a8e324efb4f5038c9c796f98a045874ed98650da9ae5c7687dfefd1598d1866",
+   "byte": 8889
   },
   {
    "path": "dati/immagini.json",
@@ -7633,6 +7633,12 @@
    "da": "0579652afb7f",
    "data": "2026-11-19",
    "byte": 832249
+  },
+  {
+   "versione": "7da6834af71e",
+   "da": "32fc5dbc2d08",
+   "data": "2026-11-20",
+   "byte": 8889
   }
  ]
 }

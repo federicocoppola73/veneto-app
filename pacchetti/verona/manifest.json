@@ -1,5 +1,5 @@
 {
- "versione": "707c74b1f873",
+ "versione": "c70b0e109b37",
  "file": [
   {
    "path": "assets/aguzza/basilica-san-zeno-leoni-protiro.webp",
@@ -6664,8 +6664,8 @@
   {
    "path": "dati/eventi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/verona/dati/eventi.json",
-   "sha256": "f734cb3395a7828bb1905eb9f43223c96af93457350ebda9e1a9e8c9b3be399d",
-   "byte": 10622
+   "sha256": "46af41e1e4ed6b36d1fd7e604f4f131de51e72cd63d57ac777982c123cd41365",
+   "byte": 9378
   },
   {
    "path": "dati/immagini.json",
@@ -6776,6 +6776,13 @@
    "da": "0983b02ef782",
    "data": "2026-11-19",
    "byte": 38290
+  },
+  {
+   "versione": "c70b0e109b37",
+   "da": "707c74b1f873",
+   "data": "2026-11-20",
+   "eventi_nuovi": 3,
+   "byte": 9378
   }
  ]
 }

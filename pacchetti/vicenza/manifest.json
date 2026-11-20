@@ -1,5 +1,5 @@
 {
- "versione": "2bd94668d552",
+ "versione": "20c936f562cf",
  "file": [
   {
    "path": "assets/cibi/asparago-bianco-bassano.webp",
@@ -6016,8 +6016,8 @@
   {
    "path": "dati/eventi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/vicenza/dati/eventi.json",
-   "sha256": "b0aa12a1dfcb6108050efc6f5c69d9907cbb667763063d43d95c6fe1248db256",
-   "byte": 14134
+   "sha256": "b334b62cacc9e98b3069aa0ac0b5dbd5e2a5f664820135e5b72276b95531ba57",
+   "byte": 11635
   },
   {
    "path": "dati/immagini.json",
@@ -6144,6 +6144,13 @@
    "da": "c90d8b824f51",
    "data": "2026-11-19",
    "byte": 29842
+  },
+  {
+   "versione": "20c936f562cf",
+   "da": "2bd94668d552",
+   "data": "2026-11-20",
+   "eventi_nuovi": 1,
+   "byte": 11635
   }
  ]
 }

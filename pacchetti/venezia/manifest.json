@@ -1,5 +1,5 @@
 {
- "versione": "3ae981d84d1c",
+ "versione": "dda0c91cf8e3",
  "file": [
   {
    "path": "assets/aguzza/bocche-palazzo-ducale.webp",
@@ -9358,8 +9358,8 @@
   {
    "path": "dati/eventi.json",
    "url": "https://raw.githubusercontent.com/federicocoppola73/veneto-app/main/pacchetti/venezia/dati/eventi.json",
-   "sha256": "217f4a399c3236f08616b7a0d8bbff6aad8b2edbdfa63087575d4f55d25e77aa",
-   "byte": 21182
+   "sha256": "8ec3344520bc4f9b67b5cc94ba2946e7b363fe1e16864105ad18e9f7d017147a",
+   "byte": 20779
   },
   {
    "path": "dati/immagini.json",
@@ -9496,6 +9496,13 @@
    "data": "2026-11-19",
    "mappa": true,
    "byte": 4453895
+  },
+  {
+   "versione": "dda0c91cf8e3",
+   "da": "3ae981d84d1c",
+   "data": "2026-11-20",
+   "eventi_nuovi": 3,
+   "byte": 20779
   }
  ]
 }

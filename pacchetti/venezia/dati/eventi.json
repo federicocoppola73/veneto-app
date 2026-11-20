@@ -165,28 +165,6 @@
       "link": "https://www.labiennale.org/"
     },
     {
-      "nome": "Festival Grandval, una nobile all'avanguardia",
-      "tipo": {
-        "it": "Musica",
-        "en": "Music",
-        "fr": "Musique",
-        "de": "Musik",
-        "es": "Música"
-      },
-      "inizio": "2026-10-01",
-      "fine": "2026-10-29",
-      "luogo": "Palazzetto Bru Zane",
-      "luogoId": "bru-zane",
-      "descrizione": {
-        "it": "Rassegna musicale e culturale.",
-        "en": "Music and cultural festival.",
-        "fr": "Festival de musique et de culture.",
-        "de": "Musik- und Kulturreihe.",
-        "es": "Ciclo de música y cultura."
-      },
-      "link": "https://www.classicalive.it/it/rassegne/grandval-una-nobile-allavanguardia/2026-2027/"
-    },
-    {
       "nome": "Jenny Saville e Nicolás Lamas",
       "tipo": {
         "it": "Mostra",
@@ -252,28 +230,6 @@
       "link": "https://www.finestresullarte.info/citta/venezia"
     },
     {
-      "nome": "Venicemarathon",
-      "tipo": {
-        "it": "Sport",
-        "en": "Sport",
-        "fr": "Sport",
-        "de": "Sport",
-        "es": "Deporte"
-      },
-      "inizio": "2026-10-25",
-      "fine": "2026-10-25",
-      "luogo": "Giardini della Marinaressa",
-      "luogoId": "giardini-marinaressa",
-      "descrizione": {
-        "it": "Maratona da Villa Pisani a Stra a Venezia lungo la Riviera del Brenta e il Ponte della Libertà; arrivo in Riva dei Sette Martiri dopo 14 ponti con rampe.",
-        "en": "Marathon from Villa Pisani in Stra to Venice along the Riviera del Brenta and the Ponte della Libertà; finish on the Riva dei Sette Martiri after 14 ramped bridges.",
-        "fr": "Marathon de la Villa Pisani à Stra jusqu'à Venise le long de la Riviera del Brenta et du Ponte della Libertà ; arrivée sur la Riva dei Sette Martiri après 14 ponts équipés de rampes.",
-        "de": "Marathon von der Villa Pisani in Stra nach Venedig entlang der Riviera del Brenta und über die Ponte della Libertà; Ziel an der Riva dei Sette Martiri nach 14 Brücken mit Rampen.",
-        "es": "Maratón desde Villa Pisani en Stra hasta Venecia por la Riviera del Brenta y el Ponte della Libertà; meta en la Riva dei Sette Martiri tras 14 puentes con rampas."
-      },
-      "link": "https://www.venicemarathon.it/"
-    },
-    {
       "nome": "L'inizio ci assale. Luca Bertolo",
       "tipo": {
         "it": "Mostra",
@@ -293,27 +249,6 @@
         "es": "Exposición de pintura de Luca Bertolo."
       },
       "link": "https://www.finestresullarte.info/citta/venezia"
-    },
-    {
-      "nome": "Festa di San Martino",
-      "tipo": {
-        "it": "Festa",
-        "en": "Festival",
-        "fr": "Fête",
-        "de": "Fest",
-        "es": "Fiesta"
-      },
-      "inizio": "2026-11-11",
-      "fine": "2026-11-11",
-      "luogo": "",
-      "descrizione": {
-        "it": "I bambini girano per calli e campi battendo pentole e coperchi e cantando la filastrocca di San Martino; nelle pasticcerie il dolce di pasta frolla a forma di santo a cavallo.",
-        "en": "Children roam the streets and squares banging pots and lids and singing the St Martin rhyme; pastry shops sell the shortbread cake shaped like the saint on horseback.",
-        "fr": "Les enfants parcourent calli et campi en tapant sur des casseroles et des couvercles et en chantant la comptine de la Saint-Martin ; les pâtisseries vendent le gâteau sablé en forme de saint à cheval.",
-        "de": "Kinder ziehen durch Gassen und Plätze, schlagen auf Töpfe und Deckel und singen das Martinslied; in den Konditoreien gibt es das Mürbeteiggebäck in Form des Heiligen zu Pferd.",
-        "es": "Los niños recorren calles y plazas golpeando ollas y tapas y cantando la canción de San Martín; en las pastelerías se vende el dulce de masa quebrada con forma de santo a caballo."
-      },
-      "link": "https://www.veneziaunica.it/"
     },
     {
       "nome": "Fedora di Umberto Giordano",
@@ -381,6 +316,28 @@
       "link": "https://www.basilicasalutevenezia.it/"
     },
     {
+      "nome": "Concerto inaugurale della Stagione Sinfonica (Frizza)",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-11-28",
+      "fine": "2026-11-29",
+      "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
+      "descrizione": {
+        "it": "Concerto diretto da Riccardo Frizza che inaugura la Stagione Sinfonica 2026-2027 del Teatro La Fenice.",
+        "en": "Concert conducted by Riccardo Frizza opening the 2026-2027 symphonic season at the Teatro La Fenice.",
+        "fr": "Concert dirigé par Riccardo Frizza qui ouvre la saison symphonique 2026-2027 du Teatro La Fenice.",
+        "de": "Konzert unter der Leitung von Riccardo Frizza zur Eröffnung der Sinfoniesaison 2026-2027 des Teatro La Fenice.",
+        "es": "Concierto dirigido por Riccardo Frizza que inaugura la temporada sinfónica 2026-2027 del Teatro La Fenice."
+      },
+      "link": "https://www.teatrolafenice.it/event/concertoriccardofrizzasinopoliperosi/"
+    },
+    {
       "nome": "Mario Brunello - Bach e Scipriani",
       "tipo": {
         "it": "Concerto",
@@ -423,6 +380,50 @@
         "es": "Concierto del Quartetto di Venezia con música de Haydn, Schubert y Cacioppo en el Auditorium Lo Squero, sábados a las 16:30. Concierto final de la temporada."
       },
       "link": "https://concertisticlassica.com/auditorium-lo-squero-di-venezia-la-stagione-di-concerti-2026/"
+    },
+    {
+      "nome": "Les Étoiles - Gala di Danza",
+      "tipo": {
+        "it": "Balletto",
+        "en": "Ballet",
+        "fr": "Ballet",
+        "de": "Ballett",
+        "es": "Ballet"
+      },
+      "inizio": "2026-12-12",
+      "fine": "2026-12-13",
+      "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
+      "descrizione": {
+        "it": "Gala di danza con alcune delle più grandi étoile internazionali sul palco del Teatro La Fenice.",
+        "en": "Dance gala with leading international étoiles on the stage of the Teatro La Fenice.",
+        "fr": "Gala de danse avec de grandes étoiles internationales sur la scène du Teatro La Fenice.",
+        "de": "Tanzgala mit international gefeierten Stars auf der Bühne des Teatro La Fenice.",
+        "es": "Gala de danza con grandes estrellas internacionales en el escenario del Teatro La Fenice."
+      },
+      "link": "https://www.teatrolafenice.it/event/les-etoiles/"
+    },
+    {
+      "nome": "Concerto diretto da Stanislav Kochanovsky",
+      "tipo": {
+        "it": "Concerto",
+        "en": "Concert",
+        "fr": "Concert",
+        "de": "Konzert",
+        "es": "Concierto"
+      },
+      "inizio": "2026-12-17",
+      "fine": "2026-12-18",
+      "luogo": "Teatro La Fenice",
+      "luogoId": "teatro-la-fenice",
+      "descrizione": {
+        "it": "Concerto sinfonico con musiche di Glinka, Rimskij-Korsakov e Čajkovskij.",
+        "en": "Symphonic concert with music by Glinka, Rimsky-Korsakov and Tchaikovsky.",
+        "fr": "Concert symphonique avec des œuvres de Glinka, Rimski-Korsakov et Tchaïkovski.",
+        "de": "Sinfoniekonzert mit Werken von Glinka, Rimski-Korsakow und Tschaikowsky.",
+        "es": "Concierto sinfónico con música de Glinka, Rimski-Kórsakov y Chaikovski."
+      },
+      "link": "https://www.teatrolafenice.it/event/stanislavkochanovskyglinkakorsakovtchaikovsky/"
     },
     {
       "nome": "Messa di mezzanotte in Basilica di San Marco",
