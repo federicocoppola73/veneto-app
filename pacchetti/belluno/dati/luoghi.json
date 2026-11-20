@@ -445,7 +445,13 @@
       ],
       "personaggio": [
         "gaspare-diziani"
-      ]
+      ],
+      "nomi": {
+        "en": "Cathedral of San Martino",
+        "fr": "Cathédrale de San Martino",
+        "de": "Kathedrale San Martino",
+        "es": "Catedral de San Martino"
+      }
     },
     {
       "id": "chiesa-di-santo-stefano",
@@ -556,7 +562,13 @@
             "es": "El portal gótico del lado sur, decorado con estatuas de los santos patronos de Belluno, no nació para esta iglesia: en 1893 fue trasladado desde la iglesia suprimida de Santa Maria dei Battuti."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santo Stefano",
+        "fr": "Église de Santo Stefano",
+        "de": "Kirche Santo Stefano",
+        "es": "Iglesia de Santo Stefano"
+      }
     },
     {
       "id": "chiesa-di-san-pietro",
@@ -627,7 +639,13 @@
       "personaggio": [
         "andrea-brustolon",
         "sebastiano-ricci"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Pietro",
+        "fr": "Église de San Pietro",
+        "de": "Kirche San Pietro",
+        "es": "Iglesia de San Pietro"
+      }
     },
     {
       "id": "chiesa-di-santa-maria-dei-battuti",
@@ -700,7 +718,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/User:Syrio"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria dei Battuti",
+        "fr": "Église de Santa Maria dei Battuti",
+        "de": "Kirche Santa Maria dei Battuti",
+        "es": "Iglesia de Santa Maria dei Battuti"
+      }
     },
     {
       "id": "battistero-del-duomo",
@@ -772,7 +796,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Altare_del_Battistero_di_Santa_Maria_delle_Grazie_-_Belluno.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Cathedral Baptistery",
+        "fr": "Baptistère de la cathédrale",
+        "de": "Baptisterium des Doms",
+        "es": "Baptisterio de la catedral"
+      }
     },
     {
       "id": "chiesa-di-santa-maria-di-loreto",
@@ -859,7 +889,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/User:Capricornis_crispus"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria di Loreto",
+        "fr": "Église de Santa Maria di Loreto",
+        "de": "Kirche Santa Maria di Loreto",
+        "es": "Iglesia de Santa Maria di Loreto"
+      }
     },
     {
       "id": "palazzo-dei-rettori",
@@ -1158,7 +1194,13 @@
             "es": "El arco interior de la puerta se construyó en 1289. Sobre el arco está empotrada una losa de piedra que conserva la reproducción más antigua conocida del escudo de la ciudad."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Dojona Gate",
+        "fr": "Porte Dojona",
+        "de": "Dojona-Tor",
+        "es": "Puerta Dojona"
+      }
     },
     {
       "id": "porta-rugo",
@@ -1248,7 +1290,13 @@
             "es": "Porta Rugo era el acceso histórico al sur de la ciudad, unido al antiguo puerto fluvial de Borgo Piave. En 1404 entró por ella Antonio Moro, el primer rector veneciano de Belluno."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Rugo Gate",
+        "fr": "Porte Rugo",
+        "de": "Rugo-Tor",
+        "es": "Puerta Rugo"
+      }
     },
     {
       "id": "porta-dante",
@@ -1322,7 +1370,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?title=User:AquiFoto&action=edit&redlink=1"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Dante Gate",
+        "fr": "Porte Dante",
+        "de": "Dante-Tor",
+        "es": "Puerta Dante"
+      }
     },
     {
       "id": "torrione",
@@ -1456,7 +1510,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:BL_Ponte_degli_Alpini_Est.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Alpini Bridge",
+        "fr": "Pont des Alpini",
+        "de": "Alpini-Brücke",
+        "es": "Puente de los Alpini"
+      }
     },
     {
       "id": "mubel-museo-civico-palazzo-fulcis",
@@ -1758,6 +1818,12 @@
             "es": "Clasificado por el Ayuntamiento como medianamente accesible: algunas partes no son adecuadas o requieren pequeñas obras (Plan de eliminación de barreras arquitectónicas, 2025)."
           }
         }
+      },
+      "nomi": {
+        "en": "Archaeological Museum (Palazzo dei Giuristi)",
+        "fr": "Musée archéologique (Palazzo dei Giuristi)",
+        "de": "Archäologisches Museum (Palazzo dei Giuristi)",
+        "es": "Museo Arqueológico (Palazzo dei Giuristi)"
       }
     },
     {
@@ -1981,6 +2047,12 @@
             "es": "Clasificado como accesible por el Ayuntamiento (Plan de eliminación de barreras arquitectónicas, 2025)."
           }
         }
+      },
+      "nomi": {
+        "en": "Dino Buzzati Municipal Theatre",
+        "fr": "Théâtre municipal Dino Buzzati",
+        "de": "Städtisches Theater Dino Buzzati",
+        "es": "Teatro Municipal Dino Buzzati"
       }
     },
     {
@@ -2316,7 +2388,13 @@
           "licenza": null,
           "fonte": null
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Motta Fountain",
+        "fr": "Fontaine de la Motta",
+        "de": "Motta-Brunnen",
+        "es": "Fuente de la Motta"
+      }
     },
     {
       "id": "ponte-zilli",
@@ -2402,7 +2480,13 @@
             "es": "Construido entre 1837 y 1841 según un proyecto del ingeniero Antonio Zilli, el Ponte Vecchio sufrió varios derrumbes y fue destruido definitivamente durante la retirada austriaca del 1 de noviembre de 1918. Hoy queda solo su primer arco, en la orilla urbana del Piave."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Zilli Bridge (Pontet)",
+        "fr": "Pont Zilli (Pontet)",
+        "de": "Zilli-Brücke (Pontet)",
+        "es": "Puente Zilli (Pontet)"
+      }
     },
     {
       "id": "seminario-gregoriano",
@@ -2649,7 +2733,13 @@
           ],
           "metri": 178
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Bridge of Paglia (Borgo Prà)",
+        "fr": "Pont de Paglia (Borgo Prà)",
+        "de": "Brücke Paglia (Borgo Prà)",
+        "es": "Puente de Paglia (Borgo Prà)"
+      }
     },
     {
       "id": "villa-vescovile-del-belvedere",
@@ -2701,7 +2791,13 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Belvedere Episcopal Villa",
+        "fr": "Villa épiscopale du Belvédère",
+        "de": "Bischöfliche Villa del Belvedere",
+        "es": "Villa Episcopal del Belvedere"
+      }
     },
     {
       "id": "casa-di-andrea-brustolon",

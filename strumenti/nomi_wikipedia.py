@@ -123,6 +123,8 @@ def per_regola(nome):
         return None
     g, resto = GENERICI[p[0].lower()], p[1]
     low = resto.lower()
+    if re.search(r' e | detta | detto ', resto) and not low.startswith(SANTI):
+        return None  # nomi composti: meglio lasciarli in italiano
     if low.startswith(DI):
         proprio = resto[3:] if low.startswith('di ') else resto[2:]
         if proprio.split(' ')[0].lower() in STOP or proprio.lower().startswith(("l'", 'la ', 'il ', 'le ', 'lo ')):

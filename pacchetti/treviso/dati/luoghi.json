@@ -329,7 +329,13 @@
             "es": "Las murallas renacentistas se diseñaron para resistir las nuevas armas de fuego. Por eso tienen terraplenes capaces de absorber mejor el impacto de los disparos de artillería."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Walls of Treviso",
+        "fr": "Murailles de Treviso",
+        "de": "Stadtmauer Treviso",
+        "es": "Murallas de Treviso"
+      }
     },
     {
       "id": "porta-san-tomaso",
@@ -385,6 +391,12 @@
       },
       "wikipedia": {
         "it": "Porta San Tomaso"
+      },
+      "nomi": {
+        "en": "Gate of San Tomaso",
+        "fr": "Porte de San Tomaso",
+        "de": "Tor San Tomaso",
+        "es": "Puerta de San Tomaso"
       }
     },
     {
@@ -434,6 +446,12 @@
       },
       "wikipedia": {
         "it": "Porta Santi Quaranta"
+      },
+      "nomi": {
+        "en": "Gate of Santi Quaranta",
+        "fr": "Porte de Santi Quaranta",
+        "de": "Tor Santi Quaranta",
+        "es": "Puerta de Santi Quaranta"
       }
     },
     {
@@ -878,6 +896,12 @@
       },
       "wikipedia": {
         "it": "Torre civica (Treviso)"
+      },
+      "nomi": {
+        "en": "Palazzo del Podestà and Civic Tower",
+        "fr": "Palazzo del Podestà et Tour civique",
+        "de": "Palazzo del Podestà und Stadtturm",
+        "es": "Palazzo del Podestà y Torre Cívica"
       }
     },
     {
@@ -1149,6 +1173,12 @@
         "autore": "Colbertaldo",
         "licenza": "CC BY-SA 4.0",
         "fonte": ""
+      },
+      "nomi": {
+        "en": "Walls Park",
+        "fr": "Parc des Remparts",
+        "de": "Stadtmauerpark",
+        "es": "Parque de las Murallas"
       }
     },
     {
@@ -1260,7 +1290,13 @@
       ],
       "personaggio": [
         "paris-bordon"
-      ]
+      ],
+      "nomi": {
+        "en": "Cathedral of San Pietro Apostolo",
+        "fr": "Cathédrale de San Pietro Apostolo",
+        "de": "Kathedrale San Pietro Apostolo",
+        "es": "Catedral de San Pietro Apostolo"
+      }
     },
     {
       "id": "battistero-di-san-giovanni-battista",
@@ -1308,7 +1344,13 @@
       "wikipedia": {
         "it": "Chiesa di San Giovanni Battista (Treviso)"
       },
-      "indirizzo": "Piazza Duomo"
+      "indirizzo": "Piazza Duomo",
+      "nomi": {
+        "en": "Baptistery of San Giovanni Battista",
+        "fr": "Baptistère de San Giovanni Battista",
+        "de": "Baptisterium San Giovanni Battista",
+        "es": "Baptisterio de San Giovanni Battista"
+      }
     },
     {
       "id": "chiesa-di-san-nicolo",
@@ -1411,7 +1453,13 @@
             "es": "Durante la Primera Guerra Mundial el templo fue cerrado al culto, ocupado y utilizado como almacén militar. Un destino insólito para uno de los edificios religiosos más importantes de la ciudad."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Nicolò",
+        "fr": "Église de San Nicolò",
+        "de": "Kirche San Nicolò",
+        "es": "Iglesia de San Nicolò"
+      }
     },
     {
       "id": "chiesa-di-san-francesco",
@@ -1505,7 +1553,13 @@
       "personaggio": [
         "tomaso-da-modena",
         "paris-bordon"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Francesco",
+        "fr": "Église de San Francesco",
+        "de": "Kirche San Francesco",
+        "es": "Iglesia de San Francesco"
+      }
     },
     {
       "id": "chiesa-di-santa-lucia",
@@ -1577,7 +1631,13 @@
             "es": "El 13 de diciembre de 1389, día dedicado a Santa Lucía, Treviso se entregó a la República de Venecia. La iglesia, cuya construcción data del siglo XIV, se dedicó a la santa precisamente en memoria de aquel acontecimiento."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Lucia",
+        "fr": "Église de Santa Lucia",
+        "de": "Kirche Santa Lucia",
+        "es": "Iglesia de Santa Lucia"
+      }
     },
     {
       "id": "chiesa-di-san-vito",
@@ -1667,7 +1727,13 @@
             "es": "Los orígenes del complejo están ligados a un antiguo hospital para viajeros y enfermos, documentado en 883 junto con el de San Pedro.\n\nEn los siglos siguientes la iglesia se convirtió también en sede religiosa de varias cofradías de oficios: herreros, bombarderos, caldereros, porteadores de vino y carniceros.\n\nLo más interesante es que un edificio hoy aparentemente sencillo conserva la memoria de una red medieval de asistencia y gremios."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Vito",
+        "fr": "Église de San Vito",
+        "de": "Kirche San Vito",
+        "es": "Iglesia de San Vito"
+      }
     },
     {
       "id": "chiesa-di-santa-maria-maggiore",
@@ -1736,7 +1802,13 @@
             "es": "En 1511, durante la guerra de la Liga de Cambrai, se derribó una parte de la iglesia para dejar espacio a nuevas obras defensivas. También se demolieron el campanario, el monasterio y algunas capillas. La reconstrucción comenzó en 1516, pero no se completó según el proyecto original.\n\nEs un episodio especialmente interesante porque muestra cómo la guerra alteró directamente el patrimonio religioso de la ciudad. La reconstrucción dejó en la iglesia dos partes arquitectónicamente distintas: la anterior, de estilo gótico, y la posterior, renacentista."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria Maggiore",
+        "fr": "Église de Santa Maria Maggiore",
+        "de": "Kirche Santa Maria Maggiore",
+        "es": "Iglesia de Santa Maria Maggiore"
+      }
     },
     {
       "id": "complesso-di-santa-caterina",
@@ -1962,6 +2034,12 @@
             "es": "Cada obra tiene una ficha en CAA, también disponible en línea; hay guías en lenguaje de lectura fácil y tabletas con software de CAA."
           }
         }
+      },
+      "nomi": {
+        "en": "Luigi Bailo Museum",
+        "fr": "Musée Luigi Bailo",
+        "de": "Museum Luigi Bailo",
+        "es": "Museo Luigi Bailo"
       }
     },
     {
@@ -2012,7 +2090,13 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Park of Villa Manfrin (Villa Margherita)",
+        "fr": "Parc de Villa Manfrin (Villa Margherita)",
+        "de": "Park Villa Manfrin (Villa Margherita)",
+        "es": "Parque de Villa Manfrin (Villa Margherita)"
+      }
     },
     {
       "id": "parco-dello-storga",
@@ -2075,7 +2159,13 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Storga Park",
+        "fr": "Parc de la Storga",
+        "de": "Storga-Park",
+        "es": "Parque de la Storga"
+      }
     },
     {
       "id": "sala-del-capitolo-dei-domenicani",
@@ -2197,7 +2287,13 @@
             "es": "La Porta Altinia se construyó en 1514, pero englobó una puerta medieval anterior, de la que todavía son reconocibles algunas estructuras. La fachada orientada hacia la ciudad estaba decorada con frescos atribuidos a Pomponio Amalteo, hoy casi por completo desaparecidos."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Altinia Gate",
+        "fr": "Porte Altinia",
+        "de": "Altinia-Tor",
+        "es": "Puerta Altinia"
+      }
     },
     {
       "id": "la-grande-sfera",
@@ -2557,6 +2653,12 @@
       ],
       "biglietto": {
         "gratuito": true
+      },
+      "nomi": {
+        "en": "Dante Bridge",
+        "fr": "Pont Dante",
+        "de": "Dante-Brücke",
+        "es": "Puente Dante"
       }
     },
     {
@@ -2661,7 +2763,13 @@
             "es": "El museo tiene su sede en las llamadas Canoniche Vecchie, antiguas viviendas de los canónigos de la catedral construidas en el siglo XII. El edificio conserva elementos arquitectónicos medievales, entre ellos un claustro y una logia románicos. Durante las obras también aparecieron importantes restos romanos, reutilizados más tarde en los cimientos de los edificios medievales."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Diocesan Museum of Treviso",
+        "fr": "Musée diocésain de Trévise",
+        "de": "Diözesanmuseum Treviso",
+        "es": "Museo Diocesano de Treviso"
+      }
     },
     {
       "id": "ca-da-noal-casa-robegan",
@@ -2896,7 +3004,13 @@
           "licenza": "",
           "fonte": ""
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Ethnographic Museum of Case Piavone",
+        "fr": "Musée ethnographique de Case Piavone",
+        "de": "Ethnographisches Museum Case Piavone",
+        "es": "Museo Etnográfico de Case Piavone"
+      }
     },
     {
       "id": "museo-nazionale-collezione-salce",
@@ -2955,7 +3069,13 @@
         "es": "Entrada única válida para ambas sedes (San Gaetano y Santa Margherita): 10 €. Reducida 6 € (Eventi y Card del trevigiano); 5 € con la tarjeta Dopolavoro Ferroviario (una entrada por sede, válida 3 meses); 3 € para socios de la asociación cultural Fumetti in Treviso; 2 € para ciudadanos de la UE de 18 a 25 años con documento. Entrada gratuita el primer domingo de cada mes: esos días no se admiten reservas ni acceso de grupos."
       },
       "sito": "http://www.collezionesalce.beniculturali.it/",
-      "wikipedia": null
+      "wikipedia": null,
+      "nomi": {
+        "en": "Salce Collection National Museum",
+        "fr": "Musée national Collection Salce",
+        "de": "Nationalmuseum Sammlung Salce",
+        "es": "Museo Nacional Colección Salce"
+      }
     },
     {
       "id": "chiesa-di-san-leonardo",
@@ -3023,7 +3143,13 @@
             "es": "Sus orígenes se remontan al siglo XII. Cuando en el siglo XIII se construyeron las murallas de la ciudad que aún existen, la iglesia, inicialmente situada fuera del primer recinto defensivo, cobró importancia gracias al desarrollo de los talleres de comerciantes y artesanos surgidos en los alrededores."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Leonardo",
+        "fr": "Église de San Leonardo",
+        "de": "Kirche San Leonardo",
+        "es": "Iglesia de San Leonardo"
+      }
     },
     {
       "id": "chiesa-di-sant-agostino",
@@ -3073,7 +3199,13 @@
         "es": "Los horarios no figuran en las fuentes consultadas; la iglesia suele estar cerrada. Conviene verificarlo antes de la visita."
       },
       "sito": null,
-      "wikipedia": null
+      "wikipedia": null,
+      "nomi": {
+        "en": "Church of Sant'Agostino",
+        "fr": "Église de Sant'Agostino",
+        "de": "Kirche Sant'Agostino",
+        "es": "Iglesia de Sant'Agostino"
+      }
     },
     {
       "id": "teatro-mario-del-monaco",
@@ -3243,7 +3375,13 @@
             "es": "Desde el siglo XVI fue sede de la escuela de los marangoni, es decir, de los carpinteros. Una historia ligada a los antiguos gremios de la ciudad, que permite contar la relación entre la iglesia, el oficio y la organización del trabajo."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Sant'Andrea",
+        "fr": "Église de Sant'Andrea",
+        "de": "Kirche Sant'Andrea",
+        "es": "Iglesia de Sant'Andrea"
+      }
     },
     {
       "id": "ponte-de-pria",
@@ -3576,7 +3714,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": ""
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Gregorio Magno",
+        "fr": "Église de San Gregorio Magno",
+        "de": "Kirche San Gregorio Magno",
+        "es": "Iglesia de San Gregorio Magno"
+      }
     },
     {
       "id": "ca-spineda",

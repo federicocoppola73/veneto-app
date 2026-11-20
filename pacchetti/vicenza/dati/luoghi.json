@@ -588,6 +588,12 @@
             "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
           }
         }
+      },
+      "nomi": {
+        "en": "Palazzo Chiericati (Civic Museum)",
+        "fr": "Palazzo Chiericati (Musée civique)",
+        "de": "Palazzo Chiericati (Städtisches Museum)",
+        "es": "Palazzo Chiericati (Museo Cívico)"
       }
     },
     {
@@ -669,7 +675,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Monte_Berico_interno_04.jpg"
         }
       ],
-      "personaggio": "alessandro-maganza"
+      "personaggio": "alessandro-maganza",
+      "nomi": {
+        "en": "Sanctuary of Monte Berico",
+        "fr": "Sanctuaire de Monte Berico",
+        "de": "Heiligtum Monte Berico",
+        "es": "Santuario de Monte Berico"
+      }
     },
     {
       "id": "tempio-di-santa-corona",
@@ -785,6 +797,12 @@
             "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Santa Corona",
+        "fr": "Église de Santa Corona",
+        "de": "Kirche Santa Corona",
+        "es": "Iglesia de Santa Corona"
       }
     },
     {
@@ -1177,6 +1195,12 @@
             "es": "Senderos de grava no siempre compacta, con baches y algunos tramos en pendiente (estudio del Ayuntamiento, Plan de eliminación de barreras arquitectónicas, 2019)."
           }
         }
+      },
+      "nomi": {
+        "en": "Querini Park",
+        "fr": "Parc Querini",
+        "de": "Querini-Park",
+        "es": "Parque Querini"
       }
     },
     {
@@ -1238,6 +1262,12 @@
             "es": "Senderos con algunas irregularidades en el pavimento (estudio del Ayuntamiento, Plan de eliminación de barreras arquitectónicas, 2019)."
           }
         }
+      },
+      "nomi": {
+        "en": "Salvi Gardens",
+        "fr": "Jardins Salvi",
+        "de": "Salvi-Gärten",
+        "es": "Jardines Salvi"
       }
     },
     {
@@ -1445,6 +1475,12 @@
             "es": "Hay una guía en Comunicación Aumentativa y Alternativa (CAA)."
           }
         }
+      },
+      "nomi": {
+        "en": "Museum of Natural History and Archaeology of Santa Corona",
+        "fr": "Musée naturaliste et archéologique de Santa Corona",
+        "de": "Naturkundliches und Archäologisches Museum Santa Corona",
+        "es": "Museo Naturalístico y Arqueológico de Santa Corona"
       }
     },
     {
@@ -1574,6 +1610,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Diocesan Museum",
+        "fr": "Musée diocésain",
+        "de": "Diözesanmuseum",
+        "es": "Museo Diocesano"
       }
     },
     {
@@ -1620,7 +1662,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Museo_del_Gioiello_(5).jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Jewellery Museum",
+        "fr": "Musée du bijou",
+        "de": "Schmuckmuseum",
+        "es": "Museo de la Joya"
+      }
     },
     {
       "id": "museo-del-risorgimento-e-della-resistenza-villa-guiccioli",
@@ -1689,6 +1737,12 @@
             "es": "Aseos parcialmente adaptados."
           }
         }
+      },
+      "nomi": {
+        "en": "Museum of the Risorgimento and the Resistance – Villa Guiccioli",
+        "fr": "Musée du Risorgimento et de la Résistance – Villa Guiccioli",
+        "de": "Museum des Risorgimento und der Resistenza – Villa Guiccioli",
+        "es": "Museo del Risorgimento y de la Resistencia – Villa Guiccioli"
       }
     },
     {
@@ -1897,7 +1951,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza_Carmini_Fianco-4.jpg"
         }
       ],
-      "personaggio": "alessandro-maganza"
+      "personaggio": "alessandro-maganza",
+      "nomi": {
+        "en": "Church of S. Croce in S. Giacomo Maggiore dei Carmini",
+        "fr": "Église de S. Croce in S. Giacomo Maggiore dei Carmini",
+        "de": "Kirche S. Croce in S. Giacomo Maggiore dei Carmini",
+        "es": "Iglesia de S. Croce in S. Giacomo Maggiore dei Carmini"
+      }
     },
     {
       "id": "palazzo-valmarana-braga",
@@ -2076,7 +2136,13 @@
         }
       ],
       "personaggio": "francesco-maffei",
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Oratory of San Nicola da Tolentino",
+        "fr": "Oratoire de San Nicola da Tolentino",
+        "de": "Oratorium San Nicola da Tolentino",
+        "es": "Oratorio de San Nicola da Tolentino"
+      }
     },
     {
       "id": "chiesa-di-santo-stefano",
@@ -2119,7 +2185,13 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Santo_Stefano,_Vicenza,_Italy_-_panoramio_(8).jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santo Stefano",
+        "fr": "Église de Santo Stefano",
+        "de": "Kirche Santo Stefano",
+        "es": "Iglesia de Santo Stefano"
+      }
     },
     {
       "id": "palazzo-cordellina",
@@ -2295,7 +2367,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:VicenzaSMariaAraceliFacciataStatue.jpg"
         }
       ],
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Church of Santa Maria in Araceli",
+        "fr": "Église de Santa Maria in Araceli",
+        "de": "Kirche Santa Maria in Araceli",
+        "es": "Iglesia de Santa Maria in Araceli"
+      }
     },
     {
       "id": "abbazia-di-sant-agostino",
@@ -2344,7 +2422,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:S.Agostino_-6.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Abbey of Sant'Agostino",
+        "fr": "Abbaye de Sant'Agostino",
+        "de": "Abtei Sant'Agostino",
+        "es": "Abadía de Sant'Agostino"
+      }
     },
     {
       "id": "porta-santa-lucia",
@@ -2388,7 +2472,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:S.Lucia_leone-1.jpg"
         }
       ],
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Gate of Santa Lucia",
+        "fr": "Porte de Santa Lucia",
+        "de": "Tor Santa Lucia",
+        "es": "Puerta de Santa Lucia"
+      }
     },
     {
       "id": "porta-santa-croce",
@@ -2436,7 +2526,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Torrione_lungo_le_mura_scaligere_vicino_a_Porta_Santa_Croce.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Gate of Santa Croce",
+        "fr": "Porte de Santa Croce",
+        "de": "Tor Santa Croce",
+        "es": "Puerta de Santa Croce"
+      }
     },
     {
       "id": "ponte-san-michele",
@@ -2484,7 +2580,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Ponte_San_Michele_(Vicenza)_03.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Bridge of San Michele",
+        "fr": "Pont de San Michele",
+        "de": "Brücke San Michele",
+        "es": "Puente de San Michele"
+      }
     },
     {
       "id": "ponte-furo",
@@ -2527,7 +2629,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:Vicenza,_Ponte_Furo.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Furo Bridge",
+        "fr": "Pont Furo",
+        "de": "Furo-Brücke",
+        "es": "Puente Furo"
+      }
     },
     {
       "id": "ponte-pusterla",
@@ -2567,7 +2675,13 @@
           "autore": "trolvag",
           "licenza": "CC BY-SA 3.0"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Pusterla Bridge",
+        "fr": "Pont Pusterla",
+        "de": "Pusterla-Brücke",
+        "es": "Puente Pusterla"
+      }
     },
     {
       "id": "ca-doro-palazzo-da-schio",
@@ -2781,7 +2895,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Tormento-5.jpg"
         }
       ],
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Tower of Torment",
+        "fr": "Tour du Tourment",
+        "de": "Turm der Qual",
+        "es": "Torre del Tormento"
+      }
     },
     {
       "id": "torre-dei-coxina",
@@ -2971,7 +3091,13 @@
         "autore": "Claudio Gioseffi",
         "licenza": "CC BY-SA 3.0"
       },
-      "curiosita": true
+      "curiosita": true,
+      "nomi": {
+        "en": "Gate of San Bortolo",
+        "fr": "Porte de San Bortolo",
+        "de": "Tor San Bortolo",
+        "es": "Puerta de San Bortolo"
+      }
     },
     {
       "id": "casa-cogollo",
@@ -3378,7 +3504,13 @@
           "licenza": "CC BY-SA 3.0",
           "fonte": "https://commons.wikimedia.org/wiki/File:S_Maria_Nuova_(Vicenza)_20081204-1_retouched.jpg"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria Nova",
+        "fr": "Église de Santa Maria Nova",
+        "de": "Kirche Santa Maria Nova",
+        "es": "Iglesia de Santa Maria Nova"
+      }
     },
     {
       "id": "villa-trissino-cricoli",
@@ -3657,7 +3789,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/w/index.php?curid=38971158"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria della Misericordia",
+        "fr": "Église de Santa Maria della Misericordia",
+        "de": "Kirche Santa Maria della Misericordia",
+        "es": "Iglesia de Santa Maria della Misericordia"
+      }
     },
     {
       "id": "piazza-san-lorenzo",
@@ -3886,6 +4024,12 @@
       ],
       "biglietto": {
         "gratuito": true
+      },
+      "nomi": {
+        "en": "Church of San Pietro",
+        "fr": "Église de San Pietro",
+        "de": "Kirche San Pietro",
+        "es": "Iglesia de San Pietro"
       }
     },
     {
@@ -3922,7 +4066,13 @@
           "autore": "Foto propria"
         }
       ],
-      "biglietto": {}
+      "biglietto": {},
+      "nomi": {
+        "en": "Church of San Domenico",
+        "fr": "Église de San Domenico",
+        "de": "Kirche San Domenico",
+        "es": "Iglesia de San Domenico"
+      }
     },
     {
       "id": "chiesa-di-san-rocco",
@@ -3986,7 +4136,13 @@
             "es": "En 1806, tras la supresión napoleónica, el convento de San Rocco se destinó a acoger al Istituto degli Esposti, que recibía recién nacidos abandonados.\n\nEn la pared de la iglesia se encontraba la rueda: por una pequeña puerta se dejaban los niños. En los registros del instituto también se documentan los objetos que los acompañaban, llamados «segnali», que servían para permitir un eventual reconocimiento."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Rocco",
+        "fr": "Église de San Rocco",
+        "de": "Kirche San Rocco",
+        "es": "Iglesia de San Rocco"
+      }
     }
   ]
 }

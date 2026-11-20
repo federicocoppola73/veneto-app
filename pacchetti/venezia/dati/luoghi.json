@@ -133,6 +133,12 @@
             "es": "Para llegar al Museo, situado en la planta superior de la Basílica, hay un ascensor y un salvaescaleras."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of San Marco",
+        "fr": "Basilique de San Marco",
+        "de": "Basilika San Marco",
+        "es": "Basílica de San Marco"
       }
     },
     {
@@ -624,7 +630,13 @@
           }
         }
       },
-      "personaggio": "andrea-palladio"
+      "personaggio": "andrea-palladio",
+      "nomi": {
+        "en": "Church of the Redentore",
+        "fr": "Église du Redentore",
+        "de": "Kirche Il Redentore",
+        "es": "Iglesia del Redentore"
+      }
     },
     {
       "id": "madonna-orto",
@@ -731,6 +743,12 @@
             "es": "La iglesia es totalmente accesible, también en silla de ruedas."
           }
         }
+      },
+      "nomi": {
+        "en": "Madonna dell'Orto",
+        "fr": "Église de la Madonna dell'Orto",
+        "de": "Madonna dell’Orto",
+        "es": "Iglesia de la Madonna dell'Orto"
       }
     },
     {
@@ -832,6 +850,12 @@
             "es": "Mediante código QR y NFC se pueden consultar contenidos audiovisuales, entre ellos vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Zaccaria",
+        "fr": "Église de San Zaccaria",
+        "de": "Kirche San Zaccaria",
+        "es": "Iglesia de San Zaccaria"
       }
     },
     {
@@ -977,7 +1001,13 @@
           }
         }
       },
-      "personaggio": "paolo-veronese"
+      "personaggio": "paolo-veronese",
+      "nomi": {
+        "en": "Church of San Sebastiano",
+        "fr": "Église de San Sebastiano",
+        "de": "Kirche San Sebastiano",
+        "es": "Iglesia de San Sebastiano"
+      }
     },
     {
       "id": "gesuiti",
@@ -1197,6 +1227,12 @@
             "es": "Las entradas sobre el Gran Canal no son accesibles por la presencia de cuatro escalones. En la fachada trasera hay dos entradas: una con un escalón de 8 cm y otra al mismo nivel de la calle."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Marcuola",
+        "fr": "Église de San Marcuola",
+        "de": "Kirche San Marcuola",
+        "es": "Iglesia de San Marcuola"
       }
     },
     {
@@ -1270,6 +1306,12 @@
             "es": "La entrada tiene cuatro escalones (de 12 a 15 cm), sin rampa. En el interior, la iglesia es totalmente accesible."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of San Pietro di Castello",
+        "fr": "Basilique de San Pietro di Castello",
+        "de": "Basilika San Pietro di Castello",
+        "es": "Basílica de San Pietro di Castello"
       }
     },
     {
@@ -1352,7 +1394,13 @@
           }
         }
       },
-      "personaggio": "cassiodoro"
+      "personaggio": "cassiodoro",
+      "nomi": {
+        "en": "Basilica of Santa Maria Assunta (Torcello)",
+        "fr": "Basilique de Santa Maria Assunta (Torcello)",
+        "de": "Basilika Santa Maria Assunta (Torcello)",
+        "es": "Basílica de Santa Maria Assunta (Torcello)"
+      }
     },
     {
       "id": "san-francesco-vigna",
@@ -1456,6 +1504,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel multisensorial se accede a contenidos audiovisuales en italiano e inglés, con vídeos en Lengua de Signos Italiana (LIS) e International Sign (IS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Francesco della Vigna",
+        "fr": "Église de San Francesco della Vigna",
+        "de": "Kirche San Francesco della Vigna",
+        "es": "Iglesia de San Francesco della Vigna"
       }
     },
     {
@@ -1568,7 +1622,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "giambattista-tiepolo"
+      "personaggio": "giambattista-tiepolo",
+      "nomi": {
+        "en": "Church of Sant'Alvise",
+        "fr": "Église de Sant'Alvise",
+        "de": "Kirche Sant'Alvise",
+        "es": "Iglesia de Sant'Alvise"
+      }
     },
     {
       "id": "san-giobbe",
@@ -1674,6 +1734,12 @@
             "es": "La entrada presenta un desnivel: hay un escalón de 9 cm de subida y 23 cm de bajada. No constan rampas ni otras ayudas para salvarlo, por lo que el acceso autónomo en silla de ruedas no está garantizado."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Giobbe",
+        "fr": "Église de San Giobbe",
+        "de": "Kirche San Giobbe",
+        "es": "Iglesia de San Giobbe"
       }
     },
     {
@@ -1764,6 +1830,12 @@
             "es": "La entrada de la iglesia en el Campo Santa Maria Formosa no tiene escalones: los dos escalones que había originalmente ante el portal quedaron nivelados al elevarse el pavimento del campo."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Santa Maria Formosa",
+        "fr": "Église de Santa Maria Formosa",
+        "de": "Kirche Santa Maria Formosa",
+        "es": "Iglesia de Santa Maria Formosa"
       }
     },
     {
@@ -1911,7 +1983,13 @@
             "es": "El campanario de la iglesia de San Giorgio dei Greci está inclinado desde su construcción, realizada entre 1587 y 1592. La inclinación ya preocupaba en el siglo XVIII, hasta el punto de que se levantaron estructuras de sostén en su base. Hoy su silueta inclinada es uno de los elementos más característicos de esta zona de Castello."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Giorgio dei Greci",
+        "fr": "Église de San Giorgio dei Greci",
+        "de": "Kirche San Giorgio dei Greci",
+        "es": "Iglesia de San Giorgio dei Greci"
+      }
     },
     {
       "id": "santo-stefano",
@@ -1997,6 +2075,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Santo Stefano",
+        "fr": "Église de Santo Stefano",
+        "de": "Kirche Santo Stefano",
+        "es": "Iglesia de Santo Stefano"
       }
     },
     {
@@ -2076,6 +2160,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of Santa Maria del Giglio",
+        "fr": "Église de Santa Maria del Giglio",
+        "de": "Kirche Santa Maria del Giglio",
+        "es": "Iglesia de Santa Maria del Giglio"
       }
     },
     {
@@ -2125,6 +2215,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Pantalon",
+        "fr": "Église de San Pantalon",
+        "de": "Kirche San Pantalon",
+        "es": "Iglesia de San Pantalon"
       }
     },
     {
@@ -2314,7 +2410,13 @@
       },
       "chiuso": [
         "lun"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Maria della Visitazione (degli Artigianelli)",
+        "fr": "Église de Santa Maria della Visitazione (degli Artigianelli)",
+        "de": "Kirche Santa Maria della Visitazione (degli Artigianelli)",
+        "es": "Iglesia de Santa Maria della Visitazione (degli Artigianelli)"
+      }
     },
     {
       "id": "san-giacomo-orio",
@@ -2390,7 +2492,13 @@
             "de": "Die Kirche besitzt eine außergewöhnliche Holzdecke in Form eines Schiffsrumpfes: Ihre Gestalt erinnert an das Innere eines umgedrehten Bootes. Es handelt sich nicht nur um eine dekorative Entscheidung, sondern um eine Holzbauweise mit Balken und Kassetten, eine für einige alte Venezianer Kirchen typische Architekturlösung."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Giacomo dell'Orio",
+        "fr": "Église de San Giacomo dell'Orio",
+        "de": "Kirche San Giacomo dell'Orio",
+        "es": "Iglesia de San Giacomo dell'Orio"
+      }
     },
     {
       "id": "san-giacometto",
@@ -2475,6 +2583,12 @@
             "es": "Tanto la entrada principal como la lateral tienen cinco escalones. La iglesia alberga también el Museo de la Música: información en el tel. 348 2815492."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Giacomo di Rialto",
+        "fr": "Église de San Giacomo di Rialto",
+        "de": "Kirche San Giacomo di Rialto",
+        "es": "Iglesia de San Giacomo di Rialto"
       }
     },
     {
@@ -2550,6 +2664,12 @@
             "es": "La iglesia tiene dos entradas, ambas con escalones. La entrada principal, en el Campo San Salvador, tiene nueve escalones: el primero de unos 15 cm y los otros ocho de unos 8 cm cada uno. La entrada secundaria, desde la Calle delle Mercerie, tiene once escalones de unos 12 cm, con pasamanos a ambos lados. No constan entradas sin escalones ni ayudas para salvar las escaleras, por lo que el acceso autónomo en silla de ruedas no está garantizado."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Salvador",
+        "fr": "Église de San Salvador",
+        "de": "Kirche San Salvador",
+        "es": "Iglesia de San Salvador"
       }
     },
     {
@@ -2661,6 +2781,12 @@
             "es": "La entrada de la iglesia tiene cinco escalones: el primero mide unos 9 cm y los cuatro siguientes unos 13 cm cada uno."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Giovanni Elemosinario",
+        "fr": "Église de San Giovanni Elemosinario",
+        "de": "Kirche San Giovanni Elemosinario",
+        "es": "Iglesia de San Giovanni Elemosinario"
       }
     },
     {
@@ -2723,7 +2849,13 @@
             "es": "En 1816 y 1817 el poeta inglés Lord Byron frecuentó el monasterio de San Lazzaro para estudiar la lengua armenia con los monjes mequitaristas. Su interés por esta lengua lo llevó también a colaborar en la preparación de materiales lingüísticos y traducciones.\nEl monasterio se había convertido en un importante centro de cultura armenia, con una rica biblioteca y una imprenta. La estancia de Byron contribuyó a dar a conocer aún más la isla en los ambientes culturales europeos.\nOtro detalle sorprendente de las colecciones es la presencia de una momia egipcia, conservada en el museo del monasterio."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "San Lazzaro degli Armeni",
+        "fr": "San Lazzaro degli Armeni",
+        "de": "San Lazzaro degli Armeni",
+        "es": "San Lázaro de los armenios"
+      }
     },
     {
       "id": "san-stae",
@@ -2801,7 +2933,13 @@
             "es": "Junto a la iglesia de San Stae se encuentra la Scoletta del Arte de los Tiraoro y Battioro, sede de una corporación especializada en el trabajo del oro. Los battioro reducían el oro a láminas finísimas, mientras que los tiraoro lo convertían en hilos preciosos. La corporación contaba con apenas 48 miembros y, al no ser especialmente rica, sus propios afiliados debían a menudo autoimponerse cuotas para sostener los gastos. Tenía incluso un espacio sagrado propio dentro de San Stae, donde celebraba las fechas señaladas de la corporación y recordaba a los cofrades fallecidos."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Stae",
+        "fr": "Église de San Stae",
+        "de": "Kirche San Stae",
+        "es": "Iglesia de San Stae"
+      }
     },
     {
       "id": "tolentini",
@@ -2869,6 +3007,12 @@
             "es": "La entrada de la iglesia tiene una escalinata de siete escalones, por lo que el Ayuntamiento de Venecia indica el edificio como no accesible."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of the Tolentini",
+        "fr": "Église des Tolentini",
+        "de": "Kirche I Tolentini",
+        "es": "Iglesia de los Tolentini"
       }
     },
     {
@@ -2923,6 +3067,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of Sant'Eufemia",
+        "fr": "Église de Sant'Eufemia",
+        "de": "Kirche Sant'Eufemia",
+        "es": "Iglesia de Sant'Eufemia"
       }
     },
     {
@@ -2995,6 +3145,12 @@
             "es": "La Basílica es accesible por una entrada secundaria sin obstáculos, y una rampa permite visitar las tres naves también en silla de ruedas. Por eso se aconseja a las personas con movilidad reducida usar la entrada secundaria en lugar de la principal."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of Santi Maria e Donato",
+        "fr": "Basilique des Santi Maria e Donato",
+        "de": "Basilika Santi Maria e Donato",
+        "es": "Basílica de Santi Maria e Donato"
       }
     },
     {
@@ -3062,6 +3218,12 @@
             "es": "La entrada principal de la iglesia tiene un escalón de unos 8 cm, que se salva con una pequeña rampa."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Martino",
+        "fr": "Église de San Martino",
+        "de": "Kirche San Martino",
+        "es": "Iglesia de San Martino"
       }
     },
     {
@@ -3116,6 +3278,12 @@
         "de": "Santa Caterina (Venedig)",
         "en": "Santa Caterina, Venice",
         "fr": "Église Sainte-Catherine de Venise"
+      },
+      "nomi": {
+        "en": "Church of Santa Caterina",
+        "fr": "Église de Santa Caterina",
+        "de": "Kirche Santa Caterina",
+        "es": "Iglesia de Santa Caterina"
       }
     },
     {
@@ -3168,6 +3336,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of Santa Fosca",
+        "fr": "Église de Santa Fosca",
+        "de": "Kirche Santa Fosca",
+        "es": "Iglesia de Santa Fosca"
       }
     },
     {
@@ -3226,7 +3400,13 @@
             "es": "Bajo la iglesia de San Simeón Piccolo, justo frente a la estación de ferrocarril, se encuentra una amplia cripta funeraria subterránea.\nLa estructura consta de una sala central octogonal de la que parten cuatro corredores. A lo largo de estos pasillos hay 21 cámaras funerarias, ocho de las cuales están tapiadas y sin explorar. Las paredes y bóvedas aún conservan frescos con escenas religiosas, imágenes de la muerte y representaciones del Juicio.\nEs un lugar sorprendente, casi desconocido para quien pasa frente a la iglesia sin imaginar lo que se oculta bajo sus suelos."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Simeone Piccolo",
+        "fr": "Église de San Simeone Piccolo",
+        "de": "Kirche San Simeone Piccolo",
+        "es": "Iglesia de San Simeone Piccolo"
+      }
     },
     {
       "id": "san-simeone-grande",
@@ -3265,6 +3445,12 @@
         "de": "San Simeone Profeta",
         "en": "San Simeone Profeta",
         "fr": "Église San Simeone Profeta"
+      },
+      "nomi": {
+        "en": "Church of San Simeone Grande",
+        "fr": "Église de San Simeone Grande",
+        "de": "Kirche San Simeone Grande",
+        "es": "Iglesia de San Simeone Grande"
       }
     },
     {
@@ -3322,7 +3508,13 @@
             "es": "San Zan Degolà, nombre veneciano de San Juan Decapitado, conserva uno de los ejemplos más interesantes de arquitectura véneto-bizantina de la ciudad.\nDurante las restauraciones volvieron a aparecer frescos medievales que habían permanecido ocultos bajo capas de transformaciones posteriores. Entre las imágenes reconocibles figuran santa Elena con la Cruz y las cabezas de algunos santos. Las pinturas son especialmente importantes porque atestiguan una fase muy antigua de la decoración religiosa veneciana.\nLa iglesia conserva además columnas de mármol griego y capiteles bizantinos que ayudan a mantener el ambiente de un edificio medieval."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Zan Degolà",
+        "fr": "Église de San Zan Degolà",
+        "de": "Kirche San Zan Degolà",
+        "es": "Iglesia de San Zan Degolà"
+      }
     },
     {
       "id": "oratorio-crociferi",
@@ -3496,7 +3688,13 @@
           }
         }
       },
-      "personaggio": "ludovico-manin"
+      "personaggio": "ludovico-manin",
+      "nomi": {
+        "en": "Church of the Scalzi",
+        "fr": "Église des Scalzi",
+        "de": "Kirche degli Scalzi",
+        "es": "Iglesia de los Scalzi"
+      }
     },
     {
       "id": "san-geremia",
@@ -3657,6 +3855,12 @@
             "es": "La iglesia es accesible por una puerta lateral: por eso se aconseja usar la entrada lateral en lugar de la principal."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Pietro Martire",
+        "fr": "Église de San Pietro Martire",
+        "de": "Kirche San Pietro Martire",
+        "es": "Iglesia de San Pietro Martire"
       }
     },
     {
@@ -3796,6 +4000,12 @@
             "es": "Los aseos accesibles están en la planta baja."
           }
         }
+      },
+      "nomi": {
+        "en": "Doge's Palace",
+        "fr": "Palais des Doges",
+        "de": "Dogenpalast",
+        "es": "Palacio Ducal de Venecia"
       }
     },
     {
@@ -4003,7 +4213,13 @@
           }
         }
       },
-      "personaggio": "canaletto"
+      "personaggio": "canaletto",
+      "nomi": {
+        "en": "Ca' Rezzonico",
+        "fr": "Ca' Rezzonico",
+        "de": "Ca’ Rezzonico",
+        "es": "Ca' Rezzonico"
+      }
     },
     {
       "id": "san-rocco",
@@ -4113,6 +4329,12 @@
             "es": "En la entrada hay cuatro escalones. Para la visita se recomienda contactar con antelación con el personal en el 041 5234864. La entrada es gratuita para la persona con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Scuola Grande di San Rocco",
+        "fr": "Scuola Grande de San Rocco",
+        "de": "Scuola Grande di San Rocco",
+        "es": "Escuela Grande de San Roque"
       }
     },
     {
@@ -4204,6 +4426,12 @@
             "es": "Con los códigos QR y las etiquetas NFC del panel se accede a videoguías en italiano e inglés; la versión italiana también está en Lengua de Signos Italiana (LIS)."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Rocco",
+        "fr": "Église de San Rocco",
+        "de": "Kirche San Rocco",
+        "es": "Iglesia de San Rocco"
       }
     },
     {
@@ -4404,6 +4632,12 @@
             "es": "A lo largo del recorrido hay aseos adaptados para personas con movilidad reducida."
           }
         }
+      },
+      "nomi": {
+        "en": "Venice National Archaeological Museum",
+        "fr": "Musée archéologique national de Venise",
+        "de": "Archäologisches Nationalmuseum Venedig",
+        "es": "Museo Arqueológico Nacional de Venecia"
       }
     },
     {
@@ -4484,7 +4718,13 @@
           }
         }
       },
-      "personaggio": "peggy-guggenheim"
+      "personaggio": "peggy-guggenheim",
+      "nomi": {
+        "en": "Peggy Guggenheim Collection",
+        "fr": "Collection Peggy-Guggenheim",
+        "de": "Peggy Guggenheim Collection",
+        "es": "Museo Guggenheim de Venecia"
+      }
     },
     {
       "id": "ca-pesaro",
@@ -4601,6 +4841,12 @@
             "es": "Hay aseos a disposición de los visitantes."
           }
         }
+      },
+      "nomi": {
+        "en": "Ca' Pesaro",
+        "fr": "Ca' Pesaro",
+        "de": "Ca’ Pesaro",
+        "es": "Ca' Pesaro"
       }
     },
     {
@@ -4876,6 +5122,12 @@
             "es": "Hay aseos a disposición de los visitantes."
           }
         }
+      },
+      "nomi": {
+        "en": "Museum of Arte Orientale",
+        "fr": "Musée de Arte Orientale",
+        "de": "Museum Arte Orientale",
+        "es": "Museo de Arte Orientale"
       }
     },
     {
@@ -5245,6 +5497,12 @@
             "es": "Hay un ascensor a disposición de los visitantes."
           }
         }
+      },
+      "nomi": {
+        "en": "Museum of Storia Naturale",
+        "fr": "Musée de Storia Naturale",
+        "de": "Museum Storia Naturale",
+        "es": "Museo de Storia Naturale"
       }
     },
     {
@@ -5519,6 +5777,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Scuola di San Giorgio degli Schiavoni",
+        "fr": "Scuola di San Giorgio degli Schiavoni",
+        "de": "Scuola di San Giorgio degli Schiavoni",
+        "es": "Iglesia de San Giorgio degli Schiavoni"
       }
     },
     {
@@ -6106,6 +6370,12 @@
             "es": "Hay un ascensor que lleva a los visitantes a la primera planta."
           }
         }
+      },
+      "nomi": {
+        "en": "House of Carlo Goldoni",
+        "fr": "Maison de Carlo Goldoni",
+        "de": "Biblioteca di Studi Teatrali di Casa Goldoni",
+        "es": "Casa di Carlo Goldoni"
       }
     },
     {
@@ -6241,6 +6511,12 @@
         "fr": "Le musée officiel consacré à Giacomo Casanova occupe les cinq étages du Palazzo Zaguri, gothique : 36 salles avec documents, lettres, vêtements et objets originaux racontent le voyageur, écrivain et aventurier vénitien. Parmi les expériences immersives, son évasion des Plombs du palais des Doges en réalité virtuelle.",
         "de": "Das offizielle Museum über Giacomo Casanova belegt die fünf Etagen des gotischen Palazzo Zaguri: 36 Räume mit originalen Dokumenten, Briefen, Kleidern und Gegenständen erzählen vom venezianischen Reisenden, Schriftsteller und Abenteurer. Zu den immersiven Erlebnissen gehört seine Flucht aus den Bleikammern des Dogenpalasts in virtueller Realität.",
         "es": "El museo oficial dedicado a Giacomo Casanova ocupa las cinco plantas del gótico Palazzo Zaguri: 36 salas con documentos, cartas, ropa y objetos originales cuentan la vida del viajero, escritor y aventurero veneciano. Entre las experiencias inmersivas, su fuga de los Plomos del Palacio Ducal en realidad virtual."
+      },
+      "nomi": {
+        "en": "Museum of Giacomo Casanova",
+        "fr": "Musée de Giacomo Casanova",
+        "de": "Museum Giacomo Casanova",
+        "es": "Museo de Giacomo Casanova"
       }
     },
     {
@@ -6354,7 +6630,13 @@
           }
         }
       },
-      "personaggio": "cassiodoro"
+      "personaggio": "cassiodoro",
+      "nomi": {
+        "en": "Museum of Torcello",
+        "fr": "Musée de Torcello",
+        "de": "Museum Torcello",
+        "es": "Museo de Torcello"
+      }
     },
     {
       "id": "ca-doro",
@@ -6451,6 +6733,12 @@
             "es": "Los aseos, entre la primera y la segunda planta, son accesibles para personas en silla de ruedas."
           }
         }
+      },
+      "nomi": {
+        "en": "Ca' d'Oro",
+        "fr": "Ca' d'Oro",
+        "de": "Ca’ d’Oro",
+        "es": "Ca' d'Oro"
       }
     },
     {
@@ -6549,6 +6837,12 @@
             "es": "La escalera está abierta a las visitas, pero no hay ascensor."
           }
         }
+      },
+      "nomi": {
+        "en": "Palazzo Contarini del Bovolo",
+        "fr": "Palais Contarini del Bovolo",
+        "de": "Palazzo Contarini del Bovolo",
+        "es": "Palacio Contarini del Bovolo"
       }
     },
     {
@@ -6595,6 +6889,12 @@
         "fr": "Élégant palais Renaissance de Mauro Codussi donnant sur le Grand Canal, où Richard Wagner mourut en 1883. Il abrite aujourd'hui le Casino de Venise, le plus ancien du monde, et un petit musée consacré à Wagner.",
         "de": "Eleganter Renaissancepalast von Mauro Codussi am Canal Grande, in dem Richard Wagner 1883 starb. Heute befinden sich hier das Casinò di Venezia, das älteste Spielcasino der Welt, und ein kleines Wagner-Museum.",
         "es": "Elegante palacio renacentista de Mauro Codussi asomado al Gran Canal, donde murió Richard Wagner en 1883. Hoy alberga el Casino de Venecia, el más antiguo del mundo, y un pequeño museo dedicado a Wagner."
+      },
+      "nomi": {
+        "en": "Ca' Vendramin Calergi",
+        "fr": "Ca' Vendramin Calergi",
+        "de": "Palazzo Vendramin-Calergi",
+        "es": "Ca' Vendramin Calergi"
       }
     },
     {
@@ -7299,6 +7599,12 @@
         "en": "Ca' da Mosto",
         "es": "Ca' da Mosto",
         "fr": "Ca' da Mosto"
+      },
+      "nomi": {
+        "en": "Ca' da Mosto",
+        "fr": "Ca' da Mosto",
+        "de": "Ca’ da Mosto",
+        "es": "Ca' da Mosto"
       }
     },
     {
@@ -7480,6 +7786,12 @@
         "en": "Fondaco dei Tedeschi",
         "es": "Fondaco dei Tedeschi",
         "fr": "Fontego dei Tedeschi"
+      },
+      "nomi": {
+        "en": "Fondaco dei Tedeschi",
+        "fr": "Fontego dei Tedeschi",
+        "de": "Fondaco dei Tedeschi",
+        "es": "Fondaco dei Tedeschi"
       }
     },
     {
@@ -7668,6 +7980,12 @@
         "en": "Ca' Farsetti",
         "es": "Palacio Dandolo Farsetti",
         "fr": "Ca' Farsetti"
+      },
+      "nomi": {
+        "en": "Ca' Farsetti",
+        "fr": "Ca' Farsetti",
+        "de": "Ca’ Farsetti",
+        "es": "Palacio Dandolo Farsetti"
       }
     },
     {
@@ -8095,7 +8413,13 @@
         "de": "Ab 1453 für den Dogen Francesco Foscari erbaut, ist sie ein Meisterwerk der venezianischen Gotik, am eindrucksvollsten Punkt des Kanals, der „volta de canal“. Seit 1868 ist sie Sitz der Universität Ca' Foscari. Vor dem Palast endet am ersten Septembersonntag die Regata Storica: Auf der „machina“, einer schwimmenden Tribüne, werden die Sieger geehrt.",
         "es": "Construida desde 1453 para el dux Francesco Foscari, es una de las obras maestras del gótico veneciano, en el punto más escenográfico del canal, la «volta de canal». Desde 1868 es la sede de la Universidad Ca' Foscari. Delante del palacio, el primer domingo de septiembre, termina la Regata Histórica: en la «machina», un escenario flotante, se premia a los ganadores."
       },
-      "personaggio": "francesco-foscari"
+      "personaggio": "francesco-foscari",
+      "nomi": {
+        "en": "Ca' Foscari",
+        "fr": "Ca' Foscari",
+        "de": "Ca’ Foscari",
+        "es": "Ca' Foscari"
+      }
     },
     {
       "id": "palazzo-giustinian",
@@ -8382,6 +8706,12 @@
         "en": "Palazzo Corner della Ca' Grande",
         "es": "Palacio Corner della Ca' Granda",
         "fr": "Ca' Corner"
+      },
+      "nomi": {
+        "en": "Palazzo Corner della Ca' Grande",
+        "fr": "Ca' Corner",
+        "de": "Palazzo Corner della Ca’ Granda",
+        "es": "Palacio Corner della Ca' Granda"
       }
     },
     {
@@ -8475,6 +8805,12 @@
         "en": "Palazzo Dario",
         "es": "Ca' Dario",
         "fr": "Palais Dario"
+      },
+      "nomi": {
+        "en": "Palazzo Dario",
+        "fr": "Palais Dario",
+        "de": "Palazzo Dario",
+        "es": "Ca' Dario"
       }
     },
     {
@@ -9016,6 +9352,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Rialto Bridge",
+        "fr": "Pont du Rialto",
+        "de": "Rialtobrücke",
+        "es": "Puente de Rialto"
       }
     },
     {
@@ -9130,6 +9472,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Ponte della Libertà",
+        "fr": "Pont de la Liberté",
+        "de": "Ponte della Libertà",
+        "es": "Puente de la Libertad"
       }
     },
     {
@@ -9179,6 +9527,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Tre Ponti Bridge",
+        "fr": "Pont des Tre Ponti",
+        "de": "Brücke Tre Ponti",
+        "es": "Puente de los Tre Ponti"
       }
     },
     {
@@ -9305,7 +9659,13 @@
       "personaggio": [
         "jacopo-sansovino",
         "canaletto"
-      ]
+      ],
+      "nomi": {
+        "en": "Square of San Marco",
+        "fr": "Place de San Marco",
+        "de": "Platz San Marco",
+        "es": "Plaza de San Marco"
+      }
     },
     {
       "id": "campo-san-polo",
@@ -9736,7 +10096,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "veronica-franco"
+      "personaggio": "veronica-franco",
+      "nomi": {
+        "en": "Santa Maria Formosa",
+        "fr": "Église Santa Maria Formosa",
+        "de": "Santa Maria Formosa",
+        "es": "Iglesia de Santa Maria Formosa"
+      }
     },
     {
       "id": "giardini-biennale",
@@ -9797,6 +10163,12 @@
         "fr": "Les jardins voulus par Napoléon à l'extrémité de Castello accueillent la Biennale de Venise depuis 1895 : parmi les arbres se dressent le Pavillon central et 29 pavillons nationaux, dont certains signés par de grands architectes comme Carlo Scarpa, Alvar Aalto et Sverre Fehn.",
         "de": "Die von Napoleon angelegten Gärten am Ende von Castello beherbergen seit 1895 die Biennale von Venedig: Zwischen den Bäumen stehen der Zentralpavillon und 29 Länderpavillons, einige von großen Architekten wie Carlo Scarpa, Alvar Aalto und Sverre Fehn.",
         "es": "Los jardines creados por Napoleón en el extremo de Castello acogen desde 1895 la Bienal de Venecia: entre los árboles se alzan el Pabellón Central y 29 pabellones nacionales, algunos obra de grandes arquitectos como Carlo Scarpa, Alvar Aalto y Sverre Fehn."
+      },
+      "nomi": {
+        "en": "Biennale Gardens",
+        "fr": "Jardins de la Biennale",
+        "de": "Biennale-Gärten",
+        "es": "Jardines de la Bienal"
       }
     },
     {
@@ -9851,6 +10223,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Papadopoli Garden",
+        "fr": "Jardin Papadopoli",
+        "de": "Papadopoli-Garten",
+        "es": "Jardín Papadopoli"
       }
     },
     {
@@ -10006,6 +10384,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Savorgnan Park",
+        "fr": "Parc Savorgnan",
+        "de": "Savorgnan-Park",
+        "es": "Parque Savorgnan"
       }
     },
     {
@@ -10047,6 +10431,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Rimembranze Park",
+        "fr": "Parc Rimembranze",
+        "de": "Rimembranze-Park",
+        "es": "Parque Rimembranze"
       }
     },
     {
@@ -10075,6 +10465,12 @@
         "fr": "Le jardin secret des frères carmes déchaux, derrière leur église près de la gare. Depuis le XVIIIe siècle, les frères y cultivent les herbes de l'Acqua di Melissa, leur ancien remède. Restauré en 2015, il compte une petite vigne de cépages anciens, des potagers, des vergers et sept parterres qui évoquent les sept demeures du Château intérieur de sainte Thérèse d'Avila.",
         "de": "Der geheime Garten der Unbeschuhten Karmeliten hinter ihrer Kirche neben dem Bahnhof. Seit dem 18. Jahrhundert bauen die Brüder hier die Kräuter für ihr altes Heilmittel Acqua di Melissa an. 2015 restauriert, hat er einen kleinen Weinberg mit alten Rebsorten, Gemüsebeete, Obstgärten und sieben Beete, die an die sieben Wohnungen der Inneren Burg der hl. Teresa von Ávila erinnern.",
         "es": "El huerto secreto de los frailes carmelitas descalzos, detrás de su iglesia junto a la estación. Desde el siglo XVIII los frailes cultivan aquí las hierbas del Acqua di Melissa, su antiguo remedio. Restaurado en 2015, tiene un pequeño viñedo de uvas antiguas, huertos, frutales y siete parterres que evocan las siete moradas del Castillo interior de santa Teresa de Ávila."
+      },
+      "nomi": {
+        "en": "Mystical Garden of the Discalced Carmelites",
+        "fr": "Jardin mystique des Carmes déchaux",
+        "de": "Mystischer Garten der Unbeschuhten Karmeliten",
+        "es": "Jardín Místico de los Carmelitas Descalzos"
       }
     },
     {
@@ -10188,6 +10584,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Marinaressa Gardens",
+        "fr": "Jardins de la Marinaressa",
+        "de": "Marinaressa-Gärten",
+        "es": "Jardines de la Marinaressa"
       }
     },
     {
@@ -10272,6 +10674,12 @@
         "fr": "La gare de Venezia Santa Lucia, bâtiment rationaliste donnant directement sur le Grand Canal. En sortant, on se trouve face au pont des Scalzi et à l'arrêt de vaporetto Ferrovia.",
         "de": "Der Bahnhof Venezia Santa Lucia, ein rationalistischer Bau direkt am Canal Grande. Beim Hinausgehen steht man vor der Scalzi-Brücke und der Vaporetto-Haltestelle Ferrovia.",
         "es": "La estación de tren de Venezia Santa Lucia, edificio racionalista que da directamente al Gran Canal. Al salir te encuentras frente al Puente de los Descalzos y la parada de vaporetto Ferrovia."
+      },
+      "nomi": {
+        "en": "Venezia Santa Lucia railway station",
+        "fr": "Gare de Venise-Santa-Lucia",
+        "de": "Bahnhof Venezia Santa Lucia",
+        "es": "Estación de Venecia Santa Lucia"
       }
     },
     {
@@ -10625,7 +11033,13 @@
         "es": "Molino Stucky",
         "fr": "Moulin Stucky"
       },
-      "personaggio": "giovanni-stucky"
+      "personaggio": "giovanni-stucky",
+      "nomi": {
+        "en": "Molino Stucky",
+        "fr": "Moulin Stucky",
+        "de": "Molino Stucky",
+        "es": "Molino Stucky"
+      }
     },
     {
       "id": "tre-oci",
@@ -11674,6 +12088,12 @@
         "autore": "Opera propria",
         "licenza": "Opera propria",
         "fonte": null
+      },
+      "nomi": {
+        "en": "Blue Gate",
+        "fr": "Porte Bleue",
+        "de": "Blaues Tor",
+        "es": "Puerta Azul"
       }
     },
     {
@@ -11800,7 +12220,13 @@
             "es": "En la Venecia de la República existía una comunidad popular con su propio jefe, conocido como Gastaldo Grande o «Dux de los Nicolotti». La comunidad de los Nicolotti reunía a los habitantes de la zona de San Nicolò dei Mendicoli y de la cercana parroquia de Sant'Angelo Raffaele, muchos de los cuales estaban ligados a la pesca y a las actividades de la laguna.\nEl Gastaldo Grande era elegido y representaba a la comunidad ante las autoridades venecianas. Lo acompañaba una «Banca», un grupo de colaboradores que con los siglos adquirió un papel cada vez más importante en la gestión de la comunidad.\nEl cargo tenía además un valor simbólico: tras la elección, el nuevo Gastaldo acudía al Palacio Ducal para rendir homenaje al dux de la República. Una pequeña comunidad de pescadores tenía así su propio «dux», aunque naturalmente seguía subordinada a las instituciones de la Serenísima."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Church of San Nicolò dei Mendicoli",
+        "fr": "Église de San Nicolò dei Mendicoli",
+        "de": "Kirche San Nicolò dei Mendicoli",
+        "es": "Iglesia de San Nicolò dei Mendicoli"
+      }
     },
     {
       "id": "complesso-san-lazzaro-mendicanti",
@@ -11921,6 +12347,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "San Francesco del Deserto",
+        "fr": "San Francesco del Deserto",
+        "de": "San Francesco del Deserto",
+        "es": "San Francisco del Desierto"
       }
     },
     {
@@ -12070,6 +12502,12 @@
         "autore": "Jonathan A Jones",
         "licenza": "CC BY 2.5",
         "fonte": "https://commons.wikimedia.org/w/index.php?curid=3032877"
+      },
+      "nomi": {
+        "en": "San Servolo",
+        "fr": "San Servolo",
+        "de": "San Servolo",
+        "es": "San Servolo"
       }
     },
     {
@@ -12289,7 +12727,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "antonio-vivaldi"
+      "personaggio": "antonio-vivaldi",
+      "nomi": {
+        "en": "Church of Santa Maria della Pietà",
+        "fr": "Église de Santa Maria della Pietà",
+        "de": "Kirche Santa Maria della Pietà",
+        "es": "Iglesia de Santa Maria della Pietà"
+      }
     },
     {
       "id": "chiesa-san-giovanni-in-bragora",
@@ -12345,7 +12789,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "antonio-vivaldi"
+      "personaggio": "antonio-vivaldi",
+      "nomi": {
+        "en": "Church of San Giovanni in Bragora",
+        "fr": "Église de San Giovanni in Bragora",
+        "de": "Kirche San Giovanni in Bragora",
+        "es": "Iglesia de San Giovanni in Bragora"
+      }
     },
     {
       "id": "teatro-malibran",
@@ -12447,6 +12897,12 @@
             "es": "Ocean Space es accesible para visitantes con discapacidad y el recorrido desde la parada de San Zaccaria no tiene barreras arquitectónicas. La entrada accesible está a la vuelta de la esquina, junto al claustro (acceso a la biblioteca pública): para recibir asistencia hay que dirigirse a la entrada principal en Campo San Lorenzo."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Lorenzo",
+        "fr": "Église de San Lorenzo",
+        "de": "Kirche San Lorenzo",
+        "es": "Iglesia de San Lorenzo"
       }
     },
     {
@@ -12571,6 +13027,12 @@
       },
       "wikipedia": {
         "en": "San Polo (church)"
+      },
+      "nomi": {
+        "en": "Church of San Polo",
+        "fr": "Église de San Polo",
+        "de": "Kirche San Polo",
+        "es": "Iglesia de San Polo"
       }
     },
     {
@@ -12619,6 +13081,12 @@
       "personaggio": "jacopo-tintoretto",
       "biglietto": {
         "gratuito": true
+      },
+      "nomi": {
+        "en": "Church of San Trovaso",
+        "fr": "Église de San Trovaso",
+        "de": "Kirche San Trovaso",
+        "es": "Iglesia de San Trovaso"
       }
     },
     {
@@ -12750,6 +13218,12 @@
       ],
       "wikipedia": {
         "en": "San Basso"
+      },
+      "nomi": {
+        "en": "Church of San Basso (Ateneo San Basso)",
+        "fr": "Église de San Basso (Ateneo San Basso)",
+        "de": "Kirche San Basso (Ateneo San Basso)",
+        "es": "Iglesia de San Basso (Ateneo San Basso)"
       }
     },
     {
@@ -12859,6 +13333,12 @@
       ],
       "wikipedia": {
         "en": "San Giovanni Grisostomo, Venice"
+      },
+      "nomi": {
+        "en": "Church of San Giovanni Crisostomo",
+        "fr": "Église de San Giovanni Crisostomo",
+        "de": "Kirche San Giovanni Crisostomo",
+        "es": "Iglesia de San Giovanni Crisostomo"
       }
     },
     {
@@ -12921,6 +13401,12 @@
             "es": "En la entrada hay un escalón, fácil de superar con la ayuda de un acompañante."
           }
         }
+      },
+      "nomi": {
+        "en": "Church of San Samuele",
+        "fr": "Église de San Samuele",
+        "de": "Kirche San Samuele",
+        "es": "Iglesia de San Samuele"
       }
     },
     {

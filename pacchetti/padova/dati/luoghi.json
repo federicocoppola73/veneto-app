@@ -110,6 +110,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Basilica of Sant'Antonio",
+        "fr": "Basilique de Sant'Antonio",
+        "de": "Basilika Sant'Antonio",
+        "es": "Basílica de Sant'Antonio"
       }
     },
     {
@@ -277,6 +283,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Museum of Nature and Man",
+        "fr": "Musée de la Nature et de l'Homme",
+        "de": "Museum für Natur und Mensch",
+        "es": "Museo de la Naturaleza y del Hombre"
       }
     },
     {
@@ -630,6 +642,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of San Lorenzo",
+        "fr": "Pont de San Lorenzo",
+        "de": "Brücke San Lorenzo",
+        "es": "Puente de San Lorenzo"
       }
     },
     {
@@ -872,6 +890,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Orto botanico di Padova",
+        "fr": "Jardin botanique de Padoue",
+        "de": "Botanischer Garten Padua",
+        "es": "Jardín Botánico de Padua"
       }
     },
     {
@@ -925,6 +949,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Arena Gardens",
+        "fr": "Jardins de l'Arena",
+        "de": "Arena-Gärten",
+        "es": "Jardines de la Arena"
       }
     },
     {
@@ -1015,6 +1045,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Scrovegni Chapel",
+        "fr": "Chapelle des Scrovegni",
+        "de": "Cappella degli Scrovegni",
+        "es": "Capilla de los Scrovegni"
       }
     },
     {
@@ -1154,7 +1190,13 @@
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
       },
-      "personaggio": "elena-cornaro-piscopia"
+      "personaggio": "elena-cornaro-piscopia",
+      "nomi": {
+        "en": "Abbey of Santa Giustina",
+        "fr": "Basilique Sainte-Justine de Padoue",
+        "de": "Basilika Santa Giustina",
+        "es": "Basílica de Santa Justina"
+      }
     },
     {
       "id": "battistero-della-cattedrale",
@@ -1212,6 +1254,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Baptistery of the Cathedral",
+        "fr": "Baptistère de la cathédrale",
+        "de": "Baptisterium der Kathedrale",
+        "es": "Baptisterio de la catedral"
       }
     },
     {
@@ -1249,6 +1297,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Treves de' Bonfili Garden",
+        "fr": "Jardin Treves de' Bonfili",
+        "de": "Treves de' Bonfili-Garten",
+        "es": "Jardín Treves de' Bonfili"
       }
     },
     {
@@ -1324,7 +1378,13 @@
       "personaggio": [
         "elena-cornaro-piscopia",
         "francesco-petrarca"
-      ]
+      ],
+      "nomi": {
+        "en": "Cathedral of Padova",
+        "fr": "Cathédrale de Padova",
+        "de": "Dom Padova",
+        "es": "Catedral de Padova"
+      }
     },
     {
       "id": "chiesa-degli-eremitani",
@@ -1478,7 +1538,13 @@
       "personaggio": [
         "galileo-galilei",
         "andrea-mantegna"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santa Sofia",
+        "fr": "Église de Santa Sofia",
+        "de": "Kirche Santa Sofia",
+        "es": "Iglesia de Santa Sofia"
+      }
     },
     {
       "id": "chiesa-di-san-gaetano",
@@ -1549,6 +1615,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Gaetano",
+        "fr": "Église de San Gaetano",
+        "de": "Kirche San Gaetano",
+        "es": "Iglesia de San Gaetano"
       }
     },
     {
@@ -1620,6 +1692,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Nicolò",
+        "fr": "Église de San Nicolò",
+        "de": "Kirche San Nicolò",
+        "es": "Iglesia de San Nicolò"
       }
     },
     {
@@ -1688,6 +1766,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Canziano",
+        "fr": "Église de San Canziano",
+        "de": "Kirche San Canziano",
+        "es": "Iglesia de San Canziano"
       }
     },
     {
@@ -1741,6 +1825,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Daniele",
+        "fr": "Église de San Daniele",
+        "de": "Kirche San Daniele",
+        "es": "Iglesia de San Daniele"
       }
     },
     {
@@ -1826,6 +1916,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Bottacin Museum",
+        "fr": "Musée Bottacin",
+        "de": "Museum Bottacin",
+        "es": "Museo Bottacin"
       }
     },
     {
@@ -2476,6 +2572,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Torricelle Bridge",
+        "fr": "Pont des Torricelle",
+        "de": "Torricelle-Brücke",
+        "es": "Puente de las Torricelle"
       }
     },
     {
@@ -2511,6 +2613,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of San Gregorio Barbarigo",
+        "fr": "Pont de San Gregorio Barbarigo",
+        "de": "Brücke San Gregorio Barbarigo",
+        "es": "Puente de San Gregorio Barbarigo"
       }
     },
     {
@@ -2957,6 +3065,12 @@
         "voci": {
           "non_accessibile": true
         }
+      },
+      "nomi": {
+        "en": "Tower of the Anziani",
+        "fr": "Tour des Anziani",
+        "de": "Turm der Anziani",
+        "es": "Torre de los Anziani"
       }
     },
     {
@@ -3057,6 +3171,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Altinate Gate",
+        "fr": "Porte Altinate",
+        "de": "Altinate-Tor",
+        "es": "Puerta Altinate"
       }
     },
     {
@@ -3104,6 +3224,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Savonarola Gate",
+        "fr": "Porte Savonarola",
+        "de": "Savonarola-Tor",
+        "es": "Puerta Savonarola"
       }
     },
     {
@@ -3274,6 +3400,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Basilica of Santa Maria del Carmine",
+        "fr": "Basilique de Santa Maria del Carmine",
+        "de": "Basilika Santa Maria del Carmine",
+        "es": "Basílica de Santa Maria del Carmine"
       }
     },
     {
@@ -3438,6 +3570,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Palazzo Zuckermann – Museum of Applied and Decorative Arts",
+        "fr": "Palazzo Zuckermann – Musée des arts appliqués et décoratifs",
+        "de": "Palazzo Zuckermann – Museum für angewandte und dekorative Kunst",
+        "es": "Palazzo Zuckermann – Museo de Artes Aplicadas y Decorativas"
       }
     },
     {
@@ -3534,6 +3672,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Rotonda Garden",
+        "fr": "Jardin de la Rotonda",
+        "de": "Rotonda-Garten",
+        "es": "Jardín de la Rotonda"
       }
     },
     {
@@ -3659,6 +3803,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of San Francesco Grande",
+        "fr": "Église de San Francesco Grande",
+        "de": "Kirche San Francesco Grande",
+        "es": "Iglesia de San Francesco Grande"
       }
     },
     {
@@ -3743,6 +3893,12 @@
             "es": "El ascensor funciona a petición: llamar al +39 049 8781231."
           }
         }
+      },
+      "nomi": {
+        "en": "Museum of the Risorgimento and the Contemporary Age",
+        "fr": "Musée du Risorgimento et de l'époque contemporaine",
+        "de": "Museum des Risorgimento und der Zeitgeschichte",
+        "es": "Museo del Risorgimento y de la Edad Contemporánea"
       }
     },
     {
@@ -3838,6 +3994,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Church of Santa Croce",
+        "fr": "Église de Santa Croce",
+        "de": "Kirche Santa Croce",
+        "es": "Iglesia de Santa Croce"
       }
     },
     {
@@ -3883,6 +4045,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Sanctuary of San Leopoldo Mandić",
+        "fr": "Sanctuaire de San Leopoldo Mandić",
+        "de": "Heiligtum San Leopoldo Mandić",
+        "es": "Santuario de San Leopoldo Mandić"
       }
     },
     {
@@ -4377,6 +4545,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of the Four Popes",
+        "fr": "Pont des Quatre Papes",
+        "de": "Brücke der vier Päpste",
+        "es": "Puente de los Cuatro Papas"
       }
     },
     {
@@ -4434,6 +4608,12 @@
             "es": "Indicado como accesible para personas con discapacidad."
           }
         }
+      },
+      "nomi": {
+        "en": "Oratory of San Michele",
+        "fr": "Oratoire de San Michele",
+        "de": "Oratorium San Michele",
+        "es": "Oratorio de San Michele"
       }
     },
     {
@@ -4546,6 +4726,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita."
+      },
+      "nomi": {
+        "en": "Bridge of Death",
+        "fr": "Pont de la Mort",
+        "de": "Todesbrücke",
+        "es": "Puente de la Muerte"
       }
     },
     {
@@ -4622,6 +4808,12 @@
         "fr": "Remarque : les horaires et les tarifs peuvent changer. Il est conseillé de les vérifier sur le site officiel ou directement sur place avant la visite. Fermé le lundi, à Noël et au Nouvel An ; les visites peuvent être limitées par les célébrations religieuses.",
         "de": "Hinweis: Öffnungszeiten und Ticketpreise können sich ändern. Bitte prüfen Sie diese vor dem Besuch auf der offiziellen Website oder direkt vor Ort. Montags, an Weihnachten und an Neujahr geschlossen; Besuche können durch Gottesdienste eingeschränkt sein.",
         "es": "Nota: Los horarios y los precios de las entradas pueden variar. Se recomienda consultarlos en la web oficial o directamente en el lugar antes de la visita. Cerrado los lunes, en Navidad y en Año Nuevo; las visitas pueden verse condicionadas por las celebraciones religiosas."
+      },
+      "nomi": {
+        "en": "Oratory of San Giorgio",
+        "fr": "Oratoire de San Giorgio",
+        "de": "Oratorium San Giorgio",
+        "es": "Oratorio de San Giorgio"
       }
     },
     {
@@ -4703,6 +4895,12 @@
       ],
       "wikipedia": {
         "en": "Santa Caterina d'Alessandria, Padua"
+      },
+      "nomi": {
+        "en": "Church of Santa Caterina",
+        "fr": "Église de Santa Caterina",
+        "de": "Kirche Santa Caterina",
+        "es": "Iglesia de Santa Caterina"
       }
     },
     {
@@ -4743,7 +4941,13 @@
         "intero": 3,
         "ridotto": 2
       },
-      "sito": "https://www.santantonio.org"
+      "sito": "https://www.santantonio.org",
+      "nomi": {
+        "en": "Antonian Museum",
+        "fr": "Musée antonien",
+        "de": "Antonianisches Museum",
+        "es": "Museo Antoniano"
+      }
     },
     {
       "id": "casa-del-petrarca",

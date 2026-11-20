@@ -1117,6 +1117,12 @@
             "es": "Aseo accesible en la primera planta. La pequeña sala de refrigerios tiene un escalón."
           }
         }
+      },
+      "nomi": {
+        "en": "Great Rivers Museum",
+        "fr": "Musée des Grands Fleuves",
+        "de": "Museum der großen Flüsse",
+        "es": "Museo de los Grandes Ríos"
       }
     },
     {
@@ -1312,7 +1318,13 @@
             "es": "La Porta San Bortolo formaba parte de la antigua muralla de Rovigo, completada en las primeras décadas del siglo XIV. Era una de las puertas que regulaban el acceso a la ciudad y unía el centro con el barrio de San Bartolomeo. Es uno de los pocos testimonios visibles de las antiguas fortificaciones."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Gate of San Bortolo (Porta San Bartolomeo)",
+        "fr": "Porte de San Bortolo (Porta San Bartolomeo)",
+        "de": "Tor San Bortolo (Porta San Bartolomeo)",
+        "es": "Puerta de San Bortolo (Porta San Bartolomeo)"
+      }
     },
     {
       "id": "accademia-dei-concordi",
@@ -1555,6 +1567,12 @@
         "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
         "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
         "es": "Horarios no disponibles, consultar antes de planificar una visita"
+      },
+      "nomi": {
+        "en": "Loggia dei Nodari (Town Hall)",
+        "fr": "Loggia dei Nodari (Hôtel de ville)",
+        "de": "Loggia dei Nodari (Rathaus)",
+        "es": "Loggia dei Nodari (Ayuntamiento)"
       }
     },
     {
@@ -1770,7 +1788,13 @@
       "personaggio": [
         "cristina-roccati",
         "antonio-riccoboni"
-      ]
+      ],
+      "nomi": {
+        "en": "Church of Santi Francesco e Giustina",
+        "fr": "Église des Santi Francesco e Giustina",
+        "de": "Kirche Santi Francesco e Giustina",
+        "es": "Iglesia de los Santi Francesco e Giustina"
+      }
     },
     {
       "id": "chiesa-san-domenico",
@@ -1969,7 +1993,13 @@
             "es": "La Torre Pighin es la única torre de vigilancia que queda entre las que caracterizaban la antigua muralla de Rovigo. Desde el siglo XVIII se transformó en vivienda privada y hoy conserva su estructura histórica, reconocible también por la gran chimenea visible desde el exterior."
           }
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Pighin Tower",
+        "fr": "Tour Pighin",
+        "de": "Pighin-Turm",
+        "es": "Torre Pighin"
+      }
     },
     {
       "id": "cimitero-ebraico",
@@ -2051,6 +2081,12 @@
         "fr": "Horaires non disponibles, à vérifier avant de planifier une visite",
         "de": "Öffnungszeiten nicht verfügbar, vor der Planung eines Besuchs bitte prüfen",
         "es": "Horarios no disponibles, consultar antes de planificar una visita"
+      },
+      "nomi": {
+        "en": "Jewish Cemetery of Rovigo",
+        "fr": "Cimetière juif de Rovigo",
+        "de": "Jüdischer Friedhof Rovigo",
+        "es": "Cementerio judío de Rovigo"
       }
     },
     {
@@ -2417,7 +2453,13 @@
           "fonte": "https://commons.wikimedia.org/wiki/File:Porta_Sant'Agostino,_lato_via_Alessandro_Casalini_(Rovigo)_04.jpg"
         }
       ],
-      "fermate_vicine": []
+      "fermate_vicine": [],
+      "nomi": {
+        "en": "Gate of Sant'Agostino",
+        "fr": "Porte de Sant'Agostino",
+        "de": "Tor Sant'Agostino",
+        "es": "Puerta de Sant'Agostino"
+      }
     },
     {
       "id": "adigetto-scomparso",
@@ -2777,7 +2819,13 @@
           ],
           "metri": 338
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Oratory of the Santissima Concezione (Chiesetta del Cristo)",
+        "fr": "Oratoire de la Santissima Concezione (Chiesetta del Cristo)",
+        "de": "Oratorium Santissima Concezione (Chiesetta del Cristo)",
+        "es": "Oratorio de la Santissima Concezione (Chiesetta del Cristo)"
+      }
     },
     {
       "id": "piazza-umberto-merlin",
@@ -2868,7 +2916,13 @@
           "metri": 469
         }
       ],
-      "personaggio": "umberto-merlin"
+      "personaggio": "umberto-merlin",
+      "nomi": {
+        "en": "Piazza Umberto Merlin (former Jewish Ghetto)",
+        "fr": "Piazza Umberto Merlin (ancien ghetto juif)",
+        "de": "Piazza Umberto Merlin (ehemaliges jüdisches Ghetto)",
+        "es": "Piazza Umberto Merlin (antiguo gueto judío)"
+      }
     },
     {
       "id": "monumento-giovanni-miani",
@@ -3052,7 +3106,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Monumental Cemetery of Rovigo",
+        "fr": "Cimetière monumental de Rovigo",
+        "de": "Monumentalfriedhof Rovigo",
+        "es": "Cementerio monumental de Rovigo"
+      }
     },
     {
       "id": "fontana-della-riconoscenza",
@@ -3164,7 +3224,13 @@
           "licenza": "CC BY-SA 4.0",
           "fonte": "https://commons.wikimedia.org/"
         }
-      ]
+      ],
+      "nomi": {
+        "en": "Fountain of Gratitude",
+        "fr": "Fontaine de la Reconnaissance",
+        "de": "Brunnen der Dankbarkeit",
+        "es": "Fuente de la Gratitud"
+      }
     },
     {
       "id": "ex-liceo-celio",
@@ -3612,6 +3678,12 @@
         "autore": "Threecharlie",
         "licenza": "CC BY-SA 4.0",
         "fonte": "https://commons.wikimedia.org/"
+      },
+      "nomi": {
+        "en": "Church of San Bartolomeo Apostolo",
+        "fr": "Église de San Bartolomeo Apostolo",
+        "de": "Kirche San Bartolomeo Apostolo",
+        "es": "Iglesia de San Bartolomeo Apostolo"
       }
     },
     {
@@ -3908,6 +3980,12 @@
         "autore": "Threecharlie",
         "licenza": "CC BY-SA 4.0",
         "fonte": "https://commons.wikimedia.org/"
+      },
+      "nomi": {
+        "en": "Oratory of the Blessed Virgin of Pompeii",
+        "fr": "Oratoire de la Bienheureuse Vierge de Pompéi",
+        "de": "Oratorium der Seligen Jungfrau von Pompeji",
+        "es": "Oratorio de la Beata Virgen de Pompeya"
       }
     },
     {
