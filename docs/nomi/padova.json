@@ -1,0 +1,790 @@
+{
+ "basilica-di-sant-antonio": {
+  "nome": "Basilica di Sant'Antonio",
+  "it": "Basilica di Sant'Antonio di Padova",
+  "stato": "sicuro",
+  "dist": 16,
+  "altri": [],
+  "de": "Basilika des Heiligen Antonius (Padua)",
+  "en": "Basilica of Saint Anthony of Padua",
+  "es": "Basílica de San Antonio de Padua",
+  "fr": "Basilique Saint-Antoine de Padoue",
+  "tipo": "wikipedia"
+ },
+ "musei-civici-agli-eremitani": {
+  "nome": "Musei Civici agli Eremitani",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Musei Civici agli Eremitani",
+  "fr": "Musei Civici agli Eremitani",
+  "de": "Musei Civici agli Eremitani",
+  "es": "Musei Civici agli Eremitani"
+ },
+ "museo-della-natura-e-dell-uomo": {
+  "nome": "Museo della Natura e dell'Uomo",
+  "it": "Museo della natura e dell'uomo",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-della-ragione": {
+  "nome": "Palazzo della Ragione",
+  "it": "Palazzo della Ragione (Padova)",
+  "stato": "sicuro",
+  "dist": 79,
+  "altri": [],
+  "de": "Palazzo della Ragione (Padua)",
+  "en": "Palazzo della Ragione, Padua",
+  "es": "Palazzo della Ragione (Padua)",
+  "fr": "Palazzo della Ragione de Padoue",
+  "tipo": "wikipedia"
+ },
+ "palazzo-del-bo": {
+  "nome": "Palazzo del Bo",
+  "it": "Palazzo del Bo",
+  "stato": "sicuro",
+  "dist": 42,
+  "altri": [],
+  "en": "Bo Palace",
+  "es": "Palacio Bo",
+  "fr": "Palais Bo",
+  "tipo": "wikipedia"
+ },
+ "ponte-molino": {
+  "nome": "Ponte Molino",
+  "it": "Ponte Molino",
+  "stato": "sicuro",
+  "dist": 8,
+  "altri": [],
+  "de": "Ponte Molino (Padua)",
+  "en": "Ponte Molino (Padua)",
+  "tipo": "wikipedia"
+ },
+ "ponte-san-lorenzo": {
+  "nome": "Ponte San Lorenzo",
+  "it": "Ponte di San Lorenzo",
+  "stato": "sicuro",
+  "dist": 6,
+  "altri": [],
+  "de": "Ponte San Lorenzo (Padua)",
+  "en": "Ponte San Lorenzo",
+  "es": "Ponte San Lorenzo",
+  "fr": "Pont San Lorenzo",
+  "tipo": "wikipedia"
+ },
+ "prato-della-valle": {
+  "nome": "Prato della Valle",
+  "it": "Prato della Valle",
+  "stato": "sicuro",
+  "dist": 99,
+  "altri": [],
+  "de": "Prato della Valle",
+  "en": "Prato della Valle",
+  "es": "Prato della Valle",
+  "fr": "Prato della Valle",
+  "tipo": "wikipedia"
+ },
+ "piazza-delle-erbe": {
+  "nome": "Piazza delle Erbe",
+  "it": "Piazza delle Erbe (Padova)",
+  "stato": "sicuro",
+  "dist": 28,
+  "altri": [],
+  "en": "Piazza delle Erbe, Padua",
+  "es": "Piazza delle Erbe (Padua)",
+  "tipo": "wikipedia"
+ },
+ "orto-botanico-di-padova": {
+  "nome": "Orto Botanico di Padova",
+  "it": "Orto botanico di Padova",
+  "stato": "sicuro",
+  "dist": 5,
+  "altri": [],
+  "de": "Botanischer Garten Padua",
+  "en": "Orto botanico di Padova",
+  "es": "Jardín Botánico de Padua",
+  "fr": "Jardin botanique de Padoue",
+  "tipo": "wikipedia"
+ },
+ "giardini-dell-arena": {
+  "nome": "Giardini dell'Arena",
+  "it": "Giardini dell'Arena",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "cappella-degli-scrovegni": {
+  "nome": "Cappella degli Scrovegni",
+  "it": "Cappella degli Scrovegni",
+  "stato": "sicuro",
+  "dist": 6,
+  "altri": [],
+  "de": "Cappella degli Scrovegni",
+  "en": "Scrovegni Chapel",
+  "es": "Capilla de los Scrovegni",
+  "fr": "Chapelle des Scrovegni",
+  "tipo": "wikipedia"
+ },
+ "torre-dell-orologio": {
+  "nome": "Torre dell'Orologio",
+  "it": "Torre dell'Orologio (Padova)",
+  "stato": "sicuro",
+  "dist": 4,
+  "altri": [],
+  "en": "Torre dell'Orologio, Padua",
+  "es": "Torre dell'Orologio (Padua)",
+  "fr": "Tour de l'Horloge de Padoue",
+  "tipo": "wikipedia"
+ },
+ "basilica-di-santa-giustina": {
+  "nome": "Basilica di Santa Giustina",
+  "it": "Basilica di Santa Giustina",
+  "stato": "sicuro",
+  "dist": 204,
+  "altri": [],
+  "de": "Basilika Santa Giustina",
+  "en": "Abbey of Santa Giustina",
+  "es": "Basílica de Santa Justina",
+  "fr": "Basilique Sainte-Justine de Padoue",
+  "tipo": "wikipedia"
+ },
+ "battistero-della-cattedrale": {
+  "nome": "Battistero della Cattedrale",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "giardino-treves-de-bonfili": {
+  "nome": "Giardino Treves de' Bonfili",
+  "it": "Alberto Treves de Bonfili",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "de": "Alberto Treves de Bonfili",
+  "fr": "Alberto Trèves de Bonfili",
+  "tipo": "da decidere"
+ },
+ "duomo-di-padova": {
+  "nome": "Duomo di Padova",
+  "it": "Duomo di Padova",
+  "stato": "sicuro",
+  "dist": 27,
+  "altri": [],
+  "de": "Kathedrale von Padua",
+  "en": "Padua Cathedral",
+  "es": "Catedral basílica de Santa María de la Asunción (Padua)",
+  "fr": "Cathédrale de Padoue",
+  "tipo": "wikipedia"
+ },
+ "chiesa-degli-eremitani": {
+  "nome": "Chiesa degli Eremitani",
+  "it": "Chiesa degli Eremitani",
+  "stato": "sicuro",
+  "dist": 14,
+  "altri": [],
+  "de": "Kirche der Eremitani",
+  "en": "Church of the Eremitani",
+  "es": "Iglesia de los Eremitas (Padua)",
+  "fr": "Église des Érémitiques de Padoue",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-santa-sofia": {
+  "nome": "Chiesa di Santa Sofia",
+  "it": "Chiesa di Santa Sofia (Padova)",
+  "stato": "sicuro",
+  "dist": 1,
+  "altri": [],
+  "en": "Church of Santa Sofia",
+  "fr": "Église de Santa Sofia",
+  "de": "Kirche Santa Sofia",
+  "es": "Iglesia de Santa Sofia",
+  "tipo": "regola"
+ },
+ "chiesa-di-san-gaetano": {
+  "nome": "Chiesa di San Gaetano",
+  "it": "Chiesa di San Gaetano (Padova)",
+  "stato": "sicuro",
+  "dist": 1,
+  "altri": [],
+  "en": "San Gaetano, Padua",
+  "fr": "Église Saint-Gaëtan de Padoue",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-san-nicolo": {
+  "nome": "Chiesa di San Nicolò",
+  "it": "Chiesa di San Nicolò (Padova)",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "en": "San Nicolò, Padua",
+  "fr": "Église Saint-Nicolas de Padoue",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-san-canziano": {
+  "nome": "Chiesa di San Canziano",
+  "it": "Chiesa di San Canziano (Padova)",
+  "stato": "sicuro",
+  "dist": 3,
+  "altri": [],
+  "en": "Church of San Canziano",
+  "fr": "Église de San Canziano",
+  "de": "Kirche San Canziano",
+  "es": "Iglesia de San Canziano",
+  "tipo": "regola"
+ },
+ "chiesa-di-san-daniele": {
+  "nome": "Chiesa di San Daniele",
+  "it": "Chiesa di San Daniele (Padova)",
+  "stato": "sicuro",
+  "dist": 2,
+  "altri": [],
+  "en": "San Daniele, Padua",
+  "fr": "Église Saint-Daniel de Padoue",
+  "tipo": "wikipedia"
+ },
+ "museo-bottacin": {
+  "nome": "Museo Bottacin",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-moroni": {
+  "nome": "Palazzo Moroni",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-liviano": {
+  "nome": "Palazzo Liviano",
+  "it": "Palazzo Liviano",
+  "stato": "sicuro",
+  "dist": 13,
+  "altri": [],
+  "en": "Palazzo Liviano",
+  "tipo": "wikipedia"
+ },
+ "palazzo-maldura": {
+  "nome": "Palazzo Maldura",
+  "it": "Palazzo Maldura",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Palazzo Maldura",
+  "tipo": "da decidere"
+ },
+ "palazzo-cavalli": {
+  "nome": "Palazzo Cavalli",
+  "it": "Palazzo Cavalli alle Porte Contarine",
+  "stato": "sicuro",
+  "dist": 2,
+  "altri": [],
+  "en": "Palazzo Cavalli alle Porte Contarine",
+  "tipo": "wikipedia"
+ },
+ "palazzo-zabarella": {
+  "nome": "Palazzo Zabarella",
+  "it": "Palazzo Zabarella",
+  "stato": "sicuro",
+  "dist": 10,
+  "altri": [],
+  "en": "Palazzo Zabarella",
+  "tipo": "wikipedia"
+ },
+ "caffe-pedrocchi": {
+  "nome": "Caffè Pedrocchi",
+  "it": "Caffè Pedrocchi",
+  "stato": "sicuro",
+  "dist": 14,
+  "altri": [],
+  "en": "Pedrocchi Café",
+  "es": "Caffè Pedrocchi",
+  "fr": "Caffè Pedrocchi",
+  "tipo": "wikipedia"
+ },
+ "loggia-e-odeo-cornaro": {
+  "nome": "Loggia e Odeo Cornaro",
+  "it": "Loggia e Odeo Cornaro",
+  "stato": "sicuro",
+  "dist": 43,
+  "altri": [],
+  "en": "Loggia and Odeo Cornaro",
+  "tipo": "wikipedia"
+ },
+ "ponte-corvo": {
+  "nome": "Ponte Corvo",
+  "it": "Ponte Corvo",
+  "stato": "sicuro",
+  "dist": 7,
+  "altri": [],
+  "de": "Ponte Corvo (Brücke)",
+  "en": "Ponte Corvo (bridge)",
+  "tipo": "wikipedia"
+ },
+ "ponte-delle-torricelle": {
+  "nome": "Ponte delle Torricelle",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "ponte-san-gregorio-barbarigo": {
+  "nome": "Ponte San Gregorio Barbarigo",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "en": "Bridge of San Gregorio Barbarigo",
+  "fr": "Pont de San Gregorio Barbarigo",
+  "de": "Brücke San Gregorio Barbarigo",
+  "es": "Puente de San Gregorio Barbarigo",
+  "tipo": "regola"
+ },
+ "piazza-della-frutta": {
+  "nome": "Piazza della Frutta",
+  "it": "Piazza della Frutta",
+  "stato": "sicuro",
+  "dist": 17,
+  "altri": [],
+  "es": "Piazza della Frutta",
+  "tipo": "da decidere"
+ },
+ "piazza-dei-signori": {
+  "nome": "Piazza dei Signori",
+  "it": "Piazza dei Signori (Padova)",
+  "stato": "sicuro",
+  "dist": 5,
+  "altri": [],
+  "en": "Piazza dei Signori, Padua",
+  "tipo": "wikipedia"
+ },
+ "piazza-del-santo": {
+  "nome": "Piazza del Santo",
+  "it": "Piazza del Santo",
+  "stato": "sicuro",
+  "dist": 20,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "piazza-duomo": {
+  "nome": "Piazza Duomo",
+  "it": "Piazza Duomo (Padova)",
+  "stato": "sicuro",
+  "dist": 27,
+  "altri": [],
+  "en": "Piazza Duomo, Padua",
+  "tipo": "wikipedia"
+ },
+ "piazza-eremitani": {
+  "nome": "Piazza Eremitani",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "piazza-garibaldi": {
+  "nome": "Piazza Garibaldi",
+  "it": "Piazza Garibaldi (Padova)",
+  "stato": "sicuro",
+  "dist": 2,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "piazza-antenore": {
+  "nome": "Piazza Antenore",
+  "it": "Piazza Antenore",
+  "stato": "sicuro",
+  "dist": 5,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "torre-degli-anziani": {
+  "nome": "Torre degli Anziani",
+  "it": "Torre degli Anziani",
+  "stato": "sicuro",
+  "dist": 1,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "tomba-di-antenore": {
+  "nome": "Tomba di Antenore",
+  "it": "Tomba di Antenore",
+  "stato": "sicuro",
+  "dist": 24,
+  "altri": [],
+  "en": "Tomb of Antenor",
+  "tipo": "wikipedia"
+ },
+ "porta-altinate": {
+  "nome": "Porta Altinate",
+  "it": "Porta Altinate",
+  "stato": "sicuro",
+  "dist": 16,
+  "altri": [],
+  "fr": "Porta Altinate",
+  "tipo": "da decidere"
+ },
+ "porta-savonarola": {
+  "nome": "Porta Savonarola",
+  "it": "Porta Savonarola",
+  "stato": "sicuro",
+  "dist": 3,
+  "altri": [],
+  "fr": "Porta Savonarola",
+  "tipo": "da decidere"
+ },
+ "porta-molino": {
+  "nome": "Porta Molino",
+  "it": "Porta Molino",
+  "stato": "sicuro",
+  "dist": 1,
+  "altri": [],
+  "es": "Porta Molino",
+  "fr": "Porta Molino",
+  "tipo": "wikipedia"
+ },
+ "teatro-verdi": {
+  "nome": "Teatro Verdi",
+  "it": "Teatro Verdi (Padova)",
+  "stato": "sicuro",
+  "dist": 126,
+  "altri": [],
+  "en": "Teatro Verdi (Padua)",
+  "fr": "Teatro Verdi (Padoue)",
+  "tipo": "wikipedia"
+ },
+ "basilica-di-santa-maria-del-carmine": {
+  "nome": "Basilica di Santa Maria del Carmine",
+  "it": "Chiesa di Santa Maria del Carmine",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Basilica of Santa Maria del Carmine",
+  "fr": "Basilique de Santa Maria del Carmine",
+  "de": "Basilika Santa Maria del Carmine",
+  "es": "Basílica de Santa Maria del Carmine",
+  "tipo": "regola"
+ },
+ "musme-museo-di-storia-della-medicina": {
+  "nome": "MUSME – Museo di Storia della Medicina",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "MUSME – Museo di Storia della Medicina",
+  "fr": "MUSME – Museo di Storia della Medicina",
+  "de": "MUSME – Museo di Storia della Medicina",
+  "es": "MUSME – Museo di Storia della Medicina"
+ },
+ "palazzo-zuckermann-museo-di-arti-applicate-e-decorative": {
+  "nome": "Palazzo Zuckermann – Museo di Arti Applicate e Decorative",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-della-cassa-di-risparmio": {
+  "nome": "Palazzo della Cassa di Risparmio",
+  "it": "Cassa di Risparmio del Veneto",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Cassa di Risparmio del Veneto",
+  "tipo": "da decidere"
+ },
+ "giardino-della-rotonda": {
+  "nome": "Giardino della Rotonda",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "statua-del-gattamelata": {
+  "nome": "Statua del Gattamelata",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Statua del Gattamelata",
+  "fr": "Statua del Gattamelata",
+  "de": "Statua del Gattamelata",
+  "es": "Statua del Gattamelata"
+ },
+ "chiesa-di-san-francesco-grande": {
+  "nome": "Chiesa di San Francesco Grande",
+  "it": "Chiesa di San Francesco Grande (Padova)",
+  "stato": "sicuro",
+  "dist": 3,
+  "altri": [],
+  "en": "Church of San Francesco Grande",
+  "fr": "Église de San Francesco Grande",
+  "de": "Kirche San Francesco Grande",
+  "es": "Iglesia de San Francesco Grande",
+  "tipo": "regola"
+ },
+ "museo-del-risorgimento-e-dell-eta-contemporanea": {
+  "nome": "Museo del Risorgimento e dell'Età Contemporanea",
+  "it": "Museo del Risorgimento e dell'età contemporanea (Padova)",
+  "stato": "sicuro",
+  "dist": 30,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "santuario-dell-arcella": {
+  "nome": "Santuario dell'Arcella",
+  "it": "Santuario dell'Arcella",
+  "stato": "sicuro",
+  "dist": 1,
+  "altri": [],
+  "en": "Sanctuary of Arcella, Padua",
+  "es": "Santuario de Arcella",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-santa-croce": {
+  "nome": "Chiesa di Santa Croce",
+  "it": "Chiesa di Santa Croce (Padova)",
+  "stato": "sicuro",
+  "dist": 11,
+  "altri": [],
+  "en": "Church of Santa Croce",
+  "fr": "Église de Santa Croce",
+  "de": "Kirche Santa Croce",
+  "es": "Iglesia de Santa Croce",
+  "tipo": "regola"
+ },
+ "santuario-di-san-leopoldo-mandic": {
+  "nome": "Santuario di San Leopoldo Mandić",
+  "it": "Santuario di San Leopoldo Mandic",
+  "stato": "sicuro",
+  "dist": 5,
+  "altri": [],
+  "en": "Sanctuary of San Leopoldo Mandić",
+  "fr": "Sanctuaire de San Leopoldo Mandić",
+  "de": "Heiligtum San Leopoldo Mandić",
+  "es": "Santuario de San Leopoldo Mandić",
+  "tipo": "regola"
+ },
+ "tempio-nazionale-dell-internato-ignoto": {
+  "nome": "Tempio Nazionale dell'Internato Ignoto",
+  "it": "Tempio nazionale dell'internato ignoto",
+  "stato": "sicuro",
+  "dist": 0,
+  "tipo": "invariato",
+  "en": "Tempio Nazionale dell'Internato Ignoto",
+  "fr": "Tempio Nazionale dell'Internato Ignoto",
+  "de": "Tempio Nazionale dell'Internato Ignoto",
+  "es": "Tempio Nazionale dell'Internato Ignoto"
+ },
+ "villa-giusti": {
+  "nome": "Villa Giusti",
+  "it": "Villa Giusti",
+  "stato": "sicuro",
+  "dist": 2,
+  "altri": [],
+  "de": "Villa Giusti",
+  "en": "Villa Giusti",
+  "fr": "Villa Giusti",
+  "tipo": "wikipedia"
+ },
+ "villa-molin": {
+  "nome": "Villa Molin",
+  "it": "Villa Molin",
+  "stato": "sicuro",
+  "dist": 6,
+  "altri": [],
+  "en": "Villa Molin",
+  "fr": "Villa Molin",
+  "tipo": "wikipedia"
+ },
+ "la-specola": {
+  "nome": "La Specola",
+  "it": "Specola di Padova",
+  "stato": "sicuro",
+  "dist": 20,
+  "altri": [],
+  "de": "Sternwarte Padua",
+  "en": "La Specola, Padua",
+  "fr": "Observatoire astronomique de Padoue",
+  "tipo": "wikipedia"
+ },
+ "rifugio-antiaereo-di-palazzo-santo-stefano": {
+  "nome": "Rifugio antiaereo di Palazzo Santo Stefano",
+  "it": "Palazzo Santo Stefano",
+  "stato": "sicuro",
+  "dist": 32,
+  "tipo": "invariato",
+  "en": "Rifugio antiaereo di Palazzo Santo Stefano",
+  "fr": "Rifugio antiaereo di Palazzo Santo Stefano",
+  "de": "Rifugio antiaereo di Palazzo Santo Stefano",
+  "es": "Rifugio antiaereo di Palazzo Santo Stefano"
+ },
+ "museo-del-precinema": {
+  "nome": "Museo del Precinema",
+  "it": "Museo del precinema",
+  "stato": "sicuro",
+  "dist": 261,
+  "altri": [],
+  "de": "Museo del Precinema",
+  "en": "Museum of Precinema",
+  "es": "Museo del Precinema",
+  "tipo": "wikipedia"
+ },
+ "porte-contarine": {
+  "nome": "Porte Contarine",
+  "it": "Porte Contarine",
+  "stato": "sicuro",
+  "dist": 0,
+  "tipo": "invariato",
+  "en": "Porte Contarine",
+  "fr": "Porte Contarine",
+  "de": "Porte Contarine",
+  "es": "Porte Contarine"
+ },
+ "ghetto-ebraico": {
+  "nome": "Ghetto ebraico di Padova",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Ghetto ebraico di Padova",
+  "fr": "Ghetto ebraico di Padova",
+  "de": "Ghetto ebraico di Padova",
+  "es": "Ghetto ebraico di Padova"
+ },
+ "cimitero-ebraico-via-wiel": {
+  "nome": "Antico cimitero ebraico di via Wiel",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Antico cimitero ebraico di via Wiel",
+  "fr": "Antico cimitero ebraico di via Wiel",
+  "de": "Antico cimitero ebraico di via Wiel",
+  "es": "Antico cimitero ebraico di via Wiel"
+ },
+ "ponte-dei-quattro-papi": {
+  "nome": "Ponte dei quattro papi",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "oratorio-di-san-michele": {
+  "nome": "Oratorio di San Michele",
+  "it": "Oratorio di San Michele (Padova)",
+  "stato": "sicuro",
+  "dist": 18,
+  "altri": [],
+  "en": "Oratory of San Michele",
+  "fr": "Oratoire de San Michele",
+  "de": "Oratorium San Michele",
+  "es": "Oratorio de San Michele",
+  "tipo": "regola"
+ },
+ "canton-delle-busie": {
+  "nome": "Canton delle Busie",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Canton delle Busie",
+  "fr": "Canton delle Busie",
+  "de": "Canton delle Busie",
+  "es": "Canton delle Busie"
+ },
+ "cabina-a": {
+  "nome": "Cabina A",
+  "it": "La donna della cabina numero 10",
+  "stato": "incerto",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Cabina A",
+  "fr": "Cabina A",
+  "de": "Cabina A",
+  "es": "Cabina A"
+ },
+ "ponte-della-morte": {
+  "nome": "Ponte della Morte",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "oratorio-di-san-giorgio": {
+  "nome": "Oratorio di San Giorgio",
+  "it": "Oratorio di San Giorgio (Padova)",
+  "stato": "sicuro",
+  "dist": 15,
+  "altri": [],
+  "en": "Oratory of San Giorgio, Padua",
+  "fr": "Oratoire Saint-Georges de Padoue",
+  "tipo": "wikipedia"
+ },
+ "scuola-del-santo": {
+  "nome": "Scuola del Santo – Scoletta",
+  "it": "Scuola del Santo",
+  "stato": "sicuro",
+  "dist": 8,
+  "altri": [],
+  "en": "Scuola del Santo",
+  "fr": "Scuola del Santo",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-santa-caterina": {
+  "nome": "Chiesa di Santa Caterina",
+  "it": "Chiesa di Santa Caterina (Padova)",
+  "stato": "sicuro",
+  "dist": 15,
+  "altri": [],
+  "en": "Church of Santa Caterina",
+  "fr": "Église de Santa Caterina",
+  "de": "Kirche Santa Caterina",
+  "es": "Iglesia de Santa Caterina",
+  "tipo": "regola"
+ },
+ "museo-antoniano": {
+  "nome": "Museo Antoniano",
+  "it": "Museo Antoniano",
+  "stato": "sicuro",
+  "dist": 14,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "casa-del-petrarca": {
+  "nome": "Casa del Petrarca",
+  "it": "Casa canonicale di Francesco Petrarca",
+  "stato": "sicuro",
+  "dist": 41,
+  "tipo": "invariato",
+  "en": "Casa del Petrarca",
+  "fr": "Casa del Petrarca",
+  "de": "Casa del Petrarca",
+  "es": "Casa del Petrarca"
+ },
+ "reggia-carrarese": {
+  "nome": "Reggia Carrarese",
+  "it": "Reggia Carrarese",
+  "stato": "sicuro",
+  "dist": 48,
+  "tipo": "invariato",
+  "en": "Reggia Carrarese",
+  "fr": "Reggia Carrarese",
+  "de": "Reggia Carrarese",
+  "es": "Reggia Carrarese"
+ }
+}

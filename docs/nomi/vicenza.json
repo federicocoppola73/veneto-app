@@ -1,0 +1,708 @@
+{
+ "basilica-palladiana": {
+  "nome": "Basilica Palladiana",
+  "it": "Basilica Palladiana",
+  "stato": "sicuro",
+  "dist": 19,
+  "altri": [],
+  "de": "Basilica Palladiana",
+  "en": "Basilica Palladiana",
+  "es": "Basílica Palladiana",
+  "fr": "Basilique palladienne",
+  "tipo": "wikipedia"
+ },
+ "teatro-olimpico": {
+  "nome": "Teatro Olimpico",
+  "it": "Teatro Olimpico",
+  "stato": "sicuro",
+  "dist": 19,
+  "altri": [],
+  "de": "Teatro Olimpico (Vicenza)",
+  "en": "Teatro Olimpico",
+  "es": "Teatro Olímpico",
+  "fr": "Teatro Olimpico",
+  "tipo": "wikipedia"
+ },
+ "villa-la-rotonda": {
+  "nome": "Villa La Rotonda",
+  "it": "Villa la Rotonda",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "piazza-dei-signori": {
+  "nome": "Piazza dei Signori",
+  "it": "Piazza dei Signori (Vicenza)",
+  "stato": "sicuro",
+  "dist": 9,
+  "altri": [],
+  "en": "Piazza dei Signori, Vicenza",
+  "es": "Piazza dei Signori (Vicenza)",
+  "tipo": "wikipedia"
+ },
+ "piazza-delle-erbe": {
+  "nome": "Piazza delle Erbe",
+  "it": "Piazza delle Erbe",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "de": "Piazza delle Erbe",
+  "en": "Piazza delle Erbe",
+  "fr": "Piazza delle Erbe",
+  "tipo": "da decidere"
+ },
+ "piazza-matteotti": {
+  "nome": "Piazza Matteotti",
+  "it": "Piazza Matteotti",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "de": "Piazza Matteotti",
+  "tipo": "da decidere"
+ },
+ "palazzo-chiericati-museo-civico": {
+  "nome": "Palazzo Chiericati (Museo Civico)",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "santuario-di-monte-berico": {
+  "nome": "Santuario di Monte Berico",
+  "it": "Santuario della Madonna di Monte Berico",
+  "stato": "sicuro",
+  "dist": 34,
+  "altri": [],
+  "de": "Basilika Santa Maria di Monte Berico",
+  "en": "Monte Berico",
+  "fr": "Sanctuaire de Notre-Dame du Mont Berico",
+  "tipo": "wikipedia"
+ },
+ "tempio-di-santa-corona": {
+  "nome": "Chiesa di Santa Corona",
+  "it": "Chiesa di Santa Corona",
+  "stato": "sicuro",
+  "dist": 36,
+  "altri": [],
+  "en": "Santa Corona, Vicenza",
+  "fr": "Église Santa Corona",
+  "tipo": "wikipedia"
+ },
+ "loggia-del-capitaniato": {
+  "nome": "Loggia del Capitaniato",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "corso-palladio": {
+  "nome": "Corso Palladio",
+  "it": "Corso Palladio",
+  "stato": "sicuro",
+  "dist": 1,
+  "tipo": "invariato",
+  "en": "Corso Palladio",
+  "fr": "Corso Palladio",
+  "de": "Corso Palladio",
+  "es": "Corso Palladio"
+ },
+ "gallerie-d-italia-palazzo-leoni-montanari": {
+  "nome": "Gallerie d'Italia - Palazzo Leoni Montanari",
+  "it": "Gallerie di palazzo Leoni Montanari",
+  "stato": "sicuro",
+  "dist": 22,
+  "altri": [],
+  "en": "Palazzo Leoni Montanari",
+  "fr": "Palazzo Leoni Montanari",
+  "tipo": "wikipedia"
+ },
+ "duomo-cattedrale-di-santa-maria-annunciata": {
+  "nome": "Duomo (Cattedrale di Santa Maria Annunciata)",
+  "it": "Cattedrale di Santa Maria Annunciata",
+  "stato": "sicuro",
+  "dist": 47,
+  "altri": [],
+  "en": "Vicenza Cathedral",
+  "fr": "Cathédrale de Vicence",
+  "tipo": "wikipedia"
+ },
+ "parco-querini": {
+  "nome": "Parco Querini",
+  "it": "Parco Querini",
+  "stato": "sicuro",
+  "dist": 30,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "giardini-salvi": {
+  "nome": "Giardini Salvi",
+  "it": "Giardini Salvi",
+  "stato": "sicuro",
+  "dist": 27,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "torrione-di-porta-castello": {
+  "nome": "Torrione di Porta Castello",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Torrione di Porta Castello",
+  "fr": "Torrione di Porta Castello",
+  "de": "Torrione di Porta Castello",
+  "es": "Torrione di Porta Castello"
+ },
+ "piazzale-della-vittoria": {
+  "nome": "Piazzale della Vittoria",
+  "it": "Piazzale della Vittoria (Vicenza)",
+  "stato": "sicuro",
+  "dist": 8,
+  "tipo": "invariato",
+  "en": "Piazzale della Vittoria",
+  "fr": "Piazzale della Vittoria",
+  "de": "Piazzale della Vittoria",
+  "es": "Piazzale della Vittoria"
+ },
+ "museo-naturalistico-e-archeologico": {
+  "nome": "Museo Naturalistico e Archeologico di Santa Corona",
+  "it": "Museo naturalistico archeologico (Vicenza)",
+  "stato": "sicuro",
+  "dist": 140,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "gallerie-di-palazzo-thiene": {
+  "nome": "Gallerie di Palazzo Thiene",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Gallerie di Palazzo Thiene",
+  "fr": "Gallerie di Palazzo Thiene",
+  "de": "Gallerie di Palazzo Thiene",
+  "es": "Gallerie di Palazzo Thiene"
+ },
+ "museo-diocesano": {
+  "nome": "Museo Diocesano",
+  "it": "Museo diocesano (Vicenza)",
+  "stato": "sicuro",
+  "dist": 10,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "museo-del-gioiello": {
+  "nome": "Museo del Gioiello",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "museo-del-risorgimento-e-della-resistenza-villa-guiccioli": {
+  "nome": "Museo del Risorgimento e della Resistenza - Villa Guiccioli",
+  "it": "Museo del Risorgimento e della Resistenza (Vicenza)",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "fr": "Musée du Risorgimento et de la Résistance (Vicence)",
+  "tipo": "da decidere"
+ },
+ "palladio-museum": {
+  "nome": "Palazzo Barbaran da Porto – Palladio Museum",
+  "it": "Palazzo Barbaran da Porto",
+  "stato": "sicuro",
+  "dist": 12,
+  "altri": [],
+  "de": "Palazzo Barbaran da Porto",
+  "en": "Palazzo Barbaran da Porto",
+  "fr": "Palais Barbaran da Porto",
+  "tipo": "wikipedia"
+ },
+ "tempio-di-san-lorenzo": {
+  "nome": "Tempio di San Lorenzo",
+  "it": "Chiesa di San Lorenzo (Vicenza)",
+  "stato": "sicuro",
+  "dist": 1,
+  "tipo": "invariato",
+  "en": "Tempio di San Lorenzo",
+  "fr": "Tempio di San Lorenzo",
+  "de": "Tempio di San Lorenzo",
+  "es": "Tempio di San Lorenzo"
+ },
+ "chiesa-di-s-croce-in-s-giacomo-maggiore-dei-carmini": {
+  "nome": "Chiesa di S. Croce in S. Giacomo Maggiore dei Carmini",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "en": "Church of S. Croce in S. Giacomo Maggiore dei Carmini",
+  "fr": "Église de S. Croce in S. Giacomo Maggiore dei Carmini",
+  "de": "Kirche S. Croce in S. Giacomo Maggiore dei Carmini",
+  "es": "Iglesia de S. Croce in S. Giacomo Maggiore dei Carmini",
+  "tipo": "regola"
+ },
+ "palazzo-valmarana-braga": {
+  "nome": "Palazzo Valmarana Braga",
+  "it": "Palazzo Valmarana",
+  "stato": "sicuro",
+  "dist": 2,
+  "altri": [],
+  "de": "Palazzo Valmarana",
+  "en": "Palazzo Valmarana",
+  "es": "Palacio Valmarana",
+  "fr": "Palais Valmarana",
+  "tipo": "wikipedia"
+ },
+ "villa-valmarana-ai-nani": {
+  "nome": "Villa Valmarana ai Nani",
+  "it": "Villa Valmarana \"Ai Nani\"",
+  "stato": "sicuro",
+  "dist": 78,
+  "altri": [],
+  "de": "Villa Valmarana ai Nani",
+  "en": "Villa Valmarana ai Nani",
+  "tipo": "wikipedia"
+ },
+ "oratorio-di-san-nicola-da-tolentino": {
+  "nome": "Oratorio di San Nicola da Tolentino",
+  "it": "Oratorio di San Nicola da Tolentino",
+  "stato": "sicuro",
+  "dist": 16,
+  "altri": [],
+  "en": "Oratory of San Nicola da Tolentino, Vicenza",
+  "fr": "Oratoire San Nicola da Tolentino",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-santo-stefano": {
+  "nome": "Chiesa di Santo Stefano",
+  "it": "Chiesa di Santo Stefano (Vicenza)",
+  "stato": "sicuro",
+  "dist": 6,
+  "altri": [],
+  "en": "Church of Santo Stefano",
+  "fr": "Église de Santo Stefano",
+  "de": "Kirche Santo Stefano",
+  "es": "Iglesia de Santo Stefano",
+  "tipo": "regola"
+ },
+ "palazzo-cordellina": {
+  "nome": "Palazzo Cordellina",
+  "it": "Palazzo Cordellina",
+  "stato": "sicuro",
+  "dist": 24,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "stazione": {
+  "nome": "Stazione",
+  "it": "Stazione di Vicenza",
+  "stato": "sicuro",
+  "dist": 63,
+  "altri": [],
+  "en": "Vicenza railway station",
+  "tipo": "wikipedia"
+ },
+ "basilica-dei-santi-felice-e-fortunato": {
+  "nome": "Basilica dei Santi Felice e Fortunato",
+  "it": "Basilica dei Santi Felice e Fortunato",
+  "stato": "sicuro",
+  "dist": 17,
+  "altri": [],
+  "en": "Basilica of Saints Felix and Fortunatus",
+  "tipo": "wikipedia"
+ },
+ "chiesa-di-santa-maria-in-araceli": {
+  "nome": "Chiesa di Santa Maria in Araceli",
+  "it": "Chiesa di Santa Maria in Araceli",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "en": "Church of Santa Maria in Araceli",
+  "fr": "Église de Santa Maria in Araceli",
+  "de": "Kirche Santa Maria in Araceli",
+  "es": "Iglesia de Santa Maria in Araceli",
+  "tipo": "regola"
+ },
+ "abbazia-di-sant-agostino": {
+  "nome": "Abbazia di Sant'Agostino",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "en": "Abbey of Sant'Agostino",
+  "fr": "Abbaye de Sant'Agostino",
+  "de": "Abtei Sant'Agostino",
+  "es": "Abadía de Sant'Agostino",
+  "tipo": "regola"
+ },
+ "porta-santa-lucia": {
+  "nome": "Porta Santa Lucia",
+  "it": "Santa Lucia",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Gate of Santa Lucia",
+  "fr": "Porte de Santa Lucia",
+  "de": "Tor Santa Lucia",
+  "es": "Puerta de Santa Lucia",
+  "tipo": "regola"
+ },
+ "porta-santa-croce": {
+  "nome": "Porta Santa Croce",
+  "it": "Chiesa di Santa Croce (Vicenza)",
+  "stato": "sicuro",
+  "dist": 56,
+  "altri": [],
+  "en": "Gate of Santa Croce",
+  "fr": "Porte de Santa Croce",
+  "de": "Tor Santa Croce",
+  "es": "Puerta de Santa Croce",
+  "tipo": "regola"
+ },
+ "ponte-san-michele": {
+  "nome": "Ponte San Michele",
+  "it": "Ponte San Paolo (Vicenza)",
+  "stato": "sicuro",
+  "dist": 95,
+  "altri": [],
+  "en": "Bridge of San Michele",
+  "fr": "Pont de San Michele",
+  "de": "Brücke San Michele",
+  "es": "Puente de San Michele",
+  "tipo": "regola"
+ },
+ "ponte-furo": {
+  "nome": "Ponte Furo",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "ponte-pusterla": {
+  "nome": "Ponte Pusterla",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "ca-doro-palazzo-da-schio": {
+  "nome": "Ca' d'Oro – Palazzo da Schio",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Ca' d'Oro – Palazzo da Schio",
+  "fr": "Ca' d'Oro – Palazzo da Schio",
+  "de": "Ca' d'Oro – Palazzo da Schio",
+  "es": "Ca' d'Oro – Palazzo da Schio"
+ },
+ "criptoportico-romano": {
+  "nome": "Criptoportico romano",
+  "it": "Criptoportico romano (Vicenza)",
+  "stato": "sicuro",
+  "dist": 4,
+  "altri": [],
+  "de": "Römisches Kryptoportikus (Vicenza)",
+  "en": "Roman cryptoporticus, Vicenza",
+  "es": "Criptopórtico romano (Vicenza)",
+  "tipo": "wikipedia"
+ },
+ "porton-del-luzo": {
+  "nome": "Porton del Luzo",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Porton del Luzo",
+  "fr": "Porton del Luzo",
+  "de": "Porton del Luzo",
+  "es": "Porton del Luzo"
+ },
+ "torre-del-tormento": {
+  "nome": "Torre del Tormento",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "torre-dei-coxina": {
+  "nome": "Torre dei Coxina",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "loggia-valmarana": {
+  "nome": "Loggia Valmarana",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "torre-dei-loschi": {
+  "nome": "Torre dei Loschi",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "porta-san-bortolo": {
+  "nome": "Porta San Bortolo",
+  "it": "Ospedale San Bortolo",
+  "stato": "sicuro",
+  "dist": 268,
+  "altri": [],
+  "en": "Gate of San Bortolo",
+  "fr": "Porte de San Bortolo",
+  "de": "Tor San Bortolo",
+  "es": "Puerta de San Bortolo",
+  "tipo": "regola"
+ },
+ "casa-cogollo": {
+  "nome": "Casa Cogollo",
+  "it": "Casa Cogollo",
+  "stato": "sicuro",
+  "dist": 13,
+  "altri": [],
+  "en": "Casa Cogollo",
+  "fr": "Casa Cogollo",
+  "tipo": "wikipedia"
+ },
+ "cappella-valmarana": {
+  "nome": "Cappella Valmarana",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Cappella Valmarana",
+  "fr": "Cappella Valmarana",
+  "de": "Cappella Valmarana",
+  "es": "Cappella Valmarana"
+ },
+ "palazzo-porto-breganze": {
+  "nome": "Palazzo Porto Breganze",
+  "it": "Palazzo Porto in piazza Castello",
+  "stato": "sicuro",
+  "dist": 74,
+  "altri": [],
+  "en": "Palazzo Porto in Piazza Castello",
+  "es": "Palacio Porto de la Piazza Castello",
+  "fr": "Palais Porto (piazza Castello)",
+  "tipo": "wikipedia"
+ },
+ "arco-delle-scalette": {
+  "nome": "Arco delle Scalette",
+  "it": "Arco delle Scalette",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "en": "Arco delle Scalette",
+  "es": "Arco delle Scalette",
+  "fr": "Arco delle Scalette",
+  "tipo": "wikipedia"
+ },
+ "palazzo-civena-trissino": {
+  "nome": "Palazzo Civena Trissino",
+  "it": "Palazzo Civena",
+  "stato": "sicuro",
+  "dist": 34,
+  "altri": [],
+  "en": "Palazzo Civena",
+  "fr": "Palais Civena",
+  "tipo": "wikipedia"
+ },
+ "palazzo-iseppo-da-porto": {
+  "nome": "Palazzo Iseppo da Porto",
+  "it": "Palazzo Porto",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "de": "Palazzo Iseppo Porto",
+  "en": "Palazzo Porto, Vicenza",
+  "fr": "Palais Porto",
+  "tipo": "wikipedia"
+ },
+ "palazzo-da-monte-migliorini": {
+  "nome": "Palazzo da Monte Migliorini",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-capra": {
+  "nome": "Palazzo Capra",
+  "it": "Palazzo Capra",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "chiesa-di-santa-maria-nova": {
+  "nome": "Chiesa di Santa Maria Nova",
+  "it": "Chiesa di Santa Maria Nova (Vicenza)",
+  "stato": "sicuro",
+  "dist": 96,
+  "altri": [],
+  "en": "Santa Maria Nova, Vicenza",
+  "fr": "Église Santa Maria Nova de Vicence",
+  "tipo": "wikipedia"
+ },
+ "villa-trissino-cricoli": {
+  "nome": "Villa Trissino a Cricoli",
+  "it": "Villa Trissino (Cricoli)",
+  "stato": "sicuro",
+  "dist": 154,
+  "altri": [],
+  "en": "Villa Trissino (Cricoli)",
+  "es": "Villa Trissino (Cricoli)",
+  "fr": "Villa Trissino (Cricoli)",
+  "tipo": "wikipedia"
+ },
+ "casa-natale-trissino": {
+  "nome": "Casa natale di Gian Giorgio Trissino",
+  "it": "Gian Giorgio Trissino",
+  "stato": "incerto",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Casa natale di Gian Giorgio Trissino",
+  "fr": "Casa natale di Gian Giorgio Trissino",
+  "de": "Casa natale di Gian Giorgio Trissino",
+  "es": "Casa natale di Gian Giorgio Trissino"
+ },
+ "palazzo-trissino-al-duomo": {
+  "nome": "Palazzo Trissino al Duomo",
+  "it": "Palazzo Trissino al Duomo",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzo-trissino-al-corso": {
+  "nome": "Palazzo Trissino al Corso",
+  "it": "Palazzo Trissino",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "portale-giardino-valmarana-castello": {
+  "nome": "Portale del giardino Valmarana al Castello",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Portale del giardino Valmarana al Castello",
+  "fr": "Portale del giardino Valmarana al Castello",
+  "de": "Portale del giardino Valmarana al Castello",
+  "es": "Portale del giardino Valmarana al Castello"
+ },
+ "chiesa-di-santa-maria-della-misericordia": {
+  "nome": "Chiesa di Santa Maria della Misericordia",
+  "it": "Chiesa di Santa Maria della Misericordia",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Church of Santa Maria della Misericordia",
+  "fr": "Église de Santa Maria della Misericordia",
+  "de": "Kirche Santa Maria della Misericordia",
+  "es": "Iglesia de Santa Maria della Misericordia",
+  "tipo": "regola"
+ },
+ "piazza-san-lorenzo": {
+  "nome": "Piazza San Lorenzo",
+  "it": "Chiesa di San Lorenzo (Vicenza)",
+  "stato": "sicuro",
+  "dist": 80,
+  "altri": [],
+  "en": "Square of San Lorenzo",
+  "fr": "Place de San Lorenzo",
+  "de": "Platz San Lorenzo",
+  "es": "Plaza de San Lorenzo",
+  "tipo": "regola"
+ },
+ "casa-natale-fogazzaro": {
+  "nome": "Casa natale di Antonio Fogazzaro",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Casa natale di Antonio Fogazzaro",
+  "fr": "Casa natale di Antonio Fogazzaro",
+  "de": "Casa natale di Antonio Fogazzaro",
+  "es": "Casa natale di Antonio Fogazzaro"
+ },
+ "palazzo-loschi-zileri-dal-verme": {
+  "nome": "Palazzo Loschi Zileri dal Verme",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "palazzetto-capra-lampertico": {
+  "nome": "Palazzetto Capra Lampertico",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Palazzetto Capra Lampertico",
+  "fr": "Palazzetto Capra Lampertico",
+  "de": "Palazzetto Capra Lampertico",
+  "es": "Palazzetto Capra Lampertico"
+ },
+ "palazzo-bonin-schiavetto": {
+  "nome": "Palazzo Bonin Schiavetto",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
+ },
+ "chiesa-di-san-pietro": {
+  "nome": "Chiesa di San Pietro",
+  "it": "Basilica di San Pietro in Vaticano",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Church of San Pietro",
+  "fr": "Église de San Pietro",
+  "de": "Kirche San Pietro",
+  "es": "Iglesia de San Pietro",
+  "tipo": "regola"
+ },
+ "chiesa-di-san-domenico": {
+  "nome": "Chiesa di San Domenico",
+  "it": "Chiesa di San Rocco (Vicenza)",
+  "stato": "incerto",
+  "dist": 1386,
+  "altri": [],
+  "en": "Church of San Domenico",
+  "fr": "Église de San Domenico",
+  "de": "Kirche San Domenico",
+  "es": "Iglesia de San Domenico",
+  "tipo": "regola"
+ },
+ "chiesa-di-san-rocco": {
+  "nome": "Chiesa di San Rocco",
+  "it": "Chiesa di San Rocco (Vicenza)",
+  "stato": "sicuro",
+  "dist": 18,
+  "altri": [],
+  "en": "Church of San Rocco",
+  "fr": "Église de San Rocco",
+  "de": "Kirche San Rocco",
+  "es": "Iglesia de San Rocco",
+  "tipo": "regola"
+ }
+}

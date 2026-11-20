@@ -1,17 +1,23 @@
 {
  "torre-dona-castello": {
   "nome": "Castello di Rovigo e Torre Donà",
-  "it": "Torre Donà",
-  "stato": "sicuro",
-  "dist": 0,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "en": "Castle of Rovigo e Torre Donà",
+  "fr": "Château de Rovigo e Torre Donà",
+  "de": "Burg Rovigo e Torre Donà",
+  "es": "Castillo de Rovigo e Torre Donà",
+  "tipo": "regola"
  },
  "piazza-vittorio-emanuele-ii": {
   "nome": "Piazza Vittorio Emanuele II",
   "it": "Piazza Vittorio Emanuele II (Rovigo)",
   "stato": "sicuro",
   "dist": 53,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "palazzo-roverella": {
   "nome": "Palazzo Roverella",
@@ -19,400 +25,475 @@
   "stato": "sicuro",
   "dist": 9,
   "altri": [],
-  "en": "Palazzo Roverella, Rovigo"
+  "en": "Palazzo Roverella, Rovigo",
+  "tipo": "wikipedia"
  },
  "palazzo-roncale": {
   "nome": "Palazzo Roncale",
   "it": "Palazzo Roncale",
   "stato": "sicuro",
   "dist": 10,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "tempio-la-rotonda": {
   "nome": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
-  "it": "Oratorio della Beata Vergine della Concezione",
+  "it": "Chiesa della Beata Vergine del Soccorso (Rovigo)",
   "stato": "sicuro",
-  "dist": 69,
-  "altri": []
+  "dist": 79,
+  "tipo": "invariato",
+  "en": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
+  "fr": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
+  "de": "Tempio della Beata Vergine del Soccorso (La Rotonda)",
+  "es": "Tempio della Beata Vergine del Soccorso (La Rotonda)"
  },
  "duomo-santo-stefano": {
   "nome": "Concattedrale di Santo Stefano Papa e Martire",
-  "it": "Duomo di Rovigo",
-  "stato": "sicuro",
-  "dist": 42,
-  "altri": [],
-  "fr": "Cathédrale de Rovigo"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Concattedrale di Santo Stefano Papa e Martire",
+  "fr": "Concattedrale di Santo Stefano Papa e Martire",
+  "de": "Concattedrale di Santo Stefano Papa e Martire",
+  "es": "Concattedrale di Santo Stefano Papa e Martire"
  },
  "teatro-sociale": {
   "nome": "Teatro Sociale",
   "it": "Teatro Sociale (Rovigo)",
   "stato": "sicuro",
   "dist": 23,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "museo-dei-grandi-fiumi": {
   "nome": "Museo dei Grandi Fiumi",
   "it": "Museo dei grandi fiumi",
   "stato": "sicuro",
   "dist": 61,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "piazzetta-annonaria": {
   "nome": "Piazzetta Annonaria",
-  "it": "Pescia",
-  "stato": "incerto",
-  "dist": 156604,
-  "altri": [],
-  "de": "Pescia",
-  "en": "Pescia",
-  "es": "Pescia",
-  "fr": "Pescia"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Piazzetta Annonaria",
+  "fr": "Piazzetta Annonaria",
+  "de": "Piazzetta Annonaria",
+  "es": "Piazzetta Annonaria"
  },
  "porta-san-bortolo": {
   "nome": "Porta San Bortolo (Porta San Bartolomeo)",
   "it": "Porta San Bortolo",
   "stato": "sicuro",
   "dist": 0,
-  "altri": []
+  "altri": [],
+  "en": "Gate of San Bortolo (Porta San Bartolomeo)",
+  "fr": "Porte de San Bortolo (Porta San Bartolomeo)",
+  "de": "Tor San Bortolo (Porta San Bartolomeo)",
+  "es": "Puerta de San Bortolo (Porta San Bartolomeo)",
+  "tipo": "regola"
  },
  "accademia-dei-concordi": {
   "nome": "Accademia dei Concordi",
-  "it": "Biblioteca dell'Accademia dei Concordi di Rovigo",
-  "stato": "sicuro",
-  "dist": 13,
-  "altri": []
+  "it": "Accademia dei Concordi",
+  "stato": "incerto",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Accademia dei Concordi",
+  "fr": "Accademia dei Concordi",
+  "de": "Accademia dei Concordi",
+  "es": "Accademia dei Concordi"
  },
  "loggia-dei-nodari": {
   "nome": "Loggia dei Nodari (Municipio)",
-  "it": "Villa comunale di Portogruaro",
-  "stato": "incerto",
-  "dist": 113156,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
  },
  "pescheria-nuova": {
   "nome": "Pescheria Nuova",
-  "it": "Pescheria Nuova",
-  "stato": "incerto",
-  "dist": 205613,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Pescheria Nuova",
+  "fr": "Pescheria Nuova",
+  "de": "Pescheria Nuova",
+  "es": "Pescheria Nuova"
  },
  "chiesa-santi-francesco-e-giustina": {
   "nome": "Chiesa dei Santi Francesco e Giustina",
   "it": "Chiesa dei Santi Francesco e Giustina",
   "stato": "sicuro",
   "dist": 17,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "chiesa-san-domenico": {
   "nome": "Chiesa di Sant'Antonio Abate detta San Domenico",
-  "it": "Chiesa di Sant'Antonio Abate (Rovigo)",
-  "stato": "sicuro",
-  "dist": 0,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "en": "Church of Sant'Antonio Abate detta San Domenico",
+  "fr": "Église de Sant'Antonio Abate detta San Domenico",
+  "de": "Kirche Sant'Antonio Abate detta San Domenico",
+  "es": "Iglesia de Sant'Antonio Abate detta San Domenico",
+  "tipo": "regola"
  },
  "torre-pighin": {
   "nome": "Torre Pighin",
   "it": "Torre Pighin",
   "stato": "sicuro",
   "dist": 28,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "cimitero-ebraico": {
   "nome": "Cimitero ebraico di Rovigo",
-  "it": "Cimiteri ebraici in Italia",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
   "altri": [],
-  "de": "Liste jüdischer Friedhöfe in Italien"
+  "tipo": "da decidere"
  },
  "palazzina-minelli": {
   "nome": "Palazzina Minelli",
-  "it": "Rovigo",
-  "stato": "incerto",
-  "dist": 1200,
-  "altri": [],
-  "de": "Rovigo",
-  "en": "Rovigo",
-  "es": "Rovigo",
-  "fr": "Rovigo"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Palazzina Minelli",
+  "fr": "Palazzina Minelli",
+  "de": "Palazzina Minelli",
+  "es": "Palazzina Minelli"
  },
  "palazzo-silvestri": {
   "nome": "Palazzo Silvestri",
-  "it": "Palazzo Roncale",
-  "stato": "sicuro",
-  "dist": 245,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
  },
  "arco-dei-bocciati": {
   "nome": "Arco dei Bocciati",
-  "it": "Italo Balbo",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
-  "altri": [],
-  "de": "Italo Balbo",
-  "en": "Italo Balbo",
-  "es": "Italo Balbo",
-  "fr": "Italo Balbo"
+  "tipo": "invariato",
+  "en": "Arco dei Bocciati",
+  "fr": "Arco dei Bocciati",
+  "de": "Arco dei Bocciati",
+  "es": "Arco dei Bocciati"
  },
  "porta-sant-agostino": {
   "nome": "Porta Sant'Agostino",
-  "it": "Porta Sant'Agostino",
-  "stato": "incerto",
-  "dist": 179960,
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
   "altri": [],
-  "fr": "Porta Sant'Agostino"
+  "en": "Gate of Sant'Agostino",
+  "fr": "Porte de Sant'Agostino",
+  "de": "Tor Sant'Agostino",
+  "es": "Puerta de Sant'Agostino",
+  "tipo": "regola"
  },
  "adigetto-scomparso": {
   "nome": "L'Adigetto scomparso",
-  "it": "Chiesa di Santa Giustina (Rovigo)",
-  "stato": "sicuro",
-  "dist": 187,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "L'Adigetto scomparso",
+  "fr": "L'Adigetto scomparso",
+  "de": "L'Adigetto scomparso",
+  "es": "L'Adigetto scomparso"
  },
  "palazzo-gran-guardia": {
   "nome": "Palazzo della Gran Guardia",
   "it": "Palazzo del Corpo di Guardia (Rovigo)",
   "stato": "sicuro",
   "dist": 29,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "piazza-giuseppe-garibaldi": {
   "nome": "Piazza Giuseppe Garibaldi",
   "it": "Piazza Giuseppe Garibaldi (Rovigo)",
   "stato": "sicuro",
   "dist": 8,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "oratorio-santissima-concezione": {
   "nome": "Oratorio della Santissima Concezione (Chiesetta del Cristo)",
-  "it": "Basilica della Santissima Annunziata",
-  "stato": "incerto",
-  "dist": 150047,
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
   "altri": [],
-  "de": "Santissima Annunziata (Florenz)",
-  "en": "Santissima Annunziata, Florence",
-  "es": "Basílica de la Santísima Anunciación (Florencia)",
-  "fr": "Basilique de la Santissima Annunziata"
+  "tipo": "da decidere"
  },
  "piazza-umberto-merlin": {
   "nome": "Piazza Umberto Merlin (ex Ghetto ebraico)",
-  "it": "Comunità ebraica di Rovigo",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "monumento-giovanni-miani": {
   "nome": "Monumento a Giovanni Miani",
-  "it": "Piazza Giuseppe Garibaldi (Rovigo)",
-  "stato": "sicuro",
-  "dist": 371,
-  "altri": []
+  "it": "Giovanni Miani",
+  "stato": "incerto",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Monumento a Giovanni Miani",
+  "fr": "Monumento a Giovanni Miani",
+  "de": "Monumento a Giovanni Miani",
+  "es": "Monumento a Giovanni Miani"
  },
  "cimitero-monumentale-rovigo": {
   "nome": "Cimitero monumentale di Rovigo",
-  "it": "Cimitero di guerra",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
   "altri": [],
-  "de": "Soldatenfriedhof",
-  "en": "War grave",
-  "es": "Cementerio militar",
-  "fr": "Cimetière militaire"
+  "tipo": "da decidere"
  },
  "fontana-della-riconoscenza": {
   "nome": "Fontana della Riconoscenza",
-  "it": "Stazione di Rovigo",
-  "stato": "sicuro",
-  "dist": 235,
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
   "altri": [],
-  "en": "Rovigo railway station"
+  "tipo": "da decidere"
  },
  "ex-liceo-celio": {
   "nome": "Ex Liceo Classico Celio – Urban Digital Center",
   "it": null,
   "stato": "nessuno",
   "dist": null,
-  "altri": []
+  "tipo": "invariato",
+  "en": "Ex Liceo Classico Celio – Urban Digital Center",
+  "fr": "Ex Liceo Classico Celio – Urban Digital Center",
+  "de": "Ex Liceo Classico Celio – Urban Digital Center",
+  "es": "Ex Liceo Classico Celio – Urban Digital Center"
  },
  "casa-umberto-merlin": {
   "nome": "Casa di Umberto Merlin",
   "it": "Umberto Merlin",
   "stato": "incerto",
   "dist": null,
-  "altri": [],
-  "de": "Umberto Merlin",
-  "en": "Umberto Merlin"
+  "tipo": "invariato",
+  "en": "Casa di Umberto Merlin",
+  "fr": "Casa di Umberto Merlin",
+  "de": "Casa di Umberto Merlin",
+  "es": "Casa di Umberto Merlin"
  },
  "palazzo-angeli": {
   "nome": "Palazzo Angeli",
   "it": "Palazzo Angeli",
   "stato": "sicuro",
   "dist": 4,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "palazzo-venezze": {
   "nome": "Palazzo Venezze",
   "it": "Palazzo Venezze",
   "stato": "sicuro",
   "dist": 11,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "chiesa-san-bartolomeo-apostolo": {
   "nome": "Chiesa di San Bartolomeo Apostolo",
   "it": "Chiesa di San Bartolomeo (Rovigo)",
   "stato": "sicuro",
   "dist": 15,
-  "altri": []
+  "altri": [],
+  "en": "Church of San Bartolomeo Apostolo",
+  "fr": "Église de San Bartolomeo Apostolo",
+  "de": "Kirche San Bartolomeo Apostolo",
+  "es": "Iglesia de San Bartolomeo Apostolo",
+  "tipo": "regola"
  },
  "palazzo-poste-telegrafi": {
   "nome": "Palazzo delle Poste e Telegrafi",
   "it": "Palazzo delle Poste (Rovigo)",
   "stato": "sicuro",
   "dist": 0,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "palazzo-vescovile-vescovado-vecchio": {
   "nome": "Palazzo Vescovile (Vescovado Vecchio)",
-  "it": "Palazzo Vescovile (Brescia)",
-  "stato": "incerto",
-  "dist": 133218,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": [],
+  "tipo": "da decidere"
  },
  "oratorio-beata-vergine-pompei": {
   "nome": "Oratorio della Beata Vergine di Pompei",
   "it": "Oratorio della Beata Vergine di Pompei (Rovigo)",
   "stato": "sicuro",
   "dist": 196,
-  "altri": []
+  "altri": [],
+  "tipo": "da decidere"
  },
  "mure-san-giuseppe": {
   "nome": "Via Mure San Giuseppe",
-  "it": "Chiesa della Beata Vergine del Soccorso (Rovigo)",
-  "stato": "sicuro",
-  "dist": 384,
-  "altri": [],
-  "fr": "Église Santa Maria del Soccorso de Rovigo"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Via Mure San Giuseppe",
+  "fr": "Via Mure San Giuseppe",
+  "de": "Via Mure San Giuseppe",
+  "es": "Via Mure San Giuseppe"
  },
  "viale-trieste": {
   "nome": "Viale Trieste",
-  "it": "Oratorio della Beata Vergine di Pompei (Rovigo)",
-  "stato": "sicuro",
-  "dist": 311,
-  "altri": []
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Viale Trieste",
+  "fr": "Viale Trieste",
+  "de": "Viale Trieste",
+  "es": "Viale Trieste"
  },
  "vicolo-longhena": {
   "nome": "Vicolo Longhena",
-  "it": "Fiorenzuola d'Arda",
-  "stato": "incerto",
-  "dist": 149750,
-  "altri": [],
-  "de": "Fiorenzuola d’Arda",
-  "en": "Fiorenzuola d'Arda",
-  "es": "Fiorenzuola d'Arda",
-  "fr": "Fiorenzuola d'Arda"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Vicolo Longhena",
+  "fr": "Vicolo Longhena",
+  "de": "Vicolo Longhena",
+  "es": "Vicolo Longhena"
  },
  "via-bortoloni": {
   "nome": "Via Mattia Bortoloni",
-  "it": "Santuario di Vicoforte",
-  "stato": "incerto",
-  "dist": 320460,
-  "altri": [],
-  "de": "Basilika von Vicoforte",
-  "en": "Sanctuary of Vicoforte",
-  "es": "Santuario de Vicoforte",
-  "fr": "Sanctuaire de Vicoforte"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Via Mattia Bortoloni",
+  "fr": "Via Mattia Bortoloni",
+  "de": "Via Mattia Bortoloni",
+  "es": "Via Mattia Bortoloni"
  },
  "via-boscolo": {
   "nome": "Via Luigi Boscolo",
   "it": "Luigi Boscolo",
   "stato": "incerto",
   "dist": null,
-  "altri": [],
-  "en": "Luigi Boscolo"
+  "tipo": "invariato",
+  "en": "Via Luigi Boscolo",
+  "fr": "Via Luigi Boscolo",
+  "de": "Via Luigi Boscolo",
+  "es": "Via Luigi Boscolo"
  },
  "ponte-della-roda": {
   "nome": "Via Ponte della Roda",
-  "it": "Ponte Bac de Roda",
-  "stato": "incerto",
-  "dist": 876478,
-  "altri": [],
-  "de": "Pont Bac de Roda",
-  "en": "Bac de Roda Bridge",
-  "es": "Puente de Bac de Roda",
-  "fr": "Pont de Bac de Roda"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Via Ponte della Roda",
+  "fr": "Via Ponte della Roda",
+  "de": "Via Ponte della Roda",
+  "es": "Via Ponte della Roda"
  },
  "mure-ospedale": {
   "nome": "Via Mure dell'Ospedale",
-  "it": "Episodi de Il cacciatore (terza stagione)",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
-  "altri": []
+  "tipo": "invariato",
+  "en": "Via Mure dell'Ospedale",
+  "fr": "Via Mure dell'Ospedale",
+  "de": "Via Mure dell'Ospedale",
+  "es": "Via Mure dell'Ospedale"
  },
  "via-badaloni": {
   "nome": "Via Nicola Badaloni",
-  "it": "Nicola Zingaretti",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
-  "altri": [],
-  "de": "Nicola Zingaretti",
-  "en": "Nicola Zingaretti",
-  "es": "Nicola Zingaretti",
-  "fr": "Nicola Zingaretti"
+  "tipo": "invariato",
+  "en": "Via Nicola Badaloni",
+  "fr": "Via Nicola Badaloni",
+  "de": "Via Nicola Badaloni",
+  "es": "Via Nicola Badaloni"
  },
  "sacro-cuore": {
   "nome": "Via del Sacro Cuore",
-  "it": "Chiesa del Sacro Cuore del Suffragio",
-  "stato": "incerto",
-  "dist": 356252,
-  "altri": [],
-  "de": "Sacro Cuore del Suffragio",
-  "en": "Sacro Cuore del Suffragio",
-  "es": "Iglesia del Sagrado Corazón del Sufragio",
-  "fr": "Église Sacro Cuore del Suffragio"
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Via del Sacro Cuore",
+  "fr": "Via del Sacro Cuore",
+  "de": "Via del Sacro Cuore",
+  "es": "Via del Sacro Cuore"
  },
  "piazza-tien-an-men": {
   "nome": "Piazza Tien An Men",
-  "it": "Protesta di piazza Tienanmen",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
   "altri": [],
-  "de": "Tian’anmen-Massaker",
-  "en": "1989 Tiananmen Square protests and massacre",
-  "es": "Protestas y masacre de la plaza de Tiananmén de 1989",
-  "fr": "Manifestations de la place Tian'anmen"
+  "tipo": "da decidere"
  },
  "via-grimani": {
   "nome": "Via Grimani",
-  "it": "Roberto Dipiazza",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
-  "altri": [],
-  "de": "Roberto Dipiazza",
-  "en": "Roberto Dipiazza"
+  "tipo": "invariato",
+  "en": "Via Grimani",
+  "fr": "Via Grimani",
+  "de": "Via Grimani",
+  "es": "Via Grimani"
  },
  "palazzo-manfredini": {
   "nome": "Palazzo Manfredini",
-  "it": "Thomas Manfredini",
-  "stato": "incerto",
+  "it": null,
+  "stato": "nessuno",
   "dist": null,
   "altri": [],
-  "en": "Thomas Manfredini",
-  "fr": "Thomas Manfredini"
+  "tipo": "da decidere"
  },
  "palazzo-pretorio": {
   "nome": "Palazzo Pretorio",
-  "it": "Palazzo di Giustizia (Rovigo)",
-  "stato": "sicuro",
-  "dist": 201,
+  "it": "Palazzo Pretorio",
+  "stato": "incerto",
+  "dist": null,
   "altri": [],
-  "en": "Rovigo Courthouse"
+  "en": "Palazzo Pretorio",
+  "fr": "Palazzo Pretorio",
+  "tipo": "da decidere"
  },
  "monumento-giacomo-matteotti": {
   "nome": "Monumento a Giacomo Matteotti",
-  "it": "Monumento a Giacomo Matteotti",
+  "it": "Giacomo Matteotti",
   "stato": "incerto",
-  "dist": 355439,
-  "altri": [],
-  "en": "Monument to Giacomo Matteotti, Rome"
+  "dist": null,
+  "tipo": "invariato",
+  "en": "Monumento a Giacomo Matteotti",
+  "fr": "Monumento a Giacomo Matteotti",
+  "de": "Monumento a Giacomo Matteotti",
+  "es": "Monumento a Giacomo Matteotti"
  }
 }
