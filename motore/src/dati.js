@@ -1,8 +1,9 @@
 // Dati JSON della città attiva (luoghi, mappa, orari, curiosità…). Sono caricati dal pacchetto
 // all'apertura della città; ogni lettura prende il valore corrente.
+import { localizzaLuoghi } from './nomi';
 const CACHE = {};
 export function impostaDati(nome, valore) {
-  CACHE[nome] = valore;
+  CACHE[nome] = nome === 'luoghi.json' ? localizzaLuoghi(valore) : valore;
 }
 export function datiProxy(nome) {
   return new Proxy(

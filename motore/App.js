@@ -28,6 +28,7 @@ import PannelloServizi from './src/components/PannelloServizi';
 import SchedaServizio from './src/components/SchedaServizio';
 import PannelloCuriosita from './src/components/PannelloCuriosita';
 import PannelloPersonaggi from './src/components/PannelloPersonaggi';
+import { impostaLinguaNomi } from './src/nomi';
 import { fermaAudioPersistente } from './src/components/Audioguida';
 import SchedaPersonaggio from './src/components/SchedaPersonaggio';
 import SchedaStorica from './src/components/SchedaStorica';
@@ -91,6 +92,7 @@ function Schermata({ linguaIniziale }) {
   const insets = useSafeAreaInsets();
   // la lingua del contenitore (o del telefono se mancante); si può cambiare anche dentro la città
   const [lingua, setLingua] = useState(() => (LINGUE.some((l) => l.codice === linguaIniziale) ? linguaIniziale : linguaDelDispositivo()));
+  impostaLinguaNomi(lingua); // i nomi dei luoghi seguono la lingua scelta
   const [selezionate, setSelezionate] = useState(CATEGORIE.map((c) => c.id)); // tipologie visibili
   const [soloCuore, setSoloCuore] = useState(false); // filtro "♥ Del cuore": solo i luoghi del cuore
   const [avvisoCuore, setAvvisoCuore] = useState(false); // messaggio se si tocca il filtro senza luoghi del cuore
@@ -189,7 +191,7 @@ function Schermata({ linguaIniziale }) {
         colore: coloreCategoria(l.categoria),
         ...proietta(l.latitudine, l.longitudine),
       })),
-    [luoghi, proietta]
+    [luoghi, proietta, lingua] // lingua: le etichette seguono il nome del luogo nella lingua scelta
   );
 
   // Itinerario attivo: tappe numerate, punto di partenza (se fisso) e linea del percorso a piedi

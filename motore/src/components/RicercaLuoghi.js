@@ -1,3 +1,4 @@
+import { nomiDelLuogo } from '../nomi';
 import React, { useMemo, useState } from 'react';
 import {
   Keyboard,
@@ -107,7 +108,7 @@ export default function RicercaLuoghi({
       .filter((l) => !soloAudio || haAudio(l))
       .filter(
         (l) =>
-          cerca([l.nome, l.sestiere, t(`cat_${l.categoria}`)]) || (parolaAccessibilita && conAccessibilita.has(l.id))
+          cerca([...nomiDelLuogo(l), l.sestiere, t(`cat_${l.categoria}`)]) || (parolaAccessibilita && conAccessibilita.has(l.id))
       )
       .sort(perNome);
     const vociLuoghi = luoghiTrovati.map((l) => ({
