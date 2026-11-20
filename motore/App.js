@@ -124,10 +124,11 @@ function Schermata({ linguaIniziale }) {
   const mappaRef = useRef(null);
   const t = useMemo(() => traduttore(lingua), [lingua]);
   const immagineMappa = useMemo(() => immagine(MAPPA.immagine || 'mappa-venezia.webp'), []);
-  // tessere dettagliate: Venezia le ha nel codice, le altre città le leggono dal pacchetto (tessere.json)
+  // tessere dettagliate: si leggono dal pacchetto (tessere.json), che descrive la mappa realmente installata.
+  // L'elenco nel codice (TESSERE) serve solo a Venezia se il pacchetto non ha tessere.json: era di una mappa più vecchia
+  // e, usato al posto di quello del pacchetto, faceva sgranare la mappa.
   const tessereCitta = useMemo(() => {
-    if (nomeCitta() === 'Venezia') return TESSERE;
-    if (!DATI_TESSERE.livelli) return undefined;
+    if (!DATI_TESSERE.livelli) return nomeCitta() === 'Venezia' ? TESSERE : undefined;
     const out = {};
     for (const [livello, chiavi] of Object.entries(DATI_TESSERE.livelli)) {
       out[livello] = {};
