@@ -1,0 +1,43 @@
+# Invia una mail con l'esito di un'attività pianificata (per ora: aggiornamento quindicinale degli eventi delle città).
+# Claude aggiorna i file, fa il push su main e poi lancia questo workflow con oggetto e testo della mail.
+# Si può avviare anche a mano: Actions → Notifica aggiornamenti → Run workflow.
+# Servono i segreti del repository: SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SMTP_FROM
+# (per Gmail: smtp.gmail.com, 465, l'indirizzo, una "password per le app", lo stesso indirizzo).
+name: Notifica aggiornamenti
+
+on:
+  workflow_dispatch:
+    inputs:
+      oggetto:
+        description: 'oggetto della mail'
+        required: true
+      messaggio:
+        description: 'testo della mail'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  notifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Prepara il testo della mail
+        env:
+          MESSAGGIO: ${{ inputs.messaggio }}
+        run: |
+          printf '%s\n' "$MESSAGGIO" > "$RUNNER_TEMP/corpo.txt"
+          cat "$RUNNER_TEMP/corpo.txt"
+
+      - name: Invia email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: ${{ inputs.oggetto }}
+          to: federicocoppola73@gmail.com
+          from: ${{ secrets.SMTP_FROM }}
+          body: file://${{ runner.temp }}/corpo.txt
