@@ -1,0 +1,324 @@
+{
+ "piazza-dei-martiri": {
+  "nome": "Piazza dei Martiri",
+  "it": "Teatro Dino Buzzati",
+  "stato": "sicuro",
+  "dist": 108,
+  "altri": []
+ },
+ "piazza-duomo": {
+  "nome": "Piazza Duomo",
+  "it": "Duomo di Belluno",
+  "stato": "sicuro",
+  "dist": 39,
+  "altri": [],
+  "de": "Kathedrale von Belluno",
+  "en": "Belluno Cathedral",
+  "es": "Catedral basílica de San Martín (Belluno)",
+  "fr": "Basilique cathédrale San Martino"
+ },
+ "piazza-delle-erbe": {
+  "nome": "Piazza delle Erbe",
+  "it": "Teatro Dino Buzzati",
+  "stato": "sicuro",
+  "dist": 101,
+  "altri": []
+ },
+ "piazza-santa-maria-dei-battuti": {
+  "nome": "Piazza Santa Maria dei Battuti",
+  "it": "Museo civico di Belluno",
+  "stato": "sicuro",
+  "dist": 375,
+  "altri": [],
+  "es": "Museo civico di Belluno"
+ },
+ "cattedrale-di-san-martino": {
+  "nome": "Cattedrale di San Martino",
+  "it": "Duomo di Belluno",
+  "stato": "sicuro",
+  "dist": 25,
+  "altri": [],
+  "de": "Kathedrale von Belluno",
+  "en": "Belluno Cathedral",
+  "es": "Catedral basílica de San Martín (Belluno)",
+  "fr": "Basilique cathédrale San Martino"
+ },
+ "chiesa-di-santo-stefano": {
+  "nome": "Chiesa di Santo Stefano",
+  "it": "Chiesa di Santo Stefano (Belluno)",
+  "stato": "sicuro",
+  "dist": 5,
+  "altri": [],
+  "en": "Santo Stefano, Belluno"
+ },
+ "chiesa-di-san-pietro": {
+  "nome": "Chiesa di San Pietro",
+  "it": "Chiesa di Santo Stefano (Belluno)",
+  "stato": "sicuro",
+  "dist": 316,
+  "altri": [],
+  "en": "Santo Stefano, Belluno"
+ },
+ "chiesa-di-santa-maria-dei-battuti": {
+  "nome": "Chiesa di Santa Maria dei Battuti",
+  "it": "Chiesa di Santa Maria dei Battuti",
+  "stato": "incerto",
+  "dist": null,
+  "altri": []
+ },
+ "battistero-del-duomo": {
+  "nome": "Battistero del Duomo",
+  "it": "Duomo di Belluno",
+  "stato": "sicuro",
+  "dist": 63,
+  "altri": [],
+  "de": "Kathedrale von Belluno",
+  "en": "Belluno Cathedral",
+  "es": "Catedral basílica de San Martín (Belluno)",
+  "fr": "Basilique cathédrale San Martino"
+ },
+ "chiesa-di-santa-maria-di-loreto": {
+  "nome": "Chiesa di Santa Maria di Loreto",
+  "it": "Belluno",
+  "stato": "sicuro",
+  "dist": 222,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "palazzo-dei-rettori": {
+  "nome": "Palazzo dei Rettori",
+  "it": "Palazzo dei Rettori",
+  "stato": "sicuro",
+  "dist": 11,
+  "altri": []
+ },
+ "palazzo-rosso": {
+  "nome": "Palazzo Rosso",
+  "it": "Provincia di Belluno",
+  "stato": "sicuro",
+  "dist": 309,
+  "altri": [],
+  "de": "Provinz Belluno",
+  "en": "Province of Belluno",
+  "es": "Provincia de Belluno",
+  "fr": "Province de Belluno"
+ },
+ "porta-dojona": {
+  "nome": "Porta Dojona",
+  "it": "Porta Dojona",
+  "stato": "sicuro",
+  "dist": 30,
+  "altri": []
+ },
+ "porta-rugo": {
+  "nome": "Porta Rugo",
+  "it": "Belluno",
+  "stato": "incerto",
+  "dist": 685,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "porta-dante": {
+  "nome": "Porta Dante",
+  "it": "Belluno",
+  "stato": "sicuro",
+  "dist": 206,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "torrione": {
+  "nome": "Torrione",
+  "it": "Belluno",
+  "stato": "sicuro",
+  "dist": 267,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "ponte-degli-alpini": {
+  "nome": "Ponte degli Alpini",
+  "it": "Ponte Vecchio (Bassano del Grappa)",
+  "stato": "incerto",
+  "dist": 56199,
+  "altri": [],
+  "de": "Ponte Vecchio (Bassano del Grappa)",
+  "en": "Ponte Vecchio, Bassano",
+  "es": "Ponte Vecchio (Bassano del Grappa)",
+  "fr": "Ponte Vecchio (Bassano del Grappa)"
+ },
+ "mubel-museo-civico-palazzo-fulcis": {
+  "nome": "MuBel – Museo Civico (Palazzo Fulcis)",
+  "it": "Museo civico di Belluno",
+  "stato": "sicuro",
+  "dist": 0,
+  "altri": [],
+  "es": "Museo civico di Belluno"
+ },
+ "museo-archeologico-palazzo-dei-giuristi": {
+  "nome": "Museo Archeologico (Palazzo dei Giuristi)",
+  "it": "Museo civico di Belluno",
+  "stato": "sicuro",
+  "dist": 220,
+  "altri": [],
+  "es": "Museo civico di Belluno"
+ },
+ "mev-museo-dell-emigrazione-veneta": {
+  "nome": "MEV – Museo dell’Emigrazione Veneta",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": []
+ },
+ "teatro-comunale-dino-buzzati": {
+  "nome": "Teatro Comunale Dino Buzzati",
+  "it": "Teatro Dino Buzzati",
+  "stato": "sicuro",
+  "dist": 24,
+  "altri": []
+ },
+ "stazione-fs-belluno": {
+  "nome": "Stazione FS di Belluno",
+  "it": "Stazione di Belluno",
+  "stato": "sicuro",
+  "dist": 28,
+  "altri": [],
+  "en": "Belluno railway station"
+ },
+ "borgo-piave": {
+  "nome": "Borgo Piave",
+  "it": "Borgo Piave",
+  "stato": "incerto",
+  "dist": 519899,
+  "altri": []
+ },
+ "palazzo-nossadani": {
+  "nome": "Palazzo Nossadani",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": []
+ },
+ "loggia-dei-ghibellini": {
+  "nome": "Loggia dei Ghibellini (Palazzo Costantini)",
+  "it": "Pazzi",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "de": "Pazzi",
+  "en": "Pazzi",
+  "es": "Pazzi",
+  "fr": "Maison de Pazzi"
+ },
+ "fontana-della-motta": {
+  "nome": "Fontana della Motta",
+  "it": "Franco Fontana (fotografo)",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "Franco Fontana",
+  "es": "Franco Fontana",
+  "fr": "Franco Fontana"
+ },
+ "ponte-zilli": {
+  "nome": "Ponte Zilli (Pontet)",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": []
+ },
+ "seminario-gregoriano": {
+  "nome": "Seminario Gregoriano",
+  "it": "Belluno",
+  "stato": "sicuro",
+  "dist": 389,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "palazzo-persicini-crocecalle": {
+  "nome": "Palazzo Persicini-Crocecalle",
+  "it": null,
+  "stato": "nessuno",
+  "dist": null,
+  "altri": []
+ },
+ "palazzo-trois-malaspina": {
+  "nome": "Palazzo Trois-Malaspina",
+  "it": "Veronica Cybo-Malaspina",
+  "stato": "incerto",
+  "dist": null,
+  "altri": []
+ },
+ "ponte-di-paglia": {
+  "nome": "Ponte di Paglia (Borgo Prà)",
+  "it": "Belluno",
+  "stato": "incerto",
+  "dist": 408,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "villa-vescovile-del-belvedere": {
+  "nome": "Villa Vescovile del Belvedere",
+  "it": "Giambattista Marson",
+  "stato": "incerto",
+  "dist": null,
+  "altri": []
+ },
+ "casa-di-andrea-brustolon": {
+  "nome": "Casa di Andrea Brustolon",
+  "it": "Belluno",
+  "stato": "sicuro",
+  "dist": 393,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "via-mezzaterra": {
+  "nome": "Via Mezzaterra",
+  "it": "Belluno",
+  "stato": "incerto",
+  "dist": 459,
+  "altri": [],
+  "de": "Belluno",
+  "en": "Belluno",
+  "es": "Belluno",
+  "fr": "Belluno"
+ },
+ "villa-buzzati-traverso": {
+  "nome": "Villa Buzzati-Traverso",
+  "it": "Dino Buzzati",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "de": "Dino Buzzati",
+  "en": "Dino Buzzati",
+  "es": "Dino Buzzati",
+  "fr": "Dino Buzzati"
+ },
+ "casa-fantuzzi": {
+  "nome": "Casa Fantuzzi",
+  "it": "De Tomaso P70",
+  "stato": "incerto",
+  "dist": null,
+  "altri": [],
+  "en": "De Tomaso Sport 5000"
+ }
+}
