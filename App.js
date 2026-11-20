@@ -14,6 +14,8 @@ import { SegnalaApp } from './motore/src/components/SegnalaProblema';
 import { LINGUE, testi, testoLingua } from './src/lingue';
 import SchedaCitta, { VERDE as VERDE_SCHEDA } from './src/components/SchedaCitta';
 import PopupAggiornamento from './src/components/PopupAggiornamento';
+import PopupAggiornamentoApp from './src/components/PopupAggiornamentoApp';
+import { controllaVersioneApp, rimandaVersione } from './src/aggiornamentoApp';
 import MappaVeneto from './src/components/MappaVeneto';
 import {
   IconaCalendario,
@@ -63,13 +65,14 @@ const COLORI = {
   'colli-euganei': '#4f7a4a',
 };
 
-// Lingua del telefono se supportata, altrimenti italiano; poi quella scelta dall'utente.
+// Lingua del telefono se è tra quelle previste (it, en, fr, de, es), altrimenti inglese;
+// poi, se l'utente ne ha scelta una a mano, vale quella.
 function linguaIniziale() {
   try {
-    const codice = getLocales()[0]?.languageCode;
-    return LINGUE.includes(codice) ? codice : 'it';
+    const codice = getLocales()[0]?.languageCode?.toLowerCase();
+    return LINGUE.includes(codice) ? codice : 'en';
   } catch {
-    return 'it';
+    return 'en';
   }
 }
 
@@ -92,6 +95,7 @@ function AppRadice() {
   const [daCancellare, setDaCancellare] = useState(null); // id della città nel popup "Cancellare…?"
   const [novita, setNovita] = useState({}); // { id: riepilogo delle novità dell'aggiornamento }
   const [daMostrareAggiornamento, setDaMostrareAggiornamento] = useState(null); // id della città nel popup "Aggiornamento di…"
+  const [nuovaVersioneApp, setNuovaVersioneApp] = useState(null); // { versione, novita } se c'è una versione più nuova dell'app
 
   const [daAggiornare, setDaAggiornare] = useState([]); // città installate con una versione più recente sul server
   const [occupata, setOccupata] = useState(null); // id della città in download/rimozione
@@ -109,6 +113,8 @@ function AppRadice() {
   useEffect(() => {
     // segnalazioni rimaste sul telefono senza connessione: si riprova a ogni avvio
     inviaInAttesa();
+    // nuova versione dell'app sullo store? (nessun avviso senza connessione)
+    controllaVersioneApp().then(setNuovaVersioneApp);
     leggiStato().then((s) => {
       setStato(s);
       controllaAggiornamenti(s)
@@ -374,6 +380,19 @@ function AppRadice() {
           scarica(id, 'completo');
         }}
       />
+
+      {/* avviso nuova versione dell'app: solo quando non c'è un altro popup aperto */}
+      {!daMostrareAggiornamento && !daCancellare && !linguaAperta && !creditiAperti && !mappaAperta ? (
+        <PopupAggiornamentoApp
+          info={nuovaVersioneApp}
+          lingua={lingua}
+          t={t}
+          onChiudi={() => {
+            if (nuovaVersioneApp) rimandaVersione(nuovaVersioneApp.versione);
+            setNuovaVersioneApp(null);
+          }}
+        />
+      ) : null}
 
       <Modal visible={!!citta} transparent animationType="fade" onRequestClose={() => setDaCancellare(null)}>
         {/* un solo contenitore a tutto schermo: sfondo scuro e popup centrato (un po' sopra il centro) */}

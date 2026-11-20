@@ -6,7 +6,7 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 
 - Catalogo con 7 città (Venezia, Verona, Padova, Treviso, Vicenza, Rovigo, Belluno), tutte con pacchetto pubblicato in `pacchetti/`.
 - Schermata iniziale per scegliere, scaricare, aggiornare, aprire e rimuovere le città. La città attiva e quelle installate sono salvate in `stato.json`.
-- Lingue: italiano, inglese, francese, tedesco e spagnolo.
+- Lingue: italiano, inglese, francese, tedesco e spagnolo. Al primo avvio l'app usa la lingua del telefono; se non è tra queste cinque, inglese. Poi vale la lingua scelta a mano dall'utente.
 - Dentro la città: elenco e schede dei luoghi, mappa con zoom, personaggi, itinerari, meteo e marea, cartoline e condivisione. Dove il pacchetto li include: cibi, fermate e orari dei mezzi.
 - Acquisti: non ancora implementati. In `catalogo.json` il campo `sku` è vuoto per tutte le città; i prezzi non sono nel codice e arriveranno dallo store.
 
@@ -23,6 +23,7 @@ App regionale per esplorare le città del Veneto. Il gratuito include i servizi 
 - Schermata iniziale: una città non acquistata ha **Visita** (la prima volta scarica la prova) e **Acquista**; una acquistata ha **Apri**, il cestino (popup di conferma; l'acquisto resta) e **Aggiorna** se c'è una versione nuova; se è acquistata ma non è sul telefono, **Scarica**.
 - Acquisti: `src/acquisti.js`. Lo store non è ancora collegato: nelle build di prova (`EXPO_PUBLIC_SIMULA_ACQUISTI=1` nel profilo `preview` di `eas.json`) e in sviluppo l'acquisto è simulato; nella build per lo store il pulsante avvisa che gli acquisti arriveranno a breve.
 - Il manifest e `dati/immagini.json` si rigenerano con `python3 strumenti/prepara_pacchetto.py pacchetti/<città>`.
+- Avviso nuova versione dell'app (il contenitore, non le città): `app_novita.json` nella radice del repository (`versione` + righe di `novita` nelle cinque lingue). All'avvio l'app lo legge da GitHub; se `versione` è più nuova di quella installata (`app.json`) e il link dello store c'è (`motore/src/store.js`), compare il popup "Nuova versione disponibile" con le novità e il pulsante dello store. "Più tardi" non lo ripropone finché non esce una versione ancora più nuova. Quando pubblichi una versione sullo store: alza `versione` in `app_novita.json` e scrivi le novità. Codice: `src/aggiornamentoApp.js`, `src/components/PopupAggiornamentoApp.js`. Su iOS non compare finché `LINK_APP_STORE` è vuoto.
 - Novità degli aggiornamenti: lo stesso script confronta la città con la versione pubblicata (git HEAD) e aggiunge in `manifest.json` (campo `novita`) cosa è cambiato: luoghi nuovi/aggiornati/tolti, foto, eventi, itinerari, curiosità, cibi, mezzi, servizi, mappa e MB. Una nota scritta a mano va in `pacchetti/<città>/nota_aggiornamento.json` (`{ "it": "…", "en": "…" }`) e si svuota da sola. L'app mostra tutto nel popup che si apre toccando **Aggiorna** (`src/components/PopupAggiornamento.js`).
 - Campo facoltativo `sede` di un luogo (testo nelle lingue, es. `{ "it": "presso Ca' Pesaro" }`): compare accanto alla zona nella scheda, per i musei ospitati in un altro edificio.
 - Campo facoltativo `note_finali` di un luogo: riquadri in fondo alla scheda, `[{ "icona": "🪑", "titolo": { "it": "…" }, "testo": { "it": "…" } }]`.

@@ -72,6 +72,10 @@ const TESTI = {
     agg_aspetti: { orari: "orari", descrizioni: "descrizioni", accessibilita: "accessibilità", prezzi: "prezzi", foto: "foto", altro: "altri dettagli" },
     agg_piuTardi: "Più tardi",
     agg_ora: "Aggiorna ora",
+    app_titolo: "Nuova versione disponibile",
+    app_versione: "Versione {v}",
+    app_cosaCambia: "Novità dell'app",
+    app_aggiorna: "Aggiorna l'app",
   },
   en: {
     titolo: 'Veneto: Monuments & more',
@@ -141,6 +145,10 @@ const TESTI = {
     agg_aspetti: { orari: "opening hours", descrizioni: "descriptions", accessibilita: "accessibility", prezzi: "prices", foto: "photos", altro: "other details" },
     agg_piuTardi: "Later",
     agg_ora: "Update now",
+    app_titolo: "New version available",
+    app_versione: "Version {v}",
+    app_cosaCambia: "What's new in the app",
+    app_aggiorna: "Update the app",
   },
   fr: {
     titolo: 'Vénétie : Monuments et plus',
@@ -210,6 +218,10 @@ const TESTI = {
     agg_aspetti: { orari: "horaires", descrizioni: "descriptions", accessibilita: "accessibilité", prezzi: "prix", foto: "photos", altro: "autres détails" },
     agg_piuTardi: "Plus tard",
     agg_ora: "Mettre à jour",
+    app_titolo: "Nouvelle version disponible",
+    app_versione: "Version {v}",
+    app_cosaCambia: "Nouveautés de l'application",
+    app_aggiorna: "Mettre à jour l'application",
   },
   de: {
     titolo: 'Venetien: Denkmäler & mehr',
@@ -279,6 +291,10 @@ const TESTI = {
     agg_aspetti: { orari: "Öffnungszeiten", descrizioni: "Beschreibungen", accessibilita: "Barrierefreiheit", prezzi: "Preise", foto: "Fotos", altro: "weitere Details" },
     agg_piuTardi: "Später",
     agg_ora: "Jetzt aktualisieren",
+    app_titolo: "Neue Version verfügbar",
+    app_versione: "Version {v}",
+    app_cosaCambia: "Neu in der App",
+    app_aggiorna: "App aktualisieren",
   },
   es: {
     titolo: 'Véneto: Monumentos y más',
@@ -348,6 +364,10 @@ const TESTI = {
     agg_aspetti: { orari: "horarios", descrizioni: "descripciones", accessibilita: "accesibilidad", prezzi: "precios", foto: "fotos", altro: "otros detalles" },
     agg_piuTardi: "Más tarde",
     agg_ora: "Actualizar ahora",
+    app_titolo: "Nueva versión disponible",
+    app_versione: "Versión {v}",
+    app_cosaCambia: "Novedades de la app",
+    app_aggiorna: "Actualizar la app",
   },
 };
 

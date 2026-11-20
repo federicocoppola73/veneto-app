@@ -1,0 +1,11 @@
+{
+  "_nota": "Novità dell'app (il contenitore, non le città). Quando esce una nuova versione sullo store: 1) alza 'versione' (uguale a quella di app.json), 2) scrivi le righe delle novità nelle cinque lingue. L'app confronta 'versione' con quella installata e, se è più nuova, mostra il popup 'Nuova versione disponibile' con il pulsante dello store. Se 'versione' non è più nuova di quella installata non compare nulla.",
+  "versione": "1.1.0",
+  "novita": {
+    "it": ["Esempio: nuove schede storiche in tutte le città", "Esempio: audioguide e correzioni"],
+    "en": ["Example: new history sections in every city", "Example: audio guides and fixes"],
+    "fr": ["Exemple : nouvelles fiches d'histoire dans toutes les villes", "Exemple : audioguides et corrections"],
+    "de": ["Beispiel: neue Geschichtskarten in allen Städten", "Beispiel: Audioguides und Korrekturen"],
+    "es": ["Ejemplo: nuevas fichas de historia en todas las ciudades", "Ejemplo: audioguías y correcciones"]
+  }
+}

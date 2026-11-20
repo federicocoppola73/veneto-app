@@ -2675,13 +2675,14 @@ export function testoLocalizzato(campo, lingua) {
   return campo[lingua] || campo[LINGUA_PREDEFINITA] || Object.values(campo)[0] || '';
 }
 
-// Lingua del telefono, se è tra quelle supportate
+// Lingua del telefono, se è tra quelle supportate; altrimenti inglese
+// (LINGUA_PREDEFINITA, l'italiano, resta il ripiego per i testi mancanti)
 export function linguaDelDispositivo() {
   try {
     const locale = Intl.DateTimeFormat().resolvedOptions().locale || '';
     const codice = locale.slice(0, 2).toLowerCase();
-    return LINGUE.some((l) => l.codice === codice) ? codice : LINGUA_PREDEFINITA;
+    return LINGUE.some((l) => l.codice === codice) ? codice : 'en';
   } catch {
-    return LINGUA_PREDEFINITA;
+    return 'en';
   }
 }
