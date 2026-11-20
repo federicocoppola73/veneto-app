@@ -6,7 +6,7 @@ import sys
 
 L = ('en', 'fr', 'de', 'es')
 tutte = lambda x: (x, x, x, x)
-pal = lambda x: (f'Palazzo {x}', f'Palais {x}', f'Palazzo {x}', f'Palacio {x}')
+pal = lambda x: tutte(f'Palazzo {x}')  # Palazzo e Piazza restano in italiano in tutte le lingue
 villa = lambda x: tutte(f'Villa {x}')
 piazza = lambda x: tutte(f'Piazza {x}')
 ponte = lambda x: (f'{x} Bridge', f'Pont {x}', f'{x}-Brücke', f'Puente {x}')
@@ -29,7 +29,7 @@ M = {  # id -> 4 forme (en, fr, de, es); gli id non elencati qui sono nel dizion
         'piazza-garibaldi': piazza('Garibaldi'), 'piazza-antenore': piazza('Antenore'),
         'torre-degli-anziani': ('Tower of the Anziani', 'Tour des Anziani', 'Turm der Anziani', 'Torre de los Anziani'),
         'porta-altinate': porta('Altinate'), 'porta-savonarola': porta('Savonarola'),
-        'palazzo-zuckermann-museo-di-arti-applicate-e-decorative': ('Palazzo Zuckermann – Museum of Applied and Decorative Arts', 'Palais Zuckermann – Musée des arts appliqués et décoratifs', 'Palazzo Zuckermann – Museum für angewandte und dekorative Kunst', 'Palacio Zuckermann – Museo de Artes Aplicadas y Decorativas'),
+        'palazzo-zuckermann-museo-di-arti-applicate-e-decorative': ('Palazzo Zuckermann – Museum of Applied and Decorative Arts', 'Palazzo Zuckermann – Musée des arts appliqués et décoratifs', 'Palazzo Zuckermann – Museum für angewandte und dekorative Kunst', 'Palazzo Zuckermann – Museo de Artes Aplicadas y Decorativas'),
         'palazzo-della-cassa-di-risparmio': pal('della Cassa di Risparmio'),
         'giardino-della-rotonda': ('Rotonda Garden', 'Jardin de la Rotonda', 'Rotonda-Garten', 'Jardín de la Rotonda'),
         'museo-del-risorgimento-e-dell-eta-contemporanea': ('Museum of the Risorgimento and the Contemporary Age', "Musée du Risorgimento et de l'époque contemporaine", 'Museum des Risorgimento und der Zeitgeschichte', 'Museo del Risorgimento y de la Edad Contemporánea'),
@@ -56,7 +56,7 @@ M = {  # id -> 4 forme (en, fr, de, es); gli id non elencati qui sono nel dizion
     },
     'vicenza': {
         'villa-la-rotonda': villa('La Rotonda'), 'piazza-delle-erbe': piazza('delle Erbe'), 'piazza-matteotti': piazza('Matteotti'),
-        'palazzo-chiericati-museo-civico': ('Palazzo Chiericati (Civic Museum)', 'Palais Chiericati (Musée civique)', 'Palazzo Chiericati (Städtisches Museum)', 'Palacio Chiericati (Museo Cívico)'),
+        'palazzo-chiericati-museo-civico': ('Palazzo Chiericati (Civic Museum)', 'Palazzo Chiericati (Musée civique)', 'Palazzo Chiericati (Städtisches Museum)', 'Palazzo Chiericati (Museo Cívico)'),
         'loggia-del-capitaniato': tutte('Loggia del Capitaniato'),
         'parco-querini': parco('Querini'), 'giardini-salvi': giardini('Salvi'),
         'museo-naturalistico-e-archeologico': ('Museum of Natural History and Archaeology of Santa Corona', 'Musée naturaliste et archéologique de Santa Corona', 'Naturkundliches und Archäologisches Museum Santa Corona', 'Museo Naturalístico y Arqueológico de Santa Corona'),
@@ -73,7 +73,7 @@ M = {  # id -> 4 forme (en, fr, de, es); gli id non elencati qui sono nel dizion
     },
     'treviso': {
         'piazza-indipendenza': piazza('Indipendenza'),
-        'palazzo-del-podesta-e-torre-civica': ('Palazzo del Podestà and Civic Tower', 'Palais du Podestat et Tour civique', 'Palazzo del Podestà und Stadtturm', 'Palacio del Podestà y Torre Cívica'),
+        'palazzo-del-podesta-e-torre-civica': ('Palazzo del Podestà and Civic Tower', 'Palazzo del Podestà et Tour civique', 'Palazzo del Podestà und Stadtturm', 'Palazzo del Podestà y Torre Cívica'),
         'palazzo-bomben': pal('Bomben'),
         'parco-delle-mura': ('Walls Park', 'Parc des Remparts', 'Stadtmauerpark', 'Parque de las Murallas'),
         'museo-luigi-bailo': ('Luigi Bailo Museum', 'Musée Luigi Bailo', 'Museum Luigi Bailo', 'Museo Luigi Bailo'),
@@ -96,8 +96,8 @@ M = {  # id -> 4 forme (en, fr, de, es); gli id non elencati qui sono nel dizion
         'cimitero-ebraico': ('Jewish Cemetery of Rovigo', 'Cimetière juif de Rovigo', 'Jüdischer Friedhof Rovigo', 'Cementerio judío de Rovigo'),
         'palazzo-silvestri': pal('Silvestri'), 'palazzo-gran-guardia': pal('della Gran Guardia'), 'palazzo-angeli': pal('Angeli'),
         'palazzo-venezze': pal('Venezze'), 'palazzo-manfredini': pal('Manfredini'), 'palazzo-pretorio': pal('Pretorio'),
-        'palazzo-poste-telegrafi': ('Post and Telegraph Palace', 'Palais des Postes et Télégraphes', 'Post- und Telegrafenpalast', 'Palacio de Correos y Telégrafos'),
-        'palazzo-vescovile-vescovado-vecchio': ("Bishop's Palace (Old Bishopric)", 'Palais épiscopal (Ancien évêché)', 'Bischofspalast (Altes Bistum)', 'Palacio Episcopal (Antiguo Obispado)'),
+        'palazzo-poste-telegrafi': tutte('Palazzo delle Poste e Telegrafi'),
+        'palazzo-vescovile-vescovado-vecchio': tutte('Palazzo Vescovile (Vescovado Vecchio)'),
         'oratorio-santissima-concezione': ('Oratory of the Santissima Concezione (Chiesetta del Cristo)', 'Oratoire de la Santissima Concezione (Chiesetta del Cristo)', 'Oratorium Santissima Concezione (Chiesetta del Cristo)', 'Oratorio de la Santissima Concezione (Chiesetta del Cristo)'),
         'cimitero-monumentale-rovigo': ('Monumental Cemetery of Rovigo', 'Cimetière monumental de Rovigo', 'Monumentalfriedhof Rovigo', 'Cementerio monumental de Rovigo'),
         'fontana-della-riconoscenza': ('Fountain of Gratitude', 'Fontaine de la Reconnaissance', 'Brunnen der Dankbarkeit', 'Fuente de la Gratitud'),

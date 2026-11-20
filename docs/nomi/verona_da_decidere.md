@@ -5,8 +5,8 @@ piazze e logge restano in italiano; i nomi di musei e luoghi descrittivi sono tr
 
 | id | Italiano | EN | FR | DE | ES |
 |---|---|---|---|---|---|
-| palazzo-della-ragione | Palazzo della Ragione | Palazzo della Ragione | Palais della Ragione | Palazzo della Ragione | Palacio della Ragione |
-| palazzo-del-capitanio | Palazzo del Capitanio | Palazzo del Capitanio | Palais del Capitanio | Palazzo del Capitanio | Palacio del Capitanio |
+| palazzo-della-ragione | Palazzo della Ragione | Palazzo della Ragione | Palazzo della Ragione | Palazzo della Ragione | Palazzo della Ragione |
+| palazzo-del-capitanio | Palazzo del Capitanio | Palazzo del Capitanio | Palazzo del Capitanio | Palazzo del Capitanio | Palazzo del Capitanio |
 | ponte-scaligero | Ponte Scaligero | Scaliger Bridge | Pont Scaliger | Scaligerbrücke | Puente Scaligero |
 | ponte-navi | Ponte Navi | Navi Bridge | Pont Navi | Navi-Brücke | Puente Navi |
 | giardini-pradaval | Giardini Pradaval | Pradaval Gardens | Jardins Pradaval | Pradaval-Gärten | Jardines Pradaval |
@@ -23,5 +23,5 @@ piazze e logge restano in italiano; i nomi di musei e luoghi descrittivi sono tr
 | ponte-garibaldi | Ponte Garibaldi | Garibaldi Bridge | Pont Garibaldi | Garibaldi-Brücke | Puente Garibaldi |
 | ponte-della-vittoria | Ponte della Vittoria | Victory Bridge | Pont de la Victoire | Siegesbrücke | Puente de la Victoria |
 | torre-dell-abbazia | Torre dell'Abbazia | Abbey Tower | Tour de l'Abbaye | Abteiturm | Torre de la Abadía |
-| palazzo-del-podesta | Palazzo del Podestà | Palazzo del Podestà | Palais del Podestà | Palazzo del Podestà | Palacio del Podestà |
+| palazzo-del-podesta | Palazzo del Podestà | Palazzo del Podestà | Palazzo del Podestà | Palazzo del Podestà | Palazzo del Podestà |
 | giardini-della-giarina | Giardini della Giarina | Giarina Gardens | Jardins de la Giarina | Giarina-Gärten | Jardines de la Giarina |

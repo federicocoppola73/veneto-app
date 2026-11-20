@@ -10,8 +10,8 @@ piazze e logge restano in italiano; i nomi di musei e luoghi descrittivi sono tr
 | battistero-della-cattedrale | Battistero della Cattedrale | Baptistery of the Cathedral | Baptistère de la cathédrale | Baptisterium der Kathedrale | Baptisterio de la catedral |
 | giardino-treves-de-bonfili | Giardino Treves de' Bonfili | Treves de' Bonfili Garden | Jardin Treves de' Bonfili | Treves de' Bonfili-Garten | Jardín Treves de' Bonfili |
 | museo-bottacin | Museo Bottacin | Bottacin Museum | Musée Bottacin | Museum Bottacin | Museo Bottacin |
-| palazzo-moroni | Palazzo Moroni | Palazzo Moroni | Palais Moroni | Palazzo Moroni | Palacio Moroni |
-| palazzo-maldura | Palazzo Maldura | Palazzo Maldura | Palais Maldura | Palazzo Maldura | Palacio Maldura |
+| palazzo-moroni | Palazzo Moroni | Palazzo Moroni | Palazzo Moroni | Palazzo Moroni | Palazzo Moroni |
+| palazzo-maldura | Palazzo Maldura | Palazzo Maldura | Palazzo Maldura | Palazzo Maldura | Palazzo Maldura |
 | ponte-delle-torricelle | Ponte delle Torricelle | Torricelle Bridge | Pont des Torricelle | Torricelle-Brücke | Puente de las Torricelle |
 | piazza-della-frutta | Piazza della Frutta | Piazza della Frutta | Piazza della Frutta | Piazza della Frutta | Piazza della Frutta |
 | piazza-del-santo | Piazza del Santo | Piazza del Santo | Piazza del Santo | Piazza del Santo | Piazza del Santo |
@@ -21,8 +21,8 @@ piazze e logge restano in italiano; i nomi di musei e luoghi descrittivi sono tr
 | torre-degli-anziani | Torre degli Anziani | Tower of the Anziani | Tour des Anziani | Turm der Anziani | Torre de los Anziani |
 | porta-altinate | Porta Altinate | Altinate Gate | Porte Altinate | Altinate-Tor | Puerta Altinate |
 | porta-savonarola | Porta Savonarola | Savonarola Gate | Porte Savonarola | Savonarola-Tor | Puerta Savonarola |
-| palazzo-zuckermann-museo-di-arti-applicate-e-decorative | Palazzo Zuckermann – Museo di Arti Applicate e Decorative | Palazzo Zuckermann – Museum of Applied and Decorative Arts | Palais Zuckermann – Musée des arts appliqués et décoratifs | Palazzo Zuckermann – Museum für angewandte und dekorative Kunst | Palacio Zuckermann – Museo de Artes Aplicadas y Decorativas |
-| palazzo-della-cassa-di-risparmio | Palazzo della Cassa di Risparmio | Palazzo della Cassa di Risparmio | Palais della Cassa di Risparmio | Palazzo della Cassa di Risparmio | Palacio della Cassa di Risparmio |
+| palazzo-zuckermann-museo-di-arti-applicate-e-decorative | Palazzo Zuckermann – Museo di Arti Applicate e Decorative | Palazzo Zuckermann – Museum of Applied and Decorative Arts | Palazzo Zuckermann – Musée des arts appliqués et décoratifs | Palazzo Zuckermann – Museum für angewandte und dekorative Kunst | Palazzo Zuckermann – Museo de Artes Aplicadas y Decorativas |
+| palazzo-della-cassa-di-risparmio | Palazzo della Cassa di Risparmio | Palazzo della Cassa di Risparmio | Palazzo della Cassa di Risparmio | Palazzo della Cassa di Risparmio | Palazzo della Cassa di Risparmio |
 | giardino-della-rotonda | Giardino della Rotonda | Rotonda Garden | Jardin de la Rotonda | Rotonda-Garten | Jardín de la Rotonda |
 | museo-del-risorgimento-e-dell-eta-contemporanea | Museo del Risorgimento e dell'Età Contemporanea | Museum of the Risorgimento and the Contemporary Age | Musée du Risorgimento et de l'époque contemporaine | Museum des Risorgimento und der Zeitgeschichte | Museo del Risorgimento y de la Edad Contemporánea |
 | ponte-dei-quattro-papi | Ponte dei quattro papi | Bridge of the Four Popes | Pont des Quatre Papes | Brücke der vier Päpste | Puente de los Cuatro Papas |
