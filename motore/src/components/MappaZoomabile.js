@@ -1,7 +1,15 @@
 import React, { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
-import { Animated, Image, PanResponder, PixelRatio, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Animated, Image, PanResponder, PixelRatio, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 
 const ZOOM_MIN = 1;
+// iOS decodifica ogni <Image> alla dimensione del suo riquadro (in punti x densità dello schermo) e NON tiene
+// conto dello "scale" applicato dopo: con la mappa ingrandita l'immagine appariva sgranata. Per averla nitida
+// l'immagine viene disegnata più grande di FATTORE volte e riportata alla misura giusta con scale 1/FATTORE.
+// Su Android resizeMethod="scale" risolve già il problema, quindi lì il fattore resta 1.
+const FATTORE_BASE = Platform.OS === 'ios' ? 3 : 1; // immagine di base (6000 px): più di 3 pesa troppo in memoria
+const FATTORE_TESSERE = Platform.OS === 'ios' ? 10 : 1; // tessere da 512 px: così si decodificano a piena risoluzione
+// da quale densità (pixel reali per pixel dell'immagine base) si passa alle tessere dettagliate
+const SOGLIA_TESSERE = Platform.OS === 'ios' ? 0.78 : 1.15;
 const ZOOM_MAX = 40;
 const DIMENSIONE_MARKER = 22;
 const DIMENSIONE_NUMERO = 22; // pallini numerati delle tappe di un itinerario
@@ -64,6 +72,27 @@ function nomiDaMostrare(punti, s, rapporto, evidenziato) {
 const distanza = (a, b) => Math.hypot(a.pageX - b.pageX, a.pageY - b.pageY);
 const centro = (a, b) => ({ x: (a.pageX + b.pageX) / 2, y: (a.pageY + b.pageY) / 2 });
 const limita = (v, min, max) => Math.min(max, Math.max(min, v));
+
+// Contenitore delle immagini della mappa: con fattore > 1 è grande "fattore" volte e rimpicciolito con scale,
+// restando centrato sullo stesso punto, così iOS decodifica le immagini a risoluzione più alta (vedi FATTORE_BASE).
+function Ingrandita({ fattore, base, children }) {
+  if (fattore === 1) return children;
+  return (
+    <View
+      pointerEvents="none"
+      style={{
+        position: 'absolute',
+        left: (-(fattore - 1) * base.w) / 2,
+        top: (-(fattore - 1) * base.h) / 2,
+        width: base.w * fattore,
+        height: base.h * fattore,
+        transform: [{ scale: 1 / fattore }],
+      }}
+    >
+      {children}
+    </View>
+  );
+}
 
 /**
  * Mappa con zoom (due dita), spostamento (un dito) e pallini cliccabili.
@@ -419,7 +448,7 @@ function MappaZoomabile(
   const tessereVisibili = useMemo(() => {
     if (!tessere || !vista || !base || !area) return [];
     const densita = vista.s * base.rapporto * PixelRatio.get();
-    const livello = densita <= 1.15 ? 0 : densita <= 2.6 || !tessere[2] ? 1 : 2;
+    const livello = densita <= SOGLIA_TESSERE ? 0 : densita <= 2.6 || !tessere[2] ? 1 : 2;
     if (livello === 0 || !tessere[livello]) return [];
     const lato = dimensioneTessera / 2 ** livello; // lato della tessera in pixel dell'immagine base
     // rettangolo visibile, in pixel dell'immagine base
@@ -478,28 +507,32 @@ function MappaZoomabile(
             transform: [{ translateX: tx }, { translateY: ty }, { scale: scala }],
           }}
         >
-          <Image
-            source={sorgente}
-            style={{ width: base.w, height: base.h }}
-            resizeMode="contain"
-            resizeMethod="scale"
-          />
-          {tessereVisibili.map((t) => (
+          <Ingrandita fattore={FATTORE_BASE} base={base}>
             <Image
-              key={t.chiave}
-              source={t.sorgente}
+              source={sorgente}
+              style={{ width: base.w * FATTORE_BASE, height: base.h * FATTORE_BASE }}
+              resizeMode="contain"
               resizeMethod="scale"
-              fadeDuration={0}
-              style={{
-                position: 'absolute',
-                left: t.i * t.lato * base.rapporto,
-                top: t.j * t.lato * base.rapporto,
-                // un decimo di pixel in più evita sottili fessure tra le tessere
-                width: t.lato * base.rapporto + 0.1,
-                height: t.lato * base.rapporto + 0.1,
-              }}
             />
-          ))}
+          </Ingrandita>
+          <Ingrandita fattore={FATTORE_TESSERE} base={base}>
+            {tessereVisibili.map((t) => (
+              <Image
+                key={t.chiave}
+                source={t.sorgente}
+                resizeMethod="scale"
+                fadeDuration={0}
+                style={{
+                  position: 'absolute',
+                  left: t.i * t.lato * base.rapporto * FATTORE_TESSERE,
+                  top: t.j * t.lato * base.rapporto * FATTORE_TESSERE,
+                  // un decimo di pixel in più evita sottili fessure tra le tessere
+                  width: (t.lato * base.rapporto + 0.1) * FATTORE_TESSERE,
+                  height: (t.lato * base.rapporto + 0.1) * FATTORE_TESSERE,
+                }}
+              />
+            ))}
+          </Ingrandita>
           {[
             { colore: 'rgba(255,255,255,0.95)', spessore: SPESSORE_PERCORSO + 3, bordo: true }, // bordo bianco
             { spessore: SPESSORE_PERCORSO },
