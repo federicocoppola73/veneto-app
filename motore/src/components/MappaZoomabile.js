@@ -6,7 +6,7 @@ const ZOOM_MIN = 1;
 // conto dello "scale" applicato dopo: con la mappa ingrandita l'immagine appariva sgranata. Per averla nitida
 // l'immagine viene disegnata più grande di FATTORE volte e riportata alla misura giusta con scale 1/FATTORE.
 // Su Android resizeMethod="scale" risolve già il problema, quindi lì il fattore resta 1.
-const FATTORE_BASE = Platform.OS === 'ios' ? 3 : 1; // immagine di base (6000 px): più di 3 pesa troppo in memoria
+const FATTORE_BASE = Platform.OS === 'ios' ? 2 : 1; // immagine di base (6000 px): 2 tiene la memoria bassa anche sugli iPhone meno recenti (3 = più nitida ma circa 70 MB)
 const FATTORE_TESSERE = Platform.OS === 'ios' ? 10 : 1; // tessere da 512 px: così si decodificano a piena risoluzione
 // da quale densità (pixel reali per pixel dell'immagine base) si passa alle tessere dettagliate
 const SOGLIA_TESSERE = Platform.OS === 'ios' ? 0.78 : 1.15;
