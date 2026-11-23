@@ -40,6 +40,8 @@ export default function Calendario({ dati, lingua, t, onVediMappa, filtroLuogo =
   const [origine, setOrigine] = useState(null);
 
   const contributo = useMemo(() => new Set(dati?.contributo || []), [dati]);
+  // il contributo d'accesso esiste solo per alcune città (oggi Venezia): senza giorni nei dati, legenda, link e avviso non si mostrano
+  const haContributo = contributo.size > 0;
   const eventiTutti = dati?.eventi || [];
   // il contributo d'accesso (giorni in rosso) non dipende dal luogo: resta visibile anche col filtro
   const eventi = filtro ? eventiTutti.filter((e) => e.luogoId === filtro.id) : eventiTutti;
@@ -181,18 +183,22 @@ export default function Calendario({ dati, lingua, t, onVediMappa, filtroLuogo =
 
             {/* legenda */}
             <View style={styles.legenda}>
-              <View style={styles.voceLegenda}>
-                <View style={[styles.quadretto, { backgroundColor: ROSSO }]} />
-                <Text style={styles.testoLegenda}>{t('cal_contributo')}</Text>
-              </View>
+              {haContributo && (
+                <View style={styles.voceLegenda}>
+                  <View style={[styles.quadretto, { backgroundColor: ROSSO }]} />
+                  <Text style={styles.testoLegenda}>{t('cal_contributo')}</Text>
+                </View>
+              )}
               <View style={styles.voceLegenda}>
                 <View style={[styles.pallino, styles.pallinoPieno, { marginTop: 0 }]} />
                 <Text style={styles.testoLegenda}>{t('cal_eventi')}</Text>
               </View>
             </View>
-            <Text style={styles.linkContributo} onPress={() => Linking.openURL(URL_CONTRIBUTO).catch(() => {})}>
-              {t('cal_info')} ›
-            </Text>
+            {haContributo && (
+              <Text style={styles.linkContributo} onPress={() => Linking.openURL(URL_CONTRIBUTO).catch(() => {})}>
+                {t('cal_info')} ›
+              </Text>
+            )}
 
             {/* giorno scelto */}
             <View style={styles.giornoScelta}>
